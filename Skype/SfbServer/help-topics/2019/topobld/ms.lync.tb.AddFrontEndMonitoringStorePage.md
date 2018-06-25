@@ -3,7 +3,6 @@ title: "Add Front End Monitoring Store Page"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -42,4 +41,4 @@ Click **Help** to access context sensitive help, such as this page.
   
 ## See also
 
-[Associate a monitoring store with a Front End pool in Skype for Business Server 2015](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
+[Associate a monitoring store with a Front End pool in Skype for Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
