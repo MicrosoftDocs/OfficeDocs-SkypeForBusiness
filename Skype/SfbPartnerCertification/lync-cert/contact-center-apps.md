@@ -454,7 +454,7 @@ With staff located throughout the Americas, EMEA, and Asia-Pacific, Zeacom has t
 
 Zylinc Contact Center is used with Lync for successful contact centers in several industries and around the worl
 
------------------------------
+* * *
 ### Related resources
 [Microsoft Lync](http://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
 

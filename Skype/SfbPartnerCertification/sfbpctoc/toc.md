@@ -6,7 +6,7 @@
 ### [USB audio and video devices](../skype-bus/devices-usb-devices.md) 
 ### [PCs](../skype-bus/devices-pcs.md)  
 ### [Meeting room devices and solutions](../skype-bus/devices-meeting-rooms.md)  
-## Infrastructure
+## [Infrastructure](../lync-cert/infrastructure-qualified-node.md)
 ### [Gateways](../skype-bus/infra-gateways.md) 
 ### [IP PBXs](../skype-bus/infra-ip-pbxs.md) 
 ### [Survivable branch appliances](../skype-bus/infra-sba.md)  
