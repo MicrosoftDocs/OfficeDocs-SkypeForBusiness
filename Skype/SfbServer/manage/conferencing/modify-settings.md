@@ -1,20 +1,19 @@
 ---
-title: "Modify meeting configuration settings in Skype for Business Server 2015"
+title: "Modify meeting configuration settings in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
-description: "Summary: Learn how to modify meeting configuration settings in Skype for Business Server 2015."
+description: "Summary: Learn how to modify meeting configuration settings in Skype for Business Server."
 ---
 
-# Modify meeting configuration settings in Skype for Business Server 2015
+# Modify meeting configuration settings in Skype for Business Server
  
-**Summary:** Learn how to modify meeting configuration settings in Skype for Business Server 2015.
+**Summary:** Learn how to modify meeting configuration settings in Skype for Business Server.
   
 You can modify meeting configuration settings by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
   

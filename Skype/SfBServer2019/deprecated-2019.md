@@ -169,30 +169,35 @@ Documentation for the following features (including all relevant plan/deploy/man
     - [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../SfbServer/deploy/deploy-conferencing/office-web-app-server.md) &#x2714;
     - [Deploy SRS v1 Administrative Web Portal in Skype for Business Server 2015](../SfbServer/deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md) 
         - Contains external links to "Microsoft Skype Room Systems v1 Administrative Web Portal for Skype for Business Server 2015," "Updates for Skype for Business Server 2015." Step 3 of installation includes "%Program Files%\Skype for Business Server 2015" file location. Also, link to "Required DNS Records for Automatic Client Sign-In" has note that the content is no longer being updated. Are screen shots OK as is?
-    - [Manage dial-in conferencing access numbers in Skype for Business Server 2015](../SfbServer/manage/conferencing/access-numbers.md)
-    - [Assign conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/assign-policies.md)
-    - [Manage conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/conferencing-policies.md)
-    - [Manage conferencing server configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/conferencing-server-configuration-settings.md)
-    - [Manage conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/conferencing.md)
-    - [Create conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/create-policies.md)
-    - [Create meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/create-settings.md)
-    - [Delete conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/delete-policies.md)
-    - [Delete meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/delete-settings.md)
-    - [Manage dial-in conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/dial-in-conferencing.md)
-    - [Create conference directories in Skype for Business Server 2015](../SfbServer/manage/conferencing/directories.md)
-    - [Enable or disable dial-in conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/enable-or-disable.md)
-    - [Manage conference join and leave announcements in Skype for Business Server 2015](../SfbServer/manage/conferencing/join-and-leave-announcements.md)
-    - [Manage key mapping for DTMF commands in Skype for Business Server 2015](../SfbServer/manage/conferencing/key-mapping-for-dtmf-commands.md)
-    - [Manage meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/meeting-configuration-settings.md)
-    - [Configure the meeting join page in Skype for Business Server 2015](../SfbServer/manage/conferencing/meeting-join-page.md)
-    - [Modify conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/modify-policies.md)
-    - [Modify meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/modify-settings.md)
-    - [Configure PIN-less meeting join in Skype for Business Server](../SfbServer/manage/conferencing/pin-less-meeting-join.md)
-    - [Manage PIN policies for dial-in conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/pin-policies.md)
-    - [Test dial-in conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/tests.md)
-    - [View meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/view-settings.md)
-    - [View conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/view.md)
-    - [Send welcome email to dial-in users in Skype for Business Server 2015](../SfbServer/manage/conferencing/welcome-emails.md)
+    - [Manage dial-in conferencing access numbers in Skype for Business Server 2015](../SfbServer/manage/conferencing/access-numbers.md) &#x2714;
+    - [Assign conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/assign-policies.md) &#x2714;
+    - [Manage conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/conferencing-policies.md) &#x2714;
+    - [Manage conferencing server configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/conferencing-server-configuration-settings.md) &#x2714;
+    - [Manage conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/conferencing.md) &#x2714;
+    - [Create conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/create-policies.md) &#x2714;
+    - [Create meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/create-settings.md) &#x2714;
+    - [Delete conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/delete-policies.md) &#x2714;
+    - [Delete meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/delete-settings.md) &#x2714;
+    - [Manage dial-in conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/dial-in-conferencing.md) &#x2714;
+    - [Create conference directories in Skype for Business Server 2015](../SfbServer/manage/conferencing/directories.md) &#x2714;
+    - [Enable or disable dial-in conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/enable-or-disable.md) &#x2714;
+    - [Manage conference join and leave announcements in Skype for Business Server 2015](../SfbServer/manage/conferencing/join-and-leave-announcements.md) 
+        - Contains UI step that references "Skype for Business 2015."
+    - [Manage key mapping for DTMF commands in Skype for Business Server 2015](../SfbServer/manage/conferencing/key-mapping-for-dtmf-commands.md) 
+        - Contains UI step that references "Skype for Business 2015."
+    - [Manage meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/meeting-configuration-settings.md) &#x2714;
+    - [Configure the meeting join page in Skype for Business Server 2015](../SfbServer/manage/conferencing/meeting-join-page.md) 
+        - Specifically mentions "the 2015 version of Skype for Business client."
+    - [Modify conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/modify-policies.md) &#x2714;
+    - [Modify meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/modify-settings.md) &#x2714;
+    - [Configure PIN-less meeting join in Skype for Business Server](../SfbServer/manage/conferencing/pin-less-meeting-join.md) &#x2714;
+    - [Manage PIN policies for dial-in conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/pin-policies.md) &#x2714;
+    - [Test dial-in conferencing in Skype for Business Server 2015](../SfbServer/manage/conferencing/tests.md) 
+        - Contains 3 procedures with UI steps that reference "Skype for Business 2015."
+    - [View meeting configuration settings in Skype for Business Server 2015](../SfbServer/manage/conferencing/view-settings.md) &#x2714;
+    - [View conferencing policies in Skype for Business Server 2015](../SfbServer/manage/conferencing/view.md) &#x2714;
+    - [Send welcome email to dial-in users in Skype for Business Server 2015](../SfbServer/manage/conferencing/welcome-emails.md) 
+        - Contains UI step that references "Skype for Business 2015."
 - Edge (unclear, verify w/ Heidi  XMPP Gateway related topics in Edge)
 - Enterprise Voice (plan, deploy, manage)
 - Exchange integration (plan, deploy, manage)
