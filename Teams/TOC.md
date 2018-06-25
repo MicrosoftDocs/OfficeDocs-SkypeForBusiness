@@ -1,12 +1,14 @@
+<!-- ============================================================ -->
 # Get started
 
 ## [Overview of Teams](Teams-overview.md)
 ## [Quick start - Teams planning guide](quick-start-enable-teams.md)
 ## [Tools and workshops: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
 ## [Office 365 licensing for Teams](office-365-licensing.md)
+<!-- ============================================================ -->
 
-<!-- End Get Started -->
 
+<!-- ============================================================ -->
 # Plan
 
 ## [Check your environment’s readiness for Teams](environment-readiness.md)
@@ -16,11 +18,11 @@
 ## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ## [Create change management strategy](change-management-strategy.md)
 ## [Get tools to support a rollout of Teams](rollout-tools.md)
-
-<!-- End Plan -->
-
+<!-- ============================================================ -->
 
 
+
+<!-- ============================================================ -->
 # Configure and deploy
 
 ## [Overview of a Teams deployment](deployment-overview.md)
@@ -56,11 +58,10 @@
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 ### [Set up Communications Credits for your organization](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [What are Communications Credits?](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+<!-- ============================================================ -->
 
 
-
-
-
+<!-- ============================================================ -->
 # Manage
 ## [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 ## Call analytics
@@ -81,20 +82,18 @@
 ### [Dimensions and measures available in Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Set up Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Use Call Analytics to troubleshoot poor Skype for Business call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+<!-- ============================================================ -->
 
 
-
-
-
+<!-- ============================================================ -->
 # Training
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 ## [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
+<!-- ============================================================ -->
 
 
-
-
-
+<!-- ============================================================ -->
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
 ### [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
@@ -105,11 +104,10 @@
 ## [4 - Drive value through user adoption](continue-journey.md)
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+<!-- ============================================================ -->
 
 
-
-
-
+<!-- ============================================================ -->
 # Security & compliance
 ## [Overview of security and compliance in Teams](security-compliance-overview.md)
 ## [Skype for Business and Teams data collection practices](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -118,11 +116,10 @@
 ## [Place a Teams user or team on legal hold](legal-hold.md)
 ## [Search the audit log for events in Teams](audit-log-events.md)
 ## [Use Content Search in Teams](content-search.md)
+<!-- ============================================================ -->
 
 
-
-
-
+<!-- ============================================================ -->
 # Interopearability with Office 365
 ## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ## [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
@@ -133,13 +130,11 @@
 ### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
 ### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
+<!-- ============================================================ -->
 
 
-
-
-
+<!-- ============================================================ -->
 # Features
-
 ## Accessibility
 ### [Accessibility Declaration of Conformance for Skype for Business Online in France](/SkypeForBusiness/legal-and-regulatory/accessibility-declaration-of-conformance-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Accessibility solutions for Skype for Business Online in France](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -182,7 +177,6 @@
 ### [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Manage phone numbers for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Deploying desk phones](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
 ### Audio Conferencing
 #### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
 #### [Audio Conferencing in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -215,9 +209,6 @@
 #### [Turn on or off entry and exit announcements for meetings](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Audio Conferencing Complimentary Dial Out Period](/SkypeForBusiness/legal-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
-
-
-
 ### Calling plans
 #### [Quick start guide - Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)
 #### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
@@ -243,8 +234,6 @@
 #### [What are emergency locations, addresses and call routing?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Calling Plans in Office 365 - code of practice for the United Kingdom (U.K.)](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)](/SkypeForBusiness/legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
-
 ### Phone System
 #### [Change the default language for voicemail greetings and emails](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/change-the-default-language-for-greetings-and-emails?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -255,13 +244,15 @@
 #### [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set up Phone System voicemail](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [What are Phone System auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
-
 ### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
+<!-- ============================================================ -->
 
+
+<!-- ============================================================ -->
 # Teams for education
 ## [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ## [Teams resources for Education admins](resources-teams-edu.md)
+<!-- ============================================================ -->
 
 
 # [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
