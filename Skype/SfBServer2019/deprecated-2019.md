@@ -153,14 +153,14 @@ Documentation for the following features (including all relevant plan/deploy/man
     - [User models in Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/user-models.md)
 - Clients (plan, deploy, manage)
 - Conferencing (plan, deploy, manage)
-    - [Plan your conferencing topology for Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/conferencing-topology.md) &#x261a;
+    - [Plan your conferencing topology for Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/conferencing-topology.md) 
         - Contains links to 2015 non-evergreened topics: "Topology Basics for Skype for Business Server 2015," "Reference topologies for Skype for Business Server 2015," "Create a file share in Skype for Business Server 2015"
-    - [Plan for conferencing in Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/conferencing.md) &#x261a;
+    - [Plan for conferencing in Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/conferencing.md) 
         - Contains link to 2015 non-evergreened topic: "Configure your on-premises deployment for Skype Meeting Broadcast"
     - [Plan for dial-in conferencing in Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/dial-in-conferencing.md) &#x2714;
-    - [Hardware and software requirements for conferencing in Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/hardware-and-software-requirements.md) &#x261a;
+    - [Hardware and software requirements for conferencing in Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/hardware-and-software-requirements.md) 
         - Contains links to 2015-only topics: "Server requirements for Skype for Business Server 2015," "Environmental requirements for Skype for Business Server 2015"
-    - [Plan for large meetings in Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/large-meetings.md)  &#x261a;
+    - [Plan for large meetings in Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/large-meetings.md) 
         - Contains link to 2015 non-evergreened topic: "Configure your on-premises deployment for Skype Meeting Broadcast"
     - [Deploy conferencing in Skype for Business Server 2015](../SfbServer/deploy/deploy-conferencing/deploy-conferencing.md)
     - [Configure dial-in conferencing in Skype for Business Server 2015](../SfbServer/deploy/deploy-conferencing/dial-in-conferencing.md)
