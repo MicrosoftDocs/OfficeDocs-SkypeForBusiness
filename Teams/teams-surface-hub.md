@@ -3,7 +3,7 @@ title: Microsoft Teams on Surface Hub - Admin Help
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/23/2018
+ms.date: 06/25/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -201,9 +201,11 @@ The packages can be found at [\\\scratch2\scratch\TeamsOnShub\ppkg](\\scratch2\s
 
 ## Known issues
  
-
 |Issue  |Comment  |
 |---------|---------|
 |When a user is in a Teams meeting and gets an incoming call from Skype for Business, if the user accepts the Skype for Business call, the Teams meeting will end and the user will be switched to the Skype for Business app.     |This is a known issue and will be corrected in a future release.         |
 |When a user is in a chat session, the user cannot like or bookmark any chat message from the chat window.     |This is a known issue and will be corrected in a future release.         |
 |When a user is in a chat session and tries to share a GIF file, the GIF appears small and the video play button is separate from the video.     |This is a known issue and will be corrected in a future release.         |
+
+> [!NOTE]
+> If your device or your organization's devices are not currently part of the Windows Insider Program and (you are in countries covered by General Data Protection Regulation (GDPR) (or you have manually changed your telemetry settings to Basic), then you must re-check that you have permitted full telemetry before you join the Insider Program. GDPR changed the default behavior of Surface Hub devices in the EU to set telemetry to Basic.
