@@ -144,14 +144,15 @@ Where a link exists, it should be ok to evergreen the topic linked to.
 Documentation for the following features (including all relevant plan/deploy/manage nodes) applies equally to Skype for Business Server 2015 and 2019:
 - Monitoring (plan, deploy, manage)  &#x2714; (need to reassess for MCX)
 - Archiving (plan, deploy, manage)  &#x2714;
-- Authentication (Manage), Modern Authentication (Plan)
+- Authentication (Manage)
+- Modern Authentication (Plan)
 - Capacity planning &#x2714;
     - [Capacity planning for Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/capacity.md)
     - [Estimating voice usage and traffic for Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md)
     - [Deployment guidelines for Mediation Server in Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md)
     - [Capacity planning user model usage for Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/user-model.md)
     - [User models in Skype for Business Server 2015](../SfbServer/plan-your-deployment/capacity/user-models.md)
-- Clients (plan, deploy, manage)
+- Clients (plan, deploy, manage)  **(Not done yet)*** - may need some clarification 
 - Conferencing (plan, deploy, manage)
     - [Plan your conferencing topology for Skype for Business Server 2015](../SfbServer/plan-your-deployment/conferencing/conferencing-topology.md) 
         - Contains links to 2015 non-evergreened topics: "Topology Basics for Skype for Business Server 2015," "Reference topologies for Skype for Business Server 2015," "Create a file share in Skype for Business Server 2015"
