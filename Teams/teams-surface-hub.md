@@ -165,9 +165,8 @@ The following is an example of adding an MDM policy configured from a central MD
  
 1. Under the **Device Management** section, tap **+**.<br>
    The **Connect to work or school** dialog box will open. 
-2. Enter the policy e-mail address and password when prompted.
-> [!NOTE]
-> There's a bug in the OS that doesn't automatically refresh the UI after you've entered your device management account. You'll need to close and re-open settings in order to see the account listed. 
+2. Enter the policy e-mail address and password when prompted.<br>
+   **NOTE:**  There's a bug in the OS that doesn't automatically refresh the UI after you've entered your device management account. You'll need to close and re-open settings in order to see the account listed. 
 3. It'll take a few minutes for the MDM policy settings to sync. If you want to force a sync, tap the **MDM account** button, and then tap the **Info** button. This will bring up the Info window where you can then tap **Sync**. 
 4. To verify that you have what you need, you can check the registry. You should see two keys under **HKLM\Software\Microsoft\Windows\CurrentVersion\PPI\VtcCallSettings**. <br><br>
    The **VtcAppMeetingHandlingMode** DWORD value indicates that Teams is the default app. The following values are recognized. <br><br>
