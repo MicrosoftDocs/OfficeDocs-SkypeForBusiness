@@ -37,5 +37,5 @@ What do you want to do? Click the link to the task that you want to perform.
     
 - [Assign a Per-User Mobility Policy](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
 

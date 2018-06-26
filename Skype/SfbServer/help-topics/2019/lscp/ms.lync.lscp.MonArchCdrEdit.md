@@ -21,5 +21,5 @@ What do you want to do? Click the link to the task that you want to perform.
     
 - [Specify retention of CDR data in Skype for Business Server 2015](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
 

@@ -23,5 +23,5 @@ What do you want to do? Click the link to the task that you want to perform.
     
 - [Delete a Registrar](http://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
 

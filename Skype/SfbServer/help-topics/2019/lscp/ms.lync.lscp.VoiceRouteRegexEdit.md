@@ -17,6 +17,6 @@ description: "Type a .NET Framework regular expression to specify the matching p
  
 Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied. 
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
   
 
