@@ -33,18 +33,18 @@ The table below lists devices certified for Direct Routing.
 
 |Vendor  |Product  |Non-Media Bypass  |Media Bypass  |Software Version|
 |---------|---------|---------|---------|---------|
-|Audiocodes    |   Mediant 500 SBC       |         |    Pending      |     7.20A.200.055     |
+|[Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |         |    Pending      |     7.20A.200.055     |
 |  |   Mediant 800 SBC       |         |         |      7.20A.200.055    |
 |     |      Mediant 2600 SBC    |         |         |    7.20A.200.055      |
 |     |   Mediant 4000 SBC       |         |         |    7.20A.200.055      |
 |     |    Mediant 1000B  SBC      |         |         |    7.20A.200.055      |
 |     |   Virtual Edition SBC       |         |         |     7.20A.200.055     |
-|Ribbon     | SBC 5110         |         |   Pending      |     V6.2     |
+|[Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110         |         |   Pending      |     V6.2     |
 |     |SBC 5110         |         |         |    V6.2      |
 |     | SBC 5400         |         |         |   V6.2       |
 |     |SBC 7000         |         |         |    V6.2      |
 |     | SBC SWe         |         |         |    V6.2      |
 |     |SBC 1000         |         |         |    V7.0.2      |
 |     | SBC 2000         |         |         |    V7.0.2      |
-|Thinktel     |    Think365 SBC      |         |    Pending     |   V1.4       |
+|[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    Think 365 SBC      |         |    Pending     |   V1.4       |
 |     |         |         |         |         |
