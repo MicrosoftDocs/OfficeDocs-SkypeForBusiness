@@ -215,6 +215,7 @@
 ### [Configure Direct Routing](direct-routing-configure.md)
 ### [Migrating to Direct Routing](direct-routing-migrating.md)
 ### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
+### [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 
 # Security & compliance
 ## [Overview of security and compliance in Teams](security-compliance-overview.md)

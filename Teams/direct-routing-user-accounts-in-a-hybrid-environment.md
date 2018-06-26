@@ -13,9 +13,6 @@ description: "Learn about different combinations of user creation and which comb
 
 # User accounts in a hybrid environment with PSTN connectivity
 
-  > [!NOTE]
-  > This is a preview release of Microsoft Phone System Direct Routing.  Product functionality and documentation are subject to change.
-
 ## About the environment
 
 This article applies to environments in which you have all of the following: 

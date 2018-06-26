@@ -13,13 +13,7 @@ description: "Learn how to configure Microsoft Phone System Direct Routing."
 
 # Configure Direct Routing
 
-  > [!NOTE]
-  > This is a preview release of Microsoft Phone System Direct Routing.  Product functionality and documentation are subject to change.
-
 If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites and to review  other steps you’ll need to take before you configure your Microsoft Phone System network. 
-
-  > [!NOTE]
-  > This document is intended for IT professionals.  
 
 This article describes how to configure Microsoft Phone System Direct Routing. It details how to pair a supported Session Border Controller (SBC) to Direct Routing and how to configure Microsoft Teams users to use Direct Routing to connect to the Public Switched Telephone Network (PSTN). To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](https://technet.microsoft.com/library/dn362831.aspx). 
 
