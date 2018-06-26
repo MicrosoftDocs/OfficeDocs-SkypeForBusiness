@@ -213,13 +213,14 @@ Documentation for the following features (including all relevant plan/deploy/man
 - Mobility (plan, deploy, manage)
 - SRS v1 and v2 (plan,deploy,manage)
 - VIS role (plan, deploy)
-    - [Plan for Video Interop Server in Skype for Business Server 2015](../SfbServer/plan-your-deployment/video-interop-server.md)
-    - [Configure a VTC for Interoperation with Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)
-    - [Configure CUCM for Interoperation with Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)
-    - [Configure the Video Interop Server in Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/configure-the-vis.md)
-    - [Create a VIS pool in Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/create-a-vis-pool.md)
-    - [Deploy the VIS server role in Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
-    - [Deploy Video Interop Server in Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md)  
+    - [Plan for Video Interop Server in Skype for Business Server 2015](../SfbServer/plan-your-deployment/video-interop-server.md) &#x2714;
+    - [Configure a VTC for Interoperation with Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md) &#x2714;
+    - [Configure CUCM for Interoperation with Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md) &#x2714;
+    - [Configure the Video Interop Server in Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/configure-the-vis.md) &#x2714;
+    - [Create a VIS pool in Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/create-a-vis-pool.md) 
+        - Contains non-evergreened link to "Create and publish new topology in Skype for Business Server 2015" x2
+    - [Deploy the VIS server role in Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) &#x2714;
+    - [Deploy Video Interop Server in Skype for Business Server 2015](../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) &#x2714;
 - Topology management
 - User account management
     - [Manage user accounts for Skype for Business Server 2015](../SfbServer/manage/user-accounts/user-accounts.md)

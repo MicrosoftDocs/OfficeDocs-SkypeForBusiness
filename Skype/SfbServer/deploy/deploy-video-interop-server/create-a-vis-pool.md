@@ -1,21 +1,20 @@
 ---
-title: "Create a VIS pool in Skype for Business Server 2015"
+title: "Create a VIS pool in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
-description: "Summary: Create a Video Interop Server pool in Skype for Business Server 2015 using Topology Builder."
+description: "Summary: Create a Video Interop Server pool in Skype for Business Server using Topology Builder."
 ---
 
-# Create a VIS pool in Skype for Business Server 2015
+# Create a VIS pool in Skype for Business Server
  
-**Summary:** Create a Video Interop Server pool in Skype for Business Server 2015 using Topology Builder.
+**Summary:** Create a Video Interop Server pool in Skype for Business Server using Topology Builder.
   
 ### Create a VIS or VIS pool using Topology Builder
 
@@ -60,8 +59,8 @@ description: "Summary: Create a Video Interop Server pool in Skype for Business 
 All tasks performed using Topology Builder should now be complete. Proceed to installing the software on the new VIS server or servers.
 ## See also
 
-[Deploy the VIS server role in Skype for Business Server 2015](deploy-the-vis-server-role.md)
+[Deploy the VIS server role in Skype for Business Server](deploy-the-vis-server-role.md)
 
-[Plan for Video Interop Server in Skype for Business Server 2015](../../plan-your-deployment/video-interop-server.md)
+[Plan for Video Interop Server in Skype for Business Server](../../plan-your-deployment/video-interop-server.md)
   
 [Create and publish new topology in Skype for Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)

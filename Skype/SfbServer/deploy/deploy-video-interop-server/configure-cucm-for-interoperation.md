@@ -1,21 +1,20 @@
 ---
-title: "Configure CUCM for Interoperation with Skype for Business Server 2015"
+title: "Configure CUCM for Interoperation with Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
-description: "Summary: Configure CUCM to work with Skype for Business Server 2015."
+description: "Summary: Configure CUCM to work with Skype for Business Server."
 ---
 
-# Configure CUCM for Interoperation with Skype for Business Server 2015
+# Configure CUCM for Interoperation with Skype for Business Server
  
-**Summary:** Configure CUCM to work with Skype for Business Server 2015.
+**Summary:** Configure CUCM to work with Skype for Business Server.
   
 > [!CAUTION]
 > This capability is tested with CUCM version 10.5 using Trunks setup over TCP only. Verify that the CUCM environment meets these criteria before proceeding. 
@@ -136,4 +135,4 @@ At this point the CUCM video gateway is configured to work with the VIS. Corresp
   
 ## See also
 
-[Configure a VTC for Interoperation with Skype for Business Server 2015](configure-a-vtc-for-interoperation.md)
+[Configure a VTC for Interoperation with Skype for Business Server](configure-a-vtc-for-interoperation.md)
