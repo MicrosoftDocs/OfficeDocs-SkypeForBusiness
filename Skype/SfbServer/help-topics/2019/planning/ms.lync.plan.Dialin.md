@@ -20,6 +20,6 @@ Skype for Business Server dial-in conferencing enables users to join the audio p
   
 For planning details about enabling dial-in conferencing for your organization, see the following topic and the topics it links to: 
   
-- [Plan for conferencing in Skype for Business Server 2015](../../../plan-your-deployment/conferencing/conferencing.md)
+- [Plan for conferencing in Skype for Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
 
