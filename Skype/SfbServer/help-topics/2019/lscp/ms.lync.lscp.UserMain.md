@@ -37,7 +37,7 @@ You can perform the following tasks on the **User Search** Control Panel page:
     
 - [Configure Telephony for Users](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
   
 ## UI Reference
 
