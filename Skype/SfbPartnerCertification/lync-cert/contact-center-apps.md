@@ -144,7 +144,7 @@ Clarity Connect includes the following out-of-the-box features:
 - Premium support
 - Self-installer
 
-Computer Talk ice Contact Center
+## Computer Talk ice Contact Center
 * * *
   **Lync 2010<br/>Lync 2013**
 
@@ -161,7 +161,7 @@ With Lync embedded in ice, it allows for unplugging of TDM PBX's at a fraction o
 Our application solutions and services allow banking, finance, government, health care, and many other industries to reduce cost while increasing competitiveness.
 We are a Microsoft Gold partner in communications and application development, communications partner of the year in Canada, and online service advisor.
 
-CreaLog Contact Center and IVR
+## CreaLog Contact Center and IVR
 * * *
   **Lync 2013**
 
@@ -314,7 +314,7 @@ Supervision: Real-time monitoring, reporting and resource forecasting.
 
 Interactive Voice Response: Provide customers with in-queue messaging, web and voice call-backs. Interactive menus guide customers to the services they seek. Access to queue statistics routes calls to queues which aren't busy.
 
-Netcall Liberty ContactCentre with Lync Integration
+## Netcall Liberty ContactCentre with Lync Integration
 * * *
   **Lync 2013**
 
@@ -416,7 +416,7 @@ Combine unified communication possibilities with contact center facilities. Inst
 The Voxtron Client for Microsoft Lync integrates your Lync application in a straight- forward way to our contact center software. You have all Lync facilities and all features of Voxtron's customer interaction software in one integrated "Client". If your requirements change, adaptations can occur quickly and smoothly. After all, a Voxtron solution is designed to develop at your pace.
 
 
-Zeacom Communications Center
+## Zeacom Communications Center
 * * *
   **Lync 2010<br/>Lync 2013**
 
