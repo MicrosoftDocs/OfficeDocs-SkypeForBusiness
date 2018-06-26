@@ -19,5 +19,5 @@ What do you want to do? Click the link to the task that you want to perform.
   
 - [Assign a Location Policy to a User](http://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
 

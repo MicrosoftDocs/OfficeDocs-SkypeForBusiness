@@ -20,6 +20,6 @@ Skype for Business Server Audio/video (A/V) conferencing enables users to partic
   
 For planning details about enabling A/V conferencing in your organization, see the following topic and its subtopics: 
   
-- [Plan for conferencing in Skype for Business Server 2015](../../../plan-your-deployment/conferencing/conferencing.md)
+- [Plan for conferencing in Skype for Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
 
