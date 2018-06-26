@@ -28,8 +28,7 @@ User and Policy Provisioning tools certification validates the ability of the to
 |Vendor  |Tool Version Certified  |Certified For  | Certification Date |
 |:---------|:---------|:---------|:--- |
 |Unify Square |PowerSuite Provisioning 1.0|Skype for Business Server 2015 |July 2015 |
-|Row2     |         |         |  |
-|  Unimax    | 2nd Nature Enterprise Edition 8.4G7 |Skype for Business Server 2015 |Sept 2016|
+|Unimax| 2nd Nature Enterprise Edition 8.4G7 |Skype for Business Server 2015 |Sept 2016|
 |  |  |  |  |
 
 

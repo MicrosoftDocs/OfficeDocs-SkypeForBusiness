@@ -168,33 +168,16 @@ Listed in the table that follows are Wi-Fi infrastructure solutions that have be
 		</tr>
 	</tbody>
 </table>
-<p xmlns="http://www.w3.org/1999/xhtml"> </p>
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
-	<colgroup>
-		<col width="83" />
-		<col width="236" />
-		<col width="103" />
-	</colgroup>
-	<thead>
-		<tr bgcolor="#DEDEDE">
-			<td align="center" valign="top"><strong>PC Vendor</strong></td>
-			<td align="center" valign="top"><strong>Certified Product</strong></td>
-			<td align="center" valign="top"><strong>Driver Version Tested</strong></td>
-		</tr>
-	</thead>
-	<tbody>
-		<tr align="left" valign="top">
-			<td><a href="http://www.dell.com/us/business/p/latitude-e7450-ultrabook/pd">Dell, Inc.</a></td>
-			<td>Lattitude E7450</td>
-			<td>6.30.223.262</td>
-		</tr>
-		<tr align="left" valign="top">
-			<td><a href="http://shop.lenovo.com/us/en/laptops/">Lenovo</a></td>
-			<td>T450, L450, T550, W550s, X1 Carbon, X250</td>
-			<td> </td>
-		</tr>
-	</tbody>
-</table>
+<br>
+
+|PC Vendor  |Certified Product  |Driver Version Tested  |
+|:----|:----|:----|
+|[Dell, Inc.](http://www.dell.com/us/business/p/latitude-e7450-ultrabook/pd)| Lattitude E7450|6.30.223.262|
+|[Lenovo](http://shop.lenovo.com/us/en/laptops/)|T450, L450, T550, W550s, X1 Carbon, X250|         |
+|  | |  |
+ 
+
+ 
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 

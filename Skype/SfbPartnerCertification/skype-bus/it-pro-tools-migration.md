@@ -28,34 +28,15 @@ These migration tools automate the otherwise manual process of data collection f
 
 The Skype for Business Server migration tools perform a variety of tasks including analyzing the data, highlighting mismatches or duplicates, that help clean up the data. This allows the creation of migration groups that are based on various parameters, such as phone number range, hunt group memberships, and so on, which allows the migration of preferred user groups along with preferred settings to Skype for Business Server.
 
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="863" xmlns="http://www.w3.org/1999/xhtml">
-	<colgroup>
-		<col width="64" />
-		<col width="175" />
-		<col width="171" />
-		<col width="134" />
-	</colgroup>
-	<thead>
-		<tr bgcolor="#DEDEDE">
-			<td align="center" valign="top"><strong>Vendor</strong></td>
-			<td align="center" valign="top"><strong>Tool Version Certified</strong></td>
-			<td align="center" valign="top"><strong>Source PBX Certified Against</strong></td>
-			<td align="center" valign="top"><strong>Source PBX Validated in TAP</strong></td>
-			<td align="center" valign="top"><strong>Certified For</strong></td>
-			<td align="center" valign="top"><strong>Certification Date</strong></td>
-		</tr>
-	</thead>
-	<tbody>
-		<tr align="left" valign="top">
-			<td>Univonix</td>
-			<td>Univonix Migrate SaaS</td>
-			<td>CUCM 10.5.2.15900-8</td>
-			<td>CUCM 9.1</td>
-			<td>Skype for Business Server 2015</td>
-			<td>Sept 2016</td>
-		</tr>
-	</tbody>
-</table>
+
+
+|Vendor  |Tool Version Certified  |Source PBX Certified Against  |Source PBX Validated in TAP  | Certified For|Certification Date | 
+|:--- |:--- |:--- |:---- |:---- |:---- |
+|Univonix |Univonix Migrate SaaS|CUCM 10.5.2.15900-8|CUCM 9.1|Skype for Business Server 2015 |Sept 2016 | 
+| | |  |  | | | 
+
+
+
 
 Browse the [tools certified for Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/it-pro).
 

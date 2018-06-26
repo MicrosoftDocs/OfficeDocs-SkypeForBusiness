@@ -25,36 +25,13 @@ Monitoring and troubleshooting tools certified for Skype for Business Server pro
 
 The tools provide network performance visibility as well as server KPI (Key Performance Indicator) analysis and alerting against user defined thresholds allowing customers to reduce MTTD (Mean Time to Detect) and MTTR (Mean Time to Resolve).
 
-<table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="863" xmlns="http://www.w3.org/1999/xhtml">
-	<colgroup>
-		<col width="84" />
-		<col width="179" />
-		<col width="200" />
-		<col width="101" />
-	</colgroup>
-	<thead>
-		<tr bgcolor="#DEDEDE">
-			<td align="center" valign="top"><strong>Vendor</strong></td>
-			<td align="center" valign="top"><strong>Tool Version Certified</strong></td>
-			<td align="center" valign="top"><strong>Certified For</strong></td>
-			<td align="center" valign="top"><strong>Certification Date</strong></td>
-		</tr>
-	</thead>
-	<tbody>
-		<tr align="left" valign="top">
-			<td><strong>IR</strong></td>
-			<td>Prognosis 10.5.1</td>
-			<td>Skype for Business Server 2015</td>
-			<td>July 2016</td>
-		</tr>
-		<tr align="left" valign="top">
-			<td><strong>Nectar</strong></td>
-			<td>UCF (Unified Communications Foundation) 5.3.1.3, UCD (Unified Communications Diagnostics 2.4.1)</td>
-			<td>Skype for Business Server 2015</td>
-			<td>May 2015</td>
-		</tr>
-	</tbody>
-</table>
+
+|Vendor  |Tool Version Certified |Certified For |Certification Date  |
+|:---  |:--- |:--- |:--- |
+|**IR** |Prognosis 10.5.1 | Skype for Business Server 2015|July 2016|
+|**Nectar**|UCF (Unified Communications Foundation) 5.3.1.3 <br>UCD (Unified Communications Diagnostics) 2.4.1)|Skype for Business Server 2015|May 2015 |
+|     |         |         |         |
+
 
 Browse the [tools certified for Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/it-pro).
 
