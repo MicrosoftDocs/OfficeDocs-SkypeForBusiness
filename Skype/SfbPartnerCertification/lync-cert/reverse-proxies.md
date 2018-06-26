@@ -30,12 +30,12 @@ We recommend that you visit the vendor's web site for the latest information reg
 
 Please contact the vendor for more information on these products.
 
-|Vendor  |Qualified Product  |Software Version Tested  |Vendor's Lync Page  |
-|:---------|:---------|:---------|:---------|
+|Vendor |Qualified Product |Software Version Tested |Vendor's Lync Page  |
+|:--- |:--- |:--- |:--- |
 |A10 Networks |Thunder and AX Series | 2.7.1 |  [Deployment Guides](http://www.a10networks.com/resources/deployment_guides.php)      |
 |F5 Networks | Big-IP LTM |11.0 - 11.4.1 | [Configuring Reverse Proxy Access to Microsoft Lync Using a Big-IP LTM V.11 ](http://www.f5.com/pdf/use-cases/reverse-proxy-access-microsoft-lync-partner-use-case.pdf)|
-|JetNexus |  ALB-X       |   4.1.1      | [JetNexus for Lync ](http://www.jetnexus.com/support/applications/microsoft-lync/)        |
-|Citrix     |   NetScaler      |  10.5       | [Microsoft and Citrix NetScaler](http://www.citrix.com/global-partners/microsoft/netscaler.html)   |
+|JetNexus |  ALB-X |   4.1.1 | [JetNexus for Lync ](http://www.jetnexus.com/support/applications/microsoft-lync/)        |
+|Citrix     |   NetScaler |  10.5 | [Microsoft and Citrix NetScaler](http://www.citrix.com/global-partners/microsoft/netscaler.html)   |
 |KEMP Technologies |  LoadMaster |7.1-18b|  [LoadMaster Deployment Guide](http://kemptechnologies.com/microsoft-load-balancing/load-balancing-microsoft-lync)       |
 |Microsoft| Internet Information Services Application Request Routing  (IIS ARR) |  v2.5       | [Using IIS ARR as a Reverse Proxy for Lync Server 2013](http://blogs.technet.com/b/nexthop/archive/2013/02/19/using-iis-arr-as-a-reverse-proxy-for-lync-server-2013.aspx)  |
 |Microsoft| Forefront Threat Management Gateway (TMG) &Dagger;| 2010 |[Setting up Reverse Proxy Servers with TMG](http://technet.microsoft.com/library/gg398069(v=ocs.15)) <!-- 2013 yet to migrate -->|
@@ -47,8 +47,8 @@ Please contact the vendor for more information on these products.
 
 ## Qualified for Lync 2010
 
-|Vendor  |Qualified Product  |Software Version Tested  |Vendor's Lync Page  |
-|:---------|:---------|:---------|:---------|
+|Vendor |Qualified Product |Software Version Tested  |Vendor's Lync Page  |
+|:--- |:---- |:--- |:--- |
 |Microsoft     |   Internet Information Services Application Request Routing  (IIS ARR)      |  v2.5       | [Using IIS ARR as a Reverse Proxy for Lync Server 2013](http://blogs.technet.com/b/nexthop/archive/2013/02/19/using-iis-arr-as-a-reverse-proxy-for-lync-server-2013.aspx)      |
 |Microsoft     | Forefront Threat Management Gateway (TMG) &Dagger; |     2010       | [Setting up Reverse Proxy Servers with TMG](https://docs.microsoft.com/en-us/previous-versions/office/skype-server-2010/gg398069(v=ocs.14))  |
 |     |         |         |         |
