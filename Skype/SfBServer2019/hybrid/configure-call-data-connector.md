@@ -37,17 +37,17 @@ To do this from within the Skype for Business Server Control Panel, complete the
 1. Click **Monitoring and Archiving**.
     
 2. On the **Call Detail Recording** tab, check the **Call Data Connector** box for each site you wish to monitor online, or uncheck sites as desired, and then click **Commit**.  -->
-To configure Call Data Connector, you'll use the following cmdlets:
+To configure Call Data Connector, you'll need to configure your online and on-premises environments by using the following cmdlets:
 
 - The New-CsCloudCallDataConnection cmdlet is an online cmdlet that establishes an online data collector.
 - The Get-CsCloudCallDataConnection cmdlet is an online cmdlet that retrieves an existing online data collector.  
-- The Get-CsCloudCallData Connector cmdlet is an on-premises cmdlet that retrieves the connection information created by the New-CsCloudCallDataConnection cmdlet
+- The Get-CsCloudCallDataConnector cmdlet is an on-premises cmdlet that retrieves the connection information created by the New-CsCloudCallDataConnection cmdlet.
 - The Set-CsCloudCallDataConnector cmdlet is an on-premises cmdlet that saves an on-premises copy of the connection information created by the New-CsCloudCallDataConnection cmdlet.  
 - The Set-CsCloudCallDataConnectorConfiguration cmdlet is an on-premises cmdlet that enables you to enable or disable the connector and to customize the scope level. 
 
 ###Configure your online environment for Call Data Connector
 
-To enable an online data collector:
+To configure your online environment to enable an online data collector:
 
 1.	Log in to Skype for Business Online as an administrator.
 
@@ -56,16 +56,18 @@ To enable an online data collector:
     ``` 
     New-CsCloudCallDataConnection -TenantId <tenant_id> 
     ```
+
 3.	If you get an error that the connection already exists, this means that the call data connection already exists for your tenant. In this case, run the command: 
 
     ```
     Get-CsCloudCallDataConnection  -TenantId <tenant_id>  
     ```
-4. Be sure to copy the token value, which you will need when configuring your on-premises environment
+
+4. Be sure to copy the token value, which you will need when configuring your on-premises environment.
 
 ###Configure your on-premises environment for Call Data Connector
 
-To configure your on-premises environment for enable Call Data Connector:
+To configure your on-premises environment to enable Call Data Connector:
 
 1. Log in to the Skype for Business Server management shell.
 
