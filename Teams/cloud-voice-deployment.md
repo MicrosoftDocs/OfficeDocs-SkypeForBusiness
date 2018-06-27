@@ -34,7 +34,7 @@ Here’s what you get with [Audio Conferencing](https://docs.microsoft.com/Skype
 
 Phone System is an Office 365 feature that provides the ability to manage call routing, policies, and user provisioning. This includes phone calling management system, call routing, and call control.
 
-Calling Plans is an add-on service for the Phone System feature, delivered through Teams and Skype for Business Online. Calling Plans provide the people in your business with a primary phone number, and lets them make and receive phone calls outside of your organization over the PSTN.
+Calling Plans is an add-on service for the Phone System feature, delivered through Teams and Skype for Business Online. Calling Plans requires that the user in question be homed in Skype for Business Online to work in Microsoft Teams. Calling Plans provide the people in your business with a primary phone number, and lets them make and receive phone calls outside of your organization over the PSTN.
 
 To learn more, read [Here’s what you get with Phone System in Office 365](https://support.office.com/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c) and [What are Calling Plans in Office 365?](https://support.office.com/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429)
 
