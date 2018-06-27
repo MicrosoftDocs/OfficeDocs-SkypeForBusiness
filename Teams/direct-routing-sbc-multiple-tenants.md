@@ -27,7 +27,7 @@ A carrier:
 
 Microsoft does not manage carriers. Microsoft offers a PBX (Microsoft Phone System) and a Teams client, certifies phones, and certifies SBCs that can be used with the Microsoft Phone System. Before choosing a carrier, please ensure that your choice has a certified SBC and can manage voice quality end to end.
 
-The following are the technical implementation steps to configure the scenario:
+The following are the technical implementation steps to configure the scenario.
 
 **Carrier only:**
 1. Deploy the SBC and configure it for the hosting scenario according to the [instructions from the certified SBC vendors](#deploy-and-configure-the-sbc).
@@ -101,7 +101,7 @@ For more information about admin roles and how to assign a role in Office 365, s
 ### Add a base domain to the tenant and verify it
 
 1.	In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
-2.	In **Enter a domain you own**, type the FQDN of the base domain. In the following example, the base domain is *customers.adatum.biz*.
+2.	In the **Enter a domain you own** box, type the FQDN of the base domain. In the following example, the base domain is *customers.adatum.biz*.
 
     ![Adding a base domain](media/direct-routing-2-sbc-add-domain.png)
 
@@ -141,7 +141,7 @@ For more information about admin roles and how to assign a role in Office 365, s
 
 ### Add a subdomain to the customer tenant and verify it
 1. In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
-2. In **Enter a domain you own**, type the FQDN of the subdomain for this tenant. In the example below, the subdomain is sbc1.customers.adatum.biz.
+2. In the **Enter a domain you own** box, type the FQDN of the subdomain for this tenant. In the example below, the subdomain is sbc1.customers.adatum.biz.
 
     ![Adding a customer subdomain](media/direct-routing-5-sbc-add-customer-domain.png)
 
@@ -157,6 +157,7 @@ For more information about admin roles and how to assign a role in Office 365, s
 6. Create the TXT record with the value from the previous step in carrier’s DNS hosting provider.
 
     ![Creating the TXT record in the carrier's DNS hosting provider](media/direct-routing-8-sbc-txt-record.png)
+
     For more information, refer to [Create DNS records at any DNS hosting provider for Office 365](https://support.office.com/en-us/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166?ui=en-US&rs=en-US&ad=US).
 
 7. Go back to the customer's Microsoft 365 admin center and click **Verify**. 
