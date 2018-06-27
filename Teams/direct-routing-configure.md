@@ -3,7 +3,6 @@ title: "Configure Direct Routing"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 5/15/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,7 @@ description: "Learn how to configure Microsoft Phone System Direct Routing."
 
 # Configure Direct Routing
 
-  > [!NOTE]
-  > This is a preview release of Microsoft Phone System Direct Routing.  Product functionality and documentation are subject to change.
-
-If you have not already done so, read [Plan Direct Routing](plan-direct-routing.md) for prerequisites and to review  other steps you’ll need to take before you configure your Microsoft Phone System network. 
-
-  > [!NOTE]
-  > This document is intended for IT professionals.  
+If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites and to review  other steps you’ll need to take before you configure your Microsoft Phone System network. 
 
 This article describes how to configure Microsoft Phone System Direct Routing. It details how to pair a supported Session Border Controller (SBC) to Direct Routing and how to configure Microsoft Teams users to use Direct Routing to connect to the Public Switched Telephone Network (PSTN). To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](https://technet.microsoft.com/library/dn362831.aspx). 
 
@@ -233,7 +226,7 @@ The following diagram shows two examples of voice routing policies in call flow.
 
 **Call Flow 2 (on the right):** If a user makes a call to  +1 425 XXX XX XX or +1 206 XXX XX XX, the call is first routed to SBC sbc1<span></span>.contoso.biz or sbc2<span></span>.contoso.biz. If neither SBC is available, the route with lower priority will be tried (sbc3<span></span>.contoso.biz and sbc4<span></span>.contoso.biz). If none of the SBCs are available, the call is dropped. 
 
-![Shows voice routing policy examples](../../media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
+![Shows voice routing policy examples](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
 In both examples, while the Voice Route is assigned priorities, the SBCs in the routes are tried in random order.
 
@@ -244,7 +237,7 @@ The Microsoft Calling Plan applies automatically as the last route to all users 
 
 In the example shown in the following diagram, a voice route is added to send calls to all other US and Canadian number (calls that go to called number pattern +1 XXX XXX XX XX).
 
-![Shows voice routing policy with a third route](../../media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
+![Shows voice routing policy with a third route](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
 For all other calls, if a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), Automatic Route is used. If nothing matches the number patterns in the administrator-created online voice routes, route via Microsoft Calling Plan.
 
@@ -425,13 +418,13 @@ Spencer Low – Calls allowed only to US and Canadian numbers. When calling to R
 
 John Woods – Calls allowed to any number. When calling to Redmond number range, the specific set of SBC must be used. Non-US numbers will be routed via sbc2<span></span>.contoso.biz and sbc5<span></span>.contoso.biz.
 
-![Shows voice routing policy assigned to user Spencer Low](../../media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
+![Shows voice routing policy assigned to user Spencer Low](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
 For all other calls, if a user has both licenses (Microsoft Phone System and Microsoft Calling Plan), Automatic Route is used. If nothing matches the number patterns in the administrator-created online voice routes, route via Microsoft Calling Plan.
 
 If the user has only Microsoft Phone System, the call is dropped because no matching rules are available.
 
-![Shows voice routing policy assigned to user John Woods](../../media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
+![Shows voice routing policy assigned to user John Woods](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
 The following table  summarizes routing policy “No Restrictions” usage designations and voice routes. 
 
@@ -528,7 +521,7 @@ Before a user can see the Calls tab in Microsoft Teams, you need to enable priva
 2.	Go to **Settings and Services and add-ins** and select **Microsoft Teams**. 
 3.	Expand **Calls and meetings** and verify that **Allow private calling** is **On**.
 
-    ![Screen shot showing Allow private calling turned on.](../../media/ConfigDirectRouting-CallsandMeetingsDialog.png)
+    ![Screen shot showing Allow private calling turned on.](media/ConfigDirectRouting-CallsandMeetingsDialog.png)
 
 ## Set Microsoft Teams as the preferred calling client for the users
 
@@ -576,4 +569,4 @@ Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Id
 
 ## See also
 
-[Plan Direct Routing](plan-direct-routing.md)
+[Plan Direct Routing](direct-routing-plan.md)
