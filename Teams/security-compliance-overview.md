@@ -141,6 +141,8 @@ Yes, you do. In the policy creation wizard, in the Locations step, you can inclu
 
 If you use the Group mailbox and User mailbox location rows for Exchange Online, Teams data will be deleted from the specified mailboxes. However, this only removes data from the mailbox. It doesn’t delete other Teams data, such as chats service. We recommend that you use Teams retention policies to properly manage all Teams data. A Teams retention policy removes teams data from all storage locations – Mailboxes, Chat service, Teams clients. 
 
+Note: Launch of the Retention policies feature for Teams makes sure that only Teams policies delete Teams items stored inside Exchange mailbox locations (user or group). Other policies setup on mailboxes cannot affect Teams items. This was true in the past, but has been fixed with the launch of retention policies feature. 
+
 ### What happens to Skype for Business Online and Teams interop chats – are they affected by retention policies?
 
 Yes, Skype for Business Online and Teams interop chats work the same way. Once the Skype for Business Online chat comes into Teams, it becomes a message in a Teams chat thread and gets ingested into the appropriate mailbox. So the same flow works – Teams deletion policies will delete these messages from the Teams thread. However, if conversation history is turned on for Skype for Business Online and from the Skype for Business Online client side those are being saved into a mailbox, this chat data is not handled by a Teams retention policy.
