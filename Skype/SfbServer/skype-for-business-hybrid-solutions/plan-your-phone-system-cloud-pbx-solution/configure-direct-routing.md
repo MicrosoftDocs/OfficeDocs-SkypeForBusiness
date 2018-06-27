@@ -1,7 +1,7 @@
 ---
 title: "Configure Direct Routing"
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.date: 5/15/2018
 ms.audience: ITPro
