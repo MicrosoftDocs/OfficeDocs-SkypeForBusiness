@@ -46,5 +46,5 @@ The table below lists devices certified for Direct Routing.
 |     | SBC SWe         |         |    Pending     |    V6.2      |
 |     |SBC 1000         |         |     Pending    |    V7.0.2      |
 |     | SBC 2000         |         |    Pending     |    V7.0.2      |
-|[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    Think 365 SBC      |         |    Pending     |   V1.4       |
+|[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    Think 365 SBC      |  Pending       |    Pending     |   V1.4       |
 |     |         |         |         |         |
