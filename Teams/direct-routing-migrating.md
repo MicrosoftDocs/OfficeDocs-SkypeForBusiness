@@ -13,9 +13,6 @@ description: "Learn what is needed to migrate to Direct Routing from a Skype for
 
 # Migrating to Direct Routing
 
-  > [!NOTE]
-  > This is a preview release of Microsoft Phone System Direct Routing.  Product functionality and documentation are subject to change.
-
 This article describes what is needed to migrate to Direct Routing from a Skype for Business Online and Microsoft Teams configuration perspective. This article covers migrating from the following: 
  
 - Office 365 Phone System with Calling Plans (for Teams and Skype for Business Online) 
