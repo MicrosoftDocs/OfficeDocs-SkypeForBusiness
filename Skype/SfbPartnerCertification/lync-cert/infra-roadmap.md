@@ -16,11 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Lync Certification
+- dn788952
 description: "Lync Server network infrastructure roadmap."
 ---
 
 
-# Partner qualification processes
+# Lync Server network infrastructure roadmap
 
 ## Lync Server network infrastructure roadmap
 This page enables Networking professionals to find the information they need for planning, deploying, and managing Lync Server on their enterprise network, including details on bandwidth planning, deploying Quality of Service (QoS), network optimization partners and network security.

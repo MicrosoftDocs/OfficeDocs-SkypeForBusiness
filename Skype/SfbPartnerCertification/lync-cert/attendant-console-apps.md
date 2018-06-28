@@ -40,10 +40,11 @@ Available now in 8 languages, that is, English, Dutch, French, German, Spanish, 
 
 * * *
 ## Competella Multimedia Attendant 
-For Lync: 2010, 2013 
+For Lync 2010, 2013 
 
 
 **Benefit with new multimedia and unified communications possibilities.**
+
 [Competella](http://www.competella.com)
 
 The ***Competella Multimedia Attendant for Lync*** is an advanced switchboard attendant system integrating call control with an advanced directory search tool, access to presence, calendar, e-mail, SMS and Instant messaging (IM). The system adds attendant functionality to Lync beyond the level found in legacy PBX's. The queue handler supports multiple queues with an advanced ACD function, scheduling and voice announcements. Traffic Analysis Reports and Call Recording of attendant calls are standard functions.
@@ -93,7 +94,7 @@ Numerous interfaces are supported,the app can combine sources, create a rich tel
 * * *
 ## Samroxx Attendant Console & Soft Phone
 
-For Lync: 2013
+For Lync 2013
 
 [Samroxx Attendant Console](http://www.samroxx.com)
 video demo

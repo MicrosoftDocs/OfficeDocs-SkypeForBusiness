@@ -48,7 +48,7 @@
 #### [Lync Room Systems](../lync-cert/room-systems.md) 
 #### [Meeting room devices and solutions](../lync-cert/meeting-room-devices.md) 
 #### [PCs](../lync-cert/pcs-optimized-for-lync.md) 
-### Infrastructure
+### [Infrastructure](../lync-cert/infrastructure-qualified-node.md)
 #### [IP PBXs and Gateways](../lync-cert/qualified-ip-pbx-gateway.md) 
 #### [Supported IP PBXs](../lync-cert/supported-ip-pbxs.md)
 #### [Survivable branch appliances](../lync-cert/survivable-branch-appliances.md)  

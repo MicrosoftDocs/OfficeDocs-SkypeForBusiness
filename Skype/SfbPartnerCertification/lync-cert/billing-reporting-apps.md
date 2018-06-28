@@ -51,7 +51,7 @@ Armed with usage and trend data, your organization can maximize its adoption of 
 
 ## Integrated Research Prognosis 10
 * * *
-**Lync 2013<br/>2010**
+**Lync 2010, 2013**
 
 **Provide complete visibility and actionable insight to control complex, multi-vendor unified communications environments anytime, anywhere.**
 
@@ -70,7 +70,7 @@ Avoid finger-pointing, with visibility and control of the entire communications 
 
 ## ISI Telemanagement Solutions Infortel Select
 * * *
- **Lync 2013<br/>2010**
+ **Lync 2010, 2013**
 
   **Leverage information on how employees communicate to improve business processes and run more efficiently. Manage Lync Server network capacity to identify critical network choke points.**
 
@@ -83,7 +83,7 @@ It builds on ISI Telemanagement Solutions' 30+ year tradition of assisting clien
 
 ## Mind CTI PhonEX ONE
 * * *
-  **Lync 2013<br/>2010**
+  **Lync 2010, 2013**
 
   **Quickly and precisely analyze unified communications usage.**
 
@@ -98,7 +98,7 @@ Fraud detection module provides companies the possibility to track and alert any
 
 ## Nectar UC Diagnostics
 * * *
-  **Lync 2013, 2010**
+  **Lync 2010, 2013**
 
   **Gain unique real-time insight into issues that impact Lync performance.**
 
@@ -115,7 +115,7 @@ Optimize Lync UC service management and users' experience with:
 
 ## nGenius Voice | Video Manager
 * * *
-  **Lync 2013<br/>2010**
+  **Lync 2010, 2013**
 
   **Proactively monitor performance and user experience for Microsoft Lync Server.**
 
@@ -192,7 +192,7 @@ Options include integration to Financial Systems and Data Warehouses via standar
 Tiger Pro 2020 enables organizations to plan effectively by having the traffic statistics to assess future line requirements across the network.
 
 ## Unify Square PowerMon
-For Lync: 2013
+For Lync 2013
 
 **Reduce the time it takes to diagnose and resolve failures by instantly alerting of Lync service outages globally.**
 
@@ -203,7 +203,7 @@ PowerMon is a proactive 24x365 cloud-based monitoring solution for Lync. The sol
 
 
 ## Unify Square PowerSAT
-For Lync: 2013
+For Lync 2013
 
 **Quickly and easily gather real-time Net User Satisfaction (NSAT) information.**
 

@@ -24,7 +24,7 @@ description: "Partner qualification requirements for Lync."
 
 The tables that follows shows the network infrastructure solutions that have been tested by these partners and reviewed by Microsoft to meet Lync Server 2010 requirements. We recommend that you visit the partner’s web site for the latest information regarding product specifications, capacity, country support and documentation including release notes and known issues. 
 
-Additional information on networking with Microsoft Lync Server 2010, including Planning, QoS, Call Admission Control and Security can be found on the [Lync Server Network Infrastructure Roadmap](https://technet.microsoft.com/en-us/office/dn788952). <!-- add to folder -->
+Additional information on networking with Microsoft Lync Server 2010, including Planning, QoS, Call Admission Control and Security can be found on the [Lync Server Network Infrastructure Roadmap](infra-roadmap.md). 
 
 For more information on optimizing Wi-Fi networks with Microsoft Lync, please see the white paper [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084).
 
