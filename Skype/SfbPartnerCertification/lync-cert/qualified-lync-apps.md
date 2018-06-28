@@ -16,7 +16,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Lync Certification
-- dn788944
+- dn788946
 description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
 ---
 

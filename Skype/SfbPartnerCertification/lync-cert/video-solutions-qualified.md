@@ -20,7 +20,7 @@ ms.custom:
 description: "Use this page to find USB audio and video devices optimized for Lync, including desk phones, personal speakerphones, corded and wireless headsets, corded handsets, and HD webcams."
 ---
 
-#
+# Video solutions qualified for Lync
 
 Microsoft tests and qualifies video teleconference systems (VTCs), multipoint control unit (MCUs) or conferencing bridges, and gateways for interoperability with Lync through our Video Interoperability Program. Our Video Interoperability program tests:
 

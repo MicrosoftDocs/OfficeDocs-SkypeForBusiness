@@ -6,7 +6,7 @@
 ### [USB audio and video devices](../skype-bus/devices-usb-devices.md) 
 ### [PCs](../skype-bus/devices-pcs.md)  
 ### [Meeting room devices and solutions](../skype-bus/devices-meeting-rooms.md)  
-## [Infrastructure](../lync-cert/infrastructure-qualified-node.md)
+## Infrastructure
 ### [Gateways](../skype-bus/infra-gateways.md) 
 ### [IP PBXs](../skype-bus/infra-ip-pbxs.md) 
 ### [Survivable branch appliances](../skype-bus/infra-sba.md)  
@@ -22,7 +22,6 @@
 ### [SIP Trunking services](../skype-bus/services-sip-trunking.md) 
 ### [E-911 service providers](../skype-bus/services-e911.md) 
 ### [Audio conferencing providers](../skype-bus/services-acps.md)
-### [Lync Online Dedicated](../lync-cert/online-dedicated.md)
 ##  [IT Pro](../skype-bus/it-pro-tools.md)
 ### [Network Pre-Assessment](../skype-bus/it-pro-tools-pre-assessment.md) 
 ### [Migration](../skype-bus/it-pro-tools-migration.md) 
@@ -33,8 +32,7 @@
 ##  [ISV](../skype-bus/isv-overview.md)
 ### [Certified Support](https://partnersolutions.skypeforbusiness.com/solutionscatalog)
 ## [Lync Partner Qualification](../lync-cert/partner-qualification.md)
-### Applications 
-#### [Qualified Lync applications](../lync-cert/qualified-lync-apps.md) 
+### [Applications](../lync-cert/qualified-lync-apps.md) 
 #### [Lync ISV qualification program participation](../lync-cert/participation.md)
 #### [Attendant Console Applications](../lync-cert/attendant-console-apps.md)
 #### [Billing & Enhanced Reporting Applications](../lync-cert/billing-reporting-apps.md)
@@ -51,7 +49,7 @@
 #### [Meeting room devices and solutions](../lync-cert/meeting-room-devices.md) 
 #### [PCs](../lync-cert/pcs-optimized-for-lync.md) 
 ### Infrastructure
-#### [IP PBXs and Gateways](../lync-cert/qualified-ip-pbx-gateway.md)  
+#### [IP PBXs and Gateways](../lync-cert/qualified-ip-pbx-gateway.md) 
 #### [Supported IP PBXs](../lync-cert/supported-ip-pbxs.md)
 #### [Survivable branch appliances](../lync-cert/survivable-branch-appliances.md)  
 #### [Session border controllers](../lync-cert/sbcs-lync-server.md)
@@ -59,9 +57,9 @@
 #### [Load balancers](../lync-cert/hardware-load-balancers.md)
 #### [Reverse proxies](../lync-cert/reverse-proxies.md) 
 #### [Virtual Desktop Infrastructure](../lync-cert/virtual-desktop-lync-server.md)  
-### Services
-#### [Services](../lync-cert/sip-trunking-services.md)  
+### [Services](../lync-cert/sip-trunking-services.md)  
 #### [E-911 Services](../lync-cert/e-911-service-providers.md) 
-### Video
+#### [Lync Online Dedicated](../lync-cert/online-dedicated.md)
+### [Video](../lync-cert/video-solutions-qualified.md)
 #### [Meeting room devices and solutions](../lync-cert/meeting-room-devices.md)   
 ### [Certified Support](https://partnersolutions.skypeforbusiness.com/solutionscatalog)
