@@ -33,18 +33,18 @@ The table below lists devices certified for Direct Routing.
 
 |Vendor  |Product  |Non-Media Bypass  |Media Bypass  |Software Version|
 |---------|---------|---------|---------|---------|
-|[Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |         |    Pending      |     7.20A.200.055     |
-|  |   Mediant 800 SBC       |         |     Pending    |      7.20A.200.055    |
-|     |      Mediant 2600 SBC    |         |    Pending     |    7.20A.200.055      |
-|     |   Mediant 4000 SBC       |         |    Pending     |    7.20A.200.055      |
-|     |    Mediant 1000B  SBC      |         |  Pending       |    7.20A.200.055      |
-|     |   Virtual Edition SBC       |     |Pending         |     7.20A.200.055     |
-|[Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110         |         |   Pending      |     V6.2     |
-|     |SBC 5110         |         |    Pending     |    V6.2      |
-|     | SBC 5400         |         |    Pending     |   V6.2       |
-|     |SBC 7000         |         |    Pending     |    V6.2      |
-|     | SBC SWe         |         |    Pending     |    V6.2      |
-|     |SBC 1000         |         |     Pending    |    V7.0.2      |
-|     | SBC 2000         |         |    Pending     |    V7.0.2      |
+|[Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |    &#10004;     |    Pending      |     7.20A.200.055     |
+|  |   Mediant 800 SBC       |    &#10004;      |     Pending    |      7.20A.200.055    |
+|     |      Mediant 2600 SBC    |     &#10004;     |    Pending     |    7.20A.200.055      |
+|     |   Mediant 4000 SBC       |     &#10004;     |    Pending     |    7.20A.200.055      |
+|     |    Mediant 1000B  SBC   |    &#10004;      |  Pending       |    7.20A.200.055   |
+|     |   Virtual Edition SBC    |   &#10004;   |Pending         |     7.20A.200.055     |
+|[Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    &#10004;      |   Pending      |     V6.2     |
+|     |SBC 5110      |     &#10004;     |    Pending     |    V6.2      |
+|     | SBC 5400     |    &#10004;      |    Pending     |   V6.2    |
+|     |SBC 7000     |     &#10004;     |    Pending     |    V6.2      |
+|     | SBC SWe  |   &#10004;       |    Pending     |    V6.2      |
+|     |SBC 1000   |     &#10004;     |     Pending    |    V7.0.2   |&#10004; 
+|     | SBC 2000    |     &#10004;     |    Pending     |    V7.0.2      |
 |[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    Think 365 SBC      |  Pending       |    Pending     |   V1.4       |
 |     |         |         |         |         |
