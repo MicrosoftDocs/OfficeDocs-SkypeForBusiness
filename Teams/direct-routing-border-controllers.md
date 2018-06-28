@@ -40,7 +40,7 @@ The table below lists devices certified for Direct Routing.
 |     |    Mediant 1000B  SBC   |    &#10004;      |  Pending       |    7.20A.200.055   |
 |     |   Virtual Edition SBC    |   &#10004;   |Pending         |     7.20A.200.055     |
 |[Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    &#10004;      |   Pending      |     V6.2     |
-|     |SBC 5210      |     &#10004;     |    Pending     |    V6.2      |
+|     |SBC 5210     |     &#10004;     |    Pending     |    V6.2      |
 |     | SBC 5400     |    &#10004;      |    Pending     |   V6.2    |
 |     |SBC 7000     |     &#10004;     |    Pending     |    V6.2      |
 |     | SBC SWe  |   &#10004;       |    Pending     |    V6.2      |
