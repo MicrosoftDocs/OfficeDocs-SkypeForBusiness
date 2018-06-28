@@ -40,7 +40,7 @@ Download these tools to walk you through planning, delivering, and adopting Team
 |**Capability**|**Reason**|
 |:-----|:-----|:-----|:-----|
 |Call and Meeting Recording  <br/> |Recording is dependent on Microsoft Stream, which will be coming to Government plans in the future.  <br/> |
-|Apps <br/ | Apps (Bots, Tabs, Connectors) will not be available initially, but we are working on making these available once all their components can meet the FedRAMP Moderate compliance bar.  <br/>|
+|Apps <br/> | Apps (Bots, Tabs, Connectors) will not be available initially, but we are working on making these available once all their components can meet the FedRAMP Moderate compliance bar.  <br/>|
 |Email a Channel <br/> | Current architecture not supported in the government plans. <br/> |
 |Unified Presence <br/> |We are finishing work for our enterprise customers first for this important feature. This will arrive to government customers in the future. <br/> |
 |Email Notifications <br/> |Current architecture not supported in the government plans. Work is ongoing to bring this feature to government customers in the future. <br/>|
