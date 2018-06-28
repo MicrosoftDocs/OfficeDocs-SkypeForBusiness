@@ -54,7 +54,7 @@ To configure your online environment to enable an online data collector, you mus
 There are two methods for enabling the connector:
 
 - By logging in to Skype for Business Online PowerShell from another PowerShell machine.
-- By logging in to Skype for Business Online PowerShell from within the Skype for Business Server 2019 Management Shell.
+- By logging in to Skype for Business Online PowerShell from within the Skype for Business Server 2019 management shell.
 
 ####If you are logging in to Skype for Business Online PowerShell from another PowerShell machine:
 
@@ -141,7 +141,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## View on-premises data through the online dashboard
 
- After Call Data Connector is enabled, you can view your on-premises call data on the Call Analytics dashboard as described in  [Use Call Analytics to troubleshoot poor Skype for Business call quality](../../SfbOnline/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality).
+ After Call Data Connector is enabled, you can view your on-premises call data on the Call Analytics dashboard as described in  [Use Call Analytics to troubleshoot poor Skype for Business call quality](https://docs.microsoft.com/en-us/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality).
 
 
 ## For more information
