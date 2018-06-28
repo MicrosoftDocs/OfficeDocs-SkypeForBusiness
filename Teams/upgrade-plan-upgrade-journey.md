@@ -1,5 +1,5 @@
 ---
-title: Plan your upgrade journey - Microsoft Teams
+title: Choose your upgrade journey - Microsoft Teams
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars

@@ -23,18 +23,16 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 -   [Defined your project scope](upgrade-define-project-scope.md)
 -   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
-# Prepare IT pros for Teams
+# Prepare IT pros for Microsoft Teams
 
-_Notes about this article from the OneNote/combined Word doc:_
+The following resources can help IT pros get familiar with tools and concepts they’ll need for supporting Teams:
 
-Training for IT pros, get familiar with tools they need to use in Teams. Links to videos and core content.
+-   [Admin training for Microsoft Teams](itadmin-readiness.md)
 
-https://docs.microsoft.com/en-us/MicrosoftTeams/itadmin-readiness
-
-https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-guides
+-   [Quick start guides for Microsoft Teams admins](quick-start-guides.md)
  
-https://docs.microsoft.com/en-us/MicrosoftTeams/support-resources
+-   [Support resources for Microsoft Teams](support-resources.md)
  
-https://docs.microsoft.com/en-us/MicrosoftTeams/connectivity-issues
+-   [Troubleshoot connectivity issues with the Microsoft Teams client](connectivity-issues.md)
  
-https://docs.microsoft.com/en-us/MicrosoftTeams/log-files
+-   [Use log files in troubleshooting Microsoft Teams](log-files.md)
