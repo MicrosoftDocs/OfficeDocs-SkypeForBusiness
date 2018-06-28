@@ -64,7 +64,7 @@
 # Apps & services
 ## [Admin settings for apps in Teams](admin-settings.md)
 ## [Add bots for private chats and channels in Teams](add-bots.md)
-## [Publish the Teams Private App Store](private-app-store-teams.md)
+## [Publish the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ## [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
 ## [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
 ## [Use T-Bot to help users with Teams](t-bot.md)
@@ -78,9 +78,6 @@
 ## [Teams cloud meeting recording](cloud-recording.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
-
-
-
 
 
 # [Guest access](guest-access.md)
@@ -213,6 +210,13 @@
 ### [Set up Phone System voicemail](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [What are Phone System auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
+## Phone System Direct Routing
+### [Plan Direct Routing](direct-routing-plan.md)
+### [Configure Direct Routing](direct-routing-configure.md)
+### [Migrating to Direct Routing](direct-routing-migrating.md)
+### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
+### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
+### [Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 
 # Security & compliance
 ## [Overview of security and compliance in Teams](security-compliance-overview.md)

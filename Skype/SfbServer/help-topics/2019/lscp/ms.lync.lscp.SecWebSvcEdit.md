@@ -17,7 +17,7 @@ description: "What do you want to do? Click the link to the task that you want t
  
 What do you want to do? Click the link to the task that you want to perform.
   
-- [Manage Web Service configuration settings in Skype for Business Server 2015](../../../manage/authentication/web-service-configuration-settings.md)
+- [Manage Web Service configuration settings in Skype for Business Server](../../../manage/authentication/web-service-configuration-settings.md)
     
 - [Modify an Existing Web Service](http://technet.microsoft.com/library/bd9c7aa5-d31c-4fab-b31d-8baae26b1296.aspx)
     
