@@ -149,6 +149,7 @@
 ### [Set up Skype for Business Call Analytics](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Turning on and using Call Quality Dashboard](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [Use Call Analytics to troubleshoot poor call quality](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Call Analytics and Call Quality Dashboard](../using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard.md)
 
 ## [Skype for Business Online reporting](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Activity report](../skype-for-business-online-reporting/activity-report.md)
