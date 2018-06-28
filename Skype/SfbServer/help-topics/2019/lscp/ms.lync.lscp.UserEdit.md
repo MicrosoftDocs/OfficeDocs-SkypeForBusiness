@@ -17,7 +17,7 @@ description: "What do you want to do? Click the link to the task that you want t
  
 What do you want to do? Click the link to the task that you want to perform.
   
-- [Enable or Disable Users for Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Enable or Disable Users](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
 - [Enable users for Enterprise Voice in Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
