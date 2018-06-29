@@ -96,8 +96,8 @@ If your results indicate:
 
 -   **Your pilot goals (for example, user satisfaction and network quality) have been achieved**, you should be ready to proceed with the next phase of your rollout. Depending on the goals of your project, this could be one of the following:
    -   Extending the pilot to additional participants
-   -   [E]nabling Teams alongside Skype for Business across your broader organization](setting-your-coexistence-and-upgrade-settings.md)
-   -   [Upgrading users from Skype for Business to Teams](upgrade-plan-upgrade-journey.md)
+   -   [Enabling Teams alongside Skype for Business (**Islands** mode) for some or all of your organization](setting-your-coexistence-and-upgrade-settings.md)
+   -   [Upgrading users from Skype for Business to Teams (**Teams only** mode) for some or all of your organization](setting-your-coexistence-and-upgrade-settings.md)
 -   **Your pilot didn’t achieve the outcomes you wanted (for example, user satisfaction and network quality)**, take time to make the appropriate adjustments to your plan and revisit your pilot.
 
 > [!Tip]
