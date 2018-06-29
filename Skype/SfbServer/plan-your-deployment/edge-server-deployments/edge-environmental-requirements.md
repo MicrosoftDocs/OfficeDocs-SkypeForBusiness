@@ -257,9 +257,12 @@ There are other possible configurations here:
 
 |**Location**|**Type**|**Port**|**FQDN**|**IP address or FQDN host record**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|External DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |The XMPP proxy interface on your Access Edge service or Edge pool. You need to repeat this as needed for all internal SIP domains with Skype for Business enabled users, where contact with XMPP contacts is allowed through:  <br/> • a global policy  <br/> • a site policy where the user's enabled  <br/> • a user policy applied to the Skype for Business enabled user  <br/> An allowed XMPP policy also needs to be configured in the XMPP federated users policy.  <br/> |
+|External DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |The XMPP proxy interface on your Access Edge service or Edge pool. You need to repeat this as needed for all internal SIP domains with Skype for Business Server 2015 enabled users, where contact with XMPP contacts is allowed through:  <br/> • a global policy  <br/> • a site policy where the user's enabled  <br/> • a user policy applied to the Skype for Business Server 2015 enabled user  <br/> An allowed XMPP policy also needs to be configured in the XMPP federated users policy.  <br/> |
 |External DNS  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |IP address of the Access Edge service on the Edge Server or Edge pool hosting your XMPP Proxy service  <br/> |This points to the Access Edge service on the Edge Server or Edge pool that hosts the XMPP Proxy service. Typically the SRV record that you create will point to this host (A or AAAA) record.  <br/> |
    
+> [!NOTE]
+> XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.
+
 ## Certificate planning
 <a name="CertPlan"> </a>
 
@@ -319,7 +322,7 @@ If you need a certificate for Extensible Messaging and Presence Protocol (XMPP),
     
 - \*.contoso.com
     
-Please remember that currently XMPP is only supported for Google Talk, if you want or need to use it for anything else, you need to confirm that functionality with the third-party vendor involved.
+Please remember that currently XMPP is only supported in Skype for Business Server 2015 for Google Talk, if you want or need to use it for anything else, you need to confirm that functionality with the third-party vendor involved.
   
 ## Port and firewall planning
 <a name="PortFirewallPlan"> </a>
@@ -341,7 +344,7 @@ The Source IP address and Destination IP address will contain information for us
   
 |**Role or protocol**|**TCP or UDP**|**Destination Port or port range**|**Source IP address**|**Destination IP address**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> |TCP  <br/> |5269  <br/> |Any  <br/> |XMPP Proxy service (shares an IP address with the Access Edge service  <br/> |The XMPP Proxy service accepts traffic from XMPP contacts in defined XMPP federations.  <br/> |
+|XMPP  <br/> Not supported in Skype for Business Server 2019 |TCP  <br/> |5269  <br/> |Any  <br/> |XMPP Proxy service (shares an IP address with the Access Edge service  <br/> |The XMPP Proxy service accepts traffic from XMPP contacts in defined XMPP federations.  <br/> |
 |Access/HTTP  <br/> |TCP  <br/> |80  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Any  <br/> |Certificate revocation and CRL check and retrieval.  <br/> |
 |Access/DNS  <br/> |TCP  <br/> |53  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Any  <br/> |DNS query over TCP.  <br/> |
 |Access/DNS  <br/> |UDP  <br/> |53  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Any  <br/> |DNS query over UDP.  <br/> |
@@ -360,7 +363,7 @@ The Source IP address and Destination IP address will contain information for us
 
 |**Protocol**|**TCP or UDP**|**Port**|**Source IP address**|**Destination IP address**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Any of the following running the XMPP Gateway service:  <br/> • Front End Server  <br/> • Front End pool  <br/> |Edge Server internal interface  <br/> |Outbound XMPP traffic from your XMPP Gateway service running on your Front End Server or Front End pool.  <br/> |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Any of the following running the XMPP Gateway service:  <br/> • Front End Server  <br/> • Front End pool  <br/> |Edge Server internal interface  <br/> |Outbound XMPP traffic from your XMPP Gateway service running on your Front End Server or Front End pool.  <br/> **Note:** XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.|
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Any:  <br/> • Director  <br/> • Director pool  <br/> • Front End Server  <br/> • Front End pool  <br/> |Edge Server internal interface  <br/> |Outbound SIP traffic from your Director, Director pool, Front End Server or Front End pool to your Edge Server internal interface.  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Edge Server internal interface  <br/> |Any:  <br/> • Director  <br/> • Director pool  <br/> • Front End Server  <br/> • Front End pool  <br/> |Inbound SIP traffic to your Director, Director pool, Front End Server, or Front End pool from your Edge Server internal interface.  <br/> |
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Any:  <br/> • Front End Server  <br/> • Each Front End Server  <br/>  in your Front End pool <br/> |Edge Server internal interface  <br/> |Web conferencing traffic from your Front End Server or each Front End Server (if you have a Front End pool) to your Edge Server internal interface.  <br/> |
@@ -396,7 +399,7 @@ The Source IP address and Destination IP address will contain information for us
 
 |**Protocol**|**TCP or UDP**|**Port**|**Source IP address**|**Destination IP address**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Any of the following running the XMPP Gateway service:  <br/> • Front End Server  <br/> • Front End pool VIP address running the XMPP Gateway service  <br/> |Edge Server internal interface  <br/> |Outbound XMPP traffic from your XMPP Gateway service running on your Front End Server or Front End pool.  <br/> |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Any of the following running the XMPP Gateway service:  <br/> • Front End Server  <br/> • Front End pool VIP address running the XMPP Gateway service  <br/> |Edge Server internal interface  <br/> |Outbound XMPP traffic from your XMPP Gateway service running on your Front End Server or Front End pool.  <br/><br/> **Note:** XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information. |
 |HTTPS  <br/> |TCP  <br/> |4443  <br/> |Any:  <br/> • Front End Server that holds the Central Management store  <br/> • Front End pool that holds the Central Management store  <br/> |Edge Server internal interface  <br/> |Replication of changes from your Central Management store to your Edge Server.  <br/> |
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Any:  <br/> • Front End Server  <br/> • Each Front End Server in your Front End pool  <br/> |Edge Server internal interface  <br/> |Web conferencing traffic from your Front End Server or each Front End Server (if you have a Front End pool) to your Edge Server internal interface.  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Any:  <br/> • Front End Server  <br/> • Each Front End Server in your Front End pool  <br/> |Edge Server internal interface  <br/> |Preferred path for A/V media transfer between your internal and external users and your Survivable Branch Appliance or Survivable Branch Server.  <br/> |
@@ -409,8 +412,8 @@ The Source IP address and Destination IP address will contain information for us
 
 |**Role or protocol**|**TCP or UDP**|**Destination Port or port range**|**Source IP address**|**Destination IP address**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> |TCP  <br/> |5269  <br/> |Any  <br/> |XMPP Proxy service (shares an IP address with the Access Edge service)  <br/> |The XMPP Proxy service accepts traffic from XMPP contacts in defined XMPP federations.  <br/> |
-|XMPP  <br/> |TCP  <br/> |5269  <br/> |XMPP Proxy service (shares an IP address with the Access Edge service)  <br/> |Any  <br/> |The XMPP Proxy service sends traffic from XMPP contacts in defined XMPP federations.  <br/> |
+|XMPP  <br/> Not Supported in Skype for Businesss Server 2019 |TCP  <br/> |5269  <br/> |Any  <br/> |XMPP Proxy service (shares an IP address with the Access Edge service)  <br/> |The XMPP Proxy service accepts traffic from XMPP contacts in defined XMPP federations.  <br/> |
+|XMPP  <br/>Not Supported in Skype for Businesss Server 2019 |TCP  <br/> |5269  <br/> |XMPP Proxy service (shares an IP address with the Access Edge service)  <br/> |Any  <br/> |The XMPP Proxy service sends traffic from XMPP contacts in defined XMPP federations.  <br/> |
 |Access/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Client-to-server SIP traffic for external user access.  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |For federated and public IM connectivity using SIP.  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Private IP using NAT:** Edge Server Access Edge service service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Any  <br/> |For federated and public IM connectivity using SIP.  <br/> |

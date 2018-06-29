@@ -151,7 +151,7 @@ Skype for Business Server 2015 Management Packs provide increased coverage for a
 |17  <br/> |AV Edge Connectivity  <br/> |Available in Lync Server 2013 and beyond  <br/> |
 |18  <br/> |AV Edge Connectivity Exchange Unified Message Connectivity (voicemail)  <br/> |Available in Lync Server 2013 and beyond  <br/> |
 |19  <br/> |PSTN Peer-to-Peer Call  <br/> |Available in Lync Server 2010 and beyond  <br/> |
-|20  <br/> |XMPP Instant Messaging (federation)  <br/> |Available in Lync Server 2013 and beyond  <br/> |
+|20  <br/> |XMPP Instant Messaging (federation)  <br/> |Available in Lync Server 2013 and Skype for Business 2015  <br/> |
 |21  <br/> |Video Interop Server  <br/> |New in Skype for Business Server 2015  <br/> |
    
 ## How Health Rolls Up
