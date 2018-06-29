@@ -3,7 +3,6 @@ title: "Associate Mediation Server With Edge"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -25,6 +24,6 @@ To define a Mediation Server, specify settings that associate the Mediation Serv
 > [!NOTE]
 > If you have not yet defined an Edge Server or Edge Server pool in your deployment, the drop-down list will not contain entries. You can click **Next** to continue and edit the settings for the Mediation Server after you have added an Edge Server or pool to your deployment.
   
-For additional details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
+For additional details, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 

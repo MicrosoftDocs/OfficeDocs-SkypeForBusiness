@@ -3,7 +3,6 @@ title: "Select Hyperlink Prefix"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -22,6 +21,6 @@ If you do not see a hyperlink prefix that you want to select listed in **Hyperli
   
 After you have added all of the hyperlink prefixes that you want to the **Selected hyperlink prefixes** list, click **OK**.
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server](../../../manage/manage.md).
   
 

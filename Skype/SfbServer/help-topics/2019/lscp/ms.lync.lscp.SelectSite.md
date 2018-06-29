@@ -21,7 +21,7 @@ Use the **Select a Site** dialog box to find sites available in your environment
 > [!NOTE]
 > To retrieve all available sites, do not type anything in the search box and then click the search icon. 
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
   
 ## Tasks you can perform
 
@@ -31,7 +31,7 @@ You can perform the following tasks on the **Select a Site** page:
     
 - [Create a Site Policy for Persistent Chat](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
   
 ## To configure Persistent Chat options globally
 

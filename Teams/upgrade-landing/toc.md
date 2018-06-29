@@ -18,7 +18,7 @@
 ### [Assess organizational change readiness](../upgrade-org-change-readiness.md)
 ### [Prepare a user readiness plan](../upgrade-user-readiness.md)
 ## [Conduct a user pilot](../pilot-essentials.md)
-## [Plan your upgrade/Choose your upgrade journey](../upgrade-plan-upgrade-journey.md)
+## [Choose your upgrade journey](../upgrade-plan-upgrade-journey.md)
 ## [Perform your upgrade to Teams](../upgrade-to-teams.md)
 ### [Upgrade from Skype for Business online to Teams](../upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Upgrade from Skype for Business hybrid to Teams](../upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
