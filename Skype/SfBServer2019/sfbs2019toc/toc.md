@@ -196,7 +196,6 @@
 ### [Deploy high availability and disaster recovery](../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/deploy-high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [AlwaysOn Availability Group](../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Front End pools for disaster recovery](../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [SQL mirroring for high availability](../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 ## [Migrate](../migration/migration-to-skype-for-business-server-2019.md)
 ### [Before you begin the migration](../migration/before-you-begin-the-migration.md)

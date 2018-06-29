@@ -80,15 +80,3 @@ The following tools will not be updated for use with Skype for Business Server 2
 Clients released prior to Lync 2013 are no longer supported.
 
 
-MCX deprecation topics
-[Plan for Mobility for Skype for Business Server 2015](../SfbServer/plan-your-deployment/mobility.md)
-[Deploy and Configure Mobility for Skype for Business Server](../SfbServer/deploy/deploy-and-configure-mobility.md)
-[Manage conferencing in Skype for Business Server](../SfbServer/manage/conferencing/conferencing.md)
-[Install and configure watcher nodes](../SfbServer/management-tools/use-scom-management-pack/watcher-nodes.md)
-[Manage Skype for Business Server 2015 using SCOM Management pack](../SfbServer/management-tools/use-scom-management-pack/use-scom-management-pack.md)
-[Monitor Mobility Service and UCWA usage in Skype for Business Server](../SfbServer/manage/health-and-monitoring/service-and-ucwa-usage.md)
-[Monitor for server memory capacity limits in Skype for Business Server](../SfbServer/manage/health-and-monitoring/server-memory-capacity-limits.md)
-[Mobility performance counters in Skype for Business Server](../SfbServer/manage/health-and-monitoring/performance-counters.md)
-[Monitor mobility for performance in Skype for Business Server](../SfbServer/manage/health-and-monitoring/monitor-mobility-performance.md)
-[Monitoring IIS request tracing log files in Skype for Business Server 2015](../SfbServer/manage/health-and-monitoring/iis-request-tracing-log-files.md)
-

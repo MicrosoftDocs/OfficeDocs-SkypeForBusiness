@@ -24,8 +24,11 @@ As in previous versions of Lync Server, the main high availability feature for m
   
 Skype for Business Server also provides disaster recovery options for Front End pools. You can set up two pools in different geographical areas to serve as backups for each other. Then if you have an entire pool or site go down, the backup pool can continue to provide service to users at both sites.
   
-Skype for Business Server also supports four modes of high availability for your Back End Servers: database mirroring, AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering.
+Skype for Business Server also supports four modes of high availability for your Back End Servers: SQL mirroring, AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering.
   
+> [!NOTE]
+> SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.
+
 > [!NOTE]
 > AlwaysOn Availability Groups are not supported with Persistent Chat Servers. 
   

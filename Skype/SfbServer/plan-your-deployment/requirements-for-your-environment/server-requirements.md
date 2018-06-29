@@ -146,8 +146,11 @@ Sixteen-node:
 If you need to read up more on SQL Mirroring, we have a Back End Server high availability in Skype for Business Server 2015 topic. Configure SQL Server clustering for Skype for Business Server 2015 has the steps for getting clustering ready. There are also further links on failover clustering for SQL, for [2014](https://technet.microsoft.com/en-us/library/hh231721.aspx), [2012](https://technet.microsoft.com/en-us/library/hh231721%28v=sql.110%29.aspx), and [2008](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
   
 > [!NOTE]
-> New to this release is support of SQL Always On. It is supported, and you can read more about it in the [Back End Server high availability in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) topic.
-  
+> New to the 2015 release is support of SQL Always On. It is supported, and you can read more about it in the [Back End Server high availability in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) topic.
+
+> [!NOTE]
+> SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.  
+
 ## Software that should be installed before a Skype for Business Server 2015 deployment
 <a name="Software"> </a>
 

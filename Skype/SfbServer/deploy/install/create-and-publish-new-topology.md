@@ -111,6 +111,9 @@ You can use Skype for Business Server Topology Builder to design, define, config
    - To use the default instance, click **Default instance**.
     
    - To use SQL Mirroring, select **Enable SQL mirroring**, and select an existing instance, or create a new instance.
+
+    > [!NOTE]
+    > SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.
     
     For this example, we enter the **SQL Server FQDN**, and configure any relevant high availability settings, and then click **OK**, as shown in the figure.
     
