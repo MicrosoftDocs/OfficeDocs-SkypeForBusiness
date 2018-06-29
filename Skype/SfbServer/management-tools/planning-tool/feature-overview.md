@@ -29,6 +29,9 @@ To complete the definition of the central site, you first need to provide the fo
     
 - **Cloud Homed Users** Enter the number of users that are homed into the central site from Skype for Business Online.
     
+> [!NOTE]
+> This tool will not be updated for Skype for Business Server 2019.
+
 ## UI Elements
 
 The remaining elements have either been populated with the answers you provided to the questions presented in the **Get Started** wizard, or, if you skipped the wizard, automatically populated by the planning tool.

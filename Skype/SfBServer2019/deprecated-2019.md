@@ -56,23 +56,24 @@ All mobile clients will use Unified Communications Web API (UCWA). Users with le
 
 The following tools will not be available for use at the initial release of Skype for Business Server 2019, but will be available afterwards:
 
-- Call Quality Dashboard <!-- see Vijay Manian -->
-- KHI Resources <!-- see David Chow -->
-- Statistics Manager for Skype for Business Server 2019 <!-- see David Chow -->
-- Skype for Business Server 2019 Resource Kit Tools (some tools removed) <!-- See Dave Howe for cut list -->
-- Networking Guide: CQM Scorecard, Call Quality Methodology, KHI <!-- Will not Evergreen, may add notes claiming it still applies, contact Aaron Steele -->
-- Centralized Logging Service in Skype for Business 2019 <!-- see Sushil -->
-- Manage Skype for Business Server 2015 using SCOM Management pack <!-- see David Chow -->
-- Skype for Business Server 2015 Capacity Planning Calculator <!-- see Huiwen -->
-- Skype for Business Server 2015, Debugging Tools <!-- see Sushil -->
+- Call Quality Dashboard  
+- KHI Resources  
+- Statistics Manager for Skype for Business Server 2019  
+- Skype for Business Server 2019 Resource Kit Tools (some tools removed)  
+- Networking Guide: CQM Scorecard, Call Quality Methodology, KHI  
+- Centralized Logging Service in Skype for Business 2019  
+- Manage Skype for Business Server 2015 using SCOM Management pack  
+- Skype for Business Server 2015 Capacity Planning Calculator  
+- Skype for Business Server 2015, Debugging Tools  
 
 The following tools will not be updated for use with Skype for Business Server 2019:
 
-- Microsoft Call Quality Methodology Scorecard, v1.5 <!-- see Rahul-->
-- CQM Poster for Skype for Business <!-- see Rahul-->
-- CQM Poster for Lync 2013 <!-- see Rahul-->
+- Microsoft Call Quality Methodology Scorecard, v1.5  
+- CQM Poster for Skype for Business  
+- CQM Poster for Lync 2013  
 - Skype for Business Server 2015 Planning Tool 
-- Skype for Business Server 2015 Stress and Performance Tool <!-- see Mira -->
+- Skype for Business Server 2015 Stress and Performance Tool  
+ 
 
 ## Legacy clients
 
