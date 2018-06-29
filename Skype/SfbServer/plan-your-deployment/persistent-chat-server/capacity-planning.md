@@ -21,6 +21,9 @@ Persistent Chat Server can perform multi-user, real-time chat that can persist f
 Capacity planning is an important part of preparing to deploy Persistent Chat Server. This topic provides capacity planning tables that you can use to determine the best configuration for your deployment. It also describes how to best manage Persistent Chat Server deployments that require greater capacity at peak times.
   
 Before reading this section, you should be familiar with Persistent Chat topologies. For more information, see [Plan Persistent Chat Server topology](topology.md).
+
+> [!NOTE] 
+> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](../../../../Teams/Journey-SkypeforBusiness-Teams.md). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
   
 ## Persistent Chat Server capacity planning
 

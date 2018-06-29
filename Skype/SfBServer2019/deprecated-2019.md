@@ -35,7 +35,7 @@ If you want to keep this functionality, you will need to keep a Skype for Busine
 
 Persistent Chat Server is an optional role that lets multiple users in your organization participate in chat room conversations that persist over time. Persistent chat cannot be deployed with Skype for Business Server 2019. This server role is removed from Topology Builder, as well as from the code. 
 
-The same functionality is available in Teams. If you need to use this functionality, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.  
+The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](../../Teams/Journey-SkypeforBusiness-Teams.md). If you need to use this functionality, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.  
 
 ### SQL Mirroring for Skype for Business Server
 
