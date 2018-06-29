@@ -129,8 +129,11 @@ Skype for Business Server 2015 Management Packs provide increased coverage for a
 |:-----|:-----|:-----|
 |6  <br/> |Peer-to-Peer Instant Messaging  <br/> |Available in Lync Server 2010 and beyond  <br/> |
 |7  <br/> |Peer-to-Peer Audio Video  <br/> |Available in Lync Server 2010 and beyond  <br/> |
-|8  <br/> |MCX Peer-to-Peer Instant Message (mobile)  <br/> |Available in the September 2011 release of Lync Server 2010 and beyond  <br/> |
-   
+|8  <br/> |MCX Peer-to-Peer Instant Message (mobile)  <br/> |Available in the September 2011 release of Lync Server 2010 to Skype for Business 2015  <br/> |
+ 
+> [!NOTE]
+> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
+  
 **Supported Synthetic Transactions for Conferencing and Persistent Chat**
 
 ||||

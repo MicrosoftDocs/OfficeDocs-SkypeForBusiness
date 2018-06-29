@@ -20,10 +20,13 @@ The following tables list the names and descriptions of performance counters tha
 The category name for the counters in the UCWA table is **LS:WEB - UCWA**.
   
 The category name for the counters in the Mcx Mobility Service table is **LS:WEB - Mobile Communication Service**.
+
+> [!NOTE]
+> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
   
 ## Performance Counters for UCWA
 
-|**Counter**|**Description**|
+|Counter|Description|
 |:-----|:-----|
 |Active Application Count  <br/> |The current number of applications  <br/> |
 |Active Application Sharing Modality Count  <br/> |The current number of Application Sharing modality  <br/> |
@@ -105,4 +108,5 @@ The category name for the counters in the Mcx Mobility Service table is **LS:WEB
 |Total Successful Inbound Voice Calls  <br/> |The total number of inbound voice calls that were successful  <br/> |
 |Total Successful Outbound Voice Calls  <br/> |The total number of outbound voice calls that were successful  <br/> |
    
-
+> [!NOTE]
+> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.

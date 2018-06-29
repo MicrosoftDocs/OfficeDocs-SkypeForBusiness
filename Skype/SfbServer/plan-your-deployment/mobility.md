@@ -1,5 +1,5 @@
 ---
-title: "Plan for Mobility for Skype for Business Server 2015"
+title: "Plan for Mobility for Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/17/2018
@@ -9,16 +9,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
-description: "Plan for your implementation of Mobility for Skype for Business Server 2015."
+description: "Plan for your implementation of Mobility for Skype for Business Server."
 ---
 
-# Plan for Mobility for Skype for Business Server 2015
+# Plan for Mobility for Skype for Business Server
  
-Plan for your implementation of Mobility for Skype for Business Server 2015.
+Plan for your implementation of Mobility for Skype for Business Server.
   
-With Skype for Business Server 2015, you can deploy the Mobility feature to provide Skype for Business Server 2015 functionality on mobile devices. This article provides details about the Mobility feature, and helps you plan for your deployment.
+With Skype for Business Server, you can deploy the Mobility feature to provide Skype for Business Server functionality on mobile devices. This article provides details about the Mobility feature, and helps you plan for your deployment.
   
-The Mobility feature for Skype for Business Server 2015 is able to support mobile clients for Skype for Business, as well as Lync clients going back to 2010. Once it's deployed, your users can connect to your Skype for Business Server 2015 deployment using supported iOS, Android and Windows Phone mobile devices to take advantage of several different features, including Enterprise Voice features. We've included a partial list below, and you can also check [Desktop client feature comparison for Skype for Business](clients-and-devices/desktop-feature-comparison.md) for more info:
+The Mobility feature for Skype for Business Server is able to support mobile clients for Skype for Business, as well as Lync clients going back to 2010. Once it's deployed, your users can connect to your Skype for Business Server deployment using supported iOS, Android and Windows Phone mobile devices to take advantage of several different features, including Enterprise Voice features. We've included a partial list below, and you can also check [Desktop client feature comparison for Skype for Business](clients-and-devices/desktop-feature-comparison.md) for more info:
   
 - Send and receive messages
     
@@ -42,10 +42,10 @@ The Mobility feature for Skype for Business Server 2015 is able to support mobil
     
 - Viewing meeting content (PowerPoint and desktop/application sharing)
     
-All this is accomplished through the Unified Communications Web API, or UCWA. UCWA was first introduced in Lync Server 2013, and it's still in use for Skype for Business Server 2015 today. There's an additional functionality for communicating with Lync 2010 clients, and that's Mobility Service (MCX). These are complimentary services, allowing for Lync Server 2010 and 2013 clients, as well as Skype for Business clients, to access Skype for Business Server deployments successfully.
+All this is accomplished through the Unified Communications Web API, or UCWA. UCWA was first introduced in Lync Server 2013, and it's still in use for Skype for Business Server. There's an additional functionality for communicating with Lync 2010 clients, and that's Mobility Service (MCX). These are complimentary services, allowing for Lync Server 2010 and 2013 clients, as well as Skype for Business clients, to access Skype for Business Server deployments successfully.
   
 > [!NOTE]
-> We've included MCX here, but want to be clear that while this is supported, we plan to deprecate this in our next release, so that should be something you keep in mind for planning purposes. We will continue to use the UCWA, and recommend Lync 2013 and Skype for Business clients be used going forward in an eventual post-MCX environment. 
+> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client. 
   
 It's important to note that while all these features are available once Mobility has been implemented, they may work a little differently on some devices. We've got a website that discusses what features work on what devices, at [Mobile client feature comparison for Skype for Business](clients-and-devices/mobile-feature-comparison.md). We also have some great device and OS information at [Plan for clients and devices](clients-and-devices/clients-and-devices.md).
   
@@ -66,11 +66,11 @@ For more information, we have the following sections:
 ## Mobility components
 <a name="MobilityComponents"> </a>
 
-There are four services that comprise Mobility for Skype for Business Server 2015:
+There are four services that comprise Mobility for Skype for Business Server:
   
 - **Unified Communications Web API (UCWA)**
     
-    Provides services for real-time communications with mobile and web clients for Skype for Business Server 2015. When Skype for Business Server is deployed, a UCWA virtual directory's created in the internal and external web services. A virtual component in this virtual directory that accepts calls from UCWA-enabled clients. The client apps communicate over a representational state transfer (REST) interface for:
+    Provides services for real-time communications with mobile and web clients for Skype for Business Server. When Skype for Business Server is deployed, a UCWA virtual directory's created in the internal and external web services. A virtual component in this virtual directory that accepts calls from UCWA-enabled clients. The client apps communicate over a representational state transfer (REST) interface for:
     
   - presence
     
@@ -91,11 +91,11 @@ There are four services that comprise Mobility for Skype for Business Server 201
     Supports Skype for Business Server functionality, such as IM, presence, and contacts, on mobile devices. The Mobility service is installed on every Front End Server in each pool that's intended to support Skype for Business Server functionality on mobile devices. When you install Skype for Business Server 2015 a new virtual directory (Mcx) is created under both the internal and external websites on your Front End Servers.
     
     > [!NOTE]
-    > As mentioned above, MCX is going to be deprecated in the next version of the product. 
+    > MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
   
 - **Autodiscover service**
     
-    Identifies the location of the user and enables mobile devices and other Skype for Business clients to locate resources (such as the internal and external URLS for Skype for Business Server 2015 Web Services, the Mcx URL , or UCWA URL) regardless of network location. Automatic discovery uses hardcoded host names (lyncdiscoverinternal for users inside the network, lyncdiscover for users outside the network), and the SIP domain of the user. It supports client connections that use either HTTP or HTTPS. 
+    Identifies the location of the user and enables mobile devices and other Skype for Business clients to locate resources (such as the internal and external URLS for Skype for Business Server Web Services, the Mcx URL , or UCWA URL) regardless of network location. Automatic discovery uses hardcoded host names (lyncdiscoverinternal for users inside the network, lyncdiscover for users outside the network), and the SIP domain of the user. It supports client connections that use either HTTP or HTTPS. 
     
     The Autodiscover service is installed on every Front End Server and on every Director in each pool that's intended to support Skype for Business Server functionality on mobile devices. When you install the service, a new virtual directory (Autodiscover) is created under both the internal and external websites on your Front End Servers and Directors.
     
@@ -125,7 +125,7 @@ It's important to plan for the various mobile application scenarios your mobile 
 
 The Mobility services Mcx and UCWA use DNS in the same way. With Automatic Discovery, mobile devices use DNS to locate resources. During DNS lookup, a connection's attempted to the FQDN that's associated with the internal DNS record (lyncdiscoverinternal.[internal domain name]). If the internal DNS record can't be used to make that connection, a second connection is attempted, this time to the external DNS record (lyncdiscover.[sipdomain]). So why have two? A mobile device that's internal to your network will be able to use the internal Autodiscover URL. External mobile devices will use the external Autodiscover URL. In either case, the Autodiscover service will return all Web service URLs for the user's home pool, which includes the Mobility service (Mcx and UCWA).
   
-It's expected that the external Autodiscover requests will go through the reverse proxy you've configured for Skype for Business Server 2015. However, both the internal Mobility service URL and the external Mobility service URL are associated with the external Web Services FQDN. Therefore, regardless of whether a mobile device is internal or external to your network, the device always connects to the Skype for Business Server 2015 Mobility service externally, through your reverse proxy.
+It's expected that the external Autodiscover requests will go through the reverse proxy you've configured for Skype for Business Server. However, both the internal Mobility service URL and the external Mobility service URL are associated with the external Web Services FQDN. Therefore, regardless of whether a mobile device is internal or external to your network, the device always connects to the Skype for Business Server Mobility service externally, through your reverse proxy.
   
 > [!NOTE]
 > As we just noted, all Mobility service traffic (internal and external) will go through your reverse proxy. But sometimes an issue comes up when the internal traffic leaves through an interface, only to then try and come back in on the same interface. This can violate your spoofing (formally it's called TCP packet spoofing) security rules. You'll need to allow **Hair Pinning** to have Mobility function.
@@ -184,11 +184,11 @@ This should be a straightforward process if you're requesting the new certs off 
   
 ### Windows and IIS requirements
 
-As indicated in our main [Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md) article, you should have Windows Server 2012 or Windows Server 2012 R2 for your Skype for Business Server environment. As a result, you should also have IIS 8 or IIS 8.5 for your mobility needs. There will need to be some changes to the default ASP.NET settings, but the Mobility service installer will do that automatically.
+You should have a supported Windows Server version for your Skype for Business Server environment. As a result, you should also have IIS 8 or IIS 8.5 for your mobility needs. There will need to be some changes to the default ASP.NET settings, but the Mobility service installer will do that automatically.
   
 ### HLB requirements
 
-If you're using a topology for Skype for Business Server 2015 that includes an HLB for your Front End pool (which would be any topology that includes more than one Front End Server), the external Web Services virtual IPs (VIPs) for Web Services traffic need to be configured for source. Source affinity helps to ensure that multiple connections from a single client are sent to the same server to maintain session state.
+If you're using a topology for Skype for Business Server that includes an HLB for your Front End pool (which would be any topology that includes more than one Front End Server), the external Web Services virtual IPs (VIPs) for Web Services traffic need to be configured for source. Source affinity helps to ensure that multiple connections from a single client are sent to the same server to maintain session state.
   
 If you plan to support Skype for Business mobile clients only over your internal Wi-Fi network, you should configure your internal Web Services VIPs for source as described for external Web Services VIPs. In this situation, you should use source_addr (or TCP) affinity for the internal Web Services VIPs on the HLB.
   
@@ -209,7 +209,7 @@ Now that we've reviewed the topologies, components and technical requirements, l
   
 ### Do you want to use automatic discovery for Skype for Business mobile clients?
 
-We do strongly recommend that you do use automatic discovery. It will require the creation of new internal and external DNS records, as documented in the Technical Requirements section above. With automatic discovery, the Skype for Business clients can automatically locate Skype for Business Server 2015 Web Services from any location, without needing a URL to be entered in manually.
+We do strongly recommend that you do use automatic discovery. It will require the creation of new internal and external DNS records, as documented in the Technical Requirements section above. With automatic discovery, the Skype for Business clients can automatically locate Skype for Business Server Web Services from any location, without needing a URL to be entered in manually.
   
 You can use manual settings if you need to. These URLs will need to be entered by users into their mobile devices:
   
@@ -252,6 +252,6 @@ For users to have access to Mobility features and Call via Work, they need to be
 Either way, the Voice policy you assign needs to have public switched telephone network (PSTN) usage records and routes that will define where your users will be able to dial out to join conferences.
   
 > [!NOTE]
-> Mobile users who want to use Click to Join require a Voice policy, along with the related PSTN usage records and voice routes, because when they click on that link on their mobile devices, an outbound call from Skype for Business Server 2015 will be the result. 
+> Mobile users who want to use Click to Join require a Voice policy, along with the related PSTN usage records and voice routes, because when they click on that link on their mobile devices, an outbound call from Skype for Business Server will be the result. 
   
 
