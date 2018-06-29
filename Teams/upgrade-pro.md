@@ -33,7 +33,7 @@ Segmented into three phases, Upgrade Pro covers:
 **Prepare your organization for Teams.**  To help ensure a successful upgrade to Teams, it’s important to allocate adequate time for preparation. Not only will your organization be able to quickly start realizing the value of Teams, you’ll be able to accelerate your upgrade from Skype for Business as soon as Teams is ready for you. Monitor the [roadmap](https://aka.ms/skype2teamsroadmap) for the enhancements that are planned for Teams; this will help you identify the right upgrade timeline for your organization. If you’ve already enabled Teams alongside Skype for Business, use these pre-upgrade activities as a checkpoint to validate your organization’s readiness before you upgrade users to Teams. 
 
 > [!Tip]
-> Download the [Upgrade Success Kit](https://aka.ms/UserReadiness) for sample communications and user surveys. Items that are available from the kit are marked with an asterisk (\*) in the lists below.  
+> Download the [Upgrade Success Kit](https://aka.ms/UserReadiness) for sample user readiness materials, such as communications and user surveys. Items that are available from the kit are marked with an asterisk (\*) in the lists below.  
 
 Days 1&ndash;5: Create your upgrade plan to help ensure your organization is set up for long-term success. 
 -   [Gather your project stakeholders](upgrade-enlist-stakeholders.md).
@@ -48,11 +48,11 @@ Days 6&ndash;10: Evaluate your organization’s readiness for Teams.
 -   Conduct a launch event.*
 
 Days 10&ndash;40: Run a pilot to confirm that your organization is ready and inform your optimal journey to Teams.
--   [Conduct a user pilot of Teams alongside Skype for Business](pilot-essentials.md).
+-   [Conduct a user pilot of Teams alongside Skype for Business](pilot-essentials.md).\*
 
 Day 45: Deploy Teams broadly to all users.
 -   Announce the official launch of Teams.\*
--   [Enable the appropriate coexistence mode for your users](setting-your-coexistence-and-upgrade-settings.md).
+-   [Enable the appropriate coexistence mode for your users](setting-your-coexistence-and-upgrade-settings.md).\*
 -   Enlist your Teams champions.
 
 Day 45 until upgrade begins:
