@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 5/9/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: marcl, ninadara, v-leslc
+ms.reviewer: marcl, ninadara
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
 appliesto: 
 - Microsoft Teams
@@ -18,6 +18,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 ## 
 
 ## Administration
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Audit logs may report an incorrect username as initiator when someone has been removed from a Team  <br/> |Teams team is a modern group in AAD. When you add/remove a member through the Teams user interface, the flow knows exactly which user initiated the change, and the Audit log reflects the correct info. However, if a user adds/removes a member through AAD, the change is synced to the Teams backend without telling Teams who initiated the action. Microsoft Teams picks the first owner of team as the initiator, which is eventually reflected in the Audit log as well.    <br/> |  <br/> |5/11/18  <br/> |
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Unable to add members to teams when UsersPermissionToReadOtherUsersEnabled is set to false  <br/> |When this value is set to false in AAD, customer is unable to add external/internal members in Microsoft Teams, and the following error message is displayed: "We couldn't add member. We ran into an issue. Please try again later." However, members can be added directly to Office 365 groups.    <br/> |Change this setting to true in AAD.  <br/> |4/10/18  <br/> |
@@ -200,6 +204,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Teams Planner integration with Planner online <br/> |Tasks buckets in Planner do not show up in Planner online experience.  <br/> |No workaround. <br/> |2/28/17  <br/>|
 
 ## Teams
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Audit logs may report an incorrect username as initiator when someone has been removed from a Team  <br/> |Teams team is a modern group in AAD. When you add/remove a member through the Teams user interface, the flow knows exactly which user initiated the change, and the Audit log reflects the correct info. However, if a user adds/removes a member through AAD, the change is synced to the Teams backend without telling Teams who initiated the action. Microsoft Teams picks the first owner of team as the initiator, which is eventually reflected in the Audit log as well.    <br/> |  <br/> |5/11/18  <br/> |
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Photo upload to Teams is not blocked on OWA/Outlook as policy requires   <br/> | Teams allows users to upload photos directly to Office 365, in spite of policy settings in place preventing photo upload for OWA.   <br/> |<br/>  |10/16/17  <br/> |
