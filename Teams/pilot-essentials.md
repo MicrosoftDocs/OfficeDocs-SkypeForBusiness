@@ -73,7 +73,7 @@ With all the logistics in place, you’re now ready to begin your pilot. Conduct
 ### Tips for pilot success
 
 The following tips can help ensure the success of your pilot:
--   Before beginning your pilot, confirm that all pilot participants are enabled for the appropriate [coexistence mode](user-access.md) you want to validate.
+-   Before beginning your pilot, confirm that all pilot participants are enabled for the appropriate [coexistence mode](setting-your-coexistence-and-upgrade-settings.md) you want to validate.
 -   Weekly, throughout your pilot, meet with your project stakeholders to review user feedback, usage data, network data, and helpdesk tickets to ensure your pilot is running smoothly. Make any adjustments as needed.
 
 ### Suggested timeline
@@ -96,8 +96,8 @@ If your results indicate:
 
 -   **Your pilot goals (for example, user satisfaction and network quality) have been achieved**, you should be ready to proceed with the next phase of your rollout. Depending on the goals of your project, this could be one of the following:
    -   Extending the pilot to additional participants
-   -   Enabling Teams alongside Skype for Business across your broader organization
-   -   Upgrading users from Skype for Business to Teams
+   -   [Enabling Teams alongside Skype for Business (**Islands** mode) for some or all of your organization](setting-your-coexistence-and-upgrade-settings.md)
+   -   [Upgrading users from Skype for Business to Teams (**Teams only** mode) for some or all of your organization](setting-your-coexistence-and-upgrade-settings.md)
 -   **Your pilot didn’t achieve the outcomes you wanted (for example, user satisfaction and network quality)**, take time to make the appropriate adjustments to your plan and revisit your pilot.
 
 > [!Tip]

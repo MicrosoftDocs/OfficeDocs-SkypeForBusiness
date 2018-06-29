@@ -112,7 +112,7 @@ Maintain upgrade momentum by enabling the user upgrade notification via the admi
 
 **Resources:**
 
--   [Link to TonySmit article]
+-   [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
 [Return to top](#about-upgrade-essentials)
 
@@ -141,7 +141,7 @@ We recommend that after everyone has been upgraded, you send an email welcoming 
 
 **Resources:**
 
--   [Link to upgrade users instructions] – Irinel? – waiting on release of feature and documentation
+-   [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 -   [Sample email: welcome users to Teams](#step-7-email)
 
 [Return to top](#about-upgrade-essentials)
