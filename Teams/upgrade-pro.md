@@ -30,7 +30,7 @@ Segmented into three phases, Upgrade Pro covers:
 
 ## Pre-Upgrade
 
-**Prepare your organization for Teams.**  To help ensure a successful upgrade to Teams, it’s important to allocate adequate time for preparation. Not only will your organization be able to quickly start realizing the value of Teams, you’ll be able to accelerate your upgrade from Skype for Business as soon as Teams is ready for you. Monitor the [roadmap](https://aka.ms/skype2teamsroadmap) for the enhancements that are planned for Teams; this will help you identify the right upgrade timeline for your organization. If you’ve already enabled Teams alongside Skype for Business, use these pre-upgrade activities as a checkpoint to validate your organization’s readiness before you upgrade users to Teams.
+**Prepare your organization for Teams.**  To help ensure a successful upgrade to Teams, it’s important to allocate adequate time for preparation. Not only will your organization be able to quickly start realizing the value of Teams, you’ll be able to accelerate your upgrade from Skype for Business as soon as Teams is ready for you. Monitor the [roadmap](https://aka.ms/skype2teamsroadmap) for the enhancements that are planned for Teams; this will help you identify the right upgrade timeline for your organization. If you’ve already enabled Teams alongside Skype for Business, use these pre-upgrade activities as a checkpoint to validate your organization’s readiness before you upgrade users to Teams. 
 
 Days 1&ndash;5: Create your upgrade plan to help ensure your organization is set up for long-term success. 
 -   [Gather your project stakeholders](upgrade-enlist-stakeholders.md).
@@ -40,21 +40,21 @@ Days 1&ndash;5: Create your upgrade plan to help ensure your organization is set
 Days 6&ndash;10: Evaluate your organization’s readiness for Teams.
 -   [Prepare your environment for Teams](upgrade-prepare-environment.md).
 -   [Prepare your organization](upgrade-prepare-organization.md).
--   Announce the pending launch of Microsoft Teams. [For a sample announcement, download the Upgrade Success Kit.]
--   Notify your helpdesk that it needs to prepare to support Teams. [For a sample email, download the Upgrade Success Kit.]
--   Conduct a launch event. [For a sample launch event invitation, download the Upgrade Success Kit.]
+-   Announce the pending launch of Microsoft Teams. [A sample announcement is included in the Upgrade Success Kit.]
+-   Notify your helpdesk that it needs to prepare to support Teams. [A sample email is included in the Upgrade Success Kit.]
+-   Conduct a launch event. [A sample launch event invitation is included in the Upgrade Success Kit.]
 
 Days 10&ndash;40: Run a pilot to confirm that your organization is ready and inform your optimal journey to Teams.
 -   [Conduct a user pilot of Teams alongside Skype for Business](pilot-essentials.md).
 
 Day 45: Deploy Teams broadly to all users.
--   Announce the official launch of Teams. [For a sample launch event invitation, download the Upgrade Success Kit.]
--   Enable the appropriate coexistence mode for your users.
+-   Announce the official launch of Teams. [A sample launch event invitation is included in the Upgrade Success Kit.]
+-   [Enable the appropriate coexistence mode for your users](setting-your-coexistence-and-upgrade-settings.md).
 -   Enlist your Teams champions.
 
 Day 45 until upgrade begins:
 -   Make a plan to monitor the Teams [roadmap](https://aka.ms/skype2teamsroadmap) and continually assess organizational readiness, to identify the right time for your organization to move to Teams.
--   Send additional communications to drive excitement and adoption of Teams. [For sample emails, download the Upgrade Success Kit.]
+-   Send additional communications to drive excitement and adoption of Teams. [Sample emails are included in the Upgrade Success Kit.]
 
 ## Upgrade
 
@@ -64,7 +64,7 @@ Days 1&ndash;2: Confirm that your organization is ready for the upgrade.
 -   Validate that you’ve completed the pre-upgrade activities described above.
 -   Segment your user base into four upgrade groups.
 -   Send notification of the upgrade to all users.
--   Enable **Notify** mode for all users.
+-   [Enable **Notify** mode for all users](setting-your-coexistence-and-upgrade-settings.md).
 
 _Days 7 through 45: Implement your upgrade from Skype for Business to Teams._
 
@@ -84,7 +84,7 @@ Days 14&ndash;42
 -   Repeat the preceding upgrade activities for the remaining upgrade groups on a rolling cycle. For example, begin upgrade group 2 notifications on day 14, upgrade group 3 notifications on day 21, and upgrade group 4 notifications on day 28. This should allow for all upgrades to be complete by day 42.
 
 Day 45
--   Send [post-upgrade feedback surveys](upgrade-essentials.md#sample-surveys) to all users.
+-   Send [post-upgrade feedback surveys](https://aka.ms/UserReadiness) to all users.
 
 ## Post-Upgrade
 
@@ -96,7 +96,7 @@ Days 1&ndash;14: Measure how successful your upgrade has been.
 
 Ongoing: Maintain momentum and the operational health of your Teams deployment.
 -   Monitor network health and helpdesk calls for any technical or user upgrade experience issues, and mitigate as needed.
--   Drive user momentum with email, newsletters, or other communications that focus on upcoming new features, success stories, and so on. <!-- – NOTE – add direct links back to SWT or Teams adoption content-->
+-   [Drive user momentum with email, newsletters, or other communications that focus on upcoming new features, success stories, and so on](https://aka.ms/successwithteams).
 -   Plan technical and user readiness initiatives to prepare for new functionality and Microsoft 365 optimization. <!-- (point to blog??)-->
 
 > [!Note]
