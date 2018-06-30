@@ -113,7 +113,7 @@ This section describes how to get the Skype for Business Cloud Connector Edition
     Specify the full path to the external certificate, including the file name. The certificate can be stored locally or on a file share. If the certificate is stored in a shared folder, the shared folder must be created on the first appliance of each site and must be accessible by other appliances belonging to the same site. This cmdlet copies the external certificate to the **Appliance Directory**.
     
     > [!IMPORTANT]
-    > **If you have updated to Cloud Connector version 1.4.2 or later**, make sure your prepared external certificate contains private keys and the full certificate chain including the root CA certificate and the intermediate CA certificates.> **If you have NOT yet updated to Cloud Connector version 1.4.2**, make sure your prepared external certificate contains private keys. This external certificate must be issued by a Certificate Authority that is trusted by Windows by default.
+    > **If you have updated to Cloud Connector version 1.4.2 or later**, make sure your prepared external certificate contains private keys and the full certificate chain including the root CA certificate and the intermediate CA certificates. **If you have NOT yet updated to Cloud Connector version 1.4.2**, make sure your prepared external certificate contains private keys. This external certificate must be issued by a Certificate Authority that is trusted by Windows by default.
   
 ## Set the path for the external PSTN gateway/SBC certificate
 
@@ -160,7 +160,7 @@ After you update it with the values for your environment, save the file as Cloud
 When updating the .ini file, consider the following:
   
 > [!NOTE]
-> Not all values for the .ini file are discussed in this section, only those with a special consideration are covered here. For a full list, see the [Determine deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) section of the [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) topic.> For more information about what values need to be changed for additional appliances or new sites, see [Single site with High Availability (HA) compared to multi-site deployments](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) in the topic[Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
+> Not all values for the .ini file are discussed in this section, only those with a special consideration are covered here. For a full list, see the [Determine deployment parameters](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) section of the [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) topic. For more information about what values need to be changed for additional appliances or new sites, see [Single site with High Availability (HA) compared to multi-site deployments](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) in the topic [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
 - **SiteName:** The default value is **Site1**. You must update it before you deploy Cloud Connector, because when you run **Register-CcAppliance** to register an appliance to an existing or new site, the cmdlet will use **SiteName** to determine which site to register.
     
@@ -302,7 +302,7 @@ The CceService account is created during the Skype for Business Cloud Connector 
 
 An Office 365 tenant with Skype for Business Online and Phone System in Office 365 is required. Make sure your tenant is set up and configured before attempting to use Cloud Connector.
   
-Some Office 365 setup steps require you to use Tenant Remote PowerShell (TRPS) to configure your Office 365 tenant. **This should be installed on the host server.** You can download the Skype for Business Online module for PowerShell from:[Skype for Business Online, Windows PowerShell Module](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Some Office 365 setup steps require you to use Tenant Remote PowerShell (TRPS) to configure your Office 365 tenant. **This should be installed on the host server.** You can download the Skype for Business Online module for PowerShell from: [Skype for Business Online, Windows PowerShell Module](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
   
 Create a dedicated Skype for Business administrator account for Cloud Connector online management, for example CceOnlineManagmentAdministrator. This account will be used by appliance to add or remove appliance, enable or disable automatic OS update, enable or disable automatic binary update. Set the password for this account to never expire so that you do not need to change it for the service each time it expires.
   
