@@ -25,7 +25,7 @@ The guidance is organized into the following sections:
 
 -   First is an overview of user experience and the key components that underpin quality. This highlights the areas to focus on prior to onboarding to Microsoft Teams.
 
--   Second, guidance is given for planning a support model to manage Microsoft Teams prior to the first user pilot or production deployment. This section describes the tasks that need to be performed on a regular basis to maintain a quality Teams deployment. In addition, this section introduces you to further guidance which you can use to start understanding and operationalizing these tasks.
+-   Second, guidance is given for planning a support model to manage Microsoft Teams prior to the first user pilot or production deployment. This section describes the tasks that need to be performed on a regular basis to maintain a high-quality Teams deployment. In addition, this section introduces you to further guidance which you can use to start understanding and operationalizing these tasks.
 
 -   Third, specific guidance helps with planning your network and endpoints in your organization to support Microsoft Teams.
 
@@ -256,19 +256,19 @@ The network assessment can be conducted by using a Microsoft partner, third-part
 
 ## Plan for endpoint quality
 
-As you can see from the diagram below, endpoints are an important building block in providing a quality experience for end users.
+As you can see from the diagram below, endpoints are an important building block in providing a high-quality experience for users.
 
 ![Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on endpoints.](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on endpoints.")
 
-Microsoft Teams endpoints can run on many devices, including PCs, Macs, tablets, and mobile devices. Part of the experience not only encompasses the device, but how a user connects to the device—for example, using the device’s built-in mic/speaker, ear-buds, or an optimized headset. Using an optimized headset can enrich the overall user experience.
+Microsoft Teams endpoints can run on many devices, including PCs, Macs, tablets, and mobile devices. Part of the experience not only encompasses the device, but how a user connects to the device—for example, by using the device’s built-in mic/speaker, earbuds, or an optimized headset. Using an optimized headset can enrich the overall user experience.
 
 The following guidance on endpoint planning will help you ensure your organization has a successful onboarding experience with Teams.
 
 ### Endpoint capability
 
-The first part of planning is to ensure all the PCs and other devices in your organization can run Microsoft Teams. This involves not just looking at the hardware requirements, but also understanding what else the PC is doing in the background. Many organizations run other software, including intrusion detection systems and antimalware software which can affect the base performance of a device.
+The first part of planning is to ensure all the PCs and other devices in your organization can run Microsoft Teams. This involves not just looking at the hardware requirements, but also understanding what else the PC is doing in the background. Many organizations run other software, including intrusion detection systems and antimalware software, which can affect the base performance of a device.
 
-Microsoft Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Mobile). For information about the software requirements for each platform, see [Get Clients for Microsoft Teams](get-clients.md).
+Microsoft Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Mobile). For information about the software requirements for each platform, see [Get clients for Microsoft Teams](get-clients.md).
 
 ### Endpoint firewalls
 
@@ -340,6 +340,6 @@ This table includes a summary of planning activities with links to related conte
 | | | [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) |
 | | Perform network assessment | [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
 | Plan for endpoint quality | Update endpoint firewalls | [Office 365 URLs and IP addresses](https://aka.ms/o365ips) |
-| | Validate software requirements | [Get Clients for Microsoft Teams](get-clients.md) |
+| | Validate software requirements | [Get clients for Microsoft Teams](get-clients.md) |
 | | Implement endpoint Wi-Fi recommendations | Consult third-party vendors |
 | | Conduct persona to devices mapping <br/> Provision devices and pilot them | [Client and Devices - Readiness Workshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
