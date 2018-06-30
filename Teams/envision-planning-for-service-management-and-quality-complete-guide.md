@@ -47,7 +47,7 @@ There are specific requirements to the deployment that are critically important 
 
 An organization or supporting partner should start planning for three key components during the Envision phase of a Teams deployment: service management, network, and endpoints. The combination of all three areas is fundamental to the quality of the user experience.
 
-![Diagram describing the three components of quality, and how service management overlaps all three components.](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png)
+![Diagram illustrating the three components of quality, and how service management overlaps all three components.](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagram illustrating the three components of quality, and how service management overlaps all three components.")
 
 #### Service management
 
@@ -57,7 +57,7 @@ Service management can be divided into two distinct categories of responsibility
 
 -   **Customer responsibility**. You and your organization are responsible for managing various aspects of the Office 365 service, on-premises network, and user endpoints. For example, as new IP addresses are added to Office 365, you must update the appropriate firewalls to allow communication to the new endpoints to avoid user disruption.
 
-For detailed guidance for service management planning, see [Planning for Service Management](#plan-for-service-management).
+For detailed guidance for service management planning, see [Plan for service management](#plan-for-service-management).
 
 #### Network 
 
@@ -67,7 +67,7 @@ In traditional networks, users will need to traverse the perimeter networks of a
 
 Furthermore, the core internal networks need to be optimized and right-sized to provide sufficient capacity and quality for supporting the Teams workloads, including real-time media. You can use bandwidth planning, remediation, and optimization to help ensure your network provides a high-quality and efficient path to Office 365.
 
-For detailed guidance about network planning, see [Planning for Network Quality](#plan-for-network-quality).
+For detailed guidance about network planning, see [Plan for network quality](#plan-for-network-quality).
 
 #### Endpoints
 
@@ -75,7 +75,7 @@ Microsoft Teams supports a variety of endpoints. From PCs to tablets to phones, 
 
 To give your users the best experience possible, you need to consider these important aspects during the Envision phase: Do your endpoints meet the Teams hardware and software requirements? Have you configured and optimized endpoints to support Wi-Fi networks? Which devices will you use to make and receive voice calls? Are those devices optimized for Teams?
 
-For detailed guidance about endpoint planning, see [Planning for Endpoint Quality](#plan-for-endpoint-quality).
+For detailed guidance about endpoint planning, see [Plan for endpoint quality](#plan-for-endpoint-quality).
 
 ## Plan for service management
 
@@ -85,7 +85,7 @@ The notion of service management is most likely not a new concept for most organ
 
 Service management encompasses all the activities and processes involved in managing Microsoft Teams end to end. As described earlier, some components of service management—the infrastructure components that the Office 365 service itself comprises—are Microsoft’s responsibility, whereas the customer is accountable to its users to manage the various aspects of Teams, the network, and endpoints they provide. This section of the document will focus on the customer’s responsibility from a service management perspective.
 
-![Diagram describing the three components of qualilty, and how service management overlaps all three components. With a focus on Service Mangement.](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png)
+![Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on service management.](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on service management.")
 
 ### Introduction to the Operations Guide 
 
@@ -115,7 +115,7 @@ The tasks and activities associated with the role have been documented in the Op
 
 The Quality Experience Review Guide has a set of activities that assess and provide remediation guidance in key areas that have the greatest impact for improving user experience as shown in the figure below.
 
-![A diagram that indicates the key areas that are examined during a quality experience review.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png)
+![A diagram that illustrates the key areas that are examined during a quality experience review.](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "A diagram that illustrates the key areas that are examined during a quality experience review.")
 
 By continually assessing and remediating the areas described in this document, you can reduce their potential to negatively affect user experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
 
@@ -141,7 +141,7 @@ The Quality Experience Review Guide can be found [here](https://github.com/Micro
 
 Planning for network quality will be the focus for the following section.
 
-![Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on Network.](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png)
+![Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on the network.](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on the network.")
 
 As previously mentioned, planning for network quality prior to onboarding to Microsoft Teams is critical. For further guidance for network readiness, see [Prepare your organization's network for Microsoft Teams](prepare-network.md).
 
@@ -258,7 +258,7 @@ The network assessment can be conducted by using a Microsoft partner, third-part
 
 As you can see from the diagram below, endpoints are an important building block in providing a quality experience for end users.
 
-![Diagram describing the three components of quality, and how service management overlaps all three components. With a focus on endpoints.](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png)
+![Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on endpoints.](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on endpoints.")
 
 Microsoft Teams endpoints can run on many devices, including PCs, Macs, tablets, and mobile devices. Part of the experience not only encompasses the device, but how a user connects to the device—for example, using the device’s built-in mic/speaker, ear-buds, or an optimized headset. Using an optimized headset can enrich the overall user experience.
 
