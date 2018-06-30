@@ -33,7 +33,7 @@ As illustrated below, a successful upgrade begins by bringing the right team tog
 
 ## To get started...
 
-We understand that customers don’t come one-size-fits-all. For added flexibility, we’ve organized the framework into two paths: Upgrade Essentials and Upgrade Pro. You can select the upgrade journey that best meets your organization’s needs.
+We understand that customers don’t come one-size-fits-all. For added flexibility, we’ve organized the framework into two paths: Upgrade Essentials and Upgrade Pro. Choose the journey that best meets your organization’s needs.
 
 Select one of the options below or explore both to determine the optimal path for you. More information will be coming online over time, so check back as your organization continues its journey to Teams. To help us better understand your upgrade path and what additional guidance might be helpful, take a moment to [share your feedback](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u).
 
