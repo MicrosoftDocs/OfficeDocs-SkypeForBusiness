@@ -46,4 +46,4 @@ You can use the questionnaire in [Environmental discovery for a Microsoft Teams 
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the results of the environment assessment.</li></ol></td></tr>
 </table>
 
-After you evaluate your environment, proceed to the next step: [Environmental discovery](upgrade-prepare-environment-evaluate-environment.md).
+After you evaluate your environment, proceed to the next step: [Environmental discovery](upgrade-prepare-environment-discover-environment.md).
