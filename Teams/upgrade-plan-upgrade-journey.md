@@ -26,3 +26,5 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 -   [Prepared your organization](upgrade-prepare-organization.md)
 
 [!INCLUDE [upgrade-journeys-for-skypeforbusiness-and-teams](upgrade-journeys-for-skypeforbusiness-and-teams.md)]
+
+After you’ve chosen the best upgrade journey for your organization, [perform your upgrade to Teams](upgrade-to-teams.md).

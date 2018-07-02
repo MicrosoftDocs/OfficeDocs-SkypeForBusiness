@@ -98,6 +98,7 @@ Giving ample notice to your users will give them time to get familiar with Teams
 
 **Resources:**
 
+-   [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 -   [Manage Teams features in your organization](enable-features-office-365.md)
 -   [Sample email: announcement to users about Skype for Business](#step-4-email)
 
