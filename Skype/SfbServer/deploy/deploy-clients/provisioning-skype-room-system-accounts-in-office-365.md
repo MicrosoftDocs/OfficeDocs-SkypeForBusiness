@@ -3,7 +3,6 @@ title: "Provisioning Skype Room System accounts in Office 365"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -92,9 +91,9 @@ After you assign a license for Skype for Business Online, you will be able to lo
   
 ## Skype for Business Online provisioning
 
-After a resource room mailbox account has been created and enabled as shown previously, and you have licensed the account for Skype For Business oline the account will synchronize from the Exchange Online forest to Skype for Business Online forest by using the Windows Azure Active Directory forest. The following steps are required to provision the Skype Room System account in the Skype for Business Online pool. These steps are the same for both an existing resource mailbox account or a newly created account (confrm1 or confrm2), because once they are enabled in Exchange Online, both of these accounts will be synchronized to Skype for Business Online in the same way:
+After a resource room mailbox account has been created and enabled as shown previously, and you have licensed the account for Skype For Business Online the account will synchronize from the Exchange Online forest to Skype for Business Online forest by using the Windows Azure Active Directory forest. The following steps are required to provision the Skype Room System account in the Skype for Business Online pool. These steps are the same for both an existing resource mailbox account or a newly created account (confrm1 or confrm2), because once they are enabled in Exchange Online, both of these accounts will be synchronized to Skype for Business Online in the same way:
   
-1. Create a Remote PowerShell session. Note that you will need to download Skype for Business Online Connector Module and Microsoft Online Services Sign-In Assistant and make sure that your computer is configured. For more information, see [Configuring Your Computer for Lync Online Management](http://technet.microsoft.com/library/bca143e2-659a-4161-9220-59ffd9fc2874.aspx).
+1. Create a Remote PowerShell session. Note that you will need to download Skype for Business Online Connector Module and Microsoft Online Services Sign-In Assistant and make sure that your computer is configured. For more information, see [Set up your computer for Windows PowerShell](http://technet.microsoft.com/library/bca143e2-659a-4161-9220-59ffd9fc2874.aspx).
     
    ```
    Import-Module LyncOnlineConnector
@@ -132,6 +131,6 @@ In Office 365, the default password expiration policy for all of your user accou
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-For more information, see [Using Windows PowerShell to Manage Lync Online](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx).
+For more information, see [Set up your computer for Windows PowerShell](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx).
   
 

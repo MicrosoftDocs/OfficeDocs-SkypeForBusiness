@@ -3,7 +3,6 @@ title: "Skype Room System hybrid deployments"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/17/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro

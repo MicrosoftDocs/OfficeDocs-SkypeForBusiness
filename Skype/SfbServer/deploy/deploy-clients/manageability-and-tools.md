@@ -3,7 +3,6 @@ title: "Skype Room System manageability and tools"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -22,7 +21,7 @@ For Skype for Business Server on-premises deployments, you can use the Skype Roo
   
 See the following articles for more details:
   
-- [Deploying the Lync Room System Administrative Web Portal in Lync Server 2013](http://technet.microsoft.com/library/ecba5b36-632e-40b9-9c2e-ab825baf7a46.aspx)
+- [Deploying the Lync Room System Administrative Web Portal](http://technet.microsoft.com/library/ecba5b36-632e-40b9-9c2e-ab825baf7a46.aspx)
     
 - [Configuring your Lync Server 2013 environment for the Lync Room System Administrative Web Portal](http://technet.microsoft.com/library/1bf3cc55-cfa8-46ee-a8bc-6dab3bff76b2.aspx)
     

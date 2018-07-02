@@ -3,7 +3,6 @@ title: "Configure the client experience with Skype for Business"
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ description: "Summary: Read this topic to learn how to configure the client expe
  
 **Summary:** Read this topic to learn how to configure the client experience for Skype for Business users.
   
-Skype for Business provides a new user experience that is based on the Skype consumer product experience. In addition to all the features of Lync, Skype for Business provides new features with simplified controls and familiar icons. For detailed information about the new client experience, see [Lync is now Skype for Business &#x2014; see what's new](https://go.microsoft.com/fwlink/?LinkId=529022).
+Skype for Business provides a new user experience that is based on the Skype consumer product experience. In addition to all the features of Lync, Skype for Business provides new features with simplified controls and familiar icons. For detailed information about the new client experience, see [Explore Skype for Business](https://go.microsoft.com/fwlink/?LinkId=529022).
   
 Skype for Business Server supports the new Skype for Business client experience as well as the Lync client experience. As an administrator, you can choose the preferred client experience for your users. For example, you might want to deploy the Lync client experience until users in your organization are fully trained in the new Skype for Business experience. Or, if you have not yet upgraded all users to Skype for Business Server, you might want all users to have the same client experience until all are upgraded to the new server.
   
