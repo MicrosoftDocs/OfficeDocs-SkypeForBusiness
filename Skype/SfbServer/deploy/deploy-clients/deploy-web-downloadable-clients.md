@@ -21,7 +21,7 @@ Skype for Business Web App is an Internet Information Services (IIS) web client 
 The voice, video, and sharing features in Skype for Business Web App require a Microsoft ActiveX control that is used as a plugin by the user's browser. You can either install the ActiveX control in advance or allow users to install it when prompted, which happens the first time they use Skype for Business Web App or the first time they access a feature that requires the ActiveX control.
   
 > [!NOTE]
-> In Skype for Business Server 2015 Edge Server deployments, an HTTPS reverse proxy in the perimeter network is required for Skype for Business Web App client access. You must also publish simple URLs. For details, see [Setting Up Reverse Proxy Servers](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and [Planning for Simple URLs](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx). 
+> In Skype for Business Server 2015 Edge Server deployments, an HTTPS reverse proxy in the perimeter network is required for Skype for Business Web App client access. You must also publish simple URLs. For details, see [Setting Up Reverse Proxy Servers](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and [DNS requirements for simple URLs in Skype for Business Server 2015](../../plan-your-deployment/network-requirements/simple-urls.md). 
   
 ## Enable Multi-Factor Authentication for Skype for Business Web App
 <a name="MFA"> </a>
@@ -143,7 +143,7 @@ This procedure is optional. If you do not use it, external users will continue t
   
 [Plan for Meetings clients (Web App and Meetings App)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
 
-[Configuring the Meeting Join Page](http://technet.microsoft.com/library/45880423-47f4-49af-b825-cbd8e3fc1046.aspx)
+[Configure the meeting join page in Skype for Business Server](../../manage/conferencing/meeting-join-page.md)
   
 [Microsoft Online Services Privacy Statement](https://www.microsoft.com/en-us/privacystatement/OnlineServices/Default.aspx)
   
