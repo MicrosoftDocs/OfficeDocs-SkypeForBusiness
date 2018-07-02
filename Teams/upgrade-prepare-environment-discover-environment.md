@@ -29,11 +29,11 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 
 Discovery is one of the very first, key steps that you take when planning for your journey to Microsoft Teams.
 
-You perform a detailed discovery of your environment to better understand its current state and to reveal any difficulties or—even further—possible blockers to the execution of your Teams rollout.
+You perform a detailed discovery of your environment to better understand its current state and to reveal any difficulties or—even more important—possible blockers to the execution of your Teams rollout.
 
 ## Discovery Questionnaire
 
-The sample questionnaire below walks you through a set of questions to confirm that your organization is ready for the successful rollout of Audio Conferencing and Phone System with Calling Plans capabilities in Teams.
+The sample questionnaire below walks you through a set of questions to confirm that your organization is ready for a successful Microsoft Teams rollout.
 
 All matters related to your existing collaboration infrastructure and Office 365 tenant, networking, endpoints, operations, and adoption and readiness are included as part of the environmental discovery questionnaire.
 
@@ -41,6 +41,8 @@ The questionnaire is divided into multiple sections to confirm your organization
 
 > [!TIP]
 > You can start by copying the questionnaire into a Microsoft Word document. Try to answer all questions and capture all details as you move through.
+
+<!-- Delete this section via Debbie, because redundant.
 
 ## Project team
 
@@ -64,6 +66,7 @@ Capture detailed information about the key stakeholders of your Teams rollout pr
 > | Facilities Lead                       |                                   |                     |               |
 > | Video Team Lead                       |                                   |                     |               |
 > | Business Unit Leads                   |                                   |                     |               |
+-->
 
 ## Office 365 tenant details
 
@@ -103,6 +106,8 @@ Use the following table to capture information about your existing collaboration
 
 ## Collaboration platform deployment details
 
+<!-- Delete this section for the Upgrade version of the article, yes?
+
 ### Microsoft Teams (if applicable)
 
 If applicable, capture the details of your Teams deployment by using the sample table below. If you haven’t deployed Teams, skip this section.
@@ -116,6 +121,7 @@ If applicable, capture the details of your Teams deployment by using the sample 
 > | Which Teams clients are in use? | <input type="checkbox"> Web <br/> <input type="checkbox"> Windows <br/> <input type="checkbox"> Mac <br/> <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> Windows Mobile | |
 > | Who has permissions to create teams? | <input type="checkbox"> Everyone in the organization <br>&nbsp; &nbsp; &nbsp;(This is the default setting) <br/> <input type="checkbox"> Specific people <br>&nbsp; &nbsp; &nbsp;(Specify in the Comments column.) | |
 > | Are you using security and compliance features in Teams? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+-->
 
 ### Skype for Business Online (if applicable)
 
