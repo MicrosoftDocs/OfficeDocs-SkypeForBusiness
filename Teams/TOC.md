@@ -228,7 +228,7 @@
 
 
 
-# [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
+# [Journey from Skype for Business to Teams](journey-skypeforbusiness-teams.md)
 ## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
 ### [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
 ## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
