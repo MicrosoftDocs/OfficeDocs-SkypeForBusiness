@@ -3,7 +3,6 @@ title: "First Run Checklist for Skype for Business Server Control Panel"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -25,7 +24,7 @@ There are a number of important tasks that we strongly recommend you perform aft
   
 ## First Run Checklist
 
-We strongly recommend that you review the tasks referred to in this topic, and then perform the appropriate procedures for the Lync Server deployment in your organization.
+We strongly recommend that you review the tasks referred to in this topic, and then perform the appropriate procedures for deployment in your organization.
   
 |**Task**|**Control Panel group**|**Documentation**|
 |:-----|:-----|:-----|

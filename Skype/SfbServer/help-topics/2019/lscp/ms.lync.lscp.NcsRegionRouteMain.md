@@ -3,7 +3,6 @@ title: "Configure a Network Region Route"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -20,5 +19,5 @@ What do you want to do? Click the link to the task that you want to perform.
   
 - [Configuring Network Region Routes](http://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
 

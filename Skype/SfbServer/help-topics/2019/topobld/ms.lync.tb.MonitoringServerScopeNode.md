@@ -3,7 +3,6 @@ title: "Monitoring Scope Node"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,12 +10,12 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
-description: "In Lync Server 2013 Topology Builder, you can perform tasks related to an individual server running Monitoring by either right-clicking the server running Monitoring in the console tree, clicking Action in the toolbar, or clicking a task in the Actions pane, and then clicking one of the following options for the server running Monitoring:"
+description: "In Topology Builder, you can perform tasks related to an individual server running Monitoring by either right-clicking the server running Monitoring in the console tree, clicking Action in the toolbar, or clicking a task in the Actions pane, and then clicking one of the following options for the server running Monitoring:"
 ---
 
 # Monitoring Scope Node
  
-In Lync Server 2013 Topology Builder, you can perform tasks related to an individual server running Monitoring by either right-clicking the server running Monitoring in the console tree, clicking **Action** in the toolbar, or clicking a task in the Actions pane, and then clicking one of the following options for the server running Monitoring:
+In Topology Builder, you can perform tasks related to an individual server running Monitoring by either right-clicking the server running Monitoring in the console tree, clicking **Action** in the toolbar, or clicking a task in the Actions pane, and then clicking one of the following options for the server running Monitoring:
   
 - **Edit Properties**. Opens the **Edit Properties** page for the server running Monitoring, where you can change the fully qualified domain name (FQDN) of the server running Monitoring or the monitoring SQL Server database.
     
