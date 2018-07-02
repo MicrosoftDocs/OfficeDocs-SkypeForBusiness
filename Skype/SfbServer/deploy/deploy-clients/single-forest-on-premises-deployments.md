@@ -3,7 +3,6 @@ title: "Skype Room System single forest on-premises deployments"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -20,7 +19,7 @@ This section provides an overview of the steps for provisioning the Skype Room S
   
 ## Single forest on-premises deployments
 
-If you already have a resource mailbox account for the conferencing room, you can use it. Otherwise, you will need to create a new one. You can use either Exchange Management Shell (PowerShell) or Exchange Management Console to create a new resource mailbox account. We recommend using a new (delete old mailbox and re-create) resource mailbox for Skype Room System. Make sure to back up mailbox data before deleting and then export it back to the re-created mailbox using the Outlook client (see Export or back up messages, calendar, tasks, and contacts for more information). To restore the meetings lost by deleting the mailbox, see [Connect or restore a deleted mailbox](https://technet.microsoft.com/en-us/library/jj863438%28v=exchg.150%29.aspx). 
+If you already have a resource mailbox account for the conferencing room, you can use it. Otherwise, you will need to create a new one. You can use either Exchange Management Shell (PowerShell) or Exchange Management Console to create a new resource mailbox account. We recommend using a new (delete old mailbox and re-create) resource mailbox for Skype Room System. Make sure to back up mailbox data before deleting and then export it back to the re-created mailbox using the Outlook client (see Export or back up messages, calendar, tasks, and contacts for more information). To restore the meetings lost by deleting the mailbox, see [Connect or restore a deleted mailbox](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx). 
   
 To use an existing resource mailbox account (for example, LRS-01) follow the steps below:
   

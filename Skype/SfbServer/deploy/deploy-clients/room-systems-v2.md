@@ -3,7 +3,6 @@ title: "Deploy Skype Room Systems v2"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro

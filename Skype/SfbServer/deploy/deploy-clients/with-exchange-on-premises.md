@@ -3,7 +3,6 @@ title: "Deploy Skype Room Systems v2 with Exchange on premises"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
