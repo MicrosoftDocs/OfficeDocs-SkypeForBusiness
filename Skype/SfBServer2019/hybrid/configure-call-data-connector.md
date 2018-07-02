@@ -24,7 +24,7 @@ This article explains how to configure Call Data Connector--a single toolset tha
 For more information about Call Data Connector benefits and pre-requisites, such as role requirements and setting up hybrid connectivity, see  [Plan Call Data Connector](plan-call-data-connector.md).
 
 ## Enable Monitoring 
-You must configure the data generated from enabling Call Data Recording (CDR) and Quality of Experience (QoE), otherwise the Call Analytics and Call Quality Dashboards won’t get information to display. Before you Configure Call Data Connector, follow the steps provided in [Deploy monitoring in Skype for Business Server 2015](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) to configure both CDR and QoE.
+You must configure the data generated from enabling Call Data Recording (CDR) and Quality of Experience (QoE), otherwise the Call Analytics and Call Quality Dashboards won’t get information to display. Before you Configure Call Data Connector, follow the steps provided in [Deploy monitoring in Skype for Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) to configure both CDR and QoE.
 <!--The enable monitoring section might be better placed in the planning topic. or it might belong in both topics. CR:  I think we should leave it here.  It is a configuratino task so I think it belongs here.-->
 
 ## Enable Call Data Connector
