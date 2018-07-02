@@ -3,7 +3,6 @@ title: "Skype Room System Skype for Business software license"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro

@@ -1,9 +1,8 @@
 ---
-title: "Use the Office Customization Tool (OCT) in Skype for Business Server 2015"
+title: "Use the Office Customization Tool (OCT) in Skype for Business Server"
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,7 +11,7 @@ ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: "Summary: How to use the Office Customization Tool with the Skype for Business client."
 ---
 
-# Use the Office Customization Tool (OCT) in Skype for Business Server 2015
+# Use the Office Customization Tool (OCT) in Skype for Business Server
  
 **Summary:** How to use the Office Customization Tool with the Skype for Business client.
   

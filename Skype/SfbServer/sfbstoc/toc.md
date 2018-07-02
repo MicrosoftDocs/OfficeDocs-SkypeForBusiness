@@ -359,7 +359,7 @@
 ##### [Trusted domains](../deploy/deploy-clients/trusted-domains.md)
 ##### [Migration considerations](../deploy/deploy-clients/migration-considerations.md)
 ##### [Domain joining considerations](../deploy/deploy-clients/domain-joining-considerations.md)
-##### [Skype for Business software liicense](../deploy/deploy-clients/skype-for-business-software-liicense.md)
+##### [Skype for Business software license](../deploy/deploy-clients/skype-for-business-software-liicense.md)
 ##### [Manageability and tools](../deploy/deploy-clients/manageability-and-tools.md)
 ##### [Room setup scripts](../deploy/deploy-clients/room-setup-scripts.md)
 #### [Room Systems v2](../deploy/deploy-clients/room-systems-v2.md)

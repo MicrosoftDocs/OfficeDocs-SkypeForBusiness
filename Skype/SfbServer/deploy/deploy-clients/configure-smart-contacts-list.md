@@ -3,7 +3,6 @@ title: "Configure Smart contacts list in Skype for Business Server"
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
