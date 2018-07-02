@@ -35,7 +35,7 @@ If you want to keep this functionality, you will need to keep a Skype for Busine
 
 Persistent Chat Server is an optional role that lets multiple users in your organization participate in chat room conversations that persist over time. Persistent chat cannot be deployed with Skype for Business Server 2019. This server role is removed from Topology Builder, as well as from the code. 
 
-The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams). If you need to use this functionality, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.  
+The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). If you need to use this functionality, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.  
 
 ### SQL Mirroring for Skype for Business Server
 
@@ -50,6 +50,10 @@ In-place upgrades were available in Skype for Business Server 2015 but are no lo
 MCX support used by legacy mobile clients is no longer available in Skype for Business Server 2019. This was previously announced in Skype for Business Server 2015.
 
 All mobile clients will use Unified Communications Web API (UCWA). Users with legacy clients using MCX will need to upgrade to a current client.
+
+### Exchange Unified Messaging
+
+Exchange Unified Messaging as previously known is no longer available in Skype for Business Server 2019, which uses Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md) for more information.
 
 
 ## Tools
