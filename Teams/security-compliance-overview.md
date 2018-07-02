@@ -39,7 +39,11 @@ Content Search can be used to search Teams through rich filtering capabilities a
 
 Electronic discovery is the electronic aspect of identifying, collecting and producing electronically stored information (ESI) in response to a request for production in a law suit or investigation.
 
-Capabilities include case management, preservation, search, analysis, and export of Teams data. This includes chat, messaging and file data.
+Capabilities include case management, preservation, search, analysis, and export of Teams data. This includes chat, messaging and files, meeting and call summaries. For Teams meetings and Calls, a summary of the events that happened in the meeting and call are created and made available in eDiscovery. For more details about how to do eDiscovery in Security and Compliance center and run compliance content search for Teams content, please go to the links below: 
+
+[eDiscovery](https://support.office.com/en-us/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e?ui=en-US&rs=en-US&ad=US)
+
+[Content Search](https://support.office.com/en-us/article/search-for-content-in-office-365-df2d1e0f-b476-42c9-aade-4a260b24f193)
 
 Customers can leverage in-place eDiscovery or [Advanced eDiscovery](https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)
 
@@ -64,9 +68,12 @@ When any team within Teams is put on In-Place Hold or Litigation Hold, the hold 
 
 Legal Holds are generally applied within the context of an eDiscovery case.
 
-The figure below indicates the workflow of Teams data to both Exchange and SharePoint.
+The figure below indicates the workflow of Teams data to both Exchange and SharePoint for Teams Files and Messages. 
 
 ![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+
+The figure below indicates the workflow of Teams Meetings and calling data to Exchange
+(chuck to add image)
 
 
 > [!IMPORTANT]
