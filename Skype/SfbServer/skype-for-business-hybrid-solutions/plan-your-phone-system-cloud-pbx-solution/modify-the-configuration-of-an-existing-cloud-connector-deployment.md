@@ -274,7 +274,7 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 To add a new SIP domain (or multiple SIP domains) to your existing Cloud Connector deployment, do the following:
   
-1. Make sure you've completed the steps to update your domain in Office 365 and have the ability to add DNS records. For more information about how to set up your domain in Office 365, see the video [Set up your domain in Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US).
+1. Make sure you've completed the steps to update your domain in Office 365 and have the ability to add DNS records. For more information about how to set up your domain in Office 365, see [Add a domain to Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Update the Cloud Connector configuration file with the new SIP domain or domains.
     
@@ -295,7 +295,7 @@ To add a new SIP domain (or multiple SIP domains) to your existing Cloud Connect
 
 If you need to change the primary SIP domain in your Cloud Connector deployment, do the following:
   
-1. Make sure you've completed the steps to update your domain in Office 365 and have the ability to add DNS records. For more information about how to set up your domain in Office 365, see the video [Set up your domain in Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US).
+1. Make sure you've completed the steps to update your domain in Office 365 and have the ability to add DNS records. For more information about how to set up your domain in Office 365, see [Add a domain to Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Update the Cloud Connector configuration file with the new SIP domain.
     
