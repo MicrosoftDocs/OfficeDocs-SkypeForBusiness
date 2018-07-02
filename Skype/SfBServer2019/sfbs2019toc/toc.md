@@ -207,7 +207,7 @@
 #### [Configure Smart contacts list](../../SfbServer/deploy/deploy-clients/configure-smart-contacts-list.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Deploy Skype Room System](../../SfbServer/deploy/deploy-clients/deploy-skype-room-system.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Skype Room System Exchange and Skype Accounts](../../SfbServer/deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-###### [Single forest on-premises deployments](../../SfbServer/eploy/deploy-clients/single-forest-on-premises-deployments.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+###### [Single forest on-premises deployments](../../SfbServer/deploy/deploy-clients/single-forest-on-premises-deployments.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [Multiple forest on-premises deployments](../../SfbServer/deploy/deploy-clients/multiple-forest-on-premises-deployments.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [Provisioning Skype Room System accounts in Office 365](../../SfbServer/deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [Hybrid deployments](../../SfbServer/deploy/deploy-clients/hybrid-deployments.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
