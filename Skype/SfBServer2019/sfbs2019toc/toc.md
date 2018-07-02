@@ -234,7 +234,6 @@
 #### [Verify federation and remote access for external users](../migration/verify-federation-and-remote-access-for-external-users.md)
 #### [Change simple URLs after migration](../migration/change-simple-urls-after-migration.md)
 #### [Move remaining users](../migration/move-remaining-users.md)
-#### [Configure XMPP gateway](../migration/configure-xmpp-gateway.md)
 ### [Phase 7: Complete post-migration tasks](../migration/phase-7-complete-post-migration-tasks.md)
 #### [Migrate existing meetings and meeting content](../migration/migrate-existing-meetings-and-meeting-content.md)
 #### [Migrate dial-in access numbers](../migration/migrate-dial-in-access-numbers.md)

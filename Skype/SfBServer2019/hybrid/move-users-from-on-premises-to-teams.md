@@ -86,7 +86,7 @@ If your on-premises users have on-premises voice, you have two options:
 
     -  Microsoft Calling Plan provides an all-in-the-cloud voice solution. For more information about Microsoft Calling Plan, see INSERT LINK HERE. 
     
-    -  Direct Routing lets you use virtually any PSTN trunk,  and you can configure interoperability between customer-owned telephony equipment and Microsoft Phone System.  For more information, see [Plan Direct Routing](../../../Teams/direct-routing-plan.md) and [Configure Direct Routing](../../../Teams/direct-routing-configure.md).
+    -  Direct Routing lets you use virtually any PSTN trunk,  and you can configure interoperability between customer-owned telephony equipment and Microsoft Phone System.  For more information, see [Plan Direct Routing](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan) and [Configure Direct Routing](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-configure).
 
 -  **Migrate users without telephony capabilities.** If you migrate users without preserving  telephony capabilities, make sure users have appropriate licenses in the cloud. 
 
