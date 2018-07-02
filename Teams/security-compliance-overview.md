@@ -68,13 +68,13 @@ When any team within Teams is put on In-Place Hold or Litigation Hold, the hold 
 
 Legal Holds are generally applied within the context of an eDiscovery case.
 
-The figure below indicates the workflow of Teams data to both Exchange and SharePoint for Teams Files and Messages. 
+The following figure indicates the workflow of Teams data to both Exchange and SharePoint for Teams Files and Messages. 
 
 ![Diagram of the workflow of Teams data to Exchange and SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
-The figure below indicates the workflow of Teams Meetings and calling data to Exchange
-(chuck to add image)
+The following figure indicates the workflow of Teams Meetings and calling data to Exchange.
 
+![Diagram of the workflow of Teams Meetings and calling data to Exchange.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
 
 > [!IMPORTANT]
 > There can be up to a 24-hr delay to discover Teams content.
