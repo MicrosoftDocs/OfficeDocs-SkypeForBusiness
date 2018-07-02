@@ -77,7 +77,7 @@ The following figure indicates the workflow of Teams Meetings and calling data t
 ![Diagram of the workflow of Teams Meetings and calling data to Exchange.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
 
 > [!IMPORTANT]
-> There can be up to a 24-hr delay to discover Teams content.
+> There can be up to a 24-hour delay to discover Teams content.
 
 
 ## Retention policies
