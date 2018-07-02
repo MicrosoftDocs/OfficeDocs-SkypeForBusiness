@@ -51,6 +51,10 @@ MCX support used by legacy mobile clients is no longer available in Skype for Bu
 
 All mobile clients will use Unified Communications Web API (UCWA). Users with legacy clients using MCX will need to upgrade to a current client.
 
+### Exchange Unified Messaging
+
+Exchange Unified Messaging as previously known is no longer available in Skype for Business Server 2019, which uses Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md) for more information.
+
 
 ## Tools
 
