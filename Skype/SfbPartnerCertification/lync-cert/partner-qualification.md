@@ -26,7 +26,7 @@ Compatible Devices Program."
 # Partner qualification processes
  
 ## Infrastructure
-With the launch of Skype for Business, we will no longer qualify solutions for Lync Server. Instead, see the  [infrastructure certified for Skype for Business](../skype-bus/infra.md). 
+With the launch of Skype for Business, we will no longer qualify solutions for Lync Server. Instead, see the  [infrastructure certified for Skype for Business](../certification/infra.md). 
  
 ## Lync Services
 E911 service provider and other services vendors interested in qualifying their offering for Lync Server or Exchange Server must meet both technical and marketing requirements. Participation in the program is solely at Microsoft’s discretion. Upon successful completion, the product, service, and firmware combinations tested will be listed on this site.
