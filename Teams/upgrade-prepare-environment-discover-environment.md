@@ -42,31 +42,9 @@ The questionnaire is divided into multiple sections to confirm your organization
 > [!TIP]
 > You can start by copying the questionnaire into a Microsoft Word document. Try to answer all questions and capture all details as you move through.
 
-<!-- Delete this section via Debbie, because redundant.
-
 ## Project team
 
-Capture detailed information about the key stakeholders of your Teams rollout project. Note that one person can play several roles throughout the project.
-
-> | Role                                  | Name, email address, phone number | Location, time zone | Comments      |
-> |---------------------------------------|-----------------------------------|---------------------|---------------|
-> | Executive Sponsor                     |                                   |                     |               |
-> | Project Lead                          |                                   |                     |               |
-> | Collaboration Lead/Architect          |                                   |                     |               |
-> | Consultant                            |                                   |                     |               |
-> | Project Manager                       |                                   |                     |               |
-> | Change Management/Adoption Specialist |                                   |                     |               |
-> | Network Lead                          |                                   |                     |               |
-> | Security Lead                         |                                   |                     |               |
-> | Telephony Lead                        |                                   |                     |               |
-> | Desktop Lead                          |                                   |                     |               |
-> | Support/Help Desk Lead                |                                   |                     |               |
-> | Deployment Lead                       |                                   |                     |               |
-> | Service Owner                         |                                   |                     |               |
-> | Facilities Lead                       |                                   |                     |               |
-> | Video Team Lead                       |                                   |                     |               |
-> | Business Unit Leads                   |                                   |                     |               |
--->
+Ensure that you’ve engaged the right people for your project team. Verify the steps you completed in [Enlist your project stakekholders](upgrade-enlist-stakeholders.md).
 
 ## Office 365 tenant details
 
@@ -106,8 +84,6 @@ Use the following table to capture information about your existing collaboration
 
 ## Collaboration platform deployment details
 
-<!-- Delete this section for the Upgrade version of the article, yes?
-
 ### Microsoft Teams (if applicable)
 
 If applicable, capture the details of your Teams deployment by using the sample table below. If you haven’t deployed Teams, skip this section.
@@ -121,7 +97,6 @@ If applicable, capture the details of your Teams deployment by using the sample 
 > | Which Teams clients are in use? | <input type="checkbox"> Web <br/> <input type="checkbox"> Windows <br/> <input type="checkbox"> Mac <br/> <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> Windows Mobile | |
 > | Who has permissions to create teams? | <input type="checkbox"> Everyone in the organization <br>&nbsp; &nbsp; &nbsp;(This is the default setting) <br/> <input type="checkbox"> Specific people <br>&nbsp; &nbsp; &nbsp;(Specify in the Comments column.) | |
 > | Are you using security and compliance features in Teams? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
--->
 
 ### Skype for Business Online (if applicable)
 
