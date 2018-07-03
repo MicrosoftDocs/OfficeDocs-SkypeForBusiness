@@ -12,13 +12,13 @@ ms.collection: IT_Skype16
 description: "Summary: These features have been removed from Skype for Business Server 2019."
 ---
 
-# What's deprecated or removed from Skype for Business Server 2019 
+# What's deprecated from Skype for Business Server 2019 
 
 [!INCLUDE [disclaimer](disclaimer.md)]
 
-Learn about the features and functionality that are deprecated or removed in Skype for Business Server 2019.
+Learn about the features and functionality that are deprecated in Skype for Business Server 2019.
 
-Some deprecated features are included in Skype for Business Server 2019 for compatibility with previous product versions. For information about new features in Skype for Business Server 2019, see New and improved features in Skype for Business Server 2019.
+Some deemphasised features are included in Skype for Business Server 2019 for compatibility with previous product versions. For information about new features in Skype for Business Server 2019, see New and improved features in Skype for Business Server 2019.
 
 
 ## Features deprecated in Skype for Business Server 2019
@@ -39,7 +39,7 @@ The same functionality is available in Teams. For more information, see [Journey
 
 ### SQL Mirroring for Skype for Business Server
 
-SQL Mirroring cannot be deployed with Skype for Business Server 2019. Other options for providing HADR are still supported and you should choose from among them.
+SQL Mirroring cannot be deployed with Skype for Business Server 2019. Other options for providing High Availability and Disaster Recovery are still supported and you should choose from among them.
 
 ### In-place upgrades 
 
@@ -51,14 +51,12 @@ MCX support used by legacy mobile clients is no longer available in Skype for Bu
 
 All mobile clients will use Unified Communications Web API (UCWA). Users with legacy clients using MCX will need to upgrade to a current client.
 
-### Exchange Unified Messaging
 
-Exchange Unified Messaging as previously known is no longer available in Skype for Business Server 2019, which uses Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md) for more information.
 
 
 ## Tools
 
-The following tools will not be available for use at the initial release of Skype for Business Server 2019, but will be available afterwards:
+The following tools will not be available for use at the initial release of Skype for Business Server 2019:
 
 - Call Quality Dashboard  
 - KHI Resources  
@@ -70,7 +68,7 @@ The following tools will not be available for use at the initial release of Skyp
 - Skype for Business Server 2015 Capacity Planning Calculator  
 - Skype for Business Server 2015, Debugging Tools  
 
-The following tools will not be updated for use with Skype for Business Server 2019:
+The following tools are not supported with Skype for Business Server 2019:
 
 - Microsoft Call Quality Methodology Scorecard, v1.5  
 - CQM Poster for Skype for Business  

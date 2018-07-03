@@ -30,89 +30,14 @@
 ## [Get clients for Teams](get-clients.md)
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
 ### [Install Microsoft Teams using MSI](msi-deployment.md)
+### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 ## [Enable Microsoft Teams in your organization](Office-365-set-up.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Assign roles and permissions in Teams](assign-roles-permissions.md)
 ## [Modern authentication](sign-in-teams.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
-<<<<<<< HEAD
-## [Dimensions and measures available in Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Set up Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Use Call Analytics to troubleshoot poor Skype for Business call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Call Analytics and Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
-
-# Licensing
-## [Manage user access to Teams](user-access.md)
-## [Office 365 licensing for Teams](office-365-licensing.md)
-## [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
-## [Set up Communications Credits for your organization](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [What are Communications Credits?](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
-
-# Interoperability with Office 365
-## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-## [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
-## [Office 365 groups and Teams](office-365-groups.md)
-## [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
-## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
-## [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
-## [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
-## [How Exchange and Teams interact](exchange-teams-interact.md)
-## [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
-## [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
-## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
-
-
-
-# Teams & channels
-## [Overview of teams and channels in Teams](teams-channels-overview.md)
-## [Assign roles and permissions in Teams](assign-roles-permissions.md)
-## [Best practices for organizing teams in Teams](best-practices-organizing.md)
-## [Tutorial: Create a company-wide team using PowerShell](company-wide-team-creation-powershell.yml)
-
-# Apps & services
-## [Admin settings for apps in Teams](admin-settings.md)
-## [Add bots for private chats and channels in Teams](add-bots.md)
-## [Publish the Teams Private App Store](private-app-store-teams.md)
-## [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
-## [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
-## [Use T-Bot to help users with Teams](t-bot.md)
-## [Use activity reports for Teams](teams-activity-reports.md)
-
-# Meetings
-## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
-## [Dialing out from a meeting so other people can join it](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Enable users to record their name when they join a meeting](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Turn on or off entry and exit announcements for meetings](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Teams cloud meeting recording](cloud-recording.md)
-## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
-## [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
-
-
-# [Guest access](guest-access.md)
-## [How a guest joins a team](guest-joins.md)
-## [What the guest experience is like](guest-experience.md)
-## [Authorize guest access in Teams](teams-dependencies.md)
-## [Turn on or off guest access to Teams](set-up-guests.md)
-## [Manage guest access in Teams](manage-guests.md)
-## [Add a guest to a team](add-guests.md)
-## [View guest users in a team](view-guests.md)
-## [Edit guest user information](edit-guests-information.md)
-## [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
-## [Guest access checklist](guest-access-checklist.md)
-
-
-# Cloud voice
-
-
-## [Deployment guidance](cloud-voice-deployment.md)
-=======
 ## [Cloud voide deployment guidance](cloud-voice-deployment.md)
->>>>>>> master
 ### [Define my success](1-envision-define-my-success-cloud-voice.md)
 ### [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
 ### [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
@@ -169,12 +94,8 @@
 <!-- ============================================================ -->
 
 
-<<<<<<< HEAD
-# [Journey from Skype for Business to Teams](journey-skypeforbusiness-teams.md)
-=======
 <!-- ============================================================ -->
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
->>>>>>> master
 ## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
 ### [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
 ## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
