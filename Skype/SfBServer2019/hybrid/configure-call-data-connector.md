@@ -146,6 +146,6 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 For more information on the cmdlets, you can specify the Get-Help command from within the Skype for Business Server Management Shell. For example:
   
-```Get-Help Get-CsCloudCallDataConnector
-Get-Help Set-CsCloudCallDataConnector | more 
-Get-Help Set-CsCloudCallDataConnectorConfiguration | more```
+```Get-Help Get-CsCloudCallDataConnector | more```
+```Get-Help Set-CsCloudCallDataConnector | more``` 
+```Get-Help Set-CsCloudCallDataConnectorConfiguration | more```
