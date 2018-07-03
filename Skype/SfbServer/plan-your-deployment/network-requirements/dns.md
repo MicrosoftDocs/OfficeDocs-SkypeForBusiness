@@ -1,9 +1,8 @@
 ---
-title: "DNS requirements for Skype for Business Server 2015"
+title: "DNS requirements for Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,20 +12,20 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
-description: "Summary: Review the DNS considerations in this topic before implementing Skype for Business Server 2015."
+description: "Summary: Review the DNS considerations in this topic before implementing Skype for Business Server."
 ---
 
-# DNS requirements for Skype for Business Server 2015
+# DNS requirements for Skype for Business Server
  
-**Summary:** Review the DNS considerations in this topic before implementing Skype for Business Server 2015.
+**Summary:** Review the DNS considerations in this topic before implementing Skype for Business Server.
   
-This article only addresses DNS planning for Skype for Business Server 2015 deployments on an organization's on-premise network. For Skype for Business Online refer to "Office 365 URLs and IP address ranges" at [http://aka.ms/o365ips](http://aka.ms/o365ips). 
+This article only addresses DNS planning for Skype for Business Server deployments on an organization's on-premise network. For Skype for Business Online refer to "Office 365 URLs and IP address ranges" at [http://aka.ms/o365ips](http://aka.ms/o365ips). 
   
-A Domain name service (DNS) server maps hostnames (like www.contoso.com, presumably a web server) to IP addresses (such as 10.10.10.10). It helps clients and interdependent servers communicate with each other on the network. When you set up an implementation of Skype for Business Server 2015 you'll need to make sure the mapping of new server names (usually reflecting the role they'll be taking on) matches the IP addresses they are assigned to.
+A Domain name service (DNS) server maps hostnames (like www.contoso.com, presumably a web server) to IP addresses (such as 10.10.10.10). It helps clients and interdependent servers communicate with each other on the network. When you set up an implementation of Skype for Business Server, you'll need to make sure the mapping of new server names (usually reflecting the role they'll be taking on) matches the IP addresses they are assigned to.
   
 While this may seem a bit daunting at first, the heavy lifting for planning this can be done using the [Skype for Business Server 2015 Planning Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Once you've gone through the wizard's questions about what features you plan to use, for each site you define you can view the DNS Report within the Edge Admin Report, and use the information listed there to create your DNS records. You can also make adjustments to many of the names and IP addresses used, for details see [Review the DNS Report](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report). Keep in mind you can export the Edge Admin Report to an Excel spreadsheet, and the DNS Report will be one of the worksheets in the file. 
   
-When you are installing a new implementation as described in [Create DNS records for Skype for Business Server 2015](../../deploy/install/create-dns-records.md) and building your topology for Skype for Business Server 2015, we recognize that you can choose to use the DNS capabilities built in to Windows Server 2016 or a third-party DNS package, so we'll keep the discussions in this article general rather than specific. We're detailing what's needed, and how you meet that need is your decision to make.
+When you are installing a new implementation as described in [Create DNS records for Skype for Business Server](../../deploy/install/create-dns-records.md) and building your topology for Skype for Business Server, we recognize that you can choose to use the DNS capabilities built in to Windows Server 2016 or a third-party DNS package, so we'll keep the discussions in this article general rather than specific. We're detailing what's needed, and how you meet that need is your decision to make.
   
 Experienced Skype for Business, Lync, and Office Communications Suite administrators will probably find the following tables useful. If the table is confusing to you, the later sections or articles will shed some light on the following concepts: 
   
@@ -45,7 +44,7 @@ Experienced Skype for Business, Lync, and Office Communications Suite administra
 ## Summary tables
 <a name="BK_Summary"> </a>
 
-The following tables show DNS records Skype for Business Server 2015 uses to provide services to users. Some are optional in that they are only needed to support certain features, and they can be skipped if those features are not desired. The DNS records needed for internal access only are in the first table, and a deployment allowing internal and external access will need records from both tables.
+The following tables show DNS records Skype for Business Server uses to provide services to users. Some are optional in that they are only needed to support certain features, and they can be skipped if those features are not desired. The DNS records needed for internal access only are in the first table, and a deployment allowing internal and external access will need records from both tables.
   
 **Internal DNS mappings**
 
@@ -150,7 +149,7 @@ Skype for Business Server supports using three "simple" URLs to access services:
     
 - **Admin** enables quick access to the Skype for Business Server Control Panel. From any computer within your organization's firewalls, an admin can open the Skype for Business Server Control Panel by typing the Admin simple URL into a browser. The Admin simple URL is internal to your organization. An example of the Admin simple URL is https://admin.contoso.com.
     
-Simple URLs are discussed in more detail at [DNS requirements for simple URLs in Skype for Business Server 2015](simple-urls.md).
+Simple URLs are discussed in more detail at [DNS requirements for simple URLs in Skype for Business Server](simple-urls.md).
   
 ## DNS by server role
 <a name="BK_Servers"> </a>
