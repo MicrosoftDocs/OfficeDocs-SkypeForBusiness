@@ -1,7 +1,7 @@
 ---
 title: Deploy Microsoft Teams on Surface Hub
-author: LolaJacobsen
-ms.author: lolaj
+author: ChuckEdmonson
+ms.author: chucked
 manager: serdars
 ms.date: 07/02/2018
 audience: Admin
