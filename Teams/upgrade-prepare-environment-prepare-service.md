@@ -63,7 +63,7 @@ When you’re onboarding users on a per-site basis, we highly recommended that y
 
 ## Continue onboarding
 
-After you complete this checklist, you’ll have successfully deployed Teams in your organization.
+After you complete this checklist, proceed to the next step: [Conduct a user pilot](pilot-essentials.md)
 
 [//]: # (@Turgay, I commented out this next paragraph because it's cloud voice-specific.)
 <!--
