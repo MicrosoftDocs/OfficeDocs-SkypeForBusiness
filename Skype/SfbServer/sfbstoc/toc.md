@@ -502,7 +502,7 @@
 #### [Stage AV and OAuth certificates](../manage/authentication/stage-av-and-oauth-certificates.md)
 #### [Server-to-server and partner applications](../manage/authentication/server-to-server-and-partner-applications.md)
 ##### [Assign a server-to-server certificate](../manage/authentication/assign-a-server-to-server-certificate.md)
-##### [Configure a hybrid environment](../manage/authentication/configure-a-hybrid-environment.md)
+##### [Configure server-to-server authentication in a hybrid environment](../manage/authentication/configure-a-hybrid-environment.md)
 ##### [Configure an on-premises partner app](../manage/authentication/configure-an-on-premises-partner-app.md)
 #### [Registrar configuration settings](../manage/authentication/registrar-configuration-settings.md)
 #### [Web Service configuration settings](../manage/authentication/web-service-configuration-settings.md)
