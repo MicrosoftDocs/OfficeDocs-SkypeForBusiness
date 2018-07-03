@@ -1,4 +1,4 @@
-``---
+---
 title: "Plan for IPv6 in Skype for Business"
 ms.author: jambirk
 author: jambirk
