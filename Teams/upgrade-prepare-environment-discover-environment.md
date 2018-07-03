@@ -215,4 +215,4 @@ Use the following table and capture the current adoption and readiness state of 
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Who will be responsible for overseeing the completion of the discovery questionnaire?</ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Proceed with [preparing your network for Teams](upgrade-prepare-environment-prepare-network) <li>When all the prerequisites are met, and the network is ready, then [prepare your service for upgrading to Teams](upgrade-prepare-environment-prepare-service.md)</ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Proceed with [preparing your network for Teams](upgrade-prepare-environment-prepare-network.md) <li>When all the prerequisites are met, and the network is ready, then [prepare your service for upgrading to Teams](upgrade-prepare-environment-prepare-service.md)</ul>|
