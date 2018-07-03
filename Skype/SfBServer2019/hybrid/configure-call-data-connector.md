@@ -16,7 +16,7 @@ description: "Instructions for configuring Call Data Connector, which allows tel
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
-This article explains how to configure Call Data Connector--a single toolset that enables viewing Skype for Business Server Call Quality Data using Skype for Business Online Call Quality Dashboard (CQD) and Call Analytics (CA) tools. You can configure Call Data Connector <!--using a wizard built into the Skype for Business Server Control Panel or--> by using Skype for Business Server Management Shell commands.  
+This article describes how to configure Call Data Connector--a single toolset that enables viewing Skype for Business Server Call Quality Data using Skype for Business Online Call Quality Dashboard (CQD) and Call Analytics (CA) tools. You can configure Call Data Connector <!--using a wizard built into the Skype for Business Server Control Panel or--> by using Skype for Business Server Management Shell commands.  
 
 > [!NOTE]
 > At public preview release, only Call Analytics dashboard will be available.
