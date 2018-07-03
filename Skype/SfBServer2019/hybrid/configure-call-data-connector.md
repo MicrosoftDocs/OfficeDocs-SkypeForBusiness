@@ -68,7 +68,9 @@ There are two methods for logging in to Skype for Business Online PowerShell:
 
 2. If you get an error that the connection already exists, this means that the call data connection already exists for your tenant. In this case, run the command: 
 
-   ```Get-CsCloudCallDataConnection | Set-CsCloudCallDataConnector -TenantId <tenant_id>```
+   ```
+   Get-CsCloudCallDataConnection | Set-CsCloudCallDataConnector -TenantId <tenant_id>
+   ```
 
 
 ####Log in to Skype for Business Online PowerShell from another PowerShell session (optional method)
@@ -85,9 +87,9 @@ There are two methods for logging in to Skype for Business Online PowerShell:
     Get-CsCloudCallDataConnection  
     ```
 
-#####The output of the above commands contains a token value, which you will need when configuring your on-premises environment as follows:
+The output of the above commands contains a token value, which you will need when configuring your on-premises environment as follows:
 
-From within the Skype for Business Server management shell, specify the following command:
+3. From within the Skype for Business Server management shell, specify the following command:
 
 ```
 Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <token-copied-from-online>
@@ -144,8 +146,6 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 For more information on the cmdlets, you can specify the Get-Help command from within the Skype for Business Server Management Shell. For example:
   
-```
-Get-Help Get-CsCloudCallDataConnector
+```Get-Help Get-CsCloudCallDataConnector
 Get-Help Set-CsCloudCallDataConnector | more 
-Get-Help Set-CsCloudCallDataConnectorConfiguration | more
-```
+Get-Help Set-CsCloudCallDataConnectorConfiguration | more```
