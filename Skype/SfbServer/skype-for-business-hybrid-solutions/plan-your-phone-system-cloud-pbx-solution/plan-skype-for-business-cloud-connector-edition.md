@@ -242,7 +242,7 @@ Before you deploy Cloud Connector Edition, make sure you have the following for 
     
 - Qualified PBX/Trunk or qualified SBC/Gateway (a minimum of two gateways is recommended).
     
-    Cloud Connector supports the same Session Border Controllers (SBCs) that are certified for Skype for Business. For more information, see [Telephony Infrastructure for Skype for Business](https://technet.microsoft.com/en-us/office/dn947483.aspx). <!-- Techcenter -->
+    Cloud Connector supports the same Session Border Controllers (SBCs) that are certified for Skype for Business. For more information, see [Telephony Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
     
 - A local server administrator account with permissions to install and configure Hyper-V on the host servers. The account must have administrator permissions on the local server where Hyper-V is installed and configured.
     
