@@ -2,20 +2,21 @@
 ## [What's new](../whats-new.md)
 ## [What's deprecated](../deprecated.md)
 
-## Hybrid
-### [Hybrid solutions](../hybrid/hybrid-solutions.md)
+## [Hybrid solutions](../hybrid/hybrid-solutions.md)
 ### [Plan hybrid connectivity](../hybrid/plan-hybrid-connectivity.md)
 ### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity.md)
 #### [Configure federation with Skype for Business Online](../hybrid/configure-federation-with-skype-for-business-online.md)
 #### [Configure federation for an audio conferencing provider](../hybrid/configure-federation-for-an-audio-conferencing-provider.md) 
 #### [Configure server-to-server authentication](../../SfbServer/manage/authentication/configure-a-hybrid-environment.md)
-#### [Configure a multi-forest environment for hybrid](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
+#### [Configure a multi-forest environment](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [Move users from on-premises to Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
 ### [Move users from on-premises to Teams](../hybrid/move-users-from-on-premises-to-teams.md)
-### [Plan Cloud Voicemail](../hybrid/plan-cloud-voicemail.md)
-### [Configure Cloud Voicemail](../hybrid/configure-cloud-voicemail.md)
-### [Plan Call Data Connector](../hybrid/plan-call-data-connector.md)
-### [Configure Call Data Connector](../hybrid/configure-call-data-connector.md)
+### Cloud Voicemail
+#### [Plan Cloud Voicemail](../hybrid/plan-cloud-voicemail.md)
+#### [Configure Cloud Voicemail](../hybrid/configure-cloud-voicemail.md)
+### Call Data Connector
+#### [Plan Call Data Connector](../hybrid/plan-call-data-connector.md)
+#### [Configure Call Data Connector](../hybrid/configure-call-data-connector.md)
 
 
 ## Plan
@@ -402,7 +403,7 @@
 #### [Stage AV and OAuth certificates](../../SfbServer/manage/authentication/stage-av-and-oauth-certificates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Server-to-server and partner applications](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Assign a server-to-server certificate](../../SfbServer/manage/authentication/assign-a-server-to-server-certificate.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-##### [Configure a hybrid environment](../../SfbServer/manage/authentication/configure-a-hybrid-environment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+##### [Configure server-to-server authentication for hybrid](../../SfbServer/manage/authentication/configure-a-hybrid-environment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Configure an on-premises partner app](../../SfbServer/manage/authentication/configure-an-on-premises-partner-app.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Registrar configuration settings](../../SfbServer/manage/authentication/registrar-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Web Service configuration settings](../../SfbServer/manage/authentication/web-service-configuration-settings.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
