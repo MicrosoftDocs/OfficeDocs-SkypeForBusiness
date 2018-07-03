@@ -1,5 +1,5 @@
 ---
-title: Deploy Microsoft Teams on Surface Hub
+title: Deploy Microsoft Teams for Surface Hub
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: Configure admin settings for Microsoft Teams on Surface Hub.
+description: Configure admin settings for Microsoft Teams for Surface Hub.
 localization_priority: Normal
 ms.custom:
 - Devices
@@ -17,8 +17,8 @@ appliesto:
 - Microsoft Teams
 ---
 
-Deploy Teams on Surface Hub
-===========================
+Deploy Microsoft Teams for Surface Hub
+======================================
 
 Before you deploy Microsoft Teams for Microsoft Surface Hub, be sure you have met the hardware, operating system, and other requirements. For more information, see the [Microsoft Surface Hub admin guide](https://docs.microsoft.com/en-us/surface-hub/).
 
