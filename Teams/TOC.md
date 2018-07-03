@@ -131,6 +131,7 @@
 ### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
 ### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
+## [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 <!-- ============================================================ -->
 
 
