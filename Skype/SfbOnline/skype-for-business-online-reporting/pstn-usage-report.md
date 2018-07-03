@@ -17,6 +17,7 @@ f1keywords: None
 ms.custom:
 - Reporting 
 description: "The new Skype for Business Admin Center Reports area shows you calling and audio conferencing activity in your organization. It enables you to drill into reports to give you more granular insight about the activities of each user. For example, you can use the Skype for Business PSTN usage details report to see the number of minutes spent in inbound/outbound calls and cost for these calls. You can view Audio Conferencing PSTN usage details including the cost of the call so that you can understand your usage and call billing details to determine usage within your organization."
+search.appverid: "MET150"
 ---
 
 # PSTN usage report
@@ -83,6 +84,7 @@ This is what the report looks like.
      *    **MCOPSTNPP** - Communications Credits <br/> **MCOPSTN1** - Domestic Calling Plan (3000 min US / 1200 min EU plans) 
      *    **MCOPSTN2** - International Calling Plan 
      *    **MCOPSTN5** - Domestic Calling Plan (120 min calling plan) 
+     *    **MCOPSTN6** - Domestic Calling Plan (240 min calling plan) Note: Limited Availability
      *    **MCOMEETADD** - Audio Conferencing
      *    **MCOMEETACPEA** - Pay Per Minute Audio Conferencing 
 ***

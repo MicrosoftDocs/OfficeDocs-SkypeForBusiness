@@ -61,7 +61,7 @@ To use the SRS v1 Administrative Web Portal, you will need to install or configu
     
     Create the group with Group Scope as Global and Group Type as Security. SIP enabled users who are added to this group are authorized to use all admin portal functionality including bulk management of Skype for Business rooms. 
     
-6. Add SRSFullAccessAdminGroup as a member of LRSSupportAdminGroup.
+6. Add LRSFullAccessAdminGroup as a member of LRSSupportAdminGroup.
     
      ![LRSSupportAdminGroup Properties Members page](../../media/LRS_Add_LRSSupportAdminGroup.png)
   

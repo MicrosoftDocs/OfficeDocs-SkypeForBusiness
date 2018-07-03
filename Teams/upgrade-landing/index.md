@@ -1,15 +1,18 @@
 ---
 title: Skype for Business to Microsoft Teams upgrade
-ms.author: dearben
-author: lolaj
+author: dearbeen
+ms.author: dearbeen
 manager: serdars
-layout: LandingPage
-ms.date: 5/10/2018
-ms.audience: ITPro
-ms.topic: landing-page
-ms.prod: skype-for-business-itpro
-localization_priority: Normal
-description: Skype for Business to Teams upgrade
+ms.date: 06/30/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: dearbeen
+description: Skype for Business to Teams upgrade NEEDS BETTER DESCRIPTION
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
 ---
 
 # Skype for Business to Microsoft Teams upgrade
@@ -21,24 +24,28 @@ Your upgrade journey might take some time, and we’re here to support you every
 
 ## Upgrade journey framework
 
-To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips, and resources throughout. Each step builds on the previous one and for optimal results, we recommend following the steps in order. As illustrated below, a successful project begins by bringing the right project team together in the Project Stakeholder stage, and moving to Project Definition where the scope, goals, and timeline are solidified. This helps create a solid foundation for your project. From there, it’s critical to prepare for both the Technical Readiness _and_ User Readiness stages before moving on to Deployment and Implementation. Plan for a pilot to validate readiness before a broad rollout. For maximum benefit during the Operational Excellence stage, establish an operational plan that monitors for quality and accelerates user adoption.
+To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips, and resources throughout. Each step builds on the previous one and for optimal results, we recommend following the steps in order.
+
+As illustrated below, a successful upgrade begins by bringing the right team together in the Project Stakeholder stage and then moving to Project Definition where the scope, goals, and timeline are solidified. This helps create a solid foundation for your upgrade journey. From there, it’s critical to prepare for both the Technical Readiness _and_ User Readiness stages before moving on to Deployment and Implementation. Plan for a pilot to validate readiness before a broad rollout. For maximum benefit during the Operational Excellence stage, establish a plan that monitors for quality and accelerates user adoption.
 
 > [!Tip]
 > To help you navigate through your upgrade journey, look for this graphic on related pages to identify where you are in the process. ![Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.](../media/upgrade-banner-main.png "Ensure your project is set up for success with the right project team. Define your project scope, goals, and timeline. Confirm both technical and user readiness. Execute your rollout plan. Maintain momentum to maximize results.")
 
 ## To get started...
 
-We understand that customers don’t come one-size-fits-all. For added flexibility, we’ve organized the framework into two paths: Upgrade Essentials and Upgrade Pro. You can select the upgrade journey that best meets your organization’s needs.
+We understand that customers don’t come one-size-fits-all. For added flexibility, we’ve organized the framework into two paths: Upgrade Essentials and Upgrade Pro. Choose the journey that best meets your organization’s needs.
 
 Select one of the options below or explore both to determine the optimal path for you. More information will be coming online over time, so check back as your organization continues its journey to Teams. To help us better understand your upgrade path and what additional guidance might be helpful, take a moment to [share your feedback](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u).
 
 
+<div class="mx-tableFixed">
 <table>
 <tbody>
 <tr><td><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working"><img src="../media/upgrade-to-teams-upgrade-essentials-icon.png?branch=Upgrade-working" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Essentials checklist steps you through activities designed to quickly move your entire organization to Teams."></a></td>
 <td>
 <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-pro?branch=Upgrade-working"><img src="../media/upgrade-to-teams-upgrade-pro-icon.png?branch=Upgrade-working" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
 <tr><td>Upgrade Essentials is designed for smaller customers or those with simple deployments (for example, IM only), who can quickly and easily move all their users to Teams at once.</td><td>Upgrade Pro is for customers with more complex deployment scenarios (hybrid, voice workloads, and so on) who might need more time to upgrade and could benefit from a phased upgrade approach.</td></tbody></table>
+</div>
 
 
 > [!Important]

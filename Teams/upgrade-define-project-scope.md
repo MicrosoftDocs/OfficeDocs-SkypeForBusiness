@@ -1,19 +1,21 @@
 ---
-title: Define the scope of your Skype for Business to Teams upgrade journey
+title: Define the scope of your Skype for Business to Teams upgrade journey - Microsoft Teams
 author: dearbeen
-ms.author: lolaj
-manager: lehewe
-ms.date: 05/30/2018
+ms.author: dearbeen
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Scope your upgrade project by refining your vision and goals. 
+description: Scope your upgrade project by refining your vision and goals.  
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
 
-![Stages of the upgrade journey, with emphasis on Project Definition](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on Project Definition")
+![Stages of the upgrade journey, with emphasis on the Project Definition stage](media/upgrade-banner-project-definition.png "Stages of the upgrade journey, with emphasis on the Project Definition stage")
 
 This article is part of the Project Definition stage of your upgrade journey, an activity you complete after you create a sponsorship coalition and project team from the stakeholders you’ve identified are key to your project’s success. Before proceeding, confirm that you’ve completed the following activities:
 
@@ -46,7 +48,7 @@ Consider the following discussion points to help refine your vision:
 -   The expected and measurable business outcomes if these challenges are overcome
 
 > [!TIP]
-> Identify *use cases* and *personas* to further refine your project vision.
+> Identify use cases and personas to further refine your project vision.
 
 ## Project scope
 
@@ -105,13 +107,11 @@ The following table shows examples of OKRs and KSIs for the initial phases of a 
 As you scope your upgrade journey, be sure to set a timeline for key milestones (for example, enabling Teams alongside Skype for Business for all users) in addition to the completion date. A defined timeline helps your project team drive toward a consistent end state and informs the right work-back schedule, helping to ensure that your project stays on track. Consider a timeline that’s not too accelerated (where tasks might be overlooked) or too distant (where momentum might be lost). The ideal timeline accounts for:
  
 -   **Product readiness for compliance and user scenario requirements**: Refer to the [product roadmap](https://aka.ms/skype2teamsroadmap) to gauge when Teams will be ready for your organization.
--   **User grouops (cohorts)**: Determine whether you’ll be enabling Teams or upgrading users by cohorts, which could affect the timeline of your overall upgrade journey.
+-   **Upgrade groups**: Determine whether you’ll be enabling Teams or upgrading users by upgrade groups, which could affect the timeline of your overall upgrade journey.
 -   **Organizational factors such as change freeze, fiscal year end, deployment lifecycles**: Discuss and account for any internal processes that might influence your upgrade timeline.
 -   **Other changes that are occurring at or around the same time**: Consider bundling changes or spacing them out to facilitate a positive user experience and minimize any impact on productivity.
 -   **Resourcing**: Confirm resource allocation with your project stakeholders to ensure that the project team you’ve brought together has enough bandwidth to complete all necessary tasks.
 
-<!--
-As a reference point, a sample timeline is provided for the pre/during/post-upgrade phases of the Upgrade Pro journey, which we encourage you to adjust as needed to align with the specific needs of your organization.
--->
+As a reference point, a sample timeline is provided for the pre-upgrade, upgrade, and post-upgrade phases of the [Upgrade Pro journey](upgrade-pro.md), which we encourage you to adjust as needed to align with the specific needs of your organization.
 
 After you’ve completed the activities described above, you should have a solid foundation for your project. Continue with your [technical readiness](upgrade-prepare-environment.md) and [organizational readiness](upgrade-prepare-organization.md) planning activities.

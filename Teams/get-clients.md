@@ -30,8 +30,7 @@ The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?l
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-The web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) and if an unsupported browser version is detected, it will block access to the web interface and recommend that the user download the desktop client or mobile app.
-
+The web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) and if an unsupported browser version is detected, it will block access to the web interface and recommend that the user download the desktop client or mobile app. and 
 Desktop client
 --------------
 
@@ -49,12 +48,10 @@ IT admins can choose their preferred method to distribute the installation files
 
 #### Windows
 
-The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture. The architecture should match that of the OS, which is what the online download defaults to.
-
-
+The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture.
 
 > [!NOTE]
-> The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Office that is installed. Matching the Office architecture is better for related and integrated features across the Office 365 suite of apps.
+> The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed.
 
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client is installed in the following locations:
 
@@ -87,6 +84,9 @@ Supported mobile platforms for Microsoft Teams mobile apps are the following:
 -   **iOS**: 10.0 or later
 
 -   **Windows Phone**: Windows 10 Mobile
+
+> [!NOTE]
+> The mobile version must be available to the public in order for Teams to work as expected.
 
 Mobile apps are distributed and updated through the respective mobile platform’s app store only, and are not available to be distributed through MDM (mobile device management) solutions or side-loaded.
 

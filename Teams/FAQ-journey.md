@@ -1,16 +1,17 @@
 ---
-title: FAQ - Journey from Skype for Business to Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: FAQ - Upgrade Journey from Skype for Business to Microsoft Teams - Microsoft Teams
+author: dearbeen
+ms.author: dearbeen
 manager: serdars
-ms.date: 01/16/2018
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Frequently asked questions about the journey from Skype for Business Online to Microsoft Teams.
+description: Frequently asked questions about the upgrade journey from Skype for Business to Microsoft Teams. 
 localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
-appliesto: 
+appliesto:
 - Microsoft Teams
 ---
 

@@ -1,20 +1,21 @@
 ---
-title: Enlist stakeholders for your Skype for Business to Teams journey
+title: Enlist stakeholders for your Skype for Business to Teams journey - Microsoft Teams
 author: dearbeen
-ms.author: lolaj
-manager: lehewe
-ms.date: 05/30/2018
+ms.author: dearbeen
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Enlist stakeholders to serve on the project team for your upgrade. 
+description: Enlist stakeholders to serve on the project team for your upgrade.  
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
 
-
-![Stages of the upgrade journey, with emphasis on gathering your team of Project Stakeholders](media/upgrade-banner-stakeholders.png "Stages of the upgrade journey, with emphasis on gathering your team of Project Stakeholders")
+![Stages of the upgrade journey, with emphasis on gathering your team of project stakeholders](media/upgrade-banner-stakeholders.png "Stages of the upgrade journey, with emphasis on gathering your team of project stakeholders")
 
 This article is part of the Project Stakeholders stage of your upgrade journey, the first and most essential activity you complete for your project’s success. 
 

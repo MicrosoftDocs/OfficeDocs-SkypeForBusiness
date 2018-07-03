@@ -3,7 +3,6 @@ title: "Unassigned Phone Number Create New or Edit Existing"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -47,6 +46,6 @@ The following list describes the fields on the page.
     
   - **Auto Attendant phone number** Select the phone number for the Exchange UM Auto Attendant.
     
-For details about Announcement features and capabilities, see [Plan for the Announcement application in Skype for Business 2015](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) in the Planning documentation. For details about working with unassigned number ranges, see [Configure Routing of Unassigned Phone Numbers](http://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) in the Operations documentation.
+For details about Announcement features and capabilities, see [Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) in the Planning documentation. For details about working with unassigned number ranges, see [Configure Routing of Unassigned Phone Numbers](http://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) in the Operations documentation.
   
 

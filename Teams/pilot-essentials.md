@@ -1,15 +1,17 @@
 ---
-title: Pilot Microsoft Teams alongside Skype for Business
+title: Pilot Microsoft Teams alongside Skype for Business - Microsoft Teams
 author: dearbeen
-ms.author: lolaj
-manager: lehewe
-ms.date: 05/30/2018
+ms.author: dearbeen
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
-description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization while you continue to use Skype for Business.
+ms.reviewer: dearbeen
+description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization while you continue to use Skype for Business  
 localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
-appliesto: 
+appliesto:
 - Microsoft Teams
 ---
 
@@ -19,6 +21,7 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 -   [Defined your project scope](upgrade-define-project-scope.md)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 -   [Prepared your environment](upgrade-prepare-environment.md)
 -   [Prepared your organization](upgrade-prepare-organization.md)
 
@@ -70,7 +73,7 @@ With all the logistics in place, you’re now ready to begin your pilot. Conduct
 ### Tips for pilot success
 
 The following tips can help ensure the success of your pilot:
--   Before beginning your pilot, confirm that all pilot participants are enabled for the appropriate [coexistence mode](user-access.md) you want to validate.
+-   Before beginning your pilot, confirm that all pilot participants are enabled for the appropriate [coexistence mode](setting-your-coexistence-and-upgrade-settings.md) you want to validate.
 -   Weekly, throughout your pilot, meet with your project stakeholders to review user feedback, usage data, network data, and helpdesk tickets to ensure your pilot is running smoothly. Make any adjustments as needed.
 
 ### Suggested timeline
@@ -93,8 +96,8 @@ If your results indicate:
 
 -   **Your pilot goals (for example, user satisfaction and network quality) have been achieved**, you should be ready to proceed with the next phase of your rollout. Depending on the goals of your project, this could be one of the following:
    -   Extending the pilot to additional participants
-   -   Enabling Teams alongside Skype for Business across your broader organization
-   -   Upgrading users from Skype for Business to Teams
+   -   [Enabling Teams alongside Skype for Business (**Islands** mode) for some or all of your organization](setting-your-coexistence-and-upgrade-settings.md)
+   -   [Upgrading users from Skype for Business to Teams (**Teams only** mode) for some or all of your organization](setting-your-coexistence-and-upgrade-settings.md)
 -   **Your pilot didn’t achieve the outcomes you wanted (for example, user satisfaction and network quality)**, take time to make the appropriate adjustments to your plan and revisit your pilot.
 
 > [!Tip]

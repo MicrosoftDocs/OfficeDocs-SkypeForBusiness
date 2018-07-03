@@ -1,33 +1,31 @@
 ---
-title: Prepare my user readiness plan
+title: Prepare my user readiness plan before upgrade from Skype for Business to Microsoft Teams - Microsoft Teams
 author: dearbeen
-ms.author: lolaj
-manager: lehewe
-ms.date: 05/30/2018
+ms.author: dearbeen
+manager: serdars
+ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Needs one 
+description: Plan to communicate with, train, and support your users as you pilot, onboard and upgrade to Teams  
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ---
 
+![Stages of the upgrade journey, with emphasis on the User Readiness stage](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on the User Readiness stage")
 
-
-![Stages of the upgrade journey, with emphasis on User Readiness](media/upgrade-banner-user-readiness.png "Stages of the upgrade journey, with emphasis on User Readiness")
-
-This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you’ve completed the following activities:
+This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 -   [Defined your project scope](upgrade-define-project-scope.md)
--   [Evaluated coexistence modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-
+-   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
 # Prepare my user readiness plan
 
-An optimal user readiness plan incorporates how you’ll communicate, train, and support your users as you pilot, onboard, and upgrade to Teams. As you discovered in [Prepare my organization](), readiness is not one-size-fits-all. To ensure optimal receptiveness to the new technology, use a combination of broad-reach messaging (incorporating the vision/value messaging and universal use cases) and messaging, training, and support tailored to the personas and cohorts you’ve defined and also to your laggards, as appropriate. This personalized plan will help facilitate user adoption by enabling users to more quickly relate to Teams, while demonstrating that you understand their needs.
+An optimal user readiness plan incorporates how you’ll communicate with, train, and support your users as you pilot, onboard, and upgrade to Teams. As you discovered in [Prepare my organization](upgrade-prepare-organization.md), readiness is not one-size-fits-all. To ensure optimal receptiveness to the new technology, use a combination of broad-reach messaging (incorporating the vision/value messaging and universal use cases) and messaging, training, and support tailored to the personas and cohorts you’ve defined and also to your laggards, as appropriate. This personalized plan will help facilitate user adoption by enabling users to more quickly relate to Teams, while demonstrating that you understand their needs.
 
 |    |     |
 |-----------|------------|
@@ -44,9 +42,7 @@ An optimal user readiness plan incorporates how you’ll communicate, train, and
 </table>
 </div>
 
-[//]: # (Eventually the following link should point to the "Upgrade" section of the Upgrade Pro article, but that doesn't exist yet.)
-
-After you’ve created your user readiness plan and associated resources, and your technical readiness is in place, proceed to [onboard your users to Teams](upgrade-pro.md).
+After you’ve created your user readiness plan and associated resources, and your technical readiness is in place, proceed to [pilot Teams in your organization](pilot-essentials.md).
 
 
 
