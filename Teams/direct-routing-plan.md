@@ -3,7 +3,6 @@ title: "Plan Direct Routing"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 5/15/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -14,12 +13,9 @@ description: "Read this topic to learn how Microsoft Phone System Direct Routing
 
 # Plan Direct Routing
 
-  > [!NOTE]
-  > This is a preview release of Microsoft Phone System Direct Routing.  Product functionality and documentation are subject to change.
-
 Microsoft Phone System Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Phone System.  With this capability, for example, you can configure on-premises PSTN connectivity with Microsoft Teams client, as shown in the following diagram: 
 
-![Shows configuration of on-premises PSTN connectivity with Microsoft Teams client](../../media/PlanDirectRouting1-PSTNwithTeams.png)
+![Shows configuration of on-premises PSTN connectivity with Microsoft Teams client](media/PlanDirectRouting1-PSTNwithTeams.png)
 
   > [!NOTE]
   > Skype for Business Online also lets you pair a customer-provided SBC, but this requires an on-premises Skype for Business Server deployment or a special edition of Skype for Business, called Cloud Connector, in between the SBC and the Microsoft Cloud. This scenario is known as hybrid voice. In contrast, Direct Routing allows a direct connection between the supported SBC and the Microsoft Cloud. 
@@ -46,10 +42,10 @@ Planning your deployment of Direct Routing is key to a successful implementation
 - [SBC domain names](#sbc-domain-names)
 - [Public trusted certificate for the SBC](#public-trusted-certificate-for-the-sbc)
 - [SIP Signaling: FQDNs and firewall ports](#sip-signaling-fqdns-and-firewall-ports)
-- [Media traffic: IP addresses and port ranges](#media-traffic-ip-addresses-and-port-ranges)
+- [Media traffic: port ranges](#media-traffic-port-ranges)
 - [Supported SBCs](#supported-session-border-controllers-sbcs)
 
-For detailed information about configuring Direct Routing, see [Configure Direct Routing](configure-direct-routing.md).
+For detailed information about configuring Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).
 
 ## Infrastructure requirements
 The infrastructure requirements for the supported SBCs, domains, and other network connectivity requirements to deploy Direct Routing are listed in the following table:  
@@ -218,6 +214,7 @@ The following vendors are in the process of being certified:
  
 ## See also
 
-[Configure Direct Routing](configure-direct-routing.md)
+[Configure Direct Routing](direct-routing-configure.md)
+
 
 

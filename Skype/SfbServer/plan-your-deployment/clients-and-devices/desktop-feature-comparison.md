@@ -218,6 +218,7 @@ Modern authentication also requires a topology described in [Skype for Business 
 |Modern Authentication  <br/> |&#x2714;|&#x2714;|&#x2714;|||||||
 |Multi-factor Authentication  <br/> |&#x2714;|&#x2714;|&#x2714;|||||||
 |Cert -Based Authentication  <br/> |&#x2714;(Domain-joined device only)  <br/> |&#x2714;|&#x2714;(Domain-joined device only)  <br/> |||||||
+|Kerberos Authentication  <br/> |&#x2714;||&#x2714;|||||||
    
 ## Archiving, compliance, and logging support
 <a name="BKMK_Archiving"> </a>
