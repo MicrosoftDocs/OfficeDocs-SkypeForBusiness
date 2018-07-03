@@ -18,7 +18,7 @@ description: "Summary: These features have been removed from Skype for Business 
 
 Learn about the features and functionality that are deprecated in Skype for Business Server 2019.
 
-Some deemphasised features are included in Skype for Business Server 2019 for compatibility with previous product versions. For information about new features in Skype for Business Server 2019, see New and improved features in Skype for Business Server 2019.
+Some deemphasised features are included in Skype for Business Server 2019 for compatibility with previous product versions. For information about new features in Skype for Business Server 2019, see [What's in Skype for Business Server 2019](whats-new.md).
 
 
 ## Features deprecated in Skype for Business Server 2019

@@ -22,7 +22,6 @@ New features in Skype for Business Server 2019 include the following new feature
    - Cloud voicemail
    - Cloud Auto Attendant
    - Teams migration
-see
+<!-- see
 [What's new in Skype for Business Server 2015](../SfbServer/what-s-new-in-skype-for-business-server.md)
-
-for outline
+for outline  -->
