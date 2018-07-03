@@ -3,7 +3,7 @@ title: Microsoft Teams on Surface Hub - Admin Help
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/25/2018
+ms.date: 07/02/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -180,7 +180,7 @@ The following is an example of adding an MDM policy configured from a central MD
  
 ### Configure MDM via USB key 
  
-The packages can be found at [tbd - add correct download link](\\scratch2\scratch\TeamsOnShub\ppkg). Pick the appropriate one for the package that you're planning to install and copy it to a USB key. The correct .ppkg file to use depends on the Teams package that has been installed from the store, and the policy you'd like to apply (Skype exclusive, Skype preferred, Teams preferred, Teams exclusive). 
+The packages can be found on this [download page](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Pick the appropriate one for the package that you're planning to install and copy it to a USB key. The correct .ppkg file to use depends on the Teams package that has been installed from the store, and the policy you'd like to apply (Skype exclusive, Skype preferred, Teams preferred, Teams exclusive). 
  
 1. Attach the USB key to the Surface Hub device. 
 2. Open the **Settings** app on a Surface Hub device. 
