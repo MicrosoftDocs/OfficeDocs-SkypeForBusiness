@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams on Surface Hub - Admin Help
+title: Deploy Microsoft Teams on Surface Hub
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,9 +19,6 @@ appliesto:
 
 Microsoft Teams on Surface Hub - Admin Help
 ===========================================
-
-> [!NOTE]
-> This feature is currently in preview and could change as it is released or updated. 
 
 Before you deploy Microsoft Teams for Surface Hub, be sure you have met the hardware, operating system, and other requirements. For more information, see the [Microsoft Surface Hub admin guide](https://docs.microsoft.com/en-us/surface-hub/).
 
