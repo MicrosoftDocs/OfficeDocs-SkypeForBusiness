@@ -23,7 +23,7 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 -   [Defined your project scope](upgrade-define-project-scope.md)
 -   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
-<!-- [!INCLUDE [discover-my-environment](environmental-discovery-for-microsoft-teams-rollout.md)] -->
+<!-- Note that this article includes almost all text from environmental-discovery-for-microsoft-teams-rollout.md. Any applicable changes to that article, be sure to duplicate them here. -->
 
 # Environmental discovery for a Microsoft Teams rollout
 
