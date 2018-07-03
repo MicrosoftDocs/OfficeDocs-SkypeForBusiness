@@ -15,3 +15,8 @@ description: "Summary: Explore these links to learn how to implement Skype for B
 # Skype for Business Server 2019
 
 [!INCLUDE [disclaimer](disclaimer.md)]
+
+
+table with links based on 2015 splash page 
+ [Skype for Business Server 2015](../SfbServer/skype-for-business-server-2015.md)
+

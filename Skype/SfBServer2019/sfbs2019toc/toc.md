@@ -1,5 +1,6 @@
 # [Skype for Business Server 2019](../skype-for-business-server-2019.md)
-## [What's deprecated or removed from Skype for Business Server 2019](../deprecated-2019.md)
+## [What's deprecated](../deprecated.md)
+## [What's new](../whats-new.md)
 
 ## Hybrid
 ### [Hybrid solutions](../hybrid/hybrid-solutions.md)

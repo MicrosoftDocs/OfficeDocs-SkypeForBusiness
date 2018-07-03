@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Server 2019 deprecations"
+title: "What's deprecated from Skype for Business Server 2019"
 ms.author: jambirk
 author: jambirk
 manager: serdars
