@@ -1,11 +1,13 @@
 # [Skype for Business certification program](../skype-bus/overview.md)  
 ## [How to Join](../skype-bus/how-to-join.md)
 ## [Skype and Lync test specifications](../skype-bus/test-spec.md)
+
 ## Phones and Devices
 ### [IP Phones](../skype-bus/devices-ip-phones.md)
 ### [USB audio and video devices](../skype-bus/devices-usb-devices.md) 
 ### [PCs](../skype-bus/devices-pcs.md)  
 ### [Meeting room devices and solutions](../skype-bus/devices-meeting-rooms.md)  
+
 ## Infrastructure
 ### [Gateways](../skype-bus/infra-gateways.md) 
 ### [IP PBXs](../skype-bus/infra-ip-pbxs.md) 
@@ -13,25 +15,32 @@
 ### [Session Border Controllers](../skype-bus/infra-sbc.md)
 ### [Reverse Proxy](../skype-bus/infra-rev-proxy.md) 
 ### [Load Balancers](../skype-bus/infra-load-balancers.md) 
+
 ## Networking
 ### [Wi-Fi for Skype for Business](../skype-bus/networking-wifi.md)  
 #### [Planning for Wi-Fi](../skype-bus/plan-wifi.md)
 ### [Wired for Skype for Business](../skype-bus/networking-wired.md) 
 ### [SDN for Skype for Business](../skype-bus/networking-sdn.md) 
+
 ## Services
 ### [SIP Trunking services](../skype-bus/services-sip-trunking.md) 
 ### [E-911 service providers](../skype-bus/services-e911.md) 
 ### [Audio conferencing providers](../skype-bus/services-acps.md)
+
 ##  [IT Pro](../skype-bus/it-pro-tools.md)
 ### [Network Pre-Assessment](../skype-bus/it-pro-tools-pre-assessment.md) 
 ### [Migration](../skype-bus/it-pro-tools-migration.md) 
 ### [User and Policy Provisioning](../skype-bus/it-pro-tools-user-policy.md) 
 ### [Monitoring and Troubleshooting](../skype-bus/it-pro-tools-monitor-troubleshoot.md) 
 ### [Reporting](../skype-bus/it-pro-tools-reporting.md) 
+
 ## [Video](../skype-bus/video.md)   
+
 ##  [ISV](../skype-bus/isv-overview.md)
-### [Certified Support](https://partnersolutions.skypeforbusiness.com/solutionscatalog)
+### [Certified Devices](https://partnersolutions.skypeforbusiness.com/solutionscatalog)
+
 ## [Lync Partner Qualification](../lync-cert/partner-qualification.md)
+
 ### [Applications](../lync-cert/qualified-lync-apps.md) 
 #### [Lync ISV qualification program participation](../lync-cert/participation.md)
 #### [Attendant Console Applications](../lync-cert/attendant-console-apps.md)
@@ -42,12 +51,14 @@
 #### [Recording applications](../lync-cert/recording-apps.md)
 #### [Software Defined Networking Applications](../lync-cert/software-defined-network-apps.md)
 #### [Validated Lync Applications](../lync-cert/validated-lync-apps.md)
+
 ### Devices
 #### [Phones and devices qualified for  Lync](../lync-cert/ip-phones.md)  
 #### [USB audio and video devices](../lync-cert/usb-and-video.md) 
 #### [Lync Room Systems](../lync-cert/room-systems.md) 
 #### [Meeting room devices and solutions](../lync-cert/meeting-room-devices.md) 
 #### [PCs](../lync-cert/pcs-optimized-for-lync.md) 
+
 ### [Infrastructure](../lync-cert/infrastructure-qualified-node.md)
 #### [IP PBXs and Gateways](../lync-cert/qualified-ip-pbx-gateway.md) 
 #### [Supported IP PBXs](../lync-cert/supported-ip-pbxs.md)
@@ -57,9 +68,12 @@
 #### [Load balancers](../lync-cert/hardware-load-balancers.md)
 #### [Reverse proxies](../lync-cert/reverse-proxies.md) 
 #### [Virtual Desktop Infrastructure](../lync-cert/virtual-desktop-lync-server.md)  
+
 ### [Services](../lync-cert/sip-trunking-services.md)  
 #### [E-911 Services](../lync-cert/e-911-service-providers.md) 
 #### [Lync Online Dedicated](../lync-cert/online-dedicated.md)
+
 ### [Video](../lync-cert/video-solutions-qualified.md)
 #### [Meeting room devices and solutions](../lync-cert/meeting-room-devices.md)   
-### [Certified Support](https://partnersolutions.skypeforbusiness.com/solutionscatalog)
+
+### [Certified Devices](https://partnersolutions.skypeforbusiness.com/solutionscatalog)
