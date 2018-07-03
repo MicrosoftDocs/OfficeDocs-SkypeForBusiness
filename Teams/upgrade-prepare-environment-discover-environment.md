@@ -210,3 +210,9 @@ Use the following table and capture the current adoption and readiness state of 
 > | What percentage of your user base would you say has <br>adopted Skype for Business? | | |
 > | What is user sentiment around Skype for Business? | <input type="checkbox"> Good <br/> <input type="checkbox"> Neutral <br/> <input type="checkbox"> Bad | |
 > | Which of the following best describes the rollout <br>strategy used for your Skype for Business <br>deployment? | <input type="checkbox"> Broad reach: Email campaign with <br>&nbsp; &nbsp; &nbsp;links to training <br/> <input type="checkbox"> Expanded: Broad reach plus a variety <br>&nbsp; &nbsp; &nbsp;of awareness campaigns (posters, <br>&nbsp; &nbsp; &nbsp;events, champions) and training <br>&nbsp; &nbsp; &nbsp;(videos, user guides, in-person) <br/> <input type="checkbox"> Tailored: Expanded, plus targeted <br>&nbsp; &nbsp; &nbsp;messaging and training by persona <br/> <input type="checkbox"> Other <br>&nbsp; &nbsp; &nbsp;(Note the details in the Comments column.) | |
+
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Who will be responsible for overseeing the completion of the discovery questionnaire?</ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Proceed with [preparing your network for Teams](upgrade-prepare-environment-prepare-network.md) <li>When all the prerequisites are met, and the network is ready, then [prepare your service for upgrading to Teams](upgrade-prepare-environment-prepare-service.md)</ul>|
