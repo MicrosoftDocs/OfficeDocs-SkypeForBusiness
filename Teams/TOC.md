@@ -30,6 +30,7 @@
 ## [Get clients for Teams](get-clients.md)
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
 ### [Install Microsoft Teams using MSI](msi-deployment.md)
+### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 ## [Enable Microsoft Teams in your organization](Office-365-set-up.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
@@ -130,6 +131,7 @@
 ### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
 ### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
+## [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 <!-- ============================================================ -->
 
 
