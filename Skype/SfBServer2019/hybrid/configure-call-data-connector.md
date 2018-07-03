@@ -89,7 +89,7 @@ There are two methods for logging in to Skype for Business Online PowerShell:
 
 The output of the above commands contains a token value, which you will need when configuring your on-premises environment as follows:
 
-3. From within the Skype for Business Server management shell, specify the following command:
+From within the Skype for Business Server management shell, specify the following command:
 
 ```
 Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <token-copied-from-online>
