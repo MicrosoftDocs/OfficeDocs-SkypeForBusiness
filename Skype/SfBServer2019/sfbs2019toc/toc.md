@@ -18,6 +18,8 @@
 
 
 ## Plan
+### [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [Reference topologies](../../SfbServer/plan-your-deployment/topology-basics/reference-topologies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### System requirements 
 #### [Server requirements](../plan/server-requirements.md)
 #### [Infrastructure requirements](../plan/environmental-requirements.md)
