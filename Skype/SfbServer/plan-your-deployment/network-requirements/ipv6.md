@@ -1,9 +1,8 @@
----
+``---
 title: "Plan for IPv6 in Skype for Business"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
-description: "Summary: Implement IPv6 before you install Skype for Business Server 2015."
+description: "Summary: Implement IPv6 before you install Skype for Business Server."
 ---
 
 # Plan for IPv6 in Skype for Business
  
-**Summary:** Implement IPv6 before you install Skype for Business Server 2015.
+**Summary:** Implement IPv6 before you install Skype for Business Server.
   
 Skype for Business Server includes support for IP version 6 (IPv6) addresses, along with continued support of IP version 4 (IPv4) addresses. 
 
