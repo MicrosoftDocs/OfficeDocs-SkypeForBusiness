@@ -7,7 +7,7 @@ ms.date: 06/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Prepare IT pros in your organization for deploying and supporting Microsoft Teams. 
+description: Prepare IT staff in your organization for deploying and supporting Microsoft Teams. 
 localization_priority: Priority
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
@@ -23,9 +23,11 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 -   [Defined your project scope](upgrade-define-project-scope.md)
 -   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
-# Prepare IT pros for Microsoft Teams
+# Prepare your IT staff for Microsoft Teams
 
-The following resources can help IT pros get familiar with tools and concepts they’ll need for supporting Teams:
+Your Office 365 tenant admins, technical leads, and support desk are accountable for driving a high-quality user experience. This includes ensuring that your network is ready to support Teams, configuring Teams for your users, and being able to effectively troubleshoot and resolve issues that might arise.
+
+Share the following resources with your IT staff members, and confirm that they’re ready to support users before you begin your upgrade to Teams:
 
 -   [Admin training for Microsoft Teams](itadmin-readiness.md)
 

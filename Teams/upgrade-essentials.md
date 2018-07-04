@@ -39,7 +39,6 @@ Not familiar with Teams? [Read about how Teams](https://products.office.com/micr
 
 *(About four to six weeks before the upgrade)*
 
-
 Senior leaders are accountable for company success; be sure to keep them in the know about technology changes. Because it’s possible that not everyone received or read the notification of upgrade eligibility, you need to inform your stakeholders (for example, CEO, IT pros, Marketing, and helpdesk leads) before you begin planning your upgrade.
 
 **Resources:**
