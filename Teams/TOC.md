@@ -123,7 +123,7 @@
 <!-- ============================================================ -->
 # Interopearability with Office 365
 ## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-## [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+## [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 groups and Teams](office-365-groups.md)
 ## [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
 ## [How Exchange and Teams interact](exchange-teams-interact.md)
@@ -246,6 +246,13 @@
 #### [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set up Phone System voicemail](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [What are Phone System auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### Phone System Direct Routing
+#### [Plan Direct Routing](direct-routing-plan.md)
+#### [Configure Direct Routing](direct-routing-configure.md)
+#### [Migrating to Direct Routing](direct-routing-migrating.md)
+#### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
+#### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
+#### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 ### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
