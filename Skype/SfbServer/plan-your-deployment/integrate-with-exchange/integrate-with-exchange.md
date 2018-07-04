@@ -3,29 +3,28 @@ title: "Plan to integrate Skype for Business and Exchange"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
-description: "Summary: Review this topic for information about how to integrate Skype for Business Server 2015 with Exchange Server 2016 or Exchange Server 2013."
+description: "Summary: Review this topic for information about how to integrate Skype for Business Server with Exchange Server 2016 or Exchange Server 2013."
 ---
 
 # Plan to integrate Skype for Business and Exchange
  
-**Summary:** Review this topic for information about how to integrate Skype for Business Server 2015 with Exchange Server 2016 or Exchange Server 2013.
+**Summary:** Review this topic for information about how to integrate Skype for Business Server with Exchange Server 2016 or Exchange Server 2013.
   
-Before you can integrate Skype for Business Server 2015 and Exchange Server, you must ensure that both Exchange Server and Skype for Business Server 2015 are fully installed and up and running. 
+Before you can integrate Skype for Business Server and Exchange Server, you must ensure that both Exchange Server and Skype for Business Server are fully installed and up and running. 
   
 For details about installing Exchange Server, see the Exchange Server Planning and Deployment documentation for your version of Exchange. 
   
-For details about installing Skype for Business Server 2015, see [Deploy Skype for Business Server 2015](../../deploy/deploy.md).
+For details about installing Skype for Business Server, see [Deploy Skype for Business Server](../../deploy/deploy.md).
   
-After the servers are up and running, you must assign server-to-server authentication certificates to both Skype for Business Server 2015 and Exchange Server; these certificates allow Skype for Business Server 2015 and Exchange Server to exchange information and to communicate with one another. When you install Exchange Server, a self-signed certificate with the name Microsoft Exchange Server Auth Certificate is created for you. This certificate, which can be found in the local computer certificate store, should be used for server-to-server authentication on Exchange Server. For details about assigning certificates in Exchange Server, see [Configure Mail Flow and Client Access](https://go.microsoft.com/fwlink/p/?LinkId=268540).
+After the servers are up and running, you must assign server-to-server authentication certificates to both Skype for Business Server and Exchange Server; these certificates allow Skype for Business Server and Exchange Server to exchange information and to communicate with one another. When you install Exchange Server, a self-signed certificate with the name Microsoft Exchange Server Auth Certificate is created for you. This certificate, which can be found in the local computer certificate store, should be used for server-to-server authentication on Exchange Server. For details about assigning certificates in Exchange Server, see [Configure Mail Flow and Client Access](https://go.microsoft.com/fwlink/p/?LinkId=268540).
   
-For Skype for Business Server 2015 you can use an existing Skype for Business Server certificate as your server-to-server authentication certificate; for example, your default certificate can also be used as the OAuthTokenIssuer certificate. Skype for Business Server 2015 allows you to use any Web server certificate as the certificate for server-to-server authentication provided that:
+For Skype for Business Server you can use an existing Skype for Business Server certificate as your server-to-server authentication certificate; for example, your default certificate can also be used as the OAuthTokenIssuer certificate. Skype for Business Server allows you to use any Web server certificate as the certificate for server-to-server authentication provided that:
   
 - The certificate includes the name of your SIP domain in the Subject field.
     
@@ -33,7 +32,7 @@ For Skype for Business Server 2015 you can use an existing Skype for Business Se
     
 - The certificate has a length of at least 2048 bits.
     
-For details about server-to-server authentication certificates for Skype for Business Server 2015, see [Assign a server-to-server authentication certificate to Skype for Business Server 2015](../../manage/authentication/assign-a-server-to-server-certificate.md).
+For details about server-to-server authentication certificates for Skype for Business Server, see [Assign a server-to-server authentication certificate to Skype for Business Server](../../manage/authentication/assign-a-server-to-server-certificate.md).
   
 After the certificates have been assigned, you must then configure the autodiscover service on Exchange Server. In Exchange Server, the autodiscover service configures user profiles and provides access to Exchange services when users log on to the system. Users present the autodiscover service with their email address and password; in turn, the services provide the user with information such as:
   
@@ -45,7 +44,7 @@ After the certificates have been assigned, you must then configure the autodisco
     
 - Outlook Anywhere server settings.
     
-The autodiscover service must be configured before you can integrate Skype for Business Server 2015 and Exchange Server. You can verify whether or not the autodiscover service has been configured by running the following command from the Exchange Server Management Shell and checking the value of the AutoDiscoverServiceInternalUri property:
+The autodiscover service must be configured before you can integrate Skype for Business Server and Exchange Server. You can verify whether or not the autodiscover service has been configured by running the following command from the Exchange Server Management Shell and checking the value of the AutoDiscoverServiceInternalUri property:
   
 ```
 Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Format-List
@@ -59,9 +58,9 @@ You can assign the autodiscover URI by running a command similar to this:
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
-For details about the autodiscover service, see [Understanding the Autodiscover Service](https://go.microsoft.com/fwlink/p/?LinkId=268542).
+For details about the autodiscover service, see [Autodiscover Service](https://go.microsoft.com/fwlink/p/?LinkId=268542).
   
-After the autodiscover service has been configured, you must then modify the Skype for Business Server OAuth configuration settings; this ensures that that Skype for Business Server knows where to find the autodiscover service. To modify the OAuth configuration settings in Skype for Business Server 2015, run the following command from within the Skype for Business Server Management Shell. When running this command, be sure that you specify the URI to the autodiscover service running on your Exchange Server, and that you use **autodiscover.svc** to point to the service location instead of **autodiscover.xml** (which points to the XML file used by the service):
+After the autodiscover service has been configured, you must then modify the Skype for Business Server OAuth configuration settings; this ensures that that Skype for Business Server knows where to find the autodiscover service. To modify the OAuth configuration settings in Skype for Business Server, run the following command from within the Skype for Business Server Management Shell. When running this command, be sure that you specify the URI to the autodiscover service running on your Exchange Server, and that you use **autodiscover.svc** to point to the service location instead of **autodiscover.xml** (which points to the XML file used by the service):
   
 ```
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
@@ -78,14 +77,14 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 In addition to configuring the autodiscover service, you must also create a DNS record for the service that points to your Exchange Server. For example, if your autodiscover service is located at autodiscover.litwareinc.com you will need to create a DNS record for autodiscover.litwareinc.com that resolves to the fully qualified domain name of your Exchange Server (for example, atl-exchange-001.litwareinc.com).
   
-If you are integrating Skype for Business Server with Exchange Online, your next steps are in [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md), otherwise see [Integrate Skype for Business Server 2015 with Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+If you are integrating Skype for Business Server with Exchange Online, your next steps are in [Configure integration between on-premises Skype for Business Server and Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md), otherwise see [Integrate Skype for Business Server with Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 ## Feature support
 <a name="feature_support"> </a>
 
 The following table details the features supported under various combinations of online or on premises for Exchange and Skype for Business.
   
-||**Exchange 2016/2013/2010 (on premises) + Skype for Business Server 2015 (on premises)**|**Exchange Online + Skype for Business Server 2015 (on premises)**|**Exchange 2010 (on premises) + Skype for Business Online**|**Exchange 2016/2013(on premises) + Skype for Business Online**|**Exchange Online + Skype for Business Online**|
+||**Exchange 2016/2013/2010 (on premises) + Skype for Business Server (on premises)**|**Exchange Online + Skype for Business Server (on premises)**|**Exchange 2010 (on premises) + Skype for Business Online**|**Exchange 2016/2013(on premises) + Skype for Business Online**|**Exchange Online + Skype for Business Online**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Presence in Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
 |Respond via IM, PSTN Call, Skype Call or Video Call from an Outlook email  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
@@ -108,12 +107,12 @@ The following table details the features supported under various combinations of
 ## See also
 <a name="feature_support"> </a>
 
-[Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)
+[Configure integration between on-premises Skype for Business Server and Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)
   
 [Configure OAuth between Skype for Business Online and Exchange on premises](../../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md)
 
-[Integrate Skype for Business Server 2015 with Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
+[Integrate Skype for Business Server with Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
   
 [How to integrate Exchange Server 2013 with Lync Server 2013, Skype for Business Online, or a Lync Server 2013 hybrid deployment](https://go.microsoft.com/fwlink/p/?LinkId=746494)
   
-[Configure partner applications in Skype for Business Server 2015 and Microsoft Exchange Server](https://go.microsoft.com/fwlink/p/?LinkId=746495)
+[Configure partner applications in Skype for Business Server and Microsoft Exchange Server](../../deploy/integrate-with-exchange-server/configure-partner-applications.md)
