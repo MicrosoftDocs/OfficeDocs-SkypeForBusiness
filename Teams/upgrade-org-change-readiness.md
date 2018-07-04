@@ -62,7 +62,7 @@ Use the following conversation starters to conduct an organizational readiness a
 
 
 > [!Tip]
-> Enlist your early adopters for your pilot testing in addition to serving as peer champions. Champions help evangelize new technology and lead by example to show their peers how to realize value. To learn more about creating a formal champions program, see the [Office adoption guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf).Your laggards might need more convincing before they adopt a new technology. If more than 20 percent of your organization falls into this bucket, spend more time communicating the value messaging and delivering tailored training. In addition, support them through the change by opening a feedback loop to better understand and address their hesitations. 
+> Enlist your early adopters for your pilot testing in addition to serving as peer champions. Champions help evangelize new technology and lead by example to show their peers how to realize value. To learn more about creating a formal champions program, see the [Office adoption guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Your laggards might need more convincing before they adopt a new technology. If more than 20 percent of your organization falls into this bucket, spend more time communicating the value messaging and delivering tailored training. In addition, support them through the change by opening a feedback loop to better understand and address their hesitations. 
 
 #### What percentage of users fall into each competency?
 
@@ -75,7 +75,7 @@ Use the following conversation starters to conduct an organizational readiness a
 -->
 | Self-motivated  | Team players  | Hand-holding seekers |
 |-----------------|-----------------|----------|
-| These learners seek out resources, learn by doing. | These users enjoy group and interact training; they’ll go along with coworkers. | These users expect “white glove” or one-on-one assistance. |
+| These learners seek out resources, learn by doing. | These users enjoy group and interactive training; they’ll go along with coworkers. | These users expect “white glove” or one-on-one assistance. |
 
 > [!Tip]
 > Not everyone learns the same way. For those who are self-motivated, point to Microsoft’s online videos and training articles. If 20 percent or more are team players, enlist your training team or a partner to deliver live, interactive training (in person or online). Typically, you’ll find executives or targeted roles in the hand-holding category. This is a critical group who would benefit from personalized, short training sessions. Enlist your champions to help deliver training to these users, for an optimal experience. 
