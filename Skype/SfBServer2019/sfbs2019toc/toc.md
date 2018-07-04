@@ -211,7 +211,11 @@
 #### [Office Web App Server](../../SfbServer/deploy/deploy-conferencing/office-web-app-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Dial-in conferencing](../../SfbServer/deploy/deploy-conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Room System v1 Administrative Web Portal](../../SfbServer/deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-
+### [Deploy Edge Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [Create your Edge topology](../../SfbServer/deploy/deploy-edge-server/create-your-edge-topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [Deploy Edge Servers](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [Validate Edge deployment](../../SfbServer/deploy/deploy-edge-server/validate-edge-deployment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Deploy and configure Mobility](../../SfbServer/deploy/deploy-and-configure-mobility.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Deploy clients](../../SfbServer/deploy/deploy-clients/deploy-clients.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Customize Windows client installation](../../SfbServer/deploy/deploy-clients/customize-windows-client-installation.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Use the Office Customization Tool (OCT)](../../SfbServer/deploy/deploy-clients/use-the-office-customization-tool-oct.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

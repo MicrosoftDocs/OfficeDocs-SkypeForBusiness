@@ -1,9 +1,8 @@
 ---
-title: "Deploy Edge Servers in Skype for Business Server 2015"
+title: "Deploy Edge Servers in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,14 +11,14 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: 
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
-description: "Summary: Learn how to deploy Edge Servers into your Skype for Business Server 2015 environment."
+description: "Summary: Learn how to deploy Edge Servers into your Skype for Business Server environment."
 ---
 
-# Deploy Edge Servers in Skype for Business Server 2015
+# Deploy Edge Servers in Skype for Business Server
  
-**Summary:** Learn how to deploy Edge Servers into your Skype for Business Server 2015 environment.
+**Summary:** Learn how to deploy Edge Servers into your Skype for Business Server environment.
   
-The following sections contain steps that are meant to be followed after the Skype for Business Server 2015 [Plan for Edge Server deployments in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) documentation has been reviewed. The deployment steps are as follows:
+The following sections contain steps that are meant to be followed after the Skype for Business Server [Plan for Edge Server deployments in Skype for Business Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) documentation has been reviewed. The deployment steps are as follows:
   
 - Network interfaces
     
@@ -44,11 +43,11 @@ As noted in Planning, you will either be configuring your network interface with
     
    a. Three static IP addresses on the external perimeter network subnet, and point the default gateway to the internal interface of the external firewall. Configure the adapter DNS settings to point to a pair of perimeter DNS servers.
     
-   b. One static IP address on the external perimeter network subnet, and point the default gateway to the internal interface of the external firewall. Configure the adapter DNS settings to point to a pair of perimeter DNS servers. This configuration is ONLY acceptable if you have previously configured your topology to have non-standard values in the port assignments, which is covered in the [Create your Edge topology for Skype for Business Server 2015](create-your-edge-topology.md) article.
+   b. One static IP address on the external perimeter network subnet, and point the default gateway to the internal interface of the external firewall. Configure the adapter DNS settings to point to a pair of perimeter DNS servers. This configuration is ONLY acceptable if you have previously configured your topology to have non-standard values in the port assignments, which is covered in the [Create your Edge topology for Skype for Business Server](create-your-edge-topology.md) article.
     
 3. On your internal interface, configure one static IP on the internal perimeter network subnet, and don't set a default gateway. Configure the adaptor DNS settings to point to at least one DNS server, but preferably a pair of perimeter DNS servers.
     
-4. Create persistent static routes on the internal interface to all internal networks where clients, Skype for Business Server 2015, and Exchange Unified Messaging (UM) servers reside.
+4. Create persistent static routes on the internal interface to all internal networks where clients, Skype for Business Server, and Exchange Unified Messaging (UM) servers reside.
     
 ### Interface configuration without DNS servers in the perimeter network
 
@@ -61,17 +60,17 @@ As noted in Planning, you will either be configuring your network interface with
     
    a. Three static IP addresses on the external perimeter network subnet. You'll also need to configure the default gateway on the external interface, for example, defining the internet-facing router or the external firewall as the default gateway. Configure the adapter DNS settings to point to an external DNS server, ideally a pair of external DNS servers.
     
-   b. One static IP address on the external perimeter network subnet. You'll also need to configure the default gateway on the external interface, for example, defining the internet-facing router or the external firewall as the default gateway. Configure the adapter DNS settings to point to an external DNS server, or ideally a pair of external DNS servers. This configuration is ONLY acceptable if you have previously configured your topology to have non-standard values in the port assignments, which is covered in the [Create your Edge topology for Skype for Business Server 2015](create-your-edge-topology.md) article.
+   b. One static IP address on the external perimeter network subnet. You'll also need to configure the default gateway on the external interface, for example, defining the internet-facing router or the external firewall as the default gateway. Configure the adapter DNS settings to point to an external DNS server, or ideally a pair of external DNS servers. This configuration is ONLY acceptable if you have previously configured your topology to have non-standard values in the port assignments, which is covered in the [Create your Edge topology for Skype for Business Server](create-your-edge-topology.md) article.
     
 3. On your internal interface, configure one static IP on the internal perimeter network subnet, and don't set a default gateway. Also leave the adapter DNS settings empty.
     
-4. Create persistent static routes on the internal interface to all internal networks where clients, Skype for Business Server 2015, and Exchange Unified Messaging (UM) servers reside.
+4. Create persistent static routes on the internal interface to all internal networks where clients, Skype for Business Server, and Exchange Unified Messaging (UM) servers reside.
     
 5. Edit the HOST file on each Edge Server to contain a record for the next hop server or virtual IP (VIP). This record will be the Director, Standard Edition server or Front End pool you configured as the Edge Server next hop address in Topology Builder. If you're using DNS load balancing, include a line for each member of the next hop pool.
     
 ## Installation
 
-To complete these steps successfully, you will need to have followed the steps in the [Create your Edge topology for Skype for Business Server 2015](create-your-edge-topology.md) article.
+To complete these steps successfully, you will need to have followed the steps in the [Create your Edge topology for Skype for Business Server](create-your-edge-topology.md) article.
   
 1. Log onto the server you've been configuring for the Edge Server role with an account that's in the local Administrator's group.
     
@@ -91,7 +90,7 @@ To complete these steps successfully, you will need to have followed the steps i
     
 9. After the **Executing Commands** process is finished, click **Finish**.
     
-10. In the Deployment Wizard, click **Step 2. Setup or Remove Skype for Business Server Components**. The wizard will then install the Skype for Business Server 2015 Edge components specified in the XML configuration file that's been stored on the local computer.
+10. In the Deployment Wizard, click **Step 2. Setup or Remove Skype for Business Server Components**. The wizard will then install the Skype for Business Server Edge components specified in the XML configuration file that's been stored on the local computer.
     
 11. Once the installation's complete, you can move onto the steps in the **Certificates** section below.
     
@@ -110,7 +109,7 @@ The certificate requirements for the Edge Server can be found in the Edge Certif
  
 #### &nbsp;&nbsp;&nbsp; a. Download using certsrv web site
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Log into a Skype for Business Server 2015 server in your internal network as a member of the local Administrators group.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Log into a Skype for Business Server in your internal network as a member of the local Administrators group.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. Open up **Start**, and **Run** (or **Search** and **Run** ), and then type the following:
     
@@ -184,7 +183,7 @@ The certificate requirements for the Edge Server can be found in the Edge Certif
     
 &nbsp;&nbsp;&nbsp;b. On the **Certificate Request** page, ensure **Internal Edge Certificate** is selected, and click **Request**.
     
-&nbsp;&nbsp;&nbsp;c. On the **Delayed or Immediate Requests** page, choose **Send the request immediately to an online cerification authority** if you have access to one from your Edge environment, or **Prepare the request now, but send it later** otherwise.
+&nbsp;&nbsp;&nbsp;c. On the **Delayed or Immediate Requests** page, choose **Send the request immediately to an online certification authority** if you have access to one from your Edge environment, or **Prepare the request now, but send it later** otherwise.
     
 &nbsp;&nbsp;&nbsp;d. On the **Certificate Request File** page, enter the full part and file name for where the file will be saved (such as c:\SkypeInternalEdgeCert.cer). Click **Next**.
     
@@ -374,15 +373,15 @@ The certificate requirements for the Edge Server can be found in the Edge Certif
     
 &nbsp;&nbsp;&nbsp;g. Double-click **Certificates (Local Computer)** to expand the certificate stores. **Double-click Personal**, and then click **Certificates**.
     
-    > [!NOTE]
-    > You may be here, and you don't see any certificates in the Certificates Personal store for the local computer. You don't need to hunt around, if the key's not there, the imported certificate didn't have a private key associated with it. Try the request and import steps above one more time, and if you're sure you got all that right, talk to your CA administrator or provider. 
+   > [!NOTE]
+   > You may be here, and you don't see any certificates in the Certificates Personal store for the local computer. You don't need to hunt around, if the key's not there, the imported certificate didn't have a private key associated with it. Try the request and import steps above one more time, and if you're sure you got all that right, talk to your CA administrator or provider. 
   
 &nbsp;&nbsp;&nbsp;h. In the **Certificates Personal store** for the local computer, right-click the certificate that you're exporting. **Select All Tasks** from the resulting menu, and then click **Export**.
     
 &nbsp;&nbsp;&nbsp;i. In the **Certificate Export Wizard**, click **Next**. Select **Yes, export the private key**. Click **Next**.
     
-    > [!NOTE]
-    > If **Yes, export the private key** isn't available, then the private key for this certificate wasn't marked for export before you got it. You need to request the certificate from the provider again, with the private key set to export, before doing this successfully.
+   > [!NOTE]
+   > If **Yes, export the private key** isn't available, then the private key for this certificate wasn't marked for export before you got it. You need to request the certificate from the provider again, with the private key set to export, before doing this successfully.
   
 &nbsp;&nbsp;&nbsp;j. On the Export File Formats dialog, select Personal Information Exchange - PKCS#12 (.PFX) and then select the following:
     
@@ -390,8 +389,8 @@ The certificate requirements for the Edge Server can be found in the Edge Certif
     
  &nbsp;&nbsp;&nbsp;  ii. Export all extended properties.
     
-    > [!NOTE]
-    > **NEVER** select **Delete the private key if the export is successful**. It'll mean you have to reimport the certificate and private key back to this Edge Server.
+   > [!NOTE]
+   > **NEVER** select **Delete the private key if the export is successful**. It'll mean you have to reimport the certificate and private key back to this Edge Server.
   
 &nbsp;&nbsp;&nbsp;k. If you want to assign a password to protect the private key, you can type a password for the private key. Reenter the password to confirm, and then click **Next**.
     
@@ -421,7 +420,7 @@ The certificate requirements for the Edge Server can be found in the Edge Certif
 &nbsp;&nbsp;&nbsp;g. Once you've completed this procedure, it's a really good idea to open the Certificates MMC snap-in on each server, expand **Certificates (Local computer)**, expand **Personal**, click **Certificates**, and confirm that the internal Edge certificate is listed in the details pane.
     
    > [!NOTE]
-    > You will also have needed to set up the certificates for your reverse proxy server. That's covered in the Setup Reverse Proxy Servers for Skype for Business Server 2015 topic. 
+   > You will also have needed to set up the certificates for your reverse proxy server. 
   
 ## Starting the Edge Servers
 
@@ -435,6 +434,6 @@ Once the setup is complete, you'll need to start the services on each Edge serve
     
 4. (Optional) Still under **Step 4: Start Services**, click **Services Status**.
     
-5.  In the **Services MMC** on each server, verify that all the Skype for Business Server 2015 services are running.
+5.  In the **Services MMC** on each server, verify that all the Skype for Business Server services are running.
     
 
