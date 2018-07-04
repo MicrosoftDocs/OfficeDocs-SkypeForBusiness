@@ -1,5 +1,5 @@
 ---
-title: "<topic title>"
+title: "Install"
 ms.author: kenwith
 author: kenwith
 manager: serdars
