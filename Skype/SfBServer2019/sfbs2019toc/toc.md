@@ -40,6 +40,7 @@
 #### [User experience](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/user-experience.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Back End Server](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [File sharing](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/file-sharing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Instant messaging and presence](../../SfbServer/plan-your-deployment/instant-messaging-and-presence.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Video Interop Server](../../SfbServer/plan-your-deployment/video-interop-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Enterprise Voice Solution](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Enterprise Voice](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
