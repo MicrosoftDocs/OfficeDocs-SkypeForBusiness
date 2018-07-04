@@ -29,7 +29,7 @@ What happens to Skype for Business after the upgrade? After your users are upgra
 -   If users try to sign in to Skype for Business, they get a notification from their client that they’ve been upgraded to Teams.
 -   Users need to manually uninstall the Skype for Business client on their mobile devices.
 
-See our [FAQ](faq-journey.md) for additional questions about your upgrade.
+See our [FAQ](faq-journey.md target="_blank") for additional questions about your upgrade.
 
 Not familiar with Teams? [Read about how Teams](https://products.office.com/microsoft-teams/group-chat-software) brings together conversations, meetings, files, Office apps, and third-party integrations—providing a single hub for teamwork in Office 365.
 
