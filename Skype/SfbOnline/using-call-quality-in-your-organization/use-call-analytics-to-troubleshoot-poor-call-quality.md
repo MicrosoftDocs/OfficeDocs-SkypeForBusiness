@@ -21,12 +21,12 @@ ms.custom:
 description: "Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Skype for Business calls and meetings."
 ---
 
-# Use Call Analytics to troubleshoot poor Skype for Business call quality
+# Use Call Analytics to troubleshoot poor call quality
 
-Call Analytics helps you to troubleshoot call or connection problems with Skype for Business. Call Analytics shows detailed information about the devices, networks, and connectivity for the calls and meetings of each user in your Skype for Business account. If building, site, and tenant information has been added to Call Analytics, it will also be shown for each call and session. Information available via Call Analytics can help you figure out why a user had a poor call or meeting experience. 
+Call Analytics helps you to troubleshoot call or connection problems with Microsof Teams and Skype for Business. Call Analytics shows detailed information about the devices, networks, and connectivity for the calls and meetings of each user in your Office 365 account. If building, site, and tenant information has been added to Call Analytics, it will also be shown for each call and session. Information available via Call Analytics can help you figure out why a user had a poor call or meeting experience. 
   
 > [!NOTE]
-> Call Analytics is currently in preview. Text and images described here may not match your experience.
+> Call Analytics is now available in the Microsoft Teams and Skype for Business admin center at https://admin.teams.microsoft.com.  Helpdesk agent permissions and network topology upload will be available in the new admin portal in the coming months.  In the meantime you can continue to use the endpoint at https://adminportal.services.skypeforbusiness.com for Tier 1 and Tier 2 helpdesk access.
   
 ## Troubleshoot call quality problems using Call Analytics
 

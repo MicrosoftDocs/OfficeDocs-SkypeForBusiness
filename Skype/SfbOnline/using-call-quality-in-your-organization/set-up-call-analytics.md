@@ -30,7 +30,7 @@ As a Skype for Business Online admin, you can use Call Analytics to troubleshoot
 - Add building, site, and tenant information to Call Analytics by uploading a .tsv or .csv data file.
     
 > [!NOTE]
-> Call Analytics is currently in preview. Text and images described here may not match your experience. 
+> Call Analytics is now available in the Microsoft Teams and Skype for Business admin center at https://admin.teams.microsoft.com. Helpdesk agent permissions and network topology upload will be available in the new admin portal in the coming months. In the meantime you can continue to use the endpoint at https://adminportal.services.skypeforbusiness.com for Tier 1 and Tier 2 helpdesk access. 
   
 ## Set Call Analytics permissions
 <a name="BKMK_SetCAPerms"></a>
