@@ -58,4 +58,4 @@ There is a two minute timer from when an offline message is sent to when it's pi
 The primary Skype for Business ETL log will contain information about Offline message processing and is your best source for investigation/troubleshooting. 
   
 > [!NOTE]
-> An issue has been reported where Offline messages failed to send and the 'Drafts' folder was getting filled with messages. This occurred with Exchange On-Premises mailboxes. The issue has been fixed in all C2R channels as of 6/14/2016. 
+> An issue has been reported where Offline messages failed to send and the 'Drafts' folder was getting filled with messages. This occurred with Exchange On-Premises mailboxes. The issue has been fixed in all C2R channels as of 6/14/2016.  
