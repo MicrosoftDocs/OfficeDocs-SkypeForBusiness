@@ -136,6 +136,7 @@
 #### [Create and publish new topology](../../SfbServer/deploy/install/create-and-publish-new-topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Install Skype for Business Server](../../SfbServer/deploy/install/install-skype-for-business-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Verify the topology](../../SfbServer/deploy/install/verify-the-topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Deploy Call Via Work](../../SfbServer/deploy/deploy-call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Deploy archiving](../../SfbServer/deploy/deploy-archiving/deploy-archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Add archiving databases](../../SfbServer/deploy/deploy-archiving/add-archiving-databases.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Configure archiving options](../../SfbServer/deploy/deploy-archiving/configure-archiving-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
