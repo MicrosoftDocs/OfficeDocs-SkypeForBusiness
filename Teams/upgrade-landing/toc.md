@@ -8,7 +8,7 @@
 ### [Understand coexistence and interoperability](../upgrade-understand-coexistence-and-interoperability.md)
 ## [Plan for quality](../upgrade-plan-for-quality.md)
 ## [Prepare your environment for Teams](../upgrade-prepare-environment.md)
-### [Prepare IT pros for Teams](../upgrade-prepare-IT-pros.md)
+### [Prepare IT staff for Teams](../upgrade-prepare-IT-pros.md)
 ### [Prerequisites](../upgrade-plan-journey-prerequisites.md)
 ### [Evaluate your environment](../upgrade-plan-journey-evaluate-environment.md)
 <!-- ### [Discover your environment](../upgrade-prepare-environment-discover-environment.md) -->
