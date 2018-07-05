@@ -23,14 +23,16 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 -   [Defined your project scope](upgrade-define-project-scope.md)
 -   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
+[//]: # (Similar to "Evaluate environment...", remove "upgrading to" from title?)
+
 # Prepare your environment for upgrading to Teams
 
-To drive a successful Teams upgrade in your organization, it’s important that you validate your current Skype for Business environment and your network readiness. Taking time to plan individual steps can help accelerate your deployment and ensure that you haven’t skipped any important action items.
+To drive a successful Teams upgrade in your organization, it’s important that you validate your current Skype for Business environment and your network readiness. Preparing your current environment will help ensure a high-quality user experience now, in addition to improving the quality of the user experience in Teams. Taking time to plan individual steps can help accelerate your deployment and ensure that you haven’t skipped any important action items.
 
 Complete these activities in parallel with your user readiness preparation:
 
--   [Prepare your IT pros](upgrade-prepare-IT-pros.md) to help ensure they have what they need for a successful upgrade journey.
--   [Verify that your environment meets all prerequisites](upgrade-plan-journey-prerequisites.md) and understand dependencies among Office 365 services and Teams.
--   [Perform an environmental discovery](upgrade-prepare-environment-discover-environment.md) by using a sample questionnaire to confirm your organization’s readiness to undertake a successful upgrade journey to Teams.
+-   [Prepare your IT staff](upgrade-prepare-IT-pros.md) to help ensure they have what they need for a successful upgrade journey.
+-   Verify that your environment meets all [prerequisites](upgrade-plan-journey-prerequisites.md), and understand dependencies among Office 365 services and Teams.
+-   [Evaluate your environment](upgrade-prepare-environment-discover-environment.md) by performing environmental discovery by using a sample questionnaire to confirm your organization’s readiness to undertake a successful upgrade journey to Teams.
 -   [Prepare your network](upgrade-prepare-environment-prepare-network.md) through planning, preparation, and taking any necessary remediation steps for your network to support Teams workloads.
--   [Prepare for rollout](upgrade-prepare-environment-prepare-service.md) by using onboarding checklists to ensure that your Teams configuration is ready to support migrating your users from Skype for Business to Teams.
+-   [Prepare your service](upgrade-prepare-environment-prepare-service.md) for rollout by using onboarding checklists to ensure that your Teams configuration is ready to support migrating your users from Skype for Business to Teams.

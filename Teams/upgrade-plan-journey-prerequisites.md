@@ -23,7 +23,7 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 -   [Defined your project scope](upgrade-define-project-scope.md)
 -   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
-# Prerequisites and environmental dependencies for upgrading to Teams
+# Prerequisites and environmental dependencies for Teams
 
 Teams combines multiple Office 365 services, and is therefore dependent on the correct implementation and operation of these services. These services include—but aren’t limited to—SharePoint Online, Exchange Online, and OneDrive for Business.
 

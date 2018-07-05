@@ -14,10 +14,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-<!--
-![Stages of the upgrade journey, with emphasis on Technical Readiness](media/upgrade-banner-tech-readiness.png "Stages of the upgrade journey, with emphasis on Technical Readiness")
-
-This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. -->
+<!-- This article is included almost word for word by upgrade-understand-coexistence-and-interoperability.md. Any changes to that article, be sure to duplicate here. -->
 
 # Microsoft Teams and Skype for Business coexistence and interoperability
 

@@ -1,5 +1,5 @@
 ---
-title: Upgrade Essentials checklist - Microsoft Teams
+title: Upgrade Basic checklist - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -16,9 +16,9 @@ appliesto:
 ---
 
 <a name="about-upgrade-essentials"></a>
-# Upgrade Essentials 
+# Upgrade Basic 
 
-Designed for smaller organizations or those using Skype for Business Online for IM (chat) and meetings only, the Upgrade Essentials checklist is an accelerated action plan that includes core, recommended activities and associated resources for implementing a successful move from Skype for Business to Teams.
+Designed for smaller organizations or those using Skype for Business Online for IM (chat) and meetings only, the Upgrade Basic checklist is an accelerated action plan that includes core, recommended activities and associated resources for implementing a successful move from Skype for Business to Teams.
 
 These ten easy steps provide everything you need for a successful upgrade. They’re designed to be completed in about 30 to 45 days, but you should adjust task completion dates based on your organization’s upgrade schedule.
 
@@ -63,7 +63,7 @@ Teams offers compatible Skype for Business functionality—such as IM (chat) and
 -   [Overview of Teams](Teams-overview.md)
 -   [Learn about teams and channels](teams-channels-overview.md)
 -   [Complete technical planning](quick-start-enable-teams.md#step-3-complete-technical-planning)
-
+-   [Manage Skype Room Systems](https://aka.ms/srsdocs)
 
 [Return to top](#about-upgrade-essentials)
 
