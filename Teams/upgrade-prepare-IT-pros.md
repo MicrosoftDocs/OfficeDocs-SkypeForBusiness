@@ -1,5 +1,5 @@
 ---
-title: Prepare IT pros for Microsoft Teams - Microsoft Teams
+title: Prepare IT staff for Microsoft Teams - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -38,3 +38,12 @@ Share the following resources with your IT staff members, and confirm that theyâ
 -   [Troubleshoot connectivity issues with the Microsoft Teams client](connectivity-issues.md)
  
 -   [Use log files in troubleshooting Microsoft Teams](log-files.md)
+
+[//]: # (Ask Debbie to scrutinize:)
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Have you involved all support staff who are likely to be involved in deploying and supporting Teams?</li><li>Have you developed a training plan for onboarding additional staff as your upgrade progresses?</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Verify that IT staff has the information they need.</li><li>Revisit your training and preparation plans as new features are released.</li></ul>|
+
+After youâ€™ve prepared your IT staff for Teams, verify that your environment meets all [prerequisites](upgrade-plan-journey-prerequisites.md).

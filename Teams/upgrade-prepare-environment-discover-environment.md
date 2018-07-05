@@ -25,6 +25,7 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 
 <!-- Note that this article includes almost all text from environmental-discovery-for-microsoft-teams-rollout.md. Any applicable changes to that article, be sure to duplicate them here. -->
 
+<!-- MOVED THE FOLLOWING TO THE "Evaluate your envionment" article.
 # Environmental discovery for a Microsoft Teams rollout
 
 Discovery is one of the very first, key steps that you take when planning for your journey to Microsoft Teams.
@@ -191,3 +192,4 @@ Use the following table and capture the current adoption and readiness state of 
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Who will be responsible for overseeing the completion of the discovery questionnaire?</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Proceed with [preparing your network for Teams](upgrade-prepare-environment-prepare-network.md).</li><li>When all prerequisites are met and the network is ready, [prepare your service for upgrading to Teams](upgrade-prepare-environment-prepare-service.md).</li></ul>|
+-->
