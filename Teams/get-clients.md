@@ -70,7 +70,7 @@ When users initiate a call using the Microsoft Teams client for the first time, 
 
 ### Mac
 
-Mac users can install Teams by using a PKG installation file for Mac OSX computers. Administrative access is required to install the Mac client. The Mac OSX client is installed to the /Applications folder.
+Mac users can install Teams by using a PKG installation file for macOS computers. Administrative access is required to install the Mac client. The macOS client is installed to the /Applications folder.
 
 #### Install Teams by using the PKG file
 
