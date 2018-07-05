@@ -120,6 +120,9 @@ To ensure that the antivirus scanner does not interfere with the operation of Sk
   - %systemroot%\SysWow64\LogFiles
     
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
+
+    > [!NOTE]
+    > Note that these paths are specific to Skype for Business Server version. 
     
   - %programfiles%\Skype for Business Server 2015
     

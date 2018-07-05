@@ -23,23 +23,13 @@ This article only addresses DNS planning for Skype for Business Server deploymen
   
 A Domain name service (DNS) server maps hostnames (like www.contoso.com, presumably a web server) to IP addresses (such as 10.10.10.10). It helps clients and interdependent servers communicate with each other on the network. When you set up an implementation of Skype for Business Server, you'll need to make sure the mapping of new server names (usually reflecting the role they'll be taking on) matches the IP addresses they are assigned to.
   
-While this may seem a bit daunting at first, the heavy lifting for planning this can be done using the [Skype for Business Server 2015 Planning Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Once you've gone through the wizard's questions about what features you plan to use, for each site you define you can view the DNS Report within the Edge Admin Report, and use the information listed there to create your DNS records. You can also make adjustments to many of the names and IP addresses used, for details see [Review the DNS Report](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report). Keep in mind you can export the Edge Admin Report to an Excel spreadsheet, and the DNS Report will be one of the worksheets in the file. 
+While this may seem a bit daunting at first, the heavy lifting for planning this can be done using the [Skype for Business Server 2015 Planning Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Once you've gone through the wizard's questions about what features you plan to use, for each site you define you can view the DNS Report within the Edge Admin Report, and use the information listed there to create your DNS records. You can also make adjustments to many of the names and IP addresses used, for details see [Review the DNS Report](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report). Keep in mind you can export the Edge Admin Report to an Excel spreadsheet, and the DNS Report will be one of the worksheets in the file. While this tool includes features [deprecated from Skype for Business Server 2019](../../../SfBServer2019/deprecated.md), it can still be used to create an initial plan if those features are not selected
   
 When you are installing a new implementation as described in [Create DNS records for Skype for Business Server](../../deploy/install/create-dns-records.md) and building your topology for Skype for Business Server, we recognize that you can choose to use the DNS capabilities built in to Windows Server 2016 or a third-party DNS package, so we'll keep the discussions in this article general rather than specific. We're detailing what's needed, and how you meet that need is your decision to make.
   
 Experienced Skype for Business, Lync, and Office Communications Suite administrators will probably find the following tables useful. If the table is confusing to you, the later sections or articles will shed some light on the following concepts: 
   
-- [Summary tables](dns.md#BK_Summary)
-    
-- [DNS basics](basics.md)
-    
-- [Hybrid considerations](dns.md#BK_Hybrid)
-    
-- [Split brain DNS](dns.md#BK_split)
-    
-- [Simple URLs ](dns.md#BK_Simple)
-    
-- [DNS by server role](dns.md#BK_Servers)
+
     
 ## Summary tables
 <a name="BK_Summary"> </a>
@@ -48,10 +38,10 @@ The following tables show DNS records Skype for Business Server uses to provide 
   
 **Internal DNS mappings**
 
-|**Record Type**|**Value**|**Resolves to**|**Purpose**|**Required**|
+|Record Type|Value|Resolves to|Purpose|Required|
 |:-----|:-----|:-----|:-----|:-----|
-|A/AAAA  <br/> |Front End pool FQDN  <br/>  *FE-pool.contoso.com*  <br/> |Front End pool server IP addresses  <br/>  DNS LB to *192.168.21.122 192.168.21.123 192.168.21.124*  <br/> |DNS Load Balancing of Front End Pools. Maps the Front End pool name to a set of IP addresses.  <br/> See [Deploying DNS Load Balancing on Front End Pools and Director Pools](load-balancing.md#BK_FE_Dir) <br/> |Y  <br/> |
-|A/AAAA  <br/> | FQDN of each Front End Server or Standard Edition server in a pool, or a standalone server <br/>  * FE01.contoso.com, FE02.contoso.com, FE03.contoso.com*  <br/> |Corresponding IP of each server  <br/>  *192.168.21.122 192.168.21.123 192.168.21.124*  <br/> |Maps the server name to its IP address.  <br/> |Y  <br/> |
+|A/AAAA  <br/> |Front End pool FQDN  <br/>  *FE-pool.<span></span>contoso<span></span>.com*  <br/> |Front End pool server IP addresses  <br/>  DNS LB to *192.168.21.122 192.168.21.123 192.168.21.124*  <br/> |DNS Load Balancing of Front End Pools. Maps the Front End pool name to a set of IP addresses.  <br/> See [Deploying DNS Load Balancing on Front End Pools and Director Pools](load-balancing.md#BK_FE_Dir) <br/> |Y  <br/> |
+|A/AAAA  <br/> | FQDN of each Front End Server or Standard Edition server in a pool, or a standalone server <br/>  *FE01<span></span>.contoso<span></span>.com, FE02.<span></span>contoso<span></span>.com, FE03.<span></span>contoso.com*  <br/> |Corresponding IP of each server  <br/>  *192.168.21.122 192.168.21.123 192.168.21.124*  <br/> |Maps the server name to its IP address.  <br/> |Y  <br/> |
 |A/AAAA  <br/> |Enterprise Pool Internal Web Services Override FQDN  <br/>  *Web-int.contoso.com*  <br/> |HLB VIP for Front End Server Internal Web Services  <br/>  *192.168.21.120 *  <br/> |Required to enable client to server web traffic, such as downloading the Skype for Business Web App. Also required for Mobile clients.  <br/> |Y  <br/> |
 |A/AAAA  <br/> |Enterprise Pool External Web Services Override FQDN  <br/>  *Web-ext.contoso.com*  <br/> |HLB VIP for Front End Server External Web Services  <br/>  *68.123.56.90*  <br/> |Required to enable client to server web traffic, such as downloading the Skype for Business Web App. Required if mobile clients will resolve DNS internally. Can resolve to DMZ Reverse Proxy IP or Internet IP.  <br/> ||
 |A/AAAA  <br/> | Back End Server SQL server FQDN <br/>  *SQL1.contoso.com*  <br/> |server IP address  <br/>  *192.168.11.90*  <br/> |Maps the server name for a back-end SQL server working with the Front End pool to its IP address  <br/> ||
@@ -62,7 +52,7 @@ The following tables show DNS records Skype for Business Server uses to provide 
 |A/AAAA  <br/> |Mediation Server FQDN  <br/> |Server IP address  <br/> |You can co-locate the services provided by a mediation server to the Front End server or pool. See [Using DNS Load Balancing on Mediation Server Pools](load-balancing.md#BK_Mediation) <br/> ||
 |A/AAAA  <br/> |Persistent Chat Server FQDN  <br/> |Persistent Chat Server IP address  <br/> |A Persistent Chat server is required for the Persistent Chat feature and is otherwise optional.  <br/> ||
 |A/AAAA  <br/> |lyncdiscoverinternal. _\<sipdomain\>_ <br/> lyncdiscoverinternal.*contoso.com*  <br/> |HLB Front End pool VIP or Director IP  <br/>  192.168.21.121 <br/> |Internal AutoDiscover Service1, required for Mobility support. If internal DNS is used to resolve for mobile devices, it should point to the external IP, or DMZ VIP.  <br/> For Web services we require HLB on the Front End pool as HTTPS can't leverage DNS. For Front End pool or Director pool this should resolves to an HLB VIP, or a regular IP for a Standard edition server or a Standalone Director server.  <br/> |Y  <br/> |
-|CNAME  <br/> |lyncdiscoverinternal. _\<sipdomain\>_ <br/> lyncdiscoverinternal. *contoso.com*  <br/> |HLB FE Pool FQDN or Director FQDN  <br/> Web-int.contoso.com  <br/> |Internal AutoDiscover Service1 <br/> You can implement this as a CNAME instead of an A record if desired.  <br/> ||
+|CNAME  <br/> |lyncdiscoverinternal. _\<sipdomain\>_ <br/> lyncdiscoverinternal. *contoso<span></span>.com*  <br/> |HLB FE Pool FQDN or Director FQDN  <br/> Web-int.contoso.com  <br/> |Internal AutoDiscover Service1 <br/> You can implement this as a CNAME instead of an A record if desired.  <br/> ||
 |A/AAAA  <br/> |sip. _\<sipdomain\>_ <br/> sip. _contoso.com_ <br/> |Front End pool server IP addresses (or to a each Director IP address)  <br/>  DNS LB to *192.168.21.122 192.168.21.123 192.168.21.124*  <br/> |Required for automatic configuration, see [Walkthrough of Skype for Business clients locating services](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype) <br/> A record or records pointing to the Front End pool servers or Director servers on the internal network, or the Access Edge service when the client is external  <br/> |2 <br/> |
 |A/AAAA  <br/> |ucupdates-r2. _\<sipdomain\>_ <br/> ucupdates-r2. _contoso.com_ <br/> |HLB FE Pool VIP Or Director Pool HLB VIP , or SE/Director Server IP  <br/>  192.168.21.121 <br/> |Deploying this record is optional 3 <br/> ||
 |SRV  <br/> |_sipinternaltls._tcp. _\<sipdomain\>_ Port 5061 <br/> _sipinternaltls._tcp. _contoso.com_ Port 5061 <br/> |Front End pool FQDN  <br/>  _FE-Pool.contoso.com_ <br/> |Enables Internal user automatic sign-in 1 to the Front End server/pool or SE server/pool that authenticates and redirects client requests for sign-in. <br/> |2 <br/> |
@@ -130,7 +120,7 @@ Split brain DNS is a DNS configuration where you have two DNS zones with the sam
 ## Hybrid considerations
 <a name="BK_Hybrid"> </a>
 
-If you plan to have some users homed online and some homed on premises, refer to the hybrid [DNS settings](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#BKMK_DNS). You will need to configure DNS as normal for Skype for Business Server 2015 and also add additional DNS records. 
+If you plan to have some users homed online and some homed on premises, refer to the Hybrid connectivity planning articles for [Skype for Business Server 2015](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#BKMK_DNS) and [Skype for Business server 2019](../../../SfBServer2019/hybrid/hybrid-solutions.md). You will need to configure DNS as normal for Skype for Business Server 2015 and also add additional DNS records. 
   
 You should also refer to "Office 365 URLs and IP address ranges" at [http://aka.ms/o365ips](http://aka.ms/o365ips) to confirm that your users will have access to the online resources they will need.
   
@@ -162,7 +152,7 @@ These generic record requirements apply to any server role used by Skype for Bus
   
 **DNS record Requirements for Server/pool roles (presumes DNS load balancing)**
 
-|**Deployment scenario**|**DNS requirement**|
+|Deployment scenario|DNS requirement|
 |:-----|:-----|
 |One Server:  <br/> Persistent Chat, Director, Mediation Server, Front end server  <br/> |An internal A record that resolves the fully qualified domain name (FQDN) of the server to its IP address.  <br/> ServerRole.contoso.com 10.10.10.0  <br/> |
 |Pool:  <br/> Persistent Chat, Director, Edge Server, Mediation Server, Front end  <br/> |An internal A record that resolves the fully qualified domain name (FQDN) of each server node in the pool to its IP address.  <br/> **Example** <br/> ServerRole01.contoso.com 10.10.10.1  <br/> ServerRole02.contoso.com 10.10.10.2  <br/> Multiple internal A records that resolve the fully qualified domain name (FQDN) of the pool to the IP addresses of the server nodes in the pool.  <br/> **Example** <br/> ServerPool.contoso.com 10.10.10.1  <br/> ServerPool.contoso.com 10.10.10.2  <br/> |

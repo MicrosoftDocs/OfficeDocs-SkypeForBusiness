@@ -51,7 +51,7 @@ The following table summarizes our recommendations.
 > [!NOTE]
 > Stretched pools aren't supported for this server role. 
   
-In a Front End pool, you should have one Front End Server for every 6,660 users homed in your pool, assuming that hyper-threading is enabled on all servers in the pool, and that the server hardware meets the recommendations in [Server Hardware Platforms](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx). The maximum number of users in one Front End pool is 80,000, again assuming that hyper-threading is enabled on all the servers in your pool. If you have more than 80,000 users at a site, you can deploy more than one Front End pool. 
+In a Front End pool, you should have one Front End Server for every 6,660 users homed in your pool, assuming that hyper-threading is enabled on all servers in the pool, and that the server hardware meets the recommendations in [Server requirements for Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md) or  [Server requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/server-requirements.md). The maximum number of users in one Front End pool is 80,000, again assuming that hyper-threading is enabled on all the servers in your pool. If you have more than 80,000 users at a site, you can deploy more than one Front End pool. 
   
 When you account for the number of users in a Front End pool, include any users homed on Survivable Branch Appliances and Survivable Branch Servers at branch offices that are associated with this Front End pool.
   
@@ -65,7 +65,7 @@ For a Front End pool with 80,000 users, twelve Front End Servers will be good fo
   
 The number of users supported with good performance by a particular Front End pool may differ from these numbers for the following reasons:
   
-- The hardware for your Front End Servers doesn't meet the recommendations in [Server Hardware Platforms](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+- The hardware for your Front End Servers doesn't meet the recommendations.
     
 - Your organization's usage is very different from the user models, for example, if you have a lot more conferencing traffic.
     
@@ -100,7 +100,8 @@ You should deploy one Edge Server for every 12,000 remote users who will access 
 When you account for the number of users for the Edge Servers, include the users homed on Survivable Branch Appliances and Survivable Branch Servers at branch offices that are associated with a Front End pool at this site.
   
 > [!NOTE]
-> To improve the performance of the A/V Conferencing Edge service on your Edge Servers, you should enable receive-side scaling (RSS) on the network adapters on your Edge Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, check "[Receive-Side Scaling Enhancements in Windows Server 20081](https://go.microsoft.com/fwlink/p/?linkId=268731)". For details about how to enable RSS, you'll need to refer to your network adapter documentation. 
+> To improve the performance of the A/V Conferencing Edge service on your Edge Servers, you should enable receive-side scaling (RSS) on the network adapters on your Edge Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, check "[Receive Side Scaling (RSS)
+in Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". For details about how to enable RSS, you'll need to refer to your network adapter documentation. 
   
 ## Director
 
@@ -144,7 +145,7 @@ All the following tables assume usage as summarized in [User models in Skype for
 > This number is much smaller than the numbers for the stand-alone Mediation Server. That's because the Front End Server has to handle other features and functions for the 6600 users homed on it, in addition to the transcoding needed for voice calls. 
   
 > [!NOTE]
-> To improve the performance of the Mediation Server, you should enable receive-side scaling (RSS) on the network adapters on your Mediation Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see "[Receive-Side Scaling Enhancements in Windows Server 2008](https://go.microsoft.com/fwlink/p/?linkId=268731)". For details about how to enable RSS, you'll need to refer to your network adapter documentation. 
+> To improve the performance of the Mediation Server, you should enable receive-side scaling (RSS) on the network adapters on your Mediation Servers. RSS enables incoming packets to be handled in parallel by multiple processors on the server. For details, see "[Receive-Side Scaling in Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". For details about how to enable RSS, you'll need to refer to your network adapter documentation. 
   
 ## Back End Server
 

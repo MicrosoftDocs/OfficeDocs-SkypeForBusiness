@@ -19,7 +19,7 @@
 #### [Configure Call Data Connector](../hybrid/configure-call-data-connector.md)
 
 
-## Plan
+## [Plan](../plan/plan-your-deployment.md)
 ### [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Reference topologies](../../SfbServer/plan-your-deployment/topology-basics/reference-topologies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### System requirements 
@@ -125,8 +125,7 @@
 #### [User models](../../SfbServer/plan-your-deployment/capacity/user-models.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 
-## Deploy
-<!-- ### [Install](../deploy/install.md) -->
+## [Deploy](../deploy/deploy.md)
 ### [Install](../../SfbServer/deploy/install/install.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Install prerequisites](../../SfbServer/deploy/install/install-prerequisites.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Create a file share](../../SfbServer/deploy/install/create-a-file-share.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -347,7 +346,7 @@
 ##### [Remove the SQL Server database for a Monitoring server](../migration/remove-the-sql-server-database-for-a-monitoring-server.md)
 ##### [Remove the SQL Server database for an Archiving server](../migration/remove-the-sql-server-database-for-an-archiving-server.md)
 
-## Manage
+##  [Manage](../manage.md)
 ### [Health and monitoring](../../SfbServer/manage/health-and-monitoring/health-and-monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Access monitoring data](../../SfbServer/manage/health-and-monitoring/access-monitoring-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Call detail recording (CDR)](../../SfbServer/manage/health-and-monitoring/call-detail-recording-cdr.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
