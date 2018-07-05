@@ -272,7 +272,9 @@
 #### [Deploy the Lync VDI plug-in](../../SfbServer/deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Deploy Web downloadable clients](../../SfbServer/deploy/deploy-clients/deploy-web-downloadable-clients.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Customize the Mac client experience](../../SfbServer/deploy/deploy-clients/customize-the-mac-client-experience.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-
+### [Configure Skype Meeting Broadcast](../../SfbServer/deploy/configure-skype-meeting-broadcast.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [IM and presence](../../SfbServer/deploy/im-and-presence/im-and-presence.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [Enable or Disable Offline IM](../../SfbServer/deploy/im-and-presence/enable-or-disable-offline-im.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Deploy high availability and disaster recovery](../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/deploy-high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [AlwaysOn Availability Group](../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Front End pools for disaster recovery](../../SfbServer/deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
