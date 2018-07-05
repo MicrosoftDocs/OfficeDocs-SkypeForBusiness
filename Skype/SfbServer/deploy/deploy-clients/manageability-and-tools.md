@@ -41,10 +41,8 @@ Skype Room System can be monitored through the System Center Operations Manager 
 
 - Run the following tools:
     
-  - Skype for Business Best Practices Analyzer 
-    
-  - Skype for Business Health Analysis Tool (Excel) 
-    
+  - Skype for Business Best Practices Analyzer     
+  - Skype for Business Health Analysis Tool (Excel)    
   - Skype for Business Connectivity Analyzer 32-Bit or 64-Bit
     
 - Review [Useful new troubleshooting and analysis tools for Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Confirm you have a Skype for Business pool and an Office Web Apps server and can share a PowerPoint deck using the Skype for Business client.
