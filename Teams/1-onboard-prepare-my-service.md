@@ -217,7 +217,7 @@ sites in scope:**
 
 -   The list of organizational sites and user groups have been identified.
 
--   A [certified session border controller (SBC)](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs) has been deployed, configured and paired with Phone System.
+-   A [certified session border controller (SBC)](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs) has been deployed, configured and paired with Phone System.
 
 -   Enterprise voice has been enabled, and the phone numbers have been assigned.
 
