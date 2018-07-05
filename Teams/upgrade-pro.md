@@ -67,7 +67,7 @@ Days 1&ndash;2: Confirm that your organization is ready for the upgrade.
 -   Validate that you’ve completed the pre-upgrade activities described above.
 -   Segment your user base into four upgrade groups.
 -   Send notification of the upgrade to all users.\*
--   [Enable **Notify** mode for all users](setting-your-coexistence-and-upgrade-settings.md).
+-   Set [Notify Skype for Business users that Teams is available for upgrade](setting-your-coexistence-and-upgrade-settings.md) for all users.
 
 _Days 7 through 45: Implement your upgrade from Skype for Business to Teams._
 
@@ -80,7 +80,7 @@ Day 14
 -   Monitor network health and helpdesk calls for any technical or user upgrade experience issues, and mitigate as needed.
 
 Day 21
--   [Move upgrade group 1 to **Teams only** mode](setting-your-coexistence-and-upgrade-settings.md).
+-   [Set the coexistence mode for upgrade group 1 to **Teams Only**](setting-your-coexistence-and-upgrade-settings.md).
 -   Send a “Welcome to Teams” notification to upgrade group 1.\*
 
 Days 14&ndash;42

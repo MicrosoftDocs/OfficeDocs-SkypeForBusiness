@@ -54,8 +54,8 @@ Consider the following discussion points to help refine your vision:
 
 Your vision might only be realized over time, through various phases. The project scope defines the focus of your project _at this time_ and serves to keep your project team focused on their current tasks, enabling you to realize your long-term vision. For example, your scope might call for you to run a pilot, deploy a specific workload such as voice or meetings, or enable Teams alongside Skype for Business as you plan for your upgrade over time. As part of the project scope, you should assess:
 
+-   [The various coexistence modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), and which would be optimal for your organization.
 -   The best way for Skype for Business and Teams to coexist before you move to Teams.
--   [The various modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), and which would be optimal for your organization.
 -   Whether you should conduct a [pilot](pilot-essentials.md) to validate technical and user readiness in your organization.
 
 ## Project goals

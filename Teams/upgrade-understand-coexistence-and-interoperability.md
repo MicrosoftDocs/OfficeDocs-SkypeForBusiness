@@ -51,7 +51,9 @@ If you’re a Skype for Business on-premises or hybrid customer and the default 
 These other coexistence modes are all designed to ensure that there will be no overlapping capability between Teams and Skype for Business for a given user. Because users in these additional coexistence modes only have one client (either Teams or Skype for Business) capable of receiving or placing chat or calls, they require interoperability. Interoperability is supported in the following three additional coexistence modes:
 
 -   **Skype for Business with Teams collaboration**: Use this mode to enable very rapid deployment of Teams collaboration with minimal user disruption. A simple initial step you can take is to leave Skype for Business unchanged with chat, calling, and scheduling meetings, and add Teams collaboration capabilities—teams and channels, access to files in Office 365, and applications. This mode is upcoming.
+
 -   **Skype for Business with Teams collaboration and meetings**: Use this coexistence mode to accelerate the delivery of Teams meetings capabilities in your organization, so you can take advantage of the great quality and new capabilities such as transcription and translation, and support for meetings in browsers. This mode is upcoming. <br>Using Teams for collaboration and meetings while retaining Skype for Business for chat and calling is especially useful for users in Skype for Business on-premises deployments that have enterprise voice, who are likely to take some time to be upgraded to Teams or might even stay in an on-premises deployment for the foreseeable future. Users who aren’t in enterprise voice deployments will probably not need this step and can be upgraded directly to Teams, as explained below.
+
 -   **Skype for Business only**: In this coexistence mode, users continue to use chat and calling capabilities in Skype for Business rather than Teams, and they don’t use Teams for teams and channels. This mode is available today; however, in the current implementation Teams modalities are not turned off. This capability is upcoming. In the interim, admins might want to remove the Teams license.<br>If some users need to keep using Skype for Business and can’t use teams and channels for the foreseeable future due to specific business needs—such as compliance requirements that can’t be met by Teams now, or readiness initiatives that aren’t yet complete—you can assign this coexistence mode to those users. Users can be licensed for Teams or not, and Teams can be present to enable the users to join meetings created in Teams by other users; you can also decide to let the users run Teams-based applications. **Skype for Business only** coexistence mode might also be useful as an initial starting point if you prefer not to deploy **Islands** mode until you’ve given users appropriate training and information; at that point, you might assign them (for example) **Skype for Business with Teams collaboration** coexistence mode.<br>This mode is expected to be used only in rare cases or for very short periods of time.
  
 The last mode, **Teams only**,  lets users use Teams for all its capabilities. Interoperability is also supported in **Teams only** mode. This mode is available.<br>As soon as your organization is ready for some or all users to use Teams as their only communications and collaboration tool, you can upgrade those users to this mode. If the Skype for Business client remains present and running, it runs in a special mode that only lets it join Skype for Business meetings but doesn’t offer the ability to initiate chat, calling, or meetings, as illustrated below. 
@@ -64,18 +66,18 @@ Planning for assigning coexistence modes should be part of your organization’s
 
 -   Whether you’re a pure Skype for Business Online organization (in which case we only support **Islands** mode)
 -   Length of time that Skype for Business and Teams will have to coexist
--   Considerations for a large organization with a complex on-premises enterprise voice deployment
--   Requirement for interoperability at all times
+-   Requirements for supporting a complex on-premises enterprise voice deployment
+-   Interoperability requirements
 -   Compliance requirements
--   Don’t want overlapping unified communications workloads
--   Third-party integration points
+-   Organizational tolerance for overlapping communications workloads
+-   Third-party integration scenarios and requirements
 
 > [!Note]
 > When deployed in specific coexistence modes, Teams and Skype for Business can [interoperate](#interoperability-of-teams-and-skype-for-business), enabling users to chat with and call one another, and ensuring that communications remain fluid across your organization during your upgrade journey to Teams.
 > Coexistence modes govern interoperability. The coexistence mode of the receiver is what is assessed to determine whether interoperability will be available.
 > For example, if the receiver is in a mode in which chat is only available in one client (say, Teams), chat interoperability will generally be available in case the initiator uses the other client (in this case, Skype for Business) to start the chat. On the other hand, if the receiver is in a mode in which chat is available in both clients, interoperability won’t be available for the chat—and the message will be received by the receiver in the same client in which the initiator started the chat.
 
-For more details about coexistence modes, prerequisites, and management, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
+For more details about coexistence modes, prerequisites, and management, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md) and [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md).
 
 > [!Important]
 > Introducing new technology—or making changes to your existing, familiar Skype for Business environment—can be disruptive for users. Take time to assess user readiness, and implement a communication and training plan before you implement any of the changes outlined in this article. In addition, we strongly encourage you to pilot your plan with a selected group of users before implementing it across your organization.
@@ -114,13 +116,13 @@ Some features aren’t available for the interop chat and interop calling experi
 
 For all these limitations (except for Persistent Chat), one possible workaround is for one user to start a meeting and invite the other user to join it. This workaround is the basis for interop escalation.
 
-### Interop escalation experiences
+### Interop meeting experiences
 
-For the workaround described above, we intend to provide interop escalation scenarios where meeting creation will be facilitated. The facilitation will remove as many manual steps from the process as possible; however, the target user will have to manually join the meeting (typically by clicking a link).
+For the workaround described above, we intend to provide interop scenarios where meeting creation will be facilitated. The facilitation will remove as many manual steps from the process as possible; however, the target user will have to manually join the meeting (typically by clicking a link).
 
-For example, a user who is currently in a native interop conversation takes an action that isn’t natively supported (in this case, sharing their desktop). The intent of the interop escalation scenario is to provide the following: prepare a meeting silently on the platform of the initiator, and then send the other participant a link and instructions on how to join the meeting. After the users have joined the meeting, the existing call is terminated and the initiator is joined to the meeting. Desktop sharing then starts automatically.
+For example, a user who is currently in a native interop conversation takes an action that isn’t natively supported (in this case, sharing their desktop). The intent of the interop meeting scenario is to provide the following: prepare a meeting silently on the platform of the initiator, and then send the other participant a link and instructions on how to join the meeting. After the users have joined the meeting, the existing call is terminated and the initiator is joined to the meeting. Desktop sharing then starts automatically.
 
-The scenarios currently considered for interop escalation are:
+The scenarios currently considered for interop meetings are:
 
 -   Desktop sharing in a native interop conversation.
 -   Escalation of a native interop conversation into a multiple-party conversation.
@@ -128,6 +130,6 @@ The scenarios currently considered for interop escalation are:
 -   Ad-hoc invitation to a meeting in which at least one participant is on a different platform from the originator. 
 
 > [!Important]
-> These interop escalation scenarios represent our current thinking and are subject to change.
+> These interop meeting scenarios represent our current thinking and are subject to change.
 
-After you review this article, see [Migration and interoperability guidance](migration-interop-guidance-for-teams-with-skype.md) for implementation details.
+After you review this article, see [Migration and interoperability guidance](migration-interop-guidance-for-teams-with-skype.md) and [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md) for implementation details.
