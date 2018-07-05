@@ -16,20 +16,17 @@ description: "Summary: Explore these links to learn how to implement Skype for B
 
 [!INCLUDE [disclaimer](disclaimer.md)]
 
-<!-- Table with links based on 2015 splash page 
-[Skype for Business Server 2015](../SfbServer/skype-for-business-server-2015.md)  -->
-
 * * *
 | | | |
 |:--- |:--- |:--- |
-|**Plan**|**Hybrid**|**Deploy**|
-|**Upgrade**|**Manage**| |
+|**[Plan](plan/plan-your-deployment-2019.md)**|**[Hybrid solutions](hybrid/hybrid-solutions.md)**|**[Deploy](deploy/deploy-over-2019.md)**|
+|**[Upgrade](migration/migration-to-skype-for-business-server-2019.md)**|**[Manage](../SfbServer/manage/manage.md)**| |
 | | | |
 * * *
 ### Featured articles
 | | | |
 |:--- |:--- |:--- |
-|**Before you start** <br>[Infrastructure requirements](plan/environmental-requirements.md) <br>[Network requirements](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) |**Install and Manage** <br>[Install](deploy/install.md)<br>Manage|**Enterprise Voice**<br>[Plan](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Deploy](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)|
-|**New features**<br>[What's new](whats-new.md)  |**Hybrid solutions**<br>[Plan hybrid connectivity](hybrid/plan-hybrid-connectivity.md)<br>[Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md)|other resources |
+|**Before you start** <br>[Infrastructure requirements](plan/environmental-requirements.md) <br>[Network requirements](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) |**Install and Manage** <br>[Install Skype for Business Server](../SfbServer/deploy/install/install.md)<br>Manage|**Enterprise Voice**<br>[Plan](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Deploy](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)|
+|**New features**<br>[What's new](whats-new.md)  |**Hybrid solutions**<br>[Plan hybrid connectivity](hybrid/plan-hybrid-connectivity.md)<br>[Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md)|  |
 | | | |
 * * * 
