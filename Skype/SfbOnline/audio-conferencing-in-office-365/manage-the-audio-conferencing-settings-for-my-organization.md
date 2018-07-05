@@ -25,6 +25,9 @@ description: "See steps to assign a dial-in conferencing license and conference 
 # Manage the Audio Conferencing settings for my organization
 
 It might be easier for you to see all of the audio conferencing settings for Skype for Business and Microsoft Teams in one place. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## Assign an Audio Conferencing license
 

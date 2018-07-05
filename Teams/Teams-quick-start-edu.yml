@@ -35,10 +35,10 @@ items:
   
     ## Before you begin
     
-    1. [Check your environment’s readiness for Teams](environment-readiness.md)
+    1. [Check your environment’s readiness for Teams](environment-readiness.md).
     2. Consider [deploying School Data Sync](https://docs.microsoft.com/en-us/SchoolDataSync) to make it easier for teachers to automatically create Teams.
     3. Configure the correct ports and protocols for Teams. See [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
-    4. [Prepare your school's network for Teams](prepare-network.md)
+    4. [Prepare your school's network for Teams](prepare-network.md).
     5. Teams for Education offers three new types of teams (for a total of four). To understand the differences and use cases of each, see [Choose a team type to collaborate in Teams](https://support.office.com/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67).
 
     [comment]: <> (TODO Placeholder: Add section about Being a partner, and link to partner strategy doc once uploaded to download center)
@@ -67,11 +67,11 @@ items:
 
     ## Step 1: Get your people together
 
-    Assemble a group of individuals from staff, teachers and the user community to act as the stakeholder & decision making group for your Teams deployment.  In smaller organizations this may be 2 or 3 people.  It is essential for success to include business/users AND IT professionals together for this journey. 
+    Assemble a group of individuals from staff, teachers, and the user community to act as the stakeholder and decision making group for your Teams deployment. In smaller organizations this might be two or three people. It is essential for success to include business users and IT professionals together for this journey. 
 
     ## Step 2:  Prioritize your scenarios
 
-    Collaboration and communication is about people! Pick the most relevant scenarios for your organization instead of talking about features and functions. Check out the [Microsoft 365 FastTrack Productivity Library](https://fasttrack.microsoft.com/microsoft365/productivitylibrary) for examples to help you define scenarios for your school. Successful Teams deployments often center around highly collaborative teams that work closely together, such as classrooms, professional learning communities, and extracurricular student groups.
+    Collaboration and communication is about people. Pick the most relevant scenarios for your organization instead of talking about features and functions. Check out the [Microsoft 365 FastTrack Productivity Library](https://fasttrack.microsoft.com/microsoft365/productivitylibrary) for examples to help you define scenarios for your school. Successful Teams deployments often center around highly collaborative teams that work closely together, such as classrooms, professional learning communities, and extracurricular student groups.
 
     ### :trophy: Best practice:
     **Plan Teams with Teams!** Customers who use Teams to plan their deployment ease the change curve for key stakeholders. Consider creating a team called Microsoft 365 Deployment and creating channels for the various workloads you want to deploy. Your team might look something like this:
@@ -98,7 +98,7 @@ items:
 
     1. **Read [Office 365 Adoption Guidance]( https://aka.ms/office365adoptionguide)** for best practices. Use our article on [creating a change management strategy for Microsoft Team](change-management-strategy.md) to document your approach.
     2. **Study [Office 365 activity reports](teams-activity-reports.md)** to understand usage across your environment. If you aren’t an Office 365 admin for your company, ask your admin to give you Reports Reader permissions so you can access activity reports.
-    3. **Capture feedback from your users** on their experience with Office 365 and Teams. Use a public channel in Teams when your organization has fewer than 2500 individuals. Use a public group in Yammer when your organization is larger than this current membership limit in Teams. 
+    3. **Capture feedback from your users** on their experience with Office 365 and Teams. Use a public channel in Teams when your organization has fewer than 2,500 individuals. Use a public group in Yammer when your organization is larger than this current membership limit in Teams. 
     
     5. **Nurture your champions and highlight your wins.** Reward employees for embracing these new tools and using them in innovative ways that relate to business outcomes for your company. This, above anything, will ensure continued adoption of Office 365 and Teams.
 
@@ -318,34 +318,31 @@ items:
     [!INCLUDE [browser-support](includes/browser-support.md)]
 
 
-- title: Adoption, feedback, and support
+- title: Adoption, call to action, and support
   durationInMinutes: 1
   content: |
+  
+    ### Adoption
 
-    Adoption content (more coming all the time - keep checking back!):
-        - [Email templates for getting started guides](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Email-templates-Teams-for-Education.zipr?raw=true)
-        - Quick start short videos for end users
-        - Internal social campaign templates
+    - [Teams resources for Education admins](resources-teams-edu.md) (includes customizable and ready-to-print email and poster templates)
 
+    ### Call to action
 
-    Call to action:
-        - Check out our hands-on [Microsoft Teams Interactive Demo](http://teamsdemo.office.com/) (5 minutes to complete)
-        - Turn on Microsoft Teams in the [Office 365 admin center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (sign in as an Office 365 admin)
-        - Download Teams clients: [Get Teams on all your devices](https://teams.microsoft.com/downloads)
-        - Learn more about Office 365 for Education at the [Education help center](https://support.office.com/education)
+    - Check out our hands-on [Microsoft Teams Interactive Demo](http://teamsdemo.office.com/) (5 minutes to complete)
+    - Turn on Microsoft Teams in the [Office 365 admin center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (sign in as an Office 365 admin)
+    - Download Teams clients: [Get Teams on all your devices](https://teams.microsoft.com/downloads)
+    - Learn more about Office 365 for Education at the [Education help center](https://support.office.com/education)
     
-    Additional Resources:
-        - [Microsoft Teams roadmap](https://aka.ms/teamsroadmap)
-        - Stay up to date with our [Tech Community Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) 
-        - Matt Soseman's "The Productive Cloud" Blog about [Microsoft Teams PowerShell Support](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)
+    ### Support resources
+
+    - [Microsoft Teams roadmap](https://aka.ms/teamsroadmap)
+    - Stay up to date with our [Tech Community Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) 
+    - Matt Soseman's "The Productive Cloud" Blog about [Microsoft Teams PowerShell Support](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)
+    - [Send a suggestion](https://aka.ms/eduuservoice)
+    - [Contact support](https://aka.ms/o365portal)
+    - [Ask the Teams community](https://aka.ms/msteamscommunity)
+    - [Find more resources for education](https://education.microsoft.com/)
+
+
 
     
-    [Send a suggestion](https://aka.ms/eduuservoice)
-
-    [Contact support](https://aka.ms/o365portal)
-
-    [Ask the Teams community](https://aka.ms/msteamscommunity)
-
-    [Explore the Office 365 Education help center](https://support.office.com/education)
-
-    [Find more resources for education](https://education.microsoft.com/)

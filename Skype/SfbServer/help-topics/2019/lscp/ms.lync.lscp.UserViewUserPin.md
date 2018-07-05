@@ -3,7 +3,6 @@ title: "Users View or Configure PIN Policy"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -18,7 +17,7 @@ description: "What do you want to do? Click the link to the task that you want t
  
 What do you want to do? Click the link to the task that you want to perform.
   
-- [Set a user's dial-in conferencing PIN in Skype for Business Server 2015](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [Set a user's dial-in conferencing PIN in Skype for Business Server](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
 
