@@ -27,7 +27,7 @@ Presence provides information to users about the status of others on the network
   
 ### Technical requirements
 
-Instant messaging (IM) and presence always run on Enterprise Edition Front End pools and Standard Edition servers. For information on supported hardware, operating systems, and database software, see [Infrastructure for Skype for Business](https://technet.microsoft.com/en-us/office/dn947483)<!-- Techcenter --> and [Requirements for your Skype for Business environment](requirements-for-your-environment/requirements-for-your-environment.md).
+Instant messaging (IM) and presence always run on Enterprise Edition Front End pools and Standard Edition servers. For information on supported hardware, operating systems, and database software, see  [Certified Gateways](../../SfbPartnerCertification/certification/infra-gateways.md),  [Requirements for your Skype for Business 2015 environment](requirements-for-your-environment/requirements-for-your-environment.md), and [Infrastructure requirements for Skype for Business Server 2019](../../SfBServer2019/plan/environmental-requirements.md).
   
 ### Enabling communication with external users
 

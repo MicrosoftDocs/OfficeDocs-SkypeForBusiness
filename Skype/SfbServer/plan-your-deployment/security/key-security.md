@@ -30,7 +30,7 @@ Skype for Business Server provides two tools to facilitate planning and design a
     
 - **Topology Builder** stores all configuration information in the Central Management store.
     
-For details about these tools, see [Skype for Business Server Management Tools](../../management-tools/management-tools.md) and [Plan for your Skype for Business Server 2015 deployment](../../plan-your-deployment/plan-your-deployment.md).
+For details about these tools, see [Skype for Business Server Management Tools](../../management-tools/management-tools.md), [Plan for your Skype for Business Server 2015 deployment](../../plan-your-deployment/plan-your-deployment.md) and .
   
 ### Central Management Store
 
