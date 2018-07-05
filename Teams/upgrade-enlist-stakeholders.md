@@ -43,13 +43,13 @@ Optionally, you can create a steering committee. Sometimes large or more complex
 | Human Resources Manager         | Is accountable for talent management                                            | 
 | Project Manager/Lead            | Oversees the transition project, ensures completion of all tasks                | 
 | **Project team**                |                                                                                 | 
-| Collaboration Lead/ Architect   | Is responsible for creating and implementing the solution architecture          | 
+| Collaboration Lead/ Architect   | Creates and implements the solution architecture                                | 
 | Network Lead                    | Provides insights into network design and execution                             | 
 | Security Lead                   | Provides insights into security design, process, and implementation             | 
-| Synchronous Communications Lead | Is responsible for presence tooling such as chat, meetings, and calling         | 
-| Asynchronous Collaboration Led  | Is responsible for asynchronous tooling such as SharePoint, OneDrive, and so on | 
+| Synchronous Communications Lead | Owns presence tooling such as chat, meetings, and calling                       | 
+| Asynchronous Collaboration Led  | Owns asynchronous tooling such as SharePoint, OneDrive, and so on               | 
 | Telephony Lead                  | Provides insights into telephony design and implementation                      | 
-| Service Owner/ Quality Champion | Is responsible for operation of Teams all-up, including the quality of the user experience | 
+| Service Owner/ Quality Champion | Owns the operation of Teams all-up, including the quality of the user experience | 
 | Desktop and Devices Lead        | Provides input into clients, devices, and desktop apps                          | 
 | IT Pro/Tenant Admin             | Ensures the network readiness and Office 365 portal configurations are in place | 
 | Support/Help Desk Lead          | Manages the readiness of your support desk                                      | 

@@ -45,6 +45,5 @@ See the following articles to learn about prerequisites and how Teams interacts 
 
 -   If your organization is an educational institution and you use a Student Information System, [deploy School Data Sync](https://docs.microsoft.com/schooldatasync) before deploying Microsoft Teams.
 																		   
-<table>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td>See [Evaluate your environment](upgrade-plan-journey-evaluate-environment.md) for properly evaluating your current environment for Teams.</td></tr>
-</table>
+
+After you’ve verified that your environment meets all applicable prerequisites, [evaluate your current environment for Teams](upgrade-plan-journey-evaluate-environment.md).

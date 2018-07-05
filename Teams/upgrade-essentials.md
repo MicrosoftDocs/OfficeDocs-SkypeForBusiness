@@ -22,26 +22,22 @@ Designed for smaller organizations or those using Skype for Business Online for 
 
 These ten easy steps provide everything you need for a successful upgrade. They’re designed to be completed in about 30 to 45 days, but you should adjust task completion dates based on your organization’s upgrade schedule.
 
+What happens to Skype for Business after the upgrade? After your users are upgraded to Teams (**Teams Only** mode):
+
+-   Their Skype for Business client is disabled, and all chat and calls go to Teams. Note that this will not uninstall the client on their desktops.
+-   Any Skype for Business meetings that were scheduled before the upgrade work as designed, but all new meetings are scheduled in Teams.
+-   If users try to sign in to Skype for Business, they get a notification from their client that they’ve been upgraded to Teams.
+-   Users need to manually uninstall the Skype for Business client on their mobile devices.
+
+See our [FAQ](faq-journey.md) for additional questions about your upgrade.
+
 Not familiar with Teams? [Read about how Teams](https://products.office.com/microsoft-teams/group-chat-software) brings together conversations, meetings, files, Office apps, and third-party integrations—providing a single hub for teamwork in Office 365.
-
-Have questions about your upgrade? View our [FAQ](faq-journey.md).
-
-## Know before you go
-
-More than a technical migration, a successful upgrade requires that users learn and adopt Teams into their workflow. We understand that change can take time and users might have questions, and we’ve developed the Upgrade Essentials checklist to help.
-
-As you proceed with your upgrade, keep these things in mind: 
- 
--   User communication is key. Keeping users informed about what’s changing, why it's changing, and how they can prepare for the change will help facilitate and accelerate their acceptance and adoption of Teams. The communications in this checklist are timed to accompany the technical changes required on the back end.
--   Users can still access Skype for Business meetings. Although new online meetings will be scheduled in Teams, existing Skype for Business meetings remain unchanged, which gives users extra time after the upgrade to transition their meetings. Users can simply select the link from their calendar to join their Skype for Business meetings, as they do today.
--   Users decide whether they’ll use Teams. Never doubt that shadow IT is real. Because users have so many communication and collaboration tools available, you’ll need to take time to track usage before and after your upgrade, and verify that users have successfully onboarded to Teams. For easy reference, this checklist includes links to guidance for pulling usage data and sample feedback surveys.
 
 <a name="step-1"></a>
 
 ## Step 1. Notify your key stakeholders
 
 *(About four to six weeks before the upgrade)*
-
 
 Senior leaders are accountable for company success; be sure to keep them in the know about technology changes. Because it’s possible that not everyone received or read the notification of upgrade eligibility, you need to inform your stakeholders (for example, CEO, IT pros, Marketing, and helpdesk leads) before you begin planning your upgrade.
 
@@ -53,11 +49,11 @@ Senior leaders are accountable for company success; be sure to keep them in the 
 
 <a name="step-2"></a>
 
-## Step 2. Envision your organization on Teams
+## Step 2. Prepare your organization for Teams
 
 *(About four to six weeks before the upgrade)*
 
-Teams offers compatible Skype for Business functionality—such as IM (chat) and meetings—but it can also do so much more. As a true hub for teamwork, Teams enables workgroups to manage projects, files, conversations, and apps all in one location. Decide how your organization will use Teams and enable your environment for success.
+Teams offers compatible Skype for Business functionality—such as IM (chat) and meetings—but it can also do so much more. As a true hub for teamwork, Teams enables workgroups to manage projects, files, conversations, and apps all in one location. Decide how your organization will use Teams and configure your environment for success.
 
 > [!Note]
 > As an existing Skype for Business customer, your current network infrastructure is likely already configured for Teams. To confirm this, you can follow the “Complete technical planning” guidance linked to below (this is optional).
@@ -91,7 +87,7 @@ Users who are deeply adopted on Skype for Business might need a little more time
 
 *(About two to three weeks before the upgrade)*
 
-Giving ample notice to your users will give them time to get familiar with Teams without negatively affecting their productivity, resulting in a more positive user experience. Send a communication to tell them what’s changing, why it’s changing, and how they can prepare for it.
+Providing ample notice to your users will give them time to get familiar with Teams without negatively affecting their productivity, resulting in a more positive user experience. Send a communication to tell them what’s changing, why it’s changing, and how they can prepare for it.
 
 > [!Note]
 > If needed, you can enable Teams for your users via the Office 365 admin portal at this time.
@@ -136,7 +132,7 @@ Users are busy with their daily responsibilities. Reminding them of the pending 
 
 *(Upgrade Day)*
 
-Today is the day your organization officially upgrades to Teams as your communication and collaboration solution. In the Office 365 admin portal, activate the upgrade switch. Users will receive a notification in their Skype for Business client that they’ve been upgraded to Teams.
+Today is the day your organization officially upgrades to Teams as your communication and collaboration solution. In the Office 365 admin portal, activate the upgrade switch by setting the coexistence mode to **Teams Only**. Users will receive a notification in their Skype for Business client that they’ve been upgraded to Teams.
 
 We recommend that after everyone has been upgraded, you send an email welcoming them to Teams.
 
@@ -205,7 +201,7 @@ Body of email:
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
 
-Microsoft has indicated that Teams is now ready for our organization. To take full advantage of this new solution, we will be transitioning users from Skype for Business to Teams over the next 30 days. Our official transition date is <<insert X date>>, after which Skype for Business will be decommissioned for our organization.
+Microsoft has indicated that Teams now has key capabilities that meet our communication needs. To take full advantage of this new solution, we will be transitioning users from Skype for Business to Teams over the next 30 days. Our official transition date is <<insert X date>>, after which Teams will be our communications and collaboration service, and Skype for Business will be decommissioned for our organization.
 
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
@@ -244,7 +240,7 @@ If you have questions or need help, please reach out to <<insert company support
 
 ### Remind users email, for step 6
 
-Subject line: 
+Subject line: REMINDER: Get ready for your upgrade to Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
