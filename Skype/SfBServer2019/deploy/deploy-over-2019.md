@@ -29,7 +29,7 @@ View the following resources for information about how to deploy Skype for Busin
   
 ||Content|Description|
 |:-----|:-----|:-----|
-|![Icon for technical diagrams](../media/diagrams-icon.png)|[Technical diagrams for Skype for Business Server](../technical-diagrams.md) <br/> |See architecture choices at a glance in these large-format diagrams.  <br/> |
+|![Icon for technical diagrams](../media/diagrams-icon.png)|[Technical diagrams for Skype for Business Server](../../SfbServer/technical-diagrams.md)  <br/> |See architecture choices at a glance in these large-format diagrams.  <br/> |
 |![Icon for videos](../media/videos-icon.png)|Videos about how to install Skype for Business Server -  *coming soon!*  <br/> |Discover video presentations and training for Skype for Business Server.  <br/> |
    
 ## TechNet articles about Skype for Business Server installation and configuration

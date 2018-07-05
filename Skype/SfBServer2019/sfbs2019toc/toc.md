@@ -346,7 +346,7 @@
 ##### [Remove the SQL Server database for a Monitoring server](../migration/remove-the-sql-server-database-for-a-monitoring-server.md)
 ##### [Remove the SQL Server database for an Archiving server](../migration/remove-the-sql-server-database-for-an-archiving-server.md)
 
-## [Manage](../manage-2019.md)
+## [Manage](../../SfbServer/manage/manage.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Health and monitoring](../../SfbServer/manage/health-and-monitoring/health-and-monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Access monitoring data](../../SfbServer/manage/health-and-monitoring/access-monitoring-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Call detail recording (CDR)](../../SfbServer/manage/health-and-monitoring/call-detail-recording-cdr.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
