@@ -107,7 +107,7 @@
 ### [Security](../../SfbServer/plan-your-deployment/security/security.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Antivirus](../../SfbServer/plan-your-deployment/security/antivirus.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Key security](../../SfbServer/plan-your-deployment/security/key-security.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [Common threats](../plan-your-deployment/security/common-threats.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [Common threats](../../SfbServer/plan-your-deployment/security/common-threats.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Security framework](../../SfbServer/plan-your-deployment/security/security-framework.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Active Directory Domain Services](../../SfbServer/plan-your-deployment/security/active-directory-domain-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Role-based access control (RBAC)](../../SfbServer/plan-your-deployment/security/role-based-access-control-rbac.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
