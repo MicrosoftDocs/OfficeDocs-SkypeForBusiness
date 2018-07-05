@@ -79,8 +79,6 @@ If Smart contacts list is not functioning as expected, check the following:
     
 - Confirm that the Skype for Business client UI is not displaying a message that it cannot connect to the Address Book. To confirm Address Book connectivity, perform a search for a user in the Skype for Business client search bar.
     
-- If there are problems connecting to the Address Book, use STrace to collect HTTPS traces and HTTPReplay to analyze the collected traces. For more information, see the [related blog post](https://blogs.msdn.microsoft.com/canberrapfe/2012/06/04/have-you-ever-wondered-what-web-service-urls-are-used-by-the-lync-client-strace-is-your-tool/).
-    
 - AD DS replication issues could cause contacts to be unresolved when a user first signs in to Skype for Business.
     
 
