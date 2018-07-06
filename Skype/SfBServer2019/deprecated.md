@@ -82,3 +82,6 @@ The following tools are not supported with Skype for Business Server 2019:
 Clients released prior to Lync 2013 are no longer supported.
 
 
+### See also
+
+[What's in Skype for Business Server 2019](whats-new.md)

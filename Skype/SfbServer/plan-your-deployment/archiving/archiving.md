@@ -1,22 +1,21 @@
 ---
-title: "Plan for archiving in Skype for Business Server 2015"
+title: "Plan for archiving in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
-description: "Summary: Read this topic to learn how to plan for archiving in Skype for Business Server 2015."
+description: "Summary: Read this topic to learn how to plan for archiving in Skype for Business Server."
 ---
 
-# Plan for archiving in Skype for Business Server 2015
+# Plan for archiving in Skype for Business Server
  
-**Summary:** Read this topic to learn how to plan for archiving in Skype for Business Server 2015.
+**Summary:** Read this topic to learn how to plan for archiving in Skype for Business Server.
   
-Corporations and other organizations are subject to an increasing number of industry and government regulations that require the retention of specific types of communications. If your organization has such requirements, you can use archiving in Skype for Business Server 2015 to archive instant messaging (IM) and conferencing (meeting) communications to help support some of your compliance requirements.
+Corporations and other organizations are subject to an increasing number of industry and government regulations that require the retention of specific types of communications. If your organization has such requirements, you can use archiving in Skype for Business Server to archive instant messaging (IM) and conferencing (meeting) communications to help support some of your compliance requirements.
   
 ## Archiving components
 
@@ -24,7 +23,7 @@ Skype for Business Server uses the following archiving components:
   
 - **Archiving agents**. Archiving agents (also known as unified data collection agents) are installed and activated automatically on every Enterprise Edition Front End pool and Standard Edition Server. Although archiving agents are activated automatically, no messages are actually captured until archiving is enabled and appropriately configured. By default, archiving is disabled.
     
-- **Archiving data storage**. Data storage for Skype for Business Server 2015 can be implemented as Skype for Business Server SQL Server databases, or, if you have an Exchange deployment, integrated with Exchange storage. 
+- **Archiving data storage**. Data storage for Skype for Business Server can be implemented as Skype for Business Server SQL Server databases, or, if you have an Exchange deployment, integrated with Exchange storage. 
     
 Archiving also requires file storage, but archiving uses the same file storage as the Front End Servers or Standard Edition Server.
 
@@ -62,10 +61,13 @@ To implement archiving, you need to decide how to meet your organization's requi
   - Desktop and application sharing for peer-to-peer instant messages and conferences
     
     Skype for Business Server also does not archive Persistent Chat conversations. To archive Persistent Chat conversations, you must enable and configure the Compliance service, which is a component that can be deployed with Persistent Chat Server. For details, see [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
+
+    > [!NOTE] 
+    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
     
 - **How long archived materials should be retained**. The Archiving database is not intended for long-term retention, and Skype for Business Server does not provide an e-discovery (search) solution for archived data, so data needs to be moved to other storage. Skype for Business Server provides a session export tool that you can use to export archived data, and which creates searchable transcripts of the archived data. 
     
-     For the global policy, and for each site and user policy that you create, you can specify when to purge archived and exported data. For more information about purging data, see [Manage purging of archived data in Skype for Business Server 2015](../../manage/archiving/purging-of-archived-data.md). For more information about using the session export tool, see [Export archived data in Skype for Business Server 2015](../../manage/archiving/export-archived-data.md).
+     For the global policy, and for each site and user policy that you create, you can specify when to purge archived and exported data. For more information about purging data, see [Manage purging of archived data in Skype for Business Server](../../manage/archiving/purging-of-archived-data.md). For more information about using the session export tool, see [Export archived data in Skype for Business Server](../../manage/archiving/export-archived-data.md).
     
 - **Whether to archive internal or external communications**. You can enable archiving for internal communications (communications between internal users), external communications (communications that include at least one user outside your internal network), or both. You can specify these options for your entire organization, or you can specify them for specific sites and pools. By default, neither option is enabled.
     
@@ -94,7 +96,7 @@ Archiving is automatically installed on each Front End Server when you deploy th
 If you deploy archiving for one Front End pool or Standard Edition Server, you should enable it for all other Front End pools and Standard Edition servers in your deployment. If archiving is not enabled on the pool where a conversation or meeting is hosted, all conference data may not be archived. Archiving will still work for IM messages, but conferencing content and events may not be archived.
   
 > [!NOTE]
-> To enable delegation of administrative tasks while maintaining your organization's security standards, Skype for Business Server uses role-based access control (RBAC). With RBAC, administrative privilege is granted by assigning users to predefined administrative roles. To configure Skype for Business archiving policies and configurations, the user must be assigned to the CsArchivingAdministrator role (unless the configuration is done directly on the server where archiving is deployed, instead of remotely from another computer). For a list of the user rights, permissions, and roles required for archiving deployment, see [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md). 
+> To enable delegation of administrative tasks while maintaining your organization's security standards, Skype for Business Server uses role-based access control (RBAC). With RBAC, administrative privilege is granted by assigning users to predefined administrative roles. To configure Skype for Business archiving policies and configurations, the user must be assigned to the CsArchivingAdministrator role (unless the configuration is done directly on the server where archiving is deployed, instead of remotely from another computer). For a list of the user rights, permissions, and roles required for archiving deployment, see [Deploy archiving for Skype for Business Server](../../deploy/deploy-archiving/deploy-archiving.md). 
   
 > [!NOTE]
 > If you use Microsoft Exchange integration, configuration of Exchange policies requires appropriate administrator rights and permissions. For details, see the Exchange documentation. 
@@ -128,7 +130,7 @@ When adding SQL Server storage databases to your topology, you can choose to col
   
 If you collocate the Archiving database with the Monitoring database, back-end database, or both of these databases, you can either use a single SQL instance for any or all of the databases, or you can use a separate SQL instance for each database, with the following limitation: Each SQL instance can contain only a single back-end database, single Monitoring database, and single Archiving database.
   
-For details about collocation of all server roles and databases, see [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md). For details about updating your topology to include storage databases, see [Create and publish new topology in Skype for Business Server 2015](../../deploy/install/create-and-publish-new-topology.md).
+For details about collocation of all server roles and databases, see [Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md). For details about updating your topology to include storage databases, see [Create and publish new topology in Skype for Business Server](../../deploy/install/create-and-publish-new-topology.md).
   
 ### Determine archiving options and user policies
 
@@ -158,11 +160,11 @@ Skype for Business Server Archiving options can be specified at the following le
     
     For example, suppose you disable archiving for internal and external communications in your global configuration, create a site-level policy in which you enable archiving for internal and external communications, and then create a user-level policy in which you disable archiving for external communications. Communications would be archived for both external and internal communications for all site users except for the users to whom you apply the user-level policy--for these users only internal communications would be archived.
     
-For details about how to set up initial archiving configurations when you deploy archiving, see [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md). For details about managing archiving after deployment, see [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md). 
+For details about how to set up initial archiving configurations when you deploy archiving, see [Deploy archiving for Skype for Business Server](../../deploy/deploy-archiving/deploy-archiving.md). For details about managing archiving after deployment, see [Manage archiving in Skype for Business Server](../../manage/archiving/archiving.md). 
   
 ## Archiving configuration tools
 
- You control most archiving options by using the Skype for Business Server Control Panel. However, there are a few options available only by using the Skype for Business Server Management Shell. These options include archiving duplicate messages and exporting archived data. For more information about using the Skype for Business Server Control Panel and the Skype for Business Server Management Shell to manage archiving policies, see [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
+ You control most archiving options by using the Skype for Business Server Control Panel. However, there are a few options available only by using the Skype for Business Server Management Shell. These options include archiving duplicate messages and exporting archived data. For more information about using the Skype for Business Server Control Panel and the Skype for Business Server Management Shell to manage archiving policies, see [Manage archiving in Skype for Business Server](../../manage/archiving/archiving.md).
   
 ## Access archived data
 
@@ -170,15 +172,15 @@ Access to archived data is dependent on where the data is stored:
   
 - **Microsoft Exchange storage**. If you choose the Exchange integration option, Skype for Business Server deposits the archiving content in the Exchange store for all users who are homed on Exchange, and who have had their mailboxes put on In-Place Hold. Archived data is stored in the user mailboxes Recoverable items folder, which is generally invisible to users, and can only be searched by users with an Exchange **Discovery Management** role. Exchange enables federated search and discovery, along with SharePoint, if it is deployed. For more details about storage, retention, and discovery of data stored in Exchange, see the Exchange and SharePoint documentation.
     
-- **Skype for Business Server archiving storage**. If you set up Skype for Business Server Archiving databases, Skype for Business Server deposits archiving content in the Skype for Business Server Archiving databases for any users not homed on Exchange, and who have not had their mailboxes put on In-Place Hold. This data is not searchable, but it can be exported to formats that are searchable using other tools. For details about exporting data stored in Archiving databases, see [Export archived data in Skype for Business Server 2015](../../manage/archiving/export-archived-data.md).
+- **Skype for Business Server archiving storage**. If you set up Skype for Business Server Archiving databases, Skype for Business Server deposits archiving content in the Skype for Business Server Archiving databases for any users not homed on Exchange, and who have not had their mailboxes put on In-Place Hold. This data is not searchable, but it can be exported to formats that are searchable using other tools. For details about exporting data stored in Archiving databases, see [Export archived data in Skype for Business Server](../../manage/archiving/export-archived-data.md).
     
 ## For more information
 
 For more information about archiving, see the following topics:
   
-- [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)
+- [Deploy archiving for Skype for Business Server](../../deploy/deploy-archiving/deploy-archiving.md)
     
-- [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md)
+- [Manage archiving in Skype for Business Server](../../manage/archiving/archiving.md)
     
 For more details about how Skype for Business Server and Exchange work together, see [Plan to integrate Skype for Business and Exchange](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   

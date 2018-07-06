@@ -1,24 +1,23 @@
 ---
-title: "Plan for instant messaging and presence in Skype for Business Server 2015"
+title: "Plan for instant messaging and presence in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 6/28/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
-description: "Summary: Learn how to plan for instant messaging and presence in Skype for Business Server 2015."
+description: "Summary: Learn how to plan for instant messaging and presence in Skype for Business Server."
 ---
 
-# Plan for instant messaging and presence in Skype for Business Server 2015
+# Plan for instant messaging and presence in Skype for Business Server
  
-**Summary:** Learn how to plan for instant messaging and presence in Skype for Business Server 2015.
+**Summary:** Learn how to plan for instant messaging and presence in Skype for Business Server.
   
-Plan for instant messaging and presence in Skype for Business Server 2015. To learn about specific deployment options, such as enabling or disabling Offline Instant Messaging (IM), see [Deploy instant messaging and presence in Skype for Business Server 2015](../deploy/im-and-presence/im-and-presence.md).
+Plan for instant messaging and presence in Skype for Business Server. To learn about specific deployment options, such as enabling or disabling Offline Instant Messaging (IM), see [Deploy instant messaging and presence in Skype for Business Server](../deploy/im-and-presence/im-and-presence.md).
   
-## Plan for instant messaging and presence in Skype for Business Server 2015
+## Plan for instant messaging and presence in Skype for Business Server
 
 Front End Servers provide core Skype for Business Server functionality such as instant messaging (IM) and presence and are included in every Skype for Business Server deployment. There are two editions available: Skype for Business Server Enterprise Edition, which is designed primarily for larger organizations, and Skype for Business Server Standard Edition, which is designed primarily for smaller organizations which want a smaller hardware investment and do not require full high availability options. Both editions support all Skype for Business Server workloads including IM, presence, conferencing, and Enterprise Voice.
   
@@ -28,7 +27,7 @@ Presence provides information to users about the status of others on the network
   
 ### Technical requirements
 
-Instant messaging (IM) and presence always run on Enterprise Edition Front End pools and Standard Edition servers. For information on supported hardware, operating systems, and database software, see [Infrastructure for Skype for Business](https://technet.microsoft.com/en-us/office/dn947483)<!-- Techcenter --> and [Requirements for your Skype for Business environment](requirements-for-your-environment/requirements-for-your-environment.md).
+Instant messaging (IM) and presence always run on Enterprise Edition Front End pools and Standard Edition servers. For information on supported hardware, operating systems, and database software, see  [Certified Gateways](../../SfbPartnerCertification/certification/infra-gateways.md),  [Requirements for your Skype for Business 2015 environment](requirements-for-your-environment/requirements-for-your-environment.md), and [Infrastructure requirements for Skype for Business Server 2019](../../SfBServer2019/plan/environmental-requirements.md).
   
 ### Enabling communication with external users
 
@@ -51,9 +50,9 @@ You can greatly increase the benefits of your investment in Skype for Business S
   
 ### Archiving IM content
 
-Skype for Business Server provides features you can use if your organization must follow compliance regulations. You can use Archiving to archive the content of IM messages for all users in your organization or for only certain users that you specify. For details, see Planning for Archiving in Skype for Business Server 2015 in the Planning documentation. 
+Skype for Business Server provides features you can use if your organization must follow compliance regulations. You can use Archiving to archive the content of IM messages for all users in your organization or for only certain users that you specify. For details, see [Plan for archiving in Skype for Business Server](archiving/archiving.md). 
   
-If you also have Microsoft Exchange Server 2013 deployed, you can integrate the archiving of Exchange data with the archiving of Skype for Business Server data, and use a single tool to search both types of archived data. For more information, see Configuring Skype for Business Server 2015 to use Microsoft Exchange Server 2013 archiving.
+If you also have Microsoft Exchange Server 2013 deployed, you can integrate the archiving of Exchange data with the archiving of Skype for Business Server data, and use a single tool to search both types of archived data. For more information, see [Configure Skype for Business Server to use Exchange Server archiving](../deploy/integrate-with-exchange-server/use-exchange-archiving.md).
   
 ### Topologies and components
 
@@ -65,6 +64,6 @@ The only components required for instant messaging (IM) and presence are:
     
 ### Supported collocation
 
-Collocation is defined as having a single server, or group of servers, with multiple roles installed. For details on collocation, see [Topology Basics for Skype for Business Server 2015](topology-basics/topology-basics.md). 
+Collocation is defined as having a single server, or group of servers, with multiple roles installed. For details on collocation, see [Topology Basics for Skype for Business Server](topology-basics/topology-basics.md). 
   
 

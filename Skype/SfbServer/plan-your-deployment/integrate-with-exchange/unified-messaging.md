@@ -130,6 +130,11 @@ For details about how to enable or disable Unified Messaging on Microsoft Exchan
     
 - [Disable Unified Messaging on Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
     
+### Exchange Server 2019
+
+Exchange Unified Messaging is no longer present in Exchange 2019, if you have Exchange 2019 and you want equivalent functionality you will need to use the Cloud Voicemail service described in [Plan Cloud Voicemail service](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md).
+
+
 ## See also
 
 [Deployment process overview for integrating on-premises Unified Messaging and Skype for Business](deployment-overview.md)

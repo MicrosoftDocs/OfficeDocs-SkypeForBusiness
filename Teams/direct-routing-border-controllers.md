@@ -28,7 +28,7 @@ With each vendor, Microsoft:
 
 The table below lists devices certified for Direct Routing. 
 
-[Learn more about Direct Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-NOW-in-Public-Preview/ba-p/193915). 
+[Learn more about Direct Routing](https://aka.ms/dr). 
 
 
 |Vendor  |Product  |Non-Media Bypass  |Media Bypass  |Software Version|

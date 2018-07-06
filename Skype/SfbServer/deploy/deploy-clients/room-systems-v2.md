@@ -31,15 +31,11 @@ AV techs can be used for the last task, but your organization's IT department wi
 
 While the ordered devices are being delivered to your organization, work with your networking and facilities and AV teams to make sure that deployment dependencies are met and each site and room is ready in terms of power, networking, and display. In addition, make sure the physical installation requirements are met. For physical installation considerations, please visit the vendor’s site and leverage the experience of your AV team when installing and mounting screens and running cabling.
 
-<!-- These are now links to nowhere; ask Lester and James about them.
-
 You can find out more about these dependencies in the planning guidance links below:
 
--   [Network](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#check-network-availability)
--   [Certificates](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#certificates)
--   [Proxy](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#proxy)
-
--->
+-   [Check network availability](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#check-network-availability) 
+-   [Certificates](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#certificates)
+-   [Proxy](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#proxy)
 
 **Pro Tip** - If you intend to use proxy servers to provide access to Skype for Business Online, first [review this article](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Note that when it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don’t make it more secure. As part of your wider Skype for Business deployment, we recommend that you follow the guidance in [Evaluate my environment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) for bandwidth planning and assessing your network’s suitability for real-time traffic. For all bandwidth planning, use the [MyAdvisor Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (We recommend that you create a Skype Room Systems v2 persona to reflect the intended Skype Room Systems v2 usage [video, screen sharing, audio] and assign a number of users that matches the number of Skype Room Systems units to be deployed to each site.) 
 

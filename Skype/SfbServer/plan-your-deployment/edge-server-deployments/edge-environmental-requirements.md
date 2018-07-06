@@ -1,8 +1,7 @@
 ---
-title: "Edge Server environmental requirements in Skype for Business Server 2015"
+title: "Edge Server environmental requirements in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,14 +12,14 @@ ms.collection:
 ms.custom:
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 
-description: "Summary: Learn about the environmental requirements for Edge Server in Skype for Business Server 2015."
+description: "Summary: Learn about the environmental requirements for Edge Server in Skype for Business Server."
 ---
 
-# Edge Server environmental requirements in Skype for Business Server 2015
+# Edge Server environmental requirements in Skype for Business Server
  
-**Summary:** Learn about the environmental requirements for Edge Server in Skype for Business Server 2015.
+**Summary:** Learn about the environmental requirements for Edge Server in Skype for Business Server.
   
-A lot of planning and preparation needs to take place outside of the Skype for Business Server 2015 Edge Server environment itself. In this article, we'll review what preparations need to be made in the organizational environment, as per our list below:
+A lot of planning and preparation needs to take place outside of the Skype for Business Server Edge Server environment itself. In this article, we'll review what preparations need to be made in the organizational environment, as per our list below:
   
 - [Topology planning](edge-environmental-requirements.md#TopoPlan)
     
@@ -33,7 +32,7 @@ A lot of planning and preparation needs to take place outside of the Skype for B
 ## Topology planning
 <a name="TopoPlan"> </a>
 
-Skype for Business Server 2015 Edge Server topologies are able to use:
+Skype for Business Server Edge Server topologies are able to use:
   
 - Routable public IP addresses.
     
@@ -46,7 +45,7 @@ If you choose non-routable private IP addresses with NAT, remember these points:
   
 - You need to use routable private IP addresses on **all three** external interfaces.
     
-- You need to configure **symmetric** NAT for incoming and outgoing traffic. Symmetric NAT is the only supported NAT you can use with Skype for Business Server 2015 Edge Server.
+- You need to configure **symmetric** NAT for incoming and outgoing traffic. Symmetric NAT is the only supported NAT you can use with Skype for Business Server Edge Server.
     
 - Configure your NAT to not change incoming source addresses. The A/V Edge service needs to be able to receive the incoming source address to find the optimal media path.
     
@@ -58,7 +57,7 @@ You'll have no problems having your Access, Web conferencing and A/V Edge interf
   
 ### Summary of Edge Server topology options
 
-We have several topology options available for Skype for Business Server 2015 Edge Server deployments:
+We have several topology options available for Skype for Business Server Edge Server deployments:
   
 - Single consolidated Edge with private IP addresses and NAT
     
@@ -124,7 +123,7 @@ Let's look at some additional things to think about while planning.
 ## DNS planning
 <a name="DNSPlan"> </a>
 
-When it comes to Skype for Business Server 2015 Edge Server deployment, it's vital to prepare for DNS properly. With the right records in place, the deployment will be much more straightforward. Hopefully you've chosen a topology in the section above, as we're going to do an overview, and then list a couple of tables outlining the DNS records for those scenarios. We'll also have some [Advanced Edge Server DNS planning for Skype for Business Server 2015](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) for more in-depth reading, if you need it.
+When it comes to Skype for Business Server Edge Server deployment, it's vital to prepare for DNS properly. With the right records in place, the deployment will be much more straightforward. Hopefully you've chosen a topology in the section above, as we're going to do an overview, and then list a couple of tables outlining the DNS records for those scenarios. We'll also have some [Advanced Edge Server DNS planning for Skype for Business Server](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) for more in-depth reading, if you need it.
   
 ### DNS records for Single consolidated Edge Server scenarios
 
@@ -133,7 +132,7 @@ These will be the DNS records you're going to need for a singe Edge Server using
 - Internal network adapter: 172.25.33.10 (no default gateway's assigned)
     
     > [!NOTE]
-    > Ensure that there is a route from the network containing the Edge internal interface to any networks that contain servers running Skype for Business Server 2015 or Lync Server 2013 clients (for example, from 172.25.33.0 to 192.168.10.0). 
+    > Ensure that there is a route from the network containing the Edge internal interface to any networks that contain servers running Skype for Business Server or Lync Server 2013 clients (for example, from 172.25.33.0 to 192.168.10.0). 
   
 - External network adapter:
     
@@ -169,7 +168,7 @@ Web conferencing and A/V Edge public IP addresses are additional (secondary) IP 
 |External DNS  <br/> |A record  <br/> |NA  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 <br/> **private:** 10.45.16.10 <br/> |An external interface for your Access Edge service. You'll need one for every SIP domain with Skype for Business users.  <br/> |
 |External DNS  <br/> |A record  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 <br/> **private:** 10.45.16.20 <br/> |An external interface for your Web Conferencing Edge service.  <br/> |
 |External DNS  <br/> |A record  <br/> |NA  <br/> |av.contoso.com  <br/> |**public:** 131.107.155.30 <br/> **private:** 10.45.16.30 <br/> |An external interface for your A/V Edge service.  <br/> |
-|External DNS  <br/> |SRV record  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |An external interface for your Access Edge service. This SRV record is required for Skype for Business Server 2015, Lync Server 2013, and Lync Server 2010 clients to work externally. You'll need one for every domain with Skype for Business users.  <br/> |
+|External DNS  <br/> |SRV record  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |An external interface for your Access Edge service. This SRV record is required for Skype for Business Server, Lync Server 2013, and Lync Server 2010 clients to work externally. You'll need one for every domain with Skype for Business users.  <br/> |
 |External DNS  <br/> |SRV record  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |An external interface for your Access Edge service. This SRV record is required for automatic DNS discovery of federated partners called Allowed SIP domains. You'll need one for every domain with Skype for Business users.  <br/> |
 |Internal DNS  <br/> |A record  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |The internal interface for your consolidated Edge.  <br/> |
    
@@ -184,7 +183,7 @@ These will be the DNS records you're going to need for a singe Edge Server using
   - Node 2: 172.25.33.11 (no default gateway's assigned)
     
     > [!NOTE]
-    > Ensure that there is a route from the network containing the Edge internal interface to any networks that contain servers running Skype for Business Server 2015 or Lync Server 2013 clients (for example, from 172.25.33.0 to 192.168.10.0). 
+    > Ensure that there is a route from the network containing the Edge internal interface to any networks that contain servers running Skype for Business Server or Lync Server 2013 clients (for example, from 172.25.33.0 to 192.168.10.0). 
   
 - External network adapter:
     
@@ -243,7 +242,7 @@ There are other possible configurations here:
 |External DNS  <br/> |A record  <br/> |NA  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 and 131.107.155.11 <br/> **private:** 10.45.16.10 and 10.45.16.11 <br/> |An external interface for your Access Edge service. You'll need one for every SIP domain with Skype for Business users.  <br/> |
 |External DNS  <br/> |A record  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 and 131.107.155.21 <br/> **private:** 10.45.16.20 and 10.45.16.21 <br/> |An external interface for your Web Conferencing Edge service.  <br/> |
 |External DNS  <br/> |A record  <br/> |NA  <br/> |av.contoso.com  <br/> |**public:** 131.107.155.30 and 131.107.155.31 <br/> **private:** 10.45.16.30 and 10.45.16.31 <br/> |An external interface for your A/V Edge service.  <br/> |
-|External DNS  <br/> |SRV record  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |An external interface for your Access Edge service. This SRV record is required for Skype for Business Server 2015, Lync Server 2013, and Lync Server 2010 clients to work externally. You'll need one for every domain with Skype for Business.  <br/> |
+|External DNS  <br/> |SRV record  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |An external interface for your Access Edge service. This SRV record is required for Skype for Business Server, Lync Server 2013, and Lync Server 2010 clients to work externally. You'll need one for every domain with Skype for Business.  <br/> |
 |External DNS  <br/> |SRV record  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |An external interface for your Access Edge service. This SRV record is required for automatic DNS discovery of federated partners called Allowed SIP domains. You'll need one for every domain with Skype for Business.  <br/> |
 |Internal DNS  <br/> |A record  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10 and 172.25.33.11  <br/> |The internal interface for your consolidated Edge.  <br/> |
    
@@ -257,7 +256,7 @@ There are other possible configurations here:
 
 |**Location**|**Type**|**Port**|**FQDN**|**IP address or FQDN host record**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|External DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |The XMPP proxy interface on your Access Edge service or Edge pool. You need to repeat this as needed for all internal SIP domains with Skype for Business Server 2015 enabled users, where contact with XMPP contacts is allowed through:  <br/> • a global policy  <br/> • a site policy where the user's enabled  <br/> • a user policy applied to the Skype for Business Server 2015 enabled user  <br/> An allowed XMPP policy also needs to be configured in the XMPP federated users policy.  <br/> |
+|External DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |The XMPP proxy interface on your Access Edge service or Edge pool. You need to repeat this as needed for all internal SIP domains with Skype for Business Server enabled users, where contact with XMPP contacts is allowed through:  <br/> • a global policy  <br/> • a site policy where the user's enabled  <br/> • a user policy applied to the Skype for Business Server enabled user  <br/> An allowed XMPP policy also needs to be configured in the XMPP federated users policy.  <br/> |
 |External DNS  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |IP address of the Access Edge service on the Edge Server or Edge pool hosting your XMPP Proxy service  <br/> |This points to the Access Edge service on the Edge Server or Edge pool that hosts the XMPP Proxy service. Typically the SRV record that you create will point to this host (A or AAAA) record.  <br/> |
    
 > [!NOTE]
@@ -266,7 +265,7 @@ There are other possible configurations here:
 ## Certificate planning
 <a name="CertPlan"> </a>
 
-Skype for Business Server 2015 uses certificates for secure, encrypted communications both between servers and from server to client. As you'd expect, your certificates will need to have DNS records for your servers match up to any subject name (SN) and subject alternate name (SAN) on your certificates. This will take work now, at the planning stage, to ensure you have the right FQDNs registered in DNS for the SN and SAN entries for your certificates.
+Skype for Business Server uses certificates for secure, encrypted communications both between servers and from server to client. As you'd expect, your certificates will need to have DNS records for your servers match up to any subject name (SN) and subject alternate name (SAN) on your certificates. This will take work now, at the planning stage, to ensure you have the right FQDNs registered in DNS for the SN and SAN entries for your certificates.
   
 We'll discuss external and internal certificate needs separately, and then look at a table providing the requirements for both.
   
@@ -322,12 +321,12 @@ If you need a certificate for Extensible Messaging and Presence Protocol (XMPP),
     
 - \*.contoso.com
     
-Please remember that currently XMPP is only supported in Skype for Business Server 2015 for Google Talk, if you want or need to use it for anything else, you need to confirm that functionality with the third-party vendor involved.
+Please remember that currently XMPP is only supported in Skype for Business Server for Google Talk, if you want or need to use it for anything else, you need to confirm that functionality with the third-party vendor involved.
   
 ## Port and firewall planning
 <a name="PortFirewallPlan"> </a>
 
-Getting your planning right for ports and firewalls for Skype for Business Server Edge Server deployments can save you days or weeks of troubleshooting and stress. As a result, we're going to list a couple of tables that will indicate our protocol usage and what ports you need to have open, inbound and outbound, both for NAT and public IP scenarios. We'll also have separate tables for hardware load balanced scenarios (HLB) and some further guidance on that. For more reading from there, we also have [Technical diagrams for Skype for Business Server 2015](../../technical-diagrams.md), as well as some [Edge Server scenarios in Skype for Business Server 2015](scenarios.md) you can check out for your particular deployment concerns.
+Getting your planning right for ports and firewalls for Skype for Business Server Edge Server deployments can save you days or weeks of troubleshooting and stress. As a result, we're going to list a couple of tables that will indicate our protocol usage and what ports you need to have open, inbound and outbound, both for NAT and public IP scenarios. We'll also have separate tables for hardware load balanced scenarios (HLB) and some further guidance on that. For more reading from there, we also have [Technical diagrams for Skype for Business Server 2015](../../technical-diagrams.md), as well as some [Edge Server scenarios in Skype for Business Server](scenarios.md) you can check out for your particular deployment concerns.
   
 ### General protocol usage
 
@@ -336,11 +335,11 @@ Before we look at the summary tables for external and internal firewalls, let's 
 |**Audio/Video transport**|**Usage**|
 |:-----|:-----|
 |UDP  <br/> |The preferred transport layer protocol for audio and video.  <br/> |
-|TCP  <br/> |The fallback transport layer protocol for audio and video.  <br/> The required transport layer protocol for application sharing to Skype for Business Server 2015, Lync Server 2013, and Lync Server 2010.  <br/> The required transport layer protocol for file transfer to Skype for Business Server 2015, Lync Server 2013, and Lync Server 2010.  <br/> |
+|TCP  <br/> |The fallback transport layer protocol for audio and video.  <br/> The required transport layer protocol for application sharing to Skype for Business Server, Lync Server 2013, and Lync Server 2010.  <br/> The required transport layer protocol for file transfer to Skype for Business Server, Lync Server 2013, and Lync Server 2010.  <br/> |
    
 ### External port firewall summary table
 
-The Source IP address and Destination IP address will contain information for users who are using Private IP addresses with NAT, as well as people using public IP addresses. This will cover all the permutations in our [Edge Server scenarios in Skype for Business Server 2015](scenarios.md) section.
+The Source IP address and Destination IP address will contain information for users who are using Private IP addresses with NAT, as well as people using public IP addresses. This will cover all the permutations in our [Edge Server scenarios in Skype for Business Server](scenarios.md) section.
   
 |**Role or protocol**|**TCP or UDP**|**Destination Port or port range**|**Source IP address**|**Destination IP address**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -381,7 +380,7 @@ We're giving hardware load balancers (HLBs) and Edge ports their own section, as
   
 #### External port firewall summary table
 
-The Source IP address and Destination IP address will contain information for users who are using Private IP addresses with NAT, as well as people using public IP addresses. This will cover all the permutations in our [Edge Server scenarios in Skype for Business Server 2015](scenarios.md) section.
+The Source IP address and Destination IP address will contain information for users who are using Private IP addresses with NAT, as well as people using public IP addresses. This will cover all the permutations in our [Edge Server scenarios in Skype for Business Server](scenarios.md) section.
   
 |**Role or protocol**|**TCP or UDP**|**Destination Port or port range**|**Source IP address**|**Destination IP address**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
