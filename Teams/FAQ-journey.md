@@ -57,7 +57,7 @@ Customers should evaluate the Teams roadmap to determine whether capabilities wi
 
 ### What support are you offering to customers who want to move to Teams, especially those who have made significant investments in Skype for Business in Office 365?
 
-Customers continue to use Skype for Business in Office 365 until Teams meets their business needs. We’ll assist customers who want to move users to Teams with tools and guidance to control and manage the process. Prescriptive guidance and best practices will be available at [https://aka.ms/skypeandteams](https://aka.ms/skypeandteams). We’ll help ease the transition for users new to Teams with a specialized first-run experience and in-product coach marks. FastTrack, customer support. and partners will be available to help guide customers through the transition.
+Customers continue to use Skype for Business in Office 365 until Teams meets their business needs. We’ll assist customers who want to move users to Teams with tools and guidance to control and manage the process. Prescriptive guidance and best practices are available at [https://aka.ms/skypeandteams](https://aka.ms/skypeandteams). We’ll help ease the transition for users new to Teams with a specialized first-run experience and in-product coach marks. FastTrack, customer support, and partners are available to help guide customers through the transition.
 
 ### What does this mean from a licensing perspective? How will customers pay for Intelligent Communications services in Teams?
 
@@ -92,8 +92,6 @@ Teams is available in all Office 365 for Education suite licensing: Education, E
 Teams is actively pursuing FedRAMP compliance and bringing a GCC offering to market. [Teams will be available for Government plans on July 17, 2018](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
 
 
-
-
 ## Calling capabilities
 
 ### What is the plan for Microsoft’s online voice capabilities?
@@ -119,38 +117,36 @@ One of the many advantages of using Teams is that users gain access to new commu
 
 ### Is Audio Conferencing coverage in Teams different in Skype for Business?
 
-There will be no change in the coverage for Audio Conferencing as a result of its availability in Teams. The coverage of 90+ countries and 400+ cities we have today will continue to persist in both products. For the current list of countries/regions where Audio Conferencing is available, please read here.
-
-[//]: # (SELF, look above)
+There will be no change in the coverage for Audio Conferencing as a result of its availability in Teams. The coverage of 90+ countries and 400+ cities we have today will continue to persist in both products. For the current list, see [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/skypeforbusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
 ### Are third-party audio conferencing providers (ACP) supported in Teams?
 
-There are no plans to support third-party audio conferencing providers (ACP) in Teams. We believe the best audio conferencing experience for customers using Teams and Skype for Business will be using our Audio Conferencing services in Office 365 (formerly PSTN Conferencing). Customers needing to leverage our ACP support in Skype for Business meetings can continue to use their Skype for Business client. Meetings scheduled within the Teams client will only support the Audio Conferencing services of Office 365.
+There are no plans to support third-party audio conferencing providers (ACP) in Teams. We believe the best audio conferencing experience for customers using Teams and Skype for Business will be to use our Audio Conferencing services in Office 365 (formerly PSTN Conferencing). Customers who need to leverage our ACP support in Skype for Business meetings can continue to use their Skype for Business client. Meetings scheduled within the Teams client will only support the Audio Conferencing services of Office 365.
 
 ### What’s the plan for video interoperability support for Teams meetings?
 
-Meeting room devices are critical to our vision for the modern workplace. We announced on September 25 at Ignite that we are working with Blue Jeans, Pexip, and Polycom to deliver cloud video interoperability with Teams. Customers can continue to use Polycom Real Connect for Office 365 with Skype for Business Online. We will make our roadmap available, so customers can assess Teams for their business needs. 
+Meeting room devices are critical to our vision for the modern workplace. Cloud video interoperability services to support Teams meetings with existing VTC systems are underway, with offerings from Pexip, Polycom, and Blue Jeans to be generally available in the fall. Customers can continue to use Polycom Real Connect for Office 365 with Skype for Business Online. 
 
-### Will the latest generation of Skype Room Systems (V2) support meetings in Teams?
+### Will the latest generation of Skype Room Systems (v2) support meetings in Teams?
 
-Meeting room devices are critical to our vision for the modern workplace and we continue our momentum with Skype Room Systems. Initially, Skype Room Systems will support single-click join to Teams meetings and most Skype Room Systems features except for dual screen support and panoramic video devices. Dual screens and panoramic devices are planned for later releases. 
+Meeting room devices are critical to our vision for the modern workplace, and we continue our momentum with Skype Room Systems. A Skype Room Systems update is now available to join Teams meetings, in addition to the ability for users to identify nearby Skype Room Systems with proximity detection. Dual screens and panoramic devices are planned for later releases.
 
 ### Will Skype Room Systems V1 be updated to support Teams meetings?
 
-Meeting room devices are critical to our vision for the modern workplace. Skype Room Systems v1 (aka Lync Room Systems) will have an upgrade available which will allow these devices to join Teams Meetings. As part of that upgrade process, we will also upgrade these devices from Windows 7 to Windows 10 to further secure the devices. For those devices using touch screens, you will lose access to touch features and features such as inking, PowerPoint annotation, and Whiteboarding, and front of room touch to start a meeting will stop working. 
+Meeting room devices are critical to our vision for the modern workplace. Skype Room Systems v1 (also known as Lync Room Systems) will have an upgrade available that will allow these devices to join Teams Meetings. As part of that upgrade process, we’ll also upgrade these devices from Windows 7 to Windows 10 to further secure the devices. For those devices that use touchscreens, you’ll lose access to touch features and features such as inking, PowerPoint annotation, and Whiteboarding, and front-of-room touch to start a meeting will stop working. 
 
 ## Management capabilities
 
-### What is planned for new Management experiences?
+### What’s planned for new management experiences?
 
-Microsoft plans to launch a new administration portal for IT Pros within the Office 365 Admin Center. Like the Skype for Business Admin Console, this new portal will be a single place to administer our new experiences. The initial release of the portal, targeted for the first quarter of 2018, is designed to support Administration through an enterprise-ready policy model for Teams-only customers, replacing the existing administration interface for Teams. With this portal, we will be able to create custom presence, chat, app, meeting and voice policies and assign those policies to Teams users. 
+Microsoft has launched the [Microsoft Teams & Skype for Business Admin Center](https://admin.teams.microsoft.com/) for IT pros within the Office 365 Admin Center. Like the Skype for Business Admin Console, this new portal will be a single place to administer our new experiences. The initial release of the portal, targeted for the first quarter of 2018, is designed to support administration through an enterprise-ready policy model for Teams-only customers, replacing the existing administration interface for Teams. With this portal, we’ll be able to create custom presence, chat, app, meeting, and voice policies and assign those policies to Teams users.  
 
 ## Device compatibility
 
 ### Can I use Teams on Surface Hub?
 
-Many of the Teams experiences work on Surface Hub today through the Edge browser. Sign in from the Welcome screen on your Surface Hub, open Edge, and type **teams.microsoft.com** to access your teams, channels, documents, conversations, and meetings. Surface Hub supports Teams meetings, and we look forward to sharing more details in the future on additional integrated Teams experiences on Surface Hub. 
+A preview of the Teams app for Surface Hub that supports Teams meetings is now available in the Microsoft Store. In addition, many of the Teams experiences work on Surface Hub today through the Microsoft&nbsp;Edge browser. Sign in from the Welcome screen on your Surface Hub, open Microsoft&nbsp;Edge, and type **teams.microsoft.com** to access your teams, channels, documents, conversations, and meetings. 
 
 ### Will certified Skype for Business online phones work with Teams?
 
-For all questions related to phone compatibility, see the [Certified Skype for Business Online Phones and what this means for Teams blog](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/bc-p/125309). 
+Customers can use existing Skype for Business–certified SIP-based phones with Teams via the Teams Conferencing Gateway. In addition, with USB HID Support for Teams, customers can use call control capabilities such as mute, unmute, answer, and volume up/down with USB peripheral devices. For all questions related to phone compatibility, see the blog post [Certified Skype for Business Online Phones and what this means for Teams](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/bc-p/125309).
