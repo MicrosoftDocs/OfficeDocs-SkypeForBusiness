@@ -17,10 +17,10 @@ description: "Summary: Explore these links to learn how to implement Skype for B
 [!INCLUDE [disclaimer](disclaimer.md)]
 
 * * *
-| | | |
-|:--- |:--- |:--- |
-|**[Plan](plan/plan-your-deployment-2019.md)**|**[Hybrid solutions](hybrid/hybrid-solutions.md)**|**[Deploy](deploy/deploy-over-2019.md)**|
-|**[Upgrade](migration/migration-to-skype-for-business-server-2019.md)**|**[Manage](../SfbServer/manage/manage.md)**| |
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+|:--- |:--- |:---: |
+|![Plan](media/icon-plan.png)<br> &nbsp;&nbsp;&nbsp;**[Plan](plan/plan-your-deployment-2019.md)**|![Hybrid](media/icon-hybrid.png)<br>  **[Hybrid solutions](hybrid/hybrid-solutions.md)**|![Deploy](media/icon-deploy.png)<br>  **[Deploy](deploy/deploy-over-2019.md)**|
+|![Upgrade](media/icon-upgrade.png) <br> **[Upgrade](migration/migration-to-skype-for-business-server-2019.md)**|![Manage](media/1-2-3-icon.png) <br> **[Manage](../SfbServer/manage/manage.md)**| |
 | | | |
 * * *
 ### Featured articles
