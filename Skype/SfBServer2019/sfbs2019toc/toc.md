@@ -1,4 +1,5 @@
 # [Skype for Business Server 2019](../skype-for-business-server-2019.md)
+## [Technical diagrams for Skype for Business Server](../../SfbServer/technical-diagrams.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ## [What's new](../whats-new.md)
 ## [What's deprecated](../deprecated.md)
 
