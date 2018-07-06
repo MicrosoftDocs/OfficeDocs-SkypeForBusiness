@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-<a name="about-upgrade-essentials"></a>
+<a name="about-upgrade-basic"></a>
 # Upgrade Basic 
 
 Designed for smaller organizations or those using Skype for Business Online for IM (chat) and meetings only, the Upgrade Basic checklist is an accelerated action plan that includes core, recommended activities and associated resources for implementing a successful move from Skype for Business to Teams.
@@ -43,9 +43,9 @@ Senior leaders are accountable for company success; be sure to keep them in the 
 
 **Resources:**
 
--   [Sample email: stakeholder communication](#step-1-email)
+-   [Sample email: stakeholder communication](upgrade-emails-surveys.md#step-1-email)
  
-[Return to top](#about-upgrade-essentials)
+[Return to top](#about-upgrade-basic)
 
 <a name="step-2"></a>
 
@@ -65,7 +65,7 @@ Teams offers compatible Skype for Business functionality—such as IM (chat) and
 -   [Complete technical planning](quick-start-enable-teams.md#step-3-complete-technical-planning)
 -   [Manage Skype Room Systems](https://aka.ms/srsdocs)
 
-[Return to top](#about-upgrade-essentials)
+[Return to top](#about-upgrade-basic)
 
 <a name="step-3"></a>
 
@@ -79,7 +79,7 @@ Users who are deeply adopted on Skype for Business might need a little more time
 
 -   [See usage data in activity reports in Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
-[Return to top](#about-upgrade-essentials)
+[Return to top](#about-upgrade-basic)
 
 <a name="step-4"></a>
 
@@ -96,9 +96,9 @@ Providing ample notice to your users will give them time to get familiar with Te
 
 -   [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 -   [Manage Teams features in your organization](enable-features-office-365.md)
--   [Sample email: announcement to users about Skype for Business](#step-4-email)
+-   [Sample email: announcement to users about Skype for Business](upgrade-emails-surveys.md#step-4-email)
 
-[Return to top](#about-upgrade-essentials)
+[Return to top](#about-upgrade-basic)
 
 <a name="step-5"></a>
 
@@ -111,7 +111,7 @@ Maintain upgrade momentum by enabling the user upgrade notification via the admi
 
 -   [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
-[Return to top](#about-upgrade-essentials)
+[Return to top](#about-upgrade-basic)
 
 <a name="step-6"></a>
 
@@ -122,9 +122,9 @@ Users are busy with their daily responsibilities. Reminding them of the pending 
 
 **Resources:**
 
--   [Sample email: remind users to get started with Teams](#step-6-email)
+-   [Sample email: remind users to get started with Teams](upgrade-emails-surveys.md#step-6-email)
 
-[Return to top](#about-upgrade-essentials)
+[Return to top](#about-upgrade-basic)
 
 <a name="step-7"></a>
 
@@ -139,9 +139,9 @@ We recommend that after everyone has been upgraded, you send an email welcoming 
 **Resources:**
 
 -   [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
--   [Sample email: welcome users to Teams](#step-7-email)
+-   [Sample email: welcome users to Teams](upgrade-emails-surveys.md#step-7-email)
 
-[Return to top](#about-upgrade-essentials)
+[Return to top](#about-upgrade-basic)
 
 <a name="step-8"></a>
 
@@ -155,7 +155,7 @@ Adjusting to a new technology can take some time. Check usage to verify that use
 
 -   [See usage data](https://portal.office.com/AdminPortal/Home#/reportsUsage)
 
-[Return to top](#about-upgrade-essentials)
+[Return to top](#about-upgrade-basic)
 
 <a name="step-9"></a>
 
@@ -167,9 +167,9 @@ Employee satisfaction can influence productivity, retention, and—ultimately—
 
 **Resources:**
 
--   [Sample email: check in with users](#step-9-email), plus [user surveys](#step-9-surveys)
+-   [Sample email: check in with users](upgrade-emails-surveys.md#step-9-email), plus [user surveys](upgrade-emails-surveys.md#step-9-surveys)
 
-[Return to top](#about-upgrade-essentials)
+[Return to top](#about-upgrade-basic)
 
 <a name="step-10"></a>
 
@@ -180,10 +180,11 @@ After users are comfortable with IM (chat) and meetings in Teams, encourage them
 
 **Resources:**
 
--   [Sample email: encourage users to explore Teams further](#step-10-email)
+-   [Sample email: encourage users to explore Teams further](upgrade-emails-surveys.md#step-10-email)
 
-[Return to top](#about-upgrade-essentials)
+[Return to top](#about-upgrade-basic)
 
+<!--
 ## Sample emails
 
 <a name="step-1-email"></a>
@@ -387,3 +388,4 @@ Indicate how skilled you are at performing the following activities in Teams and
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
 [Return to step 9](#step-9)
+-->
