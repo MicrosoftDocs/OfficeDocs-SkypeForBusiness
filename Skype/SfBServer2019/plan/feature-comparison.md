@@ -207,7 +207,7 @@ This table covers features related to support for recording meetings.
 
 This table covers features requiring support for modern authentication. 
   
-Modern authentication also requires a topology described in [Skype for Business topologies supported with Modern Authentication](../../plan-your-deployment/modern-authentication/topologies-supported.md).
+Modern authentication also requires a topology described in [Skype for Business topologies supported with Modern Authentication](../../SfbServer/plan-your-deployment/modern-authentication/topologies-supported.md).
   
 
  | Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Lync 2013 client | 
@@ -276,5 +276,6 @@ User accounts can exist either Online or On-premises, and that will affect the f
 ## See also
 <a name="Types"> </a>
 
-[Plan for clients and devices](clients-and-devices.md)
+[Plan for clients and devices](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)
+
 
