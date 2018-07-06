@@ -1,5 +1,5 @@
 ---
-title: "Configure federation with Skype for Business Online"
+title: "Configure Skype for Business hybrid"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -18,6 +18,8 @@ description: "Summary: Learn how to configure interoperability between your on-p
 **Summary:** Learn how to configure interoperability between your on-premises deployment and Skype for Business Online.
   
 Follow the steps in this section to configure interoperability between your on-premises deployment and Skype for Business Online.
+
+List BJ's three steps:
   
 ## Configure your on-premises Edge service for federation with Skype for Business Online
 
@@ -73,3 +75,7 @@ For more information about how to establish a remote PowerShell session with Sky
 
 [New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
 
+
+Configure federation on prem
+Configure shared address space on prem
+Configure shared address space online

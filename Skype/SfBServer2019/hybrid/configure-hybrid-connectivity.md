@@ -30,8 +30,31 @@ The following table lists the steps required to prepare your environment for a h
 |Prepare for Active Directory synchronization  <br/> |Active Directory synchronization keeps your on-premises Active Directory continuously synchronized with Office 365. This lets you create synchronized versions of each user account and group, and also enables global address list (GAL) synchronization from your local Microsoft Exchange Server environment to Microsoft Exchange Online. For more information, see [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect).  <br/>  **Important:** You need to synchronize the AD accounts for all Skype for Business users in your organization between your on-premises and online deployments, even if users are not moved to Skype for Business Online. If you do not synchronize all users, communication between on-premises and online users in your organization may not work as expected.           |
 |Move pilot users  <br/> |After you have completed the steps to prepare and configure your environment for Skype for Business Online, you can start moving pilot users to your online Office 365 tenant. See [Move users from on premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md).  <br/> |
 
-   
+   NOTES FROM BJ:
+TABLE
 
+Between AD sync and Move pilot users, there is configure SKype for Business hybrid - three steps...
 
+After configure Skype hybrid
 
+Configure authentication if necessary... GO here to find out....
 
+Then clean up auth topic....
+
+Manage server to server auth (OAuth) and partner apps in SfB Server...   Point to this topic in configure hybrid TOC...
+
+Exchange Online or SfB Online with online
+
+Skype on prem to Skype online
+
+We need a version of above topic cleaned up...  
+
+Tracy's topic should be under hybrid planning...    or hybrid configuration....     
+
+Should all auth topics go under modern auth....
+
+Add authentication node to Hybrid solutions  include modern auth....  
+
+Only the server to server is on prem online....   
+
+Manage server-to-server auth and partner apps.... hybrid

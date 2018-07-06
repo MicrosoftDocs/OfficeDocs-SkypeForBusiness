@@ -28,3 +28,4 @@ If you want to use an Audio Conferencing Provider (ACP) in your hybrid deploymen
     The ACP partner needs to configure federation to add your on-premises domain as an Allowed Partner Server by adding the FQDN of your Edge Server pool as an allowed Federated domain.
     
 
+Notes from BJ:  Legacy concept...   Teams doesn't support ACP....      

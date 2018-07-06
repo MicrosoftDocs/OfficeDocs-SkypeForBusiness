@@ -24,7 +24,7 @@ Read this topic to learn how to plan hybrid connectivity between Skype for Busin
 
 Hybrid solutions enable you to retain some on-premises control while also taking advantage of online services provided in the Microsoft cloud. With hybrid connectivity set up, and a variety of cloud services available to your online and on-premises users, you can choose to move your users to the cloud based on your schedule and business need.
 
- You might choose to get call control through Microsoft Phone System in the cloud, for example, while retaining your on-premises PSTN connectivity. Both your online and on-premises users can take advantage of some cloud services, such as Cloud Voicemail. For more information about all Skype for Business and Teams hybrid solutions available to you, see Hybrid solutions.  
+You might choose to get call control through Microsoft Phone System in the cloud, for example, while retaining your on-premises PSTN connectivity. Both your online and on-premises users can take advantage of cloud services, such as Cloud Voicemail. For more information about all Skype for Business and Teams hybrid solutions available to you, see Hybrid solutions.  
   
 This topic describes the infrastructure and system requirements you'll need to configure hybrid connectivity between your existing on-premises Skype for Business Server deployment--with users who were created in your on-premises Active Directory--and Skype for Business Online or Teams. 
     
@@ -41,12 +41,11 @@ This type of configuration is sometimes referred to as "split domain"--meaning u
 
 ![SfB Hybrid connectivity - split domain](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
-
-**ARE ALL THE FOLLOWING TRUE??**
+With a split domain environment:
   
 - Users who are homed on premises interact with on premises Skype for Business servers.  They might also have access to online services, such as Cloud Voicemail.  
     
-- Users who are homed online interact with Skype for Business or Teams online services.
+- Users who are homed online may interact with Skype for Business or Teams online services.
     
 - Users from both environments can collaborate with each other by using Instant Messaging, participating in conference calls, VoIP calls, and so on.
     
@@ -54,24 +53,21 @@ This type of configuration is sometimes referred to as "split domain"--meaning u
     
 The on-premises Active Directory is authoritative, which means that you must do the following to ensure that on-premises and online users are discoverable to one another:
   
-- All users should be created in the on-premises Active Directory first, and then synchronized to Azure AD.   **TRUE??**
+- All users should be created in the on-premises Active Directory first, and then synchronized to Azure AD.  
+
+- Users who are moving to the cloud must have either a Skype for Business Plan 2 or Teams license. 
     
-- If your users are homed on premises for Skype for Business, then you need to enable them for Skype for Business on premises.
-    
-- If your users are homed on premises, but want to take advantage of some online features, such as Skype Meeting Broadcast or Cloud Voicemail, you need to assign them a Skype for Business Online plan 2 license.   **IS THIS TRUE??**
-    
-- If your users are homed in Skype for Business Online, once their account is synchronized to Azure AD, you need to assign them a Skype for Business Online plan 2 license. 
+- If your users want to take advantage of additional online features, such as Skype Meeting Broadcast or Cloud Voicemail, you need to assign them the appropriate license in Office 365.  
     
 - After Skype for Business Online users are assigned a license, you need to enable them for Skype for Business or for Enterprise Voice on premises. For more information, see [Enable the users for Enterprise Voice on premises](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). For more information about hybrid voice requirements, see [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
 
-- **WHAT ABOUT TEAMS?** If you want move your users to Teams, you still need to enable hybrid connectivity as described, including setting up Skype for Business Online accounts, and then migrate your users to Teams.  For more information, see Migrate on-premises users to Teams.  **IS THIS HOW IT WORKS?**
     
 
   
 ## Infrastructure requirements
 <a name="BKMK_Infrastructure"> </a>
 
-To implement and deploy hybrid connectivity between Skype for Business Server and Skype for Business Online, you must configure the following in your environment:
+To implement hybrid connectivty between your on-premises environment and Office 365 communication services, you need to configure the following between Skype for Business Server and Skype for Business Online.  After you configure hybrid connectivity, you can move users to Skype for Business Online or Teams.
   
 - A single on-premises deployment of Skype for Business Server or Lync Server that is deployed in a supported topology. See [Topology requirements](plan-hybrid-connectivity.md#BKMK_Topology) in this topic.
     
@@ -250,13 +246,8 @@ When you synchronize user accounts between your on-premises deployment and onlin
   
 > [!IMPORTANT]
 > If the user was created by using the online portal for Office 365, the user account will not be synchronized with on-premises Active Directory, and the user will not exist in the on-premises Active Directory. If you have already created users in your online tenant, and want to configure hybrid with an on-premises deployment, see Move users from online to on premises. 
- 
-
-**IS THE FOLLOWING STILL TRUE?? DO WE NEED THE REFERENCED TOPIC??** 
-> [!NOTE]
-> If you are currently a Skype for Business Online customer who has users enabled for Skype for Business Online who have not been enabled in an on-premises deployment, see [Move users from Skype for Business Online to on premises](../../SfbServer/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-skype-for-business-online-to-on-premises.md). 
   
-You should also consider the following user-related issues when planning for a hybrid deployment.
+You should also consider the following user-related issues when planning for a hybrid deployment:
   
 - **User contacts** The limit for contacts for Lync Online users is 250. Any contacts beyond that number will be removed from the user's contact list when the account is moved to Lync Online.
     
@@ -272,4 +263,3 @@ You should also consider the following user-related issues when planning for a h
 - **Client support** Some users may require a new client version when they are moved to Skype for Business Online. For Office Communications Server 2007 R2, users must be moved to a Skype for Business Server or Lync Server 2013 pool prior to migration to Skype for Business Online.
     
 - **On-premises policies and configuration (non-user)** Online and on-premises policies require separate configuration. You cannot set global policies that apply to both.
-    
