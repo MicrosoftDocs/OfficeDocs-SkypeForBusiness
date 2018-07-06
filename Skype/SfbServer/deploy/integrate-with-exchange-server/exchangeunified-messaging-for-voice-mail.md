@@ -1,5 +1,5 @@
 ---
-title: "Configure Exchange Server Unified Messaging for Skype for Business Server 2015 voice mail"
+title: "Configure Exchange Server Unified Messaging for Skype for Business Server voice mail"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,16 +13,16 @@ ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: "Summary: Configure Exchange Server Unified Messaging for Skype for Business Server voice mail."
 ---
 
-# Configure Exchange Server Unified Messaging for Skype for Business Server 2015 voice mail
+# Configure Exchange Server Unified Messaging for Skype for Business Server voice mail
  
 **Summary:** Configure Exchange Server Unified Messaging for Skype for Business Server voice mail.
   
-Skype for Business Server 2015 enables you to have voicemail messages stored in Exchange Server 2016 or Exchange Server 2013; those voicemail messages will then appear as email messages in your users' Inboxes. 
+Skype for Business Server enables you to have voicemail messages stored in Exchange Server 2016 or Exchange Server 2013; those voicemail messages will then appear as email messages in your users' Inboxes. 
 
 > [!NOTE]
-> Exchange Unified Messaging as previously known is no longer available in Skype for Business Server 2019, which uses Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) for more information.
+> Exchange Unified Messaging as previously known is no longer available in Exchange 2019, but you can still use Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) for more information.
   
-If you have already configured server-to-server authentication between Skype for Business Server 2015 and Exchange Server 2016 or Exchange Server 2013, then you are ready to setup unified messaging. To do so, you must first create and assign a new unified messaging dial plan on your Exchange Server. For example, these two commands (run from within the Exchange Management Shell) configure a new 3-digit dial plan for Exchange:
+If you have already configured server-to-server authentication between Skype for Business Server and Exchange Server 2016 or Exchange Server 2013, then you are ready to setup unified messaging. To do so, you must first create and assign a new unified messaging dial plan on your Exchange Server. For example, these two commands (run from within the Exchange Management Shell) configure a new 3-digit dial plan for Exchange:
   
 ```
 New-UMDialPlan -Name "RedmondDialPlan" -VoIPSecurity "Secured" -NumberOfDigitsInExtension 3 -URIType "SipName" -CountryOrRegionCode 1
