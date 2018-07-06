@@ -13,11 +13,11 @@ description: "Instructions for implementing  hybrid connectivity between Skype f
 
 ---
 
-# Configure hybrid connectivity between Skype for Business Server and Skype for Business Online
+# Configure hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams
  
-**Summary:** Read this topic to learn how to deploy hybrid connectivity between Skype for Business Server and Skype for Business Online.  Hybrid connectivity enables you to move your on-premises users to Skype for Business Online or Teams, and enables your users to take advantage of cloud services.
+**Summary:** Read this topic to learn how to deploy hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams.  Hybrid connectivity enables you to move your on-premises users to Skype for Business Online or Teams, and enables your users to take advantage of cloud services.
   
-Before performing the steps in this topic, you should have read [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](plan-hybrid-connectivity.md).
+Before performing the steps in this topic, you should have read [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams](plan-hybrid-connectivity.md).
   
 The following table lists the tasks required to configure Skype for Business hybrid connectivity, and provides links to the associated articles for more information.
   

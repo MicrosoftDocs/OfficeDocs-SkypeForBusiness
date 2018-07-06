@@ -61,13 +61,11 @@ The on-premises Active Directory is authoritative, which means that you must do 
     
 - After Skype for Business Online users are assigned a license, you need to enable them for Skype for Business or for Enterprise Voice on premises. For more information, see [Enable the users for Enterprise Voice on premises](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). For more information about hybrid voice requirements, see [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
 
-    
-
   
 ## Infrastructure requirements
 <a name="BKMK_Infrastructure"> </a>
 
-To implement hybrid connectivty between your on-premises environment and Office 365 communication services, you need to meet the following infrastructure requirements. After you configure hybrid connectivity, you can move users to Skype for Business Online or Teams. For more information about the steps required to configure hybrid connectivity, see [Configure hybrid connectivity](configure-hybrid-connectivity.md).
+To implement hybrid connectivty between your on-premises environment and Office 365 communication services, you need to meet the following infrastructure requirements. 
   
 - A single on-premises deployment of Skype for Business Server or Lync Server that is deployed in a supported topology. See [Topology requirements](plan-hybrid-connectivity.md#BKMK_Topology) in this topic.
     
@@ -81,6 +79,10 @@ To implement hybrid connectivty between your on-premises environment and Office 
 - Azure Active Directory Connect to synchronize your on-premises directory with Office 365. For more information, see [Azure AD Connect: Accounts and permissions](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
     
     To support Single Sign-on with Office 365 so that users can use the same login credentials as they do for on premises, you can use the password sync features of Azure Active Directory (AAD) Connect. You can also use Active Directory Federation Services (AD FS) for single sign-on with Office 365. 
+
+To configure hybrid connectivity, you will also need to set up federation between your on-premises and online environments, and configure your Skype for Business Online tenant for a shared Session Initiation Protocol (SIP) address space. For more information about the steps required to configure hybrid connectivity, see [Configure hybrid connectivity](configure-hybrid-connectivity.md). 
+
+After you configure hybrid connectivity, you can move users to Skype for Business Online or Teams. For more information, see [Move users from on premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md) and [Move users from on premises to Teams](move-users-from-on-premises-to-teams.md).
     
 ## Multi-forest support
 <a name="BKMK_MultiForest"> </a>
