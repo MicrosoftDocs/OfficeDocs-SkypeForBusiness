@@ -28,19 +28,23 @@ New features in Skype for Business Server 2019 include the following:
   
 New features in Skype for Business Server 2015 include improvements to:
 
-- Manageability
-- Mobile support
+- Unified Messaging
 - Management of on-premises servers
 - Deployment and management of hybrid solutions
-- Multi-factor authentication support
 
-  
-## Manageability
 
-Skype for Business Server 2019 now allows you to forward call quality and analytics data to the Skype for Business Online Call Quality Dashboard, where you can monitor either data set from the same interface. See [Plan Call Data Connector](hybrid/plan-call-data-connector.md) for more information.
-  
 ## Unified messaging services
 
 Due to changes in support in Exchange 2019, Exchange UM integration is being de-emphasised in favor of Cloud Voicemail and Cloud Auto Attendant features. Exchange UM remains available when you integrate Skype for Business 2019 with Exchange 2013 or Exchange 2016. See [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md) and [Plan for Skype for Business Server and Exchange Server migration](hybrid/plan-um-migration.md) for more information.
 
+  
+## Management of on-premises servers
 
+Skype for Business Server 2019 now allows you to forward call quality and analytics data to the Skype for Business Online Call Quality Dashboard, where you can monitor either data set from the same interface. See [Plan Call Data Connector](hybrid/plan-call-data-connector.md) for more information.
+  
+## Deployment and management of hybrid solutions
+Skype for Business Server 2019 can integrate with Skype for Business Online or Teams, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams](hybrid/plan-hybrid-connectivity.md) for more information.
+
+### See also
+
+[What's deprecated from Skype for Business Server 2019](deprecated.md)
