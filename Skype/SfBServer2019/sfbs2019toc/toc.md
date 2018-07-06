@@ -6,9 +6,9 @@
 ## [Hybrid solutions](../hybrid/hybrid-solutions.md)
 ### [Plan hybrid connectivity](../hybrid/plan-hybrid-connectivity.md)
 ### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity.md)
-#### [Configure federation with Skype for Business Online](../hybrid/configure-federation-with-skype-for-business-online.md)
+#### [Configure Skype for Business hybrid](../hybrid/configure-federation-with-skype-for-business-online.md)
 #### [Configure federation for an audio conferencing provider](../hybrid/configure-federation-for-an-audio-conferencing-provider.md) 
-#### [Configure server-to-server authentication](../../SfbServer/manage/authentication/configure-a-hybrid-environment.md)
+#### [Configure server-to-server authentication](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md)
 #### [Configure a multi-forest environment](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [Move users from on-premises to Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
 ### [Move users from on-premises to Teams](../hybrid/move-users-from-on-premises-to-teams.md)
@@ -18,7 +18,6 @@
 ### Call Data Connector
 #### [Plan Call Data Connector](../hybrid/plan-call-data-connector.md)
 #### [Configure Call Data Connector](../hybrid/configure-call-data-connector.md)
-
 
 ## [Plan](../plan/plan-your-deployment-2019.md)
 ### [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
