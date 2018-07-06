@@ -15,6 +15,9 @@ appliesto:
 - Microsoft Teams
 ---
 
+# Sample emails and surveys for Upgrade Basic communications
+
+<!-- 
 <a name="about-upgrade-basic"></a>
 # Upgrade Basic 
 
@@ -183,8 +186,8 @@ After users are comfortable with IM (chat) and meetings in Teams, encourage them
 -   [Sample email: encourage users to explore Teams further](upgrade-emails-surveys.md#step-10-email)
 
 [Return to top](#about-upgrade-basic)
+-->
 
-<!--
 ## Sample emails
 
 <a name="step-1-email"></a>
@@ -388,4 +391,3 @@ Indicate how skilled you are at performing the following activities in Teams and
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
 [Return to step 9](#step-9)
--->
