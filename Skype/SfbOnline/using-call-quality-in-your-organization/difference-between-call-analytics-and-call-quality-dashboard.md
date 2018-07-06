@@ -22,15 +22,19 @@ description: "Learn about Call Analytics and Call Quality Dashboard and when to 
 
 # Call Analytics and Call Quality Dashboard
 
-Skype for Business gives you two ways to monitor and troubleshoot call-quality problems: Call Analytics and Call Quality Dashboard. This article describes both and tells you when to use each one.
+Microsoft Teams and Skype for Business give you two ways to monitor and troubleshoot call-quality problems: Call Analytics and Call Quality Dashboard. This article describes both and tells you when to use each one.
   
 > [!NOTE]
-> Call Analytics is currently in preview. Text and images described here may not match your experience. 
+> Call Analytics is now available in the Microsoft Teams and Skype for Business admin center at https://admin.teams.microsoft.com. 
+> Only last 30 days of data is available in Call Analytics.
   
 ## What's Call Analytics, and when should I use it?
 
-Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user in a Skype for Business account. If you're a Skype for Business admin, you can use Call Analytics to troubleshoot Skype for Business call quality and connection problems.
-  
+Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user in a Microsoft Teams or Skype for Business account. If you're an Office 365 admin, you can use Call Analytics to troubleshoot call quality and connection problems in Microsoft Teams and Skype for Business.
+
+> [!NOTE]
+> Helpdesk agent permissions and network topology upload will be available in the new admin portal in the coming months.
+
 If you want non-admins, such as helpdesk agents from an external vendor, to use Call Analytics, you can assign permissions so that they can use Call Analytics but they can't access the rest of the Skype for Business Admin center: 
   
 - **Helpdesk agents with Tier 1 permissions**: Agents see a limited set of data and personally identifiable information (PII) in Call Analytics. They can troubleshoot calls, but they will hand off problems with meetings to a Tier 2 agent.
@@ -41,7 +45,7 @@ For details about setting up Call Analytics, see [Set up Skype for Business Call
   
 ## What's the Call Quality Dashboard, and when should I use it?
 
-Call Analytics gives you detailed, specific information about the call quality experienced by users. Why did user Tony Smith have a poor call this afternoon? Using Call Analytics, a Skype for Business admin or trained helpdesk agent can investigate the device, network, connectivity, and other factors related to Tony's call.
+Call Analytics gives you detailed, specific information about the call quality experienced by users. Why did user Tony Smith have a poor call this afternoon? Using Call Analytics, a Microsoft Teams or Skype for Business admin or trained helpdesk agent can investigate the device, network, connectivity, and other factors related to Tony's call.
   
 Where CA is designed to help admins and helpdesk agents troubleshoot call quality problems with specific calls, the Call Quality Dashboard (CQD) is designed to help Skype for Business admins and network engineers optimize a network. CQD shifts focus from specific users and instead looks at aggregate information for an entire Skype for Business organization. 
   

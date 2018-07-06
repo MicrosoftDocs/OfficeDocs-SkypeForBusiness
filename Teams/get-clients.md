@@ -3,7 +3,7 @@ title: Get clients for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/27/2018
+ms.date: 07/05/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,19 +18,9 @@ appliesto:
 
 Get clients for Microsoft Teams 
 ===========================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Microsoft Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode.
+Microsoft Teams has clients available for desktop (Windows and Mac), web, and mobile (Android,  iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode.
 
-Web client 
-----------
-
-The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. The web client supports Calling and Meetings by using webRTC, so there is no plug-in or download required to run Teams in a web browser. The browser must be configured to allow third-party cookies. 
-
-[!INCLUDE [browser-support](includes/browser-support.md)]
-
-The web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) and if an unsupported browser version is detected, it will block access to the web interface and recommend that the user download the desktop client or mobile app. and 
 Desktop client
 --------------
 
@@ -40,13 +30,12 @@ The desktop clients provide real-time communications support (audio, video, and 
 
 Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions (admin rights are not required to install the Teams client on a PC but are required on a Mac).
 
-IT admins can choose their preferred method to distribute the installation files to machines in their organization such as System Center Configuration Manager (Windows) or Casper Suite (MacOS). To get the MSI Package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).
+IT admins can choose their preferred method to distribute the installation files to computers in their organization, such as System Center Configuration Manager (Windows) or Casper Suite (MacOS). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).
 
 > [!NOTE]
 > Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.
 
-
-#### Windows
+### Windows
 
 The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture.
 
@@ -55,22 +44,50 @@ The Microsoft Teams installation for Windows provides downloadable installers in
 
 The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client is installed in the following locations:
 
--   %appdata%\\local\\Microsoft\\Teams
+- %appdata%\\local\\Microsoft\\Teams
 
--   %appdata%\\roaming\\Microsoft\\Teams
+- %appdata%\\roaming\\Microsoft\\Teams
 
-When users initiate a call using the Microsoft Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication. Users may be instructed to ignore this message because the call will work, even when the warning is dismissed.
+When users initiate a call using the Microsoft Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication. Users might be instructed to ignore this message because the call will work, even when the warning is dismissed.
 
 ![Screenshot of a Windows Security Alert dialog.](media/Get_clients_for_Microsoft_Teams_image3.png)
-
 
 > [!NOTE]
 > Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.
 
-#### Mac
+### Mac
 
-Microsoft also provides a DMG installation file for Mac OSX computers. Administrative access is required to install the Mac client. The Mac OSX client is installed to the /Applications folder.
+Mac users can install Teams by using a PKG installation file for Mac OSX computers. Administrative access is required to install the Mac client. The Mac OSX client is installed to the /Applications folder.
 
+#### Install Teams by using the PKG file
+
+1. From the [Teams download page](https://teams.microsoft.com/downloads), under **Mac**, click **Download**.
+2. Double click the PKG file.
+3. Follow the installation wizard to complete the installation.
+4. Teams will be installed to /Applications folder. It is a machine-wide installation.
+
+> [!NOTE]
+> During the installation, the PKG will prompt for admin credentials. The user needs to enter the admin credentials, regardless of whether or not the user is an admin.
+
+If a user currently has a DMG installation of Teams and wants to replace it with the PKG installation, the user should:
+
+1. Exit the Teams app.
+2. Uninstall the Teams app.
+3. Install the PKG file.
+
+IT admins can use managed deployment of Teams to distribute the installation files to all Macs in their organization, such as Casper Suite.
+
+> [!NOTE]
+> If you experience issues installing the PKG, let us know. In the **Feedback** section at the end of this article, click **Product feedback**.
+
+Web client 
+----------
+
+The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. The web client supports Calling and Meetings by using webRTC, so there is no plug-in or download required to run Teams in a web browser. The browser must be configured to allow third-party cookies. 
+
+[!INCLUDE [browser-support](includes/browser-support.md)]
+
+The web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it will block access to the web interface and recommend that the user download the desktop client or mobile app.
 
 Mobile clients
 --------------

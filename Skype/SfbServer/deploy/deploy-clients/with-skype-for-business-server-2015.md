@@ -16,12 +16,12 @@ description: "Read this topic for information on how to deploy Skype Room System
 ---
 
 # Deploy Skype Room Systems v2 with Skype for Business Server 2015
- 
-Read this topic for information on how to deploy Skype Room Systems v2 with Skype for Business Server 2015.
   
 This topic explains how you add a device account for Skype Room Systems v2 when you have a single-forest, on-premises deployment.
   
 If you have a single-forest, on-premises deployment with Exchange 2013 SP1 or later and Skype for Business Server 2015 or later, then you can use the provided Windows PowerShell scripts to create device accounts. If you're using a multi-forest deployment, you can use equivalent cmdlets that will produce the same results. Those cmdlets are described in this section.
+
+The easiest way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts. If you prefer, you can follow the steps below to configure accounts your Skype Room Systems v2 device will use.
   
 ## Deploy Skype Room Systems v2 with Skype for Business Server 2015
 
@@ -118,6 +118,8 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 ```
 
 ## See also
+
+[Configure accounts for Skype Room Systems v2](room-systems-v2-configure-accounts.md)
 
 [Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

@@ -51,7 +51,7 @@ description: "The relevant planning considerations for deploying Skype Room Syst
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_tasks.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="Tasks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -69,7 +69,7 @@ description: "The relevant planning considerations for deploying Skype Room Syst
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_deploy.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -87,7 +87,7 @@ description: "The relevant planning considerations for deploying Skype Room Syst
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_management.svg" alt="Manage" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Manage" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -103,4 +103,7 @@ description: "The relevant planning considerations for deploying Skype Room Syst
 > [!NOTE]
 > Skype Room Systems v2 is intended for use with Skype for Business Server 2015 or Skype for Business Online. Microsoft Teams support is coming very soon. <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Skype Room Systems v2. 
 
-These articles are intended for people tasked with planning, deploying, and managing Skype Room Systems v2 devices, and not for the users of the system. Users will be more interested in the [online help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+These articles are intended for people tasked with planning, deploying, and managing these devices, and not for the users of the system. Users will be more interested in the Skype Room Systems v2 [online help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+
+> [!NOTE]
+> Skype Room System and Skype Room Systems v2 are different products with different dependencies and deployment procedures. 
