@@ -123,11 +123,11 @@ There will be no change in the coverage for Audio Conferencing as a result of it
 
 [//]: # (SELF, look above)
 
-### Are third-party Audio Conferencing Providers (ACP) supported in Teams?
+### Are third-party audio conferencing providers (ACP) supported in Teams?
 
-There are no plans to support 3rd party audio conferencing providers (ACP) in Teams. We believe the best audio conferencing experience for customers using Teams and Skype for Business will be using our Audio Conferencing services in Office 365 (formerly PSTN Conferencing). Customers needing to leverage our ACP support in Skype for Business meetings can continue to use their Skype for Business client. Meetings scheduled within the Teams client will only support the Audio Conferencing services of Office 365.
+There are no plans to support third-party audio conferencing providers (ACP) in Teams. We believe the best audio conferencing experience for customers using Teams and Skype for Business will be using our Audio Conferencing services in Office 365 (formerly PSTN Conferencing). Customers needing to leverage our ACP support in Skype for Business meetings can continue to use their Skype for Business client. Meetings scheduled within the Teams client will only support the Audio Conferencing services of Office 365.
 
-### What is the plan for video interoperability support for Teams meetings?
+### What’s the plan for video interoperability support for Teams meetings?
 
 Meeting room devices are critical to our vision for the modern workplace. We announced on September 25 at Ignite that we are working with Blue Jeans, Pexip, and Polycom to deliver cloud video interoperability with Teams. Customers can continue to use Polycom Real Connect for Office 365 with Skype for Business Online. We will make our roadmap available, so customers can assess Teams for their business needs. 
 
