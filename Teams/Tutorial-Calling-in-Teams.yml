@@ -42,8 +42,6 @@ items:
 
         - Post in the comments section at the bottom of the 'next steps' page of this tutorial</a>
     
-        - Email us at [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Calling)
-    
         To give us product feedback about Teams, such as ideas for new features, please visit [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: What is calling in Teams?
   durationInMinutes: 15
@@ -730,7 +728,6 @@ items:
     2.  Start your Phone System deployment for Teams
     3.  Send us feedback:
         - Post in the comments section at the bottom of this page.
-        - Email us at [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Calling).
         - To give us your feedback about Teams or share your ideas for new
         features, please visit
         [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).

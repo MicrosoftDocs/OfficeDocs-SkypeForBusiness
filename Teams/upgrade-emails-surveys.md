@@ -15,6 +15,9 @@ appliesto:
 - Microsoft Teams
 ---
 
+# Sample emails and surveys for Upgrade Basic communications
+
+<!-- 
 <a name="about-upgrade-basic"></a>
 # Upgrade Basic 
 
@@ -183,8 +186,8 @@ After users are comfortable with IM (chat) and meetings in Teams, encourage them
 -   [Sample email: encourage users to explore Teams further](upgrade-emails-surveys.md#step-10-email)
 
 [Return to top](#about-upgrade-basic)
+-->
 
-<!--
 ## Sample emails
 
 <a name="step-1-email"></a>
@@ -206,7 +209,7 @@ Microsoft has indicated that Teams now has key capabilities that meet our commun
 
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
-[Return to step 1](#step-1)
+[Return to step 1](upgrade-essentials.md#step-1)
 
 <a name="step-4-email"></a>
 
@@ -235,7 +238,7 @@ CALL TO ACTION: Get started with Teams today
 If you have questions or need help, please reach out to <<insert company support information>>.
 ````
 
-[Return to step 4](#step-4)
+[Return to step 4](upgrade-essentials.md#step-4)
 
 <a name="step-6-email"></a>
 
@@ -266,7 +269,7 @@ Tip: If you need assistance with scheduling meetings, T-Bot can help! In the Tea
 Should you have questions about this upgrade, contact <<insert alias or contact info>>.
 ````
 
-[Return to step 6](#step-6)
+[Return to step 6](upgrade-essentials.md#step-6)
 
 <a name="step-7-email"></a>
 
@@ -301,7 +304,7 @@ Regards,
 <<insert executive sponsor name>>
 ````
 
-[Return to step 7](#step-7)
+[Return to step 7](upgrade-essentials.md#step-7)
 
 <a name="step-9-email"></a>
 
@@ -324,7 +327,7 @@ Share your feedback (see sample below) and transition experience with us. Your i
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[Return to step 9](#step-9)
+[Return to step 9](upgrade-essentials.md#step-9)
  
 <a name="step-10-email"></a>
 
@@ -351,7 +354,7 @@ Tip: The best use of the Teams workspace comes when the right people join the ri
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[Return to step 10](#step-10)
+[Return to step 10](upgrade-essentials.md#step-10)
 
 <a name="step-9-surveys"></a>
 
@@ -387,5 +390,4 @@ Indicate how skilled you are at performing the following activities in Teams and
 | ------| -----  | ---------|-------|-----|-------|------|------|------|------|------|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
-[Return to step 9](#step-9)
--->
+[Return to step 9](upgrade-essentials.md#step-9)

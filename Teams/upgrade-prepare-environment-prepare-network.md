@@ -23,6 +23,8 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 -   [Defined your project scope](upgrade-define-project-scope.md)
 -   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
 
+If you’re using audio/video, there are a few additional steps you can take to optimize your network for this functionality.
+
 # Prepare your network for upgrading to Teams
 
 Teams uses audio and video technology (codecs) that can adapt to—and therefore perform better under—most network conditions. To ensure optimal and consistent performance, you should prepare your network for Teams.
