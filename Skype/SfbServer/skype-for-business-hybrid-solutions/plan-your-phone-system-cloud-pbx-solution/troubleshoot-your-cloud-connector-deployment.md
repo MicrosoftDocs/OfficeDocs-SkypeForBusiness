@@ -312,7 +312,16 @@ Following are solutions to commonly encountered issues:
 - **Issue: With Cloud Connector version 2.1 and later, when running Register-CcAppliance or other cmdlets on the appliance, you receive an error message such as: "For Each-Object : The property 'Common' cannot be found on this object. Verify that the property exists. At C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 char:14"**
     
     **Resolution:** Cloud Connector 2.1 and later requires .NET Framework 4.6.1 or later. Please update .NET Framework on the appliance to version 4.6.1 or later and run the cmdlet(s) again.
-    
+
+-**Issue: With Cloud Connector Edition 2.1, when running Install-CcAppliance, you receive an error message such as: "Failed to install new instance with error: Cannot set "State" because only strings can be used as values to set XmlNode properties"
+
+   **Resolution:** In Cloudconnector.ini, under the [Common] section, please add the “State” config as below:
+   CountryCode=US
+   State=WA
+   City=Redmond
+
+   It is not mandatory for the "State" line to have value, however the "State" line cannot be removed from the Cloudconnector.ini file.
+
 - **Issue: You receive the following error message "Dismount-WindowsImage : Dismount-WindowsImage failed. Error code = 0xc1550115" when installing or upgrading Cloud Connector Edition.**
     
     **Resolution:** Launch a PowerShell console as administrator, run "DISM -Cleanup-Wim'". This will clean up all troubled images. Run Install-CcAppliance again or wait for the bits to automatically upgrade.
