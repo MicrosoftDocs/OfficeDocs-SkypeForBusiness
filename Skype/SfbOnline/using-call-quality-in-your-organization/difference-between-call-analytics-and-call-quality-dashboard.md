@@ -35,11 +35,11 @@ Call Analytics shows detailed information about the devices, networks, and conne
 
 To see this information for a user in the Microsoft Teams and Skype for Business Admin Center, click on the **Call History** tab for that user in the user detail page, showing all the calls and meetings that user has participated in for the last 30 days.
 
-[Call analytics user data.](../images/call-analytics-user-data.png)
+![Call analytics user data.](../images/call-analytics-user-data.png)
 
 To get additional information about a given session including detailed media and networking statistics, click on a session to see the details.
 
-[Call analytics user session data.](../images/call-analytics-user-data-session.png)
+![Call analytics user session data.](../images/call-analytics-user-data-session.png)
 
 If you want non-admins, such as helpdesk agents from an external vendor, to use Call Analytics, you can assign permissions so that they can use Call Analytics but they can't access the rest of the Skype for Business Admin center: 
   
