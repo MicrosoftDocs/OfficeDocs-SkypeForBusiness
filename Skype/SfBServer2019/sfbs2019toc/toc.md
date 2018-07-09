@@ -413,6 +413,7 @@
 ##### [Welcome emails](../../SfbServer/manage/conferencing/welcome-emails.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Tests](../../SfbServer/manage/conferencing/tests.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Meeting join page](../../SfbServer/manage/conferencing/meeting-join-page.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Management Shell](../../SfbServer/manage/management-shell.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Authentication](../../SfbServer/manage/authentication/authentication.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Use ADAL](../../SfbServer/manage/authentication/use-adal.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Stage AV and OAuth certificates](../../SfbServer/manage/authentication/stage-av-and-oauth-certificates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
