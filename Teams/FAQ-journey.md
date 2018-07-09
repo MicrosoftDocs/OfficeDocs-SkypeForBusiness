@@ -17,7 +17,7 @@ appliesto:
 
 # FAQ - Journey from Skype for Business to Microsoft Teams
 
-## Intelligent Communications Vision
+## Intelligent Communications vision
 
 ### What is Microsoft’s new vision for Intelligent Communications (aka Unified Communications vision)?
 
@@ -66,6 +66,10 @@ Teams is available in Office 365 suites. Capabilities that are premium workloads
 ### Is Microsoft planning scheduled upgrades?
 
 Currently, we have no plans to schedule upgrades for enterprise customers. Customers can choose to move to Teams as the capabilities meet their business needs. We’ll empower administrators and users with tools and guidance to assist them in the transition to Teams. 
+
+## Skype for Business to Teams upgrade
+
+ADDITIONAL Qs and As GO HERE.
 
 
 ## Skype to Teams Roadmap
@@ -117,10 +121,10 @@ One of the many advantages of using Teams is that users gain access to new commu
 
 ### Is Audio Conferencing coverage in Teams different in Skype for Business?
 
-There will be no change in the coverage for Audio Conferencing as a result of its availability in Teams. The coverage of 90+ countries and 400+ cities we have today will continue to persist in both products. For the current list, see [Country and region availability for Audio Conferencing and Calling Plans](/Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+There will be no change in the coverage for Audio Conferencing as a result of its availability in Teams. The coverage of 90+ countries and 400+ cities we have today will continue to persist in both products. For the current list, see [Country and region availability for Audio Conferencing and Calling Plans](/Skypeforbusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
 
-link that does include .md extension[Emergency calling terms and conditions](/Skype/SfbOnline/legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+link that does include .md extension[Emergency calling terms and conditions](/Skypeforbusiness/legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
 ### Are third-party audio conferencing providers (ACP) supported in Teams?
 
