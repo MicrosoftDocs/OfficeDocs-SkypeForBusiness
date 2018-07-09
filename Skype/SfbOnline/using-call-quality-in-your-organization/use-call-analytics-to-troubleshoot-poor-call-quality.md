@@ -1,5 +1,5 @@
 ---
-title: "Use Call Analytics to troubleshoot poor Skype for Business call quality"
+title: "Use Call Analytics to troubleshoot poor call quality"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -21,12 +21,14 @@ ms.custom:
 description: "Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Skype for Business calls and meetings."
 ---
 
-# Use Call Analytics to troubleshoot poor Skype for Business call quality
+# Use Call Analytics to troubleshoot poor call quality
 
-Call Analytics helps you to troubleshoot call or connection problems with Skype for Business. Call Analytics shows detailed information about the devices, networks, and connectivity for the calls and meetings of each user in your Skype for Business account. If building, site, and tenant information has been added to Call Analytics, it will also be shown for each call and session. Information available via Call Analytics can help you figure out why a user had a poor call or meeting experience. 
+Call Analytics helps you to troubleshoot call or connection problems with Microsoft Teams and Skype for Business. Call Analytics shows detailed information about the devices, networks, and connectivity for the calls and meetings of each user in your Office 365 account. If building, site, and tenant information has been added to Call Analytics, it will also be shown for each call and session. Information available via Call Analytics can help you figure out why a user had a poor call or meeting experience. 
   
-> [!NOTE]
-> Call Analytics is currently in preview. Text and images described here may not match your experience.
+**Call Analytics is now available in the Microsoft Teams and Skype for Business Admin Center.** To see all of the call information and data for a user, use the **Call History** tab. You can do this by looking on the user's profile page by either searching for the user from the dashboard or finding the user from **Users** in the left navigation.
+
+> [!IMPORTANT]
+> Helpdesk agent permissions and network topology upload will be available in the new admin portal in the coming months. In the meantime, you can continue to use  https://adminportal.services.skypeforbusiness.com for Tier 1 and Tier 2 helpdesk access.
   
 ## Troubleshoot call quality problems using Call Analytics
 
