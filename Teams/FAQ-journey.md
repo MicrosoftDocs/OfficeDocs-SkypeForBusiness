@@ -125,6 +125,7 @@ There will be no change in the coverage for Audio Conferencing as a result of it
 
 
 link that does include .md extension[Emergency calling terms and conditions](/Skypeforbusiness/legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+link that does include .md extension[Emergency calling terms and conditions](/Skypeforbusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
 
 ### Are third-party audio conferencing providers (ACP) supported in Teams?
 
