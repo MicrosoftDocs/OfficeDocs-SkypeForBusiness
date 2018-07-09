@@ -48,7 +48,9 @@ items:
   content: |
     Out of the box, Teams supports the ability for users to make voice over IP (VoIP) calls from Teams client to Teams client.
 
-    With Phone System with Calling Plans, users can make, receive, and transfer calls to and from landlines and mobile phones on the public switched telephone network (PSTN).
+    In Teams, there are two options to enable isers users to make, receive, and transfer calls to and from landlines and mobile phones on the public switched telephone network (PSTN):
+    - With Phone System with Calling Plans Microsoft provides the phone number to your users and all PSTN services
+    - With Direct Connect you can connect your existing PSTN connectivity via an SBC (Session Boarder Controller) to Microsoft Teams.
 
     #### <span style="color:red">**Action**:</span> Watch Calling in Teams (3:00 minutes)
     > [!Video https://www.youtube.com/embed/9O4p48Mws9U]
@@ -66,9 +68,6 @@ items:
 
     - On the [public roadmap](https://aka.ms/skype2teamsroadmap), review the “Calling 
     roadmap” slide for an overview of the expected timelines for feature release dates.
-    - [Direct Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-enables-new-enterprise-voice-options-in-Microsoft/ba-p/170450)
-    allows you to connect an extsiting PBX or SIP Trunk to Teams and is targeted for 
-    general availability in Q2 of 2018.
     - Review [Here’s what you get with Phone System in Office 
     365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) 
     for a description of Phone System features. Keep in mind that at this writing, some 
@@ -86,17 +85,12 @@ items:
     those who are familiar with the calling feature in Skype for Business Online, we
     want to highlight some important points.
 
-    - **Calling Plans is the only way to connect to the PSTN.**  
-    In contrast to Skype for Business Online, the only way to use Teams to connect to the PSTN is by
-    using Calling Plans (formerly known as Cloud PBX with PSTN Connectivity),
-    where Microsoft provides all phone services including the PSTN numbers.
-    Other options, such as leveraging an existing PSTN infrastructure through a
-    Skype for Business pool or Cloud Connector Edition, don’t exist at this
-    time.
-    "Direct Routing" allows you to connect an existing PBX or SIP 
-    Trunk to Teams and is targeted for general availability in Q2 of 2018. See [Direct 
-    Routing enables new enterprise voice options in Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-enables-new-enterprise-voice-options-in-Microsoft/ba-p/170450)
-    For more information.
+    - **Calling Plans or Direct Routing to connect to the PSTN.**  
+    The options to connect Teams to the PSTN are a little bit different than in
+    Skype for Business Online: While Calling Plans (formerly known as Cloud PBX 
+    with PSTN Connectivity), exist for both, the option for connecting your
+    existing PBX or SIP Trunk to Teams is called "Direct Routing".
+    Detailed documentation on Direct Routing can be found here: [Phone System Direct Routing](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan)
 
     - **Features are different between Skype for Business and Microsoft Teams.**  
     Note that the calling features in Skype for Business and Microsoft Teams are
