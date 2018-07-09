@@ -57,7 +57,7 @@ Customers should evaluate the Teams roadmap to determine whether capabilities wi
 
 ### What support are you offering to customers who want to move to Teams, especially those who have made significant investments in Skype for Business in Office 365?
 
-Customers continue to use Skype for Business in Office 365 until Teams meets their business needs. We’ll assist customers who want to move users to Teams with tools and guidance to control and manage the process. Prescriptive guidance and best practices are available at [https://aka.ms/skypeandteams](https://aka.ms/skypeandteams). We’ll help ease the transition for users new to Teams with a specialized first-run experience and in-product coach marks. FastTrack, customer support, and partners are available to help guide customers through the transition.
+Customers continue to use Skype for Business in Office 365 until Teams meets their business needs. We’ll assist customers who want to move users to Teams with tools and guidance to control and manage the process. Prescriptive guidance and best practices will be available at [https://aka.ms/skypeandteams](https://aka.ms/skypeandteams). We’ll help ease the transition for users new to Teams with a specialized first-run experience and in-product coach marks. FastTrack, customer support, and partners will be available to help guide customers through the transition.
 
 ### What does this mean from a licensing perspective? How will customers pay for Intelligent Communications services in Teams?
 
