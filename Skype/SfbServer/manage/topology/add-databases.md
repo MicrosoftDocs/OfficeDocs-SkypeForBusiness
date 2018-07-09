@@ -1,20 +1,19 @@
 ---
-title: "Add databases to an AlwaysOn Availability Group in Skype for Business Server 2015"
+title: "Add databases to an AlwaysOn Availability Group in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/30/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
-description: "Summary: Learn how to add more Skype for Business Server databases to an existing AlwaysOn Availability Group in Skype for Business Server 2015."
+description: "Summary: Learn how to add more Skype for Business Server databases to an existing AlwaysOn Availability Group in Skype for Business Server."
 ---
 
-# Add databases to an AlwaysOn Availability Group in Skype for Business Server 2015
+# Add databases to an AlwaysOn Availability Group in Skype for Business Server
  
-**Summary:** Learn how to add more Skype for Business Server databases to an existing AlwaysOn Availability Group in Skype for Business Server 2015.
+**Summary:** Learn how to add more Skype for Business Server databases to an existing AlwaysOn Availability Group in Skype for Business Server.
   
 ### Adding databases to an AlwaysOn Availability Group
 

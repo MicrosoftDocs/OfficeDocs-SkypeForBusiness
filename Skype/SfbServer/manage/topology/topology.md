@@ -3,7 +3,6 @@ title: "Manage your topology in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/30/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -26,6 +25,7 @@ The following topics provide step-by-step instructions on tasks involved with ma
     
 - [Patch or update a SQL Server in an AlwaysOn Availability Group in Skype for Business Server](patch-or-update-sql-server.md)
     
-- [Move File Store Data to a New File Store in Skype for Business Server](../../help-topics/help-topobld/move-file-store-data.md)
+- [Move File Store Data to a New File Store in Skype for Business Server 2015](../../help-topics/help-topobld/move-file-store-data.md)
+
     
 
