@@ -1,20 +1,19 @@
 ---
-title: "Create a new archiving policy in Skype for Business Server 2015"
+title: "Create a new archiving policy in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
-description: "Summary: Learn how to create a new archiving policy for Skype for Business Server 2015."
+description: "Summary: Learn how to create a new archiving policy for Skype for Business Server."
 ---
 
-# Create a new archiving policy in Skype for Business Server 2015
+# Create a new archiving policy in Skype for Business Server
 
-**Summary:** Learn how to create a new archiving policy for Skype for Business Server 2015.
+**Summary:** Learn how to create a new archiving policy for Skype for Business Server.
   
 You can create new archiving policies by using the Control Panel or by using Windows PowerShell cmdlets.
   
@@ -47,7 +46,7 @@ To create a new archiving policy by using the Control Panel:
 6. Click **Commit**.
     
     > [!IMPORTANT]
-    > The settings of a user policy only apply to the specific users and user groups to which you apply the policy. For details, see [Apply an archiving policy to users in Skype for Business Server 2015](apply-a-policy-to-users.md). 
+    > The settings of a user policy only apply to the specific users and user groups to which you apply the policy. For details, see [Apply an archiving policy to users in Skype for Business Server](apply-a-policy-to-users.md). 
   
 ## Create a new archiving policy by using Windows PowerShell
 

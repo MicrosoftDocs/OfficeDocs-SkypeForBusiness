@@ -1,20 +1,19 @@
 ---
-title: "Export archived data in Skype for Business Server 2015"
+title: "Export archived data in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
-description: "Summary: Learn how to export archived data for Skype for Business Server 2015."
+description: "Summary: Learn how to export archived data for Skype for Business Server."
 ---
 
-# Export archived data in Skype for Business Server 2015
+# Export archived data in Skype for Business Server
 
-**Summary:** Learn how to export archived data for Skype for Business Server 2015.
+**Summary:** Learn how to export archived data for Skype for Business Server.
   
 Data archived in Archiving databases is not searchable or in a readable format, but you can use the **Export-CsArchivingData** cmdlet to extract records from the database and save them as an Outlook Electronic Mail (EML) file.
   
