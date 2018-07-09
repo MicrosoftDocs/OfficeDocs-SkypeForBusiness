@@ -45,7 +45,7 @@ A video stream is marked as good or poor based on the value of the first availab
 
 |**Step #**|**Metric**|**Condition**|**Classification if Condition is True**|**Classification if Condition is False**|**Classification if Metric is Unavailable**|**Explanation**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50|Poor|Good|Proceed to step 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
+|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|Proceed to step 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|< 7|Poor|Good|Proceed to step 3|Average frames per second received for a video stream, computed over the duration of the session.|
 |3|Video Post FECPLR|> 0.15|Poor|Good|Unclassified|Packet loss rate after FEC has been applied aggregated across all video streams and codecs.|
 
@@ -55,9 +55,9 @@ A VBSS stream is marked as good or poor based on the value of the first availabl
 
 |**Step #**|**Metric**|**Condition**|**Classification if Condition is True**|**Classification if Condition is False**|**Classification if Metric is Unavailable**|**Explanation**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50|Poor|Good|Proceed to step 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
-|2|Video Frame Rate Avg|< 2|Poor|Good|Proceed to step 3|Average frames per second received for a video stream, computed over the duration of the session.|
-|3|Video Post FECPLR|> 0.15|Poor|Good|Unclassified|Unclassified|Packet loss rate after FEC has been applied aggregated across all video streams and codecs.|
+|1|VBSS Local Frame Loss Percentage Avg|> 50% |Poor|Good|Proceed to step 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
+|2|VBSS Frame Rate Avg|< 2|Poor|Good|Proceed to step 3|Average frames per second received for a video stream, computed over the duration of the session.|
+|3|VBSS Post FECPLR|> 0.15|Poor|Good|Unclassified|Unclassified|Packet loss rate after FEC has been applied aggregated across all video streams and codecs.|
 
 ### Application Sharing Classifier
 
