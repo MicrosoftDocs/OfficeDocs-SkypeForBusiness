@@ -69,8 +69,9 @@ This is what the report looks like.
      *    **conf_out** (an outbound call from the Audio Conferencing bridge usually to add a PSTN number to the conference)
 
      **Unified Communication Applications (UCAP)** 
-     *    **ucap_in** (an inbound call to the UC application such as auto attendant or call queue) 
-     *    **ucap_out** (an outbound call from the UC application such as auto attendant or call queue)
+     *    **ucap_in** (an inbound PSTN call to the UC application such as auto attendant or call queue) 
+     *    **ucap_out** (an outbound PSTN call from the UC application such as auto attendant or call queue)
+     *    **Note:** Calls that were transferred to a user from the UC application such as an auto attendant or call queue will not appear in the PSTN usage report as these call legs are peer to peer (P2P) audio calls. You may access the P2P calls in the Skype for Business Admin Center under "Tools > Skype for Business Call Analytics" and search by User Name or SIP address correlating the call by date/time and/or originating CLID (calling line ID). 
 *     
      **Domestic/International** tells you whether the call that was placed was considered domestic (within a country/region) or international (outside of a country/region) based on the user's location. 
 *    **Destination dialed** is the name of the country/region destination that is dialed such as France, Germany, or the United States (U.S.). 
