@@ -119,6 +119,9 @@ One of the many advantages of using Teams is that users gain access to new commu
 
 There will be no change in the coverage for Audio Conferencing as a result of its availability in Teams. The coverage of 90+ countries and 400+ cities we have today will continue to persist in both products. For the current list, see [Country and region availability for Audio Conferencing and Calling Plans](/Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
+link[Emergency calling terms and conditions](../Skype/SfbOnline/legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+link[Emergency calling terms and conditions](/Skype/SfbOnline/legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+
 ### Are third-party audio conferencing providers (ACP) supported in Teams?
 
 There are no plans to support third-party audio conferencing providers (ACP) in Teams. We believe the best audio conferencing experience for customers using Teams and Skype for Business will be to use our Audio Conferencing services in Office 365 (formerly PSTN Conferencing). Customers who need to leverage our ACP support in Skype for Business meetings can continue to use their Skype for Business client. Meetings scheduled within the Teams client will only support the Audio Conferencing services of Office 365.
