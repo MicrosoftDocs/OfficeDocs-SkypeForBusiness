@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.collection: 
 description: "This article describes benefits, planning considerations, and requirements for implementing the Microsoft Coud Voicemail Service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail."
 ---
-<!-- PM Roy Kuntz  -->
+
 
 # Plan Cloud Voicemail service
 
@@ -19,7 +19,7 @@ description: "This article describes benefits, planning considerations, and requ
 
 ## Overview 
 
-This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail service. For information on configuring Cloud Voicemail, see Configure Cloud Voicemail.
+This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail service. For information on configuring Cloud Voicemail, see [Configure Cloud Voicemail](configure-cloud-voicemail.md).
 
 Cloud Voicemail enables all your Skype for Business 2019 users--whether their mailbox is homed on premises or online--to have access to the same voicemail service in the Microsoft Cloud. Cloud Voicemail provides the following benefits for both your on-premises and online users:
 
@@ -62,11 +62,12 @@ Unanswered calls are handled as follows:
 
 The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  For more information about deploying Skype for Business Server and supported topologies, see INSERT LINK HERE.
 
-**What are the possible starting topologies:** 
+**WHAT ARE THE POSSIBLE STARTING TOPOLOGIES:** 
 
--  **Full SfB Server split domain w or w/o hosted Exchange UM?**
--  **SfB on prem with hosted Exchange UM**
--  **Exchange UM on prem**
+    -  **Full SfB Server split domain w or w/o hosted Exchange UM**
+    -  **SfB on prem with hosted Exchange UM**
+    -  **Exchange UM on prem**
+
 
 - **Hybrid connectivity.**  If you already have Skype for Business Server deployed, and you want to enable Cloud Voicemail for your on-premises users, you must ensure that you have hybrid connectivity set up between your on-premises and online environments.  This is sometimes called a split domain configuration. Hybrid connectivity requires the following:
 
@@ -93,9 +94,7 @@ If you are planning to deploy Skype for Business Server 2019 and/or Exchange Ser
 - Exchange Server 2019 no longer provides Exchange UM functionality
 - Skype for Business Server 2019 no longer integrates with Exchange Online UM
 
-Version interoperability and supported topologies for Cloud Voicemail are listed in the following table.
-
-**NOTE:**  For the preview release, Cloud Voicemail only works with Skype for Business Server and Exchange Server 2019 or Exchange Online.
+Version interoperability and supported topologies for Cloud Voicemail are listed in the following table.  For the preview release, Cloud Voicemail only works with Skype for Business Server and Exchange Server 2019 or Exchange Online.
 
 
 |                               | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
