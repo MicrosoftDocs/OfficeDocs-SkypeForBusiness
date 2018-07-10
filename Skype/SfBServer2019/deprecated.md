@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: "Summary: These features have been removed from Skype for Business Server 2019."
 ---
-<!-- Paul Cannon, Vibhor, Rahul, Rohit-->
+
 # What's deprecated from Skype for Business Server 2019 
 
 [!INCLUDE [disclaimer](disclaimer.md)]
