@@ -3,7 +3,7 @@ title: Deploy Microsoft Teams for Surface Hub
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/02/2018
+ms.date: 07/10/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -136,48 +136,35 @@ After you've completed the preceding steps to enable your Teams for Surface Hub 
 
 ## Install Teams for Surface Hub from the Microsoft Store 
 
-These instructions include the current workarounds for installing Teams for Surface Hub from the Microsoft Store. 
+These instructions are for installing Teams for Surface Hub from the Microsoft Store. 
  
-1. Start the Windows Store:<br>
+1. Start the Microsoft Store:<br>
    a. Tap **Start** > **All Apps** > **Settings**.<br> 
    b. Tap **Surface Hub Device account, management**.<br>
    c. On the left, tap the **Apps & Features** tab.<br> 
    d. On the right, tap the **Open Store** button. 
-2. From the Microsoft Store, search for *Microsoft Teams*. The **Microsoft Teams for Surface Hub (Preview)** will be displayed. Tap the **Get the app** button to install.  
+2. From the Microsoft Store, search for *Microsoft Teams*. The **Microsoft Teams for Surface Hub** will be displayed. Tap the **Get the app** button to install.  
 3. When the installation is complete, restart the Surface Hub. 
-4. After the Surface Hub restarts, you should be able to start the Teams app from the **Start** menu and join a meeting from the calendar. 
 
-## Make Teams the default VTC application
+> [!NOTE]
+> Do not tap on **Launch** from the Store listing page.
 
-Teams can be set up to be the default VTC application instead of Skype for Business. A Mobile Device Management (MDM) policy needs to be applied to the Surface Hub device. 
+## Make Teams the default calling and meetings application
  
-There are two options for configuring MDM policies: 
+There are two options for configuring the default calling and meetings application policy: 
 
-- If you have a policy configured, add it via the Device management app. 
-- If you do not have a remote policy configured, we have a provisioned package file that you can load onto an USB key.
-
-### Device management configuration
-
-The following is an example of adding an MDM policy configured from a central MDM authority. If you are on the corporate network, you can use the following instructions verbatim, including user account. 
+- **Option 1**: Configure via USB key. 
+- **Option 2**: Configure via MDM such as InTune.
  
-1. Under the **Device Management** section, tap **+**.<br>
-   The **Connect to work or school** dialog box will open. 
-2. Enter the policy e-mail address and password when prompted.<br>
-   **NOTE:**  There's a bug in the OS that doesn't automatically refresh the UI after you've entered your device management account. You'll need to close and re-open settings in order to see the account listed. 
-3. It'll take a few minutes for the MDM policy settings to sync. If you want to force a sync, tap the **MDM account** button, and then tap the **Info** button. This will bring up the Info window where you can then tap **Sync**. 
-4. To verify that you have what you need, you can check the registry. You should see two keys under **HKLM\Software\Microsoft\Windows\CurrentVersion\PPI\VtcCallSettings**. <br><br>
-   The **VtcAppMeetingHandlingMode** DWORD value indicates that Teams is the default app. The following values are recognized. <br><br>
-    |Number | Value   |
-    |-------|---------|
-    |0      | SkypePreferred            |
-    |1      | VtcPreferred (Teams)      |
-    |2      | VtcExclusive (Teams only) |
+### Option 1: Configure via USB key 
+ 
+The packages can be found on this [download page](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Pick the appropriate one for the package that you're planning to install and copy it to a USB key. The correct .ppkg file to use depends on the default application policy you'd like to apply as follows: 
 
-    The **VtcCallAppPackageId** is the name of the installed Teams package. If this doesn't show up, make sure you've installed the Teams package, and re-sync. 
- 
-### Configure MDM via USB key 
- 
-The packages can be found on this [download page](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Pick the appropriate one for the package that you're planning to install and copy it to a USB key. The correct .ppkg file to use depends on the Teams package that has been installed from the store, and the policy you'd like to apply (Skype exclusive, Skype preferred, Teams preferred, Teams exclusive). 
+|Number  |Description  |
+|---------|---------|
+|0     | Skype preferred app on the Start Screen, Teams Meetings available        |
+|1     | Teams preferred app on the Start Screen, Skype Meetings available        |
+|2     | Teams exclusive app on the Start screen (Skype app not available)        |
  
 1. Attach the USB key to the Surface Hub device. 
 2. Open the **Settings** app on a Surface Hub device. 
@@ -186,8 +173,27 @@ The packages can be found on this [download page](https://1drv.ms/f/s!ArcnbnREun
 5. Click **Add or Remove a provisioning package**. 
 6. Click **Add Package**.
 7. Select the **Removable Media** option from the drop-down menu. 
-8. Add the **Allowbuildspreview.ppkg**, and then select the Surface Hub package you want to add. 
+8. Add the appropriate **TeamsRTMMode*.ppkg** package that was previously copied to the USB key. 
 9. Restart the Surface Hub device. 
+10. After the device restarts, you should be able to start the Teams app from the Start screen and join a meeting from the calendar. 
+
+### Option 2: Configure via MDM such as InTune 
+
+Use the following to configure the default calling and meetings application policy via InTune.
+
+|Setting   |Value    |Description    |
+|----------|---------|---------|
+|Path      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
+|Data Type | integer (0-2)   |0 - Skype preferred app on the Start Screen, Teams Meetings available<br>1 - Teams preferred app on the Start Screen, Skype Meetings available<br>2 - Teams exclusive app on the Start screen (Skype app not available) |
+|Operations| Get, Set        |
+
+|Setting   |Value    |
+|----------|---------|
+|Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
+|Data Type | string (set string to Teams application package ID as - **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams**) |
+|Operations| Get, Set        |
+
+Restart the Surface Hub device. After the device restarts, you should be able to start the Teams app from the Start screen and join a meeting from the calendar.
 
 > [!NOTE]
 > If your device or your organization's devices are not currently part of the Windows Insider Program and you are in countries covered by General Data Protection Regulation (GDPR) (or you have manually changed your telemetry settings to Basic), then you must re-check that you have permitted full telemetry before you join the Insider Program. GDPR changed the default behavior of Surface Hub devices in the EU to set telemetry to Basic.
