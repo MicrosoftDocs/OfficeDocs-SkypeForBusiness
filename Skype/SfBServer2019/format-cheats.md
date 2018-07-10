@@ -290,7 +290,7 @@ Alerts
 > [!TIP]
 > Here's a tip. it's fifty cents.
 
-Here's a link to a graphic:
+Here's a link to a graphic: \
 ![guyjknh](media/AD_Topology_Labels.jpg)
 
 
