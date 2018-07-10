@@ -138,7 +138,7 @@ To change value of AllowBroadcastScheduling in Global policy, use the following 
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastScheduling $false
 ```
-#### Scenarios
+### Scenarios
 **I want all users in my company to be able to create live events.**
 1. Confirm Global CsTeamsMeetingBroadcastPolicy has AllowBroadcastScheduling = True.
 2. Confirm all users have the Global CsTeamsMeetingBroadcastPolicy OR one of the CsTeamsMeetingBroadcastPolicy policies with AllowBroadcastScheduling = True.
