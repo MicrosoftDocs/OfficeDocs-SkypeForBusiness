@@ -313,7 +313,7 @@ Following are solutions to commonly encountered issues:
     
     **Resolution:** Cloud Connector 2.1 and later requires .NET Framework 4.6.1 or later. Please update .NET Framework on the appliance to version 4.6.1 or later and run the cmdlet(s) again.
 
--**Issue: With Cloud Connector Edition 2.1, when running Install-CcAppliance, you receive an error message such as: "Failed to install new instance with error: Cannot set "State" because only strings can be used as values to set XmlNode properties"
+- **Issue: With Cloud Connector Edition 2.1, when running Install-CcAppliance, you receive an error message such as: "Failed to install new instance with error: Cannot set "State" because only strings can be used as values to set XmlNode properties"**
 
    **Resolution:** In Cloudconnector.ini, under the [Common] section, please add the “State” config as below:
    CountryCode=US
