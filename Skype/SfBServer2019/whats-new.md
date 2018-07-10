@@ -20,10 +20,10 @@ description: "Summary: These features are new in Skype for Business Server 2019.
 
 New features in Skype for Business Server 2019 include the following:
   
-- Cloud Voicemail 
+- Cloud Voicemail  
 - Call Data Connector
-- Improved Hybrid solutions
 - Side-by-side migration
+- Migration to Teams
 
 ## Unified messaging services: Cloud Voicemail 
 
@@ -48,13 +48,7 @@ With Call Data Connector, you can perform the following tasks by using a single 
 
 See [Plan Call Data Connector](hybrid/plan-call-data-connector.md) for more information.
   
-## Deployment of hybrid solutions
 
-Hybrid solutions enable you to retain some on-premises control while also taking advantage of online services provided in the Microsoft cloud. With hybrid connectivity set up, and a variety of cloud services available to your online and on-premises users, you can choose to move your users to the cloud based on your schedule and business need.
-
-You might choose to get call control through Microsoft Phone System in the cloud, for example, while retaining your on-premises PSTN connectivity. Both your online and on-premises users can take advantage of cloud services, such as Cloud Voicemail.
-
-Skype for Business Server 2019 can integrate with Skype for Business Online or Teams, see [Skype for Business hybrid solutions](hybrid/hybrid-solutions.md) for more information.
 
 ## Installation and Upgrade: Side-by-side migration
 

@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: "Summary: These features have been removed from Skype for Business Server 2019."
 ---
-
+<!-- Paul Cannon, Vibhor, Rahul, Rohit-->
 # What's deprecated from Skype for Business Server 2019 
 
 [!INCLUDE [disclaimer](disclaimer.md)]
@@ -20,7 +20,7 @@ Learn about the features and functionality that are deprecated in Skype for Busi
 
 Some de-emphasised features are included in Skype for Business Server 2019 for compatibility with previous product versions. 
 
-## Features deprecated in Skype for Business Server 2019
+## Features deprecated in Skype for Business Server 2019 
 
 The following features and functionality have been deprecated in Skype for Business Server 2019.
 
@@ -30,7 +30,7 @@ Skype for Business Server 2015 and its predecessors allowed you to configure an 
 
 If you want to keep this functionality, you will need to keep a Skype for Business Server 2015 pool and run Skype for Business Server 2019 in coexistance mode. See [Migrating XMPP federation](migration/migrating-xmpp-federation.md) for more information.
 
-### Persistent chat for Skype for Business Server
+### Persistent Chat for Skype for Business Server
 
 Persistent Chat Server is an optional role that lets multiple users in your organization participate in chat room conversations that persist over time. Persistent chat can't be deployed with Skype for Business Server 2019. This server role is removed from Topology Builder, as well as from the code. 
 
@@ -74,9 +74,7 @@ The following tools are not supported with Skype for Business Server 2019:
 - Skype for Business Server 2015 Planning Tool
 - Skype for Business Server 2015 Stress and Performance Tool
  
-## Legacy clients
 
-Clients released prior to Lync 2013 are no longer supported.
 
 ### See also
 
