@@ -109,7 +109,7 @@ ORIGINAL TABLE
 |:---------------------------    |:---------------------|:---------------------|:------------------|:---------------------- |
 | Skype for Business Server 2019 | Exchange Server UM | Exchange Server UM | Cloud Voicemail | Cloud Voicemail
 Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM | Cloud Voicemail | Cloud Voicemail <br> Exchange Online UM* |
-Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM |  | Cloud Voicemail <br> Exchange Online UM* |
+Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | Cloud Voicemail | Cloud Voicemail <br> Exchange Online UM* |
 
 \* Until deprecated.
 
