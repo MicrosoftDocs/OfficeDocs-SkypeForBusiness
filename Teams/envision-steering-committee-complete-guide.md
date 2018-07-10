@@ -106,7 +106,8 @@ The following assets should be completed and included in the presentation deck f
 
     -   Contains more technical detail focused on day to day issues and less on overall project status.
 
--   Issues log and risks register [Link Risk-Issues Log (Web Content)]
+-   Issues log and [risks register](1-envision-define-my-success-cloud-voice.md#define-okrs-ksis-and-risks)
+)]
 
     -   Share the status of any issues that the committee is tracking.
 
@@ -120,7 +121,7 @@ The following assets should be completed and included in the presentation deck f
 
         -   Identify next steps and what assistance might be required from committee members.
 
--   Quality overview: use reports from the Quality Champion [LINK to Planning for Service Management and Quality (Web Content)]
+-   Quality overview: use reports from the [quality champion](envision-planning-for-service-management-and-quality-complete-guide.md#the-quality-champion-role)]
 
     -   Be prepared to explain the results of those quality reports in-depth, and include recommendations to remediate any issues noted.
 
