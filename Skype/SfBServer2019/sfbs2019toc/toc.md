@@ -1,5 +1,5 @@
 # [Skype for Business Server 2019](../skype-for-business-server-2019.md)
-## [Technical diagrams for Skype for Business Server](../../SfbServer/technical-diagrams.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+
 ## [What's new](../whats-new.md)
 ## [What's deprecated](../deprecated.md)
 
@@ -125,7 +125,7 @@
 #### [User models](../../SfbServer/plan-your-deployment/capacity/user-models.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 
-## [Deploy](../deploy/deploy-over-2019.md)
+## [Deploy](../deploy/deploy-overview.md)
 ### [Install](../../SfbServer/deploy/install/install.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Install prerequisites](../../SfbServer/deploy/install/install-prerequisites.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Create a file share](../../SfbServer/deploy/install/create-a-file-share.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -227,6 +227,8 @@
 ###### [(Optional) Verify Announcement deployment](../../SfbServer/deploy/deploy-enterprise-voice/optional-verify-announcement-deployment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Deploy Shared Line Appearance](../../SfbServer/deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Install and configure Busy Options](../../SfbServer/deploy/deploy-enterprise-voice/install-and-configure-busy-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Deploy unified contact store](../../SfbServer/deploy/deploy-unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Deploy Skype Connectivity](../../SfbServer/deploy/deploy-skype-connectivity.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Deploy conferencing](../../SfbServer/deploy/deploy-conferencing/deploy-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Office Web App Server](../../SfbServer/deploy/deploy-conferencing/office-web-app-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Dial-in conferencing](../../SfbServer/deploy/deploy-conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -451,3 +453,6 @@
 #### [Two-factor authentication](../../SfbServer/manage/authentication/two-factor-authentication.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Configure](../../SfbServer/manage/authentication/configure.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Use](../../SfbServer/manage/authentication/use.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [User accounts](../../SfbServer/manage/user-accounts/user-accounts.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [Customize properties](../../SfbServer/manage/user-accounts/customize-properties.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Manage services](../../SfbServer/manage/manage-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
