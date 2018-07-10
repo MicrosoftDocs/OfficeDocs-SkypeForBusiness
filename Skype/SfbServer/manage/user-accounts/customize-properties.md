@@ -1,9 +1,8 @@
 ---
-title: "Customize user account properties for Skype for Business Server 2015"
+title: "Customize user account properties for Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -12,7 +11,7 @@ ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: "You can use the procedures in this section to modify individual user account properties."
 ---
 
-# Customize user account properties for Skype for Business Server 2015
+# Customize user account properties for Skype for Business Server
  
 You can use the procedures in this section to modify individual user account properties.
   
@@ -25,7 +24,7 @@ There are two basic operations that can be done at the individual user level:
 ## Configure telephony options for a specific user account
 <a name="Tel_Op"> </a>
 
-You can customize the telephony settings for a specific user (so long as the individual user has been enabled for Skype for Business Server 2015 and the organization supports telephony).
+You can customize the telephony settings for a specific user (so long as the individual user has been enabled for Skype for Business Server and the organization supports telephony).
   
 Skype for Business Server user telephony options include the following:
   
@@ -33,11 +32,11 @@ Skype for Business Server user telephony options include the following:
     
 - **PC-to-PC only** The user can make only PC-to-PC audio or video calls.
     
-- **Enterprise Voice** The user can use the Skype for Business Server 2015 infrastructure to route all incoming and outgoing calls. The user can also make PC-to-PC calls.
+- **Enterprise Voice** The user can use the Skype for Business Server infrastructure to route all incoming and outgoing calls. The user can also make PC-to-PC calls.
     
-- **Remote call control** The user can use Skype for Business Server 2015 to control the desktop phone, and can also make PC-to-PC calls.
+- **Remote call control** The user can use Skype for Business Server to control the desktop phone, and can also make PC-to-PC calls.
     
-For details about configuring telephony for an organization, see [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) and [Deploy Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) in the Deployment documentation.
+For details about configuring telephony for an organization, see [Enable users for Enterprise Voice in Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) and [Deploy Enterprise Voice in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) in the Deployment documentation.
   
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
     
@@ -59,7 +58,7 @@ For details about configuring telephony for an organization, see [Enable users f
     
    - To route the user's phone calls by using the Skype for Business infrastructure in accordance with the class of service policy, including PC-to-PC audio communication, click **Enterprise Voice**. In **Line URI**, specify the telephone number for Enterprise Voice. In **Dial plan policy** and **Voice policy**, specify the appropriate policies for the user. To specify the normalization rules for translating phone numbers dialed by the user to the E.164 format, select the appropriate location profile in **Location policy**.
     
-   - To enable remote call control, which enables users to control their desktop phone line from Skype for Business Server 2015 to make PC-to-PC calls and PC-to-phone calls, click **Remote call control**. In **Line URI**, specify the telephone number for remote call control. The user must have a desktop phone and private branch exchange (PBX) connection for call routing.
+   - To enable remote call control, which enables users to control their desktop phone line from Skype for Business Server to make PC-to-PC calls and PC-to-phone calls, click **Remote call control**. In **Line URI**, specify the telephone number for remote call control. The user must have a desktop phone and private branch exchange (PBX) connection for call routing.
     
 ## Move users to another pool
 <a name="Move_Users"> </a>
@@ -67,7 +66,7 @@ For details about configuring telephony for an organization, see [Enable users f
 You can use Skype for Business Server Control Panel to assign users to a specific server or pool.
   
 > [!TIP]
-> Moving all existing users from a source pool that is running Lync Server 2010 or earlier to a Skype for Business Server 2015 destination pool in a complex Active Directory environment might result in slower Active Directory replication. To avoid this, you can use search filters to move users from pools that are running Lync Server 2010 or earlier separately, or you can use Skype for Business Server Management Shell to move users with cmdlets. Also, the filter functionality works with Skype for Business Server 2015 users. 
+> Moving all existing users from a source pool that is running Lync Server 2010 or earlier to a Skype for Business Server destination pool in a complex Active Directory environment might result in slower Active Directory replication. To avoid this, you can use search filters to move users from pools that are running Lync Server 2010 or earlier separately, or you can use Skype for Business Server Management Shell to move users with cmdlets. Also, the filter functionality works with Skype for Business Server users. 
   
 ### To move selected users to a different server or pool
 
@@ -137,13 +136,13 @@ You can use Skype for Business Server Control Panel to assign users to a specifi
   
 ### To move users from one pool to another using Windows Powershell cmdlets
 
-1. Depending on how you run Windows PowerShell commands (that is, locally or remotely), you need to log on as a member of the correct Skype for Business Server 2015 administrative roles as follows:
+1. Depending on how you run Windows PowerShell commands (that is, locally or remotely), you need to log on as a member of the correct Skype for Business Server administrative roles as follows:
     
    a. If you are running the commands on the local machine (for example, you log on directly to a Front End Server): Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.
     
    b. If you are running the commands remotely on another computer (for example, you log on to your computer and run the commands remotely on a Standard Edition Front End Server): From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
     
-2. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.
+2. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business**, and then click **Skype for Business Server Management Shell**.
     
 3. To move single users, use the Move-CsUser cmdlet as follows:
     
