@@ -13,7 +13,6 @@
 ### [Prepare IT staff for Teams](../upgrade-prepare-IT-pros.md)
 ### [Prerequisites](../upgrade-plan-journey-prerequisites.md)
 ### [Evaluate your environment](../upgrade-plan-journey-evaluate-environment.md)
-<!-- ### [Discover your environment](../upgrade-prepare-environment-discover-environment.md) -->
 ### [Prepare your network](../upgrade-prepare-environment-prepare-network.md)
 ### [Prepare your service](../upgrade-prepare-environment-prepare-service.md)
 ## [Prepare your organization for Teams](../upgrade-prepare-organization.md)

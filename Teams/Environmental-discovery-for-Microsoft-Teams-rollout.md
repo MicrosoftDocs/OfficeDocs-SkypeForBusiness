@@ -14,8 +14,6 @@ appliesto:
 - Microsoft Teams
 ---
 
-<!-- Note that almost all of this article is duplicated in upgrade-prepare-environment-discover-environment.md. Any applicable changes to that article, be sure to duplicate them here. -->
-
 Environmental discovery for a Microsoft Teams rollout
 ===================================================
 
