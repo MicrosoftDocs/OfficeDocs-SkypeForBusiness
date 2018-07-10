@@ -24,13 +24,13 @@ Microsoft Teams has clients available for desktop (Windows and Mac), web, and mo
 Desktop client
 --------------
 
-The Microsoft Teams desktop client is a standalone application and currently not part of Office Pro Plus. Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and MacOS (10.10+). On Windows, Teams requires .NET framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. 
+The Microsoft Teams desktop client is a standalone application and currently not part of Office Pro Plus. Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and macOS (10.10+). On Windows, Teams requires .NET framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. 
 
 The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.
 
 Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions (admin rights are not required to install the Teams client on a PC but are required on a Mac).
 
-IT admins can choose their preferred method to distribute the installation files to computers in their organization, such as System Center Configuration Manager (Windows) or Casper Suite (MacOS). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).
+IT admins can choose their preferred method to distribute the installation files to computers in their organization, such as System Center Configuration Manager (Windows) or Jamf Pro (macOS). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).
 
 > [!NOTE]
 > Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.
@@ -75,7 +75,7 @@ If a user currently has a DMG installation of Teams and wants to replace it with
 2. Uninstall the Teams app.
 3. Install the PKG file.
 
-IT admins can use managed deployment of Teams to distribute the installation files to all Macs in their organization, such as Casper Suite.
+IT admins can use managed deployment of Teams to distribute the installation files to all Macs in their organization, such as Jamf Pro.
 
 > [!NOTE]
 > If you experience issues installing the PKG, let us know. In the **Feedback** section at the end of this article, click **Product feedback**.
