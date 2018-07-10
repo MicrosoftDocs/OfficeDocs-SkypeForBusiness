@@ -1,5 +1,5 @@
 ---   
-title: Article title goes here       # Very important for SEO. See https://aka.ms/seo-for-writers-cheat-sheet
+title: Plan for Skype for Business Server and Exchange Server migration       # Very important for SEO. See https://aka.ms/seo-for-writers-cheat-sheet
 author: dstrome           # This is your GitHub alias, not your Microsoft alias
 ms.author: dstrome        # Your Microsoft alias without @microsoft.com
 manager: serdars                     # Delete for SharePoint
@@ -60,13 +60,23 @@ In this scenario, you want to migrate your existing Exchange 2013, Exchange 2016
 
 As mentioned earlier in this topic, Exchange 2019 no longer includes the UM service. This means that, for any mailboxes that you want to move to Exchange 2019, you need to use another voicemail solution. When you set up Skype for Business 2019 and a hybrid deployment between it and Office 365, you can use Cloud Voicemail to replace these Exchange UM voicemail services.
 
-To set this scenario up, you need to keep a few things in mind:
+Keep the following things in mind before starting your migration:
 
 - Cloud voicemail doesn't support Organizational Auto Attendant at Preview. If you want mailboxes moved to Cloud Voicemail to continue to be available via auto attendant, you'll need to keep at least one Exchange 2013 or Exchange 2016 server running the UM role or service avaliable.
 - You need to set up at least one Skype for Business 2019 server **and** move users to that server before you move their mailboxes to Exchange 2019. Failing to do so will result in those mailboxes being unable to receive voicemail messages.
 - Calls sent to voicemail will be transferred to Cloud Voicemail where they will be recorded. After the call has ended, the voicemail message will be sent to the recipient's mailbox on the on-premises Exchange 2019 server. You need to take this voice traffic into account when determining whether your Internet connectivity is sufficient to support Cloud Voicemail.
 
+Here are the high-level steps to complete this migration. For more information, read each topic:
 
+1. Install and configure Skype for Business Server 2019 on a new server.
+2. Update your hybrid deployment configuration to include the new Skype for Business 2019 server.
+3. Install and configure Exchange Server 2019 on a new server.
+4. Move users from your Skype for Business 2015 server to your Skype for Business 2019 server.
+5. Move mailboxes from your Exchange 2013 or Exchange 2016 server to your Exchange 2019 server.
+6. Decommission your Skype for Business 2015 server after the last user has been moved off of it.
+7. Decommission your Exchange 2013 or Exchange 2016 servers after the last mailbox has been moved off of it.
+    > [!IMPORTANT]
+    > If you rely on an auto attendant, keep at least one Exchange 2013 or Exchange 2016 running and available. 
 
 ### Exchange 2013/Exchange 2016 to Exchange 2019 with Skype for Business 2015
 
