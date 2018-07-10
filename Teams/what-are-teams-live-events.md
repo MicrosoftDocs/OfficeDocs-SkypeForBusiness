@@ -25,6 +25,8 @@ Related: [Microsoft Teams live events overview](https://support.office.com/en-us
 ## Key components
 The following diagram shows high level components involved in Microsoft 365 live events. 
 
+![Teams live events](media/teams-live-events.png)
+
 ### Scheduling
 Teams provides ability for the organizers to create an event with the appropriate attendee permissions, designate event team members, select production method invite attendees.  If the live event was created from within a Yammer group, the live event attendees will be able to use Yammer conversation for interacting with the event team. 
 
