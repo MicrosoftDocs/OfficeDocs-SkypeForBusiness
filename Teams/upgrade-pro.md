@@ -35,27 +35,27 @@ Segmented into three phases, Upgrade Pro covers:
 > [!Tip]
 > Download the [Upgrade Success Kit](https://aka.ms/UserReadiness) for template user readiness materials, such as communications and user surveys, in addition to a sample upgrade project plan and pilot test plan. Items that are available in the kit are marked with an asterisk (\*) in the lists below.  
 
-Days 1&ndash;5: Create your upgrade plan to help ensure your organization is set up for long-term success. 
+Days 1&ndash;7: Create your upgrade plan to help ensure your organization is set up for long-term success. 
 -   [Gather your project stakeholders](upgrade-enlist-stakeholders.md).
 -   [Define your project scope](upgrade-define-project-scope.md).
 -   [Understand upgrade and coexistence modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).
 
-Days 6&ndash;10: Evaluate your organization’s readiness for Teams.
+Days 8&ndash;15: Evaluate your organization’s readiness for Teams.
 -   [Prepare your environment for Teams](upgrade-prepare-environment.md).
 -   [Prepare your organization](upgrade-prepare-organization.md).
 -   Announce the pending launch of Microsoft Teams.\*
 -   Notify your helpdesk that it needs to prepare to support Teams.\*
 -   Conduct a launch event.*
 
-Days 10&ndash;40: Run a pilot to confirm that your organization is ready and inform your optimal journey to Teams.
+Days 16&ndash;60: Run a pilot to confirm that your organization is ready and inform your optimal journey to Teams.
 -   [Conduct a user pilot of Teams alongside Skype for Business](pilot-essentials.md).\*
 
-Day 45: Deploy Teams broadly to all users.
+Day 60: Deploy Teams broadly to all users.
 -   Announce the official launch of Teams.\*
 -   [Enable the appropriate coexistence mode for your users](setting-your-coexistence-and-upgrade-settings.md).\*
 -   Enlist your Teams champions.
 
-Day 45 until upgrade begins:
+Day 60 until upgrade begins:
 -   Make a plan to monitor the Teams [roadmap](https://aka.ms/skype2teamsroadmap) and continually assess organizational readiness, to identify the right time for your organization to move to Teams.
 -   Send additional communications to drive excitement and adoption of Teams.\*
 
