@@ -75,6 +75,7 @@ Here are the high-level steps to complete this migration. For more information, 
 5. Move mailboxes from your Exchange 2013 or Exchange 2016 server to your Exchange 2019 server.
 6. Decommission your Skype for Business 2015 server after the last user has been moved off of it.
 7. Decommission your Exchange 2013 or Exchange 2016 servers after the last mailbox has been moved off of it.
+
     > [!IMPORTANT]
     > If you rely on an auto attendant, keep at least one Exchange 2013 or Exchange 2016 running and available. 
 
