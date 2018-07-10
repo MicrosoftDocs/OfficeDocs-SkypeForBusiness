@@ -33,7 +33,7 @@ If you have an on-premises Skype for Business Server, Cloud Voicemail simplifies
 
 Cloud Voicemail takes the place of Exchange Unified Messaging (UM) and provides much of the same functionality. **(Need specifics on Exchange UM functionality)**   
 
-Because Exchange UM is being deprecated, if you are currently using Exchange UM, you will need to plan your migration strategy based on your current environment, version of Skype for Business and Exchange servers, and so on.  For more information about migration and interoperability, see INSERT LINK TO MIGRATION AND INTEROPERABILITY SECTION. 
+Because Exchange UM is being deprecated, if you are currently using Exchange UM, you will need to plan your migration strategy based on your current environment, version of Skype for Business and Exchange servers, and so on.  For more information about migration and interoperability, see [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md). 
 
 With Cloud Voicemail, your administration tasks are greatly simplified because:
 
@@ -87,15 +87,29 @@ If you are planning to deploy Skype for Business Server 2019 and/or Exchange Ser
 - Exchange Server 2019 no longer provides Exchange UM functionality
 - Skype for Business Server 2019 no longer integrates with Exchange Online UM
 
-Version interoperability and supported topologies for Cloud Voicemail are listed in the following table: 
+Version interoperability and supported topologies for Cloud Voicemail are listed in the following table.
 
- **IS THE FOLLOWING ACCURATE? ROY STILL WORKING ON TABLE...**
+**NOTE:**  For the preview release, Cloud Voicemail only works with Skype for Business Server and Exchange Server 2019 or Exchange Online.
+
+NEW VERSION OF TABLE
+
+IS THE FOLLOWING ACCURATE FOR JULY?
+
+|                               | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
+|:---------------------------    |:---------------------|:---------------------|:------------------|:---------------------- |
+| Skype for Business Server 2019 | Exchange Server UM | Exchange Server UM | Cloud Voicemail | Cloud Voicemail
+Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM |  | Cloud Voicemail <br> Exchange Online UM* |
+Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | | Cloud Voicemail <br> Exchange Online UM* |
+
+\* Until deprecated.
+
+ORIGINAL TABLE
 
 |                               | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---------------------------    |:---------------------|:---------------------|:------------------|:---------------------- |
 | Skype for Business Server 2019 | Exchange Server UM | Exchange Server UM | Cloud Voicemail | Cloud Voicemail
 Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM | Cloud Voicemail | Cloud Voicemail <br> Exchange Online UM* |
-Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | Cloud Voicemail | Cloud Voicemail <br> Exchange Online UM* |
+Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM |  | Cloud Voicemail <br> Exchange Online UM* |
 
 \* Until deprecated.
 
