@@ -40,7 +40,6 @@ items:
 
     To ask questions or send feedback about this training:
       - Post in the comments section at the bottom of the [Next steps](company-wide-team-creation-powershell.yml#step-7) page of this tutorial.
-      - Email us at [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Create company-wide team using PowerShell).
       - To give us your product feedback, such as feature requests, go to <a href="https://aka.ms/TeamsUserVoice" target="_blank">UserVoice</a>.
 
 - title: Minimum requirements
@@ -203,6 +202,5 @@ items:
 
     5.  Send us feedback
         - Give us feedback, or ask questions, about this training in the **Comments** section at the bottom of this page
-        - Email us at [AskTeams@Microsoft.com](mailto:askteams@microsoft.com?subject=Create company-wide team using PowerShell)
         - To give us Teams product feedback or to request a new feature, go to <a href="https://aka.ms/TeamsUserVoice" target="_blank">Teams UserVoice</a>
         

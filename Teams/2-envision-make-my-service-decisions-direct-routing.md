@@ -3,7 +3,7 @@ title: Make Phone System Direct Routing service decisions - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 07/09/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -167,8 +167,8 @@ they’re already included as part of the Office 365 E5 subscription plan.
 
 > [!TIP]
 > You can also use Direct Routing for the users who are enabled for Calling Plans
-when routing their calls to third-party PBXs. For more details, see [Licensing
-and other requirements of Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan#licensing-and-other-requirements).
+when routing their calls to third-party PBXs. For more details, see [Licensing and other requirements of Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan#licensing-and-other-requirements).
+
 
 |         |         |         |
 |---------|---------|---------|
@@ -203,8 +203,7 @@ FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6
 
 You need to use certified and supported session border controllers (SBCs) that
 need to be paired to the Direct Routing service to provide PSTN connectivity for
-your users. For a list of certified SBCs, see [Supported Session Border
-Controllers](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs).
+your users. For a list of certified SBCs, see [Supported Session Border Controllers](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs).
 
 Depending on your environment, number of locations, and voice routing
 requirements, you might need to deploy multiple SBCs to support your user base.
@@ -229,8 +228,8 @@ SBC DNS name in the subject, subject alternate name, or common name fields.
 > The use of wildcard certificates with SBCs is also supported.
 
 For more information and a list of supported certification authorities, see
-[Public trusted certificate for the
-SBC](https://docs.microsoft.com/microsoftteams/direct-routing-plan#public-trusted-certificate-for-the-sbc).
+[Public trusted certificate for the SBC](https://docs.microsoft.com/microsoftteams/direct-routing-plan#public-trusted-certificate-for-the-sbc).
+
 
 ### SBC IP addresses and ports
 
@@ -246,10 +245,9 @@ You need to define specific port numbers on each SBC for SIP signaling and
 media, and configure your firewalls to allow bidirectional traffic to these
 ports and their associated IP addresses.
 
-For more details, see [SIP Signaling: FQDNs and firewall
-ports](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sip-signaling-fqdns-and-firewall-ports)
-and [Media traffic: Port
-ranges](https://docs.microsoft.com/microsoftteams/direct-routing-plan#media-traffic-port-ranges).
+For more details, see [SIP Signaling: FQDNs and firewall ports](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sip-signaling-fqdns-and-firewall-ports)
+and [Media traffic: Port ranges](https://docs.microsoft.com/microsoftteams/direct-routing-plan#media-traffic-port-ranges).
+
 
 > [!NOTE]
 > We highly recommend setting a maximum concurrent session limit for each SBC,
@@ -347,6 +345,7 @@ one of the following two methods:
 
 For more details, see [Set Microsoft Teams as the preferred calling client for the users](https://docs.microsoft.com/microsoftteams/direct-routing-configure#set-microsoft-teams-as-the-preferred-calling-client-for-the-users).
 
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide which approach you’ll use to set Teams as the preferred client for calls.</ul>|
@@ -356,8 +355,8 @@ For more details, see [Set Microsoft Teams as the preferred calling client for t
 > When a user is configured for Teams-only mode, this user can no longer sign in
 > to Skype for Business.
 
-To have your users see the Calls tab in the Teams client, you need to enable
-private calling at an organizational level for the tenant. See [Enable Calling for Microsoft Teams](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-calling-for-microsoft-teams) for more details on how to enable private calls.
+To have your users see the Calls tab in the Teams client, you need to enable private calling at an organizational level for the tenant. See [Enable Calling for Microsoft Teams](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-calling-for-microsoft-teams) for more details on how to enable private calls.
+
 
 <!--ENDOFSECTION-->
 
