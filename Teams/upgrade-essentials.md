@@ -33,6 +33,8 @@ See our [FAQ](faq-journey.md) for additional questions about your upgrade.
 
 Not familiar with Teams? [Read about how Teams](https://products.office.com/microsoft-teams/group-chat-software) brings together conversations, meetings, files, Office apps, and third-party integrations—providing a single hub for teamwork in Office 365.
 
+<!--ENDOFSECTION-->
+
 <a name="step-1"></a>
 
 ## Step 1. Notify your key stakeholders
@@ -46,6 +48,8 @@ Senior leaders are accountable for company success; be sure to keep them in the 
 -   [Sample email: stakeholder communication](upgrade-emails-surveys.md#step-1-email)
  
 [Return to top](#about-upgrade-basic)
+
+<!--ENDOFSECTION-->
 
 <a name="step-2"></a>
 
@@ -67,6 +71,8 @@ Teams offers compatible Skype for Business functionality—such as IM (chat) and
 
 [Return to top](#about-upgrade-basic)
 
+<!--ENDOFSECTION-->
+
 <a name="step-3"></a>
 
 ## Step 3. Know your Skype for Business users
@@ -82,6 +88,8 @@ Users who are deeply adopted on Skype for Business might need a little more time
 [Return to top](#about-upgrade-basic)
 
 <a name="step-4"></a>
+
+<!--ENDOFSECTION-->
 
 ## Step 4. Notify your users that they’ll be upgrading from Skype for Business to Teams
 
@@ -100,6 +108,8 @@ Providing ample notice to your users will give them time to get familiar with Te
 
 [Return to top](#about-upgrade-basic)
 
+<!--ENDOFSECTION-->
+
 <a name="step-5"></a>
 
 ## Step 5. Activate the user upgrade notification
@@ -112,6 +122,8 @@ Maintain upgrade momentum by enabling the user upgrade notification via the admi
 -   [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
 [Return to top](#about-upgrade-basic)
+
+<!--ENDOFSECTION-->
 
 <a name="step-6"></a>
 
@@ -128,6 +140,8 @@ Users are busy with their daily responsibilities. Reminding them of the pending 
 
 <a name="step-7"></a>
 
+<!--ENDOFSECTION-->
+
 ## Step 7. Upgrade users to Teams!
 
 *(Upgrade Day)*
@@ -142,6 +156,8 @@ We recommend that after everyone has been upgraded, you send an email welcoming 
 -   [Sample email: welcome users to Teams](upgrade-emails-surveys.md#step-7-email)
 
 [Return to top](#about-upgrade-basic)
+
+<!--ENDOFSECTION-->
 
 <a name="step-8"></a>
 
@@ -159,6 +175,8 @@ Adjusting to a new technology can take some time. Check usage to verify that use
 
 <a name="step-9"></a>
 
+<!--ENDOFSECTION-->
+
 ## Step 9. Measure user satisfaction
 
 *(About one or two weeks after the upgrade)*
@@ -170,6 +188,8 @@ Employee satisfaction can influence productivity, retention, and—ultimately—
 -   [Sample email: check in with users](upgrade-emails-surveys.md#step-9-email), plus [user surveys](upgrade-emails-surveys.md#step-9-surveys)
 
 [Return to top](#about-upgrade-basic)
+
+<!--ENDOFSECTION-->
 
 <a name="step-10"></a>
 
@@ -183,6 +203,8 @@ After users are comfortable with IM (chat) and meetings in Teams, encourage them
 -   [Sample email: encourage users to explore Teams further](upgrade-emails-surveys.md#step-10-email)
 
 [Return to top](#about-upgrade-basic)
+
+<!--ENDOFSECTION-->
 
 <!--
 ## Sample emails

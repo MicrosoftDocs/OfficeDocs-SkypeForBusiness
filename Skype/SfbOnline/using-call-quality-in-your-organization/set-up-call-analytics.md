@@ -1,5 +1,5 @@
 ---
-title: "Set up Skype for Business Call Analytics"
+title: "Set up Call Analytics"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -21,7 +21,7 @@ ms.assetid:
 description: "Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems."
 ---
 
-# Set up Skype for Business Call Analytics
+# Set up Call Analytics
 
 As a Skype for Business Online admin, you can use Call Analytics to troubleshoot Skype for Business and Microsoft Teams call quality and connection problems. You may find it useful to set up the following capabilities in Call Analytics:
   
@@ -29,13 +29,15 @@ As a Skype for Business Online admin, you can use Call Analytics to troubleshoot
     
 - Add building, site, and tenant information to Call Analytics by uploading a .tsv or .csv data file.
     
-> [!NOTE]
-> Call Analytics is now available in the Microsoft Teams and Skype for Business admin center at https://admin.teams.microsoft.com. Helpdesk agent permissions and network topology upload will be available in the new admin portal in the coming months. In the meantime you can continue to use the endpoint at https://adminportal.services.skypeforbusiness.com for Tier 1 and Tier 2 helpdesk access. 
+**Call Analytics is now available in the Microsoft Teams and Skype for Business Admin Center.** To see all of the call information and data for a user, use the **Call History** tab. You can do this by looking on the user's profile page by either searching for the user from the dashboard or finding the user from **Users** in the left navigation.
+
+> [!IMPORTANT]
+> Helpdesk agent permissions and network topology upload will be available in the new admin portal in the coming months. In the meantime, you can continue to use  https://adminportal.services.skypeforbusiness.com for Tier 1 and Tier 2 helpdesk access.
   
 ## Set Call Analytics permissions
 <a name="BKMK_SetCAPerms"></a>
 
-As the admin, you get full access to all the features of Call Analytics. In addition, you can use a helpdesk model in Call Analytics that includes Tier 1 and Tier 2 permission groups. Users with Tier 1 permissions can access only a limited view of Call Analytics. Users with Tier 2 permissions can access the full functionality of Call Analytics. Both permission levels prevent access to the rest of the Skype for Business admin center. You can grant access to the tiers by adding a group that contains the user to either the Tier 1 or the Tier 2 section of the Permissions page. For details, see [Set up tiered permissions in Call Analytics](set-up-call-analytics.md#BKMK_SetUpTier).
+As the admin, you get full access to all the features of Call Analytics. In addition, you can use a helpdesk model in Call Analytics that includes Tier 1 and Tier 2 permission groups. Users with Tier 1 permissions can access only a limited view of Call Analytics. Users with Tier 2 permissions can access the full functionality of Call Analytics. Both permission levels prevent access to the rest of the Microsoft Teams and Skype for Business Admin Center. You can grant access to the tiers by adding a group that contains the user to either the Tier 1 or the Tier 2 section of the Permissions page. For details, see [Set up tiered permissions in Call Analytics](set-up-call-analytics.md#BKMK_SetUpTier).
   
 Tier 1 helpdesk agents handle basic call-quality problems. Tier 1 agents don't investigate issues with meetings; they collect related information and then escalate to a Tier 2 agent. Tier 2 agents see information in detailed call logs that's hidden from Tier 1 agents. The following table gives an overview of information available to agents using Call Analytics.
 
@@ -55,16 +57,16 @@ Tier 1 helpdesk agents handle basic call-quality problems. Tier 1 agents don't i
  **Set up tiered permissions in Call Analytics**
 <a name="BKMK_SetUpTier"> </a>
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
   
 1. Create Office 365 security groups for Tier 1 and Tier 2, and add the people you want to each group. You can also reuse existing security groups. For more information, see [Create, edit, or delete a security group in the Office 365 admin center](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb).
     
 2. In the Office 365 admin center, go to **Admin centers** > **Skype for Business**.
-    
+
     > [!NOTE]
-    > If you land in the old Skype for Business admin center, go to the new version by clicking **Come try our new admin center**. 
+    > If you are in the **Microsoft Teams and Skype for Business Admin Center**, in the left navigation, click **Legacy portal**.
   
-3. In the new Skype for Business admin center, click **Permissions**.
+3. In the **Call Analytics (preview)**, click **Permissions**.
     
 4. Add the Office 365 security groups to the **Tier 1** and **Tier 2** boxes. You can add multiple groups to each role.
     
@@ -86,7 +88,7 @@ If you're creating the .tsv or .csv file from scratch, see [Tenant data file for
 ## Related topics
 <a name="BKMK_UploadFiles"> </a>
 
-[Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 
