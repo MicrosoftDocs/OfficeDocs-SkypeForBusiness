@@ -26,7 +26,7 @@ Segmented into three phases, Upgrade Pro covers:
 -    **Post-upgrade**: After your entire organization is on Teams, implement a plan to maximize value. This includes monitoring your network for quality, promoting adoption of Teams while ensuring that Skype for Business usage is winding down, and planning for expanded functionality as the Teams roadmap continues to evolve.
  
 > [!NOTE]
-> The plan below is based on the assumption that you’ve enabled [**Islands** mode](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md#islands-mode) for your users before the upgrade and you’ve segmented your upgrade journey into four upgrade groups, or waves, allowing you to control the user upgrade experience while maintaining momentum. Adjust the plan as needed to meet the needs of your organization. Additional guidance based on expanded coexistence capabilities will be available later this year.
+> We understand that your journey to Teams might involve leveraging multiple [modes](https://aka.ms/skypetoteams-coexist) and upgrading groups of users at different times, which will enable you to control the user upgrade experience while maintaining momentum with Teams. To help demonstrate how your upgrade journey might unfold, we’ve provided a sample plan below that defines a journey going from Skype for Business to **Islands** mode to Teams only. In addition, the sample plan outlines an organization that has divided their users into four upgrade groups, or _cohorts_. Using this as a template, customize the plan to encompass your specific journey to Teams, incorporating the various [modes](https://aka.ms/skypetoteams-coexist) you’ll use and the number of upgrade groups you’ll segment your users into.
 
 ## Pre-Upgrade
 

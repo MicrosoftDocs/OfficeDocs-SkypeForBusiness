@@ -22,6 +22,8 @@ Supporting Microsoft’s intelligent communications vision, Microsoft Teams is t
 
 Your upgrade journey might take some time, and we’re here to support you every step of the way. Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we’re working hard to bring you the right level of guidance for your organization and encourage you to take the next steps to begin realizing the value Teams can offer your organization.
 
+View this [abstract](https://aka.ms/UpgradeAbsract) for an overview of the Skype for Business to Teams upgrade journey, including core concepts, framework, and upgrade paths.
+
 ## Upgrade journey framework
 
 To help take the guesswork out of your upgrade journey, we’ve employed a proven success framework for driving change, incorporating guidance, tips, and resources throughout. Each step builds on the previous one and for optimal results, we recommend following the steps in order.
