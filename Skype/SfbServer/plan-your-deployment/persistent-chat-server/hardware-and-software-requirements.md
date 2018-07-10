@@ -55,10 +55,12 @@ Persistent Chat Server requires SQL Server database software to store chat room 
 To prepare a database server platform, be sure that each computer meets the hardware requirements, and then install the prerequisite software. The server platform for the Persistent Chat database servers requires the same hardware as the Skype for Business Server 2015 back-end database server. For details, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
   
 On the database server, be sure that one of the following software applications is installed:
-  
-- Microsoft SQL Server 2012. For details about how to install Microsoft SQL Server 2012, see [Install SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559).
-    
-- Microsoft SQL Server 2008 R2. For details about how to install Microsoft SQL Server 2008 R2, see [SQL Server Installation (SQL Server 2008 R2)](https://go.microsoft.com/fwlink/p/?LinkId=275702).
+
+- Microsoft SQL Server 2016, and you must run with Skype for Business Server Cumulative Update 7 or later releases. We recommended running SQL Server 2016 with the latest service pack. For details about how to install Microsoft SQL Server 2016, see [Install SQL Server 2016](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
+
+- Microsoft SQL Server 2012 (64-bit edition), and we recommended running with the latest service pack. For details about how to install Microsoft SQL Server 2012, see [Install SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559).
+
+- Microsoft SQL Server 2008 R2 (64-bit edition), and we recommended running with the latest service pack. For details about how to install Microsoft SQL Server 2008 R2, see [SQL Server Installation (SQL Server 2008 R2)](https://go.microsoft.com/fwlink/p/?LinkId=275702). 
     
 ## Persistent Chat Server certificate requirements
 
