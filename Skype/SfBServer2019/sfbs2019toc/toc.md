@@ -227,6 +227,8 @@
 ###### [(Optional) Verify Announcement deployment](../../SfbServer/deploy/deploy-enterprise-voice/optional-verify-announcement-deployment.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Deploy Shared Line Appearance](../../SfbServer/deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Install and configure Busy Options](../../SfbServer/deploy/deploy-enterprise-voice/install-and-configure-busy-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Deploy unified contact store](../../SfbServer/deploy/deploy-unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Deploy Skype Connectivity](../../SfbServer/deploy/deploy-skype-connectivity.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Deploy conferencing](../../SfbServer/deploy/deploy-conferencing/deploy-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Office Web App Server](../../SfbServer/deploy/deploy-conferencing/office-web-app-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Dial-in conferencing](../../SfbServer/deploy/deploy-conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
