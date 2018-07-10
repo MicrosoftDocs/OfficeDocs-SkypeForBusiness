@@ -1,9 +1,9 @@
 ---
 title: "Deploy Skype for Business Server 2019"
-ms.author: kenwith
-author: kenwith
+ms.author: jambirk
+author: jambirk
 manager: serdars
-ms.date: 12/20/2018
+ms.date: 7/9/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,7 +12,7 @@ ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: 
-ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
+ms.assetid: 
 description: "Summary: Explore these links to learn how to install and configure Skype for Business Server 2019."
 ---
 
