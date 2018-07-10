@@ -27,10 +27,7 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
 # Plan for quality
 
- 
-## Introduction
-
-This content will provide an overview of the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. You can help ensure a successful deployment by planning for service management and quality during the Envision phase, before your first pilot or production deployment.
+This content will provide an overview of the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. You can help ensure a successful deployment by planning for service management and quality, before your first pilot or production deployment.
 
 The guidance is organized into the following sections:
 
@@ -42,21 +39,21 @@ The guidance is organized into the following sections:
 
 -   Lastly, next steps are summarized with references to related content.
 
-## Key components that affect user experience
+## Key technical components that affect user experience
 
-The key components that affect user experience will be reviewed in this section. Before reviewing the key components, it’s critical that you understand user experience and its importance in realizing your organization’s business goals. Let’s review how we define the user experience first.
+The key technical components that affect user experience will be reviewed in this section. Before reviewing the key components, it’s critical that you understand user experience and its importance in realizing your organization’s business goals. Let’s review how we define the user experience first.
 
 ### User experience defined
 
-Business goals can be realized when you deploy Microsoft Teams and incorporate communications into your business processes to enhance their workflow. Quality drives adoption and usage: if your organization delivers a high-quality service that delights people, then individuals and teams can gain confidence and find new and innovative ways of using the service that drive business benefits.
+Business goals can be realized when you deploy Microsoft Teams and when users adopt Teams as their core collaboration and communication solution. Quality can help ensure a positive user experience, a key attribute in driving usage and adoption. By delivering a high-quality service that delights people, individuals and teams can gain confidence and find new and innovative ways of using the service that drive business benefits.
 
-At the heart of this is the user’s experience with Teams—the person’s emotions and attitudes toward the service. So what contributes to the user experience? It ranges from users’ knowing how to use Teams and incorporating it into their daily workflow to experiencing exceptional call quality and being able to connect reliably, regardless of where they are. User experience is very broad in nature; this document focuses only on those elements that can be controlled by your organization.
+At the heart of this is the user’s experience with Teams—the person’s emotions and attitudes toward the service. So what contributes to the user experience? It ranges from users’ knowing how and why to use Teams and incorporating it into their daily workflow to experiencing exceptional call quality and being able to connect reliably, regardless of where they are. User experience is very broad in nature; this article focuses only on those technical elements that can be controlled by your organization. Additional information about user readiness can be found in [Prepare your organization for Teams](upgrade-prepare-organization.md).
 
 There are specific requirements to the deployment that are critically important to deliver a fantastic user experience—especially when using the Cloud Voice features in Teams. It is critical to treat Microsoft Teams as a first-class citizen with other communication and collaboration investments, prioritizing real-time traffic accordingly. The following section gives an overview of the key components that affect user experience. In further sections, we will provide you guidance on how to start planning to deploy and maintain the key components that comprise quality.
 
 ### Key components of quality
 
-An organization or supporting partner should start planning for three key components during the Envision phase of a Teams deployment: service management, network, and endpoints. The combination of all three areas is fundamental to the quality of the user experience.
+An organization or supporting partner should start planning for three key components during the Technical Readiness stage of a Teams deployment: service management, network, and endpoints. The combination of all three areas is fundamental to the quality of the user experience.
 
 ![Diagram illustrating the three components of quality, and how service management overlaps all three components.](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagram illustrating the three components of quality, and how service management overlaps all three components.")
 
@@ -84,7 +81,7 @@ For detailed guidance about network planning, see [Plan for network quality](#pl
 
 Microsoft Teams supports a variety of endpoints. From PCs to tablets to phones, you can access Teams anywhere from virtually any device.
 
-To give your users the best experience possible, you need to consider these important aspects during the Envision phase: Do your endpoints meet the Teams hardware and software requirements? Have you configured and optimized endpoints to support Wi-Fi networks? Which devices will you use to make and receive voice calls? Are those devices optimized for Teams?
+To give your users the best experience possible, you need to consider these important aspects: Do your endpoints meet the Teams hardware and software requirements? Have you configured and optimized endpoints to support Wi-Fi networks? Which devices will you use to make and receive voice calls? Are those devices optimized for Teams?
 
 For detailed guidance about endpoint planning, see [Plan for endpoint quality](#plan-for-endpoint-quality).
 
@@ -102,7 +99,7 @@ Service management encompasses all the activities and processes involved in mana
 
 **What**, **Who**, and **How** are three important questions that need to be answered when it comes to service management.
 
-You can use the Operations Guide [Link to Operations Guide] to help you address all three of these questions. The guide provides a list of activities to be performed on a daily, weekly, monthly, and as-needed basis. These activities and tasks are critical for maintaining a high-quality Teams deployment. Determining who will be responsible for performing specific activities in service management is a critical aspect of your planning that you need to do early in the Envision phase to ensure a successful deployment. After you’ve figured out the tasks and activities, they need to be understood and followed by the groups or individuals that you assign to them. The Operations Guide provides knowledge and guidance for how to perform each of the tasks, and/or references to outside content.
+You can use the [Operations Guide](1-drive-value-operate-my-service.md) to help you address all three of these questions. The guide provides a list of activities to be performed on a daily, weekly, monthly, and as-needed basis. These activities and tasks are critical for maintaining a high-quality Teams deployment. Determining who will be responsible for performing specific activities in service management is a critical aspect of your planning that you need to do early in the [planning stage](upgrade-enlist-stakeholders.md) to ensure a successful deployment. After you’ve figured out the tasks and activities, they need to be understood and followed by the groups or individuals that you assign to them. The Operations Guide provides knowledge and guidance for how to perform each of the tasks, and/or references to outside content.
 
 ### Operational role mapping
 
@@ -110,7 +107,7 @@ Planning for service management early is a critical milestone, because the opera
 
 After sign-off is complete, the responsible team must then start operationalizing these roles and responsibilities. This might include training and readiness, updating the staffing model, or ensuring that external partners are ready to deliver.
 
-Mapping operational roles early in the Envision phase enables all teams to start their operational tasks during the pilot, and ramp up operations and make sure that everything is ready after the deployment starts.
+Mapping operational roles as you gather your [project team](upgrade-enlist-stakeholders.md) enables all teams to start their operational tasks during the pilot, and ramp up operations and make sure that everything is ready after the deployment starts.
 
 The Operations Guide provides a list of common tasks mapped to typical roles that should be valid in most scenarios. You need to customize these responsibilities to work for your organization.
 
@@ -120,7 +117,7 @@ A group or individual needs to be accountable for quality in all organizations. 
 
 The Quality Champion leverages existing tools and documented processes, such as the Call Quality Dashboard (CQD) and the Quality Experience Review Guide, to monitor user experience, identify quality trends, and drive remediation where needed. The Quality Champion works with the respective teams to drive remediation actions, reporting to a steering committee on their progress and open issues.
 
-The tasks and activities associated with the role have been documented in the Operations Guide. This role should be assigned early in the Envision phase. A key step in operationalizing the role of Quality Champion is gaining the knowledge required for the role and ensuring the prerequisites are in place to deliver on the tasks. A key task for this role is running a regular Quality Experience Review.
+The tasks and activities associated with the role have been documented in the Operations Guide. This role should be assigned during the [planning stage](upgrade-enlist-stakeholders.md). A key step in operationalizing the role of Quality Champion is gaining the knowledge required for the role and ensuring the prerequisites are in place to deliver on the tasks. A key task for this role is running a regular Quality Experience Review.
 
 ### Introduction to the Quality Experience Review Guide
 
@@ -208,7 +205,7 @@ The configuration required to bypass the proxy server varies among vendors, but 
 
 Some proxy server vendors provide an automated process for ensuring the configuration is up to date. If your vendor doesn’t provide this automatic process, you can download an updated PAC file from <https://aka.ms/o365proxies>.
 
-[Proxy Servers for Skype for Business Online and Teams](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[Proxy Servers for Skype for Business Online and Teams](/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
 
 #### Firewalls
 
@@ -340,7 +337,7 @@ This table includes a summary of planning activities with links to related conte
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Plan for service management | Conduct an operational role mapping exercise <br/> Signoff from accountable teams <br/> Role readiness | [Operations Guide](1-drive-value-operate-my-service.md) |
 | | Nominate Quality Champion(s) <br/> Quality Champion readiness| [Learn CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Quality Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
-| | Install Quality Experience Review templates <br/> Upload a building file | [QERLite templates](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/> [Upload Building Information](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
+| | Install Quality Experience Review templates <br/> Upload a building file | [QERLite templates](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/> [Upload Building Information](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
 | Plan for network quality | Run the Network Planner | [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Implement QoS | [Quality of Service in Microsoft Teams](qos-in-teams.md) |
 | | Bypass proxy servers | [Proxy Guidance](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
