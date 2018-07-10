@@ -46,7 +46,7 @@ To learn more, read [Here’s what you get with Phone System in Office 365](http
 
 Direct Routing works with the Phone System feature to give people in your organization the ability make and receive phone calls outside of the organization over the PSTN, where PSTN connectivity is provided via third-party service providers.
 
-To learn more, read [Plan Direct Routing](direct-routing-plan.md) and [Configure Direct Routing](direct-routing-configure).
+To learn more, read [Plan Direct Routing](direct-routing-plan.md) and [Configure Direct Routing](direct-routing-configure.md).
 
 ## Practical guidance for Audio Conferencing, Calling Plans, and Direct Routing in Microsoft Teams
 
