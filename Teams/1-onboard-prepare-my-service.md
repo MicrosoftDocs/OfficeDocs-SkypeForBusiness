@@ -208,9 +208,6 @@ sites in scope:**
 **Direct Routing testing prerequisites and assumptions for users and
 sites in scope:**
 
-> [!NOTE]
-> This is a preview release of Microsoft Phone System Direct Routing. Product functionality and documentation are subject to change.
-
 -   Business use case definition for the Direct Routing service has been completed.
 
 -   Licensing required for Direct Routing is available and has been assigned.
