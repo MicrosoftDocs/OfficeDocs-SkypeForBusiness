@@ -87,25 +87,25 @@ The following table highlights core capabilities offered in Live events and how 
 |---------|---------|---------|---------|
 |Maximum audience size |10,000 internal or external attendees |10,000 internal or external attendees |10,000 internal or external attendees |
 |Live event creation |   Skype Meeting Broadcast Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
-|Audience engagement – Yammer |&#x2714 |&#x2714 (integrated experience) |&#x2714 (integrated experience) |
-|Audience engagement – Moderated Q & A |&#x2714  |&#x2714 |&#x2714 |
-|Producer client on Windows |&#x2714 (Skype for Business) |&#x2714 (Teams) |&#x2714 (Stream, Teams via Stream Embed) |
-|Producer client on Mac |X  | &#x2714 (Teams) |&#x2714 (Stream, Teams via Stream Embed) |
-|Live attendee count in Producer UI |X  |&#x2714 (Teams) |&#x2714 (Stream, Teams via Stream Embed) |
-|Allows multiple presenters |&#x2714 (Skype for Business) |&#x2714 (Teams) |N/A  |
-Invite a presenter during the meeting |&#x2714 (Skype for Business) |X |N/A |
-|Presenter join on Web and Mobile |&#x2714 (Skype for Business)  |X |N/A |
-|Presenter – PSTN access |X |&#x2714 (Teams) |N/A |
-|Present a screen |X |&#x2714 (Teams) |N/A |
-|Present a PowerPoint (PPT Sharing) |&#x2714 |X (mitigated via screen sharing) |N/A |
-|Cloud based meeting recording |&#x2714 |&#x2714 |&#x2714 |
-|Auto Publish Recording to Microsoft Stream |X |X |&#x2714 |
-|Real Time Captions and Translation |&#x2714 |&#x2714 (coming soon) |X |
-|Captions in live event recordings |&#x2714 |&#x2714 |&#x2714 |
-|Attendee DVR controls (pause, rewind) |&#x2714 |&#x2714 |&#x2714 |
+|Audience engagement – Yammer |&#x2714; |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
+|Audience engagement – Moderated Q & A |&#x2714;  |&#x2714; |&#x2714; |
+|Producer client on Windows |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Producer client on Mac |X  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Live attendee count in Producer UI |X  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Allows multiple presenters |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
+Invite a presenter during the meeting |&#x2714; (Skype for Business) |X |N/A |
+|Presenter join on Web and Mobile |&#x2714; (Skype for Business)  |X |N/A |
+|Presenter – PSTN access |X |&#x2714; (Teams) |N/A |
+|Present a screen |X |&#x2714; (Teams) |N/A |
+|Present a PowerPoint (PPT Sharing) |&#x2714; |X (mitigated via screen sharing) |N/A |
+|Cloud based meeting recording |&#x2714; |&#x2714; |&#x2714; |
+|Auto Publish Recording to Microsoft Stream |X |X |&#x2714; |
+|Real Time Captions and Translation |&#x2714; |&#x2714; (coming soon) |X |
+|Captions in live event recordings |&#x2714; |&#x2714; |&#x2714; |
+|Attendee DVR controls (pause, rewind) |&#x2714; |&#x2714; |&#x2714; |
 |Partner eCDN Support |(Hive, Kollective, Ramp) |(Hive, Kollective, Ramp) |(Hive, Kollective, Ramp) |
-|Post-broadcast attendance report for Producers |&#x2714 |&#x2714 |X |
-|Audience Sentiment Analysis – Live voting & polls |&#x2714 (Microsoft Pulse) |X |X |
+|Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |X |
+|Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |X |X |
 
 ## Planning & Setup
 This article explains how you can setup users with Teams live events in your organization.
