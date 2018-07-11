@@ -107,6 +107,39 @@
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 <!-- ============================================================ -->
 
+<!-- NEW ============================================================ -->
+# [Upgrade from Skype for Business to Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
+## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Upgrade Basic](upgrade-essentials.md)
+### [Sample emails and surveys](upgrade-emails-surveys.md)
+## [Upgrade Pro](upgrade-pro.md)
+## [Plan for your upgrade journey](upgrade-plan-journey.md)
+### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
+### [Define your project scope](upgrade-define-project-scope.md)
+### [Understand coexistence and interoperability](upgrade-understand-coexistence-and-interoperability.md)
+#### [Choose your upgrade journey](upgrade-plan-upgrade-journey.md)
+### [Plan for quality](upgrade-plan-for-quality.md)
+## [Prepare your environment for Teams](upgrade-prepare-environment.md)
+### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
+### [Prerequisites](upgrade-plan-journey-prerequisites.md)
+### [Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)
+### [Prepare your network](upgrade-prepare-environment-prepare-network.md)
+### [Prepare your service](upgrade-prepare-environment-prepare-service.md)
+## [Prepare your organization for Teams](upgrade-prepare-organization.md)
+### [Assess organizational change readiness](upgrade-org-change-readiness.md)
+### [Prepare a user readiness plan](upgrade-user-readiness.md)
+## [Conduct a user pilot](pilot-essentials.md)
+## [Perform your upgrade to Teams](upgrade-to-teams.md)
+### [Upgrade from Skype for Business online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [Upgrade from Skype for Business hybrid to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
+### [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+## [Drive value through user adoption](continue-journey.md)
+### [Operate your service](upgrade-operate-my-service.md)
+### [Monitor quality](upgrade-monitor-quality.md)
+### [Enhance your service](upgrade-enhance-my-service.md)
+## [Upgrade FAQ](FAQ-journey.md)
+
+<!-- END NEW ============================================================ -->
 
 <!-- ============================================================ -->
 # Security & compliance
