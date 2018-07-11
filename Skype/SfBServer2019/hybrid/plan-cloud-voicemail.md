@@ -62,11 +62,11 @@ Unanswered calls are handled as follows:
 
 The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  For more information about deploying Skype for Business Server and supported topologies, see INSERT LINK HERE.
 
-**WHAT ARE THE POSSIBLE STARTING TOPOLOGIES:** 
+**WHAT ARE THE POSSIBLE STARTING TOPOLOGIES? REQUIREMENTS DEPEND ON STARTING POINT** 
 
-    -  **Full SfB Server split domain w or w/o hosted Exchange UM**
-    -  **SfB on prem with hosted Exchange UM**
-    -  **Exchange UM on prem**
+    -  Full SfB Server split domain w or w/o hosted Exchange UM
+    -  SfB on prem with hosted Exchange UM
+    -  Exchange UM on prem
 
 
 - **Hybrid connectivity.**  If you already have Skype for Business Server deployed, and you want to enable Cloud Voicemail for your on-premises users, you must ensure that you have hybrid connectivity set up between your on-premises and online environments.  This is sometimes called a split domain configuration. Hybrid connectivity requires the following:
@@ -109,7 +109,7 @@ Microsoft recommends the following migration paths:
 
 -  If you are upgrading to Skype for Business Server 2019, you can use Exchange UM in Exchange Server 2013 or 2016, but you must upgrade to Cloud Voicemail if you are using Exchange Server 2019.
 
-- If you are upgrading to Exchange Server 2019, and you are using previous versions of Exchange Server UM for Skype for Business Server voice messaging, it is recommended that you will need to upgrade to Skype for Business Server 2019 firsta before the mailbox upgrade.  Otherwise, voice messaging capabilities will be lost. 
+- If you are upgrading to Exchange Server 2019, and you are using previous versions of Exchange Server UM for Skype for Business Server voice messaging, Microsoft recommendeds that you upgrade to Skype for Business Server 2019 before the mailbox upgrade.  Otherwise, voice messaging capabilities will be lost. 
 
 
 For more information about planning your migration, see [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md).
