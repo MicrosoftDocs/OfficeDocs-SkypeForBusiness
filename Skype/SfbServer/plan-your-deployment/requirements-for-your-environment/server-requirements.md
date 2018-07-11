@@ -112,7 +112,7 @@ You will need to set up the infrastructure for archiving storage. This includes 
 > [!NOTE]
 > To support users who are not homed on Exchange servers, or if you do not want to use the Microsoft Exchange integration option, you must deploy archiving storage using a 64-bit SQL Server database. 
     
-You must set up the SQL Server platforms prior to deploying and enabling archiving. If the account to be used to publish the topology has the appropriate administrator rights and permissions, you can create the Archiving database (LcsLog) when you publish your topology. You can also create the database later, included as part of the installation procedure. For details about SQL Server, see the [SQL Server TechCenter](https://go.microsoft.com/fwlink/p/?linkID=129045).
+You must set up the SQL Server platforms prior to deploying and enabling archiving. If the account to be used to publish the topology has the appropriate administrator rights and permissions, you can create the Archiving database (LcsLog) when you publish your topology. You can also create the database later, included as part of the installation procedure. For details about SQL Server, see the [SQL Server documentation](https://go.microsoft.com/fwlink/p/?linkID=129045).
     
 The load increase for archiving can be significant. Therefore, you should ensure that disk space is adequate for Front End Servers on which archiving is enabled.
 
