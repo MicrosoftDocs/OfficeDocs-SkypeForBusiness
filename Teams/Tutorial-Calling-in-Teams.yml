@@ -48,7 +48,7 @@ items:
   content: |
     Out of the box, Teams supports the ability for users to make voice over IP (VoIP) calls from Teams client to Teams client.
 
-    In Teams, there are two options to enable isers users to make, receive, and transfer calls to and from landlines and mobile phones on the public switched telephone network (PSTN):
+    In Teams, there are two options to enable users users to make, receive, and transfer calls to and from landlines and mobile phones on the public switched telephone network (PSTN):
     - With Phone System with Calling Plans Microsoft provides the phone number to your users and all PSTN services
     - With Direct Connect you can connect your existing PSTN connectivity via an SBC (Session Boarder Controller) to Microsoft Teams.
 
@@ -76,7 +76,7 @@ items:
     ### Emergency Services calling
     It’s important that you understand how the Emergency Services calling feature operates differently in Teams than in traditional telephone services. You must make sure your users also understand those differences. For example, when they use Teams to call emergency services (such as 911 in the United States), users need to be aware that Teams might not be able to determine the actual location of the caller.
 
-    <span style="color:red">**Action**:</span> Review [Emergency calling terms and conditions](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions) for detailed information about Emergency Services calling.
+    <span style="color:red">**Action**:</span> Review [Emergency calling terms and conditions](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) for detailed information about Emergency Services calling.
 
 - title: Considerations for Skype for Business Online customers
   durationInMinutes: 2
@@ -382,7 +382,7 @@ items:
     routing?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
 
     -   [Emergency calling terms and
-    conditions](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions)
+    conditions](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
 
     ###Voicemail
 
