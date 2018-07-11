@@ -60,14 +60,13 @@ Unanswered calls are handled as follows:
 
 **We will refer to the hybrid connectivity docs as much as possible.**
 
-The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  For more information about deploying Skype for Business Server and supported topologies, see INSERT LINK HERE.
-
 **WHAT ARE THE POSSIBLE STARTING TOPOLOGIES? REQUIREMENTS DEPEND ON STARTING POINT** 
 
-    -  Full SfB Server split domain w or w/o hosted Exchange UM
-    -  SfB on prem with hosted Exchange UM
-    -  Exchange UM on prem
+-  Full SfB Server split domain w or w/o hosted Exchange UM
+-  SfB on prem with hosted Exchange UM
+-  Exchange UM on prem
 
+The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  
 
 - **Hybrid connectivity.**  If you already have Skype for Business Server deployed, and you want to enable Cloud Voicemail for your on-premises users, you must ensure that you have hybrid connectivity set up between your on-premises and online environments.  This is sometimes called a split domain configuration. Hybrid connectivity requires the following:
 
