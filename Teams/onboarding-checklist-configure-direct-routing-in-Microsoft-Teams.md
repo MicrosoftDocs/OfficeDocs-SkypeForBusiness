@@ -16,9 +16,6 @@ appliesto:
 
 # Configure Direct Routing in Microsoft Teams
 
-> [!NOTE]
-> This is a preview release of Microsoft Phone System Direct Routing. Product functionality and documentation are subject to change.
-
 ## Direct Routing
 
 | No | Activity or task | Description | Completed? | Additional information |
