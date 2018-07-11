@@ -29,7 +29,7 @@ To run the SEFAUtil tool you must run Steps 1, 2, and 3 from the Skype for Busin
 SEFAUtil requires the local configuration store to be present, as well as a certificate.
   
 > [!NOTE]
-> For more details about running SEFAUtil, see the Technet blog article, "[How to get SEFAutil running?](https://go.microsoft.com/fwlink/?LinkId=278940)". 
+> For more details about running SEFAUtil, see the  blog article, "[How to get SEFAutil running?](https://go.microsoft.com/fwlink/?LinkId=278940)". 
   
 ### To deploy SEFAUtil
 

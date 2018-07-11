@@ -112,7 +112,7 @@ The Lync VDI plug-in was designed to use platform-independent APIs called Dynami
 In a VDI environment, the virtual machines and the user's local computer must meet the requirements outlined in this section.
   
 > [!NOTE]
->  Your virtualization solution provider can supply details about how to install and deploy their environment. For general information about deploying a virtualized environment based on Hyper-V and Remote Desktop Services, see the following articles in the Microsoft TechNet Library: [Hyper-V](https://go.microsoft.com/fwlink/p/?linkid=247514), [Remote Desktop Services in Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?linkid=247513) 
+>  Your virtualization solution provider can supply details about how to install and deploy their environment. For general information about deploying a virtualized environment based on Hyper-V and Remote Desktop Services, see the following articles in the Microsoft Library: [Hyper-V](https://go.microsoft.com/fwlink/p/?linkid=247514), [Remote Desktop Services in Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?linkid=247513) 
   
 Virtual machines must be configured with Windows 8, Windows 7, or Windows Server 2008 R2 with the latest service packs.
   

@@ -29,7 +29,7 @@ View the following resources for information about how to manage Skype for Busin
 |![Icon for technical diagrams](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server](../technical-diagrams.md) <br/> |See architecture choices at a glance in these large-format diagrams.  <br/> |
 |![Icon for videos](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Video demos and training -  *coming soon!*  <br/> |Discover video presentations and training for Skype for Business Server.  <br/> |
    
-## TechNet articles about managing Skype for Business Server
+##  Articles about managing Skype for Business Server
 
 The following articles about how to configure, monitor, and maintain Skype for Business Server are available to view online. 
   

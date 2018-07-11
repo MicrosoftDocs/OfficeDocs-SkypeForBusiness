@@ -23,14 +23,6 @@ description: "Summary: Explore these links to learn how to install and configure
 Skype for Business Server offers instant messaging (IM), presence, conferencing, video, and telephony solutions that can support enterprise-level collaboration requirements. This topic provides links to information about how to deploy and configure Skype for Business Server. 
   
 Writers update articles on a continuing basis as new information becomes available and as users provide feedback. This page will be updated frequently, so check back often.
-## Visual resources about how to deploy Skype for Business Server
-
-View the following resources for information about how to deploy Skype for Business Server.
-  
-||Content|Description|
-|:-----|:-----|:-----|
-|![Icon for technical diagrams](https://docs.microsoft.com/en-us/office/media/icons/process-flow-blue.svg)|[Technical diagrams for Skype for Business Server](../../SfbServer/technical-diagrams.md)  <br/> |See architecture choices at a glance in these large-format diagrams.  <br/> |
-|![Icon for videos](https://docs.microsoft.com/en-us/office/media/icons/video-play.svg)|Videos about how to install Skype for Business Server -  *coming soon!*  <br/> |Discover video presentations and training for Skype for Business Server.  <br/> |
    
 ##  Articles about Skype for Business Server installation and configuration
 

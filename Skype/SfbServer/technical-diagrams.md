@@ -32,7 +32,7 @@ You might need additional software to view these files. See the following table 
    
 ## Posters
 
-These posters detail a specific technical area, and are intended to be used with corresponding articles on TechNet or content available on the download center. 
+These posters detail a specific technical area, and are intended to be used with corresponding articles or content available on the download center. 
   
 |**Title**|**Description**|
 |:-----|:-----|
