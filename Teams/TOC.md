@@ -137,7 +137,7 @@
 ### [Operate your service](upgrade-operate-my-service.md)
 ### [Monitor quality](upgrade-monitor-quality.md)
 ### [Enhance your service](upgrade-enhance-my-service.md)
-## [Upgrade FAQ](FAQ-journey.md)
+## [FAQ](FAQ-journey.md)
 
 <!-- END NEW ============================================================ -->
 
