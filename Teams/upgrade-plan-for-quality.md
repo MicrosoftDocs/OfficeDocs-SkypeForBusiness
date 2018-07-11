@@ -27,7 +27,7 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
 # Plan for quality
 
-This content will provide an overview of the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. You can help ensure a successful deployment by planning for service management and quality, before your first pilot or production deployment.
+If you’re deploying audio, video, or meetings, you can take some additional steps to optimize your network for that functionality. This content will provide an overview of the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. You can help ensure a successful deployment by planning for service management and quality, before your first pilot or production deployment.
 
 The guidance is organized into the following sections:
 
@@ -342,7 +342,7 @@ This table includes a summary of planning activities with links to related conte
 | | Implement QoS | [Quality of Service in Microsoft Teams](qos-in-teams.md) |
 | | Bypass proxy servers | [Proxy Guidance](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
 | | Implement split-tunnel VPN | [VPN Split Tunnel Guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
-| | Optimize Wi-Fi networks for real-time media  | Consult 3rd Party Vendors |
+| | Optimize Wi-Fi networks for real-time media  | Consult third-party vendors |
 | | Implement local internet egress | [Local Internet Egress](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
 | | Implement network connectivity <br/> Validate network connectivity | [Office 365 URLs and IP addresses](https://aka.ms/o365ips) |
 | | | [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) |
