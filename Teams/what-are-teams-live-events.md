@@ -3,7 +3,7 @@ title: What are Teams live events?
 author: TonySmith
 ms.author: tonysmit
 manager: serdars
-ms.date: 7/10/2018
+ms.date: 7/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviwer: tonysmit
