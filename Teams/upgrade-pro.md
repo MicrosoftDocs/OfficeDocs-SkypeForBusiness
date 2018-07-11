@@ -33,7 +33,7 @@ Segmented into three phases, Upgrade Pro covers:
 **Prepare your organization for Teams.**  To help ensure a successful upgrade to Teams, it’s important to allocate adequate time for preparation. Not only will your organization be able to quickly start realizing the value of Teams, you’ll be able to accelerate your upgrade from Skype for Business as soon as Teams is ready for you. Monitor the [roadmap](https://aka.ms/skype2teamsroadmap) for the enhancements that are planned for Teams; this will help you identify the right upgrade timeline for your organization. If you’ve already enabled Teams alongside Skype for Business, use these pre-upgrade activities as a checkpoint to validate your organization’s readiness before you upgrade users to Teams. 
 
 > [!Tip]
-> Download the [Upgrade Success Kit](https://aka.ms/UserReadiness) for template user readiness materials, such as communications and user surveys, in addition to a sample upgrade project plan and pilot test plan. Items that are available in the kit are marked with an asterisk (\*) in the lists below.  
+> Download the [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) for template user readiness materials, such as communications and user surveys, in addition to a sample upgrade project plan and pilot test plan. Items that are available in the kit are marked with an asterisk (\*) in the lists below.  
 
 Days 1&ndash;7: Create your upgrade plan to help ensure your organization is set up for long-term success. 
 -   [Gather your project stakeholders](upgrade-enlist-stakeholders.md).
@@ -87,7 +87,7 @@ Days 14&ndash;42
 -   Repeat the preceding upgrade activities for the remaining upgrade groups on a rolling cycle. For example, begin upgrade group 2 notifications on day 14, upgrade group 3 notifications on day 21, and upgrade group 4 notifications on day 28. This should allow for all upgrades to be complete by day 42.
 
 Day 45
--   Send [post-upgrade feedback surveys](https://aka.ms/UserReadiness) to all users.\*
+-   Send [post-upgrade feedback surveys](https://aka.ms/UpgradeSuccessKit) to all users.\*
 
 ## Post-Upgrade
 
