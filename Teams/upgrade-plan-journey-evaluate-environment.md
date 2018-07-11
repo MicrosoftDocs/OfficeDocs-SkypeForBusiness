@@ -164,7 +164,7 @@ Use the following table to capture the details of the operational aspects of you
 > | What is your operations model for your Lync Server, <br>Skype for Business Server, or Office 365 deployment <br>today? | | |
 > | Can you outline the current support arrangement for <br>Lync Server, Skype for Business Server, or Office 365? | | |
 > | If you’re deploying to multiple countries or regions, <br>does each country/region have its own IT/telephony <br>staff to work with, or will this be managed centrally? | <input type="checkbox"> Regional operations and support <br/> <input type="checkbox"> Centralized operations and support | |
-> | Are you following the Call Quality Methodology? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
+> | Are you following the [Call Quality Methodology](quality-of-experience-review-guide.md)? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | Have you assigned an individual or team to the <br>Quality Champion role for the collaboration platform <br>in use? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No ||
 > | How do you monitor your Lync Server, Skype for <br>Business Server, or Office 365 deployment? | | |
 > | Do you experience call quality issues? | <input type="checkbox"> Yes<br/> <input type="checkbox"> No | |
