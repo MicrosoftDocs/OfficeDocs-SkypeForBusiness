@@ -94,7 +94,7 @@
 <!-- ============================================================ -->
 
 
-<!-- ============================================================ -->
+<!-- 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
 ### [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
@@ -105,7 +105,7 @@
 ## [4 - Drive value through user adoption](continue-journey.md)
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-<!-- ============================================================ -->
+ -->
 
 <!-- NEW ============================================================ -->
 # [Upgrade from Skype for Business to Microsoft Teams](Journey-SkypeforBusiness-Teams.md)

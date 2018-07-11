@@ -43,9 +43,9 @@ Select one of the options below or explore both to determine the optimal path fo
 <div class="mx-tableFixed">
 <table>
 <tbody>
-<tr><td><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working"><img src="../media/upgrade-to-teams-upgrade-basic-icon.png?branch=Upgrade-working" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Basic checklist steps you through activities designed to quickly move your entire organization to Teams."></a></td>
+<tr><td><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-essentials?branch=Upgrade-working"><img src="media/upgrade-to-teams-upgrade-basic-icon.png?branch=Upgrade-working" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Basic checklist steps you through activities designed to quickly move your entire organization to Teams."></a></td>
 <td>
-<a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-pro?branch=Upgrade-working"><img src="../media/upgrade-to-teams-upgrade-pro-icon.png?branch=Upgrade-working" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
+<a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/upgrade-pro?branch=Upgrade-working"><img src="media/upgrade-to-teams-upgrade-pro-icon.png?branch=Upgrade-working" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
 </tbody></table>
 </div>
 
