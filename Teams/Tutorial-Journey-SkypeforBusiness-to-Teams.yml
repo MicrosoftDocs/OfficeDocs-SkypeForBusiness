@@ -65,7 +65,7 @@ items:
    (estimated reading time 2 minutes)
 
    We also recommend reading the [FAQ - Journey from Skype for Business to
-   Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/faq-journey)
+   Microsoft Teams](https://aka.ms/SkypeToTeams-FAQ)
    (estimated reading time 10 minutes) to get a deep understanding of the most
    commonly discussed topics.
 
@@ -200,10 +200,10 @@ items:
 
    Additional information:
    -   [Steering committee
-   guide](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide)
+   guide](https://aka.ms/SteeringCommittee)
    to learn more about steering committees
    -   [Define your project
-   scope](https://docs.microsoft.com/MicrosoftTeams/upgrade-define-project-scope)
+   scope](https://aka.ms/SkypetoTeams-Scope)
    for examples on vision, scope, and goals.
 
 - title: Migration and interoperability guidance
@@ -213,7 +213,7 @@ items:
    The actual migration from Skype for Business to Teams can be conducted with
    different approaches. Please read [Migration and interoperability guidance for
    organizations using Teams together with Skype for
-   Business](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+   Business](https://aka.ms/SkypeToTeams-Interop)
    (estimated reading time 19 minutes) to understand the concepts, the available
    settings, and considerations that you need to take into account.
 
@@ -281,7 +281,7 @@ items:
    -   To learn more about Call Quality Dashboard, watch our [CQD
    videos](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos).
    -   [Check your environment's readiness for
-   Teams](https://docs.microsoft.com/MicrosoftTeams/environment-readiness)
+   Teams](https://aka.ms/environmentreadiness)
 
 - title: Prepare your organization
   durationInMinutes: 20
@@ -298,7 +298,7 @@ items:
    adapt to change. This is also an opportunity to identify specific user
    profiles who would benefit from focused onboarding. Read [Assessing
    organizational change
-   readiness](https://docs.microsoft.com/MicrosoftTeams/upgrade-org-change-readiness)
+   readiness](https://aka.ms/OrgReadiness)
    (estimated reading time 9 minutes) to learn more.
 
    -   Defining and prioritizing high-value business scenarios that will provide 
@@ -312,7 +312,7 @@ items:
    support activities, your readiness plan should address both your broad user
    base and targeted profiles, as identified in the assessing change readiness
    activity. Read [Preparing a user readiness
-   plan](https://docs.microsoft.com/MicrosoftTeams/upgrade-user-readiness)
+   plan](https://aka.ms/UserReadinessPlan)
    (estimated reading time 2 minutes) for more details.
 
    **Pilot Teams alongside Skype for Business**
@@ -356,18 +356,18 @@ items:
    Now that you’ve completed all planning and preparation, it’s time to
    configure your coexistence settings and execute the upgrade. Please refer to
    [Setting your coexistence and upgrade
-   settings](https://docs.microsoft.com/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings)
+   settings](https://aka.ms/SkypeToTeams-Coexist)
    (estimated reading time 3 minutes) to understand the different settings.
 
    The detailed steps depend on your current environment; please refer to the
    following guides (estimated reading time 2 minutes each):
 
    -   [Upgrade from Skype for Business Online to
-   Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline)
+   Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
    -   [Upgrade from Skype for Business hybrid to
-   Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybrid)
+   Teams](https://aka.ms/SkypeToTeams-UpgradeHybrid)
    -   [Upgrade Skype for Business on-premises to
-   Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonpremises)
+   Teams](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
 
 - title: Drive operational excellence with Microsoft Teams
   durationInMinutes: 3
