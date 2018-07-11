@@ -55,26 +55,24 @@ For more details, see [Plan for Mobility for Skype for Business Server](../SfbSe
 ## Tools
 
 The following tools will not be available for use at the initial release of Skype for Business Server 2019:
-
-- Call Quality Dashboard
-- KHI Resources
+<!-- - KHI Resources
 - Statistics Manager for Skype for Business Server 2019  
-- Skype for Business Server 2019 Resource Kit Tools (some tools removed)
 - Networking Guide: CQM Scorecard, Call Quality Methodology, KHI
 - Centralized Logging Service in Skype for Business 2019
-- Manage Skype for Business Server 2015 using SCOM Management pack
-- Skype for Business Server 2015 Capacity Planning Calculator
-- Skype for Business Server 2015, Debugging Tools
+- Manage Skype for Business Server 2015 using SCOM Management pack  -->
+- Skype for Business Server Capacity Planning Calculator
+- Skype for Business Server Debugging Tools
+- Skype for Business Server Resource Kit Tools (some tools will be removed)
+    - Call Parkometer
+    - Lookup user console
+    - Unassigned number Announcement Migration
 
 The following tools are not supported with Skype for Business Server 2019:
 
+- Call Quality Methodology Dashboard
 - Microsoft Call Quality Methodology Scorecard, v1.5
-- CQM Poster for Skype for Business
-- CQM Poster for Lync 2013
 - Skype for Business Server 2015 Planning Tool
 - Skype for Business Server 2015 Stress and Performance Tool
- 
-
 
 ### See also
 
