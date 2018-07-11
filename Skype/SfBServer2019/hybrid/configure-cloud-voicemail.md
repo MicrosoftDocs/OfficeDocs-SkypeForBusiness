@@ -31,17 +31,13 @@ Configuring Cloud Voicemail involves the following tasks:
 
 1.  Ensure you have met the prerequisites as described in [Plan Cloud Voicemail service](plan-cloud-voicemail.md).
 
-**SHALL WE NUKE ITEM 2.?**
-
-2.  Ensure you have set up hybrid connectivity as described in [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md).
+2.  Ensure you have set up hybrid connectivity as described in [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md). **SHALL WE NUKE ITEM 2.?**
 
 3.  [Configure Cloud Voicemail as the hosting provider on the Edge Server](#configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server) as described in this article.
 
-4. Configure a hosted voicemail policy [Configure Cloud Voicemail routing](#configure-a-hosted-voicemail-policy) as described in this article.
+4.  [Configure a hosted voicemail policy](#configure-a-hosted-voicemail-policy) as described in this article.
 
 5.  [Enable a User for Cloud Voicemail](#enable-a-user-for-cloud-voicemail) as described in this article.
-
-
 
 
 ## Configure Cloud Voicemail as the hosting provider on the Edge Server 
