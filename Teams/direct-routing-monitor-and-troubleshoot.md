@@ -27,7 +27,7 @@ Microsoft is working on providing more tools for troubleshooting and monitoring.
 
 ## Monitoring availability of Session Border Controllers using Session Initiation Protocol (SIP) Options messages
 
-Direct Routing uses SIP options sent by the Session Border Controllers to monitor SBC health. There are no actions required from the tenant administrator to enable the SIP Options monitoring. The collected information is taken into consideration when routing decisions are made. 
+Direct Routing uses SIP Options sent by the Session Border Controllers to monitor SBC health. There are no actions required from the tenant administrator to enable the SIP Options monitoring. The collected information is taken into consideration when routing decisions are made. 
 
 For example, if, for a specific user, there are several SBCs available to route a call, Direct Routing considers the SIP Options information received from each SBC to determine routing. 
 
