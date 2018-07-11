@@ -15,6 +15,6 @@ appliesto:
 - Microsoft Teams
 ---
 
-# DON'T LOOK AT ME
+# Not here anymore! Go to [this page](../journey-skypeforbusiness-teams.md) instead
 
-Please go directly to the [final resting place for the landing page](../journey-skypeforbusiness-teams.md)
+
