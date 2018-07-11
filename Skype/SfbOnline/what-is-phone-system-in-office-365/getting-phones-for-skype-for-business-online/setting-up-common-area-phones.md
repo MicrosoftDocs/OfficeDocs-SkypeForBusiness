@@ -134,8 +134,8 @@ The phone or phones you have must have the **Common Area Phone mode** turned on.
         Following this last step, the phone should sign in automatically.
         
 
-> [!IMPORTANT]
-> The CAP provisioning site states it will reset the CAP account's password to a random password. You MUST create the user account in Azure Active Directory (AAD) ONLY. You can not use an on premises Active Directory user account that is synced to AAD.
+> [!NOTE]
+> The CAP provisioning site states it will reset the CAP account's password to a random password. Take note that the account the CAP is referring is the Azure Active Directory (AAD) account. If you have synced an on premises Active Directory to AAD make sure to take note of the credentials you are using that will be changed by CAP provisioning.
 
 ### Related topics
 
