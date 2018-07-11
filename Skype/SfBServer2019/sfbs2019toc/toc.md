@@ -34,7 +34,6 @@
 ###### [Simple URLs](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [Advanced Edge Server DNS](../../SfbServer/plan-your-deployment/network-requirements/advanced-edge-server-dns.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Port and protocol requirements](../../SfbServer/plan-your-deployment/network-requirements/ports-and-protocols.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [TLS Support in Skype for Business Server 2019](../tls-support.md)
 ### [High availability and disaster recovery](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [High availability](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Disaster recovery](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
