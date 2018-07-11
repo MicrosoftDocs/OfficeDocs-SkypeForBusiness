@@ -16,9 +16,6 @@ appliesto:
 
 # Make my service decisions
 
-> [!NOTE]
-> This is a preview release of Microsoft Phone System Direct Routing. Product functionality and documentation are subject to change.
-
 To plan for the technical implementation of Phone System Direct Routing (“Direct
 Routing”), you must make a series of service decisions ahead of time to better
 prepare your organization to implement a solution that meets the business
