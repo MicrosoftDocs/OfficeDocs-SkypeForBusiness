@@ -24,10 +24,10 @@ items:
    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
 
    This training is for you if you're:
-   -   An IT pro
-   -   Responsible for planning, deploying, or managing Skype for Business
+   -   An IT pro.
+   -   Responsible for planning, deploying, or managing Skype for Business.
    -   Interested in understanding how to upgrade Skype for Business to Teams in
-   your organization
+   your organization.
 
    We’ll go into detail about how these two products come together and explain what
    steps you can take today to prepare an existing Skype for Business environment
@@ -125,7 +125,7 @@ items:
    choice for your deployment. However, the following table should help you to
    determine which approach is better suited:
 
-   ![The decision on Basic versus Pro is influenced by a number of factors.](media/upgrade-basicvspro.png 
+   ![The decision on Basic versus Pro is influenced by a number of factors.](media/upgrade-basicvspro.jpg 
    "The decision on Basic versus Pro is influenced by a number of factors.")
 
    Additional information:
