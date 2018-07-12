@@ -25,7 +25,7 @@ This article describes requirements and limitations for using Teams in a virtual
 A Virtual Desktop Infrastructure (VDI) environment is used in some organizations where security and compliance issues are especially sensitive. Their users do their work on a virtual desktop containing all their desktop applications and files using Remote Desktop Services or a similar remote connection. Since Teams on the virtual desktop has not been optimized to access or use the audio or video devices on the user’s local device (without additional software), working in a VDI environment will usually have challenges related to multimedia scenarios such as calling, video calling, screen sharing, app sharing, co-authoring, and more. 
 
 > [!NOTE]
-> Organizations can choose to run Teams fully in VDI (using either the Web App or Desktop Client) but it is recommended that the following policies be turned off, so users don’t have a poor experience in a virtualized environment. Note that it can take some time for these policy changes to propagate so if you don’t see changes for a given account immediately, try again after a few hours. 
+> Organizations can choose to run Teams fully in VDI (using either the Web App or Desktop Client) but it is recommended that the following policies be turned off, so users don’t have a poor experience in a virtualized environment. Note that it can take some time for these policy changes to propagate. If you don’t see changes for a given account immediately, try again after a few hours. 
 
 ## Calling
 
