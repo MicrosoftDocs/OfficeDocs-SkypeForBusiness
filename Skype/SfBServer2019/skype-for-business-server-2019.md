@@ -16,10 +16,9 @@ description: "Summary: Explore these links to learn how to implement Skype for B
 # Skype for Business Server 2019
 
 [!INCLUDE [disclaimer](disclaimer.md)]
-
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="plan/plan-your-deployment-2019.md">
+        <a href="../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -55,7 +54,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
         </a>
     </li>
     <li>
-        <a href="deploy/deploy-overview.md">
+        <a href="../SfbServer/deploy/install/install.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -93,7 +92,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
         </a>
     </li>
     <li>
-        <a href="../SfbServer/manage/manage.md">
+        <a href="../SfbServer/manage/topology/topology.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -133,7 +132,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
 
 
 
----
+<!-- 
 
 <h2>Featured Articles</h2>
 <ul class="panelContent cardsW">
@@ -198,19 +197,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
         </div>
     </li>
 </ul>
-
-
-
-
-
-<!-- 
-* * *
-|  | |  |
-|:--- |:---: |:--- |
-|![Plan](https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg)<br> **[Plan](plan/plan-your-deployment-2019.md)**|![Hybrid](media/icon-hybrid.png)<br>  **[Hybrid solutions](hybrid/hybrid-solutions.md)**|![Deploy](media/icon-deploy.png)<br>  **[Deploy](deploy/deploy-overview.md)**|
-|![Upgrade](media/icon-upgrade.png) <br> **[Upgrade](migration/migration-to-skype-for-business-server-2019.md)**|![Manage](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg) <br> **[Manage](../SfbServer/manage/manage.md)**|![Download](media/icon-download.png) <br>  **[Download now!](https://go.microsoft.com/fwlink/?linkid=2005336)** |
-| | | |
-* * *
+-->
 
 ### Featured articles
 | | | |
@@ -218,4 +205,4 @@ description: "Summary: Explore these links to learn how to implement Skype for B
 |**Before you start** <br>[Infrastructure requirements](plan/environmental-requirements.md) <br>[Network requirements](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) |**Install and Manage** <br>[Install Skype for Business Server](../SfbServer/deploy/install/install.md)<br>[Manage Skype for Business Server](../SfbServer/manage/manage.md) <br> [Migrate to Skype for Business 2019](migration/migration-to-skype-for-business-server-2019.md)|**Enterprise Voice**<br>[Plan](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Deploy](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)|
 |**New features**<br>[What's new](whats-new.md)  |**Hybrid solutions**<br>[Skype for Business hybrid solutions](hybrid/hybrid-solutions.md)<br> [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md)<br>[Plan Call Data Connector](hybrid/plan-call-data-connector.md)  |  |
 | | | |
-* * *   -->
+* * *   

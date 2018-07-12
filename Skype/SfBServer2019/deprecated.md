@@ -34,7 +34,7 @@ If you want to keep this functionality, you will need to keep a Skype for Busine
 
 Persistent Chat Server is an optional role that lets multiple users in your organization participate in chat room conversations that persist over time. Persistent chat can't be deployed with Skype for Business Server 2019. This server role is removed from Topology Builder, as well as from the code. 
 
-The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). If you need to use this functionality, your choices are to either migrate users who need it to Teams, or to continue using Skype for Business Server 2015.  
+The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). If you need to use this functionality, your choices are to either migrate users who need it to Teams, or to continue using Skype for Business Server 2015.  
 
 ### SQL Mirroring for Skype for Business Server
 
@@ -55,26 +55,24 @@ For more details, see [Plan for Mobility for Skype for Business Server](../SfbSe
 ## Tools
 
 The following tools will not be available for use at the initial release of Skype for Business Server 2019:
-
-- Call Quality Dashboard
-- KHI Resources
+<!-- - KHI Resources
 - Statistics Manager for Skype for Business Server 2019  
-- Skype for Business Server 2019 Resource Kit Tools (some tools removed)
 - Networking Guide: CQM Scorecard, Call Quality Methodology, KHI
 - Centralized Logging Service in Skype for Business 2019
-- Manage Skype for Business Server 2015 using SCOM Management pack
-- Skype for Business Server 2015 Capacity Planning Calculator
-- Skype for Business Server 2015, Debugging Tools
+- Manage Skype for Business Server 2015 using SCOM Management pack  -->
+- Skype for Business Server Capacity Planning Calculator
+- Skype for Business Server Debugging Tools
+- Skype for Business Server Resource Kit Tools (some tools will be removed)
+    - Call Parkometer
+    - Lookup user console
+    - Unassigned number Announcement Migration
 
 The following tools are not supported with Skype for Business Server 2019:
 
+- Call Quality Methodology Dashboard
 - Microsoft Call Quality Methodology Scorecard, v1.5
-- CQM Poster for Skype for Business
-- CQM Poster for Lync 2013
 - Skype for Business Server 2015 Planning Tool
 - Skype for Business Server 2015 Stress and Performance Tool
- 
-
 
 ### See also
 
