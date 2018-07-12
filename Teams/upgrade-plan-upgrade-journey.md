@@ -25,6 +25,9 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 -   [Prepared your environment](upgrade-prepare-environment.md)
 -   [Prepared your organization](upgrade-prepare-organization.md)
 
+
+<!-- SELF: Why do we need to have this included file be a standalone file? Why can't the content in upgrade-journeys-for-skypeforbusiness-and-teams simply replace the content in upgrade-and-coexistence-of-skypeforbusiness-and-teams? Agus rewrote the former into the latter, not sure how that helps us. -->
+
 [!INCLUDE [upgrade-journeys-for-skypeforbusiness-and-teams](upgrade-journeys-for-skypeforbusiness-and-teams.md)]
 
 After you’ve chosen the best upgrade journey for your organization, [perform your upgrade to Teams](upgrade-to-teams.md).

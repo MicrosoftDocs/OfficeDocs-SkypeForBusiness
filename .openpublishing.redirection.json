@@ -31,6 +31,11 @@
       "redirect_document_id": true 
     },
     {
+      "source_path": "Teams/select-users-for-your-teams-pilot.md", 
+      "redirect_url": "https://aka.ms/skypetoteams-pilot", 
+      "redirect_document_id": true 
+    },
+    {
       "source_path": "Teams/prepare-teams.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide", 
       "redirect_document_id": true 
