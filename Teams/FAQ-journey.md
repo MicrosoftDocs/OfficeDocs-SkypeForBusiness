@@ -3,7 +3,7 @@ title: FAQ - Journey from Skype for Business to Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/16/2018
+ms.date: 07/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -152,7 +152,7 @@ Microsoft plans to launch a new administration portal for IT Pros within the Off
 
 ### Can I use Teams on Surface Hub?
 
-Many of the Teams experiences work on Surface Hub today through the Edge browser. Sign in from the Welcome screen on your Surface Hub, open Edge, and type **teams.microsoft.com** to access your teams, channels, documents, conversations, and meetings. Surface Hub supports Teams meetings, and we look forward to sharing more details in the future on additional integrated Teams experiences on Surface Hub. 
+Many of the Teams experiences work on Surface Hub today through the Edge browser. Sign in from the Welcome screen on your Surface Hub, open Edge, and type **teams.microsoft.com** to access your teams, channels, documents, conversations, and meetings. To deploy Surface Hub for Teams in your organization, see [Deploy Microsoft Teams for Surface Hub](teams-surface-hub.md).
 
 ### Will certified Skype for Business online phones work with Teams?
 
