@@ -66,4 +66,7 @@ Things to know about Windows PowerShell in Skype for Business Server:
 
     For more detailed information, see [About Updatable Help](https://technet.microsoft.com/library/hh847735.aspx).
     
+    > [!NOTE]
+    > If you are using PowerShell remotely you may need to allow communication through a firewall. To learn more about the ports PowerShell remoting uses, see [What Port Does PowerShell Remoting Use?](https://blogs.technet.microsoft.com/christwe/2012/06/20/what-port-does-powershell-remoting-use/).
+    
 
