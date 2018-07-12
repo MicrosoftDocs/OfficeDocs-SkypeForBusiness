@@ -25,7 +25,7 @@ You can modify the behavior of the meeting join page if you want to allow users 
    
 ## To configure the meeting join page by using Skype for Business Server 2019 Management Shell
 
-1. Start the Skype for Business Server 2019 Management Shell: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Lync Server Management Shell**.
+1. Start the Skype for Business Server 2019 Management Shell: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Skype for Business Server Management Shell**.
     
 2. Run the following cmdlet: 
     
