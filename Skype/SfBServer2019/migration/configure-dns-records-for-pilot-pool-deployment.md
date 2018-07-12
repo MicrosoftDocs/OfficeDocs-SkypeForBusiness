@@ -12,7 +12,7 @@ description: "Prior to deploying the pilot pool, you must update the DNS Host A 
 
 # Configure DNS records for pilot pool deployment
 
-Prior to deploying the pilot pool, you must update the DNS Host A entries for the pilot pool. To successfully complete this procedure, you should be logged on to the server or domain as a member of the Domain Admins group or a member of the DnsAdmins group.
+Before deploying the pilot pool, you must update the DNS Host A entries for the pilot pool. To successfully complete this procedure, you should be logged on to the server or domain as a member of the Domain Admins group or a member of the DnsAdmins group.
   
 ### To configure DNS Host A records
 
@@ -24,7 +24,7 @@ Prior to deploying the pilot pool, you must update the DNS Host A entries for th
     
 4. Click **Name**, type the host name for the Skype for Business Server 2019 pool (the domain name is assumed from the zone that the record is defined in and does not need to be entered as part of the A record).
     
-5. Click **IP Address**, type the IP address for the Front End pool.
+5. Click **IP Address**, and then type the IP address for the Front End pool.
     
 6. Click **Add Host**, and then click **OK**. 
     

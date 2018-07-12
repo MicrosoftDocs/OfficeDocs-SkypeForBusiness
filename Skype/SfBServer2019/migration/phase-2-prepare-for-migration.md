@@ -27,6 +27,6 @@ Before you begin your migration to Skype for Business Server 2019, follow the st
     
 - [Configure clients for migration](configure-clients-for-migration.md)
     
-- [Verify environment](verify-environment.md)
+- [Verify the legacy environment](verify-environment.md)
     
 

@@ -18,7 +18,7 @@ This section covers planning topics for migrating to Skype for Business Server 2
 
 - [User migration](user-migration.md)
     
-- [Migrating Archiving and Monitoring servers](migrating-archiving-and-monitoring-servers.md)
+- [Migrating Archiving and Monitoring Servers](migrating-archiving-and-monitoring-servers.md)
     
 - [Administering servers after migration](administering-servers-after-migration.md)
     
