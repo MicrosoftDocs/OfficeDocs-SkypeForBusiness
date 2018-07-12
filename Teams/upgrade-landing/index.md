@@ -17,4 +17,4 @@ appliesto:
 
 # Not here anymore! Go to [this page](../journey-skypeforbusiness-teams.md) instead
 
-Testing redirect: Go to [prepare-teams redirect](prepare-teams.md). If this is the "Plan for service management" page, then it all worked as planned.
+Testing redirect: Go to [prepare-teams redirect](../prepare-teams.md). If this is the "Plan for service management" page, then it all worked as planned.
