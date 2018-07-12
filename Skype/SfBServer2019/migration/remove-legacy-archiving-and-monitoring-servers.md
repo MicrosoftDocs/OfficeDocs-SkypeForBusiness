@@ -12,7 +12,7 @@ description: "If your legacy deployment contained an Archiving Server or a Monit
 
 # Remove legacy Archiving and Monitoring servers
 
-If your legacy deployment contained an Archiving Server or a Monitoring Server, after migrating to Skype for Business Server 2019, those servers can be removed from the legacy environment provided all users have been removed from any remaining legacy pools. You can remove the Archiving Server or Monitoring Server in any sequence. The key requirement is that all users have been removed from any remaining legacy pools.
+If your legacy deployment contained an Archiving Server or a Monitoring Server, after migrating to Skype for Business Server 2019, those servers can be removed from the legacy environment, provided all users have been removed from any remaining legacy pools. You can remove the Archiving Server or Monitoring Server in any sequence. The key requirement is that all users have been removed from any remaining legacy pools.
   
 You can move users to Skype for Business Server 2019 by following the procedures outlined in [Phase 4: Move test users to the pilot pool](phase-4-move-test-users-to-the-pilot-pool.md).
   

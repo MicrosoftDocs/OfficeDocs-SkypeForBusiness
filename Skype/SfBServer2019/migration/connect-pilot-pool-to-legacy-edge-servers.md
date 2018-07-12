@@ -18,7 +18,7 @@ To enable the Skype for Business Server 2019 site to use the Director and Edge S
   
 ## To associate the legacy Edge pool by using Topology Builder
 
-1. Open **Topology Builder**. 
+1. Open Topology Builder. 
     
 2. Select your site, which is directly below the **Skype for Business Server** node. 
     

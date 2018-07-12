@@ -18,7 +18,7 @@ You can use Skype for Business Server Control Panel to start or stop all the leg
 
 1. Open Skype for Business Server Control Panel.
     
-2. In the left navigation bar, click **Topology** and then click **Status**.
+2. In the left navigation bar, click **Topology**, and then click **Status**.
     
 3. On the **Status** page, sort or search through the list as needed to find the computer that is running the services you want to start or stop, and then click it. 
     
@@ -30,7 +30,7 @@ You can use Skype for Business Server Control Panel to start or stop all the leg
 
 1. Open Skype for Business Server Control Panel.
     
-2. In the left navigation bar, click **Topology** and then click **Status**.
+2. In the left navigation bar, click **Topology**, and then click **Status**.
     
 3. On the **Status** page, sort or search through the list as needed to find the computer that is running the service you want to start or stop, and then click it. 
     

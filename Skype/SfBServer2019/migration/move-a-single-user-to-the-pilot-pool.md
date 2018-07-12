@@ -12,7 +12,7 @@ description: "You can move a user from your legacy pool to your Skype for Busine
 
 # Move a single user to the pilot pool
 
-You can move a user from your legacy pool to your Skype for Business Server 2019 pilot pool using Skype for Business Server 2019 Control Panel or Skype for Business Server 2019 Management Shell. In the example below, in the Registrar pool column, **pool01.contoso.net** is the legacy pool, and all six of these users are connected to this pool. Use the following procedures to move a user to your Skype for Business Server 2019 pool using Skype for Business Server 2019 Control Panel and Skype for Business Server Management Shell. 
+You can move a user from your legacy pool to your Skype for Business Server 2019 pilot pool using Skype for Business Server 2019 Control Panel or Skype for Business Server 2019 Management Shell. In the example below, in the **Registrar pool** column, **pool01.contoso.net** is the legacy pool, and all six of these users are connected to this pool. Use the following procedures to move a user to your Skype for Business Server 2019 pool using Skype for Business Server 2019 Control Panel and Skype for Business Server Management Shell. 
   
 ## To move a user by using the Skype for Business Server 2019 Control Panel
 
@@ -24,7 +24,7 @@ You can move a user from your legacy pool to your Skype for Business Server 2019
     
 2. Open **Skype for Business Server Control Panel**.
     
-3. Click **Users**, click Search, and then click **Find**.
+3. Click **Users**, click **Search**, and then click **Find**.
     
 4. Select a user that you want to move to the Skype for Business Server 2019 pool. In this example, we will move user Sara Davis.
     
@@ -32,7 +32,7 @@ You can move a user from your legacy pool to your Skype for Business Server 2019
     
 6. From the drop-down list, select the Skype for Business Server 2019 pool.
     
-7. Click **Action** and then click **Move selected users to pool**. Click **OK**.
+7. Click **Action**, and then click **Move selected users to pool**. Click **OK**.
     
      ![Move Users, destination registrar pool dialog box](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   

@@ -24,29 +24,29 @@ When you deploy a pilot pool, you use the Define New Front End Pool wizard. You 
 
 1. Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.
     
-2. Expand the tree until you reach **Skype for Business Server 2019** **Enterprise Edition Front End pools**.
+2. Expand the tree until you reach **Skype for Business Server 2019** > **Enterprise Edition Front End pools**.
     
-3. Right click **Enterprise Edition Front End pools**, and select **New Front End Pool**.
+3. Right-click **Enterprise Edition Front End pools** and select **New Front End Pool**.
     
      ![Topology Builder Server pool selection submenu](../media/migration_lyncserver_config_w15_newpool_tb.JPG)
   
-4. Enter the pool FQDN. When you define your pilot pool, you can choose to deploy an Enterprise Edition Front End pool or a Standard Edition server. Skype for Business Server 2019 does not require that your pilot pool features match what was deployed in your legacy pool.
+4. Enter the pool fully qualified domain name (FQDN). When you define your pilot pool, you can choose to deploy an Enterprise Edition Front End pool or a Standard Edition server. Skype for Business Server 2019 does not require that your pilot pool features match what was deployed in your legacy pool.
     
     > [!CAUTION]
-    > The pool or server fully qualified domain name (FQDN) that you define for the pilot pool must be unique. It cannot match the name of the currently deployed legacy pool, or any other servers currently deployed. 
+    > The pool or server FQDN that you define for the pilot pool must be unique. It cannot match the name of the currently deployed legacy pool or any other servers currently deployed. 
   
      ![Define New Front End Pool Wizard FQDN page](../media/migration_lyncserver_config_w15_newpoolwizard_pool_page_final.jpg)
   
-5. On the **Select features** page, select the check boxes for the features that you want on this Front End pool. For example, if you are deploying only instant messaging (IM) and presence features, you would select the Conferencing check box to allow multiparty IM, but would not select the Dial-in (PSTN) conferencing, Enterprise Voice, or Call Admission Control check boxes, because they represent voice, video, and collaborative conferencing features. For additional information on selecting features, see 
+5. On the **Select features** page, select the check boxes for the features that you want on this Front End pool. For example, if you are deploying only instant messaging (IM) and presence features, you would select the Conferencing check box to allow multiparty IM, but you would not select the Dial-in (PSTN) conferencing, Enterprise Voice, or Call Admission Control check boxes, because they represent voice, video, and collaborative conferencing features. For additional information on selecting features, see 
 <!-- [Define and configure a Front End pool or Standard Edition server in Skype for Business Server 2019](../deployment/deploying-lync-server-2013/define-and-configure-a-front-end-pool-or-standard-edition-server.md) in the Deployment documentation.  -->
     
      ![Front End Pool Select features page](../media/migration_lyncserver_config_w15_newpoolwizard_select_features_final.jpg)
   
-6. On the **Select collocated server roles** page, we recommend you collocate the Mediation Server in Skype for Business Server 2019. When merging a legacy topology with Skype for Business Server 2019, we require that you first collocate the legacy Mediation Server. After merging the topologies and configuring the Skype for Business Server 2019 Mediation Server, you can decide whether to keep the collocated Mediation Server, or change it to a stand-alone server when you move the Mediation Server role to Skype for Business Server 2019 later in the deployment process. 
+6. On the **Select collocated server roles** page, we recommend that you choose to collocate the Mediation Server in Skype for Business Server 2019. When merging a legacy topology with Skype for Business Server 2019, we require that you first collocate the legacy Mediation Server. After merging the topologies and configuring the Skype for Business Server 2019 Mediation Server, you can decide whether to keep the collocated Mediation Server, or change it to a stand-alone server when you move the Mediation Server role to Skype for Business Server 2019 later in the deployment process. 
     
      ![Front End Pool Select collocated server roles page](../media/migration_lyncserver_config_w15_newpoolwizard_select_collocated_roles.jpg)
   
-7. On the **Associate server roles with this Front End pool** page, during pilot pool deployment, do not choose the **Enable an Edge pool to be used by the media component of this Front End pool** option. This is a feature you will enable and bring online in a later phase of migration. Keep this setting cleared for now. 
+7. On the **Associate server roles with this Front End pool** page, during pilot pool deployment, *do not* choose the **Enable an Edge pool to be used by the media component of this Front End pool** option. This is a feature you will enable and bring online in a later phase of migration. Keep this setting cleared for now. 
     
      ![Associate server roles with Front End pool page](../media/migration_lyncserver_config_w15_newpoolwizard_associate_roles.jpg)
   

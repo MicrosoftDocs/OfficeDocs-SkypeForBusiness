@@ -22,7 +22,7 @@ This topic describes how to update the Domain Name System (DNS) records after mi
     
 2. In the console tree for your SIP domain, expand **Forward Lookup Zones**, expand the SIP domain in which Skype for Business Server 2019 is installed, and navigate to the **_tcp** setting. 
     
-3. In the right pane, right click **_sipinternaltls** and select **Properties**.
+3. In the right pane, right-click **_sipinternaltls** and select **Properties**.
     
 4. In **Host offering this service**, update the host FQDN to point to the Skype for Business Server 2019 pool.
     

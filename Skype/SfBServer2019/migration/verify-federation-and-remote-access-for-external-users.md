@@ -14,7 +14,7 @@ description: "After transitioning the federation route to the Skype for Business
 
 After transitioning the federation route to the Skype for Business Server 2019 Edge Server, you should perform some functional tests to verify that federation performs as expected. Tests for external user access should include each type of external user that your organization supports, including any or all of the following.
   
-### Test Connectivity of External Users and External access
+### Test connectivity of external users and external access
 
 - Users from at least one federated domain, an internal user on Skype for Business Server 2019, and a user on the legacy install. Test instant messaging (IM), presence, audio/video (A/V), and desktop sharing.
     
@@ -22,8 +22,8 @@ After transitioning the federation route to the Skype for Business Server 2019 E
     
 - Verify that anonymous users are able to join conferences.
     
-- A user hosted on the legacy install using remote user access (logging into Lync Server/Skype for Business from outside the intranet but without VPN) with a user on Skype for Business Server 2019, and a user on the legacy install. Test IM, presence, A/V, and desktop sharing.
+- A user hosted on the legacy install using remote user access (logging i nto Lync Server/Skype for Business from outside the intranet but without VPN) with a user on Skype for Business Server 2019, and a user on the legacy install. Test IM, presence, A/V, and desktop sharing.
     
-- A user hosted on Skype for Business Server 2019 using remote user access (logging into Skype for Business Server 2019 from outside the intranet but without VPN) with a user on Skype for Business Server 2019, and a user on the legacy install. Test IM, presence, A/V, and desktop sharing.
+- A user hosted on Skype for Business Server 2019 using remote user access (logging in to Skype for Business Server 2019 from outside the intranet but without VPN) with a user on Skype for Business Server 2019, and a user on the legacy install. Test IM, presence, A/V, and desktop sharing.
     
 

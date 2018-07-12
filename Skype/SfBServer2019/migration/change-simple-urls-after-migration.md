@@ -42,6 +42,5 @@ After migrating to Skype for Business Server, you must be aware of how the chang
     > We recommend using the simplest possible URL for the Admin URL. The simplest option is https://admin._\<domain\>_. 
   
 ## See also
- **REPLACE OR REMOVE THIS LINK**
 
-[DNS requirements for simple URLs in Skype for Business Server 2015](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md)
+[DNS requirements for simple URLs in Skype for Business Server](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md)
