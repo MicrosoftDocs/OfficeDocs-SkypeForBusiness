@@ -71,7 +71,7 @@ Currently, we have no plans to schedule upgrades for enterprise customers. Custo
 
 ### How long will it take to upgrade my organization to Teams?
 
-Your organization’s journey from Skype for Business to Teams can be defined by you. To assist in your planning and execution, Microsoft has designed two core upgrade paths, Upgrade Essentials and Upgrade Pro. Upgrade Essentials was created for smaller organizations or those with low Skype for Business adoption or core workloads such as IM, and is designed to upgrade your entire organization directly to Teams at once. Upgrade Pro is created for organizations, with expanded functionality for those who would benefit from a more phased upgrade approach. [Review both paths](https://aka.ms/skypetoteams-home) to determine the optimal approach for your organization. 
+Your organization's journey from Skype for Business to Teams can be defined by you. To assist in your planning and execution, you can choose from two core upgrade paths, Upgrade Basic and Upgrade Pro. Upgrade Basic is for smaller organizations or those with low Skype for Business adoption or core workloads such as IM, and is designed to upgrade your entire organization to Teams at once. Upgrade Pro is for organizations with expanded functionality for those who’d benefit from a more phased upgrade approach. [Review both paths](https://aka.ms/skypetoteams-home) to determine the optimal approach for your organization. 
   
   
 ### Why don’t I see a “Teams only” mode in my portal? 
