@@ -72,7 +72,7 @@ When you are setting up Communications Credits, you will need to investigate cal
   
 ## Recommended funding amounts
 
-We recommended that you begin by using a small funding amount, which for smaller organizations could be even the minimum of $20. After you gather a month or two of PSTN usage using the PSTN usage details report, you'll be able to adjust the amounts to meet the normal usage in your organization.
+We recommended that you begin by using a small funding amount, which for smaller organizations could be even the minimum of $50. After you gather a month or two of PSTN usage using the PSTN usage details report, you'll be able to adjust the amounts to meet the normal usage in your organization.
   
 If you're ready to set this all up, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
   
