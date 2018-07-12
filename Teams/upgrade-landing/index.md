@@ -18,3 +18,5 @@ appliesto:
 # Not here anymore! Go to [this page](https://review.docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams?branch=upgrade-working) instead
 
 Testing redirect: Go to [prepare-teams redirect](../prepare-teams.md). If this is the "Plan for service management" page, then it all worked as planned.
+
+Testing other redirect: Go to [select-users-for-your-teams-pilot](../select-users-for-your-teams-pilot.md). Should go to the new Pilot Essentials.
