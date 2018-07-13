@@ -260,7 +260,7 @@ Part of the network readiness activities includes a network assessment. After yo
 
 The network assessment should be performed on both wired and Wi-Fi networks for all buildings that are being enabled for cloud voice capabilities in Teams.
 
-The network assessment can be conducted by using a Microsoft partner, third-party tools, or the [Microsoft Network Assessment tool](https://www.microsoft.com/download/details.aspx?id=53885). We also provide further guidance on how to run the assessment using the Microsoft Network Assessment tool as part of our readiness guidance [here](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11)..
+The network assessment can be conducted by using a Microsoft partner, third-party tools, or the [Microsoft Network Assessment tool](https://www.microsoft.com/download/details.aspx?id=53885). We also provide further guidance on how to run the assessment using the Microsoft Network Assessment tool as part of our readiness guidance [here](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11).
 
 ## Plan for endpoint quality
 
