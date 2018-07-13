@@ -19,9 +19,7 @@ description: "Summary: Review this topic for information about how to integrate 
 Before you can integrate Skype for Business Server and Exchange Server, you must ensure that both Exchange Server and Skype for Business Server are fully installed and up and running. 
   
 For details about installing Exchange Server, see the Exchange Server Planning and Deployment documentation for your version of Exchange. 
-  
-For details about installing Skype for Business Server, see [Deploy Skype for Business Server](../../deploy/deploy.md).
-  
+   
 After the servers are up and running, you must assign server-to-server authentication certificates to both Skype for Business Server and Exchange Server; these certificates allow Skype for Business Server and Exchange Server to exchange information and to communicate with one another. When you install Exchange Server, a self-signed certificate with the name Microsoft Exchange Server Auth Certificate is created for you. This certificate, which can be found in the local computer certificate store, should be used for server-to-server authentication on Exchange Server. For details about assigning certificates in Exchange Server, see [Configure Mail Flow and Client Access](https://go.microsoft.com/fwlink/p/?LinkId=268540).
   
 For Skype for Business Server you can use an existing Skype for Business Server certificate as your server-to-server authentication certificate; for example, your default certificate can also be used as the OAuthTokenIssuer certificate. Skype for Business Server allows you to use any Web server certificate as the certificate for server-to-server authentication provided that:
