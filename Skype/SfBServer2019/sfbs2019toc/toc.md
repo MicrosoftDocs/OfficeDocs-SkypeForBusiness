@@ -40,7 +40,7 @@
 #### [Desktop client feature comparison](../plan/feature-comparison.md?toc=/SkypeForBusiness/toc.json)
 #### [Mobile client feature comparison](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Windows requirements](../../SfbServer/plan-your-deployment/clients-and-devices/windows-requirements.md&bc=/SkypeForBusiness/breadcrumb/toc.json)
- #### [Mac requirements](../../SfbServer/plan-your-deployment/clients-and-devices/mac-requirements.md&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [Mac requirements](../../SfbServer/plan-your-deployment/clients-and-devices/mac-requirements.md&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Compatibility with Office](../../SfbServer/plan-your-deployment/clients-and-devices/compatibility-with-office.md&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Video resolutions](../../SfbServer/plan-your-deployment/clients-and-devices/video-resolutions.md&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Meetings clients](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md&bc=/SkypeForBusiness/breadcrumb/toc.json) 
