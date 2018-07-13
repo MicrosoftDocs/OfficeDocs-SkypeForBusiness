@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: 
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 
-description: "Summary: Review the feature support for the mobile client while planning for Skype for Business Server 2015."
+description: "Summary: Review the feature support for the mobile client while planning for Skype for Business Server."
 ---
 
 # Mobile client feature comparison for Skype for Business
  
-**Summary:** Review the feature support for the mobile client while planning for Skype for Business Server 2015.
+**Summary:** Review the feature support for the mobile client while planning for Skype for Business Server.
   
 This article compares the features and capabilities among Skype for Business mobile clients and the Skype for Business desktop client in the following categories:
   
@@ -43,7 +43,7 @@ This article compares the features and capabilities among Skype for Business mob
     
 -  Modern Authentication
     
-The following tables list the features that are available to Skype for Business users in an on-premises deployment of Skype for Business Server 2015. The same features are also available to Skype for Business Online and Microsoft Office 365 users, unless otherwise indicated in the table footnotes.
+The following tables list the features that are available to Skype for Business users in an on-premises deployment of Skype for Business Server. The same features are also available to Skype for Business Online and Microsoft Office 365 users, unless otherwise indicated in the table footnotes.
   
 > [!NOTE]
 > For online help and resources for end users, see [Discover Skype for Business](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
@@ -93,7 +93,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
 ## Contacts and contact groups support
 
 
- | Feature/capability  | Skype for Business Lync 2013 desktop client  | Windows Phone  | iOS  | Android |
+ | Feature/capability  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |View Contacts list  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |View contact groups  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -188,7 +188,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
 |Access voice mail  <br/> |&#x2714;|&#x2714;|&#x2714;||
 |Use the keypad in Skype for Business  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
    
- &#x2776;  Available to Skype for Business Online and/or Office 365 E5 users, and users homed on Skype for Business Server 2015 or Lync 2013 with Enterprise Voice enabled.
+ &#x2776;  Available to Skype for Business Online and/or Office 365 E5 users, and users homed on Skype for Business Server or Lync Server 2013 with Enterprise Voice enabled.
   
  &#x2777;  For Skype for Business Online and/or Office 365 users, this feature is supported by Microsoft partners.
   

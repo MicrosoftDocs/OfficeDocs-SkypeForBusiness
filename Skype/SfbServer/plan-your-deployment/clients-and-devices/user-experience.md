@@ -1,5 +1,5 @@
 ---
-title: "Plan the Skype for Business client experience for your users"
+title: "Plan the Skype for Business 2015 client experience for your users"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -16,7 +16,7 @@ ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: "Summary: Learn about the new Skype for Business and the steps you can take to prepare your environment and your users for the update, whether you're using Skype for Business Online, Skype for Business Server 2015, Lync Server 2013, or Lync Server 2010."
 ---
 
-# Plan the Skype for Business client experience for your users
+# Plan the Skype for Business 2015 client experience for your users
  
 **Summary:** Learn about the new Skype for Business and the steps you can take to prepare your environment and your users for the update, whether you're using Skype for Business Online, Skype for Business Server 2015, Lync Server 2013, or Lync Server 2010.
   

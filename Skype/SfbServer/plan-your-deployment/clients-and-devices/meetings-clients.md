@@ -13,12 +13,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
-description: "Summary: IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server 2015. This article is not intended for the users of these apps."
+description: "Summary: IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server. This article is not intended for the users of these apps."
 ---
 
 # Plan for Meetings clients (Web App and Meetings App)
  
-**Summary:** IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server 2015. This article is not intended for the users of these apps.
+**Summary:** IT Professionals should review the support requirements for the Skype for Business Web App and Skype Meetings App while planning for Skype for Business Server. This article is not intended for the users of these apps.
   
 Once you've implemented Skype for Business Server, your organization's users will presumably have the Skype for Business client installed as part of the deployment process. 
   
@@ -82,7 +82,7 @@ Computer hardware requirements are determined by the operating system and browse
 ## Network requirements
 <a name="Network"> </a>
 
-If a user of Skype for Business Web App or Skype Meetings App experiences meeting connection issues, chances are their organization's network infrastructure is not configured to support Office 365 as described in [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US). This is the case whether the meeting was created by a user of Skype for Business Online or Skype for Business Server 2015. 
+If a user of Skype for Business Web App or Skype Meetings App experiences meeting connection issues, chances are their organization's network infrastructure is not configured to support Office 365 as described in [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US). This is the case whether the meeting was created by a user of Skype for Business Online or Skype for Business Server. 
   
 If the user is on a network not configured as described, many app features may or may not work and they may not be able to connect to the meeting at all.
   
@@ -161,6 +161,6 @@ As of Skype for Business Server 2015 CU5, AES is not supported for ASP.NET 4.6 a
 ## See also
 <a name="BKMK_Conferencing"> </a>
 
-[Deploy Web downloadable clients in Skype for Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+[Deploy Web downloadable clients in Skype for Business Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
 [Supported platforms for Skype Meetings App](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
