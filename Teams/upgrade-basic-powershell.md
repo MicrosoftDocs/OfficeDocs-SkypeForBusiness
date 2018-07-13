@@ -26,8 +26,8 @@ If you're ready to upgrade today, you can use the [PowerShell](https://blogs.tec
 
 |Upgrade Basic step # | Mode | PowerShell command |
 |-------|--------|------|
-| 5 |Islands + Notify the Skype for Business User<br>(Use this command if users are currently in **Islands** mode (default)) | Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress<br>Grant-CsTeamsInteropPolicy -PolicyName<br> DisallowOverrideCallingDefaultChatDefault -Identity $SipAddress |
-| 5  | Skype for Business Only + Notify the Skype for Business User <br>(Use this command if users are currently in **Skype for Business only** mode) | Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress <br>Grant-CsTeamsInteropPolicy -PolicyName <br>DisallowOverrideCallingSfBChatSfB -Identity $SipAddress |
-| 7 | Teams Only | Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress <br>Grant-CsTeamsInteropPolicy -PolicyName <br> DisallowOverrideCallingTeamsChatTeams -Identity $SipAddress |
+| 5 |Islands + Notify the Skype for Business User<br>(Use this command if users are currently in **Islands** mode (default)) | <ul><li>Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress</li><li>Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingDefaultChatDefault -Identity $SipAddress</li></ul> |
+| 5  | Skype for Business Only + Notify the Skype for Business User <br>(Use this command if users are currently in **Skype for Business only** mode) | <ul><li>Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress </li><li>Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingSfBChatSfB -Identity $SipAddress</li></ul> |
+| 7 | Teams Only | <ul><li>Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress </li><li>Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity $SipAddress</li></ul> |
 
 
