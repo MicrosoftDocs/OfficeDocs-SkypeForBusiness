@@ -34,7 +34,7 @@ If you have a policy with special characters, you will need to either edit the p
 > [!NOTE]
 > This example is for a Messaging policy. The steps would be the same for other policy types but you must use the correct cmdlet. 
 
-1. To make a remote connection with PowerShell, run:
+**Step 1 - Make a remote connection with PowerShell.**
 
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
@@ -44,33 +44,34 @@ If you have a policy with special characters, you will need to either edit the p
 ```
 [Set up your computer for Windows PowerShell](../../Skype/SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) if you haven't yet.
 
-2. Run:
+**Step 2 - Get the settings for the old policy and capture the output.**
+
   ```
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
   ```
-  Capture the output of the policy so you can see all of the settings.
-
 See, [Get-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps).
 
-3. You can either create the new policy with the same setting using the Microsoft Teams and Skype for Business Admin Center or PowerShell.
+**Step 3 - Create a new policy.**
+
+You can either create the new policy with the same setting using the Microsoft Teams and Skype for Business Admin Center or PowerShell.
 
 Running this will create a new policy for you but you will need to add the correct settings by seeing [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) and then running it:
 
   ```
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
-4. Run:
+**Step 4 - Assign the policy.**
  ```
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
 See, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps).
 
-5. To delete the old policy, run:
+**Step 5 - Delete the old policy.**
+
+This will delete the old policy with the special characters.
   ```
   Remove-CSMessagingPolicy -identity <old_policy_name>
   ```
-This will delete the old policy with the special characters.
-
 See, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps).
 
 If this command runs, you're done. If the above command doesn't run, it is because the old policy is assigned to users so you need to run:
