@@ -21,7 +21,7 @@ This article is part of the User Readiness stage of your upgrade journey, an act
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 -   [Defined your project scope](upgrade-define-project-scope.md)
--   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 # Prepare a user readiness plan
 

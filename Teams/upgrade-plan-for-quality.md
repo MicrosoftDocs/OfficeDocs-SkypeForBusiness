@@ -21,7 +21,7 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 -   [Defined your project scope](upgrade-define-project-scope.md)
--   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 -   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
