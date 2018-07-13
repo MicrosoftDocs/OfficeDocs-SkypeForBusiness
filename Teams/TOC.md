@@ -122,7 +122,7 @@
 
 
 <!-- ============================================================ -->
-# Interopearability with Office 365
+# Interoperability with Office 365
 ## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ## [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 groups and Teams](office-365-groups.md)
@@ -165,6 +165,11 @@
 ### [Teams cloud meeting recording](cloud-recording.md)
 ### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ### [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+### Live events
+#### [What are Teams live events?](what-are-teams-live-events.md)
+
+
+
 ## Apps & services
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Add bots for private chats and channels in Teams](add-bots.md)
