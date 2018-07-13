@@ -211,7 +211,7 @@ You define port monitoring on your hardware load balancers to determine when spe
    
 ## Hardware and software requirements
 
-We've covered Edge Server hardware and software requirements in our overall [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) documentation.
+We've covered Edge Server hardware and software requirements in our overall [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and  [Server requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/server-requirements.md) documentation.
   
 ## Collocation
 
