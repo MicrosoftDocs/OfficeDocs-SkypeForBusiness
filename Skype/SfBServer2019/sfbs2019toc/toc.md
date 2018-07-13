@@ -44,7 +44,7 @@
 #### [Compatibility with Office](../../SfbServer/plan-your-deployment/clients-and-devices/compatibility-with-office.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Video resolutions](../../SfbServer/plan-your-deployment/clients-and-devices/video-resolutions.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Meetings clients](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
-##### [Skype Meetings App minimum network requirements](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
+##### [Skype Meetings App minimum network requirements](../../SfbServer/plan-your-deployment/clients-and-devices/minimum-network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Requirements for Windows Phone](../../SfbServer/plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [VDI environments](../../SfbServer/plan-your-deployment/clients-and-devices/vdi-environments.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
