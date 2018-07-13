@@ -102,7 +102,6 @@ Providing ample notice to your users will give them time to get familiar with Te
 
 **Resources:**
 
--   [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 -   [Manage Teams features in your organization](enable-features-office-365.md)
 -   [Sample email: announcement to users about Skype for Business](upgrade-emails-surveys.md#step-4-email)
 
@@ -119,7 +118,7 @@ Maintain upgrade momentum by enabling the user upgrade notification via the admi
 
 **Resources:**
 
--   [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+-   [Setting your coexistence and upgrade settings](upgrade-basic-powershell.md?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [Return to top](#about-upgrade-basic)
 
@@ -152,7 +151,7 @@ We recommend that after everyone has been upgraded, you send an email welcoming 
 
 **Resources:**
 
--   [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+-   [Set your coexistence and upgrade settings](upgrade-basic-powershell.md?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 -   [Sample email: welcome users to Teams](upgrade-emails-surveys.md#step-7-email)
 
 [Return to top](#about-upgrade-basic)

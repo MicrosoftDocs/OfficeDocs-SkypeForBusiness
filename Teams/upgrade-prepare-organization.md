@@ -21,7 +21,7 @@ This article is part of the User Readiness stage of your upgrade journey, an act
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 -   [Defined your project scope](upgrade-define-project-scope.md)
--   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 # Prepare your organization
 
@@ -29,3 +29,6 @@ To realize maximum value from Teams, users must actually use it, but getting use
 
 -   [Assessing organizational change readiness](upgrade-org-change-readiness.md): This includes understanding who your users are, how they’ll use the new technology, and how readily they adapt to change. This is also an opportunity to identify specific user profiles who would benefit from focused onboarding.
 -   [Preparing a user readiness plan](upgrade-user-readiness.md): Consisting of awareness, training, and support activities, your readiness plan should address both your broad user base and targeted profiles, as identifed in the [assessing change readiness](upgrade-org-change-readiness.md) article.
+
+> [!Tip]
+> Download the [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) for template user readiness materials, such as communications and user surveys, in addition to a sample upgrade project plan and pilot test plan.

@@ -21,7 +21,7 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 -   [Defined your project scope](upgrade-define-project-scope.md)
--   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 -   [Prepared your environment](upgrade-prepare-environment.md)
 -   [Prepared your organization](upgrade-prepare-organization.md)
 
@@ -63,7 +63,7 @@ Your organization might choose to pilot all functionality at once, or use a grad
 
 It’s crucial to the success of your pilot that you educate pilot participants on what’s happening, when, and why, and what’s expected of them. To drive excitement and maximum participation, be sure to include user value messaging in addition to links to training and support where users can get additional information as they progress through the pilot. Here are a few sample resources to get you started with your pilot communications plan:
 
--   [Pilot resources](https://go.microsoft.com/fwlink/?linkid=859067), including email templates and sample feedback survey questions
+-   [Pilot resources](https://aka.ms/UpgradeSuccessKit), including email templates and sample feedback survey questions
 -   [Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), a quick-start guide designed to help Skype for Business users get started with Teams
 
 ## 5. Conduct your pilot

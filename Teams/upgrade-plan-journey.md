@@ -24,5 +24,5 @@ A healthy technical environment, sustained user adoption, and the realization of
 
 -   [Enlisting your project stakeholders](upgrade-enlist-stakeholders.md).
 -   [Defining the scope of your project](upgrade-define-project-scope.md).
--   [Understanding coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md).
+-   [Understanding coexistence and interoperability of Skype for Business and Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 

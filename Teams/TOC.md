@@ -29,9 +29,10 @@
 ## [Manage user access to Teams](user-access.md)
 ## [Get clients for Teams](get-clients.md)
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
-### [Install Microsoft Teams using MSI](msi-deployment.md)
+### [Install Teams using MSI](msi-deployment.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
-## [Enable Microsoft Teams in your organization](Office-365-set-up.md)
+## [Run Teams in a virtual environment](virtual-environment-teams.md)
+## [Enable Teams in your organization](Office-365-set-up.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Assign roles and permissions in Teams](assign-roles-permissions.md)
@@ -70,7 +71,7 @@
 ### [Set up Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Use Call Analytics to troubleshoot poor Skype for Business call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Call Analytics and Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
+
 ## Troubleshoot & support
 ### [Known issues for Teams](Known-issues.md)
 ### [Support resources for Teams](support-resources.md)
@@ -110,14 +111,14 @@
 <!-- NEW ============================================================ -->
 # [Upgrade from Skype for Business to Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Upgrade Basic](upgrade-essentials.md)
+## [Upgrade Basic](upgrade-basic.md)
 ### [Sample emails and surveys](upgrade-emails-surveys.md)
 ## [Upgrade Pro](upgrade-pro.md)
 ## [Plan for your upgrade journey](upgrade-plan-journey.md)
 ### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 ### [Define your project scope](upgrade-define-project-scope.md)
-### [Understand coexistence and interoperability](upgrade-understand-coexistence-and-interoperability.md)
-#### [Choose your upgrade journey](upgrade-plan-upgrade-journey.md)
+### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ### [Plan for quality](upgrade-plan-for-quality.md)
 ## [Prepare your environment for Teams](upgrade-prepare-environment.md)
 ### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
@@ -297,5 +298,6 @@
 ## [Teams resources for Education admins](resources-teams-edu.md)
 <!-- ============================================================ -->
 
+# [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
 
 # [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)

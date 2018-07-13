@@ -21,13 +21,13 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
 -   [Defined your project scope](upgrade-define-project-scope.md)
--   [Understood coexistence and interoperability of Skype for Business and Teams](upgrade-understand-coexistence-and-interoperability.md)
--   [Chosen your upgrade journey](upgrade-plan-upgrade-journey.md)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+-   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
 # Plan for quality
 
-If you’re deploying audio, video, or meetings, you can take some additional steps to optimize your network for that functionality. This content will provide an overview of the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. You can help ensure a successful deployment by planning for service management and quality, before your first pilot or production deployment.
+If you’re deploying audio, video, or meetings, you can take some additional steps to optimize your environment for that functionality. This content will provide an overview of the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. You can help ensure a successful deployment by planning for service management and quality, before your first pilot or production deployment.
 
 The guidance is organized into the following sections:
 
@@ -260,7 +260,7 @@ Part of the network readiness activities includes a network assessment. After yo
 
 The network assessment should be performed on both wired and Wi-Fi networks for all buildings that are being enabled for cloud voice capabilities in Teams.
 
-The network assessment can be conducted by using a Microsoft partner, third-party tools, or the [Microsoft Network Assessment tool](https://www.microsoft.com/download/details.aspx?id=53885). We also provide further guidance on how to run the assessment using the Microsoft Network Assessment tool as part of our readiness guidance [here](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11)..
+The network assessment can be conducted by using a Microsoft partner, third-party tools, or the [Microsoft Network Assessment tool](https://www.microsoft.com/download/details.aspx?id=53885). We also provide further guidance on how to run the assessment using the Microsoft Network Assessment tool as part of our readiness guidance [here](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11).
 
 ## Plan for endpoint quality
 
@@ -351,3 +351,5 @@ This table includes a summary of planning activities with links to related conte
 | | Validate software requirements | [Get clients for Microsoft Teams](get-clients.md) |
 | | Implement endpoint Wi-Fi recommendations | Consult third-party vendors |
 | | Conduct persona to devices mapping <br/> Provision devices and pilot them | [Client and Devices - Readiness Workshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
+
+After you’ve finished planning, proceed to the next step: [Prepare your environment for Teams](upgrade-prepare-environment.md).
