@@ -50,7 +50,7 @@ In this coexistence mode, users remain in Skype for Business—not Teams—for c
 
 ### Teams only (this mode is rolling out starting in Summer 2018)
 
-As soon as your organization is ready for some or all users to use Teams as their only communications and collaboration tool, you can upgrade those users to **Teams only** mode. This mode is rolling out starting in Summer 2018.
+As soon as your organization is ready for some or all users to use Teams as their only communications and collaboration tool, you can upgrade those users to **Teams only** mode.
 
 A **Teams only** user can only use the Skype for Business client to join existing Skype for Business meetings, or meetings on Skype for Business that have been organized by non-upgraded users or external parties. An upgraded user can continue to communicate with other users in the organization who are still using Skype for Business by using the interoperability capabilities between Teams and Skype for Business; however, an upgraded user can’t initiate a Skype for Business chat, call, or meeting.
 
@@ -58,11 +58,11 @@ A **Teams only** user can only use the Skype for Business client to join existin
 
 ### Skype for Business with Teams collaboration (this mode is upcoming)
 
-Use this mode to introduce Teams in your environment while you continue to leverage your existing investment in Skype for Business. In this mode, you leave Skype for Business unchanged with chat, calling, and meeting capabilities, and you add Teams collaboration capabilities—teams and channels, access to files in Office 365, and applications. This mode is upcoming.
+Use this mode to introduce Teams in your environment while you continue to leverage your existing investment in Skype for Business. In this mode, you leave Skype for Business unchanged with chat, calling, and meeting capabilities, and you add Teams collaboration capabilities—teams and channels, access to files in Office 365, and applications.
 
 ### Skype for Business with Teams collaboration and meetings (this mode is upcoming)
 
-Use this coexistence mode to accelerate the availability of Teams meeting capabilities in your organization, in addition to its collaboration capabilities, enabling your users to take advantage of the great quality, new capabilities such as transcription and translation, and support for meetings in browsers. This mode is upcoming. 
+Use this coexistence mode to accelerate the availability of Teams meeting capabilities in your organization, in addition to its collaboration capabilities, enabling your users to take advantage of the great quality, new capabilities such as transcription and translation, and support for meetings in browsers.
 
 Along with using Teams for teams and channels–based conversations in this mode, users start using Teams to schedule and conduct their meetings. Private chats, and voice and video calling, remain on Skype for Business. This coexistence mode is especially useful for users in Skype for Business on-premises deployments that have enterprise voice, who are likely to take some time to be upgraded to Teams
 
