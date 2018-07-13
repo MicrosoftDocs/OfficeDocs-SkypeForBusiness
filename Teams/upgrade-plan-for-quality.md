@@ -351,3 +351,5 @@ This table includes a summary of planning activities with links to related conte
 | | Validate software requirements | [Get clients for Microsoft Teams](get-clients.md) |
 | | Implement endpoint Wi-Fi recommendations | Consult third-party vendors |
 | | Conduct persona to devices mapping <br/> Provision devices and pilot them | [Client and Devices - Readiness Workshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
+
+After you’ve finished planning, proceed to the next step: [Prepare your environment for Teams](upgrade-prepare-environment.md).
