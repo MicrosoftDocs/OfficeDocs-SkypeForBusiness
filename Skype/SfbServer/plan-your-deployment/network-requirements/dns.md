@@ -131,13 +131,13 @@ A Uniform Resource Locator (URL) is a reference to a web resource that specifies
   
 Skype for Business Server supports using three "simple" URLs to access services:
   
-- **Meet** is used as the base URL for all conferences in the site. An example of a Meet simple URL is https://meet.contoso.com. A URL for a particular meeting might be https://meet.contoso.com/ _username_/7322994. 
+- **Meet** is used as the base URL for all conferences in the site. An example of a Meet simple URL is https://<span></span>meet.contoso.com. A URL for a particular meeting might be https://<span></span>meet.contoso.com/ _username_/7322994. 
     
     With the Meet simple URL, links to join meetings are easy to comprehend and easy to communicate.
     
-- **Dial-in** enables access to the Dial-in Conferencing Settings web page. This page displays conference dial-in numbers with their available languages, assigned conference information (that is, for meetings that do not need to be scheduled), and in-conference DTMF controls, and supports management of personal identification number (PIN) and assigned conferencing information. The Dial-in simple URL is included in all meeting invitations so that users who want to dial in to the meeting can access the necessary phone number and PIN information. An example of the Dial-in simple URL is https://dialin.contoso.com.
+- **Dial-in** enables access to the Dial-in Conferencing Settings web page. This page displays conference dial-in numbers with their available languages, assigned conference information (that is, for meetings that do not need to be scheduled), and in-conference DTMF controls, and supports management of personal identification number (PIN) and assigned conferencing information. The Dial-in simple URL is included in all meeting invitations so that users who want to dial in to the meeting can access the necessary phone number and PIN information. An example of the Dial-in simple URL is https://<span></span>dialin.contoso.com.
     
-- **Admin** enables quick access to the Skype for Business Server Control Panel. From any computer within your organization's firewalls, an admin can open the Skype for Business Server Control Panel by typing the Admin simple URL into a browser. The Admin simple URL is internal to your organization. An example of the Admin simple URL is https://admin.contoso.com.
+- **Admin** enables quick access to the Skype for Business Server Control Panel. From any computer within your organization's firewalls, an admin can open the Skype for Business Server Control Panel by typing the Admin simple URL into a browser. The Admin simple URL is internal to your organization. An example of the Admin simple URL is https://<span></span>admin.contoso.com.
     
 Simple URLs are discussed in more detail at [DNS requirements for simple URLs in Skype for Business Server](simple-urls.md).
   
