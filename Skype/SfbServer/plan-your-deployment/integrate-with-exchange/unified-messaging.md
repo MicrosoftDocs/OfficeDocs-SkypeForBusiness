@@ -84,7 +84,7 @@ The following are guidelines and best practices to consider when you deploy Ente
 > [!IMPORTANT]
 > Exchange Unified Messaging (UM) supports IPv6 only if you are also using UCMA 4. 
   
-- Deploy a Skype for Business Server Standard Edition server or a Front End pool. For details about installation, see [Deploy Skype for Business Server](../../deploy/deploy.md) in the Deployment documentation.
+- Deploy a Skype for Business Server Standard Edition server or a Front End pool. 
     
 - Work with Exchange administrators to confirm which tasks each of you will perform to assure a smooth and successful integration.
     
