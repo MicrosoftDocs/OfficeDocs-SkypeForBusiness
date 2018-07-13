@@ -34,7 +34,7 @@ Infrastructure requirements for Active Directory include the following:
     
 - Global catalog domain requirements
     
-For details, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) in the Deployment documentation.
+For details, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Infrastructure requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/environmental-requirements.md).
   
 ## Universal Groups
 
@@ -89,7 +89,7 @@ In Skype for Business Server, trusted servers are the ones specified when you ru
   
 - The FQDN of the server occurs in the topology stored in Central Management store.
     
-- The server presents a valid certificate from a trusted CA. For details, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
+- The server presents a valid certificate from a trusted CA. For details, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Infrastructure requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/environmental-requirements.md).
     
 If either of these criteria is missing, the server is not trusted and connection with it is refused. This double requirement prevents a possible, if unlikely, attack in which a rogue server attempts to take over a valid server's FQDN.
   
