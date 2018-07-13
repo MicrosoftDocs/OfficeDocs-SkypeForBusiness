@@ -29,9 +29,10 @@
 ## [Manage user access to Teams](user-access.md)
 ## [Get clients for Teams](get-clients.md)
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
-### [Install Microsoft Teams using MSI](msi-deployment.md)
+### [Install Teams using MSI](msi-deployment.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
-## [Enable Microsoft Teams in your organization](Office-365-set-up.md)
+## [Run Teams in a virtual environment](virtual-environment-teams.md)
+## [Enable Teams in your organization](Office-365-set-up.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Assign roles and permissions in Teams](assign-roles-permissions.md)
@@ -121,7 +122,7 @@
 
 
 <!-- ============================================================ -->
-# Interopearability with Office 365
+# Interoperability with Office 365
 ## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ## [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 groups and Teams](office-365-groups.md)
@@ -164,6 +165,11 @@
 ### [Teams cloud meeting recording](cloud-recording.md)
 ### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ### [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+### Live events
+#### [What are Teams live events?](what-are-teams-live-events.md)
+
+
+
 ## Apps & services
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Add bots for private chats and channels in Teams](add-bots.md)
