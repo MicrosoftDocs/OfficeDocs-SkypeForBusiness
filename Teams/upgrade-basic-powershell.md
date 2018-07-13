@@ -23,23 +23,11 @@ We're actively rolling out upgrade tooling in the Microsoft Teams & Skype for Bu
  
 If you're ready to upgrade today, you can use the [PowerShell](https://blogs.technet.microsoft.com/shawnt/2007/12/17/how-to-use-the-powershell-1-0-a-beginners-guide/) commands listed in the following table. 
  
-Upgrade Basic Step 
-Mode 
-PowerShell Command 
-5 
-Islands + Notify the Skype for Business User  
-(Use this command if users are currently in Islands mode (default)) 
-Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress 
- 
-Grant-CsTeamsInteropPolicy –PolicyName DisallowOverrideCallingDefaultChatDefault –Identity $SipAddress 
-5 
-Skype for Business Only + Notify the Skype for Business User 
-(Use this command if users are currently in Skype for Business only mode) 
-Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress 
- 
-Grant-CsTeamsInteropPolicy –PolicyName DisallowOverrideCallingSfBChatSfB –Identity $SipAddress 
-7 
-Teams Only 
-Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress 
- 
-Grant-CsTeamsInteropPolicy –PolicyName DisallowOverrideCallingTeamsChatTeams –Identity $SipAddress 
+
+|Upgrade Basic step # | Mode | PowerShell command |
+|-------|--------|------|
+| 5 |Islands + Notify the Skype for Business User<br>(Use this command if users are currently in **Islands** mode (default)) | Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress<br>Grant-CsTeamsInteropPolicy -PolicyName<br> DisallowOverrideCallingDefaultChatDefault -Identity $SipAddress |
+| 5  | Skype for Business Only + Notify the Skype for Business User <br>(Use this command if users are currently in **Skype for Business only** mode) | Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress <br>Grant-CsTeamsInteropPolicy -PolicyName <br>DisallowOverrideCallingSfBChatSfB -Identity $SipAddress |
+| 7 | Teams Only | Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress <br>Grant-CsTeamsInteropPolicy -PolicyName <br> DisallowOverrideCallingTeamsChatTeams -Identity $SipAddress |
+
+
