@@ -28,9 +28,9 @@ If you're ready to upgrade today, you can use the [PowerShell](https://docs.micr
  
  |Upgrade Basic step # | Mode | PowerShell command |
 |-------|--------|------|
-| [5](upgrade-basic.md#step-5) |Islands + Notify the Skype for Business User<br>(Use this command if users are currently in **Islands** mode (default)) | Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress<br>_(for example, $SipAddress='TestUser@contoso.com')_<br><br>Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingDefaultChatDefault -Identity $SipAddress |
-| [5](upgrade-basic.md#step-5)  | Skype for Business Only + Notify the Skype for Business User <br>(Use this command if users are currently in **Skype for Business only** mode) | Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress <br><br>Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingSfBChatSfB -Identity $SipAddress |
-| [7](upgrade-basic.md#step-7) | Teams Only | Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress <br><br>Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity $SipAddress |
+| [5](upgrade-basic.md#step-5) |Islands + Notify the Skype for Business User<br>(Use this command if users are currently in **Islands** mode (default)) | Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify <nowrap>-Identity</nowrap> $SipAddress<br>_(for example, $SipAddress='TestUser@contoso.com')_<br><br>Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingDefaultChatDefault &#8209;Identity $SipAddress |
+| [5](upgrade-basic.md#step-5)  | Skype for Business Only + Notify the Skype for Business User <br>(Use this command if users are currently in **Skype for Business only** mode) | Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify &#8209;Identity $SipAddress <br><br>Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingSfBChatSfB <nowrap>-Identity</nowrap> $SipAddress |
+| [7](upgrade-basic.md#step-7) | Teams Only | Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams <nowrap>-Identity</nowrap> $SipAddress <br><br>Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams <nowrap>-Identity</nowrap> $SipAddress |
 <!--
 |Upgrade Basic step # | Mode | PowerShell command |
 |-------|--------|------|
