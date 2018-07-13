@@ -118,7 +118,7 @@
 ### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 ### [Define your project scope](upgrade-define-project-scope.md)
 ### [Understand coexistence and interoperability](upgrade-understand-coexistence-and-interoperability.md)
-#### [Choose your upgrade journey](upgrade-plan-upgrade-journey.md)
+#### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 ### [Plan for quality](upgrade-plan-for-quality.md)
 ## [Prepare your environment for Teams](upgrade-prepare-environment.md)
 ### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
