@@ -70,13 +70,13 @@ See, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/
 
 This will delete the old policy with the special characters.
   ```
-  Remove-CSMessagingPolicy -identity <old_policy_name>
+  Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
 See, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps).
 
-If this command runs, you're done. If the above command doesn't run, it is because the old policy is assigned to users so you need to run:
+If this command runs, you're done. If the above command doesn't run, it is because the old policy is assigned to users so you need to run to remove all assigned users from the policy:
 
- ```
+```
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### Want to know how to manage with Windows PowerShell?
