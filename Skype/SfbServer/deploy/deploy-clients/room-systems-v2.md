@@ -66,8 +66,8 @@ To prepare for your Skype Room Systems deployment, do the following key, central
 
 Depending on the collaboration scenarios that you’ve decided to enable with your Skype Room Systems v2 deployment, you’ll need to determine the features and capabilities that you assign to each Skype Room Systems v2 service account that you enable.
 
-| **Scenario**                    | **Description**                                                                                              | **Skype Room Systems v2 service account feature**                          |
-|---------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| **Scenario** | **Description** | **Skype Room Systems v2 service account feature** |
+|---------- |------------- | --- |
 | Interactive meetings            | Using voice, video, and screen sharing; making the Skype Room Systems v2 a bookable resource                     | Enabled for Skype for Business, enabled for Exchange (Resource Mailbox) |
 | Dial-in conferencing            | Enable meetings started *directly* from the Skype Room Systems v2 console with dial-in conferencing coordinates | Enabled for Audio Conferencing                                          |
 | Outbound/inbound PSTN Calling | Enable the Skype Room Systems v2 console to make and receive PSTN calls                                         | Enabled for Phone System                                                |
@@ -102,8 +102,7 @@ Create a Group Policy object assigned to the organization unit that contains you
 
 -   [Set power and local account settings](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#configuring-group-policy-for-skype-room-systems-v2).
 -   Enable Windows Update.
--   Enable PowerShell remoting. You can configure a start-up script to run a
-    simple script: Enable-PSRemoting -Force
+-   Enable PowerShell remoting. You can configure a start-up script to run a  simple script: Enable-PSRemoting -Force
 
 You can use PowerShell to perform a number of remote management activities, including getting and setting configuration information. PowerShell remoting must be enabled *before* any PowerShell remote management can take place and should be considered as part of your deployment processes or configured via Group Policy. For more information about these capabilities and enabling them, see [Maintenance and operations](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#remote-management-using-powershell). 
 

@@ -56,7 +56,7 @@ You can verify that a user's contacts have successfully been migrated to the uni
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-If Test-CsUnifiedContactStore succeeds that means that the contacts for the user sip:kenmyer@litwareinc.com have been migrated to the unified contact store.
+If Test-CsUnifiedContactStore succeeds that means that the contacts for the user sip:kenmyer@<span></span>litwareinc<span></span>.com have been migrated to the unified contact store.
   
 ## Rolling Back the Unified Contact Store
 

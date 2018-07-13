@@ -300,11 +300,11 @@ For the internal Edge Server interface, you can use a public certificate from a 
 
 We have a table here to help you out with your requests. The FQDN entries here are for sample domains only. You're going to need to make requests based on your own private and public domains, but here's a guide to what we've used:
   
-- contoso.com: Public FQDN
+- contoso<span></span>.com: Public FQDN
     
-- fabrikam.com: Second public FQDN (added as a demo of what to request if you have multiple SIP domains)
+- fabrikam<span></span>.com: Second public FQDN (added as a demo of what to request if you have multiple SIP domains)
     
-- Contoso.net: Internal domain
+- Contoso<span></span>.net: Internal domain
     
 #### Edge Certificate table
 
@@ -317,16 +317,16 @@ Regardless of whether you're doing a single Edge Server or an Edge pool, this is
    
 If you need a certificate for Extensible Messaging and Presence Protocol (XMPP), it will look identical to the External Edge table entries above, but will have the following two additional SAN entries:
   
-- xmpp.contoso.com
+- xmpp.<span></span>contoso<span></span>.com
     
-- \*.contoso.com
+- \*.contoso<span></span>.com
     
 Please remember that currently XMPP is only supported in Skype for Business Server for Google Talk, if you want or need to use it for anything else, you need to confirm that functionality with the third-party vendor involved.
   
 ## Port and firewall planning
 <a name="PortFirewallPlan"> </a>
 
-Getting your planning right for ports and firewalls for Skype for Business Server Edge Server deployments can save you days or weeks of troubleshooting and stress. As a result, we're going to list a couple of tables that will indicate our protocol usage and what ports you need to have open, inbound and outbound, both for NAT and public IP scenarios. We'll also have separate tables for hardware load balanced scenarios (HLB) and some further guidance on that. For more reading from there, we also have [Technical diagrams for Skype for Business Server 2015](../../technical-diagrams.md), as well as some [Edge Server scenarios in Skype for Business Server](scenarios.md) you can check out for your particular deployment concerns.
+Getting your planning right for ports and firewalls for Skype for Business Server Edge Server deployments can save you days or weeks of troubleshooting and stress. As a result, we're going to list a couple of tables that will indicate our protocol usage and what ports you need to have open, inbound and outbound, both for NAT and public IP scenarios. We'll also have separate tables for hardware load balanced scenarios (HLB) and some further guidance on that. For more reading from there, we also have some [Edge Server scenarios in Skype for Business Server](scenarios.md) you can check out for your particular deployment concerns.
   
 ### General protocol usage
 
