@@ -35,7 +35,9 @@ Skype for Business Server 2015 also supports the following legacy clients on com
 - Microsoft Lync for Mac 2011 (see [Lync for Mac 2011 Deployment Guide](https://go.microsoft.com/fwlink/p/?LinkId=268786))
     
 - Microsoft Communicator for Mac 2011 (see [Communicator for Mac 2011 Deployment Guide](https://go.microsoft.com/fwlink/p/?LinkId=268787))
-    
+ 
+These clients are not supported by Skype for Business Server 2019.
+   
 ## Infrastructure requirements for Skype for Business on the Mac
 <a name="Infrastructure"> </a>
 
@@ -69,7 +71,7 @@ For more information, refer to: [Deploying Mobility in Lync Server 2013](https:/
 ## See also
 <a name="Infrastructure"> </a>
 
-[DNS requirements for Skype for Business Server 2015](../../plan-your-deployment/network-requirements/dns.md)
+[DNS requirements for Skype for Business Server](../../plan-your-deployment/network-requirements/dns.md)
 
 [Frequently Asked Questions](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   

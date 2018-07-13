@@ -30,7 +30,7 @@ There are three solutions available for the VDI plug-in component, offered by Mi
 - The **VMWare Horizon Virtualization Pack** for Skype for Business, developed in collaboration with VMWare, allows you to deliver Skype for Business in a virtual desktop while delivering a great user experience. The solution works by leveraging a media engine at the client to create an optimized solution, with the client endpoint providing media offload capabilities for audio and video calls. This solution that can deliver audio and video either directly between endpoints for one-on-one collaboration, or offload it to a central Multipoint Control Unit (MCU) for multiparty conference calls or meetings.
     
 > [!NOTE]
-> The Skype for Business Basic 2015 or 2016 clients are not supported with the Citrix HDX RealTime Optimization Pack or the VMWare Horizon Virtualization Pack. 
+> The Skype for Business Basic clients are not supported with the Citrix HDX RealTime Optimization Pack or the VMWare Horizon Virtualization Pack. 
   
 ## Citrix HDX RealTime Optimization Pack
 <a name="Citrix_RT"> </a>
@@ -83,7 +83,7 @@ Review the following links for more information:
     
 - [Lync VDI plug-in prerequisites](vdi-environments.md#VDI_prereq)
     
-- [Deploy the Lync VDI plug-in with Skype for Business Server 2015](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
+- [Deploy the Lync VDI plug-in with Skype for Business Server](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
     
 - Citrix Knowledge Center article [CTX138408](https://support.citrix.com/article/CTX138408)
     
@@ -118,7 +118,7 @@ Virtual machines must be configured with Windows 8, Windows 7, or Windows Server
   
 The user's local computer must meet the following requirements:
   
-- The user must be homed on Skype for Business Server 2015 or Lync Server 2013.
+- The user must be homed on Skype for Business Server or Lync Server 2013.
     
 - The local computer must be running Windows Embedded Standard 7 with SP1, Windows 7 with SP1, or Windows 8.
     
@@ -161,5 +161,5 @@ The Lync VDI plug-in is not supported in an Office 365 environment.
 ## See also
 <a name="Citrix_RT"> </a>
 
-[Deploy the Lync VDI plug-in with Skype for Business Server 2015](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
+[Deploy the Lync VDI plug-in with Skype for Business Server](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
 
