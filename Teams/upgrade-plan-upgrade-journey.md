@@ -15,6 +15,7 @@ appliesto:
 - Microsoft Teams
 ---
 
+<!-- Don't use this; delete it eventually. Just make sure everything here is in upgrade-and-coexistence
 ![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")
 
 This article is part of Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you’ve completed the following activities:
@@ -26,9 +27,11 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 -   [Prepared your organization](upgrade-prepare-organization.md)
 
 
-<!--
+
 [!INCLUDE [upgrade-journeys-for-skypeforbusiness-and-teams](upgrade-journeys-for-skypeforbusiness-and-teams.md)]
--->
+
+
+
 # Choose your upgrade journey from Skype for Business to Teams
 
 As an existing Skype for Business customer, your complete transition to Teams might take some time. However, you can begin realizing the value of Teams today, by enabling your users to use Teams alongside Skype for Business. Given that there’s some overlapping functionality between the two apps, we recommend that you review the available coexistence and upgrade modes to help determine which path is right for your organization. For example, you might opt to enable all workloads on both solutions without interoperability. Or, you might decide to manage the user experience, either by gradually introducing Teams capabilities or by targeting groups of users for select capabilities, until your organization is ready to upgrade everyone to Teams. Use the outcome of your pilot to help assess the right upgrade journey for your organization.
@@ -104,4 +107,4 @@ Based on the upgrade journeys described earlier in this article, the following p
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul> Decide the timeline of your organization's upgrade journey based on messaging, meetings, and calling business requirements.<br><br> Decide the required additional work to complete your upgrade journey.<br><br></ul></td></tr>
 </table>
 
-After you’ve chosen the best upgrade journey for your organization, [perform your upgrade to Teams](upgrade-to-teams.md).
+After you’ve chosen the best upgrade journey for your organization, [perform your upgrade to Teams](upgrade-to-teams.md).-->
