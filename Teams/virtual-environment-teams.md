@@ -3,7 +3,7 @@ title: Run Microsoft Teams in a virtual environment
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/12/2018
+ms.date: 07/13/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -50,7 +50,7 @@ The *CsTeamsCallingPolicy* cmdlets enable administrators to control whether call
 \>> *Import-PSSession $sfboSession*<br>
 3.	View list of Calling Policy Options:<br>
 \>> *Get-CsTeamsCallingPolicy*
-4.	Look for the pre-canned option where all meeting policies are disabled:<br>
+4.	Look for the pre-canned option where all calling policies are disabled:<br>
 ![Screenshot of meetings option with all meeting policies disabled.](media/virtual-environment-image2.png)
 5.	Apply the “DisallowCalling” pre-canned policy option to all users who will be using Teams in a virtualized environment:<br>
 \>> *Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”*
