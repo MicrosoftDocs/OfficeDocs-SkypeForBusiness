@@ -190,7 +190,7 @@ Use the following to configure the default calling and meetings application poli
 |Setting   |Value    |
 |----------|---------|
 |Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|Data Type | string (set string to Teams application package ID as - **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams**) |
+|Data Type | string (set string to Teams application package ID as - **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams** |
 |Operations| Get, Set        |
 
 Restart the Surface Hub device. After the device restarts, you should be able to start the Teams app from the Start screen and join a meeting from the calendar.
