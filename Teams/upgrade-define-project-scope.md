@@ -3,7 +3,7 @@ title: Define the scope of your Skype for Business to Teams upgrade journey - Mi
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 06/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -54,9 +54,9 @@ Consider the following discussion points to help refine your vision:
 
 Your vision might only be realized over time, through various phases. The project scope defines the focus of your project _at this time_ and serves to keep your project team focused on their current tasks, enabling you to realize your long-term vision. For example, your scope might call for you to run a pilot, deploy a specific workload such as voice or meetings, or enable Teams alongside Skype for Business as you plan for your upgrade over time. As part of the project scope, you should assess:
 
--   [The various coexistence modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), and which would be optimal for your organization.
+-   [The various coexistence modes](https://aka.ms/SkypeToTeams-Coexist), and which would be optimal for your organization.
 -   The best way for Skype for Business and Teams to coexist before you move to Teams.
--   Whether you should conduct a [pilot](pilot-essentials.md) to validate technical and user readiness in your organization.
+-   Whether you should conduct a [pilot](https://aka.ms/SkypeToTeams-Pilot) to validate technical and user readiness in your organization.
 
 ## Project goals
 
@@ -112,6 +112,6 @@ As you scope your upgrade journey, be sure to set a timeline for key milestones 
 -   **Other changes that are occurring at or around the same time**: Consider bundling changes or spacing them out to facilitate a positive user experience and minimize any impact on productivity.
 -   **Resourcing**: Confirm resource allocation with your project stakeholders to ensure that the project team you’ve brought together has enough bandwidth to complete all necessary tasks.
 
-As a reference point, a sample timeline is provided for the pre-upgrade, upgrade, and post-upgrade phases of the [Upgrade Pro journey](upgrade-pro.md), which we encourage you to adjust as needed to align with the specific needs of your organization.
+As a reference point, a sample timeline is provided for the pre-upgrade, upgrade, and post-upgrade phases of the [Upgrade Pro journey](https://aka.ms/UpgradePro), which we encourage you to adjust as needed to align with the specific needs of your organization.
 
-After you’ve completed the activities described above, you should have a solid foundation for your project. Continue with your [technical readiness](upgrade-prepare-environment.md) and [organizational readiness](upgrade-prepare-organization.md) planning activities.
+After you’ve completed the activities described above, you should have a solid foundation for your project. Continue with your [technical readiness](https://aka.ms/SkypeToTeams-TechnicalReadiness) and [organizational readiness](https://aka.ms/SkypeToTeams-UserReadiness) planning activities.
