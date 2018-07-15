@@ -3,7 +3,7 @@ title: Prepare your network for upgrading to Teams - Microsoft Teams
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 06/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -20,8 +20,9 @@ appliesto:
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](upgrade-define-project-scope.md)
--   [Understood coexistence and interoperability of Skype for Business and Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+-   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+-   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # Prepare your network for upgrading to Teams
 
@@ -52,7 +53,6 @@ You start your bandwidth planning journey for Teams on the [My Advisor website](
 > [!IMPORTANT]
 >If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It’s therefore extremely important to have the expected bandwidth available.
 
-[//]: # (@Turgay, our Style Guide says not to abbreviate "megabit." I think we must be talking about "megabits per second" here? for which the abbreviation "Mbps" is fine. If we really do mean "megabits," we should spell it out.)
 
 |Activity  |Download bandwidth  |Upload bandwidth  |Traffic flow |
 |---------|---------|---------|---------|
@@ -194,15 +194,15 @@ If the results of bandwidth planning, port testing, or network requirements test
 
 -   For network impairments, always perform a root-cause analysis.
 
-Quality of service (QoS) can be used to battle impairments by prioritizing and separating traffic. Some organizations choose to deploy QoS to overcome bandwidth issues or restrict the amount of traffic flowing. This won’t improve quality and will lead to new problems. A root-cause analysis should always be performed when network impairments exceed requirements. QoS can be a solution. For more information, see [Quality of Service in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams).
+Quality of service (QoS) can be used to battle impairments by prioritizing and separating traffic. Some organizations choose to deploy QoS to overcome bandwidth issues or restrict the amount of traffic flowing. This won’t improve quality and will lead to new problems. A root-cause analysis should always be performed when network impairments exceed requirements. QoS can be a solution. For more information, see [Quality of Service in Microsoft Teams](qos-in-teams).
 
 >[!NOTE]
 >Many networks evolve over time due to upgrades, expansion, or other business requirements. Ensure that you have operational processes in place to maintain these areas as part of your service management planning.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment. For more information, see [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness).</li><li>Perform network remediation based on the results of the Network Readiness Assessment for every network segment.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision point</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment. For more information, see [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness).</li><li>Perform network remediation based on the results of the Network Readiness Assessment for every network segment.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
