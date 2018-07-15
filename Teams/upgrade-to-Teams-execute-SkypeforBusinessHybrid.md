@@ -3,7 +3,7 @@ title: Upgrade from a Skype for Business hybrid deployment to Teams - Microsoft 
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 06/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -20,10 +20,13 @@ appliesto:
 This article is part of Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you’ve completed the following activities:
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](upgrade-define-project-scope.md)
--   [Understood coexistence and interoperability of Skype for Business and Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
--   [Prepared your environment](upgrade-prepare-environment.md)
--   [Prepared your organization](upgrade-prepare-organization.md)
+-   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+-   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+-   [Prepared your environment](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+-   [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
+-   [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
+
 
 # Upgrade from a Skype for Business hybrid deployment to Teams
 
@@ -31,11 +34,11 @@ Follow the guidance in this article if you’ve deployed Skype for Business or M
 
 ## Step 1: Move users to Skype for Business Online
 
-This step applies to users who are currently homed on-premises. For more information about moving these users to Skype for Business Online, see [Move users from on -premises to Skype for Business Online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
+This step applies to users who are currently homed on-premises. For more information about moving these users to Skype for Business Online, see [Move users from on -premises to Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
 
 ## Step 2: Assign a coexistence and upgrade mode
 
-After you’ve moved your users to Skype for Business Online, you can assign them the appropriate coexistence mode based on the upgrade journey that your organization has chosen. For more information, see [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md) and [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+After you’ve moved your users to Skype for Business Online, you can assign them the appropriate coexistence mode based on the upgrade journey that your organization has chosen. For more information, see [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) and [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
 > [!NOTE]
 > With Skype for Business Server 2019 and a future cumulative update of Skype for Business Server 2015, you’ll be able to perform Step 1 (moving users to Skype for Business Online) and Step 2 (upgrade users to Teams) in a single step. More information will be provided after Skype for Business Server 2019 is released.

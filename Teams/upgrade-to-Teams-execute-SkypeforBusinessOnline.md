@@ -3,7 +3,7 @@ title: Upgrade from Skype for Business Online to Teams - Microsoft Teams
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 06/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -20,10 +20,13 @@ appliesto:
 This article is part of Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you’ve completed the following activities:
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](upgrade-define-project-scope.md)
--   [Understood coexistence and interoperability of Skype for Business and Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
--   [Prepared your environment](upgrade-prepare-environment.md)
--   [Prepared your organization](upgrade-prepare-organization.md)
+-   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+-   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+-   [Prepared your environment](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+-   [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
+-   [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
+
 
 # Upgrade from Skype for Business Online to Teams
 
@@ -33,7 +36,7 @@ Follow the guidance in this article if you have wholly deployed Skype for Busine
 
 Upgrading to Teams can be accomplished by assigning the TeamsOnly mode of TeamsUpgradePolicy, which can be performed by using Microsoft Teams & Skype for Business Admin Center or a Skype for Business remote Windows Powershell session.
 
-For more information, see [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md) and [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+For more information, see [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) and [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
 ## Phone System and Teams upgrade
 
