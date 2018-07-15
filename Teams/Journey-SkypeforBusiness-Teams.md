@@ -3,11 +3,11 @@ title: Skype for Business to Microsoft Teams upgrade
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 06/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Skype for Business to Teams upgrade NEEDS BETTER DESCRIPTION
+description: Use a proven success framework to help your organization's upgrade journey from Skype for Business to Teams
 localization_priority: Priority
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
@@ -39,6 +39,7 @@ We understand that customers don’t come one-size-fits-all. For added flexibili
 
 Select one of the options below or explore both to determine the optimal path for you. More information will be coming online over time, so check back as your organization continues its journey to Teams. To help us better understand your upgrade path and what additional guidance might be helpful, take a moment to <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">share your feedback</a>.
 
+[//]: # (Change the URLs to the graphics from review.docs to docs. Delete "en-us", one assumes?)
 
 <div class="mx-tableFixed">
 <table>
