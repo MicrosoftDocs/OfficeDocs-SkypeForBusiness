@@ -57,7 +57,7 @@ description: "This topic contains all of the countries/regions that users can pl
 |Bolivia |Guyana| |New Caledonia |Slovenia |Zimbabwe |
 |Bosnia and Herzegovina |Haiti ||New Zealand |South Africa | 
 |Botswana |Honduras ||Nicaragua |Spain |
-|Bazil |Hong Kong ||Niger |Sri Lanka | 
+|Brazil |Hong Kong ||Niger |Sri Lanka | 
 |Bunei Darussalam |Hungary ||Nigeria |St. Pierre and Miquelon | 
 |Bulgaria |||Northern Mariana Islands |Sudan |
 |Burkina Faso |||Norway |Suriname |
