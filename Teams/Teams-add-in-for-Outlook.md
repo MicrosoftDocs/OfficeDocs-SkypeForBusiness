@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 04/09/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
@@ -59,6 +59,7 @@ The Teams Meeting add-in is still building functionality, so be aware of the fol
 - Currently, you can only invite people from within your company, as it is not yet possible for external users to join meetings.
 - The add-in is for scheduled meetings with specific participants, not for meetings in a channel. Channel meetings must be scheduled from within Teams. Currently, the Teams Meeting add-in in Outlook is only available for Windows users, but support for Mac is coming.
 - The add-in will not work if an Authentication Proxy is in the network path of user's PC and Teams Services.
+- The add-in is being rolled out incrementally and might not be available for your organization yet.
 
 ## Troubleshooting
 
