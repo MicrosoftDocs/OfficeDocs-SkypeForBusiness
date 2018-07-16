@@ -3,7 +3,7 @@ title: FAQ - Upgrade Journey from Skype for Business to Microsoft Teams - Micros
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/12/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
