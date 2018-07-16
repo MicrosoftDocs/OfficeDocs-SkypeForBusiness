@@ -3,7 +3,7 @@ title: Tools and workshops - Plan, deliver, and adopt Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara, lolaj, rowille
