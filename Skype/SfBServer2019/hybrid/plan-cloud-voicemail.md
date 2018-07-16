@@ -59,35 +59,23 @@ Unanswered calls are handled as follows:
 
 ## Requirements
 
-**NATHAN TO VERIFY THIS SECTION**
+The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  Your requirements depend on your scenario:
 
-**We will refer to the hybrid connectivity docs as much as possible.**
+- If you are already using Exchange unified messaging online and you upgrade to Skype for Business 2019, you will need to modify your hosted voicemail policy and verify your hosting provider are set correctly. 
 
-**WHAT ARE THE POSSIBLE STARTING TOPOLOGIES? REQUIREMENTS DEPEND ON STARTING POINT** 
+- If you are using Exchange unified messaging on-premises, or have a mix of users using Exchange unified messaging online and on-premises, you will need modify both your hosted voicemail policy and hosting provider.
 
--  Full SfB Server split domain w or w/o hosted Exchange UM
--  SfB on prem with hosted Exchange UM
--  Exchange UM on prem
+- For a new configuration of Cloud Voicemail,  follow the steps outlined in Configure Cloud Voicemail Service.
 
-The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  
+In addition to the requirements above, the below requirements must be configured to connect to Microsoft’s Cloud Voicemail service:
 
-- **Hybrid connectivity.**  If you already have Skype for Business Server deployed, and you want to enable Cloud Voicemail for your on-premises users, you must ensure that you have hybrid connectivity set up between your on-premises and online environments.  This is sometimes called a split domain configuration. Hybrid connectivity requires the following:
+- Hybrid connectivity. If you already have Skype for Business Server deployed, and you want to enable Cloud Voicemail for your on-premises users, you must ensure that you have hybrid connectivity set up between your on-premises and online environments. This is sometimes called a split domain configuration. Please refer to Plan hybrid connectivity for requirements.
 
-    - Azure Active Directory (AAD) Connect, which is used to synchronize your on-premises directory with Office 365. For more information, see Connect Active Directory with Azure Active Directory.
+For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](configure-hybrid-connectivity.md)
 
-    - An Office 365 tenant with Skype for Business Online enabled.  
+- On-premises users must be enabled for Enterprise Voice and Hosted Voicemail in Skype for Business Server.
 
-    - Federation enabled between your on-premises Skype for Business Server deployment and your Office 365 tenant. For more information, see [Configure federation with Skype for Business Online](configure-federation-with-skype-for-business-online.md).  
-
-    - A shared Session Initiation Protocol (SIP) address space.  A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. For more information, see Configure federation with Skype for Business Online. 
-
-    For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](configure-hybrid-connectivity.md)
-
-- On-premises users must be enabled for voice and hosted voicemail in Skype for Business Server. For more information, see INSERT LINK HERE.
-
-- **ANYTHING MISSING?**
-
-NOTE: If you have an on-premises only deployment--that is, only Exchange and Skype for Business on-premises servers--but you want to take advantage of Cloud Voicemail, then you need the ON-PREM license.  **NEED DETAILS ABOUT THE ON-PREM-ONLY LICENSE.**
+-  If you have an on-premises only deployment--that is, only Exchange and Skype for Business on-premises servers--but you want to take advantage of Cloud Voicemail, you need the ON-PREM license. NEED DETAILS ABOUT THE ON-PREM-ONLY LICENSE.
 
 ##Migration and interoperability
 
