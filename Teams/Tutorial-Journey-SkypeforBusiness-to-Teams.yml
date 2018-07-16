@@ -18,7 +18,7 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-   This tutorial is an introduction to the Skype for Business to Microsoft Teams upgrade journey and our end-to-end upgrade success framework. This tutorial will quickly orient you to the recommended upgrade paths and resources available to support your in your journey, whether you’re just getting started with planning, already running Teams alongside Skype for Business, or ready to upgrade to Teams.
+   This tutorial is an introduction to the Skype for Business to Microsoft Teams upgrade journey and our end-to-end upgrade success framework. This tutorial will quickly orient you to the recommended upgrade paths and resources available to support you in your journey, whether you’re just getting started with planning, already running Teams alongside Skype for Business, or ready to upgrade to Teams.
 
    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
 
@@ -361,7 +361,7 @@ items:
    Now that you’ve completed all planning and preparation, it’s time to
    configure your coexistence settings and execute the upgrade. Please refer to
    [Setting your coexistence and upgrade
-   settings](https://aka.ms/SkypeToTeams-Coexist)
+   settings](https://aka.ms/SkypeToTeams-SetCoexistence)
    (estimated reading time 3 minutes) to understand the different settings.
 
    The detailed steps depend on your current environment; please refer to the
