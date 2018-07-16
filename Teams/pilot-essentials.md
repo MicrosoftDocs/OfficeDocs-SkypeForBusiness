@@ -3,7 +3,7 @@ title: Pilot Microsoft Teams alongside Skype for Business - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 06/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -20,10 +20,11 @@ appliesto:
 This article is part of Deployment and Implementation stage of your upgrade journey, and shares insights for running an effective pilot. Before proceeding, confirm that you’ve completed the following activities:
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](upgrade-define-project-scope.md)
--   [Understood coexistence and interoperability of Skype for Business and Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
--   [Prepared your environment](upgrade-prepare-environment.md)
--   [Prepared your organization](upgrade-prepare-organization.md)
+-   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+-   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+-   [Prepared your environment](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+-   [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
 
 # Conduct a user pilot
 
@@ -34,11 +35,11 @@ To achieve the most realistic results, the pilot should involve actual users, mi
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>How will you use a pilot to inform project direction?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the guidance below to design and execute your formal pilot.</li></ul>|
+| ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>How will you use a pilot to inform project direction?</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Use the guidance below to design and execute your formal pilot.</li></ul>|
 
 > [!Tip]
-> Use the sample [pilot resources](https://go.microsoft.com/fwlink/?linkid=859067) to help design your communications, test plan, and feedback survey.
+> Use the sample [pilot resources](https://aka.ms/UpgradeSuccessKit) to help design your communications, test plan, and feedback survey.
 
 ## 1. Outline pilot logistics
 
@@ -55,7 +56,7 @@ One of the most important tasks of pilot planning is thoughtful participant sele
 
 ## 3. Design your test plan and feedback survey
 
-For a successful pilot experience, give your participants clearly defined tasks to complete along with a way for them to share their feedback. Group tasks together to offer real-world scenarios to your users, demonstrating relevancy to their daily activities. Let the use cases you defined in [Assess organizational change readiness](upgrade-org-change-readiness.md) guide your test plan.
+For a successful pilot experience, give your participants clearly defined tasks to complete along with a way for them to share their feedback. Group tasks together to offer real-world scenarios to your users, demonstrating relevancy to their daily activities. Let the use cases you defined in [Assess organizational change readiness](https://aka.ms/OrgReadiness) guide your test plan.
 
 Your organization might choose to pilot all functionality at once, or use a gradual approach—for example, pilot collaboration first, then meetings, then chat and calling. Ensure that you have an open feedback channel to track progress and measure outcomes. Use a predefined survey as an easy way to capture and assess pilot results; the survey design should be based on the scenarios and features in your test plan. 
 
@@ -73,7 +74,7 @@ With all the logistics in place, you’re now ready to begin your pilot. Conduct
 ### Tips for pilot success
 
 The following tips can help ensure the success of your pilot:
--   Before beginning your pilot, confirm that all pilot participants are enabled for the appropriate [coexistence mode](setting-your-coexistence-and-upgrade-settings.md) you want to validate.
+-   Before beginning your pilot, confirm that all pilot participants are enabled for the appropriate [coexistence mode](https://aka.ms/SkypeToTeams-SetCoexistence) you want to validate.
 -   Weekly, throughout your pilot, meet with your project stakeholders to review user feedback, usage data, network data, and helpdesk tickets to ensure your pilot is running smoothly. Make any adjustments as needed.
 
 ### Suggested timeline
@@ -96,8 +97,8 @@ If your results indicate:
 
 -   **Your pilot goals (for example, user satisfaction and network quality) have been achieved**, you should be ready to proceed with the next phase of your rollout. Depending on the goals of your project, this could be one of the following:
    -   Extending the pilot to additional participants
-   -   [Enabling Teams alongside Skype for Business (**Islands** mode) for some or all of your organization](setting-your-coexistence-and-upgrade-settings.md)
-   -   [Upgrading users from Skype for Business to Teams (**Teams only** mode) for some or all of your organization](setting-your-coexistence-and-upgrade-settings.md)
+   -   [Enabling Teams alongside Skype for Business (**Islands** mode) for some or all of your organization](https://aka.ms/SkypeToTeams-SetCoexistence)
+   -   [Upgrading users from Skype for Business to Teams (**Teams only** mode) for some or all of your organization](https://aka.ms/SkypeToTeams-SetCoexistence)
 -   **Your pilot didn’t achieve the outcomes you wanted (for example, user satisfaction and network quality)**, take time to make the appropriate adjustments to your plan and revisit your pilot.
 
 > [!Tip]

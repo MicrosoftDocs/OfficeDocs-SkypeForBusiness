@@ -3,7 +3,7 @@ title: Enlist stakeholders for your Skype for Business to Teams journey - Micros
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 06/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -26,7 +26,7 @@ From implementing project deliverables to driving accountability, your stakehold
 > [!Tip]
 > Take time to identify the ideal executive sponsor, someone who can help set the tone of your project, leads by example, and holds others accountable. This should be a senior manager or executive who has authority over the project scope and vision. They should also be the final decision-maker in removing blockers and resolving conflict to help keep the project on time and on budget.
 
-Optionally, you can create a steering committee. Sometimes large or more complex projects end up with “too many cooks in the kitchen,” resulting in disconnects among the stakeholder groups. For these projects, you might want to form a steering committee. A steering committee is responsible for driving decisions, providing strategic oversight, supporting the project’s initiatives, and—when necessary—removing blockers. You can find more information about implementing a steering committee in the [steering committee guide](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide).
+Optionally, you can create a steering committee. Sometimes large or more complex projects end up with “too many cooks in the kitchen,” resulting in disconnects among the stakeholder groups. For these projects, you might want to form a steering committee. A steering committee is responsible for driving decisions, providing strategic oversight, supporting the project’s initiatives, and—when necessary—removing blockers. You can find more information about implementing a steering committee in the [steering committee guide](https://aka.ms/SteeringCommittee).
 
 |    |     |
 |-----------|------------|
@@ -60,5 +60,5 @@ Optionally, you can create a steering committee. Sometimes large or more complex
 
 
 
-After you’ve gathered your stakeholders, proceed to the next step: [Define your project scope](upgrade-define-project-scope.md).
+After you’ve gathered your stakeholders, proceed to the next step: [Define your project scope](https://aka.ms/SkypetoTeams-Scope).
 

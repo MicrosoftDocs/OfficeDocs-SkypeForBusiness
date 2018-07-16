@@ -3,7 +3,7 @@ title: Assess organizational change readiness before upgrade from Skype for Busi
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 06/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -20,8 +20,9 @@ appliesto:
 This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](upgrade-define-project-scope.md)
--   [Understood coexistence and interoperability of Skype for Business and Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+-   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+-   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # Assess organizational change readiness
 
@@ -145,4 +146,4 @@ Identify targeted user profiles that require specific technical or user readines
 
 
 
-Use the information you’ve gathered above to inform your [user readiness plan](upgrade-user-readiness.md).
+Use the information you’ve gathered above to inform your [user readiness plan](https://aka.ms/UserReadinessPlan).

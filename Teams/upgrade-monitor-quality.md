@@ -3,7 +3,7 @@ title: Quality of Experience Review Guide - Microsoft Teams
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 06/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen

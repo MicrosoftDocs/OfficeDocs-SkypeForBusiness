@@ -131,9 +131,9 @@
 ### [Prepare a user readiness plan](upgrade-user-readiness.md)
 ## [Conduct a user pilot](pilot-essentials.md)
 ## [Perform your upgrade to Teams](upgrade-to-teams.md)
-### [Upgrade from Skype for Business online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [Upgrade from Skype for Business hybrid to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
-### [Upgrade Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+### [Upgrade from Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
 ## [Drive value through user adoption](continue-journey.md)
 ### [Operate your service](upgrade-operate-my-service.md)
 ### [Monitor quality](upgrade-monitor-quality.md)
@@ -155,7 +155,7 @@
 
 
 <!-- ============================================================ -->
-# Interopearability with Office 365
+# Interoperability with Office 365
 ## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ## [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 groups and Teams](office-365-groups.md)
@@ -198,6 +198,11 @@
 ### [Teams cloud meeting recording](cloud-recording.md)
 ### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ### [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+### Live events
+#### [What are Teams live events?](what-are-teams-live-events.md)
+
+
+
 ## Apps & services
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Add bots for private chats and channels in Teams](add-bots.md)

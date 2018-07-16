@@ -3,7 +3,7 @@ title: FAQ - Upgrade Journey from Skype for Business to Microsoft Teams - Micros
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/12/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -136,7 +136,7 @@ Teams is available in all Office 365 for Education suite licensing: Education, E
 
 ### Do you have plans to offer Teams in the government community cloud (GCC)?
 
-Teams is actively pursuing FedRAMP compliance and bringing a GCC offering to market. [Teams will be available for Government plans on July 17, 2018](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
+Microsoft Teams will begin rolling out for the US Government Cloud Community (GCC) on July 17 and will be available for all eligible customers by the end of August 2018. See [this blog post](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976) for more details.
 
 
 ## Calling capabilities

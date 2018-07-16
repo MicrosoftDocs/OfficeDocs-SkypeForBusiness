@@ -18,23 +18,28 @@ metadata:
 items:
 - durationInMinutes: 1
   content: |
-   In this training, we’ll talk about how to upgrade from Skype for Business to
-   Microsoft Teams.
+   This tutorial is an introduction to the Skype for Business to Microsoft Teams upgrade journey and our end-to-end upgrade success framework. This tutorial will quickly orient you to the recommended upgrade paths and resources available to support your in your journey, whether you’re just getting started with planning, already running Teams alongside Skype for Business, or ready to upgrade to Teams.
 
    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
 
    This training is for you if you're:
-   -   An IT pro.
-   -   Responsible for planning, deploying, or managing Skype for Business.
-   -   Interested in understanding how to upgrade Skype for Business to Teams in
+   -   An IT pro responsible for planning, deploying, or managing Skype for Business.
+   -   Responsible for planning user change management within your organization.
+   -   Interested in understanding how to approach a successful upgrade from Skype for Business to Teams for
    your organization.
 
    We’ll go into detail about how these two products come together and explain what
    steps you can take today to prepare an existing Skype for Business environment
-   for Teams. The key learnings of this tutorial are:
-   -   Understand what upgrade from Skype for Business to Team means
-   -   Understand the different options for upgrade
-   -   Understand how Microsoft helps you achieve a successful upgrade
+   for Teams. 
+   
+   We’ll discuss the framework to help you plan and execute your upgrade, with an overview
+   of the key activities to drive an optimal experience across technical and user readiness.
+
+   The key objectives of this tutorial are:
+   -   Explore the upgrade paths available to help you plan your upgrade.
+   -   Learn the critical steps required to prepare for and implement your upgrade.
+   -   Identify deep guidance, templates, and resources available to help you in your journey.
+   -   Share next steps to get started using our guidance.
 
    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
   
@@ -322,7 +327,7 @@ items:
    that’s why it’s helpful to start your journey with a pilot.
 
    *Watch the video "Running a Teams Pilot" (3:30 minutes)*
-   > [!Video https://www.youtube.com/embed/dnt7AcJGDfs]
+   > [!Video https://www.youtube.com/embed/q8F81DlbwEM]
 
    The pilot is a small-scale deployment that lets you validate the
    interoperability with Skype for Business in your environment, in addition to
@@ -385,9 +390,10 @@ items:
   durationInMinutes: 1
   content: |
    We covered the following key learnings in this training:
-   -   Understand what upgrade from Skype for Business to Team means
-   -   Understand the different options for upgrade
-   -   Understand how Microsoft helps you achieve a successful upgrade
+   -   Explore the upgrade paths available to help you plan your upgrade.
+   -   Learn the critical steps required to prepare for and implement your upgrade.
+   -   Identify deep guidance, templates, and resources available to help you in your journey.
+   -   Share next steps to get started using our guidance.
 
    ### Next steps
    1.  Visit [http://SkypeandTeams.com](http://skypeandteams.com/) for the latest

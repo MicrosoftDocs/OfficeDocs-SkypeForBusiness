@@ -3,7 +3,7 @@ title: Plan for service management and quality - Microsoft Teams
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 06/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -20,8 +20,8 @@ appliesto:
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](upgrade-define-project-scope.md)
--   [Understood coexistence and interoperability of Skype for Business and Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+-   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
 -   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
@@ -47,7 +47,7 @@ The key technical components that affect user experience will be reviewed in thi
 
 Business goals can be realized when you deploy Microsoft Teams and when users adopt Teams as their core collaboration and communication solution. Quality can help ensure a positive user experience, a key attribute in driving usage and adoption. By delivering a high-quality service that delights people, individuals and teams can gain confidence and find new and innovative ways of using the service that drive business benefits.
 
-At the heart of this is the user’s experience with Teams—the person’s emotions and attitudes toward the service. So what contributes to the user experience? It ranges from users’ knowing how and why to use Teams and incorporating it into their daily workflow to experiencing exceptional call quality and being able to connect reliably, regardless of where they are. User experience is very broad in nature; this article focuses only on those technical elements that can be controlled by your organization. Additional information about user readiness can be found in [Prepare your organization for Teams](upgrade-prepare-organization.md).
+At the heart of this is the user’s experience with Teams—the person’s emotions and attitudes toward the service. So what contributes to the user experience? It ranges from users’ knowing how and why to use Teams and incorporating it into their daily workflow to experiencing exceptional call quality and being able to connect reliably, regardless of where they are. User experience is very broad in nature; this article focuses only on those technical elements that can be controlled by your organization. Additional information about user readiness can be found in [Prepare your organization for Teams](https://aka.ms/SkypeToTeams-UserReadiness).
 
 There are specific requirements to the deployment that are critically important to deliver a fantastic user experience—especially when using the Cloud Voice features in Teams. It is critical to treat Microsoft Teams as a first-class citizen with other communication and collaboration investments, prioritizing real-time traffic accordingly. The following section gives an overview of the key components that affect user experience. In further sections, we will provide you guidance on how to start planning to deploy and maintain the key components that comprise quality.
 
@@ -117,7 +117,7 @@ A group or individual needs to be accountable for quality in all organizations. 
 
 The Quality Champion leverages existing tools and documented processes, such as the Call Quality Dashboard (CQD) and the Quality Experience Review Guide, to monitor user experience, identify quality trends, and drive remediation where needed. The Quality Champion works with the respective teams to drive remediation actions, reporting to a steering committee on their progress and open issues.
 
-The tasks and activities associated with the role have been documented in the Operations Guide. This role should be assigned during the [planning stage](upgrade-enlist-stakeholders.md). A key step in operationalizing the role of Quality Champion is gaining the knowledge required for the role and ensuring the prerequisites are in place to deliver on the tasks. A key task for this role is running a regular Quality Experience Review.
+The tasks and activities associated with the role have been documented in the Operations Guide. This role should be assigned during the [planning stage](https://aka.ms/SkypeToTeams-Plan). A key step in operationalizing the role of Quality Champion is gaining the knowledge required for the role and ensuring the prerequisites are in place to deliver on the tasks. A key task for this role is running a regular Quality Experience Review.
 
 ### Introduction to the Quality Experience Review Guide
 
@@ -352,4 +352,4 @@ This table includes a summary of planning activities with links to related conte
 | | Implement endpoint Wi-Fi recommendations | Consult third-party vendors |
 | | Conduct persona to devices mapping <br/> Provision devices and pilot them | [Client and Devices - Readiness Workshop](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Device Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 
-After you’ve finished planning, proceed to the next step: [Prepare your environment for Teams](upgrade-prepare-environment.md).
+After you’ve finished planning, proceed to the next step: [Prepare your environment for Teams](https://aka.ms/SkypeToTeams-TechnicalReadiness).

@@ -3,7 +3,7 @@ title: Upgrade Pro for Microsoft Teams - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 06/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -37,22 +37,22 @@ Segmented into three phases, Upgrade Pro covers:
 
 Days 1&ndash;7: Create your upgrade plan to help ensure your organization is set up for long-term success. 
 -   [Gather your project stakeholders](upgrade-enlist-stakeholders.md).
--   [Define your project scope](upgrade-define-project-scope.md).
--   [Understand upgrade and coexistence modes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).
+-   [Define your project scope](https://aka.ms/SkypetoTeams-Scope).
+-   [Understand upgrade and coexistence modes](https://aka.ms/SkypeToTeams-Coexist).
 
 Days 8&ndash;15: Evaluate your organization’s readiness for Teams.
--   [Prepare your environment for Teams](upgrade-prepare-environment.md).
--   [Prepare your organization](upgrade-prepare-organization.md).
+-   [Prepare your environment for Teams](https://aka.ms/SkypeToTeams-TechnicalReadiness).
+-   [Prepare your organization](https://aka.ms/SkypeToTeams-UserReadiness).
 -   Announce the pending launch of Microsoft Teams.\*
 -   Notify your helpdesk that it needs to prepare to support Teams.\*
 -   Conduct a launch event.*
 
 Days 16&ndash;60: Run a pilot to confirm that your organization is ready and inform your optimal journey to Teams.
--   [Conduct a user pilot of Teams alongside Skype for Business](pilot-essentials.md).\*
+-   [Conduct a user pilot of Teams alongside Skype for Business](https://aka.ms/SkypeToTeams-Pilot).\*
 
 Day 60: Deploy Teams broadly to all users.
 -   Announce the official launch of Teams.\*
--   [Enable the appropriate coexistence mode for your users](setting-your-coexistence-and-upgrade-settings.md).\*
+-   [Enable the appropriate coexistence mode for your users](https://aka.ms/SkypeToTeams-SetCoexistence).\*
 -   Enlist your Teams champions.
 
 Day 60 until upgrade begins:
@@ -67,7 +67,7 @@ Days 1&ndash;2: Confirm that your organization is ready for the upgrade.
 -   Validate that you’ve completed the pre-upgrade activities described above.
 -   Segment your user base into four upgrade groups.
 -   Send notification of the upgrade to all users.\*
--   Set [Notify Skype for Business users that Teams is available for upgrade](setting-your-coexistence-and-upgrade-settings.md) for all users.
+-   Set [Notify Skype for Business users that Teams is available for upgrade](https://aka.ms/SkypeToTeams-SetCoexistence) for all users.
 
 _Days 7 through 45: Implement your upgrade from Skype for Business to Teams._
 
@@ -80,7 +80,7 @@ Day 14
 -   Monitor network health and helpdesk calls for any technical or user upgrade experience issues, and mitigate as needed.
 
 Day 21
--   [Set the coexistence mode for upgrade group 1 to **Teams Only**](setting-your-coexistence-and-upgrade-settings.md).
+-   [Set the coexistence mode for upgrade group 1 to **Teams Only**](https://aka.ms/SkypeToTeams-SetCoexistence).
 -   Send a “Welcome to Teams” notification to upgrade group 1.\*
 
 Days 14&ndash;42

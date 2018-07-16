@@ -3,7 +3,7 @@ title: Evaluate your environment before upgrading to Teams- Microsoft Teams
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 06/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -20,10 +20,9 @@ appliesto:
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](upgrade-define-project-scope.md)
--   [Understood coexistence and interoperability of Skype for Business and Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-
-[//]: # (SELF: Should this simply be "Evaluate your environment before deploying Teams"?)
+-   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+-   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # Evaluate your environment before upgrading to Teams
 
@@ -78,7 +77,7 @@ Use the following table to capture information about your existing collaboration
 > | Do you have any other third-party platforms deployed <br>and in use today? If so, note the number of users of <br>these platforms and the usage details in the Comments <br>column. | <input type="checkbox"> Cisco WebEx <br/> <input type="checkbox"> Slack <br/> <input type="checkbox"> Other (Specify in the Comments <br>&nbsp; &nbsp; &nbsp;column.) | Number of users: <br/>Details:|
 > | Are you planning to move users from these third-party <br>platforms to Teams? | <input type="checkbox"> Yes <br/> <input type="checkbox"> No | |
 > | What is the current telephony and conferencing solution <br>of the users who are in scope for this initiative? | | |
-> | Do you have [SBC's that support Direct Routing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing#supported-session-border-controllers-sbcs) deployed for your offices that are in scope for this initiative? <br>If Yes, note the details in the Comments column.| <input type="checkbox"> Yes <br/> <input type="checkbox"> No ||
+> | Do you have [SBCs that support Direct Routing](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing#supported-session-border-controllers-sbcs) deployed for your offices that are in scope for this initiative? <br>If Yes, note the details in the Comments column.| <input type="checkbox"> Yes <br/> <input type="checkbox"> No ||
 
 ## Collaboration platform deployment details
 
@@ -185,8 +184,8 @@ Use the following table and capture the current adoption and readiness state of 
 > | Which of the following best describes the rollout <br>strategy used for your Skype for Business <br>deployment? | <input type="checkbox"> Broad reach: Email campaign with <br>&nbsp; &nbsp; &nbsp;links to training <br/> <input type="checkbox"> Expanded: Broad reach plus a variety <br>&nbsp; &nbsp; &nbsp;of awareness campaigns (posters, <br>&nbsp; &nbsp; &nbsp;events, champions) and training <br>&nbsp; &nbsp; &nbsp;(videos, user guides, in-person) <br/> <input type="checkbox"> Tailored: Expanded, plus targeted <br>&nbsp; &nbsp; &nbsp;messaging and training by persona <br/> <input type="checkbox"> Other <br>&nbsp; &nbsp; &nbsp;(Note the details in the Comments column.) | |
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Who will be responsible for completing an environment assessment?</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the results of the environment assessment.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision point</td><td><ul><li>Who will be responsible for completing an environment assessment?</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next step</td><td><ul><li>Document the results of the environment assessment.</li></ul></td></tr>
 </table>
 
 After you evaluate your environment, proceed to the next step: [Prepare your network](upgrade-prepare-environment-prepare-network.md).

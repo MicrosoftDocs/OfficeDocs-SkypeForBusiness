@@ -3,7 +3,7 @@ title: Choose your upgrade journey - Microsoft Teams
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 06/30/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -20,8 +20,8 @@ appliesto:
 This article is part of Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you’ve completed the following activities:
 
 -   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](upgrade-define-project-scope.md)
--   [Understood coexistence and interoperability of Skype for Business and Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+-   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+-   [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
 
 # Choose your upgrade journey from Skype for Business to Teams
 
@@ -33,7 +33,7 @@ As an existing Skype for Business customer, your complete transition to Teams mi
 ## Upgrade journey building blocks
 To formally prepare your organization for its journey to Teams, you need to start planning for the upgrade scenarios that will eventually let your organization fully embrace Teams as your sole communications and collaboration solution.
 
-To help guide your decision-making process, familiarize yourself with the various modes, concepts, and terminology relevant to upgrading from Skype for Business to Teams. For more information, see [Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+To help guide your decision-making process, familiarize yourself with the various modes, concepts, and terminology relevant to upgrading from Skype for Business to Teams. For more information, see [Microsoft Teams and Skype for Business coexistence and interoperability](https://aka.ms/SkypeToTeams-Coexist)
 
 When some of your users are ready to use only Teams for their day-to-day communications and collaboration needs, you can start upgrading these users to Teams by enabling **Teams only** mode for them.
 
@@ -79,8 +79,8 @@ Teams is deployed in the organization in **Islands** mode for evalution and then
 
 Over time, groups of users can be upgraded to **Teams only** mode, followed by the rest of the organization. Eventually, the entire organization will be ready to retire Skype for Business and use only Teams for communications and collaboration, or—if business requirements dictate that Skype for Business be retained for a specific group—the majority of users in the organization can use Teams only. <br><br>
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul> Which upgrade journey is suitable to your organization's business requirements?<br><br></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul> Identifying your current deployment model, use case scenarios, and key considerations for your organization will inform the journey to Teams that's best suited to your organization.<br><br></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision point</td><td><ul> Which upgrade journey is suitable to your organization's business requirements?<br><br></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next step</td><td><ul> Identifying your current deployment model, use case scenarios, and key considerations for your organization will inform the journey to Teams that’s best suited to your organization.<br><br></ul></td></tr>
 </table>
 
 ## Upgrade scenarios
@@ -94,8 +94,8 @@ Based on the upgrade journeys described earlier in this article, the following p
 |Skype for Business Server (on-premises) |Office 365 tenant with Azure AD Connect and Exchange Online<br><br> SharePoint and Skype for Business are deployed on-premises|Full enterprise voice feature set (Skype for Business Server 2015) currently in use<br><br> Contact center deployed<br><br> Meetings are conducted with internal and external federated users, using both VoIP and dial-in conferencing<br><br> Messaging with internal and external users|Deploy SharePoint Online<br><br> Configure Skype for Business hybrid (split domain)<br><br>**Messaging roadmap**: Federation feature targeted for release Q2 of 2018<br><br> **Meetings roadmap**: Federated meeting-join, PSTN lobby feature targeted for release Q2 of 2018<br><br> **Calling roadmap**: Feature targeted for release Q4 of 2018 and onward<br><br>Building blocks:<ul><li><b>Islands</b> mode (pilot)</li><li><b>Skype for Business with Teams collaboration only</b> mode</li><li><b>Skype for Business with Teams collaboration and meetings</b> mode</li><li><b>Teams only</b> mode and <b>Skype for Business only</b> mode</li></ul><br>Investigate upgrade to Skype for Business Server 2019|
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul> Which upgrade scenario is applicable to your organization?<br><br></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision point</td><td><ul> Which upgrade scenario is applicable to your organization?<br><br></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul> Decide the timeline of your organization's upgrade journey based on messaging, meetings, and calling business requirements.<br><br> Decide the required additional work to complete your upgrade journey.<br><br></ul></td></tr>
 </table>
 
-After you’ve chosen the best upgrade journey for your organization, [perform your upgrade to Teams](upgrade-to-teams.md).
+After you’ve chosen the best upgrade journey for your organization, [perform your upgrade to Teams](https://aka.ms/SkypeToTeams-Upgrade).
