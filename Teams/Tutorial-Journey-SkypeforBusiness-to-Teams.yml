@@ -389,29 +389,6 @@ items:
 - title: Learn more
   durationInMinutes: 1
   content: |
-<<<<<<< HEAD
-    We covered the following key learnings in this training:
-    -	Understand Intelligent communications vision
-    - Understand the journey from Skype for Business to Microsoft Teams
-    - Understand what actions should be started today
-
-    <span style="color:red">**Action**:</span> Take a short quiz to test your knowledge: [Journey to Teams quiz](http://aka.ms/tr-journey-quiz)
-
-    ### To learn more
-    - [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
-    - [Journey from Skype for Business to Teams](journey-skypeforbusiness-teams.md)
-    - [Upgrade journey and coexistence of Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-    ### Next steps
-
-    1.	Visit [http://SkypeandTeams.com](http://skypeandteams.com) for the latest information on Skype for Business and Teams
-    2.	Sign-up for [MyAdvisor](http://aka.ms/myadvisor) for personalized deployment guidance
-    3.	[Optimize your current Skype for Business environment for Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-teams)
-    4.	Begin to [Pilot Teams alongside Skype for Business](https://docs.microsoft.com/MicrosoftTeams/pilot-essentials)
-    5.  Send us feedback
-        - Give us feedback, or ask questions, about this training in the **Comments** section at the bottom of this page
-        - To give us Teams product feedback or to request a new feature, go to [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)
-=======
    We covered the following key learnings in this training:
    -   Explore the upgrade paths available to help you plan your upgrade.
    -   Learn the critical steps required to prepare for and implement your upgrade.
@@ -426,4 +403,3 @@ items:
        -    Post in the comments section at the bottom of this page.
        -   To give us Teams product feedback or to request a new feature, go to [Teams
     UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)
->>>>>>> master
