@@ -34,7 +34,7 @@ Meeting policies are used to control the features that are available to meeting 
 - **Audio and video**
     - **Allow transcription** If you turn this on, transcription of the meeting will be available to users.
     - **Allow cloud recording** Turning this on will allow recordings to be saved to the cloud.
-    - **Allow IP video** Turnin this on will allow IP videos during meetings.
+    - **Allow IP video** Turning this on will allow IP videos during meetings.
     - **Media bit rate (KBs)** You can set the bit rate for meetings. The default is 50 MB.
 
 <a name="bkcontentsharing"> </a>
