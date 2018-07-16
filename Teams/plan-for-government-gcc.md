@@ -50,7 +50,14 @@ The [Office 365 US Government service description](https://technet.microsoft.com
 
 To accommodate the requirements of our government cloud customers, there are some differences between Microsoft 365 Government - GCC and Enterprise plans. The features listed in the following table are unavailable.
 
-TABLE
+| Feature                     | Reason            |
+|-----------------------------|-------------------|
+| Call and Meeting Recording  | Recording is dependent on Microsoft Stream, which will be available in US Government plans in the future. |
+| Apps       | Apps (such as bots, tabs, and connectors) won’t be available initially, but we’re working to make them available as soon as all their components meet the FedRAMP Moderate compliance bar. |
+| Email a channel             | The current feature architecture isn’t supported in government plans. |
+| Unified Presence            | We’re finishing work for our enterprise customers first for this important feature. It will be available to government customers in the future. |
+| Email Notifications         | The current feature architecture isn’t supported in the US Government plans. Work is ongoing to make this feature available to US Government plan customers in the future. |
+
 
 |    |     |
 |-----------|------------|
@@ -67,13 +74,13 @@ We recommend that you take time to carefully review your admin and security sett
 
 ## Step 4. Apply for Microsoft 365 Government - GCC
 
-Having decided that this service is right for your organization, start the process of applying for this service here.
+Having decided that this service is right for your organization, start the process of [applying for this service here](https://products.office.com/en-us/government/eligibility-validation).
 
 ## Step 5. Deploy Teams for collaboration
 
 After you’ve been onboarded to Microsoft 365 Government - GCC, you can follow the standard deployment approach of using FastTrack and your chosen partner to onboard to the service.
 
-When you’re ready, deploy Teams to enable collaboration within your organization through teams and channels. Be sure to engage with your Adoption and Change Management team or Teams champions.
+When you’re ready, deploy Teams to [enable collaboration within your organization through teams and channels](teams-overview.md). Be sure to engage with your Adoption and Change Management team or Teams champions.
 
 ## Step 6. Deploy Teams for meetings and voice
 
