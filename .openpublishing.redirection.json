@@ -29,6 +29,16 @@
       "source_path": "Skype/SfbServer/help-topics/2019/lscp/ms.lync.lscp.SetupHybrid.md", 
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity", 
       "redirect_document_id": true 
-    }    
+    },
+    {
+      "source_path": "Teams/select-users-for-your-teams-pilot.md", 
+      "redirect_url": "https://aka.ms/skypetoteams-pilot", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Teams/prepare-teams.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide", 
+      "redirect_document_id": true 
+    }
   ] 
 }
