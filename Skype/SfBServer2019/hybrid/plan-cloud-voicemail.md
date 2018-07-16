@@ -21,21 +21,21 @@ description: "This article describes benefits, planning considerations, and requ
 
 This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail service. For information on configuring Cloud Voicemail, see [Configure Cloud Voicemail](configure-cloud-voicemail.md).
 
-Cloud Voicemail takes the place of Exchange Unified Messaging (UM) in providing voice messaging functionality for Skype for Business 2019 voice users whom have mailboxes on Exchange Server 2019 or Exchange Online. Cloud Voicemail provides the following benefits for both your on-premises and online users:
+Cloud Voicemail takes the place of Exchange Unified Messaging (UM) in providing voice messaging functionality for Skype for Business 2019 voice users who have mailboxes on Exchange Server 2019 or Exchange Online. Cloud Voicemail provides the following benefits for both your on-premises and online users:
 
-- Provides voice mail answering and deposit functionality with enhanced speech transcription
+- Voicemail answering and deposit functionality with enhanced speech transcription
 
-- Access to voicemail in their Exchange mailbox by using the Skype for Business Online or Outlook clients 
+- Access to voicemail in the user's Exchange mailbox by using the Skype for Business Online or Outlook clients 
 
-- Provides users the ability to use the O365 web-based portal to manage their voicemail options
+- The ability to use the Office 365 web-based portal to manage voicemail options
 
-- Supports Exchnge mailboxes on premise or in the cloud
+- Supports Exchange mailboxes on premises or in the cloud
 
 - Leverages existing user greetings from Exchange Online Unified Messaging
 
 For more information about feature comparison, see [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md). 
 
-Skype for Business 2019 continues to utilize Exchange Unified Messaging for users whose mailboxes is on previous verions of Exchange Server (2013, 2016).  Understanding which voicemail solution will be leveraged based upon the Exchange Server and Skype for Business Server version is an important part of planning for migration to eitehr Skype for Business 2019 or Exchagne Server 2019.  For more information about migration and interoperability, see [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md). 
+Skype for Business Server 2019 continues to use Exchange Unified Messaging for users whose mailboxes are on previous verions of Exchange Server (2013, 2016).  Understanding which voicemail solution will be used based om the Exchange Server and Skype for Business Server version is an important part of planning for migration to either Skype for Business Server 2019 or Exchange Server 2019.  For more information about migration and interoperability, see [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md). 
 
 With Cloud Voicemail, your administration tasks are greatly simplified because:
 
