@@ -46,7 +46,7 @@ Environmental discovery can also uncover whether you need to [transfer phone
 numbers to
 Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
 Knowing this will help your organization adjust its project plan accordingly and
-prepare the necessary information for number porting. You can use the [Environmental discovery for Microsoft Teams rollout](https://docs.microsoft.com/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout)
+prepare the necessary information for number porting. You can use the [Environmental discovery for Microsoft Teams rollout](environmental-discovery-for-microsoft-teams-rollout.md)
 from MyAdvisor to perform environmental discovery.
 
 <table>

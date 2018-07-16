@@ -29,9 +29,10 @@
 ## [Manage user access to Teams](user-access.md)
 ## [Get clients for Teams](get-clients.md)
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
-### [Install Microsoft Teams using MSI](msi-deployment.md)
+### [Install Teams using MSI](msi-deployment.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
-## [Enable Microsoft Teams in your organization](Office-365-set-up.md)
+## [Run Teams in a virtual environment](virtual-environment-teams.md)
+## [Enable Teams in your organization](Office-365-set-up.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Assign roles and permissions in Teams](assign-roles-permissions.md)
@@ -94,7 +95,7 @@
 <!-- ============================================================ -->
 
 
-<!-- ============================================================ -->
+<!-- 
 # [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
 ### [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
@@ -105,8 +106,41 @@
 ## [4 - Drive value through user adoption](continue-journey.md)
 ## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-<!-- ============================================================ -->
+ -->
 
+<!-- NEW ============================================================ -->
+# [Upgrade from Skype for Business to Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
+## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Upgrade Basic](upgrade-basic.md)
+### [Sample emails and surveys](upgrade-emails-surveys.md)
+## [Upgrade Pro](upgrade-pro.md)
+## [Plan for your upgrade journey](upgrade-plan-journey.md)
+### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
+### [Define your project scope](upgrade-define-project-scope.md)
+### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [Plan for quality](upgrade-plan-for-quality.md)
+## [Prepare your environment for Teams](upgrade-prepare-environment.md)
+### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
+### [Prerequisites](upgrade-plan-journey-prerequisites.md)
+### [Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)
+### [Prepare your network](upgrade-prepare-environment-prepare-network.md)
+### [Prepare your service](upgrade-prepare-environment-prepare-service.md)
+## [Prepare your organization for Teams](upgrade-prepare-organization.md)
+### [Assess organizational change readiness](upgrade-org-change-readiness.md)
+### [Prepare a user readiness plan](upgrade-user-readiness.md)
+## [Conduct a user pilot](pilot-essentials.md)
+## [Perform your upgrade to Teams](upgrade-to-teams.md)
+### [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [Upgrade from Skype for Business hybrid to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
+### [Upgrade from Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+## [Drive value through user adoption](continue-journey.md)
+### [Operate your service](upgrade-operate-my-service.md)
+### [Monitor quality](upgrade-monitor-quality.md)
+### [Enhance your service](upgrade-enhance-my-service.md)
+## [FAQ](FAQ-journey.md)
+
+<!-- END NEW ============================================================ -->
 
 <!-- ============================================================ -->
 # Security & compliance
@@ -121,7 +155,7 @@
 
 
 <!-- ============================================================ -->
-# Interopearability with Office 365
+# Interoperability with Office 365
 ## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ## [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 groups and Teams](office-365-groups.md)
@@ -164,6 +198,11 @@
 ### [Teams cloud meeting recording](cloud-recording.md)
 ### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ### [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+### Live events
+#### [What are Teams live events?](what-are-teams-live-events.md)
+
+
+
 ## Apps & services
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Add bots for private chats and channels in Teams](add-bots.md)

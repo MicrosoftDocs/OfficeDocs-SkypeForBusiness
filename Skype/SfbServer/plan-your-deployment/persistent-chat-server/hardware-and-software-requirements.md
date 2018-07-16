@@ -3,7 +3,6 @@ title: "Hardware and software requirements for Persistent Chat Server in Skype f
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -59,7 +58,7 @@ To prepare a database server platform, be sure that each computer meets the hard
   
 On the database server, be sure that one of the following software applications is installed:
 
-- Microsoft SQL Server 2016, and you must run with Skype for Business Server Cumulative Update 7 or later releases. We recommended running SQL Server 2016 with the latest service pack. For details about how to install Microsoft SQL Server 2016, see [Install SQL Server 2016](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
+- Microsoft SQL Server 2014, and you must run with Skype for Business Server Cumulative Update 6 or later releases. We recommended running SQL Server 2014 with the latest service pack. For details about how to install Microsoft SQL Server 2014, see [Install SQL Server 2014](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
 
 - Microsoft SQL Server 2012 (64-bit edition), and we recommended running with the latest service pack. For details about how to install Microsoft SQL Server 2012, see [Install SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559).
 
