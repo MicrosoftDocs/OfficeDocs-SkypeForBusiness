@@ -34,7 +34,7 @@ If you have a policy with special characters, you will need to either edit the p
 
 
 **Step 1 - Make a remote connection with PowerShell.**
-[Set up your computer for Windows PowerShell](../../Skype/SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) if you haven't yet.
+[Set up your computer for Windows PowerShell](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) if you haven't yet.
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
