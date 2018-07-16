@@ -39,7 +39,7 @@ Days 1&ndash;7: Create your upgrade plan to help ensure your organization is set
 -   [Gather your project stakeholders](upgrade-enlist-stakeholders.md).
 -   [Define your project scope](https://aka.ms/SkypetoTeams-Scope).
 -   [Understand upgrade and coexistence modes](https://aka.ms/SkypeToTeams-Coexist).
--   [Learn about teams and channels](teams-channels-overview.md)
+-   [Learn about teams and channels](teams-channels-overview.md).
 
 Days 8&ndash;15: Evaluate your organization’s readiness for Teams.
 -   [Prepare your environment for Teams](https://aka.ms/SkypeToTeams-TechnicalReadiness).
