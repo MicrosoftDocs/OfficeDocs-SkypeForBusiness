@@ -1,7 +1,7 @@
 ---
 title: "Configure a Skype Room Systems v2 console"
 ms.author: jambirk
-author: jambirk
+author: Travis-Snoozy
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
