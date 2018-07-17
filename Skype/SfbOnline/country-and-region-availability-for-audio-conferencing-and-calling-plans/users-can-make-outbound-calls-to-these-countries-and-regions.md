@@ -27,7 +27,6 @@ description: "This topic contains all of the countries/regions that users can pl
 
 ### See what countries/regions users can make outbound calls to if the user has a Domestic or Domestic and International Calling Plan license
 
-
 |**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
 ---|---|---|---|---|---|
 |Afghanistan|Ecuador |Iceland |Macau |Pakistan |Taiwan   |
