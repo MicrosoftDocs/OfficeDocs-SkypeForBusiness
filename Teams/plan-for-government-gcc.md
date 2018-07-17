@@ -35,7 +35,7 @@ You can find more information about the Microsoft 365 Government - GCC offering 
 The [Office 365 US Government service description](https://technet.microsoft.com/en-us/library/mt774581.aspx) describes the platform’s benefits, which are centered around meeting compliance requirements within the United States.
 
 > [!Tip]
-> You might want to transfer the tables of information in the service description into an Excel workbook and add two columns: **Relevant for my organization Y/N** and **Meets the needs of my organization Y/N**. Then you can review this list with your colleagues to confirm that this service meets your organization�s needs.
+> You might want to transfer the tables of information in the service description into an Excel workbook and add two columns: **Relevant for my organization Y/N** and **Meets the needs of my organization Y/N**. Then you can review this list with your colleagues to confirm that this service meets your organization’s needs.
 
 
 |    |     |
