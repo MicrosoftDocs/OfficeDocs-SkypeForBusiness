@@ -75,7 +75,7 @@ For more information, see [Plan hybrid connectivity between Skype for Business S
 
 - On-premises users must be enabled for Enterprise Voice and Hosted Voicemail in Skype for Business Server.
 
--  If you have an on-premises only deployment--that is, only Exchange and Skype for Business on-premises servers--but you want to take advantage of Cloud Voicemail, you need the ON-PREM license. NEED DETAILS ABOUT THE ON-PREM-ONLY LICENSE.
+-  If you have an on-premises only deployment--that is, only Exchange and Skype for Business on-premises servers--but you want to take advantage of Cloud Voicemail, you need the ON-PREM license. 
 
 ##Migration and interoperability
 

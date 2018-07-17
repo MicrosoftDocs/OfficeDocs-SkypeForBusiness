@@ -79,7 +79,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 - **Organization** is the default domain assigned to your tenant. You can retrieve this information by having the tenant admin log into office.com, click on the Admin Center app, navigate to Setup on the left, and click Domains. For example: mytenant.onmicrosoft.com.
 
-The Organization name is also the Default Domain name in O365.
+    The Organization name is also the Default Domain name in O365.
 
 - **TenantID** is used to identify your tenant in Office 365. For more information, see [Find your Office 365 tenant ID](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
 
@@ -110,7 +110,7 @@ For example, the following command enables a user account for Cloud Voicemail:
 
 The cmdlet verifies that a Cloud Voicemail policy--at the global, site, or user level--applies to this user. If no policy applies, the cmdlet fails.  
 
-The next example disables a user account for hosted voice mail:
+The next example disables a user account for Cloud Voicemail:
 
 ```Set-CsUser -Identity "User1" -HostedVoiceMail $False```
 
