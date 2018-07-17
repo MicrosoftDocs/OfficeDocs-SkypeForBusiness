@@ -139,7 +139,9 @@ You can use Teams live events in multiple regions. The following information sho
   - Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
 
 ### Set up your network for Teams live events 
-Go to [Set up your network for Teams live events](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-live-events-set-up-your-network?branch=teams-live-events).
+Coming soon.
+<!--
+Go to [Set up your network for Teams live events](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-live-events-set-up-your-network?branch=teams-live-events).-->
 
 ### Set up eCDN provider for Teams live events
 Coming soon.
