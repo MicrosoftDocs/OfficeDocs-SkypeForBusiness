@@ -3,7 +3,7 @@ title: Limits and specifications for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/09/2018
+ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
@@ -35,7 +35,7 @@ Meetings and calls
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting  | 80    |
+|Number of people in a meeting  | 250    |
 |Number of people in a private chat  | 20    |
 
 Storage
