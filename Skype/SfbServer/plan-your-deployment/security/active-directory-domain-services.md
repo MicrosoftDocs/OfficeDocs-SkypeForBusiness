@@ -34,7 +34,7 @@ Infrastructure requirements for Active Directory include the following:
     
 - Global catalog domain requirements
     
-For details, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Infrastructure requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/environmental-requirements.md).
+For details, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ## Universal Groups
 

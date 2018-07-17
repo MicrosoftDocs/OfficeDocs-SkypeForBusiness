@@ -31,7 +31,7 @@ Multiple user forests are supported. Keep the following in mind:
     
 - For details on co-existence with Exchange Server, including support criteria and limitations in various combinations of on-premises and online, see [Feature support](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) in [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
     
-For more information, please refer to [Infrastructure requirements](../plan/environmental-requirements.md).
+For more information, please refer to [System requirements](../plan/system-requirements.md).
   
 ## User homing considerations
 

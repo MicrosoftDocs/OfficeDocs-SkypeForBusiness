@@ -318,7 +318,7 @@ To deploy Skype for Business Server 2019 in this type of topology, you'd create 
 #### Multiple forests in a Skype for Business resource forest topology with Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
 
-This topology is similar to the topology described in [Multiple forests in a Skype for Business resource forest topology](environmental-requirements.md#BKMK_multipleforestopology).
+This topology is similar to the topology described in [Multiple forests in a Skype for Business resource forest topology](system-requirements.md#BKMK_multipleforestopology).
   
 In this topology, there are one or more user forests, and Skype for Business Server is deployed in a dedicated resource forest. Exchange Server can be deployed on-premises in the same resource forest or a different forest and configured for hybrid with Exchange Online, or email services may be provided exclusively by Exchange Online for the on-premises accounts. There is no diagram available for this topology.
   
