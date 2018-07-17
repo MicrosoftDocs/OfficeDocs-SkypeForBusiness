@@ -44,7 +44,7 @@ The [Office 365 US Government service description](https://technet.microsoft.com
 | ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Understand the capabilities provided by Microsoft 365 Government - GCC.</li></ul>|
 
 > [!Note]
-> Microsoft 365 Government - GCC is only available in the United States. Non–US Government customers can choose from a number of [Office 365 Government plans](https://products.office.com/en-us/government/compare-office-365-government-plans).
+> Microsoft 365 Government - GCC is only available in the United States. Non–US Government customers can choose from a number of [Office 365 Government plans](https://products.office.com/government/compare-office-365-government-plans).
 
 ## Step 2. Understand which capabilities are currently unavailable or disabled by default. 
 
@@ -66,7 +66,7 @@ To accommodate the requirements of our government cloud customers, there are som
 
 ## Step 3. Understand Microsoft 365 Government - GCC default security settings.
 
-We recommend that you take time to carefully review your admin and security settings before you modify them, and consider impacts on compliance before you make any changes to the default security settings.
+We recommend that you take time to carefully review your [admin and security settings](enable-features-office-365.md) before you modify them, and consider impacts on compliance before you make any changes to the default security settings.
 
 |    |     |
 |-----------|------------|
