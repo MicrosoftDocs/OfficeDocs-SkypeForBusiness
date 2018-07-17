@@ -140,8 +140,6 @@ You can use Teams live events in multiple regions. The following information sho
 
 ### Set up your network for Teams live events 
 Coming soon.
-<!--
-Go to [Set up your network for Teams live events](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-live-events-set-up-your-network?branch=teams-live-events).-->
 
 ### Set up eCDN provider for Teams live events
 Coming soon.
