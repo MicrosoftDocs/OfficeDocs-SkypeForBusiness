@@ -20,7 +20,7 @@ Be aware that after moving your users to Teams:
  
 - Their meetings are migrated to Skype for Business Online, and their contacts are migrated to Teams. 
 - They can join Skype meetings through the Skype for Business rich client (users are not prompted for sign-in each time) or through the Skype Meetings App (requires a one-time download and sign-in). When a user clicks on a Skype for Business meeting link within Teams, the meeting will launch in the appropriate app.
-? 
+ 
 
     ![Meetings open in the appropriate app](../media/new-skype-or-teams-meeting.png)
 
@@ -55,13 +55,7 @@ Grant-CsTeamsUpgradePolicy -Identity user01 -PolicyName “UpgradeNotice”
 
 You can check this policy by using the Get-csTeamsUpgradePolicy cmdlet.
 
-Your users will see a notification of the impending move to Teams:
-
-NEED A NEW SNAPSHOT. NEED FICTITIOUS NAMES.
-
-![Teams upgrade notification](../media/move-to-teams-notification.png)
-
-The notification occurs on Win32, Mac, Mobile, and Web Clients (with the right version; Client team is finalizing the version, supported versions are available here).  <<Need to replace this with customer-facing content?>>
+Your users will see a notification of the impending move to Teams. The notification occurs on Win32, Mac, Mobile, and Web Clients (with the right version).
 
 You can specify automatic download of Teams (for Win32 clients) for users being upgraded by using the on-premises TeamsUpgradeConfiguration cmdlet with the DownloadTeams parameter. You set this policy at the tenant level, and it can be applied on a global, site, and pool level. For example, the following command sets the policy at the site level:
 
@@ -84,14 +78,14 @@ If your on-premises users have on-premises voice, you have two options:
 
 -  **Migrate users with telephony capabilities.** Users can make and receive calls using the Teams client.  You can choose either Microsoft Calling Plan or Direct Routing to connect the telephony services to Teams.  
 
-    -  Microsoft Calling Plan provides an all-in-the-cloud voice solution. For more information about Microsoft Calling Plan, see INSERT LINK HERE. 
+    -  Microsoft Calling Plan provides an all-in-the-cloud voice solution. For more information about Microsoft Calling Plan, see (link coming soon). 
     
     -  Direct Routing lets you use virtually any PSTN trunk,  and you can configure interoperability between customer-owned telephony equipment and Microsoft Phone System.  For more information, see [Plan Direct Routing](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan) and [Configure Direct Routing](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-configure).
 
 -  **Migrate users without telephony capabilities.** If you migrate users without preserving  telephony capabilities, make sure users have appropriate licenses in the cloud. 
 
 ### Assign a Teams Upgrade policy  
-You can use online tools to manage user policies, such as to control routing of incoming messages and calls. For more information, see << NEED LINK >>.
+You can use online tools to manage user policies, such as to control routing of incoming messages and calls. For more information, see (link coming soon).
 
 ## Move on-premises users to Teams
 
@@ -116,7 +110,7 @@ After the move to Teams is successful, the user’s Skype for Business client wi
 Note that Skype for Business will no longer be available to the user except to join a meeting. 
 
 In rare cases, when moving your users to Teams, you might want to override dial-in conferencing and cloud voice functionality. You can do this by using the following parameters with the Move-CsUser command:
-- **BypassAudioConferencingCheck:** If a user has dial-in conferencing enabled for on-premises, the user must also have an AudioConf << Is this the official license name? >> license assigned in Office 365 before migrating. Once migrated to the cloud, the user will be provisioned for audio conferencing in the cloud. If, for some reason, you want to move a user to the cloud, but not use the audio conferencing functionality, you can override it by specifying this parameter.
+- **BypassAudioConferencingCheck:** If a user has dial-in conferencing enabled for on-premises, the user must also have an AudioConf license assigned in Office 365 before migrating. Once migrated to the cloud, the user will be provisioned for audio conferencing in the cloud. If, for some reason, you want to move a user to the cloud, but not use the audio conferencing functionality, you can override it by specifying this parameter.
 - **ByPassEnterpriseVoice:** If a user has Enterprise Voice enabled for on-premises, the user must have an Enterprise Voice license assigned in Office 365 before migrating. After migration to the cloud, the user will be provisioned for voice in the cloud. If, for some reason, you want to move a user to the cloud but not use cloud voice functionality, you can override cloud voice by specifying this parameter.
  
 ### Move users by using the Skype for Business Server Control Panel 
@@ -126,13 +120,13 @@ To move users to Teams by using the Skype for Business Control Panel:
 1. Open the Skype for Business Control Panel and sign in to your Office 365 account.
     ![Signing in to Office 365](../media/sign-in-to-office-365.png)
     
-    << Is this image necessary? >>
+
 2. Select **Users** in the left navigation, and select the users to migrate. 
-     <<  Need clear screen shot, or don't include. >>
+     
 3. On the **Action** menu, choose **Move selected users to Teams**. 
 
     ![Clicking Next to confirm migration](../media/migration-confirmation.png)
-    << Is this image necessary? >>
+    
 4. Click **Next** to confirm your migration. 
 
 After the user is moved to Teams, you will see  confirmations like the following:
