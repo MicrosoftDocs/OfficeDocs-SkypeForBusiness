@@ -31,9 +31,11 @@ Multiple user forests are supported. Keep the following in mind:
     
 - For details on co-existence with Exchange Server, including support criteria and limitations in various combinations of on-premises and online, see [Feature support](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) in [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
     
-For more information, please refer to [Environmental requirements for Skype for Business Server 2019](../plan/environmental-requirements.md).
+For more information, please refer to [Infrastructure requirements](../plan/environmental-requirements.md).
   
 ## User homing considerations
+
+Remove this section?  BJ
 
 Skype for Business users homed on premises can have Exchange homed on premises or online. Skype for Business Online users should use Exchange Online for an optimal experience; however, this is not required. Exchange on premises is not required to implement Skype for Business in either case.
   
@@ -65,6 +67,9 @@ Do not sync the UPN's between the forests. We found during testing that we neede
 - If the unique UPN from each user forest was synchronized to the associated disabled object in resource forest, AD FS authentication would fail. The matching rule would find the UPN on the object in the resource forest, which was disabled and could not be used for authentication. 
     
 ## Create an Office 365 tenant
+
+
+Remove this section:
 
 You will next need to provision an Office 365 tenant to use with your deployment. For more information, please see [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](https://docs.microsoft.com/en-us/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   

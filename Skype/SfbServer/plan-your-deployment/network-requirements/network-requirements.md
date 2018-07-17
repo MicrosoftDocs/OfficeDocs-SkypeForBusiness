@@ -3,7 +3,6 @@ title: "Plan network requirements for Skype for Business"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -24,7 +23,8 @@ The information in these topics is also discussed in the whitepaper [Network Pla
   
 Likewise, if your network involves wi-fi as well as wired access, the whitepaper [Delivering Lync 2013 Real-Time Communications over Wi-Fi](http://www.microsoft.com/en-us/download/details.aspx?id=36494) is a good reference and is equally applicable to Skype for Business Server.
   
-Network performance and needs are directly linked to the traffic load placed on them. When planning your network and server implementations we recommend making use of the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md), the [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md), and the [Skype for Business Server 2015 Stress and Performance Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).
+<!-- Deprecated tools
+Network performance and needs are directly linked to the traffic load placed on them. When planning your network and server implementations we recommend making use of the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md), the [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md), and the [Skype for Business Server 2015 Stress and Performance Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).    -->
   
 ## Server hardware
 <a name="S_hard"> </a>
@@ -42,14 +42,14 @@ For public switched telephone network (PSTN) integration, you can integrate by u
 
 Network requirements for audio/video (A/V) in a Skype for Business Server deployment include the following:
   
-- If you are deploying a single Edge Server or an Edge pool using DNS load balancing, you can configure the  _external_ firewall to perform network address translation (NAT). You can't configure the _internal_ firewall to perform NAT. For details, see [Determining Firewall and 50k Port Range Requirements](http://technet.microsoft.com/library/3b849dc7-175d-40d1-820d-80e6ade6d332.aspx).
+- If you are deploying a single Edge Server or an Edge pool using DNS load balancing, you can configure the  _external_ firewall to perform network address translation (NAT). You can't configure the _internal_ firewall to perform NAT. For details, see [Port and firewall planning](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
     
     > [!IMPORTANT]
-    > If you have an Edge pool and are using a hardware load balancer, you must use public IP addresses on the Edge Servers and you can't use NAT for the servers or the pool at your NAT-capable device (for example, a firewall appliance or LAN switch. For details, see [Port Summary - Scaled Consolidated Edge with Hardware Load Balancers](http://technet.microsoft.com/library/91213b1e-f875-464b-83e8-fe3a351595a4.aspx). 
+    > If you have an Edge pool and are using a hardware load balancer, you must use public IP addresses on the Edge Servers and you can't use NAT for the servers or the pool at your NAT-capable device (for example, a firewall appliance or LAN switch. For details, see [Edge Server scenarios in Skype for Business Server](../edge-server-deployments/scenarios.md). 
   
 - If your organization uses a Quality of Service (QoS) infrastructure, the media subsystem is designed to work within this existing infrastructure. 
     
-- If you use Internet Protocol security (IPsec), we recommend disabling IPsec over the port ranges used for A/V traffic. For details, see [IPsec Exceptions](http://technet.microsoft.com/library/241f1eca-6f2f-44de-90b1-2cb659cbe27c.aspx).
+- If you use Internet Protocol security (IPsec), we recommend disabling IPsec over the port ranges used for A/V traffic. For details, see [IPsec exceptions](#ipsec-exceptions).
     
 To provide optimal media quality, do the following:
   
@@ -65,6 +65,33 @@ To provide optimal media quality, do the following:
     
 - For servers that are running antivirus software, include all servers that are running Skype for Business Server in the exception list to provide optimal performance and audio quality. 
     
+## IPsec exceptions
+
+For enterprise networks where Internet Protocol security (IPsec) (see IETF RFC 4301-4309) has been deployed, IPsec must be disabled over the range of ports used for the delivery of audio, video, and panorama video. The recommendation is motivated by the need to avoid any delay in the allocation of media ports due to IPsec negotiation.
+
+The following table explains the recommended IPsec exception settings. 
+
+**Recommended IPsec Exceptions**
+|Rule name |Source IP |Destination IP |Protocol |Source port |Destination port |Authentication Requirement |
+|:--- |:--- |:--- |:--- |:---|:---|:--- |
+|A/V Edge Server Internal Inbound|Any  |A/V Edge Server Internal|UDP and TCP|Any |Any |Do not authenticate|
+|A/V Edge Server External Inbound|Any  |A/V Edge Server External|UDP and TCP|Any |Any |Do not authenticate|
+|A/V Edge Server Internal Outbound|A/V Edge Server Internal  |A/V Edge Server External |UDP and TCP|Any |Any |Do not authenticate|
+|A/V Edge Server External Outbound|A/V Edge Server External |Any |UDP and TCP|Any |Any |Do not authenticate|
+|Mediation Server Inbound|Any  |Mediation Server(s) |UDP and TCP|Any |Any |Do not authenticate|
+|Mediation Server Outbound|Mediation Server(s)  |Any|UDP and TCP|Any |Any |Do not authenticate|
+|Conferencing Attendant Inbound|Any  |Front End Server running Conferencing Attendant |UDP and TCP|Any |Any |Do not authenticate|
+|Conferencing Attendant Outbound|Front End Server running Conferencing Attendant  |Any|UDP and TCP|Any |Any |Do not authenticate|
+|A/V Conferencing Inbound|Any|Front End Servers|UDP and TCP|Any |Any |Do not authenticate|
+|A/V Conferencing Outbound|Front End Servers|Any|UDP and TCP|Any |Any |Do not authenticate|
+|Exchange Inbound|Any|Exchange Unified Messaging|UDP and TCP|Any |Any |Do not authenticate|
+|Application Sharing Servers Inbound|Any|Application Sharing Servers|UDP and TCP|Any |Any |Do not authenticate|
+|Application Sharing Server Outbound|Application Sharing Servers| Any |UDP and TCP|Any |Any |Do not authenticate|
+|Exchange Outbound|Exchange Unified Messaging|Any|UDP and TCP|Any |Any |Do not authenticate|
+|Clients| Any  |Any|UDP and TCP|Any |Any |Do not authenticate|
+|         |         |         |         |         |         |         |
+
+
 ## Conferencing network requirements
 <a name="Conf_req"> </a>
 
@@ -255,4 +282,4 @@ QoS is also discussed in the whitepaper [Network Planning, Monitoring, and Troub
   
 [Load balancing requirements for Skype for Business](load-balancing.md)
   
-[DNS requirements for Skype for Business Server 2015](dns.md)
+[DNS requirements for Skype for Business Server](dns.md)

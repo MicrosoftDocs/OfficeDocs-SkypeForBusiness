@@ -14,6 +14,9 @@ description: "Summary: Manage the Mobility Service (Mcx) and the Unified Communi
 # Monitor Mobility Service and UCWA usage in Skype for Business Server
  
 **Summary:** Manage the Mobility Service (Mcx) and the Unified Communications Web API (UCWA) in Skype for Business Server.
+
+> [!NOTE]
+> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
   
 On an ongoing basis, you should monitor the CPU and memory that is used by the Skype for Business Server Mobility Service (Mcx) and the Unified Communications Web API (UCWA). To monitor usage, you can use the following:
   
@@ -50,6 +53,9 @@ In addition to CPU and memory usage counters, you can use the following ASP.NET 
     
 > [!NOTE]
 > If you meet or exceed these values, you should revisit and recompute your capacity planning for the correct sizing of CPU, number of cores, and memory for the computers hosting the web services. 
+
+> [!NOTE]
+> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
   
 ## See also
 

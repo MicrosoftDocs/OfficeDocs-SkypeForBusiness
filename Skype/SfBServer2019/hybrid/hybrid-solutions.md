@@ -1,5 +1,5 @@
 ---
-title: "<topic title>"
+title: "Skype for Business hybrid solutions"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -205,7 +205,7 @@ For more information, see the following resources:
   
 - [Microsoft cloud IT architecture resources](https://aka.ms/clouditarch)
     
-- [Microsoft cloud identity for enterprise architects](https://aka.ms/cloudidarch)
+- [Microsoft cloud identity for enterprise architects](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [Get your organization ready for Office 365 Enterprise](https://aka.ms/O365EntPrep)
     
@@ -219,9 +219,9 @@ For more information, see the following resources:
     
 If you would like to download a poster version of this topic, go to:
   
-- [Skype for Business Architectural Models (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype for Business Architectural Models.pdf)
+- [Skype for Business Architectural Models (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
     
-- [Skype for Business Architectural Models (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype for Business Architectural Models.vsd)
+- [Skype for Business Architectural Models (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
     
 
 ### PLACEHOLDER TOPIC FOR HYBRID SOLUTIONS 

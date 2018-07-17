@@ -1,20 +1,19 @@
 ---
-title: "Enable or disable archiving in Skype for Business Server 2015"
+title: "Enable or disable archiving in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
-description: "Summary: Learn how to enable or disable archiving in Skype for Business Server 2015."
+description: "Summary: Learn how to enable or disable archiving in Skype for Business Server."
 ---
 
-# Enable or disable archiving in Skype for Business Server 2015
+# Enable or disable archiving in Skype for Business Server
 
-**Summary:** Learn how to enable or disable archiving in Skype for Business Server 2015.
+**Summary:** Learn how to enable or disable archiving in Skype for Business Server.
   
 ## Enable or disable archiving by using the Control Panel
 

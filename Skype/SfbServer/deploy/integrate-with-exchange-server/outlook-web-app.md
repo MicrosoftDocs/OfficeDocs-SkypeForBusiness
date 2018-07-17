@@ -1,5 +1,5 @@
 ---
-title: "Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App"
+title: "Configure integration between on-premises Skype for Business Server and Outlook Web App"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,11 +13,11 @@ ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: "Summary: Integrate Skype for Business Server and Outlook Web App."
 ---
 
-# Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App
+# Configure integration between on-premises Skype for Business Server and Outlook Web App
  
 **Summary:** Integrate Skype for Business Server and Outlook Web App.
   
-Customers who are using on-premises Skype for Business Server 2015 deployments can configure interoperability with Microsoft Outlook Web App in Microsoft Exchange Online in a hybrid deployment mode. Interoperability features include single sign on and instant messaging (IM) and presence integration with the Outlook Web App interface. To enable this integration, you must configure the Edge Server in your on-premises Skype for Business Server deployment by completing the following tasks: 
+Customers who are using on-premises Skype for Business Server deployments can configure interoperability with Microsoft Outlook Web App in Microsoft Exchange Online in a hybrid deployment mode. Interoperability features include single sign on and instant messaging (IM) and presence integration with the Outlook Web App interface. To enable this integration, you must configure the Edge Server in your on-premises Skype for Business Server deployment by completing the following tasks: 
   
 - Configure a shared SIP address space
     
@@ -27,7 +27,7 @@ Customers who are using on-premises Skype for Business Server 2015 deployments c
     
 ## Configure a Shared SIP Address Space
 
-To integrate on-premises Skype for Business Server 2015 with Exchange Online, you must configure a shared SIP address space. The same SIP domain address space is supported by both Skype for Business Server and the Exchange Online service.
+To integrate on-premises Skype for Business Server with Exchange Online, you must configure a shared SIP address space. The same SIP domain address space is supported by both Skype for Business Server and the Exchange Online service.
   
 Using the Skype for Business Server Management Shell, configure the Edge Server for federation by running the **Set-CSAccessEdgeConfiguration** cmdlet, using the parameters displayed in the following example:
   
@@ -37,7 +37,7 @@ Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 - **AllowFederatedUsers** parameter specifies whether internal users are allowed to communicate with users from federated domains. This property also determines whether internal users can communicate with users in a shared SIP address space scenario with Skype for Business Server and Exchange Online.
     
-For details about using the Skype for Business Server Management Shell, see [Skype for Business Server 2015 Management Shell](../../manage/management-shell.md).
+For details about using the Skype for Business Server Management Shell, see [Skype for Business Server Management Shell](../../manage/management-shell.md).
   
 ## Configure a Hosting Provider on the Edge Server
 
@@ -82,6 +82,6 @@ Get-CsHostingProvider -LocalStore
 
 ## See also
 
-[Providing Skype for Business Server 2015 users voice mail on hosted Exchange UM](http://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
+[Providing Skype for Business Server users voice mail on hosted Exchange UM](http://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
   
-[Hosted Exchange Unified Messaging integration in Skype for Business Server 2015](http://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)
+[Hosted Exchange Unified Messaging integration in Skype for Business Server](http://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)

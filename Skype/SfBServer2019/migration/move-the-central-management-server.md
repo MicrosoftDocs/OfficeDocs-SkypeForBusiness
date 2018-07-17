@@ -12,7 +12,7 @@ description: "After migrating to Skype for Business Server 2019, you need to mov
 
 # Move the legacy Central Management Server to Skype for Business Server 2019
 
-After migrating to Skype for Business Server 2019, you need to move the Central Management Server to the Skype for Business Server 2019 Front End Server or pool, before you can remove the legacy server. 
+After migrating to Skype for Business Server 2019, and before you can remove the legacy server, you need to move the Central Management Server to the Skype for Business Server 2019 Front End Server or pool. 
   
 The Central Management Server is a single master/multiple replica system, where the read/write copy of the database is held by the Front End Server that contains the Central Management Server. Each computer in the topology, including the Front End Server that contains the Central Management Server, has a read-only copy of the Central Management store data in the SQL Server database (named RTCLOCAL by default) installed on the computer during setup and deployment. The local database receives replica updates by way of the Skype for Business Server Replica Replicator Agent that runs as a service on all computers. The name of the actual database on the Central Management Server and the local replica is XDS, which is made up of the xds.mdf and xds.ldf files. The master database location is referenced by a service control point (SCP) in Active Directory Domain Services. All tools that use the Central Management Server to manage and configure Skype for Business Server use the SCP to locate the Central Management store.
   
@@ -26,7 +26,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
   
 ### To prepare an Enterprise Edition Front End pool
 
-1. On the Skype for Business Server 2019 Enterprise Edition Front End pool where you want to relocate the Central Management Server: Log on to the computer where the Skype for Business Server Management Shell is installed as a member of the **RTCUniversalServerAdmins** group. You must also have SQL Server database sysadmin user rights and permissions on the database where you want to install the Central Management store. 
+1. On the Skype for Business Server 2019 Enterprise Edition Front End pool where you want to relocate the Central Management Server, log on to the computer where the Skype for Business Server Management Shell is installed as a member of the **RTCUniversalServerAdmins** group. You must also have SQL Server database sysadmin user rights and permissions on the database where you want to install the Central Management store. 
     
 2. Open the Skype for Business Server Management Shell.
     
@@ -40,7 +40,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
     
 ### To prepare a Standard Edition Front End Server
 
-1. On the Skype for Business Server 2019 Standard Edition Front End Server where you want to relocate the Central Management Server: Log on to the computer where the Skype for Business Server Management Shell is installed as a member of the **RTCUniversalServerAdmins** group. 
+1. On the Skype for Business Server 2019 Standard Edition Front End Server where you want to relocate the Central Management Server, log on to the computer where the Skype for Business Server Management Shell is installed as a member of the **RTCUniversalServerAdmins** group. 
     
 2. Open the Skype for Business Server Deployment Wizard.
     
@@ -49,7 +49,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
 4. On the **Executing Commands** page, SQL Server Express is installed as the Central Management Server. Necessary firewall rules are created. When the installation of the database and prerequisite software is completed, click **Finish**.
     
     > [!NOTE]
-    > The initial installation may take some time with no visible updates to the command output summary screen. This is due to the installation of the SQL Server Express. If you need to monitor the installation of the database, use Task Manager to monitor the setup. 
+    > The initial installation may take some time with no visible updates to the command output summary screen. This is due to the installation of SQL Server Express. If you need to monitor the installation of the database, use Task Manager to monitor the setup. 
   
 5. To create the new Central Management store on the Skype for Business Server 2019 Standard Edition Front End Server, in the Skype for Business Server Management Shell, type: 
     
@@ -61,7 +61,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
     
 ### To move the legacy installs Central Management Server to Skype for Business Server 2019
 
-1. On the Skype for Business Server 2019 server that will be the Central Management Server: Log on to the computer where the Skype for Business Server Management Shell is installed as a member of the **RTCUniversalServerAdmins** group. You must also have the SQL Server database administrator user rights and permissions. 
+1. On the Skype for Business Server 2019 server that will be the Central Management Server, log on to the computer where the Skype for Business Server Management Shell is installed as a member of the **RTCUniversalServerAdmins** group. You must also have the SQL Server database administrator user rights and permissions. 
     
 2. Open Skype for Business Server Management Shell.
     
@@ -72,7 +72,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
   ```
 
     > [!CAUTION]
-    > If  `Enable-CsTopology` is not successful, resolve the problem preventing the command from completing before continuing. If **Enable-CsTopology** is not successful, the move will fail and it may leave your topology in a state where there is no Central Management store. 
+    > If `Enable-CsTopology` is not successful, resolve the problem preventing the command from completing before continuing. If **Enable-CsTopology** is not successful, the move will fail and it may leave your topology in a state where there is no Central Management store. 
   
 4. On the Skype for Business Server 2019 Front End Server or Front End pool, in the Skype for Business Server Management Shell, type: 
     
@@ -105,7 +105,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
   
 ### To remove legacy install Central Management store files after a move
 
-1. On the legacy install server: Log on to the computer where the Skype for Business Server Management Shell is installed as a member of the **RTCUniversalServerAdmins** group. You must also have the SQL Server database administrator user rights and permissions. 
+1. On the legacy install server, log on to the computer where the Skype for Business Server Management Shell is installed as a member of the **RTCUniversalServerAdmins** group. You must also have the SQL Server database administrator user rights and permissions. 
     
 2. Open Skype for Business Server Management Shell
     

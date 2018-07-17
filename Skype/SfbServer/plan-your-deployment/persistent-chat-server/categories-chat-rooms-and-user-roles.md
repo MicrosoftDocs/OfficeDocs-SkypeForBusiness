@@ -23,6 +23,9 @@ You can control access to chat rooms by creating chat room categories, then spec
 - Chat rooms and user roles
     
 - Administrator roles
+
+> [!NOTE] 
+> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
     
 ## Categories for organizing chat rooms
 

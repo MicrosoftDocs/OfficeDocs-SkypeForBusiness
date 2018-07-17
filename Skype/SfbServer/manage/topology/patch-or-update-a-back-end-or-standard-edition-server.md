@@ -1,9 +1,8 @@
 ---
-title: "Patch or update a Back End Server or Standard Edition server in Skype for Business Server 2015"
+title: "Patch or update a Back End Server or Standard Edition server in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -12,7 +11,7 @@ ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: "Summary: Learn how to install an update or patch on a Back End Server in Skype for Business Server."
 ---
 
-# Patch or update a Back End Server or Standard Edition server in Skype for Business Server 2015
+# Patch or update a Back End Server or Standard Edition server in Skype for Business Server
  
 **Summary:** Learn how to install an update or patch on a Back End Server in Skype for Business Server.
   
@@ -26,7 +25,7 @@ If a Back End Server is down for at least 30 minutes while you are upgrading it,
     
 2. Download the update and extract it to the local hard disk.
     
-3. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**..
+3. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business**, and then click **Skype for Business Server Management Shell**..
     
 4. Stop Skype for Business Server services. At the command line, type:
     
@@ -44,7 +43,7 @@ If a Back End Server is down for at least 30 minutes while you are upgrading it,
     
 7. Install the update.
     
-8. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**..
+8. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business**, and then click **Skype for Business Server Management Shell**.
     
 9. Stop Skype for Business Server services again to catch Global Assembly Cache (GAC) -d assemblies. At the command line, type:
     

@@ -16,7 +16,7 @@ When creating a Skype for Business Server 2019 pool, you will use the Central Ma
   
 ### To download a topology from an existing deployment
 
-1. Open the **Skype for Business Server Deployment Wizard**.
+1. Open the Skype for Business Server Deployment Wizard.
     
 2. From the **Skype for Business Server 2019 - Deployment Wizard** page, click **Install Administrative Tools**.
     
@@ -26,7 +26,7 @@ When creating a Skype for Business Server 2019 pool, you will use the Central Ma
     
      ![Deployment Wizard Topology Builder settings](../media/migration_lyncserver_2013_downloadtopology.JPG)
   
-5. Choose a file name and save the topology with the default .tbxml file type.
+5. Choose a file name, and save the topology with the default .tbxml file type.
     
 6. Expand the Skype for Business Server node, as shown, to reveal the various server roles in the deployment.
     

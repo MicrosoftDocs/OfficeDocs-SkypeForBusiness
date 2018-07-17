@@ -14,15 +14,15 @@ description: "Skype for Business Server 2019 supports multi-site and multi-pool 
 
 Skype for Business Server 2019 supports multi-site and multi-pool deployments. The process of migrating multiple pools to Skype for Business Server 2019 requires the following considerations: 
   
-1. After deploying a Skype for Business Server 2019 pilot pool, you need to define a subset of pilot users that will be moved to the Skype for Business Server 2019 pool, and a methodology for validating the functionality of the users. For example, after moving a user to the pilot pool, verify the user's conference policy has moved to Skype for Business Server 2019. 
+1. After deploying a Skype for Business Server 2019 pilot pool, you need to define a subset of pilot users that will be moved to the Skype for Business Server 2019 pool, and a methodology for validating the functionality of the users. For example, after moving a user to the pilot pool, verify that the user's conference policy has moved to Skype for Business Server 2019. 
     
 2. After deploying an Edge Server in the pilot pool, you need to validate that external users can communicate with the Skype for Business Server 2019 pool.
 
-3. Persitent Chat, Sql Mirroring & XMPP functionality is deprecated in Skype for Business Server 2019 and no longer available as Skype for Business Server 2019 feature but can be continued in existence with coexistence environment, if it is previously deployed in legacy environment. If you want to continue with these feature, then should plan to continue with coexistence environment where deemed users should remain in legacy pools.
+3. Persistent Chat, SQL Mirroring, and XMPP functionality are deprecated in Skype for Business Server 2019 and no longer available as Skype for Business Server 2019 features, but they can be continued in a coexistence environment if they were previously deployed in a legacy environment. If you want to continue using these features, you should plan to continue with a coexistence environment where certain users will remain in legacy pools.
     
-4. After transitioning the federated routes Edge Servers to the pilot Skype for Business Server 2019 Edge Servers, you need to validate that federated users can communicate with the Skype for Business Server 2019 pool.
+4. After transitioning the federated routes' Edge Servers to the pilot Skype for Business Server 2019 Edge Servers, you need to validate that federated users can communicate with the Skype for Business Server 2019 pool.
     
-5. After moving all the users and non-user contact objects, you need to validate that the legacy pool is empty.
+5. After moving all users and non-user contact objects, you need to validate that the legacy pool is empty.
     
 6. After verifying that the legacy pool is empty, you can then deactivate the pool. 
     

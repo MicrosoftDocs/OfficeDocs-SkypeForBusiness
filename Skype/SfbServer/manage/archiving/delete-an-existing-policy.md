@@ -1,20 +1,19 @@
 ---
-title: "Delete an existing archiving policy in Skype for Business Server 2015"
+title: "Delete an existing archiving policy in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
-description: "Summary: Learn how to delete an archiving policy for Skype for Business Server 2015."
+description: "Summary: Learn how to delete an archiving policy for Skype for Business Server."
 ---
 
-# Delete an existing archiving policy in Skype for Business Server 2015
+# Delete an existing archiving policy in Skype for Business Server
 
-**Summary:** Learn how to delete an archiving policy for Skype for Business Server 2015.
+**Summary:** Learn how to delete an archiving policy for Skype for Business Server.
   
 You can delete a user policy or site policy, but not the global policy. If you delete the global policy, Skype for Business Server automatically resets the policy to the default values.
   

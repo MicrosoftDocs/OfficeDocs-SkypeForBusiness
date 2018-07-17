@@ -1,9 +1,8 @@
 ---
-title: "Deploy Skype Room Systems v2 with Skype for Business Server 2015"
+title: "Deploy Skype Room Systems v2 with Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,10 +11,10 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: "Read this topic for information on how to deploy Skype Room Systems v2 with Skype for Business Server 2015."
+description: "Read this topic for information on how to deploy Skype Room Systems v2 with Skype for Business Server."
 ---
 
-# Deploy Skype Room Systems v2 with Skype for Business Server 2015
+# Deploy Skype Room Systems v2 with Skype for Business Server
   
 This topic explains how you add a device account for Skype Room Systems v2 when you have a single-forest, on-premises deployment.
   
@@ -23,9 +22,9 @@ If you have a single-forest, on-premises deployment with Exchange 2013 SP1 or la
 
 The easiest way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts. If you prefer, you can follow the steps below to configure accounts your Skype Room Systems v2 device will use.
   
-## Deploy Skype Room Systems v2 with Skype for Business Server 2015
+## Deploy Skype Room Systems v2 with Skype for Business Server
 
-Before you deploy Skype Room Systems v2 with Skype for Business Server 2015, be sure you have met the requirements. For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
+Before you deploy Skype Room Systems v2 with Skype for Business Server, be sure you have met the requirements. For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
 Before you begin to deploy Skype Room Systems v2, be sure you have the right permissions to run the associated cmdlets.
   
@@ -43,7 +42,7 @@ Before you begin to deploy Skype Room Systems v2, be sure you have the right per
  
    ```
 
-   Note that $strExchangeServer is the fully qualified domain name (FQDN) of your Exchange server, and $strLyncFQDN is the FQDN of your Skype for Business Server 2015 deployment.
+   Note that $strExchangeServer is the fully qualified domain name (FQDN) of your Exchange server, and $strLyncFQDN is the FQDN of your Skype for Business Server deployment.
     
 2. After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate to Skype Room Systems v2.
     
@@ -81,7 +80,7 @@ Before you begin to deploy Skype Room Systems v2, be sure you have the right per
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. Enable the device account with Skype for Business Server 2015 by enabling your Skype Room Systems v2 Active Directory account on a Skype for Business Server 2015 pool:
+6. Enable the device account with Skype for Business Server by enabling your Skype Room Systems v2 Active Directory account on a Skype for Business Server pool:
     
    ```
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com 
@@ -101,7 +100,7 @@ Before you begin to deploy Skype Room Systems v2, be sure you have the right per
 
    Again, you'll need to replace the provided domain controller and phone number examples with your own information. The parameter value $true stays the same.
     
-## Sample: room account setup in Exchange and Skype for Business Server 2015 on premises
+## Sample: room account setup in Exchange and Skype for Business Server on premises
 
 ```
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) 

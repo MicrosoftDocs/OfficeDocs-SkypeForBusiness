@@ -13,7 +13,7 @@ description: "Instructions for implementing cloud-based voicemail for users home
 ---
 
 # Configure Cloud Voicemail service
-<!-- PM Roy Kuntz  See [Set up Phone System voicemail](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US) for alternate example. -->
+
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
@@ -24,22 +24,20 @@ This article assumes that you already have Skype for Business Server deployed in
 
 For more information about the benefits, planning considerations, and requirements for implementing Cloud Voicemail, see [Plan Cloud Voicemail service](plan-cloud-voicemail.md).
 
- <!--See [Set up Phone System voicemail](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US) for alternate example. -->
+
 
 
 Configuring Cloud Voicemail involves the following tasks:
 
 1.  Ensure you have met the prerequisites as described in [Plan Cloud Voicemail service](plan-cloud-voicemail.md).
 
-2.  Ensure you have set up hybrid connectivity as described in [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md).
+2.  Ensure you have set up hybrid connectivity as described in [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md). **SHALL WE NUKE ITEM 2.?**
 
 3.  [Configure Cloud Voicemail as the hosting provider on the Edge Server](#configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server) as described in this article.
 
-4. [Configure Cloud Voicemail routing](#configure-cloud-voicemail-routing) as described in this article.
+4.  [Configure a hosted voicemail policy](#configure-a-hosted-voicemail-policy) as described in this article.
 
 5.  [Enable a User for Cloud Voicemail](#enable-a-user-for-cloud-voicemail) as described in this article.
-
-
 
 
 ## Configure Cloud Voicemail as the hosting provider on the Edge Server 
@@ -58,41 +56,36 @@ You configure Cloud Voicemail as the hosting provider on the Edge Server by usin
 
 - **IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Skype for Business Server topology. This parameter must be set to False.
 
-For example, in the Skype for Business Management shell, the following cmdlet ...
+For example, in the Skype for Business Management shell, the following cmdlet configures Cloud Voicemail as the hosting provider:
 
 
 ```
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
-**Questions:**
-- **Replace -Identity "Exchange Online" with what?** seems likely there's a new option needed for Exch on prem
-- **Replace -ProxyFqdn "exap<span></span>.um.outlook.com" with what?** Seems likely this will be different if Exch is online vs onprem.
-- **What changes are there to the command when integrating with Exch on prem?**
-- **Is this the only command in integrating with exchange OL, or is this specific to UM?** the integration for Exch OL that doesn't involve Exch UM is not clearly documented
 
 
 
-##Configure Cloud Voicemail routing
+##Configure a hosted voicemail policy
+
+**NATHAN TO PROVIDE INPUT ON THIS SECTION**
 
 The Cloud Voicemail routing application runs on the Front End Server to route calls to the Cloud Voicemail service.
 
 The routing application uses information from user account settings and from hosted voice mail policy parameters to determine how to route calls for hosted voice messaging, as shown in the following diagram.
 
-**INSERT DIAGRAM HERE**
-
 Cloud Voicemail routing can be configured to route calls to users who are enabled for on-premises Exchange UM, to users who are enabled for Cloud Voicemail, or to a combination of the two.
 
-For example, assume that Roy’s mailbox and Exchange UM service are homed in an on-premises Exchange deployment.
+For example, assume that User1's mailbox and Exchange UM service are homed in an on-premises Exchange deployment.
 
-The proxy address information from Roy’s user account provides the information that the routing application uses to route his calls to an on-premises Exchange UM server.
+The proxy address information from User1's user account provides the information that the routing application uses to route calls to an on-premises Exchange UM server.
 
-For another example, assume that Alice’s mailbox and Exchange UM service are located at a hosted Exchange service provider’s data center. Routing for her Exchange UM calls is configured as follows:
+For another example, assume that User2's mailbox and Exchange UM service are located at a hosted Exchange service provider’s data center. Routing for User2's  Exchange UM calls is configured as follows:
 
 **HOW DOES THE FOLLOWING CHANGE FOR CLOUD VOICEMAIL?**
 
-- The values set in the msExchUCVoiceMailSettings attribute of Alice’s user account tell the routing application to check for routing details in a hosted voice mail policy.
+- The values set in the msExchUCVoiceMailSettings attribute of User2's user account tell the routing application to check for routing details in a hosted voice mail policy.
 
-- The hosted voice mail policy that is assigned to Alice’s user account provides routing details: 
+- The hosted voice mail policy that is assigned to User2's user account provides routing details: 
 
    - Destination is the hosted Exchange UM service provider (ls.ExUm.<hostedExchangeServer>.com in this example).
 
@@ -105,6 +98,8 @@ Note:  The value of the msExchUCVoiceMailSettings attribute can be set by either
 Note:  If both the msExchUCVoiceMailSettings attribute and the UM proxy address settings are present in a user account, the msExchUCVoiceMailSettings attribute takes precedence. 
 
 ## Enable a user for Cloud Voicemail
+
+**NATHAN TO FIX SYNTAX**
 
 To enable a user’s voice mail calls to be routed to Cloud Voicemail, you use the **[Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps)** cmdlet with the HostedVoiceMail parameter. 
 
@@ -120,4 +115,4 @@ The next example disables a user account for hosted voice mail:
 
 The cmdlet verifies that no hosted voice mail policy--at the global, site, or user level--applies to this user. If a policy does apply, the cmdlet fails.
 
-
+**Note:** The user must be enterprise-voice enabled.

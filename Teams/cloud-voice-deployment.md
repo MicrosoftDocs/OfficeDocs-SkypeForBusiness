@@ -34,27 +34,25 @@ Here’s what you get with [Audio Conferencing](https://docs.microsoft.com/Skype
 
 Phone System is an Office 365 feature that provides the ability to manage call routing, policies, and user provisioning. This includes phone calling management system, call routing, and call control.
 
-Calling Plans is an add-on service for the Phone System feature, delivered through Teams and Skype for Business Online. Calling Plans provide the people in your business with a primary phone number, and lets them make and receive phone calls outside of your organization over the PSTN.
+Calling Plans is an add-on service for the Phone System feature, delivered through Teams and Skype for Business Online. Calling Plans requires that the user in question be homed in Skype for Business Online to work in Microsoft Teams. Calling Plans provide the people in your business with a primary phone number, and lets them make and receive phone calls outside of your organization over the PSTN.
 
 To learn more, read [Here’s what you get with Phone System in Office 365](https://support.office.com/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c) and [What are Calling Plans in Office 365?](https://support.office.com/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429)
 
 
 ## Phone System Direct Routing (“Direct Routing”)
 
-> [!NOTE]
-> This is a preview release of Microsoft Phone System Direct Routing. Product functionality and documentation are subject to change.
-
 Direct Routing works with the Phone System feature to give people in your organization the ability make and receive phone calls outside of the organization over the PSTN, where PSTN connectivity is provided via third-party service providers.
 
-To learn more, read [Plan Direct Routing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing) and [Configure Direct Routing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing).
+To learn more, read [Plan Direct Routing](direct-routing-plan.md) and [Configure Direct Routing](direct-routing-configure.md).
 
 ## Practical guidance for Audio Conferencing, Calling Plans, and Direct Routing in Microsoft Teams
 
 This practical guidance is organized by using the Office 365 FastTrack customer journey framework and its three phases&mdash;Envision, Onboard, and Drive Value. It’s intended to help you plan, deliver, and operate a successful Audio Conferencing, Calling Plans, or Direct Routing implementation.
 
-|Envision  |Onboard  |Drive Value  |
-|---------|---------|---------|
-|Define my success <br> Make my service decisions <br> Evaluate my environment <br> Plan my service management <br> Plan my users’ experience <br> Document my success plan    | Prepare my service <br> Prepare my users <br> Deploy my service  <br> <br> <br> <br>     | Operate my service <br> Enhance my service <br> <br> <br> <br> <br>      |
+> [!div class="mx-tableFixed"]
+> |Envision  |Onboard  |Drive Value  |
+> |---------|---------|---------|
+> |[Define my success](1-envision-define-my-success-cloud-voice.md) <br> Make my service decisions for <br>&nbsp;&nbsp;[Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md),<br>&nbsp;&nbsp;[Calling Plans](2-envision-make-my-service-decisions-phone-system.md), or [Direct Routing](2-envision-make-my-service-decisions-direct-routing.md) <br> [Evaluate my environment](3-envision-evaluate-my-environment.md) <br> [Plan my service management](4-envision-plan-my-service-management.md) <br> [Plan my users’ experience](5-envision-plan-my-users-experience.md) <br> [Document my success plan](6-envision-document-my-success-plan.md)    | [Prepare my service](1-onboard-prepare-my-service.md) <br> [Prepare my users](2-onboard-prepare-my-users.md) <br> [Deploy my service](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [Operate my service](1-drive-value-operate-my-service.md) <br> [Enhance my service](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
 
 The content is presented in an ordered fashion, and is designed to take you through an end-to-end deployment journey from start to finish. If you’re already actively deploying, we still encourage you to reference the applicable content areas.
 

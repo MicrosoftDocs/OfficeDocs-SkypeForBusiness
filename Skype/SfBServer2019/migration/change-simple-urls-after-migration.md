@@ -26,7 +26,7 @@ After migrating to Skype for Business Server, you must be aware of how the chang
 
 ### To update the Meet simple URL
 
-1. In Topology Builder, right-click the top node **Lync Server**, and then click **Edit Properties**.
+1. In Topology Builder, right-click the top node **Skype for Business Server**, and then click **Edit Properties**.
     
 2. Select **Simple URLs** in the left pane, then below **Meeting URLs:** select the Meet URL and then click **Edit URL**.
     
@@ -34,7 +34,7 @@ After migrating to Skype for Business Server, you must be aware of how the chang
     
 ### To update the Admin simple URL
 
-1. In Topology Builder, right-click the top node **Lync Server**, and then click **Edit Properties**.
+1. In Topology Builder, right-click the top node **Skype for Business Server**, and then click **Edit Properties**.
     
 2. Select **Simple URLs** in the left pane, then below **Administrative access URL** box, enter the simple URL you want for administrative access to Skype for Business Server Control Panel, and then click **OK**.
     
@@ -42,6 +42,5 @@ After migrating to Skype for Business Server, you must be aware of how the chang
     > We recommend using the simplest possible URL for the Admin URL. The simplest option is https://admin._\<domain\>_. 
   
 ## See also
- **REPLACE OR REMOVE THIS LINK**
 
-[DNS requirements for simple URLs in Skype for Business Server 2015](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md)
+[DNS requirements for simple URLs in Skype for Business Server](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md)

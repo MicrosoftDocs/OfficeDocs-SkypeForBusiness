@@ -12,7 +12,6 @@ description: "For details, see Deploying clients and devices in Skype for Busine
 
 # Deploy Skype for Business Server clients
 
- **REPLACE OR REMOVE THIS LINK**
-For details, see [Deploy clients for Skype for Business Server 2015](../../SfbServer/deploy/deploy-clients/deploy-clients.md) in the Deployment documentation.
+For details, see [Deploy clients for Skype for Business Server](../../SfbServer/deploy/deploy-clients/deploy-clients.md) in the Deployment documentation.
   
 

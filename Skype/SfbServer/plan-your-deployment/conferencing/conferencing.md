@@ -128,7 +128,7 @@ The size of meetings that Skype for Business Server can support depends on wheth
     
 For more information about managing large meetings, see [Plan for large meetings in Skype for Business Server](large-meetings.md).
   
-If your organization requires larger meeting capabilities, you should consider implementing a hybrid environment that takes advantage of Skype Meeting Broadcast, a new online service that is part of Office 365. Skype Meeting Broadcast enables users to host and broadcast meetings to large online audiences of up to 10,000 participants. The use of Skype Meeting Broadcast requires that Skype for Business Server already be configured in a hybrid setup with a production Office 365 tenant. All users must have an online tenant established as a prerequisite. If you are interested in deploying a hybrid solution that can take advantage of Skype Meeting Broadcast, see [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md).
+If your organization requires larger meeting capabilities, you should consider implementing a hybrid environment that takes advantage of Skype Meeting Broadcast, an online service that is part of Office 365. Skype Meeting Broadcast enables users to host and broadcast meetings to large online audiences of up to 10,000 participants. The use of Skype Meeting Broadcast requires that Skype for Business Server already be configured in a hybrid setup with a production Office 365 tenant. All users must have an online tenant established as a prerequisite. If you are interested in deploying a hybrid solution that can take advantage of Skype Meeting Broadcast, see [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md).
   
 ## Determine your organizations needs
 
@@ -170,9 +170,9 @@ When you are determining which conferencing capabilities to deploy, you need to 
     
   - **Remote users.** Your organization's own users, when they are working outside your firewalls and are using their laptops or other Skype for Business Server devices.
     
-  - **Federated Users. ** Users from companies you work with who also run Skype for Business Server. To enable your users to easily contact these users, you create federated relationships with these companies.
+  - **Federated Users.** Users from companies you work with who also run Skype for Business Server. To enable your users to easily contact these users, you create federated relationships with these companies.
     
-  - **Anonymous Users. ** Any other external users who are invited specifically by your users to join specific conferences. A meeting organizer in your company can send an email invitation for a conference to an external user. The email includes a link that the outside user can click to join the conference.
+  - **Anonymous Users.** Any other external users who are invited specifically by your users to join specific conferences. A meeting organizer in your company can send an email invitation for a conference to an external user. The email includes a link that the outside user can click to join the conference.
     
     If you want to allow external users, you'll need to deploy Edge Servers. Additionally, with Edge Servers deployed you can create federated relationships with other organizations--such as your customers or vendors--and users from those organizations can more easily collaborate with your users.
     

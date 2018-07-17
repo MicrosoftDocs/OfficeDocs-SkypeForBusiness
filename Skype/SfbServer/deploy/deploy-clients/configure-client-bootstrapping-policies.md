@@ -1,9 +1,8 @@
 ---
-title: "Configure client bootstrapping policies in Skype for Business Server 2015"
+title: "Configure client bootstrapping policies in Skype for Business Server"
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,7 +12,7 @@ ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: "Summary: How to manage Group Policy for Skype for Business."
 ---
 
-# Configure client bootstrapping policies in Skype for Business Server 2015
+# Configure client bootstrapping policies in Skype for Business Server
  
 **Summary:** How to manage Group Policy for Skype for Business.
   
@@ -26,8 +25,8 @@ For Skype for Business, there are several client bootstrapping policies that you
 |**Group Policy setting**|**Description**|
 |:-----|:-----|
 |Specify Server           (ConfigurationMode)  <br/> | Specifies how Skype for Business identifies the transport and server to use during sign-in. Within this setting, you specify the following: <br/>  ServerAddressExternal: Specifies the server name or IP address used by clients and federated contacts when connecting from outside the external firewall. <br/>  ServerAddressInternal: Specifies the server name or IP address used when clients connect from inside the organization's firewall. <br/>  Transport: Specifies either Transmission Control Protocol (TCP) or Transport Layer Security (TLS). <br/> |
-|Additional server versions supported           (ConfiguredServerCheckValues)  <br/> |Specifies a list of server version names separated by semi-colons that Skype for Business Server 2015 will log on to, in addition to the server versions that are supported by default.  <br/> |
-|Disable automatic upload of sign-in failure logs (DisableAutomaticSendTracing)  <br/> |Automatically uploads sign-in failure logs to Skype for Business Server 2015 for analysis. No logs are automatically uploaded if sign-in is successful. If this policy is not configured, the following happens:  <br/> For Skype for Business Online users: Sign-in failure logs are automatically uploaded. For Skype for Business on-premises users: A confirmation dialog box is shown to the user before upload. When this setting is disabled, sign-in logs are automatically uploaded to the Skype for Business Server for both Skype for Business on-premises and Skype for Business Online users. When this setting is enabled, sign-in logs are never uploaded automatically.  <br/> |
+|Additional server versions supported           (ConfiguredServerCheckValues)  <br/> |Specifies a list of server version names separated by semi-colons that Skype for Business Server will log on to, in addition to the server versions that are supported by default.  <br/> |
+|Disable automatic upload of sign-in failure logs (DisableAutomaticSendTracing)  <br/> |Automatically uploads sign-in failure logs to Skype for Business Server for analysis. No logs are automatically uploaded if sign-in is successful. If this policy is not configured, the following happens:  <br/> For Skype for Business Online users: Sign-in failure logs are automatically uploaded. For Skype for Business on-premises users: A confirmation dialog box is shown to the user before upload. When this setting is disabled, sign-in logs are automatically uploaded to the Skype for Business Server for both Skype for Business on-premises and Skype for Business Online users. When this setting is enabled, sign-in logs are never uploaded automatically.  <br/> |
 |Disable HTTP fallback for SIP connection           (DisableHttpConnect)  <br/> |Prevents Skype for Business Server from trying to connect to the server by using HTTP, if TLS or TCP are unavailable. By default, Skype for Business first attempts to connect to the server by using TLS or TCP and, if neither of these transport methods is successful, Skype for Business tries to connect by using HTTP. Use this policy to disable the fallback HTTP connection attempt.  <br/> |
 |Require logon credentials           (DisableNTCredentials)  <br/> |Requires the user to provide logon credentials for Skype for Business rather than automatically using Windows credentials during sign-in to a SIP server.  <br/> |
 |Disable server version check           (DisableServerCheck)  <br/> |If you set this policy to 1, prevents Skype for Business from checking the server name and version before signing in. By default, Skype for Business makes these checks before signing in.  <br/> |
@@ -45,7 +44,7 @@ Policies configured on the server take precedence over Group Policy settings and
 
 |**Precedence**|**Location or Method of Setting**|
 |:-----|:-----|
-|1  <br/> |Skype for Business Server 2015 in-band provisioning  <br/> |
+|1  <br/> |Skype for Business Server in-band provisioning  <br/> |
 |2  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |3  <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |4  <br/> |The Options dialog box in Skype for Business  <br/> |

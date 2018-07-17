@@ -12,7 +12,7 @@ description: "Before decommissioning a pool you must perform the following proce
 
 # Move Conference Directories
 
-Before decommissioning a pool you must perform the following procedure for each conference directory in your legacy pool.
+Before decommissioning a pool, you must perform the following procedure for each conference directory in your legacy pool.
   
 ## To Move a Conference Directory to Skype for Business Server 2019
 
@@ -38,21 +38,21 @@ Before decommissioning a pool you must perform the following procedure for each 
   Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
   ```
 
-    For example, to move conference directory 3 use this command, specifying a Skype for Business Server 2019 pool as the TargetPool:
+    For example, to move conference directory 3, use this command, specifying a Skype for Business Server 2019 pool as the TargetPool:
     
   ```
   Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
   ```
 
-    If you want to move all the conference directories on a pool then use a command similar to the following:
+    If you want to move all the conference directories on a pool, use a command similar to the following:
     
   ```
   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
   ```
 
-Please see the document "Uninstalling Microsoft legacy and Removing Server Roles" (which can be downloaded from [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227)) for comprehensive, step-by-step instructions on decommissioning legacy pools.
+Download [Uninstalling Microsoft legacy and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227) for comprehensive, step-by-step instructions on decommissioning legacy pools.
   
-When moving conference directories you might encounter the following error:
+When moving conference directories, you might encounter the following error:
   
 ```
 WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.
@@ -61,6 +61,6 @@ Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObjec
 This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 ```
 
-This error typically occurs when the Skype for Business Server Management Shell requires an updated set of Active Directory permissions in order to complete a task. To resolve the problem, close the current instance of the Management Shell, then open a new instance of the shell and re-run the command in order to move the conference directory.
+This error typically occurs when the Skype for Business Server Management Shell requires an updated set of Active Directory permissions in order to complete a task. To resolve the problem, close the current instance of the Management Shell, then open a new instance of the shell and re-run the command to move the conference directory.
   
 

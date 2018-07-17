@@ -16,7 +16,7 @@ The recommended and supported migration procedure for Skype for Business Server 
   
 ## Side-By-Side Migration
 
-In nearlyevery migration, you should use the side-by-side migration path. In a side-by-side migration, you deploy a new server with Skype for Business Server 2019 alongside a corresponding server that is running a previous version, and then transfer operations to the new server. If it becomes necessary to roll back to the previous version, you have only to shift operations back to the original servers. Be aware that in this situation any new meetings scheduled with upgraded clients will not work, and the clients would also need to be downgraded.
+In nearly every migration, you should use the side-by-side migration path. In a side-by-side migration, you deploy a new server with Skype for Business Server 2019 alongside a corresponding server that is running a previous version, and then transfer operations to the new server. If it becomes necessary to roll back to the previous version, you have only to shift operations back to the original servers. Be aware that in this situation any new meetings scheduled with upgraded clients will not work, and the clients would also need to be downgraded.
   
 ## Coexistence Testing
 

@@ -48,12 +48,12 @@ The synthetic transactions available to watcher nodes include the following:
 |Test-CsExumConnectivity (ExumConnectivity)  <br/> |Confirms that a user can connect to Exchange Unified Messaging (UM).  <br/> |
 |Test-CsGroupIM -TestJoinLauncher (JoinLauncher)  <br/> |Confirms that users are able to create and join scheduled meetings (by a web address link).  <br/> |
 |Test-CsMCXP2PIM (MCXP2PIM)  <br/> |Confirms that mobile device users are able to register and send instant messages.  <br/> |
-|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |Confirms that Video Interop Server is up and can handle incoming connections over a video SIP trunk.  <br/> |
+|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |Confirms that Video Interop Server is up and can handle incoming connections over a video SIP trunk.  <br/> **Note:** MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. |
 |Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |Confirms that users can exchange messages by using the Persistent Chat service.  <br/> |
 |Test-CsUcwaConference (UcwaConference)  <br/> |Confirms that users can join conferences via the web.  <br/> |
 |Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Confirms that a user's contacts can be accessed through the unified contact store. The unified contact store provides a way for users to maintain a single set of contacts that can be accessed by using Skype for Business Server 2015, Outlook messaging and collaboration client, and/or Outlook Web Access.  <br/> |
-|Test-CsXmppIM (XmppIM)  <br/> |Confirms that an instant message can be sent across the Extensible Messaging and Presence Protocol (XMPP) gateway.  <br/> |
-   
+|Test-CsXmppIM (XmppIM)  <br/> |Confirms that an instant message can be sent across the Extensible Messaging and Presence Protocol (XMPP) gateway.  <br/> XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.  |
+
 You do not need to install watcher nodes to use System Center Operations Manager. If you do not install these nodes, you can still get real-time alerts from Skype for Business Server 2015 components whenever an issue occurs. (The Component and User Management Pack does not use watcher nodes.) However, watcher nodes are required if you want to monitor end-to-end scenarios by using the Active Monitoring Management pack.
   
 > [!NOTE]

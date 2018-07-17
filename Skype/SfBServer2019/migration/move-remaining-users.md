@@ -17,7 +17,7 @@ You can move users to the new Skype for Business Server 2019 deployment by using
 > [!IMPORTANT]
 > You cannot use the Active Directory Users and Computers snap-in or the legacy administrative tools to move users from your legacy environment to Skype for Business Server 2019. 
   
-When you move a user to an Skype for Business Server 2019 pool, the data for the user is moved to the back-end database that is associated with the new pool. 
+When you move a user to a Skype for Business Server 2019 pool, the data for the user is moved to the back-end database that is associated with the new pool. 
   
 > [!IMPORTANT]
 > This includes the active meetings created by the legacy user. For example, if a legacy user has configured a **my meeting** conference, that conference will still be available in the new Skype for Business Server 2019 pool after the user has been moved. The details to access that meeting will still be the same **conference URL and conference ID**. The only difference is that the conference is now hosted in the Skype for Business Server 2019 pool, and not in the legacy pool. 

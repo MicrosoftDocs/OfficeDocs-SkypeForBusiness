@@ -1,26 +1,25 @@
 ---
-title: "Add archiving databases to an existing deployment in Skype for Business Server 2015"
+title: "Add archiving databases to an existing deployment in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
-description: "Summary: Read this topic to learn how to add archiving databases to your Skype for Business Server 2015 deployment."
+description: "Summary: Read this topic to learn how to add archiving databases to your Skype for Business Server deployment."
 ---
 
-# Add archiving databases to an existing deployment in Skype for Business Server 2015
+# Add archiving databases to an existing deployment in Skype for Business Server
  
-**Summary:** Read this topic to learn how to add archiving databases to your Skype for Business Server 2015 deployment.
+**Summary:** Read this topic to learn how to add archiving databases to your Skype for Business Server deployment.
   
 You must incorporate archiving into your topology before you can configure your deployment to support archiving. The information in this topic explains how to use Topology Builder to:
   
 - Add an archiving database to your topology.
     
-- Publish the updated topology to add the archiving database to your Skype for Business Server 2015 deployment.
+- Publish the updated topology to add the archiving database to your Skype for Business Server deployment.
     
 > [!NOTE]
 > If you want to use Microsoft Exchange integration to store archiving data and files on Exchange servers for all your users in your deployment, do not specify **Archiving SQL Server store** or **Use SQL Server Store mirroring** information.
@@ -96,6 +95,6 @@ You must incorporate archiving into your topology before you can configure your 
 6. On the **Publishing wizard complete** page, verify that the topology was successfully published, and then click **Finish**.
     
     > [!IMPORTANT]
-    > After publishing the topology, you must configure options and policies for Archiving before any content can be archived. For details, see [Configure archiving options for Skype for Business Server 2015](configure-archiving-options.md) and [Configure archiving policies for Skype for Business Server 2015](configure-archiving-policies.md). 
+    > After publishing the topology, you must configure options and policies for Archiving before any content can be archived. For details, see [Configure archiving options for Skype for Business Server](configure-archiving-options.md) and [Configure archiving policies for Skype for Business Server](configure-archiving-policies.md). 
   
 

@@ -36,6 +36,6 @@ After you remove a Monitoring Server, you can remove the SQL Server databases th
 
     Where  _\<FQDN\>_ is the fully qualified domain name (FQDN) of the database server, and  _\<instance\>_ is the optional named database instance. 
     
-4. When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press Y (or press Enter) to proceed, or press N and then Enter if you want to stop the cmdlet (that is, in case there errors). 
+4. When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press Y (or Enter) to proceed, or press N and then Enter if you want to stop the cmdlet (if there are errors). 
     
 

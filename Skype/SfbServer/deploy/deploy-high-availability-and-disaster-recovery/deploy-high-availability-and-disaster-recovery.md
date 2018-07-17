@@ -17,6 +17,9 @@ Skype for Business Server offers high availability with server pooling, disaster
 High availability refers to making sure that Skype for Business Server services are available even if one or more servers goes down.Disaster recovery refers to keeping services going in the event of a natural or human-caused disaster, and preserving as much data from before the disaster as possible.
   
 This section tells how to deploy these features, and also covers what steps you can take for high availability and disaster recovery for some of your other server roles.
+
+> [!NOTE]
+> SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.
   
 ## Related sections
 
@@ -28,6 +31,5 @@ This section tells how to deploy these features, and also covers what steps you 
 
 [Deploy paired Front End pools for disaster recovery in Skype for Business Server](front-end-pools-for-disaster-recovery.md)
   
-[Deploy SQL mirroring for Back End Server high availability in Skype for Business Server](sql-mirroring-for-high-availability.md)
+[Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015](sql-mirroring-for-high-availability.md)
   
-[Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)

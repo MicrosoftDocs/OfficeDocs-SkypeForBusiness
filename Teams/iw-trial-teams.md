@@ -3,7 +3,7 @@ title: Manage the Microsoft Teams Commercial Cloud Trial offer
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 05/17/2018
+ms.date: 07/17/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -43,11 +43,11 @@ Also, your tenant is NOT eligible for the trial if:
 
 In addition, if your tenant is ineligible for the Microsoft Teams Commercial Cloud Trial offer, you will not see the **Let users install trial apps and services** switch.
 
-At the tenant level, Teams as a service needs to be enabled (in the Teams admin center). For more information, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md). Also, users must be enabled to sign up for apps and trials (in the Office 365 admin center). For more information, see [Manage the IW trial](#manage-the-iw-trial) later in this article.
+At the tenant level, Teams as a service needs to be enabled (in the Teams admin center). For more information, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md). Also, users must be enabled to sign up for apps and trials (in the Office 365 admin center). For more information, see [Manage the trial](#manage-the-trial) later in this article.
 
 ## How users sign up for the trial
 
-Eligible users can sign up for the IW trial by logging into Teams ([teams.microsoft.com](https://teams.microsoft.com)). If eligible, they will see the following screen to start the trial. 
+Eligible users can sign up for the trial offer by logging into Teams ([teams.microsoft.com](https://teams.microsoft.com)). If eligible, they will see the following screen to start the trial. 
 
 ![Screenshot of the start page for the Teams IW trial.](media/iw-trial-start-screen.png)
 
@@ -55,9 +55,9 @@ The IW trial grants a 1-year trial to your entire organization. Additional eligi
  
 All trials within your organization share the same start and end dates, which is the date that first user signed for the trial. For example, if user A starts the first trial on April 25, 2018 and user B starts a trial on June 3, 2018, both users' trial will expire on April 25, 2019.
 
-## <a name="manage-the-iw-trial"></a>Manage the IW trial
+## <a name="manage-the-trial"></a>Manage the trial
 
-Admins can disable the ability for end users to claim trial apps and services within their tenant. Currently, the Teams IW trial is the only trial in this category, but this might apply to other similar programs in the future. 
+Admins can disable the ability for end users to claim trial apps and services within their tenant. Currently, the Teams trial is the only trial in this category, but this might apply to other similar programs in the future. 
 
 1\. From the [Office 365 admin center](https://portal.office.com/adminportal/home), go to **Services & add-ins** > **User owned Apps and Services**.
 
@@ -67,7 +67,7 @@ Admins can disable the ability for end users to claim trial apps and services wi
 
 ![Screenshot of the User owned Apps and Services page in the Office 365 admin center.](media/iw-trial-enable-2.png)
 
-3\. You can turn off Teams for the tenant by going to the Teams admin portal. When this is disabled, users cannot claim the Teams IW trial.
+3\. You can turn off Teams for the tenant by going to the Teams admin portal. When this is disabled, users cannot claim the Teams trial offer.
 
 4\. If you have disabled the Teams service plan for an individual user who has an eligible license, that user is not eligible to claim a trial license.
 

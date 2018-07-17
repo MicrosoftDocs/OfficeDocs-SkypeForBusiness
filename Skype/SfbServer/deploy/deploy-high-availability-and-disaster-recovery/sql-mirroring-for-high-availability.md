@@ -1,5 +1,5 @@
 ---
-title: "Deploy SQL mirroring for Back End Server high availability in Skype for Business Server"
+title: "Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,7 +11,7 @@ ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: "To be able to deploy SQL mirroring, your servers must run a minimum of SQL Server 2008 R2. This version must run on all the involved servers: the primary, mirror, and the witness. For details, see Cumulative update package 9 for SQL Server 2008 Service Pack 1 ."
 ---
 
-# Deploy SQL mirroring for Back End Server high availability in Skype for Business Server
+# Deploy SQL mirroring for Back End Server high availability in Skype for Business server 2015
  
 
 To be able to deploy SQL mirroring, your servers must run a minimum of SQL Server 2008 R2. This version must run on all the involved servers: the primary, mirror, and the witness. For details, see [Cumulative update package 9 for SQL Server 2008 Service Pack 1 ](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
@@ -115,11 +115,11 @@ You should keep the following in mind when setting up SQL mirroring:
     
   - [The Database Mirroring Endpoint (SQL Server)](https://go.microsoft.com/fwlink/p/?LinkId=247347)
     
-## Using Skype for Business Server Management Shell Cmdlets to Set Up SQL Mirroring
+## Using Skype for Business Server 2015 Management Shell Cmdlets to Set Up SQL Mirroring
 
 The easiest way to set up mirroring is by using Topology Builder, but you can also do so using cmdlets.
   
-1. Open a Skype for Business Server Management Shell window and run the following cmdlet:
+1. Open a Skype for Business Server 2015 Management Shell window and run the following cmdlet:
     
    ```
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 

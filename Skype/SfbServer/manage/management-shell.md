@@ -1,9 +1,8 @@
 ---
-title: "Skype for Business Server 2015 Management Shell"
+title: "Skype for Business Server Management Shell"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 9/20/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -13,7 +12,7 @@ ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: "The Skype for Business Server Management Shell provides the command line interface for server administration and management. It is built on Windows PowerShell and includes a comprehensive set of management and administration cmdlets that are specific to Skype and legacy Lync server products."
 ---
 
-# Skype for Business Server 2015 Management Shell
+# Skype for Business Server Management Shell
  
 The Skype for Business Server Management Shell provides the command line interface for server administration and management. It is built on Windows PowerShell and includes a comprehensive set of management and administration cmdlets that are specific to Skype and legacy Lync server products.
   
@@ -22,7 +21,7 @@ Windows PowerShell allows you to manage Microsoft applications from the command 
 > [!NOTE]
 > Skype for Business cmdlet reference has moved to docs.microsoft.com. Clicking on the links below will take you to the new docs.microsoft.com page. The content is now open sourced and available for community contributions through GitHub. Interested in contributing? Check out the README in the repo here: [https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
   
-Skype for Business Server 2015 ships with more than 700 cmdlets that enable administrators to manage Skype for Business Server using the Skype for Business Server Management Shell. You can retrieve help for a cmdlet directly from the command line by typing a command similar to the following:
+Skype for Business Server ships with more than 700 cmdlets that enable administrators to manage Skype for Business Server using the Skype for Business Server Management Shell. You can retrieve help for a cmdlet directly from the command line by typing a command similar to the following:
   
 ```
 Get-Help New-CsVoicePolicy -Full
@@ -65,5 +64,8 @@ Things to know about Windows PowerShell in Skype for Business Server:
   ```
 
     For more detailed information, see [About Updatable Help](https://technet.microsoft.com/library/hh847735.aspx).
+    
+    > [!NOTE]
+    > If you are using PowerShell remotely you may need to allow communication through a firewall. To learn more about the ports PowerShell remoting uses, see [What Port Does PowerShell Remoting Use?](https://blogs.technet.microsoft.com/christwe/2012/06/20/what-port-does-powershell-remoting-use/).
     
 

@@ -1,20 +1,19 @@
 ---
-title: "User and client authentication for Skype for Business Server 2015"
+title: "User and client authentication for Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 7/14/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-description: "A trusted user is one whose credentials have been authenticated by a trusted server in Skype for Business Server 2015. This server is usually a Standard Edition server, Enterprise Edition Front End Server, or Director. Skype for Business Server relies on Active Directory Domain Services as the single, trusted back-end repository of user credentials."
+description: "A trusted user is one whose credentials have been authenticated by a trusted server in Skype for Business Server. This server is usually a Standard Edition server, Enterprise Edition Front End Server, or Director. Skype for Business Server relies on Active Directory Domain Services as the single, trusted back-end repository of user credentials."
 ---
 
-# User and client authentication for Skype for Business Server 2015
+# User and client authentication for Skype for Business Server
  
-A trusted user is one whose credentials have been authenticated by a trusted server in Skype for Business Server 2015. This server is usually a Standard Edition server, Enterprise Edition Front End Server, or Director. Skype for Business Server relies on Active Directory Domain Services as the single, trusted back-end repository of user credentials.
+A trusted user is one whose credentials have been authenticated by a trusted server in Skype for Business Server. This server is usually a Standard Edition server, Enterprise Edition Front End Server, or Director. Skype for Business Server relies on Active Directory Domain Services as the single, trusted back-end repository of user credentials.
   
 Authentication is the provision of user credentials to a trusted server. Skype for Business Server uses the following authentication protocols, depending on the status and location of the user.
   
@@ -23,11 +22,11 @@ Authentication is the provision of user credentials to a trusted server. Skype f
 - **NTLM protocol** for users with Active Directory credentials who are connecting from an endpoint outside the corporate firewall. The Access Edge service passes logon requests to a Director, if present, or a Front End Server for authentication. The Access Edge service itself performs no authentication.
     
     > [!NOTE]
-    > NTLM protocol offers weaker attack protection than Kerberos, so some organizations minimize usage of NTLM. As a result, access to Skype for Business Server 2015 might be restricted to internal or clients connected through a VPN or DirectAccess connection. 
+    > NTLM protocol offers weaker attack protection than Kerberos, so some organizations minimize usage of NTLM. As a result, access to Skype for Business Server might be restricted to internal or clients connected through a VPN or DirectAccess connection. 
   
 - **Digest protocol** for so-called anonymous users. Anonymous users are outside users who do not have recognized Active Directory credentials but who have been invited to an on-premises conference and possess a valid conference key. Digest authentication is not used for other client interactions.
     
-Skype for Business Server 2015 authentication consists of two phases:
+Skype for Business Server authentication consists of two phases:
   
 1. A security association is established between the client and the server.
     
@@ -39,7 +38,7 @@ Users with valid credentials issued by a federated partner are trusted but optio
   
 The ICE and TURN protocols also use the Digest challenge as described in the IETF TURN RFC.
   
-Client certificates provide an alternate way for users to be authenticated by Skype for Business Server 2015. Instead of providing a user name and password, users have a certificate and the private key corresponding to the certificate that is required to resolve a cryptographic challenge. (This certificate must have a subject name or subject alternative name that identifies the user and must be issued by a Root CA that is trusted by servers running Skype for Business Server 2015, be within the certificate's validity period, and not have been revoked.) To be authenticated, users only need to type in a personal identification number (PIN). Certificates are particularly useful for telephones, mobile phones, and other devices where it is difficult to enter a user name and password.
+Client certificates provide an alternate way for users to be authenticated by Skype for Business Server. Instead of providing a user name and password, users have a certificate and the private key corresponding to the certificate that is required to resolve a cryptographic challenge. (This certificate must have a subject name or subject alternative name that identifies the user and must be issued by a Root CA that is trusted by servers running Skype for Business Server, be within the certificate's validity period, and not have been revoked.) To be authenticated, users only need to type in a personal identification number (PIN). Certificates are particularly useful for telephones, mobile phones, and other devices where it is difficult to enter a user name and password.
   
 ### Cryptographic requirements due to ASP .NET 4.5 
 
