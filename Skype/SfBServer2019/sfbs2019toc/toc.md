@@ -3,7 +3,7 @@
 ## [What's new](../whats-new.md)
 ## [What's deprecated](../deprecated.md)
 
-## [Hybrid solutions](../hybrid/hybrid-solutions.md)
+## Hybrid solutions
 ### [Plan hybrid connectivity](../hybrid/plan-hybrid-connectivity.md)
 ### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity.md)
 #### [Configure Skype for Business hybrid](../hybrid/configure-federation-with-skype-for-business-online.md)
