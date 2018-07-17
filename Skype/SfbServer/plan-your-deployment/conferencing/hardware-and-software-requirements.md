@@ -27,7 +27,7 @@ For example, if you want to allow dial-in conferencing, you'll need to deploy a 
   
 ## Hardware and software requirements for Front End Servers
 
-Because web conferencing, A/V conferencing, dial-in conferencing, and IM conferencing are all collocated with the Front End Server, the server hardware and software requirements are the same as for the Front End Servers. For details about these requirements, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
+Because web conferencing, A/V conferencing, dial-in conferencing, and IM conferencing are all collocated with the Front End Server, the server hardware and software requirements are the same as for the Front End Servers. For details about these requirements, see [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). 
   
 ## Requirements for web conferencing
 

@@ -32,7 +32,7 @@ The following articles about how to install and configure Skype for Business Ser
   
 ||Content|Description|
 |:-----|:-----|:-----|
-|![Icon for documentation](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[Infrastructure requirements for Skype for Business Server 2019](../plan/environmental-requirements.md)  <br/> |Learn about server and environmental requirements for Skype for Business Server.  <br/> |
+|![Icon for documentation](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[System requirements for Skype for Business Server 2019](../plan/system-requirements.md)  <br/> |Learn about server and environmental requirements for Skype for Business Server.  <br/> |
 |![Icon for documentation](https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg)|[Topology Basics for Skype for Business Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |Learn about topology options and server collocation scenarios for Skype for Business Server.  <br/> |
 |![Numeric How To Icon](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)|[Install Skype for Business Server](../../SfbServer/deploy/install/install.md)<br/> |Learn how to install Skype for Business Server in various topologies, in both physical and virtual environments.  <br/> |
 |![Numeric How To Icon](https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg)| [Migration to Skype for Business Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |Learn how to migrate from previous versions of Skype for Business or Lync Server.  <br/> |
