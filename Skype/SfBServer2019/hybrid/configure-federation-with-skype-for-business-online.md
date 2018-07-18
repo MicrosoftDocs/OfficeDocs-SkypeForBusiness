@@ -18,7 +18,7 @@ description: "Summary: Learn how to configure interoperability between your on-p
 To configure Skype for Business hybrid, you need to:
 
 - [Configure federation](#Configure-your-on-premises-Edge-service-for-federation-with-Skype-for-Business-Online)
-- [Configure a shared Session Initiation Protocol (SIP) address space](#Configure-your-Skype-for-Business-Online-tenant for-a-shared-SIP-address-space)
+- [Configure a shared Session Initiation Protocol (SIP) address space(#Configure-your-Skype-for-Business-Online-tenant-for-a-shared-SIP-address-space)
 - [Configure server-to-server authentication if required](#Configure-authentication-if-required)
   
 ## Configure your on-premises Edge service for federation with Skype for Business Online
