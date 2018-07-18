@@ -20,9 +20,6 @@ Be aware that after moving your users to Teams:
  
 - Their meetings are migrated to Skype for Business Online, and their contacts are migrated to Teams. 
 - They can join Skype meetings through the Skype for Business rich client (users are not prompted for sign-in each time) or through the Skype Meetings App (requires a one-time download and sign-in). When a user clicks on a Skype for Business meeting link within Teams, the meeting will launch in the appropriate app.
- 
-
-    ![Meetings open in the appropriate app](../media/new-skype-or-teams-meeting.png)
 
 - On Mobile, your users will be able to join existing Skype for Business meetings using the native app only.
 
