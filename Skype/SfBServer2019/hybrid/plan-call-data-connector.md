@@ -62,7 +62,7 @@ The following requirements assume that you already have Skype for Business Serve
 
    For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](configure-hybrid-connectivity.md).
 
-- To configure Call Data Connector, you must autenticate to your Office 365 tenant and ensure that you the following roles enabled:
+- To configure Call Data Connector, you must authenticate to your Office 365 tenant and ensure that you the following roles enabled:
 
    - Skype for Business Server Administrator 
    - Office 365 Global Administrator 
