@@ -33,7 +33,7 @@ When you move a user to a Skype for Business Server 2019 pool, the data for the 
     
 3. Conferencing policies that allow anonymous participants have **Allow participants to invite anonymous users** selected in Skype for Business Server 2019 Control Panel and have **AllowAnonymousParticipantsInMeetings** set to **True** in the output from the **Get-CsConferencingPolicy** cmdlet in the Skype for Business Server Management Shell. 
     
-4. For details about configuring conferencing policy by using Skype for Business Server Management Shell, see 
-<!-- [Set-CsConferencingPolicy](../../lync-server-management-shell/lync-server-2013-cmdlets-by-category/set-csconferencingpolicy.md) in the Skype for Business Server Management Shell documentation.  -->
+<!-- 4. For details about configuring conferencing policy by using Skype for Business Server Management Shell, see 
+ [Set-CsConferencingPolicy](../../lync-server-management-shell/lync-server-2013-cmdlets-by-category/set-csconferencingpolicy.md) in the Skype for Business Server Management Shell documentation.  -->
     
 
