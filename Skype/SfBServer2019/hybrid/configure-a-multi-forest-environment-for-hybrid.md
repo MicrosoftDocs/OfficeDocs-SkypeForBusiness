@@ -35,8 +35,6 @@ For more information, please refer to [System requirements](../plan/system-requi
   
 ## User homing considerations
 
-Remove this section?  BJ
-
 Skype for Business users homed on premises can have Exchange homed on premises or online. Skype for Business Online users should use Exchange Online for an optimal experience; however, this is not required. Exchange on premises is not required to implement Skype for Business in either case.
   
 ## Configure forest trusts
