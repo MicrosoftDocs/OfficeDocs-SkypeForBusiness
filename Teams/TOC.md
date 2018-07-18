@@ -18,8 +18,8 @@
 ## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ## [Get tools to support a rollout of Teams](rollout-tools.md)
 ## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
-### Drive adoption
-#### [Create change management strategy](change-management-strategy.md)
+## Drive adoption
+### [Create change management strategy](change-management-strategy.md)
 <!-- ============================================================ -->
 
 
