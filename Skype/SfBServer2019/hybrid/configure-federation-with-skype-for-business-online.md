@@ -17,9 +17,9 @@ description: "Summary: Learn how to configure interoperability between your on-p
 
 To configure Skype for Business hybrid, you need to:
 
-- Configure federation.
-- Configure a shared Session Initiation Protocol (SIP) address space.
-- Configure authentication if required.
+- [Configure federation](#Configure-your-on-premises-Edge-service-for-federation-with-Skype-for-Business-Online)
+- [Configure a shared Session Initiation Protocol (SIP) address space](#Configure-your-Skype-for-Business-Online-tenant for-a-shared-SIP-address-space)
+- [Configure server-to-server authentication if required](#Configure-authentication-if-required)
   
 ## Configure your on-premises Edge service for federation with Skype for Business Online
 
@@ -70,7 +70,7 @@ Import-PSSession $CSSession -AllowClobber
 
 For more information about how to establish a remote PowerShell session with Skype for Business Online, and how to use the Skype for Business Online Connector module, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
-##Configure authentication if required
+##Configure server-to-server authentication if required
 
 Depending on the type of hybrid environment you are configuring, you may need to configure authentication.  For more information, see  [Manage server-to-server authentication in Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).
 

@@ -24,11 +24,11 @@ Read this topic to learn how to plan hybrid connectivity between Skype for Busin
 
 Hybrid solutions enable you to retain some on-premises control while also taking advantage of online services provided in the Microsoft cloud. With hybrid connectivity set up, and a variety of cloud services available to your online and on-premises users, you can choose to move your users to the cloud based on your schedule and business need.
 
-You might choose to get call control through Microsoft Phone System in the cloud, for example, while retaining your on-premises PSTN connectivity. Both your online and on-premises users can take advantage of cloud services, such as Cloud Voicemail. For more information about all Skype for Business and Teams hybrid solutions available to you, see Hybrid solutions.  
+For example, you might choose to get call control through Microsoft Phone System in the cloud while retaining your on-premises PSTN connectivity. You might also choose to take advantage of other cloud services, such as Cloud Voicemail and Call Data Connector. 
   
 This topic describes the infrastructure and system requirements you'll need to configure hybrid connectivity between your existing on-premises Skype for Business Server deployment--with users who were created in your on-premises Active Directory--and Skype for Business Online or Teams. 
     
-After you have read this topic and are ready to configure hybrid connectivity, see [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](configure-hybrid-connectivity.md). The configuration topics provide step-by-step guidance for setting up hybrid connectivity between your on-premises deployment and Skype for Business Online.
+After you have read this topic and are ready to configure hybrid connectivity, see [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md). The configuration topics provide step-by-step guidance for setting up hybrid connectivity between your on-premises deployment and Skype for Business Online or Teams.
   
 (For information about configuring your Lync Server 2013 or Lync Server 2010 deployment for hybrid, see [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
   
@@ -65,7 +65,7 @@ The on-premises Active Directory is authoritative, which means that you must do 
 ## Infrastructure requirements
 <a name="BKMK_Infrastructure"> </a>
 
-To implement hybrid connectivty between your on-premises environment and Office 365 communication services, you need to meet the following infrastructure requirements. 
+To implement hybrid connectivity between your on-premises environment and Office 365 communication services, you need to meet the following infrastructure requirements. 
   
 - A single on-premises deployment of Skype for Business Server or Lync Server that is deployed in a supported topology. See [Topology requirements](plan-hybrid-connectivity.md#BKMK_Topology) in this topic.
     
@@ -235,7 +235,7 @@ For more information about port and firewall planning for Edge Server, see [Edge
 ## User accounts and data
 <a name="BKMK_UserAccounts"> </a>
 
-In a hybrid deployment, any user that you want to home online must first be created in the on-premises deployment, so that the user account is created in Active Directory Domain Services. You can then move the user to Skype for Business Online, which will move the user's contact list.
+In a hybrid deployment, any user who you want to home online must first be created in the on-premises deployment, so that the user account is created in Active Directory Domain Services. You can then move the user to Skype for Business Online, which will move the user's contact list.
   
 When you synchronize user accounts between your on-premises deployment and online tenant using AAD Connect, you need to synchronize the AD accounts for all Skype for Business or Lync users in your organization, even if users are not moved to online. If you do not synchronize all users, communication between on-premises and online users in your organization may not work as expected.
   
