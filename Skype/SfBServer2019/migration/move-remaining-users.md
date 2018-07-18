@@ -25,7 +25,7 @@ When you move a user to a Skype for Business Server 2019 pool, the data for the 
 > [!NOTE]
 > Homing users on Skype for Business Server 2019 does not require that you deploy upgraded clients at the same time. New functionality will be available to users only when they have upgraded to the new client software. 
   
-### Post Migration Task
+### Post migration task
 
 1. After you move users, verify the conferencing policy that is assigned to them. 
     

@@ -14,7 +14,7 @@ description: "This topic guides you through the process of removing a Front End 
 
 This article guides you through the process of removing a Front End pool or a Standard Edition Front End Server. When you remove a Front End pool, you remove each Front End Server that belongs to the pool as a part of the pool removal process. When you remove a Standard Edition Front End Server, you must remove the SQL Store definition from Topology Builder.
   
-### To remove a Front End Server pool
+## To remove a Front End Server pool
 
 1. Open Topology Builder.
     
@@ -24,7 +24,7 @@ This article guides you through the process of removing a Front End pool or a St
     
 4. Publish the topology, check replication status, and then run the legacy Deployment Wizard as needed. 
     
-### To remove a Standard Edition Front End server
+## To remove a Standard Edition Front End server
 
 1. Open Topology Builder.
     

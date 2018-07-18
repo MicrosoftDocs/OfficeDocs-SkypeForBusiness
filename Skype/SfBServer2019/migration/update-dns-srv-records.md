@@ -16,7 +16,7 @@ To successfully complete this procedure, you should be logged on to the server o
   
 This topic describes how to update the Domain Name System (DNS) records after migrating to Skype for Business Server 2019. After all users have been moved to Skype for Business Server 2019, but before the legacy pool or Director is decommissioned, you must update the DNS SRV records in your internal DNS for every SIP domain. This procedure assumes that your internal DNS has zones for your SIP user domains.
   
-### To configure a DNS SRV record
+## To configure a DNS SRV record
 
 1. On the DNS server, click **Start**, click **Administrative Tools**, and then click **DNS**.
     
@@ -28,7 +28,7 @@ This topic describes how to update the Domain Name System (DNS) records after mi
     
 5. Click **OK**.
     
-### To verify that the FQDN of the Front End pool or Standard Edition server can be resolved
+## To verify that the FQDN of the Front End pool or Standard Edition server can be resolved
 
 1. Log on to a client computer in the domain.
     

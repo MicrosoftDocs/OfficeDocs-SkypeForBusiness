@@ -17,7 +17,7 @@ This topic highlights configuration settings you should be aware of before deplo
   
 As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown. 
   
-### Define an Edge Pool
+### To define an Edge Pool
 
 1. Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.
     

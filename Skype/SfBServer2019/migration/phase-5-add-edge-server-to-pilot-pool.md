@@ -14,7 +14,7 @@ description: "The topics in this section explain how to add a Skype for Business
 
 The topics in this section explain how to add a Skype for Business Server 2019 Edge Server to the pilot pool deployment. The topics provide configuration and verification guidance when running the Deploy New Edge pool wizard. 
   
-## In This Section
+## In this section
 
 - [Deploy pilot Edge Server](deploy-pilot-edge-server.md)
     

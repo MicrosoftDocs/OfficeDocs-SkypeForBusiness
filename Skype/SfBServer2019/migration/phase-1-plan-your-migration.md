@@ -14,7 +14,7 @@ description: "This section covers planning topics for migrating to Skype for Bus
 
 This section covers planning topics for migrating to Skype for Business Server 2019. 
   
-## In This Section
+## In this section
 
 - [User migration](user-migration.md)
     
