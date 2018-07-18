@@ -14,7 +14,7 @@ description: "Planning considerations for implementing hybrid connectivity betwe
 
 
 
-# Plan hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams
+# Plan hybrid connectivity between Skype for Business Server and Office 365
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
 
