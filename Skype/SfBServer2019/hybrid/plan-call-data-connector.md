@@ -58,17 +58,9 @@ Of course, you might want to keep some call quality data on premises. This might
 
 The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  For more information about deploying Skype for Business Server and supported topologies, see INSERT LINK HERE.
 
-- **Hybrid connectivity.**  If you already have Skype for Business Server deployed, and you want to enable Call Data Connector, you must ensure that you have hybrid connectivity set up between your on-premises and online environments.  This is sometimes called a split domain configuration. Hybrid connectivity requires the following:
+- Hybrid connectivity. If you already have Skype for Business Server deployed, and you want to enable Call Data Connector, you must ensure that you have hybrid connectivity set up between your on-premises and online environments. This is sometimes called a split domain configuration. 
 
-    - Azure Active Directory (AAD) Connect, which is used to synchronize your on-premises directory with Office 365. For more information, see Connect Active Directory with Azure Active Directory.
-
-    - An Office 365 tenant with Skype for Business Online enabled.  
-
-    - Federation enabled between your on-premises Skype for Business Server deployment and your Office 365 tenant. For more information, see Configure federation with Skype for Business Online.  
-
-    - A shared Session Initiation Protocol (SIP) address space.  A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. For more information, see Configure federation with Skype for Business Online. 
-
-    For more information, see Plan hybrid connectivity and Configure hybrid connectivity.
+   For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](configure-hybrid-connectivity.md).
 
 - To configure Call Data Connector, you must autenticate to your Office 365 tenant and ensure that you the following roles enabled:
 
