@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.collection: 
 description: "Overview of using Skype for Business Online telemetry tools to monitor an on-premises implementation in a hybrid scenario."
 ---
-<!-- PM William Looney  -->
+
 
 
 
@@ -22,7 +22,8 @@ description: "Overview of using Skype for Business Online telemetry tools to mon
 ## Overview
 This topic describes benefits, planning considerations, and requirements for implementing Skype for Business Server Call Data Connector.  For more information on configuring Call Data Connector, see [Configure Call Data Connector](configure-call-data-connector.md).
 
-**NOTE:  Call Quality Dashboard functionality is not available at beta release.**
+> [!NOTE]
+> At public preview release, only Call Analytics dashboard is available.
 
 Call Data Connector greatly simplifies call monitoring in a hybrid environment because you no longer need to use different sets of on-premises and online tools to monitor all of your users call quality.  Whether your users are homed on premises or online, you can choose to view call quality for your entire organization online.
 
@@ -46,7 +47,7 @@ The Call Analytics and CQD tools enable you to monitor the quality of calls and 
 
 - Call Quality Dashboard focuses on network performance and issues across an organization. Skype for Business administrators and network engineers use this tool to troubleshoot and optimize network performance.
 
-For more information on Call Analytics and Call Quality Dashboard, see INSERT LINK(S) HERE.
+For more information on Call Analytics and Call Quality Dashboard, see [Call Analytics and Call Quality Dashboard](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
 
 Of course, you might want to keep some call quality data on premises. This might be the case, for example, if you are using a third-party solution with customized reports and workflows.  Call Data Connector allows you to configure sending data to the online service while also keeping a copy of the data on your on-premises server, as shown in the following diagram:
 
@@ -55,21 +56,13 @@ Of course, you might want to keep some call quality data on premises. This might
 
 ## Requirements
 
-The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  For more information about deploying Skype for Business Server and supported topologies, see INSERT LINK HERE.
+The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  For more information about deploying Skype for Business Server and supported topologies, see [Topology Basics](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics).
 
-- **Hybrid connectivity.**  If you already have Skype for Business Server deployed, and you want to enable Call Data Connector, you must ensure that you have hybrid connectivity set up between your on-premises and online environments.  This is sometimes called a split domain configuration. Hybrid connectivity requires the following:
+- Hybrid connectivity. If you already have Skype for Business Server deployed, and you want to enable Call Data Connector, you must ensure that you have hybrid connectivity set up between your on-premises and online environments. This is sometimes called a split domain configuration. 
 
-    - Azure Active Directory (AAD) Connect, which is used to synchronize your on-premises directory with Office 365. For more information, see Connect Active Directory with Azure Active Directory.
+   For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](configure-hybrid-connectivity.md).
 
-    - An Office 365 tenant with Skype for Business Online enabled.  
-
-    - Federation enabled between your on-premises Skype for Business Server deployment and your Office 365 tenant. For more information, see Configure federation with Skype for Business Online.  
-
-    - A shared Session Initiation Protocol (SIP) address space.  A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. For more information, see Configure federation with Skype for Business Online. 
-
-    For more information, see Plan hybrid connectivity and Configure hybrid connectivity.
-
-- To configure Call Data Connector, you must autenticate to your Office 365 tenant and ensure that you the following roles enabled:
+- To configure Call Data Connector, you must authenticate to your Office 365 tenant and ensure that you the following roles enabled:
 
    - Skype for Business Server Administrator 
    - Office 365 Global Administrator 

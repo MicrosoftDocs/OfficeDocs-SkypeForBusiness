@@ -19,24 +19,17 @@ description: "Instructions for configuring Call Data Connector, which allows tel
 This article describes how to configure Call Data Connector--a single toolset that enables viewing Skype for Business Server Call Quality Data using Skype for Business Online Call Quality Dashboard (CQD) and Call Analytics (CA) tools. 
 
 > [!NOTE]
-> At public preview release, only Call Analytics dashboard will be available.
+> At public preview release, only Call Analytics dashboard is available.
 
 For more information about Call Data Connector benefits and pre-requisites, such as role requirements and setting up hybrid connectivity, see [Plan Call Data Connector](plan-call-data-connector.md).
 
 ## Enable Monitoring 
+
 You must configure Call Data Recording (CDR) and Quality of Experience (QoE) data collection, otherwise the Call Analytics and Call Quality Dashboards won’t get information to display. Before you Configure Call Data Connector, follow the steps provided in [Deploy monitoring in Skype for Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) to configure both CDR and QoE.
-<!--The enable monitoring section might be better placed in the planning topic. or it might belong in both topics. CR:  I think we should leave it here.  It is a configuratino task so I think it belongs here.-->
+
 
 ## Enable Call Data Connector
-<!--Once all the requirements are set up, you can run the Hybrid Setup Wizard in the Skype for Business Control Panel. If all the requirements are met, at the end of the wizard you  see a checkbox option to turn on Call Data Connector. Select the box labeled **Yes, Turn on**. 
 
-Once Call Data Connector is enabled, you can set or confirm specific Call Data Connector settings for scope the same way you can set CDR and QoE settings, which have their own tabs in the Control Panel.
-
-To do this from within the Skype for Business Server Control Panel, complete the following procedure:
-  
-1. Click **Monitoring and Archiving**.
-    
-2. On the **Call Detail Recording** tab, check the **Call Data Connector** box for each site you wish to monitor online, or uncheck sites as desired, and then click **Commit**.  -->
 To configure and enable Call Data Connector, you will use the following cmdlets:
 
 | Cmdlet| Description|
