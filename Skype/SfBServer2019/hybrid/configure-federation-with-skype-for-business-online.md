@@ -72,7 +72,7 @@ For more information about how to establish a remote PowerShell session with Sky
   
 ##Configure server-to-server authentication if required
 
-Depending on the type of hybrid environment you are configuring, you may need to configure authentication.  For more information, see  [Manage server-to-server authentication in Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).
+Depending on the type of hybrid environment you are configuring, you may need to configure server-to-server authentication.  For more information, see  [Manage server-to-server authentication in Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).
 
 
 ## See also
