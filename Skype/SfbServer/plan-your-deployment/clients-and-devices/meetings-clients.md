@@ -25,14 +25,14 @@ Once you've implemented Skype for Business Server, your organization's users wil
 Later on, those users may create meetings and invite users from outside the organization, and those meeting invitees may not have any version of the Skype for Business client. When those users click the URL for the meeting invite, the lack of a client will be detected and the invitee without a Skype for Business client will be asked to download and install a lightweight, meetings-only client so they can join the meeting.
   
 > [!NOTE]
-> The Skype for Business Web App and Skype Meetings App are only available when trying to log in to a meeting without having a Skype for Business. User help for these apps is at [https://aka.ms/smahelp](https://aka.ms/smahelp). 
+> The Skype for Business Web App and Skype Meetings App are only available when trying to log in to a meeting without having Skype for Business. User help for these apps is at [https://aka.ms/smahelp](https://aka.ms/smahelp). 
   
 > [!NOTE]
 > You can't pre-install either the Skype for Business Web App or Skype Meetings App, but [smart phone](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1) and [tablet](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2) users may be able to install inexpensive mobile clients they can use to attend meetings.
   
 By default, the server hosting the meeting will direct the user to download and install Skype for Business Web App to join the meeting. The Skype for Business Web App is stored on the Front End Server and gets sent to the meeting attendee. 
   
-Starting with Skype for Business Server CU5, Skype Meetings App is available as a replacement for Skype for Business Web App, but providing the Skype Meetings App requires the additional configuration described in [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). If Skype Meetings App is enabled, users will download the latest version of the app from the Office 365 Content Delivery Network (CDN) rather than from your Skype for Business server.
+For Skype for Business Server 2015, Skype Meetings App is available as a replacement for Skype for Business Web App beginning with CU5, but providing the Skype Meetings App requires the additional configuration described in [Enable Skype Meetings App to replace Skype for Business Web App (Optional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  If Skype Meetings App is enabled, users will download the latest version of the app from the Office 365 Content Delivery Network (CDN) rather than from your Skype for Business server. For Skype for Business Server 2019 Skype Meetings App is the only option.
   
 Skype Meetings App offers a simplified browser experience for downloading and installing the app and joining meetings, including one-click join for users of Internet Explorer. Skype Meetings App also has many improvements over theSkype for Business Web App for reliability and the meeting experience. 
   
@@ -49,7 +49,7 @@ To use the Skype for Business Web App, a user must have one of the following sup
 | Operating system | Edge | 32- and 64-bit Internet Explorer 11 or later | 32- and 64-bit Internet Explorer 10 or later | 32- and 64-bit Internet Explorer 9 or later | 32- and 64-bit Version of Firefox 12.X or later | 32- and 64-bit Version of Chrome 18.X or later |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Windows 10  <br/> |Yes  <br/> |Yes  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
-| Windows 8.1&#x2776; <br/> |N/A  <br/> |Yes  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
+| Windows 8.1 &#x2776; <br/> |N/A  <br/> |Yes  <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
 | Windows 8 (Intel based) &#x2776; <br/> |N/A  <br/> |N/A  <br/> |Yes  <br/> |N/A  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
 |Windows 7 with SP1 &#x2777; <br/> |N/A  <br/> |Yes  <br/> |No  <br/> |No  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
 |Windows Server 2008 R2 with SP1 &#x2777; <br/> |N/A  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes &#x2778; <br/> |
@@ -91,10 +91,10 @@ If the user is on a network not configured as described, many app features may o
 
 This table compares the Meetings features available to users of the Skype for Business client, Skype for Business Web App, Skype Meetings App, and Lync Web App. Lync Web App is listed for feature comparison purposes: a user would only be downloading and using Lync Web App if the meeting was hosted on a Lync 2013 server.
 
-| Feature/capability | Skype for Business 2016 client | Skype for Business on Mac client | Skype Meetings App | Skype for Business Web App | Lync Web App |
+| Feature/capability | Skype for Business 2016 or 2019 client | Skype for Business on Mac client | Skype Meetings App | Skype for Business Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Add computer audio  <br/> |&#x2714;|&#x2714;|&#x2714;(requires plug-in)  <br/> |&#x2714;(requires plug-in)  <br/> |&#x2714;(requires plug-in)  <br/> |
-|Add video  <br/> |&#x2714;|&#x2714;|&#x2714;(requires plug-in)  <br/> |&#x2714;(requires plug-in)  <br/> |&#x2714;(requires plug-in)  <br/> |
+|Add computer audio  <br/> |&#x2714;|&#x2714;|&#x2714; (requires plug-in)  <br/> |&#x2714; (requires plug-in)  <br/> |&#x2714; (requires plug-in)  <br/> |
+|Add video  <br/> |&#x2714;|&#x2714;|&#x2714; (requires plug-in)  <br/> |&#x2714; (requires plug-in)  <br/> |&#x2714; (requires plug-in)  <br/> |
 |Switch audio to a phone for authenticated participants  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Switch audio to a phone for guest participants  <br/> |&#x2714;|&#x2714;|&#x2714;|||
 |View multiparty video (gallery view)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|

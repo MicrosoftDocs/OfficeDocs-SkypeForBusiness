@@ -48,6 +48,23 @@ The Skype Meetings App and Skype for Business Web App support specific combinati
 
 If you plan to use the Skype for Business conferencing features, avoid using Active Directory Domain Services mandatory profiles to sign in to the Skype for Business client. Because mandatory profiles are read-only user profiles, the public key infrastructure (PKI) keys that are required for Skype for Business conferencing cannot be saved to the profile. 
   
+## System requirements for Skype for Business for Windows Phone
+ 
+ 
+Microsoft Skype for Business for Windows Phone provides instant messaging (IM), enhanced presence, and telephony for users in your organization who are connecting from a smartphone or a Windows Professional mobile device. Mobile devices enable users to extend the reach of Skype for Business. This topic describes planning considerations for Skype for Business for Windows Phone that include identifying prerequisites and technical requirements, required components, and deployment guidance.
+  
+### Skype for Business for Windows Phone Prerequisites
+
+Following are the Skype for Business for Windows Phone prerequisites.
+  
+- Windows Phone 8.1 or later.
+    
+- The Windows Phone device must have the latest updates available from Microsoft. For details, see the Windows Phone 8.1 section at [Windows Phone 8 update history](https://go.microsoft.com/fwlink/p/?LinkID=281961).
+    
+- The device must have 22 MB of available disk space.
+    
+- The user must have a voice and data plan from a carrier.
+
 
 ## See also
 

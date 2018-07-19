@@ -26,7 +26,7 @@ Some features available with Skype for Business Server 2019 are not available in
 The following tables show the features that are available with each client that works with Skype for Business Server 2019 or Skype for Business Online. You may also want to refer to [Mobile client feature comparison for Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) for smart phone and tablet client feature comparisons. The Client Access License or User Subscription License your organization purchases will also have an impact on which features are available to your users. Whether you deploy the Full or Basic client to users depends on the license or plan your organization chooses to buy. See the [Licensing Guide](https://products.office.com/en-us/skype-for-business/it-pros) for more details.
   
 > [!IMPORTANT]
-> Skype for Business Server 2019 and Skype for Business Online support the following previously released clients: Lync 2013, Skype for Business 2015, and Skype for Business 2016. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) and [Desktop client feature comparison for Skype for Business 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
+> Skype for Business Server 2019 and Skype for Business Online support the following previously released clients: Lync 2013, Skype for Business 2015, and Skype for Business 2016, as well as the Skype for Business 2019 client. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) and [Desktop client feature comparison for Skype for Business 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
   
   
 > [!NOTE]
@@ -37,7 +37,7 @@ The following tables show the features that are available with each client that 
 
 This table covers the Enhanced Presence features that extend beyond a simple indication of whether a user is online, offline, busy, etc. 
   
-|Feature/capability|Skype for Business 2015 or 2016 client|Skype for Business on Mac|Lync 2013 client|
+|Feature/capability|Skype for Business 2015, 2016, or 2019 client|Skype for Business on Mac|Lync 2013 client|
 |:-----|:-----|:-----|:-----|
 |Publish status  |&#x2714;|&#x2714; &#x2776; |&#x2714;| 
 |View status |&#x2714;|&#x2714;|&#x2714;| 
@@ -54,7 +54,7 @@ This table covers the Enhanced Presence features that extend beyond a simple ind
 This table covers the features relating to managing IM and Presence contacts. 
   
 
-|Feature/capability|Skype for Business 2015 or 2016 client|Skype for Business on Mac | Lync 2013 client | 
+|Feature/capability|Skype for Business 2015, 2016, or 2019 client|Skype for Business on Mac | Lync 2013 client | 
 |:-----|:-----|:-----|:-----|
 |Pre-populated Contacts list   |&#x2714;| | |
 |View and Modify Contacts list |&#x2714;|&#x2714;|&#x2714;| 
@@ -77,18 +77,16 @@ This table covers the features relating to managing IM and Presence contacts.
 
 This table covers features related to IM support.
 
-|Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Lync 2013 client | 
+|Feature/capability | Skype for Business 2015, 2016, or 2019 client | Skype for Business on Mac | Lync 2013 client | 
 |:-----|:-----|:-----|:-----|  
 |Initiate IM with or email to a contact  |&#x2714;|&#x2714;|&#x2714;|  
 |Navigate among multiple IM conversations/Track multiple conversations in a single tabbed window   |&#x2714;|&#x2714;|&#x2714;| 
 |Log IM conversations in Outlook  |&#x2714;|&#x2714; If server-side conversation history is turned on   |&#x2714;|   
-|Use prepared conversation templates||||   
 |Check spelling |&#x2714;|&#x2714;||   
 |Skill search (with SharePoint Server integration)  <br/> (On-premises Skype for Business Server and on-premises SharePoint 2013 are required for skill search.)  |&#x2714;||&#x2714;|
 |Persistent Chat (Group Chat) integration  <br/> (not available for Skype for Business Online)|&#x2714;||&#x2714;|  
 |Escalate a Persistent Chat room to a Skype for Business Meeting with one click  <br/> (not available for Skype for Business Online) |&#x2714;||&#x2714;| 
 |Inline pictures of sender and receiver in IM window |&#x2714;||&#x2714;| 
-|Send ink messages |||| 
 |Receive ink messages |&#x2714;||&#x2714;| 
 |Set IM messages as high importance |&#x2714;||&#x2714;|
    
@@ -150,7 +148,7 @@ This table covers features related to voice services support.
 > [!NOTE]
 > Skype for Business Voice (Telephony) features are limited to certain Skype for Business Online subscription plans. For details, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx). 
   
- | Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Lync 2013 client |  
+ | Feature/capability | Skype for Business 2015, 2016, or 2019 client | Skype for Business on Mac | Lync 2013 client |  
 |:-----|:-----|:-----|:-----| 
 |Initiate a call |&#x2714;|&#x2714;|&#x2714;|
 |Click to call a contact |&#x2714;|&#x2714;|&#x2714;|
@@ -166,7 +164,6 @@ This table covers features related to voice services support.
 |Missed call notification |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
 |Make calls on behalf of another contact (manager/delegate scenario) |&#x2714;|&#x2714;|&#x2714; &#x2776; |
 |Handle another's calls if configured as a delegate |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
-|Manage a high volumes of calls  |||| 
 |Call park |&#x2714;||&#x2714; &#x2776; |
 |Group call pickup |&#x2714;||&#x2714; &#x2776; |
 |Location-based routing |&#x2714;||&#x2714;| 
@@ -180,7 +177,7 @@ This table covers features related to voice services support.
 This table covers features related to support for external users homed on the PSTN.
   
 
-|Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Lync 2013 client |  
+|Feature/capability | Skype for Business 2015, 2016, or 2019 client | Skype for Business on Mac | Lync 2013 client |  
 |:-----|:-----|:-----|:-----|  
 |Initiate IM with a public contact |&#x2714;|&#x2714;|&#x2714;| 
 |Initiate IM with a federated contact |&#x2714;|&#x2714;|&#x2714;| 
@@ -191,7 +188,7 @@ This table covers features related to support for external users homed on the PS
 
 This table covers features related to support for recording meetings.
   
-| Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Lync 2013 client |   
+| Feature/capability | Skype for Business 2015, 2016, or 2019 client | Skype for Business on Mac | Lync 2013 client |   
 |:-----|:-----|:-----|:-----|  
 |Client-side recording of audio, video, application sharing, desktop sharing, and uploaded content |&#x2714; &#x2776; ||&#x2714; &#x2776; |
 |Client-side recording of file transfers, shared OneNote pages, and PowerPoint annotations| &#x2714; &#x2777; ||&#x2714; &#x2777; |
@@ -209,7 +206,7 @@ This table covers features requiring support for modern authentication.
 Modern authentication also requires a topology described in [Skype for Business topologies supported with Modern Authentication](../../SfbServer/plan-your-deployment/modern-authentication/topologies-supported.md).
   
 
- | Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Lync 2013 client | 
+ | Feature/capability | Skype for Business 2015, 2016, or 2019 client | Skype for Business on Mac | Lync 2013 client | 
 |:-----|:-----|:-----|:-----|  
 |Modern Authentication |&#x2714;|&#x2714;|&#x2714;|
 |Multi-factor Authentication|&#x2714;|&#x2714;|&#x2714;|
@@ -222,7 +219,7 @@ Modern authentication also requires a topology described in [Skype for Business 
 This table covers features related to support for archiving and logging functions.
   
 
- | Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Lync 2013 client |  
+ | Feature/capability | Skype for Business 2015, 2016, or 2019 client | Skype for Business on Mac | Lync 2013 client |  
 |:-----|:-----|:-----|:-----|  
 |Archiving of IM conversations in Outlook Conversation History|&#x2714; &#x2776; |&#x2714; If server-side conversation history is turned on  |&#x2714; &#x2776; | 
 |Client-side archiving of audio, video, application sharing, desktop sharing, and uploaded content  |&#x2714; &#x2776; ||&#x2714; &#x2776; |

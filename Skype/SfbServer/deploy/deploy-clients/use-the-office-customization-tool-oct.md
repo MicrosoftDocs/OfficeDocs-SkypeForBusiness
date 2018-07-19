@@ -19,7 +19,9 @@ The Office Customization Tool (OCT) is part of the Setup program and is the reco
   
 The OCT is part of setup and it is only used for volume licensed versions of the product. You run the OCT by typing  `setup.exe /admin` at the command line from the root of the network installation point that contains the Office source files. For example, use the following:
   
- `\\server\share\Office15\setup.exe /admin`
+ ```
+\\server\share\Office15\setup.exe /admin
+```
   
 Administrators use the OCT to create a setup customization .msp file and can customize the following areas:
   
@@ -31,6 +33,6 @@ Administrators use the OCT to create a setup customization .msp file and can cus
     
 - **Outlook** Used to customize a user's default Outlook profile, specify Exchange settings, add accounts, remove accounts and export settings, and specify Send\Receive groups.
     
-For information about the OCT, see [Use the OCT to customize Office 2013](https://docs.microsoft.com/en-us/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)). Note that this information also applies to Office 2016.
+For information about the OCT, see [Use the OCT to customize Office 2013](https://docs.microsoft.com/en-us/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)). Note that this information also applies to later versions of Office.
   
 

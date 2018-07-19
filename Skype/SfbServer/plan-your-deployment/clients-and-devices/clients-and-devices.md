@@ -20,11 +20,11 @@ description: "Summary: Review of the supported clients and apps for Skype for Bu
  
 **Summary:** Review of the supported clients and apps for Skype for Business.
   
-Today's workforce is constantly on the move. Employees need to communicate and collaborate whether working from the corporate office, at regional locations, in home offices, or on the road. Skype for Business Server 2015 supports these needs through a collection of client interfaces that you can deploy to your organization's users. Thoughtful planning ensures that employees get what they need and that Skype for Business is available to them wherever they happen to be. 
+Today's workforce is constantly on the move. Employees need to communicate and collaborate whether working from the corporate office, at regional locations, in home offices, or on the road. Skype for Business Server supports these needs through a collection of client interfaces that you can deploy to your organization's users. Thoughtful planning ensures that employees get what they need and that Skype for Business is available to them wherever they happen to be. 
   
 ## Available clients
 
-Skype for Business Server 2015 supports several types of clients, including computer-installed client software, web-based clients, and clients for mobile devices. Each is introduced in this section. If you've previously used a combination of Lync clients, note that there are unsupported [Legacy clients](clients-and-devices.md#Legacy) that are incompatible with Skype for Business. Updates take place regularly so check this topic periodically for the latest client information.
+Skype for Business Server supports several types of clients, including computer-installed client software, web-based clients, and clients for mobile devices. Each is introduced in this section. If you've previously used a combination of Lync clients, note that there are unsupported [Legacy clients](clients-and-devices.md#Legacy) that are incompatible with Skype for Business. Updates take place regularly so check this topic periodically for the latest client information.
   
 ### Skype for Business (2019) 
 <!--  ask Chuck -->
@@ -34,7 +34,7 @@ A free basic client supporting fewer features is also available. Both versions a
 
 ### Skype for Business 2016 
 
-Skype for Business 2016 is the recommended full-featured client for Skype for Business Server 2015. See [What's new in Skype for Business 2016](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) for a description of new features. Client feature support is detailed in the [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md), and user documentation is at [Skype for Business help](https://support.office.com/en-US/Skype-for-business). This client is included when a user installs Office 365.
+Skype for Business 2016 is the recommended full-featured client for Skype for Business Server. See [What's new in Skype for Business 2016](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) for a description of new features. Client feature support is detailed in the [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md), and user documentation is at [Skype for Business help](https://support.office.com/en-US/Skype-for-business). This client is included when a user installs Office 365.
   
 A free basic client supporting fewer features is also available. Both versions are available for download at [Download Skype for Business across all your devices](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). The differences between Full and Basic clients are described in the [Basic client limitations](desktop-feature-comparison.md#Full-Basic) section.
   
