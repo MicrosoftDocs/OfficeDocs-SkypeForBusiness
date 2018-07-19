@@ -1,5 +1,5 @@
 ---
-title: Understand coexistence and interoperability of Skype for Business and Microsoft Teams - Microsoft Teams
+title: Understand coexistence and interoperability of Skype for Business and Microsoft Teams
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
