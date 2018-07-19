@@ -3,7 +3,6 @@ title: "Add Archiving Server File Store"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-5
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
