@@ -82,13 +82,11 @@ This table covers features related to IM support.
 |Initiate IM with or email to a contact  |&#x2714;|&#x2714;|&#x2714;|  
 |Navigate among multiple IM conversations/Track multiple conversations in a single tabbed window   |&#x2714;|&#x2714;|&#x2714;| 
 |Log IM conversations in Outlook  |&#x2714;|&#x2714; If server-side conversation history is turned on   |&#x2714;|   
-|Use prepared conversation templates||||   
 |Check spelling |&#x2714;|&#x2714;||   
 |Skill search (with SharePoint Server integration)  <br/> (On-premises Skype for Business Server and on-premises SharePoint 2013 are required for skill search.)  |&#x2714;||&#x2714;|
 |Persistent Chat (Group Chat) integration  <br/> (not available for Skype for Business Online)|&#x2714;||&#x2714;|  
 |Escalate a Persistent Chat room to a Skype for Business Meeting with one click  <br/> (not available for Skype for Business Online) |&#x2714;||&#x2714;| 
 |Inline pictures of sender and receiver in IM window |&#x2714;||&#x2714;| 
-|Send ink messages |||| 
 |Receive ink messages |&#x2714;||&#x2714;| 
 |Set IM messages as high importance |&#x2714;||&#x2714;|
    
@@ -166,7 +164,6 @@ This table covers features related to voice services support.
 |Missed call notification |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
 |Make calls on behalf of another contact (manager/delegate scenario) |&#x2714;|&#x2714;|&#x2714; &#x2776; |
 |Handle another's calls if configured as a delegate |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
-|Manage a high volumes of calls  |||| 
 |Call park |&#x2714;||&#x2714; &#x2776; |
 |Group call pickup |&#x2714;||&#x2714; &#x2776; |
 |Location-based routing |&#x2714;||&#x2714;| 
