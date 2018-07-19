@@ -65,8 +65,11 @@ Do not sync the UPNs between the forests. We found during testing that we needed
     
 ## Create an Office 365 tenant
 
+<<<<<<< HEAD
 Remove this section:
 
+=======
+>>>>>>> 2784a7bf51e5a1893d96f90570d1a7b259a93810
 You will next need to provision an Office 365 tenant to use with your deployment. For more information, please see [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](https://docs.microsoft.com/en-us/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## Configure Active Directory Federation Services
@@ -126,11 +129,11 @@ AAD Connect should be installed using the defaults, except for the following:
     
 7.  Finish the wizard and perform the necessary validations.
     
-## Configure Hybrid mode for Skype for Business Server
+## Configure hybrid connectivity for Skype for Business Server
 
-Follow the best practices for configuring Skype for Business hybrid. For more planning information, see [Plan your hybrid deployment for Skype for Business Server 2015](https://technet.microsoft.com/en-us/library/jj205403.aspx), and for configuration information see [Configure hybrid with Skype for Business Online](https://technet.microsoft.com/en-us/library/jj204669.aspx). 
+Follow the best practices for configuring Skype for Business hybrid. For more information information, see [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity). 
   
-## Configure hybrid mode for Exchange Server
+## Configure hybrid connectivity for Exchange Server
 
 If necessary, follow the best practices for configuring Exchange hybrid. For more information, see [Exchange Server Hybrid Deployments](https://technet.microsoft.com/en-us/library/jj200581%28v=exchg.150%29.aspx). 
   

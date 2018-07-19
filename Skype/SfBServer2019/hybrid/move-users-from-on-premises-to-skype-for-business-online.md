@@ -21,7 +21,7 @@ Before actually moving the user to Office 365, you should first confirm that the
   
 ### To confirm that an on-premises user account has been synchronized with Office 365
 
-1. Using an tenant admin account, open the Office 365 admin center for your tenant.  Tenant admin accounts should be granted both the Skype for Business Admin Role and the User Management Role (or the Global Admin role) to perform this function in Office 365
+1. Using a tenant admin account, open the Office 365 admin center for your tenant.  Tenant admin accounts should be granted both the Skype for Business Admin Role and the User Management Role (or the Global Admin role) to perform this function in Office 365.
     
 2. On the left navigation pane, click **Users** and then **Active Users**.
     
@@ -35,15 +35,15 @@ To assign the license in Office 365, see [Assign licenses for Office 365 for Bus
   
 ## Migrate user settings to Skype for Business Online
 
-Before you start migrating users to Skype for Business Online, you should backup the user data associated with the accounts to be moved. Not all user data is moved with the user account. For information, see [Backup and Restoration Requirements: Data](http://technet.microsoft.com/library/ecfb8e4d-cb4f-476d-9772-4486bd683c04.aspx).
+Before you migrate users to Skype for Business Online, you should back up the user data associated with the accounts to be moved. Not all user data is moved with the user account. For information, see [Backup and Restoration Requirements: Data](http://technet.microsoft.com/library/ecfb8e4d-cb4f-476d-9772-4486bd683c04.aspx).
   
 User settings are moved with the user account. Some on-premises settings are not moved with the user account.
   
 ## Move pilot users to Skype for Business Online
 
-Before you begin to move users to Skype for Business Online, you may want to move a few pilot users to confirm that your environment is correctly configured. You can then verify that the features and services function as expected before attempting to move additional users.
+Before you move users to Skype for Business Online, you may want to move a few pilot users to confirm that your environment is correctly configured. You can then verify that the features and services function as expected before attempting to move additional users.
   
-To move an on-premises user to your Skype for Business Online tenant, run the following cmdlets in the Skype for Business Server Management Shell, using the administrator credentials for your Microsoft Office 365 tenant. Replace "username@contoso.com" with the information for the user that you want to move.
+To move an on-premises user to your Skype for Business Online tenant, run the following cmdlets in the Skype for Business Server Management Shell, using the administrator credentials for your Microsoft Office 365 tenant. Replace "username@contoso.com" with the information for the user that you want to move:
   
 ```
 $creds=Get-Credential
@@ -55,13 +55,13 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Crede
 
 ## Move users to Skype for Business Online
 
-You can move multiple users by using the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) cmdlet with the -Filter parameter to select the users with a specific property assigned to the user accounts, such as RegistrarPool. You can then pipe the returned users to the [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps) cmdlet, as shown in the following example.
+You can move multiple users by using the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) cmdlet with the -Filter parameter to select the users with a specific property assigned to the user accounts, such as RegistrarPool. You can then pipe the returned users to the [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps) cmdlet, as shown in the following example:
   
 ```
 Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds 
 ```
 
-You can also use the -OU parameter to retrieve all users in the specified OU, as shown in the following example.
+You can also use the -OU parameter to retrieve all users in the specified OU, as shown in the following example:
   
 ```
 Get-CsUser -OU "cn=hybridusers,cn=contoso.." | Move-CsUser -Target sipfed.online.lync.com -Credentials $creds 
