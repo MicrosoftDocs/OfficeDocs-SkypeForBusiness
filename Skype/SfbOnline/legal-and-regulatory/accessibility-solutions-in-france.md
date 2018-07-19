@@ -74,5 +74,5 @@ L’objectif de Microsoft est d’offrir la meilleure expérience possible à to
 Pour aider ses clients à évaluer l’accessibilité, Microsoft propose une documentation qui décrit comment Skype Entreprise et Microsoft Teams se conforme à la norme européenne EN 301 549 relative aux exigences d'accessibilité applicables aux marchés publics des produits et services liés aux TIC (Technologies de l’Information et de la Communication) en Europe. Des copies des rapports EN 301 549 sont jointes en annexes.  
   
  ## Related topics
-[Accessibility Declaration of Conformance for Skype for Business Online in France](accessibility-declaration-of-conformance-in-france.md)
+[Accessibility Declaration of Conformance in France for teams](https://docs.microsoft.com/MicrosoftTeams/accessibility-declaration-of-conformance-in-france-for-teams)
 

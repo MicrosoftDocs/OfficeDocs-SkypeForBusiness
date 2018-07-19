@@ -15,12 +15,31 @@ f1keywords: None
 ms.custom:
 - Legal
 hideEdit: true
-description: "This is content that must be published to meet requirements for accessibility, compliance, and regulatory for Microsoft Teams in France. "
+description: "Microsoft Teams est l’outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils dont votre équipe a besoin pour être plus impliquée et efficace. "
 ---
 
 # EN 301 549 Déclaration de conformité en matière d’accessibilité
 
-Microsoft Teams est l’outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils dont votre équipe a besoin pour être plus impliquée et efficace.
+Date : 1er juin 2018
+
+Nom du produit : Microsoft Teams
+
+Description du produit : Microsoft Teams est l’outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils dont votre équipe a besoin pour être plus impliquée et efficace.
+
+Plate-forme : Win32
+
+Version du produit : 1.1.84.22103
+
+Site web : Microsoft Teams
+
+Contact pour plus d'informations : Microsoft Teams Support
+
+Site web en matière d'accessibilité : Microsoft Accessibility
+
+Service de réponse aux questions d’utilisateurs en situation de handicap : eDAD
+
+Pour obtenir de l'aide sur ce rapport, veuillez nous envoyer un email.
+
 
 ## Section 1 Champ d’application
 
@@ -177,3 +196,7 @@ Pour en savoir plus sur les spécifications de compatibilité de produits de tec
 Le présent document n’est pas la norme EN 301 549 v 1.1.2 (2015-04) et ne doit pas être utilisé en remplacement de celle-ci. Les extraits de la norme EN 301 549 v 1.1.2 qu’il contient ne sont référencés que pour décrire la conformité de Microsoft avec certaines de ses dispositions. Un exemplaire complet de la norme EN 301 549 v 1.1.2 (2015-04) est disponible dans ce PDF émanant de l’European Telecommunications Standards Institute, du Comité Européen de Normalisation et du Comité Européen de Normalisation Électrotechnique.
 
 Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OU TACITE, DANS LE PRÉSENT DOCUMENT.
+
+## Related topics
+
+[Accessibility solutions in France](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)
