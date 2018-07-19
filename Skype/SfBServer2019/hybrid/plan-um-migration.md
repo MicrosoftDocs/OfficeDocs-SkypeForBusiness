@@ -24,31 +24,30 @@ With Exchange 2019 and Skype for Business 2019, we're making some changes to the
 
 Unified Messaging (UM) has been deprecated in Exchange 2019. This means that Exchange 2019 no longer offers the following features:
 
-- Voice mail
+- Voicemail
 - Auto attendant
 
 If you've deployed the UM role in Exchange 2013 or the UM service in Exchange 2016, and want to upgrade to Exchange 2019, you'll need to migrate your voicemail to the Microsoft Cloud Voicemail service in Office 365. If you want to migrate your voicemail to Cloud Voicemail, take a look at the [foo] section below.
 > [!IMPORTANT]
-> If users on your Exchange 2013 or Exchange 2016 servers have UM-enabled mailboxes, don't move them to Exchange 2019 before you upgrade your Skype for Business servers to Skype for Business 2019 to avoid a voice messaging outage.
+> If users on your Exchange 2013 or Exchange 2016 servers have UM-enabled mailboxes, don't move them to Exchange 2019 before you upgrade your Skype for Business servers to Skype for Business 2019 and move users to them to avoid a voice messaging outage.
 
 ### PBX support in Exchange 2019 and Skype for Business 2019
 
-Microsoft Cloud Voice Mail does not provide voice messaging functionality to Private Branch Exchange's (PBX's). If you are utilizing Exchange Server Unified Messaging for PBXs and want to upgrade to Exchange Server 2019, you'll need to adopt one of the three options listed in the blog post [New date for discontinuation of support for Session Border Controllers in Exchange Online Unified Messaging](https://blogs.technet.microsoft.com/exchange/2018/04/24/new-date-for-discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/) on the [Exchange Team Blog](https://blogs.technet.microsoft.com/exchange/).
+Cloud Voicemail doesn't provide voice messaging functionality to Private Branch Exchanges (PBX's). If you're using Exchange Server Unified Messaging for PBXs and want to upgrade to Exchange Server 2019, you'll need to adopt one of the three options listed in the blog post [New date for discontinuation of support for Session Border Controllers in Exchange Online Unified Messaging](https://blogs.technet.microsoft.com/exchange/2018/04/24/new-date-for-discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/) on the [Exchange Team Blog](https://blogs.technet.microsoft.com/exchange/).
 
 ### Exchange Online UM support in Skype for Business 2019
 
-With Skype for Business 2019, we're moving from Exchange Online UM to Cloud Voicemail. When a user is moved to a Skype for Business 2019 server, they'll automatically start using Cloud Voicemail when configured for hosted voicemail. If you are currently using Exchange Online UM, you don't need to do anything other than move a user to Skype for Business 2019 to start using Cloud Voicemail, there are some changes to functionality you need to be aware of:
+With Skype for Business 2019, we're moving from Exchange Online UM to Cloud Voicemail. When a user is moved to a Skype for Business 2019 server, they'll automatically start using Cloud Voicemail when configured for hosted voicemail. If you're currently using Exchange Online UM, you don't need to do anything other than move a user to Skype for Business 2019 to start using Cloud Voicemail. However, there are some changes to functionality you need to be aware of:
 
 - For Preview, Organizational Auto Attendant (the replacement for auto attendant in Exchange Online UM) isn't available. Organizational Auto Attendant will be available at GA.
 - User voicemail settings in Outlook on the Web don't apply to Cloud Voicemail.
 
 ## On-premises UM migration scenarios
 
-At Preview, we're supporting the following scenarios with additional scenarios coming at GA. (we need to give more context here that these are migration scenarios...probably more descriptive of the list...it took me way to long to figure out what this meant!)
+At Preview, we're supporting the following scenarios that will enable you to migrate users both to Exchange 2019 and to Cloud Voicemail. At GA we'll support additional scenarios that'll let you migrate from additional versions of Exchange and Skype for Business server. We'll also provide additional features such as Organizational Auto Attendant.
 
 - Exchange 2013/Exchange 2016 and Skype for Business 2015 to Exchange 2019 and Skype for Business 2019
-- Exchange 2013/Exchange 2016 to Exchange 2019 with Skype for Business 2015
-- Skype for Business 2015 to Skype for Business 2019 with Exchange 2013/Exchange/2016
+- Skype for Business 2015 to Skype for Business 2019 with Exchange 2013/Exchange 2016
 
 The following scenarios require that no PBX or SBC configurations exist as part of your current deployment and assume that you have UM configured on your on-premises Exchange servers. Each of these solutions also assumes that you've decided to configure a hybrid deployment between your on-premises Skype for Business servers and Office 365. For more information about Skype for Business hybrid deployments, see [Skype for Business hybrid solutions](hybrid-solutions.md).
 
@@ -56,7 +55,14 @@ The following scenarios require that no PBX or SBC configurations exist as part 
 
 In this scenario, you want to migrate your existing Exchange 2013, Exchange 2016, and Skype for Business 2015 servers to Exchange 2019 and Skype for Business 2019.
 
-As mentioned earlier in this topic, Exchange 2019 no longer includes the UM service. This means that, for any mailboxes that you want to move to Exchange 2019, you need to use Cloud Voice Mail. When you set up Skype for Business 2019 and a hybrid deployment between it and Office 365, you can use Cloud Voicemail to replace these Exchange UM voicemail services.
+As mentioned earlier in this topic, Exchange 2019 no longer includes the UM service. This means that, for any mailboxes that you want to move to Exchange 2019, you need to use Cloud Voicemail. When you set up Skype for Business 2019 and a hybrid deployment between it and Office 365, Cloud Voicemail replaces these Exchange UM voicemail services.
+
+The order in which you move users to Exchange 2019 and Skype for Business 2019 is critical to ensuring that voicemail functionality remains available to all users. Where voicemail is processed is also determined by where the Exchange and Skype for Business mailboxes and users are located. Take a look at the following table to see which combinations of Exchange and Skype for Business are supported and where voicemail is processed.
+
+| Mailbox located on             | User located on Skype for Business 2015 | User located on Skype for Business 2019  |
+|--------------------------------|-----------------------------------------|------------------------------------------|
+| Exchange 2013/Exchange 2016    | Exchange UM                             | Cloud Voicemail                          |
+| Exchange 2019                  | Not supported                           | Cloud Voicemail                          |
 
 Keep the following things in mind before starting your migration:
 
@@ -76,10 +82,6 @@ Here are the high-level steps to complete this migration. For more information, 
 
     > [!IMPORTANT]
     > If you rely on an auto attendant, keep at least one Exchange 2013 or Exchange 2016 running and available.
-
-### Exchange 2013/Exchange 2016 to Exchange 2019 with Skype for Business 2015
-
-In this scenario, you want to migrate your existing Exchange 2013 and Exchange 2016 servers to Exchange 2019 but remain on Skype for Business 2015.
 
 ### Skype for Business 2015 to Skype for Business 2019 with Exchange 2013/Exchange/2016
 
