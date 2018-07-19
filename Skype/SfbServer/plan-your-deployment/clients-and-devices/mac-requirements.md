@@ -23,10 +23,11 @@ The [Skype for Business on the Mac Client](https://products.office.com/en-us/sky
   
 ## Hardware and software requirements for Skype for Business on the Mac
 
-The Skype for Business on the Mac client requires Mac OS X El Capitan and higher, and uses at least 100MB of disk space. We support the use of all built-in audio and video devices. External devices must be on the [list of qualified devices for use with Lync](https://go.microsoft.com/fwlink/p/?LinkId=798223). 
+The Skype for Business on the Mac client requires Mac OS X El Capitan and higher, and uses at least 100MB of disk space. We support the use of all built-in audio and video devices. External devices must be in the [Skype for Business Solutions Catalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog). 
   
 > [!NOTE]
-> This list is preliminary and some devices may be qualified for Lync, but not supported on Skype for Business on the Mac. > Refer to the [System requirements](https://products.office.com/en-us/office-system-requirements) for the minimum hardware required.
+> This list is preliminary and some devices may be qualified for Lync, but not supported on Skype for Business on the Mac. 
+> Refer to the [System requirements](https://products.office.com/en-us/office-system-requirements) for the minimum hardware required.
   
 ### Legacy Mac clients
 
@@ -43,11 +44,11 @@ These clients are not supported by Skype for Business Server 2019.
 
 The Skype for Business on the Mac client leverages both the Unified Communications Management Platform (UCMP) as well as the Unified Communications Web API (UCWA) that our mobility clients use.
   
-The client has the same requirements as our mobility clients in that you must have an Access Edge Server and Reverse Proxy deployed in a supported configuration. In addition, your account must be enabled for Mobility.
+The client has the same requirements as our mobility clients in that you must have an Access Edge Server and Reverse Proxy deployed in a supported configuration. 
   
 ### Authentication
 
-The Skype for Business on the Mac client supports NTLM authentication. Additionally, the client supports Microsoft Modern Authentication and Multi-Factor Authentication when deployed and enabled.
+The Skype for Business on the Mac client supports Cert-based authentication, Microsoft Modern Authentication, and Multi-Factor Authentication when deployed and enabled.
   
 > [!NOTE]
 > Due to a current limitation, the user's Exchange credentials must be the same as their Skype for Business credentials. 

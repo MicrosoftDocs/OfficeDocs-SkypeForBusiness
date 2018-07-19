@@ -18,8 +18,7 @@ description: "Summary: Review the client system device requirements while planni
 
 # System requirements for Skype for Business for Windows Phone
  
-**Summary:** Review the client system device requirements while planning for Skype for Business Server.
-  
+ 
 Microsoft Skype for Business for Windows Phone provides instant messaging (IM), enhanced presence, and telephony for users in your organization who are connecting from a smartphone or a Windows Professional mobile device. Mobile devices enable users to extend the reach of Skype for Business. This topic describes planning considerations for Skype for Business for Windows Phone that include identifying prerequisites and technical requirements, required components, and deployment guidance.
   
 ## Skype for Business for Windows Phone Prerequisites

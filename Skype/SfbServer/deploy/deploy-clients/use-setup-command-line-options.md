@@ -1,5 +1,5 @@
 ---
-title: "Use Setup command-line options in Skype for Business Server"
+title: "Use Setup command-line options with Skype for Business clients"
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
@@ -11,7 +11,7 @@ ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: "Summary: Learn about Setup.exe command line operations in Office setup."
 ---
 
-# Use Setup command-line options in Skype for Business Server
+# Use Setup command-line options with Skype for Business clients
  
 **Summary:** Learn about Setup.exe command line operations in Office setup.
   
