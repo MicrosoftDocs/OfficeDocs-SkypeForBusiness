@@ -1,5 +1,5 @@
 ---
-title: "Configure Smart contacts list in Skype for Business Server"
+title: "Configure Smart contacts list in Skype for Business clients"
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
@@ -11,7 +11,7 @@ ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: "Summary: Learn how to turn on the Smart contacts list feature in the Skype for Business client."
 ---
 
-# Configure Smart contacts list in Skype for Business Server
+# Configure Smart contacts list in Skype for Business clients
  
 **Summary:** Learn how to turn on the Smart contacts list feature in the Skype for Business client.
   

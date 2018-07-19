@@ -26,7 +26,7 @@ When all customized audio files have been copied to the Skype for Business Serve
   
 The Call Park application settings include the pickup timeout threshold, enabling or disabling music on hold, the maximum call pickup attempts, and the timeout request. You must manage Call Park application settings by using the Skype for Business Server Management Shell to run the **Set-CsCpsConfiguration** cmdlet. You cannot manage the Call Park application settings using the Skype for Business Server Control Panel. 
   
-### Reconfigure the Call Park Service Settings
+## Reconfigure the Call Park Service Settings
 
 1. From the Skype for Business Server 2019 Front End Server, open the Skype for Business Server Management Shell.
     
@@ -42,7 +42,7 @@ The Call Park application settings include the pickup timeout threshold, enablin
 
 To reassign all Call Park orbit ranges from the legacy pool to the Skype for Business Server 2019 pool, you can use either the Skype for Business Server Control Panel or the Skype for Business Server Management Shell. 
   
-### Reassign all Call Park Orbit Ranges using Skype for Business Server Control Panel
+## Reassign all Call Park Orbit Ranges using Skype for Business Server Control Panel
 
 1. Open Skype for Business Server Control Panel.
     
@@ -54,7 +54,7 @@ To reassign all Call Park orbit ranges from the legacy pool to the Skype for Bus
     
 5. Select **Commit** to save the changes. 
     
-### Reassign all Call Park Orbit Ranges using Skype for Business Server Management Shell
+## Reassign all Call Park Orbit Ranges using Skype for Business Server Management Shell
 
 1. Open Skype for Business Server Management Shell.
     

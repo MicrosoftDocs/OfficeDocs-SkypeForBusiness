@@ -115,7 +115,7 @@ This example is using a DNS load balanced FQDN named pool.contoso.local. This po
     
 5. If you are supporting legacy clients and created the SRV record, verify it by typing **set type=srv** at the **nslookup** prompt, and then press Enter.
     
-6. Type **_sipinternaltls._tcp. *domain* ** (for example, _sipinternaltls._tcp.contoso.local), and then press Enter.
+6. Type **_sipinternaltls._tcp. *domain*** (for example, _sipinternaltls._tcp.contoso.local), and then press Enter.
     
 7. The expected output should be similar to that shown in the figure. Note that not all DNS records are shown in the sample output, but all records should be verified. 
     

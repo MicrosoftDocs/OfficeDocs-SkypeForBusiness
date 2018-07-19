@@ -22,7 +22,7 @@ Some de-emphasised features are included in Skype for Business Server 2019 for c
 
 ## Features deprecated in Skype for Business Server 2019 
 
-The following features and functionality have been deprecated in Skype for Business Server 2019.
+        The following features and functionality have been deprecated in Skype for Business Server 2019.
 
 ### XMPP Gateways for Skype for Business Server
 
@@ -54,11 +54,7 @@ For more details, see [Plan for Mobility for Skype for Business Server](../SfbSe
 ## Tools
 
 The following tools will not be available for use at the initial release of Skype for Business Server 2019:
-<!-- - KHI Resources
-- Statistics Manager for Skype for Business Server 2019  
-- Networking Guide: CQM Scorecard, Call Quality Methodology, KHI
-- Centralized Logging Service in Skype for Business 2019
-- Manage Skype for Business Server 2015 using SCOM Management pack  -->
+
 - Skype for Business Server Capacity Planning Calculator
 - Skype for Business Server Debugging Tools
 - Skype for Business Server Resource Kit Tools (some tools will be removed)

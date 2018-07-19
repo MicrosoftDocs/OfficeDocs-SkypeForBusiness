@@ -29,21 +29,21 @@ The following table describes the Skype for Business features that are supported
 
 |**Feature**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015, and 2016**|**Office 2016 for Mac** &#x2776; |
 |:-----|:-----|:-----|:-----|
-|**Outlook features** <br/> ||||
-|Customize Outlook meeting invitations (add logo, help URL, disclaimer, footer text)  <br/> |No  <br/> |Yes  <br/> |No  <br/> |
-|Configure meeting option to mute attendee audio and video by default  <br/> |No  <br/> |Yes  <br/> |No  <br/> |
-|Unified Contact Store for managing Contacts lists across Office and Skype for Business  <br/> |No  <br/> |Yes (requires Exchange 2013 or later)  <br/> |Yes  <br/> |
-|High-resolution profile pictures  <br/> |No  <br/> |Yes (requires Exchange 2013 or later)  <br/> |Yes  <br/> |
-|Presence status in the Microsoft Outlook From, To, and Cc fields  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Reply with IM or call from the availability menu  <br/> |Yes (from the contact card)  <br/> |Yes (from the contact card)  <br/> |Yes (from the contact card)  <br/> |
-|Presence status in a meeting request on the Scheduling Assistant tab  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
-|Reply with IM or call from the toolbar or ribbon in a received email message  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|**Other Office apps** <br/> ||||
-|OneNote shared notes  <br/> |No  <br/> |Yes  <br/> |No  <br/> |
-|Setup integrated into the Office setup program  <br/> |No  <br/> |Yes  <br/> |No  <br/> |
-|PowerPoint presentation content  <br/> |Yes  <br/> |Yes  <br/> (VBSS also available)  <br/> |Yes  <br/> |
-|IM and presence in Microsoft Word and Microsoft Excel files (smart tags enabled)  <br/> |Microsoft Word only  <br/> |Microsoft Word only  <br/> |No  <br/> |
-|IM and presence in Microsoft SharePoint sites (Outlook must be installed)  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
+|**Outlook features** ||||
+|Customize Outlook meeting invitations (add logo, help URL, disclaimer, footer text)  |No  |Yes   |Yes|
+|Configure meeting option to mute attendee audio and video by default    |No    |Yes    |No    |
+|Unified Contact Store for managing Contacts lists across Office and Skype for Business    |No    |Yes (requires Exchange 2013 or later)    |Yes    |
+|High-resolution profile pictures    |No    |Yes (requires Exchange 2013 or later)    |Yes    |
+|Presence status in the Microsoft Outlook From, To, and Cc fields    |Yes    |Yes    |Yes    |
+|Reply with IM or call from the availability menu    |Yes (from the contact card)    |Yes (from the contact card)    |Yes (from the contact card)    |
+|Presence status in a meeting request on the Scheduling Assistant tab    |Yes    |Yes    |No    |
+|Reply with IM or call from the toolbar or ribbon in a received email message    |Yes    |Yes    |Yes    |
+|**Other Office apps**   ||||
+|OneNote shared notes    |No    |Yes    |No    |
+|Setup integrated into the Office setup program    |No    |Yes    |No    |
+|PowerPoint presentation content    |Yes    |Yes    (VBSS also available)    |Yes    |
+|IM and presence in Microsoft Word and Microsoft Excel files (smart tags enabled)    |Microsoft Word only    |Microsoft Word only    |No    |
+|IM and presence in Microsoft SharePoint sites (Outlook must be installed)    |Yes    |Yes    |No    |
    
 &#x2776; - Assumes you have installed and are currently running a Skype for Business on Mac client or the Lync 2011 for Mac client.
   
@@ -55,8 +55,8 @@ The following table describes Skype for Business support for various versions of
 
 |**Exchange Server version**|**Skype for Business support**|
 |:-----|:-----|
-|Exchange Server 2019  <br/>(Skype for Business Server 2019 only) |Same as Exchange Server 2013 support  <br/> |
-|Exchange Server 2016  <br/> |Same as Exchange Server 2013 support  <br/> |
+|Exchange Server 2019   (Skype for Business Server 2019 only) |Same as Exchange Server 2013 support    |
+|Exchange Server 2016    |Same as Exchange Server 2013 support  <br/> |
 |Exchange Server 2013  <br/> |Same as Exchange Server 2010 support, with the addition of  <br/>&bull;&nbsp;&nbsp;Unified Contact Store  <br/>&bull;&nbsp;&nbsp;High-resolution pictures  <br/>&bull;&nbsp;&nbsp;Archiving integration  <br/> **Note:** For details, see [Integrate Skype for Business Server with Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
 |Exchange Server 2010  <br/>(Skype for Business Server 2015 only) |The following features are available only through EWS:  <br/>&bull;&nbsp;&nbsp;Read or delete items in the Conversation History folder  <br/>&bull;&nbsp;&nbsp;Read or delete voice mail items  <br/>&bull;&nbsp;&nbsp;Display extended free/busy information and meeting subject and location  <br/>&bull;&nbsp;&nbsp;Exchange contact sync  <br/> Public folders are optional in Exchange Server 2010.  <br/> |
    

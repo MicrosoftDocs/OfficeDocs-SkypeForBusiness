@@ -3,7 +3,6 @@ title: "Select File Type Extensions"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -22,6 +21,6 @@ If you do not see the extension for a file type that you want to select listed i
   
 After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
   
 

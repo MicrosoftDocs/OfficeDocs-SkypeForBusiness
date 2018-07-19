@@ -16,7 +16,7 @@ After deploying Skype for Business Server 2019, you need to configure a federati
   
 To enable the Skype for Business Server 2019 site to use the Director and Edge Server of the legacy deployment, use Topology Builder to associate the legacy Edge pool.
   
-## To associate the legacy Edge pool by using Topology Builder
+### To associate the legacy Edge pool by using Topology Builder
 
 1. Open Topology Builder. 
     

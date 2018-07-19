@@ -22,7 +22,7 @@ Before deploying Skype for Business Server 2019 in a coexistence state, you need
     
 - Verifying XMPP services and federated partners
     
-### Verify that legacy services are started
+## Verify that legacy services are started
 
 1. From the legacy Front End Server, navigate to the Administrative Tools\Services applet.
     
@@ -30,7 +30,7 @@ Before deploying Skype for Business Server 2019 in a coexistence state, you need
     
      ![List of services running on Front End Server](../media/migration_lyncserver_config_w14_services.jpg)
   
-### Review the legacy topology in Skype for Business Server Control Panel
+## Review the legacy topology in Skype for Business Server Control Panel
 
 1. Log on to the Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.
     
@@ -40,7 +40,7 @@ Before deploying Skype for Business Server 2019 in a coexistence state, you need
     
      ![Control Panel topology page](../media/migration_lyncserver_2010_topology.JPG)
   
-### Review legacy users in Skype for Business Server Control Panel
+## Review legacy users in Skype for Business Server Control Panel
 
 1. Open the Skype for Business Server Control Panel.
     
@@ -50,7 +50,7 @@ Before deploying Skype for Business Server 2019 in a coexistence state, you need
     
      ![Control Panel listing users](../media/migration_lyncserver_2010_allusers.JPG)
   
-### Verify legacy Edge and federation settings
+## Verify legacy Edge and federation settings
 
 1. Start Topology Builder.
     
@@ -72,7 +72,7 @@ Before deploying Skype for Business Server 2019 in a coexistence state, you need
     
      ![Topology Builder, Next hop selection](../media/migration_lyncserver_w14_nexthop.jpg)
   
-### Verify legacy XMPP federated partner Configuration
+## Verify legacy XMPP federated partner Configuration
 
 1. From the legacy XMPP server, navigate to the Administrative Tools\Services applet.
     

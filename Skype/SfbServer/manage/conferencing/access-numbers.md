@@ -116,7 +116,7 @@ You can modify dial-in access numbers by using Skype for Business Server Control
     
     You can choose up to four secondary languages for each dial-in access number. Users can select a secondary language before entering the conference ID when they dial in to a conference.
     
-12. To add a region for the dial-in access number, under **Associated regions**, click ** Add**, click one or more regions that are associated with the dial plans for this dial-in access number, and then click **OK**.
+12. To add a region for the dial-in access number, under **Associated regions**, click **Add**, click one or more regions that are associated with the dial plans for this dial-in access number, and then click **OK**.
     
 13. To delete a region from the dial-in access number, under **Associated regions**, click the region you want to delete, and then click **Remove**.
     
