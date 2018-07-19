@@ -1,21 +1,22 @@
 ---
-title: "Move File Store Data to a New File Store in Skype for Business Server"
+title: "Move File Store Data to a New File Store in Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/30/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
-description: "If you need to remove the file server that is currently acting as the file store for your Skype for Business Server deployment, or if you need to make other changes that would make the current file store unavailable, you first need to create a new share. Then you need to perform the following steps:"
+description: "If you need to remove the file server that is currently acting as the file store for your Skype for Business Server 2015 deployment, or if you need to make other changes that would make the current file store unavailable, you first need to create a new share. Then you need to perform the following steps:"
 ---
 
-# Move File Store Data to a New File Store in Skype for Business Server
+# Move File Store Data to a New File Store in Skype for Business Server 2015
  
-If you need to remove the file server that is currently acting as the file store for your Skype for Business Server deployment, or if you need to make other changes that would make the current file store unavailable, you first need to create a new share. Then you need to perform the following steps:
+If you need to remove the file server that is currently acting as the file store for your Skype for Business Server 2015 deployment, or if you need to make other changes that would make the current file store unavailable, you first need to create a new share. Then you need to perform the following steps:
   
-1. Shut down the Skype for Business Server services that use the file store that you plan to remove.
+1. Shut down the Skype for Business Server 2015 services that use the file store that you plan to remove.
     
 2. Define the file store in Topology Builder and publish the changes to make the new file store available to your deployment.
     
@@ -27,7 +28,7 @@ If you need to remove the file server that is currently acting as the file store
     
 ### To move file store data from one file store to a new file store
 
-1. Log on to a computer as a member of the RTCUniversersalServerAdmins or CsServerAdministrator group where the Skype for Business Server, Administrative Tools are installed.
+1. Log on to a computer as a member of the RTCUniversersalServerAdmins or CsServerAdministrator group where the Skype for Business Server 2015, Administrative Tools are installed.
     
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
@@ -37,7 +38,7 @@ If you need to remove the file server that is currently acting as the file store
     
 5. Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.
     
-6. Start Topology Builder: Click **Start**, click **All Programs**, click **Skype for Business Server**, and then click **Skype for Business Server Topology Builder**.
+6. Start Topology Builder: Click **Start**, click **All Programs**, click **Skype for Business Server 2015**, and then click **Skype for Business Server 2015Topology Builder**.
     
 7. Select a server or pool that uses the file store, and do the following:
     

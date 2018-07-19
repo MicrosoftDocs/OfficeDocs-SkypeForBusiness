@@ -21,6 +21,6 @@ Use the **Select Enterprise Voice Users** dialog box to find users who are enabl
 > [!NOTE]
 > To retrieve all users enabled for Enterprise Voice, do not type anything in the search box. You can also find all users whose display names or SIP addresses begin with a certain string. For example, to find all users whose SIP address begins with ken, type sip:ken. This will return users such as sip:kenmyer@fabrikam.com, sip:kenkwok.fabrikam.com, and sip:kenmallit@fabrikam.com. 
   
- 
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
   
 

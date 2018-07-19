@@ -3,6 +3,7 @@ title: "Create Database"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -19,7 +20,7 @@ Topology Builder provides a way to install databases on a SQL Server store. When
   
 ### Creating a Database
 
-1. Click the Skype for Business Server node and then click **Install Database**.
+1. Click the Skype for Business Server 2015 node and then click **Install Database**.
     
 2. In the **Install Databases** dialog box, on the **Create Database** page, select the fully qualified domain name (FQDN) of the SQL Server store where the new databases are to be created.
     

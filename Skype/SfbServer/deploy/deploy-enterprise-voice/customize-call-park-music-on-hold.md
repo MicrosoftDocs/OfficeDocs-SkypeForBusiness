@@ -1,9 +1,8 @@
 ---
-title: "Customize Call Park music on hold inSkype for Business 2015"
+title: "Customize Call Park music on hold inSkype for Business"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: "Customize the Call Park music on hold in Skype for Business Server Enterprise Voice."
 ---
 
-# Customize Call Park music on hold inSkype for Business 2015
+# Customize Call Park music on hold inSkype for Business
  
 Customize the Call Park music on hold in Skype for Business Server Enterprise Voice.
   

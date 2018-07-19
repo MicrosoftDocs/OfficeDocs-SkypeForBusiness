@@ -3,6 +3,7 @@ title: "Create Skype for Business Server Control Panel Administrators"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -10,12 +11,12 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
-description: "To grant access to the Skype for Business Server, do the following:"
+description: "To grant access to the Skype for Business Server 2015, do the following:"
 ---
 
 # Create Skype for Business Server Control Panel Administrators
  
-To grant access to the Skype for Business Server, do the following:
+To grant access to the Skype for Business Server 2015, do the following:
   
 1. Log on as a member of the Domain Admins group or the RTCUniversalServerAdmins group.
     

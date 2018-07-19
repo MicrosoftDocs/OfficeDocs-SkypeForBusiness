@@ -3,7 +3,6 @@ title: "Customize the Mac client experience in Skype for Business"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -52,7 +51,6 @@ To add several domains to the trusted domain list you would use the trustedDomai
   
 defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
   
-Guidance on the use of the defaults command can be found in [Apple's reference library](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/defaults.1.mdl). Although this page is old and no longer maintained, the information about the defaults command is unchanged and still applicable.
   
 ### Sample unedited settings
 

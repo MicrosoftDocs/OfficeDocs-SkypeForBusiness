@@ -3,6 +3,7 @@ title: "Topology Trusted Application"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -19,5 +20,5 @@ What do you want to do? Click the link to the task that you want to perform.
   
 - [View a List of Trusted Applications](http://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
     
- 
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
 

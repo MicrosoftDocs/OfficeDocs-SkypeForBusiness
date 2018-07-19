@@ -1,20 +1,19 @@
 ---
-title: "P2P Summary Subreport in Skype for Business Server 2015"
+title: "P2P Summary Subreport in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-description: "Summary: Learn about the P2P Summary Subreport in Skype for Business Server 2015."
+description: "Summary: Learn about the P2P Summary Subreport in Skype for Business Server."
 ---
 
-# P2P Summary Subreport in Skype for Business Server 2015
+# P2P Summary Subreport in Skype for Business Server
  
-**Summary:** Learn about the P2P Summary Subreport in Skype for Business Server 2015.
+**Summary:** Learn about the P2P Summary Subreport in Skype for Business Server.
   
 The P2P Summary Subreport provides an overall view of your failed peer-to-peer communication sessions.
   

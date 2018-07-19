@@ -3,6 +3,7 @@ title: "Select Allowed Members"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -27,7 +28,7 @@ You can perform the following tasks on the **Select Allowed Members** page:
     
 - [New Persistent Chat Server Features](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
     
- 
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
   
 ## To configure categories for chat rooms
 

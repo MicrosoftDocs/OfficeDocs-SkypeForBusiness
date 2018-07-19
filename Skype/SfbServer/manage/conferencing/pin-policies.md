@@ -1,20 +1,19 @@
 ---
-title: "Manage PIN policies for dial-in conferencing in Skype for Business Server 2015"
+title: "Manage PIN policies for dial-in conferencing in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
-description: "Summary: Learn how to manage PIN policies for dial-in conferencing in Skype for Business Server 2015."
+description: "Summary: Learn how to manage PIN policies for dial-in conferencing in Skype for Business Server."
 ---
 
-# Manage PIN policies for dial-in conferencing in Skype for Business Server 2015
+# Manage PIN policies for dial-in conferencing in Skype for Business Server
  
-**Summary:** Learn how to manage PIN policies for dial-in conferencing in Skype for Business Server 2015.
+**Summary:** Learn how to manage PIN policies for dial-in conferencing in Skype for Business Server.
   
 Skype for Business Server users who have Active Directory Domain Services (AD DS) credentials in your organization can join dial-in conferences as authenticated users by using a personal identification number (PIN). PIN policy defines the rules for how dial-in conferencing PINs work.
   
@@ -30,7 +29,7 @@ You can view information about PIN policies by using Skype for Business Server C
   
 ### View information about PIN policies by using Skype for Business Server Control Panel
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2.  Open Skype for Business Server Control Panel.
     
@@ -54,7 +53,7 @@ You can modify the global PIN policy by using Skype for Business Server Control 
   
 ### Modify the global dial-in conferencing PIN policy by using Skype for Business Server Control Panel
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2.  Open Skype for Business Server Control Panel.
     
@@ -99,7 +98,7 @@ You can create a user or site PIN policy by using Skype for Business Server Cont
   
 ### Create a user or site PIN policy by using Skype for Business Server Control Panel
 
-1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2.  Open Skype for Business Server Control Panel.
     
@@ -150,7 +149,7 @@ You can modify a user or site PIN policy by using Skype for Business Server Cont
   
 ### Modify a user or site PIN policy by using Skype for Business Server Control Panel
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2.  Open Skype for Business Server Control Panel.
     
@@ -180,7 +179,7 @@ You can delete a user or site PIN policy by using Skype for Business Server Cont
   
 ### Delete a user or site PIN policy by using Skype for Business Server Control Panel
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2.  Open Skype for Business Server Control Panel.
     

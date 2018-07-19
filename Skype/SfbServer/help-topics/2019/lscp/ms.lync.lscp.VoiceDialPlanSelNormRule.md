@@ -3,6 +3,7 @@ title: "Select Normalization Rules"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -19,6 +20,6 @@ Normalization rules use .NET Framework regular expressions to translate dialed p
   
 To use an existing normalization rule, click a rule in the list and then click **OK**.
   
- 
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
   
 

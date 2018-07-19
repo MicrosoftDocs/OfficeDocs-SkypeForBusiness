@@ -1,20 +1,19 @@
 ---
-title: "Manage conference join and leave announcements in Skype for Business Server 2015"
+title: "Manage conference join and leave announcements in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: "Summary: Learn how to manage conference join and leave announcements in Skype for Business Server 2015."
+description: "Summary: Learn how to manage conference join and leave announcements in Skype for Business Server."
 ---
 
-# Manage conference join and leave announcements in Skype for Business Server 2015
+# Manage conference join and leave announcements in Skype for Business Server
  
-**Summary:** Learn how to manage conference join and leave announcements in Skype for Business Server 2015.
+**Summary:** Learn how to manage conference join and leave announcements in Skype for Business Server.
   
 When dial-in users join or leave a conference, the Conferencing Announcement application can announce their entrance or exit by playing a tone or saying their names. You can change how announcements work by using Skype for Business Server Management Shell and the **Set-CsDialinConferencing** cmdlet with the following parameters:
   

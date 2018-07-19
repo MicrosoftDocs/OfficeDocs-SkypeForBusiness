@@ -1,9 +1,8 @@
 ---
-title: "Deploy media bypass in Skype for Business Server 2015"
+title: "Deploy media bypass in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,11 +15,11 @@ ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: "Deploy media bypass in Skype for Business Server Enterprise Voice. Includes prerequisites and deployment process checklist."
 ---
 
-# Deploy media bypass in Skype for Business Server 2015
+# Deploy media bypass in Skype for Business Server
  
 Deploy media bypass in Skype for Business Server Enterprise Voice. Includes prerequisites and deployment process checklist.
   
-This topic assumes that you have already published and configured either at least one or more Mediation Servers and at least one gateway peer to provide PSTN connectivity. For more details on those tasks, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](deploy-a-mediation-server.md) and [Define a gateway in Topology Builder in Skype for Business Server 2015](define-a-gateway.md).
+This topic assumes that you have already published and configured either at least one or more Mediation Servers and at least one gateway peer to provide PSTN connectivity. For more details on those tasks, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](deploy-a-mediation-server.md) and [Define a gateway in Topology Builder in Skype for Business Server](define-a-gateway.md).
   
  If the peer you connect to is the SBC of a SIP trunking provider, make sure that the provider is a qualified provider and that the provider supports media bypass. For example, many SIP trunking providers will only allow their SBC to receive traffic from the Mediation Server. If so, then bypass must not be enabled for the trunk in question. Also, you cannot enable media bypass unless your organization reveals its internal network IP addresses to the SIP trunking provider.
   
@@ -40,8 +39,8 @@ The following table provides an overview of the media bypass deployment process.
   
 |**Phase**|**Steps**|**Roles**|**Deployment documentation**|
 |:-----|:-----|:-----|:-----|
-|Configure trunks for media bypass  <br/> |If you have not already done so, configure one or more trunks for media bypass.  <br/> | A member of RTCUniversalServerAdmins group, or a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role <br/> |[Configure a trunk with media bypass in Skype for Business Server 2015](configure-trunk-with-media-bypass.md) <br/> |
-|Configure media bypass globally  <br/> |Configure media bypass for either all calls to the PSTN, or certain calls based on network sites and network regions.  <br/> | A member of RTCUniversalServerAdmins group, or a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role <br/> |[Configure media bypass in Skype for Business Server 2015 to always bypass the Mediation Server](bypass-the-mediation-server.md) <br/> [Configure media bypass global settings in Skype for Business Server 2015 to use site and region information](use-site-and-region-information.md) <br/> |
+|Configure trunks for media bypass  <br/> |If you have not already done so, configure one or more trunks for media bypass.  <br/> | A member of RTCUniversalServerAdmins group, or a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role <br/> |[Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md) <br/> |
+|Configure media bypass globally  <br/> |Configure media bypass for either all calls to the PSTN, or certain calls based on network sites and network regions.  <br/> | A member of RTCUniversalServerAdmins group, or a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role <br/> |[Configure media bypass in Skype for Business Server to always bypass the Mediation Server](bypass-the-mediation-server.md) <br/> [Configure media bypass global settings in Skype for Business Server to use site and region information](use-site-and-region-information.md) <br/> |
 |Associate subnets with network sites, if necessary  <br/> |If you configure media bypass to use site and region information, you must associate the subnets of your deployment with network sites and regions (If you have not already done so for another voice feature.)  <br/> | A member of RTCUniversalServerAdmins group, or a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role <br/> |[Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |
    
 

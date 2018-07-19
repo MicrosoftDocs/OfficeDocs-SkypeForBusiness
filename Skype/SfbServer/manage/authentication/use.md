@@ -1,21 +1,20 @@
 ---
-title: "Use two-factor authentication with Skype for Business client and Skype for Business Server 2015"
+title: "Use two-factor authentication with Skype for Business client and Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
-description: "Summary: Use two-factor authentication with Skype for Business Server 2015 and Skype for Business."
+description: "Summary: Use two-factor authentication with Skype for Business Server and Skype for Business."
 ---
 
-# Use two-factor authentication with Skype for Business client and Skype for Business Server 2015
+# Use two-factor authentication with Skype for Business client and Skype for Business Server
  
-**Summary:** Use two-factor authentication with Skype for Business Server 2015 and Skype for Business.
+**Summary:** Use two-factor authentication with Skype for Business Server and Skype for Business.
   
 ## Sign in to Skype for Business for the first time
 
@@ -57,7 +56,7 @@ Some organizations now use a multi-step sign-in process, called two-factor authe
     
 ### Enroll your smart card
 
-Before you can sign in with a smart card, the card must be "enrolled"—that is, your user credentials have to be identified with the card. This is the case whether the card is physical or virtual. This process may already been carried out by your Skype for Business Server 2015 administrator. Check with them if you're not sure whether that has been done.
+Before you can sign in with a smart card, the card must be "enrolled"—that is, your user credentials have to be identified with the card. This is the case whether the card is physical or virtual. This process may already been carried out by your Skype for Business Server administrator. Check with them if you're not sure whether that has been done.
   
 > [!NOTE]
 > Since each virtual smart card is associated only with the device it's installed on, a separate card will need to be enrolled for each Windows 8 computer you use. 
@@ -138,6 +137,6 @@ Before you use your smart card for the first time, it's recommended that you cli
   
 ## See also
 
-[Manage two-factor authentication in Skype for Business Server 2015](two-factor-authentication.md)
+[Manage two-factor authentication in Skype for Business Server](two-factor-authentication.md)
   
-[Configure two-factor authentication in Skype for Business Server 2015](configure.md)
+[Configure two-factor authentication in Skype for Business Server](configure.md)

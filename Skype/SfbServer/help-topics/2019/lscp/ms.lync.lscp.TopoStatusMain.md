@@ -3,6 +3,7 @@ title: "Topology Status"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 5/21/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -29,6 +30,6 @@ You can perform the following tasks on the **Topology**: **Status** page:
     
 - [Prevent New Connections to Services](http://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
     
- 
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
   
 

@@ -1,20 +1,19 @@
 ---
-title: "View meeting configuration settings in Skype for Business Server 2015"
+title: "View meeting configuration settings in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
-description: "Summary: Learn how to view meeting configuration settings in Skype for Business Server 2015."
+description: "Summary: Learn how to view meeting configuration settings in Skype for Business Server."
 ---
 
-# View meeting configuration settings in Skype for Business Server 2015
+# View meeting configuration settings in Skype for Business Server
  
-**Summary:** Learn how to view meeting configuration settings in Skype for Business Server 2015.
+**Summary:** Learn how to view meeting configuration settings in Skype for Business Server.
   
 You can view meeting configuration settings by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
   
@@ -33,7 +32,7 @@ You can view meeting configuration settings by using Skype for Business Server C
     
     **Edit Meeting Configuration - \<policy\>** opens displaying the settings for the selected policy.
     
-    For details about configuring the settings, see [Create meeting configuration settings in Skype for Business Server 2015](create-settings.md).
+    For details about configuring the settings, see [Create meeting configuration settings in Skype for Business Server](create-settings.md).
     
 ## View meeting configuration settings by using Skype for Business Server Management Shell
 <a name="BKMK_ViewJoinSettings"> </a>

@@ -1,9 +1,8 @@
 ---
-title: "Design the SIP trunk for E9-1-1 in Skype for Business Server 2015"
+title: "Design the SIP trunk for E9-1-1 in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: "Planning your SIP trunking topologies for an E9-1-1 deployment that uses SIP trunking providers, in Skype for Business Server Enterprise Voice."
 ---
 
-# Design the SIP trunk for E9-1-1 in Skype for Business Server 2015
+# Design the SIP trunk for E9-1-1 in Skype for Business Server
  
 Planning your SIP trunking topologies for an E9-1-1 deployment that uses SIP trunking providers, in Skype for Business Server Enterprise Voice.
   
@@ -28,11 +27,11 @@ There are two ways to implement a SIP trunk in a Skype for Business Server envir
     
 - Use an on-premises Session Border Controller (SBC) to provide a secure demarcation point between the Mediation Servers and the SIP trunk provider's services.
     
-If you choose the latter method, be sure that the SBC make and model that you choose has been certified and supports passing Presence Information Data Format Location Object (PIDF-LO) location data as part of its SIP INVITE. Otherwise, the calls will arrive at the emergency services service provider stripped of their location information. For details about certified SBCs, see   ["Infrastructure Qualified for Microsoft Lync"](https://go.microsoft.com/fwlink/p/?LinkId=248425) and ["Telephony Infrastructure for Skype for Business"](https://technet.microsoft.com/en-us/office/dn947483).
+If you choose the latter method, be sure that the SBC make and model that you choose has been certified and supports passing Presence Information Data Format Location Object (PIDF-LO) location data as part of its SIP INVITE. Otherwise, the calls will arrive at the emergency services service provider stripped of their location information. For details about certified SBCs, see   ["Infrastructure Qualified for Microsoft Lync"](https://go.microsoft.com/fwlink/p/?LinkId=248425) and ["Telephony Infrastructure for Skype for Business"](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
   
 E9-1-1 service providers supply you with access to a pair of SBCs for redundancy. You need to make several decisions regarding the Mediation Server topology and call routing configuration. Will you treat both SBCs as equal peers and use round-robin routing for calls between them, or will you designate one SBC as primary and the other as secondary?
   
-For details about deploying a SIP trunk in Skype for Business Server, see [SIP trunking in Skype for Business Server 2015](sip-trunking.md). The following questions will help you decide how to deploy the SIP trunks for E9-1-1.
+For details about deploying a SIP trunk in Skype for Business Server, see [SIP trunking in Skype for Business Server](sip-trunking.md). The following questions will help you decide how to deploy the SIP trunks for E9-1-1.
   
  **Should you deploy the SIP trunk over a dedicated leased or a shared internet connection?**
   
@@ -44,7 +43,7 @@ For details about deploying a SIP trunk in Skype for Business Server, see [SIP t
     
  **Should you deploy a separate SIP trunk for each branch office?**
   
-> Skype for Business Server provides several strategies for handling voice resiliency in branch offices, including: having resilient data networks, deploying a SIP trunk at each branch, or pushing calls out to the local gateway during outages. For details, see [SIP trunking in Skype for Business Server 2015](sip-trunking.md).
+> Skype for Business Server provides several strategies for handling voice resiliency in branch offices, including: having resilient data networks, deploying a SIP trunk at each branch, or pushing calls out to the local gateway during outages. For details, see [SIP trunking in Skype for Business Server](sip-trunking.md).
     
  **Is call admission control (CAC) enabled?**
   

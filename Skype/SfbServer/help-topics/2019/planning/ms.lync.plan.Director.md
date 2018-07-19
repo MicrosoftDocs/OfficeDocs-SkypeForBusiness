@@ -3,6 +3,7 @@ title: "Director (Planning Tool)"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
+ms.date: 4/8/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,12 +12,12 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-description: "A Director is a server running Skype for Business Server communications software that can authenticate user requests, but does not home any user accounts."
+description: "A Director is a server running Skype for Business Server 2015 communications software that can authenticate user requests, but does not home any user accounts."
 ---
 
 # Director (Planning Tool)
  
-A Director is a server running Skype for Business Server communications software that can authenticate user requests, but does not home any user accounts. 
+A Director is a server running Skype for Business Server 2015 communications software that can authenticate user requests, but does not home any user accounts. 
   
 This role is optional, you would choose to deploy a Director in the following two scenarios:
   

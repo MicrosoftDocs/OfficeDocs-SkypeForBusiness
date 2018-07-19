@@ -1,20 +1,19 @@
 ---
-title: "Manage key mapping for DTMF commands in Skype for Business Server 2015"
+title: "Manage key mapping for DTMF commands in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: "Summary: Learn how to manage key mapping of dual-tone multi-frequency (DTMF) commands in Skype for Business Server 2015."
+description: "Summary: Learn how to manage key mapping of dual-tone multi-frequency (DTMF) commands in Skype for Business Server."
 ---
 
-# Manage key mapping for DTMF commands in Skype for Business Server 2015
+# Manage key mapping for DTMF commands in Skype for Business Server
  
-**Summary:** Learn how to manage key mapping of dual-tone multi-frequency (DTMF) commands in Skype for Business Server 2015.
+**Summary:** Learn how to manage key mapping of dual-tone multi-frequency (DTMF) commands in Skype for Business Server.
   
 Dial-in conferencing users can press keys on the telephone keypad to perform dual-tone multi-frequency (DTMF) commands. DTMF commands enable users who dial in to a conference to control conference settings (such as muting and unmuting themselves or locking and unlocking the conference) by using the keypad on their telephone. 
   

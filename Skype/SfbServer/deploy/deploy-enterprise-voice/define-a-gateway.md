@@ -1,9 +1,8 @@
 ---
-title: "Define a gateway in Topology Builder in Skype for Business Server 2015"
+title: "Define a gateway in Topology Builder in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
-description: "Summary: Learn how to define a PSTN gateway in Topology Builder in Skype for Business Server 2015."
+description: "Summary: Learn how to define a PSTN gateway in Topology Builder in Skype for Business Server."
 ---
 
-# Define a gateway in Topology Builder in Skype for Business Server 2015
+# Define a gateway in Topology Builder in Skype for Business Server
  
-**Summary:** Learn how to define a PSTN gateway in Topology Builder in Skype for Business Server 2015.
+**Summary:** Learn how to define a PSTN gateway in Topology Builder in Skype for Business Server.
   
 Follow these steps to use Topology Builder to define a peer with which you can associate a Mediation Server to provide connectivity to the public switched telephone network (PSTN) for users enabled for Enterprise Voice. A peer to the Mediation Server can be a PSTN gateway, an IP-PBX, or a Session Border Controller (SBC) for an Internet Telephony Service Provider (ITSP) to which you connect by configuring a SIP trunk.
   

@@ -3,6 +3,7 @@ title: "Prefix Edit"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -17,6 +18,6 @@ description: "To define prefixes or starting digits, add number prefixes that th
  
 To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary. For example, you can match all numbers starting with +123.
   
- 
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
   
 

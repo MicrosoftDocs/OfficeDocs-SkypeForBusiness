@@ -3,6 +3,7 @@ title: "Hybrid Manageability wizard"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:

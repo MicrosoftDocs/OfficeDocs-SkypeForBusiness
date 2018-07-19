@@ -3,6 +3,7 @@ title: "Network Configuration Global Setting"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
+ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -21,5 +22,5 @@ What do you want to do? Click the link to the task that you want to perform.
     
 - [Enabling Media Bypass](http://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
     
- 
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
 

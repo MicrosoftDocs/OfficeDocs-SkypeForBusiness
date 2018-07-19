@@ -1,23 +1,22 @@
 ---
-title: "Set a user's dial-in conferencing PIN in Skype for Business Server 2015"
+title: "Set a user's dial-in conferencing PIN in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: "Summary: Set a user's dial-in conferencing PIN for Skype for Business Server 2015."
+description: "Summary: Set a user's dial-in conferencing PIN for Skype for Business Server."
 ---
 
-# Set a user's dial-in conferencing PIN in Skype for Business Server 2015
+# Set a user's dial-in conferencing PIN in Skype for Business Server
  
-**Summary:** Set a user's dial-in conferencing PIN for Skype for Business Server 2015.
+**Summary:** Set a user's dial-in conferencing PIN for Skype for Business Server.
   
-To join a dial-in conference as an authenticated user, a Skype for Business Server 2015 user with Active Directory Domain Services (AD DS) credentials requires a personal identification number (PIN). If a user forgets the dial-in conferencing PIN or has not set the PIN by using Skype for Business Server 2015, you can set the user's PIN from Skype for Business Server Control Panel. You can automatically generate the PIN or create one manually.
+To join a dial-in conference as an authenticated user, a Skype for Business Server user with Active Directory Domain Services (AD DS) credentials requires a personal identification number (PIN). If a user forgets the dial-in conferencing PIN or has not set the PIN by using Skype for Business Server, you can set the user's PIN from Skype for Business Server Control Panel. You can automatically generate the PIN or create one manually.
   
 > [!NOTE]
 > Specific characteristics of the PIN, such as its minimum length, can be configured as a policy. In addition to the global policy, you can configure a PIN policy for individual sites or users. 
@@ -58,7 +57,7 @@ To join a dial-in conference as an authenticated user, a Skype for Business Serv
     
 7. In the **Set PIN** dialog box, do one of the following:
     
-   - To allow Skype for Business Server 2015 to generate the user's PIN, select **Automatically generate a valid PIN** (the default).
+   - To allow Skype for Business Server to generate the user's PIN, select **Automatically generate a valid PIN** (the default).
     
    - To create your own PIN, click **Manually enter a specific PIN**, click the text box, and then type a PIN that meets the PIN requirements specified in your PIN policy settings.
     
