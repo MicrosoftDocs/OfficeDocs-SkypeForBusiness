@@ -14,6 +14,9 @@ ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: "Use the Select a Site dialog box to find sites available in your environment. To use an existing site, click a site in the list and then click OK."
 ---
 
+> [!NOTE] 
+> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.
+
 # Select a Site
  
 Use the **Select a Site** dialog box to find sites available in your environment. To use an existing site, click a site in the list and then click **OK**.
@@ -21,7 +24,7 @@ Use the **Select a Site** dialog box to find sites available in your environment
 > [!NOTE]
 > To retrieve all available sites, do not type anything in the search box and then click the search icon. 
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
   
 ## Tasks you can perform
 
@@ -31,7 +34,6 @@ You can perform the following tasks on the **Select a Site** page:
     
 - [Create a Site Policy for Persistent Chat](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
   
 ## To configure Persistent Chat options globally
 

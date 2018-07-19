@@ -21,6 +21,6 @@ Use the **Region Link** dialog box to find region links available in your enviro
 > [!NOTE]
 > To retrieve all available region links, do not type anything in the search box and then click the search icon. 
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
   
 

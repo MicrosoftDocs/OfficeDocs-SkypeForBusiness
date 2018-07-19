@@ -26,5 +26,5 @@ What do you want to do? Click the link to the task that you want to perform.
     
 - [Delete Quality of Experience configuration settings in Skype for Business Server 2015](../../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
 

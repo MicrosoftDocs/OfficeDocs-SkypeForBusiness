@@ -18,11 +18,11 @@ description: "What do you want to do? Click the link to the task that you want t
  
 What do you want to do? Click the link to the task that you want to perform.
   
-- [Create a new PIN policy in Skype for Business Server 2015](../../../manage/authentication/create-a-new-pin-policy.md)
+- [Create a new PIN policy in Skype for Business Server](../../../manage/authentication/create-a-new-pin-policy.md)
     
-- [Modify an existing PIN policy in Skype for Business Server 2015](../../../manage/authentication/modify-an-existing-pin-policy.md)
+- [Modify an existing PIN policy in Skype for Business Server](../../../manage/authentication/modify-an-existing-pin-policy.md)
     
-- [Delete a PIN policy in Skype for Business Server 2015](../../../manage/authentication/delete-a-pin-policy.md)
+- [Delete a PIN policy in Skype for Business Server](../../../manage/authentication/delete-a-pin-policy.md)
     
 - [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](http://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
     
@@ -30,5 +30,5 @@ What do you want to do? Click the link to the task that you want to perform.
     
 - [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](http://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
 

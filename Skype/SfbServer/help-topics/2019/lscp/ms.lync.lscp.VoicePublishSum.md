@@ -18,6 +18,6 @@ description: "If the changes were not completed, review the messages in this dia
  
 If the changes were not completed, review the messages in this dialog box, change your voice routing configuration, and try again.
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
   
 

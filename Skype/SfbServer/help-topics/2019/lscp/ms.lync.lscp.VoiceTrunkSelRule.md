@@ -23,6 +23,6 @@ description: "Enterprise Voice requires that all dial strings be normalized to E
   
 To use an existing translation rule, click a rule in the list and then click **OK**.
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
   
 

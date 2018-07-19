@@ -14,20 +14,5 @@ ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: "You activate or deactivate a deployed Persistent Chat Server or Persistent Chat Server pool by using the servers or pools listed in Machine state settings. You select a server or pool in the list and click the Make active button to set a server or pool as active."
 ---
 
-# Persistent Chat Machines Expander
- 
-You activate or deactivate a deployed Persistent Chat Server or Persistent Chat Server pool by using the servers or pools listed in **Machine state settings**. You select a server or pool in the list and click the **Make active** button to set a server or pool as active.
-  
-You set a deployed Persistent Chat Server or Persistent Chat Server pool to inactive by selecting the server or pool in the list and click **Make inactive**. At least one server must be set to active.
-  
- **OK** Accepts and commits changes to the dialog.
-  
- **Cancel** Discards changes and closes the dialog.
-  
- **Help** Displays this help screen.
-  
-## See also
-
-[Plan for Persistent Chat Server in Skype for Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[Add Persistent Chat Server to your Skype for Business Server 2015 topology](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+> [!NOTE] 
+> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.

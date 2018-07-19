@@ -14,11 +14,14 @@ ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: "Use the Select a Service dialog box to find services available in your environment. To use an existing service, click a service in the list and then click OK."
 ---
 
+> [!NOTE] 
+> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.
+
 # Select a Service
  
 Use the **Select a Service** dialog box to find services available in your environment. To use an existing service, click a service in the list and then click **OK**. 
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
   
 ## Tasks you can perform
 
@@ -29,8 +32,9 @@ You can perform the following tasks on the **Select a Service** page:
 - [Configure Add-ins for Rooms](http://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
     
 - [Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
+
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
   
 ## To configure categories for chat rooms
 
