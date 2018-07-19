@@ -131,6 +131,8 @@ Indicate quoted text with a > character.
 In the words of Abraham Lincoln:
 > Pardon my French
 
+        Indent text with two tabs to simulate console output.
+
 Paragraphs and line breaks
 ===
 You can create a new paragraph by leaving a blank line between lines of text.
