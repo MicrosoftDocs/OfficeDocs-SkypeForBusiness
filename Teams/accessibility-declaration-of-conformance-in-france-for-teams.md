@@ -30,15 +30,15 @@ Plate-forme : Win32
 
 Version du produit : 1.1.84.22103
 
-Site web : Microsoft Teams
+Site web : [Microsoft Teams](https://teams.microsoft.com/)
 
-Contact pour plus d'informations : Microsoft Teams Support
+Contact pour plus d'informations : [Microsoft Teams Support](https://support.office.com/en-us/teams)
 
-Site web en matière d'accessibilité : Microsoft Accessibility
+Site web en matière d'accessibilité : [Microsoft Accessibility](https://www.microsoft.com/accessibility/)
 
-Service de réponse aux questions d’utilisateurs en situation de handicap : eDAD
+Service de réponse aux questions d’utilisateurs en situation de handicap : [eDAD](https://support.microsoft.com/en-us/answerdesk/accessibility)
 
-Pour obtenir de l'aide sur ce rapport, veuillez nous envoyer un email.
+Pour obtenir de l'aide sur ce rapport, veuillez [nous envoyer un email](mailto:edad@microsoft.com?subject=Conformance%20Statement).
 
 
 ## Section 1 Champ d’application
