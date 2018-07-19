@@ -3,7 +3,6 @@ title: "Create Skype for Business Server Control Panel Administrators"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,12 +10,12 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
-description: "To grant access to the Skype for Business Server 2015, do the following:"
+description: "To grant access to the Skype for Business Server, do the following:"
 ---
 
 # Create Skype for Business Server Control Panel Administrators
  
-To grant access to the Skype for Business Server 2015, do the following:
+To grant access to the Skype for Business Server, do the following:
   
 1. Log on as a member of the Domain Admins group or the RTCUniversalServerAdmins group.
     
@@ -45,7 +44,7 @@ Other roles include:
     
 - **CsUserAdministrator:** Members can manage, enable and disable users, and assign existing policies to users.
     
-- **CsViewOnlyAdministrator:** Members can view the deployment and configuration of the server information. This membership enables a member to monitor the health of the servers running Skype for Business Server 2015.
+- **CsViewOnlyAdministrator:** Members can view the deployment and configuration of the server information. This membership enables a member to monitor the health of the servers running Skype for Business Server.
     
 - **CsVoiceAdministrator:** Members can create, configure, and manage voice-related settings in Skype for Business Server.
     
