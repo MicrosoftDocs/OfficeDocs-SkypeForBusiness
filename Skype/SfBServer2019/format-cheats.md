@@ -66,6 +66,11 @@ git status
 git add
 git commit
 ```
+
+        Indenting with two tabs shows console replies to commands,
+        the text is not a true code fence and doesn't have a 
+        copy/paste button. 
+
 Lists
 ===
 You can make an unordered list by preceding one or more lines of text with a single  - , +, or *.  Changing the character you use starts a new list.
@@ -139,7 +144,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-     Leading spaces at the beginning of the next line are ignored.
+  Leading spaces at the beginning of the next line are ignored.
 
 Line breaks can occur inside emphasis, links, and other constructs that allow inline content.
 
