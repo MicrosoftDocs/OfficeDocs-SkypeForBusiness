@@ -3,7 +3,6 @@ title: "Install Database Create Mirror Database Page"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -21,8 +20,6 @@ This is preliminary documentation and is subject to change. Blank topics are inc
 If you chose not to install the SQL Server mirror databases during the Publish process, you install them using **Install Database** from a right click on any node in Topology Builder. You select the mirror store to install. Click **Settings** to define any advanced settings.
   
 ## See also
-
-[Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
 
 [Install-CsMirrorDatabase](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
   

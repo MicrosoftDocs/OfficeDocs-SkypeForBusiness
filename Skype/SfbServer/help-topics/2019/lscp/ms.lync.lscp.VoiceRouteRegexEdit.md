@@ -3,7 +3,6 @@ title: "Normalization Rule Type a Regular Expression"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -18,6 +17,6 @@ description: "Type a .NET Framework regular expression to specify the matching p
  
 Type a .NET Framework regular expression to specify the matching pattern for destination phone numbers to which the route is applied. 
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
   
 

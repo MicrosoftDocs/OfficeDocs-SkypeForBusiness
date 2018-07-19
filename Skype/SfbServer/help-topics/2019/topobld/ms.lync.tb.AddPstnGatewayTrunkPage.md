@@ -3,7 +3,6 @@ title: "Define the Root Trunk for a New IP or PSTN Gateway"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -30,8 +29,8 @@ You define the root trunk for the IP or public switched telephone network (PSTN)
     
 ## See also
 
-[Configure a trunk with media bypass in Skype for Business Server 2015](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+[Configure a trunk with media bypass in Skype for Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
   
-[Configure a trunk without media bypass in Skype for Business Server 2015](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+[Configure a trunk without media bypass in Skype for Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
 [SIP Trunking Support](http://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
