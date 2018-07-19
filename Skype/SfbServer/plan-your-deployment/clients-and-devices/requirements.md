@@ -44,7 +44,7 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 |Console|Processor|RAM|Disk|
 |:-----|:-----|:-----|:-----|
 |[Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
- <!-- HP dock is still pending  -->  
+|[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  |  
     
 - One of the following docking station options to secure a tablet to the meeting room table. 
     
@@ -120,8 +120,8 @@ The following tables provide recommendations for peripherals based on room size:
 
 To build your own Skype Room Systems v2 image, follow the instructions in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). Those instructions will guide you through downloading all necessary software for the installation process. 
 
-    > [!NOTE]
-    > IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
+> [!NOTE]
+> IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
 
 In addition, you will probably want a copy of [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), often used to provision Skype Room Systems v2 accounts.
 

@@ -36,7 +36,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
         </a>
     </li>
     <li>
-        <a href="hybrid/hybrid-solutions.md">
+        <a href="hybrid/plan-hybrid-connectivity.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -142,7 +142,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardText">
                         <h3>Before you start</h3>
-                        <p> [Infrastructure requirements](plan/environmental-requirements.md) <br>[Network requirements](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md)</p>
+                        <p> [System requirements](plan/system-requirements.md) <br>[Network requirements](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md)</p>
                     </div>
                 </div>
             </div>
@@ -190,7 +190,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardText">
                         <h3>Hybrid solutions</h3>
-                        <p>[Skype for Business hybrid solutions](hybrid/hybrid-solutions.md)<br> [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md)<br>[Plan Call Data Connector](hybrid/plan-call-data-connector.md)</p>
+                        <p>[Plan hybrid connectivity](hybrid/plan-hybrid-connectivity.md)<br> [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md)<br>[Plan Call Data Connector](hybrid/plan-call-data-connector.md)</p>
                     </div>
                 </div>
             </div>
@@ -202,7 +202,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
 ### Featured articles
 | | | |
 |:--- |:--- |:--- |
-|**Before you start** <br>[Infrastructure requirements](plan/environmental-requirements.md) <br>[Network requirements](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) |**Install** <br>[Install Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [Migrate to Skype for Business 2019](migration/migration-to-skype-for-business-server-2019.md)|**Enterprise Voice**<br>[Plan](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Deploy](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)|
-|**New features**<br>[What's new](whats-new.md)  |**Hybrid solutions**<br>[Skype for Business hybrid solutions](hybrid/hybrid-solutions.md)<br> [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md)<br>[Plan Call Data Connector](hybrid/plan-call-data-connector.md)  |  |
+|**Before you start** <br>[System requirements](plan/system-requirements.md) <br>[Network requirements](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) |**Install** <br>[Install Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [Migrate to Skype for Business 2019](migration/migration-to-skype-for-business-server-2019.md)|**Enterprise Voice**<br>[Plan](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Deploy](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)|
+|**New features**<br>[What's new](whats-new.md)  |**Hybrid solutions**<br>[Plan hybrid connectivity](hybrid/plan-hybrid-connectivity.md)<br> [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md)<br>[Plan Call Data Connector](hybrid/plan-call-data-connector.md)  |  |
 | | | |
 * * *   

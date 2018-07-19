@@ -20,11 +20,9 @@ After you have successfully moved the Central Management Server, you should remo
   
 You use the Windows PowerShell cmdlet **Move-CsManagementServer** in the Skype for Business Server Management Shell to move the database from the legacy install SQL Server database to the Skype for Business Server 2019 SQL Server database, and then update the SCP to point to the Skype for Business Server 2019 Central Management Server location. 
   
-## Preparing Skype for Business Server 2019 Front End Servers before moving the Central Management Server
-
 Use the procedures in this section to prepare the Skype for Business Server 2019 Front End Servers before you move the Central Management Server.
   
-### To prepare an Enterprise Edition Front End pool
+## To prepare an Enterprise Edition Front End pool
 
 1. On the Skype for Business Server 2019 Enterprise Edition Front End pool where you want to relocate the Central Management Server, log on to the computer where the Skype for Business Server Management Shell is installed as a member of the **RTCUniversalServerAdmins** group. You must also have SQL Server database sysadmin user rights and permissions on the database where you want to install the Central Management store. 
     
@@ -38,7 +36,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
 
 4. Confirm that the status of the **Skype for Business Server Front-End** service is **Started**.
     
-### To prepare a Standard Edition Front End Server
+## To prepare a Standard Edition Front End Server
 
 1. On the Skype for Business Server 2019 Standard Edition Front End Server where you want to relocate the Central Management Server, log on to the computer where the Skype for Business Server Management Shell is installed as a member of the **RTCUniversalServerAdmins** group. 
     
@@ -59,7 +57,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
 
 6. Confirm that the status of the **Skype for Business Server Front-End** service is **Started**.
     
-### To move the legacy installs Central Management Server to Skype for Business Server 2019
+## To move the legacy installs Central Management Server to Skype for Business Server 2019
 
 1. On the Skype for Business Server 2019 server that will be the Central Management Server, log on to the computer where the Skype for Business Server Management Shell is installed as a member of the **RTCUniversalServerAdmins** group. You must also have the SQL Server database administrator user rights and permissions. 
     
@@ -103,7 +101,7 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
     > [!NOTE]
     > The replication may take some time to update all current replicas. 
   
-### To remove legacy install Central Management store files after a move
+## To remove legacy install Central Management store files after a move
 
 1. On the legacy install server, log on to the computer where the Skype for Business Server Management Shell is installed as a member of the **RTCUniversalServerAdmins** group. You must also have the SQL Server database administrator user rights and permissions. 
     

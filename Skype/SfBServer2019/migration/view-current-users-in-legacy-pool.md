@@ -21,9 +21,6 @@ Before learning the various ways you can move users between pools, we must first
 2. Open **Skype for Business Server Control Panel**.
     
 3. Click **Users**, click **Search**, and then click **Find**.
-    
-**The Skype for Business Server Control Panel**
 
-![Skype for Business Server Control Panel, Move User dialog](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserDialog.jpg)
   
 

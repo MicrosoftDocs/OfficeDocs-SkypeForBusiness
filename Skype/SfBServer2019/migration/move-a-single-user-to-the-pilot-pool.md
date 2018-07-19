@@ -15,10 +15,6 @@ description: "You can move a user from your legacy pool to your Skype for Busine
 You can move a user from your legacy pool to your Skype for Business Server 2019 pilot pool using Skype for Business Server 2019 Control Panel or Skype for Business Server 2019 Management Shell. In the example below, in the **Registrar pool** column, **pool01.contoso.net** is the legacy pool, and all six of these users are connected to this pool. Use the following procedures to move a user to your Skype for Business Server 2019 pool using Skype for Business Server 2019 Control Panel and Skype for Business Server Management Shell. 
   
 ## To move a user by using the Skype for Business Server 2019 Control Panel
-
-**List of users in the Skype for Business Server 2019 Control Panel**
-
-![Skype for Business Server Control Panel, Move User dialog](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserDialog.jpg)
   
 1. Log on to the Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.
     
@@ -33,8 +29,6 @@ You can move a user from your legacy pool to your Skype for Business Server 2019
 6. From the drop-down list, select the Skype for Business Server 2019 pool.
     
 7. Click **Action**, and then click **Move selected users to pool**. Click **OK**.
-    
-     ![Move Users, destination registrar pool dialog box](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   
 8. Verify that the **Registrar pool** column for the user now contains the Skype for Business Server 2019 pool, which indicates that the user has been successfully moved. 
     
@@ -55,9 +49,7 @@ You can move a user from your legacy pool to your Skype for Business Server 2019
   ```
 
 4. The **RegistrarPool** identity now points to the Skype for Business Server 2019 pool. The presence of this identity confirms that the user has been successfully moved. 
-    
-     ![Output from Get-CsUser cmdlet with Identity filter](../media/migration_lyncserver_w15_movesingleuser_getcsuser.JPG)
-  
+
     > [!NOTE]
     > For details about the **Get-CsUser** cmdlet, run: **Get-Help Get-CsUser -Detailed**
   

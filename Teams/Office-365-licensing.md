@@ -7,7 +7,7 @@ ms.date: 04/16/2018
 ms.topic: article
 audience: Admin
 ms.service: msteams
-ms.reviewer: dearbeen, ninadara
+ms.reviewer: 
 localization_priority: Priority
 description: Learn about the different Office 365 licenses and which ones enable users for Microsoft Teams and how to enable or disable it.
 ms.custom:
@@ -28,8 +28,9 @@ The following Office 365 subscriptions enable users for Teams.
 |---------|---------|---------|---------|
 |Office 365 Business Essentials     |Office 365 Enterprise E1  |Office 365 Education |Office 365 Developer     |
 |Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |      |
-|Office 365 Enterprise F1     |Office 365 Enterprise E4 (retired)         |Office 365 Education E3 (retired)         |  |
+|     |Office 365 Enterprise E4 (retired)         |Office 365 Education E3 (retired)         |  |
 |     |Office 365 Enterprise E5         |Office 365 Education E5  | 
+|     |Office 365 Enterprise F1 |    |     |
 
 
 

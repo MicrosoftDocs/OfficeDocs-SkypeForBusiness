@@ -32,7 +32,7 @@ This article defines terms as specified in the following list.
 
 **legacy:** The system you are migrating away from, which is either Lync Server 2013 or Skype for Business Server 2015.
     
-## In This Section
+## In this section
 
 - [Before you begin the migration](before-you-begin-the-migration.md)
     

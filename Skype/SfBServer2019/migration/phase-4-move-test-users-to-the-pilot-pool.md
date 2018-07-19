@@ -14,7 +14,7 @@ description: "You can move a single user or groups of users to your new Microsof
 
 You can move a single user or groups of users to your new Microsoft Skype for Business Server 2019 deployment using the following two methods: Skype for Business Server Control Panel and Skype for Business Server Management Shell. The topics in this section describe tasks you must complete during pilot deployment, as well as prior to moving your deployment of Skype for Business Server 2019 from a pilot deployment to a production-level deployment.
   
-## In This Section
+## In this section
 
 - [View current users in legacy pool](view-current-users-in-legacy-pool.md)
     

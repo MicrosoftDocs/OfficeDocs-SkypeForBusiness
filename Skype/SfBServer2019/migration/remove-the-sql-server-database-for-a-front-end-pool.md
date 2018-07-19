@@ -14,7 +14,7 @@ description: "After you remove a Front End pool or reconfigure the pool to use a
 
 After you remove a Front End pool or reconfigure the pool to use a different database, you can remove the SQL Server databases that hosted the pool data. Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.
   
-### To remove the SQL Server database using Topology Builder
+## To remove the SQL Server database using Topology Builder
 
 1. From the Skype for Business Server 2019 Front End Server, open Topology Builder and download the existing topology. 
     
@@ -22,7 +22,7 @@ After you remove a Front End pool or reconfigure the pool to use a different dat
     
 3. Publish the topology, and then check the replication status. 
     
-### To remove user and application databases from the SQL server
+## To remove user and application databases from the SQL server
 
 1. To remove the databases on the SQL server, you must be a member of the SQL Server sysadmins group for the SQL server where you are removing the database files. 
     

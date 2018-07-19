@@ -54,7 +54,7 @@ The Skype for Business Server scaled consolidated Edge topology is optimized for
 > [!NOTE]
 > The direct server return (DSR) NAT is not supported with Skype for Business Server. 
   
-To determine whether your hardware load balancer supports the necessary features required by Skype for Business Server, see [Infrastructure for Skype for Business](https://technet.microsoft.com/en-us/office/dn947483).<!-- Techcenter -->
+To determine whether your hardware load balancer supports the necessary features required by Skype for Business Server, see [Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
   
 ### Hardware Load Balancer Requirements for Edge Servers Running the A/V Edge Service
 
@@ -104,7 +104,7 @@ If you are deploying mobile devices, your hardware load balancer must be able to
 > F5 hardware load balancers have a feature called OneConnect that ensures each request within a TCP connection is individually load balanced. If you are deploying mobile devices, ensure your hardware load balancer vendor supports the same functionality. The latest Apple iOS mobile apps require Transport Layer Security (TLS) version 1.2. F5 provides specific settings for this. 
   
 > [!CAUTION]
-> For details on third party hardware load balancers, see [Infrastructure for Skype for Business](https://technet.microsoft.com/en-us/office/dn947483). <!-- Techcenter -->
+> For details on third party hardware load balancers, see [Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
 Following are the hardware load balancer requirements for Director and Front End pool Web Services:
   

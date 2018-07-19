@@ -82,7 +82,7 @@ And for mobile devices:
     
 - it enables push notifications from Office 365 to mobile devices.
     
-Our current reverse proxy recommendations can be found on the [Telephony Infrastructure for Skype for Business](https://technet.microsoft.com/en-us/office/dn947483)<!-- Techcenter --> page. So your reverse proxy:
+Our current reverse proxy recommendations can be found on the [Telephony Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) page. So your reverse proxy:
   
 - should be able to use transport layer security (TLS) that's introduced to your environment via public certificates to connect to the published external Web services of:
     
@@ -211,7 +211,7 @@ You define port monitoring on your hardware load balancers to determine when spe
    
 ## Hardware and software requirements
 
-We've covered Edge Server hardware and software requirements in our overall [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and  [Server requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/server-requirements.md) documentation.
+We've covered Edge Server hardware and software requirements in our overall [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and  [System requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) documentation.
   
 ## Collocation
 

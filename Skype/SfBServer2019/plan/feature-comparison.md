@@ -3,7 +3,6 @@ title: "Desktop client feature comparison for Skype for Business Server 2019"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -22,12 +21,12 @@ description: "Summary: Skype for Business Server 2019 or Skype for Business Onli
   
  Before you deploy or upgrade to Skype for Business Server, check which clients are already in use in your organization. Use the tables below to understand the feature support impact on those clients. This can help you communicate changes to users, pace the roll-out process, and fully understand the benefits of upgrading to the latest client.
   
-Some features available with Skype for Business Server 2019 are not available in Skype for Business Online, see [Online or Hybrid user account limitations](feature-comparison.md#Online-Hybrid) for specifics. Skype for Business Online Admins may want to refer to [Skype for Business Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) for information on the different plans available to them.
+Some features available with Skype for Business Server 2019 are not available in Skype for Business Online; see [Online or Hybrid user account limitations](feature-comparison.md#Online-Hybrid) for specifics. Skype for Business Online Admins may want to refer to [Skype for Business Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) for information on the different plans available to them.
   
 The following tables show the features that are available with each client that works with Skype for Business Server 2019 or Skype for Business Online. You may also want to refer to [Mobile client feature comparison for Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) for smart phone and tablet client feature comparisons. The Client Access License or User Subscription License your organization purchases will also have an impact on which features are available to your users. Whether you deploy the Full or Basic client to users depends on the license or plan your organization chooses to buy. See the [Licensing Guide](https://products.office.com/en-us/skype-for-business/it-pros) for more details.
   
 > [!IMPORTANT]
-> Skype for Business Server 2019 and Skype for Business Online support the following previously released clients: Lync 2013, Skype for Business 2015 and 2016. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) and [Desktop client feature comparison for Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
+> Skype for Business Server 2019 and Skype for Business Online support the following previously released clients: Lync 2013, Skype for Business 2015, and Skype for Business 2016. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) and [Desktop client feature comparison for Skype for Business 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
   
   
 > [!NOTE]
@@ -82,7 +81,7 @@ This table covers features related to IM support.
 |:-----|:-----|:-----|:-----|  
 |Initiate IM with or email to a contact  |&#x2714;|&#x2714;|&#x2714;|  
 |Navigate among multiple IM conversations/Track multiple conversations in a single tabbed window   |&#x2714;|&#x2714;|&#x2714;| 
-|Log IM conversations in Outlook  |&#x2714;|&#x2714; If server side conversation history is turned on   |&#x2714;|   
+|Log IM conversations in Outlook  |&#x2714;|&#x2714; If server-side conversation history is turned on   |&#x2714;|   
 |Use prepared conversation templates||||   
 |Check spelling |&#x2714;|&#x2714;||   
 |Skill search (with SharePoint Server integration)  <br/> (On-premises Skype for Business Server and on-premises SharePoint 2013 are required for skill search.)  |&#x2714;||&#x2714;|
@@ -139,7 +138,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
    
  &#x2776;  Participants can't control desktops that are shared by Skype for Business on Mac, Lync for Mac 2011, or Communicator for Mac 2011 users. Skype for Business on Mac, Lync for Mac 2011 and Communicator for Mac 2011 users can't control desktops shared by Windows users. This also won't work for Skype for Business Web App on Max OSX.
   
- &#x2777;  For Skype for Business Online, this feature requires Microsoft PSTN Conferencing, Exchange Unified Messaging, or a 3rd party audio conferencing provider.
+ &#x2777;  For Skype for Business Online, this feature requires Microsoft PSTN Conferencing, Exchange Unified Messaging, or a third-party audio conferencing provider.
   
  &#x2778;  The Lync for Mac 2011 client cannot view Microsoft Office 2013 PowerPoint presentations when they have been shared in a conference by the Skype for Business Web App.
   
@@ -149,7 +148,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
 This table covers features related to voice services support.
   
 > [!NOTE]
-> Skype for Business Voice (Telephony) features are limited to certain Skype for Business Online subscription plans. > For details, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx). 
+> Skype for Business Voice (Telephony) features are limited to certain Skype for Business Online subscription plans. For details, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx). 
   
  | Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Lync 2013 client |  
 |:-----|:-----|:-----|:-----| 
@@ -225,7 +224,7 @@ This table covers features related to support for archiving and logging function
 
  | Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Lync 2013 client |  
 |:-----|:-----|:-----|:-----|  
-|Archiving of IM conversations in Outlook Conversation History|&#x2714; &#x2776; |&#x2714; If server side conversation history is turned on  |&#x2714; &#x2776; | 
+|Archiving of IM conversations in Outlook Conversation History|&#x2714; &#x2776; |&#x2714; If server-side conversation history is turned on  |&#x2714; &#x2776; | 
 |Client-side archiving of audio, video, application sharing, desktop sharing, and uploaded content  |&#x2714; &#x2776; ||&#x2714; &#x2776; |
 |Client-side archiving of file transfers, shared OneNote pages, and PowerPoint annotations   (unavailable in Skype for Business Online)  |&#x2714;||&#x2714;|
 |Access sign-in logs from Skype for Business icon in the task bar |&#x2714;||&#x2714;|

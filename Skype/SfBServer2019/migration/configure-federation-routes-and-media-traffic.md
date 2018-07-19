@@ -25,7 +25,7 @@ Use the following procedures to transition the federation route and the media tr
 > [!IMPORTANT]
 > If your XMPP federation is routed through a Skype for Business Server 2019 Edge Server, users on the previous version will not be able to communicate with the XMPP federated partner until all users have been moved to Skype for Business Server 2019, XMPP policies and certificates have been configured, the XMPP federated partner has been configured on Skype for Business Server 2019, and, lastly, the DNS entries have been updated. 
   
-### To remove the legacy federation association from Skype for Business Server 2019 sites
+## To remove the legacy federation association from Skype for Business Server 2019 sites
 
 1. On the Skype for Business Server 2019 Front End server, open the existing topology in Topology Builder. 
     
@@ -36,8 +36,6 @@ Use the following procedures to transition the federation route and the media tr
 4. In the left pane, select **Federation route**. 
     
 5. Under **Site federation route assignment**, clear the **Enable SIP federation** check box to disable the federation route through the legacy environment. 
-    
-     ![Edit Properties dialog, Federation route page](../media/migration_lyncserver_w15_federation_disable.JPG)
   
 6. Click **OK** to close the Edit Properties page. 
     
@@ -47,7 +45,7 @@ Use the following procedures to transition the federation route and the media tr
     
 9. Click **Next** to complete the publishing process, and then click **Finish** when the publishing process has completed. 
     
-### To configure the legacy Edge Server as a non-federating Edge Server
+## To configure the legacy Edge Server as a non-federating Edge Server
 
 1. In the left pane, navigate to the legacy install node and then to the **Edge pools** node. 
     
@@ -56,18 +54,14 @@ Use the following procedures to transition the federation route and the media tr
 3. Select **General** in the left pane. 
     
 4. Clear the **Enable federation for this Edge pool (port 5061)** check box and select **OK** to close the page. 
-    
-     ![Edit Properties, General, clear Enable federation](../media/migration_lyncserver_w15_federation_remove.JPG)
   
 5. From the **Action** menu, select **Publish Topology**, and then click **Next**.
     
 6. When the **Publishing wizard** completes, click **Finish** to close the wizard. 
     
-7. Verify that federation for the legacy Edge server is disabled.
-    
-     ![Topology Builder, Edge pool, federation disabled](../media/migration_lyncserver_w15_federation_verify_disabled.JPG)
+7. Verify that federation for the legacy Edge server is disabled in Topology Builder.
   
-### To configure certificates on the legacy Edge Server
+## To configure certificates on the legacy Edge Server
 
 1. Export the external Access Proxy certificate, with the private key, from the legacy Edge Server. 
     
@@ -77,7 +71,7 @@ Use the following procedures to transition the federation route and the media tr
     
 4. The internal interface certificate of the Skype for Business Server 2019 Edge Server should be requested from a trusted CA and assigned. 
     
-### To change the previous version's federation route to use Skype for Business Server 2019 Edge Server
+## To change the previous version's federation route to use Skype for Business Server 2019 Edge Server
 
 1. From Topology Builder, in the left pane, navigate to the **Skype for Business Server 2019** node and then to the **Edge pools** node. 
     
@@ -86,26 +80,21 @@ Use the following procedures to transition the federation route and the media tr
 3. Select **General** in the left pane. 
     
 4. Select the check box for **Enable federation for this Edge pool (port 5061)**, and then click **OK** to close the page. 
-    
-     ![Edit Properties dialog, General page](../media/migration_lyncserver_w15_federation_enable_2013_federation.JPG)
   
 5. From the **Action** menu, select **Publish Topology**, and then click **Next**.
     
 6. When the **Publishing wizard** completes, click **Finish** to close the wizard. 
     
-7. Verify that **Federation (port 5061)** is set to **Enabled**.
+7. Verify that **Federation (port 5061)** is set to **Enabled** in Topology Builder.
     
-     ![Topology Builder, Edge pool, Federation enabled](../media/migration_lyncserver_w15_federation_verify_2013_enabled.JPG)
   
-### To update Skype for Business Server 2019 Edge Server federation next hop
+## To update Skype for Business Server 2019 Edge Server federation next hop
 
 1. From Topology Builder, in the left pane, navigate to the **Skype for Business Server 2019** node and then to the **Edge pools** node. 
     
 2. Expand the node, right-click the Edge Server listed, and then click **Edit Properties**. 
     
 3. On the **General** page, under **Next hop selection**, select from the drop-down list the Skype for Business Server 2019 pool.
-    
-     ![Edit Properties dialog, Next hop page](../media/migration_lyncserver_w15_federation_configure_nexthop.JPG)
   
 4. Click **OK** to close the Edit Properties page. 
     
@@ -113,21 +102,19 @@ Use the following procedures to transition the federation route and the media tr
     
 6. From the **Action** menu, click **Publish Topology** and complete the wizard. 
     
-### To configure Skype for Business Server 2019 Edge Server outbound media path
+## To configure Skype for Business Server 2019 Edge Server outbound media path
 
 1. From Topology Builder, in the left pane, navigate to the **Skype for Business Server 2019** node and then to the pool below **Standard Edition Front End Servers** or **Enterprise Edition Front End pools**.
     
 2. Right-click the pool, and then click **Edit Properties**.
     
 3. In the **Associations** section, select the **Associate Edge pool (for media components)** check box. 
-    
-     ![Edit Properties, General, Associate Edge pool](../media/migration_lyncserver_w15_federation_enable_W15media.JPG)
   
 4. From the drop-down box, select the Skype for Business Server 2019 Edge Server.
     
 5. Click **OK** to close the **Edit Properties** page. 
     
-### To turn on Skype for Business Server 2019 Edge Server federation
+## To turn on Skype for Business Server 2019 Edge Server federation
 
 1. From Topology Builder, in the left pane, navigate to the **Skype for Business Server 2019** node and then to the **Edge pools** node. 
     
@@ -137,8 +124,6 @@ Use the following procedures to transition the federation route and the media tr
     > Federation can only be enabled for a single Edge pool. If you have multiple Edge pools, select one to use as the federating Edge pool. 
   
 3. On the **General** page, verify that the **Enable federation for this Edge pool (Port 5061)** check box is selected. 
-    
-     ![Edit Properties dialog, General page](../media/migration_lyncserver_w15_federation_enable_2013_federation.JPG)
   
 4. Click **OK** to close the Edit Properties page. 
     
@@ -149,14 +134,12 @@ Use the following procedures to transition the federation route and the media tr
 7. In the left pane, click **Federation route**.
     
 8. Under **Site federation route assignment**, select **Enable SIP federation**, and then from the list select the Skype for Business Server 2019 Edge Server listed. 
-    
-     ![Edit Properties, Federation route page](../media/migration_lyncserver_w15_federation_site_enablefed.JPG)
   
 9. Click **OK** to close the **Edit Properties** page. 
     
      For multi-site deployments, complete this procedure at each site. 
     
-### To publish Edge Server configuration changes
+## To publish Edge Server configuration changes
 
 1. From **Topology Builder**, select the top node **Skype for Business Server**. 
     
@@ -168,7 +151,7 @@ Use the following procedures to transition the federation route and the media tr
     > You may see the following message: **Warning: The topology contains more than one Federated Edge Server. This can occur during migration to a more recent version of the product. In that case, only one Edge Server would be actively used for federation. Verify that the external DNS SRV record points to the correct Edge Server. If you want to deploy multiple federation Edge Server to be active concurrently (that is, not a migration scenario), verify that all federated partners are using Skype for Business Server. Verify that the external DNS SRV record lists all federation enabled Edge Servers.** 
     > This warning is expected and can be safely ignored. 
   
-### To configure Skype for Business Server 2019 Edge Server
+## To configure Skype for Business Server 2019 Edge Server
 
 1. Bring all of the Skype for Business Server 2019 Edge Servers online. 
     

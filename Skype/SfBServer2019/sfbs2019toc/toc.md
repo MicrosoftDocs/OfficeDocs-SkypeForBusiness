@@ -3,7 +3,7 @@
 ## [What's new](../whats-new.md)
 ## [What's deprecated](../deprecated.md)
 
-## [Hybrid solutions](../hybrid/hybrid-solutions.md)
+## Hybrid solutions
 ### [Plan hybrid connectivity](../hybrid/plan-hybrid-connectivity.md)
 ### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity.md)
 #### [Configure Skype for Business hybrid](../hybrid/configure-federation-with-skype-for-business-online.md)
@@ -15,6 +15,7 @@
 ### Cloud Voicemail
 #### [Plan Cloud Voicemail](../hybrid/plan-cloud-voicemail.md)
 #### [Configure Cloud Voicemail](../hybrid/configure-cloud-voicemail.md)
+#### [Plan for Skype for Business Server and Exchange Server migration](../hybrid/plan-um-migration.md)
 ### Call Data Connector
 #### [Plan Call Data Connector](../hybrid/plan-call-data-connector.md)
 #### [Configure Call Data Connector](../hybrid/configure-call-data-connector.md)
@@ -22,9 +23,8 @@
 ## Plan
 ### [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Reference topologies](../../SfbServer/plan-your-deployment/topology-basics/reference-topologies.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-### System requirements 
-#### [Server requirements](../plan/server-requirements.md)
-#### [Infrastructure requirements](../plan/environmental-requirements.md)
+### Requirements 
+####[System requirements](../plan/system-requirements.md)
 #### [Load balancing requirements](../../SfbServer/plan-your-deployment/network-requirements/load-balancing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Network requirements](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [IPv6](../../SfbServer/plan-your-deployment/network-requirements/ipv6.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

@@ -38,7 +38,7 @@ You must finish migrating dial-in access numbers that point to the legacy instal
 > [!NOTE]
 > We recommend that you move dial-in access numbers when network usage is low, in case there is a short period of service outage. 
   
-### To identify and move dial-in access numbers
+## To identify and move dial-in access numbers
 
 1. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Skype for Business Server Management Shell**.
     
@@ -60,7 +60,7 @@ You must finish migrating dial-in access numbers that point to the legacy instal
     > [!NOTE]
     > When all dial-in access numbers point to the Skype for Business Server 2019 pool, you can then decommission the legacy install pool. 
   
-### Verify the dial-in access number migration using Skype for Business Server Control Panel
+## Verify the dial-in access number migration using Skype for Business Server Control Panel
 
 1. From a user account that is assigned to the **CsUserAdministrator** role or the **CsAdministrator** role, log on to any computer in your internal deployment. 
     
@@ -72,7 +72,7 @@ You must finish migrating dial-in access numbers that point to the legacy instal
     
 5. Verify that all the dial-in access numbers are migrated to the pool hosted on Skype for Business Server 2019.
     
-### Verify the dial-in access number migration using Skype for Business Server Management Shell
+## Verify the dial-in access number migration using Skype for Business Server Management Shell
 
 1. Open Skype for Business Server Management Shell.
     

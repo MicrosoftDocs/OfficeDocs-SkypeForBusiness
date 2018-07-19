@@ -14,7 +14,7 @@ description: "You can use Skype for Business Server Control Panel to start or st
 
 You can use Skype for Business Server Control Panel to start or stop all the legacy services running on a specific computer or to start or stop a specific legacy service.
   
-### To start or stop all Skype for Business Server services on a computer
+## To start or stop all Skype for Business Server services on a computer
 
 1. Open Skype for Business Server Control Panel.
     
@@ -26,7 +26,7 @@ You can use Skype for Business Server Control Panel to start or stop all the leg
     
 5. Click **Start All services** or **Stop All services**.
     
-### To start or stop a specific service
+## To start or stop a specific service
 
 1. Open Skype for Business Server Control Panel.
     

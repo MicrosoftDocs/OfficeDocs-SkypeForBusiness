@@ -21,10 +21,8 @@ Skype for Business Server supports three simple URLs:
 - **Admin** enables quick access to the Skype for Business Server Control Panel. The Admin simple URL is internal to your organization. 
     
 After migrating to Skype for Business Server, you must be aware of how the change impacts your DNS records and certificates for simple URLs. If the legacy Skype for Business Server Director remains in use in the topology, no changes to your simple URLs are required. If the Skype for Business Server Director is removed from the topology after migration, the simple URL DNS records must be updated to point to one of the Skype for Business Server pools. Whenever you change a simple URL name, however, you must run Enable-CsComputer on each Director and Front End Server to register the change.
-  
-## Changing Simple URLs after Migration
 
-### To update the Meet simple URL
+## To update the Meet simple URL
 
 1. In Topology Builder, right-click the top node **Skype for Business Server**, and then click **Edit Properties**.
     
@@ -32,7 +30,7 @@ After migrating to Skype for Business Server, you must be aware of how the chang
     
 3. Update the URL to the value you want, and then click **OK** to save the edited URL. 
     
-### To update the Admin simple URL
+## To update the Admin simple URL
 
 1. In Topology Builder, right-click the top node **Skype for Business Server**, and then click **Edit Properties**.
     

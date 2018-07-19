@@ -23,7 +23,7 @@ You can modify the behavior of the meeting join page if you want to allow users 
 |ShowJoinUsingLegacyClientLink  <br/> |If set to True, users joining a meeting by using a client application other than Lync will be given the opportunity to join the meeting. The default value is False.  <br/> |
 |ShowAlternateJoinOptionsExpanded  <br/> |When set to True, alternate options for joining an online conference will automatically be expanded and shown to users. When set to False (the default value), these options will be available, but the user will have to display the list of options for themselves.  <br/> |
    
-## To configure the meeting join page by using Skype for Business Server 2019 Management Shell
+### To configure the meeting join page by using Skype for Business Server 2019 Management Shell
 
 1. Start the Skype for Business Server 2019 Management Shell: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Skype for Business Server Management Shell**.
     

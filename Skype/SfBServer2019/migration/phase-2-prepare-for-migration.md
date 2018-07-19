@@ -15,7 +15,7 @@ description: "Before you begin your migration to Skype for Business Server 2019,
 
 Before you begin your migration to Skype for Business Server 2019, follow the steps described in this section.
   
-## In This Section
+## In this section
 
 - [Apply updates](apply-updates.md)
     
