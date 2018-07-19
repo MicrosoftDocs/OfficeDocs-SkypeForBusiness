@@ -23,7 +23,7 @@ If you want to use an Audio Conferencing Provider (ACP) in your hybrid deploymen
     
     To add the ACP domain as an Allowed Partner Server (allowed Federated Domain), follow the steps in [Configure Support for Allowed External Domains](http://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx). For the Edge Server, add the FQDN of the ACP partner's Edge Server. You may need to contact your ACP partner to obtain the FQDN for their Edge Server, which may also be referred to by your ACP as their Access Proxy.
     
-- **Provide the FQDN of your Edge Server Pool to the ACP partner**
+- **Providing the FQDN of your Edge Server Pool to the ACP partner**
     
     The ACP partner needs to configure federation to add your on-premises domain as an Allowed Partner Server by adding the FQDN of your Edge Server pool as an allowed Federated domain.
     

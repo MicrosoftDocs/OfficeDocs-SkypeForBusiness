@@ -28,7 +28,7 @@ You might choose to get call control through Microsoft Phone System in the cloud
   
 This topic describes the infrastructure and system requirements you'll need to configure hybrid connectivity between your existing on-premises Skype for Business Server deployment--with users who were created in your on-premises Active Directory--and Skype for Business Online or Teams. 
     
-After you have read this topic and are ready to configure hybrid connectivity, see [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](configure-hybrid-connectivity.md). The configuration topics provide step-by-step guidance for setting up hybrid connectivity between your on-premises deployment and Skype for Business Online.
+After you have read this topic and are ready to configure hybrid connectivity, see [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams](configure-hybrid-connectivity.md). The configuration topics provide step-by-step guidance for setting up hybrid connectivity between your on-premises deployment and Skype for Business Online.
   
 (For information about configuring your Lync Server 2013 or Lync Server 2010 deployment for hybrid, see [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
   
@@ -43,11 +43,11 @@ This type of configuration is sometimes referred to as "split domain"--meaning u
 
 With a split domain environment:
   
-- Users who are homed on premises interact with on premises Skype for Business servers.  They might also have access to online services, such as Cloud Voicemail.  
+- Users who are homed on premises interact with on-premises Skype for Business servers. They might also have access to online services, such as Cloud Voicemail.  
     
 - Users who are homed online may interact with Skype for Business or Teams online services.
     
-- Users from both environments can collaborate with each other by using Instant Messaging, participating in conference calls, VoIP calls, and so on.
+- Users from both environments can collaborate with each other by using Instant Messaging, participating in conference calls or VoIP calls, and so on.
     
 - Azure Active Directory Connect is used to synchronize your on-premises directory with Office 365.
     
@@ -82,7 +82,7 @@ To implement hybrid connectivty between your on-premises environment and Office 
 
 To configure hybrid connectivity, you will also need to set up federation between your on-premises and online environments, and configure your Skype for Business Online tenant for a shared Session Initiation Protocol (SIP) address space. For more information about the steps required to configure hybrid connectivity, see [Configure hybrid connectivity](configure-hybrid-connectivity.md). 
 
-After you configure hybrid connectivity, you can move users to Skype for Business Online or Teams. For more information, see [Move users from on premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md) and [Move users from on premises to Teams](move-users-from-on-premises-to-teams.md).
+After you configure hybrid connectivity, you can move users to Skype for Business Online or Teams. For more information, see [Move users from on premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md) and [Move users from on-premises to Teams](move-users-from-on-premises-to-teams.md).
     
 ## Multi-forest support
 <a name="BKMK_MultiForest"> </a>
@@ -145,7 +145,7 @@ To configure your deployment for hybrid with Skype for Business Online, you need
     
 - A Lync Server 2013 deployment with all servers running Lync Server 2013.
     
-    For hybrid voice connectivity, the Edge Server that is designated as Federation Edge must be Skype for Business 2015, the Edge also requires a Skype for Business Server backend. You might have a pool with no users on it. 
+    For hybrid voice connectivity, the Edge Server that is designated as Federation Edge must be Skype for Business 2015; the Edge also requires a Skype for Business Server backend. You might have a pool with no users on it. 
     
 - A Lync Server 2010 deployment with all servers running Lync Server 2010 with the latest cumulative updates.
     
@@ -195,9 +195,9 @@ The following requirements must be met to successfully configure a hybrid deploy
 ## DNS settings
 <a name="BKMK_DNS"> </a>
 
-When creating DNS records for hybrid deployments, all Skype for Business external DNS records should point to the on-premises infrastructure. For details on required DNS records, please refer to [DNS requirements for Skype for Business Server 2015](../../sfbserver/plan-your-deployment/network-requirements/dns.md).
+When creating DNS records for hybrid deployments, all Skype for Business external DNS records should point to the on-premises infrastructure. For details on required DNS records, please refer to [DNS requirements for Skype for Business Server](../../sfbserver/plan-your-deployment/network-requirements/dns.md).
   
-Additionally you need to ensure that the DNS resolution described in the following table works in your on-premises deployment:
+Additionally, you need to ensure that the DNS resolution described in the following table works in your on-premises deployment:
   
 |DNS record  <br/> |Resolvable by  <br/> |DNS requirement  <br/> |
 |:-----|:-----|:-----|
@@ -221,7 +221,7 @@ For more information, see [Office 365 URLs and IP address ranges](https://go.mic
 In addition to the port requirements for internal communication, you must also configure the following ports to enable hybrid connectivity:
   
 
-|**Protocol**|**TCP or UDP**|**Source IP**|**Destination IP**|**Source Port**|**Destination Port**|**Notes**|
+|**Protocol**|**TCP or UDP**|**Source IP**|**Destination IP**|**Source port**|**Destination port**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |Access Edge  <br/> |Office 365  <br/> |Any  <br/> |5061  <br/> |Signaling  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |Access Edge  <br/> |Any  <br/> |5061  <br/> |Signaling  <br/> |
@@ -230,7 +230,7 @@ In addition to the port requirements for internal communication, you must also c
 |STUN  <br/> |UDP  <br/> |A/V Edge  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Open for audio, video sessions  <br/> |
 |STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V Edge  <br/> |3478  <br/> |3478  <br/> |Open for audio, video sessions  <br/> |
    
-For more information about port and firewall planning for Edge Server, see [Edge Server environmental requirements in Skype for Business Server 2015](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). See also [Port and protocol requirements for servers](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md) and the [Protocol workloads diagram](http://go.microsoft.com/fwlink/p/?LinkId=550989).
+For more information about port and firewall planning for Edge Server, see [Edge Server environmental requirements in Skype for Business Server](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). See also [Port and protocol requirements for servers](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md) and the [Protocol workloads diagram](http://go.microsoft.com/fwlink/p/?LinkId=550989).
   
 ## User accounts and data
 <a name="BKMK_UserAccounts"> </a>
@@ -243,7 +243,7 @@ When you synchronize user accounts between your on-premises deployment and onlin
 > All user management, including user moves between on-premises and Skype for Business Online, must be done using the latest installed version of the administrative tools. The administrative tools must be installed on a separate server that has connect access to the existing on-premises deployment and to the Internet. The cmdlet to move users from your on-premises deployment to Skype for Business Online, [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser?view=skype-ps), must be run from the administrative tools connected to your on-premises deployment. For more information about moving users, see [Move users from on premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md). 
   
 > [!IMPORTANT]
-> If the user was created by using the online portal for Office 365, the user account will not be synchronized with on-premises Active Directory, and the user will not exist in the on-premises Active Directory. If you have already created users in your online tenant, and want to configure hybrid with an on-premises deployment, see Move users from online to on premises. 
+> If the user was created by using the online portal for Office 365, the user account will not be synchronized with on-premises Active Directory, and the user will not exist in the on-premises Active Directory. If you have already created users in your online tenant and want to configure hybrid with an on-premises deployment, see Move users from online to on premises. 
   
 You should also consider the following user-related issues when planning for a hybrid deployment:
   
