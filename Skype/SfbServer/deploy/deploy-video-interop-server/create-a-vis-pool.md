@@ -36,7 +36,7 @@ description: "Summary: Create a Video Interop Server pool in Skype for Business 
     
 5. Set a TCP or TLS port.
     
-    Select the newly added Video Interop Server from the left pane of Topology Builder, right click it and choose **Edit Properties**. Enable or Update the TCP or TLS port per your requirement and choose **OK**. Although by default TLS is added, only TCP has been fully tested with CUCM.
+    Select the newly added Video Interop Server from the left pane of Topology Builder, right click it and choose **Edit Properties**. Enable or Update the TCP or TLS port per your requirement and choose **OK**. Although by default TLS is added, only TCP has been fully tested with Cisco Unified Communications Manager (CallManager, or CUCM).
     
 6. Add a video gateway. To do this, Expand Shared Components, right click on **Video Gateways** and select **New Video Gateway**.
     

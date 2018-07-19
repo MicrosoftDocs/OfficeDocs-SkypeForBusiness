@@ -21,7 +21,7 @@ Skype for Business Server now allows you to integrate with certain third-party V
   
 ## Device interoperability
 
-Interoperation is tested and supported with Cisco VTCs registering with CUCM version 10.5 and TCP SIP trunks set up between CUCM and the VIS.
+Interoperation is tested and supported with Cisco VTCs registering with Cisco Unified Communications Manager (CallManager, or CUCM) version 10.5 and TCP SIP trunks set up between CUCM and the VIS.
   
 The currently supported VTCs are:
   

@@ -17,7 +17,7 @@ description: "Summary: Configure CUCM to work with Skype for Business Server."
 **Summary:** Configure CUCM to work with Skype for Business Server.
   
 > [!CAUTION]
-> This capability is tested with CUCM version 10.5 using Trunks setup over TCP only. Verify that the CUCM environment meets these criteria before proceeding. 
+> This capability is tested with Cisco Unified Communications Manager (CallManager, or CUCM) version 10.5 using Trunks setup over TCP only. Verify that the CUCM environment meets these criteria before proceeding. 
   
 The settings described here are meant only as examples of how CUCM can be configured to work with a VIS. Other settings and/or usages of alternate CUCM functionality could also be used to achieve the same result. No recommendation is implied as to the optimal configuration for a particular scenario.
   
