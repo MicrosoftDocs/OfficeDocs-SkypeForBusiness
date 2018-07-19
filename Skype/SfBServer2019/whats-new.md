@@ -36,7 +36,7 @@ Cloud Voicemail enables all your Skype for Business 2019 users&#x2014;whether th
 
 See [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md) and [Plan for Skype for Business Server and Exchange Server migration](hybrid/plan-um-migration.md) for more information.
   
-## Management of on-premises servers: Call Data Connector
+## Call monitoring: Call Data Connector
 
 Call Data Connector greatly simplifies call monitoring in a hybrid environment because you no longer need to use different sets of on-premises and online tools to monitor all of your users call quality.  Whether your users are homed on premises or online, you can choose to view call quality for your entire organization online.
 

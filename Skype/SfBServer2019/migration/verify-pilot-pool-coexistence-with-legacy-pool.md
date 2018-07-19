@@ -28,10 +28,22 @@ After you deploy the pilot pool, you need to verify the coexistence of the two p
 1. From the Skype for Business Server 2019 Front End Server, navigate to the Administrative Tools\Services applet.
     
 2. Verify that the following services are running on the Front End Server:
-    
-**Skype for Business Server 2019 services**
 
-![List of Skype for Business Server Services Started](../media/Migration_LyncServer_from_LyncServer2010_ServicesStarted.png)
+    - Centralized Logging Service Agent
+    - Application Sharing
+    - Audio Test Service
+    - Audio/Video Conferencing
+    - Call Park
+    - Conferencing Announcement
+    - Conferencing Attendant
+    - Front-End
+    - IM Conferencing
+    - Mediation
+    - Replica Replicator Agent
+    - Response Group
+    - Web Conferencing
+    - XMPP Translating Gateway
+
   
 ## Open the Skype for Business Server 2019 Control Panel
 <a name="sectionSection1"> </a>

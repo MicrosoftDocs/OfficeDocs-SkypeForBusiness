@@ -28,13 +28,12 @@ The following features and functionality have been deprecated in Skype for Busin
 
 Skype for Business Server 2015 and its predecessors allowed you to configure an Extensible Messaging and Presence Protocol (XMPP) proxy on the Edge Server and an XMPP Gateway on the Front End Server or Front End pool. This functionality is no longer available in Skype for Business Server 2019.
 
-If you want to keep this functionality, you will need to keep a Skype for Business Server 2015 pool and run Skype for Business Server 2019 in coexistance mode. See [Migrating XMPP federation](migration/migrating-xmpp-federation.md) for more information.
 
 ### Persistent Chat for Skype for Business Server
 
 Persistent Chat Server is an optional role that lets multiple users in your organization participate in chat room conversations that persist over time. Persistent chat can't be deployed with Skype for Business Server 2019. This server role is removed from Topology Builder, as well as from the code. 
 
-The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). If you need to use this functionality, your choices are to either migrate users who need it to Teams, or to continue using Skype for Business Server 2015.  
+The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams).   
 
 ### SQL Mirroring for Skype for Business Server
 
@@ -77,3 +76,5 @@ The following tools are not supported with Skype for Business Server 2019:
 ### See also
 
 [What's new in Skype for Business Server 2019](whats-new.md)
+
+[Migrating XMPP federation](migration/migrating-xmpp-federation.md)
