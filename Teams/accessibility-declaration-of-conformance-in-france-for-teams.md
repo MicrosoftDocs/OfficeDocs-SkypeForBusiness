@@ -199,4 +199,4 @@ Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE 
 
 ## Related topics
 
-[Accessibility solutions in France](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)
+[Accessibility solutions for Skype for Business Online in France](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)
