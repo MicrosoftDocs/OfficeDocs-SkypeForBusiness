@@ -56,7 +56,7 @@ A number of CUCM settings need to be confirmed or changed for interoperation wit
    
 9. On the same screen, scroll down to the SDP Profile Information section. The **SDP Session-level Bandwidth Modifier for Early Offer and Re-invites** option is set by default to TIAS and AS. Change this option to TIAS only. If you leave this option at its default setting, Skype for Business Server will not understand the bandwidth modifier information in the SIP message. TIAS means Transport Independent Application Specific while AS means Application Specific. These are SIP options specified in RFC3890.
     
-10. On the same screen, scroll down further. Under the SIP Profile's Trunk Specific Configuration, select ** Early Offer Support for voice and video calls** and set it to the **Mandatory (insert MTP if needed)** option. This will enable CUCM to set up an outgoing SIP call with Early Offer. One new feature in CUCM 8.5 and beyond is that it supports outgoing call setup with Early Offer without requiring Media Termination Point (MTP).
+10. On the same screen, scroll down further. Under the SIP Profile's Trunk Specific Configuration, select **Early Offer Support for voice and video calls** and set it to the **Mandatory (insert MTP if needed)** option. This will enable CUCM to set up an outgoing SIP call with Early Offer. One new feature in CUCM 8.5 and beyond is that it supports outgoing call setup with Early Offer without requiring Media Termination Point (MTP).
     
 11. Verify that in the SIP Options ping section, the box is checked next to "Enable OPTIONS Ping to monitor destination status for Trunks with Service Type 'None (Default)'."
     

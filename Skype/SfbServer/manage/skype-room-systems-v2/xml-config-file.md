@@ -100,7 +100,7 @@ If the XML file is badly formed (meaning a variable value is of the wrong type, 
   
 ## Manage console settings using an XML configuration file
 
-At startup, if a Skype Room Systems v2 console finds an XML file named SkypeSettings.xml at the location ** C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, it will apply the configuration settings indicated by the XML file then delete the XML file.
+At startup, if a Skype Room Systems v2 console finds an XML file named SkypeSettings.xml at the location **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, it will apply the configuration settings indicated by the XML file then delete the XML file.
   
 Depending on how many Skype Room Systems v2 devices your enterprise has and how you choose to manage to configure them, there are a number of ways to place the XML configuration file. Once the file is pushed to the console, restart it to process the configuration changes. The XML configuration file is deleted after it is successfully processed. The management methods suggested for Skype Room Systems v2 devices are discussed in:
   

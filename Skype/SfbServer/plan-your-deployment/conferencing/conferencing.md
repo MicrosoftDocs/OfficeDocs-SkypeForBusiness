@@ -170,9 +170,9 @@ When you are determining which conferencing capabilities to deploy, you need to 
     
   - **Remote users.** Your organization's own users, when they are working outside your firewalls and are using their laptops or other Skype for Business Server devices.
     
-  - **Federated Users. ** Users from companies you work with who also run Skype for Business Server. To enable your users to easily contact these users, you create federated relationships with these companies.
+  - **Federated Users.** Users from companies you work with who also run Skype for Business Server. To enable your users to easily contact these users, you create federated relationships with these companies.
     
-  - **Anonymous Users. ** Any other external users who are invited specifically by your users to join specific conferences. A meeting organizer in your company can send an email invitation for a conference to an external user. The email includes a link that the outside user can click to join the conference.
+  - **Anonymous Users.** Any other external users who are invited specifically by your users to join specific conferences. A meeting organizer in your company can send an email invitation for a conference to an external user. The email includes a link that the outside user can click to join the conference.
     
     If you want to allow external users, you'll need to deploy Edge Servers. Additionally, with Edge Servers deployed you can create federated relationships with other organizations--such as your customers or vendors--and users from those organizations can more easily collaborate with your users.
     

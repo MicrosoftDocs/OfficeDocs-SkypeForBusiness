@@ -18,7 +18,7 @@ description: "Summary: Create a Video Interop Server pool in Skype for Business 
   
 ### Create a VIS or VIS pool using Topology Builder
 
-1. Open Topology Builder on the front end server. From the left pane of Topology Builder, right click on ** Video Interop Server Pools** and choose **New Video Interop Server Pool**. 
+1. Open Topology Builder on the front end server. From the left pane of Topology Builder, right click on **Video Interop Server Pools** and choose **New Video Interop Server Pool**. 
     
 2. This will open up a **Create a new Video Interop Server Pool** wizard. Provide the Pool FQDN for the new Video Interop Server and select either **This pool has one server** or **This pool has multiple servers** based on your requirement, then press **Next**.
     
