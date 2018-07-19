@@ -12,7 +12,6 @@ ms.collection:
 description: "Markdown has Easter eggs. Who knew?"
 ---
 
-[!INCLUDE [disclaimer](disclaimer.md)]
 
 # Formatting Cheat Sheet
 
@@ -21,15 +20,15 @@ description: "Markdown has Easter eggs. Who knew?"
 Use heading formatting to create hierarchy in articles. To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the level of the heading. We use a single hashtag for the article title, so subordinate levels use level plus one hashtags.
 
 # Article Title 
-## Head level1
-### Head level2
-#### Head level3
-##### Head level4
-###### Head level5  
+## Head level 1
+### Head level 2
+#### Head level 3
+##### Head level 4
+###### Head level 5  
 
- On docs.microsoft.com, level-2 headings automatically show up in an **In this article** section in the right rail, so you can use level-2 headings to auto-matically create navigation for your article. 
+ On docs.microsoft.com, level-2 headings automatically show up in an **In this article** section in the right rail, so you can use level-2 headings to automatically create navigation for your article. 
 
-If you only need 1 heading levels, you can use the = (for article title) and – (for H1) characters under the heading lines to create headings. This may not get caught by the "in this article" function. Please test it out.
+If you only need 1 heading level, you can use the = (for article title) and – (for H1) characters under the heading lines to create headings. This may not get caught by the "in this article" function. Please test it out.
 
 Article title
 === 
@@ -273,7 +272,7 @@ Backslashes before other characters render as literal backslashes:
 
 \* If you want to use a plain ol' asterisk, precede it with a \ character.
 
-\*\*Same thing for 2 asterisks...
+\*\* Same thing for 2 asterisks...
 
 More info
 ===
@@ -296,7 +295,7 @@ Alerts
 > Here's a tip. it's fifty cents.
 
 Here's a link to a graphic: \
-![guyjknh](media/AD_Topology_Labels.jpg)
+![AD Topology Diagram](media/AD_Topology_Labels.jpg)
 
 
 
