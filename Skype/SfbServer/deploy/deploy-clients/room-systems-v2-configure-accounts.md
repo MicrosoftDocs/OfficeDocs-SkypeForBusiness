@@ -23,11 +23,11 @@ This topic introduces how to create accounts used by Skype Room Systems v2 in Mi
   
 - Online deployment: Your organization's environment is deployed entirely on Office 365. For more information, see [Deploy Skype Room Systems v2 with Office 365](with-office-365.md).
     
-- On-premises deployment: Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server 2015 are hosted. For more information, see [Deploy Skype Room Systems v2 with Skype for Business Server 2015](with-skype-for-business-server-2015.md)
+- On-premises deployment: Your organization has servers that it controls, where Active Directory, Exchange, and Skype for Business Server are hosted. For more information, see [Deploy Skype Room Systems v2 with Skype for Business Server](with-skype-for-business-server-2015.md)
     
 - Hybrid deployments: Your organization has a mix of services, with some hosted on premises and some hosted online through Office 365. With Skype Room Systems v2, the following hybrid scenarios are supported: 
     
-  - Exchange Online with Skype for Business Server 2015 on premises. For more information, see [Deploy Skype Room Systems v2 with Exchange Online (Hybrid)](with-exchange-online.md).
+  - Exchange Online with Skype for Business Server on premises. For more information, see [Deploy Skype Room Systems v2 with Exchange Online (Hybrid)](with-exchange-online.md).
     
   - Exchange on premises with Skype for Business Online. For more information, see [Deploy Skype Room Systems v2 with Exchange on premises (Hybrid)](with-exchange-on-premises.md).
     
