@@ -3,7 +3,6 @@ title: "Call Admission Control (Planning Tool)"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/6/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:

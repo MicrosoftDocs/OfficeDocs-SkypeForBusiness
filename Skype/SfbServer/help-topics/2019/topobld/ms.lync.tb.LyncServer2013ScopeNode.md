@@ -3,7 +3,6 @@ title: "Lync Server 2013 Scope Node"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
