@@ -60,9 +60,9 @@ Unanswered calls are handled as follows:
 
 The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  Your requirements depend on your scenario:
 
-- If you are already using Exchange UM online and you upgrade to Skype for Business 2019, you will need to modify your hosted voicemail policy and verify that your hosting providers are set correctly. 
+- If you are already using Exchange UM online and you upgrade to Skype for Business 2019, you will need to modify your hosted voicemail policy and verify that your hosting providers are set correctly. For more information, see [Configure Cloud Voicemail service](configure-cloud-voicemail.md).
 
-- If you are using Exchange UM on premises, or you have a mix of users using Exchange UM online and on premises, you will need modify both your hosted voicemail policy and hosting provider.
+- If you are using Exchange UM on premises, or you have a mix of users using Exchange UM online and on premises, you will need modify both your hosted voicemail policy and hosting provider.  For more information, see [Configure Cloud Voicemail service](configure-cloud-voicemail.md).
 
 - For a new configuration of Cloud Voicemail, follow the steps outlined in [Configure Cloud Voicemail service](configure-cloud-voicemail.md).
 
