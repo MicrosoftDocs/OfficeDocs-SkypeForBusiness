@@ -29,9 +29,9 @@ For more information about the benefits, planning considerations, and requiremen
 
 Configuring Cloud Voicemail involves the following tasks:
 
-1.  Ensure you have met the prerequisites as described in [Plan Cloud Voicemail service](plan-cloud-voicemail.md).
+1.  Ensure that you have met the prerequisites as described in [Plan Cloud Voicemail service](plan-cloud-voicemail.md).
 
-2.  Ensure you have set up hybrid connectivity as described in [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md). 
+2.  Ensure that you have set up hybrid connectivity as described in [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md). 
 
 3.  [Configure Cloud Voicemail as the hosting provider on the Edge Server](#configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server) as described in this article.
 
@@ -39,14 +39,14 @@ Configuring Cloud Voicemail involves the following tasks:
 
 5.  [Assign a hosted voicemail policy](#assign-a-hosted-voicemail-policy) as described in this article.
 
-6.  [Enable a User for Cloud Voicemail](#enable-a-user-for-cloud-voicemail) as described in this article.
+6.  [Enable a user for Cloud Voicemail](#enable-a-user-for-cloud-voicemail) as described in this article.
 
 
 ## Configure Cloud Voicemail as the hosting provider on the Edge Server 
 
 You configure Cloud Voicemail as the hosting provider on the Edge Server by using the New-CsHostingProvider cmdlet with the following parameters:
 
-- **Identity** specifies a unique string value identifier for the hosting provider that you are creating, for example, Cloud Voicemail. 
+- **Identity** specifies a unique string value identifier for the hosting provider that you are creating; for example, Cloud Voicemail. 
 
 - **Enabled** indicates whether the network connection between your domain and the hosting provider is enabled. This parameter must be set to True.
 
@@ -54,7 +54,7 @@ You configure Cloud Voicemail as the hosting provider on the Edge Server by usin
 
 - **HostsOCSUsers** indicates whether the hosting provider is used to host Skype for Business Server accounts. This parameter must be set to False.
 
-- **ProxyFQDN** specifies the fully qualified domain name (FQDN) for the proxy server used by the hosting provider, for example, proxyserver.contoso.com. Contact your hosting provider for this information. This value cannot be modified. If the hosting provider changes its proxy server, you will need to delete and then recreate the entry for that provider.
+- **ProxyFQDN** specifies the fully qualified domain name (FQDN) for the proxy server used by the hosting provider; for example, proxyserver.contoso.com. Contact your hosting provider for this information. This value cannot be modified. If the hosting provider changes its proxy server, you will need to delete and then re-create the entry for that provider.
 
 - **IsLocal** indicates whether the proxy server used by the hosting provider is contained within your Skype for Business Server topology. This parameter must be set to False.
 
@@ -67,7 +67,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 ## Configure a hosted voicemail policy
 
-To ensure voicemail for your organization is routed to the Cloud Voicemail service, you must configure a hosted voicemail policy for your organization. In many cases, only one hosted voicemail policy is required, and you can modify the global policy to meet all your needs. If your organization requires multiple hosted voicemail policies, you can add policies by using the new-cshostedvoicemailpolicy cmdlet.
+To ensure that voicemail for your organization is routed to the Cloud Voicemail service, you must configure a hosted voicemail policy for your organization. In many cases, only one hosted voicemail policy is required, and you can modify the global policy to meet all your needs. If your organization requires multiple hosted voicemail policies, you can add policies by using the new-cshostedvoicemailpolicy cmdlet.
 
 To modify the global policy, run the following command in the Skype for Business Server management shell after updating your Organization and TenantID:
 
@@ -77,13 +77,13 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 - **Destination** specifies the fully qualified domain name (FQDN) of the hosted Cloud Voicemail service. This value should be set to **exap.um.outlook.com**.
 
-- **Organization** is the default domain assigned to your tenant. You can retrieve this information by having the tenant admin log into office.com, click on the Admin Center app, navigate to Setup on the left, and click Domains. For example: mytenant.onmicrosoft.com.
+- **Organization** is the default domain assigned to your tenant. You can retrieve this information by having the tenant admin log in to office.com, click on the Admin Center app, navigate to **Setup** on the left, and click **Domains**. For example: mytenant.onmicrosoft.com.
 
-    The Organization name is also the Default Domain name in O365.
+    The Organization name is also the Default Domain name in Office 365.
 
 - **TenantID** is used to identify your tenant in Office 365. For more information, see [Find your Office 365 tenant ID](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
 
-To ensure that a Hosted Voicemail Policy was created successfully, run the following command:
+To ensure that a hosted voicemail policy was created successfully, run the following command:
 
 ```
 Get-CsHostedVoicemailPolicy
@@ -102,7 +102,7 @@ Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:Clou
 
 ## Enable a user for Cloud Voicemail
 
-To enable a user’s voice mail calls to be routed to Cloud Voicemail, you use the [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps) cmdlet with the HostedVoiceMail parameter. 
+To enable a user’s voicemail calls to be routed to Cloud Voicemail, you use the [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps) cmdlet with the HostedVoiceMail parameter. 
 
 For example, the following command enables a user account for Cloud Voicemail: 
 
@@ -114,6 +114,7 @@ The next example disables a user account for Cloud Voicemail:
 
 ```Set-CsUser -Identity "User1" -HostedVoiceMail $False```
 
-The cmdlet verifies that no hosted voice mail policy--at the global, site, or user level--applies to this user. If a policy does apply, the cmdlet fails.
+The cmdlet verifies that no hosted voicemail policy--at the global, site, or user level--applies to this user. If a policy does apply, the cmdlet fails.
 
-**Note:** Users must be enterprise-voice enabled to use Microsoft’s Cloud Voicemail Service.
+> [!NOTE]
+>  Users must be enterprise-voice enabled to use the Microsoft Cloud Voicemail Service.

@@ -3,7 +3,6 @@ title: "Plan Call Data Connector"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -20,18 +19,18 @@ description: "Overview of using Skype for Business Online telemetry tools to mon
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
 ## Overview
-This topic describes benefits, planning considerations, and requirements for implementing Skype for Business Server Call Data Connector.  For more information on configuring Call Data Connector, see [Configure Call Data Connector](configure-call-data-connector.md).
+This topic describes benefits, planning considerations, and requirements for implementing Skype for Business Server Call Data Connector. For more information on configuring Call Data Connector, see [Configure Call Data Connector](configure-call-data-connector.md).
 
 > [!NOTE]
 > At public preview release, only Call Analytics dashboard is available.
 
-Call Data Connector greatly simplifies call monitoring in a hybrid environment because you no longer need to use different sets of on-premises and online tools to monitor all of your users call quality.  Whether your users are homed on premises or online, you can choose to view call quality for your entire organization online.
+Call Data Connector greatly simplifies call monitoring in a hybrid environment because you no longer need to use different sets of on-premises and online tools to monitor all of your users call quality. Whether your users are homed on premises or online, you can choose to view call quality for your entire organization online.
 
 With Call Data Connector, you can perform the following tasks by using a single toolset:
 
 - Monitor your user experience across Microsoft Teams, Skype for Business Online, and Skype for Business Server.
 
-- View and troubleshoot problems across your network
+- View and troubleshoot problems across your network.
 
 - Assign helpdesk and administrator roles for Call Analytics, so that you can empower helpdesk workers to view and troubleshoot their areas of responsibility. 
 
@@ -43,11 +42,11 @@ The server pushes both Quality of Experience (QoE) and Call Detail Recording (CD
 
 The Call Analytics and CQD tools enable you to monitor the quality of calls and troubleshoot connection problems with Microsoft Teams and Skype for Business services as follows:
 
-- Call Analytics focuses on quality problems with specific calls. It shows detailed information about calls and meetings for each user in a Skype for Business account.  With Call Analytics, you can assign permissions to a Helpdesk operator who can then monitor calls without having access to the rest of the Skype for Business Admin center.
+- Call Analytics focuses on quality problems with specific calls. It shows detailed information about calls and meetings for each user in a Skype for Business account.  With Call Analytics, you can assign permissions to a helpdesk operator who can then monitor calls without having access to the rest of the Skype for Business Admin center.
 
 - Call Quality Dashboard focuses on network performance and issues across an organization. Skype for Business administrators and network engineers use this tool to troubleshoot and optimize network performance.
 
-For more information on Call Analytics and Call Quality Dashboard, see [Call Analytics and Call Quality Dashboard](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
+For more information, see [Call Analytics and Call Quality Dashboard](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
 
 Of course, you might want to keep some call quality data on premises. This might be the case, for example, if you are using a third-party solution with customized reports and workflows.  Call Data Connector allows you to configure sending data to the online service while also keeping a copy of the data on your on-premises server, as shown in the following diagram:
 
@@ -58,16 +57,16 @@ Of course, you might want to keep some call quality data on premises. This might
 
 The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  For more information about deploying Skype for Business Server and supported topologies, see [Topology Basics](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics).
 
-- Hybrid connectivity. If you already have Skype for Business Server deployed, and you want to enable Call Data Connector, you must ensure that you have hybrid connectivity set up between your on-premises and online environments. This is sometimes called a split domain configuration. 
+- Hybrid connectivity. If you already have Skype for Business Server deployed and you want to enable Call Data Connector, you must ensure that you have hybrid connectivity set up between your on-premises and online environments. This is sometimes called a split domain configuration. 
 
-   For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Skype for Business Online](configure-hybrid-connectivity.md).
+   For more information, see [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
 
-- To configure Call Data Connector, you must authenticate to your Office 365 tenant and ensure that you the following roles enabled:
+- To configure Call Data Connector, you must authenticate to your Office 365 tenant and ensure that you have the following roles enabled:
 
    - Skype for Business Server Administrator 
    - Office 365 Global Administrator 
 
-- If you have not already done so, turn on Call Quality Dashboard online as described in [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](../../SfbOnline/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md).
+- If you have not already done so, turn on Call Quality Dashboard as described in [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](../../SfbOnline/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md).
 
 ## Comparison of on-premises and online Call Quality Dashboard (CQD) reports
 

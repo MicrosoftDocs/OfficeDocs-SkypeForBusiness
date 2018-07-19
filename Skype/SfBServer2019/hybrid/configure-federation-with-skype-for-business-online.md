@@ -3,7 +3,6 @@ title: "Configure Skype for Business hybrid"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 5/4/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro

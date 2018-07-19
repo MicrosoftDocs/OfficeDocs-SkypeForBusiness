@@ -3,7 +3,6 @@ title: "Configure hybrid connectivity"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 5/4/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro

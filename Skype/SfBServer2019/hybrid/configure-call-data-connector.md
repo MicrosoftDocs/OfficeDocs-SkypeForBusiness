@@ -3,7 +3,6 @@ title: "Configure Call Data Connector"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -25,7 +24,7 @@ For more information about Call Data Connector benefits and pre-requisites, such
 
 ## Enable Monitoring 
 
-You must configure Call Data Recording (CDR) and Quality of Experience (QoE) data collection, otherwise the Call Analytics and Call Quality Dashboards won’t get information to display. Before you Configure Call Data Connector, follow the steps provided in [Deploy monitoring in Skype for Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) to configure both CDR and QoE.
+You must configure Call Data Recording (CDR) and Quality of Experience (QoE) data collection; otherwise, the Call Analytics and Call Quality Dashboards won’t get information to display. Before you Configure Call Data Connector, follow the steps provided in [Deploy monitoring in Skype for Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) to configure both CDR and QoE.
 
 
 ## Enable Call Data Connector
@@ -38,18 +37,18 @@ To configure and enable Call Data Connector, you will use the following cmdlets:
 | Get-CsCloudCallDataConnection | An online cmdlet that retrieves an existing online data collector.|  
 | Get-CsCloudCallDataConnector | An on-premises cmdlet that retrieves the connection information created by the New-CsCloudCallDataConnection cmdlet. |
 | Set-CsCloudCallDataConnector | An on-premises cmdlet that saves an on-premises copy of the connection information created by the New-CsCloudCallDataConnection cmdlet. |  
-| Set-CsCloudCallDataConnectorConfiguration | An on-premises cmdlet that enables you to enable or disable the connector and to customize the scope level.|
+| Set-CsCloudCallDataConnectorConfiguration | An on-premises cmdlet that allows you to enable or disable the connector and customize the scope level.|
 
-###Configure your environment 
+### Configure your environment 
 
 To configure your environment to enable an online data collector, you must first log in to Skype for Business Online PowerShell as an administrator. For more information, see [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 There are two methods for logging in to Skype for Business Online PowerShell:
 
-- From the Skype for Business Server 2019 management shell. (Recommended method)
-- From another PowerShell session.   
+- From the Skype for Business Server 2019 management shell (recommended method)
+- From another PowerShell session
 
-####Log in to Skype for Business Online PowerShell from the Skype for Business Server management shell (recommended method)
+#### Log in to Skype for Business Online PowerShell from the Skype for Business Server management shell (recommended method)
 
 1. If enabling the connector for the first time, run the following command:
 
@@ -64,7 +63,7 @@ There are two methods for logging in to Skype for Business Online PowerShell:
    ```
 
 
-####Log in to Skype for Business Online PowerShell from another PowerShell session (optional method)
+#### Log in to Skype for Business Online PowerShell from another PowerShell session (optional method)
 
 1.	If enabling the connector for the first time, run the following command: 
 
@@ -86,7 +85,7 @@ From within the Skype for Business Server management shell, specify the followin
 Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <token-copied-from-online>
 ```
 
-###Configure the scope
+### Configure the scope
 
 You can enable Call Data Connector for a particular site or for your entire Skype for Business Server deployment by using the Set-CsCloudCallDataConnectorConfiguration cmdlet from within the Skype for Business Server management shell. For example, the following command enables Call Data Connector at the global scope:
 
@@ -94,7 +93,7 @@ You can enable Call Data Connector for a particular site or for your entire Skyp
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
 
-In addition to the global settings, Call Data Connector configuration settings can be assigned to the site scope. This provides additional management flexibility when it comes to monitoring; for example, an administrator can enable Call Data Connector forwarding for the Redmond site but disable Call Data Connector forwarding for the Dublin site, as shown in the following example:
+In addition to the global settings, Call Data Connector configuration settings can be assigned to the site scope. This provides additional management flexibility when it comes to monitoring. For example, an administrator can enable Call Data Connector forwarding for the Redmond site but disable Call Data Connector forwarding for the Dublin site, as shown in the following example:
   
 ```
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
@@ -106,10 +105,10 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 
 Settings configured at the site scope take precedence over settings configured at the global scope. For example, suppose Call Data Connector forwarding is enabled at the global scope, but disabled at the site scope (for the Redmond site). That means that call detail recording and QoE information will not be forwarded for users in the Redmond site. However, users in other sites (that is, users managed by the global settings instead of the Redmond site settings) will have their call detail recording and QoE information forwarded.
 
-Values for the most commonly-used settings used by Call Data Connector are shown in the following table:  
-|Property|Description|Default Value|
+Values for the most commonly used settings used by Call Data Connector are shown in the following table:  
+|Property|Description|Default value|
 |:-----|:-----|:-----|
-|EnableCallDataConnector  <br/> |Indicates whether or not Call Data Connector is enabled. If True, monitoring records will be forwarded to online monitoring.  <br/> |$False  <br/> |
+|EnableCallDataConnector  <br/> |Indicates whether Call Data Connector is enabled. If True, monitoring records will be forwarded to online monitoring.  <br/> |$False  <br/> |
 | Identity | Determines the scope level for the command: global or site.   | global  |
 
 ## Disable Call Data Connector
@@ -130,7 +129,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## View on-premises data through the online dashboard
 
- After Call Data Connector is enabled, you can view your on-premises call data on the Call Analytics dashboard as described in  [Use Call Analytics to troubleshoot poor Skype for Business call quality](https://docs.microsoft.com/en-us/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality).
+ After Call Data Connector is enabled, you can view your on-premises call data on the Call Analytics dashboard as described in  [Use Call Analytics to troubleshoot poor quality](https://docs.microsoft.com/en-us/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality).
 
 
 ## For more information

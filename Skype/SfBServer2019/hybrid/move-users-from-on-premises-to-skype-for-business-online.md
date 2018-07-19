@@ -3,7 +3,6 @@ title: "Move users from on premises to Skype for Business Online"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 5/4/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -17,21 +16,21 @@ description: "Summary: Learn how to migrate user settings and move users to Skyp
  
 **Summary:** Learn how to migrate user settings and move users to Skype for Business Online.
   
-Before actually moving the user to Office 365, you should first confirm that the user accounts are synchronized to the cloud, and assign them a license. To do this, you use the Office 365 Admin Center.
+Before actually moving a user to Office 365, you should first confirm that the user accounts are synchronized to the cloud, and assign them a license. To do this, you use the Office 365 Admin Center.
   
 ### To confirm that an on-premises user account has been synchronized with Office 365
 
 1. Using a tenant admin account, open the Office 365 admin center for your tenant.  Tenant admin accounts should be granted both the Skype for Business Admin Role and the User Management Role (or the Global Admin role) to perform this function in Office 365.
     
-2. On the left navigation pane, click **Users** and then **Active Users**.
+2. On the left navigation pane, click **Users**, and then click **Active Users**.
     
 3. Click **Search for a User**, and type the name of the user.
     
-4. Confirm that you see the user, and that their status is **Synched with Active Directory**.
+4. Confirm that you see the user and that their status is **Synched with Active Directory**.
     
     If the user is not yet synchronized, the next automatic synchronization should happen within three hours. You can also force a synchronization sooner. For more information, see [Force Directory Synchronization](https://msdn.microsoft.com/en-us/library/azure/jj151771.aspx).
     
-To assign the license in Office 365, see [Assign licenses for Office 365 for Business](https://support.office.com/en-us/article/Assign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
+To assign the license in Office 365, see [Assign licenses to users in Office 365 for Business](https://support.office.com/en-us/article/Assign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
   
 ## Migrate user settings to Skype for Business Online
 
@@ -43,7 +42,7 @@ User settings are moved with the user account. Some on-premises settings are not
 
 Before you move users to Skype for Business Online, you may want to move a few pilot users to confirm that your environment is correctly configured. You can then verify that the features and services function as expected before attempting to move additional users.
   
-To move an on-premises user to your Skype for Business Online tenant, run the following cmdlets in the Skype for Business Server Management Shell, using the administrator credentials for your Microsoft Office 365 tenant. Replace "username@contoso.com" with the information for the user that you want to move:
+To move an on-premises user to your Skype for Business Online tenant, run the following cmdlets in the Skype for Business Server Management Shell, using the administrator credentials for your Microsoft Office 365 tenant. Replace "username@contoso.com" with the information for the user you want to move.
   
 ```
 $creds=Get-Credential
