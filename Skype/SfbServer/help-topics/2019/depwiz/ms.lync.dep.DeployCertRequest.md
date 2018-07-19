@@ -11,11 +11,11 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
-description: "For details about using Deployment Wizard to install Skype for Business Server 2015, see Install Skype for Business Server 2015."
+description: "For details about using Deployment Wizard to install Skype for Business Server, see Install Skype for Business Server."
 ---
 
 # Deployment Wizard: Request a Certificate
  
-For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server](../../../deploy/install/install.md).
+For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).
   
 

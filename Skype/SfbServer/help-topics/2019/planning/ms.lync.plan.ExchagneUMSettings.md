@@ -15,7 +15,7 @@ ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 description: "Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure."
 ---
 
-# Exchange Unified Messaging Settings (Planning Tool)
+# Exchange Unified Messaging Settings (Planning Tool) in Skype for Business 2015
  
 Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.
   

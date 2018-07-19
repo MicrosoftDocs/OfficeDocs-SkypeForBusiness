@@ -18,11 +18,11 @@ description: "What do you want to do? Click the link to the task that you want t
  
 What do you want to do? Click the link to the task that you want to perform.
   
-- [Enable Quality of Experience in Skype for Business Server 2015](../../../manage/health-and-monitoring/enable-qoe.md)
+- [Enable Quality of Experience in Skype for Business Server](../../../manage/health-and-monitoring/enable-qoe.md)
     
-- [Modify Quality of Experience settings in Skype for Business Server 2015](../../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [Modify Quality of Experience settings in Skype for Business Server](../../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [Create Quality of Experience configuration settings in Skype for Business Server 2015](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [Create Quality of Experience configuration settings in Skype for Business Server](../../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
  
 
