@@ -28,22 +28,22 @@ By following this guide, you can use a dashboard like the following example to g
 At a high level, you need to perform the following tasks:
 
 
-1.	[Validate Operations Management Suite configuration](with-oms.md#validate_OMS)
-2.	[Configure test devices for Operations Management Suite management setup](with-oms.md#configure_test_devices)
-3.	[Map custom fields](with-oms.md#Custom_fields)
-4.	[Define the Skype Room Systems v2 views in Operations Management Suite](with-oms.md#Define_Views)
-5.	[Define alerts](with-oms.md#Alerts)
-6.	[Configure all devices for Operations Management Suite](with-oms.md#configure_all_devices)
-7.	[Configure additional Operations Management Suite solutions](with-oms.md#Solutions)
+1.  [Validate Operations Management Suite configuration](with-oms.md#validate_OMS)
+2.  [Configure test devices for Operations Management Suite management setup](with-oms.md#configure_test_devices)
+3.  [Map custom fields](with-oms.md#Custom_fields)
+4.  [Define the Skype Room Systems v2 views in Operations Management Suite](with-oms.md#Define_Views)
+5.  [Define alerts](with-oms.md#Alerts)
+6.  [Configure all devices for Operations Management Suite](with-oms.md#configure_all_devices)
+7.  [Configure additional Operations Management Suite solutions](with-oms.md#Solutions)
 
 > [!IMPORTANT]
-> Although with minimal configuration, the Operations Management Suite can monitor a computer running a Windows operating system, there are still some Skype Room Systems–specific steps that you need to take before you start deploying agents to all Skype Room Systems devices.
+> Although with minimal configuration, the Operations Management Suite can monitor a computer running a Windows operating system, there are still some Skype Room Systems v2–specific steps that you need to take before you start deploying agents to all Skype Room Systems devices.
 > Therefore, we highly recommend you perform all configuration steps in the right order for a controlled setup and configuration. The quality of the end result very much depends on the quality of the initial configuration.
 
 ## Validate Operations Management Suite configuration
 <a name="validate_OMS"> </a>
 
-You need to have an Operations Management Suite workspace to start collecting logs from Skype Room Systems devices. A workspace is a unique Log Analytics environment with its own data repository, data sources, and solutions. If you already have an existing Log Analytics workspace, you might use it to monitor your Skype Room Systems deployment or you can create a dedicated Log Analytics workspace specific to your Skype Room Systems monitoring needs.
+You need to have an Operations Management Suite workspace to start collecting logs from Skype Room Systems v2 devices. A workspace is a unique Log Analytics environment with its own data repository, data sources, and solutions. If you already have an existing Log Analytics workspace, you might use it to monitor your Skype Room Systems v2 deployment or you can create a dedicated Log Analytics workspace specific to your Skype Room Systems v2 monitoring needs.
 
 If you need to create a new Log Analytics workspace, follow the instructions in the article [Create a Log Analytics workspace in the Azure portal](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-create-workspace)
 
@@ -51,29 +51,29 @@ If you need to create a new Log Analytics workspace, follow the instructions in 
 > To use Log Analytics with Operations Management Suite, you need to have an active Azure subscription. If you don’t have an Azure subscription, you can create [a free trial subscription](https://azure.microsoft.com/free) as a starting point.
 
 
-### Configure Operations Management Suite to collect Skype Room Systems event logs
+### Configure Operations Management Suite to collect Skype Room Systems v2 event logs
 
 Log Analytics only collects events from the Windows event logs that are specified in the settings. For each log, only the events with the selected severities are collected.
 
-You need to configure Operations Management Suite to collect the logs required to monitor Skype Room Systems device and application status. Skype Room Systems v2 devices use the Skype Room Systems event log.
+You need to configure Operations Management Suite to collect the logs required to monitor Skype Room Systems v2 device and application status. Skype Room Systems v2 devices use the **Skype Room System** event log.
 
-To configure Operations Management Suite to collect the Skype Room Systems events, see [Windows event log data sources in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
+To configure Operations Management Suite to collect the Skype Room Systems v2 events, see [Windows event log data sources in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
 
 ![Event log settings](../../media/Deploy_OMS_2.png "Event log settings")
 
 
 > [!IMPORTANT]
-> Select the Skype Room System event log, and then select the **Error**, **Warning**, and **Information** check boxes.
+> Select the **Skype Room System** event log, and then select the **Error**, **Warning**, and **Information** check boxes.
 
 ## Configure test devices for Operations Management Suite setup
 <a name="configure_test_devices"> </a>
 
-You need to prepare Operations Management Suite to be able to monitor Skype Room Systems–related events. To start with, you need to deploy Operations Management Suite agents to just one or two Skype Room Systems devices that you have physical access to and have those test devices generate some data and push it to the Log Analytics workspace.
+You need to prepare Operations Management Suite to be able to monitor Skype Room Systems v2–related events. To start with, you need to deploy Operations Management Suite agents to just one or two Skype Room Systems v2 devices that you have physical access to and have those test devices generate some data and push it to the Log Analytics workspace.
 
 ### Install Operations Management Suite agents to test devices
 
 Deploy the Operations Management Suite agent to the test devices by using the instructions provided in [Connect Windows computers to the Log Analytics service in Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows). This article gives detailed information about the steps for deploying Microsoft Monitoring Agent for Windows, instructions for obtaining the Operations
-Management Suite Workspace ID and the primary key to get Skype Room Systems devices connected to your Operations Management Suite deployment, and steps to verify agent connectivity to Log Analytics.
+Management Suite *Workspace ID* and the *primary key* to get Skype Room Systems v2 devices connected to your Operations Management Suite deployment, and steps to verify agent connectivity to Log Analytics.
 
 ### Generate sample Skype Room Systems events
 
@@ -81,19 +81,19 @@ After the Operations Management Suite agent is deployed onto the test devices, v
 
 1.  Sign in to the [Microsoft Operations Management Suite portal](http://aka.ms/omsportal).
 
-2.  List the events generated by a Skype Room Systems device:
+2.  List the events generated by a Skype Room Systems v2 device:
     1.  Go to **Log Search** and use a query to retrieve the records that will have the custom field.
     2.  Sample query: `Event | where Source == "SRS-App"`
 
 3.  Make sure that the query returns log records that include successful heartbeat events.
 
 4.  Generate a hardware issue, and validate that the required events are logged in Operations Management Suite.
-    1.  Unplug one of the peripheral devices on the test Skype Room Systems system. This could be the camera, speakerphone, microphone, or Front Room Display
+    1.  Unplug one of the peripheral devices on the test Skype Room Systems v2 system. This could be the camera, speakerphone, microphone, or Front Room Display
     2.  Wait 10 minutes for the event log to be populated in Operations Management Suite.
     3.  Use a query to list hardware error events: `Event | where EventID == 3001`
 
 5.  Generate an application issue, and validate that the required events are logged.
-    1.  Modify Skype Room Systems application configuration, and type an incorrect Session Initiation Protocol (SIP) address/password pair.
+    1.  Modify Skype Room Systems v2 application configuration, and type an incorrect Session Initiation Protocol (SIP) address/password pair.
     2.  Wait 10 minutes for the event log to be populated in Operations Management Suite.
     3.  Use a query to list application error events: `Event | where EventID == 2001`
 
@@ -109,24 +109,25 @@ To extract your custom fields out of the captured event logs, follow these steps
 
 1.  Sign in to the [Microsoft Operations Management Suite portal](http://aka.ms/omsportal).
 
-2.  List the events generated by a Skype Room Systems device:
+2.  List the events generated by a Skype Room Systems v2 device:
     1.  Go to **Log Search** and use a query to retrieve the records that will have the custom field.
     2.  Sample query: `Event | where Source == "SRS-App"`
 
 3.  Select one of the records, select the button to the left, and start the field extraction wizard.
 
-![Field extraction wizard](../../media/Deploy_OMS_3.png "Field extraction wizard")
+   ![Field extraction wizard](../../media/Deploy_OMS_3.png "Field extraction wizard")
 
 4.  Highlight the data you’d like to extract from the RenderedDescription and provide a Field Title. The field names that you should use are provided in Table 1.
 
-![Custom field definition](../../media/Deploy_OMS_4.png "Custom field definition")
+   ![Custom field definition](../../media/Deploy_OMS_4.png "Custom field definition")
 
-5.  Use the mappings shown in Table 1. Operations Management Suite will automatically add the **\_CF** string when you define the new field.
+5.  Use the mappings shown in *Table 1*. Operations Management Suite will automatically add the **\_CF** string when you define the new field.
 
 > [!IMPORTANT]
 > Remember that all JSON and Operations Management Suite fields are case-sensitive.
 
 > Pay attention to the state of the EventID check box in the table below. Be sure you confirm the state of this check box for Operations Management Suite to successfully extract custom field values.
+> 
 > ![Custom field definition](../../media/Deploy_OMS_5.png "Custom field definition") 
 
 **Table 1**
@@ -179,7 +180,7 @@ Alternatively, you can create your own dashboard and add only the tiles that you
 #### Configure the Overview Tile
 1.  Open **View Designer**.
 2.  Select **Overview Tile**, and then select **Two numbers** from the gallery.
-3.  Name the tile **Skype Room Systems**.
+3.  Name the tile **Skype Room Systems v2**.
 4.  Define the **First Tile**:<br>
     **Legend:** Devices that sent a heartbeat at least once within the last month<br>
     **Query:** ```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
@@ -227,7 +228,7 @@ Alternatively, you can create your own dashboard and add only the tiles that you
 
 1.  Select **Number & list** from the gallery, and then add a new tile.
 2.  Define the **General** properties:<br>
-    **Group Title:** Hardware<br>
+    **Group Title:** Hardware Status<br>
     **New Group:** Selected
 3.  Define the **Tile** properties:<br>
     **Legend:** Devices that experienced a hardware error in the last hour <br>
@@ -241,7 +242,31 @@ Alternatively, you can create your own dashboard and add only the tiles that you
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  Select **Apply**, and then **Close**.
 
-### Create a tile that displays Skype Room Systems application versions
+### Create a tile that displays Skype Room Systems v2 Operating System versions
+
+1.  Select **Donut & list** from the gallery, and then add a new tile.
+2.  Define the **General** properties:<br>
+    **Group Title:** Operating Syetem details <br>
+    **New Group:** Selected
+3.  Define the **Header** properties:<br>
+    **Title:** Operating System versions<br>
+    **Subtitle:** Devices running specific OS versions
+4.  Define the **Donut** properties:<br>
+    **Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
+    **Center Text:** Devices<br>
+    **Operation:** Sum
+5.  Define the **List** properties.<br>
+    **List Query:** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
+    **Hide Graph:** Selected<br>
+    **Enable Sparklines:** Not selected
+6.  Define **Column Titles**.<br>
+    **Name:** Display Name<br>
+    **Value:** Leave Empty
+7.  Define **Navigation Query**.<br>
+    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+8.  Select **Apply** and then **Close**.
+
+### Create a tile that displays Skype Room Systems v2 application versions
 
 1.  Select **Donut & list** from the gallery, and then add a new tile.
 2.  Define the **General** properties:<br>
@@ -308,7 +333,7 @@ You can use the Microsoft Operations Management Suite portal or Operations Manag
 
 ## Configure Alerts in Operations Management Suite
 <a name="Alerts"> </a>
-When a Skype Room Systems device encounters an issue, Microsoft Operations Management Suite can raise alerts to notify the administrators with the details of the issue.
+When a Skype Room Systems v2 device encounters an issue, Microsoft Operations Management Suite can raise alerts to notify the administrators with the details of the issue.
 
 Operations Management Suite includes a built-in alerting mechanism that runs through scheduled log searches at regular intervals. If the results of the log search match some particular criteria, an alert record is created.
 
@@ -322,12 +347,12 @@ The rule can then automatically run one or more actions to proactively notify yo
 See [Understanding alerts in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts) to learn more about the alerts in Operations Management Suite.
 
 > [!NOTE]
-> The following examples send email alerts when a Skype Room Systems device generates a hardware or an application error. 
+> The following examples send email alerts when a Skype Room Systems v2 device generates a hardware or an application error. 
 
 
-### Configure an email alert for Skype Room Systems hardware issues
+### Configure an email alert for Skype Room Systems v2 hardware issues
 
-Configure an alert rule that checks for Skype Room Systems devices that have had hardware issues within the last hour.
+Configure an alert rule that checks for Skype Room Systems v2 devices that have had hardware issues within the last hour.
 1.  Sign in to the [Microsoft Operations Management Suite portal](http://aka.ms/omsportal).
 
 2.  Select **Log Search**.
@@ -344,21 +369,21 @@ Configure an alert rule that checks for Skype Room Systems devices that have had
 4.  After the query is executed, select **Alert**. This will open the **Add Alert Rule** page.
 
 5.  Configure alert settings by using the information below:<br>
-    **Rule Name:** Skype Room Systems Hardware Failure Alert<br>
+    **Rule Name:** Skype Room Systems v2 Hardware Failure Alert<br>
     **Description:** List of devices that encountered a hardware issue within the last hour<br>
     **Severity:** Critical<br>
     **Query:** Use the prepopulated search query<br>
     **Time Window:** 1 hour<br>
     **Alert Frequency:** 1 hour<br>
     **Number of results:** Greater than 0<br>
-    **Email Subject:** Skype Room Systems Hardware Failure Alert<br>
+    **Email Subject:** Skype Room Systems v2 Hardware Failure Alert<br>
     **Recipients:** Include the email addresses, using semicolons as separators<br>
 
 6.  Select **Save**.
 
-### Configure an email alert for Skype Room Systems application issues
+### Configure an email alert for Skype Room Systems v2 application issues
 
-Configure an alert rule, that checks for Skype Room Systems devices that have had application issues within the last hour.
+Configure an alert rule, that checks for Skype Room Systems v2 devices that have had application issues within the last hour.
 1.  Select **Log Search**.
 
 2.  Enter the following query, and then select **Run**.<br>
@@ -373,14 +398,14 @@ Configure an alert rule, that checks for Skype Room Systems devices that have ha
 3.  After the query is executed, select **Alert**. This will open the **Add Alert Rule** page.
 
 4.  Configure alert settings by using the information below:<br>
-    **Rule Name:** Skype Room Systems Application Failure Alert<br>
+    **Rule Name:** Skype Room Systems v2 Application Failure Alert<br>
     **Description:** List of devices that encountered an application issue within the last hour<br>
     **Severity:** Critical<br>
     **Query:** Use the prepopulated search query<br>
     **Time Window:** 1 hour<br>
     **Alert Frequency:** 1 hour<br>
     **Number of results:** Greater than 0<br>
-    **Email Subject:** Skype Room Systems Application Failure Alert<br>
+    **Email Subject:** Skype Room Systems v2 Application Failure Alert<br>
     **Recipients:** Include the email addresses, using semicolons as separators
 
 5.  Select **Save**.
@@ -400,15 +425,15 @@ You use an alert settings page to modify an existing alert configuration, or to 
 
 ## Configure all devices for Operations Management Suite
 <a name="configure_all_devices"> </a>
-After the dashboards and alerts are configured, you can set up and configure Operations Management Suite agents on all Skype Room Systems devices to complete your monitoring deployment.
+After the dashboards and alerts are configured, you can set up and configure Operations Management Suite agents on all Skype Room Systems v2 devices to complete your monitoring deployment.
 
 Although you can install and configure the Operations Management Suite agents manually on each device, we highly recommend you leverage existing software deployment tools and methods.
 
-If you’re building your Skype Room Systems devices for the first time, you might want to include the Operations Management Suite agent setup and configuration steps as part of your build process. For more information, see [Install the agent using the command line](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows#install-the-agent-using-the-command-line).
+If you’re building your Skype Room Systems v2 devices for the first time, you might want to include the Operations Management Suite agent setup and configuration steps as part of your build process. For more information, see [Install the agent using the command line](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows#install-the-agent-using-the-command-line).
 
 ### Deploying Operations Management Suite agents by using a Group Policy Object
 
-If you already deployed your Skype Room Systems devices before you implement Operations Management Suite, you can use the provided script to set up and configure the agents by using Active Directory group policies.
+If you already deployed your Skype Room Systems v2 devices before you implement Operations Management Suite, you can use the provided script to set up and configure the agents by using Active Directory group policies.
 
 1.  Create a shared network path and grant read access to **Domain Computers** group.
 
@@ -418,7 +443,7 @@ If you already deployed your Skype Room Systems devices before you implement Ope
     1.  Open a Command Prompt window, and then execute **MMASetup-AMD64.exe /c**
     2.  Specify the share you just created, and extract the content.
 
-4.  Create a new Group Policy Object and assign it to the organizational unit where Skype Room Systems machine accounts are located.
+4.  Create a new Group Policy Object and assign it to the organizational unit where Skype Room Systems v2 machine accounts are located.
 
 5.  Configure PowerShell execution policy:
     1.  Edit the newly created Group Policy Object and navigate to Computer Configuration \\ Policies \\ Administrative Templates \\ Windows Components \\ Windows PowerShell
@@ -433,8 +458,7 @@ If you already deployed your Skype Room Systems devices before you implement Ope
     6.  Select **Add**, and then **Browse**.
     7.  Select the ps1 script you just copied.
 
-7.  Skype Room Systems devices should install and configure the Microsoft
-    Monitoring agent with the second reboot.
+7.  Skype Room Systems v2 devices should install and configure the Microsoft Monitoring agent with the second reboot.
 
 
     ```
