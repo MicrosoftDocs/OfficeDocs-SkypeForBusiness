@@ -30,6 +30,9 @@ For these features to be supported in an on-premises Exchange UM deployment, you
 - Microsoft Exchange Server 2013
     
 -  Microsoft Exchange Server 2016
+
+> [!NOTE]
+> Exchange Unified Messaging as previously known is no longer available in Skype for Business Server 2019, which uses Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) for more information.
     
 ## Features of integrated Unified Messaging and Skype for Business Server 2015
 

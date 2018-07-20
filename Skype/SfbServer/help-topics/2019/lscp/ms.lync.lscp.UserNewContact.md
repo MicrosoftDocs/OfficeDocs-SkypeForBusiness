@@ -39,7 +39,5 @@ What do you want to do? Click the link to the task that you want to perform.
     
 - [Assign a Per-User Mobility Policy](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
     
-- [Assign a Per-User Persistent Chat Policy](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
-    
  
 

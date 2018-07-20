@@ -24,7 +24,7 @@ After completing these prerequisites, you can begin **Step 3: Prepare Current Fo
 2. From the **Prepare Forest** page, click **Next**.
     
     > [!NOTE]
-    > Forest Preparation enables you to choose where to place the Universal Groups for Skype for Business Server 2015. Choose a location that is consistent with the requirements of your organization. 
+    > Forest Preparation enables you to choose where to place the Universal Groups for Skype for Business Server. Choose a location that is consistent with the requirements of your organization. 
   
 3. On the **Executing Commands** page, look for **Task status: Completed**, and then click **View Log**. Make sure that there are no errors. Review the warnings to determine if they are expected and typical for your infrastructure.
     

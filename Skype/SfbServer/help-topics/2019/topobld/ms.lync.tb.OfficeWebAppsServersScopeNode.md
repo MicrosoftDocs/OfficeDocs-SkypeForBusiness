@@ -25,4 +25,4 @@ You right click **Office Web Apps Servers** and select **New Office Web Apps Ser
     
 ## See also
 
-[Configuring Integration with Office Web Apps Server and Lync Server 2013](http://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)
+[Configuring Integration with Office Web Apps Server](http://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)

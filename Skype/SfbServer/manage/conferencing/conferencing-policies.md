@@ -1,22 +1,21 @@
 ---
-title: "Manage conferencing policies in Skype for Business Server 2015"
+title: "Manage conferencing policies in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
-description: "Summary: Learn how to manage conferencing policies in Skype for Business Server 2015."
+description: "Summary: Learn how to manage conferencing policies in Skype for Business Server."
 ---
 
-# Manage conferencing policies in Skype for Business Server 2015
+# Manage conferencing policies in Skype for Business Server
  
-**Summary:** Learn how to manage conferencing policies in Skype for Business Server 2015.
+**Summary:** Learn how to manage conferencing policies in Skype for Business Server.
   
-This topic describes how to manage conferencing policies. For more information about how to plan and deploy conferencing, see [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+This topic describes how to manage conferencing policies. For more information about how to plan and deploy conferencing, see [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Conferencing policies allow you to define a wide variety of scheduling and participation options, ranging from whether a meeting can include IP audio and video to the maximum number of people who can attend. You can use conferencing policies to manage security, bandwidth, and legal aspects of meetings.
   

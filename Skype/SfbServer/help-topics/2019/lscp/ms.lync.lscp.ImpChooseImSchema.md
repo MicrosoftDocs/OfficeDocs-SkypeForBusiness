@@ -21,6 +21,6 @@ If you do not see a hyperlink prefix that you want to select listed in **Hyperli
   
 After you have added all of the hyperlink prefixes that you want to the **Selected hyperlink prefixes** list, click **OK**.
   
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server](../../../manage/manage.md).
+ 
   
 

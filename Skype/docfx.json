@@ -11,6 +11,8 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -28,6 +30,8 @@
           "**/obj/**",
           "**/includes/**",
           "README.md",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
@@ -43,6 +47,8 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -59,6 +65,8 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -75,6 +83,8 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",

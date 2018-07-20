@@ -28,7 +28,7 @@ To edit or modify the settings for a SIP trunk, you do the following:
  **Associated Mediation Server**: Select an existing Mediation Server from the deployment to associate with the SIP trunk.
   
 > [!NOTE]
-> Only the root trunk can be associated with a Lync Server 2010 or Lync Server 2013 Mediation Server. 
+> Only the root trunk can be associated with a Mediation Server. 
   
  **Associated Mediation Server port**: A required value, this is set to the value that the Mediation Server is configured to listen on.
   

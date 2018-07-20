@@ -1,22 +1,21 @@
 ---
-title: "User Registration Report in Skype for Business Server 2015"
+title: "User Registration Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
-description: "Summary: Learn about the User Registration Report in Skype for Business Server 2015."
+description: "Summary: Learn about the User Registration Report in Skype for Business Server."
 ---
 
-# User Registration Report in Skype for Business Server 2015
+# User Registration Report in Skype for Business Server
  
-**Summary:** Learn about the User Registration Report in Skype for Business Server 2015.
+**Summary:** Learn about the User Registration Report in Skype for Business Server.
   
-The User Registration Report provides an overview of user logon activity, most notably information about the number of users who logged on to Skype for Business Server 2015 during a specified time period (hourly, daily, weekly, monthly). Keep in mind that the report only tells you how many people logged on. It does not tell you which people logged on. Monitoring Reports do not provide information about which specific users are using Skype for Business Server 2015 (and which ones are not). However, you can get a rough estimate of user information by using the User Activity Report.
+The User Registration Report provides an overview of user logon activity, most notably information about the number of users who logged on to Skype for Business Server during a specified time period (hourly, daily, weekly, monthly). Keep in mind that the report only tells you how many people logged on. It does not tell you which people logged on. Monitoring Reports do not provide information about which specific users are using Skype for Business Server (and which ones are not). However, you can get a rough estimate of user information by using the User Activity Report.
   
 When providing information about user logons, the User Registration Report draws two important distinctions. First, it breaks logons down into two primary categories: internal logons and external logons. Internal logons represent users who logged on from inside your organization's firewall (that is, while connected to the corporate network). External logons represent users who logged on from outside the firewall through an Edge Server (for example, a user who logged on from an Internet café counts as an external logon). If you need to know how many of your users are logging on from outside the firewall, the User Registration Report can provide you with this information.
   
@@ -55,7 +54,7 @@ If the preceding command returns a value of 1,236 and Unique logon users metric 
 > [!CAUTION]
 > Keep in mind that the logon metrics record users who actually logged on during the specified time period. They don't keep track of users who were already logged on to the system. For example, if your Unique logon users metric shows 667 logons and you have 1,236 users, that suggests that about half your users are logging on to the system. However, suppose 300 users were already logged on to the system at the time you began checking the logon data. That would mean that you actually had nearly 1,000 users logged on to Skype for Business Server, which would mean that closer to 80% of your users were logged on. 
   
-You should also compare the Unique logon users value with the value of the Unique active users metric. The Unique active users metric tells you how many unique users actually used Skype for Business Server: they made a phone call, they joined a Skype for Business Server Meeting, or they participated in an IM session. This is useful information, because Skype for Business Server 2015 can be configured to automatically start each time a user starts Windows. Because of that, you might have a large number of users who automatically log on to Skype for Business when they log on to Windows each day, but then never actually use Skype for Business Server during that time period.
+You should also compare the Unique logon users value with the value of the Unique active users metric. The Unique active users metric tells you how many unique users actually used Skype for Business Server: they made a phone call, they joined a Skype for Business Server Meeting, or they participated in an IM session. This is useful information, because Skype for Business Server can be configured to automatically start each time a user starts Windows. Because of that, you might have a large number of users who automatically log on to Skype for Business when they log on to Windows each day, but then never actually use Skype for Business Server during that time period.
   
 The Unique active users metric also provides more meaningful data in an organization where users typically do not log off Windows at the end of the day. Instead, they simply lock their computers and leave Windows and Skype for Business running. In a situation like that, you might end up with very few logons per day because your users logged on several days ago and never logged off. However, Unique active users tells you whether users are actively using Skype for Business or another Skype for Business Server client.
   

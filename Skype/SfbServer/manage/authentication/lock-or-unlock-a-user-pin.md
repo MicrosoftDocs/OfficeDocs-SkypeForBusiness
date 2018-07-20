@@ -1,21 +1,20 @@
 ---
-title: "Lock or unlock a user PIN in Skype for Business Server 2015"
+title: "Lock or unlock a user PIN in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-description: "Summary: Lock or unlock a user's dial-in conferencing PIN for Skype for Business Server 2015."
+description: "Summary: Lock or unlock a user's dial-in conferencing PIN for Skype for Business Server."
 ---
 
-# Lock or unlock a user PIN in Skype for Business Server 2015
+# Lock or unlock a user PIN in Skype for Business Server
  
-**Summary:** Lock or unlock a user's dial-in conferencing PIN for Skype for Business Server 2015.
+**Summary:** Lock or unlock a user's dial-in conferencing PIN for Skype for Business Server.
   
 You can lock or unlock a user's PIN from the **Users** section of Skype for Business Server Control Panel.
   

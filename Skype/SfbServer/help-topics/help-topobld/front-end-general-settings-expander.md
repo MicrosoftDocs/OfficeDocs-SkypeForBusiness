@@ -129,7 +129,7 @@ For a Standard Edition server, you can configure general, resiliency, web servic
 
 You can configure the following general settings:
   
-- ** FQDN**. Note that the FQDN cannot be changed. You must remove and redefine the Standard Edition server to change the FQDN associated with it.
+- **FQDN**. Note that the FQDN cannot be changed. You must remove and redefine the Standard Edition server to change the FQDN associated with it.
     
 - Select **Use all configured IP addresses** or to **Limit service usage to selected IP addresses**. If you select to limit the service to defined IP addresses, you will define the Primary IP address that the server will use for all communications, except for PSTN. You define a separate IP address for PSTN usage. You can also select **Enable IPv6** to enable IPv6 for this server.
     

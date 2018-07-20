@@ -20,6 +20,6 @@ If you have Front End pools, Director pools, or Edge Server pools, you need to d
   
 - [Load balancing requirements for Skype for Business](../../../plan-your-deployment/network-requirements/load-balancing.md)
     
-- [DNS requirements for Skype for Business Server 2015](../../../plan-your-deployment/network-requirements/dns.md)
+
     
 

@@ -1,20 +1,19 @@
 ---
-title: "Associate Monitoring Reports with a mirror database in Skype for Business Server 2015"
+title: "Associate Monitoring Reports with a mirror database in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: "Summary: Learn how to associate Monitoring Reports with a mirror database used by Skype for Business Server 2015."
+description: "Summary: Learn how to associate Monitoring Reports with a mirror database used by Skype for Business Server."
 ---
 
-# Associate Monitoring Reports with a mirror database in Skype for Business Server 2015
+# Associate Monitoring Reports with a mirror database in Skype for Business Server 
  
-**Summary:** Learn how to associate Monitoring Reports with a mirror database used by Skype for Business Server 2015.
+**Summary:** Learn how to associate Monitoring Reports with a mirror database used by Skype for Business Server.
   
 ## Monitor reports with a mirror database
 
@@ -62,6 +61,6 @@ To get Monitoring Reports to automatically failover to the mirror database, you 
     
 ## See also
 
-[Install Monitoring Reports in Skype for Business Server 2015](install-monitoring-reports.md)
+[Install Monitoring Reports in Skype for Business Server](install-monitoring-reports.md)
   
-[Using Monitoring Reports in Skype for Business Server 2015](../../manage/health-and-monitoring/monitoring-reports.md)
+[Using Monitoring Reports in Skype for Business Server](../../manage/health-and-monitoring/monitoring-reports.md)

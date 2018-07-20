@@ -3,7 +3,6 @@ title: "Load balancing requirements for Skype for Business"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
-description: "Summary: Review the load balancing considerations before implementing Skype for Business Server 2015."
+description: "Summary: Review the load balancing considerations before implementing Skype for Business Server."
 ---
 
 # Load balancing requirements for Skype for Business
  
-**Summary:** Review the load balancing considerations before implementing Skype for Business Server 2015.
+**Summary:** Review the load balancing considerations before implementing Skype for Business Server.
   
 Load balancing distributes traffic among the servers in a pool. If you have Front End pools, Mediation Server pools, or Edge Server pools, you need to deploy load balancing for these pools.
   
@@ -55,7 +54,7 @@ The Skype for Business Server scaled consolidated Edge topology is optimized for
 > [!NOTE]
 > The direct server return (DSR) NAT is not supported with Skype for Business Server. 
   
-To determine whether your hardware load balancer supports the necessary features required by Skype for Business Server, see [Infrastructure for Skype for Business](https://technet.microsoft.com/en-us/office/dn947483).
+To determine whether your hardware load balancer supports the necessary features required by Skype for Business Server, see [Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
   
 ### Hardware Load Balancer Requirements for Edge Servers Running the A/V Edge Service
 
@@ -105,7 +104,7 @@ If you are deploying mobile devices, your hardware load balancer must be able to
 > F5 hardware load balancers have a feature called OneConnect that ensures each request within a TCP connection is individually load balanced. If you are deploying mobile devices, ensure your hardware load balancer vendor supports the same functionality. The latest Apple iOS mobile apps require Transport Layer Security (TLS) version 1.2. F5 provides specific settings for this. 
   
 > [!CAUTION]
-> For details on third party hardware load balancers, see [Infrastructure for Skype for Business](https://technet.microsoft.com/en-us/office/dn947483). 
+> For details on third party hardware load balancers, see [Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
 Following are the hardware load balancer requirements for Director and Front End pool Web Services:
   

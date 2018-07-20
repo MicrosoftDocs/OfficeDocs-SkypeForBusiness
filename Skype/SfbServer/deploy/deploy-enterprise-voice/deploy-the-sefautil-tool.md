@@ -1,9 +1,8 @@
 ---
-title: "Deploy the SEFAUtil tool in Skype for Business 2015"
+title: "Deploy the SEFAUtil tool in Skype for Business"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: "Deploying the SEFAUtil tool in Skype for Business Server."
 ---
 
-# Deploy the SEFAUtil tool in Skype for Business 2015
+# Deploy the SEFAUtil tool in Skype for Business
  
 Deploying the SEFAUtil tool in Skype for Business Server.
   

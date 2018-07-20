@@ -1,9 +1,8 @@
 ---
-title: "Estimating voice usage and traffic for Skype for Business Server 2015"
+title: "Estimating voice usage and traffic for Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 10/22/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,7 +12,7 @@ ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: "You can use the following metric to estimate user traffic at each site and the number of ports that are required to support that traffic."
 ---
 
-# Estimating voice usage and traffic for Skype for Business Server 2015
+# Estimating voice usage and traffic for Skype for Business Server
  
 You can use the following metric to estimate user traffic at each site and the number of ports that are required to support that traffic.
   

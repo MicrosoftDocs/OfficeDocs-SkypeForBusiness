@@ -1,22 +1,21 @@
 ---
-title: "Conference Summary Report in Skype for Business Server 2015"
+title: "Conference Summary Report in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
-description: "Summary: Learn about the Conference Summary Report in Skype for Business Server 2015."
+description: "Summary: Learn about the Conference Summary Report in Skype for Business Server."
 ---
 
-# Conference Summary Report in Skype for Business Server 2015
+# Conference Summary Report in Skype for Business Server
  
-**Summary:** Learn about the Conference Summary Report in Skype for Business Server 2015.
+**Summary:** Learn about the Conference Summary Report in Skype for Business Server.
   
-The Conference Summary Report provides an overall view of your online conferencing sessions. A conference typically involves more than 2 users and requires the use of conferencing services. By comparison, a peer-to-peer session typically involves just 2 users and does not require the use of Skype for Business Server conferencing services. Peer-to-peer activities are reported on the [Peer-to-Peer Activity Summary Report in Skype for Business Server 2015](peer-to-peer-activity-summary-report.md).
+The Conference Summary Report provides an overall view of your online conferencing sessions. A conference typically involves more than 2 users and requires the use of conferencing services. By comparison, a peer-to-peer session typically involves just 2 users and does not require the use of Skype for Business Server conferencing services. Peer-to-peer activities are reported on the [Peer-to-Peer Activity Summary Report in Skype for Business Server](peer-to-peer-activity-summary-report.md).
   
 The Conference Summary Report not only tells you how many conferences were held during a given time period (hourly, daily, weekly, monthly) but also tells you the total number of people who took part in those conferences, and the total number of unique conference organizers.
   

@@ -1,24 +1,23 @@
 ---
-title: "Configure CUCM for Interoperation with Skype for Business Server 2015"
+title: "Configure CUCM for Interoperation with Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
-description: "Summary: Configure CUCM to work with Skype for Business Server 2015."
+description: "Summary: Configure CUCM to work with Skype for Business Server."
 ---
 
-# Configure CUCM for Interoperation with Skype for Business Server 2015
+# Configure CUCM for Interoperation with Skype for Business Server
  
-**Summary:** Configure CUCM to work with Skype for Business Server 2015.
+**Summary:** Configure CUCM to work with Skype for Business Server.
   
 > [!CAUTION]
-> This capability is tested with CUCM version 10.5 using Trunks setup over TCP only. Verify that the CUCM environment meets these criteria before proceeding. 
+> This capability is tested with Cisco Unified Communications Manager (CallManager, or CUCM) version 10.5 using Trunks setup over TCP only. Verify that the CUCM environment meets these criteria before proceeding. 
   
 The settings described here are meant only as examples of how CUCM can be configured to work with a VIS. Other settings and/or usages of alternate CUCM functionality could also be used to achieve the same result. No recommendation is implied as to the optimal configuration for a particular scenario.
   
@@ -57,7 +56,7 @@ A number of CUCM settings need to be confirmed or changed for interoperation wit
    
 9. On the same screen, scroll down to the SDP Profile Information section. The **SDP Session-level Bandwidth Modifier for Early Offer and Re-invites** option is set by default to TIAS and AS. Change this option to TIAS only. If you leave this option at its default setting, Skype for Business Server will not understand the bandwidth modifier information in the SIP message. TIAS means Transport Independent Application Specific while AS means Application Specific. These are SIP options specified in RFC3890.
     
-10. On the same screen, scroll down further. Under the SIP Profile's Trunk Specific Configuration, select ** Early Offer Support for voice and video calls** and set it to the **Mandatory (insert MTP if needed)** option. This will enable CUCM to set up an outgoing SIP call with Early Offer. One new feature in CUCM 8.5 and beyond is that it supports outgoing call setup with Early Offer without requiring Media Termination Point (MTP).
+10. On the same screen, scroll down further. Under the SIP Profile's Trunk Specific Configuration, select **Early Offer Support for voice and video calls** and set it to the **Mandatory (insert MTP if needed)** option. This will enable CUCM to set up an outgoing SIP call with Early Offer. One new feature in CUCM 8.5 and beyond is that it supports outgoing call setup with Early Offer without requiring Media Termination Point (MTP).
     
 11. Verify that in the SIP Options ping section, the box is checked next to "Enable OPTIONS Ping to monitor destination status for Trunks with Service Type 'None (Default)'."
     
@@ -136,4 +135,4 @@ At this point the CUCM video gateway is configured to work with the VIS. Corresp
   
 ## See also
 
-[Configure a VTC for Interoperation with Skype for Business Server 2015](configure-a-vtc-for-interoperation.md)
+[Configure a VTC for Interoperation with Skype for Business Server](configure-a-vtc-for-interoperation.md)

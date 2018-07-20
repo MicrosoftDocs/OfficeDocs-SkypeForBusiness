@@ -1,9 +1,8 @@
 ---
-title: "Use Config.xml to perform installation tasks in Skype for Business Server 2015"
+title: "Use Config.xml to perform installation tasks in Skype for Business Server"
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,7 +11,7 @@ ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: "Summary: How to use the Config.xml file to specify additional installation instructions."
 ---
 
-# Use Config.xml to perform installation tasks in Skype for Business Server 2015
+# Use Config.xml to perform installation tasks in Skype for Business Server
  
 **Summary:** How to use the Config.xml file to specify additional installation instructions.
   

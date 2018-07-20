@@ -44,7 +44,7 @@ Other roles include:
     
 - **CsUserAdministrator:** Members can manage, enable and disable users, and assign existing policies to users.
     
-- **CsViewOnlyAdministrator:** Members can view the deployment and configuration of the server information. This membership enables a member to monitor the health of the servers running Skype for Business Server 2015.
+- **CsViewOnlyAdministrator:** Members can view the deployment and configuration of the server information. This membership enables a member to monitor the health of the servers running Skype for Business Server.
     
 - **CsVoiceAdministrator:** Members can create, configure, and manage voice-related settings in Skype for Business Server.
     

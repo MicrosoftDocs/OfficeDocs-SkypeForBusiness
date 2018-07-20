@@ -221,7 +221,7 @@ The following table outlines the status of interop between the latest version of
 
 |**Skype Clients**|**Add contacts, IM, presence, audio, and video calling**|**Comment**|
 |:-----|:-----|:-----|
-|Skype Windows Desktop  <br/> |7.6 or higher, Windows XP and higher  <br/> |**NEW**: Support added for Windows Skype client running on Windows XP, and Windows Vista ** (requires latest client version 7.26 or higher)** <br/> |
+|Skype Windows Desktop  <br/> |7.6 or higher, Windows XP and higher  <br/> |**NEW**: Support added for Windows Skype client running on Windows XP, and Windows Vista **(requires latest client version 7.26 or higher)** <br/> |
 |Skype Mobile - Android Phone and Tablet  <br/> |6.19 or higher, running Android OS version 4.0.3 or higher  <br/> |Low spec devices may not support video calling  <br/> |
 |Skype Mobile - iOS  <br/> |6.11 or higher, on IOS 7 or higher  <br/> |Not supported are iPhone 4 and earlier, iPod 4th generation and earlier, iPad 1st generation  <br/> |
 |Skype Mac  <br/> |7.19 or higher, on Mac OS X 10.9 (Mavericks) or higher  <br/> |Requires Mac OSX 10.9 or higher  <br/> |

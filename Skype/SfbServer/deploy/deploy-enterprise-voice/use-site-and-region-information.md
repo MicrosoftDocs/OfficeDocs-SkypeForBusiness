@@ -1,9 +1,8 @@
 ---
-title: "Configure media bypass global settings in Skype for Business Server 2015 to use site and region information"
+title: "Configure media bypass global settings in Skype for Business Server to use site and region information"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: "Configure media bypass to be used for only certain sites and regions in Skype for Business Server Enterprise Voice."
 ---
 
-# Configure media bypass global settings in Skype for Business Server 2015 to use site and region information
+# Configure media bypass global settings in Skype for Business Server to use site and region information
  
 Configure media bypass to be used for only certain sites and regions in Skype for Business Server Enterprise Voice. 
   
@@ -48,8 +47,9 @@ For media bypass to work properly there must be consistency between a site as de
     
 Next, add subnets to the network site, as described in [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets). After you associate all subnets with network sites, media bypass deployment is complete.
 > [!IMPORTANT]
-> If you have not already created network regions and network sites, you must first create those before you can proceed with media bypass deployment. For details, see [Deploy network regions, sites and subnets in Skype for Business 2015](deploy-network.md). 
+> If you have not already created network regions and network sites, you must first create those before you can proceed with media bypass deployment. For details, see [Deploy network regions, sites and subnets in Skype for Business](deploy-network.md). 
   
 ## See also
 
 [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets)
+

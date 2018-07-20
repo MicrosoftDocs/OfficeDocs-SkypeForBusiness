@@ -2,7 +2,6 @@
 title: "Plan for Modern Authentication in Skype for Business"
 ms.author: tracyp
 author: MSFTTracyP
-ms.date: 6/23/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro

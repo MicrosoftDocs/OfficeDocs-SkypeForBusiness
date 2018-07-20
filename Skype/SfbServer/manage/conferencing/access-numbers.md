@@ -1,24 +1,23 @@
 ---
-title: "Manage dial-in conferencing access numbers in Skype for Business Server 2015"
+title: "Manage dial-in conferencing access numbers in Skype for Business Server "
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: "Summary: Learn how to manage dial-in conferencing access numbers in Skype for Business Server 2015."
+description: "Summary: Learn how to manage dial-in conferencing access numbers in Skype for Business Server."
 ---
 
-# Manage dial-in conferencing access numbers in Skype for Business Server 2015
+# Manage dial-in conferencing access numbers in Skype for Business Server
  
-**Summary:** Learn how to manage dial-in conferencing access numbers in Skype for Business Server 2015.
+**Summary:** Learn how to manage dial-in conferencing access numbers in Skype for Business Server.
   
 When you deploy dial-in conferencing, you need to set up phone numbers that users can dial from the public switched telephone network (PSTN) to join the audio portion of conferences. These dial-in access numbers appear in meeting invitations and on the Dial-in Conferencing Settings webpage. 
   
-This topic describes how to view, modify, or delete existing dial-in conferencing access numbers. For more information about how to create initial dial-in access numbers, see [Configure dial-in conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+This topic describes how to view, modify, or delete existing dial-in conferencing access numbers. For more information about how to create initial dial-in access numbers, see [Configure dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 ## View dial-in conferencing access numbers
 
@@ -117,7 +116,7 @@ You can modify dial-in access numbers by using Skype for Business Server Control
     
     You can choose up to four secondary languages for each dial-in access number. Users can select a secondary language before entering the conference ID when they dial in to a conference.
     
-12. To add a region for the dial-in access number, under **Associated regions**, click ** Add**, click one or more regions that are associated with the dial plans for this dial-in access number, and then click **OK**.
+12. To add a region for the dial-in access number, under **Associated regions**, click **Add**, click one or more regions that are associated with the dial plans for this dial-in access number, and then click **OK**.
     
 13. To delete a region from the dial-in access number, under **Associated regions**, click the region you want to delete, and then click **Remove**.
     
@@ -147,7 +146,7 @@ You can delete a dial-in conferencing access number by using Skype for Business 
   
 ### Delete a dial-in conferencing access number by using Skype for Business Server Control Panel
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2.  Open Skype for Business Server Control Panel.
     

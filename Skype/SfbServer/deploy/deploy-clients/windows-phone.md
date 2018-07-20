@@ -3,7 +3,6 @@ title: "Install and test Skype for Business for Windows Phone"
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -105,7 +104,5 @@ To remove the Skype for Business for Windows Phone app from your mobile device:
     
 2. Tap and hold the Skype for Business for Windows Phone application, and then select **Uninstall**.
     
-## See also
 
-[Getting started with Skype for Business for Windows Phone 8.1]()
 

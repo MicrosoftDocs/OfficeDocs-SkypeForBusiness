@@ -21,7 +21,7 @@ You can specify the version of clients that are supported in your environment. W
 
 You can perform the following tasks on the **Client Version Policy** page:
   
-- Edit the default (**Global**) client version policy.
+- Edit the default ( **Global**) client version policy.
     
 - Create client version policies for a particular site or pool.
     
