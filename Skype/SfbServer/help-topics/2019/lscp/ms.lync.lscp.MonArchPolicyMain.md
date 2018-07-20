@@ -3,7 +3,6 @@ title: "Archiving Policy"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -31,7 +30,7 @@ Archiving policies include the global policy, and, optionally, one or more site 
 - **User policy (optional)** You can specify one or more user Archiving policies, each of which you can configure to enable and disable archiving of internal or external communications for a specific user or user group. A user policy overrides the global policy and site policies, but only for the users and user groups to whom you assign user-level Archiving policies. You can edit or delete user policies.
     
 > [!NOTE]
-> Archiving policies apply only to users homed on Skype for Business Server. If you use Exchange integration to store archiving data in Microsoft Exchange, then Exchange 2013 policies control archiving for users homed on Exchange 2013. To enable archiving for those users, the user's mailbox must be placed on In-Place Hold. 
+> Archiving policies apply only to users homed on Skype for Business Server. If you use Exchange integration to store archiving data in Microsoft Exchange, then Exchange policies control archiving for users homed on Exchange. To enable archiving for those users, the user's mailbox must be placed on In-Place Hold. 
   
 The **Archiving Policy** page lists each Archiving policy that is configured for your deployment. It also shows the policy name, scope (global, site, or user), and which archiving options are enabled for each Archiving policy. From the **Archiving Policy** page, you have the following options:
 - **New** You can add one or more of each of the following optional Archiving policies:

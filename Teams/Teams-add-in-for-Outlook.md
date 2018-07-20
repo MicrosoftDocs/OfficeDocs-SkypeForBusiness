@@ -7,7 +7,7 @@ audience: Admin
 ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
+ms.reviewer: 
 localization_priority: Priority
 description: Microsoft Teams installs an add-in into Outlook that lets users schedule a Teams meeting from Outlook.
 ms.custom:

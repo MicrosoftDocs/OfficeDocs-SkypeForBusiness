@@ -3,7 +3,6 @@ title: "Exchange Unified Messaging (Planning Tool)"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -17,6 +16,9 @@ description: "Skype for Business Server 2015 supports integration with Exchange 
 
 # Exchange Unified Messaging (Planning Tool) in Skype for Business 2015
  
+> [!NOTE]
+> Exchange Unified Messaging as previously known is no longer available in Exchange 2019, but you can still use Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) for more information.
+
 Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.
   
 For details, see:

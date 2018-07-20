@@ -3,7 +3,6 @@ title: "Archiving Configuration"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -20,7 +19,7 @@ You use Archiving configurations to control archiving options for your Skype for
   
 - Blocking of instant messaging (IM) or conferencing sessions if archiving fails
     
-- Integration with Exchange 2013 storage, for users homed on Exchange 2013
+- Integration with Exchange storage, for users homed on Exchange
     
 - Purging of archived data
     
@@ -33,7 +32,7 @@ Archiving configurations include the global configuration and, optionally, one o
 - **Pool configuration (optional)** You can specify one or more pool Archiving configuration, to control archiving options for a specific pool. A pool configuration overrides the global configuration and site configuration, but only for the pools specified in Archiving pool configurations. You can edit or delete pool configurations.
     
 > [!NOTE]
-> Archiving configurations apply to users homed on Skype for Business Server and, if you use Exchange to store archiving data in Microsoft Exchange, to users homed on Exchange 2013 but are implemented slightly differently for users homed on Exchange 2013. The differences are described in the next section. 
+> Archiving configurations apply to users homed on Skype for Business Server and, if you use Exchange to store archiving data in Microsoft Exchange, to users homed on Exchange but are implemented slightly differently for users homed on Exchange. The differences are described in the next section. 
   
 The **Archiving Configuration** page lists each Archiving policy that is configured for your deployment. It also shows the policy name, scope (global, site, or pool), and which archiving options are enabled for each Archiving configuration. From the **Archiving Configuration** page, you have the following options:
 - **New** You can add one or more of each of the following optional Archiving configurations.

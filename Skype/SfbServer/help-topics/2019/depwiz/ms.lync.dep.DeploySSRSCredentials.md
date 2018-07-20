@@ -3,7 +3,6 @@ title: "SQL Server Reporting Services (Credentials)"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:

@@ -3,7 +3,6 @@ title: "Install Local Configuration Store"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 4/13/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:

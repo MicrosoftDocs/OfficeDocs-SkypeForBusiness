@@ -3,7 +3,6 @@ title: "Add Mediation Server NextHop"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:

@@ -3,7 +3,6 @@ title: "Define Properties and Options for Persistent Chat Pool"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -13,6 +12,8 @@ localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: "You configure options for your Persistent Chat Server or Persistent Chat Server pool by defining the following properties:"
 ---
+
+# Define Properties and Options for Persistent Chat Pool
 
 > [!NOTE] 
 > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.
