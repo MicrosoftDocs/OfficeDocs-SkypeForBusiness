@@ -34,6 +34,9 @@ The table below explains the elements shown in this sample SkypeSettings.xml (th
              <ConfigureDomain>domain1, domain2</ConfigureDomain>
              <AutoRotatePassword>1</AutoRotatePassword>
   </UserAccount>    
+  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+  <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
+  <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled> 
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled> 
   <DualScreenMode>true</DualScreenMode>
@@ -69,14 +72,16 @@ If the XML file is badly formed (meaning a variable value is of the wrong type, 
 |\<HideMeetingName\>  <br/> |Boolean &#x2777; <br/> |First &#x2776; <br/> |If true, meeting names are hidden.  <br/> |
 |\<UserAccount\>  <br/> |Container  <br/> |First &#x2776; <br/> |Container for credentials parameters.  <br/> The sign in address, Exchange address, or email address are usually the same, such as RanierConf<span></span>@contoso.com.  <br/> |
 |\<SkypeMeetingsEnabled\>  <br/> |Boolean &#x2777; <br/> |First &#x2776; <br/> |Enabled by default.  <br/> |
-|\<TeamsMeetingsEnabled\>  <br/> |Boolean &#x2777; <br/> |First &#x2776; <br/> |Disabled by default.  <br/> The XML file is considered badly formed if both \<SkypeMeetingsEnabled\> and\<TeamsMeetingsEnabled\> are disabled, but it's acceptable to have both settings enabled at the same time.  <br/> |
 |\<SkypeSignInAddress\>  <br/> |String 3 <br/> ||The sign in name for the console's Skype for Business device account.  <br/> |
 |\<ExchangeAddress\>  <br/> |String 3 <br/> ||The sign in name for the console's Exchange device account.  <br/> If the ExchangeAddress is omitted, the SkypeSignInAddress will not automatically be re-used.  <br/> |
 |\<DomainUsername\>  <br/> |String  &#x2778; <br/> ||The domain and user name of the console device, for example Seattle\RanierConf.  <br/> |
 |\<Password\>  <br/> |String 3 <br/> || The password parameter is the same password used for the Skype for Business device account sign-in. <br/> |
 | \<ConfigureDomain\> <br/> |String  &#x2778; <br/> ||You can list several domains, separated by commas.  <br/> |
 |\<AutoRotatePassword\>  <br/> |Boolean &#x2777; <br/> |||
-| \<DualScreenMode\> <br/> |Boolean &#x2777; <br/> |First &#x2776; <br/> |If true, dual screen mode is enabled. Otherwise the device will use single screen mode.  <br/> |
+|\<TeamsMeetingsEnabled\>  <br/> |Boolean &#x2777; <br/> |First &#x2776; <br/> |Disabled by default.  <br/> The XML file is considered badly formed if both \<SkypeMeetingsEnabled\> and\<TeamsMeetingsEnabled\> are disabled, but it's acceptable to have both settings enabled at the same time.  <br/> |
+|\<IsTeamsDefaultClient> |Boolean &#x2777; <br/> |First &#x2776; <br/> |Disabled by default. <br/>|
+|\<BluetoothAdvertisementEnabled> |Boolean &#x2777; <br/> |First &#x2776; <br/> |Enabled by default. <br/>|
+|\<DualScreenMode\> <br/> |Boolean &#x2777; <br/> |First &#x2776; <br/> |If true, dual screen mode is enabled. Otherwise the device will use single screen mode.  <br/> |
 |\<SendLogs\>  <br/> |Container  <br/> |First &#x2776; <br/> ||
 |\<EmailAddressForLogsAndFeedback\>  <br/> |String  &#x2778; <br/> ||This sets an optional email address that logs can be sent to when the "Give Feedback" window appears.  <br/> |
 |\<SendLogsAndFeedback\>  <br/> |Boolean &#x2777; <br/> || If true, logs are sent to the admin. If false, only feedback is sent to the admin (and not logs). <br/> |
