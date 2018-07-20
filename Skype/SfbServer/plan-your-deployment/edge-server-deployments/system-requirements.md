@@ -155,7 +155,7 @@ For any Edge Server running the A/V Edge service, these are the requirements:
     
 #### HLB requirements
 
-As with Lync Server 2013, Skype for Business Server doesn't have a lot of cookie-based affinity requirements. So you don't need to use a cookie-based persistence **unless** you're going to have Lync Server 2010 Front End Servers or Front End pools in your Skype for Business Server environment. They would need cookie-based affinity in the configuration method recommended for Lync Server 2010.
+Skype for Business Server doesn't have a lot of cookie-based affinity requirements. So you don't need to use a cookie-based persistence **unless** (and this is Skype for Business Server 2015-specific) you're going to have Lync Server 2010 Front End Servers or Front End pools in your Skype for Business Server environment. They would need cookie-based affinity in the configuration method recommended for Lync Server 2010.
   
 > [!NOTE]
 > If you decide to turn cookie-based affinity on for your HLB, there won't be a problem doing so, even if your environment doesn't need it. 

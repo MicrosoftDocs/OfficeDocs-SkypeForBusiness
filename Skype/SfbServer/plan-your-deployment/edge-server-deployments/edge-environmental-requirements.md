@@ -118,7 +118,15 @@ Let's look at some additional things to think about while planning.
     
 - **DNS load balancing**: For UM, Exchange 2010 SP1 and newer are able to be supported by DNS load balancing. Note that if you need to go with DNS load balancing for an earlier version of Exchange, it'll work, but all the traffic for this will go to the first server in the pool, and if it's not available, that traffic will subsequently fail.
     
-    DNS load balancing is also recommended if you're federating with companies using Lync Server 2010, Lync Server 2013, and Microsoft Office 365.
+    DNS load balancing is also recommended if you're federating with companies using:
+- Skype for Business Server 2015:
+    - Lync Server 2010
+    - Lync Server 2013
+    - Microsoft Office O365
+- Skype for Business Sever 2019:
+    - Lync Server 2013
+    - Skype for Business Server 2015
+    - Microsoft Office 365.
     
 ## DNS planning
 <a name="DNSPlan"> </a>
