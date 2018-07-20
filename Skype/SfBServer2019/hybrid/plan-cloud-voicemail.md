@@ -74,6 +74,8 @@ In addition to the requirements above, the below requirements must be configured
 
 - On-premises users must be enabled for Enterprise Voice and Hosted Voicemail in Skype for Business Server.
 
+- An External Exchange Web Services (EWS) URL and Autodiscover must be setup or some Cloud Voicemail features will be limited.
+
 -  If you have an on-premises only deployment--that is, only Exchange and Skype for Business on-premises servers--but you want to take advantage of Cloud Voicemail, you need the ON-PREM license. 
 
 ##Migration and interoperability
