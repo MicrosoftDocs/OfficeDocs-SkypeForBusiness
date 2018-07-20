@@ -29,7 +29,7 @@ To edit the settings for an existing single or multiple server Edge pool, you ar
 
 Internal pool fully qualified domain name (FQDN) of the Edge Server pool. Edit the FQDN of the pool to change this setting.
   
-Select the check box **Enable federation for this Edge pool (Port 5061)** if you will set up federation with a Lync Server 2013, Microsoft Lync Server 2010 or Microsoft Office Communications Server 2007 R2 trusted partner.
+Select the check box **Enable federation for this Edge pool (Port 5061)** if you will set up federation with a Lync Server 2013, Microsoft Lync Server 2010, or Microsoft Office Communications Server 2007 R2 trusted partner.
   
 Select **Enable XMPP federation for this Edge pool** to enable XMPP federation.
   

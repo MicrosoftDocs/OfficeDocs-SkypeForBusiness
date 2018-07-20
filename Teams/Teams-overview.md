@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
+ms.reviewer: 
 description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
 localization_priority: Priority
 ms.custom:

@@ -82,6 +82,9 @@ The remaining elements have either been populated with the answers you provided 
 - **W15 Exchange mailbox**
     
     Skype for Business Server enables you to have voicemail messages stored in Exchange Unified Messaging (UM); those voicemail messages will then appear as email messages in your users' Inboxes.
+
+    > [!NOTE]
+    > Exchange Unified Messaging as previously known is no longer available in Exchange 2019, but you can still use Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) for more information.
     
 ### Voice
 
@@ -94,6 +97,9 @@ The remaining elements have either been populated with the answers you provided 
 - **Exchange Unified Messaging**
     
     Exchange Unified Messaging (UM) combines voice mail and email into a single messaging infrastructure. Skype for Business Server 2015 uses Exchange UM to provide call answering, subscriber access, call notification, and auto attendant services. If you use these services, you will need to integrate Exchange UM and Skype for Business Server in a shared Active Directory topology.
+
+    > [!NOTE]
+    > Exchange Unified Messaging as previously known is no longer available in Exchange 2019, but you can still use Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) for more information.
     
 ### Additional Deployment Options
 
@@ -117,7 +123,7 @@ The remaining elements have either been populated with the answers you provided 
     
 - **Exchange Archiving Integration**
     
-    If you have users who are homed on Exchange 2013 and their mailboxes have been put on In-Place Hold, you can select the option to integrate Skype for Business Server storage with Exchange storage.
+    If you have users who are homed on Exchange and their mailboxes have been put on In-Place Hold, you can select the option to integrate Skype for Business Server storage with Exchange storage.
     
 - **IPv4**
     
