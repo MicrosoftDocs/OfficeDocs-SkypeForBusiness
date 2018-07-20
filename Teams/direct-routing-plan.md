@@ -71,7 +71,6 @@ Firewall IP addresses and ports for Microsoft Teams media |For more information,
 
 Users of Direct Routing must have the following licenses assigned in Office 365: 
 
-- Skype for Business Online (Plan 2) 
 - Microsoft Phone System 
 - Microsoft Teams 
 - Microsoft Audio Conferencing 
