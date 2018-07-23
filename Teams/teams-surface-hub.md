@@ -3,7 +3,7 @@ title: Deploy Microsoft Teams for Surface Hub
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -135,6 +135,9 @@ After you've completed the preceding steps to enable your Teams for Surface Hub 
 6. Click **Save** to complete the task.
 
 ## Install Teams for Surface Hub from the Microsoft Store 
+
+> [!NOTE]
+> To use Microsoft Teams for Surface Hub (Preview), your device must be enrolled in the Windows Insider Program. To leave the Insider Program, you must reset the Surface Hub using Cloud Recovery.<br> To become a Windows Insider Program member, the Surface Hub must be set to Full Telemetry prior to joining the Windows Insider Program. Due to GDPR regulations, the default settings of Windows Telemetry recently changed from Full to Basic in EU countries. You should verify your settings prior to joining the Windows Insider Program. Attempting to join the Windows Insider Program when set to Basic telemetry might require a reset of the Surface Hub. To validate the Windows Telemetry settings on a Surface Hub, choose **Settings** > **Privacy** > **Feedback and Diagnostics**, and set to **Full**.
 
 These instructions are for installing Teams for Surface Hub from the Microsoft Store. 
  
