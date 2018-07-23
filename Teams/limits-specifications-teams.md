@@ -3,10 +3,10 @@ title: Limits and specifications for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/09/2018
+ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
+ms.reviewer: 
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
@@ -35,7 +35,7 @@ Meetings and calls
 
 |Feature     | Maximum limit |
 |------------|---------------|
-|Number of people in a meeting  | 80    |
+|Number of people in a meeting  | 250    |
 |Number of people in a private chat  | 20    |
 
 Storage
@@ -51,7 +51,7 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 
 |Feature                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
-|Storage                 |1 TB per organization plus 0.5 GB per license purchased  |1 TB per organization plus 0.5 GB per license purchased  |1 TB per organization plus 0.5 GB per license purchased   |1 TB per organization plus 0.5 GB per license purchased |1 TB per organization plus 0.5 GB per license purchased  |1 TB per organization           |
+|Storage                 |1 TB per organization plus 2 GB per license purchased  |1 TB per organization plus 2 GB per license purchased  |1 TB per organization plus 2 GB per license purchased   |1 TB per organization plus 2 GB per license purchased |1 TB per organization plus 2 GB per license purchased  |1 TB per organization           |
 |Storage for Teams Files |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |
 |File upload limit       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 

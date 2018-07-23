@@ -46,7 +46,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > The SharedSipAddressSpace attribute needs to remain "True" until moving to online is final, and no users remain on-premises. 
   
-To establish a remote PowerShell session with Skype for Business Online, you first need to install the Skype for Business Online connector module for Windows PowerShell, which you can get here: [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?LinkId=391911).
+To establish a remote PowerShell session with Skype for Business Online, you first need to install the Skype for Business Online connector module for Windows PowerShell, which you can get [here](https://go.microsoft.com/fwlink/p/?LinkId=391911).
   
 After you install the module, you can establish a remote session with the following cmdlets:
   
@@ -70,8 +70,6 @@ For more information about how to establish a remote PowerShell session with Sky
   
   
 ## See also
-
-#### 
 
 [New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
 

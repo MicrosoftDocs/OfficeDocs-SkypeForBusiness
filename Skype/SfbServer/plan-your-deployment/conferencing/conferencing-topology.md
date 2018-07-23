@@ -1,22 +1,21 @@
 ---
-title: "Plan your conferencing topology for Skype for Business Server 2015"
+title: "Plan your conferencing topology for Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
-description: "Summary: Read this topic to learn about planning your conferencing topology in Skype for Business Server 2015."
+description: "Summary: Read this topic to learn about planning your conferencing topology in Skype for Business Server."
 ---
 
-# Plan your conferencing topology for Skype for Business Server 2015
+# Plan your conferencing topology for Skype for Business Server
  
-**Summary:** Read this topic to learn about planning your conferencing topology in Skype for Business Server 2015.
+**Summary:** Read this topic to learn about planning your conferencing topology in Skype for Business Server.
   
-This topic describes topology basics for conferencing in Skype for Business Server 2015:
+This topic describes topology basics for conferencing in Skype for Business Server:
   
 - Supported topologies
     
@@ -26,11 +25,11 @@ This topic describes topology basics for conferencing in Skype for Business Serv
     
 - Requirements for large meetings
     
-For more information about hardware and software requirements, see [Hardware and software requirements for conferencing in Skype for Business Server 2015](hardware-and-software-requirements.md).
+For more information about hardware and software requirements, see [Hardware and software requirements for conferencing in Skype for Business Server](hardware-and-software-requirements.md).
   
 ## Supported topologies
 
-In Skype for Business Server, the server running conferencing services is always collocated with the Front End Servers or Standard Edition servers. When you deploy Skype for Business Server, IM conferencing capabilities are automatically deployed. You can specify whether to deploy web, audio and video (A/V), and dial-in conferencing by using the Topology Builder. You can also use Topology Builder to add conferencing to an existing deployment. For details about topology basics and collocation scenarios, see [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
+In Skype for Business Server, the server running conferencing services is always collocated with the Front End Servers or Standard Edition servers. When you deploy Skype for Business Server, IM conferencing capabilities are automatically deployed. You can specify whether to deploy web, audio and video (A/V), and dial-in conferencing by using the Topology Builder. You can also use Topology Builder to add conferencing to an existing deployment. For details about topology basics and collocation scenarios, see [Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md).
   
 You can deploy conferencing in the following topologies and configurations:
   
@@ -58,7 +57,7 @@ If you are deploying dial-in conferencing, you must consider the following:
     
 - You must deploy dial-in conferencing in every pool where you deploy Skype for Business Server conferencing. You do not need to assign access numbers in every pool, but you must deploy the dial-in conferencing feature in every pool. This requirement supports the recorded name feature when a user calls an access number from one pool to join a Skype for Business Server conference in a different pool. 
     
-For more information, see [Plan for dial-in conferencing in Skype for Business Server 2015](dial-in-conferencing.md).
+For more information, see [Plan for dial-in conferencing in Skype for Business Server](dial-in-conferencing.md).
   
 ## Web conferencing considerations
 
@@ -69,7 +68,7 @@ Web conferencing requires the following:
 - Integration with Office Web Apps Server/Office Online Server, which is necessary in order to share PowerPoint files during a conference.
     
 > [!NOTE]
-> The latest iteration of Office Web Apps Server is named Office Online Server, which is supported by Skype for Business Server 2015. For more detail, refer to the [Office Online Server documentation](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx). 
+> The latest iteration of Office Web Apps Server is named Office Online Server, which is supported by Skype for Business Server. For more detail, refer to the [Office Online Server documentation](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx). 
   
 Skype for Business Server provides the following ways to configure Office Web Apps Server/Office Online Server. Depending on your needs you can:
   
@@ -83,7 +82,7 @@ Skype for Business Server provides the following ways to configure Office Web Ap
     
     If the Office Web Apps Server/Office Online Server is deployed outside your internal firewall, then select the option **Office Web Apps Server is deployed in an external network** (that is, perimeter/Internet) in Topology Builder.
     
-For more information, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md). 
+For more information, see [Configure integration with Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
   
 Regardless of the topology you select, it is critical that the correct firewall ports be opened. You must make sure that DNS names, IP addresses, and ports are not blocked by firewalls on the Office Web Apps Server/Office Online Server, the load balancer, or Skype for Business Server.
   
@@ -102,16 +101,16 @@ The user who hosts the large meetings must have their user account homed in Fron
   
 Managing a pool with exactly two Front End Servers requires some special considerations. For more information, see [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) and [Reference topologies for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/reference-topologies.md).
   
-Additionally, if you want to optionally provide disaster recovery backup and failover for the pool used for large meetings, you can pair it with a similarly set up dedicated pool in a different data center. For details, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Additionally, if you want to optionally provide disaster recovery backup and failover for the pool used for large meetings, you can pair it with a similarly set up dedicated pool in a different data center. For details, see [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 Additional notes about the topology include:
   
 - A file share is required for storing meeting content and, if Archiving Server is deployed and enabled, for storing the archiving files. The file share can be dedicated to the pool or can be the same file share used by another pool at the site in which the pool is deployed. For details about configuring the file share, see [Create a file share in Skype for Business Server 2015](../../deploy/install/create-a-file-share.md).
     
-- An Office Web Apps Server/Office Online Server is required for enabling the PowerPoint presentation functionality in large meetings. The Office Web Apps Server/Office Online Server can be dedicated to the large meeting pool or, it can be the same Office Web Apps Server/Office Online Server used by other pools at the site in which the dedicated pool is deployed. For more information, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md). 
+- An Office Web Apps Server/Office Online Server is required for enabling the PowerPoint presentation functionality in large meetings. The Office Web Apps Server/Office Online Server can be dedicated to the large meeting pool or, it can be the same Office Web Apps Server/Office Online Server used by other pools at the site in which the dedicated pool is deployed. For more information, see [Configure integration with Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
     
 - Load balancing of the Front End Servers requires hardware load balancing for the HTTP traffic (such as meeting content download). DNS load balancing is recommended for SIP traffic. For details see [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md). 
     
-- If you want to use Monitoring Server for the dedicated large-meeting pool, we recommend using the Monitoring Server and its database that are shared across all of the Front End Server pools in your Skype for Business Server deployment. For more information, see [Plan for monitoring in Skype for Business Server 2015](../../plan-your-deployment/monitoring.md).
+- If you want to use Monitoring Server for the dedicated large-meeting pool, we recommend using the Monitoring Server and its database that are shared across all of the Front End Server pools in your Skype for Business Server deployment. For more information, see [Plan for monitoring in Skype for Business Server](../../plan-your-deployment/monitoring.md).
     
 

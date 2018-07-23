@@ -12,9 +12,7 @@ ms.collection:
 description: "Markdown has Easter eggs. Who knew?"
 ---
 
-
 [!INCLUDE [disclaimer](disclaimer.md)]
-
 
 # Formatting Cheat Sheet
 
@@ -35,6 +33,7 @@ If you only need 1 heading levels, you can use the = (for article title) and –
 
 Article title
 === 
+
 Heading - first level header
 --- 
 
@@ -127,6 +126,8 @@ Indicate quoted text with a > character.
 
 In the words of Abraham Lincoln:
 > Pardon my French
+
+        Indent text with two tabs to simulate console output.
 
 Paragraphs and line breaks
 ===

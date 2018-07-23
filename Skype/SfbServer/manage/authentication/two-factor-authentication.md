@@ -1,27 +1,26 @@
 ---
-title: "Manage two-factor authentication in Skype for Business Server 2015"
+title: "Manage two-factor authentication in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
-description: "Summary: Manage two-factor authentication in Skype for Business Server 2015."
+description: "Summary: Manage two-factor authentication in Skype for Business Server."
 ---
 
-# Manage two-factor authentication in Skype for Business Server 2015
+# Manage two-factor authentication in Skype for Business Server
  
-**Summary:** Manage two-factor authentication in Skype for Business Server 2015.
+**Summary:** Manage two-factor authentication in Skype for Business Server.
   
 Two-factor authentication provides improved security by requiring users to provide two forms of authentication or identification, namely a user name/password combination and a token or certificate. This is also known as "something you have, something you know." 
   
 A typical example of two-factor authentication with a certificate is the use of smart cards. A smart card contains a certificate associated with the user account, and can be validated against user and certificate information stored on a server. By comparing the user information (user name and password) to the certificate provided, the server validates the credentials and authenticates the user.
   
-Consider the following subjects when configuring a Skype for Business Server 2015 environment to support two-factor authentication.
+Consider the following subjects when configuring a Skype for Business Server environment to support two-factor authentication.
   
 ## Client Support
 
@@ -29,7 +28,7 @@ The Cumulative Updates for Lync Server 2013: July 2013 desktop client and the Sk
   
 ## Topology Requirements
 
-Customers are strongly encouraged to deploy two-factor authentication using dedicated Skype for Business Server 2015 with Edge, Director, and User Pools. To enable passive authentication for users, other authentication methods must be disabled for other roles and services, including the following:
+Customers are strongly encouraged to deploy two-factor authentication using dedicated Skype for Business Server with Edge, Director, and User Pools. To enable passive authentication for users, other authentication methods must be disabled for other roles and services, including the following:
   
 |**Configuration Type**|**Service Type**|**Server Role**|**Authentication Type to Disable**|
 |:-----|:-----|:-----|:-----|
@@ -52,7 +51,7 @@ Customers who have deployed two-factor authentication for Microsoft Exchange may
 
 Skype for Business users who are configured to leverage the Unified Contact Store feature will find that their contacts are no longer available after signing in with two-factor authentication.
   
-You should use the **Invoke-CsUcsRollback** cmdlet to remove existing user contacts from the Unified Contact Store and store them in Skype for Business Server 2015 before enabling two-factor authentication.
+You should use the **Invoke-CsUcsRollback** cmdlet to remove existing user contacts from the Unified Contact Store and store them in Skype for Business Server before enabling two-factor authentication.
   
 ## Skill Search
 
@@ -68,7 +67,7 @@ Users should use the **Delete my sign-in info** option in the Skype for Business
   
 ### DisableNTCredentials
 
-With the Kerberos or NTLM authentication method, the user's Windows credentials are used automatically for authentication. In a typical Skype for Business Server 2015 deployment where Kerberos and/or NTLM is enabled for authentication, users should not have to enter their credentials every time that they sign in.
+With the Kerberos or NTLM authentication method, the user's Windows credentials are used automatically for authentication. In a typical Skype for Business Server deployment where Kerberos and/or NTLM is enabled for authentication, users should not have to enter their credentials every time that they sign in.
   
 If users are unintentionally prompted for credentials before they are prompted to enter their PIN, the **DisableNTCredentials** registry key may be unintentionally configured on client computers, possibly through Group Policy.
   
@@ -104,6 +103,5 @@ Configuring an ADFS Proxy or Reverse Proxy to support Skype for Business two-fac
   
 ## See also
 
-[Configure two-factor authentication in Skype for Business Server 2015](configure.md)
+[Configure two-factor authentication in Skype for Business Server](configure.md)
   
-[Configure two-factor authentication in Skype for Business Server 2015](configure.md)

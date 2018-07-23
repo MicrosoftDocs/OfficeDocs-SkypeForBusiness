@@ -21,9 +21,9 @@ You can use the results of a search query to configure users for Skype for Busin
 
 You can perform the following tasks on the **User Search** Control Panel page:
   
-- [Search for Lync Server 2010 Users](http://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
+- [Search for Users](http://technet.microsoft.com/library/3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5.aspx)
     
-- [Enable or Disable Users for Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Enable or Disable Users](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
 - [Move User](ms.lync.lscp.UserMove.md)
     
@@ -37,7 +37,7 @@ You can perform the following tasks on the **User Search** Control Panel page:
     
 - [Configure Telephony for Users](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
   
 ## UI Reference
 

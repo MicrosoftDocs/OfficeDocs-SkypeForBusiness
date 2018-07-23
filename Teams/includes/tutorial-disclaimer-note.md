@@ -1,6 +1,2 @@
 > [!NOTE]
-> This tutorial includes a lot of links to existing content; this way,
-we can be sure that you always have the latest, most up-to-date information. For
-an optimal learning experience, be sure to follow the links and absorb the
-content. Only if a link is labeled as “additional information” should it be
-considered optional.
+> This tutorial includes links to existing content to help connect you with the latest, most up-to-date information. For an optimal learning experience, follow the links to learn and apply. If a link is labeled as “additional information,” you can consider it optional.

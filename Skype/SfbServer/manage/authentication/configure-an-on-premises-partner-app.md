@@ -1,23 +1,22 @@
 ---
-title: "Configure an on-premises partner application for Skype for Business Server 2015"
+title: "Configure an on-premises partner application for Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
-description: "Summary: Configure an on-premises partner application for Skype for Business Server 2015."
+description: "Summary: Configure an on-premises partner application for Skype for Business Server."
 ---
 
-# Configure an on-premises partner application for Skype for Business Server 2015
+# Configure an on-premises partner application for Skype for Business Server
  
-**Summary:** Configure an on-premises partner application for Skype for Business Server 2015.
+**Summary:** Configure an on-premises partner application for Skype for Business Server.
   
-After you have assigned the OAuthTokenIssuer certificate you must then configure your Skype for Business Server 2015 partner applications. (The procedure about to be discussed configures both Microsoft Exchange Server 2013 and SharePoint to act as partner applications, which is optional.) To configure an on-premises partner application, you must start by copying the following Windows PowerShell script and pasting the code into Notepad (or any other text editor):
+After you have assigned the OAuthTokenIssuer certificate you must then configure your Skype for Business Server partner applications. (The procedure about to be discussed configures both Microsoft Exchange Server 2013 and SharePoint to act as partner applications, which is optional.) To configure an on-premises partner application, you must start by copying the following Windows PowerShell script and pasting the code into Notepad (or any other text editor):
   
 ```
 if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
@@ -97,7 +96,7 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
 
 This error message typically means one of two things: 1) that one of the URLs specified in the script is not valid (that is, one of your metadata URLs is not an actual metadata URL); or, 2) one of the metadata URLs could not be contacted. If this happens, verify that the URLs are correct and are accessible, and the re-run the script.
   
-After creating the partner application for Skype for Business Server 2015 you must then configure Skype for Business Server to be a partner application for Exchange 2013. You can configure partner applications for Exchange 2013 by running the script Configure-EnterprisePartnerApplication.ps1; all you need to do is specify the metadata URL for Skype for Business Server and indicate that Skype for Business Server is the new partner application. 
+After creating the partner application for Skype for Business Server you must then configure Skype for Business Server to be a partner application for Exchange 2013. You can configure partner applications for Exchange 2013 by running the script Configure-EnterprisePartnerApplication.ps1; all you need to do is specify the metadata URL for Skype for Business Server and indicate that Skype for Business Server is the new partner application. 
   
 To configure Skype for Business Server as a partner application for Exchange, open the Exchange Management Shell and run a command similar to this
   

@@ -23,7 +23,7 @@ Learn about Teams and drive usage in your organization. Check back frequently fo
 
 |  |  |
 |---------|---------|
-| [Tutorial: Journey from Skype for Business to Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Walks you through everything you need to know about the journey to Teams from Skype for Business Online.  |
+| [Tutorial: Upgrade from Skype for Business to Microsoft Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Walks you through everything you need to know about the upgrade to Teams from Skype for Business Online.  |
 | [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml) | This interactive training walks you through Audio Conferencing in Teams. |
 | [Quick start: Microsoft Teams for Education admins](teams-quick-start-edu.yml) |For IT admins in Education, deploy Teams across your organization.   |
 | [Quick start: Configuring Calling Plans in Microsoft Teams](configuring-teams-calling-quickstartguide.md)| Quick start guide for configuring calling plans in Teams. |

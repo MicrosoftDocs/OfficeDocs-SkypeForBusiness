@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara, lucarras 
+ms.reviewer: lucarras 
 description: Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel.
 appliesto: 
 - Microsoft Teams

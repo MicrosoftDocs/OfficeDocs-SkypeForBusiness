@@ -70,6 +70,9 @@ With SQL mirroring, database recovery mode is always set to **Full**, which mean
   
 > [!IMPORTANT]
 > Using Topology Builder or cmdlets to set up and remove SQL mirroring is supported only when the primary, mirror, and witness (if desired) servers all belong to the same domain. If you want to set up SQL mirroring among servers in different domains, see your SQL Server documentation. 
+
+> [!NOTE]
+> SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.
   
 ### Recovery time for automatic Back End Server failover with database mirroring
 

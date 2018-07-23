@@ -1,7 +1,7 @@
 ---
 title: "Known issues"
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro

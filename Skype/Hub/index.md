@@ -148,6 +148,25 @@ description: Skype for Business
                                 </a>
                             </li>                            
                             <li>
+                                <a href="/SkypeForBusiness/certification/overview">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-Certified-400x140.svg" alt="Certification" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Skype for Business certification program</h3>
+                                                    <p>Learn about certified solutions and devices.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                            
+                            <li>
                                 <a href="https://support.office.com/skype-for-business">
                                     <div class="cardSize">
                                         <div class="cardPadding">

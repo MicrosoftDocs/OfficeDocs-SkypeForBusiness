@@ -1,26 +1,25 @@
 ---
-title: "View user PIN information in Skype for Business Server 2015"
+title: "View user PIN information in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-description: "Summary: View user PIN information in Skype for Business Server 2015."
+description: "Summary: View user PIN information in Skype for Business Server."
 ---
 
-# View user PIN information in Skype for Business Server 2015
+# View user PIN information in Skype for Business Server
  
-**Summary:** View user PIN information in Skype for Business Server 2015.
+**Summary:** View user PIN information in Skype for Business Server.
   
-To join a dial-in conference as an authenticated user, a Skype for Business Server 2015 user with Active Directory Domain Services (AD DS) credentials requires a personal identification number (PIN). You can view a user's PIN information from Skype for Business Server Control Panel.
+To join a dial-in conference as an authenticated user, a Skype for Business Server user with Active Directory Domain Services (AD DS) credentials requires a personal identification number (PIN). You can view a user's PIN information from Skype for Business Server Control Panel.
   
 > [!NOTE]
-> You can view PIN status information such as whether the PIN has been set or when the PIN was last changed, but you cannot see the current PIN by looking at the PIN status. If a user has lost their PIN, you can reset it by following the procedures in [Set a user's dial-in conferencing PIN in Skype for Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
+> You can view PIN status information such as whether the PIN has been set or when the PIN was last changed, but you cannot see the current PIN by looking at the PIN status. If a user has lost their PIN, you can reset it by following the procedures in [Set a user's dial-in conferencing PIN in Skype for Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
 ### To view a user's PIN in Skype for Business Server Control Panel
 
@@ -82,6 +81,6 @@ For more information, see the help topic for the [Get-CsConferenceDisclaimer](ht
   
 ## See also
 
-[Set a user's dial-in conferencing PIN in Skype for Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
+[Set a user's dial-in conferencing PIN in Skype for Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
-[Lock or unlock a user PIN in Skype for Business Server 2015](lock-or-unlock-a-user-pin.md)
+[Lock or unlock a user PIN in Skype for Business Server](lock-or-unlock-a-user-pin.md)

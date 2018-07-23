@@ -44,7 +44,7 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 |Console|Processor|RAM|Disk|
 |:-----|:-----|:-----|:-----|
 |[Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
- <!-- HP dock is still pending  -->  
+|[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  |  
     
 - One of the following docking station options to secure a tablet to the meeting room table. 
     
@@ -59,7 +59,7 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 **Certified firmware versions for USB audio and video peripherals**
 |**Skype Room Systems v2 peripherals**|**Firmware version certified for Skype Room Systems v2**|
 |:-----|:-----|
-|[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> ||
+|[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Audio - 1.0.172  <br/> Video - 1.0.156  <br/> |
 |[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
 |[Logitech Group](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
@@ -118,20 +118,13 @@ The following tables provide recommendations for peripherals based on room size:
 
 ## Required Software Downloads
 
-You will need the following downloads to build your own Skype Room Systems v2 image:
-  
-- The [Skype Room Systems v2 installation package](https://go.microsoft.com/fwlink/?linkid=851168).
-    
-- Obtain a copy of the 64-bit version of Windows 10 Enterprise Creator's Update (English language, build 1703). 
-    
-    > [!NOTE]
-    > The 64-bit version of Windows 10 Enterprise Anniversary edition (English language, version 1607) is no longer supported as of Skype Room Systems v2 release 3.0.12.0 (update 3). 
-  
-- The supported [Surface Pro 4 drivers](https://go.microsoft.com/fwlink/?linkid=856887) or [Surface Pro drivers](https://go.microsoft.com/fwlink/?linkid=856888).
-    
-These downloads need to be combined into a bootable Windows installation media disk in a specific way, described further in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). 
-  
+To build your own Skype Room Systems v2 image, follow the instructions in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). Those instructions will guide you through downloading all necessary software for the installation process. 
+
+> [!NOTE]
+> IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
+
 In addition, you will probably want a copy of [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), often used to provision Skype Room Systems v2 accounts.
+
   
 ## See also
 

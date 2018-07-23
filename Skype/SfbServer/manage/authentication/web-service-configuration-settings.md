@@ -1,29 +1,28 @@
 ---
-title: "Manage Web Service configuration settings in Skype for Business Server 2015"
+title: "Manage Web Service configuration settings in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
-description: "Summary: Manage Web Service configuration settings in Skype for Business Server 2015."
+description: "Summary: Manage Web Service configuration settings in Skype for Business Server."
 ---
 
-# Manage Web Service configuration settings in Skype for Business Server 2015
+# Manage Web Service configuration settings in Skype for Business Server
  
-**Summary:** Manage Web Service configuration settings in Skype for Business Server 2015.
+**Summary:** Manage Web Service configuration settings in Skype for Business Server.
   
-You can use the **Web Service** page to configure the authentication methods for accessing Skype for Business Server 2015 related web servers and Web Services.
+You can use the **Web Service** page to configure the authentication methods for accessing Skype for Business Server related web servers and Web Services.
   
 Follow these steps to create a new Web Service policy.
   
 ### To create new web service configuration settings
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
@@ -49,13 +48,13 @@ Follow these steps to create a new Web Service policy.
     
 ## Modify existing Web Service configuration settings
 
-You can use the **Web Service** page to configure the authentication methods for accessing Skype for Business Server 2015 related web servers and Web Services.
+You can use the **Web Service** page to configure the authentication methods for accessing Skype for Business Server related web servers and Web Services.
   
 Follow these steps to modify an existing Web Service policy.
   
 ### To modify existing Web service configuration settings
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
@@ -81,7 +80,7 @@ Follow these steps to delete web service configuration settings.
   
 ### To delete web service configuration settings
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     

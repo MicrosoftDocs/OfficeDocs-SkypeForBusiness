@@ -11,6 +11,8 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -28,6 +30,8 @@
           "**/obj/**",
           "**/includes/**",
           "README.md",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
@@ -43,6 +47,8 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -54,11 +60,31 @@
           "**/*.md",
           "**/**.yml"
         ],
-        "src": "SfBServer2019",
+        "src": "SfbPartnerCertification",
         "dest": ".",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/**.yml"
+        ],
+        "src": "SfbServer2019",
+        "dest": ".",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",

@@ -1,9 +1,8 @@
 ---
-title: "Plan for Video Interop Server in Skype for Business Server 2015"
+title: "Plan for Video Interop Server in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -11,18 +10,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
-description: "Summary: Review this topic while planning to integrate Skype for Business Server 2015 with third-party teleconferencing devices."
+description: "Summary: Review this topic while planning to integrate Skype for Business Server with third-party teleconferencing devices."
 ---
 
-# Plan for Video Interop Server in Skype for Business Server 2015
+# Plan for Video Interop Server in Skype for Business Server
  
-**Summary:** Review this topic while planning to integrate Skype for Business Server 2015 with third-party teleconferencing devices.
+**Summary:** Review this topic while planning to integrate Skype for Business Server with third-party teleconferencing devices.
   
 Skype for Business Server now allows you to integrate with certain third-party VTC (Video Teleconferencing System) solutions. The new server role that enables this video conferencing interoperability is the Video Interop Server (VIS), which is currently implemented as a standalone server role available only for on-premises installations. A VIS acts as an intermediary between a third party teleconference system and a Skype for Business Server deployment. For this release, VIS is focused on interoperability with Cisco/Tandberg video systems. Review this article to determine whether to use this feature in your Skype for Business Server installation.
   
 ## Device interoperability
 
-Interoperation is tested and supported with Cisco VTCs registering with CUCM version 10.5 and TCP SIP trunks set up between CUCM and the VIS.
+Interoperation is tested and supported with Cisco VTCs registering with Cisco Unified Communications Manager (CallManager, or CUCM) version 10.5 and TCP SIP trunks set up between CUCM and the VIS.
   
 The currently supported VTCs are:
   
@@ -182,4 +181,4 @@ Support for VTCs joining federated meetings via VIS is not part of Skype for Bus
 ## See also
 <a name="resiliency"> </a>
 
-[Deploy Video Interop Server in Skype for Business Server 2015](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)
+[Deploy Video Interop Server in Skype for Business Server](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)

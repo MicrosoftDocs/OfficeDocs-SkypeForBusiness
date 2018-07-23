@@ -1,9 +1,8 @@
 ---
 title: "Configure a Skype Room Systems v2 console"
 ms.author: jambirk
-author: jambirk
+author: Travis-Snoozy
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -44,10 +43,9 @@ Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requi
 > [!NOTE]
 > An existing Skype Room Systems v2 with Windows 10 Enterprise Anniversary Update moving to Skype Room Systems v2 update 3 by way of the Windows Store will work, but a new installation should be done as described below. 
   
-1. Download the [MSU for KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu).
-2. Download the [CreateSrsMedia.ps1 script](https://go.microsoft.com/fwlink/?linkid=867842).
-3. Place the MSU for KB4056892 in the same directory as the CreateSrsMedia.ps1 script.
-4. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
+1. Download the [CreateSrsMedia.ps1 script](https://go.microsoft.com/fwlink/?linkid=867842).
+2. (Optional) Download and place any desired language pack CAB files in the same directory as the script. The script will indicate where you can download language pack files appropriate for the type of media you are creating, if you're unsure where to acquire the language packs from.
+3. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
 
 
 Follow the script's instructions to create a Skype Room Systems v2 USB setup disk. When finished, remove the USB disk from your computer and proceed to [Install Windows 10 and the Skype Room Systems v2 console app ](console.md#Reimage).
@@ -139,7 +137,7 @@ After Windows is installed, the Skype Room Systems v2 app will go into its initi
     
 6. Click **Finish**.
     
-The app should immediately start signing in to Skype for Business Server 2015 with the credentials entered above, and should also begin syncing its calendar with Exchange using those same credentials. For details on using the app, refer to the [Skype Room Systems version 2 help](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+The app should immediately start signing in to Skype for Business Server with the credentials entered above, and should also begin syncing its calendar with Exchange using those same credentials. For details on using the app, refer to the [Skype Room Systems version 2 help](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
 > Skype Room Systems v2 relies on the presence of certified console hardware (the Logitech SmartDock). Even a correctly created image containing the Skype Room Systems v2 app loaded on a Surface Pro 4 or Surface Pro will not boot past the initial setup procedure unless the console hardware is detected. 

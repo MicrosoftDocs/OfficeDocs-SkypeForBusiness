@@ -3,7 +3,7 @@ title: Manage the Microsoft Teams Private App Store
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 06/05/2018
+ms.date: 07/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
@@ -17,10 +17,7 @@ appliesto:
 Publish Apps to the Microsoft Teams Private App Store
 ============================================
 
-> [!IMPORTANT]
-> This page describes a pre-release feature and contains preliminary content that might change substantially before it is released. Any screenshots are placeholders and might look different than what you see.
-
-You can use the Microsoft Teams Private App Store to test and distribute line-of-business applications to your organization. 
+You can use the Microsoft Teams Tenant Apps Catalog to test and distribute line-of-business applications to your organization. 
 
 The Microsoft Teams Private App Store lets you distribute your line-of-business applications that were built specifically for your organization and that you rely on to complete critical business functions to your users. 
  

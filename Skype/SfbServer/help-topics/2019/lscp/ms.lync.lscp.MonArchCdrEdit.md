@@ -17,9 +17,9 @@ description: "What do you want to do? Click the link to the task that you want t
  
 What do you want to do? Click the link to the task that you want to perform.
   
-- [Enable call detail recording in Skype for Business Server 2015](../../../manage/health-and-monitoring/enable-cdr.md)
+- [Enable call detail recording in Skype for Business Server](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [Specify retention of CDR data in Skype for Business Server 2015](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [Specify retention of CDR data in Skype for Business Server](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).
+ 
 

@@ -1,21 +1,20 @@
 ---
-title: "Deploy the VIS server role in Skype for Business Server 2015"
+title: "Deploy the VIS server role in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6401e67-59fe-4419-a0ab-ffac88e67632
-description: "Summary: Deploy the Video Interop Server (VIS) role in Skype for Business Server 2015."
+description: "Summary: Deploy the Video Interop Server (VIS) role in Skype for Business Server."
 ---
 
-# Deploy the VIS server role in Skype for Business Server 2015
+# Deploy the VIS server role in Skype for Business Server
  
-**Summary:** Deploy the Video Interop Server (VIS) role in Skype for Business Server 2015.
+**Summary:** Deploy the Video Interop Server (VIS) role in Skype for Business Server.
   
 To set up the VIS service on the server just created in Topology Builder, start the Skype for Business Server deployment wizard, press **Install or Update Skype for Business Server System** and follow these steps in the wizard:
   
@@ -30,4 +29,4 @@ To set up the VIS service on the server just created in Topology Builder, start 
 The software for this service is now installed and running. You may open the Services mmc tool to see if the **Skype for Business Server Video Interop Server** service is running along with other Skype for Business Server services. Next, you must configure the VIS server or pool.
 ## See also
 
-[Configure the Video Interop Server in Skype for Business Server 2015](configure-the-vis.md)
+[Configure the Video Interop Server in Skype for Business Server](configure-the-vis.md)

@@ -56,6 +56,9 @@ Authorized external users can use your Edge Servers to connect to your internal 
   
 > [!NOTE]
 > Edge Servers are deployed to provide connections for enabled Skype for Business clients and other Edge Servers (in federation scenarios). You can't connect from other end point client or server types. The XMPP Gateway server can allow connections with configured XMPP partners. But again, those are the only client and federation types that will work. 
+
+> [!NOTE]
+> XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.
   
 ### Reverse proxies
 <a name="ReverseProxies"> </a>
@@ -80,7 +83,7 @@ And for mobile devices:
     
 - it enables push notifications from Office 365 to mobile devices.
     
-Our current reverse proxy recommendations can be found on the [Telephony Infrastructure for Skype for Business](https://technet.microsoft.com/en-us/office/dn947483) page. So your reverse proxy:
+Our current reverse proxy recommendations can be found on the [Telephony Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) page. So your reverse proxy:
   
 - should be able to use transport layer security (TLS) that's introduced to your environment via public certificates to connect to the published external Web services of:
     

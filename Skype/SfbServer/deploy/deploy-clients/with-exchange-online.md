@@ -3,7 +3,6 @@ title: "Deploy Skype Room Systems v2 with Exchange Online"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -80,7 +79,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 3. Type the password for this account. You'll need to retype it for verification. Make sure the **Password never expires** checkbox is the only option selected.
     
     > [!NOTE]
-    > Selecting **Password never expires** is a requirement for Skype for Business Server 2015 on Skype Room Systems v2. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Skype Room Systems v2 user account.
+    > Selecting **Password never expires** is a requirement for Skype for Business Server on Skype Room Systems v2. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Skype Room Systems v2 user account.
   
 4. Click **Finish** to create the account.
     
@@ -88,7 +87,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     
 ### Assign an Office 365 license
 
-1. The user account needs to have a valid Office 365 license to ensure that Exchange and Skype for Business Server 2015 will work. If you have the license, you need to assign a usage location to your user account—this determines what license SKUs are available for your account.
+1. The user account needs to have a valid Office 365 license to ensure that Exchange and Skype for Business Server will work. If you have the license, you need to assign a usage location to your user account—this determines what license SKUs are available for your account.
     
 2. Next, use Get-MsolAccountSku to retrieve a list of available SKUs for your Office 365 tenant.
     
@@ -101,7 +100,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    ```
 
 
-### Enable the user account with Skype for Business Server 2015
+### Enable the user account with Skype for Business Server
 
 1. Create a remote Windows PowerShell session from a PC as follows:
     
@@ -111,19 +110,19 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. To enable your Skype Room Systems v2 account for Skype for Business Server 2015, run this command:
+2. To enable your Skype Room Systems v2 account for Skype for Business Server, run this command:
     
    ```
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
-    If you aren't sure what value to use for the RegistrarPool parameter in your environment, you can get the value from an existing Skype for Business Server 2015 user using this command
+    If you aren't sure what value to use for the RegistrarPool parameter in your environment, you can get the value from an existing Skype for Business Server user using this command
     
    ```
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### Assign a Skype for Business Server 2015 license to your Skype Room Systems v2 account
+### Assign a Skype for Business Server license to your Skype Room Systems v2 account
 
 1. Log in as a tenant administrator, open the Office 365 Administrative Portal, and click on the Admin app.
     

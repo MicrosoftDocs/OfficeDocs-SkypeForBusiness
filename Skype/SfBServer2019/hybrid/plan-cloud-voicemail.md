@@ -13,13 +13,13 @@ description: "This article describes benefits, planning considerations, and requ
 ---
 <!-- PM Roy Kuntz  -->
 
-# Plan Cloud Voicemail Service
+# Plan Cloud Voicemail service
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
 ## Overview 
 
-This article describes benefits, planning considerations, and requirements for implementing the Microsoft Coud Voicemail service. For information on configuring Cloud Voicemail, see Configuring Cloud Voicemail.
+This article describes benefits, planning considerations, and requirements for implementing the Microsoft Coud Voicemail service. For information on configuring Cloud Voicemail, see Configure Cloud Voicemail.
 
 Cloud Voicemail enables all your Skype for Business 2019 users--whether they are homed on premises or online--to have access to the same voicemail service in the Microsoft Cloud. Cloud Voicemail provides the following benefits for both your on-premises and online users:
 
@@ -68,7 +68,7 @@ The following requirements assume that you already have Skype for Business Serve
 
     - An Office 365 tenant with Skype for Business Online enabled.  
 
-    - Federation enabled between your on-premises Skype for Business Server deployment and your Office 365 tenant. For more information, see [Configure federation with Skype for Business Online](configure-federation-with-skype-for-business-online).  
+    - Federation enabled between your on-premises Skype for Business Server deployment and your Office 365 tenant. For more information, see [Configure federation with Skype for Business Online](configure-federation-with-skype-for-business-online.md).  
 
     - A shared Session Initiation Protocol (SIP) address space.  A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. For more information, see Configure federation with Skype for Business Online. 
 

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 03/23/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
+ms.reviewer: 
 description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Office 365 Admin center to the new Microsoft Teams & Skype for Business Admin Center.
 localization_priority: Priority
 ms.custom:

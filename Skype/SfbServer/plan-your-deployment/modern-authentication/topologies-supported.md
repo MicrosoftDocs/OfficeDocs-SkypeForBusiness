@@ -3,7 +3,6 @@ title: "Skype for Business topologies supported with Modern Authentication"
 ms.author: tracyp
 author: MSFTTracyP
 manager: serdars
-ms.date: 12/4/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -31,7 +30,7 @@ Given Skype for Business, Skype for Business online, Exchange Server, and Exchan
 
 There are potentially two server applications, and two Office 365 workloads, involved with Skype for Business topologies used by MA.
   
-- Skype for Business server 2015 (CU 5) on-premises
+- Skype for Business server (CU 5) on-premises
     
 - Skype for Business online (SFBO)
     
@@ -45,7 +44,7 @@ Another important part of MA is knowing where the authentication (authN) and aut
     
 - Active Directory Federation Server (ADFS) on-premises
     
-So it looks a bit like this, with EXO and SFBO in the Cloud with Azure AD, and Exchange Server (EXCH) and Skype for Business server 2015 (SFB) on-prem.
+So it looks a bit like this, with EXO and SFBO in the Cloud with Azure AD, and Exchange Server (EXCH) and Skype for Business server (SFB) on-prem.
   
 ![An example of all the applications (Exchange and Skype for Business) and workloads (EXO and SFBO), and both of the authorization servers (ADFS and evoSTS) that can be involved when turning on MA.](../../media/18a3b451-1e64-40fc-b47f-7ce9587814bb.PNG)
   

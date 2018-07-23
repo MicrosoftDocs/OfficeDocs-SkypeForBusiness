@@ -1,20 +1,19 @@
 ---
-title: "Send welcome email to dial-in users in Skype for Business Server 2015"
+title: "Send welcome email to dial-in users in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: "Summary: Learn how to welcome users to dial-in conferencing in Skype for Business Server 2015."
+description: "Summary: Learn how to welcome users to dial-in conferencing in Skype for Business Server."
 ---
 
-# Send welcome email to dial-in users in Skype for Business Server 2015
+# Send welcome email to dial-in users in Skype for Business Server
  
-**Summary:** Learn how to welcome users to dial-in conferencing in Skype for Business Server 2015.
+**Summary:** Learn how to welcome users to dial-in conferencing in Skype for Business Server.
   
 After you configure dial-in conferencing and test to verify that it is functioning properly, you should set initial personal identification numbers (PINs) for users and notify users about the availability of the feature. You can include introductory instructions such as the initial PIN and the link to the Dial-in Conferencing Settings web page. 
   

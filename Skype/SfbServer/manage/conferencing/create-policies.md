@@ -1,20 +1,19 @@
 ---
-title: "Create conferencing policies in Skype for Business Server 2015"
+title: "Create conferencing policies in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: "Summary: Learn how to create conferencing policies in Skype for Business Server 2015."
+description: "Summary: Learn how to create conferencing policies in Skype for Business Server."
 ---
 
-# Create conferencing policies in Skype for Business Server 2015
+# Create conferencing policies in Skype for Business Server
  
-**Summary:** Learn how to create conferencing policies in Skype for Business Server 2015.
+**Summary:** Learn how to create conferencing policies in Skype for Business Server.
   
 You can create conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
   

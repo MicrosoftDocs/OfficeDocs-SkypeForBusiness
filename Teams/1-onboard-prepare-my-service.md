@@ -144,9 +144,9 @@ For additional information, see:
 
 - [Set up Calling Plans for Skype for Business and Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-- [Plan Direct Routing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing)
+- [Plan Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
 
-- [Configure Direct Routing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing)
+- [Configure Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
 
 ### Execute the test plan
 
@@ -208,16 +208,13 @@ sites in scope:**
 **Direct Routing testing prerequisites and assumptions for users and
 sites in scope:**
 
-> [!NOTE]
-> This is a preview release of Microsoft Phone System Direct Routing. Product functionality and documentation are subject to change.
-
 -   Business use case definition for the Direct Routing service has been completed.
 
 -   Licensing required for Direct Routing is available and has been assigned.
 
 -   The list of organizational sites and user groups have been identified.
 
--   A [certified session border controller (SBC)](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing#supported-session-border-controllers-sbcs) has been deployed, configured and paired with Phone System.
+-   A [certified session border controller (SBC)](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs) has been deployed, configured and paired with Phone System.
 
 -   Enterprise voice has been enabled, and the phone numbers have been assigned.
 

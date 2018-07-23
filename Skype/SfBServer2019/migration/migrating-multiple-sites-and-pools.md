@@ -18,7 +18,7 @@ Skype for Business Server 2019 supports multi-site and multi-pool deployments. T
     
 2. After deploying an Edge Server in the pilot pool, you need to validate that external users can communicate with the Skype for Business Server 2019 pool.
 
-3. Persitent Chat, Sql Mirroring & XMPP functionality is deprecated in Skype for Business Server 2019 and no longer available as Skype for Business Server 2019 feature but can be continued in existence with coexistence environment, if it is previously deployed in legacy environment. If you want to continue with these feature, then should plan to continue with coexistence environment where deemed users should remain in legacy pools.
+3. Persitent Chat, SQL Mirroring & XMPP functionality is deprecated in Skype for Business Server 2019 and no longer available as Skype for Business Server 2019 feature but can be continued in existence with coexistence environment, if it is previously deployed in legacy environment. If you want to continue with these feature, then should plan to continue with coexistence environment where deemed users should remain in legacy pools.
     
 4. After transitioning the federated routes Edge Servers to the pilot Skype for Business Server 2019 Edge Servers, you need to validate that federated users can communicate with the Skype for Business Server 2019 pool.
     

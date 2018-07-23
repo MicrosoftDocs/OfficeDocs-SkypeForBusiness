@@ -1,20 +1,19 @@
 ---
-title: "Hardware and software requirements for conferencing in Skype for Business Server 2015"
+title: "Hardware and software requirements for conferencing in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
-description: "Summary: Read this topic to learn about hardware and software requirements for conferencing in Skype for Business Server 2015."
+description: "Summary: Read this topic to learn about hardware and software requirements for conferencing in Skype for Business Server."
 ---
 
-# Hardware and software requirements for conferencing in Skype for Business Server 2015
+# Hardware and software requirements for conferencing in Skype for Business Server
  
-**Summary:** Read this topic to learn about hardware and software requirements for conferencing in Skype for Business Server 2015.
+**Summary:** Read this topic to learn about hardware and software requirements for conferencing in Skype for Business Server.
   
 This section describes the hardware and software requirements for web conferencing, audio and video (A/V) conferencing, dial-in conferencing, and instant messaging (IM) conferencing. All conferencing capabilities run on Front End Servers; there are additional requirements for different types of conferencing, as shown in the following diagram.
   
@@ -24,7 +23,7 @@ For example, if you want to allow dial-in conferencing, you'll need to deploy a 
 
 ![Conferencing components](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
   
- For more information about topology considerations, see [Plan your conferencing topology for Skype for Business Server 2015](conferencing-topology.md).
+ For more information about topology considerations, see [Plan your conferencing topology for Skype for Business Server](conferencing-topology.md).
   
 ## Hardware and software requirements for Front End Servers
 
@@ -40,7 +39,7 @@ If you have chosen to enable web conferencing, you need to plan for the followin
     
 ### File Store
 
-The Skype for Business Server web conferencing service stores content shared during meetings in the file store. As part of deployment, you must specify a file share to be used as the file store for the Standard Edition server or Enterprise Edition Front End pool. You can use an existing file share for the file store, or you can specify a new file share by specifying the fully qualified domain name (FQDN) of the file server on which the file share is to be located and a folder name for the new file share. For more information, see [Create a file share in Skype for Business Server 2015](../../deploy/install/create-a-file-share.md). The web conferencing service encrypts the content before it stores the content in the file store.
+The Skype for Business Server web conferencing service stores content shared during meetings in the file store. As part of deployment, you must specify a file share to be used as the file store for the Standard Edition server or Enterprise Edition Front End pool. You can use an existing file share for the file store, or you can specify a new file share by specifying the fully qualified domain name (FQDN) of the file server on which the file share is to be located and a folder name for the new file share. For more information, see [Create a file share in Skype for Business Server](../../deploy/install/create-a-file-share.md). The web conferencing service encrypts the content before it stores the content in the file store.
   
 Skype for Business Server supports using file shares on either direct attached storage (DAS) or a storage area network (SAN), including Distributed File System (DFS), and on a redundant array of independent disks (RAID) for file stores. After the Skype for Business Server Deployment Wizard has defined the location of the file share, Skype for Business Server creates a folder structure within the file share similar to: 
   
@@ -64,21 +63,21 @@ In order to use web conferencing capabilities, you must install Office Web Apps 
   
 Office Web Apps Server should be installed on a stand-alone computer that is not running Skype for Business Server, SQL Server, or any other server application. (You must not have any version of Office installed on that computer.) Any computer used to run Office Web Apps Server must also have a specific set of software installed (including .NET Framework 4.5 and Windows PowerShell 3.0). These requirements, along with information about configuring certificates and Internet Information Services (IIS), are discussed in detail in the [Microsoft Office Web Apps Deployment website](https://go.microsoft.com/fwlink/p/?linkid=257525). 
   
-For information about how to configure Skype for Business Server to work with Office Web Apps Server, see [Configure integration with Office Web Apps Server in Skype for Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md).
+For information about how to configure Skype for Business Server to work with Office Web Apps Server, see [Configure integration with Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md).
   
 ## Requirements for audio and video conferencing
 
 To plan for A/V conferencing, you need to understand the network bandwidth required by the type of conferencing media that your organization requires. This could include audio, video, and panoramic video. Without sufficient network bandwidth, the user experience may be severely degraded. 
   
-For information about audio and video capacity planning for conferences, see [Plan network requirements for Skype for Business 2015](../../plan-your-deployment/network-requirements/network-requirements.md).
+For information about audio and video capacity planning for conferences, see [Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md).
   
-You can use call admission control (CAC) to manage the network bandwidth used by A/V conferencing. This is important for restricted networks, such as limited bandwidth links between central and branch sites. For details, see [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+You can use call admission control (CAC) to manage the network bandwidth used by A/V conferencing. This is important for restricted networks, such as limited bandwidth links between central and branch sites. For details, see [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 If you deploy audio conferencing in your network, your users will need audio devices such as headsets to participate in an audio conference. If you deploy video conferencing, you need to deploy video devices, such as webcams for users. For both audio and video devices, device deployment and user training are important steps for you to consider. For more information, see [Plan for clients and devices](../../plan-your-deployment/clients-and-devices/clients-and-devices.md). Microsoft recommends that you use unified communications (UC) devices that are certified by Microsoft for all device types, to ensure an optimal user experience. For details about UC-certified devices, see [Phones and devices for Skype for Business](https://go.microsoft.com/fwlink/?LinkId=619916).
   
 ## Requirements for dial-in conferencing
 
-Dial-in conferencing is an optional feature of the Skype for Business Server conferencing workload that includes a variety of components. Some of the components are specific to dial-in conferencing and some are Enterprise Voice components. This section describes the requirements for the components that are needed for dial-in conferencing. For details about Mediation Server and public switched telephone network (PSTN) gateway requirements, see [Mediation Server component in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) and [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
+Dial-in conferencing is an optional feature of the Skype for Business Server conferencing workload that includes a variety of components. Some of the components are specific to dial-in conferencing and some are Enterprise Voice components. This section describes the requirements for the components that are needed for dial-in conferencing. For details about Mediation Server and public switched telephone network (PSTN) gateway requirements, see [Mediation Server component in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) and [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 ### Required components
 
@@ -138,7 +137,7 @@ In order to use the conferencing features, Skype for Business Server requires th
 |Front End Servers  <br/> |Skype for Business Server Application Sharing service  <br/> |49152-65535  <br/> |TCP  <br/> |Media port range used for application sharing.  <br/> |
 |Front End Servers  <br/> |Skype for Business Server Conferencing Announcement service  <br/> |5073  <br/> |TCP  <br/> |Used for incoming SIP requests for the Skype for Business Server Conferencing Announcement service (that is, for dial-in conferencing).  <br/> |
 |All internal servers  <br/> |Various  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Media port range used for audio conferencing on all internal servers. Used by all servers that terminate audio: Front End Servers (for Skype for Business Server Conferencing Attendant service, Skype for Business Server Conferencing Announcement service, and Skype for Business Server Audio/Video Conferencing service), and Mediation Server.  <br/> |
-|Office Web Apps Servers  <br/> ||443  <br/> ||Used by Skype for Business Server 2015 to connect to Office Web Apps Server.  <br/> |
+|Office Web Apps Servers  <br/> ||443  <br/> ||Used by Skype for Business Server to connect to Office Web Apps Server.  <br/> |
    
 **Required client ports**
 
