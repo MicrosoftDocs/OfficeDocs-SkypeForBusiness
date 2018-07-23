@@ -388,6 +388,7 @@
 #### [Add databases](../manage/topology/add-databases.md)
 #### [Patch or update  SQL Server](../manage/topology/patch-or-update-sql-server.md)
 #### [Move File Store Data](../manage/topology/move-file-store-data.md)
+#### [Disable TLS 1.0/1.1](../manage/topology/disable-tls-1.0-1.1.md)
 ### [Persistent Chat](../manage/persistent-chat/persistent-chat.md)
 #### [Categories](../manage/persistent-chat/categories.md)
 #### [Chat rooms](../manage/persistent-chat/chat-rooms.md)
