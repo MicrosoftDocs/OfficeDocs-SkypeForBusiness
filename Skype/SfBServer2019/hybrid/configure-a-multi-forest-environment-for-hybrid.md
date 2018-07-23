@@ -126,7 +126,7 @@ AAD Connect should be installed using the defaults, except for the following:
     
 ## Configure hybrid connectivity for Skype for Business Server
 
-Follow the best practices for configuring Skype for Business hybrid. For more information information, see [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity). 
+Follow the best practices for configuring Skype for Business hybrid. For more information information, see [Plan hybrid connectivity](plan-hybrid-connectivity.md) and [Configure hybrid connectivity](configure-hybrid-connectivity.md). 
   
 ## Configure hybrid connectivity for Exchange Server
 
