@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Use the Edit Users wizard to modify the user accounts in your deployment. For more information, see Use the Hybrid Manageability wizard."
 ---
 
