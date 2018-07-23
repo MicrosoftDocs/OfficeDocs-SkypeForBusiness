@@ -29,7 +29,7 @@ To associate an A/V Conferencing Server pool, select the Front End pool or pools
 > [!NOTE]
 > If no Front End pools are displayed in the **Select the Front End pools to associate with this A/V Conferencing pool** pane, you have either collocated the A/V Conferencing Server with the Front End pool or did not select to add Conferencing in the **Features and functionality** section of the Front End pool properties.
   
-## 
+
 
 When finished, click **OK** to complete the editing of the A/V Conferencing Server pool settings. Click **Cancel** to discard any changes.
   

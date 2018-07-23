@@ -67,7 +67,7 @@ The Central Management Server can be changed from one defined Front End pool to 
   
 For details about moving the Central Management store, see [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in the Windows PowerShell cmdlet reference.
   
-## 
+## See also
 
 For details about defining and configuring these settings, see [Defining and Configuring the Topology](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
   

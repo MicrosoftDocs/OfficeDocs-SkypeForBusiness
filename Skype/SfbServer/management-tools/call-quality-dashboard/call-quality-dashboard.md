@@ -16,9 +16,7 @@ description: "Summary: Learn about the Call Quality Dashboard, which is a report
 # Call Quality Dashboard for Skype for Business Server 2015
  
 **Summary:** Learn about the Call Quality Dashboard, which is a reporting tool for Skype for Business Server 2015.
-  
-## 
-
+ 
 The Skype for Business Server 2015 Call Quality Dashboard (CQD) is a reporting layer on top of the Quality of Experience Database in the Monitoring Server in Skype for Business Server 2015 and Lync Server 2013. CQD uses Microsoft SQL Server Analysis Services to provide aggregate usage and call quality information as well as filtering and pivoting on the data set.
   
 The following topics are included in this section and should be reviewed before deploying Call Quality Dashboard.

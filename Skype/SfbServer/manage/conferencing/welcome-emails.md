@@ -23,9 +23,9 @@ You can use the **Set-CsPinSendCAWelcomeMail** script to set the PIN and send a 
   
 You can create a script that runs the **Set-CsPinSendCAWelcomeMail** script iteratively to set PINs and send email to a group of users. You can modify the email template (that is, the CAWelcomeEmailTemplate.html file) to add more links to intranet pages or modify the email text.
   
-## 
 
-### Set an initial PIN and send welcome email
+
+## Set an initial PIN and send welcome email
 
 1. Log on as a member of the RTCUniversalServerAdmins group.
     

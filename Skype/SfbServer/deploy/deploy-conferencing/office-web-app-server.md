@@ -76,7 +76,7 @@ In addition to that you should see another LS Data MCU event (event ID 41032) th
   
  **Office Web Apps Server internal attendee page: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp;=**
   
-If you have configured access for external users, you will see also see something similar to:
+If you have configured access for external users, you will also see something similar to:
   
  **Office Web Apps Server external presenter page: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp;embed**
   
