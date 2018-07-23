@@ -21,7 +21,7 @@ What do you want to do? Click the link to the task that you want to perform.
     
 - [View Details About a Service](http://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
     
-- [Start or Stop Lync Services](http://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [Start or Stop Services](http://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
     
 - [Prevent New Connections to Services](http://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
     
