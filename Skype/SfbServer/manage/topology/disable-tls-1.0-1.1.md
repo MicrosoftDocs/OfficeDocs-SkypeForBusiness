@@ -13,7 +13,7 @@ description: "Summary: Prepare for and implement disabling TLS 1.0 and 1.1 in yo
 
 # Disable TLS 1.0/1.1 in Skype for Business Server 2015
 
-The purpose of this article is to provide the necessary guidance for you to prepare for and implement disabling TLS 1.0 and 1.1 in your environments. This process requires extensive planning and preparation. Please carefully review all of the information in this article as you make your plan to disable TLS 1.0 and 1.1 if required for your organization. Note that there are many external dependencies and connectivity conditions that could be impacted by disabling TLS 1.0/1.1, so extensive planning and testing is warranted.
+The purpose of this article is to provide the necessary guidance for you to prepare for and implement disabling TLS 1.0 and 1.1 in your environments. This process requires extensive planning and preparation. Please carefully review all of the information in this article as you make your plan to disable TLS 1.0 and 1.1 for your organization. Note that there are many external dependencies and connectivity conditions that could be impacted by disabling TLS 1.0/1.1, so extensive planning and testing is warranted.
 
 ## In this article
 
@@ -25,7 +25,7 @@ The purpose of this article is to provide the necessary guidance for you to prep
 
 The primary drivers for providing TLS 1.0 and 1.1 disable support for Skype for Business Server On-Premises are Payment Card Industry (PCI) Security Standards Council and Federal Information Processing Standards requirements. More information for PCI requirements can be found [here](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls).  Microsoft cannot provide guidance on whether or not your organization is required to adhere to these or other requirements. You must determine if it is required for you to disable TLS 1.0 and/or 1.1 in your environments.
 
-Microsoft has produced a white paper on TLS available [here](https://cloudblogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/), and we also recommend the background reading available in the [Exchange blog](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/).
+Microsoft has produced a white paper on TLS available [here](https://cloudblogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/), and we also recommend the background reading available in this [Exchange blog](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/).
 
 ## Supportability Scope
 
@@ -33,7 +33,8 @@ Microsoft has produced a white paper on TLS available [here](https://cloudblogs.
 
 ### Fully tested and supported servers
 
-- Skype for Business Server 2015 CU6 HF2 6.0.9319.516 ([March 2018 update](https://support.microsoft.com/en-us/help/4086059/march-2018-cumulative-update-6-0-9319-516-for-skype-for-business)) and higher on 
+- Skype for Business Server 2019
+- Skype for Business Server 2015 CU6 HF2 6.0.9319.516 ([March 2018 update](https://support.microsoft.com/en-us/help/4086059/march-2018-cumulative-update-6-0-9319-516-for-skype-for-business)) and higher on: 
     - Windows Server 2012 (with KB 3140245 or superseding update), 2012 R2 or 2016
 - In-place Upgraded Skype for Business Server 2015, with CU6 HF2 and higher on 
     - Windows Server 2008 R2, 2012 (with KB [3140245](https://support.microsoft.com/en-us/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) or superseding update), or 2012 R2
@@ -50,7 +51,7 @@ Microsoft has produced a white paper on TLS available [here](https://cloudblogs.
 - Skype for Business for iOS and Android 6.19 and higher
 - Skype Web App 2015 CU6 HF2 and higher (ships with Server)
 
-### Currently being investigated, check back often for updates
+### Currently being investigated
 
 #### Devices
 
@@ -110,7 +111,7 @@ PIC (Public IM Connectivity) to Skype Consumer service: We do not expect disabli
 
 Except where noted above, once TLS 1.0 and 1.1 are disabled out-of-scope servers, clients and devices will longer function properly, or at all. This may mean you need to pause and wait for updated guidance from Microsoft. Once you are satisfied that you meet all requirements and have a plan to address gaps, proceed.
 
-At a high level, this requires installing Skype for Business Server 2015 CU6 HF2, applying pre-requisite updates to .NET and SQL, deploying prerequisite registry keys, and finally a separate round of OS configuration updates (i.e. disabling TLS 1.0 and 1.1 via registry file import). It is critically important that you complete installation of all prerequisites, including Skype for Business Server 2015 CU6 HF2, prior to disabling TLS 1.0 and 1.1 on any server in your environment. Every Skype for Business server, including Edge role and SQL Backends, requires the updates. Also ensure that all supported (in-scope) clients have been updated to the required minimum versions. Don’t forget to update management workstations as well.
+At a high level, while Skype for Business Server 2019 is ready for procedure at install, Skype for Business Server 2015 will require that you install CU6 HF2, applying pre-requisite updates to .NET and SQL, deploying prerequisite registry keys, and finally a separate round of OS configuration updates (i.e. disabling TLS 1.0 and 1.1 via registry file import). It is critically important that you complete installation of all prerequisites, including Skype for Business Server 2015 CU6 HF2, prior to disabling TLS 1.0 and 1.1 on any server in your environment. Every Skype for Business server, including Edge role and SQL Backends, requires the updates. Also ensure that all supported (in-scope) clients have been updated to the required minimum versions. Don’t forget to update management workstations as well.
 
 We want to follow the usual order of operations of "inside out" for upgrading Skype for Business servers. Treat Director pools, Pchat, and Paired Pools in the same manner you normally would. Order and methods for upgrade are covered [here](topology.md) and [here](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015).
 
@@ -118,7 +119,7 @@ We want to follow the usual order of operations of "inside out" for upgrading Sk
 
 1. Test all steps in your lab prior to configuring production servers.
 2. Back up and preserve a copy of exported registry on each and every individual server to be updated. You cannot share registries between servers; they contain unique machine-based keys.
-3. Upgrade all Skype for Business 2015 servers to CU6 HF2 or higher.
+3. Upgrade all Skype for Business 2015 servers to CU6 HF2 or higher. (For Skype for Business Server 2019, no CU is needed)
 4. Install all prerequisites to all servers.
 5. Deploy prerequisite registry keys.
 6. Ensure that all in-scope clients are updated.
@@ -458,7 +459,7 @@ Alternatively, you can use Internet Explorer to test TLS connections to web serv
 
 ## Advanced deployment scenarios
 
-Because some dependency prerequisites are required to support TLS 1.2 in Skype for Business Ser ver 2015, installing from RTM media will fail on any system where TLS 1.0 and 1.1 have been disabled.
+Because some dependency prerequisites are required to support TLS 1.2 in Skype for Business Ser 2015, installing from RTM media will fail on any system where TLS 1.0 and 1.1 have been disabled.
 
 **Deploying New Standard Edition Servers or Enterprise Edition Pools once TLS 1.0 and 1.1 have been disabled in your environment.**
 
@@ -475,9 +476,7 @@ Because some dependency prerequisites are required to support TLS 1.2 in Skype f
 
     SQLEXPR_x64.exe /Q /IACCEPTSQLSERVERLICENSETERMS /UPDATEENABLED=0 /HIDECONSOLE /ACTION=Install /FEATURES=SQLEngine,Tools /INSTANCENAME=LYNCLOCAL /TCPENABLED=1 /SQLSVCACCOUNT="NT AUTHORITY\NetworkService" /SQLSYSADMINACCOUNTS="Builtin\Administrators" /BROWSERSVCSTARTUPTYPE="Automatic" /AGTSVCACCOUNT="NTAUTHORITY\NetworkService" /SQLSVCSTARTUPTYPE=Automatic
 1. Run Skype for Business Server 2015 RTM setup.
-2. Follow the remaining steps from Part 2.
-
-**<<<Need to clarify what the "steps from part 2" are above.>>>**
+2. Follow the remaining steps from the prerequisites section above.
 
 **Option 3:** You may also manually replace binaries in a local installation media directory as follows:
 
