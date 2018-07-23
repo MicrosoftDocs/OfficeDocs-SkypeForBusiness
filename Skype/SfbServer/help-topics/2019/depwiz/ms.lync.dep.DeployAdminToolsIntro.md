@@ -11,6 +11,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
 description: "For details about using Deployment Wizard to install Skype for Business Server, see Install Skype for Business Server."
+robots: nodindex, nofollow
 ---
 
 # Deployment Wizard: Admin Tools
