@@ -56,7 +56,7 @@ If you determine that your organization will use a single FQDN and IP address fo
 > [!IMPORTANT]
 > If you make changes to any of these settings, including using separate FQDN and IP addresses or ports, you must update all other services that will rely on the initially configured values. 
   
-### See also
+## See also
 
 For details about defining and configuring the settings for the Edge Services, see [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
   

@@ -21,7 +21,6 @@ On the **Edit Mobility Policy** dialog, you can edit the details of a mobility p
 
 The following lists describe the menus, command, fields, and properties on the page.
   
-### 
 
 - **Commit** Click to save the changes to the policy settings.
     

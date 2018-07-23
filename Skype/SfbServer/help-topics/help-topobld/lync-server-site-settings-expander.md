@@ -35,7 +35,7 @@ If the federation setting at the Edge Server or pool has been configured, select
 > [!CAUTION]
 > This setting will affect all sites. Be sure that the setting that you are configuring at this site is appropriate for all sites. 
   
-### See also
+## See also
 
 For details, see [Topologies for External User Access](http://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).
   

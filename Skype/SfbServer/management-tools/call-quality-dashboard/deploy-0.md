@@ -43,11 +43,11 @@ Portal install creates a Repository database that stores the mapping of CQD user
 |Grant user access.  <br/> |For managing user authorization to the Portal, we recommend using URL Authorization, which was introduced in IIS 7.0. For more information, see [Understanding IIS 7.0 URL Authorization](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).  <br/> |Domain user who is a member of the local administrators group.  <br/> |Managing User Access for the Portal section in the deployment documentation.  <br/> |
 |Optional: Provide subnet mapping information.  <br/> |Populate network and building mapping tables in QoE Archive database.  <br/> |An account with write access to the QoE Archive database.  <br/> |"Supplying Subnet Information" section in the user documentation.  <br/> |
    
-## 
+
 
 Deployment of Call Quality Dashboard involves setting up the infrastructure and installing the software. The following procedure outlines the process.
   
-### Deployment Steps
+## Deployment Steps
 
 1. Copy the CallQualityDashboard.msi to the machine where the archive database component of CQD is to be installed (this is the machine that has SQL Server installed). 
     
@@ -163,7 +163,7 @@ The next step is to configure the dashboard of the CQD. After users are authenti
 > [!IMPORTANT]
 > It is important to only change this setting for the CQD application, and not for the two API applications: QoEDataService and QoERepositoryService. 
   
-### Configuring File Access for the CQD (Dashboard)
+## Configuring File Access for the CQD (Dashboard)
 
 1. Open the Configuration Editor for CQD.
     
@@ -209,7 +209,7 @@ To enable SSL/TLS in IIS and force users to connect via secure HTTPS instead of 
     
 2. For instructions on enabling TLS in the SQL Server connections, see [How to enable SSL encryption for an instance of SQL Server by using Microsoft Management Console ](https://support.microsoft.com/en-us/kb/316898/).
     
-### Cube Sync Fails
+## Cube Sync Fails
 
 QoEMetrics may contain some invalid records based on end user clocks. If the time skew is greater than 60 yrs, the cube import will fail.
   
