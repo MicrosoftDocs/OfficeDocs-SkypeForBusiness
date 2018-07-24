@@ -1,25 +1,27 @@
 ---
-title: "Monitor for server memory capacity limits in Skype for Business Server 2015"
+title: "Monitor for server memory capacity limits in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
-description: "Summary: Learn how to monitor for server memory capacity limits in Skype for Business Server 2015."
+description: "Summary: Learn how to monitor for server memory capacity limits in Skype for Business Server."
 ---
 
-# Monitor for server memory capacity limits in Skype for Business Server 2015
+# Monitor for server memory capacity limits in Skype for Business Server
  
-**Summary:** Learn how to monitor for server memory capacity limits in Skype for Business Server 2015.
+**Summary:** Learn how to monitor for server memory capacity limits in Skype for Business Server.
   
 > [!CAUTION]
 > The information in this topic that refers to Capacity Planning pertains only to Lync 2010 Mobile clients and the Mobility Service (Mcx). Capacity Planning for the Unified Communications Web API (UCWA), used by the Lync 2013 Mobile clients, is provided by the Lync Server 2013, Planning Tool. 
+
+> [!NOTE]
+> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
   
-Two mobility performance counters can help you to determine your current usage and help you plan capacity for the Skype for Business Server 2015 Mobility Service (Mcx), as well as to monitor memory usage for UCWA. For UCWA, the counter category is **LS:WEB - UCWA**. For the Mobility Service (Mcx), the counters are under the category **LS:WEB - Mobile Communication Service**. The counters to monitor are:
+Two mobility performance counters can help you to determine your current usage and help you plan capacity for the Skype for Business Server Mobility Service (Mcx), as well as to monitor memory usage for UCWA. For UCWA, the counter category is **LS:WEB - UCWA**. For the Mobility Service (Mcx), the counters are under the category **LS:WEB - Mobile Communication Service**. The counters to monitor are:
   
 - **Currently Active Session Count with Active Presence Subscriptions**, which is the current number of endpoints registered through UCWA or the Mobility Service (Mcx) that have active presence subscriptions (number of always-connected mobile users)
     
@@ -38,8 +40,8 @@ Total memory used by the Mcx Mobility Service (MB) = 164 + (400 + 134) / 1024 * 
   
 The Front End Server needs enough available memory to support the Mobility Service in failover situations. You can monitor the current available memory on the Front End Server by using the **Memory\Available Mbytes** counter, or by using the equation mentioned earlier, to plan for the amount of memory that you expect the Mobility Service to use.
   
-If the amount of memory available on the Front End Server is lower than 1,500 MB when you plan for the expected number of mobility users, you need to add more hardware to support the Mobility Service. For more details, see [Monitor mobility for performance in Skype for Business Server 2015](monitor-mobility-performance.md) in the Operations documentation.
+If the amount of memory available on the Front End Server is lower than 1,500 MB when you plan for the expected number of mobility users, you need to add more hardware to support the Mobility Service. For more details, see [Monitor mobility for performance in Skype for Business Server](monitor-mobility-performance.md) in the Operations documentation.
   
 ## See also
 
-[Monitor mobility for performance in Skype for Business Server 2015](monitor-mobility-performance.md)
+[Monitor mobility for performance in Skype for Business Server](monitor-mobility-performance.md)

@@ -1,9 +1,8 @@
 ---
-title: "MN trunk in Skype for Business Server 2015"
+title: "MN trunk in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: "Skype for Business Server Enterprise Voice supports M:N trunking between Mediation Server and components such as PSTN gateways, session border controllers, and IP-PBX."
 ---
 
-# M:N trunk in Skype for Business Server 2015
+# M:N trunk in Skype for Business Server
  
 Skype for Business Server Enterprise Voice supports M:N trunking between Mediation Server and components such as PSTN gateways, session border controllers, and IP-PBX.
   

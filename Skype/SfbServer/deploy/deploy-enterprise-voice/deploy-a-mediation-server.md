@@ -1,5 +1,5 @@
 ---
-title: "Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015"
+title: "Deploy a Mediation Server in Topology Builder in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
-description: "Summary: Learn how to define and deploy a Mediation Server in Topology Builder in Skype for Business Server 2015."
+description: "Summary: Learn how to define and deploy a Mediation Server in Topology Builder in Skype for Business Server."
 ---
 
-# Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015
+# Deploy a Mediation Server in Topology Builder in Skype for Business Server
  
-**Summary:** Learn how to define and deploy a Mediation Server in Topology Builder in Skype for Business Server 2015.
+**Summary:** Learn how to define and deploy a Mediation Server in Topology Builder in Skype for Business Server.
   
 The Enterprise Voice workload, dial-in conferencing, and advanced Enterprise Voice applications (Response Group application, Call Park application, call admission control (CAC), and so on), are available in Front End pools. The functionality of the Mediation Server is built into the Front End Server. A separate stand-alone Mediation Server is not necessary. 
   
@@ -75,7 +75,7 @@ You can add Mediation Server as a collocated role on a Front End pool, or define
    - If you want to deploy multiple Mediation Servers in the pool to provide high availability, then select **Multiple computer pool**.
     
     > [!NOTE]
-    > You must deploy  (../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) to support Mediation Server pools that have multiple Mediation Servers.
+    > You must [deploy](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) to support Mediation Server pools that have multiple Mediation Servers.
   
    - If you want to deploy only one Mediation Server in the pool because you do not require high availability, then select **Single computer pool**. Skip the following step.
     

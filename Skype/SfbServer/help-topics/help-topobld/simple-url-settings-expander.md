@@ -3,7 +3,7 @@ title: "Simple URL Settings Expander"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -40,7 +40,7 @@ To edit or change the Administrative access URL, edit the entry.
   
 After you are finished with all changes on the Edit Properties page, click **OK** to save the changes. Click **Cancel** to discard changes.
   
-## 
+## See also
 
 For details, see [Planning for Simple URLs](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)
   

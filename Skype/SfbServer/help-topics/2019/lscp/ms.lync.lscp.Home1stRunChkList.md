@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Welcome to the Skype for Business Server Control Panel, the web-based user interface for administration and management of Skype for Business Server. You can use the control panel to perform the types of administrative tasks that were performed for by using the Microsoft Management Console in previous releases."
 ---
 
@@ -33,6 +34,6 @@ We strongly recommend that you review the tasks referred to in this topic, and t
 |If you deployed or want to deploy Enterprise Voice, configure a SIP trunk connection to enable connectivity to the public switched telephone network (PSTN).  <br/> |**Voice Routing** <br/> |[Configuring Trunks and Translation Rules](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx) <br/> |
 |If you deployed Enterprise Voice, verify Enterprise Voice routing settings.  <br/> |**Voice Routing** <br/> |[Test Voice Routing](http://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx) <br/> |
 |If you deployed Archiving Server, verify that archiving policies and settings meet the compliance needs of your organization.  <br/> |**Monitoring and Archiving** <br/> |[Managing Archiving](http://technet.microsoft.com/library/48c6cc8c-c2c1-4534-9a8a-fd5eb738076a.aspx) <br/> |
-|If you deployed Monitoring Server, view Monitoring Server reports to view usage and diagnostic information.  <br/> |**Home** <br/> |[Manage health and monitoring in Skype for Business Server 2015](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
+|If you deployed Monitoring Server, view Monitoring Server reports to view usage and diagnostic information.  <br/> |**Home** <br/> |[Manage health and monitoring in Skype for Business Server](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
    
 

@@ -70,7 +70,7 @@ We recommend that you set up Operations Management Suite alerting as described i
 
 For more information about troubleshooting and admin mode, see [Manage Skype Room Systems v2](room-systems-v2-operations.md#admin-mode-and-device-management). 
 
-### See also
+## See also
 
 [Skype Room Systems version 2 help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

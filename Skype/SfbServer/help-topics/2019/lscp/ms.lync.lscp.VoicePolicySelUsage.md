@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Use the Select PSTN Usage Record dialog box to find an existing public switched telephone network (PSTN) usage record that you can use."
 ---
 

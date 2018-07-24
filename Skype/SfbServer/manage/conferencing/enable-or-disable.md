@@ -1,20 +1,19 @@
 ---
-title: "Enable or disable dial-in conferencing in Skype for Business Server 2015"
+title: "Enable or disable dial-in conferencing in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
-description: "Summary: Learn how to use Control Panel or Management Shell to enable or disable dial-in conferencing in Skype for Business Server 2015."
+description: "Summary: Learn how to use Control Panel or Management Shell to enable or disable dial-in conferencing in Skype for Business Server."
 ---
 
-# Enable or disable dial-in conferencing in Skype for Business Server 2015
+# Enable or disable dial-in conferencing in Skype for Business Server
  
-**Summary:** Learn how to use Control Panel or Management Shell to enable or disable dial-in conferencing in Skype for Business Server 2015.
+**Summary:** Learn how to use Control Panel or Management Shell to enable or disable dial-in conferencing in Skype for Business Server.
   
 You can enable dial-in conferencing by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
   

@@ -42,9 +42,9 @@ Additionally, the Planning Tool requires Microsoft .NET Framework 4.5.
   
 After the preinstallation requirements are met, you can then install the Planning Tool.
   
-## 
 
-### To install the Planning Tool
+
+## To install the Planning Tool
 
 1. Log on to the local computer as a member of the Administrators group.
     

@@ -3,7 +3,6 @@ title: "Deploy Skype Room Systems v2 management with OMS"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 4/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro

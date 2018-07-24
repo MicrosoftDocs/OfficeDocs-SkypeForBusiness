@@ -1,23 +1,23 @@
 ---
-title: "Configure the use of high-resolution photos in Skype for Business Server 2015"
+title: "Configure the use of high-resolution photos in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: "Summary: Configure the use of high-resolution photos in Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server 2015."
+description: "Summary: Configure the use of high-resolution photos in Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server."
 ---
 
-# Configure the use of high-resolution photos in Skype for Business Server 2015
+# Configure the use of high-resolution photos in Skype for Business Server
  
-**Summary:** Configure the use of high-resolution photos in Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server 2015.
+**Summary:** Configure the use of high-resolution photos in Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server.
   
-In Skype for Business Server 2015 photos can be stored in a user's Exchange Server 2016 or Exchange Server 2013 mailbox, which allows for photo sizes up to 648 pixels by 648 pixels. In addition, Exchange Server can automatically resize these photos for use in different products as needed. Typically that means three different photo sizes and resolutions:
+In Skype for Business Server photos can be stored in a user's Exchange Server 2016 or Exchange Server 2013 mailbox, which allows for photo sizes up to 648 pixels by 648 pixels. In addition, Exchange Server can automatically resize these photos for use in different products as needed. Typically that means three different photo sizes and resolutions:
   
 - 64 pixels by 64 pixels, the size used for the Active Directory thumbnailPhoto attribute. If you upload a photo to Exchange Server, Exchange will automatically create a 64 pixel by 64 pixel version of that photo and update the user's thumbnailPhoto attribute. Note, however, that the reverse is not true: if you manually update the thumbnailPhoto attribute in Active Directory the photo in the user's Exchange mailbox will not automatically be updated.
     

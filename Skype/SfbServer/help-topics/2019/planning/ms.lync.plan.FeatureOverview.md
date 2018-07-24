@@ -55,6 +55,9 @@ The remaining elements have either been populated with the answers you provided 
 - **Persistent Chat**
     
     Persistent Chat enables multiple users to participate in conversations in which they post and access content about specific topics, including text, links, and files. Although users can communicate in real time during a session, the content of each session is persistent, which means it continues to be available after a session ends.
+
+    > [!NOTE] 
+    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.
     
 ### Users
 
@@ -70,7 +73,7 @@ The remaining elements have either been populated with the answers you provided 
     
 - **Federation with XMPP-based service provider**
     
-    Skype for Business Server introduces a fully integrated XMPP proxy (deployed on the Edge Servers) and an XMPP gateway deployed on your Front End Servers. You can deploy Adding and configuring the XMPP proxy and XMPP gateway will allow your Skype for Business Server users to add contacts from XMPP-based partners for instant messaging (IM) and presence.
+    Skype for Business Server 2015 introduced a fully integrated XMPP proxy (deployed on the Edge Servers) and an XMPP gateway deployed on your Front End Servers. You can deploy Adding and configuring the XMPP proxy and XMPP gateway will allow your Skype for Business Server users to add contacts from XMPP-based partners for instant messaging (IM) and presence.
     
 - **Mobility**
     
@@ -79,6 +82,9 @@ The remaining elements have either been populated with the answers you provided 
 - **W15 Exchange mailbox**
     
     Skype for Business Server enables you to have voicemail messages stored in Exchange Unified Messaging (UM); those voicemail messages will then appear as email messages in your users' Inboxes.
+
+    > [!NOTE]
+    > Exchange Unified Messaging as previously known is no longer available in Exchange 2019, but you can still use Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) for more information.
     
 ### Voice
 
@@ -90,7 +96,10 @@ The remaining elements have either been populated with the answers you provided 
     
 - **Exchange Unified Messaging**
     
-    Exchange Unified Messaging (UM) combines voice mail and email into a single messaging infrastructure. Skype for Business Server uses Exchange UM to provide call answering, subscriber access, call notification, and auto attendant services. If you use these services, you will need to integrate Exchange UM and Skype for Business Server in a shared Active Directory topology.
+    Exchange Unified Messaging (UM) combines voice mail and email into a single messaging infrastructure. Skype for Business Server 2015 uses Exchange UM to provide call answering, subscriber access, call notification, and auto attendant services. If you use these services, you will need to integrate Exchange UM and Skype for Business Server in a shared Active Directory topology.
+
+    > [!NOTE]
+    > Exchange Unified Messaging as previously known is no longer available in Exchange 2019, but you can still use Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) for more information.
     
 ### Additional Deployment Options
 

@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Call Park number ranges define the temporary numbers where parked calls are held until someone retrieves them or they time out."
 ---
 

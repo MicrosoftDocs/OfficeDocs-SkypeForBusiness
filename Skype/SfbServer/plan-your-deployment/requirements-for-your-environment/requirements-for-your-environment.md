@@ -16,7 +16,7 @@ ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
 description: "Summary: Outline of topics for systems requirements and network or infrastructure requirements for Skype for Business Server 2015. If you need to install or configure anything as a prerequisite to installing and deploying Skype for Business Server 2015, it will be here."
 ---
 
-# Requirements for your Skype for Business environment
+# Requirements for your Skype for Business 2015 environment
  
 **Summary:** Outline of topics for systems requirements and network or infrastructure requirements for Skype for Business Server 2015. If you need to install or configure anything as a prerequisite to installing and deploying Skype for Business Server 2015, it will be here.
   

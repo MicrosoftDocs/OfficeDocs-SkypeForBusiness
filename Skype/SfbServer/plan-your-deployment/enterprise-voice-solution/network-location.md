@@ -1,9 +1,8 @@
 ---
-title: "Define the network elements used to determine location in Skype for Business Server 2015"
+title: "Define the network elements used to determine location in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: "Decisions necessary for planning which network components you will use to map callers to locations for E9-1-1 deployment in Skype for Business Server Enterprise Voice."
 ---
 
-# Define the network elements used to determine location in Skype for Business Server 2015
+# Define the network elements used to determine location in Skype for Business Server
  
 Decisions necessary for planning which network components you will use to map callers to locations for E9-1-1 deployment in Skype for Business Server Enterprise Voice.
   

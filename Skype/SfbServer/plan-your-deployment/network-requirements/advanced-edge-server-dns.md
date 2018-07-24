@@ -1,8 +1,7 @@
 ---
-title: "Advanced Edge Server DNS planning for Skype for Business Server 2015"
+title: "Advanced Edge Server DNS planning for Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,14 +11,14 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: 
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
-description: "Summary: Review scenarios for Skype for Business Server 2015 deployment options. Whether you want a single server or prefer a server pool with DNS or HLB, this topic should help."
+description: "Summary: Review scenarios for Skype for Business Server deployment options. Whether you want a single server or prefer a server pool with DNS or HLB, this topic should help."
 ---
 
-# Advanced Edge Server DNS planning for Skype for Business Server 2015
+# Advanced Edge Server DNS planning for Skype for Business Server
  
-**Summary:** Review scenarios for Skype for Business Server 2015 deployment options. Whether you want a single server or prefer a server pool with DNS or HLB, this topic should help.
+**Summary:** Review scenarios for Skype for Business Server deployment options. Whether you want a single server or prefer a server pool with DNS or HLB, this topic should help.
   
-When it comes to Domain Name System (DNS) planning for Skype for Business Server 2015, there are a lot of factors that may play into your decision. If your organization's domain structure's already in place, this may be a matter of reviewing how you're going to proceed. We'll begin with the topics found below:
+When it comes to Domain Name System (DNS) planning for Skype for Business Server, there are a lot of factors that may play into your decision. If your organization's domain structure's already in place, this may be a matter of reviewing how you're going to proceed. We'll begin with the topics found below:
   
 - [Walkthrough of Skype for Business clients locating services](../../plan-your-deployment/edge-server-deployments/advanced-edge-server-dns.md#WalkthroughOfSkype)
     
@@ -34,7 +33,7 @@ When it comes to Domain Name System (DNS) planning for Skype for Business Server
 ## Walkthrough of Skype for Business clients locating services
 <a name="WalkthroughOfSkype"> </a>
 
-Skype for Business clients are similar to previous versions of Lync clients in how they find and access services in Skype for Business Server 2015. This section details the server location process.
+Skype for Business clients are similar to previous versions of Lync clients in how they find and access services in Skype for Business Server. This section details the server location process.
   
 1. lyncdiscoverinternal.\<domain\>
     
@@ -94,19 +93,19 @@ We'll list the DNS records for the internal and external zones here, but you can
     
 - This internal contoso.com contains:
     
-  - DNS A and AAAA (if you're using IPv6 addressing) records for your Front End pool, Director pool or Director pool name, and all internal servers running Skype for Business Server 2015 in your organization's network.
+  - DNS A and AAAA (if you're using IPv6 addressing) records for your Front End pool, Director pool or Director pool name, and all internal servers running Skype for Business Server in your organization's network.
     
-  - DNS A and AAAA (if you're using IPv6 addressing) records for your Edge internal interface for each Skype for Business Server 2015 Edge Server in your perimeter network.
+  - DNS A and AAAA (if you're using IPv6 addressing) records for your Edge internal interface for each Skype for Business Server Edge Server in your perimeter network.
     
   - DNS A and AAAA (if you're using IPv6 addressing) records for the internal interface of each reverse proxy server in your perimeter network (which is **optional** for management of a reverse proxy).
     
-  - DNS A and AAAA (if you're using IPv6 addressing) and SRV records for internal Skype for Business Server 2015 client autoconfiguration (which is **optional** ).
+  - DNS A and AAAA (if you're using IPv6 addressing) and SRV records for internal Skype for Business Server client autoconfiguration (which is **optional** ).
     
-  - DNS A and AAAA (if you're using IPv6 addressing) or CNAME records for automatic discovery of Skype for Business Server 2015 Web Services (which is **optional** ).
+  - DNS A and AAAA (if you're using IPv6 addressing) or CNAME records for automatic discovery of Skype for Business Server Web Services (which is **optional** ).
     
-- All your Skype for Business Server 2015 internal Edge interfaces in your perimeter network use this internal DNS zone for resolving queries to contoso.com.
+- All your Skype for Business Server internal Edge interfaces in your perimeter network use this internal DNS zone for resolving queries to contoso.com.
     
-- All servers running Skype for Business Server 2015, and clients running Skype for Business Server 2015 in the corporate network, point to internal DNS servers for resolving queries to contoso.com, or they use the Host file on each Edge Server and list A and AAAA (if you're using IPv6 addressing) records for the next hop server (specifically for the Director or Director pool VIP, Front End pool VIP, or Standard Edition server).
+- All servers running Skype for Business Serve, and clients running Skype for Business Server in the corporate network, point to internal DNS servers for resolving queries to contoso.com, or they use the Host file on each Edge Server and list A and AAAA (if you're using IPv6 addressing) records for the next hop server (specifically for the Director or Director pool VIP, Front End pool VIP, or Standard Edition server).
     
 ### External DNS
 
@@ -114,18 +113,18 @@ We'll list the DNS records for the internal and external zones here, but you can
     
 - This external contoso.com contains:
     
-  - DNS A and AAAA (if you're using IPv6 addressing), or CNAME records, for automatic discovery of Skype for Business Server 2015 web services. This is for use with mobility.
+  - DNS A and AAAA (if you're using IPv6 addressing), or CNAME records, for automatic discovery of Skype for Business Server web services. This is for use with mobility.
     
-  - DNS A and AAAA (if you're using IPv6 addressing) and SRV records for the Edge external interface of each Skype for Business Server 2015 Edge Server or hardware load balanced (HLB) VIP in the perimeter network.
+  - DNS A and AAAA (if you're using IPv6 addressing) and SRV records for the Edge external interface of each Skype for Business Server Edge Server or hardware load balanced (HLB) VIP in the perimeter network.
     
   - DNS A and AAAA (if you're using IPv6 addressing) and SRV records for the external interface of the Reverse proxy server or (VIP for a pool of Reverse proxy servers), in the perimeter network.
     
-  - DNS A and AAAA (if you're using IPv6 addressing) and SRV records for Skype for Business Server 2015 client autoconfiguration (**optional**).
+  - DNS A and AAAA (if you're using IPv6 addressing) and SRV records for Skype for Business Server client autoconfiguration (**optional**).
     
 ## Automatic configuration without split-brain DNS
 <a name="NoSplitBrainDNS"> </a>
 
-If you don't use split-brain DNS, internal automatic configuration of clients running Skype for Business won't work unless you're using one of the workarounds we have here. Why not? Because Skype for Business Server 2015 requires the user's SIP URI to match the domain of the Front End pool designated for automatic configuration. This hasn't changed from earlier versions of Lync Server.
+If you don't use split-brain DNS, internal automatic configuration of clients running Skype for Business won't work unless you're using one of the workarounds we have here. Why not? Because Skype for Business Server requires the user's SIP URI to match the domain of the Front End pool designated for automatic configuration. This hasn't changed from earlier versions of Lync Server.
   
 So, if you have two SIP domains in use, you'd need these DNS SRV records:
   
@@ -154,7 +153,7 @@ So now that we know all that, if you need automatic requirement for your Skype f
   
 - **Matching internal zone**
     
-    You'll need to create a zone in your internal DNS that matches your external DNS zone (for example, contoso.com), and then create DNS A (and AAAA if you're using IPv6 addressing) records that correspond to the Skype for Business Server 2015 pool used for automatic configuration.
+    You'll need to create a zone in your internal DNS that matches your external DNS zone (for example, contoso.com), and then create DNS A (and AAAA if you're using IPv6 addressing) records that correspond to the Skype for Business Server pool used for automatic configuration.
     
     For example, if you have a user homed on pool01.contoso.net, but signs into Skype for Business as bob@contoso.com, create an internal DNS zone called contoso.com, and inside it you need to create a DNS A (and AAAA if IPv6 addressing's being used) record for pool01.contoso.com.
     
@@ -195,7 +194,7 @@ So now that we know all that, if you need automatic requirement for your Skype f
 ## DNS disaster recovery
 <a name="DNSDR"> </a>
 
-To configure DNS to redirect Skype for Business Server 2015 web traffic to your disaster recover (DR) and failover sites, you need to use a DNS provider that supports GeoDNS. You can set up your DNS records to support disaster recover, so that features that use web services continue even if one entire Front End pool goes down. This DR feature supports the Autodiscover, Meet and Dial-in simple URLs.
+To configure DNS to redirect Skype for Business Server web traffic to your disaster recover (DR) and failover sites, you need to use a DNS provider that supports GeoDNS. You can set up your DNS records to support disaster recover, so that features that use web services continue even if one entire Front End pool goes down. This DR feature supports the Autodiscover, Meet and Dial-in simple URLs.
   
 You define and configure additional DNS host A (AAAA if using IPv6) records for internal and external resolution of web services at your GeoDNS provider. The following details assume paired pools, geographically dispersed, and that the GeoDNS supported by your provider **either** has round-robin DNS **or** is configured to use Pool1 as primary and fails over to Pool2 in the event of any communications loss or power failure.
   
@@ -231,7 +230,7 @@ For example, if there are three Front End Servers in a pool named pool01.contoso
     
 - If the TCP connection succeeds, the client negotiates TLS to connect to the primary registrar on pool01.contoso.com.
     
-- If the client tries all cached entries without a successful connection, the user receives a notification that no servers running Skype for Business Server 2015 are available at the moment.
+- If the client tries all cached entries without a successful connection, the user receives a notification that no servers running Skype for Business Server are available at the moment.
     
 > [!NOTE]
 > DNS-based load balancing is different from DNS round robin (DNS RR), which typically refers to load balancing by relying on DNS to give a different order of IP addresses for the servers in your pool. Typically, DNS RR enables load distribution, but it won't allow you to enable failover. For example, if the connection to the one IP address returned by your DNS A (or AAAA in an IPv6 scenario) query fails, that connection will fail. That makes DNS RR less reliable than DNS-based load balancing. You can still use DNS RR in conjunction with DNS-based load balancing if you need to do that. 

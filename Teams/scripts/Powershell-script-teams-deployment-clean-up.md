@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
-description: Use this PowerShell script to create a public, company-wide team in Teams.
+description: Use this PowerShell script to clean up Microsoft Teams on targeted machines or for specific users.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 ---
@@ -14,7 +14,7 @@ MS.collection: Strat_MT_TeamsAdmin
 PowerShell Script Sample - Microsoft Teams deployment clean up
 -------------------------------------------------------------------------
 
-This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines\users. It should be executed for every user on a targeted machine. 
+This PowerShell script can be leveraged for the cleanup of Microsoft Teams from target machines or users. It should be executed for every user on a targeted machine. 
 
 
 ## Sample script

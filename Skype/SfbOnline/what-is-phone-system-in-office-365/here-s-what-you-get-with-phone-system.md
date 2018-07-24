@@ -73,7 +73,7 @@ See these articles to plan and set up the Phone System in your business:
   
 - [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md): This article has step-by-step instructions to get set up with your phone numbers or to transfer your existing phone numbers to Skype for Business.
     
-- [Plan your Phone System in Office 365 (Cloud PBX) solution](https://go.microsoft.com/fwlink/?LinkId=708645): This TechNet article lays out all of your deployment options. It also has information about planning an entirely cloud-only solution. 
+- [Plan your Phone System in Office 365 (Cloud PBX) solution](https://go.microsoft.com/fwlink/?LinkId=708645): This  article lays out all of your deployment options. It also has information about planning an entirely cloud-only solution. 
     
 - [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md): Learn which licenses you need to buy to get the Phone System in Office 365.
     

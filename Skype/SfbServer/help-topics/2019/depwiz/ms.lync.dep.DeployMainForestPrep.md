@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To prepare the Active Directory Domain Services forest, you must successfully extend the schema, as described in the topic Running Schema Preparation, and make sure that the schema has replicated."
 ---
 
@@ -24,7 +25,7 @@ After completing these prerequisites, you can begin **Step 3: Prepare Current Fo
 2. From the **Prepare Forest** page, click **Next**.
     
     > [!NOTE]
-    > Forest Preparation enables you to choose where to place the Universal Groups for Skype for Business Server 2015. Choose a location that is consistent with the requirements of your organization. 
+    > Forest Preparation enables you to choose where to place the Universal Groups for Skype for Business Server. Choose a location that is consistent with the requirements of your organization. 
   
 3. On the **Executing Commands** page, look for **Task status: Completed**, and then click **View Log**. Make sure that there are no errors. Review the warnings to determine if they are expected and typical for your infrastructure.
     

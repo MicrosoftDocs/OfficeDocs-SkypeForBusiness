@@ -10,30 +10,34 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
-description: "Summary: Review this topic while planning to integrate Skype for Business Server 2015 with Exchange 2013."
+description: "Summary: Review this topic while planning to integrate Skype for Business Server with Exchange 2013 or 2016."
 ---
 
 # Plan for Exchange Unified Messaging integration in Skype for Business
  
-**Summary:** Review this topic while planning to integrate Skype for Business Server 2015 with Exchange 2013.
+**Summary:** Review this topic while planning to integrate Skype for Business Server with Exchange 2013 or 2016.
   
-Skype for Business Server 2015 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure. In Exchange, Exchange Unified Messaging (UM) is one of several Exchange server roles that you can install and configure. 
+Skype for Business Server supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure. In Exchange, Exchange Unified Messaging (UM) is one of several Exchange server roles that you can install and configure. 
   
-In Microsoft Exchange Server 2013, Exchange UM runs as a service on an Exchange Mailbox server. For Skype for Business Server 2015 Enterprise Voice deployments, Unified Messaging combines voice messaging and email messaging into a single store that users can access from a telephone (Outlook Voice Access) or a computer. Unified Messaging and Skype for Business Server 2015 work together to provide call answering, Outlook Voice Access, and auto-attendant services to users of Enterprise Voice.
+In Microsoft Exchange Server 2013 and 2016, Exchange UM runs as a service on an Exchange Mailbox server. For Skype for Business Server Enterprise Voice deployments, Unified Messaging combines voice messaging and email messaging into a single store that users can access from a telephone (Outlook Voice Access) or a computer. Unified Messaging and Skype for Business Server work together to provide call answering, Outlook Voice Access, and auto-attendant services to users of Enterprise Voice.
+
+> [!NOTE]
+> Exchange UM remains available in Skype for Business Server 2019 when you integrate Skype for Business 2019 with Exchange 2013 or Exchange 2016. Due to changes in support in Exchange 2019, Exchange UM integration is being de-emphasised in favor of Cloud Voicemail and Cloud Auto Attendant features.  See [Plan Cloud Voicemail service](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) and [Plan for Skype for Business Server and Exchange Server migration](../../../SfBServer2019/hybrid/plan-um-migration.md) for more information.
   
-For more information about the architecture changes in Microsoft Exchange Server 2013, see [Voice Architecture Changes](https://go.microsoft.com/fwlink/p/?LinkId=266730) in the Microsoft Exchange Server 2013 documentation.
-  
+ 
 For these features to be supported in an on-premises Exchange UM deployment, you must be running one of the following:
   
-- Microsoft Exchange Server 2010 or latest service pack
-    
+- Microsoft Exchange Server 2010 or latest service pack (Skype for Business Server 2015 only)
 - Microsoft Exchange Server 2013
-    
--  Microsoft Exchange Server 2016
-    
-## Features of integrated Unified Messaging and Skype for Business Server 2015
+- Microsoft Exchange Server 2016
+- Microsoft Exchange Server 2019  (Skype for Business Server 2019 only)
 
-Skype for Business Server 2015, Enterprise Voice uses the Exchange Unified Messaging (UM) infrastructure to provide call answering, call notification, voice access (including voice mail), and auto-attendant services.
+> [!NOTE]
+> Exchange Unified Messaging as previously known is no longer available in Skype for Business Server 2019, which uses Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) for more information.
+    
+## Features of integrated Unified Messaging and Skype for Business Server
+
+Skype for Business Server, Enterprise Voice uses the Exchange Unified Messaging (UM) infrastructure to provide call answering, call notification, voice access (including voice mail), and auto-attendant services.
   
 - **Call Answering** Call answering is the receiving of voice messages on behalf of users whose calls are not answered or are busy. It includes playing a personal greeting, recording a message, and submitting the message to be queued for delivery to the user's mailbox, which is stored on the Exchange mailbox server.
     
@@ -46,50 +50,50 @@ Skype for Business Server 2015, Enterprise Voice uses the Exchange Unified Messa
 - **Fax Services** Exchange UM includes fax features, which enable users to receive incoming faxes in their Exchange mailboxes. For details, see [Unified Messaging](https://go.microsoft.com/fwlink/p/?linkId=135652) in the Microsoft Exchange Server documentation.
     
     > [!NOTE]
-    > Fax services provided by the Exchange UM server are not available in Skype for Business Server deployments that are integrated with Microsoft Exchange Server 2010, Exchange 2010 with the latest service pack, or Exchange 2013. 
+    > Fax services provided by the Exchange UM server are not available in Skype for Business Server deployments that are integrated with Microsoft Exchange Server 2010, Exchange 2010 with the latest service pack, Exchange 2013, or Exchange 2016. 
   
-## Components and topologies for on-premises Unified Messaging in Skype for Business Server 2015
+## Components and topologies for on-premises Unified Messaging in Skype for Business Server
 
 ### Exchange Server Components
 
-To provide the Exchange UM features and services described in [Features of Integrated Unified Messaging and Lync Server 2013](http://technet.microsoft.com/library/094f549d-fccc-43ab-9f39-6ddd18130915.aspx) to Enterprise Voice users in your organization, you must deploy an Microsoft Exchange Mailbox server and Client Access server, which hosts user mailboxes and provides a single storage location for email and voice mail. Exchange UM runs as a service on Exchange Mailbox and Client Access servers.
+To provide the Exchange UM features and services described in [Features of integrated Unified Messaging and Skype for Business Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) to Enterprise Voice users in your organization, you must deploy an Microsoft Exchange Mailbox server and Client Access server, which hosts user mailboxes and provides a single storage location for email and voice mail. Exchange UM runs as a service on Exchange Mailbox and Client Access servers.
   
-For details about Exchange UM components in Microsoft Exchange Server 2010, see [Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail](http://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx) in the Deployment documentation.
+For details about Exchange UM components in Microsoft Exchange Server 2010, see [Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail](http://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx) .
   
 ### Supported Topologies
 
-You can deploy Skype for Business Server 2015 and Exchange Unified Messaging (UM) in the same forest or multiple forests. If the deployment spans multiple forests, you must perform the Exchange integration steps for each Exchange UM forest. Furthermore, you must configure each Microsoft Exchange forest to trust the Skype for Business Server 2015 forest and the Skype for Business Server 2015 forest to trust each Exchange UM forest. In addition to this forest trust, the Exchange UM settings for all users must be set on the user objects in the Skype for Business Server 2015 forest. 
+You can deploy Skype for Business Server and Exchange Unified Messaging (UM) in the same forest or multiple forests. If the deployment spans multiple forests, you must perform the Exchange integration steps for each Exchange UM forest. Furthermore, you must configure each Microsoft Exchange forest to trust the Skype for Business Server forest and the Skype for Business Server forest to trust each Exchange UM forest. In addition to this forest trust, the Exchange UM settings for all users must be set on the user objects in the Skype for Business Server forest. 
   
-Skype for Business Server 2015 supports the following topologies for Exchange UM integration:
+Skype for Business Server supports the following topologies for Exchange UM integration:
   
 - Single forest
     
-- Single domain (that is, a single forest with a single domain). Skype for Business Server 2015, Microsoft Exchange, and users all reside in the same domain.
+- Single domain (that is, a single forest with a single domain). Skype for Business Server, Microsoft Exchange, and users all reside in the same domain.
     
-- Multiple domain (that is, a root domain with one or more child domains). Skype for Business Server 2015, and Microsoft Exchange servers are deployed in different domains from the domain where you create users. Exchange UM servers can be deployed in different domains from the Skype for Business Server 2015 pool they support.
+- Multiple domain (that is, a root domain with one or more child domains). Skype for Business Server, and Microsoft Exchange servers are deployed in different domains from the domain where you create users. Exchange UM servers can be deployed in different domains from the Skype for Business Server pool they support.
     
-- Multiple forest (that is, resource forest). Skype for Business Server 2015 is deployed in a single forest, and then users are distributed across multiple forests. The users' Exchange UM attributes must be replicated over to the Skype for Business Server 2015 forest.
+- Multiple forest (that is, resource forest). Skype for Business Server is deployed in a single forest, and then users are distributed across multiple forests. The users' Exchange UM attributes must be replicated over to the Skype for Business Server forest.
     
     > [!NOTE]
-    > Exchange can be deployed in multiple forests. Each Exchange organization can provide Exchange UM to its users, or Exchange UM can be deployed in the same forest as Skype for Business Server 2015. 
+    > Exchange can be deployed in multiple forests. Each Exchange organization can provide Exchange UM to its users, or Exchange UM can be deployed in the same forest as Skype for Business Server. 
   
-## Guidelines for integrating on-premises Unified Messaging and Skype for Business Server 2015
+## Guidelines for integrating on-premises Unified Messaging and Skype for Business Server
 
 The following are guidelines and best practices to consider when you deploy Enterprise Voice:
   
 > [!IMPORTANT]
 > Exchange Unified Messaging (UM) supports IPv6 only if you are also using UCMA 4. 
   
-- Deploy a Skype for Business Server 2015 Standard Edition server or a Front End pool. For details about installation, see [Deploy Skype for Business Server 2015](../../deploy/deploy.md) in the Deployment documentation.
+- Deploy a Skype for Business Server Standard Edition server or a Front End pool. 
     
 - Work with Exchange administrators to confirm which tasks each of you will perform to assure a smooth and successful integration.
     
 - Deploy the Exchange Mailbox server roles in each Exchange Unified Messaging (UM) forest where you want to enable users for Exchange UM. For details about installing Exchange server roles, see the Microsoft Exchange Server 2013 documentation.
     
     > [!IMPORTANT]
-    > When Exchange Unified Messaging (UM) is installed, it is configured to use a self-signed certificate. The self-signed certificate does not enable Skype for Business Server 2015 and Exchange UM to trust each other, which is why it is necessary to request a separate certificate from a certification authority that both servers trust. 
+    > When Exchange Unified Messaging (UM) is installed, it is configured to use a self-signed certificate. The self-signed certificate does not enable Skype for Business Server and Exchange UM to trust each other, which is why it is necessary to request a separate certificate from a certification authority that both servers trust. 
   
-- If Skype for Business Server 2015 and Exchange UM are installed in different forests, configure each Exchange forest to trust the Skype for Business Server 2015 forest and the Skype for Business Server 2015 forest to trust each Exchange forest. Also, set the users' Exchange UM settings on the user objects in the Skype for Business Server 2015 forest, typically by using a script or a cross-forest tool, such as Identity Lifecycle Manager (ILM).
+- If Skype for Business Server and Exchange UM are installed in different forests, configure each Exchange forest to trust the Skype for Business Server forest and the Skype for Business Server forest to trust each Exchange forest. Also, set the users' Exchange UM settings on the user objects in the Skype for Business Server forest, typically by using a script or a cross-forest tool, such as Identity Lifecycle Manager (ILM).
     
 - If necessary, install the Exchange Management Console to manage your Unified Messaging servers.
     
@@ -100,7 +104,7 @@ The following are guidelines and best practices to consider when you deploy Ente
 ### Deploying Redundant Exchange UM Servers
 
 > [!IMPORTANT]
-> We recommend that you deploy a minimum of two servers on which Exchange UM services is running for each Exchange UM SIP URI dial plan that you configure for your organization. In addition to providing expanded capacity, deploying redundant servers provides high availability. In the event of an server failure, Skype for Business Server 2015 can be configured to fail over to another server. 
+> We recommend that you deploy a minimum of two servers on which Exchange UM services is running for each Exchange UM SIP URI dial plan that you configure for your organization. In addition to providing expanded capacity, deploying redundant servers provides high availability. In the event of an server failure, Skype for Business Server can be configured to fail over to another server. 
   
 The following example configurations provide Exchange UM resiliency.
   
@@ -119,7 +123,7 @@ In Example 1, Exchange UM servers 1 and 2 are enabled in the Tukwila data center
   
 In Example 2, under ordinary operating conditions Exchange UM servers 1 and 2 are enabled in the Tukwila data center, and Exchange UM servers 3 and 4 are enabled in the Dublin data center. All four servers are included in the Tukwila users' SIP URI dial plan; however, servers 3 and 4 are disabled. In the event of an Exchange UM outage in Tukwila, for example, Exchange UM servers 1 and 2 should be disabled and Exchange UM servers 3 and 4 should be enabled so the Tukwila Exchange UM traffic will be routed to the servers in Dublin.
   
-For details about how to enable or disable Unified Messaging on Exchange 2013, see [Integrate Exchange 2013 UM with Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=265372). The information provided applies equally to Skype for Business Server 2015.
+For details about how to enable or disable Unified Messaging on Exchange 2013, see  [Integrate Exchange 2013 UM with Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=265372). The information provided applies equally to Skype for Business Server.
   
 For details about how to enable or disable Unified Messaging on Microsoft Exchange Server 2010, see:
   
@@ -127,6 +131,11 @@ For details about how to enable or disable Unified Messaging on Microsoft Exchan
     
 - [Disable Unified Messaging on Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
     
+### Exchange Server 2019
+
+Exchange Unified Messaging is no longer present in Exchange 2019, if you have Exchange 2019 and you want equivalent functionality you will need to use the Cloud Voicemail service described in [Plan Cloud Voicemail service](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md).
+
+
 ## See also
 
 [Deployment process overview for integrating on-premises Unified Messaging and Skype for Business](deployment-overview.md)

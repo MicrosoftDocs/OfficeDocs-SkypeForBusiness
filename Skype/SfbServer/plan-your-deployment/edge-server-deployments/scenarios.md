@@ -1,8 +1,7 @@
 ---
-title: "Edge Server scenarios in Skype for Business Server 2015"
+title: "Edge Server scenarios in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,12 +11,12 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom:
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
-description: "Summary: Review these scenarios to help you plan your Edge Server topology in Skype for Business Server 2015 ."
+description: "Summary: Review these scenarios to help you plan your Edge Server topology in Skype for Business Server."
 ---
 
-# Edge Server scenarios in Skype for Business Server 2015
+# Edge Server scenarios in Skype for Business Server
  
-**Summary:** Review these scenarios to help you plan your Edge Server topology in Skype for Business Server 2015 .
+**Summary:** Review these scenarios to help you plan your Edge Server topology in Skype for Business Server.
   
 We have some scenarios diagrams to assist with visualizing and deciding on what Skype for Business Server Edge Server topology you want to implement. Once you've picked a good candidate, you can go read up on the environmental requirements you'll need to address. The following is applicable to any of the scenarios, so we're mentioning it first.
   
@@ -27,7 +26,7 @@ The diagrams show .com for the external interface and .net for the internal, whi
   
 We don't include the Director (which is an optional component) in any of the diagrams, but you can read about that separately (it's mentioned in other Planning topics).
   
-As noted above, there is sample IPv6 data in the diagrams. Most of the documentation in [Plan for Edge Server deployments in Skype for Business Server 2015](edge-server-deployments.md) will refer to IPv4, but you are certainly supported if you want to use IPv6. Note that you'll need IPv6 addresses in your assigned address space, and they'll need to work with internal and external addressing, as with IPv4 IPs. You can, thanks to Windows, employ the dual stack feature, which is a separate and distinct network stack for IPv4 and IPv6. This will, if you need, allow you to assign IPv4 and IPv6 addresses concurrently.
+As noted above, there is sample IPv6 data in the diagrams. Most of the documentation in [Plan for Edge Server deployments in Skype for Business Server](edge-server-deployments.md) will refer to IPv4, but you are certainly supported if you want to use IPv6. Note that you'll need IPv6 addresses in your assigned address space, and they'll need to work with internal and external addressing, as with IPv4 IPs. You can, thanks to Windows, employ the dual stack feature, which is a separate and distinct network stack for IPv4 and IPv6. This will, if you need, allow you to assign IPv4 and IPv6 addresses concurrently.
   
 There are NAT devices that allow for NAT64 (IPv6 to IPv4) and NAT66 (IPv6 to IPv6)), and this is valid for use with Skype for Business Server.
   

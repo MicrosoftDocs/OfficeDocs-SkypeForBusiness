@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0cdb0a42-c682-42f7-907e-667f934cb7e0
+ROBOTS: NOINDEX, NOFOLLOW
 description: "In Deployed gateway, click the gateway where you want to import the voice configuration file that you selected."
 ---
 

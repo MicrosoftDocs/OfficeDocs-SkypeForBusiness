@@ -3,7 +3,7 @@ title: "Define the Root Trunk for a New IP or PSTN Gateway"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:

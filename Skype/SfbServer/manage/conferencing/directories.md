@@ -1,20 +1,19 @@
 ---
-title: "Create conference directories in Skype for Business Server 2015"
+title: "Create conference directories in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: "Summary: Learn how to create conference directories in Skype for Business Server 2015."
+description: "Summary: Learn how to create conference directories in Skype for Business Server."
 ---
 
-# Create conference directories in Skype for Business Server 2015
+# Create conference directories in Skype for Business Server
  
-**Summary:** Learn how to create conference directories in Skype for Business Server 2015.
+**Summary:** Learn how to create conference directories in Skype for Business Server.
   
 Conference directories maintain a mapping between the alphanumeric meeting ID that a participant uses to join a conference when using Skype for Business, and the numeric-only conference ID that a dial-in conferencing participant uses to join the conference. 
   

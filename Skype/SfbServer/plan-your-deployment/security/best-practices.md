@@ -1,9 +1,8 @@
 ---
-title: "Best practices for your core infrastructure in Skype for Business Server 2015"
+title: "Best practices for your core infrastructure in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,7 +11,7 @@ ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: "You have probably already taken steps to design fault tolerance in your system, using practices such as ensuring hardware redundancy, guarding against power loss, routinely installing security updates and antivirus measures, and Monitoring Server activity. These practices benefit not only your Skype for Business Server infrastructure, but also your entire network. If you have not implemented these practices, we recommend that you do so before deploying Skype for Business Server."
 ---
 
-# Best practices for your core infrastructure in Skype for Business Server 2015
+# Best practices for your core infrastructure in Skype for Business Server
  
 You have probably already taken steps to design fault tolerance in your system, using practices such as ensuring hardware redundancy, guarding against power loss, routinely installing security updates and antivirus measures, and Monitoring Server activity. These practices benefit not only your Skype for Business Server infrastructure, but also your entire network. If you have not implemented these practices, we recommend that you do so before deploying Skype for Business Server.
   

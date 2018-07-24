@@ -37,7 +37,7 @@ After you have finished installing the Skype for Business Server Planning Tool, 
 4. Answer each section by selecting the appropriate criteria for your design, and then click **Next** to proceed to the next Wizard page. Click **Back** to make changes on previous pages.
     
     > [!TIP]
-    > Each page has a description of the selection criteria, and recommendations based on preferred practices and capacity planning. If you require additional details, click **Learn more** to read detailed information from the Skype for Business Server 2015 Planning documentation on the Microsoft TechNet website. You must have Internet connectivity to access the Microsoft TechNet website.
+    > Each page has a description of the selection criteria, and recommendations based on preferred practices and capacity planning. If you require additional details, click **Learn more** to read detailed information from the Skype for Business Server 2015 Planning documentation on the Microsoft  website. You must have Internet connectivity to access the Microsoft  website.
   
 5. Select the appropriate options for your design. After the initial criteria are defined, a page will confirm that your Features Overview is complete. 
     

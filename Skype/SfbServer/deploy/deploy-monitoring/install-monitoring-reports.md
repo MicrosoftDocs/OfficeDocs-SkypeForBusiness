@@ -1,45 +1,44 @@
 ---
-title: "Install Monitoring Reports in Skype for Business Server 2015"
+title: "Install Monitoring Reports in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/21/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 
-description: "Summary: Learn how to install a service that will generate Monitoring reports in Skype for Business Server 2015."
+description: "Summary: Learn how to install a service that will generate Monitoring reports in Skype for Business Server."
 ---
 
-# Install Monitoring Reports in Skype for Business Server 2015
+# Install Monitoring Reports in Skype for Business Server
  
-**Summary:** Learn how to install a service that will generate Monitoring reports in Skype for Business Server 2015.
+**Summary:** Learn how to install a service that will generate Monitoring reports in Skype for Business Server.
   
-Skype for Business Server 2015 Monitoring Reports provide you with a wealth of information about the quality and quantity of the communication sessions that take place in your organization. 
+Skype for Business Server Monitoring Reports provide you with a wealth of information about the quality and quantity of the communication sessions that take place in your organization. 
   
 ## Install Monitoring Reports
 
-Monitoring Reports are not automatically installed when you install Skype for Business Server 2015; instead, you must install Monitoring Reports separately, and only after Skype for Business Server has been installed on the computer.
+Monitoring Reports are not automatically installed when you install Skype for Business Server; instead, you must install Monitoring Reports separately, and only after Skype for Business Server has been installed on the computer.
   
 > [!NOTE]
 > It is recommended that you install Monitoring Reports on the same computer where the monitoring database is installed. This simplifies the process of assigning permissions for accessing the reports: installing Monitoring Reports on the computer that hosts the monitoring store means that you will not have to configure permissions that allow a database on one computer to interact with Reporting Services running on a second computer. 
   
 Skype for Business Server Monitoring Reports include over 30 reports designed to provide detailed information about conferences, peer-to-peer IM sessions, user registrations, the Response Group application, and much more. For the 2013 version, Skype for Business Server Monitoring Reports include a number of enhancements:
   
-- **New voice quality reports**. These new reports include the [Media Quality Comparison Report in Skype for Business Server 2015](../../manage/health-and-monitoring/comparison.md), which compares quality between different types of calls (for example, between wired calls and wireless calls); and the [Conference Join Time Report in Skype for Business Server 2015](../../manage/health-and-monitoring/join-time-report.md), which provides information regarding the amount of time requires for users to join a conference. 
+- **New voice quality reports**. These new reports include the [Media Quality Comparison Report in Skype for Business Server](../../manage/health-and-monitoring/comparison.md), which compares quality between different types of calls (for example, between wired calls and wireless calls); and the [Conference Join Time Report in Skype for Business Server](../../manage/health-and-monitoring/join-time-report.md), which provides information regarding the amount of time requires for users to join a conference. 
     
-- **Improved reports for analyzing and troubleshooting both video and application sharing sessions.** the [Media Quality Summary Report in Skype for Business Server 2015](../../manage/health-and-monitoring/summary.md) provides a way to analyze video and application sharing calls, while the [Server Performance Report in Skype for Business Server 2015](../../manage/health-and-monitoring/server-performance.md) details the performance of servers generating these calls. Video and application sharing metrics are also now reported by the [Peer-to-Peer Session Detail Report in Skype for Business Server 2015](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) and the [Conference Detail Report in Skype for Business Server 2015](../../manage/health-and-monitoring/detail-report.md).
+- **Improved reports for analyzing and troubleshooting both video and application sharing sessions.** the [Media Quality Summary Report in Skype for Business Server](../../manage/health-and-monitoring/summary.md) provides a way to analyze video and application sharing calls, while the [Server Performance Report in Skype for Business Server](../../manage/health-and-monitoring/server-performance.md) details the performance of servers generating these calls. Video and application sharing metrics are also now reported by the [Peer-to-Peer Session Detail Report in Skype for Business Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) and the [Conference Detail Report in Skype for Business Server](../../manage/health-and-monitoring/detail-report.md).
     
 - **Improved report performance**. This includes faster response and data retrieval time, as well as faster and easier navigation through the reports.
     
 More information on the individual reports can be found in the Monitoring Reports documentation.
   
 > [!NOTE]
-> There is another report - QoE Call Detail Subreport - included in Skype for Business Server 2015. However, this report is primarily for internal use, and is not intended to be directly accessed. 
+> There is another report - QoE Call Detail Subreport - included in Skype for Business Server. However, this report is primarily for internal use, and is not intended to be directly accessed. 
   
-There are two ways to install Skype for Business Server Monitoring Reports: you can use the Skype for Business Server Deployment Wizard or you can use a Windows PowerShell script included with the Skype for Business Server 2015 installation files. Regardless of the method you use to install the reports you must first make sure that you:
+There are two ways to install Skype for Business Server Monitoring Reports: you can use the Skype for Business Server Deployment Wizard or you can use a Windows PowerShell script included with the Skype for Business Server installation files. Regardless of the method you use to install the reports you must first make sure that you:
   
 - Have the right to add a database role to a user account in the monitoring database.
     
@@ -91,6 +90,6 @@ In the preceding command, the ReportingUrl property should be set to the Report 
     
 3. In Reporting Services Configuration Manager, click Report Manager URL. One or more URLs should appear in the Report Manager URL pane. Any of these URLs can be used as the Reporting URL although, again, it is recommended that the ReportingUrl use the HTTPS protocol.
     
-If you have set up a mirror database for your monitoring database then you must also associate the Monitoring Reports with the mirror database. See the article [Associate Monitoring Reports with a mirror database in Skype for Business Server 2015](monitoring-reports-with-a-mirror-database.md) for details.
+If you have set up a mirror database for your monitoring database then you must also associate the Monitoring Reports with the mirror database. See the article [Associate Monitoring Reports with a mirror database in Skype for Business Server](monitoring-reports-with-a-mirror-database.md) for details.
   
 

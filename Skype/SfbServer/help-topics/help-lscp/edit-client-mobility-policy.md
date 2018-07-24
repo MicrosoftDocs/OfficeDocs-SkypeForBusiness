@@ -3,7 +3,7 @@ title: "Edit Client Mobility Policy"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -22,7 +22,6 @@ On the **Edit Mobility Policy** dialog, you can edit the details of a mobility p
 
 The following lists describe the menus, command, fields, and properties on the page.
   
-### 
 
 - **Commit** Click to save the changes to the policy settings.
     

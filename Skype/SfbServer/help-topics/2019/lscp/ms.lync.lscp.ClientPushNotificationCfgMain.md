@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To configure the Microsoft push notifications and Apple push notifications, you must create a policy to define which types of push notification you require."
 ---
 

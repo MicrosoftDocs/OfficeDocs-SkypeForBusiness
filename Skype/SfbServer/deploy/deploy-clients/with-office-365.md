@@ -3,7 +3,6 @@ title: "Deploy Skype Room Systems v2 with Office 365"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/8/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro

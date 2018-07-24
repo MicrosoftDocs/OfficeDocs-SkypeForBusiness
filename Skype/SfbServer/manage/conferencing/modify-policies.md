@@ -1,20 +1,19 @@
 ---
-title: "Modify conferencing policies in Skype for Business Server 2015"
+title: "Modify conferencing policies in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
-description: "Summary: Learn how to modify conferencing policies in Skype for Business Server 2015."
+description: "Summary: Learn how to modify conferencing policies in Skype for Business Server."
 ---
 
-# Modify conferencing policies in Skype for Business Server 2015
+# Modify conferencing policies in Skype for Business Server
  
-**Summary:** Learn how to modify conferencing policies in Skype for Business Server 2015.
+**Summary:** Learn how to modify conferencing policies in Skype for Business Server.
   
 You can modify conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
   

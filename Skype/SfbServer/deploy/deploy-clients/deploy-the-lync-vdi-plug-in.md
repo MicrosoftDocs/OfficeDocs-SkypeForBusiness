@@ -1,9 +1,8 @@
 ---
-title: "Deploy the Lync VDI plug-in with Skype for Business Server 2015"
+title: "Deploy the Lync VDI plug-in with Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,7 +11,7 @@ ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: "This topic discusses deployment procedures for using Skype for Business while connecting to a remote virtual desktop."
 ---
 
-# Deploy the Lync VDI plug-in with Skype for Business Server 2015
+# Deploy the Lync VDI plug-in with Skype for Business Server
  
 This topic discusses deployment procedures for using Skype for Business while connecting to a remote virtual desktop. Planning considerations are at [Plan for Skype for Business in VDI environments](../../plan-your-deployment/clients-and-devices/vdi-environments.md).
   
@@ -20,14 +19,14 @@ A Virtual Desktop Infrastructure (VDI) environment is used in some organizations
   
 There are two solutions available for the VDI plug-in component - one offered by Microsoft and one offered by Citrix. Microsoft recommends using the new HDX RealTime Optimization Pack solution in new deployments but will continue to support the original Lync VDI Plug-in for the remainder of its lifecycle. 
   
-This topic provides details on deploying the Microsoft Lync VDI plug-in, which is only supported on Windows 7 and Windows 8 or Windows Server 2008, and only supports Lync 2013 or Skype for Business 2015 clients. There are no plans to update this plugin, but the [Citrix HDX RealTime Optimization Pack](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) for Skype for Business will be updated as needed.
+This topic provides details on deploying the Microsoft Lync VDI plug-in, which is only supported on Windows 7 and Windows 8 or Windows Server 2008, and only supports Lync 2013 or Skype for Business clients. There are no plans to update this plugin, but the [Citrix HDX RealTime Optimization Pack](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) for Skype for Business will be updated as needed.
   
 ## Prepare your environment for the Lync VDI plug-in
 <a name="Prepare_vdi"> </a>
 
-1. In Skype for Business Server 2015, ensure that EnableMediaRedirection is set to TRUE for all Lync VDI plug-in users. For details, see the Help topics for the [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps) cmdlet and the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) cmdlet.
+1. In Skype for Business Server, ensure that EnableMediaRedirection is set to TRUE for all Lync VDI plug-in users. For details, see the Help topics for the [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps) cmdlet and the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) cmdlet.
     
-2. On the data center server, install the Skype for Business 2015 client on all virtual desktops.
+2. On the data center server, install the Skype for Business client on all virtual desktops.
     
 3. On the local computers, install the Lync VDI plug-in.
     
@@ -59,15 +58,15 @@ To prepare Remote Desktop Connection for the Lync VDI plug-in, follow these step
 ## Sign in and use Skype for Business on the virtual desktop
 <a name="SfB_signin"> </a>
 
-After the Lync VDI plug-in is enabled, the user follows these steps when signing in to Skype for Business 2015 on the virtual desktop.
+After the Lync VDI plug-in is enabled, the user follows these steps when signing in to Skype for Business on the virtual desktop.
   
-1. The user types his or her credentials in to the Skype for Business 2015 client running on the virtual desktop.
+1. The user types his or her credentials in to the Skype for Business client running on the virtual desktop.
     
-2. After Skype for Business 2015 detects the Lync VDI plug-in, Skype for Business 2015 prompts the user to re-enter the credentials. In this dialog box, we recommend that the user select the **Save my password** check box so that he or she will not be required to enter credentials during subsequent sign in.
+2. After Skype for Business detects the Lync VDI plug-in, Skype for Business prompts the user to re-enter the credentials. In this dialog box, we recommend that the user select the **Save my password** check box so that he or she will not be required to enter credentials during subsequent sign in.
     
-3. Skype for Business 2015 begins pairing with the Lync VDI plug-in. While that happens, the client displays two icons in the Skype for Business 2015 status bar. The icon in the lower left indicates that no audio devices are available, and the blinking icon in the lower right indicates that VDI pairing is in progress:
-    4. After VDI pairing is successful, the icons change to indicate the audio device that will be used for calls and the VDI pairing success:
-    5. The user can now see his or her presence on Skype for Business 2015 compatible devices that are connected to the local computer, and place and answer calls as usual.
+3. Skype for Business begins pairing with the Lync VDI plug-in. While that happens, the client displays two icons in the Skype for Business status bar. The icon in the lower left indicates that no audio devices are available, and the blinking icon in the lower right indicates that VDI pairing is in progress:
+    a. After VDI pairing is successful, the icons change to indicate the audio device that will be used for calls and the VDI pairing success:
+    b. The user can now see his or her presence on Skype for Business compatible devices that are connected to the local computer, and place and answer calls as usual.
     
 ## Troubleshoot the Lync VDI plug-in
 <a name="tshoot_VDI"> </a>
@@ -112,9 +111,9 @@ The following are possible reasons for failures and the actions you can take to 
     
   - UcVdi.dll
     
-- **The Skype for Business 2015 client is running on the local computer.**
+- **The Skype for Business client is running on the local computer.**
     
-    To use the Lync VDI plug-in, a Skype for Business 2015 client must not be running on the local computer, otherwise pairing will fail. As a best practice, the user should not install a Skype for Business 2015 client on the local computer.
+    To use the Lync VDI plug-in, a Skype for Business client must not be running on the local computer, otherwise pairing will fail. As a best practice, the user should not install a Skype for Business client on the local computer.
     
 ## See also
 <a name="tshoot_VDI"> </a>

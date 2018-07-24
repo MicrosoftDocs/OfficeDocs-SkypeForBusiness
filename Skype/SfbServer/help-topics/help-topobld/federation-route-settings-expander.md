@@ -3,7 +3,7 @@ title: "Federation Route Settings Expander"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -18,7 +18,6 @@ description: "To set a site federation route assignment, you must first have fed
  
 To set a site federation route assignment, you must first have federation enabled on the Edge Server or Edge Server pool. If federation is not enabled on the Edge Server or pool, the federation route assignment settings for the site will not be available for modification.
   
-## 
 
 If the federation setting at the Edge Server or pool has been configured, you can configure the following options: 
   

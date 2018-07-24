@@ -1,9 +1,8 @@
 ---
-title: "Example Gathering requirements for call admission control in Skype for Business Server 2015"
+title: "Example Gathering requirements for call admission control in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: "Provides a detailed example of planning for call admission control in Skype for Business Server Enterprise Voice, including gathering information about your network's sites, regions, and bandwidth."
 ---
 
-# Example: Gathering requirements for call admission control in Skype for Business Server 2015
+# Example: Gathering requirements for call admission control in Skype for Business Server
  
 Provides a detailed example of planning for call admission control in Skype for Business Server Enterprise Voice, including gathering information about your network's sites, regions, and bandwidth.
   
@@ -53,7 +52,7 @@ To prepare for call admission control, gather the information described in the f
      ![Network Topology Example with 3 Network Regions](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
   
     > [!NOTE]
-    > A Multiprotocol Label Switching (MPLS) network should be represented as a network region in which each geographic location has a corresponding network site. For details, see the "[Components and topologies for call admission control in Skype for Business 2015](components-and-topologies.md)" topic in the Planning documentation. 
+    > A Multiprotocol Label Switching (MPLS) network should be represented as a network region in which each geographic location has a corresponding network site. For details, see [Components and topologies for call admission control in Skype for Business](components-and-topologies.md). 
   
     In the preceding example network topology, there are three network regions, each with a Skype for Business Server central site that manages CAC. The appropriate central site for a network region is chosen by the geographic vicinity. Because media traffic will be heaviest within network regions, the ownership by geographic vicinity makes it self-contained and will continue to be functional even if other central sites become unavailable. 
     
@@ -129,7 +128,7 @@ To prepare for call admission control, gather the information described in the f
     > Every subnet in your network must be associated with a network site, even if the network site is not bandwidth constrained. This is because call admission control uses subnet information to determine at which network site an endpoint is located. When the locations of both parties in the session are determined, call admission control can determine if there is sufficient bandwidth to establish a call. When a session is established over a link that has no bandwidth limits, an alert is generated. 
   
     > [!IMPORTANT]
-    > If you deploy Audio/Video Edge Servers, the public IP addresses of each Edge Server must be associated with the network site where the Edge Server is deployed. Each public IP address of the A/V Edge Server must be added to your network configuration settings as a subnet with a subnet mask of 32. For example, if you deploy A/V Edge Servers in Chicago, then for each external IP address of those servers create a subnet with a subnet mask of 32 and associate network site Chicago with those subnets. For details about public IP addresses, see [Plan network requirements for Skype for Business 2015](../../plan-your-deployment/network-requirements/network-requirements.md). 
+    > If you deploy Audio/Video Edge Servers, the public IP addresses of each Edge Server must be associated with the network site where the Edge Server is deployed. Each public IP address of the A/V Edge Server must be added to your network configuration settings as a subnet with a subnet mask of 32. For example, if you deploy A/V Edge Servers in Chicago, then for each external IP address of those servers create a subnet with a subnet mask of 32 and associate network site Chicago with those subnets. For details about public IP addresses, see [Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md). 
   
     A Key Health Indicator (KHI) alert is raised, specifying a list of IP addresses that are present in your network but are either not associated with a subnet, or the subnet that includes the IP addresses is not associated with a network site. This alert will not be raised more than once within an 8 hour period. The relevant alert information and an example are as follows:
     

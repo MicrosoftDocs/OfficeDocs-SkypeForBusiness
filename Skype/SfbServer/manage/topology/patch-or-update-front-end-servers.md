@@ -1,9 +1,8 @@
 ---
-title: "Patch or update Front End Servers in Skype for Business Server 2015"
+title: "Patch or update Front End Servers in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 4/4/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -12,7 +11,7 @@ ms.assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
 description: "Summary: learn how to apply upgrades or patches to Front End Servers in Skype for Business Server."
 ---
 
-# Patch or update Front End Servers in Skype for Business Server 2015
+# Patch or update Front End Servers in Skype for Business Server
  
 **Summary:** learn how to apply upgrades or patches to Front End Servers in Skype for Business Server.
   

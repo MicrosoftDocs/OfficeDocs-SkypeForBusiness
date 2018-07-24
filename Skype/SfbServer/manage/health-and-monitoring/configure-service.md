@@ -1,23 +1,22 @@
 ---
-title: "Configure Mobility Service for high performance in Skype for Business Server 2015"
+title: "Configure Mobility Service for high performance in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
-description: "Summary: Learn about the Mobility Service in Skype for Business Server 2015."
+description: "Summary: Learn about the Mobility Service in Skype for Business Server."
 ---
 
-# Configure Mobility Service for high performance in Skype for Business Server 2015
+# Configure Mobility Service for high performance in Skype for Business Server
  
-**Summary:** Learn about the Mobility Service in Skype for Business Server 2015.
+**Summary:** Learn about the Mobility Service in Skype for Business Server.
   
 > [!IMPORTANT]
-> This topic applies only to the Skype for Business Server 2015 Mobility Service (Mcx), and does not apply to Unified Communications Web API (UCWA), as delivered in the Cumulative Updates for Lync Server 2013: February 2013. 
+> This topic applies only to the Skype for Business Server Mobility Service (Mcx), and does not apply to Unified Communications Web API (UCWA), as delivered in the Cumulative Updates for Lync Server 2013: February 2013. 
   
 When you install the Mobility Service (Mcx) on Internet Information Services (IIS) 7.5, the Mobility Service installer configures some performance settings on the Front End Server. We recommend that you use IIS 7.5 for mobility. The settings affect the maximum number of concurrent user requests and the maximum number of threads that are allowed for the Mobility Service.
   

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 06/18/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
+ms.reviewer: 
 description: List of Teams resources helpful for IT admins in Education. 
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
