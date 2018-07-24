@@ -64,16 +64,6 @@ To disable Teams for all users with an active license for your named plan, run t
 ## Manage via Office Sku level switch
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
-1.  Sign in to the [Office 365 Admin center](https://go.microsoft.com/fwlink/?linkid=854614) with an account that has Global Administrator privileges.
-
-2.  Go to **Settings** > **Services & add-ins**.
-
-    ![Screenshot of the Settings section in the Office 365 admin center with Services & add-ins selected. ](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
-
-3.  On the Services & add-ins page, click **Microsoft Teams**.
-
-    ![Screenshot of the Services & add-ins page with Microsoft Teams selected.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
-
-4.  To turn on Teams for the organization use the license picker and select each license then set the toggle to **On** and then click **Save**.
+This option has now been deprecated. 
 
     ![Screenshot of the Microsoft Teams settings page showing the toggle set to On to enable Microsoft Teams.](media/Services-and-addins-control-Microsoft-Teams.PNG)
