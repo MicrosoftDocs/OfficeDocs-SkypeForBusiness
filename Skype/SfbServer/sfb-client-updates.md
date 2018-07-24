@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Priority
-ms.collection: RelNotes_Perpetual
+ms.collection: IT_Skype16
 description: "Provides IT Pros with links to the latest update information for perpetual versions of Skype for Business 2016, Skype for Business 2015, and Lync 2013 clients"
 ---
 
@@ -16,7 +16,7 @@ description: "Provides IT Pros with links to the latest update information for p
 
 Use the links on this page to get more information about and download the most recent updates for the perpetual versions of Skype for Business 2016, Skype for Business 2015, and Lync 2013 clients.
   
-> [!NOTE]
+> [!NOTE] 
 > - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
 > - The information in this article doesn't apply to Office 365 versions of Skype for Business, such as Skype for Business included with Office 365 ProPlus.
 > - To find out what version of Skype for Business you're using, see [What version of Skype for Business do I have?](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
@@ -210,7 +210,7 @@ Package Name|Release Date|
 |[Lync Basic 2013 Trial (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35451) | October 2012 |
 |[Lync Basic 2013 Trial (64-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35450) | October 2012 |
 
-***
+* * *
 
 
 ### Lync for Mac 2011 client updates

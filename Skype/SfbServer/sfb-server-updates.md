@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business updates"
+title: "Skype for Business Server updates"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,10 +8,7 @@ ms.audience: ITPro
 ms.topic: reference
 ms.prod: skypeforbusiness-server-itpro
 localization_priority: Priority
-ms.collection:
-- IT_Skypeforbusiness_Server
-- IT_Skypeforbusinesst_Server_Top
-- RelNotes_Server
+ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: "Find and manage updates for Skype for Business Server 2015 and Lync 2013 in one place. Use the links on this page to get more information about updates, and then download the updates."
 ---
@@ -72,7 +69,7 @@ For the latest Skype for Business Online and Office 365 updates, see the [Office
 |Cumulative update for Skype for Business Server 2015, Front End server and Edge server |[KB 3097645](https://support.microsoft.com/kb/3097645) |November 2015 |
 |Cumulative update for Skype for Business Server 2015, Group Call Pickup |[KB 3124205](https://support.microsoft.com/kb/3124205) |November 2015 |
 
-***
+* * *
 
 ## Lync Server 2013 update history
     
@@ -221,7 +218,7 @@ Package Name/Link|Release Date|
 |[VHD Test Drive - Lync Server 2010 (Eval) - Part 1 of 2](https://www.microsoft.com/en-us/download/details.aspx?id=26217) |September 2012 |
 |[VHD Test Drive - Lync Server 2010 (Eval) - Part 2 of 2](https://www.microsoft.com/en-us/download/details.aspx?id=34602) |September 2012 |
 
-***
+* * *
 
 ## Additional information
 
