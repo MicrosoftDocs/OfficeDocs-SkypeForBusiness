@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
+ROBOTS: NOINDEX, NOFOLLOW
 description: "This is preliminary documentation and is subject to change. Blank topics are included as placeholders."
 ---
 

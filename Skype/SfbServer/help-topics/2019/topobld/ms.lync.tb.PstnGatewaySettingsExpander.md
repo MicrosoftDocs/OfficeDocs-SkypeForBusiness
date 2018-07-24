@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To edit or modify the settings for a public switched telephone network (PSTN) gateway, modify the following fields:"
 ---
 

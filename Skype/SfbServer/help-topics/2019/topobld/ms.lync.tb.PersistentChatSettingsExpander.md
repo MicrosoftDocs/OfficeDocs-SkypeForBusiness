@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 12da11ea-3aca-4ef1-8367-f3f8a959f033
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Persistent Chat Settings Expander

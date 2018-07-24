@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To Define the Survivable Branch Appliance FQDN, type the fully qualified domain name (FQDN) (as defined in Domain Name System (DNS)) of the Survivable Branch Appliance or Survivable Branch Server in the FQDN text box. Click Next to continue."
 ---
 

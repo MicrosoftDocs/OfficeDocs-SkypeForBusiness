@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
+ROBOTS: NOINDEX, NOFOLLOW
 description: "This node shows the server fully qualified domain name (FQDN) and IP address configuration for this server. You can perform the following actions:"
 ---
 

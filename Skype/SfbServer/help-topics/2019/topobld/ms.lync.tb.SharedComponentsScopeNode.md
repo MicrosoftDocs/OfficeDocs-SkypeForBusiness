@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
+ROBOTS: NOINDEX, NOFOLLOW
 description: "You right click on Shared Components in the Topology Builder hierarchy tree to create new shared components or to access Topology level options."
 ---
 

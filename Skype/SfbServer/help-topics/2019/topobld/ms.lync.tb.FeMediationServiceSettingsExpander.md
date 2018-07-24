@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
+ROBOTS: NOINDEX, NOFOLLOW
 description: "For Mediation Server, you can specify the following:"
 ---
 

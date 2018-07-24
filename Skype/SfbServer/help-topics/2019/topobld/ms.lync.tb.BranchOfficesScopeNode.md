@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
+ROBOTS: NOINDEX, NOFOLLOW
 description: "The Branch Sites node lists the branch sites that are associated with this central site. You can perform the following action:"
 ---
 

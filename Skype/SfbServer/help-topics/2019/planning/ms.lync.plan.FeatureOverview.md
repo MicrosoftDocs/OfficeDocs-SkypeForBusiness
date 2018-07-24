@@ -11,6 +11,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Skype for Business Server Planning Tool"
 ---
 

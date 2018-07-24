@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
+ROBOTS: NOINDEX, NOFOLLOW
 description: "You define the root trunk for the IP or public switched telephone network (PSTN) by configuring the following:"
 ---
 
