@@ -175,7 +175,3 @@ When you’re ready, deploy Teams to [enable collaboration within your organizat
 ## Step 6. Deploy Teams for meetings and voice
 
 This is also a great time to use Teams with your wider stakeholder group to start planning for rolling out meetings and [cloud voice features](cloud-voice-deployment.md).
-
->>>>>>> master
-=======
->>>>>>> 974fc131e5d1d3b5de8631d2611816e1972bd212
