@@ -21,6 +21,3 @@ Topology Builder parses all configuration settings in your defined topology docu
   
  If you select to choose not to install one or all of these databases at this time, you clear the databases that you will not install. At a later time, you choose to use **Install Database** by right clicking on most node items in Topology Builder.
   
-## See also
-
-[Deploy SQL mirroring for Back End Server high availability in Skype for Business Server](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

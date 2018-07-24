@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
+ROBOTS: NOINDEX, NOFOLLOW
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---
 

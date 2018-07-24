@@ -1,9 +1,8 @@
 ---
-title: "Plan for call management features in Skype for Business 2015"
+title: "Plan for call management features in Skype for Business"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: "Overview of supported call-management features in Skype for Business Server Enterprise Voice."
 ---
 
-# Plan for call management features in Skype for Business 2015
+# Plan for call management features in Skype for Business
  
 Overview of supported call-management features in Skype for Business Server Enterprise Voice.
   

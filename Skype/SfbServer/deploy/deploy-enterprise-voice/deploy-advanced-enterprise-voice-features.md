@@ -1,9 +1,8 @@
 ---
-title: "Deploy advanced Enterprise Voice features in Skype for Business Server 2015"
+title: "Deploy advanced Enterprise Voice features in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,26 +15,26 @@ ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: "Deploy advanced Enterprise Voice features in Skype for Business Server."
 ---
 
-# Deploy advanced Enterprise Voice features in Skype for Business Server 2015
+# Deploy advanced Enterprise Voice features in Skype for Business Server
  
 Deploy advanced Enterprise Voice features in Skype for Business Server.
   
 After you have configured basic Enterprise Voice functionality for your organization, you can optionally deploy one or more advanced Enterprise Voice features by following the procedures in this section. 
   
-- [Plan for media bypass in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+- [Plan for media bypass in Skype for Business](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
-- [Plan for emergency services in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
+- [Plan for emergency services in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
 ## In this section
 
-- [Deploy network regions, sites and subnets in Skype for Business 2015](deploy-network.md)
+- [Deploy network regions, sites and subnets in Skype for Business](deploy-network.md)
     
-- [Deploy media bypass in Skype for Business Server 2015](deploy-media-bypass.md)
+- [Deploy media bypass in Skype for Business Server](deploy-media-bypass.md)
     
-- [Deploy call admission control in Skype for Business Server 2015](deploy-call-admission-control.md)
+- [Deploy call admission control in Skype for Business Server](deploy-call-admission-control.md)
     
-- [Deploy emergency services in Skype for Business Server 2015](deploy-emergency-services.md)
+- [Deploy emergency services in Skype for Business Server](deploy-emergency-services.md)
     
 

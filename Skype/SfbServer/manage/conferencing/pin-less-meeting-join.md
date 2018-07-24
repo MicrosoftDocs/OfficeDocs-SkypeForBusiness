@@ -3,18 +3,17 @@ title: "Configure PIN-less meeting join in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: "Summary: Learn how to configure the PIN-less meeting join option in Skype for Business Server 2015."
+description: "Summary: Learn how to configure the PIN-less meeting join option in Skype for Business Server."
 ---
 
 # Configure PIN-less meeting join in Skype for Business Server
  
-**Summary:** Learn how to configure the PIN-less meeting join option in Skype for Business Server 2015.
+**Summary:** Learn how to configure the PIN-less meeting join option in Skype for Business Server.
   
 When a dial-in caller attempts to join a meeting, the Conference Auto Attendant (CAA) service places the caller in a holding pen that is different from the Lobby &#x2014; if a presenter is not already on a call, and the dial-in caller has not entered a leader PIN. The PIN-less meeting join option allows dial-in callers to join a meeting without entering a leader PIN even if they are the first person on a call. 
   

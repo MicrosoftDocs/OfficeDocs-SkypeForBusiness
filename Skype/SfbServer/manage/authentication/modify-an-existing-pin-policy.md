@@ -1,21 +1,20 @@
 ---
-title: "Modify an existing PIN policy in Skype for Business Server 2015"
+title: "Modify an existing PIN policy in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
-description: "Summary: Modify an existing PIN policy in Skype for Business Server 2015."
+description: "Summary: Modify an existing PIN policy in Skype for Business Server."
 ---
 
-# Modify an existing PIN policy in Skype for Business Server 2015
+# Modify an existing PIN policy in Skype for Business Server
  
-**Summary:** Modify an existing PIN policy in Skype for Business Server 2015.
+**Summary:** Modify an existing PIN policy in Skype for Business Server.
   
 You can use the **PIN Policy** tab to provide personal identification number (PIN) authentication to users who are connecting to Skype for Business with IP Phones. To use PIN authentication, make sure that **Enable PIN Authentication** is selected in Web Service settings.
   
@@ -23,7 +22,7 @@ Follow these steps to modify a user-level or a site-level PIN policy.
   
 ### To modify an existing PIN policy
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
     

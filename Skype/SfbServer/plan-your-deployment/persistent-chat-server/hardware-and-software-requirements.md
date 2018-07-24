@@ -3,6 +3,7 @@ title: "Hardware and software requirements for Persistent Chat Server in Skype f
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
+ms.date: 7/19/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -30,6 +31,9 @@ Before you deploy Persistent Chat Server, you must ensure that the following har
 - Message Queuing software. Used by the Persistent Chat Server and Persistent Chat Compliance service, if deployed.
     
 The following sections describe the specific requirements for Persistent Chat Server and the database that stores the Persistent Chat data.
+
+> [!NOTE] 
+> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
   
 ## Front End Server requirements
 

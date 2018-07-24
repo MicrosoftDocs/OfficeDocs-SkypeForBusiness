@@ -1,21 +1,20 @@
 ---
-title: "User models in Skype for Business Server 2015"
+title: "User models in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
-description: "The user models described here provide the basis for the capacity planning measurements and recommendations described in Capacity planning user model usage for Skype for Business Server 2015."
+description: "The user models described here provide the basis for the capacity planning measurements and recommendations described in Capacity planning user model usage for Skype for Business Server."
 ---
 
-# User models in Skype for Business Server 2015
+# User models in Skype for Business Server
  
-The user models described here provide the basis for the capacity planning measurements and recommendations described in [Capacity planning user model usage for Skype for Business Server 2015](user-model.md).
+The user models described here provide the basis for the capacity planning measurements and recommendations described in [Capacity planning user model usage for Skype for Business Server](user-model.md).
   
 ## Skype for Business Server User Models
 
@@ -69,7 +68,7 @@ The following table describes the conferencing model.
 |Meeting participant distribution  <br/> |50% internal, authenticated users.  <br/> 25% remote access, authenticated users.  <br/> 15% anonymous users.  <br/> 10% federated users.  <br/> |
 |Meeting join distribution  <br/> |Users are simulated as joining the meeting within the first 5 minutes.  <br/> |
    
-In regular Front End pools, Skype for Business Server has a maximum supported meeting size of 250 users. Each pool can host one 250-user meeting at a time. While this large meeting is occurring, the pool can also host other smaller conferences. Additionally, you can support meetings of up to 1000 users by setting up a dedicated pool to host these meetings. For details, see [Plan for large meetings in Skype for Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md).
+In regular Front End pools, Skype for Business Server has a maximum supported meeting size of 250 users. Each pool can host one 250-user meeting at a time. While this large meeting is occurring, the pool can also host other smaller conferences. Additionally, you can support meetings of up to 1000 users by setting up a dedicated pool to host these meetings. For details, see [Plan for large meetings in Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md).
   
 Conferences were simulated as follows:
   

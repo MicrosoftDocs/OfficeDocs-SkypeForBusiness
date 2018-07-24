@@ -1,21 +1,20 @@
 ---
-title: "Configure two-factor authentication in Skype for Business Server 2015"
+title: "Configure two-factor authentication in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
-description: "Summary: Configure two-factor authentication in Skype for Business Server 2015."
+description: "Summary: Configure two-factor authentication in Skype for Business Server."
 ---
 
-# Configure two-factor authentication in Skype for Business Server 2015
+# Configure two-factor authentication in Skype for Business Server
  
-**Summary:** Configure two-factor authentication in Skype for Business Server 2015.
+**Summary:** Configure two-factor authentication in Skype for Business Server.
   
 The following sections describe the steps necessary to configure two-factor authentication for your deployment. For more information about Two-factor authentication, see [Enabling Office 365 multi-factor authentication for online administrators - Grid User Post](https://go.microsoft.com/fwlink/p/?LinkId=313332).
   
@@ -270,7 +269,7 @@ Using forms-based authentication, you can develop a web page that allows users t
 
 ## Configuring Skype for Business Server passive authentication
 
-The following section describes how to configure Skype for Business Server 2015 to support passive authentication. Once enabled, users who are enabled for two-factor authentication will be required to use a physical or virtual smart card and a valid PIN to sign in using the Skype for Business client.
+The following section describes how to configure Skype for Business Server to support passive authentication. Once enabled, users who are enabled for two-factor authentication will be required to use a physical or virtual smart card and a valid PIN to sign in using the Skype for Business client.
   
 > [!NOTE]
 > It is strongly recommended that customers enable passive authentication for Registrar and Web Services at the service level. If passive authentication is enabled for Registrar and Web Services at the global level, it will likely result in organization-wide authentication failures for users who are not signing in with the supported desktop client. 
@@ -281,7 +280,7 @@ The following steps describe how to create a custom web service configuration fo
   
 ### To create a custom web service configuration
 
-1. Log in to your Skype for Business Server 2015 Front End server using a Skype for Business administrator account.
+1. Log in to your Skype for Business Server Front End server using a Skype for Business administrator account.
     
 2. Launch the Skype for Business Server Management Shell.
     
@@ -320,7 +319,7 @@ The following steps describe how to create a custom proxy configuration for Edge
   
 ### To create a custom proxy configuration
 
-1. From the Skype for Business Server Management Shell command-line, create a new proxy configuration for each Skype for Business Server 2015 Edge Pool, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following commands:
+1. From the Skype for Business Server Management Shell command-line, create a new proxy configuration for each Skype for Business Server Edge Pool, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following commands:
     
   ```
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
@@ -338,6 +337,6 @@ The following steps describe how to create a custom proxy configuration for Edge
 
 ## See also
 
-[Manage two-factor authentication in Skype for Business Server 2015](two-factor-authentication.md)
+[Manage two-factor authentication in Skype for Business Server](two-factor-authentication.md)
   
-[Use two-factor authentication with Skype for Business client and Skype for Business Server 2015](use.md)
+[Use two-factor authentication with Skype for Business client and Skype for Business Server](use.md)

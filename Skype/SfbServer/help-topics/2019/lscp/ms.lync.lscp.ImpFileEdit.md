@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
+ROBOTS: NOINDEX, NOFOLLOW
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---
 
@@ -21,5 +22,5 @@ What do you want to do? Click the link to the task that you want to perform.
     
 - [Create a New File Transfer Filter for a Specific Site](http://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
     
-For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server](../../../manage/manage.md).
+ 
 

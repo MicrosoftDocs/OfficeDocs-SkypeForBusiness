@@ -1,9 +1,8 @@
 ---
-title: "Configure Smart contacts list in Skype for Business Server"
+title: "Configure Smart contacts list in Skype for Business clients"
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,7 +11,7 @@ ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: "Summary: Learn how to turn on the Smart contacts list feature in the Skype for Business client."
 ---
 
-# Configure Smart contacts list in Skype for Business Server
+# Configure Smart contacts list in Skype for Business clients
  
 **Summary:** Learn how to turn on the Smart contacts list feature in the Skype for Business client.
   
@@ -79,8 +78,6 @@ If Smart contacts list is not functioning as expected, check the following:
 - Collect Skype for Business client logs on a new user for further analysis.
     
 - Confirm that the Skype for Business client UI is not displaying a message that it cannot connect to the Address Book. To confirm Address Book connectivity, perform a search for a user in the Skype for Business client search bar.
-    
-- If there are problems connecting to the Address Book, use STrace to collect HTTPS traces and HTTPReplay to analyze the collected traces. For more information, see the [related blog post](https://blogs.msdn.microsoft.com/canberrapfe/2012/06/04/have-you-ever-wondered-what-web-service-urls-are-used-by-the-lync-client-strace-is-your-tool/).
     
 - AD DS replication issues could cause contacts to be unresolved when a user first signs in to Skype for Business.
     

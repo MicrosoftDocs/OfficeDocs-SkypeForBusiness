@@ -1,20 +1,19 @@
 ---
-title: "Delete conferencing policies in Skype for Business Server 2015"
+title: "Delete conferencing policies in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
-description: "Summary: Learn how to delete conferencing policies in Skype for Business Server 2015."
+description: "Summary: Learn how to delete conferencing policies in Skype for Business Server."
 ---
 
-# Delete conferencing policies in Skype for Business Server 2015
+# Delete conferencing policies in Skype for Business Server
  
-**Summary:** Learn how to delete conferencing policies in Skype for Business Server 2015.
+**Summary:** Learn how to delete conferencing policies in Skype for Business Server.
   
 You can delete conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.
   

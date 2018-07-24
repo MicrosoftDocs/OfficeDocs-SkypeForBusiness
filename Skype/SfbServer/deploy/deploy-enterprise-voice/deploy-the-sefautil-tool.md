@@ -1,9 +1,8 @@
 ---
-title: "Deploy the SEFAUtil tool in Skype for Business 2015"
+title: "Deploy the SEFAUtil tool in Skype for Business"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: "Deploying the SEFAUtil tool in Skype for Business Server."
 ---
 
-# Deploy the SEFAUtil tool in Skype for Business 2015
+# Deploy the SEFAUtil tool in Skype for Business
  
 Deploying the SEFAUtil tool in Skype for Business Server.
   
@@ -30,7 +29,7 @@ To run the SEFAUtil tool you must run Steps 1, 2, and 3 from the Skype for Busin
 SEFAUtil requires the local configuration store to be present, as well as a certificate.
   
 > [!NOTE]
-> For more details about running SEFAUtil, see the Technet blog article, "[How to get SEFAutil running?](https://go.microsoft.com/fwlink/?LinkId=278940)". 
+> For more details about running SEFAUtil, see the  blog article, "[How to get SEFAutil running?](https://go.microsoft.com/fwlink/?LinkId=278940)". 
   
 ### To deploy SEFAUtil
 

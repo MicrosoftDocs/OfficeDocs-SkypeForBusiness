@@ -1,5 +1,5 @@
 ---
-title: "Plan for call admission control in Skype for Business Server 2015"
+title: "Plan for call admission control in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,7 +16,7 @@ ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: "Learn about call admission control, which can prevent calls from taking place if they would have poor media quality, in Skype for Business Server Enterprise Voice."
 ---
 
-# Plan for call admission control in Skype for Business Server 2015
+# Plan for call admission control in Skype for Business Server
  
 Learn about call admission control, which can prevent calls from taking place if they would have poor media quality, in Skype for Business Server Enterprise Voice.
   
@@ -29,7 +29,7 @@ Call admission control (CAC) determines whether there is sufficient network band
 This section describes the call admission control functionality and explains how to plan for CAC.
   
 > [!NOTE]
-> Skype for Business Server has three advanced Enterprise Voice features: call admission control (CAC), emergency services (E9-1-1), and media bypass. For an overview of planning information that is common to all three of these features, see [Network settings for the advanced Enterprise Voice features in Skype for Business Server 2015](network-settings-for-advanced-features.md). 
+> Skype for Business Server has three advanced Enterprise Voice features: call admission control (CAC), emergency services (E9-1-1), and media bypass. For an overview of planning information that is common to all three of these features, see [Network settings for the advanced Enterprise Voice features in Skype for Business Server](network-settings-for-advanced-features.md). 
   
 The CAC design in Skype for Business Server offers four main attributes:
   
@@ -78,13 +78,13 @@ If your enterprise supports media through VPN, ensure that either both the media
   
 ### Call Admission Control of Outside Users
 
-Call admission control is not enforced beyond the limits of the Skype for Business Server 2015 organization. CAC cannot be applied to the media traffic traversing the Internet, which is not managed by Skype for Business Server 2015. CAC checks will be performed on the portion of the call that flows through the enterprise network if the called endpoint belongs to the organization, and the Edge Server has been added to the network configuration, as described in [Call admission control deployment: final checklist for Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/final-checklist.md). If the called endpoint doesn't belong to the organization, such as a federated or PIC user, no bandwidth policy checks are performed and the outgoing call will ignore any CAC restrictions.
+Call admission control is not enforced beyond the limits of the Skype for Business Server organization. CAC cannot be applied to the media traffic traversing the Internet, which is not managed by Skype for Business Server. CAC checks will be performed on the portion of the call that flows through the enterprise network if the called endpoint belongs to the organization, and the Edge Server has been added to the network configuration, as described in [Call admission control deployment: final checklist for Skype for Business Server](../../deploy/deploy-enterprise-voice/final-checklist.md). If the called endpoint doesn't belong to the organization, such as a federated or PIC user, no bandwidth policy checks are performed and the outgoing call will ignore any CAC restrictions.
   
 ### Call Admission Control of PSTN Connections
 
-Call admission control is enforceable on the Mediation Server regardless of whether it is connected to an IP/PBX, a PSTN gateway, or a SIP trunk. Because the Mediation Server is a back-to-back user agent (B2BUA), it terminates media. It has two connection sides: a side that is connected to Skype for Business Server and a gateway side, which is connected to PSTN gateways, IP/PBXs, or SIP trunks. For details about PSTN connections, see [Plan for PSTN connectivity in Skype for Business Server 2015](pstn-connectivity-0.md).
+Call admission control is enforceable on the Mediation Server regardless of whether it is connected to an IP/PBX, a PSTN gateway, or a SIP trunk. Because the Mediation Server is a back-to-back user agent (B2BUA), it terminates media. It has two connection sides: a side that is connected to Skype for Business Server and a gateway side, which is connected to PSTN gateways, IP/PBXs, or SIP trunks. For details about PSTN connections, see [Plan for PSTN connectivity in Skype for Business Server](pstn-connectivity-0.md).
   
-CAC can be enforced on both sides of the Mediation Server unless media bypass is enabled. If media bypass is enabled, the media traffic doesn't traverse the Mediation Server but instead flows directly between the Skype for Business client and the gateway. In this case, CAC is not needed. For details, see [Plan for media bypass in Skype for Business 2015](media-bypass.md).
+CAC can be enforced on both sides of the Mediation Server unless media bypass is enabled. If media bypass is enabled, the media traffic doesn't traverse the Mediation Server but instead flows directly between the Skype for Business client and the gateway. In this case, CAC is not needed. For details, see [Plan for media bypass in Skype for Business](media-bypass.md).
   
 The following figure illustrates how CAC is enforced on PSTN connections with and without media bypass enabled.
   
@@ -118,7 +118,7 @@ To explain these concepts, we'll use the example network topology shown in the f
 > [!NOTE]
 > All network sites are associated with a network region. For example, Portland, Reno, and Albuquerque are included in the North America region. In this figure, only WAN links that have CAC policies applied are shown, with bandwidth limits. The network sites of Chicago, New York, and Detroit are shown inside the North America region oval because they are not bandwidth-constrained, and therefore do not require CAC policies. 
   
-The components of this example topology are explained in the following sections. For details about how this topology was planned, including the bandwidth limits, see [Example: Gathering requirements for call admission control in Skype for Business Server 2015](example-gathering-requirements.md).
+The components of this example topology are explained in the following sections. For details about how this topology was planned, including the bandwidth limits, see [Example: Gathering requirements for call admission control in Skype for Business Server](example-gathering-requirements.md).
   
 ### Identify Network Regions
 
@@ -177,7 +177,7 @@ CAC bandwidth policies can define any or all of the following:
 > All CAC bandwidth values represent the maximum  *unidirectional*  bandwidth limits.
   
 > [!NOTE]
-> The Skype for Business Server Voice Policy features provide the ability to override bandwidth policy checks for incoming calls to the user (not for outgoing calls that are placed by the user). After the session is established, the bandwidth consumption will be accurately accounted for. This setting should be used sparingly. For details, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) or [Modify a Voice Policy and Configure PSTN Usage Records](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) in the Deployment documentation.
+> The Skype for Business Server Voice Policy features provide the ability to override bandwidth policy checks for incoming calls to the user (not for outgoing calls that are placed by the user). After the session is established, the bandwidth consumption will be accurately accounted for. This setting should be used sparingly. For details, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) or [Modify a Voice Policy and Configure PSTN Usage Records](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) in the Deployment documentation.
   
 To optimize bandwidth utilization on a per-session basis, consider the type of audio and video codecs that will be used. In particular, avoid allocating insufficient bandwidth for a codec that you expect to be used frequently. Conversely, if you want to prevent media from using a codec that requires more bandwidth, you should set the maximum bandwidth per session low enough to discourage such use. For audio, not every codec is available for every scenario. For example:
   

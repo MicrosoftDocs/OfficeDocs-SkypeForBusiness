@@ -1,20 +1,19 @@
 ---
-title: "Plan for large meetings in Skype for Business Server 2015"
+title: "Plan for large meetings in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
-description: "Summary: Read this topic to learn about best practices for implementing and managing large meetings in Skype for Business Server 2015."
+description: "Summary: Read this topic to learn about best practices for implementing and managing large meetings in Skype for Business Server."
 ---
 
-# Plan for large meetings in Skype for Business Server 2015
+# Plan for large meetings in Skype for Business Server
  
-**Summary:** Read this topic to learn about best practices for implementing and managing large meetings in Skype for Business Server 2015.
+**Summary:** Read this topic to learn about best practices for implementing and managing large meetings in Skype for Business Server.
   
 The size of meetings that Skype for Business Server can support depends on whether conferencing is hosted on a shared or dedicated pool: anywhere from 250 participants on a shared pool to 1000 participants on a dedicated pool. 
   
@@ -52,7 +51,7 @@ To have sufficient CPU and memory resources for meetings of up to 1000 users, th
   
 A Skype for Business Server pool that is dedicated to hosting large meetings should host one and only one meeting of up to 1000 users at the same time, so meeting times need to be reserved in advance via an out of band scheduling process to ensure dedicated support from the Front End Servers. To support more than one large meeting at the same time, you should set up multiple dedicated large-meeting pools.
   
-For more information about hardware and software requirements, and planning a topology that supports large meetings, see [Hardware and software requirements for conferencing in Skype for Business Server 2015](hardware-and-software-requirements.md) and [Plan your conferencing topology for Skype for Business Server 2015](conferencing-topology.md).
+For more information about hardware and software requirements, and planning a topology that supports large meetings, see [Hardware and software requirements for conferencing in Skype for Business Server](hardware-and-software-requirements.md) and [Plan your conferencing topology for Skype for Business Server](conferencing-topology.md).
   
 ## Implement best practices for large meetings
 
@@ -92,7 +91,7 @@ The meeting moderator can use all presenter functionalities of Skype for Busines
     
 - Changing participant roles
     
-- Inviting additional participants during the meeting using Lync drag and drop functionality, phone dial out, or e-mail
+- Inviting additional participants during the meeting using drag and drop functionality, phone dial out, or email
     
 - Muting and unmuting the audience or individual users
     
@@ -193,6 +192,6 @@ Additionally, you need to configure the dedicated large-meeting pool so that eac
     
 - Ensure that the **Admit anonymous users by default** check box is not selected, unless it is required. This setting affects the default meeting access type scheduled by the Online Meeting Add-in for Skype for Business when not using an assigned conference. The appropriate option for this setting depends on your organization's needs. If most large meetings for your organization are internal meetings, do not select this option. If most large meetings require that external users be able to join, select this option.
     
-For more information about creating a conferencing policy, see [Manage conferencing policies in Skype for Business Server 2015](../../manage/conferencing/conferencing-policies.md).
+For more information about creating a conferencing policy, see [Manage conferencing policies in Skype for Business Server](../../manage/conferencing/conferencing-policies.md).
   
 

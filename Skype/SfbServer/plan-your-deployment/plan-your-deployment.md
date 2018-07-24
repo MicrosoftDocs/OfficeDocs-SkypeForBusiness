@@ -33,7 +33,7 @@ View the following resources for information about how to plan for your Skype fo
 |![Icon for technical diagrams](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server 2015](../technical-diagrams.md) <br/> |See architecture choices at a glance in these large-format diagrams.  <br/> |
 |![Icon for videos](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|[Skype for Business: A quick introduction](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) <br/> [Skype for Business: Step-by-step guide for new users](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be) <br/> |Discover video presentations and training for Skype for Business.  <br/> |
    
-## TechNet articles about planning for Skype for Business Server
+##  Articles about planning for Skype for Business Server
 
 The following articles about how to plan for Skype for Business Server are available to view online. 
   
@@ -55,6 +55,6 @@ The following resources about how to plan for Skype for Business Server are avai
   
 ||**Content**|**Description**|
 |:--- |:--- |:--- |
-|![Icon for TechCenter](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server for IT pros](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Visit the TechCenter and resource centers to access videos, community sites, documentation, downloads, and more.  <br/> |
+|![Icon for Docs](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server for IT pros](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Visit the resource center to access videos, community sites, documentation, downloads, and more.  <br/> |
 |![Icon for developer content](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Developer Platform](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Find developer resources for Skype for Business Server, including code samples, training, and SDKs.  <br/> |
 |![Icon for news, blogs, and so on](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Change management and adoption](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Office 365 Technical Blog](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Skype team blog](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Keep up with news from the teams that create and document Skype for Business Server.  <br/> |

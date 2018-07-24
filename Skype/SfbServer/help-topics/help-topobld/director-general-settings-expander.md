@@ -3,7 +3,7 @@ title: "Director General Settings Expander"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -22,9 +22,9 @@ To edit the settings for an existing Director, you are presented with the follow
     
 - Web services
     
-## 
 
-### General settings
+
+## General settings
 
 Fully qualified domain name (FQDN) of the Director pool. Edit the FQDN of the server to change the value. You must have a Domain Name System (DNS) host (A) record that coincides with the new value.
   
@@ -37,7 +37,7 @@ Monitoring SQL Server store.
 > [!IMPORTANT]
 > Before publishing the newly defined topology, the server that you specify must exist and be joined to the domain. If you created a new file share, the file share must be created on the server that you designate. 
   
-### Web services
+## Web services
 
 To edit or specify additional settings for the Web services on the Director pool, you modify or specify settings in the Internal Web services and External Web services.
   

@@ -1,21 +1,20 @@
 ---
-title: "Deploy and Configure Mobility for Skype for Business Server 2015"
+title: "Deploy and Configure Mobility for Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
-description: "This article will walk you through the steps to configure an existing Skype for Business Server 2015 installation to use the Mobility service, allowing your mobile devices to be able to take advantage of Skype for Business Server Mobility features."
+description: "This article will walk you through the steps to configure an existing Skype for Business Server installation to use the Mobility service, allowing your mobile devices to be able to take advantage of Skype for Business Server Mobility features."
 ---
 
-# Deploy and Configure Mobility for Skype for Business Server 2015
+# Deploy and Configure Mobility for Skype for Business Server  
  
-This article will walk you through the steps to configure an existing Skype for Business Server 2015 installation to use the Mobility service, allowing your mobile devices to be able to take advantage of Skype for Business Server Mobility features.
+This article will walk you through the steps to configure an existing Skype for Business Server installation to use the Mobility service, allowing your mobile devices to be able to take advantage of Skype for Business Server Mobility features.
   
-Having reviewed the [Plan for Mobility for Skype for Business Server 2015](../plan-your-deployment/mobility.md) article, you should be ready to proceed with the steps below to deploy Mobility into your Skype for Business Server 2015 environment. The steps are as follows (and we're including in this table a permissions list):
+Having reviewed the [Plan for Mobility for Skype for Business Server](../plan-your-deployment/mobility.md) article, you should be ready to proceed with the steps below to deploy Mobility into your Skype for Business Server environment. The steps are as follows (and we're including in this table a permissions list):
   
 |**Phase**|**Permissions**|
 |:-----|:-----|
@@ -28,6 +27,9 @@ Having reviewed the [Plan for Mobility for Skype for Business Server 2015](../pl
 |[Configure Mobility policy](deploy-and-configure-mobility.md#ConfigMob) <br/> |CsAdministrator  <br/> |
    
 All the following sections contain steps that assume you've read the Planning topic. If anything's confusing you, feel free to check out the information there.
+
+> [!NOTE]
+> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
   
 ## Create DNS records
 <a name="CreateDNSRec"> </a>
@@ -66,7 +68,7 @@ These records can be either A (host) names or CNAME records (you don't have to m
 
 1. These steps are generic, because we can't tell what public DNS provider you might be using, but we still want to help you out. Please log into your public DNS provider with an account that will be able to make new DNS records there.
     
-2. At this point in time, a SIP domain should already exist there for Skype for Business Server 2015. Expand the **Forward Lookup Zone** for this SIP domain, or otherwise open it up.
+2. At this point in time, a SIP domain should already exist there for Skype for Business Server. Expand the **Forward Lookup Zone** for this SIP domain, or otherwise open it up.
     
 3. Take a moment to see which of the following you have:
     
@@ -112,7 +114,7 @@ These records can be either A (host) names or CNAME records (you don't have to m
 
 1. These steps are generic, because we can't tell what public DNS provider you might be using, but we still want to help you out. Please log into your public DNS provider with an account that will be able to make new DNS records there.
     
-2. At this point in time, a SIP domain should already exist there for Skype for Business Server 2015. Expand the **Forward Lookup Zone** for this SIP domain, or otherwise open it up.
+2. At this point in time, a SIP domain should already exist there for Skype for Business Server. Expand the **Forward Lookup Zone** for this SIP domain, or otherwise open it up.
     
 3. Take a moment to see which of the following you have:
     
@@ -131,7 +133,7 @@ These records can be either A (host) names or CNAME records (you don't have to m
 ## Modify certificates
 <a name="ModCerts"> </a>
 
-If you have questions about Planning around certificates, we've documented that in our [Plan for Mobility for Skype for Business Server 2015](../plan-your-deployment/mobility.md) article. Once you've reviewed that, we'll walk you through the following:
+If you have questions about Planning around certificates, we've documented that in our [Plan for Mobility for Skype for Business Server](../plan-your-deployment/mobility.md) article. Once you've reviewed that, we'll walk you through the following:
   
 - Do I need new certificates?
     
@@ -143,7 +145,7 @@ If you have questions about Planning around certificates, we've documented that 
     
 ### Do I need new certificates?
 
-1. First, you may need to check and see what certificates are in-place, and whether or not they have the entries you need. To do that, you'll need to log into your Skype for Business Server 2015 server with an account that's a local Administrator. This account may also need to have rights to the issuing Certificate Authority (CA), for some of these steps.
+1. First, you may need to check and see what certificates are in-place, and whether or not they have the entries you need. To do that, you'll need to log into your Skype for Business Server with an account that's a local Administrator. This account may also need to have rights to the issuing Certificate Authority (CA), for some of these steps.
     
 2. Open the Skype for Business Server Management Shell (you can use Search to find it if you don't have it pinned to your Start menu or task bar).
     
@@ -375,7 +377,7 @@ We have two main things to consider:
 ## Configure Autodiscover for Mobility with hybrid deployments
 <a name="ConfigAutoD"> </a>
 
-Hybrid environments in Skype for Business Server 2015 are environments that combine an on-premises and O365 environment. When you have Skype for Business Server working in a Hybrid environment, the Autodiscover service needs to be able to locate a user from either of these environments.
+Hybrid environments in Skype for Business Server are environments that combine an on-premises and O365 environment. When you have Skype for Business Server working in a Hybrid environment, the Autodiscover service needs to be able to locate a user from either of these environments.
   
 To let mobile clients discover where a user's located, the Autodiscover service needs to be configured with a new uniform resource locator (URL). The steps are:
   
@@ -400,7 +402,10 @@ To let mobile clients discover where a user's located, the Autodiscover service 
 
 Once you've deployed Skype for Business Server Mobility Service and Skype for Business Server Autodiscover Service, you'll want to run a test transaction, to make sure your deployment's working right. You can run **Test-CsUcwaConference** to test the ability of two users to create, join and communicate in a conference. You will need two users (real or test) and their full credentials to do this testing. This command will work for both Skype for Business clients as well as Lync Server 2013 clients.
   
-For Lync Server 2010 clients, you'll need to run **Test-CsMcxP2PIM** to test. Your Lync Server 2010 users will still have to be actual users, or predefined test users, and you'll need their password credentials.
+For Lync Server 2010 clients on Skype for Business Server 2015, you'll need to run **Test-CsMcxP2PIM** to test. Your Lync Server 2010 users will still have to be actual users, or predefined test users, and you'll need their password credentials.
+
+> [!NOTE]
+> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
   
 ### Test conferencing for Skype for Business and Lync 2013 mobile clients
 
@@ -425,6 +430,9 @@ For Lync Server 2010 clients, you'll need to run **Test-CsMcxP2PIM** to test. Yo
    ```
 
 ### Test conferencing for Lync 2010 mobile clients
+
+> [!NOTE]
+> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
 
 1. Log on as a member of the **CsAdministrator** role on any computer where **Skype for Business Server Management Shell** and **Ocscore** are installed.
     
@@ -451,11 +459,11 @@ To review the command procedures further, you can check out [Test-CsUcwaConferen
 ## Configure for push notifications
 <a name="ConfigPush"> </a>
 
-Push notifications, in the form of badges, icons, or alerts, can be sent to a mobile device even when the Skype or Lync app is inactive. But what are pusn notifications? They are event alerts, like a new or missed IM invitation, or for a received voicemail. The Skype for Business Server 2015 Mobility service sends these notifications to the cloud-based Skype for Business Server Push Notification Service, which then sends the notifications to the Microsoft Push Notification Service (MSNS) for Windows Phone users.
+Push notifications, in the form of badges, icons, or alerts, can be sent to a mobile device even when the Skype or Lync app is inactive. But what are pusn notifications? They are event alerts, like a new or missed IM invitation, or for a received voicemail. The Skype for Business Server Mobility service sends these notifications to the cloud-based Skype for Business Server Push Notification Service, which then sends the notifications to the Microsoft Push Notification Service (MSNS) for Windows Phone users.
   
 This functionality is unchanged from Lync Server 2013, but if you have a Skype for Business Server, you'll want to do the following:
   
-- For a Skype for Business Server 2015 Edge Server, add a new hosting provider, Microsoft Skype for Business Online, and then set up hosting provider federation between your organization and Skype for Business Online.
+- For a Skype for Business Server Edge Server, add a new hosting provider, Microsoft Skype for Business Online, and then set up hosting provider federation between your organization and Skype for Business Online.
     
 - Enable push notifications by running the **Set-CsPushNotificationConfiguration** cmdlet. By default, push notifications are turned off.
     
@@ -539,13 +547,13 @@ This functionality is unchanged from Lync Server 2013, but if you have a Skype f
 ## Configure Mobility policy
 <a name="ConfigMob"> </a>
 
-You have the ability with Skype for Business Server 2015 to determine who can use your Mobility service, Call via Work, voice over IP (VoIP), or video, as well as whether WiFi will be required for VoIP or video. Call via Work lets a mobile user use their work phone number, instead of their mobile phone number, when placing and receiving calls. The person on the other end of the line won't see that mobile user's cell phone number, and it lets that mobile user avoid outgoing call charges. When VoIP and video are set up, users can take and make VoIP calls and video. The settings for WiFi usage determine whether a user's mobile device will be required to use a WiFi network over a cellular data network.
+You have the ability with Skype for Business Server to determine who can use your Mobility service, Call via Work, voice over IP (VoIP), or video, as well as whether WiFi will be required for VoIP or video. Call via Work lets a mobile user use their work phone number, instead of their mobile phone number, when placing and receiving calls. The person on the other end of the line won't see that mobile user's cell phone number, and it lets that mobile user avoid outgoing call charges. When VoIP and video are set up, users can take and make VoIP calls and video. The settings for WiFi usage determine whether a user's mobile device will be required to use a WiFi network over a cellular data network.
   
 Mobility, Call via Work, and the VoIP and video features are all enabled by default. The setting to require WiFi for VoIP and video are disabled. An Admin has the ability to change this, either globally, by site, or by user.
   
 To be able to use Mobility features and Call via Work, users need to be:
   
-- Enabled for Skype for Business Server 2015
+- Enabled for Skype for Business Server
     
 - Enabled for Enterprise Voice.
     

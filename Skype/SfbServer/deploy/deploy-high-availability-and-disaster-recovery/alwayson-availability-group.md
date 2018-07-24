@@ -1,9 +1,8 @@
 ---
-title: "Deploy an Always On Availability Group on a Back End Server in Skype for Business Server 2015"
+title: "Deploy an Always On Availability Group on a Back End Server in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,7 +12,7 @@ ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: "Deploy (install) an Always On Availability Group in your Skype for Business Server deployment."
 ---
 
-# Deploy an Always On Availability Group on a Back End Server in Skype for Business Server 2015
+# Deploy an Always On Availability Group on a Back End Server in Skype for Business Server
  
 Deploy (install) an Always On Availability Group (AG) in your Skype for Business Server deployment.
   
@@ -117,13 +116,13 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
    - In the**Summary** page, verify all settings and click Finish.
     
-7. Use Topology Builder to create the Front End pool, as explained in [Create and publish new topology in Skype for Business Server 2015](../../deploy/install/create-and-publish-new-topology.md). When you do, specify the AG as the SQL store for the pool.
+7. Use Topology Builder to create the Front End pool, as explained in [Create and publish new topology in Skype for Business Server](../../deploy/install/create-and-publish-new-topology.md). When you do, specify the AG as the SQL store for the pool.
     
 8. After the pool and the AG are deployed, perform some final steps to make sure that the SQL logins are on each of the replicas in the AlwaysOn Availability Group. 
     
    - Open Topology Builder, select **Download topology from existing deployment**, and click **OK**.
     
-   - Expand Skype for Business Server, expand your topology, and expand **SQL Server Stores**. Right-click the SQL store of the new AlwaysOn Availability Group, and click ** Edit Properties**.
+   - Expand Skype for Business Server, expand your topology, and expand **SQL Server Stores**. Right-click the SQL store of the new AlwaysOn Availability Group, and click **Edit Properties**.
     
     - At the bottom of the page, in the **SQL Server FQDN** box, change the value to the FQDN of the Listener of the AG.
     
@@ -413,7 +412,7 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
     - Open Topology Builder, select **Download topology from existing deployment**, and click **OK**.
     
-    - Expand Skype for Business Server, expand your topology, and expand **SQL Server Stores**. Right-click the SQL store of the new AG, and click ** Edit Properties**.
+    - Expand Skype for Business Server, expand your topology, and expand **SQL Server Stores**. Right-click the SQL store of the new AG, and click **Edit Properties**.
     
     - At the bottom of the page, in the **SQL Server FQDN** box, change the value to the FQDN of the Listener of the AG.
     

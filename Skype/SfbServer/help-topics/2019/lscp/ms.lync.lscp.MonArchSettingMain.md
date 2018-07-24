@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
+ROBOTS: NOINDEX, NOFOLLOW
 description: "You use Archiving configurations to control archiving options for your Skype for Business Server deployment, including enabling and disabling the following options:"
 ---
 
@@ -59,5 +60,5 @@ The **Archiving Configuration** page lists each Archiving policy that is configu
     
 - **Refresh** You can refresh the **Archiving Configuration** page to verify the status of the options of all Archiving configurations.
     
-For details about the Archiving feature and capabilities, including Exchange integration, see [Plan for archiving in Skype for Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server 2015](../../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server 2015](../../../manage/archiving/archiving.md).
+For details about the Archiving feature and capabilities, including Exchange integration, see [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server](../../../manage/archiving/archiving.md).
 

@@ -1,9 +1,8 @@
 ---
-title: "Plan for media bypass in Skype for Business 2015"
+title: "Plan for media bypass in Skype for Business"
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: "Decisions necessary for planning for media bypass in Skype for Business Server Enterprise Voice. Includes interoperation with call admission control (CAC)."
 ---
 
-# Plan for media bypass in Skype for Business 2015
+# Plan for media bypass in Skype for Business
  
 Decisions necessary for planning for media bypass in Skype for Business Server Enterprise Voice. Includes interoperation with call admission control (CAC).
   

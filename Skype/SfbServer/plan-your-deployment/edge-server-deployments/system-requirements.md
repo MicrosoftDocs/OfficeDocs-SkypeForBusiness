@@ -1,8 +1,7 @@
 ---
-title: "Edge Server system requirements in Skype for Business Server 2015"
+title: "Edge Server system requirements in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -15,7 +14,7 @@ ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: "Summary: Learn about the system requirements for Edge Server in Skype for Business Server."
 ---
 
-# Edge Server system requirements in Skype for Business Server 2015
+# Edge Server system requirements in Skype for Business Server
  
 **Summary:** Learn about the system requirements for Edge Server in Skype for Business Server.
   
@@ -56,6 +55,9 @@ Authorized external users can use your Edge Servers to connect to your internal 
   
 > [!NOTE]
 > Edge Servers are deployed to provide connections for enabled Skype for Business clients and other Edge Servers (in federation scenarios). You can't connect from other end point client or server types. The XMPP Gateway server can allow connections with configured XMPP partners. But again, those are the only client and federation types that will work. 
+
+> [!NOTE]
+> XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.
   
 ### Reverse proxies
 <a name="ReverseProxies"> </a>
@@ -80,7 +82,7 @@ And for mobile devices:
     
 - it enables push notifications from Office 365 to mobile devices.
     
-Our current reverse proxy recommendations can be found on the [Telephony Infrastructure for Skype for Business](https://technet.microsoft.com/en-us/office/dn947483) page. So your reverse proxy:
+Our current reverse proxy recommendations can be found on the [Telephony Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) page. So your reverse proxy:
   
 - should be able to use transport layer security (TLS) that's introduced to your environment via public certificates to connect to the published external Web services of:
     
@@ -127,7 +129,7 @@ Why does that matter? An important function for a Director is to protect Standar
 ### Load Balancers
 <a name="LoadBalancers"> </a>
 
-The Skype for Business Server 2015 scaled consolidated Edge topology is optimized for DNS load balancing for new deployments, and we recommend this. If you need high availability, we recommend using a hardware load balancer for one specific situation:
+The Skype for Business Server scaled consolidated Edge topology is optimized for DNS load balancing for new deployments, and we recommend this. If you need high availability, we recommend using a hardware load balancer for one specific situation:
   
 - Exchange UM for remote users using Exchange UM **prior** to Exchange 2013.
     
@@ -135,7 +137,7 @@ The Skype for Business Server 2015 scaled consolidated Edge topology is optimize
 > It's vital to note that you can't mix load-balancers. In your Skype for Business Server environment all interfaces must use either DNS or HLB. 
   
 > [!NOTE]
-> Direct server return (DSR) NAT isn't supported for Skype for Business Server 2015. 
+> Direct server return (DSR) NAT isn't supported for Skype for Business Server. 
   
 #### hardware load balancer requirements for Edge Servers Edge Servers running the A/V Edge service
 
@@ -153,7 +155,7 @@ For any Edge Server running the A/V Edge service, these are the requirements:
     
 #### HLB requirements
 
-As with Lync Server 2013, Skype for Business Server 2015 doesn't have a lot of cookie-based affinity requirements. So you don't need to use a cookie-based persistence **unless** you're going to have Lync Server 2010 Front End Servers or Front End pools in your Skype for Business Server environment. They would need cookie-based affinity in the configuration method recommended for Lync Server 2010.
+Skype for Business Server doesn't have a lot of cookie-based affinity requirements. So you don't need to use a cookie-based persistence **unless** (and this is Skype for Business Server 2015-specific) you're going to have Lync Server 2010 Front End Servers or Front End pools in your Skype for Business Server environment. They would need cookie-based affinity in the configuration method recommended for Lync Server 2010.
   
 > [!NOTE]
 > If you decide to turn cookie-based affinity on for your HLB, there won't be a problem doing so, even if your environment doesn't need it. 
@@ -175,7 +177,7 @@ For deployments that **do** need cookie-based affinity:
 - The hardware load balancer cookie **must** be set in every HTTP response for which the incoming HTTP request didn't have a cookie, regardless of whether a previous HTTP response on that same TCP connection had gotten a cookie. If your hardware load balancer optimizes cookie insert to only occur once per TCP connection, that optimization **must not** be used.
     
 > [!NOTE]
-> It's typical for HLB configurations to use source-affinity and 20 minute TCP session lifetime, which is fine for Skype for Business Server 2015 and its clients, because session state is maintained through client usage, and/or application interaction. 
+> It's typical for HLB configurations to use source-affinity and 20 minute TCP session lifetime, which is fine for Skype for Business Server and its clients, because session state is maintained through client usage, and/or application interaction. 
   
 If you're deploying mobile devices, your HLB must be able to load balance individual requests within a TCP session (in effect, you need to be able to load balance an individual request based on the target IP address).
   
@@ -184,7 +186,7 @@ If you're deploying mobile devices, your HLB must be able to load balance indivi
   
 Here are the HLB requirements for the (optional) Director and (required) Front End pool Web Services:
   
-- For your internal Web Services VIPs, set Source_addr persistence (internal port 80, 443) on your HLB. For Skype for Business Server 2015, Source_addr persistence means that multiple connections coming from a single IP address are always sent to one server, to maintain session state.
+- For your internal Web Services VIPs, set Source_addr persistence (internal port 80, 443) on your HLB. For Skype for Business Server, Source_addr persistence means that multiple connections coming from a single IP address are always sent to one server, to maintain session state.
     
 - Use a TCP idle timeout of 1800 seconds.
     
@@ -209,10 +211,10 @@ You define port monitoring on your hardware load balancers to determine when spe
    
 ## Hardware and software requirements
 
-We've covered Edge Server hardware and software requirements in our overall [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) documentation.
+We've covered Edge Server hardware and software requirements in our overall [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and  [System requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) documentation.
   
 ## Collocation
 
-We've covered Edge Server collocation in our [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) documentation.
+We've covered Edge Server collocation in our [Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md) documentation.
   
 

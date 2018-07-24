@@ -1,22 +1,21 @@
 ---
-title: "Manage meeting configuration settings in Skype for Business Server 2015"
+title: "Manage meeting configuration settings in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
-description: "Summary: Learn how to manage meeting configuration settings in Skype for Business Server 2015."
+description: "Summary: Learn how to manage meeting configuration settings in Skype for Business Server."
 ---
 
-# Manage meeting configuration settings in Skype for Business Server 2015
+# Manage meeting configuration settings in Skype for Business Server
  
-**Summary:** Learn how to manage meeting configuration settings in Skype for Business Server 2015.
+**Summary:** Learn how to manage meeting configuration settings in Skype for Business Server.
   
-This topic describes how to manage meeting configuration settings. For more information about how to plan and deploy conferencing, see [Plan for conferencing in Skype for Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in Skype for Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+This topic describes how to manage meeting configuration settings. For more information about how to plan and deploy conferencing, see [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Meeting configuration settings dictate the type of meetings that users can create, in addition to controlling how (or even if) anonymous users and dial-in conferencing users can join these meetings. Note that these settings only affect scheduled meetings; they do not affect ad-hoc meetings created by clicking the Meet Now option in Skype for Business.
   

@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To start the task to extend the schema for Skype for Business Server, you begin on the Prepare Schema page. Click Next to continue with the schema preparation."
 ---
 

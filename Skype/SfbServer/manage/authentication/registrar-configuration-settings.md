@@ -1,21 +1,20 @@
 ---
-title: "Manage Registrar configuration settings in Skype for Business Server 2015"
+title: "Manage Registrar configuration settings in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
-description: "Summary: Manage Registrar configuration settings for Skype for Business Server 2015."
+description: "Summary: Manage Registrar configuration settings for Skype for Business Server."
 ---
 
-# Manage Registrar configuration settings in Skype for Business Server 2015
+# Manage Registrar configuration settings in Skype for Business Server
  
-**Summary:** Manage Registrar configuration settings for Skype for Business Server 2015.
+**Summary:** Manage Registrar configuration settings for Skype for Business Server.
   
 You can use the Registrar to configure proxy server authentication methods. The authentication protocol you specify determines which type of challenges the servers in the pool issue to clients. The available protocols are:
   
@@ -23,7 +22,7 @@ You can use the Registrar to configure proxy server authentication methods. The 
     
 - **NTLM** This is the password-based authentication available to clients that use a challenge-response hashing scheme on the password. This is the only form of authentication available to clients without connectivity to a Key Distribution Center (Kerberos domain controller), such as remote users. If a server authenticates only remote users, you should choose NTLM.
     
-- **Certificate authentication** This is the new authentication method when the server needs to obtain certificates from Lync Phone Edition clients, common area phones, Skype for Business and the Lync Windows Store app. On Lync Phone Edition clients, after a user signs in and is successfully authenticated by providing a personal identification number (PIN), Skype for Business Server 2015 then provisions the SIP URI to the phone and provisions a Skype for Business Server signed certificate or a user certificate that identifies Joe (Ex: SN=joe@contoso.com ) to the phone. This certificate is used for authenticating with the Registrar and Web Services.
+- **Certificate authentication** This is the new authentication method when the server needs to obtain certificates from Lync Phone Edition clients, common area phones, Skype for Business and the Lync Windows Store app. On Lync Phone Edition clients, after a user signs in and is successfully authenticated by providing a personal identification number (PIN), Skype for Business Server then provisions the SIP URI to the phone and provisions a Skype for Business Server signed certificate or a user certificate that identifies Joe (Ex: SN=joe@contoso.com ) to the phone. This certificate is used for authenticating with the Registrar and Web Services.
     
 > [!NOTE]
 > We recommend that you enable both Kerberos and NTLM when a server supports authentication for both remote and enterprise clients. The Edge Server and internal servers communicate to ensure that only NTLM authentication is offered to remote clients. If only Kerberos is enabled on these servers, they cannot authenticate remote users. If enterprise users also authenticate against the server, Kerberos is used. 
@@ -32,7 +31,7 @@ If you will use Lync Windows Store app clients, you must enable certificate auth
   
 ### To create new Registrar configuration settings
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
@@ -54,7 +53,7 @@ If you will use Lync Windows Store app clients, you must enable certificate auth
     
 ## Modify existing Registrar configuration settings
 
-You can use the Registrar to configure proxy server authentication protocols. For information about the available protocols, see [Manage Registrar configuration settings in Skype for Business Server 2015](registrar-configuration-settings.md).
+You can use the Registrar to configure proxy server authentication protocols. 
   
 > [!NOTE]
 > We recommend that you enable both Kerberos and NTLM when a server supports authentication for both remote and enterprise clients. The Edge Server and internal servers communicate to ensure that only NTLM authentication is offered to remote clients. If only Kerberos is enabled on these servers, they cannot authenticate remote users. If enterprise users also authenticate against the server, Kerberos is used. 
@@ -63,7 +62,7 @@ Follow these steps to modify an existing Registrar.
   
 ### To modify existing registrar configuration settings
 
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
     
@@ -83,7 +82,7 @@ Follow these steps to modify an existing Registrar.
     
 ### To delete Registrar configuration settings
 
-1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server 2015.
+1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.
     
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
     

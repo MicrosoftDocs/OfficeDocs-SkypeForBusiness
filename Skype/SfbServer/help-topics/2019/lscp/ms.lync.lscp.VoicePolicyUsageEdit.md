@@ -10,12 +10,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
+ROBOTS: NOINDEX, NOFOLLOW
 description: "UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)"
 ---
 
 # Voice Policy: Create New or Edit Existing PSTN Usage Record
  
-What do you want to do? Click the link to the task that you want to perform.
+UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
   
 - [Create or modify a voice policy and configure PSTN usage records in Skype for Business](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
     

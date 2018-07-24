@@ -3,7 +3,7 @@ title: "Clients Mobility Policy"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -32,7 +32,6 @@ You can perform the following tasks on the **Mobility Policy** page:
 
 The following lists describe the menus, command, fields, and properties on the page.
   
-### 
 
 - **Search field** Type a string in the text box to filter the policies displayed.
     

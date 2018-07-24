@@ -1,9 +1,8 @@
 ---
-title: "Topology Basics for Skype for Business Server 2015"
+title: "Topology Basics for Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,22 +12,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
-description: "Summary: Choose your topology for Skype for Business Server 2015. Learn about server collocation for Skype for Business Server 2015."
+description: "Summary: Choose your topology for Skype for Business Server. Learn about server collocation for Skype for Business Server."
 ---
 
-# Topology Basics for Skype for Business Server 2015
+# Topology Basics for Skype for Business Server
  
-**Summary:** Choose your topology for Skype for Business Server 2015. Learn about server collocation for Skype for Business Server 2015.
+**Summary:** Choose your topology for Skype for Business Server. Learn about server collocation for Skype for Business Server.
   
-Before preparing anything else, you'll want to know you're planning for the right topology for your deployment of Skype for Business Server 2015. The first thing you need to decide is if you're going to have an on-premises deployment of Skype for Business Server 2015, or if you're going to combine this with a Skype for Business Server Online deployment in a Hybrid deployment. Either way, you're going to want to read further, as we'll detail the on-premises topologies here, but the Hybrid details are documented in their own section.
+Before preparing anything else, you'll want to know you're planning for the right topology for your deployment of Skype for Business Server. The first thing you need to decide is if you're going to have an on-premises deployment of Skype for Business Server, or if you're going to combine this with a Skype for Business Server Online deployment in a Hybrid deployment. Either way, you're going to want to read further, as we'll detail the on-premises topologies here, but the Hybrid details are documented in their own section.
   
-You can also see some example topologies in [Reference topologies for Skype for Business Server 2015](reference-topologies.md).
+You can also see some example topologies in [Reference topologies for Skype for Business Server](reference-topologies.md).
   
 ## Sites
 
 In Skype for Business Server, you define sites on your network that contain Skype for Business Server components. A site is a set of computers that is well-connected by a high-speed, low-latency network, such as a single local area network (LAN) or two networks connected by a high-speed fiber optic network. Note that Skype for Business Server sites are a separate concept from Active Directory Domain Services sites and Microsoft Exchange Server sites. Your Skype for Business Server sites do not need to correspond to your Active Directory sites.
   
-Skype for Business Server 2015 supports on-premises deployment of one or more sites that can be scaled according to your high availability and location requirements.
+Skype for Business Server supports on-premises deployment of one or more sites that can be scaled according to your high availability and location requirements.
   
 Your deployment will have at least one central site (also called a datacenter, this is a datacenter for all the servers located in it), and each central site in your deployment will have one Standard Edition server, or at least one Enterprise Edition Front End pool. You can see the differences in each option below:
   
@@ -44,9 +43,9 @@ You can learn more about the various server roles a little later in this section
   
 In addition to your central sites, you may also end up having one or more branch sites associated with your central site. They depend on the central site for almost all their functionality, so what are they made up of, exactly?
   
-- Survivable Branch Appliance, which combines a public switched telephone network (PSTN) gateway, with some Skype for Business Server 2015 functionality.
+- Survivable Branch Appliance, which combines a public switched telephone network (PSTN) gateway, with some Skype for Business Server functionality.
     
-- Survivable Branch Server, it's a server running Windows Server that has Skype for Business Server 2015 Registrar and Mediation Server software installed.
+- Survivable Branch Server, it's a server running Windows Server that has Skype for Business Server Registrar and Mediation Server software installed.
     
 - Stand-alone PSTN gateway (which isn't part of the Survivable Branch Appliance).
     
@@ -60,7 +59,7 @@ To get into more detail, a central site can also have:
     
 - Multiple Standard Edition servers.
     
-- Office Web Apps Server, which is used with Office Web Apps in Skype for Business Server 2015 for sharing and rendering of PowerPoint presentations.
+- Office Web Apps Server, which is used with Office Web Apps in Skype for Business Server for sharing and rendering of PowerPoint presentations.
     
 - Edge Server or Edge pool (in a perimeter network). Needed if you want your deployment to support federated partners, public IM connectivity, extensible messaging and presence protocol (XMPP) gateway, and remote user access. More details can be found in the Edge Server Planning documentation.
     
@@ -68,9 +67,9 @@ To get into more detail, a central site can also have:
     
 - Monitoring. Used to support data collection for audio/video (A/V) Quality of Experience (QoE) and call detail recording (CDR) for Enterprise Voice and A/V conferences in your deployment. We discuss it in detail at the Planning for Monitoring topic.
     
-- Director or Director pool. Not required, but useful if you want to improve resiliency and enable redirection of Skype for Business 2015 user requests to the user's home pool. If you want to deploy Directors, a maximum of 10 per pool is supported. If this is something you need, definitely continue reading at the Planning for Directors topic.
+- Director or Director pool. Not required, but useful if you want to improve resiliency and enable redirection of Skype for Business user requests to the user's home pool. If you want to deploy Directors, a maximum of 10 per pool is supported. If this is something you need, definitely continue reading at the Planning for Directors topic.
     
-- Reverse proxy. This isn't a Skype for Business Server 2015 component, but if you want to support the sharing of web content for federated users, if you intend to support Mobility traffic, if your remote users want to use the address book, join meetings, and so on, this is something you'll want to have in your environment. There's a Setting up Reverse proxy server topic you can check out for more details, when you're ready.
+- Reverse proxy. This isn't a Skype for Business Server component, but if you want to support the sharing of web content for federated users, if you intend to support Mobility traffic, if your remote users want to use the address book, join meetings, and so on, this is something you'll want to have in your environment. There's a Setting up Reverse proxy server topic you can check out for more details, when you're ready.
     
 Additional information on collocation for these servers can be found below.
   
@@ -81,7 +80,7 @@ All the Front End pools and Standard Edition servers deployed at your central si
 |Director or Director pool  <br/> |Stand-alone Mediation Server or Mediation Server pool  <br/> |Office Web Apps Server  <br/> |
 |Edge Server or Edge pool  <br/> |Persistent Chat Server or Persistent Chat Server pool  <br/> |Monitoring  <br/> |
    
-Where is Exchange Unified Messaging (UM) Server in this list? Well, you can certainly use it with Skype for Business Server 2015 if you want to integrate with Exchange UM, but it's not a component of the Skype for Business Server site, so we're not mentioning it here.
+Where is Exchange Unified Messaging (UM) Server in this list? Well, you can certainly use it with Skype for Business Server if you want to integrate with Exchange UM, but it's not a component of the Skype for Business Server site, so we're not mentioning it here.
   
 You may be planning to have multiple central site, and if that's so, they can share the following servers and roles, if they're deployed on your central site:
   
@@ -90,7 +89,7 @@ You may be planning to have multiple central site, and if that's so, they can sh
 |Stand-alone Mediation Server or Mediation Server pool  <br/> |Edge Server or Edge pool  <br/> |
 |Persistent Chat Server or Persistent Chat Server pool  <br/> |Monitoring  <br/> |
    
-Just like the last list, we aren't including the Exchange UM Server here because it's not part of the Skype for Business Server 2015 deployment, but it falls into the same category here, too.
+Just like the last list, we aren't including the Exchange UM Server here because it's not part of the Skype for Business Server deployment, but it falls into the same category here, too.
   
 There are some other components and options that go into deployments, of course.
   
@@ -153,24 +152,30 @@ Edge Server enables your users to communicate and collaborate with users outside
 Deploying Edge Server also enables mobility services, which supports Lync functionality on mobile devices. Users can use supported Apple iOS, Android, Windows Phone, or Nokia mobile devices to perform activities such as sending and receiving instant messages, viewing contacts, and viewing presence. In addition, mobile devices support some Enterprise Voice features, such as click to join a conference, Call via Work, single number reach, voice mail, and missed calls. The mobility feature also supports push notifications for mobile devices that do not support applications running in the background. A push notification is a notification that is sent to a mobile device about an event that occurs while a mobile application is inactive.
   
 Edge Servers also include a fully-integrated Extensible Messaging and Presence Protocol (XMPP) proxy, with an XMPP gateway included on Front End Servers. You can configure these XMPP components to enable your Skype for Business Server users to add contacts from XMPP-based partners for instant messaging and presence.
+
+> [!NOTE]
+> XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.
   
 ### Mediation Server
 
 Mediation Server is a necessary component for implementing Enterprise Voice, Call Via Work, and dial-in conferencing. Mediation Server translates signaling, and, in some configurations, media between your internal Skype for Business Server infrastructure and a public switched telephone network (PSTN) gateway, IP-PBX, or a Session Initiation Protocol (SIP) trunk. You can run Mediation Server collocated on the same server as Front End Server, or separated into a stand-alone Mediation Server pool.
   
-For details, see [Mediation Server component in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md).
+For details, see [Mediation Server component in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md).
   
 ### Video Interop Server
 
-Video Interop Server is a new role in Skype for Business Server 2015. It enables you to integrate your Skype for Business Server deployment with certain third-party VTC (Video Teleconferencing System) solutions. A VIS acts as an intermediary between a 3rd party teleconference system and a Skype for Business Server deployment. For this release, VIS is focused on interoperability with Cisco/Tandberg video systems.
+Video Interop Server is a new role as of Skype for Business Server 2015. It enables you to integrate your Skype for Business Server deployment with certain third-party VTC (Video Teleconferencing System) solutions. A VIS acts as an intermediary between a 3rd party teleconference system and a Skype for Business Server deployment. For this release, VIS is focused on interoperability with Cisco/Tandberg video systems.
   
-For details, see [Plan for Video Interop Server in Skype for Business Server 2015](../../plan-your-deployment/video-interop-server.md).
+For details, see [Plan for Video Interop Server in Skype for Business Server](../../plan-your-deployment/video-interop-server.md).
   
 ### Director
 
 Directors can authenticate Skype for Business Server user requests, but they do not home user accounts or provide presence or conferencing services. Directors are most useful to enhance security in deployments that enable external user access. The Director can authenticate requests before sending them on to internal servers. In the case of a denial-of-service attack, the attack ends with the Director and does not reach the Front End servers.
   
 ### Persistent Chat Server Roles
+
+> [!NOTE] 
+> Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
 
 Persistent chat enables users to participate in multiparty, topic-based conversations that persist over time. The Persistent Chat Front End Server runs the persistent chat service. The Persistent Chat Back End Server stores the chat history data, and information about categories and chat rooms. The optional Persistent Chat Compliance Back End Server can store the chat content and compliance events for the purpose of compliance.
   
@@ -194,11 +199,11 @@ Skype for Business Server also supports several options for Back End Server high
     
 - SQL failover clustering
     
-For details about pool pairing and Back End Server high availability, see [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+For details about pool pairing and Back End Server high availability, see [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
-## Server collocation in Skype for Business Server 2015
+## Server collocation in Skype for Business Server
 
-We've used the term collocate already, but what does this mean? Skype for Business Server 2015 allows you to locate some server roles and features on the same server, which is collocation, or on different servers, but it can be confusing when you're starting out, and whether you're doing a Standard Edition or Enterprise Edition server deployment (they each come with their own rules). To help with your planning, we're including server collocation in Standard Edition server deployments and Enterprise Edition Front End pool deployments (in most cases this information is identical, and where it's different, it's called out specifically).
+We've used the term collocate already, but what does this mean? Skype for Business Server allows you to locate some server roles and features on the same server, which is collocation, or on different servers, but it can be confusing when you're starting out, and whether you're doing a Standard Edition or Enterprise Edition server deployment (they each come with their own rules). To help with your planning, we're including server collocation in Standard Edition server deployments and Enterprise Edition Front End pool deployments (in most cases this information is identical, and where it's different, it's called out specifically).
   
 ### Collocation of server roles
 
@@ -224,6 +229,9 @@ This is the area with real differences between Standard Edition server deploymen
 
 Since SQL Server Express is collocated on the Standard Edition server, and can't be moved, this is pretty straightforward. Furthermore, if you deploy Persistent Chat Server on a Standard Edition server, you're also able to collocate the Persistent Chat and the Persistent Chat compliance database on the Standard Edition server too, but you don't have to.
   
+    > [!NOTE] 
+    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
+
 These can't be collocated on the Standard Edition server, but can go on a single database server of their own:
   
 - Monitoring database
@@ -248,12 +256,15 @@ The following databases can be collocated on the same back end SQL Server:
     
 #### Both
 
-Now, there are some additional rules to follow when collocating Skype for Business Server 2015 databases in a single SQL instance, or in multiple SQL instances in the same SQL Server database:
+Now, there are some additional rules to follow when collocating Skype for Business Server databases in a single SQL instance, or in multiple SQL instances in the same SQL Server database:
   
 - Each SQL instance can only contain a single back end database for an Enterprise Edition Front End pool, a single Monitoring database, a single Archiving database, a single Persistent Chat database, and a single Persistent Chat compliance database.
     
 - The database server can't support more than one Enterprise Edition Front End pool, one server running Archiving, one server running Monitoring, a single Persistent Chat database, and a single Persistent Chat compliance database, but it can support one of each, regardless of whether the databases use the same instance of SQL Server or separate instances of SQL Server.
     
+    > [!NOTE] 
+    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015. 
+
 ### File shares
 
 The file share can be on a separate server, or you can collocate it on the same server as any or all of the following:
@@ -273,10 +284,10 @@ The file share can be on a separate server, or you can collocate it on the same 
   
 ### Keep in mind
 
-- You can't collocate a reverse proxy server, which isn't a Skype for Business Server 2015 component, and may not even be in your topology. You'll need a reverse proxy if you want to support sharing of web content for federated users, among many other things. If you need to, go ahead and implement reverse proxy support for Skype for Business Server 2015 by configuring an existing reverse proxy server that's already in your organization that's being used by other applications.
+- You can't collocate a reverse proxy server, which isn't a Skype for Business Server component, and may not even be in your topology. You'll need a reverse proxy if you want to support sharing of web content for federated users, among many other things. If you need to, go ahead and implement reverse proxy support for Skype for Business Server by configuring an existing reverse proxy server that's already in your organization that's being used by other applications.
     
-- You can't collocate any Exchange UM component or SharePoint Server component with any Skype for Business Server 2015 role.
+- You can't collocate any Exchange UM component or SharePoint Server component with any Skype for Business Server role.
     
 ## See also
 
-[Reference topologies for Skype for Business Server 2015](reference-topologies.md)
+[Reference topologies for Skype for Business Server](reference-topologies.md)

@@ -1,9 +1,8 @@
 ---
-title: "Capacity planning for Skype for Business Server 2015"
+title: "Capacity planning for Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/24/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,7 +12,7 @@ ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
 description: "The topics in this section help you understand how to plan and deploy Skype for Business Server so that you can adequately plan for the number of users in your organization and plan for the server load that their activities generate."
 ---
 
-# Capacity planning for Skype for Business Server 2015
+# Capacity planning for Skype for Business Server
  
 The topics in this section help you understand how to plan and deploy Skype for Business Server so that you can adequately plan for the number of users in your organization and plan for the server load that their activities generate. 
   
@@ -22,12 +21,12 @@ The topics in this section help you understand how to plan and deploy Skype for 
   
 ## In this section
 
-- [Capacity planning user model usage for Skype for Business Server 2015](user-model.md)
+- [Capacity planning user model usage for Skype for Business Server](user-model.md)
     
-- [Estimating voice usage and traffic for Skype for Business Server 2015](estimating-voice-traffic.md)
+- [Estimating voice usage and traffic for Skype for Business Server](estimating-voice-traffic.md)
     
-- [Deployment guidelines for Mediation Server in Skype for Business Server 2015](mediation-server-deployment-guidelines.md)
+- [Deployment guidelines for Mediation Server in Skype for Business Server](mediation-server-deployment-guidelines.md)
     
-- [User models in Skype for Business Server 2015](user-models.md)
+- [User models in Skype for Business Server](user-models.md)
     
 

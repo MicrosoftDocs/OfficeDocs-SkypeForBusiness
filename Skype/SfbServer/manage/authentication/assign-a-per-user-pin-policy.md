@@ -1,21 +1,20 @@
 ---
-title: "Assign a per-user PIN policy in Skype for Business Server 2015"
+title: "Assign a per-user PIN policy in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: "Summary: Stage AV and OAuth certificates for Skype for Business Server 2015."
+description: "Summary: Stage AV and OAuth certificates for Skype for Business Server."
 ---
 
-# Assign a per-user PIN policy in Skype for Business Server 2015
+# Assign a per-user PIN policy in Skype for Business Server
 
-**Summary:** Stage AV and OAuth certificates for Skype for Business Server 2015.
+**Summary:** Stage AV and OAuth certificates for Skype for Business Server.
   
 The dial-in conferencing personal identification number (PIN) policy is one of the individual settings of a user account that can be configured in the Skype for Business Server Control Panel.
   
@@ -62,7 +61,7 @@ After creating at least one per-user PIN policy, use the procedures in this topi
     > [!NOTE]
     > Because there are multiple policies that you can configure by using the **Assign Policies** dialog box, **\<Keep as is\>** is selected by default for every policy in the dialog box. Continue using the policy previously assigned to the user by making no changes to this setting.
   
-   - Allow Skype for Business Server 2015 to automatically choose either the global-level policy or, if defined, the site-level policy.
+   - Allow Skype for Business Server to automatically choose either the global-level policy or, if defined, the site-level policy.
     
    - Click the name of a per-user PIN policy you previously defined on the **PIN Policy** page.
     
@@ -103,4 +102,4 @@ For details, see [Grant-CsPinPolicy](https://docs.microsoft.com/powershell/modul
   
 ## See also
 
-[Create a new PIN policy in Skype for Business Server 2015](create-a-new-pin-policy.md)
+[Create a new PIN policy in Skype for Business Server](create-a-new-pin-policy.md)

@@ -1,9 +1,8 @@
 ---
-title: "Configure trunks in Skype for Business Server 2015"
+title: "Configure trunks in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
-description: "Summary: Learn how to configure a trunk between a Mediation Server and peers for Enterprise Voice in Skype for Business Server 2015."
+description: "Summary: Learn how to configure a trunk between a Mediation Server and peers for Enterprise Voice in Skype for Business Server."
 ---
 
-# Configure trunks in Skype for Business Server 2015
+# Configure trunks in Skype for Business Server
  
-**Summary:** Learn how to configure a trunk between a Mediation Server and peers for Enterprise Voice in Skype for Business Server 2015.
+**Summary:** Learn how to configure a trunk between a Mediation Server and peers for Enterprise Voice in Skype for Business Server.
   
 As part of Enterprise Voice deployment, you can configure a trunk between a Mediation Server and one or more of the following peers to provide public switched telephone network (PSTN) connectivity for Enterprise Voice clients and devices in your organization:
   
@@ -28,7 +27,7 @@ As part of Enterprise Voice deployment, you can configure a trunk between a Medi
     
 - Private branch exchange (PBX)
     
-For more details, see [Plan for PSTN connectivity in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
+For more details, see [Plan for PSTN connectivity in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   
 Skype for Business Server functionality supports multiple associations between gateways and Mediation Servers. These associations are made by defining a trunk, which is a logical association between a Mediation Server pool and a public switched telephone network (PSTN) gateway, Session Border Controller (SBC), or IP-PBX. Use the Topology Builder to associate gateways with Mediation Servers (that is, trunks).
   

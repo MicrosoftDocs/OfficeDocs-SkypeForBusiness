@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Response groups consist of agent groups, queues, and workflows. Response Group workflows define the actions that are taken when the Response Group application receives a phone call."
 ---
 
@@ -51,6 +52,6 @@ The following list describes the fields on the page.
     
 - **Enabled** Indicates whether the workflow is activated to receive calls.
     
-For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). For details about working with Response Group workflows, see [Managing Response Group Workflows](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) in the Operations documentation.
+For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. For details about working with Response Group workflows, see [Managing Response Group Workflows](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) in the Operations documentation.
   
 

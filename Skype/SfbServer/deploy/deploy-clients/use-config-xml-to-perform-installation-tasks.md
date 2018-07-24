@@ -1,9 +1,8 @@
 ---
-title: "Use Config.xml to perform installation tasks in Skype for Business Server 2015"
+title: "Use Config.xml to perform installation tasks in Skype for Business clients"
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,7 +11,7 @@ ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: "Summary: How to use the Config.xml file to specify additional installation instructions."
 ---
 
-# Use Config.xml to perform installation tasks in Skype for Business Server 2015
+# Use Config.xml to perform installation tasks in Skype for Business clients
  
 **Summary:** How to use the Config.xml file to specify additional installation instructions.
   
@@ -43,13 +42,13 @@ The Config.xml elements most commonly used for Skype for Business installation a
 |**Element**|**Description**|
 |:-----|:-----|
 |Configuration  <br/> |Top-level element (required). Contains the Product attribute, for example: Product=Lync (This will work for Skype for Business clients)  <br/> |
-|OptionState  <br/> | Specifies how specific product features are handled during installation. Use the following attributes to prevent installation of Business Connectivity Services, which includes shared components that interfere with Outlook 2016: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
+|OptionState  <br/> | Specifies how specific product features are handled during installation. Use the following attributes to prevent installation of Business Connectivity Services, which includes shared components that interfere with Outlook: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 |Display  <br/> | The level of UI that Setup displays to the user. Typical attributes include the following: <br/>  CompletionNotice="Yes" | "No"(default) <br/>  AcceptEula="Yes" | "No"(default) <br/> |
 |Logging  <br/> | Options for the kind of logging that Setup performs. Typical attributes include the following: <br/>  Type ="Off" | "Standard"(default) | "Verbose" <br/>  Template=" _filename_.txt" (the name of the log file)  <br/> |
 |Setting  <br/> | Specifies values for Windows Installer properties. Typical attributes include the following: <br/>  Setting Id=" _name_" (the name of the Windows Installer property)  <br/>  Value=" _value_" (the value to assign to the property)  <br/> |
 |DistributionPoint  <br/> | The fully qualified path of the network installation point from which the installation is to run. Includes the Location attribute: <br/>  Location=" _path_"  <br/> |
    
-The following example shows a Config.xml file for a typical silent installation of Skype for Business. 
+The following example shows a Config.xml file for a typical silent installation of the Skype for Business client. 
   
 ```
 <Configuration Product="Lync"> 

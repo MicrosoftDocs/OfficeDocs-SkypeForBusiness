@@ -1,9 +1,8 @@
 ---
-title: "Patch or update a SQL Server in an AlwaysOn Availability Group in Skype for Business Server 2015"
+title: "Patch or update a SQL Server in an AlwaysOn Availability Group in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 9/11/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -12,7 +11,7 @@ ms.assetid: 7298254b-bc33-450e-846a-2612f6dc7006
 description: "Summary: Find out about the necessary additional steps after you patch or upgrade a Back End Server that is part of a AlwaysOn Availability Group in Skype for Business Server."
 ---
 
-# Patch or update a SQL Server in an AlwaysOn Availability Group in Skype for Business Server 2015
+# Patch or update a SQL Server in an AlwaysOn Availability Group in Skype for Business Server
  
 **Summary:** Find out about the necessary additional steps after you patch or upgrade a Back End Server that is part of a AlwaysOn Availability Group in Skype for Business Server.
   

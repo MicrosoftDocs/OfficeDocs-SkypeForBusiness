@@ -3,21 +3,21 @@ title: "Configure SharePoint Server to search for archived Skype for Business da
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
-description: "Summary: Configure SharePoint Server to search for data archived by Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server 2015."
+description: "Summary: Configure SharePoint Server to search for data archived by Exchange Server and Skype for Business Server."
 ---
 
 # Configure SharePoint Server to search for archived Skype for Business data
  
-**Summary:** Configure SharePoint Server to search for data archived by Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server 2015.
+**Summary:** Configure SharePoint Server to search for data archived by Exchange Server 2016 or Exchange Server 2013 and Skype for Business Server.
   
-One of the major advantages to storing instant messaging and Web conferencing transcripts in Exchange Server 2016 or Exchange Server 2013 instead of Skype for Business Server 2015 is that storing data in the same location allows administrators to use a single tool to search for archived Exchange data and/or archived Skype for Business Server data. Because all the data is stored in the same place (Exchange) any tool that can search for archived Exchange data can also search for archived Skype for Business Server data.
+One of the major advantages to storing instant messaging and Web conferencing transcripts in Exchange Server instead of Skype for Business Server is that storing data in the same location allows administrators to use a single tool to search for archived Exchange data and/or archived Skype for Business Server data. Because all the data is stored in the same place (Exchange) any tool that can search for archived Exchange data can also search for archived Skype for Business Server data.
   
 One tool that makes it easy to search for archived data is Microsoft SharePoint Server 2013. If you would like to use SharePoint to search for Skype for Business Server data, you must first complete all the steps involved in configuring Exchange archiving in Skype for Business Server. After Exchange Server and Skype for Business Server have been successfully integrated, you must then install the Exchange [Web Services Managed API](https://go.microsoft.com/fwlink/p/?LinkId=258305) on your SharePoint Server. The downloaded file (EWSManagedAPI.msi) can be saved to any folder on your SharePoint server.
   

@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Use the Select Routes dialog box to find existing voice routes that you can use."
 ---
 

@@ -1,9 +1,8 @@
 ---
-title: "Enable users for Enterprise Voice in Skype for Business Server 2015"
+title: "Enable users for Enterprise Voice in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
-description: "Summary: Learn how to enable users to make and receive calls by using Enterprise Voice in Skype for Business Server 2015."
+description: "Summary: Learn how to enable users to make and receive calls by using Enterprise Voice in Skype for Business Server."
 ---
 
-# Enable users for Enterprise Voice in Skype for Business Server 2015
+# Enable users for Enterprise Voice in Skype for Business Server
  
-**Summary:** Learn how to enable users to make and receive calls by using Enterprise Voice in Skype for Business Server 2015.
+**Summary:** Learn how to enable users to make and receive calls by using Enterprise Voice in Skype for Business Server.
   
 After you deploy Enterprise Voice or Call Via Work, you can use the following procedures to enable a user to make calls by using Enterprise Voice:
   

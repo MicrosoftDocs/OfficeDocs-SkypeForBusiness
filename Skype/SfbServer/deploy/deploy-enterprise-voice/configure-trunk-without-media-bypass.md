@@ -1,9 +1,8 @@
 ---
-title: "Configure a trunk without media bypass in Skype for Business Server 2015"
+title: "Configure a trunk without media bypass in Skype for Business Server"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,14 +12,14 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
-description: "Summary: Configure a trunk without media bypass enabled for Skype for Business Server 2015."
+description: "Summary: Configure a trunk without media bypass enabled for Skype for Business Server."
 ---
 
-# Configure a trunk without media bypass in Skype for Business Server 2015
+# Configure a trunk without media bypass in Skype for Business Server
  
-**Summary:** Configure a trunk without media bypass enabled for Skype for Business Server 2015.
+**Summary:** Configure a trunk without media bypass enabled for Skype for Business Server.
   
-If you want to configure a trunk with media bypass disabled, follow these steps. If you want to configure a trunk with media bypass enabled, see [Configure a trunk with media bypass in Skype for Business Server 2015](configure-trunk-with-media-bypass.md).
+If you want to configure a trunk with media bypass disabled, follow these steps. If you want to configure a trunk with media bypass enabled, see [Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md).
   
 A trunk configuration, as described below, groups a set of parameters that are applied to trunks assigned this trunk configuration. A particular trunk configuration can be scoped globally (to all trunks that do not have more specific site or pool configuration), or to a site, or to a pool. The pool-level trunk configuration is used to scope a specific trunk configuration to a single trunk.
   
@@ -78,7 +77,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
     
      - To remove a route from the PSTN usage record, select the route, and click **Remove**.
     
-     - To define a new route and associate it to this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md).
+     - To define a new route and associate it to this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md).
     
      - To edit a route that is associated with this PSTN usage record, select the route, and click **Show details**.
     
@@ -94,7 +93,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
     
      - To remove a route from the PSTN usage record, select the route, and click **Remove**.
     
-     - To define a new route and associate it to this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business 2015](create-or-modify-a-voice-route.md).
+     - To define a new route and associate it to this PSTN usage record, click **New**. For details, see [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md).
     
      - To edit a route that is associated with this PSTN usage record, select the route, and click **Show details**.
     
@@ -120,7 +119,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
     
    - To choose one or more rules from a list of all translation rules that are available in your Enterprise Voice deployment, click **Select**. In **Select Translation Rules**, click the rules that you want to associate with the trunk, and then click **OK**.
     
-   - To define a new translation rule and associate it with the trunk, click **New**. For details about translation rules, see [Translation rules in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+   - To define a new translation rule and associate it with the trunk, click **New**. For details about translation rules, see [Translation rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
     
    - To edit a translation rule that is already associated with the trunk, click the rule name, and then click **Show details**. 
     
@@ -135,7 +134,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
     
    - To choose one or more rules from a list of all translation rules that are available in your Enterprise Voice deployment, click **Select**. In **Select Translation Rules**, click the rules that you want to associate with the trunk, and then click **OK**.
     
-  - To define a new translation rule and associate it with the trunk, click **New**. For details about translation rules, see [Translation rules in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+  - To define a new translation rule and associate it with the trunk, click **New**. For details about translation rules, see [Translation rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
     
    - To edit a translation rule that is already associated with the trunk, click the rule name, and then click **Show details**. 
     
@@ -156,10 +155,11 @@ A trunk configuration, as described below, groups a set of parameters that are a
 18. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**. 
     
     > [!NOTE]
-    > Whenever you create or modify a trunk configuration, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business 2015](voice-route-config-changes.md) in the Operations documentation.
+    > Whenever you create or modify a trunk configuration, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Skype for Business](voice-route-config-changes.md) in the Operations documentation.
   
 ## See also
 
-[Configure a trunk with media bypass in Skype for Business Server 2015](configure-trunk-with-media-bypass.md)
+[Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md)
 
 [Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
+

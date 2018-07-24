@@ -14,6 +14,7 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online."
 ---
 

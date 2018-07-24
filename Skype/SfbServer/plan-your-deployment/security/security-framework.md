@@ -1,21 +1,20 @@
 ---
-title: "Security framework for Skype for Business Server 2015"
+title: "Security framework for Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 7/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-description: "This section provides an overview of the fundamental elements that form the security framework for Skype for Business Server 2015. Understanding how these elements work together is essential to making informed decisions about securing your particular Skype for Business Server 2015 deployment."
+description: "This section provides an overview of the fundamental elements that form the security framework for Skype for Business Server. Understanding how these elements work together is essential to making informed decisions about securing your particular Skype for Business Server deployment."
 ---
 
-# Security framework for Skype for Business Server 2015
+# Security framework for Skype for Business Server
  
-This section provides an overview of the fundamental elements that form the security framework for Skype for Business Server 2015. Understanding how these elements work together is essential to making informed decisions about securing your particular Skype for Business Server 2015 deployment.
+This section provides an overview of the fundamental elements that form the security framework for Skype for Business Server. Understanding how these elements work together is essential to making informed decisions about securing your particular Skype for Business Server deployment.
   
 These elements are as follows:
   
@@ -31,24 +30,24 @@ These elements are as follows:
     
 - Windows PowerShell provides security features that are enabled by default so that users cannot easily or unknowingly run scripts.
     
-These fundamental security elements work together to define trusted users, servers, connections, and operations to help ensure a secure foundation for Skype for Business Server 2015.
+These fundamental security elements work together to define trusted users, servers, connections, and operations to help ensure a secure foundation for Skype for Business Server.
   
 ## In this section
 
 The topics in this section describe how each of these fundamental elements works to enhance the security of your Skype for Business Server infrastructure.
   
-- [Active Directory Domain Services for Skype for Business Server 2015](active-directory-domain-services.md)
+- [Active Directory Domain Services for Skype for Business Server](active-directory-domain-services.md)
     
-- [Role-based access control (RBAC) for Skype for Business Server 2015](role-based-access-control-rbac.md)
+- [Role-based access control (RBAC) for Skype for Business Server](role-based-access-control-rbac.md)
     
-- [Public Key Infrastructure for Skype for Business Server 2015](public-key-infrastructure-for-skype.md)
+- [Public Key Infrastructure for Skype for Business Server](public-key-infrastructure-for-skype.md)
     
-- [TLS and MTLS for Skype for Business Server 2015](tls-and-mtls.md)
+- [TLS and MTLS for Skype for Business Server](tls-and-mtls.md)
     
-- [Encryption for Skype for Business Server 2015](encryption.md)
+- [Encryption for Skype for Business Server](encryption.md)
     
-- [User and client authentication for Skype for Business Server 2015](user-and-client-authentication.md)
+- [User and client authentication for Skype for Business Server](user-and-client-authentication.md)
     
-- [Windows PowerShell and Skype for Business Server 2015 management tools](management-tools.md)
+- [Windows PowerShell and Skype for Business Server management tools](management-tools.md)
     
 

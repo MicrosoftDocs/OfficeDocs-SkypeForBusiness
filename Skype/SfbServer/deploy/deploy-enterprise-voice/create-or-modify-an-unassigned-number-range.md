@@ -1,9 +1,8 @@
 ---
-title: "Create or modify an unassigned number range in Skype for Business Server 2015"
+title: "Create or modify an unassigned number range in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -16,7 +15,7 @@ ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: "Create, modify or delete unassigned number ranges for Announcement application in Skype for Business Server Enterprise Voice. This affects how calls to unassigned numbers are handled."
 ---
 
-# Create or modify an unassigned number range in Skype for Business Server 2015
+# Create or modify an unassigned number range in Skype for Business Server
  
 Create, modify or delete unassigned number ranges for Announcement application in Skype for Business Server Enterprise Voice. This affects how calls to unassigned numbers are handled.
   

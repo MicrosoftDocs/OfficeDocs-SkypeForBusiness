@@ -1,9 +1,8 @@
 ---
-title: "Back End Server high availability in Skype for Business Server 2015"
+title: "Back End Server high availability in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/20/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,7 +12,7 @@ ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: "Learn about the Back End Server high availability options supported in Skype for Business Server, including AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances, database mirroring, and SQL failover clustering."
 ---
 
-# Back End Server high availability in Skype for Business Server 2015
+# Back End Server high availability in Skype for Business Server
  
 Learn about the Back End Server high availability options supported in Skype for Business Server, including AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances, database mirroring, and SQL failover clustering.
   
@@ -71,6 +70,9 @@ With SQL mirroring, database recovery mode is always set to **Full**, which mean
   
 > [!IMPORTANT]
 > Using Topology Builder or cmdlets to set up and remove SQL mirroring is supported only when the primary, mirror, and witness (if desired) servers all belong to the same domain. If you want to set up SQL mirroring among servers in different domains, see your SQL Server documentation. 
+
+> [!NOTE]
+> SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.
   
 ### Recovery time for automatic Back End Server failover with database mirroring
 
@@ -95,7 +97,7 @@ To use AlwaysOn Availability Groups or AlwaysOn Failover Cluster Instances, you 
 > [!IMPORTANT]
 > Instance names for multiple AlwaysOn Availability Group instances must be the same. 
   
-For steps for deploying AlwaysOn Availability Groups, see [Deploy an AlwaysOn Availability Group on a Back End Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md).
+For steps for deploying AlwaysOn Availability Groups, see [Deploy an AlwaysOn Availability Group on a Back End Server in Skype for Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md).
   
 ## SQL Server Failover Clustering
 
