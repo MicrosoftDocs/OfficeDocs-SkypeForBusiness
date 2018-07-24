@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
+ROBOTS: NOINDEX, NOFOLLOW
 description: "This node shows the fully qualified domain name (FQDN), ports, and associated file store for this Director pool. You can perform the following actions:"
 ---
 

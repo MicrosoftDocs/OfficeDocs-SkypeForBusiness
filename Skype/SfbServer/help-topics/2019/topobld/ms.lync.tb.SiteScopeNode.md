@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
+ROBOTS: NOINDEX, NOFOLLOW
 description: "This node shows one of the sites defined on your topology. You can perform the following actions:"
 ---
 

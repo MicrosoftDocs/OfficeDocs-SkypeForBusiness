@@ -11,6 +11,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Skype for Business Server includes disaster recovery measures by enabling you to pair Front End pools located in two data centers."
 ---
 

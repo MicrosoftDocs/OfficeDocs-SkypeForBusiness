@@ -11,6 +11,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
+ROBOTS: NOINDEX, NOFOLLOW
 description: "For details about branch-site resiliency, see Planning for Branch-Site Voice Resiliency."
 ---
 

@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To define a Trusted Applications pool fully qualified domain name (FQDN), specify the following:"
 ---
 

@@ -11,6 +11,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
+ROBOTS: NOINDEX, NOFOLLOW
 description: "The mobility feature in Skype for Business Server 25 supports Skype for Business functionality on mobile devices. For details, see Planning for Mobility."
 ---
 

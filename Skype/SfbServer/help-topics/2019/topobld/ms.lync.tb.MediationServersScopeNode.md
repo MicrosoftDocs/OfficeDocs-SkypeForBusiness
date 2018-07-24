@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
+ROBOTS: NOINDEX, NOFOLLOW
 description: "The Mediation pools node lists the Mediation pools in your topology. You can perform the following action:"
 ---
 

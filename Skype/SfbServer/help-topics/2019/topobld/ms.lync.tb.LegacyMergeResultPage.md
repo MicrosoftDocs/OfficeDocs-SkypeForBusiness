@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To begin merging a legacy deployment with Skype for Business Server, click Next. For details about running the Topology Builder merge wizard, see Merge Using Topology Builder Merge Wizard in the Migration documentation."
 ---
 

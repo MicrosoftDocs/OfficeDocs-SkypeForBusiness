@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To add a new server to an existing pool of servers, where the pool is one of the following:"
 ---
 

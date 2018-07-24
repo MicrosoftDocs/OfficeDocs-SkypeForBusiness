@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
+ROBOTS: NOINDEX, NOFOLLOW
 description: "The Lync Server node lists the central sites in your topology. You can perform the following actions:"
 ---
 

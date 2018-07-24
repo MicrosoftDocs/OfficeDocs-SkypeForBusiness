@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To edit the settings for an existing single or multiple server Edge pool, you are presented with the following sections:"
 ---
 

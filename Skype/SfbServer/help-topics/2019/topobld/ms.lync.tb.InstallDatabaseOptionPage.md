@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
+ROBOTS: NOINDEX, NOFOLLOW
 description: "You configure advanced options for the placement of database and log files on your SQL Server. The options available are:"
 ---
 

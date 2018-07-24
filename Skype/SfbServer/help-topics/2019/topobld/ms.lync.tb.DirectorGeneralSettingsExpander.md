@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To edit the settings for an existing Director, you are presented with the following sections:"
 ---
 

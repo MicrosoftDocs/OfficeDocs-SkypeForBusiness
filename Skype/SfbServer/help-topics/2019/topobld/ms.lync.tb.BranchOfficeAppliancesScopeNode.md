@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
+ROBOTS: NOINDEX, NOFOLLOW
 description: "The Survivable Branch Appliances node lists the Survivable Branch Appliances at this branch site. You can perform the following action:"
 ---
 

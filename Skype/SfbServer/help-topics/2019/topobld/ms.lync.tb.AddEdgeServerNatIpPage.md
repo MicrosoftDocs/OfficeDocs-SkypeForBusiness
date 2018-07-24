@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
+ROBOTS: NOINDEX, NOFOLLOW
 description: "The public IP address is the IP address that is used by network address translation (NAT). The IP address must be publicly routable. This is required because you selected The external IP address of this Edge pool is translated by NAT option on the Select features page of this wizard."
 ---
 
