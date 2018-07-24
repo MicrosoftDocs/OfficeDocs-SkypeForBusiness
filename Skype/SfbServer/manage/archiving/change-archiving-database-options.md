@@ -1,20 +1,19 @@
 ---
-title: "Change Archiving database options in Skype for Business Server 2015"
+title: "Change Archiving database options in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
-description: "Summary: Learn how to change archiving database options for Skype for Business Server 2015."
+description: "Summary: Learn how to change archiving database options for Skype for Business Server."
 ---
 
-# Change Archiving database options in Skype for Business Server 2015
+# Change Archiving database options in Skype for Business Server
 
-**Summary:** Learn how to change archiving database options for Skype for Business Server 2015.
+**Summary:** Learn how to change archiving database options for Skype for Business Server.
   
 If you deploy archiving using SQL Server storage for archiving storage for any of your users, you can make the following database storage changes:
   
@@ -87,7 +86,7 @@ To make either of these changes, you must run Topology Builder, make the changes
 8. To save the configuration, click **OK**.
     
     > [!IMPORTANT]
-    > The changes you make in Topology Builder do not take effect until you publish the new topology. For details, see [Add archiving databases to an existing deployment in Skype for Business Server 2015](../../deploy/deploy-archiving/add-archiving-databases.md). 
+    > The changes you make in Topology Builder do not take effect until you publish the new topology. For details, see [Add archiving databases to an existing deployment in Skype for Business Server](../../deploy/deploy-archiving/add-archiving-databases.md). 
   
 ## Change the location of the Archiving database by using Windows PowerShell
 

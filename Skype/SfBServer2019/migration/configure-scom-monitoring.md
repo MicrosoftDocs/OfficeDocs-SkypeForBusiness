@@ -12,7 +12,7 @@ description: "After migrating to Microsoft Skype for Business Server 2019, you m
 
 # Configure SCOM monitoring
 
-After migrating to Microsoft Skype for Business Server 2019, you must complete a few tasks to configure Skype for Business Server 2019 to work with System Center Operations Manager.
+After migrating to Skype for Business Server 2019, you must complete a few tasks to configure Skype for Business Server 2019 to work with System Center Operations Manager.
   
 - Apply updates to a server elected to manage the central discovery logic.
     
@@ -49,12 +49,12 @@ Instructions for carrying out each of these tasks are provided below.
 
 1. On a computer where the System Center Operations Manager console has been installed, expand **Management Pack Objects** and then select **Object Discoveries**.
     
-2. Click **Change Scope...**
+2. Click **Change Scope**
     
 3. From the **Scope Management Pack Objects** page, select **LS Discovery Candidate**.
     
 4. Override the **LS Discovery Candidate Effective Value** to the name of the candidate server elected in the earlier procedure. 
     
-Lastly, to finalize your changes, restart the health service on the System Center Operations Manager Root Management Server.
+To finalize your changes, restart the health service on the System Center Operations Manager Root Management Server.
   
 

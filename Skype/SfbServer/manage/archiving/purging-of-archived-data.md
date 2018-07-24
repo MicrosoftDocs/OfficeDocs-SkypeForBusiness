@@ -1,24 +1,23 @@
 ---
-title: "Manage purging of archived data in Skype for Business Server 2015"
+title: "Manage purging of archived data in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
-description: "Summary: Learn how to manage purging of archived data for Skype for Business Server 2015."
+description: "Summary: Learn how to manage purging of archived data for Skype for Business Server."
 ---
 
-# Manage purging of archived data in Skype for Business Server 2015
+# Manage purging of archived data in Skype for Business Server
 
-**Summary:** Learn how to manage purging of archived data for Skype for Business Server 2015.
+**Summary:** Learn how to manage purging of archived data for Skype for Business Server.
   
-The Archiving database is not intended for long-term retention, and Skype for Business Server 2015 does not provide an e-discovery (search) solution for archived data, so data needs to be moved to other storage. Skype for Business Server provides a session export tool that you can use to export archived data into searchable transcripts. You need to define when to purge archived and exported data. 
+The Archiving database is not intended for long-term retention, and Skype for Business Server does not provide an e-discovery (search) solution for archived data, so data needs to be moved to other storage. Skype for Business Server provides a session export tool that you can use to export archived data into searchable transcripts. You need to define when to purge archived and exported data. 
   
-For more information about exporting data by using the **Export-CsArchivingData** cmdlet, see [Export archived data in Skype for Business Server 2015](export-archived-data.md).
+For more information about exporting data by using the **Export-CsArchivingData** cmdlet, see [Export archived data in Skype for Business Server](export-archived-data.md).
   
 ## Manage purging of data by using the Control Panel
 

@@ -13,26 +13,26 @@ description: "Summary: Deploy the Skype for Business Web App and Skype Meetings 
 
 # Deploy Web downloadable clients in Skype for Business Server
  
-**Summary:** Deploy the Skype for Business Web App and Skype Meetings App used with Skype for Business.
+**Summary:** Deploy the Skype for Business 2015 Web App and Skype Meetings App used with Skype for Business Server 2015.
   
-Skype for Business Web App is an Internet Information Services (IIS) web client that is installed on the server running Skype for Business Server and default it is deployed on demand to meeting users who do not already have the Skype for Business client. These meeting users are more often than not connecting from outside your network. Whenever a user clicks a meeting URL but does not have the Skype for Business client installed, the user is presented with the option to join the meeting by using the latest version of Skype for Business Web App.
+Skype for Business Web App is an Internet Information Services (IIS) web client that is installed on the server running Skype for Business Server 2015 and by default it is deployed on demand to meeting users who do not already have the Skype for Business client. These meeting users are more often than not connecting from outside your network. Whenever a user clicks a meeting URL but does not have the Skype for Business client installed, the user is presented with the option to join the meeting by using the latest version of Skype for Business Web App or Skype Meetings App.
   
 The voice, video, and sharing features in Skype for Business Web App require a Microsoft ActiveX control that is used as a plugin by the user's browser. You can either install the ActiveX control in advance or allow users to install it when prompted, which happens the first time they use Skype for Business Web App or the first time they access a feature that requires the ActiveX control.
   
 > [!NOTE]
-> In Skype for Business Server 2015 Edge Server deployments, an HTTPS reverse proxy in the perimeter network is required for Skype for Business Web App client access. You must also publish simple URLs. For details, see [Setting Up Reverse Proxy Servers](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and [DNS requirements for simple URLs in Skype for Business Server 2015](../../plan-your-deployment/network-requirements/simple-urls.md). 
+> In Skype for Business Server 2015 Edge Server deployments, an HTTPS reverse proxy in the perimeter network is required for Skype for Business Web App client access. You must also publish simple URLs. For details, see [Setting Up Reverse Proxy Servers](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and [DNS requirements for simple URLs in Skype for Business Server](../../plan-your-deployment/network-requirements/simple-urls.md). 
   
 ## Enable Multi-Factor Authentication for Skype for Business Web App
 <a name="MFA"> </a>
 
-The Skype for Business Server 2015 version of Skype for Business Web App supports multi-factor authentication. In addition to user name and password, you can require additional authentication methods, such as smart cards or PINs, to authenticate users who are joining from external networks when they sign in to Skype for Business meetings. You can enable multi-factor authentication by deploying Active Directory Federation Service (AD FS) federation server and enabling passive authentication in Skype for Business Server. After AD FS is configured, external users who attempt to join Skype for Business meetings are presented with an AD FS multi-factor authentication webpage that contains the user name and password challenge along with any additional authentication methods that you have configured.
+The Skype for Business Web App and Skype Meetings App support multi-factor authentication. In addition to user name and password, you can require additional authentication methods, such as smart cards or PINs, to authenticate users who are joining from external networks when they sign in to Skype for Business meetings. You can enable multi-factor authentication by deploying Active Directory Federation Service (AD FS) federation server and enabling passive authentication in Skype for Business Server. After AD FS is configured, external users who attempt to join Skype for Business meetings are presented with an AD FS multi-factor authentication webpage that contains the user name and password challenge along with any additional authentication methods that you have configured.
   
 > [!IMPORTANT]
 > The following are important considerations if you plan to configure AD FS for multi-factor authentication: 
   
 - Multi-factor ADFS authentication works if the meeting participant and organizer are both in the same organization or are both from an AD FS federated organization. Multi-factor ADFS authentication does not work for Lync federated users because the Lync server web infrastructure does not currently support it.
     
-- If you use hardware load balancers, enable cookie persistence on the load balancers so that all requests from the Skype for Business Web App client are handled by the same Front End Server.
+- If you use hardware load balancers, enable cookie persistence on the load balancers so that all requests from the Skype for Business Web App or Meetings App clients are handled by the same Front End Server.
     
 - When you establish a relying party trust between Skype for Business Server and AD FS servers, assign a token life that is long enough to span the maximum length of your Skype for Business meetings. Typically, a token life of 240 minutes is sufficient.
     
@@ -108,10 +108,10 @@ If installation of the plug-in fails on a computer running Windows Server 2008 R
     
 5. Rejoin the meeting.
     
-## Enable Skype Meetings App to replace Skype for Business Web App (Optional)
+## Enable Skype Meetings App to replace Skype for Business Web App (Optional, Skype for Business Server 2015 only)
 <a name="SMA_Enable"> </a>
 
-This procedure is optional. If you do not use it, external users will continue to join meetings using Skype for Business Web App. 
+This procedure is optional, and applies to Skype for Business Server 2015 CU5 and later. If you do not use it, external users will continue to join meetings using Skype for Business Web App. 
   
 ### Enable simplified meeting join and Skype Meetings App
 

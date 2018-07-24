@@ -1,20 +1,19 @@
 ---
-title: "Manage user accounts for Skype for Business Server 2015"
+title: "Manage user accounts for Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
-description: "The sections in this article describe how to enable, temporarily disable, or remove Active Directory users from Skype for Business Server 2015."
+description: "The sections in this article describe how to enable, temporarily disable, or remove Active Directory users from Skype for Business Server."
 ---
 
-# Manage user accounts for Skype for Business Server 2015
+# Manage user accounts for Skype for Business Server
  
-The sections in this article describe how to enable, temporarily disable, or remove Active Directory users from Skype for Business Server 2015.
+The sections in this article describe how to enable, temporarily disable, or remove Active Directory users from Skype for Business Server.
   
 For information on how to enable an Active Directory user, see [Create a New User Account](https://technet.microsoft.com/en-us/library/cc732336%28v=ws.11%29.aspx). For information on how to delete an Active Directory user, see [Delete a User Account](https://technet.microsoft.com/en-us/library/cc753730%28v=ws.11%29.aspx).
   
@@ -24,7 +23,7 @@ This article contains the following procedures:
   
 - [To search for one or more users](user-accounts.md#Search)
     
-- [Add and enable a new Skype for Business Server 2015 user](user-accounts.md#Add)
+- [Add and enable a new Skype for Business Server user](user-accounts.md#Add)
     
 - [Disable or re-enable a user account previously enabled for Skype for Business Server](user-accounts.md#Disable)
     
@@ -35,7 +34,7 @@ This article contains the following procedures:
 ## To search for one or more users
 <a name="Search"> </a>
 
-You can use the results of a search query to configure Active Directory users for Skype for Business Server 2015. You can search for users by display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI).
+You can use the results of a search query to configure Active Directory users for Skype for Business Server. You can search for users by display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI).
   
 You can search for users by using the Skype for Business Server Control Panel or the Active Directory Users and Computers snap-in. The following procedure describes how to use Skype for Business Server Control Panel to search for users.
   
@@ -62,10 +61,10 @@ You can search for users by using the Skype for Business Server Control Panel or
     
 6. The search results appear under **Search Results**. You can select any or all of the users in the list and perform configuration tasks on the users you select.
     
-## Add and enable a new Skype for Business Server 2015 user
+## Add and enable a new Skype for Business Server user
 <a name="Add"> </a>
 
-After enabling a user account in Active Directory Users and Computers, you can use Skype for Business Server Control Panel to create and enable new Skype for Business Server 2015 user accounts by adding an Active Directory user to Skype for Business Server 2015.
+After enabling a user account in Active Directory Users and Computers, you can use Skype for Business Server Control Panel to create and enable new Skype for Business Server user accounts by adding an Active Directory user to Skype for Business Server.
   
 You can also use a cmdlet, specifically [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps).
   
@@ -81,7 +80,7 @@ You can also use a cmdlet, specifically [Enable-CsUser](https://docs.microsoft.c
     
 6. In the **Search users** box, type all or the first portion of the name, display name, first name, last name, Security Accounts Manager (SAM) account name, email address, User Principal Name (UPN), or phone number of the Active Directory user account that you want, and then click **Find**.
     
-7. In the table, select the account you want to add to Skype for Business Server 2015, and then click **OK**.
+7. In the table, select the account you want to add to Skype for Business Server, and then click **OK**.
     
 8. Assign the user to a pool, specify any additional details, and assign the policies to the user you want, and then click **Enable**.
     
@@ -131,7 +130,7 @@ For more information, see the help topic for the [Set-CsUser](https://docs.micro
 ## Disable a user for Enterprise Voice
 <a name="Disable_EV"> </a>
 
-Use the following procedure to disable Enterprise Voice for a user account that is enabled for Skype for Business Server 2015.
+Use the following procedure to disable Enterprise Voice for a user account that is enabled for Skype for Business Server.
   
 ### To disable a user account for Enterprise Voice
 
@@ -154,11 +153,11 @@ Use the following procedure to disable Enterprise Voice for a user account that 
   
 8. Click **Commit**.
     
-The user is now unable to use the Enterprise Voice feature. Related information: <br/>[Enterprise Voice and mobility](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 2015 Management Shell](../management-shell.md)
+The user is now unable to use the Enterprise Voice feature. Related information: <br/>[Enterprise Voice and mobility](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Enable users for Enterprise Voice in Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server Management Shell](../management-shell.md)
 ## Remove a user account with the Skype for Business Server Management Shell
 <a name="Remove"> </a>
 
-You can use the following procedure to remove a previously added user account in Skype for Business Server 2015. 
+You can use the following procedure to remove a previously added user account in Skype for Business Server. 
   
 > [!NOTE]
 > Removing a user will cause you to lose any settings you configured for the user account. If you would like to temporarily disable a user account instead, see [Disable or re-enable a user account previously enabled for Skype for Business Server](user-accounts.md#Disable). 

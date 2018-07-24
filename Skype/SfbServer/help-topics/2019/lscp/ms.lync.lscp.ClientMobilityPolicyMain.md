@@ -32,7 +32,7 @@ You can perform the following tasks on the **Mobility Policy** page:
 
 The following lists describe the menus, command, fields, and properties on the page.
   
-### 
+
 
 - **Search field** Type a string in the text box to filter the policies displayed.
     

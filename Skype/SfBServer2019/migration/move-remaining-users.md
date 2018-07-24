@@ -17,7 +17,7 @@ You can move users to the new Skype for Business Server 2019 deployment by using
 > [!IMPORTANT]
 > You cannot use the Active Directory Users and Computers snap-in or the legacy administrative tools to move users from your legacy environment to Skype for Business Server 2019. 
   
-When you move a user to an Skype for Business Server 2019 pool, the data for the user is moved to the back-end database that is associated with the new pool. 
+When you move a user to a Skype for Business Server 2019 pool, the data for the user is moved to the back-end database that is associated with the new pool. 
   
 > [!IMPORTANT]
 > This includes the active meetings created by the legacy user. For example, if a legacy user has configured a **my meeting** conference, that conference will still be available in the new Skype for Business Server 2019 pool after the user has been moved. The details to access that meeting will still be the same **conference URL and conference ID**. The only difference is that the conference is now hosted in the Skype for Business Server 2019 pool, and not in the legacy pool. 
@@ -25,7 +25,7 @@ When you move a user to an Skype for Business Server 2019 pool, the data for the
 > [!NOTE]
 > Homing users on Skype for Business Server 2019 does not require that you deploy upgraded clients at the same time. New functionality will be available to users only when they have upgraded to the new client software. 
   
-### Post Migration Task
+### Post migration task
 
 1. After you move users, verify the conferencing policy that is assigned to them. 
     
@@ -33,7 +33,7 @@ When you move a user to an Skype for Business Server 2019 pool, the data for the
     
 3. Conferencing policies that allow anonymous participants have **Allow participants to invite anonymous users** selected in Skype for Business Server 2019 Control Panel and have **AllowAnonymousParticipantsInMeetings** set to **True** in the output from the **Get-CsConferencingPolicy** cmdlet in the Skype for Business Server Management Shell. 
     
-4. For details about configuring conferencing policy by using Skype for Business Server Management Shell, see 
-<!-- [Set-CsConferencingPolicy](../../lync-server-management-shell/lync-server-2013-cmdlets-by-category/set-csconferencingpolicy.md) in the Skype for Business Server Management Shell documentation.  -->
+<!-- 4. For details about configuring conferencing policy by using Skype for Business Server Management Shell, see 
+ [Set-CsConferencingPolicy](../../lync-server-management-shell/lync-server-2013-cmdlets-by-category/set-csconferencingpolicy.md) in the Skype for Business Server Management Shell documentation.  -->
     
 

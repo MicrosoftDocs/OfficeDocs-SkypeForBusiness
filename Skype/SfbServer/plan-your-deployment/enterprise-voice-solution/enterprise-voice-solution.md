@@ -40,7 +40,6 @@ Of course, you can have some of your users enabled for Enterprise Voice while ot
   
 ## See also
 
-#### 
 
 [Plan for Enterprise Voice in Skype for Business Server](enterprise-voice.md)
   

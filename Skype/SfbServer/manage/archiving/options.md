@@ -1,20 +1,19 @@
 ---
-title: "Manage archiving options in Skype for Business Server 2015"
+title: "Manage archiving options in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
-description: "Summary: Learn how to configure archiving options for Skype for Business Server 2015."
+description: "Summary: Learn how to configure archiving options for Skype for Business Server."
 ---
 
-# Manage archiving options in Skype for Business Server 2015
+# Manage archiving options in Skype for Business Server
 
-**Summary:** Learn how to configure archiving options for Skype for Business Server 2015.
+**Summary:** Learn how to configure archiving options for Skype for Business Server.
   
 You initially configure archiving at deployment, but you can change, add, and delete configurations after deployment. Archiving options determine whether to: 
   
@@ -38,7 +37,7 @@ You can specify configuration options at the following levels:
     
 - Optional pool-level configurations that specify how archiving is implemented for a specific pool
     
-You can delete a site configuration or pool configuration, but you cannot delete the global configuration. If you delete the global configuration, it is automatically reset to the default values. For details about how archiving configurations are implemented and the hierarchy of archiving configurations, see [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md).
+You can delete a site configuration or pool configuration, but you cannot delete the global configuration. If you delete the global configuration, it is automatically reset to the default values. For details about how archiving configurations are implemented and the hierarchy of archiving configurations, see [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md).
   
 ## Configure archiving options by using the Control Panel
 
@@ -52,7 +51,7 @@ You can configure archiving options by using the Control Panel as follows:
     
 ## Configure archiving options by using Windows PowerShell
 
-You can also configure archiving options by using the Windows PowerShell cmdlets listed in the following table. For details about syntax, including all available parameters, see [Skype for Business Server 2015 Management Shell](../management-shell.md).
+You can also configure archiving options by using the Windows PowerShell cmdlets listed in the following table. For details about syntax, including all available parameters, see [Skype for Business Server Management Shell](../management-shell.md).
   
 
 |**Cmdlet**|**Description**|

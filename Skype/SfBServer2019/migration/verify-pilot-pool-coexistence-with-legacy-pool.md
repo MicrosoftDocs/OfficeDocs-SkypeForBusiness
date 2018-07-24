@@ -28,36 +28,38 @@ After you deploy the pilot pool, you need to verify the coexistence of the two p
 1. From the Skype for Business Server 2019 Front End Server, navigate to the Administrative Tools\Services applet.
     
 2. Verify that the following services are running on the Front End Server:
-    
-**Skype for Business Server 2019 services**
 
-![List of Skype for Business Server Services Started](../media/Migration_LyncServer_from_LyncServer2010_ServicesStarted.png)
+    - Centralized Logging Service Agent
+    - Application Sharing
+    - Audio Test Service
+    - Audio/Video Conferencing
+    - Call Park
+    - Conferencing Announcement
+    - Conferencing Attendant
+    - Front-End
+    - IM Conferencing
+    - Mediation
+    - Replica Replicator Agent
+    - Response Group
+    - Web Conferencing
+    - XMPP Translating Gateway
+
   
 ## Open the Skype for Business Server 2019 Control Panel
 <a name="sectionSection1"> </a>
 
 From the Front End Server in your Skype for Business Server 2019 deployment, open the Skype for Business Server 2019 Control Panel and select the legacy pool. Repeat the procedure to open the Skype for Business Server 2019 pool.
   
-**Open Skype for Business Server 2019 Control Panel**
-
-![Select URL dialog box](../media/Migration_LyncServer_from_LyncServer2010_CPanelOpenDialog.png)
-  
 > [!IMPORTANT]
 > On Skype for Business Server 2019, you must upgrade Silverlight to Silverlight version 5 prior to using the Skype for Business Server Control Panel. 
   
 This topology now includes legacy and Skype for Business Server 2019 server roles. 
-  
-**Skype for Business Server 2019 Control Panel Topology page**
 
-![Skype for Business Server Control Panel - Topology page](../media/migration_lyncserver_config_w15_lcsp_topology.JPG)
   
 ## Don't attempt to open the topology in the legacy Topology Builder
 <a name="sectionSection2"> </a>
 
 If you attempt to open the topology using the legacy Topology Builder, you will encounter the error below. The topology can only be viewed using Skype for Business Server 2019 Topology Builder. The Skype for Business Server 2019 Topology Builder must be used to create pools for both Skype for Business Server 2019 and the legacy install.
-  
-**Topology Builder error message**
 
-![Topology Builder MMC Snap Error](../media/Migration_LyncServer_from_LyncServer2010_TopoBuilderErrorMsg.png)
   
 

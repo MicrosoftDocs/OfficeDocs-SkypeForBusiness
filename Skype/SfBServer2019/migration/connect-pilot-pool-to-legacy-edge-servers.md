@@ -16,9 +16,9 @@ After deploying Skype for Business Server 2019, you need to configure a federati
   
 To enable the Skype for Business Server 2019 site to use the Director and Edge Server of the legacy deployment, use Topology Builder to associate the legacy Edge pool.
   
-## To associate the legacy Edge pool by using Topology Builder
+### To associate the legacy Edge pool by using Topology Builder
 
-1. Open **Topology Builder**. 
+1. Open Topology Builder. 
     
 2. Select your site, which is directly below the **Skype for Business Server** node. 
     
@@ -27,8 +27,6 @@ To enable the Skype for Business Server 2019 site to use the Director and Edge S
 4. In the left pane, select **Federation route**.
     
 5. Under **Site federation route assignment**, select **Enable SIP federation**, and then select the legacy Director, or the legacy Edge Server if no Director is listed.
-    
-     ![Edit Properties, Federation route page](../media/migration_lyncserver_w15_federation_fromTB.JPG)
   
 6. Click **OK** to close the **Edit Properties** page. 
     
@@ -37,8 +35,6 @@ To enable the Skype for Business Server 2019 site to use the Director and Edge S
 8. Under **Associations**, select the check box next to **Associate Edge pool (for media components)**. 
     
 9. From the list, select the legacy Edge Server. 
-    
-     ![Edit Properties dialog, selecting the legacy Edge](../media/migration_lyncserver_w15_associate_media.JPG)
   
 10. Click **OK** to close the **Edit Properties** page. 
     

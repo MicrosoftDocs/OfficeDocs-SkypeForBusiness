@@ -14,7 +14,7 @@ description: "The topics in this section describe tasks that you will need to pe
 
 The topics in this section describe tasks that you will need to perform after you have completed your migration to Skype for Business Server 2019.
   
-## In This Section
+## In this section
 
 - [Migrate existing meetings and meeting content](migrate-existing-meetings-and-meeting-content.md)
     
