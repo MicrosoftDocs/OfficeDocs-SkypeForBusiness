@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 974fc131e5d1d3b5de8631d2611816e1972bd212
 ---
 title: Plan for Microsoft 365 Government - GCC deployments - Microsoft Teams
 author: lolajacobsen
