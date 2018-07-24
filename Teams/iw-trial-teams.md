@@ -3,7 +3,7 @@ title: Manage the Microsoft Teams Commercial Cloud Trial offer
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -28,7 +28,7 @@ The service plans included in this offer are:
 - Microsoft Teams (Teams1, Teams IW)
 - Office Online
 - PowerApps for Office 365 Plan 1
-- SharePoint Online Plan 1
+- SharePoint Online Kiosk
 - Sway
 - Yammer Enterprise
 
@@ -51,9 +51,11 @@ Eligible users can sign up for the trial offer by logging into Teams ([teams.mic
 
 ![Screenshot of the start page for the Teams IW trial.](media/iw-trial-start-screen.png)
 
-The IW trial grants a 1-year trial to your entire organization. Additional eligible users within your organization can sign up for the IW trial by going through the same process.
- 
+The trial grants a one-year trial to your entire organization. This trial will make 500,000 licenses available for assignment. For each license assigned, the trial will allocate 2 GB of SharePoint Online storage. Additional eligible users within your organization can sign up for the trial by going through the same process.
+
 All trials within your organization share the same start and end dates, which is the date that first user signed for the trial. For example, if user A starts the first trial on April 25, 2018 and user B starts a trial on June 3, 2018, both users' trial will expire on April 25, 2019.
+
+The first person who signed up for the trial is the “owner” of the subscription. Only that person can manage the subscription. 
 
 ## <a name="manage-the-trial"></a>Manage the trial
 
