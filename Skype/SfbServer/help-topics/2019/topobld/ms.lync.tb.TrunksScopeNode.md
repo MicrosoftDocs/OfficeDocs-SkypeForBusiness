@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Right-click Trunks in Topology Builder to perform the following:"
 ---
 

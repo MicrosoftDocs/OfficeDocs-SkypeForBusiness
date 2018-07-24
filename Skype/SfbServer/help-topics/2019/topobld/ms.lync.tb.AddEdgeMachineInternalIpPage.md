@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Use this page to specify the internal IP address and internal fully qualified domain name (FQDN) for the Edge Server."
 ---
 

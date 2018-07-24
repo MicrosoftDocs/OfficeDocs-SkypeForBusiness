@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
+ROBOTS: NOINDEX, NOFOLLOW
 description: "You define a new session initiation protocol (SIP) trunk by providing the following information:"
 ---
 
