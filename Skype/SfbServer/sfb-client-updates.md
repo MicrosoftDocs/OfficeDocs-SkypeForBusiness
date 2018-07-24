@@ -3,7 +3,7 @@ title: "Latest updates for versions of Skype for Business that use Windows Insta
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/16/2018 
+ms.date: 07/16/2018 
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: skype-for-business-itpro
@@ -13,6 +13,7 @@ description: "Provides IT Pros with links to the latest update information for p
 ---
 
 # Latest updates for versions of Skype for Business that use Windows Installer (MSI)
+
 
 Use the links on this page to get more information about and download the most recent updates for the perpetual versions of Skype for Business 2016, Skype for Business 2015, and Lync 2013 clients.
   

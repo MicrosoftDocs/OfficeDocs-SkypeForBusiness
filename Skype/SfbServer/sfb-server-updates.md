@@ -3,7 +3,7 @@ title: "Skype for Business Server updates"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/13/2018
+ms.date: 07/13/2018
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: skypeforbusiness-server-itpro
@@ -15,10 +15,9 @@ description: "Find and manage updates for Skype for Business Server 2015 and Lyn
 
 # Skype for Business updates
 
-Find and manage updates for [Skype for Business Server 2015](#Skype for Business-2015-update-history) and [Lync 2013](#Lync-2013-update-history),  and [Skype for Business 2010](#Skype for Business-2010-update-history) in one place. Use the links on this page to get more information about updates, and then download the updates.
+Find and manage updates for [Skype for Business Server 2015](#skype-for-business-server-2015-update-history),  [Lync 2013](#Lync-2013-update-history),  and [Lync Server 2010](#lync-server-2010-update-history) in one place. Use the links on this page to get more information about updates, and then download the updates.
 
 For the latest Skype for Business Online and Office 365 updates, see the [Office 365 Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
-
 
 ## Skype for Business Server 2015 update history
 
