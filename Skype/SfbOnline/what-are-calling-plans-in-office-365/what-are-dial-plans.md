@@ -122,7 +122,7 @@ The following table shows sample normalization rules that are written as .NET Fr
 |7digitcallingRedmond  <br/> |Translates 7-digit numbers to Redmond local numbers.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 is translated to +14255550100  <br/>|
 |RedmondOperator  <br/> |Translates 0 to Redmond Operator.  <br/> |^0$  <br/> |+14255550100  <br/> |0 is translated to +14255550100  <br/> |
 |RedmondSitePrefix  <br/> |Translates numbers with on-net prefix (6) and Redmond site code (222).  <br/> |^6222(\\d{4})$  <br/> |+1425555$1  <br/> |62220100 is translated to +14255550100  <br/> |
-|5digitRange  <br/> |Translates 5-digit extensions starting with the digit range between 3-7 inclusive.  <br/> |^([3-7]\\d{4})$  <br/> |+142570$1  <br/> |54567 is translated to +14255554567  <br/> |
+|5digitRange  <br/> |Translates 5-digit extensions starting with the digit range between 3-7 inclusive.  <br/> |^([3-7]\\d{4})$  <br/> |+142555$1 <br/> |54567 is translated to +14255554567  <br/> |
 |PrefixAdded  <br/> |Adds a country prefix in front of a 9 digit number with restrictions on the first and third digits.  <br/> |^([2-9]\\d\\d[2-9]\\d{6})$  <br/> |1$1  <br/> |4255554567 is translated to 14255554567  <br/> |
 |NoTranslation  <br/> |Match 5 digits but no translation.  <br/> |^(\\d{5})$  <br/> |$1  <br/> |34567 is translated to 34567  <br/> |
    
