@@ -1,4 +1,4 @@
-Teams fully supports the following internet browsers, with noted exceptions. Check the [Teams Roadmap](http://aka.ms/TeamsRoadmap) for news about new features in Teams.
+Teams fully supports the following internet browsers, with noted exceptions. 
 
 |Browser  |Notes  |
 |---------|---------|
