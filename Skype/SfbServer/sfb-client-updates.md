@@ -14,7 +14,6 @@ description: "Provides IT Pros with links to the latest update information for p
 
 # Latest updates for versions of Skype for Business that use Windows Installer (MSI)
 
-
 Use the links on this page to get more information about and download the most recent updates for the perpetual versions of Skype for Business 2016, Skype for Business 2015, and Lync 2013 clients.
   
 > [!NOTE] 
