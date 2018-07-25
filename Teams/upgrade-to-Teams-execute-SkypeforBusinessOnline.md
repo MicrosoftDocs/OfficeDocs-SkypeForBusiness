@@ -33,7 +33,7 @@ This article is part of Deployment and Implementation stage of your upgrade jour
 Follow the guidance in this article if you have wholly deployed Skype for Business Online and want to upgrade your users from Skype for Business to Teams. You can upgrade users selectively or all-in, based on the upgrade journey that your organization has chosen, by assigning the appropriate coexistence and upgrade mode to your users.
 
 > [!IMPORTANT]
-> If you’re an admin on your Office 365 tenant, you might start seeing upgrade options in your PowerShell cmdlet or Teams Admin Center. Having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For the best user experience, confirm that Teams meets your collaboration and communication requirements, make sure that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams.
+> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 ## Assign the coexistence and upgrade mode
 
