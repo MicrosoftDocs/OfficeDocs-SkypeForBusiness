@@ -277,7 +277,9 @@ Additionally you need to ensure that the DNS resolution described in the followi
 |DNS A record(s) for Edge Web Conferencing Service FQDN, e.g. webcon.contoso.com resolving to Web Conferencing Edge external IP(s)  <br/> |Internal corporate network connected users' computers  <br/> |Enable online users to present or view content in on-premises hosted meetings. Content includes PowerPoint files, whiteboards, polls, and shared notes.  <br/> |
    
 Depending on how DNS is configured in your organization, you may need to add these records to the internal hosted DNS zone for the corresponding SIP domain(s) to provide internal DNS resolution to these records.
-  
+
+[!NOTE] _sipfederationtls._tcp.\<sipdomain.com\> SRV record resolution from the Edge Server is required for hybrid configuration. If the Edge Server cannot resolve these records, the on-premises users will not be able to see the presence or communicate with online users.
+
 ## Firewall considerations
 <a name="BKMK_Firewall"> </a>
 

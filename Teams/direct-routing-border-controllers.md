@@ -29,6 +29,7 @@ With each vendor, Microsoft:
 The table below lists devices certified for Direct Routing. 
 
 [Learn more about Direct Routing](https://aka.ms/dr). 
+If you have any questions about SBC certification program for Direct Routing please email to drsbccertification@microsoft.com
 
 
 |Vendor  |Product  |Non-Media Bypass  |Media Bypass  |Software Version|
