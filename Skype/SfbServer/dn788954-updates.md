@@ -21,7 +21,7 @@ Follow the links to the content you need:
 - [Updates for Skype for Business clients](sfb-client-updates.md) which contains the sections:
     - [Skype for Business 2016 client updates](sfb-client-updates.md#skype-for-business-2016-client-updates)
     - [Skype for Business 2015 client updates](sfb-client-updates.md#skype-for-business-2015-client-updates)
-    - [Skype for Business mobile client updates](sfb-client-updates.md#skype-for-business-2016-mobile-client-updates)
+    - [Skype for Business mobile client updates](sfb-client-updates.md#skype-for-business-mobile-client-updates)
     - [Skype for Business on Mac client updates](sfb-client-updates.md#skype-for-business-on-mac-client-updates)
     - [Lync 2013 client updates](sfb-client-updates.md#lync-2013-client-updates)
         - [Lync Phone Edition updates](sfb-client-updates.md#lync-phone-edition-updates)
