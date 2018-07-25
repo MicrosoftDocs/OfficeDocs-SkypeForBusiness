@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
-ms.reviwer: laal
+ms.reviewer: laal
 description: Manage Microsoft Teams guest access features and capabilities through four different levels of authorization.
 appliesto: 
 - Microsoft Teams
@@ -32,7 +32,7 @@ These different authorization levels provide you with flexibility in how you set
 ![Diagram of authorization dependencies for guest access.](media/teams_dependencies_image1.png)
 
 
-##Azure Active Directory
+## Azure Active Directory
 
 With Azure AD business-to-business (B2B) collaboration, sending invitations to potential guest users isn’t restricted to tenant admins. Instead, you can use policies to delegate sending invitations to users whose roles allow them to send invitations.
 
@@ -52,7 +52,7 @@ Azure AD includes the following settings to configure external users:
 > [!NOTE]
 > You can also manage which domains can be invited into your tenant as guests. See [Allow/Block guest access to Office 365 groups](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da). 
 
-##Microsoft Teams
+## Microsoft Teams
 In Microsoft Teams, you can control whether the guest experience is enabled or disabled for your organization. The setting is disabled by default and applies at the tenant level for Microsoft Teams only.
 
 
@@ -60,7 +60,7 @@ In Microsoft Teams, you can control whether the guest experience is enabled or d
 You can manage Microsoft Teams guest access settings from the Office 365 admin center. For more information, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md). 
 
 
-##Office 365 Groups
+## Office 365 Groups
 
 From Office 365 Groups, you can control adding guest users and guest access to all Office 365 groups and Microsoft Teams in your organization.
 
@@ -86,7 +86,7 @@ From Office 365 Groups, you can control adding guest users and guest access to a
 The above settings apply at the tenant level and control the guest experience in Office 365 Groups and Microsoft Teams.
 
 
-##SharePoint Online and OneDrive for Business
+## SharePoint Online and OneDrive for Business
 
 Teams relies on SharePoint Online and OneDrive for Business to store files and documents for channels and chat conversations.  
   
