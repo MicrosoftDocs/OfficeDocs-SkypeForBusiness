@@ -25,14 +25,13 @@ Follow the links to the content you need:
     - [Skype for Business on Mac client updates](sfb-client-updates.md#skype-for-business-on-mac-client-updates)
     - [Lync 2013 client updates](sfb-client-updates.md#lync-2013-client-updates)
         - [Lync Phone Edition updates](sfb-client-updates.md#lync-phone-edition-updates)
-        - [Lync Phone Edition clients on Download Center](sfb-client-updates.md#lync-phone-edition-clients)
+        - [Lync Phone Edition clients on Download Center](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
         - [Lync Basic 2013 Trial Software](sfb-client-updates.md#trial-software)
     - [Lync for Mac 2011 client updates](sfb-client-updates.md#lync-for-mac-2011-client-updates)
     - [Lync 2010 client updates](sfb-client-updates.md#lync-2010-client-updates)
         - [Lync mobile platform 2010 client updates](sfb-client-updates.md#lync-mobile-platform-2010-client-updates)
         - [Lync 2010 Attendant updates](sfb-client-updates.md#lync-2010-attendant-updates)
         - [Lync 2010 Attendee updates](sfb-client-updates.md#lync-2010-attendee-updates) 
-
 
 - [Skype for Business Server updates](sfb-server-updates.md) which  contains the sections:
     - [Skype for Business Server 2015 update history](sfb-server-updates.md#skype-for-business-server-2015-update-history)
@@ -51,5 +50,3 @@ Follow the links to the content you need:
         - [Trial Software](sfb-server-updates.md#trial-software)
     - [Additional information](sfb-server-updates.md#additional-information)
     - [Related topics](sfb-server-updates.md#related-topics) 
-
-
