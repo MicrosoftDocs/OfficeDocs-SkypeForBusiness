@@ -23,7 +23,7 @@ When you are upgrading your Skype for Business users to use Teams, you have seve
 Settings assigned at a user level take precedence over settings applied at the org-wide level. You can get a better understanding of the types of modes that are available to you by reading [Understand coexistence and upgrade journey for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).  
 
 > [!IMPORTANT]
-> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+> If you’re an admin on your Office 365 tenant, you might start seeing upgrade options in your PowerShell cmdlet or Teams Admin Center. Having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For the best user experience, confirm that Teams meets your collaboration and communication requirements, make sure that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams.
 
 ## Setting upgrade options for all users in your organization
 

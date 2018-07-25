@@ -34,3 +34,6 @@ Choose your upgrade journey based on your current deployment of Skype for Busine
 -   [Upgrade from Skype for Business Online to Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
 -   [Upgrade from Skype for Business hybrid to Teams](https://aka.ms/SkypeToTeams-UpgradeHybrid)
 -   [Upgrade from Skype for Business on-premises to Teams](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
+
+> [!IMPORTANT]
+> If you’re an admin on your Office 365 tenant, you might start seeing upgrade options in your PowerShell cmdlet or Teams Admin Center. Having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For the best user experience, confirm that Teams meets your collaboration and communication requirements, make sure that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams.
