@@ -14,9 +14,9 @@ description: "Find and manage updates for Skype for Business Server or Lync 2013
 
 # Skype for Business downloads and updates page
 
-The _Skype for Business downloads and updates page_ that was once at https://technet.microsoft.com/office/dn788954 has been retired.
+The _Skype for Business downloads and updates page_ that was once at https://<span></span>technet.<span></span>microsoft<span></span>.com/office/dn788954 has been retired. The content was reorganized into client and server pages.
 
-Follow the links to the content you need:
+Follow these links to the content you need:
 
 - [Updates for Skype for Business clients](sfb-client-updates.md) which contains the sections:
     - [Skype for Business 2016 client updates](sfb-client-updates.md#skype-for-business-2016-client-updates)
