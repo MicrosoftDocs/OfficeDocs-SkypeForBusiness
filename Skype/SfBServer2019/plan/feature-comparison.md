@@ -15,7 +15,7 @@ ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: "Summary: Skype for Business Server 2019 or Skype for Business Online administrators can use these tables to understand what features are supported on which clients."
 ---
 
-# Desktop client feature comparison for Skype for Business
+# Desktop client feature comparison for Skype for Business Server 2019
  
 **Summary:** Skype for Business Server 2019 or Skype for Business Online administrators can use these tables to understand what features are supported on which clients.
   
@@ -274,4 +274,4 @@ User accounts can exist either Online or On-premises, and that will affect the f
 
 [Plan for clients and devices](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)
 
-
+[Latest updates for versions of Skype for Business that use Windows Installer (MSI)](../../SfbServer/sfb-client-updates.md)
