@@ -386,7 +386,7 @@ You create this package to distribute the root certificate for devices that wonâ
 <unattend xmlns="urn:schemas-microsoft-com:unattend">
     <servicing>
         <package action="configure">
-            <assemblyIdentity name="Microsoft-Windows-Foundation-Package" version="10.0.15063.0" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="" />
+            <assemblyIdentity name="Microsoft-Windows-Foundation-Package" version="10.0.16299.15" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="" />
             <selection name="Client-DeviceLockdown" state="true" />
             <selection name="Client-EmbeddedLogon" state="true" />
             <selection name="Client-EmbeddedBootExp" state="true" />
