@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Use the Select Regions dialog box to find regions available in your environment. To use an existing region, click a region in the list and then click OK."
 ---
 

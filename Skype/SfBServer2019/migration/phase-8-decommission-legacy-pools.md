@@ -8,17 +8,17 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: httpsfix
-description: "The following topic provides guidance in updating DNS entries, moving the Content Management Server, decommissioning pools, and deactivating and removing servers and pools from a legacy deployment. Not all of the procedures listed in this section are required. Read the documentation and determine which decommissioning procedure to use."
+description: "The following topic provides guidance for updating DNS entries, moving the Content Management Server, decommissioning pools, and deactivating and removing servers and pools from a legacy deployment. Not all of the procedures listed in this section are required. Read the documentation and determine which decommissioning procedure to use."
 ---
 
 # Phase 8: Decommission legacy pools
 
-The following topic provides guidance in updating DNS entries, moving the Content Management Server, decommissioning pools, and deactivating and removing servers and pools from a legacy deployment. Not all of the procedures listed in this section are required. Read the documentation and determine which decommissioning procedure to use. 
+The following topic provides guidance for updating DNS entries, moving the Content Management Server, decommissioning pools, and deactivating and removing servers and pools from a legacy deployment. Not all of the procedures listed in this section are required. Read the documentation and determine which decommissioning procedure to use. 
   
-For dated, but exhaustive, article on removing servers and server roles, and a step-by-step guide to decommissioning a deployment, see "Uninstalling Microsoft Lync Server and Removing Server Roles," which can be downloaded at [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227). 
+For a dated but exhaustive article on removing servers and server roles, and a step-by-step guide to decommissioning a deployment, download [Uninstalling Microsoft Lync Server and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227). 
   
 > [!IMPORTANT]
-> For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, prior to decommissioning your legacy environment, see [https://go.microsoft.com/fwlink/p/?LinkId=269555](https://go.microsoft.com/fwlink/p/?LinkId=269555)
+> For information on migrating and upgrading Microsoft Unified Communications Managed API (UCMA) applications, before decommissioning your legacy environment, see [UCMA applications: Coexistence, migration, and upgrade scenarios](https://go.microsoft.com/fwlink/p/?LinkId=269555).
   
 ## In this section
 

@@ -14,11 +14,11 @@ description: "This section covers planning topics for migrating to Skype for Bus
 
 This section covers planning topics for migrating to Skype for Business Server 2019. 
   
-## In This Section
+## In this section
 
 - [User migration](user-migration.md)
     
-- [Migrating Archiving and Monitoring servers](migrating-archiving-and-monitoring-servers.md)
+- [Migrating Archiving and Monitoring Servers](migrating-archiving-and-monitoring-servers.md)
     
 - [Administering servers after migration](administering-servers-after-migration.md)
     

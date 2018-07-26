@@ -12,7 +12,7 @@ description: "The topics in this section describe tasks you must complete prior 
 
 # Phase 6: Move from pilot deployment into production
 
-The topics in this section describe tasks you must complete prior to moving your deployment of Skype for Business Server 2019 from a pilot deployment to a production-level deployment.
+The topics in this section describe tasks you must complete before moving your deployment of Skype for Business Server 2019 from a pilot deployment to a production-level deployment.
   
 ## In this section
 

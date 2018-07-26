@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To edit the settings for an existing single or multiple server Edge pool, you are presented with the following sections:"
 ---
 
@@ -23,9 +24,8 @@ To edit the settings for an existing single or multiple server Edge pool, you ar
     
 - Edge Server configuration
     
-## 
 
-### General settings
+## General settings
 
 Internal pool fully qualified domain name (FQDN) of the Edge Server pool. Edit the FQDN of the pool to change this setting.
   
@@ -35,11 +35,11 @@ Select **Enable XMPP federation for this Edge pool** to enable XMPP federation.
   
 Specify the port number for **Internal Configuration Replication Port (HTTPS)**.
   
-### Next hop selection settings
+## Next hop selection settings
 
 To set or modify the **Next hop pool** that the Edge Servers will use to communicate to the internal infrastructure, select a Director, Director pool, Front End Server, or Front End Server pool from the drop-down list box. Only Directors or Front Ends that have been configured in Topology Builder will appear for selection.
   
-### Edge Server configuration
+## Edge Server configuration
 
 To edit or specify settings for the **External Settings** for the Edge Servers, you first must determine if you will use separate IP addresses for SIP access, web conferencing, and the Audio/Video service.
   
@@ -55,7 +55,7 @@ If you determine that your organization will use a single FQDN and IP address fo
 > [!IMPORTANT]
 > If you make changes to any of these settings, including using separate FQDN and IP addresses or ports, you must update all other services that will rely on the initially configured values. 
   
-### 
+## See also 
 
 For details about defining and configuring the settings for the Edge Services, see [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
   

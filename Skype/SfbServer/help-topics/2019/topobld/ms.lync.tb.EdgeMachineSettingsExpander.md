@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To edit the properties for a server in a pool of Edge Servers, do the following:"
 ---
 

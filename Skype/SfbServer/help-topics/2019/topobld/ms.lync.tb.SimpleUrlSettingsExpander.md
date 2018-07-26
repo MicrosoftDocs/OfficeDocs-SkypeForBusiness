@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To specify new, remove existing, or to change the active the simple URLs, do the following:"
 ---
 
@@ -39,7 +40,7 @@ To edit or change the Administrative access URL, edit the entry.
   
 After you are finished with all changes on the Edit Properties page, click **OK** to save the changes. Click **Cancel** to discard changes.
   
-## 
+###  See also
 
 For details, see [Planning for Simple URLs](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)
   

@@ -10,14 +10,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To set a site federation route assignment, you must first have federation enabled on the Edge Server or Edge Server pool. If federation is not enabled on the Edge Server or pool, the federation route assignment settings for the site will not be available for modification."
 ---
 
 # Federation Route Settings Expander
  
 To set a site federation route assignment, you must first have federation enabled on the Edge Server or Edge Server pool. If federation is not enabled on the Edge Server or pool, the federation route assignment settings for the site will not be available for modification.
-  
-## 
 
 If the federation setting at the Edge Server or pool has been configured, you can configure the following options: 
   

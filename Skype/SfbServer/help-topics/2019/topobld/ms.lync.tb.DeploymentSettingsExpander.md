@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
+ROBOTS: NOINDEX, NOFOLLOW
 description: "You can edit the properties for an existing deployment with the following sections:"
 ---
 
@@ -66,7 +67,6 @@ The Central Management Server can be changed from one defined Front End pool to 
   
 For details about moving the Central Management store, see [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in the Windows PowerShell cmdlet reference.
   
-## 
 
 For details about defining and configuring these settings, see [Defining and Configuring the Topology](http://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
   

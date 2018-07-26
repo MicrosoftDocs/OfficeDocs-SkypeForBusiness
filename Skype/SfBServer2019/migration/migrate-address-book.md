@@ -35,12 +35,12 @@ If you customized Address Book normalization rules in your legacy environment, y
   
 If you set the value for **UseNormalizationRules** to False so that users can use phone numbers as they are defined in Active Directory Domain Services without having Skype for Business Server 2019 apply normalization rules, you need to set the **UseNormalizationRules** and **IgnoreGenericRules** parameters to True. Follow the procedure later in this section to set these parameters to True. 
   
-### To migrate Address Book customized normalization rules
+## To migrate Address Book customized normalization rules
 
 1. Find the Company_Phone_Number_Normalization_Rules.txt file in the root of the Address Book shared folder, and copy it to the root of the Address Book shared folder in your Skype for Business Server 2019 pilot pool.
     
     > [!NOTE]
-    > The sample Address Book normalization rules have been installed in your ABS Web component file directory. The path is **$installedDriveLetter:\Program Files\Microsoft Skype for Business Server 2019\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,**. This file can be copied and renamed as **Company_Phone_Number_Normalization_Rules.txt** to the address book shared folder's root directory. For example, the address book shared in **$serverX**, the path will be similar to: **\\$serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**. 
+    > The sample Address Book normalization rules have been installed in your ABS Web component file directory. The path is **$installedDriveLetter:\Program Files\Microsoft Skype for Business Server 2019\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt**. This file can be copied and renamed as **Company_Phone_Number_Normalization_Rules.txt** to the address book shared folder's root directory. For example, the address book shared in **$serverX**, the path will be similar to: **\\$serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**. 
   
 2. Use a text editor, such as Notepad, to open the Company_Phone_Number_Normalization_Rules.txt file.
     
@@ -58,7 +58,7 @@ If you set the value for **UseNormalizationRules** to False so that users can us
   \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
   ```
 
-### To set UseNormalizationRules and IgnoreGenericRules to true
+## To set UseNormalizationRules and IgnoreGenericRules to true
 
 1. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Skype for Business Server 2019**, and then click **Skype for Business Server Management Shell**.
     

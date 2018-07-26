@@ -11,6 +11,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Persistent Chat Server enables users to participate in multiparty, topic-based conversations that persist over time."
 ---
 

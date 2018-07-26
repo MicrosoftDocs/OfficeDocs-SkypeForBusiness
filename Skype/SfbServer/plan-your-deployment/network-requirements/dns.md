@@ -1,9 +1,8 @@
 ---
-title: "DNS requirements for Skype for Business Server 2015"
+title: "DNS requirements for Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,43 +12,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
-description: "Summary: Review the DNS considerations in this topic before implementing Skype for Business Server 2015."
+description: "Summary: Review the DNS considerations in this topic before implementing Skype for Business Server."
 ---
 
-# DNS requirements for Skype for Business Server 2015
+# DNS requirements for Skype for Business Server
  
-**Summary:** Review the DNS considerations in this topic before implementing Skype for Business Server 2015.
+**Summary:** Review the DNS considerations in this topic before implementing Skype for Business Server.
   
-This article only addresses DNS planning for Skype for Business Server 2015 deployments on an organization's on-premise network. For Skype for Business Online refer to "Office 365 URLs and IP address ranges" at [http://aka.ms/o365ips](http://aka.ms/o365ips). 
+This article only addresses DNS planning for Skype for Business Server deployments on an organization's on-premise network. For Skype for Business Online refer to "Office 365 URLs and IP address ranges" at [http://aka.ms/o365ips](http://aka.ms/o365ips). 
   
 A Domain name service (DNS) server maps hostnames (like www.<span></span>contoso<span></span>.com, presumably a web server) to IP addresses (such as 10.10.10.10). It helps clients and interdependent servers communicate with each other on the network. When you set up an implementation of Skype for Business Server 2015 you'll need to make sure the mapping of new server names (usually reflecting the role they'll be taking on) matches the IP addresses they are assigned to.
   
-While this may seem a bit daunting at first, the heavy lifting for planning this can be done using the [Skype for Business Server 2015 Planning Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Once you've gone through the wizard's questions about what features you plan to use, for each site you define you can view the DNS Report within the Edge Admin Report, and use the information listed there to create your DNS records. You can also make adjustments to many of the names and IP addresses used, for details see [Review the DNS Report](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report). Keep in mind you can export the Edge Admin Report to an Excel spreadsheet, and the DNS Report will be one of the worksheets in the file. 
+While this may seem a bit daunting at first, the heavy lifting for planning this can be done using the [Skype for Business Server 2015 Planning Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Once you've gone through the wizard's questions about what features you plan to use, for each site you define you can view the DNS Report within the Edge Admin Report, and use the information listed there to create your DNS records. You can also make adjustments to many of the names and IP addresses used, for details see [Review the DNS Report](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report). Keep in mind you can export the Edge Admin Report to an Excel spreadsheet, and the DNS Report will be one of the worksheets in the file. While this tool includes features [deprecated from Skype for Business Server 2019](../../../SfBServer2019/deprecated.md), it can still be used to create an initial plan if those features are not selected
   
-When you are installing a new implementation as described in [Create DNS records for Skype for Business Server 2015](../../deploy/install/create-dns-records.md) and building your topology for Skype for Business Server 2015, we recognize that you can choose to use the DNS capabilities built in to Windows Server 2016 or a third-party DNS package, so we'll keep the discussions in this article general rather than specific. We're detailing what's needed, and how you meet that need is your decision to make.
+When you are installing a new implementation as described in [Create DNS records for Skype for Business Server](../../deploy/install/create-dns-records.md) and building your topology for Skype for Business Server, we recognize that you can choose to use the DNS capabilities built in to Windows Server 2016 or a third-party DNS package, so we'll keep the discussions in this article general rather than specific. We're detailing what's needed, and how you meet that need is your decision to make.
   
 Experienced Skype for Business, Lync, and Office Communications Suite administrators will probably find the following tables useful. If the table is confusing to you, the later sections or articles will shed some light on the following concepts: 
   
-- [Summary tables](dns.md#BK_Summary)
-    
-- [DNS basics](basics.md)
-    
-- [Hybrid considerations](dns.md#BK_Hybrid)
-    
-- [Split brain DNS](dns.md#BK_split)
-    
-- [Simple URLs ](dns.md#BK_Simple)
-    
-- [DNS by server role](dns.md#BK_Servers)
+
     
 ## Summary tables
 <a name="BK_Summary"> </a>
 
-The following tables show DNS records Skype for Business Server 2015 uses to provide services to users. Some are optional in that they are only needed to support certain features, and they can be skipped if those features are not desired. The DNS records needed for internal access only are in the first table, and a deployment allowing internal and external access will need records from both tables.
+The following tables show DNS records Skype for Business Server uses to provide services to users. Some are optional in that they are only needed to support certain features, and they can be skipped if those features are not desired. The DNS records needed for internal access only are in the first table, and a deployment allowing internal and external access will need records from both tables.
   
 **Internal DNS mappings**
 
-|**Record Type**|**Value**|**Resolves to**|**Purpose**|**Required**|
+|Record Type|Value|Resolves to|Purpose|Required|
 |:-----|:-----|:-----|:-----|:-----|
 |A/AAAA  <br/> |Front End pool FQDN  <br/>  *FE-pool.<span></span>contoso<span></span>.com*  <br/> |Front End pool server IP addresses  <br/>  DNS LB to *192.168.21.122 192.168.21.123 192.168.21.124*  <br/> |DNS Load Balancing of Front End Pools. Maps the Front End pool name to a set of IP addresses.  <br/> See [Deploying DNS Load Balancing on Front End Pools and Director Pools](load-balancing.md#BK_FE_Dir) <br/> |Y  <br/> |
 |A/AAAA  <br/> | FQDN of each Front End Server or Standard Edition server in a pool, or a standalone server <br/>  *FE01.<span></span>contoso.<span></span>com, FE02.<span></span>contoso<span></span>.com, FE03.<span></span>contoso<span></span>.com*  <br/> |Corresponding IP of each server  <br/>  *192.168.21.122 192.168.21.123 192.168.21.124*  <br/> |Maps the server name to its IP address.  <br/> |Y  <br/> |
@@ -131,7 +120,7 @@ Split brain DNS is a DNS configuration where you have two DNS zones with the sam
 ## Hybrid considerations
 <a name="BK_Hybrid"> </a>
 
-If you plan to have some users homed online and some homed on premises, refer to the hybrid [DNS settings](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#BKMK_DNS). You will need to configure DNS as normal for Skype for Business Server 2015 and also add additional DNS records. 
+If you plan to have some users homed online and some homed on premises, refer to the Hybrid connectivity planning articles for [Skype for Business Server 2015](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#BKMK_DNS) and [Skype for Business server 2019](../../../SfBServer2019/hybrid/hybrid-solutions.md). You will need to configure DNS as normal for Skype for Business Server 2015 and also add additional DNS records. 
   
 You should also refer to "Office 365 URLs and IP address ranges" at [http://aka.ms/o365ips](http://aka.ms/o365ips) to confirm that your users will have access to the online resources they will need.
   
@@ -150,7 +139,7 @@ Skype for Business Server supports using three "simple" URLs to access services:
     
 - **Admin** enables quick access to the Skype for Business Server Control Panel. From any computer within your organization's firewalls, an admin can open the Skype for Business Server Control Panel by typing the Admin simple URL into a browser. The Admin simple URL is internal to your organization. An example of the Admin simple URL is https://<span></span>admin.<span></span>contoso<span></span>.com.
     
-Simple URLs are discussed in more detail at [DNS requirements for simple URLs in Skype for Business Server 2015](simple-urls.md).
+Simple URLs are discussed in more detail at [DNS requirements for simple URLs in Skype for Business Server](simple-urls.md).
   
 ## DNS by server role
 <a name="BK_Servers"> </a>
@@ -163,7 +152,7 @@ These generic record requirements apply to any server role used by Skype for Bus
   
 **DNS record Requirements for Server/pool roles (presumes DNS load balancing)**
 
-|**Deployment scenario**|**DNS requirement**|
+|Deployment scenario|DNS requirement|
 |:-----|:-----|
 |One Server:  <br/> Persistent Chat, Director, Mediation Server, Front end server  <br/> |An internal A record that resolves the fully qualified domain name (FQDN) of the server to its IP address.  <br/> ServerRole.<span></span>contoso<span></span>.com 10.10.10.0  <br/> |
 |Pool:  <br/> Persistent Chat, Director, Edge Server, Mediation Server, Front end  <br/> |An internal A record that resolves the fully qualified domain name (FQDN) of each server node in the pool to its IP address.  <br/> **Example** <br/> ServerRole01.<span></span>contoso<span></span>.com 10.10.10.1  <br/> ServerRole02.<span></span>contoso<span></span>.com 10.10.10.2  <br/> Multiple internal A records that resolve the fully qualified domain name (FQDN) of the pool to the IP addresses of the server nodes in the pool.  <br/> **Example** <br/> ServerPool.<span></span>contoso<span></span>.com 10.10.10.1  <br/> ServerPool.<span></span>contoso<span></span>.com 10.10.10.2  <br/> |

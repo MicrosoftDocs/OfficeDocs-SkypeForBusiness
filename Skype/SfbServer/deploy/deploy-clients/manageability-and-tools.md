@@ -41,10 +41,8 @@ Skype Room System can be monitored through the System Center Operations Manager 
 
 - Run the following tools:
     
-  - Skype for Business Best Practices Analyzer 
-    
-  - Skype for Business Health Analysis Tool (Excel) 
-    
+  - Skype for Business Best Practices Analyzer     
+  - Skype for Business Health Analysis Tool (Excel)    
   - Skype for Business Connectivity Analyzer 32-Bit or 64-Bit
     
 - Review [Useful new troubleshooting and analysis tools for Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Confirm you have a Skype for Business pool and an Office Web Apps server and can share a PowerPoint deck using the Skype for Business client.
@@ -89,7 +87,7 @@ Skype Room System is an embedded system that can be fully integrated in a Window
     
   - Skype for Business uses end-to-end encryption and authorization for all modes of communication
     
-  - Skype Room System supports Skype for Business security and compliance standards. See Planning for security in Lync Server 2013 for more information.
+  - Skype Room System supports Skype for Business security and compliance standards. See [Plan for security in Skype For Business Server](../../plan-your-deployment/security/security.md) for more information.
     
 ## License
 
@@ -97,7 +95,7 @@ Verify that you use a KMS for activating software. If so, you might need to chec
   
 ## License keys
 
-Skype Room System runs the Skype for Business desktop client in the background. If Skype Room System is a domain member, it will discover your KMS. (and if it has the Volume Licensing KMS Lync Key it will activate automatically). Volume Licensing also provides a MAK, which you enter as it displays xxxxx-xxxxx-xxxxx-xxxxx. (You need Internet access to activate using MAK but not KMS). For more information, see Volume activation of Office 2013.
+Skype Room System runs the Skype for Business desktop client in the background. If Skype Room System is a domain member, it will discover your KMS. (and if it has the Volume Licensing KMS Key it will activate automatically). Volume Licensing also provides a MAK, which you enter as it displays xxxxx-xxxxx-xxxxx-xxxxx. (You need Internet access to activate using MAK but not KMS). For more information, see Volume activation of Office 2013.
   
 - To enter the MAK key, go to OEM Settings \> SRS Licensing Tool. Click Check Status. When the status says "product isn't activated," enter the key.
     
@@ -123,13 +121,13 @@ Verify your Certificate Authority has an http path for the Certificate Revocatio
   
 Install certificates in the admin setup of the Skype Room System under System Settings \> Certificate Manager. You need the Enterprise Root CA for your internal certificate.
   
-One way to obtain the certificates you need is to discover the CA that issued your certificates. For Skype for Business Server, on a PC in Skype for Business, click Settings \> Tools \> Dial-in Conference Settings. This opens a web page secured by the CA that issued the internal Lync certificates. Click the Lock icon on the browser address bar to display a security report. Click View Certificates and examine the CRL Distribution Point property. The second CN parameter should be the server name of the CA. Now open Windows Explorer for that address \\\< CA Server Name \>\CertEnroll. Copy the two .crl files and the .crt file to a flash drive and put it in the left hand side of the SMART board.
+One way to obtain the certificates you need is to discover the CA that issued your certificates. For Skype for Business Server, on a PC in Skype for Business, click Settings \> Tools \> Dial-in Conference Settings. This opens a web page secured by the CA that issued the internal certificates. Click the Lock icon on the browser address bar to display a security report. Click View Certificates and examine the CRL Distribution Point property. The second CN parameter should be the server name of the CA. Now open Windows Explorer for that address \\\< CA Server Name \>\CertEnroll. Copy the two .crl files and the .crt file to a flash drive and put it in the left hand side of the SMART board.
   
 Import the .crt file to the Skype Room System under Trusted Room Certification Authority folder.
   
 Import the .crl files on the Skype Room System under the Intermediate Certificate Authorities folder. (You need to change the file extension filter in Certificate Manager to .crl to see the files).
   
-Note: The Office Web Apps 2013 server may share the same CA as Lync. If it doesn't you won't be able to share PowerPoint in a meeting. Check with IT and obtain the CRT and CRL files off the CA network share CertEnroll as explained above. 
+Note: The Office Web Apps 2013 server may share the same CA as Skype for Business. If it doesn't you won't be able to share PowerPoint in a meeting. Check with IT and obtain the CRT and CRL files off the CA network share CertEnroll as explained above. 
   
 Domain membership can simplify some things because you can treat the Skype Room System as a Windows system and it can rely on Active Directory for some of the certificate aspects. However, it's best to manually manage this.
   

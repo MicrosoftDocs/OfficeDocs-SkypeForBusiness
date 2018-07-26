@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To edit the properties for an A/V Conferencing Server pool that you have already defined, do the following:"
 ---
 
@@ -28,7 +29,6 @@ To associate an A/V Conferencing Server pool, select the Front End pool or pools
 > [!NOTE]
 > If no Front End pools are displayed in the **Select the Front End pools to associate with this A/V Conferencing pool** pane, you have either collocated the A/V Conferencing Server with the Front End pool, or did not select to add Conferencing in the **Features and functionality** section of the Front End pool properties.
   
-## 
 
 When finished, click **OK** to complete the editing of the A/V Conferencing Server pool settings. Click **Cancel** to discard any changes.
   

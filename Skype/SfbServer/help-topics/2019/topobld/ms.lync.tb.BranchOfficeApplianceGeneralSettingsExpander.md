@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To edit the settings for an existing Survivable Branch Appliance or Survivable Branch Server, you are presented with the following sections:"
 ---
 
@@ -23,7 +24,6 @@ To edit the settings for an existing Survivable Branch Appliance or Survivable B
     
 - Mediation Server settings
     
-## 
 
 For a Survivable Branch Appliance or Survivable Branch Server, you are presented with the following:
   
@@ -65,7 +65,6 @@ You define PSTN gateways that are associated with the collocated Mediation Serve
   
 If you have more than one gateway associated with a Mediation Server, the first gateway associated will be the default gateway. If you must choose another gateway as the default gateway, select the gateway that you want to make the default, and click **Make Default**.
   
-### 
 
 For details about defining and configuring the settings for the Survivable Branch Appliance or Survivable Branch Server, see [Branch-Site Resiliency Solutions](http://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
   

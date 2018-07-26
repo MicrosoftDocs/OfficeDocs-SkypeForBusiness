@@ -31,15 +31,11 @@ AV techs can be used for the last task, but your organization's IT department wi
 
 While the ordered devices are being delivered to your organization, work with your networking and facilities and AV teams to make sure that deployment dependencies are met and each site and room is ready in terms of power, networking, and display. In addition, make sure the physical installation requirements are met. For physical installation considerations, please visit the vendor’s site and leverage the experience of your AV team when installing and mounting screens and running cabling.
 
-<!-- These are now links to nowhere; ask Lester and James about them.
-
 You can find out more about these dependencies in the planning guidance links below:
 
--   [Network](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#check-network-availability)
--   [Certificates](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#certificates)
--   [Proxy](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#proxy)
-
--->
+-   [Check network availability](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#check-network-availability) 
+-   [Certificates](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#certificates)
+-   [Proxy](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#proxy)
 
 **Pro Tip** - If you intend to use proxy servers to provide access to Skype for Business Online, first [review this article](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Note that when it comes to Skype for Business traffic over proxy servers, we recommend bypassing proxy servers altogether. Skype for Business traffic is already encrypted, so proxy servers don’t make it more secure. As part of your wider Skype for Business deployment, we recommend that you follow the guidance in [Evaluate my environment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) for bandwidth planning and assessing your network’s suitability for real-time traffic. For all bandwidth planning, use the [MyAdvisor Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (We recommend that you create a Skype Room Systems v2 persona to reflect the intended Skype Room Systems v2 usage [video, screen sharing, audio] and assign a number of users that matches the number of Skype Room Systems units to be deployed to each site.) 
 
@@ -70,8 +66,8 @@ To prepare for your Skype Room Systems deployment, do the following key, central
 
 Depending on the collaboration scenarios that you’ve decided to enable with your Skype Room Systems v2 deployment, you’ll need to determine the features and capabilities that you assign to each Skype Room Systems v2 service account that you enable.
 
-| **Scenario**                    | **Description**                                                                                              | **Skype Room Systems v2 service account feature**                          |
-|---------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| **Scenario** | **Description** | **Skype Room Systems v2 service account feature** |
+|---------- |------------- | --- |
 | Interactive meetings            | Using voice, video, and screen sharing; making the Skype Room Systems v2 a bookable resource                     | Enabled for Skype for Business, enabled for Exchange (Resource Mailbox) |
 | Dial-in conferencing            | Enable meetings started *directly* from the Skype Room Systems v2 console with dial-in conferencing coordinates | Enabled for Audio Conferencing                                          |
 | Outbound/inbound PSTN Calling | Enable the Skype Room Systems v2 console to make and receive PSTN calls                                         | Enabled for Phone System                                                |
@@ -106,8 +102,7 @@ Create a Group Policy object assigned to the organization unit that contains you
 
 -   [Set power and local account settings](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#configuring-group-policy-for-skype-room-systems-v2).
 -   Enable Windows Update.
--   Enable PowerShell remoting. You can configure a start-up script to run a
-    simple script: Enable-PSRemoting -Force
+-   Enable PowerShell remoting. You can configure a start-up script to run a  simple script: Enable-PSRemoting -Force
 
 You can use PowerShell to perform a number of remote management activities, including getting and setting configuration information. PowerShell remoting must be enabled *before* any PowerShell remote management can take place and should be considered as part of your deployment processes or configured via Group Policy. For more information about these capabilities and enabling them, see [Maintenance and operations](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#remote-management-using-powershell). 
 

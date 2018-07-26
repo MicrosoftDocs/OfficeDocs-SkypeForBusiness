@@ -1,9 +1,8 @@
 ---
-title: "Deploy Call Via Work in Skype for Business Server 2015"
+title: "Deploy Call Via Work in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,14 +11,14 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: "Summary: Learn how to deploy Call Via Work in Skype for Business Server 2015 for some or all of your users."
+description: "Summary: Learn how to deploy Call Via Work in Skype for Business Server for some or all of your users."
 ---
 
-# Deploy Call Via Work in Skype for Business Server 2015
+# Deploy Call Via Work in Skype for Business Server
  
-**Summary:** Learn how to deploy Call Via Work in Skype for Business Server 2015 for some or all of your users.
+**Summary:** Learn how to deploy Call Via Work in Skype for Business Server for some or all of your users.
   
-Use these steps to deploy Call Via Work for your users. Planning considerations are discussed in [Plan for Call Via Work in Skype for Business Server 2015](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). In previous versions of Lync Server remote call control was a feature which enabled users to control their PBX phones with Lync Server. In Skype for Business Server, this feature has been replaced with Call Via Work. 
+Use these steps to deploy Call Via Work for your users. Planning considerations are discussed in [Plan for Call Via Work in Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). In previous versions of Lync Server remote call control was a feature which enabled users to control their PBX phones with Lync Server. In Skype for Business Server, this feature has been replaced with Call Via Work. 
   
 ## Prerequisites for Call Via Work
 
@@ -93,5 +92,5 @@ After the prerequisites are in place, do the following:
 
 ## See also
 
-[Plan for Call Via Work in Skype for Business Server 2015](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[Plan for Call Via Work in Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

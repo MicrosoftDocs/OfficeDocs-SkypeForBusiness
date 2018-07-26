@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
+ROBOTS: NOINDEX, NOFOLLOW
 description: "This node shows the pool fully qualified domain name (FQDN) and associated Front End pools for this A/V Conferencing pool. You can perform the following actions:"
 ---
 

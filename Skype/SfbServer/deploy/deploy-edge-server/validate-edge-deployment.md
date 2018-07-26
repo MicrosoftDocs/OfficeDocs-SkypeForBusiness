@@ -1,8 +1,7 @@
 ---
-title: "Validate your Edge deployment in Skype for Business Server 2015"
+title: "Validate your Edge deployment in Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,18 +10,18 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: 
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: "Summary: Learn how to verify that your deployment of Edge Server or Edge Server pool is working in Skype for Business Server 2015."
+description: "Summary: Learn how to verify that your deployment of Edge Server or Edge Server pool is working in Skype for Business Server."
 ---
 
-# Validate your Edge deployment in Skype for Business Server 2015
+# Validate your Edge deployment in Skype for Business Server
  
-**Summary:** Learn how to verify that your deployment of Edge Server or Edge Server pool is working in Skype for Business Server 2015.
+**Summary:** Learn how to verify that your deployment of Edge Server or Edge Server pool is working in Skype for Business Server.
   
-Once you've deployed your Edge Server or Edge Server pool, you need to know if it's working properly. Here are a couple of things that can help with confirming your Edge environment is connected to your internal servers, and also that your external users can connect to your Skype for Business Server 2015 environment through your Edge.
+Once you've deployed your Edge Server or Edge Server pool, you need to know if it's working properly. Here are a couple of things that can help with confirming your Edge environment is connected to your internal servers, and also that your external users can connect to your Skype for Business Server environment through your Edge.
   
 ## Verify connectivity between your internal servers and your Edge servers
 
-While validation of connectivity is done automatically in Edge Server or Edge Server pool when the Edge Servers are installed, you can still confirm this for yourself with Windows PowerShell. Run the Get-CsManagementStoreReplicationStatus cmdlet on the internal server which has the Central Management store, or any domain joined computer on which Skype for Business Server 2015 Core Components (OcsCore.msi) are installed.
+While validation of connectivity is done automatically in Edge Server or Edge Server pool when the Edge Servers are installed, you can still confirm this for yourself with Windows PowerShell. Run the Get-CsManagementStoreReplicationStatus cmdlet on the internal server which has the Central Management store, or any domain joined computer on which Skype for Business Server Core Components (OcsCore.msi) are installed.
   
 The initial result of running this command may give a False status, rather than True, for replication. If that happens run the Invoke-CsManagementStoreReplication cmdlet. Give it some time to complete the replication, and then run the Get-CsManagementStoreReplicationStatus cmdlet again.
   

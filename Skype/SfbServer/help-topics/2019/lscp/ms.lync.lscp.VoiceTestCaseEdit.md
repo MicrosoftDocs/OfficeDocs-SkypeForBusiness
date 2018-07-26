@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
+ROBOTS: NOINDEX, NOFOLLOW
 description: "UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)"
 ---
 

@@ -34,7 +34,7 @@ Select **Enable replication of configuration data to this pool** if you need to 
 
 You can specify the trusted application server pool's next hop server by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list. A Director or Director pool is not a valid selection for a trusted application server next hop and will not appear in the list.
   
-## 
+
 
 Click **OK** to accept and save your changes. Click **Cancel** to discard your changes and exit the properties page.
   

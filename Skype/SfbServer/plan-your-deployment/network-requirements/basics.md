@@ -3,7 +3,6 @@ title: "DNS basics"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/20/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro

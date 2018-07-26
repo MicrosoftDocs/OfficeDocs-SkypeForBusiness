@@ -18,7 +18,7 @@ This topic guides you through the process of removing an individual Front End Se
   
 ### To remove a Front End Server from a pool
 
-1. Open the Skype for Business Server 2019 Front End Server, open Topology Builder.
+1. On the Skype for Business Server 2019 Front End Server, open Topology Builder.
     
 2. Navigate to the legacy install node.
     

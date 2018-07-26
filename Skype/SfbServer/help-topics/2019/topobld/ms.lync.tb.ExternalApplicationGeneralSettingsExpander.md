@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To edit the properties for a trusted application server that has already been defined, follow these instructions."
 ---
 
@@ -33,7 +34,6 @@ Select **Enable replication of configuration data to this pool** if you need to 
 
 You can specify the trusted application server pool's next hop server by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list. A Director or Director pool is not a valid selection for a trusted application server next hop and will not appear in the list.
   
-## 
 
 Click **OK** to accept and save your changes. Click **Cancel** to discard your changes and exit the properties page.
   

@@ -1,9 +1,8 @@
 ---
-title: "Add or remove a Front End Server in Skype for Business Server 2015"
+title: "Add or remove a Front End Server in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 7/12/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -12,7 +11,7 @@ ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: "Summary: Learn how to add or remove Front End Servers in Skype for Business Server."
 ---
 
-# Add or remove a Front End Server in Skype for Business Server 2015
+# Add or remove a Front End Server in Skype for Business Server
  
 **Summary:** Learn how to add or remove Front End Servers in Skype for Business Server.
   

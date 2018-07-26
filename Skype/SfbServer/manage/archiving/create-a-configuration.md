@@ -1,20 +1,19 @@
 ---
-title: "Create an archiving configuration in Skype for Business Server 2015"
+title: "Create an archiving configuration in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
-description: "Summary: Learn how to create an archiving configuration for Skype for Business Server 2015."
+description: "Summary: Learn how to create an archiving configuration for Skype for Business Server."
 ---
 
-# Create an archiving configuration in Skype for Business Server 2015
+# Create an archiving configuration in Skype for Business Server
 
-**Summary:** Learn how to create an archiving configuration for Skype for Business Server 2015.
+**Summary:** Learn how to create an archiving configuration for Skype for Business Server.
   
 ## Configure archiving options by using the Control Panel
 

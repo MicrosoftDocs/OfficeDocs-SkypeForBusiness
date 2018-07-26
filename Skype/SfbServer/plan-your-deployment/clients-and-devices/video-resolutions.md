@@ -12,12 +12,12 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom:
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
-description: "Summary: Review the client video requirements while planning for Skype for Business Server 2015."
+description: "Summary: Review the client video requirements while planning for Skype for Business Server."
 ---
 
 # Skype for Business client video resolutions
  
-**Summary:** Review the client video requirements while planning for Skype for Business Server 2015.
+**Summary:** Review the client video requirements while planning for Skype for Business Server.
   
 This article describes video hardware support for Skype for Business video calls and describes how to determine the expected video quality for various computer, tablet, and mobile device configurations. 
   

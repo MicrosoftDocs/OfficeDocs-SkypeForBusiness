@@ -1,5 +1,5 @@
 ---
-title: "Migrating Archiving and Monitoring servers"
+title: "Migrating Archiving and Monitoring Servers"
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,7 +10,7 @@ localization_priority: Normal
 description: "If you deployed Archiving Server and Monitoring Server in your legacy environment, you can deploy these servers in your Skype for Business Server 2019 environment after you migrate your Front End pools. If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your Skype for Business Server 2019 pilot pool before you migrate so that the functionality is available during the migration process."
 ---
 
-# Migrating Archiving and Monitoring servers
+# Migrating Archiving and Monitoring Servers
 
 If you deployed Archiving Server and Monitoring Server in your legacy environment, you can deploy these servers in your Skype for Business Server 2019 environment after you migrate your Front End pools. If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your Skype for Business Server 2019 pilot pool before you migrate so that the functionality is available during the migration process. 
   

@@ -43,7 +43,7 @@ When you run the **Move-CsRgsConfiguration** cmdlet, the agent groups, queues, w
   
 The following procedure for migrating Response Group configurations assumes that you have a one-to-one relationship between your legacy pools and the Skype for Business Server 2019 pools. If you plan to consolidate or split up pools during your migration and deployment, you need to plan which legacy pool maps to which Skype for Business Server 2019 pool.
   
-### To migrate Response Group configurations
+## To migrate Response Group configurations
 
 1. Log on to the computer with an account that is a member of the RTCUniversalServerAdmins group or has equivalent administrator rights and permissions.
     
@@ -63,7 +63,7 @@ The following procedure for migrating Response Group configurations assumes that
 
 4. After you migrate response groups and agents to the Skype for Business Server 2019 pool, the URL that agents use to sign in and sign out is a Skype for Business Server 2019 URL and is available from the **Tools** menu. Remind agents to update any references, such as bookmarks, to the new URL. 
     
-### To verify Response Group migration by using Skype for Business Server Control Panel
+## To verify Response Group migration by using Skype for Business Server Control Panel
 
 1. Log on to the computer with an account that is a member of RTCUniversalReadOnlyAdmins group or is minimally a member of the CsViewOnlyAdministrator role.
     
@@ -77,7 +77,7 @@ The following procedure for migrating Response Group configurations assumes that
     
 6. Click the **Group** tab, and verify that all the agent groups in your legacy environment are included in the list. 
     
-### To verify Response Group migration by using Skype for Business Server Management Shell
+## To verify Response Group migration by using Skype for Business Server Management Shell
 
 1. Log on to the computer with an account that is a member of RTCUniversalReadOnlyAdmins group or is minimally a member of the CsViewOnlyAdministrator role.
     

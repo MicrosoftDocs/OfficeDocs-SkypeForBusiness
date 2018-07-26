@@ -1,9 +1,8 @@
 ---
-title: "Configure federation with Skype for Business Online"
+title: "Configure Skype for Business hybrid"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 5/4/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,11 +12,13 @@ ms.custom:
 description: "Summary: Learn how to configure interoperability between your on-premises deployment and Skype for Business Online."
 ---
 
-# Configure federation with Skype for Business Online
- 
-**Summary:** Learn how to configure interoperability between your on-premises deployment and Skype for Business Online.
-  
-Follow the steps in this section to configure interoperability between your on-premises deployment and Skype for Business Online.
+# Configure Skype for Business hybrid
+
+To configure Skype for Business hybrid, you need to:
+
+- [Configure federation](#configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online)
+- [Configure a shared Session Initiation Protocol (SIP) address space](#configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space)
+- [Configure server-to-server authentication if required](#configure-server-to-server-authentication-if-required)
   
 ## Configure your on-premises Edge service for federation with Skype for Business Online
 
@@ -68,7 +69,11 @@ Import-PSSession $CSSession -AllowClobber
 
 For more information about how to establish a remote PowerShell session with Skype for Business Online, and how to use the Skype for Business Online Connector module, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
-  
+## Configure server-to-server authentication if required
+
+Depending on the type of hybrid environment you are configuring, you may need to configure server-to-server authentication.  For more information, see  [Manage server-to-server authentication in Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).
+
+
 ## See also
 
 [New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)

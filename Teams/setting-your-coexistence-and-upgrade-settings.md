@@ -22,6 +22,10 @@ When you are upgrading your Skype for Business users to use Teams, you have seve
 
 Settings assigned at a user level take precedence over settings applied at the org-wide level. You can get a better understanding of the types of modes that are available to you by reading [Understand coexistence and upgrade journey for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).  
 
+> [!IMPORTANT]
+> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+
+
 ## Setting upgrade options for all users in your organization
 
 ![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**

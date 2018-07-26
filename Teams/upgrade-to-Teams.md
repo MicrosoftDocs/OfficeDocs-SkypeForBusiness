@@ -34,3 +34,6 @@ Choose your upgrade journey based on your current deployment of Skype for Busine
 -   [Upgrade from Skype for Business Online to Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
 -   [Upgrade from Skype for Business hybrid to Teams](https://aka.ms/SkypeToTeams-UpgradeHybrid)
 -   [Upgrade from Skype for Business on-premises to Teams](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
+
+> [!IMPORTANT]
+> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

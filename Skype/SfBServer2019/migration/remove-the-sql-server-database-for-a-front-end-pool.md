@@ -14,7 +14,7 @@ description: "After you remove a Front End pool or reconfigure the pool to use a
 
 After you remove a Front End pool or reconfigure the pool to use a different database, you can remove the SQL Server databases that hosted the pool data. Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.
   
-### To remove the SQL Server database using Topology Builder
+## To remove the SQL Server database using Topology Builder
 
 1. From the Skype for Business Server 2019 Front End Server, open Topology Builder and download the existing topology. 
     
@@ -22,11 +22,11 @@ After you remove a Front End pool or reconfigure the pool to use a different dat
     
 3. Publish the topology, and then check the replication status. 
     
-### To remove user and application databases from the SQL Server
+## To remove user and application databases from the SQL server
 
-1. To remove the databases on the SQL Server, you must be a member of the SQL Server sysadmins group for the SQL Server where you are removing the database files. 
+1. To remove the databases on the SQL server, you must be a member of the SQL Server sysadmins group for the SQL server where you are removing the database files. 
     
-2. Open Skype for Business Server Management Shell
+2. Open Skype for Business Server Management Shell.
     
 3. To remove the database for the pool user store, type:
     
@@ -44,6 +44,6 @@ After you remove a Front End pool or reconfigure the pool to use a different dat
 
     Where  _\<FQDN\>_ is the FQDN of the database server, and  _\<instance\>_ is the named database instance (that is, if one was defined). 
     
-5. When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press Y (or press Enter) to proceed, or press N and then Enter if you want to stop the cmdlet (that is, in case there errors). 
+5. When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press Y (or Enter) to proceed, or press N and then Enter if you want to stop the cmdlet (if there are errors). 
     
 

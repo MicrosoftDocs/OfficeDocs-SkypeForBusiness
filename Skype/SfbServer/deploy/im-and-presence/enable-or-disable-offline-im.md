@@ -1,29 +1,28 @@
 ---
-title: "Enable or Disable Offline Instant Messaging (IM) in Skype for Business Server 2015"
+title: "Enable or Disable Offline Instant Messaging (IM) in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 6/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
-description: "Learn to enable or disable Offline Instant Messaging (IM) in Skype for Business Server 2015."
+description: "Learn to enable or disable Offline Instant Messaging (IM) in Skype for Business Server."
 ---
 
-# Enable or Disable Offline Instant Messaging (IM) in Skype for Business Server 2015
+# Enable or Disable Offline Instant Messaging (IM) in Skype for Business Server
  
-Learn to enable or disable Offline Instant Messaging (IM) in Skype for Business Server 2015.
+Learn to enable or disable Offline Instant Messaging (IM) in Skype for Business Server.
   
-## Enable Offline Instant Messaging (IM) in Skype for Business Server 2015
+## Enable Offline Instant Messaging (IM) in Skype for Business Server
 
-Offline IM is a client side feature built into Skype for Business client (2016 C2R build 16.0.6701.1000 or higher) that leverages Exchange Web Services (EWS) to send messages from the Skype for Business client to a user's Exchange mailbox. Offline IM uses Exchange Web Services (EWS) to send Offline messages from the Skype for Business client to the mailbox of recipient. EWS must be available to the Skype for Business client for Offline messages to be sent. To learn more about planning for instant messaging and presence, see [Plan for instant messaging and presence in Skype for Business Server 2015](../../plan-your-deployment/instant-messaging-and-presence.md).
+Offline IM is a client side feature built into Skype for Business client (2016 C2R build 16.0.6701.1000 or higher) that leverages Exchange Web Services (EWS) to send messages from the Skype for Business client to a user's Exchange mailbox. Offline IM uses Exchange Web Services (EWS) to send Offline messages from the Skype for Business client to the mailbox of recipient. EWS must be available to the Skype for Business client for Offline messages to be sent. To learn more about planning for instant messaging and presence, see [Plan for instant messaging and presence in Skype for Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
   
 > [!NOTE]
 > If the user's mailbox is hosted in Exchange On-Premises, the Skype for Business client (2016 C2R build 16.0.6920.1000) is required 
   
-### To enable or disable Offline IM in Skype for Business Server 2015 with CU3
+### To enable or disable Offline IM in Skype for Business Server
 
 1. Open the Skype for Business Server Management Shell.
     
@@ -59,4 +58,4 @@ There is a two minute timer from when an offline message is sent to when it's pi
 The primary Skype for Business ETL log will contain information about Offline message processing and is your best source for investigation/troubleshooting. 
   
 > [!NOTE]
-> An issue has been reported where Offline messages failed to send and the 'Drafts' folder was getting filled with messages. This occurred with Exchange On-Premises mailboxes. The issue has been fixed in all C2R channels as of 6/14/2016. 
+> An issue has been reported where Offline messages failed to send and the 'Drafts' folder was getting filled with messages. This occurred with Exchange On-Premises mailboxes. The issue has been fixed in all C2R channels as of 6/14/2016.  

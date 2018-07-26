@@ -1,5 +1,5 @@
 ---
-title: "Video based Screen Sharing for Skype for Business Server 2015"
+title: "Video based Screen Sharing for Skype for Business Server"
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/20/2018
@@ -8,12 +8,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
-description: "Skype for Business Server 2015 planning and configuration information for Video-based Screen Sharing (VbSS), which is now available for download: Skype for Business Server 2015 Cumulative Update KB3061064."
+description: "Skype for Business Server planning and configuration information for Video-based Screen Sharing (VbSS)"
 ---
 
-# Video based Screen Sharing for Skype for Business Server 2015
+# Video based Screen Sharing for Skype for Business Server 
  
-Skype for Business Server 2015 planning and configuration information for Video-based Screen Sharing (VbSS), which is now available for download: [Skype for Business Server 2015 Cumulative Update KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690).
+Video-based Screen Sharing (VbSS) in Skype For Business Server 2015 is now available for download: [Skype for Business Server 2015 Cumulative Update KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690). VbSS is included with Skype for Business Server 2019.
   
 Video-based Screen Sharing, or VbSS, grew out of Lync screen-sharing. The difference between VbSS and traditional screen-sharing has to do with the underlying protocols used, and what they excel at. Screen-sharing uses the remote desktop protocol (RDP), which is great at creating thousands of 1-to-1 sessions between people's computers. Newer technology, VbSS, will make use of User Datagram Protocol (UDP).
   
@@ -70,13 +70,13 @@ If QoS is enabled for the following media ports and VbSS is also enabled, during
    
 ### Capacity planning
 
-Each Front End Server running Skype for Business Server 2015 Cumulative Update 2 (CU2) supports up to 375 participants for screen sharing using RDP (though only 250 per meeting). This capacity doesn't change post-CU3, when VbSS is introduced and used.
+Each Front End Server running Skype for Business Server 2015 Cumulative Update 2 (CU2) or later supports up to 375 participants for screen sharing using RDP (though only 250 per meeting). This capacity doesn't change post-CU3, when VbSS is introduced and used.
   
 That being said, we've done performance and stress testing in our lab, and the following measurements should also be considered with regard to your own deployment (depending on usage, of course).
   
 Assuming:
   
-- You're using Skype for Business Server 2015 CU2 in your deployment.
+- You're using Skype for Business Server 2015 CU2 or later in your deployment.
     
 - All the users in your Skype for Business Server environment have screen resolutions higher than 1920x1080.
     
@@ -129,7 +129,7 @@ There are situations where screen-sharing will transition to RDP, like these:
   
 ## Enabling, disabling, and configuring VbSS
 
-The great thing is, once you've installed the Skype for Business Server 2015 Cumulative Update 3 (CU3), all your users will be enabled for 1-to-1 and multi-party VbSS by default. This may be problematic for you if you have a reason to not have this functionality enabled for all your users. In that case, you're able to use these steps to disable users (the enable users steps will follow):
+The great thing is, once you've installed the Skype for Business Server 2015 Cumulative Update 3 (CU3) or later, all your users will be enabled for 1-to-1 and multi-party VbSS by default. This may be problematic for you if you have a reason to not have this functionality enabled for all your users. In that case, you're able to use these steps to disable users (the enable users steps will follow):
   
 ### How to disable users from using VbSS
 

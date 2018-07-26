@@ -10,6 +10,7 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
+ROBOTS: NOINDEX, NOFOLLOW
 description: "To edit the settings for an existing Director, you are presented with the following sections:"
 ---
 
@@ -21,9 +22,8 @@ To edit the settings for an existing Director, you are presented with the follow
     
 - Web services
     
-## 
 
-### General settings
+## General settings
 
 Fully qualified domain name (FQDN) of the Director pool. Edit the FQDN of the server to change the value. You must have a Domain Name System (DNS) host (A) record that coincides with the new value.
   
@@ -36,7 +36,7 @@ Monitoring SQL Server store.
 > [!IMPORTANT]
 > Before publishing the newly defined topology, the server that you specify must exist and be joined to the domain. If you created a new file share, the file share must be created on the server that you designate. 
   
-### Web services
+## Web services
 
 To edit or specify additional settings for the Web services on the Director pool, you modify or specify settings in the Internal Web services and External Web services.
   
