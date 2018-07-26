@@ -19,7 +19,7 @@ description: "Summary: Learn how to monitor for server memory capacity limits in
 > The information in this topic that refers to Capacity Planning pertains only to Lync 2010 Mobile clients and the Mobility Service (Mcx). Capacity Planning for the Unified Communications Web API (UCWA), used by the Lync 2013 Mobile clients, is provided by the Lync Server 2013, Planning Tool. 
 
 > [!NOTE]
-> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
+> MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019. All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts. Users with legacy clients using MCX will need to upgrade to a current client.
   
 Two mobility performance counters can help you to determine your current usage and help you plan capacity for the Skype for Business Server Mobility Service (Mcx), as well as to monitor memory usage for UCWA. For UCWA, the counter category is **LS:WEB - UCWA**. For the Mobility Service (Mcx), the counters are under the category **LS:WEB - Mobile Communication Service**. The counters to monitor are:
   
