@@ -138,10 +138,13 @@ Front End Pools are also the primary store for user and conference data. Informa
   
 Additionally, one Front End Server in the deployment also runs the Central Management Server, which manages and deploys basic configuration data to all servers running Skype for Business Server. The Central Management Server also provides Lync Server Management Shell and file transfer capabilities.
   
-The Back End Servers are database servers running Microsoft SQL Server that provide the database services for the Front End pool. The Back End Servers serve as backup stores for the pool's user and conference data, and are the primary stores for other databases such as the Response Group database. You can have a single Back End Server, but a solution that uses SQL Server mirroring is recommended for failover. Back End Servers do not run any Skype for Business Server software.
+The Back End Servers are database servers running Microsoft SQL Server that provide the database services for the Front End pool. The Back End Servers serve as backup stores for the pool's user and conference data, and are the primary stores for other databases such as the Response Group database. You can have a single Back End Server, but [Back End Server high availability in Skype for Business Server](../high-availability-and-disaster-recovery/back-end-server.md) is recommended for failover. Back End Servers do not run any Skype for Business Server software.
   
 > [!IMPORTANT]
 > We do not recommend collocating Skype for Business Server databases with other databases. If you do so, availability and performance may be affected. 
+
+> [!NOTE]
+> SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.
   
 Information stored in the Back End Server databases includes presence information, users' Contacts lists, conferencing data, including persistent data about the state of all current conferences, and conference scheduling data.
   
