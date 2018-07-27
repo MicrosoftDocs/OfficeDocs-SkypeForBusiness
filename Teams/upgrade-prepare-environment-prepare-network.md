@@ -46,7 +46,7 @@ The steps described below will help you determine whether your deployment might 
 
 ## Bandwidth planning
 
-The first step toward network readiness is ensuring your network has enough bandwidth available for the modalities Teams will provide to users. Planning for sufficient bandwidth is a fairly straightforward task and a very low-barrier start to ensure your users will have a high-quality Teams experience.
+The first step toward network readiness is ensuring your network has enough bandwidth available for the modalities Teams will provide to users. Planning for sufficient bandwidth is a fairly straightforward task and a very low-barrier start to help ensure your users will have a high-quality Teams experience.
 
 You start your bandwidth planning journey for Teams on the [My Advisor website](https://myadvisor.fasttrack.microsoft.com/) by using the Network Planner. The Network Planner provides per-site bandwidth planning for Teams and offers recommendations for optimizing network performance.
 

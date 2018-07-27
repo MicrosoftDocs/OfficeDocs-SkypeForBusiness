@@ -101,7 +101,7 @@ description: "The relevant planning considerations for deploying Skype Room Syst
 </ul>
 
 > [!NOTE]
-> Skype Room Systems v2 is intended for use with Skype for Business Server 2015 or Skype for Business Online. Microsoft Teams support is coming very soon. <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Skype Room Systems v2. 
+> Skype Room Systems v2 is intended for use with Skype for Business Server 2019, Skype for Business Server 2015, Microsoft Teams, or Skype for Business Online.  <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Skype Room Systems v2. 
 
 These articles are intended for people tasked with planning, deploying, and managing these devices, and not for the users of the system. Users will be more interested in the Skype Room Systems v2 [online help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
 

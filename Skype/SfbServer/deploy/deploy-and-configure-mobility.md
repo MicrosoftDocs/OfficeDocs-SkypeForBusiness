@@ -29,7 +29,7 @@ Having reviewed the [Plan for Mobility for Skype for Business Server](../plan-yo
 All the following sections contain steps that assume you've read the Planning topic. If anything's confusing you, feel free to check out the information there.
 
 > [!NOTE]
-> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
+> MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019. All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts. Users with legacy clients using MCX will need to upgrade to a current client.
   
 ## Create DNS records
 <a name="CreateDNSRec"> </a>
@@ -405,7 +405,7 @@ Once you've deployed Skype for Business Server Mobility Service and Skype for Bu
 For Lync Server 2010 clients on Skype for Business Server 2015, you'll need to run **Test-CsMcxP2PIM** to test. Your Lync Server 2010 users will still have to be actual users, or predefined test users, and you'll need their password credentials.
 
 > [!NOTE]
-> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
+> MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019. All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts. Users with legacy clients using MCX will need to upgrade to a current client.
   
 ### Test conferencing for Skype for Business and Lync 2013 mobile clients
 
@@ -432,7 +432,7 @@ For Lync Server 2010 clients on Skype for Business Server 2015, you'll need to r
 ### Test conferencing for Lync 2010 mobile clients
 
 > [!NOTE]
-> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
+> MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019. All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts. Users with legacy clients using MCX will need to upgrade to a current client.
 
 1. Log on as a member of the **CsAdministrator** role on any computer where **Skype for Business Server Management Shell** and **Ocscore** are installed.
     
