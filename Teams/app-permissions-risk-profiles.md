@@ -1,13 +1,14 @@
 ---
-title: Microsoft Teams Apps: Permissions and Risk Profiles
-author: 
-ms.author: 
-manager: 
+title: Microsoft Teams apps permissions and risk profiles
+author: ninadara
+ms.author: ninadara
+manager: serdars
 ms.date: 07/27/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: lehewe
 description: Learn what data and permissions apps are requesting from your company. 
+localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 appliesto: 
@@ -15,7 +16,7 @@ appliesto:
 ---
 
 
-# Microsoft Teams Apps: Permissions and Risk Profiles
+# Microsoft Teams apps permissions and risk profiles
 
 Microsoft Teams Apps are a way to aggregate one or more capabilities into an "app package" that can be installed, upgraded, and uninstalled. Here are the possible capabilities:
 
