@@ -145,7 +145,7 @@ Office 365:
 
 -   Microsoft Teams
 
--   Audio Conferencing (optional)
+-   Audio Conferencing
 
 Audio Conferencing license is required for adding external participants to
 scheduled meetings, either by dialing out to them or by providing the dial-in
