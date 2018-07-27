@@ -18,11 +18,11 @@ appliesto:
 
 # Microsoft Teams apps permissions and risk profiles
 
-Microsoft Teams Apps are a way to aggregate one or more capabilities into an "app package" that can be installed, upgraded, and uninstalled. Here are the possible capabilities:
+Microsoft Teams apps are a way to aggregate one or more capabilities into an _app package_ that can be installed, upgraded, and uninstalled. Here are the possible capabilities:
 
 - Bots
+- Messaging extensions
 - Tabs
-- Messaging Extensions
 - Connectors
 
 
@@ -49,7 +49,7 @@ The permissions listed below in capital letters, for example RECEIVE_MESSAGE and
   </tr>
 </table>
 
-## Bots and Message Extension
+## Bots and messaging extensions
 
 <table>
   <tr>
@@ -81,8 +81,18 @@ The permissions listed below in capital letters, for example RECEIVE_MESSAGE and
     <td valign="top"><ul><li>The risk profile for a tab is almost identical to that same website running in a browser tab. </li><li>A tab also gets the context in which it's running, including the login name and User Principal Name (UPN) of the current user, the Azure AD Object ID for the current user, the ID of the Office 365 Group (team) in which it resides, the tenant ID, and the current locale of the user. In order to map these ID to user/customer information however, the tab would have to make the user login to Azure AD.</li></ul></td>
     <td valign="top"></td>
   </tr>
+  </table>
+
+## Connectors
+
+  <table>
   <tr>
-    <td valign="top"><ul><li>Connectors</li></ul></td>
+    <td>Required Permissions</td>
+    <td>Optional Permissions</td>
+    <td>Risk Profile</td>
+    <td>Notes</td>
+  </tr>
+  <tr>
     <td valign="top"><ul><li>POST_MESSAGE_CHANNEL. A connector posts messages to a channel when events in an external system occur.</li></ul></td>
     <td valign="top"><ul><li>REPLYTO_CONNECTOR_MESSAGE. Certain connectors support "Actionable Messages" which allow users to post targeted replies to the connector message, e.g. by adding a response to a GitHub issue or adding a date to a Trello card.</li></ul></td>
     <td valign="top"><ul><li>The system posting connector messages does not know who it's posting to or who receives it: no information about the recipient is disclosed. (Microsoft is the actual recipient, not the tenant; Microsoft does the actual post to the channel.)</li><li>No data leaves the corporate network when connector messages are posted to a channel.</li><li>Connectors which support "actionable messages" / REPLYTO_CONNECTOR_MESSAGE also do not see IP address and referrer information; this information is sent to Microsoft and then routed to HTTP endpoints previously with registered with Microsoft in the Connectors portal.</li><li>Each time a connector is configured for a channel, a unique URL is created, and if that "connector instance" is deleted, the URL can no longer be used.</li><li>Connector messages cannot contain file attachments.</li><li>The "connector instance" URL should be treated as secret/confidential: anyone who has that URL can post to it, like an email address. As such, there is some risk of spam or links to phishing/malware sites. If that were to happen, team owners can delete the connector instance.</li><li>If the service sending connector messages was to become compromised and start sending spam/phishing/malware links, a tenant administrator can prevent new connector instances from being created and Microsoft can block them centrally.</li></ul></td>
