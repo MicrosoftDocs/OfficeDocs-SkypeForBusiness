@@ -35,9 +35,9 @@ The permissions listed below in capital letters, for example RECEIVE_MESSAGE and
 
 <table>
   <tr>
-    <th>Required permissions</th>
-    <th>Optional permissions</th>
-    <th>Risk profile</th>
+    <th width="25%">Required permissions</th>
+    <th width="25%">Optional permissions</th>
+    <th width="50%">Risk profile</th>
   </tr>
   <tr>
     <td valign="top">None</td>
@@ -50,9 +50,9 @@ The permissions listed below in capital letters, for example RECEIVE_MESSAGE and
 
 <table>
   <tr>
-    <th>Required permissions</th>
-    <th>Optional permissions</th>
-    <th>Risk profile</th>
+    <th width="25%">Required permissions</th>
+    <th width="25%">Optional permissions</th>
+    <th width="50%">Risk profile</th>
   </tr>
    <tr>
     <td valign="top"><ul><li>	RECEIVE_MESSAGE, REPLYTO_MESSAGE. The bot can receive messages from users and reply to them.</li><li>POST_MESSAGE_USER. After a user has sent a message to a bot, the bot can send the user direct messages (also called _proactive messages_) at any time.</li><li>GET_CHANNEL_LIST. Bots added to teams can get a list of names and IDs of the channels in a team.</li></ul></td>
@@ -71,9 +71,9 @@ A tab is a website running inside Teams.
 
 <table>
   <tr>
-    <th>Required permissions</th>
-    <th>Optional permissions</th>
-    <th>Risk profile</th>
+    <th width="25%">Required permissions</th>
+    <th width="25%">Optional permissions</th>
+    <th width="50%">Risk profile</th>
   </tr>
   <tr>
     <td valign="top">SEND_AND_RECEIVE_WEB_DATA</td>
@@ -88,9 +88,9 @@ A connector posts messages to a channel when events in an external system occur.
 
   <table>
   <tr>
-    <th>Required permissions</th>
-    <th>Optional permissions</th>
-    <th>Risk profile</th>
+    <th width="25%">Required permissions</th>
+    <th width="25%">Optional permissions</th>
+    <th width="50%">Risk profile</th>
   </tr>
   <tr>
     <td valign="top">POST_MESSAGE_CHANNEL</td>
@@ -109,9 +109,9 @@ _Outgoing webhooks_ are created on the fly by team owners or team members if sid
 
 <table>
   <tr>
-    <th>Required permissions</th>
-    <th>Optional permissions</th>
-    <th>Risk profile</th>
+    <th width="25%">Required permissions</th>
+    <th width="25%">Optional permissions</th>
+    <th width="50%">Risk profile</th>
   </tr>
     <tr>
     <td valign="top">RECEIVE_MESSAGE, REPLYTO_MESSAGE. Can receive messages from users and reply to them.</td>
