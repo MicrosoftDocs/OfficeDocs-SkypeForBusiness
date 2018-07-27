@@ -42,7 +42,7 @@ The permissions listed below in capital letters, for example RECEIVE_MESSAGE and
   <tr>
     <td valign="top">None</td>
     <td valign="top">None</td>
-    <td valign="top">Terms of use and privacy statement: An app must disclose what data it uses and what the data is used for in its terms of use and privacy policy links.</td>
+    <td valign="top">An app must disclose what data it uses and what the data is used for in its terms of use and privacy policy links.</td>
   </tr>
 </table>
 
