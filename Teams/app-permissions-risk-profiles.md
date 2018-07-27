@@ -25,7 +25,7 @@ Microsoft Teams apps are a way to aggregate one or more capabilities into an _ap
 -   Tabs
 -   Connectors
 
-Apps are consented to by users and managed by IT from a policy perspective. However, for the most part, the capabilities of an app define its permissions and risk profile: an app's permissions and its risk profile is the union of its capabilities' permissions and risk profile. Therefore, this article focuses on the permissions and risk profiles at the capability level.
+Apps are consented to by users and managed by IT from a policy perspective. However, for the most part, an app's permissions and risk profile are defined by the permissions and risk profiles of the capabilities it contains. Therefore, this article focuses on permissions and risk profiles at the capability level.
 
 Use the tables below as a guide to understand which permissions the apps you're investigating are requesting. You'll still need to do research on the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise line-of-business bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that risk profile, at a minimum. 
 
