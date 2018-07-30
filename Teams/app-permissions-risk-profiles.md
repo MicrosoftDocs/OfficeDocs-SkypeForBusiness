@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams apps permissions and risk profiles
-author: lehewe
+author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
 ms.date: 07/27/2018
