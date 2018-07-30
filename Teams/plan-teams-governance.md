@@ -1,3 +1,19 @@
+---
+title: Plan for governance in Teams - Microsoft Teams
+author: rmw2890
+ms.author: MyAdvisor
+manager: serdars
+ms.date: 07/30/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Learn about how to plan for implementing governance and lifecycle management capabilities in Teams.
+localization_priority: Priority
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+
 # Plan for governance in Teams
 
 Teams provides a rich set of tools to implement governance and lifecycle management capabilities should your organization require it. This article guides IT Pros to ask the right questions to determine their requirements for governance and lifeceyle management, and how to meet them. 
