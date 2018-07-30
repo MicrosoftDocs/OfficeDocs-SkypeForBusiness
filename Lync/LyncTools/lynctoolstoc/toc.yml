@@ -1,0 +1,33 @@
+- name: Lync Server 2013 Tools
+  href: lync-server-2013-tools.md
+  items:
+  - name: Lync Server 2013 Stress and Performance Tool
+    href: lync-server-2013-stress-and-performance-tool.md
+    items:
+    - name: Introduction
+      href: introduction.md
+    - name: Prerequisites
+      href: prerequisites.md
+    - name: Setup
+      href: setup.md
+    - name: Configure Lync Server 2013 Scenarios
+      href: configure-lync-server-2013-scenarios.md
+      items:
+      - name: Provisioning the Topology to Run Load
+        href: provisioning-the-topology-to-run-load.md
+      - name: Configuring the Various Policies
+        href: configuring-the-various-policies.md
+    - name: Create Users and Contacts
+      href: create-users-and-contacts.md
+    - name: Configure User Profile
+      href: configure-user-profile.md
+    - name: Run LyncPerfTool
+      href: run-lyncperftool.md
+    - name: Interpreting the Results
+      href: interpreting-the-results.md
+    - name: Lync Server 2013 Stress and Performance Tool FAQ
+      href: lync-server-2013-stress-and-performance-tool-faq.md
+  - name: Lync Server 2013 Resource Kit Tools Documentation
+    href: lync-server-2013-resource-kit-tools-documentation.md
+  - name: Lync Server 2013 Persistent Chat Resource Kit Tools
+    href: lync-server-2013-persistent-chat-resource-kit-tools.md
