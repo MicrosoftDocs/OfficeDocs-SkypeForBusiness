@@ -1,8 +1,37 @@
-# Plan for governance in Teams
+---
+title: Microsoft Education governance FAQ for IT pros - Microsoft Teams
+author: rmw2890
+ms.author: MyAdvisor
+manager: serdars
+ms.date: 07/30/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Answers to frequently asked questions from administrators of Microsoft Education teams who use Teams.
+localization_priority: Priority
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
 
-Teams provides a rich set of tools to implement governance and lifecycle management capabilities should your organization require it. This article guides IT Pros to ask the right questions to determine their requirements for governance and lifeceyle management, and how to meet them. 
+# Microsoft Education governance FAQ for IT pros
 
-## Group creation, naming, classification and guest access
+## How do I control team creation?  I'm worried students are going to create inappropriate Teams.
+
+To avoid inappropriate or misleading names, or just to provide more structure for how teams are named, you can use the Office 365 Groups naming policy (currently in preview):
+
+-   **Prefix-Suffix naming policy** You can use prefixes or suffixes to define the naming convention of teams (for example, GRP_US_My Group_Engineering). The prefixes and suffixes can be fixed strings or user attributes (such as [Department]) that are added to the name based on the user who’s creating the team.
+-   **Custom Blocked Words** You can upload a set of words that users in a specific organization are blocked from using in names of teams they create. (For example, you can block the terms **CEO**, **Payroll**, and **HR** from being used in team names for groups they don’t apply to.)
+
+For detailed instructions, see [Office group naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+
+> [!Note]
+> If teams are created automatically by using the input from another system (for example,  School Data Sync), verify that the input data complies with the naming policy you’ve configured; if it doesn’t, team creation will fail.
+
+
+
+
+
 For some organizations, it may be a requirement to implement strict controls on who can create teams, how those teams are named, applying a classification and whether or not guests can be added as a team member. Microsoft provides capabilities to control each of these configuration areas via Azure Active Directory (AAD). 
 
 <br>
