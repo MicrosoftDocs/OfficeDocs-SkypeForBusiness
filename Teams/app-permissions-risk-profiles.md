@@ -48,8 +48,8 @@ The permissions listed below in capital letters, for example RECEIVE_MESSAGE and
 
 <table cols="4">
 <colgroup>
-<col width="2%">
-<col width="23%">
+<col width="0.5%">
+<col width="24.5%">
 <col width="25%">
 <col width="50%">
 </colgroup>
