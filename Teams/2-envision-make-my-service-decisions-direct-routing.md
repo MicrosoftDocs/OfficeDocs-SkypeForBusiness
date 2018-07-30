@@ -139,13 +139,13 @@ If your organization intends to use Direct Routing, you need to obtain required
 licenses. Users of Direct Routing must have the following licenses assigned in
 Office 365:
 
--   Skype for Business Online (Plan 2)
+
 
 -   Microsoft Phone System
 
 -   Microsoft Teams
 
--   Audio Conferencing (optional)
+-   Audio Conferencing
 
 Audio Conferencing license is required for adding external participants to
 scheduled meetings, either by dialing out to them or by providing the dial-in
