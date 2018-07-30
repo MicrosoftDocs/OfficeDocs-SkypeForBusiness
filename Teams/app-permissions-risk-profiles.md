@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams apps permissions and risk profiles
-author: ninadara
-ms.author: ninadara
+author: lehewe
+ms.author: lehewe
 manager: serdars
 ms.date: 07/27/2018
 ms.topic: article
@@ -9,8 +9,6 @@ ms.service: msteams
 ms.reviewer: lehewe
 description: Learn what data and permissions apps are requesting from your organization. 
 localization_priority: Priority
-ms.custom:
-- NewAdminCenter_Update
 appliesto: 
 - Microsoft Teams
 ---
