@@ -46,7 +46,7 @@ The permissions listed below in capital letters, for example RECEIVE_MESSAGE and
 
 ## Bots and messaging extensions
 
-<table cols="4">
+<table>
 <colgroup>
 <col width="0.5%">
 <col width="24.5%">
@@ -61,7 +61,7 @@ The permissions listed below in capital letters, for example RECEIVE_MESSAGE and
   </tr>
 </thead>
 <tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3">There are "notification-only" bots which only send messages (POST_MESSAGE_USER), but that's not about what a bot is allowed or not allowed to do, it means the bot doesn't want to expose a conversational experience. Teams uses it to disable functionality in the UI that would ordinarily be enabled; the bot isn't restricted in what it's allowed to do compared to bots that do expose a conversational experience.</td></tr>
+<tr><td colspan="1" align="right"><sup>1</sup></td><td colspan="3">There are "notification-only" bots which only send messages (POST_MESSAGE_USER), but that's not about what a bot is allowed or not allowed to do, it means the bot doesn't want to expose a conversational experience. Teams uses it to disable functionality in the UI that would ordinarily be enabled; the bot isn't restricted in what it's allowed to do compared to bots that do expose a conversational experience.</td></tr>
 <tr><td align="right"><sup>2</sup></td><td colspan="3">Currently in Developer Preview.</td></tr>
 <tr><td align="right"><sup>3</sup></td><td colspan="3">Currently in Developer Preview. Governed by the supportsFiles boolean property on the bot object in the app's manifest.json.</td>
 </tr>
