@@ -16,87 +16,94 @@ appliesto:
 
 # Microsoft Education governance FAQ for IT pros
 
+## Can I control who can create teams?
+
+In general, we recommend against preventing anyone from creating teams. If everyone can create teams, Teams is more likely to be widely adopted. Faculty, teachers, or students can  use Teams to create study groups or special interest groups. This will help Teams be accepted inside and outside of the classroom.
+
+In our experience, user education helps ensure responsible Teams usage. As soon as users understand that creating teams isn’t anonymous, they understand the implications of carelessly creating them and tend to shy away from misusing the tool.
+
+If you’re sure you want to control who can create teams, see [Manage who can create Office 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+
 ## How do I control team creation?  I'm worried students are going to create inappropriate Teams.
 
 To avoid inappropriate or misleading names, or just to provide more structure for how teams are named, you can use the Office 365 Groups naming policy (currently in preview):
 
--   **Prefix-Suffix naming policy** You can use prefixes or suffixes to define the naming convention of teams (for example, GRP_US_My Group_Engineering). The prefixes and suffixes can be fixed strings or user attributes (such as [Department]) that are added to the name based on the user who’s creating the team.
--   **Custom Blocked Words** You can upload a set of words that users in a specific organization are blocked from using in names of teams they create. (For example, you can block the terms **CEO**, **Payroll**, and **HR** from being used in team names for groups they don’t apply to.)
+-   **Prefix-Suffix naming policy** You can use prefixes or suffixes to define the naming convention of teams (groups), for example, **GRP_US_My Group_Engineering**. The prefixes and suffixes can be fixed strings or user attributes (such as **[Department]**) that are added to the name based on the user who’s creating the team.
+-   **Custom Blocked Words** You can upload a set of words that users in a specific organization are blocked from using in names of teams they create. For example, you can block the terms **CEO**, **Payroll**, and **HR** from being used in team names for groups they don’t apply to.
 
 For detailed instructions, see [Office group naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
 > [!Note]
 > If teams are created automatically by using the input from another system (for example,  School Data Sync), verify that the input data complies with the naming policy you’ve configured; if it doesn’t, team creation will fail.
 
+## Can I see who created a team?
 
+To find out who created a specific team, see [Search the audit log for events in Microsoft Teams](audit-log-events.md).
 
+## How do I automatically create a team for each course at the beginning of the semester or quarter?
 
+At the start of each semester or quarter, you’ll need a number of new teams. It might make sense to take an automated approach to create these teams automatically, populate them with the right users, and set the right permissions:
 
-For some organizations, it may be a requirement to implement strict controls on who can create teams, how those teams are named, applying a classification and whether or not guests can be added as a team member. Microsoft provides capabilities to control each of these configuration areas via Azure Active Directory (AAD). 
+-   **School Data Sync** can create Office 365 Groups for Exchange Online and SharePoint Online, class teams for Microsoft Teams and OneNote Class notebooks, school groups for Intune for Education, and rostering and single sign-on (SSO) integration for many other third-party applications. Learn more at [Overview of School Data Sync](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync).
+-   With PowerShell, you can create teams and channels, and configure settings automatically. See [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
+-   You can use the Microsoft Graph API (currently in beta) to create, configure, clone, and archive teams. See [Use the Microsoft Graph API to work with Microsoft Teams](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) for more information.
 
-<br>
-|         |         |         |
-|---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Does your organization require limiting who can create teams?</li><li>Does your organization require a specific naming convention for teams?</li><li>Do team creators need the ability to specific organization specific classifications to teams?</li><li>Do you need to restrict the ability to add guests to teams on a per team basis?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organizations requirements for team creation, naming, classification and guest access.</li><li>Plan to implement your specific requirements as a part of your Teams rollout.</li><li>Communicate/publish your policies to inform Teams users of expected behavior.</li></ul>|
+## How do I deal with teams when the semester or quarter ends?
 
-> [!TIP]
-Use the following table to capture your organizations requirements.
-|Capability |Details |AAD Premium P1 <br> license required |Decision |
-|---------|---------|---------|---------|
-|Team Creation |Limit team creation to admins or security group members |No |TBD|
-|Team Naming Policy | Prefix-Suffix based, Custom Blocked Words |Yes |TBD |
-|Team Classification |Assign specified classification to team |Yes |TBD |
-|Team Guest Access |Allow or prevent guests from being added to teams |No |TBD |
+We recommend that you first think about how you want to handle Teams data when the school semester or quarter is over: how long to keep it, when (or whether) to delete it. You can use the following tools to implement your strategy:
 
+-   **Retention policy:** Use this to deletes all data older than an age you specify to make sure that old data is removed from chats (for all or some users) and channels. You can also configure Teams to retain content so it can’t be deleted. For more information, see [Retention policies for Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011).
+-   **Expiry policy:** Configure teams to expire after a certain number of days. Thirty days before expiration, all owners of a team are notified that their team needs to be renewed, otherwise it will be deleted (though an administrator can recover deleted teams for an additional 30 days). This setting is very useful for making sure unused teams are sunsetted.
+    > [!Tip]
+    > Be sure to set expiration policies in a way that if teams are created at the start of the semester or quarter, they won’t expire during the holidays. Learn more at [Office 365 Group Expiration Policy](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
 
-#### Additional Information
-Once you have determined your requirements, you can implement them using Azure Active Directory (AAD) controls. For technical guidance on how to implement these settings, see: <br>
-[Azure Active Directory cmdlets for configuring group settings.](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-settings-cmdlets) <br>
-[Enforce a naming policy for Office 365 groups in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-naming-policy) <br>
-[Office 365 Groups naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552) <br>
+-   **Archive team:**This setting puts teams into read-only mode. They can still be browsed and searched, but no one can add any new posts. This might be useful if you want students to be able to access the content of a course even after they’ve completed it. [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) describes how team owners can archive a team; administrators can leverage the [Graph API (beta)](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/teams_api_overview).:
+ 
+## Can I specify a template for my faculty members to use?
 
+Yes. Users can  select **Create Team from existing template** when creating a new team, and administrators can use the [Graph API (beta)](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/teams_api_overview).
 
-## Group expiration, retention and archiving
-Another area that some organizations may require additional controls is around expiring, retaining and archiving teams and teams data. Administrators can configure group expiration policies to automatically manage the lifecycle of the group, retention policies to preserve or delete information as desired and teams can be archived (set to read only mode) to preserve a point in time view of a team that is no longer active.
+## What tasks can I automate via PowerShell or Graph?
 
-> [!TIP]
-Use the following table to capture your organizations requirements.
-|Capability |Details |Decision |
-|---------|---------|---------|---------|
-|Expiration policy |Manage the lifecycle of Office 365 groups by setting an expiration policy |TBD|
-|Retention policy |Retain or delete data in a specified time period |TBD |
-|Archive and restore |Archive a team when it’s no longer active, but you want to keep it around for reference or to reactivate in the future |TBD |
+The [Microsoft Graph API (beta)](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/teams_api_overview) can do the following:
 
-#### Additional Information
-For technical guidance on how to implement these settings, see: <br>
-[Set up Office 365 groups expiration](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-lifecycle) <br>
-[Set up Teams retention policies](https://docs.microsoft.com/en-us/MicrosoftTeams/security-compliance-overview#retention-policies) <br>
-[Archive or restore a team](https://support.office.com/en-us/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7?ui=en-US&rs=en-001&ad=US) <br>
+-   Create a team
+-   Add members and owners
+-   Add channels
+-   Add apps
+-   Shortcut those steps by cloning an existing team, and get its tabs too
+-   Give the user a link to the team you just created
+-   Remove members, owners, channels, and apps when you no longer need them
+-   Archive the team when it's no longer active 
+-   Delete the team
 
+PowerShell(https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) can do the following:
 
-## Teams feature management
-Another important aspect of governance and lifecylce management for Teams is the ability to control what features your users will have access to. Messaging, meeting an calling features can all be managed by an Administrator and these features can be controlled at either a Office 365 tenant level, or a user level. 
+-   Create a team
+-   Add members and owners
+-   Add channels
+-   Remove members, owners, and channels when you no longer need them
+-   Delete the team
+ 
+## How do I control guest access for research collaboration?
 
+You can use Guest Access to invite users from outside of your tenant, which can be useful for research collaboration or guest lectures:
+-   Domain Whitelisting enables you to allow or block guests based on their domain.
+-   Turn guest access on and off for particular Office 365 Groups and teams, to control which teams can (and can’t) invite guests.
+-   Use the audit log to see which alerts were sent to invited guests.
 
-|         |         |         |
-|---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Does your organization require limiting Teams features for your entire tenant?</li><li>Does your organization require limiting Teams features for specific users?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organizations requirements for limiting Teams features at the tenant and user level.</li><li>Plan to implement your specific requirements as a part of your Teams rollout.</li><li>Communicate/publish your policies to inform Teams users of expected behavior.</li></ul>|
+For more information, see [Guest access in Office 365 Groups](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage).
 
-#### Do we add a table for example policy settings ot leave that to the following pages?
+## What should I use the audit logs for?
 
-## Feature Management Focus Area
-<ul>[Messaging Policies](tbd)</ul>
-<ul>[Calling Policies](tbd)</ul>
-<ul>[Meeting Policies](tbd)</ul>
+You can check the audit logs to see:
+-   Who was invited as a guest to which team.
+-   Who created which team.
 
-#### Additional Information
-For technical guidance on how to implement these settings, see: <br>
-[Manage Microsoft Teams features in your Office 365 organization](https://docs.microsoft.com/en-us/MicrosoftTeams/enable-features-office-365) <br>
+For more information, see [Search the audit log for events in Microsoft Teams](audit-log-events.md).
 
-## Security and compliance
-Teams is built on the advanced security and compliance capabilities of Office 365 and supports auditing and reporting, compliance content search, eDiscovery, Legal Hold and retention policies. 
+## Teams evolves so quickly. How can I stay up-to-date?
+We recommend the following resources to get the latest updates on Teams:
 
-If your organization have compliance and security requirements, please review the in depth content provided on this topic in the [Overview of security and compliance in Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/security-compliance-overview) article.
-
+-   [What's new in Microsoft Teams](https://support.office.com/article/What-s-new-in-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
+-   [Microsoft Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
