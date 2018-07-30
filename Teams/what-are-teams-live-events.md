@@ -90,7 +90,7 @@ The following table highlights core capabilities offered in live events and how 
 
 |Capability   |Skype Meeting Broadcast |Teams live events (Quick start) |Teams live events (External encoder) |
 |---------|---------|---------|---------|
-|Maximum audience size |10,000 attendees |10,000 attendees |10,000 attendees |
+|Maximum audience size |10,000 attendees |10,000 attendees* |10,000 attendees* |
 |Live event creation |   Skype Meeting Broadcast Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Audience engagement – Yammer |&#x2714; |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
 |Audience engagement – Moderated Q & A |&#x2714;  |&#x2714; |&#x2714; |
@@ -111,6 +111,8 @@ Invite a presenter during the meeting |&#x2714; (Skype for Business) |X |N/A |
 |Partner eCDN Support |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (coming soon) |&#x2714; (Hive, Kollective, Ramp) |
 |Post-broadcast attendance report for Producers |&#x2714; |&#x2714; (coming soon) |X |
 |Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |X |X |
+
+*The limits are during preview and subject to change 
 
 ## Planning & Setup
 This article explains how you can setup users with Teams live events in your organization.
