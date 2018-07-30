@@ -7,7 +7,7 @@ ms.date: 07/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Answers to frequently asked questions from administrators of Microsoft Education teams who use Teams.
+description: Answers to frequently asked questions from administrators of Microsoft Education groups who use Teams.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
@@ -57,7 +57,7 @@ We recommend that you first think about how you want to handle Teams data when t
     > [!Tip]
     > Be sure to set expiration policies in a way that if teams are created at the start of the semester or quarter, they won’t expire during the holidays. Learn more at [Office 365 Group Expiration Policy](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
 
--   **Archive team:** This setting puts teams into read-only mode. They can still be browsed and searched, but no one can add any new posts. This might be useful if you want students to be able to access the content of a course even after they’ve completed it. [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) describes how team owners can archive a team; administrators can leverage the [Graph API (beta)](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/teams_api_overview).
+-   **Archive team:** This setting puts teams into read-only mode. They can still be browsed and searched, but no one can add any new posts. This might be useful if you want students to be able to access the content of a course even after they’ve completed it. [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) describes how team owners can archive a team; administrators can use the [Graph API (beta)](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/teams_api_overview).
  
 ## Can I specify a template for my faculty members to use?
 
