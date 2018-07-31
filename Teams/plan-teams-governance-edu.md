@@ -24,7 +24,7 @@ In our experience, user education helps ensure responsible Teams usage. As soon 
 
 If you’re sure you want to control who can create teams, see [Manage who can create Office 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
-## How do I control team creation?  I'm worried students are going to create inappropriate Teams.
+## How do I control team creation?  I'm worried students are going to create inappropriate teams.
 
 To avoid inappropriate or misleading names, or just to provide more structure for how teams are named, you can use the Office 365 Groups naming policy (currently in preview):
 
@@ -95,15 +95,17 @@ You can use guest access to invite users from outside of your tenant, which can 
 
 For more information, see [Guest access in Office 365 Groups](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage).
 
-## What should I use the audit logs for?
+## What can I use the audit logs for?
 
 You can check the audit logs to see:
+
 -   Who was invited as a guest to which team.
 -   Who created which team.
 
 For more information, see [Search the audit log for events in Microsoft Teams](audit-log-events.md).
 
 ## Teams evolves so quickly. How can I stay up-to-date?
+
 We recommend the following resources to get the latest updates on Teams:
 
 -   [What's new in Microsoft Teams](https://support.office.com/article/What-s-new-in-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
