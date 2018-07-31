@@ -81,7 +81,7 @@ It might be easier for you to see all of the audio conferencing settings for Sky
 - You can also use the Windows PowerShell and run: 
     
   ```
-  Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $true|$false
+  Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
     You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) to manage other settings for your organization, including email.
