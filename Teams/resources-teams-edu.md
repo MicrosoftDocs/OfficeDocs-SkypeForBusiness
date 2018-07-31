@@ -3,7 +3,7 @@ title: Microsoft Teams resources for Education admins
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 06/18/2018
+ms.date: 07/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
@@ -19,7 +19,7 @@ Microsoft Teams resources for Education admins
 
 ## Adoption content
 
-Create customized email messages, posters, and flyers with your school's information and logo. Or use ready-to-print posters and flyers to get your organization excited about Microsoft Teams.
+Create customized email messages, posters, and flyers with your school's information and logo. Or use ready-to-print posters, flyers, and other handouts to get your organization excited about Microsoft Teams.
 
 |Customizable email templates |         |
 |---------|---------|
@@ -32,6 +32,10 @@ Create customized email messages, posters, and flyers with your school's informa
 |**Introducing Microsoft Teams for Education - Values**<br>[Download the customizable .docx file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-intro-values.docx?raw=true)<br>[Download the ready-to-print .pdf file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![Screenshot of the Introducing Microsoft Teams for Education - Values poster.](media/poster-intro-values.png)    |**Introducing Microsoft Teams for Education - Features**<br>[Download the customizable .docx file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/team-edu-customizable-poster-intro-features.docx?raw=true)<br>[Download the ready-to-print .pdf file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![Screenshot of the Introducing Microsoft Teams for Education - Features poster.](media/poster-intro-features.png)          |
 |**Empower with Microsoft Teams - Values**<br>[Download the customizable .docx file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-values.docx?raw=true)<br>[Download the ready-to-print .pdf file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![Screenshot of the Empower with Microsoft Teams - Values poster.](media/poster-empower-values.png)   |**Empower with Microsoft Teams - Features**<br>[Download the customizable .docx file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-features.docx?raw=true)<br>[Download the ready-to-print .pdf file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![Screenshot of the Empower with Microsoft Teams - Features poster.](media/poster-empower-features.png)          |
 |**The value of Microsoft Teams for Education**<br>[Download the customizable .docx file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[Download the ready-to-print .pdf file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-values.pdf?raw=true)<br>![Screenshot of the value of Microsoft Teams for Education flyer.](media/flyer-values.png)    |**The features of Microsoft Teams for Education**<br>[Download the customizable .docx file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[Download the ready-to-print .pdf file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-features.pdf?raw=true)<br>![Screenshot of the features of Microsoft Teams for Education flyer.](media/flyer-features.png)        |
+
+|Ready-to-print packets  |        |
+|---------|---------|
+|**Get started with Microsoft Teams for Education - Tips and Tricks**<br>[Download the ready-to-print .pdf file](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-packet-get-started.pdf?raw=true)<br>![Screenshot of the Get started with Microsoft Teams for Education packet.](media/package-teams-edu-get-started.png)    |
 
 ## Call to action
 
