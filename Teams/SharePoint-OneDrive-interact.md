@@ -3,7 +3,7 @@ title: How SharePoint Online and OneDrive for Business interact with Microsoft T
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 07/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -21,12 +21,12 @@ Each team in Microsoft Teams has a team site in SharePoint Online, and each chan
 
 Private chat files are stored in the sender’s OneDrive for Business folder, and permissions are automatically granted to all participants as part of the file sharing process.
 
-If you don't have SharePoint Online enabled in your tenant, Teams users can't share files in teams. Users in private chat also can't share files because OneDrive for Business (which is tied to the SharePoint license) is required for that functionality.
+If users aren't assigned and enabled with SharePoint Online licenses, they don't have OneDrive for Business storage in Office 365. File sharing will continue to work in channels, but users won't be able to share files in chats without OneDrive for Business storage in Office 365.
 
 By storing the files in the SharePoint Online document library and OneDrive for Business, all compliance rules configured at the tenant level will be followed. 
 
 > [!NOTE]
-> Integration with Sharepoint On-premise is not supported for Microsoft Teams at this time.
+> Integration with Sharepoint On-premises is not supported for Microsoft Teams at this time.
 
 The following is the example of relationships between team, channel, and document library.
 
