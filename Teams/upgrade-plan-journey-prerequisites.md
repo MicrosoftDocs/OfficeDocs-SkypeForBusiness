@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: turgayo
 description: Use this guidance to learn about the prerequisites and the environmental dependencies to deploy Teams in your organization  
 localization_priority: Priority
 ms.custom: Teams-upgrade-guidance
