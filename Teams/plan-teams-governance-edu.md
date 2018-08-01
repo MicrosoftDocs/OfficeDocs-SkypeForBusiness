@@ -14,7 +14,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Microsoft Education governance FAQ for IT pros
+# Microsoft Education governance FAQ for admins
 
 ## Can I control who can create teams?
 
@@ -24,7 +24,7 @@ In our experience, user education helps ensure responsible Teams usage. As soon 
 
 If you’re sure you want to control who can create teams, see [Manage who can create Office 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
-## How do I control team creation?  I'm worried students are going to create inappropriate teams.
+## How do I control team creation? I'm worried students are going to create inappropriate teams.
 
 To avoid inappropriate or misleading names, or just to provide more structure for how teams are named, you can use the Office 365 Groups naming policy (currently in preview):
 
@@ -50,22 +50,20 @@ At the start of each semester or quarter, you’ll need a number of new teams. I
 
 ## How do I deal with teams when the semester or quarter ends?
 
-We recommend that you first think about how you want to handle Teams data when the school semester or quarter is over: how long to keep it, when (or whether) to delete it. You can use the following tools to implement your strategy:
+We recommend that you first think about how you want to handle Teams data when the school semester or quarter is over: whether to delete it or keep it available for students even after they’ve completed the course. You’ll want to keep the school calendar in mind so any policies you set don’t conflict with holidays. You can use the following tools to implement your strategy:
 
 -   **Retention policy:** Use this to delete all data older than an age you specify to make sure that old data is removed from chats (for all or some users) and channels. You can also configure Teams to retain content so it can’t be deleted. For more information, see [Retention policies for Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011).
--   **Expiry policy:** Configure teams to expire after a certain number of days. Thirty days before expiration, all owners of a team are notified that their team needs to be renewed, otherwise it will be deleted (though an administrator can recover deleted teams for an additional 30 days). This setting is very useful for making sure unused teams are sunsetted.
-    > [!Tip]
-    > Be sure to set expiration policies in a way that if teams are created at the start of the semester or quarter, they won’t expire during the holidays. Learn more at [Office 365 Group Expiration Policy](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
+-   **Expiry policy:** Configure teams to expire after a certain number of days. Thirty days before expiration, all owners of a team are notified that their team needs to be renewed, otherwise it will be deleted (though an administrator can recover deleted teams for an additional 30 days). This setting is very useful for making sure unused teams are sunsetted. Learn more at [Office 365 Group Expiration Policy](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
 
--   **Archive team:** This setting puts teams into read-only mode. They can still be browsed and searched, but no one can add any new posts. This might be useful if you want students to be able to access the content of a course even after they’ve completed it. [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) describes how team owners can archive a team; administrators can use the [Graph API (beta)](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/teams_api_overview).
+-   **Archive team:** This setting puts teams into read-only mode. They can still be browsed and searched, but no one can add any new posts. [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) describes how team owners can archive a team; admins can use the [Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview).
  
 ## Can I specify a template for my faculty members to use?
 
-Yes. Users can select **Create Team from existing template** when creating a new team, and administrators can use the [Graph API (beta)](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/teams_api_overview).
+Yes. Users can select **Create Team from existing template** when creating a new team, and administrators can use the [Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview).
 
 ## What tasks can I automate via PowerShell or Graph?
 
-The [Microsoft Graph API (beta)](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/resources/teams_api_overview) can do the following:
+The [Microsoft Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) can do the following:
 
 -   Create a team.
 -   Add members and owners.
