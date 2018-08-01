@@ -17,7 +17,7 @@ appliesto:
 Note: This is a preview or early release feature.
 
 ## Overview
-Live events in Microsoft 365 enable users to broadcast video and content to large online audiences.  Microsoft 365 live events bring live video streaming to a new level, going beyond what was previously possible with Skype Meeting Broadcast, encouraging connection throughout the entire engagement lifecycle with attendees before, during, and after live events. You can create a live event wherever your audience, team, or community resides, using Microsoft Stream, Microsoft Teams or Yammer.  
+Live events in Microsoft 365 enable users to broadcast video and content to large online audiences.  Microsoft 365 live events bring live video streaming to a new level, encouraging connection throughout the entire engagement lifecycle with attendees before, during, and after live events. You can create a live event wherever your audience, team, or community resides, using Microsoft Stream, Microsoft Teams or Yammer.  
 
 Microsoft Teams delivers chat-based collaboration, calling, meetings and with live events, you can expand the audience of your meetings. Microsoft Teams live events is an extension of Teams meetings, enabling users to broadcast video and meeting content to a large online audience. These are meant for one-to-many communications where the host of the event is leading the interactions and the audience participation is primarily to view the content shared by host. The attendees can watch the live or recorded event in Yammer, Teams, and/or Microsoft Stream, and can interact with the presenters via moderated Q & A or Yammer conversation. 
 
@@ -26,9 +26,9 @@ Teams live events is considered the next version of Skype Meeting Broadcast and 
 Related articles: 
 
 - [Live events across Microsoft 365 in Yammer, Microsoft Teams, and Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
-- [Live events in Microsoft Teams](https://support.office.com/en-us/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US)
-- [Live events in Yammer](https://support.officeppe.com/en-us/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57?ui=en-US&rs=en-US&ad=US)
-- [Live events in Microsoft Stream](https://review.docs.microsoft.com/en-us/stream/live-event-overview)
+- [Live events in Microsoft Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
+- [Live events in Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
+- [Live events in Microsoft Stream](https://review.docs.microsoft.com/stream/live-event-overview)
 
 ## Key components
 The following diagram shows high level components involved in Microsoft 365 live events. 
@@ -147,7 +147,9 @@ You can use Teams live events in multiple regions. The following information sho
   - Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
 
 ### Set up your network for live events in Microsoft Teams
-Coming soon.
+The quick start live events require you to [prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/prepare-network).  
+
+For both quick start and external encoder live events 
 
 ### Set up eCDN provider for live events in Microsoft Teams 
 Playback of live event videos uses adaptive bitrate streaming (ABR) but it is a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers.  For organizations that want to reduce this internet traffic for live events, live events solutions are integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or enterprise content delivery networks (eCDNs). These SDN / eCDN platforms enable organizations to optimize network bandwidth without sacrificing end user viewing experiences. Our partners can help enable a more scalable and efficient video distribution across your enterprise network.

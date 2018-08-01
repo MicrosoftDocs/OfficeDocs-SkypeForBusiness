@@ -15,7 +15,7 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
-- me.teamsadmincenter.policies.naming.error
+- ms.teamsadmincenter.policies.naming.error
 description: "See what issues there are with special characters in the names of policies and what you can do to fix it."
 ---
 
