@@ -3,7 +3,7 @@ title: Plan for Microsoft 365 Government - GCC deployments - Microsoft Teams
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 07/17/2018
+ms.date: 07/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
@@ -18,6 +18,9 @@ appliesto:
 # Plan for Microsoft 365 Government - GCC deployments
 
 This guidance is for IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that’s subject to government regulations and requirements, where the use of Microsoft 365 Government - GCC is appropriate to meet these requirements.
+
+> [!NOTE]
+> If your organization has already met the Microsoft 365 Government - GCC eligibility requirements and applied for and been accepted into the program, you can skip steps 1 through 4 and go directly to step 5 to begin your deployment. 
 
 ## Step 1. Determine whether your organization needs Microsoft 365 Government - GCC and meets eligibility requirements. 
 
@@ -78,7 +81,7 @@ Having decided that this service is right for your organization, start the proce
 
 ## Step 5. Deploy Teams for collaboration
 
-After you’ve been onboarded to Microsoft 365 Government - GCC, you can follow the standard deployment approach of using FastTrack and your chosen partner to onboard to the service.
+After you’ve been onboarded to Microsoft 365 Government - GCC, you can follow the standard deployment approach of using [FastTrack](https://fasttrack.microsoft.com/fasttrack-faq) and your chosen partner to onboard to the service.
 
 When you’re ready, deploy Teams to [enable collaboration within your organization through teams and channels](teams-overview.md). Be sure to engage with your Adoption and Change Management team or Teams champions.
 
