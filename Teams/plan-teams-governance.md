@@ -1,25 +1,45 @@
+---
+title: Plan for governance in Teams - Microsoft Teams
+author: rmw2890
+ms.author: MyAdvisor
+manager: serdars
+ms.date: 07/30/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rowille
+description: Learn about how to plan for implementing governance and lifecycle management capabilities in Teams.
+localization_priority: Priority
+MS.collection: Strat_MT_TeamsAdmin
+appliesto:
+- Microsoft Teams
+---
+
 # Plan for governance in Teams
 
 Teams provides a rich set of tools to implement any governance and lifecycle management capabilities your organization might require. This article guides IT pros to ask the right questions to determine their requirements for governance and lifecycle management, and how to meet them. 
 
-## Group and team creation, naming, classification and guest access
+## Group and team creation, naming, classification, and guest access
+
 Your organization might require that you implement strict controls on who can create teams, how those teams are named and classified, and whether guests can be added as team members. You can configure each of these areas by using Azure Active Directory (Azure AD). 
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Does your organization require limiting who can create teams?</li><li>Does your organization require a specific naming convention for teams?</li><li>Do team creators need the ability to assign organization-specific classifications to teams?</li><li>Do you need to restrict the ability to add guests to teams on a per team basis?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organization’s requirements for team creation, naming, classification, and guest access.</li><li>Plan to implement these requirements as a part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Does your organization require limiting who can create teams?</li><li>Does your organization require a specific naming convention for teams?</li><li>Do team creators need the ability to assign organization-specific classifications to teams?</li><li>Do you need to restrict the ability to add guests to teams on a per-team basis?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organization’s requirements for team creation, naming, classification, and guest access.</li><li>Plan to implement these requirements as a part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior you’re expecting.</li></ul>|
 
 > [!TIP]
-Use the following table to capture your organizations requirements.
+Use the following table to capture your organization’s requirements.
 |Capability |Details |Azure AD Premium P1 <br> license required |Decision |
 |---------|---------|---------|---------|
-|Team Creation |Limit team creation to admins or security group members |No |TBD|
-|Team Naming Policy | Prefix-Suffix based, Custom Blocked Words |Yes |TBD |
-|Team Classification |Assign specified classification to team |Yes |TBD |
-|Team Guest Access |Allow or prevent guests from being added to teams |No |TBD |
+|Team creation |Limit team creation to admins or security group members |No |TBD|
+|Team naming policy | Prefix-Suffix–based, Custom Blocked Words |Yes |TBD |
+|Team classification |Assign classifications to teams |Yes |TBD |
+|Team guest access |Allow or prevent guests from being added to teams |No |TBD |
 
+
+#### Additional information
+After you’ve determined your requirements, you can implement them by using Azure AD controls. For technical guidance on how to implement these settings, see:
 
 #### Additional Information
 After you’ve determined your requirements, you can implement them by using Azure AD controls. For technical guidance on how to implement these settings, see: <br>
@@ -38,12 +58,14 @@ Your organization might have additional requirements for setting policies for ex
 |<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organizations requirements for team expiration, data retention and archiving.</li><li>Plan to implement these requirements as a part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
 
 > [!TIP]
-Use the following table to capture your organizations requirements.
+Use the following table to capture your organization’s requirements.
 |Capability |Details |Decision |
 |---------|---------|---------|---------|
-|Expiration policy |Manage the lifecycle of Office 365 groups by setting an expiration policy |TBD|
-|Retention policy |Retain or delete data in a specified time period |TBD |
-|Archive and restore |Archive a team when it’s no longer active, but you want to keep it around for reference or to reactivate in the future |TBD |
+|Expiration policy |Manage the lifecycle of Office 365 groups by setting an expiration policy. |TBD|
+|Retention policy |Retain or delete data in a specified time period. |TBD |
+|Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |TBD |
+
+#### Additional information
 
 #### Additional Information
 For technical guidance on how to implement these settings, see: <br>
@@ -71,13 +93,16 @@ For detailed information on Teams feature management capabilities, see [Plan for
 
 
 
-#### Additional Information
-For technical guidance on how to implement these settings, see: <br>
-[Manage Microsoft Teams features in your Office 365 organization](https://docs.microsoft.com/en-us/MicrosoftTeams/enable-features-office-365) <br>
+#### Additional information
+
+For technical guidance on how to implement these settings, see:
+
+[Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md) 
 
 ## Security and compliance
-Teams is built on the advanced security and compliance capabilities of Office 365 and supports auditing and reporting, compliance content search, eDiscovery, Legal Hold and retention policies. 
 
-> [!IMPORTANT]
-> If your organization has compliance and security requirements, review the in-depth content provided about this topic in the article [Overview of security and compliance in Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/security-compliance-overview).
+Teams is built on the advanced security and compliance capabilities of Office 365 and supports auditing and reporting, compliance content search, e-discovery, Legal Hold, and retention policies. 
+
+> [!Important]
+> If your organization has compliance and security requirements, review the in-depth content provided about this topic in the article [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md).
 
