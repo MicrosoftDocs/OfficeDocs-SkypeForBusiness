@@ -49,7 +49,8 @@ After you’ve determined your requirements, you can implement them by using Azu
 -   [Office 365 Groups naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
 
-## Group and team expiration, retention and archiving
+## Group and team expiration, retention, and archiving
+
 Your organization might have additional requirements for setting policies for expiration, retention, and archiving teams and teams data. You can configure group expiration policies to automatically manage the lifecycle of the group and retention policies to preserve or delete information as needed, and you can archive teams (set them to read-only mode) to preserve a point-in-time view of a team that’s no longer active.
 
 |         |         |         |
