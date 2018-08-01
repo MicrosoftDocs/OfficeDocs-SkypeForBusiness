@@ -130,7 +130,7 @@ This topology is shown in multiple diagrams, with an overview first followed by 
     
 - **DNS load balancing.** The Front End pool and Edge Server pool use DNS load balancing. This eliminates the need for hardware load balancers for the internal interface of the Edge Servers, and significantly decreases the amount of time you have to spend on the setup and maintenance of the hardware load balancers for the other pools, as the hardware load balancers are needed only for HTTP traffic. For more information, see (../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
     
-- **Exchange UM deployment.** Skype for Business Server works with bothon-premises deployments of Exchange Unified Messaging (UM) andhosted Exchange UM. Central Site A includes an Exchange Unified Messaging (UM) Server, which runs Microsoft Exchange Server, not Skype for Business Server. The Exchange UM functionality for Skype for Business Server runs on the Front End pool.
+- **Exchange UM deployment.** Skype for Business Server works with both on-premises deployments of Exchange Unified Messaging (UM) and hosted Exchange UM. Central Site A includes an Exchange Unified Messaging (UM) Server, which runs Microsoft Exchange Server, not Skype for Business Server. The Exchange UM functionality for Skype for Business Server runs on the Front End pool.
     
     Central Site B uses hosted Exchange, so the Exchange UM Server functionality is also hosted. 
     
