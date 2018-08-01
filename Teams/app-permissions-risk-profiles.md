@@ -27,7 +27,7 @@ Apps are consented to by users and managed by IT from a policy perspective. Howe
 
 Use the tables below as a guide to understand which permissions the apps you're investigating are requesting. You'll still need to do research on the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise line-of-business bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that risk profile, at a minimum. 
 
-The permissions listed below in capital letters, for example RECEIVE_MESSAGE and REPLYTO_MESSAGE, don't appear anywhere in the [Microsoft Teams developer documentation](https://aka.ms/teamsdevdocs) or the [permissions for Microsoft Graph](https://docs.microsoft.com/microsoftteams/platform/overview). They're simply a descriptive shorthand for the purpose of this article.
+The permissions listed below in capital letters, for example RECEIVE_MESSAGE and REPLYTO_MESSAGE, don't appear anywhere in the [Microsoft Teams developer documentation](https://aka.ms/teamsdevdocs) or the [permissions for Microsoft Graph](https://developer.microsoft.com/graph/docs/concepts/permissions_reference). They're simply a descriptive shorthand for the purpose of this article.
 
 ## Global app permissions and risk profile
 
