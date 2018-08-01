@@ -1,9 +1,8 @@
---
+---
 title: What are Teams live events?
-author: TonySmith
+author: tonysmith
 ms.author: tonysmit
 manager: serdars
-ms.date: 7/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviwer: tonysmit
@@ -13,8 +12,9 @@ appliesto:
 ---
 
 # What are Teams live events?
-**Summary**: Learn how live events enable users to broadcast video and content to large online audiences in Microsoft Teams, Yammer, and Microsoft Stream.  
-Note: This is a preview or early release feature.
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
+
+Learn how live events enable users to broadcast video and content to large online audiences in Microsoft Teams, Yammer, and Microsoft Stream.  
 
 ## Overview
 Live events in Microsoft 365 enable users to broadcast video and content to large online audiences.  Microsoft 365 live events bring live video streaming to a new level, encouraging connection throughout the entire engagement lifecycle with attendees before, during, and after live events. You can create a live event wherever your audience, team, or community resides, using Microsoft Stream, Microsoft Teams or Yammer.  
@@ -22,13 +22,6 @@ Live events in Microsoft 365 enable users to broadcast video and content to larg
 Microsoft Teams delivers chat-based collaboration, calling, meetings and with live events, you can expand the audience of your meetings. Microsoft Teams live events is an extension of Teams meetings, enabling users to broadcast video and meeting content to a large online audience. These are meant for one-to-many communications where the host of the event is leading the interactions and the audience participation is primarily to view the content shared by host. The attendees can watch the live or recorded event in Yammer, Teams, and/or Microsoft Stream, and can interact with the presenters via moderated Q & A or Yammer conversation. 
 
 Teams live events is considered the next version of Skype Meeting Broadcast and will eventually replace the capabilities provided in Skype Meeting Broadcast. For the public preview release of live events, Microsoft will continue to support Skype Meeting Broadcast, with no disruption in service for new or future events. We encourage you to try out live events in Teams to leverage new features including screen sharing, attendee count, and support for external hardware/software encoders. 
-
-Related articles: 
-
-- [Live events across Microsoft 365 in Yammer, Microsoft Teams, and Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
-- [Live events in Microsoft Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
-- [Live events in Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Live events in Microsoft Stream](https://review.docs.microsoft.com/stream/live-event-overview)
 
 ## Key components
 The following diagram shows high level components involved in Microsoft 365 live events. 
@@ -44,7 +37,7 @@ The live events in Microsoft 365 support a spectrum of production scenarios, inc
 - **External encoder**: External encoders allow users to produce their live events directly from an external hardware or software-based encoder with Microsoft Stream. This option is best if you already have studio quality equipment (e.g. media mixers) which support streaming to an RTMP service. This option is typically used in large scale events such as executive town halls – where a single stream from a media mixer is broadcast to the audience. 
 
 ### Streaming platform
-This is made up of the following pieces.
+This is made up of the following pieces:
 
 #### Azure Media Services
 [Azure Media Services](https://docs.microsoft.com/en-us/azure/media-services/previous/) gives you broadcast-quality video streaming services to reach larger audiences on today’s most popular mobile devices. Media Services enhances accessibility, distribution, and scalability, and makes it easy and cost-effective to stream content to your local and worldwide audiences — all while protecting your content.
@@ -59,7 +52,7 @@ The goal of eCDN is to take the video content from the internet and distribute t
 - Ramp (coming soon to Quick Start)
 
 ### Attendee Experience
-The attendee experience is the most important aspect of live events and it is critical that the attendees can participate in the live event without issues. The attendee experience uses Azure Media Player and works across desktop, browser, and mobile (iOS, Android). Microsoft 365 provides Yammer and Teams as two collaboration hubs and the live attendee experience is integrated into these collaboration tools. The external encoder based live events can also be accessed by attendees in the Microsoft Stream portal.
+The attendee experience is the most important aspect of live events and it is critical that the attendees can participate in the live event without issues. The attendee experience uses Azure Media Player and works across desktop, browser, and mobile (iOS, Android). Office 365 provides Yammer and Teams as two collaboration hubs and the live attendee experience is integrated into these collaboration tools. The external encoder based live events can also be accessed by attendees in the Microsoft Stream portal.
 
 ## Prerequisites
 
@@ -72,12 +65,12 @@ The following prerequisites are required for the user to schedule a live event i
 - User has permissions to create live events in Microsoft Stream (for external encoder production).
 
 > [!NOTE]
-> O365 guests, federated, and anonymous users cannot be invited as producers or presenters in Teams live events. 
+> Office 365 guests, federated, and anonymous users cannot be invited as producers or presenters in Teams live events. 
  
 ### Who can watch live event
 Review the table below to see who can participate in a live event. 
 
-|Attendee visibility           |Quick start  |External encoder  |
+|**Attendee visibility**           |**Quick start** |**External encoder**  |
 |------------------------------|-------------|------------------|
 |Public (anonymous users)      |  Yes        |  No              |
 |Guest users*                   |  No         |  No              |
@@ -170,7 +163,7 @@ Ramp OmniCache provides next-generation network distribution and ensures seamles
 #### Configure eCDN for "Quick start" live events 
 You can configure eCDN provider for live events in Microsoft Teams via PowerShell. Note: only a single eCDN provider can be configured for the tenant at any given time. 
 
-Configure Hive eCDN provider 
+**Configure Hive eCDN provider** 
 
 You can use [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) PowerShell cmdlet to configure eCDN provider. 
 1. Obtain license ID and API template URL from your Hive contact. 
@@ -179,7 +172,7 @@ You can use [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.co
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
 
-Configure Kollective eCDN provider 
+**Configure Kollective eCDN provider** 
 
 You can use [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) PowerShell cmdlet to configure eCDN provider. 
 1. Obtain API token and API template URL from your Kollective contact. 
@@ -188,14 +181,11 @@ You can use [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.co
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
 
-Configure Ramp eCDN provider 
-
-Coming Soon 
+**Configure Ramp eCDN provider**
 
 #### Configure eCDN for "External encoder" live events 
 If you plan to create live events that use external encoders, you will need to [configure your eCDN provider with Microsoft Stream](https://docs.microsoft.com/stream/network-caching) as well. 
 If you plan to create "Quick start" live events through Microsoft Teams or Yammer you will need to configure your SDN/eCDN provider to be integrated with Microsoft Teams as well.
-
 
 ### Enable live event scheduling for the user
 The live event scheduling is enabled by default for a Teams user.  
@@ -258,7 +248,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ### Configure attendee visibility options
 This allows live event organizers to create events with appropriate attendee visibility.
 
-|Values  |Behavior  |
+|**Values**  |**Behavior**  |
 |---------|---------|
 |Everyone     |The user has an option to create live events with the following attendee visibility: Public, Everyone in company, and Specific people. |
 |EveryoneInCompany     |The user has an option to create live events with the following attendee visibility: Everyone in company and Specific people. The user cannot create live events that can be attended by anonymous users.|
@@ -280,7 +270,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 
 This allows admins to control whether the live events are always recorded, never recorded or whether the event organizer can decide to record the event or not.  
 
-|Values  |Behavior  |
+|**Values**  |**Behavior**  |
 |---------|---------|
 |Always enabled |The live events organized by this user are always recorded. User doesn’t have an option to override. If the live event is recorded, the event team members are able to download the recording after the event and the attendees can watch the event after the event is over. |
 |AlwaysDisabled |The live events organized by this user are never recorded. User doesn’t have an option to override. If the live event is recorded, no recording is created for the event team members and the attendees cannot watch the event after it is over. |
@@ -329,3 +319,10 @@ Customers can use the following tools to manage a variety of Teams live events r
   - [Using Windows PowerShell to manage Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
 
+
+### Related topics: 
+
+- [Live events across Microsoft 365 in Yammer, Microsoft Teams, and Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
+- [Live events in Microsoft Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
+- [Live events in Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
+- [Live events in Microsoft Stream](https://review.docs.microsoft.com/stream/live-event-overview)
