@@ -102,8 +102,10 @@ The following table shows examples of DNS names registered for the tenant, wheth
 |**DNS name**|**Can be used for SBC FQDN**|**Examples of FQDN names**|
 |:--- |:--- |:--- |
 contoso.com|Yes|**Valid names:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
-|contoso.onmicrosoft.com|No|**Non-valid name:**<br/>sbc1.europe.contoso.com (requires registering domain name europe.contoso.com in “Domains” first)
-|
+|contoso.onmicrosoft.com|No|<br/>Using *.onmicrosoft.com domains is not supported for SBC names
+
+If you want to use a new domain name. For example, your tenant has contoso.com as a domin name registered in your tenant. You want to use sbc1.sip.contoso.com. Before you can pair an SBC with name sbc1.sip.contoso.com you need to register domain name sip.contoso.com in "Domains" in your tenant. If you try pairing an SBC sbc1.sip.contoso.com you will get an error " Can not use the "sbc1.sip.contoso.com" domain as it was not configured for this tenant."
+After you added domain name you also need to create a user with UPN user@sip.contoso.com and assing a "Teams" lisence. It might take up to 24 hours to fully provision the domain name after it added to "Domains" of tenant, a user with new name created and a lisence assigned to the user. 
 
 It is possible that a company might have several SIP address spaces in one tenant. For example, a company might have contoso.com as a SIP address space and fabrikam.com as the second SIP address space. Some users have address user@contoso.com and some users have address user@fabrikam.com. 
 
@@ -208,7 +210,7 @@ The following vendors are in the process of being certified:
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
 - Ribbon (formerly Sonus):
    - [SBC Edge series](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [SBC Core Series TBD](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
+   - [SBC Core Series](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel: ThinkTel does not sell the SBCs to the enterprises but their SBC is being certified.  
  
 ## See also
