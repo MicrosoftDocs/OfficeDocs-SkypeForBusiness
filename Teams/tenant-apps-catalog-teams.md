@@ -3,7 +3,7 @@ title: Publish apps to the Microsoft Teams Tenant Apps Catalog
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/13/2018
+ms.date: 08/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
@@ -27,8 +27,7 @@ You can publish apps to the Teams Tenant Apps Catalog directly from the Teams cl
 
 ### Get a Teams app package
 
-A Teams app package is created by using [Teams App Studio](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-app-studio). 
-Once you have the app package, you can add it to enterprise app catalog. While all users in the tenant can view the app catalog, only admins have the ability to manage it.
+A Teams app package is created by using [Teams App Studio](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-app-studio). Once you have the app package, you can add it to enterprise app catalog. While all users in the tenant can view the app catalog, currently only global admins have the ability to publish and manage it. (Eventually, Teams admins will be able to do this as well.)
 
 ### Go to the Tenant Apps Catalog
 
