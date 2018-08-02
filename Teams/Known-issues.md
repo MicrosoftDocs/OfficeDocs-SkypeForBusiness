@@ -54,7 +54,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Modern authentication failure - Forms auth not enabled  <br/> |When there is an initial failure with multi-factor authentication, use the web app for authentication.  <br/> For more information, see [Active Directory Federation Services prompt=login parameter support](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login).  <br/> |Check this setting: Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled.  <br/> |6/19/17  <br/> |
+|Modern authentication failure - Forms auth not enabled  <br/> |When there is an initial failure with multi-factor authentication, use the web app for authentication.  <br/> For more information, see [Active Directory Federation Services prompt=login parameter support](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login).  <br/> |Check this setting: `Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled`.  <br/> |6/19/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -99,15 +99,15 @@ This article lists the known issues for Microsoft Teams, by feature area.
 ## Client
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Teams does not automatically update   <br/> | When Microsoft Teams is installed to Program Files using installation scripts rather than to the default location, the client doesn't auto-update when new versions are available.    <br/> | By design. Be sure to install the application in the default location: user\Appdata.  <br/> | 9/7/17  <br/> |
+|Teams does not automatically update   <br/> | When Microsoft Teams is installed to Program Files using installation scripts rather than to the default location, the client doesn't auto-update when new versions are available.    <br/> | By design. Be sure to install the application in the default location: `user\Appdata`.  <br/> | 9/7/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Symlink or mappying a drive to C:\users causes app to launch to white screen  <br/> | When Microsoft Teams is installed to Program Files using installation scripts rather than to the default location, the client doesn't auto-update when new versions are available.   <br/> | By design. Be sure to install the application in the default location: user\Appdata. If the mapping must exist, you should use the web version of Microsoft Teams.  <br/> | 9/7/17  <br/> |
+|Symlink or mappying a drive to C:\users causes app to launch to white screen  <br/> | When Microsoft Teams is installed to Program Files using installation scripts rather than to the default location, the client doesn't auto-update when new versions are available.   <br/> | By design. Be sure to install the application in the default location: `user\Appdata`. If the mapping must exist, you should use the web version of Microsoft Teams.  <br/> | 9/7/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Symlink or mapping a drive to c:\users will cause app to launch to white screen  <br/> |When the default location of C:\users\<user>\appData is changed by moving the C:\users folder or using symlink, the app will launch with a white screen.   <br/> |There is no known work around. If the mapping must exist, you should use the web version of Microsoft Teams.   <br/> |3/13/17  <br/> |
+|Symlink or mapping a drive to c:\users will cause app to launch to white screen  <br/> |When the default location of `C:\users\<user>\appData` is changed by moving the `C:\users` folder or using symlink, the app will launch with a white screen.   <br/> |There is no known work around. If the mapping must exist, you should use the web version of Microsoft Teams.   <br/> |3/13/17  <br/> |
 
 ## Environment
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -126,7 +126,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 ## Meetings
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent String for MS Teams within the EWSAllowList: *skypespaces*, including asterisks. The full command is: set-organizationconfig -ewsallowlist *skypespaces*<br/> For more info: https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
+|Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent String for MS Teams within the EWSAllowList: `*skypespaces*`, including asterisks. The full command is: `set-organizationconfig -ewsallowlist *skypespaces*`<br/> For more info: https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -230,5 +230,5 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|  
-|Teams desktop app showing white screen  <br/> | <br/> |Try deleting or reinstalling the graphics drivers on the computer, or start Teams from a command line with a disable GPU flag:<ul><li>For Windows: Open the command prompt and enter the following: cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu</li><li>For Mac: Start Terminal and enter the following: cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu</li></ul> <br/> |<br/> |
+|Teams desktop app showing white screen  <br/> | <br/> |Try deleting or reinstalling the graphics drivers on the computer, or start Teams from a command line with a disable GPU flag:<ul><li>For Windows: Open the command prompt and enter the following: `cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>For Mac: Start Terminal and enter the following: `cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 
