@@ -85,6 +85,9 @@ To get started using call queues, it's important to remember a few things:
   - iPhone Skype for Business Client (version 6.16.0 and later)
     
   - iPad Skype for Business Client (version 6.16.0 and later)
+
+> [!NOTE]
+> All calls, including those transferred from Call Queues and Auto Attendants, can be answered in Microsoft Teams.
     
 ## Step 2 - Getting or transferring toll or toll-free service phone numbers
 
