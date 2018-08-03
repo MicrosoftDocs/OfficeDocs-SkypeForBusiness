@@ -67,7 +67,7 @@ An application sharing stream is marked as poor if one or more of the following 
 |:-----|:-----|:-----|
 |Spoiled Tile Percent Total|> 36|Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server.|
 |AppSharing RDP Tile Processing Latency Average|> 400|Average latency in milliseconds processing tiles on the RDP Stack at the conferencing server.|
-|AppSharing Relative OneWay Average|> 1.75|Average relative one-way delay between the endpoints in milliseconds for application sharing streams.|
+|AppSharing Relative OneWay Average|> 1.75|Average relative one-way delay between the endpoints in seconds for application sharing streams.|
 
 ## Unclassified Streams
 

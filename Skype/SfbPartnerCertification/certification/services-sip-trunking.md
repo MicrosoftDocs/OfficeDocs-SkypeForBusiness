@@ -40,6 +40,7 @@ The following table lists the SIP trunking services that are certified for Skype
 |[CallPlus Services Ltd.](http://www.callplus.co.nz/) |SIP Trunk|  |
 |[C3NTRO](http://c3ntro.com/landing/sip/rznbcwnebh.html) |Lync SIP Connect| |
 |[CCI Network Services](http://www.ccicom.com) | CCI_SFB | |
+|[Cebod Telecom](http://www.cebodtelecom.com) | Business SIP Trunking / Cloud PBX | |
 |[Cincinnati Bell Business / CBTS](https://www.cincinnatibell.com/)| SIP Trunking|         |
 |[Circuit ID](http://www.circuitid.com/cloud-sip/?ePlatform=lync) |Cloud SIP|         |
 |[TDC Erhverv](https://erhverv.tdc.dk/loesninger/skype-for-business) |Skype for Business Trunk|&#x2714; |
