@@ -32,7 +32,6 @@ Your organization might require that you implement strict controls on who can cr
 Use the following table to capture your organization’s requirements.
 |Capability |Details |Azure AD Premium <br> license required |Decision |
 |---------|---------|---------|---------|
-
 |Team creation |Limit team creation to admins or security group members |No |TBD|
 |Team naming policy | Prefix-Suffix–based, Custom Blocked Words |P1 |TBD |
 |Team classification |Assign classifications to teams |P1 |TBD |
@@ -60,11 +59,15 @@ Your organization might have additional requirements for setting policies for ex
 
 > [!TIP]
 Use the following table to capture your organization’s requirements.
-|Capability |Details |Decision |
+
+|Capability |Details |Azure AD Premium <br>license required |Decision |
 |---------|---------|---------|---------|
-|Expiration policy |Manage the lifecycle of Office 365 groups by setting an expiration policy. |TBD|
-|Retention policy |Retain or delete data in a specified time period. |TBD |
-|Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |TBD |
+|Expiration policy |Manage the lifecycle of Office 365 groups by setting an expiration policy. |P1 |TBD|
+|Retention policy |Retain or delete data in a specified time period. |No |TBD |
+|Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |No |TBD |
+
+> [!Note]
+> Group expiration is an Azure AD Premium feature. For this feature to be available, your tenant will have to have a subscription to Azure AD Premium and licenses for the administrator who configures the settings and the members of the affected groups.
 
 #### Additional information
 
