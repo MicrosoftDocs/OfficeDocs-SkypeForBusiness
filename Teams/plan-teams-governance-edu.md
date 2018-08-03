@@ -16,20 +16,16 @@ appliesto:
 
 # Microsoft Education governance FAQ for admins
 
-## Can I control who can create teams?
-
-In general, we recommend against preventing anyone from creating teams. If everyone can create teams, Teams is more likely to be widely adopted. Faculty, teachers, or students can  use Teams to create study groups or special interest groups. This will help Teams be accepted inside and outside of the classroom.
-
-In our experience, user education helps ensure responsible Teams usage. As soon as users understand that creating teams isn’t anonymous, they understand the implications of carelessly creating them and tend to shy away from misusing the tool.
-
-If you’re sure you want to control who can create teams, see [Manage who can create Office 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
-
 ## How do I control team creation? I'm worried students are going to create inappropriate teams.
 
 To avoid inappropriate or misleading names, or just to provide more structure for how teams are named, you can use the Office 365 Groups naming policy (currently in preview):
 
 -   **Prefix-Suffix naming policy** You can use prefixes or suffixes to define the naming convention of teams (groups), for example, **GRP_US_My Group_Engineering**. The prefixes and suffixes can be fixed strings or user attributes (such as **[Department]**) that are added to the name based on the user who’s creating the team.
 -   **Custom Blocked Words** You can upload a set of words that users in a specific organization are blocked from using in names of teams they create. For example, you can block the terms **CEO**, **Payroll**, and **HR** from being used in team names for groups they don’t apply to.
+-   **Classification** You can create classifications that the users in your organization can set when they create an Office 365 group. 
+
+> [!IMPORTANT]
+> Group naming policy requires Azure Active Directory Premium P1 license for unique users that are members of Office 365 groups.
 
 For detailed instructions, see [Office group naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
@@ -39,6 +35,14 @@ For detailed instructions, see [Office group naming policy](https://support.offi
 ## Can I see who created a team?
 
 To find out who created a specific team, see [Search the audit log for events in Microsoft Teams](audit-log-events.md).
+
+## Can I control who can create teams?
+
+In general, we recommend against preventing anyone from creating teams. If everyone can create teams, Teams is more likely to be widely adopted. Faculty, teachers, or students can  use Teams to create study groups or special interest groups. This will help Teams be accepted inside and outside of the classroom.
+
+In our experience, user education helps ensure responsible Teams usage. As soon as users understand that creating teams isn’t anonymous, they understand the implications of carelessly creating them and tend to shy away from misusing the tool.
+
+If you’re sure you want to control who can create teams, see [Manage who can create Office 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 ## How do I automatically create a team for each course at the beginning of the semester or quarter?
 
@@ -55,11 +59,11 @@ We recommend that you first think about how you want to handle Teams data when t
 -   **Retention policy:** Use this to delete all data older than an age you specify to make sure that old data is removed from chats (for all or some users) and channels. You can also configure Teams to retain content so it can’t be deleted. For more information, see [Retention policies for Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011).
 -   **Expiry policy:** Configure teams to expire after a certain number of days. Thirty days before expiration, all owners of a team are notified that their team needs to be renewed, otherwise it will be deleted (though an administrator can recover deleted teams for an additional 30 days). This setting is very useful for making sure unused teams are sunsetted. Learn more at [Office 365 Group Expiration Policy](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
 
--   **Archive team:** This setting puts teams into read-only mode. They can still be browsed and searched, but no one can add any new posts. [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) describes how team owners can archive a team; admins can use the [Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview).
+-   **Archive team:** This setting puts teams into read-only mode. They can still be browsed and searched, but no one can add any new posts. [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) describes how team owners can archive a team; Team owners can also use the [Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) to archive or restore a team.
  
-## Can I specify a template for my faculty members to use?
+## Are there team templates for my faculty members to use when creating a team?
 
-Yes. Users can select **Create Team from existing template** when creating a new team, and administrators can use the [Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview).
+Yes. Users can select **Create Team from existing template** when creating a new team, and Teams owners can also use the [Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) to create a new team from the available templates.
 
 ## What tasks can I automate via PowerShell or Graph?
 
@@ -74,6 +78,7 @@ The [Microsoft Graph API (beta)](https://developer.microsoft.com/graph/docs/api-
 -   Remove members, owners, channels, and apps when you no longer need them.
 -   Archive the team when it's no longer active. 
 -   Delete the team.
+-   Create a channel thread
 
 [PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) can do the following:
 
@@ -82,8 +87,18 @@ The [Microsoft Graph API (beta)](https://developer.microsoft.com/graph/docs/api-
 -   Add channels.
 -   Remove members, owners, and channels when you no longer need them.
 -   Delete the team.
+
+> [!TIP]
+> The Graph API and PowerShell cmdlets are constantly adding functionality. Make sure to check the [Microsoft Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) and [PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) articles often for feature enhancements.  
+
+
+## Can I control what Teams features my faculty and students have access to?
+
+Yes. You can use policies to control specific messaging, meeting, calling and live event features your users have access to. You can use tenant-wide settings to apply the same settings to all, or apply user level policies if required. 
+
+For more details on Teams policies see [placeholder](placeholder.md)
  
-## How do I control guest access for research collaboration?
+## Can I control what external parties my faculty and students collaborate with?
 
 You can use guest access to invite users from outside of your tenant, which can be useful for research collaboration or guest lectures:
 
@@ -93,7 +108,7 @@ You can use guest access to invite users from outside of your tenant, which can 
 
 For more information, see [Guest access in Office 365 Groups](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage).
 
-## What can I use the audit logs for?
+## What information can I review about existing teams?
 
 You can check the audit logs to see:
 
