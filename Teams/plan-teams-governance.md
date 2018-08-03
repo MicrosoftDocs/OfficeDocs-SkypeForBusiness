@@ -7,7 +7,7 @@ ms.date: 07/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Learn about how to plan for implementing governance and lifecycle management capabilities in Teams.
+description: Learn about how to plan for implementing governance capabilities in Teams.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
@@ -30,11 +30,11 @@ Your organization might require that you implement strict controls on who can cr
 
 > [!TIP]
 Use the following table to capture your organization’s requirements.
-|Capability |Details |Azure AD Premium P1 <br> license required |Decision |
+|Capability |Details |Azure AD Premium <br> license required |Decision |
 |---------|---------|---------|---------|
 |Team creation |Limit team creation to admins or security group members |No |TBD|
-|Team naming policy | Prefix-Suffix–based, Custom Blocked Words |Yes |TBD |
-|Team classification |Assign classifications to teams |Yes |TBD |
+|Team naming policy | Prefix-Suffix–based, Custom Blocked Words |P1 |TBD |
+|Team classification |Assign classifications to teams |P1 |TBD |
 |Team guest access |Allow or prevent guests from being added to teams |No |TBD |
 
 
@@ -65,8 +65,6 @@ Use the following table to capture your organization’s requirements.
 |Retention policy |Retain or delete data in a specified time period. |TBD |
 |Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |TBD |
 
-#### Additional information
-
 #### Additional Information
 For technical guidance on how to implement these settings, see: <br>
 -    [Set up Office 365 groups expiration](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-lifecycle) <br>
@@ -85,19 +83,13 @@ Another important aspect of governance and lifecycle management for Teams is the
 
 ### Teams Feature Management Focus Areas
 
--    [Messaging Policies](tbd)
--    [Calling Policies](tbd)
--    [Meeting Policies](tbd)
+Teams provides granular capabilities for controlling messaging, meeting, calling and live event features and more via policies. Different policies can be applied to all users as default or per user as required by your organization. 
 
-For detailed information on Teams feature management capabilities, see [Plan for Teams lifecycle](plan-teams-lifecycle.md)
+For detailed lists of all settings including technical guidance on how to implement them for your organization see the following articles:
 
+-    [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md)
+-    [Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 
-
-#### Additional information
-
-For technical guidance on how to implement these settings, see:
-
-[Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md) 
 
 ## Security and compliance
 
@@ -106,3 +98,5 @@ Teams is built on the advanced security and compliance capabilities of Office 36
 > [!Important]
 > If your organization has compliance and security requirements, review the in-depth content provided about this topic in the article [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md).
 
+## Teams lifecycle management
+In addition to planning for governance, your organization may also be interested in plannign for Teams lifecycle management. For practical guidance on planning for teams lifecycle management see [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
