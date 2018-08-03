@@ -67,7 +67,7 @@ Use the following table to capture your organization’s requirements.
 |Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |No |TBD |
 
 > [!Note]
-> Group expiration is an Azure AD Premium feature. For this feature to be available, your tenant will have to have a subscription to Azure AD Premium and licenses for the administrator who configures the settings and the members of the affected groups.
+> Group expiration is an Azure AD Premium feature. For this feature to be available, your tenant must have a subscription to Azure AD Premium and licenses for the administrator who configures the settings and the members of the affected groups.
 
 #### Additional information
 
