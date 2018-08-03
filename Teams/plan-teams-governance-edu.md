@@ -94,9 +94,9 @@ The [Microsoft Graph API (beta)](https://developer.microsoft.com/graph/docs/api-
 
 ## Can I control what Teams features my faculty and students have access to?
 
-Yes. You can use policies to control specific messaging, meeting, calling and live event features your users have access to. You can use tenant-wide settings to apply the same settings to all, or apply user level policies if required. 
+Yes. You can use policies to control specific messaging, meeting, calling, and live event features your users have access to. You can use tenant-wide settings to apply the same settings to all, or apply user-level policies if required. 
 
-For more details on Teams policies see [placeholder](placeholder.md)
+For more details about Teams policies, see [placeholder](placeholder.md).
  
 ## Can I control what external parties my faculty and students collaborate with?
 
