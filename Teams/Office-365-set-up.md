@@ -18,4 +18,5 @@ appliesto:
 
 
 
-We are deprecating the tenant level toggle to disable Teams for all users in your tenants. Starting Aug 2018 this can be controlled by managing users licenses in the O365 admin center as detailed [here](https://docs.microsoft.com/en-us/microsoftteams/user-access)
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
