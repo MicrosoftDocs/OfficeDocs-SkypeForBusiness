@@ -3,7 +3,6 @@ title: "Latest updates for versions of Skype for Business that use Windows Insta
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 07/16/2018 
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: skype-for-business-itpro
