@@ -59,7 +59,6 @@ Your organization might have additional requirements for setting policies for ex
 
 > [!TIP]
 Use the following table to capture your organization’s requirements.
-
 |Capability |Details |Azure AD Premium <br>license required |Decision |
 |---------|---------|---------|---------|
 |Expiration policy |Manage the lifecycle of Office 365 groups by setting an expiration policy. |P1 |TBD|
