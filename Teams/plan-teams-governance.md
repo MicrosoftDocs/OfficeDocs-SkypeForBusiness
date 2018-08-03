@@ -3,7 +3,7 @@ title: Plan for governance in Teams - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 07/30/2018
+ms.date: 08/01/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -26,36 +26,36 @@ Your organization might require that you implement strict controls on who can cr
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Does your organization require limiting who can create teams?</li><li>Does your organization require a specific naming convention for teams?</li><li>Do team creators need the ability to assign organization-specific classifications to teams?</li><li>Do you need to restrict the ability to add guests to teams on a per-team basis?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organization’s requirements for team creation, naming, classification, and guest access.</li><li>Plan to implement these requirements as a part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior you’re expecting.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organization’s requirements for team creation, naming, classification, and guest access.</li><li>Plan to implement these requirements as a part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
 
 > [!TIP]
 Use the following table to capture your organization’s requirements.
 |Capability |Details |Azure AD Premium <br> license required |Decision |
 |---------|---------|---------|---------|
+
 |Team creation |Limit team creation to admins or security group members |No |TBD|
 |Team naming policy | Prefix-Suffix–based, Custom Blocked Words |P1 |TBD |
 |Team classification |Assign classifications to teams |P1 |TBD |
 |Team guest access |Allow or prevent guests from being added to teams |No |TBD |
 
-
 #### Additional information
+
 After you’ve determined your requirements, you can implement them by using Azure AD controls. For technical guidance on how to implement these settings, see:
 
-#### Additional Information
-After you’ve determined your requirements, you can implement them by using Azure AD controls. For technical guidance on how to implement these settings, see: <br>
--    [Azure Active Directory cmdlets for configuring group settings.](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-settings-cmdlets) <br>
--    [Enforce a naming policy for Office 365 groups in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-naming-policy) <br>
--    [Office 365 Groups naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552) <br>
+-   [Azure Active Directory cmdlets for configuring group settings](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
+
+-   [Enforce a naming policy for Office 365 groups in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
+
+-   [Office 365 Groups naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
 
 ## Group and team expiration, retention and archiving
 Your organization might have additional requirements for setting policies for expiration, retention, and archiving teams and teams data. You can configure group expiration policies to automatically manage the lifecycle of the group and retention policies to preserve or delete information as needed, and you can archive teams (set them to read-only mode) to preserve a point-in-time view of a team that’s no longer active.
 
-<br>
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Does your organization require specifying and expiration date for teams?</li><li>Does your organization require specific data retention policies applied to teams?</li><li>Does your organization expect to require the ability to archive inactive teams to preserve the content in a read-only state?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organizations requirements for team expiration, data retention and archiving.</li><li>Plan to implement these requirements as a part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organization’s requirements for team expiration, data retention, and archiving.</li><li>Plan to implement these requirements as part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
 
 > [!TIP]
 Use the following table to capture your organization’s requirements.
@@ -65,25 +65,31 @@ Use the following table to capture your organization’s requirements.
 |Retention policy |Retain or delete data in a specified time period. |TBD |
 |Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |TBD |
 
-#### Additional Information
-For technical guidance on how to implement these settings, see: <br>
--    [Set up Office 365 groups expiration](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-lifecycle) <br>
--    [Set up Teams retention policies](https://docs.microsoft.com/en-us/MicrosoftTeams/security-compliance-overview#retention-policies) <br>
--    [Archive or restore a team](https://support.office.com/en-us/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7?ui=en-US&rs=en-001&ad=US) <br>
+#### Additional information
+
+For technical guidance on how to implement these settings, see:
+
+-   [Set up Office 365 groups expiration](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
+
+-   [Set up Teams retention policies](security-compliance-overview.md#retention-policies).
+
+-   [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
 
 ## Teams feature management
+
 Another important aspect of governance and lifecycle management for Teams is the ability to control what features your users will have access to. You can manage messaging, meeting, and calling features, either at the Office 365 tenant level or per-user. 
 
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Does your organization require limiting Teams features for your entire tenant?</li><li>Does your organization require limiting Teams features for specific users?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organizations requirements for limiting Teams features at the tenant and user level.</li><li>Plan to implement your specific requirements as a part of your Teams rollout.</li><li>Communicate/publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organization’s requirements for limiting Teams features at the tenant and user level.</li><li>Plan to implement your specific requirements as part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
 
 ### Teams Feature Management Focus Areas
 
 Teams provides granular capabilities for controlling messaging, meeting, calling and live event features and more via policies. Different policies can be applied to all users as default or per user as required by your organization. 
+
 
 For detailed lists of all settings including technical guidance on how to implement them for your organization see the following articles:
 
