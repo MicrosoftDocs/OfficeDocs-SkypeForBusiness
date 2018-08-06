@@ -28,7 +28,7 @@ A team owner in Microsoft Teams can add and manage guests in their teams via the
 
 Here's how a guest becomes a member of a team:
 
-- **Step 1** A team owner or an Office 365 admin [adds a guest to a team](https://support.office.com/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests).
+- **Step 1** A team owner or an Office 365 admin [adds a guest to a team](https://support.office.com/en-us/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
     
   
 - **Step 2** The Office 365 admin or the team owner can manage a guest's capabilities as necessary. For example, allowing a guest to add or delete channels or disabling access to files.
