@@ -525,47 +525,10 @@ Before a user can see the Calls tab in Microsoft Teams, you need to enable priva
 
 ## Set Microsoft Teams as the preferred calling client for the users
 
-Direct Routing will route calls only to Microsoft Teams, so you need to make sure that Microsoft Teams is the preferred calling client for the users. This is controlled by the TeamsCallingPolicy and the TeamsInteropPolicy. 
+Direct Routing only route the calls to and from users if they use Teams Cleint. 
+If your organisation only use Teams cleint, setting "Teams Only" mode in upgrade policy is recommended. 
+If you organisation uses Skype for Business Server or Skype for Business Online, please review the following document  [Understand coexistence and upgrade journey for Skype for Business and Teams](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) and select appropriate option. 
 
-1. First, use the following cmdlet in a remote PowerShell session in the Skype for Business Online admin center to see which policies the user has been assigned. 
-
-  ```
-  Get-CsOnlineUser -identity <User Name> | fl *teams*
-  ```
- 
-2. Next, review the different policy instances. 
-
-  ```
-  Get-CsTeamsCallingPolicy
-  ``` 
-and
-
-  ```
-  Get-CsTeamsInteropPolicy
-  ``` 
-
-Before Microsoft Teams users can use the service, there are additional steps you may need to take to apply the calling policy and allow calls.
-
-### Teams Calling Policy
-
-You need to make sure that the user has a TeamsCallingPolicy with AllowCalling = True. This policy can either be the Global policy in your tenant or a specific policy granted to the user. If you need to grant a user a specific policy, you can use the cmdlet:
-
-```
-Grant-CsTeamsCallingPolicy -PolicyName <policy> -Identity <User Name>
-```
-
-### Teams Interop Policy
-
-Make sure that the user has the preferred calling client to set to Microsoft Teams. This can be done in two ways:
-
-- The user sets the preferred calling client in the Microsoft Teams client.
-- The user has been assigned a policy that sets the preferred calling client.
-
-To assign a policy that sets Microsoft Teams as the preferred calling client, make sure that the user is granted a policy with CallingDefaultClient = Teams. An example cmdlet is shown below:
-
-```
-Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity “<User Name>”
-```
 
 ## See also
 
