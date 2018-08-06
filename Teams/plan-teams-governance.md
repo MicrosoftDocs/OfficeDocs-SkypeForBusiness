@@ -16,7 +16,7 @@ appliesto:
 
 # Plan for governance in Teams
 
-Teams provides a rich set of tools to implement any governance and lifecycle management capabilities your organization might require. This article guides IT pros to ask the right questions to determine their requirements for governance and lifecycle management, and how to meet them. 
+Teams provides a rich set of tools to implement any governance capabilities your organization might require. This article guides IT pros to ask the right questions to determine their requirements for governance, and how to meet them. 
 
 ## Group and team creation, naming, classification, and guest access
 
