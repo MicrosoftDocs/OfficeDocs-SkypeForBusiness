@@ -158,7 +158,7 @@ Kollective's cloud-based, smart peering distribution platform leverages your exi
  
 Ramp OmniCache provides next-generation network distribution and ensures seamless delivery of video content across global WANs, helping event producers optimize network bandwidth and support successful live event broadcasts and on-demand streaming. The support for Ramp OmniCache for quick start live events is coming soon.  [Learn more](http://www.ramp.com) 
  
-[!NOTE] Your chosen eCDN solution is subject to the selected [3rd party provider’s terms of service and privacy policy](), which will govern your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the [3rd party provider’s terms](), then do not enable the eCDN solution in Microsoft Teams. 
+[!NOTE] Your chosen eCDN solution is subject to the selected 3rd party provider’s terms of service and privacy policy, which will govern your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the 3rd party provider’s terms, then do not enable the eCDN solution in Microsoft Teams. 
 
 #### Configure eCDN for "Quick start" live events 
 You can configure eCDN provider for live events in Microsoft Teams via PowerShell. Note: only a single eCDN provider can be configured for the tenant at any given time. 
@@ -181,11 +181,8 @@ You can use [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.co
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
 
-**Configure Ramp eCDN provider**
-
 #### Configure eCDN for "External encoder" live events 
 If you plan to create live events that use external encoders, you will need to [configure your eCDN provider with Microsoft Stream](https://docs.microsoft.com/stream/network-caching) as well. 
-If you plan to create "Quick start" live events through Microsoft Teams or Yammer you will need to configure your SDN/eCDN provider to be integrated with Microsoft Teams as well.
 
 ### Enable live event scheduling for the user
 The live event scheduling is enabled by default for a Teams user.  
