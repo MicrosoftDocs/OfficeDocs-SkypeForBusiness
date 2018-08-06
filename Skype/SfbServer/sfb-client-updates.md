@@ -3,7 +3,6 @@ title: "Latest updates for versions of Skype for Business that use Windows Insta
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 07/16/2018 
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: skype-for-business-itpro
@@ -19,6 +18,7 @@ Use the links on this page to get more information about and download the most r
 > [!NOTE] 
 > - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
 > - The information in this article doesn't apply to Office 365 versions of Skype for Business, such as Skype for Business included with Office 365 ProPlus.
+> - For the latest mobile client updates, go to the app store for your mobile client (iTunes, Google Play, or Microsoft Store) to view details and install updates.
 > - To find out what version of Skype for Business you're using, see [What version of Skype for Business do I have?](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - For more information about installing Office updates, see [Install Office updates](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5). 
   
@@ -113,12 +113,6 @@ Skype for Business compatibility with Office 365 and your on-premises environmen
 |Security update for Skype for Business 2015/Lync 2013|[KB 3085500](https://support.microsoft.com/kb/3085500) | September 2015 |
 |Update for Skype for Business 2015/Lync 2013|[KB 3054791 ](https://support.microsoft.com/kb/3054791) | June 2015 |
 
-
-### Skype for Business mobile client updates
-
-|Package Name|KB Number|Release Date|
-|:---  |:---  |:---  |
-|Update for Skype for Business iOS App |[KB 3199076](https://support.microsoft.com/help/3199076)| September 2016 |
 
 ### Skype for Business on Mac client updates
 
@@ -235,16 +229,6 @@ Package Name|KB Number|Release Date|
 |Security update for Lync 2010 |[KB 3096735](https://support.microsoft.com/kb/3096735) | November 2015|
 |Security update for Lync 2010 |[KB 3081087](https://support.microsoft.com/kb/3081087) | September 2015|
 |Cumulative updates for Lync 2010 |[KB 3072611](https://support.microsoft.com/kb/3072611) | July 2015|
-
-
-### Lync mobile platform 2010 client updates
-
-Package Name|KB Number|Release Date|
-|:--- |:--- |:--- |
-|Cumulative update package for Lync 2010 for Android |[KB 2829325](https://support.microsoft.com/kb/2829325) | June 2013 |
-|Cumulative update package for Lync 2010 for Windows Phone |[KB 2804672](https://support.microsoft.com/kb/2804672) | May 2013 |
-|Cumulative update package for Lync 2010 for iPhone |[KB 2804674](https://support.microsoft.com/kb/2804674) | April 2013 |
-|Cumulative update package for Lync 2010 for iPad |[KB 2804673](https://support.microsoft.com/kb/2804673) | April 2013 |
 
 
 ### Lync 2010 Attendant updates
