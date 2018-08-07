@@ -20,22 +20,27 @@ Teams provides a rich set of tools to implement any governance capabilities your
 
 ## Group and team creation, naming, classification, and guest access
 
-Your organization might require that you implement strict controls on who can create teams, how those teams are named and classified, and whether guests can be added as team members. You can configure each of these areas by using Azure Active Directory (Azure AD). 
+Your organization might require that you implement strict controls on how teams are named and classified, whether guests can be added as team members and who can create teams. You can configure each of these areas by using Azure Active Directory (Azure AD). 
+
+> [!NOTE]
+> Disabling group and team creation is not recommended. 
 
 <br>
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Does your organization require limiting who can create teams?</li><li>Does your organization require a specific naming convention for teams?</li><li>Do team creators need the ability to assign organization-specific classifications to teams?</li><li>Do you need to restrict the ability to add guests to teams on a per-team basis?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Does your organization require a specific naming convention for teams?</li><li>Do team creators need the ability to assign organization-specific classifications to teams?</li><li>Do you need to restrict the ability to add guests to teams on a per-team basis?</li><li>Does your organization require limiting who can create teams?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organization’s requirements for team creation, naming, classification, and guest access.</li><li>Plan to implement these requirements as a part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
 
 > [!TIP]
 Use the following table to capture your organization’s requirements.
 |Capability |Details |Azure AD Premium <br> license required |Decision |
 |---------|---------|---------|---------|
-|Team creation |Limit team creation to admins or security group members |No |TBD|
 |Team naming policy | Prefix-Suffix–based, Custom Blocked Words |P1 |TBD |
 |Team classification |Assign classifications to teams |P1 |TBD |
 |Team guest access |Allow or prevent guests from being added to teams |No |TBD |
+|Team creation |Limit team creation to administrators |No |TBD|
+|Team creation |Limit team creation to security group members |P1 |TBD|
+
 
 #### Additional information
 
