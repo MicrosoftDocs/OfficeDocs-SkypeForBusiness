@@ -158,7 +158,8 @@ Kollective's cloud-based, smart peering distribution platform leverages your exi
  
 Ramp OmniCache provides next-generation network distribution and ensures seamless delivery of video content across global WANs, helping event producers optimize network bandwidth and support successful live event broadcasts and on-demand streaming. The support for Ramp OmniCache for quick start live events is coming soon.  [Learn more](http://www.ramp.com) 
  
-> [!NOTE] Your chosen eCDN solution is subject to the selected [3rd party provider’s terms of service and privacy policy](), which will govern your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the [3rd party provider’s terms](), then do not enable the eCDN solution in Microsoft Teams. 
+> [!NOTE] 
+> Your chosen eCDN solution is subject to the selected [3rd party provider’s terms of service and privacy policy](), which will govern your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the [3rd party provider’s terms](), then do not enable the eCDN solution in Microsoft Teams. 
 
 #### Configure eCDN for "Quick start" live events 
 You can use PowerShell to configure an eCDN provider for live events in Microsoft Teams. Note that only a single eCDN provider can be configured for the tenant at any given time. 
