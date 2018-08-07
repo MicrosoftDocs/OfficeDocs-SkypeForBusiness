@@ -24,33 +24,23 @@ Planning for lifecycle management is important, because collaboration isn’t ju
 
 The following concepts and definitions all affect the decisions you make for lifecycle management.
 
-### Teams
+**Teams**  A team is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Office 365 Groups, and changes to Office 365 group membership sync to the team.
 
-A team is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Office 365 Groups, and changes to Office 365 group membership sync to the team.
+**Channels**  are the collaboration spaces within a team where the actual work is done. Anyone on the team can see and participate in any of the channels, which can be extended with apps to aid the workflow. There can be up to 200 channels in a team.
 
-### Channels
-
-Channels are the collaboration spaces within a team where the actual work is done. Anyone on the team can see and participate in any of the channels, which can be extended with apps to aid the workflow. There can be up to 200 channels in a team.
-
-### Team origins
-
-Teams can be created in a variety of ways. You can:
+**Team origins** can come from a variety of methods. You can:
 
 -   Create the team from scratch. Add members by using individual email aliases or usernames, or expand a distribution list.
 -   Create the team from an existing team, and use its channel configuration and any app configuration as a template. You can optionally also use its membership list.
 -   Add a team to an existing Office 365 Group, which also gives the team access to its mailbox and SharePoint site.
 -   Use the Microsoft Graph API or PowerShell cmdlets to create teams. The API can programmatically create teams based on Global Address Book attributes (region, department) or business processes (client engagements, classroom rosters).
 
-### Team access types
-
-A team’s access type determines who can join it:
+**Team access types** determine who can join the team:
 
 -   _Private_ teams are restricted to team members that the team owner(s) approve. This is a typical setting for project teams and virtual teams in a large organization.
 -   _Public_ teams are open for anyone in the organization to join directly. This is useful for collaboration on topics of general interest to people in different departments working on different projects. This is a good default setting for smaller organizations.
 
-### Team user types
-
-User type determines how much control a team member has:
+**Team user types** determine how much control a team member has:
 
 -   _Tenant admin_ has full control over roles, permissions, directory, and apps.
 -   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of users. 
@@ -74,7 +64,7 @@ NEED INTRO
 
 The first step is to define the goal of the team (which can range from business processes to org structure to projects, or simply creating an open, unstructured collaboration hub). Defining the team goal goes hand in hand with identifying the right people. As far as practicable, it’s a good idea to foster open collaboration by aiming for broad membership. 
 
-It’s optimal to identify at least two team owners, to account for absence or reassignment. Team owners invite the users, set the team picture and description, and can set permissions for individual members. 
+It’s optimal to identify at least two team owners, to account for absence or reassignment. Team owners invite team members, set the team picture and description, and can set permissions for individual members. 
 
 |    |     |
 |-----------|------------|
@@ -84,7 +74,7 @@ It’s optimal to identify at least two team owners, to account for absence or r
 
 #### Set up channels
 
-Any team owner or member with appropriate permissions can create channels in a team. It’s important to consider the goal of each channel Options include collaboration around projects, discussions of certain topics. The General channel is included by default in every team; most teams will create additional channels. It’s likely that channels will grow organically as new topics or projects arise, and discussions outgrow the channel they began in.
+Any team owner or member with appropriate permissions can create channels in a team. It’s important to consider the goal of each channel Options include collaboration around projects, discussions of certain topics. The General channel is included by default in every team; most teams will create additional channels. It’s likely that channels will grow organically as new topics or projects arise, and discussions might outgrow the channel they began in.
 
 To spark interest, a channel owner can post a welcome message, upload relevant documents to the Files tab, or add tabs or connectors to the channel. The owner also sets the channel description, and can “auto-favorite” important channels so they’re listed by default for all team members.
 
@@ -111,34 +101,18 @@ Because teams are living organisms, they occasionally need to be checked on and 
     -   Using mobile apps to increase engagement.
     -   Pruning the number of channels.
 
+### Stage 3: End
 
-### Stage 4: Performing
-- A team is a living organism
-    - Use champions to sustain usage, also to discover and propagate new behaviors
-    - Managing guests judiciously – set a timeframe for a guest’s engagement tied to business needs
-    - Ensure team ownership is up-to-date
-- Channels should evolve with business needs
-    - Create new channels for new projects and topics, allow old channels to fade
-        - Delete sensitive or ephemeral ones
-        - Carve out new teams as larger groups/areas emerge
-    - Use owner-favorited to maintain a steady awareness baseline
-    - Try different channel collaborations like channel meetings or tab conversations around documents
-- Re-norming required if team starts failing/gets into a rut (restart, re-kickoff)
-    - Drive communications into Teams vs. email
-    - Use mobile and apps to increase engagement
-    - Prune channels if necessary
+When the work of a team has run its course, it’s important to formally acknowledge that it’s over. This gives team members a sense of closure and also prevents anyone from accessing outdated, stale information. You can use the team itself to conduct closure rituals like post-mortems and executive summaries.
 
+You can delete teams that you know you don’t need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a “soft delete” that IT can reverse for up to 30 days. Deleting teams doesn’t affect any chats or content that were archived in accordance with compliance policies.
 
-### Stage 5: Adjourning
-- Wrap up work when the team has run its course
-    - Formally define closure – to help team members and future searchers
-    - Use the team for normal project closure rituals e.g. post-mortems, executive summaries
-- Delete teams that are no longer needed (test teams, sensitive content)
-    - Team delete is actually a "soft delete" that IT can reverse for up to 30 days
-    - Doesn’t impact compliance-archived chats and content
-- Use expiration policies to reduce exposure from inactive teams, departed owners
-    - In-App expiration
+You can also use expiration, retention, and archiving policies to reduce exposure from teams that aren’t active any longer or whose owners have left the organization.
 
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Define what the end of a team’s life looks like.</li><li>Decide whether/how long to keep the content of a team available.</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Document best practices and lessons learned.</li><li>Archive data, if necessary.</li></ul>|
 
 ## Team and channel organization and lifecycle management example
 
