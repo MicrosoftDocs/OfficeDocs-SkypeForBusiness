@@ -18,155 +18,135 @@ appliesto:
 
 Teams provides a rich set of tools to implement any lifecycle management capabilities your organization might require. This article guides IT pros to ask the right questions to determine their requirements for lifecycle management, and how to meet them. 
 
-Planning for lifecycle is important because collaboration is not just a point in time activity. Typically projects will consist of a beginning, middle and end.
+Planning for lifecycle management is important, because collaboration isn’t just an activity you do once and forget. Most projects consist of a beginning, middle, and end. Teams do too, but they can be constructed and used in such a variety of ways that it’s not always obvious which stage of their lifecycle they’re in.
 
-## Lifecycle constructs
-[PLACEHOLDER] need intro text
+## Lifecycle concepts
 
+The following concepts and definitions all affect the decisions you make for lifecycle management.
 
-### Teams and channels
-[PLACEHOLDER] need intro text
+**Teams**
 
+A team is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Office 365 Groups, and changes to Office 365 group membership sync to the team.
 
-|team  |channel  |
-|---------|---------|
-|Collection of people, content and tools that faciliate collaboration     |Collaboration space within a team where work (and fun!) happens    |
-|Defines membership, visibility, permissions and policies    |Visible and open to anyone in the team to participate         |
-|Built on Office 365 modern groups, changes made to O365 Groups will sync to the team    |Can be extended with apps         |
-|     |Up to 200 lifetime channels per team         |
+**Channels**
 
+Channels are the collaboration spaces within a team where the actual work is done. Anyone on the team can see and participate in any of the channels, which can be extended with apps to aid the workflow. There can be up to 200 channels in a team.
 
-### Team origins
-[PLACEHOLDER] need intro text
+**Team origins**
 
-|Origin |Description  |
-|---------|---------|
-|From scratch     |Create the team and add members via email, username, or DL expansion         |
-|From another team     |Use another team as template for channel config, app config, and (optionally) members         |
-|Office 365 Group     |Add Teams to existing Group (which has a mailbox and site) – same membership         |
-|API or PowerShell     |Use Graph APIs or PowerShell cmdlets to create teams. APIs can be used to programmatically create teams based on GAL attributes (region, department), business processes (client engagements, classroom rosters)
-         |
+Teams can originate from a variety of methods, including:
 
-### Team access types
-[PLACEHOLDER] need intro text
+-   Create the team from scratch. Add members by using individual email aliases or usernames, or expand a distribution list.
+-   Create the team from an existing team, and use its channel configuration and any app configuration as a template. You can optionally also use its membership list.
+-   Add a team to an existing Office 365 Group, which also gives the team access to its mailbox and SharePoint site.
+-   Use the Microsoft Graph APIs or PowerShell cmdlets to create teams. The APIs can programmatically create teams based on Global Address Book attributes (region, department) or business processes (client engagements, classroom rosters).
 
-|Private (default)  |Public |
-|---------|---------|
-|Owner(s) must approve new members     |Anyone in the organization can join directly         |
-|Use this for typical project teams, v-teams     |Use this for interest-based teams that cross org and project boundaries         |
-|     |Good default for smaller organizations         |
+**Team access types**
 
-### Team user types
-[PLACEHOLDER] need intro text
+These determine who can join the team:
 
-|User type  |Description |
-|---------|---------|
-|Tenant admin     |Full control over roles, permissions, directory, apps         |
-|Team creator     |Use with permissions to create a group/team in the directory <br> Can be constrained to subset of users by admin (if so desired)         |
-|Team owner     |Up to 10 per Team <br> Manages membership and settings for the team         |
-|Team member     |Fully participates in team, may be allowed to create channels         |
-|Guest     |Users external to the organization <br> Anyone with an email address can be invited as a guest         |
+-   _Private_ teams are restricted to team members that the team owner(s) approve. This is a typical setting for project teams and virtual teams in a large organization.
+-   _Public_ teams are open for anyone in the organization to join directly. This is useful for collaboration on topics of general interest to people in different departments working on different projects. This is a good default setting for smaller organizations.
 
-## IT Decisions to make before getting started
+**Team user types** 
 
-TO make sure that your organization is using Teams following organizational requirements, prior to rolling Teams out to your organization, you should implement any required governance policies. This typically includes items like naming conventions, expiration policies, retention policies and more. 
+These determine how much control a team member has:
 
-For more details on planning for governance in Teams, see [Plan for governance in Teams](plan-teams-governance.md).
+-   _Tenant admin_ has full control over roles, permissions, directory, and apps.
+-   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of users. 
+-   _Team owner_ manages membership and settings for the team. There can be as many as 10 team owners per team.
+-   _Team member_ fully participates in team, can be allowed to create channels.
+-   _Guest_ is a user who’s external to the organization. Anyone with an email address can be invited as a guest.
+
+## IT decisions to make before getting started
+
+Before you roll Teams out to your organization, implement any governance policies that your organization has decided it requires. These can include items like naming conventions, expiration policies, retention policies, and more.
+
+For more information, see [Plan for governance in Teams](plan-teams-governance.md).
 
 ## Teams lifecycle stages
 
-[PLACEHOLDER] Need to determine if this layout is best and if so, where do we introduce decision points and next steps? Likely need more hear around what automation can be used, and reporting to determine what lifecycle actions to take.
+Generally speaking, a team has a purpose that’s aligned with a project or accomplishing a goal. They aren’t created to last forever. Even if a team was formed based on a shared interest, the team membership will probably change over time and the discussion might grow stale—only to surface again in a slightly different way in a different team.
 
-### Stage 1: Forming
+Each team has a beginning, when the team is created and the channels are set up; a middle, during which channels are created and deleted to match the rhythm of the workflow; and an end, when the team has completed its purpose and reached the end of its useful life. 
+
+### Stage 1: Beginning
+
 #### Create the team
-- Understand team goal
-    - Identify the right “tribe” with a bias toward openness
-    - Options: business processes, org structure, projects, existing collaboration entities e.g. SharePoint site, DLs, Outlook Groups? Organic growth?
-    - Less is more. Creating broader teams fosters open collaboration
-- Decide on access – who can join, who can discover?
-    - Public facilitates open collaboration, private if access needs to be controlled
-- Ownership model
-    - At least 2 owners to facilitates management and handle owners leaving team or organization
-- Add members
-    - Invite users who need to be a part of the team, can be internal or external (guests)
-- Settings
-    - Set team picture and add description
-    - Set member permissions: who can manage channels, apps, tabs, connectors … 
+
+The first step is to define the goal of the team (which can range from business processes to org structure to projects, or simply creating an open, unstructured collaboration hub). Defining the team goal goes hand in hand with identifying the right people. As far as practicable, it’s a good idea to foster open collaboration by aiming for broad membership. 
+
+It’s optimal to identify at least two team owners, to account for absence or reassignment. Team owners invite team members, set the team picture and description, and can set permissions for individual members. 
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Who belongs on the team?</li><li>Will the team be private or public?</li><li>Can new members add themselves or do team owners add them?</li><li>Who will have permissions to create channels or add tabs, bots, and connectors?</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Create channels.</li></ul>|
 
 
-#### Setup channels
-- Understand channel goal
-    - Setup channels for collaboration around projects, topics or disciplines
-    - General comes by default, add at least one more relevant for team
-    - Can grow organically as team gets used more and discussions outgrow existing channels
-- Seed with messages, content and apps
-    - Put in a welcome message
-    - Upload relevant documents to Files tab
-    - Add more tabs - office documents (need to be uploaded to files first), web site via URL (https only) or any of the other available tabs (Planner, Power BI, Stream video channel etc)
-    - Add connectors to deliver content automatically into the channel (Twitter, Trello, GitHub …)
-- Set a description for the channel
-- Auto-favorite important channels so they show up on the team list by default
+#### Set up channels
 
+Any team owner or member with appropriate permissions can create channels in a team. It’s important to consider the goal of each channel—options include collaboration around projects, discussions of topics, areas of common interest. By default, every team includes a **General** channel; most teams need more than this and will create additional channels. It’s likely that the set of channels will grow organically as new topics or projects arise, and discussions might outgrow the channel they began in.
 
-### Stage 2: Storming
-- Evolve and explore team config and channel hierarchy
-    - Allow users to create and modify channels, encourage exploration and dead ends
-    - Experiment with @team @channel mentions, favorited channels, posting in General
-    - Let usage guide design – each team is different
-    - Settings available for owners who need to create teams that are more locked down
-    - Delete channel
-- Build trust, tolerance and a spirit of collaboration
-    - Initiate and sustain key group communications in Teams
-    - Encourage open conversations in channels vs private / 1:1 chats
-    - Use “fun” features (giphy, stickers) to develop a team personality
-    - Establish the right behaviors for the team (and organization)
+To spark interest, the channel owner can post a welcome message, upload relevant documents to the **Files** tab, or add tabs or connectors to the channel. The owner also sets the channel description, and can “auto-favorite” important channels so they’re listed by default for all team members.
 
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will channels be set up by project, by topic, or ...?</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Start collaborating.</li></ul>|
 
-### Stage 3: Norming
-[PLACEHOLDER] (see above) - how to differentiate? 
+### Stage 2: Middle
 
-### Stage 4: Performing
-- A team is a living organism
-    - Use champions to sustain usage, also to discover and propagate new behaviors
-    - Managing guests judiciously – set a timeframe for a guest’s engagement tied to business needs
-    - Ensure team ownership is up-to-date
-- Channels should evolve with business needs
-    - Create new channels for new projects and topics, allow old channels to fade
-        - Delete sensitive or ephemeral ones
-        - Carve out new teams as larger groups/areas emerge
-    - Use owner-favorited to maintain a steady awareness baseline
-    - Try different channel collaborations like channel meetings or tab conversations around documents
-- Re-norming required if team starts failing/gets into a rut (restart, re-kickoff)
-    - Drive communications into Teams vs. email
-    - Use mobile and apps to increase engagement
-    - Prune channels if necessary
+As the teamwork begins, the team membership probably begins to evolve, along with the channel hierarchy. Unless the team needs to be strictly controlled and locked down, it’s a good idea to encourage exploration even if it leads to dead ends. As users get more comfortable, they can experiment with \@team mentions, marking channels as favorite, and using the General tab to get comfortable with posting. Each team is different; let usage guide the evolution of the design.
 
+Trust, tolerance, and a spirit of collaboration grow organically as key group communications are initiated and sustained in Teams. Team members see the usefulness of group conversations over one-on-one chats. It can be quite compelling to watch a team personality develop, aided by fun features like Giphys and stickers. At the same time, it’s important that rogue or rude behavior be discouraged any time it occurs.
 
-### Stage 5: Adjourning
-- Wrap up work when the team has run its course
-    - Formally define closure – to help team members and future searchers
-    - Use the team for normal project closure rituals e.g. post-mortems, executive summaries
-- Delete teams that are no longer needed (test teams, sensitive content)
-    - Team delete is actually a "soft delete" that IT can reverse for up to 30 days
-    - Doesn’t impact compliance-archived chats and content
-- Use expiration policies to reduce exposure from inactive teams, departed owners
-    - In-App expiration
+Because teams are living organisms, they occasionally need to be checked on and cared for. These are some best practices:
 
+-   Use champions to sustain usage if it starts to flag, and also to discover and propagate creative new behaviors. 
+-   Manage guests judiciously, making sure their access ends when the business need ends.
+-   Let channels evolve with business needs, adding new ones as necessary and allowing old ones to fade (or deleting them, if they contain sensitive or ephemeral data).
+-   Carve out new teams as larger groups or interest-based areas emerge.
+-   Try different channel collaborations, such as channel meetings or tab conversations around documents.
+
+If a team starts to get into a rut, consider:
+
+-   Driving communications into Teams as opposed to email.
+-   Using mobile apps to increase engagement.
+-   Pruning the number of channels.
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Monitor usage to identify problems.</li><li>Identify any teams that have reached the end of their useful life.</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Prepare teams for the end game.</li></ul>|
+
+### Stage 3: End
+
+When the work of a team has run its course, it’s important to formally acknowledge that it’s over. This gives team members a sense of closure and also prevents anyone from accessing outdated, stale information. You can use the team itself to conduct closure rituals like post-mortems and executive summaries.
+
+You can delete teams that you know you don’t need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a “soft delete” that IT can reverse for up to 30 days. Deleting teams doesn’t affect any chats or content that were archived in accordance with compliance policies.
+
+You can also use expiration, retention, and archiving policies to reduce exposure from teams that aren’t active any longer or whose owners have left the organization.
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Define what the end of a team’s life looks like.</li><li>Decide whether/how long to keep the content of a team available.</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Document best practices and lessons learned.</li><li>Archive data, if necessary.</li></ul>|
 
 ## Team and channel organization and lifecycle management example
 
-[PLACEHOLDER] need to write a walk-thru of how this example team had its lifecycle managed from 'cradle to grave'
+The following example shows how a team and its channels might be structured for a typical project.
 
-|Channel  |Tabs & Resources |
+|Channel  |Tabs and resources |
 |---------|---------|
 |General     |Onboarding guidance <br> Role information <br> Training videos         |
-|Design     |Specifications & drawings <br> User feedback         |
+|Design     |Specifications and drawings <br> User feedback         |
 |Documentation     |Product help <br> Implementation guidance         |
-|Engineering     |Delivery schedule & tracking <br> Quality & reliability info         |
-|Go to Market     |Marketing strategy overview <br> GTM plan          |
+|Engineering     |Delivery schedule and tracking <br> Quality and reliability info         |
+|Go to Market     |Marketing strategy overview <br> Go-to-market plan          |
 |Production     |Production schedule <br> Production management tool <br> Downtime alerts         |
-|Research     |Competitive research <br> User feedback & experiments         |
+|Research     |Competitive research <br> User feedback and experiments         |
 |Strategy and Timeline     |Product vision and strategy <br> Market opportunity and timelines         |
-|Support and Feedback     |Conversations on help needed <br> Customer feature request form         |
+|Support and Feedback     |Conversations about any help that’s needed <br> Customer feature request form         |
 
 
