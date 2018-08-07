@@ -90,14 +90,14 @@ To spark interest, a channel owner can post a welcome message, upload relevant d
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>How will channels be set up—by project, by topic, or ...?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Collaborate.</li></ul>|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will channels be set up by project, by topic, or ...?</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Start collaborating.</li></ul>|
 
 ### Stage 2: Middle
 
-As the teamwork begins, the team membership will likely evolve, along with the channel hierarchy. Unless the team needs to be strictly controlled and locked down, it’s a good idea to encourage exploration and even dead ends. As users get more comfortable, they can experiment with \@team mentions, marking channels as favorite, and using the General tab to get comfortable with posting. Each team is different; let usage guide the evolution of the design.
+As the teamwork begins, the team membership probably begins to evolve, along with the channel hierarchy. Unless the team needs to be strictly controlled and locked down, it’s a good idea to encourage exploration even if it leads to dead ends. As users get more comfortable, they can experiment with \@team mentions, marking channels as favorite, and using the General tab to get comfortable with posting. Each team is different; let usage guide the evolution of the design.
 
-Trust, tolerance, and a spirit of collaboration grow organically as key group communications are initiated and sustained in Teams. Team members see the usefulness of group conversations over one-on-one chats. It can be quite compelling to watch a team personality develop, aided by features like Giphys and stickers. At the same time, it’s important that rogue or rude behavior be discouraged any time it occurs.
+Trust, tolerance, and a spirit of collaboration grow organically as key group communications are initiated and sustained in Teams. Team members see the usefulness of group conversations over one-on-one chats. It can be quite compelling to watch a team personality develop, aided by fun features like Giphys and stickers. At the same time, it’s important that rogue or rude behavior be discouraged any time it occurs.
 
 Because teams are living organisms, they occasionally need to be checked on and cared for. These are some best practices:
 
@@ -107,9 +107,14 @@ Because teams are living organisms, they occasionally need to be checked on and 
 -   Carve out new teams as larger groups or interest-based areas emerge.
 -   Try different channel collaborations, such as channel meetings or tab conversations around documents.
 -   If a team starts to get into a rut, consider:
-    -   Driving communications into Teams versus email.
+    -   Driving communications into Teams as opposed to email.
     -   Using mobile apps to increase engagement.
     -   Pruning the number of channels.
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Monitor usage to identify problems.</li><li>Identify any teams that have reached the end of their useful life.</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Prepare teams for the end game.</li></ul>|
 
 ### Stage 3: End
 
@@ -128,16 +133,16 @@ You can also use expiration, retention, and archiving policies to reduce exposur
 
 The following example shows how a team and its channels might be structured for a typical project.
 
-|Channel  |Tabs & Resources |
+|Channel  |Tabs and resources |
 |---------|---------|
 |General     |Onboarding guidance <br> Role information <br> Training videos         |
-|Design     |Specifications & drawings <br> User feedback         |
+|Design     |Specifications and drawings <br> User feedback         |
 |Documentation     |Product help <br> Implementation guidance         |
-|Engineering     |Delivery schedule & tracking <br> Quality & reliability info         |
-|Go to Market     |Marketing strategy overview <br> GTM plan          |
+|Engineering     |Delivery schedule and tracking <br> Quality and reliability info         |
+|Go to Market     |Marketing strategy overview <br> Go-to-market plan          |
 |Production     |Production schedule <br> Production management tool <br> Downtime alerts         |
-|Research     |Competitive research <br> User feedback & experiments         |
+|Research     |Competitive research <br> User feedback and experiments         |
 |Strategy and Timeline     |Product vision and strategy <br> Market opportunity and timelines         |
-|Support and Feedback     |Conversations on help needed <br> Customer feature request form         |
+|Support and Feedback     |Conversations about any help that’s needed <br> Customer feature request form         |
 
 
