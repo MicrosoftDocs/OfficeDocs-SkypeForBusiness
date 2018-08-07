@@ -94,10 +94,9 @@ Another important aspect of governance and lifecycle management for Teams is the
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Does your organization require limiting Teams features for your entire tenant?</li><li>Does your organization require limiting Teams features for specific users?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organization’s requirements for limiting Teams features at the tenant and user level.</li><li>Plan to implement your specific requirements as part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
 
-### Teams Feature Management Focus Areas
+### Teams feature management focus areas
 
 Teams provides granular capabilities for controlling messaging, meeting, calling, and live event features and more, via policies. Different policies can be applied to all users by default or per user as required by your organization. 
-
 
 For detailed lists of all settings, including technical guidance on how to implement them for your organization, see the following articles:
 
