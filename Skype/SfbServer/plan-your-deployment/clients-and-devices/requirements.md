@@ -17,6 +17,9 @@ description: "This article summarizes the requirements for supporting Skype Room
 This article summarizes the requirements for supporting Skype Room Systems v2. 
   
 Your deployment will involve account creation as described in [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md) and setting up a meeting console as described in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). You may also need to refer to [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
+
+> [!NOTE]
+> Skype Room Systems v2 is intended for use with Skype for Business Server 2019, Skype for Business Server 2015, Microsoft Teams, or Skype for Business Online.  <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Skype Room Systems v2. 
   
 ## Hardware requirements
 
@@ -29,13 +32,13 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 **Supported tablets**
 |Tablet|Processor|RAM|Disk|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4    |Core i5  |4GB  |128GB  |
-|Surface Pro 4    |Core i5  |8GB  |256GB  |    
+|Surface Pro 4       |Core i5  |4GB  |128GB  |
+|Surface Pro 4       |Core i5  |8GB  |256GB  |    
 |Surface Pro (2017)  |Core i5  |4GB  |128GB  |
 |Surface Pro (2017)  |Core i5  |8GB  |256GB  |
 |Surface Pro (2017)  |Core i7  |8GB  |128GB  |
-|Surface Pro (2017)  |Core i7  |16GB  |512GB  |
-|Surface Pro (2017) |Core i7  |16GB  |1TB  |
+|Surface Pro (2017)  |Core i7  |16GB |512GB  |
+|Surface Pro (2017)  |Core i7  |16GB |1TB    |
    
 > [!NOTE]
 > Core M3 processors are not supported.
@@ -57,7 +60,7 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 
  
 **Certified firmware versions for USB audio and video peripherals**
-|**Skype Room Systems v2 peripherals**|**Firmware version certified for Skype Room Systems v2**|
+|Skype Room Systems v2 peripherals|Firmware version certified for Skype Room Systems v2|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Audio - 1.0.172  <br/> Video - 1.0.156  <br/> |
