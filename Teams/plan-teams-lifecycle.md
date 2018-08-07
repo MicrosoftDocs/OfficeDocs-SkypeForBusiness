@@ -24,23 +24,33 @@ Planning for lifecycle management is important, because collaboration isn’t ju
 
 The following concepts and definitions all affect the decisions you make for lifecycle management.
 
-**Teams**  A team is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Office 365 Groups, and changes to Office 365 group membership sync to the team.
+**Teams**
 
-**Channels**  are the collaboration spaces within a team where the actual work is done. Anyone on the team can see and participate in any of the channels, which can be extended with apps to aid the workflow. There can be up to 200 channels in a team.
+A team is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Office 365 Groups, and changes to Office 365 group membership sync to the team.
 
-**Team origins** can come from a variety of methods. You can:
+**Channels**
+
+Channels are the collaboration spaces within a team where the actual work is done. Anyone on the team can see and participate in any of the channels, which can be extended with apps to aid the workflow. There can be up to 200 channels in a team.
+
+**Team origins**
+
+Teams can originate from a variety of methods, including:
 
 -   Create the team from scratch. Add members by using individual email aliases or usernames, or expand a distribution list.
 -   Create the team from an existing team, and use its channel configuration and any app configuration as a template. You can optionally also use its membership list.
 -   Add a team to an existing Office 365 Group, which also gives the team access to its mailbox and SharePoint site.
 -   Use the Microsoft Graph API or PowerShell cmdlets to create teams. The API can programmatically create teams based on Global Address Book attributes (region, department) or business processes (client engagements, classroom rosters).
 
-**Team access types** determine who can join the team:
+**Team access types**
+
+These determine who can join the team:
 
 -   _Private_ teams are restricted to team members that the team owner(s) approve. This is a typical setting for project teams and virtual teams in a large organization.
 -   _Public_ teams are open for anyone in the organization to join directly. This is useful for collaboration on topics of general interest to people in different departments working on different projects. This is a good default setting for smaller organizations.
 
-**Team user types** determine how much control a team member has:
+**Team user types** 
+
+These determine how much control a team member has:
 
 -   _Tenant admin_ has full control over roles, permissions, directory, and apps.
 -   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of users. 
