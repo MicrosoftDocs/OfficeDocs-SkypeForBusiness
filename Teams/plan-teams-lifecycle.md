@@ -68,7 +68,7 @@ For more information, see [Plan for governance in Teams](plan-teams-governance.m
 
 Generally speaking, a team has a purpose that’s aligned with a project or accomplishing a goal. They aren’t created to last forever. Even if a team was formed based on a shared interest, the team membership will probably change over time and the discussion might grow stale—only to surface again in a slightly different way in a different team.
 
-Each team of course has a beginning, when the team is created and the channels are set up; a middle, during which channels are created and deleted to match the rhythm of the work; and an end, when the team has completed its purpose and reached the end of its useful life. 
+Each team has a beginning, when the team is created and the channels are set up; a middle, during which channels are created and deleted to match the rhythm of the workflow; and an end, when the team has completed its purpose and reached the end of its useful life. 
 
 ### Stage 1: Beginning
 
@@ -108,10 +108,12 @@ Because teams are living organisms, they occasionally need to be checked on and 
 -   Let channels evolve with business needs, adding new ones as necessary and allowing old ones to fade (or deleting them, if they contain sensitive or ephemeral data).
 -   Carve out new teams as larger groups or interest-based areas emerge.
 -   Try different channel collaborations, such as channel meetings or tab conversations around documents.
--   If a team starts to get into a rut, consider:
-    -   Driving communications into Teams as opposed to email.
-    -   Using mobile apps to increase engagement.
-    -   Pruning the number of channels.
+
+If a team starts to get into a rut, consider:
+
+-   Driving communications into Teams as opposed to email.
+-   Using mobile apps to increase engagement.
+-   Pruning the number of channels.
 
 |    |     |
 |-----------|------------|
