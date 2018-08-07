@@ -66,7 +66,9 @@ For more information, see [Plan for governance in Teams](plan-teams-governance.m
 
 ## Teams lifecycle stages
 
-NEED INTRO
+Generally speaking, a team has a purpose that’s aligned with a project or accomplishing a goal. They aren’t created to last forever. Even if a team was formed based on a shared interest, the team membership will probably change over time and the discussion might grow stale—only to surface again in a slightly different way in a different team.
+
+Each team of course has a beginning, when the team is created and the channels are set up; a middle, during which channels are created and deleted to match the rhythm of the work; and an end, when the team has completed its purpose and reached the end of its useful life. 
 
 ### Stage 1: Beginning
 
@@ -84,9 +86,9 @@ It’s optimal to identify at least two team owners, to account for absence or r
 
 #### Set up channels
 
-Any team owner or member with appropriate permissions can create channels in a team. It’s important to consider the goal of each channel Options include collaboration around projects, discussions of certain topics. The General channel is included by default in every team; most teams will create additional channels. It’s likely that channels will grow organically as new topics or projects arise, and discussions might outgrow the channel they began in.
+Any team owner or member with appropriate permissions can create channels in a team. It’s important to consider the goal of each channel—options include collaboration around projects, discussions of topics, areas of common interest. By default, every team includes a **General** channel; most teams need more than this and will create additional channels. It’s likely that the set of channels will grow organically as new topics or projects arise, and discussions might outgrow the channel they began in.
 
-To spark interest, a channel owner can post a welcome message, upload relevant documents to the Files tab, or add tabs or connectors to the channel. The owner also sets the channel description, and can “auto-favorite” important channels so they’re listed by default for all team members.
+To spark interest, the channel owner can post a welcome message, upload relevant documents to the **Files** tab, or add tabs or connectors to the channel. The owner also sets the channel description, and can “auto-favorite” important channels so they’re listed by default for all team members.
 
 |    |     |
 |-----------|------------|
