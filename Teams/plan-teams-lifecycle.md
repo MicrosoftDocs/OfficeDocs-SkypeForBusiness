@@ -18,9 +18,9 @@ appliesto:
 
 Teams provides a rich set of tools to implement any lifecycle management capabilities your organization might require. This article guides IT pros to ask the right questions to determine their requirements for lifecycle management, and how to meet them. 
 
-Planning for lifecycle is important because collaboration is not just a point in time activity. Typically projects will consist of a beginning, middle and end.
+Planning for lifecycle management is important because collaboration isn't just an activity you do once and forget. Most projects have a beginning, a middle, and an end, and each phase requires different management ACTIVITIES.
 
-## Lifecycle constructs
+## Lifecycle concepts
 [PLACEHOLDER] need intro text
 
 
@@ -69,7 +69,7 @@ Planning for lifecycle is important because collaboration is not just a point in
 
 ## IT Decisions to make before getting started
 
-TO make sure that your organization is using Teams following organizational requirements, prior to rolling Teams out to your organization, you should implement any required governance policies. This typically includes items like naming conventions, expiration policies, retention policies and more. 
+To make sure that your organization is using Teams following organizational requirements, prior to rolling Teams out to your organization, you should implement any required governance policies. This typically includes items like naming conventions, expiration policies, retention policies and more. 
 
 For more details on planning for governance in Teams, see [Plan for governance in Teams](plan-teams-governance.md).
 

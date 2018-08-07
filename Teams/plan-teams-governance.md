@@ -32,17 +32,16 @@ Your organization might require that you implement strict controls on how teams 
 Use the following table to capture your organization’s requirements.
 |Capability |Details |Azure AD Premium <br> license required |Decision |
 |---------|---------|---------|---------|
-|Team naming policy | Prefix-Suffix–based, Custom Blocked Words |P1 |TBD |
-|Team classification |Assign classifications to teams |P1 |TBD |
-|Team guest access |Allow or prevent guests from being added to teams |No |TBD |
-|Team creation |Limit team creation to administrators |No |TBD|
-|Team creation |Limit team creation to security group members |P1 |TBD|
+|Team naming policy | Use Prefix-Suffix–based, Custom Blocked Words. |P1 |TBD |
+|Team classification |Assign classifications to teams. |P1 |TBD |
+|Team guest access |Allow or prevent guests from being added to teams. |No |TBD |
+|Team creation |Limit team creation to administrators. |No |TBD|
+|Team creation |Limit team creation to security group members. |P1 |TBD|
 
 <br>
 
 > [!NOTE]
-> Limiting group and team creation can slow your users' productivity, because many Office 365 services require that groups get created for the service to function. <br>
-For additional information, navigate to and expand, [Why control who creates Office 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
+> Limiting group and team creation can slow your users’ productivity, because many Office 365 services require that groups be created for the service to function. For additional information, navigate to and expand [Why control who creates Office 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
 
 #### Additional information
@@ -62,7 +61,7 @@ Your organization might have additional requirements for setting policies for ex
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Does your organization require specifying and expiration date for teams?</li><li>Does your organization require specific data retention policies applied to teams?</li><li>Does your organization expect to require the ability to archive inactive teams to preserve the content in a read-only state?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Does your organization require specifying an expiration date for teams?</li><li>Does your organization require specific data retention policies be applied to teams?</li><li>Does your organization expect to require the ability to archive inactive teams to preserve the content in a read-only state?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organization’s requirements for team expiration, data retention, and archiving.</li><li>Plan to implement these requirements as part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
 
 > [!TIP]
