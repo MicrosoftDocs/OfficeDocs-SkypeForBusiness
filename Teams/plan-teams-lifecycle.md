@@ -39,7 +39,7 @@ Teams can originate from a variety of methods, including:
 -   Create the team from scratch. Add members by using individual email aliases or usernames, or expand a distribution list.
 -   Create the team from an existing team, and use its channel configuration and any app configuration as a template. You can optionally also use its membership list.
 -   Add a team to an existing Office 365 Group, which also gives the team access to its mailbox and SharePoint site.
--   Use the Microsoft Graph APIs or PowerShell cmdlets to create teams. The APIs can programmatically create teams based on Global Address Book attributes (region, department) or business processes (client engagements, classroom rosters).
+-   Use the Microsoft Teams Graph APIs or PowerShell cmdlets to create teams. The APIs can programmatically create teams based on Global Address Book attributes (region, department) or business processes (client engagements, classroom rosters).
 
 **Team access types**
 
@@ -99,13 +99,13 @@ To spark interest, the channel owner can post a welcome message, upload relevant
 
 As the teamwork begins, the team membership probably begins to evolve, along with the channel hierarchy. Unless the team needs to be strictly controlled and locked down, it’s a good idea to encourage exploration even if it leads to dead ends. As users get more comfortable, they can experiment with \@team mentions, marking channels as favorite, and using the General tab to get comfortable with posting. Each team is different; let usage guide the evolution of the design.
 
-Trust, tolerance, and a spirit of collaboration grow organically as key group communications are initiated and sustained in Teams. Team members see the usefulness of group conversations over one-on-one chats. It can be quite compelling to watch a team personality develop, aided by fun features like Giphys and stickers. At the same time, it’s important that rogue or rude behavior be discouraged any time it occurs.
+Trust, tolerance, and a spirit of collaboration grow organically as key group communications are initiated and sustained in Teams. Team members see the usefulness of group conversations over one-on-one chats. Individual teams tend to develop their own personality, aided by fun features like Giphys and stickers. At the same time, it’s important that rogue or rude behavior be discouraged any time it occurs.
 
 Because teams are living organisms, they occasionally need to be checked on and cared for. These are some best practices:
 
--   Use champions to sustain usage if it starts to flag, and also to discover and propagate creative new behaviors. 
+-   Use champions to sustain usage if it starts to drop, and also to discover and propagate creative new behaviors. 
 -   Manage guests judiciously, making sure their access ends when the business need ends.
--   Let channels evolve with business needs, adding new ones as necessary and allowing old ones to fade (or deleting them, if they contain sensitive or ephemeral data).
+-   Let channels evolve with business needs, adding new ones as necessary and allowing old ones to fade (or consider archiving or deleting them, if they contain sensitive or ephemeral data, based on your retention requirements).
 -   Carve out new teams as larger groups or interest-based areas emerge.
 -   Try different channel collaborations, such as channel meetings or tab conversations around documents.
 
@@ -124,7 +124,7 @@ If a team starts to get into a rut, consider:
 
 When the work of a team has run its course, it’s important to formally acknowledge that it’s over. This gives team members a sense of closure and also prevents anyone from accessing outdated, stale information. You can use the team itself to conduct closure rituals like post-mortems and executive summaries.
 
-You can delete teams that you know you don’t need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a “soft delete” that IT can reverse for up to 30 days. Deleting teams doesn’t affect any chats or content that were archived in accordance with compliance policies.
+You can delete teams that you know you don’t need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a “soft delete” that IT can reverse for up to 30 days. Deleting teams doesn’t affect any chats or content that were retained in accordance with compliance policies.
 
 You can also use expiration, retention, and archiving policies to reduce exposure from teams that aren’t active any longer or whose owners have left the organization.
 
