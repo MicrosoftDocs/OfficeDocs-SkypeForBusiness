@@ -3,7 +3,7 @@ title: Turn on Microsoft Teams in your Office 365 organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 08/7/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
@@ -16,7 +16,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-
+# Enable Teams in your organization
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
