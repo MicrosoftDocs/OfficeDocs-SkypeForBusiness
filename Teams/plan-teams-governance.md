@@ -22,9 +22,6 @@ Teams provides a rich set of tools to implement any governance capabilities your
 
 Your organization might require that you implement strict controls on how teams are named and classified, whether guests can be added as team members, and who can create teams. You can configure each of these areas by using Azure Active Directory (Azure AD). 
 
-> [!NOTE]
-> Limiting group and team creation isn’t recommended. 
-
 <br>
 |         |         |         |
 |---------|---------|---------|
@@ -40,6 +37,12 @@ Use the following table to capture your organization’s requirements.
 |Team guest access |Allow or prevent guests from being added to teams |No |TBD |
 |Team creation |Limit team creation to administrators |No |TBD|
 |Team creation |Limit team creation to security group members |P1 |TBD|
+
+<br>
+
+> [!NOTE]
+> Limiting group and team creation can slow your users' productivity, because many Office 365 services require that groups get created for the service to function. <br>
+For additional information, navigate to and expand, [Why control who creates Office 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
 
 #### Additional information
