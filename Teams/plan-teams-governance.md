@@ -20,10 +20,10 @@ Teams provides a rich set of tools to implement any governance capabilities your
 
 ## Group and team creation, naming, classification, and guest access
 
-Your organization might require that you implement strict controls on how teams are named and classified, whether guests can be added as team members and who can create teams. You can configure each of these areas by using Azure Active Directory (Azure AD). 
+Your organization might require that you implement strict controls on how teams are named and classified, whether guests can be added as team members, and who can create teams. You can configure each of these areas by using Azure Active Directory (Azure AD). 
 
 > [!NOTE]
-> Disabling group and team creation is not recommended. 
+> Limiting group and team creation isn’t recommended. 
 
 <br>
 |         |         |         |
@@ -96,10 +96,10 @@ Another important aspect of governance and lifecycle management for Teams is the
 
 ### Teams Feature Management Focus Areas
 
-Teams provides granular capabilities for controlling messaging, meeting, calling and live event features and more via policies. Different policies can be applied to all users as default or per user as required by your organization. 
+Teams provides granular capabilities for controlling messaging, meeting, calling, and live event features and more, via policies. Different policies can be applied to all users by default or per user as required by your organization. 
 
 
-For detailed lists of all settings including technical guidance on how to implement them for your organization see the following articles:
+For detailed lists of all settings, including technical guidance on how to implement them for your organization, see the following articles:
 
 -    [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md)
 -    [Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
@@ -113,4 +113,5 @@ Teams is built on the advanced security and compliance capabilities of Office 36
 > If your organization has compliance and security requirements, review the in-depth content provided about this topic in the article [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md).
 
 ## Teams lifecycle management
-In addition to planning for governance, your organization may also be interested in plannign for Teams lifecycle management. For practical guidance on planning for teams lifecycle management see [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
+
+In addition to planning for governance, your organization might also be interested in planning for Teams lifecycle management. For practical guidance on planning for teams lifecycle management, see [Plan for lifecycle management in Teams](plan-teams-lifecycle.md).
