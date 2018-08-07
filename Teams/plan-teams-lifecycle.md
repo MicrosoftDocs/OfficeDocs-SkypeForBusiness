@@ -39,7 +39,7 @@ Teams can originate from a variety of methods, including:
 -   Create the team from scratch. Add members by using individual email aliases or usernames, or expand a distribution list.
 -   Create the team from an existing team, and use its channel configuration and any app configuration as a template. You can optionally also use its membership list.
 -   Add a team to an existing Office 365 Group, which also gives the team access to its mailbox and SharePoint site.
--   Use the Microsoft Graph API or PowerShell cmdlets to create teams. The API can programmatically create teams based on Global Address Book attributes (region, department) or business processes (client engagements, classroom rosters).
+-   Use the Microsoft Graph APIs or PowerShell cmdlets to create teams. The APIs can programmatically create teams based on Global Address Book attributes (region, department) or business processes (client engagements, classroom rosters).
 
 **Team access types**
 
