@@ -18,7 +18,7 @@ appliesto:
 
 Teams provides a rich set of tools to implement any lifecycle management capabilities your organization might require. This article guides IT pros to ask the right questions to determine their requirements for lifecycle management, and how to meet them. 
 
-Planning for lifecycle management is important, because collaboration isn’t just an activity you do once and forget. Most projects consist of a beginning, middle, and end. Teams do too, but they can be constructed and used in such a variety of ways that it’s not always obvious where they are in their lifecycle.
+Planning for lifecycle management is important, because collaboration isn’t just an activity you do once and forget. Most projects consist of a beginning, middle, and end. Teams do too, but they can be constructed and used in such a variety of ways that it’s not always obvious which stage of their lifecycle they’re in.
 
 ## Lifecycle concepts
 
