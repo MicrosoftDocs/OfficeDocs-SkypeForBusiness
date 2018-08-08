@@ -71,6 +71,12 @@ DisableWsFedPassiveAuth overrides the current setting of *UseWsFedPassiveAuth* b
 
 DisableFormsAuth overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for external connection.            |
 
+NOTE  You must run `Enable-CsComputer` and an IISReset for these commands to begin doing their job quickly.
+
+The cmdlet, `Set-CsWebServiceConfiguration`, can be used at different security scopes in Skype for Business: globally, at the site level, or on the service level. This means you can run this cmdlet for different scopes, using different parameters. I'd caution you against creating too much complexity in your deployment, unless it's truly called for. If it is, be sure to document the values used for each of the scopes, thoroughly. Avoid the headaches later.
+
+ 
+
 
 
 
