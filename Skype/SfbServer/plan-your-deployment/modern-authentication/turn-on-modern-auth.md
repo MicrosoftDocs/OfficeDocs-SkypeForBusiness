@@ -11,7 +11,7 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 
 
-description: "This article lists what online and on-premises topologies are supported with Modern Authentication in Skype for Business, as well as security features that apply to each topology."
+description: "This article outlines new cmdlets that give admins more control of authentication methods used inside, and outside, of a business. Administrators can turn authentication methods on or off internally, or externally to their network."
 ---
 
 # Turn on Modern Authentication and other authentication methods internally and externally to your network
