@@ -45,7 +45,7 @@ Teams can originate from a variety of methods, including:
 
 These determine who can join the team:
 
--   _Private_ teams are restricted to team members that the team owner(s) approve. This is a typical setting for project teams and virtual teams in a large organization.
+-   _Private_ teams are restricted to team members who the team owner(s) approve. This is a typical setting for project teams and virtual teams in a large organization.
 -   _Public_ teams are open for anyone in the organization to join directly. This is useful for collaboration on topics of general interest to people in different departments working on different projects. This is a good default setting for smaller organizations.
 
 **Team user types** 
@@ -55,7 +55,7 @@ These determine how much control a team member has:
 -   _Tenant admin_ has full control over roles, permissions, directory, and apps.
 -   _Team creator_ has permissions to create a group or team in the directory. The admin can constrain this user type to a subset of users. 
 -   _Team owner_ manages membership and settings for the team. There can be as many as 10 team owners per team.
--   _Team member_ fully participates in team, can be allowed to create channels.
+-   _Team member_ fully participates in a team, and can be allowed to create channels.
 -   _Guest_ is a user who’s external to the organization. Anyone with an email address can be invited as a guest.
 
 ## IT decisions to make before getting started
@@ -86,7 +86,7 @@ It’s optimal to identify at least two team owners, to account for absence or r
 
 #### Set up channels
 
-Any team owner or member with appropriate permissions can create channels in a team. It’s important to consider the goal of each channel—options include collaboration around projects, discussions of topics, areas of common interest. By default, every team includes a **General** channel; most teams need more than this and will create additional channels. It’s likely that the set of channels will grow organically as new topics or projects arise, and discussions might outgrow the channel they began in.
+Any team owner or member with appropriate permissions can create channels in a team. It’s important to consider the goal of each channel: options include collaboration around projects, discussions of topics, areas of common interest. By default, every team includes a **General** channel; most teams need more than this and will create additional channels. It’s likely that the set of channels will grow organically as new topics or projects arise, and discussions might outgrow the channel they began in.
 
 To spark interest, the channel owner can post a welcome message, upload relevant documents to the **Files** tab, or add tabs or connectors to the channel. The owner also sets the channel description, and can “auto-favorite” important channels so they’re listed by default for all team members.
 
@@ -97,7 +97,7 @@ To spark interest, the channel owner can post a welcome message, upload relevant
 
 ### Stage 2: Middle
 
-As the teamwork begins, the team membership probably begins to evolve, along with the channel hierarchy. Unless the team needs to be strictly controlled and locked down, it’s a good idea to encourage exploration even if it leads to dead ends. As users get more comfortable, they can experiment with \@team mentions, marking channels as favorite, and using the General tab to get comfortable with posting. Each team is different; let usage guide the evolution of the design.
+As the teamwork begins, the team membership probably begins to evolve, along with the channel hierarchy. Unless the team needs to be strictly controlled and locked down, it’s a good idea to encourage exploration even if it leads to dead ends. As users get more comfortable, they can experiment with \@team mentions, marking channels as favorite, and using the **General** tab to get comfortable with posting. Each team is different; let usage guide the evolution of the design.
 
 Trust, tolerance, and a spirit of collaboration grow organically as key group communications are initiated and sustained in Teams. Team members see the usefulness of group conversations over one-on-one chats. Individual teams tend to develop their own personality, aided by fun features like Giphys and stickers. At the same time, it’s important that rogue or rude behavior be discouraged any time it occurs.
 
@@ -139,14 +139,14 @@ The following example shows how a team and its channels might be structured for 
 
 |Channel  |Tabs and resources |
 |---------|---------|
-|General     |Onboarding guidance <br> Role information <br> Training videos         |
-|Design     |Specifications and drawings <br> User feedback         |
-|Documentation     |Product help <br> Implementation guidance         |
-|Engineering     |Delivery schedule and tracking <br> Quality and reliability info         |
-|Go to Market     |Marketing strategy overview <br> Go-to-market plan          |
-|Production     |Production schedule <br> Production management tool <br> Downtime alerts         |
-|Research     |Competitive research <br> User feedback and experiments         |
-|Strategy and Timeline     |Product vision and strategy <br> Market opportunity and timelines         |
-|Support and Feedback     |Conversations about any help that’s needed <br> Customer feature request form         |
+|General     |Onboarding guidance <br>Role information <br>Training videos         |
+|Design     |Specifications and drawings <br>User feedback         |
+|Documentation     |Product help <br>Implementation guidance         |
+|Engineering     |Delivery schedule and tracking <br>Quality and reliability info         |
+|Go to Market     |Marketing strategy overview <br>Go-to-market plan          |
+|Production     |Production schedule <br>Production management tool <br>Downtime alerts         |
+|Research     |Competitive research <br>User feedback and experiments         |
+|Strategy and Timeline     |Product vision and strategy <br>Market opportunity and timelines         |
+|Support and Feedback     |Conversations about any help that’s needed <br>Customer feature request form         |
 
 
