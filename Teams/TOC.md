@@ -144,9 +144,9 @@
 ##  [Accessibility solutions for Skype for Business Online and Microsoft Teams](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ##  [Code of practice in the U.K.](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ##  [Compliant handling of code for the U.K.](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-##  [Complimentary dial out period](/SkypeForBusiness/legal-and-regulatory/?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Complimentary dial out period](/SkypeForBusiness/legal-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Data collection practices](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-##  [Emergency call labels](/SkypeForBusiness/legal-and-regulatory/emergency-calling-lables?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Emergency call labels](/SkypeForBusiness/legal-and-regulatory/emergency-calling-labels?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ##  [Emergency calling terms and conditions](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
@@ -189,6 +189,7 @@
 ## Meetings
 ### [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
 ### [Dialing out from a meeting so other people can join it](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Disabling toll-free numbers for specific users](/SkypeForBusiness/audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Enable users to record their name when they join a meeting](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Turn on or off entry and exit announcements for meetings](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams cloud meeting recording](cloud-recording.md)
@@ -232,7 +233,7 @@
 #### [Phone numbers for Audio Conferencing](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Reset a conference ID for a user](/SkypeForBusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Reset the Audio Conferencing PIN for a user](/SkypeForBusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Reset the Audio Conferencing PIN for a user](/SkypeForBusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [See a list of Audio Conferencing numbers](/SkypeForBusiness/audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [See a list of users that are enabled for Audio Conferencing](/SkypeForBusiness/audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [See, change, and reset a conference ID assigned to a user](/SkypeForBusiness/audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
