@@ -18,4 +18,5 @@ description: "Learn about Messaging policies and how they can be used to control
 
 # What are Messaging policies in Teams?
 
-Coming soon!!
+Messaging policies are used to control what chat and channel messaging features are available to users in Teams. You can use the default policy that is created or create one or more custom messaging policies for people in your organization
+
