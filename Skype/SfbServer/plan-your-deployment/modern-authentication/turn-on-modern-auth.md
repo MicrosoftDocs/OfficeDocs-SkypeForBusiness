@@ -56,20 +56,8 @@ Here are the commands valid for the parameters above:
 
 |Parameter  |Valid values |Description  |
 |---------|:---------|---------|
-|OverrideAuthTypeForInternalClients     |DisableWindowsAuth, DisableOAuth, DisableWsFedPassiveAuth, DisableFormsAuth          |         |DisableWindowsAuth overrides the current setting of *UseWindowsAuth* by disallowing Windows authentication for internal connection. 
-
-DisableOAuth overrides the current setting of *AllowExternalAuthentication* by disallowing OAuth authentication for internal connection. 
-
-DisableWsFedPassiveAuth overrides the current setting of *UseWsFedPassiveAuth* by disallowing LiveID authentication for internal connection. 
-
-DisableFormsAuth overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for internal connection
-|OverrideAuthTypeForExternalClients      |     DisableWindowsAuth, DisableOAuth, DisableWsFedPassiveAuth, DisableFormsAuth    |DisableWindowsAuth overrides the current setting of *UseWindowsAuth* by disallowing Windows authentication for external connection. 
-
-DisableOAuth overrides the current setting of *AllowExternalAuthentication* by disallowing OAuth authentication for external connection. 
-
-DisableWsFedPassiveAuth overrides the current setting of *UseWsFedPassiveAuth* by disallowing LiveID authentication for external connection. 
-
-DisableFormsAuth overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for external connection.            |
+|OverrideAuthTypeForInternalClients     |DisableWindowsAuth, DisableOAuth, DisableWsFedPassiveAuth, DisableFormsAuth          | DisableWindowsAuth overrides the current setting of *UseWindowsAuth* by disallowing Windows authentication for internal connection. </br>DisableOAuth overrides the current setting of *AllowExternalAuthentication* by disallowing OAuth authentication for internal connection. </br> DisableWsFedPassiveAuth overrides the current setting of *UseWsFedPassiveAuth* by disallowing LiveID authentication for internal connection. </br>DisableFormsAuth overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for internal connection        |
+|OverrideAuthTypeForExternalClients      |     DisableWindowsAuth, DisableOAuth, DisableWsFedPassiveAuth, DisableFormsAuth    |DisableWindowsAuth overrides the current setting of *UseWindowsAuth* by disallowing Windows authentication for external connection. </br> DisableOAuth overrides the current setting of *AllowExternalAuthentication* by disallowing OAuth authentication for external connection. </br> DisableWsFedPassiveAuth overrides the current setting of *UseWsFedPassiveAuth* by disallowing LiveID authentication for external connection. </br>DisableFormsAuth overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for external connection.            |
 
 NOTE  You must run `Enable-CsComputer` and an IISReset for these commands to begin doing their job quickly.
 
