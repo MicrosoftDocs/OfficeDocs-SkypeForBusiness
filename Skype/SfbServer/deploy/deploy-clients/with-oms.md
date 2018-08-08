@@ -131,8 +131,8 @@ To extract your custom fields out of the captured event logs, follow these steps
 
 **Table 1**
 
-| **JSON field**               | **OMS custom field**       | **Event ID** |
-|------------------------------|----------------------------|-----------------|
+| JSON field                   | OMS custom field           | Event ID        |
+|:-----------------------------|:---------------------------|:----------------|
 | Description                  | SRSEventDescription_CF     | Not selected    |
 | ResourceState                | SRSResourceState_CF        | Not selected    |
 | OperationName                | SRSOperationName_CF        | Not selected    |

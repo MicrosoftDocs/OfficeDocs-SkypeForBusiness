@@ -14,7 +14,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: "What do you want to do? Click the link to the task that you want to perform."
 ---
 
-# Users: New Lync Server User
+# Users: New User
  
 What do you want to do? Click the link to the task that you want to perform.
   

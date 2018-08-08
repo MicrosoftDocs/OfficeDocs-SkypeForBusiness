@@ -14,8 +14,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: "You can create new server roles in the Lync Server 2013 node of Topology Builder by right clicking on Lync Server 2013, select New, then select the server role to create."
 ---
 
-# Lync Server 2013 Create New Expander
+# Skype for Business Server Create New Expander
  
-You can create new server roles in the Lync Server 2013 node of Topology Builder by right clicking on **Lync Server 2013**, select **New**, then select the server role to create.
+You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.
   
 
