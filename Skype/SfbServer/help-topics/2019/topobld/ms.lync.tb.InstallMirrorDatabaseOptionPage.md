@@ -16,16 +16,5 @@ description: "You configure Mirror Database Settings by defining the following:"
 
 # Install Mirror Database Option Page
  
-You configure **Mirror Database Settings** by defining the following:
-  
-- Type the **Path to file share** to define the location for the backup SQL Server files for the database being mirrored.
-    
-    > [!NOTE]
-    > The primary SQL Server instance (either named instance or default instance) must have write permissions to the file share you define here. The mirror SQL Server instance (either named instance or default instance) must have read permissions to the same file share. 
-  
- **OK** Accepts and commits changes to the dialog.
-  
- **Cancel** Discards changes and closes the dialog.
-  
- **Help** Displays this help screen.
-  
+> [!NOTE]
+> SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.
