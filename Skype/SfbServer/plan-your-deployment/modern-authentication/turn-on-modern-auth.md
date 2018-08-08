@@ -11,7 +11,7 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 
 
-description: "This article outlines new cmdlets that give admins more control of authentication methods used inside, and outside, of a business. Administrators can turn authentication methods on or off internally, or externally to their network."
+description: "This article outlines cmdlets that give admins more control of authentication methods used inside, and outside, of a business. Administrators can turn authentication methods on or off internally, or externally to their network."
 ---
 
 # Turn off Modern Authentication and other authentication methods internally and externally to your network
@@ -41,6 +41,15 @@ Be aware that this cmdlet turns off internal and external connections that use N
 ## Web Services
 
 The story is not the same in Web Services. Here, when methods (like NTLM) are stopped, the administrator has the choice of preventing them  externally, or internally, or both. 
+
+Here are the new parameters added to:
+
+`Set-CsWebServiceConfiguration`
+
+|Parameters  |Required?  |Type  |Description  |
+|---------|---------|---------|---------|
+|OverrideAuthTypeForInternalClients  | Optional         | System.String        | This is a string made up of comma separated option strings where each option overrides a specific authentication for *internal* client. The default is an empty string ($null).        |
+|OverrideAuthTypeForExternalClients    | Optional        | System.String        |  A string composed of comma separated option strings where each overrides a specific authentication for *external* clients. The default is empty string ($null).      
 
 
 
