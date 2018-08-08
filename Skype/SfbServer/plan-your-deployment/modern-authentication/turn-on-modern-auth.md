@@ -45,19 +45,20 @@ The story is not the same in Web Services. Here, when methods (like NTLM) are st
 Here are the new parameters added to:
 
 `Set-CsWebServiceConfiguration`
+</p>
 
 |Parameters  |Required?  |Type  |Description  |
 |:---------|:---------:|:---------:|---------|
 |OverrideAuthTypeForInternalClients  | Optional         | System.String        | This is a string made up of comma separated option strings where each option overrides a specific authentication for *internal* client. The default is an empty string ($null).        |
 |OverrideAuthTypeForExternalClients    | Optional        | System.String        |  A string composed of comma separated option strings where each overrides a specific authentication for *external* clients. The default is empty string ($null).      
 
-Here are the commands valid for the parameters above:
+Here are the commands valid for the parameters above: </p>
 
 
 |Parameter  |Valid values |Description  |
 |---------|:---------|---------|
-|OverrideAuthTypeForInternalClients     |DisableWindowsAuth, DisableOAuth, DisableWsFedPassiveAuth, DisableFormsAuth          | _DisableWindowsAuth_ overrides the current setting of *UseWindowsAuth* by disallowing Windows authentication for internal connection. </br></p>_DisableOAuth_ overrides the current setting of *AllowExternalAuthentication* by disallowing OAuth authentication for internal connection. </br></p> _DisableWsFedPassiveAuth_ overrides the current setting of *UseWsFedPassiveAuth* by disallowing LiveID authentication for internal connection. </br></p>_DisableFormsAuth_ overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for internal connection        |
-|OverrideAuthTypeForExternalClients      |     DisableWindowsAuth, DisableOAuth, DisableWsFedPassiveAuth, DisableFormsAuth    |_DisableWindowsAuth_ overrides the current setting of *UseWindowsAuth* by disallowing Windows authentication for external connection. </br></p>_DisableOAuth_ overrides the current setting of *AllowExternalAuthentication* by disallowing OAuth authentication for external connection. </br></p>_DisableWsFedPassiveAuth_ overrides the current setting of *UseWsFedPassiveAuth* by disallowing LiveID authentication for external connection. </br></p>_DisableFormsAuth_ overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for external connection.            |
+|OverrideAuthTypeForInternalClients     |DisableWindowsAuth, DisableOAuth, DisableWsFedPassiveAuth, DisableFormsAuth          | __DisableWindowsAuth__ overrides the current setting of *UseWindowsAuth* by disallowing Windows authentication for internal connection. </br></p>__DisableOAuth__ overrides the current setting of *AllowExternalAuthentication* by disallowing OAuth authentication for internal connection. </br></p> __DisableWsFedPassiveAuth__ overrides the current setting of *UseWsFedPassiveAuth* by disallowing LiveID authentication for internal connection. </br></p>__DisableFormsAuth__ overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for internal connection        |
+|OverrideAuthTypeForExternalClients      |     DisableWindowsAuth, DisableOAuth, DisableWsFedPassiveAuth, DisableFormsAuth    |__DisableWindowsAuth__ overrides the current setting of *UseWindowsAuth* by disallowing Windows authentication for external connection. </br></p>__DisableOAuth__ overrides the current setting of *AllowExternalAuthentication* by disallowing OAuth authentication for external connection. </br></p>__DisableWsFedPassiveAuth__ overrides the current setting of *UseWsFedPassiveAuth* by disallowing LiveID authentication for external connection. </br></p>__DisableFormsAuth__ overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for external connection.            |
 
 NOTE  You must run `Enable-CsComputer` and an IISReset for these commands to begin doing their job quickly.
 
