@@ -60,11 +60,11 @@ Here are the commands valid for the parameters above: </p>
 |OverrideAuthTypeForInternalClients     |DisableWindowsAuth, DisableOAuth, DisableWsFedPassiveAuth, DisableFormsAuth          | __DisableWindowsAuth__ overrides the current setting of *UseWindowsAuth* by disallowing Windows authentication for internal connection. </br></p>__DisableOAuth__ overrides the current setting of *AllowExternalAuthentication* by disallowing OAuth authentication for internal connection. </br></p> __DisableWsFedPassiveAuth__ overrides the current setting of *UseWsFedPassiveAuth* by disallowing LiveID authentication for internal connection. </br></p>__DisableFormsAuth__ overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for internal connection        |
 |OverrideAuthTypeForExternalClients      |     DisableWindowsAuth, DisableOAuth, DisableWsFedPassiveAuth, DisableFormsAuth    |__DisableWindowsAuth__ overrides the current setting of *UseWindowsAuth* by disallowing Windows authentication for external connection. </br></p>__DisableOAuth__ overrides the current setting of *AllowExternalAuthentication* by disallowing OAuth authentication for external connection. </br></p>__DisableWsFedPassiveAuth__ overrides the current setting of *UseWsFedPassiveAuth* by disallowing LiveID authentication for external connection. </br></p>__DisableFormsAuth__ overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for external connection.            |
 
-NOTE  You must run `Enable-CsComputer` and an IISReset for these commands to begin doing their job quickly.
+NOTE  You must run `Enable-CsComputer` and an IISReset to push these changes out and allow them to do their work.
 
 The cmdlet, `Set-CsWebServiceConfiguration`, can be used at different security scopes in Skype for Business: globally, at the site level, or on the service level. This means you can run this cmdlet for different scopes, using different parameters. I'd caution you against creating too much complexity in your deployment, unless it's truly called for. If it is, be sure to document the values used for each of the scopes, thoroughly. Avoid the headaches later.
 
- 
+## Supported Topologies
 
 
 
