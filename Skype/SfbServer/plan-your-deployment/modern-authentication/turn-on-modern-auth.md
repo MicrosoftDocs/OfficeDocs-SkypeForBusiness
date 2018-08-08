@@ -47,7 +47,7 @@ Here are the new parameters added to:
 `Set-CsWebServiceConfiguration`
 
 |Parameters  |Required?  |Type  |Description  |
-|---------|---------|---------|---------|
+|:---------|:---------:|:---------:|---------|
 |OverrideAuthTypeForInternalClients  | Optional         | System.String        | This is a string made up of comma separated option strings where each option overrides a specific authentication for *internal* client. The default is an empty string ($null).        |
 |OverrideAuthTypeForExternalClients    | Optional        | System.String        |  A string composed of comma separated option strings where each overrides a specific authentication for *external* clients. The default is empty string ($null).      
 
