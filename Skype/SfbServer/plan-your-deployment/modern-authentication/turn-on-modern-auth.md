@@ -14,9 +14,18 @@ ms.assetid:
 description: "This article outlines new cmdlets that give admins more control of authentication methods used inside, and outside, of a business. Administrators can turn authentication methods on or off internally, or externally to their network."
 ---
 
-# Turn on Modern Authentication and other authentication methods internally and externally to your network
+# Turn off Modern Authentication and other authentication methods internally and externally to your network
  
-NOTE If you're about to read this article, you should already know about supported Modern Authentication topologies, and about Modern Authentication config, but, in case you don't, here is the article you need to get started:
+NOTE If you're about to read this article, you should already know about supported Modern Authentication topologies, and about Modern Authentication config, but, in case you don't, here is the article you need start out:
 
  [https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
   
+Modern Authentication doesn't just enable more secure methods of access, like Two-Factor Auth, or Client Certificate Auth, it carries out authorization of your user without needing a username or password. It's pretty handy.
+
+This article will help you plug holes that have been exploited for Denial Of Service (DOS) attacks on Skype for Business Servers, by turning off older methods used for authentication, externally, inernally, or both, to your network. So, let's get started.
+
+## How 
+
+
+
+ 
