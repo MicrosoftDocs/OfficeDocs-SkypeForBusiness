@@ -24,7 +24,25 @@ Modern Authentication doesn't just enable more secure methods of access, like Tw
 
 This article will help you plug holes that have been exploited for Denial Of Service (DOS) attacks on Skype for Business Servers, by turning off older methods used for authentication, externally, inernally, or both, to your network. So, let's get started.
 
-## How 
+## What are we plugging? 
+
+These cmdlets work for both SIP and Web Services points of access. Though these two channels use different access methods, running the gammut from NTLM and Kerberos to Anonymous access, all standard methods used by Skype for Business have been taken into consideration.
+
+## SIP
+
+DOS attacks on SIP services use NTLM authentication heavily. NTLM is a username and password 'handshake' between the server and client, and does require credentials to be passed.
+
+This cmdlet will turn off NTLM for authorization inside the SIP service:
+
+`Set-CsProxyConfiguration UseNTLMforClientProxyAuth= false`
+
+Be aware that this cmdlet turns off internal and external connections that use NTLM. There is no method for turning off one without the other.
+
+## Web Services
+
+The story is not the same in Web Services. Here, when methods (like NTLM) are stopped, the administrator has the choice of preventing them  externally, or internally, or both. 
+
+
 
 
 
