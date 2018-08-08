@@ -24,7 +24,7 @@ Modern Authentication doesn't just enable more secure methods of access, like Tw
 
 This article will help you plug holes that have been exploited for Denial Of Service (DOS) attacks on Skype for Business Servers, by turning off older methods used for authentication, externally, inernally, or both, to your network. So, let's get started.
 
-## What's changing? 
+## What would you be changing? 
 
 These cmdlets work for both SIP and Web Services points of access. Though these two channels use different access methods, running the gammut from NTLM and Kerberos to Anonymous access, all standard methods used by Skype for Business have been taken into consideration.
 
