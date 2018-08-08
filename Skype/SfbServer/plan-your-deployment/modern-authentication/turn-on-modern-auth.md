@@ -51,6 +51,28 @@ Here are the new parameters added to:
 |OverrideAuthTypeForInternalClients  | Optional         | System.String        | This is a string made up of comma separated option strings where each option overrides a specific authentication for *internal* client. The default is an empty string ($null).        |
 |OverrideAuthTypeForExternalClients    | Optional        | System.String        |  A string composed of comma separated option strings where each overrides a specific authentication for *external* clients. The default is empty string ($null).      
 
+Here are the commands valid for the parameters above:
+
+
+|Parameter  |Valid values |Description  |
+|---------|:---------|---------|
+|OverrideAuthTypeForInternalClients     |DisableWindowsAuth, DisableOAuth, DisableWsFedPassiveAuth, DisableFormsAuth          |         |DisableWindowsAuth overrides the current setting of *UseWindowsAuth* by disallowing Windows authentication for internal connection. 
+
+DisableOAuth overrides the current setting of *AllowExternalAuthentication* by disallowing OAuth authentication for internal connection. 
+
+DisableWsFedPassiveAuth overrides the current setting of *UseWsFedPassiveAuth* by disallowing LiveID authentication for internal connection. 
+
+DisableFormsAuth overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for internal connection
+|OverrideAuthTypeForExternalClients      |     DisableWindowsAuth, DisableOAuth, DisableWsFedPassiveAuth, DisableFormsAuth    |DisableWindowsAuth overrides the current setting of *UseWindowsAuth* by disallowing Windows authentication for external connection. 
+
+DisableOAuth overrides the current setting of *AllowExternalAuthentication* by disallowing OAuth authentication for external connection. 
+
+DisableWsFedPassiveAuth overrides the current setting of *UseWsFedPassiveAuth* by disallowing LiveID authentication for external connection. 
+
+DisableFormsAuth overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for external connection.            |
+
+
+
 
 
 
