@@ -66,6 +66,17 @@ The cmdlet, `Set-CsWebServiceConfiguration`, can be used at different security s
 
 ## Supported Topologies
 
+Here are the supported topologies and the commands to support them.
+
+
+|Column1  |External  |Internal  |Comments  |
+|---------|---------|---------|---------|
+|Row1     |+Modern Auth </br> +Windows Auth    |+Modern Auth </br> +Windows Auth         |This is the default when MA is turned On.         |
+|Row2     |+ Modern Auth </br> -Windows Auth         | +Modern Auth </br> +Windows Auth       |This blocks password attacks externally and allows older clients that do not support ADL to still work internally, but clients that do support ADAL would use MA internally.        |
+|Row3     |+Modern Auth </br> -Windows Auth         |+Modern Auth </br> -Windows Auth         |This forces MA for all users. Only ADAL capable clients would work.         |
+|Row4     |+Modern Auth </br> -Windows Auth         |-Modern Auth </br> +Window Auth         |This blocks password attacks externally and allows all internal clients to use legacy auth.         |
+|Row5     | +Modern Auth </br> +Windows Auth        |-Modern Auth </br> +Windows Auth         |Externally ADAL clients will use MA and internally all clients will use legacy auth.         |
+|Row6     |         |         |         |
 
 
 
