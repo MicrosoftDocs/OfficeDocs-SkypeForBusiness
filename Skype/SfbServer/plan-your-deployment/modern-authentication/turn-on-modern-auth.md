@@ -66,7 +66,7 @@ The cmdlet, `Set-CsWebServiceConfiguration`, can be used at different security s
 
 ## Supported Topologies
 
-Here are the supported topologies and the commands to support them.
+Here are the supported topologies and the commands to configure them.
 
 
 |Column1  |External  |Internal  |Comments  |
