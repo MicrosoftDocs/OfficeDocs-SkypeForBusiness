@@ -2,7 +2,7 @@
   "redirections": [ 
     {
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/block-incoming-calls.md", 
-      "redirect_url": "https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365", 
       "redirect_document_id": true 
     },
     {
