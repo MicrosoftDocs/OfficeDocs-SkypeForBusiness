@@ -30,7 +30,7 @@ You can perform the following tasks on the **New Client Version Configuration** 
 
 The following lists describe the menus, command, fields, and properties on the page.
   
-- **User agent** You can select a client type from the list. The following table defines user agent codes.
+- **User agent** You can select a client type from the list. The following table defines user agent codes. This list includes legacy client types, some of which are no longer supported.  
     
 |**Client Name**|**User Agent**|
 |:-----|:-----|
