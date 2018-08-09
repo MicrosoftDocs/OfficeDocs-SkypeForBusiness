@@ -76,7 +76,7 @@ Here are the supported topologies and the commands to support them.
 |Row3     |+Modern Auth </br> -Windows Auth         |+Modern Auth </br> -Windows Auth         |This forces MA for all users. Only ADAL capable clients would work.         |
 |Row4     |+Modern Auth </br> -Windows Auth         |-Modern Auth </br> +Window Auth         |This blocks password attacks externally and allows all internal clients to use legacy auth.         |
 |Row5     | +Modern Auth </br> +Windows Auth        |-Modern Auth </br> +Windows Auth         |Externally ADAL clients will use MA and internally all clients will use legacy auth.         |
-|Row6     |         |         |         |
+
 
 
 
