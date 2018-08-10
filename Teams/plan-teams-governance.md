@@ -114,6 +114,8 @@ Teams is built on the advanced security and compliance capabilities of Office 36
 > [!Important]
 > If your organization has compliance and security requirements, review the in-depth content provided about this topic in the article [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md).
 
+<!--
 ## Teams lifecycle management
 
 In addition to planning for governance, your organization might also be interested in planning for Teams lifecycle management. For practical guidance on planning for teams lifecycle management, see [Plan for lifecycle management in Teams](plan-teams-lifecycle.md).
+-->
