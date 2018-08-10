@@ -121,6 +121,15 @@ $false
 $true
 ```
 
+__Usage example:__ 
+
+```powershell
+Set-CsWebServiceConfiguration -OverrideAuthTypeForExternalClients DisableWindowsAuth 
+Enable-CsComputer 
+ 
+IISReset
+```
+
 ### Type 3
 
 ```powershell
@@ -140,6 +149,24 @@ Set-CsProxyConfiguration
 $false 
 -UseKerberosForClientToProxyAuth 
 $false
+```
+
+__Usage example:__
+
+```powershell
+Set-CsWebServiceConfiguration -OverrideAuthTypeForInternalClients DisableWindowsAuth -OverrideAuthTypeForExternalClients DisableWindowsAuth 
+Enable-CsComputer 
+ 
+IISReset
+```
+
+__Or:__ 
+
+```powershell
+Set-CsWebServiceConfiguration -UseWindowsAuth None 
+Enable-CsComputer 
+ 
+IISReset
 ```
 
 ### Type 4
@@ -162,7 +189,16 @@ $false
 -UseKerberosForClientToProxyAuth 
 $true
 ```
+
+__Usage example:__
  
+```powershell
+Set-CsWebServiceConfiguration -OverrideAuthTypeForInternalClients “DisableExternalAuth” -OverrideAuthTypeForExternalClients “DisableWindowsAuth” 
+Enable-CsComputer 
+ 
+IISReset
+```
+
 ### Type 5
 
 ```powershell
