@@ -72,10 +72,10 @@ Here are the supported topologies and the commands to configure them.
 |Type  |External  |Internal  |Comments  |
 |---------|:--------------|:--------------|------|
 |Type 1     |+Modern&nbsp;Auth </br> +Windows&nbsp;Auth    |+Modern&nbsp;Auth </br> +Windows&nbsp;Auth         |This is the default when MA is turned On.         |
-|Type 2     |+ Modern&nbsp;Auth </br> *-Windows&nbsp;Auth*         | +Modern&nbsp;Auth </br> +Windows&nbsp;Auth       |This blocks password attacks externally and allows older clients that do not support ADL to still work internally, but clients that do support ADAL would use MA internally.        |
-|Type 3     |+Modern&nbsp;Auth </br>*-Windows&nbsp;Auth*         |+Modern&nbsp;Auth </br> *-Windows&nbsp;Auth*         |This forces MA for all users. Only ADAL capable clients would work.         |
-|Type 4     |+Modern&nbsp;Auth </br> *-Windows&nbsp;Auth*         |*-Modern&nbsp;Auth* </br> +Window&nbsp;Auth         |This blocks password attacks externally and allows all internal clients to use legacy auth.         |
-|Type 5     | +Modern&nbsp;Auth </br> +Windows&nbsp;Auth        |*-Modern&nbsp;Auth* </br> +Windows&nbsp;Auth         |Externally ADAL clients will use MA and internally all clients will use legacy auth.         |
+|Type 2     |+ Modern&nbsp;Auth </br> *-Windows&nbsp;Auth*         | +Modern&nbsp;Auth </br> +Windows&nbsp;Auth       |This blocks Windows Auth externally and allows older clients that *do not* support ADAL to still work internally, but clients that *do* support ADAL would use MA internally.        |
+|Type 3     |+Modern&nbsp;Auth </br>*-Windows&nbsp;Auth*         |+Modern&nbsp;Auth </br> *-Windows&nbsp;Auth*         |This leverages MA for all users. Only ADAL capable clients will have access here.         |
+|Type 4     |+Modern&nbsp;Auth </br> *-Windows&nbsp;Auth*         |*-Modern&nbsp;Auth* </br> +Window&nbsp;Auth         |This blocks Windows Auth externally and allows all internal clients to use legacy forms of auth.         |
+|Type 5     | +Modern&nbsp;Auth </br> +Windows&nbsp;Auth        |*-Modern&nbsp;Auth* </br> +Windows&nbsp;Auth         |Externally, ADAL clients will use MA, and internally all clients will use legacy auth.         |
 
 The supported commands:
 
