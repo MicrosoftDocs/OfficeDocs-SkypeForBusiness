@@ -3,7 +3,7 @@ title: Microsoft Education governance FAQ for IT pros - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 07/30/2018
+ms.date: 08/10/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -25,7 +25,7 @@ To avoid inappropriate or misleading names, or just to provide more structure fo
 -   **Classification** You can create classifications that the users in your organization can set when they create an Office 365 group. 
 
 > [!IMPORTANT]
-> Group naming policy requires Azure Active Directory Premium P1 license for unique users that are members of Office 365 groups.
+> Group naming policy requires Azure Active Directory Premium P1 license for unique users who are members of Office 365 groups.
 
 For detailed instructions, see [Office group naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 

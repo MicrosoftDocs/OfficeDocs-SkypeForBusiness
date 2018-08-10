@@ -3,7 +3,7 @@ title: Plan for governance in Teams - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 08/01/2018
+ms.date: 08/10/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -38,7 +38,8 @@ Use the following table to capture your organization’s requirements.
 |Team creation |Limit team creation to administrators. |No |TBD|
 |Team creation |Limit team creation to security group members. |P1 |TBD|
 
-<br>
+> [!NOTE]
+> To help you plan ahead, [learn more about setting these policies and what licenses they require](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 
 > [!NOTE]
 > Limiting group and team creation can slow your users’ productivity, because many Office 365 services require that groups be created for the service to function. For additional information, navigate to and expand [Why control who creates Office 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
@@ -69,7 +70,7 @@ Use the following table to capture your organization’s requirements.
 |Capability |Details |Azure AD Premium <br>license required |Decision |
 |---------|---------|---------|---------|
 |Expiration policy |Manage the lifecycle of Office 365 groups by setting an expiration policy. |P1 |TBD|
-|Retention policy |Retain or delete data in a specified time period. |No |TBD |
+|Retention policy |Retain or delete data (Teams channel messages and channel files) for a specific time period by setting retention policies for Teams in the Security & compliance center. **Note**: Using this feature requires licensing of Office 365 Enterprise E3 or above. |No |TBD |
 |Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |No |TBD |
 
 > [!Note]
@@ -102,8 +103,9 @@ Teams provides granular capabilities for controlling messaging, meeting, calling
 
 For detailed lists of all settings, including technical guidance on how to implement them for your organization, see the following articles:
 
--    [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md)
--    [Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+-   [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md)
+-   [Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+-   [Manage meeting policies in Teams](meeting-policies-in-teams.md)
 
 
 ## Security and compliance
@@ -113,6 +115,8 @@ Teams is built on the advanced security and compliance capabilities of Office 36
 > [!Important]
 > If your organization has compliance and security requirements, review the in-depth content provided about this topic in the article [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md).
 
+<!--
 ## Teams lifecycle management
 
 In addition to planning for governance, your organization might also be interested in planning for Teams lifecycle management. For practical guidance on planning for teams lifecycle management, see [Plan for lifecycle management in Teams](plan-teams-lifecycle.md).
+-->
