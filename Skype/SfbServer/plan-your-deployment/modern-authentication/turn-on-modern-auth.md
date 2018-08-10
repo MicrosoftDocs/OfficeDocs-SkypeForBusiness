@@ -69,7 +69,7 @@ The cmdlet, `Set-CsWebServiceConfiguration`, can be used at different security s
 Here are the supported topologies and the commands to configure them.
 
 
-|Column1  |External  |Internal  |Comments  |
+|Type  |External  |Internal  |Comments  |
 |---------|---------|---------|---------|
 |Type 1     |+Modern Auth </br> +Windows Auth    |+Modern Auth </br> +Windows Auth         |This is the default when MA is turned On.         |
 |Type 2     |+ Modern Auth </br> -Windows Auth         | +Modern Auth </br> +Windows Auth       |This blocks password attacks externally and allows older clients that do not support ADL to still work internally, but clients that do support ADAL would use MA internally.        |
@@ -77,6 +77,91 @@ Here are the supported topologies and the commands to configure them.
 |Type 4     |+Modern Auth </br> -Windows Auth         |-Modern Auth </br> +Window Auth         |This blocks password attacks externally and allows all internal clients to use legacy auth.         |
 |Type 5     | +Modern Auth </br> +Windows Auth        |-Modern Auth </br> +Windows Auth         |Externally ADAL clients will use MA and internally all clients will use legacy auth.         |
 
+The supported commands:
+
+
+|Type  |Cmdlets  |
+|---------|---------|
+|Type 1     | Set-CsWebServiceConfiguration 
+-OverrideAuthTypeForInternalClients 
+“” 
+-OverrideAuthTypeForExternalClients 
+“” 
+-UseWindowsAuth $true 
+-UseCertificateAuth $true 
+-UseWsFedPassiveAuth $false 
+-AllowExternalAuthentication $true 
+-UseDomainAuthInLwa $true 
+  </br></p>
+Set-CsProxyConfiguration 
+-UseNtlmForClientToProxyAuth 
+$true 
+-UseKerberosForClientToProxyAuth 
+$true         |
+|Type 2     |  Set-CsWebServiceConfiguration 
+-OverrideAuthTypeForInternalClients 
+“” 
+-OverrideAuthTypeForExternalClients 
+DisableWindowsAuth 
+-UseWindowsAuth $true 
+-UseCertificateAuth $true 
+-UseWsFedPassiveAuth $false 
+-AllowExternalAuthentication $true 
+-UseDomainAuthInLwa $false 
+  </br></p>
+Set-CsProxyConfiguration 
+-UseNtlmForClientToProxyAuth 
+$false 
+-UseKerberosForClientToProxyAuth 
+$true        |
+|Type 3     |   Set-CsWebServiceConfiguration 
+-OverrideAuthTypeForInternalClients 
+DisableWindowsAuth 
+-OverrideAuthTypeForExternalClients 
+DisableWindowsAuth 
+-UseWindowsAuth $false 
+-UseCertificateAuth $true 
+-UseWsFedPassiveAuth $false 
+-AllowExternalAuthentication $true 
+-UseDomainAuthInLwa $false 
+ </br></p>
+Set-CsProxyConfiguration 
+-UseNtlmForClientToProxyAuth 
+$false 
+-UseKerberosForClientToProxyAuth 
+$false       |
+|Type 4     |      Set-CsWebServiceConfiguration 
+-OverrideAuthTypeForInternalClients 
+“DisableExternalAuth” 
+-OverrideAuthTypeForExternalClients 
+“DisableWindowsAuth” 
+-UseWindowsAuth $true 
+-UseCertificateAuth $true 
+-UseWsFedPassiveAuth $false 
+-AllowExternalAuthentication $true 
+-UseDomainAuthInLwa $false 
+</br></p>
+Set-CsProxyConfiguration 
+-UseNtlmForClientToProxyAuth 
+$false 
+-UseKerberosForClientToProxyAuth 
+$true    |
+|Type 5     | Set-CsWebServiceConfiguration 
+-OverrideAuthTypeForInternalClients 
+“DisableExternalAuth” 
+-OverrideAuthTypeForExternalClients 
+“” 
+-UseWindowsAuth $true 
+-UseCertificateAuth $true 
+-UseWsFedPassiveAuth $false 
+-AllowExternalAuthentication $true 
+-UseDomainAuthInLwa $true 
+</br><p>
+Set-CsProxyConfiguration 
+-UseNtlmForClientToProxyAuth 
+$true 
+-UseKerberosForClientToProxyAuth 
+$true         |
 
 
 
