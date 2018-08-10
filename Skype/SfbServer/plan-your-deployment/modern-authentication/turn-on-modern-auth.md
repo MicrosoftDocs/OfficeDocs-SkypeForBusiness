@@ -82,7 +82,8 @@ The supported commands:
 
 |Type  |Cmdlets  |
 |---------|---------|
-|Type 1     | Set-CsWebServiceConfiguration 
+|Type 1     | ```powershell
+Set-CsWebServiceConfiguration 
 -OverrideAuthTypeForInternalClients 
 “” 
 -OverrideAuthTypeForExternalClients 
@@ -91,30 +92,42 @@ The supported commands:
 -UseCertificateAuth $true 
 -UseWsFedPassiveAuth $false 
 -AllowExternalAuthentication $true 
--UseDomainAuthInLwa $true 
+-UseDomainAuthInLwa $true
+```
+
   </br></p>
+```powershell
 Set-CsProxyConfiguration 
 -UseNtlmForClientToProxyAuth 
 $true 
 -UseKerberosForClientToProxyAuth 
-$true         |
-|Type 2     |  Set-CsWebServiceConfiguration 
+$true
+```
+        |
+|Type 2     |  ```powershell
+Set-CsWebServiceConfiguration 
 -OverrideAuthTypeForInternalClients 
-“” 
+“”
 -OverrideAuthTypeForExternalClients 
 DisableWindowsAuth 
 -UseWindowsAuth $true 
 -UseCertificateAuth $true 
 -UseWsFedPassiveAuth $false 
 -AllowExternalAuthentication $true 
--UseDomainAuthInLwa $false 
+-UseDomainAuthInLwa $false
+```
+
   </br></p>
+```powershell
 Set-CsProxyConfiguration 
 -UseNtlmForClientToProxyAuth 
 $false 
 -UseKerberosForClientToProxyAuth 
-$true        |
-|Type 3     |   Set-CsWebServiceConfiguration 
+$true
+```
+       |
+|Type 3     |   ```powershell
+Set-CsWebServiceConfiguration 
 -OverrideAuthTypeForInternalClients 
 DisableWindowsAuth 
 -OverrideAuthTypeForExternalClients 
@@ -123,14 +136,20 @@ DisableWindowsAuth
 -UseCertificateAuth $true 
 -UseWsFedPassiveAuth $false 
 -AllowExternalAuthentication $true 
--UseDomainAuthInLwa $false 
+-UseDomainAuthInLwa $false
+```
+ 
  </br></p>
+```powershell
 Set-CsProxyConfiguration 
 -UseNtlmForClientToProxyAuth 
 $false 
 -UseKerberosForClientToProxyAuth 
-$false       |
-|Type 4     |      Set-CsWebServiceConfiguration 
+$false
+```
+       |
+|Type 4     |      ```powershell
+Set-CsWebServiceConfiguration 
 -OverrideAuthTypeForInternalClients 
 “DisableExternalAuth” 
 -OverrideAuthTypeForExternalClients 
@@ -139,14 +158,21 @@ $false       |
 -UseCertificateAuth $true 
 -UseWsFedPassiveAuth $false 
 -AllowExternalAuthentication $true 
--UseDomainAuthInLwa $false 
+-UseDomainAuthInLwa $false
+```
+
 </br></p>
+```powershell
 Set-CsProxyConfiguration 
 -UseNtlmForClientToProxyAuth 
 $false 
 -UseKerberosForClientToProxyAuth 
-$true    |
-|Type 5     | Set-CsWebServiceConfiguration 
+$true
+```
+ |
+|Type 5     | 
+```powershell
+Set-CsWebServiceConfiguration 
 -OverrideAuthTypeForInternalClients 
 “DisableExternalAuth” 
 -OverrideAuthTypeForExternalClients 
@@ -155,13 +181,20 @@ $true    |
 -UseCertificateAuth $true 
 -UseWsFedPassiveAuth $false 
 -AllowExternalAuthentication $true 
--UseDomainAuthInLwa $true 
+-UseDomainAuthInLwa $true
+```
+
 </br><p>
+```powershell
 Set-CsProxyConfiguration 
 -UseNtlmForClientToProxyAuth 
 $true 
 -UseKerberosForClientToProxyAuth 
-$true         |
+$true
+```
+
+
+     |
 
 
 
