@@ -71,7 +71,7 @@ Here are the supported topologies and the commands to configure them.
 
 |Type  |External  |Internal  |Comments  |
 |---------|:--------------|:--------------|------|
-|Type 1     |+Modern Auth </br> +Windows Auth    |+Modern Auth </br> +Windows Auth         |This is the default when MA is turned On.         |
+|Type 1     |+Modern &nbsp; Auth </br> +Windows &nbsp; Auth    |+Modern &nbsp; Auth </br> +Windows &nbsp; Auth         |This is the default when MA is turned On.         |
 |Type 2     |+ Modern Auth </br> *-Windows Auth*         | +Modern Auth </br> +Windows Auth       |This blocks password attacks externally and allows older clients that do not support ADL to still work internally, but clients that do support ADAL would use MA internally.        |
 |Type 3     |+Modern Auth </br>*-Windows Auth*         |+Modern Auth </br> *-Windows Auth*         |This forces MA for all users. Only ADAL capable clients would work.         |
 |Type 4     |+Modern Auth </br> *-Windows Auth*         |*-Modern Auth* </br> +Window Auth         |This blocks password attacks externally and allows all internal clients to use legacy auth.         |
