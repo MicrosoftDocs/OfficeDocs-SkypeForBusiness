@@ -17,6 +17,7 @@
 ## [Limits and specifications for Teams](limits-specifications-teams.md)
 ## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ## [Get tools to support a rollout of Teams](rollout-tools.md)
+## [Plan for governance in Teams](plan-teams-governance.md)
 ## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
 ## Drive adoption
 ### [Create change management strategy](change-management-strategy.md)
@@ -298,6 +299,7 @@
 # Teams for education
 ## [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ## [Teams resources for Education admins](resources-teams-edu.md)
+## [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 <!-- ============================================================ -->
 
 # [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
