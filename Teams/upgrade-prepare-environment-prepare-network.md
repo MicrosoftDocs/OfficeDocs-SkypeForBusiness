@@ -46,12 +46,12 @@ The steps described below will help you determine whether your deployment might 
 
 ## Bandwidth planning
 
-The first step toward network readiness is ensuring your network has enough bandwidth available for the modalities Teams will provide to users. Planning for sufficient bandwidth is a fairly straightforward task and a very low-barrier start to ensure your users will have a high-quality Teams experience.
+The first step toward network readiness is ensuring your network has enough bandwidth available for the modalities Teams will provide to users. Planning for sufficient bandwidth is a fairly straightforward task and a very low-barrier start to help ensure your users will have a high-quality Teams experience.
 
 You start your bandwidth planning journey for Teams on the [My Advisor website](https://myadvisor.fasttrack.microsoft.com/) by using the Network Planner. The Network Planner provides per-site bandwidth planning for Teams and offers recommendations for optimizing network performance.
 
 > [!IMPORTANT]
->If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It’s therefore extremely important to have the expected bandwidth available.
+> If the required bandwidth isn’t available, the media stack inside Teams degrades the quality of the audio/video session to accommodate that lower amount of available bandwidth, which affects the quality of the call or meeting. The Teams client attempts to prioritize the quality of audio over the quality of video. It’s therefore extremely important to have the expected bandwidth available.
 
 
 |Activity  |Download bandwidth  |Upload bandwidth  |Traffic flow |
