@@ -39,7 +39,7 @@ Use the following table to capture your organization’s requirements.
 |Team creation |Limit team creation to security group members. |P1 |TBD|
 
 > [!NOTE]
-> To help you plan ahead, [learn more about which admins and users will need these additional licenses]().
+> To help you plan ahead, [learn more about setting these policies and what licenses they require](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 
 > [!NOTE]
 > Limiting group and team creation can slow your users’ productivity, because many Office 365 services require that groups be created for the service to function. For additional information, navigate to and expand [Why control who creates Office 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).

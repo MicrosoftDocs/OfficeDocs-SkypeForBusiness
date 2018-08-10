@@ -299,6 +299,7 @@
 # Teams for education
 ## [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ## [Teams resources for Education admins](resources-teams-edu.md)
+## [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 <!-- ============================================================ -->
 
 # [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
