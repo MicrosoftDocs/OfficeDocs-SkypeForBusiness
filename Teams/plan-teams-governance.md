@@ -70,7 +70,7 @@ Use the following table to capture your organization’s requirements.
 |Capability |Details |Azure AD Premium <br>license required |Decision |
 |---------|---------|---------|---------|
 |Expiration policy |Manage the lifecycle of Office 365 groups by setting an expiration policy. |P1 |TBD|
-|Retention policy |Retain or delete data (Teams channel messages and channel files) for a specific time period by setting retention policies for Teams in the Security & compliance center. Note: Using this feature requires licensing of Office 365 Enterprise E3 or above. |No |TBD |
+|Retention policy |Retain or delete data (Teams channel messages and channel files) for a specific time period by setting retention policies for Teams in the Security & compliance center. **Note**: Using this feature requires licensing of Office 365 Enterprise E3 or above. |No |TBD |
 |Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |No |TBD |
 
 > [!Note]
