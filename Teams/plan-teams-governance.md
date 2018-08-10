@@ -3,7 +3,7 @@ title: Plan for governance in Teams - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 08/01/2018
+ms.date: 08/10/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
