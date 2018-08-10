@@ -15,9 +15,9 @@ description: "This article outlines cmdlets that give admins more control of aut
 ---
 
 # Turn off Modern Authentication and other authentication methods internally and externally to your network
- 
-NOTE If you're about to read this article, you should already know about supported Modern Authentication topologies, and about Modern Authentication config, but, in case you don't, here is the article you need start out:
 
+> [!NOTE]
+> If you're about to read this article, you should already know about supported Modern Authentication topologies, and about Modern Authentication config, but, in case you don't, here is the article you need start out: 
  [https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
   
 Modern Authentication doesn't just enable more secure methods of access, like Two-Factor Auth, or Client Certificate Auth, it carries out authorization of your user without needing a username or password. It's pretty handy.
@@ -183,6 +183,9 @@ $true
 -UseKerberosForClientToProxyAuth 
 $true
 ```
+
+> [!IMPORTANT]
+> If you're using Lync Web Access (LWA) and must use Forms-based Access (FBA) for external access, reconfigure LWA so that clients can access it with Anonymous Access to support these scenarios. Likewise, if you use Dial-in Pin, FBA will be blocked for external users only. If they need to change thir pin, they will need to login to their corporation to do so, internally.
 
 
 
