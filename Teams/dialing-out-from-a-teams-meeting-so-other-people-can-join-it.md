@@ -24,7 +24,7 @@ description: "Learn what you need and how meeting organizers can call out to oth
 # Dialing out from a Teams meeting so other people can join it
 
 > [!NOTE]
-> If you're looking for information about dialing out from a Skype for Business meeting, see [Dialing out from a Skype for Business meeting so other people can join it](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)
+> If you're looking for information about dialing out from a Skype for Business meeting, see [Dialing out from a Skype for Business meeting so other people can join it](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
 
 As the meeting organizer, you can dial out using the Teams app to let other people join the same meeting using their phone. Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code. To get dial-out to work:
   
