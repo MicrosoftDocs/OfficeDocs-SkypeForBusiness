@@ -1,5 +1,5 @@
 ---
-title: "Emails sent to users when their settings change in Skype for Business Online"
+title: "Emails sent to users when their settings change in Microsoft Teams"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -13,7 +13,7 @@ ms.collection:
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
-- Skype for Business 
+- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
@@ -21,9 +21,9 @@ ms.custom:
 description: "Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. "
 ---
 
-# Emails sent to users when their settings change in Skype for Business Online
+# Emails sent to users when their settings change in Microsoft Teams
 
-If you're looking for automatic email information in Microsoft Teams, see [Emails sent to users when their settings change in Microsoft Teams]().
+If you're looking for automatic email information in Skype for Business Online, see [Emails sent to users when their settings change in Skype for Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change).
 
 Emails will be automatically sent to users who are [enabled for Audio Conferencing](set-up-audio-conferencing.md) using Microsoft as the audio conferencing provider.
   
@@ -40,7 +40,7 @@ By default, there are four types of email that will be sent to your users who ar
     
      ![Skype for Business Verify License](../images/audio-conferencing-user-enabled.png)
   
-    You can find out more about Skype for Business licensing by seeing [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+    You can find out more about licensing by seeing [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
 - **The conference ID or default conference phone number of a user changes.**
     
@@ -75,34 +75,17 @@ By default, there are four types of email that will be sent to your users who ar
      ![Dial-in conferencing is turned off.](../images/audio-conferencing-turned-off.png)
   
 > [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## Make changes to the email messages that are sent to them
 
-You can make changes to the email that is automatically sent to users including the email address and the display name that is included in the *From* contact information. By default, the sender of the emails will be from Office 365, but you can change the email address and display name using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet. To make changes to the email address that is sending the email to the users, you must:
-  
-- Enter the email address in the  _SendEmailFromAddress_ parameter.
-    
-- Enter the email display name in the  _SendEmailFromDisplayName_ parameter.
-    
-- Set the  _SendEmailOverride_ parameter to  _True_.
-    
-You can make changes to the email sent to users, such as the email address that the email is sent from and the display name for the email, by running:
-  
-```
-Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble -SendEmailFromDisplayName "Amos Marble"
-```
-
-> [!NOTE]
->  If you want to change the email address information, you need to make sure that the inbound email policies of your environment allow emails that come from the custom specified from address. If you decide to override the *From* contact information, you should verify that the emails are correctly sent to users. You can do this by testing this with one user in your organization.
-  
-You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet to manage other settings for your organization, including email.
+You can make changes to the email that is automatically sent to users including the email address and the display name that is included in the *From* contact information. By default, the sender of the emails will be from Office 365, but you can change the email address and display name using Windows PowerShell. See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
   
 ## What if you don't want email to be sent to them?
 
 When you disable sending emails to users, email won't be sent even when a user gets assigned a license. In this case, the conference ID, default conferencing phone number, and, more importantly, their audio conferencing PIN won't be sent to the user. When this happens, you must tell the user by sending them a separate email or by calling them.
   
-By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell. 
+By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use Microsoft Teams, the [Skype for Business admin center](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change), or Windows PowerShell. 
 
 ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
@@ -114,57 +97,26 @@ By default, emails will be sent to your users, but if you want to prevent them f
 
 4. Click **Save**.
   
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  **Using the Skype for Business admin center**
-    
-1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
-    
-2. On the **Microsoft bridge settings** page, select or clear **Automatically send emails to users if their audio conferencing settings change**. 
-    
-3. Click **Save**. 
-
 > [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 **Using Windows PowerShell**
   
-1. Run the following to disable sending all of your users email:
-    
-  ```
-  Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
-  ```
-
-You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet to manage other settings for your organization, including email.
+See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
   
-## What else should you know about this email?
 
-- For more on enabling and disabling automatically sending email to your users, see [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change.md).
-    
-- Sometimes users lose their audio information and you need to be able to send them all of their audio information to them. You can do this by using the Skype for Business admin center and clicking **Send conference info via email** under the audio conferencing properties for a user. See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md). However, this information doesn't include the audio conferencing PIN.
-    
-    Here is an example of this email that will be sent to them:
-    
-     ![Dial-in conferencing email](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
-  
 ## Want to know how to manage with Windows PowerShell?
 
-- By default, the sender of the emails will be from Office 365, but you can change the email address and display name using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet.
-    
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+By default, the sender of the emails will be from Office 365, but you can change the email address and display name using Windows PowerShell. 
+
+Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics: 
-    
-  - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
-    
-  - [Using Windows PowerShell to manage Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
-    
-  - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
-    > [!NOTE]
-    > The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
+For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
+  
   
 ## Related topics
 
