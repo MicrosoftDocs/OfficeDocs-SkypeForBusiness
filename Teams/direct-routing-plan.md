@@ -105,8 +105,8 @@ The following table shows examples of DNS names registered for the tenant, wheth
 contoso.com|Yes|**Valid names:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|No|<br/>Using *.onmicrosoft.com domains is not supported for SBC names
 
-If you want to use a new domain name. For example, your tenant has contoso.com as a domin name registered in your tenant. You want to use sbc1.sip.contoso.com. Before you can pair an SBC with name sbc1.sip.contoso.com you need to register domain name sip.contoso.com in "Domains" in your tenant. If you try pairing an SBC sbc1.sip.contoso.com you will get an error " Can not use the "sbc1.sip.contoso.com" domain as it was not configured for this tenant."
-After you added domain name you also need to create a user with UPN user@sip.contoso.com and assing a "Teams" lisence. It might take up to 24 hours to fully provision the domain name after it added to "Domains" of tenant, a user with new name created and a lisence assigned to the user. 
+If you want to use a new domain name. For example, your tenant has contoso.com as a domain name registered in your tenant. You want to use sbc1.sip.contoso.com. Before you can pair an SBC with name sbc1.sip.contoso.com you need to register domain name sip.contoso.com in "Domains" in your tenant. If you try pairing an SBC sbc1.sip.contoso.com you will get an error " Cannot use the "sbc1.sip.contoso.com" domain as it was not configured for this tenant."
+After you added domain name you also need to create a user with UPN user@sip.contoso.com and assign a "Teams" license. It might take up to 24 hours to fully provision the domain name after it added to "Domains" of tenant, a user with new name created and a license assigned to the user. 
 
 It is possible that a company might have several SIP address spaces in one tenant. For example, a company might have contoso.com as a SIP address space and fabrikam.com as the second SIP address space. Some users have address user@contoso.com and some users have address user@fabrikam.com. 
 
