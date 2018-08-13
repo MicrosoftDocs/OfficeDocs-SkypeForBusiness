@@ -5,6 +5,7 @@ author: jambirk
 ms.reviewer: Michael.Wang
 manager: serdars
 ms.audience: ITPro
+ms.date: 07/23/2018
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Priority
