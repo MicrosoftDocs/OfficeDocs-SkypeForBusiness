@@ -2,6 +2,7 @@
 title: "Skype for Business Server updates"
 ms.author: jambirk
 author: jambirk
+ms.reviewer: arianr
 manager: serdars
 ms.date: 07/13/2018
 ms.audience: ITPro
