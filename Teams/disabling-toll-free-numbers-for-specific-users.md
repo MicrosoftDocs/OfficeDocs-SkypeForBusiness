@@ -22,6 +22,9 @@ description: "Administrators can control how organizers can use toll-free number
 
 # Disabling toll-free numbers for specific Teams users
 
+> [!Note]
+> If you are looking for information on disabling tool-free numbers for Skype for Business users, see  [Disabling toll-free numbers for specific Skype for Business users](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users).
+
 If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, you can allow or prevent their usage in the meetings of specific organizers.  
 
 By default, all users in your organization are enabled for using toll-free numbers, meaning that those numbers, if available, can be used by participants to join their meetings. If this is not the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control. 
