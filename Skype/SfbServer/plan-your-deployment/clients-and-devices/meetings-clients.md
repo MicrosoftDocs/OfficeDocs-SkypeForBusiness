@@ -1,7 +1,8 @@
 ---
 title: "Plan for Meetings clients (Web App and Meetings App)"
 ms.author: jambirk
-author: PhillipGarding
+author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro

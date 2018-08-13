@@ -1,7 +1,8 @@
 ---
 title: "Mobile client feature comparison for Skype for Business"
 ms.author: jambirk
-author: PhillipGarding
+author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
