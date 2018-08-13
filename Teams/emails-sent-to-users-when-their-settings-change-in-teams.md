@@ -85,7 +85,7 @@ You can make changes to the email that is automatically sent to users including 
 
 When you disable sending emails to users, email won't be sent even when a user gets assigned a license. In this case, the conference ID, default conferencing phone number, and, more importantly, their audio conferencing PIN won't be sent to the user. When this happens, you must tell the user by sending them a separate email or by calling them.
   
-By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use Microsoft Teams, the [Skype for Business admin center](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change), or Windows PowerShell. 
+By default, emails will be sent to your users, but if you want to prevent them from receiving email for audio conferencing, you can use Microsoft Teams or Windows PowerShell. 
 
 ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
