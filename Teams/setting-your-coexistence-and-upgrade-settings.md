@@ -36,12 +36,6 @@ Settings assigned at a user level take precedence over settings applied at the o
     - Set the **Coexistence** mode.
         - **Islands** - Use this setting if you want users to be able to use both Skype for Business and Teams simultaneously.
         - **Skype for Business only** - Use this setting if you want your users to only use Skype for Business.
-        - **Teams only** - Use this setting if you want your users to use only Teams. Note that even with this setting, users can still join meetings hosted in Skype for Business.
-    - Set **Notify Skype for Business users that Teams is available for upgrade**. If you turn this on, it will tell the Skype for Business users that they will soon be upgraded to the Teams app.
-    - Set the **Preferred app for users to join Skype for Business meetings**. This setting determines which app is used for joining Skype for Business meetings and is honored regardless of the value of coexistence mode.
-      - **Skype Meetings app**
-      - **Skype for Business with limited features**
-    - Set whether to **Download the Teams app in the background for Skype for Business users**.  This setting silently downloads the Teams app for users running Skype for Business on Windows. It is honored only if coexistence mode for the user is Teams Only or if notifications of pending upgrade are enabled in Skype for Business.
 3. Click **Save** after you make your changes.
 
 ## Setting upgrade options for a single user in your organization
@@ -54,7 +48,6 @@ Settings assigned at a user level take precedence over settings applied at the o
     - **Use Org-wide settings** - Use this setting if you want the user to use the settings in the **Org-wide** settings. 
     - **Islands** - Use this setting if you want the user to be able to use both Skype for Business and Teams. 
     - **Skype for Business only** - Use this setting if you want the user to use Skype for Business. 
-    - **Teams only** - Use this setting if you want the user to use only Teams. The user will still be able to join Skype for Business meetings.
 3. If you select any **Coexistence mode** other than **Use Org-wide settings**, you have the option to enable notifications in the user's Skype for Business app that upgrade to Teams is coming soon. You can enable this notification for the user by turning on the **Notify the Skype for Business user** option.
 4. Click **Save** after you make your changes.
 
