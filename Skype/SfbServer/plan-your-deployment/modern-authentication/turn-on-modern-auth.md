@@ -47,8 +47,17 @@ In this table, *Modern Authentication* is abbreviated as __MA__ and *Windows Int
 |Type 4   |  MA       | Win        | BlockWindowsAuthExternallyAndModernAuthInternally    |
 |Type 5   |  MA + Win       | Win        | BlockModernAuthInternally         |
 
+__Type 1 Description:__ This is the default scenario when MA is turned __on__ for Skype for Business Server. In other words, this is the *starting point* when MA is configured.
 
+__Type 2 Description:__ This topology blocks password attacks *externally*, but allows for older clients (that don't support ADAL) to work *internally*. If your clients  do support ADAL they will use MA internally.
 
+__Type 3 Description:__ This topology uses MA for all users. All your ADAL-capable clients will work in this topology, and passwords will not be leveraged.
+
+__Type 4 Description:__ This topology blocks password attacks *externally* and allows all clients to use legacy authentication methods *internally*.
+
+__Type 5 Description:__ *Externally*, your modern ADAL clients will use MA and any clients that don't support ADAL will use legacy authentication methods. But, *internally* all clients will use legacy authentication.
+
+It's pretty easy to lose track of the goal of protecting your passwords in the options available. Keep in mind the ideal situation is to use MA externally, to avoid DOS attacks. If you also leverage it internally for your modern clients, you'll also future-proof your network, regarding Skype for Business Server DOS attacks.
 
 > [!IMPORTANT]
 > If you're using Lync Web Access (LWA) and must use Forms-based Access (FBA) for external access, reconfigure LWA so that clients can access it with Anonymous Access to support these scenarios. Likewise, if you use Dial-in Pin, FBA will be blocked for external users only. If they need to change thir pin, they will need to login to their corporation to do so, internally.
