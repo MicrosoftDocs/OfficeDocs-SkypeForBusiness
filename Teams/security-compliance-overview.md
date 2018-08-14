@@ -33,7 +33,7 @@ Audit log search plugs right into the Office 365 Security and Compliance Center 
 
 ## Compliance Content Search
 
-Content Search can be used to search for all Teams data through rich filtering capabilities and exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Please refer to this [link](https://support.office.com/en-us/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4?ui=en-US&rs=en-US&ad=US#teamsandgroups) to learn more about how to conduct a compliance content search for Microsoft Teams content in the Office 365 Security and Complianc center. 
+Content Search can be used to search for all Teams data through rich filtering capabilities and exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Please refer to this [link](https://support.office.com/en-us/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4?ui=en-US&rs=en-US&ad=US#teamsandgroups) to learn more about how to conduct a compliance content search for Microsoft Teams content in the Office 365 Security and Compliance center. 
 
 Tip: The kind MicrosoftTeams can be used to filter through to Microsoft Teams only content i.e. Chat and Channel Messages, Meetings and Calls. 
 
@@ -222,10 +222,12 @@ Location of data in Teams
 Data in Teams resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Americas, EMEA, and APAC regions. 
 
 > [!IMPORTANT]
-> Teams currently offers data residency in the United Kingdom and India for new tenants only. 
-> A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Teams. Existing tenants from the UK and India will continue to remain in the EMEA and APAC regions respectively, until a migration plan is announced (anticipated in 2018).
+> Teams currently offers data residency in the United Kingdom, Canada, and India for new tenants only. 
+> A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Teams. Existing tenants from the UK, Canada, and India will continue to remain in the EMEA, Americas, and APAC regions respectively, until a migration plan is announced (anticipated in CY2019).
 
-To learn more about the launch of India and UK data residency for Teams, read Ansuman Acharya's blog post, [Microsoft Teams launches India Data Residency, other geos coming soon](https://go.microsoft.com/fwlink/?linkid=867773).
+To learn more about the launch of India and UK data residency for Teams, read Ansuman Acharya's blog post, [Microsoft Teams launches India Data Residency, other geos coming soon](https://go.microsoft.com/fwlink/?linkid=867773). 
+
+For more info on Canada data residency for Teams, see [Microsoft Teams Launches Canada Data Residency, Australia and Japan coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). <!-- couldn't get fwlink or aka.ms link>
 
 To see which region houses data for your tenant, go to the [Office 365 Admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**. 
 
