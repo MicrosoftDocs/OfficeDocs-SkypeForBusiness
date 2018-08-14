@@ -21,7 +21,7 @@ The following section covers Skype Room System account provisioning for an Offic
 
 Your online tenant must meet the following requirements:
   
-- The Office 365 plan must include Skype for Business Online Plan 2, Plan 3, or Office 365 E1, E3 or E5.
+- The Office 365 plan must include Skype for Business Online Plan 2, Plan 3, or Office 365 E1, E3 or E5. <br/>For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
     
 - Your tenant must have the conferencing capability of Skype for Business enabled.
     
@@ -133,4 +133,7 @@ In Office 365, the default password expiration policy for all of your user accou
 
 For more information, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
+## Validate
+
+For validation, you should be able to use any Skype for Business client to sign in to the account you created.
 
