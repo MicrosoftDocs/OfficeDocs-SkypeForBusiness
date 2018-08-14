@@ -17,8 +17,9 @@ description: "This article outlines cmdlets that give admins more control of aut
 # Turn off Modern Authentication and other authentication methods internally and externally to your network
 
 > [!NOTE]
-> If you're about to read this article, you should already know about supported Modern Authentication topologies, and about Modern Authentication config, but, in case you don't, here is the article you need start out: 
- [https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
+> If you're about to read this article, you should already know about supported Modern Authentication topologies, ADAL, and about Modern Authentication config, but, in case you don't, here is the article you need start out: 
+ + [https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
+ + [https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal)
   
 Modern Authentication doesn't just enable more secure methods of access, like Two-Factor Auth, or Client Certificate Auth, it carries out authorization of your user without needing a username or password. It's pretty handy.
 
@@ -36,7 +37,10 @@ These cmdlets will only be installed post July 2018 cumulative update (6.0.9319.
 
 ## Topologies
 
-In this table, *Modern Authentication* is abbreviated as __MA__ and *Windows Integrated Authentication* is abbreviated at __Win__. You'll need to know this to read the table properly!
+It's important to keep in mind that these are the Supported Topologies involved in this scenario! If you need to go to Support for help with blocking a method, for example, you will need to have a configuration among the types below. 
+
+> [!IMPORTANT]
+> In this table and descriptions below, *Modern Authentication* is abbreviated as __MA__ and *Windows Integrated Authentication* is abbreviated at __Win__. You'll need to know this to read the table properly!
 
 
 |       |Externally  |Internally  |Parameter  |
@@ -58,6 +62,10 @@ __Type 4 Description:__ This topology blocks password attacks *externally* and a
 __Type 5 Description:__ *Externally*, your modern ADAL clients will use MA and any clients that don't support ADAL will use legacy authentication methods. But, *internally* all clients will use legacy authentication.
 
 It's pretty easy to lose track of the goal of protecting your passwords in the options available. Keep in mind the ideal situation is to use MA externally, to avoid DOS attacks. If you also leverage it internally for your modern clients, you'll also future-proof your network, regarding Skype for Business Server DOS attacks.
+
+## How these changes apply to your Roles
+
+
 
 > [!IMPORTANT]
 > If you're using Lync Web Access (LWA) and must use Forms-based Access (FBA) for external access, reconfigure LWA so that clients can access it with Anonymous Access to support these scenarios. Likewise, if you use Dial-in Pin, FBA will be blocked for external users only. If they need to change thir pin, they will need to login to their corporation to do so, internally.
