@@ -20,6 +20,7 @@ description: "Overview of using a Cloud Auto Attendant with Skype for Business S
 
 The Auto Attendant used with Exchange Unified Messaging  (with Exchange Server 2013 or Exchange Server 2016) is no longer available in Exchange Server 2019 or Exchange Online. If your implementation integrates with either of these Exchange versions, you'll need to use the online Cloud Voice features. 
 
+If you have already implemented [Cloud Voicemail](plan-cloud-voicemail.md), your next step is to implement a new Cloud Auto Attendant Service with Skype for Business Server 2019. Further Skype for Business Server 2019 configuration is not necessary. 
 
 With Cloud Auto Attendant you will be able to: 
 
