@@ -17,6 +17,7 @@
 ## [Limits and specifications for Teams](limits-specifications-teams.md)
 ## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ## [Get tools to support a rollout of Teams](rollout-tools.md)
+## [Plan for governance in Teams](plan-teams-governance.md)
 ## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
 ## Drive adoption
 ### [Create change management strategy](change-management-strategy.md)
@@ -38,6 +39,7 @@
 ## [Manage Teams features in your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Assign roles and permissions in Teams](assign-roles-permissions.md)
+### [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ## [Modern authentication](sign-in-teams.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 ## [Cloud voice deployment guidance](cloud-voice-deployment.md)
@@ -188,8 +190,14 @@
 ### [Guest access checklist](guest-access-checklist.md)
 ## Meetings
 ### [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
+<<<<<<< HEAD
 ### [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
 ### [Disabling toll-free numbers for specific users](disabling-toll-free-numbers-for-specific-teams-users.md)
+=======
+### [Dialing out from a meeting so other people can join it](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Disabling toll-free numbers for specific users](/SkypeForBusiness/audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Emails sent to users when their settings change](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) 
+>>>>>>> master
 ### [Enable users to record their name when they join a meeting](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Turn on or off entry and exit announcements for meetings](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Teams cloud meeting recording](cloud-recording.md)
@@ -297,6 +305,7 @@
 # Teams for education
 ## [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ## [Teams resources for Education admins](resources-teams-edu.md)
+## [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 <!-- ============================================================ -->
 
 # [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)

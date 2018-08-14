@@ -1,7 +1,7 @@
 ---
 title: "Plan Skype Room Systems v2 management with OMS"
 ms.author: jambirk
-author: jambirk
+author: Turgayo
 manager: serdars
 ms.date: 2/13/2018
 ms.audience: ITPro
