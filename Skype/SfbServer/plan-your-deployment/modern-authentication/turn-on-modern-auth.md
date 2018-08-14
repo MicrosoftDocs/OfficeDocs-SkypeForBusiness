@@ -65,7 +65,19 @@ It's pretty easy to lose track of the goal of protecting your passwords in the o
 
 ## How these changes apply to your Roles
 
+The `Set-CsAuthConfig` cmdlet effects configuration on both the Registrar and the Web Services roles.
 
+This cmdlet is meant to be run at the Global level of your Skype for Business server. It *can* be run at the Pool level but that is *not recommended* because it will add complexity to your installation. By running these commands at the Pool level, if your Pool doesn't have all of the roles included (for example, it doesn't have Web Services), the settings will only be set for the Registar Role. In that case, Web Services will carry on with setting from the Global level, which can be confusing behaviour (particularly when this is done unintentionally).
+
+If a client uses the Registrar settings from one pool and the Web Services settings from another pool and the authentication settings are in an inconsistent state, the client may be unable to log on.
+
+Also, if there's only one role present for a pool: 
+* Set- will only set the settings that correspond to the role that exists. No special warning will be given because some settings were *not* set. 
+* Get- will return the setting that corresponds to the role that exists, and the global settings for the role that doesn't exist.
+* If neither role is present for a pool, both Set- and Get- will return an error message.
+* If both roles are present for a pool but policies aren't defined at the pool level, Get- will return an error message.
+
+It may be wisest to do a Get- for these values, and to screenshot or record their starting state before making any changes.
 
 > [!IMPORTANT]
 > If you're using Lync Web Access (LWA) and must use Forms-based Access (FBA) for external access, reconfigure LWA so that clients can access it with Anonymous Access to support these scenarios. Likewise, if you use Dial-in Pin, FBA will be blocked for external users only. If they need to change thir pin, they will need to login to their corporation to do so, internally.
