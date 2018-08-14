@@ -44,7 +44,7 @@ It's important to keep in mind that these are the Supported Topologies involved 
 
 
 |       |Externally  |Internally  |Parameter  |
-|---------|:---------|---------:|---------|
+|---------|:---------|:---------|---------|
 |Type 1   |  MA + Win       | MA + Win         |  AllowAllExternallyAndInternally       |
 |Type 2   |  MA       | MA + Win         | BlockWindowsAuthExternally        |
 |Type 3   |  MA       | MA        | BlockWindowsAuthExternallyAndInternally        |
