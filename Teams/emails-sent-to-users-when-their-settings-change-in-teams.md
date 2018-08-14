@@ -18,12 +18,13 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: "Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. "
+description: "Learn about what information is sent automatically to users by email when their dial-in conferencing settings change in Microsoft Teams. "
 ---
 
 # Emails sent to users when their settings change in Microsoft Teams
 
-If you're looking for automatic email information in Skype for Business Online, see [Emails sent to users when their settings change in Skype for Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change).
+> [!Note]
+> If you're looking for automatic email information in Skype for Business Online, see [Emails sent to users when their settings change in Skype for Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change).
 
 Emails will be automatically sent to users who are [enabled for Audio Conferencing](set-up-audio-conferencing.md) using Microsoft as the audio conferencing provider.
   
