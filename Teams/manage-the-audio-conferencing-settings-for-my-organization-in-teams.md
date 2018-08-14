@@ -24,7 +24,7 @@ description: "See Microsoft Teams steps to assign a dial-in conferencing license
 # Manage the Audio Conferencing settings for my organization in Teams
 
 > [!NOTE]
-> IF you want to manage organizational settings in Skype for Business Online, see [Manage the Audio Conferencing settings for my organization in Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization).
+> If you want to manage organizational settings in Skype for Business Online, see [Manage the Audio Conferencing settings for my organization in Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization).
 
 It might be easier for you to see all of the audio conferencing settings for Microsoft Teams in one place. 
 
@@ -54,7 +54,7 @@ It might be easier for you to see all of the audio conferencing settings for Mic
   
 ## Enable or disable emails sent to audio conferencing users
 
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 

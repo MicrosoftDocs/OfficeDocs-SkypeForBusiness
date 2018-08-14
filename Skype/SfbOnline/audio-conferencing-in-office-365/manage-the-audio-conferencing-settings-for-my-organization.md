@@ -24,7 +24,7 @@ description: "See Skype for Business Online steps to assign a dial-in conferenci
 # Manage the Audio Conferencing settings for my organization in Skype for Business Online
 
 > [!NOTE]
-> IF you want to manage organizational settings in Teams, see [Manage the Audio Conferencing settings for my organization in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams).
+> If you want to manage organizational settings in Teams, see [Manage the Audio Conferencing settings for my organization in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams).
 
 It might be easier for you to see all of the audio conferencing settings for Skype for Business in one place. 
 
@@ -68,7 +68,7 @@ It might be easier for you to see all of the audio conferencing settings for Sky
     
     See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).
     
- **Using Windows PowerShell**
+**Using Windows PowerShell**
   
 - You can also use the Windows PowerShell and run: 
     
