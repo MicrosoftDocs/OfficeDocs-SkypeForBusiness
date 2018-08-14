@@ -1,5 +1,5 @@
 ---
-title: "Enable users to record their name when they join a meeting"
+title: "Enable users to record their name when they join a meeting in Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,37 +14,23 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business 
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: "Learn how to enable or disable whether your users can record their names when they join a meeting "
+description: "Learn how to enable or disable whether your users can record their names when they join a meeting in Skype for Business Online."
 ---
 
-# Enable users to record their name when they join a meeting
+# Enable users to record their name when they join a meeting in Skype for Business Online
+
+> [!Note]
+> If you want to allow users to record their names in Teams, see [Enable users to record their name when they join a meeting in Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
 
 When you are setting up Audio Conferencing in Office 365, you will receive phone numbers and what is called an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers that can be a dedicated or shared phone number.
   
 The conferencing bridge answers a call for a user who is dialing in to a meeting using a phone. The conferencing bridge answers the caller with voice prompts from an auto attendant, and then, depending on their settings, can play notifications, ask callers to record their name, and set up the PIN security for meeting organizers. PINs are given to meeting organizers to allow them to start a meeting. However, you can set it up so a PIN isn't required to start a meeting.
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
 ## Set whether callers should record their name
-
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
-
-1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
-
-2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
-
-3. Enable or disable **Enable meeting entry and exit notifications to be turned on**.
-
-4. Click **Apply**.
-
-
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business Admin Center**
     
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     

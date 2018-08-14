@@ -194,7 +194,7 @@
 ### [Disabling toll-free numbers for specific users](disabling-toll-free-numbers-for-specific-teams-users.md)
 ### [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ### [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
-### [Enable users to record their name when they join a meeting](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ### [Turn on or off entry and exit announcements for meetings](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ### [Teams cloud meeting recording](cloud-recording.md)
@@ -232,7 +232,7 @@
 #### [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
 #### [Emails that are automatically sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md)
 #### [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
-#### [Enable users to record their name when they join a meeting](/SkypeForBusiness/audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [Manage the Audio Conferencing settings for a user](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Manage the Audio Conferencing settings for my organization](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Phone numbers for Audio Conferencing](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
