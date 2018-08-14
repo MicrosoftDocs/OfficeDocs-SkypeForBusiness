@@ -58,6 +58,4 @@ When toll-free numbers are disabled for a given organizer:
  
 **Using PowerShell**  
 
-You can use the AllowTollFreeDialIn parameter of the Set-CsOnlineDialInConferencingUser cmdlet to enable or disable this control. For example: 
-
- - Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false
+See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
