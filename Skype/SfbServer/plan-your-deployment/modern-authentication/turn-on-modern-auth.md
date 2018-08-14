@@ -22,203 +22,33 @@ description: "This article outlines cmdlets that give admins more control of aut
   
 Modern Authentication doesn't just enable more secure methods of access, like Two-Factor Auth, or Client Certificate Auth, it carries out authorization of your user without needing a username or password. It's pretty handy.
 
-This article will help you plug holes that have been exploited for Denial Of Service (DOS) attacks on Skype for Business Servers, by turning off older methods used for authentication, externally, inernally, or both, to your network. So, let's get started.
+This article will help you plug holes that have been exploited for Denial Of Service (DOS) attacks on Skype for Business Servers, by turning off older methods used for authentication, externally, inernally, or both, to your network. For example, one good method to help stop DOS attacks would be to turn off NTLM externally and rely on certificate-based authentication, disabling any password auth. 
+
+All right, let's get started.
 
 ## What would you be changing? 
 
 These cmdlets work for both SIP and Web Services points of access. Though these two channels use different access methods, running the gammut from NTLM and Kerberos to Anonymous access, all standard methods used by Skype for Business have been taken into consideration.
 
-### SIP
+## How to get the Get- and Set-CsAuthConfig cmdlets
 
-DOS attacks on SIP services use NTLM authentication heavily. NTLM is a username and password 'handshake' between the server and client, and does require credentials to be passed.
+These cmdlets will only be installed post July 2018 cumulative update (6.0.9319.534) for Microsoft Skype for Business Server 2015, but then you have a variety of topologies that can be rolled out for your Skype for Business server.
 
-This cmdlet will turn off NTLM for authorization inside the SIP service:
+## Topologies
 
-`Set-CsProxyConfiguration UseNTLMforClientProxyAuth= false`
-
-Be aware that this cmdlet turns off internal and external connections that use NTLM. There is no method for turning off one without the other.
-
-### Web Services
-
-The story is not the same in Web Services. Here, when methods (like NTLM) are stopped, the administrator has the choice of preventing them  externally, or internally, or both. 
-
-Here are the new parameters added to:
-
-`Set-CsWebServiceConfiguration`
-</p>
-
-|Parameters  |Required?  |Type  |Description  |
-|:---------|:---------:|:---------:|---------|
-|OverrideAuthTypeForInternalClients  | Optional         | System.String        | This is a string made up of comma separated option strings where each option overrides a specific authentication for *internal* client. The default is an empty string ($null).        |
-|OverrideAuthTypeForExternalClients    | Optional        | System.String        |  A string composed of comma separated option strings where each overrides a specific authentication for *external* clients. The default is empty string ($null).      
-
-Here are the commands valid for the parameters above: </p>
+In this table, *Modern Authentication* is abbreviated as __MA__ and *Windows Integrated Authentication* is abbreviated at __Win__. You'll need to know this to read the table properly!
 
 
-|Parameter  |Valid values |Description  |
-|---------|:---------|---------|
-|OverrideAuthTypeForInternalClients     |DisableWindowsAuth, DisableOAuth, DisableWsFedPassiveAuth, DisableFormsAuth          | __DisableWindowsAuth__ overrides the current setting of *UseWindowsAuth* by disallowing Windows authentication for internal connection. </br></p>__DisableOAuth__ overrides the current setting of *AllowExternalAuthentication* by disallowing OAuth authentication for internal connection. </br></p> __DisableWsFedPassiveAuth__ overrides the current setting of *UseWsFedPassiveAuth* by disallowing LiveID authentication for internal connection. </br></p>__DisableFormsAuth__ overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for internal connection        |
-|OverrideAuthTypeForExternalClients      |     DisableWindowsAuth, DisableOAuth, DisableWsFedPassiveAuth, DisableFormsAuth    |__DisableWindowsAuth__ overrides the current setting of *UseWindowsAuth* by disallowing Windows authentication for external connection. </br></p>__DisableOAuth__ overrides the current setting of *AllowExternalAuthentication* by disallowing OAuth authentication for external connection. </br></p>__DisableWsFedPassiveAuth__ overrides the current setting of *UseWsFedPassiveAuth* by disallowing LiveID authentication for external connection. </br></p>__DisableFormsAuth__ overrides the current setting of *UseWindowsAuth* by disallowing Form based authentication for external connection.            |
-
-NOTE  You must run `Enable-CsComputer` and an IISReset to push these changes out and allow them to do their work.
-
-The cmdlet, `Set-CsWebServiceConfiguration`, can be used at different security scopes in Skype for Business: globally, at the site level, or on the service level. This means you can run this cmdlet for different scopes, using different parameters. I'd caution you against creating too much complexity in your deployment, unless it's truly called for. If it is, be sure to document the values used for each of the scopes, thoroughly. Avoid the headaches later.
-
-## Supported Topologies
-
-Here are the supported topologies and the commands to configure them.
+|       |Externally  |Internally  |Parameter  |
+|---------|:---------|---------:|---------|
+|Type 1   |  MA + Win       | MA + Win         |  AllowAllExternallyAndInternally       |
+|Type 2   |  MA       | MA + Win         | BlockWindowsAuthExternally        |
+|Type 3   |  MA       | MA        | BlockWindowsAuthExternallyAndInternally        |
+|Type 4   |  MA       | Win        | BlockWindowsAuthExternallyAndModernAuthInternally    |
+|Type 5   |  MA + Win       | Win        | BlockModernAuthInternally         |
 
 
-|Type  |External  |Internal  |Comments  |
-|---------|:--------------|:--------------|------|
-|Type 1     |+Modern&nbsp;Auth </br> +Windows&nbsp;Auth    |+Modern&nbsp;Auth </br> +Windows&nbsp;Auth         |This is the default when MA is turned On.         |
-|Type 2     |+ Modern&nbsp;Auth </br> *-Windows&nbsp;Auth*         | +Modern&nbsp;Auth </br> +Windows&nbsp;Auth       |This blocks Windows Auth externally and allows older clients that *do not* support ADAL to still work internally, but clients that *do* support ADAL would use MA internally.        |
-|Type 3     |+Modern&nbsp;Auth </br>*-Windows&nbsp;Auth*         |+Modern&nbsp;Auth </br> *-Windows&nbsp;Auth*         |This leverages MA for all users. Only ADAL capable clients will have access here.         |
-|Type 4     |+Modern&nbsp;Auth </br> *-Windows&nbsp;Auth*         |*-Modern&nbsp;Auth* </br> +Window&nbsp;Auth         |This blocks Windows Auth externally and allows all internal clients to use legacy forms of auth.         |
-|Type 5     | +Modern&nbsp;Auth </br> +Windows&nbsp;Auth        |*-Modern&nbsp;Auth* </br> +Windows&nbsp;Auth         |Externally, ADAL clients will use MA, and internally all clients will use legacy auth.         |
 
-The supported commands:
-
-### Type 1
-
-```powershell
-Set-CsWebServiceConfiguration 
--OverrideAuthTypeForInternalClients 
-“” 
--OverrideAuthTypeForExternalClients 
-“” 
--UseWindowsAuth $true 
--UseCertificateAuth $true 
--UseWsFedPassiveAuth $false 
--AllowExternalAuthentication $true 
--UseDomainAuthInLwa $true 
- 
-Set-CsProxyConfiguration 
--UseNtlmForClientToProxyAuth 
-$true 
--UseKerberosForClientToProxyAuth 
-$true
-```
-
-### Type 2
-
-```powershell
-Set-CsWebServiceConfiguration 
--OverrideAuthTypeForInternalClients 
-“” 
--OverrideAuthTypeForExternalClients 
-DisableWindowsAuth 
--UseWindowsAuth $true 
--UseCertificateAuth $true 
--UseWsFedPassiveAuth $false 
--AllowExternalAuthentication $true 
--UseDomainAuthInLwa $false 
- 
-Set-CsProxyConfiguration 
--UseNtlmForClientToProxyAuth 
-$false 
--UseKerberosForClientToProxyAuth 
-$true
-```
-
-__Usage example:__ 
-
-```powershell
-Set-CsWebServiceConfiguration -OverrideAuthTypeForExternalClients DisableWindowsAuth 
-Enable-CsComputer 
- 
-IISReset
-```
-
-### Type 3
-
-```powershell
-Set-CsWebServiceConfiguration 
--OverrideAuthTypeForInternalClients 
-DisableWindowsAuth 
--OverrideAuthTypeForExternalClients 
-DisableWindowsAuth 
--UseWindowsAuth $false 
--UseCertificateAuth $true 
--UseWsFedPassiveAuth $false 
--AllowExternalAuthentication $true 
--UseDomainAuthInLwa $false 
- 
-Set-CsProxyConfiguration 
--UseNtlmForClientToProxyAuth 
-$false 
--UseKerberosForClientToProxyAuth 
-$false
-```
-
-__Usage example:__
-
-```powershell
-Set-CsWebServiceConfiguration -OverrideAuthTypeForInternalClients DisableWindowsAuth -OverrideAuthTypeForExternalClients DisableWindowsAuth 
-Enable-CsComputer 
- 
-IISReset
-```
-
-__Or:__ 
-
-```powershell
-Set-CsWebServiceConfiguration -UseWindowsAuth None 
-Enable-CsComputer 
- 
-IISReset
-```
-
-### Type 4
-
-```powershell
-Set-CsWebServiceConfiguration 
--OverrideAuthTypeForInternalClients 
-“DisableExternalAuth” 
--OverrideAuthTypeForExternalClients 
-“DisableWindowsAuth” 
--UseWindowsAuth $true 
--UseCertificateAuth $true 
--UseWsFedPassiveAuth $false 
--AllowExternalAuthentication $true 
--UseDomainAuthInLwa $false 
-
-Set-CsProxyConfiguration 
--UseNtlmForClientToProxyAuth 
-$false 
--UseKerberosForClientToProxyAuth 
-$true
-```
-
-__Usage example:__
- 
-```powershell
-Set-CsWebServiceConfiguration -OverrideAuthTypeForInternalClients “DisableExternalAuth” -OverrideAuthTypeForExternalClients “DisableWindowsAuth” 
-Enable-CsComputer 
- 
-IISReset
-```
-
-### Type 5
-
-```powershell
-Set-CsWebServiceConfiguration 
--OverrideAuthTypeForInternalClients 
-“DisableExternalAuth” 
--OverrideAuthTypeForExternalClients 
-“” 
--UseWindowsAuth $true 
--UseCertificateAuth $true 
--UseWsFedPassiveAuth $false 
--AllowExternalAuthentication $true 
--UseDomainAuthInLwa $true 
-< 
-Set-CsProxyConfiguration 
--UseNtlmForClientToProxyAuth 
-$true 
--UseKerberosForClientToProxyAuth 
-$true
-```
 
 > [!IMPORTANT]
 > If you're using Lync Web Access (LWA) and must use Forms-based Access (FBA) for external access, reconfigure LWA so that clients can access it with Anonymous Access to support these scenarios. Likewise, if you use Dial-in Pin, FBA will be blocked for external users only. If they need to change thir pin, they will need to login to their corporation to do so, internally.
