@@ -66,7 +66,7 @@ You can use Microsoft Teams or Windows PowerShell to enable or disable email sen
 
   
 > [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 **Using Windows PowerShell**
   
