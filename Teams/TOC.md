@@ -238,7 +238,7 @@
 #### [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md)
-#### [Reset the Audio Conferencing PIN for a user](/SkypeForBusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Reset the Audio Conferencing PIN for a user](reset-the-audio-conferencing-pin-in-teams.md)
 #### [See a list of Audio Conferencing numbers](/SkypeForBusiness/audio-conferencing-in-office-365/see-a-list-of-audio-conferencing-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [See a list of users that are enabled for Audio Conferencing](/SkypeForBusiness/audio-conferencing-in-office-365/see-a-list-of-users-that-are-enabled-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [See, change, and reset a conference ID assigned to a user](/SkypeForBusiness/audio-conferencing-in-office-365/see-change-and-reset-a-conference-id-assigned-to-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
