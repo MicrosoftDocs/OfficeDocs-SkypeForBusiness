@@ -45,11 +45,11 @@ It's important to keep in mind that these are the Supported Topologies involved 
 
 |       |Externally  |Internally  |Parameter  |
 |---------|:---------|:---------|---------|
-|Type 1   |  MA + Win       | MA + Win         |  AllowAllExternallyAndInternally       |
-|Type 2   |  MA       | MA + Win         | BlockWindowsAuthExternally        |
-|Type 3   |  MA       | MA        | BlockWindowsAuthExternallyAndInternally        |
-|Type 4   |  MA       | Win        | BlockWindowsAuthExternallyAndModernAuthInternally    |
-|Type 5   |  MA + Win       | Win        | BlockModernAuthInternally         |
+|__Type 1__   |  MA + Win       | MA + Win         |  AllowAllExternallyAndInternally       |
+|__Type 2__   |  MA       | MA + Win         | BlockWindowsAuthExternally        |
+|__Type 3__   |  MA       | MA        | BlockWindowsAuthExternallyAndInternally        |
+|__Type 4__   |  MA       | Win        | BlockWindowsAuthExternallyAndModernAuthInternally    |
+|__Type 5__   |  MA + Win       | Win        | BlockModernAuthInternally         |
 
 __Type 1 Description:__ This is the default scenario when MA is turned __on__ for Skype for Business Server. In other words, this is the *starting point* when MA is configured.
 
