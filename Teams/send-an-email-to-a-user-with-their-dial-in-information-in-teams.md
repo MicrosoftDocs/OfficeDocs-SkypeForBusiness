@@ -23,7 +23,7 @@ description: "Send your users an email with their audio conferencing information
 
 # Send an email to a user with their Audio Conferencing information in Microsoft Teams
 
-Sometimes Microsoft Teams users may need you to send them their Audio Conferencing information. You can do this by using the **Skype for Business admin center** and clicking **Send conference info via email** under the properties for a user. When you send this email, it will contain all of the audio conferencing information, including:
+Sometimes Microsoft Teams users may need you to send them their Audio Conferencing information. You can do this by clicking **Send conference info via email** under the properties for a user. When you send this email, it will contain all of the audio conferencing information, including:
   
 - The conference phone or dial-in phone number for the user.
     
@@ -40,7 +40,9 @@ Here is an example of the email that is sent:
 ## Send an email with audio conferencing information to a user
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
+
 2. At the top of the page, click **Edit**.
+
 3. Under **Audio Conferencing**, click **Send conference info in email**.
 
 
