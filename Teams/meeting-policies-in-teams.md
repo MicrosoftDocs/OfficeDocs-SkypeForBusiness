@@ -1,5 +1,5 @@
 ---
-title: Meeting polcies in Teams
+title: Meeting policies in Teams
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
