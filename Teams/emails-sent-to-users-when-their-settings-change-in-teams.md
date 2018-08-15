@@ -103,7 +103,7 @@ By default, emails will be sent to your users, but if you want to prevent them f
 See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
   
 
-## Want to know how to manage with Windows PowerShell?
+## Want to know more about Windows PowerShell?
 
 By default, the sender of the emails will be from Office 365, but you can change the email address and display name using Windows PowerShell. 
 
