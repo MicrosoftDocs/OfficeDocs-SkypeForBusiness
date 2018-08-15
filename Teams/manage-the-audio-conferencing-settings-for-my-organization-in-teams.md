@@ -23,9 +23,6 @@ description: "See Microsoft Teams steps to assign a dial-in conferencing license
 
 # Manage the Audio Conferencing settings for my organization in Teams
 
-> [!NOTE]
-> If you want to manage organizational settings in Skype for Business Online, see [Manage the Audio Conferencing settings for my organization in Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization).
-
 It might be easier for you to see all of the audio conferencing settings for Microsoft Teams in one place. 
 
 > [!NOTE]

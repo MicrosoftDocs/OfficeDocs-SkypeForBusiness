@@ -235,7 +235,7 @@
 #### [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [Manage the Audio Conferencing settings for a user](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 #### [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
-#### [Phone numbers for Audio Conferencing](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Reset a conference ID for a user](/SkypeForBusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Reset the Audio Conferencing PIN for a user](/SkypeForBusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

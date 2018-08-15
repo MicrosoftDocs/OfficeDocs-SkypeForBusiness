@@ -23,9 +23,6 @@ description: "Learn about what information is sent automatically to users by ema
 
 # Emails sent to users when their settings change in Microsoft Teams
 
-> [!Note]
-> If you're looking for automatic email information in Skype for Business Online, see [Emails sent to users when their settings change in Skype for Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change).
-
 Emails will be automatically sent to users who are [enabled for Audio Conferencing](set-up-audio-conferencing.md) using Microsoft as the audio conferencing provider.
   
 By default, there are four types of email that will be sent to your users who are enabled for Audio Conferencing. However, if you want to limit the number of emails sent to users, you can turn it off. Audio Conferencing in Office 365 will send email to your users' email when:

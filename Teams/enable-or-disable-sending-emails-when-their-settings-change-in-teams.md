@@ -23,9 +23,6 @@ description: "Learn how to enable or disable Skype from sending emails to users 
 
 # Enable or disable sending emails when Audio Conferencing settings change in Microsoft Teams
 
-> [!Note]
-> If you want to enable or disable sending emails in Skype for Business Online, see [Enable or disable sending emails when Audio Conferencing settings change in Skype for Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
-
 Users are automatically notified by email when they are enabled for Audio Conferencing. There may be times, however, when you want to reduce the number of emails that are sent to Microsoft Teams users. In such cases, you can disable sending email.
   
 If you disable sending emails, Audio Conferencing emails won't be sent to your users, including emails for when users are enabled or disabled for audio conferencing, when their PIN is reset, and when the conference ID and the default conferencing phone number changes.
