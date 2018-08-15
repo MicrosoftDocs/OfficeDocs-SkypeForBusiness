@@ -66,8 +66,7 @@ To see a list of those countries/regions that have phone numbers automatically a
 - You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
     
 - To set the dial-in phone number for a user, see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).
-    
-[!INCLUDE  [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
+
    
 ## Related topics
 
