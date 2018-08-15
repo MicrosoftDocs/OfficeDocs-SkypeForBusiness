@@ -21,7 +21,7 @@ The following section covers Skype Room System account provisioning for an Offic
 
 Your online tenant must meet the following requirements:
   
-- The Office 365 plan must include Skype for Business Online Plan 2, Plan 3, or Office 365 E1, E3 or E5.
+- The Office 365 plan must include Skype for Business Online Plan 2, or Office 365 E1, E3 or E5. <br/>For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
     
 - Your tenant must have the conferencing capability of Skype for Business enabled.
     
@@ -39,9 +39,9 @@ For the Skype Room account, the following licensing is required:
   
 - A Skype for Business Online Plan 2 or Office 365 E1 or E3 license is required to enable Skype Meetings.
     
-- To entitle the room with the Enterprise Voice capability so the room can be enabled with a phone number, a Skype for Business Online Plan 2 with the Cloud PBX Add-on or Office 365 E5 is required (1).
+- To entitle the room with the Enterprise Voice capability so the room can be enabled with a phone number, a Skype for Business Online Plan 2 with the Phone System license or Office 365 E5 is required (1).
     
-- The availability of PSTN Conferencing entitlement within any given meeting is determined by the license of the meeting organizer.
+- If you need dial-in capabilities from a meeting, you will need an audio conferencing and Phone System license.  If you need dial-out capabilities from a meeting, you will need a domestic or domestic and international Calling Plan. 
     
 - An Exchange Online license is not required for the Skype Room account because the account should be configured as a resource mailbox account.
     
@@ -133,4 +133,7 @@ In Office 365, the default password expiration policy for all of your user accou
 
 For more information, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
+## Validate
+
+For validation, you should be able to use any Skype for Business client to sign in to the account you created.
 

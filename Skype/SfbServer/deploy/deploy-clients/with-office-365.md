@@ -26,14 +26,16 @@ Before you deploy Skype Room Systems v2 with Office 365, be sure you have met th
   
 To enable Skype for Business, you must have the following:
   
-- Skype for Business Online (Plan 2) or higher in your Office 365 plan. The plan needs to support conferencing capability.
+- Skype for Business Online (Plan 2, or an Enterprise-based plan) or higher in your Office 365 plan. The plan needs to allow dial-in conferencing capabilities.
     
-- If you need Enterprise Voice (PSTN telephony) using telephony service providers for Skype Room Systems v2 you need Skype for Business Online (Plan 3).
+- If you need dial-in capabilities from a meeting, you will need an audio conferencing and Phone System license.  If you need dial-out capabilities from a meeting, you will need a domestic or domestic and international Calling Plan. 
     
 - Your tenant users must have Exchange mailboxes.
     
-- Your Skype Room Systems v2 account does require a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license, but it does not require an Exchange Online license.
-    
+- Your Skype Room Systems v2 account does require at a minumum a Skype for Business Online (Plan 2) license, but it does not require an Exchange Online license.
+
+For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
+
 ### Add a device account
 
 1. Start a remote Windows PowerShell session on a PC and connect to Exchange. Be sure you have the right permissions set to run the associated cmdlets. The following are some examples of cmdlets that can be used and modified in your environment.
@@ -173,6 +175,11 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 > [!NOTE]
 > This adds CloudPBX and PSTNCallingDomesticAndInternational. Addtionally, you will need to use the Admin interface to assign a phone number. 
   
+## Validate
+
+For validation, you should be able to use any Skype for Business client to sign in to the account you created.
+
+
 ## See also
 
 [Configure accounts for Skype Room Systems v2](room-systems-v2-configure-accounts.md)
