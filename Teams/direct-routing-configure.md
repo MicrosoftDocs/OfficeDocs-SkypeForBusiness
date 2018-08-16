@@ -526,7 +526,7 @@ Before a user can see the Calls tab in Microsoft Teams, you need to enable priva
 ## Set Microsoft Teams as the preferred calling client for the users
 
 Direct Routing only route the calls to and from users if they use Teams Cleint. 
-If your organisation only use Teams cleint, setting "Teams Only" mode in upgrade policy is recommended. 
+If your organisation only use Teams client, setting "Teams Only" mode in upgrade policy is recommended. 
 If you organisation uses Skype for Business Server or Skype for Business Online, please review the following document  [Understand coexistence and upgrade journey for Skype for Business and Teams](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) and select appropriate option. 
 
 
