@@ -1,7 +1,7 @@
 ---
 title: PowerShell Script Sample - Create a company-wide team in Microsoft Teams
-author: lehewe
-ms.author: Lester-Hewett
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 02/07/2018
 ms.topic: article
