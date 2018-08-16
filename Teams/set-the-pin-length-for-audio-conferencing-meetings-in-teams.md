@@ -28,7 +28,7 @@ When you are setting up audio conferencing for Microsoft Teams, you will get an 
 The audio conferencing bridge answers a call for people who are dialing in to a meeting using a phone. It answers the caller with voice prompts from an auto attendant and then, depending on your settings, can play notifications and ask callers to record their name. **Microsoft bridge settings** allow you to change the settings for meeting notifications and the meeting join experience, and set the length of the PINs that are used by meeting organizers. Meeting organizers use PINs to start meetings if they can't join the meeting using the Microsoft Teams app.
 
 > [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## Setting the PIN length
 
