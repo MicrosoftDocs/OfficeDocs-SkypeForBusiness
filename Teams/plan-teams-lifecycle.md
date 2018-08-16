@@ -30,7 +30,7 @@ A team is a collection of people, content, and tools that facilitate collaborati
 
 **Channels**
 
-Channels are the collaboration spaces within a team where the actual work is done. Anyone on the team can see and participate in any of the channels, which can be extended with apps to aid the workflow. There can be up to 200 channels in a team.
+Channels are the collaboration spaces within a team where the actual work is done. Anyone on the team can see and participate in any of the channels, which can be extended with apps to aid the workflow.
 
 **Team origins**
 
@@ -39,7 +39,7 @@ Teams can originate from a variety of methods, including:
 -   Create the team from scratch. Add members by using individual email aliases or usernames, or expand a distribution list.
 -   Create the team from an existing team, and use its channel configuration and any app configuration as a template. You can optionally also use its membership list.
 -   Add a team to an existing Office 365 Group, which also gives the team access to its mailbox and SharePoint site.
--   Use the Microsoft Teams Graph APIs or PowerShell cmdlets to create teams. The APIs can programmatically create teams based on Global Address Book attributes (region, department) or business processes (client engagements, classroom rosters).
+-   Use the Microsoft Teams Graph APIs or PowerShell cmdlets to create teams. The APIs can programmatically create teams based on Global Address Book attributes (such as region or department) or business processes (client engagements or classroom rosters, for example).
 
 **Team access types**
 
@@ -80,24 +80,24 @@ It’s optimal to identify at least two team owners, to account for absence or r
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Who belongs on the team?</li><li>Will the team be private or public?</li><li>Can new members add themselves or do team owners add them?</li><li>Who will have permissions to create channels or add tabs, bots, and connectors?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Create channels.</li></ul>|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What’s the purpose of the team?</li><li>Who belongs on the team?</li><li>Will the team be private or public?</li><li>Can new members add themselves or do team owners add them?</li><li>Who will have permissions to create channels or add tabs, bots, and connectors?</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Create the team.</li><li>Plan for channels.</li></ul>|
 
 
 #### Set up channels
 
-Any team owner or member with appropriate permissions can create channels in a team. It’s important to consider the goal of each channel: options include collaboration around projects, discussions of topics, areas of common interest. By default, every team includes a **General** channel; most teams need more than this and will create additional channels. It’s likely that the set of channels will grow organically as new topics or projects arise, and discussions might outgrow the channel they began in.
+Any team owner or member with appropriate permissions can create channels in a team. It’s important to consider the goal of each channel: options include collaboration around projects, discussions of topics, areas of common interest. By default, every team includes a General channel; most teams need more than this and will create additional channels. It’s likely that the set of channels will grow organically as new topics or projects arise, and discussions might outgrow the channel they began in.
 
 To spark interest, the channel owner can post a welcome message, upload relevant documents to the **Files** tab, or add tabs or connectors to the channel. The owner also sets the channel description, and can “auto-favorite” important channels so they’re listed by default for all team members.
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Will channels be set up by project, by topic, or ...?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Start collaborating.</li></ul>|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>What initial channels will be added to the team?</li><li>What guidance, if any, will be provided for adding new channels? (Will they be set up by project, by topic, or ...?)</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Create initial channels.</li><li>Post a welcome message.</li><li>Start collaborating.</li></ul>|
 
 ### Stage 2: Middle
 
-As the teamwork begins, the team membership probably begins to evolve, along with the channel hierarchy. Unless the team needs to be strictly controlled and locked down, it’s a good idea to encourage exploration even if it leads to dead ends. As users get more comfortable, they can experiment with \@team mentions, marking channels as favorite, and using the **General** tab to get comfortable with posting. Each team is different; let usage guide the evolution of the design.
+As the teamwork begins, the team membership probably begins to evolve, along with the channel hierarchy. Unless the team needs to be strictly controlled and locked down, it’s a good idea to encourage exploration even if it leads to dead ends. As users get more comfortable, they can experiment with \@team mentions, marking channels as favorite, and using the General channel to get comfortable with posting. Each team is different; let usage guide the evolution of the design.
 
 Trust, tolerance, and a spirit of collaboration grow organically as key group communications are initiated and sustained in Teams. Team members see the usefulness of group conversations over one-on-one chats. Individual teams tend to develop their own personality, aided by fun features like Giphys and stickers. At the same time, it’s important that rogue or rude behavior be discouraged any time it occurs.
 
@@ -105,7 +105,7 @@ Because teams are living organisms, they occasionally need to be checked on and 
 
 -   Use champions to sustain usage if it starts to drop, and also to discover and propagate creative new behaviors. 
 -   Manage guests judiciously, making sure their access ends when the business need ends.
--   Let channels evolve with business needs, adding new ones as necessary and allowing old ones to fade (or consider archiving or deleting them, if they contain sensitive or ephemeral data, based on your retention requirements).
+-   Let channels evolve with business needs, adding new ones as necessary and allowing old ones to fade (or consider archiving or deleting them if they contain sensitive or ephemeral data, based on your retention requirements).
 -   Carve out new teams as larger groups or interest-based areas emerge.
 -   Try different channel collaborations, such as channel meetings or tab conversations around documents.
 
@@ -117,8 +117,8 @@ If a team starts to get into a rut, consider:
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Monitor usage to identify problems.</li><li>Identify any teams that have reached the end of their useful life.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Prepare teams for the end game.</li></ul>|
+| ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Who will monitor usage to identify problems?</li><li>What metrics will be used to determine whether a team is healthy?</li><li>Identify any teams that have reached the end of their useful life.</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Implement a process to monitor individual team health.</li><li>Prepare teams for the end game.</li></ul>|
 
 ### Stage 3: End
 
@@ -132,21 +132,4 @@ You can also use expiration, retention, and archiving policies to reduce exposur
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Define what the end of a team’s life looks like.</li><li>Decide whether/how long to keep the content of a team available.</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Document best practices and lessons learned.</li><li>Archive data, if necessary.</li></ul>|
-
-## Team and channel organization and lifecycle management example
-
-The following example shows how a team and its channels might be structured for a typical project.
-
-|Channel  |Tabs and resources |
-|---------|---------|
-|General     |Onboarding guidance <br>Role information <br>Training videos         |
-|Design     |Specifications and drawings <br>User feedback         |
-|Documentation     |Product help <br>Implementation guidance         |
-|Engineering     |Delivery schedule and tracking <br>Quality and reliability info         |
-|Go to Market     |Marketing strategy overview <br>Go-to-market plan          |
-|Production     |Production schedule <br>Production management tool <br>Downtime alerts         |
-|Research     |Competitive research <br>User feedback and experiments         |
-|Strategy and Timeline     |Product vision and strategy <br>Market opportunity and timelines         |
-|Support and Feedback     |Conversations about any help that’s needed <br>Customer feature request form         |
-
 
