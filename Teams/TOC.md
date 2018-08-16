@@ -243,7 +243,7 @@
 #### [See a list of users that are enabled for Audio Conferencing](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
 #### [View and reset a conference ID assigned to a user](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
 #### [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
-#### [Set auto attendant languages for Audio Conferencing](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
 #### [Set the phone numbers included on invites](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set the PIN length for Audio Conferencing meetings](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
 #### [Start an Audio Conference over the phone without a PIN](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

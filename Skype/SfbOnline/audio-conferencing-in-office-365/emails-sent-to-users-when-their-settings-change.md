@@ -24,7 +24,7 @@ description: "Learn about what information is sent automatically to users by ema
 # Emails sent to users when their settings change in Skype for Business Online
 
 > [!Note]
-> If you're looking for automatic email information in Microsoft Teams, see [Emails sent to users when their settings change in Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams).
+> If you're looking for automatic email information in Microsoft Teams, see [Emails sent to users when their settings change in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams).
 
 Emails will be automatically sent to users who are [enabled for Audio Conferencing](set-up-audio-conferencing.md) using Microsoft as the audio conferencing provider.
   

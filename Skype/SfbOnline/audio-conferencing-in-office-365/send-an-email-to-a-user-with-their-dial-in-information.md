@@ -24,7 +24,7 @@ description: "Send your users an email with their audio conferencing information
 # Send an email to a user with their Audio Conferencing information in Skype for Business Online
 
 > [!Note]
-> For information about sending Audio Conferencing information to users in Microsoft Teams, see [Send an email to a user with their Audio Conferencing information in Microsoft Teasms](https://review.docs.microsoft.com/en-us/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams).
+> For information about sending Audio Conferencing information to users in Microsoft Teams, see [Send an email to a user with their Audio Conferencing information in Microsoft Teasms](https://docs.microsoft.com/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams).
 
 Sometimes Skype for Business users may need you to send them their Audio Conferencing information. You can do this by using the **Skype for Business admin center** and clicking **Send conference info via email** under the properties for a user. When you send this email, it will contain all of the audio conferencing information, including:
   
