@@ -24,7 +24,7 @@ description: "Learn what countries and regions have dial-in conferencing numbers
 
 # Phone numbers for Audio Conferencing in Teams
 
-When you are setting up **Audio Conferencing** for Microsoft Teams, dial-in phone numbers are automatically assigned to your organization. You can see the phone numbers that are assigned to your audio conferencing bridge by going to  **Meetings** > **Conference bridges**. See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers.md).
+When you are setting up **Audio Conferencing** for Microsoft Teams, dial-in phone numbers are automatically assigned to your organization. You can see the phone numbers that are assigned to your audio conferencing bridge by going to  **Meetings** > **Conference bridges**. See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
   
 ## Audio Conferencing coverage and pricing
@@ -33,7 +33,7 @@ For a complete list of all the countries/regions and cities where Audio Conferen
   
 ## Dial-in phone numbers in a meeting invite
 
-When a Microsoft Teams user schedules a meeting in Outlook or Outlook Web App, the default audio conferencing number that is set for the user is included in the meeting invite. If you want to select a different default number for one or more users, you can change that by going to **Users**, selecting the user, and editing the user's Audio Conferencing settigns. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
+When a Microsoft Teams user schedules a meeting in Outlook or Outlook Web App, the default audio conferencing number that is set for the user is included in the meeting invite. If you want to select a different default number for one or more users, you can change that by going to **Users**, selecting the user, and editing the user's Audio Conferencing settigns. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
 ## Dial-in phone numbers set on an audio conferencing bridge

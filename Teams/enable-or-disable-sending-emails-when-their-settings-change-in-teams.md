@@ -83,8 +83,8 @@ For more information about Windows PowerShell, see the [Microsoft Teams PowerShe
   
 ## Related topics
 
-[Emails sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md)
+[Emails sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
-[Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md)
+[Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
 
 

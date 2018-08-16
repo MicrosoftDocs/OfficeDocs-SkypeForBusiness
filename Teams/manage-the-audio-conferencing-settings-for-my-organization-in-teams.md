@@ -80,7 +80,7 @@ You can make changes to the email that is automatically sent to your users, incl
 
 4. In the **Reset conference ID?** window, click **Reset**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
 
-See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).
+See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md).
   
 ## Reset a conference organizer's PIN
 
@@ -95,7 +95,7 @@ Each meeting that a user schedules will get assigned a unique conference ID. Alt
     
 Users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent and you will have to manually send the PIN to the user. The PIN will only be shown once after it has been reset. After it's displayed just after being reset, the PIN won't be shown anymore on the user properties; instead, ***** will be shown. 
   
-See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).
+See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams.md).
   
 ## Send an email with Audio Conferencing information to a user
 
@@ -109,7 +109,7 @@ See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).
     > When you do this, the audio conferencing PIN isn't sent to the user. 
 
   
-See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).
+See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
   
 ## Setting the phone numbers included on invites
 
@@ -121,7 +121,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 4. Click **Save**.
     
-See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
+See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
 ## Choosing audio conferencing bridge settings
@@ -174,7 +174,7 @@ See [Change the settings for an Audio Conferencing bridge](change-the-settings-f
     
     If you do this, an email will be sent that only includes conference ID and conference phone number, but the PIN won't be included.
 
-See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).
+See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
     
 ## See and set the primary (default) and secondary (alternate) languages on an audio conferencing bridge
 
@@ -185,7 +185,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 3. Choose the languages you want under **Default language** and **Alternate languages (optional)**.
 
 
-See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md).
+See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
   
 ## See audio conferencing dial-in numbers
 
@@ -199,7 +199,7 @@ See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-lan
   - View the location, and the primary language, that will be used by the Audio Conferencing auto attendant.
 
   
-See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers.md).
+See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
 
 ## Want to know more about Windows PowerShell?

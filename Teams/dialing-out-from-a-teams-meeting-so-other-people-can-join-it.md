@@ -1,5 +1,5 @@
 ---
-title: "Dialing out from a Teams meeting so other people can join it"
+title: "Dialing out from a Microsoft Teams meeting so other people can join it"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom:
 description: "Learn what you need and how meeting organizers can call out to other people using Teams."
 ---
 
-# Dialing out from a Teams meeting so other people can join it
+# Dialing out from a Microsoft Teams meeting so other people can join it
 
 As the meeting organizer, you can dial out using the Teams app to let other people join the same meeting using their phone. Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code. To get dial-out to work:
   
@@ -41,12 +41,12 @@ As the meeting organizer, you can dial out using the Teams app to let other peop
   
 ## Supported countries and regions
 
-Dial-out is only available to some countries/regions. For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Dial-out is only available to some countries/regions. For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/en-us/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   
 ## Want to know more about audio conferencing?
 
-[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Try or purchase Audio Conferencing in Office 365](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
     
-- [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams add-on licensing](microsoft-teams-add-on-licensing.md)
     
 
