@@ -24,7 +24,7 @@ description: "See how to select the audio conferencing auto attendant languages 
 # Set auto attendant languages for Audio Conferencing in Skype for Business Online
 
 > [!Note]
-> For information about setting the auto attendant language in Microsoft Teams, see [Set auto attendant languages for Audio Conferencing in Microsoft Teasms](https://docs.microsoft.com/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).
+> For information about setting the auto attendant language in Microsoft Teams, see [Set auto attendant languages for Audio Conferencing in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).
 
 The Audio Conferencing auto attendant for Skype for Business can greet audio callers in a number of different languages when they join a meeting.
   
