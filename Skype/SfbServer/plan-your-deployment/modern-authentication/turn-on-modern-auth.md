@@ -21,9 +21,9 @@ description: "This article outlines cmdlets that give admins more control of aut
  + [https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
  + [https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal)
   
-Modern Authentication doesn't just enable more secure methods of access, like Two-Factor Auth, or Client Certificate Auth, it carries out authorization of your user without needing a username or password. It's pretty handy.
+Modern Authentication doesn't just enable more secure methods of authentication, like Two-Factor Auth, or Certificate-based Auth, it can carry out authorization of your user without needing a username or password too. It's pretty handy.
 
-This article will help you plug holes that have been exploited for Denial Of Service (DOS) attacks on Skype for Business Servers, by turning off older methods used for authentication, externally, internally, or both, to your network. For example, one good method to help stop DOS attacks would be to turn off NTLM externally and rely on certificate-based authentication, disabling any password auth. 
+This article will help you plug holes that have been exploited for Denial Of Service (DOS) attacks on Skype for Business Servers, by turning off older methods used for authentication, externally, internally, or both, to your network. For example, one good method to help stop DOS attacks would be to turn off Windows Integrated Authentication (which includes NTLM and Kerberos). Turning off NTLM externally and relying on certificate-based authentication helps to protect passwords from exposure. This is because NTLM uses password credentials to authenticate users, but certificate-based authentication -- enabled by Modern Auth -- doesn't. That makes one ideal option to reduce DOS woes blocking NTLM externally, and using only certificate-based authentication there, instead.
 
 All right, let's get started.
 
