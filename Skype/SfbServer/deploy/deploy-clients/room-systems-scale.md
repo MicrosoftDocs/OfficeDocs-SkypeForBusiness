@@ -112,7 +112,7 @@ Use the following instructions to verify that the operating system deployment (O
     2.  Select **OK** to add HTML application support in to the boot image.
 
 5.  *Optional:* To customize the deployment experience, select the **Customization** tab.
-    -   Enable **command support (testing only)** if you want to have access to a command prompt during the deployment. When this is enabled, you can         start a command prompt by selecting F8 at any time during the deployment.
+    -   Enable **command support (testing only)** if you want to have access to a command prompt during the deployment. When this is enabled, you can start a command prompt by selecting **F8** at any time during the deployment.
     -   You can also specify a custom background image to be displayed during the deployment. To set an image, enable **Specify the custom background image file (UNC path** and select your background.
 
 6.  When asked, select **Yes** and distribute the updated boot image to your distribution points.
@@ -128,18 +128,19 @@ Configuration Manager requires a number of packages to deploy and configure the 
 
 You need to create and configure the following packages, and then distribute them to the Configuration Manager site systems that have been assigned the distribution point server role.
 
-| **Package name**                     | **Type**               | **Description**                                                                        |
-|--------------------------------------|------------------------|----------------------------------------------------------------------------------------|
-| SRS v2 - SRS Application Package     | Software package       | Package for the Skype Room Systems v2 deployment kit                                   |
-| SRS v2 - Sysprep Package             | Software package       | Package for the custom Unattended.xml to configure Skype Room Systems v2 units         |
-| SRS v2 - Set-SRSComputerName Package | Software package       | Package for the HTML application (HTA) to assign a computer name during the deployment |
-| SRS v2 - OS Updates Package          | Software package       | Package to deploy mandatory operating system updates                                   |
-| SRS v2 - Root Certificate Package    | Software package       | Package to deploy the root certificate (not required for domain-joined units)          |
-| SRS v2 - Microsoft OMS Agent Package | Software package       | Package to deploy and configure the Microsoft Operations Management Suite agent        |
-| SRS v2 - WinPE Background Package    | Software package       | Package for the custom background image to use with boot images                        |
-| Windows 10 Enterprise                | Operating system image | Package for the operating system installation file (install.wim)                       |
-| Surface Pro                          | Driver package         | Package for the device drivers and firmware for Microsoft Surface Pro                  |
-| Surface Pro 4                        | Driver package         | Package for the device drivers and firmware for Microsoft Surface Pro 4                |
+| **Package name**                     | **Type**               | **Description**                                                                           |
+|--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
+| SRS v2 - SRS Application Package     | Software package       | Package for the Skype Room Systems v2 deployment kit                                      |
+| SRS v2 - Sysprep Package             | Software package       | Package for the custom Unattended.xml to configure Skype Room Systems v2 units            |
+| SRS v2 - Set-SRSComputerName Package | Software package       | Package for the HTML application (HTA) to assign a computer name during the deployment    |
+| SRS v2 - Configure SRS Setup         | Software package       | Package to configure deployment of the Skype Room Systems v2 app                          |
+| SRS v2 - OS Updates Package          | Software package       | Package to deploy mandatory operating system updates                                      |
+| SRS v2 - Root Certificate Package    | Software package       | Optional - Package to deploy the root certificate (not required for domain-joined units)  |
+| SRS v2 - Microsoft OMS Agent Package | Software package       | Optional - Package to deploy and configure the Microsoft Operations Management Suite agent|
+| SRS v2 - WinPE Background Package    | Software package       | Package for the custom background image to use with boot images                           |
+| Windows 10 Enterprise                | Operating system image | Package for the operating system installation file (install.wim)                          |
+| Surface Pro                          | Driver package         | Package for the device drivers and firmware for Microsoft Surface Pro                     |
+| Surface Pro 4                        | Driver package         | Package for the device drivers and firmware for Microsoft Surface Pro 4                   |
 
 For more information, see [Packages and programs in System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
 
@@ -154,6 +155,7 @@ Create the following folder structure on the System Center Configuration Manager
 -   SRS v2 - Root Certificate Package
 -   SRS v2 - Set-SRSComputerName Package
 -   SRS v2 - SRS Application Package
+-   SRS v2 - Configure SRS Setup
 -   SRS v2 - Sysprep Package
 -   Drivers
     -   Surface Pro
@@ -385,55 +387,13 @@ You create this package to distribute the root certificate for devices that won�
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend">
-    <servicing>
-        <package action="configure">
-            <assemblyIdentity name="Microsoft-Windows-Foundation-Package" version="10.0.16299.15" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="" />
-            <selection name="Client-DeviceLockdown" state="true" />
-            <selection name="Client-EmbeddedLogon" state="true" />
-            <selection name="Client-EmbeddedBootExp" state="true" />
-            <selection name="Client-EmbeddedShellLauncher" state="true" />
-            <selection name="Client-KeyboardFilter" state="true" />
-            <selection name="Internet-Explorer-Optional-amd64" state="false" />
-            <selection name="MediaPlayback" state="false" />
-            <selection name="WindowsMediaPlayer" state="false" />
-            <selection name="Xps-Foundation-Xps-Viewer" state="false" />
-            <selection name="WorkFolders-Client" state="false" />
-            <selection name="SMB1Protocol" state="false" />
-            <selection name="SearchEngine-Client-Package" state="false" />
-            <selection name="Printing-Foundation-Features" state="false" />
-            <selection name="FaxServicesClientPackage" state="false" />
-            <selection name="Printing-Foundation-InternetPrinting-Client" state="false" />
-            <selection name="Printing-XPSServices-Features" state="false" />
-            <selection name="Printing-PrintToPDFServices-Features" state="false" />
-            <selection name="Microsoft-Hyper-V-Hypervisor" state="true" />
-            <selection name="Microsoft-Hyper-V-All" state="true" />
-            <selection name="Microsoft-Hyper-V" state="true" />
-        </package>
-    </servicing>
-    <settings pass="auditSystem">
-        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <AutoLogon>
-                <Enabled>true</Enabled>
-                <Username>Admin</Username>
-                <Password>
-                    <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
-                    <PlainText>false</PlainText>
-                </Password>
-            </AutoLogon>
-            <UserAccounts>
-                <LocalAccounts>
-                    <LocalAccount wcm:action="add">
-                        <Password>
-                            <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
-                            <PlainText>false</PlainText>
-                        </Password>
-                        <Name>Admin</Name>
-                        <Group>Administrators</Group>
-                        <DisplayName>Administrator</DisplayName>
-                        <Description>Administrator</Description>
-                    </LocalAccount>
-                </LocalAccounts>
-            </UserAccounts>
+    <settings pass="specialize">
+        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisableBootMenu>1</DisableBootMenu>
+            <DisplayDisabled>1</DisplayDisabled>
+        </component>
+        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
         </component>
     </settings>
     <settings pass="oobeSystem">
@@ -456,9 +416,23 @@ You create this package to distribute the root certificate for devices that won�
                     <PlainText>false</PlainText>
                 </Password>
             </AutoLogon>
+            <UserAccounts>
+                <LocalAccounts>
+                    <LocalAccount wcm:action="add">
+                        <Password>
+                            <Value>cwBmAGIAUABhAHMAcwB3AG8AcgBkAA==</Value>
+                            <PlainText>false</PlainText>
+                        </Password>
+                        <Name>Admin</Name>
+                        <Group>Administrators</Group>
+                        <DisplayName>Administrator</DisplayName>
+                        <Description>Administrator</Description>
+                    </LocalAccount>
+                </LocalAccounts>
+            </UserAccounts>
         </component>
     </settings>
-    <cpi:offlineImage cpi:source="wim://com-sccm01/_sources/capture/srscaptured.wim#SRSImage" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+    <cpi:offlineImage cpi:source="wim:h:/install.wim#Windows 10 Enterprise" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
 </unattend>
 ```
 3.  In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create Package**.
@@ -494,13 +468,15 @@ For more information, see [Manage operating system images with System Center Con
 
 Skype Room Systems v2 is supported for both Surface Pro and Surface Pro 4. You need to create a driver package for each Surface Pro model you have in your environment.
 
+> [!IMPORTANT]
+> The drivers must be compatible with the Windows 10 Enterprise build and the Skype Room Systems v2 deployment kit version. For more information, see [Download the latest firmware and drivers for Surface devices](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) and [Configure a console](console.md).
+
 1.  Download the latest drivers and firmware.
     -   For Surface Pro:
         <https://www.microsoft.com/download/details.aspx?id=55484>
     -   For Surface Pro 4:
         <https://www.microsoft.com/download/details.aspx?id=49498>
-> [!IMPORTANT]
-> The drivers must be compatible with the Windows 10 Enterprise build and the Skype Room Systems v2 deployment kit version. For more information, see [Download the latest firmware and drivers for Surface devices](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices).
+
 2.  Extract the downloaded driver and firmware. Open a Command Prompt window and at the command prompt, enter one of the following commands:
     -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro"`
     -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro 4"`
@@ -621,18 +597,19 @@ You can download and easily import a sample task sequence and customize it to me
 
     8.  **Set up Windows and Configuration Manager**: This step deploys and configures the Configuration Manager client. Update this step to specify the built-in Configuration Manager Client Package.
 
-    9.  **Install Root Certificate**: This step distributes the root certificate for non–domain-joined devices, and therefore is optional.
-        -   Remove or disable this step if you don’t need to deploy a root certificate to the Skype Room Systems v2 units.
-        -   If you do need to perform this step, verify that the **SRS v2 – Root Certificate Package** is selected.
+    9.  **Install Root Certificate**: This step distributes the root certificate for non–domain-joined devices, and therefore is optional and disabled by default.
+        -   Enable this step if you need to deploy a root certificate to the Skype Room Systems v2 units.
+        -   If you do need to perform this step, verify that the **SRS v2 – Root Certificate Package** and **Disable 64-bit file system redirection** are selected.
 
     10. **Install and Configure OMS Agent**: This step installs the 64-bit version of the Microsoft Operations Management Suite agent and configures the agent to connect to your Log Analytics workspace.
-        -   Disable this step only if you’re going to use some other platforms to monitor the health of your Skype Room Systems v2 units.
+        -   This step is disabled by default. Enable this step only if you’re going to use OMS to monitor the health of your Skype Room Systems v2 units.
         -   Edit this step and update the command-line parameters to specify your **Workspace ID** and **Workspace Key**.
         -   See [Connect Windows computers to the Log Analytics service in Azure](with-oms.md#configure-test-devices-for-operations-management-suite-setup) for more information about obtaining the Operations Management Suite Workspace ID and the primary key.
-        -   Verify that the **SRS v2 – Microsoft OMS Agent Package** is selected.
+        -   Verify that the **SRS v2 – Microsoft OMS Agent Package** and **Disable 64-bit file system redirection** are selected.
         -   For more information about monitoring the health of your Skype Room Systems v2 deployment, see [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) and [Deploy Skype Room Systems v2 management with OMS](with-oms.md#configure-test-devices-for-operations-management-suite-setup).
 
     11. **Copy SRS v2 Configuration Files**: This step copies the required setup and configuration files from the Skype Room Systems v2 deployment kit to the local hard drive. No customization is required for this step.
+        -   Verify that the **SRS v2 – SRS Application Package** and **Disable 64-bit file system redirection** are selected.
 
     12. **Install-SRSv2-OS-Updates**: This step deploys any mandatory operating system updates required with the Skype Room Systems v2 deployment. Do the following:
         -   Check [Configure a Skype Room Systems v2 console](console.md) to see which updates are required.
@@ -642,9 +619,19 @@ You can download and easily import a sample task sequence and customize it to me
 
     13. **Restart Computer**: This step reboots the computer after the mandatory operating system updates are installed. No customization is required for this step.
 
-    14. **Add Local Skype User**: This step creates the local Skype account used to automatically sign in to Windows and start the Skype Room Systems v2 application. This step doesn’t have any software package associated with it, and no customization is required for it.
+    14. **Configure Windows Components**: This step configures the required Windows features. No customization is required for this step.
 
-    15. **Set up and configure SRS application**: This step installs and configures the Skype Room Systems v2 application. This step uses the locally copied bits to install the application and therefore doesn’t have any software packages associated with it. No customization is required for this step.
+    15. **Restart Computer**: This step reboots the computer after the Windows features are configured. No customization is required for this step.
+
+    16. **Add Local Skype User**: This step creates the local Skype account used to automatically sign in to Windows and start the Skype Room Systems v2 application. This step doesn’t have any software package associated with it, and no customization is required for it.
+
+    17. **Set up and configure SRS application**: This step configures the Skype Room Systems v2 application installation for the next boot of the operating system.
+        -   Verify that the **SRS v2 – Configure SRS Setup Package** and **Disable 64-bit file system redirection** are selected.       
+
+> [!IMPORTANT]
+> It is very important that the task sequence steps must be in the provided order. Modifying the order of steps, or configuring additional steps might break the deployment.
+> 
+> **Set up and configure SRS application** step must be the last step in the task sequence, otherwise the deployment might fail.
 
 ### Create deployment for the task sequence
 
@@ -662,7 +649,9 @@ You can download and easily import a sample task sequence and customize it to me
     list, and then select **Next**.
 > [!WARNING]
 > It is very important that **Purpose** is set to **Available**. Make sure that
-the **Purpose** is **NOT** set to **Required**. Also make sure that you select **Only Media and PXE** in the **Make available to the following**. Setting these values to something else might cause all computers to get the Skype Room Systems deployment image when booted.
+the **Purpose** is **NOT** set to **Required**. Also make sure that you select **Only Media and PXE** in the **Make available to the following**.
+>
+> Setting these values to something else might cause all computers to get the Skype Room Systems deployment image when booted.
 7.  Do not specify any schedule and select **Next**.
 
 8.  Do not change anything within the **User Experience** section and select
@@ -736,9 +725,9 @@ The SMSTS.log file is stored on one of a number of paths, depending on the stage
 | Task sequence execution complete                                                | %windir%\\System32\\ccm\\logs\\smsts.log           |
 
 > [!TIP]
-> You can select F8 at any time during the task sequence to open a command console and get access to the SMSTS.log file.
+> You can select **F8** at any time during the task sequence to open a command console, and then get access to the SMSTS.log file.
 
-To resolve PXE boot issues, check the two log files on the Configuration Manager server that are specific to PXE actions:
+To troubleshoot PXE boot issues, check the two log files on the Configuration Manager server that are specific to PXE actions:
 
 -   **Pxecontrol.log**, located in the Configuration Manager installation logs directory
 

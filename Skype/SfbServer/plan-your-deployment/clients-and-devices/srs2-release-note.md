@@ -21,6 +21,10 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 
 | Release | Published to <br>Microsoft Store | 
 | ---     | ---                              |
+| 4.0.8.0|  07/06/2018    |   
+| 3.1.115.0|  06/18/2018    |
+| 3.1.113.0|  06/13/2018    |   
+| 3.1.112.0|  06/05/2018    |   
 | 3.1.104.0|  04/16/2018    |            
 | 3.1.100.0|  03/16/2018    |            
 | 3.1.99.0 | 3/14/2018      |   
@@ -36,11 +40,28 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 
 ## Skype Room Systems v2 feature introduction and issue resolution
 
+### 4.0.8.0 (07/06/2018)
+Introduced in this update: 
+- This update enables both Skype for Business *and* Teams meetings support on Room Systems devices.  Teams is turned off by default once the update is applied.  Admins can enable Teams locally in device settings or via a remote xml push.
+
+### 3.1.115.0 (06/18/2018)
+Introduced in this update: 
+- Fix to address error observed on some systems during app launch.
+
+### 3.1.113.0 (06/13/2018)
+Introduced in this update: 
+- Changes enabling Microsoft to more flexibly manage Windows Updates.
+- No change to end-user experience.
+
+### 3.1.112.0 (06/05/2018)
+Introduced in this update: 
+- Fix to address console responsiveness issues observed on Surface Pro 2017-based devices connected to two front-of-room displays and video ingest
+- Automated check to ensure that system is running latest provisioning script.
+
 ### 3.1.104.0 (04/16/2018)
 Introduced in this update: 
 - Fix to improve OSK (on-screen keyboard) behavior in Window 10 Version 1709-based systems
 - Improvements to prepare for future operating system updates
-
 
 ### 3.1.100.0 (03/16/2018)
 Introduced in this update:  
