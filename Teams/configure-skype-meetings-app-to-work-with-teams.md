@@ -1,6 +1,6 @@
 ---
 title: Configure the Skype Meetings App to work with Teams
-author: Lola Jacobsen
+author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
 ms.date: 08/14/2018
