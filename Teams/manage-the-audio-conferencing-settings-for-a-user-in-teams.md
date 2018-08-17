@@ -52,4 +52,4 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
 
 [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
-[Audio Conferencing common questions](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)
+[Audio Conferencing common questions](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)

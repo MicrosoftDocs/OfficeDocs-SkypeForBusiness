@@ -41,12 +41,12 @@ As the meeting organizer, you can dial out using the Teams app to let other peop
   
 ## Supported countries and regions
 
-Dial-out is only available to some countries/regions. For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/en-us/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Dial-out is only available to some countries/regions. For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   
 ## Want to know more about audio conferencing?
 
-[Try or purchase Audio Conferencing in Office 365](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Try or purchase Audio Conferencing in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
     
-- [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+- [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
     
 

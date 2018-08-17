@@ -61,5 +61,5 @@ See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/
   
 ## Related topics
 
-[Try or purchase Audio Conferencing in Office 365](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Try or purchase Audio Conferencing in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

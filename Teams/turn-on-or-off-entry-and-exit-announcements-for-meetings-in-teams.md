@@ -56,4 +56,4 @@ For more information about Windows PowerShell, see the [Microsoft Teams PowerShe
   
 ## Related topics
 
-[Audio Conferencing common questions](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)
+[Audio Conferencing common questions](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)

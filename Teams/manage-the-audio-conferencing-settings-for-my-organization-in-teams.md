@@ -31,7 +31,7 @@ It might be easier for you to see all of the audio conferencing settings for Mic
 ## Assign an Audio Conferencing license
 
 > [!NOTE]
-> You can't assign licenses using Teams. You must use the Office 365 admin center. See [Assign Skype for Business and Microsoft Teams licenses](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). 
+> You can't assign licenses using Teams. You must use the Office 365 admin center. See [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). 
   
  **To assign a license for a user**
   
@@ -44,7 +44,7 @@ It might be easier for you to see all of the audio conferencing settings for Mic
   
 3. In the Action pane under **Product licenses**, click **Edit**. 
     
-4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Skype for Business and Microsoft Teams add-on licensing](/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
     
 > [!NOTE]
 > After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the Office 365 admin center or press CTRL+F5 to refresh the browser window. 
@@ -144,7 +144,7 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
 5. Click **Save**.
 
     
-See [Change the settings for an Audio Conferencing bridge](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge).
+See [Change the settings for an Audio Conferencing bridge](/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge).
   
  **Set the PIN length for meetings**
 
@@ -157,7 +157,7 @@ See [Change the settings for an Audio Conferencing bridge](https://docs.microsof
     The PIN must be between 4 and 12 digits. The default is 5.
 
     
-See [Change the settings for an Audio Conferencing bridge](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge).
+See [Change the settings for an Audio Conferencing bridge](/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge).
   
  **Enable or disable email from being sent to audio users**
 
