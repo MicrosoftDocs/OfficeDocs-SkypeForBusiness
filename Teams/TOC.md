@@ -212,6 +212,7 @@
 ### [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
 ### [Use T-Bot to help users with Teams](t-bot.md)
 ### [Use activity reports for Teams](teams-activity-reports.md)
+### [Use inline message translation in Teams](inline-message-translation-teams.md)
 ## Cloud voice
 ### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Add funds and manage Communications Credits](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
