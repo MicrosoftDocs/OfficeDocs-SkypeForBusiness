@@ -47,6 +47,6 @@ Dial-out is only available to some countries/regions. For complete list, see [Co
 
 [Try or purchase Audio Conferencing in Office 365](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
     
-- [Microsoft Teams add-on licensing](microsoft-teams-add-on-licensing.md)
+- [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
     
 
