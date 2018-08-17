@@ -23,7 +23,7 @@ description: "Administrators can control how organizers can use toll-free number
 # Disabling toll-free numbers for specific Skype for Business Online users
 
 > [!Note]
-> For information about disabling tool-free numbers for Teams users, see  [Disabling toll-free numbers for specific Teams users](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-users).
+> For information about disabling tool-free numbers for Teams users, see  [Disabling toll-free numbers for specific Teams users](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).
 
 If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, you can allow or prevent their usage in the meetings of specific organizers.  
 
