@@ -34,7 +34,6 @@ The table below explains the elements shown in this sample SkypeSettings.xml (th
              <ConfigureDomain>domain1, domain2</ConfigureDomain>
              <AutoRotatePassword>1</AutoRotatePassword>
   </UserAccount>    
-  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
   <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled> 
