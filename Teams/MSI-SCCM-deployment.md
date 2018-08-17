@@ -1,7 +1,7 @@
 ---
 title: Install Microsoft Teams using MSI (with SCCM)
-author: lehewe
-ms.author: Lester-Hewett
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
