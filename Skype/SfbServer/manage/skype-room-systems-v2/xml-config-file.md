@@ -32,7 +32,6 @@ The table below explains the elements shown in this sample SkypeSettings.xml (th
              <DomainUsername>Seattle\RanierConf</DomainUsername>
              <Password>password</Password>
              <ConfigureDomain>domain1, domain2</ConfigureDomain>
-             <AutoRotatePassword>1</AutoRotatePassword>
   </UserAccount>    
   <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
   <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
@@ -76,7 +75,6 @@ If the XML file is badly formed (meaning a variable value is of the wrong type, 
 |\<DomainUsername\>   |String  &#x2778;  ||The domain and user name of the console device, for example Seattle\RanierConf.   |
 |\<Password\>   |String 3  || The password parameter is the same password used for the Skype for Business device account sign-in.  |
 | \<ConfigureDomain\>  |String  &#x2778;  ||You can list several domains, separated by commas.   |
-|\<AutoRotatePassword\>   |Boolean &#x2777;  |||
 |\<TeamsMeetingsEnabled\>   |Boolean &#x2777;  |First &#x2776;  |Disabled by default. <br/> <br/> The XML file is considered badly formed if both \<SkypeMeetingsEnabled\> and\<TeamsMeetingsEnabled\> are disabled, but it's acceptable to have both settings enabled at the same time.   |
 |\<IsTeamsDefaultClient> |Boolean &#x2777;  |First &#x2776;  |Disabled by default. |
 |\<BluetoothAdvertisementEnabled> |Boolean &#x2777;  |First &#x2776;  |Enabled by default. |
