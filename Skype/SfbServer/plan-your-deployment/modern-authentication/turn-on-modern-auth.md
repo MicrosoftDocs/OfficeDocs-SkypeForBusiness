@@ -40,7 +40,7 @@ These cmdlets will only be installed post July 2018 cumulative update (6.0.9319.
 It's important to keep in mind that these are the Supported Topologies involved in this scenario! If you need to go to Support for help with blocking a method, for example, you will need to have a configuration among the types below. 
 
 > [!IMPORTANT]
-> In this table and descriptions below, *Modern Authentication* is abbreviated as __MA__ and *Windows Integrated Authentication* is abbreviated as __Win__. You'll need to know this to read the table properly!
+> In the table and descriptions below, *Modern Authentication* is abbreviated as __MA__ and *Windows Integrated Authentication* is abbreviated as __Win__. As a reminder, Windows Integrated Authentication is made up of two methods: NTLM and Kerberos authentication. You'll need to know this to read the table properly!
 
 
 |       |Externally  |Internally  |Parameter  |
@@ -53,13 +53,13 @@ It's important to keep in mind that these are the Supported Topologies involved 
 
 __Type 1 Description:__ This is the default scenario when MA is turned __on__ for Skype for Business Server. In other words, this is the *starting point* when MA is configured.
 
-__Type 2 Description:__ This topology blocks password attacks *externally*, but allows for older clients (that don't support ADAL) to work *internally*. If your clients  do support ADAL they will use MA internally.
+__Type 2 Description:__ This topology blocks NTLM *externally*, but allows NTLM or Kerberos (for clients that don't support ADAL) to work *internally*. If your clients  do support ADAL they will use MA internally.
 
-__Type 3 Description:__ This topology uses MA for all users. All your ADAL-capable clients will work in this topology, and passwords will not be leveraged.
+__Type 3 Description:__ This topology requires MA for all users. All your ADAL-capable clients will work in this topology, and passwords will not be leveraged.
 
-__Type 4 Description:__ This topology blocks password attacks *externally* and allows all clients to use legacy authentication methods *internally*.
+__Type 4 Description:__ This topology blocks NTLM *externally* and MA internally. It allows *all clients* to use legacy authentication methods *internally* (even ADAL-capable clients).
 
-__Type 5 Description:__ *Externally*, your modern ADAL clients will use MA and any clients that don't support ADAL will use legacy authentication methods. But, *internally* all clients will use legacy authentication.
+__Type 5 Description:__ *Externally*, your modern ADAL clients will use MA and any clients that don't support ADAL will use legacy authentication methods. But, *internally* *all clients* will use legacy authentication (including all ADAL-capable clients).
 
 It's pretty easy to lose track of the goal of protecting your passwords in the options available. Keep in mind the ideal situation is to use MA externally (for example, by configuring certificate-based auth), to avoid DOS attacks. If you leverage it internally for your modern clients, you'll also future-proof your network regarding Skype for Business Server DOS attacks.
 
