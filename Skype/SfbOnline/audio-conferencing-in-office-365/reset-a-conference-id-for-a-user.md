@@ -24,7 +24,7 @@ description: "Learn the steps to reset a user's meeting conference ID in Skype f
 # Reset a conference ID for a user in Skype for Business Online
 
 > [!NOTE]
-> For information about resetting conference ID in Microsoft Teams, see [Reset a conference ID for a user in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams).
+> For information about resetting conference ID in Microsoft Teams, see [Reset a conference ID for a user in Microsoft Teams](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams).
 
 A dynamic conference ID is included at the bottom of meeting invitations along with the dial-in phone numbers that can be used by callers to call in to a meeting. When the user dials the phone number, the auto attendant for the meeting will ask the caller to enter this conference ID so they can attend the meeting.
   

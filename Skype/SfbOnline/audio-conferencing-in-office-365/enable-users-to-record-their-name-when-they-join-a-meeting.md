@@ -24,7 +24,7 @@ description: "Learn how to enable or disable whether your users can record their
 # Enable users to record their name when they join a meeting in Skype for Business Online
 
 > [!Note]
-> If you want to allow users to record their names in Teams, see [Enable users to record their name when they join a meeting in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
+> If you want to allow users to record their names in Teams, see [Enable users to record their name when they join a meeting in Microsoft Teams](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
 
 When you are setting up Audio Conferencing in Office 365, you will receive phone numbers and what is called an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers that can be a dedicated or shared phone number.
   

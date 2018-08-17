@@ -24,7 +24,7 @@ description: "Learn how to turn entry and exit announcements on or off in a Skyp
 # Turn on or off entry and exit announcements for meetings in Skype for Business Online
 
 > [!Note]
-> For information about entry and exit announcements in Microsoft Teams, see [Turn on or off entry and exit announcements for meetings in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams).
+> For information about entry and exit announcements in Microsoft Teams, see [Turn on or off entry and exit announcements for meetings in Microsoft Teams](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams).
 
 When you are setting up Audio Conferencing in Office 365, you will get an audio conferencing bridge. A conferencing bridge can contain one or more phone numbers that people will use to call in to a Skype for Business meeting. 
   

@@ -24,12 +24,10 @@ description: "See Skype for Business Online steps to assign a dial-in conferenci
 # Manage the Audio Conferencing settings for my organization in Skype for Business Online
 
 > [!NOTE]
-> If you want to manage organizational settings in Teams, see [Manage the Audio Conferencing settings for my organization in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams).
+> If you want to manage these settings in Teams, see [Manage the Audio Conferencing settings for my organization in Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams).
 
 It might be easier for you to see all of the audio conferencing settings for Skype for Business in one place. 
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## Assign an Audio Conferencing license
 
@@ -67,6 +65,9 @@ It might be easier for you to see all of the audio conferencing settings for Sky
     You can also send emails to the user with the audio conferencing settings by going to the user's audio conferencing properties and clicking **Send conference info via email**. The conference ID and default audio conferencing phone number is included on the meeting invite but not the PIN.
     
     See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
 **Using Windows PowerShell**
   

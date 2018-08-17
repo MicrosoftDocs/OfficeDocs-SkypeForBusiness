@@ -1,5 +1,5 @@
 ---
-title: "Phone numbers for Audio Conferencing in Teams"
+title: "Phone numbers for Audio Conferencing in Microsoft Teams"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 description: "Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned."
 ---
 
-# Phone numbers for Audio Conferencing in Teams
+# Phone numbers for Audio Conferencing in Microsoft Teams
 
 When you are setting up **Audio Conferencing** for Microsoft Teams, dial-in phone numbers are automatically assigned to your organization. You can see the phone numbers that are assigned to your audio conferencing bridge by going to  **Meetings** > **Conference bridges**. See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   

@@ -21,7 +21,7 @@ ms.custom:
 description: "Learn how to look up your dial-in conferencing numbers from within Microsoft Teams. "
 ---
 
-# See a list of Audio Conferencing numbers in Microsfot Teams
+# See a list of Audio Conferencing numbers in Microsoft Teams
 
 When you set up Audio Conferencing for Microsoft Teams users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.
   

@@ -21,7 +21,7 @@ ms.custom:
 description: "Get the steps to create a default phone number for callers to join a Microsfot Teams meeting. "
 ---
 
-# Set the phone numbers included on invites in Microsfot Teams
+# Set the phone numbers included on invites in Microsoft Teams
 
 Audio Conferencing in Office 365 enables users in your organization to create Microsoft Teams meetings, and then allow users to dial in to those meetings using a phone. In Office 365, you have the option of using a Microsoft audio conferencing bridge or a third-party audio conferencing bridge that is hosted by an approved audio conferencing provider (ACP).
   

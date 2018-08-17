@@ -24,7 +24,7 @@ description: "Learn how to look up your dial-in conferencing numbers from within
 # See a list of Audio Conferencing numbers in Skype for Business Online
 
 > [!NOTE]
-> For information about Audio Conferencing numbers in Microsoft Teams, see [See a list of Audio Conferencing numbers in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams).
+> For information about Audio Conferencing numbers in Microsoft Teams, see [See a list of Audio Conferencing numbers in Microsoft Teams](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams).
 
 When you set up Audio Conferencing for Skype for Business users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.
   

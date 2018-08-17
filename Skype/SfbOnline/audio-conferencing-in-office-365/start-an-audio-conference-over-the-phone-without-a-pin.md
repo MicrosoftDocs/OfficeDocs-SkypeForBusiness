@@ -24,7 +24,7 @@ description: "Learn how to enable or disable anonymous callers from joining a me
 # Start an Audio Conference over the phone without a PIN in Skype for Business Online
 
 > [!Note]
-> For information about starting an Audio Conference without a PIN in Microsoft Teams, see [Start an Audio Conference over the phone without a PIN  in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams).
+> For information about starting an Audio Conference without a PIN in Microsoft Teams, see [Start an Audio Conference over the phone without a PIN  in Microsoft Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams).
 
 It might be frustrating for users who dial in to a meeting to be held in the meeting's lobby listening to music because the Skype for Business meeting organizer hasn't started the meeting. 
   

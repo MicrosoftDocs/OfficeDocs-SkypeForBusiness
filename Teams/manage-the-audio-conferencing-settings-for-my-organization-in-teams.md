@@ -21,7 +21,7 @@ ms.custom:
 description: "See Microsoft Teams steps to assign a dial-in conferencing license and conference ID to a user and many other dial-in conferencing settings. "
 ---
 
-# Manage the Audio Conferencing settings for my organization in Teams
+# Manage the Audio Conferencing settings for my organization in Microsoft Teams
 
 It might be easier for you to see all of the audio conferencing settings for Microsoft Teams in one place. 
 
