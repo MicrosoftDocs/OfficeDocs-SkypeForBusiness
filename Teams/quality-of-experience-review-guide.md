@@ -24,9 +24,9 @@ To have the greatest impact on improving the user experience, organizations need
 
 ![Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.](media/quality-of-experience-review-guide-image1.png)
 
-_Figure 1 - Key operational areas covered throughout this document_
+_Figure 1 - Key operational areas covered throughout this guide_
 
-By continually assessing and remediating the areas described in this document, you can reduce their potential to negatively affect the quality of your users’ experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
+By continually assessing and remediating the areas described in this guide, you can reduce their potential to negatively affect the quality of your users’ experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
 
 -   Incomplete firewall or proxy configuration
 
@@ -36,7 +36,7 @@ By continually assessing and remediating the areas described in this document, y
 
 -   VPN
 
--   Inconsistent or outdated client versions
+-   Inconsistent or outdated client versions and drivers
 
 -   Unoptimized or built-in audio devices
 
@@ -46,20 +46,22 @@ Through proper planning and design before deploying Teams or Skype for Business 
 
 This guide focuses on using the Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area, with a special emphasis on audio to maximize adoption and impact. Any improvements made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
 
-To accelerate your assessment, two curated CQD templates are provided: one for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, it can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) later in this document.
+To accelerate your assessment, [two curated CQD templates](https://aka.ms/qertemplates) are provided: one is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) later in this guide.
 
+<!--
 ### What is the CQD?
 
 You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams and Skype for Business services. CQD is designed to help Skype for Business and Teams admins and network engineers optimize the network. CQD looks at aggregate information for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments of call quality. CQD provides reports of call metrics that give you insight into overall call quality, call reliability, and user experience.
 
 > [!NOTE]
 > CQD doesn’t contain any personally identifiable information (PII). PII is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. 
+-->
 
 ### Intended audience
 
-This document is intended to be used by partner and customer stakeholders with roles such as Collaboration Lead/Architect, Consultant, Change Management/Adoption Specialist, Support/Help Desk Lead, Network Lead, Desktop Lead, and IT Admin.
+This guide is intended to be used by partner and customer stakeholders with roles such as Collaboration Lead/Architect, Consultant, Change Management/Adoption Specialist, Support/Help Desk Lead, Network Lead, Desktop Lead, and IT Admin.
 
-This document is also intended to be used by the designated quality champion(s). For more information, see [the Quality Champion role](https://docs.microsoft.com/MicrosoftTeams/4-envision-plan-my-service-management#the-quality-champion-role).
+This guide is also intended to be used by the designated quality champion(s). For more information, see [the Quality Champion role](4-envision-plan-my-service-management.md#the-quality-champion-role).
 
 ## Prerequisites
 
