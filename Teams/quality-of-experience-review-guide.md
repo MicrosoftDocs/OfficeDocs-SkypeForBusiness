@@ -775,7 +775,7 @@ Regardless of your next step, it’s a good practice to notify the helpdesk that
 
 The following table lists some common methods to manage and remediate call drops.
 
-_Table 9 - Next steps for call drop remediation_
+_Table 8 - Next steps for call drop remediation_
 
 | Remediation                              | Guidance                      |
 |------------------------------------------|-------------------------------|
