@@ -21,67 +21,68 @@ Microsoft Teams delivers chat-based collaboration, calling, meetings, and with l
 
 Teams live events are considered the next version of Skype Meeting Broadcast and will eventually replace the capabilities provided in Skype Meeting Broadcast. During the public preview release of Teams live events, we will continue to support Skype Meeting Broadcast, with no disruption in service for new or future events. However, we encourage you to try out Teams live events to leverage all of the new and exciting features including screen sharing, attendee count, and support for external hardware/software encoders. 
 
-So, let's get started. First, take a look at the following diagram that shows high level components involved in Microsoft 365 live events and how each is connected. 
+So, let's get started. First, take a look at the following diagram that shows high level components involved in Microsoft 365 live events and how they are connected. 
 
 ![Teams live events](media/teams-live-events.png)
 
 ## Key components
-So, you can see from the picture above, there are several key components that are used with Live events in Microsoft Teams.
+So, you can see from the picture above, there are four key components that are used with Live events in Microsoft Teams.
 
 ### Scheduling
-Teams provides the ability for the organizers to create an event with the appropriate attendee permissions, designate event team members, select production method, and invite attendees. If the live event was created from within a Yammer group, the live event attendees will be able to use Yammer conversation for interacting with the event team. 
+Teams provides the ability for the organizers to create an event with the appropriate attendee permissions, designate event team members, select production method, and invite attendees. If the live event was created from within a Yammer group, the live event attendees will be able to use Yammer conversation for interacting with people in the event. 
 
 ### Production
-The live events in Microsoft 365 support a spectrum of production scenarios, include a quick start event using web cams or an external encoder event using studio quality equipment. The video input is the foundation of the live events and it can vary from a single webcam to a multi-camera professional video production. You can choose these options depending on their project requirements and budget. There are two ways to produce events:
+The live events in Microsoft 365 support a spectrum of production scenarios, include a quick start event using web cams or an external encoder event using studio quality equipment. The video input is the foundation of the Live events and it can vary from a single webcam to a multi-camera professional video production. You can choose these options depending on their project requirements and budget. There are two ways to produce events:
 
-- **Quick start production**: The quick start production method allows users to produce their live events using Teams meetings. This option is best if you want to use the audio and video devices connected to the PC and/or are inviting remote presenters for participating in the event. This option allows users to easily use their web cams and share their screen as input into the broadcast. 
+- **Quick start production**: The quick start production method allows users to produce their live events using Teams meetings. This option is best and quickest option if you want to use the audio and video devices connected to the PC or are inviting remote presenters for participating in the event. This option allows users to easily use their web cams and share their screen as input into the event. 
 
-- **External encoder production**: External encoders allow users to produce their live events directly from an external hardware or software-based encoder with Microsoft Stream. This option is best if you already have studio quality equipment (for example, media mixers) which support streaming to an RTMP service. This option is typically used in large scale events such as executive town halls – where a single stream from a media mixer is broadcast to the audience. 
+- **External encoder production**: External encoders allow users to produce their live events directly from an external hardware or a software-based encoder with [Microsoft Stream](https://stream.microsoft.com). This option is best if you already have studio quality equipment (for example, media mixers) which support streaming to an Real-time Messaging Protocol (RTMP) service. This type of production is typically used in large scale events such as executive town halls – where a single stream from a media mixer is broadcasted to the audience. 
 
 ### Streaming platform
-The live event streaming platform is made up of the following pieces:
+The live event streaming platform is made up of the following four pieces:
 
-- **Azure Media Services**  [Azure Media Services](https://docs.microsoft.com/en-us/azure/media-services/previous/) gives you broadcast-quality video streaming services to reach larger audiences on today’s most popular mobile devices. Media Services enhances accessibility, distribution, and scalability, and makes it easy and cost-effective to stream content to your local and worldwide audiences — all while protecting your content.
-- **Azure Content Delivery Network (CDN)**  Once your stream goes live, it is delivered through the [Azure Content Delivery Network (CDN)](https://docs.microsoft.com/en-us/azure/cdn/). Azure Media Services provides integrated CDN for streaming-endpoints. This allows for your streams to be viewed worldwide with no buffering.
-- **Enterprise Content Delivery Network (eCDN)**  The goal of eCDN is to take the video content from the internet and distribute the content throughout your enterprise without impacting the network performance. You can use one of the following certified partners to optimize your network for Live events:
+- **Azure Media Services**  [Azure Media Services](https://docs.microsoft.com/en-us/azure/media-services/previous/) gives you broadcast-quality video streaming services to reach larger audiences on today’s most popular mobile devices. Media Services enhances accessibility, distribution, and scalability, and makes it easy and cost-effective to stream content to your local or worldwide audiences — all while protecting your content.
+- **Azure Content Delivery Network (CDN)**  Once your stream goes live, it is delivered through the [Azure Content Delivery Network (CDN)](https://docs.microsoft.com/en-us/azure/cdn/). Azure Media Services provides integrated CDN for streaming endpoints. This allows for the streams to be viewed worldwide with no buffering.
+- **Enterprise Content Delivery Network (eCDN)**  The goal of eCDN is to take the video content from the internet and distribute the content throughout your enterprise without impacting the network performance. You can use one of the following certified eCDN partners to optimize your network for Live events held within your organization:
     - Hive
     - Kollective
     - Ramp
-- **Attendee experience**  The attendee experience is the most important aspect of live events and it is critical that the attendees can participate in the live event without issues. The attendee experience uses Azure Media Player and works across desktop, browser, and mobile (iOS, Android). Office 365 provides Yammer and Teams as two collaboration hubs and the live attendee experience is integrated into these collaboration tools. The external encoder based live events can also be accessed by attendees in the [Administrative tools](#administrative-tools).
+- **Attendee experience**  The attendee experience is the most important aspect of live events and it is critical that the attendees can participate in the live event without having any issues. The attendee experience uses Azure Media Player and works across desktop, browser, and mobile (iOS, Android). Office 365 provides Yammer and Teams as two collaboration hubs and the live attendee experience is integrated into these collaboration tools. The external encoder based live events can also be accessed by attendees in the [Administrative tools](#administrative-tools).
 
 ## Planning for live events
-When you are planning on using Teams live events to hold large meetings, there are several factors that you need to consider before setting it all up. 
+When you are planning Teams live events to hold large meetings in your organizaiton, there are several factors that you need to consider before starting to set it all up. 
 
 ### Who can create and schedule live events? 
-The following prerequisites are required for the user to schedule a live event.
+The following prerequisites are required for the user to schedule a Teams live event.
 
-Here are the user licenses that must be assigned:  
-- User has been assigned an Office 365 Enterprise E3 or E5 license. 
-- User is enabled for Microsoft Teams, Skype for Business Online, and Microsoft Stream.
-
-For more information on licensing, see [Skype for Business and Microsoft Teams add-on licensing](../Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
-
-The user must have:
-- Private meeting scheduling in Teams enabled (*-TeamsMeetingPolicy -AllowPrivateMeetingScheduling = True*).
-- Live event scheduling in Teams enabled (*-TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling = True*).
-- Permissions to create live events in Microsoft Stream (for external encoder production).
-
-> [!IMPORTANT]
-> Office 365 guests, federated, and anonymous users can't be invited as producers or presenters in Teams live events However, gues and federated users can join as anonymous Live event attendees. 
- 
-### Who can watch live events?
-|**Attendee visibility**           |**Quick start** |**External encoder**  |
-|------------------------------|-------------|------------------|
-|Public (anonymous users)      |  Yes        |  No              |
-|Guest users*                   |  No         |  No              |
-|Everyone in federated company* |  No         |  No              |
-|Everyone in company           |  Yes        |  Yes             |
-|Specific groups / people      |  Yes        |  Yes             |
+Here are the licenses that must be assigned:  
+- An Office 365 Enterprise E3 or E5 license. 
+- A Microsoft Teams, Skype for Business, and Microsoft Stream license.
 
 It's important to know that an Office 365 license is required to participate in a live event as an authenticated user but this depends on the production method used:
 
 - **For Quick start production**  The user must be assigned a Microsoft Teams license.
 - **For External encoder production** The user must be assigned a Microsoft Stream license.
+
+For more information on licensing, see [Skype for Business and Microsoft Teams add-on licensing](../Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+
+The user must have:
+- Private meeting scheduling in Teams enabled (*The TeamsMeetingPolicy -AllowPrivateMeetingScheduling parameter = True*).
+- Live event scheduling in Teams enabled (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling parameter = True*).
+- Permissions to create live events in Microsoft Stream (for [external encoder production](#production)).
+
+> [!IMPORTANT]
+> Office 365 guests, federated, and anonymous users can't be invited as producers or presenters in Teams live events. However, guest and federated users can join as anonymous Live event attendees. 
+ 
+### Who can watch live events?
+
+|**Attendee visibility**           |**Quick start** |**External encoder**  |
+|------------------------------|-------------|------------------|
+|Public (anonymous users)      |  Yes        |  No              |
+|Guest users                   |  No         |  No              |
+|Everyone in federated company |  No         |  No              |
+|Everyone in company           |  Yes        |  Yes             |
+|Specific groups / people      |  Yes        |  Yes             |
  
 ### Teams live events and Skype Meeting Broadcast
 The following table highlights core capabilities and features offered in live events and how they differ from Skype Meeting Broadcast. 
@@ -142,41 +143,93 @@ Ensure you have correct license assignments for [Who can create and schedule liv
 Live event scheduling is enabled by default for Teams users but if you are wanting users to schedule external encoder events there are additional steps that you must do.
 
 #### For quick start events
-Use the setting AllowBroadcastScheduling in TeamsMeetingBroadcastPolicy in Teams PowerShell to control whether the user can create live events in Teams or not. You can learn more about managing TeamsMeetingBroadcastPolicy with Office 365 PowerShell [here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+Use the setting *AllowBroadcastScheduling* in **TeamsMeetingBroadcastPolicy** in Teams PowerShell to control whether the user can create live events in Teams or not. You can learn more about managing TeamsMeetingBroadcastPolicy [here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
- Unless you have assigned a custom policy to the users, the users will get the Global policy, which has recording enabled by default. 
+ If you haven't assigned a custom policy assigned to the users, the users will get the *Global* policy, which has recording enabled by default.
 
- For a user to fallback to Global policy, use the following cmdlet to remove a specific policy assignment for a user.
+Verify that *AllowBroadcastScheduling* parameter is set to *True*:
+```
+Get-CsTeamsMeetingBroadcastPolicy -identity Global
+```
+Then assign the user to the *Global* policy, run:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
-To change the value of AllowBroadcastScheduling in Global policy, use the following cmdlet:
-```
-Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastScheduling $false
-```
+
 ##### User scenarios
-**I want all users in my company to be able to create live events.**
-1. Confirm Global CsTeamsMeetingBroadcastPolicy has AllowBroadcastScheduling = True.
-2. Confirm all users have the Global CsTeamsMeetingBroadcastPolicy OR one of the CsTeamsMeetingBroadcastPolicy policies with AllowBroadcastScheduling = True.
+**You want all users in your company to be able to create live events.**
 
-**I want the majority of my users to be able to create live events, but I want to selectively disable specific users who are not allowed to.**
-1. Confirm Global CsTeamsMeetingBroadcastPolicy has AllowBroadcastScheduling = True.
-2. Confirm majority of users have the Global CsTeamsMeetingBroadcastPolicy OR one of the CsTeamsMeetingBroadcastPolicy policies with AllowBroadcastScheduling = True.
-3. Confirm all other users have been granted one of the CsTeamsMeetingBroadcastPolicy policies with AllowBroadcastScheduling = False.
+If users are assigned the *Glocal* policy, run and verify that *AllowBroadcastScheduling* *is set to *True*:
+```
+Get-CsTeamsMeetingBroadcastPolicy -identity Global
+```
+If the users are assigned a policy other than the *Global* policy, run the following and verify that *-AllowBroadcastScheduling* is set to *True*:
+```
+Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
+```
 
-**I want live event scheduling to be 100% disabled.**
-1. Confirm Global CsTeamsMeetingBroadcastPolicy has AllowBroadcastScheduling = False.
-2. Confirm all users have been granted the Global CsTeamsMeetingBroadcastPolicy OR one of the CsTeamsMeetingBroadcastPolicy policies with AllowBroadcastScheduling = False.
+**You want live event scheduling to be 100% disabled across your organization.**
 
-**I want live events to be disabled for majority of the users, but selectively enable specific users for live events.** 
-1. Confirm Global CsTeamsMeetingBroadcastPolicy has AllowBroadcastScheduling = False.
-2. Confirm the majority of users have been granted the Global CsTeamsMeetingBroadcastPolicy OR one of the CsTeamsMeetingBroadcastPolicy policies with AllowBroadcastScheduling = False.
-3. Confirm all other users have been granted one of the CsTeamsMeetingBroadcastPolicy policies with AllowBroadcastScheduling = True.
+Disable broadcast scheduling, run:
+```
+Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
+```
+Assign all users in your organization to the *Global* policy, run:
+```
+Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
+```
+
+**You want a large number of users to be able to create live events, but want to prevent a set of users from creating them.**
+
+Assign the *Global* policy using the **Grant-CsTeamsMeetingBroadcastPolicy** for some of the users (that you want enabled) but first run the following and verify that *AllowBroadcastScheduling* is set to *True*:
+```
+Get-CsTeamsMeetingBroadcastPolicy -identity Global
+```
+Then assign a user or users to the *Global* policy, run:
+```
+Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
+```
+Create and assign a policy for disabling scheduling using the  **Grant-CsTeamsMeetingBroadcastPolicy** cmdlet to the other users (you want disabled). 
+
+Create the new policy with it disabled, run:
+```
+New-CSTeamsMeetingBroadcastPolicy -identity DisabledBroadcastSchedulingpolicy
+```
+Disable scheduling, run:
+```
+Set-CsTeamsMeetingBroadcastPolicy -identity DisabledBroadcastSchedulingpolicy -AllowBroadcastScheduling $false
+```
+Then assign users to this policy, run:
+```
+Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingpolicy -Verbose
+```
+**You want live events to be disabled for a large number of the users, but want to allow a set of users to create them.**
+
+Disable broadcast scheduling, run:
+```
+Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
+```
+Then assign those users to the *Global* policy, run:
+```
+Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
+```
+Create and assign a policy for enabling scheduling, run:
+```
+New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
+```
+Enable scheduling, run:
+```
+Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy -AllowBroadcastScheduling $true
+```
+Then assign users to this policy, run:
+```
+Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
+```
 
 #### For external encoder events
 You must do the following to enable Live event scheduling for those users.
 
-##### Step 1: Enable Microsoft Stream for users in the organization**
+##### Step 1: Enable Microsoft Stream for users in your organization**
 Microsoft Stream is available as part of eligible Office 365 subscriptions or as a standalone service. See [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.
 
 > ![Note]
@@ -214,12 +267,12 @@ You can configure eCDN provider for live events in Microsoft Teams using PowerSh
 > A single eCDN provider can be configured for your organization. 
 
 **Set up a Hive eCDN provider** 
-You can use [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) PowerShell cmdlet to configure eCDN provider. First obtain the license ID and API template URL from your Hive contact then run the following:
+You can use [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) PowerShell cmdlet to configure eCDN provider. First obtain the license ID and API template URL from your Hive contact then run the following:
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
 **Set up a Kollective eCDN provider** 
-You can use [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) PowerShell cmdlet to configure eCDN provider. First obtain the API token and the API template URL from your Kollective contact, then run the following:
+You can use [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) PowerShell cmdlet to configure eCDN provider. First obtain the API token and the API template URL from your Kollective contact, then run the following:
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
@@ -232,7 +285,7 @@ If you plan to create live events that use external encoders, you will need to [
 ### Set up event support link
 This is the link that will be shown to the live event attendees. 
 
-In Windows PowerShell, run the following cmdlet:
+In Windows PowerShell, run the following:
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
 ```
@@ -249,7 +302,7 @@ Use the setting BroadcastAttendeeVisibility in TeamsMeetingBroadcastPolicy in Po
 
 Unless you have assigned a custom policy to the users, the users get Global policy, which has default set to EveryoneInCompany. 
  
-In Windows PowerShell, run the following cmdlet to allow users to create anonymous events in the global policy:
+In Windows PowerShell, run the following to allow users to create anonymous events in the global policy:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
@@ -265,7 +318,7 @@ This allows admins to control whether the live events are always recorded, never
 |AlwaysDisabled |The live events organized by this user are never recorded. The user doesn’t have an option to override. If the live event is recorded, no recording is created for the event team members, and the attendees cannot watch the event after it is over. |
 |UserOverride |User can decide whether the live event is recorded so that a recording file can be created for the event team members, and attendees can watch the event after the event is over. |
 
-Use the setting BroadcastRecordingMode in TeamsMeetingBroadcastPolicy in PowerShell to control recording options of the live events created by the live event organizer.
+Use the setting *BroadcastRecordingMode* in **TeamsMeetingBroadcastPolicy** in PowerShell to control recording options of the live events created by the live event organizer.
 
 In Windows PowerShell, run the following cmdlet to update recording mode in the global policy:
 ```
@@ -277,7 +330,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 
 This allows live event organizers to turn on real-time captions and translation for the live event attendees. 
 
-Use the setting AllowBroadcastTranscription in TeamsMeetingBroadcastPolicy in PowerShell to control whether the live event attendees will be able to see transcription and translation. You can learn more about managing TeamsMeetingBroadcastPolicy with Office 365 PowerShell here.  
+Use the setting *AllowBroadcastTranscription* in **TeamsMeetingBroadcastPolicy** in PowerShell to control whether the live event attendees will be able to see transcription and translation. You can learn more about managing **TeamsMeetingBroadcastPolicy** with Office 365 PowerShell here.  
 
 Unless you have assigned a custom policy to the users, the users get Global policy, which has transcription and translation disabled by default.
 
