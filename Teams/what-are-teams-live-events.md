@@ -36,6 +36,7 @@ The live events in Microsoft 365 support a spectrum of production scenarios, inc
 
 - **Quick start production**: The quick start production method allows users to produce their live events using Teams meetings. This option is best and quickest option if you want to use the audio and video devices connected to the PC or are inviting remote presenters for participating in the event. This option allows users to easily use their web cams and share their screen as input into the event. 
 
+
 - **External encoder production**: External encoders allow users to produce their live events directly from an external hardware or a software-based encoder with [Microsoft Stream](https://stream.microsoft.com). This option is best if you already have studio quality equipment (for example, media mixers) which support streaming to an Real-time Messaging Protocol (RTMP) service. This type of production is typically used in large scale events such as executive town halls – where a single stream from a media mixer is broadcasted to the audience. 
 
 ### Streaming platform
@@ -107,7 +108,7 @@ Invite a presenter during the meeting |&#x2714; (Skype for Business) |X |N/A |
 |Real Time Captions and Translation |&#x2714; |&#x2714; (coming soon) |X |
 |Captions in live event recordings |&#x2714; |&#x2714; (coming soon) |&#x2714; |
 |Attendee DVR controls (pause, rewind) |&#x2714; |&#x2714; |&#x2714; |
-|Partner eCDN Support |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (coming soon) |&#x2714; (Hive, Kollective, Ramp) |
+|Partner eCDN Support |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective) |&#x2714; (Hive, Kollective, Ramp) |
 |Post-broadcast attendance report for Producers |&#x2714; |&#x2714; (feature release) |X |
 |Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |X |X |
 
@@ -124,10 +125,10 @@ You can use Teams live events in multiple regions across the world. The followin
 - Americas
 - Europe/Africa
 - Asia Pacific
+- Go Local Canada
 
 **Exclusions and considerations**
 - **Go Locals:** Unitied Kingdom (U.K.), India, and other Microsoft Teams Go Locals are not currently supported.
-- **Go Local - Canada:** During this preview offering you can create events but their data will be homed in North America region.
 - **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
 
 ## Setting up for live events
