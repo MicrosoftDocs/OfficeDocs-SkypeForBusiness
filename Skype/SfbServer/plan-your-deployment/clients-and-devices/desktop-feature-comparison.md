@@ -1,7 +1,7 @@
 ---
 title: "Desktop client feature comparison for Skype for Business Server 2015"
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -97,6 +97,7 @@ This table covers features related to IM support.
 |Send ink messages  <br/> ||||&#x2714;||||||
 |Receive ink messages  <br/> |&#x2714;||&#x2714;|&#x2714;||||||
 |Set IM messages as high importance  <br/> |&#x2714;||&#x2714;|||||||
+|Transfer files in peer-to-peer IM conversations<br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||&#x2714;|
    
 ## Meetings support
 <a name="BKMK_Conferencing"> </a>

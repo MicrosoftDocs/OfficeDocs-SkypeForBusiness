@@ -1,7 +1,7 @@
 ---
 title: Install Microsoft Teams using MSI
-author: ninadara
-ms.author: ninadara
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
