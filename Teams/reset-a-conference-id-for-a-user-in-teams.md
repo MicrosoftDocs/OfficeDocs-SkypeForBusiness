@@ -54,8 +54,6 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
     
 - After it has been reset, you can see the new conference ID listed under **Conference ID**.
     
-- The conference ID for a user for audio conferencing can be viewed at the bottom of the Action pane under **Audio conferencing** when you select the user on the **Users** page.
-    
 - After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. 
 
 ## Want to know more about Windows PowerShell?

@@ -38,7 +38,7 @@ The audio conferencing bridge answers a call for people who are dialing in to a 
 
 3. In the **Bridge settings** pane, under **PIN length**, select the number of digits you want for the PIN.
 
-4. Click **Apply**.
+4. Click **Save**.
 
 > [!NOTE]
 > A PIN is different from a conference ID. Conference IDs are used by callers when they join the meeting. They are used to identify the meeting. The PIN is used to authenticate a caller as the meeting organizer. 

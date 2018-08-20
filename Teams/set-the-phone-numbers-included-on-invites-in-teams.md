@@ -33,7 +33,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## Set the default dial-in phone number for a meeting organizer
+## Set or change the default audio conferencing phone number for a meeting organizer or user
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
@@ -50,17 +50,6 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
 4. Use the **Toll number** or **Toll-free number** fields to enter the numbers for the user.
 
 
-## Change the audio conferencing phone number for users
-
-1. In the left navigation, click **Users**, and then select the user from the list of available users.
-
-2. At the top of the page, click **Edit**.
-
-3. Next to **Audio Conferencing**, click **Edit**. 
-    
-4. Use the **Toll number** or **Toll-free number** fields to enter the numbers for the user.
-
-  
 > [!IMPORTANT]
 > When you change a user's audio conferencing settings, recurring and future Microsoft Teams meetings must be updated and sent to attendees. 
 

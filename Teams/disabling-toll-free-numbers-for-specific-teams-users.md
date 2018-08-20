@@ -43,11 +43,11 @@ When toll-free numbers are disabled for a given organizer:
 
 2. At the top of the page, click **Edit**.
 
-3. Click the menu next to **Conference Bridges**, and then click **Edit** in the drop-down list.
+3. Next to **Audio Conferencing**, click **Edit**.
 
-4. In the **Conference bridge provider** pane, turn off **Allow using toll-free numbers in the Conferencing bridge of your organization to join the meetings of this user**. 
+4. Turn off **Include toll-free numbers in meeting requests from this user**. 
 
-5. Click **Apply.** 
+5. Click **Save.** 
 
  
 > [!Note]

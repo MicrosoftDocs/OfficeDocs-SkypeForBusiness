@@ -44,7 +44,7 @@ Choose one primary language and up to four secondary languages. The primary lang
     > [!NOTE]
     > The default and alternate languages that are supported are listed. The order in which you select them in the lists will be the order of the languages presented to callers. 
 
-4. Click **Apply**.
+4. Click **Save**.
 
     
 ## Want else should I know?

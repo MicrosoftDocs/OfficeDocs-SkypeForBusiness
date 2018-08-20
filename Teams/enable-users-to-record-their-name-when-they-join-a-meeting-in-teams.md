@@ -32,13 +32,13 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
-2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
+2. At the top of the **Conference Bridges** page, click **Bridge settings**. 
 
-3. Enable or disable **Enable meeting entry and exit notifications to be turned on**.
+3. Enable or disable **Meeting entry and exit notifications**.
 
-4. Click **Apply**.
+4. If enabling notifications, choose **Names or phone numbers** under **Entry/exit announcement type**, and then turn on **Ask callers to record their name before joining a meeting.**
 
-3. After you make your changes, click **Save**.
+6. Click **Save**.
     
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

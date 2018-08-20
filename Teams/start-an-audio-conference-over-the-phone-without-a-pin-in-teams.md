@@ -40,11 +40,11 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 2. Select a user in the list, and then click **Edit** at the top of the page. 
 
-3. Click the menu next to **Conference Bridges**, and then click **Edit**.
+3. Next to **Audio Conferencing**, click **Edit**.
 
-4. In the **Conference bridge provider** pane, enable or disable **Allow unauthenticated callers to be the first people in a meeting. If not, then they will wait in the lobby until an authenticated user joins**.
+4. In the **Audio Conferencing** pane, enable or disable **Unauthenticated callers can be the first person in a meeting**.
     
-4. Click **Apply**. 
+4. Click **Save**. 
 
 **Using Windows Powershell**
   

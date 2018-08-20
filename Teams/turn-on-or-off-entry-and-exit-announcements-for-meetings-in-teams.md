@@ -36,13 +36,13 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
 
 2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
 
-3. In the **Bridge settings** pane, enable or disable **Enable meeting entry and exit notifications to be turned on**. This is selected by default. If you clear it, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
+3. In the **Bridge settings** pane, enable or disable **Meeting entry and exit notifications**. This is selected by default. If you clear it, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
     
 4. Under **Entry/exit announcement type**, select **Names or phone numbers** or **Tones**.
     
-5. Enable or disable **Ask callers to record their name before joining the meeting**.
+5. If you chose **Names or phone numbers**, enable or disable **Ask callers to record their name before joining the meeting**.
     
-6. After you make your changes, click **Apply**.
+6. Click **Save**.
 
 ## Want to know more about Windows PowerShell?
 
