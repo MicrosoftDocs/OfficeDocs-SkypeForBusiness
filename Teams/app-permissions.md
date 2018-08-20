@@ -3,7 +3,7 @@ title: Microsoft Teams apps permissions and considerations
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
-ms.date: 07/27/2018
+ms.date: 08/20/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
