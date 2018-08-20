@@ -186,7 +186,7 @@ After you've finished these steps, you can migrate user accounts as described in
 |:-----|:-----|:-----|:-----|
 |msRTCSIP-DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.online.lync.com  <br/> |SRV:  <br/> |
 |msRTCSIP-PrimaryUserAddress  <br/> |SIPAddress  <br/> |sip:userName@contoso.com  <br/> |sip:userName@contoso.com  <br/> |
-|sRTCSIP-UserEnabled  <br/> |Enabled  <br/> |True  <br/> |True  <br/> |
+|msRTCSIP-UserEnabled  <br/> |Enabled  <br/> |True  <br/> |True  <br/> |
    
 10. Each user who has been moved will need to log out, then log back in. When they log in they should verify their contact lists, and add contacts if needed.
     

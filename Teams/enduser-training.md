@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 03/19/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: lolaj, ninadara
+ms.reviewer: lolaj
 description: Training resources an admin can use to successfully deploy and adopt Microsoft Teams.
 appliesto: 
 - Microsoft Teams
@@ -26,7 +26,8 @@ Use these training resources to help your organization get value from Microsoft 
 | [Teams tips & tricks](https://support.office.com/office-training-center/Teams-tips) |  |
 | [What is Teams? ](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) | Short introduction to Teams, your hub for teamwork  |
 | [Microsoft Teams channel on YouTube](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
-| [Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |How-to, best practice and feature review videos  |
+| [Coffee in the Cloud channel on YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |How-to, best practice and feature review videos - view with content.  |
+| [Coffee in the Cloud podcast on iTunes](https://itunes.apple.com/us/podcast/coffee-in-the-cloud/id1417729403?mt=2) |How-to, best practice and feature review podcast episodes - listen on the go.  |
 | Introduction to Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
 | Introduction to Microsoft Teams for Education  | <iframe width="350" height="200" src="https://youtube.com/embed/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
 

@@ -51,7 +51,7 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 
 |Feature                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
-|Storage                 |1 TB per organization plus 2 GB per license purchased  |1 TB per organization plus 2 GB per license purchased  |1 TB per organization plus 2 GB per license purchased   |1 TB per organization plus 2 GB per license purchased |1 TB per organization plus 2 GB per license purchased  |1 TB per organization           |
+|Storage                 |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased   |1 TB per organization plus 10 GB per license purchased |1 TB per organization plus 10 GB per license purchased  |1 TB per organization           |
 |Storage for Teams Files |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |
 |File upload limit       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 

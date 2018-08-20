@@ -1,5 +1,5 @@
 ---
-title: "Disabling toll-free numbers for specific users"
+title: "Disabling toll-free numbers for specific Skype for Business Online users"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -11,7 +11,8 @@ ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business 
 localization_priority: Priority
 f1keywords: None
 ms.custom:
@@ -19,7 +20,10 @@ ms.custom:
 description: "Administrators can control how organizers can use toll-free numbers for their meetings." 
 ---
 
-# Disabling toll-free numbers for specific users
+# Disabling toll-free numbers for specific Skype for Business Online users
+
+> [!Note]
+> For information about disabling tool-free numbers for Teams users, see  [Disabling toll-free numbers for specific Teams users](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).
 
 If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, you can allow or prevent their usage in the meetings of specific organizers.  
 
@@ -36,24 +40,8 @@ When toll-free numbers are disabled for a given organizer:
 
  - Participants can continue joining meetings of the organizer using toll numbers. 
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ## Disabling toll-free numbers for specific users 
 
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
-
-1. In the left navigation, click **Users**, and then select the user from the list of available users.
-
-2. At the top of the page, click **Edit**.
-
-3. Click the menu next to **Conference Bridges**, and then click **Edit** in the drop-down list.
-
-4. In the **Conference bridge provider** pane, turn off **Allow using toll-free numbers in the Conferencing bridge of your organization to join the meetings of this user**. 
-
-5. Click **Apply.** 
-
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users. 
 
