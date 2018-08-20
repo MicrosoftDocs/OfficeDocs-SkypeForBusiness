@@ -56,7 +56,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
 5. To specify whether to send email to your users, enable or disable **Automatically send emails to users if their audio conferencing configuration changes**.
     See [Emails automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md) for more information.
  
-6. Click **Apply**. 
+6. Click **Save**. 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

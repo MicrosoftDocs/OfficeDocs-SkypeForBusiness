@@ -1,7 +1,7 @@
 ---
 title: "Deploy Skype Room Systems v2 management with OMS"
 ms.author: jambirk
-author: jambirk
+author: Turgayo
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -131,8 +131,8 @@ To extract your custom fields out of the captured event logs, follow these steps
 
 **Table 1**
 
-| **JSON field**               | **OMS custom field**       | **Event ID** |
-|------------------------------|----------------------------|-----------------|
+| JSON field                   | OMS custom field           | Event ID        |
+|:-----------------------------|:---------------------------|:----------------|
 | Description                  | SRSEventDescription_CF     | Not selected    |
 | ResourceState                | SRSResourceState_CF        | Not selected    |
 | OperationName                | SRSOperationName_CF        | Not selected    |
