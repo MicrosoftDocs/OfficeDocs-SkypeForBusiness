@@ -67,8 +67,16 @@ And finally, if your company has a slogan, think twice about including it in the
 
 With all that in mind, proceed to [Configure Cloud Auto Attendant](configure-cloud-auto-attendant.md)
 
-
 ## See Also
 
-https://docs.microsoft.com/en-us/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording 
+[Enable custom prompt recording using the telephone user interface](https://docs.microsoft.com/en-us/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
+[Plan Cloud Voicemail service](plan-cloud-voicemail.md)
+
+[Configure Cloud Voicemail service](configure-cloud-voicemail.md)
+
+[What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+
+[Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+
+[Automatically answer and route incoming calls](https://docs.microsoft.com/en-us/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls) 
