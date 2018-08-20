@@ -45,7 +45,7 @@ By using Phone System, your Skype for Business users will get the following feat
 |Call hold/retrieve  <br/> | Use when multiple calls occur at the same time. When you answer the next inbound call or place an outbound call, your current call goes on hold automatically. <br/> |
 |[Transfer a Skype for Business call](https://support.office.com/en-us/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Transfers calls to another person. Or, if you need to leave your office but want to continue your conversation, you can transfer the calls from your PC or IP phone to your cell phone or tablet.  <br/> |
 |Caller ID  <br/> |Calls from inside your company display a detailed caller ID that pulls information from your corporate directory, showing you a picture and job title instead of just a phone number.  <br/> |
-|[Create a Phone System call queue](create-a-phone-system-call-queue.md) <br/> |Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold.  <br/> |
+|[Create a Phone System call queue](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold.  <br/> |
 |[Tell me when someone's status changes](https://support.office.com/en-us/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | This feature allows you to tag people who are currently unavailable and get notified when their presence changes and they're ready to take phone calls. <br/> |
 |Clients for PC, Mac, and Mobile  <br/> | This gives you calling features on devices, from tablets and mobile phones to PCs and desktop IP phones. <br/> |
 |Device switching  <br/> |Enables you to play your call or meeting on another device.  <br/> |
@@ -65,19 +65,19 @@ By using Phone System, your Skype for Business users will get the following feat
 
 Set up Phone System in the way that best suits your business:
   
-- You can use the Phone System add-on with your company's existing phone lines, or the [What are Calling Plans in Office 365?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) service for inbound and outbound calls.
+- You can use the Phone System add-on with your company's existing phone lines, or the [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365.md) service for inbound and outbound calls.
     
 - You can get new phone numbers from Office 365, or transfer existing phone numbers to Skype for Business. 
     
 See these articles to plan and set up the Phone System in your business:
   
-- [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md): This article has step-by-step instructions to get set up with your phone numbers or to transfer your existing phone numbers to Skype for Business.
+- [Set up Calling Plans](set-up-calling-plans.md): This article has step-by-step instructions to get set up with your phone numbers or to transfer your existing phone numbers to Skype for Business.
     
 - [Plan your Phone System in Office 365 (Cloud PBX) solution](https://go.microsoft.com/fwlink/?LinkId=708645): This  article lays out all of your deployment options. It also has information about planning an entirely cloud-only solution. 
     
-- [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md): Learn which licenses you need to buy to get the Phone System in Office 365.
+- [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md): Learn which licenses you need to buy to get the Phone System in Office 365.
     
-- [Set up Phone System voicemail - Admin help](phone-system-voicemail/set-up-phone-system-voicemail.md)
+- [Set up Phone System voicemail - Admin help](set-up-phone-system-voicemail.md)
     
 - [Discover Skype for Business](https://support.office.com/en-us/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Help the people in your company learn how to use Skype for Business features. 
     
@@ -87,12 +87,12 @@ See these articles to plan and set up the Phone System in your business:
 ||||
 |:-----|:-----|:-----|
 |**Rich clients** <br/> |**Mobile clients** <br/> |**IP phones** <br/> |
-| Works with all supported PC and Mac clients in Office 365. <br/> [Install Skype for Business](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Set up Lync for Mac 2011 for Office 365](https://support.office.com/en-us/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | We have Skype for Business clients for: <br/> [iOS](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Choose from a large number of desk phones that are compatible with Skype for Business. See [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md). <br/> |
+| Works with all supported PC and Mac clients in Office 365. <br/> [Install Skype for Business](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Set up Lync for Mac 2011 for Office 365](https://support.office.com/en-us/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | We have Skype for Business clients for: <br/> [iOS](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Choose from a large number of desk phones that are compatible with Skype for Business. See [Getting phones for Skype for Business Online](/skypeforbusiness/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md). <br/> |
    
 ## Related topics
-[Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Country and region availability for Audio Conferencing and Calling Plans](/skypeforbusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
  
