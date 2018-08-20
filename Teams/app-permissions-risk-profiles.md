@@ -23,15 +23,15 @@ Microsoft Teams apps are a way to aggregate one or more capabilities into an _ap
 -   Tabs
 -   Connectors
 
-Apps are consented to by users and managed by IT from a policy perspective. However, for the most part, an app's permissions and risk profile are defined by the permissions and risk profiles of the capabilities it contains. Therefore, this article focuses on permissions and risk profiles at the capability level.
+Apps are consented to by users and managed by IT from a policy perspective. However, for the most part, an app's permissions and risk profile are defined by the permissions and risk profiles of the capabilities it contains. Therefore, this article focuses on permissions and considerations at the capability level.
 
 The permissions listed below in capital letters, for example RECEIVE_MESSAGE and REPLYTO_MESSAGE, don't appear anywhere in the [Microsoft Teams developer documentation](https://aka.ms/teamsdevdocs) or the [permissions for Microsoft Graph](https://developer.microsoft.com/graph/docs/concepts/permissions_reference). They're simply a descriptive shorthand for the purpose of this article.
 
-<table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision point</td><td><ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise line-of-business bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that risk profile, at a minimum. </li></ul></td></tr>
-</table>
 
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise line-of-business bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that risk profile, at a minimum. </li></ul>|
 
 ## Global app permissions and considerations
 
