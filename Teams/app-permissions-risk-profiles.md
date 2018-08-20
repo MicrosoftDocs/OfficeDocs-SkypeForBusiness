@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams apps permissions and risk profiles
+title: Microsoft Teams apps permissions and considerations
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
@@ -14,7 +14,7 @@ appliesto:
 ---
 
 
-# Microsoft Teams apps permissions and risk profiles
+# Microsoft Teams apps permissions and considerations
 
 Microsoft Teams apps are a way to aggregate one or more capabilities into an _app package_ that can be installed, upgraded, and uninstalled. The capabilities include:
 
@@ -25,17 +25,21 @@ Microsoft Teams apps are a way to aggregate one or more capabilities into an _ap
 
 Apps are consented to by users and managed by IT from a policy perspective. However, for the most part, an app's permissions and risk profile are defined by the permissions and risk profiles of the capabilities it contains. Therefore, this article focuses on permissions and risk profiles at the capability level.
 
-Use the tables below as a guide to understand which permissions the apps you're investigating are requesting. You'll still need to do research on the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise line-of-business bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that risk profile, at a minimum. 
-
 The permissions listed below in capital letters, for example RECEIVE_MESSAGE and REPLYTO_MESSAGE, don't appear anywhere in the [Microsoft Teams developer documentation](https://aka.ms/teamsdevdocs) or the [permissions for Microsoft Graph](https://developer.microsoft.com/graph/docs/concepts/permissions_reference). They're simply a descriptive shorthand for the purpose of this article.
 
-## Global app permissions and risk profile
+<table>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision point</td><td><ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise line-of-business bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that risk profile, at a minimum. </li></ul></td></tr>
+</table>
+
+
+## Global app permissions and considerations
 
 <table>
   <tr>
     <th width="25%">Required permissions</th>
     <th width="25%">Optional permissions</th>
-    <th width="50%">Risk profile</th>
+    <th width="50%">Considerations</th>
   </tr>
   <tr>
     <td valign="top">None</td>
@@ -52,7 +56,7 @@ The permissions listed below in capital letters, for example RECEIVE_MESSAGE and
     <th width="0.5%"></th>
     <th width="24.5%">Required permissions</th>
     <th width="25%">Optional permissions</th>
-    <th width="50%">Risk profile</th>
+    <th width="50%">Considerations</th>
   </tr>
 </thead>
 <tbody>
@@ -82,7 +86,7 @@ A tab is a website running inside Teams.
   <tr>
     <th width="25%">Required permissions</th>
     <th width="25%">Optional permissions</th>
-    <th width="50%">Risk profile</th>
+    <th width="50%">Considerations</th>
   </tr>
   <tr>
     <td valign="top">SEND_AND_RECEIVE_WEB_DATA</td>
@@ -99,7 +103,7 @@ A connector posts messages to a channel when events in an external system occur.
   <tr>
     <th width="25%">Required permissions</th>
     <th width="25%">Optional permissions</th>
-    <th width="50%">Risk profile</th>
+    <th width="50%">Considerations</th>
   </tr>
   <tr>
     <td valign="top">POST_MESSAGE_CHANNEL</td>
@@ -120,7 +124,7 @@ _Outgoing webhooks_ are created on the fly by team owners or team members if sid
   <tr>
     <th width="25%">Required permissions</th>
     <th width="25%">Optional permissions</th>
-    <th width="50%">Risk profile</th>
+    <th width="50%">Considerations</th>
   </tr>
     <tr>
     <td valign="top">RECEIVE_MESSAGE, REPLYTO_MESSAGE. Can receive messages from users and reply to them.</td>
