@@ -1,5 +1,5 @@
 ---
-title: "Disabling toll-free numbers for specific Skype for Business Online users"
+title: "Disabling toll-free numbers for specific Teams users"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
-- Skype for Business 
+- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
@@ -20,10 +20,7 @@ ms.custom:
 description: "Administrators can control how organizers can use toll-free numbers for their meetings." 
 ---
 
-# Disabling toll-free numbers for specific Skype for Business Online users
-
-> [!Note]
-> For information about disabling tool-free numbers for Teams users, see  [Disabling toll-free numbers for specific Teams users](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).
+# Disabling toll-free numbers for specific Teams users
 
 If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, you can allow or prevent their usage in the meetings of specific organizers.  
 
@@ -42,20 +39,20 @@ When toll-free numbers are disabled for a given organizer:
 
 ## Disabling toll-free numbers for specific users 
 
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
-1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users. 
+2. At the top of the page, click **Edit**.
 
-2. In the Action pane, click **Edit**. 
+3. Next to **Audio Conferencing**, click **Edit**.
 
-3. Clear **Allow using toll-free numbers to join the meetings of this user**. 
- 
-4. Click **Save**. 
+4. Turn off **Include toll-free numbers in meeting requests from this user**. 
+
+5. Click **Save.** 
+
  
 > [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
  
 **Using PowerShell**  
 
-You can use the AllowTollFreeDialIn parameter of the Set-CsOnlineDialInConferencingUser cmdlet to enable or disable this control. For example: 
-
- - Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false
+See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
