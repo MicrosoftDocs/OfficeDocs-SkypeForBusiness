@@ -274,7 +274,9 @@ Some CQD reports require that you include a filter for your tenant ID. Due to th
 
 2.  Open an Azure PowerShell command window and run the following script, entering your Office 365 credentials when prompted: 
 
-    ```Login-AzureRmAccount```
+  ```
+  Login-AzureRmAccount
+  ```
 
 3.  The tenant ID is listed in the output.
 
@@ -294,7 +296,9 @@ Some CQD reports require that you include a filter for your tenant ID. Due to th
 
 2.  Run the following command:
 
-    ```(Get-cstenant).tenantid```
+  ```
+  (Get-cstenant).tenantid
+  ```
 
 3.  The tenant ID is displayed as a GUID.
 
