@@ -24,25 +24,19 @@ This guide is about the Drive Value phase for Microsoft Teams and Skype for Busi
 To have the greatest impact on improving the user experience, organizations need to operationalize the key areas that are shown in the following figure. Additional areas include identifying operational tasks, establishing targets for quality metrics, ascertaining the metrics to use to gauge organizational success, and narrowing areas of investigation as needed.
 
 
-<!-- Note: updated graphic -->
-![Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.](media/quality-of-experience-review-guide-image1.png)
+<!-- Note: need to update graphic -->
+![Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.](media/quality-of-experience-review-guide-image1.png "Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.")
 
 _Figure 1 - Key operational areas covered throughout this guide_
 
 By continually assessing and remediating the areas described in this guide, you can reduce their potential to negatively affect the quality of your users’ experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
 
 -   Incomplete firewall or proxy configuration
-
 -   Poor Wi-Fi coverage
-
 -   Insufficient bandwidth
-
 -   VPN
-
 -   Inconsistent or outdated client versions and drivers
-
 -   Unoptimized or built-in audio devices
-
 -   Problematic subnets or network devices
 
 Through proper planning and design before deploying Teams or Skype for Business Online, you can reduce the amount of effort that will be required to maintain high-quality experiences.
@@ -73,8 +67,8 @@ Alternatively, you can assign the following role to an Office 365 user account t
 
 When discussing quality in Teams and Skype for Business, it’s important to define the term to achieve a common understanding. Quality, as defined here, is a combination of service metrics and user experience.
 
-<!-- Note: updated graphic-->
-![Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.](media/quality-of-experience-review-guide-image2.png)
+<!-- Note: need to update graphic-->
+![Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.](media/quality-of-experience-review-guide-image2.png "Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.")
 
 _Figure 2 - What is quality?_
 
@@ -93,37 +87,76 @@ The poor stream rate (PSR) represents the organization’s overall percentage of
 
 The actual measurement in CQD varies by workload, but for the purposes of the Quality Experience Review we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the five network metric averages described in the following table. For a stream to be classified as poor, only one metric needs to exceed the defined threshold. For more information about the stream classification process, see [this article](/skypeforbusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard).
 
+> [!Note]
+> CQD provides the “Poor Due To…” measurements to better understand what condition caused the stream to be classified as poor.
 
 
+<!-- Used to be Table 2-->
+_Table 1 - Poor service metrics_
 
-
-
-
-#### Call Setup Failures % 
-
-This represents any media session that couldn’t be established. Given the severity of the impact on the user experience measured here, the goal is to reduce this value to as close to zero as possible. A high value for this metric is more common in new deployments with incomplete firewall rules than a mature deployment, but it’s still important to watch on a regular basis. As your operational rigor matures, you can expand this metric to include video and desktop-sharing workloads.
-
-#### Call Drop Failures % 
-
-This applies to an audio workload where the session terminated unexpectedly. As your operational rigor matures, you can expand this metric to include video and desktop-sharing workloads.
-
-### Service metrics
-
-Service metric targets consist of specific client-based metrics.
-
-#### PCR
-
-The basis for determining whether a call is classified as poor is by using the poor call ratio (PCR). PCR is made up of the five network metrics described in the following table. For a call to be classified as poor, only one metric needs to exceed the defined threshold. For more information about the call classification process, see [this blog post](https://blogs.technet.microsoft.com/jenstr/2013/09/20/what-is-the-basis-for-classifying-a-call-as-poor-in-lync-2013-qoe/).
-
-_Table 2 - Poor Call Service Metrics_
-
-| Metric      | Description     | User experience |
+| Metric average     | Description     | User experience |
 |-------------|-----------------|-----------------|
 | Jitter \>30 ms        | This is the average change in delay between successive packets. Teams and Skype for Business can adapt to some levels of jitter through buffering. It’s only when the jitter exceeds the buffering that a participant notices the effects of jitter.      | The packets arriving at different speeds cause a speaker’s voice to sound robotic.   |
 | Packet loss rate \>10% or 0.1        | This is often defined as a percentage of packets that are lost. Packet loss directly affects audio quality—from small, individual lost packets that have almost no impact to back-to-back burst losses that cause audio to cut out completely.     | The packets being dropped and not arriving at their intended destination cause gaps in the media, resulting in missed syllables and words, and choppy video and sharing. |
-| Round-trip time \>500 ms        | This is the time it takes to get an IP packet from point A to point B and back to point A. This network propagation delay is tied to the physical distance between the two points and the speed of light and includes additional overhead taken by the various devices in the network path.      | The packets taking too long to arrive at their destination cause a walkie-talkie effect.   |
-| NMOS degradation average \> 1.0         | One or more of these network metrics, although individually weren’t poor, together caused the Network [Mean Opinion Score](https://technet.microsoft.com/library/bb894481(v=office.12).aspx) (NMOS) to drop by more than one point. This doesn’t necessarily mean the network connection is poor, but enough issues occurred during the call that quality was reduced. | This is a combination of jitter, packet loss, and—to a lesser degree—increased round-trip time. The user might be experiencing a combination of these symptoms.   |
-| Average ratio of concealed samples \> 7% or 0.07 | One or more of these network metrics, although individually weren’t poor, caused the client to self-heal the media. A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.         | High values indicate that significant levels of loss concealment were applied, and resulted in distorted or lost audio.     |
+| Round-trip time \>500 ms        | This is the time it takes to get an IP packet from point A to point B and back to point A. This network propagation delay is tied to the physical distance between the two points and the speed of light, and includes additional overhead taken by the various devices in the network path.      | The packets taking too long to arrive at their destination cause a walkie-talkie effect.   |
+| NMOS degradation average \>1.0         | Average [Network Mean Opinion Score (NMOS)](https://docs.microsoft.com/previous-versions/office/communications-server/bb894481(v=office.12)#network-mos) degradation for the stream. Represents how much the network loss and jitter has affected the quality of received audio that caused the NMOS to drop by more than one point. | This is a combination of jitter, packet loss, and—to a lesser degree—increased round-trip time. The user might be experiencing a combination of these symptoms.   |
+| Average ratio of concealed samples \>7% or 0.07 | Average ratio of the number of audio frames with concealed samples generated by packet loss healing to the total number of audio frames. A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.      | High values indicate that significant levels of loss concealment were applied and resulted in distorted or lost audio.     |
+
+#### Setup Failure Rate
+
+The setup failure rate, otherwise known as the _Total Call Setup Failure Percentage_ measurement in CQD, is the number of streams where the media path couldn’t be established between the endpoints at the start of the call.
+
+This represents any media stream that couldn’t be established. Given the severity of the impact on the user experience measured here, the goal is to reduce this value to as close to zero as possible. A high value for this metric is more common in new deployments with incomplete firewall rules than a mature deployment, but it’s still important to watch on a regular basis.
+
+This metric is calculated by taking the total number of streams that failed to set up divided by the total number of streams that submitted a successful call detail record (CDR):
+
+-   **Setup Failure Rate** = Total Call Setup Failed Stream Count / Total CDR Available Stream Count
+
+#### Drop Failure Rate
+
+The drop failure rate, otherwise known as the _Total Call Dropped Failure Percentage_ measurement in CQD, is the percentage of successfully established streams where the media path didn’t terminate normally.
+
+This represents any media stream that terminated unexpectedly. Although the impact of this isn’t as severe as a stream that failed to set up, it will negatively affect the user experience. Sudden and frequent media drops not only can have a severe impact on the user experience, they result in the need for users to reconnect, resulting in a loss in productivity.
+
+The metric is calculated by taking the total number of dropped streams divided by the total count of streams that set up successfully:
+
+-   **Drop Failure Rate** = Total Call Dropped Stream Count / Total Call Setup Succeeded Stream Count
+
+### Define your target metrics
+
+This section discusses some of the core service metrics that we use to assess how services experience health. By continually assessing and driving efforts to keep these metrics below their defined targets, you’ll help ensure that your users experience consistent, reliable call quality. To get you started, the following targets are provided.
+
+<!-- NEW TABLE -->
+_Table 2 - Core target health assessment metrics-
+
+| Network type | 
+
+It's important to discuss and define your organization’s targets to meet your business objectives.
+
+### User experience
+
+Analyzing the user experience is more art than science, because the metrics gathered here don’t always mean that there’s a problem with the network or service but rather, they simply indicate that the user perceives a problem. Microsoft offers a built-in survey mechanism—known as Rate My Call (RMC)—to help gauge overall user experience. RMC will help you answer the following questions from your users’ perspective:
+
+-   Do I know how to use the solution?
+-   Is the solution easy to use and intuitive, and does it support my day-to-day communication needs?
+-   Does the solution help me get my job done?
+-   What’s my overall perception of the solution?
+-   Can I use the solution at any point in time, regardless of where I am?
+-   Can I set up and maintain a call?
+
+#### Rate My Call 
+
+Rate My Call (RMC) is built into Teams and Skype for Business and is automatically configured to be displayed to the participant after one in every 10 calls, or 10 percent. This brief survey asks the user to rate the call and provide a little context for why the call quality might have been poor. A one or two rating is considered poor, three to four is good, and five is excellent. Although it’s somewhat of a lagging indicator, this is a useful metric for uncovering issues that service metrics can miss.
+
+> [!Note]
+> Until users are educated to respond to RMC surveys by giving good feedback in addition to bad, responses typically come back as overwhelmingly negative. Most users only respond when call quality is poor. Because of this, your RMC reports might be skewed to the poor side even while service metrics are good.
+
+You can use CQD to report on RMC user responses, and sample reports are included in the CQD template. However, they aren’t discussed in detail in this guide. For more information about RMC in Skype for Business Online and guidance for educating users to give useful RMC responses, see [this blog post](https://blogs.technet.microsoft.com/jenstr/2015/05/05/rate-my-call-in-skype-for-business-2015/).
+
+%%%%%
+
+%%%%%%
+
 
 #### Client and device readiness
 
