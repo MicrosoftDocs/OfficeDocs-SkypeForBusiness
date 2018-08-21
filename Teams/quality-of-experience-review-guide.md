@@ -153,65 +153,34 @@ Rate My Call (RMC) is built into Teams and Skype for Business and is automatical
 
 You can use CQD to report on RMC user responses, and sample reports are included in the CQD template. However, they aren’t discussed in detail in this guide. For more information about RMC in Skype for Business Online and guidance for educating users to give useful RMC responses, see [this blog post](https://blogs.technet.microsoft.com/jenstr/2015/05/05/rate-my-call-in-skype-for-business-2015/).
 
-%%%%%
-
-%%%%%%
-
-
 #### Client and device readiness
 
-You need a solid client and device strategy to ensure that your users have a consistent and positive user experience. A few key principles drive each readiness strategy.
+You need a solid client and device strategy to help ensure that your users have a consistent and positive user experience. A few key principles drive each readiness strategy.
 
 ##### Client readiness
 
-A strong client readiness strategy ensures that your users are running the most recent version of the client while enjoying the best experience possible. Microsoft routinely patches the Skype for Business client; ensuring that you keep it up to date in your environment is vital to your overall success.
+A strong client readiness strategy ensures that your users are running the most recent version of the client while enjoying the best experience possible. Microsoft routinely patches the Skype for Business client; ensuring that you keep it up to date in your environment is vital to your overall success. It’s also important to remember to patch network, video, USB, and audio drivers, because they’re often overlooked and can affect the user’s experience. Consider adding network, Wi-Fi, video, USB, and audio drivers to your current patch management process.
 
-We recommend that you not let your client versions fall behind by more than six months. If you’re using Office Click-to-Run, you’re already being kept up to date by the service. Use the included [Client
-Report](#determine-client-versions), as described later in this guide, to assist you with this process. You can also leverage the Rate My Call sample reports to further enhance your client readiness strategy.
+We recommend that you not let your client versions fall behind by more than six months. If you’re using Office Click-to-Run, you’re already being kept up to date by the service. Use the included [client versions](#determine-client-versions), as described later in this guide, to assist you with this process. You can also leverage the Rate My Call sample reports to further enhance your client readiness strategy.
 
 > [!IMPORTANT]
-> Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. Client readiness and investigative activities aren’t applicable to Teams.
+> Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. Due to this, client readiness and investigative activities aren’t applicable to Teams.
 
 
 ##### Device readiness
 
-No one single strategy can affect the user experience more than your device readiness strategy. Most organizations are happy to remove unnecessary devices from users (for example, desk phones or other  dedicated audio devices), and this is often a core business justification for switching to Teams or Skype for Business. However, those same organizations sometimes hesitate to provide replacement devices, even if those devices are less expensive. Modern-day laptops and PCs, though equipped with built-in microphone and speaker, aren’t optimized for business-class voice over IP (VoIP). This often creates a poor experience for all participants, especially if the speaker is in a noisy environment. Microsoft’s device certification program ensures that when a user participates in a phone call by using any device certified for Teams or Skype for Business, it produces an experience that’s superior to a non-certified device.
+No one single strategy can affect the user experience more than your device readiness strategy. Most organizations are happy to remove unnecessary devices (for example, desk phones or other dedicated audio devices) from users, and this is often a core business justification for switching to Teams or Skype for Business. However, those same organizations sometimes hesitate to provide replacement devices, even if those devices are less expensive. Modern-day laptops and PCs, though equipped with built-in microphone and speaker, aren’t optimized for business-class voice over IP (VoIP). This often creates a poor experience for all participants, especially if the speaker is in a noisy environment. Microsoft’s device certification program ensures that when a user participates in a phone call by using any device certified for Teams or Skype for Business, it produces an experience that’s superior to a non-certified device. 
 
-We always recommend that Teams and Skype for Business users use a certified headset or speaker when participating in a voice call by using a desktop client. For more information about Microsoft certified devices, review this [article about phones and qualified devices](https://technet.microsoft.com/office/dn788944.aspx). Use the [Device Report](#devices-investigations), later in this guide, for assistance with managing your devices. You can also use the Rate My Call sample reports to further enhance your device readiness strategy.
+We always recommend that Teams and Skype for Business users use a certified headset or speaker when participating in a voice call through the desktop client. For more information about Microsoft certified devices, review these articles about the [certification program](/SkypeForBusiness/certification/overview) and view the [partner solutions catalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs). Use the [Devices report](#devices-investigations), described later in this guide, for assistance with managing your devices.
 
-### User experience
-
-Analyzing the user experience is more art than science, because the metrics gathered here don’t always mean that there’s a problem with the network or service but rather, they indicate that the user perceives a problem. Microsoft offers a built-in survey mechanism—known as Rate My Call (RMC)—to help gauge overall user experience. RMC will help you answer the following questions from your users’ perspective:
-
--   Do I know how to use the solution?
-
--   Is the solution easy to use and intuitive, and does it support my day-to-day communication needs?
-
--   Does the solution help me get my job done?
-
--   What’s my overall perception of the solution?
-
--   Can I use the solution at any point in time, regardless of where I am?
-
--   Can I set up and maintain a call?
-
-#### RMC
-
-RMC is built into Teams and Skype for Business and is automatically configured to be displayed after one in every 10 calls, or 10 percent of all calls. This brief survey asks the user to rate the call and provide a little context for why the call quality might have been poor. A one or two rating is considered poor, three to four is good, and five is excellent. Although it’s somewhat of a lagging indicator, this is a useful metric for uncovering issues that service metrics can miss.
-
-> [!NOTE]
-> Until users are instructed to respond to RMC surveys by giving good feedback in addition to bad, responses typically come back as overwhelmingly negative. Most users only respond when call quality is poor. Because of this, your RMC reports might be skewed to the poor side even while service metrics are good. 
-
-
-You can use CQD to report on RMC user responses, and sample reports are included in the CQD template. However, they aren’t discussed in detail in this guide. For more information about RMC in Skype for Business Online and guidance for educating users to give useful RMC responses, see this [blog post](https://blogs.technet.microsoft.com/jenstr/2015/05/05/rate-my-call-in-skype-for-business-2015/).
 
 ### Categories of quality
 
 The success of operationalizing a high-quality and reliable deployment depends on your building operational rigor. Specifically, pay special attention to the three categories illustrated in the following figure; these are the focus of this guide:
 
--   **Network:** Audio quality focused on the PCR metric, TCP usage, wired and wireless subnets, and identifying the use of HTTP proxies and VPN.
+-   **Network:** Audio quality focused on the Poor Stream Ratio (PSR) metric, TCP usage, wired and wireless subnets, and identifying the use of HTTP proxies and VPN.
 
--   **Endpoints:** Audio devices and client version (Skype for Business only).
+-   **Endpoints:** Audio devices and client versions (Skype for Business only).
 
 -   **Service Management:** This category comprises two sections:
 
@@ -219,13 +188,16 @@ The success of operationalizing a high-quality and reliable deployment depends o
 
     -   Second are tasks your organization must manage to ensure reliable access to the service, such as updating building information and maintaining firewalls for new Office 365 IP addresses as infrastructure is added to the service.
 
-![The categories of qualilty in an organization: service management, endpoints, and the network.](media/quality-of-experience-review-guide-image3.png)
+![The categories of quality in an organization: service management, endpoints, and the network.](media/quality-of-experience-review-guide-image3.png "The categories of quality in an organization: service management, endpoints, and the network.")
 
 _Figure 3 - Critical categories for Teams and Skype for Business Online deployment_
 
-The graphic below outlines the tasks you must execute for each category. We recommend that you run these tasks once a week, at a minimum.
+The following graphic outlines the tasks you must execute for each category. We recommend that you run these tasks once a week, at a minimum.
 
 The first time you perform these tasks will take more effort than subsequent iterations, because many of these categories require that you validate your deployment configurations. After you’ve achieved the state you want by meeting the targets you’ve defined, performing these tasks will help you maintain that state.
+
+<!--  This is a net new graphic, never was included in the online article. OOPS! -->
+![List of weekly tasks per quality category](media/quality-of-experience-review-guide-image-tasks.png "List of weekly tasks per quality category")
 
 #### Service management tasks
 
