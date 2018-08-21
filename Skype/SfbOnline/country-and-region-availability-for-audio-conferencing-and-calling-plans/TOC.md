@@ -3,13 +3,13 @@
 
 ## [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## [Audio Conferencing in Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
+## [Audio Conferencing in Office 365](/microsoftteams/audio-conferencing-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json) 
 ### [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
-### [Audio Conferencing common questions](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
-### [Audio Conferencing supported languages](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
+### [Audio Conferencing common questions](/microsoftteams/audio-conferencing-common-questions?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Audio Conferencing supported languages](/microsoftteams/audio-conferencing-supported-languages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Audio Conferencing troubleshooting and known issues](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)
-### [Change the settings for an Audio Conferencing bridge](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)
-### [Change the phone numbers on your Audio Conferencing bridge](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+### [Change the settings for an Audio Conferencing bridge](/microsoftteams/change-the-settings-for-an-audio-conferencing-bridge?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Change the phone numbers on your Audio Conferencing bridge](/microsoftteams/change-the-phone-numbers-on-your-audio-conferencing-bridge?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Dialing out from a meeting so other people can join it](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
 ### [Disabling toll-free numbers for specific users](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
 ### [Emails sent to users when their settings change](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 

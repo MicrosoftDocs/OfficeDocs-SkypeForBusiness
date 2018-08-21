@@ -116,7 +116,7 @@ We have training information and articles to help your users be successful with 
 ## Related topics
 [Set up Skype for Business Online](../../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-[Here's what you get with Phone System in Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
+[Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
   
  

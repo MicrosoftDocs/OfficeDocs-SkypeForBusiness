@@ -141,7 +141,7 @@ With Audio Conferencing, there are toll and toll free phone numbers that can be 
 > [!IMPORTANT]
 > There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing. To find out if there are dial-in phone numbers available in your area or country/region, go to **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. If you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.
 
-To see more about Audio Conferencing, see [Audio Conferencing common questions](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
+To see more about Audio Conferencing, see [Audio Conferencing common questions](/MicrosoftTeams/audio-conferencing-common-questions)
 
 [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements) 
   

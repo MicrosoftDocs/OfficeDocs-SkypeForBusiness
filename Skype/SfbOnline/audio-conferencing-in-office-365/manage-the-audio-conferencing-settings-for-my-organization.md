@@ -184,7 +184,7 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
     
 5. After you make your changes, click **Save**.
     
-See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
+See [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
   
  **Set the PIN length for meetings**
   
@@ -198,7 +198,7 @@ See [Change the settings for an Audio Conferencing bridge](change-the-settings-f
     
     The PIN must be between 4 and 12 digits. The default is 5.
     
-See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
+See [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
   
  **Enable or disable email from being sent to audio users**
   
