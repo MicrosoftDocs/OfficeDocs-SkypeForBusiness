@@ -32,9 +32,9 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
 
 > [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## ![teams-logo-30x30.png](../images/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
+## ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
 
 1. In the left navigation, go to **Meetings** > **Conference bridges**. 
 
@@ -54,14 +54,12 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
 4. To set the PIN length for meetings, select the number of digits you want for the PIN in the **PIN length** list.
 
 5. To specify whether to send email to your users, enable or disable **Automatically send emails to users if their audio conferencing configuration changes**.
-    See [Emails automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md) for more information.
+    See [Emails automatically sent to users when their Audio Conferencing settings change in Microsoft Teams](emails-sent-to-users-when-their-settings-change-in-teams.md) or [Emails sent to users when their settings change in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) for more information.
  
 6. Click **Save**. 
- 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png)  Using the Skype for Business admin center
+
+## ![sfb-logo-30x30.png](media/sfb-logo-30x30.png)  Using the Skype for Business admin center
 
  **Set up the meeting experience when callers join a meeting**
     
@@ -104,11 +102,11 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
     
 4. On the **Microsoft bridge settings** page, select or clear **Automatically send emails to users if their dial-in information changes**, and then click **Save**.
     
-    See [Emails automatically sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md) for more information.
+    See [Emails automatically sent to users when their Audio Conferencing settings change in Microsoft Teams](emails-sent-to-users-when-their-settings-change-in-teams.md) or [Emails sent to users when their settings change in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) for more information.
     
 ## Want to know how to manage with Windows PowerShell?
 
-- To save time or automate this process, you can use the [Set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ) cmdlet.
+- To save time or automate this process, you can use the [Set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) cmdlet.
     
 - Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
@@ -129,4 +127,4 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   
 ## Related topics
 
-[Set up Audio Conferencing](set-up-audio-conferencing.md)
+[Set up Audio Conferencing](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

@@ -26,13 +26,13 @@ description: "When you buy Audio Conferencing licenses, Microsoft is hosting you
 
 When you buy **Audio Conferencing** licenses, Microsoft is hosting your *audio conferencing bridge*  for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
   
-In addition to the phone numbers already assigned to your conferencing bridge, you can [get additional service numbers](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) (toll and toll-free numbers used for audio conferencing) from other locations and then assign them to the conferencing bridge so you can expand coverage for your users.
+In addition to the phone numbers already assigned to your conferencing bridge, you can [get additional service numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) (toll and toll-free numbers used for audio conferencing) from other locations and then assign them to the conferencing bridge so you can expand coverage for your users.
   
 > [!NOTE]
 > To be able to assign/unassign a phone number for a conferencing bridge, the phone number must be a '*service*' number. You can see the type of number it is by navigating to **Voice** > **Phone numbers** and looking in the **Number Type** column. Office 365 Communications Credits must be set up first in order for users to dial into the bridge on a toll free number. 
 
 > [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## Steps when you are assigning a new service phone number to your conference bridge
 
@@ -49,13 +49,13 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
     Only a service toll number can be set as the default number for your conferencing bridge; **service toll-free numbers can't be set as the default number of your conferencing bridge**. If you are assigning a service toll number and you would like to set it as the new default number for your audio conferencing bridge, select **Use this number as the default**.
     
     > [!NOTE]
-    > After a new phone number has been assigned, even if the number became the new default number, the default number for existing users won't change. To set the default toll or a toll-free number that is added to an organizer's meeting invites, see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). 
+    > After a new phone number has been assigned, even if the number became the new default number, the default number for existing users won't change. To set the default toll or a toll-free number that is added to an organizer's meeting invites, see the instructions for [Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or the instructions for [Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites). 
   
 
 
 ### Step 2 - Change the default phone numbers that are included in the meeting invites of users (optional)
 
-The default phone numbers for user are the ones that are included on their meeting invites when they schedule a meeting. For more information, see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
+The default phone numbers for user are the ones that are included on their meeting invites when they schedule a meeting. For more information, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or [Set the phone numbers included on invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
 1. Sign in to Office 365 with your work or school account.
     
@@ -71,7 +71,7 @@ After the changes have been saved, the new default phone numbers will be include
 
 For the next two steps, you will need to start Windows PowerShell.
   
-Using the Meeting Migration Service, you can optionally update meeting invites that were already sent to users in your organization before their default phone numbers were changed. For additional information, see [Setting up the Meeting Migration Service (MMS)](setting-up-the-meeting-migration-service-mms.md).
+Using the Meeting Migration Service, you can optionally update meeting invites that were already sent to users in your organization before their default phone numbers were changed. For additional information, see [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Run the Meeting Migration Service (MMS) for the users who had their default phone numbers changed in Step 2. To do this, run the following command:
     
@@ -104,7 +104,7 @@ Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be remove
  > [!IMPORTANT] 
  >You can also change the default toll or toll-free number of users in the Skype for Business admin center. However, this won't automatically reschedule their meetings. 
  
- For additional information, see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md).
+ For additional information, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or [Set the phone numbers included on invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
 
   > [!NOTE]
   > Depending on the size of your organization, this could take some time to complete. 
@@ -117,7 +117,7 @@ All meetings will be rescheduled once there are no operations in *Pending* or *I
 Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
-For more information about the Meeting Migration Service, see [Setting up the Meeting Migration Service (MMS)](setting-up-the-meeting-migration-service-mms.md).
+For more information about the Meeting Migration Service, see [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 ### Step 3 - Unassign the old phone number from the audio conferencing bridge
 
