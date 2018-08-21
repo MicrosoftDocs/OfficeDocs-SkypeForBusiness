@@ -16,12 +16,15 @@ appliesto:
 
 # Quality of Experience Review Guide
 
+<!-- Note that the link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
 This guide is about the Drive Value phase for Microsoft Teams and Skype for Business Online. You can [download a Word version](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) of this guide.
 
 ## Introduction
 
 To have the greatest impact on improving the user experience, organizations need to operationalize the key areas that are shown in the following figure. Additional areas include identifying operational tasks, establishing targets for quality metrics, ascertaining the metrics to use to gauge organizational success, and narrowing areas of investigation as needed.
 
+
+<!-- Note: updated graphic -->
 ![Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.](media/quality-of-experience-review-guide-image1.png)
 
 _Figure 1 - Key operational areas covered throughout this guide_
@@ -48,15 +51,6 @@ This guide focuses on using the Call Quality Dashboard (CQD) Online as the prima
 
 To accelerate your assessment, [two curated CQD templates](https://aka.ms/qertemplates) are provided: one is for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, they can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) later in this guide.
 
-<!--
-### What is the CQD?
-
-You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams and Skype for Business services. CQD is designed to help Skype for Business and Teams admins and network engineers optimize the network. CQD looks at aggregate information for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments of call quality. CQD provides reports of call metrics that give you insight into overall call quality, call reliability, and user experience.
-
-> [!NOTE]
-> CQD doesn’t contain any personally identifiable information (PII). PII is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. 
--->
-
 ### Intended audience
 
 This guide is intended to be used by partner and customer stakeholders with roles such as Collaboration Lead/Architect, Consultant, Change Management/Adoption Specialist, Support/Help Desk Lead, Network Lead, Desktop Lead, and IT Admin.
@@ -75,36 +69,35 @@ Alternatively, you can assign the following role to an Office 365 user account t
 
 -   **Reports Reader:** Can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the Office 365 admin center, any reports from the [Office 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f), and CQD reports.
 
-Understanding the key concepts of CQD helps maximize the impact you can make in improving your users’ experience with Teams or Skype for Business Online. Additional resources can be found in the [Appendix](#other-resources).
-
 ## What is quality?
 
 When discussing quality in Teams and Skype for Business, it’s important to define the term to achieve a common understanding. Quality, as defined here, is a combination of service metrics and user experience.
 
-![Service metrics are made up of the poor call ratio, reliability, endpoints/devices and client versions. End user experience is made up of the user's perception of the quality of service.](media/quality-of-experience-review-guide-image2.png)
+<!-- Note: updated graphic-->
+![Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.](media/quality-of-experience-review-guide-image2.png)
 
 _Figure 2 - What is quality?_
 
-### Define your target metrics
+### Service metrics
 
-This section discusses the core service metrics that we use to assess how services experience health. By continually assessing and driving efforts to keep these metrics below target, you’ll help ensure your users experience consistent, reliable call quality. To get you started, the following targets are provided. Let’s briefly cover the difference between a managed and unmanaged network:
+Service metrics consist of specific client-based metrics. During each call, the client collects telemetry information about the call and submits a report at the end of each call that can be later accessed through CQD or Call Analytics. These metrics include:
 
--   A *managed* network can be influenced and controlled by the organization. This includes the internal LAN, the remote WAN, and VPN.
+-   Poor Stream Rate
+-   Setup Failure Rate
+-   Drop Failure Rate
 
--   An *unmanaged* network can’t be influenced or controlled by the organization. An example of an unmanaged network is a hotel or airport network.
 
-_Table 1 - Core target health assessment metrics_
+#### Poor Stream Rate
 
-|               | Quality for managed networks | Reliability for managed networks |                      |
-|---------------|------------------------------|----------------------------------|----------------------|
-| Metric name   | Audio Poor Call Ratio %      | Call Setup Failures %            | Call Drop Failures % |
-| Sample target | \<3%                         | \<1%                             | \<4%                 |
+The poor stream rate (PSR) represents the organization’s overall percentage of streams that have poor quality. This metric is meant to highlight areas where your organization can concentrate effort to have the strongest impact toward reducing this value and improving the user experience, which is why [managed networks](#managed-vs-unmanaged-networks) are the primary focus when looking at PSR. External users are important too, but investigation differs on an organizational basis. Consider providing best practices for external users, and investigate external calls independently from the overall organization.
 
-It’s important to discuss and define your organization’s targets to meet your business objectives. Ideally, you should identify these targets prior to deployment.
+The actual measurement in CQD varies by workload, but for the purposes of the Quality Experience Review we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the five network metric averages described in the following table. For a stream to be classified as poor, only one metric needs to exceed the defined threshold. For more information about the stream classification process, see [this article](/skypeforbusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard).
 
-#### Audio PCR % 
 
-Audio Poor Call Ratio (PCR) represents the organization’s overall percentage of calls that have poor audio quality. This metric is meant to highlight areas where your organization can concentrate effort to have the strongest impact toward reducing this value and improving the user experience, which is why managed networks are the primary focus when looking at PCR. External users are important too, but investigations differs on an organizational and user basis. Consider providing best practices for external users, and look at external calls independently from the overall organization.
+
+
+
+
 
 #### Call Setup Failures % 
 
