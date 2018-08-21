@@ -242,7 +242,7 @@ You use the Call Quality Dashboard (CQD) to gain insight into the quality of cal
 > [!Note]
 > CQD doesn’t contain any personally identifiable information (PII). PII is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
 
-This guide will help in understanding the core concepts of CQD to help maximize the impact you can make in improving your users’ experience with Teams or Skype for Business Online. Additional CQD resources can be found in the [Appendix](#appendix).
+This guide will help in understanding the core concepts of CQD to help maximize the impact you can make in improving your users’ experience with Teams or Skype for Business Online. Additional CQD resources can be found in the [Appendix](#other-resources).
 
 ### Expectations using CQD
 
@@ -354,7 +354,7 @@ A well-formed CQD query contains all three of the following parameters:
 
 Another way to look at this is: a _dimension_ is the grouping function, a _measure_ is the data I’m interested in, and a _filter_ is how I want to narrow down the results to those that are relevant to my query.
 
-An example of a well-formed query is ``Show me Poor Streams [Measure] by Subnet [Dimension] for Building 6 [Filter]``. For more information, see [Dimensions and measures available in CQD](https://aka.ms/cqd-dm).
+An example of a well-formed query is **Show me Poor Streams [Measure] by Subnet [Dimension] for Building 6 [Filter]**. For more information, see [Dimensions and measures available in CQD](https://aka.ms/cqd-dm).
 
 ### First vs. second 
 
@@ -447,13 +447,13 @@ The Detailed Reports page in CQD looks like the following illustration.
 
 _Figure 9 - Detailed Reports page_
 
--   The summary pane shows context for the report set that appears to the right.
+1.  The summary pane shows context for the report set that appears to the right.
 
--   You can select **Edit** in the summary pane to set report–level properties (including y-axis height) and to import new templates.
+2.  You can select **Edit** in the summary pane to set report–level properties (including y-axis height) and to import new templates.
 
--   The breadcrumb helps users identify their current location in the report set hierarchy.
+3.  The breadcrumb helps users identify their current location in the report set hierarchy.
 
--   Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports.
+4.  Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports.
 
 Point to bar charts and trend lines in the report to display detailed values. The report that has focus will show the action menu: **Edit**, **Clone**, **Delete**, **Download**, and **Export Report Tree**.
 
@@ -465,7 +465,7 @@ When you select **Edit** on the action menu of a report, you’ll open Query Edi
 
 _Figure 10 - Query Editor_
 
--   You choose dimensions, measures, and filters from the left pane. Pointing to an existing value displays a close button (**X**) you can select to remove the value.
+1.  You choose dimensions, measures, and filters from the left pane. Pointing to an existing value displays a close button (**X**) you can select to remove the value.
 
     -   By selecting the dimension or measure, you can change the title by editing the **Title** field. You can also change the order by selecting the blue Up or Down arrows in the top pane.
 
@@ -473,11 +473,11 @@ _Figure 10 - Query Editor_
 
     -   Enter the first few letters of the dimension, measure, or filter in the **Find a** field to filter the list for easier searching.
 
--   The top pane shows options for chart customization.
+2.  The top pane shows options for chart customization.
 
--   The Query Editor shows a preview of the report.
+3.  The Query Editor shows a preview of the report.
 
--   Use the **Edit** box at the bottom of the screen to create or edit a detailed description of the report.
+4.  Use the **Edit** box at the bottom of the screen to create or edit a detailed description of the report.
 
 ### Filtering reports
 
@@ -552,14 +552,13 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 > [!NOTE]
 > You must have the Office 365 Global Administrator, Skype for Business Administrator, or Report Readers role to access CQD. 
 
-3.  Select the **Summary Reports** menu at the top of the page, and then choose
-    **Detailed Reports**.
+3.  Select the **Summary Reports** menu at the top of the page, and then choose **Detailed Reports**.
 
 4.  On the summary pane, select **Import**. Go to the CQDX saved location, select the CQDX template, and then select **Open**.
 
 5.  After the template is uploaded, a pop-up window will display the message “Report import was successful.” Select **OK.**
 
-![Screenshot of a pop-up window that notifies the user that the template was successfully imported.](media/quality-of-experience-review-guide-imagestep5.png)
+![Notification that the template was successfully imported](media/quality-of-experience-review-guide-imagestep5.png "Notification that the template was successfully imported")
 
 6.  Repeat steps 4 and 5 for the second CQD template.
 
@@ -571,8 +570,9 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 In a Teams or Skype for Business Online deployment, all clients are external. That has the implication that by default, all clients are reported as outside in CQD Online, regardless of whether the client was connected on an internal corporate network.
 
-When you work with call quality, you need to know the location of a client and whether it was connected to a network you can manage or a network you can’t manage—the assumption being that you can only improve networks you can manage. By uploading network and building information to CQD Online, you enable CQD to determine whether a client was connected to an internal corporate/managed network or to an external/unmanaged network.
+When you work with CQD, you need to know the location of an endpoint and whether it was connected to a network you can manage or a network you can’t manage—the assumption being that you can only improve networks you can manage. By uploading subnet and building information to CQD Online, you enable CQD to determine whether the endpoint was connected to an internal corporate/managed network or to an external/unmanaged network.
 
+&&&
 ### Building data file structure
 
 The format of the data file you upload must meet the following requirements to pass the validation check before uploading.
