@@ -50,7 +50,7 @@ Whether you're calling in using a phone or the Skype for Business or Microsoft T
   
 ## Can I add a toll-free number for my Audio Conferencing users?
 
-Yes, toll-free phone numbers (service numbers) are available but only in some countries/regions. For a list of the numbers that are available, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Yes, toll-free phone numbers (service numbers) are available but only in some countries/regions. For a list of the numbers that are available, see [Country and region availability for Audio Conferencing and Calling Plans](/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   
 ## How many local dial-in numbers are currently supported?
 
@@ -60,7 +60,7 @@ Local dial-in numbers, and also in some cases international dial-in numbers from
   
 ## How many international dial-in numbers does Audio Conferencing in Office 365 support?
 
-For a current list of countries/regions, see [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing.md).
+For a current list of countries/regions, see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) or [Phone numbers for Audio Conferencing in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
   
 ## Can I set up local numbers for Audio Conferencing from additional cities in the country?
 
