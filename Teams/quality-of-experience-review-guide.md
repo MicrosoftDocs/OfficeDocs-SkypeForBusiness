@@ -465,7 +465,12 @@ _Table 4 - Report Filter_
 
 ## Import the CQD templates
 
-This guide includes [two curated CQD templates](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true). These templates accelerate your usage of CQD and provide you an opportunity to quickly leverage CQD’s capabilities to make an impact on your users’ Teams or Skype for Business experience. The All Networks template, though optimized to work with a building data file, can be used while you work toward collecting and uploading building information into CQD, as described in the next section.
+This guide includes [two curated CQD templates](https://aka.ms/qertemplates). These templates accelerate your
+usage of CQD and provide you an opportunity to quickly leverage CQD’s
+capabilities to make an impact on your users’ Teams or Skype for Business
+experience. The All Networks template, though optimized to work with a building
+data file, can be used while you work toward collecting and uploading building
+information into CQD, as described in the next section.
 
 **To import the templates (.CQDX) into CQD Online**
 
