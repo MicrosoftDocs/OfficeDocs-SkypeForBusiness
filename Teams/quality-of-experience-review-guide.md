@@ -260,9 +260,6 @@ Some CQD reports require that you include a filter for your tenant ID. Due to th
 > [!Note]
 > These methods require the following permissions:<ul><li>Global Administrator Role</li><li>Skype for Business Administrator Role</li></ul>
 
-[//]: # (Use script markup in these procedures, yes?)
-
-
 #### Azure portal
 
 1.  Sign in to the Microsoft Azure portal: <https://portal.azure.com>
