@@ -86,8 +86,6 @@ Here are more articles that explain how to set up your Calling Plans:
 - [Plan your Phone System in Office 365 (Cloud PBX) solution](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
 ## 
-
-[!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## Related topics
 
