@@ -310,7 +310,7 @@ CQD can report on both Teams and Skype for Business telemetry. However, there mi
 
 To modify the summary reports page to look at only Teams or Skype for Business, select the **Product Filter** drop-down menu from the top of the screen, and then select the product you want.
 
-![Drop-down menu showing the option to filter CQD reports by workload.](media/quality-of-experience-review-guide-image4.png "Drop-down menu showing the option to filter CQD reports by workload.")
+![Drop-down menu showing the option to filter CQD reports by workload](media/quality-of-experience-review-guide-image4.png "Drop-down menu showing the option to filter CQD reports by workload")
 
 _Figure 4 - Select a Product Filter_
 
@@ -318,23 +318,29 @@ _Figure 4 - Select a Product Filter_
 
 To filter all detailed reports, in the browser bar, append the following to the end of the URL:
 
-```/filter/[AllStreams].[Is Teams]|[FALSE]```
+```
+/filter/[AllStreams].[Is Teams]|[FALSE]
+```
 
 **Example:**
 
 ```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
+For more information about URL filters, see [Filtering reports](#filtering-reports) later in this section.
 
+To filter an individual detailed report, add the filter ``Is Teams`` to the report and set it to True or False. For more information, see [Editing reports](#editing-reports) later in this section.
 
-
-%%%
-
-
-add the filter **Is Teams** to the report and set it to True or False. For more information, see [Editing reports](#editing-reports) later in this section.
-
-![Screenshot of the Call Quality Dashboard depicting the filer that can be added to a detailed report.](media/quality-of-experience-review-guide-image5.png)
+![Add a filter to a detailed report.](media/quality-of-experience-review-guide-image5.png "Add a filter to a detailed report.")
 
 _Figure 5 - Adding a Microsoft Teams filter to a report_
+
+
+### Managed vs. unmanaged networks
+
+By default, all endpoints in CQD are classified as external. As soon as a building file is introduced, we can begin to look at managed endpoint data. As previously discussed, networks in CQD are defined as:
+
+-   A _managed network_, often referred to as internal or inside, can be influenced and controlled by the organization. This includes the internal LAN, the remote WAN, and VPN.
+-   An _unmanaged network_, often referred to as external or outside, can’t be influenced or controlled by the organization. An example of an unmanaged network is a hotel or airport network.
 
 ### Dimensions, measures, and filters
 
@@ -344,23 +350,19 @@ A well-formed CQD query contains all three of the following parameters:
 
 -   **Measure:** What I want to report on.
 
--   **Filter:** How do I want to reduce the data set the query returns.
+-   **Filter:** How I want to reduce the dataset the query returns.
 
-Another way to look at this is a dimension is the grouping function, a measure is the data I’m interested in, and a filter is how I want to narrow down the results to those that are relevant to my query.
+Another way to look at this is: a _dimension_ is the grouping function, a _measure_ is the data I’m interested in, and a _filter_ is how I want to narrow down the results to those that are relevant to my query.
 
-An example of a well-formed query is "Show me Poor Streams [Measure] by Subnet [Dimension] for Building 6 [Filter]."
-
-For more information, see [Dimensions and measures available in CQD](https://aka.ms/cqd-dm).
-
-For dimensions, measures, and filters for the reports used in the CQD templates, see the [Appendix](#CQD-training).
+An example of a well-formed query is ``Show me Poor Streams [Measure] by Subnet [Dimension] for Building 6 [Filter]``. For more information, see [Dimensions and measures available in CQD](https://aka.ms/cqd-dm).
 
 ### First vs. second 
 
-Many of the dimensions and measures in CQD are classified as first or second. CQD doesn’t use caller/callee fields—these have been renamed _first_ and _second_ because there are intervening steps between the caller and callee. The following logic determines which endpoint involved in the stream or call is labeled as first:
+Many of the dimensions and measures in CQD are classified as first or second. CQD doesn’t use caller/callee fields—these have been renamed _first_ and _second_ because there are intervening steps between the caller and callee. The following logic determines which endpoint involved is labeled as first:
 
--   First will always be a server endpoint (Conference Server, Mediation Server, and so on) if a server is involved in the stream or call.
+-   **First** will always be a server endpoint (Conference Server, Mediation Server, and so on) if a server is involved in the stream or call.
 
--   Second will always be a client endpoint unless the stream is between two server endpoints.
+-   **Second** will always be a client endpoint unless the stream is between two server endpoints.
 
 -   If both endpoints are the same type, the choice of which is first is based on internal ordering of the user agent category. This ensures the ordering is consistent.
 
@@ -368,11 +370,11 @@ For more information about determining the first or second endpoint when they’
 
 ### Stream vs. call
 
-You need to understand the difference between a call and a stream to properly choose which dimensions or measures you’ll be looking at in CQD.
+You need to understand the difference between a call and a stream to properly choose which dimensions or measures you’ll be looking at in CQD. Although CQD’s primary focus is on streams, call-based measurements are also available.
 
-**Stream:** A stream exists between only two endpoints. There is only one stream for each direction, and two streams are required for communication. Streams are useful for analyzing buildings or networks. In some cases, both call and stream are used in the name (for example, Call Setup Stream or Call Dropped Stream). These are still classified as single streams.
+**Stream:** A _stream_ exists between only two endpoints. There is only one stream for each direction, and two streams are required for communication. Streams are useful for investigating buildings, networks, or subnets. In some cases, both call and stream are used in the measurement’s name (for example, Call Setup Stream or Call Dropped Stream). These are still classified as streams.
 
-**Call:** A call is a grouping of all streams from all participants. A call consists of—at minimum—two streams. A single call will have two participants each with a minimum of one stream. Calls are useful for analyzing trends over time.
+**Call:** A _call_ is a grouping of all streams from all participants. A call consists of—at minimum—two streams. A single call will have at least two endpoints, each with a minimum of one stream.
 
 For additional guidance on whether the dimension or measure is referring to a call or a stream, see [Dimensions and measures available in CQD](https://aka.ms/cqd-dm)
 
