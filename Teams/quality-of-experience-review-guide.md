@@ -201,62 +201,69 @@ The first time you perform these tasks will take more effort than subsequent ite
 
 #### Service management tasks
 
-In a cloud-first world, you must perform certain service management tasks to maintain high-quality user experiences. These tasks range from ensuring there is sufficient bandwidth to reach the service without saturating internet links, validating that quality of service (QoS) is in place on all managed network areas, and—lastly—staying on top of [Office 365 IP ranges on firewalls](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2).
+In a cloud-first world, you must perform certain service management tasks to maintain high-quality user experiences. These tasks range from ensuring there is sufficient bandwidth to reach the service without saturating internet links, validating that quality of service (QoS) is in place on all managed network areas, and—lastly—staying on top of [Office 365 IP ranges on firewalls](https://aka.ms/o365ips).
 
 #### Network tasks
 
-There are two categories of network tasks: reliability and quality. Reliability focuses on measuring the user’s ability to make calls successfully and stay connected. Quality focuses on the aggregated telemetry sent to Teams and Skype for Business Online by the user’s client during and after the call has ended.
+There are two categories of network tasks: reliability and quality. Reliability focuses on measuring the user’s ability to make calls successfully and stay connected. Quality focuses on the aggregated telemetry sent to Teams and Skype for Business Online by the user’s client during the call and after it has ended. 
 
-Given the critical impact that reliability has on the user experience, begin assessing and investigating those metrics before diving into quality.
+Given the critical impact that reliability has on the user experience, it’s important to begin assessing and investigating those metrics before diving into quality. 
 
 #### Endpoints tasks
 
-The main task in this category is validating which client versions are running Skype for Business on desktop builds from the last six months to ensure users are getting the benefit of the continual optimizations made to the Skype for Business desktop client. Additionally, this simplifies overall client management tasks and provides a consistent user experience.
+The main task in this category is validating which client versions are running Skype for Business on desktop builds from the last six months, to ensure users are getting the benefit of the continual optimizations made to the Skype for Business desktop client. Additionally, this simplifies overall client management tasks and provides a consistent user experience.
 
 The other important area is monitoring which devices are prevalent in your deployment and driving the use of certified devices to provide the best user experience.
+
 
 > [!IMPORTANT]
 > Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. Client readiness and investigative activities aren’t applicable to Teams.
 
-
-## Using the reports
+## CQD basics
 
 This section describes the fundamentals of working with CQD. Guidance is given for the following topics:
 
+-   What is CQD?
+-   Expectations using CQD
 -   Finding your tenant ID
-
--   Reporting on Teams versus Skype for Business
-
+-   Reporting on Microsoft Teams versus Skype for Business
 -   First versus second classifications
-
 -   Dimensions, measures, and filters
-
 -   Streams versus calls
-
 -   Good, poor, and unclassified calls
-
--   Getting started with CQD
-
--   Editing reports in CQD
-
--   Filtering reports in CQD
+-   Common subnets
 
 For more in-depth training and resources, see the [Appendix](#other-resources).
 
+### What is CQD?
+
+You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams and Skype for Business services. CQD is designed to help Skype for Business and Teams admins and network engineers optimize the network and keep a close eye on quality, reliability, and the user experience. CQD looks at aggregate telemetry for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments and plan remediation activities to maximize impact. CQD provides reports of metrics that provide insight into overall quality, reliability, and user experience.
+
+> [!Note]
+> CQD doesn’t contain any personally identifiable information (PII). PII is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context.
+
+This guide will help in understanding the core concepts of CQD to help maximize the impact you can make in improving your users’ experience with Teams or Skype for Business Online. Additional CQD resources can be found in the [Appendix](#appendix).
+
+### Expectations using CQD
+
+CQD, although useful for analyzing trends and subnets, doesn’t always provide a specific cause for a given scenario. It’s important to understand this and set the correct expectation when using CQD:
+
+-   CQD won’t provide the root cause for every scenario.
+-   CQD won’t contain Phone System or Audio Conferencing streams.
+-   CQD will call out areas for further investigation based on trends.
+-   CQD doesn’t contain any PII.
+
 ### Tenant ID
 
-Some CQD reports require that you include a filter for your tenant ID. Due to the way CQD aggregates data, federated participant telemetry is included. Although this can prove valuable when analyzing poor call metrics, client and device reports require the filtering of data to a specific tenant to exclude federated participant telemetry. If you don’t know your tenant ID, you can use one of the following methods to find it.
+Some CQD reports require that you include a filter for your tenant ID. Due to the way CQD aggregates data, federated participant telemetry is included. Although this can prove valuable when analyzing trends, client and device reports require that you filter data to a specific tenant to exclude federated participant telemetry. If you don’t know your tenant ID, you can use one of the following methods to find it.
 
-Permission requirements
-
--   Global Administrator Role
-
--   Skype for Business Administrator Role
+> [!Note]
+> These methods require the following permissions:<ul><li>Global Administrator Role</li><li>Skype for Business Administrator Role</li></ul>
 
 [//]: # (Use script markup in these procedures, yes?)
 
 
-#### Azure AD Portal
+#### Azure portal
 
 1.  Sign in to the Microsoft Azure portal: <https://portal.azure.com>
 
@@ -268,14 +275,15 @@ Permission requirements
 
 1.  [Install the Microsoft Azure PowerShell Service Management module](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
 
-2.  Open an Azure PowerShell command window and run the following script, entering your Office 365 credentials when prompted:  
-    **Login-AzureRmAccount**
+2.  Open an Azure PowerShell command window and run the following script, entering your Office 365 credentials when prompted: 
+
+    ```Login-AzureRmAccount```
 
 3.  The tenant ID is listed in the output.
 
 #### Skype for Business Online Admin Center
 
-1.  Go to <https://portal.office.com>
+1.  Go to <https://portal.office.com>.
 
 2.  Sign in with your tenant administrator organizational account.
 
@@ -285,10 +293,11 @@ Permission requirements
 
 #### Skype for Business Online using PowerShell
 
-1.  [Connect to Skype for Business Online via PowerShell](https://technet.microsoft.com/library/dn362839(v=ocs.15).aspx).
+1.  [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-2.  Run the following command:  
-    **(Get-cstenant).tenantid**
+2.  Run the following command:
+
+    ```(Get-cstenant).tenantid```
 
 3.  The tenant ID is displayed as a GUID.
 
@@ -300,13 +309,27 @@ CQD can report on both Teams and Skype for Business telemetry. However, there mi
 
 To modify the summary reports page to look at only Teams or Skype for Business, select the **Product Filter** drop-down menu from the top of the screen, and then select the product you want.
 
-![Screenshot of the Call Quality Dashboard reflecting a drop down menu showing the option to filter by workload.](media/quality-of-experience-review-guide-image4.png)
+![Drop-down menu showing the option to filter CQD reports by workload.](media/quality-of-experience-review-guide-image4.png "Drop-down menu showing the option to filter CQD reports by workload.")
 
 _Figure 4 - Select a Product Filter_
 
 #### Detailed reports
 
-To filter a detailed report, add the filter **Is Teams** to the report and set it to True or False. For more information, see [Editing reports](#editing-reports) later in this section.
+To filter all detailed reports, in the browser bar, append the following to the end of the URL:
+
+```/filter/[AllStreams].[Is Teams]|[FALSE]```
+
+**Example:**
+
+```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
+
+
+
+
+%%%
+
+
+add the filter **Is Teams** to the report and set it to True or False. For more information, see [Editing reports](#editing-reports) later in this section.
 
 ![Screenshot of the Call Quality Dashboard depicting the filer that can be added to a detailed report.](media/quality-of-experience-review-guide-image5.png)
 
