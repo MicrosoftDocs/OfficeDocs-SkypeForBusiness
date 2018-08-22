@@ -25,7 +25,7 @@ To have the greatest impact on improving the user experience, organizations need
 
 
 <!-- Note: need to update graphic -->
-![Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.](media/quality-of-experience-review-guide-image1.png "Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.")
+![Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.](media/qerguide-image-keyareas.png "Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.")
 
 _Figure 1 - Key operational areas covered throughout this guide_
 
@@ -68,7 +68,7 @@ Alternatively, you can assign the following role to an Office 365 user account t
 When discussing quality in Teams and Skype for Business, it’s important to define the term to achieve a common understanding. Quality, as defined here, is a combination of service metrics and user experience.
 
 <!-- Note: need to update graphic-->
-![Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.](media/quality-of-experience-review-guide-image2.png "Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.")
+![Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.](media/qerguide-image-whatisquality.png "Service metrics are made up of poor stream ratio, reliability, endpoints/devices, and client versions. The user experience is made up of the user's perception of the quality of the service.")
 
 _Figure 2 - What is quality?_
 
@@ -572,7 +572,7 @@ In a Teams or Skype for Business Online deployment, all clients are external. Th
 
 When you work with CQD, you need to know the location of an endpoint and whether it was connected to a network you can manage or a network you can’t manage—the assumption being that you can only improve networks you can manage. By uploading subnet and building information to CQD Online, you enable CQD to determine whether the endpoint was connected to an internal corporate/managed network or to an external/unmanaged network.
 
-&&&
+&&&&&&
 ### Building data file structure
 
 The format of the data file you upload must meet the following requirements to pass the validation check before uploading.
