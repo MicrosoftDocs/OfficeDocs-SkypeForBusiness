@@ -436,13 +436,13 @@ _Figure 7 - Accessing CQD through the Skype for Business admin center_
 
 When you first browse to CQD, you’ll see the Summary Reports page. Most of the reports described in this guide are custom detailed reports. To get started using the detailed reports, select **Summary Reports** at the top of the page, and then choose **Detailed Reports**.
 
-![Different types of reports that are available in CQD](media/quality-of-experience-review-guide-image7.png "Different types of reports that are available in CQD")
+![Different types of reports that are available in CQD](media/qerguide-image-choosereports.png "Different types of reports that are available in CQD")
 
 _Figure 8 - Navigating to Detailed Reports_
 
 The Detailed Reports page in CQD looks like the following illustration.
 
-![Different elements that make up a detailed report.](media/quality-of-experience-review-guide-image8.png "Different elements that make up a detailed report")
+![Different elements that make up a detailed report.](media/qerguide-image-detailedreportspage.png "Different elements that make up a detailed report")
 
 _Figure 9 - Detailed Reports page_
 
@@ -460,7 +460,7 @@ Point to bar charts and trend lines in the report to display detailed values. Th
 
 When you select **Edit** on the action menu of a report, you’ll open Query Editor. Each report is backed by a query to CQD. A report is a visualization of the data returned by its query. The Query Editor is a UI for editing these queries in addition to the display options for the report, as illustrated in the following figure.
 
-![Different elements that make up a report when the report is being edited.](media/quality-of-experience-review-guide-image9.png "Different elements that make up a report when the report is being edited")
+![Different elements that make up a report when the report is being edited.](media/qerguide-image-queryeditor.png "Different elements that make up a report when the report is being edited")
 
 _Figure 10 - Query Editor_
 
