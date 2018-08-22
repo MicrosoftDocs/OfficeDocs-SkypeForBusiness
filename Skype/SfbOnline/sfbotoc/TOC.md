@@ -1,7 +1,7 @@
 
 # [Skype for Business Online Admin](../skype-for-business-online.md)
 
-## [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+## [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Audio Conferencing in Office 365](/microsoftteams/audio-conferencing-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json) 
 ### [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
@@ -104,7 +104,7 @@
 ### [Add funds and manage Communications Credits](../skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md)
 ### [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [Audio Conferencing pay-per-minute](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
-### [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)
+### [Set up Communications Credits for your organization](/microsoftteams/skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Calling Plans for Office 365](/microsoftteams/calling-plans-for-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
 
