@@ -422,11 +422,11 @@ You can access CQD one of three ways:
 -   Go to **Microsoft Teams & Skype for Business Admin Center** and select the link to CQD, as shown in the following illustration.
 
 <!-- New graphic to be added-->
-![In the left nav pane, the link to Call quality dashboard is selected.](media/quality-of-experience-review-guide-NEW IMAGEimage6.png "In the left nav pane, the link to Call quality dashboard is selected.")
+![In the left nav pane, the link to Call quality dashboard is selected.](media/quality-of-experience-review-guide-image5a.png "In the left nav pane, the link to Call quality dashboard is selected.")
 
 _Figure 6 – Accessing CQD through the Microsoft Teams & Skype for Business Admin Center_
 
--   Go to the legacy **Skype for Business admin center > tools**, and select the link to CQD, as shown in the following illustration.
+-   Go to the legacy **Skype for Business admin center** > **tools**, and select the link to CQD, as shown in the following illustration.
 
 ![Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.](media/quality-of-experience-review-guide-image6.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
 
