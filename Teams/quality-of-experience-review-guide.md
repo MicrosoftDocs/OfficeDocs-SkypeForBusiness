@@ -557,7 +557,7 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 5.  After the template is uploaded, a pop-up window will display the message “Report import was successful.” Select **OK.**
 
-![Notification that the template was successfully imported](media/quality-of-experience-review-guide-imagestep5.png "Notification that the template was successfully imported")
+![Notification that the template was successfully imported](media/qerguide-image-importmessage.png "Notification that the template was successfully imported")
 
 6.  Repeat steps 4 and 5 for the second CQD template.
 
@@ -649,13 +649,13 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
 -   Define a **Network Name** by using the text “VPN” in this field for VPN subnets.
 
-![Screenshot of a report in the Call Quality Dashboard that defines how to create a VPN subnet](media/quality-of-experience-review-guide-image10.png)
+![Screenshot of a report in the Call Quality Dashboard that defines how to create a VPN subnet](media/qerguide-image-vpnnetworkname.png)
 
 _Figure 10 - VPN using network name_
 
 -   Define a **Building Name** by using the text “VPN” in this field for VPN subnets.
 
-![Screenshot of a report in the Call Quality Dashboard that defines how to create a building definition that comprises a VPN subnet.](media/quality-of-experience-review-guide-image11.png)
+![Screenshot of a report in the Call Quality Dashboard that defines how to create a building definition that comprises a VPN subnet.](media/qerguide-image-vpnbuildingname.png)
 
 _Figure 11 - VPN using building name_
 
