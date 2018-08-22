@@ -3,7 +3,7 @@ title: Office 365 URLs and IP address ranges
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/13/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 description: Learn how to properly configure Office 365 URLs and IP address ranges, bypass the forward proxy where available for connections with Microsoft Teams service, and the requirements for networking and security policies.
@@ -22,4 +22,4 @@ The Teams calling and meetings experience is built on the next generation cloud-
 
 For all Office 365 workloads, the recommended connection method to Teams services is bypassing the forward proxy where possible. When a proxy server sits between a client and the Office 365 data centers, media might be forced over TCP instead of UDP, which would impact media quality. Download sample proxy PAC files that can be used to configure traffic bypass from [Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a).
 
-If your networking and security policies require Office 365 traffic to flow through a proxy server, make sure that the above requirements are already met before deploying Teams into production (review [Proxy Servers for Skype for Business Online](https://support.office.com/article/Proxy-Servers-for-Skype-for-Business-Online-7acaf2c2-35fa-490f-84cd-822e446e0fc7?ui=en-US&rs=en-US&ad=US) for guidance).
+If your networking and security policies require Office 365 traffic to flow through a proxy server, make sure that the above requirements are already met before deploying Teams into production (review [Proxy Servers for Skype for Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online) for guidance).
