@@ -828,7 +828,7 @@ Failures in this table report indicate that the call was dropped unexpectedly an
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
 
-![Report that lists number and percentage of dropped calls, organized by building, network, and subnet per month.](media/quality-of-experience-review-guide-image19.png)
+![Report that lists number and percentage of dropped calls, organized by building, network, and subnet per month.](media/qerguide-image-dropfailuresbysubnet.png)
 
 _Figure 19 – Audio call dropped failures by building or subnet_
 
@@ -877,9 +877,9 @@ The overall PCR percentage is primarily used to indicate whether the organizatio
 
 To assess the overall percentage of poor calls for the organization use the Quality Overall chart report.
 
-![Screenshot of a chart showing percentage of poor quality calls](media/quality-of-experience-review-guide-image20.png)
+<!-- ![Screenshot of a chart showing percentage of poor quality calls](media/qerguide-image-audioqualityconferencing.png)
 
-_Figure 20 – Audio Quality - Overall_
+_Figure 20 – Audio Quality - Overall_ -->
 
 ##### Investigation
 
@@ -902,7 +902,7 @@ There are two report trees included in the templates for audio quality, one for 
 > [!NOTE]
 > Investigating two-party poor calls is similar to investigating conference calls. The task is to identify buildings or subnets that have the lowest quality to validate whether there’s a pattern of poor calls with another building or subnet. 
 
-![Screenshot of the Audio Quality - Conferencing report in the Call Quality Dashboard.](media/quality-of-experience-review-guide-image21.png)
+![Screenshot of the Audio Quality - Conferencing report in the Call Quality Dashboard.](media/qerguide-image-audioqualityconferencing.png)
 
 _Figure 21 – Audio Quality - Conferencing_
 
@@ -932,7 +932,7 @@ The connection detail distinguishes between wired and Wi-Fi and includes jitter,
 > [!TIP]
 > Common home networks are difficult to triage due to their widespread use. A separate report that uses the firewall IP has been added to the All Networks template to assist with remediating offices that use common networks.
 
-![Report that lists connection types, transport types, and PCR greater than 3% along with various reasons for poor quality organized by building, network, and subnet per month.](media/quality-of-experience-review-guide-image22.png)
+![Report that lists connection types, transport types, and PCR greater than 3% along with various reasons for poor quality organized by building, network, and subnet per month.](media/qerguide-image-poorqualitysummary.png)
 
 _Figure 22 - Poor Audio Stream Summary by Building and Subnet - Conferencing_
 
@@ -981,7 +981,7 @@ This report indicates the overall TCP usage for audio over the last seven months
 
 All further reports in this section will focus on narrowing down specific buildings and subnets where TCP is most commonly used. Further sub-reports break down TCP usage by both conferencing and two-party calls.
 
-![Screenshot of a chart showing the number of TCP audio streams per month](media/quality-of-experience-review-guide-image23.png)
+![Screenshot of a chart showing the number of TCP audio streams per month](media/qerguide-image-audiostreamswithtcp.png)
 
 _Figure 23 – Audio Streams with TCP Usage_
 
@@ -1001,7 +1001,7 @@ If you notice that the TCP usage trend is increasing, or above normal monthly us
 
 This table report identifies the volume of TCP versus UDP usage reporting on the latest month for conferences for audio, video, and video-based screen sharing (VBSS).
 
-![Report showing the volume of TCP versus UDP conference streams, with PCR shown for comparison](media/quality-of-experience-review-guide-image24.png)
+![Report showing the volume of TCP versus UDP conference streams, with PCR shown for comparison](media/qerguide-image-tcpvsudp.png)
 
 _Figure 24 – TCP vs. UDP - Conferencing_
 
@@ -1025,7 +1025,7 @@ In the provided CQD templates, go to the TCP Streams by Building and Subnet tabl
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.                                  |
 
-![Report that lists TCP streams, organized by building, network, and subnet per month.](media/quality-of-experience-review-guide-image25.png)
+![Report that lists TCP streams, organized by building, network, and subnet per month.](media/qerguide-image-tcpstreams.png)
 
 _Figure 25 – TCP Streams by Building and Subnet - Conferencing_
 
@@ -1056,7 +1056,7 @@ It is always Microsoft’s recommendation to configure the client to directly co
 
 This report outlines the proxy usage over time on a monthly scale. The HTTP proxy stream report in this section of the template is much like the TCP reports. It doesn’t look at whether calls are poor or good, but whether the call is connected over HTTP.
 
-![Screenshot of the Audio Streams with HTTP Proxy Usage report in the Call Quality Dashboard.](media/quality-of-experience-review-guide-image26.png)
+![Screenshot of the Audio Streams with HTTP Proxy Usage report in the Call Quality Dashboard.](media/qerguide-image-audiostreamswithhttp.png)
 
 _Figure 26 – Audio Streams with HTTP Proxy Usage_
 
@@ -1078,7 +1078,7 @@ This report identifies specific buildings and subnets that are contributing to H
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.                        |
 
-![Screenshot of the HTTP Proxy Usage by Building and Subnet report in the Call Quality Dashboard.](media/quality-of-experience-review-guide-image27.png)
+![Screenshot of the HTTP Proxy Usage by Building and Subnet report in the Call Quality Dashboard.](media/qerguide-image-httpproxyusage.png)
 
 _Figure 27 – HTTP Proxy Usage by Building and Subnet_
 
