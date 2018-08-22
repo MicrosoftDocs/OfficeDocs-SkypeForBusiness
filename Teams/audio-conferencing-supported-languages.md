@@ -78,7 +78,7 @@ When you are setting up and configuring Audio Conferencing in Office 365, you ca
 |Turkish  <br/> |Turkey  <br/> |tr-TR  <br/> |
 |Ukrainian  <br/> |Ukraine  <br/> |uk-UA  <br/> |
    
-If you are looking for countries or regions where you can purchase Audio Conferencing, see [Country and region availability for Audio Conferencing and Calling Plans](/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+If you are looking for countries or regions where you can purchase Audio Conferencing, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 If you are looking for specific countries or regions that have phone numbers for Audio Conferencing, see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) or [Phone numbers for Audio Conferencing in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
   

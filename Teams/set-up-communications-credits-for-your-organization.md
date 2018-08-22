@@ -31,7 +31,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
   
 ## Step 1: Assign an Audio Conferencing and Calling Plan license to your users
 
-When you sign up, you get a certain number of minutes depending on your country/region. You can see the number of minutes you will get search for the country or region [here](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). After you use those minutes, calls will be disconnected. To prevent this from happening, you need to set up Communications Credits.
+When you sign up, you get a certain number of minutes depending on your country/region. You can see the number of minutes you will get search for the country or region [here](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). After you use those minutes, calls will be disconnected. To prevent this from happening, you need to set up Communications Credits.
   
 To do so, **you need to assign an Audio Conferencing or Phone System license** to your users.
   

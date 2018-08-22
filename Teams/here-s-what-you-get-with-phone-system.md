@@ -92,7 +92,7 @@ See these articles to plan and set up the Phone System in your business:
 ## Related topics
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Country and region availability for Audio Conferencing and Calling Plans](/skypeforbusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
  

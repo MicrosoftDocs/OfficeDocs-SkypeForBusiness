@@ -269,7 +269,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
     > [!NOTE]
     > Even if you have users who are assigned an **Enterprise E5** license, it's still recommended that you do this.
 
-**To learn more about assigning Communications Credits licenses, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization).**
+**To learn more about assigning Communications Credits licenses, see [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).**
 
 ## Related topics
 [Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
