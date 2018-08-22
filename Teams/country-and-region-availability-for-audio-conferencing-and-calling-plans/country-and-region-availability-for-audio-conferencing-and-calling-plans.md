@@ -127,7 +127,7 @@ After you look to see if one of the Skype for Business or Microsoft Teams servic
 
 > [!NOTE]
 
-> If you need to get more telephone numbers for your users, see [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md) or, for phone number request forms, [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
+> If you need to get more telephone numbers for your users, see [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users) or, for phone number request forms, [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization.md).
 
 
 ## Want to learn more about these services?
@@ -141,7 +141,7 @@ With Audio Conferencing, there are toll and toll free phone numbers that can be 
 > [!IMPORTANT]
 > There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing. To find out if there are dial-in phone numbers available in your area or country/region, go to **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. If you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.
 
-To see more about Audio Conferencing, see [Audio Conferencing common questions](audio-conferencing-common-questions.md)
+To see more about Audio Conferencing, see [Audio Conferencing common questions](../audio-conferencing-common-questions.md)
 
 [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements) 
   
@@ -151,7 +151,7 @@ In Audio Conferencing there is a feature named "*Call Me*" and it can be used to
 > [!CAUTION]
 > Dialing out to toll-free or free phone numbers may not be possible, because some toll-free numbers only function from within a certain country or area within a country. For example, if you dial out from the United States to a toll-free number in Brazil, the call may not be successful because the call didn't originate from within Brazil or from a specific region within Brazil. The ability to dial out to toll-free numbers varies widely depending on the restrictions of the toll-free number dialed. Unfortunately, within Office 365, we can't control this behavior, and as a result, your experience may vary depending on the toll-free number dialed and the restrictions of the toll-free number. 
   
-Dialing out from a meeting to another country/region in the world that is not listed below is available using [Office 365 Communication Credits](what-are-communications-credits.md). For those users, you will need to [set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
+Dialing out from a meeting to another country/region in the world that is not listed below is available using [Office 365 Communication Credits](../what-are-communications-credits.md). For those users, you will need to [set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   
 ### Phone System
 With Phone System, you can create auto attendants and call queues (with a toll or toll-free number) to answer incoming calls for your organization, and when you add a Calling Plan for users they can use Skype for Business to take care of basic call-control tasks, such as placing and receiving calls, transferring calls, and muting and unmuting calls. **Phone System** users can click a name in their address book and Skype for Business will place a call to that person. To place and receive calls, **Phone System** users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Skype for Business.
@@ -166,7 +166,7 @@ In addition to getting phone numbers for individual users from Office 365, it's 
 Use the drop-down list at the top of the page to search for a country or region and what services are available.
 
 ### Calling Plans
-Along with Phone System, a Calling Plans let users make and receive phone calls. You first need to get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are two types of Calling Plans available: **Domestic** and **Domestic and International**. See [What are Calling Plans?](what-are-calling-plans-in-office-365.md) for more details.
+Along with Phone System, a Calling Plans let users make and receive phone calls. You first need to get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are two types of Calling Plans available: **Domestic** and **Domestic and International**. See [What are Calling Plans?](../what-are-calling-plans-in-office-365.md) for more details.
 
 You can also see [Phone System and Calling Plans licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) for licensing information.
 
@@ -179,7 +179,7 @@ In addition to getting phone numbers for individual users from Office 365, it's 
   
 The following is a list of capitals and major cities from where you can get toll service numbers to use with Audio Conferencing and Calling Plans. You can get toll service numbers from these locations using the **Skype for Business admin center**.
   
-If you want to get a toll or toll-free service number, you can see [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). If you already have a toll or toll-free service number that you want to transfer from a different provider, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
+If you want to get a toll or toll-free service number, you can see [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). If you already have a toll or toll-free service number that you want to transfer from a different provider, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization.md).
 
 Use the drop down list at the top of the page to search for a country or region and what services are available.
 
@@ -187,7 +187,7 @@ Use the drop down list at the top of the page to search for a country or region 
 
 We recommend that you set up Communications Credits for your Audio Conferencing and Calling Plans users that need the ability to dial out to **any destination**. Many countries/regions are included, but some destinations might not be included in your Calling Plan or Audio Conferencing subscriptions.
   
-If you don't set up Communications Credits and assign a license to users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan or your country/region), they won't be able to make calls or dial out from meetings. You can find out more information including recommended funding amounts by reading [What are Communications Credits?](what-are-communications-credits.md)
+If you don't set up Communications Credits and assign a license to users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan or your country/region), they won't be able to make calls or dial out from meetings. You can find out more information including recommended funding amounts by reading [What are Communications Credits?](../what-are-communications-credits.md)
 
 
 ## Related topics

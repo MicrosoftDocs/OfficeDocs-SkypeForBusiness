@@ -74,7 +74,7 @@ When you are setting up Communications Credits, you will need to investigate cal
 
 We recommended that you begin by using a small funding amount, which for smaller organizations could be even the minimum of $50. After you gather a month or two of PSTN usage using the PSTN usage details report, you'll be able to adjust the amounts to meet the normal usage in your organization.
   
-If you're ready to set this all up, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
+If you're ready to set this all up, see [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).
   
 ## Want to know about plans and pricing?
 

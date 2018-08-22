@@ -52,7 +52,7 @@ Calling Plans in Office 365 allows you to search, acquire, and assign phone numb
   
 In all types of business, having a phone number that allows users to send and receive voice calls is an important requirement to do business, as phone numbers are used to identify a user and allow for communication across organizations. The users who are assigned phone numbers will be able to make voice calls across all Skype for Business and Microsoft Teams devices, including VoIP phones, PCs, and mobile devices. 
 
-Calling Plans (domestic and domestic and international) are available in specific but growing geographic locations. Please check for [availability](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) in your country or region. 
+Calling Plans (domestic and domestic and international) are available in specific but growing geographic locations. Please check for [availability](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) in your country or region. 
 
 **Ready to get started?**  To set up your calling plans for your users, see [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).  
 
