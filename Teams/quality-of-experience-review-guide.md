@@ -674,13 +674,13 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
 2.  Select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
 
-![Screenshot of a dialog box in the Call Quality Dashboard that appears while data is being uploaded.](media/quality-of-experience-review-guide-image12.png)
+![Screenshot of a dialog box in the Call Quality Dashboard that appears while data is being uploaded.](media/qerguide-image-tenantdataupload.png)
 
 _Figure 12 - Tenant Data Upload menu_
 
 1.  Alternatively, if this is your first time visiting CQD, you’ll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
 
-![Screenshot of a banner in the Call Quality Dashboard that notifies a user to upload building data.](media/quality-of-experience-review-guide-image13.png)
+![Screenshot of a banner in the Call Quality Dashboard that notifies a user to upload building data.](media/qerguide-image-buildingdatauploadbanner.png)
 
 _Figure 13 - Building data upload banner_
 
@@ -690,7 +690,7 @@ _Figure 13 - Building data upload banner_
 
 3.  After selecting **Start date**, select **Upload** to upload the file to the CQD. <br><br>Before the file is uploaded, it’s validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
 
-![Screenshot of a dialog box in the Call Quality Dashboard that describes an error message when importing building data.](media/quality-of-experience-review-guide-image14.png)
+![Screenshot of a dialog box in the Call Quality Dashboard that describes an error message when importing building data.](media/qerguide-image-buildingdatauploaderror.png)
 
 _Figure 14 - Building data upload error_
 
@@ -711,7 +711,7 @@ Browse to the **Detailed Reports** page in CQD Online and navigate to the **Miss
 > [!NOTE] 
 > Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
 
-![Report showing subnets not included in the CQD Building Data File that show usage.](media/quality-of-experience-review-guide-image15.png)
+![Report showing subnets not included in the CQD Building Data File that show usage.](media/qerguide-image-missingbuildingreport.png)
 
 _Figure 15 - Missing Building Report_
 
@@ -739,7 +739,7 @@ Begin your investigation by assessing the percentage of overall call setup failu
 
 This chart report displays the total amount of successful call set up and call setup failures over time. Point to any one of the columns to display its individual values, as shown in the figure below.
 
-![Screenshot of a chart that shows percentage of Audio Call Stream Setup Failure](media/quality-of-experience-review-guide-image16.png)
+![Screenshot of a chart that shows percentage of Audio Call Stream Setup Failure](media/qerguide-image-streamsetupfailures.png)
 
 _Figure 16 - Audio Reliability - Call Stream Setup Failures_
 
@@ -767,7 +767,7 @@ This table report is used to discover and isolate any buildings or networks that
 > Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
 
 
-![Report that lists call setup failure reasons, organized by building, network, and subnet per month.](media/quality-of-experience-review-guide-image17.png)
+![Report that lists call setup failure reasons, organized by building, network, and subnet per month.](media/qerguide-image-setupfailuresbysubnet.png)
 
 _Figure 17 - Audio Setup Failures by Building or Subnet_
 
@@ -800,7 +800,7 @@ Unlike call setup failures, there is no reason code to indicate why call dropped
 
 This chart report displays the total amount of audio streams, total audio streams dropped, and total stream dropped percentage. Point to any one of the columns to display its values, as shown in the following figure.
 
-![Screenshot of a chart showing percentage of Audio Call Streams Dropped](media/quality-of-experience-review-guide-image18.png)
+![Screenshot of a chart showing percentage of Audio Call Streams Dropped](media/qerguide-image-droppedstreamrate.png)
 
 _Figure 18 - Total call dropped failure percentage_
 
