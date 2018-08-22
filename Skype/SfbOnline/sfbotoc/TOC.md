@@ -83,7 +83,7 @@
 #### [Languages for voicemail greetings and messages](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Set up Phone System voicemail - Admin help](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Set up a Phone System auto attendant](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-### [Setting up Phone System in your organization](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
+### [Setting up Phone System in your organization](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [What are Phone System auto attendants?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 #### [Set up a Phone System auto attendant](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 

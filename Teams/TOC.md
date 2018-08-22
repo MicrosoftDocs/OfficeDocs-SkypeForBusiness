@@ -280,6 +280,7 @@
 #### [Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)](/SkypeForBusiness/legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Phone System
 #### [What is Phone System in Office 365?](what-is-phone-system-in-office-365.md)
+#### [Setting up Phone System in your organization](setting-up-your-phone-system.md)
 #### [Change the default language for voicemail greetings and emails](change-the-default-language-for-greetings-and-emails.md)
 #### [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md)
