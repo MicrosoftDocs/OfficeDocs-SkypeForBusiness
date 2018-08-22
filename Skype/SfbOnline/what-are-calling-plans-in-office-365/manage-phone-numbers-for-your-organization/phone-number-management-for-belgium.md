@@ -35,15 +35,14 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 |You need to get phone numbers transferred to us.  <br/> | Download one of these forms. <br/> <br/> For user phone numbers: <br/>[Letter of Authorization (LOA) for Belgium (geographic numbers) (v.1.0) (de-be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(de-be).pdf) <br/> [Letter of Authorization (LOA) for Belgium (geographic numbers) (v.1.0) (fr-be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(fr-be).pdf) <br/> [Letter of Authorization (LOA) for Belgium (geographic numbers) (v.1.0) (nl-be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(geographic-numbers)-(v.1.0)-(nl-be).pdf)  <br/>  <br/><br/> For toll-free numbers: <br/>[Letter of Authorization (LOA) for Belgium (toll-free numbers) (v.1.0) (de-be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(de-be).pdf) <br/> [Letter of Authorization (LOA) for Belgium (toll-free numbers) (v.1.0) (fr-be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(fr-be).pdf) <br/> [Letter of Authorization (LOA) for Belgium (toll-free numbers) (v.1.0) (nl-be)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(toll-free-numbers)-(v.1.0)-(nl-be).pdf) <br/> <br/>   Fill it out and [send it to us](mailto:ptneu@microsoft.com). <br/> |
 |You need to publish/unpublish phone number(s) in the national phone directory.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of phone numbers you want to publish/unpublish.      <br/> |
 |You need to change a user's number to a service number.  <br/> |[Send us](mailto:ptneu@microsoft.com) the list of user numbers you want to convert to service numbers. <br/> |
-   
+
+
 ## Related topics
-[Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
 
-[Emergency calling terms and conditions](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
-
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
+[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
   
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
  

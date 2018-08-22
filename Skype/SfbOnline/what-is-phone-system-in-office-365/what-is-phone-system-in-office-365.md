@@ -32,7 +32,7 @@ With traditional PBX systems, calls between users in your organization are handl
   
 To enable calls to landlines and mobile phones, Phone System can be connected to the PSTN in one of two ways:
   
-- By purchasing the a Calling Plan (domestic or domestic and international) to Office 365. See [What are Calling Plans?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
+- By purchasing the a Calling Plan (domestic or domestic and international) to Office 365. See [What are Calling Plans?](/microsoftteams/what-are-calling-plans-in-office-365)
     
 - By using on-premises PSTN connectivity, where software on premises connects with your existing telephony infrastructure. See [Planning your Phone System](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md).
 
@@ -44,7 +44,7 @@ Using a Calling Plan add-on to Phone System in Office 365 enables PSTN connectiv
 
 ![Topology diagram showing Cloud PBX with PSTN Calling, the completely in-the-cloud voice solution.](../../SfbServer/media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
-Because Calling Plans operate within Office 365, this is a completely-in-the-cloud offering that doesn't require an on-premises server deployment. You have the choice of using a Domestic or Domestic and International Calling Plan, which be assigned to each user that you want to make calls. [Want to know more?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
+Because Calling Plans operate within Office 365, this is a completely-in-the-cloud offering that doesn't require an on-premises server deployment. You have the choice of using a Domestic or Domestic and International Calling Plan, which be assigned to each user that you want to make calls. [Want to know more?](/microsoftteams/what-are-calling-plans-in-office-365)
   
 Users who are homed in Skype for Business Online or Microsoft Teams in Office 365 will have access to Office 365 voice services. Microsoft is the provider of both core calling and PSTN services, and can even provide or port your users' phone numbers. 
   
@@ -69,6 +69,6 @@ If you're ready to get started, see [Setting up Phone System in your organizatio
 ## Related topics
 - [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 - [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-- [Different kinds of phone numbers used for Calling Plans](../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 - [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 

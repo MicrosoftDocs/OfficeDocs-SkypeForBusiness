@@ -166,7 +166,7 @@ In addition to getting phone numbers for individual users from Office 365, it's 
 Use the drop-down list at the top of the page to search for a country or region and what services are available.
 
 ### Calling Plans
-Along with Phone System, a Calling Plans let users make and receive phone calls. You first need to get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are two types of Calling Plans available: **Domestic** and **Domestic and International**. See [What are Calling Plans?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) for more details.
+Along with Phone System, a Calling Plans let users make and receive phone calls. You first need to get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are two types of Calling Plans available: **Domestic** and **Domestic and International**. See [What are Calling Plans?](/MicrosoftTeams/what-are-calling-plans-in-office-365.md) for more details.
 
 You can also see [Phone System and Calling Plans licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) for licensing information.
 
