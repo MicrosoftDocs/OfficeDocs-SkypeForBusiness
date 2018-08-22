@@ -72,7 +72,7 @@ If you want to get toll and toll-free phone numbers for auto attendants and call
 |:-----|:-----|
 |Are Communications Credits available?  <br/> |Yes  <br/> |
    
-If you want to set them up, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
+If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   
 ## Related topics
 
