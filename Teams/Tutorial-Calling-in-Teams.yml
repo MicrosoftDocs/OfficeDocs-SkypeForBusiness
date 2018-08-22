@@ -591,14 +591,14 @@ items:
     Based on your implementation plan, you might need to configure the Calling
     Identity settings for your users. Follow the instructions in [Set the Caller ID
     for a
-    user](https://support.office.com/article/Set-the-Caller-ID-for-a-user-c7323490-d9b7-421a-aa76-5bd485f80583).
+    user](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user).
 
     ###8. Optional: Assign Dial Plan settings to users
 
     Depending on your organization’s and users’ requirements, you might need to
     assign tenant dial plans to your users. Follow the instructions in [Create and
     manage dial
-    plans](https://support.office.com/article/Create-and-manage-dial-plans-7af17c94-5f8f-4452-ae1d-01f495b4dc94?ui=en-US&rs=en-US&ad=US).
+    plans](https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans).
 
     ###9. Assign the Teams calling interop policy
 
