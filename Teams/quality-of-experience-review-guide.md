@@ -188,7 +188,7 @@ The success of operationalizing a high-quality and reliable deployment depends o
 
     -   Second are tasks your organization must manage to ensure reliable access to the service, such as updating building information and maintaining firewalls for new Office 365 IP addresses as infrastructure is added to the service.
 
-![The categories of quality in an organization: service management, endpoints, and the network.](media/quality-of-experience-review-guide-image3.png "The categories of quality in an organization: service management, endpoints, and the network.")
+![The categories of quality in an organization: service management, endpoints, and the network.](media/qerguide-image-categories.png "The categories of quality in an organization: service management, endpoints, and the network.")
 
 _Figure 3 - Critical categories for Teams and Skype for Business Online deployment_
 
@@ -1118,7 +1118,7 @@ Version numbers for Skype for Business 2015 and 2016 can be found via the links 
 > [!IMPORTANT]
 > Client reports require you to exclude federated participant data. To exclude federated participant data, you must add a query filter for **Second Tenant ID** set to your organization’s [tenant ID](#tenant-id). 
 
-![Screenshot of the Client and Devices report in the Call Quality Dashboard.](media/quality-of-experience-review-guide-image28.png)
+![Screenshot of the Client and Devices report in the Call Quality Dashboard.](media/qerguide-image-clientversionreport.png)
 
 _Figure 28 - Client version report_
 
@@ -1164,7 +1164,7 @@ This report is used to assess microphone usage by volume and MOS score, and can 
 > [!NOTE] 
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.<br><br> You might notice when viewing this report that you see the same device reported multiple times. This is due to the way the device is reported being reported to CQD. Differences in hardware and OS locale report device data differently.
 
-![Screenshot of the Devices (Microphone) report in the Call Quality Dashboard.](media/quality-of-experience-review-guide-image29.png)
+![Screenshot of the Devices (Microphone) report in the Call Quality Dashboard.](media/qerguide-image-devicesmicrophone.png)
 
 _Figure 29 - – Device (Microphone) Report_
 
