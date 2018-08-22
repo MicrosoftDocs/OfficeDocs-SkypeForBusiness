@@ -197,7 +197,7 @@ The following graphic outlines the tasks you must execute for each category. We 
 The first time you perform these tasks will take more effort than subsequent iterations, because many of these categories require that you validate your deployment configurations. After you’ve achieved the state you want by meeting the targets you’ve defined, performing these tasks will help you maintain that state.
 
 <!--  This is a net new graphic, never was included in the online article. OOPS! -->
-![List of weekly tasks per quality category](media/quality-of-experience-review-guide-image-tasks.png "List of weekly tasks per quality category")
+![List of weekly tasks per quality category](media/qerguide-image-tasks.png "List of weekly tasks per quality category")
 
 #### Service management tasks
 
@@ -310,7 +310,7 @@ CQD can report on both Teams and Skype for Business telemetry. However, there mi
 
 To modify the summary reports page to look at only Teams or Skype for Business, select the **Product Filter** drop-down menu from the top of the screen, and then select the product you want.
 
-![Drop-down menu showing the option to filter CQD reports by workload](media/quality-of-experience-review-guide-image4.png "Drop-down menu showing the option to filter CQD reports by workload")
+![Drop-down menu showing the option to filter CQD reports by workload](media/qerguide-image-productfilter.png "Drop-down menu showing the option to filter CQD reports by workload")
 
 _Figure 4 - Select a Product Filter_
 
