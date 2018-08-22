@@ -207,6 +207,7 @@
 
 ## Apps & services
 ### [Admin settings for apps in Teams](admin-settings.md)
+### [Teams apps permissions and considerations](app-permissions.md)
 ### [Add bots for private chats and channels in Teams](add-bots.md)
 ### [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
 ### [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
