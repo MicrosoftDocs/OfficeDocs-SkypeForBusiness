@@ -45,11 +45,11 @@ If you are an [Office 365 global administrator](https://support.office.com/en-us
     
 2. In the admin center, choose **Settings** > **Organization profile**. 
     
-     ![Choose Settings and then choose Organization profile.](../../images/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![Choose Settings and then choose Organization profile.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. Choose **Edit**.
     
-    ![Choose Edit.](../../images/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
+    ![Choose Edit.](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
   
 4. Select a language from the **Preferred language** list for everyone in your organization.
     
@@ -57,9 +57,9 @@ If you are an [Office 365 global administrator](https://support.office.com/en-us
     
 ## Related articles for the admin
 
-- [What are Calling Plans in Office 365?](/microsoftteams/what-are-calling-plans-in-office-365)
+- [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365.md)
     
-- [Set up Calling Plans](../../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
+- [Set up Calling Plans](set-up-calling-plans.md)
     
 - [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server 2015 or Lync Server 2013](https://go.microsoft.com/fwlink/?LinkId=717947)
     

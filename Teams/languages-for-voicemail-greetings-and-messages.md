@@ -60,9 +60,9 @@ To change the language that Skype for Business uses for system voicemail greetin
 |Turkish  <br/> |Turkey  <br/> |tr-TR  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
    
 ## Related topics
-[Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md)
   
   
  
