@@ -330,7 +330,7 @@ For more information about URL filters, see [Filtering reports](#filtering-repor
 
 To filter an individual detailed report, add the filter ``Is Teams`` to the report and set it to True or False. For more information, see [Editing reports](#editing-reports) later in this section.
 
-![Add a filter to a detailed report.](media/quality-of-experience-review-guide-image5.png "Add a filter to a detailed report.")
+![Add a filter to a detailed report.](media/qerguide-image-addteamsfilter.png "Add a filter to a detailed report.")
 
 _Figure 5 - Adding a Microsoft Teams filter to a report_
 
@@ -421,14 +421,13 @@ You can access CQD one of three ways:
 
 -   Go to **Microsoft Teams & Skype for Business Admin Center** and select the link to CQD, as shown in the following illustration.
 
-<!-- New graphic to be added-->
-![In the left nav pane, the link to Call quality dashboard is selected.](media/quality-of-experience-review-guide-image5a.png "In the left nav pane, the link to Call quality dashboard is selected.")
+![In the left nav pane, the link to Call quality dashboard is selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
 
 _Figure 6 – Accessing CQD through the Microsoft Teams & Skype for Business Admin Center_
 
 -   Go to the legacy **Skype for Business admin center** > **tools**, and select the link to CQD, as shown in the following illustration.
 
-![Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.](media/quality-of-experience-review-guide-image6.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
+![Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.](media/qerguide-image-legacyui.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
 
 _Figure 7 - Accessing CQD through the Skype for Business admin center_
 
