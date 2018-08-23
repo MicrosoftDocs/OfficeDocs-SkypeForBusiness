@@ -53,6 +53,8 @@ To ensure that the antivirus scanner does not interfere with the operation of Sk
   - HealthAgent.exe
     
   - IMMCUSvc.exe
+  
+  - LyncBackupService.exe
     
   - LysSvc.exe
     
