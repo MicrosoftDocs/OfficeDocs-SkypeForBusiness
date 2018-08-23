@@ -1,7 +1,7 @@
 ---
 title: "Configure Direct Routing"
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -514,11 +514,11 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 The result is that the voice policy applied to John Woods’ calls are unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
 
 
-## Set Microsoft Teams as the preferred calling client for the users
+## Set Microsoft Teams as the preferred calling client for users
 
-Direct Routing only route the calls to and from users if they use Teams Cleint. 
-If your organisation only use Teams client, setting "Teams Only" mode in upgrade policy is recommended. 
-If you organisation uses Skype for Business Server or Skype for Business Online, please review the following document  [Understand coexistence and upgrade journey for Skype for Business and Teams](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) and select appropriate option. 
+Direct Routing only routes calls to and from users if they use the Teams client. 
+If your organization only uses Teams, setting "Teams Only" mode in upgrade policy is recommended. 
+If you organization uses Skype for Business Server or Skype for Business Online, see the following article for more information and select the appropriate option:  [Understand coexistence and upgrade journey for Skype for Business and Teams](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## See also
