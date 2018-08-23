@@ -18,18 +18,18 @@ description: "Overview of using a Cloud Auto Attendant with Skype for Business S
 
 ## Feature Overview 
 
-The Auto Attendant used with Exchange Unified Messaging  (with Exchange Server 2013 or Exchange Server 2016) is no longer available in Exchange Server 2019 or Exchange Online. If your implementation integrates with either of these Exchange versions, you'll need to use the online Cloud Voice features. 
+The Auto Attendant used with Exchange Unified Messaging  (with Exchange Server 2013 or Exchange Server 2016) is no longer available in Exchange Server 2019 or Exchange Online. If your implementation of Skype for Business Server 2019 integrates with either of these Exchange versions, you'll need to use the online Cloud Voice features associated with Phone System.
 
-If you have already implemented [Cloud Voicemail](plan-cloud-voicemail.md), your next step is to implement a new Cloud Auto Attendant Service with Skype for Business Server 2019. Further Skype for Business Server 2019 configuration is not necessary. 
+If you have already implemented [Cloud Voicemail](plan-cloud-voicemail.md), you will need to create disabled user objects (DUOs), then  your next step is to implement a new Cloud Auto Attendant Service with Skype for Business Server 2019. See [Configure cloud auto attendant](configure-cloud-auto-attendant.md) for implementation details.
 
 With Cloud Auto Attendant you will be able to: 
 
 * Create a new Cloud Auto Attendant.
-* Define routing of inbound PSTN calls that arrive on a local (on-prem) trunk, gateway/SBC and Mediation Server and must be routed to an instance of the Auto Attendant service in the cloud. 
-* Export an existing Exchange UM Auto Attendant configuration to design a new Cloud PBX Auto Attendant. 
-* Access reporting and other service information. 
+* Define routing of inbound PSTN calls that arrive on a local (on-prem) trunk, gateway/SBC and Mediation Server and must be routed to an instance of the Auto Attendant service in the cloud.
+* Export an existing Exchange UM Auto Attendant configuration to design a new Cloud PBX Auto Attendant.
+* Access reporting and other service information.
 
-See: 
+See:
 
 + [What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 + [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
@@ -38,7 +38,7 @@ See:
 
 ## Do's and Don'ts for Auto Attendant scripts
 
-Your auto-attendant script can make or break the impression left on your customers or callers. Think it through carefully, write it out, and consider having it professionally recorded. 
+Your auto-attendant script can make or break the impression left on your customers or callers. Think it through carefully, write it out, and consider having it professionally recorded.
 
 Consider some of these guidelines when planning a brand new auto attendant system:
 
@@ -68,6 +68,8 @@ And finally, if your company has a slogan, think twice about including it in the
 With all that in mind, proceed to [Configure Cloud Auto Attendant](configure-cloud-auto-attendant.md)
 
 ## See Also
+
+[Configure cloud auto attendant](configure-cloud-auto-attendant.md)
 
 [Enable custom prompt recording using the telephone user interface](https://docs.microsoft.com/en-us/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 

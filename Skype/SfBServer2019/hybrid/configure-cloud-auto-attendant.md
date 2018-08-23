@@ -18,16 +18,28 @@ description: "Instructions for implementing a Cloud Auto Attendant."
 
 In Skype for Business Server 2019 you are able to use the cloud auto attendant feature described in [What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md).
 
-Specific configuration of Skype for Business Server 2019 is not needed to use Cloud Auto Attendant, but you will need to either export an existing Auto Attendant implemented in Exchange UM or implement a new  Auto Attendant using the Office Online Admin portal. 
+To use Cloud Auto Attendant with Skype for Business Server 2019, you will need to create  virtual users that contain disabled user objects (DUOs) and assigned phone numbers. 
+
+ If you have an existing Auto Attendant implemented in Exchange UM, you can export the details as described below or implement a completely new  Auto Attendant using the Office Online Admin portal.
 
 ## Server Configuration steps
+Here is an outline of the steps:
+1. Create unique disabled user objects (DUOs) for every AA  <br/>Supports Multiple numbers and Multiple DUOs for every AA
+2. Delete contact objects (COs) for every AA
+3. Run AAD Connect Sync
+4. Assign licenses to DUOs
+5. Provision numbers and assign them to DUOs
+6. Hydrate the AAs 
+7. Educate admin about final state of AAs
 
-**Server-side configuration needed for interop with Cloud Auto Attendant. Current assumption is that there is no additional config needed if Cloud voice is implemented.**
+
 
 ## Online Configuration steps 
 
 For a new implementation, review [Do's and Don'ts for Auto Attendant scripts](plan-cloud-auto-attendant.md#dos-and-donts-for-auto-attendant-scripts) then see [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md).  
 
+
+disabled user objects (DUOs) 
 
 ## Migrating an Exchange UM Auto Attendant
 
