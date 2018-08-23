@@ -57,7 +57,7 @@ Tier 1 helpdesk agents handle basic call-quality problems. Tier 1 agents don't i
  **Set up tiered permissions in Call Analytics**
 <a name="BKMK_SetUpTier"> </a>
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
   
 1. Create Office 365 security groups for Tier 1 and Tier 2, and add the people you want to each group. You can also reuse existing security groups. For more information, see [Create, edit, or delete a security group in the Office 365 admin center](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb).
     
@@ -70,7 +70,7 @@ Tier 1 helpdesk agents handle basic call-quality problems. Tier 1 agents don't i
     
 4. Add the Office 365 security groups to the **Tier 1** and **Tier 2** boxes. You can add multiple groups to each role.
     
-     ![Screenshot shows the Permissions for Call Analytics page with the options for Tier 1 and Tier 2 permissions.](../images/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
+     ![Screenshot shows the Permissions for Call Analytics page with the options for Tier 1 and Tier 2 permissions.](media/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
   
  Users with either of these permission levels get to Call Analytics via the dedicated URL *https://adminportal.services.skypeforbusiness.com*.
   
@@ -79,7 +79,7 @@ Tier 1 helpdesk agents handle basic call-quality problems. Tier 1 agents don't i
 
 You can add building, site, and tenant information to Call Analytics by uploading a .csv or .tsv file. With all this information, Call Analytics can map IP addresses to physical locations. You or helpdesk agents might find this information useful to help spot trends in call problems. For example, why are many users in the same building having similar call quality issues? 
   
-![Screenshot shows the Sites page with values for Number of sites and Number of subnets, and the Select file button to import site data by uploading a .tsv or a .csv file.](../images/b2f3a5cb-32b5-4f60-a9af-0691aa6ff1e8.png)
+![Screenshot shows the Sites page with values for Number of sites and Number of subnets, and the Select file button to import site data by uploading a .tsv or a .csv file.](media/b2f3a5cb-32b5-4f60-a9af-0691aa6ff1e8.png)
   
 If you're a Skype for Business admin, you can use an existing data file from the Skype for Business Online Call Quality Dashboard. First, you download the file from Call Quality Dashboard, and then you upload it to Call Analytics. To download an existing data file, go to the **Skype for Business Admin center** > **Tools** > **Skype for Business Online Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want.
   

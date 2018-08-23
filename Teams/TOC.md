@@ -63,7 +63,7 @@
 ### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 ### [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
-### [What are Communications Credits?](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [What are Communications Credits?](what-are-communications-credits.md)
 <!-- ============================================================ -->
 
 
@@ -71,10 +71,10 @@
 # Manage
 ## [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 ## Call analytics
-### [Dimensions and measures available in Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Set up Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Use Call Analytics to troubleshoot poor Skype for Business call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Call Analytics and Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+### [Set up Skype for Business Call Analytics](set-up-call-analytics.md)
+### [Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 
 ## Troubleshoot & support
 ### [Known issues for Teams](Known-issues.md)
@@ -84,11 +84,11 @@
 ### [Verify service health for Teams](service-health.md)
 ## Monitor call quality and QOS
 ### [QoS in Teams](QoS-in-Teams.md)
-### [Call Analytics and Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Dimensions and measures available in Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Set up Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Use Call Analytics to troubleshoot poor Skype for Business call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Stream Classification in Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+### [Set up Skype for Business Call Analytics](set-up-call-analytics.md)
+### [Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 <!-- ============================================================ -->
 
 

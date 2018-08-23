@@ -48,17 +48,17 @@ See your Skype for Business admin if you need help with permissions.
     
 2. In **User Search**, start typing either the name or sip address of the user whose calls you want to troubleshoot and then select the user from the list.
     
-    ![Screenshot of the User Search box of Call Analytics in the Skype for Business Admin Center.](../images/db52efc5-dac1-4623-ba72-41e42f0a0fb4.png)
+    ![Screenshot of the User Search box of Call Analytics in the Skype for Business Admin Center.](media/db52efc5-dac1-4623-ba72-41e42f0a0fb4.png)
   
 3. In **Call history**, select the call or meeting that you want to troubleshoot.
     
-    ![Screenshot shows the call history page for a user with information such as the user's contact details, a summary of the 7-day quality and activity for meetings and calls, and an overview of dates and times, recipients, and audio quality,](../images/aef80e09-3b37-46db-8e7b-8cf71712349b.png)
+    ![Screenshot shows the call history page for a user with information such as the user's contact details, a summary of the 7-day quality and activity for meetings and calls, and an overview of dates and times, recipients, and audio quality,](media/aef80e09-3b37-46db-8e7b-8cf71712349b.png)
   
 4. Select the **Advanced** tab, and then look for yellow and red items which indicate poor call quality or connection problems.
     
     In the session details for each call or meeting, minor issues appear in yellow. (For example, in the following screenshot, the values are in yellow for Average jitter, Max jitter, and Average packet loss rate.) If something is yellow, it's outside of normal range, and it may be contributing to the problem, but it's unlikely to be the main cause of the problem. If something is red, it's a significant problem, and it's likely the main cause of the poor call quality for this session. 
     
-    ![Screenshot shows the Advanced tab of a user's Call history with the Inbound network section expanded to reveal that the data for average jitter, max jitter, and average packet loss rate are shown in a yellow color, meaning they are minor issues.](../images/13f314ce-97cf-4bd0-a147-14b177d07040.png)
+    ![Screenshot shows the Advanced tab of a user's Call history with the Inbound network section expanded to reveal that the data for average jitter, max jitter, and average packet loss rate are shown in a yellow color, meaning they are minor issues.](media/13f314ce-97cf-4bd0-a147-14b177d07040.png)
   
 In rare cases, quality of experience data isn't received for audio sessions. Often this is caused by the call dropping and connection with the client terminating. When this occurs, the session rating is "unavailable".
   

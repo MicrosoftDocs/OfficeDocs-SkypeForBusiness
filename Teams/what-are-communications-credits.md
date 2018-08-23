@@ -55,7 +55,7 @@ To use toll-free numbers in Skype for Business, Communications Credits are requi
 > [!NOTE]
 > You must set up Communications Credits and then assign a Communications Credits license for each user in the **Office 365 admin center** > **Users** > **Active Users**. 
   
-It's recommended that you carefully evaluate your organization's PSTN Service usage in order to understand the best setup for Communications Credits. You can see more about PSTN services by reading [What are Calling Plans in Office 365?](/MicrosoftTeams/what-are-calling-plans-in-office-365) and [Audio Conferencing common questions](/MicrosoftTeams/Audio-Conferencing-common-questions).
+It's recommended that you carefully evaluate your organization's PSTN Service usage in order to understand the best setup for Communications Credits. You can see more about PSTN services by reading [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365.md) and [Audio Conferencing common questions](Audio-Conferencing-common-questions.md).
   
 You can set up consumption billing using a **one-time funding** of the pre-paid balance **OR** by setting up an **auto-recharge** ( **recommended** ) amount with a minimum balance that will trigger a purchase for that recharge amount. Initially, it's suggested that you set up auto recharge amounts that allow you to monitor actual usage and find the right auto recharge thresholds that meet your needs and usage patterns. Communications Credits should be monitored over time and then adjust the minimum balance and recharge amounts as needed to be tailored for each organization's needs.
   
@@ -74,7 +74,7 @@ When you are setting up Communications Credits, you will need to investigate cal
 
 We recommended that you begin by using a small funding amount, which for smaller organizations could be even the minimum of $50. After you gather a month or two of PSTN usage using the PSTN usage details report, you'll be able to adjust the amounts to meet the normal usage in your organization.
   
-If you're ready to set this all up, see [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).
+If you're ready to set this all up, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
   
 ## Want to know about plans and pricing?
 
@@ -88,10 +88,10 @@ You can see the plans and pricing by visiting one of the following links:
     
 You can also see information about pricing by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
-To see a table with the license or licenses you will need for each feature, see [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md).
+To see a table with the license or licenses you will need for each feature, see [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
   
 ## Related topics
-[Skype for Business PSTN usage report](../skype-for-business-online-reporting/pstn-usage-report.md)
+[Skype for Business PSTN usage report](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
 
   
  
