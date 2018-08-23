@@ -58,7 +58,9 @@ To accommodate the requirements of our government cloud customers, there are som
 | Call and Meeting Recording  | Recording is dependent on Microsoft Stream, which will be available in US Government plans in the future. |
 | Apps       | Apps (such as bots, tabs, and connectors) won’t be available initially, but we’re working to make them available as soon as all their components meet the FedRAMP Moderate compliance bar. |
 | Email a channel             | The current feature architecture isn’t supported in government plans. |
-| Unified Presence/Interop            | We’re finishing work for our enterprise customers first for this important feature. It will be available to government customers in the future. |
+| Unified Presence            | We’re finishing work for our enterprise customers first for this important feature. It will be available to government customers in the future. |
+| Interop chat between Teams & SfB users            | Interop is dependent on Unified Presence Service (UPS) and cannot work until GCC Teams Tenants are enabled for UPS. |
+
 | Email Notifications         | The current feature architecture isn’t supported in the US Government plans. Work is ongoing to make this feature available to US Government plan customers in the future. |
 
 

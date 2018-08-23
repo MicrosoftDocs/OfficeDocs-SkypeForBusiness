@@ -32,7 +32,7 @@ The following table provides information for users with Exchange Online hosted i
 |**Exchange Online**|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated vNext**|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes([allowed list](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Yes|No|No|Yes|Yes|No|Yes(Exchange 2013+)|No|Yes|Yes|
-|**Exchange on-premises** (Sync to Azure AD required)|Yes([allowed list](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Yes|Yes(Exchange 2016 CU3+)|No|Yes|Yes|No|Yes(Exchange 2013+)|No|Yes|Yes|
+|**Exchange on-premises** (Sync to Azure AD required)|Yes([allowed list](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Yes|Yes(Exchange 2016 CU3+)|No|Yes|Yes|No|Yes(Exchange 2013+)|No|No|Yes|
                                                             
 *\*Exchange 2016 CU3 and above supported*
 
