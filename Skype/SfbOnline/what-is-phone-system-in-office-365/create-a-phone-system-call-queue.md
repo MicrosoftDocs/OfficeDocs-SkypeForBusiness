@@ -187,7 +187,7 @@ In the **Skype for Business admin center**, click **Call routing** > **Call queu
 ![Number 4](../images/sfbcallout4.png)<br/><br/>**When a call times out** When the call reaches the limit you set on the **How long a call can wait in the queue** setting, you can choose what happens to this call:
 *    **Disconnect** The call will be disconnected.
 *    **Forward this call to** When you choose this, you will have these options:
-     *    **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. </br><br/>  To learn about licensing required for voicemail, see [Set up Phone System voicemail](set-up-phone-system-voicemail). 
+     *    **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. </br><br/>  To learn about licensing required for voicemail, see [Set up Phone System voicemail](/microsoftteams/set-up-phone-system-voicemail). 
 
         > [!Note]
         > Users hosted on-premises using Lync Server 2010 aren't supported.<br/>
