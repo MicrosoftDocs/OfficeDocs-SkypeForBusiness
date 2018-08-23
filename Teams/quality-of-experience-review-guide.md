@@ -783,51 +783,49 @@ Prioritize remediating setup failures in this area first, because these failures
 
 Begin your investigation by assessing the percentage of overall setup failures for the organization, and then prioritize areas of investigation based on the highest percentage by building or network. 
 
-#### Setup failures overall
+#### Setup failure trend analysis
 
-This chart report displays the total amount of successful call set up and call setup failures over time. Point to any one of the columns to display its individual values, as shown in the figure below.
+This report displays the total amount of streams, stream setup failures, and the stream setup failure rate. Point to any one of the columns to display its individual values, as shown in the following figure. 
 
-![Screenshot of a chart that shows percentage of Audio Call Stream Setup Failure](media/qerguide-image-streamsetupfailures.png)
+![Chart that shows percentage of stream setup failures](media/qerguide-image-streamsetupfailures.png)
 
-_Figure 16 - Audio Reliability - Call Stream Setup Failures_
+_Figure 16 - Audio Reliability - Stream Setup Failures_
 
 ##### Analysis
 
-This report displays your organization’s audio call setup usage and failures over time. By using this report, you can answer the following questions and determine your next course of action:
+By using this report, you can answer the following questions and determine your next course of action:
 
-1.  What is the total call setup failure percentage for the current month?
+-   What is the total call setup failure percentage for the current month?
 
-2.  Is the total call setup failure percentage below or above the defined target metric?
+-   Is the total call setup failure percentage below or above the defined target metric?
 
-3.  Is the failure trend worse or better than the previous month?
+-   Is the failure trend worse or better than the previous month?
 
-4.  Is the failure trend increasing, steady, or decreasing?
+-   Is the failure trend increasing, steady, or decreasing?
 
-The information presented in this report will tell the story of how often your overall call setups are failing across your organization.
+Irrespective of the previous answers, take the time to investigate further by using the companion sub-reports to look for any individual buildings or subnets that might need remediation. Although the overall failure rate might be below the target metric, the failure rates for one or more buildings or networks might be above the target metric and need investigation.
 
-Irrespective of the previous answers, take the time to investigate further by using the included sub-reports to look for any individual buildings or networks that might need remediation. Although the overall failure rate might be below the target metric, often the failure rates for one or more buildings or networks are above the metric and need remediation.
+#### Setup failure investigations 
 
-#### Call setup failures by building and subnet 
-
-This table report is used to discover and isolate any buildings or networks that need remediation.
+This summary report is used to discover and isolate any buildings or networks that might need remediation.
 
 > [!NOTE]
 > Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
 
 
-![Report that lists call setup failure reasons, organized by building, network, and subnet per month.](media/qerguide-image-setupfailuresbysubnet.png)
+![A list of reasons for call setup failures, organized by building, network, and subnet per month](media/qerguide-image-setupfailuresbysubnet.png "A list of reasons for call setup failures, organized by building, network, and subnet per month")
 
-_Figure 17 - Audio Setup Failures by Building or Subnet_
+_Figure 18 - Audio Setup Failures by Subnet_
 
 ##### Remediation 
 
-Focus your remediation efforts on buildings or subnets that have the largest volume of failures first, because this will maximize impact to the user experience and help to quickly reduce the organizational call setup failures. The following table lists the two reasons for call setup failures as reported by CQD.
+Focus your first remediation efforts on buildings or subnets that have the largest volume of failures. This will maximize impact on the user experience and help to quickly reduce the rate of organizational call setup failures. The following table lists the two reasons for setup failures as reported by CQD.
 
 _Table 6 – Reasons for Call Setup Failures_
 
 | Call Setup Failures reason       | Typical cause                    |
 |----------------------------------|----------------------------------|
-| Missing FW Deep Packet Inspection Exemption Rule | Indicates that network equipment along the path prevented the media path from being established due to deep packet inspection rules. This is likely due to firewall rules not being correctly configured. In this case the TCP handshake succeeded but the SSL handshake did not.      |
+| Missing FW Deep Packet Inspection Exemption Rule | Indicates that network equipment along the path prevented the media path from being established due to deep packet inspection rules. This is likely due to firewall rules not being correctly configured. In this scenario, the TCP handshake succeeded but the SSL handshake didn’t.      |
 | Missing FW IP Block Exception Rule      | Indicates that network equipment along the path prevented the media path from being established to the Office 365 network. This might be due to proxy or firewall rules not being correctly configured to allow access to IP addresses and ports used for Teams and Skype for Business traffic. |
 
 Now as you begin your remediation, you can focus your efforts on a particular building or subnet. As the preceding table shows, these issues are due to firewall or proxy configurations. Review the options in the following table for remediation actions.
@@ -836,265 +834,230 @@ _Table 7 - Next Steps for Call Setup Failure Remediation_
 
 | Remediation           | Guidance     |
 |-----------------------|--------------|
-| Configure firewall(s) | Work with your network team and verify your firewall(s) configuration against [the Office 365 IP address list](https://aka.ms/o365ips). Verify that the [media subnets](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) and ports are included in the firewall rules. Verify that the necessary TCP and UDP ports are opened in the firewall. Media prefers UDP over TCP. TCP is considered a failback protocol.<br><ul><li>**TCP:** port 443</li><li>**UDP:** ports 3478–3481</li><ul> |
-| Verify                | Leverage the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to verify connectivity from the affected building or subnet by using the connectivity check function.    |
+| Configure firewall(s) | Work with your network team and verify your firewall(s) configuration against [the Office 365 IP address list](https://aka.ms/o365ips).<br>Verify that the [media subnets](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) and ports are included in the firewall rules. <br>Verify that the necessary ports (listed below) are opened in the firewall. UDP should be given priority because TCP is considered a failback protocol for audio, video, and video-based screen sharing, and its use will affect the quality of the call. Legacy RDP application sharing uses TCP only.<br><ul><li>**TCP:** port 443</li><li>**UDP:** ports 3478–3481</li><ul> |
+| Verify                | Use the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to verify connectivity from the affected building or subnet by using the connectivity check function.    |
 
 
-### Call drop
+### Drop failures
 
-Unlike call setup failures, there is no reason code to indicate why call dropped failures occurred, which makes it difficult to isolate a specific root cause. To better triage dropped calls, use an inferred approach. By remediating any areas of interest for audio, patching clients, and driving usage of certified devices for Teams and Skype for Business, you’d expect call dropped failures to decline.
+Unlike setup failure codes, CDQ has no drop failure code to indicate why drop failures occur, which makes it difficult to isolate a specific root cause. To better triage drop failures, use an inferred approach. By remediating any areas of interest for media, patching clients and drivers, and driving usage of certified devices for Teams and Skype for Business, you can expect drop failures to decline.
 
-#### Call drop failures overall
+#### Drop failure trend analysis
 
-This chart report displays the total amount of audio streams, total audio streams dropped, and total stream dropped percentage. Point to any one of the columns to display its values, as shown in the following figure.
+This report displays the total amount of audio streams, total drop failures, and the drop failure rate. Point to any one of the columns to display its values, as shown in the following figure. 
 
-![Screenshot of a chart showing percentage of Audio Call Streams Dropped](media/qerguide-image-droppedstreamrate.png)
+![Chart showing the percentage of streams that were dropped](media/qerguide-image-droppedstreamrate.png "Chart showing the percentage of streams that were dropped")
 
-_Figure 18 - Total call dropped failure percentage_
+_Figure 19 - Dropped stream rate_
 
 ##### Analysis
 
-This chart report displays your organization’s usage and failures over time related to call drops. By using this report, you can answer the following questions:
+By using this type of report, you can answer the following questions:
 
-1.  What is the current total call dropped percentage?
+-   What is the current drop failure rate?
+-   Is the drop failure rate below the defined target metric?
+-   Is the failure trend worse or better than the previous month?
+-   Is the failure trend increasing, steady, or decreasing?
 
-2.  Is the total drop percentage below the defined target metric?
+Irrespective of the answers to the questions above, take the time to investigate using the sub-reports to look for any buildings or networks that might need remediation. Although the overall drop failure rate might be below the target metric, the drop failure rate for one or more buildings or networks might be above the target metric and need investigation.
 
-3.  Is the failure trend worse or better than the previous month?
+#### Drop failure investigations
 
-4.  Is the failure trend increasing, steady, or decreasing?
-
-The information presented in this report can tell the story of how often your overall call drops are occurring across your organization.
-
-Irrespective of the answers to the questions above, take the time to investigate using the sub-reports to look for any buildings or networks that might need remediation. Although the overall drop rate might be below the target metric, often the drop rate for one or more buildings or networks is above the metric and needs remediation.
-
-#### Call drop failures by building or subnet
-
-Failures in this table report indicate that the call was dropped unexpectedly and resulted in a negative user experience. There are two table reports included in the template, one for investigating conferencing and the other for two-party.
+Failures reported here indicate that the call was dropped unexpectedly and resulted in a negative user experience. Unlike the trending reports, these reports provide additional insights into specific subnets that need further investigation.
 
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
 
-![Report that lists number and percentage of dropped calls, organized by building, network, and subnet per month.](media/qerguide-image-dropfailuresbysubnet.png)
+![Report that lists number and percentage of drop failures, organized by building, network, and subnet per month](media/qerguide-image-dropfailuresbysubnet.png "Report that lists number and percentage of drop failures, organized by building, network, and subnet per month")
 
-_Figure 19 – Audio call dropped failures by building or subnet_
+_Figure 20 – Drop failures by subnet_
 
 ##### Remediation
 
-Using the preceding table report, you can now isolate “hot spots” in the managed network where call drops occur above the defined target metric. Focus your remediation efforts on buildings or networks that have the highest total stream count first, to make the biggest impact.
+Using the included table reports, you can isolate problem areas in the network where the drop rate is above the target metric you’ve defined. Focus your first remediation efforts on buildings or subnets that have the highest total stream count, to make the biggest impact.
 
 Common causes of call drops:
 
 -   Under-provisioned network or internet egress
-
 -   No QoS configured on constrained networks
-
 -   Older client versions
-
 -   User behavior
 
-After you discover hot spots, you can leverage [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) to further review users in that building for specific issues. Call Analytics contains PII data and can be useful for further isolating potential reasons for the call drops.
+After you discover your problem areas, you can use [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) to further review users in that building for specific issues. Call Analytics contains PII data and can be useful for further isolating potential reasons for the drop failures.
 
 Regardless of your next step, it’s a good practice to notify the helpdesk that an issue has been discovered with specific buildings or subnets. This way, they can quickly respond to incoming calls and triage users more efficiently. Flagged users can then be reported back to the engineering team for further investigation.
 
-The following table lists some common methods to manage and remediate call drops.
+The following table lists some common methods to manage and remediate drop failures.
 
 _Table 8 - Next steps for call drop remediation_
 
 | Remediation                              | Guidance                      |
 |------------------------------------------|-------------------------------|
-| Network/internet                         | Now that you know which building is affected, work with your network team to monitor bandwidth at that building to determine whether there are issues with overutilization. If the issue is discovered to be related to network congestion, consider increasing bandwidth to that building. <br><br>**QoS:** If increasing bandwidth is impossible or cost-prohibitive, consider implementing QoS. This will guarantee media packets on the managed network are prioritized above non-media traffic. Alternatively, if there is no clear evidence that bandwidth is the culprit, consider these solutions:<br><ul><li>[Microsoft Teams QoS Guidance](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams)</li><li>[Skype for Business QoS Guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**Perform a network readiness assessment:** A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment. <br><ul><li>[Microsoft Teams Network Readiness Assessment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. The tool helps you assess the performance of a subnet and validate the readiness of the network against Microsoft performance [requirements](https://aka.ms/performancerequirements).<ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul>         |
-| Clients (Skype for Business Online Only) | Some older clients have known, documented issues with media reliability. Review the Call Analytics reports from multiple affected users or create a custom Client Version table report in CQD filtered to specific buildings or subnets with Total Call Dropped Failure % measure. This information will help you understand whether a relationship exists between call drops in that specific building and a specific version of the client.       |
-| Devices                                  | The majority of device failures are due to using devices that aren’t certified for Teams or Skype for Business. Failures usually take the form of the integrated speakers or mics that are being used, or earbud/mic combinations that are plugged into the 3.5 mm audio jack on a device. Microsoft’s current recommendation is that any users who are experiencing call drops—or poor calls in general—and are using integrated devices or drivers should be provisioned a [certified headset or speakerphone](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs). |
-| User Behavior                            | If you determine that neither network, devices, or clients are the issue, consider engaging [My Advisor](https://aka.ms/myadvisor) for guidance in developing a user adoption strategy to educate users how to best join and exit meetings. A smarter Teams and Skype user will produce a better user experience for all participants in the meeting. A user who puts their laptop to sleep (by closing the lid) without exiting the meeting will be classified as an unexpected call drop.     |
+| Network/internet                         | **Congestion**: Work with your network team to monitor bandwidth at specific buildings/subnets to confirm that there are issues with overutilization. If you do confirm that there is network congestion, consider increasing bandwidth to that building or applying QoS. Use the included [Quality Poor Stream summary reports](NEED LINK) to review the problem subnets for issues with jitter, latency, and packet loss, because these will often precede a dropped stream.<br><br>You can also use the [Network Planner Tool](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) to help better understand your organization’s bandwidth needs.<br><br>**QoS**: If increasing bandwidth is impractical or cost-prohibitive, consider implementing QoS. This tool is very effective at managing congested traffic and can guarantee that media packets on the managed network are prioritized above non-media traffic. Alternatively, if there’s no clear evidence that bandwidth is the culprit, consider these solutions:<ul><li>[Microsoft Teams QoS guidance](qos-in-teams.md)</li><li>[Skype for Business QoS guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**Perform a network readiness assessment**: A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<ul><li>[Microsoft Teams Network Readiness Assessment](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. The tool helps you assess the performance of a subnet and validate the readiness of the network against Microsoft performance [requirements](https://aka.ms/performancerequirements).<ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br>**CxdCallData**: This script can be used to help map a subnet to specific users within Call Analytics. CQD doesn’t have any PII data, so it can be difficult to map subnets to actual users. If you note that certain subnets are experiencing high jitter or packet loss, you can use the script to extract data directly from the service to display individual call details like user name, transport, jitter, packet loss, latency, and more. The script will also return a direct link to the report in Call Analytics to allow for additional triage. This script can be found in the PowerShell Gallery:<ul><li>[https://www.powershellgallery.com/packages/CxdCallData](https://www.powershellgallery.com/packages/CxdCallData)</li></ul> |
+| Clients (Skype for Business Online only) | Some older clients have known, documented issues with media reliability. Review the Call Analytics reports from multiple affected users, or create a custom Client Version table report in CQD filtered to specific buildings or subnets with Total Call Dropped Failure % measure. This information will help you understand whether a relationship exists between call drops in that specific building and a specific version of the client.     |
+| Devices                                  | We recommend that any users who are experiencing call drops—or poor calls in general—and are using integrated devices should be provisioned a [certified headset or speakerphone](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)  to eliminate this as a potential source of poor quality and reliability. |
+| User behavior                            | If you determine that neither network, devices, or clients are the issue, consider engaging [My Advisor](https://aka.ms/myadvisor)  for guidance in developing a user adoption strategy to educate users how to best join and exit meetings. A smarter Teams and Skype for Business user will produce a better user experience for all participants in the meeting. A user who puts their laptop to sleep (by closing the lid) without exiting the meeting will be classified as an unexpected call drop.   |
 
 ## Quality investigations
 
-The next step to assess the state of audio quality across the deployment is to investigate Audio Poor Call Ratio (PCR), TCP, and proxy usage. It’s important to remember that CQD data doesn’t provide you a specific root cause, but instead provides you with likely problem areas to begin a collaborative conversation with the appropriate teams for remediation activities.
+The next step to assess the state of audio quality across the organization is to investigate Poor Stream Rate (PSR), TCP, and proxy usage. It’s important to remember that CQD data doesn’t provide you a specific root cause, but instead provides you with likely problem areas to begin a collaborative conversation with the appropriate teams for remediation activities. 
 
 > [!NOTE]
-> Not all reports included in the templates are covered in this guide. Please refer to the individual report description for more information. 
+> Not all reports included in the templates are covered in this guide; however, the methods of investigation explained below will still apply for those reports. Refer to the individual report description for more information. 
 
+### Quality
 
-### Investigate call quality
+The PSR percentages are used to indicate whether the organization is meeting defined metric targets for a given focus area. It’s important to note that even if the high-level percentages are within the defined target, individual subnets or buildings might not meet the defined targets and, therefore, need further investigation. For example, if the overall audio PSR percentage is 2 percent in April, which meets the sample target, individual buildings and subnets might still be having poor experiences, depending on the overall distribution of that 2 percent. 
 
-The overall PCR percentage is primarily used to indicate whether the organization is meeting defined audio metric targets. It’s important to note that even if the overall percentage is within target, some subnets or buildings might not meet the defined targets and therefore need further investigation. For example, if the organizational audio PCR percentage is 3 percent in December, which meets the sample target, specific buildings might still be having poor experiences, depending on the distribution of that 3 percent.
+To assess the percentage of poor streams, use the quality reports. Various quality reports are provided to review metrics for overall, conferencing, two-party, PSTN calling, VPN, and meeting rooms. Monthly, weekly, and daily reports are provided to assist in this process. Weekly and daily reports are limited to the Managed Networks template to increase their effectiveness and reduce noise. 
 
-#### Overall organizational poor call percentage
+#### Quality trend analysis
 
-To assess the overall percentage of poor calls for the organization use the Quality Overall chart report.
+Trending reports display quality information over time and are used to help identify and understand quality trends within each area of interest. As noted above, there are report trees included in the templates for investigating quality; conferencing, two-party, PSTN calling, VPN, and meeting rooms. For the purposes of analyzing quality, the investigative process is the same. However, we recommend that you start with conferencing first, because any improvements in conference quality will also positively affect all other areas. 
 
-<!-- ![Screenshot of a chart showing percentage of poor quality calls](media/qerguide-image-audioqualityconferencing.png)
+> [!Note]
+> Investigating two-party, PSTN calling, and meeting rooms are similar to investigating conferencing. The focus is to isloate buildings or subnets that have the worst quality and identify the reason for the poor quality.
 
-_Figure 20 – Audio Quality - Overall_ -->
+> [!Important]
+> VPN-based reports are filtered by using the Second VPN dimension. This dimension requires that the VPN network adapter be properly registered as a Remote Access Adapter.  VPN vendors don’tt reliably use this flag, and your mileage will vary depending on the VPN vendor deployed at your organization. Follow the guidance outlined [earlier in this guide](NEED LINK) for modifying the VPN reports if needed by using the building or network name.
 
-##### Investigation
-
-This chart report displays your organization’s usage and PCR over time. By using this report, you can answer the following questions:
-
-1.  What is the total PCR for the current month?
-
-2.  Is the PCR below the defined target metric?
-
-3.  Is the failure trend worse or better than the previous month?
-
-4.  Is the failure trend increasing, steady, or decreasing?
-
-Irrespective of the answers to the questions above, take the time to investigate by using the sub-reports to look for any buildings or networks that might need further investigation. Although the overall PCR might be below the target metric, often the PCR for one or more buildings or networks is above the metric and needs further investigation.
-
-#### Audio quality overall
-
-There are two report trees included in the templates for audio quality, one for investigating conferencing and the other for two-party calls. For the purposes of quality remediation, the investigative process is the same, so we’ll focus here on conferencing. Improvements in conference quality will also positively affect two-party call quality. Reports are also included to view audio quality for conferencing and two-party by wired and Wi-Fi.
-
-> [!NOTE]
-> Investigating two-party poor calls is similar to investigating conference calls. The task is to identify buildings or subnets that have the lowest quality to validate whether there’s a pattern of poor calls with another building or subnet. 
-
-![Screenshot of the Audio Quality - Conferencing report in the Call Quality Dashboard.](media/qerguide-image-audioqualityconferencing.png)
+![Chart showing the percentage of poor quality streams](media/qerguide-image-audioqualityconferencing.png "Chart showing the percentage of poor quality streams")
 
 _Figure 21 – Audio Quality - Conferencing_
 
 ##### Investigation
 
-This chart report displays your organization’s conferencing or two-party usage and PCR over time. By using this report, you can answer the following questions:
+By using these reports, you can answer the following questions:
 
-1.  What is the total PCR for the current month?
+-   What is the total PSR for the current month?
+-   Is the PSR below the defined target metric?
+-   Is PSR worse or better than the previous month?
+-   Is the PSR trend increasing, steady, or decreasing?
 
-2.  Is the PCR below the defined target metric?
+Irrespective of the answers to the questions above, take the time to investigate by using the sub-reports to look for any buildings or subnets that might need investigation. Although the overall PSR might be below the target metric, often the PSR for one or more buildings or networks is above the metric and needs remediation.
 
-3.  Is PCR worse or better than the previous month?
+#### Quality investigations
 
-4.  Is the PCR trend increasing, steady, or decreasing?
+The quality summary reports give you deeper insight into what contributed to the streams’ being classified as poor and helps to isolate problem areas in the managed network.
 
-Irrespective of the answers to the questions above, take the time to investigate by using the sub-reports to look for any buildings or networks that might need investigation. Although the overall PCR might be below the target metric, often the PCR for one or more buildings or networks is above the metric and needs remediation.
-
-#### Poor audio stream by building and subnet
-
-This table report gives you additional insight into what contributed to the calls’ being classified as poor and helps to isolate hot spots in the managed network.
-
-The connection detail distinguishes between wired and Wi-Fi and includes jitter, packet loss, and round-trip time (RTT) measurements. A similar report also exists under the two-party reports, and is used to isolate two-party calls on your managed network.
+Although the dimensions used might differ slightly between report, each report will include measures for total streams, total poor streams, PSR, and poor quality due to. Table reports have been created for each area of interest: conferencing, two-party, PSTN calling, VPN, and meeting rooms. The Managed Network template includes additional reports to take advantage of the location information uploaded via the building file.
 
 > [!NOTE]
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month. 
+> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
-> [!TIP]
-> Common home networks are difficult to triage due to their widespread use. A separate report that uses the firewall IP has been added to the All Networks template to assist with remediating offices that use common networks.
+> [!Note]
+> Common subnets are difficult to triage due to their widespread use. A separate report that displays the client’s public IP (Second Reflexive Local IP) has been added to the All Networks template to assist with remediating offices that use common networks.
 
-![Report that lists connection types, transport types, and PCR greater than 3% along with various reasons for poor quality organized by building, network, and subnet per month.](media/qerguide-image-poorqualitysummary.png)
 
-_Figure 22 - Poor Audio Stream Summary by Building and Subnet - Conferencing_
+![Poor audio stream summary](media/qerguide-image-poorqualitysummary.png "Poor audio stream summary")
+
+_Figure 22 – Poor Audio Stream Summary by Building and Subnet - Conferencing_
 
 ##### Remediation
 
-Focus your remediation efforts on buildings or networks that have the largest volume of audio streams, because this will maximize impact and help to improve the user experience quickly. Use the jitter, packet loss, and RTT measurements to understand what’s contributing to the poor call quality. It’s possible for there to be more than one problem:
+Focus your remediation efforts on buildings or subnets that have the largest volume of streams, because this will maximize impact and help to improve the user experience quickly. Use the jitter, packet loss, and RTT measurements to understand what’s contributing to the poor quality (it’s possible for there to be more than one problem):
 
--   **Jitter:** Media packets are arriving at different speeds, which causes a speaker to sound robotic.
+-   Jitter: Media packets are arriving at different speeds, which causes a speaker to sound robotic.
+-   Packet loss: Media packets are being dropped, which creates the effect of missing words or syllables.
+-   RTT: Media packets are taking a long time to get to their destination, which creates a walkie-talkie effect.
 
--   **Packet loss:** Media packets are being dropped, which creates the effect of missing words or syllables.
-
--   **RTT:** Media packets are taking a long time to get to their destination, which creates a walkie-talkie effect.
-
-Although no single source of truth accounts for what can cause a poor call, several common methods can help you deal with network anomalies.
-
-To assist your investigation into quality issues, you can leverage [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309). With Call Analytics, you can look at a specific conference or users’ detailed call report. This report will contain PII data and is useful when attempting to discern a reason for failures. Once you know which building that is affected, tracking down users in that building should be straightforward.
+To assist your investigation into quality issues, you can leverage [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309). With Call Analytics, you can look at a specific conference or users’ detailed call report. This report will contain PII data and is useful when you’re looking for the cause of a failure. After you know which building is affected, it should be straightforward to track down users in that building. For assistance in mapping a poor subnet to a user, use the [CxdCallData](https://github.com/jasonshave/CxdCallData) script using the SubnetCsvFile function.
 
 Don’t forget to let the helpdesk know that these networks are experiencing quality issues, so they can quickly triage and respond to incoming calls.
 
-_Table 9 - Common contributors to high PCR_
+_Table 9 - Common contributors to high PSR_
 
 | Remediation                              | Guidance                         |
 |------------------------------------------|----------------------------------|
-| Networks                                 | An overused or under-provisioned network can cause issues with media quality. Work with the network team to determine whether the network connections from the user to the internet egress point has enough bandwidth to support media. **Perform a network readiness assessment:** A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<br><ul><li>[Microsoft Teams Network Readiness Assessment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. This tool helps you assess the performance of a subnet and validate the readiness of the network against the Microsoft performance [requirements](https://aka.ms/performancerequirements).<br><ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) </li></ul>        |
-| Quality of Service (QoS)                 | QoS is a proven method to help prioritize packets on a network to ensure they arrive at their destination intact and on time. Consider implementing QoS across your organization to maximize the quality of the user experience where bandwidth is limited or constrained. QoS will help solve issues typically associated with high levels of packet loss, and—to a lesser degree—jitter and round-trip times. <br><ul><li>[Microsoft Teams QoS Guidance](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams)</li><li>[Skype for Business QoS Guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul>    |
-| Wi-Fi                                    | Wi-Fi can have a significant impact on call quality. Wi-Fi design doesn’t typically take into consideration the network requirements for VoIP services and are often a source of poor quality. **QoS:** Modern wireless networks must support many devices. These devices compete for bandwidth and can lead to quality issues for VoIP services where speed and latency are vital. Consult your wireless vendor for specifics, and consider implementing QoS on your wireless network to prioritize Skype for Business and Teams media. **AP density:** Access points (APs) might be too far apart or not in an ideal location. To minimize potential interference, place extra APs in conference rooms and in locations that aren’t obstructed by walls or other objects. **2.4 GHz vs. 5 GHz:** 5 GHz provides less background interference and higher speeds, and should be prioritized when deploying VoIP over Wi-Fi. However, 5 GHz isn’t as strong as 2.4 GHz and doesn’t penetrate walls as easily. Review your building layout to determine which frequency you can rely on for the best connection. **Signal strength:** Traditionally measured in dBm (power ratio in decibels), this measures the strength of the wireless signal. After a device is connected to an AP, it doesn’t want to let go easily. As the device moves away from the AP, the signal strength falls off to a point that induces a poor connection even though another, closer AP is available. If possible, work with your AP vendor to ensure that the APs are configured to drop a device when signal strength falls below an acceptable level. This will ensure that the device doesn’t hang on to a weak AP. This is a good solution when you can’t easily add more APs. **Wireless driver:** When all else fails, ensure that wireless drivers are up to date. This will help mitigate any poor user experience related to an outdated driver. |
-| Network device                           | Larger organizations might have hundreds of devices spread out across the network. Work with your network team to ensure the network devices from the user to the internet are maintained and up to date.     |
-| VPN                                      | It has been well-documented that VPN appliances aren’t traditionally designed to handle real-time media workloads. Some VPN configurations prohibit the use of UDP (which is the preferred protocol for audio) and rely on TCP only. Consider implementing a [VPN split-tunnel solution](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) to help reduce VPN as a source of poor quality.        |
-| Clients (Skype for Business Online Only) | Older clients have been known to cause issues with media. Ensure that clients are being patched within six months of release. Leverage [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a client readiness strategy and deploy [Click-to-Run](https://technet.microsoft.com/library/jj219427.aspx).      |
-| Devices                                  | The use of [optimized devices](https://partnersolutions.skypeforbusiness.com/solutionscatalog) can help to significantly improve the user experience. With all things being equal, optimized devices are designed to maximize the user experience with Teams and Skype for Business and produce superior quality. Leverage [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a device readiness strategy.   |
+| Networks                                 | **Congestion**: An overused or under-provisioned network can cause issues with media quality. Work with the network team to determine whether the network connections from the user to the internet egress point has enough bandwidth to support media. The [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) can help you better understand your organization’s bandwidth needs.<br><br>**Perform a network readiness assessment**: A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<ul><li>[Microsoft Teams Network Readiness Assessment](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. The tool helps you assess the performance of a subnet and validate the readiness of the network against Microsoft performance [requirements](https://aka.ms/performancerequirements).<ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br>**CxdCallData**: This script can be used to help map a subnet to specific users within Call Analytics. CQD doesn’t have any PII data, so it can be difficult to map subnets to actual users. If you note that certain subnets are experiencing high jitter or packet loss, you can use the script to extract data directly from the service to display individual call details like user name, transport, jitter, packet loss, latency, and more. The script will also return a direct link to the report in Call Analytics to allow for additional triage. This script can be found in the PowerShell Gallery:<ul><li>[https://www.powershellgallery.com/packages/CxdCallData](https://www.powershellgallery.com/packages/CxdCallData)</li></ul> |
+| Quality of Service (QoS)  | QoS is a proven tool to help prioritize packets on a congested network to ensure they arrive at their destination intact and on time. Consider implementing QoS across your organization to maximize the quality of the user experience where bandwidth is constrained. QoS will help solve issues typically associated with high levels of packet loss, and—to a lesser degree—jitter and round-trip times.<ul><li>[Microsoft Teams QoS guidance](qos-in-teams.md)</li><li>[Skype for Business QoS guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul> |
+| Wi-Fi               | Wi-Fi can have a significant impact on call quality. Wi-Fi deployments don’t typically take into consideration the network requirements for VoIP services and are often a source of poor quality. For more information about optimizing your Wi-Fi infrastructure, see [this article about Wi-Fi planning](/skypeforbusiness/certification/plan-wifi).<br><br>**Wireless driver**: Ensure that wireless drivers are up to date. This will help mitigate any poor user experience related to an outdated driver. Many organizations don’t include wireless drivers in their patch cycles, and these drivers can go unpatched for years. Many wireless issues are solved by ensuring the wireless drivers are up to date.<br><br>**WMM**: Wireless Multimedia Extensions (WMM), also known as Wi-Fi Multimedia, provides basic QoS features to wireless networks. Modern wireless networks must support many devices. These devices compete for bandwidth and can lead to quality issues for VoIP services, where speed and latency are vital. Consult your wireless vendor for specifics and consider implementing WMM on your wireless network to prioritize Skype for Business and Teams media.<br><br>**Access point density**: Access points might be too far apart or not in an ideal location. To minimize potential interference, place extra access points in conference rooms and in locations that aren’t obstructed by walls or other objects where the Wi-Fi signal is weak.<br><br>**2.4 GHz versus 5 GHz**: 5 GHz provides less background interference and higher speeds, and should be prioritized when deploying VoIP over Wi-Fi. However, 5 GHz isn’t as strong as 2.4 GHz and doesn’t penetrate walls as easily. Review your building layout to determine which frequency you can rely on for the best connection. |
+|Network device | Larger organizations might have hundreds of devices spread out across the network. Work with your network team to ensure that the network devices from the user to the internet are maintained and up to date. |
+| VPN  | VPN appliances aren’t traditionally designed to handle real-time media workloads. Some VPN configurations prohibit the use of UDP (which is the preferred protocol for media) and rely on TCP only. Consider implementing a [VPN split-tunnel solution](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) to help reduce VPN as a source of poor quality. |
+| Clients <br>(Skype for Business Online only) | Older clients have been known to cause issues with media. Ensure that clients are being patched within six months of release. Use [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a client readiness strategy and deploy [Click-to-Run](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus). |
+| Devices | The use of [optimized devices](https://partnersolutions.skypeforbusiness.com/solutionscatalog) can help to significantly improve the user experience. With all things being equal, optimized devices are designed to maximize the user experience with Teams and Skype for Business, and produce superior quality. Use [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a device readiness strategy. |
+| Drivers | Patching network (Ethernet and Wi-Fi), audio, video, and USB drivers should be part of your overall patch management strategy. Many quality issues are solved by updating drivers. |
 
+### TCP
 
-### Investigate TCP audio sessions
+TCP is considered a failback transport and not the primary transport you want for real-time media. The reason it’s a failback transport is due to the stateful nature of TCP. For example, if a call is made on a latent network and media packets are delayed, then packets from a few seconds ago—which are no longer useful—compete for bandwidth to get to the receiver, which can make a bad situation worse. This makes the audio healer stitch and stretch audio, resulting in audible artifacts, often in the form of jitter.
 
-TCP is considered a failback transport and not the primary transport you want for real-time media. The reason it’s a failback transport is due to the stateful nature of TCP. For example, if a call is made on a latent network and media packets are delayed, then packets from a few seconds ago—which are no longer useful—compete for bandwidth to get to the receiver, which can make a bad situation worse. This makes the audio healer stitch and stretch audio, resulting in audible artifacts often in the form of jitter.
+The reports in this section don’t make a distinction between good and poor streams. Given that UDP is preferred, the reports look for the use of TCP for audio, video, and video-based screen sharing (VBSS). This is primarily caused by incomplete firewall rules. For more information about firewall rules for Teams and Skype for Business Online, see [Office 365 URLs and IP address ranges](https://aka.ms/o365ips).
 
-The reports in this section don’t make a distinction between good and poor calls. Given that UDP is preferred, the reports look for the use of TCP for audio. This is primarily caused by incomplete firewall rules. For more information about firewall rules for Teams and Skype for Business Online, see [Office 365 URLs and IP address ranges](https://aka.ms/o365ips).
+> [!Important]
+> Having a [valid building file](NEED LINK) uploaded is highly recommended so you can quickly distinguish inside from outside streams when looking at TCP usage.
 
-> [!IMPORTANT]
-> Having a valid [building file](#building-mapping) uploaded is recommended to be able to quickly distinguish inside from outside audio streams when looking at TCP usage. 
+> [!Note]
+> Audio, video, and VBSS all prefer UDP as their primary transport. The legacy RDP Application Sharing workload only uses TCP.
 
+#### TCP usage
 
-#### Audio streams with TCP usage overall
+TCP reports indicates the overall TCP usage over the last seven months. All further reports in this section will focus on narrowing down specific buildings and subnets where TCP is most commonly used. Separate reports are available for both conferencing and two-party streams.
 
-This report indicates the overall TCP usage for audio over the last seven months, as shown below.
-
-All further reports in this section will focus on narrowing down specific buildings and subnets where TCP is most commonly used. Further sub-reports break down TCP usage by both conferencing and two-party calls.
-
-![Screenshot of a chart showing the number of TCP audio streams per month](media/qerguide-image-audiostreamswithtcp.png)
-
+![Chart showing the percentage of audio streams that use TCP](media/qerguide-image-audiostreamswithtcp.png "Chart showing the percentage of audio streams that use TCP")
 _Figure 23 – Audio Streams with TCP Usage_
+
 
 ##### Investigation
 
-This chart report displays your organization’s overall TCP usage. By using this report, you can answer the following questions:
+By using this report, you can answer the following questions:
 
-1.  What is the total volume of TCP calls for the current month?
+-   What is the total volume of TCP streams for the current month?
+-   Is it worse or better than the previous month?
+-   Is the TCP usage trend increasing, steady, or decreasing?
+-   Is the TCP PSR the same as my overall PSR?
 
-2.  Is it worse or better than the previous month?
-
-3.  Is the TCP usage trend increasing, steady, or decreasing?
-
-If you notice that the TCP usage trend is increasing, or above normal monthly usage, take the time to investigate by using the sub-reports to look for any buildings or networks that might need remediation. Ideally, you want as few TCP-based audio sessions as possible on the managed network.
+If you notice that the TCP usage trend is increasing or above normal monthly usage, take the time to investigate by using the sub-reports to look for any buildings or networks that might need remediation. Ideally, you want as few TCP-based audio sessions as possible on the managed network.
 
 #### TCP vs. UDP
 
-This table report identifies the volume of TCP versus UDP usage reporting on the latest month for conferences for audio, video, and video-based screen sharing (VBSS).
+This report identifies the volume of TCP versus UDP usage reporting on the latest month for audio, video, and video-based screen sharing (VBSS). 
 
-![Report showing the volume of TCP versus UDP conference streams, with PCR shown for comparison](media/qerguide-image-tcpvsudp.png)
+![Report showing the volume of streams that use TCP versus UDP](media/qerguide-image-tcpvsudp.png "Report showing the volume of streams that use TCP versus UDP")
 
 _Figure 24 – TCP vs. UDP - Conferencing_
 
 ##### Analysis
 
-Although you want TCP usage to be as low as possible, you might see a bit of TCP usage in an otherwise healthy deployment. To compare UDP to TCP usage, divide TCP audio streams by UDP audio streams to determine a percentage. A value over 1 percent needs to be further investigated.
+Although you want TCP usage to be as low as possible, you might see a bit of TCP usage in an otherwise healthy deployment. Although there might always be some small amount of TCP usage, you want to see as little TCP usage as possible for audio, video, and VBSS.
 
-In the example above, we take 1,806 TCP streams divided by 10,481 UDP streams to arrive at a value of 17.2 percent. This value is well above 1 percent and tells us that we need to continue our investigation to determine where the TCP usage is occurring.
+Also included in the report is the poor stream rate. This provides you a view into the comparison of quality between UDP and TCP to help visualize how TCP usage is affecting overall quality.
 
-Also included in the report is Audio Poor Percentage. This gives you a view into the comparison of call quality between UDP and TCP to help visualize how TCP is affecting overcall call quality.
+#### TCP investigations
 
-So now that you’ve determined that there is a high usage of TCP-based audio in your organization, what do you do next? Go to the **TCP Streams by Building and Subnet** reports to break down the TCP usage by building and subnets.
-
-#### TCP streams by building and subnet
-
-In the provided CQD templates, go to the TCP Streams by Building and Subnet table reports by using either the managed or All Networks template. There are three reports included in the template, one for investigating conferencing, with and without Microsoft relay information, and one for investigating two-party calls. For the purpose of investigating TCP usage, the process is the same, so we’ll focus the discussion here on conferencing only.
+In the provided CQD templates, navigate to the TCP Streams by Building and Subnet reports by using either the Managed Networks or All Networks template. For the purpose of investigating TCP usage, the process is the same, so we’ll focus the discussion here on conferencing.
 
 > [!IMPORTANT]
-> Having a valid [building file](#building-mapping) uploaded is recommended to be able to quickly distinguish inside from outside audio streams when looking at TCP usage. 
+> Having a valid [building file](#building-mapping) uploaded is recommended so you can quickly distinguish inside from outside streams when looking at TCP usage. 
 
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.                                  |
 
-![Report that lists TCP streams, organized by building, network, and subnet per month.](media/qerguide-image-tcpstreams.png)
+![TCP usage by building and subnet](media/qerguide-image-tcpstreams.png "TCP usage by building and subnet")
 
 _Figure 25 – TCP Streams by Building and Subnet - Conferencing_
 
 ##### Remediation
 
-This report identifies specific buildings and subnets that are contributing to the volume of TCP usage. An additional report is also included to identify the Microsoft relay IP that was used in the call to help isolate missing firewall rules. Focus your remediation efforts on those buildings that have the highest volume of audio streams to maximize impact.
+This report identifies specific buildings and subnets that are contributing to the volume of TCP usage. An additional report is also included to identify the Microsoft Relay IP that was used in the call to help isolate missing firewall rules. Focus your remediation efforts on those buildings that have the highest volume of TCP streams to maximize impact.
 
 The most common cause of TCP usage is missing exception rules in firewalls or proxies. We’ll be talking about proxies in the next section, so for now focus your efforts on the firewalls. By using the building or subnet provided, you can determine which firewall needs to be updated.
+
 
 _Table 10 - Remediation* guidance for TCP streams by building and subnet_
 
 | Remediation        | Guidance     |
 |--------------------|--------------------------------------|
-| Configure firewall | Verify [Office 365 IP ports and addresses](https://aka.ms/o365ips) are excluded from your firewall. Though there are many IP addresses and ports that need to be opened, for media-related TCP issues, focus your initial efforts on the following: Verify the following [media subnets](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) are in your firewall rules. Refer to Row 4 in the table shown for specific media subnet information. [UDP ports 3478–3481](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Updated-IP-ranges-and-ports-for-Skype-for-Business-Online/ba-p/47470): These ports are the preferred media ports and must be opened, otherwise the client will fail back to TCP port 443. |
-| Verify             | Use the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to check for connectivity issues to specific Office 365 IP addresses and ports from the affected building or subnet.    |
+| Configure firewall | Verify that [Office 365 IP ports and addresses](https://aka.ms/o365ips) are excluded from your firewall. For media-related TCP issues, focus your initial efforts on the following:<ul><li>Verify that the client media subnets 13.107.64.0/18 and 52.112.0.0/14 are in your firewall rules.</li><li>UDP ports 3478–3481 are the required media ports and must be opened, otherwise the client will fail back to TCP port 443.</li></ul> |
+| Verify             | Use the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to check for issues with connectivity to specific Office 365 IP addresses and ports from the affected building or subnet.    |
 
-### Investigate HTTP proxy usage
+### HTTP proxy
 
-HTTP proxies aren’t the preferred path for establishing media sessions, for a multitude of reasons. Many contain deep packet inspection features that can prevent connections to the service from being completed and introduce disruptions. Additionally, proxies might force TCP as opposed to allowing UDP, which is recommended for optimal audio quality.
+HTTP proxies aren’t the preferred path for establishing media sessions, for a multitude of reasons. Many contain deep packet inspection features that can prevent connections to the service from being completed and introduce disruptions. Additionally, almost all proxies force TCP as opposed to allowing UDP, which is recommended for optimal audio quality.
 
-It is always Microsoft’s recommendation to configure the client to directly connect to Teams and Skype for Business services. This is especially important for media-based traffic.
+We always recommend that you configure the client to directly connect to Teams and Skype for Business services. This is especially important for media-based traffic.
+
 
 > [!IMPORTANT]
 > Having a valid [building file](#building-mapping) uploaded makes it easy to properly distinguish inside from outside audio streams when analyzing proxy usage. 
