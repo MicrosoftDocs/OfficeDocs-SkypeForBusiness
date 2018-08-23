@@ -986,7 +986,7 @@ TCP is considered a failback transport and not the primary transport you want fo
 The reports in this section don’t make a distinction between good and poor streams. Given that UDP is preferred, the reports look for the use of TCP for audio, video, and video-based screen sharing (VBSS). This is primarily caused by incomplete firewall rules. For more information about firewall rules for Teams and Skype for Business Online, see [Office 365 URLs and IP address ranges](https://aka.ms/o365ips).
 
 > [!Important]
-> Having a [valid building file](NEED LINK) uploaded is highly recommended so you can quickly distinguish inside from outside streams when looking at TCP usage.
+> Having a [valid building file](#building-mapping) uploaded is highly recommended so you can quickly distinguish inside from outside streams when looking at TCP usage.
 
 > [!Note]
 > Audio, video, and VBSS all prefer UDP as their primary transport. The legacy RDP Application Sharing workload only uses TCP.
@@ -1063,23 +1063,24 @@ We always recommend that you configure the client to directly connect to Teams a
 > Having a valid [building file](#building-mapping) uploaded makes it easy to properly distinguish inside from outside audio streams when analyzing proxy usage. 
 
 
-#### Audio streams with HTTP proxy usage overall
+#### HTTP proxy usage
 
-This report outlines the proxy usage over time on a monthly scale. The HTTP proxy stream report in this section of the template is much like the TCP reports. It doesn’t look at whether calls are poor or good, but whether the call is connected over HTTP.
+The HTTP proxy stream report in this section of the template is much like the TCP reports. It doesn’t look at whether calls are poor or good, but whether the call is connected over HTTP.
 
-![Screenshot of the Audio Streams with HTTP Proxy Usage report in the Call Quality Dashboard.](media/qerguide-image-audiostreamswithhttp.png)
+![Report of audio streams that use HTTP](media/qerguide-image-audiostreamswithhttp.png "Report of audio streams that use HTTP")
 
 _Figure 26 – Audio Streams with HTTP Proxy Usage_
 
 ##### Analysis
 
-If you see a high volume of HTTP usage, consult your networking team to ensure the proper exclusions are in place so that clients are directly routing to Teams or Skype for Business Online media subnets. Ideally, there should be no HTTP usage displayed here.
+You want to see as little HTTP media streams as possible. If you have streams traversing your proxy, consult your networking team to ensure that the proper exclusions are in place so that clients are directly routing to Teams or Skype for Business Online media subnets.
 
-If you have only one internet proxy in your organization, verify the proper [Office 365 URLs and IP address range exclusions](https://aka.ms/o365ips). If more than one internet proxy is configured in your organization, leverage the HTTP sub-report to isolate which building or subnet is affected.
+If you have only one internet proxy in your organization, verify the proper [Office 365 URLs and IP address range exclusions](https://aka.ms/o365ips). If more than one internet proxy is configured in your organization, use the HTTP sub-report to isolate which building or subnet is affected.
 
-For organizations that can’t bypass the proxy, ensure that the Skype for Business client is configured to sign in properly when it’s located behind a proxy as outlined in the article [Skype for Business should use proxy server to sign in instead of trying direct connection](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin).
+For organizations that can’t bypass the proxy, ensure that the Skype for Business client is configured to sign in properly when it’s located behind a proxy, as outlined in the article [Skype for Business should use proxy server to sign in instead of trying direct connection](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin). 
 
-#### HTTP proxy streams by building and subnet
+
+#### HTTP proxy investigations
 
 This report identifies specific buildings and subnets that are contributing to HTTP usage.
 
@@ -1087,113 +1088,114 @@ This report identifies specific buildings and subnets that are contributing to H
 > Having a valid [building file](#building-mapping) uploaded makes it easy to properly distinguish inside from outside audio streams when analyzing proxy usage.
 
 > [!NOTE]
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.                        |
+> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
-![Screenshot of the HTTP Proxy Usage by Building and Subnet report in the Call Quality Dashboard.](media/qerguide-image-httpproxyusage.png)
+![Report of HTTP Proxy Usage by Building and Subnet](media/qerguide-image-httpproxyusage.png)
 
 _Figure 27 – HTTP Proxy Usage by Building and Subnet_
 
 ##### Remediation
 
-Focus your remediation efforts on any buildings or subnets that have HTTP proxy usage. The most common cause of HTTP usage is missing exception rules in proxies. By using the building or subnet provided, you can determine which proxy needs to be updated.
+We [recommend](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online) that you always bypass proxies for Skype for Business and Teams, especially media traffic. Proxies don't make Skype for Business more secure, because its traffic is already encrypted. Performance-related problems can be introduced to the environment through latency and packet loss. Issues such as these will result in a negative experience with audio, video and screen sharing, where real-time streams are essential.
 
-Verify that the required [Office 365 FQDNs](https://aka.ms/o365ips) are excluded from your proxy.
+The most common cause of HTTP usage is missing exception rules in proxies. By using the building or subnet provided, you can quickly determine which proxy needs to be configured for media bypass.
 
-## Endpoint investigations
+Verify that the required [Office 365 FQDNs](https://aka.ms/o365ips) are whitelisted in your proxy.
 
-This section is focused on the tasks for reporting on Skype for Business–specific client versions and the use of certified devices.
+For more information about using proxies with Skype for Business Online and Teams, see [this article](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online).
+
+## Clients and devices
+
+This section is focused on the tasks for reporting on client versions and the use of certified devices. Reports are available to outline usage for client versions, client type, capture devices and drivers (microphone), video capture devices, and Wi-Fi vendor and driver versions.
 
 > [!NOTE]
-> Not all reports included in the templates are covered in this guide. Please refer to the individual report description for more information. 
+> Not all reports included in the templates are covered in this guide; however, the methods of investigation explained below still apply. Refer to the individual report description for more information.
 
+### Client versions
 
-### Determine client versions
-
-The report in this space focuses on identifying Skype for Business client versions in use and their relative volume in the environment.
-
-> [!IMPORTANT]
-> Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network (CDN) and will be kept up to date by the service. Client readiness and investigative activities aren’t applicable to Teams.
-
-Version numbers for Skype for Business 2015 and 2016 can be found via the links below:
-
--   [Office 365 client update channel releases](https://technet.microsoft.com/office/mt465751?f=255&MSPPError=-2147217396)
-
--   [Office 365 version and build numbers for Click to
-    run](https://docs.microsoft.com/en-us/officeupdates/update-history-office365-proplus-by-date)
-
--   [Skype for Business downloads and updates](https://technet.microsoft.com/office/dn788954.aspx)
-
-> [!NOTE] 
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.  
+The reports in this space focus on identifying Skype for Business client versions in use and their relative volume in the environment.
 
 > [!IMPORTANT]
-> Client reports require you to exclude federated participant data. To exclude federated participant data, you must add a query filter for **Second Tenant ID** set to your organization’s [tenant ID](#tenant-id). 
+> Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. Client readiness and investigative activities aren’t applicable to Teams.
 
-![Screenshot of the Client and Devices report in the Call Quality Dashboard.](media/qerguide-image-clientversionreport.png)
+> [!Important]
+> Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a [query filter](#query-filters) for Second Tenant ID set to your organization’s [tenant ID](#tenant-id). Alternatively, you can use a [URL filter](#url-filter) to exclude federated participant telemetry.
+
+> [!NOTE]
+> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
+
+![Client and Devices report](media/qerguide-image-clientversionreport.png)
 
 _Figure 28 - Client version report_
 
 #### Remediation
 
-A critical part of driving high-quality user experiences is ensuring that managed clients are running up-to-date versions of Skype for Business. This provides several benefits, among them:
+A critical part of driving high-quality user experiences is ensuring that managed clients are running up-to-date versions of Skype for Business, in addition to ensuring the supporting drivers are up to date. This provides several benefits, among them: 
 
 -   It’s easier to manage a few versions versus many versions.
-
 -   It provides a level of consistency of experience.
-
 -   It makes it easier to troubleshoot problems with call quality and usability.
-
 -   Microsoft continually makes general improvements and optimizations across the product. Ensuring that users receive these updates reduces their risk of running into a problem that has already been solved.
 
 Limiting your deployment to client versions that are less than six months old will improve the overall user experience and improve manageability compared to having large numbers of different versions of the client in the same environment.
 
 If you’re using only Office Click-to-Run, you’ll automatically be within the six-month window. No further action is required.
 
-If, like most organizations, you have a mix of Click-to-Run and installer packages (MSI), you can use the report to verify that the MSI clients are being updated regularly. Focus your efforts on those clients where the volume is above average. If you notice clients are falling behind, work with the team responsible for managing Office updates and ensure that they’re approving and deploying client patches regularly.
+If you have a mix of Click-to-Run and installer packages (MSI), you can use the report to verify that the MSI clients are being updated regularly. If you notice clients are falling behind, work with the team responsible for managing Office updates and ensure that they’re approving and deploying client patches regularly.
 
-### Devices investigations
+It’s also important to consider and ensure that the USB and audio drivers are being patched as well. It can be easy to overlook these drivers and not include them in your patch management strategy.
 
-To make use of the following device report, it’s best to understand the concept of the mean opinion score (MOS). MOS is the gold-standard measurement to gauge the perceived audio quality. It’s represented as an integer rating from 0 to 5.
+Version numbers for Skype for Business can be found via the links below:
+
+-   [Release information for updates to Office ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
+-   [Update history for Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
+-   [Skype for Business downloads and updates](/SkypeForBusiness/software-updates)
+
+### Devices
+
+To make use of the microphone device report, we need to understand the concept of the mean opinion score (MOS). MOS is the gold-standard measurement to gauge the perceived audio quality. It’s represented as an integer rating from 0 to 5.
 
 The basis of all measures of voice quality is how a person perceives the quality of speech. Because it’s affected by human perception, it’s inherently subjective. There are several different methodologies for subjective testing. Most voice quality measures are based on an absolute categorization rating (ACR) scale.
 
 In an ACR subjective test, a statistically significant number of people rate their quality of experience on a scale of 1 (bad) to 5 (excellent). The average of the scores is the MOS. The resulting MOS depends on the range of experiences that were exposed to the group and to the type of experience being rated.
 
-Because it’s impractical to conduct subjective tests of voice quality for a live communication system, Teams and Skype for Business generate MOS values by using advanced algorithms to objectively predict the results of a subjective test.
+Because it’s impractical to conduct subjective tests of voice quality for a live communication system, Microsoft Teams and Skype for Business generate MOS values by using advanced algorithms to objectively predict the results of a subjective test.
 
-The available set of MOS and associated metrics provide a view into the quality of the experience being delivered to the users.
+The available set of MOS and associated metrics provide a view into the quality of the experience being delivered to the users by an audio device. 
 
-By supplying users with devices certified for Teams and Skype for Business, you reduce the likelihood of encountering negative experiences due to the device itself (which is more likely, for example, with built-in laptop speakers and microphones). For more information, see [Phones and devices for Skype for Business](https://technet.microsoft.com/office/dn947482).
+By supplying users with devices certified for Teams and Skype for Business, you reduce the likelihood of encountering negative experiences due to the device itself (which is more likely, for example, with built-in laptop speakers and microphones). For more information, see these articles on the [certification program](/SkypeForBusiness/certification/overview) and the [partner solutions catalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs).
 
-#### Organizational usage of capture devices (microphones) by volume
-
-This report is used to assess microphone usage by volume and MOS score, and can be found in the accompanying templates under Clients & Devices*.*
+The device reports are used to assess device usage by volume and MOS score (audio only), and can be found in the accompanying templates under Clients & Devices. 
 
 > [!IMPORTANT]
-> Device reports require you to exclude federated participant data. To exclude federated participant data, you must add a query filter for **Second Tenant ID** set to your organization’s [tenant ID](#tenant-id). 
+> Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for **Second Tenant ID** set to your organization’s [tenant ID](#tenant-id). ALternatively, you can use a [URL filter](#url-filter) to exclude federated participant telemetry.
 
 > [!NOTE] 
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.<br><br> You might notice when viewing this report that you see the same device reported multiple times. This is due to the way the device is reported being reported to CQD. Differences in hardware and OS locale report device data differently.
+> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.<br><br> You might notice when viewing this report that you see the same device reported multiple times. This is due to the way the device is reported being reported to CQD. Differences in hardware and OS locale cause differences in how device data is reported.
 
-![Screenshot of the Devices (Microphone) report in the Call Quality Dashboard.](media/qerguide-image-devicesmicrophone.png)
+![Devices (Microphone) report](media/qerguide-image-devicesmicrophone.png)
 
-_Figure 29 - – Device (Microphone) Report_
+_Figure 29 - Devices (Microphone) Report_
 
 ##### Remediation
 
-The first task is to determine the MOS target you would like to attain. MOS scores range from 1 to 5, with 5 being the best. Choose a reasonable target based on your environment and query results. In the following example, the target is an MOS score of 3.6 or better for all devices that have over 100 streams. You’ll achieve your device quality target when:
+Typically, you’ll need to discover and phase out non-certified devices and replace them with certified devices. Some considerations when reviewing the device reports include:
 
--   The device query results return MOS \> 3.6 for NumStreams \> 100
+-   Are the devices in use certified for Teams and Skype for Business? 
+-   You can identify users of a specific device through [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309). Check to make sure they have the latest device drivers and that their device isn’t connected through a USB hub or docking station. 
+-   How many different versions of various drivers are in use? Are they being patched regularly? Ensuring that audio, video, and Wi-Fi drivers are being patched regularly will help eliminate these as a source of quality issues and make the user experience more predictable and consistent.
 
-Typically, you’ll need to replace poorly performing devices with certified devices. Some considerations when reviewing the device report include:
+##### Audio
 
--   Are the devices certified or known to be good in your environment? If a certified or good device is returned in the query with a lower MOS score than your baseline, there may be unknown additional factors (such as a poor network or underpowered pc) that is contributing to the low score. Additional investigation will be required.
+The next task is to determine the overall usage of [certified audio devices](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs). We recommend that at least 80 percent of all audio streams use a certified audio device. This is best accomplished by exporting the microphone devices report to Excel to calculate the usage of certified or approved devices. Organizations typically keep a list of all approved devices, so filtering and sorting the data should be straightforward.
 
--   You can identify users of a device through [Call Analytics](#call-analytics-training). Check to make sure they have the latest device drivers and that their device isn’t connected through a USB hub.
+##### Video
 
--   Check to see whether there’s a correlation between bad devices and a particular system’s make and model. If so, the device might be incompatible or need driver upgrades.
+Video drivers are important to keep updated as well. Ensuring that video cards are being regularly patched will help exclude video drivers as a source of poor quality for video streams. Using [certified video devices](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) will help ensure a smooth and high-quality user experience. Video devices that support H.264 native encoding are preferred, to reduce CPU usage during video conferencing.
 
-The second task is to determine the overall usage of non-certified devices. We recommend that at least 80 percent of all audio streams use a certified device. This is best accomplished by exporting the Devices report to Excel and manually calculating the usage of certified or approved devices. Organizations typically keep a list of all approved devices, so filtering and sorting the data should be straightforward.
+##### Wi-Fi
+
+Wi-Fi drivers also need to be patched on a regular cadence as well and should be included in your patch management strategy. Many quality issues can be corrected by maintaining up-to-date Wi-Fi drivers. For more information about optimizing your Wi-Fi infrastructure, see [this article about Wi-Fi planning](/skypeforbusiness/certification/networking-wifi).
 
 ## Appendix A. Lync Networking Guide
 
