@@ -1,5 +1,5 @@
 ---
-title: Using PowerShell to manage Teams
+title: Use PowerShell to manage Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,7 +11,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Using PowerShell to manage Teams
+# Use PowerShell to manage Teams
 
 You can use PowerShell or the Microsoft Teams and Skype for Business admin center to manage features in Teams.  
 
@@ -48,4 +48,4 @@ In addition to a supported operating system, the computer must also be running t
 [Use this topic for help](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
 
 ### Related topics
-- [Using admin roles to manage Teams](using-admin-roles.md)
+- [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)
