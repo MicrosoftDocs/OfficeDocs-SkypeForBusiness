@@ -106,7 +106,7 @@ To see a table with the license or licenses you will need for each feature, see 
   
 ## Related topics
 
-- [Set up Skype for Business Online](SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+- [Set up Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
 - [Set up Phone System voicemail - Admin help](set-up-phone-system-voicemail.md)
     
