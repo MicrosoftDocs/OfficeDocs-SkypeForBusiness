@@ -102,7 +102,7 @@ For extensive documentation on planning your deployment, including Phone System 
     
 - [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) and [Calling Plans for Office 365](/MicrosoftTeams/calling-plans-for-office-365)
     
-- [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
+- [Add funds and manage Communications Credits](/microsoftteams/add-funds-and-manage-communications-credits)
     
 - [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
     

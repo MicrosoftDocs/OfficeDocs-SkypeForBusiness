@@ -51,7 +51,7 @@ You must be an [About Office 365 admin roles](http://support.office.com/article/
     
 ### To buy and assign pay-per-minute Audio Conferencing licenses:
 
-If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conferencing licenses. For additional information on pay-per-minute Audio Conferencing licenses, see [Audio Conferencing pay-per-minute](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md). 
+If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conferencing licenses. For additional information on pay-per-minute Audio Conferencing licenses, see [Audio Conferencing pay-per-minute](/microsoftteams/audio-conferencing-pay-per-minute). 
   
 1. Find out if **Audio Conferencing** is available in your country/region. [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
     

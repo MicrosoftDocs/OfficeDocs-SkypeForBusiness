@@ -50,7 +50,7 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
 3. We also recommend that you assign Communications Credits licenses (they don’t cost anything) to the same people you assigned licenses to in the previous step. To learn how to set up Communications Credits, see [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).
     
 > [!NOTE]
-> You can also set up pay-per-minute Audio Conferencing. Go [here](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md) to find out more about how to use them.
+> You can also set up pay-per-minute Audio Conferencing. Go [here](/microsoftteams/audio-conferencing-pay-per-minute) to find out more about how to use them.
 
 ## Step 3: Get service numbers for your conferencing bridges
 <a name="__top"> </a>

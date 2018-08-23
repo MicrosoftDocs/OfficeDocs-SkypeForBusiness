@@ -196,7 +196,7 @@ Take a look at the sample script for assigning **Audio Conferencing** licenses. 
   
 [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
   
-[Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
+[Add funds and manage Communications Credits](/microsoftteams/add-funds-and-manage-communications-credits)
   
   
  
