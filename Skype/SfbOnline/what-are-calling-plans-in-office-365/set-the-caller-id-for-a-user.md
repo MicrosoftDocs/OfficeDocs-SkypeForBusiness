@@ -175,7 +175,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 [Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
+[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [More about Calling Line ID and Calling Party Name](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 

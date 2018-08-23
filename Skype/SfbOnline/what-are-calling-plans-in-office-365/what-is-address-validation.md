@@ -34,7 +34,7 @@ Validating a street or civic address involves making sure that it is correct and
 ## Related topics
 [What are emergency locations, addresses, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
 
-[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 

@@ -72,7 +72,7 @@ To make submitting the port order easy and avoid errors, make sure you do the fo
 
 [Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
+[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 

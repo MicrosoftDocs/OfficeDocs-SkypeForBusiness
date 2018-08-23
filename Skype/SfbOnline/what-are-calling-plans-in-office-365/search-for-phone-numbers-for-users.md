@@ -28,7 +28,7 @@ When you are setting up users in your organization to make and receive phone cal
   
 Before you can assign phone numbers to your users, you must use the **New numbers** page to search for numbers that are available for you within an area. You can search by **Country/region**, **State**, and **City**, and then enter the number of phone numbers you will need for your users. 
   
-If you need some help with getting phone numbers, you can see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) or [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+If you need some help with getting phone numbers, you can see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) or [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## Search for phone numbers
 
@@ -65,7 +65,7 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
 
 [Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
+[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
