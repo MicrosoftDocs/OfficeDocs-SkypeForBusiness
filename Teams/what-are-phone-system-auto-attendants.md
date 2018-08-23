@@ -28,7 +28,7 @@ Phone System in Office 365 auto attendants can be used to create a menu system f
   
 When people call, they are presented with a series of voice prompts that help them place a call to a user or locate someone in your organization and then place a call to that user. An auto attendant is a series of voice prompts or an audio file that callers hear instead of a human operator when they call in to an organization. An auto attendant lets callers move through the menu system, place calls, or locate users by using a phone keypad (DTMF) or voice inputs using speech recognition. 
   
-To set up an auto attendant for the Phone System in Office 365, go [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md).
+To set up an auto attendant for the Phone System in Office 365, go [Set up a Phone System auto attendant](/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
   
 A Phone System auto attendant has the following features:
   
@@ -44,12 +44,12 @@ A Phone System auto attendant has the following features:
 
 To get started using auto attendants, it's important to remember that:
   
-- Your organization must have (at a minimum) an Enterprise E3 plus **Phone System** license or an Enterprise E5 license. The number of **Phone System** user licenses that are assigned impacts the number of service numbers that are available to be used for auto attendants. The number of auto attendants you can have is dependent on the number **Phone System** and **Audio Conferencing** licenses that are assigned in your organization. To learn more about licensing, go [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Your organization must have (at a minimum) an Enterprise E3 plus **Phone System** license or an Enterprise E5 license. The number of **Phone System** user licenses that are assigned impacts the number of service numbers that are available to be used for auto attendants. The number of auto attendants you can have is dependent on the number **Phone System** and **Audio Conferencing** licenses that are assigned in your organization. To learn more about licensing, go [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
     
     > [!TIP]
-    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See[Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See[Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- To get and use toll-free service numbers for your auto attendants, you need to set up Communications Credits. To do this, see [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md) and [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).
+- To get and use toll-free service numbers for your auto attendants, you need to set up Communications Credits. To do this, see [What are Communications Credits?](what-are-communications-credits.md) and [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).
     
     > [!IMPORTANT]
     > User (subscriber) phone numbers can't be assigned to auto attendants - only service toll or toll-free phone numbers can be used. 
@@ -192,7 +192,7 @@ You can set the following as the operator:
   
 - Another auto attendant that's set up for your organization.
     
-- Any existing call queue that's set up in your organization. To see more about call queues, see [Create a Phone System call queue](create-a-phone-system-call-queue.md).
+- Any existing call queue that's set up in your organization. To see more about call queues, see [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
     
 ### Business hours and call handling
 
@@ -209,7 +209,7 @@ Each auto attendant has call-handling options that can be set:
     > [!NOTE]
     > Users hosted on-premises using Lync Server 2010 aren't supported. 
   
-  - Redirect the call to a call queue. To see more about call queues, see [Create a Phone System call queue](create-a-phone-system-call-queue.md).
+  - Redirect the call to a call queue. To see more about call queues, see [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
     
   - Redirect the call to another auto attendant that you have set up.
     
@@ -234,14 +234,14 @@ Keys 0 through 9 can be assigned to **Menu Options** in an auto attendant using 
   
 The name of every menu option becomes a speech-recognition keyword if speech recognition has been enabled. For example, callers can say "One" to select the menu option mapped to key 1, or they can simply say "Sales" to select the same menu option named "Sales."
   
-To set up an auto attendant and the menu options, go [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md).
+To set up an auto attendant and the menu options, go [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
   
 ### Getting service numbers for an auto attendant
 
-Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. Once you get the toll or toll-free service phone numbers, they will show up in the **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md) or, if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
+Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. Once you get the toll or toll-free service phone numbers, they will show up in the **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) or, if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
-> If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it.
+> If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md) instead to see how to do it.
   
 ## Changing the user's Caller ID to be a call queue's phone number
 
@@ -259,14 +259,14 @@ Then apply the policy to the user using the **Grant-CallingLineIdentity** cmdlet
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-You can get more information on how to make changes to caller ID settings in your organization [How can caller ID be used in your organization](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
+You can get more information on how to make changes to caller ID settings in your organization [How can caller ID be used in your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
   
 ## Related topics
-[Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md)
+[Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
-[Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
  

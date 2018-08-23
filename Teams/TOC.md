@@ -216,7 +216,7 @@
 ### [Use inline message translation in Teams](inline-message-translation-teams.md)
 ## Cloud voice
 ### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Add funds and manage Communications Credits](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 ### [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 ### [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Manage phone numbers for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -226,7 +226,7 @@
 #### [Audio Conferencing in Office 365](audio-conferencing-in-office-365.md)
 #### [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Audio Conferencing common questions](audio-conferencing-common-questions.md)
-#### [Audio Conferencing pay-per-minute](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Audio Conferencing pay-per-minute](audio-conferencing-pay-per-minute.md)
 #### [Audio Conferencing supported languages](audio-conferencing-supported-languages.md)
 #### [Audio Conferencing troubleshooting and known issues](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
@@ -289,7 +289,7 @@
 #### [Set the Caller ID for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set up Phone System voicemail](set-up-phone-system-voicemail.md)
-#### [What are Phone System auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
 ### Phone System Direct Routing
 #### [Plan Direct Routing](direct-routing-plan.md)
 #### [Configure Direct Routing](direct-routing-configure.md)

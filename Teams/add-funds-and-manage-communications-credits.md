@@ -72,15 +72,15 @@ You can see the plans and pricing by visiting one of the following links:
     
 You can also see information by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
-To see a table with the license or licenses you will need for each feature, see [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md).
+To see a table with the license or licenses you will need for each feature, see [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
   
 ## Related topics
 
-- [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+- [Set up Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Set up Phone System voicemail - Admin help](/microsoftteams/set-up-phone-system-voicemail)
+- [Set up Phone System voicemail - Admin help](set-up-phone-system-voicemail.md)
     
-- [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) and [Calling Plans for Office 365](/MicrosoftTeams/calling-plans-for-office-365)
+- [Set up Calling Plans](set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md)
         
 - [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
 
