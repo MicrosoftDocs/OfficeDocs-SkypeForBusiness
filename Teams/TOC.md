@@ -76,10 +76,6 @@
 ### [Use Call Analytics to troubleshoot poor Skype for Business call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Call Analytics and Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-## Use admin roles and PowerShell to manage Teams
-### [Use PowerShell to manage Teams](using-powershell-to-manage-teams.md)
-### [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)
-
 ## Troubleshoot & support
 ### [Known issues for Teams](Known-issues.md)
 ### [Support resources for Teams](support-resources.md)
