@@ -310,7 +310,7 @@ CQD can report on both Teams and Skype for Business telemetry. However, there mi
 
 To modify the summary reports page to look at only Teams or Skype for Business, select the **Product Filter** drop-down menu from the top of the screen, and then select the product you want.
 
-![Drop-down menu showing the option to filter CQD reports by workload](media/qerguide-image-productfilter.png "Drop-down menu showing the option to filter CQD reports by workload")
+![Drop-down menu showing the option to filter CQD reports by workload](media/qerguide-image-productfilter.png)
 
 _Figure 4 - Select a Product Filter_
 
@@ -330,7 +330,7 @@ For more information about URL filters, see [Filtering reports](#filtering-repor
 
 To filter an individual detailed report, add the filter ``Is Teams`` to the report and set it to True or False. For more information, see [Editing reports](#editing-reports) later in this section.
 
-![Add a filter to a detailed report.](media/qerguide-image-addteamsfilter.png "Add a filter to a detailed report.")
+![Add a filter to a detailed report.](media/qerguide-image-addteamsfilter.png)
 
 _Figure 5 - Adding a Microsoft Teams filter to a report_
 
@@ -436,13 +436,13 @@ _Figure 7 - Accessing CQD through the Skype for Business admin center_
 
 When you first browse to CQD, you’ll see the Summary Reports page. Most of the reports described in this guide are custom detailed reports. To get started using the detailed reports, select **Summary Reports** at the top of the page, and then choose **Detailed Reports**.
 
-![Different types of reports that are available in CQD](media/qerguide-image-choosereports.png "Different types of reports that are available in CQD")
+![Different types of reports that are available in CQD](media/qerguide-image-choosereports.png)
 
 _Figure 8 - Navigating to Detailed Reports_
 
 The Detailed Reports page in CQD looks like the following illustration.
 
-![Different elements that make up a detailed report.](media/qerguide-image-detailedreportspage.png "Different elements that make up a detailed report")
+![Different elements that make up a detailed report.](media/qerguide-image-detailedreportspage.png)
 
 _Figure 9 - Detailed Reports page_
 
@@ -460,7 +460,7 @@ Point to bar charts and trend lines in the report to display detailed values. Th
 
 When you select **Edit** on the action menu of a report, you’ll open Query Editor. Each report is backed by a query to CQD. A report is a visualization of the data returned by its query. The Query Editor is a UI for editing these queries in addition to the display options for the report, as illustrated in the following figure.
 
-![Different elements that make up a report when the report is being edited.](media/qerguide-image-queryeditor.png "Different elements that make up a report when the report is being edited")
+![Different elements that make up a report when the report is being edited.](media/qerguide-image-queryeditor.png)
 
 _Figure 10 - Query Editor_
 
@@ -813,7 +813,7 @@ This summary report is used to discover and isolate any buildings or networks th
 > Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
 
 
-![A list of reasons for call setup failures, organized by building, network, and subnet per month](media/qerguide-image-setupfailuresbysubnet.png "A list of reasons for call setup failures, organized by building, network, and subnet per month")
+![A list of reasons for call setup failures, organized by building, network, and subnet per month](media/qerguide-image-setupfailuresbysubnet.png)
 
 _Figure 18 - Audio Setup Failures by Subnet_
 
@@ -846,7 +846,7 @@ Unlike setup failure codes, CDQ has no drop failure code to indicate why drop fa
 
 This report displays the total amount of audio streams, total drop failures, and the drop failure rate. Point to any one of the columns to display its values, as shown in the following figure. 
 
-![Chart showing the percentage of streams that were dropped](media/qerguide-image-droppedstreamrate.png "Chart showing the percentage of streams that were dropped")
+![Chart showing the percentage of streams that were dropped](media/qerguide-image-droppedstreamrate.png)
 
 _Figure 19 - Dropped stream rate_
 
@@ -869,7 +869,7 @@ Failures reported here indicate that the call was dropped unexpectedly and resul
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
 
 
-![Report that lists number and percentage of drop failures, organized by building, network, and subnet per month](media/qerguide-image-dropfailuresbysubnet.png "Report that lists number and percentage of drop failures, organized by building, network, and subnet per month")
+![Report that lists number and percentage of drop failures, organized by building, network, and subnet per month](media/qerguide-image-dropfailuresbysubnet.png)
 
 _Figure 20 – Drop failures by subnet_
 
@@ -922,7 +922,7 @@ Trending reports display quality information over time and are used to help iden
 > [!Important]
 > VPN-based reports are filtered by using the Second VPN dimension. This dimension requires that the VPN network adapter be properly registered as a Remote Access Adapter.  VPN vendors don’tt reliably use this flag, and your mileage will vary depending on the VPN vendor deployed at your organization. Follow the guidance outlined [earlier in this guide](NEED LINK) for modifying the VPN reports if needed by using the building or network name.
 
-![Chart showing the percentage of poor quality streams](media/qerguide-image-audioqualityconferencing.png "Chart showing the percentage of poor quality streams")
+![Chart showing the percentage of poor quality streams](media/qerguide-image-audioqualityconferencing.png)
 
 _Figure 21 – Audio Quality - Conferencing_
 
@@ -950,7 +950,7 @@ Although the dimensions used might differ slightly between report, each report w
 > Common subnets are difficult to triage due to their widespread use. A separate report that displays the client’s public IP (Second Reflexive Local IP) has been added to the All Networks template to assist with remediating offices that use common networks.
 
 
-![Poor audio stream summary](media/qerguide-image-poorqualitysummary.png "Poor audio stream summary")
+![Poor audio stream summary](media/qerguide-image-poorqualitysummary.png)
 
 _Figure 22 – Poor Audio Stream Summary by Building and Subnet - Conferencing_
 
@@ -995,7 +995,7 @@ The reports in this section don’t make a distinction between good and poor str
 
 TCP reports indicates the overall TCP usage over the last seven months. All further reports in this section will focus on narrowing down specific buildings and subnets where TCP is most commonly used. Separate reports are available for both conferencing and two-party streams.
 
-![Chart showing the percentage of audio streams that use TCP](media/qerguide-image-audiostreamswithtcp.png "Chart showing the percentage of audio streams that use TCP")
+![Chart showing the percentage of audio streams that use TCP](media/qerguide-image-audiostreamswithtcp.png)
 _Figure 23 – Audio Streams with TCP Usage_
 
 
@@ -1014,7 +1014,7 @@ If you notice that the TCP usage trend is increasing or above normal monthly usa
 
 This report identifies the volume of TCP versus UDP usage reporting on the latest month for audio, video, and video-based screen sharing (VBSS). 
 
-![Report showing the volume of streams that use TCP versus UDP](media/qerguide-image-tcpvsudp.png "Report showing the volume of streams that use TCP versus UDP")
+![Report showing the volume of streams that use TCP versus UDP](media/qerguide-image-tcpvsudp.png)
 
 _Figure 24 – TCP vs. UDP - Conferencing_
 
@@ -1034,7 +1034,7 @@ In the provided CQD templates, navigate to the TCP Streams by Building and Subne
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.                                  |
 
-![TCP usage by building and subnet](media/qerguide-image-tcpstreams.png "TCP usage by building and subnet")
+![TCP usage by building and subnet](media/qerguide-image-tcpstreams.png)
 
 _Figure 25 – TCP Streams by Building and Subnet - Conferencing_
 
@@ -1067,7 +1067,7 @@ We always recommend that you configure the client to directly connect to Teams a
 
 The HTTP proxy stream report in this section of the template is much like the TCP reports. It doesn’t look at whether calls are poor or good, but whether the call is connected over HTTP.
 
-![Report of audio streams that use HTTP](media/qerguide-image-audiostreamswithhttp.png "Report of audio streams that use HTTP")
+![Report of audio streams that use HTTP](media/qerguide-image-audiostreamswithhttp.png)
 
 _Figure 26 – Audio Streams with HTTP Proxy Usage_
 
