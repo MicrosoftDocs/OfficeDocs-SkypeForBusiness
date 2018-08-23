@@ -31,7 +31,7 @@ For more information on the [Telstra Calling for Office 365](http://aka.ms/Telst
 
 Use this table to find information on getting and managing phone numbers in Australia for Skype for Business Online and Microsoft Teams. 
 
-For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
+For more information, see  [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
   
 |**What you want to do?**|**Do these steps and download the correct forms**|
 |:-----|:-----|
@@ -49,4 +49,4 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 
 [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
 
-[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
