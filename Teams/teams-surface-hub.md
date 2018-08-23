@@ -157,7 +157,7 @@ These instructions are for installing Teams for Surface Hub from the Microsoft S
 There are two options for configuring the default calling and meetings application policy: 
 
 - **Option 1**: Configure via USB key. 
-- **Option 2**: Configure via MDM such as InTune.
+- **Option 2**: Configure via MDM such as Intune.
  
 ### Option 1: Configure via USB key 
  
@@ -180,9 +180,9 @@ The packages can be found on this [download page](https://1drv.ms/f/s!ArcnbnREun
 9. Restart the Surface Hub device. 
 10. After the device restarts, you should be able to start the Teams app from the Start screen and join a meeting from the calendar. 
 
-### Option 2: Configure via MDM such as InTune 
+### Option 2: Configure via MDM such as Intune 
 
-Use the following to configure the default calling and meetings application policy via InTune.
+Use the following to configure the default calling and meetings application policy via Intune.
 
 |Setting   |Value    |Description    |
 |----------|---------|---------|
