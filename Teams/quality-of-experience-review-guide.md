@@ -90,7 +90,6 @@ The actual measurement in CQD varies by workload, but for the purposes of the Qu
 > CQD provides the “Poor Due To…” measurements to better understand what condition caused the stream to be classified as poor.
 
 
-<!-- Used to be Table 2-->
 _Table 1 - Poor service metrics_
 
 | Metric average     | Description     | User experience |
@@ -127,8 +126,22 @@ This section discusses some of the core service metrics that we use to assess ho
 
 <!-- NEW TABLE -->
 _Table 2 - Core target health assessment metrics-
+<table>
+<tr>
+<td rowspan="2" colspan="2">Network type</td><td rowspan="1">Quality targets</td><td colspan="2">Reliability targets</td></tr>
+<tr><td>Audio Poor Stream Rate</td><td>Setup Failure Rate</td><td>Drop Failure Rate</td></tr>
+<tr><td rowspan="2">All</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
+<tr><td rowspan="5">Conferencing</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
+<tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
+<tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
+<tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
+<tr><td rowspan="3">P2P</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
+<tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
+</table>
 
-| Network type | 
 
 It's important to discuss and define your organization’s targets to meet your business objectives.
 
