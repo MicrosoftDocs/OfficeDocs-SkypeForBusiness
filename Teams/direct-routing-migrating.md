@@ -74,8 +74,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 For more information about migrating from Phone System with on-premises PSTN connectivity in Skype for Business Server, see the following:
 
-- [Planning](https://technet.microsoft.com/en-us/library/mt455212.aspx)
-- [Deploying](https://technet.microsoft.com/en-us/library/mt634319.aspx) 
+- [Planning](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [Deploying](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
 It is recommended that you remove previously configured voice routing information as follows:
 
@@ -86,8 +86,8 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 
 For more information about migrating from Phone System with on-premises PSTN connectivity via Cloud Connector, see the following:
 
-- [Planning](https://technet.microsoft.com/en-us/library/mt605227.aspx)  
-- [Deploying](https://technet.microsoft.com/en-us/library/mt634319.aspx)
+- [Planning](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [Deploying](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
 - [User configuration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
 It is recommended that you remove previously configured voice routing information as follows:

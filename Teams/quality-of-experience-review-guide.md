@@ -3,7 +3,7 @@ title: Quality of Experience Review Guide for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 04/12/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -207,7 +207,7 @@ _Table 2 - Poor Call Service Metrics_
 | Jitter \>30 ms                                   | This is the average change in delay between successive packets. Teams and Skype for Business can adapt to some levels of jitter through buffering. It’s only when the jitter exceeds the buffering that a participant notices the effects of jitter.                                                                                                                         | The packets arriving at different speeds cause a speaker’s voice to sound robotic.                                                                                       |
 | Packet loss rate \>10% or 0.1                    | This is often defined as a percentage of packets that are lost. Packet loss directly affects audio quality—from small, individual lost packets that have almost no impact to back-to-back burst losses that cause audio to cut out completely.                                                                                                                               | The packets being dropped and not arriving at their intended destination cause gaps in the media, resulting in missed syllables and words, and choppy video and sharing. |
 | Round-trip time \>500 ms                         | This is the time it takes to get an IP packet from point A to point B and back to point A. This network propagation delay is tied to the physical distance between the two points and the speed of light and includes additional overhead taken by the various devices in the network path.                                                                                  | The packets taking too long to arrive at their destination cause a walkie-talkie effect.                                                                                 |
-| NMOS degradation average \> 1.0                  | One or more of these network metrics, although individually weren’t poor, together caused the Network [Mean Opinion Score](https://technet.microsoft.com/library/bb894481(v=office.12).aspx) (NMOS) to drop by more than one point. This doesn’t necessarily mean the network connection is poor, but enough issues occurred during the call that quality was reduced. | This is a combination of jitter, packet loss, and—to a lesser degree—increased round-trip time. The user might be experiencing a combination of these symptoms.          |
+| NMOS degradation average \> 1.0                  | One or more of these network metrics, although individually weren’t poor, together caused the Network [Mean Opinion Score](https://docs.microsoft.com/en-us/previous-versions/office/communications-server/bb894481(v=office.12)) (NMOS) to drop by more than one point. This doesn’t necessarily mean the network connection is poor, but enough issues occurred during the call that quality was reduced. | This is a combination of jitter, packet loss, and—to a lesser degree—increased round-trip time. The user might be experiencing a combination of these symptoms.          |
 | Average ratio of concealed samples \> 7% or 0.07 | One or more of these network metrics, although individually weren’t poor, caused the client to self-heal the media. A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.                                                                                                                | High values indicate that significant levels of loss concealment were applied, and resulted in distorted or lost audio.                                                  |
 
 #### Client and device readiness
@@ -254,7 +254,7 @@ We always recommend that Teams and Skype for Business users use a certified
 headset or speaker when participating in a voice call by using a desktop client.
 For more information about Microsoft certified devices, review this [article
 about phones and qualified
-devices](https://technet.microsoft.com/office/dn788944.aspx). Use the
+devices](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/ip-phones). Use the
 [Device Report](#devices-investigations), later in this guide, for assistance
 with managing your devices. You can also use the Rate My Call sample reports to
 further enhance your device readiness strategy.
@@ -444,7 +444,7 @@ Permission requirements
 #### Skype for Business Online using PowerShell
 
 1.  [Connect to Skype for Business Online via
-    PowerShell](https://technet.microsoft.com/library/dn362839(v=ocs.15).aspx).
+    PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 2.  Run the following command:  
     **(Get-cstenant).tenantid**
@@ -693,7 +693,7 @@ _Table 4 - Report Filter_
 
 ## Import the CQD templates
 
-This guide includes [two curated CQD templates](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true). These templates accelerate your
+This guide includes [two curated CQD templates](https://aka.ms/qertemplates). These templates accelerate your
 usage of CQD and provide you an opportunity to quickly leverage CQD’s
 capabilities to make an impact on your users’ Teams or Skype for Business
 experience. The All Networks template, though optimized to work with a building
@@ -1495,7 +1495,7 @@ below:
     releases](https://technet.microsoft.com/office/mt465751?f=255&MSPPError=-2147217396)
 
 -   [Office 365 version and build numbers for Click to
-    run](https://support.office.com/article/Version-and-build-numbers-of-update-channel-releases-ae942449-1fca-4484-898b-a933ea23def7)
+    run](https://docs.microsoft.com/en-us/officeupdates/update-history-office365-proplus-by-date)
 
 -   [Skype for Business downloads and
     updates](https://technet.microsoft.com/office/dn788954.aspx)
@@ -1657,7 +1657,7 @@ Business Online.
 ### Building data file
 
 -   [Turning on and using CQD in Skype for Business
-    Online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-in-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)
+    Online](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)
 
 <a name="CQD-training"></a>
 
@@ -1670,7 +1670,7 @@ Business Online.
     guide and workshop.
 
 -   [CQD Dimensions and Measures online
-    guide](https://support.office.com/article/Dimensions-and-measures-available-in-Call-Quality-Dashboard-in-Skype-for-Business-Online-e97aeeee-9e43-416f-b433-9cdd63d8874b)
+    guide](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard)
 
 ### Call Analytics training
 
@@ -1678,13 +1678,13 @@ Business Online.
     Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
 -   [Set up Skype for Business Call
-    Analytics](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-FBF7247A-84AE-46CC-9204-2C45B1C734CD)
+    Analytics](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics)
 
 -   [Call Analytics and Call Quality
-    Dashboard](https://support.office.com/article/What-s-the-difference-between-Call-Analytics-and-Call-Quality-Dashboard-4CD5FE35-8463-4996-A252-086CD3CA2D9A)
+    Dashboard](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
 
 -   [Use Call Analytics to troubleshoot poor Skype for Business call
-    quality](https://support.office.com/article/Use-Call-Analytics-to-troubleshoot-poor-Skype-for-Business-call-quality-66945036-ae87-4c08-a0bb-984e50d6b009)
+    quality](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)
 
 ### Call Analytics support
 
@@ -1709,7 +1709,7 @@ Business Online.
     Pack](https://blogs.office.com/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
 
 -   [Skype for Business Online
-    reporting](https://support.office.com/article/Skype-for-Business-Online-reporting-4935cddf-fafa-442d-91a3-246af01f8373)
+    reporting](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 
 -   [Microsoft Teams
     reporting](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)
