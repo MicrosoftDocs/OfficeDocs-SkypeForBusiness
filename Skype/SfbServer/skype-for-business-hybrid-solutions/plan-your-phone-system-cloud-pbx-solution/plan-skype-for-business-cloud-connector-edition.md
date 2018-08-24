@@ -592,7 +592,7 @@ If you are using TLS between the gateway and the Mediation Server, you will need
 ## Dial plan considerations
 <a name="BKMK_DailPlan"> </a>
 
-Cloud Connector requires the use of an online dial plan. For more information on how to configure an online dial plan, see [What are dial plans?](../../../SfbOnline/what-are-calling-plans-in-office-365/what-are-dial-plans.md) 
+Cloud Connector requires the use of an online dial plan. For more information on how to configure an online dial plan, see [What are dial plans?](/microsoftteams/what-are-dial-plans) 
   
 ## High availability considerations
 <a name="BKMK_HA"> </a>

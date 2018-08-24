@@ -40,7 +40,7 @@ What you need to know before assigning Audio Conferencing, Phone System and Call
     
 - **Error messages**: You will get an error message if you haven't purchased the correct number of licenses. If you need to buy more Calling Plan licenses, choose **Buy more**.
     
-- **Next steps**: After you assign Calling Plan licenses to your users, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).
+- **Next steps**: After you assign Calling Plan licenses to your users, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
     
 ### How to assign a Phone System and Calling Plan license to one user
 
@@ -182,7 +182,7 @@ foreach ($user in $users)
 
 - **Enterprise E5 customers**: Even if your users are assigned Enterprise E5 licenses, we still recommend that you assign them **Communications Credits** licenses.
     
-- **Next steps**: After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).
+- **Next steps**: After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
     
 ### How to assign a Communications Credits license to one user
 
@@ -194,7 +194,7 @@ Take a look at the sample script for assigning **Audio Conferencing** licenses. 
   
 ## Related topics
   
-[Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
+[Set up Calling Plans](set-up-calling-plans)
   
 [Add funds and manage Communications Credits](/microsoftteams/add-funds-and-manage-communications-credits)
   

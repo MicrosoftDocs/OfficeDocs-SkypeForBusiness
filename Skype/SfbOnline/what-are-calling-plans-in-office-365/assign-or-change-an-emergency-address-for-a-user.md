@@ -24,7 +24,7 @@ description: "Learn how to set up an emergency address and phone number for each
 
 # Assign or change an emergency address for a user
 
-When you are setting up Calling Plans in Office 365, you will need to assign a phone number and emergency address to each of your users. The emergency address must be created before you can associate it with a phone number. See [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md) for more information.
+When you are setting up Calling Plans in Office 365, you will need to assign a phone number and emergency address to each of your users. The emergency address must be created before you can associate it with a phone number. See [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for more information.
   
 Want to know how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   

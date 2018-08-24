@@ -32,7 +32,7 @@ Validating a street or civic address involves making sure that it is correct and
 
   
 ## Related topics
-[What are emergency locations, addresses, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
+[What are emergency locations, addresses, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 

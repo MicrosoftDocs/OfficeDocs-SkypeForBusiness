@@ -110,7 +110,7 @@ To see a table with the license or licenses you will need for each feature, see 
     
 - [Set up Phone System voicemail - Admin help](set-up-phone-system-voicemail.md)
     
-- [Set up Calling Plans](set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365)
+- [Set up Calling Plans](set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md)
     
 - [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
     

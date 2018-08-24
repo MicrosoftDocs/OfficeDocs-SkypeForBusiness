@@ -62,13 +62,13 @@ Calling Plans (domestic and domestic and international) are available in specifi
 
 - **Call queues**  With Phone System, you can create call queue greetings that are used when someone calls in to a phone number for your organization; this includes the ability to automatically put the calls on hold and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization. See [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
-- **Voicemail** When you get a Phone System license for a user, that user will be able to get voicemail that has been left by callers. Phone System voicemail is automatically set up and provisioned for users after you assign a Phone System license and a phone number to them. See [Set up Phone System voicemail](phone-system-voicemail/set-up-phone-system-voicemail.md).
+- **Voicemail** When you get a Phone System license for a user, that user will be able to get voicemail that has been left by callers. Phone System voicemail is automatically set up and provisioned for users after you assign a Phone System license and a phone number to them. See [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
 
 If you're ready to get started, see [Setting up Phone System in your organization](setting-up-your-phone-system.md).
 
 ## Related topics
 - [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
-- [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans)
+- [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Getting phones for Skype for Business Online](/skypeforbusiness/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
 

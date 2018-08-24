@@ -100,7 +100,7 @@ For extensive documentation on planning your deployment, including Phone System 
     
 - [Set up Phone System voicemail - Admin help](/microsoftteams/set-up-phone-system-voicemail)
     
-- [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) and [Calling Plans for Office 365](/MicrosoftTeams/calling-plans-for-office-365)
+- [Set up Calling Plans](/microsoftteams/set-up-calling-plans) and [Calling Plans for Office 365](/MicrosoftTeams/calling-plans-for-office-365)
     
 - [Add funds and manage Communications Credits](/microsoftteams/add-funds-and-manage-communications-credits)
     

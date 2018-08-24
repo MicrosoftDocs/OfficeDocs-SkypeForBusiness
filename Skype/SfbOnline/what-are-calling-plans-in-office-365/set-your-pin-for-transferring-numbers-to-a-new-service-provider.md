@@ -29,7 +29,7 @@ To transfer or  *port out*  phone numbers from Skype for Business Online to anot
 > [!IMPORTANT]
 > A port out PIN is only used for organizations in the United States. 
   
-See [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) for more information about transferring and porting in/out phone numbers.
+See [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) for more information about transferring and porting in/out phone numbers.
   
 Here is some specific information about this PIN you should know:
   

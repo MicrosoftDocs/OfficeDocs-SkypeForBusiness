@@ -63,7 +63,7 @@ Emergency addresses and locations are used during the process of routing emergen
 
     
 ## Related topics
-[What is address validation?](what-is-address-validation.md)
+[What is address validation?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
 [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

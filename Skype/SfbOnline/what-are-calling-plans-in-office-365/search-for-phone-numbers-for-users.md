@@ -58,7 +58,7 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
 7. Select the phone numbers you want ,and then click **Acquire numbers**.
     
     > [!IMPORTANT]
-    > You can acquire more phone numbers than you have licenses. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users. For more details, see [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md)
+    > You can acquire more phone numbers than you have licenses. To determine how many phone numbers you can acquire, take your number of licenses, add 10 percent of the number of licenses, and then add 10. For example, if you have 100 **Domestic Calling Plan** and/or **International Calling Plan** licenses, you can reserve 120 phone numbers, assuming that you have not already acquired some phone numbers for those 100 users. For more details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get)
 
 ## Related topics
 [Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
