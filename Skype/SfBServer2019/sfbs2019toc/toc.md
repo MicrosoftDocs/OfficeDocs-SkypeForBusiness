@@ -3,6 +3,10 @@
 ## [What's new](../whats-new.md)
 ## [What's deprecated](../deprecated.md)
 
+## [Skype for Business downloads and updates](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Client updates](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Server updates](../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+
 ## Hybrid solutions
 ### [Plan hybrid connectivity](../hybrid/plan-hybrid-connectivity.md)
 ### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity.md)
