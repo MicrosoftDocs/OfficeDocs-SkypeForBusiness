@@ -456,20 +456,14 @@ The Detailed Reports page in CQD looks like the following illustration.
 
 ![Different elements that make up a detailed report.](media/qerguide-image-detailedreportspage.png)
 
-_Figure 9 - Detailed Reports page_
-
 |             |           |
 | ------------|-----------|
-| ![one](media/qerguide-image-callout1.png) | The summary pane shows context for the report set that appears to the right. |
+| ![one](media/qerguide-image-callout1.png "one") | The summary pane shows context for the report set that appears to the right. |
+| ![two](media/qerguide-image-callout1.png "two") | You can select **Edit** in the summary pane to set report–level properties (including y-axis height) and to import new templates. |
+| ![one](media/qerguide-image-callout1.png) | The breadcrumb helps users identify their current location in the report set hierarchy. |
+| ![one](media/qerguide-image-callout1.png) | Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports. |
 
-
-1.  The summary pane shows context for the report set that appears to the right.
-
-2.  You can select **Edit** in the summary pane to set report–level properties (including y-axis height) and to import new templates.
-
-3.  The breadcrumb helps users identify their current location in the report set hierarchy.
-
-4.  Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports.
+_Figure 9 - Detailed Reports page_
 
 Point to bar charts and trend lines in the report to display detailed values. The report that has focus will show the action menu: **Edit**, **Clone**, **Delete**, **Download**, and **Export Report Tree**.
 
