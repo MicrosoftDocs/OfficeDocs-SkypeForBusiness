@@ -458,6 +458,11 @@ The Detailed Reports page in CQD looks like the following illustration.
 
 _Figure 9 - Detailed Reports page_
 
+|             |           |
+| ------------|-----------|
+| ![one](media/qerguide-image-callout1.png) | The summary pane shows context for the report set that appears to the right. |
+
+
 1.  The summary pane shows context for the report set that appears to the right.
 
 2.  You can select **Edit** in the summary pane to set report–level properties (including y-axis height) and to import new templates.
@@ -842,7 +847,7 @@ _Table 7 - Next Steps for Call Setup Failure Remediation_
 
 | Remediation           | Guidance     |
 |-----------------------|--------------|
-| Configure firewall(s) | Work with your network team and verify your firewall(s) configuration against [the Office 365 IP address list](https://aka.ms/o365ips).<br>Verify that the [media subnets](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) and ports are included in the firewall rules. <br>Verify that the necessary ports (listed below) are opened in the firewall. UDP should be given priority because TCP is considered a failback protocol for audio, video, and video-based screen sharing, and its use will affect the quality of the call. Legacy RDP application sharing uses TCP only.<br><ul><li>**TCP:** port 443</li><li>**UDP:** ports 3478–3481</li><ul> |
+| Configure firewall(s) | Work with your network team and verify your firewall(s) configuration against [the Office 365 IP address list](https://aka.ms/o365ips).<br><br>Verify that the [media subnets](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) and ports are included in the firewall rules. <br><br>Verify that the necessary ports (listed below) are opened in the firewall. UDP should be given priority because TCP is considered a failback protocol for audio, video, and video-based screen sharing, and its use will affect the quality of the call. Legacy RDP application sharing uses TCP only.<br><ul><li>**TCP:** port 443</li><li>**UDP:** ports 3478–3481</li><ul> |
 | Verify                | Use the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to verify connectivity from the affected building or subnet by using the connectivity check function.    |
 
 
