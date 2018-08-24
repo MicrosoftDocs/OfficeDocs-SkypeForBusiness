@@ -24,7 +24,6 @@ This guide is about the Drive Value phase for Microsoft Teams and Skype for Busi
 To have the greatest impact on improving the user experience, organizations need to operationalize the key areas that are shown in the following figure. Additional areas include identifying operational tasks, establishing targets for quality metrics, ascertaining the metrics to use to gauge organizational success, and narrowing areas of investigation as needed.
 
 
-<!-- Note: need to update graphic -->
 ![Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.](media/qerguide-image-keyareas.png "Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.")
 
 _Figure 1 - Key operational areas covered throughout this guide_
@@ -894,7 +893,7 @@ _Table 8 - Next steps for call drop remediation_
 
 | Remediation                              | Guidance                      |
 |------------------------------------------|-------------------------------|
-| Network/internet                         | **Congestion**: Work with your network team to monitor bandwidth at specific buildings/subnets to confirm that there are issues with overutilization. If you do confirm that there is network congestion, consider increasing bandwidth to that building or applying QoS. Use the included [Quality Poor Stream summary reports](NEED LINK) to review the problem subnets for issues with jitter, latency, and packet loss, because these will often precede a dropped stream.<br><br>You can also use the [Network Planner Tool](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) to help better understand your organization’s bandwidth needs.<br><br>**QoS**: If increasing bandwidth is impractical or cost-prohibitive, consider implementing QoS. This tool is very effective at managing congested traffic and can guarantee that media packets on the managed network are prioritized above non-media traffic. Alternatively, if there’s no clear evidence that bandwidth is the culprit, consider these solutions:<ul><li>[Microsoft Teams QoS guidance](qos-in-teams.md)</li><li>[Skype for Business QoS guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**Perform a network readiness assessment**: A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<ul><li>[Microsoft Teams Network Readiness Assessment](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. The tool helps you assess the performance of a subnet and validate the readiness of the network against Microsoft performance [requirements](https://aka.ms/performancerequirements).<ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br>**CxdCallData**: This script can be used to help map a subnet to specific users within Call Analytics. CQD doesn’t have any PII data, so it can be difficult to map subnets to actual users. If you note that certain subnets are experiencing high jitter or packet loss, you can use the script to extract data directly from the service to display individual call details like user name, transport, jitter, packet loss, latency, and more. The script will also return a direct link to the report in Call Analytics to allow for additional triage. This script can be found in the PowerShell Gallery:<ul><li>[https://www.powershellgallery.com/packages/CxdCallData](https://www.powershellgallery.com/packages/CxdCallData)</li></ul> |
+| Network/internet                         | **Congestion**: Work with your network team to monitor bandwidth at specific buildings/subnets to confirm that there are issues with overutilization. If you do confirm that there is network congestion, consider increasing bandwidth to that building or applying QoS. Use the included [Quality Poor Stream summary reports](#quality-investigations) to review the problem subnets for issues with jitter, latency, and packet loss, because these will often precede a dropped stream.<br><br>You can also use the [Network Planner Tool](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) to help better understand your organization’s bandwidth needs.<br><br>**QoS**: If increasing bandwidth is impractical or cost-prohibitive, consider implementing QoS. This tool is very effective at managing congested traffic and can guarantee that media packets on the managed network are prioritized above non-media traffic. Alternatively, if there’s no clear evidence that bandwidth is the culprit, consider these solutions:<ul><li>[Microsoft Teams QoS guidance](qos-in-teams.md)</li><li>[Skype for Business QoS guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**Perform a network readiness assessment**: A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<ul><li>[Microsoft Teams Network Readiness Assessment](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. The tool helps you assess the performance of a subnet and validate the readiness of the network against Microsoft performance [requirements](https://aka.ms/performancerequirements).<ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br>**CxdCallData**: This script can be used to help map a subnet to specific users within Call Analytics. CQD doesn’t have any PII data, so it can be difficult to map subnets to actual users. If you note that certain subnets are experiencing high jitter or packet loss, you can use the script to extract data directly from the service to display individual call details like user name, transport, jitter, packet loss, latency, and more. The script will also return a direct link to the report in Call Analytics to allow for additional triage. This script can be found in the PowerShell Gallery:<ul><li>[https://www.powershellgallery.com/packages/CxdCallData](https://www.powershellgallery.com/packages/CxdCallData)</li></ul> |
 | Clients (Skype for Business Online only) | Some older clients have known, documented issues with media reliability. Review the Call Analytics reports from multiple affected users, or create a custom Client Version table report in CQD filtered to specific buildings or subnets with Total Call Dropped Failure % measure. This information will help you understand whether a relationship exists between call drops in that specific building and a specific version of the client.     |
 | Devices                                  | We recommend that any users who are experiencing call drops—or poor calls in general—and are using integrated devices should be provisioned a [certified headset or speakerphone](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)  to eliminate this as a potential source of poor quality and reliability. |
 | User behavior                            | If you determine that neither network, devices, or clients are the issue, consider engaging [My Advisor](https://aka.ms/myadvisor)  for guidance in developing a user adoption strategy to educate users how to best join and exit meetings. A smarter Teams and Skype for Business user will produce a better user experience for all participants in the meeting. A user who puts their laptop to sleep (by closing the lid) without exiting the meeting will be classified as an unexpected call drop.   |
@@ -1197,61 +1196,62 @@ Video drivers are important to keep updated as well. Ensuring that video cards a
 
 Wi-Fi drivers also need to be patched on a regular cadence as well and should be included in your patch management strategy. Many quality issues can be corrected by maintaining up-to-date Wi-Fi drivers. For more information about optimizing your Wi-Fi infrastructure, see [this article about Wi-Fi planning](/skypeforbusiness/certification/networking-wifi).
 
-## Appendix A. Lync Networking Guide
+## Appendix 
 
-For more background on the Teams and Skype for Business networking concepts and rationale behind their importance to quality, the [Lync Server 2013 Networking Guide](https://blogs.technet.microsoft.com/nexthop/2013/06/03/lync-server-2013-networking-guide-network-planning-monitoring-and-troubleshooting-with-microsoft-lync-server/)
-is still applicable.
+### Planning for Wi-Fi
 
-## Appendix B. Network performance requirements
+Microsoft’s approach to drive quality and agility into the wireless networks comes in three parts: end to end planning, best practices in deployment, and proactive maintenance and operations. This solution brief walks you through this process to ensure an enterprise-class wireless Skype for Business experience: [Ensuring an Enterprise Class Wireless Skype for Business Experience](https://www.microsoft.com/download/details.aspx?id=47257)
+
+### Lync Networking Guide
+
+For more background on the Teams and Skype for Business networking concepts and rationale behind their importance to quality, the [Lync Server 2013 Networking Guide](https://blogs.technet.microsoft.com/nexthop/2013/06/03/lync-server-2013-networking-guide-network-planning-monitoring-and-troubleshooting-with-microsoft-lync-server/) is still applicable.
+
+### Network performance requirements
 
 The quality of real-time media (audio, video, and application sharing) over IP is greatly affected by the quality of end-to-end network connectivity. For optimal Teams or Skype for Business media quality, your network must meet the following network performance metrics.
 
 _Table 11 - Network performance requirements_
 
-| Metric                           | Client to Microsoft Edge           | Customer Edge to Microsoft Edge    |
-|----------------------------------|------------------------------------|------------------------------------|
-| Latency (one way)                | \<50 ms                            | \<30 ms                            |
-| Latency (RTT or Round-trip Time) | \<100 ms                           | \<60 ms                            |
-| Burst packet loss                | \<10% during any 200-ms interval   | \<1% during any 200-ms interval    |
-| Packet loss                      | \<1% during any 15-sec interval    | \<0.1% during any 15-sec interval  |
-| Packet inter-arrival Jitter      | \<30 ms during any 15-sec interval | \<15 ms during any 15-sec interval |
-| Packet reorder                   | \<0.05% out-of-order packets       | \< 0.01% out-of-order packets      |
+| Metric                            | Client to Microsoft Edge           | Customer Edge to Microsoft Edge    |
+|-----------------------------------|------------------------------------|------------------------------------|
+| Latency (one way)                 | \<50 ms                            | \<30 ms                            |
+| Latency (RTT, or round-trip time) | \<100 ms                           | \<60 ms                            |
+| Burst packet loss                 | \<10% during any 200-ms interval   | \<1% during any 200-ms interval    |
+| Packet loss                       | \<1% during any 15-sec interval    | \<0.1% during any 15-sec interval  |
+| Packet inter-arrival Jitter       | \<30 ms during any 15-sec interval | \<15 ms during any 15-sec interval |
+| Packet reorder                    | \<0.05% out-of-order packets       | \< 0.01% out-of-order packets      |
 
-For more information, see the following article about [media quality and network performance](https://aka.ms/performancerequirements) for Teams and Skype for Business Online.
+For more information, see [this article about media quality and network performance](https://aka.ms/performancerequirements) for Teams and Skype for Business Online.
 
-<a name="other-resources"></a>
+### Other resources
 
-## Appendix C. Other resources
+#### Building data file
 
-### Building data file
+-   [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)
 
--   [Turning on and using CQD in Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)
-
-<a name="CQD-training"></a>
-
-### CQD training
+#### CQD training
 
 -   <https://aka.ms/sof-cqd>
 
--   [Getting started with CQD](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Configuring%20Call%20Quality%20Dashboard%20to%20monitor%20your%20Skype%20for%20Business%20Online%20Environment) guide and workshop.
+-   [Getting started with CQD](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Configuring%20Call%20Quality%20Dashboard%20to%20monitor%20your%20Skype%20for%20Business%20Online%20Environment) guide and workshop
 
--   [CQD Dimensions and Measures online guide](https://aka.ms/cqd-dm)
+-   [Dimensions and measures available in Call Quality Dashboard](https://aka.ms/cqd-dm)
 
 ### Call Analytics training
 
 -   [Introducing Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [Set up Skype for Business Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics)
+-   [Set up Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics)
 
--   [Call Analytics and Call Quality Dashboard](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
+-   [What's the difference between Call Analytics and Call Quality Dashboard?](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
 
--   [Use Call Analytics to troubleshoot poor Skype for Business call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)
+-   [Use Call Analytics to troubleshoot poor call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)
 
 ### Call Analytics support
 
 -   Community: [Skype for Business Preview Program](https://techcommunity.microsoft.com/t5/Skype-for-Business-Preview/bd-p/SkypeforBusinessPreviewProgram)
 
--   To get support, sign in to our preview portal [www.skypepreview.com](http://www.skypepreview.com), select **Report an issue**, and use the **Create New Bug** option to report an issue. Please note that support engineers are available to provide support from Monday through Friday, between the hours of 6 AM to 9 PM EST. Requests outside of those hours will be triaged the following day.
+-   To get support, sign in to our preview portal [www.skypepreview.com](http://www.skypepreview.com), select **Report an issue**, and use the **Create New Bug** option to report an issue. Please note that support engineers are available to provide support from Monday through Friday, between the hours of 6 AM and 9 PM Eastern Time (United States). Requests outside of those hours will be triaged the following day.
 
 ### Devices
 
@@ -1259,7 +1259,9 @@ For more information, see the following article about [media quality and network
 
 ### Tenant reporting
 
--   [Office 365 Adoption Content Pack](https://blogs.office.com/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
+-   [Office 365 Adoption Content Pack](https://www.microsoft.com/microsoft-365/blog/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
+
+-   [Microsoft 365 usage analytics](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f)
 
 -   [Skype for Business Online reporting](/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 
