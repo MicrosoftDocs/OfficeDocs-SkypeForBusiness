@@ -127,16 +127,16 @@ This section discusses some of the core service metrics that we use to assess ho
 _Table 2 - Core target health assessment metrics_-_
 <table>
 <tr>
-<td rowspan="2" colspan="2" valign="center">Network type</td><td rowspan="1">Quality targets</td><td colspan="2">Reliability targets</td></tr>
-<tr><td>Audio Poor Stream Rate</td><td>Setup Failure Rate</td><td>Drop Failure Rate</td></tr>
-<tr><td rowspan="2">All</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<th rowspan="2" colspan="2" valign="center">Network type</th><th rowspan="1">Quality targets</th><th colspan="2">Reliability targets</th></tr>
+<tr><th>Audio Poor Stream Rate</th><th>Setup Failure Rate</th><th>Drop Failure Rate</th></tr>
+<tr><td rowspan="2">**All**</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
-<tr><td rowspan="5">Conferencing</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td rowspan="5">**Conferencing**</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>Wired internal</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
 <tr><td>Wi-Fi 5 GHz internal</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
 <tr><td>Wi-Fi 2.4 GHz internal</td><td>4.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>Overall</td><td>2.0%</td><td>0.5%</td><td>3.0%</td></tr>
-<tr><td rowspan="4">P2P</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td rowspan="4">**P2P**</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>Wired/Wi-Fi 5 GHz internal</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
 <tr><td>Wired/Wi-Fi 5 GHz overall</td><td>2.0%</td><td>1.0%</td><td>1.0%</td></tr>
 <tr><td>Overall</td><td>2.0%</td><td>1.0%</td><td>3.0%</td></tr>
