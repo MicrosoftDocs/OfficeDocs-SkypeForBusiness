@@ -24,7 +24,7 @@ Teams and channels
 
 |Feature    | Maximum limit |
 |-----------|---------------|
-|Number of teams a user can create | 250 objects&sup1;         |
+|Number of teams a user can create | Subject to a 250 object limit&sup1;         |
 |Number of members in a team | 2,500       |
 |Number of teams a global admin can create        | Unlimited   |
 |Number of teams an Office 365 tenant can have    | 500,000     |
