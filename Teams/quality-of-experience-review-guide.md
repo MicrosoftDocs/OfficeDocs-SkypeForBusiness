@@ -124,22 +124,22 @@ The metric is calculated by taking the total number of dropped streams divided b
 
 This section discusses some of the core service metrics that we use to assess how services experience health. By continually assessing and driving efforts to keep these metrics below their defined targets, you’ll help ensure that your users experience consistent, reliable call quality. To get you started, the following targets are provided.
 
-<!-- NEW TABLE -->
-_Table 2 - Core target health assessment metrics-
+_Table 2 - Core target health assessment metrics_-_
 <table>
 <tr>
-<td rowspan="2" colspan="2">Network type</td><td rowspan="1">Quality targets</td><td colspan="2">Reliability targets</td></tr>
+<td rowspan="2" colspan="2" valign="center">Network type</td><td rowspan="1">Quality targets</td><td colspan="2">Reliability targets</td></tr>
 <tr><td>Audio Poor Stream Rate</td><td>Setup Failure Rate</td><td>Drop Failure Rate</td></tr>
 <tr><td rowspan="2">All</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
 <tr><td rowspan="5">Conferencing</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
-<tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
-<tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
-<tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
-<tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
-<tr><td rowspan="3">P2P</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
-<tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
-<tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
+<tr><td>Wired internal</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
+<tr><td>Wi-Fi 5 GHz internal</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
+<tr><td>Wi-Fi 2.4 GHz internal</td><td>4.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td>Overall</td><td>2.0%</td><td>0.5%</td><td>3.0%</td></tr>
+<tr><td rowspan="4">P2P</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td>Wired/Wi-Fi 5 GHz internal</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
+<tr><td>Wired/Wi-Fi 5 GHz overall</td><td>2.0%</td><td>1.0%</td><td>1.0%</td></tr>
+<tr><td>Overall</td><td>2.0%</td><td>1.0%</td><td>3.0%</td></tr>
 </table>
 
 
