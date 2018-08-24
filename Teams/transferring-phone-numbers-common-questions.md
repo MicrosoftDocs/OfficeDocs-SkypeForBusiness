@@ -28,9 +28,9 @@ The following are frequently asked questions about transferring phone numbers to
   
 ## What countries/regions support number porting?
 
-You can port or transfer phone numbers in all of the supported countries or regions but how you submit a port order request depend on the country or region where the phone numbers come from. You can see a listing of the countries/regions that are supported by [Countries and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
+You can port or transfer phone numbers in all of the supported countries or regions but how you submit a port order request depend on the country or region where the phone numbers come from. You can see a listing of the countries/regions that are supported by [Countries and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
 
-When you are doing phone number management tasks such as transferring (porting) numbers or getting phone numbers that are aren't available in the Skype for Business admin center, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
+When you are doing phone number management tasks such as transferring (porting) numbers or getting phone numbers that are aren't available in the Skype for Business admin center, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
   
 ## What numbers can be transferred?
 
@@ -63,7 +63,7 @@ In general, you can transfer any phone number that is from a supported provider,
  **YOU CANNOT TRANSFER:**
   
 > [!NOTE]
-> At this time, you can't transfer any phone number or numbers that aren't from a supported country/region including phone numbers from a VoIP phone provider. To see a list of supported countries/regions, see [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+> At this time, you can't transfer any phone number or numbers that aren't from a supported country/region including phone numbers from a VoIP phone provider. To see a list of supported countries/regions, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - Phone numbers used for data connections like for DSL lines or broadband Internet connections.
     
@@ -111,9 +111,9 @@ Here's more information about submitting number porting requests for each of the
   
 - **Telephone numbers** provided by different carriers require a unique porting request for numbers with each carrier.
     
-- **Toll Free numbers** with area codes such as: 800, 844, 855, 866, 877 and 888 cannot be included in a number porting request with other types of numbers. To port these Toll Free numbers, you must [Manually submit a custom service request](manually-submit-a-custom-service-request.md); they cannot be submitted in the Skype for Business admin center. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
+- **Toll Free numbers** with area codes such as: 800, 844, 855, 866, 877 and 888 cannot be included in a number porting request with other types of numbers. To port these Toll Free numbers, you must [Manually submit a custom service request](/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request); they cannot be submitted in the Skype for Business admin center. See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
     
-    It's important to use the correct LOA for the country, and type of phone numbers, you want to port. You can download the LOA that you need [download the Letter of Authorization (LOA) that you need here](/microsoftteams/manage-phone-numbers-for-your-organization).
+    It's important to use the correct LOA for the country, and type of phone numbers, you want to port. You can download the LOA that you need [download the Letter of Authorization (LOA) that you need here](manage-phone-numbers-for-your-organization.md).
     
 - **Mobile numbers** require a PIN code to authorize the transfer. Therefore, they need separate number porting request.
     
@@ -129,7 +129,7 @@ You can check the status of your port order by going to the Skype for Business a
 ## Can user (subscriber) phone numbers be converted to service numbers?
 <a name="bkmk_type_1"> </a>
 
-Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this go see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization). 
+Yes they can. All you need to do is submit a service request that includes your organization's tenant GUID and the phone numbers you want converted. To do this go see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md). 
   
 ## Common mistakes to watch out for
 <a name="bkmk_type_1"> </a>
@@ -159,7 +159,7 @@ Here are the most common mistakes we see customers make when they port numbers. 
 ## Can you transfer or port out numbers?
 <a name="bkmk_type_1"> </a>
 
-To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. To see how to set up your PIN, see [Set your PIN for transferring numbers to a new service provider](set-your-pin-for-transferring-numbers-to-a-new-service-provider.md).
+To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. To see how to set up your PIN, see [Set your PIN for transferring numbers to a new service provider](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
 
 > [!NOTE]
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
@@ -167,9 +167,9 @@ To transfer or  *port out*  phone numbers from Skype for Business Online to anot
   
 ## Related topics
 
-[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   

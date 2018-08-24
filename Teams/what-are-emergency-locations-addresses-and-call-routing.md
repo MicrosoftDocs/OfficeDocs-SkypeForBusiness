@@ -49,14 +49,14 @@ Emergency addresses and locations are used during the process of routing emergen
 
 1. **Plan for emergency locations** The first step is to plan for your emergency locations. You need to list all of your physical addresses. Then, based on that, determine whether locations for the emergency addresses are needed and if so, what they are. For example, if a business has 3 office buildings each with 4 floors, it is likely that there need to be 3 emergency addresses, with floors 1-4 listed as a location for each.
     
-2. **Create and validate your emergency locations** The next step is to create and validate your emergency addresses. When you create an emergency address, you can validate it. To create an emergency address, see [Add or remove an emergency address for your organization](add-or-remove-an-emergency-address-for-your-organization.md).
+2. **Create and validate your emergency locations** The next step is to create and validate your emergency addresses. When you create an emergency address, you can validate it. To create an emergency address, see [Add or remove an emergency address for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization).
     
     > [!IMPORTANT]
     > Validating a street or civic address involves making sure that it is legitimate and correctly formatted. It is possible that a partially correct emergency address, such as a mistyped name of the city, may pass still pass validation. The validation process uses all parts of a given address to determine if it contains enough information to route the call to the appropriate emergency dispatch center. If so, it will be returned as validated and then can be assigned to a phone number. 
   
 3. **Get phone numbers** The next step is to get phone numbers for your users. You can do this by getting new phone numbers from Office 365 or by "porting" or transferring your existing phone numbers over to Office 365. To see the complete steps, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
     
-4. **Assign phone numbers** The last step is to enable users to make and receive phone calls. To do this, you must assign a phone number to each user. See [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md) to assign a phone number.
+4. **Assign phone numbers** The last step is to enable users to make and receive phone calls. To do this, you must assign a phone number to each user. See [Assign, change, or remove a phone number for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user) to assign a phone number.
 
 > [!NOTE]
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
@@ -65,9 +65,9 @@ Emergency addresses and locations are used during the process of routing emergen
 ## Related topics
 [What is address validation?](what-is-address-validation.md)
 
-[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

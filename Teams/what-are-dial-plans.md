@@ -28,7 +28,7 @@ A dial plan is a named set of normalization rules that translate dialed phone nu
   
 A dial plan consists of one or more normalization rules that define how phone numbers expressed in various formats are translated to an alternate format. The same dial string may be interpreted and translated differently in different dial plans, so depending on which dial plan is assigned to a given user, the same dialed number may be translated and routed differently.
   
-See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage tenant dial plans.
+See [Create and manage dial plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) to create and manage tenant dial plans.
   
 ## Tenant dial plan scope
 
@@ -40,7 +40,7 @@ Tenant dial plans can be further broken into two scopes - tenant scope or user s
   
 The following is the inheritance model of dial plans in Skype for Business Online.
   
-![How dial plans are inherited in Skype for Business Online.](../images/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![How dial plans are inherited in Skype for Business Online.](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
   
 The following are the possible effective dial plans:
   
@@ -50,7 +50,7 @@ The following are the possible effective dial plans:
   
  **Tenant User - Service Country** If a tenant user dial plan is defined and assigned to a user, the provisioned user will receive an effective dial plan consisting of the merged tenant user dial plan and the service country dial plan associated with their Office 365 Usage Location.
   
-See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
+See [Create and manage dial plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) to create your tenant dial plans.
   
 ## Planning for tenant dial plans
 
@@ -88,7 +88,7 @@ You can specify an external access prefix of up to four characters (#, *, and 0-
 > [!NOTE]
 > If you specify an external access prefix, you don't need to create an additional normalization rule to accommodate the prefix. 
   
-See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
+See [Create and manage dial plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) to create your tenant dial plans.
   
 ## Normalization rules
 
@@ -106,7 +106,7 @@ Normalization rules use .NET Framework regular expressions to specify numeric ma
   
 For details about using .NET Framework regular expressions, see [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/p/?linkId=140927).
   
-See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage normalization rules for your tenant dial plans.
+See [Create and manage dial plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) to create and manage normalization rules for your tenant dial plans.
   
 ### Sample normalization rules
 
@@ -142,14 +142,13 @@ The following table illustrates a sample dial plan for Redmond, Washington, Unit
 
 ## Related topics
 
-[Create and manage dial plans](create-and-manage-dial-plans.md)
+[Create and manage dial plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
 
-[Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
+[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
-[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
-
-[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+[Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
+[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
