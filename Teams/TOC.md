@@ -277,7 +277,7 @@
 #### [Change the emergency location for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 #### [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [How many phone numbers can you get?](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md)
 #### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ##### [Phone number management for Australia](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
 ##### [Phone number management for Belgium](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)

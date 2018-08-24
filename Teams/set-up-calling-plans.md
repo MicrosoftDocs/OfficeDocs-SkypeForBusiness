@@ -26,7 +26,7 @@ description: "Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy an
 Calls to other Skype for Business users are free, but if you want your users to be able to call phones outside of your business, get a Domestic Calling Plan or an International Calling Plan in Office 365. It's easy to set this up for your business. 
 
 ## Step 1: Find out if Calling Plans are available in your country/region
-Go to [Country and region availability for Audio Conferencing and Calling Plans](/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) and select your country or region to get availability information about Calling Plans, as well as information about Audio Conferencing, Phone System, toll and toll-free numbers, and Communications Credits.
+Go to [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) and select your country or region to get availability information about Calling Plans, as well as information about Audio Conferencing, Phone System, toll and toll-free numbers, and Communications Credits.
   
 ## Step 2: Buy and assign licenses
 1. If the Phone System in Office 365 feature isn't included in your plan, you may need to purchase **Phone System** add-on licenses. After you have **Phone System** licenses, purchase [Calling Plans for Office 365](calling-plans-for-office-365.md). See [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing), and buy the licenses and plan. 
@@ -70,7 +70,7 @@ When you are setting up Calling Plans in Office 365, you must assign a phone num
 
 ![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
-In the Skype for Business admin center, go to **Voice** > **Voice users** > **Emergency location** > **Assign number** > **Change location**. See [Assign or change an emergency address for a user](/skypefor business/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) for more details.
+In the Skype for Business admin center, go to **Voice** > **Voice users** > **Emergency location** > **Assign number** > **Change location**. See [Assign or change an emergency address for a user](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) for more details.
 
    > [!NOTE]
    > You can also assign an emergency address when you assign a phone number.
