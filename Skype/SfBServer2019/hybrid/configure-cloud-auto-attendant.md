@@ -11,84 +11,68 @@ localization_priority: Normal
 ms.collection: 
 description: "Instructions for implementing a Cloud Auto Attendant."
 ---
- 
+
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
-# Configure cloud auto attendant
+# Configure Cloud Auto Attendant
 
 In Skype for Business Server 2019 you are able to use the cloud auto attendant feature described in [What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md).
 
-To use Cloud Auto Attendant with Skype for Business Server 2019, you will need to create  virtual users that contain disabled user objects (DUOs) and assigned phone numbers. 
+To use Cloud Auto Attendant with Skype for Business Server 2019, you will need to create  virtual users that contain disabled user objects (DUOs) and assigned phone numbers.
 
- If you have an existing Auto Attendant implemented in Exchange UM, you can export the details as described below or implement a completely new  Auto Attendant using the Office Online Admin portal.
+If you have an existing Auto Attendant implemented in Exchange UM, you will ned to manually record the details as described below and then implement a completely new Cloud Auto Attendant using the Office Online Admin portal.
 
 ## Server Configuration steps
-Here is an outline of the steps:
-1. Create unique disabled user objects (DUOs) for every AA  <br/>Supports Multiple numbers and Multiple DUOs for every AA
-2. Delete contact objects (COs) for every AA
+
+These steps are necessary whether you are creating a brand new Auto Attendant or rebuilding an Auto Attendant originally created in Exchange UM.
+
+1. Create unique disabled user objects (DUOs) for every AA <br/> Supports Multiple numbers and Multiple DUOs for every AA <br/> **[using Active Directory Administrative Center:**
+    ```
+    New-ADUser -Name "John Smith" -GivenName "John" -Surname "Smith" -SamAccountName "jsmith" -UserPrincipalName "jsmith@<span></span>contoso<span></span>.com" -Path "OU=Users,OU=Europe,DC=contoso,DC=com" -AccountPassword(Read-Host -AsSecureString "Type Password for User") -Enabled $false
+    ```
+    See [New-ADUser](https://docs.microsoft.com/en-us/powershell/module/addsadministration/new-aduser?view=win10-ps)
+
+2. Delete contact objects (COs) for every AA  <br/>See [Remove-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csexumcontact?view=skype-ps0)
+
 3. Run AAD Connect Sync
-4. Assign licenses to DUOs
-5. Provision numbers and assign them to DUOs
-6. Hydrate the AAs 
-7. Educate admin about final state of AAs
+    ```
+    Start-ADSyncSyncCycle -PolicyType Initial    
+    ```
+    See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler)
+4. Assign licenses to DUOs [ask Tony]
+
+5. Provision numbers and assign them to DUOs  [ask Tony]
+
+6. Hydrate the AAs [what the hell does this mean?]
 
 
 
-## Online Configuration steps 
 
-For a new implementation, review [Do's and Don'ts for Auto Attendant scripts](plan-cloud-auto-attendant.md#dos-and-donts-for-auto-attendant-scripts) then see [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md).  
+## Moving an Exchange UM Auto Attendant to Cloud Auto Attendant
 
+### Capture the existing Exchange UM Auto Attendant
 
-disabled user objects (DUOs) 
+For every AA in the Dial Plan you want to move:
 
-## Migrating an Exchange UM Auto Attendant
-
-### Export an existing Auto Attendant 
-
-You can either use the new tool or use the cmdlets mentioned. 
-
-#### Use OCSAAEXPORT.EXE to select the Dial Plans and associated Auto Attendants to export data as XML.
-
-The tool does the following for every AA:
-* Exports the properties of the AA object into an XML file.
-* Creates a disabled user object for the AA. [**cmdlet for this?**]
-    * For AAs with multiple numbers, multiple disabled user objects are created, distinguishable by numbered suffixes (AA1, AA2, and so on).
+* Record the properties of the AA object <br/>  run [Get-UMAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) logged in to the on-prem Exchange server as admin
+    * Be sure to create copies of the sound file for each AA object.
+* Using Active Directory Administrative Center, create a Disabled User Object in AD for each instance of Auto Attendant.
+    ```
+    New-ADUser -Name "John Smith" -GivenName "John" -Surname "Smith" -SamAccountName "jsmith" -UserPrincipalName "jsmith@<span></span>contoso<span></span>.com" -Path "OU=Users,OU=Europe,DC=contoso,DC=com" -AccountPassword(Read-Host -AsSecureString "Type Password for User") -Enabled $false
+    ```
+    See [New-ADUser](https://docs.microsoft.com/en-us/powershell/module/addsadministration/new-aduser?view=win10-ps)
+    * For AAs with multiple numbers, create multiple disabled user objects, distinguishable by numbered suffixes (AA1, AA2, and so on).
     * No suffix is required for an AA with a single number.
-* Adds the name of the disabled user object(s) to a txt file, along with the associated numbers. 
-    * Each row is on a new line.
-* Creates a folder for each disabled user object, containing the associated files (XML and recorded custom greetings files) for the AA.
-* Deletes the contact object associated with the AA.
-* Wraps the txt file and folders in a zip file, and deposits this zip file in a specified location. **Where? Default? user-specified?**
 
-When the operation is complete, a success message is shown, along with the file name and location of the zip file created.
+* Delete the contact objects associated with the AA. **but why is this necessary? we just barely created the object. Why would there be contacts associated with it?**
+    ```
+    Remove-CsExUmContact
+    ```
+    See [Remove-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csexumcontact?view=skype-ps)
 
+## Online Configuration steps
 
-#### Use Skype OnPrem Admin Shell  
-The admin executes the cmdlet `Export -CsAutoAttendant` with Dial Plan name and AA name (the ones that need export) as parameters **(requirements for cmdlet? Logged in to which server with what privelege level)**. Passing only Dial Plan name exports all associated AAs by default.
-
-
-### Import an existing Exchange UM Auto Attendant in to a new Phone System Auto Attendant
-
-**The following assumes you are logged in to the Skype Online Admin Shell as a  ____ level admin.**
-
-Before importing the XML file, the AAD administrator must schedule a Full sync for AAD Connect, using the following cmdlet:
-```
-Start-ADSyncSyncCycle -PolicyType Initial
-```
-This will kick off an immediate Full sync, which is necessary whenever objects are added.
-
-Import Auto Attendants Using Skype Admin Center: <BR/> **is this change to Admin center live yet or are we running the cmdlet from a prompt?**
-
-1. Navigate to the Voice Features tab.
-2. Select the **Import** button, (next to the **Refresh** button). A file browser pops up, choose the zip file containing the files Exported from Exchange UM.
-
-The Skype Admin Center then executes the cmdlet `Import -CsAutoAttendant` that:
-* Unzips the archive file
-* Reads the list of AAs from the txt file, looks up the folder for each AA and populates the DUO for the AA with required properties from the XML as well as the appropriate files, such as custom greetings.
-
-Once the population of DUOs is complete, a success message is shown to the admin and the list of AAs is shown in the Skype Admin Center.
-
-**Using Skype Online Admin Shell** – The after logging in as Admin,  execute the cmdlet `Import -CsAutoAttendant` with the path of the zip file passed as a parameter. Successful completion returns a list of AAs in the shell.
+Review [Do's and Don'ts for Auto Attendant scripts](plan-cloud-auto-attendant.md#dos-and-donts-for-auto-attendant-scripts) then see [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md).  
 
 ## See Also
 
