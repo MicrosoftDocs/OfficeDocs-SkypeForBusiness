@@ -3,7 +3,7 @@ title: Limits and specifications for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/17/2018
+ms.date: 08/24/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
@@ -24,11 +24,13 @@ Teams and channels
 
 |Feature    | Maximum limit |
 |-----------|---------------|
-|Number of teams a user can create | 250         |
+|Number of teams a user can create | 250 objects&sup1;         |
 |Number of members in a team | 2,500       |
 |Number of teams a global admin can create        | Unlimited   |
 |Number of teams an Office 365 tenant can have    | 500,000     |
 |Number of channels per team    | 200         |
+
+&sup1;Any directory object in Azure Active Directory counts towards this quota.
 
 Meetings and calls 
 ------------------
