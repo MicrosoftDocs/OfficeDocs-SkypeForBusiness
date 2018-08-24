@@ -292,7 +292,7 @@
 #### [Search for phone numbers for users](/SkypeForBusiness/what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [See a list of phone numbers in your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set your PIN for transferring phone numbers to a new service provider](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Toll free dialing limitations and restrictions](/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Toll-free dialing limitations and restrictions](toll-free-dialing-limitations-and-restrictions.md)
 #### [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md)
 #### [Transferring numbers common questions](transferring-phone-numbers-common-questions.md)
 #### [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365.md)
