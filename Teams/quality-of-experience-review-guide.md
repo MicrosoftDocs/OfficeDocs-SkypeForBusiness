@@ -655,15 +655,15 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
 -   Define a **Network Name** by using the text “VPN” in this field for VPN subnets.
 
-![CQD report that defines how to create a VPN subnet](media/qerguide-image-vpnnetworkname.png)
+  ![CQD report that defines how to create a VPN subnet](media/qerguide-image-vpnnetworkname.png)
 
-_Figure 11 - VPN using network name_
+  _Figure 11 - VPN using network name_
 
 -   Define a **Building Name** by using the text “VPN” in this field for VPN subnets.
 
-![CQD report that defines how to create a building definition that comprises a VPN subnet.](media/qerguide-image-vpnbuildingname.png)
+  ![CQD report that defines how to create a building definition that comprises a VPN subnet.](media/qerguide-image-vpnbuildingname.png)
 
-_Figure 12 - VPN using building name_
+  _Figure 12 - VPN using building name_
 
 > [!IMPORTANT]
 > Certain VPN implementations don’t accurately report subnet information. If this occurs in your reporting, we recommend that when you add a VPN subnet to the building file, instead of one entry for the subnet, add separate entries for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you have 253 rows, with one row for each address from 172.16.18.1/32 through 172.16.18.254/32, inclusive.
@@ -681,11 +681,13 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 2.  Select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
 
   ![Dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
+
   _Figure 13 - Tenant Data Upload menu_
 
 3.  Alternatively, if this is your first time visiting CQD, you’ll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
 
   ![Banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
+
   _Figure 14 - Building data upload banner_
 
 4.  On the **Tenant Data Upload** page, select **Browse** to choose a data file.
@@ -695,6 +697,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 6.  After selecting **Start date**, select **Upload** to upload the file to CQD. <br><br>Before the file is uploaded, it’s validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
 
   ![Example of a dialog box that displays an error message when importing building data](media/qerguide-image-buildingdatauploaderror.png)
+ 
   _Figure 15 - Building data upload error_
 
 7.  If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
