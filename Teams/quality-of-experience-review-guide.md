@@ -459,9 +459,9 @@ The Detailed Reports page in CQD looks like the following illustration.
 |             |           |
 | ------------|-----------|
 | ![one](media/qerguide-image-callout1.png "one") | The summary pane shows context for the report set that appears to the right. |
-| ![two](media/qerguide-image-callout1.png "two") | You can select **Edit** in the summary pane to set report–level properties (including y-axis height) and to import new templates. |
-| ![one](media/qerguide-image-callout1.png) | The breadcrumb helps users identify their current location in the report set hierarchy. |
-| ![one](media/qerguide-image-callout1.png) | Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports. |
+| ![two](media/qerguide-image-callout2.png "two") | You can select **Edit** in the summary pane to set report–level properties (including y-axis height) and to import new templates. |
+| ![three](media/qerguide-image-callout3.png "three") | The breadcrumb helps users identify their current location in the report set hierarchy. |
+| ![four](media/qerguide-image-callout4.png "four") | Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports. |
 
 _Figure 9 - Detailed Reports page_
 
@@ -473,21 +473,14 @@ When you select **Edit** on the action menu of a report, you’ll open Query Edi
 
 ![Different elements that make up a report when the report is being edited.](media/qerguide-image-queryeditor.png)
 
+|             |           |
+| ------------|-----------|
+| ![one](media/qerguide-image-callout1.png "one") | You choose dimensions, measures, and filters from the left pane. Pointing to an existing value displays a close button (**X**) you can select to remove the value.<ul><li>By selecting the dimension or measure, you can change the title by editing the **Title** field. You can also change the order by selecting the blue Up or Down arrows in the top pane.</li><li>Selecting (**+**) next to a heading opens the dialog box for adding a new dimension, measure, or filter.</li><li>Enter the first few letters of the dimension, measure, or filter in the **Find a** field to filter the list for easier searching.</li></ul> |
+| ![two](media/qerguide-image-callout2.png "two") | The top pane shows options for chart customization. |
+| ![three](media/qerguide-image-callout3.png "three") | The Query Editor shows a preview of the report. |
+| ![four](media/qerguide-image-callout4.png "four") | Use the **Edit** box at the bottom of the screen to create or edit a detailed description of the report. |
+
 _Figure 10 - Query Editor_
-
-1.  You choose dimensions, measures, and filters from the left pane. Pointing to an existing value displays a close button (**X**) you can select to remove the value.
-
-    -   By selecting the dimension or measure, you can change the title by editing the **Title** field. You can also change the order by selecting the blue Up or Down arrows in the top pane.
-
-    -   Selecting (**+**) next to a heading opens the dialog box for adding a new dimension, measure, or filter.
-
-    -   Enter the first few letters of the dimension, measure, or filter in the **Find a** field to filter the list for easier searching.
-
-2.  The top pane shows options for chart customization.
-
-3.  The Query Editor shows a preview of the report.
-
-4.  Use the **Edit** box at the bottom of the screen to create or edit a detailed description of the report.
 
 ### Filtering reports
 
