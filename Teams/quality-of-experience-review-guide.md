@@ -73,7 +73,7 @@ _Figure 2 - What is quality?_
 
 ### Service metrics
 
-Service metrics consist of specific client-based metrics. During each call, the client collects telemetry information about the call and submits a report at the end of each call that can be later accessed through CQD or Call Analytics. These metrics include:
+Service metrics consist of specific client-based metrics. During each call, the client collects telemetry information about the call and submits a report at the end of each call that can be later accessed through CQD or [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309). These metrics include:
 
 -   Poor Stream Rate
 -   Setup Failure Rate
@@ -124,7 +124,7 @@ The metric is calculated by taking the total number of dropped streams divided b
 
 This section discusses some of the core service metrics that we use to assess how services experience health. By continually assessing and driving efforts to keep these metrics below their defined targets, you’ll help ensure that your users experience consistent, reliable call quality. To get you started, the following targets are provided.
 
-_Table 2 - Core target health assessment metrics_-_
+_Table 2 - Core target health assessment metrics_
 <table>
 <tr>
 <th rowspan="2" colspan="2" valign="center">Network type</th><th rowspan="1">Quality targets</th><th colspan="2">Reliability targets</th></tr>
@@ -384,9 +384,9 @@ For more information about determining the first or second endpoint when they’
 
 You need to understand the difference between a call and a stream to properly choose which dimensions or measures you’ll be looking at in CQD. Although CQD’s primary focus is on streams, call-based measurements are also available.
 
-**Stream:** A _stream_ exists between only two endpoints. There is only one stream for each direction, and two streams are required for communication. Streams are useful for investigating buildings, networks, or subnets. In some cases, both call and stream are used in the measurement’s name (for example, Call Setup Stream or Call Dropped Stream). These are still classified as streams.
+-   **Stream:** A _stream_ exists between only two endpoints. There is only one stream for each direction, and two streams are required for communication. Streams are useful for investigating buildings, networks, or subnets. In some cases, both call and stream are used in the measurement’s name (for example, Call Setup Stream or Call Dropped Stream). These are still classified as streams.
 
-**Call:** A _call_ is a grouping of all streams from all participants. A call consists of—at minimum—two streams. A single call will have at least two endpoints, each with a minimum of one stream.
+-   **Call:** A _call_ is a grouping of all streams from all participants. A call consists of—at minimum—two streams. A single call will have at least two endpoints, each with a minimum of one stream.
 
 For additional guidance on whether the dimension or measure is referring to a call or a stream, see [Dimensions and measures available in CQD](https://aka.ms/cqd-dm)
 
@@ -560,8 +560,8 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 2.  Authenticate by using your Office 365 Administrative credentials.
 
-> [!NOTE]
-> You must have the Office 365 Global Administrator, Skype for Business Administrator, or Report Readers role to access CQD. 
+  > [!NOTE]
+  > You must have the Office 365 Global Administrator, Skype for Business Administrator, or Report Readers role to access CQD. 
 
 3.  Select the **Summary Reports** menu at the top of the page, and then choose **Detailed Reports**.
 
@@ -569,7 +569,7 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 5.  After the template is uploaded, a pop-up window will display the message “Report import was successful.” Select **OK.**
 
-![Notification that the template was successfully imported](media/qerguide-image-importmessage.png "Notification that the template was successfully imported")
+  ![Notification that the template was successfully imported](media/qerguide-image-importmessage.png "Notification that the template was successfully imported")
 
 6.  Repeat steps 4 and 5 for the second CQD template.
 
@@ -627,17 +627,13 @@ You can use supernetting, commonly called Classless Inter-Domain Routing (CIDR,)
 For example, Contoso’s marketing building is made up of the subnets below:
 
 -   10.1.0.0/24—first floor
-
 -   10.1.1.0/24—second floor
-
 -   10.1.2.0/24—third floor
-
 -   10.1.3.0/24—fourth floor
 
 Instead of adding an entry for each subnet, you can use the supernetted address—in this example, 10.1.0.0/22.
 
 -   Network = 10.1.0.0
-
 -   Network Range = 22
 
 Here are a few things to consider before you implement supernetting:
@@ -684,27 +680,24 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
 2.  Select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
 
-![Dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
-
-_Figure 13 - Tenant Data Upload menu_
+  ![Dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
+  _Figure 13 - Tenant Data Upload menu_
 
 3.  Alternatively, if this is your first time visiting CQD, you’ll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
 
-![Banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
-
-_Figure 14 - Building data upload banner_
+  ![Banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
+  _Figure 14 - Building data upload banner_
 
 4.  On the **Tenant Data Upload** page, select **Browse** to choose a data file.
 
 5.  After selecting a data file, specify **Start date** and, optionally, specify an end date.
 
-3.  After selecting **Start date**, select **Upload** to upload the file to CQD. <br><br>Before the file is uploaded, it’s validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
+6.  After selecting **Start date**, select **Upload** to upload the file to CQD. <br><br>Before the file is uploaded, it’s validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
 
-![Example of a dialog box that displays an error message when importing building data](media/qerguide-image-buildingdatauploaderror.png)
+  ![Example of a dialog box that displays an error message when importing building data](media/qerguide-image-buildingdatauploaderror.png)
+  _Figure 15 - Building data upload error_
 
-_Figure 15 - Building data upload error_
-
-4.  If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
+7.  If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
 
 > [!NOTE]
 > It can take up to four hours to finish processing the building file. <br><br> If you’ve already uploaded a building file and need to add subnets that might have been missed or excluded, modify the original file by adding the new subnets, remove the current file, and re-upload the newly edited file. There can be only one active building data file in CQD. 
@@ -906,10 +899,10 @@ _Table 8 - Next steps for call drop remediation_
 
 | Remediation                              | Guidance                      |
 |------------------------------------------|-------------------------------|
-| Network/internet                         | **Congestion**: Work with your network team to monitor bandwidth at specific buildings/subnets to confirm that there are issues with overutilization. If you do confirm that there is network congestion, consider increasing bandwidth to that building or applying QoS. Use the included [Quality Poor Stream summary reports](#quality-investigations) to review the problem subnets for issues with jitter, latency, and packet loss, because these will often precede a dropped stream.<br><br>You can also use the [Network Planner Tool](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) to help better understand your organization’s bandwidth needs.<br><br>**QoS**: If increasing bandwidth is impractical or cost-prohibitive, consider implementing QoS. This tool is very effective at managing congested traffic and can guarantee that media packets on the managed network are prioritized above non-media traffic. Alternatively, if there’s no clear evidence that bandwidth is the culprit, consider these solutions:<ul><li>[Microsoft Teams QoS guidance](qos-in-teams.md)</li><li>[Skype for Business QoS guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**Perform a network readiness assessment**: A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<ul><li>[Microsoft Teams Network Readiness Assessment](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. The tool helps you assess the performance of a subnet and validate the readiness of the network against Microsoft performance [requirements](https://aka.ms/performancerequirements).<ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br>**CxdCallData**: This script can be used to help map a subnet to specific users within Call Analytics. CQD doesn’t have any PII data, so it can be difficult to map subnets to actual users. If you note that certain subnets are experiencing high jitter or packet loss, you can use the script to extract data directly from the service to display individual call details like user name, transport, jitter, packet loss, latency, and more. The script will also return a direct link to the report in Call Analytics to allow for additional triage. This script can be found in the PowerShell Gallery:<ul><li>[https://www.powershellgallery.com/packages/CxdCallData](https://www.powershellgallery.com/packages/CxdCallData)</li></ul> |
-| Clients (Skype for Business Online only) | Some older clients have known, documented issues with media reliability. Review the Call Analytics reports from multiple affected users, or create a custom Client Version table report in CQD filtered to specific buildings or subnets with Total Call Dropped Failure % measure. This information will help you understand whether a relationship exists between call drops in that specific building and a specific version of the client.     |
-| Devices                                  | We recommend that any users who are experiencing call drops—or poor calls in general—and are using integrated devices should be provisioned a [certified headset or speakerphone](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)  to eliminate this as a potential source of poor quality and reliability. |
-| User behavior                            | If you determine that neither network, devices, or clients are the issue, consider engaging [My Advisor](https://aka.ms/myadvisor)  for guidance in developing a user adoption strategy to educate users how to best join and exit meetings. A smarter Teams and Skype for Business user will produce a better user experience for all participants in the meeting. A user who puts their laptop to sleep (by closing the lid) without exiting the meeting will be classified as an unexpected call drop.   |
+| **Network/internet**                         | **Congestion**: Work with your network team to monitor bandwidth at specific buildings/subnets to confirm that there are issues with overutilization. If you do confirm that there is network congestion, consider increasing bandwidth to that building or applying QoS. Use the included [Quality Poor Stream summary reports](#quality-investigations) to review the problem subnets for issues with jitter, latency, and packet loss, because these will often precede a dropped stream.<br><br>You can also use the [Network Planner Tool](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) to help better understand your organization’s bandwidth needs.<br><br>**QoS**: If increasing bandwidth is impractical or cost-prohibitive, consider implementing QoS. This tool is very effective at managing congested traffic and can guarantee that media packets on the managed network are prioritized above non-media traffic. Alternatively, if there’s no clear evidence that bandwidth is the culprit, consider these solutions:<ul><li>[Microsoft Teams QoS guidance](qos-in-teams.md)</li><li>[Skype for Business QoS guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**Perform a network readiness assessment**: A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<ul><li>[Microsoft Teams Network Readiness Assessment](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. The tool helps you assess the performance of a subnet and validate the readiness of the network against Microsoft performance [requirements](https://aka.ms/performancerequirements).<ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br>**CxdCallData**: This script can be used to help map a subnet to specific users within Call Analytics. CQD doesn’t have any PII data, so it can be difficult to map subnets to actual users. If you note that certain subnets are experiencing high jitter or packet loss, you can use the script to extract data directly from the service to display individual call details like user name, transport, jitter, packet loss, latency, and more. The script will also return a direct link to the report in Call Analytics to allow for additional triage. This script can be found in the PowerShell Gallery:<ul><li>[https://www.powershellgallery.com/packages/CxdCallData](https://www.powershellgallery.com/packages/CxdCallData)</li></ul> |
+| **Clients (Skype for Business Online only)** | Some older clients have known, documented issues with media reliability. Review the Call Analytics reports from multiple affected users, or create a custom Client Version table report in CQD filtered to specific buildings or subnets with Total Call Dropped Failure % measure. This information will help you understand whether a relationship exists between call drops in that specific building and a specific version of the client.     |
+| **Devices**                                  | We recommend that any users who are experiencing call drops—or poor calls in general—and are using integrated devices should be provisioned a [certified headset or speakerphone](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)  to eliminate this as a potential source of poor quality and reliability. |
+| **User behavior**                            | If you determine that neither network, devices, or clients are the issue, consider engaging [My Advisor](https://aka.ms/myadvisor)  for guidance in developing a user adoption strategy to educate users how to best join and exit meetings. A smarter Teams and Skype for Business user will produce a better user experience for all participants in the meeting. A user who puts their laptop to sleep (by closing the lid) without exiting the meeting will be classified as an unexpected call drop.   |
 
 ## Quality investigations
 
@@ -968,11 +961,11 @@ _Figure 22 – Poor Audio Stream Summary by Building and Subnet - Conferencing_
 
 ##### Remediation
 
-Focus your remediation efforts on buildings or subnets that have the largest volume of streams, because this will maximize impact and help to improve the user experience quickly. Use the jitter, packet loss, and RTT measurements to understand what’s contributing to the poor quality (it’s possible for there to be more than one problem):
+Focus your remediation efforts on buildings or subnets that have the largest volume of streams, because this will maximize impact and help to improve the user experience quickly. Use the jitter, packet loss, and round-trip time (RTT) measurements to understand what’s contributing to the poor quality (it’s possible for there to be more than one problem):
 
--   Jitter: Media packets are arriving at different speeds, which causes a speaker to sound robotic.
--   Packet loss: Media packets are being dropped, which creates the effect of missing words or syllables.
--   RTT: Media packets are taking a long time to get to their destination, which creates a walkie-talkie effect.
+-   **Jitter**: Media packets are arriving at different speeds, which causes a speaker to sound robotic.
+-   **Packet loss**: Media packets are being dropped, which creates the effect of missing words or syllables.
+-   **RTT**: Media packets are taking a long time to get to their destination, which creates a walkie-talkie effect.
 
 To assist your investigation into quality issues, you can leverage [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309). With Call Analytics, you can look at a specific conference or users’ detailed call report. This report will contain PII data and is useful when you’re looking for the cause of a failure. After you know which building is affected, it should be straightforward to track down users in that building. For assistance in mapping a poor subnet to a user, use the [CxdCallData](https://github.com/jasonshave/CxdCallData) script using the SubnetCsvFile function.
 
@@ -982,14 +975,14 @@ _Table 9 - Common contributors to high PSR_
 
 | Remediation                              | Guidance                         |
 |------------------------------------------|----------------------------------|
-| Networks                                 | **Congestion**: An overused or under-provisioned network can cause issues with media quality. Work with the network team to determine whether the network connections from the user to the internet egress point has enough bandwidth to support media. The [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) can help you better understand your organization’s bandwidth needs.<br><br>**Perform a network readiness assessment**: A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<ul><li>[Microsoft Teams Network Readiness Assessment](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. The tool helps you assess the performance of a subnet and validate the readiness of the network against Microsoft performance [requirements](https://aka.ms/performancerequirements).<ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br>**CxdCallData**: This script can be used to help map a subnet to specific users within Call Analytics. CQD doesn’t have any PII data, so it can be difficult to map subnets to actual users. If you note that certain subnets are experiencing high jitter or packet loss, you can use the script to extract data directly from the service to display individual call details like user name, transport, jitter, packet loss, latency, and more. The script will also return a direct link to the report in Call Analytics to allow for additional triage. This script can be found in the PowerShell Gallery:<ul><li>[https://www.powershellgallery.com/packages/CxdCallData](https://www.powershellgallery.com/packages/CxdCallData)</li></ul> |
-| Quality of Service (QoS)  | QoS is a proven tool to help prioritize packets on a congested network to ensure they arrive at their destination intact and on time. Consider implementing QoS across your organization to maximize the quality of the user experience where bandwidth is constrained. QoS will help solve issues typically associated with high levels of packet loss, and—to a lesser degree—jitter and round-trip times.<ul><li>[Microsoft Teams QoS guidance](qos-in-teams.md)</li><li>[Skype for Business QoS guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul> |
-| Wi-Fi               | Wi-Fi can have a significant impact on call quality. Wi-Fi deployments don’t typically take into consideration the network requirements for VoIP services and are often a source of poor quality. For more information about optimizing your Wi-Fi infrastructure, see [this article about Wi-Fi planning](/skypeforbusiness/certification/plan-wifi).<br><br>**Wireless driver**: Ensure that wireless drivers are up to date. This will help mitigate any poor user experience related to an outdated driver. Many organizations don’t include wireless drivers in their patch cycles, and these drivers can go unpatched for years. Many wireless issues are solved by ensuring the wireless drivers are up to date.<br><br>**WMM**: Wireless Multimedia Extensions (WMM), also known as Wi-Fi Multimedia, provides basic QoS features to wireless networks. Modern wireless networks must support many devices. These devices compete for bandwidth and can lead to quality issues for VoIP services, where speed and latency are vital. Consult your wireless vendor for specifics and consider implementing WMM on your wireless network to prioritize Skype for Business and Teams media.<br><br>**Access point density**: Access points might be too far apart or not in an ideal location. To minimize potential interference, place extra access points in conference rooms and in locations that aren’t obstructed by walls or other objects where the Wi-Fi signal is weak.<br><br>**2.4 GHz versus 5 GHz**: 5 GHz provides less background interference and higher speeds, and should be prioritized when deploying VoIP over Wi-Fi. However, 5 GHz isn’t as strong as 2.4 GHz and doesn’t penetrate walls as easily. Review your building layout to determine which frequency you can rely on for the best connection. |
-|Network device | Larger organizations might have hundreds of devices spread out across the network. Work with your network team to ensure that the network devices from the user to the internet are maintained and up to date. |
-| VPN  | VPN appliances aren’t traditionally designed to handle real-time media workloads. Some VPN configurations prohibit the use of UDP (which is the preferred protocol for media) and rely on TCP only. Consider implementing a [VPN split-tunnel solution](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) to help reduce VPN as a source of poor quality. |
-| Clients <br>(Skype for Business Online only) | Older clients have been known to cause issues with media. Ensure that clients are being patched within six months of release. Use [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a client readiness strategy and deploy [Click-to-Run](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus). |
-| Devices | The use of [optimized devices](https://partnersolutions.skypeforbusiness.com/solutionscatalog) can help to significantly improve the user experience. With all things being equal, optimized devices are designed to maximize the user experience with Teams and Skype for Business, and produce superior quality. Use [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a device readiness strategy. |
-| Drivers | Patching network (Ethernet and Wi-Fi), audio, video, and USB drivers should be part of your overall patch management strategy. Many quality issues are solved by updating drivers. |
+| **Networks**                                 | **Congestion**: An overused or under-provisioned network can cause issues with media quality. Work with the network team to determine whether the network connections from the user to the internet egress point has enough bandwidth to support media. The [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) can help you better understand your organization’s bandwidth needs.<br><br>**Perform a network readiness assessment**: A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<ul><li>[Microsoft Teams Network Readiness Assessment](3-envision-evaluate-my-environment.md#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. The tool helps you assess the performance of a subnet and validate the readiness of the network against Microsoft performance [requirements](https://aka.ms/performancerequirements).<ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br>**CxdCallData**: This script can be used to help map a subnet to specific users within Call Analytics. CQD doesn’t have any PII data, so it can be difficult to map subnets to actual users. If you note that certain subnets are experiencing high jitter or packet loss, you can use the script to extract data directly from the service to display individual call details like user name, transport, jitter, packet loss, latency, and more. The script will also return a direct link to the report in Call Analytics to allow for additional triage. This script can be found in the PowerShell Gallery:<ul><li>[https://www.powershellgallery.com/packages/CxdCallData](https://www.powershellgallery.com/packages/CxdCallData)</li></ul> |
+| **Quality of Service (QoS)**  | QoS is a proven tool to help prioritize packets on a congested network to ensure they arrive at their destination intact and on time. Consider implementing QoS across your organization to maximize the quality of the user experience where bandwidth is constrained. QoS will help solve issues typically associated with high levels of packet loss, and—to a lesser degree—jitter and round-trip times.<ul><li>[Microsoft Teams QoS guidance](qos-in-teams.md)</li><li>[Skype for Business QoS guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul> |
+| **Wi-Fi**               | Wi-Fi can have a significant impact on call quality. Wi-Fi deployments don’t typically take into consideration the network requirements for VoIP services and are often a source of poor quality. For more information about optimizing your Wi-Fi infrastructure, see [this article about Wi-Fi planning](/skypeforbusiness/certification/plan-wifi).<br><br>**Wireless driver**: Ensure that wireless drivers are up to date. This will help mitigate any poor user experience related to an outdated driver. Many organizations don’t include wireless drivers in their patch cycles, and these drivers can go unpatched for years. Many wireless issues are solved by ensuring the wireless drivers are up to date.<br><br>**WMM**: Wireless Multimedia Extensions (WMM), also known as Wi-Fi Multimedia, provides basic QoS features to wireless networks. Modern wireless networks must support many devices. These devices compete for bandwidth and can lead to quality issues for VoIP services, where speed and latency are vital. Consult your wireless vendor for specifics and consider implementing WMM on your wireless network to prioritize Skype for Business and Teams media.<br><br>**Access point density**: Access points might be too far apart or not in an ideal location. To minimize potential interference, place extra access points in conference rooms and in locations that aren’t obstructed by walls or other objects where the Wi-Fi signal is weak.<br><br>**2.4 GHz versus 5 GHz**: 5 GHz provides less background interference and higher speeds, and should be prioritized when deploying VoIP over Wi-Fi. However, 5 GHz isn’t as strong as 2.4 GHz and doesn’t penetrate walls as easily. Review your building layout to determine which frequency you can rely on for the best connection. |
+|**Network device** | Larger organizations might have hundreds of devices spread out across the network. Work with your network team to ensure that the network devices from the user to the internet are maintained and up to date. |
+| **VPN**  | VPN appliances aren’t traditionally designed to handle real-time media workloads. Some VPN configurations prohibit the use of UDP (which is the preferred protocol for media) and rely on TCP only. Consider implementing a [VPN split-tunnel solution](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) to help reduce VPN as a source of poor quality. |
+| **Clients** <br>(Skype for Business Online only) | Older clients have been known to cause issues with media. Ensure that clients are being patched within six months of release. Use [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a client readiness strategy and deploy [Click-to-Run](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus). |
+| **Devices** | The use of [optimized devices](https://partnersolutions.skypeforbusiness.com/solutionscatalog) can help to significantly improve the user experience. With all things being equal, optimized devices are designed to maximize the user experience with Teams and Skype for Business, and produce superior quality. Use [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a device readiness strategy. |
+| **Drivers** | Patching network (Ethernet and Wi-Fi), audio, video, and USB drivers should be part of your overall patch management strategy. Many quality issues are solved by updating drivers. |
 
 ### TCP
 
@@ -1183,7 +1176,10 @@ The device reports are used to assess device usage by volume and MOS score (audi
 > Unless you exclude federated participant data, these reports will include client telemetry from federated endpoints. To exclude federated endpoints, you must add a query filter for **Second Tenant ID** set to your organization’s [tenant ID](#tenant-id). ALternatively, you can use a [URL filter](#url-filter) to exclude federated participant telemetry.
 
 > [!NOTE] 
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.<br><br> You might notice when viewing this report that you see the same device reported multiple times. This is due to the way the device is reported being reported to CQD. Differences in hardware and OS locale cause differences in how device data is reported.
+> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
+
+> [!Note]
+> You might notice when viewing this report that you see the same device reported multiple times. This is due to the way the device is reported being reported to CQD. Differences in hardware and OS locale cause differences in how device data is reported.
 
 ![Devices (Microphone) report](media/qerguide-image-devicesmicrophone.png)
 
