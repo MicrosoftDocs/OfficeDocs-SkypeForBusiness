@@ -43,7 +43,7 @@ You may be able to answer some of your questions by visiting the [Skype for Busi
   
 ## 3. Complaints and dispute resolution
 
-Our top priorities are customer satisfaction and excellent service. However, in the event that you have a complaint, we will work quickly to help you resolve your issue. Our [Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)](code-of-practice-for-the-united-kingdom-u-k.md) page details the procedures for small businesses to file a complaint with us and our independent dispute resolution scheme.
+Our top priorities are customer satisfaction and excellent service. However, in the event that you have a complaint, we will work quickly to help you resolve your issue. Our [Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)](complaint-handling-code-for-the-united-kingdom-u-k.md) page details the procedures for small businesses to file a complaint with us and our independent dispute resolution scheme.
   
 ## 4. Number porting
 
@@ -141,5 +141,5 @@ Rates for National Translation Services, Personal Numbers, and 0870 numbers are 
   
 
 ## Related topics
-[Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

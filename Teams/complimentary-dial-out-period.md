@@ -82,4 +82,4 @@ As an additional benefit to customers adopting our Office 365 Audio Conferencing
 > Beginning July 1, 2018, all Office 365 Audio Conferencing subscriptions will revert to the standard service terms for dial out from meetings organized by users with Office 365 Audio Conferencing licenses assigned 
   
 ## Related topics
-[Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -147,10 +147,10 @@
 ##  [Accessibility solutions for Skype for Business Online and Microsoft Teams](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ##  [Code of practice in the U.K.](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ##  [Compliant handling of code for the U.K.](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-##  [Complimentary dial out period](/SkypeForBusiness/legal-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Data collection practices](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Complimentary dial out period](complimentary-dial-out-period.md)
+## [Data collection practices](data-collection-practices.md)
 ##  [Emergency call labels](/SkypeForBusiness/legal-and-regulatory/emergency-calling-labels?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-##  [Emergency calling terms and conditions](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 <!-- ============================================================ -->
 <!-- ============================================================ -->
@@ -262,7 +262,7 @@
 #### [Start an Audio Conference over the phone without a PIN](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
 #### [Try or purchase Audio Conferencing in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
-#### [Audio Conferencing Complimentary Dial Out Period](/SkypeForBusiness/legal-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Audio Conferencing Complimentary Dial Out Period](complimentary-dial-out-period.md)
 #### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 ### Calling plans
 #### [Quick start guide - Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)
@@ -299,8 +299,8 @@
 #### [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [What is address validation?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [What are dial plans?](what-are-dial-plans.md)
-#### [Calling Plans in Office 365 - code of practice for the United Kingdom (U.K.)](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)](/SkypeForBusiness/legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Calling Plans in Office 365 - code of practice for the United Kingdom (U.K.)](code-of-practice-for-the-united-kingdom-u-k.md)
+#### [Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### Phone System
 #### [What is Phone System in Office 365?](what-is-phone-system-in-office-365.md)
 #### [Setting up Phone System in your organization](setting-up-your-phone-system.md)
