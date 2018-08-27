@@ -12,6 +12,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 some text
 [this is a link](Office-365-groups.md)
 
+see [Teams overview](Teams-overview.md) 
+
 ![alt text whatever](media/Overview-Microsoft-Teams-image1.png)
 hi
 test update
@@ -20,6 +22,14 @@ test update
 3. item 4
 4. item 5
 
+
+|Column1  |Column2  |Column3  |
+|---------|---------|---------|
+|Row1     |         |         |
+|Row2     |         |         |
+|Row3     |         |         |
+|Row4     |         |         |
+|Row5     |         |         |
 
 I am adding an include to this file here:
 [!INCLUDE [sample-include-file](includes/sample-include-file.md)]
