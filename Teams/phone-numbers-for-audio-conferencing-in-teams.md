@@ -61,7 +61,7 @@ To see a list of those countries/regions that have phone numbers automatically a
 
 ## What else should you know?
 
-- To see the list of supported languages for audio conferencing, see [Audio Conferencing supported languages](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).
+- To see the list of supported languages for audio conferencing, see [Audio Conferencing supported languages](audio-conferencing-supported-languages.md).
     
 - You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
     

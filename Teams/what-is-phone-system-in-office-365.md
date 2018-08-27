@@ -34,7 +34,7 @@ To enable calls to landlines and mobile phones, Phone System can be connected to
   
 - By purchasing the a Calling Plan (domestic or domestic and international) to Office 365. See [What are Calling Plans?](what-are-calling-plans-in-office-365.md)
     
-- By using on-premises PSTN connectivity, where software on premises connects with your existing telephony infrastructure. See [Planning your Phone System](/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution).
+- By using on-premises PSTN connectivity, where software on premises connects with your existing telephony infrastructure. See [Planning your Phone System](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution).
 
 ![Describes Cloud PBX offerings](media/29fd12ab-e86f-422d-b4d6-0b75824211bc.png).
 
@@ -70,5 +70,5 @@ If you're ready to get started, see [Setting up Phone System in your organizatio
 - [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 - [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- [Getting phones for Skype for Business Online](/skypeforbusiness/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
+- [Getting phones for Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
 

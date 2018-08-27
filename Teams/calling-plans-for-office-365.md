@@ -88,7 +88,7 @@ Here are more articles that explain how to set up your Calling Plans:
    
 ## Related topics
 
-- [Set up Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+- [Set up Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
 - [Set up Phone System voicemail - Admin help](set-up-phone-system-voicemail.md)
     

@@ -52,7 +52,7 @@ To enable Audio Conferencing pay-per-minute for users in your organization, see 
   
 ## Want to find out more about pricing?
 
- **Looking for prices?** See [How to see prices and buy add-on licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) or one of the following:
+ **Looking for prices?** See [How to see prices and buy add-on licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing#bkmk_how) or one of the following:
   
 - [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
     
