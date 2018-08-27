@@ -7,7 +7,7 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Priority
-ms.collection: 
+ms.collection:
 - Strat_SB_Admin
 ms.custom:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
@@ -15,15 +15,15 @@ description: "This article discusses how to deploy management of Skype Room Syst
 ---
 
 # Deploy Skype Room Systems v2 management with OMS
- 
+
 This article discusses how to set up and deploy integrated, end-to-end management of Skype Room Systems v2 devices by using Microsoft Operations Management Suite.
-  
+
 You can configure Microsoft Operations Management Suite to provide basic telemetry and alerts that will help you manage Skype meeting room devices. As your management solution matures, you might decide to deploy additional data and management capabilities to create a more detailed view of device availability and performance.
 
 By following this guide, you can use a dashboard like the following example to get detailed status reporting for device availability, application and hardware health, and Skype Room Systems v2 application version distribution.
 
 ![Sample OMS view for SRS v2](../../media/Deploy_OMS_1.png "Sample OMS view for SRS v2")
-  
+
 At a high level, you need to perform the following tasks:
 
 
@@ -126,8 +126,8 @@ To extract your custom fields out of the captured event logs, follow these steps
 > Remember that all JSON and Operations Management Suite fields are case-sensitive.
 
 > Pay attention to the state of the EventID check box in the table below. Be sure you confirm the state of this check box for Operations Management Suite to successfully extract custom field values.
-> 
-> ![Custom field definition](../../media/Deploy_OMS_5.png "Custom field definition") 
+>
+> ![Custom field definition](../../media/Deploy_OMS_5.png "Custom field definition")
 
 **Table 1**
 
@@ -346,7 +346,7 @@ The rule can then automatically run one or more actions to proactively notify yo
 See [Understanding alerts in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts) to learn more about the alerts in Operations Management Suite.
 
 > [!NOTE]
-> The following examples send email alerts when a Skype Room Systems v2 device generates a hardware or an application error. 
+> The following examples send email alerts when a Skype Room Systems v2 device generates a hardware or an application error.
 
 
 ### Configure an email alert for Skype Room Systems v2 hardware issues
@@ -361,7 +361,7 @@ Configure an alert rule that checks for Skype Room Systems v2 devices that have 
     Event
     | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF 
+    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF
     |sort by TimeGenerated desc
     ```
 
@@ -436,7 +436,7 @@ If you already deployed your Skype Room Systems v2 devices before you implement 
 
 1.  Create a shared network path and grant read access to **Domain Computers** group.
 
-2.  Download the 64-bit version of the Operations Management Suite Agent for Windows from <http://go.microsoft.com/fwlink/?LinkID=517476>
+2.  Download the 64-bit version of the Operations Management Suite Agent for Windows from <https://go.microsoft.com/fwlink/?LinkID=517476>
 
 3.  Extract the contents of the setup package into the network share.
     1.  Open a Command Prompt window, and then execute **MMASetup-AMD64.exe /c**
@@ -462,34 +462,34 @@ If you already deployed your Skype Room Systems v2 devices before you implement 
 
     ```
     # Install-OMSAgent.ps1
-    <# 
-    Date:        04/20/2018 
-    Script:      Install-OMSAgent.ps1 
+    <#
+    Date:        04/20/2018
+    Script:      Install-OMSAgent.ps1
     Version:     1.0
-    #> 
-    
+    #>
+
     # Set the parameters
     $WorkspaceId = "<your workspace id>"
     $WorkspaceKey = "<your workspace key>"
     $SetupPath = "\\Server\Share"
-    
+
     $SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
-    
+
     # $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
-    
+
     # Start PowerShell logging
-    Start-Transcript -Path C:\OMSAgentInstall.Log  
-    
+    Start-Transcript -Path C:\OMSAgentInstall.Log
+
     # Check if the Microsoft Monitoring Agent is installed
     $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
-    
-    # Check if the Microsoft Monitoring agent is installed 
+
+    # Check if the Microsoft Monitoring agent is installed
     if (!$mma)
     {
         #Install agent
         Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
     }
-    
+
     # Check if the agent has a valid configuration
     $CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
     if (!$CheckOMS)
@@ -497,12 +497,12 @@ If you already deployed your Skype Room Systems v2 devices before you implement 
         # Apply new configuration
         $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
         $mma.ReloadConfiguration()
-    } 
-    
-    Stop-Transcript 
-    
+    }
+
+    Stop-Transcript
+
     ```
-    
+
 > [!NOTE]
 > You can refer to the article [Managing and maintaining the Log Analytics agent](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage) when you need to reconfigure an agent, move it to a different workspace, or modify proxy settings after the initial installation.
 
@@ -519,5 +519,5 @@ Operations Management Suite provides built-in solutions through its [solution ga
 ## See also
 
 [Plan Skype Room Systems v2 management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
-  
+
 [Manage Skype Room Systems v2 devices with OMS](../../manage/skype-room-systems-v2/oms.md)
