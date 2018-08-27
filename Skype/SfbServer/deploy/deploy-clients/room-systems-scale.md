@@ -76,7 +76,7 @@ Use the following instructions to verify that the operating system deployment (O
 
 2.  Select the distribution point server that will serve the Skype Room Systems v2 deployment, and then select **Properties**.
 
-3.  Select the **PXE** tab, and ensure that the following settings are enabled: 
+3.  Select the **PXE** tab, and ensure that the following settings are enabled:
     -   Enable PXE support for clients
     -   Allow this distribution point to respond to incoming PXE requests
     -   Enable unknown computer support
@@ -207,7 +207,7 @@ Create the following folder structure on the System Center Configuration Manager
       Wait-Process -name wusa
    }
 ```
-3.  Download the mandatory Windows Update packages into the same folder.  
+3.  Download the mandatory Windows Update packages into the same folder.
     > [!NOTE]
     > At the time this article was published, only [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) was required. Check [Configure a Skype Room Systems v2 console](console.md), to see whether any other updates are required.
 
@@ -316,21 +316,21 @@ You create this package to distribute the root certificate for devices that wonâ
     	strHTMLText = strHTMLText & "<br><br> Click Accept to use this as the computer name and continue deployment, or Change to set a new name."
     	strHTMLText = strHTMLText & "<p><input type=""button"" value=""Accept"" name = ""Accept_Button"" onclick=""SetComputerName"" />"
     	strHTMLText = strHTMLText & " <input type=""button"" value=""Change"" name = ""Change_Button"" onclick=""ChangeComputerName"" />"
-    	TextArea2.innerHTML = strHTMLText	
+    	TextArea2.innerHTML = strHTMLText
     End Sub
-    
+
     Sub SetComputerName()
     	dim result
     	result = MsgBox("Computer Name to be assigned: " & strNewComputerName &vbcrlf & "Are you sure you want to continue?", 36)
-    	If (result = vbYes) then 
-    		SET env = CreateObject("Microsoft.SMS.TSEnvironment") 
+    	If (result = vbYes) then
+    		SET env = CreateObject("Microsoft.SMS.TSEnvironment")
     		env("OSDComputerName") = strNewComputerName
-    		self.close	
+    		self.close
     	elseif (result = vbNo) then
     		Window_OnLoad
     	End If
     End Sub
-    
+
     Sub UpdateComputerName()
     	strNewComputerName = newcomputername.value
     	if len(trim(strNewComputerName)) = 0 then
@@ -339,26 +339,26 @@ You create this package to distribute the root certificate for devices that wonâ
     	end if
     	SetComputerName
     End Sub
-    
+
     Sub ChangeComputerName()
     	TextArea2.innerHTML = "<p>Type the new computer name and click Accept:  <input type=""text"" name=""newcomputername"" value =" & strNewComputerName & " />"
     	TextArea2.innerHTML = TextArea2.innerHTML & "<br><input type=""button"" value=""Update"" name = ""Update_Button"" onclick=""UpdateComputerName"" />"
     End Sub
-    
+
     Sub Window_OnLoad
     	Set oTSProgressUI = CreateObject("Microsoft.SMS.TsProgressUI")
     	oTSProgressUI.CloseProgressDialog
     	GenerateComputerName
     End Sub
     </script>
-    
+
     <body>
     <span id = "TextArea1"></span>
     <span id = "TextArea2">
     </span>
     </body>
     </html>
-    
+
     ```
 3.  In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create Package**.
 
@@ -387,16 +387,16 @@ You create this package to distribute the root certificate for devices that wonâ
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend">
     <settings pass="specialize">
-        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <DisableBootMenu>1</DisableBootMenu>
             <DisplayDisabled>1</DisplayDisabled>
         </component>
-        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
         </component>
     </settings>
     <settings pass="oobeSystem">
-        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <OOBE>
                 <HideEULAPage>true</HideEULAPage>
                 <HideLocalAccountScreen>true</HideLocalAccountScreen>
@@ -625,11 +625,11 @@ You can download and easily import a sample task sequence and customize it to me
     16. **Add Local Skype User**: This step creates the local Skype account used to automatically sign in to Windows and start the Skype Room Systems v2 application. This step doesnâ€™t have any software package associated with it, and no customization is required for it.
 
     17. **Set up and configure SRS application**: This step configures the Skype Room Systems v2 application installation for the next boot of the operating system.
-        -   Verify that the **SRS v2 â€“ Configure SRS Setup Package** and **Disable 64-bit file system redirection** are selected.       
+        -   Verify that the **SRS v2 â€“ Configure SRS Setup Package** and **Disable 64-bit file system redirection** are selected.
 
 > [!IMPORTANT]
 > It is very important that the task sequence steps must be in the provided order. Modifying the order of steps, or configuring additional steps might break the deployment.
-> 
+>
 > **Set up and configure SRS application** step must be the last step in the task sequence, otherwise the deployment might fail.
 
 ### Create deployment for the task sequence

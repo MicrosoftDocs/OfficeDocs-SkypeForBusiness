@@ -199,11 +199,11 @@ If you're still not able to resolve the user's sign-in problems, review the sugg
 
 If you've followed the guidance above and still can't resolve your sign-in issues, you must collect additional information and contact technical support. To do this, follow these steps:
 
-1. Obtain the log files and Windows Event log details from the user's machine. For step-by-step instructions, see the end-user help topic [Turn on error logs in Lync](http://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
+1. Obtain the log files and Windows Event log details from the user's machine. For step-by-step instructions, see the end-user help topic [Turn on error logs in Lync](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
 
 2. Send the log files and detailed information about the error to Microsoft technical support.
 
-You may be asked to supply additional diagnostic information by installing the Microsoft Online Services Diagnostic and Logging (MOSDAL) Support Toolkit on the affected user's machine. For details, see [Using the MOSDAL Support Toolkit](http://support.office.com/article/ddf1f52f-24a1-4675-abe0-141052c88b72).
+You may be asked to supply additional diagnostic information by installing the Microsoft Online Services Diagnostic and Logging (MOSDAL) Support Toolkit on the affected user's machine. For details, see [Using the MOSDAL Support Toolkit](https://support.office.com/article/ddf1f52f-24a1-4675-abe0-141052c88b72).
 
 To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help.
 

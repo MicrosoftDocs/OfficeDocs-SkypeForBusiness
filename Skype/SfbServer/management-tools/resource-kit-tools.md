@@ -1418,11 +1418,11 @@ Prior to running the SYSPrep.ps1 script, you must copy the prerequisite files to
 |**Prerequisite**|**Location**|
 |:-----|:-----|
 |Microsoft .Net Framework 4.5  <br/> |https://go.microsoft.com/?linkid=9816306  <br/> |
-|Microsoft SQL Server Express 2008 R2  <br/> |http://www.microsoft.com/en-us/download/details.aspx?id=23650  <br/> |
-|Windows Powershell version 3.0  <br/> |http://www.microsoft.com/en-us/download/details.aspx?id=34595  <br/> |
-|Visual C++ 2010 Redistributable  <br/> |http://www.microsoft.com/en-us/download/details.aspx?id=5555  <br/> |
-|Internet Information Server Updates  <br/> |http://www.microsoft.com/en-us/download/details.aspx?id=34869  <br/> |
-|Windows Identity Foundation  <br/> |http://www.microsoft.com/en-us/download/details.aspx?id=17331  <br/> |
+|Microsoft SQL Server Express 2008 R2  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=23650  <br/> |
+|Windows Powershell version 3.0  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=34595  <br/> |
+|Visual C++ 2010 Redistributable  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=5555  <br/> |
+|Internet Information Server Updates  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=34869  <br/> |
+|Windows Identity Foundation  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=17331  <br/> |
 |Skype for Business Server 2015 Setup.exe  <br/> |Copy from Skype for Business Server 2015 media  <br/> |
 
 ### Parameter

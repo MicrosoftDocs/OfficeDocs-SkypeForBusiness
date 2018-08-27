@@ -14,25 +14,25 @@ description: "Provides IT Pros with links to the latest update information for p
 # Latest updates for versions of Skype for Business that use Windows Installer (MSI)
 
 Use the links on this page to get more information about and download the most recent updates for the perpetual versions of Skype for Business 2016, Skype for Business 2015, and Lync 2013 clients.
-  
-> [!NOTE] 
+
+> [!NOTE]
 > - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
 > - The information in this article doesn't apply to Office 365 versions of Skype for Business, such as Skype for Business included with Office 365 ProPlus.
 > - For the latest mobile client updates, go to the app store for your mobile client (iTunes, Google Play, or Microsoft Store) to view details and install updates.
 > - To find out what version of Skype for Business you're using, see [What version of Skype for Business do I have?](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
-> - For more information about installing Office updates, see [Install Office updates](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5). 
-  
+> - For more information about installing Office updates, see [Install Office updates](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5).
+
 Skype for Business compatibility with Office 365 and your on-premises environment depends on the system requirements for your deployment:
-  
+
 - Office 365 works with any version of Skype for Business that is in mainstream support, which includes the latest version of Skype for Business 2016. For previous versions of Skype for Business, only those that have extended support may continue to work with Office 365, although with reduced functionality. For more information, see [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
-    
+
 - For Skype for Business Server on-premises deployments, follow the system requirements for your version of Skype for Business:
-    
+
   - [Requirements for your Skype for Business environment](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
-    
+
   - [Lync Server 2013 system requirements](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
-    
-  
+
+
 ## Skype for Business 2016 client updates
 |Package Name|KB Number|Release Date|
 |:---  |:---  |:---  |
@@ -102,7 +102,7 @@ Skype for Business compatibility with Office 365 and your on-premises environmen
 |Security update for Skype for Business 2015/Lync 2013|[KB 3118348](https://support.microsoft.com/kb/3118348) | October 2016 |
 |Update for Skype for Business 2015/Lync 2013|[KB 3118281 ](https://support.microsoft.com/kb/3118281) | September 2016 |
 |Security update for Skype for Business 2015/Lync 2013|[KB 3115431](https://support.microsoft.com/kb/3115431) | August 2016 |
-|Update for Skype for Business 2015/Lync 2013|[KB 3115261 ](http://support.microsoft.com/kb/3115261) | July 2016 |
+|Update for Skype for Business 2015/Lync 2013|[KB 3115261 ](https://support.microsoft.com/kb/3115261) | July 2016 |
 |Security update for Skype for Business 2015/Lync 2013|[KB 3114944](https://support.microsoft.com/kb/3114944) | April 2016 |
 |Update for Skype for Business 2015/Lync 2013|[KB 3114831 ](https://support.microsoft.com/kb/3114831) | March 2016 |
 |Update for Skype for Business 2015/Lync 2013|[KB 3114732 ](https://support.microsoft.com/kb/3114732) | February 2016 |
@@ -124,7 +124,7 @@ Skype for Business compatibility with Office 365 and your on-premises environmen
 
 
 * * *
-   
+
 ## Lync 2013 client updates
 
 Package Name|KB Number|Release Date|
