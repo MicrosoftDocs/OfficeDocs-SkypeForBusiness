@@ -15,11 +15,11 @@ description: "You specify the fully qualified domain name (FQDN) of the public s
 ---
 
 # Define the PSTN Gateway FQDN
- 
+
 You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).
-  
+
 For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
-  
+
 ## See also
 
-[PSTN Gateway Deployment Options](http://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[PSTN Gateway Deployment Options](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
