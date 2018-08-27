@@ -12,7 +12,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 some text
 [this is a link](Office-365-groups.md)
 
-see [Teams overview](Teams-overview.md)
+see [Teams overview](Teams-overview.md) 
 
 ![alt text whatever](media/Overview-Microsoft-Teams-image1.png)
 hi
