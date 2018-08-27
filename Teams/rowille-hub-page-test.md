@@ -3,7 +3,7 @@ layout: HubPage
 hide_bc: true
 title: Microsoft Teams documentation and resources | Microsoft Docs
 description: Learn about product documentation and resources available for IT Pro, IT admin, change and adoption managers and developers.
-author: rowille
+author: rmw2890
 ms.topic: hub-page
 ms.author: rowille
 ms.collection: Strat_MT_TeamsAdmin
