@@ -19,9 +19,6 @@ test update
 2. item 3
 3. item 4
 4. item 5
-5. item 6
-6. item 7
-7. item 8
 
 
 I am adding an include to this file here:
