@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
-appliesto: 
+appliesto:
 - Microsoft Teams
 ---
 
 # Known issues for Microsoft Teams
-  
+
 This article lists the known issues for Microsoft Teams, by feature area.
-## 
+##
 
 ## Administration
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -75,7 +75,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Safari web client support  <br/> |Users trying to open the Microsoft Teams web client on Safari are directed to download the desktop client. Microsoft is looking into Safari support and will share updates on the [Teams Roadmap](http://aka.ms/TeamsRoadmap).  <br/> |Use supported internet browsers, which include: Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+, and Firefox 47.0+.  <br/> |11/2/16  <br/> |
+|Safari web client support  <br/> |Users trying to open the Microsoft Teams web client on Safari are directed to download the desktop client. Microsoft is looking into Safari support and will share updates on the [Teams Roadmap](https://aka.ms/TeamsRoadmap).  <br/> |Use supported internet browsers, which include: Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+, and Firefox 47.0+.  <br/> |11/2/16  <br/> |
 
 ## Channels
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -233,6 +233,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Deleting a team will also delete the group associated with it  <br/> |Users may not realize that the underlying Office 365 Group is deleted when the team is deleted. Additionally, if the underlying Office 365 Group is deleted, the team is deleted as well.  <br/> |Additional language in Microsoft Teams provides this information to the user. This information is not present in the Office 365 Groups interface. Your help desk can recover a deleted Group/Team.  <br/> |3/13/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|  
+|:-----|:-----|:-----|:-----|
 |Teams desktop app showing white screen  <br/> | <br/> |Try deleting or reinstalling the graphics drivers on the computer, or start Teams from a command line with a disable GPU flag:<ul><li>For Windows: Open the command prompt and enter the following: `cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>For Mac: Start Terminal and enter the following: `cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 
