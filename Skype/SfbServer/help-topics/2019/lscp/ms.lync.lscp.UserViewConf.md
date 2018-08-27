@@ -15,10 +15,10 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Users: View or Configure Conferencing Policy
- 
+
 What do you want to do? Click the link to the task that you want to perform.
-  
-- [Assign a Conferencing Policy to Modify a User's Default Meeting Experience](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
-    
- 
+
+- [Assign a Conferencing Policy to Modify a User's Default Meeting Experience](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+
+
 
