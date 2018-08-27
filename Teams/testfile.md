@@ -21,7 +21,7 @@ test update
 4. item 5
 
 
-adding an include to this file here:
+I am adding an include to this file here:
 [!INCLUDE [sample-include-file](includes/sample-include-file.md)]
 
 
