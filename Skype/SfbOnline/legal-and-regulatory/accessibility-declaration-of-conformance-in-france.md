@@ -71,7 +71,7 @@ Définitions et abréviations: [EN 301 549 ](http://mandate376.standards.eu/stan
   
 [4.2.10 Utilisation avec cognition limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=48&amp;functional_statements_submitted=true)
   
-[4.2.11 ]()[Respect de la vie privée](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
+[4.2.11 Respect de la vie privée](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
 ## Section 5: Exigences génériques
 
