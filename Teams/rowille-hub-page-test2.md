@@ -19,6 +19,11 @@ ms.date: 08/24/2018
                     <li>
                         <a href="#tab1-all"></a>
                         <ul id="tab1-all" class="cardsF">
+                           <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>Can we use descriptive text here?</p>
+                                </div>
+                            </li>       
                             <li>
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -45,7 +50,7 @@ ms.date: 08/24/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/common/i_reference.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt=" ">
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -67,7 +72,7 @@ ms.date: 08/24/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
+                                                        <img src="https://docs.microsoft.com/en-us//media/common/i_configure-teams.svg" alt="a task list, a wrench and a gear symbol" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
