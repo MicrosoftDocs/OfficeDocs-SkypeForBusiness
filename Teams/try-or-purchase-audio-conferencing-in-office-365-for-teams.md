@@ -82,7 +82,6 @@ The following steps are **optional**, but a lot of admins like to do them:
 
 4. [Set the length of the PIN for Audio Conferencing meetings](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md).
 
-##
 
 > [!NOTE]
 > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
