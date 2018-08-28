@@ -79,6 +79,31 @@ ms.date: 08/24/2018
                                     </div>
                                 </a>
                             </li>
+                            <li>
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us//media/common/i_configure-teams.svg" alt=" " />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Plan to prepare</h3>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/environment-readiness">Check your environment’s readiness for Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/prepare-network">Prepare your organization's network for Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/office-365-urls-ip-address-ranges">Office 365 URLs and IP address ranges</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/limits-specifications-teams">Limits and specifications for Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/plan-office-365-groups">Plan for Office 365 Groups when creating teams in Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/rollout-tools">Get tools to support a rollout of Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/plan-teams-governance">Plan for governance in Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/plan-for-government-gcc">Plan for Microsoft 365 Government - GCC deployments</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
