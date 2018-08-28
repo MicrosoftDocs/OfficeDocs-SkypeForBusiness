@@ -164,7 +164,7 @@ ms.date: 08/24/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/Security-Compliance-400x140.svg" alt="  ">
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Security-Compliance-400x140.svg" alt="  ">
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -188,7 +188,7 @@ ms.date: 08/24/2018
                         <ul id="tab3-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Not sure whether to use cards or lists on this tab (not sure about any of them, really).</p>
+                                    <p>Not sure whether to use cards here or lists, similar to the Getting started tab. I'm inclined toward the latter since we've got no landing pages.</p>
                                 </div>
                             </li>
                             <li>
