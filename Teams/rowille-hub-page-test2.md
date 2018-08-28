@@ -25,11 +25,11 @@ ms.date: 08/24/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/common/i_reference.svg" alt="a task list, a wrench and a gear symbol" data-linktype="absolute-path">
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started.svg" alt="Get started" data-linktype="external">
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>What's all this about Teams?</h3>
+                                                    <h3><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/Microsoft-Teams" alt=" " data-linktype="external">What's all this about Teams?</a></h3>
                                                     <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/Teams-overview">Teams overview</a></p>
                                                     <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams">Quick start</a></p>
                                                     <p><a href="">Tab 1 | Card 1 descriptive text.</a></p>
@@ -88,7 +88,7 @@ ms.date: 08/24/2018
                 </ul>
             </li>
             <li>
-                <a href="#tab2">Tab 2</a>
+                <a href="#tab2">Features</a>
                 <ul id="tab2">
                     <li>
                         <a href="#tab2-all"></a>
