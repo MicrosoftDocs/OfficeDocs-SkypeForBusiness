@@ -49,4 +49,4 @@ It's possible to trick a Markdown table into looking like it contains a bullet l
 Microsoft Teams content is now available.
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)
 
-See [Quick start - Teams planning guide](quick-start-enable-Teams.md))
+See [Quick start - Teams planning guide](quick-start-enable-Teams.md)
