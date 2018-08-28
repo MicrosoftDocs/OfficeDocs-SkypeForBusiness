@@ -110,6 +110,7 @@ ms.date: 08/24/2018
                                 </a>
                             </li>
                             <li>
+                                <ul class="cardsC">
                                 <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/itadmin-readiness">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -127,6 +128,7 @@ ms.date: 08/24/2018
                                         </div>
                                     </div>
                                 </a>
+                                </ul>
                             </li>
                         </ul>
                     </li>
