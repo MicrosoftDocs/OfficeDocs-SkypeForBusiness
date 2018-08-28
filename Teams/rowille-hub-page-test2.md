@@ -88,7 +88,7 @@ ms.date: 08/24/2018
                 </ul>
             </li>
             <li>
-                <a href="#tab2">Features</a>
+                <a href="#tab2">Deploying Teams</a>
                 <ul id="tab2">
                     <li>
                         <a href="#tab2-all"></a>
@@ -160,7 +160,7 @@ ms.date: 08/24/2018
                 </ul>
             </li>
              <li>
-                <a href="#tab2">Plan your Teams deployment</a>
+                <a href="#tab2">Teams administration</a>
                 <ul id="tab2">
                     <li>
                         <a href="#tab2-all"></a>
@@ -232,7 +232,7 @@ ms.date: 08/24/2018
                 </ul>
             </li>
             <li>
-                <a href="#tab2">Teams administration</a>
+                <a href="#tab2">Move your organization to Teams</a>
                 <ul id="tab2">
                     <li>
                         <a href="#tab2-all"></a>
@@ -293,6 +293,78 @@ ms.date: 08/24/2018
                                                 <div class="cardText">
                                                     <h3>Tab 2 | Card 3 title</h3>
                                                     <p>Tab 2 | Card 3 descriptive text.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+ <li>
+                <a href="#tab2">More resources</a>
+                <ul id="tab2">
+                    <li>
+                        <a href="#tab2-all"></a>
+                        <ul id="tab2-all" class="cardsC">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>Got your more resources here.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/microsoftteams/platform/overview" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Introduction to the Microsoft Teams developer platform</h3>
+                                                    <p>Learn about the Microsoft Teams developer platform and how it enables you to build useful and powerful apps.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Community-400x140.svg" alt=" ">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Teams tech community</h3>
+                                                    <p>Join the Teams tech community to ask questions and get answers, and read the Teams blog.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/powershell/module/teams/?view=teams-ps">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-PowerShell-400x140.svg" alt=" ">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>PowerShell cmdlet reference for Teams</h3>
+                                                    <p>Get the PowerShell modules and cmdlets for Teams. Left the href with no further attributes.</p>
                                                 </div>
                                             </div>
                                         </div>
