@@ -88,7 +88,7 @@ ms.date: 08/24/2018
                 </ul>
             </li>
             <li>
-                <a href="#tab2">Deploying Teams</a>
+                <a href="#tab2">Deploy Teams</a>
                 <ul id="tab2">
                     <li>
                         <a href="#tab2-all"></a>
@@ -160,11 +160,11 @@ ms.date: 08/24/2018
                 </ul>
             </li>
              <li>
-                <a href="#tab2">Teams administration</a>
-                <ul id="tab2">
+                <a href="#tab3">Administration</a>
+                <ul id="tab3">
                     <li>
-                        <a href="#tab2-all"></a>
-                        <ul id="tab2-all" class="cardsC">
+                        <a href="#tab3-all"></a>
+                        <ul id="tab3-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Tab 2 descriptive text.</p>
@@ -232,18 +232,19 @@ ms.date: 08/24/2018
                 </ul>
             </li>
             <li>
-                <a href="#tab2">Move your organization to Teams</a>
-                <ul id="tab2">
+                <a href="#tab4">Adopt Teams</a>
+                <ul id="tab4">
                     <li>
-                        <a href="#tab2-all"></a>
-                        <ul id="tab2-all" class="cardsC">
+                        <a href="#tab4-all"></a>
+                        <ul id="tab4-all" class="cardsC">
                             <li class="fullSpan">
-                                <div class="container intro">
+<!--                                <div class="container intro">
                                     <p>Tab 2 descriptive text.</p>
                                 </div>
+ -->
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/" target="_blank">
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -304,11 +305,11 @@ ms.date: 08/24/2018
                 </ul>
             </li>
  <li>
-                <a href="#tab2">More resources</a>
-                <ul id="tab2">
+                <a href="#tab5">More resources</a>
+                <ul id="tab5">
                     <li>
-                        <a href="#tab2-all"></a>
-                        <ul id="tab2-all" class="cardsC">
+                        <a href="#tab5-all"></a>
+                        <ul id="tab5-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Got your more resources here.</p>
