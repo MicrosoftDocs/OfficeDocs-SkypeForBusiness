@@ -18,12 +18,7 @@ ms.date: 08/24/2018
                 <ul id="tab1">
                     <li>
                         <a href="#tab1-all"></a>
-                        <ul id="tab1-all" class="cardsF">
-                           <li class="fullSpan">
-                                <div class="container intro">
-                                    <p>Can we use descriptive text here?</p>
-                                </div>
-                            </li>       
+                        <ul id="tab1-all" class="cardsF">     
                             <li>
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -37,7 +32,6 @@ ms.date: 08/24/2018
                                                     <h3><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/Microsoft-Teams" alt=" " data-linktype="external">What's all this about Teams?</a></h3>
                                                     <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/Teams-overview">Teams overview</a></p>
                                                     <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams">Quick start</a></p>
-                                                    <p><a href="">Tab 1 | Card 1 descriptive text.</a></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -66,22 +60,19 @@ ms.date: 08/24/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us//media/common/i_configure-teams.svg" alt="a task list, a wrench and a gear symbol" />
+                                                        <img src="https://docs.microsoft.com/en-us//media/common/i_configure-teams.svg" alt=" " />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Meetings</h3>
-                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/teams-channels-overview">What are teams and channels?</a></p>
-                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/assign-roles-permissions">Assign roles and permissions</a></p>
-                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/best-practices-organizing">Best practices for organizing teams</a></p>
-                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/plan-office-365-groups">How Office 365 Groups affect teams</a></p>
-                                                    <p>Tab 1 | Card 3 descriptive text.</p>
+                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/tutorial-meetings-in-teams">Tutorial</a></p>
+                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/what-are-teams-live-events">Teams live events (preview)</a></p>
+                                                        <p>I think we need a Meetings landing page</p>  
                                                 </div>
                                             </div>
                                         </div>
@@ -243,10 +234,6 @@ ms.date: 08/24/2018
                         <a href="#tab4-all"></a>
                         <ul id="tab4-all" class="cardsC">
                             <li class="fullSpan">
-<!--                                <div class="container intro">
-                                    <p>Tab 2 descriptive text.</p>
-                                </div>
- -->
                             </li>
                             <li>
                                 <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams">
@@ -255,12 +242,12 @@ ms.date: 08/24/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Journey-400x140.svg" alt=" " />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Tab 2 | Card 1 title</h3>
-                                                    <p>Tab 2 | Card 1 descriptive text.</p>
+                                                    <h3>Journey from Skype for Business to Teams</h3>
+                                                    <p>Find guidance and tools to explore your optimal path to Teams.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -268,37 +255,18 @@ ms.date: 08/24/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/" target="_blank">
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/change-management-strategy" datalink-type="absolute-path">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="  " />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Tab 2 | Card 2 title</h3>
-                                                    <p>Tab 2 | Card 2 descriptive text.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.microsoft.com/" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Tab 2 | Card 3 title</h3>
-                                                    <p>Tab 2 | Card 3 descriptive text.</p>
+                                                    <h3>Adoption and change management strategy</h3>
+                                                    <p>Get tools to support your Teams rollout and help you create your change management strategy for Teams.</p>
                                                 </div>
                                             </div>
                                         </div>
