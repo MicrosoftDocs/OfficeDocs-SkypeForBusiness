@@ -179,6 +179,6 @@
 ### [Code of practice for the United Kingdom (U.K.)](/microsoftteams/code-of-practice-for-the-united-kingdom-u-k?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Complaint handling code for the United Kingdom (U.K.)](/microsoftteams/complaint-handling-code-for-the-united-kingdom-u-k?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Data collection practices](/microsoftteams/data-collection-practices?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Emergency calling labels](../legal-and-regulatory/emergency-calling-labels.md)
+### [Emergency calling labels](/microsoftteams/emergency-calling-labels?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [End of life program for the integration of Skype for Business with third-party audio conferencing](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)

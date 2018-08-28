@@ -28,6 +28,6 @@ These are emergency calling (911) disclaimer labels or stickers for use with Ave
 
 ## Related topics
 
-[Different kinds of phone numbers used for Calling Plans](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
+[Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
