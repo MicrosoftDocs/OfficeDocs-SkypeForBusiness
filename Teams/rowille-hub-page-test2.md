@@ -19,6 +19,11 @@ ms.date: 08/24/2018
                     <li>
                         <a href="#tab1-all"></a>
                         <ul id="tab1-all" class="cardsF">     
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>Notice the different look of this tab: groups of individual links rather than "container" cards that are one giant hyperlink to one place.</p><br><p>&nbsp;</p>
+                                </div>
+                            </li>
                             <li>
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -98,6 +103,25 @@ ms.date: 08/24/2018
                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/rollout-tools">Get tools to support a rollout of Teams</a></p>
                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/plan-teams-governance">Plan for governance in Teams</a></p>
                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/plan-for-government-gcc">Plan for Microsoft 365 Government - GCC deployments</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/itadmin-readiness">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/ms365enterprise-partner-resource-training-1.svg" alt="  " />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Experiment</h3>
+                                                    <p>Can we mix CardC and CardF classes? Would we even want to? (Also, note the also-cool graphic.)</p>
                                                 </div>
                                             </div>
                                         </div>
