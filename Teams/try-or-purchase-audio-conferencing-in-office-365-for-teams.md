@@ -46,7 +46,7 @@ You must be an [About Office 365 admin roles](https://support.office.com/article
 
 3. [Assign or remove licenses for Office 365 for business](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
 
-4. If you purchased audio conferencing add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+4. If you purchased audio conferencing add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
 ### To buy and assign pay-per-minute Audio Conferencing licenses:
 
