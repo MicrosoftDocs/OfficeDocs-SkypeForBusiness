@@ -920,7 +920,7 @@ Trending reports display quality information over time and are used to help iden
 > Investigating two-party, PSTN calling, and meeting rooms are similar to investigating conferencing. The focus is to isloate buildings or subnets that have the worst quality and identify the reason for the poor quality.
 
 > [!Important]
-> VPN-based reports are filtered by using the Second VPN dimension. This dimension requires that the VPN network adapter be properly registered as a Remote Access Adapter.  VPN vendors don’tt reliably use this flag, and your mileage will vary depending on the VPN vendor deployed at your organization. Follow the guidance outlined [earlier in this guide](NEED LINK) for modifying the VPN reports if needed by using the building or network name.
+> VPN-based reports are filtered by using the Second VPN dimension. This dimension requires that the VPN network adapter be properly registered as a Remote Access Adapter. VPN vendors don’t reliably use this flag, and your mileage will vary depending on the VPN vendor deployed at your organization. Follow the guidance outlined [earlier in this guide](#vpn) for modifying the VPN reports if needed by using the building or network name.
 
 ![Chart showing the percentage of poor quality streams](media/qerguide-image-audioqualityconferencing.png)
 
