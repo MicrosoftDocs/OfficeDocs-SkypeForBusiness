@@ -11,7 +11,7 @@ ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
-- Skype for Business 
+- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
@@ -23,19 +23,19 @@ description: "Get detailed information about the dimensions and measures exposed
 # Dimensions and measures available in Call Quality Dashboard
 
 The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the dimensions and measures exposed by CQD. To learn more about CQD and how to enable it, see [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](turning-on-and-using-call-quality-dashboard.md).
-  
+
 ## First and Second endpoint classification
 
 Many of the dimensions and measures in Call Quality Dashboard (CQD) are labeled as first or second. The following logic determines which endpoint involved in the stream or call is labeled as first:
-  
+
 - First will always be a Server endpoint (AV MCU, Mediation Server, etc.) if a Server is involved in the stream/call.
-    
+
 - Second will always be a Client endpoint unless the stream is between two Server endpoints.
-    
+
 - If both endpoints are the same type, the order for which is first vs. second is based on internal ordering of the user agent category. This ensures the ordering is consistent.
-    
+
 For example, each row represents a pair of User Agents involved in a stream:
-  
+
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**User Agent Category of Caller** <br/> |**User Agent Category of Callee** <br/> |**First Endpoint** <br/> |**Second Endpoint** <br/> |**First Is Caller** <br/> |
@@ -46,14 +46,14 @@ For example, each row represents a pair of User Agents involved in a stream:
 |Mediation Server  <br/> |AV-MCU  <br/> |Mediation Server  <br/> |AV-MCU  <br/> |TRUE  <br/> |
 |OC (Skype for Business client)  <br/> |OC Phone (Skype for Business IP Phone)  <br/> |OC (Skype for Business client)  <br/> |OC Phone (Skype for Business IP Phone)  <br/> |TRUE  <br/> |
 |OC Phone (Skype for Business IP Phone)  <br/> |OC (Skype for Business client)  <br/> |OC (Skype for Business client)  <br/> |OC Phone (Skype for Business IP Phone)  <br/> |FALSE  <br/> |
-   
+
 > [!NOTE]
 > That First and Second classification is separate from which endpoint is the caller or callee. The First Is Caller dimension can be used to help identify which endpoint was the caller or callee.
-  
+
 ## Dimensions
 
 The following table lists the dimensions currently available in CQD:
-  
+
 |||||
 |:-----|:-----|:-----|:-----|
 |**Dimension name** <br/> |**Data type / Units** <br/> |**Description** <br/> |**Values** <br/> |
@@ -316,17 +316,17 @@ The following table lists the dimensions currently available in CQD:
 |Inside Corp Pair  <br/> |Enumerated pair  <br/> | Pair showing if the endpoints were located inside or outside the corporate network based on the subnet mapping. Possible values: <br/>  Inside : Inside <br/>  Inside : Outside <br/>  Outside : Outside <br/> |**Example value:** Inside : Inside  <br/> |
 |Scenario Pair  <br/> |Enumerated pair  <br/> |Pair showing if the endpoints were located inside or outside the corporate network based on the subnet mapping and the network connection detail.  <br/> **Note:** The pairs are separated by '--'.           |Blank values in enumeration indicate the network connectivity type was unknown for either or both endpoints. <br/>**Example value:** Client-Inside--Client-Inside-wifi  <br/> |
 |Is Teams  <br/> |Boolean  <br/> |True indicates that the first or second user agent for the stream is a Microsoft Teams endpoint.  <br/> False indicates the user agents are Skype for Business endpoints.  |**Example value:** True  |
-   
+
 ### Notes on dimension data type/units:
 
 #### Range
 
 Dimensions that are provided as range or group of values are shown using the following format:
-  
+
  _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>)_
-  
+
 For example, the Duration (Minutes) dimension represents the call duration in seconds with the value reported as a range of values.
-  
+
 |||
 |:-----|:-----|
 |**Duration (Minutes)** <br/> |**How to interpret** <br/> |
@@ -335,22 +335,22 @@ For example, the Duration (Minutes) dimension represents the call duration in se
 |065: [2 - 3)  <br/> |2 minutes < = stream duration < 3 minutes  <br/> |
 |066: [3 - 4)  <br/> |3 minutes < = stream duration < 4 minutes  <br/> |
 |…  <br/> |…  <br/> |
-   
+
 The <sort order string> is used to control the sort order when presenting the data and can be used for filtering. For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected).
-  
+
 > [!NOTE]
-> The actual value of the sort order string isn't significant. 
-  
+> The actual value of the sort order string isn't significant.
+
 #### Enumeration pair
 
 Dimensions that are provided as an enumeration pair are shown using the following format:
-  
+
  _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
-  
+
 The ordering of the enumeration values is consistent but doesn't reflect ordering of the first or second endpoints.
-  
+
 For example, the Network Connection Detail Pair shows the Network Connection Detail values for the two endpoints:
-  
+
 |||
 |:-----|:-----|
 |**Network Connection Detail Pair** <br/> |**How to interpret** <br/> |
@@ -358,15 +358,15 @@ For example, the Network Connection Detail Pair shows the Network Connection Det
 |Wired : wifi  <br/> |First endpoint used wired ethernet connection and second endpoint used Wi-Fi connection, or the second endpoint used wired ethernet connection and first endpoint used Wi-Fi connection.  <br/> |
 |: wifi  <br/> |First endpoint used a WiFi connection and the network connection used by the second endpoint is unknown, or the second endpoint used a WiFi connection and the network connection used by the first endpoint is unknown.  <br/> |
 |…  <br/> |…  <br/> |
-   
+
 #### Blank values
 
 The table above lists possible reasons why a dimension may be blank. Many dimensions and measures will be blank if the QoE Record Available dimension is false. This typically occurs when the call wasn't successfully established.
-  
+
 ## Measures
 
 The following table lists the measures currently available in Call Quality Dashboard (CQD):
-  
+
 ||||
 |:-----|:-----|:-----|
 |**Measure Name** <br/> |**Units** <br/> |**Description** <br/> |
@@ -420,10 +420,10 @@ The following table lists the measures currently available in Call Quality Dashb
 |Second Feedback Token Audio Issue Count  <br/> |Number rated streams  <br/> |Number of streams where user using the second endpoint indicated an issue with audio.  <br/> |
 |First Feedback Token Video Issue Count  <br/> |Number of rated streams  <br/> |Number of streams where user using the first endpoint indicated an issue with video.  <br/> |
 |Second Feedback Token Video Issue Count  <br/> |Number of rated streams  <br/> |Number of streams where user using the second endpoint indicated an issue with video.  <br/> |
-|Audio SLA Good Call Count  <br/> |Number of calls  <br/> |Number of audio calls within scope of the Skype for Business Voice Quality SLA ([Volume Licensing for Microsoft Products and Online Services](http://aka.ms/voicequalitysla)) classified as meeting the network performance targets.  <br/> |
-|Audio SLA Poor Call Count  <br/> |Number of calls  <br/> |Number of audio calls within scope of the Skype for Business Voice Quality SLA ([Volume Licensing for Microsoft Products and Online Services](http://aka.ms/voicequalitysla)) classified as not meeting the network performance targets.  <br/> |
-|Audio SLA Call Count  <br/> |Number of calls  <br/> |Number of audio calls within scope of the Skype for Business Voice Quality SLA ([Volume Licensing for Microsoft Products and Online Services](http://aka.ms/voicequalitysla)).  <br/> |
-|Audio SLA Good Call Percentage  <br/> |Percentage  <br/> |Percentage of audio calls within scope of the Skype for Business Voice Quality SLA ([Volume Licensing for Microsoft Products and Online Services](http://aka.ms/voicequalitysla)) that were classified as meeting the network performance targets.  <br/> |
+|Audio SLA Good Call Count  <br/> |Number of calls  <br/> |Number of audio calls within scope of the Skype for Business Voice Quality SLA ([Volume Licensing for Microsoft Products and Online Services](https://aka.ms/voicequalitysla)) classified as meeting the network performance targets.  <br/> |
+|Audio SLA Poor Call Count  <br/> |Number of calls  <br/> |Number of audio calls within scope of the Skype for Business Voice Quality SLA ([Volume Licensing for Microsoft Products and Online Services](https://aka.ms/voicequalitysla)) classified as not meeting the network performance targets.  <br/> |
+|Audio SLA Call Count  <br/> |Number of calls  <br/> |Number of audio calls within scope of the Skype for Business Voice Quality SLA ([Volume Licensing for Microsoft Products and Online Services](https://aka.ms/voicequalitysla)).  <br/> |
+|Audio SLA Good Call Percentage  <br/> |Percentage  <br/> |Percentage of audio calls within scope of the Skype for Business Voice Quality SLA ([Volume Licensing for Microsoft Products and Online Services](https://aka.ms/voicequalitysla)) that were classified as meeting the network performance targets.  <br/> |
 |Audio Good Call Stream Count  <br/> |Number of streams  <br/> |Number of audio streams where both audio streams in the call (call-leg) are not classified as poor based on network metrics listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Poor Call Stream Count  <br/> |Number of streams  <br/> |Number of audio streams where at least one audio stream in the call (call-leg) was classified as poor based on network metrics listed here: [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Unclassified Call Stream Count  <br/> |Number of streams  <br/> |Number of audio streams where both audio streams in the call (call-leg) could not be classified due to missing network metrics.  <br/> |
@@ -491,7 +491,7 @@ The following table lists the measures currently available in Call Quality Dashb
 |Firewall IP Blocked Media Failure Percentage  <br/> |Percentage  <br/> |Percentage of streams that failed to be established due to network equipment blocking access to Skype for Business servers. These failures typically indicate a proxy, firewall or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Office 365.  <br/> |
 |Media Failed Due To Firewall DPI Stream Count  <br/> |Number of streams  <br/> |Number of streams that failed to be established due to network equipment blocking access due to deep packet inspection not allowing Skype for Business traffic. These failures typically indicates a proxy, firewall or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Office 365.  <br/> |
 |Firewall DPI Media Failure Percentage  <br/> |Percentage  <br/> |Percentage of streams that failed to be established due to network equipment blocking access due to deep packet inspection not allowing Skype for Business traffic. These failures typically indicates a proxy, firewall or other network security device is not correctly configured to access the IP address and ports used by Skype for Business in Office 365.  <br/> |
-   
+
 ## Related topics
 [Set up Skype for Business Call Analytics](set-up-call-analytics.md)
 
@@ -499,5 +499,4 @@ The following table lists the measures currently available in Call Quality Dashb
 
 [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 
-  
- 
+

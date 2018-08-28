@@ -15,7 +15,7 @@ description: "You can use the Hybrid Manageability wizard to perform some of the
 ---
 
 # Hybrid Manageability wizard
- 
-You can use the Hybrid Manageability wizard to perform some of the configuration tasks necessary to set up a hybrid deployment with Skype for Business Online. For more information about how to configure your deployment for hybrid, see [Configure your environment with the Hybrid Manageability wizard](http://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).
-  
+
+You can use the Hybrid Manageability wizard to perform some of the configuration tasks necessary to set up a hybrid deployment with Skype for Business Online. For more information about how to configure your deployment for hybrid, see [Configure your environment with the Hybrid Manageability wizard](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).
+
 

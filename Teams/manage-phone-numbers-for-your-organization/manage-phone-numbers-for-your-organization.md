@@ -8,12 +8,12 @@ ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: 
+ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
-- Skype for Business 
+- Skype for Business
 - Microsoft Teams
 localization_priority: Priority
 f1keywords:
@@ -31,13 +31,13 @@ There are three ways to get both user and service (toll and toll-free) numbers f
 - Transfer or "port" your existing numbers over to us.
 
 > [!IMPORTANT]
-> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out a form. For new phone numbers in Australia, see [Telstra Voice Services](http://aka.ms/TelstraVoicePlan). 
+> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out a form. For new phone numbers in Australia, see [Telstra Voice Services](https://aka.ms/TelstraVoicePlan).
 
 ***
 If you know what kind of forms you are looking for use the drop down to select the country/region where you are getting numbers.
 
 **Select your country or region to find the downloadable forms you need**
-> [!div class="op_single_selector"] 
+> [!div class="op_single_selector"]
 > - [Australia](phone-number-management-for-australia.md)
 > - [Belgium](phone-number-management-for-belgium.md)
 > - [Canada](phone-number-management-for-canada.md)
@@ -52,9 +52,9 @@ If you know what kind of forms you are looking for use the drop down to select t
 ***
 ## Here's a bit more information about these number request forms
 ### Request forms for new phone numbers
-Each country or region has different instructions, different types of numbers (geographic/non-geographic and service (toll/toll-free) and rules/regulations for getting phone numbers so they can be used in Skype for Business Online and Microsoft Teams. 
+Each country or region has different instructions, different types of numbers (geographic/non-geographic and service (toll/toll-free) and rules/regulations for getting phone numbers so they can be used in Skype for Business Online and Microsoft Teams.
 
-Sometimes (depending on your country/region) you won't be able to get new user (subscriber) or service (toll or toll-free) numbers using the **Skype for Business admin center**, or you might need specific phone numbers or area codes. 
+Sometimes (depending on your country/region) you won't be able to get new user (subscriber) or service (toll or toll-free) numbers using the **Skype for Business admin center**, or you might need specific phone numbers or area codes.
 
 If so, you will need to download the correct PDF form (per country/region and the type of numbers) and send it back to us. Our service desk will take it from there and will let you know about the progress or your order.
 
@@ -75,8 +75,14 @@ If you still need help, please let us know how we can help you. In your Help req
 - To help you pick the type of phone number you need, read [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - To learn about getting user phone numbers in the admin center, read [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
 - To get help setting up phone numbers for your organization, [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+<<<<<<< HEAD:Teams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
   
     
+=======
+
+
+
+>>>>>>> master:Skype/SfbOnline/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
 ## Related topics
 
 [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)

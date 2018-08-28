@@ -11,7 +11,7 @@ ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
-- Skype for Business 
+- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
@@ -28,7 +28,7 @@ description: "Here are the Office 365 services for Skype for Business and Micros
 [Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.
 
 Here are the Office 365 services for Skype for Business and Microsoft Teams available for Australia.
-  
+
 ## Audio Conferencing
 
 |**Feature**|**Details**|
@@ -36,7 +36,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> |No. [Please contact us](mailto:ptnapac@microsoft.com). <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
-   
+
 ## Phone System
 
 |**Feature**|**Details**|
@@ -45,16 +45,16 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |Auto attendants <br/> |Available  <br/> |
 |Call queues  <br/> |Available  <br/> |
 |Voicemail  <br/> |Available  <br/> |
-   
+
 ## Calling Plans
 > [!IMPORTANT]
-> Currently only available for preview and early adoption in Australia. For more information, see [Telstra Calling for Office 365](http://aka.ms/TelstraVoicePlan). 
+> Currently only available for preview and early adoption in Australia. For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Calling Plans are available to purchase?  <br/> |Yes,  see [Telstra Calling for Office 365](http://aka.ms/TelstraVoicePlan).  <br/> |
-|Minutes available for Calling Plans  <br/> |See [Telstra Calling for Office 365](http://aka.ms/TelstraVoicePlan). <br/> |
-|Can make outbound calls to?  <br/> |See [Telstra Calling for Office 365](http://aka.ms/TelstraVoicePlan). <br/> |
+|Calling Plans are available to purchase?  <br/> |Yes,  see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).  <br/> |
+|Minutes available for Calling Plans  <br/> |See [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
+|Can make outbound calls to?  <br/> |See [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
 
 ## Toll and toll-free numbers for services
 
@@ -63,17 +63,23 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |What capitals or major cities can you get toll numbers for?  <br/> | <ul><li>Adelaide <li>Brisbane <li>  Canberra <li>Darwin <li>Melbourne <li>Newcastle <li> Perth <li>Sydney <li>Wollongong  |
 |Are toll numbers available?  <br/> |Yes  <br/> |
 |Are toll-free numbers available?  <br/> |Yes  <br/> |
-   
-If you want to get toll and toll-free phone numbers for auto attendants and call queues, see [Telstra Calling for Office 365](http://aka.ms/TelstraVoicePlan). For audio conferencing service numbers, [please contact us](mailto:ptnapac@microsoft.com).
-  
+
+If you want to get toll and toll-free phone numbers for auto attendants and call queues, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan). For audio conferencing service numbers, [please contact us](mailto:ptnapac@microsoft.com).
+
 ## Communications Credits
 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Are Communications Credits available?  <br/> |Yes  <br/> |
+<<<<<<< HEAD:Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md
    
 If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   
+=======
+
+If you want to set them up, see [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
+
+>>>>>>> master:Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md
 ## Related topics
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
