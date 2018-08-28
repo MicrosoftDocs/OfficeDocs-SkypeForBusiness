@@ -116,22 +116,22 @@ ms.date: 08/24/2018
                         <ul id="tab2-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Tab 2 descriptive text.</p>
+                                    <p>What you need to deploy Teams and all.</p>
                                 </div>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/" target="_blank">
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/deployment-overview">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
+                                                        <img src="https://docs.microsoft.com//en-us/media/illustrations/biztalk-host-integration-install-configure.svg" alt="  " />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Tab 2 | Card 1 title</h3>
-                                                    <p>Tab 2 | Card 1 descriptive text.</p>
+                                                    <h3>Configure and deploy</h3>
+                                                    <p>Get clients, manage features.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -139,18 +139,18 @@ ms.date: 08/24/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/" target="_blank">
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
+                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Tab 2 | Card 2 title</h3>
-                                                    <p>Tab 2 | Card 2 descriptive text.</p>
+                                                    <h3>Voice deployment</h3>
+                                                    <p>NOTICE THE COOL GRAPHIC! Find the practical guidance you need to get started with deploying Audio Conferencing and Phone System in Teams.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -158,18 +158,18 @@ ms.date: 08/24/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.microsoft.com/" target="_blank">
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/security-compliance-overview">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/Security-Compliance-400x140.svg" alt="  ">
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Tab 2 | Card 3 title</h3>
-                                                    <p>Tab 2 | Card 3 descriptive text.</p>
+                                                    <h3>Security & compliance</h3>
+                                                    <p>Pretty sure this doesn't go here, just want to flesh out this tab a little.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -188,7 +188,7 @@ ms.date: 08/24/2018
                         <ul id="tab3-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Tab 2 descriptive text.</p>
+                                    <p>Not sure whether to use cards or lists on this tab (not sure about any of them, really).</p>
                                 </div>
                             </li>
                             <li>
@@ -198,12 +198,12 @@ ms.date: 08/24/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
+                                                        <img src="https://docs.microsoft.com/en-us//media/illustrations/bcs-partner-advanced-management-settings-8.svg" alt=" ">
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Tab 2 | Card 1 title</h3>
-                                                    <p>Tab 2 | Card 1 descriptive text.</p>
+                                                    <h3>Got no "Manage" landing page</h3>
+                                                    <p>But, we could link to the QER Guide here.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -221,27 +221,8 @@ ms.date: 08/24/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Tab 2 | Card 2 title</h3>
-                                                    <p>Tab 2 | Card 2 descriptive text.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.microsoft.com/" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Tab 2 | Card 3 title</h3>
-                                                    <p>Tab 2 | Card 3 descriptive text.</p>
+                                                    <h3>It seems that this should be a list of things</h3>
+                                                    <p>...rather than just a card that links to a specific spot in the TOC.</p>
                                                 </div>
                                             </div>
                                         </div>
