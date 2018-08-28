@@ -71,15 +71,9 @@ If you want to get toll and toll-free phone numbers for auto attendants and call
 |**Feature**|**Details**|
 |:-----|:-----|
 |Are Communications Credits available?  <br/> |Yes  <br/> |
-<<<<<<< HEAD:Teams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md
    
 If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   
-=======
-
-If you want to set them up, see [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
-
->>>>>>> master:Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md
 ## Related topics
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)

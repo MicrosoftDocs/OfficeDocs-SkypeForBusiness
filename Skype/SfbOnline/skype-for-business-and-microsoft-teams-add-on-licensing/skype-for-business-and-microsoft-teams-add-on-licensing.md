@@ -97,7 +97,6 @@ For extensive documentation on planning your deployment, including Phone System 
 ## Related topics
 
 - [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-<<<<<<< HEAD
     
 - [Set up Phone System voicemail - Admin help](/microsoftteams/set-up-phone-system-voicemail)
     
@@ -105,13 +104,4 @@ For extensive documentation on planning your deployment, including Phone System 
     
 - [Add funds and manage Communications Credits](/microsoftteams/add-funds-and-manage-communications-credits)
     
-=======
-
-- [Set up Phone System voicemail - Admin help](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
-
-- [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md)
-
-- [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
-
->>>>>>> master
 - [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)

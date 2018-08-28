@@ -27,15 +27,9 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## Step 1: Make sure that Phone System is available in your country or region
 
-<<<<<<< HEAD:Teams/setting-up-your-phone-system.md
 1.	First go to [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md), and select your country or region from the list at the top of the page. 
 2.	Under **Phone System**, review the list of features and details. 
 3.	If Phone System is available, go to step 2. 
-=======
-1.	First go to [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md), and select your country or region from the list at the top of the page.
-2.	Under **Phone System**, review the list of features and details.
-3.	If Phone System is available, go to step 2.
->>>>>>> master:Skype/SfbOnline/what-is-phone-system-in-office-365/setting-up-your-phone-system.md
 
 **To learn more about regional availability of Phone System and Audio Conferencing, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).**
 
@@ -54,21 +48,13 @@ You have three ways of getting numbers for your users:
 
 You must use the **Add new user numbers** page to see, search, acquire, and reserve those numbers. You can search by Country/Region, State, and City, and then enter the number of phone numbers you will need for your users.
 
-### Get new user phone numbers
-
-<<<<<<< HEAD:Teams/setting-up-your-phone-system.md
 ### Get new user phone numbers 
  
 ![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**
-=======
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
->>>>>>> master:Skype/SfbOnline/what-is-phone-system-in-office-365/setting-up-your-phone-system.md
-
 
 1. Sign in to Office 365 with your work or school account.
 
 2. Go to the **Office 365 admin center** > **Skype for Business**.
-<<<<<<< HEAD:Teams/setting-up-your-phone-system.md
     
 3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![Add button](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
     
@@ -81,20 +67,6 @@ Sometimes (depending on your country/region) you won't be able to get your new n
 - If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Skype for Business admin center. Follow the steps found in [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) to transfer your phone numbers over to Skype for Business Online.
     
 - If you need to port more than 999 phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to submit a port order service request or order to get all of these phone numbers ported over to Office 365. 
-=======
-
-3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![Add button](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
-
-### Get new numbers that aren't available in the Skype for Business admin center
-
-Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new user numbers.
-
-### Port or transfer phone numbers from your service provider or phone carrier
-
-- If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Skype for Business admin center. Follow the steps found in [Transfer phone numbers to Office 365](..//what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) to transfer your phone numbers over to Skype for Business Online.
-
-- If you need to port more than 999 phone numbers, see [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to submit a port order service request or order to get all of these phone numbers ported over to Office 365.
->>>>>>> master:Skype/SfbOnline/what-is-phone-system-in-office-365/setting-up-your-phone-system.md
 
 **For detailed information about getting new phone numbers or transferring existing numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).**
 
@@ -117,13 +89,8 @@ In addition to getting phone numbers for your users from Office 365, you can sea
     > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
 
 ### Get new numbers that aren't available in the Skype for Business admin center
-<<<<<<< HEAD:Teams/setting-up-your-phone-system.md
   
 Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new numbers. 
-=======
-
-Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new numbers.
->>>>>>> master:Skype/SfbOnline/what-is-phone-system-in-office-365/setting-up-your-phone-system.md
 
 ### Port or transfer existing service numbers
 
@@ -138,15 +105,9 @@ If you have been following the steps above, you have already bought and assigned
 1. On the **Voice** page, choose **Emergency locations** > **Add new address**.
 
 2. In the **New address** pane, enter a name for your address, and then complete the remaining boxes.
-<<<<<<< HEAD:Teams/setting-up-your-phone-system.md
     
      ![When you enter a new emergency address, the formatting of the street name might cause an error.](media/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
   
-=======
-
-     ![When you enter a new emergency address, the formatting of the street name might cause an error.](../images/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
-
->>>>>>> master:Skype/SfbOnline/what-is-phone-system-in-office-365/setting-up-your-phone-system.md
     > [!TIP]
     > For English customers, if the street name is a number, be sure to include "st" or "th" at the end, as shown in the above picture.
 
@@ -176,13 +137,8 @@ If you have been following the steps above, you have already bought and assigned
 4. To select an emergency address, enter name of the city in the box and choose **Search**.
 
     > [!IMPORTANT]
-<<<<<<< HEAD:Teams/setting-up-your-phone-system.md
     > If you are outside the United States, your numbers already have an emergency address, but you can change it now. See [Assign or change an emergency address for a user](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user). 
   
-=======
-    > If you are outside the United States, your numbers already have an emergency address, but you can change it now. See [Assign or change an emergency address for a user](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md).
-
->>>>>>> master:Skype/SfbOnline/what-is-phone-system-in-office-365/setting-up-your-phone-system.md
 5. After you assign both the phone number and emergency address, choose **Save**.
 
 ### Tell your users about their new phone numbers
@@ -193,7 +149,6 @@ We recommend sending mail or using your business's preferred communication metho
 Here's how they can see that phone number in their **Skype for Business** app:
 
 1. Sign in to Skype for Business on your desktop.
-<<<<<<< HEAD:Teams/setting-up-your-phone-system.md
     
 2. Choose **Settings** > **Tools** > **Options**. 
     
@@ -203,17 +158,6 @@ Here's how they can see that phone number in their **Skype for Business** app:
     
     ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
-=======
-
-2. Choose **Settings** > **Tools** > **Options**.
-
-     ![To view your phone number, go to Settings > Tools > Options.](../images/20637117-91d7-4a7e-9f06-7abc634a9211.png)
-
-3. Then choose **Phones**.
-
-    ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](../images/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
-
->>>>>>> master:Skype/SfbOnline/what-is-phone-system-in-office-365/setting-up-your-phone-system.md
 In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
 
 ![A user can see their number in Microsoft Teams by clicking Calls in the left navigation.](media/teams-phone-number.png)
@@ -226,17 +170,10 @@ In **Microsoft Teams**, users can see their phone number by clicking **Calls** i
 Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business and Microsoft Teams include the audio conferencing feature for just this situation! People can call in to Skype for Business or Microsoft Teams meetings using a phone, instead of using the Skype for Business or Microsoft Teams app on a mobile device or PC.
 
 You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
-<<<<<<< HEAD:Teams/setting-up-your-phone-system.md
   
 For frequently asked questions about Audio Conferencing, see [Audio Conferencing common questions](audio-conferencing-common-questions.md).
     
 1. If you purchased **Audio Conferencing** add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
-=======
-
-For frequently asked questions about Audio Conferencing, see [Audio Conferencing common questions](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md).
-
-1. If you purchased **Audio Conferencing** add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
->>>>>>> master:Skype/SfbOnline/what-is-phone-system-in-office-365/setting-up-your-phone-system.md
 
     Decide on your audio conferencing provider. An audio conferencing provider supplies an audio conferencing bridge. The conferencing bridge sets your dial-in phone numbers, PINs, and conference IDs for meetings. Decide whether to use Microsoft or a third-party audio conferencing provider:
 
@@ -244,7 +181,6 @@ For frequently asked questions about Audio Conferencing, see [Audio Conferencing
     > Microsoft Teams users can't user a third-party audio conferencing provider.
 
     - **Microsoft as your audio conferencing provider**: If you want the easiest solution for audio conferencing, choose Microsoft as your audio conferencing provider.
-<<<<<<< HEAD:Teams/setting-up-your-phone-system.md
     
     - **Third party as your audio conferencing provider**: If you are in a country where Audio Conferencing in Office 365 isn't available, the service quality isn't great because of its location, or you have an existing contract, choose a third-party audio conferencing provider. To find a provider, go to [Microsoft PinPoint](http://go.microsoft.com/fwlink/?LinkId=797530).
  
@@ -260,23 +196,6 @@ For frequently asked questions about Audio Conferencing, see [Audio Conferencing
     
     4. Set the length of the PIN for Audio Conferencing meetings [in Skype for Business](/skypeforbusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings) or [in Microsoft Teams](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md).
     
-=======
-
-    - **Third party as your audio conferencing provider**: If you are in a country where Audio Conferencing in Office 365 isn't available, the service quality isn't great because of its location, or you have an existing contract, choose a third-party audio conferencing provider. To find a provider, go to [Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530).
-
-2.	Assign the audio conferencing provider to people who lead or schedule meetings. See [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
-
-3. Set up meeting invitations. The following steps are optional, but a lot of admins like to do them:
-
-    1. [Customize meeting invitations](../set-up-skype-for-business-online/customize-meeting-invitations.md). The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to attendees. However, you can add your own help and legal links, a text message, and small company graphic.
-
-    2. [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md). This is the phone number that will show up in the meeting that is scheduled by the user.
-
-    3. [Set auto attendant languages for Audio Conferencing](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) that the audio conferencing auto attendant uses to greet a caller when they dial in to an Audio Conferencing phone number. This step only applies if you're using Microsoft as your audio provider.
-
-    4. [Set the length of the PIN for Audio Conferencing meetings](../audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings.md).
-
->>>>>>> master:Skype/SfbOnline/what-is-phone-system-in-office-365/setting-up-your-phone-system.md
     > [!NOTE]
     > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
@@ -286,13 +205,8 @@ For frequently asked questions about Audio Conferencing, see [Audio Conferencing
 
 Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
 
-<<<<<<< HEAD:Teams/setting-up-your-phone-system.md
 Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
   
-=======
-Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
-
->>>>>>> master:Skype/SfbOnline/what-is-phone-system-in-office-365/setting-up-your-phone-system.md
 > [!NOTE]
 > If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
 
@@ -322,13 +236,8 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 ## Step 10: Set up Communications Credits for your organization
 
-<<<<<<< HEAD:Teams/setting-up-your-phone-system.md
 You will need to set up Communications Credits if you would like to use toll-free numbers with Skype for Business and Microsoft Teams. Also, we recommend that you set up Communications Credits for your Calling Plans (Domestic or International) and Audio Conferencing users who need the ability to dial out to **any destination**. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. If you don't set up Communications Credits billing and assign a **Communications Credits** license to your users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan in your country/region), those users won't be able to make calls or dial out from Audio Conferencing meetings. You can get more information, including recommended funding amounts, by reading [What are Communications Credits?](what-are-communications-credits.md)
   
-=======
-You will need to set up Communications Credits if you would like to use toll-free numbers with Skype for Business and Microsoft Teams. Also, we recommend that you set up Communications Credits for your Calling Plans (Domestic or International) and Audio Conferencing users who need the ability to dial out to **any destination**. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. If you don't set up Communications Credits billing and assign a **Communications Credits** license to your users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan in your country/region), those users won't be able to make calls or dial out from Audio Conferencing meetings. You can get more information, including recommended funding amounts, by reading [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
-
->>>>>>> master:Skype/SfbOnline/what-is-phone-system-in-office-365/setting-up-your-phone-system.md
 > [!NOTE]
 > To find out how much it costs, [see the rates here](https://go.microsoft.com/fwlink/p/?LinkId=799523 ).
 
@@ -343,15 +252,9 @@ You will need to set up Communications Credits if you would like to use toll-fre
 4. Enter your payment information and click **Place order**.
     >[!IMPORTANT]
     >If you are a volume licensing customer, you may choose your enterprise agreement number for payment. If you have multiple enterprise agreement numbers, you will be able to select which enterprise agreement you would like to use for payment. You will also be given an opportunity to specify a purchase order number to associate with the enterprise agreement number (if applicable).
-<<<<<<< HEAD:Teams/setting-up-your-phone-system.md
     
 **For more detailed information about setting up Communications Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).**
   
-=======
-
-**For more detailed information about setting up Communications Credits, see [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).**
-
->>>>>>> master:Skype/SfbOnline/what-is-phone-system-in-office-365/setting-up-your-phone-system.md
 ### Assign a Communications Credits license to users
 
 1. Sign in to Office 365 with your work or school account.
@@ -372,13 +275,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
-<<<<<<< HEAD:Teams/setting-up-your-phone-system.md
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     
   
  
-=======
-[Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-
->>>>>>> master:Skype/SfbOnline/what-is-phone-system-in-office-365/setting-up-your-phone-system.md
