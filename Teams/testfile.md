@@ -28,6 +28,7 @@ test update
 |Row3     |         |         |
 |Row4     |         |         |
 |Row5     |         |         |
+|Row6     |         |         |
 
 I am adding an include to this file here:
 [!INCLUDE [sample-include-file](includes/sample-include-file.md)]
@@ -43,7 +44,9 @@ It's possible to trick a Markdown table into looking like it contains a bullet l
 <p>I will display &#9744;</p>
 <p>I will display &#x2610;</p>
 
+###This is heading 3
+
 Microsoft Teams content is now available.
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)
 
-See [Quick start - Teams planning guide](quick-start-enable-Teams.md)
+See [Quick start - Teams planning guide](quick-start-enable-Teams.md))
