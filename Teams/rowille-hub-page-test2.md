@@ -25,7 +25,7 @@ ms.date: 08/24/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/common/i_reference.svg" alt="a task list, a wrench and a gear symbol" />
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/common/i_reference.svg" alt="a task list, a wrench and a gear symbol" data-linktype="absolute-path">
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
