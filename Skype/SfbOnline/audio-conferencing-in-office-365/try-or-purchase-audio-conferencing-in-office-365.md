@@ -1,5 +1,5 @@
 ---
-title: "Try or purchase Audio Conferencing in Office 365"
+title: "Try or purchase Audio Conferencing in Office 365 for Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,7 +14,6 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords:
 - ms.lync.lac.CpcGettingStarted
@@ -23,9 +22,13 @@ ms.custom:
 description: "See how to try or purchase Audio Conferencing (PSTN conferencing) licenses for Office 365 to set up conference calls that people can dial in to. "
 ---
 
-# Try or purchase Audio Conferencing in Office 365
+# Try or purchase Audio Conferencing in Office 365 for Skype for Business Online
 
-Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business and Microsoft Teams include the Audio Conferencing feature for just this situation! People can call into Skype for Business and Microsoft Teams meetings using a phone, instead of using the Skype for Business or Microsoft Teams app on a mobile device or PC.
+> [!Note]
+> For information about Audio Conferencing in Microsoft Teams, see [Try or purchase Audio Conferencing in Office 365 for Skype for Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).
+
+
+Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business includes the Audio Conferencing feature for just this situation! People can call into Skype for Business meetings using a phone, instead of using the Skype for Business app on a mobile device or PC.
 
 You only need to set up audio conferencing for people who plan to schedule or lead meetings. Meeting attendees who call in to the meeting don't need any licenses assigned to them and don't need other setup.
 

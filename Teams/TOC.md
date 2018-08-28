@@ -260,7 +260,7 @@
 #### [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md)
 #### [Set the PIN length for Audio Conferencing meetings](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
 #### [Start an Audio Conference over the phone without a PIN](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
-#### [Try or purchase Audio Conferencing in Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 #### [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 #### [Audio Conferencing Complimentary Dial Out Period](complimentary-dial-out-period.md)
 #### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
