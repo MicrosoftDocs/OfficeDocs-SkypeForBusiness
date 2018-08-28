@@ -1,7 +1,7 @@
 ---
 title: "Configure Direct Routing"
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -15,7 +15,7 @@ description: "Learn how to configure Microsoft Phone System Direct Routing."
 
 If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites and to review  other steps you’ll need to take before you configure your Microsoft Phone System network. 
 
-This article describes how to configure Microsoft Phone System Direct Routing. It details how to pair a supported Session Border Controller (SBC) to Direct Routing and how to configure Microsoft Teams users to use Direct Routing to connect to the Public Switched Telephone Network (PSTN). To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](https://technet.microsoft.com/library/dn362831.aspx). 
+This article describes how to configure Microsoft Phone System Direct Routing. It details how to pair a supported Session Border Controller (SBC) to Direct Routing and how to configure Microsoft Teams users to use Direct Routing to connect to the Public Switched Telephone Network (PSTN). To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
 
 We recommend that you confirm that your SBC has already been configured as recommended by your SBC vendor's: 
 
@@ -38,7 +38,7 @@ The following are the three high-level steps to let you connect, or pair, the SB
 
 ### Connect to  Skype for Business Online by using PowerShell 
 
-You can use a PowerShell session connected to the tenant to pair the SBC to the Direct Routing interface. To open a PowerShell session, please follow the steps outlined in [Set up your computer for Windows PowerShell](https://technet.microsoft.com/library/dn362831.aspx). 
+You can use a PowerShell session connected to the tenant to pair the SBC to the Direct Routing interface. To open a PowerShell session, please follow the steps outlined in [Set up your computer for Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
  
 After you establish a remote PowerShell session, please validate that you can see the commands to manage the SBC. To validate the commands, type or copy/paste in the following in the PowerShell session and press Enter: 
 
@@ -513,21 +513,12 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 The result is that the voice policy applied to John Woods’ calls are unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
 
-## Enable Calling for Microsoft Teams
 
-Before a user can see the Calls tab in Microsoft Teams, you need to enable private calling for the tenant in Microsoft Teams. To do this:
+## Set Microsoft Teams as the preferred calling client for users
 
-1.	Sign in as tenant administrator on the Office 365 Admin center.
-2.	Go to **Settings and Services and add-ins** and select **Microsoft Teams**. 
-3.	Expand **Calls and meetings** and verify that **Allow private calling** is **On**.
-
-    ![Screen shot showing Allow private calling turned on.](media/ConfigDirectRouting-CallsandMeetingsDialog.png)
-
-## Set Microsoft Teams as the preferred calling client for the users
-
-Direct Routing only route the calls to and from users if they use Teams Cleint. 
-If your organisation only use Teams cleint, setting "Teams Only" mode in upgrade policy is recommended. 
-If you organisation uses Skype for Business Server or Skype for Business Online, please review the following document  [Understand coexistence and upgrade journey for Skype for Business and Teams](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) and select appropriate option. 
+Direct Routing only routes calls to and from users if they use the Teams client. 
+If your organization only uses Teams, setting "Teams Only" mode in upgrade policy is recommended. 
+If you organization uses Skype for Business Server or Skype for Business Online, see the following article for more information and select the appropriate option:  [Understand coexistence and upgrade journey for Skype for Business and Teams](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## See also
