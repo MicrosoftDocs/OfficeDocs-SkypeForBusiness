@@ -110,27 +110,25 @@ ms.date: 08/24/2018
                                 </a>
                             </li>
                             <li>
-                                <ul class="cardsC">
-                                <li>
                                 <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/itadmin-readiness">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/ms365enterprise-partner-resource-training-1.svg" alt="  " />
+                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/ms365enterprise-partner-resource-training-1.svg" alt="  ">
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Experiment</h3>
-                                                    <p>Can we mix CardC and CardF classes? Would we even want to? (Also, note the also-cool graphic.)</p>
+                                                    <h3>Training</h3>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/itadmin-readiness">Admin training for Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/enduser-training">End user training for Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/audio-conferencing-videos">Videos - Audio Conferencing in Teams</a></p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
-                                </li>
-                                </ul>
                             </li>
                         </ul>
                     </li>
