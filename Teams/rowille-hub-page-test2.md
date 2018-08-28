@@ -21,7 +21,7 @@ ms.date: 08/24/2018
                         <ul id="tab1-all" class="cardsF">     
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Notice the different look of this tab: groups of individual links rather than "container" cards that are one giant hyperlink to one place.</p><br><p>&nbsp;</p>
+                                    <p><i>Notice the different look of this tab compared to the others: groups of individual links rather than "container" cards that are one giant hyperlink to one place.</i></p><br><p>&nbsp;</p>
                                 </div>
                             </li>
                             <li>
@@ -116,7 +116,7 @@ ms.date: 08/24/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/ms365enterprise-partner-resource-training-1.svg" alt="  ">
+                                                        <img src="https://docs.microsoft.com/en-us/media/common/i_virtual-training.svg" alt="  ">
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
