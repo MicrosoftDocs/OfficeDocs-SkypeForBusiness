@@ -16,13 +16,13 @@ description: "Instructions for implementing a Cloud Auto Attendant."
 
 # Configure Cloud Auto Attendant
 
-In Skype for Business Server 2019 you are able to use the cloud auto attendant feature described in [What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md).
+In Skype for Business Server 2019 you are able to use the cloud auto attendant feature described in [What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
-To use Cloud Auto Attendant with Skype for Business Server 2019, you will need to create  virtual users that contain disabled user objects (DUOs) and assigned phone numbers.
+To use Cloud Auto Attendant with Skype for Business Server 2019, you will need to create  virtual on-prem users that contain disabled user objects (DUOs) and assigned phone numbers, then use the online Admin Center to configure the Cloud AA experience.
 
 If you have an existing Auto Attendant implemented in Exchange UM, you will ned to manually record the details as described below and then implement a completely new Cloud Auto Attendant using the Office Online Admin portal.
 
-## Server Configuration steps
+## Server configuration steps - Create disabled user objects
 
 These steps are necessary whether you are creating a brand new Auto Attendant or rebuilding an Auto Attendant originally created in Exchange UM.
 
@@ -43,7 +43,9 @@ These steps are necessary whether you are creating a brand new Auto Attendant or
 
 5. Provision numbers and assign them to DUOs  [ask Tony]
 
-6. Hydrate the AAs [what the hell does this mean?]
+6. Hydrate the AAs [what  does this mean?]
+
+**How does [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/en-us/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) fit into this process?**
 
 ## Moving an Exchange UM Auto Attendant to Cloud Auto Attendant
 
@@ -53,6 +55,7 @@ For every AA in the Dial Plan you want to move:
 
 * Record the properties of the AA object <br/>  run [Get-UMAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) logged in to the on-prem Exchange server as admin
     * Be sure to create copies of the sound file for each AA object.
+    * **We don't yet have guidance on how to manually parse this output in order to recreate the experience using Cloud AA, which could be an article all by itself**
 * Using Active Directory Administrative Center, create a Disabled User Object in AD for each instance of Auto Attendant.
     ```
     New-ADUser -Name "John Smith" -GivenName "John" -Surname "Smith" -SamAccountName "jsmith" -UserPrincipalName "jsmith@<span></span>contoso<span></span>.com" -Path "OU=Users,OU=Europe,DC=contoso,DC=com" -AccountPassword(Read-Host -AsSecureString "Type Password for User") -Enabled $false
@@ -72,6 +75,8 @@ For every AA in the Dial Plan you want to move:
 Review [Do's and Don'ts for Auto Attendant scripts](plan-cloud-auto-attendant.md#dos-and-donts-for-auto-attendant-scripts) then see [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md).  
 
 ## See Also
+
+[Plan Cloud Auto Attendant](plan-cloud-auto-attendant.md)
 
 [Plan Cloud Voicemail service](plan-cloud-voicemail.md)
 

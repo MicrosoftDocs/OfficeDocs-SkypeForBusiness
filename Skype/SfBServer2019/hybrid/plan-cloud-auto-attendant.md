@@ -12,7 +12,7 @@ ms.collection:
 description: "Overview of using a Cloud Auto Attendant with Skype for Business Server 2019."
 ---
 
-# Plan cloud auto attendant
+# Plan Cloud Auto Attendant
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
@@ -44,7 +44,7 @@ Although auto attendants can be very useful, if they aren't designed and configu
 
 -->
 
-With Cloud Auto Attendant you will be able to: 
+With Cloud Auto Attendant you will be able to:
 
 * Create a new Cloud Auto Attendant.
 * Define routing of inbound PSTN calls that arrive on a local (on-prem) trunk, gateway/SBC and Mediation Server and must be routed to an instance of the Auto Attendant service in the cloud.
@@ -56,7 +56,7 @@ See:
 * [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 * [Automatically answer and route incoming calls](https://docs.microsoft.com/en-us/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls) 
 
-## Do's and Don'ts for Auto Attendant scripts
+## Writing better Auto Attendant scripts
 
 Your auto-attendant script can make or break the impression left on your customers or callers. Think it through carefully, write it out, and consider having it professionally recorded.
 
@@ -100,7 +100,7 @@ With all that in mind, proceed to [Configure Cloud Auto Attendant](configure-clo
 
 ## See Also
 
-[Configure cloud auto attendant](configure-cloud-auto-attendant.md)
+[Configure Cloud Auto Attendant](configure-cloud-auto-attendant.md)
 
 [Enable custom prompt recording using the telephone user interface](https://docs.microsoft.com/en-us/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
