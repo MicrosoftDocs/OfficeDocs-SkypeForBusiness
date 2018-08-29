@@ -31,13 +31,8 @@ For more information on the [Telstra Calling for Office 365](https://aka.ms/Tels
 
 Use this table to find information on getting and managing phone numbers in Australia for Skype for Business Online and Microsoft Teams.
 
-<<<<<<< HEAD:Teams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
 For more information, see  [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
   
-=======
-For more information, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md).
-
->>>>>>> master:Skype/SfbOnline/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md
 |**What you want to do?**|**Do these steps and download the correct forms**|
 |:-----|:-----|
 |Get new user phone numbers for Calling Plans in Australia.   <br/> |Please contact [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) for new phone numbers for your users. They will then add those numbers to your organization so you can assign them to your users. <br/>
