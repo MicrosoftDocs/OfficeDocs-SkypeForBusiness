@@ -72,7 +72,7 @@ For every AA in the Dial Plan you want to move:
 
 ## Online Configuration steps
 
-Review [Do's and Don'ts for Auto Attendant scripts](plan-cloud-auto-attendant.md#dos-and-donts-for-auto-attendant-scripts) then see [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md).  
+Review [Writing better Auto Attendant scripts](plan-cloud-auto-attendant.md#writing-better-auto-attendant-scripts) then see [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md).  
 
 ## See Also
 
