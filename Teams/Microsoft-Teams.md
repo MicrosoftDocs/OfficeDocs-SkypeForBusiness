@@ -84,7 +84,7 @@ ms.topic: hub-page
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Cloud voice</h3>
-                                                    <p>Find the practical guidance you need to get started with Audio Conferencing and Phone System deployment using Teams</p>
+                                                    <p>Deploy Audio Conferencing, Calling Plans, and Phone System in Teams</p>
                                                 </div>
                                             </div>
                                         </div>
