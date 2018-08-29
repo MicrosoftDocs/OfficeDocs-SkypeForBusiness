@@ -32,7 +32,7 @@ These steps are necessary whether you are creating a brand new Auto Attendant or
     ```
     See [New-ADUser](https://docs.microsoft.com/en-us/powershell/module/addsadministration/new-aduser?view=win10-ps)
 
-2. Delete contact objects (COs) for every AA  <br/>See [Remove-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csexumcontact?view=skype-ps0)
+2. Delete contact objects (COs) for every AA  <br/> See [Remove-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csexumcontact?view=skype-ps0)
 
 3. Run AAD Connect Sync
     ```
@@ -44,9 +44,6 @@ These steps are necessary whether you are creating a brand new Auto Attendant or
 5. Provision numbers and assign them to DUOs  [ask Tony]
 
 6. Hydrate the AAs [what the hell does this mean?]
-
-
-
 
 ## Moving an Exchange UM Auto Attendant to Cloud Auto Attendant
 
@@ -64,7 +61,7 @@ For every AA in the Dial Plan you want to move:
     * For AAs with multiple numbers, create multiple disabled user objects, distinguishable by numbered suffixes (AA1, AA2, and so on).
     * No suffix is required for an AA with a single number.
 
-* Delete the contact objects associated with the AA. **but why is this necessary? we just barely created the object. Why would there be contacts associated with it?**
+* Delete the contact objects associated with the AA. **why is this necessary? we just barely created the object. Why would there be contacts associated with it?**
     ```
     Remove-CsExUmContact
     ```

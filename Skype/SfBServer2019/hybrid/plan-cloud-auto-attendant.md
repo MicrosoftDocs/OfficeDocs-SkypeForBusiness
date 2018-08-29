@@ -16,7 +16,7 @@ description: "Overview of using a Cloud Auto Attendant with Skype for Business S
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
-## Feature Overview 
+## Feature Overview
 
 The Auto Attendant used with Exchange Unified Messaging  (with Exchange Server 2013 or Exchange Server 2016) is no longer available in Exchange Server 2019 or Exchange Online. If your implementation of Skype for Business Server 2019 integrates with either of these Exchange versions, you'll need to use the online Cloud Voice features associated with Phone System.
 
@@ -63,7 +63,7 @@ Your auto-attendant script can make or break the impression left on your custome
 Consider some of these guidelines when planning a brand new auto attendant system:
 
 **Do:**
-1. Greet and thank the caller for contacting you. Keep this short, no more than three sentences and under 30 seconds. If your web site offers self-service options, mention it but otherwise present choices and options as soon as possible without being abrupt.  It's a good idea to have alternate initial greetings for calls taken outside business hours, or on holidays or weekends. 
+1. Greet and thank the caller for contacting you. Keep this short, no more than three sentences and under 30 seconds. If your web site offers self-service options, mention it but otherwise present choices and options as soon as possible without being abrupt.  It's a good idea to have alternate initial greetings for calls taken outside business hours, or on holidays or weekends.
 
 2. Put your most frequently used options as early as possible in the first set of menu options. If possible, reserve zero in the first menu for a transfer to a live operator, but mention it last. 
 
