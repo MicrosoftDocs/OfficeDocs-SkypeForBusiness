@@ -15,18 +15,18 @@ description: "The Define New Office Web Apps Server wizard defines a new Office 
 ---
 
 # Add Office Web Apps Server
- 
+
 The **Define New Office Web Apps Server** wizard defines a new Office Web Apps Server in your deployment. You fill in the following information:
-  
+
  **Office Web Apps Server FQDN**: Type the fully qualified domain name of the server that will host the Office Web Apps Server
-  
+
  **Office Web Apps Server discovery URL**: Type the full uniform resource locator (URL) of the Office Web Apps Server
-  
+
 > [!TIP]
 > The default behavior of the **Office Web Apps Server discovery URL** is to create the URL based on the FQDN of the Office Web Apps Server in the format: `https://<FQDN of the Office Web Apps Server/hosting/discovery` . In most cases you will not need to change the default format. You may need to change the default format in the event that the Office Web Apps Server and the Office Web Apps Server discovery URL must be different. For example, your Office Web Apps Server is placed in the perimeter network and will have a different URL based on the location.
-  
+
  **Office Web Apps Server is deployed in an external network (that is, perimeter/Internet)**: Select the check box if your Office Web Apps Server is placed outside of your internal firewall, such as the perimeter network, external network, or other network zone that is not the same as your internal network.
-  
+
 ## See also
 
-[Components and Topologies for Conferencing](http://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[Components and Topologies for Conferencing](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
