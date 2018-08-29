@@ -41,7 +41,7 @@
 ### [Assign roles and permissions in Teams](assign-roles-permissions.md)
 ### [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
-## [Modern authentication](sign-in-teams.md)
+## [Modern authentication](../sign-in-teams.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 ## [Cloud voice deployment guidance](cloud-voice-deployment.md)
 ### [Define my success](1-envision-define-my-success-cloud-voice.md)
