@@ -127,7 +127,7 @@ Learn how to manage Skype for Business Online for your organization.
                     <div class="cardText">
                         <h3>Articles</h3>
                         <p><a 
-                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Setting up Phone System in your organization</a></p>
+                        href="/microsoftteams/setting-up-your-phone-system">Setting up Phone System in your organization</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Third-party integration with Audio Conferencing</a></p>
                     </div>
                 </div>
@@ -163,7 +163,7 @@ Learn how to manage Skype for Business Online for your organization.
                     </div>
                     <div class="cardText">
                         <h3>Major updates</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">Set up Audio Conferencing</a></p>
+                        <p><a href="/microsoftteams/audio-conferencing-in-office-365">Set up Audio Conferencing</a></p>
                     </div>
                 </div>
             </div>
