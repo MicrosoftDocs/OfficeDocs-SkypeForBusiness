@@ -32,7 +32,6 @@ Skype for Business compatibility with Office 365 and your on-premises environmen
 
   - [Lync Server 2013 system requirements](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
 
-
 ## Skype for Business 2016 client updates
 |Package Name|KB Number|Release Date|
 |:---  |:---  |:---  |
@@ -67,8 +66,6 @@ Skype for Business compatibility with Office 365 and your on-premises environmen
 |Security update for Skype for Business 2016 |[KB 3114372](https://support.microsoft.com/kb/3114372) | December 2015|
 |Security update for Skype for Business 2016 |[KB 3085634](https://support.microsoft.com/kb/3085634) | November 2015|
 |Security update for Skype for Business 2016 |[KB 2910994](https://support.microsoft.com/kb/2910994) | September 2015|
-
-
 
 ## Skype for Business 2015 client updates
 
@@ -113,15 +110,12 @@ Skype for Business compatibility with Office 365 and your on-premises environmen
 |Security update for Skype for Business 2015/Lync 2013|[KB 3085500](https://support.microsoft.com/kb/3085500) | September 2015 |
 |Update for Skype for Business 2015/Lync 2013|[KB 3054791 ](https://support.microsoft.com/kb/3054791) | June 2015 |
 
-
 ### Skype for Business on Mac client updates
 
 |Package Name|Release Date|
 |:--- |:--- |
 |[Update for Skype for Business on Mac](https://www.microsoft.com/en-us/download/details.aspx?id=54108) | June 2018 |
 |[Current release notes for Skype for Business on Mac](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac) | June 2018 |
-
-
 
 * * *
 
@@ -170,8 +164,6 @@ Package Name|KB Number|Release Date|
 |Security update for Skype for Business 2015/Lync 2013|[KB 3085500](https://support.microsoft.com/kb/3085500) | September ] 2015 |
 |Update for Skype for Business 2015/Lync 2013|[KB 3054791 ](https://support.microsoft.com/kb/3054791) | June 2015 |
 
-
-
 ### Lync Phone Edition updates
 
 Package Name|KB Number|Release Date|
@@ -196,7 +188,6 @@ Package Name|Release Date|
 |[Lync Phone Edition for Polycom CX500, Polycom CX600 and Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | April 2017 |
 |[Lync Phone Edition for Polycom CX700 and LG-Nortel IP Phone 8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | December 2015 |
 
-
 ### Lync Basic 2013 Trial Software
 
 Package Name|Release Date|
@@ -206,14 +197,12 @@ Package Name|Release Date|
 
 * * *
 
-
 ### Lync for Mac 2011 client updates
 
 Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
 |Update for Lync for Mac 2011 |[KB 3175174](https://support.microsoft.com/kb/3175174)|July 2016|
 |Cumulative updates for Lync for Mac 2011 |[KB 3074981](https://support.microsoft.com/kb/3074981)|July 2015|
-
 
 ### Lync 2010 client updates
 
@@ -229,7 +218,6 @@ Package Name|KB Number|Release Date|
 |Security update for Lync 2010 |[KB 3096735](https://support.microsoft.com/kb/3096735) | November 2015|
 |Security update for Lync 2010 |[KB 3081087](https://support.microsoft.com/kb/3081087) | September 2015|
 |Cumulative updates for Lync 2010 |[KB 3072611](https://support.microsoft.com/kb/3072611) | July 2015|
-
 
 ### Lync 2010 Attendant updates
 
@@ -271,3 +259,6 @@ Package Name|KB Number|Release Date|
 |[Lync 2010 Trial (32-bit) ](https://www.microsoft.com/en-us/download/details.aspx?id=5484)| November 2010 |
 |[Lync 2010 Trial (64-bit) ](https://www.microsoft.com/en-us/download/details.aspx?id=10400)| November 2010 |
 
+## Related topics
+
+- [Skype for Business Server updates](sfb-server-updates.md)
