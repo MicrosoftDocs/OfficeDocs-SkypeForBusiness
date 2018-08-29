@@ -67,9 +67,9 @@
 ### [Set your PIN for transferring numbers to a new service provider](../what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider.md)
 ### [Toll-free number limits and restrictions](/microsoftteams/toll-free-dialing-limitations-and-restrictions?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Transferring phone numbers common questions](/microsoftteams/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [What are dial plans?](/microsoftteams/what-are-calling-plans-in-office-365/what-are-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [What are dial plans?](/microsoftteams/what-are-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Phone System in Office 365](/microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Create a Phone System call queue](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
