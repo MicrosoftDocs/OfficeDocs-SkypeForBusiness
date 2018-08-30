@@ -56,6 +56,8 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 </ul>
 
 ## Tabs
+
+<p>removed style attributes from the next two</p>
 <!-- remove style attributes -->
 <ul  class="panelContent cardsC">
 <li>
@@ -107,12 +109,50 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
             <div class="cardPadding" style="display: flex;">
                 <div class="card">
                     <div class="cardImageOuter">
-                        <div class="cardImage">
+                        <div class="cardImage bdgAccent1">
                             <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>Connectors Idea 1</h3>
+                        <p>Post rich updates to channels.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<li style="display: flex; flex-direction: column;">
+    <a href="./ref-arch/connectors-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage bdgAccent1">
+                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Just to have two cards here.</h3>
+                        <p>Post rich updates to channels.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<li style="display: flex; flex-direction: column;">
+    <a href="./ref-arch/connectors-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage bdgAccent1">
+                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Maybe even have three, see what they look like. </h3>
                         <p>Post rich updates to channels.</p>
                     </div>
                 </div>
