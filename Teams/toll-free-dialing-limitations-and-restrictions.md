@@ -43,7 +43,7 @@ If you're ready, select a country or region:
 > - [Chile](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
 > - [China (North)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
 > - [China (South)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
-> - [Columbia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md)
+> - [Colombia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md)
 > - [Croatia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
 > - [Cyprus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md)
 > - [Denmark](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md)

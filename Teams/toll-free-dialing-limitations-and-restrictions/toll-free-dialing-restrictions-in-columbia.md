@@ -1,5 +1,5 @@
 ---
-title: "Toll-free dialing restrictions in Columbia"
+title: "Toll-free dialing restrictions in Colombia"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 
 ---
 
-# Toll-free dialing restrictions in Columbia
+# Toll-free dialing restrictions in Colombia
 
 [Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.
 
