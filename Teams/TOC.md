@@ -200,7 +200,7 @@
 
 ### [Teams cloud meeting recording](cloud-recording.md)
 ### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
-### [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mmstoc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Live events
 #### [What are Teams live events?](what-are-teams-live-events.md)
 
