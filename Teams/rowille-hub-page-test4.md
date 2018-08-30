@@ -59,14 +59,14 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 
 <p>removed style attributes from the next two</p>
 <!-- remove style attributes -->
-<ul  class="panelContent cardsC">
+<ul class="panelContent cardsC">
 <li>
     <a href="./ref-arch/tab-action.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
-                        <div class="cardImage">
+                        <div class="cardImage bgdAccent1">
                             <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
@@ -85,8 +85,8 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
+                        <div class="cardImage bgdAccent1">
+                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MMSTeams-Community-400x140" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -102,9 +102,9 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 
 ## Connectors
 
-<p>Try background accent.</p>
-
-<ul  class="panelContent cardsC">
+<p>Remark here. Does the previous heading still look like markdown?</p>
+<!-- wonder why the markdown suddenly appeared there? -->
+<ul class="panelContent cardsC">
 <li style="display: flex; flex-direction: column;">
     <a href="./ref-arch/connectors-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -166,7 +166,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 
 ## Actionable Messaging
 
-<ul  class="panelContent cardsC">
+<ul class="panelContent cardsC">
 <li style="display: flex; flex-direction: column;">
     <a href="./ref-arch/actionable-message-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
