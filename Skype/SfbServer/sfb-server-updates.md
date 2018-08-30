@@ -13,7 +13,7 @@ ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: "Find and manage updates for Skype for Business Server 2015 and Lync 2013 in one place. Use the links on this page to get more information about updates, and then download the updates."
 ---
 
-# Skype for Business updates
+# Skype for Business Server updates
 
 Find and manage updates for [Skype for Business Server 2015](#skype-for-business-server-2015-update-history),  [Lync 2013](#Lync-2013-update-history),  and [Lync Server 2010](#lync-server-2010-update-history) in one place. Use the links on this page to get more information about updates, and then download the updates.
 
@@ -145,7 +145,6 @@ Package Name/Link|Release Date|
 |:--- |:--- |
 |[Lync Server 2013 Documentation Help File](https://www.microsoft.com/en-us/download/details.aspx?id=35405)|August 2015 |
 
-
 * * *
 
 ## Lync Server 2010 update history
@@ -223,10 +222,8 @@ Package Name/Link|Release Date|
 
 Software updates include any update, update rollup, service pack, feature pack, critical update, security update, or hotfix. See [KB 824684](https://support.microsoft.com/kb/824684) for a description of the standard terminology used to describe Microsoft software updates.
 
-
 ## Related topics
 
 - [Install Skype for Business Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/install/install)
 - [Upgrade to  Skype for Business Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
-
-
+- [Latest updates for versions of Skype for Business that use Windows Installer (MSI)](sfb-client-updates.md)
