@@ -1,5 +1,5 @@
 ---
-title: Office 365 groups and Microsoft Teams
+title: Office 365 Groups and Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -27,10 +27,12 @@ When you create a Microsoft Team, on the backend, you’re creating an Office 36
 
 > [!NOTE]
 > Deleting an Office 365 Group will remove the mailbox alias for persistent Outlook/OWA conversations and Teams meeting invites, and mark the SharePoint site for deletion. It takes approximately 20 minutes between the removal of a team and its effect on Outlook. Deleting a team from the Teams client will remove it immediately from view to all who are members of the team. If you remove members of an Office 365 Group that has had Teams functionality enabled on it, there could be a delay of approximately two hours before the team is removed from view in the Teams client for the affected people who were removed.
+>
+>Read [this](https://support.office.com/en-us/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) for information about restoring an Office 365 Group that you deleted.
 
 Group membership
 ----------------
 
-Group features and capabilities for your users depend on where you drive group membership from. For example, if you remove a member of a team, they are removed from the Office 365 Group as well. Removal from the group immediately removes the team and channels from the Teams client. If you remove a person from a group using the Office 365 Admin portal, they will no longer have access to the other collaborative aspects such as SharePoint Online document library, Yammer Group, or shared OneNote. However, they will still have access to the Team’s chat functionality for approximately two hours.
+Group features and capabilities for your users depend on where you drive group membership from. For example, if you remove a member of a team, they are removed from the Office 365 Group as well. Removal from the group immediately removes the team and channels from the Teams client. If you remove a person from a group using the Office 365 Admin portal, they will no longer have access to the other collaborative aspects such as SharePoint Online document library, Yammer Group, or shared OneNote. However, they will still have access to the team’s chat functionality for approximately two hours.
 
-Best practice for managing Teams members: add and remove members from the Teams client to ensure that the correct cascading access control to other dependent cloud applications is applied. Additionally, you will avoid a disjointed experience leaving people with the impression they still have access to the resources they used to (until the next sync cycle either adds or revokes access to a particular component of the service). If you DO add or remove team members outside of the Teams client (by using the Office 365 Admin Center, Azure AD, or Exchange Online PowerShell), it can take up to two hours for changes to be reflected in Teams.
+Best practice for managing Teams members: Add and remove members from the Teams client to ensure that the correct cascading access control to other dependent cloud applications is applied. Additionally, you will avoid a disjointed experience leaving people with the impression they still have access to the resources they used to (until the next sync cycle either adds or revokes access to a particular component of the service). If you DO add or remove team members outside of the Teams client (by using the Office 365 Admin Center, Azure AD, or Exchange Online PowerShell), it can take up to two hours for changes to be reflected in Teams.
