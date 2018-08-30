@@ -75,14 +75,8 @@ If you still need help, please let us know how we can help you. In your Help req
 - To help you pick the type of phone number you need, read [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - To learn about getting user phone numbers in the admin center, read [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
 - To get help setting up phone numbers for your organization, [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
-<<<<<<< HEAD:Teams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
   
     
-=======
-
-
-
->>>>>>> master:Skype/SfbOnline/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
 ## Related topics
 
 [Emergency calling terms and conditions](../emergency-calling-terms-and-conditions.md)
