@@ -102,6 +102,8 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 
 ## Connectors
 
+<p>Try background accent.</p>
+
 <ul  class="panelContent cardsC">
 <li style="display: flex; flex-direction: column;">
     <a href="./ref-arch/connectors-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
@@ -109,7 +111,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
             <div class="cardPadding" style="display: flex;">
                 <div class="card">
                     <div class="cardImageOuter">
-                        <div class="cardImage bdgAccent1">
+                        <div class="cardImage bgdAccent1">
                             <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
@@ -128,7 +130,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
             <div class="cardPadding" style="display: flex;">
                 <div class="card">
                     <div class="cardImageOuter">
-                        <div class="cardImage bdgAccent1">
+                        <div class="cardImage bgdAccent1">
                             <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
@@ -147,12 +149,12 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
             <div class="cardPadding" style="display: flex;">
                 <div class="card">
                     <div class="cardImageOuter">
-                        <div class="cardImage bdgAccent1">
+                        <div class="cardImage bgdAccent1">
                             <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Maybe even have three, see what they look like. </h3>
+                        <h3>Maybe even have three. </h3>
                         <p>Post rich updates to channels.</p>
                     </div>
                 </div>
