@@ -13,7 +13,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 
 ## Bots
 
-<ul  class="panelContent cardsC">
+<ul  class="panelContent cardsF">
 <!-- SQL Data Warehouse -->
 <li style="display: flex; flex-direction: column;">
     <a href="./ref-arch/bot-help-desk.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
@@ -22,7 +22,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
+                            <img src="https://docs.microsoft.com//en-us/office/media/icons/help.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -41,7 +41,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_agent.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -56,12 +56,12 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 </ul>
 
 ## Tabs
-
+<!-- remove style attributes -->
 <ul  class="panelContent cardsC">
-<li style="display: flex; flex-direction: column;">
-    <a href="./ref-arch/tab-action.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
+<li>
+    <a href="./ref-arch/tab-action.md">
+        <div class="cardSize">
+            <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
@@ -77,10 +77,10 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
         </div>
     </a>
 </li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./ref-arch/tab-context.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
+<li>
+    <a href="./ref-arch/tab-context.md">
+        <div class="cardSize">
+            <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
