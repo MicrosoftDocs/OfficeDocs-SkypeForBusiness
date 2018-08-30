@@ -22,7 +22,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/icons/help.svg" alt=" " />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -67,7 +67,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage bgdAccent1">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
+                            <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +86,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage bgdAccent1">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MMSTeams-Community-400x140" alt=" " />
+                            <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Community-400x140" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -112,7 +112,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage bgdAccent1">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
+                            <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -131,7 +131,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage bgdAccent1">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
+                            <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -150,7 +150,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage bgdAccent1">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
+                            <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -174,7 +174,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
+                            <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -199,7 +199,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
+                            <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -224,7 +224,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
+                            <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
