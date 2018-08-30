@@ -57,7 +57,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 
 ## Tabs
 
-<p>removed style attributes from the next two</p>
+<p>removed style attributes from the next two.</p>
 <!-- remove style attributes -->
 <ul class="panelContent cardsC">
 <li>
@@ -102,10 +102,9 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 
 ## Connectors
 
-<p>Remark here. Does the previous heading still look like markdown?</p>
-
+<p>Remark here. Does the previous heading still look like markdown? The cards above finally looked good horizontally, but I wish I knew why. This time I'll remove the div class="container" from the following section, because all it seemed to do was stack the cards.</p>
+<!-- discovered that the p element has to be followed by a non-blank line. Even a comment will do. Just can't be blank -->
 <ul class="panelContent cardsC">
-<div class="container">
 <li style="display: flex; flex-direction: column;">
     <a href="./ref-arch/connectors-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -163,7 +162,6 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
         </div>
     </a>
 </li>
-</div>
 </ul>
 
 ## Actionable Messaging
