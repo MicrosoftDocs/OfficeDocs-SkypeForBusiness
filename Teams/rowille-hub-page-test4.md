@@ -53,11 +53,30 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
         </div>
     </a>
 </li>
+<li style="display: flex; flex-direction: column;">
+    <a href="http://www.microsoft.com" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/media/common/i_agent.svg" alt=" " />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Third card here</h3>
+                        <p>just to see.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
 </ul>
 
 ## Tabs
 
-<p>removed style attributes from the next two.</p>
+<p>removed style attributes from the next two, so there's no more flex business.</p>
 <!-- remove style attributes -->
 <ul class="panelContent cardsC">
 <li>
