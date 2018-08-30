@@ -12,7 +12,7 @@ ms.collection: IT_Skype16
 description: "Find and manage updates for Skype for Business Server or Lync 2013. Use the links to get more information and  then download the updates."
 ---
 
-# Skype for Business downloads and updates 
+# Skype for Business downloads and updates
 
 The _Skype for Business downloads and updates_ web page that was once on Technet has been retired. The content was reorganized into client and server pages. Follow these links to the content you need:
 
@@ -27,7 +27,7 @@ The _Skype for Business downloads and updates_ web page that was once on Technet
     - [Lync for Mac 2011 client updates](sfb-client-updates.md#lync-for-mac-2011-client-updates)
     - [Lync 2010 client updates](sfb-client-updates.md#lync-2010-client-updates)
         - [Lync 2010 Attendant updates](sfb-client-updates.md#lync-2010-attendant-updates)
-        - [Lync 2010 Attendee updates](sfb-client-updates.md#lync-2010-attendee-updates) 
+        - [Lync 2010 Attendee updates](sfb-client-updates.md#lync-2010-attendee-updates)
 
 - [Skype for Business Server updates](sfb-server-updates.md) which  contains the sections:
     - [Skype for Business Server 2015 update history](sfb-server-updates.md#skype-for-business-server-2015-update-history)
@@ -45,4 +45,4 @@ The _Skype for Business downloads and updates_ web page that was once on Technet
         - [Group Chat](sfb-server-updates.md#group-chat)
         - [Trial Software](sfb-server-updates.md#trial-software)
     - [Additional information](sfb-server-updates.md#additional-information)
-    - [Related topics](sfb-server-updates.md#related-topics) 
+    - [Related topics](sfb-server-updates.md#related-topics)
