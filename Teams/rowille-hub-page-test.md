@@ -1,34 +1,42 @@
----
+--- 
 layout: HubPage
 hide_bc: true
-title: Instructor-led training for Microsoft Teams
-description: Microsoft-hosted live, online training sessions for Microsoft Teams. 
-
+title: Microsoft Teams documentation and resources | Microsoft Docs
+description: Learn about product documentation and resources available for IT Pro, IT admin, change and adoption managers and developers.
+author: rmw2890
 ms.topic: hub-page
+ms.author: rowille
+ms.collection: Strat_MT_TeamsAdmin
+ms.date: 08/24/2018
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Instructor-led training for Microsoft Teams</h1>
+        <h1>Microsoft Teams documentation and resources</h1>
         <ul class="pivots">
             <li>
-                <a href="#home"></a>
-                <ul id="home">
+                <a href="#tab1">Tab 1</a>
+                <ul id="tab1">
                     <li>
-                        <a href="#home-all"></a>
-                        <ul id="home-all" class="cardsC">
+                        <a href="#tab1-all"></a>
+                        <ul id="tab1-all" class="cardsC">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>Tab 1 descriptive text.</p>
+                                </div>
+                            </li>
                             <li>
-                                <a href="/MicrosoftTeams/Teams-overview">
+                                <a href="https://www.microsoft.com/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-GetStarted-400x140.svg" alt="a pedestrian symbol with an arrow pointing to a computer screen, tablet, and phone" />
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft Teams Daily Demo</h3>
-                                                    <p>Understand how Teams can work for you</p>
+                                                    <h3>Tab 1 | Card 1 title</h3>
+                                                    <p>Tab 1 | Card 1 descriptive text.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -36,18 +44,18 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="/MicrosoftTeams/journey-skypeforbusiness-teams">
+                                <a href="https://www.microsoft.com/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Journey-400x140.svg" alt="a roadmap with footsteps" />
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Getting started with Teams</h3>
-                                                    <p>Learn the fundamentals to kickstart using Teams</p>
+                                                    <h3>Tab 1 | Card 2 title</h3>
+                                                    <p>Tab 1 | Card 2 descriptive text.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -55,18 +63,52 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="/MicrosoftTeams/change-management-strategy">
+                                <a href="https://www.microsoft.com/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Upgrade 101: Understand your upgrade from Skype for Business to Teams</h3>
-                                                    <p>Join us for this 60-minute session to get familiar with our upgrade paths.</p>
+                                                    <h3>Tab 1 | Card 3 title</h3>
+                                                    <p>Tab 1 | Card 3 descriptive text.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#tab2">Tab 2</a>
+                <ul id="tab2">
+                    <li>
+                        <a href="#tab2-all"></a>
+                        <ul id="tab2-all" class="cardsC">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>Tab 2 descriptive text.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://www.microsoft.com/" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Tab 2 | Card 1 title</h3>
+                                                    <p>Tab 2 | Card 1 descriptive text.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -74,18 +116,18 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="/MicrosoftTeams/cloud-voice-deployment">
+                                <a href="https://www.microsoft.com/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" alt="a user with a phone and clouds" />
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Upgrade from Skype for Business to Teams</h3>
-                                                    <p>Designed specifically for Skype for Business users, this course covers what you need to make the transition to Teams.</p>
+                                                    <h3>Tab 2 | Card 2 title</h3>
+                                                    <p>Tab 2 | Card 2 descriptive text.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -93,37 +135,18 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="/MicrosoftTeams/security-compliance-overview">
+                                <a href="https://www.microsoft.com/" target="_blank">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Security-Compliance-400x140.svg" alt="a shield with a check mark and clouds" />
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Ask the Experts: What do you want to know about using Teams?</h3>
-                                                    <p>This 30-minute session is an open call for your questions to the Microsoft Teams product group.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/MicrosoftTeams/itadmin-readiness">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>See cute cat videos!</h3>
-                                                    <p>This is an extra tile, so why not enjoy a few minutes of viewing cute cat videos! </p>
+                                                    <h3>Tab 2 | Card 3 title</h3>
+                                                    <p>Tab 2 | Card 3 descriptive text.</p>
                                                 </div>
                                             </div>
                                         </div>
