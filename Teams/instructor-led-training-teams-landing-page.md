@@ -1,249 +1,446 @@
----
-title: Admin training for Microsoft Teams
-description: Get the training you need to manage Microsoft Teams in your organization
+--- 
+layout: HubPage
+hide_bc: true
+title: Instructor-led training for Microsoft Teams
+description: Sign up for instructor-led classes to learn all about Microsft Teams.
 author: dearbeen
-manager: serdars
-ms.date: 01/22/2018
-layout: LandingPage
-ms.assetid: 
-ms.service: msteams
-ms.tgt_pltfrm: na
-ms.devlang: na
-ms.topic: landing-page
+ms.topic: hub-page
 ms.author: dearbeen
+ms.collection: Strat_MT_TeamsAdmin
+ms.date: 08/24/2018
 ---
-# Admin training for Microsoft Teams
-
-Learn how to manage Teams for your organization.
-
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://support.office.com/article/2da94a13-6d16-4d67-adf3-439f2b946994">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>NEW: Instructor-led training for Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>We're here to help</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/user-accounts.svg" alt="User account" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Need help signing in to Skype for Business?</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="/SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Troubleshoot" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Troubleshoot problems with Skype for Business Online</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Journey from Skype for Business to Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
-
----
-
-<h2>What's new</h2>
-
-<ul class="panelContent cardsF">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg" alt="Article" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Articles</h3>
-                        <p><a 
-                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Setting up Phone System in your organization</a></p>
-                        <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Third-party integration with Audio Conferencing</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-blue.svg" alt="What's new" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>New features</h3>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Calling Plans in Canada (General Availability)</a></p>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Calling Plans in Australia (Preview only)</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/connector-blue.svg" alt="Updates" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Major updates</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">Set up Audio Conferencing</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
-
----
-
-<h2>Featured Articles</h2>
-<ul class="panelContent cardsW">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Audio Conferencing</h3>
-                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Audio Conferencing in Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Manage the Audio Conferencing settings for my organization</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions">Audio Conferencing common questions</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Compare audio conferencing providers</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">See if Audio Conferencing is available in your country/region</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Set up</h3>
-						<p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online">Set up Skype for Business Online</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">Allow users to contact external Skype for Business users</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts">Let Skype for Business users add Skype contacts</a></p>
-                     </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Add-on licensing</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing">Skype for Business and Microsoft Teams add-on licensing</a></p><p><a href="/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits">What are Communications Credits?</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Calling Plans</h3>
-                        <p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365">What are Calling Plans in Office 365?</a></p><p><a href="/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans">Set up Calling Plans</a></p><p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">See if Calling Plans are available in your country/region</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Phone System</h3>
-                        <p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365">What is Phone System in Office 365?</a></p><p><a href="/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system">Here's what you get with Phone System in Office 365</a></p>
-               </div>
-                </div>
-            </div>
-        </div> 
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Improve call and video quality</h3>
-                        <p><a href="https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771">Troubleshoot connection issues in Skype for Business</a></p><p><a href="https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc">Troubleshoot audio and video in Skype for Business</a></p><p><a href="https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802">Tune Skype for Business Online performance</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+<div id="main" class="v2">
+    <div class="container">
+        <h1>Microsoft Teams documentation and resources</h1>
+        <ul class="pivots">
+            <li>
+                <a href="#tab1">Getting started</a>
+                <ul id="tab1">
+                    <li>
+                        <a href="#tab1-all"></a>
+                        <ul id="tab1-all" class="cardsF">     
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p><i>Notice the different look of this tab compared to the others: groups of individual links rather than "container" cards that are one giant hyperlink to one place.</i></p><br><p>&nbsp;</p>
+                                </div>
+                            </li>
+                            <li>
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage"> 
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started.svg" alt="Get started" data-linktype="external">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/Microsoft-Teams" alt=" " data-linktype="external">What's all this about Teams?</a></h3>
+                                                    <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/Teams-overview">Teams overview</a></p>
+                                                    <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams">Quick start</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt=" ">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Teams and channels</h3>
+                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/teams-channels-overview">What are teams and channels?</a></p>
+                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/assign-roles-permissions">Assign roles and permissions</a></p>
+                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/best-practices-organizing">Best practices for organizing teams</a></p>
+                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/plan-office-365-groups">How Office 365 Groups affect teams</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us//media/common/i_configure-teams.svg" alt=" " />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Meetings</h3>
+                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/tutorial-meetings-in-teams">Tutorial</a></p>
+                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/what-are-teams-live-events">Teams live events (preview)</a></p>
+                                                        <p>I think we need a Meetings landing page</p>  
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us//media/common/i_configure-teams.svg" alt=" " />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Plan to prepare</h3>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/environment-readiness">Check your environment’s readiness for Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/prepare-network">Prepare your organization's network for Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/office-365-urls-ip-address-ranges">Office 365 URLs and IP address ranges</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/limits-specifications-teams">Limits and specifications for Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/plan-office-365-groups">Plan for Office 365 Groups when creating teams in Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/rollout-tools">Get tools to support a rollout of Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/plan-teams-governance">Plan for governance in Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/plan-for-government-gcc">Plan for Microsoft 365 Government - GCC deployments</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/itadmin-readiness">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/media/common/i_virtual-training.svg" alt="  ">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Training</h3>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/itadmin-readiness">Admin training for Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/enduser-training">End user training for Teams</a></p>
+                                                       <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/audio-conferencing-videos">Videos - Audio Conferencing in Teams</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#tab2">Instructor-led training</a>
+                <ul id="tab2">
+                    <li>
+                        <a href="#tab2-all"></a>
+                        <ul id="tab2-all" class="cardsC">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>Sign up for instructor-led classes to learn about Microsoft Teams.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/deployment-overview">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/media/illustrations/biztalk-host-integration-install-configure.svg" alt="  " />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Teams daily demo</h3>
+                                                    <p>Join us for this 30-minute orientation to discover how Teams can work for you in your day-to-day work life.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Getting started with Teams</h3>
+                                                    <p>From chatting and meetings to using teams and channels, users will leave this session with the foundation needed to master Teams.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <li>
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Getting started with Teams for Education</h3>
+                                                    <p>Teams is a rock star for Education. Get the training you need to use Teams in an Education setting.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <li>
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Managing your upgrade from Skype for Business to Teams</h3>
+                                                    <p>COMING IN OCTOBER: Gain insights into planning and implementing a successful upgrade from Skype for Business to Teams.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <li>
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Transitioning from Skype for Business to Teams for end users</h3>
+                                                    <p>COMING IN OCTOBER: This course covers what you need to quickly start chatting, meeting, and calling in Teams.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/security-compliance-overview">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Security-Compliance-400x140.svg" alt="  ">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Karuana?</h3>
+                                                    <p>Anything before Ignite?</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+             <li>
+                <a href="#tab3">Administration</a>
+                <ul id="tab3">
+                    <li>
+                        <a href="#tab3-all"></a>
+                        <ul id="tab3-all" class="cardsC">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>Not sure whether to use cards here or lists, similar to the Getting started tab. I'm inclined toward the latter since we've got no landing pages.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://www.microsoft.com/" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us//media/illustrations/bcs-partner-advanced-management-settings-8.svg" alt=" ">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Got no "Manage" landing page</h3>
+                                                    <p>But, we could link to the QER Guide here.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.microsoft.com/" target="_blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>It seems that this should be a list of things</h3>
+                                                    <p>...rather than just a card that links to a specific spot in the TOC.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#tab4">Adopt Teams</a>
+                <ul id="tab4">
+                    <li>
+                        <a href="#tab4-all"></a>
+                        <ul id="tab4-all" class="cardsC">
+                            <li class="fullSpan">
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Journey-400x140.svg" alt=" " />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Journey from Skype for Business to Teams</h3>
+                                                    <p>Find guidance and tools to explore your optimal path to Teams.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/change-management-strategy" datalink-type="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="  " />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Adoption and change management strategy</h3>
+                                                    <p>Get tools to support your Teams rollout and help you create your change management strategy for Teams.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+ <li>
+                <a href="#tab5">More resources</a>
+                <ul id="tab5">
+                    <li>
+                        <a href="#tab5-all"></a>
+                        <ul id="tab5-all" class="cardsC">
+                            <li class="fullSpan">
+                                <div class="container intro">
+                                    <p>Got your more resources here.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/en-us/microsoftteams/platform/overview" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Introduction to the Microsoft Teams developer platform</h3>
+                                                    <p>Learn about the Microsoft Teams developer platform and how it enables you to build useful and powerful apps.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams" data-linktype="absolute-path">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Community-400x140.svg" alt=" ">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Teams tech community</h3>
+                                                    <p>Join the Teams tech community to ask questions and get answers, and read the Teams blog.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/powershell/module/teams/?view=teams-ps">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-PowerShell-400x140.svg" alt=" ">
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>PowerShell cmdlet reference for Teams</h3>
+                                                    <p>Get the PowerShell modules and cmdlets for Teams. Left the href with no further attributes.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
