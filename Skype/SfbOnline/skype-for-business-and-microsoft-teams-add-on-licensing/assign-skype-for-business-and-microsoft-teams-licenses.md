@@ -39,9 +39,9 @@ What you need to know before assigning Audio Conferencing, Phone System and Call
 - **Latency after assigning licenses**: Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for a user to be assigned a Calling Plan after you assign a license. If after 24 hours the user isn't assigned a Calling Plan, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **Error messages**: You will get an error message if you haven't purchased the correct number of licenses. If you need to buy more Calling Plan licenses, choose **Buy more**.
-
-- **Next steps**: After you assign Calling Plan licenses to your users, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).
-
+    
+- **Next steps**: After you assign Calling Plan licenses to your users, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
+    
 ### How to assign a Phone System and Calling Plan license to one user
 
 The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
@@ -181,9 +181,9 @@ foreach ($user in $users)
 ### What you need to know before assigning Communications Credits licenses
 
 - **Enterprise E5 customers**: Even if your users are assigned Enterprise E5 licenses, we still recommend that you assign them **Communications Credits** licenses.
-
-- **Next steps**: After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).
-
+    
+- **Next steps**: After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
+    
 ### How to assign a Communications Credits license to one user
 
 The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
@@ -193,9 +193,10 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 Take a look at the sample script for assigning **Audio Conferencing** licenses. Update it with the info for assigning **Communications Credits** licenses.
 
 ## Related topics
-
-[Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
-
-[Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
-
-
+  
+[Set up Calling Plans](/microsoftteams/set-up-calling-plans)
+  
+[Add funds and manage Communications Credits](/microsoftteams/add-funds-and-manage-communications-credits)
+  
+  
+ 
