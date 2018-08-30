@@ -69,7 +69,7 @@ items:
     - On the [public roadmap](https://aka.ms/skype2teamsroadmap), review the “Calling
     roadmap” slide for an overview of the expected timelines for feature release dates.
     - Review [Here’s what you get with Phone System in Office
-    365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system)
+    365](https://docs.microsoft.com/en-us/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     for a description of Phone System features. Keep in mind that at this writing, some
     of these features might only be available for Skype for Business.
 
@@ -272,7 +272,7 @@ items:
 
     <span style="color:red">**Action**:</span> Review [Country and region availability for Audio Conferencing and
     Calling
-    Plans](https://docs.microsoft.comcountry-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+    Plans](https://docs.microsoft.com/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
     for the following information:
 
     -   For the country where your billing address is located, check whether Audio
@@ -321,7 +321,7 @@ items:
 
     -   Review the Calling Plans section in [Country and region availability for
     Audio Conferencing and Calling
-    Plans](https://docs.microsoft.comcountry-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+    Plans](https://docs.microsoft.com/en-us/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
     to understand the calling minutes allocation for each Calling Plan add-in
     type.
 
@@ -329,14 +329,14 @@ items:
 
     -   Learn more about licensing for Phone System and Calling Plans from [Country
     and region availability for Audio Conferencing and Calling
-    Plans](https://docs.microsoft.comcountry-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+    Plans](https://docs.microsoft.com/en-us/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
     -   Learn more about the Calling Plan add-ins from [What are Calling Plans in
     Office
-    365?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
+    365?](https://docs.microsoft.com/MicrosoftTeams/what-are-calling-plans-in-office-365)
 
     -   Learn more about Communications Credits from [What are Communications
-    Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)?
+    Credits](https://docs.microsoft.com/MicrosoftTeams/what-are-communications-credits)?
 
     ###Phone numbers and emergency locations
 
@@ -365,24 +365,24 @@ items:
     **Additional information**
 
     -   Review [Different kinds of phone numbers used for Calling
-    Plans](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans)
+    Plans](https://docs.microsoft.com/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)
     to understand about the types of phone numbers supported by Phone System in
     Office 365.
 
     -   Review [Manage phone numbers for your
-    organization](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
+    organization](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
     to learn more about obtaining user numbers for Calling Plans implementation.
 
     -   To learn more about transferring (porting) phone numbers to Microsoft, see
     [Transfer phone numbers to Office
-    365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
+    365](https://docs.microsoft.com/MicrosoftTeams/transfer-phone-numbers-to-office-365).
 
     -   To learn more about emergency address and locations, review [What are
     emergency locations, addresses and call
-    routing?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
+    routing?](https://docs.microsoft.com/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing)
 
     -   [Emergency calling terms and
-    conditions](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
+    conditions](https://docs.microsoft.com/MicrosoftTeams/emergency-calling-terms-and-conditions)
 
     ###Voicemail
 
