@@ -11,7 +11,7 @@ ms.date: 08/24/2018
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Microsoft Teams documentation and resources</h1>
+        <h1>Instructor-led training for Microsoft Teams</h1>
         <ul class="pivots">
             <li>
                 <a href="#tab1">Getting started</a>
