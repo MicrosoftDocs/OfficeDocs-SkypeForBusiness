@@ -1,6 +1,6 @@
 ---
-title: Instructor-led training for Microsoft Teams
-description: Microsoft-hosted live, online training sessions for Microsoft Teams. 
+title: Admin training for Microsoft Teams
+description: Get the training you need to manage Microsoft Teams in your organization
 author: dearbeen
 manager: serdars
 ms.date: 01/22/2018
@@ -12,7 +12,7 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: dearbeen
 ---
-# Instructor-led training for Microsoft Teams
+# Admin training for Microsoft Teams
 
 Learn how to manage Teams for your organization.
 
@@ -28,7 +28,7 @@ Learn how to manage Teams for your organization.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with Skype for Business</h3>
+                        <h3>NEW: Instructor-led training for Teams</h3>
                     </div>
                 </div>
             </div>
