@@ -86,7 +86,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage bgdAccent1">
-                            <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Community-400x140" alt=" " />
+                            <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Community-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -103,8 +103,9 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 ## Connectors
 
 <p>Remark here. Does the previous heading still look like markdown?</p>
-<!-- wonder why the markdown suddenly appeared there? -->
+
 <ul class="panelContent cardsC">
+<div class="container">
 <li style="display: flex; flex-direction: column;">
     <a href="./ref-arch/connectors-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -162,6 +163,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
         </div>
     </a>
 </li>
+</div>
 </ul>
 
 ## Actionable Messaging
