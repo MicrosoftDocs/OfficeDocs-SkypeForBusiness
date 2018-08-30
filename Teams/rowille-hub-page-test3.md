@@ -13,7 +13,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 
 ## Bots
 
-<ul  class="panelContent cardsF">
+<ul  class="panelContent cardsC">
 <!-- SQL Data Warehouse -->
 <li style="display: flex; flex-direction: column;">
     <a href="./ref-arch/bot-help-desk.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
@@ -22,7 +22,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " height="140px" />
+                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -41,7 +41,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " height="140px" />
+                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -57,7 +57,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 
 ## Tabs
 
-<ul  class="panelContent cardsF">
+<ul  class="panelContent cardsC">
 <li style="display: flex; flex-direction: column;">
     <a href="./ref-arch/tab-action.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -65,7 +65,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " height="140px" />
+                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -84,7 +84,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " height="140px" />
+                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -100,7 +100,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 
 ## Connectors
 
-<ul  class="panelContent cardsF">
+<ul  class="panelContent cardsC">
 <li style="display: flex; flex-direction: column;">
     <a href="./ref-arch/connectors-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -108,7 +108,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " height="140px" />
+                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -124,7 +124,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 
 ## Actionable Messaging
 
-<ul  class="panelContent cardsF">
+<ul  class="panelContent cardsC">
 <li style="display: flex; flex-direction: column;">
     <a href="./ref-arch/actionable-message-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -132,7 +132,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " height="140px" />
+                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -148,7 +148,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 
 ## Compose Extensions
 
-<ul class="panelContent cardsF">
+<ul class="panelContent cardsC">
 <!-- Azure AD -->
 <li style="display: flex; flex-direction: column;">
     <a href="./ref-arch/compose-extensions-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
@@ -157,7 +157,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " height="140px" />
+                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
@@ -173,7 +173,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 
 ## Activity Feed
 
-<ul  class="panelContent cardsF">
+<ul  class="panelContent cardsC">
 <!-- Jenkins -->
 <li style="display: flex; flex-direction: column;">
     <a href="./ref-arch/activity-feed-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
@@ -182,7 +182,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " height="140px" />
+                            <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
                         </div>
                     </div>
                     <div class="cardText">
