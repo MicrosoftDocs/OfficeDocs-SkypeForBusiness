@@ -53,7 +53,7 @@ You must be an [Office 365 global admin](https://support.office.com/article/da58
     
 ## Want else should I know?
 
-- To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](audio-conferencing-supported-languages.md).
+- To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](/MicrosoftTeams/audio-conferencing-supported-languages).
     
 - Languages can be set for dedicated but not for shared phone numbers.
     

@@ -144,7 +144,7 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
 5. Click **Save**.
 
     
-See [Change the settings for an Audio Conferencing bridge](/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge).
+See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
   
  **Set the PIN length for meetings**
 
@@ -157,7 +157,7 @@ See [Change the settings for an Audio Conferencing bridge](/skypeforbusiness/aud
     The PIN must be between 4 and 12 digits. The default is 5.
 
     
-See [Change the settings for an Audio Conferencing bridge](/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge).
+See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
   
  **Enable or disable email from being sent to audio users**
 

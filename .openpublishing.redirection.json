@@ -39,6 +39,996 @@
       "source_path": "Teams/prepare-teams.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide", 
       "redirect_document_id": true 
-    }
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/here-s-what-you-get-with-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/audio-conferencing-in-office-365.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/audio-conferencing-common-questions.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/audio-conferencing-common-questions?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/audio-conferencing-supported-languages.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/audio-conferencing-supported-languages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/change-the-settings-for-an-audio-conferencing-bridge?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/change-the-phone-numbers-on-your-audio-conferencing-bridge?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/how-to-get-calling-plans-for-office-365.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/set-up-communications-credits-for-your-organization?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/phone-system-voicemail/change-the-default-language-for-greetings-and-emails.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/setting-up-your-phone-system.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/add-funds-and-manage-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/audio-conferencing-pay-per-minute?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/dimensions-and-measures-available-in-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/using-call-quality-in-your-organization/set-up-call-analytics.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/set-up-call-analytics?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/stream-classification-in-call-quality-dashboard?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization/phone-number-management-for-france.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-france?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/how-many-phone-numbers-can-you-get?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/set-up-calling-plans.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/set-up-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/transfer-phone-numbers-to-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/transferring-phone-numbers-common-questions?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/what-are-dial-plans.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/what-are-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/legal-and-regulatory/complimentary-dial-out-period.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/complimentary-dial-out-period?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/code-of-practice-for-the-united-kingdom-u-k?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/complaint-handling-code-for-the-united-kingdom-u-k?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/legal-and-regulatory/data-collection-practices.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/data-collection-practices?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/legal-and-regulatory/emergency-calling-terms-and-conditions.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/emergency-calling-terms-and-conditions?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/legal-and-regulatory/emergency-calling-labels.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/emergency-calling-labels",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina",
+      "redirect_document_id": true 
+    },
+      {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya",
+      "redirect_document_id": true 
+    },
+      {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia",
+      "redirect_document_id": true 
+    },    
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong",
+      "redirect_document_id": true 
+    },    
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-isreal.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-isreal",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova",
+      "redirect_document_id": true 
+    },    
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore",
+      "redirect_document_id": true 
+    },    
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates",
+      "redirect_document_id": true 
+    },    
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela",
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbOnline/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam",
+      "redirect_document_id": true 
+    }    
   ] 
 }

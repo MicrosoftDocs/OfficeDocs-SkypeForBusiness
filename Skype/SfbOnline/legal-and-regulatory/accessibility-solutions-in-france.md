@@ -49,7 +49,7 @@ Pour tous ceux qui utilisent un lecteur d'écran, il est possible de naviguer da
     
 Outre cette fonctionnalité de lecteur d'écran, la taille du texte du message instantané peut être ajustée pour les personnes qui ont besoin de caractères agrandis pour lire plus facilement. La Reconnaissance Vocale Windows peut aider les personnes à mobilité réduite ayant plus de facilité à utiliser les commandes vocales que le clavier ou la souris.[Des instructions sur l'activation de la Reconnaissance Vocale sur un ordinateur sont disponibles ici](https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition).
   
-[]()Les utilisateurs peuvent également choisir de recevoir leurs messages vocaux sous forme de texte, ce qui est particulièrement bénéfique pour les malvoyants et non-voyants, dès lors qu'ils utilisent [Outlook 2010 ou des versions plus récentes](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&amp;ui=fr-FR&amp;rs=fr-FR&amp;ad=FR). 
+Les utilisateurs peuvent également choisir de recevoir leurs messages vocaux sous forme de texte, ce qui est particulièrement bénéfique pour les malvoyants et non-voyants, dès lors qu'ils utilisent [Outlook 2010 ou des versions plus récentes](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&amp;ui=fr-FR&amp;rs=fr-FR&amp;ad=FR). 
   
 Skype Entreprise supporte également le mode téléscripteur (TTY). 
   

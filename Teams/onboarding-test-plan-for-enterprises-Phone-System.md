@@ -857,7 +857,7 @@ invoice from your current service provider.
 >   differ depending on the country/region where the phone numbers are sourced
 >   from. For the latest list of currently supported countries/regions, see
 >   [Countries and region availability for Audio Conferencing and Calling
->   Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+>   Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 >   For additional information about transferring phone numbers to Phone System
 >   with Calling Plans—along with potential restrictions—see [Transfer phone
