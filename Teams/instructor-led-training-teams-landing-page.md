@@ -142,7 +142,7 @@ ms.date: 08/24/2018
                         <ul id="tab2-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Sign up for instructor-led classes to learn about Microsoft Teams.</p>
+                                    <p>Live, online training for Microsoft Teams<br>Microsoft is excited to host a series of complimentary, live, online training classes designed to quickly get you up and running with Teams. Designed for business decision makers, admins, IT Pros, and end users, you’re sure to find a class that’s right for you.<br>Join us to see Teams in action, get your questions answered, and interact with our live instructors. Click a tile to register.</p>
                                 </div>
                             </li>
                             <li>
