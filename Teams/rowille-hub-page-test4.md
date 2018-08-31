@@ -9,14 +9,14 @@ ms.topic: landing-page
 
 Our reference architectures are arranged by scenario, with related architectures grouped together. Each architecture includes recommended practices, along with considerations for scalability, availability, manageability, and security. Most also include a deployable solution.
 
-Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable Messaging](#actionable-messaging) | [Compose Extensions](#compose-extentions) | [Activity Feed](#activity-feed)
+Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable messaging](#actionable-messaging) | [Compose extensions](#compose-extensions) | [Activity Feed](#activity-feed)
 
 ## Bots
 
 <ul  class="panelContent cardsF">
 <!-- SQL Data Warehouse -->
 <li style="display: flex; flex-direction: column;">
-    <a href="./ref-arch/bot-help-desk.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+    <a href="https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/bots/bots-overview" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
             <div class="cardPadding" style="display: flex;">
                 <div class="card">
@@ -35,7 +35,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
     </a>
 </li>
 <li style="display: flex; flex-direction: column;">
-    <a href="./ref-arch/bot-take-action.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+    <a href="https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/bots/bot-conversations/bots-conversations" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
             <div class="cardPadding" style="display: flex;">
                 <div class="card">
@@ -53,34 +53,13 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
         </div>
     </a>
 </li>
-<li style="display: flex; flex-direction: column;">
-    <a href="http://www.microsoft.com" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/media/common/i_agent.svg" alt=" " />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Third card here</h3>
-                        <p>just to see.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
 </ul>
 
 ## Tabs
 
-<p>removed style attributes from the next two, so there's no more flex business.</p>
-<!-- remove style attributes -->
 <ul class="panelContent cardsC">
 <li>
-    <a href="./ref-arch/tab-action.md">
+    <a href="https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/bots/bot-conversations/bots-conversations">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -99,7 +78,7 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
     </a>
 </li>
 <li>
-    <a href="./ref-arch/tab-context.md">
+    <a href="https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-requirements">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -121,13 +100,11 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 
 ## Connectors
 
-<p>Remark here. Does the previous heading still look like markdown? The cards above finally looked good horizontally, but I wish I knew why. This time I'll remove the div class="container" from the following section, because all it seemed to do was stack the cards.</p>
-<!-- discovered that the p element has to be followed by a non-blank line. Even a comment will do. Just can't be blank -->
 <ul class="panelContent cardsC">
-<li style="display: flex; flex-direction: column;">
-    <a href="./ref-arch/connectors-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
+<li>
+    <a href="https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/connectors/connectors">
+        <div class="cardSize">
+            <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage bgdAccent1">
@@ -143,10 +120,10 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
         </div>
     </a>
 </li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./ref-arch/connectors-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
+<li>
+    <a href="https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/connectors/connectors-creating">
+        <div class="cardSize">
+            <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage bgdAccent1">
@@ -162,34 +139,15 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
         </div>
     </a>
 </li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./ref-arch/connectors-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage bgdAccent1">
-                            <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt=" " />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Maybe even have three. </h3>
-                        <p>Post rich updates to channels.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
 </ul>
 
-## Actionable Messaging
+## Actionable messaging
 
 <ul class="panelContent cardsC">
 <li style="display: flex; flex-direction: column;">
-    <a href="./ref-arch/actionable-message-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
+    <a href="https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/messaging-extensions">
+        <div class="cardSize">
+            <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
@@ -207,14 +165,14 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 </li>
 </ul>
 
-## Compose Extensions
+## Compose extensions
 
 <ul class="panelContent cardsC">
 <!-- Azure AD -->
 <li style="display: flex; flex-direction: column;">
-    <a href="./ref-arch/compose-extensions-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
+    <a href="https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/messaging-extensions">
+        <div class="cardSize">
+            <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
@@ -237,9 +195,9 @@ Jump to: [Bots](#bots) | [Tabs](#tabs) | [Connectors](#connectors) | [Actionable
 <ul  class="panelContent cardsC">
 <!-- Jenkins -->
 <li style="display: flex; flex-direction: column;">
-    <a href="./ref-arch/activity-feed-idea-1.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
+    <a href="https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/activity-feed">
+        <div class="cardSize">
+            <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">

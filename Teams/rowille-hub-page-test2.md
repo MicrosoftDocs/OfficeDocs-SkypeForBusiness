@@ -7,7 +7,7 @@ author: rmw2890
 ms.topic: hub-page
 ms.author: rowille
 ms.collection: Strat_MT_TeamsAdmin
-ms.date: 08/24/2018
+ms.date: 08/31/2018
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -29,12 +29,12 @@ ms.date: 08/24/2018
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
-                                                    <div class="cardImage"> 
+                                                    <div class="cardImage bgdAccent1"> 
                                                         <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started.svg" alt="Get started" data-linktype="external">
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/Microsoft-Teams" alt=" " data-linktype="external">What's all this about Teams?</a></h3>
+                                                    <h2><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/Microsoft-Teams" alt=" " data-linktype="external">What's all this about Teams?</a></h2>
                                                     <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/Teams-overview">Teams overview</a></p>
                                                     <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams">Quick start</a></p>
                                                 </div>
@@ -53,7 +53,7 @@ ms.date: 08/24/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Teams and channels</h3>
+                                                    <h2>Teams and channels</h2>
                                                         <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/teams-channels-overview">What are teams and channels?</a></p>
                                                         <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/assign-roles-permissions">Assign roles and permissions</a></p>
                                                         <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/best-practices-organizing">Best practices for organizing teams</a></p>
@@ -74,10 +74,10 @@ ms.date: 08/24/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Meetings</h3>
+                                                    <h2>Meetings</h2>
                                                         <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/tutorial-meetings-in-teams">Tutorial</a></p>
                                                         <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/what-are-teams-live-events">Teams live events (preview)</a></p>
-                                                        <p>I think we need a Meetings landing page</p>  
+                                                        <p>Another link </p>  
                                                 </div>
                                             </div>
                                         </div>
@@ -94,7 +94,7 @@ ms.date: 08/24/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Plan to prepare</h3>
+                                                    <h2>Plan to prepare</h2>
                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/environment-readiness">Check your environment’s readiness for Teams</a></p>
                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/prepare-network">Prepare your organization's network for Teams</a></p>
                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/office-365-urls-ip-address-ranges">Office 365 URLs and IP address ranges</a></p>
@@ -120,7 +120,7 @@ ms.date: 08/24/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Training</h3>
+                                                    <h2>Training</h2>
                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/itadmin-readiness">Admin training for Teams</a></p>
                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/enduser-training">End user training for Teams</a></p>
                                                        <p><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/audio-conferencing-videos">Videos - Audio Conferencing in Teams</a></p>
@@ -176,7 +176,7 @@ ms.date: 08/24/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Voice deployment</h3>
-                                                    <p>NOTICE THE COOL GRAPHIC! Find the practical guidance you need to get started with deploying Audio Conferencing and Phone System in Teams.</p>
+                                                    <p>Find the practical guidance you need to get started with deploying Audio Conferencing and Phone System in Teams.</p>
                                                 </div>
                                             </div>
                                         </div>
