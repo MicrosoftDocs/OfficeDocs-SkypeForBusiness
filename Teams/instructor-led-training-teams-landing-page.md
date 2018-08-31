@@ -184,91 +184,91 @@ ms.date: 08/24/2018
                                 </a>
                             </li>
                             <li>
-                                <li>
-                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
-                                                    </div>
+                            <li>
+                            <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
                                                 </div>
-                                                <div class="cardText">
-                                                    <h3>Getting started with Teams for Education</h3>
-                                                    <p>Teams is a rock star for Education. Get the training you need to use Teams in an Education setting.</p>
-                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Getting started with Teams for Education</h3>
+                                                <p>Teams is a rock star for Education. Get the training you need to use Teams in an Education setting.</p>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
-                            </li>
+                                </div>
+                            </a>
+                        </li>
                             <li>
-                                <li>
-                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
-                                                    </div>
+                            <li>
+                            <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
                                                 </div>
-                                                <div class="cardText">
-                                                    <h3>Managing your upgrade from Skype for Business to Teams</h3>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Managing your upgrade from Skype for Business to Teams</h3>
                                                     <p>*COMING IN OCTOBER 2018*: Gain insights into planning and implementing a successful upgrade from Skype for Business to Teams.</p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
-                            </li>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
                             <li>
-                                <li>
-                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
-                                                    </div>
+                            <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
                                                 </div>
-                                                <div class="cardText">
-                                                    <h3>Transitioning from Skype for Business to Teams for end users</h3>
-                                                    <p>*COMING IN OCTOBER 2018*: This course covers what you need to quickly start chatting, meeting, and calling in Teams.</p>
-                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Transitioning from Skype for Business to Teams for end users</h3>
+                                                <p>*COMING IN OCTOBER 2018*: This course covers what you need to quickly start chatting, meeting, and calling in Teams.</p>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/security-compliance-overview">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Security-Compliance-400x140.svg" alt="  ">
-                                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/security-compliance-overview">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Security-Compliance-400x140.svg" alt="  ">
                                                 </div>
-                                                <div class="cardText">
-                                                    <h3>Karuana?</h3>
-                                                    <p>Anything before Ignite?</p>
-                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Karuana?</h3>
+                                                <p>Anything before Ignite?</p>
                                             </div>
                                         </div>
                                     </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
 <li>
-                </ul>
-            </li>
-        </ul>
+            </ul>
+        </li>
+    </ul>
     </div>
 </div>
