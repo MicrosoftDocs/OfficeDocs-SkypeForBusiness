@@ -142,7 +142,7 @@ ms.date: 08/24/2018
                         <ul id="tab2-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Live, online training for Microsoft Teams<br>Microsoft is excited to host a series of complimentary, live, online training classes designed to quickly get you up and running with Teams. Designed for business decision makers, admins, IT Pros, and end users, you’re sure to find a class that’s right for you.<br>Join us to see Teams in action, get your questions answered, and interact with our live instructors. Click a tile to register.</p>
+                                    <p>Microsoft is excited to host a series of free, live, online training classes designed to quickly get you up and running with Teams. If you're a business decision makers, admins, IT Pros, and end users, you'll find a class that’s right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors.<br><br> Click a tile to register.</p>
                                 </div>
                             </li>
                             <li>
