@@ -46,9 +46,9 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 **Supported consoles**
 |Console|Processor|RAM|Disk|
 |:-----|:-----|:-----|:-----|
-|[Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
+|[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
 |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  |  
-    
+
 - One of the following docking station options to secure a tablet to the meeting room table. 
     
   - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
