@@ -203,7 +203,6 @@ ms.date: 08/24/2018
                             </a>
                         </li>
                             <li>
-                            <li>
                             <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
                                 <div class="cardSize">
                                     <div class="cardPadding">
@@ -223,7 +222,6 @@ ms.date: 08/24/2018
                             </a>
                         </li>
                         <li>
-                            <li>
                             <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
                                 <div class="cardSize">
                                     <div class="cardPadding">
