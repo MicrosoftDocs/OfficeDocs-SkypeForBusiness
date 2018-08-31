@@ -69,4 +69,4 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
   
 ## Related topics
 
-[Audio Conferencing common questions](audio-conferencing-common-questions.md)
+[Audio Conferencing common questions](/MicrosoftTeams/audio-conferencing-common-questions)
