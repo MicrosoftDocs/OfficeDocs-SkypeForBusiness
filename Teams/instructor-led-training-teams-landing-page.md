@@ -216,7 +216,7 @@ ms.date: 08/24/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Managing your upgrade from Skype for Business to Teams</h3>
-                                                    <p>COMING IN OCTOBER: Gain insights into planning and implementing a successful upgrade from Skype for Business to Teams.</p>
+                                                    <p>*COMING IN OCTOBER 2018*: Gain insights into planning and implementing a successful upgrade from Skype for Business to Teams.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -236,7 +236,7 @@ ms.date: 08/24/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Transitioning from Skype for Business to Teams for end users</h3>
-                                                    <p>COMING IN OCTOBER: This course covers what you need to quickly start chatting, meeting, and calling in Teams.</p>
+                                                    <p>*COMING IN OCTOBER 2018*: This course covers what you need to quickly start chatting, meeting, and calling in Teams.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -266,110 +266,7 @@ ms.date: 08/24/2018
                     </li>
                 </ul>
             </li>
-             <li>
-                <a href="#tab3">Administration</a>
-                <ul id="tab3">
-                    <li>
-                        <a href="#tab3-all"></a>
-                        <ul id="tab3-all" class="cardsC">
-                            <li class="fullSpan">
-                                <div class="container intro">
-                                    <p>Not sure whether to use cards here or lists, similar to the Getting started tab. I'm inclined toward the latter since we've got no landing pages.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="https://www.microsoft.com/" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us//media/illustrations/bcs-partner-advanced-management-settings-8.svg" alt=" ">
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Got no "Manage" landing page</h3>
-                                                    <p>But, we could link to the QER Guide here.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.microsoft.com/" target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>It seems that this should be a list of things</h3>
-                                                    <p>...rather than just a card that links to a specific spot in the TOC.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#tab4">Adopt Teams</a>
-                <ul id="tab4">
-                    <li>
-                        <a href="#tab4-all"></a>
-                        <ul id="tab4-all" class="cardsC">
-                            <li class="fullSpan">
-                            </li>
-                            <li>
-                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-Journey-400x140.svg" alt=" " />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Journey from Skype for Business to Teams</h3>
-                                                    <p>Find guidance and tools to explore your optimal path to Teams.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/change-management-strategy" datalink-type="absolute-path">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com//en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="  " />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Adoption and change management strategy</h3>
-                                                    <p>Get tools to support your Teams rollout and help you create your change management strategy for Teams.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
- <li>
+<li>
                 </ul>
             </li>
         </ul>
