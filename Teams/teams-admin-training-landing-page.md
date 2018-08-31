@@ -18,7 +18,7 @@ Learn how to manage Teams for your organization.
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="teams-admin-training-landing-page.md">
+        <a href="instructor-led-training-teams-landing-page.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
