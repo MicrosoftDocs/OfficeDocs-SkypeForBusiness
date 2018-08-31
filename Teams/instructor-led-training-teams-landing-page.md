@@ -14,14 +14,14 @@ ms.date: 08/24/2018
         <h1>Instructor-led training for Microsoft Teams</h1>
         <ul class="pivots">
             <li>
-                <a href="#tab1">Getting started</a>
+                <a href="#tab1">ILT - future layout</a>
                 <ul id="tab1">
                     <li>
                         <a href="#tab1-all"></a>
                         <ul id="tab1-all" class="cardsF">     
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p><i>Notice the different look of this tab compared to the others: groups of individual links rather than "container" cards that are one giant hyperlink to one place.</i></p><br><p>&nbsp;</p>
+                                    <p><i>This format will be better than the tile-grid layout for a large number of courses. Consider using this format as the ILT offerings mature.</i></p><br><p>&nbsp;</p>
                                 </div>
                             </li>
                             <li>
