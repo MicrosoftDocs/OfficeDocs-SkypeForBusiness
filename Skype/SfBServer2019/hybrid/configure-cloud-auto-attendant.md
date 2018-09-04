@@ -16,7 +16,7 @@ description: "Instructions for implementing a Cloud Auto Attendant."
 
 # Configure Cloud Auto Attendant
 
-In Skype for Business Server 2019 you are able to use the cloud auto attendant feature described in [What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+In Skype for Business Server 2019 you are able to use the cloud auto attendant feature described in [What are Phone System auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants)
 
 To use Cloud Auto Attendant with Skype for Business Server 2019, you will need to create  virtual on-prem users that contain disabled user objects (DUOs) and assigned phone numbers, then use the online Admin Center to configure the Cloud AA experience.
 
