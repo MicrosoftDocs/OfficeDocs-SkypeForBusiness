@@ -3,7 +3,7 @@ title: Quality of Experience Review Guide for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 08/24/2018
+ms.date: 09/03/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -264,6 +264,15 @@ CQD, although useful for analyzing trends and subnets, doesn’t always provide 
 -   CQD won’t contain Phone System or Audio Conferencing streams.
 -   CQD will call out areas for further investigation based on trends.
 -   CQD doesn’t contain any PII.
+
+### Report editions
+
+Got some new text here
+
+![Drop-down menu with Summary Reports selected](media/qerguide-image-reportcategories.png)
+
+_Figure 4 - CQD report categories_
+
 
 ### Tenant ID
 
