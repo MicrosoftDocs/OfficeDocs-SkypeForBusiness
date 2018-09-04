@@ -105,25 +105,20 @@
 <!-- ============================================================ -->
 # Manage
 ## [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-## Call analytics
+## Monitor call quality and QoS
+### [QoS in Teams](QoS-in-Teams.md)
+### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Set up Call Analytics](set-up-call-analytics.md)
 ### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-
+### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 ## Troubleshoot & support
 ### [Known issues for Teams](Known-issues.md)
 ### [Support resources for Teams](support-resources.md)
 ### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ### [Use log files in troubleshooting Teams](log-files.md)
 ### [Verify service health for Teams](service-health.md)
-## Monitor call quality and QOS
-### [QoS in Teams](QoS-in-Teams.md)
-### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Set up Skype for Business Call Analytics](set-up-call-analytics.md)
-### [Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+
 <!-- ============================================================ -->
 
 
