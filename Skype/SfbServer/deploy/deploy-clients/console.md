@@ -1,4 +1,4 @@
----
+﻿---
 title: "Configure a Skype Room Systems v2 console"
 ms.author: jambirk
 author: Travis-Snoozy
@@ -19,7 +19,7 @@ This article describes how to set up the Skype Room Systems v2 console device an
   
 You should only perform these steps if the necessary Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Skype Room Systems v2](room-systems-v2.md). You will need the hardware and software described in [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md). This topic contains the following sections:
   
-- [Prepare the installation image](console.md#Prep_Image)
+- [Prepare the installation media](console.md#Prep_Media)
     
 - [Install a private CA certificate on the tablet device](console.md#Certs)
     
@@ -32,13 +32,13 @@ You should only perform these steps if the necessary Skype for Business and Exch
 > [!NOTE]
 > Skype Room Systems v2 will only work in a properly configured Skype for Business environment where the device accounts are set up correctly as described in [Deploy Skype Room Systems v2](room-systems-v2.md). 
   
-## Prepare the installation image
-<a name="Prep_Image"> </a>
+## Prepare the installation media
+<a name="Prep_Media"> </a>
 
 Installing the Skype Room Systems v2 app on a Surface Pro 4 or Surface Pro requires a USB storage device with at least 32GB of memory formatted as a FAT32 disk. There should be no other files on the device, any existing files on the USB storage will be lost. 
   
 > [!NOTE]
-> Failure to create your console image according to these instructions will likely result in unexpected behavior. Windows 10 Enterprise Anniversary Update (Version 1607) is no longer supported for Skype Room Systems v2 image creation. 
+> Failure to create your Skype Room Systems v2 installation media according to these instructions will likely result in unexpected behavior. Windows 10 Enterprise Anniversary Update (Version 1607) is no longer supported for Skype Room Systems v2 installation media creation.
   
 > [!NOTE]
 > An existing Skype Room Systems v2 with Windows 10 Enterprise Anniversary Update moving to Skype Room Systems v2 update 3 by way of the Windows Store will work, but a new installation should be done as described below. 
@@ -53,21 +53,27 @@ Follow the script's instructions to create a Skype Room Systems v2 USB setup dis
 ## Install Windows 10 and the Skype Room Systems v2 console app
 <a name="Reimage"> </a>
 
-You now need to apply the image you've created. The tablet will run as an appliance and the default user will be set to only run the Skype Room Systems v2 app. 
-  
-1. The tablet should be connected to a power source. Start from a completely powered-off state. If necessary, press and keep pressing the Power button until the tablet switches off.
+You now need to apply the setup media you've created. The tablet will run as an appliance and the default user will be set to only run the Skype Room Systems v2 app.
+
+1. If the target device will be installed in a dock (e.g., a Surface Pro), disconnect it from the dock.
+
+2. Ensure the target device is not connected to the network.
+
+3. Ensure the target device is connected to AC power.
+
+4. Plug your USB setup disk into the tablet.
+
+5. Boot to the USB setup disk. Refer to the manufacturer instructions. If your target device is a Surface Pro, use the following steps to boot to the USB setup disk:
+
+    1. Press and continue to hold the volume down (-) button on the tablet.
+
+    2. Press and release the power button on the tablet.
+
+    3. Once Windows setup is booted, release the volume down (-) button.
+
+8. The system will shut down once installation is complete.
     
-2. Plug your USB Setup disk into the tablet.
-    
-3. Press and continue to hold the volume down (-) button on the tablet. 
-    
-4. Press and release the power button on the tablet.
-    
-5. Once Windows setup is booted, release the volume down (-) button.
-    
-6. The system will shut down once installation is complete.
-    
-After the system has shut down, it is safe to remove the USB Setup Disk. At this point, you can place the tablet in the dock and attach the peripherals needed for your meeting room. Refer to the manufacturer instructions.
+After the system has shut down, it is safe to remove the USB setup disk. At this point, you can place the tablet in the dock (if using a dock-based device) attach the peripherals needed for your meeting room, and connect to the network. Refer to the manufacturer instructions.
   
  
 ### Selecting a language in Creator's Update
@@ -75,7 +81,7 @@ After the system has shut down, it is safe to remove the USB Setup Disk. At this
 In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 script in scenarios where implicit language selection does not provide the user with the actual application language they want (e.g., they want the app to come up in French, but it's coming up in English).
   
 > [!NOTE]
-> The following instructions work only for devices created using Windows Creator's Update. Legacy/in-market systems that have not been re-imaged properly to the new provisioning system will not be able to use these instructions, but should also not suffer from the initial issue that requires this manual intervention (Anniversary Edition let you pick your app language explicitly as part of setup). 
+> The following instructions work only for devices created using Windows Creator's Update. Legacy/in-market systems that have not been set up using media with the new provisioning system will not be able to use these instructions, but should also not suffer from the initial issue that requires this manual intervention (Anniversary Edition let you pick your app language explicitly as part of setup).
   
 ### To apply your desired language
 
