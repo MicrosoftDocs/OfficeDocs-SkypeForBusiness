@@ -290,7 +290,7 @@ The summary reports are divided into four categories:
 You can choose from two types of reports in CQD, depending on how you want to view your data. Although this guide doesn’t cover the specifics of creating one type of report over another, the QER CQD templates provide a mix of customizable chart and table reports for you to use:
 
 -   Chart reports create graphical bar charts to represent data in a visual format. Chart reports are best used to visualize data over a given time period.
--   Table reports are useful for looking at individual measurements and dimensions, giving you the ability to export the reports to CSV files for manipulation in Microsoft Excel.
+-   Table reports are useful for looking at individual measurements and dimensions when you export the reports to CSV files for manipulation in Microsoft Excel.
 
 ### Tenant ID
 
