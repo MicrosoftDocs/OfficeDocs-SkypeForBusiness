@@ -100,8 +100,6 @@ Supported mobile platforms for Microsoft Teams mobile apps are the following:
 
 -   **iOS**: 10.0 or later
 
--   **Windows Phone**: Windows 10 Mobile
-
 > [!NOTE]
 > The mobile version must be available to the public in order for Teams to work as expected.
 

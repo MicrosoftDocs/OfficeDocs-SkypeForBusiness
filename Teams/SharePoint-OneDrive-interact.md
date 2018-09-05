@@ -37,6 +37,12 @@ For every team, a SharePoint site is created, and the **Shared Documents** folde
 > [!NOTE]
 > It's not currently possible to replace the default SharePoint site and document library with another one. We've heard from you that you want it, and we're considering it. Check the [Teams Roadmap](https://aka.ms/teamsroadmap) or [Teams UserVoice](https://aka.ms/TeamsUserVoice) to stay on top of upcoming features.
 
+> [!TIP]
+> To add a tab to your team that links to an existing SharePoint site or to your existing SharePoint document library:
+> 1. Select the  plus sign next to the tabs.
+> 2. Select **Website**.
+> 3. Type a name and enter the URL of your SharePoint site or document library.
+
 For every user, the OneDrive folder **Microsoft Teams Chat Files** is used to store all files shared within private chats with other users (1:1 or 1:many), with permissions configured automatically to restrict access to the intended user only.
 
 ![Diagram of the OneDrive folder named Microsoft Teams Chat Files for each user's chats.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)

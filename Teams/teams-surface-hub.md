@@ -3,7 +3,7 @@ title: Deploy Microsoft Teams for Surface Hub
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/23/2018
+ms.date: 08/29/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -136,9 +136,6 @@ After you've completed the preceding steps to enable your Teams for Surface Hub 
 
 ## Install Teams for Surface Hub from the Microsoft Store 
 
-> [!NOTE]
-> To use Microsoft Teams for Surface Hub (Preview), your device must be enrolled in the Windows Insider Program. To leave the Insider Program, you must reset the Surface Hub using Cloud Recovery.<br> To become a Windows Insider Program member, the Surface Hub must be set to Full Telemetry prior to joining the Windows Insider Program. Due to GDPR regulations, the default settings of Windows Telemetry recently changed from Full to Basic in EU countries. You should verify your settings prior to joining the Windows Insider Program. Attempting to join the Windows Insider Program when set to Basic telemetry might require a reset of the Surface Hub. To validate the Windows Telemetry settings on a Surface Hub, choose **Settings** > **Privacy** > **Feedback and Diagnostics**, and set to **Full**.
-
 These instructions are for installing Teams for Surface Hub from the Microsoft Store. 
  
 1. Start the Microsoft Store:<br>
@@ -157,7 +154,7 @@ These instructions are for installing Teams for Surface Hub from the Microsoft S
 There are two options for configuring the default calling and meetings application policy: 
 
 - **Option 1**: Configure via USB key. 
-- **Option 2**: Configure via MDM such as InTune.
+- **Option 2**: Configure via MDM such as Intune.
  
 ### Option 1: Configure via USB key 
  
@@ -180,9 +177,11 @@ The packages can be found on this [download page](https://1drv.ms/f/s!ArcnbnREun
 9. Restart the Surface Hub device. 
 10. After the device restarts, you should be able to start the Teams app from the Start screen and join a meeting from the calendar. 
 
-### Option 2: Configure via MDM such as InTune 
+### Option 2: Configure via MDM such as Intune 
 
-Use the following to configure the default calling and meetings application policy via InTune.
+Use the following to configure the default calling and meetings application policy via Intune.
+
+.
 
 |Setting   |Value    |Description    |
 |----------|---------|---------|
@@ -198,5 +197,3 @@ Use the following to configure the default calling and meetings application poli
 
 Restart the Surface Hub device. After the device restarts, you should be able to start the Teams app from the Start screen and join a meeting from the calendar.
 
-> [!NOTE]
-> If your device or your organization's devices are not currently part of the Windows Insider Program and you are in countries covered by General Data Protection Regulation (GDPR) (or you have manually changed your telemetry settings to Basic), then you must re-check that you have permitted full telemetry before you join the Insider Program. GDPR changed the default behavior of Surface Hub devices in the EU to set telemetry to Basic.

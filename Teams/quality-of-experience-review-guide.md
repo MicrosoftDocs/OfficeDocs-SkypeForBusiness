@@ -3,7 +3,7 @@ title: Quality of Experience Review Guide for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 08/24/2018
+ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -84,7 +84,7 @@ Service metrics consist of specific client-based metrics. During each call, the 
 
 The poor stream rate (PSR) represents the organization’s overall percentage of streams that have poor quality. This metric is meant to highlight areas where your organization can concentrate effort to have the strongest impact toward reducing this value and improving the user experience, which is why [managed networks](#managed-vs-unmanaged-networks) are the primary focus when looking at PSR. External users are important too, but investigation differs on an organizational basis. Consider providing best practices for external users, and investigate external calls independently from the overall organization.
 
-The actual measurement in CQD varies by workload, but for the purposes of the Quality Experience Review we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the five network metric averages described in the following table. For a stream to be classified as poor, only one metric needs to exceed the defined threshold. For more information about the stream classification process, see [this article](/SkypeForBusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+The actual measurement in CQD varies by workload, but for the purposes of the Quality Experience Review we focus primarily on the _Audio Poor Percentage_ measurement. PSR is made up of the five network metric averages described in the following table. For a stream to be classified as poor, only one metric needs to exceed the defined threshold. For more information about the stream classification process, see [this article](stream-classification-in-call-quality-dashboard.md).
 
 > [!Note]
 > CQD provides the “Poor Due To…” measurements to better understand what condition caused the stream to be classified as poor.
@@ -265,6 +265,33 @@ CQD, although useful for analyzing trends and subnets, doesn’t always provide 
 -   CQD will call out areas for further investigation based on trends.
 -   CQD doesn’t contain any PII.
 
+### Report editions
+
+There are two report editions in CQD Online: Summary and Detailed. Use the drop-down menu located in the blue bar at the top of the screen to open a report edition. The name of the selected report edition is displayed at the top of the screen.
+
+-   Summary reports are static and can’t be edited, downloaded, or exported. 
+-   Detailed reports are fully customizable and can be downloaded to a CSV file, exported, or cloned.
+
+For a full description of the difference between the two editions, see [this article](turning-on-and-using-call-quality-dashboard.md).
+
+![Drop-down menu with Summary Reports selected](media/qerguide-image-reportcategories.png)
+
+_Figure 4 - CQD report categories_
+
+The summary reports are divided into four categories:
+
+-   **Summary Reports** focus on analyzing quality trends with daily, monthly, and table reports to assist with identifying subnets that have poor quality. This is the default landing page when you first sign in to CQD Online.
+-   **Location-Enhanced Reports** focus on analyzing quality trends based on location information. To use these reports, you must have uploaded a building file.
+-   **Reliability Reports** focus on analyzing reliability trends for audio, video, video-based screen sharing (VBSS), and app sharing.
+-   **Quality of Experience Reports** are a “slimmed-down” version of the detailed QER templates, focusing on key areas for analyzing audio quality and reliability.
+
+### Report types
+
+You can choose from two types of reports in CQD, depending on how you want to view your data. Although this guide doesn’t cover the specifics of creating one type of report over another, the QER CQD templates provide a mix of customizable chart and table reports for you to use:
+
+-   Chart reports create graphical bar charts to represent data in a visual format. Chart reports are best used to visualize data over a given time period.
+-   Table reports are useful for looking at individual measurements and dimensions when you export the reports to CSV files for manipulation in Microsoft Excel.
+
 ### Tenant ID
 
 Some CQD reports require that you include a filter for your tenant ID. Due to the way CQD aggregates data, federated participant telemetry is included. Although this can prove valuable when analyzing trends, client and device reports require that you filter data to a specific tenant to exclude federated participant telemetry. If you don’t know your tenant ID, you can use one of the following methods to find it.
@@ -324,7 +351,7 @@ To modify the summary reports page to look at only Teams or Skype for Business, 
 
 ![Drop-down menu showing the option to filter CQD reports by workload](media/qerguide-image-productfilter.png)
 
-_Figure 4 - Select a Product Filter_
+_Figure 5 - Select a Product Filter_
 
 #### Detailed reports
 
@@ -344,7 +371,7 @@ To filter an individual detailed report, add the filter ``Is Teams`` to the repo
 
 ![Add a filter to a detailed report.](media/qerguide-image-addteamsfilter.png)
 
-_Figure 5 - Adding a Microsoft Teams filter to a report_
+_Figure 6 - Adding a Microsoft Teams filter to a report_
 
 
 ### Managed vs. unmanaged networks
@@ -364,7 +391,7 @@ A well-formed CQD query contains all three of the following parameters:
 
 -   **Filter:** How I want to reduce the dataset the query returns.
 
-Another way to look at this is: a _dimension_ is the grouping function, a _measure_ is the data I’m interested in, and a _filter_ is how I want to narrow down the results to those that are relevant to my query.
+Another way to look at this is that a _dimension_ is the grouping function, a _measure_ is the data I’m interested in, and a _filter_ is how I want to narrow down the results to those that are relevant to my query.
 
 An example of a well-formed query is **Show me Poor Streams [Measure] by Subnet [Dimension] for Building 6 [Filter]**. For more information, see [Dimensions and measures available in CQD](https://aka.ms/cqd-dm).
 
@@ -398,7 +425,7 @@ A call is categorized either as good, poor, or unclassified. Let’s take a mome
 
 -   **Unclassified:** An unclassified stream doesn’t contain a full set of service metrics. These can be short calls—usually less than 60 seconds—where averages couldn’t be computed and a QoE report wasn’t generated. The most common reason for calls to be unclassified is that there was little to no packet utilization. An example of this would be a participant who joins a meeting on mute and never speaks. The participant is receiving, but not transmitting, media. Without media being transmitted, there won’t be any metrics available for CQD to use to classify the endpoint’s outbound media stream.
 
-For more information about the stream classification process, see [this article](/SkypeForBusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+For more information about the stream classification process, see [this article](stream-classification-in-call-quality-dashboard.md).
 
 ### Common subnets
 
@@ -435,13 +462,13 @@ You can access CQD one of three ways:
 
 ![In the left nav pane, the link to Call quality dashboard is selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
 
-_Figure 6 – Accessing CQD through the Microsoft Teams & Skype for Business Admin Center_
+_Figure 7 – Accessing CQD through the Microsoft Teams & Skype for Business Admin Center_
 
 -   Go to the legacy **Skype for Business admin center** > **tools**, and select the link to CQD, as shown in the following illustration.
 
 ![Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.](media/qerguide-image-legacyui.png "Tools is selected in the left nav pane, and the link to CQD is selected in the main pane.")
 
-_Figure 7 - Accessing CQD through the Skype for Business admin center_
+_Figure 8 - Accessing CQD through the Skype for Business admin center_
 
 
 ### Getting started
@@ -450,7 +477,7 @@ When you first browse to CQD, you’ll see the Summary Reports page. Most of the
 
 ![Different types of reports that are available in CQD](media/qerguide-image-choosereports.png)
 
-_Figure 8 - Navigating to Detailed Reports_
+_Figure 9 - Navigating to Detailed Reports_
 
 The Detailed Reports page in CQD looks like the following illustration.
 
@@ -463,7 +490,7 @@ The Detailed Reports page in CQD looks like the following illustration.
 | ![three](media/qerguide-image-callout3.png "three") | The breadcrumb helps users identify their current location in the report set hierarchy. |
 | ![four](media/qerguide-image-callout4.png "four") | Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports. |
 
-_Figure 9 - Detailed Reports page_
+_Figure 10 - Detailed Reports page_
 
 Point to bar charts and trend lines in the report to display detailed values. The report that has focus will show the action menu: **Edit**, **Clone**, **Delete**, **Download**, and **Export Report Tree**.
 
@@ -480,7 +507,7 @@ When you select **Edit** on the action menu of a report, you’ll open Query Edi
 | ![three](media/qerguide-image-callout3.png "three") | The Query Editor shows a preview of the report. |
 | ![four](media/qerguide-image-callout4.png "four") | Use the **Edit** box at the bottom of the screen to create or edit a detailed description of the report. |
 
-_Figure 10 - Query Editor_
+_Figure 11 - Query Editor_
 
 ### Filtering reports
 
@@ -649,13 +676,13 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
   ![CQD report that defines how to create a VPN subnet](media/qerguide-image-vpnnetworkname.png)
 
-  _Figure 11 - VPN using network name_
+  _Figure 12 - VPN using network name_
 
 -   Define a **Building Name** by using the text “VPN” in this field for VPN subnets.
 
   ![CQD report that defines how to create a building definition that comprises a VPN subnet.](media/qerguide-image-vpnbuildingname.png)
 
-  _Figure 12 - VPN using building name_
+  _Figure 13 - VPN using building name_
 
 > [!IMPORTANT]
 > Certain VPN implementations don’t accurately report subnet information. If this occurs in your reporting, we recommend that when you add a VPN subnet to the building file, instead of one entry for the subnet, add separate entries for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you have 253 rows, with one row for each address from 172.16.18.1/32 through 172.16.18.254/32, inclusive.
@@ -674,13 +701,13 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
   ![Dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
 
-  _Figure 13 - Tenant Data Upload menu_
+  _Figure 14 - Tenant Data Upload menu_
 
 3.  Alternatively, if this is your first time visiting CQD, you’ll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
 
   ![Banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
 
-  _Figure 14 - Building data upload banner_
+  _Figure 15 - Building data upload banner_
 
 4.  On the **Tenant Data Upload** page, select **Browse** to choose a data file.
 
@@ -690,7 +717,7 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
 
   ![Example of a dialog box that displays an error message when importing building data](media/qerguide-image-buildingdatauploaderror.png)
  
-  _Figure 15 - Building data upload error_
+  _Figure 16 - Building data upload error_
 
 7.  If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
 
@@ -737,7 +764,7 @@ Browse to the **Detailed Reports** page in CQD Online and navigate to the **Miss
 
 ![Report showing subnets not included in the CQD Building Data File that show usage.](media/qerguide-image-missingbuildingreport.png)
 
-_Figure 16 - Missing Building Report_
+_Figure 17 - Missing Building Report_
 
 ### Building mapping tools
 
@@ -762,6 +789,36 @@ Although the Network Planner doesn’t automate the building mapping process ent
 
 We highly recommend that you leverage the Network Planner when deploying media workloads on your network to assess the overall impact. For more information about the Network Planner, visit [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
 
+
+## Diagnostic alerts
+
+Microsoft proactively monitors CQD telemetry to create diagnostic alerts for known issues that negatively affect the user experience. These alerts are then automatically delivered to the service administrator via the message center. The following table outlines the diagnostic alerts that are shown in the message center, along with links to more information.
+
+_Table 6 - Diagnostic alerts_
+
+| Alert                                                                | More information             |
+|----------------------------------------------------------------------|------------------------------|
+| Known poorly performing client versions are in use                   | [Client versions](#client-versions)              |
+| Audio drivers are causing call drops                                 | [Devices](#devices)                      |
+| Restrictions in the firewall are causing call setup failures         | [Setup failure investigations](#setup-failure-investigations) |
+| Deep packet inspection is causing call setup failures                | [Setup failure investigations](#setup-failure-investigations) |
+| Meeting room devices on Wi-Fi networks are causing poor call quality | [Quality investigations](#quality-investigations)       |
+| UDP traffic is being limited, which causes poor call quality         | [TCP](#tcp)                          |
+| VPN usage is affecting call quality                                  | [Quality investigations](#quality-investigations)       |
+
+
+### Message center
+
+The message center alerts you about new updates, features, or issues. The message center is available within the Office 365 admin center to service administrators. Each post provides a high-level overview of how the update, feature, or issue affects your users, and gives links to more detailed information.
+
+To open the message center, in the Office 365 admin center, go to **Health** > **Message center**, or select the message center card on the **Home** dashboard. The dashboard displays the last three messages that were posted and links to the full message center page.
+ 
+
+![The message center card displays the last three messages that were posted](media/qerguide-image-messagecentercard.png)
+
+_Figure 18 - Message center card_
+
+You can also use the [Office 365 Admin app](https://go.microsoft.com/fwlink/p/?linkid=627216) on your mobile device to view the message center, which is a great way to stay current with push notifications. For more information, see [this article](https://support.office.com/article/Message-center-in-Office-365-38FB3333-BFCC-4340-A37B-DEDA509C2093).
 
 ## Reliability investigations
 
@@ -789,7 +846,7 @@ This report displays the total amount of streams, stream setup failures, and the
 
 ![Chart that shows percentage of stream setup failures](media/qerguide-image-streamsetupfailures.png)
 
-_Figure 16 - Audio Reliability - Stream Setup Failures_
+_Figure 19 - Audio Reliability - Stream Setup Failures_
 
 ##### Analysis
 
@@ -815,13 +872,17 @@ This summary report is used to discover and isolate any buildings or networks th
 
 ![A list of reasons for call setup failures, organized by building, network, and subnet per month](media/qerguide-image-setupfailuresbysubnet.png)
 
-_Figure 18 - Audio Setup Failures by Subnet_
+_Figure 20 - Audio Setup Failures by Subnet_
+
+##### Diagnostic alert
+
+If you received a diagnostic alert “Restrictions in the firewall are causing call setup failures” or “Deep packet inspection is causing call setup failures,” focus your remediation efforts on those identified subnets first. The alert has identified subnets that are negatively affecting call reliability. You can use the Setup Failures reports found in the Reliability section to assist with the remediation.
 
 ##### Remediation 
 
 Focus your first remediation efforts on buildings or subnets that have the largest volume of failures. This will maximize impact on the user experience and help to quickly reduce the rate of organizational call setup failures. The following table lists the two reasons for setup failures as reported by CQD.
 
-_Table 6 – Reasons for Call Setup Failures_
+_Table 7 – Reasons for Call Setup Failures_
 
 | Call Setup Failures reason       | Typical cause                    |
 |----------------------------------|----------------------------------|
@@ -830,7 +891,7 @@ _Table 6 – Reasons for Call Setup Failures_
 
 Now as you begin your remediation, you can focus your efforts on a particular building or subnet. As the preceding table shows, these issues are due to firewall or proxy configurations. Review the options in the following table for remediation actions.
 
-_Table 7 - Next Steps for Call Setup Failure Remediation_
+_Table 8 - Next Steps for Call Setup Failure Remediation_
 
 | Remediation           | Guidance     |
 |-----------------------|--------------|
@@ -848,7 +909,7 @@ This report displays the total amount of audio streams, total drop failures, and
 
 ![Chart showing the percentage of streams that were dropped](media/qerguide-image-droppedstreamrate.png)
 
-_Figure 19 - Dropped stream rate_
+_Figure 21 - Dropped stream rate_
 
 ##### Analysis
 
@@ -871,7 +932,7 @@ Failures reported here indicate that the call was dropped unexpectedly and resul
 
 ![Report that lists number and percentage of drop failures, organized by building, network, and subnet per month](media/qerguide-image-dropfailuresbysubnet.png)
 
-_Figure 20 – Drop failures by subnet_
+_Figure 22 – Drop failures by subnet_
 
 ##### Remediation
 
@@ -890,7 +951,7 @@ Regardless of your next step, it’s a good practice to notify the helpdesk that
 
 The following table lists some common methods to manage and remediate drop failures.
 
-_Table 8 - Next steps for call drop remediation_
+_Table 9 - Next steps for call drop remediation_
 
 | Remediation                              | Guidance                      |
 |------------------------------------------|-------------------------------|
@@ -924,7 +985,7 @@ Trending reports display quality information over time and are used to help iden
 
 ![Chart showing the percentage of poor quality streams](media/qerguide-image-audioqualityconferencing.png)
 
-_Figure 21 – Audio Quality - Conferencing_
+_Figure 23 – Audio Quality - Conferencing_
 
 ##### Investigation
 
@@ -941,7 +1002,7 @@ Irrespective of the answers to the questions above, take the time to investigate
 
 The quality summary reports give you deeper insight into what contributed to the streams’ being classified as poor and helps to isolate problem areas in the managed network.
 
-Although the dimensions used might differ slightly between report, each report will include measures for total streams, total poor streams, PSR, and poor quality due to. Table reports have been created for each area of interest: conferencing, two-party, PSTN calling, VPN, and meeting rooms. The Managed Network template includes additional reports to take advantage of the location information uploaded via the building file.
+Although the dimensions used might differ slightly between report, each report will include measures for total streams, total poor streams, PSR, and poor quality due to. Reports have been created for each area of interest: conferencing, two-party, PSTN calling, VPN, and meeting rooms. The Managed Network template includes additional reports to take advantage of the location information uploaded via the building file.
 
 > [!NOTE]
 > Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
@@ -952,7 +1013,13 @@ Although the dimensions used might differ slightly between report, each report w
 
 ![Poor audio stream summary](media/qerguide-image-poorqualitysummary.png)
 
-_Figure 22 – Poor Audio Stream Summary by Building and Subnet - Conferencing_
+_Figure 24 – Poor Audio Stream Summary by Building and Subnet - Conferencing_
+
+##### Diagnostic alert
+
+If you received a diagnostic alert “Meeting room devices on Wi-Fi networks are causing poor call quality,” include and prioritize those devices in your remediation efforts. The alert has identified meeting rooms on Wi-Fi that are actively contributing to poor call quality.
+
+If you receive a diagnostic alert “VPN usage is affecting call quality,” investigate a split-tunneling solution to bypass the VPN appliance and allow media to directly connect to the service. The alert has identified that VPN is negatively affecting call quality.
 
 ##### Remediation
 
@@ -966,7 +1033,7 @@ To assist your investigation into quality issues, you can leverage [Call Analyti
 
 Don’t forget to let the helpdesk know that these networks are experiencing quality issues, so they can quickly triage and respond to incoming calls.
 
-_Table 9 - Common contributors to high PSR_
+_Table 10 - Common contributors to high PSR_
 
 | Remediation                              | Guidance                         |
 |------------------------------------------|----------------------------------|
@@ -978,12 +1045,14 @@ _Table 9 - Common contributors to high PSR_
 | **Clients** <br>(Skype for Business Online only) | Older clients have been known to cause issues with media. Ensure that clients are being patched within six months of release. Use [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a client readiness strategy and deploy [Click-to-Run](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus). |
 | **Devices** | The use of [optimized devices](https://partnersolutions.skypeforbusiness.com/solutionscatalog) can help to significantly improve the user experience. With all things being equal, optimized devices are designed to maximize the user experience with Teams and Skype for Business, and produce superior quality. Use [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a device readiness strategy. |
 | **Drivers** | Patching network (Ethernet and Wi-Fi), audio, video, and USB drivers should be part of your overall patch management strategy. Many quality issues are solved by updating drivers. |
+| **Meeting rooms on Wi-Fi** | We highly recommend that meeting room devices be connected to the network by using at least a 1-Gbps Ethernet connection. Meeting room devices typically include multiple audio and video streams, along with meeting content such as screen sharing, and have higher network requirements than other Teams or Skype for Business endpoints. Meeting rooms are, by definition, stationary devices where Wi-Fi affords a benefit only during installation.<br><br>Meeting rooms need to be treated with extra care and attention to ensure that the experience using these devices is meeting or exceeding expectations. Quality issues with meeting rooms are usually going to be escalated quickly, because they’re often used by senior-level staff.<br><br>With all things being equal (apart from convenience), Wi-Fi performance is often less than a wired connection. With the rise of “bring your own device” policies and the proliferation of laptops, Wi-Fi access points are often over-utilized. Real-time media might not be prioritized on Wi-Fi networks, which can lead to quality issues during peak use times. This heavy usage can coincide with a meeting where there might be a dozen people in attendance, each with their own laptop and smartphone, all connected to the same Wi-Fi access point as the meeting room device.<br><br>Wi-Fi should only be considered as a temporary solution, for a mobile installation, or when Wi-Fi has been properly provisioned to support business-class, real-time–based media. |
+
 
 ### TCP
 
 TCP is considered a failback transport and not the primary transport you want for real-time media. The reason it’s a failback transport is due to the stateful nature of TCP. For example, if a call is made on a latent network and media packets are delayed, then packets from a few seconds ago—which are no longer useful—compete for bandwidth to get to the receiver, which can make a bad situation worse. This makes the audio healer stitch and stretch audio, resulting in audible artifacts, often in the form of jitter.
 
-The reports in this section don’t make a distinction between good and poor streams. Given that UDP is preferred, the reports look for the use of TCP for audio, video, and video-based screen sharing (VBSS). This is primarily caused by incomplete firewall rules. For more information about firewall rules for Teams and Skype for Business Online, see [Office 365 URLs and IP address ranges](https://aka.ms/o365ips).
+The reports in this section don’t make a distinction between good and poor streams. Given that UDP is preferred, the reports look for the use of TCP for audio, video, and video-based screen sharing (VBSS). Poor stream rates are provided to help compare UDP quality versus TCP quality so that you can focus your efforts where the impact is the greatest. TCP usage is primarily caused by incomplete firewall rules. For more information about firewall rules for Teams and Skype for Business Online, see [Office 365 URLs and IP address ranges](https://aka.ms/o365ips).
 
 > [!Important]
 > Having a [valid building file](#building-mapping) uploaded is highly recommended so you can quickly distinguish inside from outside streams when looking at TCP usage.
@@ -996,7 +1065,7 @@ The reports in this section don’t make a distinction between good and poor str
 TCP reports indicates the overall TCP usage over the last seven months. All further reports in this section will focus on narrowing down specific buildings and subnets where TCP is most commonly used. Separate reports are available for both conferencing and two-party streams.
 
 ![Chart showing the percentage of audio streams that use TCP](media/qerguide-image-audiostreamswithtcp.png)
-_Figure 23 – Audio Streams with TCP Usage_
+_Figure 25 – Audio Streams with TCP Usage_
 
 
 ##### Investigation
@@ -1016,13 +1085,11 @@ This report identifies the volume of TCP versus UDP usage reporting on the lates
 
 ![Report showing the volume of streams that use TCP versus UDP](media/qerguide-image-tcpvsudp.png)
 
-_Figure 24 – TCP vs. UDP - Conferencing_
+_Figure 26 – TCP vs. UDP - Conferencing_
 
 ##### Analysis
 
-Although you want TCP usage to be as low as possible, you might see a bit of TCP usage in an otherwise healthy deployment. Although there might always be some small amount of TCP usage, you want to see as little TCP usage as possible for audio, video, and VBSS.
-
-Also included in the report is the poor stream rate. This provides you a view into the comparison of quality between UDP and TCP to help visualize how TCP usage is affecting overall quality.
+Although you want TCP usage to be as low as possible, you might see a bit of TCP usage in an otherwise healthy deployment. TCP by itself won’t contribute to a poor call, so stream rates are provided to help identify whether TCP usage is a contributor to poor quality. 
 
 #### TCP investigations
 
@@ -1036,7 +1103,11 @@ In the provided CQD templates, navigate to the TCP Streams by Building and Subne
 
 ![TCP usage by building and subnet](media/qerguide-image-tcpstreams.png)
 
-_Figure 25 – TCP Streams by Building and Subnet - Conferencing_
+_Figure 27 – TCP Streams by Building and Subnet - Conferencing_
+
+##### Diagnostic alert
+
+If you received a diagnostic alert “UDP traffic is being limited, which causes poor call quality,” focus your TCP remediation efforts on those subnets first. The alert has identified subnets where the use of TCP is negatively affecting call quality.
 
 ##### Remediation
 
@@ -1045,7 +1116,7 @@ This report identifies specific buildings and subnets that are contributing to t
 The most common cause of TCP usage is missing exception rules in firewalls or proxies. We’ll be talking about proxies in the next section, so for now focus your efforts on the firewalls. By using the building or subnet provided, you can determine which firewall needs to be updated.
 
 
-_Table 10 - Remediation* guidance for TCP streams by building and subnet_
+_Table 11 - Remediation guidance for TCP streams by building and subnet_
 
 | Remediation        | Guidance     |
 |--------------------|--------------------------------------|
@@ -1069,7 +1140,7 @@ The HTTP proxy stream report in this section of the template is much like the TC
 
 ![Report of audio streams that use HTTP](media/qerguide-image-audiostreamswithhttp.png)
 
-_Figure 26 – Audio Streams with HTTP Proxy Usage_
+_Figure 28 – Audio Streams with HTTP Proxy Usage_
 
 ##### Analysis
 
@@ -1092,7 +1163,7 @@ This report identifies specific buildings and subnets that are contributing to H
 
 ![Report of HTTP Proxy Usage by Building and Subnet](media/qerguide-image-httpproxyusage.png)
 
-_Figure 27 – HTTP Proxy Usage by Building and Subnet_
+_Figure 29 – HTTP Proxy Usage by Building and Subnet_
 
 ##### Remediation
 
@@ -1104,7 +1175,7 @@ Verify that the required [Office 365 FQDNs](https://aka.ms/o365ips) are whitelis
 
 For more information about using proxies with Skype for Business Online and Teams, see [this article](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online).
 
-## Clients and devices
+## Endpoint investigations
 
 This section is focused on the tasks for reporting on client versions and the use of certified devices. Reports are available to outline usage for client versions, client type, capture devices and drivers (microphone), video capture devices, and Wi-Fi vendor and driver versions.
 
@@ -1126,24 +1197,28 @@ The reports in this space focus on identifying Skype for Business client version
 
 ![Client and Devices report](media/qerguide-image-clientversionreport.png)
 
-_Figure 28 - Client version report_
+_Figure 30 - Client version report_
+
+#### Diagnostic alert
+
+If you received a diagnostic alert ”Known poorly performing client versions are in use,” focus on updating those clients first. The alert has identified that these clients are negatively affecting your call quality. You can use the Client & Devices report (shown above) to help ensure that the clients that have known issues are no longer being updated.
 
 #### Remediation
 
-A critical part of driving high-quality user experiences is ensuring that managed clients are running up-to-date versions of Skype for Business, in addition to ensuring the supporting drivers are up to date. This provides several benefits, among them: 
+A critical part of driving high-quality user experiences is ensuring that managed clients are running up-to-date versions of Skype for Business, in addition to ensuring the supporting audio, video, network, and USB drivers are up to date. This provides several benefits, among them: 
 
 -   It’s easier to manage a few versions versus many versions.
 -   It provides a level of consistency of experience.
 -   It makes it easier to troubleshoot problems with call quality and usability.
 -   Microsoft continually makes general improvements and optimizations across the product. Ensuring that users receive these updates reduces their risk of running into a problem that has already been solved.
 
-Limiting your deployment to client versions that are less than six months old will improve the overall user experience and improve manageability compared to having large numbers of different versions of the client in the same environment.
+Limiting your deployment to client versions that are less than six months old will improve the overall user experience and improve manageability by reducing the number of versions that need to be supported.
 
 If you’re using only Office Click-to-Run, you’ll automatically be within the six-month window. No further action is required.
 
 If you have a mix of Click-to-Run and installer packages (MSI), you can use the report to verify that the MSI clients are being updated regularly. If you notice clients are falling behind, work with the team responsible for managing Office updates and ensure that they’re approving and deploying client patches regularly.
 
-It’s also important to consider and ensure that the USB and audio drivers are being patched as well. It can be easy to overlook these drivers and not include them in your patch management strategy.
+It’s also important to consider and ensure that the network, video, USB, and audio drivers are being patched as well. It can be easy to overlook these drivers and not include them in your patch management strategy.
 
 Version numbers for Skype for Business can be found via the links below:
 
@@ -1178,7 +1253,11 @@ The device reports are used to assess device usage by volume and MOS score (audi
 
 ![Devices (Microphone) report](media/qerguide-image-devicesmicrophone.png)
 
-_Figure 29 - Devices (Microphone) Report_
+_Figure 31 - Devices (Microphone) Report_
+
+##### Diagnostic alert
+
+If you received a diagnostic alert “Audio drivers are causing call drops,” focus on remediating those drivers first. The alert has identified that known bad drivers are causing calls to drop and are negatively affecting call reliability. You can use the Microphone-Drivers report (shown above), which is found in the Client & Devices section, to help with the process.
 
 ##### Remediation
 
@@ -1202,9 +1281,17 @@ Wi-Fi drivers also need to be patched on a regular cadence as well and should be
 
 ## Appendix 
 
+### Office 365 network connectivity principles
+
+Before you begin planning your network for Office 365 network connectivity, it’s important to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. The following article will help you understand the most recent guidance for securely optimizing Office 365 network connectivity:
+
+[Office 365 Network Connectivity Principles](https://aka.ms/pnc)
+
 ### Planning for Wi-Fi
 
-Microsoft’s approach to drive quality and agility into the wireless networks comes in three parts: end to end planning, best practices in deployment, and proactive maintenance and operations. This solution brief walks you through this process to ensure an enterprise-class wireless Skype for Business experience: [Ensuring an Enterprise Class Wireless Skype for Business Experience](https://www.microsoft.com/download/details.aspx?id=47257)
+Microsoft’s approach to drive quality and agility into the wireless networks comes in three parts: end to end planning, best practices in deployment, and proactive maintenance and operations. This solution brief walks you through this process to ensure an enterprise-class wireless Skype for Business experience:
+
+[Ensuring an Enterprise Class Wireless Skype for Business Experience](https://www.microsoft.com/download/details.aspx?id=47257)
 
 ### Lync Networking Guide
 
@@ -1214,7 +1301,7 @@ For more background on the Teams and Skype for Business networking concepts and 
 
 The quality of real-time media (audio, video, and application sharing) over IP is greatly affected by the quality of end-to-end network connectivity. For optimal Teams or Skype for Business media quality, your network must meet the following network performance metrics.
 
-_Table 11 - Network performance requirements_
+_Table 12 - Network performance requirements_
 
 | Metric                            | Client to Microsoft Edge           | Customer Edge to Microsoft Edge    |
 |-----------------------------------|------------------------------------|------------------------------------|
@@ -1231,7 +1318,7 @@ For more information, see [this article about media quality and network performa
 
 #### Building data file
 
--   [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)
+-   [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](turning-on-and-using-call-quality-dashboard.md)
 
 #### CQD training
 
@@ -1245,11 +1332,11 @@ For more information, see [this article about media quality and network performa
 
 -   [Introducing Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [Set up Call Analytics](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+-   [Set up Call Analytics](set-up-call-analytics.md)
 
--   [What's the difference between Call Analytics and Call Quality Dashboard?](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+-   [What's the difference between Call Analytics and Call Quality Dashboard?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
--   [Use Call Analytics to troubleshoot poor call quality](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+-   [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 ### Call Analytics support
 

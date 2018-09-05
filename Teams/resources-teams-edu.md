@@ -1,16 +1,16 @@
 ---
-title: Microsoft Teams resources for Education admins 
+title: Microsoft Teams resources for Education admins
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 ms.date: 07/26/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
-description: List of Teams resources helpful for IT admins in Education. 
+ms.reviewer:
+description: List of Teams resources helpful for IT admins in Education.
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
-appliesto: 
+appliesto:
 - Microsoft Teams
 ---
 
@@ -39,15 +39,15 @@ Create customized email messages, posters, and flyers with your school's informa
 
 ## Call to action
 
-- Check out our hands-on [Microsoft Teams Interactive Demo](http://teamsdemo.office.com/) (5 minutes to complete)
+- Check out our hands-on [Microsoft Teams Interactive Demo](https://teamsdemo.office.com/) (5 minutes to complete)
 - Turn on Microsoft Teams in the [Office 365 admin center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (sign in as an Office 365 admin)
 - Download Teams clients: [Get Teams on all your devices](https://teams.microsoft.com/downloads)
 - Learn more about Office 365 for Education at the [Education help center](https://support.office.com/education)
-    
+
 ## Additional resources
 
 - [Microsoft Teams roadmap](https://aka.ms/teamsroadmap)
-- Stay up to date with our [Tech Community Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) 
+- Stay up to date with our [Tech Community Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
 - Matt Soseman's "The Productive Cloud" Blog about [Microsoft Teams PowerShell Support](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)
 - [Send a suggestion](https://aka.ms/eduuservoice)
 - [Contact support](https://aka.ms/o365portal)

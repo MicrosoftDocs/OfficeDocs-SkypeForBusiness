@@ -11,7 +11,7 @@ ms.collection: Lync
 ms.audience: Admin
 appliesto:
 - Lync
-- Skype for Business 
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -32,7 +32,7 @@ With the release of Lync Server 2013, Microsoft has worked closely with multiple
 
 [Deploying the Lync VDI Plug-in](https://docs.microsoft.com/en-us/skypeforbusiness/deploy/deploy-clients/deploy-the-lync-vdi-plug-in)
 
-[Troubleshooting the Lync VDI Plug-in](http://technet.microsoft.com/library/jj204713(v=ocs.15)) <!-- 2013 yet to migrate -->
+[Troubleshooting the Lync VDI Plug-in](https://technet.microsoft.com/library/jj204713(v=ocs.15)) <!-- 2013 yet to migrate -->
 
 ## VDI environments
 The following table lists the VDI partners and their products which have been tested with the Lync 2013 VDI plug-in. 
