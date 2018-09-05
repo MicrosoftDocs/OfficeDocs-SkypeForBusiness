@@ -22,7 +22,7 @@ Use the steps in this article when:
     
 - You want the people in your organization to use Teams to contact people in specific businesses outside of your organization.
     
--You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. If the both of you enable External Access and allow each others domains, this will work. If they don't, then they need to make sure their configuration isn't blocking your domain.
+- You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. If you and another user both enable External Access and allow each other's domains, this will work. If it doesn't work, the other user should make sure his or her configuration isn't blocking your domain.
 
 Follow these steps:
 

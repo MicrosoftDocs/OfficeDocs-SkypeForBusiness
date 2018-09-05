@@ -109,9 +109,13 @@ The size of a 1-hour recording is 400 MB. Make sure you understand the capacity 
 ## Manage meeting recordings
 The meeting recordings are considered tenant-owned content. If the owner of the recording leaves the company, the admin can open the recording video URL in Microsoft Stream in admin mode. The admin can delete the recording, update any recording metadata, or change permissions for the recording video. Learn more about [admin capabilities in Stream](https://docs.microsoft.com/en-us/stream/manage-content-permissions).
 
+## Compliance and eDiscovery for meeting recordings
+The meeting recordings are stored in Microsoft Stream, which is Office 365 Tier-C compliant. To support e-Discovery requests for compliance admins who are interested in meeting or call recordings for Microsoft Streams, the recording completed message is available in the compliance content search functionality for Microsoft Teams. Compliance admins can look for the keyword "recording" in the subject line of the item in compliance content search preview and discover meeting and call recordings in the organization. A prerequisite for them to view all recordings is that they will need to be set up in Microsoft Stream with admin access. Learn more about [assigning admin permissions in Stream](https://docs.microsoft.com/en-us/stream/assign-administrator-user-role).
+
 ## Want to know more about Windows PowerShell?
 
 Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. To get started with Windows PowerShell, see these topics:
 
 - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 - [Set up your computer for Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525038)
+
