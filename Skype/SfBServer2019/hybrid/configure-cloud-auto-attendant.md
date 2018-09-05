@@ -32,6 +32,8 @@ These steps are necessary whether you are creating a brand new Auto Attendant or
     ```
     See [New-ADUser](https://docs.microsoft.com/en-us/powershell/module/addsadministration/new-aduser?view=win10-ps)
 
+recently changed powershell [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/en-us/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) now creates  disabled user objects    that can be used as AA. Only the initial node dialed in needs to be assigned a number and the others (child AAs and call queues) don't
+
 2. Delete contact objects (COs) for every AA  <br/> See [Remove-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csexumcontact?view=skype-ps0)
 
 3. Run AAD Connect Sync
