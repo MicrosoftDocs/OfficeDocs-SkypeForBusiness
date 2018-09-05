@@ -216,7 +216,7 @@ Devices that have been validated are listed as Certified for Teams Direct Routin
 
 The following vendors are in the process of being certified:
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- Ribbon (formerly Sonus):
+- Ribbon Communications (formerly Sonus):
    - [SBC Edge series](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
    - [SBC Core Series](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel: ThinkTel does not sell the SBCs to the enterprises but their SBC is being certified.  

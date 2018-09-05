@@ -20,7 +20,7 @@ This article describes how to configure Microsoft Phone System Direct Routing. I
 We recommend that you confirm that your SBC has already been configured as recommended by your SBC vendor's: 
 
 - AudioCodes deployment documentation 
-- Ribbon deployment documentation
+- Ribbon Communications deployment documentation
 
 You can configure your Microsoft Phone System and enable  users to use Direct Routing, then set up Microsoft Teams as the preferred calling client by completing the following procedures: 
 
