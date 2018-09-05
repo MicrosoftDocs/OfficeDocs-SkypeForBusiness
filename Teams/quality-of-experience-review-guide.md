@@ -3,7 +3,7 @@ title: Quality of Experience Review Guide for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 09/03/2018
+ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -815,6 +815,7 @@ To open the message center, in the Office 365 admin center, go to **Health** > *
  
 
 ![The message center card displays the last three messages that were posted](media/qerguide-image-messagecentercard.png)
+
 _Figure 18 - Message center card_
 
 You can also use the [Office 365 Admin app](https://go.microsoft.com/fwlink/p/?linkid=627216) on your mobile device to view the message center, which is a great way to stay current with push notifications. For more information, see [this article](https://support.office.com/article/Message-center-in-Office-365-38FB3333-BFCC-4340-A37B-DEDA509C2093).
@@ -1288,7 +1289,9 @@ Before you begin planning your network for Office 365 network connectivity, it�
 
 ### Planning for Wi-Fi
 
-Microsoft’s approach to drive quality and agility into the wireless networks comes in three parts: end to end planning, best practices in deployment, and proactive maintenance and operations. This solution brief walks you through this process to ensure an enterprise-class wireless Skype for Business experience: [Ensuring an Enterprise Class Wireless Skype for Business Experience](https://www.microsoft.com/download/details.aspx?id=47257)
+Microsoft’s approach to drive quality and agility into the wireless networks comes in three parts: end to end planning, best practices in deployment, and proactive maintenance and operations. This solution brief walks you through this process to ensure an enterprise-class wireless Skype for Business experience:
+
+[Ensuring an Enterprise Class Wireless Skype for Business Experience](https://www.microsoft.com/download/details.aspx?id=47257)
 
 ### Lync Networking Guide
 
