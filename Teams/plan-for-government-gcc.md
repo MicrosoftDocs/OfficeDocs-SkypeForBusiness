@@ -83,7 +83,7 @@ Having decided that this service is right for your organization, start the proce
 
 ## Step 5. Plan for governance
 
-Determine your requirements for governance and how you can meet them. Go to [Plan for governance in teams](plan-teams-governance.md) for more information.
+Determine your requirements for governance and how you can meet them. Go to [Plan for governance in Teams](plan-teams-governance.md) for more information.
 
 ## Step 6. Deploy Teams for collaboration
 
