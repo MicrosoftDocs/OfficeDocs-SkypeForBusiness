@@ -57,7 +57,7 @@ Choose one primary language and up to four secondary languages. The primary lang
     
 ## Want to use Windows PowerShell?
 
-See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
+See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
   
 ## Related topics
 

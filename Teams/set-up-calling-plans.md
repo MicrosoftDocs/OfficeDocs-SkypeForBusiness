@@ -116,14 +116,14 @@ In **Microsoft Teams**, users can see their phone number by clicking **Calls** i
 
 If you know Windows PowerShell, you can use the following cmdlets to automate assigning phone numbers to your users. 
   
-- [Get-CsOnlineTelephoneNumber](https://technet.microsoft.com/en-us/library/mt243818.aspx): Retrieves the telephone numbers from the Business Voice Directory.
+- [Get-CsOnlineTelephoneNumber](https://technet.microsoft.com/library/mt243818.aspx): Retrieves the telephone numbers from the Business Voice Directory.
     
-- [Set-CsOnlineVoiceUser](https://technet.microsoft.com/en-us/library/mt243817.aspx): Sets the telephone numbers.
+- [Set-CsOnlineVoiceUser](https://technet.microsoft.com/library/mt243817.aspx): Sets the telephone numbers.
     
-To learn more, see [Quick reference: Using Windows PowerShell to do common Skype for Business Online management tasks](https://technet.microsoft.com/en-us/library/dn362776%28v=ocs.15%29.aspx).
+To learn more, see [Quick reference: Using Windows PowerShell to do common Skype for Business Online management tasks](https://technet.microsoft.com/library/dn362776%28v=ocs.15%29.aspx).
   
    > [!NOTE]
-   > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+   > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
 ## Related topics

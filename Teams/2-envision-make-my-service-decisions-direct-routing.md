@@ -107,7 +107,7 @@ all users in your organization by default. Your business needs might require
 that you disable voicemail transcription for specific users or everyone
 throughout the organization. If your organization decided to keep voicemail
 transcription enabled, you need to also consider whether voicemail transcription
-profanity masking needs to be enabled. See [Setting voicemail policies in your organization](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)
+profanity masking needs to be enabled. See [Setting voicemail policies in your organization](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)
 for more details.
 
 For more information about voicemail in a Phone System implementation, see [Set up Phone System voicemail](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail).

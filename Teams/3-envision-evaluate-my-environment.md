@@ -323,7 +323,7 @@ You should test both segments by using the Network Assessment Tool. To test the
 segment, navigate to the directory and enter **networkassessmenttool.exe** at
 the command prompt. The results are written to a file named Results.tsv, and you
 can compare them to the
-[requirements](https://docs.microsoft.com/en-us/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance?ui=en-US&rs=en-US&ad=US)
+[requirements](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance?ui=en-US&rs=en-US&ad=US)
 for each segment.
 
 Note that both segments must meet the requirements for a high-quality

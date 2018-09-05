@@ -30,7 +30,7 @@ Follow these steps:
 
 ### Step 1 - Make sure to set up the ports and URLs that are needed.
 
-**The most common issue people encounter when setting up business-to-business communication is getting their [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) right.**
+**The most common issue people encounter when setting up business-to-business communication is getting their [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) right.**
 
 ### Step 2 - Enable your organization to communicate with another Teams organization
 

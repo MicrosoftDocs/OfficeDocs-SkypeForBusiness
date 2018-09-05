@@ -26,7 +26,7 @@ description: "When you are looking for and getting phone numbers for your organi
 
 When you are looking for and getting phone numbers for your organization, you can get more phone numbers than you have assigned licenses. But this depends on the types of phone numbers and types of licenses you have bought and assigned. You can click [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md) to find out about the different phone numbers that are used in Skype for Business Online.
   
-You can see the number of phone numbers you can get on the **Phone numbers** page in the Skype for Business admin center, or you can run the [Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/en-us/library/mt634605.aspx) cmdlet.
+You can see the number of phone numbers you can get on the **Phone numbers** page in the Skype for Business admin center, or you can run the [Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx) cmdlet.
   
 > [!IMPORTANT]
 > The limits below don't include phone numbers you have ported or transferred to Microsoft. 
