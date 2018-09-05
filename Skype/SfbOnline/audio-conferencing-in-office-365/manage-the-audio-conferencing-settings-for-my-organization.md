@@ -183,9 +183,9 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
   - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear this check box, callers won't be asked to record their name before they join a meeting.
 
 5. After you make your changes, click **Save**.
-
-See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
-
+    
+See [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
+  
  **Set the PIN length for meetings**
 
 1. Sign in to Office 365 with your work or school account.
@@ -197,9 +197,9 @@ See [Change the settings for an Audio Conferencing bridge](change-the-settings-f
 4. Under **Security**, enter the number of digits you want for the PIN in the **PIN length** list, and then click **Save**.
 
     The PIN must be between 4 and 12 digits. The default is 5.
-
-See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
-
+    
+See [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
+  
  **Enable or disable email from being sent to audio users**
 
 1. Sign in to Office 365 with your work or school account.

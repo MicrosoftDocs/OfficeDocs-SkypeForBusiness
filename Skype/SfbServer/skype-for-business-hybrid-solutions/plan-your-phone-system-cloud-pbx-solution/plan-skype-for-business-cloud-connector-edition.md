@@ -537,21 +537,17 @@ Each Edge component requires a certificate from a public certification authority
 
   ```
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com,
-acessedgepoolnameforsite1.sipdomain.com
-
+  acessedgepoolnameforsite1.sipdomain.com
   ```
 
--
-
-    **Option 2.** If you would like to use a single Wildcard certificate on all Edge pool servers you deploy, then you may use a wildcard SAN entry of \*.sipdomain.com instead of the Edge pool name in the certificate. The subject name can be the access Edge pool name of any of the Edge pools that you have deployed:
+- **Option 2.** If you would like to use a single Wildcard certificate on all Edge pool servers you deploy, then you may use a wildcard SAN entry of \*.sipdomain.com instead of the Edge pool name in the certificate. The subject name can be the access Edge pool name of any of the Edge pools that you have deployed:
 
   ```
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com, SAN = *.sipdomain.com
-
   ```
 
-    > [!NOTE]
-    > You must not create an external DNS entry for sip.\<sipdomain\>.com because this name belongs to the Office 365 deployment.
+> [!NOTE]
+> You must not create an external DNS entry for sip.\<sipdomain\>.com because this name belongs to the Office 365 deployment.
 
 > [!NOTE]
 > If you want to use a single certificate for all Edge pools deployed in your organization and cannot use a wildcard certificate as defined in option 2, then you will need to include the FQDN for all deployed Edge pools in the SAN name in the certificate.
@@ -563,21 +559,19 @@ You will need to add sip.sipdomain.com for every SIP domain and the name of the 
 - **Option 1.** The Subject Name must contain the pool name that you assigned for Edge components. Note that the Subject Name cannot be sip.sipdomain.com because this name is reserved for the online Skype for Business Edge component. The SAN must contain sip.sipdomain.com and the access Edge pool name:
 
   ```
-  SN = accessedgepoolnameforsite1.sipdomain1.com, SAN = sip.sipdomain1.com,
- sip.sipdomain2.com, acessedgepoolnameforsite1.sipdomain1.com
-
+  SN = accessedgepoolnameforsite1.sipdomain1.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
+  acessedgepoolnameforsite1.sipdomain1.com
   ```
 
--
-
-    **Option 2.**If you would like to use a single Wildcard certificate on all Edge pool servers you deploy, then you may use a wildcard SAN entry of \*.sipdomain.com instead of the Edge pool name in the certificate. The subject name can be the access Edge pool name of any of the Edge pools that you have deployed:
+- **Option 2.**If you would like to use a single Wildcard certificate on all Edge pool servers you deploy, then you may use a wildcard SAN entry of \*.sipdomain.com instead of the Edge pool name in the certificate. The subject name can be the access Edge pool name of any of the Edge pools that you have deployed:
 
   ```
-  SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com, SAN = *.sipdomain1.com
+  SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
+  SAN = *.sipdomain1.com
   ```
 
-    > [!NOTE]
-    > You must not create an external DNS entry for sip.\<sipdomain\>.com because this name belongs to the Office 365 deployment.
+> [!NOTE]
+> You must not create an external DNS entry for sip.\<sipdomain\>.com because this name belongs to the Office 365 deployment.
 
 For purposes of deployment, you can use the following table:
 
@@ -592,8 +586,8 @@ If you are using TLS between the gateway and the Mediation Server, you will need
 ## Dial plan considerations
 <a name="BKMK_DailPlan"> </a>
 
-Cloud Connector requires the use of an online dial plan. For more information on how to configure an online dial plan, see [What are dial plans?](../../../SfbOnline/what-are-calling-plans-in-office-365/what-are-dial-plans.md)
-
+Cloud Connector requires the use of an online dial plan. For more information on how to configure an online dial plan, see [What are dial plans?](/microsoftteams/what-are-dial-plans) 
+  
 ## High availability considerations
 <a name="BKMK_HA"> </a>
 

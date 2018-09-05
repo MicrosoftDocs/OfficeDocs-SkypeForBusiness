@@ -20,13 +20,13 @@ This article describes how to configure Microsoft Phone System Direct Routing. I
 We recommend that you confirm that your SBC has already been configured as recommended by your SBC vendor's: 
 
 - AudioCodes deployment documentation 
-- Ribbon deployment documentation
+- Ribbon Communications deployment documentation
 
 You can configure your Microsoft Phone System and enable  users to use Direct Routing, then set up Microsoft Teams as the preferred calling client by completing the following procedures: 
 
 - [Pair the SBC with a Microsoft Phone System and validate the pairing](#pair-the-sbc-to-direct-routing-service-of-phone-system)
 - [Enable users for Direct Routing Service](#enable-users-for-direct-routing-service)
-- [Ensure that Microsoft Teams is the preferred calling client for the users](#set-microsoft-teams-as-the-preferred-calling-client-for-the-users) 
+- [Ensure that Microsoft Teams is the preferred calling client for the users](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
 ## Pair the SBC to Direct Routing Service of Phone System 
 
@@ -512,7 +512,6 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 </pre>
 
 The result is that the voice policy applied to John Woods’ calls are unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
-
 
 ## Set Microsoft Teams as the preferred calling client for users
 

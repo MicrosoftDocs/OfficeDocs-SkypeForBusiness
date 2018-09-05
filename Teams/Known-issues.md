@@ -15,7 +15,6 @@ appliesto:
 # Known issues for Microsoft Teams
 
 This article lists the known issues for Microsoft Teams, by feature area.
-##
 
 ## Administration
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|

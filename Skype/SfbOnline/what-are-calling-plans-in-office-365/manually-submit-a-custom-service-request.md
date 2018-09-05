@@ -24,9 +24,9 @@ description: "Learn the steps you need to do to submit a port order request when
 
 # Manually submit a custom service request
 
-If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, you need to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, you need to [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
 
-In some countries/regions, you will also need to manually submit a custom service request if you want to get telephone numbers, or release the numbers, or change addresses. To see what is required for each country/region or learn more about number porting, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+In some countries/regions, you will also need to manually submit a custom service request if you want to get telephone numbers, or release the numbers, or change addresses. To see what is required for each country/region or learn more about number porting, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 
 ## If you need to create and submit a service request follow these steps:
@@ -104,13 +104,13 @@ In some countries/regions, you will also need to manually submit a custom servic
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 ## Related topics
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+[Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

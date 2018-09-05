@@ -51,10 +51,10 @@ Depending on which plan you already have, you can buy add-on licenses for the fo
 |||
 |:-----|:-----|
 |**Feature** <br/> |**Description** <br/> |
-|**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Skype for Business or Microsoft Teams meeting, instead of using their computer. Use the Audio Conferencing feature for this situation.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> If you are looking for how much it costs, see [Requirements for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
-|**Toll free numbers for dial-in access to your conferences, and the ability to dial out from a conference to add someone by calling any telephone number in the world** <br/> |If you add Audio Conferencing, we recommend that you [Set up Communications Credits](set-up-communications-credits-for-your-organization.md). <br/> |
-|**Phone System** <br/> |A PBX is a telephone system in a business. Phone System in Office 365 is a hosted telephone service in Office 365. It gives you both traditional and innovative PBX capabilities, but without the complicated and expensive equipment. [Here's what you get with Phone System in Office 365](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md).  <br/> If you are looking for how much it costs, see [Requirements for Phone System](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
-|**Calling Plans** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> If you are looking for how much it costs, see [Requirements for Calling Plans](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |
+|**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Skype for Business or Microsoft Teams meeting, instead of using their computer. Use the Audio Conferencing feature for this situation.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> If you are looking for how much it costs, see [Requirements for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
+|**Toll free numbers for dial-in access to your conferences, and the ability to dial out from a conference to add someone by calling any telephone number in the world** <br/> |If you add Audio Conferencing, we recommend that you [Set up Communications Credits](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
+|**Phone System** <br/> |A PBX is a telephone system in a business. Phone System in Office 365 is a hosted telephone service in Office 365. It gives you both traditional and innovative PBX capabilities, but without the complicated and expensive equipment. [Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> If you are looking for how much it costs, see [Requirements for Phone System](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
+|**Calling Plans** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> If you are looking for how much it costs, see [Requirements for Calling Plans](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |
 |**Skype Room Systems v2** <br/> |This isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
 
 Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
@@ -97,11 +97,11 @@ For extensive documentation on planning your deployment, including Phone System 
 ## Related topics
 
 - [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-
-- [Set up Phone System voicemail - Admin help](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
-
-- [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md)
-
-- [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
-
+    
+- [Set up Phone System voicemail - Admin help](/microsoftteams/set-up-phone-system-voicemail)
+    
+- [Set up Calling Plans](/microsoftteams/set-up-calling-plans) and [Calling Plans for Office 365](/MicrosoftTeams/calling-plans-for-office-365)
+    
+- [Add funds and manage Communications Credits](/microsoftteams/add-funds-and-manage-communications-credits)
+    
 - [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)

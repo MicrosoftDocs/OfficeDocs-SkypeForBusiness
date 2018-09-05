@@ -81,13 +81,17 @@ We recommend that you take time to carefully review your [admin and security set
 
 Having decided that this service is right for your organization, start the process of [applying for this service here](https://products.office.com/en-us/government/eligibility-validation).
 
-## Step 5. Deploy Teams for collaboration
+## Step 5. Plan for governance
+
+Determine your requirements for governance and how you can meet them. Go to [Plan for governance in Teams](plan-teams-governance.md) for more information.
+
+## Step 6. Deploy Teams for collaboration
 
 After you’ve been onboarded to Microsoft 365 Government - GCC, you can follow the standard deployment approach of using [FastTrack](https://fasttrack.microsoft.com/fasttrack-faq) and your chosen partner to onboard to the service.
 
 When you’re ready, deploy Teams to [enable collaboration within your organization through teams and channels](teams-overview.md). Be sure to engage with your Adoption and Change Management team or Teams champions.
 
-## Step 6. Deploy Teams for meetings and voice
+## Step 7. Deploy Teams for meetings and voice
 
 This is also a great time to use Teams with your wider stakeholder group to start planning for rolling out meetings and [cloud voice features](cloud-voice-deployment.md).
 
