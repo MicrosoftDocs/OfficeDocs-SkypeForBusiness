@@ -33,7 +33,7 @@ Audit log search plugs right into the Office 365 Security and Compliance Center 
 
 ## Compliance Content Search
 
-Content Search can be used to search for all Teams data through rich filtering capabilities and exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Please refer to this [link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4?ui=en-US&rs=en-US&ad=US#teamsandgroups) to learn more about how to conduct a compliance content search for Microsoft Teams content in the Office 365 Security and Compliance center. 
+Content Search can be used to search for all Teams data through rich filtering capabilities and exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Please refer to this [link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) to learn more about how to conduct a compliance content search for Microsoft Teams content in the Office 365 Security and Compliance center. 
 
 Tip: The kind MicrosoftTeams can be used to filter through to Microsoft Teams only content i.e. Chat and Channel Messages, Meetings and Calls. 
 
@@ -43,7 +43,7 @@ Electronic discovery is the electronic aspect of identifying, collecting and pro
 
 For more details about how to do eDiscovery in Security and Compliance center and run compliance content search for Teams content, please go to the links below: 
 
-[eDiscovery](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e?ui=en-US&rs=en-US&ad=US) 
+[eDiscovery](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
 [Content Search](https://support.office.com/article/search-for-content-in-office-365-df2d1e0f-b476-42c9-aade-4a260b24f193)
 

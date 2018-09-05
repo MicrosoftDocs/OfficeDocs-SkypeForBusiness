@@ -158,7 +158,7 @@ For more information about admin roles and how to assign a role in Office 365, s
 
     ![Creating the TXT record in the carrier's DNS hosting provider](media/direct-routing-8-sbc-txt-record.png)
 
-    For more information, refer to [Create DNS records at any DNS hosting provider for Office 365](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166?ui=en-US&rs=en-US&ad=US).
+    For more information, refer to [Create DNS records at any DNS hosting provider for Office 365](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
 7. Go back to the customer's Microsoft 365 admin center and click **Verify**. 
 8. On the next page, select **I’ll add the DNS records myself** and click **Next**.

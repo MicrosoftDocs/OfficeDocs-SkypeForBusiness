@@ -36,5 +36,5 @@ Users who use the Skype Meetings App with Teams are subject to the following lim
 
 For more information about the Skype Meetings App, see:
 
-- [What is Skype Meetings App (Skype for Business Web App)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5?ui=en-US&rs=en-US&ad=US)
+- [What is Skype Meetings App (Skype for Business Web App)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
 - [Skype Meetings App minimum network requirements](https://technet.microsoft.com/library/mt845808.aspx)
