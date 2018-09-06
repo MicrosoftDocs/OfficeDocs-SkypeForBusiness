@@ -5,15 +5,19 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+<<<<<<< HEAD:Teams/what-are-teams-live-events.md
 ms.reviwer: tonysmit
 search.appverid: MET150
+=======
+ms.reviewer: tonysmit
+>>>>>>> 1ce77b0f6d71eb301a7c46aff50d1453472d7c6c:Teams/teams-live-events/what-are-teams-live-events.md
 description: Learn how Live events enable users to broadcast video and content to large online audiences in Microsoft Teams, Yammer, and Microsoft Stream.  
 appliesto: 
 - Microsoft Teams
 ---
 
 # What are Teams live events?
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
+> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 ## Overview
 Live events in Microsoft 365 enable users to broadcast video and content to large online audiences. Microsoft 365 live events bring live video streaming to a new level, encouraging connection throughout the entire engagement lifecycle with attendees before, during, and after live events. You can create a live event wherever your audience, team, or community resides, using Microsoft Stream, Microsoft Teams, or Yammer.  
@@ -24,7 +28,7 @@ Teams live events are considered the next version of Skype Meeting Broadcast and
 
 So, let's get started. First, take a look at the following diagram that shows high level components involved in Microsoft 365 live events and how they are connected. 
 
-![Teams live events](media/teams-live-events.png)
+![Teams live events](../media/teams-live-events.png)
 
 ## Key components
 So, you can see from the picture above, there are four key components that are used with Live events in Microsoft Teams.
