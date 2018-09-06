@@ -10,6 +10,7 @@ ms.reviewer:
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
+search.appverid: MET150
 appliesto: 
 - Microsoft Teams
 ---

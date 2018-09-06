@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 05/16/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Download the Site Enablement Playbook to plan your Teams rollout and accelerate and optimize user adoption, perception of quality, and satisfaction.
 localization_priority: Priority

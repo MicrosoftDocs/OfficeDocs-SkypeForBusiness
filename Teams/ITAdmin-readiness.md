@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: Training videos introducing Microsoft Teams and explaining to admins how to plan, deploy, and operate Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update

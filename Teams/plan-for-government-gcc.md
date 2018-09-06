@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: lehewe
 description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation  
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:

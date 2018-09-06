@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Deliver high-quality Teams user experience by managing service, network, and endpoint health and defining operational and Quality Champion roles.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams

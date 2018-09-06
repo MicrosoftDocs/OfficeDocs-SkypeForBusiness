@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: prem
 description: Guidance for publishing apps in the Microsoft Teams Tenant Apps Catalog. 
 localization_priority: Normal
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
