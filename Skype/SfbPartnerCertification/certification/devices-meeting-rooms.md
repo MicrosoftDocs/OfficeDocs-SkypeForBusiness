@@ -12,7 +12,7 @@ ms.audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
-- Teams
+- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
