@@ -12,6 +12,7 @@ ms.audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
+- Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -24,6 +25,9 @@ description: "Planning for Optimal Skype for Business Experience over Wi-Fi prov
 Microsoft plans to test and certify IP phones for Skype for Business through the Skype for Business Certification Program. This reflects an evolution from the previous basic interop compatibility ("Compatible with Lync”) to a higher quality bar, including metrics targeting higher reliability. Phone vendors are actively working to meet this higher bar and will be qualifying against the new requirements starting the end of this calendar year. In addition, our partners are currently working to provide support for the Skype for Business Online service that will be released later this year.
 
 In the meantime, Skype for Business Server supports backwards compatibility with all of our Lync qualified IP phones, and devices which are supported for Skype for Business Online will be announced as soon as they are qualified.
+
+> [!NOTE]
+> All Skype for Business certified devices will work with Teams, but they will not be given Teams certification until they meet new requirements. More information about Teams certification will be available in early 2019.
 
 Find details of our [qualified IP Phones](../lync-cert/ip-phones.md).
 
