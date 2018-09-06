@@ -66,9 +66,9 @@
 ### [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
 ### [What are Communications Credits?](what-are-communications-credits.md)
 ## Supported devices
-### [IP phones](/skypeforbusiness/sfbpartnercertification/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [USB audio and video devices](/skypeforbusiness/sfbpartnercertification/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json))
-### [Meeting room devices and solutions](/skypeforbusiness/sfbpartnercertification/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json))
+### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [USB audio and video devices](/sfbpartnercertification/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json))
+### [Meeting room devices and solutions](/skypeforbusiness/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json))
 
 <!-- ============================================================ -->
 
