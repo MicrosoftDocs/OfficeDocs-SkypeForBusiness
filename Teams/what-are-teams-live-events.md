@@ -42,8 +42,8 @@ The live events in Microsoft 365 support a spectrum of production scenarios, inc
 ### Streaming platform
 The live event streaming platform is made up of the following four pieces:
 
-- **Azure Media Services**  [Azure Media Services](https://docs.microsoft.com/en-us/azure/media-services/previous/) gives you broadcast-quality video streaming services to reach larger audiences on today’s most popular mobile devices. Media Services enhances accessibility, distribution, and scalability, and makes it easy and cost-effective to stream content to your local or worldwide audiences — all while protecting your content.
-- **Azure Content Delivery Network (CDN)**  Once your stream goes live, it is delivered through the [Azure Content Delivery Network (CDN)](https://docs.microsoft.com/en-us/azure/cdn/). Azure Media Services provides integrated CDN for streaming endpoints. This allows for the streams to be viewed worldwide with no buffering.
+- **Azure Media Services**  [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) gives you broadcast-quality video streaming services to reach larger audiences on today’s most popular mobile devices. Media Services enhances accessibility, distribution, and scalability, and makes it easy and cost-effective to stream content to your local or worldwide audiences — all while protecting your content.
+- **Azure Content Delivery Network (CDN)**  Once your stream goes live, it is delivered through the [Azure Content Delivery Network (CDN)](https://docs.microsoft.com/azure/cdn/). Azure Media Services provides integrated CDN for streaming endpoints. This allows for the streams to be viewed worldwide with no buffering.
 - **Enterprise Content Delivery Network (eCDN)**  The goal of eCDN is to take the video content from the internet and distribute the content throughout your enterprise without impacting the network performance. You can use one of the following certified eCDN partners to optimize your network for Live events held within your organization:
     - Hive
     - Kollective
@@ -135,7 +135,7 @@ You can use Teams live events in multiple regions across the world. The followin
 When you are setting up for live events, there are several steps that you must take:
 
 ### Step 1: Set up your network for live events in Microsoft Teams
-The quick start live events require you to [prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/prepare-network).  
+The quick start live events require you to [prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ### Step 2: Get and assign licenses
 Ensure you have correct license assignments for [Who can create and schedule live events?](#who-can-create-and-schedule-live-events) and [Who can watch live events?](#who-can-watch-live-events).

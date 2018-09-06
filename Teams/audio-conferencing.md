@@ -12,7 +12,7 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
-redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
+redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
 ---
 
 Practical guidance for Audio Conferencing in Microsoft Teams
