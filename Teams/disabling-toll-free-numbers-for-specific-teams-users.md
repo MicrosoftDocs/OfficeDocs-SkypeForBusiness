@@ -55,4 +55,4 @@ When toll-free numbers are disabled for a given organizer:
  
 **Using PowerShell**  
 
-See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
+See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.

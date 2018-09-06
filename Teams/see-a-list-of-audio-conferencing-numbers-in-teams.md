@@ -25,7 +25,7 @@ description: "Learn how to look up your dial-in conferencing numbers from within
 
 When you set up Audio Conferencing for Microsoft Teams users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.
   
- **Looking for prices?** See [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+ **Looking for prices?** See [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
 If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Microsoft Teams meeting invitations.
   
@@ -52,7 +52,7 @@ Windows PowerShell is all about managing users and what users are allowed or not
     
   - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
+For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
   
 ## Related topics
 

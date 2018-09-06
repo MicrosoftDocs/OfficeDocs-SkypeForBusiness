@@ -46,7 +46,7 @@ Communications Credits are a convenient way to pay for Audio Conferencing and Ca
   
 ## What are the Communications Credits rates?
 
-If you're wondering how what the cost of the calls are for Calling Plans, see Communications Credits [Rates for Calling](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#Rates) Plans.
+If you're wondering how what the cost of the calls are for Calling Plans, see Communications Credits [Rates for Calling](https://products.office.com/skype-for-business/pstn-calling-plans#Rates) Plans.
   
 ## What is it?
 

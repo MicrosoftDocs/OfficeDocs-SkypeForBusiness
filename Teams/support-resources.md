@@ -31,7 +31,7 @@ Support resources for Microsoft Teams
 
 -   [Microsoft Teams Developer Preview](https://go.microsoft.com/fwlink/?linkid=854397)
 
--   [Known Issues](https://docs.microsoft.com/en-us/microsoftteams/known-issues)
+-   [Known Issues](https://docs.microsoft.com/microsoftteams/known-issues)
 
 -   [Teams client release notes](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 

@@ -30,7 +30,7 @@ This impacts the network on two levels: traffic will flow between the Microsoft 
 > [!IMPORTANT]
 > Currently, meetings are supported on iOS and Android mobile devices, but not on Windows Phone.
 
-To get an optimal experience with real time media within Microsoft Teams, it is required to meet the networking requirements for Office 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+To get an optimal experience with real time media within Microsoft Teams, it is required to meet the networking requirements for Office 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
 For the two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge), consider the following recommendations.
 

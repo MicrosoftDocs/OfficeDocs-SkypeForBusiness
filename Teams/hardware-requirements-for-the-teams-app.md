@@ -54,5 +54,5 @@ You can use Microsoft Teams on these mobile platforms:
 
 ### Related topics
 - [Get Teams apps](get-clients.md)
-- [Microsoft Teams on mobile devices](https://support.office.com/en-us/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
+- [Microsoft Teams on mobile devices](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Install the Microsoft Teams app using an MSI](msi-deployment.md)
