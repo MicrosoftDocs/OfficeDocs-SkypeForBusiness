@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 825a6cf0-3d22-419a-8358-a8678f14b61d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
