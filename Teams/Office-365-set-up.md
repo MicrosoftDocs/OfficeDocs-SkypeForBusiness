@@ -11,6 +11,7 @@ description: Learn how to turn on Microsoft Teams for your Office 365 organizati
 localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

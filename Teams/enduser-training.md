@@ -7,6 +7,7 @@ ms.date: 03/19/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
+search.appverid: MET150
 description: Training resources an admin can use to successfully deploy and adopt Microsoft Teams.
 appliesto: 
 - Microsoft Teams

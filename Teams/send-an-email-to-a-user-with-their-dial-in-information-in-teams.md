@@ -15,6 +15,7 @@ ms.audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
+search.appverid: MET150
 f1keywords: None
 ms.custom:
 - Audio Conferencing

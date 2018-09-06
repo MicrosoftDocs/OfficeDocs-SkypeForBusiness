@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Tasks and activities required for monitoring quality and usage of Microsoft Teams  
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:

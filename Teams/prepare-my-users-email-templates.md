@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Use templates to send emails to users as you implement cloud voice capabilities in Teams or Skype for Business.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams

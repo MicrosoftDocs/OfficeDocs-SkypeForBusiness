@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Validate that your organization's expectations are met through testing Audio Conferencing in Teams features, functionality, and usability.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams

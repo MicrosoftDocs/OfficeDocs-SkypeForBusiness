@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Measure the results of your Audio Conferencing, Phone System with Calling Plans, or Phone System Direct Routing deployment, and verify you've achieved the outcomes you wanted.
 MS.collection: Strat_MT_TeamsAdmin

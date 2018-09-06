@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Use this guidance to learn about the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment.  
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:

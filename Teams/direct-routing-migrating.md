@@ -7,6 +7,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
 description: "Learn what is needed to migrate to Direct Routing from a Skype for Business Online and Teams configuration perspective."
 ---

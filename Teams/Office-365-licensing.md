@@ -9,6 +9,7 @@ audience: Admin
 ms.service: msteams
 ms.reviewer: 
 localization_priority: Priority
+search.appverid: MET150
 description: Learn about the different Office 365 licenses and which ones enable users for Microsoft Teams and how to enable or disable it.
 ms.custom:
 - NewAdminCenter_Update

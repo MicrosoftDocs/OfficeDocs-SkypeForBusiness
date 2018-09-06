@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 ms.audience: Admin
+search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: Normal

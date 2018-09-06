@@ -8,6 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Priority
+search.appverid: MET150
 description: Learn about the hardware requirements that are needed to install and run Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update

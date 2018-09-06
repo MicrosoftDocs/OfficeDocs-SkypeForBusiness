@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 description: Learn the best practices for user feedback methods in Microsoft Teams to ensure the best team experience possible.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
