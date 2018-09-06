@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Create a plan to drive user adoption by defining your goals, understanding what acceptance looks like, and providing training and support.
 localization_priority: Priority

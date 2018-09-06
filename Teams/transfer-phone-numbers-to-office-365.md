@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 47b3af8e-4171-4dec-8333-c956f108664e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN

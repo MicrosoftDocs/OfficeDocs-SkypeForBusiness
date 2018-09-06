@@ -7,6 +7,7 @@ ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
+search.appverid: MET150
 description: Learn how to enable or disable user-level access on a per-user basis.
 ms.custom:
 - NewAdminCenter_Update

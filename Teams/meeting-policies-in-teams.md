@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua 
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin 
 appliesto: 
 - Microsoft Teams

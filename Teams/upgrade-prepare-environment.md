@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Validate your environment and network readiness before beginning your upgrade from Skype for Business to Teams. 
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:

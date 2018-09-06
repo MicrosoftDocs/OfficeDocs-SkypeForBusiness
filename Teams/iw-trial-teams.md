@@ -8,6 +8,7 @@ ms.topic: article
 audience: Admin
 ms.reviewer: alchen
 ms.service: msteams
+search.appverid: MET150
 localization_priority : Normal
 description: Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams.
 MS.collection: Strat_MT_TeamsAdmin

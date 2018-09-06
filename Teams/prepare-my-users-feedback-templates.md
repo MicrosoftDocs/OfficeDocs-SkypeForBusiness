@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Gather user feedback to improve cloud voice implementation in Microsoft Teams or Skype for Business.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams

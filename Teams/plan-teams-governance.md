@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Learn about how to plan for implementing governance capabilities in Teams.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams

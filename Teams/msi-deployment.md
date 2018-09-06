@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: 
 description: Admins can use the Teams MSI to bulk deploy Microsoft Teams to select users or computers.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

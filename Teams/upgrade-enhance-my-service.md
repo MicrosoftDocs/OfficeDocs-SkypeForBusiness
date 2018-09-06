@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Regularly evaluate opportunities to enhance the Teams service after you upgrade, monitor the Teams roadmap for any interesting feature enhancements.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:

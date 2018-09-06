@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Considerations for upgrading to Teams from a Skype for Business hybrid deployment.  
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
