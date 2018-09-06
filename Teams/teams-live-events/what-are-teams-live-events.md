@@ -5,12 +5,7 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-<<<<<<< HEAD:Teams/what-are-teams-live-events.md
-ms.reviwer: tonysmit
-search.appverid: MET150
-=======
 ms.reviewer: tonysmit
->>>>>>> 1ce77b0f6d71eb301a7c46aff50d1453472d7c6c:Teams/teams-live-events/what-are-teams-live-events.md
 description: Learn how Live events enable users to broadcast video and content to large online audiences in Microsoft Teams, Yammer, and Microsoft Stream.  
 appliesto: 
 - Microsoft Teams
