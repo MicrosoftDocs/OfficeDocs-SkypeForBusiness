@@ -8,6 +8,7 @@ ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: 
 ms.service: skype-for-business-online-admin
+search.appverid: MET150
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
