@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Plan to communicate with, train, and support your users as you pilot, onboard and upgrade to Teams  
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin

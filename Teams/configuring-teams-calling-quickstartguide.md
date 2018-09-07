@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
 search.appverid: MET150
 description: Quick start guide for configuring calling plans in Microsoft Teams.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

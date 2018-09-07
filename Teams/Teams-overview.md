@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: 
 description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom:
 - NewAdminCenter_Update

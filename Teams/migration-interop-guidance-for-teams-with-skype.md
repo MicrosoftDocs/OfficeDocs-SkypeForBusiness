@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
 description: Guidance for managing the transition to Teams from Skype for Business 
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
