@@ -79,10 +79,4 @@ Use the following table to find the tools for testing USB peripherals, PCs, and 
 
 ### Related resources
 
-[Phones and devices home](devices-ip-phones.md)
-
-[Compatible Devices Program](../lync-cert/partner-qualification.md#compatible-devices-program)
-
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
-
 View the [partner solutions catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/) to see products certified for Skype for Business.
