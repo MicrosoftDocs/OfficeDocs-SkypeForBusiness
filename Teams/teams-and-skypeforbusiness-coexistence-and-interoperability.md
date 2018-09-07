@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Details of Skype for Business and Microsoft Teams coexistence options and interoperability between Skype for Business and Teams.  
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:

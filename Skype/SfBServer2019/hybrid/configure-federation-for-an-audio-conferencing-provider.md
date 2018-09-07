@@ -6,7 +6,7 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 ms.custom:
 description: "Summary: Learn how to configure federation for an audio conferencing provider in Skype for Business Online."

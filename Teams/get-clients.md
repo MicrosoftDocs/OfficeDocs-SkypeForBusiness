@@ -8,7 +8,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vichau, majafry
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
 ms.custom:
 - NewAdminCenter_Update

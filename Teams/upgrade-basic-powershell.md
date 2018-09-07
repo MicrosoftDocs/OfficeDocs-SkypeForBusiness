@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Stopgap for upgrading to Teams if the Admin Center hasn't lit up in your tenant 
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:

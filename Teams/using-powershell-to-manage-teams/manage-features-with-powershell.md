@@ -5,6 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: Learn to use Windows PowerShell to manage all of features found in Microsoft Teams.
 appliesto: 
 - Microsoft Teams

@@ -8,8 +8,9 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: 
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
+search.appverid: MET150
 appliesto: 
 - Microsoft Teams
 ---
@@ -57,7 +58,7 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 
 Each Files tab in Teams runs on a SharePoint Online backend, so the storage limits above apply to each Channel within a Team.
 
-For more information, see [SharePoint Online limits](https://support.office.com/en-us/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+For more information, see [SharePoint Online limits](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
 Messaging
 ---------
