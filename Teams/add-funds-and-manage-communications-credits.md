@@ -16,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - O365E_SFBVoiceCredit
 - O365E_SFBVoiceCreditAether 

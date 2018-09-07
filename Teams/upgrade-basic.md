@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Accelerated ten-step action plan for upgrading from Skype for Business to Teams 
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin

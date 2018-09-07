@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Learn how to turn on or off Microsoft Teams apps in your Office 365 organization, including tabs, connectors, bots, or any combination of the three.
-localization_priority: Priority
+localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
