@@ -7,8 +7,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: Training videos, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
-ms.custom:
-- NewAdminCenter_Update
+ms.topic: landing page
 appliesto: 
 - Microsoft Teams
 ---
@@ -97,8 +96,20 @@ Use these tutorials, videos and other training resources to learn about Teams an
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
+                        <h3>Teams for education</h3>
+                        <p>[Quick start - Teams for education admins](https://docs.microsoft.com/en-us/microsoftteams/teams-quick-start-edu)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
                         <h3>Set up</h3>
-                        <p>Video: Step-by-step intro for using, enabling an dmanaing the experience</p>
+                        <p>Video: Step-by-step intro for using, enabling and managing the experience</p>
+<p>[Set up and customize your team](https://support.office.com/en-us/article/702a2977-e662-4038-bef5-bdf8ee47b17b)
                     </div>
                 </div>
             </div>
