@@ -7,8 +7,9 @@ ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Ensure your organization and users are ready for Microsoft Teams  
+description: Ensure your organization and users are ready for Microsoft Teams
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
@@ -26,14 +27,14 @@ This article is part of the User Readiness stage of your upgrade journey, an act
 
 # Assess organizational change readiness
 
-After you’ve secured your project team and defined your vision, scope, and goals, the next step on your upgrade journey is to ensure that your organization and users are ready for Teams—an activity that you complete in parallel with ensuring your technical readiness. To realize value from Teams, users must actually use it. Simply enabling Teams doesn’t guarantee that you achieve your goal.  Users have different use cases and varying learning styles, and they adapt to new technology at different speeds. The good news is that managing change isn’t all that complicated, but it does take a focused effort. The guided discussions below are designed to help you understand your user base so that you can prepare the right level of education to facilitate and accelerate user adoption. There are three ways you should look at your user base: 
+After you’ve secured your project team and defined your vision, scope, and goals, the next step on your upgrade journey is to ensure that your organization and users are ready for Teams—an activity that you complete in parallel with ensuring your technical readiness. To realize value from Teams, users must actually use it. Simply enabling Teams doesn’t guarantee that you achieve your goal.  Users have different use cases and varying learning styles, and they adapt to new technology at different speeds. The good news is that managing change isn’t all that complicated, but it does take a focused effort. The guided discussions below are designed to help you understand your user base so that you can prepare the right level of education to facilitate and accelerate user adoption. There are three ways you should look at your user base:
 
 -   **Organizational change readiness**: Understanding how quickly (or not) users typically react to change. This information will help inform the amount of awareness, training, and value-selling you might need to do to drive user adoption.
 -   **Use cases**: Evaluating how the new technology will improve user productivity. This information will make the change relevant for users based on how they work.
 -   **Personas**: Assessing which individuals or groups  might require personalized attention. This information will enable you to target training and awareness for those who expect or need more focused attention (for example, executives).
 
 > [!Note]
-> You can adapt the assessment activities given below to any change initiative in your organization. Simply address the questions based on the scope of your project. In the following discussions, “new solution” can apply to audio calling, audio conferencing, or your upgrade from Skype for Business to Teams. 
+> You can adapt the assessment activities given below to any change initiative in your organization. Simply address the questions based on the scope of your project. In the following discussions, “new solution” can apply to audio calling, audio conferencing, or your upgrade from Skype for Business to Teams.
 
 |    |     |
 |-----------|------------|
@@ -63,11 +64,11 @@ Use the following conversation starters to conduct an organizational readiness a
 
 
 > [!Tip]
-> Enlist your early adopters for your pilot testing in addition to serving as peer champions. Champions help evangelize new technology and lead by example to show their peers how to realize value. To learn more about creating a formal champions program, see the [Office adoption guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Your laggards might need more convincing before they adopt a new technology. If more than 20 percent of your organization falls into this bucket, spend more time communicating the value messaging and delivering tailored training. In addition, support them through the change by opening a feedback loop to better understand and address their hesitations. 
+> Enlist your early adopters for your pilot testing in addition to serving as peer champions. Champions help evangelize new technology and lead by example to show their peers how to realize value. To learn more about creating a formal champions program, see the [Office adoption guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/Office_365_Adoption_Guide.pdf). Your laggards might need more convincing before they adopt a new technology. If more than 20 percent of your organization falls into this bucket, spend more time communicating the value messaging and delivering tailored training. In addition, support them through the change by opening a feedback loop to better understand and address their hesitations.
 
 #### What percentage of users fall into each competency?
 
-<!-- 
+<!--
 | **Type of learner**                                                        | **%** |
 |----------------------------------------------------------------------------|-------|
 | *Self-motivated* learners seek out resources, learn by doing.                      |       |
@@ -79,7 +80,7 @@ Use the following conversation starters to conduct an organizational readiness a
 | These learners seek out resources, learn by doing. | These users enjoy group and interactive training; they’ll go along with coworkers. | These users expect “white glove” or one-on-one assistance. |
 
 > [!Tip]
-> Not everyone learns the same way. For those who are self-motivated, point to Microsoft’s online videos and training articles. If 20 percent or more are team players, enlist your training team or a partner to deliver live, interactive training (in person or online). Typically, you’ll find executives or targeted roles in the hand-holding category. This is a critical group who would benefit from personalized, short training sessions. Enlist your champions to help deliver training to these users, for an optimal experience. 
+> Not everyone learns the same way. For those who are self-motivated, point to Microsoft’s online videos and training articles. If 20 percent or more are team players, enlist your training team or a partner to deliver live, interactive training (in person or online). Typically, you’ll find executives or targeted roles in the hand-holding category. This is a critical group who would benefit from personalized, short training sessions. Enlist your champions to help deliver training to these users, for an optimal experience.
 
 ## Use cases
 
@@ -122,14 +123,14 @@ The following table shows an example of a targeted use case.
 
 
 > [!Tip]
-> Need help getting started? Visit the productivity library: http://aka.ms/productivitylibrary.
+> Need help getting started? Visit the productivity library: https://aka.ms/productivitylibrary.
 
 ## Personas
 
-By doing people-level analysis, you gain understanding of your user personas and use cases. Taking time to understand who your users are and how they work, you‘ll help ensure they have what they need to be successful as they implement the change. This can include targeted messaging, training, or even devices such as headsets and webcams. For example, an executive might expect one-on-one training while a traveling field rep might benefit from a training video they can watch at their leisure. In addition, your people-level analysis can help identify who can move to Teams today versus who might be best served by waiting until later. 
+By doing people-level analysis, you gain understanding of your user personas and use cases. Taking time to understand who your users are and how they work, you‘ll help ensure they have what they need to be successful as they implement the change. This can include targeted messaging, training, or even devices such as headsets and webcams. For example, an executive might expect one-on-one training while a traveling field rep might benefit from a training video they can watch at their leisure. In addition, your people-level analysis can help identify who can move to Teams today versus who might be best served by waiting until later.
 
 Begin by segmenting your user base into persona/cohort groups (for example, executives, “road warriors,” collaborative workers, or retail). For manageability, keep your list to no more than eight groups.
- 
+
 ### Activity
 
 Identify targeted user profiles that require specific technical or user readiness assistance. See below for a sample persona assessment for an Executive profile.

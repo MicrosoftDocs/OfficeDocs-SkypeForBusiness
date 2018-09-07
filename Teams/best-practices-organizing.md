@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 description: Learn about best practices for organizing teams in Microsoft Teams to meet your organization's needs.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
@@ -31,7 +32,7 @@ You may start with a small number of team members to brainstorm as you move forw
 
 Once you've created your team, it’s a good idea to start to think about the different areas of conversations that you want to have to drive towards your goal and create initial channels so that people know where to contribute and to find existing conversations. Be descriptive when naming channels to make it easier to understand what the conversation in the channel is there to achieve. You can add new Tabs to channels to add tools like OneNote, PowerBI or links to web pages and other content to make it easy for people to find content and share their thoughts.
 
-Learn more about [working in teams](https://support.office.com/en-us/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) with these quick tips for end users. 
+Learn more about [working in teams](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) with these quick tips for end users. 
 
 Channel Best Practices
 ----------------------
@@ -47,6 +48,6 @@ The **General channel** is created for you when you create the team by default. 
 
 Currently, you cannot remove or unfavorite the General channel. When naming channels, remember that the channels will be ordered alphabetically after the General channel.  In teams with many channels use the "Favorite a channel" feature to control the channels you automatically see when navigating to the team. 
 
-Learn more about [working in channels](https://support.office.com/en-us/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) with these quick tips for end users. 
+Learn more about [working in channels](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) with these quick tips for end users. 
 
 

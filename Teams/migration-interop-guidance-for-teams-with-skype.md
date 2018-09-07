@@ -8,6 +8,7 @@ ms.service: msteams
 ms.reviewer: lehewe
 description: Guidance for managing the transition to Teams from Skype for Business 
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
@@ -268,22 +269,22 @@ Based on strong feedback from TAP customers and other early adopters, Microsoft 
 
 ## Related topics
 
-[Get-CsTeamsInteropPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsinteroppolicy?view=skype-ps)
+[Get-CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsinteroppolicy?view=skype-ps)
 
-[Grant-CsTeamsInteropPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsinteroppolicy?view=skype-ps)
+[Grant-CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsinteroppolicy?view=skype-ps)
 
-[Remove-CsTeamsInteropPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsinteroppolicy?view=skype-ps)
+[Remove-CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsinteroppolicy?view=skype-ps)
 
-[Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
+[Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
 
-[Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
+[Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[New-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csteamsupgradepolicy?view=skype-ps)
+[New-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsupgradepolicy?view=skype-ps)
 
-[Remove-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsupgradepolicy?view=skype-ps)
+[Remove-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsupgradepolicy?view=skype-ps)
 
-[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
+[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradeconfiguration?view=skype-ps)
 
-[Set-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsupgradepolicy?view=skype-ps)
+[Set-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsupgradepolicy?view=skype-ps)

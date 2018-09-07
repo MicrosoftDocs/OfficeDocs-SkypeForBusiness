@@ -7,6 +7,7 @@ ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
+search.appverid: MET150
 description: Learn to assign team owner and member roles and permissions in Microsoft Teams including permissions to create teams.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
@@ -50,7 +51,7 @@ The table below shows the difference in permissions between an owner and a membe
 Permissions to create teams
 ---------------------------
 
-By default, all users with a mailbox in Exchange Online have permissions to create Office 365 groups and therefore a team within Microsoft Teams. You can have tighter control and restrict the creation of new teams and thus the creation of new Office 365 groups by delegating group creation and management rights to a set of users. For instructions, see [Manage who can create Office 365 Groups](https://support.office.com/en-us/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+By default, all users with a mailbox in Exchange Online have permissions to create Office 365 groups and therefore a team within Microsoft Teams. You can have tighter control and restrict the creation of new teams and thus the creation of new Office 365 groups by delegating group creation and management rights to a set of users. For instructions, see [Manage who can create Office 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 
 ||||

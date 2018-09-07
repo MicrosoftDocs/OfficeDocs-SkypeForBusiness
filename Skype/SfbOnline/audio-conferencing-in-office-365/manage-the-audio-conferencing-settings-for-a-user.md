@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 0f39dc9d-eb60-4c5a-9ae3-e34a01834d9b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -60,4 +61,4 @@ As an Office 365 admin, you can edit the Audio Conferencing settings—such as t
 
 [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md)
 
-[Audio Conferencing common questions](audio-conferencing-common-questions.md)
+[Audio Conferencing common questions](/MicrosoftTeams/audio-conferencing-common-questions)

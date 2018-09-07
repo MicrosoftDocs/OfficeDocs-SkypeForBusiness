@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Validate that your organization's expectations are met through testing Audio Conferencing in Teams features, functionality, and usability.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
@@ -852,7 +853,7 @@ invoice from your current service provider.
 > differ depending on the country/region where the phone numbers are sourced
 > from. For the latest list of currently supported countries/regions, see
 > [Countries and region availability for Audio Conferencing and Calling
-> Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).</br/><br/>
+> Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</br/><br/>
 >   For additional information about transferring phone numbers to Audio
 >   Conferencing—along with potential restrictions—see [Transfer phone numbers
 >   to Office

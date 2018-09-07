@@ -8,6 +8,7 @@ ms.service: msteams
 ms.reviewer: snigdhav
 description: Learn about using Teams in an Office 365 OneDrive and SharePoint Online Multi-Geo-enabled tenancy.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

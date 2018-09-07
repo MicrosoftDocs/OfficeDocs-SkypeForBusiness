@@ -8,11 +8,12 @@ metadata:
   displayType: one-column
   ms.author: chucked
   manager: serdars
-  ms.date: 08/14/2018
+  ms.date: 08/30/2018
   ms.reviewer: ninadara
   ms.service: msteams
   ms.topic: tutorial
   localization_priority: Priority
+  search.appverid: MET150
   ms.collection: Strat_MT_TeamsAdmin
   ms.custom:
   - NewAdminCenter_Update
@@ -22,7 +23,7 @@ items:
 - durationInMinutes: 2
   content: |
     
-    [Microsoft Teams](https://support.office.com/en-us/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) is a digital hub that brings conversations, meetings, files, and apps together in one place. Because it’s built on Office 365, schools benefit from integration with their familiar Office apps and services. It delivers enterprise-grade security and compliance that is extensible and customizable to fit the needs of every school.
+    [Microsoft Teams](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) is a digital hub that brings conversations, meetings, files, and apps together in one place. Because it’s built on Office 365, schools benefit from integration with their familiar Office apps and services. It delivers enterprise-grade security and compliance that is extensible and customizable to fit the needs of every school.
 
     With Microsoft Teams, your school or institution can create collaborative classrooms, connect in professional learning communities, or communicate with school staff – all from a single experience in Office 365 for Education.
  
@@ -38,7 +39,7 @@ items:
     ## Before you begin
     
     1. [Check your environment’s readiness for Teams](environment-readiness.md).
-    2. [Deploy School Data Sync](https://docs.microsoft.com/en-us/SchoolDataSync) to make it easier for teachers to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
+    2. [Deploy School Data Sync](https://docs.microsoft.com/SchoolDataSync) to make it easier for teachers to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
     3. Configure the correct ports and protocols for Teams. See [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
     4. [Prepare your school's network for Teams](prepare-network.md).
     5. Choose a team type. Teams for Education offers three new types of teams (for a total of four). To understand the differences and use cases of each, see [Choose a team type to collaborate in Teams](https://support.office.com/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67).
@@ -82,7 +83,7 @@ items:
   durationInMinutes: 2
   content: |
 
-    Teams is a cloud-based service. Once an educator or student has a valid license, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves - the IT admin doesn't need to deploy these clients. 
+    Teams is a cloud-based service. Once an educator or student has a valid license, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. 
     
     You can manage individual user licenses for Microsoft Teams by using the Office 365 Admin Center or by using PowerShell. See [Office 365 licensing for Teams](office-365-licensing.md) for information about both methods. This is valuable to understand if you are interested in piloting Teams before broad enablement. 
 
@@ -100,10 +101,17 @@ items:
     |LiveSite issues   |Meetings   |Research project collaboration   |   |
     |Organization collaboration workspace, announcements   |Executive admin groups   |   |   |
 
+    > [!NOTE]
+    > For help and support with Teams licenses or other issues, submit an inquiry at [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support).
+
 
 - title: Configure Teams for your school
   durationInMinutes: 1
   content: |
+
+    > [!NOTE]
+    > [School Data Sync](https://docs.microsoft.com/SchoolDataSync) makes it easier for teachers to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
+
     You'll need to have [Global Administrator](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) permissions to use the Office 365 admin center to manage Teams for your school.
 
     1. From the [Office 365 Admin Center](https://portal.office.com/adminportal/home), sign in with your Global Administrator credentials and select **Admin**.
@@ -168,6 +176,9 @@ items:
     ![Screenshot of the settings in the Custom cloud storage section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
     Teams uses SharePoint as the default file storage provider. For more information, see [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md). To learn how your quota is calculated and how best to manage it, see [Manage site collection storage limits](https://support.office.com/article/Manage-site-collection-storage-limits-77389C2C-8E7E-4B16-AB97-1C7103784B08). If you don’t want to manage each site’s collection, you'll also learn how to let the service automatically handle that for you. 
+
+    > [!NOTE]
+    > For help and support with tenant-wide settings or other issues, submit an inquiry at [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support).
 
 - title: Configure settings by user or license type
   durationInMinutes: 7

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c7323490-d9b7-421a-aa76-5bd485f80583
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -169,18 +170,17 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
     
   - [Using Windows PowerShell to do common Skype for Business Online management tasks](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## Related topics
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+  
+ ## Related topics
+[Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [More about Calling Line ID and Calling Party Name](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 
-[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-  
- 
  

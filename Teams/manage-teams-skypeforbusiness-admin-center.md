@@ -7,6 +7,7 @@ ms.date: 03/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+search.appverid: MET150
 description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Office 365 Admin center to the new Microsoft Teams & Skype for Business Admin Center.
 localization_priority: Priority
 ms.custom:
@@ -39,7 +40,7 @@ The new Admin Center experience will provide you with a unified experience to ma
 Starting in mid-March 2018, the following capabilities were available in the new Microsoft Teams & Skype for Business Admin Center: 
 
 - **Microsoft Teams messaging policy**: Create policy for user-level management of the Microsoft Teams client experience for Messaging scenarios.
-- **Microsoft Teams upgrade policy**: Configure the interoperability and upgrade experience between Skype for Business and Microsoft Teams. See, https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
+- **Microsoft Teams upgrade policy**: Configure the interoperability and upgrade experience between Skype for Business and Microsoft Teams. See, https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
 - **Microsoft Teams guest messaging settings**: Control the messaging capabilities for guest accounts in Microsoft Teams. 
 - **Federation settings**: Manage the federation between tenants for Microsoft Teams and Skype for Business. 
 - **User management**: Assign policies and configure user accounts. 

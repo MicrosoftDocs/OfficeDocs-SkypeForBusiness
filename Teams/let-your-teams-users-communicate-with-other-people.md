@@ -8,6 +8,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 ms.audience: Admin
+search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -22,7 +23,7 @@ Use the steps in this article when:
     
 - You want the people in your organization to use Teams to contact people in specific businesses outside of your organization.
     
--You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. If the both of you enable External Access and allow each others domains, this will work. If they don't, then they need to make sure their configuration isn't blocking your domain.
+- You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. If you and another user both enable External Access and allow each other's domains, this will work. If it doesn't work, the other user should make sure his or her configuration isn't blocking your domain.
 
 Follow these steps:
 
@@ -30,7 +31,7 @@ Follow these steps:
 
 ### Step 1 - Make sure to set up the ports and URLs that are needed.
 
-**The most common issue people encounter when setting up business-to-business communication is getting their [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) right.**
+**The most common issue people encounter when setting up business-to-business communication is getting their [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) right.**
 
 ### Step 2 - Enable your organization to communicate with another Teams organization
 

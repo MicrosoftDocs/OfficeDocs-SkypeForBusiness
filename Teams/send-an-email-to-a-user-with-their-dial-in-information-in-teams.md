@@ -15,6 +15,7 @@ ms.audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
+search.appverid: MET150
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -62,7 +63,7 @@ Here is an example of the email that is sent:
     
   - When the audio conferencing provider for a user is changed to Microsoft.
     
-- By default, the sender of the emails will be from Office 365, but you can change the email address and display name by using Windows PowerShell. See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
+- By default, the sender of the emails will be from Office 365, but you can change the email address and display name by using Windows PowerShell. See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
   
 ## Want to know more about Windows PowerShell?
 
@@ -72,7 +73,7 @@ Windows PowerShell is all about managing users and what users are allowed or not
     
   - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
+For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
     
   
 ## Related topics

@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: ritikag 
 description: Learn to allow and enable apps in Microsoft Teams including side-loading of external apps.
 localization_priority: Priority

@@ -7,6 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lucarras 
+search.appverid: MET150
 description: Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel.
 appliesto: 
 - Microsoft Teams

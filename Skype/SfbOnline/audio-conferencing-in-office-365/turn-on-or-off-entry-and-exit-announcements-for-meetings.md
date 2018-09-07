@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -69,4 +70,4 @@ The conferencing bridge answers a call for a user who is dialing in to a meeting
   
 ## Related topics
 
-[Audio Conferencing common questions](audio-conferencing-common-questions.md)
+[Audio Conferencing common questions](/MicrosoftTeams/audio-conferencing-common-questions)

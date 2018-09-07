@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: It's a good practice to verify that the Teams service is healthy as well as other Office 365 components such as Exchange, SharePoint, and OneDrive for Business.
 appliesto: 
 - Microsoft Teams

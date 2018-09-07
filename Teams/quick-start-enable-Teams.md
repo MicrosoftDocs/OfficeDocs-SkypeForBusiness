@@ -9,8 +9,9 @@ ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: Use this guide to help you plan, implement, and adopt Microsoft Teams in your organization.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
-appliesto: 
+appliesto:
 - Microsoft Teams
 ---
 
@@ -24,9 +25,9 @@ Use this guide to help you plan, implement, and adopt Microsoft Teams in your or
 
 ## Step 1: Get your people together
 
-Assemble a group of individuals from your business, IT, and user communities to act as the stakeholders and decision-making group for your Teams deployment. In smaller organizations, this may be two or three people. Be sure to include individuals from all three communities to ensure a successful journey.  
+Assemble a group of individuals from your business, IT, and user communities to act as the stakeholders and decision-making group for your Teams deployment. In smaller organizations, this may be two or three people. Be sure to include individuals from all three communities to ensure a successful journey.
 
-Each group will bring key skills to the table, though there is cross over between these generalizations. IT professionals will often focus on the health, security, and manageability of the experience while ensuring you have end-to-end cohesion across all your Office 365 services. Business users will bring practical scenarios and business needs that provide valuable test cases. Both perspectives are required for a successful test and broad deployment plan.    
+Each group will bring key skills to the table, though there is cross over between these generalizations. IT professionals will often focus on the health, security, and manageability of the experience while ensuring you have end-to-end cohesion across all your Office 365 services. Business users will bring practical scenarios and business needs that provide valuable test cases. Both perspectives are required for a successful test and broad deployment plan.
 
 ## Step 2: Prioritize your business scenarios
 
@@ -37,7 +38,7 @@ Collaboration and communication is about people! Pick the most relevant business
 
 ![Screenshot of a sample Microsoft 365 Deployment team.](media/quick-start-enable-Teams-Microsoft365-Deployment-Team.png)
 
-Watch this short video with simple guidance to consider when planning your teams, channels and tabs in Microsoft Teams. 
+Watch this short video with simple guidance to consider when planning your teams, channels and tabs in Microsoft Teams.
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
@@ -45,7 +46,7 @@ If Microsoft Teams is not enabled in your Office 365 tenant and you are an Offic
 
 ## Step 3: Complete technical planning
 
-Efficient technical planning is the foundation of a great user experience. If your organization has more than 50 seats and is participating in an [eligible plan](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365), you can use [FastTrack benefits](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365), available at no additional cost to guide you through planning, deployment, and service adoption. Or, you can complete this work yourself using our FastTrack Onboarding Wizards, available from [FastTrack](https://fasttrack.microsoft.com/) once you sign in with your Office 365 account. The information below will help you complete this step for Teams. At a minimum, you’ll want to review these four articles:
+Efficient technical planning is the foundation of a great user experience. If your organization has more than 50 seats and is participating in an [eligible plan](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365), you can use [FastTrack benefits](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365), available at no additional cost to guide you through planning, deployment, and service adoption. Or, you can complete this work yourself using our FastTrack Onboarding Wizards, available from [FastTrack](https://fasttrack.microsoft.com/) once you sign in with your Office 365 account. The information below will help you complete this step for Teams. At a minimum, you’ll want to review these four articles:
 
 1.	[Check your environment's readiness for Teams](environment-readiness.md)
 2.	[Prepare your network for Teams](prepare-network.md)
@@ -83,12 +84,12 @@ Deploying software is not the only thing required to drive change in your organi
 
 1. **Read [Office 365 Adoption Guidance]( https://aka.ms/office365adoptionguide)** for best practices. Use our article on [creating a change management strategy for Microsoft Team](change-management-strategy.md) to document your approach.
 1. **Study [Office 365 activity reports](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)** to understand usage across your environment. If you aren’t an Office 365 admin for your company, ask your admin to give you Reports Reader permissions so you can access activity reports.
-2. **Capture feedback from your employees** on their experience with Office 365 and Teams. Use a public channel in Teams when your organization has fewer than 2500 individuals. Use a public group in Yammer when your organization is larger than this current membership limit in Teams. 
+2. **Capture feedback from your employees** on their experience with Office 365 and Teams. Use a public channel in Teams when your organization has fewer than 2500 individuals. Use a public group in Yammer when your organization is larger than this current membership limit in Teams.
 
 4. **Nurture your champions and highlight your wins.** Reward employees for embracing these new tools and using them in innovative ways that relate to business outcomes for your company. This, above anything, will ensure continued adoption of Office 365 and Teams.
 
 
 ## Next steps
 1. Head over to [Tools and workshops: Plan, deliver, and adopt Teams](planning-workshop-practical-guide.md)
-2. Download and fill out the technical planning questionnaire in the [Quick start guide: Successfully enable Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).
-3. Download the workshop for launching Teams in your organization: [Plan, Deliver, & Operate Teams](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)
+2. Download and fill out the technical planning questionnaire in the [Quick start guide: Successfully enable Teams](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).
+3. Download the workshop for launching Teams in your organization: [Plan, Deliver, & Operate Teams](https://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)

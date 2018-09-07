@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Follow the core, to-do tasks and activities in this checklist when you configure your network for Teams.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams

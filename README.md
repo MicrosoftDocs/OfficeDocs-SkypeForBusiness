@@ -2,13 +2,13 @@
 A repository to hold the help reference content for Microsoft Teams and Skype for Business. The expert knowledge around Microsoft Teams and Skype for Business is distributed amongst customers, MVPs, partners, product teams, support, and other community members. This open repo is designed to provide a mechanism for those that wish to contribute their knowledge back into the docs so others can benefit.
 
 # Learn How To Contribute
-Anyone who is interested can contribute to the topics. 
+Anyone who is interested can contribute to the topics.
 When you contribute your work will go directly into the content set after being merged. It will then show up on docs.microsoft.com and you will be listed as a contributor at: https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/graphs/contributors
 
 
 # Quick Start
 
-## Contribute using the GitHub website 
+## Contribute using the GitHub website
 
 ### NOTE: The following guidance is for Office PowerShell but the same process applies for any Markdown document on GitHub.
 
@@ -16,7 +16,7 @@ When you contribute your work will go directly into the content set after being 
 
 1. Open your browser, login to GitHub, and then navigate to https://github.com/microsoftdocs/office-docs-powershell
 2. Browse to the file you want to edit. In this example we will edit https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/teams/teams-ps/teams/New-Team.md and add a link in the Related Links section.
-3. Click the Edit icon which looks like a pencil in the upper right corner. 
+3. Click the Edit icon which looks like a pencil in the upper right corner.
 ![Image of Edit button on Github](images/edit_icon.png)
 
 4. Your browser will then open the file in an edit window. We want to add a link so we scroll down to the Related Links section and add the link in the correct format.
@@ -59,7 +59,7 @@ see the [LICENSE](LICENSE) file, and grant you a license to any code in the repo
 Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation
 may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.
 The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks.
-Microsoft's general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653.
+Microsoft's general trademark guidelines can be found at https://go.microsoft.com/fwlink/?LinkID=254653.
 
 Privacy information can be found at https://privacy.microsoft.com/en-us/.
 
