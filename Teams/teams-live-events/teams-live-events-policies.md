@@ -1,7 +1,7 @@
 ---
 title: Manage live events policies in Teams
-ms.author: lanachin
-author: v-lanac
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -36,4 +36,4 @@ This setting can only be applied to quick start live events which are produced u
     - **Organizer can record or not** Users can decide whether to record the live event. If it is recorded, after the event is over, event team members can download the recording and attendees can watch the event. 
 
  ### Related topics
-[What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
+[What are Teams live events?](what-are-teams-live-events.md)
