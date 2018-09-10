@@ -22,7 +22,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/en-us/microsoftteams/quick-start-enable-teams">
+        <a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -32,7 +32,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with the Teams planning guide</h3>
+                        <h3>Get started</h3>
                     </div>
                 </div>
             </div>
@@ -88,7 +88,9 @@ Use these tutorials, videos and other training resources to learn about Teams an
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Deploy Teams</h3>
+                        <h3>Plan and deploy</h3>
+                        <p>[Quick start - Teams planning guide]
+(https://docs.microsoft.com/en-us/microsoftteams/quick-start-enable-teams)</P>
                         <p><iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
