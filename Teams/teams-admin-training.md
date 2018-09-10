@@ -131,9 +131,9 @@ Use these tutorials, videos and other training resources to learn about Teams an
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Set up</h3>
-                        <p>[Set up and customize your team](https://support.office.com/article/702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
-                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe></p>
+                        <h3>Teams & channels</h3>
+                        <p>[Video: Get your teams up and running](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
+                        <p>[Video: Go-to guide for team owners](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547)</p>
                     </div>
                 </div>
             </div>
@@ -163,17 +163,14 @@ Use these tutorials, videos and other training resources to learn about Teams an
             </div>
         </div>
     </li>
-    <li>
+<li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Cloud voice</h3>
-                        <p>[Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)</p>
-                        <p>[videos: Audio Conferencing](audio-conferencing-videos.md)</p>
-                        <p>[Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)</p>
-                        <p>[Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)</p>
-                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe></p>
+                        <h3>Apps & services</h3>
+                        <p>[Video: Add tools with tabs](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
+                        <p>[video: Use the command box](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b?ui=en-US&rs=en-US&ad=US)</p>
                     </div>
                 </div>
             </div>
@@ -184,8 +181,12 @@ Use these tutorials, videos and other training resources to learn about Teams an
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Apps & services</h3>
-                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe></p>
+                        <h3>Cloud voice</h3>
+                        <p>[Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)</p>
+                        <p>[Videos: Audio Conferencing](audio-conferencing-videos.md)</p>
+                        <p>[Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)</p>
+                        <p>[Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)</p>
+                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
