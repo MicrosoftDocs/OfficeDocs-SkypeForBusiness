@@ -76,17 +76,17 @@ Use these tutorials, videos and other training resources to learn about Teams an
         </a>
     </li>
  <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
+        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="Users people" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get training for your users</h3>
+                        <h3>Check out the Teams channel on YouTube</h3>
                     </div>
                 </div>
             </div>
