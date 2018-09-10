@@ -79,7 +79,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
 
     
 </ul>
----
+****************
 
 <h2>Featured training</h2>
 <ul class="panelContent cardsW">
@@ -111,7 +111,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Set up</h3>
-                        <p>Video: Step-by-step intro for using, enabling and managing the experience</p>
+                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe></p>
 <p>[Set up and customize your team](https://support.office.com/en-us/article/702a2977-e662-4038-bef5-bdf8ee47b17b)
                     </div>
                 </div>
@@ -124,7 +124,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Guest access</h3>
-                        <p>Video: Deep dive into guess access - Coffee in the Cloud</p>
+                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                         <p>[Audio Conferencing videos](audio-conferencing-videos.md)</p>
                         <p>[Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)</p>
                         <p>[Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)</p>
-                        <p>Direct Routing for Teams (Preview)
+                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
@@ -164,7 +164,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Apps & services</h3>
-                        <p>Video: Managing the app experience - Coffee in the Cloud session</p>
+                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
@@ -176,7 +176,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Security & compliance</h3>
-                        <p>Video: e-Discovery in Teams - Coffee in the Cloud session</p>
+                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
