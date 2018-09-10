@@ -59,7 +59,7 @@ With respect to the settings available in **Settings by user/license type**, it 
 
 The license type setting will be migrated. If you’re currently using the **Turn Microsoft Teams on or off for all users of this type** setting to control access to Teams for users across SKUs, we will maintain your current configurations. However, you won’t be able to modify this setting in the new Admin portal. Instead, you’ll assign the appropriate licenses to users in your tenant via the Office 365 admin center. For more details, see [Manage user access to Microsoft Teams](user-access.md). 
 
-The following table identifies the sections of the current Teams experience that will be migrated and shows the relationship between the current settings and the policies in the new Admin portal.
+The following table identifies the sections of the current Teams experience that have been migrated and shows the relationship between the current settings and the policies in the new Admin portal.
 
 
 |Section of Teams in Office 365 Admin center  |Setting name (Tenant level)  |Microsoft Teams & Skype for Business Admin Center policy   |Level: Tenant or User   |
