@@ -131,9 +131,8 @@ Use these tutorials, videos and other training resources to learn about Teams an
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Teams & channels</h3>
-                        <p>[Video: Get your teams up and running](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
-                        <p>[Video: Go-to guide for team owners](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547)</p>
+                        <h3>Set up</h3>
+                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
@@ -143,8 +142,9 @@ Use these tutorials, videos and other training resources to learn about Teams an
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Set up</h3>
-                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe></p>
+                        <h3>Teams & channels</h3>
+                        <p>[Video: Get your teams up and running](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
+                        <p>[Video: Go-to guide for team owners](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547)</p>
                     </div>
                 </div>
             </div>
