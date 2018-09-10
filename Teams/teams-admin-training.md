@@ -27,7 +27,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -38,7 +38,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
         </div>
         </a>
     </li>
-    <li>
+   <li>
         <a href="https://docs.microsoft.com/microsoftteams/tutorial-journey-skypeforbusiness-to-teams">
         <div class="cardSize">
             <div class="cardPadding">
@@ -56,7 +56,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
         </div>
         </a>
     </li>
-    <li>
+   <li>
         <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
         <div class="cardSize">
             <div class="cardPadding">
@@ -76,6 +76,8 @@ Use these tutorials, videos and other training resources to learn about Teams an
     </li>
 </ul>
 
+    
+</ul>
 ---
 
 <h2>Featured training</h2>
@@ -180,3 +182,60 @@ Use these tutorials, videos and other training resources to learn about Teams an
         </div>
     </li>
 </ul>
+---
+Use these tutorials, videos and other training resources to learn about Teams and drive usage in your organization. Check back here often for new content. 
+
+<ul class="panelContent cardsF">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tools-maintenance.svg" alt="Tools" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Heading</h3>
+                        <p><a href=" ">Link name</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/security.svg" alt="Security" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Heading</h3>
+                        <p><a href=" ">Link name</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks.svg" alt="Tasks" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Heading</h3>
+                        <p><a href=" ">Link name</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+-
