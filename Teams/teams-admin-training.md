@@ -3,7 +3,8 @@ title: Admin training for Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.topic: article
+layout: landingpage
+ms.topic: landing-page
 ms.service: msteams
 search.appverid: MET150
 description: Training videos, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
@@ -21,7 +22,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="  ">
+        <a href="https://docs.microsoft.com/en-us/microsoftteams/quick-start-enable-teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -31,7 +32,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Link name</h3>
+                        <h3>Get started with the Teams planning guide</h3>
                     </div>
                 </div>
             </div>
@@ -88,7 +89,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Deploy Teams</h3>
-                        <p>Video: Deploying and operating Teams</p>
+                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
@@ -182,60 +183,3 @@ Use these tutorials, videos and other training resources to learn about Teams an
         </div>
     </li>
 </ul>
----
-Use these tutorials, videos and other training resources to learn about Teams and drive usage in your organization. Check back here often for new content. 
-
-<ul class="panelContent cardsF">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tools-maintenance.svg" alt="Tools" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Heading</h3>
-                        <p><a href=" ">Link name</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/security.svg" alt="Security" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Heading</h3>
-                        <p><a href=" ">Link name</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks.svg" alt="Tasks" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Heading</h3>
-                        <p><a href=" ">Link name</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
--
