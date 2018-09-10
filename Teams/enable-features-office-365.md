@@ -33,7 +33,7 @@ Unless otherwise noted, the default value for an option is On.
 
 ## Office 365 tenant-wide settings 
 
-In **Tenant-wide settings**, you can turn on or turn off apps.
+In **Tenant-wide settings**, you can turn on or turn off Apps.
 
 To edit **Tenant-wide settings** for Teams, go to the Office 365 admin center. Choose **Settings** > **Services & add-ins** > **Microsoft Teams**.
 
