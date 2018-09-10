@@ -90,7 +90,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                     <div class="cardText">
                         <h3>Plan and deploy</h3>
                         <p>[Quick start - Teams planning guide]
-(https://docs.microsoft.com/en-us/microsoftteams/quick-start-enable-teams)</P>
+(https://docs.microsoft.com/microsoftteams/quick-start-enable-teams)</p>
                         <p><iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
@@ -102,7 +102,8 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Teams for education</h3>
-                        <p>[Quick start - Teams for education admins](https://docs.microsoft.com/en-us/microsoftteams/teams-quick-start-edu)</p>
+                        <p>[Quick start - Teams for education admins](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)</p>
+                         <p>[Teams resources for Education admins](https://docs.microsoft.com/MicrosoftTeams/resources-teams-edu)</p>
                     </div>
                 </div>
             </div>
@@ -113,8 +114,8 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Set up</h3>
+                        <p>[Set up and customize your team](https://support.office.com/article/702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
                         <p><iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe></p>
-<p>[Set up and customize your team](https://support.office.com/en-us/article/702a2977-e662-4038-bef5-bdf8ee47b17b)
                     </div>
                 </div>
             </div>
