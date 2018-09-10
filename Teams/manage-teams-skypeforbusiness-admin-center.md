@@ -18,7 +18,7 @@ appliesto:
 - Skype for Business Online
 ---
 
-Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center
+Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center
 ======================================================
 
 The new Microsoft Teams & Skype for Business Admin Center is coming soon! 
