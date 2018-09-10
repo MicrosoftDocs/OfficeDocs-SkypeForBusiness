@@ -103,7 +103,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get best practices and how-to info in the Coffee in the Cloud channel on YouTube</h3>
+                        <h3>View best practice and how-to info videos on the Coffee in the Cloud channel on YouTube</h3>
                     </div>
                 </div>
             </div>
@@ -162,7 +162,6 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Guest access</h3>
-                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
@@ -187,7 +186,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                     <div class="cardText">
                         <h3>Apps & services</h3>
                         <p>[Video: Add tools with tabs](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
-                        <p>[video: Use the command box](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b?ui=en-US&rs=en-US&ad=US)</p>
+                        <p>[Video: Use the command box](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b?ui=en-US&rs=en-US&ad=US)</p>
                     </div>
                 </div>
             </div>
@@ -215,8 +214,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Security & compliance</h3>
-                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe></p>
-                    </div>
+                                          </div>
                 </div>
             </div>
         </div>
