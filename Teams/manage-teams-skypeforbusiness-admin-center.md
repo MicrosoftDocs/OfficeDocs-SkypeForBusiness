@@ -1,5 +1,5 @@
 ---
-title: Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center
+title: Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -36,6 +36,7 @@ The new Admin Center experience will provide you with a unified experience to ma
 
 ![Screenshot of the Microsoft Teams & Skype for Business Admin Center.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
+## Settings migrated to the new Microsoft Teams & Skype for Business Admin Center
 
 Starting in mid-March 2018, the following capabilities were available in the new Microsoft Teams & Skype for Business Admin Center: 
 
@@ -44,15 +45,9 @@ Starting in mid-March 2018, the following capabilities were available in the
 - **Microsoft Teams guest messaging settings**: Control the messaging capabilities for guest accounts in Microsoft Teams. 
 - **Federation settings**: Manage the federation between tenants for Microsoft Teams and Skype for Business. 
 - **User management**: Assign policies and configure user accounts. 
-- **Audio conferencing**: Configure dial-in numbers and settings for Skype for Business and Microsoft Teams. 
+- **Audio conferencing**: Configure dial-in numbers and settings for Skype for Business and Microsoft Teams.  
 
- 
-
-## Settings migrated to the new Microsoft Teams & Skype for Business Admin Center
-
-Your existing settings for General, Email integration, Custom cloud storage, Calls and Meetings, and Messaging in Microsoft Teams (see image below) will be migrated to the new Microsoft Teams & Skype for Business Admin Center (also known as the new Admin portal) over the next few months. 
-
-
+Your existing settings for General, Email integration, Custom cloud storage, Calls and Meetings, and Messaging in Microsoft Teams have now been migrated to the new Microsoft Teams & Skype for Business Admin Center (also known as the new Admin portal) over the next few months. 
 
 > [!NOTE]
 >You’ll continue to use the Groups dashboard in the Office 365 Admin center for configuration related to **Teams and channels**. Settings for **Apps** will remain in the Teams area of the Office 365 Admin center and will be migrated later. 
