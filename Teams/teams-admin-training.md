@@ -19,7 +19,6 @@ appliesto:
 
 Use these tutorials, videos and other training resources to learn about Teams and drive usage in your organization. Check back here often for new content. 
 
-
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">
@@ -93,6 +92,24 @@ Use these tutorials, videos and other training resources to learn about Teams an
         </div>
         </a>
     </li>
+ <li>
+        <a href="https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="success" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Get best practices and how-to info in the Coffee in the Cloud channel on YouTube</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
 </ul>
 
     
@@ -109,7 +126,6 @@ Use these tutorials, videos and other training resources to learn about Teams an
                         <h3>Plan and deploy</h3>
                         <p>[Quick start - Teams planning guide]
 (https://docs.microsoft.com/microsoftteams/quick-start-enable-teams)</p>
-                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
@@ -126,18 +142,8 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 </div>
             </div>
         </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Set up</h3>
-                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
+    </li>
+<li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
