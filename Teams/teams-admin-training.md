@@ -138,6 +138,17 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 </div>
             </div>
         </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Set up</h3>
+                        <p><iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
     <li>
         <div class="cardSize">
