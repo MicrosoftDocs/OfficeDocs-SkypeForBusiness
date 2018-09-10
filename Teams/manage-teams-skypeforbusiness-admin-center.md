@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: 
 search.appverid: MET150
 description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Office 365 Admin center to the new Microsoft Teams & Skype for Business Admin Center.
-localization_priority: Priority
+localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin

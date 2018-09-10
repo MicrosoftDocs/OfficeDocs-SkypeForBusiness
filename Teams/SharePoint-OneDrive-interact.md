@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: snigdhav
 search.appverid: MET150
 description: Learn how SharePoint Online and OneDrive for Business interact with Microsoft Teams such as how private chat files are stored, and the relationship between team, channel, and the document library.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

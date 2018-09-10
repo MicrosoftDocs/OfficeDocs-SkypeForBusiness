@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Learn about meetings, licensing and availability, configure conference bridge settings, acquire or transfer phone numbers, choose tenant dial plans. 
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams

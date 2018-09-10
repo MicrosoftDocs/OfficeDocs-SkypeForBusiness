@@ -15,7 +15,7 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business 
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing

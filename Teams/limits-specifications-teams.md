@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: 
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto: 

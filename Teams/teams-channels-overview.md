@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: Learn about the different teams, channels, and apps available to a wide variety of requirements such as finance, event planning, sales, and more.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

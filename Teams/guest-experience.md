@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: laal
 search.appverid: MET150
 description: Learn about the Microsoft Teams functionality available to guest users.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

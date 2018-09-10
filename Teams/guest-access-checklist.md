@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
 description: Use this checklist to help set up guest access in Microsoft Teams Guest Access.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.collection: Strat_MT_TeamsAdmin
 appliesto: 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: Use this guide to help you plan, implement, and adopt Microsoft Teams in your organization.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
