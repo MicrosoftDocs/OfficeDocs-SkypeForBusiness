@@ -7,6 +7,7 @@ ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
+search.appverid: MET150
 description: Turn on or turn off the guest access feature in Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update
