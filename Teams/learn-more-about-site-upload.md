@@ -18,6 +18,6 @@ appliesto:
 ---
 
 Learn more about site upload 
-==========+=================
+============================
 
 We are working on this content.
