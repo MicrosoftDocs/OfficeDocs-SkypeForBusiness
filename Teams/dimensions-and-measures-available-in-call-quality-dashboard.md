@@ -107,18 +107,18 @@ The following table lists the dimensions currently available in CQD:
 |Duration 60 seconds or more  <br/> |Boolean  <br/> |True if stream had duration of 60 seconds of more, false otherwise.  |**Example value:** true  <br/> |
 |Duration (Seconds)  <br/> |Range (seconds)  <br/> |Duration of stream in seconds. Values grouped by range. |  **Example value:** 062: [1 -2)  <br/> |
 |Duration (Minutes)  <br/> |Range (minutes)  <br/> |Duration of stream in minutes. Values grouped by range. |  **Example value:** 065: [3 - 4)  <br/> |
-|Date  <br/> |String  <br/> |Date the stream ended.  |**Example value:** 2018-06-01  <br/> |
-|Year  <br/> |Integer  <br/> |Year of the end of the stream.  | **Example value:** 2018  <br/> |
-|Month  <br/> |Integer  <br/> |Month of the end of the stream.  | **Example value:** 2  <br/> |
-|Day  <br/> |Integer  <br/> |Day of the end of the stream.  |**Example value:** 1  <br/> |
-|Hour  <br/> |Integer  <br/> |Hour of the end of the stream.  | **Example value:** 1  <br/> |
-|Minute  <br/> |Integer  <br/> |Minute of the end of the stream.  | **Example value:** 30  <br/> |
-|Second  <br/> |Integer  <br/> |Second of the end of the stream.  |**Example value:** 12  <br/> |
-|Day Of Year  <br/> |Integer  <br/> |Day of year of the end of the stream.  | **Example value:** 32  <br/> |
-|Day Of Week  <br/> |String  <br/> |Day of week of the end of the stream.  | **Example value:** Wednesday  <br/> |
-|Day Number Of Week  <br/> |Integer  <br/> |Day number of week of the end of the stream.  | **Example value:** 3  <br/> |
-|Month Year  <br/> |String  <br/> |Month and year of the end of the stream.  |**Example value:** 2017-02  <br/> |
-|Full Month  <br/> |Date time  <br/> |Full Month of the end of the stream.  | **Example value:** 2017-02-01 T00:00:00  <br/> |
+|Date  <br/> |String  <br/> |Date the stream ended. Values are reported in the UTC time zone.  |**Example value:** 2018-06-01  <br/> |
+|Year  <br/> |Integer  <br/> |Year of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** 2018  <br/> |
+|Month  <br/> |Integer  <br/> |Month of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** 2  <br/> |
+|Day  <br/> |Integer  <br/> |Day of the end of the stream. Values are reported in the UTC time zone.  |**Example value:** 1  <br/> |
+|Hour  <br/> |Integer  <br/> |Hour of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** 1  <br/> |
+|Minute  <br/> |Integer  <br/> |Minute of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** 30  <br/> |
+|Second  <br/> |Integer  <br/> |Second of the end of the stream. Values are reported in the UTC time zone.  |**Example value:** 12  <br/> |
+|Day Of Year  <br/> |Integer  <br/> |Day of year of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** 32  <br/> |
+|Day Of Week  <br/> |String  <br/> |Day of week of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** Wednesday  <br/> |
+|Day Number Of Week  <br/> |Integer  <br/> |Day number of week of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** 3  <br/> |
+|Month Year  <br/> |String  <br/> |Month and year of the end of the stream. Values are reported in the UTC time zone.  |**Example value:** 2017-02  <br/> |
+|Full Month  <br/> |Date time  <br/> |Full Month of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** 2017-02-01T00:00:00  <br/> |
 |First Domain  <br/> |String  <br/> |Domain of the user using the first endpoint. If the first endpoint is a conference server, it is the domain of the organizer of the meeting. May also be the domain of service accounts used in scenario.  <br/> |**Example value:** contoso.com  <br/> |
 |Second Domain  <br/> |String  <br/> |Domain of the user using the second endpoint. If the second endpoint is a conference server, it is the domain of the organizer of the meeting. May also be the domain of service accounts used in scenario.  | **Example value:** contoso.com  <br/> |
 |First User Agent Category  <br/> |String  <br/> |Category of the user agent of the first endpoint.  <br/> |Blank values indicate a user agent that does not currently have a mapping such as 3rd party user agent.  <br/>  **Example value:** OC  <br/> |
