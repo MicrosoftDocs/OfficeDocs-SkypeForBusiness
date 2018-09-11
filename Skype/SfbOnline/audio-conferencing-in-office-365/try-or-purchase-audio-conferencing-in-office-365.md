@@ -1,5 +1,5 @@
 ---
-title: "Try or purchase Audio Conferencing in Office 365"
+title: "Try or purchase Audio Conferencing in Office 365 for Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,14 +8,14 @@ ms.topic: article
 ms.assetid: d080bb8c-3465-47bb-ad2b-9428f1a3fd24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
@@ -23,9 +23,13 @@ ms.custom:
 description: "See how to try or purchase Audio Conferencing (PSTN conferencing) licenses for Office 365 to set up conference calls that people can dial in to. "
 ---
 
-# Try or purchase Audio Conferencing in Office 365
+# Try or purchase Audio Conferencing in Office 365 for Skype for Business Online
 
-Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business and Microsoft Teams include the Audio Conferencing feature for just this situation! People can call into Skype for Business and Microsoft Teams meetings using a phone, instead of using the Skype for Business or Microsoft Teams app on a mobile device or PC.
+> [!Note]
+> For information about Audio Conferencing in Microsoft Teams, see [Try or purchase Audio Conferencing in Office 365 for Skype for Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).
+
+
+Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business includes the Audio Conferencing feature for just this situation! People can call into Skype for Business meetings using a phone, instead of using the Skype for Business app on a mobile device or PC.
 
 You only need to set up audio conferencing for people who plan to schedule or lead meetings. Meeting attendees who call in to the meeting don't need any licenses assigned to them and don't need other setup.
 
@@ -37,8 +41,8 @@ You must be an [About Office 365 admin roles](https://support.office.com/article
 
 ### To buy and assign user Audio Conferencing licenses:
 
-1. Find out if **Audio Conferencing** is available in your country/region. [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-
+1. Find out if **Audio Conferencing** is available in your country/region. [Countries and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
+    
 2. Get your **Audio Conferencing** licenses. If you want to:
 
   - **Try it** before you buy it, you can sign up for an Office 365 Enterprise E5 free trial that includes Audio Conferencing. See [Office 365 Enterprise E5 Trial](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
@@ -51,14 +55,14 @@ You must be an [About Office 365 admin roles](https://support.office.com/article
 
 ### To buy and assign pay-per-minute Audio Conferencing licenses:
 
-If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conferencing licenses. For additional information on pay-per-minute Audio Conferencing licenses, see [Audio Conferencing pay-per-minute](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md).
-
-1. Find out if **Audio Conferencing** is available in your country/region. [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-
+If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conferencing licenses. For additional information on pay-per-minute Audio Conferencing licenses, see [Audio Conferencing pay-per-minute](/microsoftteams/audio-conferencing-pay-per-minute). 
+  
+1. Find out if **Audio Conferencing** is available in your country/region. [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). 
+    
 2. Get your **Audio Conferencing** licenses. To acquire pay-per-minute licenses, please contact your account representative.
-
-3. [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md) for your organization. To set up Communications Credits, see [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
-
+    
+3. [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization) for your organization. To set up Communications Credits, see [What are Communications Credits?](/microsoftteams/what-are-communications-credits)
+    
     > [!IMPORTANT]
     > If Communications Credits haven't been set up, Audio Conferencing won't work for any users with pay-per-minute licenses.
 
@@ -83,7 +87,6 @@ The following steps are **optional**, but a lot of admins like to do them:
 
 4. [Set the length of the PIN for Audio Conferencing meetings](set-the-pin-length-for-audio-conferencing-meetings.md).
 
-##
 
 > [!NOTE]
 > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).

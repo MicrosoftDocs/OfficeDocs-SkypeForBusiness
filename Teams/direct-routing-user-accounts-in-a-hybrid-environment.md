@@ -7,6 +7,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
 description: "Learn about different combinations of user creation and which combinations are supported or unsupported."
 ---
@@ -61,4 +62,4 @@ A Skype for Business hybrid environment with PSTN connectivity provides flexib
 For all users, the user object **must** be created in the on-premises AD and synchronized to the Azure AD using the Azure AD Connect tool. Enabling users for Teams/Skype for Business **is not supported** if the user object is created directly in the Azure AD in a hybrid configuration. For new users, such as a new hire, who will be enabled directly for Teams, the user must be homed in Skype for Business on premises initially and moved to the online registrar. Creating users in online Skype for Business or Teams without first enabling them in on-premises pool with Enterprise Voice **is not supported**.
   
 
-The user must be enabled for Skype for Business and Enterprise Voice using on-premises Skype for Business user management tools. Enabling users for Skype for Business online only **is not supported**. Please see [this article](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) for more details on how to enable users for Skype for Business in hybrid configuration.
+The user must be enabled for Skype for Business and Enterprise Voice using on-premises Skype for Business user management tools. Enabling users for Skype for Business online only **is not supported**. Please see [this article](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) for more details on how to enable users for Skype for Business in hybrid configuration.

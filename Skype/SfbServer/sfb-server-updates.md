@@ -7,7 +7,7 @@ ms.date: 07/13/2018
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: skypeforbusiness-server-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: "Find and manage updates for Skype for Business Server 2015 and Lync 2013 in one place. Use the links on this page to get more information about updates, and then download the updates."

@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
 description: Use this guide to help you plan, implement, and adopt Microsoft Teams in your organization.
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
@@ -45,7 +46,7 @@ If Microsoft Teams is not enabled in your Office 365 tenant and you are an Offic
 
 ## Step 3: Complete technical planning
 
-Efficient technical planning is the foundation of a great user experience. If your organization has more than 50 seats and is participating in an [eligible plan](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365), you can use [FastTrack benefits](https://docs.microsoft.com/en-us/fasttrack/fasttrack-benefit-for-office-365), available at no additional cost to guide you through planning, deployment, and service adoption. Or, you can complete this work yourself using our FastTrack Onboarding Wizards, available from [FastTrack](https://fasttrack.microsoft.com/) once you sign in with your Office 365 account. The information below will help you complete this step for Teams. At a minimum, you’ll want to review these four articles:
+Efficient technical planning is the foundation of a great user experience. If your organization has more than 50 seats and is participating in an [eligible plan](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365), you can use [FastTrack benefits](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365), available at no additional cost to guide you through planning, deployment, and service adoption. Or, you can complete this work yourself using our FastTrack Onboarding Wizards, available from [FastTrack](https://fasttrack.microsoft.com/) once you sign in with your Office 365 account. The information below will help you complete this step for Teams. At a minimum, you’ll want to review these four articles:
 
 1.	[Check your environment's readiness for Teams](environment-readiness.md)
 2.	[Prepare your network for Teams](prepare-network.md)

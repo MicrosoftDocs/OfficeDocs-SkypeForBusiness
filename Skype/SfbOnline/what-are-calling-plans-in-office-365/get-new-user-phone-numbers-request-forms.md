@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c0295253-32cc-44ad-99bf-d4737a91a4aa
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: ms.lync.lac.GetNewNumbers
 ms.custom:
 - Calling Plans

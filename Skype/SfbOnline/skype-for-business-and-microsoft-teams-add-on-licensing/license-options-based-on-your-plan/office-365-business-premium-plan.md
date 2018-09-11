@@ -7,6 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -14,7 +15,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
@@ -46,9 +47,9 @@ If you have [Office 365 Business Premium](https://products.office.com/en-us/busi
 1. [Switch to a different Office 365 for business plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). We recommend that you evaluate an Enterprise E5 plan to see if it is more cost effective.
 
 2. Buy the **Phone System** add-on.
-
-3. Buy a [Calling Plan for Office 365](../../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md): you can only buy this after you buy the **Phone System** add-on.
-
+    
+3. Buy a [Calling Plan for Office 365](/MicrosoftTeams/calling-plans-for-office-365): you can only buy this after you buy the **Phone System** add-on.
+    
     This second option is ideal for businesses with several people who make and receive external phone calls.
 
 ## How to see prices and buy

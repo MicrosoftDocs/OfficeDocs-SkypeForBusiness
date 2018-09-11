@@ -8,13 +8,14 @@ ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -183,9 +184,9 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
   - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear this check box, callers won't be asked to record their name before they join a meeting.
 
 5. After you make your changes, click **Save**.
-
-See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
-
+    
+See [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
+  
  **Set the PIN length for meetings**
 
 1. Sign in to Office 365 with your work or school account.
@@ -197,9 +198,9 @@ See [Change the settings for an Audio Conferencing bridge](change-the-settings-f
 4. Under **Security**, enter the number of digits you want for the PIN in the **PIN length** list, and then click **Save**.
 
     The PIN must be between 4 and 12 digits. The default is 5.
-
-See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
-
+    
+See [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
+  
  **Enable or disable email from being sent to audio users**
 
 1. Sign in to Office 365 with your work or school account.

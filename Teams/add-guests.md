@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: laal
 description: Learn the tools available to an admin to add new guest users to an organization, including the Microsoft Teams desktop and web clients and the Azure Active Directory B2B collaboration portal.
 appliesto: 

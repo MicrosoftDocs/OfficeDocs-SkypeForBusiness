@@ -7,6 +7,7 @@ ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
+search.appverid: MET150
 description: Manage Microsoft Teams guest access features and capabilities through four different levels of authorization.
 appliesto: 
 - Microsoft Teams
@@ -50,7 +51,7 @@ Azure AD includes the following settings to configure external users:
 
 
 > [!NOTE]
-> You can also manage which domains can be invited into your tenant as guests. See [Allow/Block guest access to Office 365 groups](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups). 
+> You can also manage which domains can be invited into your tenant as guests. See [Allow/Block guest access to Office 365 groups](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups). 
 
 ## Microsoft Teams
 In Microsoft Teams, you can control whether the guest experience is enabled or disabled for your organization. The setting is disabled by default and applies at the tenant level for Microsoft Teams only.
@@ -99,7 +100,7 @@ To enable the full Teams guest access experience, Office 365 admins need to sele
 
 - In SharePoint Online: **Only allow sharing with external users already in the directory**
     
-    For more information, see [Manage external sharing for your SharePoint Online environment](https://docs.microsoft.com/en-us/sharepoint/external-sharing-overview).
+    For more information, see [Manage external sharing for your SharePoint Online environment](https://docs.microsoft.com/sharepoint/external-sharing-overview).
     
   
 - In Office 365 groups: **Let group owners add people outside the organization to groups**

@@ -8,11 +8,12 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
 description: Practical guidance for planning, deploying, and managing Audio Conferencing in Microsoft Teams using the Envision (Plan), Onboard (Deliver), Deliver Value (Operate) framework.
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
-redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
+redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
 ---
 
 Practical guidance for Audio Conferencing in Microsoft Teams
@@ -229,7 +230,7 @@ To plan for the technical implementation of Audio Conferencing, a series of deci
 
 ## Availability of Audio Conferencing
 
-Audio Conferencing is available in these [countries and regions](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Audio Conferencing is available in these [countries and regions](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 > [!IMPORTANT]
 > Due to legal constraints, for Audio Conferencing to be available to multinational organizations, the contract for Office 365 subscriptions must be sourced from countries and regions covered by Audio Conferencing service, or where Audio Conferencing service is commercially available from.
