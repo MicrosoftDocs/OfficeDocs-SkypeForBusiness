@@ -30,7 +30,7 @@ Teams live events policies are used to control who in your organization can hold
     - **Everyone in the organization** Users can create live events that only people in your organization can attend. 
     - **Specific users or groups** Users can create live events that only specific users or groups in your organization can attend. 
 - **Recording setting**
-It's important to know that this setting can only be applied to live events that are produced using Teams meetings, also known as quick start events.  
+This setting can only be applied to live events that are produced using Teams meetings, also known as quick start live events.  
     - **Always record** The live events created by users are always recorded. After the event is over, event team members can download the recording and attendees can watch the event. 
     - **Never record** The live events created by users are never recorded.
     - **Organizer can record or not** Users can decide whether to record the live event. If it is recorded, after the event is over, event team members can download the recording and attendees can watch the event. 
