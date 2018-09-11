@@ -37,7 +37,7 @@ For more information, see [Manage phone numbers for your organization](manage-ph
 |You need to change a user's number to a service number.  <br/> |[Send us](mailto:ptn@microsoft.com) your PIN and the list of user numbers you want to convert to service numbers. To set up a PIN, go [here](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
 |You need to transfer numbers from one Office 365 organization to another.  <br/> |[Send us](mailto:ptn@microsoft.com) the list of user (subscriber) phone numbers you want to transfer along with the PIN of the source organization where you want to transfer the numbers from. To set up a PIN, go [here](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
    
-## Related topics
+## Related topics 
 
 [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
