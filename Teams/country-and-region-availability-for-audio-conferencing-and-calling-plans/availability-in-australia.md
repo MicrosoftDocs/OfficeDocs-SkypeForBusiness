@@ -50,7 +50,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 ## Calling Plans
 > [!IMPORTANT]
-> Currently only available for preview and early adoption in Australia. For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
+> Only available through Telstra for Australian-based tenants. For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
 
 |**Feature**|**Details**|
 |:-----|:-----|
