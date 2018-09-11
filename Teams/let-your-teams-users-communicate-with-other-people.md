@@ -41,11 +41,13 @@ Follow these steps:
 
    2. At the top of the **External access** page, click **External access** to **On**. 
 
-   3. Add the other organization's domain to the allowed list by clicking **Add domain**. In the **Add a domain** pane, put in the domain name click **Allowed** and then **Done**.
+   3. If you want to allow all Teams organizations to communicate with users in your organization, skip to step 5. 
+   
+   4. If you want to limit which organizations can communicate with users in your organization, add the other organization's domain to the allowed list by clicking **Add domain**. In the **Add a domain** pane, put in the domain name click **Allowed** and then **Done**.
 
    4. Click **Save**. 
 
-   5. Then make sure the admin in the other Teams  organization does these same steps. For example, in their **allowed domains** list, their admin needs to enter the domain for your business.
+   5. Then make sure the admin in the other Teams  organization does these same steps. For example, in their **allowed domains** list, their admin needs to enter the domain for your business if they limit which organizations can communicate with their users. 
 
 ### Step 3 - Test it
 To test your setup, you need a Teams user who's not behind your firewall.
@@ -60,7 +62,7 @@ To test your setup, you need a Teams user who's not behind your firewall.
 
 ## Communicate with users in a Skype for Business Online organization
 
-If you are setting it up to let your Teams users find and contact users that are in a Skype for Business organization, you will the admin in that organization to follow these steps.
+If you are setting it up to let your Teams users find and contact users that are in a Skype for Business organization that limits who can contact their users, you will ask the admin in that organization to follow these steps.
 
 ![sfb-logo-30x30.png](media/sfb-logo-30x30.png) **Using Skype for Business admin center** 
 
@@ -72,7 +74,7 @@ Have the admin in that organization do these steps:
     
 3. To set up communication with a specific business or with users in another domain, in the drop-down box, choose **On only for allowed domains**.
     
-    OR, if you want to enable communication with everyone else in the world who has open Skype for Business policies, choose **On except for blocked domains**. This is the default setting.
+    OR, if they want to enable communication with everyone else in the world who has open Skype for Business policies, choose **On except for blocked domains**. This is the default setting.
     
 4. Under **Blocked or allowed domains**, choose **+** and add the name of the domain you want to allow. Make sure the admin in the other organization does these same steps. For example, in their **allowed domains** list, their admin needs to enter the domain for your business.
     
