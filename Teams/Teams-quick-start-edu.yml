@@ -181,7 +181,7 @@ items:
     > [!NOTE]
     > For help and support with tenant-wide settings or other issues, submit an inquiry at [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support).
       
-      [!NOTE]
+    > [!NOTE]
     > [School Data Sync](https://docs.microsoft.com/SchoolDataSync) makes it easier for teachers to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
 
     You'll need to have [Global Administrator](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) permissions to use the Office 365 admin center to manage Teams for your school.
@@ -235,7 +235,7 @@ items:
     ### Appendix
     #### How to create and assign a messaging policy
     1. See if any of the available policies in your tenants suit your requirements by running Get-CsTeamsMessagingPolicy.
-    2. If not, create a new policy by running New-CsTeamsMessagingPolicy -Identity <policy name> -<parameter name> - parameter value.
+    2. If not, create a new policy by running New-CsTeamsMessagingPolicy -Identity <policy name> -<parameter name> -<parameter value>.
     For more information, see [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)
 
     #### Sample script 
