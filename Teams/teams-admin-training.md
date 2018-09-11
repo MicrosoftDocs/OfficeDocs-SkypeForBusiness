@@ -103,7 +103,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>View best practice and how-to info videos on the Coffee in the Cloud channel on YouTube</h3>
+                        <h3>View best practice and how-to videos on the Coffee in the Cloud channel on YouTube</h3>
                     </div>
                 </div>
             </div>
