@@ -68,7 +68,7 @@ If you are setting it up to let your Teams users find and contact users that are
 
 Have the admin in that organization do these steps:
     
-1. In the Office 365 admin center, go to **Admin Centers** > **Skype for Business**.
+1. In the Office 365 admin center, go to **Admin Centers** > **Teams & Skype** > **Legacy portal**.
   
 2. In the **Skype for Business admin center**, choose **Organization** > **External communications**.
     
