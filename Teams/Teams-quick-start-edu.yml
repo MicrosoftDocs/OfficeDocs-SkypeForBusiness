@@ -178,8 +178,6 @@ items:
     Teams uses SharePoint as the default file storage provider. For more information, see [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md). To learn how your quota is calculated and how best to manage it, see [Manage site collection storage limits](https://support.office.com/article/Manage-site-collection-storage-limits-77389C2C-8E7E-4B16-AB97-1C7103784B08). If you don’t want to manage each site’s collection, you'll also learn how to let the service automatically handle that for you. 
 
     ### Settings by user/license type
-    > [!NOTE]
-    > For help and support with tenant-wide settings or other issues, submit an inquiry at [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support).
       
     > [!NOTE]
     > [School Data Sync](https://docs.microsoft.com/SchoolDataSync) makes it easier for teachers to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
@@ -209,14 +207,18 @@ items:
     To enable a license type to have access to Teams, move the toggle to **On**, then select **Save**. This is just a temporary switch; eventually, you'll need to manage user access to Teams through user licenses as you would for all other Office workloads.
     
     ![Screenshot of the settings for Microsoft Teams license picker section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-toggle-on.png)
+
+    > [!NOTE]
+    > For help and support with tenant-wide settings or other issues, submit an inquiry at [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support).
+
 - title: Configure Teams by user or license type
   durationInMinutes: 7
   content: |
    
-   ## Important 
+   ### Important 
      [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)] 
      
-    As part of the migration to the new Microsoft Teams and Skype for Business Admin Center, how to configure Teams by license type is accomplished via policy. The policy types are accessible via the Admin Center navigation. See below for an example list of Messaging policies.
+    As part of the migration to the new Microsoft Teams & Skype for Business Admin Center, how to configure Teams by license type is accomplished via policy. The policy types are accessible via the Admin Center navigation. See below for an example list of Messaging policies.
 
    ![Screenshot of the Messaging policies page in the Microsoft Teams & Skype for Business Admin Center.](media/teams-messaging-policies-edu.PNG)
    
@@ -233,8 +235,8 @@ items:
         ![Screenshot of the Edit user policies section in the Microsoft Teams & Skype for Business Admin Center.](media/teams-edit-user-policies-edu.PNG)
    ### How to enable different policies for faculty and students
    To have custom settings for faculty and students (for example, chat is enabled for faculty but not for students), there are two methods to create and assign them: 
-   -Use the Powershell module to run a script to create and assign multiple policies. See the Appendix for script examples and documentation. 
-   -In the Admin Center, create a new policy and assign on the **Users** tab. 
+      - Use the Powershell module to run a script to create and assign multiple policies. See the Appendix for script examples and documentation. 
+      - In the Admin Center, create a new policy and assign on the **Users** tab. 
     > [!NOTE]
     > Until a custom policy is assigned to a user, the user will be using the Global policy setting. This means that if Chat is enabled in the Global policy and disabled in the custom Student policy, until the custom policy is assigned, the Student will be able to chat. In this case, it may be easier to set Chat as disabled globally and use custom policies to enable Chat for Faculty users. 
 
