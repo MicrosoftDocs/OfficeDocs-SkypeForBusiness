@@ -80,6 +80,6 @@ Have the admin in that organization do these steps:
     
 ### Related topics
 
-[Sign in teams](sign-in-teams.md)
+[Sign in to Microsoft Teams](sign-in-teams.md)
 [End user training for Teams](enduser-training.md)
 
