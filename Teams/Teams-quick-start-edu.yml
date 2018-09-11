@@ -201,6 +201,7 @@ items:
     4. After the Microsoft Teams settings page opens, the configuration options will come into view. From here, you may manage your licenses.
 
          ![Screenshot of Microsoft Teams settings section in the Office 365 Admin Center.](media/Services-and-addins-control-Microsoft-Teams.PNG)
+         
     You should only have Education listed in your license types. The dropdown includes Education-Faculty and staff, Education-Student, and Guest. The system can only differentiate users based on the licenses you've assigned them. If you only have one license type, the settings here can be treated as tenant-wide settings.  
 
     [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
