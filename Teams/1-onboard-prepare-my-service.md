@@ -61,7 +61,7 @@ supplementary guide to these checklists.
 
 >[!NOTE]
 >Most of the configuration settings are common between Teams and Skype for
-Business Online. You use Office 365 Skype for Business Administration Center to
+Business Online. You use the Office 365 Admin Center and Teams & Skype for Business Admin Center to
 configure those settings.
 
 <table>
