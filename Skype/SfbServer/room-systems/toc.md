@@ -23,7 +23,7 @@
 ### [Devices with OMS](../manage/skype-room-systems-v2/oms.md)
 ### [Settings with an XML file](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [Use the recovery tool](../manage/skype-room-systems-v2/recovery-tool.md)
-# Skype Room Systems (v1)
+# Lync Room System (SRS v1)
 ## Plan
 ### [Deploy Skype Room System in Skype for Business Server](../deploy/deploy-clients/deploy-skype-room-system.md)
 ## Deploy
@@ -42,3 +42,4 @@
 ### [Skype Room System room setup scripts](../deploy/deploy-clients/room-setup-scripts.md)
 ## Manage
 ### [Manage Skype Room System accounts](../deploy/deploy-clients/manage-skype-room-system-accounts.md)
+## [Migrate](../deploy/deploy-clients/lrs-migration.md)
