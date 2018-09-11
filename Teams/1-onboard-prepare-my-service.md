@@ -3,7 +3,7 @@ title: Prepare to deploy Microsoft Teams cloud voice service
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
