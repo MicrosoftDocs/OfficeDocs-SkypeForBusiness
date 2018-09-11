@@ -7,7 +7,7 @@ ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
 description: Use this PowerShell script to clean up Microsoft Teams on targeted machines or for specific users.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 ---
 

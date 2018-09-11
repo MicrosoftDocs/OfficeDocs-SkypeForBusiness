@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Accelerated ten-step action plan for upgrading from Skype for Business to Teams 
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
@@ -118,7 +119,7 @@ Maintain upgrade momentum by enabling the user upgrade notification via the admi
 
 **Resources:**
 
--   [Setting your coexistence and upgrade settings](upgrade-basic-powershell.md)
+-   [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
 [Return to top](#about-upgrade-basic)
 
@@ -151,7 +152,7 @@ We recommend that after everyone has been upgraded, you send an email welcoming 
 
 **Resources:**
 
--   [Set your coexistence and upgrade settings](upgrade-basic-powershell.md)
+-   [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 -   [Sample email: welcome users to Teams](upgrade-emails-surveys.md#step-7-email)
 
 [Return to top](#about-upgrade-basic)

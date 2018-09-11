@@ -66,7 +66,7 @@ The following requirements assume that you already have Skype for Business Serve
    - Skype for Business Server Administrator 
    - Office 365 Global Administrator 
 
-- If you have not already done so, turn on Call Quality Dashboard as described in [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](../../SfbOnline/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md).
+- If you have not already done so, turn on Call Quality Dashboard as described in [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 
 ## Comparison of on-premises and online Call Quality Dashboard (CQD) reports
 

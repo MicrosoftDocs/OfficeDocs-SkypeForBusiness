@@ -8,7 +8,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vichau, majafry
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
 ms.custom:
 - NewAdminCenter_Update
@@ -99,8 +100,6 @@ Supported mobile platforms for Microsoft Teams mobile apps are the following:
 -   **Android**: 4.4 or later
 
 -   **iOS**: 10.0 or later
-
--   **Windows Phone**: Windows 10 Mobile
 
 > [!NOTE]
 > The mobile version must be available to the public in order for Teams to work as expected.
