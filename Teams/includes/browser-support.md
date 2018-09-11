@@ -9,3 +9,6 @@ Teams fully supports the following internet browsers, with noted exceptions.
 
 > [!NOTE]
 > Safari isn't currently supported. Check the [Teams Roadmap](https://aka.ms/TeamsRoadmap) for news about new features in Teams. Users who try to open Teams on Safari will be directed to download the Teams desktop client.
+
+> [!NOTE]
+> As long as an operating system can run the supported browser Teams is supported. For example, running Firefox on the Linux operating system is an option for using Teams.
