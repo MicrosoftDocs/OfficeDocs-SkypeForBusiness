@@ -1,5 +1,5 @@
 ---
-title: "Retirement information and options for Skype for Business Online Plan 1 customers"
+title: "Skype for Business Online Plan 1 retirement "
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom:
 description: "The Skype for Business Online Plan 1 has been retired. However, if you have a current subscription to Skype for Business Online Plan 1, this change won’t affect you right away. When you are ready to move to a new plan—either now or during renewal—you’ll have three options."
 ---
 
-# Retirement information and options for Skype for Business Online Plan 1 customers
+# Skype for Business Online Plan 1 retirement 
 
 The Skype for Business Online Plan 1 has been retired. However, if you have a current subscription to Skype for Business Online Plan 1, this change won’t affect you right away. As a global Office 365 admin, you’ll receive email updates and see posts in the message center (part of the Office 365 admin center) with information on when you need to take action. In the meantime, you can continue to use your existing Skype for Business Online Plan 1 licenses.
 
@@ -29,15 +29,8 @@ When you are ready to move to a new plan — either now or during renewal — yo
 
 ## Compare your options for upgrading or switching plans 
 
-You can maintain the same functionality you had with Skype for Business Online Plan 1 while taking advantage of new features and functionality from Office 365.
+You can maintain the same functionality you had with Skype for Business Online Plan 1 while taking advantage of new features and functionality from Office 365. All plan options available include all the features that came with Skype for Business Online Plan 1, as well as IM and presence, peer-to-peer audio and video over IP, and the ability to join meetings as an authenticated user.
 
-|||||
-|:-----|:-----|:-----|:-----|
-|**Feature** |**Office 365 F1**	| **Microsoft 365 F1** | **Any Office 365 Offer** |
-|Get all the features included in Skype for Business Online Plan 1?	|Yes|Yes|Yes|
-|IM and Presence?|Yes|Yes	|Yes|
-|Peer-to-peer Audio and Video over IP?|Yes|Yes|Yes|
-|Join meetings as an authenticated user?|Yes|Yes|Yes|
 
 ## Option 1: Switch to Office 365 F1
 
