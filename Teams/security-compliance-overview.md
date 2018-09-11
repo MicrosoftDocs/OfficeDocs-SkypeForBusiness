@@ -3,7 +3,7 @@ title: Overview of security and compliance in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/02/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
@@ -220,11 +220,13 @@ Content Search and eDiscovery do not require enablement in the Security & Compli
 Location of data in Teams
 -------------------------
 
-Data in Teams resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Americas, EMEA, and APAC regions. 
+Data in Teams resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Australia, Canada, India, Japan, UK, Americas, APAC, and EMEA regions. 
 
 > [!IMPORTANT]
-> Teams currently offers data residency in the United Kingdom, Canada, and India for new tenants only. 
-> A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Teams. Existing tenants from the UK, Canada, and India will continue to remain in the EMEA, Americas, and APAC regions respectively, until a migration plan is announced (anticipated in CY2019).
+> Teams currently offers data residency in the Australia, Canada, India, Japan, and UK for new tenants only. 
+> A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Teams. Existing tenants from Australia, India, and Japan will 
+> continue to have their Teams data stored in the APAC region. Existing tenants in Canada and the UK will have their data stored in the Americas and EMEA 
+> region, respectively.
 
 To learn more about the launch of India and UK data residency for Teams, read Ansuman Acharya's blog post, [Microsoft Teams launches India Data Residency, other geos coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
 
