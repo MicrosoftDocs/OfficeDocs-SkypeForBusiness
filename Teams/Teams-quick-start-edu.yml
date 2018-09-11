@@ -204,8 +204,6 @@ items:
          
     You should only have Education listed in your license types. The dropdown includes Education-Faculty and staff, Education-Student, and Guest. The system can only differentiate users based on the licenses you've assigned them. If you only have one license type, the settings here can be treated as tenant-wide settings.  
 
-    [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
-
     ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-dropdown.png)
 
     To enable a license type to have access to Teams, move the toggle to **On**, then select **Save**. This is just a temporary switch; eventually, you'll need to manage user access to Teams through user licenses as you would for all other Office workloads.
@@ -215,28 +213,36 @@ items:
   durationInMinutes: 7
   content: |
    
-   . 
+   ## Important 
      [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)] 
+     
+    As part of the migration to the new Microsoft Teams and Skype for Business Admin Center, how to configure Teams by license type is accomplished via policy. The policy types are accessible via the Admin Center navigation. See below for an example list of Messaging policies.
+
    ![Screenshot of the Messaging policies page in the Microsoft Teams & Skype for Business Admin Center.](media/teams-messaging-policies-edu.PNG)
-   As part of the migration to the new Microsoft Teams and Skype for Business Admin Center, how to configure Teams by license type is accomplished via policy. The policy types are accessible via the Admin Center navigation. See below for an example list of Messaging policies.
+   
    With policies, features can now be turned on/off at the per-user level. Here’s how policy assignments work:
-   -By default, every new user will get the Global polcy (tenant-level settings). 
-   -A user can be automatically assigned a default user policy based on an attribute (for example, the EduStudent policy can be auto-assigned to a Student). This assignment can be verified under the **Users** tab. These default policies are not editable.  
-   ![Screenshot of the Assigned policies section of the Microsoft Teams & Skype for Business Admin Center.](media/teams-assigned-policies-edu.PNG)
-   -A custom policy can be assigned to any user. To do this, click **+ New policy**, set the features, and click **Save**. This custom policy can be assigned to a user through the **Users** tab or via script.
-   ![Screenshot of the New policy option on the Messaging policies page of the Microsoft Teams & Skype for Business Admin Center.](media/teams-new-messaging-policy-edu.PNG)
-   ![Screenshot of the Edit option for assigned policies in the Microsoft Teams & Skype for Business Admin Center.](media/teams-assigned-policy-edit-edu.PNG)
-   ![Screenshot of the Edit user policies section in the Microsoft Teams & Skype for Business Admin Center.](media/teams-edit-user-policies-edu.PNG)
+      - By default, every new user will get the Global polcy (tenant-level settings).
+      - A user can be automatically assigned a default user policy based on an attribute (for example, the EduStudent policy can be auto-assigned to a Student). This assignment can be verified under the **Users** tab. These default policies are not editable.
+
+       ![Screenshot of the Assigned policies section of the Microsoft Teams & Skype for Business Admin Center.](media/teams-assigned-policies-edu.PNG)
+      - A custom policy can be assigned to any user. To do this, click **+ New policy**, set the features, and click **Save**. This custom policy can be assigned to a user through the **Users** tab or via script.
+        ![Screenshot of the New policy option on the Messaging policies page of the Microsoft Teams & Skype for Business Admin Center.](media/teams-new-messaging-policy-edu.PNG)
+
+        ![Screenshot of the Edit option for assigned policies in the Microsoft Teams & Skype for Business Admin Center.](media/teams-assigned-policy-edit-edu.PNG)
+
+        ![Screenshot of the Edit user policies section in the Microsoft Teams & Skype for Business Admin Center.](media/teams-edit-user-policies-edu.PNG)
    ### How to enable different policies for faculty and students
    To have custom settings for faculty and students (for example, chat is enabled for faculty but not for students), there are two methods to create and assign them: 
    -Use the Powershell module to run a script to create and assign multiple policies. See the Appendix for script examples and documentation. 
    -In the Admin Center, create a new policy and assign on the **Users** tab. 
     > [!NOTE]
     > Until a custom policy is assigned to a user, the user will be using the Global policy setting. This means that if Chat is enabled in the Global policy and disabled in the custom Student policy, until the custom policy is assigned, the Student will be able to chat. In this case, it may be easier to set Chat as disabled globally and use custom policies to enable Chat for Faculty users. 
+
     ### Appendix
     #### How to create and assign a messaging policy
     1. See if any of the available policies in your tenants suit your requirements by running Get-CsTeamsMessagingPolicy.
-    2. If not, create a new policy by running New-CsTeamsMessagingPolicy -Identity <policy name> -<parameter name> -<parameter value>.
+    2. If not, create a new policy by running New-CsTeamsMessagingPolicy -Identity &lt;policy name&gt; -&lt;parameter name&gt; -&lt;parameter value&gt;.
+    
     For more information, see [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)
 
     #### Sample script 
