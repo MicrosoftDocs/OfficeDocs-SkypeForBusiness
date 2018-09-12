@@ -156,18 +156,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
             </div>
         </div>
     </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Guest access</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
+        <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -178,8 +167,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 </div>
             </div>
         </div>
-    </li>
-<li>
+    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -192,31 +180,42 @@ Use these tutorials, videos and other training resources to learn about Teams an
             </div>
         </div>
     </li>
-    <li>
+<li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Cloud voice</h3>
-                        <p>[Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)</p>
-                        <p>[Videos: Audio Conferencing](audio-conferencing-videos.md)</p>
-                        <p>[Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)</p>
+                        <h3>Audio Conferencing</h3>
+                         <p>[Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)</p>
+                         <p><iframe width="350" height="200" src="https://www.youtube.com/embed/AGPvaW4Vg0o" frameborder="0" allowfullscreen></iframe></p>
+                         <p><iframe width="350" height="200" src="https://www.youtube.com/embed/AWbuvcWcYIc" frameborder="0" allowfullscreen></iframe></p>
+                         <p><iframe width="350" height="200" src="https://www.youtube.com/embed/5k0C21KAsns" frameborder="0" allowfullscreen></iframe></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Calling Plans</h3>
+                         <p>[Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)</p>
                         <p>[Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Direct Routing</h3>
                         <p><iframe width="350" height="200" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Security & compliance</h3>
-                                          </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+      </ul>
