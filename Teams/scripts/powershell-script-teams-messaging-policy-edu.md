@@ -15,7 +15,7 @@ PowerShell script sample - Create and assign a messaging policy
 
 Use this PowerShell script to create a messaging policy in Microsoft Teams and assign it to users. 
 
-For more information about using this PowerShell script, see [Quick start - Teams for Education](teams/teams-quick-start-educ.yml).
+For more information about using this PowerShell script, see [Quick start - Teams for Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).
 
 If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
 
