@@ -223,7 +223,7 @@ items:
    ![Screenshot of the Messaging policies page in the Microsoft Teams & Skype for Business Admin Center.](media/teams-messaging-policies-edu.PNG)
    
    With policies, features can now be turned on/off at the per-user level. Here’s how policy assignments work:
-      - By default, every new user will get the Global polcy (tenant-level settings).
+      - By default, every new user will get the Global policy (tenant-level settings).
       - A user can be automatically assigned a default user policy based on an attribute (for example, the EduStudent policy can be auto-assigned to a Student). This assignment can be verified under the **Users** tab. These default policies are not editable.
 
        ![Screenshot of the Assigned policies section of the Microsoft Teams & Skype for Business Admin Center.](media/teams-assigned-policies-edu.PNG)
