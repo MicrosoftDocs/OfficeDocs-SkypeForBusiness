@@ -245,11 +245,11 @@ items:
     1. See if any of the available policies in your tenants suit your requirements by running Get-CsTeamsMessagingPolicy.
     2. If not, create a new policy by running New-CsTeamsMessagingPolicy -Identity &lt;policy name&gt; -&lt;parameter name&gt; -&lt;parameter value&gt;.
     
-    For more information, see [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)
+    For more information, see [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy)
 
     #### Sample script 
 
-    See [Powershell script sample - Create and assign a messaging policy](scripts/powershell-script-teams-messaging-policy-edu.md).
+    See [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy).
 
 - title: Distribute to clients
   durationInMinutes: 1
