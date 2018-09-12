@@ -249,7 +249,7 @@ items:
 
     #### Sample script 
 
-    See 
+    See [Powershell script sample - Create and assign a messaging policy](scripts/powershell-script-teams-messaging-policy-edu.md).
 
 - title: Distribute to clients
   durationInMinutes: 1

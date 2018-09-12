@@ -27,7 +27,7 @@ If you're new to PowerShell and need help getting started, see [Overview of Azur
 .SYNOPSIS
 This script creates a messaging policy in Teams and assigns it to users.
 .DESCRIPTION
-Use this script to create a messaging policy and assign it to your users.
+Use this script to create a messaging policy and assign it to users in your organization.
 #>
 
 $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
