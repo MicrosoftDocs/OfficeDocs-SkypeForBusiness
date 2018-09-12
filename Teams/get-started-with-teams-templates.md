@@ -59,4 +59,178 @@ By default the base template is set to **Standard** which doesn't contain any ad
 | Standard | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json) | No additional apps and properties |
 | Healthcare - care coordination | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-CC.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-CC.json#) | Apps:<br/> - Patients app (pinned to the **General** tab)<br/> <br/>Channels: <br/> - Announcements<br/> - Diabetes<br/> - Cardiovascular<br/> - Registered nurses |
 | Healthcare - process huddle | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-PH.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-PH.json#) | Channels:<br/> - Avoidable deaths<br/> - Mortality review <br/> - Preventing falls <br/> - Sepsis plans |
-| Education - Class team* | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-CT.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-CT.json#) |
+| Education - Class team<sup>1</sup> | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-CT.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-CT.json#) | Apps:<br/> - OneNote Class Notebook (pinned to the **General** tab) <br/> - Assignments app (pinned to the **General** tab) <br/><br/> Team properties <br/> - Team visibility set to **HiddenMembership** (cannot be overridden) |
+| Education - Staff team<sup>1</sup> | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-ST.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-ST.json#) | Apps<br/> - OneNote Staff Notebook (pinned to the **General** tab) |
+
+<sup>1</sup> Publication in late October, 2018
+
+> [!NOTE]
+> We'll be adding more base template types in future releases of Microsoft Teams, so check back for the most up-to-date information on supported properties.
+
+## Examples 
+
+You can start creating a team via template by installing [Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview).
+
+### Create a team from a template
+
+#### Requests
+
+**Request to create a team with the standard base template**
+
+~~~
+POST   /teams
+Authorization: Bearer <TOKEN>
+Content-Type: application/json
+{
+    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
+    "schemaVersion": "1.0",
+    
+    "teamDisplayName": "My Sample Team",
+    "teamDescription": "My Sample Team’s Description",
+}
+
+~~~
+
+**Request to create a team with an extra channel and disallow members from deleting channels**
+
+~~~
+POST   /teams
+Authorization: Bearer <TOKEN>
+Content-Type: application/json
+{
+    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
+    "schemaVersion": "1.0",
+    
+    "teamDisplayName": "My Sample Team",
+    "teamDescription": "My Sample Team’s Description",
+    "channels": [
+        {
+            "displayName": "Interns",
+            "autoFavorite": false
+        }
+    ],
+    "memberSettings": {
+        "allowDeleteChannels": false,
+    }
+}
+
+~~~
+
+**Request to create a team with all supported properties**
+
+~~~
+POST   /teams
+Authorization: Bearer <TOKEN>
+Content-Type: application/json
+{
+    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
+    "schemaVersion": "1.0",
+ 
+    "teamType": "Healthcare_CareCoordination",
+    "visibility": "Private",
+    "teamDisplayName": "My Care Team",
+    "teamDescription": "My Care Team’s description",
+ 
+    "visibility": "Private",
+    "channels": [
+        {
+            "displayName": "General  ",
+            "autoFavorite": true,
+            "tabs": [
+                   {
+                       "appId": "0d820ecd-def2-4297-adad-78056cde7c78",
+                       "tabDisplayName": "Intranet”
+                   }
+               ]
+        },
+        {
+            "displayName": "Announcements",
+            "autoFavorite": true
+        },
+        {
+            "displayName": "Diabetes",
+            "autoFavorite": true
+        },
+        {
+            "displayName": "Cardiovascular",
+            "autoFavorite": true
+        },
+        {
+            "displayName": "Registered Nurses",
+            "autoFavorite": true
+        }
+    ],
+ 
+     "memberSettings": {
+        "allowCreateUpdateChannels": true,
+        "allowDeleteChannels": true,
+        "allowAddRemoveApps": true,
+        "allowCreateUpdateRemoveTabs": true,
+        "allowCreateUpdateRemoveConnectors": true
+      },
+ 
+      "guestSettings": {
+        "allowCreateUpdateChannels": false,
+        "allowDeleteChannels": false
+      },
+ 
+      "messagingSettings": {
+        "allowUserEditMessages": true,
+        "allowUserDeleteMessages": true,
+        "allowOwnerDeleteMessages": true,
+        "allowTeamMentions": true,
+        "allowChannelMentions": true
+      },
+ 
+      "funSettings": {
+        "allowGiphy": true,
+        "giphyContentRating": "moderate",
+        "allowStickersAndMemes": true,
+        "allowCustomMemes": true
+      }
+ 
+ 
+    "installedApplications": [
+      {
+        "id": "0d820ecd-def2-4297-adad-78056cde7c78"
+      }
+    ]
+}
+~~~
+
+#### Response
+
+~~~
+HTTP/1.1 202 Accepted
+Content-Type: application/json
+Location: /workflow/status/c953c202-7b44-4a63-aa33-364fcb2d65aa
+{
+    "workflowId": "c953c202-7b44-4a63-aa33-364fcb2d65aa",
+    "statusUri": "https://<apihostandpath>/workflow/status/c953c202-7b44-4a63-aa33-364fcb2d65aa"
+}
+~~~
+
+### Get status
+
+#### Request
+
+~~~
+GET   /workflow/status/c953c202-7b44-4a63-aa33-364fcb2d65aa
+Authorization: Bearer <TOKEN>
+~~~
+
+#### Response
+
+~~~
+HTTP/1.1 200 OK
+Content-Type: application/json
+{
+    "status": "[InProgress|Completed|Cancelled|Failed]"
+}
+~~~
+
+## Related topics
+
+- [Create team](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/team_put_teams) (in preview)
+- [New-Team](https://docs.microsoft.com/en-us/powershell/module/teams/New-Team?view=teams-ps)
+- [Admin training for Microsoft Teams](itadmin-readiness.md)
