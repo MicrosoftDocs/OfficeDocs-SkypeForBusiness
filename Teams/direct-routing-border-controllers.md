@@ -48,5 +48,6 @@ If you have any questions about SBC certification program for Direct Routing ple
 |     | SBC SWe  |   &#10004;    |    Pending     |    V6.2      |
 |     |SBC 1000   |     &#10004;   |     Pending    |    V7.0.2   |&#10004; 
 |     | SBC 2000    |     &#10004;   |    Pending     |    V7.0.2      |
+|     | SBC SWeLite     |&#10004; | Pending | 7.0.4
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    Think 365 SBC      |  &#10004;       |    Pending     |   V1.4       |
 |     |         |         |         |         |
