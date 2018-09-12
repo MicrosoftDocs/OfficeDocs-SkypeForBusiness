@@ -18,21 +18,27 @@ description: "Overview of using a Cloud Auto Attendant with Skype for Business S
 
 ## Feature Overview
 
-The Auto Attendant used with Exchange Unified Messaging  (with Exchange Server 2013 or Exchange Server 2016) is no longer available in Exchange Server 2019 or Exchange Online. If your implementation of Skype for Business Server 2019 integrates with either of these Exchange versions, you'll need to use the online Cloud Voice features associated with Phone System. This inherently means that you will have a hybrid implementation is Skype for Business Server 2019. See [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md) for details.
+The Auto Attendant used with Exchange Unified Messaging (Exchange Server 2013 or Exchange Server 2016) is no longer available in Exchange Server 2019 or Exchange Online. If your implementation of Skype for Business Server 2019 integrates with either of these Exchange versions, you'll need to use the online Cloud Voice features associated with Phone System. This inherently means that you will have a hybrid implementation of Skype for Business Server 2019. See [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md) for details.
 
-With Cloud Auto Attendant you will be able to:
+You can use Cloud Auto Attendants to:
 
-* Create new Cloud Auto Attendants that work together as a system.
-* Define routing of inbound PSTN calls that arrive on a local (on-premise) trunk, gateway/SBC and Mediation Server and must be routed to an instance of the Auto Attendant service in the cloud.
-* Access reporting and other service information.
+- Create new Cloud Auto Attendants that work together as a system.
+- Define routing of inbound PSTN calls that arrive on a local (on-premise) trunk, gateway/SBC and Mediation Server and must be routed to an instance of the Auto Attendant service in the cloud.
+- Access reporting and other service information.
 
 Implementing this feature assumes you have already implemented [Cloud Voicemail](plan-cloud-voicemail.md), in addition you will need to: 
-1. Create on premise disabled user objects (DUOs) for each Auto Attendant node, including assigning phone numbers and licenses to the objects. Note that you now have the ability to assign licenses on-premise phone numbers licenses used by online services like Phone System. 
+1. Create on premise endpoints for each Auto Attendant node, including assigning phone numbers and licenses to the objects. Note that you now have the ability to assign licenses used by online services like Phone System to on-premise phone numbers. 
 2. Implement a new Cloud Auto Attendant service with Skype for Business Online and Phone System. See [Configure cloud auto attendant](configure-cloud-auto-attendant.md) for implementation details.
 
-<!-- https://docs.microsoft.com/en-us/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant
+In this context, an automated attendant or auto attendant menu system transfers callers to the extension of a user or department without the intervention of a receptionist or an operator. Each automated greeting or menu is a distinct virtual user on your Skype for Business 2019 system, and several of them can be structured into a compelte system that serves the organization's needs.
 
-A Unified Messaging (UM) dial plan contains configuration information related to your telephony network. A UM dial plan establishes a link from the telephone extension number of a user enabled for voice mail to their mailbox. When you create a UM dial plan, you can configure the number of digits in the extension numbers, the Uniform Resource Identifier (URI) type, and the Voice over IP (VoIP) security setting for the dial plan. 
+In many auto attendant systems, a receptionist or operator can be reached by pressing or saying zero. Some auto attendant systems use message-only information menus and voice menus so an organization can provide business hours, directions to the premises, information about job opportunities, and answers to other frequently asked questions. After the message plays, callers are forwarded to the receptionist or operator, or they can return to the main menu.
+
+Although auto attendants can be very useful, if they aren't designed and configured correctly, they can confuse and frustrate callers. For example, especially in large organizations, when auto attendants aren't designed correctly, callers can be led through a lengthy series of questions and menu prompts before they're finally transferred to a person to answer their questions.
+
+Auto Attendants also have a number of settings (such as business hours or a holiday schedule, or choosing the codecs used, inaction timeout) that are configurable to an organization's needs.
+
+<!-- https://docs.microsoft.com/en-us/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant
 
 List of UM Dial plan config options for Get-UMDialPlan: 
 https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.umdialplan_members.aspx 
@@ -40,20 +46,7 @@ https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.syste
 List of UM auto attendant config options for Get-UMAutoAttendant 
 https://docs.microsoft.com/en-us/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps
 https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx 
-
- 
-Each time you create a UM dial plan, a UM mailbox policy is also created. The UM mailbox policy is named <DialPlanName> Default Policy. 
-
-An auto attendant is a configuration option within a Dial Plan. Auto Attendant contains a number of settings (such as business hours or a holiday schedule, or choosing the codecs used, inaction timeout) as well as a system of recorded messages played for callers.
-
-In telephony or Unified Messaging environments, an automated attendant or auto attendant menu system transfers callers to the extension of a user or department without the intervention of a receptionist or an operator. In many auto attendant systems, a receptionist or operator can be reached by pressing or saying zero. Some auto attendant systems use message-only information menus and voice menus so an organization can provide business hours, directions to the premises, information about job opportunities, and answers to other frequently asked questions. After the message plays, callers are forwarded to the receptionist or operator, or they can return to the main menu.
-
-Although auto attendants can be very useful, if they aren't designed and configured correctly, they can confuse and frustrate callers. For example, especially in large organizations, when auto attendants aren't designed correctly, callers can be led through a lengthy series of questions and menu prompts before they're finally transferred to a person to answer their questions.
-
 -->
-
-
-
 See:
 
 - [What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
@@ -64,18 +57,20 @@ See:
 
 ## Migrating a previously implemented Exchange UM Auto Attendant system
 
-Currently we don't support automated migration of a UM auto attendant system created in Exchange 2013 or 2016. To manually re-create an auto Attendant system, you'll need to:
+Currently we don't support automated migration of a UM auto attendant system created in Exchange 2013 or 2016. To manually re-create an Auto Attendant system, you'll need to:
 
-1. Use the Exchange admin tools to review the structure of the old Auto Attendant system, including any nested Auto Attendants and call queues.
+1. Use Exchange admin powershell commands to review the structure of the old Auto Attendant system, including any nested Auto Attendants and call queues.
 2. Create copies of text-to-speech scripts or recorded messages associated with each UM Auto Attendant node.
-3. Create on premise disabled user objects (DUOs) for each Auto Attendant node, including assigning phone numbers and licenses to the objects. Note that you now have the ability to assign on-premise phone numbers licenses used by online services like Phone System. 
+3. Create on premise endpoints for each Auto Attendant node, including assigning phone numbers and licenses to the objects. Note that you now have the ability to assign on-premise phone numbers licenses used by online services like Phone System. 
 4. Implement a new Cloud Auto Attendant service with Skype for Business Online and Phone System. See [Configure cloud auto attendant](configure-cloud-auto-attendant.md) for implementation details. As you do this, upload the text-to-speech scripts or recorded messages associated with each UM Auto Attendant node.
+
+These steps are fleshed out in [Manually moving an Exchange UM Auto Attendant to Cloud Auto Attendant](configure-cloud-auto-attendant.md#manually-moving-an-exchange-um-auto-attendant-to-cloud-auto-attendant)
 
 As you review the structure, you can use the questions and activities described in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml) to either capture or reassess the UM Auto Attendant implementation.
 
 ## Designing the Auto Attendant structure
 
-If you're designing an Auto Attendant system from scratch, review the questions and activities in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml). 
+If you're designing an Auto Attendant system from scratch, review the questions and activities in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml).
 
 ## Writing better Auto Attendant scripts
 
