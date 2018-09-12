@@ -124,7 +124,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Plan and deploy</h3>
-                        <p>[Quick start - Teams planning guide]
+                        <p>[Quick start: Teams planning guide]
 (https://docs.microsoft.com/microsoftteams/quick-start-enable-teams)</p>
                     </div>
                 </div>
@@ -136,7 +136,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Teams for Education</h3>
-                        <p>[Quick start - Teams for Education admins](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)</p>
+                        <p>[Quick start: Teams for Education admins](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)</p>
                          <p>[Teams resources for Education admins](https://docs.microsoft.com/MicrosoftTeams/resources-teams-edu)</p>
                     </div>
                 </div>
