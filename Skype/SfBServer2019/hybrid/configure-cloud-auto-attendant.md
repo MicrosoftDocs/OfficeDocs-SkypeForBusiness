@@ -11,18 +11,9 @@ localization_priority: Normal
 ms.collection: 
 description: "Instructions for implementing a cloud-based auto attendant for voicemail."
 ---
-<!-- Francois Doremieux  -->
+
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
 # Configure cloud auto attendant
 
-In Skype for Business Server 2019 you are able to use the cloud auto attendant feature described in [What are Phone System auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants)
-
-## Server Configuration
-
-
-## Online Configuration
-
-[Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-
-
+This feature is in development. Please stand by.
