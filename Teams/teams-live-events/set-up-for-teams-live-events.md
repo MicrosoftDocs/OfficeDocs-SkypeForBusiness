@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer:sonua
+ms.reviewer: sonua
 search.appverid: MET150
 description: Learn the steps to set up live events in Teams.  
 appliesto: 
