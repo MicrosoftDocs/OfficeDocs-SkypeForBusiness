@@ -18,9 +18,17 @@ description: "Overview of using a Cloud Auto Attendant with Skype for Business S
 
 ## Feature Overview
 
-The Auto Attendant used with Exchange Unified Messaging  (with Exchange Server 2013 or Exchange Server 2016) is no longer available in Exchange Server 2019 or Exchange Online. If your implementation of Skype for Business Server 2019 integrates with either of these Exchange versions, you'll need to use the online Cloud Voice features associated with Phone System.
+The Auto Attendant used with Exchange Unified Messaging  (with Exchange Server 2013 or Exchange Server 2016) is no longer available in Exchange Server 2019 or Exchange Online. If your implementation of Skype for Business Server 2019 integrates with either of these Exchange versions, you'll need to use the online Cloud Voice features associated with Phone System. This inherently means that you will have a hybrid implementation is Skype for Business Server 2019. See [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md) for details.
 
-If you have already implemented [Cloud Voicemail](plan-cloud-voicemail.md), you will need to create disabled user objects (DUOs), then  your next step is to implement a new Cloud Auto Attendant Service with Skype for Business Server 2019. See [Configure cloud auto attendant](configure-cloud-auto-attendant.md) for implementation details.
+With Cloud Auto Attendant you will be able to:
+
+* Create new Cloud Auto Attendants that work together as a system.
+* Define routing of inbound PSTN calls that arrive on a local (on-premise) trunk, gateway/SBC and Mediation Server and must be routed to an instance of the Auto Attendant service in the cloud.
+* Access reporting and other service information.
+
+Implementing this feature assumes you have already implemented [Cloud Voicemail](plan-cloud-voicemail.md), in addition you will need to: 
+1. Create on premise disabled user objects (DUOs) for each Auto Attendant node, including assigning phone numbers and licenses to the objects. Note that you now have the ability to assign licenses on-premise phone numbers licenses used by online services like Phone System. 
+2. Implement a new Cloud Auto Attendant service with Skype for Business Online and Phone System. See [Configure cloud auto attendant](configure-cloud-auto-attendant.md) for implementation details.
 
 <!-- https://docs.microsoft.com/en-us/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant
 
@@ -44,23 +52,36 @@ Although auto attendants can be very useful, if they aren't designed and configu
 
 -->
 
-With Cloud Auto Attendant you will be able to:
 
-* Create a new Cloud Auto Attendant.
-* Define routing of inbound PSTN calls that arrive on a local (on-prem) trunk, gateway/SBC and Mediation Server and must be routed to an instance of the Auto Attendant service in the cloud.
-* Access reporting and other service information.
 
 See:
 
-* [What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
-* [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-* [Automatically answer and route incoming calls](https://docs.microsoft.com/en-us/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls) 
+- [What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+- [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+- [Automatically answer and route incoming calls](https://docs.microsoft.com/en-us/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls) 
+
+
+
+## Migrating a previously implemented Exchange UM Auto Attendant system
+
+Currently we don't support automated migration of a UM auto attendant system created in Exchange 2013 or 2016. To manually re-create an auto Attendant system, you'll need to:
+
+1. Use the Exchange admin tools to review the structure of the old Auto Attendant system, including any nested Auto Attendants and call queues.
+2. Create copies of text-to-speech scripts or recorded messages associated with each UM Auto Attendant node.
+3. Create on premise disabled user objects (DUOs) for each Auto Attendant node, including assigning phone numbers and licenses to the objects. Note that you now have the ability to assign on-premise phone numbers licenses used by online services like Phone System. 
+4. Implement a new Cloud Auto Attendant service with Skype for Business Online and Phone System. See [Configure cloud auto attendant](configure-cloud-auto-attendant.md) for implementation details. As you do this, upload the text-to-speech scripts or recorded messages associated with each UM Auto Attendant node.
+
+As you review the structure, you can use the questions and activities described in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml) to either capture or reassess the UM Auto Attendant implementation.
+
+## Designing the Auto Attendant structure
+
+If you're designing an Auto Attendant system from scratch, review the questions and activities in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml). 
 
 ## Writing better Auto Attendant scripts
 
-Your auto-attendant script can make or break the impression left on your customers or callers. Think it through carefully, write it out, and consider having it professionally recorded.
+Your auto-attendant script can make or break the impression left on your customers or callers. Think it through carefully, write it out, and consider having it professionally recorded. These guidelines are also incorporated into [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml).
 
-Consider some of these guidelines when planning a brand new auto attendant system:
+Consider some of these do's and dont's when planning a brand new auto attendant system:
 
 **Do:**
 1. Greet and thank the caller for contacting you. Keep this short, no more than three sentences and under 30 seconds. If your web site offers self-service options, mention it but otherwise present choices and options as soon as possible without being abrupt.  It's a good idea to have alternate initial greetings for calls taken outside business hours, or on holidays or weekends.
@@ -96,7 +117,7 @@ And finally, take a few extra minutes to flow chart the options you want to crea
 
 And finally, if your company has a slogan, think twice about including it in the script at all. Chances are your callers have heard it before if they're calling you. If you do include it, put it somewhere it brings the Auto Attendant experience to a close, like when transferring to an individual's desk line or voicemail. Never make up a slogan just to include it in a voicemail script.
 
-With all that in mind, proceed to [Configure Cloud Auto Attendant](configure-cloud-auto-attendant.md)
+With all that in mind, when you have a solid structure that meets your needs and a script that guides customers efficiently, proceed to [Configure Cloud Auto Attendant](configure-cloud-auto-attendant.md). 
 
 ## See Also
 
