@@ -131,7 +131,6 @@ Content-Type: application/json
     "teamDisplayName": "My Care Team",
     "teamDescription": "My Care Team’s description",
  
-    "visibility": "Private",
     "channels": [
         {
             "displayName": "General  ",
