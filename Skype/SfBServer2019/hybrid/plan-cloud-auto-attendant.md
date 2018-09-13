@@ -57,15 +57,15 @@ Currently we don't support automated migration of a UM auto attendant system cre
 
 These steps are fleshed out in [Manually moving an Exchange UM Auto Attendant to Cloud Auto Attendant](configure-cloud-auto-attendant.md#manually-moving-an-exchange-um-auto-attendant-to-cloud-auto-attendant)
 
-As you review the structure, you can use the questions and activities described in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml) to either capture or reassess the UM Auto Attendant implementation.
+<!-- As you review the structure, you can use the questions and activities described in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml) to either capture or reassess the UM Auto Attendant implementation. -->
 
 ## Designing the Auto Attendant structure
 
-If you're designing an Auto Attendant system from scratch, review the questions and activities in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml).
+<!-- If you're designing an Auto Attendant system from scratch, review the questions and activities in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml). -->
 
 ## Writing better Auto Attendant scripts
 
-Your auto-attendant script can make or break the impression left on your customers or callers. Think it through carefully, write it out, and consider having it professionally recorded. These guidelines are also incorporated into [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml).
+Your auto-attendant script can make or break the impression left on your customers or callers. Think it through carefully, write it out, and consider having it professionally recorded. <!-- These guidelines are also incorporated into [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml). -->
 
 Consider some of these do's and dont's when planning a brand new auto attendant system:
 
