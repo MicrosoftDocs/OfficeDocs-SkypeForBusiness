@@ -23,6 +23,8 @@ description: "Microsoft Lync supports the ability to dial into scheduled Skype f
 # Audio conferencing providers for Skype for Business Online
 Dial-in audio conferencing, which is the ability to dial into scheduled Skype for Business Online meetings and conferences from fixed-line or mobile phones, can be achieved through interoperability with leading third-party audio conferencing services.
 
+
+
 Vendors listed in the following table have been certified for Skype for Business Online.
 
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" xmlns="http://www.w3.org/1999/xhtml">
