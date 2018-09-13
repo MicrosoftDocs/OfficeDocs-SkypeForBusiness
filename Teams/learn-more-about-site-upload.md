@@ -3,7 +3,6 @@ title: Adding and updating Locations data
 author: tonysmit
 ms.author: lolaj
 manager: serdars
-ms.date: 09/11/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
