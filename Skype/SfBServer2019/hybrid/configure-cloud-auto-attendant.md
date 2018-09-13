@@ -82,8 +82,8 @@ Your online implementation will need to have a plan that includes Phone System a
 4. Configure a Cloud Auto Attendant system that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps).
 
 ## See Also
-
-[What are Phone System auto attendants?](../../SfbOnline/what-are-phone-system-auto-attendants)
+ 
+[What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
 [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
