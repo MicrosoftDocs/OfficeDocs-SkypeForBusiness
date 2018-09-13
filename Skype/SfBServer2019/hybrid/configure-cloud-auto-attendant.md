@@ -12,9 +12,10 @@ ms.collection:
 description: "Instructions for implementing a Cloud Auto Attendant."
 ---
 
-
 # Configure Cloud Auto Attendant
- 
+
+[!INCLUDE [disclaimer](../disclaimer.md)]
+
 In Skype for Business Server 2019 you are able to use the cloud auto attendant feature described in [What are Phone System auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants)
 
 To use Cloud Auto Attendant with Skype for Business Server 2019, you will need to create virtual on-prem users that act as application endpoints and can be assigned phone numbers, then use the online Admin Center to configure the overall Cloud AA experience. Typically you will have multiple Auto Attendants, each of which plays an audio outgoing message to callers.

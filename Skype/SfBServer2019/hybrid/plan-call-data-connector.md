@@ -11,9 +11,6 @@ ms.collection:
 description: "Overview of using Skype for Business Online telemetry tools to monitor an on-premises implementation in a hybrid scenario."
 ---
 
-
-
-
 # Plan Call Data Connector
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
