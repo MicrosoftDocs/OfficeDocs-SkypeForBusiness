@@ -9,6 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
+robots: noindex
 description: "Instructions for implementing a cloud-based auto attendant for voicemail."
 ---
 
