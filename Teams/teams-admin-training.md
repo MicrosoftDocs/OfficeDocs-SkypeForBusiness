@@ -39,7 +39,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
         </a>
     </li>
    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/tutorial-journey-skypeforbusiness-to-teams">
+        <a href="tutorial-journey-skypeforbusiness-to-teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -57,7 +57,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
         </a>
     </li>
    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
+        <a href="enduser-training">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -124,11 +124,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Journey from Skype for Business to Teams</h3>
-                        <p>[Tutorial: Journey from Skype for Business to Teams ]
-(https://docs.microsoft.com/microsoftteams/quick-start-enable-teams)</p>
-<p><a href="quick-start-enable-teams.md">Journey from Skype for Business to Teams</a></p>
- <p>[Tutorial: Journey from Skype for Business to Teams]
-(quick-start-enable-teams.md)</p>
+                         <p><a href="tutorial-journey-skypeforbusiness-to-teams">Tutorial: Journey from Skype for Business to Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -139,8 +135,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Plan and deploy</h3>
-                        <p>[Quick start: Teams planning guide]
-(https://docs.microsoft.com/microsoftteams/quick-start-enable-teams)</p>
+                         <p><a href="quick-start-enable-teams">Quick start: Teams planning guide</a></p>
                     </div>
                 </div>
             </div>
@@ -151,8 +146,10 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Teams for Education</h3>
-                        <p>[Quick start: Teams for Education admins](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)</p>
-                         <p>[Teams resources for Education admins](https://docs.microsoft.com/MicrosoftTeams/resources-teams-edu)</p>
+                        <p><a href="teams-quick-start-edu">Quick start: Teams for Education admins</a></p>
+                        <p><iframe width="350" height="200" src="https://www.youtube.com/watch?v=xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe></p>
+                        <p><iframe width="350" height="200" src="https://www.youtube.com/watch?v=xh1GCLo8L1E" frameborder="0" allowfullscreen></iframe></p>
+
                     </div>
                 </div>
             </div>
@@ -178,7 +175,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Meetings</h3>
-                        <p>[Tutorial: Meetings in Teams](tutorial-meetings-in-teams.yml)</p>
+                        <p><a href="tutorial-meetings-in-teams">Tutorial: Meetings in Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -202,7 +199,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Audio Conferencing</h3>
-                         <p>[Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)</p>
+                         <p><a href="tutorial-audio-conferencing">Tutorial: Audio Conferencing in Teams</a></p>
                          <p><iframe width="350" height="200" src="https://www.youtube.com/embed/AGPvaW4Vg0o" frameborder="0" allowfullscreen></iframe></p>
                          <p><iframe width="350" height="200" src="https://www.youtube.com/embed/AWbuvcWcYIc" frameborder="0" allowfullscreen></iframe></p>
                          <p><iframe width="350" height="200" src="https://www.youtube.com/embed/5k0C21KAsns" frameborder="0" allowfullscreen></iframe></p>
@@ -216,8 +213,8 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Calling Plans</h3>
-                         <p>[Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)</p>
-                        <p>[Tutorial: Calling in Teams](tutorial-calling-in-teams.yml)</p>
+                         <p><a href="configuring-teams-calling-quickstartguide">Quick start: Configuring Calling Plans in Teams</a></p>
+                         <p><a href="tutorial-calling-in-teams">Tutorial: Calling in Team</a></p>
                     </div>
                 </div>
             </div>
