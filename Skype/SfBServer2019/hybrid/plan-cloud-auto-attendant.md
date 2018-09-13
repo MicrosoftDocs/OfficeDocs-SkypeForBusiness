@@ -9,6 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
+<<<<<<< HEAD
 description: "Overview of using a Cloud Auto Attendant with Skype for Business Server 2019."
 ---
 
