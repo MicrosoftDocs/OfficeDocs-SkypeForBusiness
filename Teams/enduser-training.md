@@ -31,8 +31,7 @@ Use these training resources to help your organization get value from Microsoft 
 | [Coffee in the Cloud podcast on iTunes](https://itunes.apple.com/us/podcast/coffee-in-the-cloud/id1417729403?mt=2) |How-to, best practice and feature review podcast episodes - listen on the go.  |
 | Introduction to Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
 | Introduction to Microsoft Teams for Education  | <iframe width="350" height="200" src="https://youtube.com/embed/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
-
-| 5 Minutes to Setting up Great Teams, Channels and Tabs   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+| 5 Minutes to Setting up Great Teams, Channels and Tabs| <iframe width="350" height="200" Fixesrc="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 | Collaborate Broadly - Adding Guests to your Microsoft Team  | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   |
 | Speed Your Collaboration - Using the Command Bar in Microsoft Teams  | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
 
