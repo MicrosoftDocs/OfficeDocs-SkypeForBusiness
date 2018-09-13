@@ -88,7 +88,7 @@ Your online implementation will need to have a plan that includes Phone System a
 
 [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
-[Plan Cloud Auto Attendant](plan-cloud-auto-attendant.md)
+[Plan Cloud Auto Attendant](plan-cloud-auto-attendant.md) 
 
 [Plan Cloud Voicemail service](plan-cloud-voicemail.md)
 

@@ -59,7 +59,7 @@ These steps are fleshed out in [Manually moving an Exchange UM Auto Attendant to
 
 <!-- As you review the structure, you can use the questions and activities described in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml) to either capture or reassess the UM Auto Attendant implementation. -->
 
-## Designing the Auto Attendant structure
+## Designing the Auto Attendant structure 
 
 <!-- If you're designing an Auto Attendant system from scratch, review the questions and activities in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml). -->
 
