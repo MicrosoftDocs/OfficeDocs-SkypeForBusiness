@@ -134,8 +134,20 @@ Use these tutorials, videos and other training resources to learn about Teams an
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
+                        <h3>Architecture</h3>
+                        <p><iframe width="350" height="200" src="https://www.youtube.com/watch?v=xJBvJTDiQqg" frameborder="0" allowfullscreen></iframe></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
                         <h3>Plan and deploy</h3>
                          <p><a href="quick-start-enable-teams">Quick start: Teams planning guide</a></p>
+                         <p><iframe width="350" height="200" src="https://www.youtube.com/watch?v=zp1_wGzq1ic" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
@@ -147,9 +159,6 @@ Use these tutorials, videos and other training resources to learn about Teams an
                     <div class="cardText">
                         <h3>Teams for Education</h3>
                         <p><a href="teams-quick-start-edu">Quick start: Teams for Education admins</a></p>
-                        <p><iframe width="350" height="200" src="https://www.youtube.com/watch?v=xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe></p>
-                        <p><iframe width="350" height="200" src="https://www.youtube.com/watch?v=xh1GCLo8L1E" frameborder="0" allowfullscreen></iframe></p>
-
                     </div>
                 </div>
             </div>
