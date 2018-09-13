@@ -12,7 +12,6 @@ ms.collection:
 description: "Instructions for implementing a Cloud Auto Attendant."
 ---
 
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 # Configure Cloud Auto Attendant
  
