@@ -136,6 +136,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                     <div class="cardText">
                         <h3>Architecture</h3>
                         <p><iframe width="350" height="200" src="https://www.youtube.com/watch?v=xJBvJTDiQqg" frameborder="0" allowfullscreen></iframe></p>
+                        <p>[!VIDEO https://www.youtube.com/embed/watch?v=xJBvJTDiQqg]</p>
                     </div>
                 </div>
             </div>
@@ -223,7 +224,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                     <div class="cardText">
                         <h3>Calling Plans</h3>
                          <p><a href="configuring-teams-calling-quickstartguide">Quick start: Configuring Calling Plans in Teams</a></p>
-                         <p><a href="tutorial-calling-in-teams">Tutorial: Calling in Team</a></p>
+                         <p><a href="tutorial-calling-in-teams">Tutorial: Calling in Teams</a></p>
                     </div>
                 </div>
             </div>
