@@ -33,10 +33,10 @@ These steps are necessary whether you are creating a brand new Auto Attendant or
     ```
     New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
     ```
-    or for a child auto attendant:
+    or for a child auto attendant you can omit the phone number as shown:
 
     ```
-    New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" 
+    New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
     See [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/en-us/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
@@ -57,9 +57,9 @@ These steps are necessary whether you are creating a brand new Auto Attendant or
 
 ## Online configuration steps
 
-Your online implementation will need to have a plan that includes Phone System as described at https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4 or https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.
+Your online implementation will need to have a plan that includes Phone System as described at [Office 365 Enterprise E1, E3, and E4](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
 
-1. Assign Phone System licenses to the on-premise hybrid endpoints as described in  https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.
+1. Assign Phone System licenses to the on-premise hybrid endpoints as described in  [Assign Skype for Business and Microsoft Teams licenses](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
 2. Use the procedures in [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) to implement the Cloud Auto Attendant structure.  
 
@@ -73,7 +73,7 @@ Your online implementation will need to have a plan that includes Phone System a
     ```
     Get-UMAutoAttendant -Identity MyUMAutoAttendant
     ```
-    See [Get-UMAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) for more details on this command. A complete list of Auto Attendant options you might need to capture is at https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx  but the most important other options to note down are:
+    See [Get-UMAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) for more details on this command. A complete list of Auto Attendant options you might need to capture is at [UMAutoAttendant members](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx) but the most important options to note down are:
     - Business hours
     - After hours
     - Language
@@ -84,7 +84,7 @@ Your online implementation will need to have a plan that includes Phone System a
 
 ## See Also
 
-[What are Phone System auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants)
+[What are Phone System auto attendants?](../../SfbOnline/what-are-phone-system-auto-attendants)
 
 [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 

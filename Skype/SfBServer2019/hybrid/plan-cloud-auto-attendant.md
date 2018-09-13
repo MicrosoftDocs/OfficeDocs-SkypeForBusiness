@@ -39,15 +39,6 @@ Although auto attendants can be very useful, if they aren't designed and configu
 
 Auto Attendants also have a number of settings (such as business hours or a holiday schedule, or choosing the codecs used, inaction timeout) that are configurable to an organization's needs.
 
-<!-- https://docs.microsoft.com/en-us/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant
-
-List of UM Dial plan config options for Get-UMDialPlan: 
-https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.umdialplan_members.aspx 
-
-List of UM auto attendant config options for Get-UMAutoAttendant 
-https://docs.microsoft.com/en-us/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps
-https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx 
--->
 See:
 
 - [What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
