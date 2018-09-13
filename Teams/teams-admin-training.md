@@ -123,6 +123,21 @@ Use these tutorials, videos and other training resources to learn about Teams an
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
+                        <h3>Journey from Skype for Business to Teams</h3>
+                        <p>[Tutorial: Journey from Skype for Business to Teams ]
+(https://docs.microsoft.com/microsoftteams/quick-start-enable-teams)</p>
+<p><a href="quick-start-enable-teams.md">Journey from Skype for Business to Teams</a></p>
+ <p>[Tutorial: Journey from Skype for Business to Teams]
+(quick-start-enable-teams.md)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
                         <h3>Plan and deploy</h3>
                         <p>[Quick start: Teams planning guide]
 (https://docs.microsoft.com/microsoftteams/quick-start-enable-teams)</p>
