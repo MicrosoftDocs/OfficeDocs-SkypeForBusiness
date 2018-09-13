@@ -8,7 +8,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vichau, majafry
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
 ms.custom:
 - NewAdminCenter_Update
@@ -42,11 +43,15 @@ The Microsoft Teams installation for Windows provides downloadable installers in
 > [!NOTE]
 > The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed.
 
-The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client is installed in the following locations:
+The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client leverages the following locations:
 
-- %appdata%\\local\\Microsoft\\Teams
+- %LocalAppData%\\Microsoft\\Teams
 
-- %appdata%\\roaming\\Microsoft\\Teams
+- %LocalAppData%\\Microsoft\\TeamsMeetingsAddin
+
+- %AppData%\\Microsoft\\Teams
+
+- %LocalAppData%\\SquirrelTemp
 
 When users initiate a call using the Microsoft Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication. Users might be instructed to ignore this message because the call will work, even when the warning is dismissed.
 

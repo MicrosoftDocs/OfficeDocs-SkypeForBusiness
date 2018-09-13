@@ -6,7 +6,7 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: IT_Skype16
 description: "Provides IT Pros with links to the latest update information for perpetual versions of Skype for Business 2016, Skype for Business 2015, and Lync 2013 clients"
 ---

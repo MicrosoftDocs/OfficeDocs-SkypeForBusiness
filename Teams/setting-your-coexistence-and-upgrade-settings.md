@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: bjwhalen
+search.appverid: MET150
 description: This article will help you pick the coexistence mode and set other coexistence settings.
 ms.custom:
 - NewAdminCenter_Update

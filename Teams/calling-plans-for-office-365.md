@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - O365E_E5Voiceplandetails
 - O365M_E5Voiceplandetails

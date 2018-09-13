@@ -7,6 +7,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
 description: "This article describes how to monitor and troubleshoot your Direct Routing configuration."
 ---

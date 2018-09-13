@@ -7,7 +7,8 @@ ms.date: 08/29/2018
 ms.topic: article
 ms.service: msteams
 description: Learn about how Office 365 groups and group memberships work with Microsoft Teams.
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

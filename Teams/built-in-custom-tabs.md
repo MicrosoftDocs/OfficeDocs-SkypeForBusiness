@@ -7,6 +7,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lucarras
+search.appverid: MET150
 description: Learn how to use built-in and custom tabs to include features like conversations, files, maps, and more.
 appliesto: 
 - Microsoft Teams

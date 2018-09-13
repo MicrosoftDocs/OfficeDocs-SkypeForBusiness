@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Use a proven success framework to help your organization's upgrade journey from Skype for Business to Teams
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:

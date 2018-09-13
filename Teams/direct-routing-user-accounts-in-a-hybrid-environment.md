@@ -7,6 +7,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
 description: "Learn about different combinations of user creation and which combinations are supported or unsupported."
 ---

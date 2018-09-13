@@ -7,9 +7,10 @@ ms.date: 03/23/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: 
 description: Guidance for signing in to Microsoft Teams by using modern authentication.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

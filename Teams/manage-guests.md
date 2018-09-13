@@ -7,6 +7,7 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
+search.appverid: MET150
 description: IT admins can add guests at the tenant level, set and manage guest user policies and permissions, determine which users can invite guests, and pull reports on guest user activity. 
 appliesto: 
 - Microsoft Teams

@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
 description: Learn what functionality exists between Microsoft Teams and the various Exchange setups such as creating and joining teams, creating channels, and more.
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
@@ -31,8 +32,8 @@ The following table provides information for users with Exchange Online hosted i
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated vNext**|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes ([allowed list](https://support.office.com/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c))|No|No|Yes|No|No|Yes|Yes|No|Yes(Exchange 2013+)|No|Yes|Yes|
-|**Exchange on-premises** (Sync to Azure AD required)|Yes([allowed list](https://support.office.com/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c))|No|No|Yes|Yes(Exchange 2016 CU3+)|No|Yes|Yes|No|Yes(Exchange 2013+)|No|No|Yes|
+|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes([allowed list](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Yes|No|No|Yes|Yes|No|No|No|Yes|Yes|
+|**Exchange on-premises** (Sync to Azure AD required)|Yes([allowed list](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Yes|Yes(Exchange 2016 CU3+)|No|Yes|Yes|No|No|No|No|Yes|
                                                             
 *\*Exchange 2016 CU3 and above supported*
 

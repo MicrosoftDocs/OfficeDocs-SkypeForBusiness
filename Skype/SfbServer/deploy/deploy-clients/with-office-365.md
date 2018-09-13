@@ -6,7 +6,7 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - Strat_SB_Admin
 ms.custom:
@@ -192,3 +192,4 @@ For validation, you should be able to use any Skype for Business client to sign 
   
 [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
+[Skype Room Systems v2 Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)

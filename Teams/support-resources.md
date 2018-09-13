@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
+search.appverid: MET150
 description: A list of support resources for Microsoft Teams to help you use it more efficiently and effectively.
 appliesto: 
 - Microsoft Teams

@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Ensure your organization and users are ready for Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
