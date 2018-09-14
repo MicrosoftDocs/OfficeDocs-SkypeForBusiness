@@ -3,7 +3,7 @@ title: Plan for Microsoft 365 Government - GCC deployments - Microsoft Teams
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 07/26/2018
+ms.date: 09/14/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
@@ -61,7 +61,6 @@ To accommodate the requirements of our government cloud customers, there are som
 | Email a channel             | The current feature architecture isn’t supported in government plans. |
 | Unified Presence            | We’re finishing work for our enterprise customers first for this important feature. It will be available to government customers in the future. |
 | Interop chat between Teams & SfB users            | Interop is dependent on Unified Presence Service (UPS) and cannot work until GCC Teams Tenants are enabled for UPS. |
-
 | Email Notifications         | The current feature architecture isn’t supported in the US Government plans. Work is ongoing to make this feature available to US Government plan customers in the future. |
 
 

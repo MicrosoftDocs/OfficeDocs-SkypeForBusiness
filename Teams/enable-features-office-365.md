@@ -22,7 +22,7 @@ appliesto:
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-All Teams settings will soon be migrated to the new Microsoft Teams & Skype for Business Admin Center. The only Teams feature that is managed in the Office 365 admin center is apps. 
+All Teams settings will soon be migrated to the new Microsoft Teams & Skype for Business Admin Center. The only Teams feature that is managed in the Office 365 admin center is Apps. 
 
 Unless otherwise noted, the default value for an option is On.
 
@@ -33,7 +33,7 @@ Unless otherwise noted, the default value for an option is On.
 
 ## Office 365 tenant-wide settings 
 
-In **Tenant-wide settings**, you can turn on or turn off apps.
+In **Tenant-wide settings**, you can turn on or turn off Apps.
 
 To edit **Tenant-wide settings** for Teams, go to the Office 365 admin center. Choose **Settings** > **Services & add-ins** > **Microsoft Teams**.
 

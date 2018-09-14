@@ -2,6 +2,7 @@
 title: "Skype Room Systems v2 maintenance and operations"
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
