@@ -3,12 +3,12 @@ title: Manage teams in the Microsoft Teams & Skype for Business Admin Center
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/13/2018
+ms.date: 09/14/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: islubin 
-description: Learn how to view or update teams in the Microsoft Teams & Skype for Business Admin Center.
+description: Learn how to view or update your teams in the Microsoft Teams & Skype for Business Admin Center.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
