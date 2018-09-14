@@ -7,11 +7,11 @@ ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Choose your upgrade path to Microsoft Teams based on your current Skype for Business deployment  
+description: Choose your upgrade path to Microsoft Teams based on your current Skype for Business deployment 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ---

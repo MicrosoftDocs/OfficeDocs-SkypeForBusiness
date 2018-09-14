@@ -5,6 +5,7 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: bjwhalen
 search.appverid: MET150
 description: This article will help you pick the coexistence mode and set other coexistence settings.

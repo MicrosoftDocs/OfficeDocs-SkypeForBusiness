@@ -6,7 +6,9 @@ manager: serdars
 ms.reviewer: mikedav, allancar
 ms.topic: article
 ms.service: msteams
-ms.collection: Adm_Skype4B_Online 
+ms.collection: 
+- Adm_Skype4B_Online 
+- Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Skype for Business

@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: Admins can use the Microsoft Teams and Skype Admin Center to configure the Skype Meetings App to work with Teams
-Set_Free_Tag: Strat_MT_TeamsAdmin
+Set_Free_Tag: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---

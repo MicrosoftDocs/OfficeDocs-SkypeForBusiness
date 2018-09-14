@@ -7,6 +7,7 @@ ms.date: 07/05/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: vichau, majafry
 localization_priority: Normal
 search.appverid: MET150
