@@ -38,7 +38,7 @@ This article provides an overview of the management tools for Teams in the Micro
 
 Management tools for Teams are under the **Teams** node in the Microsoft Teams & Skype for Business Admin Center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an O365 Group, and this node provides a view of all groups that have been Teams-enabled in your organization.
 
-![Teams overview grid](/media/manage-teams-in-modern-portal-image1.png)  
+![Teams overview grid](media/manage-teams-in-modern-portal-image1.png)  
 
 The grid displays the following properties:
 
@@ -57,7 +57,7 @@ Search currently supports the string "Begins with" and searches the **Team name*
 
 You can edit group and team-specific settings by selecting a team from the grid and then selecting the **Edit** button.
 
-![Edit team](/media/manage-teams-in-modern-portal-image2.png)
+![Edit team](media/manage-teams-in-modern-portal-image2.png)
 
 ### Team profile
 
@@ -67,7 +67,7 @@ You can navigate to the team profile page of any team from the main teams overvi
 - Add or remove channels (Note that you cannot remove the General channel).
 - Update team and group settings.
  
-![Team profile](/media/manage-teams-in-modern-portal-image3.png)
+![Team profile](media/manage-teams-in-modern-portal-image3.png)
 
 ## Learn more
 
