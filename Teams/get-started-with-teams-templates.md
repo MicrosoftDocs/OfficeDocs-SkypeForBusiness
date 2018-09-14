@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
 localization_priority: Normal
+robots: NOINDEX, NOFOLLOW
 search.appverid: MET150
 description: Learn how to use Teams templates to create a team with predefined channels.
 ms.custom:
