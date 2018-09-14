@@ -1,7 +1,8 @@
 ---
 title: "Plan for clients and devices"
 ms.author: jambirk
-author: PhillipGarding
+author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/20/2018
 ms.audience: ITPro
