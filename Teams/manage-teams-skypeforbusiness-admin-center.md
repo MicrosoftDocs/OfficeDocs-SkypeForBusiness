@@ -78,7 +78,7 @@ The following table identifies the sections of the current Teams experience that
 |Custom cloud storage     |Dropbox        |TeamsClientConfiguration         |Tenant         |
 |Custom cloud storage     |Google Drive        |TeamsClientConfiguration         |Tenant         |
 |Custom cloud storage     |ShareFile        |TeamsClientConfiguration         |Tenant         |
-|Settings by user/license type     |Turn Microsoft Teams on or off for all users          |Deprecated. Use Office 365 admin center to assign licenses.        |         |
+|Settings by user/license type     |Turn Microsoft Teams on or off for all users          |Will be deprecated. Use Office 365 admin center to assign licenses.  Enabling/Disabling Guest will move to TeamsClientConfiguration - AllowGuestUser      |         |
 |Teams and channels     |         |Redirects to Azure Active Directory Group Management (Same as current experience).              |User         |
 |Teams and channels     |         |Redirects to AAD Group Management (Same as current experience).             |User          |
 |Calls and Meetings     |Allow scheduling for private meetings         |TeamsMeetingPolicy         |User          |
