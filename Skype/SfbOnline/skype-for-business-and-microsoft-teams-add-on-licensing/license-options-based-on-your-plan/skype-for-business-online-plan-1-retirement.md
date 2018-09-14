@@ -34,14 +34,12 @@ You can maintain the same functionality you had with Skype for Business Online P
 
 ## Option 1: Switch to Office 365 F1
 
-This option is ideal if you want to take advantage of the additional functionality that Office 365 F1 has to offer. To learn more and get pricing info, see [Office 365 F1](https://go.microsoft.com/fwlink/p/?LinkId=708644).
+This option is ideal if you want to take advantage of the additional functionality that Office 365 F1 has to offer. To learn more and get pricing info, see [Office 365 F1](https://products.office.com/en-us/business/office-365-f1).
 
 
-### How to upgrade to Office 365 F1 
+### How to switch to Office 365 F1 
 
 You can switch to Office 365 F1 now or wait until it’s time to renew and upgrade during the renewal process. Either way, you’ll work with your account representative or partner to make the switch, unless you bought your subscription directly from Microsoft, in which case you can switch to Office 365 F1 yourself in the Office 365 admin center.
-
-If you bought your subscription directly from Microsoft and you want to switch now, see [Switch from Office 365 Enterprise E4 to E5](https://support.office.com/en-us/article/switch-from-office-365-enterprise-e4-to-e5-fe5fc2ab-f8ec-43af-b6e5-3ebe3ddd3731). You won’t lose any data when switching from E4 to E5.
 
 ## Option 2: Switch to Microsoft 365 F1
 
@@ -49,11 +47,11 @@ Microsoft 365 F1 includes additional security value that can help to protect you
 
 ### How to switch to Microsoft 365 F1  
 
-When it’s time to renew your subscription and Skype for Business Online Plan 1 is no longer available to you, you’ll be able to switch to Microsoft 365 F1. You’ll work with your account representative or partner to make the switch, or — if you bought Skype for Business Online Plan 1 from Microsoft directly, online — do it yourself in the admin center.
+When it’s time to renew your subscription and Skype for Business Online Plan 1 is no longer available to you, you can switch to Microsoft 365 F1 by working with your account representative or partner, unless you bought your subscription directly from Microsoft, in which case you can switch to Microsoft 365 F1 yourself in the Office 365 admin center.
  
-## Option 3: Switch to any Office 365 offer
+## Option 3: Switch to another Office 365 offer
 
-The features that your users enjoy in Skype for Business Online Plan 1 are available in all of our Office 365 suites, either via Microsoft Teams or Skype for Business Online, depending on which service you are currently using. 
+The features that your users enjoy in Skype for Business Online Plan 1 are available in many of our Office 365 suites, either via Microsoft Teams or Skype for Business Online, depending on which service you are currently using. 
 
 ### How to switch 
 
