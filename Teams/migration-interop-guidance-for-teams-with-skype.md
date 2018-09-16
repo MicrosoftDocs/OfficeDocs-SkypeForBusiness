@@ -57,15 +57,14 @@ To account for the introduction of coexistence modes and the pending retirement 
 
 5.	Interop between Teams and Skype for Business users is only possible *if the Teams user is homed online in Skype for Business*. The Skype for Business user can be homed either on-premises (and requires configuring Skype for Business Hybrid) or online. Users who are homed in Skype for Business on-premises can use Teams in Islands mode (defined later in this doc), but they cannot use Teams to interop or federate with other users who are using Skype for Business.  
 
-6.	To upgrade a user to Teams (i.e., grant them TeamsUpgradePolicy with Mode=TeamsOnly), the user must be homed online in Skype for Business. This is required to ensure interop, federation, and full administration of the Teams user. To upgrade users who are homed on-premises, use `Move-CsUser` from the on-premises admin tools to first move the user to Skype for Business Online. Then grant TeamsUpgradePolicy and TeamsInteropPolicy to the online user or use Modern Portal to assign TeamsOnly mode.
+6.	To upgrade a user to Teams (i.e., grant them TeamsUpgradePolicy with Mode=TeamsOnly), the user must be homed online in Skype for Business. This is required to ensure interop, federation, and full administration of the Teams user. To upgrade users who are homed on-premises, use `Move-CsUser` from the on-premises admin tools to first move the user to Skype for Business Online. Then grant TeamsUpgradePolicy and TeamsInteropPolicy to the online user or use Modern Portal to assign TeamsOnly mode. Once CU8 for Skype for Business Server 2015 ships, customer can simply use the new `-MoveToTeams` switch in `Move-CsUser` which combines these 2 steps into 1.
 
 7.	The core policies for managing upgrade and interop are TeamsUpgradePolicy and TeamsInteropPolicy.  However, TeamsInteropPolicy is in the process of being retired and all functionality will be superseded by TeamsUpgradePolicy. Until the transition is complete, customers must set both TeamsUpgradePolicy and TeamsInteropPolicy consistently (as described [later](#important) in this document) to ensure proper functioning, or use the new Modern Portal, which does this automatically.
 
 8.	To use Teams Phone System features, users must be in TeamsOnly mode (i.e., homed in Skype for Business Online and upgraded to Teams), and they must either be configured for Microsoft Phone System Direct Routing (which allows you to use Phone System with your own SIP trunks and SBC) or have an Office 365 Calling Plan. Direct Routing is [generally available](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) as of June 28, 2018.  
 
-9.	Scheduling Teams meetings with Audio Conferencing (dial-in or dial-out via PSTN) is currently available only for users who are homed in Skype for Business Online. Support for Teams users with an on-premises Skype for Business account is planned.
+9.	Scheduling Teams meetings with Audio Conferencing (dial-in or dial-out via PSTN) is currently available only for users who are homed in Skype for Business Online. Support for Teams users with an on-premises Skype for Business account is in TAP.
 
-10.	Message routing for organizations that have not yet been enabled for Unified Presence Service (UPS) does not honor either TeamsInteropPolicy (ChatDefaultClient) or TeamsUpgradePolicy (Mode). As UPS rollout completes over the next few weeks, TeamsInteropPolicy or TeamsUpgradePolicy will be honored. Eventually only TeamsUpgradePolicy will be honored.
 
 ## Coexistence modes
 
@@ -160,7 +159,7 @@ Use the following cmdlet syntax, where $policy is one of the above values of ide
 
 ## Federation Considerations
 
-Federation from Teams to another user using Skype for Business requires the Teams user be homed online in Skype for Business. Federation is in pilot and progressively becoming available. If your organization requires federation, you should not upgrade until federation support is in place. Eventually, Teams users homed in Skype for Business on-premises will be able to federate with other Teams users.
+Federation from Teams to another user using Skype for Business requires the Teams user be homed online in Skype for Business. Eventually, Teams users homed in Skype for Business on-premises will be able to federate with other Teams users.
 
 Once federation support is enabled, TeamsUpgradePolicy (along with TeamsInteropPolicy during transition) governs routing for incoming federated chats and calls. To facilitate other organizations initiating federated communications with users in your organization, it is recommended to choose a mode that specifically routes either to Skype for Business or Teams, rather than Islands.
 </br>
@@ -262,10 +261,6 @@ Based on strong feedback from TAP customers and other early adopters, Microsoft 
 |**STATUS**|TAP customers now see three modes in the Admin UX. As support for Change #1 lands, additional modes will be made available. SfBOnly mode does not currently prevent users from using Teams, but it will in the future. |
 |||
 
-## Known issues
-
-- When creating new conversations in Teams, chats do not yet honor TeamsUpgradePolicy or TeamsInteropPolicy of the target user. A fix is planned.
-- When creating new conversations in Skype for Business, chats do not yet honor TeamsUpgradePolicy or TeamsInteropPolicy if the organization isn’t yet enabled for UPS/messaging interop.
 
 ## Related topics
 
