@@ -135,7 +135,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Architecture</h3>     
-                        <p><iframe width="320" height="240" src="https://www.youtube.com/embed/xJBvJTDiQqg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+                        <p><iframe width="320" height="200" src="https://www.youtube.com/embed/xJBvJTDiQqg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
@@ -147,7 +147,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                     <div class="cardText">
                         <h3>Plan and deploy</h3>
                          <p><a href="quick-start-enable-teams">Quick start: Teams planning guide</a></p>
-                         <p><iframe width="320" height="240" src="https://www.youtube.com/embed/zp1_wGzq1ic?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+                         <p><iframe width="320" height="200" src="https://www.youtube.com/embed/zp1_wGzq1ic?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
@@ -183,7 +183,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Guest access</h3>
-                       <p><iframe width="320" height="240" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe></p>
+                       <p><iframe width="320" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
@@ -194,7 +194,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Security & compliance</h3>
-                       <p><iframe width="320" height="240" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe></P>
+                       <p><iframe width="320" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe></P>
                     </div>
                 </div>
             </div>
@@ -231,9 +231,9 @@ Use these tutorials, videos and other training resources to learn about Teams an
                     <div class="cardText">
                         <h3>Audio Conferencing</h3>
                          <p><a href="tutorial-audio-conferencing">Tutorial: Audio Conferencing in Teams</a></p>
-                         <p><iframe width="320" height="240" src="https://www.youtube.com/embed/AGPvaW4Vg0o" frameborder="0" allowfullscreen></iframe></p>
-                         <p><iframe width="320" height="240" src="https://www.youtube.com/embed/AWbuvcWcYIc" frameborder="0" allowfullscreen></iframe></p>
-                         <p><iframe width="320" height="240" src="https://www.youtube.com/embed/5k0C21KAsns" frameborder="0" allowfullscreen></iframe></p>
+                         <p><iframe width="320" height="200" src="https://www.youtube.com/embed/AGPvaW4Vg0o" frameborder="0" allowfullscreen></iframe></p>
+                         <p><iframe width="320" height="200" src="https://www.youtube.com/embed/AWbuvcWcYIc" frameborder="0" allowfullscreen></iframe></p>
+                         <p><iframe width="320" height="200" src="https://www.youtube.com/embed/5k0C21KAsns" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
@@ -256,7 +256,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Direct Routing</h3>
-                        <p><iframe width="320" height="240" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe></p>
+                        <p><iframe width="320" height="200" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
