@@ -1,5 +1,5 @@
 ---
-title: Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center
+title: Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,8 +7,9 @@ ms.date: 03/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
+search.appverid: MET150
 description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Office 365 Admin center to the new Microsoft Teams & Skype for Business Admin Center.
-localization_priority: Priority
+localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
@@ -17,7 +18,7 @@ appliesto:
 - Skype for Business Online
 ---
 
-Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center
+Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center
 ======================================================
 
 The new Microsoft Teams & Skype for Business Admin Center is coming soon! 
@@ -35,23 +36,18 @@ The new Admin Center experience will provide you with a unified experience to ma
 
 ![Screenshot of the Microsoft Teams & Skype for Business Admin Center.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
+## Settings migrated to the new Microsoft Teams & Skype for Business Admin Center
 
 Starting in mid-March 2018, the following capabilities were available in the new Microsoft Teams & Skype for Business Admin Center: 
 
 - **Microsoft Teams messaging policy**: Create policy for user-level management of the Microsoft Teams client experience for Messaging scenarios.
-- **Microsoft Teams upgrade policy**: Configure the interoperability and upgrade experience between Skype for Business and Microsoft Teams. See, https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
+- **Microsoft Teams upgrade policy**: Configure the interoperability and upgrade experience between Skype for Business and Microsoft Teams. See, https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
 - **Microsoft Teams guest messaging settings**: Control the messaging capabilities for guest accounts in Microsoft Teams. 
 - **Federation settings**: Manage the federation between tenants for Microsoft Teams and Skype for Business. 
 - **User management**: Assign policies and configure user accounts. 
-- **Audio conferencing**: Configure dial-in numbers and settings for Skype for Business and Microsoft Teams. 
+- **Audio conferencing**: Configure dial-in numbers and settings for Skype for Business and Microsoft Teams.  
 
- 
-
-## Settings migrated to the new Microsoft Teams & Skype for Business Admin Center
-
-Your existing settings for General, Email integration, Custom cloud storage, Calls and Meetings, and Messaging in Microsoft Teams (see image below) will be migrated to the new Microsoft Teams & Skype for Business Admin Center (also known as the new Admin portal) over the next few months. 
-
-
+Additionally, your existing settings for General, Email integration, Custom cloud storage, Calls and Meetings, and Messaging in Microsoft Teams have now been migrated to the new Microsoft Teams & Skype for Business Admin Center (also known as the new Admin portal). 
 
 > [!NOTE]
 >You’ll continue to use the Groups dashboard in the Office 365 Admin center for configuration related to **Teams and channels**. Settings for **Apps** will remain in the Teams area of the Office 365 Admin center and will be migrated later. 
@@ -60,11 +56,9 @@ Your existing settings for General, Email integration, Custom cloud storage, Cal
 
 With respect to the settings available in **Settings by user/license type**, it essentially provided a way to configure groups of users differently. Now, with the new Admin portal, you can do that on a per-user basis. 
 
-
 The license type setting will be migrated. If you’re currently using the **Turn Microsoft Teams on or off for all users of this type** setting to control access to Teams for users across SKUs, we will maintain your current configurations. However, you won’t be able to modify this setting in the new Admin portal. Instead, you’ll assign the appropriate licenses to users in your tenant via the Office 365 admin center. For more details, see [Manage user access to Microsoft Teams](user-access.md). 
 
-The following table identifies the sections of the current Teams experience that will be migrated and shows the relationship between the current settings and the policies in the new Admin portal.
-
+The following table identifies the sections of the current Teams experience that have been migrated and shows the relationship between the current settings and the policies in the new Admin portal.
 
 |Section of Teams in Office 365 Admin center  |Setting name (Tenant level)  |Microsoft Teams & Skype for Business Admin Center policy   |Level: Tenant or User   |
 |---------|---------|---------|---------|
@@ -96,10 +90,7 @@ The following table identifies the sections of the current Teams experience that
 |Messaging     |Allows users to chat privately         |TeamsMessagingPolicy         |User         |
 
 
-
 ## Manage settings during the migration
-
-We plan to migrate Teams settings in sections in the following sequence: Messaging, Meetings, Calls, and lastly, the sections within the TeamsClient Configuration policy (General, Email integration, and Custom cloud storage).   
 
 You can continue to modify settings in the Office 365 Admin center and the Skype for Business Admin center until migration for a section is complete for your tenant. 
 

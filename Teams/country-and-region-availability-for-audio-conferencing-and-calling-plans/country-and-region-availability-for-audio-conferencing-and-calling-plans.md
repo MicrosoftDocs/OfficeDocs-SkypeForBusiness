@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -16,7 +17,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -143,7 +144,7 @@ With Audio Conferencing, there are toll and toll free phone numbers that can be 
 
 To see more about Audio Conferencing, see [Audio Conferencing common questions](../audio-conferencing-common-questions.md)
 
-[Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements) 
+[Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements) 
   
 #### Using the Call Me feature or when adding other people to a meeting so they can join it
 In Audio Conferencing there is a feature named "*Call Me*" and it can be used to let other people join a dial-in meeting. Use the drop down list above to search for the country/region and see if this feature is available.
@@ -158,7 +159,7 @@ With Phone System, you can create auto attendants and call queues (with a toll o
 
 In addition to getting phone numbers for individual users from Office 365, it's also possible to search and acquire toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants and call queues. These are called service numbers. See [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) to get phone numbers. But for your users, after you assign a Calling Plan to them, you can assign a user phone number so they can make and receive phone calls. To find those phone numbers, go to [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). You can also see [Assign, change, or remove a phone number for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user). 
 
-[Pricing for Phone System](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+[Pricing for Phone System](https://products.office.com/skype-for-business/phone-system#Requirements)
 
 > [!NOTE]
 > The availability of toll phone numbers from some of these locations might vary at any given time depending on inventory levels. 

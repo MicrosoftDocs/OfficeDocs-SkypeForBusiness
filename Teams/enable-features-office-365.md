@@ -7,8 +7,9 @@ ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
+search.appverid: MET150
 description: Learn how to turn on or off Microsoft Teams apps in your Office 365 organization, including tabs, connectors, bots, or any combination of the three.
-localization_priority: Priority
+localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
@@ -21,7 +22,7 @@ appliesto:
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-All Teams settings will soon be migrated to the new Microsoft Teams & Skype for Business Admin Center. The only Teams feature that is managed in the Office 365 admin center is apps. 
+All Teams settings will soon be migrated to the new Microsoft Teams & Skype for Business Admin Center. The only Teams feature that is managed in the Office 365 admin center is Apps. 
 
 Unless otherwise noted, the default value for an option is On.
 
@@ -32,7 +33,7 @@ Unless otherwise noted, the default value for an option is On.
 
 ## Office 365 tenant-wide settings 
 
-In **Tenant-wide settings**, you can turn on or turn off apps.
+In **Tenant-wide settings**, you can turn on or turn off Apps.
 
 To edit **Tenant-wide settings** for Teams, go to the Office 365 admin center. Choose **Settings** > **Services & add-ins** > **Microsoft Teams**.
 

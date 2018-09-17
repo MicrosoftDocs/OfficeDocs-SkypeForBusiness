@@ -6,9 +6,10 @@ manager: serdars
 ms.date: 08/20/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: lehewe
 description: Learn what data and permissions apps are requesting from your organization.
-localization_priority: Priority
+localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ---

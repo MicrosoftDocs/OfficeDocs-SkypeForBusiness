@@ -3,11 +3,12 @@ title: Manage the Microsoft Teams Commercial Cloud Trial offer
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/31/2018
+ms.date: 09/11/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
 ms.service: msteams
+search.appverid: MET150
 localization_priority : Normal
 description: Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams.
 MS.collection: Strat_MT_TeamsAdmin
@@ -34,6 +35,8 @@ The service plans included in this offer are:
 - SharePoint Online Kiosk
 - Sway
 - Yammer Enterprise
+
+The offer can be assigned to a maximum of 500,000 users per tenant. The trial license will allocate 2GB of SharePoint Online storage for each trial user.
 
 ## Who is eligible
 

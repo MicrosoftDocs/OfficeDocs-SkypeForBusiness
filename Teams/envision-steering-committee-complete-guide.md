@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Identify a governing group of key stakeholders and project leaders to identify deployment objectives, track progress, and remove blockers. 
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams

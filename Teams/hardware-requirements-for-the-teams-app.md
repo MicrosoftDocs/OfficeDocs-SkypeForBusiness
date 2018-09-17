@@ -7,7 +7,8 @@ ms.date: 08/28/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 description: Learn about the hardware requirements that are needed to install and run Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update
@@ -54,5 +55,5 @@ You can use Microsoft Teams on these mobile platforms:
 
 ### Related topics
 - [Get Teams apps](get-clients.md)
-- [Microsoft Teams on mobile devices](https://support.office.com/en-us/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
+- [Microsoft Teams on mobile devices](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Install the Microsoft Teams app using an MSI](msi-deployment.md)

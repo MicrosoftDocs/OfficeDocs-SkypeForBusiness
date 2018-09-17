@@ -3,12 +3,13 @@ title: Plan for Microsoft 365 Government - GCC deployments - Microsoft Teams
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 07/26/2018
+ms.date: 09/14/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
 description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation  
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
@@ -33,9 +34,9 @@ In addition to enjoying the features and capabilities of Office 365, organizatio
 -   Access to your organization’s customer content is restricted to screened Microsoft personnel.
 -   Microsoft 365 Government - GCC complies with certifications and accreditations that are required for US Public Sector customers.
 
-You can find more information about the Microsoft 365 Government - GCC offering for US Government customers at [Office 365 Government plans](https://products.office.com/en-us/government/compare-office-365-government-plans), including [eligibility requirements](https://products.office.com/en-us/government/compare-office-365-government-plans#EligibilityRequirements).
+You can find more information about the Microsoft 365 Government - GCC offering for US Government customers at [Office 365 Government plans](https://products.office.com/government/compare-office-365-government-plans), including [eligibility requirements](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-The [Office 365 US Government service description](https://technet.microsoft.com/en-us/library/mt774581.aspx) describes the platform’s benefits, which are centered around meeting compliance requirements within the United States.
+The [Office 365 US Government service description](https://technet.microsoft.com/library/mt774581.aspx) describes the platform’s benefits, which are centered around meeting compliance requirements within the United States.
 
 > [!Tip]
 > You might want to transfer the tables of information in the service description into an Excel workbook and add two columns: **Relevant for my organization Y/N** and **Meets the needs of my organization Y/N**. Then you can review this list with your colleagues to confirm that this service meets your organization’s needs.
@@ -60,7 +61,6 @@ To accommodate the requirements of our government cloud customers, there are som
 | Email a channel             | The current feature architecture isn’t supported in government plans. |
 | Unified Presence            | We’re finishing work for our enterprise customers first for this important feature. It will be available to government customers in the future. |
 | Interop chat between Teams & SfB users            | Interop is dependent on Unified Presence Service (UPS) and cannot work until GCC Teams Tenants are enabled for UPS. |
-
 | Email Notifications         | The current feature architecture isn’t supported in the US Government plans. Work is ongoing to make this feature available to US Government plan customers in the future. |
 
 
@@ -79,7 +79,7 @@ We recommend that you take time to carefully review your [admin and security set
 
 ## Step 4. Apply for Microsoft 365 Government - GCC
 
-Having decided that this service is right for your organization, start the process of [applying for this service here](https://products.office.com/en-us/government/eligibility-validation).
+Having decided that this service is right for your organization, start the process of [applying for this service here](https://products.office.com/government/eligibility-validation).
 
 ## Step 5. Plan for governance
 
