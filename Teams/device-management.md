@@ -3,6 +3,7 @@ title: Manage your devices in Microsoft Teams
 author: chucked
 ms.author: chuckedmonson
 manager: serdars
+ms.date: 09/17/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark
