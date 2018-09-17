@@ -159,7 +159,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                     <div class="cardText">
                         <h3>Teams for Education</h3>
                         <p><a href="teams-quick-start-edu">Quick start: Teams for Education admins</a></p>
-                        <p><iframe width="320" height="220" src="https://www.youtube.com/watch?v=xh1GCLo8L1E?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+                        <p><iframe width="320" height="220" src="https://www.youtube.com/embed/v=xh1GCLo8L1E?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
                     </div>
                 </div>
             </div>
