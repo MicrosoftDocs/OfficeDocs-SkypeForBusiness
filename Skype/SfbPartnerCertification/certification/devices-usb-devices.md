@@ -12,6 +12,7 @@ ms.audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
+- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -22,6 +23,9 @@ description: "Planning for Optimal Skype for Business Experience over Wi-Fi prov
 
 # USB audio and video devices
 The USB certification program ensures that USB peripherals such as headsets, speakerphones, webcams, and monitors, offer rich audio or video quality. Supporting plug & play features with Lync and Skype for Business clients, passing products provide a great experience for end-users and administrators.
+
+> [!NOTE]
+> All Skype for Business certified devices will work with Microsoft Teams, but they will not be given Teams certification until they meet new requirements. More information about Teams certification will be available in early 2019.
 
 ## End-User Experience
 - Automatic selection of default audio device and prioritization if multiple audio peripherals are present

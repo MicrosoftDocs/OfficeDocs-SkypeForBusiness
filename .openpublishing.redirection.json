@@ -1,6 +1,11 @@
 { 
   "redirections": [ 
     {
+      "source_path": "Teams/what-are-teams-live-events.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events", 
+      "redirect_document_id": true 
+    },  
+    {
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/block-incoming-calls.md", 
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365", 
       "redirect_document_id": true 

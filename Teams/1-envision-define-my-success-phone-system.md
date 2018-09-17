@@ -6,10 +6,10 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Measure the results of your Phone System with Calling Plans deployment and verify you've achieved the outcomes you wanted.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice

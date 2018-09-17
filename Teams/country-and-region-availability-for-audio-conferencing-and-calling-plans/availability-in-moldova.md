@@ -8,7 +8,8 @@ ms.topic: article
 ms.assetid: f16965c2-645b-4cdf-8cf0-bf685917e425
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection: Adm_Skype4B_Online 
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -34,7 +35,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |No  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> |No  <br/> |
-|Dial-out capability using the Call Me feature  <br/> |Not available  <br/> |
+|Dial-out capability using the Call Me feature  <br/> |Requires communication credits  <br/> |
    
 ## Phone System
 

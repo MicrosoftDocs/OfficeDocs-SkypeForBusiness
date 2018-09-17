@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
@@ -24,7 +25,7 @@ description: "Learn how to setup Skype for Busineses to use another language for
 
 # Change the default language for greetings and emails
 
-If you are an [Office 365 global administrator](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), you can set up Skype for Business to play its default voicemail greeting in another language. The default system greeting is something like, "Please leave a message for John Smith. After the tone, please record your message. When you finish recording, hang up, or press the pound key for more options." 
+If you are an [Office 365 global administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), you can set up Skype for Business to play its default voicemail greeting in another language. The default system greeting is something like, "Please leave a message for John Smith. After the tone, please record your message. When you finish recording, hang up, or press the pound key for more options." 
   
  **First, read this important info:**
   
@@ -35,13 +36,13 @@ If you are an [Office 365 global administrator](https://support.office.com/en-us
     > [!NOTE]
     > Users can change their own greeting language through their settings after they sign in. 
   
-- **Do you want to record your outgoing voicemail message?** See [Check Skype for Business voicemail and options](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
+- **Do you want to record your outgoing voicemail message?** See [Check Skype for Business voicemail and options](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
 
 - **Do you want to change the voicemail prompt language?** Go to [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) and choose a new language under **Prompt Language**.
     
 ## Change the system language for everyone in your organization
 
-1. Sign in with your [Office 365 global administrator](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) account at[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Sign in with your [Office 365 global administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) account at[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
 2. In the admin center, choose **Settings** > **Organization profile**. 
     
@@ -65,11 +66,11 @@ If you are an [Office 365 global administrator](https://support.office.com/en-us
     
 ## Related topics
 
-- [Change your display language and time zone in Office 365 for Business](https://support.office.com/en-us/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
+- [Change your display language and time zone in Office 365 for Business](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
-- [Add a language or set language preferences in Office 2010 and later](https://support.office.com/en-us/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d))
+- [Add a language or set language preferences in Office 2010 and later](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d))
     
-- [Enable or change a keyboard layout language](https://support.office.com/en-us/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
+- [Enable or change a keyboard layout language](https://support.office.com/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
   
  

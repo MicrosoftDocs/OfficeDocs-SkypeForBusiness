@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: Training videos introducing Microsoft Teams and explaining to admins how to plan, deploy, and operate Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update
@@ -30,12 +31,14 @@ Learn about Teams and drive usage in your organization. Check back frequently fo
 | [Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)  |  This training introduces calling capabilities in Teams, which are powered by the Phone System feature in Office 365. Includes explanation of the technical planning that’s required to implement Phone System, how to configure it, and how to monitor usage and call quality in your implementation.  |
 | [Audio Conferencing videos](audio-conferencing-videos.md) |Videos introducing Audio Conferencing in Teams to the IT admin.  |
 | [Tutorial: Meetings in Teams](tutorial-meetings-in-teams.yml) | This training introduces meetings in Teams. It covers meeting capabilities, plus requirements and planning considerations. |
-| Deploying and operating Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
-| Direct Routing for Microsoft Teams (Preview)   | <iframe width="350" height="200" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
-| Deep dive into Guest Access <br>Coffee in the Cloud session with Laith Al and Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
-| e-Discovery in Microsoft Teams <br> Coffee in the Cloud session with Ansuman Acharya and Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
-| Teams: Step-by-step intro for using, enabling and managing the experience <br> Microsoft Mechanics session with Dan Stevenson and Jeremy Chapman |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
-| Managing the App Experience in Microsoft Teams <br> Coffee in the Cloud session with Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
+| Foundations of Microsoft Teams for IT Pros  |<iframe width="320" height="240" src="https://www.youtube.com/embed/xJBvJTDiQqg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>| 
+| Deploying and operating Teams   | <iframe width="320" height="240" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
+| Windows Desktop Client   | <iframe width="320" height="240" src="https://www.youtube.com/embed/zp1_wGzq1ic?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> | 
+| Direct Routing for Microsoft Teams (Preview)   | <iframe width="320" height="240" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe>   |
+| Deep dive into Guest Access <br>Coffee in the Cloud session with Laith Al and Karuana Gatimu  | <iframe width="320" height="240" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
+| e-Discovery in Microsoft Teams <br> Coffee in the Cloud session with Ansuman Acharya and Karuana Gatimu  | <iframe width="320" height="240" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
+| Teams: Step-by-step intro for using, enabling and managing the experience <br> Microsoft Mechanics session with Dan Stevenson and Jeremy Chapman |  <iframe width="320" height="240" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |
+| Managing the App Experience in Microsoft Teams <br> Coffee in the Cloud session with Karuana Gatimu  | <iframe width="320" height="240" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 
 

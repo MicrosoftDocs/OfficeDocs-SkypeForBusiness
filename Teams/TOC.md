@@ -65,6 +65,11 @@
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 ### [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
 ### [What are Communications Credits?](what-are-communications-credits.md)
+## Supported devices
+### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 <!-- ============================================================ -->
 
 
@@ -105,25 +110,20 @@
 <!-- ============================================================ -->
 # Manage
 ## [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-## Call analytics
+## Monitor call quality and QoS
+### [QoS in Teams](QoS-in-Teams.md)
+### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Set up Call Analytics](set-up-call-analytics.md)
 ### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-
+### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 ## Troubleshoot & support
 ### [Known issues for Teams](Known-issues.md)
 ### [Support resources for Teams](support-resources.md)
 ### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ### [Use log files in troubleshooting Teams](log-files.md)
 ### [Verify service health for Teams](service-health.md)
-## Monitor call quality and QOS
-### [QoS in Teams](QoS-in-Teams.md)
-### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Set up Skype for Business Call Analytics](set-up-call-analytics.md)
-### [Use Call Analytics to troubleshoot poor Skype for Business call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+
 <!-- ============================================================ -->
 
 
@@ -202,7 +202,7 @@
 ### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ### [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Live events
-#### [What are Teams live events?](what-are-teams-live-events.md)
+#### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
 
 
 

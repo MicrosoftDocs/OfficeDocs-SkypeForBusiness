@@ -7,6 +7,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
 description: "Microsoft partners with selected SBC vendors to certify their SBC for work with Direct Routing."
 ---
@@ -40,12 +41,13 @@ If you have any questions about SBC certification program for Direct Routing ple
 |     |   Mediant 4000 SBC       |     &#10004;     |    Pending     |    7.20A.200.055      |
 |     |    Mediant 1000B  SBC   |    &#10004;      |  Pending       |    7.20A.200.055   |
 |     |   Virtual Edition SBC    |   &#10004;   |Pending         |     7.20A.200.055     |
-|[Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    &#10004;      |   Pending      |     V6.2     |
+|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    &#10004;      |   Pending      |     V6.2     |
 |     |SBC 5210     |     &#10004;     |    Pending     |    V6.2      |
 |     | SBC 5400     |    &#10004;  |    Pending     |   V6.2    |
 |     |SBC 7000     |     &#10004;  |    Pending     |    V6.2      |
 |     | SBC SWe  |   &#10004;    |    Pending     |    V6.2      |
 |     |SBC 1000   |     &#10004;   |     Pending    |    V7.0.2   |&#10004; 
 |     | SBC 2000    |     &#10004;   |    Pending     |    V7.0.2      |
+|     | SBC SWe Lite     |&#10004; | Pending | V7.0.4
 |[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    Think 365 SBC      |  &#10004;       |    Pending     |   V1.4       |
 |     |         |         |         |         |

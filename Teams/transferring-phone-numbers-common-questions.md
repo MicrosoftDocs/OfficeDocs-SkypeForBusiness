@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
@@ -162,7 +163,7 @@ Here are the most common mistakes we see customers make when they port numbers. 
 To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to set a PIN. After you set the PIN, you need to include it when you request to port a phone number out. To see how to set up your PIN, see [Set your PIN for transferring numbers to a new service provider](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
 
 > [!NOTE]
-> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
   
 ## Related topics
