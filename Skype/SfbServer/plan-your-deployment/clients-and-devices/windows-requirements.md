@@ -1,7 +1,8 @@
 ---
 title: "Windows client requirements and software support"
 ms.author: jambirk
-author: PhillipGarding
+author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
