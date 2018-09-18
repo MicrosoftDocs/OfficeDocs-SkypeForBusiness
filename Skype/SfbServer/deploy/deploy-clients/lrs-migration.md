@@ -47,7 +47,7 @@ This table lists summary of all available options for existing LRS devices:
 
 | Upgrade Option | SMART Room Systems | Crestron RL2 | Polycom CX8000 | Crestron RL |
 |:--- |:--- |:--- |:--- |:--- |
-|**Crestron hardware </br>Trade-in program**|Preferred|Available|Preffered|Not Available|
+|**Crestron hardware </br>Trade-in program**|Preferred|Available|Preferred|Not Available|
 |**Crestron RL3**|Not Available|Preferred|Not Available|Not Available|
 |**Do-It-Yourself**|Available|Not Available|Not Available|Not Available|
 |||||
