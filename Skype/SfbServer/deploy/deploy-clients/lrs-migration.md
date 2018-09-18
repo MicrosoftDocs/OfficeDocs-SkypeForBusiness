@@ -46,7 +46,7 @@ This table lists summary of all available options for existing LRS devices: <BR/
 |**Upgrade Option**|**SMART Room Systems**|**Crestron RL2**|**Crestron RL**|**Polycom CX8000**|
 |:-----|:-----|:-----|:-----|:-----|
 |**Crestron hardware Trade-in program**</br>|Preferred</br>|Available</br>|Not Available</br>|Preferred</br>|
-|**Crestron RL300**</br>|Not Available</br>|Preferred</br>|Not Available</br>|Not Available</br>|
+|**Crestron RL3**</br>|Not Available</br>|Preferred</br>|Not Available</br>|Not Available</br>|
 |**Do-It-Yourself**</br>|Available</br>|Available</br>|Not Available</br>|Not Available</br>|
 
 We recommend you plan to update Lync Room System devices before LRS 1.0/1.1 deprecation. Please contact Microsoft support if you need assistance with upgrade and check back this page for additional details on Do-It-Yourself option.
