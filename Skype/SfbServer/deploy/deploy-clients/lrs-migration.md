@@ -49,7 +49,7 @@ This table lists summary of all available options for existing LRS devices: <BR/
 |**Crestron RL3**</br>|Not Available</br>|Preferred</br>|Not Available</br>|Not Available</br>|
 |**Do-It-Yourself**</br>|Available</br>|Available</br>|Not Available</br>|Not Available</br>|
 </br>
-We recommend you plan to update Lync Room System devices before LRS 1.0/1.1 deprecation. Please contact Microsoft support if you need assistance with upgrade and check back this page for additional details on Do-It-Yourself option.
+We recommend you plan to update Lync Room System devices before TLS 1.0/1.1 deprecation. Please contact Microsoft support if you need assistance with upgrade and check back this page for additional details on Do-It-Yourself option.
 </br>
 
 
