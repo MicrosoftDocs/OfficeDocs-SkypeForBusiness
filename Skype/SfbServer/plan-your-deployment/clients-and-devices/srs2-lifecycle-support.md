@@ -1,7 +1,8 @@
 ---
 title: "Version Support"
 ms.author: jambirk
-author: davgroom
+author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro

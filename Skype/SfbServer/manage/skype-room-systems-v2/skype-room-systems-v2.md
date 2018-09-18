@@ -2,6 +2,7 @@
 title: "Management overview for Skype Room Systems v2"
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
