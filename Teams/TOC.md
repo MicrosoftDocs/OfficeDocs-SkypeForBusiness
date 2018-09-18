@@ -328,7 +328,6 @@
 #### [Audio Conferencing common questions](audio-conferencing-common-questions.md)
 #### [Audio Conferencing pay-per-minute](audio-conferencing-pay-per-minute.md)
 #### [Audio Conferencing supported languages](audio-conferencing-supported-languages.md)
-#### [Audio Conferencing troubleshooting and known issues](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 #### [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
