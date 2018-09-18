@@ -53,9 +53,35 @@ Team user types determine how much control a team member has:
 
 Teams admin roles determine what capabilities each admin role holder has. The roles and the tasks each role holder can do are described in the following table.
 
+| Role  | Description | Can do the following tasks using tools as noted |
+|-------|-------------|-------------------------------------------------|
+|Teams Service Administrator | Manage the Teams service, and create and manage Office 365 Groups | Manage meetings, including meeting policies, configurations, and conference bridges<sup>1</sup> |
 
-
-
+<table>
+ <thead>
+  <tr>
+    <th width="0.5%"></th>
+    <th width="19.5%">Role</th>
+    <th width="25%">Description</th>
+    <th width="55%">Can do the following tasks, using tools as noted</th>
+  </tr>
+</thead>
+<tbody>
+   <tr>
+    <td valign="top" colspan="2">Teams Service Administrator</td>
+    <td valign="top">Manage the Teams service, and create and manage Office 365 Groups</td>
+    <td valign="top">Manage meetings, including meeting policies, configurations, and conference bridges<sup>1</sup><br><br>Manage voice, including calling policies, phone number inventory and assignment, call queues, and auto attendants<sup>1</sup><br><br>Manage messaging, including messaging policies<sup>1</sup><br><br>Manage all org-wide settings, including federation, Teams upgrade, and Teams client settings<sup>1</sup><br><br>Manage the teams in the organization and their associated settings, including membership<sup>2</sup><br><br>View the user profile page and troubleshoot user call quality problems by using advanced troubleshooting toolset<sup>3</sup></td>
+</tr>
+<tr>
+</tbody>
+<tfoot>
+<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
+">PowerShell—Skype for Business module, and Microsoft Teams & Skype for Business Admin Center</a></td></tr>
+<tr><td align="right"><sup>2</sup></td><td colspan="3">PowerShell—Microsoft Teams module, and Microsoft Teams & Skype for Business Admin Center</td></tr>
+<tr><td align="right"><sup>3</sup></td><td colspan="3">Microsoft Teams & Skype for Business Admin Center</td>
+</tr>
+</tfoot>
+</table>
 
 
 
@@ -147,7 +173,9 @@ When the work of a team has run its course, it’s important to formally acknowl
 
 You can delete teams that you know you don’t need (for example, a team created purely for testing or a team that contains sensitive data). Teams are actually deleted with a “soft delete” that IT can reverse for up to 21 days (30 days for Office 365 Groups). Deleting teams doesn’t affect any chats or content that were retained in accordance with compliance policies.
 
-You can also use expiration and retention policies in addition to archiving capabilities to reduce exposure from teams that aren’t active any longer or whose owners have left the organization. For information about setting up expiration and retention policies, see [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md).
+You can also use expiration and retention policies in addition to archiving capabilities to reduce exposure from teams that aren’t active any longer or whose owners have left the organization.
+
+For information about setting up expiration and retention policies, see [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md).
 
 |    |     |
 |-----------|------------|
