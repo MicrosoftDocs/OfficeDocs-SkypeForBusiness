@@ -17,12 +17,12 @@ Skype Room System Version 2 (SRS v2) software also enables Microsoft Teams in ad
 
 Your existing devices **may** continue to work after end of SRS V1 software support until it hits a software bug that needs Microsoft to release a fix or existing communication protocols as used by SRS v1 changes or no longer work. One such known change is deprecation of TLS 1.0/ 1.1 in Office 365. You can learn more about TLS 1.0/1.1 deprecation [here](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608).  
 
-### Which devices are affected?
+## Which devices are affected?
 Here is the list of the devices that are affected by this change: 
-1. Crestron RL 
+1. [SMART Room systems](https://smartkapp.com/products/smart-room-systems)
 2. [Crestron RL2](https://www.crestron.com/en-US/Products/Featured-Solutions/Crestron-RL-2)
-3. [SMART Room systems](https://smartkapp.com/products/smart-room-systems)
-4. [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
+3. [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
+4. Crestron RL 
 
 ## Upgrade options
 There are multiple options for upgrading Lync Room Systems to the next generation of Skype Room Systems (SRS v2):
@@ -41,7 +41,7 @@ Customers can also decide to upgrade their existing hardware with Skype Room Sys
 
 Microsoft will provide instructions to install Skype Room System V2 software and tools to make Logitech Screen Share adapter work with existing LRS devices. Look for upgrade instructions on this page shortly.  
 
-This table lists summary of all available options for existing LRS devices:
+This table lists summary of all available options for existing LRS devices: <BR/>
 
 |**Upgrade Option**|**SMART Room Systems**|**Crestron RL2**|**Crestron RL**|**Polycom CX8000**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -50,4 +50,6 @@ This table lists summary of all available options for existing LRS devices:
 |**Do-It-Yourself**</br>|Available</br>|Available</br>|Not Available</br>|Not Available</br>|
 
 We recommend you plan to update Lync Room System devices before LRS 1.0/1.1 deprecation. Please contact Microsoft support if you need assistance with upgrade and check back this page for additional details on Do-It-Yourself option.
+
+**Note:** Touch and Whitebaord fucntionality is not yet supported in Skype Room System V2. Touch and whiteboard support in the backlog for Skype Room System V2 and will be added in 2019.
 
