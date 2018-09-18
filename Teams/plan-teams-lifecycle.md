@@ -51,13 +51,13 @@ Team user types determine how much control a team member has:
 > [!Note]
 > You can learn more about team owner and team member capabilities in the article [Assign role and permissions in Microsoft Teams](assign-roles-permissions.md).
 
-Teams admin roles determine what capabilities each admin role holder has. The roles and the tasks each role holder can do are described in the following table.
+Teams admin roles determine what capabilities each admin role holder has. These are described in the following table.
 
 <table>
  <thead>
   <tr>
     <th width="0.5%"></th>
-    <th width="15.5%">Role</th>
+    <th width="15.5%">Role&nbsp;&nbsp;</th>
     <th width="25%">Description</th>
     <th width="60%">Can do the following tasks, using tools as noted</th>
   </tr>
@@ -87,9 +87,9 @@ Teams admin roles determine what capabilities each admin role holder has. The ro
 </tbody>
 <tfoot>
 <tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell—Skype for Business module</a>, and <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams & Skype for Business Admin Center</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell—Microsoft Teams module</a>, and <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams & Skype for Business Admin Center</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams & Skype for Business Admin Center</a></td>
+">PowerShell—Skype for Business module</a> or <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams & Skype for Business Admin Center</a></td></tr>
+<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell—Microsoft Teams module</a> or <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams & Skype for Business Admin Center</a></td></tr>
+<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams & Skype for Business Admin Center</a> only</td>
 </tr>
 </tfoot>
 </table>
