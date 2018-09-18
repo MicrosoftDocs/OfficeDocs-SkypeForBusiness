@@ -31,7 +31,7 @@ There are multiple options for upgrading Lync Room Systems to the next generatio
 3. Do-It-Yourself 
 
 ### 1. Crestron hardware Trade-in program
-Crestron will provide an upgrade to the [Crestron SR system](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) with a commitment to a 3-year support package with Crestron.  This option is available to all customers whether they have a SMART Room System or a Polycom CX8000 Lync Room System. Customers should provide a Surface Pro 5 device to secure in the SR encolusre but Windows IoT licnese and upgrade software is provided by Crestron. See details of this program [here](https://www.crestron.com/).  
+Crestron will provide an upgrade to the [Crestron SR system](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) with a commitment to a 3-year support package with Crestron.  This option is available to all customers whether they have a SMART Room System or a Polycom CX8000 Lync Room System. Customers should provide a Surface Pro 5 device to secure in the SR enclosure but Windows IoT license and upgrade software is provided by Crestron. See details of this program [here](https://www.crestron.com/).  
 
 ### 2. Crestron RL3
 All existing Crestron LRS customers with Crestron RL2 (also referred to as Crestron RL200) are eligible to receive an upgrade package for in-place upgrade of RL2 to RL3 using a Crestron HDMI adapter accessory and upgrade kit for a minimal cost per device. See details of this program [here](https://www.crestron.com/). 
