@@ -45,14 +45,14 @@ Microsoft will provide instructions to install Skype Room System v2 software and
 
 This table lists summary of all available options for existing LRS devices:
 
-| Upgrade Option | SMART Room Systems | Crestron RL2 | Crestron RL | Polycom CX8000 |
+| Upgrade Option | SMART Room Systems | Crestron RL2 | Polycom CX8000 | Crestron RL |
 |:--- |:--- |:--- |:--- |:--- |
-|**Crestron hardware </br>Trade-in program**|Preferred|Available|Not Available|Preferred|
+|**Crestron hardware </br>Trade-in program**|Preferred|Available|Preffered|Not Available|
 |**Crestron RL3**|Not Available|Preferred|Not Available|Not Available|
-|**Do-It-Yourself**|Available|Available|Not Available|Not Available|
+|**Do-It-Yourself**|Available|Not Available|Not Available|Not Available|
 |||||
 
 We recommend you plan to update Lync Room System devices before TLS 1.0/1.1 deprecation. Please contact Microsoft support if you need assistance with upgrade and check back this page for additional details on Do-It-Yourself option.
 
-> [!NOTE]
+> [!NOTE]:
 > Touch and whiteboard functionality is not yet supported in Skype Room System v2. Touch and whiteboard support in the backlog for Skype Room System v2 and will be added in 2019.
