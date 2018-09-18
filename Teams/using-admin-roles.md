@@ -1,4 +1,3 @@
----
 title: Use Microsoft Teams admin roles to manage Teams
 author: LolaJacobsen
 ms.author: lolaj
@@ -25,8 +24,8 @@ There are four Teams admin roles available: Teams service administrator, Teams c
 |----- | ------------------ | ------------------------------ |
 | Teams Service Administrator | Manage the Microsoft Teams service and create and manage Office 365 groups | Everything in the Microsoft Teams & Skype for Business Admin Center and associated PowerShell controls, including:<br><br> Manage meetings, including meeting policies, configurations, and conference bridges<sup>1,3</sup><br><br> Manage voice, including calling policies, phone number inventory and assignment, call queues, and auto attendants<sup>1,3</sup><br><br> Manage messaging, including messaging policies<sup>1,3</sup><br><br> Manage all org-wide settings, including federation, teams upgrade, and teams client settings<sup>1,3</sup><br><br> Manage the teams in the organization and their associated settings, including membership<sup>23</sup><br><br> View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset<sup>3</sup> |
 | Teams Communications Administrator | Manage calling and meetings features within the Microsoft Teams service | Manage meetings, including meeting policies, configurations, and conference bridges<sup>1,3</sup><br><br> Manage voice, including calling policies, phone number inventory and assignment, call queues, and auto attendants<sup>1,3</sup><br><br> View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset<sup>1,3</sup> |
-| Teams Communications Specialist | Troubleshoot communications issues within Teams by using **basic** tools.| Access to user profile page for troubleshooting calls in Call Analytics. Can only view user information for the specific user being searched for.<sup>3</sup> |
-| Teams Communications Support Engineer | Troubleshoot communications issues within Teams by using **advanced** tools. | Access to user profile page for troubleshooting calls in Call Analytics. Can view full call record information.<sup>3</sup>
+| Teams Communications Support Engineer | Troubleshoot communications issues within Teams by using **advanced** tools. | Access to user profile page for troubleshooting calls in Call Analytics. Can view full call record information.<sup>3</sup> |
+| Teams Communications Support Specialist | Troubleshoot communications issues within Teams by using **basic** tools.| Access to user profile page for troubleshooting calls in Call Analytics. Can only view user information for the specific user being searched for.<sup>3</sup>
 
 <sup>1</sup> [PowerShell - Skype for Business module](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell - Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
