@@ -107,7 +107,7 @@ Generally speaking, a team has a purpose that’s aligned with a project or acco
 
 Each team has a beginning, when the team is created and the channels are set up; a middle, when the team is used and collaboration occurs to match the rhythm of the workflow; and—sometimes—an end, when the team has completed its purpose and reached the end of its useful life. 
 
-For more information, see [Manage teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
+For more information, see [Manage teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md).
 
 ### Stage 1: Beginning
 
