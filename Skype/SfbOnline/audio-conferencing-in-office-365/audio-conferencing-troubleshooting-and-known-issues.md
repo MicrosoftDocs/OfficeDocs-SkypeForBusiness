@@ -30,7 +30,7 @@ description: "Get a list of known issues when using Microsoft as their dial-in c
 
 Audio Conferencing that uses Microsoft as the audio conferencing provider has current issues that are being tracked and actively investigated and will be potentially resolved when the feature is updated in future releases of Office 365.
   
-For now, use this as a reference when you are troubleshooting potential issues with getting Audio Conferencing set up and working for the people using the Skype for Business in your organization.
+For now, use this as a reference when you are troubleshooting potential issues with getting Audio Conferencing set up and working for the people using Skype for Business in your organization.
 
 |**Issue**|**Behavior/Symptoms**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
