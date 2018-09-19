@@ -30,12 +30,12 @@ The locations data you provide is a single data structure – there’s currentl
 3. Click **Upload**. 
 
 
-You can download a sample template [here](ADD text file).
+You can download a sample template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations template.txt?raw=true).
 
 You can use the following example to help create your data file. 
 
-> [!NOTE]
-> Your data file should not contain column headers. These are for explanatory purposes only. </br>
+> [!IMPORTANT>]
+> Your data file should not contain column headers (such as Network, Network Name, etc.). These are for informational purposes only. </br>
 
 |Network|Network Name|Network Range|Building Name|Ownership Type|Building Type|Building Office Type|City|Zip Code|Country|State|Region|Inside Corp|Express Route|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
