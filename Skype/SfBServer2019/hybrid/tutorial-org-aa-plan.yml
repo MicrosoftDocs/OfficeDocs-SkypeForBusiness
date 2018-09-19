@@ -33,7 +33,7 @@ items:
     small business.   
 
     We’ll be discussing:
-    -	Gathering information and assessing the needs of the implementation
+    -	Gathering information and assessing the needs of the business
     -	Designing a logical nesting structure for the Auto Attendants that will meet those needs
     -	Writing the scripts for the Auto Attendants
     -	Implementing the needed Auto Attendants 
@@ -48,7 +48,7 @@ items:
     1. Create users in Skype for Business
     2. Assign Voicemail boxes to users.  
 
-- title: Quick start - Assess needs
+- title: Assess business needs
   durationInMinutes: 4
   content: |
 
@@ -143,13 +143,9 @@ items:
     2.	Use reserved menu option numbers or keys as menu options. If all extensions in your office start with 6, then don't use that number.  
 
     The \* and \# characters frequently have reserved meanings too, so review which DTMF keys are reserved.
-
- 
  
 
-- title: Do a Design Mockup 
-  durationInMinutes: 1
-  content: |
+    ## Do a Design Mockup 
 
     To do the initial design, you'll need a flexible and easy way to work out hierachies and structures of users and Auto Attendants. Here’s an exercise you 
     can do on any blank wall or whiteboard, using several colors of pen and some sticky notes or index cards and tape:
