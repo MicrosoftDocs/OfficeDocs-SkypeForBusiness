@@ -1,5 +1,5 @@
 ---
-title: Cloud Video Interop for Microsoft Teams
+title: Set up Cloud Video Interop for Microsoft Teams
 author: lolaj
 ms.author: lolaj
 manager: serdars
@@ -14,7 +14,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Cloud Video Interop for Microsoft Teams
+# Set up Cloud Video Interop for Microsoft Teams
 
 Cloud Video Interop for Teams enables interoperability with third-party video teleconferencing devices (VTCs) when joining Microsoft Teams meetings. 
 
