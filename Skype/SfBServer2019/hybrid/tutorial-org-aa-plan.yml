@@ -45,8 +45,8 @@ items:
   
     ## Before you begin
     
-    1. Create users in Skype for Business
-    2. Assign Voicemail boxes to users.  
+    [Set up Phone System in your organization](https://docs.microsoft.com/en-us/microsoftteams/setting-up-your-phone-system) 
+      
 
 - title: Assess business needs
   durationInMinutes: 4
