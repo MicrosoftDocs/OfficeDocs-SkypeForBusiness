@@ -17,7 +17,7 @@ metadata:
   ms.collection: Adm_Skype4B_Online
   ms.custom:
   - NewAdminCenter_Update
-  appliesto: Skype for Business
+  appliesto: Skype_for_Business
 items:
 - durationInMinutes: 2
   content: |
@@ -60,7 +60,7 @@ items:
 
     ## Q: Who are the people in the business?
     Here's a summary of the employees: 
-    |Phone #	|First Name	|Last Name	|Role			|Notes |
+    |Phone #	| Name		|Role			|Notes |
     |:--      |:--        |:--        |:--      |:--   |
     |555-0181	|Olga Gerasimova	|Lawyer | |
     |555-0182	|Manuela	Carstens|	Lawyer | |	
@@ -98,7 +98,7 @@ items:
     |Want to speak to one of the Lawyers	|15|	Transfer to the Lawyer requested|
     |Want to speak to the office manager	|12|	Transfer to the office manager |
     |Want to speak to one of the Paralegals	|10|	Transfer to the VM for the paralegal requested|
-    |Want to speak to the IT technician	|6|	Transfer to the IT technician |
+    |Want to speak to the investigator	|6|	Transfer to the investigator |
     |Requesting a copy of records	|4|	Transfer to the records clerk |
     | | | |
 
@@ -122,7 +122,7 @@ items:
     questions you might have assumed should be routed to the billing department or Valeria the office manager.
 
 
-- title: 3	The Design
+- title: The Design
   durationInMinutes: 2
   content: |
     ##	General Guidelines
@@ -141,6 +141,7 @@ items:
     Don't:
     1.	Create a nested Auto Attendant with more than 5 choices. If you do, you'll likely confuse your callers and force them to repeat the menu.
     2.	Use reserved menu option numbers or keys as menu options. If all extensions in your office start with 6, then don't use that number.  
+
     The \* and \# characters frequently have reserved meanings too, so review which DTMF keys are reserved.
 
  
@@ -166,6 +167,7 @@ items:
 
     Here’s a Visio diagram representing our example:
 
+![Auto Attendant diagram](../media/AA-LawyerOfficeExample.png)
 
 - title: Writing the Scripts 
   durationInMinutes: 3
@@ -186,11 +188,12 @@ items:
     recorded. If the reader mumbles, sounds condescending, or sounds like they might be a machine, you can probably find a better choice.
     6.	Mention significant changes to your option structure when that happens, but don't leave that part of the greeting active for more than a month. If you 
     have frequent updates and expect that to be the case most of the time, just omit it from the script.
+    
     Don't:
     1.	Clutter the initial greeting with hours of operation or your business address. Make those available as a choice in the first menu if it's frequently requested information, but keep the initial greeting short and sweet.
     2.	Create menus with more than 5 choices. If you do, you'll likely confuse your callers and force them to repeat the menu.
     3.	Say please or use other pleasantries over and over. Just get the callers to the option or person they need as efficiently as possible.
-    4.	Include "http://www." when mentioning a web address. It's just a poor use of script time.
+    4.	Include "http:\/\/www\." when mentioning a web address. It's just a poor use of script time.
     5.	Use abbreviations like St for street or CA for California. Spell them out in the script and say the whole word in the recording. 
     6.	Use reserved menu option numbers or keys. If all extensions in your office start with 6, then don't use that number.  The * and # characters frequently have reserved meanings too, so review which DTMF keys are reserved.
     7.	Include sales information in the scripts, you'll annoy your callers. Let your sales force take care of that sort of thing.
@@ -215,16 +218,19 @@ items:
     For Billing questions, press 2.
     For Hours and location, press 3.
     For more options, press 4.
+
     *Available options not mentioned: zero, \*, and \#.*
 
     #### Script 4: Billing
     To speak to Jakob Roth, press 1.
     To speak to Laura Heinrich, press 2.
+
     *Available options not mentioned: zero, \*, and \#.*
 
     #### Script 5: Hours and Location
     We are open for business from 8:30am to 5:30 pm, Tuesday through Saturday. Our address is 1234 Green Street near Central avenue, Planktown Pennsylvania, 
     directly across from City Hall.
+
     Available options not mentioned: zero, *, and #.
 
     #### Script 6: More Menu options
@@ -232,12 +238,14 @@ items:
     To speak to the office manager, press 2. 
     To speak to one of the paralegals, press 3.
     For other options, press 4.
+
     *Available options not mentioned: zero, \*, and \#.*
 
     #### Script 7: Lawyer menu
     To speak to Olga Gerasimova, press 1.
     To speak to for Manuela Carstens, press 2.
     To speak to for Andrey Alexeeva, press 3.
+
     *Available options not mentioned: zero, \*, and \#.*
 
     ####	Script 8: Paralegal menu
@@ -247,11 +255,13 @@ items:
     To speak to Mariya Artemyeva, press 4.
     To speak to Dariya Polyakova, press 5.
     To speak to Milana Nikolaeva, press 6.
+
     *Available options not mentioned: zero, \*, and \#.*
 
     ####	Script 9: Additional menu options
     To speak to our Investigator, press 1.
     To request a copy of your records, press 2.
+    
     *Available options not mentioned: zero, \*, and \#.*
 
 
