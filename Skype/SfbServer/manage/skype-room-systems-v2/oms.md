@@ -2,6 +2,7 @@
 title: "Manage Skype Room Systems v2 devices with OMS"
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/19/2017
 ms.audience: ITPro
