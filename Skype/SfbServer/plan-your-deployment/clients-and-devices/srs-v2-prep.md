@@ -1,7 +1,8 @@
 ---
 title: "Prepare your Environment"
 ms.author: jambirk
-author: davgroom
+author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
