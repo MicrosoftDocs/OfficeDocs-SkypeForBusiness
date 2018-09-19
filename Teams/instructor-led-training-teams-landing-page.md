@@ -195,7 +195,7 @@ ms.date: 08/24/2018
                                             </div>
                                             <div class="cardText">
                                                 <h3>Getting started with Teams for Education</h3>
-                                                <p>Teams is a rock star for Education. Get the training you need to use Teams in an Education setting.</p>
+                                                <p>Teams is a rock star for Education. Get the training you need to use Teams in an Education setting. </p>
                                             </div>
                                         </div>
                                     </div>
