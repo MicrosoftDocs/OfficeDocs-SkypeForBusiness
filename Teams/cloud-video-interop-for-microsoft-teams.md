@@ -27,11 +27,11 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 [Do we want to include the dates, as below? We will need to update the BlueJeans link on/near the release date.]
 [Also, I can add the logos if you think they're needed.]
 
-|Partner solution|Availability|
-|----|---|
-|[Polycom RealConnect for Office 365](https://aka.ms/PolycomRealConnect)|Available now|
-|[Pexip Infinity for Microsoft Teams](https://aka.ms/PexipInfinity) | October 19, 2018|
-|[BlueJeans Gateway for Microsoft Teams](https://aka.ms/BluejeansGateway) | October 31, 2019|
+|Partner|Partner solution|Availability|
+|----|---|----|
+|![Polycom RealConnect](media/polycom.png) |   [Polycom RealConnect for Office 365](https://aka.ms/PolycomRealConnect)|Available now|
+|![Pexip Infinity](media/pexip.png)| [Pexip Infinity for Microsoft Teams](https://aka.ms/PexipInfinity) | October 19, 2018|
+|![BlueJeans Gateway](media/bluejeans.png)|[BlueJeans Gateway for Microsoft Teams](https://aka.ms/BluejeansGateway) | October 31, 2019|
 
 
 Our partners has developed a gateway solution to connect thrid-party standards-based SIP and H.323 devices to Microsoft Teams meetings. These solutions include: 
