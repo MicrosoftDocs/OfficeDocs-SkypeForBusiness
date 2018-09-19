@@ -42,7 +42,7 @@ In this context, an automated attendant or auto attendant menu system transfers 
 
 In many auto attendant systems, a receptionist or operator can be reached by pressing or saying zero. Some auto attendant systems use message-only information menus and voice menus so an organization can provide business hours, directions to the premises, information about job opportunities, and answers to other frequently asked questions. After the message plays, callers are forwarded to the receptionist or operator, or they can return to the main menu.
 
-Although auto attendants can be very useful, if they aren't designed and configured correctly, they can confuse and frustrate callers. For example, especially in large organizations, when auto attendants aren't designed correctly, callers can be led through a lengthy series of questions and menu prompts before they're finally transferred to a person to answer their questions.
+Although auto attendants can be very useful, if they aren't designed and configured thoughtfully, they can confuse and frustrate callers. For example, especially in large organizations, when auto attendants aren't designed well, callers can be led through a lengthy series of questions and menu prompts before they're finally transferred to a person to answer their questions.
 
 Auto Attendants also have a number of settings (such as business hours or a holiday schedule, or choosing the codecs used, inaction timeout) that are configurable to an organization's needs.
 
@@ -67,13 +67,13 @@ These steps are fleshed out in [Manually moving an Exchange UM Auto Attendant to
 
 <!-- As you review the structure, you can use the questions and activities described in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml) to either capture or reassess the UM Auto Attendant implementation. -->
 
-## Designing the Auto Attendant structure 
+<!-- ## Designing the Auto Attendant structure
 
-<!-- If you're designing an Auto Attendant system from scratch, review the questions and activities in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml). -->
+ If you're designing an Auto Attendant system from scratch, review the questions and activities in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml). -->
 
 ## Writing better Auto Attendant scripts
 
-Your auto-attendant script can make or break the impression left on your customers or callers. Think it through carefully, write it out, and consider having it professionally recorded. <!-- These guidelines are also incorporated into [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml). -->
+Your auto-attendant's structure and  script can make or break the impression left on your customers or callers. Think it through carefully, write it out, and consider having it professionally recorded. <!-- These guidelines are also incorporated into [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml). -->
 
 Consider some of these do's and dont's when planning a brand new auto attendant system:
 

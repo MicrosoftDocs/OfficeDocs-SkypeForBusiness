@@ -26,7 +26,7 @@ In Skype for Business Server 2019 you are now able to use the cloud auto attenda
 
 To use Cloud Auto Attendant with Skype for Business Server 2019, you will need to create virtual on-prem users that act as application endpoints and can be assigned phone numbers, then use the online Admin Center to configure the overall Cloud AA experience. Typically you will have multiple Auto Attendants, each of which plays an audio outgoing message to callers.
 
-If you have an existing Auto Attendant implemented in Exchange UM, you will ned to manually record the details as described below and then implement a completely new Cloud Auto Attendant using the Office Online Admin portal.
+If you have an existing Auto Attendant implemented in Exchange UM, before you switch to Exchange Server 2019 or Exchange online, you will need to manually record the details as described below and then implement a completely new Cloud Auto Attendant using the Office Online Admin portal.
 
 ## Server configuration steps
 
