@@ -17,7 +17,6 @@ metadata:
   ms.collection: Adm_Skype4B_Online
   ms.custom:
   - NewAdminCenter_Update
-  appliesto: Skype_for_Business
 items:
 - durationInMinutes: 2
   content: |
@@ -138,6 +137,7 @@ items:
     set of nested Attendants for the secondary language.
     5.	Take a few extra minutes to flow chart the options you want to create, and make sure you aren't creating opportunities for users to go around in 
     circles in the option menus. It should ideally be possible to get connected to a person or their voicemail in three menus or less.
+    
     Don't:
     1.	Create a nested Auto Attendant with more than 5 choices. If you do, you'll likely confuse your callers and force them to repeat the menu.
     2.	Use reserved menu option numbers or keys as menu options. If all extensions in your office start with 6, then don't use that number.  
@@ -175,6 +175,7 @@ items:
     ### Writing Better Auto Attendant Scripts 
     Your auto-attendant script can make or break the impression left on your customers or callers. Think it through carefully, write it out, and consider having it professionally recorded.
     Consider some of these guidelines when planning a brand new auto attendant system:
+
     Do:
     1.	Greet and thank the caller for contacting you. Keep this short, no more than three sentences and under 30 seconds. If your web site offers self-service 
     options, mention it but otherwise present choices and options as soon as possible without being abrupt.  It's a good idea to have alternate initial greetings 
@@ -295,7 +296,7 @@ items:
     |:---  |:---  |
     |Company greeting	| Create a custom greeting, callers will hear: Script 1 above |
     |What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt <br/>Callers will hear: Script 3 above|
-    |Edit Menu options	|**1:** Enter the Name of the option: Scheduling <br/>Send to: Person in your company: Julie Wolfe <br/>2: Enter the Name of the option: Scheduling <br/>Send to: nested Auto Attendant Billing <br/>3: Enter the name of the option: Hours and location <br/>Send to: nested Auto Attendant Hours&Location |
+    |Edit Menu options	|**1:** Enter the Name of the option: Scheduling <br/>Send to: Person in your company: **Julie Wolfe** <br/>**2:** Enter the Name of the option: Billing <br/>Send to: nested Auto Attendant **Billing** <br/>**3:** Enter the name of the option: Hours <br/>Send to: nested Auto Attendant **Hours&Location** |
     |  |   |
 
     
@@ -310,27 +311,27 @@ items:
     |:---  |:---  |
     |Company greeting	|None  |
     |What happens to the calls after the greeting?|	Play menu options prompt, menu prompt: Create a custom prompt<br/>Callers will hear: Script 4 above |
-    |Edit Menu options	|1: Enter the Name of the option: Jakob Roth  <br/>Send to: Person in your company: Jakob Roth <br/>2: Enter the Name of the option: Laura Heinrich<br/>Send to: Person in your company: Laura Heinrich |
+    |Edit Menu options	|**1:** Enter the Name of the option: Jakob  <br/>Send to: Person in your company: Jakob Roth <br/>**2:** Enter the Name of the option: Laura<br/>Send to: Person in your company: **Laura Heinrich** |
     |  |   |
 
     |Nested Auto Attendant: Hours&Location (nested under Business Hours) | |
     |:---  |:---  |
     |Company greeting	| None |
-    |What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt<br/>Callers will hear: Script 5 above
+    |What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt<br/> <br/>Callers will hear: Script 5 above
     |  |   |
     
 
     | Nested Auto Attendant: MoreOptions (nested under Business Hours)  |  |
     |:---  |:---  |
     | Company greeting	| None  |
-    | What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Script 6 above
+    | What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/>  <br/> Callers will hear: Script 6 above
     |Edit Menu options	|**1:** Enter the Name of the option: Lawyers  <br/>Send to: nested Auto Attendant **Lawyers** <br/>**2:** Enter the Name of the option: OfficeManager <br/>Send to: Person in your company: Valeria Pisani <br/>**3:** Enter the Name of the option: Paralegals Send to: nested Auto Attendant **Paralegals** <br/>**4:** Enter the Name of the option: OtherOptions Send to: nested Auto Attendant **StillMoreOptions**  |
     |  |   |
 
     |Nested Auto Attendant: Lawyers (nested under More Options) | |
     |:---  |:---  |
     |Company greeting	| None  |
-    |What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/>Callers will hear: Script 7 above <br/>Edit Menu options	**1:** Enter the Name of the option: Olga <br/>Send to: Person in your company: Olga Gerasimova <br/>**2:** Enter the Name of the option: Manuela <br/>Send to: Person in your company: Manuela Carstens <br/>**3:** Enter the Name of the option: Andrey <br/>Send to: Person in your company: Andrey Alexeeva |
+    |What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> <br/>Callers will hear: Script 7 above <br/>Edit Menu options |	**1:** Enter the Name of the option: Olga <br/>Send to: Person in your company: Olga Gerasimova <br/>**2:** Enter the Name of the option: Manuela <br/>Send to: Person in your company: Manuela Carstens <br/>**3:** Enter the Name of the option: Andrey <br/>Send to: Person in your company: Andrey Alexeeva |
     |  |   |
 
     |Nested Auto Attendant: Paralegals (nested under More Options) |  |
