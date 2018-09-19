@@ -2,7 +2,7 @@ title: Use Microsoft Teams admin roles to manage Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 08/24/2018
+ms.date: 09/19/2018
 ms.topic: article
 ms.service: msteams
 description: Learn to use the different adminstrative roles to manage Teams.
@@ -52,7 +52,7 @@ Most of the PowerShell tools for these admin roles live in the Skype for Busines
 
 ### Related topics
 
+- [Microsoft Teams PowerShell Overview](teams-powershell-overview.md)
 - [Microsoft Teams PowerShell](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)
-- [Assign roles and permissions in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/assign-roles-permissions)
-- [Use PowerShell to manage Teams](using-powershell-to-manage-teams.md)
+- [Assign team owners and members in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/assign-roles-permissions)
 
