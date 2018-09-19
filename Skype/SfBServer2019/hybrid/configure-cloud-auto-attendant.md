@@ -34,7 +34,7 @@ These steps are necessary whether you are creating a brand new Auto Attendant or
 
 1. Create each Auto Attendant by running the `New-CsHybridApplicationEndpoint` cmdlet as needed, and give each one a name, sip address, and so on.
 
-    For an Auto Attendant that will be the Initial Greeting or after-hours greeting, be sure to assign the phone number using the  -LineURI option. This is optional if the auto attendant is a child in the hierarchy.
+    For an Auto Attendant that will be the Initial Greeting or after-hours greeting, be sure to assign the phone number using the  -LineURI option. This is optional if the auto attendant is a child in the hierarchy. The hierarchy structure will be configured online, on the server we're just creating containers to arrange later.
 
     ```
     New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
@@ -65,9 +65,9 @@ These steps are necessary whether you are creating a brand new Auto Attendant or
 
 Your online implementation will need to have a plan that includes Phone System as described at [Office 365 Enterprise E1, E3, and E4](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
 
-1. Assign Phone System licenses to the on-premise hybrid endpoints as described in  [Assign Skype for Business and Microsoft Teams licenses](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+1. Assign Phone System licenses to the on-premise hybrid endpoints (auto attendant placeholders) as described in  [Assign Skype for Business and Microsoft Teams licenses](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
-2. Use the procedures in [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) to implement the Cloud Auto Attendant structure.  
+2. Use the procedures in [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) to implement the Cloud Auto Attendant structure, including redirects to users, to nested auto attendants, to call queues, or other valid options.  
 
 ## Manually moving an Exchange UM Auto Attendant to Cloud Auto Attendant
 
@@ -81,7 +81,7 @@ Your online implementation will need to have a plan that includes Phone System a
     ```
     See [Get-UMAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) for more details on this command. A complete list of Auto Attendant options you might need to capture is at [UMAutoAttendant members](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx) but the most important options to note down are:
     - Business hours
-    - After hours
+    - Non-business hours
     - Language
     - Holiday schedule
 
