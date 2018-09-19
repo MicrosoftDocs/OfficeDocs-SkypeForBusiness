@@ -177,15 +177,30 @@ items:
 
     Teams uses SharePoint as the default file storage provider. For more information, see [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md). To learn how your quota is calculated and how best to manage it, see [Manage site collection storage limits](https://support.office.com/article/Manage-site-collection-storage-limits-77389C2C-8E7E-4B16-AB97-1C7103784B08). If you don’t want to manage each site’s collection, you'll also learn how to let the service automatically handle that for you. 
 
+    ### Settings by user/license type
+      
     > [!NOTE]
-    > For help and support with tenant-wide settings or other issues, submit an inquiry at [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support).
+    > [School Data Sync](https://docs.microsoft.com/SchoolDataSync) makes it easier for teachers to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
 
-- title: Configure settings by user or license type
-  durationInMinutes: 7
-  content: |
+    You'll need to have [Global Administrator](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) permissions to use the Office 365 admin center to manage Teams for your school.
+
+    1. From the [Office 365 Admin Center](https://portal.office.com/adminportal/home), sign in with your Global Administrator credentials and select **Admin**.
+         
+         ![Screenshot of the Admin option in the Office 365 Admin Center.](media/o365-admin-option.png)
+    
+    2. Select **Settings** > **Services & add-ins**.
+
+         ![Screenshot of the Services & add-ins option in Settings.](media/o365-settings-services.png)
+        
+    3. Select **Microsoft Teams** from the list.
+    
+         ![Screenshot of the options in the Services & add-ins page in the Office 365 Admin Center.](media/o365-services-select-teams.png)
+
+    4. After the Microsoft Teams settings page opens, the configuration options will come into view. From here, you may manage your licenses.
+
+         ![Screenshot of Microsoft Teams settings section in the Office 365 Admin Center.](media/Services-and-addins-control-Microsoft-Teams.PNG)
+         
     You should only have Education listed in your license types. The dropdown includes Education-Faculty and staff, Education-Student, and Guest. The system can only differentiate users based on the licenses you've assigned them. If you only have one license type, the settings here can be treated as tenant-wide settings.  
-
-    [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
     ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-dropdown.png)
 
@@ -193,104 +208,48 @@ items:
     
     ![Screenshot of the settings for Microsoft Teams license picker section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-toggle-on.png)
 
-    To turn on [Guest Access](guest-access.md) for your tenant, select the **Guest** license and move the toggle to **On**. You can use Guest Access to enable the guest professor scenario, which permits contributors who are not a part of your organization to participate in your teams. A guest professor should only get added to a team if they'll continue to interact with the class throughout the course life-cycle. If they are only showing up to give one lecture, consider having them join a meeting as an anonymous user instead of being added to the team as a guest. 
-
-    > [!NOTE] 
-    > Only Team owners can add guests to the team.
-
-
-    ### Teams and channels
-    A team is designed to bring together educators and students who work closely to get things done. Teams can be dynamic for work (e.g., curriculum development or planning school events), as well as for ongoing work, to reflect the internal structure of your institution (e.g., schools, departments, and classes). Teams for Education has 3 new team types (Classes, PLCs, and Staff Members).
-
-    |   	|for Classes   	|for PLCs   	|for Staff Members   	|for Anyone   	|
-    |---	|---	|---	|---	|---	|
-    |Description   	|Teachers and students collaborating on group projects, assignments, and more.   	|Educators collaborating within a professional learning community.   	|Staff leaders and staff members collaborating on school administration and development.   	|Students and school employees collaborating in interest groups and clubs.   	|
-
-    A channel is a subcategory of a team. You might create a channel for an activity or for a topic. Conversations, files, and notes are specific to each channel, and available to all members of the team.
-
-    ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
-
     > [!NOTE]
-    > You need to use the **Groups** control panel because all teams are built on top of Office 365 Groups. 
+    > For help and support with tenant-wide settings or other issues, submit an inquiry at [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support).
 
-    You can create and manage team owners and members by using the **Groups** control panel in the Office 365 Admin Center. By default, Office 365 Groups creation is turned on, but can be restricted to specific users or groups (for example, Education - Faculty and Staff) by using PowerShell.
+- title: Configure Teams by user or license type
+  durationInMinutes: 7
+  content: |
+   
+   > [!IMPORTANT]
+   > The new Microsoft Teams & Skype for Business Admin Center is coming soon! Starting in March 2018, we're gradually migrating settings to it from both the current Skype for Business admin center and the Microsoft Teams experience in the Office 365 admin center. If a setting has been migrated, you'll see a notification and then be directed to the setting's location in the new Microsoft Teams & Skype for Business Admin Center. For more information, see [Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center). 
+     
+    As part of the migration to the new Microsoft Teams & Skype for Business Admin Center, how to configure Teams by license type is accomplished via policy. The policy types are accessible via the Admin Center navigation. See below for an example list of Messaging policies.
 
-    To learn how to use PowerShell to control the permissions, and the types of licenses that are required to take advantage of these features, see [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+   ![Screenshot of the Messaging policies page in the Microsoft Teams & Skype for Business Admin Center.](media/teams-messaging-policies-edu.PNG)
+   
+   With policies, features can now be turned on/off at the per-user level. Here’s how policy assignments work:
+      - By default, every new user will get the Global policy (tenant-level settings).
+      - A user can be assigned a pre-canned user policy created by Microsoft if it meets your requirements. These pre-canned policies are not editable by tenant admins. If you want to manage these in the future, create new custom policies and assign the custom policies to users.
 
+       ![Screenshot of the Assigned policies section of the Microsoft Teams & Skype for Business Admin Center.](media/teams-assigned-policies-edu.PNG)
+      - A custom policy can be assigned to any user. To do this, click **+ New policy**, set the features, and click **Save**. This custom policy can be assigned to a user through the **Users** tab or via script.
+        ![Screenshot of the New policy option on the Messaging policies page of the Microsoft Teams & Skype for Business Admin Center.](media/teams-new-messaging-policy-edu.PNG)
+
+        ![Screenshot of the Edit option for assigned policies in the Microsoft Teams & Skype for Business Admin Center.](media/teams-assigned-policy-edit-edu.PNG)
+
+        ![Screenshot of the Edit user policies section in the Microsoft Teams & Skype for Business Admin Center.](media/teams-edit-user-policies-edu.PNG)
+   ### How to enable different policies for faculty and students
+   To have custom settings for faculty and students (for example, chat is enabled for faculty but not for students), there are two methods to create and assign them: 
+      - Use the Powershell module to run a script to create and assign multiple policies. See the Appendix for script examples and documentation. 
+      - In the Admin Center, create a new policy and assign on the **Users** tab. 
     > [!NOTE]
-    > Disabling group creation has implications on other products. These implications are detailed in [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+    > Until a custom policy is assigned to a user, the user will be using the Global policy setting. This means that if Chat is enabled in the Global policy and disabled in the custom Student policy, until the custom policy is assigned, the Student will be able to chat. In this case, it may be easier to set Chat as disabled globally and use custom policies to enable Chat for Faculty users. 
 
-    ### Highlights of team management and creation
-    #### Team management
-    - For more information about how to create Office 365 Groups in the Admin Center, see [Create an Office 365 group in the Admin Center](https://support.office.com/article/Create-an-Office-365-group-in-the-admin-center-74a1ef8b-3844-4d08-9980-9f8f7a36000f).
-    - The Team Naming convention feature provided by Groups is in private preview and will be available soon in public preview. To learn more about this feature, see [Office 365 Groups naming policy](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
-    - Prevent Teams from showing up in the Global Address List (GAL). To learn more, see "Hide Office 365 Groups from GAL" in [Manage Office 365 Groups with PowerShell](https://support.office.com/article/Manage-Office-365-Groups-with-PowerShell-aeb669aa-1770-4537-9de2-a82ac11b0540).
-    - Manage Team or Group expiration policies. To learn more, see [Office 365 Group Expiration Policy](https://support.office.com/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
-
-    #### Team creation
-    - __Using School Data Sync__: If you are already using School Data Sync, teams will get automatically created based on your roster details. Teachers and students will automatically be assigned. 
-
-    > [!TIP]
-    > If you are interested in learning more about School Data Sync, see [Overview of School Data Sync](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync). You can sign up for School Data Sync [here](https://sdscrm.microsoftcrmportals.com/signup/).
-
-    - (In Preview) Using PowerShell to create groups. To learn more, see [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams). 
-
-    > [!IMPORTANT]
-    > For Office 365 Education, you can create [four different types of teams](https://support.office.com/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67). PowerShell can only create the default type of Team. Once a Team is created, the type of Team can't be changed. 
-
-    ### Calls and meetings
-
-    ![Screenshot of the settings in the Calls and meetings section in the Office 365 admin center.](media/calls-and-meetings.png)
-
-    Private meetings enable your educators to explicitly select the students of their meetings, as opposed to leaving it open to everyone in the Team to join. This allows them to have smaller meetings that don't disrupt the larger team. 
-
-    Allowing scheduling for channel meetings allows users to select a Team and Channel where the meeting will be hosted. This allows anyone interested in the meeting from that Team to join without needing an explicit invite. 
-
-    ![Screenshot of Meeting scheduling UI when private meetings is enabled.](media/Teams-quick-start-edu-Private_Meetings_No_Channel.PNG)
-
-    Ad-hoc channel meetup allows educators and students to start a meetup directly from the chat UI. Anyone who is actively apart of the thread can jump on the call and continue the conversation. 
-
-    ![Screenshot of Compose Box UI when ad-hoc meetings is enabled.](media/Teams-quick-start-edu-Compose_Box_Meet_Now.PNG)
-
-    Meeting options such as "Allow videos in meetings" and "Allow screen sharing in meetings" will enhance the meeting experience by allowing the face to face communication and the ability to share what you see on your screen. When these options are enabled, users will be able to toggle video and screen sharing from within the meeting. 
+    ### Appendix
+    #### How to create and assign a messaging policy
+    1. See if any of the available policies in your tenants suit your requirements by running Get-CsTeamsMessagingPolicy.
+    2. If not, create a new policy by running New-CsTeamsMessagingPolicy -Identity &lt;policy name&gt; -&lt;parameter name&gt; -&lt;parameter value&gt;.
     
-    ![Screenshot of meeting controls.](media/Teams-quick-start-edu-In_Meeting_Controls.PNG)
-    
-    > [!NOTE]
-    > Some schools might want to restrict the amount of network traffic in their institution. For example, you might want to disable video in low bandwidth institutions.
-    
-    Having the ability to escalate from a private 1:1 chat or group chat to an audio or video call is enabled by "Allow private calling." When in a chat, the top right corner will show these options. 
+    For more information, see [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy)
 
-    ![Screenshot of private chat audio video controls.](media/Teams-quick-start-edu-Private_Chat_Audio_Video.PNG)
+    #### Sample script 
 
-
-    ### Messaging
-
-    ![Screenshot of the settings in the Messaging section in the Office 365 admin center.](media/QS-edu-messaging.png)
-
-    As a tenant admin, if your school is not comfortable with "fun" content, such as GIFs, memes, and stickers, you can always disable it for students in the **Messaging** section of the Microsoft Teams settings screen. These options will disappear from below the compose box, but our standard set of emojis will still be available for use. When GIFs are enabled, you can apply a content rating to restrict the type of GIFs that are allowed within Teams in your institution. Content ratings include the following:
-
-    - Strict 
-    - Moderate
-    - Allow all content
-    
-    You can also disable private chat just between students, while allowing educators the ability to use private chats. If you do disable chat, they will no longer see Chat along the left side. 
-
-    ![Screenshot of left rail without chat.](media/Teams-quick-start-edu-Left_Rail_Without_Chat.PNG)
-
-    When users who are enabled for chat try to start a conversation with participants who aren't, they'll see a notification in the compose chat window indicating that the "Administrator has disabled chat for user."
-
-    ![Screenshot of unable to start chat with disabled participant.](media/Teams-quick-start-edu-Starting_Chat_With_Person_Not_Enabled_For_Chat.PNG)
-
-    > [!TIP]
-    > If you disable private chat for a set of users, they can't use T-Bot to get help. However, they can find all of the T-Bot content in the [Microsoft Teams help center](https://support.office.com/Teams), so be sure to give this as an adoption resource to users who aren't enabled for private chat. 
-
-    Enabling owners to delete messages is recommended across all license types, as this really helps with channel chat moderations. 
-
-    Additionally, you can enable members to edit and delete their own messages. This is a great feature to ensure typos can be corrected and messaging to the wrong thread or redundant messages can be removed by the sender. 
-
-    > [!NOTE]
-    > If you place a user's mailbox on Legal Hold, all edited and deleted messages will be logged. See [Place a Teams user or team on legal hold](legal-hold.md) for more information.
+    See [PowerShell script sample - Create and assign a messaging policy](https://docs.microsoft.com/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu).
 
 - title: Distribute to clients
   durationInMinutes: 1

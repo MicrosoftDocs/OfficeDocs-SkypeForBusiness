@@ -182,8 +182,6 @@ The packages can be found on this [download page](https://1drv.ms/f/s!ArcnbnREun
 
 Use the following to configure the default calling and meetings application policy via Intune.
 
-.
-
 |Setting   |Value    |Description    |
 |----------|---------|---------|
 |Path      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
@@ -198,3 +196,5 @@ Use the following to configure the default calling and meetings application poli
 
 Restart the Surface Hub device. After the device restarts, you should be able to start the Teams app from the Start screen and join a meeting from the calendar.
 
+> [!NOTE]
+> If your device or your organization's devices are not currently part of the Windows Insider Program and you are in countries covered by General Data Protection Regulation (GDPR) (or you have manually changed your telemetry settings to Basic), then you must re-check that you have permitted full telemetry before you join the Insider Program. GDPR changed the default behavior of Surface Hub devices in the EU to set telemetry to Basic.
