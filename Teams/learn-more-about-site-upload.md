@@ -35,7 +35,7 @@ You can download a sample template [here](https://github.com/MicrosoftDocs/Offic
 You can use the following example to help create your data file. 
 
 > [!IMPORTANT]
-> Your data file should not contain column headers (such as Network, Network Name, etc.). These are for informational purposes only. </br>
+> Your data file should not contain column headers (such as Network, Network Name, etc.). These are used here for informational purposes only. </br>
 
 |Network|Network Name|Network Range|Building Name|Ownership Type|Building Type|Building Office Type|City|Zip Code|Country|State|Region|Inside Corp|Express Route|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
