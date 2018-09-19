@@ -73,7 +73,7 @@ Configurations are buckets of settings maintained in the service that cannot be 
 
 ## Other PowerShell tools
 
-There are a lot of other PowerShell controls. You can find detailed instructions on how to use them in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps) and [Skype for Business cmdlet reference](https://docs.microsoft.com/en-us/powershell/skype/intro?view=skype-ps).
+You can find detailed instructions on how to use all PowerShell controls for managing Microsoft Teams and Skype for Business, including detailed descriptions of the settings in each policy, in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps) and [Skype for Business cmdlet reference](https://docs.microsoft.com/en-us/powershell/skype/intro?view=skype-ps).
 
 ## Learn more
 
