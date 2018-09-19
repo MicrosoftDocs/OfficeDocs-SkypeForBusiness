@@ -30,6 +30,8 @@
 
 ## [Overview of a Teams deployment](deployment-overview.md)
 ## [Manage user access to Teams](user-access.md)
+## [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)
+## [Teams PowerShell overview](teams-powershell-overview.md)
 ## [Get clients for Teams](get-clients.md)
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
 ### [Install Teams using MSI](msi-deployment.md)
@@ -110,7 +112,6 @@
 <!-- ============================================================ -->
 # Manage
 ## [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-## [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)
 ## Monitor call quality and QoS
 ### [QoS in Teams](QoS-in-Teams.md)
 ### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
@@ -188,7 +189,6 @@
 ### [Add a guest to a team](add-guests.md)
 ### [View guest users in a team](view-guests.md)
 ### [Edit guest user information](edit-guests-information.md)
-### [Teams PowerShell overview](teams-powershell-overview.md)
 ### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 ### [Guest access checklist](guest-access-checklist.md)
 ## Meetings
