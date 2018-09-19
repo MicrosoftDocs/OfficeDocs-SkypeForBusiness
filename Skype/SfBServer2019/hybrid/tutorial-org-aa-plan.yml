@@ -211,7 +211,7 @@ items:
     #### Script 1: Company greeting
     Thanks for calling VanArsdel, Ltd. At any time you can press zero to talk to the receptionist, Press * to repeat the menu, or press # to return to the previous menu.
 
-    #### Script 2: Holiday greeting
+    #### Script 2: After-hours greeting
     Thanks for calling VanArsdel, Ltd.  We’re closed at this time, press zero and leave a message with our operator. We’ll call you back when we return to the office. 
 
     #### Script 3: Main Menu
@@ -303,7 +303,7 @@ items:
     |After hours call handling |  |
     |:---  | :---  |
     |Company greeting	|Create a custom greeting, callers will hear: Script 2 above |
-    |What happens to the calls after the greeting?|	Redirect call- Person in your company, sent to Operator, which goes to voicemail |
+    |What happens to the calls after the greeting?|	Redirect call- Send to: Person in your company: **Julie Wolfe**. The call will go to voicemail when not picked up |
     |  |   |
 
     
