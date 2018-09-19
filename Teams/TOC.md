@@ -38,7 +38,7 @@
 ## [Enable Teams in your organization](Office-365-set-up.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
-### [Assign roles and permissions in Teams](assign-roles-permissions.md)
+### [Assign team owners and members in Teams](assign-roles-permissions.md)
 ### [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ## [Modern authentication](sign-in-teams.md)
@@ -110,6 +110,7 @@
 <!-- ============================================================ -->
 # Manage
 ## [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
+## [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)
 ## Monitor call quality and QoS
 ### [QoS in Teams](QoS-in-Teams.md)
 ### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
@@ -187,6 +188,7 @@
 ### [Add a guest to a team](add-guests.md)
 ### [View guest users in a team](view-guests.md)
 ### [Edit guest user information](edit-guests-information.md)
+### [Teams PowerShell overview](teams-powershell-overview.md)
 ### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 ### [Guest access checklist](guest-access-checklist.md)
 ## Meetings
