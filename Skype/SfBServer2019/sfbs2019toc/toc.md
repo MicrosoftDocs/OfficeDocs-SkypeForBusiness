@@ -23,6 +23,9 @@
 ### Call Data Connector
 #### [Plan Call Data Connector](../hybrid/plan-call-data-connector.md)
 #### [Configure Call Data Connector](../hybrid/configure-call-data-connector.md)
+### Cloud Auto Attendant
+#### [Plan Cloud Auto Attendant](../hybrid/plan-cloud-auto-attendant.md)
+#### [Configure Cloud Auto Attendant](../hybrid/configure-cloud-auto-attendant.md)
 
 ## Plan
 ### [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
