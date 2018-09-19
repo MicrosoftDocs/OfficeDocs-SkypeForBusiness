@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams PowerShell Overview
+title: Teams PowerShell Overview
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
