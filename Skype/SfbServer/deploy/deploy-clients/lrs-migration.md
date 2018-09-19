@@ -50,9 +50,10 @@ This table lists summary of all available options for existing LRS devices:
 |**Crestron hardware </br>Trade-in program**|Preferred|Available|Preferred|Available|
 |**Crestron RL3**|Not Available|Preferred|Not Available|Not Available|
 |**Do-It-Yourself**|Available|Not Available|Not Available|Not Available|
+| | | | | |
 
 
 We recommend you plan to update Lync Room System devices before TLS 1.0/1.1 deprecation. Please contact Microsoft support if you need assistance with upgrade and check back this page for additional details on Do-It-Yourself option.
 
 > [!NOTE]
-> Touch and whiteboard functionality is not yet supported in Skype Room System v2. Touch and whiteboard support in the backlog for Skype Room System v2 and will be added in 2019.
+> Touch and whiteboard functionality is not yet supported in Skype Room System v2. Touch and whiteboard support is in the backlog for Skype Room System v2 and will be added in 2019.
