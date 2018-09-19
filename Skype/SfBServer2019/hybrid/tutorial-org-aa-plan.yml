@@ -167,7 +167,7 @@ items:
 
     Here’s a Visio diagram representing our example:
 
-![Auto Attendant diagram](../media/AA-LawyerOfficeExample.png)
+    ![Auto Attendant diagram](../media/AA-LawyerOfficeExample.png)
 
 - title: Writing the Scripts 
   durationInMinutes: 3
@@ -261,7 +261,7 @@ items:
     ####	Script 9: Additional menu options
     To speak to our Investigator, press 1.
     To request a copy of your records, press 2.
-    
+
     *Available options not mentioned: zero, \*, and \#.*
 
 
