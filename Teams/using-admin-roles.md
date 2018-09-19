@@ -57,4 +57,3 @@ Most of the PowerShell tools for these admin roles live in the Skype for Busines
 - [Microsoft Teams PowerShell](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)
 - [Assign team owners and members in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/assign-roles-permissions)
 
-
