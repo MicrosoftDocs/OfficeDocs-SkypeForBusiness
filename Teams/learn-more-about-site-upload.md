@@ -32,7 +32,21 @@ The locations data you provide is a single data structure – there’s currentl
 
 For more information about formatting your data file, see [Tenant data file format and Building data file structure](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure).
 
-You can download a sample .csv template [here](need revised file).
+You can download a sample template [here](ADD text file).
+
+You can use the following example to help create your data file. 
+
+> [!NOTE]
+> Your data file should not contain column headers. These are for explanatory purposes only. 
+
+|Network|Network Name|Network Range|Building Name|Ownership Type|Building Type|Building Office Type|City|Zip Code|Country|State|Region|Inside Corp|Express Route|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|10.0.128.0	|SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|US|CA|US|1|1|
+|10.0.130.0	|SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|US|CA|US|1|1|
+|10.0.131.0	|SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|US|CA|US|1|1|
+|10.0.132.0	|SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|US|CA|US|1|1|
+
+
 
 
 ## Related topics
