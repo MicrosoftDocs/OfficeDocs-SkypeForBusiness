@@ -1,9 +1,9 @@
 ---
-title: Assign roles and permissions in Microsoft Teams
+title: Assign team owners and members in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 08/27/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
@@ -15,13 +15,13 @@ appliesto:
 - Microsoft Teams
 ---
 
-Assign roles and permissions in Microsoft Teams
-===============================================
+Assign team owners and members in Microsoft Teams
+=================================================
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Within Microsoft Teams there are two roles: **Owner** and **Member**. By default, a user that creates a new team is granted the Owner status. If a team is created from an existing Office 365 Group, permissions are inherited.
+Within Microsoft Teams there are two user roles: **Owner** and **Member**. By default, a user who creates a new team is granted the Owner status. If a team is created from an existing Office 365 Group, permissions are inherited.
 
 The table below shows the difference in permissions between an owner and a member:
 
@@ -38,7 +38,7 @@ The table below shows the difference in permissions between an owner and a membe
 |**Add tabs**      |Yes         |Yes*         |
 |**Add connectors**      |Yes         |Yes*         |
 |**Add bots**      |Yes         |Yes*         |
-\* These items can be turned off by an owner at a team level, in which case members would not have access to that.
+\* These items can be turned off by an owner at a team level, in which case members would not have access to them.
 
 \*\*After adding a member to a team, an Owner can also promote a Member to Owner status. It is also possible for an Owner to demote their own status to a Member.
 
