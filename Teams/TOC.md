@@ -30,6 +30,8 @@
 
 ## [Overview of a Teams deployment](deployment-overview.md)
 ## [Manage user access to Teams](user-access.md)
+## [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)
+## [Teams PowerShell overview](teams-powershell-overview.md)
 ## [Get clients for Teams](get-clients.md)
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
 ### [Install Teams using MSI](msi-deployment.md)
@@ -38,7 +40,7 @@
 ## [Enable Teams in your organization](Office-365-set-up.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
-### [Assign roles and permissions in Teams](assign-roles-permissions.md)
+### [Assign team owners and members in Teams](assign-roles-permissions.md)
 ### [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ## [Modern authentication](sign-in-teams.md)
@@ -465,6 +467,7 @@
 #### [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set up Phone System voicemail](set-up-phone-system-voicemail.md)
 #### [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
+#### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 ### Phone System Direct Routing
 #### [Plan Direct Routing](direct-routing-plan.md)
 #### [Configure Direct Routing](direct-routing-configure.md)
