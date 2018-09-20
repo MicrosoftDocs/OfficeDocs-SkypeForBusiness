@@ -20,8 +20,6 @@ appliesto:
 
 Manage teams in the Microsoft Teams & Skype for Business Admin Center
 ==========================================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 ## Overview
 
@@ -32,11 +30,11 @@ As an IT admin, you may need to view or update the teams that your organization 
 
 You can learn more about admin roles in Microsoft Teams [here](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps).  
 
-This article provides an overview of the management tools for Teams in the Microsoft Teams & Skype for Business Admin Center.
+This article provides an overview of the management tools for teams in the Microsoft Teams & Skype for Business Admin Center.
 
 ## Teams overview grid
 
-Management tools for Teams are under the **Teams** node in the Microsoft Teams & Skype for Business Admin Center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an O365 Group, and this node provides a view of all groups that have been Teams-enabled in your organization.
+Management tools for teams are under the **Teams** node in the Microsoft Teams & Skype for Business Admin Center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of all groups that have been Microsoft Teams-enabled in your organization.
 
 ![Teams overview grid](media/manage-teams-in-modern-portal-image1.png)  
 
@@ -71,6 +69,9 @@ You can navigate to the team profile page of any team from the main teams overvi
 
 ## Learn more
 
-[Microsoft Teams cmdlet reference](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)
+[Microsoft Teams cmdlet reference](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)  
 [Admin roles in Microsoft Teams](using-admin-roles.md)
+<!--
 [Plan for Teams Lifecycle Management](plan-for-teams-lifecycle-management.md)
+-->
+
