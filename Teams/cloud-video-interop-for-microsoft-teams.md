@@ -32,7 +32,7 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 |![BlueJeans Gateway](media/bluejeans.png)|[BlueJeans Gateway for Microsoft Teams](https://aka.ms/BluejeansGateway) | October 31, 2018|
 
 
-Our partners has developed a gateway solution to connect thrid-party standards-based SIP and H.323 devices to Microsoft Teams meetings. These solutions include: 
+Our partners have developed gateway solutions to connect third-party standards-based SIP and H.323 devices to Microsoft Teams meetings.  
  
 **Certified and supported by Microsoft**
 
@@ -49,7 +49,7 @@ Our partners has developed a gateway solution to connect thrid-party standards-b
 
 **Scales for the cloud**
 
-- Deployed and Mmnaged in Azure
+- Deployed and managed in Azure
 - Auto scale with cloud solutions
 
  
