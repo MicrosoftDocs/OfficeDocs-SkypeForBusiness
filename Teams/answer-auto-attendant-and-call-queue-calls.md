@@ -27,16 +27,16 @@ Phone System call queues include greetings that are used when someone calls in t
 
 ## Handling an auto attendant or call queue call
 
-Users will be able to differentiate incoming calls from an auto attendant or call queue before they answer the call. Along with the name and/or number of the caller, each call will also include information of who the caller was trying to reach, giving users a better context for addressing the caller.
+Users will be able to differentiate incoming calls from an auto attendant or call queue before they answer the call. Along with the name and/or number of the caller, each call will include information about who the caller was trying to reach, giving users a better context for addressing the caller.
 
 The following illustration shows how an incoming call from an auto attendant or call queue will appear to a user.
 
 ![Incoming call notification](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-Once an auto attendant or call queue call is answered, the user can process the call like any other call - they can add or conference in another user or transfer the call to another party. Also, auto attendant calls will be forwarded based on the user’s configuration.
+Once an auto attendant or call queue call is answered, the user can process the call like any other call &#x2014; they can add or conference in another user or transfer the call to another party. Also, auto attendant calls will be forwarded based on the user’s configuration.
 
 > [!NOTE] 
-> Call queue calls are not forwarded based on the user’s configuration. This is to ensure that callers remain in the queue until an agent can answer the call and the caller isn’t forwarded unexpectedly.
+> Call queue calls are not forwarded based on the user’s configuration. This is to ensure callers remain in the queue until an agent can answer the call and the caller isn’t forwarded unexpectedly.
 
 ## Supported clients
 
