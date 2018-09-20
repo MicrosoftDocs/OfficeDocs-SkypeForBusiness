@@ -20,30 +20,38 @@ Cloud Video Interop for Teams enables interoperability with third-party video te
 
 Video teleconferencing with content collaboration helps you make the most out of meetings. However, meeting room systems and devices are expensive to upgrade. Cloud Video Interop for Microsoft Teams works with systems and delivers a native meeting experience for all participants – in meeting rooms or inside of Teams clients. 
 
-## Partners certified for Microsoft Teams
+## Partners Certified for Microsoft Teams
 
 The following partners have video interop solutions for Microsoft Teams. Your company may choose to work with any combination of these partners within your enterprise. 
 
-[Do we want to include the dates, as below? We will need to update the BlueJeans link on/near the release date.]
-[Also, I can add the logos if you think they're needed.]
 
 |Partner|Partner solution|Availability|
 |----|---|----|
 |![Polycom RealConnect](media/polycom.png) |   [Polycom RealConnect for Office 365](https://aka.ms/PolycomRealConnect)|Available now|
 |![Pexip Infinity](media/pexip.png)| [Pexip Infinity for Microsoft Teams](https://aka.ms/PexipInfinity) | October 19, 2018|
-|![BlueJeans Gateway](media/bluejeans.png)|[BlueJeans Gateway for Microsoft Teams](https://aka.ms/BluejeansGateway) | October 31, 2019|
+|![BlueJeans Gateway](media/bluejeans.png)|[BlueJeans Gateway for Microsoft Teams](https://aka.ms/BluejeansGateway) | October 31, 2018|
 
 
 Our partners has developed a gateway solution to connect thrid-party standards-based SIP and H.323 devices to Microsoft Teams meetings. These solutions include: 
  
-- Certified for Microsoft Teams
+**Certified and supported by Microsoft**
+
+- Only available via Certified Partner Solutions
 - Co-engineered with Microsoft
 - Customer TAP prior to certification
-- Gateway design instead of VMR (VTCs are first-class meeting participants with individual roster entry)
-- HD video (1080p) and content (VBSS)
+
+**Enterprise Ready**
+
+- HD video (1080p) and Content (VBSS)
 - Support for H.323 and SIP meeting room devices
-- Native Teams/Exchange scheduling
-- Deployed and Managed in Azure
+ -Native Teams/Exchange scheduling
+ -Gateway design instead of VMR
+
+**Scales for the cloud**
+
+- Deployed and Mmnaged in Azure
+- Auto scale with cloud solutions
+
  
 The following diagram describes the high-level architecture of a Teams partner solution.
 
@@ -65,7 +73,7 @@ This section explains how you can plan and set up Cloud Video Interop.
  
 This tenant key will be the dial out to the partner service. In the following example, 813878896@t.plcm.vc is the tenant key. 
 
-![Tenant key example](media/tenant-key-example.png)
+![Tenant key example](media/tenant-key-example.png) 
 
 You will need to execute the following cmdlets to provision the tenant key, and also enable select users or your whole organization to create meetings with video interop coordinates.
  
@@ -95,15 +103,9 @@ When these steps are complete, the users who are individually enabled via the Gr
 
 ## Consent
 
-[Not sure what to put for an intro here]
-
-[What should the headers be for this table?]
-
-|||
-|--|--|
-|Calls.JoinGroupCall|Allows the app to join group calls and scheduled meetings in your organization as a directory user to meetings in your tenant.|
-|Calls.JoinGroupCallasGuest|Allows the app to anonymously join group calls and scheduled meetings in your organization as a guest to meetings in your tenant.|
-|Calls.AccessMedia|Allows the app to get direct access to media streams in a call, without a signed-in user.|
-|OnlineMeetings.Read|Allows the app to read Online Meeting details in your organization, without a signed-in user.|
-
-[Any related links we should add?]
+|Name|Application Permission Short Description| Description|
+|--|--|---|
+|Calls.JoinGroupCall.All|Join Group Calls and Meetings as an app (preview)|Allows the app to join group calls and scheduled meetings in your organization, without a signed-in user.  The app will be joined with the privileges of a directory user to meetings in your tenant.|
+|Calls.JoinGroupCallasGuest.All|Join Group Calls and Meetings as a guest user (preview)|Allows the app to anonymously join group calls and scheduled meetings in your organization, without a signed-in user.  The app will be joined as a guest to meetings in your tenant.|
+|Calls.AccessMedia.All|Access media streams in a call as an app (preview)|Allows the app to get direct access to media streams in a call, without a signed-in user.|
+|OnlineMeetings.Read.All|Read Online Meeting details (preview)|Allows the app to read Online Meeting details in your organization, without a signed-in user.|
