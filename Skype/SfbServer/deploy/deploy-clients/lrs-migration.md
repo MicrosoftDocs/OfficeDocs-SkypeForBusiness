@@ -38,20 +38,22 @@ There are multiple options for upgrading Lync Room Systems to the next generatio
 Crestron will provide an upgrade to the [Crestron SR system](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) or equivalent for all Non-Crestron  “LRS” customers. See details of this program [here](https://www.crestron.com/lrsupgrade) or email Crestron [LRS upgrade support](mailto:lrsupgrade@crestron.com).  
 
 ### Crestron RL3
-All existing Crestron LRS customers with Crestron RL2 (also referred to as Crestron RL200) can acquire an upgrade package to upgrade current RL2 to RL3 using a for a minimal cost per device. See details of this program [here](https://www.crestron.com/lrsupgrade) or email Crestron [LRS upgrade support](mailto:lrsupgrade@crestron.com). 
+Existing Crestron RL2 (also referred to as Crestron RL200) customers can acquire an upgrade package to upgrade current RL2 to RL3 using a for a minimal cost per device. See details of this program [here](https://www.crestron.com/lrsupgrade) or email Crestron [LRS upgrade support](mailto:lrsupgrade@crestron.com). 
 
 ### Do-It-Yourself
-Customers can also decide to upgrade their existing hardware with Skype Room Systems v2 software provided by Microsoft. To use this option, customers must buy a [Logitech Screen Share](https://www.logitech.com/en-us/product/screen-share) adapter and have a Windows Enterprise Licnese. Windows Enterprise Licenses are available through [approved resellers](https://www.microsoft.com/en-us/Licensing/how-to-buy/how-to-buy.aspx).  
+A Do-It-Yourself option is also available for customers with upgrade to Windows 10 and Skype Room Systems v2 software. Windows 10 Enterprise Licenses are available through [approved resellers](https://www.microsoft.com/en-us/Licensing/how-to-buy/how-to-buy.aspx) and Skype Room System V2 software will be available through this guide. 
 
-Microsoft will provide instructions to install Skype Room System v2 software and tools to make Logitech Screen Share adapter work with existing LRS devices. Look for upgrade instructions on this page shortly.  
+To use this option however, customers must additionaly buy a [Logitech Screen Share](https://www.logitech.com/en-us/product/screen-share) adapter. Microsoft will provide instructions on how to use this adapter with Skype Room System v2 software. 
+
+Look for upgrade instructions on this page shortly. 
 
 ### Summary of upgrade options
 This table lists summary of all available options for existing LRS devices:
 
 | Upgrade Option | SMART Room Systems | Crestron RL2 | Polycom CX8000 | Crestron RL |
 |:--- |:--- |:--- |:--- |:--- |
-|**Crestron hardware </br>Trade-in program**|Preferred|Available|Preferred|Available|
-|**Crestron RL3**|Not Available|Preferred|Not Available|Not Available|
+|**Crestron hardware </br>Trade-in program**|Available|Available|Available|Available|
+|**Crestron RL3**|Not Available|Available|Not Available|Not Available|
 |**Do-It-Yourself**|Available|Not Available|Not Available|Not Available|
 | | | | | |
 
