@@ -22,11 +22,12 @@ As previously announced, TeamsInteropPolicy will be retired (targeted for the en
 As part of this effort, Microsoft recently updated the “Microsoft Teams & Skype for Business Admin Center” (also known as Modern Portal) to reflect the new management model based on coexistence modes. In Modern Portal, configuring TeamsUpgradePolicy will now automatically also set TeamsInteropPolicy to consistent value, so TeamsInteropPolicy is no longer exposed in the user interface. *However, admins using PowerShell must still set both TeamsUpgradePolicy and TeamsInteropPolicy together to ensure proper routing.* After the transition to TeamsUpgradePolicy is complete, it will no longer be necessary to also set TeamsInteropPolicy.
 </br>
 </br>
-|**Managing Interop and Migration**|**Modern Portal**|**PowerShell**|
-|----|----|----|----|
-|Until September 2018 (dates subject to change)|Use TeamsUpgradePolicy|Use both TeamsUpgradePolicy and TeamsInteropPolicy |
-|Post September 2018 (dates subject to change)|Use TeamsUpgradePolicy|Use TeamsUpgradePolicy only; TeamsInteropPolicy deprecated|
-|||||
+
+|       **Managing Interop and Migration**       |   **Modern Portal**    |                       **PowerShell**                       |
+|------------------------------------------------|------------------------|------------------------------------------------------------|
+| Until September 2018 (dates subject to change) | Use TeamsUpgradePolicy |     Use both TeamsUpgradePolicy and TeamsInteropPolicy     |
+| Post September 2018 (dates subject to change)  | Use TeamsUpgradePolicy | Use TeamsUpgradePolicy only; TeamsInteropPolicy deprecated |
+|                                                |                        |                                                            |
 
 To account for the introduction of coexistence modes and the pending retirement of TeamsInteropPolicy, Microsoft is providing this guidance now so customers using Teams today can manage the transition.
 
@@ -37,33 +38,33 @@ To account for the introduction of coexistence modes and the pending retirement 
 - [TeamsUpgradePolicy: managing migration and co-existence](#teamsupgradepolicy-managing-migration-and-co-existence)
 - [TeamsInteropPolicy to be retired](#teamsinteroppolicy-to-be-retired)
 - [Completing the transition to mode management](#completing-the-transition-to-mode-management)
-- [Action required for organizations that have already used TeamsInteropPolicy](#action-required-for-organizations-that-have-already-used-teamsinteroppolicy)	
-- [Detailed mode descriptions](#detailed-mode-descriptions)	
-- [Summary of planned functionality changes to simplify coexistence and migration](#summary-of-planned-functionality-changes-to-simplify-coexistence-and-migration)	
+- [Action required for organizations that have already used TeamsInteropPolicy](#action-required-for-organizations-that-have-already-used-teamsinteroppolicy)   
+- [Detailed mode descriptions](#detailed-mode-descriptions) 
+- [Summary of planned functionality changes to simplify coexistence and migration](#summary-of-planned-functionality-changes-to-simplify-coexistence-and-migration) 
 - [Known issues](#known-issues)
 
 ## Fundamental concepts
 
-1.	*Interop* : 1 to 1 communication between a Lync/Skype for Business user and a Teams user.
+1.  *Interop* : 1 to 1 communication between a Lync/Skype for Business user and a Teams user.
 
-2.	*Federation* : Communication between users from different tenants.
+2.  *Federation* : Communication between users from different tenants.
 
-3.	All Teams users have an underlying Skype for Business account that is “homed” either online or on-premises:
+3.  All Teams users have an underlying Skype for Business account that is “homed” either online or on-premises:
     - Users already using Skype for Business Online use their existing online account.
     - Users already using Skype for Business/Lync on-premises use their existing on-premises account.
     - Users for whom we cannot detect an existing Skype for Business account will have a Skype for Business Online account automatically provisioned when the Teams user is created. No Skype for Business license is required.
 
-4.	If you have an on-premises deployment of either Skype for Business or Lync, and you want those users to be Teams users, you must at a minimum ensure that Azure AD Connect is syncing the msRTCSIP-DeploymentLocator attribute into AAD, so that Teams/Skype for Business Online properly detects your on-premises environment. Furthermore, to move any users to Teams-only mode (i.e., upgrade a user), *you must configure Skype for Business hybrid mode*.
+4.  If you have an on-premises deployment of either Skype for Business or Lync, and you want those users to be Teams users, you must at a minimum ensure that Azure AD Connect is syncing the msRTCSIP-DeploymentLocator attribute into AAD, so that Teams/Skype for Business Online properly detects your on-premises environment. Furthermore, to move any users to Teams-only mode (i.e., upgrade a user), *you must configure Skype for Business hybrid mode*.
 
-5.	Interop between Teams and Skype for Business users is only possible *if the Teams user is homed online in Skype for Business*. The Skype for Business user can be homed either on-premises (and requires configuring Skype for Business Hybrid) or online. Users who are homed in Skype for Business on-premises can use Teams in Islands mode (defined later in this doc), but they cannot use Teams to interop or federate with other users who are using Skype for Business.  
+5.  Interop between Teams and Skype for Business users is only possible *if the Teams user is homed online in Skype for Business*. The Skype for Business user can be homed either on-premises (and requires configuring Skype for Business Hybrid) or online. Users who are homed in Skype for Business on-premises can use Teams in Islands mode (defined later in this doc), but they cannot use Teams to interop or federate with other users who are using Skype for Business.  
 
-6.	To upgrade a user to Teams (i.e., grant them TeamsUpgradePolicy with Mode=TeamsOnly), the user must be homed online in Skype for Business. This is required to ensure interop, federation, and full administration of the Teams user. To upgrade users who are homed on-premises, use `Move-CsUser` from the on-premises admin tools to first move the user to Skype for Business Online. Then grant TeamsUpgradePolicy and TeamsInteropPolicy to the online user or use Modern Portal to assign TeamsOnly mode. Once CU8 for Skype for Business Server 2015 ships, customer can simply use the new `-MoveToTeams` switch in `Move-CsUser` which combines these 2 steps into 1.
+6.  To upgrade a user to Teams (i.e., grant them TeamsUpgradePolicy with Mode=TeamsOnly), the user must be homed online in Skype for Business. This is required to ensure interop, federation, and full administration of the Teams user. To upgrade users who are homed on-premises, use `Move-CsUser` from the on-premises admin tools to first move the user to Skype for Business Online. Then grant TeamsUpgradePolicy and TeamsInteropPolicy to the online user or use Modern Portal to assign TeamsOnly mode. Once CU8 for Skype for Business Server 2015 ships, customer can simply use the new `-MoveToTeams` switch in `Move-CsUser` which combines these 2 steps into 1.
 
-7.	The core policies for managing upgrade and interop are TeamsUpgradePolicy and TeamsInteropPolicy.  However, TeamsInteropPolicy is in the process of being retired and all functionality will be superseded by TeamsUpgradePolicy. Until the transition is complete, customers must set both TeamsUpgradePolicy and TeamsInteropPolicy consistently (as described [later](#important) in this document) to ensure proper functioning, or use the new Modern Portal, which does this automatically.
+7.  The core policies for managing upgrade and interop are TeamsUpgradePolicy and TeamsInteropPolicy.  However, TeamsInteropPolicy is in the process of being retired and all functionality will be superseded by TeamsUpgradePolicy. Until the transition is complete, customers must set both TeamsUpgradePolicy and TeamsInteropPolicy consistently (as described [later](#important) in this document) to ensure proper functioning, or use the new Modern Portal, which does this automatically.
 
-8.	To use Teams Phone System features, users must be in TeamsOnly mode (i.e., homed in Skype for Business Online and upgraded to Teams), and they must either be configured for Microsoft Phone System Direct Routing (which allows you to use Phone System with your own SIP trunks and SBC) or have an Office 365 Calling Plan. Direct Routing is [generally available](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) as of June 28, 2018.  
+8.  To use Teams Phone System features, users must be in TeamsOnly mode (i.e., homed in Skype for Business Online and upgraded to Teams), and they must either be configured for Microsoft Phone System Direct Routing (which allows you to use Phone System with your own SIP trunks and SBC) or have an Office 365 Calling Plan. Direct Routing is [generally available](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) as of June 28, 2018.  
 
-9.	Scheduling Teams meetings with Audio Conferencing (dial-in or dial-out via PSTN) is currently available only for users who are homed in Skype for Business Online. Support for Teams users with an on-premises Skype for Business account is in TAP.
+9.  Scheduling Teams meetings with Audio Conferencing (dial-in or dial-out via PSTN) is currently available only for users who are homed in Skype for Business Online. Support for Teams users with an on-premises Skype for Business account is in TAP.
 
 
 ## Coexistence modes
@@ -77,6 +78,7 @@ To simplify manageability and increase end user satisfaction, interop and migrat
 The planned modes are listed below. SfBWithTeamsCollab and SfBWithTeamsCollabAndMeetings will allow mixed usage of both clients, but with no overlapping functionality. Islands mode allows usage of both clients, but with overlapping functionality. For example, in Islands mode, a user could initiate a chat in either Skype for Business or Teams, but in SfBWithTeamsCollab, they can only chat in Skype for Business. Note that not all modes are yet available.  
 </br>
 </br>
+
 |Mode|Routing Behavior|Meeting Scheduling|Client Experience|
 |---|---|---|---|
 |Islands|Incoming VOIP calls and chats land in same client as originator<sup>1</sup>|Both|End users can initiate calls and chats from either client, and can schedule meetings from either client.|
@@ -100,6 +102,7 @@ The planned modes are listed below. SfBWithTeamsCollab and SfBWithTeamsCollabAnd
 TeamsUpgradePolicy now exposes three properties. The primary properties are Mode and NotifySfbUsers. Action is a legacy parameter and is fully redundant with the combination of Mode and NotifySfbUsers.
 </br>
 </br>
+
 |Parameter|Type|Allowed values</br>(default in italics)|Description|
 |---|---|---|---|
 |Mode|Enum|*Islands*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>Legacy|Indicates the mode the client should run in. If mode=Legacy, components consuming this policy will revert to honoring TeamsInteropPolicy. This is to aid in the transition to the new schema as components that previously honored TeamsInteropPolicy are updated to honor TeamsUpgradePolicy.</br>Mode=TeamsOnly is the equivalent of Action=Upgrade.|
@@ -110,6 +113,7 @@ TeamsUpgradePolicy now exposes three properties. The primary properties are Mode
 Teams provides all relevant instances of TeamsUpgradePolicy via built-in, read-only policies. Therefore, only Get and Grant cmdlets are available. The built-in instances are listed below.
 </br>
 </br>
+
 |Identity|Mode|NotifySfbUsers|Action|Comments|
 |---|---|---|---|---|
 |Islands|Islands|False|None||
@@ -134,6 +138,7 @@ These policy instances can be granted either to individual users or on a tenant-
 Components that previously honored TeamsInteropPolicy are in the process of being updated to honor TeamsUpgradePolicy. During the transition, management of these two policies must be coordinated as specified below. Note that the recent update to Modern Portal automatically grants both of these policies properly when you select a coexistence mode.
 </br>
 </br>
+
 |If you grant an instance of TeamsUpgradePolicy</br>with this value of Mode…|…Then grant this instance of TeamsInteropPolicy|
 |---|---|
 |Islands|`DisallowOverrideCallingDefaultChatDefault`|
@@ -147,6 +152,7 @@ As described previously, TeamsInteropPolicy will be replaced by TeamsUpgradePoli
 </br>
 </br>
 **Supported instances of TeamsInteropPolicy prior to retirement**
+
 |Identity|AllowEndUserClientOverride|CallingDefaultClient|ChatDefaultClient|
 |---|---|---|---|
 |`DisallowOverrideCallingDefaultChatDefault`|False|Default|Default|
@@ -163,6 +169,7 @@ Federation from Teams to another user using Skype for Business requires the Team
 
 Once federation support is enabled, TeamsUpgradePolicy (along with TeamsInteropPolicy during transition) governs routing for incoming federated chats and calls. To facilitate other organizations initiating federated communications with users in your organization, it is recommended to choose a mode that specifically routes either to Skype for Business or Teams, rather than Islands.
 </br>
+
 |To route calls and chats to...|Grant an instance of TeamsUpgradePolicy</br> with one of these modes|And grant this instance of TeamsInteropPolicy|
 |---|---|---|
 |Skype for Business|SfBOnly, SfBWithTeamsCollab, </br>SfBWithTeamsCollabAndMeetings|`DisallowOverrideCallingSfbChatSfb`|
@@ -180,8 +187,9 @@ Until TeamsAppPolicy becomes available, TeamsUpgradePolicy essentially governs r
 To prepare for these upcoming changes, customers must do the following:
 
 1. Ensure that users with TeamsInteropPolicy are assigned only one of these three built-in instances, for which CallingDefaultClient = ChatDefaultClient, and for which AllowEndUserClientOverride=false. These instances are:
-</br>
-</br>
+   </br>
+   </br>
+
    |Identity|AllowEndUserClientOverride |CallingDefaultClient|ChatDefaultClient|
    |---|---|---|---|
    |`DisallowOverrideCallingDefaultChatDefault`|False|Default|Default|
@@ -197,8 +205,9 @@ To prepare for these upcoming changes, customers must do the following:
     ***Organizations that do not update to one of these instances will eventually have their users automatically updated to one of these instances. We obviously prefer that customers do this, so you can choose what is best for your users.***
 
 2. If you customized the built-in global policy, undo this. Your global policy should have the following values:
-</br>
-</br>
+   </br>
+   </br>
+
     |Parameter|Value|
     |---|---|
     |`AllowEndUserClientOverride`|False|
@@ -230,6 +239,7 @@ Based on strong feedback from TAP customers and other early adopters, Microsoft 
 </br>
 </br>
 **CHANGE #1:  No more overlapping modalities when preferred client is set**
+
 |||
 |---|---|
 |**DECISION**|*When a user’s preferred client is set to either “Teams” or “Sfb”*, a given modality (IM, Meeting scheduling, Calling) will only be available and supported in one client (Teams or Skype for Business) for that user. (*Preferred client* refers to the DefaultChatClient and DefaultCallingClient parameters in TeamsInteropPolicy.) Only when the preferred client is set to “Default” (in the future referred to as “Islands mode”) will a given modality be available and supported in both clients. |
@@ -238,6 +248,7 @@ Based on strong feedback from TAP customers and other early adopters, Microsoft 
 |||
 
 **CHANGE #2: Unify preferred client for Messaging and Calling**
+
 |||
 |---|---|
 |**DECISION**|Microsoft will unify management of preferred client for IM and Calling. Specifically, DefaultChatClient and DefaultCallingClient must both have the same value - either both Default (Islands), both Teams, or both Skype for Business.  |
@@ -246,6 +257,7 @@ Based on strong feedback from TAP customers and other early adopters, Microsoft 
 |||
 
 **CHANGE #3: No more end user choice of preferred client**
+
 |||
 |---|---|
 |**DECISION**|End users will no longer have a choice of preferred client. (AllowEndUserClientOverride in TeamsInteropPolicy must be set to false.) The preferred client will be based on Mode, which is set by the admin.|
@@ -254,6 +266,7 @@ Based on strong feedback from TAP customers and other early adopters, Microsoft 
 |||
 
 **CHANGE #4: Management based on client “mode”**
+
 |||
 |---|---|
 |**DECISION**|Microsoft is introducing the concept of “mode” to manage client behavior as orgs using Skype for Business start to adopt Teams. Admins can set the mode on a per-user basis, and a user’s mode will drive what functionality is available in which client, as well as where calls and chats land. Admins will manage this via the revised TeamsUpgradePolicy, which has been updated to support Mode. TeamsInteropPolicy will eventually be deprecated and removed, after all components have been updated to read from TeamsUpgradePolicy.|

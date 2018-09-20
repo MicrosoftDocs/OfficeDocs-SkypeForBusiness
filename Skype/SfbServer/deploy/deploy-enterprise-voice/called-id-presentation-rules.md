@@ -41,19 +41,19 @@ Follow these steps if you want to define a translation rule by entering a set of
 
    - **Digits to add**: (Optional) Specify digits to be prepended to the translated numbers. For example, enter 011 if you want 011 to be prepended to the translated numbers when the rule is applied.
 
-    The values you enter in these fields are reflected in the **Pattern to match** and **Translation rule** fields. For example, if you specify the preceding example values, the resulting regular expression in the **Pattern to match** field is:
+     The values you enter in these fields are reflected in the **Pattern to match** and **Translation rule** fields. For example, if you specify the preceding example values, the resulting regular expression in the **Pattern to match** field is:
 
-    ^\+(\d{9}\d+)$
+     ^\+(\d{9}\d+)$
 
-    The **Translation rule** field specifies a pattern for the format of translated numbers. This pattern has two parts:
+     The **Translation rule** field specifies a pattern for the format of translated numbers. This pattern has two parts:
 
    - A value (for example, $1) that represents the number of digits in the matching pattern
 
    - (Optional) A value that you can prepend by entering it in the **Digits to add** field
 
-    Using the preceding example values, 011$1 appears in the **Translation rule** field.
+     Using the preceding example values, 011$1 appears in the **Translation rule** field.
 
-    When this translation rule is applied, +441235551010 becomes 011441235551010.
+     When this translation rule is applied, +441235551010 becomes 011441235551010.
 
 6. Click **OK** to save the translation rule.
 
@@ -82,7 +82,7 @@ Follow these steps if you want to define a translation rule by entering a set of
 
    - In **Translation rule**, specify a pattern for the format of translated numbers.
 
-    For example, if you enter ^\+(\d{9}\d+)$ in **Match this pattern** and011$1 in **Translation rule**, the rule will translate +441235551010 to 011441235551010.
+     For example, if you enter ^\+(\d{9}\d+)$ in **Match this pattern** and011$1 in **Translation rule**, the rule will translate +441235551010 to 011441235551010.
 
 7. Click **OK** to save the translation rule.
 

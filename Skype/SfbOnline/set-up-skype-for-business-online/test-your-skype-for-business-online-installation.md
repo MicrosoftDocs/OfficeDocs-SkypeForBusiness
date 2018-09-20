@@ -34,11 +34,11 @@ Here's what you need:
 ## What do you want to do?
 
 > [Set up test accounts](test-your-skype-for-business-online-installation.md#__toc328126910)
-
+> 
 > [Set up test computers](test-your-skype-for-business-online-installation.md#__toc328126911)
-
+> 
 > [Set up Audio Conferencing](test-your-skype-for-business-online-installation.md#__toc328126912)
-
+> 
 > [Test Skype for Business Online features and devices](test-your-skype-for-business-online-installation.md#__toc328126913)
 
 ## Set up test accounts

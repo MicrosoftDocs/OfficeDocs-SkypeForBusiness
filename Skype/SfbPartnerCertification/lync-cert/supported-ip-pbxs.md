@@ -80,10 +80,10 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 		</tr>
 		<tr align="left" valign="top">
 			<td colspan="3">
-				<p>Configuration Notes*:</p>
+                <p>Configuration Notes<em>:</p>
 				<ol>
 					<li>Media Bypass, RTCP, REFER, Centralized Media Processing and ForwardCallHistory were set to Disabled.</li>
-					<li>Session Timer were set to Enabled.<br />*Information was received from Avaya.</li>
+                    <li>Session Timer were set to Enabled.<br /></em>Information was received from Avaya.</li>
 				</ol>
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
@@ -130,14 +130,14 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>On the Cisco IP-PBX, configure MTP to enabled and PRACK to disabled (the default for PRACK).</li>
-					<li>On Lync Mediation Server, Media Bypass is set to enabled. RTCP and REFER are set to disabled, as Cisco doesn't send RTCP messages and REFER is not supported by this IP-PBX without a Referred-By header.</li>
+                    <li>On Lync Mediation Server, Media Bypass is set to enabled. RTCP and REFER are set to disabled, as Cisco doesn&#39;t send RTCP messages and REFER is not supported by this IP-PBX without a Referred-By header.</li>
 				</ol>
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>When a Lync user transfers a PBX call to another PBX user, the local PBX phone will still show connected to the first Lync user.</li>
 					<li>Comfort noise generation is not supported. As a result, comfort noise is not played on Microsoft Lync.</li>
 					<li>When a Lync user configures call forward or simul-ring to a PSTN IVR number, the calling party will not hear early media played from the IVR.</li>
-					<li>CUCM will not send OPTIONS, impacting failover scenarios as the IP-PBX cannot determine Lync's state until a call is offered.</li>
+                    <li>CUCM will not send OPTIONS, impacting failover scenarios as the IP-PBX cannot determine Lync&#39;s state until a call is offered.</li>
 				</ol>
 			</td>
 		</tr>
@@ -154,7 +154,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 
 ## Supported in Lync 2010
 
-***Table 2 - IP PBXs supported in Lync 2010***
+<strong><em>Table 2 - IP PBXs supported in Lync 2010</em></strong>
 <table border="1" cellpadding="5" cellspacing="" class="grid" style="border-collapse:collapse;background-color:white;" width="100%" xmlns="http://www.w3.org/1999/xhtml">
 	<thead>
 		<tr bgcolor="#DEDEDE">
@@ -183,7 +183,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>When Lync user initiates a call to PBX or PSTN endpoint and subsequently places the call on hold, they will receive the error &quot;call could not be put on hold&quot; with the Lync client muted. Afterwards, the Lync client cannot be unmuted.</li>
-					<li>When a Lync user performs a Blind transfer of a PBX or PSTN call to another PBX, PSTN or Lync number, if the transfer target doesn't answer, the call cannot be recovered to the original call. If the transfer completes, the local PBX phone will still show connected to the first Lync user</li>
+                    <li>When a Lync user performs a Blind transfer of a PBX or PSTN call to another PBX, PSTN or Lync number, if the transfer target doesn&#39;t answer, the call cannot be recovered to the original call. If the transfer completes, the local PBX phone will still show connected to the first Lync user</li>
 					<li>When an call is ringing to a Lync user, the caller (either on an Alcatel station or a PSTN line routed through the PBX) will not get a ring-back tone.</li>
 					<li>Comfort noise generation is not supported. As a result, comfort noise is not played on Microsoft Lync.</li>
 					<li>When a Lync user declines a PSTN call routed from some PSTN trunk configurations, the PSTN caller does not get disconnected, and instead will start to hear Ring-Back.</li>
@@ -248,7 +248,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 			<td colspan="3">Documentation: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=26800">Integrating Microsoft Lync Server 2010 and Cisco Unified Communications Manager</a></td>
 		</tr>
 		<tr align="left" valign="top">
-			<td>Cisco Unified Communications Manager<br />Cisco Unified Session Manager*</td>
+            <td>Cisco Unified Communications Manager<br />Cisco Unified Session Manager<em></td>
 			<td>Direct SIP</td>
 			<td>UCM 8.5.1.12900-7</td>
 		</tr>
@@ -260,13 +260,13 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>On the Cisco IP-PBX, configure MTP to enabled and PRACK to enabled.</li>
-					<li>On Lync Mediation Server, Media Bypass is set to enabled. RTCP is set to disabled, as Cisco doesn't send RTCP messages. REFER should be set to enabled, as REFER is supported by this IP-PBX.</li>
+                    <li>On Lync Mediation Server, Media Bypass is set to enabled. RTCP is set to disabled, as Cisco doesn&#39;t send RTCP messages. REFER should be set to enabled, as REFER is supported by this IP-PBX.</li>
 				</ol>
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>Comfort noise generation is not supported. As a result, comfort noise is not played on Microsoft Lync. When a Lync user configures call forward or simul-ring to a PSTN IVR number, the calling party will not hear early media played from the IVR.</li>
 				</ol>
-				<p>* <b>Note:</b> Cisco states that Unified Session Manager is based on the same SIP capability as Unified Communications Manager. As such, it is supported with the same capabilities as the qualified version of Unified Communications Manager.</p>
+                <p></em> <b>Note:</b> Cisco states that Unified Session Manager is based on the same SIP capability as Unified Communications Manager. As such, it is supported with the same capabilities as the qualified version of Unified Communications Manager.</p>
 			</td>
 		</tr>
 		<tr align="left" valign="top">
@@ -282,7 +282,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>On the Cisco IP-PBX, configure MTP to enabled and PRACK to disabled (the default for PRACK). The PRACK message sent by CUCM 4 is malformed by missing the MAXFORWARDS header.</li>
-					<li>On Lync Mediation Server, Media Bypass is set to enabled. RTCP and REFER are set to disabled, as Cisco doesn't send RTCP messages and REFER is not supported by this IP-PBX.</li>
+                    <li>On Lync Mediation Server, Media Bypass is set to enabled. RTCP and REFER are set to disabled, as Cisco doesn&#39;t send RTCP messages and REFER is not supported by this IP-PBX.</li>
 				</ol>
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
@@ -304,7 +304,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>On the Cisco IP-PBX, configure MTP to enabled and PRACK to disabled (the default for PRACK). The PRACK message sent by CUCM 4 is malformed by missing the MAXFORWARDS header.</li>
-					<li>On Lync Mediation Server, Media Bypass is set to enabled. RTCP and REFER are set to disabled, as Cisco doesn't send RTCP messages and REFER is not supported by this IP-PBX.</li>
+                    <li>On Lync Mediation Server, Media Bypass is set to enabled. RTCP and REFER are set to disabled, as Cisco doesn&#39;t send RTCP messages and REFER is not supported by this IP-PBX.</li>
 				</ol>
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">

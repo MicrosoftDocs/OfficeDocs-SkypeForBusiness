@@ -25,19 +25,21 @@ Within Microsoft Teams there are two user roles: **Owner** and **Member**. By de
 
 The table below shows the difference in permissions between an owner and a member:
 
-|  |Team Owner  |Team Member  |
-|---------|---------|---------|
-|**Create team**     |Yes        |No         |
-|**Leave team**     |Yes         |Yes         |
-|**Edit team name/description**      |Yes         |No         |
-|**Delete team**      |Yes         |No         |
-|**Add channel**      |Yes         |Yes*         |
-|**Edit channel name/description**      |Yes         |Yes*         |
-|**Delete channel**      |Yes         |Yes*         |
-|**Add members**      |Yes**         |No         |
-|**Add tabs**      |Yes         |Yes*         |
-|**Add connectors**      |Yes         |Yes*         |
-|**Add bots**      |Yes         |Yes*         |
+
+|                                   | Team Owner | Team Member |
+|-----------------------------------|------------|-------------|
+|          **Create team**          |    Yes     |     No      |
+|          **Leave team**           |    Yes     |     Yes     |
+|  **Edit team name/description**   |    Yes     |     No      |
+|          **Delete team**          |    Yes     |     No      |
+|          **Add channel**          |    Yes     |    Yes\*    |
+| **Edit channel name/description** |    Yes     |    Yes\*    |
+|        **Delete channel**         |    Yes     |    Yes\*    |
+|          **Add members**          |  Yes\*\*   |     No      |
+|           **Add tabs**            |    Yes     |    Yes\*    |
+|        **Add connectors**         |    Yes     |    Yes\*    |
+|           **Add bots**            |    Yes     |    Yes\*    |
+
 \* These items can be turned off by an owner at a team level, in which case members would not have access to them.
 
 \*\*After adding a member to a team, an Owner can also promote a Member to Owner status. It is also possible for an Owner to demote their own status to a Member.

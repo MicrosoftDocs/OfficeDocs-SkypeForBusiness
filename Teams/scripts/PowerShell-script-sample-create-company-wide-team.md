@@ -68,7 +68,7 @@ function Create-Team(){
     return ,$GroupID
 } 
 
- 
+
 function Add-Channels($IdOfGroup){
         Write-Host("Starting Channel addition")
     foreach($channel in $Channels)
@@ -78,8 +78,8 @@ function Add-Channels($IdOfGroup){
             New-TeamChannel -GroupId $IdOfGroup -DisplayName $channel -Description $channelDescription
         }
 }
- 
- 
+
+
 function Add-Members ($IdOfGroup){
     Write-Host("Starting Member addition")
     $allUsersInTenant = $Members 
@@ -88,25 +88,25 @@ function Add-Members ($IdOfGroup){
     if([string]::IsNullOrEmpty($Members))
     {
         $Error.Clear()
- 
 
-	    Write-Host("Starting connection to AzureAD module") 
+
+        Write-Host("Starting connection to AzureAD module") 
         Connect-AzureAD
- 
+
         if($Error){
             Write-Host("Unable to connect to AzureAD. Please investigate and try again. To install the commandlet, use this command: Install-Module AzureAD")
             Return
         }
-    
-        
 
-	   ## Fetch all the users and create the member list
+
+
+       ## Fetch all the users and create the member list
         $allUsersInTenant = (Get-AzureADUser).UserPrincipalName 
 
- 
+
         Disconnect-AzureAD
     } 
-    
+
     $NotAddedMembers = [System.Collections.ArrayList]@()
     $existingTeamMembers = (Get-TeamUser -GroupId $IdOfGroup).User
 
@@ -118,14 +118,14 @@ function Add-Members ($IdOfGroup){
 
             if($Owners.Contains($user)){
                 Add-TeamUser -GroupId $IdOfGroup -Role Owner -User $user.ToString()
-                
+
                 if($Error){
                     $NotAddedMembers.Add([Tuple]::Create($user,"Owner"))
                 }
             }
             else{
                 Add-TeamUser -GroupId $IdOfGroup -Role Member -User $user.ToString()
-                
+
                 if($Error) {
                     $NotAddedMembers.Add([Tuple]::Create($user,"Member"))
                 }
@@ -142,16 +142,16 @@ function Add-Members ($IdOfGroup){
     ##Clear member addition errors
     $Error.Clear()
 }
- 
- 
- 
- 
+
+
+
+
 ##Main Script
 $Error.Clear()
 Write-Host("Starting connection to MicrosoftTeams module") 
 
 Connect-MicrosoftTeams
- 
+
 if($Error){
     Write-Host("There was an error installing\connecting to the Microsoft Teams PowerShell module. Please investigate. To install the module use the follow command: Install-Module MicrosoftTeams ")
     Return
@@ -166,15 +166,14 @@ if([string]::IsNullOrEmpty($GroupID)){
     }
     $GroupID = Create-Team
 } 
- 
+
 if($Channels.Count -gt 0){
     Add-Channels $GroupID
 } 
 
 Add-Members $GroupID 
- 
-Disconnect-MicrosoftTeams
 
+Disconnect-MicrosoftTeams
 ````
 
 

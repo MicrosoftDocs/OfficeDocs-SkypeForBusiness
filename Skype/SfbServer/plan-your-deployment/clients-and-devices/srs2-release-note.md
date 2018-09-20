@@ -136,7 +136,7 @@ Skype Room Systems v2 management with OMS](oms-management.md))
 - Invite people from your directory where you can instantly see their availability or via a phone call
 - Supports Skype for Business PSTN Conferencing and PSTN Calling to replace the stand-alone conference phone in your room
     
- **Transform Any Meeting Room**
+  **Transform Any Meeting Room**
   
 - Dedicated Skype Meeting app optimized for center of table touch controller and large front of room display
 - Re-use existing investments in your front of room display or projectors
@@ -144,7 +144,7 @@ Skype Room Systems v2 management with OMS](oms-management.md))
 - Certified Skype for Business audio and video devices are available for various room sizes
 - Built-in wired ingest for to project desktop sharing to the room and to the Skype Meeting
     
- **Easy to Deploy, Simple to Manage**
+  **Easy to Deploy, Simple to Manage**
   
 - Always-on appliance that will automatically wake up the displays when it detects people in the room
 - Simple deployment and updating of the UWP (Universal Windows Platform) Skype Meeting App

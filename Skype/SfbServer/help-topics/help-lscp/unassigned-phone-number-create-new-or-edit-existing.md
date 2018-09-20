@@ -43,7 +43,7 @@ The following list describes the fields on the page.
 
   - **Announcement** Select the announcement to be played for this range of unassigned numbers.
 
--  If you selected **Exchange UM** for **Announcement service**:
+- If you selected **Exchange UM** for **Announcement service**:
 
   - **Auto Attendant phone number** Select the phone number for the Exchange UM Auto Attendant.
 

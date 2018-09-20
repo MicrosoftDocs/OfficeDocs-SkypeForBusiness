@@ -61,7 +61,7 @@ In general, you can transfer any phone number that is from a supported provider,
     
 - Skype for Business Hybrid phone numbers. If you want to transfer these numbers, you need send email to us at <ptn@microsoft.com>.
     
- **YOU CANNOT TRANSFER:**
+  **YOU CANNOT TRANSFER:**
   
 > [!NOTE]
 > At this time, you can't transfer any phone number or numbers that aren't from a supported country/region including phone numbers from a VoIP phone provider. To see a list of supported countries/regions, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

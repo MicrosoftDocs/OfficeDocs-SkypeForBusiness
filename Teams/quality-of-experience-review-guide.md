@@ -130,14 +130,14 @@ _Table 2 - Core target health assessment metrics_
 <tr>
 <th rowspan="2" colspan="2" valign="center">Network type</th><th rowspan="1">Quality targets</th><th colspan="2">Reliability targets</th></tr>
 <tr><th>Audio Poor Stream Rate</th><th>Setup Failure Rate</th><th>Drop Failure Rate</th></tr>
-<tr><td rowspan="2">**All**</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td rowspan="2"><strong>All</strong></td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>Overall</td><td>3.0%</td><td>1.0%</td><td>3.0%</td></tr>
-<tr><td rowspan="5">**Conferencing**</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td rowspan="5"><strong>Conferencing</strong></td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>Wired internal</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
 <tr><td>Wi-Fi 5 GHz internal</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
 <tr><td>Wi-Fi 2.4 GHz internal</td><td>4.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>Overall</td><td>2.0%</td><td>0.5%</td><td>3.0%</td></tr>
-<tr><td rowspan="4">**P2P**</td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td rowspan="4"><strong>P2P</strong></td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>Wired/Wi-Fi 5 GHz internal</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
 <tr><td>Wired/Wi-Fi 5 GHz overall</td><td>2.0%</td><td>1.0%</td><td>1.0%</td></tr>
 <tr><td>Overall</td><td>2.0%</td><td>1.0%</td><td>3.0%</td></tr>
@@ -310,15 +310,15 @@ Some CQD reports require that you include a filter for your tenant ID. Due to th
 
 #### Azure PowerShell
 
-1.  [Install the Microsoft Azure PowerShell Service Management module](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
+1. [Install the Microsoft Azure PowerShell Service Management module](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
 
-2.  Open an Azure PowerShell command window and run the following script, entering your Office 365 credentials when prompted: 
+2. Open an Azure PowerShell command window and run the following script, entering your Office 365 credentials when prompted: 
 
-  ```
-  Login-AzureRmAccount
-  ```
+   ```
+   Login-AzureRmAccount
+   ```
 
-3.  The tenant ID is listed in the output.
+3. The tenant ID is listed in the output.
 
 #### Skype for Business Online Admin Center
 
@@ -332,15 +332,15 @@ Some CQD reports require that you include a filter for your tenant ID. Due to th
 
 #### Skype for Business Online using PowerShell
 
-1.  [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+1. [Set up your computer for Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-2.  Run the following command:
+2. Run the following command:
 
-  ```
-  (Get-cstenant).tenantid
-  ```
+   ```
+   (Get-cstenant).tenantid
+   ```
 
-3.  The tenant ID is displayed as a GUID.
+3. The tenant ID is displayed as a GUID.
 
 ### Teams vs. Skype for Business
 
@@ -576,22 +576,22 @@ This guide includes [two curated CQD templates](https://aka.ms/qertemplates). Th
 
 **To import the templates (.CQDX) into CQD Online**
 
-1.  Go to <https://cqd.lync.com>.
+1. Go to <https://cqd.lync.com>.
 
-2.  Authenticate by using your Office 365 Administrative credentials.
+2. Authenticate by using your Office 365 Administrative credentials.
 
-  > [!NOTE]
-  > You must have the Office 365 Global Administrator, Skype for Business Administrator, or Report Readers role to access CQD. 
+   > [!NOTE]
+   > You must have the Office 365 Global Administrator, Skype for Business Administrator, or Report Readers role to access CQD. 
 
-3.  Select the **Summary Reports** menu at the top of the page, and then choose **Detailed Reports**.
+3. Select the **Summary Reports** menu at the top of the page, and then choose **Detailed Reports**.
 
-4.  On the summary pane, select **Import**. Go to the CQDX saved location, select the CQDX template, and then select **Open**.
+4. On the summary pane, select **Import**. Go to the CQDX saved location, select the CQDX template, and then select **Open**.
 
-5.  After the template is uploaded, a pop-up window will display the message “Report import was successful.” Select **OK.**
+5. After the template is uploaded, a pop-up window will display the message “Report import was successful.” Select **OK.**
 
-  ![Notification that the template was successfully imported](media/qerguide-image-importmessage.png "Notification that the template was successfully imported")
+   ![Notification that the template was successfully imported](media/qerguide-image-importmessage.png "Notification that the template was successfully imported")
 
-6.  Repeat steps 4 and 5 for the second CQD template.
+6. Repeat steps 4 and 5 for the second CQD template.
 
 > [!NOTE]
 > The CQD templates are imported per user. If additional users need to use the report, they must sign in and import the templates into their CQD instance. 
@@ -673,13 +673,13 @@ Here are a few things to consider before you implement supernetting:
 
 The quality of experience (QoE) data that clients send to Office 365—which is where CQD data is sourced from—includes a VPN flag. CQD will see this as the First VPN and Second VPN dimensions. However, this flag relies on VPN vendors’ reporting to Windows that the VPN network adapter registered is a Remote Access adapter. Not all VPN vendors properly register Remote Access adapters. Because of this, you might not be able to use the built-in VPN query filters. There are two approaches to accommodating VPN subnets in the building information file:
 
--   Define a **Network Name** by using the text “VPN” in this field for VPN subnets.
+- Define a **Network Name** by using the text “VPN” in this field for VPN subnets.
 
   ![CQD report that defines how to create a VPN subnet](media/qerguide-image-vpnnetworkname.png)
 
   _Figure 12 - VPN using network name_
 
--   Define a **Building Name** by using the text “VPN” in this field for VPN subnets.
+- Define a **Building Name** by using the text “VPN” in this field for VPN subnets.
 
   ![CQD report that defines how to create a building definition that comprises a VPN subnet.](media/qerguide-image-vpnbuildingname.png)
 
@@ -696,31 +696,31 @@ The quality of experience (QoE) data that clients send to Office 365—which is 
 
 The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting the **Tenant Data Upload** link tag in the upper-right corner (look for the gear icon). This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless access point and its MAC address, and so on.
 
-1.  Go to CQD Online by browsing to <https://cqd.lync.com>.
+1. Go to CQD Online by browsing to <https://cqd.lync.com>.
 
-2.  Select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
+2. Select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
 
-  ![Dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
+   ![Dialog box that appears while data is being uploaded](media/qerguide-image-tenantdataupload.png)
 
-  _Figure 14 - Tenant Data Upload menu_
+   _Figure 14 - Tenant Data Upload menu_
 
-3.  Alternatively, if this is your first time visiting CQD, you’ll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
+3. Alternatively, if this is your first time visiting CQD, you’ll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
 
-  ![Banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Banner that notifies a user to upload building data](media/qerguide-image-buildingdatauploadbanner.png)
 
-  _Figure 15 - Building data upload banner_
+   _Figure 15 - Building data upload banner_
 
-4.  On the **Tenant Data Upload** page, select **Browse** to choose a data file.
+4. On the **Tenant Data Upload** page, select **Browse** to choose a data file.
 
-5.  After selecting a data file, specify **Start date** and, optionally, specify an end date.
+5. After selecting a data file, specify **Start date** and, optionally, specify an end date.
 
-6.  After selecting **Start date**, select **Upload** to upload the file to CQD. <br><br>Before the file is uploaded, it’s validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
+6. After selecting **Start date**, select **Upload** to upload the file to CQD. <br><br>Before the file is uploaded, it’s validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
 
-  ![Example of a dialog box that displays an error message when importing building data](media/qerguide-image-buildingdatauploaderror.png)
+   ![Example of a dialog box that displays an error message when importing building data](media/qerguide-image-buildingdatauploaderror.png)
  
-  _Figure 16 - Building data upload error_
+   _Figure 16 - Building data upload error_
 
-7.  If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
+7. If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
 
 > [!NOTE]
 > It can take up to four hours to finish processing the building file. <br><br> If you’ve already uploaded a building file and need to add subnets that might have been missed or excluded, modify the original file by adding the new subnets, remove the current file, and re-upload the newly edited file. There can be only one active building data file in CQD. 
@@ -894,11 +894,11 @@ Now as you begin your remediation, you can focus your efforts on a particular bu
 
 _Table 8 - Next Steps for Call Setup Failure Remediation_
 
-| Remediation           | Guidance     |
-|-----------------------|--------------|
-| Configure firewall(s) | Work with your network team and verify your firewall(s) configuration against [the Office 365 IP address list](https://aka.ms/o365ips).<br><br>Verify that the [media subnets](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) and ports are included in the firewall rules. <br><br>Verify that the necessary ports (listed below) are opened in the firewall. UDP should be given priority because TCP is considered a failback protocol for audio, video, and video-based screen sharing, and its use will affect the quality of the call. Legacy RDP application sharing uses TCP only.<br><ul><li>**TCP:** port 443</li><li>**UDP:** ports 3478–3481</li><ul> |
-| Verify                | Use the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to verify connectivity from the affected building or subnet by using the connectivity check function.    |
 
+|      Remediation      |                                                                                                                                                                                                                                                                                                                                                                   Guidance                                                                                                                                                                                                                                                                                                                                                                   |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Configure firewall(s) | Work with your network team and verify your firewall(s) configuration against [the Office 365 IP address list](https://aka.ms/o365ips).<br><br>Verify that the [media subnets](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) and ports are included in the firewall rules. <br><br>Verify that the necessary ports (listed below) are opened in the firewall. UDP should be given priority because TCP is considered a failback protocol for audio, video, and video-based screen sharing, and its use will affect the quality of the call. Legacy RDP application sharing uses TCP only.<br><ul><li>**TCP:** port 443</li><li>**UDP:** ports 3478–3481</li><ul> |
+|        Verify         |                                                                                                                                                                                                                                                                 Use the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to verify connectivity from the affected building or subnet by using the connectivity check function.                                                                                                                                                                                                                                                                  |
 
 ### Drop failures
 

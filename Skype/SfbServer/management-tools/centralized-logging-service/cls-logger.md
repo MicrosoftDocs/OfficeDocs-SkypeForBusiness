@@ -70,35 +70,35 @@ To stop an existing scenario:
 In order to search for logs, select the "Search CLS Logs" tab and click the "Search Logs" button after filling in the displayed fields as described below:
   
 > **Log File Folder** The folder to save the results of the log search. (Required)
-    
+> 
 > **Log Level** This determines the lowest level that will show up in the results. For example if Warning is selected, only Warning, Error, and Fatal will be shown. Defaults to Debug.
-    
+> 
 > **Pools** Computer pools to perform the log search against, these are the parent nodes the tree view. (Required)
-    
+> 
 > **Computers** Individual computers to perform the log search against, these are all the child nodes in the tree view. (Required)
-    
+> 
 > **Start Time** The time period where CLS will query the logs from. (Required)
-    
+> 
 > **End Time** The time period where CLS will stop querying the logs from. (Required)
-    
+> 
 > **Components** Used to select which components to add to the query. (Optional)
-    
+> 
 > **Call ID** The Call ID of any SIP dialogs to be filtered by. Note, this field uses exact matching. (Optional)
-    
+> 
 > **Conference ID** The conference ID of any conferences to be filter by. Note, this field uses exact matching. (Optional)
-    
+> 
 > **IP Address** The IP address that to be filtered by. Note, this field uses exact matching. (Optional)
-    
+> 
 > **Correlation IDs** Trace statements that are logically linked together by this ID. (Optional)
-    
+> 
 > **Phone Number** Filter by phone number. (Optional)
-    
+> 
 > **SIP URI** Filter by SIP URI. (Optional)
-    
+> 
 > **SIP Message Content Contains** Filter by SIP message contents, this will substring search within this field. (Optional)
-    
+> 
 > **Match Any** Searches using a logical OR if checked. Defaults to Exact match of all parameters.
-    
+> 
 > **Skip Network Logs** Skips searching any network logs if checked.
     
 ![CLS Logger search logs](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)

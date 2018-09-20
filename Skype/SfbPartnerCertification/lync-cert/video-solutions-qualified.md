@@ -181,14 +181,14 @@ Download the [Lync Video Hardware Comparison Tables](http://Lync%20Video%20Endpo
 	</tr>
 	<tr align="left" valign="top">
 		<td><strong>Lync Conference</strong></td>
-		<td>Yes*</td>
+        <td>Yes<em></td>
 		<td>NA</td>
 		<td>NA</td>
 		<td>NA</td>
 	</tr>
 	<tr align="left" valign="top">
 		<td><strong>HD Video (RTVideo)</strong></td>
-		<td>Yes*</td>
+        <td>Yes</em></td>
 		<td>NA</td>
 		<td>NA</td>
 		<td>NA</td>

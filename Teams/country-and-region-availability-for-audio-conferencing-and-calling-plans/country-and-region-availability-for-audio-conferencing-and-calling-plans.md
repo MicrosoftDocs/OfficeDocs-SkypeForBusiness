@@ -127,7 +127,7 @@ You can select a country or region to see what cloud voice features are availabl
 After you look to see if one of the Skype for Business or Microsoft Teams services are available, you can see [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) to help you buy licenses and assign them to your users.
 
 > [!NOTE]
-
+> 
 > If you need to get more telephone numbers for your users, see [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users) or, for phone number request forms, [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 

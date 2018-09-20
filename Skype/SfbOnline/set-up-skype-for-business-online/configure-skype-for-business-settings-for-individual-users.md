@@ -73,9 +73,9 @@ After you [Let Skype for Business users add Skype contacts](let-skype-for-busine
     
 2. Choose **External communications**, and then clear the options as appropriate:
     
-  - **External Skype for Business users**: Clear this box if you don't want the user to be able to communicate with Skype for Business users in federated domains.
+   - **External Skype for Business users**: Clear this box if you don't want the user to be able to communicate with Skype for Business users in federated domains.
     
-  - **External Skype users**: Clear this box if you don't want the user to be able to communicate with people who are using the freeSkype app.
+   - **External Skype users**: Clear this box if you don't want the user to be able to communicate with people who are using the freeSkype app.
     
 3. Click **Save**.
     

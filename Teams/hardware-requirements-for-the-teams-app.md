@@ -34,6 +34,7 @@ appliesto:
 |Video calls and meetings | For better experience with video calls and online meetings, we recommend using a computer that has a 2.0 GHz processor and 4.0 GB RAM (or higher).
 
 ## Hardware requirements for the Teams desktop app on a Mac
+
 |**Component**|**Requirement**  |
 |---------|---------|
 |Processor    | Minimum Intel processor, Core 2 Duo or higher |

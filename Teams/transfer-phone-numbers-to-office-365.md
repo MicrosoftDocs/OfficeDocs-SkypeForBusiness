@@ -53,25 +53,25 @@ Before you start transferring phone numbers, we recommend that you review the in
     
 5. On the **Account info** page, enter the following and then click **Next**:
     
-  - **Account number** Account number for the service provider or carrier.
+   - **Account number** Account number for the service provider or carrier.
     
-  - **Billing telephone number** must be in the E.164 format (requires a + sign to prepend the number). For example, for a North America number, use the format +1XXXYYYZZZZ.
+   - **Billing telephone number** must be in the E.164 format (requires a + sign to prepend the number). For example, for a North America number, use the format +1XXXYYYZZZZ.
     
-  - **PIN to unblock number** PIN - if needed by your current service provider or carrier.
+   - **PIN to unblock number** PIN - if needed by your current service provider or carrier.
     
-  - **Company name** This is the name of your company or organization.
+   - **Company name** This is the name of your company or organization.
     
-    > [!NOTE]
-    > The **Company name** box will only accept 25 characters that includes spaces. If the company's name is longer than 25 characters, the first 25 characters of the name will be submitted and the port order will still be processed.
+     > [!NOTE]
+     > The **Company name** box will only accept 25 characters that includes spaces. If the company's name is longer than 25 characters, the first 25 characters of the name will be submitted and the port order will still be processed.
   
-  - **Authorizing person** Authorized user's name.
+   - **Authorizing person** Authorized user's name.
     
-    > [!NOTE]
-    > The **Authorizing person** box will only accept 15 characters that includes spaces. If the authorized person's name is longer than 15 characters, the first 15 characters of the name will be submitted and the port order will still be processed.
+     > [!NOTE]
+     > The **Authorizing person** box will only accept 15 characters that includes spaces. If the authorized person's name is longer than 15 characters, the first 15 characters of the name will be submitted and the port order will still be processed.
   
-  - **Service address** Service address for the account. This will be listed on the bill from your service provider or carrier.
+   - **Service address** Service address for the account. This will be listed on the bill from your service provider or carrier.
     
-  - **City**, **State**, **Zip** of the service address.
+   - **City**, **State**, **Zip** of the service address.
     
 6. On the **Numbers** page, enter the phone numbers that you want to transfer in E.164 format. For example, for a North America number, use the format +1XXXYYYZZZZ. Separate multiple phone numbers by using a comma.
     

@@ -23,11 +23,11 @@ You configure **Mirror Database Settings** by defining the following:
     > [!NOTE]
     > The primary SQL Server instance (either named instance or default instance) must have write permissions to the file share you define here. The mirror SQL Server instance (either named instance or default instance) must have read permissions to the same file share. 
   
- **OK** Accepts and commits changes to the dialog.
+  **OK** Accepts and commits changes to the dialog.
   
- **Cancel** Discards changes and closes the dialog.
+  **Cancel** Discards changes and closes the dialog.
   
- **Help** Displays this help screen.
+  **Help** Displays this help screen.
   
 ## See also
 

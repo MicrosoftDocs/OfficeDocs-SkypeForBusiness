@@ -165,7 +165,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ##### User scenarios
 **You want all users in your company to be able to create live events.**
 
-If users are assigned the *Glocal* policy, run and verify that *AllowBroadcastScheduling* *is set to *True*:
+If users are assigned the *Glocal* policy, run and verify that *AllowBroadcastScheduling* <em>is set to *True</em>:
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```

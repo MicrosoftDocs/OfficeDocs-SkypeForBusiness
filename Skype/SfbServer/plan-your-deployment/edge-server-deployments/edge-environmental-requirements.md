@@ -219,23 +219,23 @@ These will be the DNS records you're going to need for a singe Edge Server using
     
   - Node 2
     
-     - Public IPs:
+    - Public IPs:
     
-       - Access Edge: 131.107.155.11 (this is the primary, with default gateway set to your public router, ex: 131.107.155.1)
+      - Access Edge: 131.107.155.11 (this is the primary, with default gateway set to your public router, ex: 131.107.155.1)
     
-       - Web Conferencing Edge: 131.107.155.21 (secondary)
+      - Web Conferencing Edge: 131.107.155.21 (secondary)
     
-       - A/V Edge: 131.107.155.31 (secondary)
+      - A/V Edge: 131.107.155.31 (secondary)
     
       Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
     
   - Private IPs:
     
-      - Access Edge: 10.45.16.11 (this is the primary, with default gateway set to your router, ex: 10.45.16.1)
+    - Access Edge: 10.45.16.11 (this is the primary, with default gateway set to your router, ex: 10.45.16.1)
     
-      - Web Conferencing Edge: 10.45.16.21 (secondary)
+    - Web Conferencing Edge: 10.45.16.21 (secondary)
     
-      - A/V Edge: 10.45.16.31 (secondary)
+    - A/V Edge: 10.45.16.31 (secondary)
     
       Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
     

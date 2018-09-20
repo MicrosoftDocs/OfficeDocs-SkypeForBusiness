@@ -50,8 +50,8 @@ Our top priorities are customer satisfaction and excellent service. However, in 
 =======
 Our top priorities are customer satisfaction and excellent service. However, in the event that you have a complaint, we will work quickly to help you resolve your issue. Our [Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)](code-of-practice-for-the-united-kingdom-u-k.md) page details the procedures for small businesses to file a complaint with us and our independent dispute resolution scheme.
 
->>>>>>> master:Skype/SfbOnline/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md
-## 4. Number porting
+> > > > > > > master:Skype/SfbOnline/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md
+> > > > > > > ## 4. Number porting
 
 Skype for Business in some cases may be unable to transfer a customer's telephone number for use with the Service. Where number portability is available, Skype for Business will take all reasonable steps to ensure that the transfer of the number and subsequent activation is completed promptly once an agreement to transfer the number has been reached with the customer's current service provider.
 

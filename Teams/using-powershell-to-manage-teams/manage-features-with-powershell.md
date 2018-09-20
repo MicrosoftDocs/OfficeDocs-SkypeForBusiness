@@ -17,6 +17,7 @@ I would envision this as a reference topic that would set up as per feature. The
 # Managing Teams features using PowerShell
 
 ## Admin roles
+
 |Role |Example |Cmdlet Help link  |
 |---------|---------|---------|
 |Global admin     |         |         |
@@ -27,6 +28,7 @@ I would envision this as a reference topic that would set up as per feature. The
 link to Isabella's doc
 
 ## Audio conferencing
+
 |Cmdlet name |Description |Cmdlet Help link  |
 |---------|---------|---------|
 |Cmdlet name   |    What it does  |    Link to the Get-Help PS cmdlet     |

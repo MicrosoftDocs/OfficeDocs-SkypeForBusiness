@@ -195,9 +195,9 @@ See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-lan
 
 2. Select a phone number from the list and click **Edit**. Here you can:
     
-  - View the phone numbers that are set by Office 365 to be used for Audio Conferencing. 
+   - View the phone numbers that are set by Office 365 to be used for Audio Conferencing. 
     
-  - View the location, and the primary language, that will be used by the Audio Conferencing auto attendant.
+   - View the location, and the primary language, that will be used by the Audio Conferencing auto attendant.
 
   
 See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md).

@@ -47,7 +47,7 @@ For detailed information about usage limits and terms of use, see [Audio Confere
   
 ## How to buy a Calling Plan
 
-1. **You must first purchase a **Phone System** add-on license**. To do that, [sign into the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and choose **Billing** > **Purchase services** > **Add-on subscriptions** > **Buy now**.
+1. <strong>You must first purchase a **Phone System</strong> add-on license<strong>. To do that, [sign into the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and choose **Billing</strong> > **Purchase services** > **Add-on subscriptions** > **Buy now**.
     
     ![When you buy your Cloud PBX licenses, you'll see an option to buy a voice calling plan.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   

@@ -51,13 +51,13 @@ Settings assigned at a user level take precedence over settings applied at the o
 
 1. In the left navigation, go to **Users**, and then select the user from the list. 
 2. On the **Account** tab for the user, under **Teams upgrade**, click **Edit**.
-- You can set the **Coexistence mode**. Choose from the following options:
-    - **Use Org-wide settings** - Use this setting if you want the user to use the settings in the **Org-wide** settings. 
-    - **Islands** - Use this setting if you want the user to be able to use both Skype for Business and Teams. 
-    - **Skype for Business only** - Use this setting if you want the user to use Skype for Business. 
-    - **Teams only** - Use this setting if you want the user to use only Teams. The user will still be able to join Skype for Business meetings.
-3. If you select any **Coexistence mode** other than **Use Org-wide settings**, you have the option to enable notifications in the user's Skype for Business app that upgrade to Teams is coming soon. You can enable this notification for the user by turning on the **Notify the Skype for Business user** option.
-4. Click **Save** after you make your changes.
+3. You can set the **Coexistence mode**. Choose from the following options:
+     - **Use Org-wide settings** - Use this setting if you want the user to use the settings in the **Org-wide** settings. 
+     - **Islands** - Use this setting if you want the user to be able to use both Skype for Business and Teams. 
+     - **Skype for Business only** - Use this setting if you want the user to use Skype for Business. 
+     - **Teams only** - Use this setting if you want the user to use only Teams. The user will still be able to join Skype for Business meetings.
+4. If you select any **Coexistence mode** other than **Use Org-wide settings**, you have the option to enable notifications in the user's Skype for Business app that upgrade to Teams is coming soon. You can enable this notification for the user by turning on the **Notify the Skype for Business user** option.
+5. Click **Save** after you make your changes.
 
 ### Related topics
 [Plan the journey](upgrade-plan-journey.md)

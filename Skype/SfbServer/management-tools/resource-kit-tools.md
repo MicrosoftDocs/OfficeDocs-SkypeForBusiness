@@ -300,11 +300,11 @@ The filters that can be applied to the report view as shown below are described 
 
 1. **Name** Filter by WAN links (the filter is on the right side of the graph).The prefix denotes the following link types; see the vertical (blue) box:
 
-  - **S Site** The WAN link from a network site to a network region
+   - **S Site** The WAN link from a network site to a network region
 
-  - **IS Inter-Site** The WAN link between two network sites
+   - **IS Inter-Site** The WAN link between two network sites
 
-  - **R Inter-Region** The WAN link between two network region
+   - **R Inter-Region** The WAN link between two network region
 
 2. **Exceeded limit** Filter by WAN links whose bandwidth utilization is more than the bandwidth capacity
 
@@ -314,11 +314,11 @@ The filters that can be applied to the report view as shown below are described 
 
 5. **Link type** Filter by the following WAN links types:
 
-  - **Network site** type
+   - **Network site** type
 
-  - **Inter-site** type
+   - **Inter-site** type
 
-  - **Inter-Region link** type
+   - **Inter-Region link** type
 
 6. **Region** Filter by network region
 
@@ -789,15 +789,15 @@ The tool allows the administrator to perform the following tests:
 
 1. A/V Edge Server test: The tool performs tests against all A/V Edge Servers in the topology by doing the following:
 
-  - Verifying that the Skype for Business Server Audio/Video Authentication service is started and can issue proper credentials.
+   - Verifying that the Skype for Business Server Audio/Video Authentication service is started and can issue proper credentials.
 
-  - Verifying that the Skype for Business Server Audio/Video Edge service is started and can allocate the resources on the external edge successfully.
+   - Verifying that the Skype for Business Server Audio/Video Edge service is started and can allocate the resources on the external edge successfully.
 
 2. Bandwidth Policy Service test: The tool performs tests against all the servers that are running the Bandwidth Policy Services in the topology by doing the following:
 
-  - Verifying that the Skype for Business Server Bandwidth Policy Service (Authentication) is started and can issue proper credentials.
+   - Verifying that the Skype for Business Server Bandwidth Policy Service (Authentication) is started and can issue proper credentials.
 
-  - Verifying that the Skype for Business Server Bandwidth Policy Service (Core) is started and can perform the bandwidth check successfully.
+   - Verifying that the Skype for Business Server Bandwidth Policy Service (Core) is started and can perform the bandwidth check successfully.
 
 This tool must be run from a computer that is part of the topology and has the local store installed.
 
@@ -884,7 +884,7 @@ Save and Store CAC network topology diagram in JPG or BMP format: Skype for Busi
 
 ![Saving the network configuration as a picture.](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- **View CAC network topology configuration data:**Skype for Business Server 2015 administrators can view related network configuration data such as network regions, network sites, bandwidth profiles, and site subnet IP addresses in a textual format by using the View Network Configuration data option as shown below.
+ <strong>View CAC network topology configuration data:</strong>Skype for Business Server 2015 administrators can view related network configuration data such as network regions, network sites, bandwidth profiles, and site subnet IP addresses in a textual format by using the View Network Configuration data option as shown below.
 
 ![Viewing network configuration data.](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
@@ -1039,35 +1039,35 @@ The SEFAUtil tool can be run only on a computer that is a part of a Trusted Appl
 
 1. The SEFAUTil tool can be run only on a computer that is part of a trusted application pool. If needed, adding a pool as a new trusted application pool can be done via the Skype for Business Server Management Shell with the following cmdlet:
 
-  ```
-  New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
-  ```
+   ```
+   New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
+   ```
 
     > [!NOTE]
     > UCMA 3.0 must be installed on any computer that will be used to run the SEFAUtil tool.
 
 2. A trusted application needs to be defined in the topology for the SEFAUtil tool. To define SEFAUtil as a new trusted application, use the Skype for Business Server Management Shell and execute the following cmdlet:
 
-  ```
-  New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
-  ```
+   ```
+   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
+   ```
 
     > [!NOTE]
     > A different port can be used if needed.
 
 3. The topology changes need to be enabled. Enabling the topology changes can be done via the Skype for Business Server Management Shell by executing the following cmdlet:
 
-  ```
-  Enable-CsToplogy
-  ```
+   ```
+   Enable-CsToplogy
+   ```
 
 4. If needed, install the Skype for Business Server 2015 Resource Kit Tools in the server that will be used to run the SEFAUtil tool (the server must be part of a trusted application pool).
 
 5. Verify the SEFAUtil is running correctly. To do this, run the tool from a windows command prompt with administrator privileges to display the call forwarding settings of a user in the deployment. By default the tool will be located in: "…\Program Files\Skype for Business Server 2015\Reskit". To display the call forwarding settings of a user, use the following command:
 
-  ```
-  SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
-  ```
+   ```
+   SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
+   ```
 
     The call forwarding settings of the user should be displayed.
 
@@ -1409,21 +1409,22 @@ SYSPrep.ps1 is a Windows PowerShell script that will install the following Skype
 
 - Skype for Business Server 2015 Core files
 
- While the script name is similar to the System Preparation Tool for the Microsoft Windows operating systems, they are different. This script will only install the required prerequisites for Skype for Business Server 2015. Once those prerequisites are installed, the Windows SYSPrep tool can then be used to create an image of the server.
+  While the script name is similar to the System Preparation Tool for the Microsoft Windows operating systems, they are different. This script will only install the required prerequisites for Skype for Business Server 2015. Once those prerequisites are installed, the Windows SYSPrep tool can then be used to create an image of the server.
 
 ### Requirements
 
 Prior to running the SYSPrep.ps1 script, you must copy the prerequisite files to a local folder on the Windows Server 2008 operating system machine (for example **D:\Setup)**. This folder must also include a copy of the Skype for Business Server 2015 files, specifically **Setup.exe.** The prerequisite files can be downloaded from the following locations:
 
-|**Prerequisite**|**Location**|
-|:-----|:-----|
-|Microsoft .Net Framework 4.5  <br/> |https://go.microsoft.com/?linkid=9816306  <br/> |
-|Microsoft SQL Server Express 2008 R2  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=23650  <br/> |
-|Windows Powershell version 3.0  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=34595  <br/> |
-|Visual C++ 2010 Redistributable  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=5555  <br/> |
-|Internet Information Server Updates  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=34869  <br/> |
-|Windows Identity Foundation  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=17331  <br/> |
-|Skype for Business Server 2015 Setup.exe  <br/> |Copy from Skype for Business Server 2015 media  <br/> |
+
+| **Prerequisite**                                | **Location**                                                            |
+|:------------------------------------------------|:------------------------------------------------------------------------|
+| Microsoft .Net Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
+| Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/en-us/download/details.aspx?id=23650>  <br/> |
+| Windows Powershell version 3.0  <br/>           | <https://www.microsoft.com/en-us/download/details.aspx?id=34595>  <br/> |
+| Visual C++ 2010 Redistributable  <br/>          | <https://www.microsoft.com/en-us/download/details.aspx?id=5555>  <br/>  |
+| Internet Information Server Updates  <br/>      | <https://www.microsoft.com/en-us/download/details.aspx?id=34869>  <br/> |
+| Windows Identity Foundation  <br/>              | <https://www.microsoft.com/en-us/download/details.aspx?id=17331>  <br/> |
+| Skype for Business Server 2015 Setup.exe  <br/> | Copy from Skype for Business Server 2015 media  <br/>                   |
 
 ### Parameter
 
@@ -1497,7 +1498,6 @@ This example moves the unassigned number announcements from the source pool (Lyn
 
 ```
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
-
 ```
 
 #### Moving the Unassigned Number Announcements Configuration from a Skype for Business Server 2015 Pool to a Lync Server 2013 Pool

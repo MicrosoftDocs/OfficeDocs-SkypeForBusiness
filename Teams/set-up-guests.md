@@ -60,7 +60,7 @@ The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hou
   
 5. Click or tap the toggle next to **Turn Microsoft Teams on or off for all users of this type** to **On** to turn on Teams and guest access for your organization, and then choose **Save**. 
     
- Watch the following videos for more details about guest access:  
+   Watch the following videos for more details about guest access:  
 
 |  |  |
 |---------|---------|

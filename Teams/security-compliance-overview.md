@@ -87,7 +87,7 @@ Teams conversations are persistent and retained forever by default. With the int
 To manage Teams Retention policies works use the settings and cmdlets in the Office 365 Security & compliance center under **Data Governance** > **Retention**.
 
 Teams Retention Policies do support: 
-    
+
 - Preservation: Keep Teams data for a specified duration and then do nothing
 - Preservation and then delete: Keep Teams data for a specified duration and then delete
 - Deletion: Delete Teams data after a specified duration
@@ -118,7 +118,7 @@ By design, deletion policies for Teams files are configured through SharePoint O
 
 
 For detailed information about configuring retention policies for Office 365, read [Overview of retention policies](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
- 
+
 
 ## Retention policies FAQ
 
@@ -169,10 +169,10 @@ Here are the cmdlets we created for Teams. They follow existing nomenclature and
 ### If there are multiple retention policies for Teams with varying durations, which one wins?
 
 We follow [Principles of retention policies](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423), and we recommend that you do too. The short answer is: 
--	Preservation always wins over deletion
--	Longest preservation period always wins
--	Explicit inclusion wins over implicit inclusion in terms of locations
--	Shortest deletion period wins
+-   Preservation always wins over deletion
+-   Longest preservation period always wins
+-   Explicit inclusion wins over implicit inclusion in terms of locations
+-   Shortest deletion period wins
 
 
 
@@ -195,15 +195,17 @@ Licensing
 
 When it comes to the information protection capabilities, Office 365 subscriptions and the associated standalone licenses will determine the available feature set.
 
-|Information Protection Capability   |Office 365 Business Essentials   |Office 365 Business Premium   |Office 365 Enterprise E1   |Office 365 Enterprise E3/E4   |Office 365 Enterprise E5   |
-|---|---|---|---|---|---|
-|Archive|-  |-   |-   |Yes   |Yes   |
-|In-Place eDiscovery|-   |-   |-   |Yes   |Yes   |
-|Advanced eDiscovery|-   |-   |-   |-   |Yes   |
-|Legal Hold|-   |-   |-   |Yes   |Yes   |
-|Compliance Content Search|- |- |- |Yes |Yes |
-|Auditing and Reporting|Yes |Yes |Yes |Yes |Yes |
-|Conditional Access* |Yes |Yes |Yes |Yes |Yes |
+
+| Information Protection Capability | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
+|-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
+|              Archive              |               -                |              -              |            -             |             Yes             |           Yes            |
+|        In-Place eDiscovery        |               -                |              -              |            -             |             Yes             |           Yes            |
+|        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           Yes            |
+|            Legal Hold             |               -                |              -              |            -             |             Yes             |           Yes            |
+|     Compliance Content Search     |               -                |              -              |            -             |             Yes             |           Yes            |
+|      Auditing and Reporting       |              Yes               |             Yes             |           Yes            |             Yes             |           Yes            |
+|       Conditional Access\*        |              Yes               |             Yes             |           Yes            |             Yes             |           Yes            |
+
 > [!NOTE]
 > \*Conditional Access requires additional licenses
 

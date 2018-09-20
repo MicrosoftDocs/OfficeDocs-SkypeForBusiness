@@ -103,7 +103,7 @@ ms.topic: hub-page
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Security &amp; compliance</h3>
-                                                    <p>Teams is built on the Office 365 cloud, which means it features the enterprise-grade security & compliance you need</p>
+                                                    <p>Teams is built on the Office 365 cloud, which means it features the enterprise-grade security &amp; compliance you need</p>
                                                 </div>
                                             </div>
                                         </div>

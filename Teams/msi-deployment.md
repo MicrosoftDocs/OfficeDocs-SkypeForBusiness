@@ -51,6 +51,6 @@ If a user uninstalls Teams from their User Profile, the MSI installer will track
 2. After uninstall, delete directory recursively under %localappdata%\Microsoft\Teams\. 
 3. Redeploy the MSI package to that particular computer.
 
-> [!TIP] 
-> You can use our [Microsoft Teams deployment clean up](.\scripts\Powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via SCCM. 								
+> [!TIP]
+> You can use our [Microsoft Teams deployment clean up](./scripts/Powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via SCCM.                              
 

@@ -42,15 +42,15 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
 2. At the top of the **Conference bridges** page, click **Bridge settings**. 
 
 3. In the **Bridge settings** pane, select: 
-  - **Meeting entry and exit notifications** If you turn this off, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
+   - **Meeting entry and exit notifications** If you turn this off, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
     
-    When you turn on **Meeting entry and exit notifications**, you can select these options:
+     When you turn on **Meeting entry and exit notifications**, you can select these options:
     
-  - **Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.
+   - **Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.
     
-  - **Tones** When users dial in to a meeting, an audio tone will be played when they join it.
+   - **Tones** When users dial in to a meeting, an audio tone will be played when they join it.
       
-  - **Ask callers to record their name before joining the meeting** If you turn this off, callers won't be asked to record their name before they join a meeting.
+   - **Ask callers to record their name before joining the meeting** If you turn this off, callers won't be asked to record their name before they join a meeting.
 
 4. To set the PIN length for meetings, select the number of digits you want for the PIN in the **PIN length** list.
 
@@ -68,9 +68,9 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
     
 2. On the **Microsoft bridge settings** page, under **Meeting join experience**, select:
     
-  - **Enable meeting entry and exit notifications to be turned on** This is selected by default. If you clear the check box, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
+   - **Enable meeting entry and exit notifications to be turned on** This is selected by default. If you clear the check box, users who have already joined the meeting won't be notified when someone enters or leaves the meeting.
     
-  - When you select **Enable meeting entry and exit notifications to be turned on**, you can select these options from the **Entry/exit announcement type** list:
+   - When you select **Enable meeting entry and exit notifications to be turned on**, you can select these options from the **Entry/exit announcement type** list:
     
    - **Names or phone numbers** When users dial in to a meeting, their phone number will be played when they join it.
     

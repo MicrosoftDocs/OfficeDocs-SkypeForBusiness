@@ -82,7 +82,7 @@ For detailed instructions about configuring these settings, see the section "Off
 ► At a minimum to support guests, **Members can invite** must be set to **Yes**.
 
 > > [!NOTE]
-> If you set **Members can invite** to **No** and enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to Teams by non-admin members (team owners).
+> > If you set **Members can invite** to **No** and enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to Teams by non-admin members (team owners).
 
 
 For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).

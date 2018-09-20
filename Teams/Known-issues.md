@@ -18,6 +18,7 @@ appliesto:
 This article lists the known issues for Microsoft Teams, by feature area.
 
 ## Administration
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Audit logs may report an incorrect username as initiator when someone has been removed from a Team  <br/> |Teams team is a modern group in AAD. When you add/remove a member through the Teams user interface, the flow knows exactly which user initiated the change, and the Audit log reflects the correct info. However, if a user adds/removes a member through AAD, the change is synced to the Teams backend without telling Teams who initiated the action. Microsoft Teams picks the first owner of team as the initiator, which is eventually reflected in the Audit log as well.    <br/> |  <br/> |5/11/18  <br/> |
@@ -31,6 +32,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Admin management of tenant-wide Connectors is no longer available  <br/> |When trying to add a connector in both client and online version we get the error: An unexpected error occurred. Please try again. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Disable with Teams settings. See support article https://msdn.microsoft.com/microsoft-teams/connectors  <br/> |6/21/17  <br/> |
 
 ## Apps
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Connector options is missing for some teams  <br/> |When you right-click a channel, the Connectors option is not present for any member of the team.  <br/> |The creator of the team must have an online mailbox; otherwise, no Connector option will be available. This is expected behavior.  <br/> |6/26/17  <br/> |
@@ -44,6 +46,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Unable to delete connectors as a team owner  <br/> |Attempting to delete a connector as an owner, that can otherwise add a conector, while "Allow members to create, update, and remove connectors" is disabled throws an error indicating the user does not have permission to do so. <br/> |Temporarily enabling "Allow members to create, update, and remove connectors" will allow the owner to delete the connector.  <br/> |7/27/18  <br/> |
 
 ## Audio Conferencing
+
 |**Issue**|**Behavior/Symptoms**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |PSTN callers with the same "From" number are shown as the same user in meeting roster.  <br/> |When multiple PSTN callers join a meeting, and their caller IDs are masked as a single number, they will show up as a single caller in the meeting roster.  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
@@ -55,6 +58,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |PSTN meeting coordinates are not available for Skype for Business on-premises users  <br/> |If the user is a Skype for Business on-premises user, assigned with Skype for Business Online, Audio Conferencing, and Teams licenses, all meetings scheduled using Teams will not include PSTN meeting coordinates. <br/> |No workaround.  <br/> |2/1/2018  <br/> |
 
 ## Authentication
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |When you try to join Teams from Internet Explorer or Edge, the program consistently loops or crashes and doesn't sign in.   <br/> | Your organization utilizes Trusted Sites in Internet Explorer and the Teams web-based application does not correctly log in because trusted sites for Teams are not allowed. <br/>|Make the following changes to IE settings, either with Administrator rights or a Group Policy Object:<br/><ol><li>Under **Internet Options** &gt; **Privacy** &gt; **Advanced**, accept First-Party and Third-Party cookies, and check the box for **Always allow session cookies**.</li><li>Click **Internet Options** &gt; **Trusted Sites** &gt; **Sites**, and add all of the following:<ul><li>https://\login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>NOTE</b>: Always validate and allow all trusted URLs for Teams and the requirements from the following document: [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |11/1/17  <br/> |
@@ -80,6 +84,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Can't save profile picture  <br/> |Users can't save their profile picture when the Exchange Mailbox is hosted (homed) on-premises.  <br/> |No workaround.  <br/> |2/28/17  <br/> |
 
 ## Browser
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Green artifacts in Chrome video rendering  <br/> |Green artifacts appear while viewing video or sharing the screen in a call or meetup in Chrome.  <br/> |Disable the hardware acceleration setting in Chrome.  <br/> |8/3/17  <br/> |
@@ -89,6 +94,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Safari web client support  <br/> |Users trying to open the Microsoft Teams web client on Safari are directed to download the desktop client. Microsoft is looking into Safari support and will share updates on the [Teams Roadmap](https://aka.ms/TeamsRoadmap).  <br/> |Use supported internet browsers, which include: Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+, and Firefox 47.0+.  <br/> |11/2/16  <br/> |
 
 ## Channels
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |When a user leaves the company, it appears in Microsoft Teams as "Unknown user"<br/> |When a user leaves the company, it appears in Microsoft Teams as "Unknown user." Also, the conversation tab displays: "Unknown user has been added to the team." <br/> |No workaround.  <br/> |9/12/17  <br/> |
@@ -112,6 +118,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Skype for Business on-premises users aren't getting my messages  <br/> |Messages will not complete when Microsoft Teams users try to send a message to another individual who is using Skype for Business on-premises.  <br/> | Interoperability between Teams and users hosted on Skype for Business Online is supported. Teams users can send 1:1 chats to non-Teams users using Skype for Business Online. <br/> Interoperability between Teams and users hosted on Skype for Business on-premises is not supported. Teams users cannot send 1:1 chats to non-Teams users using Skype for Business on-premises.  <br/> |11/2/16  <br/> |
 
 ## Client
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Teams does not automatically update   <br/> | When Microsoft Teams is installed to Program Files using installation scripts rather than to the default location, the client doesn't auto-update when new versions are available.    <br/> | By design. Be sure to install the application in the default location: `user\Appdata`.  <br/> | 9/7/17  <br/> |
@@ -125,11 +132,13 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Symlink or mapping a drive to c:\users will cause app to launch to white screen  <br/> |When the default location of `C:\users\<user>\appData` is changed by moving the `C:\users` folder or using symlink, the app will launch with a white screen.   <br/> |There is no known work around. If the mapping must exist, you should use the web version of Microsoft Teams.   <br/> |3/13/17  <br/> |
 
 ## Environment
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Group mailboxes are not enabled for archival (extra storage) purposes  <br/> |In the Office 365 Security and Compliance Center, Global Admins cannot enable archival on Group mailboxes. They can do this on user mailboxes only.  <br/> |If the Group mailbox capacity is nearly full, please contact Microsoft Office Support to extend mailbox size.  <br/> |2/1/17  <br/> |
 
 ## Guest Access
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |EU and APAC customers receive an error when they add a guest user from another tenant    <br/> | Customers in EU and APAC experience a replication delay between Microsoft Teams and Azure Active Directory. When a user from an EU or APAC tenant tries to add a guest user from any other tenant, they receive an error message asking them to try again.   <br/> |Click the retry button again to execute the addition of the guest user.  <br/> |11/8/17  <br/> |
@@ -139,6 +148,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Wiki not created for channels created by guests  <br/> |When a guest creates a new channel, the **Wiki** tab is not created. There isn't a way to manually attach a **Wiki** tab to the channel. <br/> |No workaround.  <br/> |9/20/17  <br/>|
 
 ## Meetings
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent String for MS Teams within the EWSAllowList: `*skypespaces*`, including asterisks. The full command is: `set-organizationconfig -ewsallowlist *skypespaces*`<br/> For more info: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
@@ -179,12 +189,14 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 
 ## People
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |User Profile Photos  <br/> | Currently Teams does not have a mechanism to prevent users from changing photos. The BTS team has met with the development team who has filed the following for consideration: Feature 108874: IT Policy to disable Profile Photo uploading   <br/> | If you have customers who would like the ability to prevent Profile Photo uploading in Teams, please have them add their vote and business case to comments here: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
  <br/> |3/1/17 <br/> |
 
 ## Provisioning
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Incorrect SharePoint user created for Microsoft Teams SharePoint site  <br/> |The SharePoint creator for a Microsoft Teams Group appears to be a SharePoint Admin, not the correct user.  <br/> When auditing from the SharePoint administration console, the creator for the site collection page associated with the Office 365 Group created against the team in Microsoft Teams is the SharePoint admin.  <br/> |No workaround.  <br/> |7/21/17  <br/> |
@@ -194,6 +206,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Users can't create a team  <br/> |Your company may have set a policy restricting who can create Office 365 groups or teams.  <br/> |Check with your IT admin to understand your company's policy for creating groups and teams.  <br/> |3/13/17  <br/> |
 
 ## Tabs
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Website tab leading to customer confusion  <br/> |Website tabs are not equivalent to your browser. A number of sites, especially those requiring authentication or using popups, will not work when pinned as a website tab.  <br/> |We are working on improving the UI to make it clearer for customers.  <br/> |5/2/18  <br/> |
@@ -215,6 +228,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Teams Planner integration with Planner online <br/> |Tasks buckets in Planner do not show up in Planner online experience.  <br/> |No workaround. <br/> |2/28/17  <br/>|
 
 ## Teams
+
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Audit logs may report an incorrect username as initiator when someone has been removed from a Team  <br/> |Teams team is a modern group in AAD. When you add/remove a member through the Teams user interface, the flow knows exactly which user initiated the change, and the Audit log reflects the correct info. However, if a user adds/removes a member through AAD, the change is synced to the Teams backend without telling Teams who initiated the action. Microsoft Teams picks the first owner of team as the initiator, which is eventually reflected in the Audit log as well.    <br/> |  <br/> |5/11/18  <br/> |

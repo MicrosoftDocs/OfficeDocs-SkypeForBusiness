@@ -75,9 +75,9 @@ Follow the steps in this section if you want to configure the Skype client exper
     
 - **Lync Server 2010** - You must be running the February 2015 Cumulative Update (4.0.7577.710) for Lync Server 2010 or a later update. For information, see [Updates for Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771).
     
- **Step 2:** Next, use a client policy to set the Skype client experience with the Skype for Business client. There are **3 options** for using a client policy to set the client experience.
+  **Step 2:** Next, use a client policy to set the Skype client experience with the Skype for Business client. There are **3 options** for using a client policy to set the client experience.
   
- **Option 1:** Set the Skype client experience by using a Global policy. Note that the Global policy applies to all of the users in your deployment, but user and site level policies take precedence over the Global policy:
+  **Option 1:** Set the Skype client experience by using a Global policy. Note that the Global policy applies to all of the users in your deployment, but user and site level policies take precedence over the Global policy:
   
 ```
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $True

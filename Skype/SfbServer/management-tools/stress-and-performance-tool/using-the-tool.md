@@ -91,7 +91,7 @@ When you click on the **Create Users** button, the input parameters you've enter
   
 User creation takes time, so please plan accordingly. This process can take anywhere from several minutes for a few users, to a few hours for a large number of users.
   
-If you don't have access to the AD Domain Controller in your test environment, you can still validate user creation by logging in as one of the users in the range of users you specified to create. Remember to use the prefix, and the suffix, along with the @sipDomain as the username. Here is an example:  *TestUser20@contoso.net*  .
+If you don't have access to the AD Domain Controller in your test environment, you can still validate user creation by logging in as one of the users in the range of users you specified to create. Remember to use the prefix, and the suffix, along with the @sipDomain as the username. Here is an example:  <em>TestUser20@contoso.net</em>  .
   
 > [!NOTE]
 > If the users already exist, clicking the Create Users button will update them with any configuration changes. 
@@ -358,9 +358,9 @@ The Load Configuration tool (UserProfileGenerator.exe) creates a batch file that
     
 2. Navigate to the client folder and run the **RunClient** batch script. You can double-click the batch file in Windows Explorer and it will run all of the configuration files for that client. You can also run the script from a client folder by using the following syntax:
     
-  ```
-  RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
-  ```
+   ```
+   RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
+   ```
 
 To run the Stress and Performance tool directly, open a command prompt and type the following command at the command line (and when doing this for the first time, be sure to register the performance counters  `regsvr32 /i /n /s LyncPerfToolPerf.dll`, as shown in the note later in this topic):
   

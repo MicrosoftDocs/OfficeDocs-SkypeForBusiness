@@ -20,15 +20,15 @@ Depending on your existing settings and configuration for your deployment of Sky
   
 1. Set the Windows PowerShell execution policy to Unrestricted. If you're not sure what it's set to currently, you can open the Skype for Business Server Management Shell and run this command:
     
-  ```
-  Get-ExecutionPolicy
-  ```
+   ```
+   Get-ExecutionPolicy
+   ```
 
-  If the value Unrestricted is not returned, you'll need to run this next:
+   If the value Unrestricted is not returned, you'll need to run this next:
     
-  ```
-  Set-ExecutionPolicy -Unrestricted
-  ```
+   ```
+   Set-ExecutionPolicy -Unrestricted
+   ```
 
 2. To effectively configure Skype for Business Server, you'll need to:
     
@@ -38,9 +38,9 @@ Depending on your existing settings and configuration for your deployment of Sky
     
 3. To run a script from command line, you can use:
     
-  ```
-  PowerShell.exe -file <path to the file>
-  ```
+   ```
+   PowerShell.exe -file <path to the file>
+   ```
 
 4. Typically, after you've run a script from this package, the resulting traces will be stored in a file in the same path from where the script was run. There's a naming format as well, \<scriptname\>$h$m$s.txt. So if you ran the ArchivingPolicy.ps1 at 12:15 PM, you'll get a log file named ArchivingPolicy121500.txt.
     

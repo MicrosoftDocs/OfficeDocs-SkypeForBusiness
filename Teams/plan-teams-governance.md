@@ -24,24 +24,26 @@ Teams provides a rich set of tools to implement any governance capabilities your
 Your organization might require that you implement strict controls on how teams are named and classified, whether guests can be added as team members, and who can create teams. You can configure each of these areas by using Azure Active Directory (Azure AD). 
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Does your organization require a specific naming convention for teams?</li><li>Do team creators need the ability to assign organization-specific classifications to teams?</li><li>Do you need to restrict the ability to add guests to teams on a per-team basis?</li><li>Does your organization require limiting who can create teams?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Document your organization’s requirements for team creation, naming, classification, and guest access.</li><li>Plan to implement these requirements as a part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
 
 > [!TIP]
-Use the following table to capture your organization’s requirements.
-|Capability |Details |Azure AD Premium <br> license required |Decision |
-|---------|---------|---------|---------|
-|Team naming policy | Use Prefix-Suffix–based, Custom Blocked Words. |P1 |TBD |
-|Team classification |Assign classifications to teams. |P1 |TBD |
-|Team guest access |Allow or prevent guests from being added to teams. |No |TBD |
-|Team creation |Limit team creation to administrators. |No |TBD|
-|Team creation |Limit team creation to security group members. |P1 |TBD|
-
+> Use the following table to capture your organization’s requirements.
+> 
+> |Capability |Details |Azure AD Premium <br> license required |Decision |
+> |---------|---------|---------|---------|
+> |Team naming policy | Use Prefix-Suffix–based, Custom Blocked Words. |P1 |TBD |
+> |Team classification |Assign classifications to teams. |P1 |TBD |
+> |Team guest access |Allow or prevent guests from being added to teams. |No |TBD |
+> |Team creation |Limit team creation to administrators. |No |TBD|
+> |Team creation |Limit team creation to security group members. |P1 |TBD|
+> 
 > [!NOTE]
 > To help you plan ahead, [learn more about setting these policies and what licenses they require](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
-
+> 
 > [!NOTE]
 > Limiting group and team creation can slow your users’ productivity, because many Office 365 services require that groups be created for the service to function. For additional information, navigate to and expand [Why control who creates Office 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
@@ -67,13 +69,14 @@ Your organization might have additional requirements for setting policies for ex
 | ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Document your organization’s requirements for team expiration, data retention, and archiving.</li><li>Plan to implement these requirements as part of your Teams rollout.</li><li>Communicate and publish your policies to inform Teams users of the behavior they can expect.</li></ul>|
 
 > [!TIP]
-Use the following table to capture your organization’s requirements.
-|Capability |Details |Azure AD Premium <br>license required |Decision |
-|---------|---------|---------|---------|
-|Expiration policy |Manage the lifecycle of Office 365 groups by setting an expiration policy. |P1 |TBD|
-|Retention policy |Retain or delete data (Teams channel messages and channel files) for a specific time period by setting retention policies for Teams in the Security & compliance center. **Note**: Using this feature requires licensing of Office 365 Enterprise E3 or above. |No |TBD |
-|Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |No |TBD |
-
+> Use the following table to capture your organization’s requirements.
+> 
+> |Capability |Details |Azure AD Premium <br>license required |Decision |
+> |---------|---------|---------|---------|
+> |Expiration policy |Manage the lifecycle of Office 365 groups by setting an expiration policy. |P1 |TBD|
+> |Retention policy |Retain or delete data (Teams channel messages and channel files) for a specific time period by setting retention policies for Teams in the Security & compliance center. **Note**: Using this feature requires licensing of Office 365 Enterprise E3 or above. |No |TBD |
+> |Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |No |TBD |
+> 
 > [!Note]
 > Group expiration is an Azure AD Premium feature. For this feature to be available, your tenant must have a subscription to Azure AD Premium and licenses for the administrator who configures the settings and the members of the affected groups.
 
