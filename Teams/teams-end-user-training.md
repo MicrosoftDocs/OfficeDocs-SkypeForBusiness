@@ -18,7 +18,7 @@ Use these training resources to help users in your organization get the most out
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">
+        <a href="https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -28,7 +28,7 @@ Use these training resources to help users in your organization get the most out
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with Teams</h3>
+                        <h3>What is Teams?</h3>
                     </div>
                 </div>
             </div>
@@ -36,17 +36,17 @@ Use these training resources to help users in your organization get the most out
         </a>
     </li>
    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/tutorial-journey-skypeforbusiness-to-teams">
+        <a href="https://support.office.com/teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Take a tutorial on the upgrade journey from Skype for Business to Teams</h3>
+                        <h3>Teams Help documentation</h3>
                     </div>
                 </div>
             </div>
@@ -54,17 +54,17 @@ Use these training resources to help users in your organization get the most out
         </a>
     </li>
    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
+        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users people" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get training for your users</h3>
+                        <h3>Teams video training</h3>
                     </div>
                 </div>
             </div>
@@ -83,24 +83,6 @@ Use these training resources to help users in your organization get the most out
                     </div>
                     <div class="cardText">
                         <h3>Check out the Teams channel on YouTube</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
- <li>
-        <a href="https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="success" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>View best practice and how-to videos in the Coffee in the Cloud channel on YouTube</h3>
                     </div>
                 </div>
             </div>
