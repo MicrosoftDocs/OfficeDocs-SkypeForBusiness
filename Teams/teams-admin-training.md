@@ -124,7 +124,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Journey from Skype for Business to Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams">Tutorial: Journey from Skype for Business to Teams</a></p>
+                         <p>[Tutorial: Journey from Skype for Business to Teams](tutorial-journey-skypeforbusiness-to-teams.yml)</p>
                     </div>
                 </div>
             </div>
@@ -135,7 +135,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Architecture</h3>     
-                        <p><iframe width="320" height="200" src="https://www.youtube.com/embed/xJBvJTDiQqg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+                        <p>[Video: Core components of Teams](https://www.youtube.com/embed/xJBvJTDiQqg)</p>
                     </div>
                 </div>
             </div>
@@ -146,8 +146,8 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Plan and deploy</h3>
-                         <p><a href="quick-start-enable-teams">Quick start: Teams planning guide</a></p>
-                         <p><iframe width="320" height="220" src="https://www.youtube.com/embed/zp1_wGzq1ic?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+                         <p>[Quick start: Teams planning guide](quick-start-enable-teams.md)</p>
+                         <p>[Video: Teams Windows desktop application]](https://www.youtube.com/embed/zp1_wGzq1ic)</p>
                     </div>
                 </div>
             </div>
@@ -183,7 +183,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Security & compliance</h3>
-                       <p>[Video: Understanding e-Discovery in Microsoft Teams](https://www.youtube.com/watch?v=OF65_p_07cE</p>
+                       <p>[Video: Understanding e-Discovery in Microsoft Teams](https://www.youtube.com/watch?v=OF65_p_07cE)</p>
                     </div>
                 </div>
             </div>
@@ -220,9 +220,9 @@ Use these tutorials, videos and other training resources to learn about Teams an
                     <div class="cardText">
                         <h3>Audio Conferencing</h3>
                          <p>[Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)<a href=""></a></p>
-                         <p>[Video: Introduction to Audio Conferencing](https://www.youtube.com/embed/AGPvaW4Vg0o</p>
-                         <p>[Video: Plan for Audio Conferencing]https://www.youtube.com/embed/AWbuvcWcYIc)</p>
-                         <p>[Video: Number porting for Audio Conferencing(https://www.youtube.com/embed/5k0C21KAsns</p>
+                         <p>[Video: Introduction to Audio Conferencing](https://www.youtube.com/embed/AGPvaW4Vg0o)</p>
+                         <p>[Video: Plan for Audio Conferencing](https://www.youtube.com/embed/AWbuvcWcYIc)</p>
+                         <p>[Video: Number porting for Audio Conferencing](https://www.youtube.com/embed/5k0C21KAsns)</p>
                     </div>
                 </div>
             </div>
@@ -233,7 +233,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Calling Plans</h3>
-                         <p>[Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)<a href=""></a></p>
+                         <p>[Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)</p>
                          <p>[Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)</p>
                     </div>
                 </div>
