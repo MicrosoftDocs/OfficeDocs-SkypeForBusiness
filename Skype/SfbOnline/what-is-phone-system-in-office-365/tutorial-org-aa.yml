@@ -1,8 +1,8 @@
 ### YamlMime:Tutorial
-title: Quick start - Plan your Cloud Auto Attendant
+title: Implementation example -  Auto Attendants
 metadata:
-  title: Quick start - Plan your Cloud Auto Attendant
-  description: For IT admins, plan Cloud Auto Attendant across your organization.
+  title: Implementation example -  Auto Attendants
+  description: For IT admins, plan Auto Attendants across your organization.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -29,13 +29,8 @@ items:
     Auto Attendants can be used with either Teams or Skype for Business. You can create an Auto Attendant for your organization by using the Skype for Business admin center.
     
     Perhaps you’re employed at a small business (or an outsider on a contract) and you’ve been asked to implement an Auto Attendant for a small business, which 
-    you may never have done start to finish. If you are asked to set up an Auto Attendant, this article will guide you through setting this up for a typical 
-    small business.    
-
-    This guide is for IT admins in small businesses, including those who are currently implementing Teams or Skype for Business Online. You don't necessarily have to 
-    be very experienced as an Admin to create Auto Attendants. 
-
-    This guide is designed to get you started quickly with configuration recommendations specific to Skype For Business in small businesses. It's not a one-size-fits-all solution, but it is a good starting point. 
+    you may never have done start to finish. If you are asked to set up an Auto Attendant, this article will guide you through setting this up in 
+    Teams or Skype For Busines for a typical small business. It's not a one-size-fits-all solution, but it is a good starting point. 
   
     ## Before you begin
 
@@ -385,7 +380,7 @@ items:
     |Edit Menu options	|**1:** Enter the Name of the option: Investigator<br/> Send to: Person in your company: Boris Averyanov <br/>**2:** Enter the Name of the option: Records<br/> Send to: Person in your company: Franco Piccio |
     |  |   |
 
-    See the step-by-step implementation details for Cloud Auto Attendants at [Creating an Auto Attendant](set-up-a-phone-system-auto-attendant.md). 
+    See the step-by-step implementation details for Phone System Auto Attendants at [Creating an Auto Attendant](set-up-a-phone-system-auto-attendant.md). 
 
 
     ### Editing and testing auto attendants
