@@ -170,20 +170,9 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Teams & channels</h3>
-                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Video: Get your teams up and running</a></p>
-                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c454">Video: Go-to guide for team owners</a></p>
-                         <p><a href="company-wide-team-creation-powershell">Tutorial: Create a company-wide team using PowerShell</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Guest access</h3>
-                       <p><iframe width="320" height="220" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe></p>
+                         <p>[Video: Get your teams up and running](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b")</p>
+                         <p>[Video: Go-to guide for team owners](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c454")</p>
+                         <p>[Tutorial: Create a company-wide team using PowerShell](company-wide-team-creation-powershell.md)</a></p>
                     </div>
                 </div>
             </div>
@@ -194,7 +183,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Security & compliance</h3>
-                       <p><iframe width="320" height="220" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe></P>
+                       <p>[Video: Understanding e-Discovery in Microsoft Teams](https://www.youtube.com/watch?v=OF65_p_07cE</p>
                     </div>
                 </div>
             </div>
@@ -206,7 +195,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Meetings</h3>
-                        <p><a href="tutorial-meetings-in-teams">Tutorial: Meetings in Teams</a></p>
+                        <p>[Tutorial: Meetings in Teams](tutorial-meetings-in-teams.yml)</a></p>
                     </div>
                 </div>
             </div>
@@ -230,10 +219,10 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Audio Conferencing</h3>
-                         <p><a href="tutorial-audio-conferencing">Tutorial: Audio Conferencing in Teams</a></p>
-                         <p><iframe width="320" height="220" src="https://www.youtube.com/embed/AGPvaW4Vg0o" frameborder="0" allowfullscreen></iframe></p>
-                         <p><iframe width="320" height="220" src="https://www.youtube.com/embed/AWbuvcWcYIc" frameborder="0" allowfullscreen></iframe></p>
-                         <p><iframe width="320" height="220" src="https://www.youtube.com/embed/5k0C21KAsns" frameborder="0" allowfullscreen></iframe></p>
+                         <p>[Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)<a href=""></a></p>
+                         <p>[Video: Introduction to Audio Conferencing](https://www.youtube.com/embed/AGPvaW4Vg0o</p>
+                         <p>[Video: Plan for Audio Conferencing]https://www.youtube.com/embed/AWbuvcWcYIc)</p>
+                         <p>[Video: Number porting for Audio Conferencing(https://www.youtube.com/embed/5k0C21KAsns</p>
                     </div>
                 </div>
             </div>
@@ -244,8 +233,8 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Calling Plans</h3>
-                         <p><a href="configuring-teams-calling-quickstartguide">Quick start: Configuring Calling Plans in Teams</a></p>
-                         <p><a href="tutorial-calling-in-teams">Tutorial: Understand calling in Teams</a></p>
+                         <p>[Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)<a href=""></a></p>
+                         <p>[Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)</p>
                     </div>
                 </div>
             </div>
@@ -256,7 +245,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Direct Routing</h3>
-                        <p><iframe width="320" height="220" src="https://www.youtube.com/embed/dVkc5Bs926Q" frameborder="0" allowfullscreen></iframe></p>
+                        <p>[Video: Direct Routing for Teams (Preview)](https://www.youtube.com/embed/dVkc5Bs926Q</p>
                     </div>
                 </div>
             </div>
