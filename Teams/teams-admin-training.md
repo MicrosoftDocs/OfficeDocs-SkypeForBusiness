@@ -219,7 +219,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Audio Conferencing</h3>
-                         <p>[Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)<a href=""></a></p>
+                         <p>[Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)</p>
                          <p>[Video: Introduction to Audio Conferencing](https://www.youtube.com/embed/AGPvaW4Vg0o)</p>
                          <p>[Video: Plan for Audio Conferencing](https://www.youtube.com/embed/AWbuvcWcYIc)</p>
                          <p>[Video: Number porting for Audio Conferencing](https://www.youtube.com/embed/5k0C21KAsns)</p>
@@ -245,7 +245,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Direct Routing</h3>
-                        <p>[Video: Direct Routing for Teams (Preview)](https://www.youtube.com/embed/dVkc5Bs926Q</p>
+                        <p>[Video: Direct Routing for Teams - Preview](https://www.youtube.com/embed/dVkc5Bs926Q</p>
                     </div>
                 </div>
             </div>
