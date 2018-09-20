@@ -34,7 +34,9 @@ items:
   
     ## Before you begin
 
-    We assume you've already done the tasks in [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system.md) to provide phone numbers and voicemail to all users. 
+    We assume you've already done the tasks in [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system.md) to provide 
+    phone numbers and voicemail to all users. You should also review [What are Phone System auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants.md) to get a 
+    better understanding of the Phone System features that can interact with an Auto Attendant.
 
 - title: Assess business needs
   durationInMinutes: 4
@@ -45,7 +47,7 @@ items:
 
     The needs assessment might include the following questions:
 
-    ## Q: Who are the people in the business?
+    ### Q: Who are the people in the business?
     Here's a summary of the employees: 
     |Phone #	| Name		|Role			|Notes |
     |:--      |:--        |:--        |:--      |:--   |
@@ -67,7 +69,7 @@ items:
     | | | | |  |
   
 
-    ## Q: Why are the customers calling?
+    ### Q: Why are the customers calling?
     Your Auto Attendant should address the needs of the customers, and the most frequent customer needs should get addressed first. Since Julie Wolfe is 
     acting as the Operator for the office until the Auto Attendant system is implemented she should be in the best position to tell you what customer 
     needs generate calls. 
@@ -87,22 +89,22 @@ items:
     |Requesting a copy of records	                    | 4|	Transfer to the records clerk |
     | | | |
 
-    ## Q: What special considerations does each job function in the office have?
+    ### Q: What special considerations does each job function in the office have?
     Have some discussions with people in each of the job functions in the office about what they need from the Auto Attendant. In our small office the 
     following point was made clear:
     - Billing questions can be handled by either of the clerks. Given that, it’s okay to create a call queue with both of their numbers that will send 
     the call to whichever line is not already busy, or to a random number in that group if both are free. (We’re not going to implement this in the example config, 
     but it’s a situation where having a menu option go to a call queue makes sense.)
 
-    ## Q: What language requirements do the customers have?
+    ### Q: What language requirements do the customers have?
     Asking Julie Wolfe, we discover that there were only two callers in the whole week for whom English seemed to be a second language. They functioned 
     well enough in English to make their enquiries, and they didn’t seem to speak the same native language. Confirming this with the business partners, 
     the lawyers, the need for bilingual or multilingual prompts was not seen as a priority.
 
-    ## Q: What are the business hours, non-business hours and holidays?
+    ### Q: What are the business hours, non-business hours and holidays?
     You may want distinct initial greetings for business hours, after-hours, weekends, holidays, and so on.
 
-    ## Q: For each of the job functions in the office, what issues do they handle for customers?
+    ### Q: For each of the job functions in the office, what issues do they handle for customers?
     You may be surprised by what issues the various office workers usually handle. For example, it’s possible that Julie the receptionist can answer many 
     questions you might have assumed should be routed to the billing department or Valeria the office manager.
 
@@ -113,7 +115,7 @@ items:
     ##	General guidelines
     Before we look at our specific example, let’s look briefly at some more general design guidelines and basics.  
 
-    Do:
+    ### Do:
     1.	It's a good idea to have alternate initial greetings for calls taken outside business hours, or on holidays or weekends.
     2.	Put your most frequently used options as early as possible in the first set of menu options. If possible, reserve zero in the first menu for a 
     transfer to a live Operator, but mention it last in the scripts. 
@@ -125,7 +127,7 @@ items:
     5.	Take a few extra minutes to flow chart the options you want to create, and make sure you aren't creating opportunities for users to go around in 
     circles in the option menus. It should ideally be possible to get connected to a person or their voicemail in three menus or less.
     
-    Don't:
+    ### Don't:
     1.	Create a nested Auto Attendant with more than 5 choices. If you do, you'll likely confuse your callers and force them to repeat the menu.
     2.	Use reserved menu option numbers or keys as menu options.
 
@@ -133,9 +135,6 @@ items:
     > The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing \* will correspond with 
     "Repeat" and \# will correspond with the "Back" voice commands.
   
-    When Phone System recieves telephone keypad input, it will wait 2 seconds to see if another number or character is being entered and if no other 
-    entry is made it will try to match the input with the options for the current menu.  
- 
 
     ## Do a design mockup 
 
@@ -143,7 +142,7 @@ items:
     can do on any blank wall or whiteboard, using several colors of pen and some sticky notes or index cards and tape:
     1.	For each person with a voicemail account in the business, write their name and phone number on a sticky note or 3x 5 index card. You may need 
     several notes for the employee who will be the Operator. If you have several colors of note available, it might help to distinguish users and menus at a glance.
-    2.	Mark one note as the main initial greeting, another as the after hours or holiday greeting (you could easily choose to separate these, but for now we’ll 
+    2.	Mark one note as the main or initial greeting, another as the after hours or holiday greeting (you could easily choose to separate these, but for now we’ll 
     merge them), one to represent the hours and location recording (if you’re choosing to use one), and one to stand in for the main Auto Attendant, which presents 
     the first three to five most-used options. If possible, use a different color of note.
     3.	Place the initial greeting on your board space, then below it place the main Auto Attendant note. If any of the top options go directly to a single employee, 
@@ -153,28 +152,30 @@ items:
     5.	If you have an option that leads to a call queue, create a note using a third color, place it below and to the right of the Attendant that connects to 
     it. Place notes representing the users in the queue to the right of the note representing the queue.
 
-    Here’s a Visio diagram representing one way to implement our example:
+    Here’s a diagram representing one way to implement our example:
 
     ![Diagram of Lawyer office AA](../images/AA-LawyerOfficeExample.png)
 
-    The example in the diagram takes into account the reasons the office's customers call, and the do and don't recommendations. 
-    You might notice the following things about the design chosen here:
+    The example in the diagram takes into account the reasons the office's customers call, and the do and don't recommendations. Even in a small 
+    office, the complexity of an auto attendant can grow quickly.   You might notice the following things about the design chosen here:
     
-    - The most common reason for calling was to schedule appointments, so it was listed first. The other reasons to call are given as options in descending order of their use.
-    - There are usually 3-4 options per menu. While Phone System supports menus with up to 9 options, design **Don't** number 1 above points out that most users 
-    won't be able to keep track of more than 5 options without confusing users and causing them to repeat the menu, wasting their time and annoying them. 
+    - The most common reason for calling was to schedule appointments, so it was listed first. The other reasons to call are given as options in 
+    descending order of their use.
+    - There are usually 3-4 options per menu in this example. While Phone System supports menus with up to 9 options, most users 
+    won't be able to keep track of more than 5 options without getting confused and needing to repeat the menu, which wastes their time and annoys them. 
     - The lawyer, paralegals, and billing menus can arguably be replaced with Call Queues. The main reason we've used an Auto Attendant is to keep our 
     implementation focused on Auto Attendants. Actual implementations would probably use Call Queues.  See [Create a Phone System call queue](create-a-phone-system-call-queue.md)
     for more about Call Queues. 
-    - Eventually, every employee gets matched with an Auto Attendant option in this design. This might not be what you choose to do, you may want a much simpler system with 
-    fewer options. If that simplicity is important, you can plan to enable the **Dial by Name** option and remove one or more of the nested Auto Attendants.
+    - Eventually, every employee gets matched with an Auto Attendant option in this design. This might not be what you choose to do, you may want a 
+    much simpler system with fewer options. If that simplicity is important, you can plan to enable the **Dial by Name** option and remove one or more 
+    of the nested Auto Attendants that mention specific employees by name.
 
-- title: Writing the Scripts 
+- title: Writing the scripts 
   durationInMinutes: 3
   content: |
     ### Writing better Auto Attendant scripts 
     Your auto-attendant script can make or break the impression left on your customers or callers. 
-    Think it through carefully, write it out, and consider having it professionally recorded.
+    Plan it carefully, write it out, and consider having it professionally recorded.
     Think about some of these guidelines when writing the script dialog:
 
     Do:
@@ -183,15 +184,15 @@ items:
     2.	Use multilingual prompts, but put the secondary language or languages at the end of the first set of options.
     3.	Present the option, then the number to press ("For Sales, press 3"). When the caller hears the option they want, their attention immediately focuses, so 
     that's the time to tell them what will get them there.
-    4.	Choose the person reading your script carefully, make sure their voice leaves the impression you want and their voice is clearly understandable when 
-    recorded. If the reader mumbles, sounds condescending, or sounds like they might be a machine, you can probably find a better choice. 
-    Phone System has a built in text to speech engine which gives you the option of entering your final text and deciding for yourself 
-    whether it's conveying the impression you want. If not, recording an audio prompt is fully supported.
+    4.	Make sure the voice for the prompts leaves the impression you want and is clearly understandable.  Phone System has a built in text to speech 
+    engine which gives you the option of entering your final text and deciding for yourself whether it's conveying the impression you want. If not, 
+    recording an audio prompt is fully supported. If the voice mumbles, sounds condescending, or has other issues, keep looking.
     5.	Mention significant changes to your option structure when that happens, but don't leave that part of the greeting active for more than a month. If you 
     have frequent updates and expect that to be the case most of the time, just omit it from the script.
     
     Don't:
-    1.	Clutter the initial greeting with hours of operation or your business address. Make those available as a choice in the first menu if it's frequently requested information, but keep the initial greeting short and sweet.
+    1.	Clutter the initial greeting with hours of operation or your business address. Make those available as a choice in the first menu if it's frequently 
+    requested information, but keep the initial greeting short and sweet.
     2.	Say please or use other pleasantries over and over. Just get the callers to the option or person they need as efficiently as possible.
     3.	Include "http:\/\/www\." when mentioning a web address. It's just a poor use of script time.
     4.	Use abbreviations like St for street or CA for California. Spell them out in the script and say the whole word in the recording. 
@@ -208,7 +209,7 @@ items:
     > The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing \* will correspond with 
     "Repeat" and \# will correspond with the "Back" voice commands.
 
-    These scripts reflect the design we chose earlier, and the suggestions for writing Auto Attendant scripts. 
+    These scripts reflect the design we chose earlier, and the suggested guidelines for writing Auto Attendant scripts. 
 
     #### Script 1: company greeting
     Thanks for calling VanArsdel, Ltd. At any time you can press zero to transfer to the Operator, press star to repeat the menu, or press pound to return to the previous menu.
@@ -281,13 +282,12 @@ items:
   durationInMinutes: 7
   content: |
 
-    The following implementation uses text-to-speech for the scripts. Phone System has a built in text to speech engine so you the option 
+    The information needed to implement the design in the earlier diagram is presented in the tables that follow.
+    The implementation uses text-to-speech for the scripts. Phone System has a built in text to speech engine so you the option 
     of entering your final text and deciding for yourself whether it conveys the impression you want. If not, it's up to you whether to record your 
     own prompts using [Sound Recorder](https://support.microsoft.com/en-us/help/14090/windows-sound-recorder-app-faq) 
     in Windows or have a professional voice-over artist use your scripts to record .wav files.
     
-    The information needed to implement the design in the earlier diagram is presented in the tables that follow.
-
     As mentioned earlier, your implementation could easily involve Call Queues, which could be used in place of the lawyer, paralegal, and billing 
     Auto Attendants below. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Phone System call queue](create-a-phone-system-call-queue.md)
     for more about Call Queues. If you choose to do this, you'll need to create a valid Call Queue before creating an Auto Attendant menu that refers to the Call Queue.
