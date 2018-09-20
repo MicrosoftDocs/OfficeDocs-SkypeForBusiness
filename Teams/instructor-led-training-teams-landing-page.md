@@ -29,7 +29,7 @@ ms.date: 08/24/2018
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
-                                                <div class="cardImageOuter">n
+                                                <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
                                                         <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image1.svg" alt="An arrow pointing up and to the left next to a hand with the index finger pointing up" />
                                                     </div>
