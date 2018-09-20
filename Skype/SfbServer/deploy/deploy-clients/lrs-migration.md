@@ -37,7 +37,7 @@ Existing Crestron RL2 (also referred to as Crestron RL200) customers can acquire
 
 
 ### SMART Room Systems upgrade
-Microsoft and SMART are working on providing a solution to upgrade existing SMART LRS systems to Skype Room System v2. More details will be provided before end of Septemebr 2018. Please check back for details of this upgrade option . 
+Microsoft and SMART are working on providing a solution to upgrade existing SMART LRS systems to Skype Room System v2. More details will be provided before end of September 2018. Please check back for details of this upgrade option . 
 
 
 
