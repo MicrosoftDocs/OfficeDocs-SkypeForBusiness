@@ -41,7 +41,7 @@ Microsoft and SMART are working on providing a solution to upgrade existing SMAR
 
 
 
-We recommend you plan to update Lync Room System devices before TLS 1.0/1.1 deprecation. Please contact Crestron Support if you choose Crestron option to upgrade and Microsoft support if you have specific questions about upgrade. 
+We recommend you plan to update Lync Room System devices before TLS 1.0/1.1 deprecation. 
 
 > [!NOTE]
 > Touch and whiteboard functionality is not yet supported in Skype Room System v2. Touch and whiteboard support is in the backlog for Skype Room System v2 and will be added in 2019.
