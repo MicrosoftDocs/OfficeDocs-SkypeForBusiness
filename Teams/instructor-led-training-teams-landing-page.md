@@ -31,7 +31,7 @@ ms.date: 08/24/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">n
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image1.svg" alt="An arrow pointing up and to the left next to a hand with the index finger pointing up" />
+                                                        <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image1.svg" alt="An arrow pointing up and to the left next to a hand with the index finger pointing up" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -88,7 +88,7 @@ ms.date: 08/24/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image2.svg" alt="A laptop running Skype for Business next to an arrow pointing to a laptop running Microsoft Teams" />
+                                                    <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image2.svg" alt="A laptop running Skype for Business next to an arrow pointing to a laptop running Microsoft Teams" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -107,7 +107,7 @@ ms.date: 08/24/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
+                                                    <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image3.svg" alt="graduation cap with tassle" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -126,7 +126,7 @@ ms.date: 08/24/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Security-Compliance-400x140.svg" alt="  ">
+                                                    <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image4.svg" alt="teacher at a podium with students looking at a projector screen" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
