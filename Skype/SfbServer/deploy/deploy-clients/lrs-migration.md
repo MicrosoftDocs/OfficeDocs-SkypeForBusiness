@@ -26,24 +26,19 @@ Here is the list of the devices that are affected by this change:
 - [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 - Crestron RL
 
-
 ## Upgrade options
 There are multiple options for upgrading Lync Room Systems to the next generation of Skype Room Systems (SRS v2).
 
-
 ### Crestron hardware Trade-in program
-
 Crestron will provide an upgrade to the [Crestron SR system](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) or equivalent for all Non-Crestron  “LRS” customers. See details of this program [here](https://www.crestron.com/lrsupgrade) or [email](mailto:lrsupgrade@crestron.com) Crestron LRS support.  
 
-
 ### Crestron RL2 to RL3
-
 Existing Crestron RL2 (also referred to as Crestron RL200) customers can acquire an upgrade package to upgrade current RL2 to RL3 using a for a minimal cost per device. See details of this program [here](https://www.crestron.com/lrsupgrade) or [email](mailto:lrsupgrade@crestron.com) Crestron LRS support. 
 
 
 ### SMART Room Systems upgrade
-
 Microsoft and SMART are working on providing a solution to upgrade existing SMART LRS systems to Skype Room System v2. More details will be provided before end of Septemebr 2018. Please check back for details of this upgrade option . 
+
 
 
 We recommend you plan to update Lync Room System devices before TLS 1.0/1.1 deprecation. Please contact Microsoft support if you need assistance with upgrade and check back this page for additional details on Do-It-Yourself option.
