@@ -1,5 +1,5 @@
 ---
-title: Admin training for Microsoft Teams
+title: End user training for Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -7,17 +7,14 @@ layout: landingpage
 ms.topic: landing-page
 ms.service: msteams
 search.appverid: MET150
-description: Training videos, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
+description: Training videos, tutorials, and other resources for users in your organization to learn and use Teams.
 ms.topic: landing page
 appliesto: 
 - Microsoft Teams
 ---
-# Admin training for Microsoft Teams
+# End user training for Microsoft Teams
 
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
-
-Use these tutorials, videos and other training resources to learn about Teams and drive usage in your organization. Check back here often for new content. 
+Use these training resources to help users in your organization get the most out of Teams. 
 
 <ul class="panelContent cardsFTitle">
     <li>
