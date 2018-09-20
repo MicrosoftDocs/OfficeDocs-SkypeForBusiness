@@ -28,31 +28,49 @@ Use these training resources to help users in your organization get the most out
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>What is Teams?</h3>
+                        <h3>What is Teams?
+Watch this short video introducing you to Teams</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-   <li>
+  <li>
+        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="flag" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                    <h3>Quick start guide to get up and running quickly on Teams</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li> <li>
         <a href="https://support.office.com/teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams Help documentation</h3>
+                        <h3>Get help and how-to documention in the Teams help center</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
-    </li>
+    </li> 
    <li>
         <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
         <div class="cardSize">
@@ -64,7 +82,7 @@ Use these training resources to help users in your organization get the most out
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams video training</h3>
+                        <h3>View the Teams video training</h3>
                     </div>
                 </div>
             </div>
@@ -102,8 +120,8 @@ Use these training resources to help users in your organization get the most out
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Journey from Skype for Business to Teams</h3>
-                         <p>[Tutorial: Journey from Skype for Business to Teams](tutorial-journey-skypeforbusiness-to-teams.yml)</p>
+                        <h3>Switching from Skype for Business to Teams</h3>
+                         <p>[Article: Switch to Teams from Skype for Business](https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964?ui=en-US&rs=en-US&ad=USl)</p>
                     </div>
                 </div>
             </div>
@@ -113,7 +131,7 @@ Use these training resources to help users in your organization get the most out
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Architecture</h3><p>[Video: Core components of Teams](https://www.youtube.com/embed/xJBvJTDiQqg)</p>
+                        <h3>Teams tips & tricks</h3><p>[Article: Teams tips & tricks](https://support.office.com/office-training-center/Teams-tips)</p>
                     </div>
                 </div>
             </div>
@@ -123,9 +141,10 @@ Use these training resources to help users in your organization get the most out
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Plan and deploy</h3>
-                         <p>[Quick start: Teams planning guide](quick-start-enable-teams.md)</p>
-                         <p>[Video: Teams Windows desktop application](https://www.youtube.com/embed/zp1_wGzq1ic)</p>
+                        <h3>Set up a team</h3>
+                         <p>[Video: Get your team up and running](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
+                         <p>[Video: Go-to guide for team owners](https://www.youtube.com/embed/zp1_wGzq1ic)</p>
+                         <p>[Video: Organize your teams list](https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542)</p>
                     </div>
                 </div>
             </div>
@@ -135,57 +154,11 @@ Use these training resources to help users in your organization get the most out
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Teams for Education</h3>
-                        <p>[Quick start: Teams for Education admins](teams-quick-start-edu.yml)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-<li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
                         <h3>Teams & channels</h3>
-                         <p>[Video: Get your teams up and running](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b")</p>
-                         <p>[Video: Go-to guide for team owners](https://support.office.com/en-us/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547")</p>
-                         <p>[Tutorial: Create a company-wide team using PowerShell](company-wide-team-creation-powershell.yml)</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Security & compliance</h3>
-                       <p>[Video: Understanding e-Discovery in Teams](https://www.youtube.com/watch?v=OF65_p_07cE)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-        <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Meetings</h3>
-                        <p>[Tutorial: Meetings in Teams](tutorial-meetings-in-teams.yml)</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Apps & services</h3>
-                        <p>[Video: Add tools with tabs](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
-                        <p>[Video: Use the command box](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b?ui=en-US&rs=en-US&ad=US)</p>
+                         <p>[Video: Overview of teams and channels](https://support.office.com/article/video-overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46)</p>
+                         <p>[Video: Favorite and follow channels](https://support.office.com/article/favorite-and-follow-channels-3f76dffd-78a8-49ca-b8de-28671cb444ba)</p>
+                         <p>[Video: Work in channels](https://support.office.com/article/video-work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e)</p>
+                         <p>[Video: Tip-Send email to a channel](https://support.office.com/article/tip-send-email-to-a-channel-2c17dbae-acdf-4209-a761-b463bdaaa4ca)</p>
                     </div>
                 </div>
             </div>
@@ -196,11 +169,10 @@ Use these training resources to help users in your organization get the most out
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Audio Conferencing</h3>
-                         <p>[Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)</p>
-                         <p>[Video: Introduction to Audio Conferencing](https://www.youtube.com/embed/AGPvaW4Vg0o)</p>
-                         <p>[Video: Plan for Audio Conferencing](https://www.youtube.com/embed/AWbuvcWcYIc)</p>
-                         <p>[Video: Number porting for Audio Conferencing](https://www.youtube.com/embed/5k0C21KAsns)</p>
+                        <h3>Posts & messages</h3>
+                         <p>[Video: Create and format a post](https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885)</p>
+                         <p>[Video: Get attention with @mentions](https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b)</p>
+                         <p>[Video: Save a post or a message](company-wide-team-creation-powershell.yml)</a></p>
                     </div>
                 </div>
             </div>
@@ -210,20 +182,37 @@ Use these training resources to help users in your organization get the most out
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Calling Plans</h3>
-                         <p>[Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)</p>
-                         <p>[Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)</p>
+                        <h3>Chats, calls, & meetings</h3>
+                       <p>[Video: Start chats and make calls](https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5)</p>
+                       <p>[Video: Create instant meetings with Meet now](https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf)</p>
+                       <p>[Video: Manage meetings](https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137)</p>
                     </div>
                 </div>
             </div>
         </div>
-    </li><li>
+    </li>
+       <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Direct Routing</h3>
-                        <p>[Video: Direct Routing for Teams - Preview](https://www.youtube.com/embed/dVkc5Bs926Q)</p>
+                        <h3>Apps & tools</h3>
+                        <p>[Video: Add tools with tabs](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
+                         <p>[Video: Turn a file into a tab](https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05)</p>
+                        <p>[Video: Use the command box](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+<li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Activity feed</h3>
+                         <p>[Video: Filter your activity feed](https://support.office.com/article/filter-your-activity-feed-02b9ece4-6086-4daa-b4c0-627beeacbf08)</p>
+                         <p>[Video: Manage notification settings](https://support.office.com/article/manage-notification-settings-348672f7-9ed0-4b96-86ed-d6fdcecb4096)</p>
                     </div>
                 </div>
             </div>

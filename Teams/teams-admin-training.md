@@ -144,7 +144,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Plan and deploy</h3>
+                        <h3>Plan & deploy</h3>
                          <p>[Quick start: Teams planning guide](quick-start-enable-teams.md)</p>
                          <p>[Video: Teams Windows desktop application](https://www.youtube.com/embed/zp1_wGzq1ic)</p>
                     </div>
@@ -169,8 +169,8 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Teams & channels</h3>
-                         <p>[Video: Get your teams up and running](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b")</p>
-                         <p>[Video: Go-to guide for team owners](https://support.office.com/en-us/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547")</p>
+                         <p>[Video: Get your teams up and running](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
+                         <p>[Video: Go-to guide for team owners](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547")</p>
                          <p>[Tutorial: Create a company-wide team using PowerShell](company-wide-team-creation-powershell.yml)</a></p>
                     </div>
                 </div>
@@ -204,9 +204,9 @@ Use these tutorials, videos and other training resources to learn about Teams an
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Apps & services</h3>
+                        <h3>Apps & tools</h3>
                         <p>[Video: Add tools with tabs](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
-                        <p>[Video: Use the command box](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b?ui=en-US&rs=en-US&ad=US)</p>
+                        <p>[Video: Use the command box](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b)</p>
                     </div>
                 </div>
             </div>
