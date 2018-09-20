@@ -25,17 +25,17 @@ ms.date: 08/24/2018
                                 </div>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/deployment-overview">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
-                                                <div class="cardImageOuter">
+                                                <div class="cardImageOuter">n
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com//en-us/media/illustrations/biztalk-host-integration-install-configure.svg" alt="  " />
+                                                        <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image1.svg" alt="An arrow pointing up and to the left next to a hand with the index finger pointing up" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Microsoft Teams daily demo</h3>
+                                                    <h3>#ThisIsTeams - Microsoft Teams daily demo</h3>
                                                     <p>Join us for this 30-minute orientation to discover how Teams can work for you in your day-to-day work life.</p>
                                                 </div>
                                             </div>
@@ -44,13 +44,13 @@ ms.date: 08/24/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-GetStarted-400x140.svg" alt="a pedestrian symbol with an arrow pointing to a computer screen, tablet, and phone" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -63,18 +63,18 @@ ms.date: 08/24/2018
                                 </a>
                             </li>
                             <li>
-                            <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
+                            <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
+                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Getting started with Teams for Education</h3>
-                                                <p>Teams is a rock star for Education. Get the training you need to use Teams in an Education setting. </p>
+                                                <h3>Manage your upgrade from Skype for Business to Teams</h3>
+                                                <p>Gain insights into planning and implementing a successful upgrade from Skype for Business to Teams. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -82,18 +82,18 @@ ms.date: 08/24/2018
                             </a>
                         </li>
                             <li>
-                            <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
+                            <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/en-us/media/illustrations/teams-voice-deployment.svg" alt="  " />
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image2.svg" alt="A laptop running Skype for Business next to an arrow pointing to a laptop running Microsoft Teams" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Managing your upgrade from Skype for Business to Teams</h3>
-                                                    <p>*COMING IN OCTOBER 2018*: Gain insights into planning and implementing a successful upgrade from Skype for Business to Teams.</p>
+                                                <h3>Make the switch from Skype for Business to Teams: end user guidance</h3>
+                                                    <p>This course covers what you need to quickly start chatting, meeting, and calling in Teams.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -111,8 +111,8 @@ ms.date: 08/24/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Transitioning from Skype for Business to Teams for end users</h3>
-                                                <p>*COMING IN OCTOBER 2018*: This course covers what you need to quickly start chatting, meeting, and calling in Teams.</p>
+                                                <h3>More training coming soon!</h3>
+                                                <p>Keep checking back to take additional instructor-led courses as we launch them.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -130,8 +130,8 @@ ms.date: 08/24/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Karuana?</h3>
-                                                <p>Anything before Ignite?</p>
+                                                <h3>Spare tile</h3>
+                                                <p>We can remove this one before going live if we don't have anything else.</p>
                                             </div>
                                         </div>
                                     </div>
