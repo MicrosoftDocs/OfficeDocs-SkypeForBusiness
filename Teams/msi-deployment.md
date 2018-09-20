@@ -59,7 +59,5 @@ If a user uninstalls Teams from their User Profile, the MSI installer will track
 
 If you want to disable auto launch, enter the following command prompt:
 
-```
-msiexec /i Teams_windows.exe
- OPTIONS="noAutoStart=false"
-``` 
+`msiexec /i Teams_windows.exe OPTIONS="noAutoStart=false"`
+
