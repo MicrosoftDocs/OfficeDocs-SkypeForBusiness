@@ -158,7 +158,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Teams for Education</h3>
-                        <p><a href="teams-quick-start-edu">Quick start: Teams for Education admins</a></p>
+                        <p>[Quick start: Teams for Education admins](teams-quick-start-edu.yml)</p>
                     </div>
                 </div>
             </div>
