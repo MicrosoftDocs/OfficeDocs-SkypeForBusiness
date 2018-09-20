@@ -69,7 +69,7 @@ ms.date: 08/24/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
+                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-Journey-400x140.svg" alt="a roadmap with footsteps" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -88,7 +88,7 @@ ms.date: 08/24/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image2.svg" alt="A laptop running Skype for Business next to an arrow pointing to a laptop running Microsoft Teams" />
+                                                    <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image4.svg" alt="teacher at a podium with students looking at a projector screen" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -126,7 +126,7 @@ ms.date: 08/24/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image4.svg" alt="teacher at a podium with students looking at a projector screen" />
+                                                    <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image6.svg" alt="3 people sitting around a table" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
