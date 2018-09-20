@@ -1,1 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140"><defs><style>.cls-1{fill:#e6e6e6;}.cls-2{fill:#2f2f2f;}.cls-3{fill:#fff;}.cls-4{fill:#5558ae;}.cls-5{fill:#939393;}</style></defs><title>MSteams_instructor_hub_tiles_training</title><g id="Main_UI"><rect class="cls-1" width="400" height="140"/><g id="education_tutorial"><path class="cls-2" d="M200,90.83l-3.84-1.92L159.3,70.48A36.87,36.87,0,0,0,158,76a57.35,57.35,0,0,0-.6,6.77q-.1,3.48-.1,7.48L200,111.67l42.71-21.42V83.37a42.28,42.28,0,0,0-1.37-10.71c-.19-.73-.48-1.43-.71-2.14L203.84,88.91Z"/><path class="cls-3" d="M150.84,93.57A9.43,9.43,0,0,0,148.75,92a8.57,8.57,0,0,0-8.54,0,9.25,9.25,0,0,0-2.1,1.55,8.7,8.7,0,0,0-2.69,6.36V127.1h18.11V99.93A8.66,8.66,0,0,0,150.84,93.57Z"/><path class="cls-4" d="M200,12.9,131.66,47.07l8.55,4.27h0V92a8.57,8.57,0,0,1,8.54,0V55.61h0l14,7L200,81.24l37.24-18.62,31.1-15.55Z"/></g></g><g id="Border"><path class="cls-5" d="M399,1V139H1V1H399m1-1H0V140H400V0Z"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 140" style="enable-background:new 0 0 400 140;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#2F2F2F;}
+	.st1{fill:#E6E6E6;}
+	.st2{fill:#5558AE;}
+</style>
+<g id="Main_x5F_UI">
+	<g id="education_x5F_tutorial_1_">
+		<g>
+			<path class="st0" d="M200,90.8l-3.8-1.9l-36.9-18.4c-0.6,1.8-1,3.7-1.3,5.5c-0.3,2.2-0.5,4.5-0.6,6.8c-0.1,2.3-0.1,4.8-0.1,7.5
+				l42.7,21.4l42.7-21.4v-6.9c0-3.6-0.5-7.2-1.4-10.7c-0.2-0.7-0.5-1.4-0.7-2.1l-36.8,18.4L200,90.8z"/>
+			<path class="st1" d="M150.8,93.6c-0.7-0.6-1.4-1.1-2.1-1.6c-1.3-0.7-2.7-1.1-4.3-1.1c-1.6,0-3,0.4-4.3,1.1
+				c-0.7,0.4-1.4,0.9-2.1,1.6c-1.8,1.8-2.7,3.9-2.7,6.4v27.2h18.1V99.9C153.5,97.5,152.6,95.4,150.8,93.6z"/>
+			<path class="st2" d="M200,12.9l-68.3,34.2l8.5,4.3v0v4.8v4.8V92c1.3-0.7,2.7-1.1,4.3-1.1c1.6,0,3,0.4,4.3,1.1V65.2v-4.8v-4.8v0
+				l14,7L200,81.2l37.2-18.6l31.1-15.5L200,12.9z"/>
+		</g>
+	</g>
+</g>
+<g id="Text">
+</g>
+<g id="Border">
+</g>
+</svg>
