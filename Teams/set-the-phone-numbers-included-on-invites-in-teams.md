@@ -1,5 +1,5 @@
 ---
-title: "Set the phone numbers included on invites in Microsfot Teams"
+title: "Set the phone numbers included on invites in Microsoft Teams"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,7 +19,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: "Get the steps to create a default phone number for callers to join a Microsfot Teams meeting. "
+description: "Get the steps to create a default phone number for callers to join a Microsoft Teams meeting. "
 ---
 
 # Set the phone numbers included on invites in Microsoft Teams
