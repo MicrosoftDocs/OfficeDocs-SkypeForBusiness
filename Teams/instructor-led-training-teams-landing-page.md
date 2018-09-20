@@ -14,11 +14,11 @@ ms.date: 08/24/2018
         <h1>Instructor-led training for Microsoft Teams</h1>
         <ul class="pivots">
             <li>
-                <a href="#tab2">Instructor-led training</a>
-                <ul id="tab2">
+                <a href="#tab1">Instructor-led training</a>
+                <ul id="tab1">
                     <li>
-                        <a href="#tab2-all"></a>
-                        <ul id="tab2-all" class="cardsC">
+                        <a href="#tab1-all"></a>
+                        <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
                                     <p>Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. If you're a business decision maker, admin, IT Pro, or end user, you'll find a class that’s right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors.<br><br> Click a tile to register.</p>
