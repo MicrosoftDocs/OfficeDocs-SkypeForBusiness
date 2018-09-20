@@ -3,6 +3,7 @@ title: "Communicate with Teams users in another organization"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
+ms.date: 09/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,9 +26,11 @@ Use the steps in this article when:
     
 - You want anyone else in the world who uses Teams to be able to find and contact you, using your email address. If you and another user both enable External Access and allow each other's domains, this will work. If it doesn't work, the other user should make sure his or her configuration isn't blocking your domain.
 
-Follow these steps:
+This will allow users to find, call, and send you instant messages, as well as set up meetings with you. If you want external users to have access to teams and channels, guest access might be a better way to go. Follow the steps in this article and make sure to [turn on guest access](set-up-guests.md) so that users can communicate.
 
 ## Let your Teams users chat and communicate with users in another Teams organization
+
+Follow these steps.
 
 ### Step 1 - Make sure to set up the ports and URLs that are needed.
 
