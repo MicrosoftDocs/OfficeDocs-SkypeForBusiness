@@ -4,6 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: landingpage
+ms.date: 09/21/2018
 ms.topic: landing-page
 ms.service: msteams
 search.appverid: MET150
