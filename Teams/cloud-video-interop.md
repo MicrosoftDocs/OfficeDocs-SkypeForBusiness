@@ -31,6 +31,7 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 |![Pexip Infinity](media/pexip.png)| [Pexip Infinity for Microsoft Teams](https://aka.ms/PexipInfinity) | October 19, 2018|
 |![BlueJeans Gateway](media/bluejeans.png)|[BlueJeans Gateway for Microsoft Teams](https://aka.ms/BluejeansGateway) | October 31, 2018|
 
+## Partner solutions
 
 Our partners have developed gateway solutions to connect third-party standards-based SIP and H.323 devices to Microsoft Teams meetings.  
  
@@ -53,6 +54,8 @@ Our partners have developed gateway solutions to connect third-party standards-b
 - Auto scale with cloud solutions
 
  
+## Reference architecture
+
 The following diagram describes the high-level architecture of a Teams partner solution.
 
 ![Teams Cloud Video Interop partner solution](media/teams-cloud-video-interop-partner-solution.png)
