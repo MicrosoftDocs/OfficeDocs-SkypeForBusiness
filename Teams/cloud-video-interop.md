@@ -83,17 +83,13 @@ The following diagram describes the high-level architecture of a Teams partner s
 
 ## Business workflow scnearios
 
-**Skype for Business Server -> Microsoft Teams:** Your organization has third-party devices and moving from Skype for Business on-prem server to Microsoft Teams  
-
-**Skype for Business online -> Microsoft Teams:** 
+- **Skype for Business Server -> Microsoft Teams:** Your organization has third-party devices and moving from Skype for Business on-prem server to Microsoft Teams  
+- **Skype for Business online -> Microsoft Teams:** 
 Your organization is migrating to Microsoft Teams from Skype for Business Online.
-
-**Cisco UC -> Microsoft Teams:** Your organization is moving from Cisco to Microsoft Teams, but not ready to replace your Cisco devices.
-
-**Mixed Systems -> Microsoft Teams:** 
+- **Cisco UC -> Microsoft Teams:** Your organization is moving from Cisco to Microsoft Teams, but not ready to replace your Cisco devices.
+- **Mixed Systems -> Microsoft Teams:** 
 Your organization has several systems in your environment side by side (Cisco, BroadSoft, SfB Server, SfBO).
-
-**Another cloud meeting provider -> Microsoft Teams:** 
+- **Another cloud meeting provider -> Microsoft Teams:** 
 Your organization has been a user for another cloud meeting provider migrating to Microsoft Teams.
 
 

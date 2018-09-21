@@ -18,7 +18,7 @@ appliesto:
 
 After you have [chosen on your Cloud Video Interop partner(s)](cloud-video-interop.md), you will need to plan your deployment, get set up with provisioning details and partner tenant key, and consent to the video interop app in your organization. The following diagram outlines the deployment process. 
 
-![Deploying CVI in your organization](deploying-cvi.png)
+![Deploying CVI in your organization](media/deploying-cvi.png)
 
 ## Plan
 
@@ -43,7 +43,7 @@ To configure Cloud Video Interop, follow these steps.
 3. Configure integrated rooms with exchange and OTD. In most cases, additional relay would need to be set up and configured in your environment.
 
 
-# Provision
+## Provision
  
 The tenant key will be the dial out to the partner service. In the following example, 813878896@t.plcm.vc is the tenant key. 
 
