@@ -22,7 +22,7 @@ After you have [chosen on your Cloud Video Interop partner(s)](cloud-video-inter
 
 ## Plan
 
-See [Cloud Video Interop for Microsoft Teams](cloud-video-interop.md) for information about identifiyign a partner or partners to use in your organization. 
+See [Cloud Video Interop for Microsoft Teams](cloud-video-interop.md) for information about identifying a partner or partners to use in your organization. 
 
 To plan for user based/concurrent/site wide enablement: 
 

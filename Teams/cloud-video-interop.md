@@ -60,7 +60,7 @@ The following diagram describes the high-level architecture of a Teams partner s
 
 ![Teams Cloud Video Interop partner solution](media/teams-cloud-video-interop-partner-solution.png)
 
-## Key busines considerations
+## Key business considerations
 
 **Microsoft Teams alongside 3P video infrastructure**
 
@@ -81,7 +81,7 @@ The following diagram describes the high-level architecture of a Teams partner s
 - Do you need to be available in sovereign or government clouds?
 - Do you have external companies joining your Teams meetings? 
 
-## Business workflow scnearios
+## Business workflow scenarios
 
 - **Skype for Business Server -> Microsoft Teams:** Your organization has third-party devices and moving from Skype for Business on-prem server to Microsoft Teams  
 - **Skype for Business online -> Microsoft Teams:** 
