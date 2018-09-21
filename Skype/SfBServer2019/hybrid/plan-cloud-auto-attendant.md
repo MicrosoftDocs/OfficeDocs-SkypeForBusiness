@@ -18,7 +18,7 @@ description: "Overview of using a Cloud Auto Attendant with Skype for Business S
 
 Skype for Business Server 2019 hybrid implementations only use Cloud Voicemail and do not integrate with Exchange Online.
 
-Using Skype for Business Server 2019 with [Phone System Auto Attendants](https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json) is not yet available.
+Using Skype for Business Server 2019 with [Phone System Auto Attendants](/MicrosoftTeams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json) is not yet available.
 
 If you are a current user of Exchange Server 2013 or Exchange Server 2016, you will be able to continue to use them as you implement Skype for Business Server 2019. Exchange UM, including Auto Attendant functionality, is being retired in Exchange 2019.
 
@@ -38,7 +38,7 @@ Implementing this feature assumes you have already implemented [Cloud Voicemail]
 1. Create on premise endpoints for each Auto Attendant node, including assigning phone numbers and licenses to the objects. Note that you now have the ability to assign licenses used by online services like Phone System to on-premise phone numbers. 
 2. Implement a new Cloud Auto Attendant service with Skype for Business Online and Phone System. See [Configure cloud auto attendant](configure-cloud-auto-attendant.md) for implementation details.
 
-In this context, an automated attendant or auto attendant menu system transfers callers to the extension of a user or department without the intervention of a receptionist or an operator. Each automated greeting or menu is a distinct virtual user on your Skype for Business 2019 system, and several of them can be structured into a compelte system that serves the organization's needs.
+In this context, an automated attendant or auto attendant menu system transfers callers to the extension of a user or department without the intervention of a receptionist or an operator. Each automated greeting or menu is a distinct virtual user on your Skype for Business 2019 system, and several of them can be structured into a compelete system that serves the organization's needs.
 
 In many auto attendant systems, a receptionist or operator can be reached by pressing or saying zero. Some auto attendant systems use message-only information menus and voice menus so an organization can provide business hours, directions to the premises, information about job opportunities, and answers to other frequently asked questions. After the message plays, callers are forwarded to the receptionist or operator, or they can return to the main menu.
 
@@ -48,70 +48,29 @@ Auto Attendants also have a number of settings (such as business hours or a holi
 
 See:
 
-- [What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
-- [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+- [What are Phone System auto attendants?](/SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+- [Set up a Phone System auto attendant](/SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 - [Automatically answer and route incoming calls](https://docs.microsoft.com/en-us/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls) 
-
-
 
 ## Migrating a previously implemented Exchange UM Auto Attendant system
 
 Currently we don't support automated migration of a UM auto attendant system created in Exchange 2013 or 2016. To manually re-create an Auto Attendant system, you'll need to:
 
-1. Use Exchange admin powershell commands to review the structure of the old Auto Attendant system, including any nested Auto Attendants and call queues.
+1. Use Exchange admin powershell commands to review the structure of the old Auto Attendant system, including any nested Auto Attendants and call queues.  
 2. Create copies of text-to-speech scripts or recorded messages associated with each UM Auto Attendant node.
 3. Create on premise endpoints for each Auto Attendant node, including assigning phone numbers and licenses to the objects. Note that you now have the ability to assign on-premise phone numbers licenses used by online services like Phone System. 
 4. Implement a new Cloud Auto Attendant service with Skype for Business Online and Phone System. See [Configure cloud auto attendant](configure-cloud-auto-attendant.md) for implementation details. As you do this, upload the text-to-speech scripts or recorded messages associated with each UM Auto Attendant node.
 
-These steps are fleshed out in [Manually moving an Exchange UM Auto Attendant to Cloud Auto Attendant](configure-cloud-auto-attendant.md#manually-moving-an-exchange-um-auto-attendant-to-cloud-auto-attendant)
+See [Manually moving an Exchange UM Auto Attendant to Cloud Auto Attendant](configure-cloud-auto-attendant.md#manually-moving-an-exchange-um-auto-attendant-to-cloud-auto-attendant) for details on these steps.
 
-<!-- As you review the structure, you can use the questions and activities described in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml) to either capture or reassess the UM Auto Attendant implementation. -->
 
-<!-- ## Designing the Auto Attendant structure
 
- If you're designing an Auto Attendant system from scratch, review the questions and activities in [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml). -->
 
-## Writing better Auto Attendant scripts
+## Planning auto attendants
 
-Your auto-attendant's structure and  script can make or break the impression left on your customers or callers. Think it through carefully, write it out, and consider having it professionally recorded. <!-- These guidelines are also incorporated into [Quick start - Plan your Cloud Auto Attendant](tutorial-org-aa-plan.yml). -->
+The tutorial titled [Implementation example - Auto Attendants](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) goes through the process of gathering information about user needs, planning a structure of Auto Attendants and users (and possibly Call Queues, which are not yet supported for hybrid implementations), writing the menu prompts, an implementing the plan in the Online Admin center. review the tutorial and use the exercises there to create your plan.
 
-Consider some of these do's and dont's when planning a brand new auto attendant system:
-
-**Do:**
-1. Greet and thank the caller for contacting you. Keep this short, no more than three sentences and under 30 seconds. If your web site offers self-service options, mention it but otherwise present choices and options as soon as possible without being abrupt.  It's a good idea to have alternate initial greetings for calls taken outside business hours, or on holidays or weekends.
-
-2. Put your most frequently used options as early as possible in the first set of menu options. If possible, reserve zero in the first menu for a transfer to a live operator, but mention it last. 
-
-3. Have the menu repeat once if nothing is selected, and if there still isn't a selection, transfer the call to a live operator rather than having the call disconnect.
-
-4. Use multilingual prompts, but put the secondary language or languages at the end of the first set of options.
-
-5. Present the option, then the number to press ("For Sales, press 3"). When the caller hears the option they want, their attention immediately focuses, so that's the time to tell them what will get them there.
-
-6. Choose the person reading your script carefully, make sure their voice leaves the impression you want and their voice is clearly understandable when recorded. If the reader mumbles, sounds condescending, or sounds like they might be a machine, you can probably find a better choice.
-
-7. Mention significant changes to your option structure when that happens, but don't leave that part of the greeting active for more than a month. If you have frequent updates and expect that to be the case most of the time, just omit it from the script.
-
-And finally, take a few extra minutes to flow chart the options you want to create, and make sure you aren't creating opportunities for users to go around in circles in the option menus. It should ideally be possible to get connected to a person or their voicemail in three menus or less.
-
-**Don't:**
-1. Clutter the initial greeting with hours of operation or your business address. Make those available as a choice in the first menu if it's frequently requested information, but keep the initial greeting short and sweet.
-
-2. Create menus with more than 5 choices. If you do, you'll likely confuse your callers and force them to repeat the menu.
-
-3. Say please or use other pleasantries over and over. Just get the callers to the option or person they need as efficiently as possible.
-
-4. Include "http://<span></span>www." when mentioning a web address. It's just a poor use of script time.
-
-5. Use abbreviations like St for street or CA for California. Spell them out in the script and say the whole word in the recording. 
-
-6. Use reserved menu option numbers or keys. If all extensions in your office start with 6, then don't use that number.  The * and # characters frequently have reserved meanings too, so review which DTMF keys are reserved
-
-7. Include sales information in the scripts, you'll annoy your callers. Let your sales force take care of that sort of thing.
-
-And finally, if your company has a slogan, think twice about including it in the script at all. Chances are your callers have heard it before if they're calling you. If you do include it, put it somewhere it brings the Auto Attendant experience to a close, like when transferring to an individual's desk line or voicemail. Never make up a slogan just to include it in a voicemail script.
-
-With all that in mind, when you have a solid structure that meets your needs and a script that guides customers efficiently, proceed to [Configure Cloud Auto Attendant](configure-cloud-auto-attendant.md). 
+When you have a solid structure that meets your needs and a script that guides customers efficiently, proceed to [Configure Cloud Auto Attendant](configure-cloud-auto-attendant.md).
 
 ## See Also
 
@@ -123,8 +82,8 @@ With all that in mind, when you have a solid structure that meets your needs and
 
 [Configure Cloud Voicemail service](configure-cloud-voicemail.md)
 
-[What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+[What are Phone System auto attendants?](/SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
-[Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+[Set up a Phone System auto attendant](/SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
 [Automatically answer and route incoming calls](https://docs.microsoft.com/en-us/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
