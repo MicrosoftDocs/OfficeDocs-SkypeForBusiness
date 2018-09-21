@@ -23,6 +23,8 @@ This tenant key will be the dial out to the partner service. In the following ex
 ![Tenant key example](media/tenant-key-example.png) 
 
 You will need to execute the following cmdlets to provision the tenant key, and also enable select users or your whole organization to create meetings with video interop coordinates.
+
+## Provisioning
  
 - **[Get-CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsvideointeropservicepolicy):** 
 Microsoft provides pre-constructed policies for each of our supported partners that allow you to designate which partner(s) to use for cloud video interop.
