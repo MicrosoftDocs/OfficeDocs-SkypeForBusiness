@@ -12,12 +12,12 @@ ms.assetid:
 description: "Read this topic to learn how to migrate Lync Room System devices to use the Skype Room System v2 software."
 ---
 
-# Migrate Lync Room System devices to Skype Room System v2 
+# Migrate Lync Room System (LRS) devices to Skype Room System v2 
 Lync Room System (LRS) devices with Skype Room System Version 1 (SRS v1) software are coming to end of support on October 9, 2018. This means Skype Room Systems software will not get any product updates or fixes after this date. Customers with Lync Room System devices with Skype Room System v1 software are advised to upgrade their devices to Skype Room System version 2 (SRS v2).
 
 Skype Room System Version 2 (SRS v2) software also enables Microsoft Teams in addition to Skype server and online services for meetings and calling on all SRS v2 supported devices.
 
-Your existing devices **may** continue to work after end of Skype Room System v1 software support until this software hits a software bug that needs Microsoft to release a fix or in case where an existing communication protocols as used by Skype Room System v1 software changes or no longer supported. One such known change is deprecation of TLS 1.0/ 1.1 in Office 365. You can learn more about [Preparing for TLS 1.0/1.1 Deprecation](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608).  
+Your existing devices **may** continue to work after end of Skype Room System v1 software support until this software hits a software bug that needs Microsoft to release a fix or in case where an existing communication protocols as used by Skype Room System v1 software changes or no longer supported. One such known change is deprecation of TLS 1.0/ 1.1 in Microsoft Office 365. You can learn more about [Preparing for TLS 1.0/1.1 Deprecation](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608).  
 
 ## Which devices are affected?
 Here is the list of the devices that are affected by this change:
@@ -30,7 +30,7 @@ Here is the list of the devices that are affected by this change:
 There are multiple options for upgrading Lync Room Systems to the next generation of Skype Room Systems (SRS v2).
 
 ### Crestron hardware Trade-in program
-Crestron will provide an upgrade to the [Crestron SR system](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) or equivalent for all Non-Crestron  “LRS” customers. <!-- See details of this program [here](https://www.crestron.com/lrsupgrade) or --> For details, [email](mailto:lrsupgrade@crestron.com) Crestron LRS support.  
+Crestron will provide an upgrade to the [Crestron SR system](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) or equivalent for all Non-Crestron Lync Room System customers. <!-- See details of this program [here](https://www.crestron.com/lrsupgrade) or --> For details, [email](mailto:lrsupgrade@crestron.com) Crestron LRS support.  
 
 
 ### Crestron RL2 to RL3
