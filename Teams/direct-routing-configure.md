@@ -5,10 +5,12 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
+ms.service:  
+- msteams
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: 
+ms.collection: Teams_ITAdmin_Help
 description: "Learn how to configure Microsoft Phone System Direct Routing."
 ---
 

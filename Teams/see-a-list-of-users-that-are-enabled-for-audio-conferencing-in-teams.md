@@ -9,7 +9,8 @@ ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
-ms.collection: 
+ms.collection:  
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
