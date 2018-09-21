@@ -83,6 +83,7 @@ For more details about coexistence modes, prerequisites, and management, see [Mi
 
 Interoperability is the ability for Teams and Skype for Business users in the same organization to communicate across Teams and Skype for Business.
 
+
 ### Native interop and interop escalation
 
 There are two types of interop experiences: native and interop escalation.
@@ -104,7 +105,27 @@ Depending on the coexistence modes assigned to users (as described above), the f
 
 These interop experiences are available to users who have the one of the following coexistence modes assigned: **Skype for Business with Teams collaboration**, **Skype for Business with Teams collaboration and meetings**, **Skype for Business only**, or **Teams only**.
 
+> [!Note]
+>For best experience the recommended minimum client versions for coexistence are:
 
+**Skype for Business client version in Microsoft Office 2013 MSI**
+15.0.4963.1001+
+ <br>
+**Skype for Business client version in Microsoft Office 2016 MSI**
+16.0.4588.1001+
+ <br>
+**Skype for Business client version in Microsoft Office 2016 C2R**
+16.0.8326.2062+
+ <br>
+**Skype for Business client for Mac**
+16.14.0.163
+ <br>
+**Skype for Business client for iOS**
+6.18.1
+ <br>
+**Skype for Business client for Android**
+6.17.2.2
+<br>
 ### Native interop experience limitations
 
 Some features aren’t available for the interop chat and interop calling experience between Teams and Skype for Business:
