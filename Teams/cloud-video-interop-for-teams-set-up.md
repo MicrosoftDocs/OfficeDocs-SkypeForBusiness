@@ -16,15 +16,41 @@ appliesto:
 
 # Set up Cloud Video Interop for Microsoft Teams
 
-After you have [chosen on your Cloud Video Interop partner(s)](cloud-video-interop.md), you will need to get set up with provisioning details, as well as a partner tenant key. 
+After you have [chosen on your Cloud Video Interop partner(s)](cloud-video-interop.md), you will need to plan your deployment, get set up with provisioning details and partner tenant key, and consent to the video interop app in your organization. The following diagram outlines the process. 
+
+![Deploying CVI in your organization](media/deploying-cvi.png)
+
+## Plan
+
+See [Cloud Video Interop for Microsoft Teams](cloud-video-interop.md) for information about identifying a partner or partners to use in your organization. 
+
+To plan for user based/concurrent/site wide enablement: 
+
+- Pick a deployment model/hosted model for your use
+- Select the license plan ideal for your organization. 
+- Plan for capacity of VMs is you are hosting your video infrastructure.
+
+## Configure 
+
+To configure Cloud Video Interop, follow these steps. 
+
+1. Obtain configuration info from the partner/partners you have chosen (tenant key, appIds…). You can use one or more video interop partners in your organization 
+
+2. Ensure that your network is configured correctly. Configure your standards-based video firewall for perimeter network traversal to support. For example: 
+    - Cisco VCS-e				   
+    - Polycom RPAD
+
+3. Configure integrated rooms with exchange and OTD. In most cases, additional relay would need to be set up and configured in your environment.
+
+
+## Provision
  
-This tenant key will be the dial out to the partner service. In the following example, 813878896@t.plcm.vc is the tenant key. 
+The tenant key will be the dial out to the partner service. In the following example, 813878896@t.plcm.vc is the tenant key. 
 
 ![Tenant key example](media/tenant-key-example.png) 
 
 You will need to execute the following cmdlets to provision the tenant key, and also enable select users or your whole organization to create meetings with video interop coordinates.
 
-## Provisioning
  
 - **[Get-CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/en-us/powershell/module/skype/get-csteamsvideointeropservicepolicy):** 
 Microsoft provides pre-constructed policies for each of our supported partners that allow you to designate which partner(s) to use for cloud video interop.
@@ -59,3 +85,24 @@ When these steps are complete, the users who are individually enabled via the Gr
 |Calls.JoinGroupCallasGuest.All|Join Group Calls and Meetings as a guest user (preview)|Allows the app to anonymously join group calls and scheduled meetings in your organization, without a signed-in user.  The app will be joined as a guest to meetings in your tenant.|
 |Calls.AccessMedia.All|Access media streams in a call as an app (preview)|Allows the app to get direct access to media streams in a call, without a signed-in user.|
 |OnlineMeetings.Read.All|Read Online Meeting details (preview)|Allows the app to read Online Meeting details in your organization, without a signed-in user.|
+
+## Schedule
+
+Next, schedule Teams meeting with video interop coordinates. The enabled user can schedule teams meetings via:
+- Outlook client add-in
+- Teams client desktop and mobile
+
+
+## Join
+
+You can join Teams meetings with your VTC devices in the following ways:
+ 
+- IVR (Interactive voice Response)
+    - You can dial in to the partner's IVR using the tenantkey@domain. 
+    - Once you are in the partner IVR, you will be prompted to enter the VTC conferenceId, which will then connect you to the Teams meeting.
+- Direct dial
+    - You can directly dial into the Teams meeting without interacting with the partner’s IVR by using the direct dial feature using the full string of tenantkey.VTC ConferenceId@domain.
+- One-touch dial
+    - If you have an integrated Teams room, you can use the one-touch dial capabilities offered by your partner (without needing to type any dial string).
+
+Finally, engaeg with Teams users in your meetings using audio, video, and content sharing. 
