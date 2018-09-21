@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: srividhc
-description: Cloud Video Interop for Microsfot Teams enables third-party video teleconferencing devices (VTCs) to be able to join Microsoft Teams meetings. 
+description: This article explains how you can plan and set up Cloud Video Interop for users in your organization. 
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
@@ -16,60 +16,7 @@ appliesto:
 
 # Set up Cloud Video Interop for Microsoft Teams
 
-Cloud Video Interop for Teams enables interoperability with third-party video teleconferencing devices (VTCs) when joining Microsoft Teams meetings. 
-
-Video teleconferencing with content collaboration helps you make the most out of meetings. However, meeting room systems and devices are expensive to upgrade. Cloud Video Interop for Microsoft Teams works with systems and delivers a native meeting experience for all participants – in meeting rooms or inside of Teams clients. 
-
-## Partners Certified for Microsoft Teams
-
-The following partners have video interop solutions for Microsoft Teams. Your company may choose to work with any combination of these partners within your enterprise. 
-
-
-|Partner|Partner solution|Availability|
-|----|---|----|
-|![Polycom RealConnect](media/polycom.png) |   [Polycom RealConnect for Office 365](https://aka.ms/PolycomRealConnect)|Available now|
-|![Pexip Infinity](media/pexip.png)| [Pexip Infinity for Microsoft Teams](https://aka.ms/PexipInfinity) | October 19, 2018|
-|![BlueJeans Gateway](media/bluejeans.png)|[BlueJeans Gateway for Microsoft Teams](https://aka.ms/BluejeansGateway) | October 31, 2018|
-
-
-Our partners have developed gateway solutions to connect third-party standards-based SIP and H.323 devices to Microsoft Teams meetings.  
- 
-**Certified and supported by Microsoft**
-
-- Only available via Certified Partner Solutions
-- Co-engineered with Microsoft
-- Customer TAP prior to certification
-
-**Enterprise Ready**
-
-- HD video (1080p) and Content (VBSS)
-- Support for H.323 and SIP meeting room devices
- -Native Teams/Exchange scheduling
- -Gateway design instead of VMR
-
-**Scales for the cloud**
-
-- Deployed and managed in Azure
-- Auto scale with cloud solutions
-
- 
-The following diagram describes the high-level architecture of a Teams partner solution.
-
-![Teams Cloud Video Interop partner solution](media/teams-cloud-video-interop-partner-solution.png)
-
-The scenario flow is as follows:
-
-![Teams Cloud Video Interop scenario flow](media/teams-cloud-video-interop-scenario-flow.png) 
-
-Use the following chart as a guide to get started with video interop in your organization:
-
-![Getting started with video interop](media/getting-started-with-cloud-video-interop.png)
-
-## Set up Cloud Video Interop for users in your organization
- 
-This section explains how you can plan and set up Cloud Video Interop.
- 
- After you have decided on your partner(s), you will need to get set up with provisioning details, as well as a partner tenant key. 
+After you have decided on your partner(s), you will need to get set up with provisioning details, as well as a partner tenant key. 
  
 This tenant key will be the dial out to the partner service. In the following example, 813878896@t.plcm.vc is the tenant key. 
 
@@ -97,11 +44,12 @@ Get all of the providers that have been configured for use within the organizati
 - **[Remove-CsVideoInteropServiceProvider](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csvideointeropserviceprovider):**
 Use Remove-CsVideoInteropServiceProvider to remove all provider information about a provider that your organization no longer uses.  
  
-You will need to provide permission consent for the VTCs to join your organizations meetings via the partner service. This consent link will also be provided by your partner.  
- 
-When these steps are complete, the users who are individually enabled via the Grant cmdlet abovem, or all of the users in the organization if the tenant is enabled, will have VTC coordinates in all the Teams meetings that they schedule. Any VTC can join these meetings via those coordinates.
-
 ## Consent
+
+You will need to provide permission consent for the video teleconferencing devices (VTCs) to join your organizations meetings via the partner service. This consent link will also be provided by your partner.  
+ 
+When these steps are complete, the users who are individually enabled via the Grant cmdlet above, or all of the users in the organization if the tenant is enabled, will have VTC coordinates in all the Teams meetings that they schedule. Any VTC can join these meetings via those coordinates.
+
 
 |Name|Application Permission Short Description| Description|
 |--|--|---|
