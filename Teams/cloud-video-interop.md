@@ -60,12 +60,37 @@ The following diagram describes the high-level architecture of a Teams partner s
 
 ![Teams Cloud Video Interop partner solution](media/teams-cloud-video-interop-partner-solution.png)
 
-The scenario flow is as follows:
+## Key business considerations
 
-![Teams Cloud Video Interop scenario flow](media/teams-cloud-video-interop-scenario-flow.png) 
+**Microsoft Teams alongside 3P video infrastructure**
 
-Use the following chart as a guide to get started with video interop in your organization:
+- Do you have a large deployment of 3P video devices?
+- Do you have a 3P call controller in your organization?
+- Do you plan on keeping your current call controller alongside Microsoft Teams?
+- Do you want to run your own video infra or hosted? 
+- Do you plan on deploying Teams Room Systems? When?
 
-![Getting started with video interop](media/getting-started-with-cloud-video-interop.png)
+**Pre-existing certified interop provider**
+
+- Do you want to continue with your current certified partner?
+- Do you need to continue support for integrated room environment (Exchange, One Touch Dial)?
+
+**Other requirements**
+
+- Do you need real-time monitoring, troubleshooting, and reporting capabilities?
+- Do you need to be available in sovereign or government clouds?
+- Do you have external companies joining your Teams meetings? 
+
+## Business workflow scenarios
+
+- **Skype for Business Server -> Microsoft Teams:** Your organization has third-party devices and moving from Skype for Business on-prem server to Microsoft Teams  
+- **Skype for Business online -> Microsoft Teams:** 
+Your organization is migrating to Microsoft Teams from Skype for Business Online.
+- **Cisco UC -> Microsoft Teams:** Your organization is moving from Cisco to Microsoft Teams, but not ready to replace your Cisco devices.
+- **Mixed Systems -> Microsoft Teams:** 
+Your organization has several systems in your environment side by side (Cisco, BroadSoft, SfB Server, SfBO).
+- **Another cloud meeting provider -> Microsoft Teams:** 
+Your organization has been a user for another cloud meeting provider migrating to Microsoft Teams.
+
 
 After choosing a partner or partners, you're ready to [Set up Cloud Video Interop for Microsoft Teams](cloud-video-interop-for-teams-set-up.md). 
