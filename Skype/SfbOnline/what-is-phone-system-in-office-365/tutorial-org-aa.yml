@@ -118,7 +118,7 @@ items:
     #### Do:
     1.	It's a good idea to have alternate initial greetings for calls taken outside business hours, or on holidays or weekends.
     2.	Put your most frequently used options as early as possible in the first set of menu options. If possible, reserve zero in the first menu for a 
-    transfer to a live Operator, but mention it last in the scripts. 
+    transfer to a live Operator, and mention it first in the scripts. 
     3.	Have the menu repeat at least once if nothing is selected, and if there still isn't a selection, transfer the call to a live Operator rather than having 
     the call disconnect. By default, Phone System will replay the menu three times, then if an Operator is configured the call will transfer to the Operator or 
     if no Operator is configured the system will hang up. Given that, it's important to configure an Operator for your Auto Attendant system.
@@ -175,7 +175,7 @@ items:
   content: |
     ### Writing better Auto Attendant scripts 
     Your auto-attendant script can make or break the impression left on your customers or callers. 
-    Plan it carefully, write it out, and consider having it professionally recorded.
+    Plan it carefully, write it out, and consider having it professionally recorded. The goal is to connect the caller to a live person as efficiently as possible.
     Think about some of these guidelines when writing the script dialog:
 
     #### Do:
@@ -220,7 +220,7 @@ items:
     Thanks for calling VanArsdel, Ltd.  We’re closed at this time, press zero and leave a message with our Operator. We’ll call you back when we return to the office. 
 
     #### Script 3: main menu
-    For Scheduling, press 1.
+    For scheduling, press 1.
     For billing questions, press 2.
     For hours and location, press 3.
     For more options, press 4.
