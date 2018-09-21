@@ -10,36 +10,36 @@ ms.service: skype-for-business
 ms.collection: Teams
 ms.audience: Admin
 appliesto:
-- Lync
-- Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Skype for Business Certification
 - dn947482
-description: "Planning for Optimal Skype for Business Experience over Wi-Fi provides the collective information to help you plan an optimal Skype for Business experience in a wireless world."
+description: "IP desk and conference phones certified for Microsoft Teams"
 ---
 
-# IP Phones
-Microsoft plans to test and certify IP phones for Skype for Business through the Skype for Business Certification Program. This reflects an evolution from the previous basic interop compatibility ("Compatible with Lync”) to a higher quality bar, including metrics targeting higher reliability. Phone vendors are actively working to meet this higher bar and will be qualifying against the new requirements starting the end of this calendar year. In addition, our partners are currently working to provide support for the Skype for Business Online service that will be released later this year.
+# IP Phones certified for Microsoft Teams
+The IP Phones certification program ensures that customers using certified desk phones and conference phones will experience high quality audio calls and meetings experience. 
 
-In the meantime, Skype for Business Server supports backwards compatibility with all of our Lync qualified IP phones, and devices which are supported for Skype for Business Online will be announced as soon as they are qualified.
-
-> [!NOTE]
-> All Skype for Business certified devices will work with Microsoft Teams, but they will not be given Teams certification until they meet new requirements. More information about Teams certification will be available in early 2019.
-
-Find details of our [qualified IP Phones](../lync-cert/ip-phones.md).
-
-[Browse IP phones certified for Skype for Business.](http://partnersolutions.skypeforbusiness.com/solutionscatalog/ip-phones)
+# Announcing Certified for Microsoft Teams 
+In addition to offering customers a range of Skype for Business certified IP phones, as part of the Teams IP phone certification program, we are announcing the availability of new IP phone hardware that will be certified for Microsoft Teams. This certification program ensures a higher quality bar with higher performance targets and audio quality metrics. Phone vendors are actively working to meet this higher bar and will be qualifying against the new requirements this calendar year. Some of our partners are also working to provide support for the Skype for Business service on the same hardware as the Teams IP phones. Benefits from the Teams certified IP phone include: 
+- Native Teams experience with hardware button integration and LED notifications
+- Calendar integration and one-touch meeting join
+- Deployed and managed via the Microsoft Device Management Solution with Intune integration
+# Features for end-users
+- The Teams certified IP phone will be an independent Teams client running natively on the IP phone and would bring the rich Teams user experience to a desk phone.
+- In addition to having the ability to make/receive calls, the touch screen phone user interface allows users to navigate to call history, voicemail and meeting screens.
+- Users can see the presence of contacts in their call history, other meeting participants etc.
+- Voicemail transcription is available in the voicemail tab.
+# Administrator Experience
+- The tenant administrator can deploy and manage Teams certified phones in their tenant via the Microsoft Device Management Portal.
+- The Teams certified IP phone is enrolled into Intune during the sign-in process.
+- Firmware and application updates are deployed and managed via the Microsoft Device Management solution.
 
 If you are a vendor seeking to join the certification program, see How to Join for requirements and available programs.
 
 ## Additional Resources
-Learn about [Skype for Business certification](infra-gateways.md).
+Learn about [Skype for Business and Microsoft Teams certification programs](https://docs.microsoft.com/en-us/SkypeForBusiness/certification/overview).
 
-For companies wishing to certify their Wi-Fi products, please contact Ixia, a third party vendor responsible for Skype for Business Wi-Fi certification: TestSkype@ixiacom.com
-
-To learn more in-depth about managing the network infrastructure for Lync Server 2010 and 2013, please download: [Network Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084).
-
-An Updated [Delivering Lync 2013 Real-Time Communications over Wi-Fi](https://www.microsoft.com/en-us/download/details.aspx?id=36494) is included in this version.
+[Browse IP phones certified for Skype for Business.](http://partnersolutions.skypeforbusiness.com/solutionscatalog/ip-phones)
