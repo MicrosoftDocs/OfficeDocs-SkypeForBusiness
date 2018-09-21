@@ -120,7 +120,7 @@ Watch this short video introducing you to Teams</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Switching from Skype for Business to Teams</h3>
+                        <h3>Switch to Teams from Skype for Business</h3>
                          <p>[Article: Switch to Teams from Skype for Business](https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</p>
                     </div>
                 </div>
@@ -133,7 +133,7 @@ Watch this short video introducing you to Teams</h3>
                     <div class="cardText">
                         <h3>Set up teams</h3>
                          <p>[Video: Get your team up and running](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
-                         <p>[Video: Go-to guide for team owners](https://www.youtube.com/embed/zp1_wGzq1ic)</p>
+                         <p>[Video: Go-to guide for team owners](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547)</p>
                          <p>[Video: Organize your teams list](https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542)</p>
                          <p>[Video: Guidance for setting up teams, channels, and tabs](https://www.youtube.com/watch?v=hjJWtoaRJeE)</p> 
                     </div>
