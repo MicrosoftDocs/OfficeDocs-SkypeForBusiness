@@ -101,7 +101,7 @@ ms.date: 08/24/2018
                             </a>
                         </li>
                         <li>
-                            <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment">
+                            <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -120,7 +120,7 @@ ms.date: 08/24/2018
                             </a>
                         </li>
                         <li>
-                            <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/security-compliance-overview">
+                            <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
