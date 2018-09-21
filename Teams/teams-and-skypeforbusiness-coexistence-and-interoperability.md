@@ -3,7 +3,7 @@ title: Understand coexistence and interoperability of Skype for Business and Mic
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
