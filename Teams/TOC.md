@@ -467,6 +467,7 @@
 #### [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set up Phone System voicemail](set-up-phone-system-voicemail.md)
 #### [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
+#### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 ### Phone System Direct Routing
 #### [Plan Direct Routing](direct-routing-plan.md)
 #### [Configure Direct Routing](direct-routing-configure.md)
