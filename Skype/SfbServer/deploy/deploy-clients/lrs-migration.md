@@ -30,15 +30,15 @@ Here is the list of the devices that are affected by this change:
 There are multiple options for upgrading Lync Room Systems to the next generation of Skype Room Systems (SRS v2).
 
 ### Crestron hardware Trade-in program
-Crestron will provide an upgrade to the [Crestron SR system](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) or equivalent for all Non-Crestron Lync Room System customers. <!-- See details of this program [here](https://www.crestron.com/lrsupgrade) or --> For details, [email](mailto:lrsupgrade@crestron.com) Crestron LRS support.  
+Crestron will provide an upgrade to the [Crestron SR system](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) or equivalent for all Non-Crestron Lync Room System customers. See details of this program [here](https://support.crestron.com/app/answers/answer_view/a_id/1000220) or <!-- For details, -->[email](mailto:lrsupgrade@crestron.com) Crestron LRS support.  
 
 
 ### Crestron RL2 to RL3
-Existing Crestron RL2 (also referred to as Crestron RL200) customers can acquire an upgrade package to upgrade current RL2 to RL3 using a for a minimal cost per device. <!-- See details of this program [here](https://www.crestron.com/lrsupgrade) or --> For details, [email](mailto:lrsupgrade@crestron.com) Crestron LRS support.
+Existing Crestron RL2 (also referred to as Crestron RL200) customers can acquire an upgrade package to upgrade current RL2 to RL3 using a for a minimal cost per device. See details of this program [here](https://support.crestron.com/app/answers/answer_view/a_id/1000220) or <!-- For details, -->[email](mailto:lrsupgrade@crestron.com) Crestron LRS support.  
 
 
 ### SMART Room Systems upgrade & DIY program
-For SMART LRS customers, Microsoft and SMART are working on providing a solution to upgrade to Skype Room System v2. Microsoft is also testing a DIY solution for SMART LRS customers. More details of these programs will be provided on this page in early October 2018. Please make sure to check back for updates on these upgrade options.
+For SMART LRS customers, apart from Crestron hardware trade-in program, Microsoft and SMART are also working on providing a solution to upgrade to Skype Room System v2. Microsoft is also testing a DIY solution for SMART LRS customers. More details of these programs will be provided on this page in early October 2018. Please make sure to check back for updates on these upgrade options.
 
 <!--  
 For later 
@@ -62,8 +62,8 @@ This table lists summary of all available options for existing LRS devices:
 | | | | | |
 -->
 
-
-We recommend you plan to update Lync Room System devices to Skype Room Systems v2 before TLS 1.0/1.1 deprecation. Additionally, you may also consider replacing existing devices with new devices certified for SRS v2. See details in [Skype Room Systems v2 requirements](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
+## What should you do?
+We recommend you plan to update Lync Room System devices to Skype Room Systems v2 before TLS 1.0/1.1 deprecation using upgrade options mentioned above. Additionally, you may also consider replacing existing devices with new devices certified for SRS v2. See details in [Skype Room Systems v2 requirements](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
 
 > [!NOTE]
 > Touch and whiteboard functionality is not yet supported in Skype Room System v2. Touch and whiteboard support is in the backlog for Skype Room System v2 and will be added in H1 CY2019.

@@ -3,7 +3,7 @@ title: Understand coexistence and interoperability of Skype for Business and Mic
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -82,6 +82,7 @@ For more details about coexistence modes, prerequisites, and management, see [Mi
 ## Interoperability of Teams and Skype for Business
 
 Interoperability is the ability for Teams and Skype for Business users in the same organization to communicate across Teams and Skype for Business.
+
 
 ### Native interop and interop escalation
 
