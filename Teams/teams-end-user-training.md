@@ -37,7 +37,7 @@ Watch this short video introducing you to Teams</h3>
         </a>
     </li>
   <li>
-        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
+        <a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -47,7 +47,7 @@ Watch this short video introducing you to Teams</h3>
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Use this quick start to get up and running quickly on Teams</h3>
+                    <h3>Follow this quick start to get up and running quickly on Teams</h3>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ Watch this short video introducing you to Teams</h3>
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get help and how-to documention in the Teams help center</h3>
+                        <h3>Get help and how-to documentation in the Teams help center</h3>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@ Watch this short video introducing you to Teams</h3>
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>View Teams training videos</h3>
+                        <h3>Watch Teams training videos</h3>
                     </div>
                 </div>
             </div>
