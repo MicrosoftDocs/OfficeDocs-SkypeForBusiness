@@ -53,9 +53,11 @@ For more information, see [Skype for Business and Microsoft Teams add-on licensi
 
 1. Sign in to Office 365 with your work or school account.
     
-2. In the left navigation of the Office 365 admin center, go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**, and then choose **Communications Credits** > **Buy now**.
+2. In the left navigation of the Office 365 admin center, go to **Billing** > **Subscriptions** > **Add subscriptions**.
+
+3. Expand **Add-on subscriptions**, and then choose **Communications Credits** > **Buy now**.
     
-3. On the **Communications Credits** subscription page, fill in your information, and then click **Next**:
+4. On the **Communications Credits** subscription page, fill in your information, and then click **Next**:
     
   - **Add funds** Enter the amount that you want to add to your account. If you don't enable auto-recharge, once these funds are depleted, calling capabilities that are enabled using Communications Credits will be disrupted (such as inbound toll-free service). To avoid having to manually replenish your Communications Credits balance each time your balance reaches 0 (zero), we recommend you enable the auto-recharge feature.
     
@@ -70,7 +72,7 @@ For more information, see [Skype for Business and Microsoft Teams add-on licensi
       > [!NOTE]
     > Funds will be applied only to Communications Credits at Microsoft published rates when the services are used. Any funds not used within 12 months of the purchase date will expire and be forfeited. 
     
-4. Enter your payment information and click **Place order**.
+5. Enter your payment information and click **Place order**.
     >[!IMPORTANT]
     >If you are a volume licensing customer, you may choose your enterprise agreement number for payment. If you have multiple enterprise agreement numbers, you will be able to select which enterprise agreement you would like to use for payment. You will also be given an opportunity to specify a purchase order number to associate with the enterprise agreement number (if applicable).
     
