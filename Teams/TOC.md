@@ -78,6 +78,7 @@
 <!-- ============================================================ -->
 # [Upgrade from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
 ## [Upgrade Basic](upgrade-basic.md)
 ### [Sample emails and surveys](upgrade-emails-surveys.md)
 ## [Upgrade Pro](upgrade-pro.md)
