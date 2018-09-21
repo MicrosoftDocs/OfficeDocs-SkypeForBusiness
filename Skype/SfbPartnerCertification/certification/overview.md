@@ -1,9 +1,9 @@
 ---
-title: "Skype for Business certification program"
+title: "Skype for Business and Teams certification program"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business

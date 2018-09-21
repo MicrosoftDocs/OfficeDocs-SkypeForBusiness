@@ -1,5 +1,5 @@
 ---
-title: "Phones and Devices for Skype for Business"
+title: "Phones and Devices for Teams"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -7,7 +7,7 @@ ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
-ms.collection: Lync
+ms.collection: Teams
 ms.audience: Admin
 appliesto:
 - Lync
