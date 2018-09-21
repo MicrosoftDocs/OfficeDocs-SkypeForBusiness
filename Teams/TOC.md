@@ -467,6 +467,7 @@
 #### [Languages for voicemail greetings and messages](languages-for-voicemail-greetings-and-messages.md)
 #### [Set the Caller ID for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Implementation example - Auto Attendants](/SkypeForBusiness/what-is-phone-system-in-office-365/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set up Phone System voicemail](set-up-phone-system-voicemail.md)
 #### [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
