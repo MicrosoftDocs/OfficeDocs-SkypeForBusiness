@@ -71,7 +71,7 @@ Tier 1 helpdesk agents handle basic call-quality problems. Tier 1 agents don't i
     
 4. Add the Office 365 security groups to the **Tier 1** and **Tier 2** boxes. You can add multiple groups to each role.
     
-     ![Screenshot shows the Permissions for Call Analytics page with the options for Tier 1 and Tier 2 permissions.](media/setup-call-analytics-image1].png)
+     ![Screenshot shows the Permissions for Call Analytics page with the options for Tier 1 and Tier 2 permissions.](media/setup-call-analytics-image1.png)
   
  Users with either of these permission levels get to Call Analytics via the dedicated URL *https://adminportal.services.skypeforbusiness.com*.
   
