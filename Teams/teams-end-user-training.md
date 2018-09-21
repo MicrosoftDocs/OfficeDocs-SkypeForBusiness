@@ -121,7 +121,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Switching from Skype for Business to Teams</h3>
-                         <p>[Article: Switch to Teams from Skype for Business](https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964?ui=en-US&rs=en-US&ad=USl)</p>
+                         <p>[Article: Switch to Teams from Skype for Business](https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</p>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@ Watch this short video introducing you to Teams</h3>
                         <h3>Posts & messages</h3>
                          <p>[Video: Create and format a post](https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885)</p>
                          <p>[Video: Get attention with @mentions](https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b)</p>
-                         <p>[Video: Save a post or a message](company-wide-team-creation-powershell.yml)</a></p>
+                         <p>[Video: Save a post or a message](https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)</a></p>
                     </div>
                 </div>
             </div>
@@ -191,7 +191,7 @@ Watch this short video introducing you to Teams</h3>
                         <p>[Video: Add tools with tabs](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
                          <p>[Video: Turn a file into a tab](https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05)</p>
                         <p>[Video: Use the command box](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b)</p>
-                        <p>[Video: Command bar overview](https://www.youtube.com/embed/wYrRCRphrp0)</p>
+                        <p>[Video: Command bar overview](https://www.youtube.com/watch?v=wYrRCRphrp0)</p>
                     </div>
                 </div>
             </div>

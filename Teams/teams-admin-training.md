@@ -134,7 +134,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Architecture</h3><p>[Video: Core components of Teams](https://www.youtube.com/embed/xJBvJTDiQqg)</p>
+                        <h3>Architecture</h3><p>[Video: Foundations - Core components of Teams](https://www.youtube.com/watch?v=xJBvJTDiQqg)</p>
                     </div>
                 </div>
             </div>
@@ -146,7 +146,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                     <div class="cardText">
                         <h3>Plan & deploy</h3>
                          <p>[Quick start: Teams planning guide](quick-start-enable-teams.md)</p>
-                         <p>[Video: Teams Windows desktop application](https://www.youtube.com/embed/zp1_wGzq1ic)</p>
+                         <p>[Video: Teams Windows desktop client](https://www.youtube.com/watch?v=zp1_wGzq1ic)</p>
                     </div>
                 </div>
             </div>
@@ -219,9 +219,9 @@ Use these tutorials, videos and other training resources to learn about Teams an
                     <div class="cardText">
                         <h3>Audio Conferencing</h3>
                          <p>[Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)</p>
-                         <p>[Video: Introduction to Audio Conferencing](https://www.youtube.com/embed/AGPvaW4Vg0o)</p>
-                         <p>[Video: Plan for Audio Conferencing](https://www.youtube.com/embed/AWbuvcWcYIc)</p>
-                         <p>[Video: Number porting for Audio Conferencing](https://www.youtube.com/embed/5k0C21KAsns)</p>
+                         <p>[Video: Introduction to Audio Conferencing](https://www.youtube.com/watch?v=AGPvaW4Vg0o)</p>
+                         <p>[Video: Plan for Audio Conferencing](https://www.youtube.com/watch?v=AWbuvcWcYIc)</p>
+                         <p>[Video: Number porting for Audio Conferencing](https://www.youtube.com/watch?v=5k0C21KAsns)</p>
                     </div>
                 </div>
             </div>
@@ -244,7 +244,7 @@ Use these tutorials, videos and other training resources to learn about Teams an
                 <div class="card">
                     <div class="cardText">
                         <h3>Direct Routing</h3>
-                        <p>[Video: Direct Routing for Teams - Preview](https://www.youtube.com/embed/dVkc5Bs926Q)</p>
+                        <p>[Video: Direct Routing for Teams - Preview](https://www.youtube.com/watch?v=dVkc5Bs926Q)</p>
                     </div>
                 </div>
             </div>
