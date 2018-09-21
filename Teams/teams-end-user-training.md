@@ -24,11 +24,11 @@ Use these training resources to help users in your organization get the most out
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>What is Teams?
+                        <h3>Welcome to Teams!<br>
 Watch this short video introducing you to Teams</h3>
                     </div>
                 </div>
@@ -43,11 +43,11 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="flag" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="get started" />
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Quick start guide to get up and running quickly on Teams</h3>
+                    <h3>Use this quick start to get up and running quickly on Teams</h3>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -82,7 +82,7 @@ Watch this short video introducing you to Teams</h3>
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>View the Teams video training</h3>
+                        <h3>View Teams training videos</h3>
                     </div>
                 </div>
             </div>
@@ -131,20 +131,11 @@ Watch this short video introducing you to Teams</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Teams tips & tricks</h3><p>[Article: Teams tips & tricks](https://support.office.com/office-training-center/Teams-tips)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Set up a team</h3>
+                        <h3>Set up teams</h3>
                          <p>[Video: Get your team up and running](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
                          <p>[Video: Go-to guide for team owners](https://www.youtube.com/embed/zp1_wGzq1ic)</p>
                          <p>[Video: Organize your teams list](https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542)</p>
+                         <p>[Video: Guidance for setting up teams, channels, and tabs](https://www.youtube.com/watch?v=hjJWtoaRJeE)</p> 
                     </div>
                 </div>
             </div>
@@ -158,7 +149,7 @@ Watch this short video introducing you to Teams</h3>
                          <p>[Video: Overview of teams and channels](https://support.office.com/article/video-overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46)</p>
                          <p>[Video: Favorite and follow channels](https://support.office.com/article/favorite-and-follow-channels-3f76dffd-78a8-49ca-b8de-28671cb444ba)</p>
                          <p>[Video: Work in channels](https://support.office.com/article/video-work-in-channels-99d33aaa-0743-47c6-a476-eb0a24abcb7e)</p>
-                         <p>[Video: Tip-Send email to a channel](https://support.office.com/article/tip-send-email-to-a-channel-2c17dbae-acdf-4209-a761-b463bdaaa4ca)</p>
+                         <p>[Video: Tip - Send email to a channel](https://support.office.com/article/tip-send-email-to-a-channel-2c17dbae-acdf-4209-a761-b463bdaaa4ca)</p>
                     </div>
                 </div>
             </div>
@@ -200,6 +191,7 @@ Watch this short video introducing you to Teams</h3>
                         <p>[Video: Add tools with tabs](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
                          <p>[Video: Turn a file into a tab](https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05)</p>
                         <p>[Video: Use the command box](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b)</p>
+                        <p>[Video: Command bar overview](https://www.youtube.com/embed/wYrRCRphrp0)</p>
                     </div>
                 </div>
             </div>
@@ -213,6 +205,17 @@ Watch this short video introducing you to Teams</h3>
                         <h3>Activity feed</h3>
                          <p>[Video: Filter your activity feed](https://support.office.com/article/filter-your-activity-feed-02b9ece4-6086-4daa-b4c0-627beeacbf08)</p>
                          <p>[Video: Manage notification settings](https://support.office.com/article/manage-notification-settings-348672f7-9ed0-4b96-86ed-d6fdcecb4096)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Teams tips & tricks</h3>
+                        <p>[Article: Teams tips & tricks](https://support.office.com/office-training-center/Teams-tips)</p>
                     </div>
                 </div>
             </div>
