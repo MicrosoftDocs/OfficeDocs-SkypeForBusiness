@@ -174,7 +174,7 @@ Watch this short video introducing you to Teams</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Chats, calls, & meetings</h3>
+                        <h3>Chats, calls & meetings</h3>
                        <p>[Video: Start chats and make calls](https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5)</p>
                        <p>[Video: Create instant meetings with Meet now](https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf)</p>
                        <p>[Video: Manage meetings](https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137)</p>
