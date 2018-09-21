@@ -24,16 +24,6 @@ Configuring TeamsInteropPolicy is no longer required. It is not honored unless T
 
 </br>
 
-## In this article
-
-- [Fundamental concepts](#fundamental-concepts)
-- [Coexistence modes](#coexistence-modes)
-- [TeamsUpgradePolicy: managing migration and co-existence](#teamsupgradepolicy-managing-migration-and-co-existence)
-- [TeamsInteropPolicy to be retired](#teamsinteroppolicy-to-be-retired)
-- [Completing the transition to mode management](#completing-the-transition-to-mode-management)
-- [Action required for organizations that have already used TeamsInteropPolicy](#action-required-for-organizations-that-have-already-used-teamsinteroppolicy)	
-- [Detailed mode descriptions](#detailed-mode-descriptions)	
-
 
 ## Fundamental concepts
 
