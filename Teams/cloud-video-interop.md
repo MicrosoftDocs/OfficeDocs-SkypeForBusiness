@@ -64,3 +64,5 @@ The scenario flow is as follows:
 Use the following chart as a guide to get started with video interop in your organization:
 
 ![Getting started with video interop](media/getting-started-with-cloud-video-interop.png)
+
+After choosing a partner or partners, you're ready to [Set up Cloud Video Interop for Microsoft Teams](cloud-video-interop-for-teams-set-up.md). 

@@ -16,7 +16,7 @@ appliesto:
 
 # Set up Cloud Video Interop for Microsoft Teams
 
-After you have decided on your partner(s), you will need to get set up with provisioning details, as well as a partner tenant key. 
+After you have [chosen on your Cloud Video Interop partner(s)](cloud-video-interop.md), you will need to get set up with provisioning details, as well as a partner tenant key. 
  
 This tenant key will be the dial out to the partner service. In the following example, 813878896@t.plcm.vc is the tenant key. 
 
