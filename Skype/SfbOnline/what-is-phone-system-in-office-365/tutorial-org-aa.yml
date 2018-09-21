@@ -115,7 +115,7 @@ items:
     ##	General guidelines
     Before we look at our specific example, let’s look briefly at some more general design guidelines and basics.  
 
-    ### Do:
+    #### Do:
     1.	It's a good idea to have alternate initial greetings for calls taken outside business hours, or on holidays or weekends.
     2.	Put your most frequently used options as early as possible in the first set of menu options. If possible, reserve zero in the first menu for a 
     transfer to a live Operator, but mention it last in the scripts. 
@@ -127,7 +127,7 @@ items:
     5.	Take a few extra minutes to flow chart the options you want to create, and make sure you aren't creating opportunities for users to go around in 
     circles in the option menus. It should ideally be possible to get connected to a person or their voicemail in three menus or less.
     
-    ### Don't:
+    #### Don't:
     1.	Create a nested Auto Attendant with more than 5 choices. If you do, you'll likely confuse your callers and force them to repeat the menu.
     2.	Use reserved menu option numbers or keys as menu options.
 
@@ -178,7 +178,7 @@ items:
     Plan it carefully, write it out, and consider having it professionally recorded.
     Think about some of these guidelines when writing the script dialog:
 
-    Do:
+    #### Do:
     1.	Greet and thank the caller for contacting you. Keep this short, no more than three sentences and under 30 seconds. If your web site offers self-service 
     options, mention it but otherwise present choices and options as soon as possible without being abrupt. 
     2.	Use multilingual prompts, but put the secondary language or languages at the end of the first set of options.
@@ -190,7 +190,7 @@ items:
     5.	Mention significant changes to your option structure when that happens, but don't leave that part of the greeting active for more than a month. If you 
     have frequent updates and expect that to be the case most of the time, just omit it from the script.
     
-    Don't:
+    #### Don't:
     1.	Clutter the initial greeting with hours of operation or your business address. Make those available as a choice in the first menu if it's frequently 
     requested information, but keep the initial greeting short and sweet.
     2.	Say please or use other pleasantries over and over. Just get the callers to the option or person they need as efficiently as possible.
@@ -385,7 +385,7 @@ items:
 
     ### Editing and testing auto attendants
 
-    After you have saved your auto attendant, it will be listed on the **Auto attendants** page of the Admin center. 
+    After you have saved your auto attendant, it will be listed on the **Auto Attendants** page of the Admin center. 
     This will allow you to quickly see some of the options that you have set up, including the name, phone number, language, and status.
     
     The best way to test the implementation is to call the number configured for an Auto Attendant and choose options to navigate to each of the auto 
