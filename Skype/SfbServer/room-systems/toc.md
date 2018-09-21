@@ -7,6 +7,7 @@
 ### [Requirements](../plan-your-deployment/clients-and-devices/requirements.md)
 ### [Online Licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 ### [Plan management with OMS](../plan-your-deployment/clients-and-devices/oms-management.md)
+
 ## Deploy
 ### [Deployment overview](../deploy/deploy-clients/room-systems-v2.md)
 ### [Configure accounts](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
@@ -17,6 +18,7 @@
 ### [Configure a console](../deploy/deploy-clients/console.md)
 ### [By using System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
 ### [Management with OMS](../deploy/deploy-clients/with-oms.md)
+
 ## Manage
 ### [Management overview](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 ### [Maintenance and operations](../manage/skype-room-systems-v2/room-systems-v2-operations.md)
@@ -24,7 +26,7 @@
 ### [Devices with OMS](../manage/skype-room-systems-v2/oms.md)
 ### [Settings with an XML file](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [Use the recovery tool](../manage/skype-room-systems-v2/recovery-tool.md)
-# Skype Room Systems (v1)
+# Lync Room System (SRS v1)
 ## Plan
 ### [Deploy Skype Room System in Skype for Business Server](../deploy/deploy-clients/deploy-skype-room-system.md)
 ## Deploy
@@ -43,3 +45,4 @@
 ### [Skype Room System room setup scripts](../deploy/deploy-clients/room-setup-scripts.md)
 ## Manage
 ### [Manage Skype Room System accounts](../deploy/deploy-clients/manage-skype-room-system-accounts.md)
+## [Migrate](../deploy/deploy-clients/lrs-migration.md)
