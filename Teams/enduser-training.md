@@ -3,13 +3,13 @@ title: End user training for Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-layout: landingpage
+layout: LandingPage
 ms.date: 09/21/2018
 ms.topic: landing-page
 ms.service: msteams
 search.appverid: MET150
 description: Training videos, tutorials, and other resources for users in your organization to learn and use Teams.
-ms.topic: landing page
+ms.topic: landing-page
 appliesto: 
 - Microsoft Teams
 ---
