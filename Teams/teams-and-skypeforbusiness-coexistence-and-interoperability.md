@@ -43,7 +43,7 @@ By default, users can run Teams alongside Skype for Business as two separate sol
 In this coexistence mode, called **Islands**, each of the client applications operates as a separate island. Skype for Business talks to Skype for Business, and Teams talks to Teams. Users run both clients and can communicate natively in the client from which the communication was initiated. As such, there’s no need for interoperability in **Islands** mode.
 
 > [!Tip]
-> When the upcoming modes **Teams Only** and **Skype for Business with Teams collaboration** are available, the default mode for new online users should be **Skype for Business with Teams collaboration**, until your organization is ready to move to "Teams Only".   Existing users in**Islands** mode should move directly to **Teams Only** mode as soon as your organization is ready. 
+> When the upcoming modes **Teams Only** and **Skype for Business with Teams collaboration** modes are available, the default mode for new online users should be **Skype for Business with Teams collaboration**, until your organization is ready to move to **Teams Only**.   Existing users in **Islands** mode should move directly to **Teams Only** mode as soon as your organization is ready. 
 
 ### Skype for Business only
 
@@ -105,27 +105,7 @@ Depending on the coexistence modes assigned to users (as described above), the f
 
 These interop experiences are available to users who have the one of the following coexistence modes assigned: **Skype for Business with Teams collaboration**, **Skype for Business with Teams collaboration and meetings**, **Skype for Business only**, or **Teams only**.
 
-> [!Note]
->For best experience the recommended minimum client versions for coexistence are:
 
-**Skype for Business client version in Microsoft Office 2013 MSI**
-15.0.4963.1001+
- <br>
-**Skype for Business client version in Microsoft Office 2016 MSI**
-16.0.4588.1001+
- <br>
-**Skype for Business client version in Microsoft Office 2016 C2R**
-16.0.8326.2062+
- <br>
-**Skype for Business client for Mac**
-16.14.0.163
- <br>
-**Skype for Business client for iOS**
-6.18.1
- <br>
-**Skype for Business client for Android**
-6.17.2.2
-<br>
 ### Native interop experience limitations
 
 Some features aren’t available for the interop chat and interop calling experience between Teams and Skype for Business:
