@@ -177,7 +177,7 @@
 ### [Accessibility solutions for Skype for Business Online in France](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## Teams & channels
 ### [Overview of teams and channels in Teams](teams-channels-overview.md)
-### [Assign roles and permissions in Teams](assign-roles-permissions.md)
+### [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ### [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ### [Tutorial: Create a company-wide team using PowerShell](company-wide-team-creation-powershell.yml)
 ## [Guest access](guest-access.md)

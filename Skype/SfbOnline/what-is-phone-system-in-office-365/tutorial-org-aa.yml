@@ -185,6 +185,13 @@ items:
     much simpler system with fewer options. If that simplicity is important, you can plan to enable the **Dial by Name** option and remove one or more 
     of the nested Auto Attendants that mention specific employees by name.
 
+    This slightly simpler example shows the use of Call Queues and slightly longer menus:
+
+    ![Diagram of Lawyer office AA](../images/AA-LawyerOffice-CallQueues.png)
+
+    In this example, we can assume we've enabled the **Dial by Name** option and it's expected that callers either know the name of the person or they're okay with 
+    talking to anyone in that job category. Since this is an optional variation, the later stages will assume we're implementing the first diagram. 
+
 - title: Writing the scripts 
   durationInMinutes: 3
   content: |
