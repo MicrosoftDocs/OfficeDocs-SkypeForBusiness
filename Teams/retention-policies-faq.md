@@ -15,8 +15,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-
-## Microsoft Teams retention policies FAQ
+# Microsoft Teams retention policies FAQ
 
 ### What types of policies can I set up in retention policies and how do they work?
 
