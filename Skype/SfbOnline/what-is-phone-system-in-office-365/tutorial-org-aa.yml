@@ -10,33 +10,48 @@ metadata:
   manager: serdars
   ms.date: 09/18/2018
   ms.reviewer: lolaj
-  ms.service: skype-for-business-online
+  ms.service: 
+  - skype-for-business-online
+  - msteams
+  appliesto:
+  - Skype for Business 
+  - Microsoft Teams
   ms.topic: tutorial
   localization_priority: Normal
   search.appverid: MET150
-  ms.collection: Adm_Skype4B_Online
+  ms.collection: 
+  - Adm_Skype4B_Online
+  - Teams_ITadmin_Training
   ms.custom:
   - NewAdminCenter_Update
 items:
 - durationInMinutes: 2
   content: |
     
-    [Microsoft Teams](/MicrosoftTeams/Teams-overview.md) brings together the full breadth and depth of Office 365, to provide a true chat-based hub for 
-    teamwork and give customers the opportunity to create a more open, fluid, and digital environment.  [Skype for Business](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) is a digital hub that 
-    brings conversations, meetings, files, and apps together in one place.
+    [Microsoft Teams](/MicrosoftTeams/Teams-overview.md) and [Skype for Business](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
+    are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place.    
+    [**Phone System**](/MicrosoftTeams/what-is-phone-system-in-office-365) is the Microsoft technology for enabling call control and PBX capabilities in the Office 365 
+    cloud for use with Skype for Business Online and Microsoft Teams. 
 
-    Auto attendants let people that call your business navigate a menu system to get them to the right department, call queue, person, or the Operator. 
-    Auto Attendants can be used with either Teams or Skype for Business. You can create an Auto Attendant for your organization by using the Skype for Business admin center.
+    Phone System allows you to replace your existing PBX system with a [set of features](/MicrosoftTeams/here-s-what-you-get-with-phone-system) that include voicemail and  
+    [Auto attendants](/microsoftteams/what-are-phone-system-auto-attendants), which 
+    let people who call your business navigate a menu system to get them to the right department, person, or the Operator. 
+    Auto Attendants can be used with either Teams or Skype for Business. You create an Auto Attendant system for your organization using the Skype for Business admin center.
     
-    Perhaps you’re employed at a small business (or an outsider on a contract) and you’ve been asked to implement an Auto Attendant for a small business, which 
-    you may never have done start to finish. If you are asked to set up an Auto Attendant, this article will guide you through setting this up in 
-    Teams or Skype For Busines for a typical small business. It's not a one-size-fits-all solution, but it is a good starting point. 
+    If you are asked to set up an Auto Attendant, this article will guide you through planning and implementing Auto Attendants for a hypothetical small business. 
+    It's not a one-size-fits-all solution, but it is a good starting point. 
   
     ## Before you begin
 
-    We assume you've already done the tasks in [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system.md) to provide 
-    phone numbers and voicemail to all users. You should also review [What are Phone System auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants.md) to get a 
+    We assume you've already done the following: 
+    - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system.md) with a [Calling Plan](/MicrosoftTeams/what-are-calling-plans-in-office-365) 
+    to provide phone numbers to your users.
+    - [Set up Phone System voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) 
+    - Reviewed [What are Phone System auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants.md) to get a 
     better understanding of the Phone System features that can interact with an Auto Attendant.
+
+    Also, you'll be pleased to discover that most of the planning and design portion can be done using a white board or index cards, having a good plan 
+    isn't technically demanding.
 
 - title: Assess business needs
   durationInMinutes: 4
@@ -169,6 +184,13 @@ items:
     - Eventually, every employee gets matched with an Auto Attendant option in this design. This might not be what you choose to do, you may want a 
     much simpler system with fewer options. If that simplicity is important, you can plan to enable the **Dial by Name** option and remove one or more 
     of the nested Auto Attendants that mention specific employees by name.
+
+    This slightly simpler example shows the use of Call Queues and slightly longer menus:
+
+    ![Diagram of Lawyer office AA](../images/AA-LawyerOffice-CallQueues.png)
+
+    In this example, we can assume we've enabled the **Dial by Name** option and it's expected that callers either know the name of the person or they're okay with 
+    talking to anyone in that job category. Since this is an optional variation, the later stages will assume we're implementing the first diagram. 
 
 - title: Writing the scripts 
   durationInMinutes: 3
@@ -343,7 +365,8 @@ items:
     |Company greeting	|None  |
     |What happens to the calls after the greeting?|	Play menu options prompt, menu prompt: Create a custom prompt<br/>Callers will hear: Script 4 above |
     |Edit Menu options	|**1:** Enter the Name of the option: Jakob  <br/>Send to: Person in your company: Jakob Roth <br/>**2:** Enter the Name of the option: Laura<br/>Send to: Person in your company: **Laura Heinrich** |
-    |  |   |
+    |  | *This Auto Attendant could be replaced with a Call Queue*  |
+    | |  |
 
     |Nested Auto Attendant: Hours&Location (nested under Business Hours) | |
     |:---  |:---  |
@@ -363,6 +386,7 @@ items:
     |:---  |:---  |
     |Company greeting	| None  |
     |What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> <br/>Callers will hear: Script 7 above <br/>Edit Menu options |	**1:** Enter the Name of the option: Olga <br/>Send to: Person in your company: Olga Gerasimova <br/>**2:** Enter the Name of the option: Manuela <br/>Send to: Person in your company: Manuela Carstens <br/>**3:** Enter the Name of the option: Andrey <br/>Send to: Person in your company: Andrey Alexeeva |
+    |  | *This Auto Attendant could be replaced with a Call Queue*  |
     |  |   |
 
     |Nested Auto Attendant: Paralegals (nested under More Options) |  |
@@ -370,6 +394,7 @@ items:
     |Company greeting	| None |
     |What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Script 8 above
     |Edit Menu options	|**1:** Enter the Name of the option: Lena <br/> Send to: Person in your company: Lena Ehrle <br/>**2:** Enter the Name of the option: Svetlana <br/>Send to: Person in your company: Svetlana Uvarova <br/>**3:** Enter the Name of the option: Sofia <br/>Send to: Person in your company: Sofia Krause <br/>**4:** Enter the Name of the option: Mariya<br/>Send to: Person in your company: Mariya Artemyeva <br/>**5:** Enter the Name of the option: Dariya <br/>Send to: Person in your company: Dariya Polyakova <br/>**6:** Enter the Name of the option: Milana<br/>Send to: Person in your company: Milana Nikolaeva |
+    |  | *This Auto Attendant could be replaced with a Call Queue*  |
     |  |   |
 
 
@@ -380,7 +405,7 @@ items:
     |Edit Menu options	|**1:** Enter the Name of the option: Investigator<br/> Send to: Person in your company: Boris Averyanov <br/>**2:** Enter the Name of the option: Records<br/> Send to: Person in your company: Franco Piccio |
     |  |   |
 
-    See the step-by-step implementation details for Phone System Auto Attendants at [Creating an Auto Attendant](set-up-a-phone-system-auto-attendant.md). 
+    See the step-by-step implementation details for Phone System Auto Attendants at [Creating an Auto Attendant](set-up-a-phone-system-auto-attendant.md) for more detail on the options available in these screens. 
 
 
     ### Editing and testing auto attendants
