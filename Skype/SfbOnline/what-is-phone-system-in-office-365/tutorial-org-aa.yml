@@ -314,7 +314,9 @@ items:
 
     ![New auto attendant page 1.](../images/edacec94-9384-4a87-be0a-5c49a151287e.png)
 
-    |  Edit general info    |       |
+    **Edit general info**
+
+    |   Option   | Setting      |
     |:---  |:---   |
     | ![Number 1](../images/sfbcallout1.png) Name  |   VanArsdel, Ltd.   | 	
     | ![Number 2](../images/sfbcallout2.png) Phone Number	|555-0170  |
@@ -329,7 +331,9 @@ items:
 
     ![New auto attendant Hours of operation.](../images/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
-    | Select hours of operation	| |
+    **Select hours of operation**
+
+    |   Option   | Setting      |
     |:--- | :--- |
     | ![Number 1](../images/sfbcallout1.png) 24/7-Custom| Custom  |
     | ![Number 2](../images/sfbcallout2.png) Selection|  8:30am to 5:30pm, Monday-Friday  |
@@ -337,7 +341,9 @@ items:
 
     ![Business hours call handling.](../images/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
 
-    |Business hours call handling |  |
+    **Business hours call handling**
+
+    |   Option   | Setting      |
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| Create a custom greeting > Callers will hear: Copy/paste Script 1 above  |
     | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/>Callers will hear: Script 3 above |
@@ -345,15 +351,17 @@ items:
     | ![Number 5](../images/sfbcallout5.png) Edit Menu options	|**1:** Enter the Name of the option: Scheduling <br/>Send to: Person in your company: **Julie Wolfe** <br/>**2:** Enter the Name of the option: Billing <br/>Send to: nested Auto Attendant **Billing** <br/>**3:** Enter the name of the option: Hours <br/>Send to: nested Auto Attendant **Hours&Location** |
     |  |   |
 
+    **After hours call handling**
     
-    |After hours call handling |  |
+    |   Option   | Setting|
     |:---  | :---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| Create a custom greeting, callers will hear: Copy/paste Script 2 above |
     | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?|	Redirect call- Send to: Person in your company: **Julie Wolfe**. <br/> The call will go to voicemail when not picked up.  |
     |  |   |
 
+    **Nested Auto Attendant: Billing (nested under Business Hours)**
     
-    |Nested Auto Attendant: Billing (nested under Business Hours)|  |
+    |   Option   | Setting|
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| None |
     | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?|	Play menu options prompt, menu prompt: Create a custom prompt<br/> Callers will hear: Copy/paste Script 4 above |
@@ -361,21 +369,26 @@ items:
     |  | *This Auto Attendant could be replaced with a Call Queue*  |
     | |  |
 
-    |Nested Auto Attendant: Hours&Location (nested under Business Hours) | |
+    **Nested Auto Attendant: Hours&Location (nested under Business Hours)**
+
+    |   Option   | Setting|
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| None |
     | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt<br/> <br/>Callers will hear: Copy/paste Script 5 above 
     |  |   |
-    
 
-    | Nested Auto Attendant: MoreOptions (nested under Business Hours)  |  |
+    **Nested Auto Attendant: MoreOptions (nested under Business Hours)**     
+
+    |   Option   | Setting|
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| None  |
     | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/>  <br/> Callers will hear: Copy/paste Script 6 above  |
     | ![Number 5](../images/sfbcallout5.png) Edit Menu options	|**1:** Enter the Name of the option: lawyers  <br/>Send to: nested Auto Attendant **Lawyers** <br/>**2:** Enter the Name of the option: OfficeManager <br/>Send to: Person in your company: Valeria Pisani <br/>**3:** Enter the Name of the option: Paralegals Send to: nested Auto Attendant **paralegals** <br/>**4:** Enter the Name of the option: OtherOptions Send to: nested Auto Attendant **StillMoreOptions**  |
     |  |   |
 
-    |Nested Auto Attendant: Lawyers (nested under More Options) | |
+    **Nested Auto Attendant: Lawyers (nested under More Options)**
+
+    |   Option   | Setting|
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| None  |
     | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> <br/>Callers will hear: Copy/paste Script 7 above |
@@ -383,7 +396,9 @@ items:
     |  | *This Auto Attendant could be replaced with a Call Queue*  |
     |  |   |
 
-    |Nested Auto Attendant: Paralegals (nested under More Options) |  |
+    **Nested Auto Attendant: Paralegals (nested under More Options)**
+
+    |   Option   | Setting|
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| None |
     | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Copy/Paste Script 8 above  | 
@@ -391,8 +406,9 @@ items:
     |  | *This Auto Attendant could be replaced with a Call Queue*  |
     |  |   |
 
+    **Nested Auto Attendant: StillMoreOptions (nested under More Options)**
 
-    |Nested Auto Attendant: StillMoreOptions (nested under More Options) | |
+    |   Option   | Setting|
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	|None  |
     | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Copy/Paste Script 9 above  |
