@@ -25,13 +25,13 @@ ms.date: 08/24/2018
                                 </div>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+                                <a href="https://microsoftteams.eventbuilder.com/This%20is%20Teams">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image1.svg" alt="An arrow pointing up and to the left next to a hand with the index finger pointing up" />
+                                                        <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image1.svg" alt="An arrow pointing up and to the left next to a hand with the index finger pointing up" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -44,7 +44,7 @@ ms.date: 08/24/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+                                <a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -63,7 +63,7 @@ ms.date: 08/24/2018
                                 </a>
                             </li>
                             <li>
-                            <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+                            <a href="https://microsoftteams.eventbuilder.com/Upgrade%20101:%20Understanding%20your%20upgrade%20from%20Skype">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -82,13 +82,13 @@ ms.date: 08/24/2018
                             </a>
                         </li>
                             <li>
-                            <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams">
+                            <a href="https://microsoftteams.eventbuilder.com/From%20Skype%20for%20Business%20to%20Teams">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image4.svg" alt="teacher at a podium with students looking at a projector screen" />
+                                                    <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image4.svg" alt="teacher at a podium with students looking at a projector screen" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -101,13 +101,12 @@ ms.date: 08/24/2018
                             </a>
                         </li>
                         <li>
-                            <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image3.svg" alt="graduation cap with tassle" />
+                                                    <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image3.svg" alt="graduation cap with tassle" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
