@@ -1,5 +1,5 @@
 ---
-title: What are Teams live events?
+title: Plan for live events in Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -7,21 +7,21 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
 search.appverid: MET150
-description: Learn how Live events enable users to broadcast video and content to large online audiences in Microsoft Teams, Yammer, and Microsoft Stream.  
+description: Learn about the factors to consider before you set up live events in Microsoft Teams. 
 appliesto: 
 - Microsoft Teams
 ---
 
-# Plan for Teams live events
+# Plan for live events in Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 When you are planning Teams live events to hold large meetings in your organizaiton, there are several factors that you need to consider before starting to set it all up. 
 
-### Who can create and schedule live events? 
+## Who can create and schedule live events? 
 The following prerequisites are required for the user to schedule a Teams live event.
 
 Here are the licenses that must be assigned:  
-- An Office 365 Enterprise E3 or E5 license. 
+- An Office 365 Enterprise E1, E3, or E5 license or an Office 365 A3 or A5 license. 
 - A Microsoft Teams, Skype for Business, and Microsoft Stream license.
 
 It's important to know that an Office 365 license is required to participate in a live event as an authenticated user but this depends on the production method used:
@@ -39,7 +39,7 @@ The user must have:
 > [!IMPORTANT]
 > Office 365 guests, federated, and anonymous users can't be invited as producers or presenters in Teams live events. However, guest and federated users can join as anonymous Live event attendees. 
  
-### Who can watch live events?
+## Who can watch live events?
 
 |**Attendee visibility**           |**Quick start** |**External encoder**  |
 |------------------------------|-------------|------------------|
@@ -49,7 +49,7 @@ The user must have:
 |Everyone in company           |  Yes        |  Yes             |
 |Specific groups / people      |  Yes        |  Yes             |
  
-### Teams live events and Skype Meeting Broadcast
+## Teams live events and Skype Meeting Broadcast
 The following table highlights core capabilities and features offered in live events and how they differ from Skype Meeting Broadcast. 
 
 |**Capability**   |**Skype Meeting Broadcast** |**Teams live events (Quick start)** |**Teams live events (External encoder)** |
@@ -79,7 +79,7 @@ Invite a presenter during the meeting |&#x2714; (Skype for Business) |X |N/A |
 > [!IMPORTANT]
 > The limits that are set might be changed.
 
-### Regional availability
+## Regional availability
 You can use Teams live events in multiple regions across the world. The following information shows availability for event team members and attendees. 
 
 > [!IMPORTANT]
@@ -94,9 +94,3 @@ You can use Teams live events in multiple regions across the world. The followin
 **Exclusions and considerations**
 - **Go Locals:** Unitied Kingdom (U.K.), India, and other Microsoft Teams Go Locals are not currently supported.
 - **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
-
-### Related topics: 
-- [Live events across Microsoft 365 in Yammer, Microsoft Teams, and Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
-- [Live events in Microsoft Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
-- [Live events in Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Live events in Microsoft Stream](https://docs.microsoft.com/stream/live-event-overview)

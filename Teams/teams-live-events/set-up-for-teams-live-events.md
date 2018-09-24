@@ -1,32 +1,32 @@
 ---
-title: What are Teams live events?
-author: LanaChin
-ms.author: v-lanac
+title: Set up for live events in Microsoft Teams
+author: tonysmith
+ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: tonysmit
 search.appverid: MET150
-description: Learn the steps to set up live events in Teams.  
+description: Learn the steps to set up live for events in Microsoft Teams.  
 appliesto: 
 - Microsoft Teams
 ---
 
-# Set up for Teams live events
+# Set up for live events in Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
-When you are setting up for live events in Teams, there are several steps that you must take:
+When you are setting up for live events, there are several steps that you must take:
 
-### Step 1: Set up your network for live events in Microsoft Teams
+## Step 1: Set up your network for live events in Microsoft Teams
 The quick start live events require you to [prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
-### Step 2: Get and assign licenses
+## Step 2: Get and assign licenses
 Ensure you have correct license assignments for [Who can create and schedule live events?](#who-can-create-and-schedule-live-events) and [Who can watch live events?](#who-can-watch-live-events).
 
-### Step 3: Enable live event scheduling for users
+## Step 3: Enable live event scheduling for users
 Live event scheduling is enabled by default for Teams users but if you are wanting users to schedule external encoder events there are additional steps that you must do.
 
-#### For quick start events
+### For quick start events
 Use the setting *AllowBroadcastScheduling* in **TeamsMeetingBroadcastPolicy** in Teams PowerShell to control whether the user can create live events in Teams or not. You can learn more about managing TeamsMeetingBroadcastPolicy [here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
  If you haven't assigned a custom policy assigned to the users, the users will get the *Global* policy, which has recording enabled by default.
@@ -40,7 +40,7 @@ Then assign the user to the *Global* policy, run:
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-##### User scenarios
+#### User scenarios
 **You want all users in your company to be able to create live events.**
 
 If users are assigned the *Glocal* policy, run and verify that *AllowBroadcastScheduling* *is set to *True*:
@@ -110,10 +110,10 @@ Then assign users to this policy, run:
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
 ```
 
-#### For external encoder events
+### For external encoder events
 You must do the following to enable Live event scheduling for those users.
 
-##### Step 1: Enable Microsoft Stream for users in your organization**
+#### Step 1: Enable Microsoft Stream for users in your organization**
 Microsoft Stream is available as part of eligible Office 365 subscriptions or as a standalone service. See [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.
 
 > ![Note]
@@ -121,13 +121,13 @@ Microsoft Stream is available as part of eligible Office 365 subscriptions or as
 
 Learn more about how you can [assign licenses to users in Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Microsoft Stream. Ensure Microsoft Stream is not blocked for the users as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
 
-##### Step 2: Ensure users have live event creation permission in Microsoft Stream**
+#### Step 2: Ensure users have live event creation permission in Microsoft Stream**
 By default, administrators can create external encoder live events. Microsoft Stream administrator can [enable additional users for live event creation](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) in Stream.  
 
-##### Step 3: Ensure live event organizers have consented to the company policy set by Stream admin**
+#### Step 3: Ensure live event organizers have consented to the company policy set by Stream admin**
 If a Microsoft Stream administrator has [set up a company guidelines policy](https://docs.microsoft.com/stream/company-policy-and-consent) and requires employees to accept this policy before saving content, then users must do so before creating a live event (with External Encoder production) in Microsoft Teams. Before you rollout the live events feature in the organization, make sure users who will be creating these live events have consented to the policy. 
 
-### Step 4: Set up eCDN provider for live events in Microsoft Teams 
+## Step 4: Set up eCDN provider for live events in Microsoft Teams 
 Playback of live event videos uses adaptive bitrate streaming (ABR) but it is a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, live events solutions are integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or enterprise content delivery networks (eCDNs). These SDN / eCDN platforms enable organizations to optimize network bandwidth without sacrificing end user viewing experiences. Our partners can help enable a more scalable and efficient video distribution across your enterprise network.
 
 **Purchase & setup your solution outside of Microsoft Teams**
@@ -163,9 +163,3 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 **Set up an eCDN for "External encoder" live events** 
 
 If you plan to create live events that use external encoders, you will need to [configure your eCDN provider with Microsoft Stream](https://docs.microsoft.com/stream/network-caching) as well. 
-
-### Related topics: 
-- [Live events across Microsoft 365 in Yammer, Microsoft Teams, and Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
-- [Live events in Microsoft Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
-- [Live events in Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Live events in Microsoft Stream](https://docs.microsoft.com/stream/live-event-overview)
