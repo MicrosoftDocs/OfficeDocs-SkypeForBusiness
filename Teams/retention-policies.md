@@ -7,7 +7,7 @@ ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: Learn about how to manage retention policies in Teams.
+description: Learn about how to retention policies and how to manage them in Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin

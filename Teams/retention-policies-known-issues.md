@@ -7,7 +7,7 @@ ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: Current list of known issues for the Microsoft Teams retention policies.
+description: Current list of known issues for Microsoft Teams retention policies.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
