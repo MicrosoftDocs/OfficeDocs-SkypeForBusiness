@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
 search.appverid: MET150
-description: Learn the steps to set up live for events in Microsoft Teams.  
+description: Learn the steps to set up live for events in Microsoft Teams, including preparing your network, assigning licenses, enabling live event scheduling for users, and setting up an eCDN provider.
 appliesto: 
 - Microsoft Teams
 ---

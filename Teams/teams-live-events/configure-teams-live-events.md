@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
 search.appverid: MET150
-description: Learn how Live events enable users to broadcast video and content to large online audiences in Microsoft Teams, Yammer, and Microsoft Stream.  
+description: Learn how to configure live event settings in Microsoft Teams, including attendee visibility and recording options.
 appliesto: 
 - Microsoft Teams
 ---
