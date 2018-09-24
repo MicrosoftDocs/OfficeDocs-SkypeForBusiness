@@ -8,7 +8,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vichau, majafry
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
 ms.custom:
 - NewAdminCenter_Update
@@ -24,7 +25,10 @@ Microsoft Teams has clients available for desktop (Windows and Mac), web, and mo
 Desktop client
 --------------
 
-The Microsoft Teams desktop client is a standalone application and currently not part of Office 365 ProPlus. Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and macOS (10.10+). On Windows, Teams requires .NET framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. 
+> [!Tip]
+> Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
+
+The Microsoft Teams desktop client is a standalone application and currently not part of Office 365 ProPlus. Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and macOS (10.10+). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. 
 
 The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.
 
@@ -42,11 +46,15 @@ The Microsoft Teams installation for Windows provides downloadable installers in
 > [!NOTE]
 > The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed.
 
-The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client is installed in the following locations:
+The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client leverages the following locations:
 
-- %appdata%\\local\\Microsoft\\Teams
+- %LocalAppData%\\Microsoft\\Teams
 
-- %appdata%\\roaming\\Microsoft\\Teams
+- %LocalAppData%\\Microsoft\\TeamsMeetingsAddin
+
+- %AppData%\\Microsoft\\Teams
+
+- %LocalAppData%\\SquirrelTemp
 
 When users initiate a call using the Microsoft Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication. Users might be instructed to ignore this message because the call will work, even when the warning is dismissed.
 
@@ -99,8 +107,6 @@ Supported mobile platforms for Microsoft Teams mobile apps are the following:
 -   **Android**: 4.4 or later
 
 -   **iOS**: 10.0 or later
-
--   **Windows Phone**: Windows 10 Mobile
 
 > [!NOTE]
 > The mobile version must be available to the public in order for Teams to work as expected.

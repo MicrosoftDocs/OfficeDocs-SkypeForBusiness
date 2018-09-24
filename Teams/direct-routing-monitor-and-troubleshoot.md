@@ -7,6 +7,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
 description: "This article describes how to monitor and troubleshoot your Direct Routing configuration."
 ---
@@ -67,7 +68,7 @@ You can use the following tools to monitor your configuration:
 
 The Direct Routing service has very descriptive error codes reported to either Call Analytics or the SBC logs. 
 
-The Call Quality Dashboard provides information about call quality and reliability. To learn more about how to troubleshoot issues using Call Analytics, see [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) and [Use Call Analytics to troubleshoot poor call quality](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
+The Call Quality Dashboard provides information about call quality and reliability. To learn more about how to troubleshoot issues using Call Analytics, see [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) and [Use Call Analytics to troubleshoot poor call quality](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
 
 In case of call failures, Call Analytics provides standard SIP codes to help you with troubleshooting. 
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 5412636c-ad0e-48a5-b199-5925156abee4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
@@ -24,7 +25,7 @@ description: "See steps on how to change the emergency address for a user to wor
 
 # Change the emergency address for a user
 
-When you are setting up Calling Plans in Office 365, you will need to assign an emergency address to each phone number or user. In European countries, the emergency address is associated with the phone number when you get it from Office 365 or when you transfer a phone number over to Office 365. In the United States, the emergency address is associated with the phone number when it is assigned to the user. The emergency address can be changed if the user it is assigned to moves to a new location. For more about emergency addresses and locations, see [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
+When you are setting up Calling Plans in Office 365, you will need to assign an emergency address to each phone number or user. In European countries, the emergency address is associated with the phone number when you get it from Office 365 or when you transfer a phone number over to Office 365. In the United States, the emergency address is associated with the phone number when it is assigned to the user. The emergency address can be changed if the user it is assigned to moves to a new location. For more about emergency addresses and locations, see [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
   
 To learn how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -61,11 +62,11 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 
 [What is address validation?](what-is-address-validation.md)
 
-[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

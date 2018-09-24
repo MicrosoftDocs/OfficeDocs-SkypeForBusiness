@@ -7,7 +7,8 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Find tools to support your rollout of Microsoft Teams, including  email templates, Getting Started Guides, Customer Success Kit, and more.
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams

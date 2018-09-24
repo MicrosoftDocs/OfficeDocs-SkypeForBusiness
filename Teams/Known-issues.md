@@ -7,15 +7,15 @@ ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl
+search.appverid: MET150
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
-appliesto: 
+appliesto:
 - Microsoft Teams
 ---
 
 # Known issues for Microsoft Teams
-  
+
 This article lists the known issues for Microsoft Teams, by feature area.
-## 
 
 ## Administration
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -28,7 +28,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Admin management of tenant-wide Connectors is no longer available  <br/> |When trying to add a connector in both client and online version we get the error: An unexpected error occurred. Please try again. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Disable with Teams settings. See support article https://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |6/21/17  <br/> |
+|Admin management of tenant-wide Connectors is no longer available  <br/> |When trying to add a connector in both client and online version we get the error: An unexpected error occurred. Please try again. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Disable with Teams settings. See support article https://msdn.microsoft.com/microsoft-teams/connectors  <br/> |6/21/17  <br/> |
 
 ## Apps
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -43,10 +43,21 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Unable to delete connectors as a team owner  <br/> |Attempting to delete a connector as an owner, that can otherwise add a conector, while "Allow members to create, update, and remove connectors" is disabled throws an error indicating the user does not have permission to do so. <br/> |Temporarily enabling "Allow members to create, update, and remove connectors" will allow the owner to delete the connector.  <br/> |7/27/18  <br/> |
 
+## Audio Conferencing
+|**Issue**|**Behavior/Symptoms**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|PSTN callers with the same "From" number are shown as the same user in meeting roster.  <br/> |When multiple PSTN callers join a meeting, and their caller IDs are masked as a single number, they will show up as a single caller in the meeting roster.  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
+|Meeting Info panel is not showing up intermittently.  <br/> |Meeting Info panel may not show in Teams client when users are trying to look up for conference bridge phone numbers or conference ID.  <br/> |Look at meeting details or Outlook calendar to view conference bridge phone numbers or conference ID.  <br/> |9/25/2017  <br/> |
+|Meeting invites from Outlook Add-in show garbage characters in PSTN coordinates for non-US locales.  <br/> |When scheduling private meetings using Outlook Add-in for Microsoft Teams on a computer with non-US locales, PSTN coordinates may contain garbage characters.  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
+|Dial out needs to use 5 digits or more.  <br/> |Users trying to dial out from a meeting need to type in 5 or more digits, even though dial plan normalization rule is available to normalize short digit dialing to E.164.  <br/> |Dial out by typing the full DID number or local number format instead of internal extension number.  <br/> |9/25/2017  <br/> |
+|Dial out control is not showing up intermittently.  <br/> |Dial out control may not be visible from the Meeting Info panel.  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
+|Static conference ID not supported for Microsoft Teams meetings.  <br/> |If the admin overrides the default setting from dynamic conference ID to static conference ID, this setting doesn't take effect for Microsoft Teams meetings. See [Using Audio Conferencing dynamic IDs in your organization](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
+|PSTN meeting coordinates are not available for Skype for Business on-premises users  <br/> |If the user is a Skype for Business on-premises user, assigned with Skype for Business Online, Audio Conferencing, and Teams licenses, all meetings scheduled using Teams will not include PSTN meeting coordinates. <br/> |No workaround.  <br/> |2/1/2018  <br/> |
+
 ## Authentication
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|When you try to join Teams from Internet Explorer or Edge, the program consistently loops or crashes and doesn't sign in.   <br/> | Your organization utilizes Trusted Sites in Internet Explorer and the Teams web-based application does not correctly log in because trusted sites for Teams are not allowed. <br/>|Make the following changes to IE settings, either with Administrator rights or a Group Policy Object:<br/><ol><li>Under **Internet Options** &gt; **Privacy** &gt; **Advanced**, accept First-Party and Third-Party cookies, and check the box for **Always allow session cookies**.</li><li>Click **Internet Options** &gt; **Trusted Sites** &gt; **Sites**, and add all of the following:<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>NOTE</b>: Always validate and allow all trusted URLs for Teams and the requirements from the following document: [Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).   <br/> |11/1/17  <br/> |
+|When you try to join Teams from Internet Explorer or Edge, the program consistently loops or crashes and doesn't sign in.   <br/> | Your organization utilizes Trusted Sites in Internet Explorer and the Teams web-based application does not correctly log in because trusted sites for Teams are not allowed. <br/>|Make the following changes to IE settings, either with Administrator rights or a Group Policy Object:<br/><ol><li>Under **Internet Options** &gt; **Privacy** &gt; **Advanced**, accept First-Party and Third-Party cookies, and check the box for **Always allow session cookies**.</li><li>Click **Internet Options** &gt; **Trusted Sites** &gt; **Sites**, and add all of the following:<ul><li>https://\login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>NOTE</b>: Always validate and allow all trusted URLs for Teams and the requirements from the following document: [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |11/1/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -75,7 +86,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Safari web client support  <br/> |Users trying to open the Microsoft Teams web client on Safari are directed to download the desktop client. Microsoft is looking into Safari support and will share updates on the [Teams Roadmap](http://aka.ms/TeamsRoadmap).  <br/> |Use supported internet browsers, which include: Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+, and Firefox 47.0+.  <br/> |11/2/16  <br/> |
+|Safari web client support  <br/> |Users trying to open the Microsoft Teams web client on Safari are directed to download the desktop client. Microsoft is looking into Safari support and will share updates on the [Teams Roadmap](https://aka.ms/TeamsRoadmap).  <br/> |Use supported internet browsers, which include: Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+, and Firefox 47.0+.  <br/> |11/2/16  <br/> |
 
 ## Channels
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -130,7 +141,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 ## Meetings
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent String for MS Teams within the EWSAllowList: `*skypespaces*`, including asterisks. The full command is: `set-organizationconfig -ewsallowlist *skypespaces*`<br/> For more info: https://docs.microsoft.com/en-us/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
+|Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent String for MS Teams within the EWSAllowList: `*skypespaces*`, including asterisks. The full command is: `set-organizationconfig -ewsallowlist *skypespaces*`<br/> For more info: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -233,6 +244,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Deleting a team will also delete the group associated with it  <br/> |Users may not realize that the underlying Office 365 Group is deleted when the team is deleted. Additionally, if the underlying Office 365 Group is deleted, the team is deleted as well.  <br/> |Additional language in Microsoft Teams provides this information to the user. This information is not present in the Office 365 Groups interface. Your help desk can recover a deleted Group/Team.  <br/> |3/13/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|  
+|:-----|:-----|:-----|:-----|
 |Teams desktop app showing white screen  <br/> | <br/> |Try deleting or reinstalling the graphics drivers on the computer, or start Teams from a command line with a disable GPU flag:<ul><li>For Windows: Open the command prompt and enter the following: `cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>For Mac: Start Terminal and enter the following: `cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 

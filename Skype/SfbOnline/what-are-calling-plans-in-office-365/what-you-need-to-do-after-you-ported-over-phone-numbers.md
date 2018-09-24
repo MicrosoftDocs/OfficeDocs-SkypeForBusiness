@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 825a6cf0-3d22-419a-8358-a8678f14b61d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -26,7 +27,7 @@ description: "See what you need to do next after you've ported your phone number
 
 After you have submitted your port order, we will contact your carrier and work out the details with them. When the final transfer date has been set, we will notify you via email. However, while waiting on your carrier to accept the order, go ahead and create the required emergency addresses you will use with these numbers.
   
-- Learn more about [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md).
+- Learn more about [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
     
 - You can [Add or remove an emergency address for your organization](add-or-remove-an-emergency-address-for-your-organization.md) if you need to.
     
@@ -39,13 +40,13 @@ After you have submitted your port order, we will contact your carrier and work 
 
     
 ## Related topics
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+[Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

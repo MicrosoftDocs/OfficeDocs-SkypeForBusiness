@@ -55,7 +55,7 @@ __Type 1 Description:__ This is the default scenario when MA is turned __on__ fo
 
 __Type 2 Description:__ This topology blocks NTLM *externally*, but allows NTLM or Kerberos (for clients that don't support ADAL) to work *internally*. If your clients  do support ADAL they will use MA internally.
 
-__Type 3 Description:__ This topology requires MA for all users. All your ADAL-capable clients will work in this topology, and passwords will not be leveraged.
+__Type 3 Description:__ This topology requires MA for all users. All your ADAL-capable clients will work in this topology, and passwords will not be leveraged if, for example, you turn off the use of passwords with Certificate-based Auth.
 
 __Type 4 Description:__ This topology blocks NTLM *externally* and MA internally. It allows *all clients* to use legacy authentication methods *internally* (even ADAL-capable clients).
 

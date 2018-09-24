@@ -1,12 +1,13 @@
 ---
 title: "Configure Direct Routing"
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: 
 description: "Learn how to configure Microsoft Phone System Direct Routing."
 ---
@@ -15,18 +16,18 @@ description: "Learn how to configure Microsoft Phone System Direct Routing."
 
 If you have not already done so, read [Plan Direct Routing](direct-routing-plan.md) for prerequisites and to review  other steps you’ll need to take before you configure your Microsoft Phone System network. 
 
-This article describes how to configure Microsoft Phone System Direct Routing. It details how to pair a supported Session Border Controller (SBC) to Direct Routing and how to configure Microsoft Teams users to use Direct Routing to connect to the Public Switched Telephone Network (PSTN). To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+This article describes how to configure Microsoft Phone System Direct Routing. It details how to pair a supported Session Border Controller (SBC) to Direct Routing and how to configure Microsoft Teams users to use Direct Routing to connect to the Public Switched Telephone Network (PSTN). To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
 
 We recommend that you confirm that your SBC has already been configured as recommended by your SBC vendor's: 
 
 - AudioCodes deployment documentation 
-- Ribbon deployment documentation
+- Ribbon Communications deployment documentation
 
 You can configure your Microsoft Phone System and enable  users to use Direct Routing, then set up Microsoft Teams as the preferred calling client by completing the following procedures: 
 
 - [Pair the SBC with a Microsoft Phone System and validate the pairing](#pair-the-sbc-to-direct-routing-service-of-phone-system)
 - [Enable users for Direct Routing Service](#enable-users-for-direct-routing-service)
-- [Ensure that Microsoft Teams is the preferred calling client for the users](#set-microsoft-teams-as-the-preferred-calling-client-for-the-users) 
+- [Ensure that Microsoft Teams is the preferred calling client for the users](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
 ## Pair the SBC to Direct Routing Service of Phone System 
 
@@ -38,7 +39,7 @@ The following are the three high-level steps to let you connect, or pair, the SB
 
 ### Connect to  Skype for Business Online by using PowerShell 
 
-You can use a PowerShell session connected to the tenant to pair the SBC to the Direct Routing interface. To open a PowerShell session, please follow the steps outlined in [Set up your computer for Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+You can use a PowerShell session connected to the tenant to pair the SBC to the Direct Routing interface. To open a PowerShell session, please follow the steps outlined in [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
  
 After you establish a remote PowerShell session, please validate that you can see the commands to manage the SBC. To validate the commands, type or copy/paste in the following in the PowerShell session and press Enter: 
 
@@ -92,7 +93,7 @@ The following table lists the additional parameters that you can use in setting 
 
 |Required?|Name|Description|Default|Possible values|Type and restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Yes|FQDN|The FQDN name of the SBC |None|NoneFQDN name, limit 63 characters|String,  list of allowed and disallowed characters on [Naming conventions in Active Directory for computers, domains, sites, and OUs](https://support.microsoft.com/en-us/help/909264)|
+|Yes|FQDN|The FQDN name of the SBC |None|NoneFQDN name, limit 63 characters|String,  list of allowed and disallowed characters on [Naming conventions in Active Directory for computers, domains, sites, and OUs](https://support.microsoft.com/help/909264)|
 |No|MediaBypass |The parameter reserved for future use. Parameter indicated of the SBC supports Media Bypass and the administrator wants to use it.|None|True<br/>False|Boolean|
 |Yes|SipSignallingPort |Listening port used for communicating with Direct Routing services by using the Transport Layer Security (TLS) protocol.|None|Any port|0 to 65535 |
 |No|FailoverTimeSeconds |When set to 10 (default value), outbound calls that are not answered by the gateway within 10 seconds are routed to the next available trunk; if there are no additional trunks, then the call is automatically dropped. In an organization with slow networks and gateway responses, that could potentially result in calls being dropped unnecessarily. The default value is 10.|10|Number|Int|
@@ -153,8 +154,8 @@ When you are ready to enable users for the Direct Routing Service, follow these 
 
 There are two options for creating a new user in Office 365. However, we recommend that your organization select and use one option to avoid routing issues: 
 
-- Create the user in on-premise Active Directory and sync the user to the cloud. See [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect).  
-- Create the user directly in the Office 365 Administrator Portal. See [Add users individually or in bulk to Office 365 - Admin Help](https://support.office.com/en-us/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
+- Create the user in on-premise Active Directory and sync the user to the cloud. See [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).  
+- Create the user directly in the Office 365 Administrator Portal. See [Add users individually or in bulk to Office 365 - Admin Help](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
   If you build the system that co-exists with Skype for Business 2015 or Lync 2010/2013 on-premises, the only supported option is to create the user in on-premises Active Directory and sync the user to the cloud (Option 1). 
 
@@ -341,7 +342,7 @@ In some cases there is a need to route all calls to the same SBC; please use -Nu
 Validate that you’ve correctly configured the route by running the `Get-CSOnlineVoiceRoute` Powershell command using options as shown: 
 
 ```
-New-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
+Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 Which should return:
 <pre>
@@ -513,12 +514,11 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 The result is that the voice policy applied to John Woods’ calls are unrestricted, and will follow the logic of call routing available for US, Canada, and International calling.
 
+## Set Microsoft Teams as the preferred calling client for users
 
-## Set Microsoft Teams as the preferred calling client for the users
-
-Direct Routing only route the calls to and from users if they use Teams Cleint. 
-If your organisation only use Teams client, setting "Teams Only" mode in upgrade policy is recommended. 
-If you organisation uses Skype for Business Server or Skype for Business Online, please review the following document  [Understand coexistence and upgrade journey for Skype for Business and Teams](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) and select appropriate option. 
+Direct Routing only routes calls to and from users if they use the Teams client. 
+If your organization only uses Teams, setting "Teams Only" mode in upgrade policy is recommended. 
+If you organization uses Skype for Business Server or Skype for Business Online, see the following article for more information and select the appropriate option:  [Understand coexistence and upgrade journey for Skype for Business and Teams](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## See also

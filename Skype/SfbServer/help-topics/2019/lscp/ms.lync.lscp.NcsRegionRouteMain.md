@@ -15,10 +15,10 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Configure a Network Region Route
- 
+
 What do you want to do? Click the link to the task that you want to perform.
-  
-- [Configuring Network Region Routes](http://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
-    
- 
+
+- [Configuring Network Region Routes](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+
+
 

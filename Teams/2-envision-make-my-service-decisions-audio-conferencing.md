@@ -6,9 +6,10 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Learn about meetings, licensing and availability, configure conference bridge settings, acquire or transfer phone numbers, choose tenant dial plans. 
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
@@ -49,7 +50,7 @@ Meeting participants can join your Teams meetings by dialing in to the toll or t
 
 ## Availability of Audio Conferencing
 
-Before you plan for the implementation of Audio Conferencing in Teams, you need to review the availability of the Audio Conferencing service as detailed in [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Before you plan for the implementation of Audio Conferencing in Teams, you need to review the availability of the Audio Conferencing service as detailed in [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 > [!IMPORTANT]
 > Due to legal constraints, for Audio Conferencing to be available to multinational organizations, the contract for Office 365 subscriptions must be sourced from countries and regions where the Audio Conferencing service is commercially available.

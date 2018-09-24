@@ -2,6 +2,7 @@
 title: "Manage a Skype Room Systems v2 console settings remotely with an XML configuration file"
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 1/31/2018
 ms.audience: ITPro

@@ -1,13 +1,14 @@
 ---
 title: "Desktop client feature comparison for Skype for Business Server 2015"
 ms.author: jambirk
-author: PhillipGarding
+author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -115,7 +116,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Add computer audio  <br/> |&#x2714;|&#x2714;|&#x2714;(requires plug-in)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Add video  <br/> |&#x2714;|&#x2714;|&#x2714;(requires plug-in)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|||&#x2714;|&#x2714;|
 |View multiparty video (gallery view)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||||||
-|Video-based screen sharing  <br/> |&#x2714;|&#x2714;Only for users homed on Skype for Business Online  <br/> |&#x2714;View-only  <br/> |||||||||
+|Video-based screen sharing  <br/> |&#x2714;|&#x2714;|&#x2714;View-only  <br/> |||||||||
 |Use in-meeting presenter controls  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||||&#x2714;|
 |Access detailed meeting roster  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||&#x2714;|
 |Participate in multiparty IM  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
@@ -124,7 +125,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Add anonymous participants (if enabled)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;||||&#x2714;|
 |Use dial-in audio meetings  <br/> |&#x2714; &#x2777; |&#x2714;|&#x2714; &#x2777; |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714;|&#x2714;|||&#x2714;|
 |Initiate a Meet Now meeting  <br/> |&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;|&#x2714;||||&#x2714;|
-|Add and present Microsoft PowerPoint files  <br/> |&#x2714;| &#x2778; View only, annotations not available  <br/> |&#x2714;|&#x2714;|&#x2714;|Present only  <br/> |&#x2714;|||| &#x2778; View only, annotations not available  <br/> |
+|Add and present Microsoft PowerPoint files  <br/> |&#x2714;| &#x2778; Annotations not available  <br/> |&#x2714;|&#x2714;|&#x2714;|Present only  <br/> |&#x2714;|||| &#x2778; View only, annotations not available  <br/> |
 |Navigate Microsoft PowerPoint files  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||||&#x2714;|
 |Add and edit OneNote meeting notes  <br/> |&#x2714;||Edit only (not add)  <br/> |&#x2714;|&#x2714;|||||||
 |Use a whiteboard  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;|||||
@@ -137,9 +138,8 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Mute Audience  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||||||&#x2714;|
 |Make everyone an attendee  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;||||||&#x2714;|
 |Produce Skype Meeting Broadcast  <br/> |&#x2714;|||||||||||
-|Delegate can schedule a meeting on behalf of delegator  <br/> |&#x2714;|Skype for Business Online only <br/>|&#x2714;|||||||||
+|Delegate can schedule a meeting on behalf of delegator  <br/> |&#x2714;|&#x2714;|&#x2714;|||||||||
 |Synchronize delegates between Skype for Business and Outlook  <br/> |&#x2714;||&#x2714;|||||||||
-|Video Based Screen Sharing  <br/> |&#x2714;| Skype for Business Online only <br/> |&#x2714;||&#x2714;|||||||
 |Set Video Spotlight (lock video)  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Give/Take control of screen sharing  <br/> |&#x2714;||&#x2714;|||||||||
    
@@ -176,7 +176,7 @@ This table covers features related to voice services support.
 |Manage a high volumes of calls  <br/> |||||&#x2714;|&#x2714;||||
 |Call park  <br/> |&#x2714;||&#x2714; &#x2776; |||||||
 |Group call pickup  <br/> |&#x2714;||&#x2714; &#x2776; ||||&#x2714;|||
-|Location-based routing  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
+|Location-based routing  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Manage Response Group/Team call group  <br/> |&#x2714;||&#x2714;|||||||
    
  &#x2776;  This feature isn't available in Skype for Business Online.
@@ -231,7 +231,7 @@ This table covers features related to support for archiving and logging function
 
  | Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Lync 2013 client | Lync Windows Store app | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | **Communicator for Mac 2011** | Lync for Mac 2011 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Archiving of IM conversations in Outlook Conversation History  <br/> |&#x2714; &#x2776; |&#x2714;If server side conversation history is turned on  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|&#x2714;||Saved in Communicator for Mac  <br/> |Saved in Lync for Mac  <br/> |
+|Archiving of IM conversations in Outlook Conversation History  <br/> |&#x2714; &#x2776; |&#x2714;If server side conversation history is enabled <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|&#x2714;||Saved in Communicator for Mac  <br/> |Saved in Lync for Mac  <br/> |
 |Client-side archiving of audio, video, application sharing, desktop sharing, and uploaded content  <br/> |&#x2714; &#x2776; ||&#x2714; &#x2776; ||&#x2714;|||||
 |Client-side archiving of file transfers, shared OneNote pages, and PowerPoint annotations  <br/> (unavailable in Skype for Business Online)  <br/> |&#x2714;||&#x2714;||&#x2714;|||||
 |Access sign-in logs from Skype for Business icon in the task bar  <br/> |&#x2714;||&#x2714;|||||||

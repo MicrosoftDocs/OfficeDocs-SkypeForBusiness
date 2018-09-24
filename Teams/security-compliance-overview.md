@@ -3,12 +3,13 @@ title: Overview of security and compliance in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/02/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: An overview of security and compliance features of Microsoft Teams including auditing and reporting, compliance content search, eDiscovery, and more.
-localization_priority: Priority
+description: An overview of security and compliance features of Microsoft Teams, including auditing and reporting, compliance content search, eDiscovery, and more.
+localization_priority: Normal
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
@@ -25,15 +26,15 @@ Services in compliance categories C and D that have industry-leading compliance 
 
 Teams also enforces team-wide and organization-wide two-factor authentication, single sign-on through Active Directory, and encryption of data in transit and at rest. Files are stored in SharePoint and are backed by SharePoint encryption. Notes are stored in OneNote and are backed by OneNote encryption. The OneNote data is stored in the team SharePoint site. The Wiki tab can also be used for note taking and it's content is also stored within the team SharePoint site.
 
-We also added support for audit log search, eDiscovery and legal hold for channels, chats and files as well as mobile application management with Microsoft Intune. Go to the Office 365 Security & Compliance center to manage these settings. 
+We also added support for audit log search, eDiscovery and legal hold for channels, chats and files as well as mobile application management with Microsoft Intune. Go to the Office 365 Security & Compliance Center to manage these settings. 
 
 ## Auditing and Reporting
 
-Audit log search plugs right into the Office 365 Security and Compliance Center and exposes abilities to set alerts and/or report on Audit event by making available, export of workload specific or generic event sets for admin use and investigation, across an unlimited auditing timeline. All Audit Log data is available for setting up of alerts within the Office 365 Security and Compliance Center, as well as for filtering and export for further analysis. Please refer to this [link](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) to learn more about how to conduct an Audit log search for Microsoft Teams events in the Office 365 Security and Compliance center. 
+Audit log search plugs right into the Office 365 Security & Compliance Center and exposes abilities to set alerts and/or report on Audit event by making available, export of workload specific or generic event sets for admin use and investigation, across an unlimited auditing timeline. All Audit Log data is available for setting up of alerts within the Office 365 Security & Compliance Center, as well as for filtering and export for further analysis. Please refer to this [link](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) to learn more about how to conduct an Audit log search for Microsoft Teams events in the Office 365 Security & Compliance Center. 
 
 ## Compliance Content Search
 
-Content Search can be used to search for all Teams data through rich filtering capabilities and exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Please refer to this [link](https://support.office.com/en-us/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4?ui=en-US&rs=en-US&ad=US#teamsandgroups) to learn more about how to conduct a compliance content search for Microsoft Teams content in the Office 365 Security and Compliance center. 
+Content Search can be used to search for all Teams data through rich filtering capabilities and exported to a specific container for compliance and litigation support. This can be done with or without an eDiscovery case. This enables compliance admins to gather Teams data across all users, review and export it for further processing. Please refer to this [link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) to learn more about how to conduct a compliance content search for Microsoft Teams content in the Office 365 Security & Compliance Center. 
 
 Tip: The kind MicrosoftTeams can be used to filter through to Microsoft Teams only content i.e. Chat and Channel Messages, Meetings and Calls. 
 
@@ -41,11 +42,11 @@ Tip: The kind MicrosoftTeams can be used to filter through to Microsoft Teams on
 
 Electronic discovery is the electronic aspect of identifying, collecting and producing electronically stored information (ESI) in response to a request for production in a law suit or investigation. Capabilities include case management, preservation, search, analysis, and export of Teams data. This includes chat, messaging and files, meeting and call summaries. For Teams meetings and Calls, a summary of the events that happened in the meeting and call are created and made available in eDiscovery. 
 
-For more details about how to do eDiscovery in Security and Compliance center and run compliance content search for Teams content, please go to the links below: 
+For more details about how to do eDiscovery in Security & Compliance Center and run compliance content search for Teams content, please go to the links below: 
 
-[eDiscovery](https://support.office.com/en-us/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e?ui=en-US&rs=en-US&ad=US) 
+[eDiscovery](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
-[Content Search](https://support.office.com/en-us/article/search-for-content-in-office-365-df2d1e0f-b476-42c9-aade-4a260b24f193)
+[Content Search](https://support.office.com/article/search-for-content-in-office-365-df2d1e0f-b476-42c9-aade-4a260b24f193)
 
 Customers can leverage in-place eDiscovery or [Advanced eDiscovery] per their requirements(https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4). The following table outlines the differences between the two:
 
@@ -64,7 +65,7 @@ Customers can leverage in-place eDiscovery or [Advanced eDiscovery] per their re
 
 ## Legal Hold
 
-During a litigation, it is often required that all data associated with a user (custodian) or a Team is preserved immutably so it can be used as evidence for the case. This is acheived by placing either a user (user mailbox) or a Team on legal hold. When any team within Teams is put on In-Place Hold (subset of the mailbox or site collection thru targeted queries or filtered content) or Litigation Hold (entire mailbox or site collection), the hold is placed on the groups mailbox. This ensures that even if end users delete or edit channel messages that are ingested into the group mailbox, immutable copies of that content are maintained and available in eDisscovery search. Legal Holds are generally applied within the context of an eDiscovery case. Please see [this](https://support.office.com/en-us/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) help article to understand more about preservation and holds in the Office 365 Security and Compliance center. 
+During a litigation, it is often required that all data associated with a user (custodian) or a Team is preserved immutably so it can be used as evidence for the case. This is acheived by placing either a user (user mailbox) or a Team on legal hold. When any team within Teams is put on In-Place Hold (subset of the mailbox or site collection thru targeted queries or filtered content) or Litigation Hold (entire mailbox or site collection), the hold is placed on the groups mailbox. This ensures that even if end users delete or edit channel messages that are ingested into the group mailbox, immutable copies of that content are maintained and available in eDisscovery search. Legal Holds are generally applied within the context of an eDiscovery case. Please see [this](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) help article to understand more about preservation and holds in the Office 365 Security & Compliance Center. 
 
 ## Information Protection Architecture for Microsoft Teams. 
 
@@ -81,9 +82,9 @@ The following figure indicates the ingestion flow of Teams Meetings and calling 
 
 ## Retention policies
 
-Teams conversations are persistent and retained forever by default. With the introduction of Retention policies, admins can configure retention policies (both preservation and deletion) in the Security & Compliance center for Teams chat and channel messages. This helps organizations either retain data for compliance (namely, preservation policy) for a specific period or get rid of data (namely, deletion policy) if it is considered a liability after a specific period. Teams retention policies ensure that when you delete data, it is removed from all permanent data storage locations on the Teams service. 
+Teams conversations are persistent and retained forever by default. With the introduction of Retention policies, admins can configure retention policies (both preservation and deletion) in the Security & Compliance Center for Teams chat and channel messages. This helps organizations either retain data for compliance (namely, preservation policy) for a specific period or get rid of data (namely, deletion policy) if it is considered a liability after a specific period. Teams retention policies ensure that when you delete data, it is removed from all permanent data storage locations on the Teams service. 
 
-To manage Teams Retention policies works use the settings and cmdlets in the Office 365 Security & compliance center under **Data Governance** > **Retention**.
+To manage Teams Retention policies, use the settings and cmdlets in the Office 365 Security & Compliance Center under **Data Governance** > **Retention**.
 
 Teams Retention Policies do support: 
     
@@ -96,7 +97,7 @@ Teams Retention Policies do not yet support:
 - Advanced Retention policies don't apply to Teams chat and Teams channel message locations
 - Duration of fewer than 30 days
 
-Admins can set up separate retention policies for Teams private chats (1:1 or 1:Many chats) and Teams channel messages. In many cases, organizations consider private chat data as more of a liability than channel messages, which are usually more project-related conversations. Set up these policies in the Security & Compliance center, **Data governance** > **Retention**. Turn on **Teams channel messages** and **Teams chats** and then define retention policies for these locations (also shown in the diagram below). 
+Admins can set up separate retention policies for Teams private chats (1:1 or 1:Many chats) and Teams channel messages. In many cases, organizations consider private chat data as more of a liability than channel messages, which are usually more project-related conversations. Set up these policies in the Security & Compliance Center, **Data governance** > **Retention**. Turn on **Teams channel messages** and **Teams chats** and then define retention policies for these locations (also shown in the diagram below). 
 
 When you turn on **Teams channel messages**, you can specify Teams to which this policy will apply. For example, for teams X, Y, and Z, the admin can set the deletion policies for 1 year (by selecting those teams individually), and apply a 3-year deletion policy to the rest of the teams. 
 
@@ -123,13 +124,13 @@ For detailed information about configuring retention policies for Office 365, re
 
 ### What types of policies can I setup in Retention policies and how do they work?
 
-In the Security & compliance center, when you set up a retention policy, for Teams or for any other workload, you can set up two main types of policies: 
+In the SSecurity & Compliance Center, when you set up a retention policy, for Teams or for any other workload, you can set up two main types of policies: 
 - Preservation: These policies ensure that your data is preserved for a given period of time, no matter what happens in the end user tools. They ensure that data is preserved for compliance reasons and available in eDiscovery until this time expires. After the time expires, your policy can indicate whether to do nothing or delete the data. In Teams, if you create a preservation policy for 7 years, even if end users delete their Teams messages, these messages are still preserved for eDiscovery for 7 years.
 - Deletion: These policies ensure that data is not a liability for your organization. After the specified duration, data is deleted from all relevant storage in Teams. 
 
 ### Can we include Teams in org-wide policies? 
 
-No, not currently. You must create specific policies for Teams chat and channel messages using the Teams location row or these Teams cmdlets: [New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [New-TeamsComplianceRetentionRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps). These cmdlets have get and set versions as well.
+No, not currently. You must create specific policies for Teams chat and channel messages using the Teams location row or these Teams cmdlets: [New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [New-TeamsComplianceRetentionRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps). These cmdlets have get and set versions as well.
 
 ### Are these retention policies retroactive? 
 
@@ -153,17 +154,17 @@ Note: Launch of the Retention policies feature for Teams makes sure that only Te
 
 Yes, Skype for Business Online and Teams interop chats work the same way. Once the Skype for Business Online chat comes into Teams, it becomes a message in a Teams chat thread and gets ingested into the appropriate mailbox. So the same flow works – Teams deletion policies will delete these messages from the Teams thread. However, if conversation history is turned on for Skype for Business Online and from the Skype for Business Online client side those are being saved into a mailbox, this chat data is not handled by a Teams retention policy.
 
-### Can I do these through Security & compliance center cmdlets? What should I use? 
+### Can I do these through Security & Compliance Center cmdlets? What should I use? 
 
-Absolutely. You can create Teams retention policies using [Security & compliance center Powershell cmdlets]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Remember these are not Exchange Online cmdlets. 
-Here are the cmdlets we created for Teams. They follow existing nomenclature and style from retention cmdlets available today in Security & compliance center.
+Absolutely. You can create Teams retention policies using [Security & Compliance Center Powershell cmdlets]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Remember these are not Exchange Online cmdlets. 
+Here are the cmdlets we created for Teams. They follow existing nomenclature and style from retention cmdlets available today in Security & Compliance Center.
 
 |Policy|Rule|
 |---|---|
-|[New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [New-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
-|[Get-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
-|[Set-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [Set-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
-|[Remove-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
+|[New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [New-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
+|[Get-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
+|[Set-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [Set-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
+|[Remove-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
 
 ### If there are multiple retention policies for Teams with varying durations, which one wins?
 
@@ -212,37 +213,41 @@ When it comes to the information protection capabilities, Office 365 subscriptio
 |![Decision Point icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Decision point         |Does your organization have the required licenses to meet Compliance and Security business requirements?         |
 |![Next Steps icon.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Next steps         |Review your organization's current licensing and confirm it meets all business requirements for compliance and security.         |
 
-Before enabling any of these features, ensure you have access to the Security & Compliance Center in the Office 365 Admin center. By default, tenant admins have access.
+Before enabling any of these features, ensure you have access to the Security & Compliance Center in the Office 365 admin center. By default, tenant admins have access.
 
 Content Search and eDiscovery do not require enablement in the Security & Compliance Center.
 
 Location of data in Teams
 -------------------------
 
-Data in Teams resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Americas, EMEA, and APAC regions. 
+Data in Teams resides in the geographic region associated with your Office 365 tenant. Currently, Teams supports the Australia, Canada, India, Japan, UK, Americas, APAC, and EMEA regions. 
 
 > [!IMPORTANT]
-> Teams currently offers data residency in the United Kingdom, Canada, and India for new tenants only. 
-> A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Teams. Existing tenants from the UK, Canada, and India will continue to remain in the EMEA, Americas, and APAC regions respectively, until a migration plan is announced (anticipated in CY2019).
+> Teams currently offers data residency in the Australia, Canada, India, Japan, and UK for new tenants only. 
+> A new tenant is defined as any tenant that hasn’t had a single user from the tenant sign in to Teams. Existing tenants from Australia, India, and Japan will 
+> continue to have their Teams data stored in the APAC region. Existing tenants in Canada and the UK will have their data stored in the Americas and EMEA 
+> region, respectively.
 
-To learn more about the launch of India and UK data residency for Teams, read Ansuman Acharya's blog post, [Microsoft Teams launches India Data Residency, other geos coming soon](https://go.microsoft.com/fwlink/?linkid=867773). 
+To learn more about the launch of India and UK data residency for Teams, read Ansuman Acharya's blog post, [Microsoft Teams launches India Data Residency, other geos coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
 
-For more info on Canada data residency for Teams, see [Microsoft Teams Launches Canada Data Residency, Australia and Japan coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
+For more information on Canada data residency for Teams, read Varun Sagar's blog post, [Microsoft Teams Launches Canada Data Residency, Australia and Japan coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
 
-To see which region houses data for your tenant, go to the [Office 365 Admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**. 
+To learn more about the launch of Australia and Japan data residency for Teams, read Varun Sagar's blog post, [Microsoft Teams Launches Australia and Japan Data Residency ](https://go.microsoft.com/fwlink/?linkid=867773). 
 
-![Screenshot of the Data location table, including Teams, in the Office 365 Admin center.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+To see which region houses data for your tenant, go to the [Office 365 admin center](https://portal.office.com/adminportal/home) > **Settings** > **Organization profile**. Scroll down to **Data location**. 
+
+![Screenshot of the Data location table, including Teams, in the Office 365 admin center.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 How do Conditional Access policies work for Teams?
 -------------------------
 
-Microsoft Teams relies heavily on Exchange Online, SharePoint Online and Skype for business online for core productivity scenarios, like meetings, calendars, interop chats & file sharing. Conditional access policies that are set for these cloud apps apply to Microsoft Teams when a user signs directly into Microsoft Teams - on any client. 
+Microsoft Teams relies heavily on Exchange Online, SharePoint Online, and Skype for Business Online for core productivity scenarios, like meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Microsoft Teams when a user directly signs in to Microsoft Teams - on any client. 
 
-Microsoft Teams is supported separately as a cloud app in Azure Active Directory conditional access policies. Conditional access policies that are set for the Microsoft Teams cloud app apply to Microsoft Teams when a user signs in. However, without the correct policies on other apps like Exchange Online and SharePoint Online users may still be able to access those resources directly. For more informaton about setting up a conditional access policy in the azure portal, please go here: (https://docs.microsoft.com/en-us/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+Microsoft Teams is supported separately as a cloud app in Azure Active Directory conditional access policies. Conditional access policies that are set for the Microsoft Teams cloud app apply to Microsoft Teams when a user signs in. However, without the correct policies on other apps like Exchange Online and SharePoint Online, users may still be able to access those resources directly. For more informaton about setting up a conditional access policy in the azure portal, go to: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
 
 Microsoft Teams desktop clients for Windows and Mac support modern authentication. Modern authentication brings sign-in based on the Azure Active Directory Authentication Library (ADAL) to Microsoft Office client applications across platforms.
 
-Microsoft Teams desktop application supports AppLocker.  For more information about AppLocker prerequisites, please see: Requirements to use AppLocker (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker).
+Microsoft Teams desktop application supports AppLocker.  For more information about AppLocker prerequisites, please see: Requirements to use AppLocker (https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker).
 
 Privacy in Teams
 --------------------------

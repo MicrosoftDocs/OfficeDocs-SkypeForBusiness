@@ -3,10 +3,11 @@ title: Configure the Skype Meetings App to work with Teams
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
-ms.date: 08/21/2018
+ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
-description: Admins can use the Microsoft Teams and Skype Admin Center to configure the Skype Meetings App to work with Teams
+search.appverid: MET150
+description: Admins can use the Microsoft Teams & Skype for Business Admin Center to configure the Skype Meetings App to work with Teams
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
@@ -15,11 +16,11 @@ appliesto:
 Configure the Skype Meetings App to work with Teams
 ===================================================
 
-After a user is upgraded to Microsoft Teams, admins can use the Microsoft Teams and Skype Admin Center to specify the preferred app that users will use to join Skype for Business meetings.
+After a user is upgraded to Microsoft Teams, admins can use the Microsoft Teams & Skype for Business Admin Center to specify the preferred app that users will use to join Skype for Business meetings.
 
 To specify the Skype for Meetings App as the preferred app:
 
-1. Sign in to the Microsoft Teams and Admin Center.
+1. Sign in to the Microsoft Teams & Skype for Business Admin Center.
 2. In the left pane, under **Org-wide settings**, select **Teams upgrade**.
 3. On the Teams upgrade page, under **App preferences**, select **Skype Meetings App**  from the **Preferred app for users to join Skype for Business meetings** drop-down list.
 
@@ -36,5 +37,5 @@ Users who use the Skype Meetings App with Teams are subject to the following lim
 
 For more information about the Skype Meetings App, see:
 
-- [What is Skype Meetings App (Skype for Business Web App)](https://support.office.microsoft.com/en-us/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5?ui=en-US&rs=en-US&ad=US)
-- [Skype Meetings App minimum network requirements](https://technet.microsoft.com/en-us/library/mt845808.aspx)
+- [What is Skype Meetings App (Skype for Business Web App)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
+- [Skype Meetings App minimum network requirements](https://technet.microsoft.com/library/mt845808.aspx)

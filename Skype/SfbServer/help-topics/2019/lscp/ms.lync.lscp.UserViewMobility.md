@@ -15,15 +15,15 @@ description: "The View - Mobility Policy dialog displays the properties of the s
 ---
 
 # Users: View Mobility Policy
- 
+
 The **View - Mobility Policy** dialog displays the properties of the selected mobility policy.
-  
-For details about assigning mobility policies, see [Assign a Per-User Mobility Policy](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) and [Configuring Mobility Policy](http://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
-  
+
+For details about assigning mobility policies, see [Assign a Per-User Mobility Policy](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) and [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
+
 ## See also
 
-[Planning for Mobility](http://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
-  
-[Deploying Mobility](http://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
-  
-[Mobility Policies](http://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)
+[Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+
+[Deploying Mobility](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+
+[Mobility Policies](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)

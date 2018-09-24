@@ -8,13 +8,14 @@ ms.topic: article
 ms.assetid: 95a08f84-04e5-4f72-88a8-d6472a7c89d7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -29,7 +30,7 @@ When you are setting up **Audio Conferencing** for Microsoft Teams, dial-in phon
   
 ## Audio Conferencing coverage and pricing
 
-For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Country and region availability for Audio Conferencing and Calling Plans](/skypeforbusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). For pricing information, see [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing information, see [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
 ## Dial-in phone numbers in a meeting invite
 
@@ -50,7 +51,7 @@ While the default audio conferencing number that is assigned to an organizer is 
 
 Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge will be one from the country/region of the organization.
 
-To see a list of those countries/regions that have phone numbers automatically assigned to organizations, see [Country and region availability for Audio Conferencing and Calling Plans](/skypeforbusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+To see a list of those countries/regions that have phone numbers automatically assigned to organizations, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
     
 > [!NOTE]
 > The country or region location of your organization can be found by signing in to the **Office 365 admin center** and looking under **Organization Profile**. 
@@ -61,7 +62,7 @@ To see a list of those countries/regions that have phone numbers automatically a
 
 ## What else should you know?
 
-- To see the list of supported languages for audio conferencing, see [Audio Conferencing supported languages](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).
+- To see the list of supported languages for audio conferencing, see [Audio Conferencing supported languages](audio-conferencing-supported-languages.md).
     
 - You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
     
