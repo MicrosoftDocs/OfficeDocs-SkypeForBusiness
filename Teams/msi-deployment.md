@@ -58,7 +58,7 @@ If a user uninstalls Teams from their User Profile, the MSI installer will track
 > [!TIP] 
 > You can use our [Microsoft Teams deployment clean up](.\scripts\Powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via SCCM. 	
 					
-## Disable auto lanuch for the MSI installer
+## Disable auto launch for the MSI installer
 
 If you want to disable auto launch, enter the following command prompt:
 
