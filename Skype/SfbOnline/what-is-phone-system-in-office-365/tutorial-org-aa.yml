@@ -348,8 +348,8 @@ items:
     
     |After hours call handling |  |
     |:---  | :---  |
-    | ![Number 1](../images/sfbcallout1.png) Company greeting	| Create a custom greeting, callers will hear: Script 2 above |
-    | ![Number 2](../images/sfbcallout2.png) What happens to the calls after the greeting?|	Redirect call- Send to: Person in your company: **Julie Wolfe**. <br/> The call will go to voicemail when not picked up.  |
+    | ![Number 1](../images/sfbcallout1.png) Company greeting	| Create a custom greeting, callers will hear: Copy/paste Script 2 above |
+    | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?|	Redirect call- Send to: Person in your company: **Julie Wolfe**. <br/> The call will go to voicemail when not picked up.  |
     |  |   |
 
     
@@ -363,8 +363,8 @@ items:
 
     |Nested Auto Attendant: Hours&Location (nested under Business Hours) | |
     |:---  |:---  |
-    |Company greeting	| None ![Number 1](../images/sfbcallout1.png)|
-    |What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt<br/> <br/>Callers will hear: Copy/paste Script 5 above ![Number 2](../images/sfbcallout2.png)
+    | ![Number 1](../images/sfbcallout1.png) Company greeting	| None |
+    | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt<br/> <br/>Callers will hear: Copy/paste Script 5 above 
     |  |   |
     
 
