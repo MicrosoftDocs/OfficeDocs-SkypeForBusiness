@@ -11,6 +11,8 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: "Learn how to configure one Session Border Controller (SBC) to serve multiple tenants."
 ---
 

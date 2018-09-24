@@ -6,7 +6,9 @@ manager: serdars
 ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: msteams
+ms.service: 
+- msteams
+- skype-for-business-online
 ms.collection: 
 - Adm_Skype4B_Online 
 - Teams_ITAdmin_Help

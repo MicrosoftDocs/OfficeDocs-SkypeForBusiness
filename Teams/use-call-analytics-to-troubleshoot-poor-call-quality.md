@@ -8,7 +8,9 @@ ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: 
+- skype-for-business-online
+- msteams
 ms.collection: 
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online 

@@ -7,7 +7,9 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: none
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: 
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online

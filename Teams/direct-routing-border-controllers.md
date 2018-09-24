@@ -7,10 +7,14 @@ ms.audience: ITPro
 ms.topic: article
 ms.service:  
 - msteams
+- skype-for-business-online
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Skype for Business
+- Microsoft Teams
 description: "Microsoft partners with selected SBC vendors to certify their SBC for work with Direct Routing."
 ---
 

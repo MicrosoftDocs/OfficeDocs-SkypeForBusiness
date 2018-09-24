@@ -7,7 +7,9 @@ ms.reviewer: mikedav, wlooney
 ms.topic: article
 ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd 
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: 
+- skype-for-business-online
+- msteams
 ms.collection: 
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online 
