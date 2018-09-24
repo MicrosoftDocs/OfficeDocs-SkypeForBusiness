@@ -7,7 +7,7 @@ ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: An overview of security and compliance features of Microsoft Teams, including auditing and reporting, compliance content search, eDiscovery, and more.
+description: Current list of known issues for the Microsoft Teams retention policies.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
@@ -17,11 +17,13 @@ appliesto:
 
 # Known issues for retention policies in Microsoft Teams
 
-1. Under Choose Teams in the Teams Channel messages location row, you may see Office 365 Groups that are not also Teams. This will be addressed in the future.
+The following are known issues for retention policies in Teams that are being tracked and investigated.
 
-1. Under Choose Users in the Teams Chat location row, you may see guests and non-mailbox users. Retention policies are not meant to be set for guests, and we are working to remove these from the list. 
+- Under Choose Teams in the Teams Channel messages location row, you may see Office 365 Groups that are not also Teams. This will be addressed in the future.
 
-1. Exchange Life Cycle assistant (ELC) runs daily, but it has an SLA of 7 days. As a result, it's possible that, if you have a Teams retention policy to delete items older than 60 days, these items could persist for up to 67 days. This isn't a new situation - it follows the Exchange model. Of course, in most cases, there is no delay.
+- Under Choose Users in the Teams Chat location row, you may see guests and non-mailbox users. Retention policies are not meant to be set for guests, and we are working to remove these from the list.
+
+- Exchange Life Cycle assistant (ELC) runs daily, but it has an SLA of 7 days. As a result, it's possible that, if you have a Teams retention policy to delete items older than 60 days, these items could persist for up to 67 days. This isn't a new situation - it follows the Exchange model. Of course, in most cases, there is no delay.
 
 
 | | | |

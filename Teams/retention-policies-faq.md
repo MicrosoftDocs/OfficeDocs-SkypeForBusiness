@@ -18,9 +18,9 @@ appliesto:
 
 ## Microsoft Teams retention policies FAQ
 
-### What types of policies can I setup in Retention policies and how do they work?
+### What types of policies can I set up in retention policies and how do they work?
 
-In the SSecurity & Compliance Center, when you set up a retention policy, for Teams or for any other workload, you can set up two main types of policies: 
+In the Security & Compliance Center, when you set up a retention policy, for Teams or for any other workload, you can set up two main types of policies: 
 - Preservation: These policies ensure that your data is preserved for a given period of time, no matter what happens in the end user tools. They ensure that data is preserved for compliance reasons and available in eDiscovery until this time expires. After the time expires, your policy can indicate whether to do nothing or delete the data. In Teams, if you create a preservation policy for 7 years, even if end users delete their Teams messages, these messages are still preserved for eDiscovery for 7 years.
 - Deletion: These policies ensure that data is not a liability for your organization. After the specified duration, data is deleted from all relevant storage in Teams. 
 
@@ -44,7 +44,7 @@ Yes, you do. In the policy creation wizard, in the Locations step, you can inclu
 
 If you use the Group mailbox and User mailbox location rows for Exchange Online, Teams data will be deleted from the specified mailboxes. However, this only removes data from the mailbox. It doesn’t delete other Teams data, such as chats service. We recommend that you use Teams retention policies to properly manage all Teams data. A Teams retention policy removes teams data from all storage locations – Mailboxes, Chat service, Teams clients. 
 
-Note: Launch of the Retention policies feature for Teams makes sure that only Teams policies delete Teams items stored inside Exchange mailbox locations (user or group). Other policies setup on mailboxes cannot affect Teams items. This was true in the past, but has been fixed with the launch of retention policies feature. 
+Note: Launch of the retention policies feature for Teams makes sure that only Teams policies delete Teams items stored inside Exchange mailbox locations (user or group). Other policies setup on mailboxes cannot affect Teams items. This was true in the past, but has been fixed with the launch of retention policies feature. 
 
 ### What happens to Skype for Business Online and Teams interop chats – are they affected by retention policies?
 
