@@ -3,7 +3,7 @@ title: "Validated Lync Applications"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 Robots: 
