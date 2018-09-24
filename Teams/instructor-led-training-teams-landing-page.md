@@ -31,7 +31,7 @@ ms.date: 08/24/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image1.svg" alt="An arrow pointing up and to the left next to a hand with the index finger pointing up" />
+                                                        <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image1.svg" alt="An arrow pointing up and to the left next to a hand with the index finger pointing up" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -88,12 +88,12 @@ ms.date: 08/24/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image4.svg" alt="teacher at a podium with students looking at a projector screen" />
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image4.svg" alt="teacher at a podium with students looking at a projector screen" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
                                                 <h3>Make the switch from Skype for Business to Teams: end user guidance</h3>
-                                                    <p>This course covers what you need to quickly start chatting, meeting, and calling in Teams.</p>
+                                                    <p>This course covers what you need to quickly start chatting, meeting, and calling in Teams as your organization transitions from Skype for Business to Teams.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -107,31 +107,12 @@ ms.date: 08/24/2018
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image3.svg" alt="graduation cap with tassle" />
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image3.svg" alt="graduation cap with tassle" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
                                                 <h3>More training coming soon!</h3>
                                                 <p>Keep checking back to take additional instructor-led courses as we launch them.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://review.docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image6.svg" alt="3 people sitting around a table" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Spare tile</h3>
-                                                <p>We can remove this one before going live if we don't have anything else.</p>
                                             </div>
                                         </div>
                                     </div>
