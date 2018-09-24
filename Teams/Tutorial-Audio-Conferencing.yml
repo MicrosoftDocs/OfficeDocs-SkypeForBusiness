@@ -14,9 +14,13 @@ metadata:
   ms.topic: tutorial
   localization_priority: Normal
   search.appverid: MET150
+<<<<<<< HEAD
   ms.collection:
   - Teams_ITAdmin_PracticalGuidance
   - Teams_ITAdmin_Training
+=======
+  ms.collection: Teams_ITAdmin_Training
+>>>>>>> master
   appliesto:
   - Microsoft Teams
 
