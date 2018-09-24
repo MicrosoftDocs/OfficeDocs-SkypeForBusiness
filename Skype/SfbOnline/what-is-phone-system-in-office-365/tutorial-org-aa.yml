@@ -28,18 +28,11 @@ items:
 - durationInMinutes: 2
   content: |
     
-    [Microsoft Teams](/MicrosoftTeams/Teams-overview.md) and [Skype for Business](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) 
-    are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place.    
-    [**Phone System**](/MicrosoftTeams/what-is-phone-system-in-office-365) is the Microsoft technology for enabling call control and PBX capabilities in the Office 365 
-    cloud for use with Skype for Business Online and Microsoft Teams. 
+    [Microsoft Teams](/MicrosoftTeams/Teams-overview.md) and [Skype for Business](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) are both part of Office 365 that provide chat, phone conversations, voicemail, meetings, files, and apps together in one place. They both use [**Phone System**](/MicrosoftTeams/what-is-phone-system-in-office-365) to enable call control and PBX capabilities in the Office 365 cloud. 
 
-    Phone System allows you to replace your existing PBX system with a [set of features](/MicrosoftTeams/here-s-what-you-get-with-phone-system) that include voicemail and  
-    [Auto attendants](/microsoftteams/what-are-phone-system-auto-attendants), which 
-    let people who call your business navigate a menu system to get them to the right department, person, or the Operator. 
-    Auto Attendants can be used with either Teams or Skype for Business. You create an Auto Attendant system for your organization using the Skype for Business admin center.
+    Phone System allows you to replace your existing PBX system with a [set of features](/MicrosoftTeams/here-s-what-you-get-with-phone-system) that include voicemail and [Auto attendants](/microsoftteams/what-are-phone-system-auto-attendants), which let people who call your business navigate a menu system to get them to the right department, person, or the Operator. Auto Attendants can be used with either Teams or Skype for Business. You create an Auto Attendant system for your organization using the Skype for Business admin center.
     
-    If you are asked to set up an Auto Attendant, this article will guide you through planning and implementing Auto Attendants for a hypothetical small business. 
-    It's not a one-size-fits-all solution, but it is a good starting point. 
+    If you are asked to set up an Auto Attendant, this article will guide you through planning and implementing Auto Attendants for a hypothetical small business. It's not a one-size-fits-all solution, but it is a good starting point. 
   
     ## Before you begin
 
@@ -50,7 +43,7 @@ items:
     - Reviewed [What are Phone System auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants.md) to get a 
     better understanding of the Phone System features that can interact with an Auto Attendant.
 
-    Also, you'll be pleased to discover that most of the planning and design portion can be done using a white board or index cards, having a good plan 
+    Also, you'll be pleased to discover that most of the planning and design portion can be done using a white board or index cards: having a good plan 
     isn't technically demanding.
 
 - title: Assess business needs
