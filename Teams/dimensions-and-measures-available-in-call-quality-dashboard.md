@@ -25,6 +25,9 @@ description: "Get detailed information about the dimensions and measures exposed
 
 The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the dimensions and measures exposed by CQD. To learn more about CQD and how to enable it, see [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](turning-on-and-using-call-quality-dashboard.md).
 
+> [!NOTE]
+> Teams bandwidth handling improves on Skype for Business Online. For the best calling or meeting experience (with full modality), Teams requires only 1.2 Mbps. For audio only, Teams requires just 50 Kbps. When a Teams request encounters a low bandwidth condition, Teams can quickly readjust bandwidth assignments to handle the network traffic.
+
 ## First and Second endpoint classification
 
 Many of the dimensions and measures in Call Quality Dashboard (CQD) are labeled as first or second. The following logic determines which endpoint involved in the stream or call is labeled as first:
