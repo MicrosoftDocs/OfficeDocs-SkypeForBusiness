@@ -7,6 +7,7 @@ layout: landingpage
 ms.date: 09/21/2018
 ms.topic: landing-page
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Training
 search.appverid: MET150
 description: Training videos, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
 ms.topic: landing page
@@ -135,7 +136,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Architecture</h3><p>[Video: Foundations - Core components of Teams](https://www.youtube.com/watch?v=xJBvJTDiQqg)</p>
+                        <h3>Architecture</h3><p>[Video: Foundations - Core components of Teams](http://aka.ms/teams-foundations)</p>
                     </div>
                 </div>
             </div>
@@ -147,7 +148,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                     <div class="cardText">
                         <h3>Plan & deploy</h3>
                          <p>[Quick start: Teams planning guide](quick-start-enable-teams.md)</p>
-                         <p>[Video: Teams Windows desktop client](https://www.youtube.com/watch?v=zp1_wGzq1ic)</p>
+                         <p>[Video: Teams Windows desktop client](http://aka.ms/teams-clients)</p>
                     </div>
                 </div>
             </div>

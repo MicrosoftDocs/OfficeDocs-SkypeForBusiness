@@ -9,7 +9,7 @@ ms.service: msteams
 description: Learn the best practices for user feedback methods in Microsoft Teams to ensure the best team experience possible.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---
