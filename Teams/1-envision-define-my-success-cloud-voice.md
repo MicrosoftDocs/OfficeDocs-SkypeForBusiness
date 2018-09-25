@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Measure the results of your Audio Conferencing, Phone System with Calling Plans, or Phone System Direct Routing deployment, and verify you've achieved the outcomes you wanted.
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection: Teams_ITAdmin_PracticalGuidance
 localization_priority: Normal
 appliesto:
 - Microsoft Teams

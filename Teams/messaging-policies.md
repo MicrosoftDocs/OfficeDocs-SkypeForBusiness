@@ -7,6 +7,7 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.audience: Admin
 appliesto:
 - Microsoft Teams

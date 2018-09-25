@@ -12,7 +12,7 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---

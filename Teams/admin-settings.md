@@ -12,7 +12,7 @@ description: Learn to allow and enable apps in Microsoft Teams including side-lo
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin 
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 - 

@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: 
 localization_priority: Normal
 search.appverid: MET150
+ms.collection: Teams_ITAdmin_Help
 description: Learn how to upload to a site.
 ms.custom:
 - NewAdminCenter_Update

@@ -10,7 +10,7 @@ ms.reviewer: dansteve
 description: Learn what to look for when checking your environment’s readiness for Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---

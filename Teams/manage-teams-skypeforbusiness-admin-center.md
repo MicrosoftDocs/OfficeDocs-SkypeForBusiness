@@ -5,14 +5,16 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/23/2018
 ms.topic: article
-ms.service: msteams
+ms.service: 
+- msteams
+- skype-for-business-online
 ms.reviewer: 
 search.appverid: MET150
 description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Office 365 Admin center to the new Microsoft Teams & Skype for Business Admin Center.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 - Skype for Business Online

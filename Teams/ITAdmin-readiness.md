@@ -7,6 +7,7 @@ layout: landingpage
 ms.date: 09/21/2018
 ms.topic: landing-page
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Training
 search.appverid: MET150
 description: Training videos, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
 ms.topic: landing page
