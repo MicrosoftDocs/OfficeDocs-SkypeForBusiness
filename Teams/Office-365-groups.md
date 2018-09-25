@@ -18,7 +18,7 @@ Office 365 Groups and Microsoft Teams
 =====================================
 
 > [!Tip]
-> Watch the following session to learn how Teams interacts with Azure Active Directory (AAD), Office 365 Groups, Exchange, SHarePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
+> Watch the following session to learn how Teams interacts with Azure Active Directory (AAD), Office 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
 
 Office 365 Groups is the cross-application membership service in Office 365. At the basic level, an Office 365 Group is an object in Azure Active Directory with a list of members and a loose coupling to related workloads including a SharePoint team site, Yammer Group, shared Exchange mailbox resources, Planner, PowerBI and OneNote. You can add or remove people to the group just as you would any other group-based security object in Active Directory.
 
