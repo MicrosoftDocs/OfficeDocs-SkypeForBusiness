@@ -26,11 +26,11 @@ description: "As an Office 365 admin, you can edit the Microsoft Teams Audio Con
 
 As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-In the Microsoft Teams & Skype for Business Admin Center
+## ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
-2. At the top of the page, click **Edit**.
+2. Click **Edit**.
 
 3. Under **Audio Conferencing**, modify any of the following:
 
@@ -42,7 +42,8 @@ In the Microsoft Teams & Skype for Business Admin Center
 |**PIN** |Click **Reset PIN** if you need to reset the PIN for the user. For more information, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams.md). |
 |**Default conferencing toll phone number** (required) |These will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests. To change the default toll number, click **Edit** next to **Audio Conferencing** and in the **Audio Conferencing** pane, select a number under **Toll number**. |
 |**Invites from this user can include toll-free number**|To change this setting, click **Edit** next to **Audio Conferencing** and in the **Audio Conferencing** pane, toggle **Include toll-free numbers in meeting requests from this user** On or Off. |
-|**Dial-out permissions**|To change this setting, click **Edit** next to **Audio Conferencing** and in the **Audio Conferencing** pane, choose an option under **Dial-out permission from meetings**.|
+|**Unauthenticated users can be the first person in the meeting**|To change this setting, toggle **Unauthenticated users can be the first person in the meeting** On or Off.
+|**Dial-out permissions**|To change this setting, click **Edit** next to **Audio Conferencing** and in the **Audio Conferencing** pane, choose an option under **Dial-out from meetings**.|
 
 ![Shows the Audio Conferencing settings for a user](media/sfbaudioconf-usersettings.png)
  
