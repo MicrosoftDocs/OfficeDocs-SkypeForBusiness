@@ -271,4 +271,4 @@ You can get more information on how to make changes to caller ID settings in you
 
 [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
-[Quick Start - Set up the Auto Attendant for a small business](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+[Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)

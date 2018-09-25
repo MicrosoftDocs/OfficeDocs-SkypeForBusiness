@@ -1,7 +1,7 @@
 ### YamlMime:Tutorial
-title: Quick Start - Set up the Auto Attendant for a small business
+title: Small business example - Set up an auto attendant
 metadata:
-  title: Quick Start - Set up the Auto Attendant for a small business
+  title: Small business example - Set up an auto attendant
   description: For IT admins, plan Auto Attendants across your organization.
   audience: IT Pro
   level: Intermediate
@@ -40,7 +40,7 @@ items:
     - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system.md) with a [Calling Plan](/MicrosoftTeams/what-are-calling-plans-in-office-365) 
     to provide phone numbers to your users.
     - [Set up Phone System voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) 
-    - Reviewed [What are Phone System auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants.md) to get a 
+    - Reviewed [What are Phone System auto attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md) to get a 
     better understanding of the Phone System features that can interact with an Auto Attendant.
 
     Also, you'll be pleased to discover that most of the planning and design portion can be done using a white board or index cards: having a good plan 
