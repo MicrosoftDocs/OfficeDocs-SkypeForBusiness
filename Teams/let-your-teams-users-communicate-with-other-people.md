@@ -7,7 +7,7 @@ ms.date: 09/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection: Teams_ITAdmin_Help
 ms.audience: Admin
 search.appverid: MET150
 appliesto:

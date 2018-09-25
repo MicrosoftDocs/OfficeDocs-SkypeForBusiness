@@ -5,10 +5,15 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
+ms.service:  
+- msteams
+- skype-for-business-online
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: 
+ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: "Learn about different combinations of user creation and which combinations are supported or unsupported."
 ---
 
@@ -20,7 +25,7 @@ This article applies to environments in which you have all of the following:
  
 - Skype for Business Server 2015 or Lync Server 2013 
 - An Office 365 tenant 
-- Hybrid connectivity configured between the Skype for Business Server and Skype for Business Online or Teams tenant 
+- Hybrid connectivity configured between the Skype for Business Server and Skype for Business Online or Microsoft Teams tenant 
 - Users who are enabled to make and receive Public Switched Telephone Network (PSTN) calls to and from the client
 
  
