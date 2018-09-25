@@ -259,4 +259,4 @@ Here are the cmdlets that you need to manage an auto attendant.
 
 [What are Phone System auto attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)
 
-[Small business example - Set up an auto attendant](tutorial-org-aa)  
+[Small business example - Set up an auto attendant](tutorial-org-aa.yml)  
