@@ -235,7 +235,7 @@
 ### [Setting up Phone System in your organization](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [What are Phone System auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Set up a Phone System auto attendant](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-#### [Implementation example - Auto Attendants](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+#### [Quick Start - Set up the Auto Attendant for a small business](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
 
 ## [Set up your network for Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [Blocked user licenses for Skype Meeting Broadcast](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
