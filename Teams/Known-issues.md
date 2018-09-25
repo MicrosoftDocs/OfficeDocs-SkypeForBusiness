@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: marcl
 search.appverid: MET150
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
@@ -77,7 +78,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Can't save profile picture  <br/> |Users can't save their profile picture when the Exchange Mailbox is hosted (homed) on-premises.  <br/> |No workaround.  <br/> |2/28/17  <br/> |
+|Can't save profile picture  <br/> |Users can't save their profile picture when the Exchange Mailbox is hosted (homed) on-premises on Exchange 2016 CU2 or lower.  <br/> |No workaround.  <br/> |2/28/17  <br/> |
 
 ## Browser
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -107,9 +108,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |@ Mentions for deleted message send notification with channel link  <br/> |There's a known notification limitation when you are at-mentioned in a message that is deleted; the notification in the feed will navigate to the channel but not to a specific message. <br/> | By design <br/> | 3/28/17  <br/>|
 
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Skype for Business on-premises users aren't getting my messages  <br/> |Messages will not complete when Microsoft Teams users try to send a message to another individual who is using Skype for Business on-premises.  <br/> | Interoperability between Teams and users hosted on Skype for Business Online is supported. Teams users can send 1:1 chats to non-Teams users using Skype for Business Online. <br/> Interoperability between Teams and users hosted on Skype for Business on-premises is not supported. Teams users cannot send 1:1 chats to non-Teams users using Skype for Business on-premises.  <br/> |11/2/16  <br/> |
 
 ## Client
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -147,9 +145,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Skype for Business required for some meetings  <br/> |Your calendar of appointments is conveniently displayed within Microsoft Teams. To enter a meeting, click the **Join** button. <br/> While we are continuing development in this area, if this meeting was scheduled with Skype for Business and you click **Join**, Microsoft Teams will launch your Skype for Business client to complete your entrance into the meeting. Meetings scheduled within Microsoft Teams will initiate directly within the product.  <br/> In the future, we will streamline this experience.  <br/> |Click **Join**. Microsoft Teams will intelligently decide whether Skype for Business is required for a user to join the meeting based on the URL included in the meeting description.  <br/> |3/13/17  <br/> |
 
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Missing **Meetings**be discovered using Exchange auto discovery. <br/> Microsoft Teams does not yet support mailboxes housed in Exchange on icon in the left nav bar <br/> |The **Meetings** icon on the app bar is currently only enabled for users whose mailbox is on Office 365 multi-tenant and a select few dedicated users whose mailbox location can -premises and Exchange Dedicated. This is under investigation; however, there is no timing for delivering this capability.  <br/> |No workaround.  <br/> |3/13/17  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -157,7 +152,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Meetings not available  <br/> |Meeting functionality and icon are not available when Exchange Mailbox is hosted (homed) on-premises.  <br/> |Upgrade to Exchange 2016 CU3 or later for the on-premises deployment.  <br/> |2/28/17  <br/> |
+|Meetings not available  <br/> |Meeting functionality is not available when Exchange Mailbox is hosted (homed) on-premises in version less than Exchange 2016 CU3.  <br/> |Upgrade to Exchange 2016 CU3 or later for the on-premises deployment.  <br/> |2/28/17  <br/> |
 
 ## Mobile
 

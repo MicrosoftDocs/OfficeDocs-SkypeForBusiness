@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 09/12/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: anach
 search.appverid: MET150
 description: Learn what to do when you need to preform an eDiscovery such as when you need to submit all Electronically Stored Information for legal proceedings.

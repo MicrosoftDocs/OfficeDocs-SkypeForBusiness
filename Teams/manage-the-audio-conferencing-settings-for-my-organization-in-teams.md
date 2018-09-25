@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
-ms.collection: 
-- Adm_Skype4B_Online
+ms.collection:  
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -184,6 +184,8 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 2. Select a phone number from the list and click **Edit**.
 
 3. Choose the languages you want under **Default language** and **Alternate languages (optional)**.
+
+4. Click **Save**.
 
 
 See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).

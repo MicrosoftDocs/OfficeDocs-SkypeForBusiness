@@ -5,10 +5,15 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
+ms.service:  
+- msteams
+- skype-for-business-online
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: 
+ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: "This article describes how to monitor and troubleshoot your Direct Routing configuration."
 ---
 

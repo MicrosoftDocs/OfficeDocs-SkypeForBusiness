@@ -40,6 +40,7 @@
 ## [Enable Teams in your organization](Office-365-set-up.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
 ### [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
@@ -78,6 +79,7 @@
 <!-- ============================================================ -->
 # [Upgrade from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
 ## [Upgrade Basic](upgrade-basic.md)
 ### [Sample emails and surveys](upgrade-emails-surveys.md)
 ## [Upgrade Pro](upgrade-pro.md)
@@ -131,6 +133,7 @@
 
 <!-- ============================================================ -->
 # Training
+## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 ## [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)

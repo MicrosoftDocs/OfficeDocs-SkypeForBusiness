@@ -5,9 +5,10 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ---
@@ -31,7 +32,7 @@ For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled f
 - User has consented to the company guidelines, if set up by the admin
 - User has sufficient storage in Microsoft Stream for recordings to be saved
 - User has TeamsMeetingPolicy-AllowCloudRecording setting set to true
-- User has TeamsMeetingPolicy.AllowTranscription setting set to true, so user can choose whether to automatically transcribe the recordings
+- User has TeamsMeetingPolicy-AllowTranscription setting set to true, so user can choose whether to automatically transcribe the recordings
 - User is not an anonymous, Guest, or federated user in the meeting
 
 ## Set up Teams cloud meeting recording for users in your organization

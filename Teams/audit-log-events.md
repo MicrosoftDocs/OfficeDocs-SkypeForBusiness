@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: anach
 search.appverid: MET150
 description: Learn how to retrieve Microsoft Teams data from the Office 365 audit log.

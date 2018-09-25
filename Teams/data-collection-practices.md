@@ -7,8 +7,12 @@ ms.reviewer: mikedav, allancar
 ms.topic: article
 ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online 
+ms.service: 
+- skype-for-business-online
+- msteams
+ms.collection:  
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online 
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
