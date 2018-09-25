@@ -33,7 +33,9 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
 
 ## Resetting the conference ID for a user
 
-1. In the Microsoft Teams & Skype for Business Admin Center, in the left navigation, click **Users**, and then select the user from the list of available users.
+![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
+
+1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
 2. Click **Edit**.
 
