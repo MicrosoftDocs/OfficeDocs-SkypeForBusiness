@@ -7,7 +7,9 @@ ms.reviewer: makolomi
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: 
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online

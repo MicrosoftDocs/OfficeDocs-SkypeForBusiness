@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 description: Learn how to carry out a deployment of Microsoft Teams.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 ---
