@@ -83,7 +83,7 @@ For technical guidance on how to implement these settings, see:
 
 -   [Set up Office 365 groups expiration](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
 
--   [Set up Teams retention policies](security-compliance-overview.md#retention-policies).
+-   [Set up Teams retention policies](retention-policies.md).
 
 -   [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 

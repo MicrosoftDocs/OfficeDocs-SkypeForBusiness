@@ -26,6 +26,7 @@ description: "As an Office 365 admin, you can edit the Microsoft Teams Audio Con
 
 As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
+In the Microsoft Teams & Skype for Business Admin Center
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
