@@ -13,7 +13,6 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
-- Skype for Business
 - Microsoft Teams
 description: "Learn what is needed to migrate to Direct Routing from a Skype for Business Online and Teams configuration perspective."
 ---

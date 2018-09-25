@@ -13,7 +13,6 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
-- Skype for Business
 - Microsoft Teams
 description: "Learn about different combinations of user creation and which combinations are supported or unsupported."
 ---
