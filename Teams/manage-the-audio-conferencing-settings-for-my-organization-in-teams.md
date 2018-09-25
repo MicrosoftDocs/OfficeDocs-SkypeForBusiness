@@ -185,6 +185,8 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 3. Choose the languages you want under **Default language** and **Alternate languages (optional)**.
 
+4. Click **Save**.
+
 
 See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
   
