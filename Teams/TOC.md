@@ -145,6 +145,10 @@
 ## [Place a Teams user or team on legal hold](legal-hold.md)
 ## [Search the audit log for events in Teams](audit-log-events.md)
 ## [Use Content Search in Teams](content-search.md)
+## [Retention policies in Teams](retention-policies.md)
+### [Retention policies FAQ](retention-policies-FAQ.md)
+### [Retention policies known issues](retention-policies-known-issues.md)
+## [Location of data in Teams](location-of-data-in-teams.md)
 ## [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
 ##  [Accessibility solutions for Skype for Business Online and Microsoft Teams](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ##  [Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
@@ -177,7 +181,7 @@
 ### [Accessibility solutions for Skype for Business Online in France](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## Teams & channels
 ### [Overview of teams and channels in Teams](teams-channels-overview.md)
-### [Assign roles and permissions in Teams](assign-roles-permissions.md)
+### [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ### [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ### [Tutorial: Create a company-wide team using PowerShell](company-wide-team-creation-powershell.yml)
 ## [Guest access](guest-access.md)
@@ -203,6 +207,8 @@
 ### [Teams cloud meeting recording](cloud-recording.md)
 ### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ### [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Cloud Video Interop](cloud-video-interop.md)
+#### [Set up Cloud Video Interop](cloud-video-interop-for-teams-set-up.md)
 ### Live events
 #### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
 
@@ -465,8 +471,10 @@
 #### [Languages for voicemail greetings and messages](languages-for-voicemail-greetings-and-messages.md)
 #### [Set the Caller ID for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Implementation example - Auto Attendants](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set up Phone System voicemail](set-up-phone-system-voicemail.md)
 #### [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
+#### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 ### Phone System Direct Routing
 #### [Plan Direct Routing](direct-routing-plan.md)
 #### [Configure Direct Routing](direct-routing-configure.md)
