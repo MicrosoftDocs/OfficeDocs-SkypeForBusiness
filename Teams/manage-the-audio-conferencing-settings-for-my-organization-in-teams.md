@@ -110,7 +110,7 @@ See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams
 
 See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
   
-## Setting the phone numbers included on invites
+## Set the phone numbers included on invites
 
 ![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
@@ -125,7 +125,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
-## Choosing audio conferencing bridge settings
+## Choose audio conferencing bridge settings
 
 **Set the meeting experience when callers join a meeting**
 
