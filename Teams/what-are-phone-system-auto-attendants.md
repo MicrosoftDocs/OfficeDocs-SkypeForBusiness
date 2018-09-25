@@ -271,5 +271,6 @@ You can get more information on how to make changes to caller ID settings in you
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-  
- 
+[Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+
+[Quick Start - Set up the Auto Attendant for a small business](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
