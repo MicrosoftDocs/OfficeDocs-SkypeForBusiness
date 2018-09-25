@@ -30,7 +30,7 @@ The locations data you provide is a single data structure – there’s currentl
 3. Click **Upload**. 
 
 
-You can download a sample template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.tsv?raw=true).
+You can download a sample template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.csv?raw=true).
 
 You can use the following example to help create your data file. 
 
