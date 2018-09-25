@@ -5,8 +5,12 @@ author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
 ms.topic: article
-ms.service: msteams
-ms.collection: Adm_Skype4B_Online 
+ms.service: 
+- msteams
+- skype-for-business-online
+ms.collection: 
+- Adm_Skype4B_Online 
+- Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Skype for Business

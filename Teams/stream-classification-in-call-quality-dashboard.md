@@ -6,8 +6,12 @@ manager: serdars
 ms.reviewer: gageames
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online 
+ms.service: 
+- skype-for-business-online
+- msteams
+ms.collection: 
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online 
 search.appverid: MET150
 ms.audience: Admin
 appliesto:

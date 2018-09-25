@@ -78,7 +78,10 @@ You can change the following elements of a team:
 - **Team privacy** - public or private
 - **Team classification** - backed by your Office 365 group classifications
 - **Team member settings** - select team member settings
-The changes that you make to a team are logged.  If you are modifying group settings (changing the name, description, photo, privacy, classification, or team members) these changes will be attributed to you through the audit pipeline.  If you are performing actions against Teams specific settings your changes will be tracked and attributed to you in the general channel of the team.
+
+
+The changes that you make to a team are logged. If you are modifying group settings (changing the name, description, photo, privacy, classification, or team members), these changes will be attributed to you through the audit pipeline. If you are performing actions against Teams-specific settings, your changes will be tracked and attributed to you in the general channel of the team.
+
 
 ## Learn more
 

@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Manage Microsoft Teams guest access features and capabilities through four different levels of authorization.
