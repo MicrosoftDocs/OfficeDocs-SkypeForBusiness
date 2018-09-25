@@ -22,7 +22,7 @@ If you are a current user of Exchange Server 2013 or Exchange Server 2016, you w
 
 Similar functionality exists in Phone System, and Skype for Business Server 2019 interaction with Phone system is rolling out on a feature-by-feature basis. Please plan accordingly.
 
-In Skype for Business Server 2019 you are now able to use the cloud auto attendant feature described in [What are Phone System Auto Attendants](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+In Skype for Business Server 2019 you are now able to use the cloud auto attendant feature described in [What are Phone System Auto Attendants](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)
 
 To use Cloud Auto Attendant with Skype for Business Server 2019, you will need to create virtual on-prem users that act as application endpoints and can be assigned phone numbers, then use the online Admin Center to configure the overall Cloud AA experience. Typically you will have multiple Auto Attendants, each of which plays an audio outgoing message to callers.
 
@@ -98,11 +98,11 @@ You may find it useful to use the exercises in the tutorial titled [Implementati
 
 ## See Also
 
-[What are Phone System auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+[What are Phone System auto attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)
 
 [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
-[Plan Cloud Auto Attendant](plan-cloud-auto-attendant.md) 
+[Plan Cloud Auto Attendant](plan-cloud-auto-attendant.md)
 
 [Plan Cloud Voicemail service](plan-cloud-voicemail.md)
 
