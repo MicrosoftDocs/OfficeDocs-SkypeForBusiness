@@ -3,7 +3,7 @@ title: Manage teams in the Microsoft Teams & Skype for Business Admin Center
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/14/2018
+ms.date: 09/25/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -71,14 +71,15 @@ You can navigate to the team profile page of any team from the main teams overvi
 
 You can change the following elements of a team:
 - **Users in the team** - you can add or remove members, and promote or demote owners
-- **Channels** - you can add new channels or remove existing channels.  You cannot delete the default "General" channel, and once created you can only edit channel name, not description.
+- **Channels** - you can add new channels or remove existing channels. You cannot delete the default General channel, and once created you can only edit channel name, not description.
 - **Team name**
 - **Team description**
 - **Team photo**
 - **Team privacy** - public or private
 - **Team classification** - backed by your Office 365 group classifications
 - **Team member settings** - select team member settings
-The changes that you make to a team are logged.  If you are modifying group settings (changing the name, description, photo, privacy, classification, or team members) these changes will be attributed to you through the audit pipeline.  If you are performing actions against Teams specific settings your changes will be tracked and attributed to you in the general channel of the team.
+
+The changes that you make to a team are logged. If you are modifying group settings (changing the name, description, photo, privacy, classification, or team members), these changes will be attributed to you through the audit pipeline. If you are performing actions against Teams-specific settings, your changes will be tracked and attributed to you in the general channel of the team.
 
 ## Learn more
 
