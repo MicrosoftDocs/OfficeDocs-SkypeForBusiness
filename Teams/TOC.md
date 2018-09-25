@@ -134,7 +134,6 @@
 <!-- ============================================================ -->
 # Training
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
-## [Instructor-led training for Teams](instructor-led-training-teams.md)
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 ## [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
