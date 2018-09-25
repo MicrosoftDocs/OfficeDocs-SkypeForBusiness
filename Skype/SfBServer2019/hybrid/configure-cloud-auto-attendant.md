@@ -22,7 +22,7 @@ If you are a current user of Exchange Server 2013 or Exchange Server 2016, you w
 
 Similar functionality exists in Phone System, and Skype for Business Server 2019 interaction with Phone system is rolling out on a feature-by-feature basis. Please plan accordingly.
 
-In Skype for Business Server 2019 you are now able to use the cloud auto attendant feature described in [What are Phone System auto attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
+In Skype for Business Server 2019 you are now able to use the cloud auto attendant feature described in [What are Phone System Auto Attendants](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
 To use Cloud Auto Attendant with Skype for Business Server 2019, you will need to create virtual on-prem users that act as application endpoints and can be assigned phone numbers, then use the online Admin Center to configure the overall Cloud AA experience. Typically you will have multiple Auto Attendants, each of which plays an audio outgoing message to callers.
 
@@ -74,10 +74,12 @@ Your online implementation will need to have a plan that includes Phone System a
 
 ## Manually moving an Exchange UM Auto Attendant to Cloud Auto Attendant
 
-1. Get a list of all Auto Attendants by running the following command on the Exchange 2013 or 2016 system while logged in as admin: 
+1. Get a list of all Auto Attendants by running the following command on the Exchange 2013 or 2016 system while logged in as admin:
+
     ```
     Get-UMAutoAttendant | Format-List
     ```
+
 2. For each listed Auto Attendant, note its place in the structure, settings, and get copies of associated sound or text-to-speech file (the guid in the output will be the name of a folder where the files are stored). You can get these details by running the command:
     ```
     Get-UMAutoAttendant -Identity MyUMAutoAttendant
@@ -89,15 +91,16 @@ Your online implementation will need to have a plan that includes Phone System a
     - Holiday schedule
 
 3. Create new onprem endpoints as described above in [Server configuration steps](#server-configuration-steps).
+
 4. Configure a Cloud Auto Attendant system that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps).
 
 You may find it useful to use the exercises in the tutorial titled [Implementation example - Auto Attendants](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of theAuto Attendant and user hierarchies in your old Exchange UM Auto Attendant. 
 
 ## See Also
- 
-[What are Phone System auto attendants?](../../SfbOnline/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 
-[Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+[What are Phone System auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+
+[Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
 [Plan Cloud Auto Attendant](plan-cloud-auto-attendant.md) 
 
