@@ -39,6 +39,7 @@ These steps are necessary whether you are creating a brand new Auto Attendant or
     ```
     New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
     ```
+
     or for a child auto attendant you can omit the phone number as shown:
 
     ```
@@ -49,15 +50,17 @@ These steps are necessary whether you are creating a brand new Auto Attendant or
 
     > [!NOTE]
     > You can also use the `Set-CsHybridApplicationEndpoint` command to a assign a phone number (with the -LineURI option) to the Auto Attendant node that will serve as the initial greeting. This is optional if the auto attendant is a child in the hierarchy. You could do this step later if desired, or reset the phone number at a later time.
+
     ```
     Set-CsHybridApplicationEndpoint -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName AANode1 -LineURI tel:+14255550100
     ```
 
     See [Set-CsHybridApplicationEndpoint](https://docs.microsoft.com/en-us/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
 
-3. (Optional) Once these endpoints are created and the required phone numbers are assigned, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of the Auto Attendants.
+2. (Optional) Once these endpoints are created and the required phone numbers are assigned, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of the Auto Attendants. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load import-module adsync to run the command):
+
     ```
-    Start-ADSyncSyncCycle -PolicyType Initial
+    Start-ADSyncSyncCycle -PolicyType Delta
     ```
     See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
 
