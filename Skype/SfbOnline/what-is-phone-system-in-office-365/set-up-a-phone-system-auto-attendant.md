@@ -257,5 +257,5 @@ Here are the cmdlets that you need to manage an auto attendant.
 
 [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[Quick Start - Set up the Auto Attendant for a small business](tutorial-org-aa.md)  
+[Quick Start - Set up the Auto Attendant for a small business](tutorial-org-aa)  
  
