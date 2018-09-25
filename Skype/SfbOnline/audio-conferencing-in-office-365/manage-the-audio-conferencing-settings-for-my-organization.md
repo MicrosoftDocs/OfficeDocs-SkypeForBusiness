@@ -93,7 +93,7 @@ You can make changes to the email that is automatically sent to your users, incl
 You can make changes to the email sent to users, such as the email address that the email is sent from or the display name for the email by running:
 
 ```
-Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
+Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
 ```
 
 If you want to change the email address information, you need to make sure that the inbound email policies of your organization allow emails that come from the custom email address.
