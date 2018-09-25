@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 description: Learn about the different teams, channels, and apps available to a wide variety of requirements such as finance, event planning, sales, and more.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---
@@ -51,7 +51,7 @@ There are two main roles in Microsoft Teams: a team owner, the person who create
 **Team Settings** 
 Team owners can manage team-wide settings directly in Microsoft Teams. Settings include the ability to add a team picture, set permissions across team members for creating channels, adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes. 
 
-If you are a Microsoft Teams administrator in Office 365, you have access to system-wide settings in the Admin Center. These settings can impact the options and defaults team owners see under team settings. For example, you can enable a default channel, “General”, for team-wide announcements, discussions and resources, which will appear across all teams.
+If you are a Microsoft Teams administrator in Office 365, you have access to system-wide settings in the Teams & Skype for Business Admin Center. These settings can impact the options and defaults team owners see under team settings. For example, you can enable a default channel, “General”, for team-wide announcements, discussions and resources, which will appear across all teams.
 
 By default, all users have permissions to create a team within Microsoft Teams (to modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md). Users of an existing Office 365 Group can also enhance them with Teams functionality.
 

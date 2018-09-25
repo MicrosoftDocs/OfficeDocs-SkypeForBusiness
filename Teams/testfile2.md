@@ -1,4 +1,0 @@
----
-ROBOTS: NOINDEX,NOFOLLOW
----
-

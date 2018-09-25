@@ -13,7 +13,7 @@ search.appverid: MET150
 description: Microsoft Teams installs an add-in into Outlook that lets users schedule a Teams meeting from Outlook.
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---
@@ -43,9 +43,9 @@ To learn more about how to configure authentication, see [Identity models and au
 
 ## Enable private meetings
 
-Allow scheduling for private meetings must be enabled from the [Office 365 admin center](https://portal.office.com/adminportal/home) for the plug-in to get deployed.
+Allow scheduling for private meetings must be enabled in the Teams & Skype for Business Admin Center for the plug-in to get deployed. In the admin center, go to **Meetings** > **Meeting Policies**, and in the **General** section, toggle **Allow scheduling private meetings** to On.)
 
-![Screenshot of the settings in the Calls and meetings section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+![Screenshot of the settings in the Teams & Skype for Business Admin Center.](media/teams-add-in-for-outlook-image1.png)
 
 The Teams client installs the correct add-in by determining if users need the 32-bit or 64-bit version.
 
@@ -66,6 +66,7 @@ The Teams Meeting add-in is still building functionality, so be aware of the fol
 
 If you cannot get the Teams Meeting add-in for Outlook to install, try these troubleshooting steps.
 
+- Ensure all available updates for Outlook desktop client have been applied 
 - Restart the Teams desktop client.
 - Sign out and then sign back in to the Teams desktop client.
 - Restart the Outlook desktop client. (Make sure Outlook isn’t running in admin mode.)

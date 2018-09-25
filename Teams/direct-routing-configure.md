@@ -5,10 +5,15 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
+ms.service:  
+- msteams
+- skype-for-business-online
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: 
+ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: "Learn how to configure Microsoft Phone System Direct Routing."
 ---
 
@@ -342,7 +347,7 @@ In some cases there is a need to route all calls to the same SBC; please use -Nu
 Validate that you’ve correctly configured the route by running the `Get-CSOnlineVoiceRoute` Powershell command using options as shown: 
 
 ```
-New-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
+Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 Which should return:
 <pre>

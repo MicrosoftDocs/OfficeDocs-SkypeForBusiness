@@ -7,8 +7,12 @@ ms.reviewer: mikedav, allancar
 ms.topic: article
 ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online 
+ms.service: 
+- skype-for-business-online
+- msteams
+ms.collection:  
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online 
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -94,7 +98,7 @@ Error reporting data may also contain personally identifiable information such a
 
 Error reporting requires two things:
 
-- The DisableAutomaticSendTracing Group Policy setting be set to False on the server or in the tenant admin center (this is the default state). See [Configure client bootstrapping policies in Skype for Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) for more information.
+- The DisableAutomaticSendTracing Group Policy setting is set to False on the server or in the tenant admin center (this is the default state). See [Configure client bootstrapping policies in Skype for Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) for more information.
     
 - End users individually opt in from the General tab (click the gear icon ![Gear icon](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) and then the **Options** dialog opens with the **General** tab displayed) in the Skype for Business client.
     

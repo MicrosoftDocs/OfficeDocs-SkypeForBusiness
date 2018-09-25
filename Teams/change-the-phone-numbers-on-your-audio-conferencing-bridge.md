@@ -7,9 +7,12 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: 
+- skype-for-business-online
+- msteams
 search.appverid: MET150
-ms.collection:
+ms.collection: 
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -41,7 +44,7 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
 
 1. Sign in to Office 365 with your work account.
 
-2. Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Voice** > **Phone numbers**.
+2. Go to the **Office 365 admin center** > **Admin centers** > **Teams & Skype** > **Legacy portal** > **Voice** > **Phone numbers**.
 
 3. Select the phone number from the list, and in the Action pane, click **Assign**.
 
@@ -60,7 +63,7 @@ The default phone numbers for user are the ones that are included on their meeti
   
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Audio conferencing** > **Users** and select the users in the list.
+2. Go to the **Office 365 admin center** > **Admin centers** > **Teams & Skype** > **Legacy portal** > **Audio conferencing** > **Users** and select the users in the list.
 
 3. Click **Edit** in the action pane.
 
@@ -124,7 +127,7 @@ For more information about the Meeting Migration Service, see [Setting up the Me
 
 1. Sign in to Office 365 with your work or school account.
 
-2. Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Voice** > **Phone numbers**.
+2. Go to the **Office 365 admin center** > **Admin centers** > **Teams & Skype** > **Legacy portal** > **Voice** > **Phone numbers**.
 
 3. Select the phone number from the list, and in the Action pane, click **Unassign**.
 

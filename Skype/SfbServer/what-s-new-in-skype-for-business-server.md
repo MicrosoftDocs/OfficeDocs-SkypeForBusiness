@@ -3,7 +3,7 @@ title: "What's new in Skype for Business Server 2015"
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2018
+ms.date: 12/20/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro

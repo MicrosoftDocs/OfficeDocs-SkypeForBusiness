@@ -3,7 +3,7 @@ title: Manage the Microsoft Teams Commercial Cloud Trial offer
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 09/11/2018
+ms.date: 09/10/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,7 +11,9 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority : Normal
 description: Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams.
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
+appliesto: 
+- Microsoft Teams
 ---
 
 Manage the Microsoft Teams Commercial Cloud Trial offer

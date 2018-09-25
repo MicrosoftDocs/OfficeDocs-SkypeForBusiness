@@ -10,7 +10,7 @@ ms.reviewer: laal
 search.appverid: MET150
 description: Learn about the Microsoft Teams functionality available to guest users.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---

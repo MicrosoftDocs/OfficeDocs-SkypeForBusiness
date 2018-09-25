@@ -8,9 +8,10 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
+ms.collection: Teams_ITAdmin_PracticalGuidance
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ---

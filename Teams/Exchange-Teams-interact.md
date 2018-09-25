@@ -10,13 +10,16 @@ ms.reviewer: crowe
 description: Learn what functionality exists between Microsoft Teams and the various Exchange setups such as creating and joining teams, creating channels, and more.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---
 
 How Exchange and Microsoft Teams interact 
 =========================================
+
+> [!Tip]
+> Watch the following session to learn how Teams interacts with Azure Active Directory (AAD), Office 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
 
 For the full Microsoft Teams experience, every user should be enabled for Exchange Online, SharePoint Online, and Office 365 Group creation.
 
@@ -28,14 +31,16 @@ The following table provides information for users with Exchange Online hosted i
 
 **Actions supported:** 
 
-| User's mailbox is hosted in: | eDisovery| Legal Hold | Retention| Team and Channel mgmt |Create and view meetings| Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail |Add and configure connectors|Add and configure tabs|Add and configure bots| 
+| User's mailbox is hosted in: | eDiscovery| Legal Hold | Retention| Team and Channel mgmt |Create and view meetings| Modify user profile picture | Call History | Manage Contacts | Access Outlook contacts | Voicemail |Add and configure connectors|Add and configure tabs|Add and configure bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|**Exchange Online Dedicated vNext**|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes([allowed list](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Yes|No|No|Yes|Yes|No|No|No|Yes|Yes|
-|**Exchange on-premises** (Sync to Azure AD required)|Yes([allowed list](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|No|No|Yes|Yes(Exchange 2016 CU3+)|No|Yes|Yes|No|No|No|No|Yes|
+|**Exchange Online**|Yes<sup>2</sup>|Yes<sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+|**Exchange Online Dedicated vNext**|Yes<sup>2</sup>|Yes<sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes ([allowed list](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Yes<sup>2, 3</sup>|No|Yes|No|No|Yes|Yes|No|No|No|Yes|Yes|
+|**Exchange on-premises** (Sync to Azure AD required)|Yes ([allowed list](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Yes<sup>2, 3</sup>|No|Yes|Yes(Exchange 2016 CU3+)|No|Yes|Yes|No|No|No|No|Yes|
                                                             
-*\*Exchange 2016 CU3 and above supported*
+<sup>1</sup> Exchange 2016 CU3 and above supported  
+<sup>2</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.  
+<sup>3</sup> Teams private chat messages are not yet supported for Legal Hold for this hosting option.
 
 Additional information:
 
@@ -50,6 +55,8 @@ Additional information:
 -   Users must be enabled for Office 365 group creation to create teams in Microsoft Teams.
 
 -   In Microsoft Teams, security and compliance features like eDiscovery, Content Search, archiving, and legal hold work best in Exchange Online and SharePoint Online environments. For channel conversations, messages are journaled to the group mailbox in Exchange Online, where they're available for eDiscovery. If SharePoint Online and OneDrive for Business (using work or school account) are enabled across the organization and for users, these compliance features are available for all files within Teams as well.
+
+-   For Exchange on-premises (hybrid deployment), you need to configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
 
 > [!NOTE]
 > Currently, if your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.

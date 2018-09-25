@@ -10,7 +10,9 @@ ms.reviewer: MyAdvisor, lolaj
 search.appverid: MET150
 description: Quick start guide for configuring calling plans in Microsoft Teams.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- Teams_ITAdmin_Training
 appliesto: 
 - Microsoft Teams
 ---

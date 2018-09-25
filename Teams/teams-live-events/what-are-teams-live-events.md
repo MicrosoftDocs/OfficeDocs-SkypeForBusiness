@@ -5,6 +5,9 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: 
+- Teams_ITAdmin_Help
+- Teams_ITAdmin_Help
 ms.reviewer: tonysmit
 search.appverid: MET150
 description: Learn how Live events enable users to broadcast video and content to large online audiences in Microsoft Teams, Yammer, and Microsoft Stream.  
@@ -62,7 +65,7 @@ When you are planning Teams live events to hold large meetings in your organizai
 The following prerequisites are required for the user to schedule a Teams live event.
 
 Here are the licenses that must be assigned:  
-- An Office 365 Enterprise E3 or E5 license. 
+- An Office 365 Enterprise E1, E3, or E5 license or an Office 365 A3 or A5 license. 
 - A Microsoft Teams, Skype for Business, and Microsoft Stream license.
 
 It's important to know that an Office 365 license is required to participate in a live event as an authenticated user but this depends on the production method used:
