@@ -73,13 +73,13 @@ You can make changes to the email that is automatically sent to your users, incl
   
 ## Reset the meeting conference ID
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
-2. At the top of the page, click **Edit**.
+2. Under **Audio Conferencing**, click **Reset conference ID**.  
 
-3. Under **Audio Conferencing**, click **Reset conference ID**.  
-
-4. In the **Reset conference ID?** window, click **Reset**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
+3. In the **Reset conference ID?** window, click **Reset**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
 
 See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md).
   
@@ -87,32 +87,32 @@ See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams
 
 Each meeting that a user schedules will get assigned a unique conference ID. Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID. 
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
-2. At the top of the page, click **Edit**.
-
-3. Under **Audio Conferencing**, click **Reset PIN**, and then click **Reset**. 
+2. Under **Audio Conferencing**, click **Reset PIN**, and then click **Reset**. 
   
-    
 Users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent and you will have to manually send the PIN to the user. The PIN will only be shown once after it has been reset. After it's displayed just after being reset, the PIN won't be shown anymore on the user properties; instead, ***** will be shown. 
   
 See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams.md).
   
 ## Send an email with Audio Conferencing information to a user
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
-2. At the top of the page, click **Edit**.
-
-3. Under **Audio Conferencing**, click **Send conference info in email**. 
+2. Under **Audio Conferencing**, click **Send conference info in email**. 
 
     > [!NOTE]
     > When you do this, the audio conferencing PIN isn't sent to the user. 
 
-  
 See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
   
-## Setting the phone numbers included on invites
+## Set the phone numbers included on invites
+
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
@@ -125,10 +125,11 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
-## Choosing audio conferencing bridge settings
+## Choose audio conferencing bridge settings
 
 **Set the meeting experience when callers join a meeting**
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
@@ -162,7 +163,6 @@ See [Change the settings for an Audio Conferencing bridge](change-the-settings-f
   
  **Enable or disable email from being sent to audio users**
 
-
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
 2. At the top of the **Conference Bridges** page, click **Bridge settings**. 
@@ -179,6 +179,8 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
     
 ## See and set the primary (default) and secondary (alternate) languages on an audio conferencing bridge
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
 2. Select a phone number from the list and click **Edit**.
@@ -192,6 +194,7 @@ See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-lan
   
 ## See audio conferencing dial-in numbers
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
