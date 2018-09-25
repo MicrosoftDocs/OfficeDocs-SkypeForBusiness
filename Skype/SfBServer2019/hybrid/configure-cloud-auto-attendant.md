@@ -17,7 +17,7 @@ description: "Instructions for implementing a cloud-based Auto Attendant for you
 
 Skype for Business Server 2019 hybrid implementations only use Cloud Voicemail and do not integrate with Exchange Online.
 
-Using Skype for Business Server 2019 with [Phone System Auto Attendants](https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json) is not yet available.
+Using Skype for Business Server 2019 with [Phone System Auto Attendants](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) is not yet available.
 
 If you are a current user of Exchange Server 2013 or Exchange Server 2016, you will be able to continue to use them as you implement Skype for Business Server 2019. Exchange UM, including Auto Attendant functionality, is being retired in Exchange 2019.
 
