@@ -12,7 +12,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
+f1keywords: ms.teamsadmincenter.liveevents.policies
 - 
 description: "Learn about Teams live events policies and how to use them to manage settings for users in your organization who hold live events."
 ---
