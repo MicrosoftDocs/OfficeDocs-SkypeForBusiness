@@ -1,5 +1,5 @@
 ---
-title: Configure Teams live events
+title: Configure live events in Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -7,12 +7,12 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
 search.appverid: MET150
-description: Learn how to configure live event settings in Microsoft Teams, including attendee visibility and recording options.
+description: Learn how to configure live event settings in Microsoft Teams, including setting attendee visibility and recording options.
 appliesto: 
 - Microsoft Teams
 ---
 
-# Configure Teams live events
+# Configure live events in Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 ## Set up event support link
