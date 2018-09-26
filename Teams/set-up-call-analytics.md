@@ -7,8 +7,12 @@ ms.reviewer: mikedav, wlooney
 ms.topic: article
 ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd 
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online 
+ms.service: 
+- skype-for-business-online
+- msteams
+ms.collection: 
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online 
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -33,7 +37,7 @@ As a Skype for Business Online admin, you can use Call Analytics to troubleshoot
 **Call Analytics is now available in the Microsoft Teams and Skype for Business Admin Center.** To see all of the call information and data for a user, use the **Call History** tab. You can do this by looking on the user's profile page by either searching for the user from the dashboard or finding the user from **Users** in the left navigation.
 
 > [!IMPORTANT]
-> Helpdesk agent permissions and network topology upload will be available in the new admin portal in the coming months. In the meantime, you can continue to use  https://adminportal.services.skypeforbusiness.com for Tier 1 and Tier 2 helpdesk access.
+> Helpdesk agent permissions and network topology upload will be available in the new admin portal in the coming months. In the meantime, you can continue to use https://adminportal.services.skypeforbusiness.com for Tier 1 and Tier 2 helpdesk access.
   
 ## Set Call Analytics permissions
 <a name="BKMK_SetCAPerms"></a>
@@ -67,11 +71,11 @@ Tier 1 helpdesk agents handle basic call-quality problems. Tier 1 agents don't i
     > [!NOTE]
     > If you are in the **Microsoft Teams and Skype for Business Admin Center**, in the left navigation, click **Legacy portal**.
   
-3. In the **Call Analytics (preview)**, click **Permissions**.
+3. Select **Tools** > **Skype for Business Call Analytics (preview)** > **Settings**, and then click **Permissions**.
     
 4. Add the Office 365 security groups to the **Tier 1** and **Tier 2** boxes. You can add multiple groups to each role.
     
-     ![Screenshot shows the Permissions for Call Analytics page with the options for Tier 1 and Tier 2 permissions.](media/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
+     ![Screenshot shows the Permissions for Call Analytics page with the options for Tier 1 and Tier 2 permissions.](media/setup-call-analytics-image1.png)
   
  Users with either of these permission levels get to Call Analytics via the dedicated URL *https://adminportal.services.skypeforbusiness.com*.
   

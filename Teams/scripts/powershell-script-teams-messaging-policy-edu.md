@@ -8,7 +8,9 @@ ms.reviewer: ritikag
 ms.service: msteams
 description: Use this PowerShell script to create a messaging policy in Teams and assign it to users in your organization.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
+appliesto: 
+- Microsoft Teams
 ---
 
 PowerShell script sample - Create and assign a messaging policy

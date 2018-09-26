@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: sonua 
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin 
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 description: Learn to manage meeting policy settings in Teams.

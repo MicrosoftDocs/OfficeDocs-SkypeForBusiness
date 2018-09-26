@@ -56,7 +56,7 @@ Microsoft has produced a white paper on TLS available [here](https://cloudblogs.
 #### Devices
 
 - Lync Room System (a.k.a. SRSv1)
-- Skype Room System (a.k.a. 'SRSv2' or Rigel)
+- Skype Room Systems v2 (a.k.a. SRSv2)
 - Surface Hub
 - 2015 based Survivable Branch Appliance (SBA) or Survivable Branch Server (SBS)
 

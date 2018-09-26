@@ -3,7 +3,7 @@ title: "Skype for Business certification program - How to Join"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: skype
 ms.service: skype-for-business

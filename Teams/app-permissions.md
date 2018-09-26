@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 08/20/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_PracticalGuidance
 search.appverid: MET150
 ms.reviewer: lehewe
 description: Learn what data and permissions apps are requesting from your organization.

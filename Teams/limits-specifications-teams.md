@@ -6,10 +6,10 @@ manager: serdars
 ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: karuanag
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto: 
 - Microsoft Teams
@@ -27,7 +27,7 @@ Teams and channels
 |-----------|---------------|
 |Number of teams a user can create | Subject to a 250 object limit&sup1;         |
 |Number of members in a team | 2,500       |
-|Number of teams a global admin can create        | Unlimited   |
+|Number of teams a global admin can create        | 500,000   |
 |Number of teams an Office 365 tenant can have    | 500,000     |
 |Number of channels per team    | 200         |
 

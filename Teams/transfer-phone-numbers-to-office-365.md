@@ -7,9 +7,12 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 47b3af8e-4171-4dec-8333-c956f108664e
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: 
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection: 
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -45,7 +48,7 @@ Before you start transferring phone numbers, we recommend that you review the in
  
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation go to **Voice** > **Port orders** > click **Add**.
     
@@ -73,7 +76,7 @@ Before you start transferring phone numbers, we recommend that you review the in
     
   - **City**, **State**, **Zip** of the service address.
     
-6. On the **Numbers** page, enter the phone numbers that you want to transfer in E.164 format. For example, for a North America number, use the format +1XXXYYYZZZZ. Separate multiple phone numbers by using a comma.
+6. On the **Numbers** page, enter the phone numbers that you want to transfer in E.164 format. For example, for a North America number, use the format +1XXXYYYZZZZ. Use a comma to separate multiple phone numbers.
     
     > [!NOTE]
     > If you are doing a full-port, you need to include the service Billing Telephone Number (BTN) in the list. If you are doing a partial-port, leave the service Billing Telephone Number (BTN) out of this list. 
@@ -82,7 +85,7 @@ Before you start transferring phone numbers, we recommend that you review the in
     
 7. Click **Proceed**.
     
-8. On the **Transfer date** page, on the **Day** drop down, select the date and under the **Start time** drop down, select the time (EST) and then click **Next**.
+8. On the **Transfer date** page, on the **Day** drop-down list, select the date and under the **Start time** drop-down list, select the time (EST) and then click **Next**.
     
 9. On the **Letter of authorization** page, check each of the following boxes. Then under the **Signature** box, type the person that is authorized to make changes to the account. This is the same name that is used on the **Account Information** page > **Authorizing person**. Then click **Next**.
     
