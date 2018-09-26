@@ -149,16 +149,14 @@ items:
     To do the initial design, you'll need a flexible and easy way to work out hierachies and structures of users and Auto Attendants. Here’s an exercise you 
     can do on any blank wall or whiteboard, using several colors of pen and some sticky notes or index cards and tape:
     1.	For each person with a voicemail account in the business, write their name and phone number on a sticky note or 3x 5 index card. You may need 
-    several notes for the employee who will be the Operator. If you have several colors of note available, it might help to distinguish users and menus at a glance.
-    2.	Mark one note as the main or initial greeting, another as the after hours or holiday greeting (you could easily choose to separate these, but for now we’ll 
-    merge them), one to represent the hours and location recording (if you’re choosing to use one), and one to stand in for the main Auto Attendant, which presents 
-    the first three to five most-used options. If possible, use a different color of note.
-    3.	Place the initial greeting on your board space, then below it place the main Auto Attendant note. If any of the top options go directly to a single employee, 
-    put their note to the right of the note representing the attendant. 
-    4.	It’s unlikely all the options will fit on a single attendant menu, so think about which additional attendants might be needed and how they might nest under 
-    each other and under the main attendant.  
-    5.	If you have an option that leads to a call queue, create a note using a third color, place it below and to the right of the Attendant that connects to 
-    it. Place notes representing the users in the queue to the right of the note representing the queue.
+    several notes for the employee who will be the Operator. If you have several colors of note available, it might help to distinguish users and Auto Attendants at a glance.
+    2.	Mark one note as the Main Auto Attendant, which will include a business hours initial greeting, an after hours greeting, and a main menu. 
+    You'll probably also want  an Auto Attendant to represent the hours and location recording (if you’re choosing to use one), 
+    and additional Auto Attendants as needed to cover the needs of your callers. If possible, use a different color of note to represent Auto Attendants.
+    3.	Place the main Auto Attendant note on your board space, if any of the top options go directly to a single employee put their note to the right of the note representing the attendant. 
+    4.	It’s unlikely all the options will fit on a the Main Auto Attendant menu, so think about which additional attendants might be needed and how they might nest under the main attendant.  
+    5.	If you have an option that leads to a call queue, create a note using a third color, place it below and to the right of the Attendant that connects to the Call Queue.
+    Place notes representing the users in the queue to the right of the note representing the queue, or over the top of it (whichever is clearer to you).
 
     Here’s a diagram representing one way to implement our example:
 
@@ -178,7 +176,7 @@ items:
     much simpler system with fewer options. If that simplicity is important, you can plan to enable the **Dial by Name** option and remove one or more 
     of the nested Auto Attendants that mention specific employees by name.
 
-    This slightly simpler example shows the use of Call Queues and slightly longer menus:
+    This slightly simpler example shows the use of Call Queues and slightly longer menus, therefor needing fewer Auto Attendants:
 
     ![Diagram of Lawyer office AA](../images/AA-LawyerOffice-CallQueues.png)
 
@@ -307,41 +305,52 @@ items:
     Auto Attendants below. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Phone System call queue](create-a-phone-system-call-queue.md)
     for more about Call Queues. If you choose to do this, you'll need to create a valid Call Queue before creating an Auto Attendant menu that refers to the Call Queue.
 
-    Your account must have Admin priveleges: in the **Skype for Business admin center**, click **Call routing** > **Auto attendants**, then click **Add new**.
+    Your account must have Admin priveleges: in the **Microsoft Teams and Skype for Business Admin Center**, click **Legacy Portal** then select **Call routing** > **Auto attendants**, then click **Add new**.
     The following tables show values to enter in the user interface screens. Each table represents a user interface screen.
+
+    A nested auto attendant needs to already exist when you link to it in another auto attendant. 
+    Create the following Auto Attendants in the following order and set their general information, then once they're all created set the 
+    Business hours call handling for the nested auto attendants. 
+    
+    
+
 
     ### Main Auto Attendant
 
     ![New auto attendant page 1.](../images/edacec94-9384-4a87-be0a-5c49a151287e.png)
 
-    **Edit general info**
+    **Edit general info** for the main menu
 
     |   Option   | Setting      |
     |:---  |:---   |
     | ![Number 1](../images/sfbcallout1.png) Name  |   VanArsdel, Ltd.   | 	
     | ![Number 2](../images/sfbcallout2.png) Phone Number	|555-0170  |
     | ![Number 3](../images/sfbcallout3.png) Time Zone	| (UTC-04:00) Eastern Daylight Time (US & Canada) |
-    | ![Number 4](../images/sfbcallout4.png) Language	| English  |
+    | ![Number 4](../images/sfbcallout4.png) Language	| English (United States)  |
     | ![Number 5](../images/sfbcallout5.png) Speech Recognition	| Enabled |
     | ![Number 6](../images/sfbcallout6.png) Operator	| Person in your company: Julie Wolfe |
     |  |  | 
      
-    Enabling **Speech recognition**  will enable voice commands or option choices for all nested menus. 
+    Only the main menu, named *VanArsdel, Ltd.* needs an assigned Phone Number or a Company Greeting.  
+    
+    Enabling **Speech recognition**  will enable voice commands for a given menu. 
     It will also enable callers to say "Operator" and get transferred directly to the Operator.
 
     ![New auto attendant Hours of operation.](../images/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
-    **Select hours of operation**
+    **Select hours of operation** for the main menu
 
     |   Option   | Setting      |
     |:--- | :--- |
     | ![Number 1](../images/sfbcallout1.png) 24/7-Custom| Custom  |
     | ![Number 2](../images/sfbcallout2.png) Selection|  8:30am to 5:30pm, Monday-Friday  |
- 
+    
+    The Default for this screen is 24/7. 
+       
 
     ![Business hours call handling.](../images/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
 
-    **Business hours call handling**
+    **Business hours call handling** for the main menu
 
     |   Option   | Setting      |
     |:---  |:---  |
@@ -350,8 +359,12 @@ items:
     | ![Number 4](../images/sfbcallout4.png) Dial By Name  | Enabled   |
     | ![Number 5](../images/sfbcallout5.png) Edit Menu options	|**1:** Enter the Name of the option: Scheduling <br/>Send to: Person in your company: **Julie Wolfe** <br/>**2:** Enter the Name of the option: Billing <br/>Send to: nested Auto Attendant **Billing** <br/>**3:** Enter the name of the option: Hours <br/>Send to: nested Auto Attendant **Hours&Location** |
     |  |   |
+    
+    The Company Greeting only needs to be set on the main menu, with a nested auto attendant we want to flow straight through to the Custom Prompt.
 
-    **After hours call handling**
+
+    **After hours call handling** for the main menu
+    The After Hours call handling screen is very similar to the Business hours Call handling screen.
     
     |   Option   | Setting|
     |:---  | :---  |
@@ -359,8 +372,19 @@ items:
     | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?|	Redirect call- Send to: Person in your company: **Julie Wolfe**. <br/> The call will go to voicemail when not picked up.  |
     |  |   |
 
-    **Nested Auto Attendant: Billing (nested under Business Hours)**
+    Set up **holidays** and the **dial scope** as you see fit, and save the Main Auto Attendant.  
+
+    ### Nested Auto Attendants
+
+    Set up the General Information for the nested auto attendants using different names but the same Time Zone, Language, Speech Recognition 
+    and Operator settings; they won't require a Phone Number Assigned or Company Greeting. 
+    Set the business hours call handling as shown for each auto attendant.
+    You can leave the hours of operation, holidays, and dial scope settings at their defaults for nested auto attendants. Since they don't have phone numbers associated, they only get accessed as directed in the main Auto Attendant.  
     
+
+    **Nested Auto Attendant: Billing (nested under main menu)**
+
+    Business hours call handling settings for this auto attendant:
     |   Option   | Setting|
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| None |
@@ -369,15 +393,20 @@ items:
     |  | *This Auto Attendant could be replaced with a Call Queue*  |
     | |  |
 
-    **Nested Auto Attendant: Hours&Location (nested under Business Hours)**
+    **Nested Auto Attendant: Hours&Location (nested under main menu)**
+
+    Business hours call handling settings for this auto attendant:
 
     |   Option   | Setting|
     |:---  |:---  |
+    | Name |  Hours&Location| 
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| None |
     | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt<br/> <br/>Callers will hear: Copy/paste Script 5 above 
     |  |   |
 
-    **Nested Auto Attendant: MoreOptions (nested under Business Hours)**     
+    **Nested Auto Attendant: MoreOptions (nested under Main Menu)**     
+
+    Business hours call handling settings for this auto attendant:
 
     |   Option   | Setting|
     |:---  |:---  |
@@ -387,6 +416,8 @@ items:
     |  |   |
 
     **Nested Auto Attendant: Lawyers (nested under More Options)**
+
+    Business hours call handling settings for this auto attendant:
 
     |   Option   | Setting|
     |:---  |:---  |
@@ -398,6 +429,8 @@ items:
 
     **Nested Auto Attendant: Paralegals (nested under More Options)**
 
+    Business hours call handling settings for this auto attendant:
+
     |   Option   | Setting|
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| None |
@@ -407,6 +440,8 @@ items:
     |  |   |
 
     **Nested Auto Attendant: StillMoreOptions (nested under More Options)**
+
+    Business hours call handling settings for this auto attendant:
 
     |   Option   | Setting|
     |:---  |:---  |
@@ -421,7 +456,7 @@ items:
     ### Editing and testing auto attendants
 
     After you have saved your auto attendant, it will be listed on the **Auto Attendants** page of the Admin center. 
-    This will allow you to quickly see some of the options that you have set up, including the name, phone number, language, and status.
+    This will allow you to quickly see some of the options that you have set up.
     
     The best way to test the implementation is to call the number configured for an Auto Attendant and choose options to navigate to each of the auto 
     attendants you've just created. You can also quickly place a test call to your auto attendant by using the **Test button** in the Action pane. 
