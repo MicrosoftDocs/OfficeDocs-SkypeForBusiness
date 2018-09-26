@@ -45,8 +45,8 @@ Our partners have developed gateway solutions to connect third-party standards-b
 
 - HD video (1080p) and Content (VBSS)
 - Support for H.323 and SIP meeting room devices
--Native Teams/Exchange scheduling
--Gateway design instead of VMR
+- Native Teams/Exchange scheduling
+- Gateway design instead of VMR
 
 **Scales for the cloud**
 
