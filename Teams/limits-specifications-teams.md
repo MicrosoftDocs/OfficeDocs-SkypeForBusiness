@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: karuanag
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
