@@ -3,7 +3,7 @@
     
     {
       "source_path": "Teams/company-wide-team-creation-powershell.yml", 
-      "redirect_url": "Teams/create-an-org-wide-team", 
+      "redirect_url": "Teams/create-an-org-wide-team.md", 
       "redirect_document_id": true 
     },
     {
