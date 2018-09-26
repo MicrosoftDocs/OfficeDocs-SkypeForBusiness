@@ -34,7 +34,7 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
   
 ### Complimentary dial out period
 
-As an additional benefit to customers adopting our Office 365 Audio Conferencing service, Microsoft is providing additional benefits related to dial out from meetings organized by users assigned an Office 365Audio Conferencing license through June 30, 2018. For the period through June 30, 2018, users attending meetings organized by licensed users may be allowed, based on permissions granted by the meeting organizer, to make dial-out calls from within the meeting to phone numbers in the following 44 countries:
+As an additional benefit to customers adopting our Office 365 Audio Conferencing service, Microsoft is providing additional benefits related to dial out from meetings organized by users assigned an Office 365 Audio Conferencing license through June 30, 2018. For the period through June 30, 2018, users attending meetings organized by licensed users may be allowed, based on permissions granted by the meeting organizer, to make dial-out calls from within the meeting to phone numbers in the following 44 countries:
   
 |    |
 |-----|

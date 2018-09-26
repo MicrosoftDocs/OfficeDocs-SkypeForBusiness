@@ -33,7 +33,7 @@ Want to know how to get Calling Plans in Office 365 and how much they cost, see 
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation go to **Voice**, then click **Voice users**.
     
