@@ -7,14 +7,16 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 6e12242c-55f7-4bf4-90d7-0f36c0326b8e
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: 
+ms.service: msteams
+search.appverid: MET150
+ms.collection:  
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -31,9 +33,11 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
 
 ## Resetting the conference ID for a user
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
+
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
-2. At the top of the page, click **Edit**.
+2. Click **Edit**.
 
 3. Under **Audio Conferencing** click **Reset conference ID**.
 
@@ -64,7 +68,7 @@ Windows PowerShell is all about managing users and what users are allowed or not
     
   - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
+For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
     
 ## Related topics
 

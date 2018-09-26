@@ -5,6 +5,8 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
+search.appverid: MET150
 description: Learn to use Windows PowerShell to manage all of features found in Microsoft Teams.
 appliesto: 
 - Microsoft Teams
@@ -37,15 +39,15 @@ In addition to a supported operating system, the computer must also be running t
 
 
 ### Step 2: Install PowerShell 3.0 or higher
-[Use this topic for help](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-3-0) 
+[Use this topic for help](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-3-0) 
 
 ### Step 3: Download and install the Teams connector module
-[Use this topic for help](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
+[Use this topic for help](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
 
 Here is the download link from Isabella: https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3
 
 ### Step 4: Connect using the Teams connector module
-[Use this topic for help](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
+[Use this topic for help](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
 
 ### Related topics
 - [Manage Teams features with PowerShell](manage-features-with-powershell.md)

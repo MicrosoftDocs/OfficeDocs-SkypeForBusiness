@@ -3,7 +3,7 @@ title: "Qualified Lync applications"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -11,7 +11,7 @@ ms.collection: Lync
 ms.audience: Admin
 appliesto:
 - Lync
-- Skype for Business 
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -19,7 +19,7 @@ ms.custom:
 - dn788946
 description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
 ---
- 
+
 # Recording applications
 Recording applications allow for the recording, storage, and retrieval of communications for training review, quality analysis and to meet compliance requirements.
 
@@ -54,8 +54,8 @@ SmartTAP is ideal for companies in financial services, trading, manufacturing, m
   **Easy and affordable call recording and monitoring.**
 
 [Enghouse Interactive](http://telrex.com)
- 
-***CallRex Call Recording*** is an enterprise-ready call recording solution for Microsoft Lync. Leveraging the rich history of CallRex software expertise and unique Lync features, CallRex Call Recording offers companies a flexible, yet affordable, call recording and live monitoring software solution. Using CallRex software, companies can capture critical inbound and outbound calls that come through Microsoft Lync clients along with any other device managed through the Lync Server. Even the interactions for those who work remotely on network controlled mobile devices can be recorded. 
+
+***CallRex Call Recording*** is an enterprise-ready call recording solution for Microsoft Lync. Leveraging the rich history of CallRex software expertise and unique Lync features, CallRex Call Recording offers companies a flexible, yet affordable, call recording and live monitoring software solution. Using CallRex software, companies can capture critical inbound and outbound calls that come through Microsoft Lync clients along with any other device managed through the Lync Server. Even the interactions for those who work remotely on network controlled mobile devices can be recorded.
 
 Multiple integration options are available, including: passive server-side recording, passive client-side recording, and active Lync Conference-based recording. CallRex software also includes native Real-Time Audio support.
 
@@ -121,8 +121,8 @@ Need to evaluate and analyze your Lync interactions, add real-time comments to c
 
 [Oracle](http://oracle.com)
 
-***Oracle Communications Interactive Session Recorder*** 
-&#x2014; a scalable and easy-to-deploy Internet Protocol (IP) communications session recording solution. Designed to overcome the connectivity, security, and control challenges associated with capturing real-time session recordings in IP telephony and unified communications (UC) environments, the solution is highly extensible with a rich feature set. 
+***Oracle Communications Interactive Session Recorder***
+&#x2014; a scalable and easy-to-deploy Internet Protocol (IP) communications session recording solution. Designed to overcome the connectivity, security, and control challenges associated with capturing real-time session recordings in IP telephony and unified communications (UC) environments, the solution is highly extensible with a rich feature set.
 
 Service providers and enterprises deploy it in compliance and quality assurance applications. Enterprise IT organizations use it to deliver private cloud-based session recording services.
 
@@ -173,7 +173,7 @@ Features include:
 * * *
 
 ### Related resources
-[Microsoft Lync](http://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
+[Microsoft Lync](https://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
 
 Microsoft Premier Support for Lync Partners on:
 - [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)

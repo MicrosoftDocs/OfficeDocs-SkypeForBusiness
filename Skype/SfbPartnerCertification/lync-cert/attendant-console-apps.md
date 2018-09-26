@@ -3,10 +3,10 @@ title: "Qualified Lync Attendant Console applications"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
-Robots: 
+Robots:
 - nofollow
 - no index
 ms.service: skype-for-business
@@ -14,7 +14,7 @@ ms.collection: Lync
 ms.audience: Admin
 appliesto:
 - Lync
-- Skype for Business 
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -31,7 +31,7 @@ description: "The Attendant console applications allow attendants to manage comm
 **Manage business dialogues with a touch**
 
 [workstreampeople.com](http://www.workstreampeople.com/anywhere365-lync-unified-contact-center/Social-Reception-Attendant)
-		
+
 ***Workstreampeople*** envisions with Anywhere365 that a contact center is no longer a physical &quot;switchboard&quot; entity where incoming calls are manually routed to persons within an organization, but a transparent technology that acts as a natural extension to people's intuitive way of engaging with others.</p>
 
 Since we believe that anybody could be a contact center, the reception is a role model of a contact center. For that reason we developed a reception attendant console from a user friendly perspective, and support all features that reception needs, queue, visual transfers, drag/drop, and swipe or touch (Windows tablet version). Furthermore it offers Exchange calendar integration for availability. Also transfers can be made to groups (UCCs) in order to make, 'functional transfers' possible if the Anywhere365 UCC platform is available for departments and functional groups.
@@ -39,8 +39,8 @@ Since we believe that anybody could be a contact center, the reception is a role
 Available now in 8 languages, that is, English, Dutch, French, German, Spanish, Portuguese, Danish, and Swedish
 
 * * *
-## Competella Multimedia Attendant 
-For Lync 2010, 2013 
+## Competella Multimedia Attendant
+For Lync 2010, 2013
 
 
 **Benefit with new multimedia and unified communications possibilities.**
@@ -55,7 +55,7 @@ Optional functions:
 - Callback
 - Real-time Queue Monitor (Wallboard)
 - Supervisor functions for
-    - silent monitoring, 
+    - silent monitoring,
     - whispering
     - barge-in
 - Multi-tenant support
@@ -87,7 +87,7 @@ InAttend provides:
 
 [PeterConnects Enterprise Attendant Console](http://www.peterconnects.com)
 
-***PeterConnects Attendant Console*** is a powerful operator console allowing fast and easy call handling of large numbers of telephone calls. Calls can be easily answered and transferred to employees using keyboard, mouse or touchscreen. Most operations can be done by single keystroke. 
+***PeterConnects Attendant Console*** is a powerful operator console allowing fast and easy call handling of large numbers of telephone calls. Calls can be easily answered and transferred to employees using keyboard, mouse or touchscreen. Most operations can be done by single keystroke.
 
 Numerous interfaces are supported,the app can combine sources, create a rich telephone directory, and send messages from the console (email, SMS, Chat). The automated attendant adds the functionality to create an open/closed profile, welcome message, choice menus and queue messaging. There are different ways to show the presence-status of employees within the attendant-console; telephony, Lync, Outlook, building access-system. The Web based statistics-module allows customers to compose reports of all calls.
 
@@ -104,7 +104,7 @@ video demo
 Select features include:
 - "Intelligent Transfer Advisor" save 60% of all search activity on the console.
 - Contact directory with typo correction, smart look-ahead, phonetic and full text search
-- Graphical stage with real-time visualization of call and chat sessions 
+- Graphical stage with real-time visualization of call and chat sessions
 - Customizable automated greeting
 - 1-Click malicious call recording and supervisor forwarding
 - Rich presence for extensions and attendant console users
@@ -131,7 +131,7 @@ Additional Functions:
 - Statistics on calls and attendant queues
 - Real hybrid solutions with multiple PBX/Lync systems
 - Supports Lync native UCMA solutions
- 
+
 * * *
 ## UCS Attendant Console
 
@@ -149,7 +149,7 @@ Additional Functions:
 
 [Visionutveckling Vision 80/20](http://www.visionutveckling.se)
 
- 
+
 ***Vision 80/20*** is a presence and availability management system with features that provides an advanced Attendant console that complements and optimizes the Lync platform. The functionality corresponds to demands for high availability and a user-friendly interface in order to provide the best possible customer service.
 
 All the demands made on attendants for the latest information are met by the powerful search engine that presents the information in a clear way. The information is kept updated by integrations to IE, AD, Exchange Calendar, Lync-presence, social media and geo-position.
@@ -187,7 +187,7 @@ Benefits:
 Zylinc Attendant Console is used with Lync by major companies in several industries around the world.
 
 ### Related resources
-[Microsoft Lync](http://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
+[Microsoft Lync](https://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
 
 Microsoft Premier Support for Lync Partners on:
 - [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)

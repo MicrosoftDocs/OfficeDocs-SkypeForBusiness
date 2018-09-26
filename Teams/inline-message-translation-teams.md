@@ -7,8 +7,10 @@ ms.date: 08/16/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: salilda
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 description: Learn how to use inline translation in Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update

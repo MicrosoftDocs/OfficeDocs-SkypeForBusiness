@@ -8,8 +8,9 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Answers to frequently asked questions from administrators of Microsoft Education groups who use Teams.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ---
@@ -25,9 +26,9 @@ To avoid inappropriate or misleading names, or just to provide more structure fo
 -   **Classification** You can create classifications that the users in your organization can set when they create an Office 365 group. 
 
 > [!IMPORTANT]
-> Group naming policy requires Azure Active Directory Premium P1 license for unique users who are members of Office 365 groups.
+> Using the Office 365 Groups Naming Policy requires Azure Active Directory Premium P1 licenses or Azure AD Basic EDU licenses for each unique user that is a member of one or more Office 365 groups.
 
-For detailed instructions, see [Office group naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+For detailed instructions, see [Office groups naming policy](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
 > [!Note]
 > If teams are created automatically by using the input from another system (for example, School Data Sync), verify that the input data complies with the naming policy you’ve configured; if it doesn’t, team creation will fail.
@@ -52,6 +53,9 @@ At the start of each semester or quarter, you’ll need a number of new teams. I
 -   With PowerShell, you can create teams and channels, and configure settings automatically. See [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
 -   You can use the Microsoft Graph API (currently in beta) to create, configure, clone, and archive teams. See [Use the Microsoft Graph API to work with Microsoft Teams](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) for more information.
 
+> [!TIP]
+> School Data Sync creates an Office 365 group for each class synced and [enables hidden group membership](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) so only teachers and students within the class can see the members of that class. If using a different process to create class groups use the HiddenGroupMembershipEnabled parameter of the New-UnifiedGroup cmdlet to meet the same privacy requirements.
+
 ## How do I deal with teams when the semester or quarter ends?
 
 We recommend that you first think about how you want to handle Teams data when the school semester or quarter is over: whether to delete it or keep it available for students even after they’ve completed the course. You’ll want to keep the school calendar in mind so any policies you set don’t conflict with holidays. You can use the following tools to implement your strategy:
@@ -61,6 +65,9 @@ We recommend that you first think about how you want to handle Teams data when t
 
 -   **Archive team:** This setting puts teams into read-only mode. They can still be browsed and searched, but no one can add any new posts. [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) describes how team owners can archive a team; Team owners can also use the [Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) to archive or restore a team.
  
+> [!IMPORTANT]
+> Using the Office 365 Groups Expiration Policy requires Azure Active Directory Premium P1 licenses for each unique user that is a member of one or more Office 365 groups.
+
 ## Are there team templates for my faculty members to use when creating a team?
 
 Yes. Users can select **Create Team from existing template** when creating a new team, and Teams owners can also use the [Graph API (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) to create a new team from the available templates.

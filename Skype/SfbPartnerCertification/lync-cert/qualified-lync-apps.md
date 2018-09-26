@@ -3,7 +3,7 @@ title: "Qualified Lync applications"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -11,7 +11,7 @@ ms.collection: Lync
 ms.audience: Admin
 appliesto:
 - Lync
-- Skype for Business 
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -34,7 +34,7 @@ Designed with enterprise-class industry standards, testing covers performance, r
 
 * * *
 ### Related resources
-[Microsoft Lync](http://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
+[Microsoft Lync](https://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
 
 Microsoft Premier Support for Lync Partners on:
 - [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)

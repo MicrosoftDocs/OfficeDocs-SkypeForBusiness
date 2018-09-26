@@ -8,9 +8,10 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Regularly evaluate opportunities to enhance the Teams service after you upgrade, monitor the Teams roadmap for any interesting feature enhancements.
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ---
@@ -26,7 +27,7 @@ This article gives an overview of the requirements for getting the most out of o
 ## Enhance my service overview
 After you’ve successfully deployed Teams to your organization, and are operating the service with quality and reliability, the next step is to regularly evaluate whether you have any opportunities to enhance your services. This is a part of continuous service improvement planning that is a modern standard for cloud service management. 
 
-A great way to make sure you’re always getting the most out of your services is to monitor the [Teams public roadmaps](https://products.office.com/en-us/business/office-365-roadmap?filters=microsoft%20teams) for new feature enhancements that might be of interest to your organization. If you have access to the Office 365 Admin portal, you’ll receive regular updates from us about new and changing features through our Message Center. 
+A great way to make sure you’re always getting the most out of your services is to monitor the [Teams public roadmaps](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) for new feature enhancements that might be of interest to your organization. If you have access to the Office 365 Admin portal, you’ll receive regular updates from us about new and changing features through our Message Center. 
 
 Additionally, because organizations grow and change, you should take time to revisit and update your business use cases at regular intervals to make sure the service is configured to meet your organization’s current needs.  Ensure you’re getting real-world feedback from your users and internal champions by establishing feedback channels in your organization. These can be informal conversations, regular meeetings, or done through a Teams channel or Yammer community. 
 

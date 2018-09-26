@@ -8,10 +8,11 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: 
 description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---
@@ -113,10 +114,4 @@ Here are common use cases for each application in Office 365. For detailed usage
 
 ## [Teams client release notes](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
-## What happened to the Teams admin FAQ?
 
-While the Teams Admin FAQ was handy when we first released Teams, it quickly became a "junk drawer" that made it hard to find anything specific. So we busted apart the FAQ and incorporated its valuable information into the Teams documentation that you're looking at right now. You'll find all the information that was in the FAQ in this documentation, in context.
-
-If you're looking for something that you can't find here, please tell us about it in the **Feedback** section below. We try to respond to your feedback within 24 hours.
-
-By the way, we **do** still have an FAQ for the [Journey from Skype for Business to Microsoft Teams](FAQ-journey.md). 

@@ -8,9 +8,10 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Accelerated ten-step action plan for upgrading from Skype for Business to Teams 
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ---
@@ -118,7 +119,7 @@ Maintain upgrade momentum by enabling the user upgrade notification via the admi
 
 **Resources:**
 
--   [Setting your coexistence and upgrade settings](upgrade-basic-powershell.md)
+-   [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
 [Return to top](#about-upgrade-basic)
 
@@ -145,13 +146,13 @@ Users are busy with their daily responsibilities. Reminding them of the pending 
 
 *(Upgrade Day)*
 
-Today is the day your organization officially upgrades to Teams as your communication and collaboration solution. In the Office 365 admin portal, activate the upgrade switch by setting the coexistence mode to **Teams Only**. Users will receive a notification in their Skype for Business client that they’ve been upgraded to Teams.
+Today is the day your organization officially upgrades to Teams as your communication and collaboration solution. In the Teams & Skype for Business Admin Center, activate the upgrade switch by setting the coexistence mode to **Teams Only**. (In the admin center, go to **Org-wide Settings** > **Teams Upgrade**.) Users will receive a notification in their Skype for Business client that they’ve been upgraded to Teams.
 
 We recommend that after everyone has been upgraded, you send an email welcoming them to Teams.
 
 **Resources:**
 
--   [Set your coexistence and upgrade settings](upgrade-basic-powershell.md)
+-   [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 -   [Sample email: welcome users to Teams](upgrade-emails-surveys.md#step-7-email)
 
 [Return to top](#about-upgrade-basic)

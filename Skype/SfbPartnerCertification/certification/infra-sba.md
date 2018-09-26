@@ -3,7 +3,7 @@ title: "Skype for Business Certification Program - Survivable Branch Appliance"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -66,7 +66,7 @@ The survivable branch appliances (SBAs) along with the relevant firmware shown i
 		</td>
 	</tr>
 	<tr align="left" valign="top">
-		<td><a href="https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business">Ribbon</a></td>
+		<td><a href="https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business">Ribbon Communications</a></td>
 		<td>SBC 1000</td>
 		<td>
 			<p>SBA V5.0.4 build 412</p>

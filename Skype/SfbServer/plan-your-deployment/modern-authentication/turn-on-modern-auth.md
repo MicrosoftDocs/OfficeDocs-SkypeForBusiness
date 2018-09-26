@@ -55,7 +55,7 @@ __Type 1 Description:__ This is the default scenario when MA is turned __on__ fo
 
 __Type 2 Description:__ This topology blocks NTLM *externally*, but allows NTLM or Kerberos (for clients that don't support ADAL) to work *internally*. If your clients  do support ADAL they will use MA internally.
 
-__Type 3 Description:__ This topology requires MA for all users. All your ADAL-capable clients will work in this topology, and passwords will not be leveraged.
+__Type 3 Description:__ This topology requires MA for all users. All your ADAL-capable clients will work in this topology, and passwords will not be leveraged if, for example, you turn off the use of passwords with Certificate-based Auth.
 
 __Type 4 Description:__ This topology blocks NTLM *externally* and MA internally. It allows *all clients* to use legacy authentication methods *internally* (even ADAL-capable clients).
 
@@ -82,7 +82,15 @@ It may be wisest to do a Get- for these values, and to screenshot or record thei
 > [!IMPORTANT]
 > If you're using Lync Web Access (LWA) and must use Forms-based Access (FBA) for external access, reconfigure LWA so that clients can access it with Anonymous Access to support these scenarios. Likewise, if you use Dial-in Pin, FBA will be blocked for external users only. If they need to change their pin, they will need to login to their corporation to do so, internally.
 
+## Links ##
+- For more PowerShell information:
+    - Get-CsAuthConfig [https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Get-CsAuthConfig.md](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Get-CsAuthConfig.md)
+    - Set-CsAuthConfig [https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsAuthConfig.md](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsAuthConfig.md)
 
+- For more direction on how to use the commands or on the CU needed to install them:
+    - Cmdlets briefing [https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication](https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
+    - Updates for Skype for Business Server 2015 (General) [https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)
+    - The July 2018 Skype for Business Server 2015, Core Components CU (6.0.9319.534) [https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server](https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server)
 
 
  

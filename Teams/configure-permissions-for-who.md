@@ -6,8 +6,9 @@ manager: serdars
 ms.date: 12/07/2017
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+Set_Free_Tag: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---

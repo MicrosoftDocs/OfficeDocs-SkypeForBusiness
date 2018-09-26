@@ -2,21 +2,27 @@
 title: Manage the Microsoft Teams Commercial Cloud Trial offer
 author: ChuckEdmonson
 ms.author: chucked
-manager: lolaj
-ms.date: 07/24/2018
+manager: serdars
+ms.date: 09/10/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
 ms.service: msteams
+search.appverid: MET150
 localization_priority : Normal
 description: Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams.
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
+appliesto: 
+- Microsoft Teams
 ---
 
 Manage the Microsoft Teams Commercial Cloud Trial offer
 =======================================================
 
 Microsoft Teams is a great collaborative tool for your organization. It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365. The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins have the ability to switch on or off this feature for users within their tenant.
+
+> [!NOTE]
+> This offer is not yet publicly available, but will be rolling out over the next month.
 
 ## What's in the offer
 
@@ -31,6 +37,8 @@ The service plans included in this offer are:
 - SharePoint Online Kiosk
 - Sway
 - Yammer Enterprise
+
+The offer can be assigned to a maximum of 500,000 users per tenant. The trial license will allocate 2GB of SharePoint Online storage for each trial user.
 
 ## Who is eligible
 

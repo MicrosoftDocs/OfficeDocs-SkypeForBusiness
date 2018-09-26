@@ -7,8 +7,9 @@ ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua 
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin 
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 description: Learn to manage meeting policy settings in Teams.

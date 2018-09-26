@@ -3,19 +3,20 @@ title: Known issues for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/9/2018
+ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: marcl
+search.appverid: MET150
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
-appliesto: 
+appliesto:
 - Microsoft Teams
 ---
 
 # Known issues for Microsoft Teams
-  
+
 This article lists the known issues for Microsoft Teams, by feature area.
-## 
 
 ## Administration
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -28,7 +29,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Admin management of tenant-wide Connectors is no longer available  <br/> |When trying to add a connector in both client and online version we get the error: An unexpected error occurred. Please try again. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Disable with Teams settings. See support article https://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |6/21/17  <br/> |
+|Admin management of tenant-wide Connectors is no longer available  <br/> |When trying to add a connector in both client and online version we get the error: An unexpected error occurred. Please try again. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Disable with Teams settings. See support article https://msdn.microsoft.com/microsoft-teams/connectors  <br/> |6/21/17  <br/> |
 
 ## Apps
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -39,10 +40,25 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |"Assignments" app remains visble when disabled  <br/> |When the "Assignments" app is disabled in the admin center, it remains visible within the Teams client for EDU-licensed users. Selecting it when disabled will return an error indicating, "Doh! Something went wrong..."  <br/> |No workaround.  <br/> |12/29/17  <br/> |
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Unable to delete connectors as a team owner  <br/> |Attempting to delete a connector as an owner, that can otherwise add a conector, while "Allow members to create, update, and remove connectors" is disabled throws an error indicating the user does not have permission to do so. <br/> |Temporarily enabling "Allow members to create, update, and remove connectors" will allow the owner to delete the connector.  <br/> |7/27/18  <br/> |
+
+## Audio Conferencing
+|**Issue**|**Behavior/Symptoms**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|PSTN callers with the same "From" number are shown as the same user in meeting roster.  <br/> |When multiple PSTN callers join a meeting, and their caller IDs are masked as a single number, they will show up as a single caller in the meeting roster.  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
+|Meeting Info panel is not showing up intermittently.  <br/> |Meeting Info panel may not show in Teams client when users are trying to look up for conference bridge phone numbers or conference ID.  <br/> |Look at meeting details or Outlook calendar to view conference bridge phone numbers or conference ID.  <br/> |9/25/2017  <br/> |
+|Meeting invites from Outlook Add-in show garbage characters in PSTN coordinates for non-US locales.  <br/> |When scheduling private meetings using Outlook Add-in for Microsoft Teams on a computer with non-US locales, PSTN coordinates may contain garbage characters.  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
+|Dial out needs to use 5 digits or more.  <br/> |Users trying to dial out from a meeting need to type in 5 or more digits, even though dial plan normalization rule is available to normalize short digit dialing to E.164.  <br/> |Dial out by typing the full DID number or local number format instead of internal extension number.  <br/> |9/25/2017  <br/> |
+|Dial out control is not showing up intermittently.  <br/> |Dial out control may not be visible from the Meeting Info panel.  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
+|Static conference ID not supported for Microsoft Teams meetings.  <br/> |If the admin overrides the default setting from dynamic conference ID to static conference ID, this setting doesn't take effect for Microsoft Teams meetings. See [Using Audio Conferencing dynamic IDs in your organization](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |No workaround.  <br/> |9/25/2017  <br/> |
+|PSTN meeting coordinates are not available for Skype for Business on-premises users  <br/> |If the user is a Skype for Business on-premises user, assigned with Skype for Business Online, Audio Conferencing, and Teams licenses, all meetings scheduled using Teams will not include PSTN meeting coordinates. <br/> |No workaround.  <br/> |2/1/2018  <br/> |
+
 ## Authentication
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|When you try to join Teams from Internet Explorer or Edge, the program consistently loops or crashes and doesn't sign in.   <br/> | Your organization utilizes Trusted Sites in Internet Explorer and the Teams web-based application does not correctly log in because trusted sites for Teams are not allowed. <br/>|Make the following changes to IE settings, either with Administrator rights or a Group Policy Object:<br/><ol><li>Under **Internet Options** &gt; **Privacy** &gt; **Advanced**, accept First-Party and Third-Party cookies, and check the box for **Always allow session cookies**.</li><li>Click **Internet Options** &gt; **Trusted Sites** &gt; **Sites**, and add all of the following:<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>NOTE</b>: Always validate and allow all trusted URLs for Teams and the requirements from the following document: [Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).   <br/> |11/1/17  <br/> |
+|When you try to join Teams from Internet Explorer or Edge, the program consistently loops or crashes and doesn't sign in.   <br/> | Your organization utilizes Trusted Sites in Internet Explorer and the Teams web-based application does not correctly log in because trusted sites for Teams are not allowed. <br/>|Make the following changes to IE settings, either with Administrator rights or a Group Policy Object:<br/><ol><li>Under **Internet Options** &gt; **Privacy** &gt; **Advanced**, accept First-Party and Third-Party cookies, and check the box for **Always allow session cookies**.</li><li>Click **Internet Options** &gt; **Trusted Sites** &gt; **Sites**, and add all of the following:<ul><li>https://\login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>NOTE</b>: Always validate and allow all trusted URLs for Teams and the requirements from the following document: [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |11/1/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -62,7 +78,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Can't save profile picture  <br/> |Users can't save their profile picture when the Exchange Mailbox is hosted (homed) on-premises.  <br/> |No workaround.  <br/> |2/28/17  <br/> |
+|Can't save profile picture  <br/> |Users can't save their profile picture when the Exchange Mailbox is hosted (homed) on-premises on Exchange 2016 CU2 or lower.  <br/> |No workaround.  <br/> |2/28/17  <br/> |
 
 ## Browser
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -71,7 +87,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Safari web client support  <br/> |Users trying to open the Microsoft Teams web client on Safari are directed to download the desktop client. Microsoft is looking into Safari support and will share updates on the [Teams Roadmap](http://aka.ms/TeamsRoadmap).  <br/> |Use supported internet browsers, which include: Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+, and Firefox 47.0+.  <br/> |11/2/16  <br/> |
+|Safari web client support  <br/> |Users trying to open the Microsoft Teams web client on Safari are directed to download the desktop client. Microsoft is looking into Safari support and will share updates on the [Teams Roadmap](https://aka.ms/TeamsRoadmap).  <br/> |Use supported internet browsers, which include: Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+, and Firefox 47.0+.  <br/> |11/2/16  <br/> |
 
 ## Channels
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -92,9 +108,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |@ Mentions for deleted message send notification with channel link  <br/> |There's a known notification limitation when you are at-mentioned in a message that is deleted; the notification in the feed will navigate to the channel but not to a specific message. <br/> | By design <br/> | 3/28/17  <br/>|
 
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Skype for Business on-premises users aren't getting my messages  <br/> |Messages will not complete when Microsoft Teams users try to send a message to another individual who is using Skype for Business on-premises.  <br/> | Interoperability between Teams and users hosted on Skype for Business Online is supported. Teams users can send 1:1 chats to non-Teams users using Skype for Business Online. <br/> Interoperability between Teams and users hosted on Skype for Business on-premises is not supported. Teams users cannot send 1:1 chats to non-Teams users using Skype for Business on-premises.  <br/> |11/2/16  <br/> |
 
 ## Client
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -126,15 +139,12 @@ This article lists the known issues for Microsoft Teams, by feature area.
 ## Meetings
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent String for MS Teams within the EWSAllowList: `*skypespaces*`, including asterisks. The full command is: `set-organizationconfig -ewsallowlist *skypespaces*`<br/> For more info: https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |5/30/17  <br/>|
+|Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent String for MS Teams within the EWSAllowList: `*skypespaces*`, including asterisks. The full command is: `set-organizationconfig -ewsallowlist *skypespaces*`<br/> For more info: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business required for some meetings  <br/> |Your calendar of appointments is conveniently displayed within Microsoft Teams. To enter a meeting, click the **Join** button. <br/> While we are continuing development in this area, if this meeting was scheduled with Skype for Business and you click **Join**, Microsoft Teams will launch your Skype for Business client to complete your entrance into the meeting. Meetings scheduled within Microsoft Teams will initiate directly within the product.  <br/> In the future, we will streamline this experience.  <br/> |Click **Join**. Microsoft Teams will intelligently decide whether Skype for Business is required for a user to join the meeting based on the URL included in the meeting description.  <br/> |3/13/17  <br/> |
 
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Missing **Meetings**be discovered using Exchange auto discovery. <br/> Microsoft Teams does not yet support mailboxes housed in Exchange on icon in the left nav bar <br/> |The **Meetings** icon on the app bar is currently only enabled for users whose mailbox is on Office 365 multi-tenant and a select few dedicated users whose mailbox location can -premises and Exchange Dedicated. This is under investigation; however, there is no timing for delivering this capability.  <br/> |No workaround.  <br/> |3/13/17  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -142,7 +152,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Meetings not available  <br/> |Meeting functionality and icon are not available when Exchange Mailbox is hosted (homed) on-premises.  <br/> |Upgrade to Exchange 2016 CU3 or later for the on-premises deployment.  <br/> |2/28/17  <br/> |
+|Meetings not available  <br/> |Meeting functionality is not available when Exchange Mailbox is hosted (homed) on-premises in version less than Exchange 2016 CU3.  <br/> |Upgrade to Exchange 2016 CU3 or later for the on-premises deployment.  <br/> |2/28/17  <br/> |
 
 ## Mobile
 
@@ -199,6 +209,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Teams Planner integration with Planner online <br/> |Tasks buckets in Planner do not show up in Planner online experience.  <br/> |No workaround. <br/> |2/28/17  <br/>|
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|SharePoint page tab renders blank screen<br/> |SharePoint Online vanity domains are not currently supported. The user experience is a blank screen when attemting to add a SharePoint page tab. <br/> |No workaround. <br/> |8/20/18  <br/>|
+
 ## Teams
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -229,6 +243,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Deleting a team will also delete the group associated with it  <br/> |Users may not realize that the underlying Office 365 Group is deleted when the team is deleted. Additionally, if the underlying Office 365 Group is deleted, the team is deleted as well.  <br/> |Additional language in Microsoft Teams provides this information to the user. This information is not present in the Office 365 Groups interface. Your help desk can recover a deleted Group/Team.  <br/> |3/13/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|  
+|:-----|:-----|:-----|:-----|
 |Teams desktop app showing white screen  <br/> | <br/> |Try deleting or reinstalling the graphics drivers on the computer, or start Teams from a command line with a disable GPU flag:<ul><li>For Windows: Open the command prompt and enter the following: `cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>For Mac: Start Terminal and enter the following: `cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 

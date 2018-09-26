@@ -12,9 +12,12 @@ metadata:
   ms.date: 02/27/2018
   ms.service: msteams
   ms.topic: tutorial
-  localization_priority: Priority
-  ms.collection: Strat_MT_TeamsAdmin
-  appliesto: 
+  localization_priority: Normal
+  search.appverid: MET150
+  ms.collection:
+  - Teams_ITAdmin_PracticalGuidance
+  - Teams_ITAdmin_Training
+  appliesto:
   - Microsoft Teams
 
 items:
@@ -39,7 +42,7 @@ items:
 
     Audio Conferencing adds features and functionality to meetings in Teams. We
     recommend that you complete [Meetings in Microsoft
-    Teams](http://aka.ms/tr-meetings) before this tutorial.
+    Teams](https://aka.ms/tr-meetings) before this tutorial.
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
 
@@ -50,12 +53,12 @@ items:
 
     To give us product feedback about Teams, such as ideas for new features, please
     visit [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
-    
+
 
 - title: Audio Conferencing in Teams
   durationInMinutes: 12
   content: |
- 
+
     With Audio Conferencing, participants use a regular phone to take part in Teams
     meetings—either by dialing in to the meeting from their phone or by using
     dial-out functionality from within the meeting. Review the following resources
@@ -67,7 +70,7 @@ items:
         Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)
         (estimated reading time for “\#1 - Join a meeting via Audio Conferencing” is
         1 minute; more if you read the whole article)
-    -   [Audio Conferencing common questions](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)
+    -   [Audio Conferencing common questions](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)
         (estimated reading time 7 minutes)
     -   [Dialing out from a meeting so other people can join
         it](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)
@@ -200,15 +203,15 @@ items:
     -   Dial out from a meeting to a phone.
     -   Use dual-tone multi-frequency controls while in a meeting to mute and unmute
         a phone.
-   
+
 - title: Drive value
   durationInMinutes: 1
   content: |
-   
+
     From a reporting perspective, you have two areas to look at:
     -   Usage: How many meetings take place?
     -   Quality: What is the quality of the meetings?
-    
+
     You should carefully monitor both areas:
     -   Low usage means that users, for one reason or another, aren’t using the
         product. You can only determine the reasons by investigating further.
@@ -236,7 +239,7 @@ items:
 
     ### Next steps
 
-    1.	Sign-up for [MyAdvisor](http://aka.ms/myadvisor) for personalized deployment guidance.
+    1.	Sign-up for [MyAdvisor](https://aka.ms/myadvisor) for personalized deployment guidance.
     2.	Start using Audio Conferencing in Teams.
     3.  Send us feedback:
         - Post in the comments section at the bottom of this page.
@@ -245,4 +248,4 @@ items:
         - Follow the [Teams Blog](https://aka.ms/teamsblog).
         - Read the [Teams Roadmap](https://aka.ms/skype2teamsroadmap).
         - Learn about the latest released features in the [Release Notes](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-    5.  Explore [more training and tutorials](http://aka.ms/Teamsacademy).
+    5.  Explore [more training and tutorials](https://aka.ms/Teamsacademy).

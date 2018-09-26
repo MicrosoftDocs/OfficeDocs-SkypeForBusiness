@@ -3,7 +3,7 @@ title: "Partner qualification for Lync - IP PBXs"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -11,7 +11,7 @@ ms.collection: Lync
 ms.audience: Admin
 appliesto:
 - Lync
-- Skype for Business 
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -22,7 +22,7 @@ description: "Partner qualification requirements for Lync."
 
 # Supported IP PBXs
 
-IP PBXs listed in the table that follows are supported by Microsoft, although they have not gone through the formal UCOIP qualification process nor was the testing requested by the vendor. 
+IP PBXs listed in the table that follows are supported by Microsoft, although they have not gone through the formal UCOIP qualification process nor was the testing requested by the vendor.
 
 Sufficient internal testing has been performed by Microsoft such that specific configurations are supported by Microsoft (where applicable with known limitations). These configurations utilize the commercially available production SIP trunk interface of the IP-PBX vendor but may not be supported by the IP-PBX vendor. In addition, IP-PBX vendor-provided complete documentation for installation and set-up, release notes, or documented support processes may not be available. Wherever possible, Microsoft will endeavor to provide documentation for installation and set-up.
 
@@ -56,7 +56,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 		</tr>
 		<tr align="left" valign="top">
 			<td colspan="3">
-				<p>Documentation: <a href="http://www.microsoft.com/en-us/download/details.aspx?id=41152">Lync 2013 and Avaya Aura 6.1 Integration Guide v1.3</a></p>
+				<p>Documentation: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=41152">Lync 2013 and Avaya Aura 6.1 Integration Guide v1.3</a></p>
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>REFER can be set to enabled and RTCP set to Disabled.</li>
@@ -65,7 +65,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 				</ol>
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
-					<li>Due to a the issue documented in <a href="http://support.microsoft.com/kb/2904439">KB 2904439</a>, call hold fails with media bypass enabled.</li>
+					<li>Due to a the issue documented in <a href="https://support.microsoft.com/kb/2904439">KB 2904439</a>, call hold fails with media bypass enabled.</li>
 					<li>Comfort noise generation is not supported. As a result, comfort noise is not played on Lync.</li>
 				</ol>
 			</td>
@@ -106,7 +106,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>On the Cisco IP-PBX, configure MTP to enabled and PRACK to disabled (the default for PRACK).</li>
-					<li>In order to manage call hold appropriately in bypass scenarios, the following update is needed for the Lync client: <a href="http://support.microsoft.com/kb/3020377">http://support.microsoft.com/kb/3020377</a></li>
+					<li>In order to manage call hold appropriately in bypass scenarios, the following update is needed for the Lync client: <a href="https://support.microsoft.com/kb/3020377">https://support.microsoft.com/kb/3020377</a></li>
 					<li>On Lync Mediation Server, Media Bypass, REFER and Session Timer are set to enabled. RTCP is set to disabled.</li>
 				</ol>
 				<p>Known Limitations:</p>
@@ -227,7 +227,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 		</tr>
 		<tr align="left" valign="top">
 			<td colspan="3">
-				<p>Documentation: <a href="http://www.microsoft.com/en-us/download/details.aspx?displaylang=en&amp;id=2187">Integrating Microsoft Lync Server 2010 and Avaya Communications Manager S8300</a></p>
+				<p>Documentation: <a href="https://www.microsoft.com/en-us/download/details.aspx?displaylang=en&amp;id=2187">Integrating Microsoft Lync Server 2010 and Avaya Communications Manager S8300</a></p>
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>On the Avaya IP-PBX, the configuration requires setting &quot;Alternate Route Timer(sec)&quot; value from default of 10 sec to 30 sec. The configuration should show &quot;Alternate Route Timer(sec): 30&quot; in the corresponding SIP signaling group.</li>
@@ -245,7 +245,7 @@ Sufficient internal testing has been performed by Microsoft such that specific c
 		</tr>
 		<tr align="left" valign="top">
 			<td rowspan="10">Cisco</td>
-			<td colspan="3">Documentation: <a href="http://www.microsoft.com/en-us/download/details.aspx?id=26800">Integrating Microsoft Lync Server 2010 and Cisco Unified Communications Manager</a></td>
+			<td colspan="3">Documentation: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=26800">Integrating Microsoft Lync Server 2010 and Cisco Unified Communications Manager</a></td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>Cisco Unified Communications Manager<br />Cisco Unified Session Manager*</td>

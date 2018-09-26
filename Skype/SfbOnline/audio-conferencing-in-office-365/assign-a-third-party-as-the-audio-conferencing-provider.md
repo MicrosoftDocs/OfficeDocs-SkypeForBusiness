@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 77f68ca7-c1cf-40d9-9c23-87a6b2abe9de
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - ms.lync.lac.DialInExportImport
 - ms.lync.lac.DialInProvider

@@ -3,7 +3,7 @@ title: "Phones and Devices for Skype for Business"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -12,6 +12,7 @@ ms.audience: Admin
 appliesto:
 - Lync
 - Skype for Business 
+- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -22,11 +23,14 @@ description: "Planning for Optimal Skype for Business Experience over Wi-Fi prov
 
 # Meeting room devices and solutions
 Microsoft tests and qualifies meeting room solutions for Lync, and moving forward, Skype for Business.
-Skype for Business will support backwards compatibility with Optimized for Lync 2013 meeting room solutions.These include:
+Skype for Business will support backwards compatibility with Optimized for Lync 2013 meeting room solutions. These include:
 - Lync Room Systems
 - USB-based audio/video end points designed for conference rooms
 
 In addition, Lync qualified third-party video equipment providers have the option to support their devices working with Skype for Business.
+
+> [!NOTE]
+> All Skype for Business certified devices will work with Microsoft Teams, but they will not be given Teams certification until they meet new requirements. More information about Teams certification will be available in early 2019.
 
 ## Lync Room Systems
 Lync Room Systems (LRS) are designed to extend the Lync meeting experience to the conference room. A Lync Room System includes all the required hardware and Lync Room System Edition software. These products have been tested and are optimized for Lync.

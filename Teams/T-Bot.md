@@ -6,6 +6,8 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
+search.appverid: MET150
 description: T-Bot is a bot which users can interact with to ask it questions about how to use Microsoft Teams and get answers to a wide range of questions.
 appliesto: 
 - Microsoft Teams
@@ -14,7 +16,7 @@ appliesto:
 Use T-Bot to help users with Microsoft Teams
 ============================================
 
-For help while using Microsoft Teams, ensure your users and champions get familiar with [T-Bot](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#bkmk_bots). T-Bot is a bot which users can interact with to ask it questions about how to use Microsoft Teams and get answers to a wide range of questions.
+For help while using Microsoft Teams, ensure your users and champions get familiar with [T-Bot](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b). T-Bot is a bot which users can interact with to ask it questions about how to use Microsoft Teams and get answers to a wide range of questions.
 
 ![Screenshot of the T-Bot page in Microsoft Teams.](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image1.png)
 

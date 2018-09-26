@@ -12,9 +12,12 @@ metadata:
   ms.date: 02/27/2018
   ms.service: msteams
   ms.topic: tutorial
-  localization_priority: Priority
-  ms.collection: Strat_MT_TeamsAdmin
-  appliesto: 
+  localization_priority: Normal
+  search.appverid: MET150
+  ms.collection: 
+  - Teams_ITAdmin_PracticalGuidance
+  - Teams_ITAdmin_Training
+  appliesto:
   - Microsoft Teams
 
 items:
@@ -50,22 +53,22 @@ items:
 
     To give us product feedback about Teams, such as ideas for new features, please
     visit [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
-    
+
 - title: Meetings in Teams
   durationInMinutes: 16
   content: |
- 
+
     To understand meetings in Teams, see the following:
     -   “Have meetings” in [Meetings and
         calls](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)
         (estimated reading time 6 minutes)
 
     -   [Meet
-        now](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf?ui=en-US&rs=en-US&ad=US)
+        now](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf)
         video (1:45 minutes)
 
     -   [Scheduled
-        meetings](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137?ui=en-US&rs=en-US&ad=US)
+        meetings](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137)
         video (1:45 minutes)
 
     -   [9 tips for meeting with Microsoft
@@ -91,7 +94,7 @@ items:
            the team.
     -   Garth also needs to sync with individual people but doesn’t want these
         meetings to be visible to others. For these purposes, Garth schedules a
-        "Private Meeting".  
+        "Private Meeting".
         Private meetings allow Garth to initiate a chat before the meeting takes
         place. This pre-meeting experience helps make the meeting more effective
         because Garth can share material beforehand or discuss the agenda with key
@@ -151,7 +154,7 @@ items:
     homed in Office 365. Audio traffic is collected there and mixed before being
     sent back; video traffic and application or desktop sharing are received and
     distributed to the attendees.
-        
+
     Planning bandwidth isn’t covered in this training, but it will be crucial for
     the user experience.
 
@@ -242,7 +245,7 @@ items:
     -   For information about the role of Quality Champion, see [Quality champion
         role](https://docs.microsoft.com/microsoftteams/envision-planning-for-service-management-and-quality-complete-guide).
     -   For information about the Call Quality Dashboard, see [Investigate Media
-        Quality using CQD](http://aka.ms/sof-cqd).
+        Quality using CQD](https://aka.ms/sof-cqd).
 
 - title: Next steps
   durationInMinutes: 1
@@ -254,7 +257,7 @@ items:
 
     ### Next steps
 
-    1.	Sign-up for [MyAdvisor](http://aka.ms/myadvisor) for personalized deployment guidance.
+    1.	Sign-up for [MyAdvisor](https://aka.ms/myadvisor) for personalized deployment guidance.
     2.	Start using meetings in Teams.
     3.  Send us feedback:
         - Post in the comments section at the bottom of this page.
@@ -263,4 +266,4 @@ items:
         - Follow the [Teams Blog](https://aka.ms/teamsblog).
         - Read the [Teams Roadmap](https://aka.ms/skype2teamsroadmap).
         - Learn about the latest released features in the [Release Notes](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-    5.  Explore [more training and tutorials](http://aka.ms/Teamsacademy).
+    5.  Explore [more training and tutorials](https://aka.ms/Teamsacademy).

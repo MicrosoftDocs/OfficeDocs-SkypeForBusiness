@@ -7,14 +7,15 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: 
-- Adm_Skype4B_Online
+ms.service: msteams
+search.appverid: MET150
+ms.collection:  
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -64,21 +65,21 @@ It might be easier for you to see all of the audio conferencing settings for Mic
     
 **Using Windows PowerShell**
   
-See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
+See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
     
 ## Change the sender's contact information in email messages sent to users
 
-You can make changes to the email that is automatically sent to your users, including the actual email address and the display name of the sender's contact information. By default, the sender of the emails is Office 365, but you can change the email address and display name using Windows PowerShell. See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
+You can make changes to the email that is automatically sent to your users, including the actual email address and the display name of the sender's contact information. By default, the sender of the emails is Office 365, but you can change the email address and display name using Windows PowerShell. See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
   
 ## Reset the meeting conference ID
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
-2. At the top of the page, click **Edit**.
+2. Under **Audio Conferencing**, click **Reset conference ID**.  
 
-3. Under **Audio Conferencing**, click **Reset conference ID**.  
-
-4. In the **Reset conference ID?** window, click **Reset**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
+3. In the **Reset conference ID?** window, click **Reset**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
 
 See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md).
   
@@ -86,32 +87,32 @@ See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams
 
 Each meeting that a user schedules will get assigned a unique conference ID. Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID. 
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
-2. At the top of the page, click **Edit**.
-
-3. Under **Audio Conferencing**, click **Reset PIN**, and then click **Reset**. 
+2. Under **Audio Conferencing**, click **Reset PIN**, and then click **Reset**. 
   
-    
 Users will receive an email with their PIN when they're enabled for audio conferencing or when the PIN is reset. But if you have disabled automatically sending emails, a PIN reset email won't be sent and you will have to manually send the PIN to the user. The PIN will only be shown once after it has been reset. After it's displayed just after being reset, the PIN won't be shown anymore on the user properties; instead, ***** will be shown. 
   
 See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams.md).
   
 ## Send an email with Audio Conferencing information to a user
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
-2. At the top of the page, click **Edit**.
-
-3. Under **Audio Conferencing**, click **Send conference info in email**. 
+2. Under **Audio Conferencing**, click **Send conference info in email**. 
 
     > [!NOTE]
     > When you do this, the audio conferencing PIN isn't sent to the user. 
 
-  
 See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
   
-## Setting the phone numbers included on invites
+## Set the phone numbers included on invites
+
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
@@ -124,10 +125,11 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
-## Choosing audio conferencing bridge settings
+## Choose audio conferencing bridge settings
 
 **Set the meeting experience when callers join a meeting**
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
@@ -144,7 +146,7 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
 5. Click **Save**.
 
     
-See [Change the settings for an Audio Conferencing bridge](/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge).
+See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
   
  **Set the PIN length for meetings**
 
@@ -157,10 +159,9 @@ See [Change the settings for an Audio Conferencing bridge](/skypeforbusiness/aud
     The PIN must be between 4 and 12 digits. The default is 5.
 
     
-See [Change the settings for an Audio Conferencing bridge](/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge).
+See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
   
  **Enable or disable email from being sent to audio users**
-
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
@@ -178,17 +179,22 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
     
 ## See and set the primary (default) and secondary (alternate) languages on an audio conferencing bridge
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
+
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
 2. Select a phone number from the list and click **Edit**.
 
 3. Choose the languages you want under **Default language** and **Alternate languages (optional)**.
 
+4. Click **Save**.
+
 
 See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
   
 ## See audio conferencing dial-in numbers
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
 
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
@@ -210,7 +216,7 @@ Windows PowerShell is all about managing users and what users are allowed or not
     
   - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information.
+For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
   
     
 ## Related topics

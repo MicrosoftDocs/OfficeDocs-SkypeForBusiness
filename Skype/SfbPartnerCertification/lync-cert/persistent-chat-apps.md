@@ -3,7 +3,7 @@ title: "Qualified Lync applications"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -11,7 +11,7 @@ ms.collection: Lync
 ms.audience: Admin
 appliesto:
 - Lync
-- Skype for Business 
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -19,7 +19,7 @@ ms.custom:
 - dn788946
 description: "The Lync qualificaton program helps ensure that qualified applications meet customer expectations for specific scenarios"
 ---
- 
+
 # Persistent chat applications
 Collaborate with a group in topic-based persistent discussion rooms. Share ideas and information by posting messages. Find ideas and information by browsing or searching the chat history. Search for content within and across rooms. Create notifications and filters to track conversations in particular rooms and about specific topics.
 
@@ -28,7 +28,7 @@ Collaborate with a group in topic-based persistent discussion rooms. Share ideas
   **Lync 2013**
 
 [MindLink](http://mindlinksoft.com)
- 
+
 ***MindLink Anywhere*** is a fully integrated Lync web client that provides IM, presence and persistent chat functionality through a web browser. It allows for collaboration securely through desktop and laptop on Windows, OS X and Linux.
 
 MindLink allows real-time collaboration across the business and improves team efficiency and productivity. Live information feeds from social media, email and other line-of-business systems can be streamed to any topic group directly, while intelligent filtering and tagging feeds only relevant content to each user. Conversations are indexed and recorded meaning organizational knowledge is preserved and searchable for future use. MindLink Anywhere integrates with your SharePoint environments.
@@ -45,7 +45,7 @@ MindLink allows real-time collaboration across the business and improves team ef
 
 * * *
 ### Related resources
-[Microsoft Lync](http://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
+[Microsoft Lync](https://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
 
 Microsoft Premier Support for Lync Partners on:
 - [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)
