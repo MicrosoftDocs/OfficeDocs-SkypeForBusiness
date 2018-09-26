@@ -35,7 +35,7 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation, go to **Voice** > **Emergency locations**, and then click the **Add new address** button.
     
@@ -57,9 +57,9 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
-3. In the left navigation, go to **Voice** > **Emergency location**, select the address you want to delete, and in the Action pane click **Delete**.
+3. In the left navigation, go to **Voice** > **Emergency locations**, select the address you want to delete, and in the Action pane click **Delete**.
     
     > [!IMPORTANT]
     > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.

@@ -40,8 +40,10 @@ You can see [Set the phone numbers included on invites](set-the-phone-numbers-in
 
 ## To view your audio conferencing phone numbers
 
-1. In the Microsoft Teams & Skype for Business Admin Center, in the left navigation, go to **Meetings** > **Conference bridges**. 
-2.  View the phone numbers that are available for audio conferencing.
+![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
+
+1. In the left navigation, go to **Meetings** > **Conference bridges**. 
+2. View the phone numbers that are available for audio conferencing.
 
 - You can also view the location and primary language that will be used by the audio conferencing auto attendant.
 
