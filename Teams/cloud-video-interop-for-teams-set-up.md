@@ -105,4 +105,4 @@ You can join Teams meetings with your VTC devices in the following ways:
 - One-touch dial
     - If you have an integrated Teams room, you can use the one-touch dial capabilities offered by your partner (without needing to type any dial string).
 
-Finally, engaeg with Teams users in your meetings using audio, video, and content sharing. 
+Finally, engage with Teams users in your meetings using audio, video, and content sharing. 
