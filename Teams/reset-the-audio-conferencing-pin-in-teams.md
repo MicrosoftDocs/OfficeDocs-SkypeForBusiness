@@ -30,11 +30,11 @@ Meetings can be started when an authenticated user joins using the Microsoft Tea
 
 ## Reset a user's PIN
 
-1. In the left navigation, click **Users**, and then select the user from the list of available users.
+1. In the Microsoft Teams & Skype for Business Admin Center, in the left navigation, click **Users**, and then select the user from the list of available users.
 
-2. At the top of the page, click **Edit**.
+2. Under **Audio Conferencing**, click **Reset PIN**.
 
-3. Under **Audio Conferencing**, click **Reset PIN**.
+3. Click **Reset**.
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

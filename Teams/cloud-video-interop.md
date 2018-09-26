@@ -45,8 +45,8 @@ Our partners have developed gateway solutions to connect third-party standards-b
 
 - HD video (1080p) and Content (VBSS)
 - Support for H.323 and SIP meeting room devices
- -Native Teams/Exchange scheduling
- -Gateway design instead of VMR
+- Native Teams/Exchange scheduling
+- Gateway design instead of VMR
 
 **Scales for the cloud**
 
@@ -83,7 +83,7 @@ The following diagram describes the high-level architecture of a Teams partner s
 
 ## Business workflow scenarios
 
-- **Skype for Business Server -> Microsoft Teams:** Your organization has third-party devices and moving from Skype for Business on-prem server to Microsoft Teams  
+- **Skype for Business Server -> Microsoft Teams:** Your organization has third-party devices and moving from Skype for Business on-prem server to Microsoft Teams.  
 - **Skype for Business online -> Microsoft Teams:** 
 Your organization is migrating to Microsoft Teams from Skype for Business Online.
 - **Cisco UC -> Microsoft Teams:** Your organization is moving from Cisco to Microsoft Teams, but not ready to replace your Cisco devices.
