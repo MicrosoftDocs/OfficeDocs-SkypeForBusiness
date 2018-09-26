@@ -9,6 +9,7 @@ ms.service: msteams
 ms.reviewer: 
 localization_priority: Normal
 search.appverid: MET150
+ms.collection: Teams_ITAdmin_Help
 description: Learn how to upload to a site.
 ms.custom:
 - NewAdminCenter_Update
@@ -30,7 +31,7 @@ The locations data you provide is a single data structure – there’s currentl
 3. Click **Upload**. 
 
 
-You can download a sample template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.tsv?raw=true).
+You can download a sample template [here](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
 
 You can use the following example to help create your data file. 
 
