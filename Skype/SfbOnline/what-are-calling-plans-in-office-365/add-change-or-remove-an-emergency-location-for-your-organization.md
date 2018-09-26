@@ -33,7 +33,7 @@ To learn how to get a Calling Plan and how much they cost, see [Skype for Busine
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to add a location for.
     
@@ -50,7 +50,7 @@ To learn how to get a Calling Plan and how much they cost, see [Skype for Busine
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address for which you want to change a location.
     
@@ -64,13 +64,13 @@ To learn how to get a Calling Plan and how much they cost, see [Skype for Busine
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation, go to **Voice** > **Emergency locations**, and then select the emergency address that you want to remove a location for.
     
 4. In the Action pane, next to **Associated locations**, click **Change**.
     
-5. Under **Locations associated with**, next the link for the location, click **Remove**.
+5. Under **Locations associated with**, next to the link for the location, click **Remove**.
     
 6. Click **Save**.
     

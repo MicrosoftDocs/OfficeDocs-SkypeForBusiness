@@ -53,7 +53,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
  
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
+2. Go to **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation, click **Voice** > **Voice users**.
    > [!NOTE]
@@ -68,7 +68,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 6. On the **Assign number** page in the **Select number to assign** list, select the phone number for the user.
     
     > [!TIP]
-    > If you don't see any phone numbers listed, you need to [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md) first. Or, if you use the **Skype for Business admin center** > **Voice** > **Phone numbers** page, click **Add**, and then click **New user numbers**. 
+    > If you don't see any phone numbers listed, you need to [get phone numbers for your users](getting-phone-numbers-for-your-users.md) first. Or, if you use the **Skype for Business admin center** > **Voice** > **Phone numbers** page, click **Add**, and then click **New user numbers**. 
   
 7. To assign or change the associated emergency address, under **Select validated emergency location**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.
     
@@ -85,7 +85,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
  
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
+2. Go to **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation, click **Voice** > **Voice users**.
     
@@ -109,7 +109,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
  
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
+2. Go to **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation, click **Voice** > **Voice users**.
     
