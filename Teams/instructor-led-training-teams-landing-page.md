@@ -35,7 +35,7 @@ ms.date: 08/24/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>#ThisIsTeams - Microsoft Teams daily demo</h3>
+                                                    <h3>#ThisIsTeams - Microsoft Teams overview</h3>
                                                     <p>What is Microsoft Teams? Join us for this 30-minute orientation to discover what Teams is and how it can work for you.</p>
                                                 </div>
                                             </div>
@@ -55,7 +55,7 @@ ms.date: 08/24/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Getting started with Teams</h3>
-                                                    <p>From chatting and meetings to using teams and channels, users will leave this sessions with the foundation to use Teams with confidence.</p>
+                                                    <p>From chatting and meetings to using teams and channels, users will leave this session with the foundation to use Teams with confidence.</p>
                                                 </div>
                                             </div>
                                         </div>
