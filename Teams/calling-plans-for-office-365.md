@@ -7,15 +7,19 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: 
+ms.service: 
+- skype-for-business-online
+- msteams
+search.appverid: MET150
+ms.collection:  
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - O365E_E5Voiceplandetails
 - O365M_E5Voiceplandetails
@@ -81,7 +85,7 @@ Here are more articles that explain how to set up your Calling Plans:
     
 - [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
     
-- [Plan for Skype for Business Cloud Connector Edition](https://technet.microsoft.com/EN-US/library/Mt605227.aspx): This article explains how to set up Office 365 Phone System with your own PSTN connectivity.
+- [Plan for Skype for Business Cloud Connector Edition](https://technet.microsoft.com/library/Mt605227.aspx): This article explains how to set up Office 365 Phone System with your own PSTN connectivity.
     
 - [Plan your Phone System in Office 365 (Cloud PBX) solution](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
@@ -96,7 +100,7 @@ Here are more articles that explain how to set up your Calling Plans:
     
 - [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
     
-- [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
+- [Configure the Cloud Connector](https://technet.microsoft.com/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
   
   
  

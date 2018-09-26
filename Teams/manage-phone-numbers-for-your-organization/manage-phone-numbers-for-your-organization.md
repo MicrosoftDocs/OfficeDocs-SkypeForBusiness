@@ -7,15 +7,19 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: 
+- skype-for-business-online
+- msteams
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- Teams_ITAdmin_Help
 ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
@@ -74,7 +78,7 @@ If you still need help, please let us know how we can help you. In your Help req
 - To see if Calling Plans are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - To help you pick the type of phone number you need, read [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - To learn about getting user phone numbers in the admin center, read [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
-- To get help setting up phone numbers for your organization, [contact support for business products - Admin Help](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- To get help setting up phone numbers for your organization, [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
     
 ## Related topics

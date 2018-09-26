@@ -7,8 +7,13 @@ ms.reviewer: mikedav, wlooney
 ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:  
+- skype-for-business-online
+- msteams
+ms.collection:  
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online 
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -106,18 +111,18 @@ The following table lists the dimensions currently available in CQD:
 |Duration 60 seconds or more  <br/> |Boolean  <br/> |True if stream had duration of 60 seconds of more, false otherwise.  |**Example value:** true  <br/> |
 |Duration (Seconds)  <br/> |Range (seconds)  <br/> |Duration of stream in seconds. Values grouped by range. |  **Example value:** 062: [1 -2)  <br/> |
 |Duration (Minutes)  <br/> |Range (minutes)  <br/> |Duration of stream in minutes. Values grouped by range. |  **Example value:** 065: [3 - 4)  <br/> |
-|Date  <br/> |String  <br/> |Date the stream ended.  |**Example value:** 2018-06-01  <br/> |
-|Year  <br/> |Integer  <br/> |Year of the end of the stream.  | **Example value:** 2018  <br/> |
-|Month  <br/> |Integer  <br/> |Month of the end of the stream.  | **Example value:** 2  <br/> |
-|Day  <br/> |Integer  <br/> |Day of the end of the stream.  |**Example value:** 1  <br/> |
-|Hour  <br/> |Integer  <br/> |Hour of the end of the stream.  | **Example value:** 1  <br/> |
-|Minute  <br/> |Integer  <br/> |Minute of the end of the stream.  | **Example value:** 30  <br/> |
-|Second  <br/> |Integer  <br/> |Second of the end of the stream.  |**Example value:** 12  <br/> |
-|Day Of Year  <br/> |Integer  <br/> |Day of year of the end of the stream.  | **Example value:** 32  <br/> |
-|Day Of Week  <br/> |String  <br/> |Day of week of the end of the stream.  | **Example value:** Wednesday  <br/> |
-|Day Number Of Week  <br/> |Integer  <br/> |Day number of week of the end of the stream.  | **Example value:** 3  <br/> |
-|Month Year  <br/> |String  <br/> |Month and year of the end of the stream.  |**Example value:** 2017-02  <br/> |
-|Full Month  <br/> |Date time  <br/> |Full Month of the end of the stream.  | **Example value:** 2017-02-01 T00:00:00  <br/> |
+|Date  <br/> |String  <br/> |Date the stream ended. Values are reported in the UTC time zone.  |**Example value:** 2018-06-01  <br/> |
+|Year  <br/> |Integer  <br/> |Year of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** 2018  <br/> |
+|Month  <br/> |Integer  <br/> |Month of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** 2  <br/> |
+|Day  <br/> |Integer  <br/> |Day of the end of the stream. Values are reported in the UTC time zone.  |**Example value:** 1  <br/> |
+|Hour  <br/> |Integer  <br/> |Hour of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** 1  <br/> |
+|Minute  <br/> |Integer  <br/> |Minute of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** 30  <br/> |
+|Second  <br/> |Integer  <br/> |Second of the end of the stream. Values are reported in the UTC time zone.  |**Example value:** 12  <br/> |
+|Day Of Year  <br/> |Integer  <br/> |Day of year of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** 32  <br/> |
+|Day Of Week  <br/> |String  <br/> |Day of week of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** Wednesday  <br/> |
+|Day Number Of Week  <br/> |Integer  <br/> |Day number of week of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** 3  <br/> |
+|Month Year  <br/> |String  <br/> |Month and year of the end of the stream. Values are reported in the UTC time zone.  |**Example value:** 2017-02  <br/> |
+|Full Month  <br/> |Date time  <br/> |Full Month of the end of the stream. Values are reported in the UTC time zone.  | **Example value:** 2017-02-01T00:00:00  <br/> |
 |First Domain  <br/> |String  <br/> |Domain of the user using the first endpoint. If the first endpoint is a conference server, it is the domain of the organizer of the meeting. May also be the domain of service accounts used in scenario.  <br/> |**Example value:** contoso.com  <br/> |
 |Second Domain  <br/> |String  <br/> |Domain of the user using the second endpoint. If the second endpoint is a conference server, it is the domain of the organizer of the meeting. May also be the domain of service accounts used in scenario.  | **Example value:** contoso.com  <br/> |
 |First User Agent Category  <br/> |String  <br/> |Category of the user agent of the first endpoint.  <br/> |Blank values indicate a user agent that does not currently have a mapping such as 3rd party user agent.  <br/>  **Example value:** OC  <br/> |
@@ -192,15 +197,15 @@ The following table lists the dimensions currently available in CQD:
 |Second DNS Suffix  <br/> |String  <br/> |DNS suffix associated with the network adapter reported by the second endpoint. Note this value may be reported for any type of network adapter.  <br/> |Blank values indicate this value was not reported by the endpoint.  <br/>  **Example value:** corp.contoso.com  <br/> |
 |First Wifi Band  <br/> |String  <br/> |WiFi band used as reported by the first endpoint.  <br/> |Blank values indicate either the value was not computed by the endpoint or not reported. <br/>  **Example value:** 5.0 Ghz  <br/> |
 |Second Wifi Band  <br/> |String  <br/> |WiFi band used as reported by the second endpoint.  <br/> |Blank values indicate either the value was not computed by the endpoint or not reported.   <br/> **Example value:** 5.0 Ghz  <br/> |
-|First Wifi Signal Strength  <br/> |String  <br/> |WiFi signal strength in percentage [0-99] reported by the first endpoint.  <br/> |Blank values indicate either the value was not computed by the endpoint or not reported.  <br/> **Example value:** 081: [90 - 100)  <br/> |
-|Second Wifi Signal Strength  <br/> |String  <br/> |WiFi signal strength in percentage [0-99] reported by the second endpoint.  <br/> |Blank values indicate either the value was not computed by the endpoint or not reported.  <br/> **Example value:** 081: [90 - 100)  <br/> |
+|First Wifi Signal Strength  <br/> |String  <br/> |WiFi signal strength in percentage [0-100] reported by the first endpoint.  <br/> |Blank values indicate either the value was not computed by the endpoint or not reported.  <br/> **Example value:** 081: [90 - 100)  <br/> |
+|Second Wifi Signal Strength  <br/> |String  <br/> |WiFi signal strength in percentage [0-100] reported by the second endpoint.  <br/> |Blank values indicate either the value was not computed by the endpoint or not reported.  <br/> **Example value:** 081: [90 - 100)  <br/> |
 |First Wifi Battery Charge  <br/> |Range (percentage)  <br/> |Estimated remaining battery charge in percentage [0-99] reported by the first endpoint. Values grouped by range. 0 indicates that the device was plugged in.  <br/> |Blank values indicate either WiFi was not used or the charge value was not reported. <br/>   **Example value:** 081: [90 - 100)  <br/> |
 |Second Wifi Battery Charge  <br/> |Range (percentage)  <br/> |Estimated remaining battery charge in percentage [0-99] reported by the second endpoint. Values grouped by range. 0 indicates that the device was plugged in.  <br/> |Blank values indicate either WiFi was not used or the charge value was not reported.  <br/>  **Example value:** 081: [90 - 100)  <br/> |
 |Audio Degradation Avg  <br/> |Range (Mean opinion score 0-5)  <br/> |Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter has impacted the quality of received audio. Values grouped by range.  <br/> |Blank values indicate no network MOS degradation reported by endpoint receiving the stream or if the stream is not an audio stream.   <br/> **Example value:** 015: [0.01 - 0.02)  <br/> |
 |Jitter  <br/> |Range (millisecond)  <br/> |Average jitter for stream in milliseconds. Values grouped by range.  <br/> |Blank values indicate no jitter data reported by endpoint receiving the stream.  <br/> **Example value:** 065: [2 - 3)  <br/> |
 |Jitter Max  <br/> |Range (millisecond)  <br/> |Maximum jitter for stream in milliseconds. Values grouped by range.  <br/> |Blank values indicate no jitter data reported by endpoint receiving the stream.   <br/> **Example value:** 065: [2 - 3)  <br/> |
-|Packet Loss Rate  <br/> |Range (percentage)  <br/> |Average packet loss rate for stream. Values grouped by range.  <br/> |Blank values indicate no packet loss data reported by endpoint receiving the stream.  <br/>  **Example value:** 050: [1.8 - 1.9)  <br/> |
-|Packet Loss Rate Max  <br/> |Range (percentage)  <br/> |Maximum packet loss rate for stream. Values grouped by range.  <br/> |Blank values indicate no packet loss data reported by endpoint receiving the stream.   <br/> **Example value:** 041: [0.95 - 1)  <br/> |
+|Packet Loss Rate  <br/> |Range (ratio)  <br/> |Average packet loss rate for stream. Values grouped by range. 0.1 indicates 10% packet loss.  <br/> |Blank values indicate no packet loss data reported by endpoint receiving the stream.  <br/>  **Example value:** 015: [0.01 - 0.02)  <br/> |
+|Packet Loss Rate Max  <br/> |Range (ratio)  <br/> |Maximum packet loss rate for stream. Values grouped by range. 0.1 indicates 10% packet loss.  <br/> |Blank values indicate no packet loss data reported by endpoint receiving the stream.   <br/> **Example value:** 023: [0.09 - 0.1)  <br/> |
 |Overall Avg Network MOS  <br/> |Range (MOS)  <br/> |Average Network MOS for stream. Values grouped by range.  <br/> |Blank values indicate no network MOS degradation reported by endpoint receiving the stream or if the stream is not an audio stream.   <br/> **Example value:** 076: [4.4 - 4.5)  <br/> |
 |Ratio Concealed Samples Avg  <br/> |Range (ratio)  <br/> |Ratio of the number of audio frames with samples generated by packet loss concealment to the total number of audio frames. Values grouped by range. 0.1 indicates 10% of frames contained concealed samples.  <br/> |Blank values indicate this value was not reported by the receiver of the stream, or the stream was not an audio stream.   <br/> **Example value:** 015: [0.01 - 0.02)  <br/> |
 |Ratio Stretched Samples Avg  <br/> |Range (ratio)  <br/> |Ratio of the number of audio frames with samples that have been stretched to compensate for jitter or loss to the total number of audio frames. Values grouped by range. 0.1 indicates 10% audio frames contained stretched samples.  <br/> |Blank values indicate this value was not reported by the receiver of the stream or the stream was not an audio stream.  <br/>  **Example value:** 017: [0.03 - 0.04)  <br/> |
@@ -465,8 +470,8 @@ The following table lists the measures currently available in Call Quality Dashb
 |Avg Audio Degradation  <br/> |Mean Opinion Score (0-5)  <br/> |Average Network Mean Opinion Score degradation for streams. Represents how much the network loss and jitter has impacted the quality of received audio.  <br/> |
 |Avg Jitter  <br/> |Milliseconds  <br/> |Average network jitter for streams in milliseconds.  <br/> |
 |Avg Jitter Max  <br/> |Milliseconds  <br/> |Maximum network jitter for streams in milliseconds.  <br/> |
-|Avg Packet Loss Rate  <br/> |Percentage  <br/> |Average of average percentage of packets lost computed using 5 second interval for streams.  <br/> |
-|Avg Packet Loss Rate Max  <br/> |Percentage  <br/> |Average of maximum percentage of packets lost during any 5 second interval for streams.  <br/> |
+|Avg Packet Loss Rate  <br/> |Ratio  <br/> |Average of average percentage of packets lost computed using 5 second interval for streams. 0.1 indicates 10% packet loss.  <br/> |
+|Avg Packet Loss Rate Max  <br/> |Ratio  <br/> |Average of maximum percentage of packets lost during any 5 second interval for streams. 0.1 indicates 10% packet loss.  <br/> |
 |Avg Overall Avg Network MOS  <br/> |Mean Opinion Score (0-5)  <br/> |Average or average network Mean Opinion Score for streams. Represents the average predicted quality of received audio factoring in network loss, jitter, and codec.  <br/> |
 |Avg Ratio Concealed Samples  <br/> |Ratio  <br/> |Average of average ratio of the number of audio frames with samples generated by packet loss concealment to the total number of audio frames for streams. 0.1 indicates 10% of frames contained concealed samples.  <br/> |
 |Avg Ratio Stretched Samples  <br/> |Ratio  <br/> |Average of average ratio of the number of audio frames with samples that have been stretched to compensate for jitter or loss to the total number of audio frames for streams. 0.1 indicates 10% audio frames contained stretched samples.  <br/> |

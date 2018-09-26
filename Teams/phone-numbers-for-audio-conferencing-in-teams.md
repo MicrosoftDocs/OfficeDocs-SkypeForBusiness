@@ -7,14 +7,15 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 95a08f84-04e5-4f72-88a8-d6472a7c89d7
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: 
-- Adm_Skype4B_Online
+ms.service: msteams
+search.appverid: MET150
+ms.collection:  
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -24,25 +25,25 @@ description: "Learn what countries and regions have dial-in conferencing numbers
 
 # Phone numbers for Audio Conferencing in Microsoft Teams
 
-When you are setting up **Audio Conferencing** for Microsoft Teams, dial-in phone numbers are automatically assigned to your organization. You can see the phone numbers that are assigned to your audio conferencing bridge by going to  **Meetings** > **Conference bridges**. See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+When you are setting up **Audio Conferencing** for Microsoft Teams, dial-in phone numbers are automatically assigned to your organization. To see the phone numbers that are assigned to your audio conferencing bridge, in the Microsoft Teams & Skype for Business Admin Center, go to  **Meetings** > **Conference bridges**. See [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
   
 ## Audio Conferencing coverage and pricing
 
-For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing information, see [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+For a complete list of all the countries/regions and cities where Audio Conferencing is available, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). For pricing information, see [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
 ## Dial-in phone numbers in a meeting invite
 
-When a Microsoft Teams user schedules a meeting in Outlook or Outlook Web App, the default audio conferencing number that is set for the user is included in the meeting invite. If you want to select a different default number for one or more users, you can change that by going to **Users**, selecting the user, and editing the user's Audio Conferencing settigns. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).
+When a Microsoft Teams user schedules a meeting in Outlook or Outlook Web App, the default audio conferencing number that is set for the user is included in the meeting invite. If you want to select a different default number for one or more users, you can change that by going to **Users**, selecting the user, and editing the user's Audio Conferencing settings. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
 ## Dial-in phone numbers set on an audio conferencing bridge
 
 There are two types of audio conferencing phone numbers that can be assigned to your conferencing bridge: **Shared** and **Dedicated**. Both types of these numbers can be used by any caller to join audio meetings that are being held in your organization.
   
- **Dedicated phone numbers** are those phone numbers that are only available to users within your organization. You can change the languages that are used when someone calls in to one of these numbers.
+- **Dedicated phone numbers** are those phone numbers that are only available to users within your organization. You can change the languages that are used when someone calls in to one of these numbers.
   
- **Shared phone numbers** are those phone numbers that can be shared with other Office 365 organizations. You can't change the languages that are used when someone calls in to one of these numbers.
+- **Shared phone numbers** are those phone numbers that can be shared with other Office 365 organizations. You can't change the languages that are used when someone calls in to one of these numbers.
   
 While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
   

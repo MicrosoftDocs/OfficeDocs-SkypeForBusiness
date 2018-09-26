@@ -8,9 +8,10 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Use this guidance if you're in a large org or you have heavily customized your Skype for Business deployment. 
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ---
@@ -107,5 +108,5 @@ Ongoing: Maintain momentum and the operational health of your Teams deployment.
 > Our Upgrade Pro content is continually evolving. Be sure to check back for the latest guidance, and read the [Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> If you’re an admin on your Office 365 tenant, you might start seeing upgrade options in your PowerShell cmdlet or Teams Admin Center. Having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For an optimal user experience, confirm that Teams meets your collaboration and communication requirements, validate that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams.
+> If you’re an admin on your Office 365 tenant, you might start seeing upgrade options in your PowerShell cmdlet or Teams & Skype for Business Admin Center. Having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For an optimal user experience, confirm that Teams meets your collaboration and communication requirements, validate that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams.
  

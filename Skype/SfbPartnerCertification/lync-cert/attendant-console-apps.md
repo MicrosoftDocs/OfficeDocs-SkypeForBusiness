@@ -3,7 +3,7 @@ title: "Qualified Lync Attendant Console applications"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 Robots:

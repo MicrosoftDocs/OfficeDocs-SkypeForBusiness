@@ -8,9 +8,10 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Guidance for starting a Microsoft Teams pilot to explore all that Teams can offer your organization while you continue to use Skype for Business  
-localization_priority: Priority
+localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ---

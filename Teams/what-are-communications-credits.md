@@ -7,15 +7,19 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: 524dbea7-117f-493d-8005-6461f7f10059
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: 
+- skype-for-business-online
+- msteams
+search.appverid: MET150
 ms.collection: 
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
@@ -46,7 +50,7 @@ Communications Credits are a convenient way to pay for Audio Conferencing and Ca
   
 ## What are the Communications Credits rates?
 
-If you're wondering how what the cost of the calls are for Calling Plans, see Communications Credits [Rates for Calling](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#Rates) Plans.
+If you're wondering how what the cost of the calls are for Calling Plans, see Communications Credits [Rates for Calling](https://products.office.com/skype-for-business/pstn-calling-plans#Rates) Plans.
   
 ## What is it?
 

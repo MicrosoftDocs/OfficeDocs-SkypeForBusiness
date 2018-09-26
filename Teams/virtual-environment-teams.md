@@ -10,9 +10,10 @@ ms.service: msteams
 ms.reviewer: jaym
 description: Learn how to run Microsoft Teams in a virtualized environment.
 localization_priority: Normal
+search.appverid: MET150
 ms.custom:
 - Devices
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto: 
 - Microsoft Teams
 ---

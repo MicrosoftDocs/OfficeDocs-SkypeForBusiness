@@ -7,8 +7,13 @@ ms.reviewer: mikedav, allancar
 ms.topic: article
 ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service: 
+- skype-for-business-online
+- msteams
+ms.collection:  
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online 
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -47,7 +52,7 @@ Census data is acquired solely to provide, support, and improve Skype for Busine
 |UserID  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |The ID is hashed twice: once on the client and again on the telemetry service. The hashing ensures the ID cannot be linked to a specific user.  <br/> |
 |DeviceID  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |The device ID is a GUID that's randomly generated once on the device and sent to the telemetry service.  <br/> |
 
-Census data DOES NOT contain any information that identifies your organization or users. See the [Skype for Business Privacy Statement](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) for more information.
+Census data DOES NOT contain any information that identifies your organization or users. See the [Skype for Business Privacy Statement](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx) for more information.
 
 Census data is on by default and cannot be turned off by admins or end users.
 
@@ -68,7 +73,7 @@ Usage data might contain information that identifies your organization, such as 
 
 Usage data DOES NOT contain any information that identifies users.
 
-Usage data collection is on by default, but on-premises admins can turn it off using the DisableAutomaticSendTracing Group Policy setting on Skype for Business Server 2015. Turning this setting off affects all users in the organization. See [Configure client bootstrapping policies in Skype for Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) for more information.
+Usage data collection is on by default, but on-premises admins can turn it off using the DisableAutomaticSendTracing Group Policy setting on Skype for Business Server 2015. Turning this setting off affects all users in the organization. See [Configure client bootstrapping policies in Skype for Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) for more information.
 
 End users cannot turn usage data collection on or off.
 
@@ -89,11 +94,11 @@ Error reporting data can include information about performance and reliability, 
 |Conversation thread ID  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA==  <br/> ||
 |UserID  <br/> |amosmarble <br/> |The ID is sent in cleartext , which the telemetry service hashes before storing it  <br/> |
 
-Error reporting data may also contain personally identifiable information such as the user's IP address and Session Initiation Protocol Uniform Resource Identifier (SIP URI). See the [Skype for Business Privacy Statement](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) for a detailed explanation of what's collected.
+Error reporting data may also contain personally identifiable information such as the user's IP address and Session Initiation Protocol Uniform Resource Identifier (SIP URI). See the [Skype for Business Privacy Statement](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx) for a detailed explanation of what's collected.
 
 Error reporting requires two things:
 
-- The DisableAutomaticSendTracing Group Policy setting be set to False on the server or in the tenant admin center (this is the default state). See [Configure client bootstrapping policies in Skype for Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) for more information.
+- The DisableAutomaticSendTracing Group Policy setting is set to False on the server or in the tenant admin center (this is the default state). See [Configure client bootstrapping policies in Skype for Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) for more information.
     
 - End users individually opt in from the General tab (click the gear icon ![Gear icon](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) and then the **Options** dialog opens with the **General** tab displayed) in the Skype for Business client.
     
@@ -109,6 +114,6 @@ You can see [Set up your network for Skype for Business Online](https://support.
 If you are using Office 365 operated by 21Vianet in China, see [Set up your network for Skype for Business Online operated by 21Vianet](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
 ## Related topics
-[Customer Experience Improvement Program](https://www.microsoft.com/products/ceip/en-US/default.mspx)
+[Customer Experience Improvement Program](https://www.microsoft.com/products/ceip/default.mspx)
 
 [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

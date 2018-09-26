@@ -7,15 +7,19 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 572ca0c8-b9f0-4948-9409-e12ee0b94aa0
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: 
+ms.service: 
+- skype-for-business-online
+- msteams
+search.appverid: MET150
+ms.collection:  
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing

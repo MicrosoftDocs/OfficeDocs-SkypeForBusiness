@@ -7,9 +7,10 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
+search.appverid: MET150
 description: Learn about the Microsoft Teams functionality available to guest users.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---

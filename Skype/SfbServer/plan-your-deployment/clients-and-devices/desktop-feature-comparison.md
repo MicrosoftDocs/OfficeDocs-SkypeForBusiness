@@ -1,13 +1,14 @@
 ---
 title: "Desktop client feature comparison for Skype for Business Server 2015"
 ms.author: jambirk
-author: PhillipGarding
+author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -105,7 +106,8 @@ This table covers features related to IM support.
 This table covers features related to Meetings support.
   
 > [!NOTE]
->  Skype for Business meeting features aren't available in Skype for Business Online Standalone Plan 1.
+>  Skype for Business meeting features aren't available in Skype for Business Online Standalone Plan 1.  Plan 1 is being [retired](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement
+).
 
 In Skype-to-Skype sessions, a Skype for Business Online Plan 1 user can participate in desktop sharing and application sharing if they're invited by a user who has access to sharing features.   
 For details, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx). 

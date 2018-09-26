@@ -8,8 +8,9 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Deliver high-quality Teams user experience by managing service, network, and endpoint health and defining operational and Quality Champion roles.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ---
@@ -332,7 +333,7 @@ This table includes a summary of planning activities with links to related conte
 | | Install Quality Experience Review templates <br/> Upload a building file | [QERLite templates](https://aka.ms/qertemplates) <br/> [Upload Building Information](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
 | Plan for network quality | Run the Network Planner | [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Implement QoS | [Quality of Service in Microsoft Teams](qos-in-teams.md) |
-| | Bypass proxy servers | [Proxy Guidance](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | Bypass proxy servers | [Proxy Guidance](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | Implement split-tunnel VPN | [VPN Split Tunnel Guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Optimize Wi-Fi networks for real-time media  | Consult 3rd Party Vendors |
 | | Implement local internet egress | [Local Internet Egress](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |

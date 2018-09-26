@@ -7,14 +7,18 @@ ms.date: 08/29/2018
 ms.topic: article
 ms.service: msteams
 description: Learn about how Office 365 groups and group memberships work with Microsoft Teams.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---
 
 Office 365 Groups and Microsoft Teams
 =====================================
+
+> [!Tip]
+> Watch the following session to learn how Teams interacts with Azure Active Directory (AAD), Office 365 Groups, Exchange, SharePoint and OneDrive for Business: [Foundations of Microsoft Teams](https://aka.ms/teams-foundations)
 
 Office 365 Groups is the cross-application membership service in Office 365. At the basic level, an Office 365 Group is an object in Azure Active Directory with a list of members and a loose coupling to related workloads including a SharePoint team site, Yammer Group, shared Exchange mailbox resources, Planner, PowerBI and OneNote. You can add or remove people to the group just as you would any other group-based security object in Active Directory.
 
@@ -28,7 +32,7 @@ When you create a Microsoft Team, on the backend, you’re creating an Office 36
 > [!NOTE]
 > Deleting an Office 365 Group will remove the mailbox alias for persistent Outlook/OWA conversations and Teams meeting invites, and mark the SharePoint site for deletion. It takes approximately 20 minutes between the removal of a team and its effect on Outlook. Deleting a team from the Teams client will remove it immediately from view to all who are members of the team. If you remove members of an Office 365 Group that has had Teams functionality enabled on it, there could be a delay of approximately two hours before the team is removed from view in the Teams client for the affected people who were removed.
 >
->Read [this](https://support.office.com/en-us/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) for information about restoring an Office 365 Group that you deleted.
+>Read [this](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) for information about restoring an Office 365 Group that you deleted.
 
 Group membership
 ----------------

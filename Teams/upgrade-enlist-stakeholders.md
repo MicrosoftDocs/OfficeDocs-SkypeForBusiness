@@ -8,9 +8,10 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Enlist stakeholders to serve on the project team for your upgrade.  
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ---
@@ -48,7 +49,7 @@ Optionally, you can create a steering committee. Sometimes large or more complex
 | Network Lead                    | Provides insights into network design and execution                             | 
 | Security Lead                   | Provides insights into security design, process, and implementation             | 
 | Synchronous Communications Lead | Owns presence tooling such as chat, meetings, and calling                       | 
-| Asynchronous Collaboration Led  | Owns asynchronous tooling such as SharePoint, OneDrive, and so on               | 
+| Asynchronous Collaboration Lead  | Owns asynchronous tooling such as SharePoint, OneDrive, and so on               | 
 | Telephony Lead                  | Provides insights into telephony design and implementation                      | 
 | Service Owner/ Quality Champion | Owns the operation of Teams all-up, including the quality of the user experience | 
 | Desktop and Devices Lead        | Provides input into clients, devices, and desktop apps                          | 

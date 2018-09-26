@@ -1,5 +1,5 @@
 ---
-title: "Set the phone numbers included on invites in Microsfot Teams"
+title: "Set the phone numbers included on invites in Microsoft Teams"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,18 +7,19 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 32954439-d365-4125-872f-b37466ecb035
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
+search.appverid: MET150
 ms.collection: 
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: "Get the steps to create a default phone number for callers to join a Microsfot Teams meeting. "
+description: "Get the steps to create a default phone number for callers to join a Microsoft Teams meeting. "
 ---
 
 # Set the phone numbers included on invites in Microsoft Teams
@@ -61,7 +62,7 @@ Windows PowerShell is all about managing users and what users are allowed or not
     
   - [Best ways to manage Office 365 with Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps) for more information. 
+For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information. 
   
     
 ## Related topics

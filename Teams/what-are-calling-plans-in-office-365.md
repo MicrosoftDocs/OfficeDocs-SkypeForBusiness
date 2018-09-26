@@ -7,15 +7,19 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 3dc773b9-95e0-4448-b2f1-887c54022429
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: 
+- skype-for-business-online
+- msteams
+search.appverid: MET150
 ms.collection: 
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans

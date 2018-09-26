@@ -9,7 +9,8 @@ ms.service: msteams
 ms.reviewer:
 description: List of Teams resources helpful for IT admins in Education.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 ---

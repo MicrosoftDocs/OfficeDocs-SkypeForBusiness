@@ -1,12 +1,13 @@
 ﻿---
 title: "Configure a Skype Room Systems v2 console"
 ms.author: jambirk
-author: Travis-Snoozy
+author: jambirk
+ms.reviewer: Travis-Snoozy
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: Strat_SB_Admin
 ms.custom: 
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea

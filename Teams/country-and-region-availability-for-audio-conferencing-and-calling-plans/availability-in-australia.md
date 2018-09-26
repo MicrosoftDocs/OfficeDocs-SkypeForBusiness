@@ -7,8 +7,14 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 98a819e4-6dd9-47ee-8c79-586aae727111
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service: 
+- skype-for-business-online
+- msteams
+ms.collection: 
+- Adm_Skype4B_Online 
+- Teams_ITAdmin_Help 
+search.appverid: MET150
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -48,7 +54,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 ## Calling Plans
 > [!IMPORTANT]
-> Currently only available for preview and early adoption in Australia. For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
+> Only available through Telstra for Australian-based tenants. For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
 
 |**Feature**|**Details**|
 |:-----|:-----|

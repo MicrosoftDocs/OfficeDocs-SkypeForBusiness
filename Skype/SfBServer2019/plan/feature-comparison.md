@@ -1,12 +1,13 @@
 ---
 title: "Desktop client feature comparison for Skype for Business Server 2019"
 ms.author: jambirk
-author: PhillipGarding
+author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -96,9 +97,10 @@ This table covers features related to IM support.
 This table covers features related to Meetings support.
   
 > [!NOTE]
->  Skype for Business meeting features aren't available in Skype for Business Online Standalone Plan 1.
+>  Skype for Business meeting features aren't available in Skype for Business Online Standalone Plan 1.  Plan 1 is being [retired](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement
+).
 
-In Skype-to-Skype sessions, a Skype for Business Online Plan 1 user can participate in desktop sharing and application sharing if they're invited by a user who has access to sharing features.   
+In Skype-to-Skype sessions, a Skype for Business Online Plan 1 user can participate in desktop sharing and application sharing if they're invited by a user who has access to sharing features.
 For details, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx). 
   
 |Feature/capability | Skype for Business 2016 client | Skype for Business on Mac | Skype for Business Web App | Skype for Business 2015 client | Lync 2013 client | 
@@ -106,7 +108,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Add computer audio  |&#x2714;|&#x2714;|&#x2714;(requires plug-in)  |&#x2714;|&#x2714;| 
 |Add video |&#x2714;|&#x2714;|&#x2714;(requires plug-in) |&#x2714;|&#x2714;| 
 |View multiparty video (gallery view)  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Video-based screen sharing    |&#x2714;|&#x2714; Only for users homed on Skype for Business Online   |&#x2714; View-only   ||| 
+|Video-based screen sharing    |&#x2714;|&#x2714;|&#x2714; View-only   ||| 
 |Use in-meeting presenter controls |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
 |Access detailed meeting roster |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|  
 |Participate in multiparty IM |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|  
@@ -115,7 +117,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Add anonymous participants (if enabled) |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Use dial-in audio meetings |&#x2714; &#x2777; |&#x2714;|&#x2714; &#x2777; |&#x2714;|&#x2714; &#x2777; |
 |Initiate a Meet Now meeting|&#x2714;|&#x2714;||&#x2714;|&#x2714;|  
-|Add and present Microsoft PowerPoint files |&#x2714;| &#x2778; View only, annotations not available   |&#x2714;|&#x2714;|&#x2714;| 
+|Add and present Microsoft PowerPoint files |&#x2714;| &#x2778; Annotations not available   |&#x2714;|&#x2714;|&#x2714;| 
 |Navigate Microsoft PowerPoint files |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
 |Add and edit OneNote meeting notes  |&#x2714;||Edit only (not add)  |&#x2714;|&#x2714;|
 |Use a whiteboard |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
@@ -128,9 +130,8 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Mute Audience |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Make everyone an attendee |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Produce Skype Meeting Broadcast |&#x2714;|||||
-|Delegate can schedule a meeting on behalf of delegator |&#x2714;|Skype for Business Online only |&#x2714;|||
+|Delegate can schedule a meeting on behalf of delegator |&#x2714;|&#x2714;|&#x2714;|||
 |Synchronize delegates between Skype for Business and Outlook |&#x2714;||&#x2714;||| 
-|Video Based Screen Sharing  |&#x2714;| Skype for Business Online only  |&#x2714;||&#x2714;|
 |Set Video Spotlight (lock video) |&#x2714;||&#x2714;|&#x2714;|&#x2714;| 
 |Give/Take control of screen sharing  |&#x2714;||&#x2714;|||
    
@@ -159,14 +160,14 @@ This table covers features related to voice services support.
 |Initiate a call to a Response Group|&#x2714;||&#x2714; &#x2776; |
 |Support emergency services (E-911) |&#x2714;|&#x2714; |&#x2714; &#x2776; |
 |IM notification to SIP URI(s) for E-911 call |&#x2714;|&#x2714;|&#x2714;|
-|IM notification to distribution list for E-911 call|&#x2714;||&#x2714;|
+|IM notification to distribution list for E-911 call|&#x2714;|&#x2714;|&#x2714;|
 |Connect to voice mail, set up or change greeting |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
 |Missed call notification |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
 |Make calls on behalf of another contact (manager/delegate scenario) |&#x2714;|&#x2714;|&#x2714; &#x2776; |
 |Handle another's calls if configured as a delegate |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
 |Call park |&#x2714;||&#x2714; &#x2776; |
 |Group call pickup |&#x2714;||&#x2714; &#x2776; |
-|Location-based routing |&#x2714;||&#x2714;| 
+|Location-based routing |&#x2714;|&#x2714;|&#x2714;| 
 |Manage Response Group/Team call group |&#x2714;||&#x2714;|
    
  &#x2776;  This feature isn't available in Skype for Business Online.

@@ -8,8 +8,9 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
 description: Learn what to look for when checking your environment’s readiness for Microsoft Teams.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---
@@ -19,7 +20,7 @@ Check your environment’s readiness for Microsoft Teams
 
 The transition to the cloud will vary by each organization, and current state may have an impact on how Teams will function.
 
-Educational institutions are strongly encouraged to [deploy School Data Sync](https://docs.microsoft.com/en-us/schooldatasync/) before deploying Microsoft Teams. School Data Sync uses your school’s SIS roster data to automatically create classes and groups for Microsoft Teams and other applications.
+Educational institutions are strongly encouraged to [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before deploying Microsoft Teams. School Data Sync uses your school’s SIS roster data to automatically create classes and groups for Microsoft Teams and other applications.
 
 To get the best experience on Teams, your organization must have deployed Exchange Online and SharePoint Online. If you haven't deployed these services, or if you have a different setup, refer to these links for help:
 
@@ -33,6 +34,6 @@ To get the best experience on Teams, your organization must have deployed Exchan
 
 -   If your organization does not have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](SharePoint-OneDrive-interact.md).
 
-- If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/en-us/schooldatasync/) before deploying Microsoft Teams.
+- If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before deploying Microsoft Teams.
 
 																			   

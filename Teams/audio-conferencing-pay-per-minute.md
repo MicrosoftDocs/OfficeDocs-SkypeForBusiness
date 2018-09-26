@@ -7,15 +7,19 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: 
+- skype-for-business-online
+- msteams
+search.appverid: MET150
 ms.collection: 
+- Teams_ITAdmin_Help 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
@@ -44,7 +48,7 @@ Whereas the Audio Conferencing per-user license offer includes dial-in usage and
 - Outbound calls placed to external phone numbers from within a meeting of your organization.
     
 > [!NOTE]
-> You can find the dial-in and dial-out rates associated to these types of calls by reviewing the **See rates for where you want to call section** in [Audio Conferencing](https://products.office.com/en-us/skype-for-business/pstn-conferencing). 
+> You can find the dial-in and dial-out rates associated to these types of calls by reviewing the **See rates for where you want to call section** in [Audio Conferencing](https://products.office.com/skype-for-business/pstn-conferencing). 
   
 Pay-per-minute requires your organization to have [Communications Credits](what-are-communications-credits.md) enabled with a license assigned to each user in order for Audio Conferencing to work. If you want more details, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) and/or [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
   
@@ -54,11 +58,11 @@ To enable Audio Conferencing pay-per-minute for users in your organization, see 
 
  **Looking for prices?** See [How to see prices and buy add-on licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing#bkmk_how) or one of the following:
   
-- [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+- [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
-- [Pricing for Phone System](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+- [Pricing for Phone System](https://products.office.com/skype-for-business/phone-system#Requirements)
     
-- [Pricing for Calling Plans](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
+- [Pricing for Calling Plans](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
 ## Related topics
   

@@ -5,6 +5,8 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
+search.appverid: MET150
 description: Learn to use the different adminstrative roles to manage Teams.
 appliesto: 
 - Microsoft Teams
