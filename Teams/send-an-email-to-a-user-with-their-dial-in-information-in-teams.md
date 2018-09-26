@@ -40,6 +40,8 @@ Here is an example of the email that is sent:
   
 ## Send an email with audio conferencing information to a user
 
+### ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
+
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
 2. At the top of the page, click **Edit**.

@@ -36,6 +36,8 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
   
 ## Set or change the default audio conferencing phone number for a meeting organizer or user
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
+
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
     ![Shows selecting users in the Microsoft Teams and Skype for Business Admin Center](media/teamsselectusers.png)

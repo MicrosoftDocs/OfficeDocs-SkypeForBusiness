@@ -36,6 +36,8 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 ## Set the conferencing auto attendant languages
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
+
 1. In the left navigation, go to **Meetings** > **Conference Bridges**.
 
 2. Select the audio conferencing phone number from the list, and at the top of the page, click **Edit**.
