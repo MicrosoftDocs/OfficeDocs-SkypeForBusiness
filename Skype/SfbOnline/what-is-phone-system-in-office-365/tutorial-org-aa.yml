@@ -149,16 +149,14 @@ items:
     To do the initial design, you'll need a flexible and easy way to work out hierachies and structures of users and Auto Attendants. Here’s an exercise you 
     can do on any blank wall or whiteboard, using several colors of pen and some sticky notes or index cards and tape:
     1.	For each person with a voicemail account in the business, write their name and phone number on a sticky note or 3x 5 index card. You may need 
-    several notes for the employee who will be the Operator. If you have several colors of note available, it might help to distinguish users and menus at a glance.
-    2.	Mark one note as the main or initial greeting, another as the after hours or holiday greeting (you could easily choose to separate these, but for now we’ll 
-    merge them), one to represent the hours and location recording (if you’re choosing to use one), and one to stand in for the main Auto Attendant, which presents 
-    the first three to five most-used options. If possible, use a different color of note.
-    3.	Place the initial greeting on your board space, then below it place the main Auto Attendant note. If any of the top options go directly to a single employee, 
-    put their note to the right of the note representing the attendant. 
-    4.	It’s unlikely all the options will fit on a single attendant menu, so think about which additional attendants might be needed and how they might nest under 
-    each other and under the main attendant.  
-    5.	If you have an option that leads to a call queue, create a note using a third color, place it below and to the right of the Attendant that connects to 
-    it. Place notes representing the users in the queue to the right of the note representing the queue.
+    several notes for the employee who will be the Operator. If you have several colors of note available, it might help to distinguish users and Auto Attendants at a glance.
+    2.	Mark one note as the Main Auto Attendant, which will include a business hours initial greeting, an after hours greeting, and a main menu. 
+    You'll probably also want  an Auto Attendant to represent the hours and location recording (if you’re choosing to use one), 
+    and additional Auto Attendants as needed to cover the needs of your callers. If possible, use a different color of note to represent Auto Attendants.
+    3.	Place the main Auto Attendant note on your board space, if any of the top options go directly to a single employee put their note to the right of the note representing the attendant. 
+    4.	It’s unlikely all the options will fit on a the Main Auto Attendant menu, so think about which additional attendants might be needed and how they might nest under the main attendant.  
+    5.	If you have an option that leads to a call queue, create a note using a third color, place it below and to the right of the Attendant that connects to the Call Queue.
+    Place notes representing the users in the queue to the right of the note representing the queue, or over the top of it (whichever is clearer to you).
 
     Here’s a diagram representing one way to implement our example:
 
@@ -178,7 +176,7 @@ items:
     much simpler system with fewer options. If that simplicity is important, you can plan to enable the **Dial by Name** option and remove one or more 
     of the nested Auto Attendants that mention specific employees by name.
 
-    This slightly simpler example shows the use of Call Queues and slightly longer menus:
+    This slightly simpler example shows the use of Call Queues and slightly longer menus, therefor needing fewer Auto Attendants:
 
     ![Diagram of Lawyer office AA](../images/AA-LawyerOffice-CallQueues.png)
 
@@ -381,7 +379,7 @@ items:
     Set up the General Information for the nested auto attendants using different names but the same Time Zone, Language, Speech Recognition 
     and Operator settings; they won't require a Phone Number Assigned or Company Greeting. 
     Set the business hours call handling as shown for each auto attendant.
-    You can leave the hours of operation, holidays, and dial scope settings at their defaults for nested auto attendants.  
+    You can leave the hours of operation, holidays, and dial scope settings at their defaults for nested auto attendants. Since they don't have phone numbers associated, they only get accessed as directed in the main Auto Attendant.  
     
 
     **Nested Auto Attendant: Billing (nested under main menu)**
