@@ -31,7 +31,7 @@ Use the Skype for Business Server Control Panel to view a list of all the comput
     - Click **Refresh** to view the most up-to-date list.
     - Search for a specific computer by typing the computer name in the search field.
    
-## View the status of services running on a computer in Skype for Business 
+## View the status of services running on a computer in Skype for Business
 
 Use the Skype for Business Server Control Panel to view all the services that are running on a specific computer in your Skype for Business Server topology and see the status of each service.
 
