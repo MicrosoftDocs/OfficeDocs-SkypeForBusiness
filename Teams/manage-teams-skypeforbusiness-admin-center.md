@@ -5,16 +5,14 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/23/2018
 ms.topic: article
-ms.service: 
-- msteams
-- skype-for-business-online
+ms.service: msteams
 ms.reviewer: 
 search.appverid: MET150
 description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Office 365 Admin center to the new Microsoft Teams & Skype for Business Admin Center.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Teams_ITAdmin_Help
+MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
 - Skype for Business Online
@@ -23,9 +21,8 @@ appliesto:
 Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center
 ======================================================
 
-The new Microsoft Teams & Skype for Business Admin Center is coming soon! 
-
-Starting in March 2018, we're gradually migrating settings to the Microsoft Teams & Skype for Business Admin Center from both the current Skype for Business Admin center and the Microsoft Teams experience in the Office 365 Admin center. If a setting has been migrated, you'll see a notification and then be directed to the setting's location in the new Microsoft Teams & Skype for Business Admin Center.
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 We’ll continue to migrate other functionality from the Skype for Business Admin center in the coming months. You can stay up to date via our public [roadmap](https://aka.ms/Office365Roadmap).
 
@@ -73,7 +70,7 @@ The following table identifies the sections of the current Teams experience that
 |Custom cloud storage     |Dropbox        |TeamsClientConfiguration         |Tenant         |
 |Custom cloud storage     |Google Drive        |TeamsClientConfiguration         |Tenant         |
 |Custom cloud storage     |ShareFile        |TeamsClientConfiguration         |Tenant         |
-|Settings by user/license type     |Turn Microsoft Teams on or off for all users          |Will be deprecated. Use Office 365 admin center to assign licenses.  Enabling/disabling Guest will move to TeamsClientConfiguration - AllowGuestUser      |         |
+|Settings by user/license type     |Turn Microsoft Teams on or off for all users          |Deprecated. Use Office 365 admin center to assign licenses.        |         |
 |Teams and channels     |         |Redirects to Azure Active Directory Group Management (Same as current experience).              |User         |
 |Teams and channels     |         |Redirects to AAD Group Management (Same as current experience).             |User          |
 |Calls and Meetings     |Allow scheduling for private meetings         |TeamsMeetingPolicy         |User          |
@@ -98,7 +95,7 @@ You can continue to modify settings in the Office 365 Admin center and the Skype
 
 The following table shows where you can manage features during the migration.
 
-|Feature  |Microsoft Teams and Skype for Business Admin Center                       |Skype for Business Admin Center (legacy)  |Office 365 Admin center  |
+|Feature  |Microsoft Teams & Skype for Business Admin Center                       |Skype for Business Admin Center (legacy)  |Office 365 Admin center  |
 |---------|:---------:|:---------:|:---------:|
 |Messaging policy     |     X    |         |         |
 |Teams interop policy     |    X     |         |         |
