@@ -49,8 +49,8 @@ To enable users to connect to the Disaster Recovery Lync Server 2013 pool, a DNS
 
 The production Lync Server 2013 pool will be referenced by clients using the auto-configuration and DNS SRV records of:
 
-- SRV: _sip._tls.<domain> /CNAME: SIP.\<domain>
-- CNAME: SIP.<domain> /cvc-pool-1.\<domain>
+- SRV: _sip._tls.\<domain> /CNAME: SIP.\<domain>
+- CNAME: SIP.\<domain> /cvc-pool-1.\<domain>
 
 To facilitate the failover, this CNAME record must be updated to reference the DROCSPool FQDN:
 

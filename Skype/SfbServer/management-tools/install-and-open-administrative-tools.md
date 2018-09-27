@@ -72,9 +72,9 @@ Use one of the following procedures to open the Skype for Business Server Contro
 **To open the Skype for Business Server Control Panel from any computer inside your organization’s firewall**
 
 1. From a user account that is assigned to the CsAdministrator role or other role that has appropriate user rights and permissions for the task to be performed, log on to any computer in your internal deployment with a minimum screen resolution of 1024 x 768.
-    > [!IMPORTANT]
-    > If you have configured an administration simple uniform resource locator (URL), you can access the Skype for Business Server Control Panel from an Internet browser that is running on any computer within your organization’s firewall. For details about configuring the administration simple URL, see [Planning for simple URLs](https://technet.microsoft.com/en-us/library/gg398287(v=ocs.15).aspx) and [Edit or configure simple URLs](https://technet.microsoft.com/en-us/library/gg398063(v=ocs.15).aspx). 
-2. Open a browser window, and then enter the Admin URL configured for your organization.
+   > [!IMPORTANT]
+   > If you have configured an administration simple uniform resource locator (URL), you can access the Skype for Business Server Control Panel from an Internet browser that is running on any computer within your organization’s firewall. For details about configuring the administration simple URL, see [Planning for simple URLs](https://technet.microsoft.com/en-us/library/gg398287(v=ocs.15).aspx) and [Edit or configure simple URLs](https://technet.microsoft.com/en-us/library/gg398063(v=ocs.15).aspx). 
+1. Open a browser window, and then enter the Admin URL configured for your organization.
 
 **To open the Skype for Business Server Control Panel on a computer running Skype for Business Server**
 

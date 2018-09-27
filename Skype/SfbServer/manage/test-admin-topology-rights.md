@@ -16,7 +16,7 @@ description: "How to test topology rights in Skype for Business Server"
 |--|--|
 |Verification schedule|After initial Skype for Business Server deployment. As needed if permission-related issues arise.|
 |Testing tool|Windows PowerShell|
-|Permissions required|When run locally using the Skype for Business Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.<br/><br/>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsSetupPermission cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:<br/><br/>`Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Test-CsSetupPermission"}`|
+|Permissions required|When run locally using the Skype for Business Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.<br/><br/>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsSetupPermission cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:<br/><br/>`Get-CsAdminRole \| Where-Object {$_.Cmdlets -match "Test-CsSetupPermission"}`|
 |||
 
 ## Description
@@ -38,7 +38,7 @@ For more information, see the help topic for the [Test-CsSetupPermission](https:
 
 ## Determining success or failure
 
-f Test-CsSetupPermission determines that the required permissions have already been set on an Active Directory container then the cmdlet will return the value True:
+If Test-CsSetupPermission determines that the required permissions have already been set on an Active Directory container then the cmdlet will return the value True:
 
 True 
 
