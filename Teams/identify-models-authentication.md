@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: anach
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 description: Learn about the different identity models in Microsoft Teams such as Cloud, Synchronized, and Federated. Also learn about multi-factor authentication.
 appliesto:
 - Microsoft Teams

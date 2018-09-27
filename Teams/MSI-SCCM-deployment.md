@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: 
 description: Admins can use the Teams MSI (with SCCM) to bulk dpeloy Microsoft Teams to select users or computers.
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto: 
 - Microsoft Teams
 ---
