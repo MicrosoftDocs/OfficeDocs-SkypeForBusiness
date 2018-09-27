@@ -8,13 +8,11 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.audience: Admin
-appliesto:
-- Microsoft Teams
+appliesto: Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.liveevents.policies
-- 
-description: "Learn about Teams live events policies and how to use them to manage settings for users in your organization who hold live events."
+description: Learn about Teams live events policies and how to use them to manage settings for users in your organization who hold live events.
 ---
 
 # Manage live events policies in Teams
