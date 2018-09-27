@@ -27,5 +27,7 @@ The following topics provide step-by-step instructions on tasks involved with ma
     
 - [Move File Store Data to a New File Store in Skype for Business Server](../../help-topics/help-topobld/move-file-store-data.md)
 
+- [Manage services in Skype for Business Server](manage-services.md)
+
     
 
