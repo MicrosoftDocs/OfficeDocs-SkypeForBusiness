@@ -187,7 +187,7 @@
 ### [Overview of teams and channels in Teams](teams-channels-overview.md)
 ### [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ### [Best practices for organizing teams in Teams](best-practices-organizing.md)
-### [Tutorial: Create a company-wide team using PowerShell](company-wide-team-creation-powershell.yml)
+### [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Guest access](guest-access.md)
 ### [How a guest joins a team](guest-joins.md)
 ### [What the guest experience is like](guest-experience.md)
