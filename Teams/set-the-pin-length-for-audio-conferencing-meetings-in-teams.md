@@ -33,6 +33,8 @@ The audio conferencing bridge answers a call for people who are dialing in to a 
   
 ## Setting the PIN length
 
+![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
+
 1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
 2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
