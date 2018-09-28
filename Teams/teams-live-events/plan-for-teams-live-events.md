@@ -55,6 +55,7 @@ The following table highlights core capabilities and features offered in live ev
 |**Capability**   |**Skype Meeting Broadcast** |**Teams live events (Quick start)** |**Teams live events (External encoder)** |
 |---------|---------|---------|---------|
 |Maximum audience size |10,000 attendees |10,000 attendees* |10,000 attendees* |
+|Maximum duration of live event |4 hours |4 hours |4 hours |
 |Live event creation |   Skype Meeting Broadcast Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Audience engagement – Yammer |&#x2714; |&#x2714; (integrated experience) |&#x2714; (integrated experience) |
 |Audience engagement – Moderated Q & A |&#x2714;  |&#x2714; |&#x2714; |
@@ -72,8 +73,8 @@ Invite a presenter during the meeting |&#x2714; (Skype for Business) |X |N/A |
 |Real Time Captions and Translation |&#x2714; |&#x2714; (coming soon) |X |
 |Captions in live event recordings |&#x2714; |&#x2714; (coming soon) |&#x2714; |
 |Attendee DVR controls (pause, rewind) |&#x2714; |&#x2714; |&#x2714; |
-|Partner eCDN Support |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective) |&#x2714; (Hive, Kollective, Ramp) |
-|Post-broadcast attendance report for Producers |&#x2714; |&#x2714; (feature release) |X |
+|Partner eCDN Support |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
+|Post-broadcast attendance report for Producers |&#x2714; |&#x2714; |X |
 |Audience Sentiment Analysis – Live voting & polls |&#x2714; (Microsoft Pulse) |X |X |
 
 > [!IMPORTANT]
