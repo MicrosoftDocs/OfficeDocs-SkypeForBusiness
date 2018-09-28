@@ -24,7 +24,7 @@ Keep in mind that the Identity of the RBAC role (for example, CsVoiceAdministrat
 
 To view a list of the cmdlets that have been assigned to a role, use a command similar to this:
 
-`Get-CsAdminRole -Identity "CsHelpDesk" \| Select-Object -ExpandProperty Cmdlets`
+`Get-CsAdminRole -Identity "CsHelpDesk" | Select-Object -ExpandProperty Cmdlets`
 
 ## Assigning an RBAC Role to a User
 
