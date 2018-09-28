@@ -12,9 +12,9 @@ description: ""
 
 # Delegating administrative control of Skype for Business Server 
 
-In Skype for Business Server, administrative tasks are delegated to users by using the new role-based access control (RBAC) feature. When you install Skype for Business Server , a number of RBAC roles are created for you. These roles correspond to universal security groups in Active Directory Domain Services. For example, the RBAC role CsHelpDesk corresponds to the CsHelpDesk group found in the Users container in Active Directory Domain Services. In addition, each RBAC role is associated with a set of Skype for Business Server  Windows PowerShell cmdlets. These cmdlets represent the tasks that can be carried out by users who have been assigned the given RBAC role. For example, the CsHelpDesk role has been assigned the Lock-CsClientPin and UnlockCsClientPin cmdlets. That means users who have been assigned the CsHelpDesk role can lock and unlock user PIN numbers. However, the CsHelpDesk role has not been assigned the New-CsVoicePolicy cmdlet. That means that users who have been assigned the CsHelpDesk role cannot create new voice policies.
+In Skype for Business Server, administrative tasks are delegated to users by using the role-based access control (RBAC) feature. When you install Skype for Business Server, a number of RBAC roles are created for you. These roles correspond to universal security groups in Active Directory Domain Services. For example, the RBAC role CsHelpDesk corresponds to the CsHelpDesk group found in the Users container in Active Directory Domain Services. In addition, each RBAC role is associated with a set of Skype for Business Server  Windows PowerShell cmdlets. These cmdlets represent the tasks that can be carried out by users who have been assigned the given RBAC role. For example, the CsHelpDesk role has been assigned the Lock-CsClientPin and UnlockCsClientPin cmdlets. That means users who have been assigned the CsHelpDesk role can lock and unlock user PIN numbers. However, the CsHelpDesk role has not been assigned the New-CsVoicePolicy cmdlet. That means that users who have been assigned the CsHelpDesk role cannot create new voice policies.
 
-## Viewing Information about RBAC Roles
+## Viewing information about RBAC roles
 
 You can retrieve basic information about your RBAC roles by running the following command from within the Skype for Business Server Management Shell:
 
@@ -26,7 +26,7 @@ To view a list of the cmdlets that have been assigned to a role, use a command s
 
 `Get-CsAdminRole -Identity "CsHelpDesk" | Select-Object -ExpandProperty Cmdlets`
 
-## Assigning an RBAC Role to a User
+## Assigning an RBAC role to a user
 
 To assign an RBAC role to a user, you must add that user to the appropriate Active Directory security group. For example, to assign the CsLocationAdministrator role to a user, you must add that user to the CsLocationAdministrator group. That can be done by carrying out the following procedure:
 

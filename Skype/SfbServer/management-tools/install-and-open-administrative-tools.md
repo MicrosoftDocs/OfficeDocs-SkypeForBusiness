@@ -7,12 +7,12 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: "This topic describes how to install and open the administrative tools you need to use to deploy and manage Skype for Business."
+description: "This topic describes how to install and open the administrative tools you need to deploy and manage Skype for Business."
 ---
 
 # Install and open administrative tools
 
-This topic describes how to install the administrative tools you need to use to deploy and manage Skype for Business Server. The administrative tools are installed by default on each server running Skype for Business Server. Additionally, you can install the administrative tools on other computers, such as dedicated administrative consoles. We strongly recommend that you install the administrative tools on a computer that is in the same domain or forest as the Skype for Business Server deployment you are creating because by doing so you make sure that Active Directory Domain Services preparation steps are already complete, which enables you to use the administrative tools on that computer later to publish your topology.
+This topic describes how to install the administrative tools you need to deploy and manage Skype for Business Server. The administrative tools are installed by default on each server running Skype for Business Server. Additionally, you can install the administrative tools on other computers, such as dedicated administrative consoles. We strongly recommend that you install the administrative tools on a computer that is in the same domain or forest as the Skype for Business Server deployment you are creating, to ensure that Active Directory Domain Services preparation steps are already complete, which enables you to use the administrative tools on that computer later to publish your topology.
 
 Make sure that you review infrastructure, operating system, software, and administrator rights requirements before you install or use the Skype for Business Server administrative tools. For details about infrastructure requirements, see [Administrative tools infrastructure requirements](https://technet.microsoft.com/en-us/library/gg195766(v=ocs.15).aspx). For details about operating system and software requirements to install the administrative tools, see [Server and tools operating system support](https://technet.microsoft.com/en-us/library/gg412883(v=ocs.15).aspx), [Additional software requirements](https://technet.microsoft.com/en-us/library/gg398686(v=ocs.15).aspx), and [Additional server support and requirements](https://technet.microsoft.com/en-us/library/gg398577(v=ocs.15).aspx). For details about the user rights and permissions required to install and use the tools, see [Administrator rights and permissions required for setup and administration](https://technet.microsoft.com/en-us/library/gg412962(v=ocs.15).aspx).
 
@@ -21,7 +21,7 @@ Make sure that you review infrastructure, operating system, software, and admini
 
 ## To install the administrative tools
 
-1. Log on as a local administrator (minimum requirement) to the computer where you want to install the administrative tools. If you are logged on as an a standard user on the Windows Vista or Windows 7 operating systems, and User Account Control (UAC) is enabled, you will be prompted for the local administrator or a domain equivalent user name and password.
+1. Log on as a local administrator (minimum requirement) to the computer where you want to install the administrative tools. If you are logged on as a standard user on the Windows Vista or Windows 7 operating systems, and User Account Control (UAC) is enabled, you will be prompted for the local administrator or a domain equivalent user name and password.
 2. Locate the installation media on your computer, and then double-click \Setup\amd64\Setup.exe.
 3. If you are prompted to install the Microsoft Visual C++ 2008 distributable, click **Yes**.
 4. On the Microsoft Lync Server 2013 Installation Location page, click **OK**. Change this path to another location or drive if you need to have the files installed to another location.
@@ -33,7 +33,7 @@ Make sure that you review infrastructure, operating system, software, and admini
 6. On the Microsoft Lync Server 2013 – Deployment Wizard page, click **Install Administrator Tools**. 
 7. When the installation successfully completes, click **Exit**.
 
-Use the procedures in this topic to open administrative tools to deploy, configure, or troubleshoot your Skype for Business Server topology.
+Use the following procedures to open administrative tools to deploy, configure, or troubleshoot your Skype for Business Server topology.
 
 - [Deployment Wizard](#deployment-wizard)
 - [Topology Builder](#topology-builder) 
