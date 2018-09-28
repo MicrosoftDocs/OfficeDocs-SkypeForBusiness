@@ -20,7 +20,7 @@ Org-wide teams provide an automatic way for everyone in a small to medium-sized 
  
 With org-wide teams, global administrators can easily create a public team that pulls in every user in the organization and keeps the membership up to date with Active Directory as users join and leave the organization. Only global admins can create org-wide teams and currently an org-wide team is limited to organizations with no more than 1,000 users. If these requirements are met, admins will see **Org-wide** as an option under **Privacy** when creating a team.
 
-![Screen shot of the Org-wide option to create an org-wide team.](media/create-org-wide-team.png "Screen shot of the Org-wide option to create an org-wide team.")
+![Screen shot of the Org-wide option to create an org-wide team](media/create-org-wide-team.png "Screen shot of the Org-wide option to create an org-wide team")
 
 > [!NOTE]
 > If you don't see the **Org-wide** option when creating a team and you're a global admin, the feature might still be rolling out or your organization might have more than the current size limit of 1000 members. We're looking to increase this limit in future.
