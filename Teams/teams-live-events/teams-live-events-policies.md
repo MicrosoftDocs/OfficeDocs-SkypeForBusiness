@@ -37,5 +37,5 @@ This setting can only be applied to live events that are produced using Teams me
  ### Related topics
 - [What are Teams live events?](what-are-teams-live-events.md)
 - [Plan for Teams live events](plan-for-teams-live-events.md)
-- [Set up for Teams live events](set up-for-teams-live-events.md)
+- [Set up for Teams live events](set-up-for-teams-live-events.md)
 - [Configure Teams live events](configure-teams-live-events.md)
