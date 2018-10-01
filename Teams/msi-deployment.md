@@ -3,7 +3,6 @@ title: Install Microsoft Teams using MSI
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
-ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
@@ -56,11 +55,11 @@ If a user uninstalls Teams from their User Profile, the MSI installer will track
 3. Redeploy the MSI package to that particular computer.
 
 > [!TIP] 
-> You can use our [Microsoft Teams deployment clean up](.\scripts\Powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via SCCM. 	
+> You can use our [Microsoft Teams deployment clean up](scripts/Powershell-script-teams-deployment-clean-up.md) script to accomplish steps 1 and 2 via SCCM. 	
 					
 ## Disable auto launch for the MSI installer
 
 If you want to disable auto launch, enter the following command prompt:
 
-`msiexec /i Teams_windows.exe OPTIONS="noAutoStart=false"`
+`msiexec /i Teams_windows.exe OPTIONS="noAutoStart=true"`
 
