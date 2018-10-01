@@ -35,7 +35,7 @@ This setting can only be applied to live events that are produced using Teams me
     - **Organizer can record or not** Users can decide whether to record the live event. If it is recorded, after the event is over, event team members can download the recording and attendees can watch the event. 
 
  ### Related topics
-[What are Teams live events?](what-are-teams-live-events.md)
-[Plan for Teams live events](plan-for-teams-live-events.md)
-[Set up for Teams live events](set up-for-teams-live-events.md)
-[Configure Teams live events](configure-teams-live-events.md)
+- [What are Teams live events?](what-are-teams-live-events.md)
+- [Plan for Teams live events](plan-for-teams-live-events.md)
+- [Set up for Teams live events](set up-for-teams-live-events.md)
+- [Configure Teams live events](configure-teams-live-events.md)
