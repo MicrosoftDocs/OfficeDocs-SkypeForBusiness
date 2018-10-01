@@ -224,7 +224,7 @@ You need to complete this and include the operational plan as part of the succes
 <br>
 Technical Planning for Audio Conferencing
 -----------------------------------------
-
+<a name="technical-planning-for-audio-conferencing"> </a>
 To plan for the technical implementation of Audio Conferencing, a series of decisions must be made ahead of time to better prepare your organization to implement a solution that meets business requirements. These decisions will be documented into a technical implementation plan.
 
 ## Availability of Audio Conferencing
