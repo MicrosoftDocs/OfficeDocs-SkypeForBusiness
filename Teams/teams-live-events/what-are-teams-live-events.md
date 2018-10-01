@@ -38,7 +38,7 @@ So, you can see from the picture above, there are four key components that are u
 ### Scheduling
 Teams provides the ability for the organizers to create an event with the appropriate attendee permissions, designate event team members, select production method, and invite attendees. If the live event was created from within a Yammer group, the live event attendees will be able to use Yammer conversation for interacting with people in the event. 
 
-![Screen shot showing the New live events screen to create and schedule a new live event](../media/teams-live-events-schedule.png "Screen shot showing the New live events screen to create and schedule a new live event")
+![Screen shot showing the New live events screen to create and schedule a new live event](../media/teams-live-events-schedule.png "Screen shot showing the New live event screen to create and schedule a new live event")
 
 ### Production
 The live events in Microsoft 365 support a spectrum of production scenarios, include a quick start event using web cams or an external encoder event using studio quality equipment. The video input is the foundation of the Live events and it can vary from a single webcam to a multi-camera professional video production. You can choose these options depending on their project requirements and budget. There are two ways to produce events:
