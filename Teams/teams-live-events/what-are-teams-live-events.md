@@ -38,7 +38,7 @@ So, you can see from the picture above, there are four key components that are u
 ### Scheduling
 Teams provides the ability for the organizers to create an event with the appropriate attendee permissions, designate event team members, select production method, and invite attendees. If the live event was created from within a Yammer group, the live event attendees will be able to use Yammer conversation for interacting with people in the event. 
 
-![Screen shot showing the New live events screen to create and schedule a new live event](../media/teams-live-schedule.png "Screen shot showing the New live events screen to create and schedule a new live event")
+![Screen shot showing the New live events screen to create and schedule a new live event](../media/teams-live-events-schedule.png "Screen shot showing the New live events screen to create and schedule a new live event")
 
 ### Production
 The live events in Microsoft 365 support a spectrum of production scenarios, include a quick start event using web cams or an external encoder event using studio quality equipment. The video input is the foundation of the Live events and it can vary from a single webcam to a multi-camera professional video production. You can choose these options depending on their project requirements and budget. There are two ways to produce events:
@@ -66,7 +66,7 @@ The goal of eCDN is to take the video content from the internet and distribute t
 ### Attendee experience 
 The attendee experience is the most important aspect of live events and it's critical that the attendees can participate in the live event without having any issues. The attendee experience uses Azure Media Player and works across desktop, browser, and mobile (iOS, Android). Office 365 provides Yammer and Teams as two collaboration hubs and the live attendee experience is integrated into these collaboration tools. 
 
-![Teams live events](../media/teams-live-event-attendee.png "Screen shot showing the live events attendee experience")
+![Teams live events](../media/teams-live-events-attendee.png "Screen shot showing the live events attendee experience")
 
 ### Related topics
 - [Live events across Microsoft 365 in Yammer, Microsoft Teams, and Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
