@@ -95,3 +95,6 @@ You can use Teams live events in multiple regions across the world. The followin
 **Exclusions and considerations**
 - **Go Locals:** Unitied Kingdom (U.K.), India, and other Microsoft Teams Go Locals are not currently supported.
 - **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
+
+## Next steps
+Go to [Set up for Teams live events](set-up-for-teams-live-events.md).

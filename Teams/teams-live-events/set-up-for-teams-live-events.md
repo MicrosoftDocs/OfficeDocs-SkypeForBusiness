@@ -116,7 +116,7 @@ You must do the following to enable Live event scheduling for those users.
 #### Step 1: Enable Microsoft Stream for users in your organization**
 Microsoft Stream is available as part of eligible Office 365 subscriptions or as a standalone service. See [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.
 
-> ![Note]
+> ![NOTE]
 > Microsoft Stream is not included in Business Essentials or Business Premium plans.  
 
 Learn more about how you can [assign licenses to users in Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Microsoft Stream. Ensure Microsoft Stream is not blocked for the users as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
@@ -163,3 +163,6 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 **Set up an eCDN for "External encoder" live events** 
 
 If you plan to create live events that use external encoders, you will need to [configure your eCDN provider with Microsoft Stream](https://docs.microsoft.com/stream/network-caching) as well. 
+
+## Next steps
+Go to [Confgure Teams live events](configure-teams-live-events.md).

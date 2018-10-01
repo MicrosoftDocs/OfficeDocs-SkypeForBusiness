@@ -20,7 +20,7 @@ description: Learn about Teams live events policies and how to use them to manag
 
 Teams live events policies are used to control who in your organization can hold live events and the features that are available in the events that they create. After you create a policy, assign it to a user or groups of users in your organization. 
 
-- **Name** This is the name of the policy that appears on the Live events policies page. It can't be longer than 64 characters or have any special characters.  
+- **Name** This is the name of the policy that appears on the live events policies page. It can't be longer than 64 characters or have any special characters.  
 - **Description** Use this to add a friendly description for the policy. 
 - **Allow scheduling** Turning this on lets users in your organization create and schedule live events in Teams.  
 - **Allow transcription for attendees** Turning this on enables live event attendees to see real-time captions and translation during the event. 
