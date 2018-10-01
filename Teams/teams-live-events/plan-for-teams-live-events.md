@@ -37,7 +37,7 @@ The user must have:
 - Permissions to create live events in Microsoft Stream (for [external encoder production](#production)).
 
 > [!IMPORTANT]
-> Office 365 guests, federated, and anonymous users can't be invited as producers or presenters in Teams live events. However, guest and federated users can join as anonymous Live event attendees. 
+> Office 365 guests, federated, and anonymous users can't be invited as producers or presenters in Teams live events. However, guest and federated users can join as anonymous live event attendees. 
  
 ## Who can watch live events?
 
@@ -93,7 +93,7 @@ You can use Teams live events in multiple regions across the world. The followin
 - Go Local Canada
 
 **Exclusions and considerations**
-- **Go Locals:** Unitied Kingdom (U.K.), India, and other Microsoft Teams Go Locals are not currently supported.
+- **Go Locals:** United Kingdom, India, and other Microsoft Teams Go Locals are not currently supported.
 - **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
 
 ## Next steps

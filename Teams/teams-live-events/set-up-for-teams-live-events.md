@@ -111,7 +111,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcast
 ```
 
 ### For external encoder events
-You must do the following to enable Live event scheduling for those users.
+You must do the following to enable live event scheduling for those users.
 
 #### Step 1: Enable Microsoft Stream for users in your organization**
 Microsoft Stream is available as part of eligible Office 365 subscriptions or as a standalone service. See [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.
@@ -125,13 +125,13 @@ Learn more about how you can [assign licenses to users in Office 365](https://su
 By default, administrators can create external encoder live events. Microsoft Stream administrator can [enable additional users for live event creation](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) in Stream.  
 
 #### Step 3: Ensure live event organizers have consented to the company policy set by Stream admin**
-If a Microsoft Stream administrator has [set up a company guidelines policy](https://docs.microsoft.com/stream/company-policy-and-consent) and requires employees to accept this policy before saving content, then users must do so before creating a live event (with External Encoder production) in Microsoft Teams. Before you rollout the live events feature in the organization, make sure users who will be creating these live events have consented to the policy. 
+If a Microsoft Stream administrator has [set up a company guidelines policy](https://docs.microsoft.com/stream/company-policy-and-consent) and requires employees to accept this policy before saving content, then users must do so before creating a live event (with External Encoder production) in Teams. Before you rollout the live events feature in the organization, make sure users who will be creating these live events have consented to the policy. 
 
 ## Step 4: Set up eCDN provider for live events in Microsoft Teams 
 Playback of live event videos uses adaptive bitrate streaming (ABR) but it is a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, live events solutions are integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or enterprise content delivery networks (eCDNs). These SDN / eCDN platforms enable organizations to optimize network bandwidth without sacrificing end user viewing experiences. Our partners can help enable a more scalable and efficient video distribution across your enterprise network.
 
 **Purchase & setup your solution outside of Microsoft Teams**
-Get expert help with scaling video delivery by leveraging Microsoft’s trusted video delivery partners. Before you can enable a video delivery provider to be used with Microsoft Teams you must purchase and setup the SDN/eCDN solution outside and separate from Microsoft Teams.
+Get expert help with scaling video delivery by leveraging Microsoft’s trusted video delivery partners. Before you can enable a video delivery provider to be used with Teams you must purchase and setup the SDN/eCDN solution outside and separate from Teams.
 
 The following SDN/eCDN solutions are pre-integrated and can be setup to be used with Microsoft Stream.
 
@@ -142,10 +142,10 @@ The following SDN/eCDN solutions are pre-integrated and can be setup to be used 
 - **Ramp OmniCache** provides next-generation network distribution and ensures seamless delivery of video content across global WANs, helping event producers optimize network bandwidth and support successful live event broadcasts and on-demand streaming. The support for Ramp OmniCache for quick start live events is coming soon.  [Learn more](http://www.ramp.com). 
  
 > [!NOTE] 
-> Your chosen eCDN solution is subject to the selected **3rd party provider’s terms of service and privacy policy**, which will governs your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the **3rd party provider’s terms**, then don't enable the eCDN solution in Microsoft Teams. 
+> Your chosen eCDN solution is subject to the selected **3rd party provider’s terms of service and privacy policy**, which will governs your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the **3rd party provider’s terms**, then don't enable the eCDN solution in Teams. 
 
 **Set up an eCDN for "Quick start" live events** 
-You can configure eCDN provider for live events in Microsoft Teams using PowerShell. 
+You can configure eCDN provider for live events in Teams using PowerShell. 
 
 > [!NOTE] 
 > A single eCDN provider can be configured for your organization. 
