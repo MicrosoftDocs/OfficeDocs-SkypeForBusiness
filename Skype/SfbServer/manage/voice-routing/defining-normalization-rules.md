@@ -81,8 +81,10 @@ Complete the following steps if you want to create or modify a normalization rul
 
 8. (Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.
 9. (Optional) Enter a number to test the normalization rule, and then click **Go**. The test results are displayed under **Enter a number to test**.
+
     > [!Note]
     > You can save a normalization rule that does not yet pass the test and then reconfigure it later. For details, see [Test voice routing](https://technet.microsoft.com/en-us/library/gg398915(v=ocs.15).aspx). 
+
 10. Click **OK** to save the normalization rule.
 11. Click **OK** to save the dial plan.
 12. On the **Dial Plan** page, click **Commi**t, and then click **Commit all**. 
