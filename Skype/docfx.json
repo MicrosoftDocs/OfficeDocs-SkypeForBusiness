@@ -123,6 +123,7 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "OfficeDocs-SkypeForBusiness"
+    "dest": "OfficeDocs-SkypeForBusiness",
+    "markdownEngineName": "markdig"
   }
 }

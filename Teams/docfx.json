@@ -42,6 +42,7 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "OfficeDocs-MicrosoftTeams"
+    "dest": "OfficeDocs-MicrosoftTeams",
+    "markdownEngineName": "markdig"
   }
 }
