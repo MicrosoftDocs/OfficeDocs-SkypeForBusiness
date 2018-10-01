@@ -21,13 +21,15 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 
 | Release | Published to <br>Microsoft Store | 
 | ---     | ---                              |
+| 4.0.19.0|  08/31/2018    |   
+| 4.0.18.0|  08/27/2018    |   
 | 4.0.8.0|  07/06/2018    |   
 | 3.1.115.0|  06/18/2018    |
 | 3.1.113.0|  06/13/2018    |   
 | 3.1.112.0|  06/05/2018    |   
 | 3.1.104.0|  04/16/2018    |            
 | 3.1.100.0|  03/16/2018    |            
-| 3.1.99.0 | 3/14/2018      |   
+| 3.1.99.0 | 3/14/2018      |  
 | 3.1.98.0    | 3/8/2018    |   
 |  3.0.16.0    |  11/27/2017   |
 | 3.0.15.0 | 10/3/2017  |            
@@ -39,6 +41,18 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 
 
 ## Skype Room Systems v2 feature introduction and issue resolution
+
+### 4.0.19.0 (8/31/2018)
+Introduced in this update: 
+- Hotfix for Crestron application not launching which would normally be accessible by pressing the app button on Crestron SR devices. SRSv2 app restart required after installation of 4.0.19.0 
+
+### 4.0.18.0 (08/27/2018)
+Introduced in this update: 
+- "Report a Problem" feature improvements in Teams mode (equivalent of "Give Feedback" in Skype for Business mode)
+- Enable ability to fallback from Teams to Skype for Business mode for SIP calls
+- Accessibility improvements (Narrator, Magnifier)
+- Automatically restart app when required after XML provisioning changes have been applied
+- Miscellaneous fixes
 
 ### 4.0.8.0 (07/06/2018)
 Introduced in this update: 
