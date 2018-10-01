@@ -503,6 +503,9 @@
 ##### [Tests](../manage/conferencing/tests.md)
 #### [Meeting join page](../manage/conferencing/meeting-join-page.md)
 ### [Management Shell](../manage/management-shell.md)
+### Voice routing
+#### [Defining translation rules](../manage/voice-routing/defining-translation-rules.md)
+#### [Defining normalization rules](../manage/voice-routing/defining-normalization-rules.md)
 ### [Authentication](../manage/authentication/authentication.md)
 #### [Use ADAL](../manage/authentication/use-adal.md)
 #### [Stage AV and OAuth certificates](../manage/authentication/stage-av-and-oauth-certificates.md)
