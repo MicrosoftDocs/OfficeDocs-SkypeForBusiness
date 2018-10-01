@@ -1,5 +1,16 @@
 { 
   "redirections": [ 
+    
+    {
+      "source_path": "Teams/company-wide-team-creation-powershell.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/create-an-org-wide-team", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Teams/scripts/PowerShell-script-sample-create-company-wide-team.md", 
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/create-an-org-wide-team", 
+      "redirect_document_id": false 
+    },
     {
       "source_path": "Teams/what-are-teams-live-events.md", 
       "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events", 
