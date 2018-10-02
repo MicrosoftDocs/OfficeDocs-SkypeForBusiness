@@ -20,10 +20,11 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 ##  Version history
 
 | Release | Published to <br>Microsoft Store | 
-| ---     | ---                              |
-| 4.0.19.0|  08/31/2018    |   
-| 4.0.18.0|  08/27/2018    |   
-| 4.0.8.0|  07/06/2018    |   
+| ---     | ---  |
+| 4.0.27.0 |  10/1/2018    | 
+| 4.0.19.0 |  08/31/2018    |   
+| 4.0.18.0 |  08/27/2018    |   
+| 4.0.8.0 |  07/06/2018    |   
 | 3.1.115.0|  06/18/2018    |
 | 3.1.113.0|  06/13/2018    |   
 | 3.1.112.0|  06/05/2018    |   
@@ -41,6 +42,13 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 
 
 ## Skype Room Systems v2 feature introduction and issue resolution
+
+### 4.0.27.0 (10/1/2018)
+Introduced in this update: 
+- Code changes necessary to prepare the SRSv2 app for later Windows 10 Version 1803 upgrade
+- Fix formatting issue with localized EULAs - specifically Norwegian - which prevents advancing beyond EULA OOBE setup window
+- Code changes required to make Skype Room Systems v2 application run on legacy Lync Room Systems. See more [here](https://aka.ms/lrsupgrade).
+ 
 
 ### 4.0.19.0 (8/31/2018)
 Introduced in this update: 
