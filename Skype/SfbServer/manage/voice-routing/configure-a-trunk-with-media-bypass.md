@@ -56,7 +56,7 @@ A trunk configuration as described below groups a set of parameters that are app
     > [!NOTE] 
     > If you disable this option while the **Enable media bypass** option is selected, additional settings are required. If the trunk peer does not support receiving SIP REFER requests from the Mediation Server and media bypass is enabled, you must also run the **Set-CsTrunkConfiguration** cmdlet to disable RTCP for active and held calls in order to support proper conditions for media bypass. Alternatively, you can select **Enable refer using third-party-call control** if you want transferred calls to be media bypassed, and the gateway does not support SIP REFER requests. 
 
-10. (Optional) To enable inter-trunk routing, associate and configure PSTN usage records to this trunk configuration. The PSTN usages associated to this trunk configuration will be applied for all incoming calls through the trunk that is not originating from a Lync endpoint. To manage PSTN usage records associated to a trunk configuration, use one of the following methods:
+10. (Optional) To enable inter-trunk routing, associate and configure PSTN usage records to this trunk configuration. The PSTN usages associated to this trunk configuration will be applied for all incoming calls through the trunk that is not originating from a Skype for Business Server endpoint. To manage PSTN usage records associated to a trunk configuration, use one of the following methods:
     - To select one or more records from a list of all PSTN usage records available in your Enterprise Voice deployment, click **Select**. Highlight the records you want to associate with this trunk configuration and then click **OK**.
     - To remove a PSTN usage record from this trunk configuration, select the record and click **Remove**.
     - To define a new PSTN usage record and associate it with this trunk configuration, do the following:
@@ -116,7 +116,7 @@ A trunk configuration as described below groups a set of parameters that are app
     > Skype for Business Server traverses the translation rule list from the top down and uses the first rule that matches the dialed number. If you configure a trunk so that a dialed number can match more than one translation rule, be sure that the more restrictive rules are sorted above the less restrictive rules. For example, if you have included a translation rule that matches any 11-digit number and a translation rule that matches only 11-digit numbers that start with +1425, be sure that the rule that matches any 11-digit number is sorted *below* the more restrictive rule. 
 
 19. When you are finished configuring the trunk, click **OK**.
-On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**. 
+20. On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**. 
 
     > [!Note]
     > Whenever you create or modify a trunk configuration, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration](https://technet.microsoft.com/en-us/library/gg413088(v=ocs.15).aspx). (NEED NEW LINK?)

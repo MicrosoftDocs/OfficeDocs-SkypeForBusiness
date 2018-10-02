@@ -20,7 +20,7 @@ SIP trunk configuration settings define the relationship and capabilities betwee
 
 When you install Skype for Business Server, a global collection of SIP trunk configuration settings is created for you. In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).
 
-**To view SIP trunk configuration information by using Lync Server Control Panel**
+**To view SIP trunk configuration information by using Skype for Business Server Control Panel**
 
 1. In the Skype for Business Server Control Panel, click **Voice Routing**, and then click **Trunk Configuration**.
 2. On the **Trunk Configuration** tab you will see a list of all your trunk configuration settings collection; for each collection you will see values for the **Name**, **Scope**, **State**, and **Media bypass** properties, along with the number of **PSTN usages**, **Calling number rules**, and **Called number rules** associated with the collection. To see additional details about a collection of trunk configuration settings, click the collection of interest, click **Edit**, and then click **Show details**. Note that you can view detailed information only for one collection of trunk configuration settings at a time.
