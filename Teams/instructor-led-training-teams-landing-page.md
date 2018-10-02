@@ -101,6 +101,25 @@ ms.date: 08/24/2018
                             </a>
                         </li>
                         <li>
+                            <a href="https://docs.microsoft.com/MicrosoftTeams/enduser-training">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Get on-demand training & videos</h3>
+                                                <p>Get end-user Teams training and videos on demand for you and your users.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
