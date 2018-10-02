@@ -32,10 +32,6 @@ A team is designed to bring together a group of people that work closely to get 
     -   Team channels are places where everyone on the team can openly have conversations. Private chats are only visible to those people in the chat.
 
     -   Channels are most valuable when extended with Apps that include tabs, connectors, and bots that increase their value to the members of the team.
-    
-Take five minutes to hear best practices for organizing teams, channels and tabs in this video:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Membership, Roles and Settings
 ------------------------------
@@ -53,7 +49,7 @@ If you are a Microsoft Teams administrator in Office 365, you have access to sys
 
 Take 3 minutes to check out this go-to-guide video for team owners: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v=7XcDSuw6NR4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 By default, all users have permissions to create a team within Microsoft Teams (to modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md). Users of an existing Office 365 Group can also enhance them with Teams functionality.
 
