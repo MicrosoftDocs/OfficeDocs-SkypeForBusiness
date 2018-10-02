@@ -47,7 +47,8 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 Introduced in this update: 
 - Code changes necessary to prepare the SRSv2 app for later Windows 10 Version 1803 upgrade
 - Fix formatting issue with localized EULAs - specifically Norwegian - which prevents advancing beyond EULA OOBE setup window
-- Code changes required to make Skype Room Systems v2 application run on legacy Lync Room Systems. See more [here] (https://aka.ms/lrsupgrade).
+- Code changes required to make Skype Room Systems v2 application run on legacy Lync Room Systems. See more [here](https://aka.ms/lrsupgrade).
+ 
 
 ### 4.0.19.0 (8/31/2018)
 Introduced in this update: 
