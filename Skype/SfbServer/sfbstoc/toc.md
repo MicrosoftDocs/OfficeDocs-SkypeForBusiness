@@ -506,7 +506,7 @@
 ### Voice routing
 #### [Defining translation rules](../manage/voice-routing/defining-translation-rules.md)
 #### [Defining normalization rules](../manage/voice-routing/defining-normalization-rules.md)
-#### [Configuring trunks]()
+#### [Configuring trunks in Skype for Business Server](../manage/voice-routing/configuring-trunks.md)
 ##### [Multiple trunk support in Skype for Business Server](../manage/voice-routing/multiple-trunk-support.md)
 ##### [Inter-trunk routing](../manage/voice-routing/inter-trunk-routing.md)
 ##### [View trunk configuration information](../manage/voice-routing/view-trunk-configuration-information.md)
