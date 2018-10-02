@@ -41,9 +41,9 @@ Define, create, and modify normalization rules in Skype for Business Server.
 
    - **Digits to add** (Optional) Specify digits to be added to dialed numbers you want the pattern to match.
 
-    The values you enter in these fields are reflected in **Pattern to match** and **Translation rule**. For example, if you leave **Starting digits** empty, type7 into the **Length** field and select **Exactly**, and specify 0 in **Digits to remove**, the resulting regular expression in the **Pattern to match** is:
+     The values you enter in these fields are reflected in **Pattern to match** and **Translation rule**. For example, if you leave **Starting digits** empty, type7 into the **Length** field and select **Exactly**, and specify 0 in **Digits to remove**, the resulting regular expression in the **Pattern to match** is:
 
-    ^(\d{7})$
+     ^(\d{7})$
 
 6. In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers as follows:
 
@@ -51,7 +51,7 @@ Define, create, and modify normalization rules in Skype for Business Server.
 
    - (Optional) Type a value into the **Digits to add** field to specify digits to be prepended to the translated number (for example,+1425).
 
-    For example, if **Pattern to match** contains^(\d{7})$ as the pattern for dialed numbers and **Translation rule** contains+1425$1 as the pattern for E.164 phone numbers, the rule normalizes 5550100 to +14255550100.
+     For example, if **Pattern to match** contains^(\d{7})$ as the pattern for dialed numbers and **Translation rule** contains+1425$1 as the pattern for E.164 phone numbers, the rule normalizes 5550100 to +14255550100.
 
 7. (Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.
 
@@ -87,7 +87,7 @@ Define, create, and modify normalization rules in Skype for Business Server.
 
    - In **Translation rule**, specify a pattern for the format of translated E.164 phone numbers.
 
-    For example, if you enter ^(\d{7})$ in **Match this pattern** and+1425$1 in **Translation rule**, the rule normalizes 5550100 to +14255550100.
+     For example, if you enter ^(\d{7})$ in **Match this pattern** and+1425$1 in **Translation rule**, the rule normalizes 5550100 to +14255550100.
 
 7. (Optional) If the normalization rule results in a phone number that is internal to your organization, select **Internal extension**.
 

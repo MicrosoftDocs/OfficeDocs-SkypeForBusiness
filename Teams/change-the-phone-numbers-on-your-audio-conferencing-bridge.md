@@ -133,8 +133,8 @@ For more information about the Meeting Migration Service, see [Setting up the Me
 
 4. In the confirmation window, click **Yes**.
 
-  > [!IMPORTANT]
-  > After a phone number is unassigned from an audio conferencing bridge, the phone number will no longer be available for users to join new or existing meetings.
+   > [!IMPORTANT]
+   > After a phone number is unassigned from an audio conferencing bridge, the phone number will no longer be available for users to join new or existing meetings.
 
 ## Want to know how to manage with Windows PowerShell?
 <a name="bkPowerShell"> </a>

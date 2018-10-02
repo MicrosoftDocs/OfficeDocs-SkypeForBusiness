@@ -43,7 +43,7 @@ Skype for Business Server also gives you the option to also translate the callin
 
    - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
 
-    > [!CAUTION]
-    > Do not associate translation rules with a trunk if you have configured translation rules on the associated trunk peer, because the two rules might conflict.
+     > [!CAUTION]
+     > Do not associate translation rules with a trunk if you have configured translation rules on the associated trunk peer, because the two rules might conflict.
 
 

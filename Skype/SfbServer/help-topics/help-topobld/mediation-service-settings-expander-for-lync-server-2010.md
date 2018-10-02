@@ -31,10 +31,10 @@ You edit the properties of the Mediation service by defining the following prope
     
 - You select a Trunk, Gateway and Site and click **Make Default** to set the selection as the default for this Mediation service. You select the current default and click **Unmake Default** to remove the selection as the current default. You then select a new default and click **Make Default**.
     
- **OK** Accepts and commits changes to the dialog.
+  **OK** Accepts and commits changes to the dialog.
   
- **Cancel** Discards changes and closes the dialog.
+  **Cancel** Discards changes and closes the dialog.
   
- **Help** Displays this help screen.
+  **Help** Displays this help screen.
   
 

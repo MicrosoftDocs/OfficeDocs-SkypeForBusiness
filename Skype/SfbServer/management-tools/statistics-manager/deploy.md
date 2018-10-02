@@ -83,19 +83,19 @@ Install the Listener service on the host machine by running the StatsManPerfAgen
     
 2. On the next page, specify the following information:
     
-    - **Service Password:** This is the password the remote Agents will use to authenticate to the Listener service.
+   - **Service Password:** This is the password the remote Agents will use to authenticate to the Listener service.
     
-    - **Service Port:** This is the HTTPS port number that the Listener will use to communicate with the Agents. During installation, this port will be allowed through the local firewall, a URL ACL will be created, and an SSL cert will be bound to this port. The default is 8443.
+   - **Service Port:** This is the HTTPS port number that the Listener will use to communicate with the Agents. During installation, this port will be allowed through the local firewall, a URL ACL will be created, and an SSL cert will be bound to this port. The default is 8443.
     
-    - **Certificate Thumbprint:** This is the certificate thumbprint the Listener will use to encrypt the HTTPS protocol. Network Service must have read access to the private key.
+   - **Certificate Thumbprint:** This is the certificate thumbprint the Listener will use to encrypt the HTTPS protocol. Network Service must have read access to the private key.
     
-    Click the **Select...** button to choose the thumbprint.
+     Click the **Select...** button to choose the thumbprint.
     
-    You can find the Certificate thumbprint by using Certificate Manager or by using the following PowerShell command:
+     You can find the Certificate thumbprint by using Certificate Manager or by using the following PowerShell command:
     
-  ```
-  Get-ChildItem -path cert:\LocalMachine\My
-  ```
+   ```
+   Get-ChildItem -path cert:\LocalMachine\My
+   ```
 
    - **Install Dir:** This is the directory on which the binaries will be installed. You may change it from the default by using the **Browse...** button.
     
@@ -153,7 +153,7 @@ Install an Agent on each Skype for Business Server that you wish to monitor by r
     
    - **Service URI:** This is the URI where the Listener resides. It should use the https://name:port format.
     
-    You can use a NETBIOS name or a FQDN. You can use the name that is also specified as the **Subject** or **Subject Alternative Names** of the certificate on the Listener service, but this is not a requirement.
+     You can use a NETBIOS name or a FQDN. You can use the name that is also specified as the **Subject** or **Subject Alternative Names** of the certificate on the Listener service, but this is not a requirement.
     
    - **Service Thumbprint:** This is the thumbprint of the SSL certificate the Listener is using. The Agent will use this thumbprint to authenticate to the Listener. (It will not do full certificate validation because it is possible to use self-signed certificates.)
     
@@ -180,9 +180,9 @@ To import the Skype for Business Server topology, follow these steps:
     
     a. Run the following command: 
     
-  ```
-  Get-CsPool | Export-Clixml -Path mypoolinfo.xml
-  ```
+   ```
+   Get-CsPool | Export-Clixml -Path mypoolinfo.xml
+   ```
     b. Copy the "mypoolinfo.xml" file to the server that runs the Listener.
     
 2. On the host that runs the Listener:
@@ -191,15 +191,15 @@ To import the Skype for Business Server topology, follow these steps:
     
    b. Navigate to the directory on which the Listener is installed. The default is: 
     
-  ```
-  cd C:\Program Files\Skype for Business Server StatsMan Listener
-  ```
+   ```
+   cd C:\Program Files\Skype for Business Server StatsMan Listener
+   ```
 
 3. To confirm which servers are being added and updated, run the following command:
     
-  ```
+   ```
   	.\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
-  ```
+   ```
 
 The following command enables you to view all options:
   
@@ -217,15 +217,15 @@ If you would like to monitor servers that are not in your Skype for Business Ser
   
 1. Navigate to the directory on which the Listener is installed. The default is: 
     
-  ```
-  cd C:\Program Files\Skype for Business Server StatsMan Listener
-  ```
+   ```
+   cd C:\Program Files\Skype for Business Server StatsMan Listener
+   ```
 
 2. Run the following command:
     
-  ```
+   ```
   	.\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
-  ```
+   ```
 
 ## Troubleshoot your deployment
 <a name="BKMK_Troubleshoot"> </a>
@@ -269,9 +269,9 @@ Microsoft strongly recommends that you use a certificate signed by a trusted cer
   
 1. From a PowerShell console while logged on as Administrator, type the following:
     
-  ```
-  New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
-  ```
+   ```
+   New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
+   ```
 
 2. Type  `certlm.msc`. This will open the Certificate Manager for the local machine.
     

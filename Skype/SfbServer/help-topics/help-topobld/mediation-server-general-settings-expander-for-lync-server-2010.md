@@ -24,13 +24,13 @@ You edit the properties of the Mediation Servers in this dialog. Along the left 
 
 - **Associations**: Select the **Associate Edge pool (for media components)** check box and select an Edge Server or Edge pool for the Mediation Server to use as the media path for external access.
 
- **Next hop**:
+  **Next hop**:
 
 - **Next hop selection**: Select from a list the Front End Server or Front End pool to use as the path for the Mediation Server to use for communicating with your deployment.
 
- **PSTN gateway**:
+  **PSTN gateway**:
 
- **Mediation Server PSTN gateway**:
+  **Mediation Server PSTN gateway**:
 
 - **Listening ports**: Define the ports that the Mediation Server will listen on. You can define a port for **TLS** or transport layer security, or **TCP**, or transport control protocol. For the port entry for TCP to be available, you must select the check box for **Enable TCP port**.
 

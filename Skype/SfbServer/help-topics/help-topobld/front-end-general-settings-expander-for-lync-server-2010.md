@@ -49,13 +49,13 @@ You edit the properties of the Front End Server or Front End pool by editing or 
 
 - Select the **Associate Edge Pool (for media components** checkbox to enable an Edge Server for this Front End Server or Front End pool. After selecting the check box, you select an existing Edge Server or pool from the list or click **New** to create the definitions for a new Edge Server or pool.
 
- **Resiliency**
+  **Resiliency**
 
 - Select the **Associated backup Registrar pool** check box to select from the list a Front End Server or Front End pool that will be the backup Registrar ( that is, the Front End Server or Front End pool designated as a secondary registrar in the event that the primary fails)
 
 - If you selected Associated backup Registrar pool and have chosen a backup registrar, you can select the checkbox for **Automatic failover and failback for Voice**. You can now define numerical properties for **Voice failover detection internal (sec)** and **Voice failback interval (sec)**. For details, see [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
 
- **Web services**
+  **Web services**
 
 - To configure **Internal web services**, you define **Listening ports** for **HTTP** and **HTTPS**. By default, these are TCP port 80 and TCP port 443, respectively. You also configure the **Published ports** for **HTTP** and **HTTPS**. By default, these are TCP port 80 and TCP port 443, respectively. Based on your internal web services configuration and use of load balancers (hardware load balancers and DNS load balancing), adjust the port values to define the listening and published ports.
 
@@ -67,7 +67,7 @@ You edit the properties of the Front End Server or Front End pool by editing or 
     > [!IMPORTANT]
     > External web services and the defined listening and published ports are for external clients and devices. External clients and devices use the external web services listening and published ports, typically defined by your reverse proxy along with the defined external web services fully qualified domain name (FQDN). The relationship of the external web services FQDN and the Simple URLs define the uniform resource locator (URL) addresses that external clients will use to access services available for external users and devices. For more details on Simple URLs, see [Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
 
- **Mediation Server**
+  **Mediation Server**
 
 - To configure **Mediation Server** properties for a collocated Mediation Server (that is, a Mediation Server deployed on the Front End Server or Front End pool), select **Collocated Mediation server enabled**.
 

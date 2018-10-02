@@ -30,19 +30,19 @@ Get User Settings returns a list of settings for a specified user.
    
  **URI Parameters**
   
--  *effective*  - Optional. This parameter applies only when the special user ID default is used. In other cases, it will be ignored. `True` returns effective user settings and `false` returns just user settings (default).
+- *effective*  - Optional. This parameter applies only when the special user ID default is used. In other cases, it will be ignored. `True` returns effective user settings and `false` returns just user settings (default).
     
- **Request Headers** - No additional headers.
+  **Request Headers** - No additional headers.
   
- **Request Body** - None.
+  **Request Body** - None.
   
- **Response** - The response includes an HTTP status code and a set of response headers.
+  **Response** - The response includes an HTTP status code and a set of response headers.
   
- **Status Code** - A successful operation returns status code 200 (OK).
+  **Status Code** - A successful operation returns status code 200 (OK).
   
- **Response Headers** - No additional headers.
+  **Response Headers** - No additional headers.
   
- **Response Body** - Below is a sample response payload in JSON.
+  **Response Body** - Below is a sample response payload in JSON.
   
 ```
 [{

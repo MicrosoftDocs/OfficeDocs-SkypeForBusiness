@@ -143,33 +143,33 @@ Using Geo-Location Based Traffic Management, the DNS servers would be configured
     
     Amsterdam
     
-  - Type A;
+   - Type A;
     
-  - Name : hybridvoice in the adatum.biz DNS zone
+   - Name : hybridvoice in the adatum.biz DNS zone
     
-  - Target: 192.168.1.45
+   - Target: 192.168.1.45
     
-    Create additional records for additional mediation servers
+     Create additional records for additional mediation servers
     
-  - 192.168.1.46
+   - 192.168.1.46
     
-  - 192.168.1.47
+   - 192.168.1.47
     
-  - 192.168.1.48
+   - 192.168.1.48
     
-    Seattle
+     Seattle
     
-  - Type A
+   - Type A
     
-  - Name : hybridvoice in adatum.biz DNS zone
+   - Name : hybridvoice in adatum.biz DNS zone
     
-  - Target: 10.10.1.8
+   - Target: 10.10.1.8
     
-    Create additional records for additional mediation servers
+     Create additional records for additional mediation servers
     
-  - 10.10.1.9
+   - 10.10.1.9
     
-  - 10.10.1.10
+   - 10.10.1.10
     
 4. Create the DNS policy that connects the client subnets to the appropriate zone scopes to ensure desired DNS resolution.
     

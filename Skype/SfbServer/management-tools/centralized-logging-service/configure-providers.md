@@ -78,21 +78,21 @@ Introduced in [Centralized Logging Service in Skype for Business 2015](centraliz
     
 2. To review the configuration of existing providers, type the following:
     
-  ```
-  Get-CsClsScenario -Identity <scope and scenario name>
-  ```
+   ```
+   Get-CsClsScenario -Identity <scope and scenario name>
+   ```
 
     For example, to review information about the global conferencing attendant, type:
     
-  ```
-  Get-CsClsScenario -Identity "global/CAA"
-  ```
+   ```
+   Get-CsClsScenario -Identity "global/CAA"
+   ```
 
     The command displays a list of providers with the associated flags, settings, and components. If the information displayed is not enough or the list is too long for the default Windows PowerShell list format, you can display additional information by defining a different output method. To do this, type:
     
-  ```
-  Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
-  ```
+   ```
+   Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
+   ```
 
     The output of this command displays each provider displayed in a five line format with the provider name, type of logging, logging level, flags, GUID, and role, each one on a separate line. 
     
@@ -102,15 +102,15 @@ Introduced in [Centralized Logging Service in Skype for Business 2015](centraliz
     
 2. A scenario provider consists of a component to trace, flags to use, and a level of detail to collect. You do this by typing:
     
-  ```
-  $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
-  ```
+   ```
+   $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
+   ```
 
     For example, a trace provider definition that defines what to collect and to what level of detail from the Lyss provider looks like the following:
     
-  ```
-  $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
-  ```
+   ```
+   $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
+   ```
 
 The -Level collects fatal, error, warning, and information messages. The flags used are all of those defined for the Lyss provider, and include TF_Connection, TF_Diag and TF_Protocol.After the variable $LyssProvider is defined, you can use it with the **New-CsClsScenario** cmdlet to collect traces from the Lyss provider. To complete the creation and assignment of the provider to a new scenario, type:
 
@@ -125,15 +125,15 @@ Where $LyssProvider is the variable containing the defined scenario created with
     
 2. To update or change the configuration of an existing provider, type:
     
-  ```
-  $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "TF_Connection, TF_Diag"
-  ```
+   ```
+   $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "TF_Connection, TF_Diag"
+   ```
 
     You then update the scenario to assign the provider by typing the following:
     
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
+   ```
 
 The end result of the command is that the scenario site:Redmond/RedmondLyssInfo will have updated flags and level for the provider assigned to it. You can view the new scenario by using Get-CsClsScenario. For details, see [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps).
 > [!CAUTION]
@@ -152,25 +152,25 @@ Where each provider defined with the Add directive has already been defined usin
     
 2. The cmdlets provided allow you to update existing providers and create new providers. To remove a provider, you must use the Replace directive for the Provider parameter to **Set-CsClsScenario**. The only way to completely remove a provider is to replace it with a redefined provider of the same name and use the Update directive. For example, our provider LyssProvider is defined with WPP as the log type, level set to Debug, and flags set are TF_CONNECTION and TF_DIAG. You need to change the flags to "All". To change the provider, type the following:
     
-  ```
-  $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
-  ```
+   ```
+   $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
+   ```
 
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
+   ```
 
 3. If you want to completely remove a scenario and the providers associated with it, type the following:
     
-  ```
-  Remove-CsClsScenario -Identity <scope and name of scenario>
-  ```
+   ```
+   Remove-CsClsScenario -Identity <scope and name of scenario>
+   ```
 
     For example:
     
-  ```
-  Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
-  ```
+   ```
+   Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
+   ```
 
     > [!CAUTION]
     > The cmdlet **Remove-CsClsScenario** does not prompt you for confirmation. The scenario is deleted, along with the providers that were assigned to it. You can recreate the scenario by re-running the commands used to create it initially. There is no procedure to recover removed scenarios or providers.

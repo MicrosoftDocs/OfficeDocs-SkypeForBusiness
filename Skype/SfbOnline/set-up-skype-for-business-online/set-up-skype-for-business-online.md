@@ -49,7 +49,7 @@ To learn more, see [Plan your setup of Office 365 for business](https://support.
 
 Skype for Business Online is part of the Office 365 suite of services. To set up Skype for Business Online, you need to sign in to Office 365. Here's how you do that:
 
-1. Locate your Office 365 user ID (for example,  *rob@fourthcoffee.com*  ). You received an email from the Microsoft Online Services Team that contains the Office 365 user ID that you created when you purchased Skype for Business Online. The mail looks something like this:
+1. Locate your Office 365 user ID (for example,  <em>rob@fourthcoffee.com</em>  ). You received an email from the Microsoft Online Services Team that contains the Office 365 user ID that you created when you purchased Skype for Business Online. The mail looks something like this:
 
     ![An example of the welcome email you received after you signed up for Skype for Business Online. It contains your Office 365 user id.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
@@ -75,11 +75,11 @@ Instant Messaging (IM) and presence ([Control access to your presence informatio
 
 1. **Choose who else your Skype for Business users can communicate with:**
 
-  - [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md) Both you *and*  the other business will need to configure your systems.
+   - [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md) Both you *and*  the other business will need to configure your systems.
 
-    **IMPORTANT**: If you have two domains in your business, such as rob@contosowest.com and ina@contosoeast.com, you need to do this step so all of your users can communicate with each other.
+     **IMPORTANT**: If you have two domains in your business, such as rob@contosowest.com and ina@contosoeast.com, you need to do this step so all of your users can communicate with each other.
 
-  - [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md) outside your business
+   - [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md) outside your business
 
 2. **Choose who sees whether co-workers are online:** The presence feature shows who's online and what their availability is, such as available, busy, away, or presenting.
 
@@ -87,9 +87,9 @@ Instant Messaging (IM) and presence ([Control access to your presence informatio
 
     You can choose the default settings for everyone in your business:
 
-  - Automatically display a person's online presence to everyone in the organization
+   - Automatically display a person's online presence to everyone in the organization
 
-  - Display a person's online presence only to their contacts
+   - Display a person's online presence only to their contacts
 
 For instructions, see [Configure presence in Skype for Business Online](configure-presence-in-skype-for-business-online.md).
 
