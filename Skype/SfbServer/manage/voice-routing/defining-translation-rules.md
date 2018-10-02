@@ -7,7 +7,6 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: "Skype for Business Server Enterprise Voice routes calls based on phone numbers normalized to E.164 format. This means that all dialed strings must be normalized to E.164 format for the purpose of performing reverse number lookup (RNL) so they can be translated to their matching SIP URI. Skype for Business Server provides the ability to manipulate the called ID and the caller ID presentation."
 ---
 
