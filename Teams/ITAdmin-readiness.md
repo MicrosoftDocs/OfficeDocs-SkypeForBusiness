@@ -3,14 +3,14 @@ title: Admin training for Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-layout: landingpage
+layout: LandingPage
 ms.date: 09/21/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 search.appverid: MET150
 description: Training videos, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
-ms.topic: landing page
+ms.topic: landing-page
 appliesto: 
 - Microsoft Teams
 ---
