@@ -93,7 +93,7 @@ ms.date: 08/24/2018
                                             </div>
                                             <div class="cardText">
                                                 <h3>Switch from Skype for Business to Teams: end user guidance</h3>
-                                                    <p>Get what you need to quickly start chatting, meeting, and calling in Teams during your transitions from Skype for Business to Teams.</p>
+                                                    <p>Get what you need to quickly start chatting, meeting, and calling in Teams during your transition from Skype for Business to Teams.</p>
                                             </div>
                                         </div>
                                     </div>
