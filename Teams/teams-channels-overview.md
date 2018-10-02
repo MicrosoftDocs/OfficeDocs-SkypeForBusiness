@@ -31,13 +31,11 @@ A team is designed to bring together a group of people that work closely to get 
 
     -   Team channels are places where everyone on the team can openly have conversations. Private chats are only visible to those people in the chat.
 
-    -   Channels are most valuable when extended with Apps that include Tabs, Connectors, and Bots that increase their value to the members of the team.
+    -   Channels are most valuable when extended with Apps that include tabs, connectors, and bots that increase their value to the members of the team.
     
-Take five minutes to hear the best practices for organizing teams, channels and tabs in this video:
+Take five minutes to hear best practices for organizing teams, channels and tabs in this video:
 
-|  |  |
-|---------|---------|
-| 5 Minutes to Setting up Great Teams, Channels and Tabs   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Membership, Roles and Settings
 ------------------------------
@@ -52,6 +50,10 @@ There are two main roles in Microsoft Teams: a team owner, the person who create
 Team owners can manage team-wide settings directly in Microsoft Teams. Settings include the ability to add a team picture, set permissions across team members for creating channels, adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes. 
 
 If you are a Microsoft Teams administrator in Office 365, you have access to system-wide settings in the Teams & Skype for Business Admin Center. These settings can impact the options and defaults team owners see under team settings. For example, you can enable a default channel, “General”, for team-wide announcements, discussions and resources, which will appear across all teams.
+
+Take 3 minutes to check out this go-to-guide video for team owners: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v=7XcDSuw6NR4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 By default, all users have permissions to create a team within Microsoft Teams (to modify this, see [Assign roles and permissions in Teams](assign-roles-permissions.md). Users of an existing Office 365 Group can also enhance them with Teams functionality.
 
