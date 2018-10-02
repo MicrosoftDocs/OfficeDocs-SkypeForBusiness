@@ -16,8 +16,6 @@ appliesto:
 ---
 # Admin training for Microsoft Teams
 
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Use these tutorials, videos, and other training resources to learn about Teams and drive usage in your organization. Check back here often for new content. 
 
