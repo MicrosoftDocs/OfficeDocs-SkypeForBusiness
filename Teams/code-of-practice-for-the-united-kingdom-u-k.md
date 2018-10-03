@@ -1,5 +1,5 @@
 ---
-title: "Code of practice for the United Kingdom (U.K.)"
+title: "Calling plans in Office 365 - Code of practice for the United Kingdom (U.K.)"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -26,7 +26,7 @@ hideEdit: true
 description: "Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. "
 ---
 
-# Code of practice for the United Kingdom (U.K.)
+# Calling plans in Office 365 - Code of practice for the United Kingdom (U.K.)
 
 This Code applies to small business customers (organizations with 10 employees or less) in the United Kingdom (UK) with respect to the Office 365 Calling Plan service (the "Service") in accordance with UK communications regulations. Other Skype for Business services are governed by your service agreement with Microsoft and any other terms applicable to your use of the particular service.
 
@@ -48,13 +48,8 @@ You may be able to answer some of your questions by visiting the [Skype for Busi
 
 ## 3. Complaints and dispute resolution
 
-<<<<<<< HEAD:Teams/code-of-practice-for-the-united-kingdom-u-k.md
 Our top priorities are customer satisfaction and excellent service. However, in the event that you have a complaint, we will work quickly to help you resolve your issue. Our [Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)](complaint-handling-code-for-the-united-kingdom-u-k.md) page details the procedures for small businesses to file a complaint with us and our independent dispute resolution scheme.
   
-=======
-Our top priorities are customer satisfaction and excellent service. However, in the event that you have a complaint, we will work quickly to help you resolve your issue. Our [Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)](code-of-practice-for-the-united-kingdom-u-k.md) page details the procedures for small businesses to file a complaint with us and our independent dispute resolution scheme.
-
->>>>>>> master:Skype/SfbOnline/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md
 ## 4. Number porting
 
 Skype for Business in some cases may be unable to transfer a customer's telephone number for use with the Service. Where number portability is available, Skype for Business will take all reasonable steps to ensure that the transfer of the number and subsequent activation is completed promptly once an agreement to transfer the number has been reached with the customer's current service provider.

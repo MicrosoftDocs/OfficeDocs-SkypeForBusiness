@@ -3,21 +3,19 @@ title: Admin training for Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-layout: landingpage
+layout: LandingPage
 ms.date: 09/21/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 search.appverid: MET150
 description: Training videos, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
-ms.topic: landing page
+ms.topic: landing-page
 appliesto: 
 - Microsoft Teams
 ---
 # Admin training for Microsoft Teams
 
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Use these tutorials, videos, and other training resources to learn about Teams and drive usage in your organization. Check back here often for new content. 
 
@@ -173,7 +171,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                         <h3>Teams & channels</h3>
                          <p>[Video: Get your team up and running](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
                          <p>[Video: Go-to guide for team owners](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547")</p>
-                         <p>[Tutorial: Create a company-wide team using PowerShell](company-wide-team-creation-powershell.yml)</a></p>
+                         <p>[Article: Create an org-wide team in Teams](create-an-org-wide-team.md)</a></p>
                     </div>
                 </div>
             </div>
