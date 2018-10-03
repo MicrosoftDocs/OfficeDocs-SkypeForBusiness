@@ -1,5 +1,5 @@
 ---
-title: "Configure Cloud Auto Attendant"
+title: "Configure Cloud Auto Attendants"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,17 +12,9 @@ ms.collection:
 description: "Instructions for implementing a Cloud Auto Attendant."
 ---
 
-# Configure Cloud Auto Attendant
+# Configure Cloud Auto Attendants
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
-
-Skype for Business Server 2019 hybrid implementations only use Cloud Voicemail and do not integrate with Exchange Online.
-
-If you are a current user of Exchange Server 2013 or Exchange Server 2016, you will be able to continue to use them as you implement Skype for Business Server 2019. Exchange UM, including Auto Attendant functionality, is being retired in Exchange 2019.
-
-Similar functionality exists in Phone System, and Skype for Business Server 2019 interaction with Phone system is rolling out on a feature-by-feature basis. Please plan accordingly.
-
-<hr>
 
 In Skype for Business Server 2019 you are now able to use the cloud auto attendant feature described in [What are Phone System Auto Attendants](/MicrosoftTeams/what-are-phone-system-auto-attendants.md).
 
@@ -36,9 +28,9 @@ These steps are necessary whether you are creating a brand new Auto Attendant or
 
 Log in to the front end server and run the following PowerShell cmdlets:
 
-1. Create each Cloud Auto Attendant's on premise counterpart by running the `New-CsHybridApplicationEndpoint` cmdlet as needed, and give each one a name, sip address, and so on.
+1. Create each Cloud Auto Attendant's on premise counterpart by running the `New-CsHybridApplicationEndpoint` cmdlet as needed (for one or more Auto Attendants), and give each one a name, sip address, and so on.
 
-    For an Auto Attendant that will be the Initial Greeting or after-hours greeting, be sure to assign the phone number using the  -LineURI option. This is optional if the auto attendant is a child in the hierarchy. The hierarchy structure will be configured online, on the server we're just creating containers to arrange later.
+    For the Main Auto Attendant that will have the Initial Greeting or after-hours greeting, be sure to assign the phone number using the  -LineURI option. This is optional if the auto attendant is a child in the hierarchy. The hierarchy structure will be configured online, on the server we're just creating containers to arrange later.
 
     ```
     New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
@@ -61,7 +53,7 @@ Log in to the front end server and run the following PowerShell cmdlets:
 
     See [Set-CsHybridApplicationEndpoint](https://docs.microsoft.com/en-us/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
 
-2. (Optional) Once these endpoints are created and the required phone numbers are assigned, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of the Auto Attendants. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load import-module adsync to run the command):
+2. (Optional) Once these endpoints are created and the required phone numbers are assigned, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of the Auto Attendants. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
     ```
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -70,7 +62,7 @@ Log in to the front end server and run the following PowerShell cmdlets:
 
 ## Online configuration steps
 
-Your online implementation will need to have a plan that includes Phone System as described at [Office 365 Enterprise E1, E3, and E4](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
+Your online implementation will need to have a plan that includes Phone System licenses as described at [Office 365 Enterprise E1, E3, and E4](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
 
 1. Assign Phone System licenses to the on-premise hybrid endpoints (auto attendant placeholders) as described in  [Assign Skype for Business and Microsoft Teams licenses](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
