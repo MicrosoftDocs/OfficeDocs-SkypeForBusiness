@@ -53,8 +53,7 @@ By default, there are four types of email that will be sent to your users who ar
     
     This email contains the organizer's audio conferencing PIN, the existing conference ID, and default conference phone number for the user. See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams.md).
     
-  
-    Here is an example of this email:
+     Here is an example of this email:
     
      ![Dial-in conferencing PIN changed.](media/audio-conferencing-pin-has-changed.png)
   
