@@ -359,6 +359,22 @@ Following are solutions to commonly encountered issues:
      - Close PowerShell on the Cloud Connector appliance, and then reopen PowerShell.
     
      - Or, you can run Import-Module CloudConnector -Force. 
+     
+-   **Issue: “Import-Module CloudConnector” generates error “Import-Module: The specified module “CloudConnector” was not loaded because no valid module file was found in any module directory”**
+
+    **Resolution:**
+    - Validate that indeed the CloudConnector module exists under c:\Program Files\WindowsPowerShell\Modules
+    
+    - After validating that CloudConnector module exists under this location, the PSModulePath environment variable storing the path to the locations of the modules can be changed:
+    
+     a. Temporary change:
+        Start Powershell as an Administrator and run the following command:
+        $env:PSModulePath = $env:PSModulePath + ";C:\Program Files\WindowsPowerShell\Modules\"
+        
+     b. For persistent change, Start PowerShell as an Administrator and run the following commands, one by one:
+        $CurrentValue = [Environment]::GetEnvironmentVariable("PSModulePath", "Machine")
+        SetEnvironmentVariable("PSModulePath", $CurrentValue + "; C:\Program Files\WindowsPowerShell\Modules", "Machine")
+    
     
 ## Install Windows updates manually
 
