@@ -224,7 +224,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Public team list does not display all teams  <br/> |The list of public teams is based on the Microsoft Graph.  <br/> |If you don't see a team, try searching for it in the top right search box.  <br/> | 7/21/17  <br/>|
+|Public team list does not display all teams  <br/> |The list of public teams is based on the Microsoft Graph.  <br/> |If you don't see a team, try searching for it in the top right search box. Also, the team owners should communicate team names to colleagues since many teams could show up in the search results. <br/> | 7/21/17  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
