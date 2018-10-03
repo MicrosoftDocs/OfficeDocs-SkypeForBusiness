@@ -12,7 +12,7 @@ description: "Follow these steps to configure a trunk with media bypass enabled.
 
 # Configure a trunk without media bypass in Skype for Business Server
 
-f you want to configure a trunk with media bypass disabled, follow these steps. If you want to configure a trunk with media bypass enabled, see [Configure a trunk with media bypass in Skype for Business Server](configure-a-trunk-with-media-bypass.md).
+If you want to configure a trunk with media bypass disabled, follow these steps. If you want to configure a trunk with media bypass enabled, see [Configure a trunk with media bypass in Skype for Business Server](configure-a-trunk-with-media-bypass.md).
 
 A trunk configuration, as described below, groups a set of parameters that are applied to trunks assigned this trunk configuration. A particular trunk configuration can be scoped globally (to all trunks that do not have more specific site or pool configuration), or to a site, or to a pool. The pool-level trunk configuration is used to scope a specific trunk configuration to a single trunk.
 
@@ -78,7 +78,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
     - To copy an existing translation rule to use as a starting point for defining a new rule, click the rule name and click **Copy**, and then click **Paste**. For details, see [Defining translation rules in Skype for Business Server](defining-translation-rules.md).
     - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
 
-    > [!Security Note]
+    > [!Warning]
     > Do not associate translation rules with a trunk if you have configured translation rules on the associated trunk peer, because the two rules might conflict. 
 
 16. (Optional) Associate and configure **called number translation rules** for the trunk. The translation rules apply to the called number in an outbound call.

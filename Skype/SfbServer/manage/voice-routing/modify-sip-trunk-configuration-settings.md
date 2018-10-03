@@ -32,10 +32,8 @@ When modifying SIP trunk configuration settings using the Skype for Business Ser
 |Enable media bypass|EnableBypass|Indicates whether media bypass is enabled for this trunk. Media bypass can only be enabled if **Centralized media processing** is also enabled.|
 |Centralized media processing|ConcentratedTopology|Indicates whether there is a well-known media termination point. (An example of a well-known media termination point would be a PSTN gateway where the media termination has the same IP as the signaling termination.)|
 |Enable RTP latching|EnableRTPLatching|Indicates whether or not the SIP trunks support RTP latching. RTP latching is a technology that enables RTP/RTCP connectivity through a NAT (network address translator) device or firewall.|
-|Enable forward call history|ForwardCallHistory|
-Indicates whether call history information will be forwarded through the trunk.|
-|Enable forward P-Asserted-Identity data|ForwardPAI|
-Indicates whether the P-Asserted-Identity (PAI) header will be forwarded along with the call. The PAI header provides a way to verify the identity of the caller.|
+|Enable forward call history|ForwardCallHistory|Indicates whether call history information will be forwarded through the trunk.|
+|Enable forward P-Asserted-Identity data|ForwardPAI|Indicates whether the P-Asserted-Identity (PAI) header will be forwarded along with the call. The PAI header provides a way to verify the identity of the caller.|
 |Enable outbound routing failover timer|EnableFastFailoverTimer|Indicates whether outbound calls that are not answered by the gateway within 10 seconds will be routed to the next available trunk; if there are no additional trunks then the call will automatically be dropped. In an organization with slow networks and gateway responses, that could potentially result in calls being dropped unnecessarily.|
 |Associated PSTN usages|PSTNUsages|Collection of PSTN usages assigned to the trunk.|
 |Translated number to test|N/A|Phone number that can be used to do an ad hoc test of the trunk configuration settings.|
