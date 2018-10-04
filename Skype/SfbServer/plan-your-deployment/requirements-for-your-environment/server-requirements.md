@@ -92,7 +92,7 @@ Skype for Business Server 2015 Enterprise Edition is a little more complicated, 
 If you don't see the SQL Server edition you want to use listed here, you can't use it.
   
 > [!NOTE]
-> You're also going to need to install SQL Server Reporting Services for the Monitoring Server role, but we need you to know this isn't going to be supported with SQL Always on until post-RTM. 
+> You're also going to need to install SQL Server Reporting Services for the Monitoring Server role.
 
 ### Microsoft Exchange storage
 Meeting content files, such as PowerPoint presentations, are archived as attachments. If you want to store Skype for Business archive data with Exchange compliance data, you must use Exchange for your Exchange deployment and ensure that the maximum storage size supports storage of the meeting content files. You must deploy Exchange prior to deploying and enabling archiving using the Microsoft Exchange integration option. 

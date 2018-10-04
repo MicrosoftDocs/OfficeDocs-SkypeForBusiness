@@ -83,13 +83,13 @@ If you want to display the Lync user interface when users launch the Skype for B
     
     The key should look like the following:
     
- <pre>
-[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
-"CanSharePptInCollab"=dword:00000001
-"CanShareOneNoteInCollab"=dword:00000001
-"CanAppShareInCollab"=dword:00000001
-"EnableSkypeUI"=hex:00,00,00,00
-</pre>
+   <pre>
+   [HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
+   "CanSharePptInCollab"=dword:00000001
+   "CanShareOneNoteInCollab"=dword:00000001
+   "CanAppShareInCollab"=dword:00000001
+   "EnableSkypeUI"=hex:00,00,00,00
+   </pre>
 
 The Lync user interface will now be displayed when users launch the Skype for Business client for the first time.
   

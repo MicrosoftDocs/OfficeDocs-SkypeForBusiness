@@ -133,8 +133,8 @@ The easiest way to set up mirroring is by using Topology Builder, but you can al
 
     You will see the following:
 
- <pre>
-  Database Name:rtcxds
+   <pre>
+   Database Name:rtcxds
         Data File:D:\CsData\BackendStore\rtc\DbPath\rtcxds.mdf
          Log File:D:\CsData\BackendStore\rtc\LogPath\rtcxds.ldf
       Primary SQL: e04-ocs.los_a.lsipt.local\rtc
@@ -206,8 +206,8 @@ The easiest way to set up mirroring is by using Topology Builder, but you can al
           Account: LOS_A\K16-ocs$
      Witness SQL : AB14-lct.los_a.lsipt.local\rtc
           Account: LOS_A\AB14-lct$
-[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"):
-</pre>
+   [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"):
+   </pre>
 
 2. Verify the following:
 

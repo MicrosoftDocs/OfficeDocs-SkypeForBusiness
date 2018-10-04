@@ -39,8 +39,8 @@ A trunk configuration, as described below, groups a set of parameters that are a
 
    - **Pool trunk**: Choose the name of the trunk that this trunk configuration applies to in **Select a Service** and click **OK**. This trunk can be the root trunk, or any additional trunks defined in Topology Builder. Note that if a trunk configuration has already been created for a specific trunk, the trunk does not appear in **Select a Service**.
 
-    > [!NOTE]
-    > After you select the scope of the trunk configuration, it cannot be changed. > The **Name** field is pre-populated with the name of the trunk configuration's associated site or service and cannot be changed.
+     > [!NOTE]
+     > After you select the scope of the trunk configuration, it cannot be changed. > The **Name** field is pre-populated with the name of the trunk configuration's associated site or service and cannot be changed.
 
 4. Select one of the following **Encryption support level** options:
 
@@ -50,7 +50,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
 
    - **Not Supported**: SRTP encryption is not supported by the service provider or equipment manufacturer and therefore will not be used.
 
-5.  Be sure that the **Enable media bypass** check box is cleared.
+5. Be sure that the **Enable media bypass** check box is cleared.
 
 6. Select the **Centralized media processing** check box if there is a well-known media termination point (for example, a Public Switched Telephone Network (PSTN) gateway where the media termination has the same IP as the signaling termination). Clear this check box if the trunk does not have a well-known media termination point.
 
@@ -85,9 +85,9 @@ A trunk configuration, as described below, groups a set of parameters that are a
 
    - To edit a PSTN usage record that is already associated with this trunk configuration, do the following:
 
-    a. Select the PSTN usage record you want to edit, and click **Show details**.
+     a. Select the PSTN usage record you want to edit, and click **Show details**.
 
-    b. Use one of the following methods to associate and configure routes for this PSTN usage record:
+     b. Use one of the following methods to associate and configure routes for this PSTN usage record:
 
      - To select one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**. Highlight the routes you want to associate with this PSTN usage record, and click **OK**.
 
@@ -97,7 +97,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
 
      - To edit a route that is associated with this PSTN usage record, select the route, and click **Show details**.
 
-    c. Click **OK**.
+     c. Click **OK**.
 
      > [!IMPORTANT]
      > It is important to associate PSTN usage records according to the Mediation Server peer that is associated to the trunk being configured. If the Mediation Server peer is a PSTN gateway or a Session Border Controller (SBC), it is strongly recommended that the trunk configuration is not associated to a PSTN usage record that routes to a PSTN destination or any other downstream systems connected via Skype for Business Server.
@@ -117,33 +117,33 @@ A trunk configuration, as described below, groups a set of parameters that are a
 
 14. (Optional) Associate and configure **calling number translation rules** for the trunk. These translation rules apply to the calling number for outbound calls
 
-   - To choose one or more rules from a list of all translation rules that are available in your Enterprise Voice deployment, click **Select**. In **Select Translation Rules**, click the rules that you want to associate with the trunk, and then click **OK**.
+    - To choose one or more rules from a list of all translation rules that are available in your Enterprise Voice deployment, click **Select**. In **Select Translation Rules**, click the rules that you want to associate with the trunk, and then click **OK**.
 
-   - To define a new translation rule and associate it with the trunk, click **New**. For details about translation rules, see [Translation rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+    - To define a new translation rule and associate it with the trunk, click **New**. For details about translation rules, see [Translation rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
-   - To edit a translation rule that is already associated with the trunk, click the rule name, and then click **Show details**.
+    - To edit a translation rule that is already associated with the trunk, click the rule name, and then click **Show details**.
 
-   - To copy an existing translation rule to use as a starting point for defining a new rule, click the rule name and click **Copy**, and then click **Paste**.
+    - To copy an existing translation rule to use as a starting point for defining a new rule, click the rule name and click **Copy**, and then click **Paste**.
 
-   - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
+    - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
 
-     > [!CAUTION]
-     > Do not associate translation rules with a trunk if you have configured translation rules on the associated trunk peer, because the two rules might conflict.
+      > [!CAUTION]
+      > Do not associate translation rules with a trunk if you have configured translation rules on the associated trunk peer, because the two rules might conflict.
 
 15. (Optional) Associate and configure **called number translation rules** for the trunk. The translation rules apply to the called number in an outbound call.
 
-   - To choose one or more rules from a list of all translation rules that are available in your Enterprise Voice deployment, click **Select**. In **Select Translation Rules**, click the rules that you want to associate with the trunk, and then click **OK**.
+    - To choose one or more rules from a list of all translation rules that are available in your Enterprise Voice deployment, click **Select**. In **Select Translation Rules**, click the rules that you want to associate with the trunk, and then click **OK**.
 
-  - To define a new translation rule and associate it with the trunk, click **New**. For details about translation rules, see [Translation rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
+    - To define a new translation rule and associate it with the trunk, click **New**. For details about translation rules, see [Translation rules in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
-   - To edit a translation rule that is already associated with the trunk, click the rule name, and then click **Show details**.
+    - To edit a translation rule that is already associated with the trunk, click the rule name, and then click **Show details**.
 
-   - To copy an existing translation rule to use as a starting point for defining a new rule, click the rule name and click **Copy**, and then click **Paste**.
+    - To copy an existing translation rule to use as a starting point for defining a new rule, click the rule name and click **Copy**, and then click **Paste**.
 
-   - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
+    - To remove a translation rule from the trunk, highlight the rule name and click **Remove**.
 
-     > [!CAUTION]
-     > Do not associate translation rules with a trunk if you have configured translation rules on the associated trunk peer, because the two rules might conflict.
+      > [!CAUTION]
+      > Do not associate translation rules with a trunk if you have configured translation rules on the associated trunk peer, because the two rules might conflict.
 
 16. Make sure that the trunk's translation rules are arranged in the correct order. To change a rule's position in the list, highlight the rule name, and then click the up or down arrow.
 

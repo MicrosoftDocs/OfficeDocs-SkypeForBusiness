@@ -96,12 +96,12 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 
 17. If you want to configure a welcome message, under **Step 3 Configure a Welcome Message**, select the **Play a welcome message** check box, and then do one of the following:
 
-   - To enter the welcome message as text that is converted to speech for callers, click **Use text-to-speech**, and then type the welcome message in the text box.
+    - To enter the welcome message as text that is converted to speech for callers, click **Use text-to-speech**, and then type the welcome message in the text box.
 
     > [!NOTE]
     > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.
 
-   - To use a wave (.wav) or Windows Media audio (.wma) file recording for the welcome message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the audio file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
+    - To use a wave (.wav) or Windows Media audio (.wma) file recording for the welcome message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the audio file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
 
     > [!NOTE]
     > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
@@ -113,15 +113,15 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 
 19. Select the type of business hours schedule you want to use by doing one of the following:
 
-   - To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.
+    - To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.
 
-     > [!NOTE]
-     > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the **New-CSRgsHoursOfBusiness** cmdlet. For details, see [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md).
+      > [!NOTE]
+      > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the **New-CSRgsHoursOfBusiness** cmdlet. For details, see [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md).
 
-     > [!NOTE]
-     > When you select a preset schedule, **Day**, **Open**, and **Close** are automatically filled with the days and hours that the response group is available.
+      > [!NOTE]
+      > When you select a preset schedule, **Day**, **Open**, and **Close** are automatically filled with the days and hours that the response group is available.
 
-   - To use a custom schedule that applies only to this workflow, click **Use a custom schedule**.
+    - To use a custom schedule that applies only to this workflow, click **Use a custom schedule**.
 
 20. If you are creating a custom schedule for this workflow, click the check boxes for the days of the week that the response group is available.
 
@@ -132,25 +132,25 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 
 22. If you want to play a message when the office is not open, select the **Play a message when the response group is outside of business hours** check box, and then specify the message to play by doing one of the following:
 
-   - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
+    - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
 
-     > [!NOTE]
-     > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.
+      > [!NOTE]
+      > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.
 
-   - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
+    - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
 
-     > [!NOTE]
-     > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 23. Specify how to handle calls after the message is played (if a message is configured):
 
-   - To disconnect the call, click **Disconnect Call**.
+    - To disconnect the call, click **Disconnect Call**.
 
-   - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  _\<username\>_@ _\<domainName\>_ (for example, bob@contoso.com).
+    - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  *\<username\>*@ *\<domainName\>* (for example, bob@contoso.com).
 
-   - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainName\>_.
+    - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainName\>_.
 
-   - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  _\<number\>_@ _\<domainName\>_ (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
+    - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  *\<number\>*@ *\<domainName\>* (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
 
 24. Under **Step 5 Specify Your Holidays**, click the check boxes for one or more sets of holidays that define the days when the response group is closed for business.
 
@@ -159,36 +159,36 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 
 25. If you want to play a message on holidays, select the **Play a message during holidays** check box, and then specify the message to play by doing one of the following:
 
-  - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
+    - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
 
     > [!NOTE]
     > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.
 
-   - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
+    - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
 
-     > [!NOTE]
-     > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 26. Specify how to handle calls after the message is played (if a message is configured):
 
-   - To disconnect the call, click **Disconnect Call**.
+    - To disconnect the call, click **Disconnect Call**.
 
-   - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  _\<username\>_@ _\<domainName\>_ (for example, bob@contoso.com).
+    - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  *\<username\>*@ *\<domainName\>* (for example, bob@contoso.com).
 
-   - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainName\>_.
+    - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainName\>_.
 
-   - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  _\<number\>_@ _\<domainName\>_ (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
+    - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  *\<number\>*@ *\<domainName\>* (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
 
 27. Under **Step 6 Configure a Queue**, in **Select the queue that will receive the calls**, select the queue that you want to hold callers until an agent becomes available.
 
 28. Under **Step 7 Configure Music on Hold**, choose the music you want callers to listen to while waiting for an agent by doing one of the following:
 
-   - To use the default music-on-hold recording, click **Use default**.
+    - To use the default music-on-hold recording, click **Use default**.
 
-   - To use an audio file recording for the music on hold, click **Select a music file**. If you want to upload a new audio file, click the **a music file** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
+    - To use an audio file recording for the music on hold, click **Select a music file**. If you want to upload a new audio file, click the **a music file** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
 
-     > [!NOTE]
-     > All user provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > All user provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 29. Click **Deploy**.
 
@@ -443,12 +443,12 @@ The following list describes some best practices for designing your IVR:
 
 19. Select the type of business hours schedule you want to use by doing one of the following:
 
-   - To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.
+    - To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.
 
-     > [!NOTE]
-     > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the **New-CSRgsHoursOfBusiness** cmdlet. For details, see [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md). When you select a preset schedule, **Day**, **Open**, and **Close** are automatically filled with the days and hours that the response group is available.
+      > [!NOTE]
+      > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the **New-CSRgsHoursOfBusiness** cmdlet. For details, see [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md). When you select a preset schedule, **Day**, **Open**, and **Close** are automatically filled with the days and hours that the response group is available.
 
-   - To use a custom schedule that applies only to this workflow, click **Use a custom schedule**.
+    - To use a custom schedule that applies only to this workflow, click **Use a custom schedule**.
 
 20. If you are creating a custom schedule for this workflow, click the check boxes for the days of the week that the response group is available.
 
@@ -461,8 +461,8 @@ The following list describes some best practices for designing your IVR:
 
     - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
 
-     > [!NOTE]
-     > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.
+      > [!NOTE]
+      > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.
 
     - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
 
@@ -471,13 +471,13 @@ The following list describes some best practices for designing your IVR:
 
 23. Specify how to handle calls after the message is played (if a message is configured):
 
-     - To disconnect the call, click **Disconnect Call**.
+    - To disconnect the call, click **Disconnect Call**.
 
-     - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  _\<username\>_@ _\<domainname\>_ (for example, bob@contoso.com).
+    - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  *\<username\>*@ *\<domainname\>* (for example, bob@contoso.com).
 
-     - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainname\>_.
+    - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainname\>_.
 
-     - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  _\<number\>_@ _\<domainname\>_ (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
+    - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  *\<number\>*@ *\<domainname\>* (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
 
 24. Under **Step 5 Specify Your Holidays**, click the check boxes for one or more sets of holidays that define the days when the response group is closed for business.
 
@@ -486,25 +486,25 @@ The following list describes some best practices for designing your IVR:
 
 25. If you want to play a message on holidays, select the **Play a message during holidays** check box, and then specify the message to play by doing one of the following:
 
-   - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
+    - To enter the message as text that is converted to speech for the caller, click **Use text-to-speech**, and then type the message in the text box.
 
-     > [!NOTE]
-     > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.
+      > [!NOTE]
+      > Do not include HTML tags in the text you enter. If you include HTML tags, you will receive an error message.
 
-   - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
+    - To use an audio file recording for the message, click **Select a recording**. If you want to upload a new audio file, click the **a recording** link. In the new browser window, click **Browse**, select the file that you want to use, and then click **Open**. Click **Upload** to load the audio file.
 
-     > [!NOTE]
-     > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > All user-provided audio files must meet certain requirements. For details about supported audio file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 26. Specify how to handle calls after the message is played (if a message is configured):
 
     - To disconnect the call, click **Disconnect Call**.
 
-    - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  _\<username\>_@ _\<domainname\>_ (for example, bob@contoso.com).
+    - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  *\<username\>*@ *\<domainname\>* (for example, bob@contoso.com).
 
     - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainname\>_.
 
-    - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  _\<number\>_@ _\<domainname\>_ (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
+    - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  *\<number\>*@ *\<domainname\>* (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
 
 27. Under **Step 6 Configure Music on Hold**, choose what you want callers to listen to while waiting for an agent by doing one of the following:
 
@@ -525,10 +525,10 @@ The following list describes some best practices for designing your IVR:
     > [!NOTE]
     > The "#" symbol is translated by the text-to-speech engine as the word "number". If you need to refer to the # key, you should use the key name, rather than the symbol, in your prompt. For example, "To talk to sales, press the pound key."
 
-   - To use a prerecorded audio file that contains the question, click **Select a recording**, and then click the **a recording** link to upload the file. In the new browser window, click **Browse**, select the audio file, and then click **Open**. Click **Upload** to load the file, and then optionally you can type the question in the text box (this enables the question, and the caller's response, to be forwarded to the responding agent).
+    - To use a prerecorded audio file that contains the question, click **Select a recording**, and then click the **a recording** link to upload the file. In the new browser window, click **Browse**, select the audio file, and then click **Open**. Click **Upload** to load the file, and then optionally you can type the question in the text box (this enables the question, and the caller's response, to be forwarded to the responding agent).
 
-     > [!NOTE]
-     > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+      > [!NOTE]
+      > All user-provided audio files must meet certain requirements. For details about supported file formats, see [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 29. Under **Response 1**, specify the first possible answer to the question by doing the following:
 
