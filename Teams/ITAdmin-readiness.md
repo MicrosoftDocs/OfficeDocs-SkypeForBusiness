@@ -114,7 +114,8 @@ Use these tutorials, videos, and other training resources to learn about Teams a
 
     
 </ul>
-****************
+
+---
 
 <h2>Featured training</h2>
 <ul class="panelContent cardsW">
@@ -125,6 +126,17 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                     <div class="cardText">
                         <h3>Journey from Skype for Business to Teams</h3>
                          <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Journey from Skype for Business to Teams</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Teamwork</h3>
+                         <p><a href="https://aka.ms/edx-cld267x-about">Course: Enabling Teamwork with Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
