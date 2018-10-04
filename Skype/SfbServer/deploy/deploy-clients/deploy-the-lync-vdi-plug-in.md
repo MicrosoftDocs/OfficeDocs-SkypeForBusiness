@@ -45,11 +45,11 @@ To prepare Remote Desktop Connection for the Lync VDI plug-in, follow these step
     
 4. Click the **Local Resources** tab. Under **Remote audio**, click **Settings**, and then do the following:
     
-  - Under **Remote audio playback**, select **Play on this computer**.
+   - Under **Remote audio playback**, select **Play on this computer**.
     
-  - Under **Remote audio recording**, select **Do not record**.
+   - Under **Remote audio recording**, select **Do not record**.
     
-  - Click **OK**.
+   - Click **OK**.
     
 5. Click the **Experience** tab. Under **Performance**, clear the **Persistent bitmap caching** check box.
     

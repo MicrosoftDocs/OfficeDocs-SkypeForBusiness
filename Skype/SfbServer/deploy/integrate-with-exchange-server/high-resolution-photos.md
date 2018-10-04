@@ -32,7 +32,7 @@ High-resolution photos, which are accessed by using Exchange Web Services, can b
   
 ```
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
-Set-UserPhoto -Identity "Ken Myer" -PictureData -Preview $photo -Confirm:$False
+Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Preview -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 

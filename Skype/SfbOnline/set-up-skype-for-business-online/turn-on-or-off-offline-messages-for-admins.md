@@ -35,7 +35,7 @@ For more information, see [Use offline messaging in Skype for Business](https://
 
 ## To get you started
 
-###
+## #
 
  **Check that you are running Windows PowerShell version 3.0 or higher**
 
@@ -49,7 +49,7 @@ For more information, see [Use offline messaging in Skype for Business](https://
 
 If you need to know more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
 
-###
+## #
 
  **Start a Windows PowerShell session**
 

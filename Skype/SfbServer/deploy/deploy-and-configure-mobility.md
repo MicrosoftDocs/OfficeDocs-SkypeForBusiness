@@ -242,7 +242,7 @@ If you have questions about Planning around certificates, we've documented that 
     
    - If already assigned, the lyncdiscover.\<sipdomain\> and lyncdiscoverinternal.\<sipdomain\> records.
     
-    You'll need to check multiple certificates if you have more than one assigned (check the Note above).
+     You'll need to check multiple certificates if you have more than one assigned (check the Note above).
     
 8. So, if you find lyncdiscover.\<sipdomain\> and lyncdiscoverinternal.\<sipdomain\> records, you've got this configured already. You can close the MMC.
     
@@ -302,7 +302,7 @@ We have two main things to consider:
     
    - You're going to need to publish a path for **Internal Publishing**, and enter the FQDN for the external Web Services on your Front End pool's load balancer (or the FQDN of the Director pool's load balancer if you have one), an example would be sfb_pool01.contoso.local.
     
-   - You should type **/\*** as the path to be published, but you also need to **forward the original host header**.
+   - You should type **/\\*** as the path to be published, but you also need to **forward the original host header**.
     
    - There will be an option for **public or external name** details or information. This is the place where you'll be able to enter:
     
@@ -310,7 +310,7 @@ We have two main things to consider:
     
    - For the **Name**, you should enter **lyncdiscover.** <sipdomain> (this is the external Autodiscover Service URL). Now, if you're creating a rule for the external Web Services URL on the Front End pool, you'll need to type the FQDN for the external Web Services on your Front End pool (for example, lyncwebextpool01.contoso.com).
     
-   - There will be a **Path** option, and you'll need to enter **/\*** here.
+   - There will be a **Path** option, and you'll need to enter **/\\*** here.
     
    - You'll need to select a **SSL Listener** with your up-to-date public certificate.
     
@@ -348,7 +348,7 @@ We have two main things to consider:
     
    - You're going to need to publish a path for **Internal Publishing**, and enter the FQDN for the **VIP address** of your Front End pool's load balancer, an example would be sfb_pool01.contoso.local.
     
-   - You should type **/\*** as the path to be published, but you also need to **forward the original host header**.
+   - You should type **/\\*** as the path to be published, but you also need to **forward the original host header**.
     
    - There will be an option for **public or external name** details or information. This is the place where you'll be able to enter:
     
@@ -356,7 +356,7 @@ We have two main things to consider:
     
    - For the **Name**, you should enter **lyncdiscover.** <sipdomain> (this is the external Autodiscover Service URL).
     
-   - There will be a **Path** option, and you'll need to enter **/\*** here.
+   - There will be a **Path** option, and you'll need to enter **/\\*** here.
     
    - You'll need to select a web listener, or allow your Reverse proxy to create one for you.
     
@@ -385,15 +385,15 @@ To let mobile clients discover where a user's located, the Autodiscover service 
     
 2. Run the following to get the value of the attribute **ProxyFQDN** for your Skype for Business Server environment:
     
-  ```
-  Get-CsHostingProvider
-  ```
+   ```
+   Get-CsHostingProvider
+   ```
 
 3. Then, still in the shell window, run:
     
-  ```
-  Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
-  ```
+   ```
+   Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
+   ```
 
     Where [identity] is replaced with the domain name of the shared SIP address space.
     
@@ -446,13 +446,13 @@ For Lync Server 2010 clients on Skype for Business Server 2015, you'll need to r
 
    It's also possible to set credentials in a script and pass them to the test cmdlet. We have an example of this below.
     
-  ```
-  $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
-  $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
-  $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
-  $tuc2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
-  Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
-  ```
+   ```
+   $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
+   $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
+   $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
+   $tuc2 = New-Object Management.Automation.PSCredential("contoso\UserName2", $passwd2)
+   Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
+   ```
 
 To review the command procedures further, you can check out [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) and [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps).
   

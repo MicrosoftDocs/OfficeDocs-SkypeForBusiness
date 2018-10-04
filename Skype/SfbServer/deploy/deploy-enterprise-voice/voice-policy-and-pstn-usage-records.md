@@ -45,8 +45,8 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - **Voice mail escape** prevents calls from being immediately routed to the user's mobile phone voice mail system when simultaneous ringing is configured and the phone is turned off, out of battery, or out of range.
 
-    > [!NOTE]
-    > This feature is only configurable through the Skype for Business Server Management Shell
+     > [!NOTE]
+     > This feature is only configurable through the Skype for Business Server Management Shell
 
    - **Call forwarding** enables users to forward calls to other phones and client devices. Skype for Business Server provides a significantly wider range of configuration options for call forwarding. For example, if an organization does not want to allow incoming calls to be forwarded externally to the PSTN, an administrator can apply a special voice policy to deploy this restriction. Enabled by default.
 
@@ -64,8 +64,8 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - **Bandwidth policy override** enables administrators to override call admission control policy decisions for a particular user. Disabled by default.
 
-    > [!NOTE]
-    > The policy will be overridden only for incoming calls to the user and not for outgoing calls that are placed by the user. After the session is established, the bandwidth consumption will be accurately recorded. This setting should be used sparingly and should be reserved for appropriate call admission control decisions.
+     > [!NOTE]
+     > The policy will be overridden only for incoming calls to the user and not for outgoing calls that are placed by the user. After the session is established, the bandwidth consumption will be accurately recorded. This setting should be used sparingly and should be reserved for appropriate call admission control decisions.
 
    - **Malicious call tracing** enables users to report malicious calls (such as threats) by using the client UI, which in turn flags the calls in the Call Detail Records (CDRs). Disabled by default.
 
@@ -79,14 +79,14 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - To define a new PSTN usage record and associate it with this voice policy, do the following:
 
-    a. Click **New**.
+     a. Click **New**.
 
-    b. In the **Name** field, enter a unique descriptive name for the record. For example, you may want to create a PSTN usage record namedRedmond for full-time employees located in Redmond, and another namedRedmondTemps for temporary employees.
+     b. In the **Name** field, enter a unique descriptive name for the record. For example, you may want to create a PSTN usage record namedRedmond for full-time employees located in Redmond, and another namedRedmondTemps for temporary employees.
 
-    > [!NOTE]
-    > The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the **Name** field cannot be edited.
+     > [!NOTE]
+     > The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the **Name** field cannot be edited.
 
-    c. Use any of the following methods to associate and configure routes for this PSTN usage record:
+     c. Use any of the following methods to associate and configure routes for this PSTN usage record:
 
    - To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes that you want to associate with this PSTN usage record, and then click **OK**.
 
@@ -96,13 +96,13 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**.
 
-    d. Click **OK**.
+     d. Click **OK**.
 
    - To edit a PSTN usage record that is already associated with this voice policy, do the following:
 
-    a. Highlight the PSTN usage record that you want to edit, and then click **Show details**.
+     a. Highlight the PSTN usage record that you want to edit, and then click **Show details**.
 
-    b. Use any of the following methods to associate and configure routes for this PSTN usage record:
+     b. Use any of the following methods to associate and configure routes for this PSTN usage record:
 
    - To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes you want to associate with this PSTN usage record, and then click **OK**.
 
@@ -112,7 +112,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - To edit a route that is already associated with this PSTN usage record, highlight the route and lick **Show details**.
 
-    c. Click **OK**.
+     c. Click **OK**.
 
 8. Arrange the PSTN usage records for optimum performance. To change a record's position in the list, highlight the record name and click the up or down arrow.
 
@@ -133,14 +133,14 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - To define a new PSTN usage record and associate it with this call forwarding and simultaneous ringing policy, do the following:
 
-    a. Click **New**.
+     a. Click **New**.
 
-    b. In the **Name** field, enter a unique descriptive name for the record.
+     b. In the **Name** field, enter a unique descriptive name for the record.
 
-    > [!NOTE]
-    > The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the **Name** field cannot be edited.
+     > [!NOTE]
+     > The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the **Name** field cannot be edited.
 
-    c. Use any of the following methods to associate and configure routes for this PSTN usage record:
+     c. Use any of the following methods to associate and configure routes for this PSTN usage record:
 
    - To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes that you want to associate with this PSTN usage record, and then click **OK**.
 
@@ -150,13 +150,13 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**.
 
-    d. Click **OK**.
+     d. Click **OK**.
 
    - To edit a PSTN usage record that is already associated with this voice policy, do the following:
 
-    a. Highlight the PSTN usage record you want to edit and click **Show details**.
+     a. Highlight the PSTN usage record you want to edit and click **Show details**.
 
-    b. Use any of the following methods to associate and configure routes for this PSTN usage record:
+     b. Use any of the following methods to associate and configure routes for this PSTN usage record:
 
    - To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes that you want to associate with this PSTN usage record, and then click **OK**.
 
@@ -166,7 +166,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**.
 
-    c. Click **OK**.
+     c. Click **OK**.
 
 10. (Optional) Enter a number to test the voice policy and click **Go**. The test results are displayed under **Translated number to test**.
 
@@ -196,8 +196,8 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - **Voice mail escape** prevents calls from being immediately routed to the user's mobile phone voice mail system when simultaneous ringing is configured and the phone is turned off, out of battery, or out of range.
 
-    > [!NOTE]
-    > This feature is only configurable through the Skype for Business Server Management Shell
+     > [!NOTE]
+     > This feature is only configurable through the Skype for Business Server Management Shell
 
    - **Call forwarding** enables users to forward calls to other phones and client devices. Skype for Business Server provides a significantly wider range of configuration options for call forwarding. For example, if an organization does not want to allow incoming calls to be forwarded externally to the PSTN, an administrator can apply a special voice policy to deploy this restriction. Enabled by default.
 
@@ -228,14 +228,14 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - To define a new PSTN usage record and associate it with this voice policy, do the following:
 
-    a. Click **New**.
+     a. Click **New**.
 
-    b. In the **Name** field, enter a unique descriptive name for the record. For example, you may want to create a PSTN usage record namedRedmond for full-time employees located in Redmond, and another record namedRedmondTemps for temporary employees.
+     b. In the **Name** field, enter a unique descriptive name for the record. For example, you may want to create a PSTN usage record namedRedmond for full-time employees located in Redmond, and another record namedRedmondTemps for temporary employees.
 
-    > [!NOTE]
-    > The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the **Name** field cannot be edited.
+     > [!NOTE]
+     > The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the **Name** field cannot be edited.
 
-    c. Use any of the following methods to associate and configure routes for this PSTN usage record:
+     c. Use any of the following methods to associate and configure routes for this PSTN usage record:
 
    - To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes that you want to associate with this PSTN usage record, and then click **OK**.
 
@@ -245,13 +245,13 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**.
 
-    d. Click **OK**.
+     d. Click **OK**.
 
    - To edit a PSTN usage record that is already associated with this voice policy, do the following:
 
-    a. Highlight the PSTN usage record that you want to edit and click **Show details**.
+     a. Highlight the PSTN usage record that you want to edit and click **Show details**.
 
-    b. Use any of the following methods to associate and configure routes for this PSTN usage record:
+     b. Use any of the following methods to associate and configure routes for this PSTN usage record:
 
    - To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes that you want to associate with this PSTN usage record, and then click **OK**.
 
@@ -261,7 +261,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**.
 
-    c. Click **OK**.
+     c. Click **OK**.
 
 7. Arrange the PSTN usage records for optimum performance. To change a record's position in the list, highlight the record name and click the up or down arrow.
 
@@ -282,14 +282,14 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - To define a new PSTN usage record and associate it with this call forwarding and simultaneous ringing policy, do the following:
 
-    a. Click **New**.
+     a. Click **New**.
 
-    b. In the **Name** field, enter a unique descriptive name for the record.
+     b. In the **Name** field, enter a unique descriptive name for the record.
 
-    > [!NOTE]
-    > The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the **Name** field cannot be edited.
+     > [!NOTE]
+     > The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the **Name** field cannot be edited.
 
-    c. Use any of the following methods to associate and configure routes for this PSTN usage record:
+     c. Use any of the following methods to associate and configure routes for this PSTN usage record:
 
    - To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes that you want to associate with this PSTN usage record, and then click **OK**.
 
@@ -299,7 +299,7 @@ description: "Summary: Create or modify voice policies and configure PSTN usage 
 
    - To edit a route that is already associated with this PSTN usage record, highlight the route, and then click **Show details**. For details, see [Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
 
-    d. Click **OK**.
+     d. Click **OK**.
 
    - To edit a PSTN usage record that is already associated with this voice policy, do the following:
 
