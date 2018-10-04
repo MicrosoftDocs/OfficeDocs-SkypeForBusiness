@@ -277,9 +277,9 @@ Your next step is to run the file Watchernode.msi:
     
 2. In Skype for Business Server Management Shell, type the following command, and then press ENTER (be sure to specify the actual path to your copy of Watchernode.msi):
     
-  ```
-  c:\Tools\Watchernode.msi Authentication=Negotiate
-  ```
+   ```
+   c:\Tools\Watchernode.msi Authentication=Negotiate
+   ```
 
 > [!NOTE]
 > As mentioned previously, Watchernode.msi can also be run from a command window. To open a command window, click **Start**, right-click **Command Prompt**, and then click **Run as administrator**. When the command window opens, type the same command shown in step 2, above. 

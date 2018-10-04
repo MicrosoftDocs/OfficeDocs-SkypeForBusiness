@@ -41,12 +41,12 @@ Use one of the following procedures to create or modify a call park orbit range.
 
 4. On the **Call Park** page, do one of the following:
 
-  - To create a new orbit range, click **New**. In **Name**, type an identifying name for this range of numbers.
+   - To create a new orbit range, click **New**. In **Name**, type an identifying name for this range of numbers.
 
-    > [!NOTE]
-    > After you commit the orbit range to the database, you cannot change this name.
+     > [!NOTE]
+     > After you commit the orbit range to the database, you cannot change this name.
 
-  - To modify an existing orbit range, type all or part of the name of the orbit range in the search field. In the resulting list of orbits, click the orbit you want, click **Edit**, and then click **Show details**.
+   - To modify an existing orbit range, type all or part of the name of the orbit range in the search field. In the resulting list of orbits, click the orbit you want, click **Edit**, and then click **Show details**.
 
 5. In the first **Number range** field, type the beginning number of the range of extensions for this call park orbit, and in the second **Number range** field, type the ending number of the range. Be aware:
 

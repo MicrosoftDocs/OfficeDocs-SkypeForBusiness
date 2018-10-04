@@ -111,20 +111,20 @@ Next, use Windows PowerShell to upload the on-premises authorization certificate
 
 2. Save the following text to a PowerShell script file named, for example,  `UploadAuthCert.ps1`.
 
-  ```
-  Connect-MsolService;
-Import-Module msonlineextended;
-$CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
-$objFSO = New-Object -ComObject Scripting.FileSystemObject;
-$CertFile = $objFSO.GetAbsolutePathName($CertFile);
-$cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
-$cer.Import($CertFile);
-$binCert = $cer.GetRawCertData();
-$credValue = [System.Convert]::ToBase64String($binCert);
-$ServiceName = "00000002-0000-0ff1-ce00-000000000000";
-$p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
-New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
-  ```
+   ```
+   Connect-MsolService;
+   Import-Module msonlineextended;
+   $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
+   $objFSO = New-Object -ComObject Scripting.FileSystemObject;
+   $CertFile = $objFSO.GetAbsolutePathName($CertFile);
+   $cer = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
+   $cer.Import($CertFile);
+   $binCert = $cer.GetRawCertData();
+   $credValue = [System.Convert]::ToBase64String($binCert);
+   $ServiceName = "00000002-0000-0ff1-ce00-000000000000";
+   $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName
+   New-MsolServicePrincipalCredential -AppPrincipalId $p.AppPrincipalId -Type asymmetric -Usage Verify -Value $credValue
+   ```
 
 3. Run the PowerShell script that you created in the previous step. For example:  `.\UploadAuthCert.ps1`
 
@@ -139,16 +139,16 @@ Specify a verified domain for your Exchange organization. This domain should be 
 
 1. Save the following text to a PowerShell script file named, for example, RegisterEndpoints.ps1. This example uses a wildcard to register all endpoints for contoso.com. Replace contoso.com with a hostname authority for your on-premises Exchange organization
 
-  ```
-  $externalAuthority="*.<your Verified Domain>"
-$ServiceName = "00000002-0000-0ff1-ce00-000000000000";
-$p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName;
-$spn = [string]::Format("{0}/{1}", $ServiceName, $externalAuthority);
-$p.ServicePrincipalNames.Add($spn);
-Set-MsolServicePrincipal -ObjectID $p.ObjectId -ServicePrincipalNames $p.ServicePrincipalNames;
-  ```
+   ```
+   $externalAuthority="*.<your Verified Domain>"
+   $ServiceName = "00000002-0000-0ff1-ce00-000000000000";
+   $p = Get-MsolServicePrincipal -ServicePrincipalName $ServiceName;
+   $spn = [string]::Format("{0}/{1}", $ServiceName, $externalAuthority);
+   $p.ServicePrincipalNames.Add($spn);
+   Set-MsolServicePrincipal -ObjectID $p.ObjectId -ServicePrincipalNames $p.ServicePrincipalNames;
+   ```
 
-2.  In Windows PowerShell for Azure Active Directory, run the Windows PowerShell script that you created in the previous step. For example: `.\RegisterEndpoints.ps1`
+2. In Windows PowerShell for Azure Active Directory, run the Windows PowerShell script that you created in the previous step. For example: `.\RegisterEndpoints.ps1`
 
 ### Verify your success
 

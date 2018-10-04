@@ -67,7 +67,7 @@ Audio and video conferencing allows for audio and video in the meeting. Audio al
     
 - **Adding a user by dialing out.** Presenters and attendees that have been given permission, can add PSTN numbers to the conferences and have the conference dial-out to those numbers.
     
- Skype for Business Server provides several features that users can use to configure the video conferencing experience for the user, including the following:
+  Skype for Business Server provides several features that users can use to configure the video conferencing experience for the user, including the following:
   
 - **Gallery View.** In video conferences that have more than two people, users automatically see everyone in the conference. If the conference has more than five participants, the video of the most active participants appear in the top row and only the photo appears for the other participants. Multiparty video is turned on by default.
     

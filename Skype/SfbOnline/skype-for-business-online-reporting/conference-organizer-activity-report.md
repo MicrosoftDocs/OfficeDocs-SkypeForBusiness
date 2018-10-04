@@ -77,22 +77,22 @@ The X axis on both charts is the selected date range for this specific report.
 You can filter the series you see on the chart by clicking on an item in the legend. For example, on the **Activity** chart, click or tap **IM**, **Audio/video**, **Application sharing**, **Web**, **Dial-in/out - 3rd party**, and **Dial-in/out Microsoft** to see only the info related to each one. Changing this selection doesn't change the info in the grid table.
 ***
 ![Number 8](../images/sfbcallout8.png)<br/>The table shows you a breakdown of the organized conference activities per user. This shows all users that have Skype for Business assigned to them and conferences that they organized. You can add additional columns to the table. 
-*    **User name** is the name of the user. 
-*    **Deleted** indicates that the user's license was removed.<br/><br/>
-    > [!NOTE]
-    > Activity for a deleted user will still display in a report as long as he or she was licensed at some time during the selected time period. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
+* **User name** is the name of the user. 
+* **Deleted** indicates that the user's license was removed.<br/><br/>
+  > [!NOTE]
+  > Activity for a deleted user will still display in a report as long as he or she was licensed at some time during the selected time period. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
      
-*    **Deleted date** is the date on which the user's license was removed. 
-*    **Last activity date (UTC)** is the last activity date (UTC) for that user. 
-*    **IM** shows the total number of IM conferences that were organized. 
-*    **Audio/video** shows the total number of audio/video conferences that were organized.
-*    **Application sharing** shows the total number of application sharing conferences that were organized. 
-*    **Web** shows the total number of Web conferences that were organized. 
-*    **Dial-in/out - 3rd party** shows the total number of dial-in/out Audio Conferences that were organized that use a 3rd party audio conferencing provider. 
-*    **Dial-in/out Microsoft** shows the total number of dial-in/out Audio Conferences that were organized. 
-*    **Audio/video minutes** shows the total number of minutes used in organized conferences that used audio/video. 
-*    **Dial-in Microsoft minutes** shows the total number of dial-in minutes used in meetings that were organized that use Microsoft as the Audio Conferencing provider. 
-*    **Dial-out Microsoft minutes** shows the total number of dial-out minutes used in meetings that were organized that use Microsoft as the Audio Conferencing provider. 
+* **Deleted date** is the date on which the user's license was removed. 
+* **Last activity date (UTC)** is the last activity date (UTC) for that user. 
+* **IM** shows the total number of IM conferences that were organized. 
+* **Audio/video** shows the total number of audio/video conferences that were organized.
+* **Application sharing** shows the total number of application sharing conferences that were organized. 
+* **Web** shows the total number of Web conferences that were organized. 
+* **Dial-in/out - 3rd party** shows the total number of dial-in/out Audio Conferences that were organized that use a 3rd party audio conferencing provider. 
+* **Dial-in/out Microsoft** shows the total number of dial-in/out Audio Conferences that were organized. 
+* **Audio/video minutes** shows the total number of minutes used in organized conferences that used audio/video. 
+* **Dial-in Microsoft minutes** shows the total number of dial-in minutes used in meetings that were organized that use Microsoft as the Audio Conferencing provider. 
+* **Dial-out Microsoft minutes** shows the total number of dial-out minutes used in meetings that were organized that use Microsoft as the Audio Conferencing provider. 
 
 If your organization's policies prevents you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. Check out the **How do I hide user level details?** section in the [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***

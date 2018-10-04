@@ -36,7 +36,7 @@ The usage model contains the following sections. To calculate your capacity requ
     
 - **Average number of contacts in Contact list** indicates the number of contacts that we are using to validate your system requirements. This number is fixed and not something you should change.
     
- **Enterprise Voice**
+  **Enterprise Voice**
   
 - In **Users enabled for Enterprise Voice**, type the percentage of your users enabled for Enterprise Voice. The default is 60%. 
     
@@ -48,7 +48,7 @@ The usage model contains the following sections. To calculate your capacity requ
     
 - **Percentage of voice users involved in UC-UC calls** shows the percentage of users who are enabled for Enterprise Voice who will be enabled only for UC-UC calls. This number is calculated based on what you input for **Percentage of voice users enabled for UC-PSTN calls**. 
     
- **Conferencing**
+  **Conferencing**
   
 - In **Percentage of users in concurrent conferences**, type the percentage of users who will be participating in conferences at the same time. The default is 5%. 
     
@@ -66,7 +66,7 @@ The usage model contains the following sections. To calculate your capacity requ
     
   - If 20% of your voice conferences include data uploads, such as PowerPoint presentations, select the **Including web conferencing** check box.
     
- **Mobility**
+  **Mobility**
   
 - In **Percentage of users enabled for Mobility**, type the percentage of your users who will be enabled to connect to Skype for Business Server using mobile devices. The default is 40%. 
     
