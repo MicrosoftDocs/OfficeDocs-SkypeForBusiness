@@ -53,11 +53,13 @@ If you're in a dual environment where some users are on Skype for Business and s
 
 ## Teams is not Skype for Business
 
-The following Admin capabilities in Skype for Business are different in Teams:
-- Enabling/disabling Client Do Not Disturb and Breakthrough features (always enabled for users in Teams)
-- Privacy (who can see presence) configuration (not available in Teams)
+The following capabilities in Skype for Business are different in Teams:
+- Enabling or disabling Client Do Not Disturb and Breakthrough features (always enabled for users in Teams)
+- Privacy (who can see Presence) configuration (not available in Teams)
 - Calendar (includes OOF & other calendar info) integration  (always enabled for users in Teams if integrated with Outlook)
-- Last seen/Away since indicator (always enabled for users in Teams)
+- *Last seen* or *Away since* indicator (always enabled for users in Teams)
 - Custom presence status (not enabled for users in Teams)
 - Disabling presence sharing for the organization (presence is always enabled for users in Teams)
 - Customizing whether presence is shared with everyone or only with a user's contact list (always enabled for users in Teams)
+
+The ability of an Admin to customize these settings is not currently supported.
