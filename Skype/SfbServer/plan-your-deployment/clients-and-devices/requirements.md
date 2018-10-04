@@ -20,11 +20,11 @@ This article summarizes the requirements for supporting Skype Room Systems v2.
 Your deployment will involve account creation as described in [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md) and setting up a meeting console as described in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). You may also need to refer to [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
 
 > [!NOTE]
-> Skype Room Systems v2 is intended for use with Skype for Business Server 2019, Skype for Business Server 2015, Microsoft Teams, or Skype for Business Online.  <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Skype Room Systems v2. 
+> Skype Room Systems v2 is intended for use with Skype for Business Server 2019, Skype for Business Server 2015, Microsoft Teams, or Skype for Business Online. <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Skype Room Systems v2. 
 
 ## Hardware requirements
 
-Skype Room Systems v2 can scale to different room sizes through accessories depending on audio and video peripherals. Audio and video peripherals connect to Skype Room Systems v2 via a USB or HDMI connection on the docking device. You will also need:
+Skype Room Systems v2 can scale to different room sizes through accessories depending on audio and video peripherals. hardware listed in this article support both Skype and Teams meeting modes.  Audio and video peripherals connect to Skype Room Systems v2 via a USB or HDMI connection on the docking device. You will also need:
 
 - A  32GB or larger USB disk you will configure as bootable Windows installation media for Windows 10 Enterprise. 
 
