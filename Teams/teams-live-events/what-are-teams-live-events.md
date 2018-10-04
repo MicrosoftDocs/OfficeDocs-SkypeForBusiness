@@ -59,9 +59,9 @@ The live event streaming platform is made up of the following pieces:
 
 ### Enterprise Content Delivery Network (eCDN)
 The goal of eCDN is to take the video content from the internet and distribute the content throughout your enterprise without impacting the network performance. You can use one of the following certified eCDN partners to optimize your network for live events held within your organization:
-    - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-    - [Kollective](http://www.kollective.com)
-    - [Ramp](http://www.ramp.com)
+- [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
+- [Kollective](http://www.kollective.com)
+- [Ramp](http://www.ramp.com)
 
 ### Attendee experience 
 The attendee experience is the most important aspect of live events and it's critical that the attendees can participate in the live event without having any issues. The attendee experience uses Azure Media Player and works across desktop, browser, and mobile (iOS, Android). Office 365 provides Yammer and Teams as two collaboration hubs and the live attendee experience is integrated into these collaboration tools. 
