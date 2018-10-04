@@ -41,7 +41,7 @@ To create a new archiving policy by using the Control Panel:
     
    - To control archiving of communications with internal users, select or clear the **Archive internal communications** check box.
     
-  - To control archiving of communications with external users, select or clear the **Archive external communications** check box.
+   - To control archiving of communications with external users, select or clear the **Archive external communications** check box.
     
 6. Click **Commit**.
     

@@ -94,7 +94,7 @@ Our current reverse proxy recommendations can be found on the [Telephony Infrast
     
 - should be able to publish an internally hosted web site externally by using a fully qualified domain name (FQDN).
     
-- needs to be able to publish all the contents of your hosted web site. By default, you can use the **/\*** directive, which is recognized by most web servers to mean "Publish all content on the web server." You can also modify the directive—for example, **/Uwca/\***, which means "Publish all content under the virtual directory Ucwa."
+- needs to be able to publish all the contents of your hosted web site. By default, you can use the **/\\*** directive, which is recognized by most web servers to mean "Publish all content on the web server." You can also modify the directive—for example, **/Uwca/\\***, which means "Publish all content under the virtual directory Ucwa."
     
 - must require TLS connections with clients that request content from your published website.
     

@@ -33,10 +33,10 @@ For the enabled Edge services, you type a **Pool FQDN** and a port under **Ports
     
 - Define the **A/V Edge service** Pool FQDN (If Enable separate FQDN and IP address for web conferencing and A/V is not selected) and a port that uniquely identifies the service.
     
- **OK** Accepts and commits changes to the dialog.
+  **OK** Accepts and commits changes to the dialog.
   
- **Cancel** Discards changes and closes the dialog.
+  **Cancel** Discards changes and closes the dialog.
   
- **Help** Displays this help screen.
+  **Help** Displays this help screen.
   
 

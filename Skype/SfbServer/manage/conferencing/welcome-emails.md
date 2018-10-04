@@ -33,18 +33,18 @@ You can create a script that runs the **Set-CsPinSendCAWelcomeMail** script iter
     
 3. Run the following at the command prompt:
     
-  ```
-  Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
--From <email address of sender> [-Subject <subject for email message>]
-[-UserEmailAddress <destination email address>]
-[-Cc <email address of recipients who receive copy of email>]
-[-Bcc <email address of recipients who receive blind copies>]
-[-TemplatePath <path for email template>]
-[-SmtpServer] <SMTP server name>]
-[-BodyAsPlainText] [-UseSsl]
-[-Pin <new numeric PIN>] [-Force] `
-[-Credential <SMTP server credentials used to send email with the specified From address>]
-  ```
+   ```
+   Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
+   -From <email address of sender> [-Subject <subject for email message>]
+   [-UserEmailAddress <destination email address>]
+   [-Cc <email address of recipients who receive copy of email>]
+   [-Bcc <email address of recipients who receive blind copies>]
+   [-TemplatePath <path for email template>]
+   [-SmtpServer] <SMTP server name>]
+   [-BodyAsPlainText] [-UseSsl]
+   [-Pin <new numeric PIN>] [-Force] `
+   [-Credential <SMTP server credentials used to send email with the specified From address>]
+   ```
 
 **SmtpServer** By default, the script uses the value of the reserved environment variable **$PSEmailServer** for this parameter. If the **$PSEmailServer** variable is not set, you must specify this parameter.
     

@@ -27,10 +27,10 @@ You edit the settings for **Resiliency** and configure the following properties:
     > [!CAUTION]
     > The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected. Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected. 
   
- **OK** Accepts and commits changes to the dialog.
+  **OK** Accepts and commits changes to the dialog.
   
- **Cancel** Discards changes and closes the dialog.
+  **Cancel** Discards changes and closes the dialog.
   
- **Help** Displays this help screen.
+  **Help** Displays this help screen.
   
 
