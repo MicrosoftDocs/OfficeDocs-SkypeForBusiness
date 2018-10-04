@@ -37,8 +37,8 @@ Crestron will provide an upgrade to the [Crestron SR system](https://www.crestro
 Existing Crestron RL2 (also referred to as Crestron RL200) customers can acquire an upgrade package to upgrade current RL2 to RL3 using a for a minimal cost per device. See details of this program [here](https://support.crestron.com/app/answers/answer_view/a_id/1000220) or <!-- For details, -->[email](mailto:lrsupgrade@crestron.com) Crestron LRS support.  
 
 
-### SMART Room Systems upgrade & DIY program
-For SMART LRS customers, apart from Crestron hardware trade-in program, Microsoft and SMART are also working on providing a solution to upgrade to Skype Room System v2. Microsoft is also testing a DIY solution for SMART LRS customers. More details of these programs will be provided on this page in early October 2018. Please make sure to check back for updates on these upgrade options.
+### SMART Room Systems upgrade 
+For SMART LRS customers, apart from Crestron hardware trade-in program, Microsoft and SMART are also working on providing a solution to upgrade to Skype Room System v2. This upgrade will be offered by SMART to all existing SMART LRS customers. More details of this program will be provided on this page in October 2018. Please make sure to check back for updates.
 
 <!--  
 For later 
