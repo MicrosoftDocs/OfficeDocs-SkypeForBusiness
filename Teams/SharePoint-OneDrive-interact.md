@@ -38,8 +38,14 @@ For every team, a SharePoint site is created, and the **Shared Documents** folde
 
 ![Diagram of Shared Documents folders In SharePoint Online for a team and its channels in Microsoft Teams.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 
+<Please review this proposed change to "Note", based on https://domoreexp.visualstudio.com/MSTeams/_workitems/edit/385588
 > [!NOTE]
-> It's not currently possible to replace the default SharePoint site and document library with another one. We've heard from you that you want it, and we're considering it. Check the [Teams Roadmap](https://aka.ms/teamsroadmap) or [Teams UserVoice](https://aka.ms/TeamsUserVoice) to stay on top of upcoming features.
+> It's not currently possible to replace the default SharePoint site and document library created by/associated with a specific Team with another one in the default tab created when the Team is setup.  It is possible to add another "Document Library" tab, and point that to existing content. https://docs.microsoft.com/en-us/microsoftteams/built-in-custom-tabs
+
+>>>>Can we get the custom tabs page updated to show the SPO experience?...we expect this to be a key customer scenario, and want to try to deflect via alchemy...<<<<<
+
+I'm not sure the following is categorically true at this point......
+>>>>We've heard from you that you want it, and we're considering it. Check the [Teams Roadmap](https://aka.ms/teamsroadmap) or [Teams UserVoice](https://aka.ms/TeamsUserVoice) to stay on top of upcoming features.<<<<
 
 > [!TIP]
 > To add a tab to your team that links to an existing SharePoint site or to your existing SharePoint document library:
