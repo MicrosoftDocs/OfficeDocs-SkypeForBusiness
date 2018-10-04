@@ -12,39 +12,39 @@ description: "Summary: Learn about the Rate My Call feature in Skype for Busines
 ---
 
 # Rate my Call in Skype for Business Server
- 
+
 **Summary:** Learn about the Rate My Call feature in Skype for Business Server.
-  
+
 Rate My Call was a new feature in Skype for Business 2015 and 2016 clients on Windows that provides enterprises a way to get feedback from their end-users.
-  
+
 The Rate My Call window offers a "star" rating system and predefined tokens for audio and video calls. In addition, administrators can enable a custom field to provide feedback.
-  
+
 Collected Rate My Call data is not currently included in any existing monitoring report, but it has a separate monitoring report. Data is collected in SQL tables that can be accessed by running SQL queries.
-  
+
 ## Rate my Call Prerequisites
 
 Before the users in your Skype for Business Server deployment can access Rate My Call functionality, the following set of components must be deployed and configured:
-  
+
 -  You must have Skype for Business Server installed (version 9160 or higher).
-    
+
 - Have your users install and update to the latest version of Skype for Business and also ask them to use the Skype for Business UI.
-    
+
 - Users must be homed on the Skype for Business Server Front End pool.
-    
+
 - You must have a Skype for Business Server monitoring database deployed and associated to your Skype for Business Server pools.
-    
+
 - We recommend deploying Call Quality Dashboard (CQD).
-    
+
 ## Configure Rate my Call
 
 The Rate My Call feature is enabled by default in the Client policy with the following settings:
-  
+
 - Rate My Call Display Percentage - 10%
-    
+
 - Rate My Call Allow Custom User Feedback - disabled
-    
+
 There is no action required to enable the base feature, however but if you want custom feedback you will need to enable it separately. The following Windows PowerShell cmdlet is an example of enabling custom end user feedback and changing the interval from 10% to 80%.
-  
+
 ```
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
@@ -52,13 +52,13 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - 
 ## Accessing Rate My Call Data
 
 Data from users is collected in two tables in the monitoring database.
-  
+
  **[QoeMetrics].[dbo].[CallQualityFeedbackToken]** - this table contains results of token polling by end users.
-  
+
  **[QoeMetrics].[dbo].[CallQualityFeedbackTokenDef]** - this table contains token definitions.
-  
+
 Token definitions are coded as follows:
-  
+
 |||
 |:-----|:-----|
 |1  <br/> |DistortedSpeech  <br/> |
@@ -99,15 +99,15 @@ Token definitions are coded as follows:
 |408  <br/> |SS_Other  <br/> |
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
-   
+
  **[QoeMetrics].[dbo].[CallQualityFeedback]** This table contains polling results from "Star" voting and customer feedback if enabled.
-  
+
 Data from tables can be called by using a **select \* from [Table.Name]** query or by using Microsoft SQL Server Management Studio.
-  
+
 The following SQL queries can be used:
-  
+
  **Audio**
-  
+
 ```
 SELECT
         s.ConferenceDateTime
@@ -141,11 +141,10 @@ SELECT
             (CallerCqfToken.TokenId < 20 or (CallerCqfToken.TokenId > 100 and CallerCqfToken.TokenId < 200)) -- only look at Audio related feedback
         INNER JOIN [User] AS Caller WITH (NOLOCK) ON
             Caller.UserKey = CallerCqf.FromURI
- 
 ```
 
  **Video**
-  
+
 ```
 SELECT
         s.ConferenceDateTime
@@ -184,7 +183,7 @@ SELECT
 ## Updating Token Definitions
 
 The latest Skype for Business clients report new problem token IDs (\> 100) that may not be present in your [QoeMetrics].[dbo].[CallQualityFeedbackTokenDef] table. To update the database table with the latest token definitions, the below SQL command can be run on the monitoring database using Microsoft SQL Server Management Studio. This command will replace all entries in the [QoeMetrics].[dbo].[CallQualityFeedbackTokenDef] table.
-  
+
 ```
 DELETE FROM [CallQualityFeedbackTokenDef];
 INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
@@ -226,7 +225,6 @@ INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (408, N'SS_Other'),
     (501, N'Reliabilty_Join'),
     (502, N'Reliabilty_Invite');
-
 ```
 
 

@@ -74,9 +74,9 @@ Recommended hardware for Edge Servers, standalone Mediation Servers, and Directo
 
 > [!NOTE]
 > Regardless of the server role, we also recommend the following hardware settings for Skype for Business Server 2019 (this may vary depending on the brand of hardware you've purchased, so please refer to manufacturer documentation for specifics):
-- BIOS config - should be set to FLAT from NUMA.
-- Enable Hyperthreading.
-- The RSS queue setting should be set to 8 queue.
+> - BIOS config - should be set to FLAT from NUMA.
+> - Enable Hyperthreading.
+> - The RSS queue setting should be set to 8 queue.
 
    
 ## Operating systems for Skype for Business Server 2019

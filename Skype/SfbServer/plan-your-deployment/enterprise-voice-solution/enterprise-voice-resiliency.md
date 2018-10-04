@@ -373,12 +373,13 @@ For details, see [Server requirements for Skype for Business Server 2015](../../
 
 **Table 2. Routes**
 
-|**Route name**|**Number pattern**|**Phone usage**|**Trunk**|**Gateway**|
-|:-----|:-----|:-----|:-----|:-----|
-|Redmond Local Route  <br/> |^\+1(425|206|253)(\d{7})$  <br/> |Local  <br/> RedmondLocal  <br/> |Trunk1  <br/> Trunk2  <br/> |Red-GW1  <br/> Red-GW2  <br/> |
-|Dallas Local Route  <br/> |^\+1(972|214|469)(\d{7})$  <br/> |Local  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
-|Universal Route  <br/> |^\+?(\d\*)$  <br/> |GlobalPSTNHopoff  <br/> |Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> |Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
-|Dallas Users Route  <br/> |^\+?(\d\*)$  <br/> |DallasUsers  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
+
+| **Route name**             | **Number pattern** | **Phone usage**         | **Trunk**                                 | **Gateway**                                     |
+|:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
+| Redmond Local Route  <br/> | ^\+1(425           | 206                     | 253)(\d{7})$  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
+| Dallas Local Route  <br/>  | ^\+1(972           | 214                     | 469)(\d{7})$  <br/>                       | Local  <br/>                                    |
+| Universal Route  <br/>     | ^\+?(\d\*)$  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
+| Dallas Users Route  <br/>  | ^\+?(\d\*)$  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | Dallas-GW1  <br/>                               |
 
 In Table 1, a phone usage of GlobalPSTNHopoff is added after the DallasUsers phone usage in the Dallas Calling Policy. This enables calls with the Dallas Calling policy to use routes that are configured for the GlobalPSTNHopoff phone usage if a route for the DallasUsers phone usage is unavailable.
 

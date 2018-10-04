@@ -106,13 +106,14 @@ Forest preparation creates both private and public ACEs. It creates private ACEs
 
 **Public ACEs created by Forest Preparation**
 
-|**ACE**|**RTCUniversalGlobalReadOnlyGroup**|
-|:-----|:-----|
-|Read root domain System Container (not inherited) **\*** <br/> |X  <br/> |
-|Read Configuration's DisplaySpecifiers container (not inherited)  <br/> |X  <br/> |
+
+| **ACE**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
+|:------------------------------------------------------------------------|:------------------------------------|
+| Read root domain System Container (not inherited) **\\**\* <br/>        | X  <br/>                            |
+| Read Configuration's DisplaySpecifiers container (not inherited)  <br/> | X  <br/>                            |
 
 > [!NOTE]
-> **\***ACEs that are not inherited do not grant access to child objects under these containers. ACEs that are inherited grant access to child objects under these containers.
+> <strong>\\</strong>*ACEs that are not inherited do not grant access to child objects under these containers. ACEs that are inherited grant access to child objects under these containers.
 
 On the Configuration container, under the Configuration naming context, forest preparation performs the following tasks:
 

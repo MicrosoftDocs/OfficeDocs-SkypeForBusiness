@@ -27,23 +27,23 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 <a name="top"> </a>
 
 > [Check for common causes of Skype for Business Online sign-in errors](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
-
+> 
 > [Follow resolution steps for a specific error (Enterprise only)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
-
+> 
 > [Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
-
+> 
 > [Update DNS settings](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
-
+> 
 > [Install a third-party SSL certificate on your ADFS server](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
-
+> 
 > [Update security credentials](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials)
-
+> 
 > [Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)
-
+> 
 > [Update user settings in Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
-
+> 
 > [Use the Microsoft Support troubleshooting guide](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
-
+> 
 > [Collect more information and seek additional help ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
 
 ## Check for common causes of Skype for Business Online sign-in errors
@@ -51,16 +51,17 @@ To troubleshoot Skype for Business Online sign-in errors, start by eliminating t
 
 Most sign-in issues can be traced to a small number of causes, and many of these are easy to correct. The table below lists some common causes of sign-in errors and some steps you or the users can take to resolve them.
 
-|**Possible Cause**|**Resolution**|
-|:-----|:-----|
-|During sign-in, a dialog box appears that contains the following phrase: **cannot verify that the server is trusted for your sign-in address. Connect anyway?** <br/> |Verify that the domain name in the dialog box is a trusted server in your organization—for example, **domainName.contoso.com**. Ask the user to select the **Always trust this server** check box, and then click **Connect**. <br/> Enterprise customers can prevent this message from appearing when a user signs in for the first time by modifying the Windows registry on each user's computer. For details, see [Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
-|Mistyped sign-in address, user name, or password  <br/> | Confirm that the user's sign-in name and password are correct. <br/>  Verify that the user's sign-in name is formatted as follows: **bobk@contoso.com**. This may be different from the format you use to sign in to your organization's network.  <br/>  Ask the user to try signing in again. <br/> |
-|Forgotten password  <br/> |Reset the user's password and notify him or her of the new temporary password.  <br/> |
-|Not licensed to use Skype for Business Online  <br/> |Confirm that the user is registered as a Skype for Business Online user. If not, register the user, and then ask him or her to sign in again.  <br/> |
-|Wrong version of Skype for Business Online installed  <br/> |This issue is usually associated with an error message that contains the following phrase: **the authentication service may be incompatible with this version of the program**.  <br/> Ask the user to uninstall and reinstall Skype for Business Online from the Office 365 Portal.  <br/> |
-|Problem acquiring a personal certificate that is required to sign in  <br/> |If the user's sign-in address has recently changed, they may need to delete cached sign-in data. Ask users to sign out, click the Delete my sign-in info link on the sign-in screen, and then try again.  <br/> |
-|You set up a custom domain name, and the changes may not have finished propagating through the system.  <br/> |First, ensure that you have modified the Domain Name Service (DNS) records to reflect the change.  <br/> If you have already made the necessary DNS changes, advise the user to try logging in later. DNS changes can take up to 72 hours to be reflected throughout the system.  <br/> |
-|System clock out of sync with server clock  <br/> |Ensure that your network domain controller is synchronizing with a reliable external time source. For details, see the Microsoft Knowledge Base article 816042, [How to configure an authoritative time server in Windows Server](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/> |
+
+| **Possible Cause**                                                                                                                                                    | **Resolution**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| During sign-in, a dialog box appears that contains the following phrase: **cannot verify that the server is trusted for your sign-in address. Connect anyway?** <br/> | Verify that the domain name in the dialog box is a trusted server in your organization—for example, **domainName.contoso.com**. Ask the user to select the **Always trust this server** check box, and then click **Connect**. <br/> Enterprise customers can prevent this message from appearing when a user signs in for the first time by modifying the Windows registry on each user's computer. For details, see [Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
+| Mistyped sign-in address, user name, or password  <br/>                                                                                                               | Confirm that the user's sign-in name and password are correct. <br/>  Verify that the user's sign-in name is formatted as follows: <strong>bobk@contoso.com</strong>. This may be different from the format you use to sign in to your organization's network.  <br/>  Ask the user to try signing in again. <br/>                                                                                                                                                                                                                             |
+| Forgotten password  <br/>                                                                                                                                             | Reset the user's password and notify him or her of the new temporary password.  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Not licensed to use Skype for Business Online  <br/>                                                                                                                  | Confirm that the user is registered as a Skype for Business Online user. If not, register the user, and then ask him or her to sign in again.  <br/>                                                                                                                                                                                                                                                                                                                                                                                           |
+| Wrong version of Skype for Business Online installed  <br/>                                                                                                           | This issue is usually associated with an error message that contains the following phrase: **the authentication service may be incompatible with this version of the program**.  <br/> Ask the user to uninstall and reinstall Skype for Business Online from the Office 365 Portal.  <br/>                                                                                                                                                                                                                                                    |
+| Problem acquiring a personal certificate that is required to sign in  <br/>                                                                                           | If the user's sign-in address has recently changed, they may need to delete cached sign-in data. Ask users to sign out, click the Delete my sign-in info link on the sign-in screen, and then try again.  <br/>                                                                                                                                                                                                                                                                                                                                |
+| You set up a custom domain name, and the changes may not have finished propagating through the system.  <br/>                                                         | First, ensure that you have modified the Domain Name Service (DNS) records to reflect the change.  <br/> If you have already made the necessary DNS changes, advise the user to try logging in later. DNS changes can take up to 72 hours to be reflected throughout the system.  <br/>                                                                                                                                                                                                                                                        |
+| System clock out of sync with server clock  <br/>                                                                                                                     | Ensure that your network domain controller is synchronizing with a reliable external time source. For details, see the Microsoft Knowledge Base article 816042, [How to configure an authoritative time server in Windows Server](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/>                                                                                                                                                                                                                                          |
 
 To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help.
 

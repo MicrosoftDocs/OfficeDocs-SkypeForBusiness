@@ -96,11 +96,11 @@ After your pilot is complete, it’s time to gather all feedback surveys, final 
 
 If your results indicate:
 
--   **Your pilot goals (for example, user satisfaction and network quality) have been achieved**, you should be ready to proceed with the next phase of your rollout. Depending on the goals of your project, this could be one of the following:
-   -   Extending the pilot to additional participants
-   -   [Enabling Teams alongside Skype for Business (**Islands** mode) for some or all of your organization](https://aka.ms/SkypeToTeams-SetCoexistence)
-   -   [Upgrading users from Skype for Business to Teams (**Teams only** mode) for some or all of your organization](https://aka.ms/SkypeToTeams-SetCoexistence)
--   **Your pilot didn’t achieve the outcomes you wanted (for example, user satisfaction and network quality)**, take time to make the appropriate adjustments to your plan and revisit your pilot.
+- **Your pilot goals (for example, user satisfaction and network quality) have been achieved**, you should be ready to proceed with the next phase of your rollout. Depending on the goals of your project, this could be one of the following:
+  -   Extending the pilot to additional participants
+  -   [Enabling Teams alongside Skype for Business (**Islands** mode) for some or all of your organization](https://aka.ms/SkypeToTeams-SetCoexistence)
+  -   [Upgrading users from Skype for Business to Teams (**Teams only** mode) for some or all of your organization](https://aka.ms/SkypeToTeams-SetCoexistence)
+- **Your pilot didn’t achieve the outcomes you wanted (for example, user satisfaction and network quality)**, take time to make the appropriate adjustments to your plan and revisit your pilot.
 
 > [!Tip]
 > Enlist your pilot participants as peer champions to help evangelize and onboard new users to Teams. Peer champions can easily relate to other users, sharing their own experiences and learnings, and offering support and guidance to their colleagues. Learn more about [champions](https://go.microsoft.com/fwlink/?linkid=859068) and how you might use them within your own rollout. 

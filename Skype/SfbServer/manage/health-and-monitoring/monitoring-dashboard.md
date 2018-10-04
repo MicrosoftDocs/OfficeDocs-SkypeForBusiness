@@ -37,7 +37,7 @@ By default, the Monitoring Dashboard shows data for the following metrics for th
   
 - Unique user logons
     
- **Peer-to-peer**
+  **Peer-to-peer**
   
 - Total sessions
     
@@ -53,7 +53,7 @@ By default, the Monitoring Dashboard shows data for the following metrics for th
     
 - Avg. audio session minutes
     
- **Conference**
+  **Conference**
   
 - Total conferences
     
@@ -87,7 +87,7 @@ In addition to the System Usage metrics, the following metrics displays total fo
     
 - Conference organizers with call failures
     
- **Users with poor quality calls**
+  **Users with poor quality calls**
   
 - Total users with poor quality calls
     
