@@ -28,13 +28,13 @@ A common area phone (CAP) is typically placed in an area like a lobby or another
 
 The first thing you need to do is to confirm that you have the following:
 
- - Purchase Common Area Phone license and a Calling Plan.
- - Search for and buy approved phones (view the list [here](deploying-skype-for-business-online-phones.md)).
- - Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md)).  You can check the firmware on you phone by doing this:
-    - **Polycom VVX phones**: Go to **Settings** > **Status** > **Platform** > **Application** > **Main**.
-    - **Yealink phones**: Go to **Status** on the main phone screen.
-    - **AudioCodes phones**: Go to **Menu** > **Device Status** > **Firmware version** from the start screen.
-    - **Lync Phone Edition (LPE) phones**: Go to **Menu** > **System Information** from the start screen.
+- Purchase Common Area Phone license and a Calling Plan.
+- Search for and buy approved phones (view the list [here](deploying-skype-for-business-online-phones.md)).
+- Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md)).  You can check the firmware on you phone by doing this:
+  - **Polycom VVX phones**: Go to **Settings** > **Status** > **Platform** > **Application** > **Main**.
+  - **Yealink phones**: Go to **Status** on the main phone screen.
+  - **AudioCodes phones**: Go to **Menu** > **Device Status** > **Firmware version** from the start screen.
+  - **Lync Phone Edition (LPE) phones**: Go to **Menu** > **System Information** from the start screen.
 
     Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default.
 
@@ -66,15 +66,15 @@ For more info on licenses, see [Skype for Business and Microsoft Teams add-on li
     > WAIT!! Don't click **Add**!! Ugh, if you did click **Add** the do this: Office 365 admin center > **Users** > **Active users** and then find the user. Then on the user's properties page, click **Product licenses** and then click **Edit**. On the **Product licenses** page, turn on **Common Area Phone** and pick either a **Domestic Calling Plan** or a Domestic and **International Calling Plan**.
 
 6. If you are still there, assign the licenses to this user. On the same page, click to expand **Product licenses**. Turn on the following:
-    - Common Area Phone
-    - Then you need to pick either a **Domestic Calling Plan** or a Domestic and **International Calling Plan**.
+   - Common Area Phone
+   - Then you need to pick either a **Domestic Calling Plan** or a Domestic and **International Calling Plan**.
 
-    Assigning the licenses will look like:
+     Assigning the licenses will look like:
 
-    ![TurnOnCapLicense.png](../../images/cap-license-turn-on.png)
+     ![TurnOnCapLicense.png](../../images/cap-license-turn-on.png)
 
-    > [!Note]
-    > Just so you know, Skype for Business Plan 2 is included with the **Common Area Phone** license.
+     > [!Note]
+     > Just so you know, Skype for Business Plan 2 is included with the **Common Area Phone** license.
 
 For more details, see [Add a user](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).
 

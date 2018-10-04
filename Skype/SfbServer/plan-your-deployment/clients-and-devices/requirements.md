@@ -14,23 +14,24 @@ description: "This article summarizes the requirements for supporting Skype Room
 ---
 
 # Skype Room Systems v2 requirements
- 
+
 This article summarizes the requirements for supporting Skype Room Systems v2. 
-  
+
 Your deployment will involve account creation as described in [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md) and setting up a meeting console as described in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). You may also need to refer to [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
 
 > [!NOTE]
 > Skype Room Systems v2 is intended for use with Skype for Business Server 2019, Skype for Business Server 2015, Microsoft Teams, or Skype for Business Online.  <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Skype Room Systems v2. 
-  
+
 ## Hardware requirements
 
 Skype Room Systems v2 can scale to different room sizes through accessories depending on audio and video peripherals. Audio and video peripherals connect to Skype Room Systems v2 via a USB or HDMI connection on the docking device. You will also need:
-  
+
 - A  32GB or larger USB disk you will configure as bootable Windows installation media for Windows 10 Enterprise. 
-    
+
 - One of the following tablets or consoles:
-    
+
 **Supported tablets**
+
 |Tablet|Processor|RAM|Disk|
 |:-----|:-----|:-----|:-----|
 |Surface Pro 4       |Core i5  |4GB  |128GB  |
@@ -40,27 +41,29 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 |Surface Pro (2017)  |Core i7  |8GB  |128GB  |
 |Surface Pro (2017)  |Core i7  |16GB |512GB  |
 |Surface Pro (2017)  |Core i7  |16GB |1TB    |
-   
+
 > [!NOTE]
 > Core M3 processors are not supported.
 
 **Supported consoles**
+
 |Console|Processor|RAM|Disk|
 |:-----|:-----|:-----|:-----|
 |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |8GB  |128GB  |  
 |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |8GB  |128GB  |  
 
 - One of the following docking station options to secure a tablet to the meeting room table. 
-    
+
   - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
-    
+
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-    
+
   - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 
- 
+
 **Certified firmware versions for USB audio and video peripherals**
+
 |Skype Room Systems v2 peripherals|Firmware version certified for Skype Room Systems v2|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
@@ -79,27 +82,27 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0  <br/> |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23  <br/> |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/) <br/> |100c  <br/> |
-   
+
 - **USB extenders**:
-    
+
   - USB ports on tablet docks are USB 3.0 compatible. You can use a USB 2.x extender, but doing so will limit you to USB 2.x speeds on the far end and doing so is not recommended for USB 3.0 peripherals.
-    
+
   - An extender must meet USB 2.0 or newer specifications.
-    
+
   - Tablet docks support at least two stages of external USB hub extension. If need to connect more than two USB hubs in series, you will need to check with the dock manufacturer to confirm doing so is supported.
-    
+
 - Wired GbE connection in the room. Ethernet cable of appropriate length.
-    
+
 - Up to two 1080p displays with HDMI connections. HDMI cables of appropriate length.
-    
+
     > [!NOTE]
     > A consumer TV used as a front of room display needs to support/enable the Consumer Electronics Control (CEC) feature of HDMI so that it can switch automatically to an active video source from standby mode. This feature is not supported on all TVs. 
-  
+
 > [!NOTE]
 > Skype Room Systems v2 does not use a keyboard. If needed, the Admin should use the on-screen keyboard. A USB keyboard or mouse will be required when imaging the Skype Room Systems v2 device. 
-  
+
 The following tables provide recommendations for peripherals based on room size:
-  
+
 **Skype Room Systems v2 Certified Audio Peripherals**
 
 |**Room Type**|**Number of People**|**Recommended maximum distance from microphone to person speaking**|**Device by maximum room size**|**Comments**|
@@ -108,7 +111,7 @@ The following tables provide recommendations for peripherals based on room size:
 |**Small** <br/> 16' x 16'  <br/> |4-6  <br/> |2.0m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |Playback volume may be limited for larger rooms.  <br/> |
 |**Medium** <br/> 18' x 20'  <br/> |6-12  <br/> |2.4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS  <br/> |The Logitech MeetUp includes a camera so it must be positioned at the front of room (not center of table to capture local meeting attendees).  <br/> In general, rooms with long rectangular or u-shaped tables may benefit from additional satellite microphones.  <br/> SP 220 MS must be used in daisy-chain configuration.  <br/> |
 |**Large** <br/> 15' x 32'  <br/> |12-16  <br/> |3m  <br/> This distance also applies to the area covered by each additional satellite microphone connected to the audio device in question.  <br/> |Logitech Group + satellite mics  <br/> Polycom Trio+ satellite mics  <br/> Polycom CX5100 + satellite mics  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000MS + satellite mics  <br/> |All audio devices listed in this row support satellite microphone options.  <br/> CX5100 includes a built-in 360 degree camera so that the device can be positioned in the center of table.  <br/> SP 220 MS must be used in daisy-chain configuration.  <br/> |
-   
+
 **Skype Room Systems v2 Certified Video Peripherals**
 
 |Room Type|Number of People|Device by Optimal room size|Comments|
@@ -117,7 +120,7 @@ The following tables provide recommendations for peripherals based on room size:
 |**Small** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> |Logitech PTZ Pro often bundled with Logitech Group  <br/> |
 |**Medium** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> ||
 |**Large** <br/> 15' x 32'  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100  <br/> ||
-   
+
  > [!NOTE]
  > Front of room display resolution should be set to no greater than 1920x1080p.
 
@@ -130,15 +133,15 @@ To build your own Skype Room Systems v2 image, follow the instructions in [Confi
 
 In addition, you will probably want a copy of [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), often used to provision Skype Room Systems v2 accounts.
 
-  
+
 ## See also
 
 [Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
-  
+
 [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md)
-  
+
 [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md)
-  
+
 [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

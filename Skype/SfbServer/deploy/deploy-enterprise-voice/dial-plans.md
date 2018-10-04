@@ -33,8 +33,8 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
 
    - **User dial plan** can be applied to specified users or groups.
 
-    > [!NOTE]
-    > After you select the dial plan scope, it cannot be changed.
+     > [!NOTE]
+     > After you select the dial plan scope, it cannot be changed.
 
 4. If you are creating a user dial plan, enter a descriptive name in the **Name** field on the **New Dial Plan** dialog box. After this name is saved, it cannot be changed.
 
@@ -43,8 +43,8 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
 
 5. The **Simple name** field is prepopulated with the same name that appears in the **Name** field. You can optionally edit this field to specify a more descriptive name that reflects the site, service, or user to which the dial plan applies.
 
-    > [!IMPORTANT]
-    > The **Simple name** must be unique among all dial plans in your deployment. It cannot exceed 256 Unicode characters, each of which can be an alphabetic or numeric character, a hyphen (-), a period (.), or an underscore (_).> Characters **not supported** include spaces and Reserved characters as defined in RFC 3966 (http://www.ietf.org/rfc/rfc3966.txt). Reserved characters that are **not supported** in the **Simple Name** include the following:> ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
+   > [!IMPORTANT]
+   > The **Simple name** must be unique among all dial plans in your deployment. It cannot exceed 256 Unicode characters, each of which can be an alphabetic or numeric character, a hyphen (-), a period (.), or an underscore (_).> Characters **not supported** include spaces and Reserved characters as defined in RFC 3966 (<http://www.ietf.org/rfc/rfc3966.txt>). Reserved characters that are **not supported** in the **Simple Name** include the following:> ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
 6. (Optional) In the **Description** field, you can type additional descriptive information about the dial plan.
 
@@ -89,7 +89,7 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
 
 ### To modify a dial plan
 
-1.  Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see **Delegate Setup Permissions**.
+1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see **Delegate Setup Permissions**.
 
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.
 
@@ -129,8 +129,8 @@ description: "Summary: Learn how to create or modify a dial plan by using the Sk
 
    - To remove a normalization rule from the dial plan, highlight the rule name and click **Remove**.
 
-    > [!NOTE]
-    > Each dial plan must have at least one associated normalization rule. For details about how to determine all of the normalization rules a dial plan requires, see [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in the Planning documentation.
+     > [!NOTE]
+     > Each dial plan must have at least one associated normalization rule. For details about how to determine all of the normalization rules a dial plan requires, see [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in the Planning documentation.
 
 10. Verify that the dial plan's normalization rules are arranged in the correct order. To change a rule's position in the list, highlight the rule name and then click the up or down arrow.
 

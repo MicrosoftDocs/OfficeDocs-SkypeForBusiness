@@ -66,8 +66,8 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
     
    - Either select **Default Instance** to use the default instance or, to specify a different instance, select **Named Instance**, and specify the instance that you want to use.
     
-    > [!NOTE]
-    > For details about how to configure SQL Server backup databases for disaster recovery, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+     > [!NOTE]
+     > For details about how to configure SQL Server backup databases for disaster recovery, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
 9. Define the SQL Server compliance store if you enabled Compliance.
     
@@ -82,8 +82,8 @@ To deploy multiple Persistent Chat Server pools, repeat the same process for eac
     
     - In **File Share**, specify the file store that you want to use.
     
-     > [!IMPORTANT]
-     > You can define the file store in Topology Builder before you create the file store, but you must create the file store in the defined location you define before you publish the topology. If the file store doesn't already exist, attempts to publish the topology will fail. 
+      > [!IMPORTANT]
+      > You can define the file store in Topology Builder before you create the file store, but you must create the file store in the defined location you define before you publish the topology. If the file store doesn't already exist, attempts to publish the topology will fail. 
   
 11. Select the Front End Server pool to be used as a next hop for this Persistent Chat Server pool. This is the Front End Server pool that will be able to route Persistent Chat Server requests to this pool.
     

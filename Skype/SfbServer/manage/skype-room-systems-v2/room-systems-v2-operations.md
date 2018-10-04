@@ -229,9 +229,9 @@ The console is now back in its normal operation mode.The following procedure req
     
 4. Restart the machine when you're finished.
     
- The console restarts into its normal operation mode, running the Skype Room Systems v2 app. You can remove the keyboard, if it was attached to allow you to perform this procedure.
-## Troubleshooting tips
-<a name="TS"> </a>
+   The console restarts into its normal operation mode, running the Skype Room Systems v2 app. You can remove the keyboard, if it was attached to allow you to perform this procedure.
+   ## Troubleshooting tips
+   <a name="TS"> </a>
 
 - Meeting invitations might not appear when sent across domain boundaries (for example, between two companies). In such cases, IT admins should decide whether to allow external users to schedule a meeting.
     

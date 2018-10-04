@@ -112,7 +112,7 @@ Here are the main questions to consider. Keep in mind that the answers to these 
 
 - Where should the gateways be located? The answer depends in part on the topology and in part on the geographic distribution of your organization.
 
- You should also consider your gateway topology options (for details, see Gateway Topologies later in this topic).
+  You should also consider your gateway topology options (for details, see Gateway Topologies later in this topic).
 
 #### M:N Trunk Support
 

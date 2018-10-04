@@ -30,7 +30,7 @@ If you need to remove the file server that is currently acting as the file store
 
 1. Log on to a computer as a member of the RTCUniversersalServerAdmins or CsServerAdministrator group where the Skype for Business Server, Administrative Tools are installed.
 
-2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.
+2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.
 
 3. In the left navigation bar, click **Topology**, and then click **Status**.
 
@@ -42,41 +42,41 @@ If you need to remove the file server that is currently acting as the file store
 
 7. Select a server or pool that uses the file store, and do the following:
 
-1. Right-click the server or pool, and then click **Edit Properties**.
+8. Right-click the server or pool, and then click **Edit Properties**.
 
-2. In **Edit properties**, under **Associations**, under **File store**, click **New**.
+9. In **Edit properties**, under **Associations**, under **File store**, click **New**.
 
-3. In **Define New File Store**, under **File server FQDN**, type the fully qualified domain name (FQDN) of the file server. Under **File share**, type the folder name for the new file share, and then click **OK**.
+10. In **Define New File Store**, under **File server FQDN**, type the fully qualified domain name (FQDN) of the file server. Under **File share**, type the folder name for the new file share, and then click **OK**.
 
-    > [!IMPORTANT]
-    > This step defines a new file store for use in Topology Builder. You define it only once, not for each server. Before you publish the topology, you must create the defined file share on the defined file server. For details, see [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > [!IMPORTANT]
+     > This step defines a new file store for use in Topology Builder. You define it only once, not for each server. Before you publish the topology, you must create the defined file share on the defined file server. For details, see [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
 
-8. For each server or pool that uses the file store, do the following:
+11. For each server or pool that uses the file store, do the following:
 
-1. Right-click the server or pool, and then click **Edit properties**.
+12. Right-click the server or pool, and then click **Edit properties**.
 
-2. In **Edit Properties**, under **Associations**, in **File store**, select the new file share, and then click **OK**.
+13. In **Edit Properties**, under **Associations**, in **File store**, select the new file share, and then click **OK**.
 
-9. Publish the topology, check replication status, and then run the Skype for Business Server Deployment Wizard as needed. For details, see [Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
+14. Publish the topology, check replication status, and then run the Skype for Business Server Deployment Wizard as needed. For details, see [Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
 
-10. Start a command prompt: Click **Start**, click **Run**, and then type cmd.exe.
+15. Start a command prompt: Click **Start**, click **Run**, and then type cmd.exe.
 
-11. At the command line, type the following:
+16. At the command line, type the following:
 
-  ```
-  Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-  ```
+    ```
+    Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
+    ```
 
     > [!TIP]
     > The /S switch copies over files, directories and subdirectories. The /XF switch skips any files that are named Meeting.Active. Current versions of the robocopy.exe with the /MT switch greatly increase copy speed by using multiple threads. For the /LOG switch, use a directory path and log file name in the form of C:\Logfiles\log.txt. This switch creates a log file of operations at the named location.
 
-12. When the data copy is complete, in Lync Server Control Panel, click **Topology**, and then click **Status**.
+17. When the data copy is complete, in Lync Server Control Panel, click **Topology**, and then click **Status**.
 
-13. For each server or pool where you stopped services, select the server or pool, click **Action**, and then click **Start all services**.
+18. For each server or pool where you stopped services, select the server or pool, click **Action**, and then click **Start all services**.
 
-14. Remove the old file store from the topology and then publish the topology. For details, see [Remove a file store](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
+19. Remove the old file store from the topology and then publish the topology. For details, see [Remove a file store](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
 
-15. (Optional) Log on to the computer that contains the file store that you just removed as a member of the local Administrators group or the Domain Admins group, and then remove the old file share and directory.
+20. (Optional) Log on to the computer that contains the file store that you just removed as a member of the local Administrators group or the Domain Admins group, and then remove the old file share and directory.
 
 ## See also
 

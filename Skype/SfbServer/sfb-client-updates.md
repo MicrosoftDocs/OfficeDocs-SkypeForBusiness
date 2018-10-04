@@ -35,6 +35,7 @@ Skype for Business compatibility with Office 365 and your on-premises environmen
   - [Lync Server 2013 system requirements](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
 
 ## Skype for Business 2016 client updates
+
 |Package Name|KB Number|Release Date|
 |:---  |:---  |:---  |
 |Security update for Skype for Business 2016 |[KB 4022221](https://support.microsoft.com/kb/4022221)| July 2018 |
@@ -168,19 +169,19 @@ Package Name|KB Number|Release Date|
 
 ### Lync Phone Edition updates
 
-Package Name|KB Number|Release Date|
-|:--- |:--- |:--- |
-|Cumulative update for Lync Phone Edition for Aastra 6721ip and Aastra 6725ip telephone|[KB 4019527](https://support.microsoft.com/en-us/help/4019527) | April 2017 |
-|Cumulative update for Microsoft Lync Phone Edition for HP 4110 and HP 4120 telephones|[KB 4019528](https://support.microsoft.com/en-us/help/4019528) | April 2017 |
-|Cumulative update for Microsoft Lync Phone Edition for Polycom CX500, Polycom CX600, and Polycom CX3000 telephones|[KB 4019529](https://support.microsoft.com/en-us/help/4019529) | April 2017 |
-|Cumulative Update for Lync Phone Edition for Aastra 6721ip and Aastra 6725ip telephones|[KB 3050585](https://support.microsoft.com/en-us/kb/3050585) | May 2015 |
-|Cumulative update for Lync Phone Edition for HP 4110 and HP 4120 telephones|[KB 3050587](https://support.microsoft.com/en-us/kb/3050587) | May 2015 |
-|Cumulative update for Lync Phone Edition for Polycom CX500, Polycom CX600, and Polycom CX3000|[KB 3050588](https://support.microsoft.com/en-us/kb/3050588) | May 2015 |
-|Cumulative update for Lync Phone Edition for Polycom CX700 and LG-Nortel IP Phone 8540 telephones|[KB 3050590](https://support.microsoft.com/en-us/kb/3050590) | May 2015 |
-|Cumulative update for Lync Phone Edition for Aastra 6721ip and Aastra 6725ip telephones |[KB 2954032](https://support.microsoft.com/kb/2954032) | April 2014|
-|Cumulative update for Lync Phone Edition for HP 4110 and HP 4120 telephones |[KB 2954033](https://support.microsoft.com/kb/2954033) | April 2014||
-|Cumulative update for Lync Phone Edition for Polycom CX500, Polycom CX600, and Polycom CX3000 telephones |[KB 2954034](https://support.microsoft.com/kb/2954034) | April 2014||
-|Cumulative update for Lync Phone Edition for Polycom CX700 and LG-Nortel IP Phone 8540 telephones |[KB 2954035](https://support.microsoft.com/kb/2954035) | April 2014||
+| Package Name                                                                                                       | KB Number                                                      | Release Date |
+|:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:-------------|
+| Cumulative update for Lync Phone Edition for Aastra 6721ip and Aastra 6725ip telephone                             | [KB 4019527](https://support.microsoft.com/en-us/help/4019527) | April 2017   |
+| Cumulative update for Microsoft Lync Phone Edition for HP 4110 and HP 4120 telephones                              | [KB 4019528](https://support.microsoft.com/en-us/help/4019528) | April 2017   |
+| Cumulative update for Microsoft Lync Phone Edition for Polycom CX500, Polycom CX600, and Polycom CX3000 telephones | [KB 4019529](https://support.microsoft.com/en-us/help/4019529) | April 2017   |
+| Cumulative Update for Lync Phone Edition for Aastra 6721ip and Aastra 6725ip telephones                            | [KB 3050585](https://support.microsoft.com/en-us/kb/3050585)   | May 2015     |
+| Cumulative update for Lync Phone Edition for HP 4110 and HP 4120 telephones                                        | [KB 3050587](https://support.microsoft.com/en-us/kb/3050587)   | May 2015     |
+| Cumulative update for Lync Phone Edition for Polycom CX500, Polycom CX600, and Polycom CX3000                      | [KB 3050588](https://support.microsoft.com/en-us/kb/3050588)   | May 2015     |
+| Cumulative update for Lync Phone Edition for Polycom CX700 and LG-Nortel IP Phone 8540 telephones                  | [KB 3050590](https://support.microsoft.com/en-us/kb/3050590)   | May 2015     |
+| Cumulative update for Lync Phone Edition for Aastra 6721ip and Aastra 6725ip telephones                            | [KB 2954032](https://support.microsoft.com/kb/2954032)         | April 2014   |
+| Cumulative update for Lync Phone Edition for HP 4110 and HP 4120 telephones                                        | [KB 2954033](https://support.microsoft.com/kb/2954033)         | April 2014   |
+| Cumulative update for Lync Phone Edition for Polycom CX500, Polycom CX600, and Polycom CX3000 telephones           | [KB 2954034](https://support.microsoft.com/kb/2954034)         | April 2014   |
+| Cumulative update for Lync Phone Edition for Polycom CX700 and LG-Nortel IP Phone 8540 telephones                  | [KB 2954035](https://support.microsoft.com/kb/2954035)         | April 2014   |
 
 ### Lync Phone Edition clients on Download Center
 
@@ -243,23 +244,24 @@ Package Name|KB Number|Release Date|
 
 ### Attendant
 
-**Package Name/Link**|Release Date|
-|:--- |:--- |
-|[Lync 2010 Attendant (32 Bit)](https://www.microsoft.com/download/en/details.aspx?id=10164) | November 2010 |
-|[Lync 2010 Attendant (64 Bit)](https://www.microsoft.com/download/en/details.aspx?id=20084) | November 2010 |
+| **Package Name/Link**                                                                       | Release Date  |
+|:--------------------------------------------------------------------------------------------|:--------------|
+| [Lync 2010 Attendant (32 Bit)](https://www.microsoft.com/download/en/details.aspx?id=10164) | November 2010 |
+| [Lync 2010 Attendant (64 Bit)](https://www.microsoft.com/download/en/details.aspx?id=20084) | November 2010 |
 
 ### Attendee
 
-**Package Name/Link**|Release Date|
-|:--- |:--- |
-|[Lync 2010 Attendee - Admin Level Install](https://www.microsoft.com/download/en/details.aspx?id=23396) | April 2013 |
-|[Lync 2010 Attendee - User Level Install](https://www.microsoft.com/download/en/details.aspx?id=15755) | June 2014 |
+| **Package Name/Link**                                                                                   | Release Date |
+|:--------------------------------------------------------------------------------------------------------|:-------------|
+| [Lync 2010 Attendee - Admin Level Install](https://www.microsoft.com/download/en/details.aspx?id=23396) | April 2013   |
+| [Lync 2010 Attendee - User Level Install](https://www.microsoft.com/download/en/details.aspx?id=15755)  | June 2014    |
 
 ### Trial software
-**Package Name/Link**|Release Date|
-|:--- |:--- |
-|[Lync 2010 Trial (32-bit) ](https://www.microsoft.com/en-us/download/details.aspx?id=5484)| November 2010 |
-|[Lync 2010 Trial (64-bit) ](https://www.microsoft.com/en-us/download/details.aspx?id=10400)| November 2010 |
+
+| **Package Name/Link**                                                                       | Release Date  |
+|:--------------------------------------------------------------------------------------------|:--------------|
+| [Lync 2010 Trial (32-bit) ](https://www.microsoft.com/en-us/download/details.aspx?id=5484)  | November 2010 |
+| [Lync 2010 Trial (64-bit) ](https://www.microsoft.com/en-us/download/details.aspx?id=10400) | November 2010 |
 
 ## Related topics
 

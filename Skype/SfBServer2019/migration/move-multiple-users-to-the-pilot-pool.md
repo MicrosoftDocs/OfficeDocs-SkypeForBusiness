@@ -49,19 +49,19 @@ You can move multiple users from your legacy pool to your Skype for Business Ser
 
 1. Open the Skype for Business Server 2019 Management Shell. 
     
-2.  At the command line, type the following and replace **User1** and **User2** with specific user names you want to move, and replace **pool_FQDN** with the name of the destination pool. In this example we will move users Hao Chen and Katie Jordan. 
+2. At the command line, type the following and replace **User1** and **User2** with specific user names you want to move, and replace **pool_FQDN** with the name of the destination pool. In this example we will move users Hao Chen and Katie Jordan. 
     
-  ```
-  Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
-  ```
+   ```
+   Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
+   ```
 
-     ![Example of PowerShell Get-CsUser cmdlet](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
+    ![Example of PowerShell Get-CsUser cmdlet](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
 3. At the command line, type the following: 
     
-  ```
-  Get-CsUser -Identity "User1"
-  ```
+   ```
+   Get-CsUser -Identity "User1"
+   ```
 
 4. The **Registrar Pool** identity should now point to the pool you specified as **pool_FQDN** in the previous step. The presence of this identity confirms that the user has been successfully moved. Repeat step to verify that **User2** has been moved. 
     
@@ -76,17 +76,17 @@ In this example, all users have been returned to the legacy pool (pool01.contoso
     
 2. At the command line, type the following: 
     
-  ```
-  Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
-  ```
+   ```
+   Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
+   ```
 
      ![PowerShell cmdlet and results in Management Shell](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
 3. Run **Get-CsUser** for one of the pilot users. 
     
-  ```
-  Get-CsUser -Identity "Hao Chen"
-  ```
+   ```
+   Get-CsUser -Identity "Hao Chen"
+   ```
 
 4. The **Registrar Pool** identity for each user now points to the pool you specified as **pool_FQDN** in the previous step. The presence of this identity confirms that the user has been successfully moved. 
     

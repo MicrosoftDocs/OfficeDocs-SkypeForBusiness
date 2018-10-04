@@ -85,15 +85,17 @@ Licensing
 
 When it comes to the information protection capabilities, Office 365 subscriptions and the associated standalone licenses will determine the available feature set.
 
-|Information Protection Capability   |Office 365 Business Essentials   |Office 365 Business Premium   |Office 365 Enterprise E1   |Office 365 Enterprise E3/E4   |Office 365 Enterprise E5   |
-|---|---|---|---|---|---|
-|Archive|-  |-   |-   |Yes   |Yes   |
-|In-Place eDiscovery|-   |-   |-   |Yes   |Yes   |
-|Advanced eDiscovery|-   |-   |-   |-   |Yes   |
-|Legal Hold|-   |-   |-   |Yes   |Yes   |
-|Compliance Content Search|- |- |- |Yes |Yes |
-|Auditing and Reporting|Yes |Yes |Yes |Yes |Yes |
-|Conditional Access* |Yes |Yes |Yes |Yes |Yes |
+
+| Information Protection Capability | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
+|-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
+|              Archive              |               -                |              -              |            -             |             Yes             |           Yes            |
+|        In-Place eDiscovery        |               -                |              -              |            -             |             Yes             |           Yes            |
+|        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           Yes            |
+|            Legal Hold             |               -                |              -              |            -             |             Yes             |           Yes            |
+|     Compliance Content Search     |               -                |              -              |            -             |             Yes             |           Yes            |
+|      Auditing and Reporting       |              Yes               |             Yes             |           Yes            |             Yes             |           Yes            |
+|       Conditional Access\*        |              Yes               |             Yes             |           Yes            |             Yes             |           Yes            |
+
 > [!NOTE]
 > \*Conditional Access requires additional licenses
 
