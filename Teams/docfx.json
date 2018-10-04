@@ -38,6 +38,11 @@
       ],
       "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "contributors_to_exclude": [
+        "dstrome",
+        "daswifty",
+        "MikePlumleyMSFT"
+      ],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
       "feedback_product_url": "https://microsoftteams.uservoice.com"

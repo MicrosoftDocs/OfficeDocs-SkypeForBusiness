@@ -117,7 +117,8 @@
       "extendBreadcrumb": "true",
       "contributors_to_exclude": [
         "dstrome",
-        "daswifty"
+        "daswifty",
+        "MikePlumleyMSFT"
       ],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
