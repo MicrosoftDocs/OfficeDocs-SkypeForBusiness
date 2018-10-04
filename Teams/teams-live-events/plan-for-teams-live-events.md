@@ -15,7 +15,7 @@ appliesto:
 # Plan for live events in Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
-When you are planning Teams live events to hold large meetings in your organizaiton, there are several factors that you need to consider before starting to set it all up. 
+When you are planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting to set it all up. 
 
 ## Who can create and schedule live events? 
 The following prerequisites are required for the user to schedule a Teams live event.
