@@ -53,7 +53,7 @@ If you're in a dual environment where some users are on Skype for Business and s
 
 ## Teams is not Skype for Business
 
-The following Admin capabilities in Skype for Business are not found in Teams:
+The following Admin capabilities in Skype for Business are different in Teams:
 - Enabling/disabling Client Do Not Disturb and Breakthrough features (always enabled for users in Teams)
 - Privacy (who can see presence) configuration (not available in Teams)
 - Calendar (includes OOF & other calendar info) integration  (always enabled for users in Teams if integrated with Outlook)
