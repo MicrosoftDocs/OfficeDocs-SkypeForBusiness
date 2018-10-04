@@ -124,7 +124,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardText">
                         <h3>Journey from Skype for Business to Teams</h3>
-                         <p>[Tutorial: Journey from Skype for Business to Teams](tutorial-journey-skypeforbusiness-to-teams.yml)</p>
+                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Journey from Skype for Business to Teams</a></p>
                     </div>
                 </div>
             </div>
