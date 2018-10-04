@@ -57,8 +57,9 @@ items:
 
     ### Q: Who are the people in the business?
     Here's a summary of the employees: 
-    |Phone #	| Name		|Role			|Notes |
-    |:--      |:--        |:--        |:--      |:--   |
+
+    |Phone #  |Name	          	|Role	 		 |Notes|
+    |:--      |:--              |:--       |:--  |
     |555-0181	|Olga Gerasimova	|lawyer    | |
     |555-0182	|Manuela	Carstens|	lawyer   | |	
     |555-0183	|Andrey	Alexeeva	|lawyer    | |	
@@ -73,7 +74,7 @@ items:
     |555-0192	|Julie	Wolfe	    |reception and scheduling | Also Operator during business hours  |
     |555-0193	|Jakob	Roth	    |billing  |  |
     |555-0194	|Laura	Heinrich	|billing  |  |
-    |555-0195	|Franco	Piccio	  |records  |   |
+    |555-0195	|Franco	Piccio	  |records  |  |
     | | | | |  |
   
 
@@ -101,8 +102,7 @@ items:
     Have some discussions with people in each of the job functions in the office about what they need from the Auto Attendant. In our small office the 
     following point was made clear:
     - Billing questions can be handled by either of the clerks. Given that, it’s okay to create a call queue with both of their numbers that will send 
-    the call to whichever line is not already busy, or to a random number in that group if both are free. (We’re not going to implement this in the example config, 
-    but it’s a situation where having a menu option go to a call queue makes sense.)
+    the call to whichever line is not already busy, or to a random number in that group if both are free. 
 
     ### Q: What language requirements do the customers have?
     Asking Julie Wolfe, we discover that there were only two callers in the whole week for whom English seemed to be a second language. They functioned 
@@ -395,6 +395,7 @@ items:
     **Nested Auto Attendant: Billing (nested under main menu)**
 
     Business hours call handling settings for this Auto Attendant:
+    
     |   Option   | Setting|
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| None |
