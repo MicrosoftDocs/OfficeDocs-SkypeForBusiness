@@ -32,7 +32,7 @@ To skip this step and instead add another business to your federation so you can
 
 Use **one** of the following methods to set up allowed domains:
 
-###
+## #
 
  **Method 1: Use the Office 365 admin center**
 
@@ -40,17 +40,17 @@ Use **one** of the following methods to set up allowed domains:
 
 2. On the **External sharing** page under **Domain exceptions**, select **All domains are blocked except**, and enter the following domains, separated with a comma (,):
 
-  - noammeetings.lync.com
+   - noammeetings.lync.com
 
-  - emeameetings.lync.com
+   - emeameetings.lync.com
 
-  - apacmeetings.lync.com
+   - apacmeetings.lync.com
 
-  - resources.lync.com
+   - resources.lync.com
 
 3. Click **Save**.
 
-###
+## #
 
  **Method 2: Use Windows PowerShell**
 

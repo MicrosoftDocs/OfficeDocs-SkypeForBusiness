@@ -96,9 +96,9 @@ The following tables list the data that is exposed over a public network.
    
 **Mandatory Data**
 
-|**Data Disclosed**|**Example Information**|
-|:-----|:-----|
-|IP Address  <br/> |Actual address of computer or NATed address  <br/> |
-|SIP URI  <br/> |jeremylos@litwareinc.com  <br/> |
-   
+
+| **Data Disclosed** | **Example Information**                            |
+|:-------------------|:---------------------------------------------------|
+| IP Address  <br/>  | Actual address of computer or NATed address  <br/> |
+| SIP URI  <br/>     | jeremylos@litwareinc.com  <br/>                    |
 

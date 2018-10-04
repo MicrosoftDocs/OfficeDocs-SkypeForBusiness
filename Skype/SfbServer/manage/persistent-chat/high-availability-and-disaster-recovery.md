@@ -43,15 +43,15 @@ To fail over Persistent Chat Server:
   
 1. Remove log shipping from the Persistent Chat Server Backup Log Shipping database.
     
-  - Using SQL Server Management Studio, connect to the database instance where the Persistent Chat Server backup mgc database is located.
+   - Using SQL Server Management Studio, connect to the database instance where the Persistent Chat Server backup mgc database is located.
     
-  - Open a query window to the master database.
+   - Open a query window to the master database.
     
-  - Use the following command to drop log shipping:
+   - Use the following command to drop log shipping:
     
-  ```
-  exec sp_delete_log_shipping_secondary_database mgc
-  ```
+   ```
+   exec sp_delete_log_shipping_secondary_database mgc
+   ```
 
 2. Copy any uncopied backup files from the backup share to the copy destination folder of the backup server.
     
@@ -59,15 +59,15 @@ To fail over Persistent Chat Server:
     
 4. Bring the backup mgc database online. Using the query window that opens in step 1b, do the following:
     
-  - End all connections to the mgc database, if there are any:
+   - End all connections to the mgc database, if there are any:
     
-  - **exec sp_who2** to identify connections to the mgc database.
+   - **exec sp_who2** to identify connections to the mgc database.
     
-  - **kill \<spid\>** to end these connections.
+   - **kill \<spid\>** to end these connections.
     
-  - Bring the database online:
+   - Bring the database online:
     
-  - **restore database mgc with recovery**.
+   - **restore database mgc with recovery**.
     
 5. In Skype for Business Server Management Shell, use the command **Set-CsPersistentChatState -Identity "service:atl-cs-001.litwareinc.com" -PoolState FailedOver** to fail over to the mgc backup database. Be sure to substitute the fully qualified domain name of your Persistent Chat pool for atl-cs-001.litwareinc.com.
     

@@ -62,7 +62,7 @@ The packages can be found on this [download page](https://1drv.ms/f/s!ArcnbnREun
 5. Click **Add or Remove a provisioning package**. 
 6. Click **Add Package**.
 7. Select the **Removable Media** option from the drop-down menu. 
-8. Add the appropriate **TeamsRTMMode*.ppkg** package that was previously copied to the USB key. 
+8. Add the appropriate <strong>TeamsRTMMode*.ppkg</strong> package that was previously copied to the USB key. 
 9. Restart the Surface Hub device. 
 10. After the device restarts, you should be able to start the Teams app from the Start screen and join a meeting from the calendar. 
 

@@ -52,11 +52,11 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
   
 4. Choose the users you want to edit:
     
-  - To select a single user, select the user's name.
+   - To select a single user, select the user's name.
     
-  - To select all users on the page, select the box next to **Display name** at the top of the list.
+   - To select all users on the page, select the box next to **Display name** at the top of the list.
     
-  - To select multiple users, select the box next to each user's name.
+   - To select multiple users, select the box next to each user's name.
     
 5. In the right panel, choose **Edit**.
     
@@ -66,12 +66,12 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
     
 7. On the **Properties** page, in the **Provider name** list, choose the provider for the user. Depending on the provider, complete the following boxes.
     
-  - **Microsoft is the provider**: Use the **Default toll number** and **Default toll-free number** lists to select the default numbers for the user.
+   - **Microsoft is the provider**: Use the **Default toll number** and **Default toll-free number** lists to select the default numbers for the user.
     
-    > [!NOTE]
-    > At least one toll-free number must be assigned to your conferencing bridge before it can be set as the default toll-free number of a user. To get a toll-free number, see [Getting service phone numbers for Skype for Business](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
+     > [!NOTE]
+     > At least one toll-free number must be assigned to your conferencing bridge before it can be set as the default toll-free number of a user. To get a toll-free number, see [Getting service phone numbers for Skype for Business](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
-  - **A third-party is the provider**: Use the **Toll number** and **Toll-free number** fields to enter the numbers for the user.
+   - **A third-party is the provider**: Use the **Toll number** and **Toll-free number** fields to enter the numbers for the user.
 
 
 ## Reset audio conferencing phone numbers
@@ -125,7 +125,7 @@ By default, when you change a user's conferencing settings, an email is sent to 
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-## Want to learn more about Windows PowerShell?
+  ## Want to learn more about Windows PowerShell?
 - When it comes to Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
