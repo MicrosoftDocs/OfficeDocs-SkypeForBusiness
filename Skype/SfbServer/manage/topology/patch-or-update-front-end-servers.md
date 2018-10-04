@@ -21,21 +21,21 @@ When you patch the servers in a Front End pool, you do so one server at a time.
 
 1. Type the following cmdlet:
     
-  ```
-  Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
-  ```
+   ```
+   Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
+   ```
 
      If this cmdlet shows any missing replicas, then run the following cmdlet to recover the pool before you apply any patches.
     
-  ```
-  Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
-  ```
+   ```
+   Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
+   ```
 
 2. On the first server you want to patch, run the following cmdlet:
     
-  ```
-  Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
-  ```
+   ```
+   Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
+   ```
 
     This cmdlet moves all services to other Front End Servers in the pool, and takes this server offline.
     
@@ -43,9 +43,9 @@ When you patch the servers in a Front End pool, you do so one server at a time.
     
 4. On the upgraded server, run the following cmdlet:
     
-  ```
-  Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
-  ```
+   ```
+   Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
+   ```
 
     The server is returned to service.
     

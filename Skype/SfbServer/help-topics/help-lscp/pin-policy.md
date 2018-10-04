@@ -25,7 +25,7 @@ What do you want to do? Click the link to the task that you want to perform.
 
 - [Delete a PIN policy in Skype for Business Server 2015](../../manage/authentication/delete-a-pin-policy.md)
 
- **Work with PIN policy for dial-in conferencing**This PIN policy allows users who have Active Directory Domain Services credentials in your organization to join dial-in conferences as authenticated users by entering a PIN.
+  **Work with PIN policy for dial-in conferencing**This PIN policy allows users who have Active Directory Domain Services credentials in your organization to join dial-in conferences as authenticated users by entering a PIN.
 - [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
 - [Modify the Default Dial-in Conferencing PIN Settings](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)

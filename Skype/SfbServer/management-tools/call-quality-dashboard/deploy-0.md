@@ -73,15 +73,15 @@ Deployment of Call Quality Dashboard involves setting up the infrastructure and 
     
    - **Use Multiple Partitions:** The default is set to "Multiple partition", which requires Business Intelligence edition or Enterprise edition of SQL Server. For Standard edition, select "Single Partition" option. Note that cube processing performance may be impacted if Single Partition is used.
     
-    > [!NOTE]
-    > The selection for Use Multiple Partitions option cannot be changed once Setup completes. In order to change it, the Cube feature needs to be first uninstalled and then reinstalled using "Change" option in Control Panel. 
+     > [!NOTE]
+     > The selection for Use Multiple Partitions option cannot be changed once Setup completes. In order to change it, the Cube feature needs to be first uninstalled and then reinstalled using "Change" option in Control Panel. 
   
    - **Partition File Directory:** Path to where the partitions for the QoE Archive database should be placed. This should be on a drive (HDD3 in the recommended hardware configuration) separate from the OS drive and SQL database log files drive. Note that since the file names are fixed in the install, to avoid any potential conflict, it is recommended that a blank directory with no files be used.
     
    - **SQL Agent Job User - User Name &amp; Password:** Domain service account name and password (masked) that will be used to run the "QoE Archive Data" step of the SQL Server Agent job (which will run the stored procedure to fetch data from QoE Metrics DB into Archive DB, so this account must have read access to QoE Metrics DB, as indicated under Accounts section. This account also needs to have a login in the QoE Archive SQL Server Instance).
     
-    > [!NOTE]
-    > The account that the SQL Server instance is running under, such as NT SERVICE\MSSQLSERVER, must have access/permission to the directories given above for the installation to succeed. For details, see [Configure File System Permissions for Database Engine Access](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
+     > [!NOTE]
+     > The account that the SQL Server instance is running under, such as NT SERVICE\MSSQLSERVER, must have access/permission to the directories given above for the installation to succeed. For details, see [Configure File System Permissions for Database Engine Access](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
   
 7. Upon clicking next, the installer will perform pre-requisite checks and report if any issues are encountered. When all pre-requisite checks pass, the installer will go to the Cube Configuration page. 
     
@@ -96,13 +96,13 @@ Deployment of Call Quality Dashboard involves setting up the infrastructure and 
     
    - **Cube Analysis Server:** SQL Server Analysis Service instance name for where the cube is to be created. This can be a different machine but the installing user has to be a member of Server administrators of the target SQL Server Analysis Service instance.
     
-    > [!NOTE]
-    >  For more information about configuring Analysis Services Server Administrator Permissions, see [Grant Server Administrator Permissions (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
+     > [!NOTE]
+     >  For more information about configuring Analysis Services Server Administrator Permissions, see [Grant Server Administrator Permissions (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
   
    - **Use Multiple Partitions:** The default is set to "Multiple partition", which requires Business Intelligence edition or Enterprise edition of SQL Server. For Standard edition, select "Single Partition" option. Note that cube processing performance may be impacted if Single Partition is used .
     
-    > [!NOTE]
-    >  The selection for Use Multiple Partitions option cannot be changed once Setup completes. In order to change it, the Cube feature needs to be first uninstalled and then reinstalled using "Change" option in Control Panel.
+     > [!NOTE]
+     >  The selection for Use Multiple Partitions option cannot be changed once Setup completes. In order to change it, the Cube feature needs to be first uninstalled and then reinstalled using "Change" option in Control Panel.
   
    - **Cube User - User Name &amp; Password:** Domain service account name and password (masked) that will trigger the cube processing. If QoE Archive component was selected for the install, this field will be pre-populated with the value provided on the Archive Configuration page for the SQL Agent Job User, but we recommend specifying a different domain service account so that Setup can grant the least required privilege to it.
     
@@ -254,7 +254,7 @@ Examples
     
 - Joint-venture location
     
- **Sample SQL Syntax**
+  **Sample SQL Syntax**
   
 ```
 INSERT INTO
@@ -285,7 +285,7 @@ Examples
     
 - Subsidiary Leased
     
- **Sample SQL Syntax**
+  **Sample SQL Syntax**
   
 ```
 INSERT INTO
@@ -315,7 +315,7 @@ Examples
     
 - LAB
     
- **Sample SQL Syntax**
+  **Sample SQL Syntax**
   
 ```
 INSERT INTO [dbo].[CqdNetworkName] 

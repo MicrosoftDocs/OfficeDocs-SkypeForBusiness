@@ -82,15 +82,15 @@ After you've finished these steps, you can migrate user accounts as described in
 
 1. First, make sure that your organization is configured for hybrid, including Azure Active Directory Connect and sync tools. For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md).
 
-  - On your on-premises deployment, in the Skype for Business Server Management Shell, type the following cmdlets to create the hosting provider for Skype for Business Online. You can use whatever value you want for the Identity and Name parameters.
+   - On your on-premises deployment, in the Skype for Business Server Management Shell, type the following cmdlets to create the hosting provider for Skype for Business Online. You can use whatever value you want for the Identity and Name parameters.
 
-  ```
-  Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
-  ```
+   ```
+   Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+   ```
 
-  ```
-  New-CsHostingProvider -Identity SkypeforBusinessOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
-  ```
+   ```
+   New-CsHostingProvider -Identity SkypeforBusinessOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+   ```
 
 2. Confirm that on your on-premises Edge Servers, you have the certificate chain that enables connection to Skype for Business Online, as shown in the following table. You can download this chain here: [https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip](https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip).
 
@@ -102,33 +102,33 @@ After you've finished these steps, you can migrate user accounts as described in
 
 3. In your on-premises Active Directory, enable the affected user accounts for Skype for Business Server 2015 on premises. You can do this for an individual user by typing the following cmdlet:
 
-  ```
-  Enable-CsUser
--Identity "username "
--SipAddress "sip: username @contoso.com"
--HostingProviderProxyFqdn "sipfed.online.lync.com"
-  ```
+   ```
+   Enable-CsUser
+   -Identity "username "
+   -SipAddress "sip: username @contoso.com"
+   -HostingProviderProxyFqdn "sipfed.online.lync.com"
+   ```
 
     Or you can create a script that reads user names from a file and provides them as input to the Enable-CsUser cmdlet:
 
-  ```
-  Enable-CsUser
--Identity $Identity
--SipAddress $SipAddress
--HostingProviderProxyFqdn "sipfed.online.lync.com"
-  ```
+   ```
+   Enable-CsUser
+   -Identity $Identity
+   -SipAddress $SipAddress
+   -HostingProviderProxyFqdn "sipfed.online.lync.com"
+   ```
 
 4. Synchronize the online users with the updated on-premises users. For more information, see [Directory Integration Tools](https://go.microsoft.com/fwlink/p/?LinkId=530320).
 
 5. Update the following DNS records to direct all SIP traffic to your on-premises deployment:
 
-  - Update the **lyncdiscover.contoso.com** A record to point to the FQDN of the on-premises reverse proxy server.
+   - Update the **lyncdiscover.contoso.com** A record to point to the FQDN of the on-premises reverse proxy server.
 
-  - Update the ***_sip*  ._tls.contoso.com** SRV record to resolve to the public IP or VIP address of the Access Edge service of Lync on-premises.
+   - Update the ***_sip*  ._tls.contoso.com** SRV record to resolve to the public IP or VIP address of the Access Edge service of Lync on-premises.
 
-  - Update the ***_sipfederationtls*  ._tcp.contoso.com** SRV record to resolve to the public IP or VIP address of the Access Edge service of Skype for Business Server 2015 on-premises.
+   - Update the ***_sipfederationtls*  ._tcp.contoso.com** SRV record to resolve to the public IP or VIP address of the Access Edge service of Skype for Business Server 2015 on-premises.
 
-  - If your organization uses split DNS (sometimes called "split-brain DNS"), make sure that users resolving names through the internal DNS zone are directed to the Front End Pool.
+   - If your organization uses split DNS (sometimes called "split-brain DNS"), make sure that users resolving names through the internal DNS zone are directed to the Front End Pool.
 
 6. Type the  `Get-CsUser` cmdlet to check some properties about the users you'll be moving. You want to make sure that the HostingProviderProxyFQDN is set to `"sipfed.online.lync.com"` and that the SIP addresses are set correctly.
 
@@ -136,16 +136,16 @@ After you've finished these steps, you can migrate user accounts as described in
 
     To move a single user, type this:
 
-  ```
-  $cred = Get-Credential
-  Move-CsUser -Identity <username>@contoso.com  -Target "<fe-pool>.contoso.com " -Credential $cred -HostedMigrationOverrideURL <URL>
-  ```
+   ```
+   $cred = Get-Credential
+   Move-CsUser -Identity <username>@contoso.com  -Target "<fe-pool>.contoso.com " -Credential $cred -HostedMigrationOverrideURL <URL>
+   ```
 
     You can move multiple users by using the **Get-CsUSer** cmdlet with the -Filter parameter to select the users with a specific property. For example, you could select all Online users by filtering for {Hosting Provider -eq "sipfed.online.lync.om"}. You can then pipe the returned users to the **Move-CsUSer** cmdlet, as shown below.
 
-  ```
-  Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com " -Credential $creds -HostedMigrationOverrideURL <URL>
-  ```
+   ```
+   Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com " -Credential $creds -HostedMigrationOverrideURL <URL>
+   ```
 
     The format of the URL specified for the **HostedMigrationOverrideUrl** parameter must be the URL to the pool where the Hosted Migration service is running, in the following format: _Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc_.
 
@@ -174,19 +174,19 @@ After you've finished these steps, you can migrate user accounts as described in
     > [!NOTE]
     > The default maximum size for transaction log files of the rtcxds database is 16 GB. This might not be big enough if you're moving a large number of users at once, especially if you have mirroring enabled. To get around this you can increase the file size or back up the log files regularly. For more information, see [https://support.microsoft.com/kb/2756725](https://support.microsoft.com/kb/2756725).
 
-8. This is an optional step. If you need to integrate with Exchange 2013 Online, you need to use an additional hosting provider. For details, see [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md).
+6. This is an optional step. If you need to integrate with Exchange 2013 Online, you need to use an additional hosting provider. For details, see [Configure integration between on-premises Skype for Business Server 2015 and Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md).
 
-9. The users are now moved. To check that a user has correct values for the attributes shown in the following table, type this cmdlet:
+7. The users are now moved. To check that a user has correct values for the attributes shown in the following table, type this cmdlet:
 
-  ```
-  Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
-  ```
+   ```
+   Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
+   ```
 
-|**Active Directory attribute**|**Attribute name**|**Correct value for Online user**|**Correct value for on-premises users**|
-|:-----|:-----|:-----|:-----|
-|msRTCSIP-DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed.online.lync.com  <br/> |SRV:  <br/> |
-|msRTCSIP-PrimaryUserAddress  <br/> |SIPAddress  <br/> |sip:userName@contoso.com  <br/> |sip:userName@contoso.com  <br/> |
-|msRTCSIP-UserEnabled  <br/> |Enabled  <br/> |True  <br/> |True  <br/> |
+| **Active Directory attribute**     | **Attribute name**     | **Correct value for Online user** | **Correct value for on-premises users** |
+|:-----------------------------------|:-----------------------|:----------------------------------|:----------------------------------------|
+| msRTCSIP-DeploymentLocator  <br/>  | HostingProvider  <br/> | sipfed.online.lync.com  <br/>     | SRV:  <br/>                             |
+| msRTCSIP-PrimaryUserAddress  <br/> | SIPAddress  <br/>      | sip:userName@contoso.com  <br/>   | sip:userName@contoso.com  <br/>         |
+| msRTCSIP-UserEnabled  <br/>        | Enabled  <br/>         | True  <br/>                       | True  <br/>                             |
 
 10. Each user who has been moved will need to log out, then log back in. When they log in they should verify their contact lists, and add contacts if needed.
 

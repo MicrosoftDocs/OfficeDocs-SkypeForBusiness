@@ -36,8 +36,8 @@ After migrating to Skype for Business Server, you must be aware of how the chang
     
 2. Select **Simple URLs** in the left pane, then below **Administrative access URL** box, enter the simple URL you want for administrative access to Skype for Business Server Control Panel, and then click **OK**.
     
-    > [!TIP]
-    > We recommend using the simplest possible URL for the Admin URL. The simplest option is https://admin._\<domain\>_. 
+   > [!TIP]
+   > We recommend using the simplest possible URL for the Admin URL. The simplest option is https://admin.<em>\<domain\></em>. 
   
 ## See also
 

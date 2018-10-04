@@ -177,11 +177,11 @@ See [Set the phone numbers included on invites](set-the-phone-numbers-included-o
 
 4. Under **Meeting join experience**, select the following actions:
 
-  - **Enable meeting entry and exit notifications to be turned on** This is selected by default. If you clear this check box, users who have already joined the meeting by default won't be notified when someone enters or leaves the meeting.
+   - **Enable meeting entry and exit notifications to be turned on** This is selected by default. If you clear this check box, users who have already joined the meeting by default won't be notified when someone enters or leaves the meeting.
 
-    This can be set on a meeting-by-meeting basis when a user joins a meeting using a Skype for Business app and they modify the **Announce when people enter or leave** setting in the Skype Meeting **Options** menu of the meeting.
+     This can be set on a meeting-by-meeting basis when a user joins a meeting using a Skype for Business app and they modify the **Announce when people enter or leave** setting in the Skype Meeting **Options** menu of the meeting.
 
-  - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear this check box, callers won't be asked to record their name before they join a meeting.
+   - **Ask callers to record their name before joining the meeting** This is selected by default. If you clear this check box, callers won't be asked to record their name before they join a meeting.
 
 5. After you make your changes, click **Save**.
     
@@ -240,11 +240,11 @@ See [Set auto attendant languages for Audio Conferencing](set-auto-attendant-lan
 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**. Here you can:
 
-  - View the phone numbers that are set by Office 365 to be used for Audio Conferencing.
+   - View the phone numbers that are set by Office 365 to be used for Audio Conferencing.
 
-  - View the location, and the primary and secondary languages, that will be used by the Audio Conferencing auto attendant.
+   - View the location, and the primary and secondary languages, that will be used by the Audio Conferencing auto attendant.
 
-  - Select the default phone number that will be given to users when they are enabled for Audio Conferencing. However, if the default phone number of the audio conferencing bridge changes, the default phone number for existing users won't change.
+   - Select the default phone number that will be given to users when they are enabled for Audio Conferencing. However, if the default phone number of the audio conferencing bridge changes, the default phone number for existing users won't change.
 
 You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number for a user by choosing a new number from the list of numbers that are available in your organization.
 
@@ -308,7 +308,7 @@ Here are the organization-level settings:
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 
- ## Want to know more about Windows PowerShell
+  ## Want to know more about Windows PowerShell
 - Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
 
   - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)

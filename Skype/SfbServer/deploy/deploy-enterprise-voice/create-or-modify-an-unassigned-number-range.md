@@ -45,8 +45,8 @@ Use one of the following procedures to configure unassigned number ranges for th
     
    - To create a new number range, click **New**. In **Name**, type an identifying name for this range of numbers.
     
-    > [!NOTE]
-    > After you commit the new unassigned number range to the database, you cannot change this name. 
+     > [!NOTE]
+     > After you commit the new unassigned number range to the database, you cannot change this name. 
   
    - To modify an existing number range, type all or part of the name of the number range in the search field. In the resulting list of number ranges, click the name you want, click **Edit**, and then click **Show details**.
     
@@ -94,7 +94,7 @@ Use one of the following procedures to configure unassigned number ranges for th
   
     At the command line, do one of the following:
     
-     - To create a number range for an Announcement service, run:
+   - To create a number range for an Announcement service, run:
     
      ```
      New-CsUnassignedNumber -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -AnnouncementName <announcement name> -AnnouncementService <FQDN or service ID of the Announcement service>
@@ -118,7 +118,7 @@ Use one of the following procedures to configure unassigned number ranges for th
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber "+12065551234" -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100"
      ```
 
-    The following example shows how to modify the numbers in an existing unassigned number range:
+     The following example shows how to modify the numbers in an existing unassigned number range:
     
      ```
      Set-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551900"

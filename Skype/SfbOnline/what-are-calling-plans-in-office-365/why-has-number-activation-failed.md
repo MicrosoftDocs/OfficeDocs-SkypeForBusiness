@@ -45,13 +45,13 @@ Address validation is an important part of setting up Calling Plans in Office 36
     
 5. On the **Identify the issue** page, select and enter in the following:
     
-  - **Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.
+   - **Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.
     
-  - **Symptom:** Enter **Emergency Calling**.
+   - **Symptom:** Enter **Emergency Calling**.
     
-  - **Issue summary:** Enter **Address validation**.
+   - **Issue summary:** Enter **Address validation**.
     
-  - **Issue details:** Enter any details about the address(s) you want to validate such as the:
+   - **Issue details:** Enter any details about the address(s) you want to validate such as the:
     
       - Street number
     
@@ -61,8 +61,8 @@ Address validation is an important part of setting up Calling Plans in Office 36
     
       - Country or region
     
-    > [!IMPORTANT]
-    > **Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**
+     > [!IMPORTANT]
+     > **Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**
   
       - Postal or zip code
     
@@ -70,19 +70,19 @@ Address validation is an important part of setting up Calling Plans in Office 36
     
 7. On the **Add details** page, select and enter the following:
     
-  - **Is your service unavailable?** Select **No**.
+   - **Is your service unavailable?** Select **No**.
     
-  - **How many users are affected?** Select **Some users**.
+   - **How many users are affected?** Select **Some users**.
     
-  - **Enter an email address of someone affected by this issue** or leave blank.
+   - **Enter an email address of someone affected by this issue** or leave blank.
     
-  - **Select Domain(s) you want to list**
+   - **Select Domain(s) you want to list**
     
-  - **Attach a file** if you have multiple addresses you need validated.
+   - **Attach a file** if you have multiple addresses you need validated.
     
-  - Click **Next**.
+   - Click **Next**.
     
-  - Enter your contact phone number.
+   - Enter your contact phone number.
     
 8. Review the information, and then click **Submit request**.
     

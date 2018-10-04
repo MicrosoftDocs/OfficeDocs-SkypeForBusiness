@@ -20,35 +20,35 @@ Before decommissioning a pool, you must perform the following procedure for each
     
 2. To obtain the identity of the conference directories in your organization, run the following command:
     
-  ```
-  Get-CsConferenceDirectory
-  ```
+   ```
+   Get-CsConferenceDirectory
+   ```
 
     The preceding command returns all the conference directories in your organization. Because of that, you might want to limit the results to the pool being decommissioned. For example, if you are decommissioning the pool with the fully qualified domain name (FQDN) pool01.contoso.net, use this command to limit the returned data to conference directories from that pool:
     
-  ```
-  Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
-  ```
+   ```
+   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
+   ```
 
     That command returns only the conference directories where the ServiceID property contains the FQDN pool01.contoso.net.
     
 3. To move conference directories, run the following command for each conference directory in the pool:
     
-  ```
-  Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
-  ```
+   ```
+   Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
+   ```
 
     For example, to move conference directory 3, use this command, specifying a Skype for Business Server 2019 pool as the TargetPool:
     
-  ```
-  Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
-  ```
+   ```
+   Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
+   ```
 
     If you want to move all the conference directories on a pool, use a command similar to the following:
     
-  ```
-  Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
-  ```
+   ```
+   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
+   ```
 
 Download [Uninstalling Microsoft legacy and Removing Server Roles](https://go.microsoft.com/fwlink/p/?linkId=246227) for comprehensive, step-by-step instructions on decommissioning legacy pools.
   

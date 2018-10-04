@@ -45,17 +45,17 @@ There are different types of phone numbers that you can assign to users or other
     
 5. You can use the drop-down list to filter your view by:
     
-  - **All** phone numbers including service phone numbers.
+   - **All** phone numbers including service phone numbers.
     
-  - A phone **number range** that you set.
+   - A phone **number range** that you set.
     
-  - Phone numbers that are **assigned to user**.
+   - Phone numbers that are **assigned to user**.
     
-  - Phone numbers that **assigned to conference** for dial-in conferencing.
+   - Phone numbers that **assigned to conference** for dial-in conferencing.
     
-  - Phone numbers that are **unassigned**.
+   - Phone numbers that are **unassigned**.
     
-  - The **location** of the phone numbers.
+   - The **location** of the phone numbers.
     
 ## To see all of the phone numbers that are assigned to users
 
@@ -75,11 +75,11 @@ When you are setting up users, you might just want to see the list of the phone 
     
 4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
     
-  - **All** phone numbers including service phone numbers.
+   - **All** phone numbers including service phone numbers.
     
-  - **Number assigned** to user.
+   - **Number assigned** to user.
     
-  - **No number assigned** to user.
+   - **No number assigned** to user.
     
 ## To see the phone numbers that are assigned to voice users
 
@@ -99,9 +99,9 @@ When you are setting up users in your organization to make and receive phone cal
     
 4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
     
-  - **Active users** and whether a user is Online or on-premises.
+   - **Active users** and whether a user is Online or on-premises.
     
-  - **Pending licenses** and whether a user is Online or on-premises.
+   - **Pending licenses** and whether a user is Online or on-premises.
     
 ## Related topics
 [Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
