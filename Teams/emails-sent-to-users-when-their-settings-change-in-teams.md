@@ -52,14 +52,11 @@ By default, there are four types of email that will be sent to your users who ar
 - **The audio conferencing PIN of a user is reset.**
 
     This email contains the organizer's audio conferencing PIN, the existing conference ID, and default conference phone number for the user. See [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams.md).
-
-
-~~~
-Here is an example of this email:
-
- ![Dial-in conferencing PIN changed.](media/audio-conferencing-pin-has-changed.png)
-~~~
-
+    
+     Here is an example of this email:
+    
+     ![Dial-in conferencing PIN changed.](media/audio-conferencing-pin-has-changed.png)
+  
 - **A user's license is removed or when audio conferencing provider changes from Microsoft to other provider or None.**
 
     This happens when the **Audio Conferencing** license is removed from a user or when changing the audio conferencing provider of a user from Microsoft to a third-party audio conferencing provider or when setting the provider to **None**. This email contains the instructions and information for the user to use the Skype for Business Online Meeting Update Tool to remove audio conferencing specific information, such as the default conference phone number or conference ID.
