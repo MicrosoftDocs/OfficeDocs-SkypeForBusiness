@@ -172,7 +172,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                         <h3>Teams & channels</h3>
                          <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Video: Get your team up and running</a></p>
                          <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Video: Go-to guide for team owners</a></p>
-                         <p><a href="Article: Create an org-wide team in Teamscreate-an-org-wide-team.md)</a></a></p>
+                         <p><a href="create-an-org-wide-team.md">Article: Create an org-wide team in Teams</a></p>
                     </div>
                 </div>
             </div>
