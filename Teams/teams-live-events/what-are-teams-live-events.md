@@ -45,7 +45,7 @@ The live events in Microsoft 365 support a spectrum of production scenarios, inc
 
 - **Quick start production**: The quick start production method allows users to produce their live events using Teams meetings. This option is best and quickest option if you want to use the audio and video devices connected to the PC or are inviting remote presenters for participating in the event. This option allows users to easily use their web cams and share their screen as input into the event. 
 
-![Teams live events](../media/teams-live-events-quick-start.png "Screen shot showing a live event that's produced by using the quick start production method](../media/teams-live-events-quick-start.png "Screen shot showing a live event that's produced by using the quick start production method")
+![Teams live events](../media/teams-live-events-quick-start.png "Screen shot showing a live event that's produced by using the quick start production method")
 
 - **External encoder production**: External encoders allow users to produce their live events directly from an external hardware or a software-based encoder with [Microsoft Stream](https://stream.microsoft.com). This option is best if you already have studio quality equipment (for example, media mixers) which support streaming to an Real-time Messaging Protocol (RTMP) service. This type of production is typically used in large scale events such as executive town halls – where a single stream from a media mixer is broadcasted to the audience. 
 
