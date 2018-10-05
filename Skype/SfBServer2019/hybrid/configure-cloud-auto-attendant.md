@@ -73,6 +73,10 @@ Your online implementation will need to have a plan that includes Phone System l
 
 An example of a small business implementation is available in [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml).
 
+## Test the new auto Attendant
+
+The best way to test the implementation is to call the number configured for an Auto Attendant and choose options to navigate to each of the auto attendants you've just created. You can also quickly place a test call to your Auto Attendant by using the **Test button** in the Admin Center Action pane. If you want to make changes to an Auto Attendant, select the Auto Attendant, and then in the Action pane click **Edit**.
+
 ## Manually moving an Exchange UM Auto Attendant to Cloud Auto Attendant
 
 1. Get a list of all Auto Attendants by running the following command on the Exchange 2013 or 2016 system while logged in as admin:
@@ -95,7 +99,7 @@ An example of a small business implementation is available in [Small business ex
 
 4. Configure a Cloud Auto Attendant system that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps). <br/> You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the Auto Attendant and user hierarchies in your old Exchange UM Auto Attendant.
 5. Test the Cloud Auto Attendant system.
-6. Reassign the phone number linked to the Exchange UM Auto Attendant to the Cloud Auto Attendant. <br/> At this point, if you have already migrated UM Voicemail, you should be in a position to migrate Exchange Server 2019.
+6. Reassign the phone number linked to the Exchange UM Auto Attendant to the Cloud Auto Attendant. <br/> At this point, if you have already migrated UM Voicemail, you should be in a position to migrate to Exchange Server 2019.
 
 ## See Also
 

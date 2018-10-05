@@ -19,7 +19,9 @@ Skype for Business Server 2019 hybrid implementations only use Cloud Voicemail C
 
 ## Overview
 
-The Auto Attendant used with Exchange Unified Messaging (Exchange Server 2013 or Exchange Server 2016) is no longer available in Exchange Server 2019 or Exchange Online. If your implementation of Skype for Business Server 2019 integrates with either of these Exchange versions, you'll need to use the online Cloud Voice features associated with Phone System. This inherently means that you will have a hybrid implementation of Skype for Business Server 2019. See [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md) for details.
+The Auto Attendant used with Exchange Unified Messaging (Exchange Server 2013 or Exchange Server 2016) is no longer available in Exchange Server 2019 or Exchange Online. If your implementation of Skype for Business Server 2019 integrates with either of these Exchange versions, you'll need to use the online Cloud Voice features associated with Phone System. See [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md) for information about moving Exchange UM services homed on Exchange server 2013 and 2016 to the cloud.
+
+This inherently means that you will have a hybrid implementation of Skype for Business Server 2019. See [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md) for details.
 
 An Auto Attendant can include a greeting the caller can't interact with (this can be a different message during office hours and outside office hours) and menu choices the users can interact with either with a voice response or by pressing a telephone keypad. The options can connect callers to employees, an Operator, call queues used by entire departments, and other auto attendants that act as sub-menus to a main Auto Attendant. Each Auto Attendant is a distinct virtual user on your Skype for Business Server 2019 system that is linked directly to an Auto Attendant in the Teams and Skype for Business Admin Center. See [What are Phone System auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) for more detail on what Auto Attendants are and what options and features exist for Auto Attendants. 
 
@@ -33,7 +35,6 @@ An incoming call to a Cloud Auto Attendant can take one of several paths, as sho
 1. Via Skype for Business Server 2019
 2. Via a [Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers.md) and [Direct Routing](/MicrosoftTeams/direct-routing-plan.md)
 3. Via a number homed online in Office 365.
-
 
 Also see:
 
@@ -61,7 +62,6 @@ In addition to the requirements above, the below requirements must be configured
 - Create on premise endpoints for each Auto Attendant, including assigning phone numbers and licenses. Note that you now have the ability to assign licenses used by online services like Phone System to on-premise phone numbers.
 - Implement a new Cloud Auto Attendant service with Skype for Business Online and Phone System. See [Configure cloud auto attendant](configure-cloud-auto-attendant.md) for implementation details.
 
-
 ## Migration and interoperability
 
 If you are planning to deploy Skype for Business Server 2019 and/or Exchange Server 2019, you must plan your migration carefully to ensure continued support for Auto Attendants. Keep the following in mind:
@@ -75,8 +75,8 @@ Version interoperability and supported topologies for Cloud Auto Attendants are 
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online |
 |:---    |:---|:---|:---|:--- |
 | Skype for Business Server 2019 | Exchange Server UM | Exchange Server UM | Cloud Auto Attendant | Cloud Auto Attendant
-Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM |  | Cloud Auto Attendant <br> Exchange Online UM* |
-Lync Server 2013  | Exchange Server UM | Exchange Server UM | | Cloud Auto Attendant <br> Exchange Online UM* |
+Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM |Not supported  | Cloud Auto Attendant <br> Exchange Online UM* |
+Lync Server 2013  | Exchange Server UM | Exchange Server UM |Not supported | Cloud Auto Attendant <br> Exchange Online UM* |
 
 \* Until deprecated.
 
@@ -110,6 +110,8 @@ The tutorial titled [Small business example - Set up an Auto Attendant](/SkypeFo
 When you have a solid structure that meets your needs and a script that guides customers efficiently, proceed to [Configure Cloud Auto Attendant](configure-cloud-auto-attendant.md).
 
 ## See Also
+
+[Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md)
 
 [Configure Cloud Auto Attendant](configure-cloud-auto-attendant.md)
 
