@@ -3998,7 +3998,7 @@
         href: ../lync-server-2013-managing-certificates-for-operational-processes.md
         items:
         - name: Staging AV and OAuth certificates using -Roll in Set-CsCertificate
-          href: ../lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://technet.microsoft.com/en-us/library/Gg398518(v=OCS.15)
+          href: https://technet.microsoft.com/en-us/library/Gg398518(v=OCS.15)
       - name: Managing server-to-server authentication (OAuth) and partner applications
         href: ../lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md
         items:
