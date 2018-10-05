@@ -4833,12 +4833,12 @@
       - name: Changes made by domain preparation
         href: ../lync-server-2013-changes-made-by-domain-preparation.md
       - name: Changes made by Grant-CsSetupPermission
-        href: ../lync-server-2013-changes-made-by-https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15)
+        href: https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15)
       - name: Changes made by Grant-CsOUPermission
-        href: ../lync-server-2013-changes-made-by-https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15)
+        href: https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15)
   - name: Lync Server Management Shell
     href: ../lync-server-2013-lync-server-management-shell.md
   - name: Lync Server 2013 Tools
-    href: ../lync-server-2013-tools
+    href: ../lync-server-2013-tools.md
   - name: Glossary
     href: ../lync-server-2013-glossary.md
