@@ -40,9 +40,8 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
     $userId = $line.UserId
     Write-Host $userId
     Grant-CsTeamsMessagingPolicy -PolicyName "<<PolicyName for a policy created with Chat Off>>" -Identity $userId
-   
- }
 
+ }
 ````
 
 

@@ -95,7 +95,7 @@ The *CsTeamsMeetingPolicy* cmdlets enable administrators to control the type of 
 5.	Apply the “AllOff” pre-canned policy option to all users who will be using Teams in a virtualized environment:<br>
 \>> *Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”*
 
-##Known limitations
+## Known limitations
 
 Besides the audio and video limitations previosly mentioned, there are some additional limitations users on virtualized environments might face:
 

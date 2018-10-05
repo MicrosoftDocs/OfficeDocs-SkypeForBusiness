@@ -51,15 +51,15 @@ The following procedure for migrating Response Group configurations assumes that
     
 3. Run:
     
-  ```
-  Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
-  ```
+   ```
+   Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
+   ```
 
     For example:
     
-  ```
-  Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
-  ```
+   ```
+   Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
+   ```
 
 4. After you migrate response groups and agents to the Skype for Business Server 2019 pool, the URL that agents use to sign in and sign out is a Skype for Business Server 2019 URL and is available from the **Tools** menu. Remind agents to update any references, such as bookmarks, to the new URL. 
     
@@ -85,31 +85,31 @@ The following procedure for migrating Response Group configurations assumes that
     
     For details about the following cmdlets, run:
     
-  ```
-  Get-Help <cmdlet name> -Detailed
-  ```
+   ```
+   Get-Help <cmdlet name> -Detailed
+   ```
 
 3. Run:
     
-  ```
-  Get-CsRgsAgentGroup
-  ```
+   ```
+   Get-CsRgsAgentGroup
+   ```
 
 4. Verify that all the agent groups in your legacy environment are included in the list.
     
 5. Run:
     
-  ```
-  Get-CsRgsQueue
-  ```
+   ```
+   Get-CsRgsQueue
+   ```
 
 6. Verify that all the queues in your legacy environment are included in the list.
     
 7. Run:
     
-  ```
-  Get-CsRgsWorkflow
-  ```
+   ```
+   Get-CsRgsWorkflow
+   ```
 
 8. Verify that all the workflows in your legacy environment are included in the list.
     

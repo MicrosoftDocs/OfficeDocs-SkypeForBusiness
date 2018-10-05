@@ -34,13 +34,14 @@ For qualification, Lync Server requires integrating hardware load balancers in t
 - ***Array of Edge Servers***&nbsp;&nbsp; In this scenario, if the hardware load balancer supports multiple virtual IP addresses (VIP), it will serve as the connectivity point to both the internal and external NICs for multiple Edge Servers in an array. If the hardware load balancer only supports a single VIP, then two hardware load balancers are required to load balance Edge Servers, one for the internal NICs and one for the external NICs of the Edge Server.
 
 ***Hardware load balancers for Lync Server***
+
 |Vendor|Qualified Product|Software Version Tested|Vendor's Lync Page|
 |:--- |:--- |:--- |:--- |
 |[A10Networks](http://www.a10networks.com/solutions/application_solutions_microsoft.php)| AX Series 1000, 2200, 3200 <br/><hr> 64-bit AX Series 2500, 2600, 3000, 5100, 5200| 2.4.3 |  [AX Series for Lync 2010 Overview and Deployment Guide](http://www.a10networks.com/solutions/application_solutions_microsoft.php)|
 |[Array Networks](http://www.arraynetworks.com/) | APV Series | ArrayOS TM 8.x or later |[Deployment Guide for Array Networks APV Application Delivery Controllers and Microsoft Lync Server 2010](http://www.arraynetworks.com/libraries/DG-APV-Lync2010-Dec-2011-Rev-III.PDF) |
 |AVANU |Webmux 481SD, 591SGQ, 690PG| V8.x and up|[WebMux and Microsoft Lync 2010](http://avanu.com/webmuxuc/)|
 |[BarracudaNetworks](https://www.barracuda.com/products)|Barracuda Load Balancer ADC Model 340, 440 or 640|3.3.1.005, 3.5.0.008| [Barracuda Load Balancer Deployment Guide](https://techlib.barracuda.com/ADC/MSLyncDeployOverview)|
-|Brocade |ServerIron XL,4G,GTC,GTE,350,450 &amp; 850<br/><hr> ServerIron ADX 1000, 4000, 10000|SI V10.0.0a<br/><hr>V12.1, V12.2|[Brocade Communications' Microsoft Unified Communications Solutions](http://www.brocade.com/partnerships/technology-alliance-partners/partner-details/microsoft/microsoft-office-communications-server/index.page)|
+|Brocade |ServerIron XL,4G,GTC,GTE,350,450 &amp; 850<br/><hr> ServerIron ADX 1000, 4000, 10000|SI V10.0.0a<br/><hr>V12.1, V12.2|[Brocade Communications' Microsoft Unified Communications Solutions](http://www.brocade.com/partnerships/technology-alliance-partners/partner-details/microsoft/microsoft-office-communications-server/index.page)|
 |[CitrixSystems](http://www.citrix.com/global-partners/microsoft/netscaler.html) |Netscaler|8.1, 9.x, 10.5|[Netscaler Developer Network](https://www.citrix.com/community.html)|
 |[F5](http://www.f5.com/products/technology/microsoft/lync-server/) |BIG-IP Local Traffic Manager|11.x|[F5 Lync Server Solutions](https://f5.com/partners/product-technology-alliances/microsoft)|
 |[Fortinet](http://www.fortinet.com/) |FortiADC-1500D|4.2.3|[Fortinet ADC Deployment Guide for Lync Server 2013](http://docs.fortinet.com/d/fortiadc-load-balancing-lync)|
@@ -62,6 +63,7 @@ Load balancer vendors interested in qualification of their load balancer solutio
 Software load balancers listed in the table that follows  have been tested by the vendor and reviewed by Microsoft to meet Lync Server requirements. We recommend that you visit the vendor's web site for the latest information regarding product specifications, capacity, country support and documentation including release notes and known issues. Please contact the vendor for more information on these products.
 
 ***Software load balancers for Lync Server***
+
 |Vendor|Qualified Product |Software Version Tested|Vendor's Lync Page|
 |:--- |:--- |:--- |:--- |
 |[A10Networks](http://www.a10networks.com/solutions/application_solutions_microsoft.php) |64-bit AX Series: SoftAX|2.6|[AX Series for Lync 2010 Overview and Deployment Guide](http://www.a10networks.com/solutions/application_solutions_microsoft.php)|

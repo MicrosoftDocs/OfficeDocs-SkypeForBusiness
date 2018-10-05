@@ -131,7 +131,7 @@ For more information about how updates work for Office 365 software, see these a
     
 - [Configure update settings for Office 365 ProPlus](https://technet.microsoft.com/en-us/library/dn761708.aspx)
     
- **How often to get feature updates**
+  **How often to get feature updates**
   
 In addition to where you get updates from, you can also control how often you get new features for the Skype for Business client. The two choices are the following:
   

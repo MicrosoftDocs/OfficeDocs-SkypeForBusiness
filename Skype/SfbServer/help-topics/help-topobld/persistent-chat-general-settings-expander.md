@@ -100,11 +100,11 @@ You edit the **Associations** settings for the Persistent Chat Server or Persist
     
 - **File store** Select a file store location from the list, or click **New** to create a new file store.
     
- **OK** Accepts and commits changes to the dialog.
+  **OK** Accepts and commits changes to the dialog.
   
- **Cancel** Discards changes and closes the dialog.
+  **Cancel** Discards changes and closes the dialog.
   
- **Help** Displays this help screen.
+  **Help** Displays this help screen.
   
 ## See also
 

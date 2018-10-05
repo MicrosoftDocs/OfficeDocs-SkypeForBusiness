@@ -55,45 +55,45 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
 3. Once you get the modules installed, use the Windows PowerShell command prompt and the following syntax to assign the licenses to your users:
 
-  This example assigns an **Enterprise E3 license** along with a **Phone System** and a **Domestic Calling Plan** license.
+   This example assigns an **Enterprise E3 license** along with a **Phone System** and a **Domestic Calling Plan** license.
 
-  The name of the licenses or product names in the script are listed in italics text (see **Phone System and Calling Plan product names or SKUs used for scripting**, after the example).
+   The name of the licenses or product names in the script are listed in italics text (see **Phone System and Calling Plan product names or SKUs used for scripting**, after the example).
 
-  ```
-  #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+   ```
+   #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
-  #Example of text file:
-  #user1@domain.com
-  #user2@domain.com
+   #Example of text file:
+   #user1@domain.com
+   #user2@domain.com
 
-  #Import Module
-  ipmo MSOnline
-  #Authenticate to MSOLservice.
-  Connect-MSOLService
-  #File prompt to select the userlist txt file.
-  [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
-  $OFD = New-Object System.Windows.Forms.OpenFileDialog
-  $OFD.filter = "text files (*.*)| *.txt"
-  $OFD.ShowDialog() | Out-Null
-  $OFD.filename
-  If ($OFD.filename -eq '')
-  {
+   #Import Module
+   ipmo MSOnline
+   #Authenticate to MSOLservice.
+   Connect-MSOLService
+   #File prompt to select the userlist txt file.
+   [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
+   $OFD = New-Object System.Windows.Forms.OpenFileDialog
+   $OFD.filter = "text files (*.*)| *.txt"
+   $OFD.ShowDialog() | Out-Null
+   $OFD.filename
+   If ($OFD.filename -eq '')
+   {
     Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
-  }
-  #Create a variable of all users.
-  $users = Get-Content $OFD.filename
-  #License each user in the $users variable.
-  #Use MCOPSTN1 for PSTN Domestic Calling and MCOPSTN2 for Domestic and
-  International Calling.
-  for each ($user in $users)
+   }
+   #Create a variable of all users.
+   $users = Get-Content $OFD.filename
+   #License each user in the $users variable.
+   #Use MCOPSTN1 for PSTN Domestic Calling and MCOPSTN2 for Domestic and
+   International Calling.
+   for each ($user in $users)
     {
     Write-host "Assigning License: $user"
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOEV " -ErrorAction SilentlyContinue
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOPSTN1 " -ErrorAction SilentlyContinue
     }
-  ```
-### Phone System and Calling Plans product names or SKUs used for scripting
+   ```
+   ### Phone System and Calling Plans product names or SKUs used for scripting
 
 |**Product name**|**SKU part name**|
 |:-----|:-----|
