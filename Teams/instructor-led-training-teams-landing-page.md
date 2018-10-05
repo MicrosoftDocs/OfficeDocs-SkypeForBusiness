@@ -6,6 +6,7 @@ description: Sign up for instructor-led classes to learn all about Microsft Team
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
+ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
 ---
