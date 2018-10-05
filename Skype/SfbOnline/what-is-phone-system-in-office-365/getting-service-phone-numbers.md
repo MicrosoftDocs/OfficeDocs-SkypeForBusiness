@@ -54,11 +54,11 @@ You have two ways of getting service numbers so you can use them with Skype for 
     
 4. On the **Add new service numbers** page, choose the following:
     
-  - **Country/Region**
+   - **Country/Region**
     
-  - **State/Region**
+   - **State/Region**
     
-  - **City**
+   - **City**
     
 5. Under **Quantity**, enter the number of phone numbers that you want for your organization and click **Add** to create a reservation. You have 10 minutes to select your phone numbers; if you take more than 10 minutes, the phone numbers will be returned to the pool of phone numbers.
     

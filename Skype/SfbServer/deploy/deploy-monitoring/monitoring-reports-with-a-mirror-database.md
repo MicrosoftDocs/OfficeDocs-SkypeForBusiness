@@ -31,9 +31,9 @@ To get Monitoring Reports to automatically failover to the mirror database, you 
     
    - The name of the database instance where the Monitoring Reports are installed (for example, **archinst**).
     
-    For example, if SQL Server Reporting Services was installed on the computer atl-sql-001.litwareinc.com and the Monitoring Reports use the database instance archinst, the home page URL would look like this:
+     For example, if SQL Server Reporting Services was installed on the computer atl-sql-001.litwareinc.com and the Monitoring Reports use the database instance archinst, the home page URL would look like this:
     
-    **http://atl-sql-001.litwareinc.com/Reports_archinst**
+     **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
 2. After you have accessed the Reporting Services home page, click **ServerReports**, and then click **Reports_Content**. That will take you to the **Reports_Content** page for the Skype for Business Server Monitoring Reports.
     

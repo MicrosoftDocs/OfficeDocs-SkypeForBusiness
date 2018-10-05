@@ -29,14 +29,14 @@ You edit the settings for the Edge Server or Edge pool by configuring the follow
   
 - The **Internal Configuration Replication Port (HTTPS)**, by default at TCP port 4443, is the port that the local (that is, local to the Edge Servers) copy of the Central Management store is replicated over. The local copy of the Central Management store is in the **RTCLOCAL** database in the SQL Server on each computer. The replication is one-way, initiated from the Central Management Server (or, the Front End Server or Front End pool that holds the Central Management Server role) to the Edge Servers and is an internal interface port.
     
- **Next hop selection**
+  **Next hop selection**
   
 - Select for the list your **Next hop pool**. You define either a Director, Director pool, Front End Server or Front End pool to assume this role. The next hop pool is the server or server pool that will accept inbound SIP messages from the Edge Server or Edge pool internal interface and send outbound SIP to the Edge internal interface.
     
     > [!NOTE]
     > The Director is an optional role and if you decide not to deploy Directors, the Front End Servers (single computer or pool) will assume the Director role. 
   
- **External settings**
+  **External settings**
   
 This section of the properties allows you to edit properties for the external settings of the Edge Server or Edge pool. The following properties are available to edit:
   
@@ -56,10 +56,10 @@ This section of the properties allows you to edit properties for the external se
     > [!IMPORTANT]
     > If you have selected the **Enable separate FQDN and IP address for web conferencing and A/V** check box, only the Access Edge service Pool FQDN will be available for editing. Assign distinct ports for each of the three Edge services.
   
- **OK** Accepts and commits changes to the dialog.
+  **OK** Accepts and commits changes to the dialog.
   
- **Cancel** Discards changes and closes the dialog.
+  **Cancel** Discards changes and closes the dialog.
   
- **Help** Displays this help screen.
+  **Help** Displays this help screen.
   
 

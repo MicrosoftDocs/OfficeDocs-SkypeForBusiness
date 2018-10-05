@@ -43,6 +43,7 @@ These conferencing Location-Based Routing restrictions are summarized in the fol
 
 |
 |
+
 |**User(s) in a conference at any given point**|**User(s) allowed to join the conference**|**User(s) not allowed to join the conference**|
 |:-----|:-----|:-----|
 |Skype for Business VoIP client user(s) from a single network site  <br/> |Skype for Business VoIP client user from the same network site  <br/> Skype for Business VoIP client user from a different network site  <br/> Skype for Business VoIP client user from an unknown network site  <br/> Federated Skype for Business VoIP client user  <br/> User joining from a PSTN endpoint  <br/> |None  <br/> |
@@ -137,7 +138,7 @@ For example, if the "UdcAgent" application has a priority value of "2", the "Def
 
 After you find the correct priority value for the Location-Based Routing for Conferencing application, type the following cmdlet for each Front-End pool or Standard Edition Server that homes users enabled for Location-Based Routing:
 
-New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri https://www.microsoft.com/LCS/LBRoutingFor example:
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <https://www.microsoft.com/LCS/LBRoutingFor> example:
 
 New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri https://www.microsoft.com/LCS/LBRoutingAfter using this cmdlet, restart all Front End servers in the pool or the Standard Edition Servers where the Location-Based Routing for Conferencing application has been enabled.
 

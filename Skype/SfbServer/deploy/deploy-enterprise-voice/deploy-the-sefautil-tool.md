@@ -54,9 +54,9 @@ SEFAUtil requires the local configuration store to be present, as well as a cert
   
 5. Enable the topology with your changes. At the command line, run:
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
 6. If you haven't already, download the Skype for Business Server version of the SEFAUtil tool from [this location](https://www.microsoft.com/en-us/download/details.aspx?id=52631), and install it on the trusted application pool you created in step 3.
     
@@ -66,9 +66,9 @@ SEFAUtil requires the local configuration store to be present, as well as a cert
     
     b. Display the call forwarding settings of a user. At the command line, run:
     
-  ```
-  SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
-  ```
+   ```
+   SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
+   ```
 
 The call forwarding settings for the user will be displayed.
     

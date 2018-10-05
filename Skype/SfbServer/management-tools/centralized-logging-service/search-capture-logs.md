@@ -51,9 +51,9 @@ The remainder of this topic focuses on how to define a search to optimize your t
     
 2. Make sure that you have the AlwaysOn scenario running in your deployment at the global scope and then type the following at a command prompt:
     
-  ```
-  Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
-  ```
+   ```
+   Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
+   ```
 
 > [!NOTE]
 > By default, Search-CsClsLogging sends the results of the search to the console. If you want to save the search results to a file, use -OutputFilePath  _\<string fully qualified file path\>_. To define the -OutputFilePath parameter, supply a path and a filename as part of the parameter in a string format enclosed in quotation marks (for example; C:\LogFiles\SearchOutput.txt). In this example, you must ensure that the directory C:\LogFiles exists and that you have permissions to Read and Write (NTFS permission Modify) files in the folder. The output is appended to and is not overwritten. If you need separate files, define a distinct file name for each search. 
@@ -68,9 +68,9 @@ For example:
 
 1. To limit the search to a specific pool or computer, use the -Computers parameter with the computer defined by a computer fully qualified name, enclosed in quotation marks and separated by a comma as follows:
     
-  ```
-  Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
-  ```
+   ```
+   Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
+   ```
 
 For example:
     
@@ -80,25 +80,25 @@ For example:
 
 2. To search more than one computer, type multiple computer names enclosed in quotation marks and separated by commas, such as the following:
     
-  ```
-  Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
+   ```
 
 3. If you need to search an entire pool instead of a single computer, change the -Computers parameter to -Pools, remove the computer name, and replace it with the pool or pools in quotation marks separated by commas.
     
     For example:
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 4. When using the search commands, pools can be any pool in your deployment, such as Front End pools, Edge pools, Persistent Chat Server pools, or others that are defined as a pool in your deployment.
     
     For example:
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 ### To run a search by using time parameters
 
@@ -108,9 +108,9 @@ For example:
     
     For example, by using -StartTime and -EndTime to define a time and date range, you can define a search between 8 AM and 9 AM on 11/20/2012 on your pool. You can set the output path to write the results to a file named c:\logfile.txt as follows:
     
-  ```
-  Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 > [!NOTE]
 > The time and date string that you specify can be "date time" or "time date. " The command will parse the string and use the appropriate values for date and time and your locale and culture settings on the machine you are running cmdlet from. 
@@ -137,9 +137,9 @@ For example:
     
 2. To run a command to collect traces for specific components, type the following:
     
-  ```
-  Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
-  ```
+   ```
+   Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
+   ```
 
 For example:
     
@@ -151,21 +151,21 @@ The resulting search returns all log entries that have trace components for SIPS
     
 3. To limit the search with the same components to just your Front End pool named pool01.contoso.net, type:
     
-  ```
-  Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 4. The default search logic for commands with multiple parameters is to use the logical OR with each of the defined parameters. You can change this behavior by specifying the **-MatchAll** parameter. To do this, type the following:
     
-  ```
-  Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 5. If your scenarios are set to run constantly, such as AlwaysOn, or you have defined a long-running scenario logs may roll off of the local machine onto the file share. You define the file share by using the CacheFileNetworkFolder parameter by using New-CsClsConfiguration to create a new configuration or modifying an existing configuration with Set-CsClsConfiguration. If you do not want the search to include the file share in the collection of logs to search, use the SkipNetworkLogs parameter as follows:
     
-  ```
-  Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
-  ```
+   ```
+   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
+   ```
 
 ## Read capture logs from the Centralized Logging Service
 

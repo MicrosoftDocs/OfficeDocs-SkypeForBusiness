@@ -58,13 +58,14 @@ Use the following conversation starters to conduct an organizational readiness a
 | *Informed users* accept the solution as soon as its value is demonstrated.    |       |
 | *Laggards* reject the solution, even when pushed into change. |       |
 -->
+
 | Early adopters  | Informed users  | Laggards |
 |-----------------|-----------------|----------|
 | These users request the solution before it’s available. | These users accept the solution as soon as its value is demonstrated. | These users reject the solution, even when pushed into change. |
 
 
 > [!Tip]
-> Enlist your early adopters for your pilot testing in addition to serving as peer champions. Champions help evangelize new technology and lead by example to show their peers how to realize value. To learn more about creating a formal champions program, see the [Office adoption guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/Office_365_Adoption_Guide.pdf). Your laggards might need more convincing before they adopt a new technology. If more than 20 percent of your organization falls into this bucket, spend more time communicating the value messaging and delivering tailored training. In addition, support them through the change by opening a feedback loop to better understand and address their hesitations.
+> Enlist your early adopters for your pilot testing in addition to serving as peer champions. Champions help evangelize new technology and lead by example to show their peers how to realize value. To learn more about creating a formal champions program, see the [Office adoption guide](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Your laggards might need more convincing before they adopt a new technology. If more than 20 percent of your organization falls into this bucket, spend more time communicating the value messaging and delivering tailored training. In addition, support them through the change by opening a feedback loop to better understand and address their hesitations.
 
 #### What percentage of users fall into each competency?
 
@@ -75,6 +76,7 @@ Use the following conversation starters to conduct an organizational readiness a
 | *Team-players* enjoy group and interactive training; they’ll go along with coworkers. |       |
 | *Hand-holding* seekers expect “white glove” or one-on-one assistance.      |       |
 -->
+
 | Self-motivated  | Team players  | Hand-holding seekers |
 |-----------------|-----------------|----------|
 | These learners seek out resources, learn by doing. | These users enjoy group and interactive training; they’ll go along with coworkers. | These users expect “white glove” or one-on-one assistance. |
@@ -104,10 +106,10 @@ The following table shows examples of universal use cases for teamwork and colla
 
 <table>
 <tbody>
-<tr><th width="10%">**Use case**</th><th width="30%">**Characteristics**</th><th width="30%">**Challenges**</th><th width="30%">**With Teams**</th></tr>
-<tr><td>**Personal productivity**</td><td><ul><li>Daily “to do” list</li><li>Dependency on others to get your job done</li></ul></td><td><ul><li>Emails and attachments get lost</li><li>Calls go to voicemail</li><li>Colleagues are offline</li><li>Outdated local copies accumulate on the desktop</li></ul></td><td><ul><li>Send online and offline messages, alleviating having to track people down</li><li>Persistent conversations with file attachments reduce the need to search multiple places or manage multiple versions</li></ul></td></tr>
-<tr><td>**Meetings**</td><td><ul><li>Conference calls or online meetings</li><li>Internal and/or external attendees</li><li>In-office/remote participants</li></ul></td><td><ul><li>Little to no context provided before meetings </li><li>Remote participants feel left behind</li><li>Lack of visual connection</li><li>Challenging to catch up if you missed the meeting</li><li>Post-meeting momentum is lost</li></ul></td><td><ul><li>Build momentum before the meeting with conversation and content sharing</li><li>Join across devices</li><li>Connect with video and app sharing, ensuring alignment</li><li>Record meetings for absent attendees</li><li>Capture notes, actions (&#64;mentions) for accountability and easy follow-up</li></ul> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_All within one interface!_</td></tr>
-<tr><td>**Group projects**</td><td><ul><li>Project work with many stakeholders</li><li>Information and document sharing</li><li>Using multiple apps</li></ul> </td><td><ul><li>Hallway conversations cause disconnect with the larger group</li><li>Frustration about doc location and versioning</li><li>Confusion about accountability</li></ul> </td><td><ul><li>Hold all conversations in team/channel, driving transparency</li><li>Link to relevant docs; pin critical ones to ensure visibility</li><li>Streamline doc versioning</li><li>Access Office and third-party apps, making a true hub for teamwork</li></ul> </td></tr>
+<tr><th width="10%"><strong>Use case</strong></th><th width="30%"><strong>Characteristics</strong></th><th width="30%"><strong>Challenges</strong></th><th width="30%"><strong>With Teams</strong></th></tr>
+<tr><td><strong>Personal productivity</strong></td><td><ul><li>Daily “to do” list</li><li>Dependency on others to get your job done</li></ul></td><td><ul><li>Emails and attachments get lost</li><li>Calls go to voicemail</li><li>Colleagues are offline</li><li>Outdated local copies accumulate on the desktop</li></ul></td><td><ul><li>Send online and offline messages, alleviating having to track people down</li><li>Persistent conversations with file attachments reduce the need to search multiple places or manage multiple versions</li></ul></td></tr>
+<tr><td><strong>Meetings</strong></td><td><ul><li>Conference calls or online meetings</li><li>Internal and/or external attendees</li><li>In-office/remote participants</li></ul></td><td><ul><li>Little to no context provided before meetings </li><li>Remote participants feel left behind</li><li>Lack of visual connection</li><li>Challenging to catch up if you missed the meeting</li><li>Post-meeting momentum is lost</li></ul></td><td><ul><li>Build momentum before the meeting with conversation and content sharing</li><li>Join across devices</li><li>Connect with video and app sharing, ensuring alignment</li><li>Record meetings for absent attendees</li><li>Capture notes, actions (&#64;mentions) for accountability and easy follow-up</li></ul> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>All within one interface!</em></td></tr>
+<tr><td><strong>Group projects</strong></td><td><ul><li>Project work with many stakeholders</li><li>Information and document sharing</li><li>Using multiple apps</li></ul> </td><td><ul><li>Hallway conversations cause disconnect with the larger group</li><li>Frustration about doc location and versioning</li><li>Confusion about accountability</li></ul> </td><td><ul><li>Hold all conversations in team/channel, driving transparency</li><li>Link to relevant docs; pin critical ones to ensure visibility</li><li>Streamline doc versioning</li><li>Access Office and third-party apps, making a true hub for teamwork</li></ul> </td></tr>
 </tbody>
 </table>
 

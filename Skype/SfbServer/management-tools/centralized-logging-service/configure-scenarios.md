@@ -57,21 +57,21 @@ As introduced in [Centralized Logging Service in Skype for Business 2015](centra
     
     To create a scenario using the options defined, type:
     
-  ```
-  New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
-  ```
+   ```
+   New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
+   ```
 
     For example:
     
-  ```
-  New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
-  ```
+   ```
+   New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
+   ```
 
     The alternate format using -Name and -Parent:
     
-  ```
-  New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
-  ```
+   ```
+   New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
+   ```
 
 ### To create a new scenario with multiple providers with the New-CsClsScenario cmdlet
 
@@ -79,9 +79,9 @@ As introduced in [Centralized Logging Service in Skype for Business 2015](centra
     
 2. You are limited to two scenarios per scope. However, you are not limited to a set number of providers. In this example, assume that we have created three providers, and you want to assign all three to the scenario you are defining. The provider variable names are LyssProvider, ABServerProvider, and SIPStackProvider. To define and assign multiple providers to a scenario, type the following at a Skype for Business Server Management Shell or Windows PowerShell command prompt:
     
-  ```
-  New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
-  ```
+   ```
+   New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
+   ```
 
     > [!NOTE]
     > As it is known in Windows PowerShell, the convention for creating a hash table of values using  `@{<variable>=<value1>, <value2>, <value>…}` is known assplatting. For details about splatting in Windows PowerShell, see [https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760). 
@@ -92,33 +92,33 @@ As introduced in [Centralized Logging Service in Skype for Business 2015](centra
     
 2. You are limited to two scenarios per scope. You can change which scenarios are running at any time, even when a logging capture session is in process. If you redefine the running scenarios, the current logging session will stop using the scenario that was removed and then begin using the new scenario. However, the logging information that was captured with the removed scenario remains in the captured logs. To define a new scenario, do the following (that is, assuming the addition of an already defined provider named "S4Provider"):
     
-  ```
-  Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
-  ```
+   ```
+   Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
+   ```
 
     For example:
     
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}
+   ```
 
     If you want to replace providers, define a single provider or a comma separated list of providers to replace the current set. If you only want to replace one of many providers, add the current providers with the new providers to create a new set of providers that contains both new providers and existing providers. To replace all providers with a new set, type the following:
     
-  ```
-  Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Replace=<providers to replace existing provider set>}
-  ```
+   ```
+   Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Replace=<providers to replace existing provider set>}
+   ```
 
     For example, to replace the current set of $LyssProvider, $ABServerProvider, and $SIPStackProvider with $LyssServiceProvider:
     
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider}
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider}
+   ```
 
     To replace just the $LyssProvider provider from the current set of $LyssProvider, $ABServerProvider, and $SIPStackProvider with $LyssServiceProvider, type the following:
     
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider, $ABServerProvider, $SIPStackProvider}
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider, $ABServerProvider, $SIPStackProvider}
+   ```
 
 ### To remove an existing scenario with the Remove-CsClsScenario cmdlet
 
@@ -126,15 +126,15 @@ As introduced in [Centralized Logging Service in Skype for Business 2015](centra
     
 2. If you want to remove a scenario that has been previously defined, type the following:
     
-  ```
-  Remove-CsClsScenario -Identity <name of scope and scenario>
-  ```
+   ```
+   Remove-CsClsScenario -Identity <name of scope and scenario>
+   ```
 
     For example, to remove the defined scenario site:Redmond/LyssServiceScenario:
     
-  ```
-  Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
-  ```
+   ```
+   Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
+   ```
 
 The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the traces that have been captured are still available in the logs for you to search on.
 ### To load and unload the Edit-CsClsScenario cmdlet using the ClsScenarioEdit.psm1 module
@@ -146,18 +146,18 @@ The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the trac
   
 2. From the Windows PowerShell, type:
     
-  ```
-  Import-Module "CDBurn\OCO\amd64\Support"
-  ```
+   ```
+   Import-Module "CDBurn\OCO\amd64\Support"
+   ```
 
     > [!TIP]
     > Successful loading of the module returns you to the Windows PowerShell command prompt. To confirm that the module is loaded and that Edit-CsClsScenario is available, type  `Get-Help Edit-CsClsScenario`. You should see the basic synopsis of the syntax for EditCsClsScenario. 
   
 3. To unload the modules, type:
     
-  ```
-  Remove-Module ClsController
-  ```
+   ```
+   Remove-Module ClsController
+   ```
 
     > [!TIP]
     > Successful unloading of the module returns you to the Windows PowerShell command prompt. To confirm that the module is unloaded, type  `Get-Help Edit-CsClsScenario`. Windows PowerShell will attempt to locate the help for the cmdlet and fail. 
@@ -168,32 +168,32 @@ The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the trac
     
 2. From the Windows PowerShell, type:
     
-  ```
-  Import-Module "CDBurn\OCO\amd64\Support"
-  ```
+   ```
+   Import-Module "CDBurn\OCO\amd64\Support"
+   ```
 
     > [!TIP]
     > Successful loading of the module returns you to the Windows PowerShell command prompt. To confirm that the module is loaded and that Edit-CsClsScenario is available, type  `Get-Help Edit-CsClsScenario`. You should see the basic synopsis of the syntax for EditCsClsScenario. 
   
 3. To remove a provider from the AlwaysOn scenario, type:
     
-  ```
-  Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to remove> -Remove
-  ```
+   ```
+   Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to remove> -Remove
+   ```
 
-  For Example:
+   For Example:
     
-  ```
-  Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Remove
-  ```
+   ```
+   Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Remove
+   ```
 
    The parameters ScenarioName and ProviderName are positional (that is, they must be defined in the expected position in the command line) parameters. The parameter name does not have to be explicitly defined if the scenario name is in position two and the provider is in position three, relative to the name of the cmdlet as position one. Using this information, the previous command would be typed as:
     
-  ```
-  Edit-CsClsScenario AlwaysOn ChatServer -Remove
-  ```
+   ```
+   Edit-CsClsScenario AlwaysOn ChatServer -Remove
+   ```
 
-  The positional placing of the parameter values applies only to -Scenario and -Provider. All other parameters must be explicitly defined.
+   The positional placing of the parameter values applies only to -Scenario and -Provider. All other parameters must be explicitly defined.
     
 ### To add a provider to a scenario with the Edit-ClsController module
 
@@ -201,20 +201,20 @@ The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the trac
     
 2. To add a provider to the AlwaysOn scenario, type:
     
-  ```
-  Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to add> -Level <string of type level> -Flags <string of type flags>
-  ```
+   ```
+   Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to add> -Level <string of type level> -Flags <string of type flags>
+   ```
 
     For Example:
     
-  ```
-  Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
-  ```
+   ```
+   Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
+   ```
 
     -Loglevel can be of the type Fatal, Error, Warning, Info, Verbose, Debug, or All. -Flags can be any of the flags that the provider supports, such as TF_COMPONENT, TF_DIAG. -Flags can also be of value ALL
     
-  The previous example can also be typed using the positional feature of the cmdlet. For example, to add the provider ChatServer to the AlwaysOn scenario, type:
+   The previous example can also be typed using the positional feature of the cmdlet. For example, to add the provider ChatServer to the AlwaysOn scenario, type:
     
-  ```
-  Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
-  ```
+   ```
+   Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
+   ```

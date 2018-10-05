@@ -44,9 +44,9 @@ The installer will deploy the latest version of the Busy Options application. Ho
 
 1. Run the [Set-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) cmdlet to globally enable Busy Options as shown in the following example:
 
-  ```
-  Set-CsVoicePolicy -EnableBusyOptions $true
-  ```
+   ```
+   Set-CsVoicePolicy -EnableBusyOptions $true
+   ```
 
 2. Next, if the site has a voice policy is place, you must enable Busy Options for the voice policy as follows:
 
