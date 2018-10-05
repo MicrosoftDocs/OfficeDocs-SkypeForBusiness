@@ -114,7 +114,8 @@ Watch this short video introducing you to Teams</h3>
 
     
 </ul>
-****************
+
+---
 
 <h2>Featured training</h2>
 <ul class="panelContent cardsW">

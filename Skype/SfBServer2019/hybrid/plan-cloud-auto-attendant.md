@@ -15,6 +15,7 @@ description: "Overview of using a Cloud Auto Attendant with Skype for Business S
 # Plan Cloud Auto Attendant
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
+Skype for Business Server 2019 hybrid implementations only use Cloud Voicemail Cloud Auto Attendants and do not integrate with Exchange Online.
 
 ## Overview
 
