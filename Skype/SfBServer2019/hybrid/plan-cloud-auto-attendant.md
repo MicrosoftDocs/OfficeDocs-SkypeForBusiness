@@ -34,7 +34,7 @@ The following requirements assume that you already have Skype for Business Serve
 
 - If you are already using Exchange UM online or on premises and you upgrade to Skype for Business 2019, you will need to capture the structure of your Auto attendants and re-create them in the cloud using Phone system Auto Attendants. For more information, see [Manually moving an Exchange UM Auto Attendant to Cloud Auto Attendant](configure-cloud-auto-attendant.md#manually-moving-an-exchange-um-auto-attendant-to-cloud-auto-attendant).
 
-- For a new configuration of Cloud Auto Attendants, follow the steps outlined in [Configure Cloud Auto Attendants](configure-cloud-auto-attendant.md#configure-cloud-auto-attendants).
+- For a new configuration of Cloud Auto Attendants, follow the steps outlined in [Configure Cloud Auto Attendants](configure-cloud-auto-attendant.md).
 
 In addition to the requirements above, the below requirements must be configured to connect to the Microsoft Cloud Auto Attendant service:
 
