@@ -91,11 +91,11 @@ An example of a small business implementation is available in [Small business ex
     - Language
     - Holiday schedule
 
-3. Create new onprem endpoints as described above in [Server configuration steps](#server-configuration-steps).
+3. Create new onprem endpoints as described above in [Server configuration steps](#server-configuration-steps). <br/> Assign the main auto Attendant a temporary number for testing purposes
 
-4. Configure a Cloud Auto Attendant system that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps).
-
-You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the Auto Attendant and user hierarchies in your old Exchange UM Auto Attendant.
+4. Configure a Cloud Auto Attendant system that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps). <br/> You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the Auto Attendant and user hierarchies in your old Exchange UM Auto Attendant.
+5. Test the Cloud Auto Attendant system.
+6. Reassign the phone number linked to the Exchange UM Auto Attendant to the Cloud Auto Attendant. <br/> At this point, if you have already migrated UM Voicemail, you should be in a position to migrate Exchange Server 2019.
 
 ## See Also
 
