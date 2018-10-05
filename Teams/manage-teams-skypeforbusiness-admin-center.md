@@ -3,12 +3,12 @@ title: Manage Teams during the transition to the new Microsoft Teams & Skype for
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/27/2018
+ms.date: 10/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
 search.appverid: MET150
-description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Office 365 Admin center to the new Microsoft Teams & Skype for Business Admin Center.
+description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Office 365 admin center to the new Microsoft Teams & Skype for Business Admin Center.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -24,22 +24,17 @@ Manage Teams during the transition to the new Microsoft Teams & Skype for Busine
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-We’ll continue to migrate other functionality from the Skype for Business Admin center in the coming months. You can stay up to date via our public [roadmap](https://aka.ms/Office365Roadmap).
-
-> [!NOTE]
-> We’re rolling out the new Microsoft Teams & Skype for Business Admin Center in stages. As a result, all customers will not see the new Admin Center at the same time. We’ll notify you when you can start using the new Admin Center.
-
 ## What is the new Microsoft Teams & Skype for Business Admin Center?  
 
-The new Admin Center experience will provide you with a unified experience to manage both Teams and Skype for Business. We’re delivering additional functionality, end-to-end insights, and the ability to manage Teams settings on a user level.
+The new admin center experience will provide you with a unified experience to manage both Teams and Skype for Business. We’re delivering additional functionality, end-to-end insights, and the ability to manage Teams settings on a user level.
 
 ![Screenshot of the Microsoft Teams & Skype for Business Admin Center.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
 ## Settings migrated to the new Microsoft Teams & Skype for Business Admin Center
 
-The following table identifies the sections of the current Teams experience that have been migrated and shows the relationship between the current settings and the policies in the new Admin portal.
+The following table identifies the sections of the Teams experience that have been migrated and shows the relationship between the current settings and the policies in the new admin portal.
 
-|Section of Teams in Office 365 Admin center  |Setting name (Tenant level)  |Microsoft Teams & Skype for Business Admin Center policy   |Level: Tenant or User   |
+|Section of Teams in Office 365 admin center  |Setting name (Tenant level)  |Microsoft Teams & Skype for Business Admin Center policy   |Level: Tenant or User   |
 |---------|---------|---------|---------|
 |General     |Show Organizational Chat in Personal Profile        |  [TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Tenant       |
 |General     |Use Skype for Business for recipients who don’t have Teams         |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
@@ -51,8 +46,8 @@ The following table identifies the sections of the current Teams experience that
 |Custom cloud storage     |Google Drive        |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |Custom cloud storage     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Tenant         |
 |Settings by user/license type     |Turn Microsoft Teams on or off for all users          |Deprecated<sup>1</sup>        |         |
-|Teams and channels     |         |Redirects to Azure Active Directory Group Management (Same as current experience).              |User         |
-|Teams and channels     |         |Redirects to AAD Group Management (Same as current experience).             |User          |
+|Teams and channels     |         |Redirects to Azure Active Directory Group Management (same as current experience).              |User         |
+|Teams and channels     |         |Redirects to AAD Group Management (same as current experience).             |User          |
 |Calls and Meetings     |Allow scheduling for private meetings         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |User          |
 |Calls and Meetings     |Allow Ad-hoc channel meetup         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |User          |
 |Calls and Meetings     |Allow scheduling for channel meetings         |[TeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |User          |
@@ -68,23 +63,25 @@ The following table identifies the sections of the current Teams experience that
 |Messaging     |Allow users to delete their own messages         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
 |Messaging     |Allows users to chat privately         |[TeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
 
-<sup>1</sup> Deprecated for Guest. Enabling/disabling Guest can now be managed in the new portal. Enabling/disabling Teams for Business Enterprise, Edu Student, Edu Faculty will be deprecated soon. This should be managed by assigning licenses in the Office 365 admin center. See [Manage user access to Microsoft Teams](user-access.md).
+<sup>1</sup> Deprecated for Guest. Enabling/disabling Guest can now be managed in the Microsoft Teams & Skype for Business Admin Center. Enabling/disabling Teams for Business Enterprise, Edu Student, and Edu Faculty will be deprecated soon. This should be managed by assigning licenses in the Office 365 admin center. See [Manage user access to Microsoft Teams](user-access.md).
 
 > [!NOTE]
-> You’ll continue to use the Groups dashboard in the Office 365 Aadmin center for configuration related to Teams and channels. Settings for Apps will remain in the Teams area of the Office 365 Admin center and will be migrated later. 
+> You’ll continue to use the Groups dashboard in the Office 365 admin center for configuration related to Teams and channels. Settings for Apps will remain in the Teams area of the Office 365 admin center and will be migrated later. 
 
 ## Manage settings during the migration
 
-You can continue to modify settings in the Office 365 Admin center and the Skype for Business Admin center until migration for a section is complete for your tenant. 
+You can continue to modify settings in the Office 365 admin center and the Skype for Business admin center until migration for a section is complete for your tenant. 
 
 The following table shows where you can manage features during the migration.
 
-|Feature  |Microsoft Teams & Skype for Business Admin Center                       |Skype for Business Admin Center (legacy)  |Office 365 Admin center  |
+|Feature  |Microsoft Teams & Skype for Business Admin Center                       |Skype for Business admin center (legacy)  |Office 365 admin center  |
 |---------|:---------:|:---------:|:---------:|
-|Messaging policy     |     X    |         |         |
-|Teams interop policy     |    X     |         |         |
-|Guest messaging settings     |   X      |         |         |
-|External access settings    |    X     |         |         |
+|Teams Messaging, Meetings, and Live Events policies     |     X    |         |         |
+|Teams Upgrade policy     |    X     |         |         |
+|Guest settings for Messaging, Meetings, and Voice     |   X      |         |         |
+|Teams Lifecycle Management   |    X    |      |       |
+|Teams Settings   |    X    |      |       |
+|External access settings     |    X    |      |       |
 |User management    |         |         |    X     |    
 |Audio conferencing     |    X     |    X     |         |
 |Calling plans     |         |    X     |         |
@@ -96,8 +93,6 @@ The following table shows where you can manage features during the migration.
 
 ## Manage settings after the migration
 
-We’ll notify you after migration is complete for a specific section within Teams. At that time, you’ll be able to see your existing settings for that section in the Office 365 Admin center, but you won’t be able to make any modifications there. Instead, you’ll use the Microsoft Teams & Skype for Business Admin Center to manage the newly migrated settings.
-
-When the migration of these settings is complete, we’ll disable them in the Office 365 Admin center and the Skype for Business Admin center.
+When the migration of these settings is complete, we’ll disable them in the Office 365 admin center and the Skype for Business admin center, and they can then be managed in the new Microsoft Teams & Skype for Business Admin Center.
 
 
