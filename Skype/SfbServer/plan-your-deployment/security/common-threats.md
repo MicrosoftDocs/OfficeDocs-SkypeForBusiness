@@ -43,7 +43,7 @@ The denial-of-service attack occurs when the attacker prevents normal network us
     
 ## Eavesdropping (Sniffing, Snooping)
 
-Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also calledsniffing orsnooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path. 
+Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path. 
   
 The default recommendation and setting for traffic within Skype for Business Server is to use mutual TLS (MTLS) between trusted servers and TLS from client to server. This protective measure would make an attack very difficult or impossible to achieve within the time period in which a given conversation occurs. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
   
