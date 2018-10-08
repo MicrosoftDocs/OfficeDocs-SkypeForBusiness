@@ -108,10 +108,48 @@ Follow these steps if you want to create a new voice policy or edit an existing 
 7. Arrange the PSTN usage records for optimum performance. To change a record’s position in the list, highlight the record name and click the up or down arrow.
 
     > [!Note]
-    > The order in which PSTN usage records are listed in the voice policy is significant. Lync Server traverses the list from the top down. We recommend that you organize the list by frequency of use, for example: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. 
+    > The order in which PSTN usage records are listed in the voice policy is significant. Skype for Business Server traverses the list from the top down. We recommend that you organize the list by frequency of use, for example: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. 
 
 8. To associate and configure PSTN usage records for call forwarding and simultaneous ringing in this voice policy, do any of the following:
 
-    - To use the same PSTN usage records for call forwarding and simultaneous ringing as this voice policy, select the option Route using the call PSTN usages from the drop-down menu.
-    - To allow call forwarding and simultaneous ringing to internal Lync users only, select Route to internal Lync users only from the drop-down menu. Calls will not be forwarded to external PSTN numbers.
-    - To specify different PSTN usage records for call forwarding and simultaneous ringing than those used for this voice policy, select the option Route using custom PSTN usages from the drop-down menu. This option displays a control to select existing PSTN usage records or to create new PSTN usage records, specifically for call forwarding and simultaneous ringing.
+    - To use the same PSTN usage records for call forwarding and simultaneous ringing as this voice policy, select the option **Route using the call PSTN usages** from the drop-down menu.
+    - To allow call forwarding and simultaneous ringing to internal Skype for Business users only, select **Route to internal Skype for Business users only** from the drop-down menu. Calls will not be forwarded to external PSTN numbers.
+    - To specify different PSTN usage records for call forwarding and simultaneous ringing than those used for this voice policy, select the option **Route using custom PSTN usages** from the drop-down menu. This option displays a control to select existing PSTN usage records or to create new PSTN usage records, specifically for call forwarding and simultaneous ringing.
+        - To choose one or more records from a list of PSTN usage records for call forwarding and simultaneous ringing, click **Select**. Highlight the records that you want to associate with this call forwarding and simultaneous ringing policy, and then click **OK**.
+        - To remove a PSTN usage record from this call forwarding and simultaneous ringing policy, highlight the record and click **Remove**.
+        - To define a new PSTN usage record and associate it with this call forwarding and simultaneous ringing policy, do the following:
+            1. Click **New**.
+            2. In the **Name** field, enter a unique descriptive name for the record.
+                > [!Note] 
+                > The PSTN usage record name must be unique within the Enterprise Voice deployment. After the record is saved, the **Name** field cannot be edited. 
+            3. Use any of the following methods to associate and configure routes for this PSTN usage record:
+    
+                - To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes that you want to associate with this PSTN usage record, and then click **O**K.
+                - To remove a route from the PSTN usage record, highlight the route and click Remove.
+                - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Configuring boice routes for outboudn calls](ADD LINK).
+                - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**. For details, see [Configuring boice routes for outboudn calls](ADD LINK).
+            4. Click **OK**. 
+        
+        - To edit a PSTN usage record that is already associated with this voice policy, do the following:
+
+            1. Highlight the PSTN usage record you want to edit and click **Show details**.
+            2. Use any of the following methods to associate and configure routes for this PSTN usage record:
+
+                - To choose one or more routes from the list of all available routes in your Enterprise Voice deployment, click **Select**, highlight the routes that you want to associate with this PSTN usage record, and then click **OK**.
+                - To remove a route from this PSTN usage record, highlight the route and click **Remove**.
+                - To define a new route and associate it with this PSTN usage record, click **New**. For details, see [Configuring boice routes for outboudn calls](ADD LINK).
+                - To edit a route that is already associated with this PSTN usage record, highlight the route and click **Show details**. For details, see [Configuring boice routes for outboudn calls](ADD LINK).
+
+            3. Click **OK**. 
+9. (Optional) Enter a number to test the voice policy and click **Go**. The test results are displayed under Translated number to test.
+
+    > [!Note]
+    > You can save a voice policy that does not yet pass the test and then reconfigure it later. 
+
+10. Click **OK**.
+11. On the **Voice Policy** page, click **Commit**, and then click **Commit all**. 
+
+    > [!Note]
+    > Any time you create or modify a voice policy, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Lync Server 2013](NEW LINK?). 
+
+12. (Optional) Voicemail Escape detects that a call was immediately answered by the user’s mobile phone voice mail, and disconnects the call to the mobile phone voice mail. This allows the call to continue to ring on the user’s other endpoints giving the user the opportunity to answer the call. For details on how to configure a voice mail policy, see [Configuring voice mail escape](ADD LINK).
