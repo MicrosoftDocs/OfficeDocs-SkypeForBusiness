@@ -21,7 +21,7 @@ Your existing devices **may** continue to work after the end of Skype Room Syste
 
 ## Which devices are affected?
 Here is the list of the devices that are affected by this change:
-- [SMART Room systems](https://smartkapp.com/products/smart-room-systems)
+- [SMART Room systems](https://support.smarttech.com/en/hardware/room-systems-skype)
 - [Crestron RL2](https://www.crestron.com/en-US/Products/Featured-Solutions/Crestron-RL-2)
 - [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 - Crestron RL
