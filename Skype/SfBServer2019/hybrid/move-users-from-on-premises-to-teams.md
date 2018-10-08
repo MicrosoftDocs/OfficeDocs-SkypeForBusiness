@@ -23,8 +23,6 @@ Be aware that after moving your users to Teams:
 
 - On Mobile, your users will be able to join existing Skype for Business meetings using the native app only.
 
-    ![Mobile Skype meeting](../media/mobile-skype-meeting.png)
-
 > [!NOTE]
 > After a user is moved to TeamsOnly mode, the user is homed in Skype for Business Online.
 
