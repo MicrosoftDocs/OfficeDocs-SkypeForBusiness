@@ -15,7 +15,7 @@ description: "SIP trunk configuration settings define the relationship and capab
 SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider.
 
 - Whether media bypass should be enabled on the trunks.
-- he conditions under which real-time transport control protocol (RTCP) packets are sent.
+- The conditions under which real-time transport control protocol (RTCP) packets are sent.
 - Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.
 
 When you install Skype for Business Server, a global collection of SIP trunk configuration settings is created for you. In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).
@@ -23,7 +23,7 @@ When you install Skype for Business Server, a global collection of SIP trunk con
 **To view SIP trunk configuration information by using Skype for Business Server Control Panel**
 
 1. In the Skype for Business Server Control Panel, click **Voice Routing**, and then click **Trunk Configuration**.
-2. On the **Trunk Configuration** tab you will see a list of all your trunk configuration settings collection; for each collection you will see values for the **Name**, **Scope**, **State**, and **Media bypass** properties, along with the number of **PSTN usages**, **Calling number rules**, and **Called number rules** associated with the collection. To see additional details about a collection of trunk configuration settings, click the collection of interest, click **Edit**, and then click **Show details**. Note that you can view detailed information only for one collection of trunk configuration settings at a time.
+2. On the **Trunk Configuration** tab you will see a list of all your trunk configuration settings collections; for each collection you will see values for the **Name**, **Scope**, **State**, and **Media bypass** properties, along with the number of **PSTN usages**, **Calling number rules**, and **Called number rules** associated with the collection. To see additional details about a collection of trunk configuration settings, click the collection of interest, click **Edit**, and then click **Show details**. Note that you can view detailed information only for one collection of trunk configuration settings at a time.
 
 ## Viewing SIP trunk configuration information by using Windows PowerShell cmdlets
 
@@ -32,7 +32,7 @@ SIP trunk configuration settings can be viewed by using Skype for Business Serve
 
 **To view SIP trunk configuration information**
 
-To view information about all your SIP trunk configuration settings, type the following command in the Skype for Business Server Management Shell and then press ENTER:
+To view information about all your SIP trunk configuration settings, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
 
 `Get-CsTrunkConfiguration`
 

@@ -24,13 +24,13 @@ A trunk configuration as described below groups a set of parameters that are app
 
 **To configure a trunk with media bypass**
 
-1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see [Delegate setup permissions](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
+1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see  [Delegate setup permissions](https://docs.microsoft.com/en-us/lyncserver/lync-server-2013-delegate-setup-permissions).
 2. Open a browser window, and then enter the Admin URL to open the Control Panel. For details about the different methods you can use to start the Skype for Business Control Panel, see [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
 3. In the left navigation bar, click **Voice Routing**, and then click **Trunk Configuration**.
 4. On the **Trunk Configuration** page, use one of the following methods to configure a trunk:
     - Double-click an existing trunk (for example, the **Global** trunk) to display the **Edit Trunk Configuration** dialog box.
     - Click **New**, and then select a scope for the new trunk configuration:
-        - **Site trunk**: Choose the site for this trunk configuration from **Select a Site**, and then click **OK**. Note that if a trunk configuration has already been created for a site, the site does not appear in Select a Site. This trunk configuration will be applied to all trunks in the site.
+        - **Site trunk**: Choose the site for this trunk configuration from **Select a Site**, and then click **OK**. Note that if a trunk configuration has already been created for a site, the site does not appear in **Select a Site**. This trunk configuration will be applied to all trunks in the site.
         - **Pool trunk**: Choose the name of the trunk that this trunk configuration applies to. This trunk can be the root trunk or any additional trunks defined in Topology Builder. From **Select a Service**, click **OK**. Note that if a trunk configuration has already been created for a specific trunk, the trunk does not appear in **Select a Service**.
     
     > [!NOTE]
@@ -80,7 +80,7 @@ A trunk configuration as described below groups a set of parameters that are app
         3. Click **OK**.
 
     > [!Important]
-    > It important to associate PSTN usage records according to the Mediation Server peer that is associated to the trunk being configured. If the Mediation Server peer is a PSTN gateway or a Session Border Controller (SBC), it is strongly recommended that the trunk configuration is not associated to a PSTN usage record that routes to a PSTN destination or any other downstream systems connected via Skype for Business Server. 
+    > It is important to associate PSTN usage records according to the Mediation Server peer that is associated to the trunk being configured. If the Mediation Server peer is a PSTN gateway or a Session Border Controller (SBC), it is strongly recommended that the trunk configuration is not associated to a PSTN usage record that routes to a PSTN destination or any other downstream systems connected via Skype for Business Server. 
 
 11. Arrange the PSTN usage records for optimum performance. To change a record’s position in the list, select the PSTN usage record, and click the up or down arrows.
 
@@ -91,7 +91,7 @@ A trunk configuration as described below groups a set of parameters that are app
 13. **Enable forward call history** should be selected to enable sending of call history information to the gateway peer of the Mediation Server.
 14. **Enable forward P-Asserted-Identity data** should be selected to enable the P-Asserted-Identity (PAI) call originator information to be forwarded between the Mediation Server side and gateway side (and vice versa), when present.
 15. **Enable outbound routing failover timer** should be selected to enable fast failover. The gateway associated with this trunk can give notification within 10 seconds that it is processing an outbound call. Rerouting to another trunk will occur if this notification is not received by the Mediation Server. On networks where latency may delay the response time or the gateway takes longer than 10 seconds to respond, the fast failover should be disabled.
-16. (Optional) Associate and configure **calling number translation rules** for the trunk. These translation rules apply to the calling number for outbound calls
+16. (Optional) Associate and configure **calling number translation rules** for the trunk. These translation rules apply to the calling number for outbound calls.
     - To choose one or more rules from a list of all translation rules that are available in your Enterprise Voice deployment, click **Select**. In **Select Translation Rules**, click the rules that you want to associate with the trunk, and then click **OK**.
     - To define a new translation rule and associate it with the trunk, click **New**. For details about defining a new rule, see [Defining translation rules in Skype for Business Server](defining-translation-rules.md).
     - To edit a translation rule that is already associated with the trunk, click the rule name, and then click **Show details**. For details, see [Defining translation rules in Skype for Business Server](defining-translation-rules.md).
