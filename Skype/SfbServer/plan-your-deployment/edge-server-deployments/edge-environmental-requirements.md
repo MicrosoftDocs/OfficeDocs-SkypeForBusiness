@@ -123,7 +123,7 @@ Let's look at some additional things to think about while planning.
     - Lync Server 2010
     - Lync Server 2013
     - Microsoft Office O365
-- Skype for Business Sever 2019:
+- Skype for Business Server 2019:
     - Lync Server 2013
     - Skype for Business Server 2015
     - Microsoft Office 365.
