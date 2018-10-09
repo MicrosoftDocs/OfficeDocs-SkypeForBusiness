@@ -1,5 +1,5 @@
 ---
-title: "Admin training for Skype for Business"
+title: "Admin training for Skype for Business Online"
 author: thomasbinder
 ms.author: thomasbinder
 manager: lehewe
@@ -9,7 +9,7 @@ ms.prod: skype-for-business-itpro
 description: "Training videos introducing Skype for Business and explaining to admins how to plan, deploy, and operate Skype for Business."
 ---
 
-Admin training for Skype for Business
+Admin training for Skype for Business Online
 ==================================
 
 Please review below content to learn about Skype for Business.
