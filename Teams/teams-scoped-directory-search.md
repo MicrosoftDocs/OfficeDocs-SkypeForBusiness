@@ -24,7 +24,7 @@ Microsoft Teams scoped directory search allows organizations to create virtual b
 
 Microsoft Teams lets organizations provide custom views of the directory to their users. Microsoft Teams uses [Exchange address book policies](https://docs.microsoft.com/en-us/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) to support these custom views. Once the policies are enabled, the results returned by searches for other users (for example, to initiate a chat or to add members to a team) will be scoped according to the configured policies. Users will not be able to search or discover and join new teams outside of these policies. 
 
-## When should you use scroped directory searches?
+## When should you use scoped directory searches?
 
 Scenarios that benefit from scoped directory searches are similar to address book policy scenarios. For example, you may want to use scoped directory search in the following situations:
 
