@@ -37,6 +37,7 @@
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 ## [Run Teams in a virtual environment](virtual-environment-teams.md)
 ## [Enable Teams in your organization](Office-365-set-up.md)
+## [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
@@ -221,6 +222,7 @@
 ### [Use T-Bot to help users with Teams](t-bot.md)
 ### [Use activity reports for Teams](teams-activity-reports.md)
 ### [Use inline message translation in Teams](inline-message-translation-teams.md)
+
 ## Cloud voice
 ### [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Argentina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
