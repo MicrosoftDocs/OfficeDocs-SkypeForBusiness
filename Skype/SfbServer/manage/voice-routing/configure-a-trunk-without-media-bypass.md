@@ -18,8 +18,7 @@ A trunk configuration, as described below, groups a set of parameters that are a
 
 **To configure a trunk without media bypass**
 
-1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see [Delegate setup permissions](https://docs.microsoft.com/en-us/lyncserver/lync-server-2013-delegate-setup-permissions).
-2. Open a browser window, and then enter the Admin URL to open the Control Panel. For details about the different methods you can use to start the Skype for Business Control Panel, see [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
+1. Open Skype for Busines Server Control Panel.
 3. In the left navigation bar, click **Voice Routing**, and then click **Trunk Configuration**.
 4. On the **Trunk Configuration** page, use one of the following methods to configure a trunk:
     - Double-click an existing trunk (for example, the **Global** trunk) to display the **Edit Trunk Configuration** dialog box.

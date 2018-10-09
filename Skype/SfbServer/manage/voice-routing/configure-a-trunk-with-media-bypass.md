@@ -17,17 +17,16 @@ Follow these steps to configure a trunk with media bypass enabled. To configure 
 We strongly recommend that you enable media bypass. However, before you enable media bypass on a SIP trunk, confirm that your qualified SIP trunk provider supports media bypass and is able to accommodate the requirements for successfully enabling the scenario. Specifically, the provider must have the IP addresses of servers in your organization’s internal network. If the provider cannot support this scenario, media bypass will not succeed. For details, see [Plan for media bypass in Skype for Business](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
 
 > [!NOTE]
-> Media bypass will not interoperate with every public switched telephone network (PSTN) gateway, IP-PBX, and Session Border Controller (SBC). Microsoft has tested a set of PSTN gateways and SBCs with certified partners and has done some testing with Cisco IP-PBXs. Media bypass is supported only with products and versions that are listed [here](http://go.microsoft.com/fwlink/p/?linkId=214406). 
-NEED NEW LINK?
+> Media bypass will not interoperate with every public switched telephone network (PSTN) gateway, IP-PBX, and Session Border Controller (SBC). Microsoft has tested a set of PSTN gateways and SBCs with certified partners and has done some testing with Cisco IP-PBXs. Media bypass is supported only with products and versions that are listed on the [Telephony Infrastructure for Skype for Business Server](../../../SfbPartnerCertification/certification/infra-gateways.md) page. 
+
 
 A trunk configuration as described below groups a set of parameters that are applied to trunks assigned this trunk configuration. A particular trunk configuration can be scoped globally (to all trunks that do not have more specific site or pool configuration), or to a site, or to a pool. The pool-level trunk configuration is used to scope a specific trunk configuration to a single trunk.
 
 **To configure a trunk with media bypass**
 
-1. Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role. For details, see  [Delegate setup permissions](https://docs.microsoft.com/en-us/lyncserver/lync-server-2013-delegate-setup-permissions).
-2. Open a browser window, and then enter the Admin URL to open the Control Panel. For details about the different methods you can use to start the Skype for Business Control Panel, see [Install and open administrative tools](../../management-tools/install-and-open-administrative-tools.md).
-3. In the left navigation bar, click **Voice Routing**, and then click **Trunk Configuration**.
-4. On the **Trunk Configuration** page, use one of the following methods to configure a trunk:
+1. Open Skype for Busines Server Control Panel.
+2. In the left navigation bar, click **Voice Routing**, and then click **Trunk Configuration**.
+3. On the **Trunk Configuration** page, use one of the following methods to configure a trunk:
     - Double-click an existing trunk (for example, the **Global** trunk) to display the **Edit Trunk Configuration** dialog box.
     - Click **New**, and then select a scope for the new trunk configuration:
         - **Site trunk**: Choose the site for this trunk configuration from **Select a Site**, and then click **OK**. Note that if a trunk configuration has already been created for a site, the site does not appear in **Select a Site**. This trunk configuration will be applied to all trunks in the site.

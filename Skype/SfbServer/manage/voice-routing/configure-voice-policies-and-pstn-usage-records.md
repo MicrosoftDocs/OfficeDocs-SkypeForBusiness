@@ -177,6 +177,6 @@ Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -P
 
 ## Related topics
 
-[View PSTN usage records](ADD LINK)
+[View PSTN usage records](view-pstn-usage-records.md)
 
-[Configuring voice routes for outbound calls](ADD LINK)
+[Configure voice routes](configure-voice-routes.md)
