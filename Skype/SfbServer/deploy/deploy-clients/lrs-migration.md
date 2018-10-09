@@ -17,11 +17,11 @@ Lync Room System (LRS) devices with Skype Room System Version 1 (SRS v1) softwar
 
 Skype Room System Version 2 (SRS v2) software works with Microsoft Teams in addition to Skype for Business Server and Online services for meetings and calling on all SRS v2 supported devices.
 
-Your existing devices **may** continue to work after the end of Skype Room System v1 software suppor until this software hits a software bug that needs Microsoft to release a fix, or may have a case where an existing communication protocol used by Skype Room System v1 software changes or is no longer supported. One such known change is deprecation of TLS 1.0/ 1.1 in Microsoft Office 365. You can learn more about [Preparing for TLS 1.0/1.1 Deprecation](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608).  
+Your existing devices **may** continue to work after the end of Skype Room System v1 software support. This software will eventually hit a software bug that needs Microsoft to release a fix, or may have a case where an existing communication protocol used by Skype Room System v1 software changes or is no longer supported. One such known change is deprecation of TLS 1.0/ 1.1 in Microsoft Office 365. You can learn more about [Preparing for TLS 1.0/1.1 Deprecation](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608).  
 
 ## Which devices are affected?
 Here is the list of the devices that are affected by this change:
-- [SMART Room systems](https://smartkapp.com/products/smart-room-systems)
+- [SMART Room systems](https://support.smarttech.com/en/hardware/room-systems-skype)
 - [Crestron RL2](https://www.crestron.com/en-US/Products/Featured-Solutions/Crestron-RL-2)
 - [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 - Crestron RL
@@ -67,3 +67,6 @@ We recommend you plan to update Lync Room System devices to Skype Room Systems v
 
 > [!NOTE]
 > Touch and whiteboard functionality is not yet supported in Skype Room System v2. Touch and whiteboard support is in the backlog for Skype Room System v2 and will be added in H1 CY2019.
+
+> [!NOTE]
+> Skype Room System V2 software currently does not support TLS 1.2 protocol. TLS 1.2 support is being worked on and will be completed before TLS 1/0/1.1 deprecation. Customers upgradging to SRS v2 will not see any impact of TLS 1.0/1.1 deprecation on Room devices running latest version of SRS v2 app.
