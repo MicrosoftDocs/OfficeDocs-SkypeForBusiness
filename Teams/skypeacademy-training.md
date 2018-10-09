@@ -1,256 +1,96 @@
 ---
-title: Admin training for Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
-manager: serdars
-layout: landingpage
-ms.date: 09/21/2018
-ms.topic: landing-page
-ms.service: msteams
-ms.collection: Teams_ITAdmin_Training
-search.appverid: MET150
-description: Training videos, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
-ms.topic: landing page
-appliesto: 
-- Microsoft Teams
+title: "Admin training for Skype for Business Online"
+author: thomasbinder
+ms.author: thomasbinder
+manager: lehewe
+ms.date: 10/05/2018
+ms.topic: article
+ms.prod: skype-for-business-itpro
+description: "Training videos introducing Skype for Business and explaining to admins how to plan, deploy, and operate Skype for Business."
 ---
-# Admin training for Microsoft Teams
+
+Admin training for Skype for Business Online
+==================================
+
+Please review below content to learn about Skype for Business.
+
+For readiness on Microsoft Teams please refer to [Teams Academy](http://aka.ms/teamsacademy).
 
 
-Use these tutorials, videos, and other training resources to learn about Teams and drive usage in your organization. Check back here often for new content. 
+> [!NOTE] 
+> If you are looking for old Skype Academy page, you can for limited time access it here: [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy).
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Get started with Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-   <li>
-        <a href="https://docs.microsoft.com/microsoftteams/tutorial-journey-skypeforbusiness-to-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Take a tutorial on the upgrade journey from Skype for Business to Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-   <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users people" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Get training for your users</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
- <li>
-        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Check out the Teams channel on YouTube</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
- <li>
-        <a href="https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="success" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>View best practice and how-to videos in the Coffee in the Cloud channel on YouTube</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
-
-    
-</ul>
-****************
-
-<h2>Featured training</h2>
-<ul class="panelContent cardsW">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Journey from Skype for Business to Teams</h3>
-                         <p>[Tutorial: Journey from Skype for Business to Teams](tutorial-journey-skypeforbusiness-to-teams.yml)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Architecture</h3><p>[Video: Foundations - Core components of Teams](http://aka.ms/teams-foundations)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Plan & deploy</h3>
-                         <p>[Quick start: Teams planning guide](quick-start-enable-teams.md)</p>
-                         <p>[Video: Teams Windows desktop client](http://aka.ms/teams-clients)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li> <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Teams for Education</h3>
-                        <p>[Quick start: Teams for Education admins](teams-quick-start-edu.yml)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-<li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Teams & channels</h3>
-                         <p>[Video: Get your team up and running](https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b)</p>
-                         <p>[Video: Go-to guide for team owners](https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547")</p>
-                         <p>[Article: Create an org-wide team in Teams](create-an-org-wide-team.md)</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Security & compliance</h3>
-                       <p>[Video: Understanding e-Discovery in Teams](https://www.youtube.com/watch?v=OF65_p_07cE)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-        <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Meetings</h3>
-                        <p>[Tutorial: Meetings in Teams](tutorial-meetings-in-teams.yml)</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Apps & tools</h3>
-                        <p>[Video: Add tools with tabs](https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3)</p>
-                        <p>[Video: Use the command box](https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b)</p>
-                        <p>[Video: Command bar overview](https://www.youtube.com/watch?v=wYrRCRphrp0)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-<li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Audio Conferencing</h3>
-                         <p>[Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)</p>
-                         <p>[Video: Introduction to Audio Conferencing](https://www.youtube.com/watch?v=AGPvaW4Vg0o)</p>
-                         <p>[Video: Plan for Audio Conferencing](https://www.youtube.com/watch?v=AWbuvcWcYIc)</p>
-                         <p>[Video: Number porting for Audio Conferencing](https://www.youtube.com/watch?v=5k0C21KAsns)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Calling Plans</h3>
-                         <p>[Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)</p>
-                         <p>[Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Direct Routing</h3>
-                        <p>[Video: Direct Routing for Teams - Preview](https://www.youtube.com/watch?v=dVkc5Bs926Q)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-      </ul>
+> [!NOTE] 
+> The Skype Operations Framework (SOF) has evolved. To understand how, please watch [this session from Ignite](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK2036). Some of the trainings below have been recorded before these changes; so while the terminology might be outdated, the principles still apply. 
 
 
+|  |  |
+|---------|---------|
+| [ SOF Overview](https://aka.ms/sof-training-yt-1) | The SOF Overview session will introduce the Skype Operations Framework (SOF) which provides a structured approach to successfully plan, deliver and operate Skype for Business in the cloud This session will provide information on SOF, share reasoning behind the creation of the framework, and provide a view into the tools and assets available, illustrating how SOF is relevant to customers and partners. The session will address how SOF can be applied to deliver customer success, introduce the framework components and launch materials (tools, assets and offers), describe how to access the materials, how we will deliver updates and how to provide feedback.  |
+| [ SOF Outcomes Deck](http://aka.ms/sof-training-yt-3d) | The SOF Outcomes Deck will help you to  define and drive for a successful project outcome. Attend this session to learn the details about the SOF Outcomes Deck. |
+| [ Cloud PBX and PSTN Conferencing Get Deployed](https://aka.ms/sof-training-yt-2) | This session will explain the Cloud PBX and PSTN Conferencing Get Deployed offering and introduce the tools, documents and processes SOF will provides to delight customers. |
+| [ SOF Cloud Migration Release Overview](https://aka.ms/sof-training-yt-3) | This session introduces you  to the Skype Operations Framework (SOF) Cloud Migration Release, which covers what’s new in SOF since released in July 2016. This session covers updates to existing assets created in the interim, our delivery web site, and introduces our new Cloud Migration offer. |
+| [ SOF Meeting Migration Service and Regionally Hosted Meetings](https://aka.ms/sof-mms-rhm) | This training session will cover the changes that we have made to SOF to incorporate the recently released Meeting Migration Service and Regionally Hosted Meetings capability. We will review updates made to existing assets and introduce a key new asset to help with planning in which regions meetings should be hosted. |
+| [ SOF Meeting Room Solutions](https://aka.ms/sof-srsv2) | This training session will cover the changes  that we have made to SOF to incorporate the recently released Skype Room System devices. We will review updates made to existing assets and introduce key new assets to help with planning, delivering and operating Skype Room System devices. |
+| [ SOF Auto Attendant and Call Queues](http://aka.ms/sof-training-yt-4d) | This training session will cover the changes that we have made to SOF to incorporate the recently released Auto Attendant and Call Queues. Attend this session to understand which assets exist to help you with this functionality. |
+| [ SOF Tenant Dial Plans](http://aka.ms/sof-training-yt-5d) | This training session will cover the changes that we have made to SOF to incorporate Tenant Dial Plans. Attend this session to understand which assets exist to help you with this functionality. |
+| [ SOF Number Porting](http://aka.ms/sof-training-yt-6d) | This training session will cover the changes that we have made to SOF to address porting phone numbers. Attend this session to understand which assets exist to help you with this functionality. |
+| [ SOF Skype Meeting Broadcast](http://aka.ms/sof-training-yt-7d) | This training session will cover the changes that we have made to SOF to address Skype Meeting Broadcast. Attend this session to understand which assets exist to help you with this functionality. |
+| [ Planning for Customer Success](http://aka.ms/sof-training-yt-8d) | SOF is all about customer success. Attend this session to learn how SOF will help you to achieve customer success. |
+| [ Envisioning: Overview and Objectives and Key Results](https://aka.ms/sof-training-yt-4) | This session introduces to the SOF envisioning process and serves as a base for the subsequent envisioning sessions. The session will cover instructions on the delivery of two Envisioning Workshops: Envisioning Kick-off and Envisioning Wrap-up. An overview of the recommended project flow, methodology, how to measure success of the project and how to deliver wrap up session will be covered. |
+| [ Envisioning: Discovery](https://aka.ms/sof-training-yt-5) | The Envisioning: Discovery session looks at what information is needed from the customer to minimize project risk. The session will detail how the questionnaire and other tools can be used to collect detailed information about the existing environment, and how the Readiness Assessment report can be used to highlight both concerns and blocking factors back to the customer. |
+| [ Envisioning: Business Use Cases](https://aka.ms/sof-training-yt-6) | Training for how to prepare and deliver an Envisioning Business Use Case workshop targeted at Skype for Business is offered through this session. The objective of this workshop is to work with customer representatives to define of a number of use cases or scenarios that will make a material difference in how people go about their day to day activities. This will not only help to refine the goals of the project, but also creates focused material to work with when preparing business cases and adoption materials.                       Business Use Cases define current business practice scenarios where Skype for Business Online features can be applied to deliver business impact, describes at a high level how the process would change and what the material benefit of that change is to uncover business value. |
+| [ Envisioning: High Level Architecture Workshop](https://aka.ms/sof-training-yt-7) | This session will walk you through the architecture envisioning workshop to create high-level solution design and the execution planning workshop that will be done as part of the envisioning process. |
+| [ Skype for Business Adoption Methodology and Success Framework](https://aka.ms/sof-training-yt-8) | Your rollout approach can impede or accelerate change. This session will introduce you to our Adoption Methodology and overview proven Success Factors to ensure you are setup for success. We’ll supplement the session with links and details to end user training and adoption materials – such that you have a jumping off point to launch a successful Skype for Business adoption campaign. |
+| [ Network Readiness](https://aka.ms/sof-training-yt-9) | The network is one of the most crucial parts when it comes to the quality of real time communication. This session will walk through the tools and processes SOF Network Readiness Assessment offers. It will serve as an introduction an overview of the Network Readiness Assessment and its position inside SOF. |
+| [ Delivering Network Readiness](https://aka.ms/sof-training-yt-11) | This session is a mock delivery of the Network Readiness Assessment, for the customer Contoso.com. This walkthrough provides a look at the overview session in practice. |
+| [ Cloud PBX, technical planning architecture session](https://aka.ms/sof-training-yt-12) | This deep technical session is intended for detailed planning Cloud PBX and includes planning steps for three options: Cloud PBX with Microsoft PSTN calling, Cloud PBX with on premises PSTN connectivity via Cloud Connector or via on premises Skype For Business or Lync pool. In addition, the session guides you through the process of planning for voice mail and dial in conferencing.                         As a result of the session the partner and the customer should have an architectural document per site completed. The architectural document template also provided as part of the SOF Cloud PBX and PSTN Conferencing Get Deployed offer. |
+| [ Health Assessment Training](https://aka.ms/sof-training-yt-13) | To minimize project risks, assess the health of the existing environment before you deploy a hybrid configuration and migrate users online. The Health Assessment Training is an addition to the Envision: Discovery session, and addresses how existing on-premises data such as Key Health Indicators (KHI) and quality information are used to determine the health status of the existing deployment. |
+| [ Persona Workshop Training](https://aka.ms/sof-training-yt-14) | The goal of the Persona Analysis, is to identify which user groups, business units, and location benefit most from migration to Skype for Business Online, based on their requirements. This session details how to deliver the Persona Workshop, use the Persona Feature Matrix spreadsheet, and make useful recommendations based on the collected insights. |
+| [ Client Migration Training](https://aka.ms/sof-training-yt-15) | This session focuses on different Skype for Business clients that work with Skype for Business Online and assist you in planning migration and management methodologies for Windows clients in the organization. This session addresses the deployment and patching practices for Microsoft Office Professional 2016,  and provides customizable templates that you can use in deployment and operation cycles. |
+| [ Cloud PBX Architecture, Coexistence, and Migration Workshop Training](https://aka.ms/sof-training-yt-16) | This workshop details the planning of migrating to Cloud PBX from Lync Server 2013 or Skype for Business Server 2015 Enterprise Voice, including planning for Cloud PSTN Conferencing, implementation, and long-term coexistence. As the result of this workshop, the design document for the migration to Cloud PBX and hybrid coexistence, can be completed and used to guide the subsequent deployment and migration activities. This training session guides you through the workshop content and the design template provided as part of SOF assets. The session helps the organization drive and decide about all aspects of Cloud PBX implementation, coexistence, and migration. |
+| [ Deployment Guidance](https://aka.ms/sof-training-yt-17) | This session will go into detail what resources SOF provides for a successful deployment, including information about the deployment workshop and the deployment guidance checklist. |
+| [ Polycom Phone Provisioning with Skype for Business Online](https://aka.ms/sof-training-yt-18) | The Polycom Phone Provisioning with Skype for Business Online session, addresses the place of phones in Skype for Business deployments with Enterprise Voice. Learnings about what to consider when deploying Polycom phones and how to manage them within a Skype for Business Online environment will be shared through the session. |
+| [ Configuring Call Quality Dashboard to monitor your Skype for Business Online Environment](https://aka.ms/sof-training-yt-19) | The Call Quality Dashboard (CQD) is the best way to assess and monitor overall media quality health once Skype for Business Online services have been deployed. Attend this session to learn the proper setup and configurations steps required to support gaining deeps insights within Skype for Business Online environments today. |
+| [ Testing](https://aka.ms/sof-training-yt-20) | This session is focused on Testing activities during SOF Deploy phase. It covers the functional testing guidance workshop designed to educate the customer about Skype for Business Cloud PBX and PSTN Conferencing Testing Activities, Scope of testing, and setting customer expectations. The session will include an overview of the test matrix and templates available for successful delivery. After this session, attendees will be able to articulate the value of testing activities, required resources and will be prepared to successfully deliver engagement. |
+| [ Scripted user enablement](https://aka.ms/sof-training-yt-21) | This session will introduce SOF content that will allow easy enablement of a large mass amount of users for Skype for Business and voice features. SOF scripts including required input files, execution, features, and execution reporting will be covered in the session. |
+| [ Site Rollout and Migration Planning Training](https://aka.ms/sof-training-yt-23) | This session will introduce you to Site Rollout and Migration Playbook that focuses on the tasks and activities required to rollout CloudPBX or PSTN conferencing service to end users or migrate to online service. It covers required activities with recommended timelines on a site by site basis and focuses mainly on end users, including user enablement, clients and devices, usage and adoption. It will assist you planning your migration with smooth execution, high user adoption and minimum support needs. |
+| [ Service health and service usage](https://aka.ms/sof-training-yt-24) | The Service health and service usage session will provide all the information required to determine if the service is healthy and if the envisioned modalities are being used. |
+| [ Managing Call Quality](https://aka.ms/sof-training-yt-25) | This session will go into details on managing and optimizing call quality – to ensure that users have a great experience when using Skype for Business. |
+| [ Hybrid Operate Training](https://aka.ms/sof-training-yt-26) | This session focuses on the operational tasks that are required to successfully operate a Skype for Business hybrid deployment. This includes the daily/weekly/monthly tasks, concepts, and process to patch the on-premises components of a hybrid deployment. This helps to stay up-to-date with the latest security updates, leverage latest product investments, and ensures compatibility with the online service. The session also covers considerations for call quality monitoring in a hybrid deployment and provides an overview to the troubleshooting guide covering hybrid-specific scenarios. |
+| [ Managing a high quality and reliable service delivery](http://aka.ms/sof-yt-training-2c) | This session helps you to find answers for “How do I run a Skype for Business Online deployment to deliver great experience to my end users and value to the business?”. What’s involved in user experience, what is delivered by Microsoft and where are you responsible? This session helps you to be prepared for ongoing operations and decide on an operations model. |
+| [ Roles and Responsibilities beyond Skype for Business operations](http://aka.ms/sof-yt-training-3c) | Which teams are involved in running a Skype for Business Online deployment, what tasks need to be performed? This session helps you to identify the operational roles and map them to teams delivering these operational roles/functions. This allows you to align for operations early and make sure that all teams are ready to engage as soon as the pilot starts. |
+| [ Leverage the Investigate Media Quality using CQD Videos]() | This six video set provides guidance on how to use Call Quality Dashboard (CQD) to Investigate Media Quality, to be used in conjunction with the Manage Call Quality activities. We recommend that you consume the videos in order as each video builds on the material shared in the previous videos.  |
+| [ Tenant Dial Plans](http://aka.ms/sa-yt-tdp) | Tenant Dial Plans allow custom dial plans in Skype for Business Online. Attend this readiness session to learn why Tenant Dial Plans are required and how they can be used. |
+| [ Polycom RealConnect Service for Office 365](http://aka.ms/sa-yt-cvi) | Polycom RealConnect Service for Office 365 (preview) provides interop between on premises VTCs (Video Teleconference) and Skype for Business Online. Attend this readiness session to learn what Cloud Video Interop can do, what the user experience is, and how you can configure it. |
+| [ Skype for Business on Mac](http://aka.ms/sa-yt-mac) | This session will walk you through the new Skype for Business on Mac client. It will show you the user experience, walk you through the features and will take a look under the hood – pointing out when Skype for Business for Mac is different than other clients. It concludes with troubleshooting information. |
+| [ Skype Room Systems v2](http://aka.ms/sa-yt-srsv2) | Skype Room Systems v2 enables existing conference rooms with a projector or monitor to easily be turned into Skype for Business meeting rooms. Watch the readiness presentation to learn more about the range of Skype Room Systems devices, when to deploy Skype Room Systems versus other Skype meeting devices, and planning and deployment considerations required for device availability. |
+| [ Meeting Migration Service](http://aka.ms/sa-yt-mms) | Meeting Migration Service automatically sends meeting updates to all meeting invitees when an admin moves the user who is hosting the meeting from on-premises to online or when those users are enabled for Cloud PSTN Conferencing. The new service removes the need for users to run the Meeting Migration tool locally to send meeting updates for all future meetings. Watch the readiness presentation to learn more about the scenarios when the Meeting Migration Service is invoked, when the Meeting Migration Tool is still required, how to plan for the best user experience, and reporting capabilities to report on the result of Meeting Migration Service processing. |
+| [ Cloud PBX Voicemail with Exchange Server on-premises](http://aka.ms/sa-yt-avm) | This training will cover how Cloud PBX Voicemail can be leveraged for users in Skype for Business Online with their Exchange mailbox hosted in Exchange Server on premises. We will talk about the requirements, how to design for it and how it works under the hood. |
+| [ Clients Deep Dive](http://aka.ms/sa-yt-client) | This session will look into Skype for Business clients: how do they discover a server or service to sign-in against, how do they authenticate, what do signaling flows look like and how can I trouble shoot issues. |
+| [ Skype for Business media flows](http://aka.ms/sa-yt-ice) | Skype for Business uses multiple different real-time workloads: audio, video, desktop/application sharing and also file transfer. This session will explain how the optimal paths is identified and how this knowledge can be used to troubleshoot media connectivity issues. We will talk about the role of the Edge Server as media relay and also discuss the protocols ICE, STUN and TURN that are used in the process. |
+| [ Hybrid Configuration](http://aka.ms/sa-yt-hybrid) | Hybrid allows you to connect your Skype for Business on premises with Skype for Business Online. Watch the readiness session to learn what this functionality can do, what the user experience is, and how you can configure it. |
+| [ Upgrading Server](http://aka.ms/sa-yt-upg) | If you have a Lync Server deployed on premises, you should upgrade to Skype for Business Server 2015 to get the latest functionality and best integration into Skype for Business Online. This session will walk you through the upgrade process including planning. |
+| [ Meetings](http://aka.ms/sa-yt-meet) | Meetings is one of the core workloads in Skype for Business. Learn everything about the different types of meetings and how to set up your organization for success with online meetings. |
+| [ Skype Meeting Broadcasts](http://aka.ms/sa-yt-smb) | Skype for Business allows you to broadcast meetings to up to 10,000 users. Attend this session to learn what Skype Meeting Broadcast can do in detail, how to plan for it and how to configure it. |
+| [ Maintaining Health](http://aka.ms/sa-yt-health) | The health session will walk you through the tools that Skype for Business offers on premises and online to monitor and manage the health of your environment covering reliability, quality and adoption. |
+| [ Cloud PBX introduction](http://aka.ms/sa-yt-cloudpbx) | This session will introduce the concept of  Cloud PBX and explain the features that it will deliver to users in Skype for Business Online. |
+| [ Cloud PBX with PSTN calling](http://aka.ms/sa-yt-pstn) | With Cloud PBX with PSTN Microsoft delivers PSTN connectivity to your Cloud PBX users. Watch this session to understand where it is available, what features it will provide to your users and how you configure it. |
+| [ Cloud PBX with on premises PSTN connectivity](http://aka.ms/sa-yt-ocph) | This feature allows your Cloud PBX users to leverage existing PSTN infrastructure via Skype for Business servers. Attend this session to learn how to plan, configure and maintain Cloud PBX with PSTN calling. |
+| [ Cloud Connector Edition Deep Dive](http://aka.ms/sa-yt-cce) | Cloud Connector Edition (CCE) is the easiest way for Skype for Business Online to integrate into their existing telephony infrastructure without the need to build a full scale Skype for Business infrastructure. Attend this training to learn how to plan, deploy and manage CCE. If you are already familiar with CCE, but want to learn what is new in version 1.4.1, please refer to the “What’s new section”. |
+| [ MOOC: Skype for Business: Fundamentals](http://aka.ms/sof-mooc1) | Want to learn about Microsoft communications and collaboration solutions and products? Skype for Business provides a single platform for both meetings and voice at hyperscale. This course is an introduction to Skype for Business. By completing this course, you will learn about the vision, value, features and capabilities of Skype for Business. No previous knowledge is needed.   |
+| [ MOOC: Skype for Business: Voice Concepts and Planning](http://aka.ms/sof-mooc2) | First in a series of Skype for Business Voice courses, this course will teach you how to plan and deploy voice capabilities with Cloud PBX. This course will help you prepare for taking the “Deploying Enterprise Voice with Skype for Business 2015” exam (70-333).   |
+| [ MOOC: Skype for Business: Voice Hybrid and Routing](http://aka.ms/sof-mooc3) | Second in a series of Skype for Business Voice courses, this course provides you with the knowledge on how to plan and manage a hybrid voice deployment. It also will help you prepare for taking the “Deploying Enterprise Voice with Skype for Business 2015” exam (70-333).   |
+| [ Cloud Connector Deep Dive](http://aka.ms/sa-yt-cce) | Cloud Connector Edition (CCE) is the easiest way for Skype for Business Online to integrate into their existing telephony infrastructure without the need to build a full scale Skype for Business infrastructure. Attend this training to learn how to plan, deploy and manage CCE. If you are already familiar with CCE, but want to learn what is new in version 1.4.1, please refer to the “What’s new section”. |
+| [ Call Queues and Auto Attendant](http://aka.ms/sa-yt-aacq) | Call Queues provide a mechanism to offer a single call to multiple Skype for Business Online users at the same time. Cloud PBX Auto Attendant is an intelligent virtual receptionist that helps callers navigate the system with interactive prompts. Watch this session to learn how to envision, onboard on drive value for Call Queues and Auto Attendant. |
+| [ Scripted Skype Room Systems v2 Provisioning](http://aka.ms/sof-yt-srsv2-script) | This session will introduce SOF content that will allow easy enablement of a large mass amount of accounts for Skype Room System v2. SOF scripts including required input files, execution, features, and execution reporting will be covered in the session. |
+| [ MOOC: Skype for Business: Voice Advanced Workloads](http://aka.ms/sof-mooc4) | Third in a series of Skype for Business Voice courses, you will learn how to design and configure the core components for an on-premises Enterprise Voice deployment. Further, you will learn how to implement enhanced calling features and manage IP Phones. And finally, you will learn to implement emergency dialing, optimize your network for Enterprise Voice, and monitor and maintain voice quality. This course will also help you prepare for taking the “Deploying Enterprise Voice with Skype for Business 2015” exam (70-333).   |
+| [ MOOC: Skype for Business:  Infrastructure Planning and Design](http://aka.ms/sof-mooc5) | First in a series of Skype for Business Infrastructure courses, this course guides you through planning and designing server components. This course will help you prepare for the “Core Solutions of Microsoft Skype for Business 2015” exam (70-334).   |
+| [ MOOC: Skype for Business:  Infrastructure Implementation and Conferencing](http://aka.ms/sof-mooc6) | Second in a series of Skype for Business Infrastructure courses, this course focuses on how to plan and deploy conferencing and how to manage and troubleshoot a Skype for Business Server deployment. This course will help you prepare for the “Core Solutions of Microsoft Skype for Business 2015” exam (70-334).   |
+| [ MOOC: Skype for Business:  Infrastructure Advanced Configuration](http://aka.ms/sof-mooc7) | Third in a series of Skype for Business Infrastructure courses, this course teaches you how to plan and deploy monitoring and archiving, persistent chat, high availability and disaster recovery, and hybrid deployments with Skype for Business 2015 Server. This course will help you prepare for the “Core Solutions of Microsoft Skype for Business 2015” exam (70-334).   |
+| [ What’s new in Cloud Connector Edition V2](https://aka.ms/sa-yt-cce-wnv2) | Cloud Connector Edition v2 introduces a number of new features and improvements. Watch this session to learn what has changed from the previous version. |
+| [ MOOC: Skype Operations Framework](https://aka.ms/sof-mooc8) | Learn the methodology to effectively deploy and operate Skype for Business and related technologies. |
+| [ Network Planner](https://aka.ms/sa-network-planner) | Network planner allows to plan for Networking. Attend this session to learn what network planner can do for you. |
+| [ MyAdvisor](https://aka.ms/sa-myadvisor) | MyAdvisor is your personal advisor, providing guidance based on your preferences. This video provides a quick overview. |
+| [ Introduction to Audio Conferencing](https://aka.ms/teams-conf-intro-yt) | Attend this session to learn the value of Audio Conferencing. |
+| [ Understand the journey from Skype for Business to Microsoft Teams](https://aka.ms/tr-journey) | In this training, we introduce the new intelligent communications vision and explain the future for Skype for Business and Teams. |
