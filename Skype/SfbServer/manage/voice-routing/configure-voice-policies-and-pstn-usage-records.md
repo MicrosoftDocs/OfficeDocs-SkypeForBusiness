@@ -33,8 +33,8 @@ Follow these steps if you want to create a new voice policy or edit an existing 
 4. On the **Voice Policy** page, do one of the following:
     - To create a new voice policy: 
         1. Click **New**, and then select a scope for the new policy:
-            - Site policy applies to an entire site, except any users or groups that are assigned to a user policy. If you select Site for a policy scope, choose the site from the Select a Site dialog box. If a voice policy has already been created for a site, the site does not appear in the Select a Site dialog box.
-            - User policy can be applied to specified users or groups.
+            - **Site policy** applies to an entire site, except any users or groups that are assigned to a user policy. If you select Site for a policy scope, choose the site from the **Select a Site** dialog box. If a voice policy has already been created for a site, the site does not appear in the **Select a Site** dialog box.
+            - **User policy** can be applied to specified users or groups.
 
             > [!Note] 
             > If the voice policy scope is User, enter a descriptive name for the policy in the Name field.
@@ -56,8 +56,8 @@ Follow these steps if you want to create a new voice policy or edit an existing 
 5. Select or clear the following check boxes to enable or disable each of the **Calling features**:
     - Voice mail escape prevents calls from being immediately routed to the user’s mobile phone voice mail system when simultaneous ringing is configured and the phone is turned off, out of battery, or out of range.
 
-    > [!Note]
-    > This feature is only configurable through the Skype for Business Server Management Shell.
+        > [!Note]
+        > This feature is only configurable through the Skype for Business Server Management Shell.
 
     - **Call forwarding** enables users to forward calls to other phones and client devices. Skype for Business Server provides a significantly wider range of configuration options for call forwarding. For example, if an organization does not want to allow incoming calls to be forwarded externally to the PSTN, an administrator can apply a special voice policy to deploy this restriction. Enabled by default.
     - **Delegation** enables users to specify other users to send and receive calls on their behalf. In Skype for Business Server, a delegate can configure simultaneous ringing that enables incoming calls to his or her manager to ring all of the delegate’s simultaneous ringing targets. This provides the delegate with greater flexibility in responding to calls directed to the manager. Enabled by default.
@@ -152,4 +152,31 @@ Follow these steps if you want to create a new voice policy or edit an existing 
     > [!Note]
     > Any time you create or modify a voice policy, you must run the **Commit all** command to publish the configuration change. For details, see [Publish pending changes to the voice routing configuration in Lync Server 2013](NEW LINK?). 
 
-12. (Optional) Voicemail Escape detects that a call was immediately answered by the user’s mobile phone voice mail, and disconnects the call to the mobile phone voice mail. This allows the call to continue to ring on the user’s other endpoints giving the user the opportunity to answer the call. For details on how to configure a voice mail policy, see [Configuring voice mail escape](ADD LINK).
+12. (Optional) Voicemail Escape detects that a call was immediately answered by the user’s mobile phone voice mail, and disconnects the call to the mobile phone voice mail. This allows the call to continue to ring on the user’s other endpoints giving the user the opportunity to answer the call. 
+
+
+**To configure voice mail escape**
+
+When a user configures simultaneous ringing to a mobile phone, a caller will typically be routed to the user’s personal voice mail if the mobile phone is turned off, out of battery power, or out of range. With Lync Server 2013, users can opt to have business-related calls routed to their corporate voice mail system. Specifically, a timer can be configured, and if the call is answered by the carrier’s voice mail within the range of time defined, Lync Server will disconnect from the carrier’s voice mail system (and the user’s personal voice mail), while the user’s remaining endpoints in the corporate system continue to ring. This way, the caller is automatically routed to the user’s corporate voice mail.
+This configuration is performed using the Lync Server Management Shell cmdlet, **Set-CsVoicePolicy**, at the voice policy level, with the following parameters.
+
+1. Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.
+2. Specify the following parameters to **Set-CsVoicePolicy**:
+
+    - **EnableVoicemailEscapeTimer** - Enables or disables the escape timer.
+    - **PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds. The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.
+
+**Example**
+
+```
+Copy
+Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
+
+Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
+```
+
+## Related topics
+
+[View PSTN usage records](ADD LINK)
+
+[Configuring voice routes for outbound calls](ADD LINK)
