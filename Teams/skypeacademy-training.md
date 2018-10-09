@@ -1,6 +1,6 @@
 ---
 title: "Admin training for Skype for Business"
-author: Thomas Binder
+author: thomasbinder
 ms.author: thomasbinder
 manager: lehewe
 ms.date: 10/05/2018
