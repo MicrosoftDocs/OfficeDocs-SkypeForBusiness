@@ -54,7 +54,7 @@ To run the Lync Server 2013 Stress and Performance Tool on your Lync Server 2013
 
 Your client computer must meet the following software requirements:
 
-  - You must have the Microsoft .NET Framework 4.5 runtime installed. You can download .NET Framework 4.5 from the Microsoft Download Center at [http://go.microsoft.com/fwlink/?LinkId=143212](http://go.microsoft.com/fwlink/?linkid=143212).
+  - You must have the Microsoft .NET Framework 4.5 runtime installed. You can download .NET Framework 4.5 from the Microsoft Download Center at [http://go.microsoft.com/fwlink/?LinkId=143212](https://www.microsoft.com/en-in/download/details.aspx?id=30653).
 
   - On Windows Server 2008/Windows Server 2012, the Desktop Experience feature must be enabled.
 
