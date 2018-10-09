@@ -33,19 +33,19 @@ Using Topology Builder, perform the steps in the following procedure to deploy I
 
    **Edit Properties dialog box for the Front End Server pool**
 
-  - **Use all configured IP addresses**. Select this option if you want to allow any IP address defined on the computer to be used.
+   - **Use all configured IP addresses**. Select this option if you want to allow any IP address defined on the computer to be used.
 
-    > [!NOTE]
-    > This is the recommended option for IP version 6 (IPv6) configurations.
+     > [!NOTE]
+     > This is the recommended option for IP version 6 (IPv6) configurations.
 
-  - **Limit service usage to selected IP addresses**. Select this option to specify a specific address to use on the new server. If you select this option, you must enter a value for **Primary IP address**.
+   - **Limit service usage to selected IP addresses**. Select this option to specify a specific address to use on the new server. If you select this option, you must enter a value for **Primary IP address**.
 
-  - **Primary IP address**. Enter an IP address that the server will use for all communications except public switched telephone network (PSTN). The IP address entered must match the format of the select address type.
+   - **Primary IP address**. Enter an IP address that the server will use for all communications except public switched telephone network (PSTN). The IP address entered must match the format of the select address type.
 
-  - **PSTN IP address**. Define a PSTN IP address when a Mediation Server is collocated on the Front End Server. This address must match the format of the selected address type.
+   - **PSTN IP address**. Define a PSTN IP address when a Mediation Server is collocated on the Front End Server. This address must match the format of the selected address type.
 
-    > [!NOTE]
-    > The installation of additional network interface cards (NICs) to support the PSTN IP address configuration on Front End Servers is not supported. For more information about supported NIC configurations for Skype for Business Server, see [Server hardware platforms for Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+     > [!NOTE]
+     > The installation of additional network interface cards (NICs) to support the PSTN IP address configuration on Front End Servers is not supported. For more information about supported NIC configurations for Skype for Business Server, see [Server hardware platforms for Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
 ## Deploy IP address types on a Mediation Server
 

@@ -98,9 +98,9 @@ You can use Skype for Business Server Control Panel to start or stop all the Sky
 
 1. From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server. You can determine whether you have been assigned the CsServerAdministrator or the CsAdministrator RBAC role by running a command similar to the following:
     
-  ```
-  Get-CsAdminRoleAssignment -Identity "kenmyer"
-  ```
+   ```
+   Get-CsAdminRoleAssignment -Identity "kenmyer"
+   ```
 
 2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 3. In the left navigation bar, click **Topology** and then click **Status**.

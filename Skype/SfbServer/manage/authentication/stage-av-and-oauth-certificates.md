@@ -55,19 +55,19 @@ When staging OAuthTokenIssuer certificates, there are different requirements for
   
     The Set-CsCertificate command with the -Roll and -EffectiveTime parameter:
     
-  ```
-  Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
+   ```
+   Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
 		  <thumb print of new certificate> -Roll -EffectiveDate <date and time
 		  for certificate to become active>
-  ```
+   ```
 
     An example Set-CsCertificate command:
     
-  ```
-  Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
+   ```
+   Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
 		  "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2015
 		  6:00:00 AM"
-  ```
+   ```
 
     > [!IMPORTANT]
     > The EffectiveDate must be formatted to match your server's region and language settings. The example uses the US English Region and Language settings 
@@ -101,11 +101,11 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
     
     The Set-CsCertificate command with the -Roll and -EffectiveTime parameter:
     
-  ```
-  Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
+   ```
+   Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
 		  print of new certificate> -Roll -EffectiveDate <date and time for
 		  certificate to become active> -identity Global 
-  ```
+   ```
 
 An example Set-CsCertificate command:
     

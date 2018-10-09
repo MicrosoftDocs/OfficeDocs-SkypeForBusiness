@@ -6,6 +6,7 @@ description: Sign up for instructor-led classes to learn all about Microsft Team
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
+ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
 ---
@@ -92,8 +93,27 @@ ms.date: 08/24/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Make the switch from Skype for Business to Teams: end user guidance</h3>
-                                                    <p>This course covers what you need to quickly start chatting, meeting, and calling in Teams as your organization transitions from Skype for Business to Teams.</p>
+                                                <h3>Switch from Skype for Business to Teams: end user guidance</h3>
+                                                    <p>Get what you need to quickly start chatting, meeting, and calling in Teams during your transition from Skype for Business to Teams.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/MicrosoftTeams/enduser-training">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Get on-demand training & videos</h3>
+                                                <p>Get end-user Teams training and videos on demand for you and your users.</p>
                                             </div>
                                         </div>
                                     </div>

@@ -37,9 +37,9 @@ If you are using TLS between Mediation Servers and gateways, you will need to co
     
 3. Import the Root CA certificate for the certificate issued to your gateway on the Mediation Servers. If you need to obtain an SSL certificate for the gateway, you may do this using the Certificate Authority service running on the Cloud Connector Active Directory computer as follows:
     
-  - Modify the existing Web Server template to enable Authenticated users to enroll, or create a new Web Server template to configure other properties and enable Authenticated users to enroll. For detailed instructions, see [Certificate Templates](https://technet.microsoft.com/en-us/library/cc730705.aspx).
+   - Modify the existing Web Server template to enable Authenticated users to enroll, or create a new Web Server template to configure other properties and enable Authenticated users to enroll. For detailed instructions, see [Certificate Templates](https://technet.microsoft.com/en-us/library/cc730705.aspx).
     
-  - Request a certificate using Certificate snap-in selecting the Web Server template that you have enabled. Be sure to add Common name in Subject and DNS name in Alternative name with FQDN of the gateway, and confirm on the Private Key that Make private key exportable is selected under key options. 
+   - Request a certificate using Certificate snap-in selecting the Web Server template that you have enabled. Be sure to add Common name in Subject and DNS name in Alternative name with FQDN of the gateway, and confirm on the Private Key that Make private key exportable is selected under key options. 
     
 4. Export the SSL certificate with Private key and follow the instructions from your PSTN gateway vendor for importing the certificate.
     
@@ -83,9 +83,9 @@ If you are using TLS between Mediation Servers and gateways, you will need to co
     
 3. Import the Root CA certificate for the certificate issued to your gateway on the Mediation Servers. If you need to obtain an SSL certificate for the gateway, you may do this using the Certificate Authority service running on the Cloud Connector Active Directory computer as follows:
     
-  - Modify the existing Web Server template to enable Authenticated users to Enroll, or create a new Web Server template to configure other properties and enable Authenticated users to enroll. For detailed instructions, see [Certificate Templates](https://technet.microsoft.com/library/cc730705.aspx).
+   - Modify the existing Web Server template to enable Authenticated users to Enroll, or create a new Web Server template to configure other properties and enable Authenticated users to enroll. For detailed instructions, see [Certificate Templates](https://technet.microsoft.com/library/cc730705.aspx).
     
-  - Request a certificate using Certificate snap-in selecting the Web Server template that you have enabled. Be sure to add Common name in Subject and DNS name in Alternative name with FQDN of the gateway, and confirm on the Private Key that Make private key exportable is selected under key options. 
+   - Request a certificate using Certificate snap-in selecting the Web Server template that you have enabled. Be sure to add Common name in Subject and DNS name in Alternative name with FQDN of the gateway, and confirm on the Private Key that Make private key exportable is selected under key options. 
     
 4. Export the SSL certificate with Private key and follow the instructions from your PSTN gateway vendor for importing the certificate.
     
@@ -165,15 +165,15 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
     
 2. Start a tenant Azure AD remote PowerShell session using your global or user admin credentials, and then run the following cmdlet to set the department for the Azure AD user account configured in step 1 to "HybridMediationServer":
 
- ```
-  Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
-  ```
+   ```
+   Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+   ```
 
 3. Start a tenant Skype for Business remote PowerShell session using your Skype for Business tenant admin credentials, and then run the following cmdlet to set the Mediation Server and Edge Server FQDN to that user account, replacing \<DisplayName\> with the Display Name of the user for the account you created in step 1:
     
-  ```
-  Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
-  ```
+   ```
+   Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
+   ```
 
     For Identity, use the Display Name of the Office 365 user account you created for this Mediation Server.
     
@@ -181,6 +181,6 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
     
     For  *EdgeServerExternalFQDN*  , use the external FQDN defined for Edge Server Access Proxy. If there are multiple Cloud Connector PSTN sites, choose the Edge Server Access Proxy FQDN assigned to the site where the Mediation Server is located.
     
-3. If there are multiple Cloud Connector Mediation Servers (multiple-site, HA), please repeat the previous steps for each of them.
+4. If there are multiple Cloud Connector Mediation Servers (multiple-site, HA), please repeat the previous steps for each of them.
     
 

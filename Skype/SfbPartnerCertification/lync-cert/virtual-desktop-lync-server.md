@@ -71,14 +71,14 @@ The following table lists the VDI partners and their products which have been te
 		<tr>
 			<td rowspan="2" valign="top">Microsoft</td>
 			<td valign="top">Microsoft Remote Desktop Services</td>
-			<td valign="top">Remote Desktop Client*</td>
+            <td valign="top">Remote Desktop Client<em></td>
 			<td valign="top">Remote Desktop Server</td>
 			<td valign="top">RDP</td>
 		</tr>
 		<tr>
 			<td colspan="4" valign="top">
 				<p><a href="https://www.microsoft.com/en-us/itpro/windows">https://www.microsoft.com/en-us/itpro/windows</a></p>
-				<p>* mstsc.exe only.  The Windows 8 App &quot;Remote Desktop&quot; is not supported</p>
+                <p></em> mstsc.exe only.  The Windows 8 App &quot;Remote Desktop&quot; is not supported</p>
 			</td>
 		</tr>
 		<tr>

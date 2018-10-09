@@ -51,8 +51,7 @@ description: Skype for Business
                                         </div>
                                     </div>
                                 </a>
-                            </li>                            
-                            <li>
+                            </li><br/>                            <li>
                                 <a href="/SkypeForBusiness/skype-for-business-server-2015">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -127,8 +126,7 @@ description: Skype for Business
                                         </div>
                                     </div>
                                 </a>
-                            </li>                            
-                            <li>
+                            </li><br/>                            <li>
                                 <a href="/SkypeForBusiness/room-systems/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -146,8 +144,7 @@ description: Skype for Business
                                         </div>
                                     </div>
                                 </a>
-                            </li>                            
-                            <li>
+                            </li><br/>                            <li>
                                 <a href="/SkypeForBusiness/certification/overview">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -165,8 +162,7 @@ description: Skype for Business
                                         </div>
                                     </div>
                                 </a>
-                            </li>                            
-                            <li>
+                            </li><br/>                            <li>
                                 <a href="https://support.office.com/skype-for-business">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -184,8 +180,7 @@ description: Skype for Business
                                         </div>
                                     </div>
                                 </a>
-                            </li>                            
-                        </ul>
+                            </li><br/>                        </ul>
                     </li>
                 </ul>
             </li>

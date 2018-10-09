@@ -45,9 +45,9 @@ The script will gather your current certificate information and listener passwor
     
 2. Open an administrative PowerShell window. Upgrade the Listener component:
     
-  ```
-  .\Update-StatsMan.ps1 -Service Listener
-  ```
+   ```
+   .\Update-StatsMan.ps1 -Service Listener
+   ```
 
 > [!NOTE]
 > The Statistics Manager service password will be displayed in clear text on the command line as it is passed to the installer. Be sure to shield your monitor as needed. 
@@ -58,29 +58,29 @@ The script will gather your current certificate information and listener passwor
     
 3. Continue the install process. You should notice that the service password and certificate thumbprint are pre-populated. If not, add the values you saved before continuing.
     
-3. Open an administrative PowerShell window. Upgrade the Website component:
+4. Open an administrative PowerShell window. Upgrade the Website component:
     
-  ```
-  .\Update-StatsMan.ps1 -Service Website
-  ```
+   ```
+   .\Update-StatsMan.ps1 -Service Website
+   ```
 
-1. On running the script, you should be prompted to uninstall the old version of the product. Answer Yes.
+5. On running the script, you should be prompted to uninstall the old version of the product. Answer Yes.
     
-2. If the Agent service is running, you will be prompted to close the application before continuing. Allow the application to close (the StatsMan Agent service will be stopped).
+6. If the Agent service is running, you will be prompted to close the application before continuing. Allow the application to close (the StatsMan Agent service will be stopped).
     
-3. Continue the install process. You should notice that the service password and certificate thumbprint are pre-populated. If not, add the values you saved before continuing.
+7. Continue the install process. You should notice that the service password and certificate thumbprint are pre-populated. If not, add the values you saved before continuing.
     
-4. Open an administrative PowerShell window. Upgrade the Agent component:
+8. Open an administrative PowerShell window. Upgrade the Agent component:
     
-  ```
-  .\Update-StatsMan.ps1 -Service Agent
-  ```
+   ```
+   .\Update-StatsMan.ps1 -Service Agent
+   ```
 
-1. On running the script, you should be prompted to uninstall the old version of the product. Answer Yes.
+9. On running the script, you should be prompted to uninstall the old version of the product. Answer Yes.
     
-2. Continue the install process. You should notice that the website port is pre-populated. If not, add the value you saved before continuing.
+10. Continue the install process. You should notice that the website port is pre-populated. If not, add the value you saved before continuing.
     
-3. Verify the website is working as expected using the browser.
+11. Verify the website is working as expected using the browser.
     
 > [!NOTE]
 > The Agent upgrade can be used with the -NoPrompt switch. This will allow the uninstall/install process to run silently, allowing tools such as PSExec to run the upgrade remotely on a large number of servers. 
