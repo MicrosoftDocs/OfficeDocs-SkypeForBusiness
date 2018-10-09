@@ -48,11 +48,11 @@ As previously announced in April 2018, TeamsInteropPolicy is being retired. Its 
 
 ## Coexistence modes
 
-Interop and migration are nowmanaged based on “coexistence mode” using TeamsUpgradePolicy. A user’s mode determines:
+Interop and migration are now managed based on “coexistence mode” using TeamsUpgradePolicy. A user’s mode determines:
 
-- *Incoming routing* : In which client (Teams or Skype for Business) do incoming chats and calls land? 
-- *Meeting scheduling* : Which service is used for scheduling new meetings and ensuring that the proper add-in is present in Outlook. Note that TeamsUpgradePolicy does not govern meeting join. Users can always *join* any meeting, whether it be a Skype for Business meeting or a Teams meeting.
-- *Client experience* : What functionality is available in Teams and/or Skype for Business client? This is implemented for TeamsOnly mode. Support for other modes is dependent on the upcoming TeamsAppPermissionsPolicy. When this new policy is in place, TeamsUpgradePolicy will have a dependency on it to ensure that Teams is configured properly for the desired mode.
+- *Incoming routing*: In which client (Teams or Skype for Business) do incoming chats and calls land? 
+- *Meeting scheduling*: Which service is used for scheduling new meetings and ensuring that the proper add-in is present in Outlook. Note that TeamsUpgradePolicy does not govern meeting join. Users can always *join* any meeting, whether it be a Skype for Business meeting or a Teams meeting.
+- *Client experience*: What functionality is available in Teams and/or Skype for Business client? This is implemented for TeamsOnly mode. Support for other modes is dependent on the upcoming TeamsAppPermissionsPolicy. When this new policy is in place, TeamsUpgradePolicy will have a dependency on it to ensure that Teams is configured properly for the desired mode.
 
 The planned modes are listed below. SfBWithTeamsCollab and SfBWithTeamsCollabAndMeetings will allow mixed usage of both clients, but with no overlapping functionality. Islands mode allows usage of both clients, but with overlapping functionality. For example, in Islands mode, a user could initiate a chat in either Skype for Business or Teams, but in SfBWithTeamsCollab, they can only chat in Skype for Business. Note that not all modes are yet fully available.  
 </br>
