@@ -60,7 +60,7 @@ The planned modes are listed below. SfBWithTeamsCollab and SfBWithTeamsCollabAnd
 
 |Mode|Routing Behavior|Meeting Scheduling|Client Experience|
 |---|---|---|---|
-|Islands|Incoming VOIP calls and chats land in same client as originator, except if recipient is federated and islands mode, in which case they land in SfB.<sup>1</sup>|Both|End users can initiate calls and chats from either client, and can schedule meetings from either client.|
+|Islands|Incoming VOIP calls and chats land in same client as originator, except if recipient is federated and in islands mode, in which case they land in SfB.<sup>1</sup>|Both|End users can initiate calls and chats from either client, and can schedule meetings from either client.|
 |SfBOnly|Incoming calls and chats are routed to Skype for Business|Skype for Business only|End users can initiate calls and chats from Skype for Business only, and only schedule Skype for Business meetings. (NOT YET ENFORCED)|
 |SfBWithTeamsCollab<sup>2</sup>|Incoming calls and chats are routed to Skype for Business|Skype for Business only|End users can initiate calls and chats from Skype for Business only, and only schedule Skype for Business meetings. They can also use Channels in Teams. (NOT YET ENFORCED)|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|Incoming calls and chats are routed to Skype for Business|Teams only|End users can initiate calls and chats from Skype for Business only and only schedule Teams meetings. They can also use Channels in Teams. (NOT YET ENFORCED)|
@@ -142,7 +142,7 @@ Use the following cmdlet syntax, where $policy is one of the above values of ide
 
 Federation from Teams to another user using Skype for Business requires the Teams user be homed online in Skype for Business. Eventually, Teams users homed in Skype for Business on-premises will be able to federate with other Teams users.
 
-TeamsUpgradePolicy governs routing for incoming federated chats and calls. Federated routing behavior is the same as for same-tenant scnearios, except in Islands mode.  When recipients are in Islands mode: 
+TeamsUpgradePolicy governs routing for incoming federated chats and calls. Federated routing behavior is the same as for same-tenant scenarios, *except in Islands mode*.  When recipients are in Islands mode: 
 - Chats and calls initiated from Teams land in SfB if the recipient is in a *federated tenant*.
 - Chats and calls initiated from Teams land in Teams if the recipient is in the *same tenant*.
 - Chats and calls initiated from SfB always land in SfB.
