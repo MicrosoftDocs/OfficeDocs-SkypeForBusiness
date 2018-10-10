@@ -23,27 +23,31 @@ Presence is part of a user’s profile in Microsoft Teams (and throughout Office
 
 The user presence states available in Teams are:
 
-- Available
-    - Available until *time*
-- Busy
-    - In a call
-    - In a meeting 
-- Do not disturb
-    - Presenting
-- Away
-    - Away Last Seen *time*
-    - Away be right back
-    - Away Off Work
+|User configured|App configured|
+|:--- |:---|
+|<span style="color: green">&bull; </span> Available||
+||<span style="color: green">&bull; </span> Available until *time*|
+|<span style="color: red">&bull; </span> Busy||
+||<span style="color: red">&bull; </span> In a call|
+||<span style="color: red">&bull; </span> In a meeting|
+|<span style="color: red">&bull; </span> Do not disturb||
+||<span style="color: red">&bull; </span> Presenting|
+|<span style="color: yellow">&bull; </span> Away|<span style="color: yellow">&bull; </span>Away|
+||<span style="color: yellow">&bull; </span> Away Last Seen *time*|
+||<span style="color: yellow">&bull; </span> Away be right back|
+|| <span style="color: yellow">&bull; </span> Away Off Work|
+|||
+||<span style="color: gray">&bull; </span> Offline|
+||<span style="color: gray">&bull; </span> Presence unknown|
+||<span style="color: gray">&bull; </span> Blocked|
+||<span style="color: gray">&bull; </span> Out of Office|
+||<span style="color: gray">&bull; </span> Out of office until *date*|
+|||
 
-    - Offline
-    - Presence unknown
-    - Blocked
-    - Out of Office
-        - Out of office until *date*
-
-Users can manually set their current presence state to first-level options, and their state is reflected to all other users. Additional user presence is also automatically updated based on machine activity (such as Available or Away), Outlook calendar states (such as In a meeting), or Teams app states (In a call, Presenting), to states that are indented in the list.
+Users can manually set their current presence state to some options, and their state gets reflected to all other users. Additional user presence details are also automatically updated based on user activity (such as Available or Away), Outlook calendar states (such as In a meeting), or Teams app states (In a call, Presenting), to states that are indented in the list.
 
 **(SfB and Outlook integration: are these live outside MSFT yet?)**
+**What is the inactivity timeout for available vs away? Will this ever be admin configurable?**
 
 Users can specify who can break through (contact them overriding a Do Not Disturb setting). These settings are available in-app.
 
@@ -53,13 +57,13 @@ If you're in a dual environment where some users are on Skype for Business and s
 
 ## Teams is not Skype for Business
 
-The following capabilities in Skype for Business are different in Teams:
-- Enabling or disabling Client Do Not Disturb and Breakthrough features (always enabled for users in Teams)
-- Privacy (who can see Presence) configuration (not available in Teams)
-- Calendar (includes OOF & other calendar info) integration  (always enabled for users in Teams if integrated with Outlook)
-- *Last seen* or *Away since* indicator (always enabled for users in Teams)
-- Custom presence status (not enabled for users in Teams)
-- Disabling presence sharing for the organization (presence is always enabled for users in Teams)
-- Customizing whether presence is shared with everyone or only with a user's contact list (always enabled for users in Teams)
+The following Admin settings in Skype for Business are different in Teams:
+- Client Do Not Disturb and Breakthrough features are always enabled for users in Teams.
+- Privacy (who can see Presence) configuration is not available in Teams.
+- Calendar (includes OOF & other calendar info) integration  is always enabled for users in Teams if integrated with Outlook.
+- The *Last seen* or *Away since* (if in a dual environment) indicator is always enabled for users in Teams.
+- Custom presence status is not enabled for users in Teams.
+- Presence sharing is always enabled for users in Teams for the organization
+- Presence sharing with everyone is always enabled for users in Teams. Their contact list (if they had one in SfB) is visible under **Chat > Contacts** or under **Calls > Contacts**.
 
 The ability of an Admin to customize these settings is not currently supported.
