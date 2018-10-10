@@ -49,9 +49,11 @@ The default recommendation and setting for traffic within Skype for Business Ser
   
 The Traversal Using Relay NAT (TURN) protocol does not mandate the traffic to be encrypted and the information that it is sending is protected by message integrity. Although it is open to eavesdropping, the information it is sending (that is, the IP addresses and port) can be extracted directly by simply looking at the source and destination addresses of the packets. The A/V Edge service ensures that the data is valid by checking the Message Integrity of the message by using the key derived from a few items, including a TURN password, which is never sent in clear text. If Secure Real Time Protocol (SRTP) is used, media traffic is also encrypted.
   
-## Identity Spoofing (IP Address, Caller Id)
+## Identity Spoofing (IP Address and Caller Id Spoofing)
 
-Spoofing occurs when the attacker determines and uses an IP address or Caller ID of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the IP address. Within the context of Skype for Business Server, this situation comes into play only if an administrator has done both of the following:
+Identity Spoofing occurs when the attacker determines and uses a phone number of a valid user (caller id) or an IP address of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the phone number (caller id) or the IP address.
+
+Within the context of Skype for Business Server, IP Address Spoofing comes into play only if an administrator has done both of the following:
   
 - Configured connections that support only Transmission Control Protocol (TCP) (which is not recommended, because TCP communications are unencrypted).
     
