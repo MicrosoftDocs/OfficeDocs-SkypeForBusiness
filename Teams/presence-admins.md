@@ -32,10 +32,10 @@ The user presence states available in Teams are:
 ||<span style="color: red">&bull; </span> In a meeting|
 |<span style="color: red">&bull; </span> Do not disturb||
 ||<span style="color: red">&bull; </span> Presenting|
-|<span style="color: yellow">&bull; </span> Away|<span style="color: yellow">&bull; </span>Away|
-||<span style="color: yellow">&bull; </span> Away Last Seen *time*|
-||<span style="color: yellow">&bull; </span> Away be right back|
-|| <span style="color: yellow">&bull; </span> Away Off Work|
+|<span style="color: Gold">&bull; </span> Away|<span style="color: Gold">&bull; </span>Away|
+||<span style="color: Gold">&bull; </span> Away Last Seen *time*|
+||<span style="color: Gold">&bull; </span> Away be right back|
+|| <span style="color: Gold">&bull; </span> Away Off Work|
 |||
 ||<span style="color: gray">&bull; </span> Offline|
 ||<span style="color: gray">&bull; </span> Presence unknown|
