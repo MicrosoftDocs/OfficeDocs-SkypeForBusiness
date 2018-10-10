@@ -14,14 +14,14 @@ Admin training for Skype for Business Online
 
 Please review below content to learn about Skype for Business.
 
-For readiness on Microsoft Teams please refer to [Teams Academy](http://aka.ms/teamsacademy).
-
-
 > [!NOTE] 
 > If you are looking for old Skype Academy page, you can for limited time access it here: [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy).
 
 > [!NOTE] 
-> The Skype Operations Framework (SOF) has evolved. To understand how, please watch [this session from Ignite](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK2036). Some of the trainings below have been recorded before these changes; so while the terminology might be outdated, the principles still apply. 
+> This content was originally created as part of the Skype Operations Framework (SOF) initative and is provided here for your reference.
+> 
+> For readiness on Microsoft Teams please refer to [Admin training for Microsoft Teams](http://aka.ms/teamsacademy).
+
 
 
 |  |  |
@@ -91,6 +91,4 @@ For readiness on Microsoft Teams please refer to [Teams Academy](http://aka.ms/t
 | [ What’s new in Cloud Connector Edition V2](https://aka.ms/sa-yt-cce-wnv2) | Cloud Connector Edition v2 introduces a number of new features and improvements. Watch this session to learn what has changed from the previous version. |
 | [ MOOC: Skype Operations Framework](https://aka.ms/sof-mooc8) | Learn the methodology to effectively deploy and operate Skype for Business and related technologies. |
 | [ Network Planner](https://aka.ms/sa-network-planner) | Network planner allows to plan for Networking. Attend this session to learn what network planner can do for you. |
-| [ MyAdvisor](https://aka.ms/sa-myadvisor) | MyAdvisor is your personal advisor, providing guidance based on your preferences. This video provides a quick overview. |
-| [ Introduction to Audio Conferencing](https://aka.ms/teams-conf-intro-yt) | Attend this session to learn the value of Audio Conferencing. |
 | [ Understand the journey from Skype for Business to Microsoft Teams](https://aka.ms/tr-journey) | In this training, we introduce the new intelligent communications vision and explain the future for Skype for Business and Teams. |
