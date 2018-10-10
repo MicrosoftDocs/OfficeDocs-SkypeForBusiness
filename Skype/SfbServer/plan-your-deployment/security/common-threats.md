@@ -60,6 +60,10 @@ Within the context of Skype for Business Server, IP Address Spoofing comes into 
 - Marked the IP addresses of those connections as trusted hosts.
     
 This is less of a problem for Transport Layer Security (TLS) connections, as TLS authenticates all parties and encrypts all traffic. Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections). But an attacker could still spoof the address of the DNS server that Skype for Business Server uses. However, because authentication in Skype for Business is performed with certificates, an attacker would not have a valid certificate required to spoof one of the parties in the communication.
+
+On the other hand, Caller Id Spoofing comes into play when you have established a SIP trunk between a provider, PSTN gateway or another PBX system and Skype for Business Server. In these cases, Skype for Business Server does not offer any protection to prevent against caller id spoofing. This means that a Skype for Business user can receive a call from the SIP trunk with a spoofed caller id displaying the phone number of another Skype for Business user.
+
+While the section entitled "Identity spoofing (IP address spoofing)" specifically outlines IP based spoofing, a note should be included for "non-savvy" readers that Skype for business does not have any protections in place to prevent/protect against identity spoofing that merely involves traditional caller ID spoofing. I've been able to verify that placing a call to an SfB number with a spoofed caller ID consisting of another SfB number (from the same organization) will successfully result in the spoofed number's SfB contact info being displayed on the recipient's device (desk phone, SfB desktop client and SfB mobile app). Protection to this should be applied on the provider side, PSTN gateway or PBX.
   
 ## Man-in-the-Middle Attack
 
