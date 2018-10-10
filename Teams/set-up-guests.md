@@ -54,7 +54,7 @@ The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hou
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession
     ```
-3.	Check your configuration and if `AllowGuestUser` is `$False`, set it to `$True` by using the `Set-CsTeamsClientConfiguration` cmdlet:
+3.	Check your configuration and if `AllowGuestUser` is `$False`, use the [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet to set it to `$True`.
 
     ```
     Get-CsTeamsClientConfiguration
