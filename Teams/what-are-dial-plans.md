@@ -32,7 +32,7 @@ A dial plan is a named set of normalization rules that translate dialed phone nu
 
 A dial plan consists of one or more normalization rules that define how phone numbers expressed in various formats are translated to an alternate format. The same dial string may be interpreted and translated differently in different dial plans, so depending on which dial plan is assigned to a given user, the same dialed number may be translated and routed differently.
 
-See [Create and manage dial plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) to create and manage tenant dial plans.
+See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage tenant dial plans.
 
 ## Tenant dial plan scope
 
@@ -54,7 +54,7 @@ The following are the possible effective dial plans:
 
  **Tenant User - Service Country** If a tenant user dial plan is defined and assigned to a user, the provisioned user will receive an effective dial plan consisting of the merged tenant user dial plan and the service country dial plan associated with their Office 365 Usage Location.
 
-See [Create and manage dial plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) to create your tenant dial plans.
+See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
 
 ## Planning for tenant dial plans
 
@@ -92,7 +92,7 @@ You can specify an external access prefix of up to four characters (#, *, and 0-
 > [!NOTE]
 > If you specify an external access prefix, you don't need to create an additional normalization rule to accommodate the prefix. 
 
-See [Create and manage dial plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) to create your tenant dial plans.
+See [Create and manage dial plans](create-and-manage-dial-plans.md) to create your tenant dial plans.
 
 ## Normalization rules
 
@@ -110,7 +110,7 @@ Normalization rules use .NET Framework regular expressions to specify numeric ma
 
 For details about using .NET Framework regular expressions, see [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
-See [Create and manage dial plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) to create and manage normalization rules for your tenant dial plans.
+See [Create and manage dial plans](create-and-manage-dial-plans.md)) to create and manage normalization rules for your tenant dial plans.
 
 ### Sample normalization rules
 
@@ -147,7 +147,7 @@ The following table shows sample normalization rules that are written as .NET Fr
 
 ## Related topics
 
-[Create and manage dial plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
+[Create and manage dial plans](create-and-manage-dial-plans.md))
 
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
