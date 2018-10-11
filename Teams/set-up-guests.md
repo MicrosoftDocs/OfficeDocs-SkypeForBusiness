@@ -37,29 +37,15 @@ The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hou
 > [!IMPORTANT]
 > To enable the full experience of the guest access feature, it's important to understand the core authorization dependency between Microsoft Teams, Azure Active Directory, and Office 365. For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
 
-1. Sign in with your Office 365 global admin account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
+1. Sign in with your Office 365 global admin account at [https://admin.microsoft.com](https://admin.microsoft.com).
     
   
-2. In the navigation menu, choose **Settings** and then select **Services &amp; add-ins**.
+2. In the navigation menu, choose **Admin centers** and then select **Teams & Skype**.
     
-     ![Sign in to Office 365, go to the Office 365 admin center, go to Settings, and then choose Services &amp; add-ins.](media/99e676d4-5b48-4525-9556-547031fa37d9.png)
-  
- 
-
-  
-3. Select **Microsoft Teams**.
-    
-     ![Screenshot shows the option for the Microsoft Teams add-in, as selected in the Office 365 admin center.](media/17ac5608-d212-4fa8-ae3a-e78c62003968.png)
+3. In the navigation menu of the Teams & Skype admin center, choose **Org-wide settings** and then select **Guest access**.
   
   
-4. In **Select the user/license type you want to configure**, select **Guest**.
-   
-    ![Screenshot of the Microsoft Teams add-in shows the Guest license selected and the Microsoft Teams option set to On.](media/92aabda5-431c-4fdd-803e-5ab49290f4f7.png)
-      
-
-  
-  
-5. Click or tap the toggle next to **Turn Microsoft Teams on or off for all users of this type** to **On** to turn on Teams and guest access for your organization, and then choose **Save**. 
+4. Click or tap the toggle next to **Allow guest access in Microsoft Teams** to **On** to turn on Teams and guest access for your organization, and then choose **Save**. 
     
    Watch the following videos for more details about guest access:  
 
