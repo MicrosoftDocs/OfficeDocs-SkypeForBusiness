@@ -75,7 +75,7 @@ ms.date: 08/24/2018
                                             </div>
                                             <div class="cardText">
                                                 <h3>Manage your upgrade from Skype for Business to Teams</h3>
-                                                <p>Gain insights into planning and implementing a successful upgrade from Skype for Business to Teams. (Audience: IT Pro, adoption change managers)</p>
+                                                <p>Plan & implement a successful upgrade from Skype for Business to Teams (Audience: IT Pro, adoption change managers)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -94,7 +94,7 @@ ms.date: 08/24/2018
                                             </div>
                                             <div class="cardText">
                                                 <h3>Switch from Skype for Business to Teams: end user guidance</h3>
-                                                    <p>Get what you need to quickly start chatting, meeting, and calling in Teams during your transition from Skype for Business to Teams. (Audience: End users)</p>
+                                                    <p>Get what you need to quickly start using Teams during your transition from Skype for Business to Teams. (Audience: End users)</p>
                                             </div>
                                         </div>
                                     </div>
