@@ -36,8 +36,8 @@ ms.date: 08/24/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>#ThisIsTeams - Microsoft Teams overview (Audience: All)</h3>
-                                                    <p>What is Microsoft Teams? Join us for this 30-minute orientation to discover what Teams is and how it can work for you.</p>
+                                                    <h3>#ThisIsTeams - Microsoft Teams overview</h3>
+                                                    <p>What is Microsoft Teams? Join us for this 30-minute orientation to discover what Teams is and how it can work for you. (Audience: All)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -55,8 +55,8 @@ ms.date: 08/24/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Getting started with Teams (Audience: End users)</h3>
-                                                    <p>From chatting and meetings to using teams and channels, users will leave this session with the foundation to use Teams with confidence.</p>
+                                                    <h3>Getting started with Teams</h3>
+                                                    <p>From chatting and meetings to using teams and channels, users will leave this session with the foundation to use Teams with confidence. (Audience: End users)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -74,8 +74,8 @@ ms.date: 08/24/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Manage your upgrade from Skype for Business to Teams (Audience: IT Pro, adoption change managers)</h3>
-                                                <p>Gain insights into planning and implementing a successful upgrade from Skype for Business to Teams. </p>
+                                                <h3>Manage your upgrade from Skype for Business to Teams</h3>
+                                                <p>Gain insights into planning and implementing a successful upgrade from Skype for Business to Teams. (Audience: IT Pro, adoption change managers)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,8 +93,8 @@ ms.date: 08/24/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Switch from Skype for Business to Teams: end user guidance (Audience: End users)</h3>
-                                                    <p>Get what you need to quickly start chatting, meeting, and calling in Teams during your transition from Skype for Business to Teams.</p>
+                                                <h3>Switch from Skype for Business to Teams: end user guidance</h3>
+                                                    <p>Get what you need to quickly start chatting, meeting, and calling in Teams during your transition from Skype for Business to Teams. (Audience: End users)</p>
                                             </div>
                                         </div>
                                     </div>
