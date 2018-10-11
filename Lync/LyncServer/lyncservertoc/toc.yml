@@ -4839,6 +4839,6 @@
   - name: Lync Server Management Shell
     href: ../lync-server-2013-lync-server-management-shell.md
   - name: Lync Server 2013 Tools
-    href: ../lync-server-2013-tools.md
+    href: ../../LyncTools/lync-server-2013-tools.md
   - name: Glossary
     href: ../lync-server-2013-glossary.md
