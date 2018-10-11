@@ -110,7 +110,7 @@ Normalization rules use .NET Framework regular expressions to specify numeric ma
 
 For details about using .NET Framework regular expressions, see [.NET Framework Regular Expressions](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
-See [Create and manage dial plans](create-and-manage-dial-plans.md)) to create and manage normalization rules for your tenant dial plans.
+See [Create and manage dial plans](create-and-manage-dial-plans.md) to create and manage normalization rules for your tenant dial plans.
 
 ### Sample normalization rules
 
@@ -147,7 +147,7 @@ The following table shows sample normalization rules that are written as .NET Fr
 
 ## Related topics
 
-[Create and manage dial plans](create-and-manage-dial-plans.md))
+[Create and manage dial plans](create-and-manage-dial-plans.md)
 
 [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
