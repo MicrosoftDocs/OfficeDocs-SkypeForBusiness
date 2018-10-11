@@ -27,7 +27,7 @@ This allows live event organizers to create events with appropriate attendee vis
 
 |**Values**  |**Behavior**  |
 |---------|---------|
-|Everyone     |The user has an option to create live events with the following attendee visibility: Public, Everyone in company, and Specific people. |
+|Everyone     |The user has an option to create live events with the following attendee visibility: Public, Everyone in company and Specific people. |
 |EveryoneInCompany     |The user has an option to create live events with the following attendee visibility: Everyone in company and Specific people. The user cannot create live events that can be attended by anonymous users.|
 |InvitedUsers |The user can only create live events that are limited to specific people as entered by the event organizer. The user cannot create live events with Public and Everyone in company authentication. |
 
