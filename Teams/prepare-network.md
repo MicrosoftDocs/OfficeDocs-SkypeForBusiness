@@ -55,6 +55,9 @@ Bandwidth requirements
 
 Bandwidth calculations for Microsoft Teams are complex and to help with this, a calculator has been created. To access the calculator, go to [Network Planner in MyAdvisor](https://aka.ms/bwcalc/).
 
+> [!NOTE]
+> Teams bandwidth handling improves on Skype for Business Online: for a high quality calling or meeting experience (with audio, video, and sharing), Teams requires only 1.2 Mbps. It can also scale up further for super high quality if there is enough available bandwidth. When a Teams request encounters a low bandwidth condition, Teams can quickly readjust bandwidth usage to adapt to available bandwidth.
+
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
 
