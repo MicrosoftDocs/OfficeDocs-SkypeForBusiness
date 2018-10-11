@@ -21,8 +21,7 @@ appliesto:
 Manage teams in the Microsoft Teams & Skype for Business Admin Center
 ==========================================
 
-> [!NOTE]
-> This is in the process of rolling out to tenants. If you don't see this yet in your tenant, check back in a couple weeks.
+[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## Overview
 
