@@ -39,7 +39,7 @@ Use the steps in this article when:
     
 - You want the people in your organization to use Skype for Business to contact people in specific businesses outside of your organization.
     
--You want anyone else in the world who uses Skype for Business to be able to find and contact you, using your email address. If you and they use the default Skype for Business settings, this will work automatically. If they don't, then they need to make sure their configuration isn't blocking your domain.
+- You want anyone else in the world who uses Skype for Business to be able to find and contact you, using your email address. If you and they use the default Skype for Business settings, this will work automatically. If they don't, then they need to make sure their configuration isn't blocking your domain.
     
 ## Enable business-to-business communications for your users
 <a name="bk_preview"> </a>

@@ -794,7 +794,7 @@ user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-offi
 organization](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
 [Create and manage dial
-plans](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
+plans](https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans)
 
 #### Common tasks for Audio Conferencing
 
