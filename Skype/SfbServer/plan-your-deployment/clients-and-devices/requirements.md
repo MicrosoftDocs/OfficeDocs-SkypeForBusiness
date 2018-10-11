@@ -37,10 +37,8 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 |Surface Pro 4       |Core i5  |4GB  |128GB  |
 |Surface Pro 4       |Core i5  |8GB  |256GB  |    
 |Surface Pro (2017)  |Core i5  |4GB  |128GB  |
+|Surface Pro (2017)  |Core i5  |8GB  |128GB  |
 |Surface Pro (2017)  |Core i5  |8GB  |256GB  |
-|Surface Pro (2017)  |Core i7  |8GB  |128GB  |
-|Surface Pro (2017)  |Core i7  |16GB |512GB  |
-|Surface Pro (2017)  |Core i7  |16GB |1TB    |
 
 > [!NOTE]
 > Core M3 processors are not supported.
