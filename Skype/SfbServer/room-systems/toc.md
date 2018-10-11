@@ -5,9 +5,6 @@
 ### [Release notes](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [Prepare your environment](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [Requirements](../plan-your-deployment/clients-and-devices/requirements.md)
-<!-- This link goes to 404
-### [Online Licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
--->
 ### [Online Licensing](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 ### [Plan management with OMS](../plan-your-deployment/clients-and-devices/oms-management.md)
 
