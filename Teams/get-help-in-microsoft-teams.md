@@ -34,7 +34,7 @@ Teams provides localized language support for help content. For the most current
    Periodic release notes for users and team owners about new or updated Teams features.
 
  - **Share an Idea**
-   We always want to hear from you about how to improve Teams. This option takes you to our product feedback forum where you can submit new feature requests or vote on ones that exist. We constantly review this information as we plan new features. 
+   We always want to hear from you about how to improve Teams. This option takes you to our product feedback forum where you can submit new feature requests or vote on existing ones. We constantly review this information as we plan new features. 
 
 > [!NOTE]
 > Help replaces T-Bot in Teams. Some users may see a chat icon for T-Bot in their chat history. Clicking this icon will take them to the new Help experience. 
