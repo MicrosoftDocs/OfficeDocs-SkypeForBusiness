@@ -131,7 +131,7 @@ ms.date: 08/24/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Teams in Education - Webinars</h3>
+                                                <h3>Teams for Education - Webinars</h3>
                                                 <p>Learn how to use Teams in higher education. (Audience: Staff, students, academics, research faculty, IT professionals)</p>
                                             </div>
                                         </div>
