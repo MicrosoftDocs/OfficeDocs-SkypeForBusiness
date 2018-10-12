@@ -75,7 +75,7 @@ ms.date: 08/24/2018
                                             </div>
                                             <div class="cardText">
                                                 <h3>Manage your upgrade from Skype for Business to Teams</h3>
-                                                <p>Plan & implement a successful upgrade from Skype for Business to Teams (Audience: IT Pro, adoption change managers)</p>
+                                                <p>Plan & implement a successful upgrade to Teams (Audience: IT professionals, adoption change managers)</p>
                                             </div>
                                         </div>
                                     </div>
