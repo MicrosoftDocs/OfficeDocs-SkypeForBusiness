@@ -121,6 +121,7 @@ ms.date: 08/24/2018
                             </a>
                         </li>
                         <li>
+                            <a href="https://aka.ms/TeamsEduWebinars">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -130,8 +131,8 @@ ms.date: 08/24/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>More training coming soon!</h3>
-                                                <p>Keep checking back to take additional instructor-led courses as we launch them.</p>
+                                                <h3>Teams in Educaiton - Webinars</h3>
+                                                <p>Learn how to use Teams in higher education. (Audience: Staff, students, academics, research faculty, IT professionals)</p>
                                             </div>
                                         </div>
                                     </div>
