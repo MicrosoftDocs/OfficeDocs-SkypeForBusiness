@@ -20,14 +20,17 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 ##  Version history
 
 | Release | Published to <br>Microsoft Store | 
-| ---     | ---                              |
-| 4.0.8.0|  07/06/2018    |   
+| ---     | ---  |
+| 4.0.27.0 |  10/1/2018    | 
+| 4.0.19.0 |  08/31/2018    |   
+| 4.0.18.0 |  08/27/2018    |   
+| 4.0.8.0 |  07/06/2018    |   
 | 3.1.115.0|  06/18/2018    |
 | 3.1.113.0|  06/13/2018    |   
 | 3.1.112.0|  06/05/2018    |   
 | 3.1.104.0|  04/16/2018    |            
 | 3.1.100.0|  03/16/2018    |            
-| 3.1.99.0 | 3/14/2018      |   
+| 3.1.99.0 | 3/14/2018      |  
 | 3.1.98.0    | 3/8/2018    |   
 |  3.0.16.0    |  11/27/2017   |
 | 3.0.15.0 | 10/3/2017  |            
@@ -39,6 +42,25 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 
 
 ## Skype Room Systems v2 feature introduction and issue resolution
+
+### 4.0.27.0 (10/1/2018)
+Introduced in this update: 
+- Code changes necessary to prepare the SRSv2 app for later Windows 10 Version 1803 upgrade
+- Fix formatting issue with localized EULAs - specifically Norwegian - which prevents advancing beyond EULA OOBE setup window
+- Code changes required to make Skype Room Systems v2 application run on legacy Lync Room Systems. See more [here](https://aka.ms/lrsupgrade).
+ 
+
+### 4.0.19.0 (8/31/2018)
+Introduced in this update: 
+- Hotfix for Crestron application not launching which would normally be accessible by pressing the app button on Crestron SR devices. SRSv2 app restart required after installation of 4.0.19.0 
+
+### 4.0.18.0 (08/27/2018)
+Introduced in this update: 
+- "Report a Problem" feature improvements in Teams mode (equivalent of "Give Feedback" in Skype for Business mode)
+- Enable ability to fallback from Teams to Skype for Business mode for SIP calls
+- Accessibility improvements (Narrator, Magnifier)
+- Automatically restart app when required after XML provisioning changes have been applied
+- Miscellaneous fixes
 
 ### 4.0.8.0 (07/06/2018)
 Introduced in this update: 
@@ -136,7 +158,7 @@ Skype Room Systems v2 management with OMS](oms-management.md))
 - Invite people from your directory where you can instantly see their availability or via a phone call
 - Supports Skype for Business PSTN Conferencing and PSTN Calling to replace the stand-alone conference phone in your room
     
- **Transform Any Meeting Room**
+  **Transform Any Meeting Room**
   
 - Dedicated Skype Meeting app optimized for center of table touch controller and large front of room display
 - Re-use existing investments in your front of room display or projectors
@@ -144,7 +166,7 @@ Skype Room Systems v2 management with OMS](oms-management.md))
 - Certified Skype for Business audio and video devices are available for various room sizes
 - Built-in wired ingest for to project desktop sharing to the room and to the Skype Meeting
     
- **Easy to Deploy, Simple to Manage**
+  **Easy to Deploy, Simple to Manage**
   
 - Always-on appliance that will automatically wake up the displays when it detects people in the room
 - Simple deployment and updating of the UWP (Universal Windows Platform) Skype Meeting App

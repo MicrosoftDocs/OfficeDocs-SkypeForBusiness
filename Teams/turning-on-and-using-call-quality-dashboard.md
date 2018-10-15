@@ -181,11 +181,11 @@ The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, access
     
 2. After selecting the file data type, click **Browse** to choose a data file.
     
-  - The data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. If using a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY, in the .csv file it should be entered as "NY,NY".
+   - The data file must be a .tsv (Tab-separated values) file or a .csv (Comma-separated value) file. If using a .csv file, any field that contains a comma must be surrounded by quotes or have the comma removed. For example, if your building name is NY,NY, in the .csv file it should be entered as "NY,NY".
     
-  - The data file must be no larger than 50MB in size.
+   - The data file must be no larger than 50MB in size.
     
-  - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
+   - For each data file, each column in the file must match a predefined data type, discussed later in this topic.
     
 3. After selecting a data file, specify **Start date** and, optionally, **Specify an end date**.
     

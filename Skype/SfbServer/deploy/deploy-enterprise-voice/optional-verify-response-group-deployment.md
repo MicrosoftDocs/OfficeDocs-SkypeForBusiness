@@ -26,7 +26,7 @@ After you configure Response Group, you need to verify the configuration to make
     
 - An agent who is homed on Skype for Business
     
- **Scenarios**
+  **Scenarios**
   
 - The Skype for Business user calls the response group.
     

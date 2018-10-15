@@ -41,9 +41,9 @@ To configure add-ins for chat rooms by using the Control Panel:
     
 6. In **New Add-in**, do the following:
     
-  - In **Name**, specify a name for the new add-in.
+   - In **Name**, specify a name for the new add-in.
     
-  - In **URL**, specify the URL to be associated with the add-in. URLs are limited to the http and https protocols.
+   - In **URL**, specify the URL to be associated with the add-in. URLs are limited to the http and https protocols.
     
 7. Click **Commit**.
     

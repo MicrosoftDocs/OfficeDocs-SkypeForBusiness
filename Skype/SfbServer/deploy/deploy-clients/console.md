@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Configure a Skype Room Systems v2 console"
 ms.author: jambirk
 author: jambirk
@@ -140,7 +140,7 @@ After Windows is installed, the Skype Room Systems v2 console app will go into i
     
    - Default Speaker: the speaker used for audio from the HDMI ingest.
     
-    Each item has a drop-down menu of options to select from. You must make a selection for each device.
+     Each item has a drop-down menu of options to select from. You must make a selection for each device.
     
 6. Click **Finish**.
     
@@ -169,9 +169,9 @@ The Skype Room Systems v2 console needs to trust the certificates used by the Sk
     
 3. Run the following command:
     
-  ```
-  certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
-  ```
+   ```
+   certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
+   ```
 
 ### Join an Active Directory domain (Optional)
 <a name="Certs"> </a>
@@ -186,9 +186,9 @@ You can join Skype Room Systems v2 consoles to your domain. Skype Room Systems v
     
 3. Enter the following command in Powershell:
     
-  ```
-  Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
-  ```
+   ```
+   Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
+   ```
 
 For example, if your fully qualified domain is redmond.corp.microsoft.com and you want your Skype Room Systems v2 consoles to be in a "Skype Room Systems v2" OU that is a child of a "Resources" OU, the command will be:
   

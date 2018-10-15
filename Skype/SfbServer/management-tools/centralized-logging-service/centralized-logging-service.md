@@ -89,9 +89,9 @@ The Centralized Logging Service is configured to define what the logging service
     
 2. Type the following at a command-line prompt:
     
-  ```
-  Get-CsClsConfiguration
-  ```
+   ```
+   Get-CsClsConfiguration
+   ```
 
     > [!TIP]
     > You can narrow or expand the scope of the configuration settings that are returned by defining  `-Identity` and a scope, such as "Site:Redmond" to return only the CsClsConfiguration for the site Redmond. If you want details about a given portion of the configuration, you can pipe the output into another Windows PowerShell cmdlet. For example, to get details about the scenarios defined in the configuration for site "Redmond", type: `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`

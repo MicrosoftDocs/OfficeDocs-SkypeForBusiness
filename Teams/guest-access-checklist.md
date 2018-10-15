@@ -26,11 +26,9 @@ Use this checklist to help you enable and configure the Guest Access feature in 
 
 ## □  Enable guest access at the tenant level
 
-At a minimum, you must turn on Microsoft Teams for all users of the license type **Guest**. For detailed instructions, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md).
+Go to the Teams & Skype for Business Admin Center, via https://admin.teams.microsoft.com. From here, select 'Org-Wide Settings', and selec the 'Guest Access' tab. Lastly, within this tab, select 'Allow guest access in Microsoft Teams' to enabled. 
 
-![Screenshot shows an example of a Teams Settings toggle](media/guest-access-checklist-TeamsSettings1.png)
-
-
+## Need a new screenshot for new Admin Center enablement. 
 
 ## □ Enable specific settings for channels 
 In the Teams application, at the individual team level, configure guest permissions so that guests can create, update, and delete channels. In addition to admins,  team owners can configure this setting.
@@ -82,7 +80,7 @@ For detailed instructions about configuring these settings, see the section "Off
 ► At a minimum to support guests, **Members can invite** must be set to **Yes**.
 
 > > [!NOTE]
-> If you set **Members can invite** to **No** and enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to Teams by non-admin members (team owners).
+> > If you set **Members can invite** to **No** and enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to Teams by non-admin members (team owners).
 
 
 For more information, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).

@@ -52,9 +52,9 @@ You can see [Set the phone numbers included on invites](set-the-phone-numbers-in
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**, and then:
     
-  - You can view the phone numbers that are available for audio conferencing.
+   - You can view the phone numbers that are available for audio conferencing.
     
-  - You can also view the location, and the primary and secondary languages that will be used by the audio conferencing auto attendant.
+   - You can also view the location, and the primary and secondary languages that will be used by the audio conferencing auto attendant.
     
 > [!NOTE]
 > You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). 

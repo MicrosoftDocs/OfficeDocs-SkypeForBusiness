@@ -72,6 +72,7 @@ For enterprise networks where Internet Protocol security (IPsec) (see IETF RFC 4
 The following table explains the recommended IPsec exception settings.
 
 **Recommended IPsec Exceptions**
+
 |Rule name |Source IP |Destination IP |Protocol |Source port |Destination port |Authentication Requirement |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
 |A/V Edge Server Internal Inbound|Any  |A/V Edge Server Internal|UDP and TCP|Any |Any |Do not authenticate|

@@ -2,15 +2,15 @@
 # Get started
 
 ## [Overview of Teams](Teams-overview.md)
-## [Quick start - Teams planning guide](quick-start-enable-teams.md)
 ## [Tools and workshops: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
-## [Office 365 licensing for Teams](office-365-licensing.md)
+## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
 
 <!-- ============================================================ -->
 # Plan
 
+## [Quick start - Teams planning guide](quick-start-enable-teams.md)
 ## [Check your environment’s readiness for Teams](environment-readiness.md)
 ## [Prepare your organization's network for Teams](prepare-network.md)
 ## [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
@@ -20,8 +20,7 @@
 ## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ## [Plan for governance in Teams](plan-teams-governance.md)
 ## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
-## Drive adoption
-### [Create change management strategy](change-management-strategy.md)
+## [Create change management strategy](change-management-strategy.md)
 <!-- ============================================================ -->
 
 
@@ -39,13 +38,13 @@
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 ## [Run Teams in a virtual environment](virtual-environment-teams.md)
 ## [Enable Teams in your organization](Office-365-set-up.md)
+## [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
 ### [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
-## [Modern authentication](sign-in-teams.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 ## [Cloud voice deployment guidance](cloud-voice-deployment.md)
 ### [Define my success](1-envision-define-my-success-cloud-voice.md)
@@ -67,8 +66,6 @@
 ### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
-### [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
-### [What are Communications Credits?](what-are-communications-credits.md)
 ## Supported devices
 ### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -80,7 +77,6 @@
 <!-- ============================================================ -->
 # [Upgrade from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
 ## [Upgrade Basic](upgrade-basic.md)
 ### [Sample emails and surveys](upgrade-emails-surveys.md)
 ## [Upgrade Pro](upgrade-pro.md)
@@ -113,6 +109,19 @@
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
+# Interoperability with Office 365
+## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+## [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+## [Office 365 groups and Teams](office-365-groups.md)
+## [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
+## [How Exchange and Teams interact](exchange-teams-interact.md)
+### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
+### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
+## [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
+## [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
+<!-- ============================================================ -->
+
+<!-- ============================================================ -->
 # Manage
 ## [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 ## Monitor call quality and QoS
@@ -137,7 +146,6 @@
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
-## [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 <!-- ============================================================ -->
 
 
@@ -146,6 +154,7 @@
 ## [Overview of security and compliance in Teams](security-compliance-overview.md)
 ## [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
 ## [Identity models and authentication in Teams](identify-models-authentication.md)
+## [Modern authentication](sign-in-teams.md)
 ## [Place a Teams user or team on legal hold](legal-hold.md)
 ## [Search the audit log for events in Teams](audit-log-events.md)
 ## [Use Content Search in Teams](content-search.md)
@@ -154,40 +163,24 @@
 ### [Retention policies known issues](retention-policies-known-issues.md)
 ## [Location of data in Teams](location-of-data-in-teams.md)
 ## [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
-##  [Accessibility solutions for Skype for Business Online and Microsoft Teams](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-##  [Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
-##  [Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
-##  [Complimentary dial out period](complimentary-dial-out-period.md)
+## [Accessibility solutions for Skype for Business Online and Microsoft Teams](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+##  [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
+##  [Calling plans in Office 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ## [Data collection practices](data-collection-practices.md)
 ##  [Emergency call labels](emergency-calling-labels.md)
 ##  [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 <!-- ============================================================ -->
-<!-- ============================================================ -->
-# Interoperability with Office 365
-## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-## [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
-## [Office 365 groups and Teams](office-365-groups.md)
-## [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
-## [How Exchange and Teams interact](exchange-teams-interact.md)
-### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
-### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
-### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
-## [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
-## [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
-<!-- ============================================================ -->
+
 
 
 <!-- ============================================================ -->
 # Features
-## Accessibility
-### [Accessibility Declaration of Conformance for Skype for Business Online in France](/SkypeForBusiness/legal-and-regulatory/accessibility-declaration-of-conformance-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Accessibility solutions for Skype for Business Online in France](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## Teams & channels
 ### [Overview of teams and channels in Teams](teams-channels-overview.md)
 ### [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ### [Best practices for organizing teams in Teams](best-practices-organizing.md)
-### [Tutorial: Create a company-wide team using PowerShell](company-wide-team-creation-powershell.yml)
+### [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Guest access](guest-access.md)
 ### [How a guest joins a team](guest-joins.md)
 ### [What the guest experience is like](guest-experience.md)
@@ -215,6 +208,9 @@
 #### [Set up Cloud Video Interop](cloud-video-interop-for-teams-set-up.md)
 ### Live events
 #### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
+#### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
+#### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
+#### [Configure Teams live events](teams-live-events/configure-teams-live-events.md)
 
 
 
@@ -227,9 +223,8 @@
 ### [Use T-Bot to help users with Teams](t-bot.md)
 ### [Use activity reports for Teams](teams-activity-reports.md)
 ### [Use inline message translation in Teams](inline-message-translation-teams.md)
+
 ## Cloud voice
-### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 ### [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Argentina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 #### [Australia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
@@ -332,6 +327,10 @@
 #### [Phone number management for the Netherlands](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Phone number management for the U.K.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Phone number management for the U.S.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
+### Manage Communication Credits
+#### [What are Communications Credits?](what-are-communications-credits.md)
+#### [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
+#### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 ### [Deploying desk phones](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Audio Conferencing
 #### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
@@ -342,7 +341,6 @@
 #### [Audio Conferencing supported languages](audio-conferencing-supported-languages.md)
 #### [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
-#### [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
 #### [Emails that are automatically sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md)
 #### [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -463,8 +461,7 @@
 #### [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [What is address validation?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [What are dial plans?](what-are-dial-plans.md)
-#### [Calling Plans in Office 365 - code of practice for the United Kingdom (U.K.)](code-of-practice-for-the-united-kingdom-u-k.md)
-#### [Calling Plans in Office 365 - complaint handling code for the United Kingdom (U.K.)](complaint-handling-code-for-the-united-kingdom-u-k.md)
+#### [Create and manage dial plans](create-and-manage-dial-plans.md)
 ### Phone System
 #### [What is Phone System in Office 365?](what-is-phone-system-in-office-365.md)
 #### [Setting up Phone System in your organization](setting-up-your-phone-system.md)

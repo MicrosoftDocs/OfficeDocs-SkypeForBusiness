@@ -29,14 +29,14 @@ Two selections are available for policy creation and editing:
     
 2. **Edit**: Select a policy and click Edit to select an action from a drop-down. You can only edit sites that you have already created or edit the Global policy:
     
-  - **Show details…**: Displays information about the currently selected policy. You will be able to make changes to the existing policy.
+   - **Show details…**: Displays information about the currently selected policy. You will be able to make changes to the existing policy.
     
-  - **Select all**: If you have a number of policies and need to select all policies, click Select all
+   - **Select all**: If you have a number of policies and need to select all policies, click Select all
     
-  - **Delete**: Will remove the selected policy. Using **Select all** and **Delete** will remove all policies
+   - **Delete**: Will remove the selected policy. Using **Select all** and **Delete** will remove all policies
     
-    > [!NOTE]
-    > You cannot delete the default **Global** policy. If you attempt to delete it, you will be notified that the Global policy has been returned to the default values (that is, all settings are cleared), but the policy cannot be removed.
+     > [!NOTE]
+     > You cannot delete the default **Global** policy. If you attempt to delete it, you will be notified that the Global policy has been returned to the default values (that is, all settings are cleared), but the policy cannot be removed.
   
 Creating a new policy or editing an existing policy is associated with two actions:
   

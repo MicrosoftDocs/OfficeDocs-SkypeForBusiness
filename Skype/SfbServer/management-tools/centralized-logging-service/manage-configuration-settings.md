@@ -61,9 +61,9 @@ Site and Global scopes are defined in the **New-**, **Set-**, and **Remove-** Ce
 
 2. Type the following at the command-line prompt:
 
-  ```
-  Get-CsClsConfiguration
-  ```
+   ```
+   Get-CsClsConfiguration
+   ```
 
 Use the **New-CsClsConfiguration** and **Set-CsClsConfiguration** cmdlets to create a new configuration or to update an existing configuration.When you run **Get-CsClsConfiguration**, it displays information similar to the following screen shot, where the deployment currently has the default Global configuration, but no site configurations defined:
 
@@ -75,9 +75,9 @@ Use the **New-CsClsConfiguration** and **Set-CsClsConfiguration** cmdlets to cre
 
 2. Type the following at the command-line prompt:
 
-  ```
-  Get-CsClsConfiguration -LocalStore
-  ```
+   ```
+   Get-CsClsConfiguration -LocalStore
+   ```
 
 When you use the first example where **Get-CsClsConfiguration** does not specify any parameters, the command references the Central Management store for the data. If you specify the parameter -LocalStore, the command references the computer LocalStore instead of the Central Management store.
 ### To retrieve a listing of scenarios currently defined
@@ -86,15 +86,15 @@ When you use the first example where **Get-CsClsConfiguration** does not specify
 
 2. Type the following at the command-line prompt:
 
-  ```
-  Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
+   ```
 
     For example, to retrieve the scenarios that is defined at the global scope:
 
-  ```
-  Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
+   ```
 
 The cmdlet **Get-CsClsConfiguration** always displays the scenarios that are a part of a given scope's configuration. In most cases, all scenarios are not displayed, and are truncated. The command used here lists all of the scenarios and partial information about what providers, settings, and flags are used.
 ### To update a global scope for the Centralized Logging Service by using Windows PowerShell
@@ -103,15 +103,15 @@ The cmdlet **Get-CsClsConfiguration** always displays the scenarios that are a p
 
 2. Type the following at the command-line prompt:
 
-  ```
-  Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  For example:
+   For example:
 
-  ```
-  Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
+   ```
 
 The command tells the CLSAgent on each computer and pool in the deployment to set the size of the rollover value on the tracing file to 40 megabytes. Computers and pools in all sites are affected by the command, and will set their configured trace log rollover value to 40 megabytes.
 ### To update a site scope for the Centralized Logging Service by using Windows PowerShell
@@ -120,15 +120,15 @@ The command tells the CLSAgent on each computer and pool in the deployment to se
 
 2. Type the following at the command-line prompt:
 
-  ```
-  Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  For example:
+   For example:
 
-  ```
-  Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
+   ```
 
 > [!NOTE]
 > As noted in the example, the default location of the log files is %TEMP%\Tracing. However, because it is actually CLSAgent that is writing the file and CSLAgent runs as Network Service, the %TEMP% variable expands to %WINDIR%\ServiceProfiles\NetworkService\AppData\Local.
@@ -140,9 +140,9 @@ The command tells the CLSAgent on each computer and pool in the site Redmond to 
 
 2. Type the following at the command-line prompt:
 
-  ```
-  New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
-  ```
+   ```
+   New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
+   ```
 
     > [!NOTE]
     > New-CsClsConfiguration provides access to a large number of optional configuration settings. For details about the configuration options, see [Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps) and [Understanding Centralized Logging Service Configuration Settings](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx).
@@ -160,9 +160,9 @@ You should carefully plan the creation of new configurations and how you define 
 
 2. Type the following at the command-line prompt:
 
-  ```
-  Remove-CsClsConfiguration -Identity <scope and name>
-  ```
+   ```
+   Remove-CsClsConfiguration -Identity <scope and name>
+   ```
 
 For example, to remove a Centralized Logging Service configuration that you created to increase the log file rollover time, increase the rollover log file size, and set the log file cache location to a network share as follows:
 

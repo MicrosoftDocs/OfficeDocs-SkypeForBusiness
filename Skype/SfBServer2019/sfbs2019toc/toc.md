@@ -9,6 +9,7 @@
 
 ## Hybrid solutions
 ### [Plan hybrid connectivity](../hybrid/plan-hybrid-connectivity.md)
+### [Plan for Skype for Business Server and Exchange Server migration](../hybrid/plan-um-migration.md)
 ### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity.md)
 #### [Configure Skype for Business hybrid](../hybrid/configure-federation-with-skype-for-business-online.md)
 #### [Configure federation for an audio conferencing provider](../hybrid/configure-federation-for-an-audio-conferencing-provider.md) 
@@ -19,7 +20,6 @@
 ### Cloud Voicemail
 #### [Plan Cloud Voicemail](../hybrid/plan-cloud-voicemail.md)
 #### [Configure Cloud Voicemail](../hybrid/configure-cloud-voicemail.md)
-#### [Plan for Skype for Business Server and Exchange Server migration](../hybrid/plan-um-migration.md)
 ### Call Data Connector
 #### [Plan Call Data Connector](../hybrid/plan-call-data-connector.md)
 #### [Configure Call Data Connector](../hybrid/configure-call-data-connector.md)

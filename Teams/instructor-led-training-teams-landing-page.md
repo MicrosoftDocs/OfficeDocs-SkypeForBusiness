@@ -6,6 +6,7 @@ description: Sign up for instructor-led classes to learn all about Microsft Team
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
+ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
 ---
@@ -36,7 +37,7 @@ ms.date: 08/24/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>#ThisIsTeams - Microsoft Teams overview</h3>
-                                                    <p>What is Microsoft Teams? Join us for this 30-minute orientation to discover what Teams is and how it can work for you.</p>
+                                                    <p>What is Microsoft Teams? Join us for this 30-minute orientation to discover what Teams is and how it can work for you. (Audience: All)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -55,7 +56,7 @@ ms.date: 08/24/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Getting started with Teams</h3>
-                                                    <p>From chatting and meetings to using teams and channels, users will leave this session with the foundation to use Teams with confidence.</p>
+                                                    <p>From chatting and meetings to using teams and channels, users will leave this session with the foundation to use Teams with confidence. (Audience: End users)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -74,7 +75,7 @@ ms.date: 08/24/2018
                                             </div>
                                             <div class="cardText">
                                                 <h3>Manage your upgrade from Skype for Business to Teams</h3>
-                                                <p>Gain insights into planning and implementing a successful upgrade from Skype for Business to Teams. </p>
+                                                <p>Plan & implement a successful upgrade to Teams (Audience: IT professionals, adoption change managers)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -92,8 +93,8 @@ ms.date: 08/24/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Make the switch from Skype for Business to Teams: end user guidance</h3>
-                                                    <p>This course covers what you need to quickly start chatting, meeting, and calling in Teams as your organization transitions from Skype for Business to Teams.</p>
+                                                <h3>Switch from Skype for Business to Teams: end user guidance</h3>
+                                                    <p>Get what you need to quickly start using Teams during your transition from Skype for Business to Teams. (Audience: End users)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -101,6 +102,26 @@ ms.date: 08/24/2018
                             </a>
                         </li>
                         <li>
+                            <a href="https://docs.microsoft.com/MicrosoftTeams/enduser-training">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Get on-demand training & videos</h3>
+                                                <p>Get end-user Teams training and videos on demand for you and your users.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://aka.ms/TeamsEduWebinars">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -110,8 +131,8 @@ ms.date: 08/24/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>More training coming soon!</h3>
-                                                <p>Keep checking back to take additional instructor-led courses as we launch them.</p>
+                                                <h3>Teams for Education - Webinars</h3>
+                                                <p>Learn how to use Teams in higher education. (Audience: Staff, students, academics, research faculty, IT professionals)</p>
                                             </div>
                                         </div>
                                     </div>

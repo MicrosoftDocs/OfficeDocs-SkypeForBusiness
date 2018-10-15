@@ -51,8 +51,8 @@ upon in the following sections.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of cloud voice workloads.</li><li>Review the Quality of Experience Review Guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your cloud voice deployment is operating at its peak capabilities.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of cloud voice workloads.</li><li>Review the Quality of Experience Review Guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your cloud voice deployment is operating at its peak capabilities.</li></ul></td></tr>
 </table>
 
 
@@ -90,7 +90,7 @@ After an agreement is in place, the corresponding teams should start to
 operationalize their roles.
 
 <table>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td>
 <td><ul><li>Use this document to facilitate the operational role mapping exercise.</li><li>Meet with the respective support teams to assign names to each item in the list of required activities.</li><li>Gain acceptance or sign-off on the assigned roles.</li><li>Ensure that the corresponding teams have the appropriate training, readiness, and resources to complete the activities required of them.</li></ul></td></table>
 
 ### Teams service dependencies
@@ -299,17 +299,21 @@ can help you plan for change.
 #### Feature: Cloud Recording (Release date: January 2018)
 
 **General track**
+
 | Change readiness | Status   | Notes/next steps | Owner |
 |----|----|----|-----|
 | Legal review   | Completed     | This feature is a prerequisite to onboarding the training team. | Project team  |
 
 **Technical change management**
-| Change readiness | Status   | Notes/next steps | Owner |
-|----|----|----|-----|
-| IT changes required          | Yes                  | Admin needs to enable recording for identified users only.      | Support team           |
-| Technical readiness complete | Yes                  |                                                                 | Support team  
-         |
+
+|       Change readiness       | Status |                      Notes/next steps                      |    Owner     |
+|------------------------------|--------|------------------------------------------------------------|--------------|
+|     IT changes required      |  Yes   | Admin needs to enable recording for identified users only. | Support team |
+| Technical readiness complete |  Yes   |                                                            | Support team |
+|                              |        |                                                            |              |
+
 **User change management** 
+
 | Change readiness | Status   | Notes/next steps | Owner |
 |----|----|----|-----|
 | User impact                  | Low                  |                                                                 |                        |
@@ -318,6 +322,7 @@ can help you plan for change.
 | Training ready               | Yes                  | Training will leverage existing Microsoft video.                | Training Team          |
 
 **Status track**
+
 | Change readiness | Status   | Notes/next steps | Owner |
 |----|----|----|-----|
 | Release status               | in progress          | Pending review by executive sponsor.               | Change Management Team |
@@ -789,7 +794,7 @@ user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-offi
 organization](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
 [Create and manage dial
-plans](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
+plans](https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans)
 
 #### Common tasks for Audio Conferencing
 

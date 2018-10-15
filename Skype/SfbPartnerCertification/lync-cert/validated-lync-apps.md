@@ -13,8 +13,7 @@ ms.service: skype-for-business
 ms.collection: Lync
 ms.audience: Admin
 appliesto:
-- Lync
-- Skype for Business 
+- Lync 2013
 localization_priority: Normal
 f1keywords: None
 ms.custom:

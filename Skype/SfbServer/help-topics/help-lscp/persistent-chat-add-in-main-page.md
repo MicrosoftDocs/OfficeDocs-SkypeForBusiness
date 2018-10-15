@@ -46,9 +46,9 @@ The following lists describe the menus, command, fields, and properties on the p
 
 6. In **New Add-in**, do the following:
 
-  - In **Name**, specify a name for the new add-in.
+   - In **Name**, specify a name for the new add-in.
 
-  - In **URL**, specify the URL to be associated with the add-in. URLs are limited to http and https protocols.
+   - In **URL**, specify the URL to be associated with the add-in. URLs are limited to http and https protocols.
 
 7. Click **Commit**.
 
