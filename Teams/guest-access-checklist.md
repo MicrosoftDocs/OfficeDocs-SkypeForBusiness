@@ -3,7 +3,7 @@ title: Microsoft Teams Guest Access checklist
 author: romanma
 ms.author: romanma
 manager: serdars
-ms.date: 10/12/18
+ms.date: 10/15/18
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -21,11 +21,7 @@ Teams Guest Access checklist
 
 Use this checklist to help you enable and configure the Guest Access feature in Microsoft Teams according to the preferences of your organization.
 
-## Before you begin
-
-Review the following before you configure guest access to Microsoft Teams.
-
-### Understand the limitations for guests
+## Understand the limitations for guests
 
 The guest experience has limitations by design. Make sure you understand the guest experience so you don't try to fix something that isn't a problem. For example, here's a list of some of the functionality that isn't available to a guest in Microsoft Teams:
 
@@ -40,15 +36,16 @@ The guest experience has limitations by design. Make sure you understand the gue
 
 For more details, see [What the guest experience is like](guest-experience.md) and [Guest access in Office 365 groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
-### Verify account licenses and types
+## Your guests are seeing license errors
 
-- **Account licensed for Teams**: For a "Guest" account rooted in a real user account in some other Office 365 tenant, that real user account must be licensed for Teams for “Guest”. 
+Guest Access in Microsoft Teams uses Azure Active Directory Business to Business (B2B) and its licensing model. If you’re seeing licensing errors, make sure to read the B2B licensing guidance to understand the licensing requirements your organization has so that your users are able to invite guests to your organization.
 
-- **Account must be Office 365 school or work account or an MSA account**: Currently, users who have an email address corresponding to an Azure Active Directory, Office 365 work or school account, or a Microsoft account (MSA) can be added as a guest user. 
+A few things to remember:
 
-### Authentication requirements
-
-Guests are required to use multi-factor authentication (MFA) if the hosting tenant requires it. For details, see [Identity models and authentication in Microsoft Teams](identify-models-authentication.md).
+- For each paid Azure AD license that you assign to a user, your users can invite up to five guest users under the External User Allowance.
+- Guests are users outside your organization. Your employees, onsite contractors, onsite agents, and so on can't be added as guests. The same applies to your affiliates.
+- Guest licenses are counted against the inviting organization. Consider this when you calculate the number of licenses you need.
+- Licenses are counted against your organization whether the invited guests come from another Office 365 tenant or are using their personal email addresses.
 
 ## □  Step 1: Configure settings in Azure AD business-to-business
 

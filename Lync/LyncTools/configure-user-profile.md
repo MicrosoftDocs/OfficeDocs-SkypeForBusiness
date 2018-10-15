@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configure User Profile
 TOCTitle: Configure User Profile
 ms:assetid: 52713245-e502-4539-a238-66ff1aca26b1
@@ -24,7 +24,7 @@ mtps_version: v=OCS.15
 
 <span> </span>
 
-_**Topic Last Modified:** 2013-02-24_
+_**Topic Last Modified:** 2018-10-11_
 
 The tools included in the Lync Server 2013 Stress and Performance Tool package enable you to create and configure test user accounts that you can use to run load simulations. Use the Lync Server 2013 User Creation Tool to create the users. (For details, see [Create Users and Contacts](create-users-and-contacts.md).) After users are created, configure the user profiles by using the Lync Server 2013 Load Configuration Tool.
 
@@ -32,7 +32,7 @@ The tools included in the Lync Server 2013 Stress and Performance Tool package e
 
 ## Running the Lync Server 2013 Load Configuration Tool
 
-To configure user profiles, run the Lync Server 2013 Load Configuration Tool (UserProfileGenerator.exe) and fill out each of the tabs. UserProfileGenerator.exe generates a directory for each of the client computers that you need to run the simulation. Each client directory also comes with a script to start all of the instances of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe).
+To configure user profiles, run the Lync Server 2013 Load Configuration Tool (UserProfileGenerator.exe) and fill out each of the tabs. UserProfileGenerator.exe generates a directory for each of the client computers that you need to run the simulation. Each client directory also comes with a script to start all the instances of the Lync Server 2013 Stress and Performance Tool (LyncPerfTool.exe).
 
 <div>
 
@@ -170,9 +170,9 @@ Use the **Voice Scenarios** tab to configure all of the voice-related scenarios.
 
 ## Reach
 
-Reach is a new experience in Lync Server 2013 that supports conferencing scenarios through the Unified Communications Web API (UCWA) server that is installed on the Front End server. The **Reach** tab of the Lync Server 2013 Load Configuration Tool is shown in the following figure.
+Reach is a new experience in Lync Server 2013 that supports conferencing scenarios through the Unified Communications Web API (UCWA) server that is installed on the Front-End server. The **Reach** tab of the Lync Server 2013 Load Configuration Tool is shown in the following figure.
 
-Use the **Reach** tab to configure all of the reach-related scenarios.
+Use the **Reach** tab to configure all the reach-related scenarios.
 
 ![Reach tab.](images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "Reach tab.")
 
@@ -232,17 +232,9 @@ The **Summary** tab indicates which users to use for each of the scenarios. It i
 
 
 [Create Users and Contacts](create-users-and-contacts.md)  
-  
-
 </div>
-
 </div>
-
-<span> </span>
-
+<span></span>
 </div>
-
 </div>
-
 </div>
-
