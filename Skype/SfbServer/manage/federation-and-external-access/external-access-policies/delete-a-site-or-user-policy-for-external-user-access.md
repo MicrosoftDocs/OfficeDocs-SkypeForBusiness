@@ -1,11 +1,17 @@
 ﻿---
 title: 'Lync Server 2013: Delete a site or user policy for external user access'
-TOCTitle: Delete a site or user policy for external user access
 ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521013(v=OCS.15)
 ms:contentKeyID: 48184455
-ms.date: 07/23/2014
 mtps_version: v=OCS.15
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+description: ""
 ---
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">

@@ -1,11 +1,18 @@
 ﻿---
 title: 'Enable or disable sending an Archiving disclaimer to federated partners'
-TOCTitle: Enable or disable sending an Archiving disclaimer to federated partners
 ms:assetid: c8e9a2fa-9dc1-4e4d-919f-56ece8004864
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182584(v=OCS.15)
 ms:contentKeyID: 48185391
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+description: ""
 ---
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">

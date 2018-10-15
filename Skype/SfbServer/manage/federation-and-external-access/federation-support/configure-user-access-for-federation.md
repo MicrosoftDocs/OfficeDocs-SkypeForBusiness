@@ -1,11 +1,17 @@
 ﻿---
 title: 'Configure user access for federation with a Lync Online customer'
-TOCTitle: Configure user access for federation with a Lync Online customer
 ms:assetid: 72cb1153-73b6-4da2-b5c3-de6e7aa642a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202177(v=OCS.15)
 ms:contentKeyID: 48184473
-ms.date: 07/23/2014
 mtps_version: v=OCS.15
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+description: ""
 ---
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">

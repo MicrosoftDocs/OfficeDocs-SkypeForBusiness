@@ -1,11 +1,17 @@
 ﻿---
 title: 'Lync Server 2013: Configuring federation support for a Lync Online customer'
-TOCTitle: Configuring federation support for a Lync Online customer
 ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 48185669
-ms.date: 07/23/2014
 mtps_version: v=OCS.15
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+description: ""
 ---
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">

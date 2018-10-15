@@ -1,11 +1,17 @@
 ﻿---
 title: 'Lync Server 2013: Configure policies to control federated user access'
-TOCTitle: Configure policies to control federated user access
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
 ms:contentKeyID: 48184180
-ms.date: 07/23/2014
 mtps_version: v=OCS.15
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+description: ""
 ---
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">

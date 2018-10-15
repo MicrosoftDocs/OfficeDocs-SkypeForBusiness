@@ -1,11 +1,17 @@
 ﻿---
 title: 'Lync Server 2013: Resetting or deleting external user access policies'
-TOCTitle: Resetting or deleting external user access policies
 ms:assetid: 5f9b4528-f4f1-4d52-816d-156c3c7298ad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521003(v=OCS.15)
 ms:contentKeyID: 48184300
-ms.date: 07/23/2014
 mtps_version: v=OCS.15
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+description: ""
 ---
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">

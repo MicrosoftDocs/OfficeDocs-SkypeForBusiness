@@ -1,11 +1,17 @@
 ﻿---
 title: 'Lync Server 2013: Create or edit XMPP partner configuration'
-TOCTitle: Create or edit XMPP partner configuration
 ms:assetid: 362dbe5e-8ee9-4aba-8c26-5907312b4a60
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552447(v=OCS.15)
 ms:contentKeyID: 48679558
-ms.date: 09/03/2014
 mtps_version: v=OCS.15
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+description: ""
 ---
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">

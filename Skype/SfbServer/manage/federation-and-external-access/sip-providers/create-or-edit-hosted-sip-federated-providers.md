@@ -1,11 +1,17 @@
 ﻿---
 title: 'Lync Server 2013: Create or edit hosted SIP federated providers'
-TOCTitle: Create or edit hosted SIP federated providers
 ms:assetid: 0dd6dcb6-a88d-46b8-9c96-b35967309bcd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552445(v=OCS.15)
 ms:contentKeyID: 48679556
-ms.date: 07/23/2014
 mtps_version: v=OCS.15
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+description: ""
 ---
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">

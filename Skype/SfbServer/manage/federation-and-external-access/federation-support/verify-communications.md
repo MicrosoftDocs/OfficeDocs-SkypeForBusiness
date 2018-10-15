@@ -1,11 +1,17 @@
 ﻿---
 title: 'Lync Server 2013: Verify communications with a Lync Online customer'
-TOCTitle: Verify communications with a Lync Online customer
 ms:assetid: c8287b15-e1bb-4b26-8354-0ec90b2fcfe7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202189(v=OCS.15)
 ms:contentKeyID: 48185378
-ms.date: 07/23/2014
 mtps_version: v=OCS.15
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+description: ""
 ---
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
