@@ -31,12 +31,17 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
 
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
-2. Under **Email invitation**, complete the following:
+2. Under **Email invitation**, complete the following: [NEEDSREVIEW]: Add screen shot with example URLs
+
+    ![meeting-settings-invitation.png](media/meeting-settings-invitation.png "Screen shot of the meeting invitation settings that you can customize for Teams meetings") 
+
     - **Logo URL** Enter the URL where your logo is stored. 
     - **Legal URL** If your organization has a legal website that you want people to go to for any legal concerns, enter the URL here. 
     - **Help URL** If your organization has a support website that you want people to go to if they run into issues, enter the URL here.
     - **Footer** Enter text that you want to include as a footer. 
 3. Wait an hour or so for the changes to propagate across all Office 365 services. Then schedule a Teams meeting to see what the meeting invitation looks like.  
+
+    [NEEDSREVIEW]: Add screen shot of a custom meeting invite. 
 
  ### Related topics
 
