@@ -168,6 +168,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Meetings not available  <br/> |Meeting functionality is not available when Exchange Mailbox is hosted (homed) on-premises in version less than Exchange 2016 CU3.  <br/> |Upgrade to Exchange 2016 CU3 or later for the on-premises deployment.  <br/> |2/28/17  <br/> |
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|No audio while sharing content during a broadcast meeting  <br/> |When sharing content during a broadcast meeting, audio from the shared content (youtube link or a saved video file) cannot be hear by participants.  <br/> |None as this is by design.  Teams does not currently support audio from content sharing  <br/> |10/9/18  <br/> |
+
 ## Mobile
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
