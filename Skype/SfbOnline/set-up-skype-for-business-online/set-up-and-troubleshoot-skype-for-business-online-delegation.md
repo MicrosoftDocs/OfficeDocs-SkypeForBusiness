@@ -84,13 +84,13 @@ To set up Skype for Business Online delegation, follow these steps:
     
 3. Select **Add**, select the delegate that you want to add, and then select **OK**.
     
-   **No Call Forwarding tab**
+ **No Call Forwarding tab**
   
-4. In Outlook, select **File** > **Account Settings** > **Delegate Access** > **Add**.
+1. In Outlook, select **File** > **Account Settings** > **Delegate Access** > **Add**.
     
-5. Locate and then add the name of the person who is going to be the delegate.
+2. Locate and then add the name of the person who is going to be the delegate.
     
-6. Select the **Calendar** menu, and then select **Editor (can read, create, and modify items)**.
+3. Select the **Calendar** menu, and then select **Editor (can read, create, and modify items)**.
     
 ### For Mac clients - Lync
 

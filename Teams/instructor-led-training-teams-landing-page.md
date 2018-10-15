@@ -75,7 +75,7 @@ ms.date: 08/24/2018
                                             </div>
                                             <div class="cardText">
                                                 <h3>Manage your upgrade from Skype for Business to Teams</h3>
-                                                <p>Plan & implement a successful upgrade from Skype for Business to Teams (Audience: IT Pro, adoption change managers)</p>
+                                                <p>Plan & implement a successful upgrade to Teams (Audience: IT professionals, adoption change managers)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -121,6 +121,7 @@ ms.date: 08/24/2018
                             </a>
                         </li>
                         <li>
+                            <a href="https://aka.ms/TeamsEduWebinars">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -130,8 +131,8 @@ ms.date: 08/24/2018
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>More training coming soon!</h3>
-                                                <p>Keep checking back to take additional instructor-led courses as we launch them.</p>
+                                                <h3>Teams for Education - Webinars</h3>
+                                                <p>Learn how to use Teams in higher education. (Audience: Staff, students, academics, research faculty, IT professionals)</p>
                                             </div>
                                         </div>
                                     </div>
