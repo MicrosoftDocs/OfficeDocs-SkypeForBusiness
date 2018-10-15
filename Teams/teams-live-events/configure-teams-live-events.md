@@ -22,6 +22,19 @@ In Windows PowerShell, run the following:
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
 ```
+## Set up event support link
+
+This URL is shown to live event attendees. Add the support URL for your organization to give attendees a way to contact support during a live event.
+
+![teams-logo-30x30.png](../media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
+
+1. In the left navigation, go to **Meetings** > **Live event settings**.
+2. Under **Support URL**, enter your organization's support URL. 
+
+    ![Support URL setting for live events in the Microsoft Teams & Skype for Business admin center](../media/live-events-settings-supporturl.png "Screen shot of support URL setting for Teams live events")
+
+You can also set a support URL by using the the [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) cmdlet.
+
 ## Configure attendee visibility options
 This allows live event organizers to create events with appropriate attendee visibility.
 
