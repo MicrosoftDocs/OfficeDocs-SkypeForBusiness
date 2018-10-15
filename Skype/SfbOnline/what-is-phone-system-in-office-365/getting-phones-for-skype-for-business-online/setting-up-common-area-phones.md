@@ -61,10 +61,6 @@ For more info on licenses, see [Skype for Business and Microsoft Teams add-on li
 3. Put in a **Display name** if it doesn't autogenerate one like "Main Reception".
 4. Put in a **User name** like "MainReception" or "Mainlobby".
 5. For common area phones, you might want to set a password manually or have the same password for all of you common area phones. Also, you might think about unselecting **Make this user change their password when they first sign in**.
-
-    > [!Tip]
-    > WAIT!! Don't click **Add**!! Ugh, if you did click **Add** the do this: Office 365 admin center > **Users** > **Active users** and then find the user. Then on the user's properties page, click **Product licenses** and then click **Edit**. On the **Product licenses** page, turn on **Common Area Phone** and pick either a **Domestic Calling Plan** or a Domestic and **International Calling Plan**.
-
 6. If you are still there, assign the licenses to this user. On the same page, click to expand **Product licenses**. Turn on the following:
    - Common Area Phone
    - Then you need to pick either a **Domestic Calling Plan** or a Domestic and **International Calling Plan**.
