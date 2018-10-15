@@ -112,6 +112,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Renaming a channel in Microsoft Teams does not rename the corresponding folder in SharePoint Online  <br/> |If a channel is renamed in Microsoft Teams, the folder in the SharePoint Online document library corresponding to the team does not change to match. The correct SharePoint Online folder name is displayed at the top of the renamed channel Files tab.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
 
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|URL preview may not show for all URL's  <br/> |Some URL's may not show a preview.  This is reliant on the original URL having the capability to show a preview. <br/> |No workaround. <br/> |9/1/18 <br/> |
+
 ## Chat
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
