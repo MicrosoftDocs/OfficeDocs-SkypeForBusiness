@@ -38,5 +38,5 @@ ADAL is included in the March 2016 Cumulative Update for Skype for Business Serv
   
 A PowerShell package including .ps1 files with the commands used by ADAL must be downloaded for successful configuration.
 
-For information on how to implement Modern Authentication in Skype for Business, please refer to [How to use Modern Authentication (ADAL) with Skype for Business](use-adal.md)
+For information on how to implement Modern Authentication in Skype for Business, please refer to: [How to use Modern Authentication (ADAL) with Skype for Business](../../manage/authentication/use-adal.md#how-to-use-modern-authentication-adal-with-skype-for-business)
 
