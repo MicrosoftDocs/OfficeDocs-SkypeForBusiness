@@ -41,23 +41,8 @@ Teams live events policies are used to control who in your organization can hold
 |**Description**    |Use this to add a friendly description for the policy.         |
 |**Allow scheduling**     |Turning this on lets users in your organization create and schedule live events in Teams.           |
 |**Allow transcription for attendees**  |Turning this on enables live event attendees to see real-time captions and translation during the event.         |
-|**Who can join scheduled live events**    |Choose one of the following. <br> **Everyone** Users can create live events that everyone, including people outside your organization, can attend. <br> **Everyone in the organization** Users can create live events that only people in your organization can attend. <br> **Specific users or groups** Users can create live events that only specific users or groups in your organization can attend.         |
-|**Recording setting**  <br>     | This setting can only be applied to live events that are produced using Teams meetings, also known as quick start live events. Choose one of the following. <br> **Always record** The live events created by users are always recorded. After the event is over, event team members can download the recording and attendees can watch the event. <br> **Never record** The live events created by users are never recorded. <br>**Organizer can record or not** Users can decide whether to record the live event. If it is recorded, after the event is over, event team members can download the recording and attendees can watch the event.          |
-  
-
-- **Name** This is the name of the policy that appears on the live events policies page. It can't be longer than 64 characters or have any special characters.  
-- **Description** Use this to add a friendly description for the policy. 
-- **Allow scheduling** Turning this on lets users in your organization create and schedule live events in Teams.  
-- **Allow transcription for attendees** Turning this on enables live event attendees to see real-time captions and translation during the event. 
-- **Who can join scheduled live events**
-    - **Everyone** Users can create live events that everyone, including people outside your organization, can attend.  
-    - **Everyone in the organization** Users can create live events that only people in your organization can attend. 
-    - **Specific users or groups** Users can create live events that only specific users or groups in your organization can attend. 
-- **Recording setting**
-This setting can only be applied to live events that are produced using Teams meetings, also known as quick start live events.  
-    - **Always record** The live events created by users are always recorded. After the event is over, event team members can download the recording and attendees can watch the event. 
-    - **Never record** The live events created by users are never recorded.
-    - **Organizer can record or not** Users can decide whether to record the live event. If it is recorded, after the event is over, event team members can download the recording and attendees can watch the event. 
+|**Who can join scheduled live events**    |Choose one of the following.<br> <br> **Everyone** Users can create live events that everyone, including people outside your organization, can attend. <br> **Everyone in the organization** Users can create live events that only people in your organization can attend. <br> **Specific users or groups** Users can create live events that only specific users or groups in your organization can attend.         |
+|**Recording setting**  <br>     | This setting can only be applied to live events that are produced using Teams meetings, also known as quick start live events. Choose one of the following. <br><br> **Always record** The live events created by users are always recorded. After the event is over, event team members can download the recording and attendees can watch the event. <br> **Never record** The live events created by users are never recorded. <br>**Organizer can record or not** Users can decide whether to record the live event. If it is recorded, after the event is over, event team members can download the recording and attendees can watch the event.          |
 
 ## Assign a live events policy to users 
 

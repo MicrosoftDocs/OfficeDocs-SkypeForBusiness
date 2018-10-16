@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
 search.appverid: MET150
-description: Learn the steps to set up live for events in Microsoft Teams, including preparing your network, assigning licenses, enabling live event scheduling for users, and setting up an eCDN provider.
+description: Learn the steps to set up live for events in Teams, including preparing your network, assigning licenses, using policies to enable live event features and scheduling for users, and setting up a third-party distribution provider.
 appliesto: 
 - Microsoft Teams
 ---
@@ -15,16 +15,16 @@ appliesto:
 # Set up for live events in Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
-When you are setting up for live events, there are several steps that you must take:
+When you're setting up for live events, there are several steps that you must take:
 
-## Step 1: Set up your network for live events in Microsoft Teams
+## Step 1: Set up your network for live events in Teams
 The quick start live events require you to [prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## Step 2: Get and assign licenses
 Ensure you have correct license assignments for [Who can create and schedule live events?](#who-can-create-and-schedule-live-events) and [Who can watch live events?](#who-can-watch-live-events).
 
 ## Step 3: Enable live event scheduling for users
-Live event scheduling is enabled by default for Teams users but if you are wanting users to schedule external encoder events there are additional steps that you must do.
+Live event scheduling is enabled by default for Teams users but if you're wanting users to schedule external encoder events there are additional steps that you must do.
 
 ### For quick start events
 Use the setting *AllowBroadcastScheduling* in **TeamsMeetingBroadcastPolicy** in Teams PowerShell to control whether the user can create live events in Teams or not. You can learn more about managing TeamsMeetingBroadcastPolicy [here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
@@ -127,11 +127,60 @@ By default, administrators can create external encoder live events. Microsoft St
 #### Step 3: Ensure live event organizers have consented to the company policy set by Stream admin**
 If a Microsoft Stream administrator has [set up a company guidelines policy](https://docs.microsoft.com/stream/company-policy-and-consent) and requires employees to accept this policy before saving content, then users must do so before creating a live event (with External Encoder production) in Teams. Before you rollout the live events feature in the organization, make sure users who will be creating these live events have consented to the policy. 
 
-## Step 4: Set up eCDN provider for live events in Microsoft Teams 
+## Step 4: Set attendee visibility options
+This allows live event organizers to create events with appropriate attendee visibility.
+
+|**Values**  |**Behavior**  |
+|---------|---------|
+|Everyone     |The user has an option to create live events with the following attendee visibility: Public, Everyone in company, and Specific people. |
+|EveryoneInCompany     |The user has an option to create live events with the following attendee visibility: Everyone in company and Specific people. The user cannot create live events that can be attended by anonymous users.|
+|InvitedUsers |The user can only create live events that are limited to specific people as entered by the event organizer. The user cannot create live events with Public and Everyone in company authentication. |
+
+Use the setting BroadcastAttendeeVisibility in TeamsMeetingBroadcastPolicy in PowerShell to control whether the users can schedule broadcast events that can be watched by anonymous attendees. 
+
+Unless you have assigned a custom policy to the users, the users get Global policy, which has default set to EveryoneInCompany. 
+ 
+In Windows PowerShell, run the following to allow users to create anonymous events in the global policy:
+```
+Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
+```
+## Step 5: Set recording options
+> [!NOTE]
+> This option is applicable to events that use the Quick start production method only.
+
+This allows admins to control whether the live events are always recorded, never recorded, or whether the event organizer can decide to record the event or not.  
+
+|**Values**  |**Behavior**  |
+|---------|---------|
+|Always enabled |The live events organized by this user are always recorded. The user doesn’t have an option to override. If the live event is recorded, the event team members are able to download the recording after the event, and the attendees can watch the event after the event is over. |
+|AlwaysDisabled |The live events organized by this user are never recorded. The user doesn’t have an option to override. If the live event is recorded, no recording is created for the event team members, and the attendees cannot watch the event after it is over. |
+|UserOverride |User can decide whether the live event is recorded so that a recording file can be created for the event team members, and attendees can watch the event after the event is over. |
+
+Use the setting *BroadcastRecordingMode* in **TeamsMeetingBroadcastPolicy** in PowerShell to control recording options of the live events created by the live event organizer.
+
+In Windows PowerShell, run the following cmdlet to update recording mode in the global policy:
+```
+Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
+```
+## Step 6: Configure real-time transcription and translation in Teams live events (coming soon)
+> [!NOTE]
+> This option is applicable to events that use the Quick start production method only.
+
+This allows live event organizers to turn on real-time captions and translation for the live event attendees. 
+
+Use the setting *AllowBroadcastTranscription* in **TeamsMeetingBroadcastPolicy** in PowerShell to control whether the live event attendees will be able to see transcription and translation. You can learn more about managing **TeamsMeetingBroadcastPolicy** with Office 365 PowerShell here.  
+
+Unless you have assigned a custom policy to the users, the users get Global policy, which has transcription and translation disabled by default.
+
+In Windows PowerShell, run the following cmdlet to turn transcription and translation on for event attendees in the global policy:
+```
+Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
+```
+## Step 7: Set up a video distribution solution for live events in Teams 
 Playback of live event videos uses adaptive bitrate streaming (ABR) but it is a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, live events solutions are integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or enterprise content delivery networks (eCDNs). These SDN / eCDN platforms enable organizations to optimize network bandwidth without sacrificing end user viewing experiences. Our partners can help enable a more scalable and efficient video distribution across your enterprise network.
 
-**Purchase & setup your solution outside of Microsoft Teams**
-Get expert help with scaling video delivery by leveraging Microsoft’s trusted video delivery partners. Before you can enable a video delivery provider to be used with Teams you must purchase and setup the SDN/eCDN solution outside and separate from Teams.
+**Purchase and set up your solution outside of Teams**
+Get expert help with scaling video delivery by leveraging Microsoft’s trusted video delivery partners. Before you can enable a video delivery provider to be used with Teams you must purchase and set up the SDN/eCDN solution outside and separate from Teams.
 
 The following SDN/eCDN solutions are pre-integrated and can be setup to be used with Microsoft Stream.
 
@@ -144,25 +193,11 @@ The following SDN/eCDN solutions are pre-integrated and can be setup to be used 
 > [!NOTE] 
 > Your chosen eCDN solution is subject to the selected **3rd party provider’s terms of service and privacy policy**, which will governs your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the **3rd party provider’s terms**, then don't enable the eCDN solution in Teams. 
 
-**Set up an eCDN for "Quick start" live events** 
-You can configure eCDN provider for live events in Teams using PowerShell. 
-
-> [!NOTE] 
-> A single eCDN provider can be configured for your organization. 
-
-***Hive*** 
-You can use [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) PowerShell cmdlet to configure eCDN provider. First obtain the license ID and API template URL from your Hive contact then run the following:
-```
-Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
-```
-***Kollective*** 
-You can use [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) PowerShell cmdlet to configure eCDN provider. First obtain the API token and the API template URL from your Kollective contact, then run the following:
-```
-Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
-```
-**Set up an eCDN for "External encoder" live events** 
-
-If you plan to create live events that use external encoders, you will need to [configure your eCDN provider with Microsoft Stream](https://docs.microsoft.com/stream/network-caching) as well. 
-
 ## Next steps
-Go to [Confgure Teams live events](configure-teams-live-events.md).
+Go to [Confgure live events settings in Teams](configure-teams-live-events.md).
+
+### Related topics
+- [What are Teams live events?](what-are-teams-live-events.md)
+- [Plan for Teams live events](plan-for-teams-live-events.md)
+- [Confgure live events settings in Teams](configure-teams-live-events.md)
+
