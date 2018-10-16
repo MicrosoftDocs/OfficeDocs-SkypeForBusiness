@@ -45,7 +45,7 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
 
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
-2. Under **Email invitation**, complete the following: [NEEDSREVIEW]: Add screen shot with example URLs
+2. Under **Email invitation**, do the following: [NEEDSREVIEW]: Add screen shot with example URLs
 
     ![meeting-settings-invitation.png](media/meeting-settings-invitation.png "Screen shot of the meeting invitation settings that you can customize for Teams meetings") 
 
@@ -57,13 +57,13 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 
     [NEEDSREVIEW]: Add screen shot of a custom meeting invite. 
 
-## Set up how you want to handle real-time media traffic for Teams meetings (coming soon) [NEEDSREVIEW]
+## Set how you want to handle real-time media traffic for Teams meetings (coming soon) [NEEDSREVIEW]
 If you're using QoS to prioritize network traffic, you can enable QoS markers and you can set port ranges for each type of media traffic. 
 
  ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
 
 1. In the left navigation, go to **Meetings** > **Meeting settings**. 
-2. Under **Network**:
+2. Under **Network**, do the following:
 
     ![meeting-settings-network.png](media/meeting-settings-network.png "Screen shot of the network settings for Teams meetings in the Microsoft Teams & Skype for Business admin center")
 
