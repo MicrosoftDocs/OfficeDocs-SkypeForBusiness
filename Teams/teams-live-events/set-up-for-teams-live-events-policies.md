@@ -18,13 +18,16 @@ appliesto:
 When you're setting up for live events, there are several steps that you must take:
 
 ## Step 1: Set up your network for live events in Microsoft Teams
-The quick start live events require you to [prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
+Quick start live events require you to [prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## Step 2: Get and assign licenses
 Ensure you have correct license assignments for [Who can create and schedule live events?](#who-can-create-and-schedule-live-events) and [Who can watch live events?](#who-can-watch-live-events).
 
 ## Step 3: Set up live events policies
 Live events policies are used to control who in your organization can hold live events and the features that are available in the events that they create. You can use the default policy or create one or more custom live events policies. After you create a custom policy, assign it to a user or groups of users in your organization.
+
+> [!NOTE]
+> Users in your organization will get the global policy unless you create and assign a custom policy. By default in the global policy, live event scheduling is enabled for Teams users,  transcription is turned off, everyone in the organization can join live events, and the recording setting is set to always record. 
 
 ### Create or edit a live events policy
 
@@ -44,13 +47,10 @@ Live events policies are used to control who in your organization can hold live 
 |---------|---------|
 |**Name**     |This is the name of the policy that appears on the live events policies page. It can't be longer than 64 characters or have any special characters.          |
 |**Description**    |Use this to add a friendly description for the policy.         |
-|**Allow scheduling**     |Turning this on lets users in your organization create and schedule live events in Teams. It's important to know that if you want users to schedule external encoder live events, there are additional steps you must do. To learn more, see  [Allow users to schedule external encoder events](#allow-users-to-schedule-external-encoder-events).     |
+|**Allow scheduling**     |Turning this on lets users in your organization create and schedule live events in Teams. It's important to know that if you want users to schedule external encoder live events, there are additional steps you must do. To learn more, see  [Enable users to schedule external encoder events](#enable-users-to-schedule-external-encoder-events).     |
 |**Allow transcription for attendees** (coming soon) |This setting can only be applied to quick start events. Turning this on enables live event attendees to see real-time captions and translation during the event.         |
 |**Who can join scheduled live events**    |Choose one of the following.<br> <br> **Everyone** Users can create live events that everyone, including people outside your organization, can attend. <br> **Everyone in the organization** Users can create live events that only people in your organization can attend. Users can't create live events that are attended by anonymous users. <br> **Specific users or groups** Users can create live events that only specific users or groups in your organization can attend.         |
 |**Recording setting**  <br>     | This setting can only be applied to quick start events. Choose one of the following. <br><br> **Always record** The live events created by users are always recorded. After the event is over, event team members can download the recording and attendees can watch the event. <br> **Never record** The live events created by users are never recorded. <br>**Organizer can record or not** Users can decide whether to record the live event. If it is recorded, after the event is over, event team members can download the recording and attendees can watch the event.       
-
-> [!NOTE]
-> Users will get the global policy unless you create and assign a custom policy.  By default in the global policy, live event scheduling is enabled for Teams users,  transcription is off, everyone in the organization can join live events, and the recording setting is set to always record.  
 
 ### Assign a live events policy to users 
 
@@ -62,19 +62,20 @@ If you created a custom live events policy, assign it to users for the policy to
 2. Next to **Assigned policies**, choose **Edit**. 
 3. Select the live events policy you want to assign, and then choose **Save**. 
 
-### Allow users to schedule external encoder events
+### Enable users to schedule external encoder events
 
+For users to schedule external encoder events, you must also do the following:
 
 1. Enable Microsoft Stream for users in your organization. Microsoft Stream is available as part of eligible Office 365 subscriptions or as a standalone service. Microsoft Stream is not included in Business Essentials or Business Premium plans. See [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.
 
-  Learn more about how you can [assign licenses to users in Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Microsoft Stream. Ensure Microsoft Stream is not blocked for the users as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
+      Learn more about how you can [assign licenses to users in Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Microsoft Stream. Ensure Microsoft Stream is not blocked for the users as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
 
 2. Ensure users have live event creation permission in Microsoft Stream. By default, administrators can create external encoder live events. Microsoft Stream administrator can [enable additional users for live event creation](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) in Stream.  
 
 3. Ensure live event organizers have consented to the company policy set by Stream admin. If a Microsoft Stream administrator has [set up a company guidelines policy](https://docs.microsoft.com/stream/company-policy-and-consent) and requires employees to accept this policy before saving content, then users must do so before creating a live event (with External Encoder production) in Teams. Before you roll out the live events feature in the organization, make sure users who will be creating these live events have consented to the policy. 
 
 ## Step 4: Set up a video distribution solution for live events in Teams 
-Playback of live event videos uses adaptive bitrate streaming (ABR) but it is a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, live events solutions are integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or enterprise content delivery networks (eCDNs). These SDN / eCDN platforms enable organizations to optimize network bandwidth without sacrificing end user viewing experiences. Our partners can help enable a more scalable and efficient video distribution across your enterprise network.
+Playback of live event videos uses adaptive bitrate streaming (ABR) but it is a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, live events solutions are integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or enterprise content delivery networks (eCDNs). These SDN/eCDN platforms enable organizations to optimize network bandwidth without sacrificing end user viewing experiences. Our partners can help enable a more scalable and efficient video distribution across your enterprise network.
 
 **Purchase and set up your solution outside of Teams**
 Get expert help with scaling video delivery by leveraging Microsoft’s trusted video delivery partners. Before you can enable a video delivery provider to be used with Teams you must purchase and set up the SDN/eCDN solution outside and separate from Teams.
@@ -88,9 +89,9 @@ The following SDN/eCDN solutions are pre-integrated and can be setup to be used 
 - **Ramp OmniCache** provides next-generation network distribution and ensures seamless delivery of video content across global WANs, helping event producers optimize network bandwidth and support successful live event broadcasts and on-demand streaming. The support for Ramp OmniCache for quick start live events is coming soon.  [Learn more](http://www.ramp.com). 
  
 > [!NOTE] 
-> Your chosen eCDN solution is subject to the selected **3rd party provider’s terms of service and privacy policy**, which will governs your use of the eCDN provider’s solution. Your use of the eCDN provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the **3rd party provider’s terms**, then don't enable the eCDN solution in Teams. 
+> Your chosen SDN or eCDN solution is subject to the selected **3rd party provider’s terms of service and privacy policy**, which will governs your use of the provider’s solution. Your use of the provider’s solution will not be subject to the Microsoft volume licensing terms or Online Services Terms. If you do not agree to the **3rd party provider’s terms**, then don't enable the solution in Teams. 
 
-After you set up the SDN/eCDN solution, you're ready to configure the provider for live events in Teams. 
+After you set up the SDN or eCDN solution, you're ready to configure the provider for live events in Teams. 
 
 ## Next steps
 Go to [Confgure live events settings in Teams](configure-teams-live-events.md).
