@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Configure policies to control XMPP federated user access'
+title: 'Configure policies to control XMPP federated user access'
 ms:assetid: 0fe0ff75-e52a-4e3e-923a-64f6412ac4e4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552446(v=OCS.15)
 ms:contentKeyID: 48679557
@@ -15,7 +15,7 @@ description: "When you configure policies for support of extensible messaging an
 ---
 
 
-# Configure policies to control XMPP federated user access in Lync Server 2013
+# Configure policies to control XMPP federated user access
 
 When you configure policies for support of extensible messaging and presence protocol (XMPP) federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers (for example, Windows Live), or SIP federated domains. You configure an **XMPP Federated Partner** for each XMPP federated domain that you want to allow your users to add contacts and communicate with. XMPP federated partners policies are only available in a single scope, though it is not defined as a global policy, acts as a global policy. To define a global, site or user policy for XMPP Federation Partners, you configure the policy scope by first creating and configuring the External Access Policy for the scope you require. For details about the types of policies that you can configure for external access and federation, see [Managing federation and external access to Skype for Business Server](../managing-federation-and-external-access.md).
 
@@ -126,7 +126,7 @@ When you configure policies for support of extensible messaging and presence pro
 
 [Assign an external user access policy](assign-an-external-user-access-policy.md)  
 
-[Enable or disable federation and public IM connectivit](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)   
+[Enable or disable federation and public IM connectivity](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)   
 
 [Manage XMPP federated partners](manage-xmpp-federated-partners-for-your-organization.md)  
 

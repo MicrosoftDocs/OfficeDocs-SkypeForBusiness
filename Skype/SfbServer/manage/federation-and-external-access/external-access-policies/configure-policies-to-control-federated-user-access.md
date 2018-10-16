@@ -28,7 +28,7 @@ When you configure policies to support communications with federated partners, t
 
 1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.
 
-2.  Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.
+2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.
 
 3.  In the left navigation bar, click **External User Access**, and then click **External Access Policy**.
 
