@@ -25,23 +25,23 @@ The user presence states available in Teams are:
 
 |User configured|App configured|
 |:--- |:---|
-|<span style="color: green">&bull; </span> Available||
-||<span style="color: green">&bull; </span> Available until *time*|
-|<span style="color: red">&bull; </span> Busy||
-||<span style="color: red">&bull; </span> In a call|
-||<span style="color: red">&bull; </span> In a meeting|
-|<span style="color: red">&bull; </span> Do not disturb||
-||<span style="color: red">&bull; </span> Presenting|
-|<span style="color: Gold">&bull; </span> Away|<span style="color: Gold">&bull; </span>Away|
-||<span style="color: Gold">&bull; </span> Away Last Seen *time*|
-||<span style="color: Gold">&bull; </span> Away be right back|
-|| <span style="color: Gold">&bull; </span> Away Off Work|
-|||
-||<span style="color: gray">&bull; </span> Offline|
-||<span style="color: gray">&bull; </span> Presence unknown|
-||<span style="color: gray">&bull; </span> Blocked|
-||<span style="color: gray">&bull; </span> Out of Office|
-||<span style="color: gray">&bull; </span> Out of office until *date*|
+| ![Presence Available](media/Presence_Available.png) Available||
+|| ![presence Available until](media/Presence_Available_OOF.png) Available until *time*|
+|  ![Busy](media/Presence_Busy.png) Busy ||
+|| ![Busy](media/Presence_Busy.png) In a call |
+|| ![Busy](media/Presence_Busy.png) In a meeting |
+|  ![Do Not disturb](media/Presence_DND.png) Do not disturb ||
+|| ![dnd oof](media/Presence_DND_OOF.png) Presenting|
+| ![away](media/Presence_Away.png) Away| ![away](media/Presence_Away.png) Away|
+|| ![away](media/Presence_Away.png) Away Last Seen *time*|
+|| ![away](media/Presence_Away.png) Away be right back|
+|| ![away](media/Presence_Away.png)  Away Off Work|
+| ||
+|| ![Offline](media/Presence_Offline_Alt.png) Offline |
+|| ![Offline](media/Presence_Offline.png) Offline, Presence unknown|
+|| ![busy oof](media/Presence_Busy_OOF.png) Blocked|
+|| ![Out of office](media/Presence_OOF_Alt.png)  Out of Office|
+|| ![Out of office](media/Presence_OOF.png)  Out of office until *date*|
 |||
 
 Users can manually set their current presence state to some options, and their state gets reflected to all other users. Additional user presence details are also automatically updated based on user activity (such as Available or Away), Outlook calendar states (such as In a meeting), or Teams app states (In a call, Presenting), to states that are indented in the list.
@@ -63,7 +63,7 @@ The following Admin settings in Skype for Business are different in Teams:
 - Calendar (includes OOF & other calendar info) integration  is always enabled for users in Teams if integrated with Outlook.
 - The *Last seen* or *Away since* (if in a dual environment) indicator is always enabled for users in Teams.
 - Custom presence status is not enabled for users in Teams.
-- Presence sharing is always enabled for users in Teams for the organization
-- Presence sharing with everyone is always enabled for users in Teams. Their contact list (if they had one in SfB) is visible under **Chat > Contacts** or under **Calls > Contacts**.
+- Presence sharing is always enabled in Teams for for users in the organization
+- Presence sharing with everyone (including Federated services) is always enabled for users in Teams. Their contact list (if they had one in SfB) is visible under **Chat > Contacts** or under **Calls > Contacts**.
 
-The ability of an Admin to customize these settings is not currently supported.
+The ability of a Teams Admin to customize these settings is not currently supported.
