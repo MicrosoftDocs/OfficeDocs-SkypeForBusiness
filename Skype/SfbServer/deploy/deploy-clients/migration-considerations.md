@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -17,7 +18,7 @@ Read this topic to learn about how to deploy Skype Room System in an environment
   
 ## Migration considerations
 
-This section provides guidance if you are deploying Skype Room System in a multi-pool environment that includes different versions of Skype for Business Server, Lync Server, or Office Communications Server 2007 R2. 
+This section provides guidance if you are deploying Skype Room System in a multi-pool environment that includes different versions of Skype for Business Server, or Lync Server. 
   
 The User Replicator (UR) component in Lync Server gets user objects from Active Directory and places them into the Lync Server back-end SQL Server database. Only the UR in Lync Server 2013 is aware of Skype Room System objects. The UR in previous versions of Lync Server and Office Communications Server do not detect the Active Directory attributes that designate LRS objects, and therefore was not aware of them. 
   
