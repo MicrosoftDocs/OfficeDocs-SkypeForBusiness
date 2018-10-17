@@ -54,6 +54,7 @@
 #### [Meetings clients](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 ##### [Skype Meetings App minimum network requirements](../../SfbServer/plan-your-deployment/clients-and-devices/minimum-network-requirements.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [VDI environments](../../SfbServer/plan-your-deployment/clients-and-devices/vdi-environments.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Capacity Planning](../plan/capacity2019.md)
 
 ### [High availability and disaster recovery](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [High availability](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
