@@ -34,18 +34,19 @@ Devices must be certified for Teams and enrolled in Teams. A device is automatic
 
     ![Screen shot of the All devices area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center](media/device-management-all-devices.png "Screen shot of the All devices area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center")
 
- From here, you can view and manage all devices enrolled in Teams in your organization. Information that's included for each device includes device name, manufacturer, model, user, status, action, last seen, and history. You can customize the view to show the information that you want. 
+ From here, you can view and manage all devices enrolled in Teams in your organization. Information that you'll see for each device includes device name, manufacturer, model, user, status, action, last seen, and history. You can customize the view to show the information that fits your needs.
 
  Here's some examples of how you can manage Teams devices in your organization.  
     
 |To do this...  |Do this |
 |---------|---------|
 |Change device information   | Select a device > **Edit**. You can edit details such as device name, user information, asset tag, and add notes.     |
-|Manage software updates   |Select a device > **Update**. You can edit details such as device name, user information, asset tag, and add notes.         |
-|Restart a device   |         |
-|View diagnostics   |         |
+|Manage software updates   |Select a device > **Update**. You can view the list of software and firmware updates available for the device and choose the updates to install.    |
+|Restart a device   |Select a device > **Restart**.          |
+|View device history  | Select a device > **History**. You can view the update history for the device.     |
+|View diagnostics  | Select a device > **Diagnostics**.        |
 
-## Work with configuration profiles in Teams
+## Use configuration profiles in Teams
 
 Use configuration profiles to manage settings and features for Teams devices in your organization. You can create or upload configuration profiles to include settings and features you want to enable or disable and then assign a profile to a device or groups of devices. 
 
@@ -92,3 +93,5 @@ Use configuration profiles to manage settings and features for Teams devices in 
 
    ![Screen shot showing the option to assign devices to a configuration profile](media/device-management-assign-configuration-profile.png "Screen shot showing the option to assign devices to a configuration profile")
 3. Click **Save**.
+
+### Related topics
