@@ -123,14 +123,15 @@ You can learn more about Communications Credits [here](https://docs.microsoft.co
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Audio Conferencing add-on|
 
 <br>
-&gt; [!TIP]
-&gt; Your Communications Credits planning numbers can be documented as the following:
-&gt;|         |         |
-&gt;|---------|---------|
-&gt;|Initial amount|$ 1,000|
-&gt;|Trigger amount|$ 400|
-&gt;|Auto-recharge amount|TBA|
 
+> [!TIP]
+> Your Communications Credits planning numbers can be documented as the following:
+> |         |         |
+> |---------|---------|
+> |Initial amount|$ 1,000|
+> |Trigger amount|$ 400|
+> |Auto-recharge amount|TBA|
+> 
 <!--ENDOFSECTION-->
 
 ## Conference bridge phone numbers
