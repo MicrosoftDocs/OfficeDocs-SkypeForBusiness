@@ -309,13 +309,14 @@ The use of Communications Credits can be controlled at per user basis, allowing 
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Phone System add-on, Domestic Calling Plan|Disabled|
 
 <br>
-&gt; [!TIP]
-&gt; Your Communications Credits planning numbers can be documented as the following:
-&gt;|         |         |
-&gt;|---------|---------|
-&gt;|Initial amount|$ 1,000|
-&gt;|Trigger amount|$ 400|
-&gt;|Auto-recharge amount|TBA|
+
+> [!TIP]
+> Your Communications Credits planning numbers can be documented as the following:
+> |         |         |
+> |---------|---------|
+> |Initial amount|$ 1,000|
+> |Trigger amount|$ 400|
+> |Auto-recharge amount|TBA|
 
 ## Phone Numbers and Emergency Locations
 
@@ -457,16 +458,17 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 > ||**FR-Service**<br>_Service number normalization for France_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
-&gt; [!TIP]
-&gt; The example template below can be leveraged to document dial plan assignments to support your project:
-&gt;|User  |Office  |Dial Plan Type  |Dial Plan Name  |
-&gt;|---------|---------|---------|---------|
-&gt;|Emily Braun|32 London Bridge Street|Service dial plan|N/A|
-&gt;|Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
-&gt;|Pradeep Gupta|32 London Bridge Street|Service dial plan|N/A|
-&gt;|Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-39qdPR|
-&gt;|Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-39qdPR|
-&gt;|Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-39qdPR|
+
+> [!TIP]
+> The example template below can be leveraged to document dial plan assignments to support your project:
+> |User  |Office  |Dial Plan Type  |Dial Plan Name  |
+> |---------|---------|---------|---------|
+> |Emily Braun|32 London Bridge Street|Service dial plan|N/A|
+> |Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
+> |Pradeep Gupta|32 London Bridge Street|Service dial plan|N/A|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-39qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-39qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-39qdPR|
 
 ## Document technical implementation plan
 
