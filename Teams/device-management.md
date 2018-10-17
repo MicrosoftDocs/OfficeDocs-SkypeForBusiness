@@ -17,7 +17,7 @@ appliesto:
 
 # Manage your devices in Microsoft Teams
 
- As an admin, you can easily manage all devices used with Teams in your organization from one place. In the Microsoft Teams & Skype for Business admin center, in the left navigation, go to **Devices** > **Manage Devices**. From here, you can view and manage the device inventory for your organization and do tasks such as update and restart devices and monitor diagnostics for devices. You can also create and assign configuration profiles to a device or groups of devices. 
+ As an admin, you can easily manage all devices used with Teams in your organization from one place. In the Microsoft Teams & Skype for Business admin center, in the left navigation, go to **Devices** > **Manage Devices**. You can view and manage the device inventory for your organization and do tasks such as update and restart devices and monitor diagnostics for devices. You can also create and assign configuration profiles to a device or groups of devices. 
 
 ## What devices can you manage?
 To manage devices in the Microsoft Teams & Skype for Business admin center, the device must be enrolled in Teams. A device is automatically enrolled the first time a user signs in to Teams on the device. The types of devices that you can manage include [NEED CONTENT HERE].
@@ -27,23 +27,39 @@ To manage devices in the Microsoft Teams & Skype for Business admin center, the 
 
 ## Manage devices in Teams
 
+![Screen shot of the All devices area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center](media/device-management-all-devices.png "Screen shot of the All devices area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center")
+
 ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
 
 1. In the left navigation, go to **Devices** > **Manage Devices**.
-2. Select **All devices**.
+2. Select **All devices**.  
+    From here, you can view and manage all devices enrolled in Teams in your organization. Information that's listed with each device includes the device name, manufacturer, model, user, status, action, last seen, and history.  You can customize the view to show the information that you want. 
 
-![Screen shot of the All devices area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center](media/device-management-all-devices.png "Screen shot of the All devices area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center")
+    Here's how to 
+    
+    
+    |To do this...  |Do this |
+    |---------|---------|
+    |Change information about a device    |         |
+    |Manage software and firmware updates   |         |
+    |Restart a device   |         |
+    |View diagnostics   |         |
+ 
 
-### View devices
+
 ### Update devices
+![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
+
+1. In the left navigation, go to **Devices** > **Manage Devices**.
+2. Select **All devices**.   
+
 ### Restart devices
-### Factory reset a device
 
 ## Work with configuration profiles in Teams
 
 Use configuration profiles to manage settings and features for Teams devices in your organization. You can create or upload configuration profiles to include settings and features you want to enable or disable and then assign a profile to a device or groups of devices. 
 
-![Screen shot of the Configuration profiles area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center](media/device-management-configuration-profile.png "Screen shot of the Configuration profiles area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center")
+ ![Screen shot of the Configuration profiles area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center](media/device-management-configuration-profile.png "Screen shot of the Configuration profiles area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center")
 
 Here's some examples of profiles and when to use them:[NEED CONTENT HERE]
 
@@ -53,9 +69,8 @@ Here's some examples of profiles and when to use them:[NEED CONTENT HERE]
 
 1. In the left navigation, go to **Devices** > **Manage Devices**.
 2. Select **Configuration profiles**, and then select **New configuration profile**.
-3. Enter a name for the profile.
-4. Enter a friendly description for the profile. This is optional but recommended.
-5. Complete the following, and then click **Save**.
+3. Enter a name for the profile and if you want, add a friendly description. 
+4. Complete the following, and then click **Save**.
     
     |Area  |Setting |Description |
     |---------|---------|---------|
