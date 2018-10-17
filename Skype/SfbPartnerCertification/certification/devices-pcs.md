@@ -182,7 +182,7 @@ All of these form factors are tested to deliver:
 | HP| ProBook 645 G3| 01/19/2017| 
 | HP| ProBook 650 G3| 01/19/2017| 
 | HP| ProBook 655 G3| 01/19/2017| 
-| HP| Sprout by | HP G2| 01/19/2017| 
+| HP| Sprout by HP G2| 01/19/2017| 
 | HP| EliteBook x360 1030 G2| 01/19/2017| 
 | Lenovo | ThinkPad X1 Yoga (2nd Generation)| 01/19/2017| 
 | Lenovo | Yoga370| 01/19/2017| 
@@ -302,7 +302,7 @@ All of these form factors are tested to deliver:
 | Dell | BC14 Non-Touch| 10/12/2015| 
 | Dell | Latitude E5470 Non-Touch| 10/12/2015| 
 | Lenovo | ThinkPad Yoga 460| 10/12/2015| 
-| Lenovo | | Lenovo CS15 BP500| 10/12/2015| 
+| Lenovo | Lenovo CS15 BP500| 10/12/2015| 
 | Acer| Aspire V17| 09/25/2015| 
 | Dell | E5270 Touch| 09/25/2015| 
 | Dell | E5270 Non-Touch| 09/25/2015| 
