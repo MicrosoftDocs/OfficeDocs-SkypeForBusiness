@@ -15,7 +15,6 @@ description: "Overview of using a Cloud Auto Attendant with Skype for Business S
 # Plan Cloud Auto Attendant
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
-Skype for Business Server 2019 hybrid implementations only use Cloud Voicemail Cloud Auto Attendants and do not integrate with Exchange Online.
 
 ## Overview
 
@@ -36,6 +35,8 @@ An incoming call to a Cloud Auto Attendant can take one of several paths, as sho
 2. Via a [Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers.md) and [Direct Routing](/MicrosoftTeams/direct-routing-plan.md)
 3. Via a number homed online in Office 365.
 
+Your implementation might involve one or two of these paths, but it's unlikely your implementation will need all three.
+
 Also see:
 
 - [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
@@ -55,7 +56,7 @@ In addition to the requirements above, the below requirements must be configured
 
    For more information, see [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
 
-- Your online implementation will need to have a plan that includes Phone System licenses described at [Office 365 Enterprise E1, E3, and E4](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
+- For phone numbers that you assign to your Auto Attendant, you will need an [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) license.
 
 - If you have an on-premises only deployment (that is, only Exchange Server 2019 and Skype for Business Server 2019 on-premises servers) but you want to take advantage of Cloud Auto Attendant, you need the ON-PREM license.
 
