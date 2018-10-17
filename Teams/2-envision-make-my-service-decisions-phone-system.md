@@ -270,6 +270,7 @@ To learn more about Communications Credits, review [What are Communications Cred
 
 > [!TIP]
 > Your Communications Credits planning numbers can be documented as in the following example.
+>
 > |         |         |
 > |---------|---------|
 > |Initial amount|$ 1,000|
