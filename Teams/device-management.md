@@ -27,12 +27,13 @@ To manage devices in the Microsoft Teams & Skype for Business admin center, the 
 
 ## Manage devices in Teams
 
-![Screen shot of the All devices area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center](media/device-management-all-devices.png "Screen shot of the All devices area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center")
-
 ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
 
 1. In the left navigation, go to **Devices** > **Manage Devices**.
 2. Select **All devices**.  
+
+    ![Screen shot of the All devices area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center](media/device-management-all-devices.png "Screen shot of the All devices area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center")
+
     From here, you can view and manage all devices enrolled in Teams in your organization. Information that's listed with each device includes the device name, manufacturer, model, user, status, action, last seen, and history.  You can customize the view to show the information that you want. 
 
     Here's how to 
