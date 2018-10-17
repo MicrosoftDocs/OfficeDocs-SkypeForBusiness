@@ -303,13 +303,14 @@ If your organization choose to use auto-recharge, a recommendation on the trigge
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Audio Conferencing add-on|
 
 <br>
-&gt; [!TIP]
-&gt; Your Communications Credits planning numbers can be documented as the following:
-&gt;|         |         |
-&gt;|---------|---------|
-&gt;|Initial amount|$ 1,000|
-&gt;|Trigger amount|$ 400|
-&gt;|Auto-recharge amount|TBA|
+> [!TIP]
+> Your Communications Credits planning numbers can be documented as the following:
+> |         |         |
+> |---------|---------|
+> |Initial amount|$ 1,000|
+> |Trigger amount|$ 400|
+> |Auto-recharge amount|TBA|
+> 
 
 ## Conference bridge phone numbers
 
