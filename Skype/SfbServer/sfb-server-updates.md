@@ -5,6 +5,7 @@ author: jambirk
 manager: serdars
 ms.date: 07/13/2018
 ms.audience: ITPro
+ms.reviewer: arianr, ariantor
 ms.topic: reference
 ms.prod: skypeforbusiness-server-itpro
 localization_priority: Normal
