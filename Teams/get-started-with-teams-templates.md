@@ -3,7 +3,7 @@ title: Get started with Teams templates
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/12/2018
+ms.date: 10/17/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -27,11 +27,11 @@ In this article, we'll explain the properties that can be defined in templates, 
 This article is for you if you're:
 
 •	Responsible for planning, deploying, and managing multiple teams across your organization
-•	A developer looking to create a team with predefined channels and apps programmatically
+•	A developer wanting to programmatically create a team with predefined channels and apps 
 
 ## Team template capabilities
 
-Most properties in a team are included and supported by templates. However, there are a few properties and features that are currently not supported. The following table provides a quick summary of what's included and what's not included in Teams templates.
+Most properties in a team are included and supported by templates. But there are a few properties and features that are not currently supported. The following table provides a quick summary of what's included and what's not included in Teams templates.
 
 | **Team properties supported by Teams templates** | **Team properties not yet supported by Teams templates** |
 | ------------------------------------------------ | -------------------------------------------------------- |
@@ -49,9 +49,9 @@ Most properties in a team are included and supported by templates. However, ther
 
 ## What are base template types?
 
-Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the store and team properties not yet supported individually in Teams templates.
+Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the store and team properties that are not yet supported individually in Teams templates.
 
-Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. However, some base template types contain properties that can't be overridden. 
+Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. But some base template types contain properties that can't be overridden. 
 
 By default the base template is set to **Standard** which doesn't contain any additional proprietary apps or special properties. Below is the current list of base templates types available.
 
@@ -70,7 +70,7 @@ By default the base template is set to **Standard** which doesn't contain any ad
 
 ## Examples 
 
-You can start creating a team via template by installing [Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview).
+You can start using a template to create a team by installing [Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview).
 
 ### Create a team from a template
 
