@@ -17,7 +17,7 @@ appliesto:
 
 # Manage your devices in Microsoft Teams
 
- As an admin, you can easily manage all devices used with Teams in your organization from one place. In the Microsoft Teams & Skype for Business admin center, in the left navigation, go to **Devices** > **Manage Devices**. You can view and manage the device inventory for your organization and do tasks such as update and restart devices and monitor diagnostics for devices. You can also create and assign configuration profiles to a device or groups of devices. 
+ As an admin, you can easily manage all devices used with Teams in your organization from the Microsoft Teams & Skype for Business admin center. You can view and manage the device inventory for your organization and do tasks such as update and restart devices and monitor diagnostics for devices. You can also create and assign configuration profiles to a device or groups of devices. 
 
 ## What devices can you manage?
 Devices must be certified for Teams and enrolled in Teams. A device is automatically enrolled the first time a user signs in to Teams on the device. 
