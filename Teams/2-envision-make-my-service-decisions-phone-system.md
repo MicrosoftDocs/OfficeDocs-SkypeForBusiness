@@ -267,6 +267,7 @@ To learn more about Communications Credits, review [What are Communications Cred
 > |Isabell Potvin |39 quai du Président Roosevelt |Domestic Calling Plan |Disabled |
 
 <br>
+
 > [!TIP]
 > Your Communications Credits planning numbers can be documented as in the following example.
 > |         |         |
