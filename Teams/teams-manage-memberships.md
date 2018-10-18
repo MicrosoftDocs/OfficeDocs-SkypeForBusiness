@@ -21,7 +21,7 @@ Using this feature, a team's members you can have team membership update automat
 Possible Scenarios​
 - An airline wants to create a team for each flight and have the flight crew automatically assigned.​
 - A university wants to create a team that includes all professors for a specific college and updates as faculty changes.
-​- A hospital wants to create a team for each job description so they can better target communication (). <br/>
+​- A hospital wants to create a team for each job description so they can better target communication. 
 ​
 ​
 
