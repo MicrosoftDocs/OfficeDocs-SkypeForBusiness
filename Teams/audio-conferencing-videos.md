@@ -2,16 +2,23 @@
 title: Videos - Audio Conferencing in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
-ms.date: 09/25/2017
+manager: serdars
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+ms.reviewer: MyAdvisor
 description: Videos introducing Audio Conferencing in Microsoft Teams to the IT admin.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_Help
+appliesto: 
+- Microsoft Teams
 ---
 
 Videos: Audio Conferencing in Microsoft Teams
 =============================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Don't miss [Audio Conferencing in Microsoft Teams](audio-conferencing.md).
 

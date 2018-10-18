@@ -2,12 +2,17 @@
 title: What the guest experience is like
 author: LaithAlShamri
 ms.author: laal
-manager: lolaj
+manager: serdars
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
+ms.reviewer: laal
+search.appverid: MET150
 description: Learn about the Microsoft Teams functionality available to guest users.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
+appliesto: 
+- Microsoft Teams
 ---
 
 What the guest experience is like
@@ -52,8 +57,10 @@ The following table compares the Microsoft Teams functionality available for an 
 |Share a channel file  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |Share a chat file  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Add apps (tabs, bots, or connectors)  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Create meetings or access schedules  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Access OneDrive for Business storage  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Create tenant-wide and teams/channels guest access policies  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Invite a user outside the Office 365 tenant's domain  <br/> ||![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Invite a user outside the Office 365 tenant's domain <br/>  *Team owners control this setting.*  <br/> <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Create a team  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Discover and join a public team  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |View organization chart  <br/> |![checkmark](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||

@@ -20,7 +20,9 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
         ],
         "exclude": [
           "**/obj/**",
@@ -31,11 +33,23 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "searchScope": [
+        "Microsoft Teams"
+      ],
       "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
-       "extendBreadcrumb": "true"
+      "extendBreadcrumb": "true",
+      "contributors_to_exclude": [
+        "dstrome",
+        "daswifty",
+        "MikePlumleyMSFT"
+      ],
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
+      "feedback_product_url": "https://microsoftteams.uservoice.com"
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "OfficeDocs-MicrosoftTeams"
+    "dest": "OfficeDocs-MicrosoftTeams",
+    "markdownEngineName": "markdig"
   }
 }

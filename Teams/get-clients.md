@@ -1,92 +1,107 @@
 ---
-title: Get clients for Microsoft Teams | Microsoft Support
+title: Get clients for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
-ms.date: 09/25/2017
+manager: serdars
+ms.date: 07/05/2018
+audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
+ms.reviewer: vichau, majafry
+localization_priority: Normal
+search.appverid: MET150
 description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
-Set_Free_Tag: Strat_MT_TeamsAdmin
+ms.custom:
+- NewAdminCenter_Update
+appliesto: 
+- Microsoft Teams
 ---
 
 Get clients for Microsoft Teams 
 ===========================
 
-Microsoft Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode.
+Microsoft Teams has clients available for desktop (Windows and Mac), web, and mobile (Android,  iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode.
 
-Web client 
-----------------
+Desktop client
+--------------
 
-The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. At this point, the only web client to support real-time communications is Microsoft Edge (i.e. joining meetings and having one-to-one calls). The browser must also be configured to allow 3rd-party cookies.
+> [!Tip]
+> Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
 
-There is no plugin or download required to leverage Microsoft Teams using a web browser.
+The Microsoft Teams desktop client is a standalone application and currently not part of Office 365 ProPlus. Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and macOS (10.10+). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. 
 
-The Web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) and if an unsupported browser version is detected, it will block access to the Web interface and recommend that the user download the desktop client or mobile app.
-
-Microsoft Teams supports the following browsers and versions:
-
--   **Edge**: 12+
-
--   **Internet Explorer:** 11+
-
--   **Chrome**: 51.0+
-
--   **Firefox**: 47.0+
-
-
-| | |
-|---------|---------|
-|![Important icon.](media/Get_clients_for_Microsoft_Teams_image1.png)<br></br>Important     |Safari is not yet supported, but is coming soon.         |
-
-Desktop clients
-------------------------
-
-Microsoft Teams desktop client is a standalone application and currently not part of Office Pro Plus. Microsoft Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and MacOS (10.10+).
-
-The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling and private one-on-one calls.
+The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.
 
 Desktop clients can be downloaded and installed by end users directly from [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) if they have the appropriate local permissions (admin rights are not required to install the Teams client on a PC but are required on a Mac).
 
-IT admins can choose their preferred method to distribute the installation files to machines in their organization such as System Center Configuration Manager (Windows) or Casper Suite (MacOS).
+IT admins can choose their preferred method to distribute the installation files to computers in their organization, such as System Center Configuration Manager (Windows) or Jamf Pro (macOS). To get the MSI package for Windows distribution, see [Install Microsoft Teams using MSI](msi-deployment.md).
 
+> [!NOTE]
+> Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.
 
-| | |
-|---------|---------|
-|![Note icon.](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Note    |Distribution of the client via these mechanisms is only for the initial installation of Microsoft Team clients and not for future updates.         |
+### Windows
 
-#### Windows
+The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture.
 
-The Microsoft Teams installation for Windows provides downloadable installers in 32-bit and 64-bit architecture. The architecture should match that of the OS, which is what the online download defaults to.
+> [!NOTE]
+> The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed.
 
-| | |
-|---------|---------|
-|![Note icon.](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Note    |The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Office that is installed.        |
+The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client leverages the following locations:
 
-The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client is installed in the following locations:
+- %LocalAppData%\\Microsoft\\Teams
 
--   %appdata%\\local\\Microsoft\\Teams
+- %LocalAppData%\\Microsoft\\TeamsMeetingsAddin
 
--   %appdata%\\roaming\\Microsoft\\Teams
+- %AppData%\\Microsoft\\Teams
 
-When users initiate a call using the Microsoft Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication. Users may be instructed to ignore this message because the call will work, even when the warning is dismissed.
+- %LocalAppData%\\SquirrelTemp
+
+When users initiate a call using the Microsoft Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication. Users might be instructed to ignore this message because the call will work, even when the warning is dismissed.
 
 ![Screenshot of a Windows Security Alert dialog.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
-| | |
-|---------|---------|
-|![Note icon.](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Note    |Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.        |
+> [!NOTE]
+> Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.
 
-#### Mac
+### Mac
 
-Microsoft also provides a DMG installation file for Mac OSX computers. Administrative access is required to install the Mac client. The Mac OSX client is installed to the following location:
+Mac users can install Teams by using a PKG installation file for macOS computers. Administrative access is required to install the Mac client. The macOS client is installed to the /Applications folder.
 
-\~/Library/Application Support/Microsoft/Teams
+#### Install Teams by using the PKG file
+
+1. From the [Teams download page](https://teams.microsoft.com/downloads), under **Mac**, click **Download**.
+2. Double click the PKG file.
+3. Follow the installation wizard to complete the installation.
+4. Teams will be installed to /Applications folder. It is a machine-wide installation.
+
+> [!NOTE]
+> During the installation, the PKG will prompt for admin credentials. The user needs to enter the admin credentials, regardless of whether or not the user is an admin.
+
+If a user currently has a DMG installation of Teams and wants to replace it with the PKG installation, the user should:
+
+1. Exit the Teams app.
+2. Uninstall the Teams app.
+3. Install the PKG file.
+
+IT admins can use managed deployment of Teams to distribute the installation files to all Macs in their organization, such as Jamf Pro.
+
+> [!NOTE]
+> If you experience issues installing the PKG, let us know. In the **Feedback** section at the end of this article, click **Product feedback**.
+
+Web client 
+----------
+
+The web client ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) is a full, functional client that can be used from a variety of browsers. The web client supports Calling and Meetings by using webRTC, so there is no plug-in or download required to run Teams in a web browser. The browser must be configured to allow third-party cookies. 
+
+[!INCLUDE [browser-support](includes/browser-support.md)]
+
+The web client performs browser version detection upon connecting to [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). If an unsupported browser version is detected, it will block access to the web interface and recommend that the user download the desktop client or mobile app.
 
 Mobile clients
 --------------
 
-The Microsoft Teams mobile apps are available for Android, iOS, and Windows Phones, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile store for Google Play, Apple App Store, and Microsoft Store.
+The Microsoft Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store. The Windows Phone App was retired July 20, 2018 see [here](https://support.microsoft.com/en-us/help/4230833/windows-phone-app-for-microsoft-teams-is-retiring) for more information.
 
 Supported mobile platforms for Microsoft Teams mobile apps are the following:
 
@@ -94,7 +109,8 @@ Supported mobile platforms for Microsoft Teams mobile apps are the following:
 
 -   **iOS**: 10.0 or later
 
--   **Windows Phone**: Windows 10 Mobile
+> [!NOTE]
+> The mobile version must be available to the public in order for Teams to work as expected.
 
 Mobile apps are distributed and updated through the respective mobile platform’s app store only, and are not available to be distributed through MDM (mobile device management) solutions or side-loaded.
 

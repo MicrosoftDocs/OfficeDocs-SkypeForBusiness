@@ -1,0 +1,48 @@
+# [Skype Room Systems v2](index.md)
+## Plan
+### [Overview of Skype Room Systems v2 planning](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+### [Version support](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
+### [Release notes](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
+### [Prepare your environment](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
+### [Requirements](../plan-your-deployment/clients-and-devices/requirements.md)
+### [Online Licensing](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+### [Plan management with OMS](../plan-your-deployment/clients-and-devices/oms-management.md)
+
+## Deploy
+### [Deployment overview](../deploy/deploy-clients/room-systems-v2.md)
+### [Configure accounts](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
+### [With Office 365](../deploy/deploy-clients/with-office-365.md)
+### [With Skype for Business Server 2015](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
+### [With Exchange Online (Hybrid)](../deploy/deploy-clients/with-exchange-online.md)
+### [With Exchange on premises (Hybrid)](../deploy/deploy-clients/with-exchange-on-premises.md)
+### [Configure a console](../deploy/deploy-clients/console.md)
+### [By using System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
+### [Management with OMS](../deploy/deploy-clients/with-oms.md)
+
+## Manage
+### [Management overview](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+### [Maintenance and operations](../manage/skype-room-systems-v2/room-systems-v2-operations.md)
+### [Known issues](../manage/skype-room-systems-v2/known-issues.md)
+### [Devices with OMS](../manage/skype-room-systems-v2/oms.md)
+### [Settings with an XML file](../manage/skype-room-systems-v2/xml-config-file.md)
+### [Use the recovery tool](../manage/skype-room-systems-v2/recovery-tool.md)
+# Lync Room System (SRS v1)
+## Plan
+### [Deploy Skype Room System in Skype for Business Server](../deploy/deploy-clients/deploy-skype-room-system.md)
+## Deploy
+### [Provisioning of Skype Room System Exchange and Skype Accounts](../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md)
+#### [Skype Room System single forest on-premises deployments](../deploy/deploy-clients/single-forest-on-premises-deployments.md)
+#### [Skype Room System multiple forest on-premises deployments](../deploy/deploy-clients/multiple-forest-on-premises-deployments.md)
+#### [Provisioning Skype Room System accounts in Office 365](../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md)
+#### [Skype Room System hybrid deployments](../deploy/deploy-clients/hybrid-deployments.md)
+#### [Skype Room System and Skype for Business federated partners](../deploy/deploy-clients/room-system-and-federated-partners.md)
+### [Conferencing policy for Skype Room System accounts](../deploy/deploy-clients/conferencing-policy.md)
+### [Skype Room System trusted domains](../deploy/deploy-clients/trusted-domains.md)
+### [Skype Room System migration considerations](../deploy/deploy-clients/migration-considerations.md)
+### [Skype Room System domain joining considerations](../deploy/deploy-clients/domain-joining-considerations.md)
+### [Skype Room System: Skype for Business software license](../deploy/deploy-clients/skype-for-business-software-liicense.md)
+### [Skype Room System manageability and tools](../deploy/deploy-clients/manageability-and-tools.md)
+### [Skype Room System room setup scripts](../deploy/deploy-clients/room-setup-scripts.md)
+## Manage
+### [Manage Skype Room System accounts](../deploy/deploy-clients/manage-skype-room-system-accounts.md)
+## [Migrate](../deploy/deploy-clients/lrs-migration.md)

@@ -1,13 +1,16 @@
 ---
-title: Use log files in troubleshooting Microsoft Teams | Microsoft Support
+title: Use log files in troubleshooting Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
+search.appverid: MET150
 description: Learn about Debug, Media, and Desktop logs produced by Microsoft Teams, where they can be found, and how they can help with troubleshooting.
-Set_Free_Tag: Strat_MT_TeamsAdmin
+appliesto: 
+- Microsoft Teams
 ---
 
 Use log files in troubleshooting Microsoft Teams
@@ -35,12 +38,12 @@ The following table outlines the various clients, and their associated logs. Log
 |Android     |-         |-         |-         |
 |Windows Phone     |-         |-         |-         |
 
-For a complete list of supported operating systems and browsers, reference the following [Microsoft Teams FAQ](https://support.office.com/en-US/article/Frequently-asked-questions-about-Microsoft-Teams-%E2%80%93-Admin-Help-05cbe533-2181-4e95-a4b0-52cd7695fafc).
+For a complete list of supported operating systems and browsers, see [Get clients for Microsoft Teams](get-clients.md).
 
 Debug logs
 ---------------------------
 
-These are the most common logs and are required for all Microsoft support cases. Debug logs are produced by the Window and Mac desktop clients, as well as browser based clients. The logs are text based and are read from the bottom up. They can be read using any text based editor and new logs are created when logging into the client.
+These are the most common logs and are required for all Microsoft support cases. Debug logs are produced by the Windows and Mac desktop clients, as well as browser based clients. The logs are text based and are read from the bottom up. They can be read using any text based editor and new logs are created when logging into the client.
 
 Debug logs show the following data flows:
 
@@ -82,7 +85,7 @@ Media logs contain diagnostic data about audio, video and screen sharing. They a
 
 |Client |Location |
 |---------|---------|
-|Windows     |%appdata%\Roaming\Microsoft\Teams\media-stack\*.etl         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack\*.etl         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
 
 
@@ -93,5 +96,5 @@ Desktop logs, also known as bootstrapper logs, contains log data that occurs bet
 
 |Client |Location |
 |---------|---------|
-|Windows     |%appdata%\Roaming\Microsoft\Teams\logs.txt         |
+|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
