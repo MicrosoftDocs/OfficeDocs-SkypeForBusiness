@@ -26,24 +26,25 @@ The user presence states available in Teams are:
 |User configured|App configured|
 |:--- |:---|
 | ![Presence Available](media/Presence_Available.png) Available||
-|| ![presence Available until](media/Presence_Available_OOF.png) Available until *time*|
+|| ![Presence Available](media/Presence_Available.png) Available until *time* |
+|| ![available oof](media/Presence_Available_OOF.png) Available, Out of Office |
 |  ![Busy](media/Presence_Busy.png) Busy ||
-|| ![Busy](media/Presence_Busy.png) In a call |
+|| ![Busy](media/Presence_Busy.png) In a call|
 || ![Busy](media/Presence_Busy.png) In a meeting |
+|| ![busy oof](media/Presence_Busy_OOF.png) Busy, out of office|
 |  ![Do Not disturb](media/Presence_DND.png) Do not disturb ||
-|| ![dnd oof](media/Presence_DND_OOF.png) Presenting|
+|| ![Do Not disturb](media/Presence_DND.png) Presenting|
 | ![away](media/Presence_Away.png) Away| ![away](media/Presence_Away.png) Away|
 || ![away](media/Presence_Away.png) Away Last Seen *time*|
 || ![away](media/Presence_Away.png) Away be right back|
 || ![away](media/Presence_Away.png)  Away Off Work|
 | ||
-|| ![Offline](media/Presence_Offline_Alt.png) Offline |
-|| ![Offline](media/Presence_Offline.png) Offline, Presence unknown|
-|| ![busy oof](media/Presence_Busy_OOF.png) Blocked|
-|| ![Out of office](media/Presence_OOF_Alt.png)  Out of Office|
-|| ![Out of office](media/Presence_OOF.png)  Out of office until *date*|
+|| ![Offline](media/Presence_Offline_Alt.png) ![Offline](media/Presence_Offline.png) Offline |
+|| ![unknown](media/Presence_Unknown.png) Status unknown|
+||![blocked](media/Presence_Blocked.png) Blocked |
+|| ![Out of office](media/Presence_OOF.png) Out of Office|
 |||
-
+ 
 Users can manually set their current presence state to some options, and their state gets reflected to all other users. Additional user presence details are also automatically updated based on user activity (such as Available or Away), Outlook calendar states (such as In a meeting), or Teams app states (In a call, Presenting), to states that are indented in the list.
 
 **(SfB and Outlook integration: are these live outside MSFT yet?)**
