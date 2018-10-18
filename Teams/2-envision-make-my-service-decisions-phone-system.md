@@ -267,8 +267,10 @@ To learn more about Communications Credits, review [What are Communications Cred
 > |Isabell Potvin |39 quai du Président Roosevelt |Domestic Calling Plan |Disabled |
 
 <br>
+
 > [!TIP]
 > Your Communications Credits planning numbers can be documented as in the following example.
+>
 > |         |         |
 > |---------|---------|
 > |Initial amount|$ 1,000|
@@ -378,6 +380,7 @@ For more information about dial plans, see [What are dial plans?](https://docs.m
 > ||**FR-Service**<br>_Service number normalization for France_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
+
 > [!TIP]
 > The example template below can be leveraged to document dial plan assignments to support your project:
 >
