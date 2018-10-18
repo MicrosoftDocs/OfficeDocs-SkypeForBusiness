@@ -396,6 +396,7 @@ With these controls, you can decide whether meeting organizers can provide toll-
 > |Automatically send emails to users if their dial-in settings change|Disabled|
 
 <br>
+
 > [!TIP]
 > You can document the conference bridge settings assignment list for Audio Conferencing users using the following example:
 >
