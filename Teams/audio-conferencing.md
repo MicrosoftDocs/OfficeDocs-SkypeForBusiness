@@ -303,13 +303,14 @@ If your organization choose to use auto-recharge, a recommendation on the trigge
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Audio Conferencing add-on|
 
 <br>
-&gt; [!TIP]
-&gt; Your Communications Credits planning numbers can be documented as the following:
-&gt;|         |         |
-&gt;|---------|---------|
-&gt;|Initial amount|$ 1,000|
-&gt;|Trigger amount|$ 400|
-&gt;|Auto-recharge amount|TBA|
+> [!TIP]
+> Your Communications Credits planning numbers can be documented as the following:
+> |         |         |
+> |---------|---------|
+> |Initial amount|$ 1,000|
+> |Trigger amount|$ 400|
+> |Auto-recharge amount|TBA|
+> 
 
 ## Conference bridge phone numbers
 
@@ -395,22 +396,24 @@ With these controls, you can decide whether meeting organizers can provide toll-
 > |Automatically send emails to users if their dial-in settings change|Disabled|
 
 <br>
-&gt; [!TIP]
-&gt; You can document the conference bridge settings assignment list for Audio Conferencing users using the following example:
-&gt;|User  |Office  |Default toll number  |Default toll-free number  |Allow toll-free  |Unauthenticated callers bypass lobby  |Conference dial out  |
-&gt;|---------|---------|---------|---------|---------|---------|---------|
-&gt;|Adele Vance|One Epping Road|TBA|TBA|Yes|Enabled|International and domestic|
-&gt;|Alex Wilber|One Epping Road|TBA|TBA|No|Disabled|Not allowed|
-&gt;|Ben Walters|One Epping Road|TBA|TBA|No|Disabled|Not allowed|
-&gt;|Christie Cline|One Marina Boulevard|TBA|TBA|Yes|Disabled|Domestic|
-&gt;|Debra Berger|One Marina Boulevard|TBA|TBA|Yes|Enabled|Domestic|
-&gt;|Lee Gu|One Marina Boulevard|TBA|TBA|Yes|Enabled|Domestic|
-&gt;|Emily Braun|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Enabled|Not allowed|
-&gt;|Lidia Holloway|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Disabled|Not allowed|
-&gt;|Pradeep Gupta|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Disabled|Not allowed|
-&gt;|Marcel Beauchamp|39 quai du Président Roosevelt|TBA|TBA|No|Disabled|Domestic|
-&gt;|Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|Yes|Enabled|International and domestic|
-&gt;|Isabell Potvin|39 quai du Président Roosevelt|TBA|TBA|No|Disabled|Domestic|
+
+> [!TIP]
+> You can document the conference bridge settings assignment list for Audio Conferencing users using the following example:
+>
+> |User  |Office  |Default toll number  |Default toll-free number  |Allow toll-free  |Unauthenticated callers bypass lobby  |Conference dial out  |
+> |---------|---------|---------|---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|TBA|TBA|Yes|Enabled|International and domestic|
+> |Alex Wilber|One Epping Road|TBA|TBA|No|Disabled|Not allowed|
+> |Ben Walters|One Epping Road|TBA|TBA|No|Disabled|Not allowed|
+> |Christie Cline|One Marina Boulevard|TBA|TBA|Yes|Disabled|Domestic|
+> |Debra Berger|One Marina Boulevard|TBA|TBA|Yes|Enabled|Domestic|
+> |Lee Gu|One Marina Boulevard|TBA|TBA|Yes|Enabled|Domestic|
+> |Emily Braun|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Enabled|Not allowed|
+> |Lidia Holloway|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Disabled|Not allowed|
+> |Pradeep Gupta|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Disabled|Not allowed|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|TBA|TBA|No|Disabled|Domestic|
+> |Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|Yes|Enabled|International and domestic|
+> |Isabell Potvin|39 quai du Président Roosevelt|TBA|TBA|No|Disabled|Domestic|
 
 ## Dial plans
 
@@ -458,22 +461,24 @@ There is a maximum of 25 normalization rules in each tenant dial plan, and thus 
 > ||**FR-Service**<br>_Service number normalization for France_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
-&gt; [!TIP]
-&gt; The example template below can be leveraged to document dial plan assignments to support your project:
-&gt;|User  |Office  |Dial Plan Type  |Dial Plan Name  |
-&gt;|---------|---------|---------|---------|
-&gt;|Adele Vance|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
-&gt;|Alex Wilber|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
-&gt;|Ben Walters|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
-&gt;|Christie Cline|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
-&gt;|Debra Berger|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
-&gt;|Lee Gu|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
-&gt;|Emily Braun|32 London Bridge Street|Service dial plan|N/A|
-&gt;|Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
-&gt;|Pradeep Gupta|32 London Bridge Street|Service dial plan|N/A|
-&gt;|Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
-&gt;|Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
-&gt;|Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
+
+> [!TIP]
+> The example template below can be leveraged to document dial plan assignments to support your project:
+>
+> |User  |Office  |Dial Plan Type  |Dial Plan Name  |
+> |---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
+> |Ben Walters|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
+> |Christie Cline|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
+> |Debra Berger|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
+> |Lee Gu|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
+> |Emily Braun|32 London Bridge Street|Service dial plan|N/A|
+> |Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
+> |Pradeep Gupta|32 London Bridge Street|Service dial plan|N/A|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
 
 ## Microsoft Teams configurations
 

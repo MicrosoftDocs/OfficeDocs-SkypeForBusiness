@@ -267,13 +267,15 @@ To learn more about Communications Credits, review [What are Communications Cred
 > |Isabell Potvin |39 quai du Président Roosevelt |Domestic Calling Plan |Disabled |
 
 <br>
-&gt; [!TIP]
-&gt; Your Communications Credits planning numbers can be documented as in the following example.
-&gt;|         |         |
-&gt;|---------|---------|
-&gt;|Initial amount|$ 1,000|
-&gt;|Trigger amount|$ 400|
-&gt;|Auto-recharge amount|TBA|
+
+> [!TIP]
+> Your Communications Credits planning numbers can be documented as in the following example.
+>
+> |         |         |
+> |---------|---------|
+> |Initial amount|$ 1,000|
+> |Trigger amount|$ 400|
+> |Auto-recharge amount|TBA|
 
 <!--ENDOFSECTION-->
 
@@ -378,22 +380,24 @@ For more information about dial plans, see [What are dial plans?](https://docs.m
 > ||**FR-Service**<br>_Service number normalization for France_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
-&gt; [!TIP]
-&gt; The example template below can be leveraged to document dial plan assignments to support your project:
-&gt;|User  |Office  |Dial Plan Type  |Dial Plan Name  |
-&gt;|---------|---------|---------|---------|
-&gt;|Adele Vance|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
-&gt;|Alex Wilber|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
-&gt;|Ben Walters|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
-&gt;|Christie Cline|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
-&gt;|Debra Berger|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
-&gt;|Lee Gu|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
-&gt;|Emily Braun|32 London Bridge Street|Service dial plan|N/A|
-&gt;|Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
-&gt;|Louis Lahr|32 London Bridge Street|Service dial plan|N/A|
-&gt;|Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
-&gt;|Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
-&gt;|Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
+
+> [!TIP]
+> The example template below can be leveraged to document dial plan assignments to support your project:
+>
+> |User  |Office  |Dial Plan Type  |Dial Plan Name  |
+> |---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
+> |Ben Walters|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
+> |Christie Cline|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
+> |Debra Berger|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
+> |Lee Gu|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
+> |Emily Braun|32 London Bridge Street|Service dial plan|N/A|
+> |Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
+> |Louis Lahr|32 London Bridge Street|Service dial plan|N/A|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
 
 <!--ENDOFSECTION-->
 
