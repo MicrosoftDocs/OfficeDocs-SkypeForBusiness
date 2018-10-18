@@ -62,11 +62,11 @@ Use the steps in the following procedure to move response groups from one Front 
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<destination pool>" -FileName "<export file name>" -OverwriteOwner
     
-    If you also want to copy the Response Group application-level settings from the source pool to the destination pool, include the –ReplaceExistingSettings parameter. You can define only one set of application-level settings per pool. If you copy the application-level settings from the source pool to the destination pool, the settings from the source pool replace the settings for the destination pool. If you do not copy the application-level settings from the source pool, the existing settings from the destination pool apply to the imported response groups.
+    If you also want to copy the Response Group application-level settings from the source pool to the destination pool, include the –ReplaceExistingRgsSettings parameter. You can define only one set of application-level settings per pool. If you copy the application-level settings from the source pool to the destination pool, the settings from the source pool replace the settings for the destination pool. If you do not copy the application-level settings from the source pool, the existing settings from the destination pool apply to the imported response groups.
     
     For example:
     
-        Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingSettings
+        Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingRgsSettings
     
     <div>
     
