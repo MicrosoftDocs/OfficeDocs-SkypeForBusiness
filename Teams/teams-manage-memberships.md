@@ -16,6 +16,21 @@ appliesto:
 
 # Manage Dynamic Teams memberships
 
+<!--
+Overall, I think I'd pivot this to be informational about how Teams clients change for dynamic membership and what kind of scenarios dynamic membership allows, but just point to the Azure docs for all the details on setting up rules.
+Title suggestion: Perhaps just "Dynamic membership" or "Dynamic membership for teams"
+-->
+
+<!--
+Microsoft Teams supports teams associated with Office 365 groups using dynamic membership. Dynamic membership enables the membership of a team to be defined by one or more rules that check for certain user attributes in AAD. Users are automatically added or removed to the correct teams as user attributes change or users join and leave the tenant. 
+-->
+
+<!--
+With dynamic membership you can setup teams for certain cohorts of users in your organization. As examples:
+- A hospital can create distinct teams for nurses, doctors, and surgeons to broadcast communications.
+- A university can create a team for all faculty within a particular college.
+-->
+
 Using this feature, a team's members you can have team membership update automatically to match a specific set of criteria, instead of manually managing membership.​ Doing this requires Azure AD Premium P1 licenses and Team membership can be assigned to any user AAD property.
 
 Possible Scenarios​
@@ -25,8 +40,17 @@ Possible Scenarios​
 ​
 ​
 
+<!-- 
+You must be a tenant admin to manage dynamic membership, and an Azure AD Premium P1 license is required for each user assigned to a dynamic memberhsip group. Visit here to learn more. (link: https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-dynamic-membership)
+-->
+
 To create a Dynamic Group Team, you must have a tenant and an admin account​.
 
+<!--
+Microsoft Teams may take up to 2 hours to reflect dynamic membership changes once they take effect in the Office 365 group for a team.
+-->
+
+<!-- I'd leave all of this out below, and just rely on the pointer to the groups documentation above -->
 
 Create an AAD Group:
 1. Login as admin and visit Portal.azure.com​
@@ -42,12 +66,7 @@ Create an AAD Group:
 >- You can't set a rule to define Team Owners, only members.
 >- Rules take a few minutes to sync, possibly more depending on tenant size and the number of users it affects.
 ​
-To enable telemetry, add a new telemetry column (only for BI events) named “Team.MemType” (short for “TeamMembershipType”​) and also remove _dynamic_ and _org wide_ from Team.Type.
 
-This will differentiate user activity for any client events between the three types​:
-- Standard: “Std”​
-- Dynamic: “Dyn”​
-- Org-wide: “Org”​
 
 [Create an org-wide team in Microsoft Teams](create-an-org-wide-team.md)
 
