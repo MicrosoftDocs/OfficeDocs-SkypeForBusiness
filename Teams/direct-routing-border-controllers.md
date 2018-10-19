@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-description: "Microsoft partners with selected SBC vendors to certify their SBC for work with Direct Routing."
+description: "Microsoft partners with selected SBC vendors to certify their SBCs work with Direct Routing."
 ---
 
 # List of Session Border Controllers certified for Direct Routing
 
-Microsoft partners with selected Session Border Controllers (SBC) vendors to certify that their SBCs for work with Direct Routing. 
+Microsoft partners with selected Session Border Controllers (SBC) vendors to certify that their SBCs work with Direct Routing. 
 
 With each vendor, Microsoft: 
 
