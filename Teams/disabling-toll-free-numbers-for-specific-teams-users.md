@@ -40,15 +40,15 @@ When toll-free numbers are disabled for a given organizer:
 
 ## Disabling toll-free numbers for specific users 
 
+From the **Microsoft Teams & Skype for Business Admin Center**:
+
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
-2. At the top of the page, click **Edit**.
+2. Next to **Audio Conferencing**, click **Edit**.
 
-3. Next to **Audio Conferencing**, click **Edit**.
+3. Set **Include toll-free numbers in meeting requests from this user** to **Off**. 
 
-4. Turn off **Include toll-free numbers in meeting requests from this user**. 
-
-5. Click **Save.** 
+4. Click **Save.** 
 
  
 > [!Note]
