@@ -582,7 +582,12 @@
 ### [User accounts](../manage/user-accounts/user-accounts.md)
 #### [Customize properties](../manage/user-accounts/customize-properties.md)
 ### [Manage services](../manage/manage-services.md)
+### Testing tasks
+#### [Disaster recovery testing](../manage/test-disaster-recovery.md)
+### [Testing admin permissions](../manage/test-admin-permissions.md)
+### [Testing admin topology rights](../manage/test-admin-topology-rights.md)
 ## [Management Tools](../management-tools/management-tools.md)
+### [Install and open administrative tools](../management-tools/install-and-open-administrative-tools.md)
 ### [Call Quality Dashboard](../management-tools/call-quality-dashboard/call-quality-dashboard.md)
 #### [Plan](../management-tools/call-quality-dashboard/plan.md)
 #### [Deploy](../management-tools/call-quality-dashboard/deploy-0.md)
