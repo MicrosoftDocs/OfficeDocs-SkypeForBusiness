@@ -44,7 +44,11 @@ In addition to a supported operating system, the computer must also be running t
 ### Step 3: Download and install the Teams connector module
 [Use this topic for help](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
 
-Here is the download link from Isabella: https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3
+Install the latest module from the PowerShell Gallery using: 
+  
+  Install-Module MicrosoftTeams
+
+Or, for more information, the package can be found here: https://www.powershellgallery.com/packages/MicrosoftTeams/
 
 ### Step 4: Connect using the Teams connector module
 [Use this topic for help](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 

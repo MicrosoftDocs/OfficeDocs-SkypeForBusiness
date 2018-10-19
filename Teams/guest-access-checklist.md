@@ -28,7 +28,7 @@ Use this checklist to help you enable and configure the Guest Access feature in 
 
 Go to the Teams & Skype for Business Admin Center, via https://admin.teams.microsoft.com. From here, select 'Org-Wide Settings', and selec the 'Guest Access' tab. Lastly, within this tab, select 'Allow guest access in Microsoft Teams' to enabled. 
 
-## Need a new screenshot for new Admin Center enablement. 
+## <Need to display a photo of the new admin center>
 
 ## □ Enable specific settings for channels 
 In the Teams application, at the individual team level, configure guest permissions so that guests can create, update, and delete channels. In addition to admins,  team owners can configure this setting.
