@@ -31,7 +31,7 @@ The user presence states available in Teams are:
 |  ![Busy](media/Presence_Busy.png) Busy ||
 || ![Busy](media/Presence_Busy.png) In a call|
 || ![Busy](media/Presence_Busy.png) In a meeting |
-|| ![busy oof](media/Presence_Busy_OOF.png) Busy, out of office|
+|| ![busy oof](media/Presence_Busy_OOF.png) In a call, out of office|
 |  ![Do Not disturb](media/Presence_DND.png) Do not disturb ||
 || ![Do Not disturb](media/Presence_DND.png) Presenting|
 | ![away](media/Presence_Away.png) Away| ![away](media/Presence_Away.png) Away|
