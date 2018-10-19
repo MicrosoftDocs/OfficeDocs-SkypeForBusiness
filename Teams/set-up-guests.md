@@ -3,7 +3,7 @@ title: Turn on or off guest access to Microsoft Teams
 author: LaithAlShamri
 ms.author: lolaj
 manager: serdars
-ms.date: 10/11/2018
+ms.date: 10/18/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -38,7 +38,26 @@ The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hou
 
     ![Allow guest access switch set to On ](media/set-up-guests-image1.png)
 
-4.	Set the toggles for **Calling**, **Meeting**, and **Messaging** to **On** or **Off**, depending on the access you want to allow.
+4.	Set the toggles under **Calling**, **Meeting**, and **Messaging** to **On** or **Off**, depending on the capabilities you want to allow for guest users.
+
+    - **Make private calls** – Turn this setting **On** to allow guests to make peer-to-peer calls.
+    - **Allow IP video** - Turn this setting **On** to allow guests to use video in their calls and meetings.
+    - **Screen sharing mode** – This setting controls the availability of screen sharing for guest users. 
+       - Turn this setting to **Disabled** to remove the ability for guests to share their screens in Teams. 
+       - Turn this setting to **Single application** to allow sharing of individual applications. 
+       - Turn this setting to **Entire screen** to allow complete screen sharing.
+    - **Allow Meet Now** – Turn this setting **On** to allow guests to use the Meet Now feature in Microsoft Teams.
+    - **Edit sent messages** - Turn this setting **On** to allow guests to edit messages they previously sent.
+    - **Guests can delete sent messages** – Turn this setting **On** to allow guests to delete messages they previously sent.
+    - **Chat** – Turn this setting **On** to give guests the ability to use chat in Teams.
+    - **Use Giphys in conversations** – Turn this setting **On** to allow guests to use Giphys in conversations. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating.
+    - **Giphy content rating** –  Select a rating from the drop-down list:
+       - **Allow all content** - Guests will be able to insert all Giphys in chats, regardless of the content rating.
+       - **Moderate** - Guests will be able to insert Giphys in chats, but will be moderately restricted from adult content.
+       - **Strict** – Guests will be able to insert Giphys in chats, but will be strictly restricted from inserting adult content.
+    - **Use Memes in conversations** - Turn this setting **On** to allow guests to use Memes in conversations.
+    - **Use Stickers in conversations** – Turn this setting **On** to allow guests to use stickers in conversations. 
+
 
 5.	Click **Save**.
 
