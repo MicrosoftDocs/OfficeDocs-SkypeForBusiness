@@ -32,11 +32,13 @@ When an org-wide team is created, all global admins are added as team owners and
 
 ## Best practices
 To get the most out of your org-wide team, we recommend team owners do the following.
-### Remove accounts that might not belong
-Even though members can’t leave an org-wide team, as a team owner, you can manage the team roster by removing accounts that don’t belong. Make sure you use Teams to remove users from your org-wide team.  If you use another way to remove the user, such as from the Microsoft 365 admin center or from a group in Outlook, the user might be added back to the org-wide team. 
+
 ### Allow only team owners to post to the General channel
 Reduce channel noise by having only team owners post to the General channel. Go to the team and click **More options (…)** > **Manage Team**. On the **Settings** tab, click **Member permissions** > select **Only owners can post messages**.
 ### Turn off @team and @[team name] mentions
  Reduce @mentions to keep them from overloading the entire organization. Go to the team and click **More options (…)** > **Manage Team**. On the **Settings** tab, click **@mentions** > turn off **Show members the option to @team or @[team name]**. 
 ### Automatically favorite important channels
  Favorite important channels to ensure everyone in your organization engages in specific conversations. To learn more, see [Auto-favorite channels for the whole team](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
+
+### Remove accounts that might not belong
+Even though members can’t leave an org-wide team, as a team owner, you can manage the team roster by removing accounts that don’t belong. Make sure you use Teams to remove users from your org-wide team.  If you use another way to remove a user, such as from the Microsoft 365 admin center or from a group in Outlook, the user might be added back to the org-wide team. 
