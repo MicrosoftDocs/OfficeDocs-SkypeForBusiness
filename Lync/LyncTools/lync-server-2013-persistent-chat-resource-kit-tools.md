@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lync Server 2013 Persistent Chat Resource Kit Tools
 TOCTitle: Lync Server 2013 Persistent Chat Resource Kit Tools
 ms:assetid: 7a34d2ba-eb25-4e22-92d1-b9baf81b102c
