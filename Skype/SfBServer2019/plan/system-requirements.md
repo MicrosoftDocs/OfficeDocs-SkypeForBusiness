@@ -86,10 +86,19 @@ After you have the hardware in place, you'll need to the install operating syste
   
 |||
 |:-----|:-----|
+|Windows Server 2019 <br/> |
 |Windows Server 2016 <br/> ||
 ||
    
-Anything other than Windows Server 2016 won't work properly; please don't try it for installs of Skype for Business Server 2019.
+Anything other than the operating systems listed here won't work properly; please don't try it for installs of Skype for Business Server 2019.
+
+> [!NOTE]
+> 
+> If you are installing Windows Admin Center 2019 on your Windows Server 2019 machine, it will prompt you for a port to listen on. There's a liklihood you might choose port 443, but if that machine has Skype for Business Server 2019 installed on it, or is going to have Skype for Business Server 2019 installed on it, then you must choose a different port number.
+> 
+>Why is this the case? If Windows Admin Center 2019 is running on port 443, you will not be able to connect to the server using the Skype for Business Control Panel, nor will you be able to connect to any internal web service running on the server (Address Book Web Service, Autodiscover Service, WebTicket Service, etc).  In fact, you will not be able to connect to any Internal Web Service URL. Please choose a different port, in the event you need or want to put Windows Admin Center 2019 on a server with Skype for Business Server 2019.
+> 
+
   
 ## Software that should be installed before a Skype for Business Server 2019 deployment
 <a name="Software"> </a>
