@@ -37,7 +37,6 @@ The user presence states available in Teams are:
 || ![away](media/Presence_Away.png) Away Last Seen *time*|
 |![away](media/Presence_Away.png) Be right back| |
 || ![away](media/Presence_Away.png)  Off Work|
-| ||
 || ![Offline](media/Presence_Offline.png) Offline |
 || ![unknown](media/Presence_Unknown.png) Status unknown|
 ||![blocked](media/Presence_Blocked.png) Blocked |
@@ -46,21 +45,19 @@ The user presence states available in Teams are:
  
 Users can manually set their current presence state to some options, and their state gets reflected to all other users. Additional user presence details are also automatically updated based on user activity (such as Available or Away), Outlook calendar states (such as In a meeting), or Teams app states (In a call, Presenting), to states that are indented in the list.
 
-There is a 15 minute inactivity timeout, after which youa user's current presence state will be reset to Away.
+There is a 15 minute inactivity timeout, after which your users' current presence state will be reset to Away.
 
 Users can specify who can break through (contact them overriding a Do Not Disturb setting). These settings are available in-app.
-
 
 ## Teams is not Skype for Business
 
 The following Admin settings in Skype for Business are different in Teams:
-- Presence sharing is always enabled in Teams for users in the organization. Privacy (who can see Presence) configuration is not available in Teams.
-- Client Do Not Disturb and Breakthrough features are always enabled for users in Teams.
-
-- Calendar (includes OOF & other calendar info) integration  is always enabled for users in Teams if integrated with Outlook.
-- The *Last seen* or *Away since* (if in a dual environment) indicator is always enabled for users in Teams.
-- Custom presence status is not enabled for users in Teams.
-
+- Presence sharing is always enabled in Teams for users in the organization. Privacy (deciding who can see Presence) configuration is not available in Teams.
 - Presence sharing with everyone (including Federated services) is always enabled for users in Teams. Their contact list (if they had one in SfB) is visible under **Chat > Contacts** or under **Calls > Contacts**.
+- Client Do Not Disturb and Breakthrough features are always enabled for users in Teams.
+- Calendar (includes OOF & other calendar info) integration  is always enabled for users in Teams if integrated with Outlook.
+- The *Last seen* or *Away since* (if in a dual environment with Skype for Business) indicator is always enabled for users in Teams.
+- Setting a custom presence status is not enabled for users in Teams.
 
-The ability of a Teams Admin to customize these settings is not currently supported.
+> [!NOTE]
+> The ability of a Teams Admin to customize these settings is not currently supported.
