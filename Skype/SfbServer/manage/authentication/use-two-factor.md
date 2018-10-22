@@ -139,4 +139,4 @@ Before you use your smart card for the first time, it's recommended that you cli
 
 [Manage two-factor authentication in Skype for Business Server](two-factor-authentication.md)
   
-[Configure two-factor authentication in Skype for Business Server](configure.md)
+[Configure two-factor authentication in Skype for Business Server](configure-two-factor.md)
