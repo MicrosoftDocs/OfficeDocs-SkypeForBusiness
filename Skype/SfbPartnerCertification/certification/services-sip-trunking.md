@@ -29,6 +29,7 @@ The following table lists the SIP trunking services that are certified for Skype
 |Carrier |Service Name |Qualified with TLS &amp; SRTP |
 |:--- |:--- |:---: |
 |[Accelerated Connections](http://www.acceleratedconnections.com/) | ACI SIP Trunk |         |
+|[Allo Communications](https://www.allocommunications.com/business/)| Allo SIP Trunk |         |
 |[Altibox](http://www.altibox.no/bedrift)| Altibox SIP Trunk |         |
 | AT&amp;T    |  AT&amp;T IP Flexible Reach Service       |         |
 |[Bandwidth](http://www.bandwidth.com/products/sip-voice-services) |SIP Voice Services|         |
@@ -43,15 +44,16 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Cebod Telecom](http://www.cebodtelecom.com) | Business SIP Trunking / Cloud PBX | |
 |[Cincinnati Bell Business / CBTS](https://www.cincinnatibell.com/)| SIP Trunking|         |
 |[Circuit ID](http://www.circuitid.com/cloud-sip/?ePlatform=lync) |Cloud SIP|         |
-|[TDC Erhverv](https://erhverv.tdc.dk/loesninger/skype-for-business) |Skype for Business Trunk|&#x2714; |
 |[Colt Technology Services](http://www.colt.net/uk/en/products-services/telephony/voip-access-en.htm)|VoIP Access|         |
 |[Columbus Business Solutions](http://www.columbus-business.com/) |CBS Cloud Voice|&#x2714;|
 |[Comscentre](http://www.comscentre.com/microsoft-lync-certified-sip) |Comscentre Sip Connect for Microsoft Lync|         |
+|[DIDforSale](http://www.didforsale.com/microsoft-skype-business-sip-trunks) |Business SIP Trunk / Cloud PBX |         |
 |[Elisa](https://oma.elisa.fi/yrityksille/info/tuotteet-ja-palvelut/tuotteet/toimisto-365) |SIP Trunking|&#x2714;|
 |[Fujitsu](http://www.fujitsu.com/fi/services/infrastructure-services/network/)     |SIP Trunk|         |
 |[G12 Communications](http://g12communications.com/) |Lync SIP Trunks|    |
 |[Gamma](http://www.gamma.co.uk/partners/products/voice/sip-trunks/) |SIP Trunking|  |
 |[GlobalConnect](http://www.globalconnect.dk/produkter/telefoni/lync) |GlobalConnect SIP Trunking|         |
+|[Globalgig](https://www.globalgig.com/)| Globalgig SIP Trunking |         |
 |[IntelePeer](http://www.intelepeer.com/)     |IntelePeer SIP Trunking |&#x2714;|
 |[Internet Solutions](https://www.is.co.za/OurSolutions/Communication/Voice/Pages/default.aspx) |Internet Solutions SIP Trunk |  |
 |[Interoute](http://www.interoute.com/product/interoute-one) |Interoute One| |
@@ -79,6 +81,7 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Swisscom (Switzerland)](http://www.swisscom.ch/solutions/de/start/loesungen/telefonie-ucc/enterprise-telephony/hosted-enterprise-telephony.html) |VoIP Gate| |
 |[TalkTalk Business](https://www.talktalkbusiness.co.uk/products/voice/sip-trunking/sip-trunks/) |TalkTalk Business SIP Trunking|&#x2714;|
 |[Tata Communications](http://www.tatacommunications.com/GSC/index.html) |Global SIP Connect|&#x2714;|
+|[TDC Erhverv](https://erhverv.tdc.dk/loesninger/skype-for-business) |Skype for Business Trunk|&#x2714; |
 |[Tele2 Sweden](http://tdc.se/) |Tele2 Business Trunk| |
 |[Telappliant](http://www.telappliant.com/sip-trunking#tab_overview) |talkAssure SIP Trunking for Microsoft Lync| |
 |[Telavox](http://www.telavox.se/telefoni-for-vaxlar/#specification-5) |SIP Trunk|&#x2714;|
@@ -90,6 +93,7 @@ The following table lists the SIP trunking services that are certified for Skype
 |[Telkomsel](http://www.telkomsel.com/) |Telkomsel Connect| |
 |[Telnyx, LLC](https://telnyx.com/) |Telnyx Mission Control Self-Service Portal and API| |
 |[Telus](http://business.telus.com/en/enterprise/on/business-voice-local/ip-trunking) |IP Trunking| |
+|[T-Mobile Netherlands B.V](https://www.t-mobile.nl/zakelijk/oplossingen/vast-op-mobiel) |Interoperability T-Mobile SIP Trunk| |
 |[Thinktel](http://www.thinktel.ca/en/sip-for-lync) |SIP Trunking| |
 |[toplink GmbH](http://www.toplink.de/lync-2013) |tpl_sip.business LC|&#x2714;|
 |[T-Systems International GmbH](http://www.t-systems.com/) |Corporate SIP Germany| |
