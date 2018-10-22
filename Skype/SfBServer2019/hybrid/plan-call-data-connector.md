@@ -13,8 +13,6 @@ description: "Overview of using Skype for Business Online telemetry tools to mon
 
 # Plan Call Data Connector
 
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 ## Overview
 This topic describes benefits, planning considerations, and requirements for implementing Skype for Business Server Call Data Connector. For more information on configuring Call Data Connector, see [Configure Call Data Connector](configure-call-data-connector.md).
 

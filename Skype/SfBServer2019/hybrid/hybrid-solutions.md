@@ -17,8 +17,6 @@ NOTE: THE FOLLOWING IS COPIED FROM 2015 AND IS IN PROGRESS. Additional in-progre
 
 # Skype for Business hybrid solutions
 
-[!INCLUDE [disclaimer](../disclaimer.md)]
- 
 Find information on planning a Skype for Business hybrid deployment. 
   
 This topic introduces you to several hybrid configurations to help you determine which configuration is best for your business. You can then read more about the configuration you're interested in by following the links in this topic. This topic contains the following sections:

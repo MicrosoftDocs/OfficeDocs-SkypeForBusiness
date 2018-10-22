@@ -16,8 +16,6 @@ description: "Summary: These features are new in Skype for Business Server 2019.
 
 **Summary:** Read this topic to learn about new features in Skype for Business Server 2019.  
 
-[!INCLUDE [disclaimer](disclaimer.md)]
-
 New features in Skype for Business Server 2019 include the following:
   
 - Cloud Voicemail  
