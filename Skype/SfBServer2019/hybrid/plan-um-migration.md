@@ -11,8 +11,6 @@ description: "This topic covers what you need to consider when you decide to mig
 
 # Plan for Skype for Business Server and Exchange Server migration
 
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 This topic covers what you need to consider when you decide to migrate your existing Skype for Business Server or Exchange Server deployments to the latest version or to Skype for Business Online or Exchange Online. What you can migrate, and when, heavily depends on what you've already got set up in your organization. At Preview, we're focusing on supporting a few specific scenarios, with additional scenarios becoming available at General Availability (GA).
 
 ## Feature changes in Exchange 2019 and Skype for Business Server 2019
