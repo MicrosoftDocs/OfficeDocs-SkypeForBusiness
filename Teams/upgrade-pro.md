@@ -22,7 +22,6 @@ Designed for larger organizations or those with complex deployments of Skype for
 
 Segmented into three phases, Upgrade Pro covers:
 
-
 |**[Pre-Upgrade](#pre-upgrade)** |**[Upgrade](#upgrade)**  |**[Post-Upgrade](#post-upgrade)**  |
 |---------|---------|---------|
 |Start realizing the value of Teams as you prepare for your upgrade over time. Consider these steps an upgrade prerequisite to help ensure a positive experience as you transition to Teams when it’s ready for you. If your organization has already been running Teams alongside Skype for Business, use these pre-upgrade activities as a validation checkpoint for your organization’s readiness to upgrade users to Teams.     |When your organization is ready for users to stop using Skype for Business, you’ll want to ensure they have ample notice to get training and start using Teams (if they haven’t already). You’ll also want to take steps such as moving their Skype for Business meetings to Teams to ensure an optimal experience.         | After your entire organization is on Teams, implement a plan to maximize value. This includes monitoring your network for quality, promoting adoption of Teams while ensuring that Skype for Business usage is winding down, and planning for expanded functionality as the Teams roadmap continues to evolve.        |
