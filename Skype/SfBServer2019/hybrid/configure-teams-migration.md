@@ -14,8 +14,6 @@ description: "Instructions for migrating users to the Teams client."
 
 # <Topic title>
 
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 <Intro text. What is this article about?>
 
 

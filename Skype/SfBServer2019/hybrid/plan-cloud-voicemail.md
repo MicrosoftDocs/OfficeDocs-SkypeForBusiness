@@ -14,8 +14,6 @@ description: "This article describes benefits, planning considerations, and requ
 
 # Plan Cloud Voicemail service
 
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 ## Overview 
 
 This article describes benefits, planning considerations, and requirements for implementing the Microsoft Cloud Voicemail service. For information on configuring Cloud Voicemail, see [Configure Cloud Voicemail service](configure-cloud-voicemail.md).
