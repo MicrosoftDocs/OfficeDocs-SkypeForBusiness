@@ -3,6 +3,7 @@ title: "Conferencing policy for Skype Room System accounts"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: davgroom
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
