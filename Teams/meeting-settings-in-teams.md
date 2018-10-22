@@ -22,7 +22,7 @@ As an admin, use Teams meetings settings to control whether anonymous users can 
 
 ## Allow anonymous users to join meetings
 
-With anonymous join, users can schedule a Teams meeting with anyone who has a valid email address, even if they're not in your organization. The invitee receives the meeting invitation by email and can click the link, enter their name, and join the meeting on the web as an anonymous user. The invitee doesn't need Teams to join the meeting unless they want additional functionality, such as the ability to share their screen. 
+With anonymous join, anyone can join the meeting as an anonymous user by clicking the link in the meeting invite. 
 
 ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
 1. In the left navigation, go to **Meetings** > **Meeting settings**. 
@@ -30,6 +30,7 @@ With anonymous join, users can schedule a Teams meeting with anyone who has a va
 
     ![meeting-settings-participants.png](media/meeting-settings-participants.png "Screen shot of the participants settings for Teams meetings in the Microsoft Teams & Skype for Business adin center")
 
+If you don't want anonymous users to join meetings scheduled by users in your organizaiton, turn off this setting. 
 ## Customize meeting invitations
 
 You can customize Teams meeting invitations to meet your organization's needs. You can add your organization's logo and include helpful information, such as links to your support website and legal disclaimer, and a text-only footer. 
@@ -38,7 +39,7 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 
 1. Create an image that's no more than 188 pixels wide by 30 pixels tall (it's quite small). 
 2. Save the image in JPG format.   
-3. Store the image in a central location that everyone in your organization can access, such as a network share, shared OneDrive for Business folder, or Dropbox. 
+3. Store the image in a central location that everyone in your organization can access, such as a network share. 
 
 ### Customize your meeting invitations
 
