@@ -66,6 +66,9 @@ The attendee experience is the most important aspect of live events and it's cri
 
 ![Screen shot showing the live events attendee experience](../media/teams-live-events-attendee.png "Screen shot showing the live events attendee experience")
 
+## Next steps
+Go to [Plan for Teams live events](plan-for-teams-live-events.md).
+
 ### Related topics
 - [Live events across Microsoft 365 in Yammer, Microsoft Teams, and Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
 - [Live events in Microsoft Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
