@@ -81,7 +81,7 @@ For users to schedule external encoder events, you must also do the following:
 
 3. Ensure live event organizers have consented to the company policy set by Stream admin. If a Microsoft Stream administrator has [set up a company guidelines policy](https://docs.microsoft.com/stream/company-policy-and-consent) and requires employees to accept this policy before saving content, then users must do so before creating a live event (with External Encoder production) in Teams. Before you roll out the live events feature in the organization, make sure users who will be creating these live events have consented to the policy. 
 
-## Step 4: Set up a video distribution solution for live events in Teams 
+## Step 4: Set up a video distribution solution for live events in Teams
 Playback of live event videos uses adaptive bitrate streaming (ABR) but it's a unicast stream, meaning every viewer is getting their own video stream from the internet. For live events or videos sent out to large portions of your organization, there could be a significant amount of internet bandwidth consumed by viewers. For organizations that want to reduce this internet traffic for live events, live events solutions are integrated with Microsoft's trusted video delivery partners offering software defined networks (SDNs) or enterprise content delivery networks (eCDNs). These SDN/eCDN platforms enable organizations to optimize network bandwidth without sacrificing end user viewing experiences. Our partners can help enable a more scalable and efficient video distribution across your enterprise network.
 
 **Purchase and set up your solution outside of Teams**
