@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Negotiation settings for XMPP federated partners'
+title: 'Negotiation settings for XMPP federated partners'
 ms:assetid: ef773942-ef92-4f71-85a1-738dfebdfa00
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552456(v=OCS.15)
 ms:contentKeyID: 48679567
@@ -11,30 +11,15 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: ""
+description: "The settings for the negotiation types in the configuration of an XMPP Partner have a wide variety of possible combinations."
 ---
 
-<div data-xmlns="http://www.w3.org/1999/xhtml">
+# Negotiation settings for XMPP federated partners in Skype for Business Server
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
-
-<div data-asp="http://msdn2.microsoft.com/asp">
-
-# Negotiation settings for XMPP federated partners in Lync Server 2013
-
-</div>
-
-<div id="mainSection">
-
-<div id="mainBody">
-
-<span> </span>
-
-_**Topic Last Modified:** 2012-10-21_
 
 The settings for the negotiation types in the configuration of an XMPP Partner have a wide variety of possible combinations. Not all of these combinations are valid. The table detailed in this topic will define the valid and not valid settings. Common configurations are presented in the first table, the second table detailing all possible combinations. Note that you cannot have *Simple Authentication and Security Layer* (SASL) **unless** *Transport Layer Security* (TLS) is also available. SASL is sent in an unencrypted (readable) format and should never be transmitted unless protected by another means, such as TLS.
 
-### Common XMPP Federation Negotiation Methods
+### Common XMPP federation negotiation methods
 
 <table>
 <colgroup>
@@ -86,7 +71,7 @@ The settings for the negotiation types in the configuration of an XMPP Partner h
 </table>
 
 
-### XMPP Federation Negotiation Methods Matrix - Complete
+### XMPP Federation negotiation methods matrix - complete
 
 <table>
 <colgroup>

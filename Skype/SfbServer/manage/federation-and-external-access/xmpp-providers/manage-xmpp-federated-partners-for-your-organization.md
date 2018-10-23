@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Manage XMPP federated partners for your organization'
+title: 'Manage XMPP federated partners for your organization'
 ms:assetid: 48681433-725d-457f-926b-f91d95bcf082
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552450(v=OCS.15)
 ms:contentKeyID: 48679561
@@ -11,28 +11,11 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: ""
+description: "Learn how to manage support for users of XMPP federated domains."
 ---
 
-<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
-
-<div data-asp="http://msdn2.microsoft.com/asp">
-
-# Manage XMPP federated partners in Lync Server 2013
-
-</div>
-
-<div id="mainSection">
-
-<div id="mainBody">
-
-<span> </span>
-
-_**Topic Last Modified:** 2012-10-19_
-
-This is preliminary documentation and is subject to change. Blank topics are included as placeholders.
+# Manage XMPP federated partners in Skype for Business Server
 
 To manage support for users of XMPP federated domains, you need to do the following:
 
@@ -44,27 +27,10 @@ To manage support for users of XMPP federated domains, you need to do the follow
 
   - Understand negotiation settings available for XMPP federation.
 
-To perform these tasks, use the procedures in this this section.
+To perform these tasks, use the following procedures.
 
-<div>
+  - [Create or edit XMPP partner configuration](create-or-edit-xmpp-partner-configuration.md)
 
-## In This Section
+  - [Negotiation settings for XMPP federated partners](negotiation-settings-for-xmpp-federated-partners.md)
 
-  - [Create or edit XMPP partner configuration in Lync Server 2013](lync-server-2013-create-or-edit-xmpp-partner-configuration.md)
-
-  - [Negotiation settings for XMPP federated partners in Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
-
-  - [Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)
-
-</div>
-
-</div>
-
-<span> </span>
-
-</div>
-
-</div>
-
-</div>
-
+  - [Example XMPP configuration – XMPP federation with Google Talk](example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)

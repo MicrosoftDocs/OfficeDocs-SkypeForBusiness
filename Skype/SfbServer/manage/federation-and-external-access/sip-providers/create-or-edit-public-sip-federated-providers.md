@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Create or edit public SIP federated providers'
+title: 'Create or edit public SIP federated providers'
 ms:assetid: 5321598c-1ab1-40e3-b739-4b2e6d0a3a3b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398349(v=OCS.15)
 ms:contentKeyID: 48184167
@@ -11,42 +11,27 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: ""
+description: "Skype for Business Server has public provider configurations for instant messaging."
 ---
 
-<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+# Create or edit public SIP federated providers in Skype for Business Server
 
-<div data-asp="http://msdn2.microsoft.com/asp">
 
-# Create or edit public SIP federated providers in Lync Server 2013
+Public instant messaging (IM) connectivity enables users in your organization to use IM to communicate with users of IM services provided by public providers.
 
-</div>
+Skype for Business Server has public provider configurations for instant messaging. Each public provider is configured with the provider’s Edge server fully qualified domain name, and the default verification level **Allow users to communicate only with people on their Contacts list who use this provider**.
 
-<div id="mainSection">
+As a default setting, none of the public providers are enabled. You should complete license agreement and provisioning work before enabling the public providers. You can enable the provider before completing the licensing and provisioning work. Users will not be able to communicate with contacts on those providers until the pre-requisite work is completed. For details on licensing and provisioning of public providers, see [Configure policies to control public user acces](../external-access-policies/configure-policies-to-control-public-user-access.md).
 
-<div id="mainBody">
+Use the following procedure to create or edit Public providers.
 
-<span> </span>
-
-_**Topic Last Modified:** 2012-10-19_
-
-Public instant messaging (IM) connectivity enables users in your organization to use IM to communicate with users of IM services provided by public IM service providers, including the Windows Live Messenger, Yahoo\!, and AOL.
-
-Lync Server 2013 has public provider configurations for America Online, Windows Live and Yahoo\! instant messaging. Each public provider is configured with the provider’s Edge server fully qualified domain name, and the default verification level **Allow users to communicate only with people on their Contacts list who use this provider**.
-
-As a default setting, none of the public providers are enabled. You should complete license agreement and provisioning work before enabling the public providers. You can enable the provider before completing the licensing and provisioning work. Users will not be able to communicate with contacts on those providers until the pre-requisite work is completed. For details on licensing and provisioning of public providers, see [Configure policies to control public user access in Lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md).
-
-Use the following procedure to create or edit Public providers:
-
-<div>
 
 ## To create or edit public providers
 
 1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.
 
-2.  Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel. For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
 3.  In the left navigation bar, click **Federation and External Access**, and then click **SIP Federated Providers**.
 
@@ -68,26 +53,10 @@ Use the following procedure to create or edit Public providers:
 
 7.  When you are done configuring the settings, click **Commit** to save, or click **Cancel** to discard your changes.
 
-</div>
-
-<div>
-
 ## See Also
 
 
-[Configure policies to control public user access in Lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md)  
-[Enable or disable federation and public IM connectivity in Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
-  
+[Configure policies to control public user acces](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
-</div>
-
-</div>
-
-<span> </span>
-
-</div>
-
-</div>
-
-</div>
+[Enable or disable federation and public IM connectivity](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 

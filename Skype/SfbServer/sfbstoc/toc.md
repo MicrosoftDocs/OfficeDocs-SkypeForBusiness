@@ -521,7 +521,7 @@
 ##### [Create or modify a voice route](../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 ##### [View SIP info](../deploy/deploy-enterprise-voice/view-sip-info.md)
 
-### [Managing federation and external access](../manage/federation-and-external-access/managing-federation-and-external-access.md)
+### Federation and external access](../manage/federation-and-external-access/managing-federation-and-external-access.md)
 #### [Manage external access policy](../manage/federation-and-external-access/external-access-policies/manage-external-access-policy-for-your-organization.md)
 ##### [Configure policies to control federated user access](../manage/federation-and-external-access/external-access-policies/configure-policies-to-control-federated-user-access.md)
 ##### [Configure policies to control XMPP federated user access](../manage/federation-and-external-access/external-access-policies/configure-policies-to-control-xmpp-federated-user-access.md)

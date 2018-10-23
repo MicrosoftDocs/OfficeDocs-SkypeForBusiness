@@ -11,14 +11,11 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: ""
+description: "Learn how to configure support for users of SIP federated providers."
 ---
 
+# Manage SIP federated providers for your organization in Skype for Business Server
 
-# Manage SIP federated providers for your organization in Lync Server 2013
-
-
-This is preliminary documentation and is subject to change. Blank topics are included as placeholders.
 
 To configure support for users of SIP federated providers, you need to do the following:
 
@@ -28,11 +25,11 @@ To configure support for users of SIP federated providers, you need to do the fo
 
   - Specify which public IM providers you want to support
 
-To perform these tasks, use the procedures in this section:
+To perform these tasks, use the following procedures in this section:
 
 
-  - [Create or edit public SIP federated providers in Lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md)
+  - [Create or edit public SIP federated providers](create-or-edit-public-sip-federated-providers.md)
 
-  - [Create or edit hosted SIP federated providers Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+  - [Create or edit hosted SIP federated providers](create-or-edit-hosted-sip-federated-providers.md)
 
 

@@ -11,13 +11,11 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: ""
+description: "Learn how to manage and configure SIP domains that you can federate with,"
 ---
 
 # Manage SIP federated domains for your organization in Skype for Business Server
 
-
-This is preliminary documentation and is subject to change. Blank topics are included as placeholders.
 
 To manage and configure SIP domains that you can federate with, you can do the following:
 

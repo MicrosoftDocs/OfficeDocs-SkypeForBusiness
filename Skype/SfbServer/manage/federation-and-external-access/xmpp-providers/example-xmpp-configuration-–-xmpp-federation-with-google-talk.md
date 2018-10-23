@@ -14,35 +14,19 @@ localization_priority: Normal
 description: ""
 ---
 
-<div data-xmlns="http://www.w3.org/1999/xhtml">
+# Example XMPP configuration in Skype for Business Server – XMPP federation with Google Talk
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
-
-<div data-asp="http://msdn2.microsoft.com/asp">
-
-# Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk
-
-</div>
-
-<div id="mainSection">
-
-<div id="mainBody">
-
-<span> </span>
-
-_**Topic Last Modified:** 2014-04-22_
 
 An example configuration for deploying the XMPP Proxy defines a federation with Google Talk.
 
-<div>
 
 ## Example XMPP configuration – XMPP federation with Google Talk
 
-1.  On the Front End Server, open the Lync Server Deployment Wizard. Click **Install** or **Update Lync Server System**, then click **Setup** or **Remove Lync Server Components**. Click **Run Again**.
+1.  On the Front End Server, open the Skype for Business Server Deployment Wizard. Click **Install** or **Update Skype for Business Server System**, then click **Setup** or **Remove Skype for Business Server Components**. Click **Run Again**.
 
-2.  At **Setup Lync Server components**, click **Next**. The summary screen will show actions as they are executed. After the deployment is complete, click **View Log** to view available log files. Click **Finish** to complete the deployment.
+2.  At **Setup Skype for Business Server components**, click **Next**. The summary screen will show actions as they are executed. After the deployment is complete, click **View Log** to view available log files. Click **Finish** to complete the deployment.
 
-3.  On the Edge Server, open the Lync Server Deployment Wizard. Click **Install** or **Update Lync Server System**, then click **Setup** or **Remove Lync Server Components**. Click **Run Again**.
+3.  On the Edge Server, open the Skype for Business Server Deployment Wizard. Click **Install** or **Update LSkype for Businessync Server System**, then click **Setup** or **Remove Skype for Business Server Components**. Click **Run Again**.
 
 4.  Add Google Talk as an XMPP allowed partner. Google Talk currently only supports unencrypted, TCP connections for server-to-server XMPP federation and only supports Server Dialback for identity verification. (See <http://xmpp.org/extensions/xep-0220.html>).
     
@@ -52,11 +36,9 @@ An example configuration for deploying the XMPP Proxy defines a federation with 
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $true
 
-6.  At **Setup Lync Server components**, click **Next**. The summary screen will show actions as they are executed. After the deployment is done, click **View Log** to view available log files. Click **Finish** to complete the deployment.
+6.  At **Setup Skype for Business Server components**, click **Next**. The summary screen will show actions as they are executed. After the deployment is done, click **View Log** to view available log files. Click **Finish** to complete the deployment.
 
-7.  On the Edge Server, in the Lync Server Deployment Wizard, next to **Step 3: Request, Install, or Assign Certificates**, click **Run again**.
-    
-    <div>
+7.  On the Edge Server, in the Skype for Business Server Deployment Wizard, next to **Step 3: Request, Install, or Assign Certificates**, click **Run again**.
     
 
     > [!TIP]
@@ -93,14 +75,9 @@ An example configuration for deploying the XMPP Proxy defines a federation with 
 
 18. On the **Configure Additional Subject Alternate Names** page, specify any additional subject alternative names that are required.
     
-    <div>
-    
-
     > [!TIP]
     > If the XMPP proxy is installed, by default the domain name (such as contoso.com) is populated in the SAN entries. If you require more entries, add them in this step.
 
-    
-    </div>
 
 19. On the **Request Summary** page, review the certificate information to be used to generate the request.
 
@@ -110,7 +87,7 @@ An example configuration for deploying the XMPP Proxy defines a federation with 
 
 22. Copy the request file and submit to your public certification authority.
 
-23. After receiving, importing and assigning the public certificate, you must stop and restart the Edge Server services. Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.. In the Lync Server Management Shell, type:
+23. After receiving, importing and assigning the public certificate, you must stop and restart the Edge Server services. Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business Server**, and then click **Skype for Business Server Management Shell**. In the Skype for Business Server Management Shell, type:
     ```
         Stop-CsWindowsService
     ```
@@ -121,20 +98,9 @@ An example configuration for deploying the XMPP Proxy defines a federation with 
 	
 24. To configure DNS for XMPP federation, you add the following SRV record to external DNS:\_xmpp-server.\_tcp.\<domain name\> The SRV record will resolve to the access edge FQDN of the Edge server, with a port value of 5269
 
-25. Configure a new External Access Policy to enable all users by opening the Lync Server Management Shell on a Front End Server and typing:
+25. Configure a new External Access Policy to enable all users by opening the Skype for Business Server Management Shell on a Front End Server and typing:
     
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAccess $true -EnablePublicCloudAccess $true
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
 
-</div>
-
-</div>
-
-<span> </span>
-
-</div>
-
-</div>
-
-</div>
 
