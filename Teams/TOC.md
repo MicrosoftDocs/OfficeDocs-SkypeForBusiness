@@ -182,6 +182,7 @@
 ### [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ### [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ### [Overview of dynamic membership for teams](dynamic-memberships.md)
+## [Presence](presence-admins.md)
 ## [Guest access](guest-access.md)
 ### [How a guest joins a team](guest-joins.md)
 ### [What the guest experience is like](guest-experience.md)
