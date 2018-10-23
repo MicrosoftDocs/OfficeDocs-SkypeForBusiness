@@ -6,6 +6,8 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Learn about the factors to consider before you set up live events in Microsoft Teams. 
 appliesto: 

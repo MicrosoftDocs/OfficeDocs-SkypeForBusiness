@@ -1,12 +1,15 @@
 ---
 title: Use PowerShell to set live events policies in Microsoft Teams
-author: tonysmith
-ms.author: tonysmit
+author: lanachin
+ms.author: v-lanac
 manager: serdars
+ms.date: 10/23/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: tonysmit
+ms.reviewer: sonua
 search.appverid: MET150
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
 description: Examples of how to use PowerShell to set policies in Teams to control who can hold live events in your organization and features that are available in the events that they create
 appliesto: 
 - Microsoft Teams
@@ -50,7 +53,7 @@ If users are assigned a policy other than the global policy, run and verify that
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
-**You want live events scheduling to be disabled across your organization.**
+**You want live events scheduling to be disabled across your organization**
 
 Disable live events scheduling, run:
 ```
@@ -84,7 +87,7 @@ Then assign users to this policy, run:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingpolicy -Verbose
 ```
-**You want to disable live eventt scheduling for a large number of the users and allow a set of users to schedule them**
+**You want to disable live event scheduling for a large number of the users and allow a set of users to schedule them**
 
 Disable live events scheduling, run:
 ```
@@ -130,8 +133,6 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ```
 
 ### Related topics
-- [What are Teams live events?](what-are-teams-live-events.md)
-- [Plan for Teams live events](plan-for-teams-live-events.md)
-- [Set up for Teams live event](set-up-for-teams-live-events.md)
-- [Confgure live events settings in Teams](configure-teams-live-events.md)
+- [Set up for Teams live events](set-up-for-teams-live-events.md)
+
 
