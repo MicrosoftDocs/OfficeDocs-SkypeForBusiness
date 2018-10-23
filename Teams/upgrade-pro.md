@@ -3,7 +3,7 @@ title: Upgrade Pro for Microsoft Teams - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 10/17/2018
+ms.date: 10/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
