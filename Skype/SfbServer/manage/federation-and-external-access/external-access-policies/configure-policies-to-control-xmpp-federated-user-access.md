@@ -128,7 +128,7 @@ When you configure policies for support of extensible messaging and presence pro
 
 [Enable or disable federation and public IM connectivity](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)   
 
-[Manage XMPP federated partners](manage-xmpp-federated-partners-for-your-organization.md)  
+[Manage XMPP federated partners](../xmpp-providers/manage-xmpp-federated-partners-for-your-organization.md)
 
 [Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
 [New-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  

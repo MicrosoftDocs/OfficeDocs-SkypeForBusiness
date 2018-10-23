@@ -549,7 +549,7 @@
 ##### [Example XMPP configuration – XMPP federation with Google Talk](../manage/federation-and-external-access/xmpp-providers/example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)
 #### [Configuring federation support for a Skype for Business Online customer](../manage/federation-and-external-access/federation-support/configuring-federation-support.md)
 ##### [Prerequisites for federating with a Skype for Business Online customer](../manage/federation-and-external-access/federation-support/prerequisites-for-federating.md)
-##### [Configure federation support for a Skype for Business Online domain](../manage/federation-and-external-access/federation-support/configure-federation-support.md)
+##### [Configure federation support for a Skype for Business Online domain](../manage/federation-and-external-access/federation-support/configure-federation-support-for-domain.md)
 ##### [Configure user access for federation with a Skype for Business Online customer](../manage/federation-and-external-access/federation-support/configure-user-access-for-federation.md)
 ##### [Verify communications with a Skype for Business Online customer](../manage/federation-and-external-access/federation-support/verify-communications.md)
 

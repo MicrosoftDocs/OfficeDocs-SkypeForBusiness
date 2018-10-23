@@ -70,7 +70,7 @@ Configure the settings as detailed in the topics [Configure policies to control 
 
 **Do you want to allow users to communicate with SIP Federated Providers that are hosted providers running Microsoft Office 365 and Skype for Business Online?**
 
-Configure the settings as detailed in the topics [Enable or disable federation and public IM connectivity](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) and [Create or edit hosted SIP federated providers](sip-providers/create-or-edit-hosted-sip-federated-providers.md).
+Configure the settings as detailed in the topics [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) and [Create or edit hosted SIP federated providers](sip-providers/create-or-edit-hosted-sip-federated-providers.md).
 
 **Is your deployment configured in a split (also known as a hybrid) domain, where some users have their home server in an on-premise deployment, and other users are configured with a home server in an online environment?**
 
