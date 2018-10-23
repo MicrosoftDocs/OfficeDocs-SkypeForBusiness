@@ -521,7 +521,7 @@
 ##### [Create or modify a voice route](../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 ##### [View SIP info](../deploy/deploy-enterprise-voice/view-sip-info.md)
 
-### Federation and external access](../manage/federation-and-external-access/managing-federation-and-external-access.md)
+### [Federation and external access](../manage/federation-and-external-access/managing-federation-and-external-access.md)
 #### [Manage external access policy](../manage/federation-and-external-access/external-access-policies/manage-external-access-policy-for-your-organization.md)
 ##### [Configure policies to control federated user access](../manage/federation-and-external-access/external-access-policies/configure-policies-to-control-federated-user-access.md)
 ##### [Configure policies to control XMPP federated user access](../manage/federation-and-external-access/external-access-policies/configure-policies-to-control-xmpp-federated-user-access.md)
@@ -530,7 +530,7 @@
 ##### [Assign an external user access policy](../manage/federation-and-external-access/external-access-policies/assign-an-external-user-access-policy.md)
 ##### [Delete a site or user policy for external user access](../manage/federation-and-external-access/external-access-policies/delete-a-site-or-user-policy-for-external-user-access.md)
 ##### [Reset the global policy for external user access](../manage/federation-and-external-access/external-access-policies/reset-the-global-policy-for-external-user-access.md)
-#### [Manage Access Edge Configuration for your organization in Lync Server 2013](../manage/federation-and-external-access/access-edge/manage-access-edge-configuration-for-your-organization.md)
+#### [Manage Access Edge Configuration for your organization](../manage/federation-and-external-access/access-edge/manage-access-edge-configuration-for-your-organization.md)
 ##### [Enable or disable federation and public IM connectivity](../manage/federation-and-external-access/access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 ##### [Enable or disable discovery of federation partners](../manage/federation-and-external-access/access-edge/enable-or-disable-discovery-of-federation-partners.md)
 ##### [Enable or disable sending an Archiving disclaimer to federated partners](../manage/federation-and-external-access/access-edge/enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
