@@ -30,10 +30,10 @@ Segmented into three phases, Upgrade Pro covers:
       <th><a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-pro#post-upgrade">Post-Upgrade</th>
     </tr>
     <tr>
-      <td valign=top>Realize the value of Teams<ul><li>Ready your environment</li><li>Adopt Teams alongside Skype for Business for collaboration, meetings, and/or calling</li><li>Plan for your Skype for Business to Teams upgrade over time</li></ul></td>
-      <td valign=top>Migrate users from Skype for Business<ul><li>Notify and ready your users</li><li>Move users into Teams-only mode</li><li>Track usage progress against goals</li>
+      <td>Realize the value of Teams<ul><li>Ready your environment</li><li>Adopt Teams alongside Skype for Business for collaboration, meetings, and/or calling</li><li>Plan for your Skype for Business to Teams upgrade over time</li></ul></td>
+      <td>Migrate users from Skype for Business<ul><li>Notify and ready your users</li><li>Move users into Teams-only mode</li><li>Track usage progress against goals</li>
         </td>
-      <td valign=top> Amplify your ROI  <ul><li>Monitor your network health/quality</li><li>Maintain user excitement</li><li>Plan for ongoing Teams innovation</li></ul></td>
+      <td> Amplify your ROI  <ul><li>Monitor your network health/quality</li><li>Maintain user excitement</li><li>Plan for ongoing Teams innovation</li></ul></td>
     </tr>
   </tbody>
 </table>
@@ -41,10 +41,6 @@ Segmented into three phases, Upgrade Pro covers:
 |**[Pre-Upgrade](#pre-upgrade)** |**[Upgrade](#upgrade)**  |**[Post-Upgrade](#post-upgrade)**  |
 |---------|---------|---------|
 |Realize the value of Teams<ul><li>Ready your environment</li><li>Adopt Teams alongside Skype for Business for collaboration, meetings, and/or calling</li><li>Plan for your Skype for Business to Teams upgrade over time</li></ul> |Migrate users from Skype for Business<ul><li>Notify and ready your users</li><li>Move users into Teams-only mode</li><li>Track usage progress against goals</li></ul>       | Amplify your ROI  <ul><li>Monitor your network health/quality</li><li>Maintain user excitement</li><li>Plan for ongoing Teams innovation</li></ul>|
-
--   **[Pre-upgrade](#pre-upgrade)**: Start realizing the value of Teams as you prepare for your upgrade over time. Consider these steps an upgrade prerequisite to help ensure a positive experience as you transition to Teams when it’s ready for you. If your organization has already been running Teams alongside Skype for Business, use these pre-upgrade activities as a validation checkpoint for your organization’s readiness to upgrade users to Teams.
--    **[Upgrade](#upgrade)**: When your organization is ready for users to stop using Skype for Business, you’ll want to ensure they have ample notice to get training and start using Teams (if they haven’t already). You’ll also want to take steps such as moving their Skype for Business meetings to Teams to ensure an optimal experience.
--    **[Post-upgrade](#post-upgrade)**: After your entire organization is on Teams, implement a plan to maximize value. This includes monitoring your network for quality, promoting adoption of Teams while ensuring that Skype for Business usage is winding down, and planning for expanded functionality as the Teams roadmap continues to evolve.
  
 > [!NOTE]
 > We understand that your journey to Teams might involve leveraging multiple [modes](https://aka.ms/skypetoteams-coexist) and upgrading groups of users at different times, which will enable you to control the user upgrade experience while maintaining momentum with Teams. <br><br>
