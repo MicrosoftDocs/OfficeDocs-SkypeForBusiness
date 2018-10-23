@@ -21,8 +21,6 @@ description: "Summary: Explore these links to learn how to develop conceptual, l
  
 **Summary:** Explore these links to learn how to develop conceptual, logical, and physical designs for configuring Skype for Business Server 2019 features, servers, and topologies.
   
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 Skype for Business Server offers instant messaging (IM), presence, conferencing, video, and telephony solutions that can support enterprise-level collaboration requirements. This topic provides links to information about how to plan for a successful Skype for Business Server deployment. 
   
 Writers update articles on a continuing basis as new information becomes available and as users provide feedback. This page will be updated frequently, so check back often.

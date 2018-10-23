@@ -13,8 +13,6 @@ description: "Instructions for configuring Call Data Connector, which allows tel
 
 # Configure Call Data Connector
 
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 This article describes how to configure Call Data Connector--a single toolset that enables viewing Skype for Business Server Call Quality Data using Skype for Business Online Call Quality Dashboard (CQD) and Call Analytics (CA) tools. 
 
 > [!NOTE]
