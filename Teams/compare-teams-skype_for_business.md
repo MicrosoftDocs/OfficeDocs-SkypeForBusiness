@@ -64,6 +64,7 @@ This table covers the features relating to managing IM and Presence contacts.
 ## IM support
 
 This table covers features related to IM support.
+
 |Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Teams client | 
 |  :---             |        :---:                           |  :---:                    |  :---:       | 
 |Initiate IM with or email to a contact |&#x2713;            | &#x2713;                  |              |
