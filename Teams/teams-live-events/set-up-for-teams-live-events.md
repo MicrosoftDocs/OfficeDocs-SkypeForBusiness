@@ -16,7 +16,8 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Set up for live events in Microsoft Teams[Step 3: Set up live events policies](#step-3-set-up-live-events-policies)
+# Set up for live events in Microsoft Teams
+
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 When you're setting up for live events, there are several steps that you must take:
