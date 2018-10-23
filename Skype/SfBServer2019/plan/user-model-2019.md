@@ -13,8 +13,6 @@ description: "The topics in this section help you understand how to plan and dep
 
 # Capacity Planning for Skype for Business Server 2019
 
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 This article provides guidance on how many servers you need at a site for the number of users at that site, according to the usage described in [User models in Skype for Business Server](../../SfbServer/plan-your-deployment/capacity/user-models.md)
 
 ## Tested Hardware Platform
