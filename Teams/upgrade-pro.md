@@ -22,25 +22,9 @@ Designed for larger organizations or those with complex deployments of Skype for
 
 Segmented into three phases, Upgrade Pro covers:
 
-<table>
-  <tbody>
-    <tr>
-      <th><a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-pro#pre-upgrade">Pre-Upgrade</a></th>
-      <th><a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-pro#upgrade">Upgrade</th>
-      <th><a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-pro#post-upgrade">Post-Upgrade</th>
-    </tr>
-    <tr>
-      <td>Realize the value of Teams<ul><li>Ready your environment</li><li>Adopt Teams alongside Skype for Business for collaboration, meetings, and/or calling</li><li>Plan for your Skype for Business to Teams upgrade over time</li></ul></td>
-      <td>Migrate users from Skype for Business<ul><li>Notify and ready your users</li><li>Move users into Teams-only mode</li><li>Track usage progress against goals</li>
-        </td>
-      <td> Amplify your ROI  <ul><li>Monitor your network health/quality</li><li>Maintain user excitement</li><li>Plan for ongoing Teams innovation</li></ul></td>
-    </tr>
-  </tbody>
-</table>
-
 |**[Pre-Upgrade](#pre-upgrade)** |**[Upgrade](#upgrade)**  |**[Post-Upgrade](#post-upgrade)**  |
 |---------|---------|---------|
-|Realize the value of Teams<ul><li>Ready your environment</li><li>Adopt Teams alongside Skype for Business for collaboration, meetings, and/or calling</li><li>Plan for your Skype for Business to Teams upgrade over time</li></ul> |Migrate users from Skype for Business<ul><li>Notify and ready your users</li><li>Move users into Teams-only mode</li><li>Track usage progress against goals</li></ul>       | Amplify your ROI  <ul><li>Monitor your network health/quality</li><li>Maintain user excitement</li><li>Plan for ongoing Teams innovation</li></ul>|
+|Realize the value of Teams<ul><li>Ready your environment</li><li>Adopt Teams for collaboration, meetings, and/or calling</li><li>Plan for your Skype for Business to Teams upgrade over time</li></ul> |Migrate users from Skype for Business<ul><li>Notify and ready your users</li><li>Move users into Teams-only mode</li><li>Track usage progress against goals</li></ul>       | Amplify your ROI  <ul><li>Monitor your network health/quality</li><li>Maintain user excitement</li><li>Plan for ongoing Teams innovation</li></ul>|
  
 > [!NOTE]
 > We understand that your journey to Teams might involve leveraging multiple [modes](https://aka.ms/skypetoteams-coexist) and upgrading groups of users at different times, which will enable you to control the user upgrade experience while maintaining momentum with Teams. <br><br>
