@@ -1,5 +1,5 @@
 ---
-title: "Turn off Legacy authentication methods internally and externally to your network"
+title: "Planning to turn off Legacy authentication methods internally and externally to your network"
 ms.author: tracyp
 author: MSFTTracyP
 manager: serdars
@@ -14,7 +14,7 @@ ms.assetid:
 description: "This article outlines cmdlets that give admins more control of authentication methods used inside, and outside, of a business. Administrators can turn authentication methods on or off internally, or externally to their network."
 ---
 
-# Turn off Legacy authentication methods internally and externally to your network.
+# Planning to turn off Legacy authentication methods internally and externally to your network.
 
 > [!NOTE]
 > If you're about to read this article, you should already know about supported Modern Authentication topologies, ADAL, and about Modern Authentication config, but, in case you don't, here are the articles you need to start out: 

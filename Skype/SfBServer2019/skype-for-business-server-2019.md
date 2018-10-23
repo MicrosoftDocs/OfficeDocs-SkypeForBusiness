@@ -15,7 +15,6 @@ description: "Summary: Explore these links to learn how to implement Skype for B
 
 # Skype for Business Server 2019
 
-[!INCLUDE [disclaimer](disclaimer.md)]
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json">
