@@ -29,7 +29,7 @@ Here's some examples.
 ## Allow users to schedule live events 
 
 > [!NOTE]
-> These examples are for quick start events. For external encoder events, there are additional steps you must do. For more information, see [Enable users to schedule external encoder events](set-up-for-teams-live-events-policies.md#enable-users-to-schedule-external-encoder-events).
+> These examples are for quick start events. For external encoder events, there are additional steps you must do. For more information, see [Enable users to schedule external encoder events](set-up-for-teams-live-events.md#enable-users-to-schedule-external-encoder-events).
 
 **Allow a user to schedule live events**
 
