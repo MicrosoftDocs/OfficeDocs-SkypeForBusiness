@@ -1,6 +1,6 @@
 ---
 title: Compare Skype for Business features with Microsoft Teams
-author: LolaJacobson 
+author: LolaJ
 ms.author: jambirk
 manager: lolaj
 ms.reviewer: pending
