@@ -22,6 +22,9 @@ Your deployment will involve account creation as described in [Deploy Skype Room
 > [!NOTE]
 > Skype Room Systems v2 is intended for use with Skype for Business Server 2019, Skype for Business Server 2015, Microsoft Teams, or Skype for Business Online. <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Skype Room Systems v2. 
 
+> [!NOTE]
+> If using an on-prem Exchange server, Skype Room Systems v2 requires the use of Exchange Server 2013 SP1 or later.
+
 ## Hardware requirements
 
 Skype Room Systems v2 can scale to different room sizes through accessories depending on audio and video peripherals. The hardware listed in this article supports both Skype and Teams meeting modes.  Audio and video peripherals connect to Skype Room Systems v2 via a USB or HDMI connection on the docking device. You will also need:
