@@ -57,7 +57,7 @@ A few things to remember:
 
       ![Screenshot shows an example of a AAD Settings toggle. ](media/guest-access-checklist-AADSettings1.png)
 
-    At a minimum to support guests, **Members can invite** must be set to **Yes**. 
+    To support guests, **Members can invite** must be set to **Yes**. 
    
 > [!NOTE] 
 > If you set **Members can invite** to **No** and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners.
