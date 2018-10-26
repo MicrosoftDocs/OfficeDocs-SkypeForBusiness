@@ -47,7 +47,7 @@ To confirm the selection of these early projects we recommend meeting directly w
 
 To be sure that you have the right information about the business scenario, consider using the following format to document the scenario from the perspective of the employee completing the work and the business owner of the process. Both perspectives are required to craft a successful path forward.
 
-![Framework for identifying scenarios](teams-adoption-identify-scenarios.png)
+![Framework for identifying scenarios](/media/teams-adoption-identify-scenarios.png)
 
 After speaking to one or more business stakeholders you can prioritize your scenarios based on impact vs. difficulty. Appropriate candidates for your experimentation phase should have higher impact and low to medium difficulty. This will ensure your project isn't affected by scope creep or technical difficulties before you are able to show the value of your work. An example chart is shown below.
 
