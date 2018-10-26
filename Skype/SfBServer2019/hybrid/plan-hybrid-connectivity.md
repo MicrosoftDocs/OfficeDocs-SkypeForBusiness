@@ -18,7 +18,7 @@ description: "Planning considerations for implementing hybrid connectivity betwe
 
 Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Teams or Skype for Business Online. Setting up hybrid connectivity is the first step in in moving your on-premises environment to the cloud.
 
-If you have an on-premises environment and are using Teams, you must set up hybrid connectivity before you can move your users to TeamsOnly mode.TeamsOnly mode enables full interoperability, federation, and management capabilities between your on-premises and online environments.  
+If you have an on-premises environment and are using Teams, users who are homed in Skype for Business on premises do not have the ability to interoperate with Skype for Business users, nor communicate with users in federated organizations. To enable this functionality, users must be in TeamsOnly mode, which requires moving the user’s Skype for Business home from on-premises to online. Therefore, you must configure hybrid connectivity to achieve TeamsOnly mode.  
 
 Setting up hybrid connectivity and moving all users to the cloud is also required before you decommission your on-premises Skype for Business deployment.  With hybrid connectivity set up, you can choose to move your users to the cloud based on your schedule and business need. As you move to the cloud, you can still leverage your on-premises voice infrastructure. 
 
@@ -42,13 +42,13 @@ When a shared SIP address space is configured:
 
 - Azure Active Directory Connect is used to synchronize your on-premises directory with Office 365.
 
-- Users who are homed on premises interact with on-premises Skype for Business servers. They might also have access to online services, such as Cloud Voicemail.
+- Users who are homed on premises interact with on-premises Skype for Business servers. 
 
 - Users who are homed online may interact with Skype for Business Online or Teams services.
 
 - Users from both environments can communicate with each other. 
 
-- The on-premises Active Directory is authoritative. All users should be created in the on-premises Active Directory first, and then synchronized to Azure AD. Even if you intend for the user to be homed online, you must first create the user in the on-premises deployment, and then move the user to online to ensure the user is discoverable by on-premises users. 
+- The on-premises Active Directory is authoritative. All users should be created in the on-premises Active Directory first, and then synchronized to Azure AD. Even if you intend for the user to be homed online, you must first create the user in the on-premises environment, and then move the user to online to ensure the user is discoverable by on-premises users. 
 
 Before a user can be moved online, the user must be assigned a Skype for Business Online (Plan 2) license. If the user will be using Teams, the user must also be assigned a Teams license (and the Skype for Business license must remain enabled). If your users want to take advantage of additional online features, such as Audio Conferencing or Phone System, you need to assign them the appropriate license in Office 365.
 
@@ -69,11 +69,11 @@ To implement hybrid connectivity between your on-premises environment and Office
 
 - Skype for Business Server administrative tools.  These are required to move users from on-premises to the cloud. These tools must be installed on a server with access to both on-premises deployment and the internet. 
 
-- Online administrative tools.  You can use either the Teams and Skype for Business Admin Center or Windows PowerShell to manage Teams and Skype for Business Online. To use PowerShell to manage either Skype for Business or Teams, download and install the Skype for Business Online Connector which you can get here. 
+- Online administrative tools.  You can use either the Teams and Skype for Business Admin Center or Windows PowerShell to manage Teams and Skype for Business Online. To use PowerShell to manage either Teams or Skype for Business Online, download and install the Skype for Business Online Connector. 
 
 - Shared SIP address space must be enabled, and your on-premise deployment must be configured to use Office 365 as a hosting provider. For more information about the steps required to configure hybrid connectivity, see [Configure hybrid connectivity](configure-hybrid-connectivity.md).
 
-After you configure hybrid connectivity, you can move users to Skype for Business Online or Teams. For more information, see [Move users from on premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md) and [Move users from on-premises to Teams](move-users-from-on-premises-to-teams.md).
+After you configure hybrid connectivity, you can move users to Teams or Skype for Business Online. For more information, see [Move users from on-premises to Teams](move-users-from-on-premises-to-teams.md) and [Move users from on premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
 
 
 ## Topology requirements
@@ -89,7 +89,7 @@ To configure your deployment for hybrid with Teams or Skype for Business Online,
 
     For hybrid voice connectivity, the Edge Server that is designated as Federation Edge must be Skype for Business 2015; the Edge also requires a Skype for Business Server backend. You might have a pool with no users on it.
 
-- A mixed Lync Server 2015 and Skype for Business Server 2019 deployment with the following server roles in at least one site running Skype for Business Server 2019: 
+- A mixed Lync Server 2015 and Skype for Business Server 2019 deployment with the following server roles: 
 
   - At least one Enterprise Pool or Standard Edition server 
   - The Director Pool associated with SIP federation, if it exists 
@@ -148,8 +148,6 @@ For details on multi-forest hybrid scenarios, see [Configure a multi-forest envi
 <a name="BKMK_Federation"> </a>
 
 When configuring hybrid, you must ensure that your on-premises and online environments can federate with each other.  The online environment has open federation by default; the on-premises environment often has closed federation by default.  
-
-The Allowed domains list includes domains that have a partner Edge fully qualified domain name (FQDN) configured. These are sometimes referred to as allowed partner servers or direct federation partners. You should be familiar with the difference between Open Federation and Closed Federation, referred to as partner discovery and allowed partner domain list, respectively, in on-premises deployments.
 
 The following requirements must be met to successfully configure a hybrid deployment:
 
