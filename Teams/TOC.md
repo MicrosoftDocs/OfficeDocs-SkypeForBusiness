@@ -348,7 +348,7 @@
 #### [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [Manage the Audio Conferencing settings for a user](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-#### [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 #### [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md)
