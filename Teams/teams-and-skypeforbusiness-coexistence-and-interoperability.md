@@ -29,7 +29,7 @@ If your organization uses Skype for Business today and you intend to start using
 
 ## Coexistence of Teams and Skype for Business
 
-In addition to collaboration capabilities, Teams delivers chat, calling, and meeting capabilities. Depending on how you choose to deploy Teams, these capabilities might overlap with the capabilities delivered by Skype for Business for a given user. The default mode is to run Teams alongside Skype for Business; however, a user can be assigned one of several coexistence modes that were designed to ensure that these capabilities don’t overlap for that user.
+In addition to collaboration capabilities, Teams delivers chat, calling, and meeting capabilities. Depending on how you choose to deploy Teams, these capabilities will overlap with the capabilities delivered by Skype for Business for a given user. The default mode is to run Teams alongside Skype for Business; however, a user can be assigned one of several coexistence modes that were designed to ensure that these capabilities don’t overlap for that user.
 
 We recommend that you review the coexistence modes discussed below to help determine which path is right for your organization.
 
@@ -43,7 +43,7 @@ By default, users can run Teams alongside Skype for Business as two separate sol
 In this coexistence mode, called **Islands**, each of the client applications operates as a separate island. Skype for Business talks to Skype for Business, and Teams talks to Teams. Users run both clients and can communicate natively in the client from which the communication was initiated. As such, there’s no need for interoperability in **Islands** mode.
 
 > [!Tip]
-> When the upcoming modes **Teams Only** and **Skype for Business with Teams collaboration** modes are available, the default mode for new online users should be **Skype for Business with Teams collaboration**, until your organization is ready to move to **Teams Only**.   Existing users in **Islands** mode should move directly to **Teams Only** mode as soon as your organization is ready. 
+> Skype for Business Online customers recommended path is to start with the default **Islands** mode and move to **Teams Only** mode rapidly when there is organization is ready. On premises customers will benefit from deploying the upcoming **Skype for Business with Teams collaboration** mode and progress from there to **Teams Only** mode when the organization is ready to adopt Teams. 
 
 ### Skype for Business only
 
@@ -59,7 +59,7 @@ A **Teams only** user can only use the Skype for Business client to join existin
 
 ### Skype for Business with Teams collaboration (this mode is upcoming)
 
-Use this mode to introduce Teams in your environment while you continue to leverage your existing investment in Skype for Business. In this mode, you leave Skype for Business unchanged with chat, calling, and meeting capabilities, and you add Teams collaboration capabilities—teams and channels, access to files in Office 365, and applications.
+Use this mode to introduce Teams in your environment while you continue to leverage your existing investment in Skype for Business. In this mode, you leave Skype for Business unchanged with chat, calling, and meeting capabilities, and you add Teams collaboration capabilities—teams and channels, access to files in Office 365, and applications. Organizations with starting point of Skype for Business server on premises will benefit from this mode.
 
 ### Skype for Business with Teams collaboration and meetings (this mode is upcoming)
 
