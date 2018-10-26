@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Adoption phase 1 - Startup
+title: Microsoft Teams adoption phase 1 - startup
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -18,7 +18,7 @@ appliesto:
 ---
 
 
-# Microsoft Teams Adoption Phase 1 - Startup
+# Microsoft Teams adoption phase 1 - startup
 
 Initiating your adoption of Microsoft Teams starts with the following activities:
 
@@ -37,7 +37,7 @@ Review our [prerequisites](teams-adoption-get-started.md) and work with the tech
 
 ## Assemble your team
 
-The table below lists the core roles for your project team. In a smaller organization some of these roles may be carried out by the same person. Note those that we’ve identified as essential to your success.
+The table below lists the core roles for your project team. In a smaller organization, some of these roles may be carried out by the same person. Note those that we’ve identified as essential to your success.
 
 | Role | Responsibilities | Department |
 | ---- | ---------------- | ---------- |
