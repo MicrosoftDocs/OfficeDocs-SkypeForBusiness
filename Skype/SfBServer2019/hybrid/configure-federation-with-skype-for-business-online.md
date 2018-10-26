@@ -24,7 +24,7 @@ Note: If you have Exchange on-premises, then you may want to configure OAuth bet
   
 ## Configure your on-premises Edge service to federate with Office 365
 
-Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization. To configure federation, run the following cmdlets in the Skype for Business Server Management Shell:
+Federation allows users in your on-premises deployment to communicate with Office 365 users in your organization. To configure federation, run the following cmdlet in the Skype for Business Server Management Shell:
   
 ```
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -EnablePartnerDiscovery 1 -UseDnsSrvRouting
@@ -46,7 +46,7 @@ Then create a new hosting provider, use the New-CsHostingProvider cmdlet as foll
 
 ```
 New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root 
-
+```
 
  ## Configure Office 365 to share SIP address space with your on-premises environment
   
