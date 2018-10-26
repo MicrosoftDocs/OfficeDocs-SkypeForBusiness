@@ -34,7 +34,7 @@ In your initial teams, we suggest pinning the following items for easy reference
 
 |Team/Channel Name | Pinned Tab |
 |----------------- | ---------- |
-| Microsoft Teams Deployment/General | Web tab: [Teams documentation](microsoft-teams-md) |
+| Microsoft Teams Deployment/General | Web tab: [Teams documentation](microsoft-teams.md) |
 | Awareness and Adoption | [Teams Adoption Hub](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
 | Business engagement | Wiki – Engagement guidance<br/>Form – Request for Teams consultation<br/>List – Engagement requests |
 |Early Adopters | Pinned feedback community <br/> OneNote for FAQ and common themes |
