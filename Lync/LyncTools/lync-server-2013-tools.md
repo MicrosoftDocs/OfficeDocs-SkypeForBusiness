@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lync Server 2013 Tools
 TOCTitle: '@NoTitle'
 ms:assetid: 3abcfff8-bab6-4d28-81d2-8d6fb6ca83e4
