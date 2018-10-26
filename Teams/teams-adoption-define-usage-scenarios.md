@@ -73,4 +73,4 @@ Use the components of Office 365 to gather feedback for your project.
 
 To ensure that the early adopter and champions teams will have the appropriate support as they start using Microsoft Teams, meet with your support staff and review the capabilities of Microsoft Teams. Key members of the support organization may want to join your early adopter program. Encourage their use of Teams in their own scenarios. Take them through the basic onboarding of the product by using our online training resources.  
 
-Next: [Phase 3: enable](teams-adoption-phase2-enable.md).
+Next: [Phase 3: enable](teams-adoption-phase3-enable.md).
