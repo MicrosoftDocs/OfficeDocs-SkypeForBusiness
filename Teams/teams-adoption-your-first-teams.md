@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to drive Teams adoption by using it to manage your Office 365 deployment.
+description: Learn how to drive Teams adoption by using the product.
 ms.custom:
 - NewAdminCenter_Update
 appliesto: 
@@ -27,6 +27,7 @@ The best way to drive adoption of Teams is to use the product. We recommend that
 | Teamwork Champions | General <br/> Best Practices, Training, and How To <br/> Champion Corner <br/> Feedback and Support <br/> Program Leads <br/> Social Hub |
 
 Within Microsoft Teams, the [tab gallery](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) gives you access to all Office 365 and third-party apps that have been enabled by the IT administrator. To use Teams effectively, you should enable all Office 365 apps in this experience. To get the most value from your product, we suggest pinning key resources as tabs in each of the appropriate channels. See the example below.
+
 ![Default and custom tabs](/media/teams-adoption-tab-example.png)
 
 In your initial teams, we suggest pinning the following items for easy reference in your team channels. These assets are in addition to your OneNote notebook sections. If you are working with our FastTrack team, they will assist you in configuring these first teams. 

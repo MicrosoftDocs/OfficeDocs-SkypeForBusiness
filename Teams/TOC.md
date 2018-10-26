@@ -23,7 +23,20 @@
 ## [Create change management strategy](change-management-strategy.md)
 <!-- ============================================================ -->
 
+<!-- ============================================================ -->
+# Adoption
 
+## [Get started](teams-adoption-get-started.md)
+## [Phase 1 - startup](teams-adoption-phase1.md)
+### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
+### [Your first teams](teams-adoption-your-first-teams.md)
+### [Assess your cultural and organizational readiness](teams-adoption-assess-readiness.md)
+## [Phase 2 - experiment](teams-adoption-phase2-experiment.md)
+### [Create your champions program](teams-adoption-create-champions-program.md)
+### [Governance quick start](teams-adoption-governance-quick-start.md)
+### [Define usage scenarios and select early adopters](teams-adoption-define-usage-scenarios.md)
+## [Phase 3 - enable](teams-adoption-phase3-enable.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Configure and deploy
