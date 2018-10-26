@@ -48,4 +48,4 @@ Every adoption project varies in size and complexity based on your environment, 
 
 Each of these adoption phases depends on the technical readiness workstream and your environment's readiness for Teams. Let's get started!
 
-Next: [Complete your Startup phase](teams-adoption-startup-phase).
+Next: [Phase 1: startup](teams-adoption-phase1.md).
