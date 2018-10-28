@@ -38,7 +38,7 @@ You can view information about the conferencing devices configured for use in yo
 
 </div>
 
-If you use the **Get-CsMeetingRoom** cmdlet without any parameters, it returns information about all your conferencing devices. Optional parameters provide different ways for you to filter information. For details, see the Parameters section of [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom).
+If you use the **Get-CsMeetingRoom** cmdlet without any parameters, it returns information about all your conferencing devices. Optional parameters provide different ways for you to filter information. For details, see the Parameters section of [Get-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom).
 
 <div>
 
@@ -83,7 +83,7 @@ If you use the **Get-CsMeetingRoom** cmdlet without any parameters, it returns i
 
 </div>
 
-For details, see the Help topic for the [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom) cmdlet.
+For details, see the Help topic for the [Get-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom) cmdlet.
 
 </div>
 

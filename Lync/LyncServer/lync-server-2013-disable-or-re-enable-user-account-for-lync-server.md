@@ -86,7 +86,7 @@ User accounts can be temporarily disabled, and then later re-enabled, by using t
 
 </div>
 
-For more information, see the help topic for the [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser) cmdlet.
+For more information, see the help topic for the [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) cmdlet.
 
 </div>
 

@@ -80,7 +80,7 @@ You can clear device update logs by using Windows PowerShell and the **Clear-CsD
 
 </div>
 
-For details, see the Help topic for the [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateLog) cmdlet.
+For details, see the Help topic for the [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateLog) cmdlet.
 
 </div>
 

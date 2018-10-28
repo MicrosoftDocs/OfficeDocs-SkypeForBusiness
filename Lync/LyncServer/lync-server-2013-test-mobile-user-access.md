@@ -77,7 +77,7 @@ To run this check, you must create three Windows PowerShell credentials objects 
     
     Test-CsMcxConference -TargetFqdn "atl-cs-001.litwareinc.com" -Authentication Negotiate -OrganizerSipAddress "sip:kenmyer@litwareinc.com" -OrganizerCredential $organizerCred -UserSipAddress "sip:pilar@litwareinc.com" -UserCredential $user1Cred -User2SipAddress "sip:adelaney@litwareinc.com" -User2Credential $user2Cred
 
-For more information, see the help topic for the [Test-CsMcxConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxConference) cmdlet.
+For more information, see the help topic for the [Test-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxConference) cmdlet.
 
 </div>
 
