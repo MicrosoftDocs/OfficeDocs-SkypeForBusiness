@@ -227,6 +227,7 @@ The following vendors are in the process of being certified:
    - [SBC Edge series](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
    - [SBC Core Series](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel: ThinkTel does not sell the SBCs to the enterprises but their SBC is being certified.  
+- [Oracle Communication](https://www.oracle.com/industries/communications/products/enterprise-session-border-controller/index.html)
  
 ## See also
 
