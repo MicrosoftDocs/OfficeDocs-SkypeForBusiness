@@ -17,8 +17,8 @@ description: "Summary: Learn how to configure interoperability between your on-p
 To configure Skype for Business hybrid, you need to:
 
 - [Configure your on-premises environment to federate with Office 365.](#configure-your-on-premises-edge-service-to-federate-with-Office-365)
-- [Configure your on-premises environment to trust Office 365 and to share your SIP address space with Office 365.](#configure-your-on-premises-environment-to-share-your-SIP-address-space-with-Office-365)
-- [Configure Office 365 to share SIP address space with your on-premises environment.](#configure-server-to-server-authentication-if-required)
+- [Configure your on-premises environment to trust Office 365 and enable share SIP address space with Office 365.](#configure-your-on-premises-environment-to-share-your-SIP-address-space-with-Office-365)
+- [Enable shared SIP address space in your Office 365 tenant.](#configure-server-to-server-authentication-if-required)
 
 [!NOTE] If you have Exchange on-premises, then you may want to configure OAuth between your Exchange on-premises and Skype for Business Online environments. For more information, see  [Manage server-to-server authentication in Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) and [Plan to integrate Skype for Business and Exchange](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
   
@@ -34,7 +34,7 @@ Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -Enabl
 
 ## Configure your on-premises environment to share your SIP address space with Office 365
 
-You must also configure your on-premises environment to trust Office 365 and share your SIP address space with Office 365. This means Office 365 can potentially host user accounts for the same set of SIP domains as your on-premises environment, and messages can be routed between users hosted on premises and online.  You do this by configuring a hosting provider with ProxyFqdn=sipfed.online.lync.com as described below.
+You must also configure your on-premises environment to trust Office 365 and enable shared SIP address space with Office 365. This means Office 365 can potentially host user accounts for the same set of SIP domains as your on-premises environment, and messages can be routed between users hosted on premises and online.  You do this by configuring a hosting provider with ProxyFqdn=sipfed.online.lync.com as described below.
 
 First, check if you already have a hosting provider with ProxyFqdn=sipfed.online.lync.com. If one exists, then remove it by using the following command:
 
@@ -66,29 +66,12 @@ To establish a remote PowerShell session with Teams or Skype for Business Online
 After you install the module, you can establish a remote session with the following cmdlets:
   
 ```
-Import-Module SkypeOnlineConnector
-```
-
-```
 $cred = Get-Credential
-```
-
-```
-$CSSession = New-CsOnlineSession -Credential $cred
-```
-
-```
-Import-PSSession $CSSession -AllowClobber
+Import-PSSession (New-CsOnlineSession -Credential $cred) -AllowClobber
 ```
 
 For more information about how to establish a remote PowerShell session with Skype for Business Online, and how to use the Skype for Business Online Connector module, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
-<<<<<<< HEAD
-=======
-## Configure server-to-server authentication if required
-
-Depending on the type of hybrid environment you are configuring, you may need to configure server-to-server authentication.  For more information, see  [Manage server-to-server authentication in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).
->>>>>>> master
 
 
 ## See also
