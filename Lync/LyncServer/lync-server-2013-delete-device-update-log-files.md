@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2013-02-23_
 
-The Device Update Web service keeps an extensive collection of log files. This collection includes both audit logs conducted by the service itself and log files uploaded from client devices. To prevent the server from filling up with Device Update Web service service logs, you’ll probably want to clear it of log files that have been around for a certain number of days. Set this number of days based on update activity and the number of client devices in your organization, and by using Lync Server Control Panel or Lync Server Management Shell.
+The Device Update Web service keeps an extensive collection of log files. This collection includes both audit logs conducted by the service itself and log files uploaded from client devices. To prevent the server from filling up with Device Update Web service logs, you’ll probably want to clear it of log files that have been around for a certain number of days. Set this number of days based on update activity and the number of client devices in your organization, and by using Lync Server Control Panel or Lync Server Management Shell.
 
 <div>
 
