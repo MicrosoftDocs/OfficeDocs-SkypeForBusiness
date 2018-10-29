@@ -40,7 +40,7 @@ During disaster recovery, users who have been redirected to the backup pool as p
 
 The Group Call Pickup number ranges in the call park orbit table must be redirected to the backup pool after the failover process to the backup pool is complete. The number ranges must be redirected back to the primary pool after the failback process to the primary pool is complete. To redirect the Group Call Pickup ranges, use the **Set-CsCallParkOrbit** cmdlet.
 
-If you deploy a new pool with a different fully qualified domain name (FQDN) to replace the primary pool, you need to reassign all the Group Call Pickup number ranges that were associated with the primary pool to the FQDN of the new pool. To reassign number ranges to the new pool, you can use the **Set-CsCallParkOrbit** cmdlet. For details about the **Set-CsCallParkOrbit** cmdlet, see [Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit).
+If you deploy a new pool with a different fully qualified domain name (FQDN) to replace the primary pool, you need to reassign all the Group Call Pickup number ranges that were associated with the primary pool to the FQDN of the new pool. To reassign number ranges to the new pool, you can use the **Set-CsCallParkOrbit** cmdlet. For details about the **Set-CsCallParkOrbit** cmdlet, see [Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit).
 
 </div>
 

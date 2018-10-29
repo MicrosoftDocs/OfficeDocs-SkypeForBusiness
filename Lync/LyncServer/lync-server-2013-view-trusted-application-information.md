@@ -54,7 +54,7 @@ You can view information about your trusted applications by using Windows PowerS
         ExUmEnabled            : False
         Enabled                : True
     
-    For details, see [Get-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrustedApplication).
+    For details, see [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).
 
 </div>
 
