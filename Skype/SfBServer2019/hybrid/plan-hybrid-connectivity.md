@@ -65,7 +65,13 @@ To implement hybrid connectivity between your on-premises environment and Office
     > [!NOTE]
     > You can use only a single tenant for a hybrid configuration with your on-premises deployment.
 
+<<<<<<< HEAD
 - Azure Active Directory Connect to synchronize your on-premises directory with Office 365. For more information, see [Azure AD Connect: Accounts and permissions](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
+=======
+- Skype for Business Server administrative tools. (If you are using Lync Server 2013 or Lync Server 2010, you can use the Lync Server 2013 administrative tools. For more information, see [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
+
+- Azure Active Directory Connect to synchronize your on-premises directory with Office 365. For more information, see [Azure AD Connect: Accounts and permissions](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
+>>>>>>> master
 
 - Skype for Business Server administrative tools.  These are required to move users from on-premises to the cloud. These tools must be installed on a server with access to both on-premises deployment and the internet. 
 
@@ -208,3 +214,33 @@ In addition to the port requirements for internal communication, you must also c
 |STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V Edge  <br/> |3478  <br/> |3478  <br/> |Open for audio, video sessions  <br/> |
 
 For more information about port and firewall planning for Edge Server, see [Edge Server environmental requirements in Skype for Business Server](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). See also [Port and protocol requirements for servers](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md) and the [Protocol workloads diagram](https://go.microsoft.com/fwlink/p/?LinkId=550989).
+<<<<<<< HEAD
+=======
+
+## User accounts and data
+<a name="BKMK_UserAccounts"> </a>
+
+In a hybrid deployment, any user who you want to home online must first be created in the on-premises deployment, so that the user account is created in Active Directory Domain Services. You can then move the user to Skype for Business Online, which will move the user's contact list.
+
+When you synchronize user accounts between your on-premises deployment and online tenant using AAD Connect, you need to synchronize the AD accounts for all Skype for Business or Lync users in your organization, even if users are not moved to online. If you do not synchronize all users, communication between on-premises and online users in your organization may not work as expected.
+
+> [!IMPORTANT]
+> All user management, including user moves between on-premises and Skype for Business Online, must be done using the latest installed version of the administrative tools. The administrative tools must be installed on a separate server that has connect access to the existing on-premises deployment and to the Internet. The cmdlet to move users from your on-premises deployment to Skype for Business Online, [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps), must be run from the administrative tools connected to your on-premises deployment. For more information about moving users, see [Move users from on premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
+
+You should also consider the following user-related issues when planning for a hybrid deployment:
+
+- **User contacts** The limit for contacts for Lync Online users is 250. Any contacts beyond that number will be removed from the user's contact list when the account is moved to Lync Online.
+
+- **Instant Messaging and Presence** User contact lists, groups, and access control lists (ACLs) are migrated with the user account.
+
+- **Conferencing data, meeting content, and scheduled meetings** This content is not migrated with the user account. Users must reschedule meetings after their accounts are migrated to Lync Online.
+
+## User policies and features
+<a name="BKMK_UserPolicies"> </a>
+
+- In a hybrid environment, users can be enabled for Instant Messaging and conferencing (meetings) either on premises or online, but not both simultaneously.
+
+- **Client support** Some users may require a new client version when they are moved to Skype for Business Online. For Office Communications Server 2007 R2, users must be moved to a Skype for Business Server or Lync Server 2013 pool prior to migration to Skype for Business Online.
+
+- **On-premises policies and configuration (non-user)** Online and on-premises policies require separate configuration. You cannot set global policies that apply to both.
+>>>>>>> master

@@ -135,7 +135,7 @@ Role : WebServer
 ## See Also
 
 
-[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)  
+[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
   
 
 </div>
