@@ -22,7 +22,7 @@ When you contribute your work will go directly into the content set after being 
 4. Your browser will then open the file in an edit window. We want to add a link so we scroll down to the Related Links section and add the link in the correct format.
 ![Image of Edit button on Github](images/add_related_link.png)
 
-**Note** Since you are likely not a maintainer of the Git repository GitHub will automatically 'Fork' the project into your personal GitHub account. A fork is just an exact copy of the repository in your own account so that you have total access to make edits. You are now 'editing' a copy of the project in your own GitHub account. You can always find it again by looking at your GitHub Repositories in your GitHub Profile (drop-down from your name in top right).
+**Note** Since you are likely not a maintainer of the Git repository, GitHub will automatically 'Fork' the project into your personal GitHub account. A fork is just an exact copy of the repository in your own account so that you have total access to make edits. You are now 'editing' a copy of the project in your own GitHub account. You can always find it again by looking at your GitHub Repositories in your GitHub Profile (drop-down from your name in top right).
 ![Image of Automatic Fork message on Github](images/auto_fork.png)
 
 5. You can click the Preview changes link to see what the changes will look like.
