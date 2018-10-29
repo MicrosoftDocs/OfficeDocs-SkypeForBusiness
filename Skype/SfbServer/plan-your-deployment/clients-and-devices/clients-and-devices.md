@@ -79,7 +79,7 @@ Skype Room Systems v2 is Microsoft's latest conferencing solution which uses a f
 
 ### Skype for Business on Surface Hub
 
-Microsoft Surface Hub is an all-in-one productivity device that is intended for brainstorming, collaboration, and presentations. It has its own iteration of the Skype for Business client, documented in the [Microsoft Surface Hub admin guide](https://docs.microsoft.com/en-us/surface-hub/).
+Microsoft Surface Hub is an all-in-one productivity device that is intended for brainstorming, collaboration, and presentations. It has its own iteration of the Skype for Business client, documented in the [Microsoft Surface Hub admin guide](https://docs.microsoft.com/surface-hub/).
 
 ## Choosing your organization's preferred client
 <a name="BK_client_choose"> </a>

@@ -76,7 +76,7 @@ You can remove user accounts by using the Disable-CsUser cmdlet. This cmdlet can
 
 </div>
 
-For more information, see the help topic for the [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser) cmdlet.
+For more information, see the help topic for the [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser) cmdlet.
 
 </div>
 

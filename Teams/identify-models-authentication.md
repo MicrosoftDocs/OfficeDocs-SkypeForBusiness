@@ -46,7 +46,7 @@ Multi-Factor Authentication
 
 Office 365 plans support Multi-Factor Authentication (MFA) that increases the security of user logins to Office 365 services. With MFA for Office 365, users are required to acknowledge a phone call, text message, or an app notification on their smartphone after correctly entering their password. Only after this second authentication factor has been satisfied, can a user sign in.
 
-Multi Factor authentication is supported with any Office 365 plan that that includes Microsoft Teams. The Office 365 subscription plans that include Microsoft Teams are discussed later in the Licensing section below.
+Multi Factor authentication is supported with any Office 365 plan that includes Microsoft Teams. The Office 365 subscription plans that include Microsoft Teams are discussed later in the Licensing section below.
 
 Once the users are enrolled for MFA, the next time a user signs in, they see a message that asks them to set up their second authentication factor. Supported authentication methods are:
 

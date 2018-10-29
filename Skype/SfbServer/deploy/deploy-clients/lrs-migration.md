@@ -63,7 +63,7 @@ This table lists summary of all available options for existing LRS devices:
 -->
 
 ## What should you do?
-We recommend you plan to update Lync Room System devices to Skype Room Systems v2 before TLS 1.0/1.1 deprecation using upgrade options mentioned above. Additionally, you may also consider replacing existing devices with new devices certified for SRS v2. See [Room devices](https://aka.ms/roomdevices) for details and also take a look at [Skype Room Systems v2 requirements](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
+We recommend you plan to update Lync Room System devices to Skype Room Systems v2 before TLS 1.0/1.1 deprecation using upgrade options mentioned above. Additionally, you may also consider replacing existing devices with new devices certified for SRS v2. See [Room devices](https://aka.ms/roomdevices) for details and also take a look at [Skype Room Systems v2 requirements](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
 
 > [!NOTE]
 > Touch and whiteboard functionality is not yet supported in Skype Room System v2. Touch and whiteboard support is in the backlog for Skype Room System v2 and will be added in H1 CY2019.

@@ -199,7 +199,7 @@ When you use this method, you can configure each GeoDNS address to use either a 
 
 You can set up the same configuration for the Dial-In simple URL. To do so, create additional records like those in the previous example, substituting `dialin` for `meet` in the DNS records. For the Admin simple URL, use one of the three options listed earlier in this section.
 
-Once this configuration is set up, you must use a monitoring application to set up HTTP monitoring to watch for failures. For external access, monitor to make sure that HTTPS GET autodiscovery requests to the the external web FQDN or load balancer IP address for the two pools are successful. For example, the following requests must not contain any **ACCEPT** header and must return **200 OK**.
+Once this configuration is set up, you must use a monitoring application to set up HTTP monitoring to watch for failures. For external access, monitor to make sure that HTTPS GET autodiscovery requests to the external web FQDN or load balancer IP address for the two pools are successful. For example, the following requests must not contain any **ACCEPT** header and must return **200 OK**.
 
     HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
     HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
