@@ -71,7 +71,7 @@ When modifying SIP trunk configuration settings using Lync Server Control Panel,
 <tr class="even">
 <td><p>Encryption support level</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>Indicates the level of support for protecting media traffic between the Mediation Server and the PSTN Gateway, IP-PBX, or SBC at the service provider. For media bypass cases, this value must be compatible with the EncryptionLevel setting in the media configuration. Media configuration is set by using the <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> and <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a> cmdlets.</p>
+<td><p>Indicates the level of support for protecting media traffic between the Mediation Server and the PSTN Gateway, IP-PBX, or SBC at the service provider. For media bypass cases, this value must be compatible with the EncryptionLevel setting in the media configuration. Media configuration is set by using the <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> and <a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a> cmdlets.</p>
 <p>Allowed values are:</p>
 <ul>
 <li><p>Required: SRTP encryption must be used.</p></li>
@@ -160,7 +160,7 @@ When modifying SIP trunk configuration settings using Lync Server Control Panel,
 
 
 > [!NOTE]  
-> The Lync Server CsTrunkConfiguration cmdlets support additional properties not shown in Lync Server Control Panel. For more information, see the help topic for the <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</A> cmdlet.
+> The Lync Server CsTrunkConfiguration cmdlets support additional properties not shown in Lync Server Control Panel. For more information, see the help topic for the <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</A> cmdlet.
 
 
 

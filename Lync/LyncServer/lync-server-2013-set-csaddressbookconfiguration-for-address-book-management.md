@@ -41,7 +41,7 @@ For example:
 ## See Also
 
 
-[Set-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAddressBookConfiguration)  
+[Set-CsAddressBookConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsAddressBookConfiguration)  
   
 
 </div>

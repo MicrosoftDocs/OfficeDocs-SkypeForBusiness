@@ -37,7 +37,7 @@ Phone System call queues can provide:
     
 - Making settings for call queue maximum size, timeout, and call handling options.
     
-When someone calls in to a phone number that is set up up with a call queue, they will hear a greeting first (if any is set up), and then they will be put in the queue and wait for the next available call agent. The person calling in will hear music while they are on hold waiting, and the calls will be offered to the call agents in the  *First In, First Out*  (FIFO) manner.
+When someone calls in to a phone number that is set up with a call queue, they will hear a greeting first (if any is set up), and then they will be put in the queue and wait for the next available call agent. The person calling in will hear music while they are on hold waiting, and the calls will be offered to the call agents in the  *First In, First Out*  (FIFO) manner.
   
 All calls waiting in the queue will be distributed using an attendant routing mode or serial routing mode:
   

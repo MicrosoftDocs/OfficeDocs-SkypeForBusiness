@@ -50,7 +50,7 @@ In most cases, we recommend that you set simple URLs only at the global level, s
 
 
 > [!NOTE]  
-> If you choose to use site scoped simple URLs, your users won't be able to move between Front-End pools in different sites without those users rescheduling all of their scheduled meetings as the meeting simple URLs are different between sites. This includes fail-over scenarios where pools in backup relationships are in separate sites. When you need to fail-over between sites where site scoped simple URLs are deployed, users won't be able to join their meetings because of the scope for URL. For further information, check <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSimpleUrlConfiguration">Get-CsSimpleUrlConfiguration</A>.
+> If you choose to use site scoped simple URLs, your users won't be able to move between Front-End pools in different sites without those users rescheduling all of their scheduled meetings as the meeting simple URLs are different between sites. This includes fail-over scenarios where pools in backup relationships are in separate sites. When you need to fail-over between sites where site scoped simple URLs are deployed, users won't be able to join their meetings because of the scope for URL. For further information, check <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">Get-CsSimpleUrlConfiguration</A>.
 
 
 
