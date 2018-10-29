@@ -20,7 +20,7 @@ After deploying one or more Edge Servers, you must enable the types of external 
 
 These options include the following types of access that can be configured through the **Access Edge Configuration** page:
 
-  - **Enable federation and public IM connectivity**   Enable this if you want to support user access to federated partner domains. This setting applies to both SIP federation and XMPP federation that are configured for global, site or user scopes on the **External Access Policy** page. For federation settings to apply, you must configure federation support on both pages.
+  - **Enable federation and public IM connectivity**   Enable this if you want to support user access to federated partner domains. This setting applies to SIP federation configured for global, site, or user scopes on the **External Access Policy** page. For federation settings to apply, you must configure federation support on both pages.
     
     Two options exist that are optional settings for how federated partners are discovered, and whether archiving disclaimers (notification to federated contacts that you communicate with that your deployment has archiving enabled and that the communications details will be archived) will be sent to contacts:
     

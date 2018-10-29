@@ -35,7 +35,7 @@ At the time you deployed your Edge Servers and enabled federation for your organ
 
 6.  Click **Commit**.
 
-To enable federated users to collaborate with users in your Skype for Business Server deployment, you must have also configured at least one external access policy to support federated user access. For details, see [Enable or disable federation and public IM connectivity](enable-or-disable-federation-and-public-im-connectivity.md). For details about controlling access for specific federated domains, see [Manage SIP federated domains](../sip-domains/manage-sip-federated-domains-for-your-organization.md), [Manage SIP federated providers](../sip-providers/manage-sip-federated-providers-for-your-organization.md), and [Manage XMPP federated partners](../xmpp-providers/manage-xmpp-federated-partners-for-your-organization.md).
+To enable federated users to collaborate with users in your Skype for Business Server deployment, you must have also configured at least one external access policy to support federated user access. For details, see [Enable or disable federation and public IM connectivity](enable-or-disable-federation-and-public-im-connectivity.md). For details about controlling access for specific federated domains, see [Manage SIP federated domains](../sip-domains/manage-sip-federated-domains-for-your-organization.md) and [Manage SIP federated providers](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
 
 
 ## Enabling or Disabling Discovery of Federation Partners by Using Windows PowerShell Cmdlets
