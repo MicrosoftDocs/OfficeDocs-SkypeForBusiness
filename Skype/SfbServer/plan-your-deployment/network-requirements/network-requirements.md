@@ -255,21 +255,20 @@ Skype for Business Server does not require QoS, but it is strongly recommended. 
 
 Skype for Business Server offers full support for QoS: that means that organizations that are already using QoS can easily integrate Skype for Business Server into their existing network infrastructure. To do this you must follow these steps:
 
-- [Enabling QoS for Non-Windows Devices](https://technet.microsoft.com/library/26f793df-aef8-4028-9e3b-6c2c37ea61b9.aspx). By default, QoS is disabled for computers and other devices (such as iPhones) that run other operating systems. Although you can use Skype for Business Server to enable and disable QoS for devices, you typically can't use the product to change the DSCP codes used by these devices.
+- [Enabling QoS for devices that are not based on Windows](enabling-qos-for-devices-that-are-not-based-on-windows.md). By default, QoS is disabled for computers and other devices (such as iPhones) that run other operating systems. Although you can use Skype for Business Server to enable and disable Quality of Service for devices, you typically cannot use the product to modify the DSCP codes used by these devices.
 
-- [Configuring Port Ranges for Your Conferencing, Application, and Mediation Servers](https://technet.microsoft.com/library/4d6eaa5d-0127-453f-be6a-e55384772d83.aspx). You must reserve a unique set of ports for different packet types, such as audio and video. By using Skype for Business Server you do not enable or disable QoS by setting a property value to True or to False. Instead, you enable QoS by configuring port ranges and then creating and applying Group Policy. If you later decide not to use QoS you can "disable" QoS by removing the appropriate Group Policy objects.
+- [Configuring port ranges for your Conferencing, Application, and Mediation servers](configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md). You must reserve a unique set of ports for different packet types, such as audio and video. By using Skype for Business Server you do not enable or disable QoS by setting a property value to True or to False. Instead, you enable QoS by configuring port ranges and then creating and applying Group Policy. If you later decide not to use QoS you can "disable" QoS by removing the appropriate Group Policy objects.
 
-- [Configuring Port Ranges for Your Edge Servers](https://technet.microsoft.com/library/6f0ae442-6624-4e3f-849a-5b9e387fb8cf.aspx). Although not required, you can configure your Edge servers to use the same port ranges as your other servers.
+- [Configuring port ranges for your Edge Servers](configuring-port-ranges-for-your-edge-servers.md). Although not required, you can configure your Edge servers to use the same port ranges as your other servers.
 
-- [Configuring Port Ranges for Your Microsoft Lync Clients](https://technet.microsoft.com/library/287d5cea-7ada-461c-9b4a-9da2af315e71.aspx). These port ranges apply only to client computers and are typically different from the port ranges configured on your servers.
+- [Configuring port ranges for your clients](configuring-port-ranges-for-your-skype-clients.md). These port ranges apply only to client computers and are typically different from the port ranges configured on your servers.
 
-- [Configuring a Quality of Service Policy for Your Conferencing, Application, and Mediation Servers](https://technet.microsoft.com/library/8adcbbc5-c9f5-476d-ab7f-72e61859cacf.aspx). These policies determine the DSCP codes applied to different packet types.
+- [Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers](configuring-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers.md). These policies determine the DSCP codes applied to different packet types.
 
-- [Configuring a Quality of Service Policy for Your A/V Edge Servers](https://technet.microsoft.com/library/119ee1f5-45b9-40ba-98e5-c694dd2fc5c2.aspx). This should only be done for the internal side of your Edge servers. That's because QoS is designed for use on your internal network and not on the Internet.
+- [Configuring a Quality of Service policy for your A/V Edge Servers](configuring-a-quality-of-service-policy-for-your-a-v-edge-servers.md). This should only be done for the internal side of your Edge servers. That's because QoS is designed for use on your internal network and not on the Internet.
 
-- [Configuring Peer-to-Peer Quality of Service Policies for Clients Running on Windows 7 or Windows 8](https://technet.microsoft.com/library/efff2b98-b3fb-4183-a4f0-329a9105ce2c.aspx). Note that Skype for Business Server does not support QoS for other Windows operating systems, such as Windows Vista or Windows XP.
+- [Configuring Quality of Service policies for clients running on Windows 10](configuring-quality-of-service-policies-for-clients-running-on-windows-10.md). Note that Skype for Business Server does not support QoS for other Windows operating systems, such as Windows Vista or Windows XP.
 
-- [Configuring Quality of Service on Microsoft Lync Phone Edition Devices](https://technet.microsoft.com/library/a6eb2620-a512-4ab6-bdfd-eb76be43bbfe.aspx). By default, QoS is enabled for Lync Phone Edition devices. You might want to change the default DSCP value to guarantee that all audio packets in your organization use the same DSCP code.
 
 > [!NOTE]
 > If you are using Windows Server 2012 or Windows Server 2012 R2 you might be interested in the new set of Windows PowerShell cmdlets available for managing QoS on that platform. For more information, see [Network QoS Cmdlets in Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=285379).
