@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Lync Server 2013: How Archiving works'
 TOCTitle: How Archiving works
 ms:assetid: 536a52a9-cfb7-4392-9620-ffc5b319b31b
@@ -112,7 +112,7 @@ For details about how to set up initial Archiving policies when you deploy Archi
 
 
 > [!NOTE]  
-> If you implement both Lync Server 2013 Archiving databases and enable Microsoft Exchange integration, Exchange 2013 policies override Lync Server Archiving policies, but only for users who are homed on Exchange 2013 and have had had their mailboxes put on In-Place Hold. Lync Archiving depends on Microsoft Exchange In-Place Hold policy only.
+> If you implement both Lync Server 2013 Archiving databases and enable Microsoft Exchange integration, Exchange 2013 policies override Lync Server Archiving policies, but only for users who are homed on Exchange 2013 and have had their mailboxes put on In-Place Hold. Lync Archiving depends on Microsoft Exchange In-Place Hold policy only.
 
 
 

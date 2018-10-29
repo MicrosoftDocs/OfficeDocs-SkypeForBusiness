@@ -44,7 +44,7 @@ The following table lists the ports that need to be open on each internal server
 
 |Server role|Service name|Port|Protocol|Notes|
 |:-----|:-----|:-----|:-----|:-----|
-|All Servers  |SQL Browser  |1434  |UDP  |SQL Browser for the local replicated copy of the the Central Management Store database.  |
+|All Servers  |SQL Browser  |1434  |UDP  |SQL Browser for the local replicated copy of the Central Management Store database.  |
 |Front End Servers  |Skype for Business Server Front-End service  |5060  |TCP  |Optionally used by Standard Edition servers and Front End Servers for static routes to trusted services, such as remote call control servers.  |
 |Front End Servers  |Skype for Business Server Front-End service  |5061  | TCP (TLS) |Used by Standard Edition servers and Front End pools for all internal SIP communications between servers (MTLS), for SIP communications between Server and Client (TLS) and for SIP communications between Front End Servers and Mediation Servers (MTLS). Also used for communications with a Monitoring Server.  |
 | Front End Servers |Skype for Business Server Front-End service  |444  | HTTPS <br/> TCP  |Used for HTTPS communication between the Focus (the Skype for Business Server component that manages conference state) and the individual servers.  <br/> This port is also used for TCP communication between Survivable Branch Appliances and Front End Servers.  |

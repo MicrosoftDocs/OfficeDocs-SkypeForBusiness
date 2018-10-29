@@ -27,7 +27,7 @@ When you contribute your work will go directly into the content set after being 
 
 5. You can click the Preview changes link to see what the changes will look like.
 
-6. Once you are satisified with your work, go to the **Propose file change** area at the bottom of the topic. Enter a title title and other description informaton and then click **Propose file change**.
+6. Once you are satisified with your work, go to the **Propose file change** area at the bottom of the topic. Enter a title and other description informaton and then click **Propose file change**.
 ![Image of Propose file change on Github](images/propose_file_change.png)
 
 7. On the next screen, click **Create pull request**.
