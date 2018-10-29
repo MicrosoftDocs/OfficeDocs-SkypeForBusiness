@@ -73,7 +73,7 @@ To run this check using actual user accounts, you must create two Windows PowerS
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com" -PublisherSipAddress "sip:kenmyer@litwareinc.com" -PublisherCredential $credential1 -SubscriberSipAddress "sip:davidlongmire@litwareinc.com" -SubscriberCredential $credential2
 
-For more information, see the Help documentation for the [Test-CsPresence](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPresence) cmdlet.
+For more information, see the Help documentation for the [Test-CsPresence](https://docs.microsoft.com/powershell/module/skype/Test-CsPresence) cmdlet.
 
 </div>
 

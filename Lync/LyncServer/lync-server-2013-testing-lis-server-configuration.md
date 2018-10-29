@@ -72,7 +72,7 @@ To run this check using an actual user account, you must first create a Windows 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsLisConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsLisConfiguration) cmdlet.
+For more information, see the Help documentation for the [Test-CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration) cmdlet.
 
 </div>
 

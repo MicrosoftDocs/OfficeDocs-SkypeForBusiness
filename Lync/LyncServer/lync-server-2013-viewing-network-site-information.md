@@ -79,7 +79,7 @@ You can view network site information by using Windows PowerShell and the Get-Cs
 
 </div>
 
-For more information, see the help topic for the [Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite) cmdlet.
+For more information, see the help topic for the [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite) cmdlet.
 
 </div>
 

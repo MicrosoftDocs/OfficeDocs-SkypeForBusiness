@@ -30,7 +30,7 @@ Follow the procedure to enable Lync Server 2013 users for voice mail on a hosted
 
 For details, see [Hosted Exchange user management in Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) in the Planning documentation.
 
-For details about the [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser) cmdlet, see the Lync Server Management Shell documentation.
+For details about the [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) cmdlet, see the Lync Server Management Shell documentation.
 
 <div>
 
