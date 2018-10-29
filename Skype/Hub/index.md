@@ -174,7 +174,7 @@ description: Skype for Business
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>End users</h3>
-                                                    <p>Find help, training, and technical support for Skype for Business users on support.office.com.</p>
+                                                    <p>Find help, training, and technical support for Skype for Business users on <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
                                                 </div>
                                             </div>
                                         </div>

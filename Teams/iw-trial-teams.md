@@ -3,10 +3,10 @@ title: Manage the Microsoft Teams Commercial Cloud Trial offer
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 09/10/2018
+ms.date: 10/23/2018
 ms.topic: article
 audience: Admin
-ms.reviewer: alchen
+ms.reviewer: annikae
 ms.service: msteams
 search.appverid: MET150
 localization_priority : Normal
@@ -19,10 +19,7 @@ appliesto:
 Manage the Microsoft Teams Commercial Cloud Trial offer
 =======================================================
 
-Microsoft Teams is a great collaborative tool for your organization. It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365. The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins have the ability to switch on or off this feature for users within their tenant.
-
-> [!NOTE]
-> This offer is not yet publicly available, but will be rolling out over the next month.
+Microsoft Teams is a great collaborative tool for your organization. It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365. The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins have the ability to switch on or off this feature for users within their organization.
 
 ## What's in the offer
 
@@ -38,20 +35,20 @@ The service plans included in this offer are:
 - Sway
 - Yammer Enterprise
 
-The offer can be assigned to a maximum of 500,000 users per tenant. The trial license will allocate 2GB of SharePoint Online storage for each trial user.
+The offer can be assigned to a maximum of 500,000 users per organization. The trial license will allocate 2 GB of SharePoint Online storage for each trial user.
 
 ## Who is eligible
 
 Users who do not have an Office 365 license that includes Teams can initiate the Microsoft Teams Commercial Cloud Trial offer. For example, if a user has Office 365 Business Premium (which includes Teams), and the Teams service plan is disabled, they are not eligible for the trial.
 
-Also, your tenant is NOT eligible for the trial if: 
+Also, your organization is NOT eligible for the trial if: 
 - You are a Syndication Partner Customer
 - You are a Reseller Partner Customer
 - You are a GCC, GOV, or EDU customer
 
-In addition, if your tenant is ineligible for the Microsoft Teams Commercial Cloud Trial offer, you will not see the **Let users install trial apps and services** switch.
+In addition, if your organization is ineligible for the Microsoft Teams Commercial Cloud Trial offer, you will not see the **Let users install trial apps and services** switch.
 
-At the tenant level, Teams as a service needs to be enabled (in the Teams admin center). For more information, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md). Also, users must be enabled to sign up for apps and trials (in the Office 365 admin center). For more information, see [Manage the trial](#manage-the-trial) later in this article.
+At the organization level, Teams as a service needs to be enabled (in the Teams admin center). For more information, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md). Also, users must be enabled to sign up for apps and trials (in the Office 365 admin center). For more information, see [Manage the trial](#manage-the-trial) later in this article.
 
 ## How users sign up for the trial
 
@@ -67,7 +64,7 @@ The first person who signed up for the trial is the “owner” of the subscript
 
 ## <a name="manage-the-trial"></a>Manage the trial
 
-Admins can disable the ability for end users to claim trial apps and services within their tenant. Currently, the Teams trial is the only trial in this category, but this might apply to other similar programs in the future. 
+Admins can disable the ability for end users to claim trial apps and services within their organization. Currently, the Teams trial is the only trial in this category, but this might apply to other similar programs in the future. 
 
 1\. From the [Office 365 admin center](https://portal.office.com/adminportal/home), go to **Services & add-ins** > **User owned Apps and Services**.
 
@@ -77,7 +74,7 @@ Admins can disable the ability for end users to claim trial apps and services wi
 
 ![Screenshot of the User owned Apps and Services page in the Office 365 admin center.](media/iw-trial-enable-2.png)
 
-3\. You can turn off Teams for the tenant by going to the Teams admin portal. When this is disabled, users cannot claim the Teams trial offer.
+3\. You can turn off Teams for your organization by going to the Teams admin portal. When this is disabled, users cannot claim the Teams trial offer.
 
 4\. If you have disabled the Teams service plan for an individual user who has an eligible license, that user is not eligible to claim a trial license.
 

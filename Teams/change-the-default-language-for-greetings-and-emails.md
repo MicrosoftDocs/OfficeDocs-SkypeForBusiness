@@ -65,7 +65,7 @@ If you are an [Office 365 global administrator](https://support.office.com/artic
     
 - [Set up Calling Plans](set-up-calling-plans.md)
     
-- [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server 2015 or Lync Server 2013](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## Related topics
 

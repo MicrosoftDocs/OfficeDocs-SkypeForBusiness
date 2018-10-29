@@ -3,6 +3,7 @@
 
 ## [Overview of Teams](Teams-overview.md)
 ## [Tools and workshops: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
+## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
 
@@ -37,6 +38,7 @@
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 ## [Run Teams in a virtual environment](virtual-environment-teams.md)
 ## [Enable Teams in your organization](Office-365-set-up.md)
+## [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)
 ### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
@@ -179,6 +181,8 @@
 ### [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ### [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ### [Create an org-wide team in Teams](create-an-org-wide-team.md)
+### [Overview of dynamic membership for teams](dynamic-memberships.md)
+## [Presence](presence-admins.md)
 ## [Guest access](guest-access.md)
 ### [How a guest joins a team](guest-joins.md)
 ### [What the guest experience is like](guest-experience.md)
@@ -208,7 +212,8 @@
 #### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
 #### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
 #### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
-#### [Configure Teams live events](teams-live-events/configure-teams-live-events.md)
+#### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+#### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
 
 
 
@@ -221,6 +226,7 @@
 ### [Use T-Bot to help users with Teams](t-bot.md)
 ### [Use activity reports for Teams](teams-activity-reports.md)
 ### [Use inline message translation in Teams](inline-message-translation-teams.md)
+
 ## Cloud voice
 ### [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Argentina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
@@ -342,7 +348,7 @@
 #### [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [Manage the Audio Conferencing settings for a user](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-#### [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 #### [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md)
@@ -458,6 +464,7 @@
 #### [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [What is address validation?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [What are dial plans?](what-are-dial-plans.md)
+#### [Create and manage dial plans](create-and-manage-dial-plans.md)
 ### Phone System
 #### [What is Phone System in Office 365?](what-is-phone-system-in-office-365.md)
 #### [Setting up Phone System in your organization](setting-up-your-phone-system.md)

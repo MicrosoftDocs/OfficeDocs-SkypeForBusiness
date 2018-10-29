@@ -44,9 +44,9 @@ The peripherals certification program ensures that USB peripherals such as heads
 - No provisioning required
 - Firmware and fixes remote All devices support firmware update to allow new features and performance improvements
 
-All of these specifications apply equally for Lync 2013 as they do for Skype for Business, hence all USB peripherals that are qualified for Lync 2013 are also certified for Skype for Business.
+All of these specifications apply equally for Lync 2013 and Skype for Business, hence all USB peripherals that are qualified for Lync 2013 are also certified for Skype for Business.
 
-Browse[USB devices Certified for Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs).
+Browse [USB devices Certified for Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs).
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 

@@ -3,7 +3,7 @@ title: Microsoft Teams apps permissions and considerations
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
-ms.date: 08/20/2018
+ms.date: 10/18/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_PracticalGuidance
@@ -71,7 +71,7 @@ The permissions listed below in capital letters, for example RECEIVE_MESSAGE and
 <tfoot>
 <tr><td align="right"><sup>1</sup></td><td colspan="3">Some bots only send messages (POST_MESSAGE_USER). They&#39;re called &quot;notification-only&quot; bots, but the term doesn&#39;t refer to what a bot is allowed or not allowed to do, it means that the bot doesn&#39;t want to expose a conversational experience. Teams uses this field to disable functionality in the UI that would ordinarily be enabled; the bot isn&#39;t restricted in what it&#39;s allowed to do compared to bots that do expose a conversational experience.</td></tr>
 <tr><td align="right"><sup>2</sup></td><td colspan="3">Currently in Developer Preview.</td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3">Currently in Developer Preview. Governed by the <code>supportsFiles</code> Boolean property on the bot object in the manifest.json file for the app.</td>
+<tr><td align="right"><sup>3</sup></td><td colspan="3">Governed by the <code>supportsFiles</code> Boolean property on the bot object in the manifest.json file for the app.</td>
 </tr>
 </tfoot>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: "Skype for Business Server 2015 Capacity Planning Calculator"
+title: "Skype for Business Server Capacity Planning Calculator"
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/1/2018
@@ -12,17 +12,22 @@ ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: "Summary: How to use the Capacity Calculator Tool."
 ---
 
-# Skype for Business Server 2015 Capacity Planning Calculator
+# Skype for Business Server Capacity Planning Calculator
  
 **Summary:** How to use the Capacity Calculator Tool.
+
+> [!NOTE]
+> This article references Skype for Business Server 2015 downloads, but it applies to:
+> - Skype for Business Server 2019.
+> - Skype for Business Server 2015.
   
-[Skype for Business Server 2015 Capacity Calculator](https://www.microsoft.com/en-us/download/details.aspx?id=51196) augments the [Skype for Business 2015 Planning Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50357) and the documentation at [Plan for your Skype for Business Server 2015 deployment](https://technet.microsoft.com/en-us/library/dn951427). Use the calculator after you have reviewed the guide and created a recommended topology by using the Planning Tool.
+[Skype for Business Server Capacity Calculator](https://www.microsoft.com/en-us/download/details.aspx?id=51196) augments the [Skype for Business Planning Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50357) and the documentation at [Plan for your Skype for Business Server deployment](https://technet.microsoft.com/en-us/library/dn951427). Use the calculator after you have reviewed the guide and created a recommended topology by using the Planning Tool.
   
-The Skype for Business Server 2015 Capacity Calculator helps you determine server requirements based on the number of users and the communication tools your organization uses. After you have determined your user profile and the functions you want to enable for your users, use the calculator to determine the number of servers, memory, and bandwidth you will need. This version of the calculator does not provide guidance for disk I/O requirements.
+The Skype for Business Server Capacity Calculator helps you determine server requirements based on the number of users and the communication tools your organization uses. After you have determined your user profile and the functions you want to enable for your users, use the calculator to determine the number of servers, memory, and bandwidth you will need. This version of the calculator does not provide guidance for disk I/O requirements.
   
 You can benefit most from the calculator if you have accurate, detailed information about your specific user profile. For example, the percentage of voice-enabled users, average calls per user per hour, call duration, and the percentage of concurrent users in conferences can make a huge difference in server requirements. The accuracy of the recommendations created by the calculator depends on the accuracy of the information that you provide.
   
-Once you have used the Planning Tool and the Capacity Planning Calculator, you should simulate your proposed and planned load to ensure that Skype for Business Server 2015 will be adequately provisioned. To perform stress testing under a simulated load, use the [Skype for Business Server 2015 Stress and Performance Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) documented at [Skype for Business Server 2015 Stress and Performance Tool](https://technet.microsoft.com/en-us/library/mt631400.aspx).
+Once you have used the Planning Tool and the Capacity Planning Calculator, you should simulate your proposed and planned load to ensure that Skype for Business Server will be adequately provisioned. To perform stress testing under a simulated load, use the [Skype for Business Server Stress and Performance Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) documented at [Skype for Business Server Stress and Performance Tool](https://technet.microsoft.com/en-us/library/mt631400.aspx).
   
 ## Using the Capacity Calculator
 
@@ -80,7 +85,7 @@ When you have entered all the necessary information, the capacity calculator est
     
 The green cells show recommendations for the usage model that you entered. 
   
-- **Total Front End Servers**: The number of physical servers required are based on dedicated servers running Skype for Business Server 2015 with dual processor, hex-core, with 2,260 megacycles.
+- **Total Front End Servers**: The number of physical servers required are based on dedicated servers running Skype for Business Server with dual processor, hex-core, with 2,260 megacycles.
     
     Note that enabling hyperthreading is recommended and has been proven to improve performance for servers that support audio/video.
     

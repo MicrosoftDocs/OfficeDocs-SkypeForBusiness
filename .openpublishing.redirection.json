@@ -1,6 +1,10 @@
 { 
   "redirections": [ 
-    
+    {
+      "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/create-and-manage-dial-plans.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json",
+      "redirect_document_id": true 
+    },
     {
       "source_path": "Teams/company-wide-team-creation-powershell.md", 
       "redirect_url": "https://docs.microsoft.com/microsoftteams/create-an-org-wide-team", 

@@ -129,7 +129,7 @@
 ### [Calling Plans known issues](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Change the emergency address for a user](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Change the emergency location for a user](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
-### [Create and manage dial plans](../what-are-calling-plans-in-office-365/create-and-manage-dial-plans.md)
+### [Create and manage dial plans](/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Getting phone numbers for your users](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
 ### [How to get Calling Plans for Office 365](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
@@ -261,6 +261,7 @@
 ### [What are Communications Credits?](/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+### [Admin training for Skype for Business Online](../set-up-skype-for-business-online/skypeacademy-training.md)
 ### [Allow users to contact external Skype for Business users](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 ### [Configure presence in Skype for Business Online](../set-up-skype-for-business-online/configure-presence-in-skype-for-business-online.md)
 ### [Configure presence privacy mode](../set-up-skype-for-business-online/configure-presence-privacy-mode.md)

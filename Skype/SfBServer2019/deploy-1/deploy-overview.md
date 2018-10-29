@@ -20,8 +20,6 @@ description: "Summary: Explore these links to learn how to install and configure
  
 **Summary:** Explore these links to learn how to install and configure Skype for Business Server 2019 and Migrate from earlier versions.
   
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 Skype for Business Server offers instant messaging (IM), presence, conferencing, video, and telephony solutions that can support enterprise-level collaboration requirements. This topic provides links to information about how to deploy and configure Skype for Business Server. 
   
 Writers update articles on a continuing basis as new information becomes available and as users provide feedback. This page will be updated frequently, so check back often.

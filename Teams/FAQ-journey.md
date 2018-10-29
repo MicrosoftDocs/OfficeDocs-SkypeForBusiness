@@ -50,7 +50,9 @@ We’ll bring the key set of Skype for Business capabilities in Office 365 into 
 
 ### Will you continue to invest in improving Skype for Business in Office 365?
 
-Our vision for bringing together Intelligent Communications and collaboration is focused on Teams. We plan to continue to support the Skype for Business service and client in Office 365. We have no plan to remove Skype for Business from Office 365 subscriptions at this time. We plan to continue to support the Skype for Business clients to access on-premises server and online services. There is no end-of-support date at this time.
+Our vision for bringing together Intelligent Communications and collaboration is focused on Teams. We plan to continue to support the Skype for Business service and client in Office 365. We plan to continue to support the Skype for Business clients to access on-premises server and online services. There is no end-of-support date at this time.
+
+Starting October 1, 2018, new Office 365 customers with 500 seats or less will be onboarded to Teams and will not have access to Skype for Business Online. Tenants that are already using Skype for Business Online will be able to continue doing so (including provisioning new users) until they complete their transition to Teams. To learn more, see [Microsoft Teams now the primary client for meetings and calling in Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling). 
 
 ### What do you recommend for customers who are currently in the process of deploying—or planning to deploy—Skype for Business in Office 365?
 

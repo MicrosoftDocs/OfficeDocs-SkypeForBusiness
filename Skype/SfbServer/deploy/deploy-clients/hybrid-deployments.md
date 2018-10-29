@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,7 +13,7 @@ description: "Read this topic to learn how to deploy Skype Room System in a hybr
 ---
 
 # Skype Room System hybrid deployments
- 
+
 Read this topic to learn how to deploy Skype Room System in a hybrid environment.
   
 ## Hybrid deployments

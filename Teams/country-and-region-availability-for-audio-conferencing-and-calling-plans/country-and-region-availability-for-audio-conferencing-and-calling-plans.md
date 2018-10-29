@@ -138,7 +138,7 @@ After you look to see if one of the Skype for Business or Microsoft Teams servic
 
 ### Audio Conferencing
 
-Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business and Microsoft Teams include the Audio Conferencing feature for just this situation! People can call in to meetings using a phone instead of using the Skype for Business and Microsoft Teams apps on a mobile device or PC. After you have decided you want Audio Conferencing for your organization, you need to buy 1 **Audio Conferencing** license for each person in your organization who is going to schedule/host an audio meeting.
+Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business and Microsoft Teams include the Audio Conferencing feature for just this situation! People can call in to meetings using a phone instead of using the Skype for Business and Microsoft Teams apps on a mobile device or PC. After you have decided you want Audio Conferencing for your organization, you need to buy one **Audio Conferencing** license for each person in your organization who is going to schedule/host an audio meeting.
   
 With Audio Conferencing, there are toll and toll free phone numbers that can be used by your users to dial-in to meetings. Toll numbers from the following countries or regions are automatically assigned as shared audio conferencing numbers to organizations when they're enabled for Audio Conferencing. Dedicated toll and toll-free numbers can be assigned to your organization from additional cities.
 

@@ -126,7 +126,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>Call Park on Lync Client fails. Lync Client drops the call as the Gateway responds with &quot;a=sendrecv&quot; to an INVITE from Lync to place the call on hold. This issue is documented under case number CSCuo44538 with Cisco Support.</li>
-					<li>As the Gateway overrides the progress indicator from Lync Sever, PSTN calling party does not hear IVR when the Lync called party is set to simultaneous ring an IVR number with Early Media.</li>
+					<li>As the Gateway overrides the progress indicator from Lync Server, PSTN calling party does not hear IVR when the Lync called party is set to simultaneous ring an IVR number with Early Media.</li>
 					<li>Call Hold and transfer on Analog Endpoints fails with the recommended dial peer configuration on the ISR.</li>
 				</ol>
 			</td>

@@ -21,7 +21,7 @@ Use these training resources to help users in your organization get the most out
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12">
+        <a href="https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -119,7 +119,19 @@ Watch this short video introducing you to Teams</h3>
 
 <h2>Featured training</h2>
 <ul class="panelContent cardsW">
-    <li>
+     <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Quick starts</h3>
+                         <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">Download this quick start guide (PDF) to learn the basics</a></p>
+                        <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">Follow the articles in this quick start to get up to speed quickly</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
