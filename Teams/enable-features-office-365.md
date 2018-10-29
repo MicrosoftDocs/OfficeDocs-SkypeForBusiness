@@ -45,7 +45,7 @@ Under **Apps**, you can configure the following settings for your organization:
 
 - **Enable new external apps by default**: When this switch is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this switch if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on cool new apps. 
 
-- **Allow sideloading of external apps**: When this switch is turned on, users can install and enable custom bots and tabs. 
+- **Allow sideloading of external apps**: When this switch is turned on, users can install and turn on custom bots and tabs. 
 
 To learn more, read [Admin settings for apps in Teams](admin-settings.md). 
 
@@ -67,7 +67,7 @@ In **Teams settings**, you can set up email integration, cloud storage options, 
 
 #### Email integration
 
-Turn on this feature so users can send email to a channel in Teams, using the channel email address. Users can do this for any channel belonging to a team they own. Users can also send emails to any channel in a team that has adding connectors enabled for team members. To enable email integration, make sure that **Allow users to send emails to a channel email address** is **On**. 
+Turn on this feature so users can send email to a channel in Teams, using the channel email address. Users can do this for any channel belonging to a team they own. Users can also send emails to any channel in a team that has adding connectors turned on for team members. To turn on email integration, make sure that **Allow users to send emails to a channel email address** is **On**. 
 
 #### Files
 
@@ -85,7 +85,7 @@ Use this setting to let Teams users chat with Skype for Business users. For deta
 
 #### Devices
 
-These settings control resource account behavior for Surface Hub devices attending Microsoft Teams meetings. Use these settings to configure authentication requirements, require a content PIN, and enable Surface Hub resource accounts to send messages.
+These settings control resource account behavior for Surface Hub devices attending Microsoft Teams meetings. Use these settings to configure authentication requirements, require a content PIN, and turn on Surface Hub resource accounts to send messages.
 
 - **Require a secondary form of authentication to access meeting content** – Select the level of access that users have when they enter the content PIN.
 - **Set content PIN** – Require users to enter this PIN to prevent unauthorized access to documents. This prevents an unauthorized user from joining upcoming meetings and browsing attachments.
@@ -98,7 +98,7 @@ Microsoft Teams scoped directory search uses Exchange address book policy (APB) 
 - Your organization has multiple companies within its tenant that you want to keep separate. 
 - Your school wants to limit chats between faculty and students. 
 
-Switch this setting **On** to enable scoped directory searches.
+Switch this setting **On** to turn on scoped directory searches.
 
 ### Teams upgrade
 
