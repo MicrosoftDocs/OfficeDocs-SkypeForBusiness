@@ -18,9 +18,9 @@ description: "Planning considerations for implementing hybrid connectivity betwe
 
 Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Teams or Skype for Business Online. Setting up hybrid connectivity is the first step in in moving your on-premises environment to the cloud.
 
-If you have an on-premises environment and are using Teams, users who are homed in Skype for Business on premises do not have the ability to interoperate with Skype for Business users, nor communicate with users in federated organizations. To gain this functionality in Teams, these users must be moved from Skype for Business on-premises to the cloud, which requires configuring Skype for Business hybrid mode. In addition, for the best experience these users should be in Teams Only mode which ensures all incoming calls and chats from any user land in the user’s Teams client.
+If you have an on-premises environment and are using Teams, users who are homed in Skype for Business on premises do not have the ability to interoperate with Skype for Business users, nor communicate with users in federated organizations. To gain this functionality in Teams, these users must be moved from Skype for Business on-premises to the cloud, which requires configuring Skype for Business hybrid mode. In addition, for the best experience, these users should be in Teams Only mode, which ensures all incoming calls and chats from any user land in the user’s Teams client.
 
-Setting up hybrid connectivity and moving all users to the cloud is also required before you decommission your on-premises Skype for Business deployment.  With hybrid connectivity set up, you can choose to move your users to the cloud based on your schedule and business need. With Direct Routing, you can leverage your on-premises voice infrastructure as you move to the cloud as well as afterwards once your migration is complete.
+Setting up hybrid connectivity and moving all users to the cloud is also required before you decommission your on-premises Skype for Business deployment.  With hybrid connectivity set up, you can choose to move your users to the cloud based on your schedule and business need. With Direct Routing, you can leverage your on-premises voice infrastructure while you move to the cloud and after your migration is complete.
 
 This topic describes the infrastructure and system requirements you'll need to configure hybrid connectivity between your existing on-premises Skype for Business Server deployment--with users who were created in your on-premises Active Directory--and Teams or Skype for Business Online. 
 
@@ -92,7 +92,9 @@ To configure your deployment for hybrid with Teams or Skype for Business Online,
 - A mixed Lync Server 2015 and Skype for Business Server 2019 deployment with the following server roles: 
 
   - At least one Enterprise Pool or Standard Edition server 
+
   - The Director Pool associated with SIP federation, if it exists 
+
   - The Edge Pool associated with SIP federation 
 
 - A mixed Lync Server 2013 and Skype for Business Server 2019 deployment with the following server roles in at least one site running Skype for Business Server 2019: 
@@ -190,20 +192,3 @@ Computers on your network must be able to perform standard Internet DNS lookups.
 Depending on the location of your Microsoft Online Services data center, you must also configure your network firewall devices to accept connections based on wildcard domain names (for example, all traffic from \*.outlook.com). If your organization's firewalls do not support wildcard name configurations, you will have to manually determine the IP address ranges that you would like to allow and the specified ports.
 
 For more information, including details about ports and protocol requirements, see [Office 365 URLs and IP address ranges](https://go.microsoft.com/fwlink/p/?LinkId=252942).
-
-### Port and protocol requirements
-<a name="BKMK_Ports"> </a>
-
-In addition to the port requirements for internal communication, you must also configure the following ports to enable hybrid connectivity:
-
-
-|**Protocol**|**TCP or UDP**|**Source IP**|**Destination IP**|**Source port**|**Destination port**|**Notes**|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|SIP (MTLS)  <br/> |TCP  <br/> |Access Edge  <br/> |Office 365  <br/> |Any  <br/> |5061  <br/> |Signaling  <br/> |
-|SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |Access Edge  <br/> |Any  <br/> |5061  <br/> |Signaling  <br/> |
-|STUN  <br/> |TCP  <br/> |A/V Edge  <br/> |Office 365  <br/> |50000-59999  <br/> |443, 50000-59999  <br/> |Open for audio, video, application sharing sessions  <br/> |
-|STUN  <br/> |TCP  <br/> |Office 365  <br/> |A/V Edge  <br/> |443  <br/> |50000-59999  <br/> |Open for audio, video, application sharing sessions  <br/> |
-|STUN  <br/> |UDP  <br/> |A/V Edge  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Open for audio, video sessions  <br/> |
-|STUN  <br/> |UDP  <br/> |Office 365  <br/> |A/V Edge  <br/> |3478  <br/> |3478  <br/> |Open for audio, video sessions  <br/> |
-
-For more information about port and firewall planning for Edge Server, see [Edge Server environmental requirements in Skype for Business Server](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). See also [Port and protocol requirements for servers](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md) and the [Protocol workloads diagram](https://go.microsoft.com/fwlink/p/?LinkId=550989).
