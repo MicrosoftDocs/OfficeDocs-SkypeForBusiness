@@ -77,15 +77,15 @@ Users can upload and share files from cloud storage services in Teams channels a
 
 #### Organization
 
-Here you can turn on the **Organization** tab, which shows the detailed organizational chart for the user’s organization. For more information, go to [Use the organization tab in Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
+Here you can turn on the **Organization** tab, which shows the detailed organizational chart for the user’s organization. For more information, see [Use the organization tab in Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
 
 #### Skype for Business interop
 
-Use this setting to enable Teams users to chat with Skype for Business users. For detailed information about interoperability between Teams and Skype for Business, go to [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+Use this setting to let Teams users chat with Skype for Business users. For detailed information about interoperability between Teams and Skype for Business, go to [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### Devices
 
-These settings control resource account behavior for Surface Hub devices attending Microsoft Teams meetings. Use these settings to configure authentication requirements, require a content PINs, and enable Surface Hub resource accounts to send messages.
+These settings control resource account behavior for Surface Hub devices attending Microsoft Teams meetings. Use these settings to configure authentication requirements, require a content PIN, and enable Surface Hub resource accounts to send messages.
 
 - **Require a secondary form of authentication to access meeting content** – Select the level of access that users have when they enter the content PIN.
 - **Set content PIN** – Require users to enter this PIN to prevent unauthorized access to documents. This prevents an unauthorized user from joining upcoming meetings and browsing attachments.
@@ -109,6 +109,6 @@ You can specify a coexistence mode: **Teams only**, **Islands** (Teams and Skype
 
 #### App preferences
 
-Here you can choose the app that users will use to join Skype for Business meetings (Skype for Business or the [Skype meetings app](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). This setting isn't dependent on the Coexistence mode setting.
+Here you can choose the app that users will use to join Skype for Business meetings (Skype for Business or the [Skype Meetings App](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). This setting isn't dependent on the coexistence mode setting.
 
 
