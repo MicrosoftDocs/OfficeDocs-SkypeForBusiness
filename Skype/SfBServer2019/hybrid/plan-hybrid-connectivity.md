@@ -18,13 +18,13 @@ description: "Planning considerations for implementing hybrid connectivity betwe
 
 Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Teams or Skype for Business Online. Setting up hybrid connectivity is the first step in in moving your on-premises environment to the cloud.
 
-If you have an on-premises environment and are using Teams, users who are homed in Skype for Business on premises do not have the ability to interoperate with Skype for Business users, nor communicate with users in federated organizations. To enable this functionality, users must be in TeamsOnly mode, which requires moving the user’s Skype for Business home from on-premises to online. Therefore, you must configure hybrid connectivity to achieve TeamsOnly mode.  
+If you have an on-premises environment and are using Teams, users who are homed in Skype for Business on premises do not have the ability to interoperate with Skype for Business users, nor communicate with users in federated organizations. To gain this functionality in Teams, these users must be moved from Skype for Business on-premises to the cloud, which requires configuring Skype for Business hybrid mode. In addition, for the best experience these users should be in Teams Only mode which ensures all incoming calls and chats from any user land in the user’s Teams client.
 
-Setting up hybrid connectivity and moving all users to the cloud is also required before you decommission your on-premises Skype for Business deployment.  With hybrid connectivity set up, you can choose to move your users to the cloud based on your schedule and business need. As you move to the cloud, you can still leverage your on-premises voice infrastructure. 
+Setting up hybrid connectivity and moving all users to the cloud is also required before you decommission your on-premises Skype for Business deployment.  With hybrid connectivity set up, you can choose to move your users to the cloud based on your schedule and business need. With Direct Routing, you can leverage your on-premises voice infrastructure as you move to the cloud as well as afterwards once your migration is complete.
 
 This topic describes the infrastructure and system requirements you'll need to configure hybrid connectivity between your existing on-premises Skype for Business Server deployment--with users who were created in your on-premises Active Directory--and Teams or Skype for Business Online. 
 
-This topic describes the infrastructure and system requirements you'll need to configure hybrid connectivity between your existing on-premises Skype for Business Server deployment--with users who were created in your on-premises Active Directory--and Teams or Skype for Business Online.
+This topic describes the infrastructure and system requirements you'll need to configure hybrid connectivity between your existing on-premises Skype for Business Server deployment and Teams or Skype for Business Online.
 
 After you have read this topic and are ready to configure hybrid connectivity, see [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md). The configuration topics provide step-by-step guidance for setting up hybrid connectivity between your on-premises deployment and Teams or Skype for Business Online.
 
@@ -38,7 +38,7 @@ This type of configuration relies on shared SIP address space functionality, and
 
 ![SfB Hybrid connectivity - split domain](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
-When a shared SIP address space is configured:
+When shared SIP address space is configured:
 
 - Azure Active Directory Connect is used to synchronize your on-premises directory with Office 365.
 
@@ -65,13 +65,7 @@ To implement hybrid connectivity between your on-premises environment and Office
     > [!NOTE]
     > You can use only a single tenant for a hybrid configuration with your on-premises deployment.
 
-<<<<<<< HEAD
 - Azure Active Directory Connect to synchronize your on-premises directory with Office 365. For more information, see [Azure AD Connect: Accounts and permissions](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
-=======
-- Skype for Business Server administrative tools. (If you are using Lync Server 2013 or Lync Server 2010, you can use the Lync Server 2013 administrative tools. For more information, see [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
-
-- Azure Active Directory Connect to synchronize your on-premises directory with Office 365. For more information, see [Azure AD Connect: Accounts and permissions](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
->>>>>>> master
 
 - Skype for Business Server administrative tools.  These are required to move users from on-premises to the cloud. These tools must be installed on a server with access to both on-premises deployment and the internet. 
 
