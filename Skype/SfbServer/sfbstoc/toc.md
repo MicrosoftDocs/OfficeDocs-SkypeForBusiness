@@ -396,7 +396,7 @@
 #### [Move File Store Data](../manage/topology/move-file-store-data.md)
 #### [Disable TLS 1.0/1.1](../manage/topology/disable-tls-1.0-1.1.md)
 #### [Manage services](../manage/manage-services.md)
-#### [Delegating administrative control](../manage/delegating-administrative-control.md)
+#### [Delegate administrative control](../manage/topology/delegating-administrative-control.md)
 ### [Persistent Chat](../manage/persistent-chat/persistent-chat.md)
 #### [Categories](../manage/persistent-chat/categories.md)
 #### [Chat rooms](../manage/persistent-chat/chat-rooms.md)
