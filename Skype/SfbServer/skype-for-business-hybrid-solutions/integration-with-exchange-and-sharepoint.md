@@ -43,7 +43,7 @@ The following tables list the features supported in a hybrid deployment when int
 |Publish status based on Outlook calendar free/busy information  <br/> ||
 |Contact List (via Unified Contact Store)  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> A Lync 2013 or Skype for Business desktop client is required.  <br/>  For more information, see [Configure Skype for Business Server 2015 to use the unified contact store](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
 |High-resolution Contact Photo in Lync 2013 client, Skype for Business client, and Lync Web App.  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> For more information, see [Configure the use of high-resolution photos in Skype for Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
-|Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises. For more information, see [Skype for Business hybrid solutions](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises. For more information, see [Skype for Business hybrid solutions](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Missed Conversations history and Call Logs are written to user's exchange mailbox  <br/> ||
 |Archiving Content (IM and Meeting) in Exchange  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> For more information, see [Deployment Checklist for Archiving](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Search archived content  <br/> |Requires Exchange 2016 or Exchange 2013.  <br/> |
@@ -63,7 +63,7 @@ The following tables list the features supported in a hybrid deployment when int
 |Publish status based on Outlook calendar free/busy information  <br/> ||
 |Contact List (via Unified Contact Store).  <br/> |Lync Server 2013 only. A Lync 2013 or Skype for Business desktop client is required.  <br/> For more information, see [Configure Skype for Business Server 2015 to use the unified contact store](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
 |High-resolution Contact Photo in Lync 2013 client, Skype for Business client, and Lync Web App.  <br/> |For more information, see [Configure the use of high-resolution photos in Skype for Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
-|Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises. For more information, see [Skype for Business hybrid solutions](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises. For more information, see [Skype for Business hybrid solutions](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Missed Conversations history and Call Logs are written to user's Exchange mailbox  <br/> ||
 |Archiving Content (IM and Meeting) in Exchange  <br/> |For more information, see [Deployment Checklist for Archiving](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Search archived content  <br/> |For more information, see at [Configure Exchange for SharePoint eDiscovery Center](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
@@ -82,7 +82,7 @@ The following tables list the features supported in a hybrid deployment when int
 |Publish status based on Outlook calendar free/busy information  <br/> ||
 |Missed Conversations history and Call Logs are written to user's exchange mailbox  <br/> ||
 |High-resolution Contact Photo in Lync 2013 or Skype for Business client.  <br/> |Requires Exchange 2016 or Exchange 2013. This is not supported in Lync Web App when users are homed on Skype for Business Online.  <br/> |
-|Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises. For more information, see [Skype for Business hybrid solutions](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises. For more information, see [Skype for Business hybrid solutions](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Missed Conversations history and Call Logs are written to user's Exchange mailbox  <br/> ||
 |Server Side Conversation History  <br/> ||
 
@@ -101,7 +101,7 @@ The following tables list the features supported in a hybrid deployment when int
 |Missed Conversations history and Call Logs are written to user's exchange mailbox  <br/> ||
 |Contact List (via Unified Contact Store)  <br/> |Lync Server 2013 or Skype for Business client required  <br/> |
 |High-resolution Contact Photo in Lync 2013, Skype for Business client, and Lync Web App  <br/> ||
-|Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises. For more information, see [Skype for Business hybrid solutions](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises. For more information, see [Skype for Business hybrid solutions](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Archiving Content (IM and Meeting) in Exchange  <br/> ||
 |Search archived content  <br/> ||
 |Voicemail  <br/> ||

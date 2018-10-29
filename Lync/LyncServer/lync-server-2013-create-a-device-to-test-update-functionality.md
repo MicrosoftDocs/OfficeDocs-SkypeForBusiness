@@ -92,7 +92,7 @@ When creating test devices using this cmdlet, you must do two things:
 
 </div>
 
-For more information, see the help topic for the [New-CsTestDevice](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTestDevice) cmdlet.
+For more information, see the help topic for the [New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/New-CsTestDevice) cmdlet.
 
 </div>
 

@@ -48,7 +48,7 @@ You can view network interface information by using Windows PowerShell and the *
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
     
-    For details, see [Get-CsNetworkInterface](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterface).
+    For details, see [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).
 
 </div>
 

@@ -80,7 +80,7 @@ Archiving configuration settings can be deleted by using Windows PowerShell and 
 
 </div>
 
-For more information, see the help topic for the [Remove-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingConfiguration) cmdlet.
+For more information, see the help topic for the [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) cmdlet.
 
 </div>
 

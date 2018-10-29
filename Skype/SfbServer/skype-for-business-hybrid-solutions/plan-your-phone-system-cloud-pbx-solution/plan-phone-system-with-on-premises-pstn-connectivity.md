@@ -51,7 +51,7 @@ By deploying Phone System in Office 365 with on-premises PSTN connectivity, you 
 
 You may have a custom feature or a major add-on to your legacy PBX, such as a call center. If the custom feature is not currently available on Phone System in Office 365, you should leave those users that require that custom feature on-premises with the legacy PBX, and just port the users who do not need to access the custom feature to Phone System in Office 365 with on-premises PSTN connectivity.
 
-For a list of legacy PBXs that interoperate directly with Skype for Business Server 2015 see  [Infrastructure Qualified for Microsoft Lync](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). If your PBX is not on this list, you can use a Session Border Controller to connect your PBX with Phone System in Office 365 in Skype for Business Online.
+For a list of legacy PBXs that interoperate directly with Skype for Business Server 2015 see  [Infrastructure Qualified for Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). If your PBX is not on this list, you can use a Session Border Controller to connect your PBX with Phone System in Office 365 in Skype for Business Online.
 
 ### Network considerations for quality and performance
 

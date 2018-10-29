@@ -66,7 +66,7 @@ To assign an RBAC role to a user, you must add that user to the appropriate Acti
 
 7.  In the **Properties** dialog box, click **OK**.
 
-To verify that the RBAC role has been assigned, use the [Get-CsAdminRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdminRoleAssignment) cmdlet, passing the cmdlet the SamAccountName (Active Directory logon name) of the user. For example, run this command from within the Lync Server Management Shell:
+To verify that the RBAC role has been assigned, use the [Get-CsAdminRoleAssignment](https://docs.microsoft.com/powershell/module/skype/Get-CsAdminRoleAssignment) cmdlet, passing the cmdlet the SamAccountName (Active Directory logon name) of the user. For example, run this command from within the Lync Server Management Shell:
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
 
