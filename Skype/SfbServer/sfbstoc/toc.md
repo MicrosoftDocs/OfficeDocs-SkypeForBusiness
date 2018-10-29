@@ -552,7 +552,15 @@
 ##### [Configure federation support for a Skype for Business Online domain](../manage/federation-and-external-access/federation-support/configure-federation-support-for-domain.md)
 ##### [Configure user access for federation with a Skype for Business Online customer](../manage/federation-and-external-access/federation-support/configure-user-access-for-federation.md)
 ##### [Verify communications with a Skype for Business Online customer](../manage/federation-and-external-access/federation-support/verify-communications.md)
-
+### Network
+#### [Manage Quality of Service (QoS)](../manage/network-management/qos/managing-quality-of-service-qos.md)
+##### [Enabling QoS for devices that are not based on Windows](../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md)
+##### [Configuring port ranges for your Conferencing, Application, and Mediation servers](../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)
+##### [Configuring port ranges for your Edge Servers](../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md)
+##### [Configuring port ranges for your clients](../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md)
+##### [Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers](../manage/network-management/qos/configuring-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers.md)
+##### [Configuring a Quality of Service policy for your A/V Edge Servers](../manage/network-management/qos/configuring-a-quality-of-service-policy-for-your-a-v-edge-servers.md)
+##### [Configuring Quality of Service policies for clients running on Windows 10](../manage/network-management/qos/configuring-quality-of-service-policies-for-clients-running-on-windows-10.md)
 ### [Authentication](../manage/authentication/authentication.md)
 #### [Use ADAL](../manage/authentication/use-adal.md)
 #### [Stage AV and OAuth certificates](../manage/authentication/stage-av-and-oauth-certificates.md)
