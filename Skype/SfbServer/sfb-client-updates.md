@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: mwa
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
