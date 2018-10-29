@@ -70,7 +70,7 @@ The Skype for Business Web App and Skype Meetings App support multi-factor authe
 
 The BranchCache feature in Windows 7 and Windows Server 2008 R2 can interfere with Skype for Business Web App web components. To prevent issues for Skype for Business Web App users, make sure that BranchCache is not enabled.
 
-For details about disabling BranchCache, see the [BranchCache Deployment Guide](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
+For details about disabling BranchCache, see the [BranchCache Deployment Guide](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
 
 ## Verifying Skype for Business Web App Deployment
 <a name="MFA"> </a>
@@ -128,7 +128,7 @@ This procedure is optional, and applies to Skype for Business Server 2015 CU5 an
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Information sent to Microsoft is in strict compliance with [Skype for Business data collection practices](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    Information sent to Microsoft is in strict compliance with [Skype for Business data collection practices](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Set the timeout before fall back to the locally hosted Skype for Business Web App experience if CDN isn't available. The default value is 6 seconds. If this value is set to 0, there will be no timeout.
 

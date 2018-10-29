@@ -27,7 +27,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -45,7 +45,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
+                            <img src="https://docs.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -63,7 +63,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users people" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -81,7 +81,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -99,7 +99,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="success" />
+                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="success" />
                         </div>
                     </div>
                     <div class="cardText">

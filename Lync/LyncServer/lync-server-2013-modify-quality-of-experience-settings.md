@@ -86,7 +86,7 @@ You can create QoE retention settings by using Windows PowerShell and the **Set-
 
 </div>
 
-For more information, see the help topic for the [Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration) cmdlet.
+For more information, see the help topic for the [Set-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsQoEConfiguration) cmdlet.
 
 </div>
 
