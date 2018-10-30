@@ -1,9 +1,9 @@
 ---
-title: Assess your cultural and organizational readiness
+title: Assess your cultural and organizational readiness for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/25/2018
+ms.date: 10/29/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,7 +18,7 @@ appliesto:
 ---
 
 
-# Assess your cultural and organizational readiness
+# Assess your cultural and organizational readiness for Microsoft Teams
 
 Now that your project team has come together and you are beginning to see what Teams can do for your organization, it's important to assess your organization’s readiness for the Teams transition. To assess your readiness, you will need to:
 
@@ -28,7 +28,7 @@ Now that your project team has come together and you are beginning to see what T
 
 ## Assess your stakeholders
 
-Use our Stakeholder Assessment workbook to list the core stakeholders and business leaders in your organization. For each individual, ask the following questions using the agreement method as shown.
+Use our Stakeholder Assessment workbook to list the core stakeholders and business leaders in your organization. For each individual, ask the following questions.
  
 1. Is this leader friendly to new technology?
 2. Rate this leader’s satisfaction with your current technology.
@@ -40,8 +40,8 @@ Use our Stakeholder Assessment workbook to list the core stakeholders and busine
 
 You can add additional questions that are relevant to your organization. For your initial two phases (startup and experiment), you'll see leaders who are friendly to change, somewhat dissatisfied with current technology, and that you have a good relationship with. These leaders should be brought into the core project team as business advisors and may have projects that will be essential for your experimentation phase. It is important to select impactful, real world situations to experiment with, and avoid high risk projects for your initial experiments.
    
-[!NOTE]
-While it's possible to assign a score to this sort of questionnaire that would minimize the impact of the human element of relationships within your organization, driving change depends on the chemistry of the team as much as their technical skill or business acumen. Review this list with your team members to discuss the “fit” of your various leaders with this project as you select projects and staff for subsequent phases. 
+> [!NOTE]
+> While it's possible to assign a score to this sort of questionnaire that would minimize the impact of the human element of relationships within your organization, driving change depends on the chemistry of the team as much as their technical skill or business acumen. Review this list with your team members to discuss the “fit” of your various leaders with this project as you select projects and staff for subsequent phases. 
 
 ## Identify early adopters
 
@@ -62,11 +62,11 @@ Change is a human process that has nothing to do with technology. There is behav
 
 ![Resistance to change](/media/teams-adoption-resistance.png)
 
-Every organization has a cultural approach to change. In fact, your organization may have several, depending on region, work style, professional profile, and other elements of the organization. To assess your organization's readiness, ask the following questions.
+Every organization has a cultural approach to change. In fact, your organization may have several, depending on region, work style, professional profile, and other elements of the organization. To assess your organization's readiness, see [Assess organizational chenge readiness](upgrade-org-change-readiness.md). Use the guidelines to answer the following questions:
 
 1. What percentage of users fall into each bucket? (*Change resistance*)
     - **Early adopters**: request the solution before it's available.
-	- **Informed adopters**: use the solution once its value is proven.
+	- **Informed users**: use the solution once its value is proven.
 	- **Dissenters**: push back on any change.
 	
    > [!TIP]
@@ -78,9 +78,9 @@ Every organization has a cultural approach to change. In fact, your organization
     - **One-to-one learners** require personal support.
 
     > [!TIP]
-    > Tailor the type and amount of training to competency and personas. Keep updated as new features come online.
+    > Tailor the type and amount of training to competency and personas. Keep training updated as new features come online.
 
-3. In addition to this service deployment, how many changes are happening? (*Adaptability*) <br/>Changes could include Office/Windows upgrades, office moves, mergers, reorgs, and so on.
+3. In addition to this service deployment, how many other changes are happening? (*Adaptability*) <br/>Changes could include Office/Windows upgrades, office moves, mergers, reorgs, and so on.
     - None
     - 1-3 changes
     - More than 3 changes

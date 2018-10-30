@@ -1,9 +1,9 @@
 ---
-title: Your first teams
+title: Create your first teams in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/25/2018
+ms.date: 10/29/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Your first teams
+# Create your first teams in Microsoft Teams
 
-The best way to drive adoption of Teams is to use the product. We recommend that you manage your Office 365 deployment with Teams. Additionally, you should create a community of employees that are focused on teamwork and productivity. (These initial teams may change over time.) The table below shows the suggested team structure.
+The best way to drive adoption of Teams is to use the product. We recommend that you manage your Office 365 deployment with Teams. Additionally, you should create a community of employees who are focused on teamwork and productivity. (These initial teams may change over time.) The table below shows the suggested team structure.
 
 | Team Name | Proposed Channel Names |
 | --------- | ---------------------- |
 | Microsoft Teams Implementation | General <br/> Awareness and Adoption <br/> Business Engagement <br/> Early Adopter Program <br/> Feedback and Insights <br/> Security and Compliance <br/> Strategy and Planning <br/> Service Health and Incidents <br/> Training <br/> Watercooler Chat |
 | Teamwork Champions | General <br/> Best Practices, Training, and How To <br/> Champion Corner <br/> Feedback and Support <br/> Program Leads <br/> Social Hub |
 
-Within Microsoft Teams, the [tab gallery](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) gives you access to all Office 365 and third-party apps that have been enabled by the IT administrator. To use Teams effectively, you should enable all Office 365 apps in this experience. To get the most value from your product, we suggest pinning key resources as tabs in each of the appropriate channels. See the example below.
+Within Microsoft Teams, the [tab gallery](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) gives you access to all Office 365 and third-party apps that have been turned on by the administrator. To get the most value from your product, we suggest pinning key resources as tabs in each of the appropriate channels. See the example below.
 
 ![Default and custom tabs](/media/teams-adoption-tab-example.png)
 
@@ -50,4 +50,6 @@ In your initial teams, we suggest pinning the following items for easy reference
 
 ## Making the switch to Microsoft Teams
 
-As you begin to use Teams it will be important for the project team to commit to using Teams chat, channels, and resources to run your project. Your own usage of Teams is critical to the quality of your adoption project. We recommend that you resist fragmenting your project by continuing to have conversations with the core project team in email. By switching to Teams you will model the behavior you ultimately want your employees to embrace. Set the tone, go first, and begin to enjoy having your project information in one place.  
+As you begin to use Teams, it will be important for you and the rest of the project team to commit to using Teams chat, channels, and resources to run your project. Your own usage of Teams is critical to the quality of your adoption project. We recommend that you resist fragmenting your project by continuing to have conversations with the core project team in email. By switching to Teams you will model the behavior you ultimately want your employees to embrace. Set the tone, go first, and begin to enjoy having your project information in one place.  
+
+Next: [Assess your cultural and organizational readiness](teams-adoption-assess-readiness.md)
