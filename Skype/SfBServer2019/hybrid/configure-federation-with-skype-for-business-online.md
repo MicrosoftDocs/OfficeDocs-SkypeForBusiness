@@ -33,7 +33,7 @@ Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -Enabl
 
 
 
-## Configure your on-premises environment to share your SIP address space with Office 365
+## Configure your on-premises environment to enable shared SIP address space with Office 365
 
 You must also configure your on-premises environment to trust Office 365 and enable shared SIP address space with Office 365. This means Office 365 can potentially host user accounts for the same set of SIP domains as your on-premises environment, and messages can be routed between users hosted on premises and online.  You do this by configuring a hosting provider with ProxyFqdn=sipfed.online.lync.com as described below.
 
@@ -49,7 +49,7 @@ Then create a new hosting provider, use the New-CsHostingProvider cmdlet as foll
 New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root 
 ```
 
- ## Configure Office 365 to share SIP address space with your on-premises environment
+ ## Enable shared SIP address space in your Office 365 tenant
   
 In addition to the change you made in your on-premises deployment, you'll need to make the corresponding change in your Office 365 tenant to enabled shared SIP address space with your on-premises deployment.  
 
