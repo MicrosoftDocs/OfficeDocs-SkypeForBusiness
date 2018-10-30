@@ -30,7 +30,7 @@ As an IT admin, you may need to view or update the teams that your organization 
 - Global Administrator
 - Teams Service Administrator
 
-You can learn more about admin roles in Microsoft Teams [here](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps).  
+You can learn more about admin roles in Microsoft Teams [here](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
 This article provides an overview of the management tools for teams in the Microsoft Teams & Skype for Business Admin Center.
 
@@ -87,7 +87,7 @@ The changes that you make to a team are logged. If you are modifying group setti
 
 ## Learn more
 
-[Microsoft Teams cmdlet reference](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)  
+[Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
 [Admin roles in Microsoft Teams](using-admin-roles.md)
 <!--
 [Plan for Teams Lifecycle Management](plan-for-teams-lifecycle-management.md)

@@ -78,7 +78,7 @@ Device update rules can also be removed by using Windows PowerShell and the **Re
 
 </div>
 
-For details, see the Help topic for the [Remove-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDeviceUpdateRule) cmdlet.
+For details, see the Help topic for the [Remove-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Remove-CsDeviceUpdateRule) cmdlet.
 
 </div>
 

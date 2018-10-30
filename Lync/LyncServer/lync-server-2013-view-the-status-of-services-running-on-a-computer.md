@@ -76,7 +76,7 @@ You can also view service status by using Windows PowerShell and the **Get-CsWin
 
 </div>
 
-For details, see [Get-CsWindowsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWindowsService).
+For details, see [Get-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/Get-CsWindowsService).
 
 </div>
 

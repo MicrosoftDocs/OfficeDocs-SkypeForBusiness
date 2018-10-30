@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Lync Server 2013: How Archiving works'
 TOCTitle: How Archiving works
 ms:assetid: 536a52a9-cfb7-4392-9620-ffc5b319b31b
@@ -112,7 +112,7 @@ For details about how to set up initial Archiving policies when you deploy Archi
 
 
 > [!NOTE]  
-> If you implement both Lync Server 2013 Archiving databases and enable Microsoft Exchange integration, Exchange 2013 policies override Lync Server Archiving policies, but only for users who are homed on Exchange 2013 and have had had their mailboxes put on In-Place Hold. Lync Archiving depends on Microsoft Exchange In-Place Hold policy only.
+> If you implement both Lync Server 2013 Archiving databases and enable Microsoft Exchange integration, Exchange 2013 policies override Lync Server Archiving policies, but only for users who are homed on Exchange 2013 and have had their mailboxes put on In-Place Hold. Lync Archiving depends on Microsoft Exchange In-Place Hold policy only.
 
 
 
@@ -181,9 +181,9 @@ For details about how to set up initial Archiving configurations when you deploy
 
 Using Lync Server 2013 Management Shell, you can use cmdlets to implement options that are not available in Lync Server 2013 Control Panel. These options include the following:
 
-  - **Archive duplicate messages**. For details, see [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration) and [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration) in the Operations documentation.
+  - **Archive duplicate messages**. For details, see [New-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsArchivingConfiguration) and [Set-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsArchivingConfiguration) in the Operations documentation.
 
-  - **Export archived data**. For details, see [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)
+  - **Export archived data**. For details, see [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData)
 
 </div>
 

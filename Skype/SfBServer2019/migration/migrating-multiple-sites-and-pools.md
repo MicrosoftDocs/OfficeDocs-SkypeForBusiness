@@ -26,6 +26,6 @@ Skype for Business Server 2019 supports multi-site and multi-pool deployments. T
     
 6. After verifying that the legacy pool is empty, you can then deactivate the pool. 
     
-    For details about how to deactivate the legacy legacy pool and servers, see [Phase 8: Decommission legacy pools](phase-8-decommission-legacy-pools.md).
+    For details about how to deactivate the legacy pool and servers, see [Phase 8: Decommission legacy pools](phase-8-decommission-legacy-pools.md).
     
 
