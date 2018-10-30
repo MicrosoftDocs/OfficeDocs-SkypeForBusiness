@@ -11,6 +11,7 @@
 ### [Plan hybrid connectivity](../hybrid/plan-hybrid-connectivity.md)
 ### [Plan for Skype for Business Server and Exchange Server migration](../hybrid/plan-um-migration.md)
 ### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity.md)
+### [Configure Azure AD Connect for hybrid environments](../hybrid/configure-azure-ad-connect.md)
 #### [Configure Skype for Business hybrid](../hybrid/configure-federation-with-skype-for-business-online.md)
 #### [Configure a multi-forest environment](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [Move users from on-premises to Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
