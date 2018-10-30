@@ -100,7 +100,7 @@ Detailed information about all your device update rules can also be viewed by us
 
 </div>
 
-For details, see the Help topic for the [Get-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateRule) cmdlet.
+For details, see the Help topic for the [Get-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateRule) cmdlet.
 
 </div>
 

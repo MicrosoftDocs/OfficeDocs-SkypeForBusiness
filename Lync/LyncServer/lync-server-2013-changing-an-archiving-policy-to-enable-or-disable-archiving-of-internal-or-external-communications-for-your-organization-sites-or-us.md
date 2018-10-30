@@ -129,7 +129,7 @@ Archiving can be enabled and disabled (for both internal and external communicat
 
 </div>
 
-For more information, see the help topic for the [Set-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingPolicy) cmdlet.
+For more information, see the help topic for the [Set-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsArchivingPolicy) cmdlet.
 
 </div>
 
