@@ -3,7 +3,7 @@ title: Create your champions program for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/26/2018
+ms.date: 10/30/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -41,8 +41,8 @@ Use our [Champions Program Guide](https://go.microsoft.com/fwlink/?linkid=854665
 
 - Hold regular monthly meetings: Promote enthusiasm and cohesiveness of your community by holding regular monthly meetings. These can be a combination of in person and virtual meetings, but their consistency is key to having a thriving champions community.
 
-    >  [!TIP]
-    >  To help build your agendas, schedule your meetings for the week after the public community call. 
+    > [!TIP]
+    > To help build your agendas, schedule your meetings for the week after the public community call. 
 
 - Be clear about program requirements: Some champion programs require that members attend the monthly meetings, hold office hours for the group of users they support, and provide training to new users. Whatever your requirements, make sure that champions are clear on how to successfully participate in the program.
 
