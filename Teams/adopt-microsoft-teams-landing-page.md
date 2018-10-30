@@ -130,7 +130,8 @@ Adoption plans can be simple to complex, depending on your environment. For larg
                         <h3><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-phase1?branch=v-sharos-adoption">Start</a></h3>
                         <p><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-get-started?branch=v-sharos-adoption">Get started</a></p>
                         <p><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-understand-teams-and-channels">Understand teams and channels</a></p>
-                        <p><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-assess-readiness">Assess cultural and organizational readiness</a></p>
+                        <p><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-your-first-teams?branch=v-sharos-adoption">Create your first teams</a></p>
+                        <p><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-assess-readiness?branch=v-sharos-adoption">Assess cultural and organizational readiness</a></p>
                     </div>
                 </div>
             </div>
