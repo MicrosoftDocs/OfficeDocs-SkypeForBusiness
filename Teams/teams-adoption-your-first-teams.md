@@ -19,7 +19,7 @@ appliesto:
 
 # Create your first teams in Microsoft Teams
 
-The best way to drive adoption of Teams is to use the product. We recommend that you manage your Office 365 deployment with Teams. Additionally, you should create a community of employees who are focused on teamwork and productivity. (These initial teams may change over time.) The table below shows the suggested team structure.
+The best way to drive adoption of Teams is to use the product. We recommend that you manage your Office 365 deployment with Teams. You should also create a community of employees who are focused on teamwork and productivity. (These initial teams may change over time.) The table below shows the suggested team structure.
 
 | Team Name | Proposed Channel Names |
 | --------- | ---------------------- |
