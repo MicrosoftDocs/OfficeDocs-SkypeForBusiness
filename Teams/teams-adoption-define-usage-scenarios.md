@@ -27,7 +27,7 @@ Make sure that you understand the business projects (scenarios) that will be in 
 - Streamline business reviews
 - Manage employee time off requests
 
-![Teams use cases for every scenario](/media/teams-adoption-use-cases.png)
+![Teams use cases for every scenario](media/teams-adoption-use-cases.png)
 
 Begin with more basic scenarios to create credibility and then move on to more ambitious areas of impact. As more and more impact with Teams is demonstrated to your business colleagues, more of them will get engaged and the momentum will build. Once you deliver a few scenarios, you may find that business stakeholders approach you after learning how their colleagues realized business value from Teams.
 
@@ -46,11 +46,11 @@ To confirm the selection of these early projects we recommend meeting directly w
 
 To be sure that you have the right information about the business scenario, consider using the following format to document the scenario from the perspective of the employee completing the work and the business owner of the process. Both perspectives are required to craft a successful path forward.
 
-![Framework for identifying scenarios](/media/teams-adoption-identify-scenarios.png)
+![Framework for identifying scenarios](media/teams-adoption-identify-scenarios.png)
 
 After speaking to one or more business stakeholders you can prioritize your scenarios based on impact vs. difficulty. Appropriate candidates for your experimentation phase should have higher impact and low to medium difficulty. This will ensure your project isn't affected by scope creep or technical difficulties before you are able to show the value of your work. An example chart is shown below.
 
-![Scenario impact vs. difficulty](/media/teams-adoption-impact-difficulty.png)
+![Scenario impact vs. difficulty](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
 > We are always looking to learn about how our customers use Teams in new an innovative ways. Share your Teams stories with us in our Driving Adoption discussion forum. Include the hashtag **#TeamsStories** in your post. We are always interested in how you use Teams in your organization.

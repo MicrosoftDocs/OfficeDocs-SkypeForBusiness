@@ -60,7 +60,7 @@ Use a simple form in Office 365 to allow these individuals to opt into your earl
 
 Change is a human process that has nothing to do with technology. There is behavioral psychology and neuroscience that educates us about the natural resistance to change. To make change acceptable, it's critical to anticipate the needs of your users, express your understanding of their situation, and create solutions that improve that situation. Even in doing so you will encounter natural resistance to change.  
 
-![Resistance to change](/media/teams-adoption-resistance.png)
+![Resistance to change](media/teams-adoption-resistance.png)
 
 Every organization has a cultural approach to change. In fact, your organization may have several, depending on region, work style, professional profile, and other elements of the organization. To assess your organization's readiness, see [Assess organizational chenge readiness](upgrade-org-change-readiness.md). Use the guidelines to answer the following questions:
 

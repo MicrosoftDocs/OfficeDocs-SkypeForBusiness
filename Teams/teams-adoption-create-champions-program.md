@@ -24,7 +24,7 @@ Champions are essential to driving awareness, adoption, and education in your or
 
 Champions will fit into your overall launch planning in a variety of ways as shown below.
 
-![Champions and launch planning](/media/teams-adoption-champions.png)
+![Champions and launch planning](media/teams-adoption-champions.png)
 
 Champions should:
 

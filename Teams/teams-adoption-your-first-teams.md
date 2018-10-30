@@ -28,7 +28,7 @@ The best way to drive adoption of Teams is to use the product. We recommend that
 
 Within Microsoft Teams, the [tab gallery](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) gives you access to all Office 365 and third-party apps that have been turned on by the administrator. To get the most value from your product, we suggest pinning key resources as tabs in each of the appropriate channels. See the example below.
 
-![Default and custom tabs](/media/teams-adoption-tab-example.png)
+![Default and custom tabs](media/teams-adoption-tab-example.png)
 
 In your initial teams, we suggest pinning the following items for easy reference in your team channels. These assets are in addition to your OneNote notebook sections. If you are working with our FastTrack team, they will assist you in configuring these first teams. 
 
