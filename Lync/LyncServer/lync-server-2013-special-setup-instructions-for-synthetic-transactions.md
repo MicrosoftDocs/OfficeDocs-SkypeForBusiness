@@ -75,7 +75,7 @@ The Exchange Unified Messaging (UM) synthetic transaction verifies that test use
 
 ## Persistent Chat Synthetic Transactions
 
-To use the Persistent Chat synthetic transaction, administrators must first create a channel and give the test users permissions to use it. The [Test-CsPersistentChatMessage](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPersistentChatMessage) cmdlet can be used to properly configure these test users:
+To use the Persistent Chat synthetic transaction, administrators must first create a channel and give the test users permissions to use it. The [Test-CsPersistentChatMessage](https://docs.microsoft.com/powershell/module/skype/Test-CsPersistentChatMessage) cmdlet can be used to properly configure these test users:
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
@@ -98,7 +98,7 @@ The chat room that is created by Test-CsPersistentChatMessage can be deleted onl
 
 ## PSTN Peer-to-Peer Call Synthetic Transactions
 
-The [Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnPeerToPeerCall) synthetic transaction verifies the ability to place and receive calls via the public switched telephone network (PSTN).
+The [Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall) synthetic transaction verifies the ability to place and receive calls via the public switched telephone network (PSTN).
 
 To run this synthetic transaction, administrators must configure:
 

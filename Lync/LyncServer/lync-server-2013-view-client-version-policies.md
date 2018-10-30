@@ -80,7 +80,7 @@ You can view client version policies by using the **Get-CsClientVersionPolicy** 
 
 </div>
 
-For details, see the Help topic for the [Get-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicy) cmdlet.
+For details, see the Help topic for the [Get-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicy) cmdlet.
 
 </div>
 

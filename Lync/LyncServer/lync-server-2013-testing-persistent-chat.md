@@ -149,9 +149,9 @@ Here are some common reasons why **Test-CsPersistentChatMessage** might fail:
 ## See Also
 
 
-[Grant-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPersistentChatPolicy)  
-[New-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPersistentChatPolicy)  
-[Set-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPersistentChatPolicy)  
+[Grant-CsPersistentChatPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsPersistentChatPolicy)  
+[New-CsPersistentChatPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsPersistentChatPolicy)  
+[Set-CsPersistentChatPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatPolicy)  
   
 
 </div>
