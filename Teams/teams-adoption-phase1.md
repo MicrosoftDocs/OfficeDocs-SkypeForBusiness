@@ -28,7 +28,7 @@ You'll start your Teams adoption with the following activities:
 After your startup team is in place, continue phase 1 by completing the following tasks:
 
 - [Understand teams and channels](teams-adoption-understand-teams-and-channels.md).
-- [Set up your first teams on Teams](your-first-teams.md) to build your technical knowledge.
+- [Set up your first teams on Teams](teams-adoption-your-first-teams.md) to build your technical knowledge.
 - [Assess your organization's readiness for change](teams-adoption-assess-readiness.md).
 
 The primary goal of this phase is to ensure your readiness for the experimentation phase. You will also determine if you need assistance from Microsoft or from our network of skilled partners.  
