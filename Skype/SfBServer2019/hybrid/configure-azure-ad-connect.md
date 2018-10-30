@@ -15,8 +15,10 @@ description: "Instructions for configuring Azure AD Connect in a hybrid environm
 # Configure Azure AD Connect for Skype for Business and Teams 
  
 Organizations that have Skype for Business Server (or Lync Server) on-premises and who are planning to use either Teams or Skype for Business Online must configure Azure AD Connect to synchronize their on-premises directory with Office 365, as described in this document.  This includes organizations that move directly from Skype for Business on-premises to Teams. In particular, organizations with Skype for Business on-premises must ensure that the proper msRTCSIP attributes are synchronized into Azure AD. 
-  
-Teams users who have Skype for Business on-premises do not have full functionality, such as the ability to interoperate with Skype for Business users and to communicate with users in federated organizations. To gain this functionality, these users must be moved from Skype for Business on-premises to the cloud. To move users from on-premises to the cloud, you must configure Skype for Business hybrid mode, which requires configuring Azure AD Connect. Configuring AAD Connect is the first step to ensuring a healthy migration from on-premises Skype for Business to Teams. 
+
+> [!NOTE]
+> Existing Teams users who also have Skype for Business on-premises will need to have their Skype for Business on-premises account moved to the cloud in order to get full functionality-- such as the ability to interoperate with Skype for Business users, and to communicate with users in federated organizations. For this migration to take place, you must ensure that Azure AD Connect is properly configured so that you can enable hybrid.
+ 
 
 ## Background information
 
@@ -64,7 +66,7 @@ If you do not synchronize from all forests that contain user identities and the 
 
 In such scenarios, it is the customer’s responsibility to ensure proper configuration for populating the attributes into Azure AD. Keep the following in mind: 
 
-- Using a non-standard configuration for synchronizing to Azure AD is risky and might cause data corruption. 
+- Using a non-standard configuration for synchronizing to Azure AD is risky because it could lead to misconfiguration, which could cause data corruption in your online directory.
 
 - As products evolve, Microsoft will continue to verify standard synchronization configurations in which all relevant forests are synchronized. Customers with custom synchronization configurations are responsible for ensuring their configurations deliver the correct attributes and values into Azure AD. 
 
