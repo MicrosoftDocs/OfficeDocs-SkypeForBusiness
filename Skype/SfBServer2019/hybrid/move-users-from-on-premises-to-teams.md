@@ -95,7 +95,7 @@ Move-CsUser -Identity user0 -Target sipfed.online.lync.com -moveToTeams -credent
 ($cred = get-Credentials. You must provide Office 365 admin credentials.)
 
 > [!NOTE]
-> This command sets the TeamsInteropPolicy to Teams and sets the TeamsUpgradePolicy to TeamsOnly mode. 
+> This command sets the TeamsUpgradePolicy to TeamsOnly mode. 
  
 After the move to Teams is successful, the user’s Skype for Business client will display the following message: 
 
