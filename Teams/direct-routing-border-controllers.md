@@ -1,6 +1,7 @@
 ---
 title: "List of Session Border Controllers certified for Direct Routing"
 ms.author: jambirk
+ms.reviewer: NMuravlyannikov
 author: jambirk
 manager: serdars
 ms.audience: ITPro
