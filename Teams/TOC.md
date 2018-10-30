@@ -1,7 +1,7 @@
+## [Welcome to Teams](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-overview?branch=v-lanac-teams-overview-working)
 <!-- ============================================================ -->
 # [Get started](get-started-microsoft-teams-landing-page.md)
 
-## [Welcome to Teams](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-overview?branch=v-lanac-teams-overview-working)
 ## [Get started with Teams](https://review.docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-1?branch=v-lanac-getstarted-working)
 ## [Create your first teams and channels](https://review.docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-2?branch=v-lanac-getstarted-working)
 ## [Onboard early adopters](https://review.docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-3?branch=v-lanac-getstarted-working)
