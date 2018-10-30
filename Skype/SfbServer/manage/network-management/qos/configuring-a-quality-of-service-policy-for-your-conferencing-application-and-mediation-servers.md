@@ -11,7 +11,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: ""
+description: "Configuring port ranges facilitates the use of Quality of Service by ensuring that all traffic of a specified type (for example, all audio traffic) travels through the same set of ports."
 ---
 
 # Configuring a Quality of Service policy in Skype for Business Server for your Conferencing, Application, and Mediation servers

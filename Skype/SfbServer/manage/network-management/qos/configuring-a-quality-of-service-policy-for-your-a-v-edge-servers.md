@@ -12,7 +12,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: ""
+description: "In addition to creating QoS policies for your Conferencing, Application, and Mediation servers, you must also create both audio and video policies for the internal side of your A/V Edge servers."
 ---
 
 
