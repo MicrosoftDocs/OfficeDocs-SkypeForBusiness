@@ -68,17 +68,17 @@
 <!-- ============================================================ -->
 # [Adopt](adopt-microsoft-teams-landing-page.md)
 
-## [Get started](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-get-started?branch=v-sharos-adoption)
-## [Phase 1 - start](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-phase1?branch=v-sharos-adoption)
-### [Understand teams and channels](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-understand-teams-and-channels?branch=v-sharos-adoptions)
-### [Create your first teams](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-your-first-teams?branch=v-sharos-adoption)
-### [Assess your cultural and organizational readiness](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-assess-readiness?branch=v-sharos-adoption)
-## [Phase 2 - experiment](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-phase2-experiment?branch=v-sharos-adoption)
-### [Create your champions program](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-create-champions-program?branch=v-sharos-adoption)
-### [Governance quick start](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-governance-quick-start?branch=v-sharos-adoption)
-### [Define usage scenarios and select early adopters](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-define-usage-scenarios?branch=v-sharos-adoption)
+## [Get started](teams-adoption-get-started.md)
+## [Phase 1 - start](teams-adoption-phase1.md)
+### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
+### [Create your first teams](teams-adoption-your-first-teams.md)
+### [Assess your cultural and organizational readiness](teams-adoption-assess-readiness.md)
+## [Phase 2 - experiment](teams-adoption-phase2-experiment.md)
+### [Create your champions program](teams-adoption-create-champions-program.md)
+### [Governance quick start](teams-adoption-governance-quick-start.md)
+### [Define usage scenarios and select early adopters](teams-adoption-define-usage-scenarios.md)
 ## Phase 3 - enable
-### [Choose your adoption path for Microsoft Teams](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-phase3-enable?branch=v-sharos-adoption)
+### [Choose your adoption path for Microsoft Teams](teams-adoption-phase3-enable.md)
 
 
 <!-- ============================================================ -->
