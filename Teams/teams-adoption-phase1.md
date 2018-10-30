@@ -43,7 +43,7 @@ The table below lists the core roles for your project team. In a smaller organiz
 
 | Role | Responsibilities | Department |
 | ---- | ---------------- | ---------- |
-| Executive Sponsor<sup>1</sup> | Communicate high-level vision. Connect Microsoft Teams implementation to core mission and priority initiatives at the company. | Executive Leadership |
+| Executive Sponsor<sup>1</sup> | Communicate high-level vision. Connect Teams implementation to core mission and priority initiatives at the company. | Executive Leadership |
 | Success Owner<sup>1</sup> | Ensure the business goals are realized from the Teams rollout. | Any department |
 | Program Manager<sup>1</sup> | Oversee the entire Teams launch execution and rollout process. | IT |
 | Champions<sup>1</sup> | Help evangelize Teams, support skill building, and provide usage insights. | Multiple departments |
@@ -56,7 +56,7 @@ The table below lists the core roles for your project team. In a smaller organiz
 <sup>1</sup>These roles are essential to the success of your project.
 <sup>2</sup>These roles are key to the overall program success.
 
-In most cases, this initial team should be a small group of like-minded people who are interested in Microsoft Teams and may also be accountable for its implementation. As your adoption plan moves on to additional phases, you will include more people in your team. We also suggest that you take advantage of the Microsoft resources that are available to assist you. 
+In most cases, this initial team should be a small group of like-minded people who are interested in Teams and may also be accountable for its implementation. As your adoption plan moves on to additional phases, you will include more people in your team. We also suggest that you take advantage of the Microsoft resources that are available to assist you. 
 
 ### Additional resources
 

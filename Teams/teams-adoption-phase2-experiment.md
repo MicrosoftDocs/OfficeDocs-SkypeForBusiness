@@ -24,9 +24,12 @@ You are now armed with a great project team and critical information about your 
 
 You will complete the following steps in this phase:
 
-1. Create your champions program.
-2. Complete your governance quick start.
-3. Define your use cases.
-4. Finalize early adopter program participants.
-5. Set up your feedback channels.
-6. Bring your support department on board.
+1. [Create your champions program](teams-adoption-create-champions-program.md).
+2. [Complete your governance quick start](teams-adoption-governance-quick-start.md)
+3. [Define your use cases](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios).
+4. [Finalize early adopter program participants](teams-adoption-define-usage-scenarios.md#select-early-adopters)
+5. [Set up your feedback channels](teams-adoption-define-usage-scenarios.md#gather-feedback).
+6. [Bring your support staff on board](teams-adoption-define-usage-scenarios.md#bring-your-support-staff-on-board).
+
+Next: [Create your champions program](teams-adoption-create-champions-program.md)
+

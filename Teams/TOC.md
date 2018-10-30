@@ -77,7 +77,8 @@
 ### [Create your champions program](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-create-champions-program?branch=v-sharos-adoption)
 ### [Governance quick start](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-governance-quick-start?branch=v-sharos-adoption)
 ### [Define usage scenarios and select early adopters](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-define-usage-scenarios?branch=v-sharos-adoption)
-## [Phase 3 - Enable](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-phase3-enable?branch=v-sharos-adoption)
+## Phase 3 - enable
+### [Choose your adoption path for Microsoft Teams](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-phase3-enable?branch=v-sharos-adoption)
 
 
 <!-- ============================================================ -->

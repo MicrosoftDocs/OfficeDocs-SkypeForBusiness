@@ -1,5 +1,5 @@
 ---
-title: Create your champions program
+title: Create your champions program for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -18,7 +18,7 @@ appliesto:
 ---
 
 
-# Create your champions program
+# Create your champions program for Microsoft Teams
 
 Champions are essential to driving awareness, adoption, and education in your organization. A champion is a person, primarily motivated by helping others, who is interested in new technology (specifically Teams) and helping other employees use it in alignment with your best practices. Depending on the size of your organization you may have this as a formal part of the person’s role, but often employees take on this role themselves because of their core motivation to help others.
 
@@ -33,9 +33,9 @@ Champions should:
 - Have consistent and positive reinforcement that affirms the impact of their efforts
 - Have a clear plan to execute
 
-Use our Champions Program Guide to build this program in your organization. Our best practices for this community are:
+Use our [Champions Program Guide](https://go.microsoft.com/fwlink/?linkid=854665) to build this program in your organization. Our best practices for this community are:
 
-- Join the Office 365 Champions program: Make sure that at a minimum the leaders of the champion program (and potentially all company champions) are members of the Microsoft Office 365 Champion Program. This free, monthly community call will provide valuable information for running your own program and getting the most from Microsoft Teams and other Office 365 services. Program materials can be reused in your own internal program.
+- Join the Office 365 Champions program: Make sure that at a minimum the leaders of the champion program (and potentially all company champions) are members of the Microsoft Office 365 Champion Program. This free, monthly community call will provide valuable information for running your own program and getting the most from Teams and other Office 365 services. Program materials can be reused in your own internal program.
 
 - Use the Teamwork Champion team: Your champions should use the team you have setup for them for all program communications, feedback, and to find resources.  In doing this they will become increasingly familiar with the product and its benefits.
 
@@ -48,4 +48,7 @@ Use our Champions Program Guide to build this program in your organization. Our 
 
 - Visibly reward your champions: Your champions will give you important insights into the progress and potential pitfalls of your project. Reward them often for their participation. Small gestures go a long way, and often employees are not looking for monetary gain but appreciate recognition for their contributions. Find appropriate and fun ways to thank your community. 
 
-- Train champions early and often:Your program kick off and monthly meetings can be used to build skills in your champion community. Use these opportunities to bring them on board, conduct their initial training, encourage them to attend our courses, and make sure they are ready to support their employees as they move forward in the experimentation phase.  
+- Train champions early and often: Your program kick off and monthly meetings can be used to build skills in your champion community. Use these opportunities to bring them on board, conduct their initial training, encourage them to attend our courses, and make sure they are ready to support their employees as they move forward in the experimentation phase.  
+
+Next: [Complete the governance quick start](teams-adoption-governance-quick-start.md)
+
