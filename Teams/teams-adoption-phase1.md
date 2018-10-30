@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams adoption phase 1 - startup
+title: Microsoft Teams adoption phase 1 - start
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -18,7 +18,7 @@ appliesto:
 ---
 
 
-# Microsoft Teams adoption phase 1 - startup
+# Microsoft Teams adoption phase 1 - start
 
 You'll start your Teams adoption with the following activities:
 
@@ -27,9 +27,9 @@ You'll start your Teams adoption with the following activities:
 
 After your startup team is in place, continue phase 1 by completing the following tasks:
 
-1. [Understand teams and channels](teams-adoption-understand-teams-and-channels.md).
-2. [Set up your first teams on Teams](your-first-teams.md) to build your technical knowledge.
-3. [Assess your organization's readiness for change](teams-adoption-assess-readiness.md).
+- [Understand teams and channels](teams-adoption-understand-teams-and-channels.md).
+- [Set up your first teams on Teams](your-first-teams.md) to build your technical knowledge.
+- [Assess your organization's readiness for change](teams-adoption-assess-readiness.md).
 
 The primary goal of this phase is to ensure your readiness for the experimentation phase. You will also determine if you need assistance from Microsoft or from our network of skilled partners.  
 
@@ -53,8 +53,8 @@ The table below lists the core roles for your project team. In a smaller organiz
 | Communication Lead<sup>2</sup> | Oversee company-wide communications about Teams. | Corporate Communications, IT, or other |
 | Community Manager | Manage day-to-day Yammer network activity. Provide guidance and best practices. | Multiple departments |
 
-<sup>1</sup>These roles are essential to the success of your project.
-<sup>2</sup>These roles are key to the overall program success.
+<sup>1</sup>These roles are essential to the success of your project.</br>
+<sup>2</sup>These roles are important for the overall program success.
 
 In most cases, this initial team should be a small group of like-minded people who are interested in Teams and may also be accountable for its implementation. As your adoption plan moves on to additional phases, you will include more people in your team. We also suggest that you take advantage of the Microsoft resources that are available to assist you. 
 
