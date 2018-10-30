@@ -3,7 +3,7 @@ title: Use inline message translation in Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/16/2018
+ms.date: 10/30/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -35,9 +35,9 @@ You can turn on the inline message translation feature by using the Messaging Po
 1. Turn on the policy by using the [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) cmdlet.
 2. The policy takes a few minutes to apply. Users might need to sign out and sign back in to Teams.
 
-## Enable by using the Teams Admin Center
+## Enable by using the Microsoft Teams & Skype for Business Admin Center
 
-The option to turn on the inline message translation feature by using the Teams Admin Center is coming soon.
+The option to turn on the inline message translation feature using the Microsoft Teams & Skype for Business Admin Center is coming soon.
 
 > [!NOTE]
 >Translation is strictly client-side and has no effect on the content captured in the compliance records. To learn more about translation, see [What is Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).
