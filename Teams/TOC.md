@@ -69,11 +69,11 @@
 # [Adopt](adopt-microsoft-teams-landing-page.md)
 
 ## [Get started](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-get-started?branch=v-sharos-adoption)
-## [Phase 1 - Start](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-phase1?branch=v-sharos-adoption)
+## [Phase 1 - start](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-phase1?branch=v-sharos-adoption)
 ### [Understand teams and channels](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-understand-teams-and-channel?branch=v-sharos-adoptions)
 ### [Your first teams](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-your-first-teams?branch=v-sharos-adoption)
 ### [Assess your cultural and organizational readiness](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-assess-readiness?branch=v-sharos-adoption)
-## [Phase 2 - Experiment](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-phase2-experiment?branch=v-sharos-adoption)
+## [Phase 2 - experiment](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-phase2-experiment?branch=v-sharos-adoption)
 ### [Create your champions program](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-create-champions-program?branch=v-sharos-adoption)
 ### [Governance quick start](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-governance-quick-start?branch=v-sharos-adoption)
 ### [Define usage scenarios and select early adopters](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-define-usage-scenarios?branch=v-sharos-adoption)
