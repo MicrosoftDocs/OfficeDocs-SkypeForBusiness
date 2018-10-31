@@ -579,7 +579,11 @@
 #### [Two-factor authentication](../manage/authentication/two-factor-authentication.md)
 ##### [Configure two-factor authentication](../manage/authentication/configure-two-factor.md)
 ##### [Use two-factor authentication](../manage/authentication/use-two-factor.md)
+
+### [Enhanced 9-1-1 and the Location service](enhanced-9-1-1-and-location-service.md)
+
 ### [Video based Screen Sharing](../manage/video-based-screen-sharing.md)
+
 <!-- ### [Skype Room Systems v2](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### [Known issues](../manage/skype-room-systems-v2/known-issues.md)
 #### [OMS](../manage/skype-room-systems-v2/oms.md)
