@@ -1,9 +1,9 @@
 ---
-title: Assess your cultural and organizational readiness for Microsoft Teams
+title: How ready is your organization for Microsoft Teams?
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/29/2018
+ms.date: 10/31/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,7 +18,7 @@ appliesto:
 ---
 
 
-# Assess your cultural and organizational readiness for Microsoft Teams
+# How ready is your organization for Microsoft Teams?
 
 Now that your project team has come together and you are beginning to see what Teams can do for your organization, it's important to assess your organization’s readiness for the Teams transition. To assess your readiness, you will need to:
 
@@ -64,7 +64,7 @@ Change is a human process that has nothing to do with technology. There is behav
 
 ![Resistance to change](media/teams-adoption-resistance.png)
 
-Every organization has a cultural approach to change. In fact, your organization may have several, depending on region, work style, professional profile, and other elements of the organization. To assess your organization's readiness, see [Assess organizational chenge readiness](upgrade-org-change-readiness.md). Use the guidelines to answer the following questions:
+Every organization approaches change differently, depending on region, work style, professional profile, and other elements of the organization. To assess your organization's readiness, see [Assess organizational chenge readiness](upgrade-org-change-readiness.md). Use the guidelines to answer the following questions:
 
 1. What percentage of users fall into each bucket? (*Change resistance*)
     - **Early adopters**: request the solution before it's available.
