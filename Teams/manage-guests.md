@@ -32,3 +32,6 @@ In addition, you can use the Azure Active Directory portal to manage guests and 
 > [!NOTE]
 > Microsoft Teams always honors Azure Active Directory external settings to allow or prevent guest user addition to the tenant. For more details, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
   
+## Guest access latencies
+
+After guest access is configured, it can take up to 2 hours for a tenant to appear available to the user. Other changes to guest access completed through the admin portal can take up to 24 hours to replicate.
