@@ -48,9 +48,9 @@ Organizations using Teams can provide external access to teams, documents in cha
 
 Guest access differs from external access (also known as federation) as follows:
 
--	With guest access, a guest user has access to a specific Teams team that the user is invited into, and can access team-specific resources such as channels and files. The guest user can also chat with members of the team.
+-	With guest access, a guest user has access to a specific Teams team that the user is invited into, and can access team-specific resources such as channels and files. The guest user can also chat with and call members of the team.
 
--	With federation or external access, an external user can have 1:1 chats and calls with a user in another organization by using either Teams or Skype for Business. The federated user cannot access any team resources. Compared to guest access, external access allows cross organization communication (if permitted by policies) without an explicit invitation, but is limited to chat only.
+-	With federation or external access, an external user can have 1:1 chats and calls with a user in another organization by using either Teams or Skype for Business. The federated user cannot access any team resources. Compared to guest access, external access allows cross organization communication (if permitted by policies) without an explicit invitation, but is limited to chat and call only.
 
 ## Teams and Office 365 Groups
 
