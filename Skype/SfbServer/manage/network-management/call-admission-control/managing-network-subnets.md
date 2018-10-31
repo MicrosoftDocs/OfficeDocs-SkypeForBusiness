@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'Managing network subnets'
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -7,7 +7,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: ""
+description: "In most deployments of Skype for Business Server where call admission control (CAC) is implemented, there will typically be a large number of subnets. Because of this, it is often best to configure subnets from the Skype for Business Server Management Shell."
 ---
 
 # Managing network subnets in Skype for Business Server
@@ -18,42 +18,30 @@ Use the sections in this article to view network subnet information or create, m
 
 ## View network subnet information 
 
-You can use the following procedure to view a network subnet. From the Lync Server Control Panel, you can create, modify, or delete a network subnet. For details about creating or modifying network subnets, see [Create or modify network subnets in Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md).
-
-<div>
+You can use the following procedure to view a network subnet. From the Skype for Business Server Control Panel, you can create, modify, or delete a network subnet. 
 
 ### To view a network subnet
 
 1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.
 
-2.  Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel. For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
 3.  In the left navigation bar, click **Network Configuration** and then click **Subnet**.
 
 4.  On the **Subnet** page, click the subnet that you want to view.
-    
-    <div>
-    
-
+ 
     > [!NOTE]  
     > You can only view one subnet at a time.
 
-    
-    </div>
-
 5.  On the **Edit** menu, click **Show details…**.
-
-
 
 ### Viewing Network Subnet Configuration Information by Using Windows PowerShell Cmdlets
 
-Network subnet information can be viewed by using Windows PowerShell and the Get-CsNetworkSubnet cmdlet. This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell. For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
-
-<div>
+Network subnet information can be viewed by using Windows PowerShell and the Get-CsNetworkSubnet cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. 
 
 ### To view network subnet information
 
-  - To view information about all your network subnets, type the following command in the Lync Server Management Shell and then press ENTER:
+  - To view information about all your network subnets, type the following command in the Skype for Business Server Management Shell and then press ENTER:
     
         Get-CsNetworkSubnet
     
@@ -66,23 +54,21 @@ Network subnet information can be viewed by using Windows PowerShell and the Get
         SubnetID      : 172.11.15.0
 
 
-
 For more information, see the help topic for the [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) cmdlet.
 
 
 ## Create or modify network subnets 
 
-A network subnet must be associated with a network site for the purposes of determining the geographic location of the host belonging to this subnet. You can use Lync Server Control Panel to configure subnets. From the Lync Server Control Panel, you can create, modify, or delete a network subnet. For details about deleting network subnets, see [Deleting network subnets in Lync Server 2013](lync-server-2013-deleting-network-subnets.md).
+A network subnet must be associated with a network site for the purposes of determining the geographic location of the host belonging to this subnet. You can use the Skype for Business Server Control Panel to configure subnets. From the Skype for Business Server Control Panel, you can create, modify, or delete a network subnet. 
 
-In most deployments of Microsoft Lync Server 2013 where call admission control (CAC) is implemented, there will typically be a large number of subnets. Because of this, it is often best to configure subnets from the Lync Server Management Shell. From there you can call **New-CsNetworkSubnet** in conjunction with the Windows PowerShell cmdlet **Import-CSV**. By using these cmdlets together, you can read in subnet settings from a comma-separated values (.csv) file and create multiple subnets at the same time. For examples of how to create subnets from a .csv file, see [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).
+In most deployments of Skype for Business Server where call admission control (CAC) is implemented, there will typically be a large number of subnets. Because of this, it is often best to configure subnets from the Skype for Business Server Management Shell. From there you can call **New-CsNetworkSubnet** in conjunction with the Windows PowerShell cmdlet **Import-CSV**. By using these cmdlets together, you can read in subnet settings from a comma-separated values (.csv) file and create multiple subnets at the same time. For examples of how to create subnets from a .csv file, see [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).
 
-<div>
 
 ### To create a network subnet
 
 1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.
 
-2.  Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel. For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
 3.  In the left navigation bar, click **Network Configuration** and then click **Subnet**.
 
@@ -91,15 +77,9 @@ In most deployments of Microsoft Lync Server 2013 where call admission control (
 5.  In **New Subnet**, enter a value in the **Subnet ID** field. This must be an IP address (for example, 174.11.12.0), and it must be the first address in the IP address range defined by the subnet.
 
 6.  In the **Mask** field, enter a numeric value from 1 through 32.
-    
-    <div>
-    
 
     > [!NOTE]  
     > This value is the bitmask that is to be applied to the subnet being created.
-
-    
-    </div>
 
 7.  In **Network site ID**, select the site to which this subnet belongs.
 
@@ -107,15 +87,12 @@ In most deployments of Microsoft Lync Server 2013 where call admission control (
 
 9.  Click **Commit**.
 
-</div>
-
-<div>
 
 ### To modify a network subnet
 
 1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.
 
-2.  Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel. For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
 3.  In the left navigation bar, click **Network Configuration** and then click **Subnet**.
 
@@ -127,33 +104,25 @@ In most deployments of Microsoft Lync Server 2013 where call admission control (
 
 7.  Click **Commit**.
 
-
 ## Delete network subnets
 
-You can use the following procedure to delete a subnet. From the Lync Server Control Panel, you can create, modify, or delete a network subnet. For details on creating or modifying network subnets, see [Create or modify network subnets in Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md).
+You can use the following procedure to delete a subnet. From the Skype for Business Server Control Panel, you can create, modify, or delete a network subnet. 
 
-In most deployments of Microsoft Lync Server 2013 where call admission control (CAC) is implemented, there will typically be a large number of subnets. Because of this, it is often best to configure subnets from the Lync Server Management Shell. From there you can call **New-CsNetworkSubnet** in conjunction with the Windows PowerShell cmdlet **Import-CSV**. By using these cmdlets together, you can read in subnet settings from a comma-separated values (.csv) file and create multiple subnets at the same time. For examples of how to create subnets from a .csv file, see [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).
+In most deployments of Skype for Business Server where call admission control (CAC) is implemented, there will typically be a large number of subnets. Because of this, it is often best to configure subnets from the Skype for Business Server Management Shell. From there you can call **New-CsNetworkSubnet** in conjunction with the Windows PowerShell cmdlet **Import-CSV**. By using these cmdlets together, you can read in subnet settings from a comma-separated values (.csv) file and create multiple subnets at the same time. For examples of how to create subnets from a .csv file, see [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).
 
-<div>
 
 ### To delete a network subnet
 
 1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.
 
-2.  Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel. For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
 3.  In the left navigation bar, click **Network Configuration** and then click **Subnet**.
 
 4.  On the **Subnet** page, click the subnet that you want to delete.
-    
-    <div>
-    
-
+ 
     > [!NOTE]  
-    > You can delete more than one subnet at a time. To do this, press CTRL and select multiple subnets while holding down the CTRL key. Or, to select all subnets, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.
-
-    
-    </div>
+    > You can delete more than one subnet at a time. To do this, press CTRL and select multiple subnets while holding down the CTRL key. Or, to select all subnets, click **Select all** on the **Edit** menu.
 
 5.  On the **Edit** menu, click **Delete**.
 
@@ -163,6 +132,9 @@ In most deployments of Microsoft Lync Server 2013 where call admission control (
 ## See Also
 
 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)  
+
 [Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSubnet)  
+
 [Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSubnet)  
+
 [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet)  

@@ -1,5 +1,5 @@
 ---
-title: 'Enabling and disabling media bypass in Skype for Business Server'
+title: 'Enabling and disabling media bypass'
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -17,16 +17,16 @@ Use the procedures in this article to enable or disable media bypass by using th
 
 ## Enable network media bypass 
 
-Media bypass settings apply globally across a Microsoft Lync Server 2013 deployment. Media bypass allows calls to bypass the Mediation Server. For details about when to use Media bypass, see [Planning for media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) in the Planning section.
+Media bypass settings apply globally across a Skype for Business Server deployment. Media bypass allows calls to bypass the Mediation Server. For details about when to use Media bypass, see [Plan for media bypass](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
 
-You can enable and configure media bypass from the Lync Server Control Panel.
+You can enable and configure media bypass from the Skype for Business Server Control Panel.
 
 
 ### To enable and configure media bypass
 
 1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.
 
-2.  Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel. For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
 3.  In the left navigation bar, click **Network Configuration** and then click **Global**.
 
@@ -53,15 +53,14 @@ You can enable and configure media bypass from the Lync Server Control Panel.
 
 ## Disable network media bypass
 
-Media bypass settings apply globally across a Microsoft Lync Server 2013 deployment. Media bypass allows calls to bypass the Mediation Server. For details about when to use Media bypass, see [Planning for media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) in the Planning section.You can disable media bypass from the Lync Server Control Panel. For details on enabling and configuring medial bypass, see [Enabling network media bypass in Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)
+Media bypass settings apply globally across a Skype for Business Server deployment. Media bypass allows calls to bypass the Mediation Server. For details about when to use Media bypass, see [Plan for media bypass](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). You can disable media bypass from the Skype for Business Server Control Panel. 
 
-<div>
 
 ### To disable media bypass
 
 1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.
 
-2.  Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel. For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
 3.  In the left navigation bar, click **Network Configuration** and then click **Global**.
 
