@@ -111,7 +111,7 @@ You cannot modify the **Associated sites** on this page. The list of associated 
 
 A network region interconnects various parts of a network across multiple geographic areas. Every network region must be associated with a central site. The central site is the data center site on which the call admission control (CAC) bandwidth policy service is running. You can use the Skype for Business Server Control Panel to configure network regions. Network regions include settings that determine whether alternate paths through the Internet are allowed for audio and video connections. From the Skype for Business Server Control Panel, you can create, modify, or delete a network region. Use this topic to delete existing network regions. 
 
-## To delete a network region
+### To delete a network region
 
 1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.
 

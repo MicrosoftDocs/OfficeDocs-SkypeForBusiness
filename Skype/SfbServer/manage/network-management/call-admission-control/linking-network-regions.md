@@ -35,7 +35,7 @@ You can view links between two network regions as part of call admission control
 
 5.  From the **Edit** menu, select **Show details**.
 
-### Viewing Network Region Link Information by Using Windows PowerShell Cmdlets
+### View Network Region Link Information by Using Windows PowerShell Cmdlets
 
 You can view network region links by using Windows PowerShell and the **Get-CsNetworkRegionLink** cmdlet. You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. 
 
@@ -102,7 +102,7 @@ You can configure links between two network regions as part of call admission co
 7.  Click **Commit**.
 
 
-## Deleting network region links
+## Delete network region links
 
 You can configure links between two network regions as part of call admission control (CAC). Regions within a network are linked through physical wide area network (WAN) connectivity. You can use the Skype for Business Server Control Panel to delete an existing link between two network regions. 
 

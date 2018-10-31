@@ -35,7 +35,7 @@ You can use the following procedure to view a network subnet. From the Skype for
 
 5.  On the **Edit** menu, click **Show details…**.
 
-### Viewing Network Subnet Configuration Information by Using Windows PowerShell Cmdlets
+### View Network Subnet Configuration Information by Using Windows PowerShell Cmdlets
 
 Network subnet information can be viewed by using Windows PowerShell and the Get-CsNetworkSubnet cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. 
 

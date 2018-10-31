@@ -157,26 +157,6 @@ Network sites are the offices or locations configured within each region of a ca
 
 You cannot modify the **Associated Subnets** table on this page. The list of associated subnets is provided for reference so that you are aware of what subnets will be affected when you modify the site settings.
 
-### To delete a network site
-
-1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.
-
-2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
-
-3.  In the left navigation bar, click **Network Configuration** and then click **Site**.
-
-4.  On the **Site** page, click the site that you want to delete.
-
-    > [!NOTE]  
-    > You can delete more than one site at a time. To do this, press CTRL and select multiple sites while holding down the CTRL key. Or, to select all sites, click **Select all** on the **Edit** menu.
-
-
-5.  On the **Edit** menu, click **Delete**.
-
-6.  Click **OK**.
-    
-    > [!WARNING]  
-    > You cannot remove a network site if it is associated with a network subnet. If you attempt to remove a site associated with a subnet you will receive an error message. To see if a site is associated with any subnets, click the site and then click **Show details** on the **Edit** menu.
 
 ## Delete an existing network site
 
