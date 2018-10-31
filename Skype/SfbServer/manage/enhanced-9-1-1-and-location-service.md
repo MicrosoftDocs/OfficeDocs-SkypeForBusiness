@@ -16,7 +16,7 @@ description: "Skype for Business Server supports Enhanced 9-1-1 (E9-1-1) calling
 Skype for Business Server supports Enhanced 9-1-1 (E9-1-1) calling from Skype for Business clients. When you configure Skype for Business Server for E9-1-1, emergency calls placed from Skype for Business include Emergency Response Location (ERL) information from the Location Information service database. Use the procedures in this article to manage location policy.
 
 > [!Note]
-> For details on deploying advanced Enterprise Voice features, such as E9-1-1 and the Location Information service, see Deploying advanced Enterprise Voice features in Skype for Business Server.
+> For details on deploying advanced Enterprise Voice features, such as E9-1-1 and the Location Information service, see [Deploy advanced Enterprise Voice features in Skype for Business Server](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md).
 
 ## View location policy information 
 
