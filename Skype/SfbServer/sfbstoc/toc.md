@@ -536,7 +536,7 @@
 ##### [Configure user access for federation with a Skype for Business Online customer](../manage/federation-and-external-access/federation-support/configure-user-access-for-federation.md)
 ##### [Verify communications with a Skype for Business Online customer](../manage/federation-and-external-access/federation-support/verify-communications.md)
 ### Network
-#### [Manage Quality of Service (QoS)](../manage/network-management/qos/managing-quality-of-service-qos.md)
+#### [Quality of Service (QoS)](../manage/network-management/qos/managing-quality-of-service-qos.md)
 ##### [Enabling QoS for devices that are not based on Windows](../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md)
 ##### [Configuring port ranges for your Conferencing, Application, and Mediation servers](../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)
 ##### [Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers](../manage/network-management/qos/configuring-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers.md)
@@ -545,7 +545,9 @@
 ##### [Configuring port ranges for your clients](../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md)
 ##### [Configuring Quality of Service policies for clients running on Windows 10](../manage/network-management/qos/configuring-quality-of-service-policies-for-clients-running-on-windows-10.md)
 
-#### Manage call admission control
+#### [Network interfaces](../manage/network-management/viewing-network-interface-information.md)
+
+#### Call admission control
 ##### [Enabling call admission control in Skype for Business Server](../manage/network-management/call-admission-control/enabling-call-admission-control.md)
 ##### [Managing network bandwidth policy profiles in Skype for Business Server](../manage/network-management/call-admission-control/managing-network-bandwidth-policy-profiles.md)
 ##### [Managing network regions in Skype for Business Server](../manage/network-management/call-admission-control/managing-network-regions.md)
