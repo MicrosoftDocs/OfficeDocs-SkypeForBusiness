@@ -580,7 +580,7 @@
 ##### [Configure two-factor authentication](../manage/authentication/configure-two-factor.md)
 ##### [Use two-factor authentication](../manage/authentication/use-two-factor.md)
 
-### [Enhanced 9-1-1 and the Location service](enhanced-9-1-1-and-location-service.md)
+### [Enhanced 9-1-1 and the Location service](../manage/enhanced-9-1-1-and-location-service.md)
 
 ### [Video based Screen Sharing](../manage/video-based-screen-sharing.md)
 
