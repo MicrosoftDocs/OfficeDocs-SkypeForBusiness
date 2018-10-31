@@ -3,7 +3,7 @@ title: Define usage scenarios and select early adopters for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/29/2018
+ms.date: 10/31/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -42,7 +42,7 @@ To confirm the selection of these early projects we recommend meeting directly w
 - What methods of communication and collaboration are typically better received by your organization than others?
 - What is the process for drafting, distributing, and sharing information?
 
-## Map and prioritize business scenarios
+## Prioritize business scenarios
 
 To be sure that you have the right information about the business scenario, consider using the following format to document the scenario from the perspective of the employee completing the work and the business owner of the process. Both perspectives are required to craft a successful path forward.
 
