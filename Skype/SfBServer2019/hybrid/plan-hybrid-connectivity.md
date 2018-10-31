@@ -18,7 +18,7 @@ description: "Planning considerations for implementing hybrid connectivity betwe
 
 Read this topic to learn how to plan hybrid connectivity between Skype for Business Server and Teams or Skype for Business Online. Setting up hybrid connectivity is the first step in in moving your on-premises environment to the cloud.
 
-If you have an on-premises environment and are using Teams, users who are homed in Skype for Business on premises do not have the ability to interoperate with Skype for Business users, nor communicate with users in federated organizations. To gain this functionality in Teams, these users must be moved from Skype for Business on-premises to the cloud, which requires configuring Skype for Business hybrid mode. In addition, for the best experience, these users should be in Teams Only mode, which ensures all incoming calls and chats from any user land in the user’s Teams client.
+If you have on-premises Skype for Business users that are also using Teams (side by side), those users do not have the ability to interoperate with Skype for Business users from their Teams client, nor communicate with users in federated organizations, from their Teams client. To gain this functionality in Teams, these users must be moved from Skype for Business on-premises to the cloud, which requires configuring Skype for Business hybrid mode. In addition, for the best experience, these users should be in Teams Only mode, which ensures all incoming calls and chats from any user land in the user’s Teams client.
 
 Setting up hybrid connectivity and moving all users to the cloud is also required before you decommission your on-premises Skype for Business deployment.  With hybrid connectivity set up, you can choose to move your users to the cloud based on your schedule and business need. With Direct Routing, you can leverage your on-premises voice infrastructure while you move to the cloud and after your migration is complete.
 
@@ -79,59 +79,25 @@ After you configure hybrid connectivity, you can move users to Teams or Skype fo
 ## Topology requirements
 <a name="BKMK_Topology"> </a>
 
-To configure your deployment for hybrid with Teams or Skype for Business Online, you need to have one of the following supported topologies:
+To configure your deployment for hybrid with **Teams or Skype for Business Online**, you need to have one of the following supported topologies:
 
 - A Skype for Business Server 2019 deployment with all servers running Skype for Business Server 2019. 
-
 - A Skype for Business Server 2015 deployment with all servers running Skype for Business Server 2015.
+- A Lync Server 2013 deployment with all servers running Lync Server 2013.  However, if hybrid voice connectivity is required, you must use a mixed version topology as noted below.
+- A deployment with maximum of 2 different server versions as listed below:
+  - Skype for Business Server 2015 and Skype for Business Server 2019
+  - Lync Server 2013 and Skype for Business Server 2019
+  - Lync Server 2013 and Skype for Business Server 2015
 
-- A Lync Server 2013 deployment with all servers running Lync Server 2013.
+*If hybrid voice is desired in any topology*, both the edge server that is designated as the Federation Edge as well as the pool associated with SIP federation must be running Skype for Business 2015 or later. Users can remain on a Lync 2013 Pool if one exists. For more details, see [Plan Phone System with PSTN Connectivity in Skype for Business Server](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
 
-    For hybrid voice connectivity, the Edge Server that is designated as Federation Edge must be Skype for Business 2015; the Edge also requires a Skype for Business Server backend. You might have a pool with no users on it.
+The following topologies that include **Lync Server 2010 are supported with Skype for Business Online** for instant messaging and meetings.  Topologies that include **Lync Server 2010 are not supported for hybrid voice nor Teams**.
 
-- A mixed Lync Server 2015 and Skype for Business Server 2019 deployment with the following server roles: 
+- A mixed Lync Server 2010 and Skype for Business Server 2015 deployment
+- A mixed Lync Server 2010 and Lync Server 2013 deployment
+-	A Lync Server 2010 deployment with all servers running Lync Server 2010 with the latest cumulative updates.
+The federation Edge Server and next hop server from the federation Edge Server must be running Lync Server 2010 with the latest cumulative updates. The Skype for Business Server 2015 or Lync Server 2013 Administrative Tools must be installed on at least one server or management workstation.
 
-  - At least one Enterprise Pool or Standard Edition server 
-
-  - The Director Pool associated with SIP federation, if it exists 
-
-  - The Edge Pool associated with SIP federation 
-
-- A mixed Lync Server 2013 and Skype for Business Server 2019 deployment with the following server roles in at least one site running Skype for Business Server 2019: 
-
-  - At least one Enterprise Pool or Standard Edition server 
-  - The Director Pool associated with SIP federation, if it exists 
-  - The Edge Pool associated with SIP federation 
-
-- A mixed Lync Server 2013 and Skype for Business Server 2015 deployment with the following server roles in at least one site running Skype for Business Server 2015:
-
-  - At least one Enterprise Pool or Standard Edition server
-
-  - The Director Pool associated with SIP federation, if it exists
-
-  - The Edge Pool associated with SIP federation
-
-- A mixed Lync Server 2010 and Skype for Business Server 2015 deployment with the following server roles in at least one site running Skype for Business Server 2015:
-
-  - At least one Enterprise Pool or Standard Edition server
-
-  - The Director Pool associated with SIP federation, if it exists
-
-  - The Edge Pool associated with SIP federation for the Site
-
-- A mixed Lync Server 2010 and Lync Server 2013 deployment with the following server roles in at least one site running Lync Server 2013:
-
-  - At least one Enterprise Pool or Standard Edition server in the site
-
-  - The Director Pool associated with SIP federation, if it exists in the site
-
-  - The Edge Pool associated with SIP federation for the site
-
-- A Lync Server 2010 deployment with all servers running Lync Server 2010 with the latest cumulative updates.
-
-  - The federation Edge Server and next hop server from the federation Edge Server must be running Lync Server 2010 with the latest cumulative updates.
-
-  - The Skype for Business Server 2015 or Lync Server 2013 Administrative Tools must be installed on at least one server or management workstation.
 
 
  ## Multi-forest support
