@@ -99,7 +99,7 @@ Localize your custom presence state by specifying one or more locale ID (LCID) s
 
 5.  Use the **Grant-CSClientPolicy** cmdlet to assign this new policy to users.
 
-For details, see [New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy) and [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy) in the Lync Server Management Shell documentation.
+For details, see [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) and [Grant-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsClientPolicy) in the Lync Server Management Shell documentation.
 
 <div>
 

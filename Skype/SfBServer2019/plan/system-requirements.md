@@ -342,7 +342,7 @@ In this topology, there are one or more user forests, and Skype for Business Ser
   
 With this scenario, there are multiple forests on-premises, with a resource forest topology. There is a full trust relationship between the Active Directory forests. The Azure Active Directory Connect tool is used to synchronize accounts between the on-premises user forests and Office 365.
   
- The organization also has Office 365, and uses [Azure Active Directory Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect) to synchronize their on-premises accounts with Office 365. Users who are enabled for Skype for Business are enabled via Office 365 and Skype for Business Online. Skype for Business Server is not deployed on-premises.
+ The organization also has Office 365, and uses [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) to synchronize their on-premises accounts with Office 365. Users who are enabled for Skype for Business are enabled via Office 365 and Skype for Business Online. Skype for Business Server is not deployed on-premises.
   
 Single sign-on authentication is provided by an Active Directory Federation Services farm located in the user forest.
   

@@ -34,7 +34,7 @@ How you configure the unassigned number table depends on how you want to use it.
 
 
 > [!IMPORTANT]  
-> Before you configure the unassigned number table, you must already have either one or more announcements defined or an Exchange UM Auto Attendant set up. For details about creating announcements, see <A href="lync-server-2013-create-an-announcement.md">Create an announcement in Lync Server 2013</A>. To see if you have configured Exchange UM settings, run the <STRONG>Get-CsExUmContact</STRONG> cmdlet. For details, see <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</A>.
+> Before you configure the unassigned number table, you must already have either one or more announcements defined or an Exchange UM Auto Attendant set up. For details about creating announcements, see <A href="lync-server-2013-create-an-announcement.md">Create an announcement in Lync Server 2013</A>. To see if you have configured Exchange UM settings, run the <STRONG>Get-CsExUmContact</STRONG> cmdlet. For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</A>.
 
 
 

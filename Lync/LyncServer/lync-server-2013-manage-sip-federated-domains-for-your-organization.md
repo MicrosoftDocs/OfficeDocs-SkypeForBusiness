@@ -34,7 +34,7 @@ To manage and configure SIP domains that you can federate with, you can do the f
 
   - Create or edit a blocked domain list of SIP federated domains.
 
-To perform these tasks, use the procedures in this this section.
+To perform these tasks, use the procedures in this section.
 
 <div>
 
