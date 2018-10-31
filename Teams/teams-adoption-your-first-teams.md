@@ -19,7 +19,35 @@ appliesto:
 
 # Create your first teams in Microsoft Teams
 
-The best way to drive adoption of Teams is to use the product. We recommend that you manage your Office 365 deployment with Teams. You should also create a community of employees who are focused on teamwork and productivity. (These initial teams may change over time.) The table below shows the suggested team structure.
+The best way to drive adoption of Teams is to use the product. We recommend that you manage your Office 365 deployment with Teams. You should also create a community of employees who are focused on teamwork and productivity. (These initial teams may change over time.) Here are our suggestions for your first teams.
+
+## Create a "Getting to know Teams" team
+
+We believe that your initial project team would benefit from a “Getting to know Teams” team, to ensure that they are set up from a client perspective, have a few great initial conversations, and explore what Teams could do for them. In addition to your project team, you may already have a group of people in the company who enjoy getting early access to new capabilities. This can be one of their initial teams when you bring them on board, and will help you to immediately start getting feedback.
+
+You and your team should use the notification tools to monitor all channels and make sure that new members feel welcome.
+
+| Channel name | Use and initial text | Tabs, bots, and apps |
+| ------------ | -------------------- | -------------------- |
+| General | Welcome to Teams. This team will help you get to know Teams, ensure that you are set up from a client perspective, have a few great initial conversations, and explore what Teams can do for you. | None |
+| Say Hi | Introduce yourself to the team and share what you want to get from Teams. | None |
+| How do I ? | A channel to ask how to questions.</br>Step 1 – install the desktop and mobile clients.</br>Step 2 – jump into Teams.| Pinned tab that links to the [Microsoft Teams help center](https://support.office.com/teams)</br>Pinned tab that links to end user training videos</br>Pinned tab that links to client installation page |
+| Feedback | Share your thoughts on your initial Teams experiences | Pinned tab with Polly Poll|
+| Ideas for future teams | Share your thoughts on where Teams can drive additional value in your company. What could these teams be called? Who would be members? ||
+| Support | If something is not working as expected use this channel to share your experience and get answers ||
+
+As you create these teams, use an invitation email to invite people to the team and tell them what to expect. For example:
+
+    Welcome to Microsoft Teams for <insert_company_name>. 
+
+    We have recently started the rollout of Teams. We created a team so that you and your colleagues can experiment, ask questions, and see the possibilities of Teams.
+
+    Join in by clicking this link <<Link to your Getting to Know Teams team>>
+
+
+In addition to this “Getting to Know Teams” team, we suggest creating teams for both your project team and your teamwork champions. These teams will be essential to your success as you begin to experiment with the product. Our suggested structure for those teams is as follows:  
+
+
 
 | Team Name | Proposed Channel Names |
 | --------- | ---------------------- |
