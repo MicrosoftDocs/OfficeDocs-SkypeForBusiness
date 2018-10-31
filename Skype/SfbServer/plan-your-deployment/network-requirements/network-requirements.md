@@ -259,15 +259,15 @@ Skype for Business Server offers full support for QoS: that means that organizat
 
 - [Configuring port ranges in Skype for Business Server for your Conferencing, Application, and Mediation servers](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md). You must reserve a unique set of ports for different packet types, such as audio and video. By using Skype for Business Server you do not enable or disable QoS by setting a property value to True or to False. Instead, you enable QoS by configuring port ranges and then creating and applying Group Policy. If you later decide not to use QoS you can "disable" QoS by removing the appropriate Group Policy objects.
 
-- [Configuring port ranges for your Edge Servers](../../configuring-port-ranges-for-your-edge-servers.md). Although not required, you can configure your Edge servers to use the same port ranges as your other servers.
+- [Configuring port ranges for your Edge Servers](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md). Although not required, you can configure your Edge servers to use the same port ranges as your other servers.
 
-- [Configuring port ranges for your clients](../../configuring-port-ranges-for-your-skype-clients.md). These port ranges apply only to client computers and are typically different from the port ranges configured on your servers.
+- [Configuring port ranges for your client](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md). These port ranges apply only to client computers and are typically different from the port ranges configured on your servers.
 
-- [Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers](../../configuring-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers.md). These policies determine the DSCP codes applied to different packet types.
+- [Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers](../../manage/network-management/qos/configuring-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers.md). These policies determine the DSCP codes applied to different packet types.
 
-- [Configuring a Quality of Service policy for your A/V Edge Servers](../../configuring-a-quality-of-service-policy-for-your-a-v-edge-servers.md). This should only be done for the internal side of your Edge servers. That's because QoS is designed for use on your internal network and not on the Internet.
+- [Configuring a Quality of Service policy for your A/V Edge Servers](../../manage/network-management/qos/configuring-a-quality-of-service-policy-for-your-a-v-edge-servers.md). This should only be done for the internal side of your Edge servers. That's because QoS is designed for use on your internal network and not on the Internet.
 
-- [Configuring Quality of Service policies for clients running on Windows 10](../../configuring-quality-of-service-policies-for-clients-running-on-windows-10.md). Note that Skype for Business Server does not support QoS for other Windows operating systems, such as Windows Vista or Windows XP.
+- [Configuring Quality of Service policies for clients running on Windows 10](../../manage/network-management/qos/configuring-quality-of-service-policies-for-clients-running-on-windows-10.md). Note that Skype for Business Server does not support QoS for other Windows operating systems, such as Windows Vista or Windows XP.
 
 
 > [!NOTE]

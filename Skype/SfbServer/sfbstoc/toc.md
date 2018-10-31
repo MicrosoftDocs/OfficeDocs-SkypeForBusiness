@@ -545,15 +545,15 @@
 ##### [Configuring port ranges for your clients](../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md)
 ##### [Configuring Quality of Service policies for clients running on Windows 10](../manage/network-management/qos/configuring-quality-of-service-policies-for-clients-running-on-windows-10.md)
 
-### Manage call admission control
-#### [Enabling call admission control in Skype for Business Server](../manage/network-management/call-admission-control/enabling-call-admission-control.md)
-#### [Managing network bandwidth policy profiles in Skype for Business Server](../manage/network-management/call-admission-control/managing-network-bandwidth-policy-profiles.md)
-#### [Managing network regions in Skype for Business Server](../manage/network-management/call-admission-control/managing-network-regions.md)
-#### [Managing network region routes in Skype for Business Server](../manage/network-management/call-admission-control/managing-network-region-routes.md)
-#### [Managing call admission control for sites in Skype for Business Server](../manage/network-management/call-admission-control/managing-call-admission-control-for-sites.md)
-#### [Enabling and disabling media bypass in Skype for Business Server](../manage/network-management/call-admission-control/enabling-and-disabling-media-bypass.md)
-#### [Linking network regions in Skype for Business Server](../manage/network-management/call-admission-control/linking-network-regions.md)
-#### [Managing network subnets in Skype for Business Server](../manage/network-management/call-admission-control/managing-network-subnets.md)
+#### Manage call admission control
+##### [Enabling call admission control in Skype for Business Server](../manage/network-management/call-admission-control/enabling-call-admission-control.md)
+##### [Managing network bandwidth policy profiles in Skype for Business Server](../manage/network-management/call-admission-control/managing-network-bandwidth-policy-profiles.md)
+##### [Managing network regions in Skype for Business Server](../manage/network-management/call-admission-control/managing-network-regions.md)
+##### [Managing network region routes in Skype for Business Server](../manage/network-management/call-admission-control/managing-network-region-routes.md)
+##### [Managing call admission control for sites in Skype for Business Server](../manage/network-management/call-admission-control/managing-call-admission-control-for-sites.md)
+##### [Enabling and disabling media bypass in Skype for Business Server](../manage/network-management/call-admission-control/enabling-and-disabling-media-bypass.md)
+##### [Linking network regions in Skype for Business Server](../manage/network-management/call-admission-control/linking-network-regions.md)
+##### [Managing network subnets in Skype for Business Server](../manage/network-management/call-admission-control/managing-network-subnets.md)
 
 ### [Authentication](../manage/authentication/authentication.md)
 #### [Use ADAL](../manage/authentication/use-adal.md)
