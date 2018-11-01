@@ -72,7 +72,7 @@ Lync call delegation enables users to delegate call handling to one or more assi
 
 
 > [!IMPORTANT]  
-> You may be looking for another similarly named feature, Lync calendar delegation. It doesn't require the Enterprise Voice feature and does allow users to schedule online Lync meetings from Outlook. If you've come here looking for that info, we recommend checking out <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A> for information on enabling Exchange delegate sync.
+> You may be looking for another similarly named feature, Lync calendar delegation. It doesn't require the Enterprise Voice feature and does allow users to schedule online Lync meetings from Outlook. If you've come here looking for that info, we recommend checking out <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A> for information on enabling Exchange delegate sync.
 
 
 

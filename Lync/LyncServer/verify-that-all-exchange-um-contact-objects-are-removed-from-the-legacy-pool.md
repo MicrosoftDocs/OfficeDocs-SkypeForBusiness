@@ -36,7 +36,7 @@ Use either the **OCSUmUtil** tool or the **Get-CsExumContact** cmdlet to verify 
 
   - Domain rights to create contact objects in the specified organizational unit (OU) container
 
-For details about using the **Get-CsExumContact** cmdlet, see [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact) in the Lync Server Management Shell documentation.
+For details about using the **Get-CsExumContact** cmdlet, see [Get-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) in the Lync Server Management Shell documentation.
 
 </div>
 
