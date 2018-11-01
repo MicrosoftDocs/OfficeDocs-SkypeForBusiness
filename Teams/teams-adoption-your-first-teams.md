@@ -3,7 +3,7 @@ title: Create your first teams in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/31/2018
+ms.date: 11/01/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
