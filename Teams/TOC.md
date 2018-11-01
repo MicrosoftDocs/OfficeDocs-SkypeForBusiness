@@ -40,7 +40,7 @@
 ### [Create your champions program](teams-adoption-create-champions-program.md)
 ### [Governance quick start](teams-adoption-governance-quick-start.md)
 ### [Define usage scenarios and select early adopters](teams-adoption-define-usage-scenarios.md)
-## Phase 3 - enable
+## Phase 3 - scale
 ### [Choose your adoption path for Microsoft Teams](teams-adoption-phase3-enable.md)
 <!-- ============================================================ -->
 
