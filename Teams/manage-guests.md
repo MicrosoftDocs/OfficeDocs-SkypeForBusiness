@@ -34,4 +34,4 @@ In addition, you can use the Azure Active Directory portal to manage guests and 
   
 ## Guest access latencies
 
-After guest access is configured, it can take up to 2 hours for a tenant to appear available to the user. Other changes to guest access completed through the admin portal can take up to 24 hours to replicate.
+The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hours for the changes to be effective across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been enabled or the settings aren't effective yet.
