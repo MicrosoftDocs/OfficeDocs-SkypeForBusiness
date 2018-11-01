@@ -3,7 +3,7 @@ title: Get started driving adoption of Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/24/2018
+ms.date: 11/01/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -40,7 +40,7 @@ In this Teams adoption plan, we've organized the steps in phases and provided sp
 
 Every adoption project varies in size and complexity based on your environment, but the initial steps are identical across the board. We believe that breaking the process down into three distinct phases—startup, experiment, and enable—will streamline adoption for everyone.  
 
-- **Startup** - In this first phase, you'll gather your team together, set up your initial teams, and use Teams to begin planning Teams adoption. This approach will increase your technical familiarity with the product and help you to build the skills necessary to successfully complete subsequent phases. 
+- **Start** - In this first phase, you'll gather your team together, set up your initial teams, and use Teams to begin planning Teams adoption. This approach will increase your technical familiarity with the product and help you to build the skills necessary to successfully complete subsequent phases. 
 
 - **Experiment** - In this phase of controlled growth, you'll bring your internal champions and early adopters onboard. You'll speak with your business users to identify scenarios that would immediately benefit from the collaboration and communications capabilities that Teams provides. You'll gather feedback that will inform your broad-scale adoption phase, and you'll make service decisions about governance and lifecycle management that will ensure a successful deployment.
 
