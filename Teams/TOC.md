@@ -24,7 +24,7 @@
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
-# Adoption
+# Adopt
 
 ## [Get started](teams-adoption-get-started.md)
 ## [Phase 1 - start](teams-adoption-phase1.md)
