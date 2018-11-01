@@ -56,7 +56,7 @@ You can use the Skype for Business Server Control Panel to view a list of the tr
 In the Skype for Business Server Control Panel, you can see the name of the applications, the pool where they run, and the port they use.
 
 
-## To view a list of trusted applications
+### To view a list of trusted applications
 
 1.  From a user account that is assigned to the CsServerAdministrator, CsAdministrator, CsHelpDesk, or CsViewOnlyAdministrator role, log on to any computer in your internal deployment. For details about the predefined administrative roles available in Skype for Business Server, see [Role-based access control (RBAC)](../plan-your-deployment/security/role-based-access-control-rbac.md).
 
@@ -72,9 +72,9 @@ In the Skype for Business Server Control Panel, you can see the name of the appl
 You can view information about your trusted applications by using Windows PowerShell and the **Get-CsTrustedApplication** cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. 
 
 
-## To view trusted applications
+### To view trusted applications
 
-  - To view all of your trusted applications, type the following command in the Skype for Business Server Management Shell and then press ENTER:
+To view all of your trusted applications, type the following command in the Skype for Business Server Management Shell and then press ENTER:
     
         Get-CsConferenceDisclaimer
     
