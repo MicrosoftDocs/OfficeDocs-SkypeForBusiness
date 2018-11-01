@@ -14,14 +14,14 @@ description: "Summary: Deploy the Skype for Business Web App and Skype Meetings 
 
 # Deploy Web downloadable clients in Skype for Business Server
 
-**Summary:** Deploy the Skype for Business 2015 Web App and Skype Meetings App used with Skype for Business Server 2015.
+**Summary:** Deploy the Skype for Business 2015 Web App and Skype Meetings App used with Skype for Business Server.
 
-Skype for Business Web App is an Internet Information Services (IIS) web client that is installed on the server running Skype for Business Server 2015 and by default it is deployed on demand to meeting users who do not already have the Skype for Business client. These meeting users are more often than not connecting from outside your network. Whenever a user clicks a meeting URL but does not have the Skype for Business client installed, the user is presented with the option to join the meeting by using the latest version of Skype for Business Web App or Skype Meetings App.
+Skype for Business Web App is an Internet Information Services (IIS) web client that is installed on the server running Skype for Business Server and by default it is deployed on demand to meeting users who do not already have the Skype for Business client. These meeting users are more often than not connecting from outside your network. Whenever a user clicks a meeting URL but does not have the Skype for Business client installed, the user is presented with the option to join the meeting by using the latest version of Skype for Business Web App or Skype Meetings App.
 
 The voice, video, and sharing features in Skype for Business Web App require a Microsoft ActiveX control that is used as a plugin by the user's browser. You can either install the ActiveX control in advance or allow users to install it when prompted, which happens the first time they use Skype for Business Web App or the first time they access a feature that requires the ActiveX control.
 
 > [!NOTE]
-> In Skype for Business Server 2015 Edge Server deployments, an HTTPS reverse proxy in the perimeter network is required for Skype for Business Web App client access. You must also publish simple URLs. For details, see [Setting Up Reverse Proxy Servers](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and [DNS requirements for simple URLs in Skype for Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
+> In Skype for Business Server Edge Server deployments, an HTTPS reverse proxy in the perimeter network is required for Skype for Business Web App client access. You must also publish simple URLs. For details, see [Setting Up Reverse Proxy Servers](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and [DNS requirements for simple URLs in Skype for Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
 
 ## Enable Multi-Factor Authentication for Skype for Business Web App
 <a name="MFA"> </a>
