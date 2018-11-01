@@ -162,7 +162,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>On-demand live training</h3>
-                         <p><a href="https://microsoftteams.eventbuilder.com/event/1772">#ThisisTeams - Understand how Teams can work for you</a></p>
+                         <p><a href="https://microsoftteams.eventbuilder.com/event/1772">#ThisisTeams - How Teams can work for you</a></p>
                     </div>
                 </div>
             </div>
