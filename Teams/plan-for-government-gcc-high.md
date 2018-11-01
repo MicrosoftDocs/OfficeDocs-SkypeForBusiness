@@ -68,15 +68,23 @@ To accommodate the requirements of our government cloud customers, there are som
 | ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether the Microsoft 365 Government - GCC High feature set meets your organization’s needs.</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Understand default security settings.</li></ul>|
 
-## Step 3. Apply for Microsoft 365 Government - GCC High
+## Step 3. Understand Microsoft 365 Government - GCC High default security settings.
+
+We recommend that you take time to carefully review your [admin and security settings](enable-features-office-365.md) before you modify them, and consider impacts on compliance before you make any changes to the default security settings.
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether you’ll modify any of the default Microsoft 365 Government - GCC High security settings, resolving to first understand the impacts of any changes you might make.</li></ul> |
+
+## Step 4. Apply for Microsoft 365 Government - GCC High
 
 Having decided that this service is right for your organization, start the process of [applying for this service](https://products.office.com/government/eligibility-validation).
 
-## Step 4. Plan for governance
+## Step 5. Plan for governance
 
 Determine your requirements for governance and how you can meet them. Go to [Plan for governance in Teams](plan-teams-governance.md) for more information.
 
-## Step 5. Deploy Teams for collaboration
+## Step 6. Deploy Teams for collaboration
 
 After you’ve been onboarded to Microsoft 365 Government – GCC High, you can follow the standard deployment approach of using [FastTrack](https://fasttrack.microsoft.com/fasttrack-faq) and your chosen partner to onboard the service.
 
