@@ -582,6 +582,8 @@
 
 ### [Enhanced 9-1-1 and the Location service](../manage/enhanced-9-1-1-and-location-service.md)
 
+### [Trusted applications](../manage/trusted-applications.md)
+
 ### [Video based Screen Sharing](../manage/video-based-screen-sharing.md)
 
 <!-- ### [Skype Room Systems v2](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
