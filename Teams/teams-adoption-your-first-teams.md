@@ -19,7 +19,9 @@ appliesto:
 
 # Create your first teams in Microsoft Teams
 
-The best way to drive adoption of Teams is to use the product. We recommend that you manage your Office 365 deployment with Teams. You should also create a community of employees who are focused on teamwork and productivity. (These initial teams may change over time.) Here are our suggestions for your first teams.
+The best way to drive adoption of Teams is to use the product. We recommend that you manage your Office 365 deployment with Teams. You should also create a community of employees who are focused on teamwork and productivity. (These initial teams may change over time.) 
+
+<!--Here are our suggestions for your first teams.
 
 ## Create a "Getting to know Teams" team
 
@@ -45,9 +47,9 @@ As you create these teams, use an invitation email to invite people to the team 
     Join in by clicking this link <<Link to your Getting to Know Teams team>>
 
 
-In addition to this “Getting to Know Teams” team, we suggest creating teams for both your project team and your teamwork champions. These teams will be essential to your success as you begin to experiment with the product. Our suggested structure for those teams is as follows:  
+In addition to this “Getting to Know Teams” team, we suggest creating teams for both your project team and your teamwork champions. These teams will be essential to your success as you begin to experiment with the product. Our suggested structure for those teams is as follows:  -->
 
-
+We suggest the following team structure:
 
 | Team Name | Proposed Channel Names |
 | --------- | ---------------------- |
@@ -58,11 +60,12 @@ Within Microsoft Teams, the [tab gallery](https://docs.microsoft.com/en-us/micro
 
 ![Default and custom tabs](media/teams-adoption-tab-example.png)
 
-In your initial teams, we suggest pinning the following items for easy reference in your team channels. These assets are in addition to your OneNote notebook sections. If you are working with our FastTrack team, they will assist you in configuring these first teams. 
+In your initial teams, we suggest pinning the following items for easy reference in your team channels. These assets are in addition to your OneNote notebook sections. If you're working with our FastTrack team, they will assist you in configuring these first teams. 
 
 |Team/Channel Name | Pinned Tab |
 |----------------- | ---------- |
-| Microsoft Teams Deployment/General | Web tab: [Teams documentation](microsoft-teams.md) |
+| **Microsoft Teams Deployment** ||
+| General | Web tab: [Teams documentation](microsoft-teams.md) |
 | Awareness and Adoption | [Teams Adoption Hub](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
 | Business engagement | Wiki – Engagement guidance<br/>Form – Request for Teams consultation<br/>List – Engagement requests |
 |Early Adopters | Pinned feedback community <br/> OneNote for FAQ and common themes |
@@ -70,7 +73,8 @@ In your initial teams, we suggest pinning the following items for easy reference
 | Security and Compliance | Microsoft Trust Portal <br/> [Security and Compliance documentation](security-compliance-overview.md)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | Strategy and Planning | Collaboration North Star PowerPoint <br/> Service Adoption Project Plan |
 | Training | Custom Learning Training Portal <br/> [Teams Online Training](https://aka.ms/TeamsTraining) |
-| Teamwork Champions/General | Use for program announcements <br/> Pin Champion Program Overview |
+| **Teamwork Champions**||
+| General | Use for program announcements <br/> Pin Champion Program Overview |
 | Best Practices | Best practices for Teams, Channels, and Chats PowerPoint <br/> Team Lifecycle |
 | Champion Corner | Meeting notes and presentations |
 | Social Hub | RSS connector: Teams blog and Driving Adoption blog |
