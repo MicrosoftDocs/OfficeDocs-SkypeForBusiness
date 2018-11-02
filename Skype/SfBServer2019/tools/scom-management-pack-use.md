@@ -175,13 +175,13 @@ The following Table shows the health states of objects the Skype for Business Se
 |Skype for Business Server Port Watcher  <br/> |An instance of Port checks running against one pool.  <br/> |
 |Simple URL Watcher  <br/> |Performs HTTPS probing of the configured simple URLs in a deployment.  <br/> |
    
-![SCOM Rollup](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
+![SCOM Rollup](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
 A Skype for Business Server pool can contain multiple individual Skype for Business Server systems (with more than one Skype for Business Server role, Skype for Business Server service, and Skype for Business Server component). Therefore, the failure of an individual server or component is less critical to the overall health of the Skype for Business Server pool, because other servers in the same pool can provide the application service to the client. The health will roll up on a percentage level to the Skype for Business Server pool. 
   
 The Skype for Business Server Pool Watcher performs synthetic transactions against a Skype for Business Server pool. Consecutive failure of one or more synthetic transactions (a process known as the consecutive polling interval) will roll up the critical health state to the pool level (worst of any synthetic transaction), as shown in the following diagram. 
   
-![SCOM Rollup consecutive polling](../../media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
+![SCOM Rollup consecutive polling](../../SfbServer/media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   
 ## Best Practice: Create a Management Pack for Customizations
 
