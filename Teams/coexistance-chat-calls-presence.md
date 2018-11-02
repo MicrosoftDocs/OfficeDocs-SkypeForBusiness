@@ -49,6 +49,7 @@ The below table captures in-tenant chat and call routing following recent change
 In summary, messages sent to TeamsOnly users will always land in Teams. Messages sent to SfB* users will always land in Skype for Business, if the conversation is possible as described above. Messages sent to Islands users will always land in the client from which they were originated.
 
 **Table 1: in-tenant new chat or call routing**
+
 | <br/> Mode   | From originator <br/> Client | <br/> SfB homed | <br/> Islands  | To Target <br/> SfB\*   | <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |--- |
 | Islands <br/>Islands <br/>Islands <br/>Islands<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>SfB <br/>Teams <br/>SfB <br/>SfB <br/>SfB <br/>Teams|Online<br/> Online<br/> On-prem<br/> On-prem<br/> Online<br/> On-prem<br/> Online|Teams <br/>SfB <br/>Teams <br/>SfB <br/>SfB <br/>SfB <br/>Teams | *SfB* <br/> SfB <br/> **NA** <br/>SfB <br/> SfB <br/>SfB <br/>*SfB* <br/>  | Teams <br/>*Teams* <br/>Teams <br/>*Teams* <br/> *Teams*  <br/>*Teams* <br/>Teams <br/> |
@@ -68,6 +69,7 @@ In summary, if the conversation is possible as described above, messages sent to
 The reason for this last point is that we cannot assume that a federated Skype for Business partner already uses Teams if they are in Islands mode. Islands is the default mode, however not all Islands users can be expected to run Teams. By routing to Skype for Business we ensure that no communication to an Islands user fails. If we routed to Teams, that communication could be missed if the target did not use Teams. Routing to Skype for Business ensures the message will always be received. The counterpart is that Note: current implementation of Teams federation is based upon Skype for Business federation, therefore it leverages the interoperability infrastructure (which requires the tenant of the originator to be either pure online or SfB hybrid) and provides a reduced set of capabilities compared to a native thread. We expect to provide native Teams to Teams federation in the future, at which point the thread will be native and provide full capabilities.
 
 **Table 2: federated new chat or call routing**
+
 | <br/>Mode   | From originator<br/> Client| <br/>SfB homed| <br/> Islands | To Target<br/> SfB\* | <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |--- |
 | Islands <br/>Islands <br/>Islands <br/>Islands<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>SfB <br/>Teams <br/>SfB <br/>SfB <br/>SfB <br/>Teams|Online<br/> Online<br/> On-prem<br/> On-prem<br/> Online<br/> On-prem<br/> Online| *SfB* <br/> SfB <br/> **NA** <br/>SfB <br/> SfB <br/>SfB <br/>SfB <br/> | *SfB* <br/> SfB <br/> **NA** <br/>SfB <br/> SfB <br/>SfB <br/>SfB <br/>  | Teams <br/>Teams <br/>**NA** <br/>*Teams <br/>Teams <br/>Teams* <br/>Teams <br/> |
@@ -124,6 +126,7 @@ Messages sent to TeamsOnly users will always land in Teams. Messages sent to SfB
 The table describes the Publisher’s presence that will be seen by a Watcher, depending on the mode of the Publisher and the client of the Watcher (for a new thread).
 
 **Table 3: in-tenant presence (new thread)**
+
 |Watcher <br/>Client |<br/>Islands |Publisher <br/>SfB\* |<br/>Teams Only|
 |--- |--- |--- |--- |
 |SfB <br/> Teams |SfB <br/>Teams | SfB <br/>SfB | Teams  <br/> Teams |
@@ -136,6 +139,7 @@ Since federated reachability is reflected in table 2 above, federated presence i
 The table describes the Publisher’s presence that will be seen by a Watcher, depending on the mode of the Publisher and the client of the Watcher (for a new thread). In practice the client of the Watcher makes no difference in federation at this stage.
 
 **Table 4: federated presence (new thread)**
+
 |Watcher <br/> Client | <br/> Islands  |Publisher <br/> SfB\* |<br/> Teams Only  |
 |--- |--- |--- |--- |
 |SfB <br/> Teams |SfB <br/> SfB | SfB <br/> SfB | Teams <br/> Teams |
