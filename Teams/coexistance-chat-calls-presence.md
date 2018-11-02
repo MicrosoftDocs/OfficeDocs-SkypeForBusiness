@@ -19,9 +19,11 @@ description:"This document describes the behavior of chat, call routing and pres
 # Overview
 
 Coexistence and interoperability between Skype for Business and Teams is defined in terms of TeamsUpgrade modes, described in [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
+
 Any given user will always be assigned a mode, either by default or explicitly by the administrator. The default value is “Islands”. Users upgraded to Teams have the mode of “TeamsOnly”. Please note that “Legacy” mode has been deprecated; users remaining on Legacy mode will be converted to Islands mode after November 15, 2018.
 
 ## Parameters relevant to routing
+
 The upgrade mode of the recipient is key in determining the behavior of chats, calls, and presence, both in-tenant (i.e. within a tenant) and federated (i.e. across tenants).
 
 Note that when the sender is using Teams, the routing decision is made when creating a new conversation thread.  Teams supports persistent threads. These threads are “native” for a Teams to Teams conversation in-tenant, “interop” for a Teams to Skype for business conversation in-tenant and “federated” for a federated conversation across tenants.
