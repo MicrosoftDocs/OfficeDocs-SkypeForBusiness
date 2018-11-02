@@ -13,7 +13,7 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-description:"This document describes the behavior of chat, call routing and presence between users of Teams and Skype for Business, both in-tenant and federated, based on assigned TeamsUpgrade modes. It includes routing optimizations,  presence behavior, as well as the change of default TeamsUpgrade mode from “Legacy” to “Islands” and the impending retirement of “Legacy”."
+description: "This document describes the behavior of chat, call routing and presence between users of Teams and Skype for Business, both in-tenant and federated, based on assigned TeamsUpgrade modes. It includes routing optimizations,  presence behavior, as well as the change of default TeamsUpgrade mode from “Legacy” to “Islands” and the impending retirement of “Legacy”."
 ---
 
 # Overview
@@ -49,7 +49,7 @@ The below table captures in-tenant chat and call routing following recent change
 In summary, messages sent to TeamsOnly users will always land in Teams. Messages sent to SfB* users will always land in Skype for Business, if the conversation is possible as described above. Messages sent to Islands users will always land in the client from which they were originated.
 
 **Table 1: in-tenant new chat or call routing**
-| <br/>Mode   | From originator<br/> Client| <br/>SfB homed| <br/> Islands  | To Target<br/> SfB\*   | <br/> TeamsOnly  |
+| <br/> Mode   | From originator <br/> Client | <br/> SfB homed | <br/> Islands  | To Target <br/> SfB\*   | <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |--- |
 | Islands <br/>Islands <br/>Islands <br/>Islands<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>SfB <br/>Teams <br/>SfB <br/>SfB <br/>SfB <br/>Teams|Online<br/> Online<br/> On-prem<br/> On-prem<br/> Online<br/> On-prem<br/> Online|Teams <br/>SfB <br/>Teams <br/>SfB <br/>SfB <br/>SfB <br/>Teams | *SfB* <br/> SfB <br/> **NA** <br/>SfB <br/> SfB <br/>SfB <br/>*SfB* <br/>  | Teams <br/>*Teams* <br/>Teams <br/>*Teams* <br/> *Teams*  <br/>*Teams* <br/>Teams <br/> |
 |  | | | | | |
