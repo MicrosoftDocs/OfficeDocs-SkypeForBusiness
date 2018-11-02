@@ -23,11 +23,11 @@ QoS is a mechanism you can use to prioritize certain types of network traffic th
 
 When you prioritize the traffic for real-time communications such as calls or shared meetings in Teams you can more reliably deliver a business-grade user experience. When you don't implement QoS, shared screens in meetings can freeze, video can pixellate and color shift, and voice calls can become choppy and difficult or impossible to understand. For QoS to be truly effective, consistent QoS settings need to be applied from end to end in your organization (user PCs, network switches, and routers to the cloud), because any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen shares.
 
-In most cases, the network connecting your enterprise to the cloud will be an unmanaged network internet connection where you won't be able to reliably set QoS. One option available to allow truly end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). We still recommend that you implement QoS on the portions of the end-to-end network you have control over, namely your on-premises network. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints in your existing deployment.
-
-![The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.")
+![The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.](media/Qos-in-Teams-Image1.png) 
 
 _Figure 1. The relationship between an organization’s networks and Office 365 services_
+
+In most cases, the network connecting your enterprise to the cloud will be an unmanaged network internet connection where you won't be able to reliably set QoS. One option available to allow truly end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). We still recommend that you implement QoS on the portions of the end-to-end network you have control over, namely your on-premises network. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints in your existing deployment.
 
 ## Prioritize Teams network traffic for QoS 
 
