@@ -1049,11 +1049,16 @@ The SEFAUtil tool can be run only on a computer that is a part of a Trusted Appl
 2. A trusted application needs to be defined in the topology for the SEFAUtil tool. To define SEFAUtil as a new trusted application, use the Skype for Business Server Management Shell and execute the following cmdlet:
 
    ```
-   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
+   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
    ```
 
     > [!NOTE]
     > A different port can be used if needed.
+    
+    > [!NOTE]
+    > Pool FQDN: The FQDN of the server or pool that will host the SEFAUtil application (usually a Skype for Business Front End server     > or pool).
+    > Pool Registrar FQDN: The FQDN of the Skype for Business Front End server or pool associated with this application pool.
+    > Pool Site: The Site ID of the site on which this pool is homed.
 
 3. The topology changes need to be enabled. Enabling the topology changes can be done via the Skype for Business Server Management Shell by executing the following cmdlet:
 
