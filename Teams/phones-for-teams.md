@@ -1,0 +1,122 @@
+---
+title: "Phones for Microsoft Teams"
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.reviewer: kponnus
+ms.topic: article
+ms.service: 
+- skype-for-business
+- msteams
+ms.audience: Admin
+appliesto:
+- Skype for Business 
+- Microsoft Teams
+localization_priority: Normal
+description: "This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams."
+---
+
+# Phones for Microsoft Teams
+
+Microsoft Teams supports a portfolio of desk phones for users who require a traditional phone experience. This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams. To get the latest and up-to-date information on Teams certified devices, go to p[Teams Marketplace](http://office.com/teamsdevices).
+
+## Teams certified IP phones
+To deliver a high-quality and reliable Microsoft Teams experience on phones, we are partnering and actively working with Yealink, Crestron, Polycom, and Audiocodes to develop and certify a wide portfolio of desk phones and conference room audio devices.
+
+## Microsoft Teams phones feature set
+
+A high-level set of features supported in Teams certified IP phones is available in the following table.
+
+
+|Features |Desk Phone (Personal Mode) |Conference Room Phone (Shared Mode)|
+|---------|---------|---------|
+|**Authentication** | |  |
+|Sign in with user credentials |  Yes | Yes|
+|Sign in using PC/Smartphone  | Yes |Yes|
+|Modern Authentication | Yes |Yes |
+|Phone lock/unlock | Yes |No |
+|**Calling** |  |  |
+|Incoming/Outgoing P2P calls | Yes  |Yes |
+|In-call controls via UI (Mute, hold/resume, transfer, end call)| Yes  |Yes |
+|PSTN calls| Yes  |Yes |
+|Visual Voicemail | Yes | No |
+|911 support  | Yes  |Yes |
+|**Calendar and Presence**|   | |
+|Calendar Access and Meeting Details|Yes |Yes|
+|Presence Integration |Yes|Yes|
+|Exchange Calendar Integration |Yes|Yes|
+|Contact Picture Integration  |Yes|Yes|
+|Corporate Directory Access | Yes|Yes|
+|Visual Voicemail |Yes |No|
+|**Meetings**|   ||
+|One-click Join for Meetings  | Yes  |Yes |
+|Join Skype for Business meetings | Yes  | Yes|
+|Meeting Call controls (Mute/unmute, hold/resume, hang up, add/remove participant)|Yes|Yes|
+|Meeting Details|Yes|No|
+
+We are working to continuously add features to help our users enhance their Teams experience on phones. The screen shots below illustrate some of the experiences we support today.
+
+## Sign-in experience
+
+When a user clicks the sign-in button in Teams, sign-in is started via the Company Portal. The user has the option to sign in by entering user credentials on the phone or by choosing to sign in from another device. If the user chooses to sign in from another device, the user can complete authentication from their PC or smartphone.
+
+**User sign-in with credentials**
+
+![Signing in with credentials](media/sign-in-with-credentials.jpg)
+
+**User sign-in via PC/smartphone**
+
+![Signing in with another device](media/sign-in-with-device.jpg)
+
+## Personal/shared mode
+
+After successful sign-in, the user can choose whether the device will be used for personal use or in a shared conference room.
+
+![The personl or shared account option](media/personal-vs-shared-mode.jpg)
+
+The Teams phone experience is optimized based on the user's selection.
+
+**Personal mode**
+
+![Account in personal mode](media/personal-mode.jpg)
+
+**Shared mode**
+
+![Account in shared mode](media/shared-mode.jpg)
+
+## Calling experience
+
+The Microsoft Teams user can lift the handset or press the speaker button to launch the dial pad on the calling screen. Alternatively, the user can use the hardware buttons (if available) to dial out a number.
+
+**On-screen dial pad**
+
+![The on-screen dial pad](media/on-screen-dial-pad.jpg)
+
+**Calling screen**
+
+![The calling screen](media/calling-screen.jpg)
+
+## Meeting experience
+
+The Microsoft Teams user can navigate to the meetings tab to view their meetings and use the **Join** button to join their Teams meetings.
+
+**Calendar view**
+
+![Meetings in calendar view](media/calendar-view.jpg)
+
+**Meeting join view**
+
+![A meeting in join view](media/meeting-join-view.jpg)
+
+
+## Voicemail
+
+The Microsoft Teams user can access their voicemail when they navigate to the **Voicemail** tab.
+
+![The Voicemail tab](media/voicemail-tab.jpg)
+
+## User sign-out
+
+The Teams phone user can choose to sign out by selecting the **Sign Out** option from the top left menu.
+
+![Signing out of Teams](media/teams-sign-out.jpg)
