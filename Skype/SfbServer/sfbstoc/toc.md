@@ -79,6 +79,8 @@
 #### [Move users from Skype for Business Online to on premises](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-skype-for-business-online-to-on-premises.md)
 #### [Configure a multi-forest environment for hybrid](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-a-multi-forest-environment-for-hybrid.md)
 ### [Integration with Exchange and SharePoint](../skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md)
+### [Cloud Consolidation for Teams and Skype for Business](../skype-for-business-hybrid-solutions/cloud-consolidation.md)
+### [Appendix: Detailed steps for cloud consolidation](../skype-for-business-hybrid-solutions/cloud-consolidation-appendix.md)
 ## [Plan your deployment](../plan-your-deployment/plan-your-deployment.md)
 ### [Topology Basics](../plan-your-deployment/topology-basics/topology-basics.md)
 #### [Reference topologies](../plan-your-deployment/topology-basics/reference-topologies.md)
