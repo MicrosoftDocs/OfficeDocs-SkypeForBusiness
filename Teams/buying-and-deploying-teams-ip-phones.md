@@ -48,3 +48,6 @@ Microsoft Teams licenses can be purchased as part of their [Office 365 subscript
 For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 
+## See also
+
+[Phones for Microsoft Teams](phones-for-teams.md)

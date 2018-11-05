@@ -120,3 +120,7 @@ The Microsoft Teams user can access their voicemail when they navigate to the **
 The Teams phone user can choose to sign out by selecting the **Sign Out** option from the top left menu.
 
 ![Signing out of Teams](media/teams-sign-out.jpg)
+
+## See also
+
+[Buying and deploying Microsoft Teams IP phones](buying-and-deploying-teams-ip-phones.md)
