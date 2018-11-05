@@ -18,7 +18,7 @@ description: "This article covers the list of phones that are certified for Micr
 
 # Phones for Microsoft Teams
 
-Microsoft Teams supports a portfolio of desk phones for users who require a traditional phone experience. This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams. To get the latest and up-to-date information on Teams certified devices, go to p[Teams Marketplace](http://office.com/teamsdevices).
+Microsoft Teams supports a portfolio of desk phones for users who require a traditional phone experience. This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams. To get the latest and up-to-date information on Teams certified devices, go to [Teams Marketplace](http://office.com/teamsdevices).
 
 ## Teams certified IP phones
 To deliver a high-quality and reliable Microsoft Teams experience on phones, we are partnering and actively working with Yealink, Crestron, Polycom, and Audiocodes to develop and certify a wide portfolio of desk phones and conference room audio devices.
