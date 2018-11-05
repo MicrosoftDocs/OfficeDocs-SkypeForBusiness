@@ -22,7 +22,7 @@ description: "This appendix includes detailed steps for cloud consolidation, inc
 
 # Appendix: Detailed steps for cloud consolidation
 
-This appendix includes detailed steps for cloud consolidation, including updating the edge certificate, disabling hybrid to complete migration to the cloud, and updating ADD Connect to include more than one forest. See [Cloud Consolidation for Teams and Skype for Business](cloud-consolidation.md)for more information.
+This appendix includes detailed steps for cloud consolidation, including updating the edge certificate, disabling hybrid to complete migration to the cloud, and updating ADD Connect to include more than one forest. See [Cloud Consolidation for Teams and Skype for Business](cloud-consolidation.md) for more information.
 
 ## Updating the edge certificate
 
