@@ -28,9 +28,9 @@ The disaster recovery procedures in this section assume the following:
 > <LI>
 > <P>Fail back all the users originally homed on P1 from P2 to P1 using the failback cmdlet. In this case, the *PoolFQDN* is P1’s FQDN.</P>
 > <LI>
-> <P>Fail over all the users originally homed on P2 to P1 using the failover cmdlet. In this case, the *PoolFQDN* is P2’s FQDN.</P>
+> <P>Fail over all the users originally homed on P2 to P1 using the failover cmdlet. In this case, the PoolFQDN is P2’s FQDN.</P>
 > <LI>
-> <P>If the administrator later wants to fail back those P2 users back to P2, the *PoolFQDN* is P2’s FQDN.</P></LI></OL>Note that step 1 above must be performed before step 2 to preserve pool integrity. If you try step 2 before step 1, the step 2 cmdlet will fail.
+> <P>If the administrator later wants to fail back those P2 users back to P2, the PoolFQDN is P2’s FQDN.</P></LI></OL>Note that step 1 above must be performed before step 2 to preserve pool integrity. If you try step 2 before step 1, the step 2 cmdlet will fail.
 
 
 ## See Also
