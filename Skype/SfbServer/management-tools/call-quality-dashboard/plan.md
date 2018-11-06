@@ -232,6 +232,8 @@ The following operating systems are required for CQD:
 - Windows Server 2012 with IIS 8.0
     
 - Windows Server 2012 R2 with IIS 8.5
+
+- Windows Server 2016 with IIS
     
 The following are the required IIS role services (in hierarchical order):
   
@@ -283,6 +285,8 @@ The following versions of SQL Server are supported:
 - SQL Server 2012
     
 - SQL Server 2014
+
+- SQL Server 2016
     
 Business Intelligence or Enterprise edition is recommended for performance reasons. These editions allow use of multiple partition files that can be processed in parallel, which is beneficial for processing data spanning multiple months or longer. 
   
