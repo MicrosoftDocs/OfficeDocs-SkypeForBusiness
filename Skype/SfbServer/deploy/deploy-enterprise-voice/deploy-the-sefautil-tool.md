@@ -42,6 +42,10 @@ SEFAUtil requires the local configuration store to be present, as well as a cert
    ```
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
+    > [!NOTE]
+    > Pool FQDN: The FQDN of the server or pool that will host the SEFAUtil application (usually a Skype for Business Front End server or pool).
+    > Pool Registrar FQDN: The FQDN of the Skype for Business Front End server or pool associated with this application pool.
+    > Pool Site: The Site ID of the site on which this pool is homed.
 
 4. Define the SEFAUtil tool as a trusted application. At the command line, run:
     
