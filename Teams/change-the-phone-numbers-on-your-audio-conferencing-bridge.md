@@ -47,6 +47,10 @@ In addition to the phone numbers already assigned to your conferencing bridge, y
 
 4. On the **Assign** page, click **Save**.
 
+### Step 2 - Change the default phone number of your conference bridge (optional)
+
+The default phone number of your conference bridge defines the caller ID that will be used when an outbound call is placed by a participant or the organizer from within a meeting.
+
 Only a service toll number can be set as the default number for your conferencing bridge; **service toll-free numbers can't be set as the default number of your conferencing bridge**. If you are assigning a service toll number and you would like to set it as the new default number for your audio conferencing bridge, perform these steps:
 
 1. Sign in to Office 365 with your work account.
@@ -56,15 +60,10 @@ Only a service toll number can be set as the default number for your conferencin
 3. Highlight the service toll number that you want to configure as the default.
 
 4. Select **Set as default**.
+ 
+### Step 3 - Change the default phone numbers that are included in the meeting invites of users (optional)
 
-> [!NOTE]
-> After a new phone number has been assigned, even if the number became the new default number, the default number for existing users won't change. To set the default toll or a toll-free number that is added to an organizer's meeting invites, see the instructions for [Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or the instructions for [Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites). 
-  
-
-
-### Step 2 - Change the default phone numbers that are included in the meeting invites of users (optional)
-
-The default phone numbers for user are the ones that are included on their meeting invites when they schedule a meeting. For more information, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or [Set the phone numbers included on invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
+The default phone numbers of a user are the ones that are included on their meeting invites when they schedule a meeting. For more information, including how the defaul phone numbers are assigned for new users, see [Set the phone numbers included on invites in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) or [Set the phone numbers included on invites in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
 1. Sign in to Office 365 with your work or school account.
 
@@ -76,11 +75,11 @@ The default phone numbers for user are the ones that are included on their meeti
 
 After the changes have been saved, the new default phone numbers will be included on the meeting invites of organizers the next time they schedule a new meeting.
 
-### Step 3 - Update existing meeting invites of users using the Meeting Migration Service (optional)
+### Step 4 - Update existing meeting invites of users using the Meeting Migration Service (optional)
 
 For the next two steps, you will need to start Windows PowerShell.
   
-Using the Meeting Migration Service, you can optionally update meeting invites that were already sent to users in your organization before their default phone numbers were changed. For additional information, see [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+If you updated the default phone numbers that are inlcuded in the meeting invites for some or all of your users, you can optionally update meeting invites that were already sent to users in your organization before their default phone numbers were changed using the Meeting Migration Service. For additional information, see [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Run the Meeting Migration Service (MMS) for the users who had their default phone numbers changed in Step 2. To do this, run the following command:
 
