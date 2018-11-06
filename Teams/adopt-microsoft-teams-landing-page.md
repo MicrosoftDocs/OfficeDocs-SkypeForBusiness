@@ -16,11 +16,11 @@ appliesto:
 ---
 # Adopt Microsoft Teams
 
-If you're a small business, or if you want to roll out Teams starting with chat, teams & channels, and meetings, use our prescriptive quick start guidance, which is designed to get you up and running fast. If you're a large organization with a hybrid or on-premises Skype for Business configuration, or if you want to roll out voice features (such as Office 365 calling plans or phone system), you can start with our Quick start guidance, but you'll need the additional guidance below, under [Deeper adoption guidance](#deeper-adoption-guidance).
+If you're a small business, or if you want to roll out Teams starting with chat, teams & channels, and meetings, use our prescriptive quick start guidance, which is designed to get you up and running fast. If you're a large organization with a hybrid or on-premises Skype for Business configuration, or if you want to roll out voice features (such as Office 365 calling plans or phone system), you can start with our Quick start guidance, but you'll need the additional guidance below, under **Deeper adoption guidance**.
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-get-started?branch=v-sharos-adoption">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -39,7 +39,7 @@ If you're a small business, or if you want to roll out Teams starting with chat,
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-understand-teams-and-channels">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -57,7 +57,7 @@ If you're a small business, or if you want to roll out Teams starting with chat,
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-your-first-teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -75,7 +75,7 @@ If you're a small business, or if you want to roll out Teams starting with chat,
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-create-champions-program?branch=v-sharos-adoption">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -93,7 +93,7 @@ If you're a small business, or if you want to roll out Teams starting with chat,
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/microsoftteams/enduser-training">
+        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -127,11 +127,11 @@ Adoption plans can be simple to complex, depending on your environment. For larg
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-phase1?branch=v-sharos-adoption">Start</a></h3>
-                        <p><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-get-started?branch=v-sharos-adoption">Get started</a></p>
-                        <p><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-understand-teams-and-channels">Understand teams and channels</a></p>
-                        <p><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-your-first-teams?branch=v-sharos-adoption">Create your first teams</a></p>
-                        <p><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-assess-readiness?branch=v-sharos-adoption">Assess cultural and organizational readiness</a></p>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">Start</a></h3>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">Get started</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">Understand teams and channels</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">Create your first teams</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">Assess cultural and organizational readiness</a></p>
                     </div>
                 </div>
             </div>
@@ -147,10 +147,10 @@ Adoption plans can be simple to complex, depending on your environment. For larg
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-phase2-experiment">Experiment</a></h3>
-                        <p><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-create-champions-program">Create your champions program</a></p>
-                        <p><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-governance-quick-start">Governance quick start</a></p>
-                        <p><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-define-usage-scenarios">Define usage scenarios and select early adopters</a></p>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Experiment</a></h3>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">Create your champions program</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">Governance quick start</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">Define usage scenarios and select early adopters</a></p>
                     </div>
                 </div>
             </div>
@@ -166,8 +166,8 @@ Adoption plans can be simple to complex, depending on your environment. For larg
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-phase3-enable">Enable</a></h3>
-                        <p><a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-adoption-phase3-enable?branch=v-sharos-adoption#selecting-your-service-strategy-and-managing-stakeholders">Service strategy and stakeholders</a></p>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">Scale</a></h3>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable#selecting-your-service-strategy-and-managing-stakeholders">Service strategy and stakeholders</a></p>
                     </div>
                 </div>
             </div>

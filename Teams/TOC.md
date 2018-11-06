@@ -4,11 +4,11 @@
 <!-- ============================================================ -->
 
 # [Get started](get-started-microsoft-teams-landing-page.md)
-## [Quick start - Teams](get-started-with-teams.md)
-## [Create your first teams and channels](get-started-with-teams-2.md)
-## [Onboard early adopters](get-started-with-teams-3.md)
-## [Monitor usage and feedback](get-started-with-teams-4.md)
-## [Where to go next](get-started-with-teams-5.md)
+## [Quick start - Teams](get-started-with-teams-quick-start.md)
+## [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
+## [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Where to go next](get-started-with-teams-resources-for-org-wide-rollout.md)
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
