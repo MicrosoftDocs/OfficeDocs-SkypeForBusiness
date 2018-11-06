@@ -19,12 +19,11 @@ Use built-in and custom tabs in Microsoft Teams
 
 Tabs allow team members to access services on a dedicated canvas within a channel or in a chat. This lets the team work directly with tools and data and have conversations about them in the context of the channel or chat. 
 
-
 Owners and team members can add tabs to a channel, private chat, and group chat to help integrate their cloud services. Tabs can be added to help users easily access and manage the data they need or interact with the most. This can be a Power BI report, a dashboard, or even a [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) video channel where you publish training videos.
 
 ![Three screenshots of various content in tabs.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
-Here's some things to consider when working with tabs in Teams:
+## Work with tabs
 
 - With every new channel, two tabs are provisioned by default, Conversations and Files. 
 
@@ -34,7 +33,7 @@ Here's some things to consider when working with tabs in Teams:
 
     ![Screenshot of the Files tab with a PowerPoint file selected.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
-- To add a website, the URL must start with an **https** prefix so that information that's exchanged remains secure.
+- To add a website, the URL must start with an **https** prefix so information that's exchanged remains secure.
 
 - Detailed instructions are provided when a team member tries to add a custom tab to their channel or chat. When a custom tab is added to a channel, a **Tab conversation** is created that allows team members to have focused discussions about the content.
 
