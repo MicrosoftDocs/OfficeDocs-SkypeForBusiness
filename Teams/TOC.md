@@ -29,7 +29,7 @@
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
-# Adopt
+# [Adopt](adopt-microsoft-teams-landing-page.md) 
 
 ## [Get started](teams-adoption-get-started.md)
 ## [Phase 1 - start](teams-adoption-phase1.md)
