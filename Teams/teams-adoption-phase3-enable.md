@@ -40,6 +40,6 @@ The following are our recommendations for most customer organizations. However, 
 
 For each enablement strategy, it's essential to work closely with your technical readiness team to ensure that your environment will deliver a great employee experience. 
 
-## Selecting your Service Strategy and Managing Stakeholders
+## Select your service strategy and manage stakeholders
 
 Communication and managing expectations are key elements in a successful change project. It's important to regularly communicate your overall vision and your progress toward that goal to your stakeholders. 
