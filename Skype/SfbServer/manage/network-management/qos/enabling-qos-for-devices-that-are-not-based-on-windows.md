@@ -21,7 +21,7 @@ When you install Skype for Business Server, Quality of Service (QoS) will not be
 
     Get-CsMediaConfiguration
 
-Assuming you have not made any changes to your media configuration settings you should get back information similar to this:
+Assuming you have not made any changes to your media configuration settings, you should get back information similar to this:
 
     Identity                          : Global
     EnableQoS                         : False
@@ -38,17 +38,17 @@ To enable Quality of Service at the global scope, run the following command from
 
     Set-CsMediaConfiguration -EnableQoS $True
 
-The preceding command enables QoS at the global scope; however, it's important to note that media configuration settings can also be applied to the site scope. If you need to enable Quality of Service for a site you must include the Identity of the configuration settings when calling Set-CsMediaConfiguration. For example, this command enables QoS for the Redmond site:
+The preceding command enables QoS at the global scope; however, it's important to note that media configuration settings can also be applied to the site scope. If you need to enable Quality of Service for a site, you must include the Identity of the configuration settings when calling Set-CsMediaConfiguration. For example, this command enables QoS for the Redmond site:
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $True
 
 
 
 > [!NOTE]  
-> Do you need to enable QoS at the site scope? That depends. Settings assigned to the site scope take precedence over settings assigned to the global scope. Suppose you have QoS enabled at the global scope but disabled at the site scope (for the Redmond site.) In that case, Quality of Service will be disabled for the Redmond site; that's because the site settings take precedence. To enable QoS for the Redmond site you will have to do so using the media configuration settings applied to that site.
+> Do you need to enable QoS at the site scope? That depends. Settings assigned to the site scope take precedence over settings assigned to the global scope. Suppose you have QoS enabled at the global scope but disabled at the site scope (for the Redmond site). In that case, Quality of Service would be disabled for the Redmond site; that's because the site settings take precedence. To enable QoS for the Redmond site, you would have to do so using the media configuration settings applied to that site.
 
 
-If you want to simultaneously enable QoS for all your media configuration settings (regardless of scope) then run this command from within the LSkype for Business Server Management Shell:
+If you want to simultaneously enable QoS for all your media configuration settings (regardless of scope), run this command from within the LSkype for Business Server Management Shell:
 
     Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True
 
@@ -58,6 +58,6 @@ You can disable QoS for devices that use an operating system other than Windows 
 
 This gives you the ability to implement QoS on some portions of your network (for example, on the Redmond site) while leaving Quality of Service disabled on other portions of your network.
 
-QoS can only be enabled and disabled by using Windows PowerShell These options are not available in the Skype for Business Server Control Panel.
+QoS can only be enabled and disabled by using Windows PowerShell. These options are not available in the Skype for Business Server Control Panel.
 
 
