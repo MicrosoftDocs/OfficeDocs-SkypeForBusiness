@@ -68,8 +68,6 @@ When deciding which Office 365 apps and services to use, think about the work yo
 
 - **Office apps** are all the familiar tools that people know and use regularly, including Word, Excel, PowerPoint, and OneNote. 
 
-Learn more by exploring use case scenarios in the [FastTrack Productivity Library](https://go.microsoft.com/fwlink/?linkid=854630).
-
 ## Teams known issues
 
 See [Known issues for Microsoft Teams](Known-issues.md).
