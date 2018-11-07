@@ -59,3 +59,4 @@ If you have any questions about SBC certification program for Direct Routing ple
 |                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   Pending    |   Pending  |   Pending    |
 |                                                                                                                     |      AP 4600         |    Pending    |   Pending    |      Pending      |
 |                                                                                                                     |      VME             |    Pending    |   Pending    |      Pending      |
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |    Pending    |   Pending    |      Pending      |
