@@ -490,6 +490,15 @@
 ### [Manage services](../../SfbServer/manage/manage-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Management Tools](../management-tools-2019.md)
 #### [Call Quality Dashboard for Skype for Business Server 2015](../../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md)
+##### [Plan for Call Quality Dashboard](../../SfbServer/management-tools/call-quality-dashboard/plan.md)
+##### [Deploy Call Quality Dashboard](../../SfbServer/management-tools/call-quality-dashboard/deploy-0.md)
+##### [Use Call Quality Dashboard](../../SfbServer/management-tools/call-quality-dashboard/use.md)
+
 #### [Centralized Logging Service in Skype for Business 2015](../../SfbServer/management-tools/centralized-logging-service/centralized-logging-service.md)
 #### [Manage Skype for Business Server 2019 using SCOM Management pack](../tools/scom-management-pack-use-2019.md)
+##### [Configure the Primary Management Server](../tools/configure-the-primary-2019.md)
+##### [Configure computers to be monitored](../tools/configure-computers-to-monitor-2019.md)
+##### [Watcher nodes](../tools/watcher-nodes-2019.md)
+###### [Test users and settings](../tools/test-users-and-settings-2019.md)
+
 #### [Skype for Business Server Capacity Planning Calculator](../../SfbServer/management-tools/capacity-planning-calculator.md)
