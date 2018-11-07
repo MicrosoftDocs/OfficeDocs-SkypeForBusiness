@@ -1,6 +1,6 @@
 ---
 title: Get started with Microsoft Teams
-description: Use this prescriptive guidance to help you roll out your first couple of teams so you can start using Microsoft Teams chat, teams & Channels, and meetings. 
+description: Use this prescriptive guidance to help you roll out your first couple of teams so you can start using Microsoft Teams chat, teams, channels, and meetings. 
 layout: LandingPage
 ms.topic: landing-page
 author: LolaJacobsen
