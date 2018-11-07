@@ -28,7 +28,7 @@ Now that your project team has come together and you are beginning to see what T
 
 ## Assess your stakeholders
 
-Use our [Stakeholder Assessment workbook](https://microsoft.sharepoint.com/teams/O365ServiceSupportandReadiness/Shared Documents/Adoption Kit Deployments/October 2018 Release/Tools/Stakeholder Questionairre.xlsx) to list the core stakeholders and business leaders in your organization. For each individual, ask the following questions.
+List the core stakeholders and business leaders in your organization. For each individual, ask the following questions:
  
 1. Is this leader friendly to new technology?
 2. Rate this leader’s satisfaction with your current technology.
