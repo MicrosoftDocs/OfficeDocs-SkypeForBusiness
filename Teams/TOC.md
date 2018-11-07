@@ -1,11 +1,15 @@
 <!-- ============================================================ -->
-# Get started
-
-## [Overview of Teams](Teams-overview.md)
-## [Tools and workshops: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
-## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
+# [Welcome to Teams](teams-overview.md)
 <!-- ============================================================ -->
 
+# [Get started](get-started-with-teams-landing-page.md)
+## [Quick start - Teams](get-started-with-teams-quick-start.md)
+## [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
+## [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Where to go next](get-started-with-teams-resources-for-org-wide-rollout.md)
+## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Plan
