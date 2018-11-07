@@ -112,7 +112,7 @@ The steps in the canonical example above assume that the organization starts wit
         -  Online sip domains are not yet disabled. 
     - These orgs should either:
         - Complete migration of the existing hybrid org and enter the above sequence at step 9.  OR,
-        - If it is desired to sync any other Skype for Business forests into AAD prior to completing migration of the hybrid org, then the org must perform step 6 (disable all online sip domains in any other on-prem Skype for Business deployment that will sync into AAD) and then enable AAD Connect, and only then continue with step 9 (decommission the original hybrid deployment).   <br>       
+        - If it is desired to sync any other Skype for Business forests into AAD prior to completing migration of the hybrid org, then the org must perform step 6 (disable all online sip domains in any other on-prem Skype for Business deployment that will sync into AAD) and then enable AAD Connect, and only then continue with step 9 (decommission the original hybrid deployment).       
                 **FigureE**<br>
                 ![Figure E diagram](../media/cloud-consolidation-fig-e.png)
 - A pure Skype for Business Online org (which may or may not be using Teams) that federates with a separate on-prem Skype for Business organization. Such an organization resembles the hypothetical org shown in **Figure C** that has completed steps 1-9 and possibly 10, depending on whether the on-prem org is already syncing to AAD.
