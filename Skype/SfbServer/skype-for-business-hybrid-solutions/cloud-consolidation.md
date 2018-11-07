@@ -44,7 +44,7 @@ Consider an organization with two separate federated on-prem deployments of Skyp
 |---------|---------|
 |<ul><li>2 independent Skype for Business on-prem deployments in separate AD forests<li>At most 1 forest is in hybrid with Skype for Business Online <li> Orgs are federated with each other <li>Users are not synced across these forests<li> The org may have an Office 365 tenant and may be syncing their directory</ul>|<ul> <li>1 Office 365 tenant<li>No more on-prem deployments, so no hybrid remaining<li>All users from on-prem are now Teams-only users <li>No on-prem footprint of Skype for Business anywhere <li>Users still have on-prem authentication</ul> |
 
-![Consolidating two separate federated on-prem deployments](../media/example-of-2-federated-on-prem-deployments.png)
+![Consolidating two separate federated on-prem deployments](../media/example-of-2-federated-on-prem-deployments.png)  
 
 The basic steps to get from the original state to the desired end state are below.  Note that some organizations may find that their starting point is somewhere in the middle of these steps. See [Other starting points](#other-starting-points), later in this article. Finally, in some cases the order can be adjusted, depending on need. [Key constraints and limitations](#limitations) are described later.
 
@@ -78,26 +78,26 @@ The diagrams below show the configuration at various key points during this proc
 - Both orgs sync via AAD Connect, so AAD now has all users from both on-prem deployments.
 - All users homed on-prem.  
 - Skype for Business Hybrid is *not* yet configured.
-- If users in either deployment use Teams, they won’t be able to federate with each or (or any org), nor will they be able interop with any Skype for Business users. Microsoft recommends using Teams for Channels only while in this stage.
+- If users in either deployment use Teams, they won’t be able to federate with each or (or any org), nor will they be able interop with any Skype for Business users. Microsoft recommends using Teams for Channels only while in this stage.<br><br>
     ![Figure A diagram](../media/cloud-consolidation-fig-a.png)
 
 **Figure B:**
 - AcquiredCompany.<span>com is a disabled online sip domain in Teams/Skype for Business Online. All users are on-prem. If they use Teams they do not have federation or interop. Microsoft recommends using Teams for Channels only while in this stage.
 - Skype for Business Hybrid has been enabled for one of the on-prem orgs.
-- Some users in hybrid org have been moved to the cloud (user A as indicated by purple shading). These users can be Teams Only users with full interop and federation support.
+- Some users in hybrid org have been moved to the cloud (user A as indicated by purple shading). These users can be Teams Only users with full interop and federation support.<br><br>
     ![Figure B diagram](../media/cloud-consolidation-fig-b.png)
 
 **Figure C:**
 - All users from OriginalCompany.<span>com are now in the cloud (homed in Skype for Business Online). It’s recommended that they also be Teams Only.
 - Skype for Business hybrid configuration with the OriginalCompany.<span>com deployment has been disabled. The on-premises deployment is gone.
-- If AcquiredCompany.<span>com wasn’t previously syncing to AAD, to continue from here it needs to be synced now. But it is not yet hybrid (split domain).
+- If AcquiredCompany.<span>com wasn’t previously syncing to AAD, to continue from here it needs to be synced now. But it is not yet hybrid (split domain).<br><br>
     ![Figure C diagram](../media/cloud-consolidation-fig-c.png)
 
 **Figure D:**
 - AcquiredCompany.<span>com is now enabled as an online sip domain in Teams.
 - On-prem is updated to accept OriginalCompany.<span>com (both allowed domain, and edge certs updated).
 - Split domain is enabled between AcquiredCompany.<span>com and Office 365 tenant.
-- Some users in the hybrid org may have been moved to the cloud, such as User D below (indicated by purple shading).
+- Some users in the hybrid org may have been moved to the cloud, such as User D below (indicated by purple shading).<br><br>
     ![Figure D diagram](../media/cloud-consolidation-fig-d.png)
 
 ## Other starting points
@@ -112,8 +112,8 @@ The steps in the canonical example above assume that the organization starts wit
         -  Online sip domains are not yet disabled. 
     - These orgs should either:
         - Complete migration of the existing hybrid org and enter the above sequence at step 9.  OR,
-        - If it is desired to sync any other Skype for Business forests into AAD prior to completing migration of the hybrid org, then the org must perform step 6 (disable all online sip domains in any other on-prem Skype for Business deployment that will sync into AAD) and then enable AAD Connect, and only then continue with step 9 (decommission the original hybrid deployment).          
-                **FigureE**<br>
+        - If it is desired to sync any other Skype for Business forests into AAD prior to completing migration of the hybrid org, then the org must perform step 6 (disable all online sip domains in any other on-prem Skype for Business deployment that will sync into AAD) and then enable AAD Connect, and only then continue with step 9 (decommission the original hybrid deployment).   <br>       
+                **FigureE**
                 ![Figure E diagram](../media/cloud-consolidation-fig-e.png)
 - A pure Skype for Business Online org (which may or may not be using Teams) that federates with a separate on-prem Skype for Business organization. Such an organization resembles the hypothetical org shown in **Figure C** that has completed steps 1-9 and possibly 10, depending on whether the on-prem org is already syncing to AAD.
 
