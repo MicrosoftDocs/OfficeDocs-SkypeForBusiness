@@ -20,13 +20,18 @@ title: Microsoft Teams technical documentation
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsF">
                             <li>
-                                <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/get-started-microsoft-teams-landing-page">
-                                   <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started.svg" alt="Get started" />
+                                <a href="/MicrosoftTeams/get-started-with-teams-landing-page">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-GetStarted-400x140.svg" alt="a pedestrian symbol with an arrow pointing to a computer screen, tablet, and phone" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Get started</h3>
+                                                    <p>Find the planning, how-to, and practical guidance you need to get the most out of Teams in your organization</p>
                                                 </div>
                                             </div>
                                             <div class="cardText">

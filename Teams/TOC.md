@@ -2,7 +2,6 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 <!-- ============================================================ -->
-
 # [Get started](get-started-with-teams-landing-page.md)
 ## [Quick start - Teams](get-started-with-teams-quick-start.md)
 ## [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
