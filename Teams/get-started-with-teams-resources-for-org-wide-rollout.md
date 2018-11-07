@@ -23,5 +23,8 @@ Now that you've successfully set up your first teams, onboarded an initial group
 The [Deploy Teams](deployment-overview.md) section of our documentation provides IT pros with the guidance to make the best decisions for an organization-wide rollout.
 
 ## Adopt Teams
-See [Create a change management strategy for Teams](change-management-strategy.md) for guidance on how to successfully adopt Teams in your organization. 
+See [Create a change management strategy for Teams](change-management-strategy.md) for guidance on how to successfully adopt Teams in your organization.
 
+## Let us know what you think
+
+Take a few minutes to share your thoughts on this Get started section by completing this short survey. It's completely anonymous. To give feedback for a specific article, go to the Feedback section at the bottom of the article.
