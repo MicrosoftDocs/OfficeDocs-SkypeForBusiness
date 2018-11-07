@@ -16,11 +16,11 @@ appliesto:
 description: "This document describes the behavior of chat, call routing and presence between users of Teams and Skype for Business, both in-tenant and federated, based on assigned TeamsUpgrade modes. It includes routing optimizations,  presence behavior, as well as the change of default TeamsUpgrade mode from *Legacy* to *Islands* and the impending retirement of *Legacy*."
 ---
 
-# Overview
+# Coexistence with Skype for Business
 
 Coexistence and interoperability between Skype for Business and Teams is defined by TeamsUpgrade modes, described in [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
 
-Any given user will always be assigned a TeamsUpgrade mode, either by default or explicitly by the administrator. The default value is *Islands*. Users upgraded to Teams have the mode of *TeamsOnly*. 
+Any given user will always be assigned a TeamsUpgrade mode, either by default or explicitly by the administrator. The default value is *Islands*. Users upgraded to Teams have the mode of *TeamsOnly*.
 
 > [!NOTE]
 > *Legacy* mode has been deprecated; users remaining on *Legacy* mode will be converted to *Islands* mode after November 15, 2018.
@@ -150,7 +150,7 @@ The table describes the Publisher’s presence that will be seen by a Watcher, d
 
 ## Federated presence
 
-federated presence is based upon the federated reachability shown in table 2.
+Federated presence is based upon the federated reachability shown in table 2.
 
 The table below describes the Publisher’s presence that will be seen by a Watcher, depending on the mode of the Publisher and the client of the Watcher (for a new thread). In practice the client of the Watcher makes no difference in federation at this stage.
 
