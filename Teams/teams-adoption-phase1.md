@@ -32,7 +32,7 @@ The primary goal of this phase is to ensure your readiness for the experimentati
 
 ## Validate adoption prerequisites
 
-Review our [adoption prerequisites](teams-adoption-get-started.md#adoption-prerequisites) and work with the technical team to meet them if necessary. We'll not address deeper technical requirements at this time.
+Review our [adoption prerequisites](teams-adoption-get-started.md#adoption-prerequisites) and work with the technical team to meet them if necessary. We'll address deeper technical requirements within each adoption scenario.
 
 ## Assemble your team
 

@@ -28,6 +28,8 @@ The concepts of teams and channels are fundamental to a healthy, productive impl
 
 To read more about teams and channels, see the [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md). To learn more about Teams and Office 365 Groups, see [Office 365 Groups and Microsoft Teams](office-365-groups.md) and [Learn more about Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
+[View this short video](https://youtu.be/hjJWtoaRJeE) to learn more about the best practices for creating teams and channels.
+
 Team access types determine who can join a team:
 
 - *Private* teams are restricted to team members approved by the team owner(s). This is a typical setting for project teams and virtual teams in a large organization.

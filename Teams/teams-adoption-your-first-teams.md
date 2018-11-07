@@ -44,7 +44,8 @@ In your initial teams, we suggest pinning the following items for easy reference
 | Security and compliance | Microsoft Trust Portal <br/> [Security and compliance documentation](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | Strategy and planning | Collaboration North Star PowerPoint <br/> Service Adoption Project Plan |
 | Training | Custom learning training portal <br/> [Teams online training](https://aka.ms/TeamsTraining) |
-| Teamwork Champions/General | Use for program announcements <br/> Pin champion program overview |
+| **Teamwork Champions**|  |
+| General | Use for program announcements <br/> Pin champion program overview |
 | Best practices | Best practices for teams, channels, and chats PowerPoint <br/> Team lifecycle |
 | Champion Corner | Meeting notes and presentations |
 | Social Hub | RSS connector: Teams blog and driving adoption blog |

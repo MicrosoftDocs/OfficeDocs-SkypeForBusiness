@@ -3,7 +3,7 @@ title: How ready is your organization for Microsoft Teams?
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/31/2018
+ms.date: 11/01/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -64,7 +64,7 @@ Change is a human process that has nothing to do with technology. There is behav
 
 ![Resistance to change](media/teams-adoption-resistance.png)
 
-Every organization approaches change differently, depending on region, work style, professional profile, and other elements of the organization. To assess your organization's readiness, see [Assess organizational chenge readiness](upgrade-org-change-readiness.md). Use the guidelines to answer the following questions:
+Every organization approaches change differently, depending on region, work style, professional profile, and other elements of the organization. To assess your organization's readiness, see [Assess organizational change readiness](upgrade-org-change-readiness.md). Use the guidelines to answer the following questions:
 
 1. What percentage of users fall into each bucket? (*Change resistance*)
     - **Early adopters**: request the solution before it's available.
@@ -90,7 +90,7 @@ Every organization approaches change differently, depending on region, work styl
     > [!TIP] 
     > Too much change can impede acceptance and productivity. If more than 3 changes are underway, consider spacing them out or creating a theme to bundle changes together.  
 
-Combining this data with the stakeholder profiles and employees who wish to opt in for the early adopter program will let you identify groups that are ready for and can absorb change alongside their existing duties. Embracing this method will allow you to create partners in change.
+Combine this data with the stakeholder profiles and employees who wish to opt in for the early adopter program. This will let you identify groups that are ready for and can absorb change alongside their existing duties. This method will allow you to create partners in change.
 
 You can use internal champions to address the problem of having different change types. Here, feedback is the key to success: encourage people to share their challenges and needs. Embrace disrupters and dissenters by giving these individuals or groups a seat at the table during experimentation. This best practice will pave the way for a smoother broad deployment of your collaboration improvements.  
 

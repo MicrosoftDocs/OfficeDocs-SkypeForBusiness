@@ -3,7 +3,7 @@ title: Microsoft Teams adoption phase 2 - Experiment
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/26/2018
+ms.date: 11/01/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams

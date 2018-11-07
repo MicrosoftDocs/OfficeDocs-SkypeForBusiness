@@ -34,7 +34,7 @@ In this phase, you will use your learnings, talented project team, and relations
 
 For every business scenario or service you modernize, it is critical to define what success looks like for your business. You will have gathered that information for your initial scenarios as you mapped them in your prior phase. As you prepare for your scale implementation, you will need to revisit and expand these important success criteria.
   
-What follows is a recommended strategy for mapping these criteria.  There are many valid approaches to this step. You can follow our guide as a default or follow the guide of the Microsoft partner you may be working with. Whatever method you choose, make sure that your business outcomes are supported by the technical implementation of your services and overall objectives of your organization.
+What follows is a recommended strategy for mapping these criteria. There are many valid approaches to this step. You can follow our guide as a default or follow the guide of the Microsoft partner you may be working with. Whatever method you choose, make sure that your business outcomes are supported by the technical implementation of your services and overall objectives of your organization.
   
 There are four categories of outcomes that can be prioritized for your business. They are interconnected and form the foundation of the modernization and digital transformation that individual employees will experience.  
 

@@ -38,7 +38,9 @@
 ## [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
 ### [Create your champions program](teams-adoption-create-champions-program.md)
 ### [Governance quick start](teams-adoption-governance-quick-start.md)
-### [Define usage scenarios and select early adopters](teams-adoption-define-usage-scenarios.md)
+### [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
+### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
+### [Onboard support](teams-adoption-onboard-support.md)
 ## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
 <!-- ============================================================ -->
 
