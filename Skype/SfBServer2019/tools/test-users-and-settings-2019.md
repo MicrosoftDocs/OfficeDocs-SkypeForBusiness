@@ -18,7 +18,7 @@ description: "Summary: Configure test user accounts and watcher node settings fo
   
 After configuring the computer that will act as a watcher node, you must:
   
-1. [Configure Test User Accounts](test-users-and-settings.md#testuser) to be used by these watcher nodes. If you are using the Negotiate authentication method, you must also use the **Set-CsTestUserCredential** cmdlet to enable these test accounts for use on the watcher node.
+1. [Configure Test User Accounts](test-users-and-settings-2019.md#testuser) to be used by these watcher nodes. If you are using the Negotiate authentication method, you must also use the **Set-CsTestUserCredential** cmdlet to enable these test accounts for use on the watcher node.
     
 2. Update the watcher node configuration settings.
     
@@ -355,7 +355,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
 In this example, a Skype for Business Server rule will need to exist to route messages for litwareinc.com to an XMPP gateway.
 
 > [!NOTE]
-> XMPP Gateways and proxies were available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information. 
+> XMPP Gateways and proxies were available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../migration/migrating-xmpp-federation.md) for more information.
   
 ### Video Interop Server (VIS) Synthetic Transaction
 
