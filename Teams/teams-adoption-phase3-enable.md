@@ -97,13 +97,13 @@ The following are our recommendations for most customer organizations. However, 
 
 For each enablement strategy, it's essential to work closely with your technical readiness team to ensure that your environment will deliver a great employee experience. 
 
-![Decision Point icon.](media/Overview_of_a_Microsoft_Teams_deployment_image3.png) Decision: Select an enablement strategy that will best support your business outcomes for Microsoft Teams. In larger organizations it may be necessary to map outcomes and success measures before making this selection.  
+![Decision Point icon.](media/teams-adoption-decision-icon.png) Decision: Select an enablement strategy that will best support your business outcomes for Microsoft Teams. In larger organizations it may be necessary to map outcomes and success measures before making this selection.  
 
 ## Engage stakeholders
 
 Communication and managing expectations are key elements in a successful change project. It's important to regularly communicate your overall vision and your progress toward that goal to your stakeholders and others in your organization. 
 
-![Decision Point icon.](media/Overview_of_a_Microsoft_Teams_deployment_image3.png) Decision: Decide your rhythm and method for communicating with your stakeholders in alignment with your company culture. Target your communications to the various levels of engagement and interest across your organization. 
+![Decision Point icon.](media/teams-adoption-decision-icon.png) Decision: Decide your rhythm and method for communicating with your stakeholders in alignment with your company culture. Target your communications to the various levels of engagement and interest across your organization. 
 
 Option: To create an ongoing knowledge base of information about your project, consider using news pages in your SharePoint communication site. Your news page library (site pages in the SharePoint site associated with your planning team) can be made public so they can be shared with all interested parties.
 

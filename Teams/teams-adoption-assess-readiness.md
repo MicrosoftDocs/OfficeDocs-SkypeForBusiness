@@ -94,4 +94,4 @@ Combine this data with the stakeholder profiles and employees who wish to opt in
 
 You can use internal champions to address the problem of having different change types. Here, feedback is the key to success: encourage people to share their challenges and needs. Embrace disrupters and dissenters by giving these individuals or groups a seat at the table during experimentation. This best practice will pave the way for a smoother broad deployment of your collaboration improvements.  
 
-![Next Steps icon](media/Overview_of_a_Microsoft_Teams_deployment_image4.png) Next: [Microsoft Teams adoption phase 2: Experiment](teams-adoption-phase2-experiment.md) 
+![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Microsoft Teams adoption phase 2: Experiment](teams-adoption-phase2-experiment.md) 

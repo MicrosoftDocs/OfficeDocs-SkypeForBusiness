@@ -64,4 +64,4 @@ The [Microsoft Technical Community](https://aka.ms/TechCommunity) delivers peer-
 
 [Custom Learning for Office 365](https://aka.ms/CLO365) includes a SharePoint Online template and custom webpart that you can use to create a training portal for your organization. This free, open source solution lets you stream Microsoft training assets directly into your Office 365 tenant. You can customize it for the services you are using and add additional training content to the site experience. If you already have a SharePoint Online training portal, you can download just the webpart to install directly on your company’s site, and then configure it based on your implementation requirements.  
 
-![Next Steps icon](media/Overview_of_a_Microsoft_Teams_deployment_image4.png) Next: [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
+![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
