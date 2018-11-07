@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
-description: "The FileTranfer view stores information about peer-to-peer file transfer sessions. This view was introduced in Microsoft Lync Server 2013."
+description: "The FileTransfer view stores information about peer-to-peer file transfer sessions. This view was introduced in Microsoft Lync Server 2013."
 ---
 
 # FileTransfers view
  
-The FileTranfer view stores information about peer-to-peer file transfer sessions. This view was introduced in Microsoft Lync Server 2013.
+The FileTransfer view stores information about peer-to-peer file transfer sessions. This view was introduced in Microsoft Lync Server 2013.
   
 > [!NOTE]
 > The FileTransfers view contains all of the columns in the [SessionDetails view](sessiondetails-0.md) in addition the columns listed below.
