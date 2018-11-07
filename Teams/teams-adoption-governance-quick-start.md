@@ -58,4 +58,4 @@ In preparation for your broad deployment you may opt to use security labels to c
 
 A successful Teams implementation proceeds at a healthy pace to ensure appropriate momentum, focus, and learnings. We recommend that this phase of your project be 60 days in length to ensure that your early adopters complete sufficient business cycles. Extending experimentation for too lengthy a time increases the risk of a failed change program; however, this time will vary for every organization.  
 
-Next: [Define usage scenarios and select early adopters](teams-adoption-define-usage-scenarios.md)
+![Next Steps icon](media/Overview_of_a_Microsoft_Teams_deployment_image4.png) Next: [Define usage scenarios](teams-adoption-define-usage-scenarios.md)

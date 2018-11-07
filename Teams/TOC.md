@@ -32,16 +32,15 @@
 # [Adopt](adopt-microsoft-teams-landing-page.md) 
 
 ## [Get started](teams-adoption-get-started.md)
-## [Phase 1 - start](teams-adoption-phase1.md)
+## [Phase 1 - Start](teams-adoption-phase1.md)
 ### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
 ### [Create your first teams](teams-adoption-your-first-teams.md)
 ### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
-## [Phase 2 - experiment](teams-adoption-phase2-experiment.md)
+## [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
 ### [Create your champions program](teams-adoption-create-champions-program.md)
 ### [Governance quick start](teams-adoption-governance-quick-start.md)
 ### [Define usage scenarios and select early adopters](teams-adoption-define-usage-scenarios.md)
-## Phase 3 - scale
-### [Choose your adoption path for Microsoft Teams](teams-adoption-phase3-enable.md)
+## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->

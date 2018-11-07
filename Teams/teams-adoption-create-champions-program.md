@@ -50,5 +50,5 @@ Use our [Champions Program Guide](https://go.microsoft.com/fwlink/?linkid=854665
 
 - Train champions early and often: Your program kick off and monthly meetings can be used to build skills in your champion community. Use these opportunities to bring them on board, conduct their initial training, encourage them to attend our courses, and make sure they are ready to support their employees as they move forward in the experimentation phase.  
 
-Next: [Complete the governance quick start](teams-adoption-governance-quick-start.md)
+![Next Steps icon](media/Overview_of_a_Microsoft_Teams_deployment_image4.png) Next: [Complete the governance quick start](teams-adoption-governance-quick-start.md)
 

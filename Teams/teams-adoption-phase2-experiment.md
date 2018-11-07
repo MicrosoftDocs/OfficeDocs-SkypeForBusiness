@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams adoption phase 2 - experiment
+title: Microsoft Teams adoption phase 2 - Experiment
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -18,7 +18,7 @@ appliesto:
 ---
 
 
-# Microsoft Teams adoption phase 2 - experiment
+# Microsoft Teams adoption phase 2 - Experiment
 
 You are now armed with a great project team and critical information about your organization, and you are ready to experiment with Teams. We recommend experimenting with 2 to 3 real world projects within a group that is led by a stakeholder with whom you have a positive relationship and in whose organization there are a sufficient number of early adopters to provide meaningful feedback. Whether your organization is large or small, we recommend completing this phase to gain insight into how Teams can improve your collaboration beyond using its chat and file storage features.  
 
@@ -31,4 +31,4 @@ You will complete the following steps in this phase:
 5. [Set up your feedback channels](teams-adoption-define-usage-scenarios.md#gather-feedback).
 6. [Bring your support staff on board](teams-adoption-define-usage-scenarios.md#bring-your-support-staff-on-board).
 
-Next: [Create your champions program](teams-adoption-create-champions-program.md)
+![Next Steps icon](media/Overview_of_a_Microsoft_Teams_deployment_image4.png) Next: [Create your champions program](teams-adoption-create-champions-program.md)

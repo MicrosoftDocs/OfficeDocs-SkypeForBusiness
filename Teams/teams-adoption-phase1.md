@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams adoption phase 1 - start
+title: Microsoft Teams adoption phase 1 - Start
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -18,15 +18,12 @@ appliesto:
 ---
 
 
-# Microsoft Teams adoption phase 1 - start
+# Microsoft Teams adoption phase 1 - Start
 
 You'll start your Teams adoption with the following activities:
 
 - [Validate adoption prerequisites](#validate-adoption-prerequisites).
 - [Assemble your team](#assemble-your-team).
-
-After your startup team is in place, continue phase 1 by completing the following tasks:
-
 - [Understand teams and channels](teams-adoption-understand-teams-and-channels.md).
 - [Set up your first teams on Teams](teams-adoption-your-first-teams.md) to build your technical knowledge.
 - [Assess your organization's readiness for change](teams-adoption-assess-readiness.md).
@@ -58,7 +55,7 @@ The table below lists the core roles for your project team. In a smaller organiz
 
 In most cases, this initial team should be a small group of like-minded people who are interested in Teams and may also be accountable for its implementation. As your adoption plan moves on to additional phases, you will include more people in your team. We also suggest that you take advantage of the Microsoft resources that are available to assist you. 
 
-### Additional resources
+## Additional resources
 
 The [Microsoft Technical Community](https://aka.ms/TechCommunity) delivers peer-provided insights into adoption and technical issues for many Office 365 products. We suggest that you join the following communities:
 
@@ -67,4 +64,4 @@ The [Microsoft Technical Community](https://aka.ms/TechCommunity) delivers peer-
 
 [Custom Learning for Office 365](https://aka.ms/CLO365) includes a SharePoint Online template and custom webpart that you can use to create a training portal for your organization. This free, open source solution lets you stream Microsoft training assets directly into your Office 365 tenant. You can customize it for the services you are using and add additional training content to the site experience. If you already have a SharePoint Online training portal, you can download just the webpart to install directly on your company’s site, and then configure it based on your implementation requirements.  
 
-Next: [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
+![Next Steps icon](media/Overview_of_a_Microsoft_Teams_deployment_image4.png) Next: [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)

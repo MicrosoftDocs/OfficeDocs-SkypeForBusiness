@@ -44,4 +44,4 @@ In an organizational team (shown on the left), key information about the way tha
   
 You will work more on the structure of your teams in [phase 2](teams-adoption-phase2-experiment.md) of your implementation.
 
-Next: [Create your first teams](teams-adoption-your-first-teams.md)
+![Next Steps icon](media/Overview_of_a_Microsoft_Teams_deployment_image4.png) Next: [Create your first teams](teams-adoption-your-first-teams.md)

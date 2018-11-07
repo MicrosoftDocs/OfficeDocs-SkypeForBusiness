@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams adoption phase 3 - scale
+title: Microsoft Teams adoption phase 3 - Scale
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Microsoft Teams adoption phase 3 - scale
+# Microsoft Teams adoption phase 3 - Scale
 
 In this phase, you will use your learnings, talented project team, and relationships with stakeholders, champions, and early adopters to support the broad scale enablement of Teams for your organization. You will complete the following steps as you prepare for continued business engagement regarding your organizations use of Microsoft Teams:
 

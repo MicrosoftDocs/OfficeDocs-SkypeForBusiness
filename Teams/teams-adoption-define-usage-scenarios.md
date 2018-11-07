@@ -91,4 +91,4 @@ To ensure that the early adopter and champions teams will have the appropriate s
 - What is Teams and Teams Basic course from our training program
 - Teams IT admin online course.
 
-Next: [Microsoft Teams adoption phase 3: scale](teams-adoption-phase3-enable.md).
+![Next Steps icon](media/Overview_of_a_Microsoft_Teams_deployment_image4.png) Next: [Microsoft Teams adoption phase 3: Scale](teams-adoption-phase3-enable.md).
