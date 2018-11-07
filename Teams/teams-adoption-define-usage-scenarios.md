@@ -19,18 +19,24 @@ appliesto:
 
 # Define usage scenarios and select early adopters for Microsoft Teams
 
-Make sure that you understand the business projects (scenarios) that will be in scope for this phase of your implementation. Take a look at this list of example scenarios that are great candidates for an early adopter program:
+Make sure that you understand the business projects (scenarios) that will be in scope for this phase of your implementation. Take a look at this list of example scenarios that are great candidates for an early adopter program. You can get started with easy wins such as:
 
-- Improve employee engagement and communication
+- Personal productivity
+- Modern project management
+- Modern meetings
+
+![Core scenarios](media/teams-adoption-modernizing-core-scenarios.png)
+
+Additional scenarios for consider are:
+
+- Employee engagement and communication
 - Bring campaigns to market faster
-- Increase sales productivity and revenue
+- Increase sales productivity and grow revenue
 - Streamline business reviews
-- Manage employee time off requests
 
 ![Teams use cases for every scenario](media/teams-adoption-use-cases.png)
 
-Begin with more basic scenarios to create credibility and then move on to more ambitious areas of impact. As more and more impact with Teams is demonstrated to your business colleagues, more of them will get engaged and the momentum will build. Once you deliver a few scenarios, you may find that business stakeholders approach you after learning how their colleagues realized business value from Teams.
-
+Think of this scenario modernization motion as a cumulative process – get things going with more basic scenarios to create enthusiasm, familiarity, and credibility with this new way of working. Then move on to more ambitious areas of impact. As more impact with Microsoft Teams is demonstrated to your business colleagues, more of them will get engaged and momentum will build. For many of our customers, once they get this process going they find that business stakeholders approach them after learning how their colleagues got value from Microsoft Teams.
 
 ## Interview business stakeholders
 
@@ -48,28 +54,41 @@ To be sure that you have the right information about the business scenario, cons
 
 ![Framework for identifying scenarios](media/teams-adoption-identify-scenarios.png)
 
-After speaking to one or more business stakeholders you can prioritize your scenarios based on impact vs. difficulty. Appropriate candidates for your experimentation phase should have higher impact and low to medium difficulty. This will ensure your project isn't affected by scope creep or technical difficulties before you are able to show the value of your work. An example chart is shown below.
+After speaking to one or more business stakeholders you can prioritize your scenarios based on impact vs. difficulty. (Your scenarios may be in addition to the scenarios we suggest above.) Appropriate candidates for your experimentation phase should have higher impact and low to medium difficulty. This will ensure your project isn't affected by scope creep or technical difficulties before you are able to show the value of your work. An example chart is shown below.
 
 ![Scenario impact vs. difficulty](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> We are always looking to learn about how our customers use Teams in new an innovative ways. Share your Teams stories with us in our Driving Adoption discussion forum. Include the hashtag **#TeamsStories** in your post. We are always interested in how you use Teams in your organization.
+> We are always eager to learn about how our customers use Teams in new an innovative ways. Share your #TeamsStories with us in our [Driving Adoption discussion forum]. Include the hashtag **#TeamsStories** in your post. We are always interested in how you use Teams in your organization.
 
-## Select Early Adopters
+## Onboard early adopters
 
 Return to the list of employees who expressed interest in your early adopter program. Decide which of these individuals should participate in your initial experiments with Teams. It may be all or a portion of the people who are interested. Even if you do not select them for these initial projects, continue communicating with them so they remain interested and will be willing to participate in the future. They will be a part of the onboarding process for the projects you selected based on your discussions with business stakeholders, your technical team, and your prioritization exercise shown above. 
 
-## Gather Feedback
+Complete the following steps with these early adopters:
+
+1. Send an invitation email to them to invite them into the community,
+2. Host a kick-off call to share with them the goals and outcomes of the early adopter program,
+3. Ensure access to the feedback channel of your teamwork champions team and any other internal social networking tools you may use. 
+4. Consider creating periodic surveys for them to complete that will gather targeted information.
+
+## Gather feedback
 
 Use the components of Office 365 to gather feedback for your project.
   
 **Decision**: If your organization already has an investment in a Yammer network, you can use it as a feedback forum for your early adopter program. If not, and your early adopter program has less than 2500 members, create a team in Teams to gather feedback and provide training.
   
 > [!Note]
-> Some organizations will combine the channels for early adopter feedback into the Teamwork Champions program team. This is a good approach because many early adopters may become champions in the future, and it will build a stronger community. 
+> Some organizations will combine the channels for early adopter feedback into the teamwork champions program team. This is a good approach because many early adopters may become champions in the future, and it will build a stronger community. 
 
-## Bring your support staff on board
+## Onboard support
 
 To ensure that the early adopter and champions teams will have the appropriate support as they start using Teams, meet with your support staff and review the capabilities of Teams. Key members of the support organization may want to join your early adopter program. Encourage their use of Teams in their own scenarios. Take them through the basic onboarding of the product by using our online training resources.  
+
+- Foundations of Microsoft Teams
+- Troubleshooting Teams
+- Known issue list
+- What is Teams and Teams Basic course from our training program
+- Teams IT admin online course.
 
 Next: [Microsoft Teams adoption phase 3: scale](teams-adoption-phase3-enable.md).

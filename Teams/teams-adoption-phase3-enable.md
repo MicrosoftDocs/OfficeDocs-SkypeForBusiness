@@ -1,5 +1,5 @@
 ---
-title: Choose your adoption path for Microsoft Teams
+title: Microsoft Teams adoption phase 3 - scale
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,9 +17,66 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Choose your adoption path for Microsoft Teams
+# Microsoft Teams adoption phase 3 - scale
 
-In this phase, you will use your learnings, talented project team, and relationships with stakeholders, champions, and early adopters to support the broad scale enablement of Teams for your organization. Teams is a transformative technology, so depending on the size of your organization and your existing technologies, you may take different approaches. Consider these strategies:
+In this phase, you will use your learnings, talented project team, and relationships with stakeholders, champions, and early adopters to support the broad scale enablement of Teams for your organization. You will complete the following steps as you prepare for continued business engagement regarding your organizations use of Microsoft Teams:
+
+1. Define outcomes and success measures.
+2. Select service strategy.
+3. Engage stakeholders.
+4. Design and launch an awareness campaign.
+5. Design and launch a training program.
+6. Understand reporting tools.
+7. Prepare for ongoing business engagement.
+8. Prepare for ongoing service health & adoption reviews.
+
+## Define outcomes and success measures
+
+For every business scenario or service you modernize, it is critical to define what success looks like for your business. You will have gathered that information for your initial scenarios as you mapped them in your prior phase. As you prepare for your scale implementation, you will need to revisit and expand these important success criteria.
+  
+What follows is a recommended strategy for mapping these criteria.  There are many valid approaches to this step. You can follow our guide as a default or follow the guide of the Microsoft partner you may be working with. Whatever method you choose, make sure that your business outcomes are supported by the technical implementation of your services and overall objectives of your organization.
+  
+There are four categories of outcomes that can be prioritized for your business. They are interconnected and form the foundation of the modernization and digital transformation that individual employees will experience.  
+
+![Four outcome categories](media/teams-adoption-outcomes.png)
+
+Example of outcomes in each category are:
+
+- **Organizational**
+   - Cultural transformation
+   - Employee retention
+   - Talent acquisition
+   - Social engagement
+   - Operational agility 
+
+- **Cultural**
+   - Employee sentiment
+   - Employee recommendations
+   - Customer feedback
+   - Innovation measures (for example, idea forum contributions, hackathons, product innovation engagements)
+
+- **Tangible**
+   - Customer experience impacts (faster service, reduction in service incidents, customer referral/loyalty program participation)
+   - Cost savings
+   - Revenue generation
+   - Data security
+   - Process simplification
+   - Retirement of legacy systems
+   
+- **Individual**
+   - Use of desired tools
+   - Employee morale
+   - Employee productivity
+   - Employee engagement
+   - Idea generation
+ 
+In general, you should think of these measures aggregating to create a change quotient for your company in this manner:
+
+![Change quotient](media/teams-adoption-change-quotient.png)
+
+## Teams enablement strategies
+
+Teams is a transformative technology, so depending on the size of your organization and your existing technologies, you may take different approaches. Consider these strategies:
 
 | Teams First | Teams Core | Teams Go Big | Skype Side by Side | Migration |
 |------------ | ---------- | ------------ | ------------------ | --------- |
@@ -40,6 +97,29 @@ The following are our recommendations for most customer organizations. However, 
 
 For each enablement strategy, it's essential to work closely with your technical readiness team to ensure that your environment will deliver a great employee experience. 
 
-## Select your service strategy and manage stakeholders
+Decision: Select an enablement strategy that will best support your business outcomes for Microsoft Teams. In larger organizations it may be necessary to map outcomes and success measures before making this selection.  
 
-Communication and managing expectations are key elements in a successful change project. It's important to regularly communicate your overall vision and your progress toward that goal to your stakeholders. 
+## Engage stakeholders
+
+Communication and managing expectations are key elements in a successful change project. It's important to regularly communicate your overall vision and your progress toward that goal to your stakeholders and others in your organization. 
+
+Decision: Decide your rhythm and method for communicating with your stakeholders in alignment with your company culture. Target your communications to the various levels of engagement and interest across your organization. 
+
+Option: To create an ongoing knowledge base of information about your project, consider using news pages in your SharePoint communication site. Your news page library (site pages in the SharePoint site associated with your planning team) can be made public so they can be shared with all interested parties.
+
+## Expand your implementation team
+
+In a large organization it is wise to incorporate many different roles in your broad enablement phase. This may include additional business sponsors, IT support staff, additional members in your champion community, and in some cases formal change management or training personnel. The illustration below shows a large scale adoption team that allows for a separation of duties.
+
+![Large scale corporate adoption team model](media/teams-adoption-large-scale-model.png)
+
+In a smaller organization one or more of these roles might be performed by a single individual, but the skills required remain the same.  Technical, communication and training skills are important in a successful change project. 
+
+## Incorporate feedback
+
+Throughout your experiment phase, you captured information about how people have used the product and their experience with it. Use this information now to adjust your training and program messaging as you plan to expand its use across your business units. Some common example questions might be:
+
+- When do I use this new tool alongside my existing technology?
+- Who is approved to use this tool with me?
+- Is it safe for highly confidential information?
+ 
