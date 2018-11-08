@@ -27,7 +27,7 @@ A network region interconnects various parts of a network across multiple geogra
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Region**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Region**.
 
 4.  On the **Region** page, click the region you want to view.
   
@@ -37,13 +37,13 @@ A network region interconnects various parts of a network across multiple geogra
 5.  On the **Edit** menu, click **Show details**.
 
 
-### Viewing Network Region Information by Using Windows PowerShell Cmdlets
+### Viewing network region information by using Windows PowerShell cmdlets
 
 You can view network region information by using Windows PowerShell and the **Get-CsNetworkRegion** cmdlet. You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. 
 
 ### To view network region information
 
-  - To view information about all your network regions, type the following command in the Skype for Business Server Management Shell and then press ENTER:
+  - To view information about all your network regions, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
     
         Get-CsNetworkRegion
     
@@ -70,7 +70,7 @@ A network region interconnects various parts of a network across multiple geogra
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Region**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Region**.
 
 4.  On the **Region** page, click **New**.
 
@@ -94,7 +94,7 @@ The **Associated sites** table is not used for creating a network region. You as
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Region**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Region**.
 
 4.  On the **Region** page, click the region that you want to modify.
 
@@ -117,7 +117,7 @@ A network region interconnects various parts of a network across multiple geogra
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Region**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Region**.
 
 4.  On the **Region** page, click the region you want to delete.
   
@@ -130,7 +130,7 @@ A network region interconnects various parts of a network across multiple geogra
 
 
     > [!WARNING]  
-    > A network region cannot be removed if it is associated with a network site. If you attempt to remove a region associated with a site you will receive an error message. To see if a region is associated with any sites, select the region and then click **Show details** on the **Edit** menu.
+    > A network region cannot be removed if it is associated with a network site. If you attempt to remove a region associated with a site, you will receive an error message. To see if a region is associated with any sites, select the region and then click **Show details** on the **Edit** menu.
 
 
 ## See Also

@@ -24,7 +24,7 @@ Every region within a call admission control (CAC) configuration must have some 
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Region Route**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Region Route**.
 
 4.  On the **Region Route** page, click the region route that you want to view.
 
@@ -42,7 +42,7 @@ Network region route information can be viewed by using Windows PowerShell and t
 
 ### To view network region route information
 
-  - To view information about all your network region routes, type the following command in the Skype for Business Server Management Shell and then press ENTER:
+  - To view information about all your network region routes, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
     
         Get-CsNetworkInterRegionRoute
     
@@ -59,7 +59,6 @@ For more information, see the help topic for the [Get-CsNetworkInterRegionRoute]
 
 ## Create or modify network region routes
 
-
 Every region within a call admission control (CAC) configuration must have some way to access every other region. While region links set bandwidth limitations on the connections between regions and also represent the physical links, a route determines which linked path the connection will traverse from one region to another. You can use the Skype for Business Server Control Panel to configure network region routes. From the Skype for Business Server Control Panel, you can create, modify, or delete a network region route. Use this topic to create or modify a network region route. 
 
 ### To create a network region route
@@ -68,7 +67,7 @@ Every region within a call admission control (CAC) configuration must have some 
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Region Route**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Region Route**.
 
 4.  On the **Region Route** page, click **New**.
 
@@ -95,7 +94,7 @@ Every region within a call admission control (CAC) configuration must have some 
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Region Route**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Region Route**.
 
 4.  On the **Region Route** page, click the region route that you want to modify.
 
@@ -116,7 +115,7 @@ Every region within a call admission control (CAC) configuration must have some 
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Region Route**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Region Route**.
 
 4.  On the **Region Route** page, click the region route that you want to delete.
 

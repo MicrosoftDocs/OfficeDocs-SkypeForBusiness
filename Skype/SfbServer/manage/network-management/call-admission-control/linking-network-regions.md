@@ -26,7 +26,7 @@ You can view links between two network regions as part of call admission control
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Region Link**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Region Link**.
 
 4.  On the **Region Link** page, click the region link that you want to view.
     
@@ -35,14 +35,14 @@ You can view links between two network regions as part of call admission control
 
 5.  From the **Edit** menu, select **Show details**.
 
-### View Network Region Link Information by Using Windows PowerShell Cmdlets
+### View network region link information by using Windows PowerShell cmdlets
 
 You can view network region links by using Windows PowerShell and the **Get-CsNetworkRegionLink** cmdlet. You can run this cmdlet from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. 
 
 
 ### To view network region link information
 
-  - To view information about all your network region links, type the following command in the Skype for Business Server Management Shell and then press ENTER:
+  - To view information about all your network region links, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
     
         Get-CsNetworkRegionLink
     
@@ -68,7 +68,7 @@ You can configure links between two network regions as part of call admission co
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Region Link**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Region Link**.
 
 4.  On the **Region Link** page, click **New**.
 
@@ -91,7 +91,7 @@ You can configure links between two network regions as part of call admission co
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Region Link**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Region Link**.
 
 4.  On the **Region Link** page, click the region link that you want to modify.
 
@@ -112,7 +112,7 @@ You can configure links between two network regions as part of call admission co
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Region Link**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Region Link**.
 
 4.  On the **Region Link** page, click the region link that you want to delete.
  

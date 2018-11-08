@@ -62,13 +62,13 @@ For detailed parameter descriptions, see [Remove-CsNetworkInterSitePolicy](https
 
 Network sites are the offices or locations configured within each region of a call admission control (CAC) or Enhanced 9-1-1 deployment. You can view network site information in either the Skype for Business Server Control Panel or the Skype for Business Server Management Shell. 
 
-### To view network site information in Lync Server Control Panel
+### To view network site information in Skype for Business Server Control Panel
 
 1.  From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Site**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Site**.
 
 4.  On the **Site** page, click the site that you want to view.
  
@@ -78,13 +78,13 @@ Network sites are the offices or locations configured within each region of a ca
 5.  On the **Edit** menu, click **Show details**.
 
 
-### Viewing Network Site Information by Using Windows PowerShell Cmdlets
+### Viewing network site information by using Windows PowerShell cmdlets
 
 You can view network site information by using Windows PowerShell and the Get-CsNetworkSite cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. 
 
 ### To view network site information
 
-  - To view information about all your network sites, type the following command in the Skype for Business Server Management Shell and then press ENTER:
+  - To view information about all your network sites, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
     
         Get-CsNetworkSite
     
@@ -111,7 +111,7 @@ Network sites are the offices or locations configured within each region of a ca
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Site**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Site**.
 
 4.  On the **Site** page, click **New**.
 
@@ -145,13 +145,13 @@ Network sites are the offices or locations configured within each region of a ca
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Site**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Site**.
 
 4.  On the **Site** page, click the site that you want to modify.
 
 5.  On the **Edit** menu, click **Show details**.
 
-6.  On the **Edit Site** page, you can modify the description, region, bandwidth policy profile, and location policy associated with the site. For details, see "To create a network site" section earlier in this topic.
+6.  On the **Edit Site** page, you can modify the description, region, bandwidth policy profile, and location policy associated with the site. For details, see [To create a network site](#to-create-a-network-site) above.
 
 7.  Click **Commit**.
 
@@ -169,7 +169,7 @@ Network sites are the offices or locations configured within each region of a ca
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Site**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Site**.
 
 4.  On the **Site** page, click the site that you want to delete.
 

@@ -28,7 +28,7 @@ You can enable and configure media bypass from the Skype for Business Server Con
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Global**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Global**.
 
 4.  On the **Global** page, click the **Global** configuration. There is always only one configuration, and it is always named Global.
 
@@ -62,7 +62,7 @@ Media bypass settings apply globally across a Skype for Business Server deployme
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Global**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Global**.
 
 4.  On the **Global** page, click the **Global** configuration. There is always only one configuration, and it is always named Global.
 

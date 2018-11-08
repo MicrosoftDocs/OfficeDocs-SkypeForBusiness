@@ -16,7 +16,7 @@ You can view network interface information by using Windows PowerShell and the *
 
 ## To view network interface information
 
-  - To view network interface information, type the following command in the Skype for Business Server Management Shell and then press ENTER:
+  - To view network interface information, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
     
         Get-CsNetworkInterface
     

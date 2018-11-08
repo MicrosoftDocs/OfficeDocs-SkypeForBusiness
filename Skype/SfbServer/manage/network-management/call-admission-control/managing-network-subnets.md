@@ -26,16 +26,16 @@ You can use the following procedure to view a network subnet. From the Skype for
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Subnet**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Subnet**.
 
 4.  On the **Subnet** page, click the subnet that you want to view.
  
     > [!NOTE]  
     > You can only view one subnet at a time.
 
-5.  On the **Edit** menu, click **Show details…**.
+5.  On the **Edit** menu, click **Show details**.
 
-### View Network Subnet Configuration Information by Using Windows PowerShell Cmdlets
+### View network subnet configuration information by Using Windows PowerShell cmdlets
 
 Network subnet information can be viewed by using Windows PowerShell and the Get-CsNetworkSubnet cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. 
 
@@ -70,7 +70,7 @@ In most deployments of Skype for Business Server where call admission control (C
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Subnet**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Subnet**.
 
 4.  On the **Subnet** page, click **New**.
 
@@ -94,7 +94,7 @@ In most deployments of Skype for Business Server where call admission control (C
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Subnet**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Subnet**.
 
 4.  On the **Subnet** page, click the subnet that you want to modify.
 
@@ -117,7 +117,7 @@ In most deployments of Skype for Business Server where call admission control (C
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Subnet**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Subnet**.
 
 4.  On the **Subnet** page, click the subnet that you want to delete.
  

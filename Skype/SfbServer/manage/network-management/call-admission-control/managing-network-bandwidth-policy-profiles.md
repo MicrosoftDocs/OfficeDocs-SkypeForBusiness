@@ -32,14 +32,14 @@ As part of call admission control (CAC), a bandwidth policy is used to define ba
 5.  On the **Edit** menu, click **Show details**.
 
 
-### Viewing Network Bandwidth Policy Profile Information by Using Windows PowerShell Cmdlets
+### Viewing network bandwidth policy profile information by using Windows PowerShell cmdlets
 
 Network bandwidth profiles can be viewed by using Windows PowerShell and the Get-CsNetworkBandwidthPolicyProfile cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. 
 
 
 ### To view network bandwidth policy profile information
 
-  - To view information about all your network bandwidth policy profiles, type the following command in the Skype for Business Server Management Shell and then press ENTER:
+  - To view information about all your network bandwidth policy profiles, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
     
         Get-CsNetworkBandwidthPolicyProfile
     
@@ -59,7 +59,7 @@ For more information, see the help topic for the [Get-CsNetworkBandwidthPolicyPr
 
 ## Create or modify bandwidth policy profiles
 
-As part of call admission control (CAC), a bandwidth policy is used to define bandwidth limitations for certain modalities. InSkype for Business Server, only audio and video modalities can be assigned bandwidth limitations. You can set overall bandwidth limitations and session limitations. You can use the Skype for Business Server Control Panel to create, modify, or delete a container profile for these policies. Each bandwidth policy profile can be associated with one or more network sites. Use the following procedures to create or modify a bandwidth policy profile. 
+As part of call admission control (CAC), a bandwidth policy is used to define bandwidth limitations for certain modalities. In Skype for Business Server, only audio and video modalities can be assigned bandwidth limitations. You can set overall bandwidth limitations and session limitations. You can use the Skype for Business Server Control Panel to create, modify, or delete a container profile for these policies. Each bandwidth policy profile can be associated with one or more network sites. Use the following procedures to create or modify a bandwidth policy profile. 
 
 ### To create a new bandwidth policy profile
 
@@ -67,7 +67,7 @@ As part of call admission control (CAC), a bandwidth policy is used to define ba
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Bandwidth Policy**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Bandwidth Policy**.
 
 4.  On the **Bandwidth Policy** page, click **New**.
 
@@ -95,13 +95,13 @@ As part of call admission control (CAC), a bandwidth policy is used to define ba
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Bandwidth Policy**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Bandwidth Policy**.
 
 4.  On the **Bandwidth Policy** page, click the bandwidth policy profile that you want to modify.
 
 5.  On the **Edit** menu, click **Show details**.
 
-6.  On the **Edit Bandwidth Policy Profile** page, modify the fields as necessary (for details, see the "To create a bandwidth policy profile" section earlier in this topic).
+6.  On the **Edit Bandwidth Policy Profile** page, modify the fields as necessary (for details, see [To create a new bandwidth policy profile](#to-create-a-new-bandwidth-policy-profile)).
 
 7.  Click **Commit**.
 
@@ -119,7 +119,7 @@ As part of call admission control (CAC), a bandwidth policy is used to define ba
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel. 
 
-3.  In the left navigation bar, click **Network Configuration** and then click **Bandwidth Policy**.
+3.  In the left navigation bar, click **Network Configuration**, and then click **Bandwidth Policy**.
 
 4.  On the **Bandwidth Policy** page, click the bandwidth policy profile that you want to delete.
 
