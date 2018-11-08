@@ -42,6 +42,9 @@
 ### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
 ### [Onboard support](teams-adoption-onboard-support.md)
 ## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
+### [Define outcomes and success](teams-adoption-define-outcomes.md)
+### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
+### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
