@@ -1,21 +1,20 @@
 ---
-title: "Troubleshoot Statistics Manager for Skype for Business Server 2015"
+title: "Troubleshoot Statistics Manager for Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 5/23/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: "Summary: Read this topic to troubleshoot your deployment of Statistics Manager for Skype for Business Server 2015."
+description: "Summary: Read this topic to troubleshoot your deployment of Statistics Manager for Skype for Business Server."
 ---
 
-# Troubleshoot Statistics Manager for Skype for Business Server 2015
+# Troubleshoot Statistics Manager for Skype for Business Server
  
-**Summary:** Read this topic to troubleshoot your deployment of Statistics Manager for Skype for Business Server 2015.
+**Summary:** Read this topic to troubleshoot your deployment of Statistics Manager for Skype for Business Server.
   
 This topic describes how to troubleshoot your Statistics Manager deployment by describing events you might see in the application event log, and appropriate actions you might take to rectify the event. This topic contains the following sections:
   
@@ -168,11 +167,11 @@ This topic describes how to troubleshoot your Statistics Manager deployment by d
 
 For more information, see the following:
   
-- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server](plan.md)
     
-- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
+- [Deploy Statistics Manager for Skype for Business Server](deploy.md)
     
-- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server](upgrade.md)
     
 - [Skype for Business Server Statistics Manager blog](https://blogs.technet.microsoft.com/skypestatsman/)
     
