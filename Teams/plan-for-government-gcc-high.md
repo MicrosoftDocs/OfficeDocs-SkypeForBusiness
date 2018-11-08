@@ -100,7 +100,7 @@ When you use the MSI installer to install Teams, you must define the source para
 
 Use a command prompt with elevated privileges to run the following command:
 
-    `msiexec /i Teams_windows.msi SOURCE=GCCHigh`
+    msiexec /i Teams_windows.msi SOURCE=GCCHigh
 
 **Command description**
 
