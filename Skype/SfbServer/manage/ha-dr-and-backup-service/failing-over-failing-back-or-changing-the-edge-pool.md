@@ -18,17 +18,17 @@ Use the sections in this article to learn how to fail over and fail back the Edg
 
 If the Edge pool where you have Skype for Business Server federation configured goes down, you must change federation to use a different Edge pool for federation to work.
 
-1.  On a Front End server, open Topology Builder. Expand **Edge pools**, then right click the Edge server or Edge server pool that is currently configured for Federation. Select **Edit properties**.
+1.  On a Front End server, open Topology Builder. Expand **Edge pools**, and then right-click the Edge server or Edge server pool that is currently configured for Federation. Select **Edit properties**.
 
 2.  In **Edit Properties** under **General**, clear **Enable federation for this Edge pool (Port 5061)**. Click **OK**.
 
-3.  Expand **Edge pools**, then right click the Edge server or Edge server pool that you now want to use for Federation. Select **Edit properties**.
+3.  Expand **Edge pools**, and then right-click the Edge server or Edge server pool that you now want to use for Federation. Select **Edit properties**.
 
 4.  In **Edit Properties** under **General**, select **Enable federation for this Edge pool (Port 5061)**. Click **OK**.
 
 5.  Click **Action**, select **Topology**, select **Publish**. When prompted on **Publish the topology**, click **Next**. When the Publish is finished, click **Finish**.
 
-6.  On the Edge server, open the Skype for Business Server Deployment wizard. Click **Install or Update Skype for Business Server System**, then click **Setup or Remove Skype for Business Server Components**. Click **Run Again**.
+6.  On the Edge server, open the Skype for Business Server Deployment wizard. Click **Install or Update Skype for Business Server System**, and then click **Setup or Remove Skype for Business Server Components**. Click **Run Again**.
 
 7.  Click **Next**. The summary screen will show actions as they are executed. Once the deployment is done, click **View Log** to view available log files. Click **Finish** to complete the deployment.
     
