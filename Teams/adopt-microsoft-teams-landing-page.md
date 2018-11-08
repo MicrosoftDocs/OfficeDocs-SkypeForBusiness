@@ -169,7 +169,10 @@ Adoption plans can be simple to complex, depending on your environment. For larg
                     </div>
                     <div class="cardText">
                         <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">Scale</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable#selecting-your-service-strategy-and-managing-stakeholders">Service strategy and stakeholders</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Define outcome and success</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Optimize feedback and reporting</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Drive awareness and implement training</a></p>
+
                     </div>
                 </div>
             </div>
