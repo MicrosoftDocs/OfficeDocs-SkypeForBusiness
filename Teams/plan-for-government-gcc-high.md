@@ -94,7 +94,7 @@ When you’re ready, deploy Teams to [enable collaboration within your organizat
 
 This step contains guidelines that describe how to use the Teams MSI installer to complete a mass deployment of Microsoft Teams in a GCC High environment. Follow these guidelines to ensure that the app backend services are mapped to the GCC High cloud.
 
-### MSI commands and parameters
+### MSI command and parameters
 
 When you use the MSI installer to install Teams, you must define the source parameter as **GCCHigh**.
 
