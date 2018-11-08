@@ -3,11 +3,11 @@ title: Plan for Microsoft 365 Government - GCC High deployments - Microsoft Team
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/01/2018
+ms.date: 11/08/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
-description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation  
+description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation.  
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -90,4 +90,27 @@ After you’ve been onboarded to Microsoft 365 Government – GCC High, you can 
 
 When you’re ready, deploy Teams to [enable collaboration within your organization through teams and channels](teams-overview.md). Be sure to engage with your Adoption and Change Management team or Teams champions.
 
+## Step 7. MSI installer commands and parameters
 
+This step contains guidelines that describe how to use the Teams MSI installer to complete a mass deployment of Microsoft Teams in a GCC High environment. Follow these guidelines to ensure that the app backend services are mapped to the GCC High cloud.
+
+### MSI installer commands and parameters
+
+When you use the MSI installer to install Teams, you must define the source parameter as **GCCHigh**.
+
+Use a command prompt with elevated privileges to run the following command:
+
+    `msiexec /i Teams_windows.msi SOURCE=GCCHigh`
+
+**Command description**
+
+| Command part | Notes |
+| ------------ | ----- |
+| msiexec | Command line utility to install, change, or uninstall the MSI |
+| /i | Parameter for install |
+| Teams_windows.msi | The Teams installer MSI file |
+| SOURCE=GCCHigh | Metadata to specify that the deployment environment is GCCHigh | 
+
+> [!NOTE]
+> Teams should not be installed via an .exe file for GCC High. Deployment via .exe is under development.
+ 
