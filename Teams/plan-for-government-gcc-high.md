@@ -90,7 +90,7 @@ After you’ve been onboarded to Microsoft 365 Government – GCC High, you can 
 
 When you’re ready, deploy Teams to [enable collaboration within your organization through teams and channels](teams-overview.md). Be sure to engage with your Adoption and Change Management team or Teams champions.
 
-## Step 7. Use the MSI installer to complete a mass deployment
+## Step 7. Desktop client deployment for GCC High
 
 This step describes how to use the Teams MSI installer to complete a mass deployment of Microsoft Teams in a GCC High environment. Follow these guidelines to ensure that the app backend services are mapped to the GCC High cloud.
 
