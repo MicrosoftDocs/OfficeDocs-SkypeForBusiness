@@ -62,7 +62,7 @@ In the Skype for Business Server Control Panel, you can see the name of the appl
 
 2.  Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.
 
-3.  In the left navigation bar, click **Topology** and the click **Trusted Application**.
+3.  In the left navigation bar, click **Topology**, and then click **Trusted Application**.
 
 4.  On the **Trusted Application** page, click a column heading to sort the applications, if needed.
 
@@ -74,11 +74,11 @@ You can view information about your trusted applications by using Windows PowerS
 
 ### To view trusted applications
 
-To view all of your trusted applications, type the following command in the Skype for Business Server Management Shell and then press ENTER:
+To view all of your trusted applications, type the following command in the Skype for Business Server Management Shell, and then press ENTER:
     
         Get-CsConferenceDisclaimer
     
-    This command returns information similar to the following for each trusted application:
+   This command returns information similar to the following for each trusted application:
     
         Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
                                  Service,CN=Services,CN=Configuration,DC=litware,DC=com
@@ -96,4 +96,4 @@ To view all of your trusted applications, type the following command in the Skyp
         ExUmEnabled            : False
         Enabled                : True
     
-    For details, see [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).
+   For details, see [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).
