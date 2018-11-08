@@ -54,7 +54,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="/MicrosoftTeams/change-management-strategy">
+                                <a href="/MicrosoftTeams/adopt-microsoft-teams-landing-page">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

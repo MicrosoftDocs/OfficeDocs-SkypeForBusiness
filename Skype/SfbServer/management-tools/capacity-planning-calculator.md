@@ -31,13 +31,13 @@ Once you have used the Planning Tool and the Capacity Planning Calculator, you s
   
 ## Using the Capacity Calculator
 
-The calculator is a Microsoft Excel spreadsheet. Your input cells are colored orange. Default values are entered in the cells (such as 80,000 users in one pool with twelve Front End Servers), but you should change these values to match your organization's needs. 
+The calculator is a Microsoft Excel spreadsheet. Your input cells are colored orange. Default values are entered in the cells (For Skype for Business Server 2015, 80,000 users in one pool with twelve Front End Servers, while for Skype for Business Server 2019, 106,000 users in one pool with sixteen Front End Servers), but you should change these values to match your organization's needs.
   
 The usage model contains the following sections. To calculate your capacity requirements, enter data as described starting at the top of the sheet and working down row by row: 
   
  **Instant Messaging and Presence**
   
-- Under **Number of Users**, type the number of users who will be signed in at once. This number is typically 80% of the total number of provisioned users. In most situations, 100% of your concurrent users will be enabled for IM and Presence. The default is 80,000.
+- Under **Number of Users**, type the number of users who will be signed in at once. This number is typically 80% of the total number of provisioned users. In most situations, 100% of your concurrent users will be enabled for IM and Presence. The default is 80,000 for Skype for Business Server 2015, and 106,000 users for Skype for Business Server 2019.
     
 - **Average number of contacts in Contact list** indicates the number of contacts that we are using to validate your system requirements. This number is fixed and not something you should change.
     
@@ -85,7 +85,7 @@ When you have entered all the necessary information, the capacity calculator est
     
 The green cells show recommendations for the usage model that you entered. 
   
-- **Total Front End Servers**: The number of physical servers required are based on dedicated servers running Skype for Business Server with dual processor, hex-core, with 2,260 megacycles.
+- **Total Front End Servers**: The number of physical servers required are based on dedicated servers running Skype for Business Server 2015 with dual processor, hex-core, with 2,260 megacycles, or Skype for Business Server 2019 with Intel Xeon E5-2673 v3, dual processor, hex-core.
     
     Note that enabling hyperthreading is recommended and has been proven to improve performance for servers that support audio/video.
     
@@ -105,8 +105,7 @@ Additionally, in the row next to Total Front End Servers, more information is pr
     
 ### Adjusting For Your Processors
 
-All the CPU usage figures in the spreadsheet assume that each server has a dual processor, hex-core with 2.26 GHz, at least 32 GB of memory, and 8 or more 10,000-RPM hard disk drives with at least 72 GB free disk space. 
+All the CPU usage figures in the spreadsheet assume that each Skype for Business Server 2015 server has a dual processor, hex-core with 2.26 GHz, at least 32 GB of memory, and 8 or more 10,000-RPM hard disk drives with at least 72 GB free disk space. For each Skype for Business Server 2019 server, all the CPU usage figures in the spreadsheet assume that each server has a dual processor, hex-core with Intel Xeon E5-2673 v3, at least 64 GB of memory, and 8 or more 10,000-RPM hard disk drives with at least 72 GB free disk space.
   
 If your servers have different processors, you can adjust the figures to match your hardware.
   
-
