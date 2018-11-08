@@ -25,7 +25,7 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
 
     -   Teams can also be created to be public and open and anyone within the organization can join (up to 2500 members).
     
-A team is designed to bring together a group of people that work closely to get things done. Teams can be dynamic for project-based work (for example, launching a product, creating a digital war room), as well as ongoing, to reflect the internal structure of your organization (for example, departments and office locations). Conversations, files and notes across team channels are only visible to members of the team.
+    A team is designed to bring together a group of people that work closely to get things done. Teams can be dynamic for project-based work (for example, launching a product, creating a digital war room), as well as ongoing, to reflect the internal structure of your organization (for example, departments and office locations). Conversations, files and notes across team channels are only visible to members of the team.
 
 -   **Channels** are dedicated sections within a team to keep conversations organized by specific topics, projects, disciplines—-whatever works for your team!
 
@@ -33,7 +33,11 @@ A team is designed to bring together a group of people that work closely to get 
 
     -   Channels are most valuable when extended with apps that include tabs, connectors, and bots that increase their value to the members of the team.
 
-Membership, Roles and Settings
+View this short video to learn more about the best practices for creating teams and channels.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Membership, roles, and settings
 ------------------------------
 
 **Team Membership**
