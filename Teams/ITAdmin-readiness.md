@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 09/21/2018
+ms.date: 11/07/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
@@ -208,6 +208,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                     <div class="cardText">
                         <h3>Meetings</h3>
                         <p><a href="tutorial-meetings-in-teams.yml">Tutorial: Meetings in Teams</a></p>
+                        <p><a href="https://aka.ms/teams-meetings-intro">Video: Introduction to Meetings in Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -245,7 +246,8 @@ Use these tutorials, videos, and other training resources to learn about Teams a
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Calling Plans</h3>
+                        <h3>Phone System</h3>
+                         <p><a href="https://aka.ms/teams-phone-system">Video: Introduction to Phone System in Microsoft Teams</a></p>
                          <p><a href="configuring-teams-calling-quickstartguide.md">Quick start: Configuring Calling Plans in Teams</a></p>
                          <p><a href="tutorial-calling-in-teams.yml">Tutorial: Understand calling in Teams</a></p>
                     </div>
@@ -258,7 +260,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardText">
                         <h3>Direct Routing</h3>
-                        <p><a href="https://www.youtube.com/watch?v=dVkc5Bs926Q">Video: Direct Routing for Teams - Preview</a></p>
+                        <p><a href="https://aka.ms/teams-direct-routing">Video: Direct Routing in Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
