@@ -22,7 +22,7 @@ description: "This appendix includes detailed steps for updating the edge certif
 
 # Update the edge certificate
 
-This is the key step to ensure that an on-prem environment with SipDomain1 can join a cloud environment with SipDomain2 and ensure proper routing in a shared address space environment across the twi sip domains. In our examples, SipDomain1 is AcquiredCompany.<span>com and SipDomain2 is OriginalCompany.<span>com.
+Updating the edge certificate is the key step to ensuring that an on-prem environment with SipDomain1 can join a cloud environment with SipDomain2 and ensure proper routing in a shared address space environment across the twi sip domains. See step 12 in [Cloud consolidation for Teams and Skype for Business](cloud-consolidation.md) for context in which you might perform this step. In our examples, SipDomain1 is AcquiredCompany.<span>com and SipDomain2 is OriginalCompany.<span>com.
 
 The subject alternate name (SAN) of the certificate on all edge servers in the on-premises environment must be updated to include all sip domains that exist in the pure online tenant (excluding any onmicrosoft.<span>com domains), in the form “sip.\<domain>”.  In our example, this is sip.OriginalCompany.<span>com. This step is critical to do before migrating any users to the cloud.
 
