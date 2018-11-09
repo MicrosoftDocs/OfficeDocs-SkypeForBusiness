@@ -172,7 +172,6 @@ Adoption plans can be simple to complex, depending on your environment. For larg
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Define outcome and success</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Optimize feedback and reporting</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Drive awareness and implement training</a></p>
-
                     </div>
                 </div>
             </div>

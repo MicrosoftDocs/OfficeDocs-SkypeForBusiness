@@ -33,7 +33,9 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
 
     -   Channels are most valuable when extended with apps that include tabs, connectors, and bots that increase their value to the members of the team.
 
-[View this short video](https://youtu.be/hjJWtoaRJeE) to learn more about the best practices for creating teams and channels.
+View this short video to learn more about the best practices for creating teams and channels.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Membership, roles, and settings
 ------------------------------
