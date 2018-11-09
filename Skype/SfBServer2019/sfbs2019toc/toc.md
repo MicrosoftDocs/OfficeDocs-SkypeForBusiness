@@ -16,6 +16,10 @@
 #### [Configure server-to-server authentication](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md)
 #### [Configure a multi-forest environment](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [Move users from on-premises to Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
+### [Cloud consolidation for Teams and Skype for Business](../hybrid/cloud-consolidation.md)
+#### [Updating the edge certificate](../hybrid/cloud-consolidation-edge-certificates.md)
+#### [Disabling hybrid to complete migration to the cloud](../hybrid/cloud-consolidation-disabling-hybrid.md)
+#### [Updating AAD Connect to include more than one forest](../hybrid/cloud-consolidation-aad-connect.md)
 ### [Move users from on-premises to Teams](../hybrid/move-users-from-on-premises-to-teams.md)
 ### Cloud Voicemail
 #### [Plan Cloud Voicemail](../hybrid/plan-cloud-voicemail.md)
