@@ -22,15 +22,15 @@ appliesto:
 
 ## Get started driving adoption of Microsoft Teams
 
-- [ ] Adoption prerequisites
+&#x2611 Adoption prerequisites
 
 ## Phase 1 - Start
 
-- [ ] Understand teams and channels
-- [ ] Create your first teams
-- [ ] Are you ready for Teams?
-- [ ] Meet with stakeholders
-- [ ] Identify early adopters
+[ ] Understand teams and channels
+[ ] Create your first teams
+[ ] Are you ready for Teams?
+[ ] Meet with stakeholders
+[ ] Identify early adopters
 
 ## Phase 2 - Experiment
 
