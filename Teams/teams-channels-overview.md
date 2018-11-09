@@ -35,7 +35,7 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
 
 View this short video to learn more about the best practices for creating teams and channels.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="520" height="320" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Membership, roles, and settings
 ------------------------------
@@ -52,7 +52,7 @@ There are two main roles in Microsoft Teams: a team owner, the person who create
 Team owners can manage team-wide settings directly in Microsoft Teams. Settings include the ability to add a team picture, set permissions across team members for creating channels, adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes. 
 
 Take three minutes to check out this go-to-guide video for team owners: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="520" height="320" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 If you are a Microsoft Teams administrator in Office 365, you have access to system-wide settings in the Teams & Skype for Business Admin Center. These settings can impact the options and defaults team owners see under team settings. For example, you can enable a default channel, “General”, for team-wide announcements, discussions and resources, which will appear across all teams.
 
