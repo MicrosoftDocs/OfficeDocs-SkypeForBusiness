@@ -1,5 +1,5 @@
 ---
-title: "Configure a multi-forest environment for hybrid Skype for Business"
+title: "Deploy Resource forest topologies"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,7 +12,7 @@ ms.custom:
 description: "The following sections provide guidance on how to configure an environment that has multiple forests in a Resource/User forest model to provide Skype for Business functionality in a hybrid scenario."
 ---
 
-# Configure a multi-forest environment for hybrid Skype for Business
+# Deploy Resource forest topologies
  
 The following sections provide guidance on how to configure an environment that has multiple forests in a Resource/User forest model to provide Skype for Business functionality in a hybrid scenario. 
   

@@ -152,6 +152,6 @@ The steps in the canonical example above assume that the organization starts wit
 
 [Updating the edge certificate](cloud-consolidation-edge-certificates.md)
 
-[Disabling hybrid to complete migration to the cloud](cloud-consolidation-disabling-hybrid.md)
-
 [Updating AAD Connect to include more than one forest](cloud-consolidation-aad-connect.md)
+
+[Disabling hybrid to complete migration to the cloud](cloud-consolidation-disabling-hybrid.md)
