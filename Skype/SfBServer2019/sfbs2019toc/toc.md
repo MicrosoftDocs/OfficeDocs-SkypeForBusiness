@@ -17,7 +17,7 @@
 ### [Move users between on-premises and cloud](../hybrid/move-users-between-on-premises-and-cloud.md)
 #### [Move users from on-premises to Teams](../hybrid/move-users-from-on-premises-to-teams.md)
 #### [Move users from on-premises to Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
-#### [Manage Meeting Migration](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/toc.json&bc=/SkypeForBusiness/hybrid/breadcrumb/toc.json) 
+#### [Manage Meeting Migration](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid//hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid//hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
 ### [Disable hybrid to complete migration to the cloud](../hybrid/cloud-consolidation-disabling-hybrid.md)
 
