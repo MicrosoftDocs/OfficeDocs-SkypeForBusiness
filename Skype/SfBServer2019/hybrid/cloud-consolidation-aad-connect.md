@@ -1,5 +1,5 @@
 ---
-title: "Updating AAD Connect to include more than one forest"
+title: "Update AAD Connect to include more than one forest"
 ms.author: crowe
 author: crowe
 manager: serdars
@@ -20,7 +20,7 @@ localization_priority: Normal
 description: "This appendix includes detailed steps for updating AAD Connect to include more than one forest as part of cloud consolidation for Teams and Skype for Business."
 ---
 
-# Updating AAD Connect to include more than one forest
+# Update AAD Connect to include more than one forest
 
 Azure AD Connect supports [syncing from multiple forests](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-topologies). However, it supports only one instance of Azure AD Connect syncing to AAD. Therefore, in cases where Azure AD is already installed in one forest, the existing instance of AAD Connect must be updated to sync from the additional forest.
 

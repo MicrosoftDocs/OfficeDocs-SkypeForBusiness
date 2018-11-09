@@ -17,16 +17,16 @@
 ### [Move users between on-premises and cloud](../hybrid/move-users-between-on-premises-and-cloud.md)
 #### [Move users from on-premises to Teams](../hybrid/move-users-from-on-premises-to-teams.md)
 #### [Move users from on-premises to Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
-#### [Setting up the Meeting Migration Service (MMS)](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [Managing Meeting Migration](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 
-### [Disabling hybrid to complete migration to the cloud](../hybrid/cloud-consolidation-disabling-hybrid.md)
+### [Disable hybrid to complete migration to the cloud](../hybrid/cloud-consolidation-disabling-hybrid.md)
 
 ### [Deploy Resource forest topologies](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 
 ### [Cloud consolidation for Teams and Skype for Business](../hybrid/cloud-consolidation.md)
-#### [Updating the edge certificate](../hybrid/cloud-consolidation-edge-certificates.md)
+#### [Update the edge certificate](../hybrid/cloud-consolidation-edge-certificates.md)
 
-#### [Updating AAD Connect to include more than one forest](../hybrid/cloud-consolidation-aad-connect.md)
+#### [Update AAD Connect to include more than one forest](../hybrid/cloud-consolidation-aad-connect.md)
 
 ### Cloud Voicemail
 #### [Plan Cloud Voicemail](../hybrid/plan-cloud-voicemail.md)

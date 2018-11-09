@@ -1,5 +1,5 @@
 ---
-title: "Updating the edge certificate"
+title: "Update the edge certificate"
 ms.author: crowe
 author: crowe
 manager: serdars
@@ -20,7 +20,7 @@ localization_priority: Normal
 description: "This appendix includes detailed steps for updating the edge certificate as part of cloud consolidation for Teams and Skype for Business."
 ---
 
-# Updating the edge certificate
+# Update the edge certificate
 
 This is the key step to ensure that an on-prem environment with SipDomain1 can join a cloud environment with SipDomain2 and ensure proper routing in a shared address space environment across the twi sip domains. In our examples, SipDomain1 is AcquiredCompany.<span>com and SipDomain2 is OriginalCompany.<span>com.
 

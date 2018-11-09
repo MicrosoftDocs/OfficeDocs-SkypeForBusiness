@@ -1,5 +1,5 @@
 ---
-title: "Disabling hybrid to complete migration to the cloud"
+title: "Disable hybrid to complete migration to the cloud"
 ms.author: crowe
 author: crowe
 manager: serdars
@@ -20,7 +20,7 @@ localization_priority: Normal
 description: "This appendix includes detailed steps for disabling hybrid as part of cloud consolidation for Teams and Skype for Business."
 ---
 
-# Disabling hybrid to complete migration to the cloud
+# Disable hybrid to complete migration to the cloud
 
 After you have moved all users from on-premises to the cloud, you can decommission the on-premises Skype for Business deployment. Aside from removing any hardware, a critical step is to logically separate that on-premises deployment from Office 365 by disabling hybrid. Disabling hybrid consists of 3 steps:
 
