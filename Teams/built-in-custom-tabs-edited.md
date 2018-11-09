@@ -28,6 +28,11 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 - With every new channel, two tabs are provisioned by default, Conversations and Files. 
 
     ![Screenshot of the Conversation section of the Marketing team.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+- With every private chat, a different set of tabs are provisioned by default.
+
+    ![Screenshot of the tabs in a chat.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
+
+- Owners and team members can add more tabs to a channel or chat by clicking **Add a tab** ![Screenshot of the Add a tab button, showing a + sign.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) at the top of the channel or chat.
 
 - Excel, PowerPoint, Word, and PDF files must be uploaded to the **Files** tab before they can be converted to tabs. Alternatively, any existing uploaded file can be converted to a tab with a single click, as shown below.
 
