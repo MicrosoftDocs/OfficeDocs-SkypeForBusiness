@@ -3,7 +3,7 @@ title: Microsoft Teams adoption quick start checklist
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/08/2018
+ms.date: 11/09/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
