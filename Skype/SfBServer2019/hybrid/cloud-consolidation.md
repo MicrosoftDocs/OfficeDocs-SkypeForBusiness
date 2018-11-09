@@ -20,7 +20,7 @@ localization_priority: Normal
 description: "This article describes how to achieve that consolidation for organizations with on-premises deployment(s) of Skype for Business (or Lync) who are looking to move to move their UC workload to Teams and/or Skype for Business Online."
 ---
 
-# Cloud Consolidation for Teams and Skype for Business
+# Cloud consolidation for Teams and Skype for Business
 
 Many large enterprises have more than one on-premises AD forest, and in some cases, customers have more than one Exchange and/or Lync deployment. In addition, even organizations with only one on-premises forest could find themselves in a similar situation via acquisition. As these customers move to the cloud, they want to consolidate the multiple instances of a given on-prem workload into the cloud into a single Office 365 tenant. This article describes how to achieve that consolidation for organizations with on-premises deployment(s) of Skype for Business (or Lync) who want to move to move their UC workload to the Microsoft cloud, e.g., Microsoft Teams and/or Skype for Business Online.
 
@@ -52,25 +52,25 @@ The basic steps to get from the original state to the desired end state are belo
 2.	Make sure all relevant SIP domains across both on-prem deployments are verified Office 365 domains.
 3.	Pick one Skype for Business deployment that will be hybrid with Office 365. In this example, we’ll use OriginalCompany.<span>com.
 4.	[Enable AAD Connect for the forest](configure-azure-ad-connect.md) that will first become hybrid (OriginalCompany.<span>com). 
-5.	It is recommended at this point (but not yet required until step 10) to [enable AAD Connect for the other forest](cloud-consolidation-appendix.md#updating-aad-connect-to-include-more-than-one-forest)  (AcquiredCompany.<span>com). Assuming AAD Connect is enabled in both forests, the org looks like **Figure A**, which may be a common starting point for some orgs. 
+5.	It is recommended at this point (but not yet required until step 10) to [enable AAD Connect for the other forest](cloud-consolidation-aad-connect.md) (AcquiredCompany.<span>com). Assuming AAD Connect is enabled in both forests, the org looks like **Figure A**, which may be a common starting point for some orgs. 
 6.	For any SIP domains hosted by other on-prem deployments (in this case, AcquiredCompany.<span>com), [disable these SIP domains in online](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) using Disable-CsOnlineSipDomain in PowerShell. (This is new functionality as of Nov 2018.)
 7.	[Configure Skype for Business hybrid](configure-federation-with-skype-for-business-online.md) for OriginalCompany.<span>com (the one deployment that still has enabled online sip domains).
 8.	Start moving users from Skype for Business on-prem in OriginalCompany.<span>com to the cloud (whether Teams Only or not) so that account is homed in Skype for Business Online. Now the org looks like **Figure B**. The key changes from Figure A are:
     - Users from both on-prem directories are now in AAD.
     - AcquiredCompany.<span>com is a disabled sip domain in Teams.
     - Some users have been moved online to Teams. (See purple user A.)
-9.	Once all users are moved to the cloud, [disable hybrid with the Skype for Business on-prem deployment](cloud-consolidation-appendix.md#disabling-hybrid-to-complete-migration-to-the-cloud) for OriginalCompany.<span>com from Office 365:  
+9.	Once all users are moved to the cloud, [disable hybrid with the Skype for Business on-prem deployment](cloud-consolidation-disabling-hybrid.md) for OriginalCompany.<span>com from Office 365:  
     - Disable split domain in the Office 365 tenant.
     - Disable the ability to communicate with Office 365 in OriginalCompany.<span>com on-prem.
     - Update DNS records for OriginalCompany.<span>com to point to Office 365.
-10.	If not done already, [enable AAD Connect for the next forest](cloud-consolidation-appendix.md#updating-aad-connect-to-include-more-than-one-forest) that will go hybrid (AcquiredCompany.<span>com). At this point, the org looks like **Figure C**. This may be another common starting point for some orgs.
+10.	If not done already, [enable AAD Connect for the next forest](cloud-consolidation-aad-connect.md) that will go hybrid (AcquiredCompany.<span>com). At this point, the org looks like **Figure C**. This may be another common starting point for some orgs.
 11.	In PowerShell, [enable the sip domains for the next on-prem deployment](https://docs.microsoft.com/en-us/powershell/module/skype/enable-csonlinesipdomain?view=skype-ps) that will go hybrid, AcquiredCompany.<span>com. This is done using Enable-CsOnlineSipDomain, which is new functionality available as of Nov 2018.
 12.	Update the on-prem environment to accept any SIP domains from the online tenant, so they match.
-    - [Update the SAN in all edge certs](cloud-consolidation-appendix.md#updating-the-edge-certificate) to be the same value as before, plus values for any existing online SIP domains, in this case, Sip.OriginalCompany.<span>com.
+    - [Update the SAN in all edge certs](cloud-consolidation-edge-certificates.md) to be the same value as before, plus values for any existing online SIP domains, in this case, Sip.OriginalCompany.<span>com.
     - Make sure OriginalCompany.<span>com is an allowed domain in the on-prem deployment, AcquiredCompany.
 13.	[Enable Skype for Business hybrid](configure-federation-with-skype-for-business-online.md) between on-prem AcquiredCompany.<span>com and the cloud.
 14.	As desired, migrate users from on-prem to the cloud.   You can migrate users either directly to TeamsOnly mode or you can migrate them first to Skype for Business Online. During this state, the org looks like **Figure D**.
-15.	Once all users are migrated, [disable hybrid with the on-premise environment](cloud-consolidation-appendix.md#disabling-hybrid-to-complete-migration-to-the-cloud) to *make the org pure cloud*!
+15.	Once all users are migrated, [disable hybrid with the on-premise environment](cloud-consolidation-disabling-hybrid.md) to *make the org pure cloud*!
 
 The diagrams below show the configuration at various key points during this process.
 
@@ -150,4 +150,8 @@ The steps in the canonical example above assume that the organization starts wit
 
 ## See also
 
-[Appendix: Detailed steps](cloud-consolidation-appendix.md)
+[Updating the edge certificate](cloud-consolidation-edge-certificates.md)
+
+[Disabling hybrid to complete migration to the cloud](cloud-consolidation-disabling-hybrid.md)
+
+[Updating AAD Connect to include more than one forest](cloud-consolidation-aad-connect.md)
