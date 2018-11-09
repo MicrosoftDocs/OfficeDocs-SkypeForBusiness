@@ -22,36 +22,36 @@ appliesto:
 
 ## Get started driving adoption of Microsoft Teams
 
-&#x2611 Adoption prerequisites
+- Adoption prerequisites
 
 ## Phase 1 - Start
 
-[ ] Understand teams and channels
-[ ] Create your first teams
-[ ] Are you ready for Teams?
-[ ] Meet with stakeholders
-[ ] Identify early adopters
+- Understand teams and channels
+- Create your first teams
+- Are you ready for Teams?
+- Meet with stakeholders
+- Identify early adopters
 
 ## Phase 2 - Experiment
 
-- [ ] Create your champions program
-- [ ] Complete the governance quick start
-- [ ] Define the usage scenarios
-- [ ] Interview business stakeholders
-- [ ] Map and prioritize business scenarios
-- [ ] Onboard early adopters and gather feedback
-- [ ] Onboard support
+- Create your champions program
+- Complete the governance quick start
+- Define the usage scenarios
+- Interview business stakeholders
+- Map and prioritize business scenarios
+- Onboard early adopters and gather feedback
+- Onboard support
 
 ## Phase 3 - Scale
 
-- [ ] Define outcomes and success measures
-- [ ] Select a service enablement strategy
-- [ ] Engage stakeholders
-- [ ] Expand your implementation team
-- [ ] Expand your governance and information management policies
-- [ ] Optimize feedback and reporting
-- [ ] Drive awareness and implement training
-- [ ] Schedule service reviews
+- Define outcomes and success measures
+- Select a service enablement strategy
+- Engage stakeholders
+- Expand your implementation team
+- Expand your governance and information management policies
+- Optimize feedback and reporting
+- Drive awareness and implement training
+- Schedule service reviews
 
 
 
