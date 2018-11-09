@@ -3,7 +3,7 @@ title: Guest access in Microsoft Teams
 author: LaithAlShamri
 ms.author: lolaj
 manager: serdars
-ms.date: 11/06/2018
+ms.date: 11/09/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -20,7 +20,7 @@ Guest access in Microsoft Teams
 
 ## Guest access overview
 
-Guest Access is new in Teams. It’s one of the features customers asked for the most. Here’s how you can keep up with our progress on Guest Access and tell us your thoughts:
+Guest access is one of the features customers asked for the most. Here’s how you can keep up with our progress on guest access and tell us your thoughts:
 
 - If you’re having trouble with Guest Access, check out [Known issues for Microsoft Teams](Known-issues.md).
 - Find out about upcoming new or updated features in the [Teams Roadmap](https://aka.ms/teamsroadmap).
@@ -28,7 +28,7 @@ Guest Access is new in Teams. It’s one of the features customers asked for the
 - Share your experience in the Comments section below.
 
 
-Guest access in Microsoft Teams allows teams in your organization to collaborate with people outside your organization by granting them access to teams and channels. 
+Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels on one or more of your tenants.
 
 Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams with full access to team chats, meetings, and files.
 
@@ -41,7 +41,7 @@ Guest access is a tenant-level setting in Microsoft Teams and is turned off by d
 
 ## Who is a guest?
 
-A guest is someone who isn't an employee, student, or member of your organization. They don't have a school or work account with your organization. For example, guests may include partners, vendors, suppliers, or consultants. Anyone who is not part of your organization can be added as guest in Microsoft Teams. This means that anyone with a business account (that is, an Azure Active Directory account) or consumer email account (with Outlook.com, Gmail.com or others) can participate as a guest in Teams, with full access to teams and channel experiences (read about guest restrictions in [Authorize guest access in Microsoft Teams](teams-dependencies.md)). All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and can be managed securely within Azure AD. All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and can be managed securely within Azure AD.
+A guest is someone who isn't an employee, student, or member of your organization. They don't have a school or work account with your organization. For example, guests may include partners, vendors, suppliers, or consultants. Anyone who is not part of your organization can be added as guest in Teams. This means that anyone with a business account (that is, an Azure Active Directory account) or consumer email account (with Outlook.com, Gmail.com or others) can participate as a guest in Teams, with full access to teams and channel experiences. (You can read about guest restrictions in [Authorize guest access in Microsoft Teams](teams-dependencies.md).) All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and can be managed securely within Azure AD. All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and can be managed securely within Azure AD.
 
 ## Why use guest access?
       
@@ -71,7 +71,8 @@ Guest access differs from external access (also known as federation) as follows:
   
 |  |  |
 |---------|---------|
-| Deep dive into guest access   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
+|Introduction to to guest access   | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
+|Deep dive into guest access   | <iframe width="350" height="200" src="https://www.youtube.com/embed/vaJRRSjBxxY" frameborder="0" allowfullscreen></iframe>   |
 | Adding guests in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
     
 
