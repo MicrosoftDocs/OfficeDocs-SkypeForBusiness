@@ -57,7 +57,7 @@ To deploy Statistics Manager, follow these steps:
   
 ### Prepare the Listener host machine
 
-To prepare the host machine, you will need to install the Redis in-memory caching system, and ensure that a valid certificate is on the machine. Microsoft recommends that you install the latest stable build of Redis 3.0. Statistics Manager version 1.1 was tested with Redis 3.0.501 and Redis 2.8.2400. 
+To prepare the host machine, you will need to install the Redis in-memory caching system, and ensure that a valid certificate is on the machine. Microsoft recommends that you install the latest stable build of Redis 3.0. Statistics Manager version 2.0 was tested with Redis 3.2.100. 
   
 1. Download Redis from the following site: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis). 
     

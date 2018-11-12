@@ -21,13 +21,13 @@ description: "Summary: Read this topic to learn about Statistics Manager for Sky
 
 You can use Statistics Manager to identify ongoing performance issues, view the results of a planned change to your environment, track resolution of outages, and much more. Out of the box, Statistics Manager is configured with Key Health Indicator (KHI) thresholds, and can be customized to suit your deployment's unique needs.
 
-You can deploy Statistics Manager in an on-premises deployment in which a single server hosts all of the server-side Statistics Manager components. For more information about deploying Statistics Manager, see [Deploy Statistics Manager for Skype for Business Server](deploy.md). If you already have an existing deployment of Statistics Manager, but you have not yet upgraded to Release 1.1, see [What's new in Release 1.1](plan.md#BKMK_WhatsNew) and [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
+You can deploy Statistics Manager in an on-premises deployment in which a single server hosts all of the server-side Statistics Manager components. For more information about deploying Statistics Manager, see [Deploy Statistics Manager for Skype for Business Server](deploy.md). If you already have an existing deployment of Statistics Manager, but you have not yet upgraded to Release 2.0, see [What's new in Release 2.0](plan.md#BKMK_WhatsNew) and [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
 
 This topic contains the following sections:
 
 - [Features and capabilities](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
 
-- [What's new in Release 1.1](plan.md#BKMK_WhatsNew)
+- [What's new in Release 2.0](plan.md#BKMK_WhatsNew)
 
 - [Components](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
 
@@ -72,16 +72,14 @@ Statistics Manager allows you to:
 
   - View KHI definitions
 
-## What's new in Release 1.1
+## What's new in Release 2.0
 <a name="BKMK_WhatsNew"> </a>
 
-The following describes what's new in Release 1.1. If you have an existing deployment of Statistics Manager and you've not yet upgraded, see [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
+The following describes what's new in Release 2.0. If you have an existing deployment of Statistics Manager and you've not yet upgraded, see [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
 
 - Scenario views have been added for Edge Media, Fabric Health, Pool Failover and Registration scenarios.
 
-- Command line PerfAgentStorageManager.exe (installed with the Listener) can now export counter data as a CSV.
-
-- Many new counters have been added for SQL servers, more Windows Fabric counters, more Skype for Business usage counters, and so on.
+- Many new counters have been added for SQL servers, more Skype for Business usage counters, and so on.
 
 - Watcher node integration for the Statistics Manager Agent - if the Agent is installed on a watcher node, it will report synthetic transaction statistics as counters back to Statistics Manager.
 
@@ -136,9 +134,7 @@ You will need to consider the following software, networking, and hardware requi
 
 - PSExec - Required to do remote agent deployment
 
-- .NET 4.5 (included with 2012 R2) - Required for server-side components
-
-- .NET 4.0 - Required for agents
+- .NET 4.5 (included with 2012 R2) - Required for agents and server-side components
 
 ### Networking requirements
 
