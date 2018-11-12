@@ -33,9 +33,9 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
 
     -   Channels are most valuable when extended with apps that include tabs, connectors, and bots that increase their value to the members of the team.
 
-View this short video to learn more about the best practices for creating teams and channels.
+View this short video to learn more about best practices for creating teams and channels.
 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
 Membership, roles, and settings
 ------------------------------
@@ -52,7 +52,8 @@ There are two main roles in Microsoft Teams: a team owner, the person who create
 Team owners can manage team-wide settings directly in Microsoft Teams. Settings include the ability to add a team picture, set permissions across team members for creating channels, adding tabs and connectors, @mentioning the entire team or channel, and the usage of GIFs, stickers, and memes. 
 
 Take three minutes to check out this go-to-guide video for team owners: 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
 If you are a Microsoft Teams administrator in Office 365, you have access to system-wide settings in the Teams & Skype for Business Admin Center. These settings can impact the options and defaults team owners see under team settings. For example, you can enable a default channel, “General”, for team-wide announcements, discussions and resources, which will appear across all teams.
 
@@ -66,7 +67,6 @@ Examples Teams
 Below are a few functional examples of how different types of users may approach setting up their teams, channels and apps (tabs/connectors/bots) – this may be useful to help kick off a conversation about Microsoft Teams with your user community. As you think about how to implement Microsoft Teams in your organization, remember that you can provide guidance on how to structure their teams, however users have control of how they can self-organize. These are just examples to help get teams to start thinking through the possibilities.
 
 Microsoft Teams is great at breaking down organizational silos and promoting cross-functional teams, so encourage your users to think about this as functional teams and not organizational silos.
-
 
 |Types of Teams  |Potential Channels  |Apps (Tabs ![Tabs icon.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![Connectors icon.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Bots icon.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
