@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 09/17/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: kelsawi, jastark
+ms.reviewer: kelsawi
 f1keywords: ms.teamsadmincenter.devicemanagement.overview
 description: Learn how to manage all devices used with Teams in your organization. 
 localization_priority: Normal
@@ -32,8 +32,6 @@ Devices must be certified for Teams and enrolled in Teams. A device is automatic
 1. In the left navigation, go to **Devices** > **Manage Devices**.
 2. Select **All devices**.  
 
-    ![Screen shot of the All devices area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center](media/device-management-all-devices.png "Screen shot of the All devices area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center")
-
  From here, you can view and manage all devices enrolled in Teams in your organization. Information that you'll see for each device includes device name, manufacturer, model, user, status, action, last seen, and history. You can customize the view to show the information that fits your needs.
 
  Here's some examples of how you can manage Teams devices in your organization.  
@@ -49,8 +47,6 @@ Devices must be certified for Teams and enrolled in Teams. A device is automatic
 ## Use configuration profiles in Teams
 
 Use configuration profiles to manage settings and features for Teams devices in your organization. You can create or upload configuration profiles to include settings and features you want to enable or disable and then assign a profile to a device or groups of devices. 
-
- ![Screen shot of the Configuration profiles area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center](media/device-management-configuration-profile.png "Screen shot of the Configuration profiles area on the Manage Devices page of the Microsoft Teams & Skype for Business admin center")
 
 ### Create a configuration profile
 
