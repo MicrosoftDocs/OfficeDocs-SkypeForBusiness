@@ -86,7 +86,7 @@ Users running Android 4.4 or later can download the Teams mobile app from the Go
 
 It's important to encourage your early adopters to actively use Teams to promote new collaboration experiences and develop Teams champions. We recommend using the "How do I" channel in the "Get to know Teams" team you created to share guidance with your users to help drive adoption. 
 
-For detailed guidance on driving Teams adoption for your organization, see [Creating a change management strategy for Teams](change-management-strategy.md). 
+For detailed guidance on driving Teams adoption for your organization, see [Adopt Teams](adopt-microsoft-teams-landing-page.md).
 
 ## Next steps
 Go to [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md).
