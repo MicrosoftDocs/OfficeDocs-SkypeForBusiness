@@ -30,7 +30,7 @@ Teams activity reports in the Office 365 admin center give you insights into use
 
 To view these reports, you must be a global admin in Office 365, Teams service admin, or reports reader. Go to the Office 365 admin center, click **Reports** > **Usage**. Under **Select a report**, click **Microsoft Teams**. From here, choose the report you want to view.
 
-- **Teams user actvity report**: This report shows you the types of communication activities users engage in, such as how many people chat in a channel and how many people communicate through private chat.  
+- **Teams user activity report**: This report shows you the types of communication activities users engage in, such as how many people chat in a channel and how many people communicate through private chat.  
 
     ![Teams user activity report](media/get-started-with-teams-user-activity-report.png "Screen shot of the Teams user activity report, showing a graph that indicates the number of users by activity type, which includes channel messages, chat messages, calls, meetings. and other") 
 - **Teams device usage report**: This report shows you how users connect to Teams, including how many people use Teams when on-the-go.
