@@ -3,21 +3,20 @@ title: Manage your devices in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 09/17/2018
+ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kelsawi
 f1keywords: ms.teamsadmincenter.devicemanagement.overview
-description: Learn how to manage all devices used with Teams in your organization. 
+description: Learn how to manage devices used with Teams in your organization. 
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
 appliesto: 
 - Microsoft Teams
 ---
 
 # Manage your devices in Microsoft Teams
 
- As an admin, you can easily manage all devices used with Teams in your organization from the Microsoft Teams & Skype for Business admin center. You can view and manage the device inventory for your organization and do tasks such as update and restart devices and monitor diagnostics for devices. You can also create and assign configuration profiles to a device or groups of devices. 
+ As an admin, you manage all devices used with Teams in your organization from the Microsoft Teams & Skype for Business admin center. You can view and manage the device inventory for your organization and do tasks such as update, restart, and monitor diagnostics for devices. You can also create and assign configuration profiles to a device or groups of devices. 
 
 ## What devices can you manage?
 Devices must be certified for Teams and enrolled in Teams. A device is automatically enrolled the first time a user signs in to Teams on the device. 
@@ -54,30 +53,8 @@ Use configuration profiles to manage settings and features for Teams devices in 
 
 1. In the left navigation, go to **Devices** > **Manage Devices**.
 2. Select **Configuration profiles**, and then select **New configuration profile**.
-3. Enter a name for the profile and if you want, add a friendly description. 
-4. Complete the following, and then click **Save**.
-    
-    |Area  |Setting |Description |
-    |---------|---------|---------|
-    |**General**  |  **Device lock**       |Turn on or turn off device lock. If you turn this on, set a timeout value and PIN.       |
-    |     |    **Language**     |Set the language for the device.       |
-    |    |     **Timezone**    |Set the timezone for the device.      |
-    |     |  **Time DST**       |Control how the device handles Daylight saving time (DST).      |
-    |     |   **Date format**      | Choose the date format.        |
-    |     |    **Time format**     | Choose the time format.       |
-    |**Hardware settings**  |  **Display screen saver**       |Turn on or turn off the screen saver. If you turn this on, set a timeout value.       |
-    |     |    **Display backlight brightness**     |Control the backlight brightness.       |
-    |    |     **Display backlight timeout**    |Set a timeout value for the backlight.     |
-    |     |  **Display high contrast**       |Turn on or turn off high contrast display.    |
-    |     |   **Silent mode**      | Turn on or turn off silent mode.       |
-    |     |    **Bluetooth**     | Turn on or turn off Bluetooth.       |
-    |   **Device settings**  |    **Logging enabled**     | Turn on or turn off logging.      |
-    |     |    **Logging types**     | Set logging types.       |
-    |     |    **Network DHCP**     | Set the network DHCP server.     |    
-    |     |    **Network Wifi**     | Set the wifi network.      |
-    |     |    **Network PC Port**     | Set the network PC port.        |
-    |     |    **Device's default admin password**     | Set the admin password.      |
-    |     |    **Screen capture**     | Turn on or turn off screen capture.       |
+3. Enter a name for the profile and if you want, add a friendly description.
+4. Specify the settings you want for the profile, and then click **Save**.
 
 ### Assign a configuration profile
 
