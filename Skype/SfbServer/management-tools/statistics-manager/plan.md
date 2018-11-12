@@ -1,5 +1,5 @@
 ---
-title: "Plan for Statistics Manager for Skype for Business Server 2015"
+title: "Plan for Statistics Manager for Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: "Summary: Read this topic to learn about Statistics Manager for Skype for Business Server 2015."
+description: "Summary: Read this topic to learn about Statistics Manager for Skype for Business Server."
 ---
 
-# Plan for Statistics Manager for Skype for Business Server 2015
+# Plan for Statistics Manager for Skype for Business Server
 
-**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server 2015.
+**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server.
 
  Statistics Manager for Skype for Business Server is a powerful tool that allows you to view Skype for Business Server health and performance data in real time. You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website.
 
 You can use Statistics Manager to identify ongoing performance issues, view the results of a planned change to your environment, track resolution of outages, and much more. Out of the box, Statistics Manager is configured with Key Health Indicator (KHI) thresholds, and can be customized to suit your deployment's unique needs.
 
-You can deploy Statistics Manager in an on-premises deployment in which a single server hosts all of the server-side Statistics Manager components. For more information about deploying Statistics Manager, see [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md). If you already have an existing deployment of Statistics Manager, but you have not yet upgraded to Release 1.1, see [What's new in Release 1.1](plan.md#BKMK_WhatsNew) and [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md).
+You can deploy Statistics Manager in an on-premises deployment in which a single server hosts all of the server-side Statistics Manager components. For more information about deploying Statistics Manager, see [Deploy Statistics Manager for Skype for Business Server](deploy.md). If you already have an existing deployment of Statistics Manager, but you have not yet upgraded to Release 1.1, see [What's new in Release 1.1](plan.md#BKMK_WhatsNew) and [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
 
 This topic contains the following sections:
 
@@ -75,7 +75,7 @@ Statistics Manager allows you to:
 ## What's new in Release 1.1
 <a name="BKMK_WhatsNew"> </a>
 
-The following describes what's new in Release 1.1. If you have an existing deployment of Statistics Manager and you've not yet upgraded, see [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md).
+The following describes what's new in Release 1.1. If you have an existing deployment of Statistics Manager and you've not yet upgraded, see [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
 
 - Scenario views have been added for Edge Media, Fabric Health, Pool Failover and Registration scenarios.
 
@@ -175,11 +175,11 @@ All traffic between servers is encrypted.
 
 For more information, see the following:
 
-- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
+- [Deploy Statistics Manager for Skype for Business Server](deploy.md)
 
-- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server](upgrade.md)
 
-- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md)
 
 - [Skype for Business Server Statistics Manager blog](https://blogs.technet.microsoft.com/skypestatsman/)
 
