@@ -63,8 +63,4 @@ Use configuration profiles to manage settings and features for Teams devices in 
 1. In the left navigation, go to **Devices** > **Manage Devices**.
 2. Select **Configuration profile**, and then under **Assigned to** in the profile you want to assign, click the link.  
 3. In the **Assign devices to a configuration profile** pane, search for and select the devices you want to assign.
-
-   ![Screen shot showing the option to assign devices to a configuration profile](media/device-management-assign-configuration-profile.png "Screen shot showing the option to assign devices to a configuration profile")
-3. Click **Save**.
-
-### Related topics
+4. Click **Save**.
