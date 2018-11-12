@@ -3,7 +3,7 @@ title: Drive awareness and implement training for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/01/2018
+ms.date: 11/09/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -60,13 +60,4 @@ Share the insights you get from your feedback channels with the hashtag #TeamsSt
 
 [Learn more about the Microsoft Teams usage reports in the Office 365 admin center.](teams-activity-reports.md)
 
-## Ongoing improvements
-
-In collaboration with your technical implementation team, plan to hold monthly service health reviews for Microsoft Teams. In these reviews you will share insights on the following measures:
-
-- Service usage – Active usage data. May include information about services deprecated or consumption reduced as a result of moving to Microsoft Teams.  Normally led by service manager or product owner for collaboration services.
-- Service health – Call quality, meeting health, and overall service health. Review of any support incidents and helpdesk ticket levels. Discussion of security and governance topics. Normally led by information protection and support teams. 
-- Capability/project roadmap – What is the schedule of remaining employee onboarding or further collaboration improvement projects? What additional features is your organization going to enable? Normally led by service manager or product owner for collaboration services in collaboration with key business stakeholders. 
-- Awareness campaign and training success measurement update – Includes reach, participation, key feedback themes, and open issues. Include key wins and success stories.
- 
-Monthly reviews can be quite formal in large organizations or they can be virtual meetings in smaller companies.It's important to share and monitor this data to ensure a healthy and increasingly vibrant implementation of Microsoft Teams. 
+![Next Steps icon](media/teams-adoption-next-icon.png) Next: [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
