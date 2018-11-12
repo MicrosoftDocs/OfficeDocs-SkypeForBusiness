@@ -37,7 +37,7 @@ View this short video to learn more about the best practices for creating teams 
 
 <iframe width="640" height="350" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-[!VIDEO <https://www.youtube.com/embed/7XcDSuw6NR4]>
+> [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
 Membership, roles, and settings
 ------------------------------
@@ -56,7 +56,7 @@ Team owners can manage team-wide settings directly in Microsoft Teams. Settings 
 Take three minutes to check out this go-to-guide video for team owners: 
 <iframe width="640" height="350" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-[!VIDEO <https://www.youtube.com/embed/7XcDSuw6NR4]>
+>[!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
 If you are a Microsoft Teams administrator in Office 365, you have access to system-wide settings in the Teams & Skype for Business Admin Center. These settings can impact the options and defaults team owners see under team settings. For example, you can enable a default channel, “General”, for team-wide announcements, discussions and resources, which will appear across all teams.
 
