@@ -103,14 +103,14 @@ The federation Edge Server and next hop server from the federation Edge Server m
 
 Microsoft supports the following types of multi-forest hybrid scenarios:
 
-1.	Resource forest topology: In this kind of topology, there is one forest that hosts Skype for Business Server (the resource forest), and there are one or more additional forests that host account identities, which access the Skype for Business Server in the resource forest. In general, users can access Skype for Business functionality in another forest if the following requirements are met:
+- **Resource forest topology.** In this kind of topology, there is one forest that hosts Skype for Business Server (the resource forest), and there are one or more additional forests that host account identities, which access the Skype for Business Server in the resource forest. In general, users can access Skype for Business functionality in another forest if the following requirements are met:
 
     - Users are properly synchronized into the forest that hosts Skype for Business. In hybrid configurations, this means that users must be synchronized as disabled user objects.
     - The forest hosting Skype for Business must trust the forest containing the users.
 
     For details on resource forest hybrid scenarios, see [Deploy a resource forest topology for Hybrid in Skype for Business](configure-a-multi-forest-environment-for-hybrid.md) Deploy a resource forest topology environment for hybrid Skype for Business.
 
-2.	Multiple deployments of Skype for Business Server in multiple forests. This configuration can arise as a result of merger and acquisition scenarios, as well as in more complex enterprises.  Consolidation of all users from on premises into the cloud in a single Office 365 tenant can be achieved for any organization with multiple Skype for Business deployments, provided that the following key requirements are met: 
+- **Multiple deployments of Skype for Business Server in multiple forests.** This configuration can arise as a result of merger and acquisition scenarios, as well as in more complex enterprises.  Consolidation of all users from on premises into the cloud in a single Office 365 tenant can be achieved for any organization with multiple Skype for Business deployments, provided that the following key requirements are met: 
 
     - There must be at most one Office 365 tenant involved. Consolidation in scenarios with more than one Office 365 tenant is not supported.
     - At any given time, only one on-premises Skype for Business forest can be in hybrid mode (shared sip address space). All other on-premises Skype for Business forests must remain fully on-premises (and presumably federated with each other). Note that these other on-premises organizations can sync to AAD if desired with [new functionality to disable online SIP domains](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) available as of November 2018.
