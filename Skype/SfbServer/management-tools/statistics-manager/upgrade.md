@@ -1,5 +1,5 @@
 ---
-title: "Upgrade Statistics Manager for Skype for Business Server 2015"
+title: "Upgrade Statistics Manager for Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,16 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: "Summary: Read this topic to learn how to upgrade Statistics Manager for Skype for Business Server 2015."
+description: "Summary: Read this topic to learn how to upgrade Statistics Manager for Skype for Business Server."
 ---
 
-# Upgrade Statistics Manager for Skype for Business Server 2015
+# Upgrade Statistics Manager for Skype for Business Server
  
-**Summary:** Read this topic to learn how to upgrade Statistics Manager for Skype for Business Server 2015.
+**Summary:** Read this topic to learn how to upgrade Statistics Manager for Skype for Business Server.
   
 This topic describes how to upgrade an existing installation of Statistics Manager for Skype for Business Server—a powerful tool that allows you to view Skype for Business Server health and performance data in real time. You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website. 
   
-For more information about Statistics Manager and the new features in Release 1.1, see [Plan for Statistics Manager for Skype for Business Server 2015](plan.md) and [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md). For information about known issues fixed in Release 1.1, see [Known issues fixed in release 1.1](upgrade.md#BKMK_Fixed).
+For more information about Statistics Manager and the new features in Release 1.1, see [Plan for Statistics Manager for Skype for Business Server](plan.md) and [Deploy Statistics Manager for Skype for Business Server](deploy.md). For information about known issues fixed in Release 1.1, see [Known issues fixed in release 1.1](upgrade.md#BKMK_Fixed).
   
 There are two methods for upgrading:
   
@@ -118,11 +118,11 @@ The following known issues have been fixed in release 1.1:
 
 For more information, see the following:
   
-- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server](plan.md)
     
-- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
+- [Deploy Statistics Manager for Skype for Business Server](deploy.md)
     
-- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md)
     
 - [Skype for Business Server Statistics Manager blog](https://blogs.technet.microsoft.com/skypestatsman/)
     
