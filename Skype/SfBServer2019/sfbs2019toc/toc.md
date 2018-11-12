@@ -21,7 +21,7 @@
 
 ### [Disable hybrid to complete migration to the cloud](../hybrid/cloud-consolidation-disabling-hybrid.md)
 
-### [Deploy Resource forest topologies](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
+### [Deploy a resource forest topology](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 
 ### [Cloud consolidation for Teams and Skype for Business](../hybrid/cloud-consolidation.md)
 #### [Update the edge certificate](../hybrid/cloud-consolidation-edge-certificates.md)
