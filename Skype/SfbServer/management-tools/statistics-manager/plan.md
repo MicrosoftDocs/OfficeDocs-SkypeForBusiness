@@ -124,7 +124,7 @@ You will need to consider the following software, networking, and hardware requi
 
 ### Software requirements
 
-- Windows Server 2012 R2
+- Windows Server 2016 and 2019
 
 - IIS (automatically installed)
 
