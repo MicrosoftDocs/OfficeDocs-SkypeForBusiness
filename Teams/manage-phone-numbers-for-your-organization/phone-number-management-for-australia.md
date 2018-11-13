@@ -26,9 +26,6 @@ description: "Use this table to find information on getting and managing phone n
 ---
 
 # Phone number management for Australia
-> [!IMPORTANT]
-> Australia is only available to preview and early adopters customers. For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
-
 In Australia, we have partnered with Telstra for the purchase and provisioning of Calling Plans. Telstra will sell Calling Plans and provide the support for phone number management for both user and service numbers for auto attendants and call queues. However, service numbers and licenses for Audio Conferencing will still be sold and managed by Office 365.
 
 For more information on the [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
