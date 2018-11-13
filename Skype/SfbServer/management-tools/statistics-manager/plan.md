@@ -3,7 +3,6 @@ title: "Plan for Statistics Manager for Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 5/23/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
