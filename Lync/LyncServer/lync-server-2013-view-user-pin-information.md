@@ -112,7 +112,7 @@ You can view user PIN information by using the Get-CsClientPinInfo cmdlet. This 
 
 </div>
 
-For more information, see the help topic for the [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/Get-CsConferenceDisclaimer) cmdlet.
+For more information, see the help topic for the [Get-CsConferenceDisclaimer](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferenceDisclaimer) cmdlet.
 
 </div>
 

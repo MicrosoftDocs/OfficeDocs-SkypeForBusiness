@@ -86,7 +86,7 @@ Device updates rules can also be restored by using Windows PowerShell and the **
 
 </div>
 
-For details, see the Help topic for the [Restore-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Restore-CsDeviceUpdateRule) cmdlet.
+For details, see the Help topic for the [Restore-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Restore-CsDeviceUpdateRule) cmdlet.
 
 </div>
 

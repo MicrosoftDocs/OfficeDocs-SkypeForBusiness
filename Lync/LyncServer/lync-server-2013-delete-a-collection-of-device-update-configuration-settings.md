@@ -61,7 +61,7 @@ Device update configuration settings can also be deleted by using Windows PowerS
 
 </div>
 
-For details, see the Help topic for the [Remove-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsDeviceUpdateConfiguration) cmdlet.
+For details, see the Help topic for the [Remove-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDeviceUpdateConfiguration) cmdlet.
 
 </div>
 

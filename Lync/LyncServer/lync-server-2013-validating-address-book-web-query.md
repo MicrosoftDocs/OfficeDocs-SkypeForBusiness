@@ -57,7 +57,7 @@ _**Topic Last Modified:** 2014-06-05_
 
 The Test-CsAddressBookWebQuery cmdlet enables administrators to verify that users can use the Address Book Web Query service to search for a specific contact. When you run the cmdlet, Test-CsAddressBookWebQuery will first connect to the Web Ticket service to be authenticated. If authentication is successful, the cmdlet will then connect to the Address Book Web Query service and search for the specified contact. If that contact is found, the cmdlet will attempt to return that information to the local computer. The test will be marked a success only if all those steps can be completed.
 
-For more information, see the Help documentation for the [Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery) cmdlet.
+For more information, see the Help documentation for the [Test-CsAddressBookWebQuery](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookWebQuery) cmdlet.
 
 </div>
 
@@ -74,7 +74,7 @@ To run this check using an actual user account, you must create a Windows PowerS
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery) cmdlet.
+For more information, see the Help documentation for the [Test-CsAddressBookWebQuery](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookWebQuery) cmdlet.
 
 </div>
 

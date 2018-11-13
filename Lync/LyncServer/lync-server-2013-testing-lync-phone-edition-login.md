@@ -73,7 +73,7 @@ For a more comprehensive check, you can also include the user’s SIP address. I
 
     Test-CsPhoneBootstrap -PhoneOrExt "+12065551219" -Pin "0712" -UserSipAddress "sip:kenmyer@litwareinc.com"
 
-For more information, see the Help documentation for the [Test-CsPhoneBootstrap](https://docs.microsoft.com/powershell/module/skype/Test-CsPhoneBootstrap) cmdlet.
+For more information, see the Help documentation for the [Test-CsPhoneBootstrap](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPhoneBootstrap) cmdlet.
 
 </div>
 

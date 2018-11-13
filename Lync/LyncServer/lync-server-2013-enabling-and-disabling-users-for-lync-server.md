@@ -46,8 +46,8 @@ You can enable, temporarily disable, or remove Active Directory users from Lync 
 
 
 [Managing users in Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)  
-[Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)  
-[Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)  
+[Enable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsUser)  
+[Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser)  
   
 
 </div>

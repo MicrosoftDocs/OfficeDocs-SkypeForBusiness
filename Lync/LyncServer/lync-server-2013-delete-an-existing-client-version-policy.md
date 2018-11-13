@@ -78,7 +78,7 @@ You can delete client version policies by using the **Remove-CsClientVersionPoli
 
 </div>
 
-For details, see the Help topic for the [Remove-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsClientVersionPolicy) cmdlet.
+For details, see the Help topic for the [Remove-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClientVersionPolicy) cmdlet.
 
 </div>
 

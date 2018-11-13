@@ -18,10 +18,6 @@ appliesto:
 # Cloud voice deployment
 
 Microsoft Teams, the hub for teamwork and communications in Office 365, now provides Audio Conferencing, Phone System with Calling Plans, and Phone System Direct Routing capabilities to meet additional business requirements by extending the Teams meeting and calling experience to include external parties connected via the public switched telephone network (PSTN).
-
-
-> [!Tip] 
-> Watch the following session for an introduction to Phone Systems: [Introduction to Phone System in Microsoft Teams](https://aka.ms/teams-phone-system)
  
 We’ll update this page as additional cloud voice features for Teams are released over time.
 
