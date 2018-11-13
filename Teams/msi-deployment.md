@@ -59,9 +59,20 @@ If a user uninstalls Teams from their User Profile, the MSI installer will track
 					
 ## Disable auto launch for the MSI installer
 
-If you want to disable auto launch, enter the following command prompt:
+Default behavior of the MSI is to install the Teams client as soon as a user signs in and then automatically start Teams. You can modify this behavior with the parameters below as follows:
 
+- When a user logs in into Windows, Teams will be installed with the MSI
+- However, the Teams client will not start until the user has started Teams manually
+- A shortcut to start Teams will be added on the desktop of the user
+- Once manually started, Teams will auto-start whenever the user logs in
+
+For the 32-bit version
 ```
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
-
+For the 64-bit version
+```
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+```
+> [!Note] 
+>  If you run the MSI manually, be sure to run it with elevated permissions. Even if you run it as an administrator, without running it with elevated permissions, the installer will not be able to configure the option to disable auto start.

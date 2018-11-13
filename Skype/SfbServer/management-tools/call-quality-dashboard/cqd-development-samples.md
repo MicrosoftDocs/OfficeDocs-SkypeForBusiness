@@ -3,19 +3,18 @@ title: "CQD Development Samples"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: "Summary: Review a tutorial and development samples for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015."
+description: "Summary: Review a tutorial and development samples for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server."
 ---
 
 # CQD Development Samples
 
-**Summary:** Review a tutorial and development samples for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+**Summary:** Review a tutorial and development samples for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server.
 
 This article provides a tutorial and samples on development for Call Quality Dashboard (CQD).
 
@@ -27,9 +26,9 @@ Tutorial: Building Customized Report Presentation using the CQD Data Service and
 
 CQD offers quick and easy access to aggregated call quality information for on-premise Skype for Business Server deployments. CQD consists of three components: the QoE Archive database, the Cube, and the Portal. The Portal is the main presentation layer and can be further divided into the following three components:
 
-1. Data Service, which is accessible for authenticated users through the [Data API for Call Quality Dashboard (CQD) in Skype for Business Server 2015](data-api.md).
+1. Data Service, which is accessible for authenticated users through the [Data API for Call Quality Dashboard (CQD) in Skype for Business Server](data-api.md).
 
-2. Repository Service, which is accessible for authenticated users through the [Repository API for Call Quality Dashboard (CQD) in Skype for Business Server 2015](repository-api.md).
+2. Repository Service, which is accessible for authenticated users through the [Repository API for Call Quality Dashboard (CQD) in Skype for Business Server](repository-api.md).
 
 3. Web portal, which is the HTML5 based interface that CQD users see and interact with. This is accessible for authenticated users.
 
