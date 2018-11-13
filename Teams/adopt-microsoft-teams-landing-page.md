@@ -20,7 +20,7 @@ If you're a small business, or if you want to roll out Teams starting with chat,
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-quick-start-checklist">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -172,6 +172,7 @@ Adoption plans can be simple to complex, depending on your environment. For larg
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Define outcome and success</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Optimize feedback and reporting</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Drive awareness and implement training</a></p>
+                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">Schedule service health reviews</a></p>
                     </div>
                 </div>
             </div>

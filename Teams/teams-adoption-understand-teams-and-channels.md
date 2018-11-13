@@ -28,7 +28,11 @@ The concepts of teams and channels are fundamental to a healthy, productive impl
 
 To read more about teams and channels, see the [Overview of teams and channels in Microsoft Teams](teams-channels-overview.md). To learn more about Teams and Office 365 Groups, see [Office 365 Groups and Microsoft Teams](office-365-groups.md) and [Learn more about Office 365 Groups](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
-[View this short video](https://youtu.be/hjJWtoaRJeE) to learn more about the best practices for creating teams and channels.
+
+|  |  |
+|---------|---------|
+| View this short video   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+
 
 Team access types determine who can join a team:
 
