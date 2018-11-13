@@ -65,7 +65,7 @@ Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Up
 
 ## Create an SLA group and add users to it
 
-1.  Create the SLA group by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:
+1.  Create the SLA group by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csslaconfiguration) cmdlet:
     
         Set-CsSlaConfiguration -Identity <IdentityOfGroup>
                   -MaxNumberOfCalls <Number> -BusyOption
@@ -92,7 +92,7 @@ Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Up
     
     </div>
 
-2.  Add delegates to the group by using the [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates) cmdlet:
+2.  Add delegates to the group by using the [Add-CsSlaDelegates](https://docs.microsoft.com/en-us/powershell/module/skype/add-cssladelegates) cmdlet:
     
         Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
                   <NameOfDelegate@domain>
@@ -110,7 +110,7 @@ Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Up
 
 ## Configure the SLA group Busy Option
 
-1.  Configure the SLA group Busy Option by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:
+1.  Configure the SLA group Busy Option by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csslaconfiguration) cmdlet:
     
         Set-CsSlaConfiguration -Identity <IdentityOfGroup>
                   -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
@@ -126,7 +126,7 @@ Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Up
 
 ## Configure the SLA group Missed Call Option
 
-1.  Configure the SLA group Missed Call Option by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:
+1.  Configure the SLA group Missed Call Option by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csslaconfiguration) cmdlet:
     
         Set-CsSlaConfiguration -Identity <IdentityOfGroup> 
                   -MissedCallOption <Option> -MissedCallForwardTarget
@@ -144,7 +144,7 @@ Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Up
 
 ## Remove a delegate from a group
 
-1.  Remove a delegate from a group by using the [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates) cmdlet:
+1.  Remove a delegate from a group by using the [Remove-CsSlaDelegates](https://docs.microsoft.com/en-us/powershell/module/skype/remove-cssladelegates) cmdlet:
     
         Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
                   <NameOfDelegate@domain>
@@ -160,7 +160,7 @@ Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Up
 
 ## Delete an SLA group
 
-1.  Delete an SLA group by using the [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) cmdlet:
+1.  Delete an SLA group by using the [Remove-CsSlaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) cmdlet:
     
     ``` 
     Remove-CsSlaConfiguration -Identity <IdentityOfGroup>

@@ -1,4 +1,4 @@
----
+﻿---
 title: Run LyncPerfTool
 TOCTitle: Run LyncPerfTool
 ms:assetid: f2fd1940-d744-47b5-b299-04a914039182

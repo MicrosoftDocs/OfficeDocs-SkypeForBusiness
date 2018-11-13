@@ -70,7 +70,7 @@ You can view Lync Phone Edition configuration settings by using Lync Server Mana
 
 </div>
 
-For details, see [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsUCPhoneConfiguration).
+For details, see [Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration).
 
 </div>
 

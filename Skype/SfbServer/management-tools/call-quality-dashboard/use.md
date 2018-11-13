@@ -1,20 +1,21 @@
 ---
-title: "Use Call Quality Dashboard for Skype for Business Server"
+title: "Use Call Quality Dashboard for Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: "Summary: Learn about how to use the Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server."
+description: "Summary: Learn about how to use the Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015."
 ---
 
-# Use Call Quality Dashboard for Skype for Business Server
+# Use Call Quality Dashboard for Skype for Business Server 2015
  
-**Summary:** Learn about how to use the Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server.
+**Summary:** Learn about how to use the Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 CQD allows IT Pros to use aggregate data to identify focus areas in their environment experiencing media quality issues. It allows an IT Pro to compare statistics for different groups of users and identify trends and patterns. It is not focused on solving individual call issues, but on identifying problems and solutions that will apply to many users in a given environment.
   

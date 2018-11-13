@@ -59,7 +59,7 @@ Test-CsFederatedPartner verifies your ability to connect to the domain of a fede
 
     Get-CsAllowedDomain
 
-For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) cmdlet.
+For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner) cmdlet.
 
 </div>
 
@@ -75,7 +75,7 @@ This command enables you to test the connections to all the domains currently on
 
     Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Identity}
 
-For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) cmdlet.
+For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner) cmdlet.
 
 </div>
 

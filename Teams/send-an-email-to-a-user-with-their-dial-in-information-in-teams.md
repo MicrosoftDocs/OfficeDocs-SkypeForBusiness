@@ -64,6 +64,8 @@ Here is an example of the email that is sent:
   - When the audio conferencing provider for a user is changed from Microsoft to another provider or **None**.
     
   - When the audio conferencing provider for a user is changed to Microsoft.
+    
+- By default, the sender of the emails will be from Office 365, but you can change the email address and display name by using Windows PowerShell. See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
   
 ## Want to know more about Windows PowerShell?
 

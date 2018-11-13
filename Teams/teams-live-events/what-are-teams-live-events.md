@@ -5,7 +5,9 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection: 
+- Teams_ITAdmin_Help
+- Teams_ITAdmin_Help
 ms.reviewer: tonysmit
 search.appverid: MET150
 description: Learn how live events enable users to broadcast video and content to large online audiences in Microsoft Teams, Yammer, and Microsoft Stream.  
@@ -43,17 +45,17 @@ The live events in Microsoft 365 support a spectrum of production scenarios, inc
 
 - **Quick start production**: The quick start production method allows users to produce their live events using Teams meetings. This option is best and quickest option if you want to use the audio and video devices connected to the PC or are inviting remote presenters for participating in the event. This option allows users to easily use their web cams and share their screen as input into the event. 
 
-    ![Screen shot showing a live event produced by using the quick start production method](../media/teams-live-events-quick-start.png "Screen shot showing a live event that's produced by using the quick start production method")
+![Teams live events](../media/teams-live-events-quick-start.png "Screen shot showing a live event that's produced by using the quick start production method")
 
 - **External encoder production**: External encoders allow users to produce their live events directly from an external hardware or a software-based encoder with [Microsoft Stream](https://stream.microsoft.com). This option is best if you already have studio quality equipment (for example, media mixers) which support streaming to an Real-time Messaging Protocol (RTMP) service. This type of production is typically used in large scale events such as executive town halls – where a single stream from a media mixer is broadcasted to the audience. 
 
-    ![Screen shot showing a live event produced by using the external encoder production method](../media/teams-live-events-external-encoder.png "Screen shot showing a live event that's produced by using the external encoder production method")
+![Screen shot showing a live event that's produced by using the external encoder production method](../media/teams-live-events-external-encoder.png "Screen shot showing a live event that's produced by using the external encoder production method")
 
 ### Streaming platform
 The live event streaming platform is made up of the following pieces:
 
-- **Azure Media Services**:  [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) gives you broadcast-quality video streaming services to reach larger audiences on today’s most popular mobile devices. Media Services enhances accessibility, distribution, and scalability, and makes it easy and cost-effective to stream content to your local or worldwide audiences — all while protecting your content.
-- **Azure Content Delivery Network (CDN)**:  Once your stream goes live, it's delivered through the [Azure Content Delivery Network (CDN)](https://docs.microsoft.com/azure/cdn/). Azure Media Services provides integrated CDN for streaming endpoints. This allows for the streams to be viewed worldwide with no buffering.
+- **Azure Media Services**  [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) gives you broadcast-quality video streaming services to reach larger audiences on today’s most popular mobile devices. Media Services enhances accessibility, distribution, and scalability, and makes it easy and cost-effective to stream content to your local or worldwide audiences — all while protecting your content.
+- **Azure Content Delivery Network (CDN)**  Once your stream goes live, it's delivered through the [Azure Content Delivery Network (CDN)](https://docs.microsoft.com/azure/cdn/). Azure Media Services provides integrated CDN for streaming endpoints. This allows for the streams to be viewed worldwide with no buffering.
 
 ### Enterprise Content Delivery Network (eCDN)
 The goal of eCDN is to take the video content from the internet and distribute the content throughout your enterprise without impacting the network performance. You can use one of the following certified eCDN partners to optimize your network for live events held within your organization:
@@ -64,10 +66,7 @@ The goal of eCDN is to take the video content from the internet and distribute t
 ### Attendee experience 
 The attendee experience is the most important aspect of live events and it's critical that the attendees can participate in the live event without having any issues. The attendee experience uses Azure Media Player and works across desktop, browser, and mobile (iOS, Android). Office 365 provides Yammer and Teams as two collaboration hubs and the live attendee experience is integrated into these collaboration tools. 
 
-![Screen shot showing the live events attendee experience](../media/teams-live-events-attendee.png "Screen shot showing the live events attendee experience")
-
-## Next steps
-Go to [Plan for Teams live events](plan-for-teams-live-events.md).
+![Teams live events](../media/teams-live-events-attendee.png "Screen shot showing the live events attendee experience")
 
 ### Related topics
 - [Live events across Microsoft 365 in Yammer, Microsoft Teams, and Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)

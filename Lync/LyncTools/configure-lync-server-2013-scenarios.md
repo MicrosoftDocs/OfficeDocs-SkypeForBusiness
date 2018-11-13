@@ -1,4 +1,4 @@
----
+﻿---
 title: Configure Lync Server 2013 Scenarios
 TOCTitle: Configure Lync Server 2013 Scenarios
 ms:assetid: 6705346b-1512-4af3-85e4-64dfa6ee6f80

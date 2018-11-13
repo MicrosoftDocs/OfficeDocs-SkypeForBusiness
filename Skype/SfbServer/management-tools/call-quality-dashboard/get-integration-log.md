@@ -3,18 +3,19 @@ title: "Get Integration Log"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
-description: "Summary: Learn about the Get Integration Log operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server."
+description: "Summary: Learn about the Get Integration Log operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015."
 ---
 
 # Get Integration Log
  
-**Summary:** Learn about the Get Integration Log operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server.
+**Summary:** Learn about the Get Integration Log operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Get Integration Log operation is part of the Data API for Call Quality Dashboard
   

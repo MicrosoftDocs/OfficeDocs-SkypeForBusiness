@@ -93,7 +93,7 @@ A tab is a website running inside Teams.
   <tr>
     <td valign="top">SEND_AND_RECEIVE_WEB_DATA</td>
     <td valign="top">None (currently).</td>
-    <td valign="top"><ul><li>The risk profile for a tab is almost identical to that same website running in a browser tab. </li><li>A tab also gets the context in which it&#39;s running, including the sign-in name and UPN of the current user, the Azure AD Object ID for the current user, the ID of the Office 365 Group (team) in which it resides, the tenant ID, and the current locale of the user. However, to map these IDs to a user&#39;s information, the tab would have to make the user sign in to Azure AD.</li></ul></td>
+    <td valign="top"><ul><li>The risk profile for a tab is almost identical to that same website running in a browser tab. </li><li>A tab also gets the context in which it&#39;s running, including the sign-in name and UPN of the current user, the Azure AD Object ID for the current user, the ID of the Office 365 Group in which it resides (if it's a team), the tenant ID, and the current locale of the user. However, to map these IDs to a user&#39;s information, the tab would have to make the user sign in to Azure AD.</li></ul></td>
   </tr>
   </table>
 

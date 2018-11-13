@@ -51,7 +51,7 @@ Move a conferencing device from one Registrar pool to another by using the **Mov
 
 </div>
 
-For details, see the Help topic for the [Move-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Move-CsMeetingRoom) cmdlet.
+For details, see the Help topic for the [Move-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsMeetingRoom) cmdlet.
 
 </div>
 

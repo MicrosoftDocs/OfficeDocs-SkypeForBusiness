@@ -150,7 +150,7 @@ This additional information can provide hints as to the steps that you can take 
 ## See Also
 
 
-[Test-CsVoiceUser](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceUser)  
+[Test-CsVoiceUser](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsVoiceUser)  
   
 
 </div>

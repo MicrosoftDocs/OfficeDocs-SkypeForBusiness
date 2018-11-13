@@ -48,7 +48,7 @@ Whereas the Audio Conferencing per-user license offer includes dial-in usage and
 - Outbound calls placed to external phone numbers from within a meeting of your organization.
     
 > [!NOTE]
-> You can find the dial-in and dial-out rates associated to these types of calls by reviewing the **See rates for where you want to call section** in [Audio Conferencing](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates).
+> You can find the dial-in and dial-out rates associated to these types of calls by reviewing the **See rates for where you want to call section** in [Audio Conferencing](https://products.office.com/skype-for-business/pstn-conferencing). 
   
 Pay-per-minute requires your organization to have [Communications Credits](what-are-communications-credits.md) enabled with a license assigned to each user in order for Audio Conferencing to work. If you want more details, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md) and/or [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
   

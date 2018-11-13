@@ -33,9 +33,5 @@ After you configure Response Group, you need to verify the configuration to make
 - The external user calls the response group.
     
 - A user calls the response group while the agent is on another call and goes to the queue.
-
-    > [!NOTE]
-    > If the response group does not work as expected please check next link:
-    > https://support.office.com/en-us/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
     
 

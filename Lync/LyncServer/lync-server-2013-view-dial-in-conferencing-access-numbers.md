@@ -75,7 +75,7 @@ Dial-in conferencing access numbers can be viewed by using Windows PowerShell an
 
 </div>
 
-For more information, see the help topic for the [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingAccessNumber) cmdlet.
+For more information, see the help topic for the [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialInConferencingAccessNumber) cmdlet.
 
 </div>
 

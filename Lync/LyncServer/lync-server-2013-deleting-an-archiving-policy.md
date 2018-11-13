@@ -90,7 +90,7 @@ Archiving policies can be deleted by using Windows PowerShell and the **Remove-C
 
 </div>
 
-For more information, see the help topic for the [Remove-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingPolicy) cmdlet.
+For more information, see the help topic for the [Remove-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingPolicy) cmdlet.
 
 </div>
 

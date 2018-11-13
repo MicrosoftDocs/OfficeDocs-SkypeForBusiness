@@ -88,7 +88,7 @@ You can enable or disable critical mode using the **Set-CsArchivingConfiguration
 
 </div>
 
-For more information, see the Help topic for the [Set-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsArchivingConfiguration) cmdlet.
+For more information, see the Help topic for the [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration) cmdlet.
 
 </div>
 

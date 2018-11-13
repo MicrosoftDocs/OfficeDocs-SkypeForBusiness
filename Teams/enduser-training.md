@@ -27,7 +27,7 @@ Use these training resources to help users in your organization get the most out
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -46,7 +46,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="get started" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -63,7 +63,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -81,7 +81,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -99,7 +99,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -152,17 +152,6 @@ Watch this short video introducing you to Teams</h3>
                          <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Video: Go-to guide for team owners</a></p>
                          <p><a href="https://support.office.com/article/organize-your-teams-list-741bf760-39fc-4807-ad8b-92558273f542">Video: Organize your teams list</a></p>
                          <p><a href="https://www.youtube.com/watch?v=hjJWtoaRJeE">Video: Guidance for setting up teams, channels, and tabs</a></p> 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>On-demand live training</h3>
-                         <p><a href="https://microsoftteams.eventbuilder.com/event/1772">#ThisisTeams - How Teams can work for you</a></p>
                     </div>
                 </div>
             </div>
