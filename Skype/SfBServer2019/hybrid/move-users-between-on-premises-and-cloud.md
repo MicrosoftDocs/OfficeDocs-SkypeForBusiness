@@ -72,3 +72,5 @@ The policies (such as to control messaging, meeting, and calling behavior) in on
 [Move users from on-premises to Teams](move-users-from-on-premises-to-teams.md)
 
 [Setting up the Meeting Migration Service (MMS)](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
+
+[Plan Direct Routing](/microsoftteams/direct-routing-plan)
