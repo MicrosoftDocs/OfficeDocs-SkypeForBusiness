@@ -33,7 +33,7 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
   
 ### Complimentary dial out period details
 
-As an additional benefit for customers adopting our Office 365 Audio Conferencing service, Microsoft is providing an additional complimentary benefit related to dial out from meetings organized by users assigned an Office 365 Audio Conferencing subscription license through June 2019. During this complimentary period, Microsoft allows meeting organizers or authorized attendees as defined in meeting policy settings, to make dial-out calls from within the meeting to non-premium phone numbers in the 44 "Zone A" countries listed below. This benefit is applicable to Audio Conferencing monthly subscription licenses and does not extend to Audio Conferencing pay-per-minute licenses.
+For customers adopting our Office 365 Audio Conferencing service, Microsoft is providing an additional complimentary benefit related to dial out from meetings organized by users assigned an Office 365 Audio Conferencing subscription license through June 2019. During this complimentary period, Microsoft allows meeting organizers or authorized attendees as defined in meeting policy settings, to make dial-out calls from within the meeting to non-premium phone numbers in the 44 "Zone A" countries listed below. This benefit is applicable to Audio Conferencing monthly subscription licenses and does not extend to Audio Conferencing pay-per-minute licenses.
 
 Further, there is a 900 minute cap limit during the complimentary dial out period as such:
 
