@@ -21,12 +21,15 @@ In an on-premises deployment of Skype for Business Server that is enabled for hy
 
 *Teams users inherently have a Skype for Business home, whether they use Skype for Business or not.* If you have on-premises Skype for Business users that are also using Teams (side by side), those users are homed on premises. Teams users with Skype for Business on premises do not have the ability to interoperate with Skype for Business users from their Teams client, nor can they communicate from Teams with users in a federated organization. Such functionality is only available after the user is moved from Skype for Business on premises to online. When you move a user to online, you can either allow them to use Skype for Business Online (and, optionally, Teams) or you can make them Teams Only. If your organization is already using Teams, it’s strongly recommended that you move them to Teams Only mode, which will ensure that routing of all incoming chats and calls lands in their Teams client. For more details, see [Teams coexistence with Skype for Business](/microsoftteams/coexistence-chat-calls-presence) and [Migration and interoperability guidance for organizations using Teams together with Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
+## Prerequisites
 
-Pre-requisites to move a user to the cloud (whether to Skype for Business Only or Teams Only mode):
+Prerequisites to move a user to the cloud (whether to Skype for Business Only or Teams Only mode):
 
 - The organization must have Azure AD Connect properly configured and be syncing all relevant attributes for the user as described in [Configure Azure AD Connect](configure-azure-ad-connect.md).
 - Skype for Business hybrid must be configured, as described in [Configure Skype for Business hybrid](configure-federation-with-skype-for-business-online.md).
 - The user must be assigned a license for Skype for Business Online, and if they will be using Teams, they must also have a Teams license.
+
+## Moving users
 
 When a user is moved from on-premises to the cloud:
 
@@ -37,24 +40,31 @@ When a user is moved from on-premises to the cloud:
 
 To move users between on premises and the cloud (whether to Teams or to Skype for Business Online), use either the Move-CsUser cmdlet or the Skype for Business Admin Control Panel, both of which are on-premises tools. These tools support three different move paths:
 
-- From Skype for Business Server (on-premises) to Skype for Business Online.
-- From Skype for Business Server (on premises) directly to Teams Only (which also moves them to Skype for Business Online).  The option to move directly from on premises to Teams Only is available in Skype for Business Server 2019 as well as Cumulative Update 8 for Skype for Business Server 2015. Organizations using earlier versions of Skype for Business Server can move users to Teams Only by first moving them to Skype for Business Online, and then applying the TeamsOnly mode to these users once they are online.
+- [From Skype for Business Server (on premises) to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
+- [From Skype for Business Server (on premises) directly to Teams Only](move-users-from-on-premises-to-teams.md) (which also moves them to Skype for Business Online).  The option to move directly from on premises to Teams Only is available in Skype for Business Server 2019 as well as Cumulative Update 8 for Skype for Business Server 2015. Organizations using earlier versions of Skype for Business Server can move users to Teams Only by first moving them to Skype for Business Online, and then applying the TeamsOnly mode to these users once they are online.
 - From online (whether Teams Only or not), to on premises.
 
-Important:
+>[!Important]
+> - Moving users between on premises and the cloud requires admin permissions in both the on-premises Skype for Business deployment and in Skype for Business Online. This is achieved by accessing the on-premises tools using on-premises credentials; then those tools (whether move-csuser or the UI) will prompt for credentials in the Office 365 tenant. 
+>- The users have either tenant admin privileges (“Global”) or Skype for Business Admin privileges in Office 365.
+>- If you are using the Skype for Business Admin Control Panel, when specifying the tenant admin credential you must use an account that ends in .onmicrosoft.com. 
+>- If you are using move-csuser in PowerShell, you can either use an account that ends in .onmicrosoft.com, or you can use any on-premises account that is synchronized into Azure AD, provided that you also specify a HostedMigrationOverrideUrl in the cmdlet.
 
-- Moving users between on premises and the cloud requires admin permissions in both the on-premises Skype for Business deployment and in Skype for Business Online. This is achieved by accessing the on-premises tools using on-premises credentials; then those tools (whether move-csuser or the UI) will prompt for credentials in the Office 365 tenant. 
-- The users have either tenant admin privileges (“Global”) or Skype for Business Admin privileges in Office 365.
-- If you are using the Skype for Business Admin Control Panel, when specifying the tenant admin credential you must use an account that ends in .onmicrosoft.com. 
-- If you are using move-csuser in PowerShell, you can either use an account that ends in .onmicrosoft.com, or you can use any on-premises account that is synchronized into Azure AD, provided that you also specify a HostedMigrationOverrideUrl in the cmdlet.
+## Other considerations
 
-Other considerations:
+The policies (such as to control messaging, meeting, and calling behavior) in on-premises and online environments are independent. You may want to consider configuring any policies in the environment and assigning them to the user before you move that user from on premises to the cloud, so that they have the correct configuration as soon as they are migrated to online.
 
-- The policies (such as to control messaging, meeting, and calling behavior) in on-premises and online environments are independent. You may want to consider configuring any policies in the environment and assigning them to the user before you move that user from on premises to the cloud, so that they have the correct configuration as soon as they are migrated to online.
-- If users are configured for enterprise voice in on-premises, you will need to coordinate updating their voice configuration when you move them to online, or, alternatively, you could migrate them without telephony capabilities. The available options depend on whether the user will be using the Teams or Skype for Business client once they are online:
+If users are configured for enterprise voice in on-premises, you will need to coordinate updating their voice configuration when you move them to online, or, alternatively, you could migrate them without telephony capabilities. The available options depend on whether the user will be using the Teams or Skype for Business client once they are online:
+
   - You can update a user’s telephony provider to use a Microsoft Calling Plan. This is an option whether users will use Teams or Skype for Business clients.
   - You can continue to use your on-premises PSTN provider in conjunction with Direct Routing for users that will use Teams.
   - You can continue to use your on-premises PSTN provider in conjunction with Skype for Business Hybrid Voice functionality for users that will continue to use Skype for Business client after they are moved online.
   - Users who will be using Teams must use Direct Routing.
 
-  For more details, see XXXXX.
+## See also
+
+[Move users from on premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md)
+
+[Move users from on-premises to Teams](move-users-from-on-premises-to-teams.md)
+
+[Setting up the Meeting Migration Service (MMS)](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
