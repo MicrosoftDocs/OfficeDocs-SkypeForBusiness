@@ -34,7 +34,7 @@ We’ve made our roadmap for Teams available so customers can assess the capabil
 
 ### What is the future of Skype for Business Server?
 
-We recognize that customers are using Skype for Business on-premises and many need to continue to use Skype for Business on-premises for some users or geographies due to their requirements. Skype for Business Server 2019 was released in October 2019.
+We recognize that customers are using Skype for Business on-premises and many need to continue to use Skype for Business on-premises for some users or geographies due to their requirements. We’re targeting general availability of Skype for Business Server 2019 by the end of 2018 (dates subject to change).
 
 ### What will happen to the Skype brand?
 

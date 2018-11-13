@@ -3,7 +3,7 @@ title: Overview of teams and channels in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/02/2018
+ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -25,7 +25,7 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
 
     -   Teams can also be created to be public and open and anyone within the organization can join (up to 2500 members).
     
-    A team is designed to bring together a group of people that work closely to get things done. Teams can be dynamic for project-based work (for example, launching a product, creating a digital war room), as well as ongoing, to reflect the internal structure of your organization (for example, departments and office locations). Conversations, files and notes across team channels are only visible to members of the team.
+A team is designed to bring together a group of people that work closely to get things done. Teams can be dynamic for project-based work (for example, launching a product, creating a digital war room), as well as ongoing, to reflect the internal structure of your organization (for example, departments and office locations). Conversations, files and notes across team channels are only visible to members of the team.
 
 -   **Channels** are dedicated sections within a team to keep conversations organized by specific topics, projects, disciplines—-whatever works for your team!
 
@@ -33,11 +33,7 @@ Let’s get started by thinking about how Microsoft Teams allows individual team
 
     -   Channels are most valuable when extended with apps that include tabs, connectors, and bots that increase their value to the members of the team.
 
-View this short video to learn more about the best practices for creating teams and channels.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-Membership, roles, and settings
+Membership, Roles and Settings
 ------------------------------
 
 **Team Membership**
@@ -85,6 +81,3 @@ It is possible to create Teams that align to the organizational structure.  This
 
 ![Diagram of a hierarchy of how teams and channels are organized in Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
-## Org-wide teams
-
-If your organization has no more than 1,000 users, you can create an org-wide team. Org-wide teams provide an automatic way for everyone in an organization to be a part of a single team for collaboration. For more information, including best practices for creating and managing an org-wide team, see [Create an org-wide team in Microsoft Teams](create-an-org-wide-team.md).

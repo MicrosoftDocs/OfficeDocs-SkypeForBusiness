@@ -127,7 +127,7 @@ The first time you start a new Front End pool, it is essential that 85% of the s
 </table>
 
 
-Every subsequent time the pool is started, 85% of the servers should be started (as shown in the preceding table). If this number of servers cannot be started (but enough servers can be started so that you are not at pool-level quorum loss), you can use the **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** cmdlet to enable the pool to recover from this routing group level quorum loss and make progress. For more information about how to use this cmdlet, see [Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/Reset-CsPoolRegistrarState).
+Every subsequent time the pool is started, 85% of the servers should be started (as shown in the preceding table). If this number of servers cannot be started (but enough servers can be started so that you are not at pool-level quorum loss), you can use the **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** cmdlet to enable the pool to recover from this routing group level quorum loss and make progress. For more information about how to use this cmdlet, see [Reset-CsPoolRegistrarState](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsPoolRegistrarState).
 
 <div>
 
@@ -236,7 +236,7 @@ When you need to upgrade or patch the servers in a Front End pool, follow the wo
 
   - Do not move on to the next upgrade domain if any of the servers in the last patched upgrade domain are stuck or not restarted. This also applies if any of the servers within an upgrade cannot start. Run **Get-CsPoolFabricState** to make sure all of the routing groups have a primary and at least one secondary; this will confirm whether all users have service.
 
-  - If some users have service and others do not, run **Get-CsPoolFabricState** with the –Verbose option to check for routing groups that have missing replicas. Do not restart the entire pool as the first troubleshooting step. For more information on this cmdlet, see [Get-CsPoolFabricState](https://docs.microsoft.com/powershell/module/skype/Get-CsPoolFabricState).
+  - If some users have service and others do not, run **Get-CsPoolFabricState** with the –Verbose option to check for routing groups that have missing replicas. Do not restart the entire pool as the first troubleshooting step. For more information on this cmdlet, see [Get-CsPoolFabricState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPoolFabricState).
 
   - Make sure that all instances of the Event Viewer or Performance Monitor windows are closed for windows fabric installs/uninstalls.
 

@@ -153,7 +153,7 @@ You do not need to install watcher nodes in order to use System Center Operation
 
 
 > [!NOTE]  
-> Administrators can also run synthetic transactions manually, without needing to use, or install, Operations Manager. For details about the various Test-Cs cmdlets, see the <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 cmdlets index</A>.
+> Administrators can also run synthetic transactions manually, without needing to use, or install, Operations Manager. For details about the various Test-Cs cmdlets, see the <A href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Lync Server 2013 cmdlets index</A>.
 
 
 

@@ -76,7 +76,7 @@ To run this check using actual user accounts, you must create two Windows PowerS
     
     Test-CsWebApp -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $cred1 -User2SipAddress "sip:pilar@litwareinc.com" -User2Credential $cred2
 
-For more information, see the help topic for the [Test-CsWebApp](https://docs.microsoft.com/powershell/module/skype/Test-CsWebApp) cmdlet. Note that Test-CsWebApp was deprecated for use on Lync Server 2013.
+For more information, see the help topic for the [Test-CsWebApp](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsWebApp) cmdlet. Note that Test-CsWebApp was deprecated for use on Lync Server 2013.
 
 </div>
 

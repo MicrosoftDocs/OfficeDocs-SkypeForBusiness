@@ -80,7 +80,7 @@ Dial-in conferencing access numbers can be deleted by using Windows PowerShell a
 
 </div>
 
-For more information, see the help topic for the [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Remove-CsDialInConferencingAccessNumber) cmdlet.
+For more information, see the help topic for the [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDialInConferencingAccessNumber) cmdlet.
 
 </div>
 

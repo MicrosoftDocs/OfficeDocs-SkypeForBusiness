@@ -52,7 +52,7 @@ Device update files that are no longer associated with a device can be removed b
 
 </div>
 
-For details, see the Help topic for the [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateFile) cmdlet.
+For details, see the Help topic for the [Clear-CsDeviceUpdateFile](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateFile) cmdlet.
 
 </div>
 

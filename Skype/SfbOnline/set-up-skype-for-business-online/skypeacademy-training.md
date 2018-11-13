@@ -15,6 +15,9 @@ Admin training for Skype for Business Online
 Please review below content to learn about Skype for Business.
 
 > [!NOTE] 
+> If you are looking for old Skype Academy page, you can for limited time access it here: [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy).
+
+> [!NOTE] 
 > This content was originally created as part of the Skype Operations Framework (SOF) initative and is provided here for your reference.
 > 
 > For readiness on Microsoft Teams please refer to [Admin training for Microsoft Teams](http://aka.ms/teamsacademy).

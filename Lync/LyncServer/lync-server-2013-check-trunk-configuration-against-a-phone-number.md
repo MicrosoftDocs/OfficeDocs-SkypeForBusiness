@@ -134,7 +134,7 @@ At that point, you check the value of the Pattern property (which is a [regular 
 ## See Also
 
 
-[Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration)  
+[Test-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTrunkConfiguration)  
   
 
 </div>

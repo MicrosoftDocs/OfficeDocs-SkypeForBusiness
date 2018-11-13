@@ -1,8 +1,9 @@
 ---
-title: "Plan for Call Quality Dashboard for Skype for Business Server"
+title: "Plan for Call Quality Dashboard for Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 4/27/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -12,13 +13,13 @@ ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: "Summary: Learn about what to consider when you plan for the Call Quality Dashboard."
 ---
 
-# Plan for Call Quality Dashboard for Skype for Business Server 
+# Plan for Call Quality Dashboard for Skype for Business Server 2015
  
 **Summary:** Learn about what to consider when you plan for the Call Quality Dashboard.
   
-## Overview of the Skype for Business Server Call Quality Dashboard
+## Overview of the Skype for Business Server 2015 Call Quality Dashboard
 
-The Skype for Business Server Call Quality Dashboard (CQD) is a reporting layer on top of the Quality of Experience Database in the Monitoring Server in Skype for Business Server. CQD uses Microsoft SQL Server Analysis Services to provide aggregate usage and call quality information as well as for filtering and pivoting on the dataset. CQD features include:
+The Skype for Business Server 2015 Call Quality Dashboard (CQD) is a reporting layer on top of the Quality of Experience Database in the Monitoring Server in Skype for Business Server 2015 and Lync Server 2013. CQD uses Microsoft SQL Server Analysis Services to provide aggregate usage and call quality information as well as for filtering and pivoting on the dataset. CQD features include:
   
 - **Archival storage of QoE data via the QoE Archive component of CQD.** The QoE Archive component can store QoE data for a much longer duration than the Monitoring Server can. This allows for trending and reporting for up to seven months of data at a time, with the ability to slide the reporting window as far back as there is data.
     
@@ -76,7 +77,7 @@ The CQD data can be viewed via the CQD Portal and accessed via REST API calls.
   
 ### CQD Portal
 
-The Portal is the fastest way to view the data in the Cube. The Portal comes with several built-in reports that are usable right away. The built-in reports are linked in a structured manner to guide the user to successively smaller and smaller slices of the call data. The built-in reports also highlight the various different ways the data can be shown by demonstrating a combination of charts and tables with different pivots, filters, and measures. Each user that accesses the Portal can have his or her own set of reports that he/she can modify and share. For more information on the usage of the CQD Web Portal, see [Use Call Quality Dashboard for Skype for Business Server](use.md).
+The Portal is the fastest way to view the data in the Cube. The Portal comes with several built-in reports that are usable right away. The built-in reports are linked in a structured manner to guide the user to successively smaller and smaller slices of the call data. The built-in reports also highlight the various different ways the data can be shown by demonstrating a combination of charts and tables with different pivots, filters, and measures. Each user that accesses the Portal can have his or her own set of reports that he/she can modify and share. For more information on the usage of the CQD Web Portal, see [Use Call Quality Dashboard for Skype for Business Server 2015](use.md).
   
 Supported Operating Systems for CQD Portal: Windows 8.1, Windows 8, Windows Server 2012 R2, and Windows Server 2012.
   
@@ -84,7 +85,7 @@ Supported Browsers for CQD Portal: Internet Explorer 11, Internet Explorer 10, a
   
 ### REST APIs
 
-The Cube data can also be accessed via REST API calls. The data retrieved via the REST API calls can be rendered via HTML pages. Users can take advantage of the query speed and the high level schema of CQD while still creating custom reports suited for their business needs. For more information on the API and samples, see [Develop Call Quality Dashboard for Skype for Business Server](develop.md). 
+The Cube data can also be accessed via REST API calls. The data retrieved via the REST API calls can be rendered via HTML pages. Users can take advantage of the query speed and the high level schema of CQD while still creating custom reports suited for their business needs. For more information on the API and samples, see [Develop Call Quality Dashboard for Skype for Business Server 2015](develop.md). 
   
 ## Defining Your organization's requirements for CQD
 
@@ -127,7 +128,7 @@ CQD comes with several components, and it helps to understand the requirements o
 
 All CQD components and dependent components can be installed onto one machine. The single box configuration is the simplest configuration and allows CQD to be self-contained. CQD would just need access to the QoE Metrics database on the Monitoring Server. The CQD Server can be a standalone machine, a virtual machine, or it can even be the Monitoring Server, depending on the available resources of the host machine and the performance requirements. 
   
-During installation, the user performing the installation simply needs to provide the Microsoft SQL Server and Microsoft SQL Server Analysis Services instances that have been previously set up on the machine where the CQD is to be installed. Please refer to [Deploy Call Quality Dashboard for Skype for Business Server](deploy-0.md) for more information.
+During installation, the user performing the installation simply needs to provide the Microsoft SQL Server and Microsoft SQL Server Analysis Services instances that have been previously set up on the machine where the CQD is to be installed. Please refer to [Deploy Call Quality Dashboard for Skype for Business Server 2015](deploy-0.md) for more information.
   
 ### Multiserver configuration
 
@@ -232,8 +233,6 @@ The following operating systems are required for CQD:
 - Windows Server 2012 with IIS 8.0
     
 - Windows Server 2012 R2 with IIS 8.5
-
-- Windows Server 2016 with IIS
     
 The following are the required IIS role services (in hierarchical order):
   
@@ -285,8 +284,6 @@ The following versions of SQL Server are supported:
 - SQL Server 2012
     
 - SQL Server 2014
-
-- SQL Server 2016
     
 Business Intelligence or Enterprise edition is recommended for performance reasons. These editions allow use of multiple partition files that can be processed in parallel, which is beneficial for processing data spanning multiple months or longer. 
   

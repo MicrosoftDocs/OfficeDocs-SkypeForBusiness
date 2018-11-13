@@ -228,7 +228,7 @@ Push notifications are used for mobile applications that support this functional
   
 ### Do you want all your users accessing all Mobility features, or do you want to specify the users who can access these features instead?
 
-We have a table to help with some of the features that are available to all users, and whether they're set that way or not by default. For a complete list, please review [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+We have a table to help with some of the features that are available to all users, and whether they're set that way or not by default. For a complete list, please review [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
   
 > [!NOTE]
 > The scopes for all these features are Global/Site/User. 

@@ -73,7 +73,6 @@ The following table lists the differences between single site with HA support an
   
 |**Category**|**Item**|**Single-Site with HA**|**Multi-Site**|
 |:-----|:-----|:-----|:-----|
-|Configure  <br/> |Appliance Host Name <br/> |**Different** across appliances <br/> |**Different** across PSTN sites <br/> |
 |Setup  <br/> |Shared folder  <br/> |Requires the **same** shared folder across appliances <br/> |Requires a **different** shared folder across appliances <br/> |
 |Configure  <br/> |VirtualMachineDomain  <br/> |Requires the **same** domain across appliances <br/> |Requires the **same** domain across PSTN sites <br/> |
 |Configure  <br/> |SIPDomains  <br/> |Domain names and order should be the **same** across appliances <br/> |Domain names and order should be the **same** across PSTN sites <br/> |

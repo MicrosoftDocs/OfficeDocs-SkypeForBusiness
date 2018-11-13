@@ -156,7 +156,7 @@ The **DisplayPhoto** parameter value determines the source of the user's photo i
 
 ## How Lync 2010 client gets photos
 
-In Lync 2010, user photos are managed on the server by the Address Book Service. Lync client gets user photos by first querying the Address Book Web Query (ABWQ) service on the server, which is exposed through the Distribution List Expansion web service. The client receives the image file and then copies it to the user's cache to avoid downloading the image each time it needs to be displayed. The attribute values returned from the query are also stored in the cached Address Book Service entry for the user. The Address Book Service deletes all cached images every 24 hours, which means that it can take up to 24 hours for new user images to be updated in the cache on the server. You can force an update to the cache by using the [Update-CsAddressBook](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook) cmdlet.
+In Lync 2010, user photos are managed on the server by the Address Book Service. Lync client gets user photos by first querying the Address Book Web Query (ABWQ) service on the server, which is exposed through the Distribution List Expansion web service. The client receives the image file and then copies it to the user's cache to avoid downloading the image each time it needs to be displayed. The attribute values returned from the query are also stored in the cached Address Book Service entry for the user. The Address Book Service deletes all cached images every 24 hours, which means that it can take up to 24 hours for new user images to be updated in the cache on the server. You can force an update to the cache by using the [Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook) cmdlet.
 
 User photos included in Presence status also have an associated hash value that Lync client uses to determine whether there is a newer image available. The client is automatically notified of changes to the image file used in Presence status.
 
@@ -238,7 +238,7 @@ When you choose the **Show my picture** option, your user photo is displayed in 
 
 The **Show picture from a website** option becomes available in Lync 2013 after a client policy is set to enable it. The client version must be newer than 15.0.4535.1002, which is installed with the [Lync Cumulative Updates: November 2013](http://go.microsoft.com/fwlink/p/?linkid=509908). Users may need to log out and then back in again to see the changes in the client.
 
-You can set the client policy to enable to **Show picture from a website** setting by running the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) policy in the Lync Server Management Shell. The following example cmdlets demonstrate how to set the policy globally for all users in your deployment:
+You can set the client policy to enable to **Show picture from a website** setting by running the [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) policy in the Lync Server Management Shell. The following example cmdlets demonstrate how to set the policy globally for all users in your deployment:
 
    ```
     $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True

@@ -154,9 +154,9 @@ Here are some common reasons why **Test-CsUcwaConference** might fail:
 ## See Also
 
 
-[Test-CsASConference](https://docs.microsoft.com/powershell/module/skype/Test-CsASConference)  
-[Test-CsDataConference](https://docs.microsoft.com/powershell/module/skype/Test-CsDataConference)  
-[Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)  
+[Test-CsASConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsASConference)  
+[Test-CsDataConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsDataConference)  
+[Test-CsAVConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAVConference)  
   
 
 </div>

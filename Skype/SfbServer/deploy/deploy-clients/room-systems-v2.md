@@ -1,7 +1,7 @@
 ---
 title: "Deploy Skype Room Systems v2"
-ms.author: jambirk
-author: jambirk
+ms.author: Turgayo
+author: Turgayo
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -125,7 +125,7 @@ Each Skype Room Systems v2 device requires a dedicated and unique resource accou
 
 **Pro Tip** – Make the display names for these accounts descriptive and easy to understand. These are the names that users will see when searching for and adding Skype Room Systems v2 systems to meetings. Some organizations use the convention *Site*-*Room Name*(*Max Room Capacity*)-RS, so for example Curie—a 12-person conference room in London—might have the display name LON-CURIE(12)-RS. 
 
-If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. 
+<!-- If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. -->
 
 
 |    |     |

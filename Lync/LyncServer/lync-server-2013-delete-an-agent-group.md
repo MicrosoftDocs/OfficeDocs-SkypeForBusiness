@@ -72,8 +72,8 @@ Use one of the following procedures to delete an agent group.
 [Create or modify an agent group in Lync Server 2013](lync-server-2013-create-or-modify-an-agent-group.md)  
 
 
-[Remove-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsAgentGroup)  
-[Get-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsAgentGroup)  
+[Remove-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsRgsAgentGroup)  
+[Get-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsRgsAgentGroup)  
   
 
 </div>

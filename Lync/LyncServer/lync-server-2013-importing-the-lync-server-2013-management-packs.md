@@ -57,7 +57,7 @@ The Component and User Management Pack is only used to monitor Lync Server 2013.
 
 You can use one of the following tools to import management packs:
 
-  - **System Center Operations Manager**   With this method, you use the Operations Manager to add monitoring for Lync Server.
+  - **System Center Operations Manager**   With this method, you use the the Operations Manager to add monitoring for Lync Server.
 
   - **Operations Manager Shell**   You can use the Operations Manager Shell to import directly or to troubleshoot any issues you encounter when you import management packs by using the System Center Operations Manager console.
 

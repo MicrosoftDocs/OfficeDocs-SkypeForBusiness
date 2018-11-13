@@ -70,7 +70,7 @@ Network bandwidth profiles can be viewed by using Windows PowerShell and the Get
 
 </div>
 
-For more information, see the help topic for the [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) cmdlet.
+For more information, see the help topic for the [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) cmdlet.
 
 </div>
 

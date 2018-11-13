@@ -59,7 +59,7 @@ The Test-CsGroupExpansion cmdlet lets you determine whether group expansion is w
 
 With the Test-CsGroupExpansion cmdlet, you specify an Active Directory distribution group by using the group’s email address. Test-CsGroupExpansion then uses group expansion to retrieve the group membership and compare the retrieved list to the membership of the group email address that you supplied. If the two lists match, then group expansion is working correctly. Note that you can test group expansion in two ways: by testing the service itself or by testing the associated web service.
 
-For more information, see the Help documentation for the [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) cmdlet.
+For more information, see the Help documentation for the [Test-CsGroupExpansion](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsGroupExpansion) cmdlet.
 
 </div>
 
@@ -76,7 +76,7 @@ To run this check using an actual user account, you must first create a Lync Ser
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) cmdlet.
+For more information, see the Help documentation for the [Test-CsGroupExpansion](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsGroupExpansion) cmdlet.
 
 </div>
 
