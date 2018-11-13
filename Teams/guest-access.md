@@ -3,7 +3,7 @@ title: Guest access in Microsoft Teams
 author: LaithAlShamri
 ms.author: lolaj
 manager: serdars
-ms.date: 11/09/2018
+ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -58,16 +58,9 @@ Guest access differs from external access (also known as federation) as follows:
 -	With federation or external access, an external user can have 1:1 chats and calls with a user in another organization by using either Teams or Skype for Business. The federated user cannot access any team resources. Compared to guest access, external access allows cross organization communication (if permitted by policies) without an explicit invitation, but is limited to chat and call only.
 
 ## More information
-
- 
-  
     
-  [Support resources for Microsoft Teams](support-resources.md)  
- 
-  
-
-    
-
+[Support resources for Microsoft Teams](support-resources.md)  
+[Guest access in Office 365 Groups](https://support.office.com/en-us/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   
 |  |  |
 |---------|---------|
