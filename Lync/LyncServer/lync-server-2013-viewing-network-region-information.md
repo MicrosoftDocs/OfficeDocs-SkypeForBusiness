@@ -79,7 +79,7 @@ You can view network region information by using Windows PowerShell and the **Ge
 
 </div>
 
-For more information, see the help topic for the [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet.
+For more information, see the help topic for the [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink) cmdlet.
 
 </div>
 

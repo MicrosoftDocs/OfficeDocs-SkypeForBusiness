@@ -103,7 +103,7 @@ Conferencing policies can be viewed by using Windows PowerShell and the Get-CsCo
 
 </div>
 
-For more information, see the help topic for the [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsConferencingPolicy) cmdlet.
+For more information, see the help topic for the [Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy) cmdlet.
 
 </div>
 

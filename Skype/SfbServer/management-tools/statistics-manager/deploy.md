@@ -207,7 +207,7 @@ The following command enables you to view all options:
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-To see your currently imported server information, run the following script: 
+To see your your currently imported server information, run the following script: 
   
 ```
 .\Get-StatsManServerInfo.ps1

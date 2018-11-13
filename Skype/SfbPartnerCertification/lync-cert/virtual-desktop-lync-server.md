@@ -30,7 +30,7 @@ With the release of Lync Server 2013, Microsoft has worked closely with multiple
 
 ### Related resources
 
-[Deploying the Lync VDI Plug-in](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/deploy-the-lync-vdi-plug-in)
+[Deploying the Lync VDI Plug-in](https://docs.microsoft.com/en-us/skypeforbusiness/deploy/deploy-clients/deploy-the-lync-vdi-plug-in)
 
 [Troubleshooting the Lync VDI Plug-in](https://technet.microsoft.com/library/jj204713(v=ocs.15)) <!-- 2013 yet to migrate -->
 

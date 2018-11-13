@@ -73,7 +73,7 @@ If you have a normalization rule that automatically adds the country code (in th
 
     Get-CsDialPlan -Identity "RedmondDialPlan" | Test-CsDialPlan -DialedNumber "5551219" | Format-List
 
-For more information, see the Help documentation for the [Test-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/Test-CsDialPlan) cmdlet.
+For more information, see the Help documentation for the [Test-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsDialPlan) cmdlet.
 
 </div>
 

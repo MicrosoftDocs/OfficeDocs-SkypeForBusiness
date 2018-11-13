@@ -20,7 +20,7 @@ The AppSharingStream table contains Quality of Experience metrics for the networ
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |Primary, Foreign  <br/> |Date and time that the session started.  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary, Foreign  <br/> |Sequential identifier used to distinguish between sessions that started on the same date and at the same time.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary, Foreign  <br/> | See [MediaLine Table](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary, Foreign  <br/> | See [MediaLine Table](https://docs.microsoft.com/en-us/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |Unique identifier of the application sharing stream.  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||Average jitter detected between RTP packet arrivals. (Jitter is a measure of the "shakiness" of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||Maximum jitter detected between RTP packet arrivals. (Jitter is a measure of the "shakiness" of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.  <br/> |

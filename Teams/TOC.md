@@ -182,7 +182,6 @@
 ### [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ### [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ### [Overview of dynamic membership for teams](dynamic-memberships.md)
-## [Presence](presence-admins.md)
 ## [Guest access](guest-access.md)
 ### [How a guest joins a team](guest-joins.md)
 ### [What the guest experience is like](guest-experience.md)
@@ -212,8 +211,7 @@
 #### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
 #### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
 #### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
-#### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-#### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
+#### [Configure Teams live events](teams-live-events/configure-teams-live-events.md)
 
 
 
@@ -348,7 +346,7 @@
 #### [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [Manage the Audio Conferencing settings for a user](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-#### [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 #### [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md)

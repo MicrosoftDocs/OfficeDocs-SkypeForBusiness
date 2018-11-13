@@ -22,6 +22,7 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
+hideEdit: true
 description: "Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement."
 ---
 

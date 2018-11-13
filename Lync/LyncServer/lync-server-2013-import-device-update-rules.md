@@ -61,7 +61,7 @@ Device update rules can be imported only by using Windows PowerShell and the **I
 
 </div>
 
-For details, see the Help topic for the [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) cmdlet.
+For details, see the Help topic for the [Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate) cmdlet.
 
 </div>
 

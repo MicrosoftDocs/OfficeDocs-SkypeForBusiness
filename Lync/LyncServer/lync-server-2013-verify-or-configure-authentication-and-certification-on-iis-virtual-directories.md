@@ -32,7 +32,7 @@ Use the following procedure to configure the certificate on your Internet Inform
 
 
 > [!NOTE]  
-> The following procedure defines a procedure to request a combined certificate that is used for all purposes Lync Server, Internal Web Site and External Web Site in IIS. Lync Server 2010 introduced a set of Lync Server Management Shell&nbsp;Windows PowerShell cmdlets for the express purpose of managing certificate request, import, and assignment. The procedure assumes that there is an internally deployed certification authority (CA) that can process the request. If you use public certificates for your Lync Server purposes, or your CA requires an offline request, see the detailed syntax in this topic for information on the –Output parameter. <A href="https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</A>
+> The following procedure defines a procedure to request a combined certificate that is used for all purposes Lync Server, Internal Web Site and External Web Site in IIS. Lync Server 2010 introduced a set of Lync Server Management Shell&nbsp;Windows PowerShell cmdlets for the express purpose of managing certificate request, import, and assignment. The procedure assumes that there is an internally deployed certification authority (CA) that can process the request. If you use public certificates for your Lync Server purposes, or your CA requires an offline request, see the detailed syntax in this topic for information on the –Output parameter. <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</A>
 
 
 
@@ -121,8 +121,8 @@ Use the following procedure to configure the certificate on your Internet Inform
 ## See Also
 
 
-[Get-CsCertificate](https://docs.microsoft.com/powershell/module/skype/Get-CsCertificate)  
-[Set-CsCertificate](https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
+[Get-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCertificate)  
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
   
 
 </div>
