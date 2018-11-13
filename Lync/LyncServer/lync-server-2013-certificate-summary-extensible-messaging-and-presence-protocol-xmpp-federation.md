@@ -76,8 +76,8 @@ Certificate requirements for enabling and establishing communications with exten
 
 
 [Set up Edge certificates for Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
-[Request-CsCertificate](https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate)  
-[Set-CsCertificate](https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
+[Request-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate)  
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
   
 
 </div>

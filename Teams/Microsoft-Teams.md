@@ -16,7 +16,7 @@ ms.topic: hub-page
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <li>
-                                <a href="/MicrosoftTeams/get-started-with-teams-landing-page">
+                                <a href="/MicrosoftTeams/Teams-overview">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -54,7 +54,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="/MicrosoftTeams/adopt-microsoft-teams-landing-page">
+                                <a href="/MicrosoftTeams/change-management-strategy">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

@@ -81,7 +81,7 @@ Meeting configuration settings can be viewed by using Windows PowerShell and the
 
 </div>
 
-For more information, see the help topic for the [Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingConfiguration) cmdlet.
+For more information, see the help topic for the [Get-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingConfiguration) cmdlet.
 
 </div>
 

@@ -26,7 +26,7 @@ Before creating a team in our product, it's a good practice to think about the g
 
 Take a look at this quick video to see some examples of how to structure cross-organizational or single purpose teams:
 
-> [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 You may start with a small number of team members to brainstorm as you move forward, and then add new people or groups as you go. The great thing with Microsoft Teams, is that when you add new people or groups, they can quickly get up to speed on what has already been discussed as the conversations and files are available to users regardless of when they join. Try to avoid creating different teams that have the same set of members, as this approach may not provide the desired focus to deliver the project or goal. Outlook is a great tool for sharing those types of group-wide communications.
 

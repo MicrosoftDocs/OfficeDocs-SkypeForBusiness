@@ -20,7 +20,7 @@ Some de-emphasised features are included in Skype for Business Server 2019 for c
 
 ## Features deprecated in Skype for Business Server 2019 
 
-    The following features and functionality have been deprecated in Skype for Business Server 2019.
+        The following features and functionality have been deprecated in Skype for Business Server 2019.
 
 ### XMPP Gateways for Skype for Business Server
 
@@ -62,7 +62,7 @@ The following tools will not be available for use at the initial release of Skyp
 
 The following tools are not supported with Skype for Business Server 2019:
 
-- Call Quality Methodology (but not Call Quality Dashboard)
+- Call Quality Methodology Dashboard
 - Microsoft Call Quality Methodology Scorecard, v1.5
 - Skype for Business Server 2015 Planning Tool
 - Skype for Business Server 2015 Stress and Performance Tool

@@ -41,7 +41,7 @@ For example:
 ## See Also
 
 
-[Test-CsAddressBookService](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookService)  
+[Test-CsAddressBookService](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookService)  
   
 
 </div>

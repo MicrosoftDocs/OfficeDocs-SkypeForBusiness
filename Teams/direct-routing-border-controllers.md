@@ -1,7 +1,6 @@
 ---
 title: "List of Session Border Controllers certified for Direct Routing"
 ms.author: jambirk
-ms.reviewer: NMuravlyannikov
 author: jambirk
 manager: serdars
 ms.audience: ITPro
@@ -56,7 +55,5 @@ If you have any questions about SBC certification program for Direct Routing ple
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   Pending    |      V7.0.2      |
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |   Pending    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pending    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   Pending    |   Pending  |   Pending    |
-|                                                                                                                     |      AP 4600         |    Pending    |   Pending    |      Pending      |
-|                                                                                                                     |      VME             |    Pending    |   Pending    |      Pending      |
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |    Pending    |   Pending    |      Pending      |
+|                                                                                                                     |                     |                  |              |                  |
+

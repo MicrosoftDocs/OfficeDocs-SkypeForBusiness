@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Lync Server 2013: Capacity and availability management'
 TOCTitle: Capacity and availability management
 ms:assetid: 207a2997-f482-4bee-892d-d2b112294481
@@ -34,7 +34,7 @@ The purpose of capacity management and availability management is to measure and
 
 Capacity management involves planning, sizing, and controlling service capacity to help guarantee that the minimum performance levels specified in your SLA are exceeded. Good capacity management helps ensure that you can provide IT services at a reasonable cost and still meet the levels of performance defined in your SLAs with the client. These criteria can include the following:
 
-  - **System Response Time**   This is the measured time that the system takes to do typical actions. Examples include the time that is required for the audio/video server role to process audio/video traffic, the time that is required for a client to create and join a conference, or the time taken for presence to be updated in all watcher clients.
+  - **System Response Time**   This is the measured time that the system takes to do typical actions. Examples include the time that is required for for the audio/video server role to process audio/video traffic, the time that is required for a client to create and join a conference, or the time taken for presence to be updated in all watcher clients.
 
   - **Storage Capacity**   This is the capacity of a storage system, whether it is a content database, a backup device, or a local drive. Examples include the maximum amount of storage space to be provided per site and the time that backups should be stored before they are overwritten.
 

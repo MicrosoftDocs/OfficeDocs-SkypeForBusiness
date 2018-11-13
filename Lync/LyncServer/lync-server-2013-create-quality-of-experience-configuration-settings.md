@@ -30,7 +30,7 @@ Quality of Experience (QoE) metrics track the quality of audio and video calls m
 
 When you install Microsoft Lync Server 2013, a single, global collection of QoE configuration settings is created for you. Administrators also have the option of creating custom settings at the site scope. Whenever these site-scoped settings are used, they take precedence over the global settings. For example, if you create site-scoped settings for the Redmond site then those settings (rather than the global settings) will be used to manage QoE in Redmond.
 
-QoE configuration settings can be created by using either Lync Server Control Panel or the [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) cmdlet. If you are using Lync Server Control Panel to create new settings the following options will be available to you:
+QoE configuration settings can be created by using either Lync Server Control Panel or the [New-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration) cmdlet. If you are using Lync Server Control Panel to create new settings the following options will be available to you:
 
 
 <table>
@@ -75,7 +75,7 @@ QoE configuration settings can be created by using either Lync Server Control Pa
 
 
 > [!NOTE]  
-> The New-CsQoEConfiguration cmdlet includes additional options not available in Lync Server Control Panel. For more information, see the <A href="https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration">New-CsQoEConfiguration</A> help topic.
+> The New-CsQoEConfiguration cmdlet includes additional options not available in Lync Server Control Panel. For more information, see the <A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration">New-CsQoEConfiguration</A> help topic.
 
 
 
@@ -143,7 +143,7 @@ You can create QoE configuration settings by using Windows PowerShell and the Ne
 
 </div>
 
-For more information, see the help topic for the [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) cmdlet.
+For more information, see the help topic for the [New-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration) cmdlet.
 
 </div>
 

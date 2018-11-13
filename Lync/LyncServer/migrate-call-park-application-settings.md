@@ -85,7 +85,7 @@ To reassign all Call Park orbit ranges from Lync Server 2010 pool to the Lync Se
     
         Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Lync Server 2013 Pool FQDN>"
 
-After reassigning all Call Park orbit ranges to the Lync Server 2013 pool, the migration process for the Call Park application will be completed and the Lync Server 2013 pool will handle all future Call Park requests.
+After reassigning all Call Park orbit ranges to the the Lync Server 2013 pool, the migration process for the Call Park application will be completed and the Lync Server 2013 pool will handle all future Call Park requests.
 
 </div>
 

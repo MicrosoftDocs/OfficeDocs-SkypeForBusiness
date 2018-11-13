@@ -23,7 +23,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-blue.svg" alt="Plan" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="Plan" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -41,7 +41,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/hybrid-blue.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="Chat" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -59,7 +59,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/deploy-blue.svg" alt="User account" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="User account" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -79,7 +79,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/upload-blue.svg" alt="Plan" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/upload-blue.svg" alt="Plan" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -97,7 +97,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/list-123-blue.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg" alt="Chat" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -115,7 +115,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/download-blue.svg" alt="User account" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/download-blue.svg" alt="User account" />
                         </div>
                     </div>
                     <div class="cardText">

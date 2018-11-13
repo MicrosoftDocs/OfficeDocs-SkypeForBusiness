@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-11-01_
 
-Test cases provide a way for you to test voice routes in your organization: you define such things as the number to be dialed and the dial plan and voice policy to be employed, and Lync Server can then verify that, given those conditions, the supplied number can successfully be routed to the PSTN network.
+Test cases provide a way for you to test voice routes in your organization: you define such things as the number to be dialed and the dial plan and voice policy to be employed, and Lync Server can then verify that that, given those conditions, the supplied number can successfully be routed to the PSTN network.
 
 Test cases, which can be created by using Lync Server Control Panel, are typically saved only on the server where the case was originally created and run. However, these test cases can be exported as XML files (with the .vtest extension) and then imported on other servers. This enables you to run the same tests on different computers located at different points in your topology.
 
