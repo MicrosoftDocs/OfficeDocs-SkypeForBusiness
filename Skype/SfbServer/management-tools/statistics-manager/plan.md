@@ -25,15 +25,15 @@ You can deploy Statistics Manager in an on-premises deployment in which a single
 
 This topic contains the following sections:
 
-- [Features and capabilities](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
+- [Features and capabilities](plan.md#BKMK_Features)
 
 - [What's new in Release 2.0](plan.md#BKMK_WhatsNew)
 
-- [Components](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
+- [Components](plan.md#BKMK_Components)
 
 - [On-premises deployment](plan.md#BKMK_DeploymentOptions)
 
-- [Requirements](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Requirements)
+- [Requirements](plan.md#BKMK_Requirements)
 
 - [Security considerations](plan.md#BKMK_Security)
 
@@ -177,6 +177,6 @@ For more information, see the following:
 
 - [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md)
 
-- [Skype for Business Server Statistics Manager blog](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Skype for Business Server Statistics Manager blog](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
 
 
