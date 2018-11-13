@@ -38,7 +38,7 @@ To manage support for users of XMPP federated domains, you need to do the follow
 
   - Understand negotiation settings available for XMPP federation.
 
-To perform these tasks, use the procedures in this section.
+To perform these tasks, use the procedures in this this section.
 
 <div>
 

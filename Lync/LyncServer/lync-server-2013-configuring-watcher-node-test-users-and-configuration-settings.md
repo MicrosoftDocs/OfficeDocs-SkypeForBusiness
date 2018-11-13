@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Configuring watcher node test users and configuration settings'
 TOCTitle: Configuring watcher node test users and configuration settings
 ms:assetid: ab00e9cb-f539-4aa6-bcb4-5533fbe7bc44
@@ -227,7 +227,7 @@ The preceding command will test each watcher node in your deployment and tell yo
 
   - The required registry key was created for you when you ran Set-CsWatcherNodeConfiguration.
 
-  - Your servers are running the correct version of Lync Server.
+  - Your servers are running the correct version of of Lync Server.
 
   - Your ports been configured correctly.
 

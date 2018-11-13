@@ -82,7 +82,7 @@ You can enable or disable client versioning by using the **Set-CsClientVersionCo
 
 </div>
 
-For details, see the Help topic for the [Set-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionConfiguration) cmdlet.
+For details, see the Help topic for the [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration) cmdlet.
 
 </div>
 

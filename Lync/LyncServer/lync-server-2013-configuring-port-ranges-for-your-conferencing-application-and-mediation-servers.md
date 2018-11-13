@@ -48,7 +48,7 @@ By default, audio and video port ranges do not overlap in Microsoft Lync Server 
 
 </div>
 
-If you run the preceding three commands you'll see that the default port values for Lync Server 2013 are configured like this:
+If you run the preceding three commands you'll see that that the default port values for Lync Server 2013 are configured like this:
 
 
 <table>

@@ -51,7 +51,7 @@ After you create your policy for common area phones (for details, see [Create a 
 
 </div>
 
-For details, see the Help topics for the [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy).
+For details, see the Help topics for the [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy).
 
 </div>
 
@@ -60,7 +60,7 @@ For details, see the Help topics for the [Grant-CsVoicePolicy](https://docs.micr
 ## See Also
 
 
-[Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)  
+[Get-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCommonAreaPhone)  
   
 
 </div>

@@ -1,38 +1,39 @@
 ---
-title: "Plan for Statistics Manager for Skype for Business Server"
+title: "Plan for Statistics Manager for Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 5/23/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: "Summary: Read this topic to learn about Statistics Manager for Skype for Business Server."
+description: "Summary: Read this topic to learn about Statistics Manager for Skype for Business Server 2015."
 ---
 
-# Plan for Statistics Manager for Skype for Business Server
+# Plan for Statistics Manager for Skype for Business Server 2015
 
-**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server.
+**Summary:** Read this topic to learn about Statistics Manager for Skype for Business Server 2015.
 
  Statistics Manager for Skype for Business Server is a powerful tool that allows you to view Skype for Business Server health and performance data in real time. You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website.
 
 You can use Statistics Manager to identify ongoing performance issues, view the results of a planned change to your environment, track resolution of outages, and much more. Out of the box, Statistics Manager is configured with Key Health Indicator (KHI) thresholds, and can be customized to suit your deployment's unique needs.
 
-You can deploy Statistics Manager in an on-premises deployment in which a single server hosts all of the server-side Statistics Manager components. For more information about deploying Statistics Manager, see [Deploy Statistics Manager for Skype for Business Server](deploy.md). If you already have an existing deployment of Statistics Manager, but you have not yet upgraded to Release 2.0, see [What's new in Release 2.0](plan.md#BKMK_WhatsNew) and [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
+You can deploy Statistics Manager in an on-premises deployment in which a single server hosts all of the server-side Statistics Manager components. For more information about deploying Statistics Manager, see [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md). If you already have an existing deployment of Statistics Manager, but you have not yet upgraded to Release 1.1, see [What's new in Release 1.1](plan.md#BKMK_WhatsNew) and [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md).
 
 This topic contains the following sections:
 
-- [Features and capabilities](plan.md#BKMK_Features)
+- [Features and capabilities](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
 
-- [What's new in Release 2.0](plan.md#BKMK_WhatsNew)
+- [What's new in Release 1.1](plan.md#BKMK_WhatsNew)
 
-- [Components](plan.md#BKMK_Components)
+- [Components](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
 
 - [On-premises deployment](plan.md#BKMK_DeploymentOptions)
 
-- [Requirements](plan.md#BKMK_Requirements)
+- [Requirements](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Requirements)
 
 - [Security considerations](plan.md#BKMK_Security)
 
@@ -71,14 +72,16 @@ Statistics Manager allows you to:
 
   - View KHI definitions
 
-## What's new in Release 2.0
+## What's new in Release 1.1
 <a name="BKMK_WhatsNew"> </a>
 
-The following describes what's new in Release 2.0. If you have an existing deployment of Statistics Manager and you've not yet upgraded, see [Upgrade Statistics Manager for Skype for Business Server](upgrade.md).
+The following describes what's new in Release 1.1. If you have an existing deployment of Statistics Manager and you've not yet upgraded, see [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md).
 
 - Scenario views have been added for Edge Media, Fabric Health, Pool Failover and Registration scenarios.
 
-- Many new counters have been added for SQL servers, more Skype for Business usage counters, and so on.
+- Command line PerfAgentStorageManager.exe (installed with the Listener) can now export counter data as a CSV.
+
+- Many new counters have been added for SQL servers, more Windows Fabric counters, more Skype for Business usage counters, and so on.
 
 - Watcher node integration for the Statistics Manager Agent - if the Agent is installed on a watcher node, it will report synthetic transaction statistics as counters back to Statistics Manager.
 
@@ -123,7 +126,7 @@ You will need to consider the following software, networking, and hardware requi
 
 ### Software requirements
 
-- Windows Server 2016 and 2019
+- Windows Server 2012 R2
 
 - IIS (automatically installed)
 
@@ -133,7 +136,9 @@ You will need to consider the following software, networking, and hardware requi
 
 - PSExec - Required to do remote agent deployment
 
-- .NET 4.5 (included with 2012 R2) - Required for agents and server-side components
+- .NET 4.5 (included with 2012 R2) - Required for server-side components
+
+- .NET 4.0 - Required for agents
 
 ### Networking requirements
 
@@ -170,12 +175,12 @@ All traffic between servers is encrypted.
 
 For more information, see the following:
 
-- [Deploy Statistics Manager for Skype for Business Server](deploy.md)
+- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
 
-- [Upgrade Statistics Manager for Skype for Business Server](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
 
-- [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
 
-- [Skype for Business Server Statistics Manager blog](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
+- [Skype for Business Server Statistics Manager blog](https://blogs.technet.microsoft.com/skypestatsman/)
 
 

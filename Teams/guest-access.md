@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sbhatta
+ms.reviewer: laal
 search.appverid: MET150
 description: Guest access in Microsoft Teams allows teams in your organization to collaborate with people outside your organization by granting them access to teams and channels.
 localization_priority: Normal
@@ -51,11 +51,7 @@ Teams is built on Office 365 Groups and provides a new way to access shared asse
 
 ## How does guest access compare to federation (external access)?
 
-Guest access differs from external access (also known as federation) as follows:
-
--	With guest access, a guest user has access to a specific Teams team that the user is invited into, and can access team-specific resources such as channels and files. The guest user can also chat with and call members of the team.
-
--	With federation or external access, an external user can have 1:1 chats and calls with a user in another organization by using either Teams or Skype for Business. The federated user cannot access any team resources. Compared to guest access, external access allows cross organization communication (if permitted by policies) without an explicit invitation, but is limited to chat and call only.
+With federation or external access, an external user can have 1:1 chats and calls with a user in another organization by using either Teams or Skype for Business. The federated user cannot access any team resources. Compared to guest access, external access allows cross organization communication (if permitted by policies) without an explicit invitation, but is limited to chat and call only.
 
 ## More information
     

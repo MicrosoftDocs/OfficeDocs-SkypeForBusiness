@@ -88,7 +88,7 @@ Follow these steps to use Topology Builder to define a *peer* with which you can
     
     </div>
 
-8.  Under **Associated Mediation Server**, select the Mediation Server pool to associate with the root trunk of this PSTN Gateway.
+8.  Under **Associated Mediation Server**, select the Mediation Server pool to associate with the root trunk of this this PSTN Gateway.
 
 9.  Under **Associated Mediation Server port**, type the listening port that the Mediation Server will use for SIP messages from the gateway.
     

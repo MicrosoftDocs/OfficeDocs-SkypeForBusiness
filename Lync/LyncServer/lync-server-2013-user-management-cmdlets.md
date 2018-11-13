@@ -35,78 +35,78 @@ The user management cmdlets included in Microsoft Lync Server 2013 allow you to 
 Most management tasks that apply to users and user accounts can be performed from the Lync Server Control Panel. The primary exceptions are the cmdlets that deal with audio conferencing providers. User management tasks can be performed using cmdlets from the Lync Server Management Shell or from within a script. By using a script, you can automate certain tasks. The following is a list of cmdlets that relate directly to managing users and user accounts:
 
   - <span></span>  
-    [Get-CsAdContact](https://docs.microsoft.com/powershell/module/skype/Get-CsAdContact)
+    [Get-CsAdContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdContact)
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsAdUser](https://docs.microsoft.com/powershell/module/skype/Get-CsAdUser)
+    [Get-CsAdUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdUser)
 
 <!-- end list -->
 
-  - [Get-CsClientAccessLicense](https://docs.microsoft.com/powershell/module/skype/Get-CsClientAccessLicense)
+  - [Get-CsClientAccessLicense](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientAccessLicense)
 
 <!-- end list -->
 
-  - [Get-CsEffectivePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsEffectivePolicy)
+  - [Get-CsEffectivePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsEffectivePolicy)
 
 <!-- end list -->
 
-  - [Invoke-CsUcsRollback](https://docs.microsoft.com/powershell/module/skype/Invoke-CsUcsRollback)
+  - [Invoke-CsUcsRollback](https://docs.microsoft.com/en-us/powershell/module/skype/Invoke-CsUcsRollback)
 
 <!-- end list -->
 
-  - [Debug-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/Debug-CsUnifiedContactStore)
+  - [Debug-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Debug-CsUnifiedContactStore)
 
-  - [Test-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/Test-CsUnifiedContactStore)
-
-<!-- end list -->
-
-  - <span></span>  
-    [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)
-
-  - <span></span>  
-    [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)
-
-  - <span></span>  
-    [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)
-
-  - <span></span>  
-    [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)
-
-  - <span></span>  
-    [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser)
+  - [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore)
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Get-CsUserAcp)
+    [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser)
 
   - <span></span>  
-    [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserAcp)
+    [Enable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsUser)
 
   - <span></span>  
-    [Set-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp)
+    [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)
 
   - <span></span>  
-    [Test-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Test-CsAudioConferencingProvider)
+    [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)
+
+  - <span></span>  
+    [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser)
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsUserPoolInfo](https://docs.microsoft.com/powershell/module/skype/Get-CsUserPoolInfo)
+    [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
+
+  - <span></span>  
+    [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
+
+  - <span></span>  
+    [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
+
+  - <span></span>  
+    [Test-CsAudioConferencingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAudioConferencingProvider)
 
 <!-- end list -->
 
-  - [Get-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsUserServicesPolicy)
+  - <span></span>  
+    [Get-CsUserPoolInfo](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserPoolInfo)
 
-  - [Grant-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsUserServicesPolicy)
+<!-- end list -->
 
-  - [New-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)
+  - [Get-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserServicesPolicy)
 
-  - [Remove-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserServicesPolicy)
+  - [Grant-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsUserServicesPolicy)
 
-  - [Set-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)
+  - [New-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUserServicesPolicy)
+
+  - [Remove-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserServicesPolicy)
+
+  - [Set-CsUserServicesPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserServicesPolicy)
 
 </div>
 

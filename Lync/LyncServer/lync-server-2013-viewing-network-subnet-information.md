@@ -77,7 +77,7 @@ Network subnet information can be viewed by using Windows PowerShell and the Get
 
 </div>
 
-For more information, see the help topic for the [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) cmdlet.
+For more information, see the help topic for the [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet) cmdlet.
 
 </div>
 
