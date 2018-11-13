@@ -144,7 +144,7 @@ After you've completed the preceding steps to enable your Skype Room Systems v2 
 
 4. Click on the **Licenses** option.
 
-5. In the **Assign licenses** section, you need to select Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3), depending on your licensing and what you've decided in terms of needing Enterprise Voice. You'll have to use a Plan 3 license if you want to use Cloud PBX on Skype Room Systems v2. Minimally you will need CloudPBX for voice connectivity. Then configure hybrid voice or PSTN calling based on the PSTN connectivity method.
+5. In the **Assign licenses** section, you need to select Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3), depending on your licensing and what you've decided in terms of needing Enterprise Voice. You'll have to use a Plan 3 license if you want to use Cloud PBX on Skype Room Systems v2. Minimally you will need CloudPBX for voice connectivity. Then configure hybrid voice or PSTN calling based on the PSTN connectivity method. See [Skype Room Systems v2 licenses](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) for more details.
 
 6. Click **Save** to complete the task.
 
