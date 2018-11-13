@@ -43,6 +43,10 @@ Access reviews are available with the Premium P2 edition of Azure AD, which is i
 
 If you plan to ask guest users to review their own access, read about guest user licensing. For more information, see [Azure AD B2B collaboration licensing](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
 
+## Guest access latencies
+
+The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hours for the changes to be effective across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been enabled or the settings aren't effective yet.
+
 ## More information
 
 For information about using PowerShell to manage guest access, see [Use PowerShell to control guest access to a team](guest-access-powershell.md).
