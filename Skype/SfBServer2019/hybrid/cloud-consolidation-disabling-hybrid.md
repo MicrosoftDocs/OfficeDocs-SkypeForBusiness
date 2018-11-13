@@ -31,7 +31,7 @@ After you have moved all users from on-premises to the cloud, you can decommissi
 These steps should be done together as a unit. Details are provided below.
 
 > [!Note] 
-> Any federated organizations that have an allowed domain entry for your sip domain(s) will need to update their allowed domain entries to remove the proxy FQDN. We recommend that you send all your federated partners a communication about this as you prepare to complete your migration to the cloud.
+> Any federated organizations that are using the older Direct Federation model (also known as Allowed Partner Server) will need to update their allowed domain entries for their organization to remove the proxy FQDN. This legacy federation model is not based on DNS SRV records, so such a configuration will become out of date once your organization moves to the cloud. If you suspect that any of your federated partners may be using Direct Federation, we suggest you send them a communication about this as you prepare to complete your migration to the cloud.
 
 1.	*Disable shared SIP address space in Office 365 tenant.*
 The command below needs to be done from a Skype for Business Online PowerShell window.
