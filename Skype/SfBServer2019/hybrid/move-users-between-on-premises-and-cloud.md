@@ -50,16 +50,20 @@ To move users between on premises and the cloud (whether to Teams or to Skype fo
 >- If you are using the Skype for Business Admin Control Panel, when specifying the tenant admin credential you must use an account that ends in .onmicrosoft.com. 
 >- If you are using move-csuser in PowerShell, you can either use an account that ends in .onmicrosoft.com, or you can use any on-premises account that is synchronized into Azure AD, provided that you also specify a HostedMigrationOverrideUrl in the cmdlet.
 
+
+## Voice configuration requirements
+
+If users are configured for enterprise voice in on premises, you will need to coordinate updating their voice configuration when you move them to online, or, alternatively, you could migrate them without telephony capabilities. The available options depend on whether the user will be using the Teams or Skype for Business client once they are online:
+
+- You can update a user’s telephony provider to use a Microsoft Calling Plan. This is an option whether users will use Teams or Skype for Business clients.
+- You can continue to use your on-premises PSTN provider:
+  - Voice users who will use Teams must be configured for [Direct Routing](/microsoftteams/direct-routing-plan). Direct Routing is only available after the user is moved from on premises to online.
+  - Voice users who will use the Skype for Business client after they are moved online must be configured for Skype for Business Hybrid Voice functionality.
+
+
 ## Other considerations
 
 The policies (such as to control messaging, meeting, and calling behavior) in on-premises and online environments are independent. You may want to consider configuring any policies in the environment and assigning them to the user before you move that user from on premises to the cloud, so that they have the correct configuration as soon as they are migrated to online.
-
-If users are configured for enterprise voice in on-premises, you will need to coordinate updating their voice configuration when you move them to online, or, alternatively, you could migrate them without telephony capabilities. The available options depend on whether the user will be using the Teams or Skype for Business client once they are online:
-
-  - You can update a user’s telephony provider to use a Microsoft Calling Plan. This is an option whether users will use Teams or Skype for Business clients.
-  - You can continue to use your on-premises PSTN provider in conjunction with Direct Routing for users that will use Teams.
-  - You can continue to use your on-premises PSTN provider in conjunction with Skype for Business Hybrid Voice functionality for users that will continue to use Skype for Business client after they are moved online.
-  - Users who will be using Teams must use Direct Routing.
 
 ## See also
 
