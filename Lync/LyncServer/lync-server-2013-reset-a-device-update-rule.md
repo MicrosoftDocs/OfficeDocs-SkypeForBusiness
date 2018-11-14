@@ -117,7 +117,7 @@ Device update rules can also be reset by using Windows PowerShell and the **Rese
 
 </div>
 
-For details, see the Help topic for the [Reset-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsDeviceUpdateRule) cmdlet.
+For details, see the Help topic for the [Reset-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Reset-CsDeviceUpdateRule) cmdlet.
 
 </div>
 

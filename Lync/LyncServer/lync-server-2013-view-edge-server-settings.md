@@ -89,9 +89,9 @@ You can view settings for Edge Servers in the details pane of the Lync Server 20
 ## See Also
 
 
-[Get-CsAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAllowedDomain)  
-[Get-CsBlockedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsBlockedDomain)  
-[Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)  
+[Get-CsAllowedDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsAllowedDomain)  
+[Get-CsBlockedDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsBlockedDomain)  
+[Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner)  
   
 
 </div>

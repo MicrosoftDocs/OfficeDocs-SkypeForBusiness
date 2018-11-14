@@ -24,7 +24,7 @@ description: "Learn how to view a list of users in your organization that are en
 
 # See a list of users that are enabled for Audio Conferencing in Microsoft Teams
 
-After you have enabled Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who have been enabled. When you look at the list, you will also see for each user in the list the type of audio conferencing provider that they are using, the default dial-in phone number for the user, and if you organization isn't enabled for dynamic conference IDs, the static conference IDs for audio conferencing meetings that they organize.
+After you have enabled Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who have been enabled. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -38,10 +38,7 @@ After you have enabled Microsoft Teams users in your organization for Audio Conf
 
 - When you view the list of users that are enabled, you can select a user from the list to edit the audio conferencing settings for that user.
     
-- When you select a single user that is configured to use Microsoft as the audio conferencing provider, you can view the default phone number and whether your organization is enabled for dynamic conference IDs, and you can reset the conference ID for meetings that the user organizes.
-    
-- When you select a single user who is configured to use a third-party audio conferencing provider, you can view the name of the audio conferencing provider, the toll phone number, and the toll-free phone number (if they are set up).
-    
+- When you select a single user, you can view the default phone number assigned to the user and any other relevant audio conferencing settings.    
    
 - You can use the search button to search for an individual user in the list.
     
