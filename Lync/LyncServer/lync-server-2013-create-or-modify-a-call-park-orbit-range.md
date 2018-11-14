@@ -114,8 +114,8 @@ Use one of the following procedures to create or modify a call park orbit range.
 [Delete a Call Park orbit range in Lync Server 2013](lync-server-2013-delete-a-call-park-orbit-range.md)  
 
 
-[New-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCallParkOrbit)  
-[Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit)  
+[New-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/New-CsCallParkOrbit)  
+[Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)  
   
 
 </div>

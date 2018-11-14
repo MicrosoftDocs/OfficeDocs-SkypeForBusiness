@@ -130,7 +130,7 @@ You can assign PIN numbers can also be assigned by using the Set-CsClientPin cmd
 
 </div>
 
-For more information, see the help topic for the [Set-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPin) cmdlet.
+For more information, see the help topic for the [Set-CsClientPin](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPin) cmdlet.
 
 </div>
 

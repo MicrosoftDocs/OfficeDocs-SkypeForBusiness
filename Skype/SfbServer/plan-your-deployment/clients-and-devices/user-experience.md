@@ -14,7 +14,7 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: 
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: "Summary: Learn about the new Skype for Business and the steps you can take to prepare your environment and your users for the update, whether you're using Skype for Business Online, Skype for Business Server 2015, Skype for Business Server 2015, Lync Server 2013, or Lync Server 2010."
+description: "Summary: Learn about the new Skype for Business and the steps you can take to prepare your environment and your users for the update, whether you're using Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015, Lync Server 2013, or Lync Server 2010."
 ---
 
 # Plan the Skype for Business 2015 client experience for your users
@@ -115,11 +115,11 @@ This is the default experience when the Skype for Business client is deployed in
 ## Use the Lync client experience with Skype for Business Server on-premises
 <a name="LyncwithSfBServer"> </a>
 
-Follow the steps in this section if you want to configure the Lync client experience in an on-premises Skype for Business Server 2015 deployment.
+Follow the steps in this section if you want to configure the Lync client experience in an on-premises Skype for Business Server deployment.
   
 Follow the steps in this section if you want to configure the Skype client experience in an on-premises deployment. The default experience for on-premises
   
- **Step 1:** First, deploy Skype for Business Server 2015.
+ **Step 1:** First, deploy Skype for Business Server.
   
  **Step 2:** Next, use a client policy to set the Lync client experience with the Skype for Business client. There are **3 options** for using a client policy to set the client experience.
   

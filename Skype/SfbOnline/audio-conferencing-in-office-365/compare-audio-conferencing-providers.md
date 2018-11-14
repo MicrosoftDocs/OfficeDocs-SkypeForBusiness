@@ -22,7 +22,7 @@ ms.custom:
 - Audio Conferencing
 description: 
 robots: noindex
-redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
+redirect_url: https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
 redirect_document_id: TRUE 
 ---
 

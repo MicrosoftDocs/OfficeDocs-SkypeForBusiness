@@ -232,5 +232,5 @@ Content-Type: application/json
 ## Related topics
 
 - [Create team](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/team_put_teams) (in preview)
-- [New-Team](https://docs.microsoft.com/en-us/powershell/module/teams/New-Team?view=teams-ps)
+- [New-Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Admin training for Microsoft Teams](itadmin-readiness.md)

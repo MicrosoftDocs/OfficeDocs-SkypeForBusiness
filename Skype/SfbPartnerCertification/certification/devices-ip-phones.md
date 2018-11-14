@@ -28,8 +28,8 @@ In the meantime, Skype for Business Server supports backwards compatibility with
 Basic functionalities will continue to work on Skype for Business Online certified devices when a user switches to Microsoft Teams. However, in order to be Teams certified, phone vendors would need to meet the new requirements for Teams certification. 
 
 ## Additional Resources
-Learn about [Skype for Business certification](infra-gateways.md).
+Learn about [Skype for Business certification](overview.md)
 
-Find details of our [qualified IP Phones](../lync-cert/ip-phones.md).
+Find details of our [qualified IP Phones](../lync-cert/ip-phones.md)
 
 [Browse IP phones certified for Skype for Business.](http://partnersolutions.skypeforbusiness.com/solutionscatalog/ip-phones)

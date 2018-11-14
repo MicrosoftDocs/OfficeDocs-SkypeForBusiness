@@ -132,7 +132,7 @@ If you see any matches (that is, if you see one or more voice routes that share 
 ## See Also
 
 
-[Test-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsVoicePolicy)  
+[Test-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Test-CsVoicePolicy)  
   
 
 </div>

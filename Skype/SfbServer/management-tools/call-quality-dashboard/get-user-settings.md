@@ -3,19 +3,18 @@ title: "Get User Settings"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
-description: "Summary: Learn about the Get User Settings operation, which is part of the User Settings Service. The User Settings Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015."
+description: "Summary: Learn about the Get User Settings operation, which is part of the User Settings Service. The User Settings Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server."
 ---
 
 # Get User Settings
  
-**Summary:** Learn about the Get User Settings operation, which is part of the User Settings Service. The User Settings Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+**Summary:** Learn about the Get User Settings operation, which is part of the User Settings Service. The User Settings Service is part of the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server.
   
 The Get User Settings operation is part of the User Settings Service in the Repository API for Call Quality Dashboard.
   
