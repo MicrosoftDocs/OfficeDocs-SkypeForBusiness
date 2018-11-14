@@ -38,13 +38,13 @@ To enable Exchange 2013 Outlook Web Access (OWA) and instant messaging (IM) inte
     
         Get-CsSite
     
-    This returns the siteID for the siteName in which you are creating the pool. For details, see [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite) in the Lync Server 2013 Management Shell documentation.
+    This returns the siteID for the siteName in which you are creating the pool. For details, see [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite) in the Lync Server 2013 Management Shell documentation.
 
 3.  Run the following cmdlet:
     
         New-CsTrustedApplicationPool -Identity <E14 CAS FQDN> -ThrottleAsServer $true -TreatAsAuthenticated $true -ComputerFQDN <E14 CAS FQDN> -Site <Site> -Registrar <Pool FQDN in the site> -RequiresReplication $false
     
-    For details, see [New-CsTrustedApplicationPool](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplicationPool) in the Lync Server 2013 Management Shell documentation.
+    For details, see [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplicationPool) in the Lync Server 2013 Management Shell documentation.
     
     The Exchange Server FQDN should be configured as the Exchange OWA certificate Subject Name (SN), or the Subject Alternate Name (SAN).
     
@@ -81,7 +81,7 @@ To enable Exchange 2013 Outlook Web Access (OWA) and instant messaging (IM) inte
     
         New-CsTrustedApplication -ApplicationId <AppID String> -TrustedApplicationPoolFqdn <E14 CAS FQDN> -Port <available port number>
     
-    For details, see the topic [New-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplication) in the Lync Server 2013 Management Shell documentation.
+    For details, see the topic [New-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/New-CsTrustedApplication) in the Lync Server 2013 Management Shell documentation.
 
 3.  Run **Enable-CsTopology**.
 

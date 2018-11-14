@@ -19,7 +19,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: "Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in in Microsoft Teams."
+description: "Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Microsoft Teams."
 ---
 
 # Set the PIN length for Audio Conferencing meetings in Microsoft Teams

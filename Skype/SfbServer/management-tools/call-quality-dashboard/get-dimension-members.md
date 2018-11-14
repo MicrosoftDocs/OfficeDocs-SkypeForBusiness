@@ -3,19 +3,18 @@ title: "Get Dimension Members"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
-description: "Summary: Learn about the Get Dimension Members operation. The Get Dimension Members operation is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015."
+description: "Summary: Learn about the Get Dimension Members operation. The Get Dimension Members operation is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server."
 ---
 
 # Get Dimension Members
  
-**Summary:** Learn about the Get Dimension Members operation. The Get Dimension Members operation is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+**Summary:** Learn about the Get Dimension Members operation. The Get Dimension Members operation is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server.
   
 The Get Dimension Members operation is part of the Data API for Call Quality Dashboard.
   

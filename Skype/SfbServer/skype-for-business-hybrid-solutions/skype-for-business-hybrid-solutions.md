@@ -203,7 +203,7 @@ For more information, see the following resources:
   
 - [Microsoft cloud IT architecture resources](https://aka.ms/clouditarch)
     
-- [Microsoft cloud identity for enterprise architects](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [Microsoft cloud identity for enterprise architects](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [Get your organization ready for Office 365 Enterprise](https://aka.ms/O365EntPrep)
     
