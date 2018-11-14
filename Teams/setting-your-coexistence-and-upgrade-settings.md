@@ -20,7 +20,7 @@ appliesto:
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-When you are upgrading your Skype for Business users to use Teams, you have several options to help you make it a seamless process for your users. You have the option to make coexistence and upgrade settings for all of the users in your organization at once, or you can make settings changes for a single or set of users in your organization. Note that older versions of Skype for Business clients may not honor these settings. For more information about Skype for Business client versions, go to the [Skype for Business downloads and updates page](https://docs.microsoft.com/en-us/skypeforbusiness/software-updates). 
+When you upgrade your Skype for Business users to use Teams, you have several options to help you make it a seamless process for your users. You have the option to make coexistence and upgrade settings for all of the users in your organization at once, or you can make settings changes for a single or set of users in your organization. Note that older versions of Skype for Business clients may not honor these settings. For more information about Skype for Business client versions, go to the [Skype for Business downloads and updates page](https://docs.microsoft.com/en-us/skypeforbusiness/software-updates). 
 
 You can get a better understanding of the types of modes that are available to you by reading [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).  
 
@@ -43,7 +43,7 @@ You can get a better understanding of the types of modes that are available to y
     - Set the **Preferred app for users to join Skype for Business meetings**. This setting determines which app is used for joining Skype for Business meetings and is honored regardless of the value of coexistence mode.
       - **Skype Meetings app**
       - **Skype for Business with limited features**
-    - Set whether to **Download the Teams app in the background for Skype for Business users**.  This setting silently downloads the Teams app for users running Skype for Business on Windows. It is honored only if coexistence mode for the user is Teams Only or if notifications of pending upgrade are enabled in Skype for Business.
+    - Set whether to **Download the Teams app in the background for Skype for Business users**.  This setting silently downloads the Teams app for users running Skype for Business on Windows. It is honored only if coexistence mode for the user is Teams only or if notifications of pending upgrade are enabled in Skype for Business.
 3. Click **Save** after you make your changes.
 
 ## Set upgrade options for a single user in your organization
