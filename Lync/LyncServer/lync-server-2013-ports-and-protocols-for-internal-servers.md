@@ -81,7 +81,7 @@ The following table lists the ports that need to be open on each internal server
 <td><p>SQL Browser</p></td>
 <td><p>1434</p></td>
 <td><p>UDP</p></td>
-<td><p>SQL Browser for the local replicated copy of the the Central Management Store database.</p></td>
+<td><p>SQL Browser for the local replicated copy of the Central Management Store database.</p></td>
 </tr>
 <tr class="even">
 <td><p>Front End Servers</p></td>

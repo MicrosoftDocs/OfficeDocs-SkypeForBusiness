@@ -49,8 +49,8 @@ Note that the backup frequency can be adjusted, based on your Restore Point and 
 ## See Also
 
 
-[Import-CsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsConfiguration)  
-[Export-CsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsConfiguration)  
+[Import-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
+[Export-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Export-CsConfiguration)  
 [SQL best practices](http://go.microsoft.com/fwlink/p/?linkid=290716)  
   
 
