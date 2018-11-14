@@ -33,7 +33,7 @@ description: "You can select a country/region to see if Audio Conferencing, Phon
 
 You can select a country or region to see what cloud voice features are available to your organization.
 ***
-## Select your country or region to see what's available for your organization!
+## Select your country or region to see what's available for your organization
 
 > [!div class="op_single_selector"]    
 > - [Argentina](availability-in-argentina.md)
