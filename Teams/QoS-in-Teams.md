@@ -1,5 +1,5 @@
 ---
-title: Quality of Service in Microsoft Teams - Microsoft Teams
+title: Implement Quality of Service in Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Quality of Service (QoS) in Microsoft Teams
+# Implement Quality of Service (QoS) in Microsoft Teams
 
 This article will help you prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
 
