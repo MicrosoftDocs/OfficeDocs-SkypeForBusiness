@@ -55,7 +55,7 @@ The following table contains a summary of the DNS records that are required to s
 <tr class="even">
 <td><p>Internal DNS/A</p></td>
 <td><p>dirpool01.contoso.net</p></td>
-<td><p>Director pool pool HLB VIP</p></td>
+<td><p>Director pool HLB VIP</p></td>
 <td><p>Host record for the DNS load balanced Director pool</p></td>
 </tr>
 <tr class="odd">

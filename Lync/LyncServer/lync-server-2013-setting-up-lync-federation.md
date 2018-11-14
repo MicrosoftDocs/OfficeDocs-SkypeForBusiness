@@ -142,7 +142,7 @@ If you have already deployed you Edge server or servers, adding the federated sc
 
 2.  Define and configure any required DNS host (A or AAAA for IPv6) and DNS SRV records
 
-3.  Define and configure any policies using the Lync Server Control Panel or by using the Lync Server Management Shell and the appropriate cmdlets. For details on the Lync Server Management Shell cmdlets, see [Federation and external access cmdlets in Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/)
+3.  Define and configure any policies using the Lync Server Control Panel or by using the Lync Server Management Shell and the appropriate cmdlets. For details on the Lync Server Management Shell cmdlets, see [Federation and external access cmdlets in Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/)
     
     <div>
     

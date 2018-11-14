@@ -61,3 +61,8 @@ The following Admin settings in Skype for Business are different in Teams:
 
 > [!NOTE]
 > The ability of a Teams Admin to customize these settings is not currently supported.
+
+
+## Coexistence with Skype for Business
+
+See [Coexistence with Skype for Business](coexistence-chat-calls-presence.md) for details on how Teams presence functions when coexisting with Skype for Business. 

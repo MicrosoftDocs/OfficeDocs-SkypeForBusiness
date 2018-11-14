@@ -51,6 +51,11 @@
       "redirect_document_id": true 
     },
     {
+      "source_path": "Skype/SfbServer/help-topics/2019/lscp/ms.lync.lscp.ClientComparison.md", 
+      "redirect_url": "https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964", 
+      "redirect_document_id": true 
+    },
+    {
       "source_path": "Teams/select-users-for-your-teams-pilot.md", 
       "redirect_url": "https://aka.ms/skypetoteams-pilot", 
       "redirect_document_id": true 

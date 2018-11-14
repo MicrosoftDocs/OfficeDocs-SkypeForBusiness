@@ -50,7 +50,7 @@ Please contact the vendor for more information on these products.
 |Vendor |Qualified Product |Software Version Tested  |Vendor's Lync Page  |
 |:--- |:---- |:--- |:--- |
 |Microsoft     |   Internet Information Services Application Request Routing  (IIS ARR)      |  v2.5       | [Using IIS ARR as a Reverse Proxy for Lync Server 2013](http://blogs.technet.com/b/nexthop/archive/2013/02/19/using-iis-arr-as-a-reverse-proxy-for-lync-server-2013.aspx)      |
-|Microsoft     | Forefront Threat Management Gateway (TMG) &Dagger; |     2010       | [Setting up Reverse Proxy Servers with TMG](https://docs.microsoft.com/en-us/previous-versions/office/skype-server-2010/gg398069(v=ocs.14))  |
+|Microsoft     | Forefront Threat Management Gateway (TMG) &Dagger; |     2010       | [Setting up Reverse Proxy Servers with TMG](https://docs.microsoft.com/previous-versions/office/skype-server-2010/gg398069(v=ocs.14))  |
 |     |         |         |         |
 
 
