@@ -49,7 +49,7 @@ When assigning a user an emergency address, it is actually a location ID that is
 
 Emergency addresses and locations are used during the process of routing emergency calls to the appropriate dispatch center when dispatching emergency first responders. When a Teams or Skype for Business user dials an emergency number, how the call is routed to the serving Public Safety Answering Point (PSAP) will vary by country/region. In some countries, such as the United States and the United Kingdom, the calls will first be screened to determine the current location of the user before connecting the call to the appropriate dispatch center. In other countries/regions, calls will be routed directly to the dispatch center serving the phone number associated with the emergency caller.
   
-## Creating, adding, and assigning emergency locations and addresses to your users
+## Create, add, and assign emergency locations and addresses to your users
 
 1. **Plan for emergency locations** The first step is to plan for your emergency locations. You need to list all of your physical addresses. Then, based on that, determine whether locations for the emergency addresses are needed and if so, what they are. For example, if a business has 3 office buildings each with 4 floors, it is likely that there need to be 3 emergency addresses, with floors 1-4 listed as a location for each.
     
