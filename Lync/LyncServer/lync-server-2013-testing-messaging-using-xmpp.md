@@ -152,7 +152,7 @@ Here are some common reasons why **Test-CsXmppIM** might fail:
 ## See Also
 
 
-[Set-CsXmppGatewayConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsXmppGatewayConfiguration)  
+[Set-CsXmppGatewayConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsXmppGatewayConfiguration)  
   
 
 </div>

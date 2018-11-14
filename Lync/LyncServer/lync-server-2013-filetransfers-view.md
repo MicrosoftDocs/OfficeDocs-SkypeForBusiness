@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Lync Server 2013: FileTransfers view'
 TOCTitle: FileTransfers view
 ms:assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2012-10-01_
 
-The FileTranfer view stores information about peer-to-peer file transfer sessions. This view was introduced in Microsoft Lync Server 2013.
+The FileTransfer view stores information about peer-to-peer file transfer sessions. This view was introduced in Microsoft Lync Server 2013.
 
 <div>
 

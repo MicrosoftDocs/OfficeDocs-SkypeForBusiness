@@ -64,7 +64,7 @@ You can assign the autodiscover URI by running a command similar to this:
 
 For details about the autodiscover service, see "Understanding the Autodiscover Service" at [http://go.microsoft.com/fwlink/p/?LinkId=268542](http://go.microsoft.com/fwlink/p/?linkid=268542).
 
-After the autodiscover service has been configured you must then modify the Lync Server OAuth configuration settings; this ensures that that Lync Server knows where to find the autodiscover service. To modify the OAuth configuration settings in Lync Server 2013, run the following command from within the Lync Server Management Shell. When running this command, be sure that you specify the URI to the autodiscover service running on your Exchange server, and that you use **autodiscover.svc** to point to the service location instead of **autodiscover.xml** (which points to the XML file used by the service):
+After the autodiscover service has been configured you must then modify the Lync Server OAuth configuration settings; this ensures that Lync Server knows where to find the autodiscover service. To modify the OAuth configuration settings in Lync Server 2013, run the following command from within the Lync Server Management Shell. When running this command, be sure that you specify the URI to the autodiscover service running on your Exchange server, and that you use **autodiscover.svc** to point to the service location instead of **autodiscover.xml** (which points to the XML file used by the service):
 
     Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc"
 

@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2015-03-09_
 
-Many of the Windows PowerShell cmdlets used to manage Skype for Business Online require you to be very specific about the item that you are trying to manage. For example, when you run the [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp) cmdlet, you must indicate which user you are trying to manage. This makes sense. Unless you specifically tell the cmdlet which user account to manage, the **Set-CsUserAcp** cmdlet has no idea which user’s audio conferencing information should be modified. For this reason, each time you run the **Set-CsUserAcp** cmdlet, you’ll need to include the Identity parameter, followed by the Identity of the user account to be modified:
+Many of the Windows PowerShell cmdlets used to manage Skype for Business Online require you to be very specific about the item that you are trying to manage. For example, when you run the [Set-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp) cmdlet, you must indicate which user you are trying to manage. This makes sense. Unless you specifically tell the cmdlet which user account to manage, the **Set-CsUserAcp** cmdlet has no idea which user’s audio conferencing information should be modified. For this reason, each time you run the **Set-CsUserAcp** cmdlet, you’ll need to include the Identity parameter, followed by the Identity of the user account to be modified:
 
     Set-CsUserAcp -Identity "Ken Myer" -TollNumber "14255551298" -ParticipantPassCode 13761 -Domain "fabrikam.com" -Name "Fabrikam ACP"
 
@@ -78,7 +78,7 @@ You might also have two users: Ken Myer and Pilar Ackerman. Ken Myer has been as
 
 As you can see, Ken Myer is allowed to communicate with public IM providers. This is because the settings in the per-user policy assigned to him override the settings in the global policy. Pilar Ackerman cannot communicate with public IM providers. This is because she is managed by the global policy, and the global policy prohibits such communications.
 
-Per-user policies must be created for you by Office 365 Support. After the policies are created, you can then assign them to users by using the appropriate **Grant-Cs** cmdlet (for example, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)). Per-user policies are easy to identify because the policy Identity always begins with the tag **prefix**. For example:
+Per-user policies must be created for you by Office 365 Support. After the policies are created, you can then assign them to users by using the appropriate **Grant-Cs** cmdlet (for example, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Per-user policies are easy to identify because the policy Identity always begins with the tag **prefix**. For example:
 
     Identity : tag:AllowPublicIMCommunication
 
