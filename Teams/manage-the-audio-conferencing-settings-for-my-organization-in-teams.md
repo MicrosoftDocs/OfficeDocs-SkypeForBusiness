@@ -66,10 +66,6 @@ It might be easier for you to see all of the audio conferencing settings for Mic
 **Using Windows PowerShell**
   
 See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
-    
-## Change the sender's contact information in email messages sent to users
-
-You can make changes to the email that is automatically sent to your users, including the actual email address and the display name of the sender's contact information. By default, the sender of the emails is Office 365, but you can change the email address and display name using Windows PowerShell. See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.
   
 ## Reset the meeting conference ID
 
