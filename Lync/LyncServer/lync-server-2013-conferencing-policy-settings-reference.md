@@ -26,7 +26,7 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2014-04-22_
 
-For the most up-to-date list of conferencing policy settings see the help topic for the [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) cmdlet.
+For the most up-to-date list of conferencing policy settings see the help topic for the [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) cmdlet.
 
 </div>
 

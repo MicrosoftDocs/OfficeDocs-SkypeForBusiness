@@ -200,9 +200,9 @@ Here are some common reasons why **Test-CsDatabase** might fail:
 ## See Also
 
 
-[Get-CsDatabaseMirrorState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDatabaseMirrorState)  
-[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)  
-[Get-CsUserDatabaseState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserDatabaseState)  
+[Get-CsDatabaseMirrorState](https://docs.microsoft.com/powershell/module/skype/Get-CsDatabaseMirrorState)  
+[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[Get-CsUserDatabaseState](https://docs.microsoft.com/powershell/module/skype/Get-CsUserDatabaseState)  
   
 
 </div>

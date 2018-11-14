@@ -145,7 +145,7 @@ The following examples show a couple of the ways that you can use **Set-CsDevice
 
 </div>
 
-For details, see the Help topic for the [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration) cmdlet.
+For details, see the Help topic for the [Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration) cmdlet.
 
 </div>
 

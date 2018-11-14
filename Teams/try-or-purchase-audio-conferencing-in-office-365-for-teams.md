@@ -69,7 +69,9 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
 
 ## Step 2: Set the audio conferencing provider for people who lead or schedule meetings
 
-When you assign an **Audio Conferencing** license to people in your organization who lead or schedule meetings, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)
+When you assign an **Audio Conferencing** license to people in your organization who don't have Skype for Business integrated with a 3rd party audio conferencing provider, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)
+
+If you have users enabled with a 3rd party audio conferencing provider, you must change the provider of those user to Microsoft. To change the provider of user, see [Assign Microsoft as the audio conferencing provider](assign-microsoft-as-the-audio-conferencing-provider.md).
 
 ## Step 3: Other admin tasks
 

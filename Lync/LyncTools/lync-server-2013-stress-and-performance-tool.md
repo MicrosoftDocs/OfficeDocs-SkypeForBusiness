@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lync Server 2013 Stress and Performance Tool
 TOCTitle: Lync Server 2013 Stress and Performance Tool
 ms:assetid: dc03db19-d104-402e-9951-240681b3fb69

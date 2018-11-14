@@ -130,7 +130,7 @@ Here are some common reasons why **Test-CsExStorageNotification** might fail:
 ## See Also
 
 
-[Test-CsExStorageConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExStorageConnectivity)  
+[Test-CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExStorageConnectivity)  
   
 
 </div>
