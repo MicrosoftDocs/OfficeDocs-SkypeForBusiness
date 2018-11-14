@@ -44,7 +44,7 @@ Skype for Business users homed on premises can have Exchange homed on premises o
   
 ## Configure Forest Trusts
 
-The trusts required are two-way transitive trusts between the resource forest and each of the user forests. If you have multiple user forests, to enable cross-forest authentication it is important that Name Suffix Routing is enabled for each of these forest trusts. For instructions, see [Managing Forest Trusts](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
+The trusts required are two-way transitive trusts between the resource forest and each of the user forests. If you have multiple user forests, to enable cross-forest authentication it is important that Name Suffix Routing is enabled for each of these forest trusts. For instructions, see [Managing Forest Trusts](https://technet.microsoft.com/en-us/library/cc772440.aspx). If you have Exchange Server deployed in an another forest and it provides functionality for Skype for Business users, the forest hosting Exchange must trust the forest hosting Skype for Business Server. For example, if Exchange were deployed in the account forest, this would effectively mean that a two-way trust between account and Skype for Business forests is required in that configuration.
   
 ## Synchronize Accounts into the forest hosting Skype for Business
 
