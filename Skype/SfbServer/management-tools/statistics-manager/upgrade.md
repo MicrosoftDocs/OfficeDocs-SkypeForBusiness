@@ -3,7 +3,6 @@ title: "Upgrade Statistics Manager for Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/10/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -108,6 +107,6 @@ For more information, see the following:
     
 - [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md)
     
-- [Skype for Business Server Statistics Manager blog](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Skype for Business Server Statistics Manager blog](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
     
 
