@@ -33,7 +33,7 @@ Identify and  [Configure the Primary Management Server](configure-the-primary.md
   
 ## System Center Operations Manager Root Management Server and Agent Support
 
-The Management Packs can be used with System Center Operations Manager 2007 R2 (64-bit) (Supported for Migration purposes only) or System Center Operations Manager 2012 SP1 &amp; R2 (64-bit) or System Center Operations Manager 2016 (64-bit. The following table shows the supported configurations for the Management Packs for Skype for Business Server 2015: 
+The Management Packs can be used with System Center Operations Manager 2007 R2 (64-bit) (Supported for Migration purposes only) or System Center Operations Manager 2012 SP1 &amp; R2 (64-bit) or System Center Operations Manager 2016 (64-bit). The following table shows the supported configurations for the Management Packs for Skype for Business Server 2015: 
   
 |**Configuration**|**Supported?**|
 |:-----|:-----|
