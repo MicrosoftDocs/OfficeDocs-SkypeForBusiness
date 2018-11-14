@@ -23,7 +23,7 @@ ms.custom:
 description: "Learn how to add an emergency address to your Skype for Business account. "
 ---
 
-# Add or remove an emergency address for your organization
+# Add, change, or remove an emergency address for your organization
 
 An emergency address must be associated with a phone number - but when this happens can vary between country/regions. For example, in the United States, you need to associate an emergency address when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency address to the phone number when you are getting the phone numbers from Office 365 or transferring phone numbers from your current service provider.
   
@@ -35,7 +35,7 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
+2. Go to the **Microsoft Teams & Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation, go to **Voice** > **Emergency locations**, and then click the **Add new address** button.
     
@@ -53,6 +53,21 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
     
 6. After the address is validated, click **Save**.
     
+## To change an emergency address
+
+1. Sign in to Office 365 with your work or school account.
+    
+2. Go to the **Microsoft Teams & Skype for Business Admin Center** > **Legacy portal**.
+    
+3. In the left navigation, go to **Voice** > **Emergency locations**, select the address you want to delete, and in the Action pane click **Edit**.
+    
+    > [!IMPORTANT]
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+
+4. Make your changes, and then click **Validate**.
+
+5. Click **Save**.
+
 ## To remove an emergency address
 
 1. Sign in to Office 365 with your work or school account.
