@@ -25,7 +25,7 @@ description: "Learn how to change the emergency location for your users. With an
 
 # Change the emergency location for a user
 
-Each active phone number must have an emergency address (associated when you get a phone number in Office 365 or when you transfer a phone number) when the phone number is assigned to the user. When you associate the number with an emergency address, you can also add an emergency location to provide a more exact location within a physical location. An emergency location can be the floor, building wing, or office number where the user is located. You can have an unlimited number of locations for a given emergency address, and you can change the emergency location if the user moves to a different office or building—for example, if the user moves from floor 34 to floor 35.
+Each active phone number must have an associated emergency address when you assign the phone number to a user. (You associate when you get a phone number in Office 365 or when you transfer a phone number.) When you associate the number with an emergency address, you can also add an emergency location to provide a more exact location within a physical location. An emergency location can be the floor, building wing, or office number where the user is located. You can have an unlimited number of locations for a given emergency address, and you can change the emergency location if the user moves to a different office or building—for example, if the user moves from floor 34 to floor 35.
   
 To learn how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
