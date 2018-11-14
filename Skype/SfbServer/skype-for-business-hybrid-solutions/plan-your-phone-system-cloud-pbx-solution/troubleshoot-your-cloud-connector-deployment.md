@@ -217,7 +217,7 @@ Following are solutions to commonly encountered issues:
     Remove-CcLegacyServerCertificate 
     ```
 
-3. Run the Exit-CcUpdate cmdlet to start services and exit maintenance mode.
+3. Run the Exit-CcUpdate cmdlet to start services and and exit maintenance mode.
     
 4. Run the Export-CcRootCertificate cmdlet on the local file in the appliance, and then copy and install the exported certificate to your PSTN gateways.
     

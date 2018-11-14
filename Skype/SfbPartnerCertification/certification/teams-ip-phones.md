@@ -42,6 +42,6 @@ In addition to offering customers a range of Skype for Business certified IP pho
 If you are a vendor seeking to join the certification program, see How to Join for requirements and available programs.
 
 ## Additional resources
-Learn about [Skype for Business and Microsoft Teams certification programs](https://docs.microsoft.com/SkypeForBusiness/certification/overview).
+Learn about [Skype for Business and Microsoft Teams certification programs](https://docs.microsoft.com/en-us/SkypeForBusiness/certification/overview).
 
 [Browse IP phones certified for Skype for Business.](http://partnersolutions.skypeforbusiness.com/solutionscatalog/ip-phones)

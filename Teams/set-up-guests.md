@@ -22,7 +22,7 @@ Turn on or off guest access to Microsoft Teams
 
 As the Office 365 admin, you must enable the guest feature before you or your organization's users (specifically, team owners) can add guests. 
 
-The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hours for the changes to be effective across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been enabled or the settings haven’t become effective yet.
+The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hours for the changes to be effective across your Office 365 organization. If a user sees the message "Contact your administrator" when they try to add a guest to their team, it's likely that either the guest feature hasn't been enabled or the settings aren't effective yet.
 
 
 > [!IMPORTANT]

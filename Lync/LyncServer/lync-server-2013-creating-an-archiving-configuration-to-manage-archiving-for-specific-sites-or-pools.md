@@ -120,7 +120,7 @@ Archiving configuration settings can be created by using Windows PowerShell and 
 
 </div>
 
-For more information, see the help topic for the [New-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsArchivingConfiguration) cmdlet.
+For more information, see the help topic for the [New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration) cmdlet.
 
 </div>
 

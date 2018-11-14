@@ -89,7 +89,7 @@ SIP trunk configuration settings can be viewed by using Lync Server PowerShell a
 
 </div>
 
-For more information, see the help topic for the [Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) cmdlet.
+For more information, see the help topic for the [Get-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration) cmdlet.
 
 </div>
 

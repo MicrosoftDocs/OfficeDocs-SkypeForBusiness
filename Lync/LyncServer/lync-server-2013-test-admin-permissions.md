@@ -57,7 +57,7 @@ _**Topic Last Modified:** 2014-08-18_
 
 When you install Lync Server 2013 one of the tasks that were performed by the Setup program gives the RTCUniversalUserAdmins group the Active Directory permissions that are needed to manage users, computers, contacts, application contacts, and InetOrg persons. If you have disabled permission inheritance in Active Directory setup won't be able to assign those permissions. As a result, members of the RTCUniversalUserAdmins group won't be able to manage Lync Server entities. Those management privileges will only be available to domain administrators.
 
-The Test-CsOUPermission cmdlet verifies that the required permissions that are needed to manage users, computers, and other objects are set on an Active Directory container. If those permissions are not set, you can resolve this problem by running the [Grant-CsOUPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission) cmdlet.
+The Test-CsOUPermission cmdlet verifies that the required permissions that are needed to manage users, computers, and other objects are set on an Active Directory container. If those permissions are not set, you can resolve this problem by running the [Grant-CsOUPermission](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission) cmdlet.
 
 Note that Grant-CsOUPermission can only assign permissions to members of the RTCUniversalUserAdmins group. You can’t use this cmdlet to grant permissions to an arbitrary user or group. If you want a different user or group to have user management permissions, you should add that user (or group) to the RTCUniversalUserAdmins group.
 
@@ -77,7 +77,7 @@ To verify multiple permissions by using a single command, enclose each permissio
 
     Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "computer", "contact"
 
-For more information, see the help topic for the [Test-CsOUPermission](https://docs.microsoft.com/powershell/module/skype/Test-CsOUPermission) cmdlet.
+For more information, see the help topic for the [Test-CsOUPermission](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsOUPermission) cmdlet.
 
 </div>
 

@@ -126,8 +126,8 @@ Here are some common reasons why **Test-CsInterTrunkRouting** might fail:
 ## See Also
 
 
-[Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk)  
-[Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration)  
+[Get-CsTrunk](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunk)  
+[Get-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration)  
   
 
 </div>

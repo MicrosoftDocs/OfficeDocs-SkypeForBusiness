@@ -72,7 +72,7 @@ You can also view PSTN usages by using Windows PowerShell and the **Get-CsPstnUs
 
 </div>
 
-For details, see [Get-CsPstnUsage](https://docs.microsoft.com/powershell/module/skype/Get-CsPstnUsage).
+For details, see [Get-CsPstnUsage](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPstnUsage).
 
 </div>
 

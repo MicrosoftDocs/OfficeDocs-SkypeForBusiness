@@ -3,18 +3,19 @@ title: "Get Last Integration Data"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: "Summary: Learn about the Get Last Integration Data operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server."
+description: "Summary: Learn about the Get Last Integration Data operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015."
 ---
 
 # Get Last Integration Data
  
-**Summary:** Learn about the Get Last Integration Data operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server.
+**Summary:** Learn about the Get Last Integration Data operation, which is part of the Data API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
   
 The Get Last Integration Data operation is part of the Data API for Call Quality Dashboard.
   

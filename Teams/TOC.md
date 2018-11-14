@@ -1,4 +1,3 @@
-
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 <!-- ============================================================ -->
@@ -10,6 +9,7 @@
 ## [Where to go next](get-started-with-teams-resources-for-org-wide-rollout.md)
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
+
 
 <!-- ============================================================ -->
 # Plan
@@ -24,7 +24,6 @@
 ## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ## [Plan for governance in Teams](plan-teams-governance.md)
 ## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
-## [Create change management strategy](change-management-strategy.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
@@ -134,7 +133,6 @@
 <!-- ============================================================ -->
 # Interoperability with Office 365
 ## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-## [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ## [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 groups and Teams](office-365-groups.md)
 ## [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
@@ -151,9 +149,10 @@
 ## Monitor call quality and QoS
 ### [QoS in Teams](QoS-in-Teams.md)
 ### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Set up Call Analytics](set-up-call-analytics.md)
 ### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
+### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 ## Troubleshoot & support
 ### [Known issues for Teams](Known-issues.md)
@@ -206,7 +205,6 @@
 ### [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ### [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ### [Overview of dynamic membership for teams](dynamic-memberships.md)
-## [Presence](presence-admins.md)
 ## [Guest access](guest-access.md)
 ### [How a guest joins a team](guest-joins.md)
 ### [What the guest experience is like](guest-experience.md)
@@ -236,8 +234,7 @@
 #### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
 #### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
 #### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
-#### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-#### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
+#### [Configure Teams live events](teams-live-events/configure-teams-live-events.md)
 
 
 
@@ -354,7 +351,7 @@
 #### [Phone number management for the Netherlands](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Phone number management for the U.K.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Phone number management for the U.S.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-### Manage Communications Credits
+### Manage Communication Credits
 #### [What are Communications Credits?](what-are-communications-credits.md)
 #### [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
@@ -372,7 +369,7 @@
 #### [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [Manage the Audio Conferencing settings for a user](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-#### [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 #### [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md)

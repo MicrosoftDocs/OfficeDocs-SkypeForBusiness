@@ -1,4 +1,4 @@
----
+﻿---
 title: Lync Server 2013 Resource Kit Tools Documentation
 TOCTitle: Lync Server 2013 Resource Kit Tools Documentation
 ms:assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622

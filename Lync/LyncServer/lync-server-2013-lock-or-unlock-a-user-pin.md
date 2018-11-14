@@ -136,7 +136,7 @@ You can lock and unlock user PINs by using Windows PowerShell and the Lock-CsCli
 
 </div>
 
-For more information, see the help topic for the [Lock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/Lock-CsClientPin) and [Unlock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/Unlock-CsClientPin) cmdlets.
+For more information, see the help topic for the [Lock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Lock-CsClientPin) and [Unlock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Unlock-CsClientPin) cmdlets.
 
 </div>
 

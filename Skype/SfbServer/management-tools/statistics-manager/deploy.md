@@ -1,27 +1,28 @@
 ---
-title: "Deploy Statistics Manager for Skype for Business Server"
+title: "Deploy Statistics Manager for Skype for Business Server 2015"
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 2/9/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: "Summary: Read this topic to learn how to deploy Statistics Manager for Skype for Business Server."
+description: "Summary: Read this topic to learn how to deploy Statistics Manager for Skype for Business Server 2015."
 ---
 
-# Deploy Statistics Manager for Skype for Business Server
+# Deploy Statistics Manager for Skype for Business Server 2015
  
-**Summary:** Read this topic to learn how to deploy Statistics Manager for Skype for Business Server.
+**Summary:** Read this topic to learn how to deploy Statistics Manager for Skype for Business Server 2015.
   
  Statistics Manager for Skype for Business Server is a powerful tool that allows you to view Skype for Business Server health and performance data in real time. You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website.
   
-Before you attempt to install Statistics Manager, be sure you are familiar with the software, networking, and hardware requirements. For more information, see [Plan for Statistics Manager for Skype for Business Server](plan.md).
+Before you attempt to install Statistics Manager, be sure you are familiar with the software, networking, and hardware requirements. For more information, see [Plan for Statistics Manager for Skype for Business Server 2015](plan.md).
   
 > [!NOTE]
-> If you are upgrading from a previous version of Statistics Manager, see [Upgrade Statistics Manager for Skype for Business Server](upgrade.md). 
+> If you are upgrading from a previous version of Statistics Manager, see [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md). 
   
 > [!NOTE]
 > The Statistics Manager Website has been tested and works correctly on Internet Explorer 11+, Edge 20.10240+ , and Chrome 46+ (current evergreen version). 
@@ -56,7 +57,7 @@ To deploy Statistics Manager, follow these steps:
   
 ### Prepare the Listener host machine
 
-To prepare the host machine, you will need to install the Redis in-memory caching system, and ensure that a valid certificate is on the machine. Microsoft recommends that you install the latest stable build of Redis 3.0. Statistics Manager version 2.0 was tested with Redis 3.2.100. 
+To prepare the host machine, you will need to install the Redis in-memory caching system, and ensure that a valid certificate is on the machine. Microsoft recommends that you install the latest stable build of Redis 3.0. Statistics Manager version 1.1 was tested with Redis 3.0.501 and Redis 2.8.2400. 
   
 1. Download Redis from the following site: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis). 
     
@@ -206,7 +207,7 @@ The following command enables you to view all options:
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-To see your currently imported server information, run the following script: 
+To see your your currently imported server information, run the following script: 
   
 ```
 .\Get-StatsManServerInfo.ps1
@@ -259,7 +260,7 @@ If an Agent fails to start, check for the following:
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-For information about all the events you might see in the application event log, see [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md).
+For information about all the events you might see in the application event log, see [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md).
   
 ## Create a self-signed certificate
 <a name="BKMK_SelfCert"> </a>
@@ -293,11 +294,11 @@ Microsoft strongly recommends that you use a certificate signed by a trusted cer
 
 For more information, see the following:
   
-- [Plan for Statistics Manager for Skype for Business Server](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
     
-- [Upgrade Statistics Manager for Skype for Business Server](upgrade.md)
+- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
     
-- [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md)
+- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
     
 - [Skype for Business Server Statistics Manager blog](https://blogs.technet.microsoft.com/skypestatsman/)
     

@@ -156,7 +156,7 @@ Here are some common reasons why **Test-CsExUMVoiceMail** might fail:
 ## See Also
 
 
-[Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity)  
+[Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity)  
   
 
 </div>

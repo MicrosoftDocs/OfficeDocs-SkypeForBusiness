@@ -77,7 +77,7 @@ You can view client version policy rules by using Lync Server Management Shell a
 
 </div>
 
-For details, see the help topic for the [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicyRule) cmdlet.
+For details, see the help topic for the [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionPolicyRule) cmdlet.
 
 </div>
 

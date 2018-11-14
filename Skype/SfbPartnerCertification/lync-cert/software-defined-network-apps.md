@@ -98,7 +98,7 @@ When a desktop sharing, voice, or video session is initiated using a Lync client
 * * *
 
   **Lync 2013**
-  **Enable predictable quality of service across end to end wired and wireless networks.**
+  **Enable predictable quality of service accross end to end wired and wireless networks.**
 
 [Meru Networks](http://merunetworks.com)
 
