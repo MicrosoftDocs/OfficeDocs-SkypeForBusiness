@@ -7,7 +7,7 @@
 ### [Client updates](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Server updates](../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
-## Hybrid solutions
+## Hybrid solutions for Teams and Skype for Business
 ### [Plan hybrid connectivity](../hybrid/plan-hybrid-connectivity.md)
 ### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity.md)
 #### [Configure Azure AD Connect for hybrid environments](../hybrid/configure-azure-ad-connect.md)
@@ -15,6 +15,7 @@
 #### [Configure a multi-forest environment](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [Move users from on-premises to Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
 ### [Move users from on-premises to Teams](../hybrid/move-users-from-on-premises-to-teams.md)
+### [Integrate with Exchange and SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integraton-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 ## Plan
 ### [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
