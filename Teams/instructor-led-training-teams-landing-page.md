@@ -22,7 +22,7 @@ ms.date: 08/24/2018
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. If you're a business decision maker, admin, IT Pro, or end user, you'll find a class that’s right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors.<br><br> Click a tile to register.</p>
+                                    <p>Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. If you're a business decision maker, admin, IT Pro, or end user, you'll find a class that’s right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors. [Looking for on-demand end user training?](enduser-training.md)<br><br> Click a tile to register.</p>
                                 </div>
                             </li>
                             <li>
@@ -102,18 +102,18 @@ ms.date: 08/24/2018
                             </a>
                         </li>
                         <li>
-                            <a href="https://docs.microsoft.com/MicrosoftTeams/enduser-training">
+                            <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Get on-demand training & videos</h3>
-                                                <p>Get end-user Teams training and videos on demand for you and your users.</p>
+                                                <h3>Tips & tricks</h3>
+                                                <p>Understand creative ways to optimize and organize Teams in your day-to-day work. (Audience: End users)</p>
                                             </div>
                                         </div>
                                     </div>
