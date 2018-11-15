@@ -30,13 +30,15 @@ As an IT admin, you may need to view or update the teams that your organization 
 - Global Administrator
 - Teams Service Administrator
 
-You can learn more about admin roles in Microsoft Teams [here](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
+You should also make sure that your account has been assigned a non-trial Teams license for management.  You can learn more about admin roles in Microsoft Teams [here](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
 This article provides an overview of the management tools for teams in the Microsoft Teams & Skype for Business Admin Center.
 
 ## Teams overview grid
 
-Management tools for teams are under the **Teams** node in the Microsoft Teams & Skype for Business Admin Center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of all groups that have been Microsoft Teams-enabled in your organization.
+Management tools for teams are under the **Teams** node in the Microsoft Teams & Skype for Business Admin Center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
+
+Note: we are in the process of backfilling previously created Teams to ensure that they will show up in this view.
 
 ![Teams overview grid](media/manage-teams-in-modern-portal-image1.png)  
 
