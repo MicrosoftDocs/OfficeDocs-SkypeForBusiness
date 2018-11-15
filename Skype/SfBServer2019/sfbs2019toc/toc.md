@@ -15,7 +15,7 @@
 #### [Configure a multi-forest environment](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [Move users from on-premises to Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
 ### [Move users from on-premises to Teams](../hybrid/move-users-from-on-premises-to-teams.md)
-### [Integrate with Exchange and SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integraton-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Integrate with Exchange and SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 ## Plan
 ### [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
