@@ -1,21 +1,20 @@
 ---
-title: "Deploy Call Quality Dashboard for Skype for Business Server 2015"
+title: "Deploy Call Quality Dashboard for Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
-description: "Summary: Learn about the deployment process for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015."
+description: "Summary: Learn about the deployment process for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server."
 ---
 
-# Deploy Call Quality Dashboard for Skype for Business Server 2015
+# Deploy Call Quality Dashboard for Skype for Business Server
  
-**Summary:** Learn about the deployment process for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+**Summary:** Learn about the deployment process for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server.
   
 ## Deployment Overview
 
@@ -180,6 +179,27 @@ The next step is to configure the dashboard of the CQD. After users are authenti
 4. Click **Apply** on the right-hand side of the page.
     
 ## Known Issues
+
+### The CQD shows no data after deployment
+
+You may receive the following error:
+
+*We couldn’t perform the query while running it on the Cube. Use the Query Editor to modify the query and fix any issues. Also make sure that the Cube is accessible.*
+
+This means that the cube must be processed in SQL Server Analysis Services prior to being used in CQD. You can resolve this by following these steps:
+
+1. Open SQL Management Studio and select **Analysis Services**.
+
+2. Expand the **QoECube** object, select **QoE Metric**, right-click, and then choose **Browse**. 
+
+    If this returns empty browser, the cube hasn’t been proceed yet.
+
+3. Right-click **QoE Metric** angain and choose **Process**.
+
+4. When processing is complete, right-click the object again, and choose **Browse** to confirm that the browser page now shows data. 
+
+
+### Users have trouble logging in because installer fails to create the correct settings in IIS
 
 In rare cases, the installer fails to create the correct settings in IIS. Manual change is required to allow users to log into the CQD. If users are having trouble logging in, please follow these steps:
   
