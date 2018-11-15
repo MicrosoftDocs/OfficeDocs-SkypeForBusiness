@@ -32,7 +32,7 @@
 
 ### [Plan for Skype for Business Server and Exchange Server migration](../hybrid/plan-um-migration.md)
 
-### Cloud Voicemail
+### Cloud Voicemail 
 #### [Plan Cloud Voicemail](../hybrid/plan-cloud-voicemail.md)
 #### [Configure Cloud Voicemail](../hybrid/configure-cloud-voicemail.md)
 ### Call Data Connector
