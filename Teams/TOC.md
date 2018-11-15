@@ -503,6 +503,8 @@
 #### [Set up Phone System voicemail](set-up-phone-system-voicemail.md)
 #### [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
+### [Phones for Microsoft Teams](phones-for-teams.md)
+### [Buying and deploying Microsoft Teams IP phones](buying-and-deploying-teams-ip-phones.md)
 ### Phone System Direct Routing
 #### [Plan Direct Routing](direct-routing-plan.md)
 #### [Configure Direct Routing](direct-routing-configure.md)
