@@ -3,13 +3,13 @@ title: "Configure Cloud Auto Attendants"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 8/1/2018
+ms.date: 12/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "Instructions for implementing a Cloud Auto Attendant."
+description: "Instructions for implementing a Cloud Auto Attendant." 
 ---
 
 # Configure Cloud Auto Attendants

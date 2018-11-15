@@ -3,7 +3,7 @@ title: "Plan a Cloud Auto Attendant"
 ms.author: jambirk
 author: jambirk
 manager: serdars 
-ms.date: 7/31/2018
+ms.date: 12/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -16,7 +16,7 @@ description: "Overview of using a Cloud Auto Attendant with Skype for Business S
 
 [!INCLUDE [disclaimer](../disclaimer.md)]
 
-## Overview
+## Overview 
 
 The Auto Attendant used with Exchange Unified Messaging (Exchange Server 2013 or Exchange Server 2016) is no longer available in Exchange Server 2019 or Exchange Online. If your implementation of Skype for Business Server 2019 integrates with either of these Exchange versions, you'll need to use the online Cloud Voice features associated with Phone System. See [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md) for information about moving Exchange UM services homed on Exchange server 2013 and 2016 to the cloud.
 
@@ -87,9 +87,7 @@ Microsoft recommends the following migration paths:
 
 - If you are upgrading to Exchange Server 2019, and you are using previous versions of Exchange Server UM for Skype for Business Server voice messaging, Microsoft recommends that you upgrade to Skype for Business Server 2019 before the mailbox upgrade.  Otherwise, voice messaging capabilities will be lost. 
 
-
 For more information about planning your migration, see [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md).
-
 
 ### Migrating a previously implemented Exchange UM Auto Attendant system
 
