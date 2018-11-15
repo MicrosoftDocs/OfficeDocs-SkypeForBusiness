@@ -20,7 +20,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "See steps on how to change the emergency address for a user to work with the Public Switched Telephone Network (PSTN) in the US and Europe. "
+description: "How to change the emergency address for a user to work with the Public Switched Telephone Network (PSTN) in the US and Europe. "
 ROBOTS: NOINDEX
 ---
 
