@@ -30,7 +30,7 @@ As an IT admin, you may need to view or update the teams that your organization 
 - Global Administrator
 - Teams Service Administrator
 
-You should also make sure that your account has been assigned a non-trial Teams license for management.  You can learn more about admin roles in Microsoft Teams [here](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
+You should also make sure that your account has been assigned a non-trial Teams license for management.  As part of a known issue, you should make sure that your account has only **one** admin role assigned.  You can learn more about admin roles in Microsoft Teams [here](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
 This article provides an overview of the management tools for teams in the Microsoft Teams & Skype for Business Admin Center.
 
@@ -78,7 +78,6 @@ You can change the following elements of a team:
 - **Channels** - you can add new channels or remove existing channels.  You cannot delete the default "General" channel, and once created you can only edit channel name, not description.
 - **Team name**
 - **Team description**
-- **Team photo**
 - **Team privacy** - public or private
 - **Team classification** - backed by your Office 365 group classifications
 - **Team member settings** - select team member settings
