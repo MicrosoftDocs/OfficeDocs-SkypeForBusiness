@@ -13,7 +13,6 @@
 ### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity.md)
 #### [Configure Azure AD Connect for hybrid environments](../hybrid/configure-azure-ad-connect.md)
 #### [Configure Skype for Business hybrid](../hybrid/configure-federation-with-skype-for-business-online.md)
-<<<<<<< HEAD
 
 ### [Move users between on-premises and cloud](../hybrid/move-users-between-on-premises-and-cloud.md)
 #### [Move users from on-premises to Teams](../hybrid/move-users-from-on-premises-to-teams.md)
@@ -39,12 +38,6 @@
 ### Call Data Connector
 #### [Plan Call Data Connector](../hybrid/plan-call-data-connector.md)
 #### [Configure Call Data Connector](../hybrid/configure-call-data-connector.md)
-=======
-#### [Configure a multi-forest environment](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
-### [Move users from on-premises to Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
-### [Move users from on-premises to Teams](../hybrid/move-users-from-on-premises-to-teams.md)
-### [Integrate with Exchange and SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
->>>>>>> master
 
 ## Plan
 ### [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
