@@ -27,7 +27,7 @@ The [Adopt Teams](adopt-microsoft-teams-landing-page.md) section of our document
 
 ## Let us know what you think
 
-![survey](https://docs.microsoft.com/en-us/Office/media/icons/PNGs/sign-up-teams-64px.png) 
-Take a minute to share your thoughts on this Get started section by completing [this short survey](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u). It's anonymous.
+:memo:
+Will you complete <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">this survey</a> (takes about a minute) to tell us what you think of this **Get started** section?. It's anonymous.
 
 You can also give feedback for a specific article by going to the **Feedback** section of that article. 
