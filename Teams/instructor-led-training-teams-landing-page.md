@@ -22,7 +22,7 @@ ms.date: 08/24/2018
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. If you're a business decision maker, admin, IT Pro, or end user, you'll find a class that’s right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors. Looking for [on-demand end user training](https://docs.microsoft.com/microsoftteams/enduser-training)?<br><br> Click a tile to register.</p>
+                                    <p>Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. If you're a business decision maker, admin, IT Pro, or end user, you'll find a class that’s right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors. Looking for <a href="https://docs.microsoft.com/microsoftteams/enduser-training">on-demand end user training</a>?<br><br> Click a tile to register.</p>
                                 </div>
                             </li>
                             <li>
