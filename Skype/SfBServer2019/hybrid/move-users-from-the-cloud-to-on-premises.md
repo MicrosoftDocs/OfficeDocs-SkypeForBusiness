@@ -1,5 +1,5 @@
 ---
-title: "Move users from Skype for Business Online to on premises"
+title: "Move users from the cloud to on premises"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,4 +12,4 @@ ms.custom:
 description: "Learn how to move users from Skype for Business Online to on premises."
 ---
 
-# Move users from Skype for Business Online to on premises 
+# Move users from the cloud to on premises 
