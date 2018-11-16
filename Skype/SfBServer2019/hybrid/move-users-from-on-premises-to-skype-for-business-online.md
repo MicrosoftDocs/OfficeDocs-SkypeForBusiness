@@ -33,7 +33,7 @@ The following cmdlet sequence can be used to move a user to Skype for Business O
 
 ```
 $cred=Get-Credential
-$url=” https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc”
+$url=" https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
  
 Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
 ```
