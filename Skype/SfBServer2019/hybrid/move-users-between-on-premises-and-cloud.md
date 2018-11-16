@@ -82,3 +82,5 @@ The policies (such as to control messaging, meeting, and calling behavior) in on
 [Setting up the Meeting Migration Service (MMS)](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
 
 [Plan Direct Routing](/microsoftteams/direct-routing-plan)
+
+[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)

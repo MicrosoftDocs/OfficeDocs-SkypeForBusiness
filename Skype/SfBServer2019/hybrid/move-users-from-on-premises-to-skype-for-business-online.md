@@ -47,3 +47,7 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Crede
 6. If prompted, sign in to Office 365, with an account that ends in .onmicrosoft.com and has sufficient permissions.
 7. Click **Next**, and then **Next** one more time to move the user.
 8. Note that status messages regarding success or failure are provided at the top of the main Control Panel app, not in the wizard.
+
+## See also
+
+[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)

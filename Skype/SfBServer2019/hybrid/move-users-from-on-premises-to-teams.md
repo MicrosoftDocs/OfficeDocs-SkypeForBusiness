@@ -130,3 +130,8 @@ After the user is moved to Teams, you will see  confirmations like the following
 If the move was not successful, you will see a message like the following:
 
 ![Message that user could not be moved](../media/users-not-moved.png)
+
+
+## See also
+
+[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)

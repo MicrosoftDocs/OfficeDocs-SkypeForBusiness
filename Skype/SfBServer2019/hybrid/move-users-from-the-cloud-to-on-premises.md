@@ -13,3 +13,11 @@ description: "Learn how to move users from Skype for Business Online to on premi
 ---
 
 # Move users from the cloud to on premises 
+
+
+
+
+
+## See also
+
+[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
