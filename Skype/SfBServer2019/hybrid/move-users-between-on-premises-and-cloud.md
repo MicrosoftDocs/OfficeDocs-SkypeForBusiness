@@ -63,12 +63,12 @@ To move users between on premises and the cloud, you must use an account with su
 
 If users are configured for enterprise voice in on premises, you will need to coordinate updating their voice configuration when you move them to online, or, alternatively, you could migrate them without telephony capabilities. The available options depend on whether the user will be using the Teams or Skype for Business client once they are online:
 
-- You can update a user’s telephony provider to use a [Microsoft Calling Plan](../../../Teams/calling-plans-for-office-365.md). This is an option whether users will use Teams or Skype for Business clients.
+- You can update a user’s telephony provider to use a [Microsoft Calling Plan](/microsoftteams/calling-plans-for-office-365). This is an option whether users will use Teams or Skype for Business clients.
 - You can continue to use your on-premises PSTN provider:
   - Voice users who will use Teams must be configured for [Direct Routing](/microsoftteams/direct-routing-plan). Direct Routing is only available after the user is moved from on premises to online.
   - Voice users who will use the Skype for Business client after they are moved online must be configured for Skype for Business Hybrid Voice functionality.
 
-For more details about telephony options in hybrid environments, as well as a supportability matrix, see [User accounts in a hybrid environment with PSTN connectivity](../../../Teams/direct-routing-user-accounts-in-a-hybrid-environment.md).
+For more details about telephony options in hybrid environments, as well as a supportability matrix, see [User accounts in a hybrid environment with PSTN connectivity](/microsoftteams/direct-routing-user-accounts-in-a-hybrid-environment).
 
 ## Other considerations
 
