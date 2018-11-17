@@ -55,7 +55,7 @@ You should also be aware that some fidelity/crispness of your shared content has
 If QoS is enabled for the following media ports and VbSS is also enabled, during a conference that includes desktop sharing the AS MCU will use the video port settings shown in bold below for the screen share traffic. 
   
 > [!IMPORTANT]
-> These settings are a special case, and these exact settings must be used when implementing both of these features. This overrides other recommended settings in the [documentation for QoS](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx). Fo application sharing you will also need to specify ASMCUSVC.exe in the QoS GPO in addition to defining these port values. 
+> These settings are a special case, and these exact settings must be used when implementing both of these features. This overrides other recommended settings in the [documentation for QoS](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx). For application sharing you will also need to specify ASMCUSVC.exe in the QoS GPO in addition to defining these port values. 
   
 **Application Server QoS/VbSS required settings**
 
