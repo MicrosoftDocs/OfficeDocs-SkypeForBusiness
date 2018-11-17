@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 09/19/2018
 ms.topic: article
 ms.service: msteams
-description: Learn to use the different adminstrative roles to manage Teams.
+description: Learn to use the different administrative roles to manage Teams.
 appliesto: 
 - Microsoft Teams
 ---
