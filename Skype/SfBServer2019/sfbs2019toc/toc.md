@@ -31,14 +31,6 @@
 
 ### [Integration with Exchange and SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/hybrid/hybrid/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/breadcrumb/toc.json)
 
-### [Plan for Skype for Business Server and Exchange Server migration](../hybrid/plan-um-migration.md)
-
-### Cloud Voicemail 
-#### [Plan Cloud Voicemail](../hybrid/plan-cloud-voicemail.md)
-#### [Configure Cloud Voicemail](../hybrid/configure-cloud-voicemail.md)
-### Call Data Connector
-#### [Plan Call Data Connector](../hybrid/plan-call-data-connector.md)
-#### [Configure Call Data Connector](../hybrid/configure-call-data-connector.md)
 
 ## Plan
 ### [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

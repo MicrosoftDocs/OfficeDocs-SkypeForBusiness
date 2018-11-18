@@ -27,7 +27,10 @@ Prerequisites to move a user to the cloud (whether to Skype for Business Only or
 
 - The organization must have Azure AD Connect properly configured and be syncing all relevant attributes for the user as described in [Configure Azure AD Connect](configure-azure-ad-connect.md).
 - Skype for Business hybrid must be configured, as described in [Configure Skype for Business hybrid](configure-federation-with-skype-for-business-online.md).
-- The user must be assigned a license for Skype for Business Online, and if they will be using Teams, they must also have a Teams license.
+- The user must be assigned a license for Skype for Business Online (Plan 2), and if they will be using Teams, they must also have a Teams license.  In addition:
+    - If the user is enabled for dial-in conferencing in on premises, by default the user must also have an Audio Conferencing license assigned in Office 365 before you run move the user online. Once migrated to the cloud, the user will be provisioned for audio conferencing in the cloud. If for some reason you want to move a user to the cloud, but not use audio conferencing functionality, you can override this check by specifying the `BypassAudioConferencingCheck` parameter in `Move-CsUser`.
+    - If the user is enabled for Enterprise Voice in on premises, by default the user must have a Phone System license assigned in Office 365 before you move the user online. Once Migrated to the cloud, the user will be provisioned for Phone System in the cloud. If for some reason you want to move a user to the cloud but not use Phone System functionality, you can override this check by specifying the `BypassEnterpriseVoiceCheck`parameter in `Move-CsUser`.
+
 
 ## Moving users
 
@@ -42,7 +45,7 @@ To move users between on premises and the cloud (whether to Teams or to Skype fo
 
 - [From Skype for Business Server (on premises) to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
 - [From Skype for Business Server (on premises) directly to Teams Only](move-users-from-on-premises-to-teams.md) (which also moves them to Skype for Business Online).  The option to move directly from on premises to Teams Only is available in Skype for Business Server 2019 as well as Cumulative Update 8 for Skype for Business Server 2015. Organizations using earlier versions of Skype for Business Server can move users to Teams Only by first moving them to Skype for Business Online, and then applying the TeamsOnly mode to these users once they are online.
-- From online (whether Teams Only or not), to on premises.
+- [From online (whether Teams Only or not), to on premises](move-users-from-the-cloud-to-on-premises.md).
 
 ## Required administrative credentials
 

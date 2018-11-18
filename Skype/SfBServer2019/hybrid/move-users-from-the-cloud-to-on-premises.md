@@ -64,7 +64,7 @@ Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Creden
 7. Click **Next**, and then **Next** one more time to move the user.
 8. Note that status messages regarding success or failure are provided at the top of the main Control Panel app, not in the wizard.
 
-#### Removing TeamsOnly mode
+### Removing TeamsOnly mode
 
 If you are using a version earlier than Skype for Business 2015 with CU8 and the user is being moved back to on premises in TeamsOnly mode, you must remove the UpgradeToTeams instance of `TeamsUpgradePolicy` before you move the user on premises. You can either explicitly grant a policy with a different mode or simply remove the existing policy assignment for that user to use the global policy (as long as your tenant’s global policy is not UpgradeToTeams).
 
