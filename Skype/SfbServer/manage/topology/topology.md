@@ -19,8 +19,6 @@ The following topics provide step-by-step instructions on tasks involved with ma
   
 - [Manage Front End Servers in Skype for Business Server](manage-front-end-servers.md)
     
-- [Add or remove a Front End Server in Skype for Business Server](add-or-remove-a-front-end-server.md)
-    
 - [Add databases to an AlwaysOn Availability Group in Skype for Business Server](add-databases.md)[Patch or update a Back End Server or Standard Edition server in Skype for Business Server](patch-or-update-a-back-end-or-standard-edition-server.md)
     
 - [Patch or update a SQL Server in an AlwaysOn Availability Group in Skype for Business Server](patch-or-update-sql-server.md)
