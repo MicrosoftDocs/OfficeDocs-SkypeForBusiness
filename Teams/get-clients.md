@@ -142,3 +142,22 @@ Notification settings
 There are currently no options available for IT administrators to configure client-side notification settings. All notification options are set by the user. The figure below outlines the default client settings.
 
 ![Screenshot of Notifications settings.](media/Get_clients_for_Microsoft_Teams_image6.png)
+
+Sample PowerShell Script
+----------------------------
+To automate creation of firewall rule to avoid Windows Firewall prompt when users initiate their first call in Microsoft Teams, administrators can run the following script on client computers in the context of an administrator. 
+
+$users = Get-Childitem c:\users
+foreach ($user in $users) 
+{
+    $Path = "c:\users\" + $user.Name + "\appdata\local\Microsoft\Teams\Current\Teams.exe"
+    if (Test-Path $Path) 
+	{
+	        $name = "teams.exe " + $user.Name
+	        if (!(Get-NetFirewallRule -DisplayName $name))
+		{
+	            New-NetFirewallRule -DisplayName “teams.exe” -Direction Inbound -Profile Domain -Program $Path -Action Allow
+		}
+	}
+}
+
