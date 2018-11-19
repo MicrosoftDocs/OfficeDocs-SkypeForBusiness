@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure policies to control federated user access'
 TOCTitle: Configure policies to control federated user access
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
@@ -84,7 +84,7 @@ If this is a user policy, you must also apply the policy to users that you want 
 
 3.  Type the following in the Lync Server Management Shell:
     
-        Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAcess <$true, $false> -EnablePublicCloudAudioVideoAcess <$true, $false> -EnableOutsideAcess <$true, $false>
+        Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
     
     An example command that will set the global policy for Federated user access to enabled, XMPP domain access to enabled, Remote user access to enabled, Public provider access to enabled, and grant the ability to use audio and video for public providers that support it:
     
