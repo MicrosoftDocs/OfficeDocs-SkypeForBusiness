@@ -40,7 +40,7 @@ The table below shows the difference in permissions between an owner and a membe
 |        **Add connectors**         |    Yes     |    Yes<sup>2</sup>|
 |           **Add bots**            |    Yes     |    Yes<sup>2</sup>|
 
-<sup>1</sup> Team owners can create teams if they have the correct permissions to do so.
+<sup>1</sup> Team owners can create teams unless they've been restricted from doing so. See "Permissions to create teams" below.
 >
 <sup>2</sup> These items can be turned off by an owner at a team level, in which case members would not have access to them.
 
