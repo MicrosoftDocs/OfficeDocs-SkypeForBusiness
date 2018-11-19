@@ -17,7 +17,7 @@ description: "Summary: Learn about the steps to manage your topology in Skype fo
   
 The following topics provide step-by-step instructions on tasks involved with managing your Skype for Business Server topology and your Front End Servers.
   
-- [Patch or update Front End Servers in Skype for Business Server](patch-or-update-front-end-servers.md)
+- [Manage Front End Servers in Skype for Business Server](manage-front-end-servers.md)
     
 - [Add or remove a Front End Server in Skype for Business Server](add-or-remove-a-front-end-server.md)
     

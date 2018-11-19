@@ -391,8 +391,8 @@
 #### [Configure HADR for Persistent Chat](../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
 ## [Manage](../manage/manage.md)
 ### [Topology](../manage/topology/topology.md)
-#### [Patch or update Front End Servers](../manage/topology/patch-or-update-front-end-servers.md)
-#### [Add or remove a Front End Server](../manage/topology/add-or-remove-a-front-end-server.md)
+#### [Manage Front End Servers](../manage/topology/manage-front-end-servers.md)
+
 #### [Patch or update a Back End or Standard Edition server](../manage/topology/patch-or-update-a-back-end-or-standard-edition-server.md)
 #### [Add databases](../manage/topology/add-databases.md)
 #### [Patch or update  SQL Server](../manage/topology/patch-or-update-sql-server.md)

@@ -353,8 +353,8 @@
 
 ## Manage
 ### [Topology](../../SfbServer/manage/topology/topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [Patch or update Front End Servers](../../SfbServer/manage/topology/patch-or-update-front-end-servers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [Add or remove a Front End Server](../../SfbServer/manage/topology/add-or-remove-a-front-end-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [Manage Front End Servers](../../SfbServer/manage/topology/manage-front-end-servers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+
 #### [Patch or update a Back End or Standard Edition server](../../SfbServer/manage/topology/patch-or-update-a-back-end-or-standard-edition-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Add databases](../../SfbServer/manage/topology/add-databases.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Patch or update  SQL Server](../../SfbServer/manage/topology/patch-or-update-sql-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
