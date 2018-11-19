@@ -23,7 +23,7 @@ When a user is moved from on premises to Teams Only, the user’s Skype for Busi
 - User can still join any Skype for Business meetings.
 - The user’s pre-existing meetings scheduled for the future will be migrated from on-premises to Skype for Business Online.
 - Contacts that existed on premises are available in Teams shortly after the user logs on for the first time.
-- Users cannot initiate calls or chats from Skype for Business, nor can they schedule new meetings in Skype for Business. If they attempt to open the Skype for Business client, they will be redirected to use Teams as shown below. If the Teams client is not installed, they will be directed to the web version of Teams using their browser.
+- Users cannot initiate calls or chats from Skype for Business, nor can they schedule new meetings in Skype for Business. If they attempt to open the Skype for Business client, they will be redirected to use Teams as shown below. If the Teams client is not installed, they will be directed to the web version of Teams using their browser.<br><br>
     ![Message redirecting a user to Teams](../media/go-to-teams-page.png)
 
 Before moving any users, be sure to review the [prerequisites](move-users-between-on-premises-and-cloud.md#prerequisites) to move users to the cloud. Also be sure to review [Migration and interoperability guidance for organizations using Teams together with Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
