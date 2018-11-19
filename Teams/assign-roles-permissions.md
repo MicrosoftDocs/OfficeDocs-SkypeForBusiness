@@ -23,26 +23,28 @@ Assign team owners and members in Microsoft Teams
 
 Within Microsoft Teams there are two user roles: **Owner** and **Member**. By default, a user who creates a new team is granted the Owner status. If a team is created from an existing Office 365 Group, permissions are inherited.
 
-The table below shows the difference in permissions between an owner and a member:
+The table below shows the difference in permissions between an owner and a member.
 
 
 |                                   | Team Owner | Team Member |
 |-----------------------------------|------------|-------------|
-|          **Create team**          |    Yes     |     No      |
+|          **Create team**          |    Yes<sup>1</sup>     |     No      |
 |          **Leave team**           |    Yes     |     Yes     |
 |  **Edit team name/description**   |    Yes     |     No      |
 |          **Delete team**          |    Yes     |     No      |
-|          **Add channel**          |    Yes     |    Yes\*    |
-| **Edit channel name/description** |    Yes     |    Yes\*    |
-|        **Delete channel**         |    Yes     |    Yes\*    |
-|          **Add members**          |  Yes\*\*   |     No      |
-|           **Add tabs**            |    Yes     |    Yes\*    |
-|        **Add connectors**         |    Yes     |    Yes\*    |
-|           **Add bots**            |    Yes     |    Yes\*    |
+|          **Add channel**          |    Yes     |    Yes<sup>2</sup>|
+| **Edit channel name/description** |    Yes     |    Yes<sup>2</sup>|
+|        **Delete channel**         |    Yes     |    Yes<sup>2</sup>|
+|          **Add members**          |  Yes<sup>3</sup>   |     No      |
+|           **Add tabs**            |    Yes     |    Yes<sup>2</sup>|
+|        **Add connectors**         |    Yes     |    Yes<sup>2</sup>|
+|           **Add bots**            |    Yes     |    Yes<sup>2</sup>|
 
-\* These items can be turned off by an owner at a team level, in which case members would not have access to them.
+<sup>1</sup> Team owners can create teams if they have the correct permissions to do so.
+>
+<sup>2</sup> These items can be turned off by an owner at a team level, in which case members would not have access to them.
 
-\*\*After adding a member to a team, an Owner can also promote a Member to Owner status. It is also possible for an Owner to demote their own status to a Member.
+<sup>3</sup> After adding a member to a team, an owner can also promote a member to owner status. It is also possible for an owner to demote their own status to a member.
 
 
 
