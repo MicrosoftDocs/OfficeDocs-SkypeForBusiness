@@ -445,7 +445,6 @@
 ###### [Call Admission Control Report](../manage/health-and-monitoring/call-admission-control-report.md)
 ####### [Peer-to-Peer Session Detail Report](../manage/health-and-monitoring/peer-to-peer-session-detail-report.md)
 ##### [Call Diagnostic Reports (per user)](../manage/health-and-monitoring/call-diagnostic-reports-per-user.md)
-###### [User Activity Report](../manage/health-and-monitoring/user-activity-report.md)
 ##### [Call Diagnostic Reports](../manage/health-and-monitoring/call-diagnostic-reports.md)
 ###### [Summary Report](../manage/health-and-monitoring/summary-report.md)
 ####### [Conference Summary Subreport](../manage/health-and-monitoring/conference-summary-subreport.md)
