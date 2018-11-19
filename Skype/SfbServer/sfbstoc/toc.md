@@ -536,7 +536,7 @@
 ### Network
 #### [Quality of Service (QoS)](../manage/network-management/qos/managing-quality-of-service-qos.md)
 ##### [Enabling QoS for devices that are not based on Windows](../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md)
-##### [Configuring port ranges for your Conferencing, Application, and Mediation servers](../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)
+##### [Configuring port ranges and QOS policy for your Conferencing, Application, and Mediation servers](../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)
 ##### [Configuring port ranges and a Quality of Service policy for your clients](../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md)
 ##### [Configuring a Quality of Service policy for your A/V Edge Servers](../manage/network-management/qos/configuring-a-quality-of-service-policy-for-your-a-v-edge-servers.md)
 ##### [Configuring port ranges for your clients](../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md)
