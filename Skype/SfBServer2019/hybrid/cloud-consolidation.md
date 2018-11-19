@@ -71,7 +71,7 @@ The basic steps to get from the original state to the desired end state are belo
     - [Update the SAN in all edge certificates](cloud-consolidation-edge-certificates.md) to be the same value as before, plus values for any existing online SIP domains, in this case, Sip.OriginalCompany.<span>com.
     - Make sure OriginalCompany.<span>com is an allowed domain in the on-premises deployment, AcquiredCompany.
 15.	[Enable Skype for Business hybrid](configure-federation-with-skype-for-business-online.md) between on-premises AcquiredCompany.<span>com and the cloud.
-16.	As desired, [migrate users from on-premises to the cloud](move-users-between-on-premises-and-cloud?.md). You can migrate users either directly to TeamsOnly mode or you can migrate them first to Skype for Business Online. During this state, the organization looks like **[Figure D](#figure-d)**.
+16.	As desired, [migrate users from on-premises to the cloud](move-users-between-on-premises-and-cloud.md). You can migrate users either directly to TeamsOnly mode or you can migrate them first to Skype for Business Online. During this state, the organization looks like **[Figure D](#figure-d)**.
 17.	Once all users are migrated, [disable hybrid with the on-premises environment](cloud-consolidation-disabling-hybrid.md) to *make the organization pure cloud*!
 
 The diagrams below show the configuration at various key points during this process.
