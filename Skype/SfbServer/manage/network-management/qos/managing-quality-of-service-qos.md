@@ -33,9 +33,7 @@ Skype for Business Server offers full support for Quality of Service: that means
 
   - [Configuring port ranges for your Edge Servers](configuring-port-ranges-for-your-edge-servers.md). Although not required, you can configure your Edge servers to use the same port ranges as your other servers.
 
-  - [Configuring port ranges for your clients](configuring-port-ranges-for-your-skype-clients.md). These port ranges apply only to client computers and are typically not the same as the port ranges configured on your servers.
-
-  - [Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers](configuring-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers.md). These policies determine the DSCP codes that are applied to different packet types.
+  - [Configuring port ranges and a Quality of Service policy for your clients](configuring-port-ranges-for-your-skype-clients.md). These port ranges apply only to client computers and are typically not the same as the port ranges configured on your servers.
 
   - [Configuring a Quality of Service policy for your A/V Edge Servers](configuring-a-quality-of-service-policy-for-your-a-v-edge-servers.md). This should only be done for the internal side of your Edge servers. That's because Quality of Service is designed for use on your internal network and not on the Internet.
 
