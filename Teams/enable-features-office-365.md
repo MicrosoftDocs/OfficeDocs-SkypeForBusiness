@@ -3,7 +3,7 @@ title: Manage Microsoft Teams features in your Office 365 organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/29/2018
+ms.date: 11/19/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
@@ -114,3 +114,7 @@ Here you can choose the app that users will use to join Skype for Business meeti
 ## How can I tell which features are available?
 
 See the [Office 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) for information about new Teams features. For more information about new and upcoming features, see the Teams [What's New](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) page and the [Tech Community Microsoft Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531) for Teams. 
+
+## More information
+
+For information about which roles can perform admin functions, see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).
