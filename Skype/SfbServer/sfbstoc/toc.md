@@ -538,8 +538,7 @@
 ##### [Enabling QoS for devices that are not based on Windows](../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md)
 ##### [Configuring port ranges and QoS policy for your Conferencing, Application, and Mediation servers](../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)
 ##### [Configuring port ranges and a QoS policy for your Edge Servers](../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md)
-##### [Configuring port ranges for your clients](../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md)
-##### [Configuring Quality of Service policies for clients running on Windows 10](../manage/network-management/qos/configuring-quality-of-service-policies-for-clients-running-on-windows-10.md)
+##### [Configuring port ranges and a QoS policy for your clients in Skype for Business Server](../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md)
 
 #### Call admission control
 ##### [Enabling call admission control in Skype for Business Server](../manage/network-management/call-admission-control/enabling-call-admission-control.md)

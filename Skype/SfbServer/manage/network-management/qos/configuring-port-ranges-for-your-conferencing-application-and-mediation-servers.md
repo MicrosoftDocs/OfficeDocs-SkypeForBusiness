@@ -11,12 +11,12 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: "To implement Quality of Service, you should configure identical port ranges for audio, video, and application sharing on your Conferencing, Application, and Mediation servers."
+description: "This article describes how to configure port ranges and a Quality of Service policy for your Conferencing, Application, and Mediation servers."
 ---
 
 # Configuring port ranges and a Quality of Service policy for your Conferencing, Application, and Mediation servers
 
-In order to implement Quality of Service, you should configure identical port ranges for audio, video, and application sharing on your Conferencing, Application, and Mediation servers. Configuring port ranges facilitates the use of Quality of Service by ensuring that all traffic of a specified type (for example, all audio traffic) travels through the same set of ports.
+This article describes how to configure port ranges and a Quality of Service policy for your Conferencing, Application, and Mediation servers.
 
 ## Configure port ranges
 
