@@ -394,8 +394,7 @@
 #### [Manage Front End Servers](../manage/topology/manage-front-end-servers.md)
 
 #### [Patch or update a Back End or Standard Edition server](../manage/topology/patch-or-update-a-back-end-or-standard-edition-server.md)
-#### [Add databases](../manage/topology/add-databases.md)
-#### [Patch or update  SQL Server](../manage/topology/patch-or-update-sql-server.md)
+#### [Manage databases](../manage/topology/manage-databases.md)
 #### [Move File Store Data](../manage/topology/move-file-store-data.md)
 #### [Disable TLS 1.0/1.1](../manage/topology/disable-tls-1.0-1.1.md)
 #### [Manage services](../manage/manage-services.md)

@@ -17,15 +17,15 @@ description: "Summary: Learn about the steps to manage your topology in Skype fo
   
 The following topics provide step-by-step instructions on tasks involved with managing your Skype for Business Server topology and your Front End Servers.
   
-- [Manage Front End Servers in Skype for Business Server](manage-front-end-servers.md)
+- [Manage Front End Servers](manage-front-end-servers.md)
     
-- [Add databases to an AlwaysOn Availability Group in Skype for Business Server](add-databases.md)[Patch or update a Back End Server or Standard Edition server in Skype for Business Server](patch-or-update-a-back-end-or-standard-edition-server.md)
-    
-- [Patch or update a SQL Server in an AlwaysOn Availability Group in Skype for Business Server](patch-or-update-sql-server.md)
-    
-- [Move File Store Data to a New File Store in Skype for Business Server](../../help-topics/help-topobld/move-file-store-data.md)
+- [Manage databases with an AlwaysOn Availability Group](manage-databases.md)
 
-- [Manage services in Skype for Business Server](manage-services.md)
+- [Patch or update a Back End Server or Standard Edition server](patch-or-update-a-back-end-or-standard-edition-server.md)
+    
+- [Move File Store Data to a New File Store](../../help-topics/help-topobld/move-file-store-data.md)
+
+- [Manage services](manage-services.md)
 
     
 
