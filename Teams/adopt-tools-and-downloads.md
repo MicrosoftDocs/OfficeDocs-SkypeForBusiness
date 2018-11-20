@@ -7,7 +7,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 layout: LandingPage
-ms.date: 10/31/2018
+ms.date: 11/20/2018
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
@@ -86,7 +86,7 @@ Use the tools below to support each phase of your service adoption plan.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Inspire your employees with these day in the life quicksheets</h3>
+                        <h3>Inspire your employees with these Day in the Life quicksheets</h3>
                     </div>
                 </div>
             </div>
