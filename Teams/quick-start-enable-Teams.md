@@ -55,7 +55,7 @@ Efficient technical planning is the foundation of a great user experience. If yo
 3.	[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
 4.	[Guest access in Teams](guest-access.md)
 
-In addition, some rganizations may want to review [Overview of security and compliance in Teams](security-compliance-overview.md).
+In addition, some organizations may want to review [Overview of security and compliance in Teams](security-compliance-overview.md).
 
 
 ## Step 4: Conduct pilots and deploy Teams
