@@ -17,7 +17,7 @@ Microsoft Teams has a rich set of tools for IT admins to manage the product thro
 
 ## Which modules do you need to use?
 
-The PowerShell controls for managing Microsoft Teams are in two different PowerShell modules: the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3) (public preview) and the [Skype for Business PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366). The Teams PowerShell module contains all of the cmdlets you need to create and manage the teams themselves, while the Skype for Business PowerShell module contains the controls for managing policies, configurations, and other Teams tools. The reference documents for PowerShell controls will tell you which module contains the cmdlet you're investigating. (Eventually, the two modules will be combined.)
+The PowerShell controls for managing Microsoft Teams are in two different PowerShell modules: the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (public preview) and the [Skype for Business PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366). The Teams PowerShell module contains all of the cmdlets you need to create and manage the teams themselves, while the Skype for Business PowerShell module contains the controls for managing policies, configurations, and other Teams tools. The reference documents for PowerShell controls will tell you which module contains the cmdlet you're investigating. (Eventually, the two modules will be combined.)
 
 ## What can each admin role do?
 
@@ -27,7 +27,7 @@ Read [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md) to 
 
 The cmdlets for creating and managing teams are in the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3). 
 
-Teams are backed by O365 Groups, so when you create a team, you create a group. There are a set of cmdlets provided for operating on the core team and its settings (``new-team``, ``get-team``, ``set-teamfunsettings``), as well as cmdlets for managing the channels of the team (``new-teamchannel``, ``remove-teamchannel``). All of these cmdlets can be run as end users, but they'll work only on the teams that you own or are a member of. If you are a Global Admin or Teams Service Administrator, you'll be able to act on all teams in your organization.
+Teams are backed by O365 Groups, so when you create a team, you create a group. There are a set of cmdlets provided for operating on the core team and its settings (``new-team``, ``get-team``, ``set-teamfunsettings``, ``set-teammessagingsettings``, ``set-teamguestsettings``, ``set-teammembersettings``), managing team users (``add-teamuser``, ``remove-teamuser``), as well as cmdlets for managing the channels of the team (``new-teamchannel``, ``remove-teamchannel``). All of these cmdlets can be run as end users, but they'll work only on the teams that you own or are a member of. If you are a Global Admin or Teams Service Administrator, you'll be able to act on all teams in your organization.
 
 > The **GroupId** used in the Microsoft Teams PowerShell module cmdlets is the same as the **Identity** property returned by ``Get-UnifiedGroup`` in the Exchange PowerShell module.
 
