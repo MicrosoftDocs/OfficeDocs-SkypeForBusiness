@@ -117,7 +117,7 @@ If you're a small business, or if you want to roll out Teams starting with chat,
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Training" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Training" />
                         </div>
                     </div>
                     <div class="cardText">
