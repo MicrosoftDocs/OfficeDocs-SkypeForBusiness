@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.date: 11/06/18
-ms.reviewer: 
+ms.reviewer: LolaJ
 description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
 localization_priority: Normal
 search.appverid: MET150
