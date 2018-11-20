@@ -20,7 +20,7 @@ Use the tools below to support each phase of your service adoption plan.
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="media/serviceadoptionplans-oct2018.zip">
+        <a href="downloads/serviceadoptionplans-oct2018.zip">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
