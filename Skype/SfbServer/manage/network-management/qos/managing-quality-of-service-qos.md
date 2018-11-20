@@ -33,6 +33,6 @@ Skype for Business Server offers full support for Quality of Service: that means
 
   - [Configuring port ranges and a Quality of Service policy for your Edge Servers](configuring-port-ranges-for-your-edge-servers.md). Although not required, you can configure your Edge servers to use the same port ranges as your other servers. Configuring a Quality of Service policy should only be done for the internal side of your Edge servers. That's because Quality of Service is designed for use on your internal network and not on the Internet.
 
-- [Configuring port ranges and a Quality of Service policy for your clients in Skype for Business Server](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md). These port ranges apply only to client computers and are typically different from the port ranges configured on your servers. Note that Skype for Business Server does not support QoS for Windows operating systems other than Windows 10.
+- [Configuring port ranges and a Quality of Service policy for your clients in Skype for Business Server](configuring-port-ranges-for-your-skype-clients.md)  These port ranges apply only to client computers and are typically different from the port ranges configured on your servers. Note that Skype for Business Server does not support QoS for Windows operating systems other than Windows 10.
 
 
