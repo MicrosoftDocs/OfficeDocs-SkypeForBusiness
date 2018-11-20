@@ -20,7 +20,7 @@ Use the tools below to support each phase of your service adoption plan.
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="downloads/serviceadoptionplans-oct2018.zip">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/serviceadoptionplans-oct2018.zip?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -39,7 +39,7 @@ Use the tools below to support each phase of your service adoption plan.
         </a>
     </li>
     <li>
-        <a href="downloads/examplepersonas.zip">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/examplepersonas.zip?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -58,7 +58,7 @@ Use the tools below to support each phase of your service adoption plan.
         </a>
     </li>
     <li>
-        <a href="downloads/workassignandstakeholders.zip">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/workassignandstakeholders.zip?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -76,7 +76,7 @@ Use the tools below to support each phase of your service adoption plan.
         </a>
     </li>
     <li>
-        <a href="downloads/dayinthelifequicksheets.zip">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/dayinthelifequicksheets.zip?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -86,7 +86,7 @@ Use the tools below to support each phase of your service adoption plan.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Inspire your employees with these Day in the Life quicksheets</h3>
+                        <h3>Inspire your employees with these day in the life quicksheets</h3>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@ Use the tools below to support each phase of your service adoption plan.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Embeddable video resources for Champions and ITPros</h3>
+                        <h3>Embeddable video resources for champions and ITPros</h3>
                     </div>
                 </div>
             </div>
@@ -114,5 +114,5 @@ Use the tools below to support each phase of your service adoption plan.
 </ul>
 
 
-### Office 365 Champions Program
-The Office 365 Champions program is a free program that helps people who want to get more from Microsoft Teams and other Office 365 services.  We combine our online community in the [Microsoft Technical Community](https://aka.ms/DriveAdoption) with monthly community calls that highlight all the components of driving adoption from governance to best practices to new features.  Join our community at https://aka.ms/O365Champions and get access to early release, hear from other customers and learn from Microsoft experts.  
+### Office 365 champions program
+The Office 365 champions program is a free program that helps people who want to get more from Microsoft Teams and other Office 365 services. We combine our online community in the [Microsoft Technical Community](https://aka.ms/DriveAdoption) with monthly community calls that highlight all the components of driving adoption from governance to best practices to new features. Join our community at https://aka.ms/O365Champions and get access to early release, hear from other customers and learn from Microsoft experts.  
