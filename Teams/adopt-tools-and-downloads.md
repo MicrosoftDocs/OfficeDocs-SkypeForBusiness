@@ -111,7 +111,24 @@ Use the tools below to support each phase of your service adoption plan.
         </div>
         </a>
     </li>
-</ul>
+<li>
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/microsoftteamshelpdeskguide.pdf?raw=true">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Prepare your helpdesk for Microsoft Teams</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li></ul>
 
 
 ### Office 365 champions program
