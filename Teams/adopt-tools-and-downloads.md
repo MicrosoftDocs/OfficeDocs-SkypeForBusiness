@@ -58,7 +58,7 @@ Use the tools below to support each phase of your service adoption plan.
         </a>
     </li>
     <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/workassignedandstakeholders.zip?raw=true">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/workassignandstakeholders.zip?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
