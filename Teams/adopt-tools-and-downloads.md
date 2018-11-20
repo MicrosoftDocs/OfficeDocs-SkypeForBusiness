@@ -20,7 +20,7 @@ Use the tools below to support each phase of your service adoption plan.
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="downloads/serviceadoptionplans-oct2018.zip">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/serviceadoptionplans-oct2018.zip?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
