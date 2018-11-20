@@ -583,7 +583,6 @@
 #### [Configuring and monitoring the Backup Service](../manage/ha-dr-and-backup-service/configuring-and-monitoring-the-backup-service.md)
 #### [Failing over and failing back a pool](../manage/ha-dr-and-backup-service/failing-over-and-failing-back-a-pool.md)
 #### [Failing over, failing back, or changing the Edge pool](../manage/ha-dr-and-backup-service/failing-over-failing-back-or-changing-the-edge-pool.md)
-#### [Restoring conference contents using the Backup Service](../manage/ha-dr-and-backup-service/restoring-conference-contents-using-the-backup-service.md)
 
 ### [Video based Screen Sharing](../manage/video-based-screen-sharing.md)
 
