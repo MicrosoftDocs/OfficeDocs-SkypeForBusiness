@@ -11,7 +11,7 @@ description: "You can use Skype for Business Server Management Shell commands to
 
 # Configuring and monitoring the Backup Service in Skype for Business Server
 
-You can use the following Skype for Business Server Management Shell commands to configure and monitor the Backup Service. To restore conference information stored in the file store of a Front End pool, see [Restore conference contents using the Backup Service](#restore-conference-contents-using-the-backup-service-in-skype-for-business-server), below.
+You can use the following Skype for Business Server Management Shell commands to configure and monitor the Backup Service. To restore conference information stored in the file store of a Front End pool, see [Restore conference contents using the Backup Service](#restore-conference-contents-using-the-backup-service), below.
 
 > [!NOTE]  
 > The RTCUniversalServerAdmins group is the only group that has permissions to run **Get-CsBackupServiceStatus** by default. To use this cmdlet, log on as a member of this group. Or, you can grant access to this command to other groups (for example, CSAdministrator) by using the **Set-CsBackupServiceConfiguration** cmdlet.
