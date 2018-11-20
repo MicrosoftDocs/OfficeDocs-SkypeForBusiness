@@ -58,7 +58,7 @@ Use the tools below to support each phase of your service adoption plan.
         </a>
     </li>
     <li>
-        <a href="downloads/workassignandstaekholders.zip">
+        <a href="downloads/workassignandstakeholders.zip">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
