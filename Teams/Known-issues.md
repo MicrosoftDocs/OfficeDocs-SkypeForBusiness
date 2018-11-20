@@ -34,7 +34,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Admin management of tenant-wide Connectors is no longer available  <br/> |When trying to add a connector in both client and online version we get the error: An unexpected error occurred. Please try again. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Disable with Teams settings. See support article https://msdn.microsoft.com/microsoft-teams/connectors  <br/> |6/21/17  <br/> |
+|Admin management of tenant-wide Connectors is no longer available  <br/> |When trying to add a connector in both client and online version we get the error: An unexpected error occurred. Please try again. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Disable with Teams settings. See this support article: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |6/21/17  <br/> |
 
 ## Apps
 
