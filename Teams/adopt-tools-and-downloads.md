@@ -39,7 +39,7 @@ Use the tools below to support each phase of your service adoption plan.
         </a>
     </li>
     <li>
-        <a href="downloads/examplepersonas.zip">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/examplepersonas.zip?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -58,7 +58,7 @@ Use the tools below to support each phase of your service adoption plan.
         </a>
     </li>
     <li>
-        <a href="downloads/workassignandstakeholders.zip">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/workassignedandstakeholders.zip?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -76,7 +76,7 @@ Use the tools below to support each phase of your service adoption plan.
         </a>
     </li>
     <li>
-        <a href="downloads/dayinthelifequicksheets.zip">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/dayinthelifequicksheets.zip?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
