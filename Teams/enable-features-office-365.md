@@ -3,7 +3,7 @@ title: Manage Microsoft Teams features in your Office 365 organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/19/2018
+ms.date: 10/29/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
