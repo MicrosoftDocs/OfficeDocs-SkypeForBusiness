@@ -523,16 +523,11 @@
 ##### [Enable or disable anonymous user access](../manage/federation-and-external-access/access-edge/enable-or-disable-anonymous-user-access.md)
 ##### [Assign conferencing policies to support anonymous user](../manage/federation-and-external-access/access-edge/assign-conferencing-policies-to-support-anonymous-users.md)
 #### [Manage SIP federated domains for your organization](../manage/federation-and-external-access/sip-domains/manage-sip-federated-domains-for-your-organization.md)
-##### [Configure support for allowed external domains](../manage/federation-and-external-access/sip-domains/configure-support-for-allowed-external-domains.md)
-##### [Configure support for blocked external domains](../manage/federation-and-external-access/sip-domains/configure-support-for-blocked-external-domains.md)
+
 #### [Manage SIP federated providers for your organization](../manage/federation-and-external-access/sip-providers/manage-sip-federated-providers-for-your-organization.md)
-##### [Create or edit public SIP federated providers](../manage/federation-and-external-access/sip-providers/create-or-edit-public-sip-federated-providers.md)
-##### [Create or edit hosted SIP federated providers](../manage/federation-and-external-access/sip-providers/create-or-edit-hosted-sip-federated-providers.md)
+
 #### [Configuring federation support for a Skype for Business Online customer](../manage/federation-and-external-access/federation-support/configuring-federation-support.md)
-##### [Prerequisites for federating with a Skype for Business Online customer](../manage/federation-and-external-access/federation-support/prerequisites-for-federating.md)
-##### [Configure federation support for a Skype for Business Online domain](../manage/federation-and-external-access/federation-support/configure-federation-support-for-domain.md)
-##### [Configure user access for federation with a Skype for Business Online customer](../manage/federation-and-external-access/federation-support/configure-user-access-for-federation.md)
-##### [Verify communications with a Skype for Business Online customer](../manage/federation-and-external-access/federation-support/verify-communications.md)
+
 ### Network
 #### [Quality of Service (QoS)](../manage/network-management/qos/managing-quality-of-service-qos.md)
 ##### [Enabling QoS for devices that are not based on Windows](../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md)
