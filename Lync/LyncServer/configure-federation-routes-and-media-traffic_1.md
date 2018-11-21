@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configure federation routes and media traffic
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: ed6cb922-7863-453a-adce-2ce0ba761d74
@@ -210,7 +210,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 
 
-3.  Next, stop the **Lync Server Server Access Edge** from each Edge Server computer.
+3.  Next, stop the **Lync Server Access Edge** from each Edge Server computer.
 
 4.  From each legacy Edge Server computer, open the **Services** applet from the **Administrative Tools**.
 
