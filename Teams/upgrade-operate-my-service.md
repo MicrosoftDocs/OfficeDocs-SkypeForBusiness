@@ -20,7 +20,7 @@ appliesto:
 
 This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you’ve completed your upgrade from Skype for Business to Teams.
 
-# Operate my service
+# Operate your service
 
 This article gives an overview of the requirements for successfully operating Teams for your organization after you’ve upgraded. By properly operating your Teams services, you can be sure you’re providing a high-quality, reliable experience for your organization.
 
