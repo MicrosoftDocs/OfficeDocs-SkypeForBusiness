@@ -151,7 +151,7 @@ For any Edge Server running the A/V Edge service, these are the requirements:
     
 - Your Edge internal interface must be on a different network than your Edge Server external interface, and routing between them must be disabled.
     
-- The external interface of any Edge Server running the A/V Edge service must use publically routable IP addresses and no NAT or port translation on any of the Edge external IP addresses.
+- The external interface of any Edge Server running the A/V Edge service must use publicly routable IP addresses and no NAT or port translation on any of the Edge external IP addresses.
     
 #### HLB requirements
 
