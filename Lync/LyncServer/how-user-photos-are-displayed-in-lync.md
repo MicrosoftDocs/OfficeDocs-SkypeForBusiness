@@ -84,7 +84,7 @@ User cannot change the image used in their Active Directory Domain Services prof
 
   - **SharePoint Server**   Users can upload a photo to ‘My Site’ on a SharePoint Server and then [configure profile synchronization in SharePoint](http://go.microsoft.com/fwlink/p/?linkid=507466) to synchronize the photo to the **thumbnailPhoto** attribute in Active Directory Domain Services.
 
-  - **Photo stored on publicly accessible URL**   Users can configure their user photo specifying a publicly accessible URL for the image that they want to use. The image must be publically accessible without a password. The image stored at the specified web address is transferred to other users through the contact card category in the presence information. When Lync client needs to display a user photo, it retrieves the image from the specified web address.
+  - **Photo stored on publicly accessible URL**   Users can configure their user photo specifying a publicly accessible URL for the image that they want to use. The image must be publicly accessible without a password. The image stored at the specified web address is transferred to other users through the contact card category in the presence information. When Lync client needs to display a user photo, it retrieves the image from the specified web address.
 
   - **Exchange 2010 cmdlets for Windows PowerShell**   Administrators can run the [Import-RecipientDataProperty](http://go.microsoft.com/fwlink/p/?linkid=507468) cmdlet in the Exchange 2010 Management Shell in to manage the **thumbnailPhoto** attribute. When images are imported with Exchange 2010 cmdlets, the file size is limited to 10 KB.
 
