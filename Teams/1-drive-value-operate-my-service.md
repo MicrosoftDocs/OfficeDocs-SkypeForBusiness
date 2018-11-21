@@ -281,8 +281,7 @@ All features that are released are documented in the [Release Notes for
 Microsoft
 Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de).
 Here you’ll find a list of features that were released for desktop, web, and
-mobile devices. The same set of release notes are also available on the Release
-Notes tab in the [Microsoft Teams T-Bot](t-bot.md).
+mobile devices. The same set of release notes are also available on the **What's new** tab in [Help](get-help-in-microsoft-teams.md).
 
 Become familiar with the resources available and ensure that you assign applicable
 owners to monitor for change.
