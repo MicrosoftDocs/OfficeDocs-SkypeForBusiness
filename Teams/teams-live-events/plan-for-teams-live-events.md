@@ -104,5 +104,5 @@ Go to [Set up for Teams live events](set-up-for-teams-live-events.md).
 ### Related topics
 - [What are Teams live events?](what-are-teams-live-events.md)
 - [Set up for Teams live events](set-up-for-teams-live-events.md)
-- [Confgure live events settings in Teams](configure-teams-live-events.md)
+- [Configure live events settings in Teams](configure-teams-live-events.md)
 
