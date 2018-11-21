@@ -66,6 +66,4 @@ If this is a user policy, you must also apply the policy to public users that yo
 
 ## See Also
 
-[Create or edit public SIP federated providers](../sip-providers/create-or-edit-public-sip-federated-providers.md)
-
 [Manage SIP federated providers for your organization](../sip-providers/manage-sip-federated-providers-for-your-organization.md)

@@ -25,7 +25,7 @@ Use the following procedure to configure each external access policy that you wa
 
 
 > [!NOTE]  
-> This procedure describes how to configure a policy only to enable communications with remote users, but each policy that you configure to support remote user access can also configure federated user access and public user access. For details about configuring policies to support federated users, see [Configure policies to control federated user access in Skype for Business Server](configure-policies-to-control-federated-user-access.md). For details about configuring policies to support public users, see [Create or edit public SIP federated providers](../sip-providers/create-or-edit-public-sip-federated-providers.md).
+> This procedure describes how to configure a policy only to enable communications with remote users, but each policy that you configure to support remote user access can also configure federated user access and public user access. For details about configuring policies to support federated users, see [Configure policies to control federated user access in Skype for Business Server](configure-policies-to-control-federated-user-access.md). For details about configuring policies to support public users, see [Manage SIP federated providers for your organization in Skype for Business Server](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
 
 
 ## To configure an external access policy to support remote user access

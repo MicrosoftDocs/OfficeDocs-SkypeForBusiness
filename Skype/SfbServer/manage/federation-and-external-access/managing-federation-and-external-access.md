@@ -62,16 +62,16 @@ Configure the settings as detailed in the topic [Enable or disable sending an Ar
 
 **Do you want to allow users to communicate with SIP Federated Providers that enable communication with public providers?**
 
-Configure the settings as detailed in the topics [Configure policies to control public user access](external-access-policies/configure-policies-to-control-public-user-access.md), [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md), and [Create or edit public SIP federated providers](sip-providers/create-or-edit-public-sip-federated-providers.md).
+Configure the settings as detailed in the topics [Configure policies to control public user access](external-access-policies/configure-policies-to-control-public-user-access.md), [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md), and [Create or edit public SIP federated providers](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server)
 
 
 **Do you want to allow users to communicate with SIP Federated Providers that are hosted providers running Microsoft Office 365 and Skype for Business Online?**
 
-Configure the settings as detailed in the topics [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) and [Create or edit hosted SIP federated providers](sip-providers/create-or-edit-hosted-sip-federated-providers.md).
+Configure the settings as detailed in the topics [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) and [Create or edit hosted SIP federated providers](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server).
 
 **Is your deployment configured in a split (also known as a hybrid) domain, where some users have their home server in an on-premise deployment, and other users are configured with a home server in an online environment?**
 
-Configure the settings as detailed in the topics [Configure policies to control federated user access](external-access-policies/configure-policies-to-control-federated-user-access.md), [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md), and [Create or edit hosted SIP federated providers](sip-providers/create-or-edit-hosted-sip-federated-providers.md).
+Configure the settings as detailed in the topics [Configure policies to control federated user access](external-access-policies/configure-policies-to-control-federated-user-access.md), [Enable or disable federation and public IM connectivity](access-edge/enable-or-disable-federation-and-public-im-connectivity.md), and [Create or edit hosted SIP federated providers](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server).
 
 
 You can configure external user access settings, including any policies that you want to use to control external user access, even if you have not enabled external user access for your organization. However, the policies and other settings that you configure are in effect only when you have external user access enabled for your organization. External users cannot communicate with users of your organization when external user access is disabled or if no external user access policies are configured to support it.
