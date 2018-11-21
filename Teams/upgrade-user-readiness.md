@@ -1,5 +1,5 @@
 ---
-title: Prepare my user readiness plan before upgrade from Skype for Business to Microsoft Teams - Microsoft Teams
+title: Prepare a user readiness plan before upgrade from Skype for Business to Microsoft Teams - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
