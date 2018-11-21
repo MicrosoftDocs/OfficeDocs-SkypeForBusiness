@@ -35,9 +35,9 @@ If you don't want anonymous users to join meetings scheduled by users in your or
 
 You can customize Teams meeting invitations to meet your organization's needs. You can add your organization's logo and include helpful information, such as links to your support website and legal disclaimer, and a text-only footer. 
 
-### Tips for creating a logo for meeting invitations [NEEDSREVIEW] 
+### Tips for creating a logo for meeting invitations  
 
-1. Create an image that's no more than 188 pixels wide by 30 pixels tall (it's quite small). 
+1. Create an image that's no more than 188 pixels wide by 30 pixels tall (it's quite small). [NEEDS REVIEW]
 2. Save the image in JPG format.   
 3. Store the image in a central location that everyone in your organization can access, such as a network share. 
 
@@ -46,7 +46,7 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
 
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
-2. Under **Email invitation**, do the following: [NEEDSREVIEW]: Add screen shot with example URLs
+2. Under **Email invitation**, do the following: [NEEDS REVIEW: ADD SCREEN SHOT OF EXAMPLE URLs]
 
     ![meeting-settings-invitation.png](media/meeting-settings-invitation.png "Screen shot of the meeting invitation settings that you can customize for Teams meetings") 
 
@@ -56,9 +56,9 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
     - **Footer** Enter text that you want to include as a footer. 
 3. Wait an hour or so for the changes to propagate across all Office 365 services. Then schedule a Teams meeting to see what the meeting invitation looks like.  
 
-    [NEEDSREVIEW]: Add screen shot of a custom meeting invite. 
+    [NEEDS REVIEW: ADD SCREEN SHOT OF CUSTOM MEETING INVITE]
 
-## Set how you want to handle real-time media traffic for Teams meetings (coming soon) [NEEDSREVIEW]
+## Set how you want to handle real-time media traffic for Teams meetings (coming soon) 
 If you're using QoS to prioritize network traffic, you can enable QoS markers and you can set port ranges for each type of media traffic. 
 
  ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
