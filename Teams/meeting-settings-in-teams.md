@@ -46,7 +46,7 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
 
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
-2. Under **Email invitation**, do the following: [NEEDS REVIEW: ADD SCREEN SHOT OF EXAMPLE URLs]
+2. Under **Email invitation**, do the following: 
 
     ![meeting-settings-invitation.png](media/meeting-settings-invitation.png "Screen shot of the meeting invitation settings that you can customize for Teams meetings") 
 
