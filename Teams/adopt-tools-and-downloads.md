@@ -20,7 +20,8 @@ Use the tools below to support each phase of your service adoption plan.
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/serviceadoptionplans-oct2018.zip?raw=true">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip
+?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -39,13 +40,14 @@ Use the tools below to support each phase of your service adoption plan.
         </a>
     </li>
     <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/examplepersonas.zip?raw=true">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip
+?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Chat" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -58,7 +60,8 @@ Use the tools below to support each phase of your service adoption plan.
         </a>
     </li>
     <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/workassignandstakeholders.zip?raw=true">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip
+?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -76,7 +79,8 @@ Use the tools below to support each phase of your service adoption plan.
         </a>
     </li>
     <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/dayinthelifequicksheets.zip?raw=true">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip
+?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -112,13 +116,14 @@ Use the tools below to support each phase of your service adoption plan.
         </a>
     </li>
 <li>
-        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/microsoftteamshelpdeskguide.pdf?raw=true">
+        <a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf
+?raw=true">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="Checklist" />
                         </div>
                     </div>
                     <div class="cardText">
