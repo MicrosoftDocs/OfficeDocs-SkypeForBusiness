@@ -55,7 +55,7 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
     - **Legal URL** If your organization has a legal website that you want people to go to for any legal concerns, enter the URL here. 
     - **Help URL** If your organization has a support website that you want people to go to if they run into issues, enter the URL here.
     - **Footer** Enter text that you want to include as a footer. 
-3. Wait an hour or so for the changes to propagate across all Office 365 services. Then schedule a Teams meeting to see what the meeting invitation looks like.  
+3. Wait an hour or so for the changes to propagate. Then schedule a Teams meeting to see what the meeting invitation looks like.  
 
 ## Set how you want to handle real-time media traffic for Teams meetings (coming soon) 
 If you're using Quality of Service (QoS) to prioritize network traffic, you can enable QoS markers and you can set port ranges for each type of media traffic. 
