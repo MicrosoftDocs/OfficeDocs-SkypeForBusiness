@@ -68,7 +68,7 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
 
 5. Click **Save**.
 
-## To remove an emergency address
+## Remove an emergency address
 
 1. Sign in to Office 365 with your work or school account.
     
