@@ -3,7 +3,7 @@ title: View guest users in a team
 author: LolaJacobsen
 ms.author: rramesan
 manager: serdars
-ms.date: 11/09/2018
+ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help

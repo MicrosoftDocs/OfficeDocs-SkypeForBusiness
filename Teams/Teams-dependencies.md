@@ -3,7 +3,7 @@ title: Authorize guest access in Microsoft Teams
 author: lolaj
 ms.author: sbhatta
 manager: serdars
-ms.date: 11/13/18
+ms.date: 11/26/18
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -33,7 +33,7 @@ The following diagram shows how guest access authorization dependency is granted
 
 ![Diagram of authorization dependencies for guest access.](media/teams_dependencies_image1.png)
 
-The next diagram shows, at a high level, how the permission model works through the guest access invitation and redemption flows.
+The next diagram shows, at a high level, how the user experience works with the permission model through a typical guest access invitation and redemption flow.
 
 ![Diagram of invitation and redemption flows](media/authorize-guest-image1.png)
 
@@ -45,16 +45,16 @@ Use Azure AD to determine whether external collaborators can be invited into you
 
 The settings for invitations apply at the tenant level and control the guest experience at the directory, tenant, and application level. 
 
-> [!NOTE]
-> Currently Microsoft Teams doesn’t support the guest inviter role. At a minimum the **Members can invite** toggle must be set to **Yes** for guest access to work in Teams.
-
 ![Screenshot of User settings in Azure Active Directory portal.](media/teams_dependencies_image2.png)
 
 Azure AD includes the following settings to configure external users:
 
 - **Guest user permissions are limited**: **Yes** means that guests don't have permission for certain directory tasks, such as enumerate users, groups, or other directory resources. In addition, guests can't be assigned to administrative roles in your directory. **No** means that guests have the same access to directory data that regular users have in your directory.
 - **Admins and users in the guest inviter role can invite**: **Yes** means that admins and users in the "Guest Inviter" role will be able to invite guests to the tenant. **No** means admins and users can't invite guests to the tenant.
-- **Members can invite**: **Yes** means that non-admin members of your directory can invite guests to collaborate on resources secured by your Azure AD, such as SharePoint sites or Azure resources. **No** means that only admins can invite guests to your directory.
+- **Members can invite**: **Yes** means that non-admin members of your directory can invite guests to collaborate on resources secured by your Azure AD, such as SharePoint sites or Azure resources. **No** means that only admins can invite guests to your directory.</br>
+      
+    > [!NOTE]
+    > Currently, Teams doesn't support the guest inviter role. at a minimum the **Members can invite** toggle must be set to **Yes** for guest access to work in Teams.
 - **Guests can invite**: **Yes** means that guests in your directory can themselves invite other guests to collaborate on resources secured by your Azure AD, such as SharePoint sites or Azure resources. **No** means that guests can't invite other guests to collaborate with your organization.
  
 For more information about controlling who can invite guests, see [Delegate invitations for Azure Active Directory B2B collaboration](https://docs.microsoft.com/en-us/azure/active-directory/b2b/delegate-invitations)
@@ -110,30 +110,4 @@ To enable the full Teams guest access experience, Office 365 admins need to sele
 These settings apply at the tenant level and control the guest experience at SharePoint Online, OneDrive for Business, Office 365 Groups, and Teams.
 
 You can manage SharePoint Online external user settings for the Teams connected team site. For more details, see  [Manage your SharePoint team site settings](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).
-
-## Frequently asked questions
-
-Q. Do guests have the same capabilities as team members?
-A. No. For more information about what a guest can and cannot do, go to [Guest capabilities in Teams](https://support.office.com/en-us/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
-
-Q. How many guests can I invite?
-A. You can add up to 5 guests per licensed user.
-
-Q. Do guests have access to OneDrive for Business?
-A. No.
-
-Q. Do guests have access to SharePoint files?
-A. Yes.
-
-Q. Can guests search within files?
-A. No.
-
-Q. Can guests attach files?
-A. Yes, a guest can attach files in these two ways:
-
-- Select **Files** in the left pane, and then browse to the file location.
-- Upload from their computer.
-
-Q. Can a guest download a file in a private chat?
-A. Yes, they can receive a file from a member in a private chat, and then download it to their desktop.
 

@@ -3,7 +3,7 @@ title: What the guest experience is like
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 11/09/18
+ms.date: 11/26/18
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -103,3 +103,27 @@ The following table shows the calling and meeting features available to guests.
 > [!NOTE]
 > Office 365 admins control the features available to guests. 
   
+## Frequently asked questions
+  
+Q. Do guests have the same capabilities as team members?
+A. No. For more information about what a guest can and cannot do, go to Guest capabilities in Teams.
+
+Q. How many guests can I invite?
+A. You can add up to 5 guests per licensed user.
+
+Q. Do guests have access to OneDrive for Business?
+A. No.
+
+Q. Do guests have access to SharePoint files?
+A. Yes.
+
+Q. Can guests search within files?
+A. No.
+
+Q. Can guests attach files?
+A. Yes, a guest can attach files in these two ways:
+•	Select Files in the left pane, and then browse to the file location.
+•	Upload from their computer.
+
+Q. Can a guest download a file in a private chat?
+A. Yes, they can receive a file from a member in a private chat, and then download it to their desktop.
