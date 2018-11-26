@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 10/23/2018
 ms.topic: article
 audience: Admin
-ms.reviewer: annikae
+ms.reviewer: annikaelias
 ms.service: msteams
 search.appverid: MET150
 localization_priority : Normal
