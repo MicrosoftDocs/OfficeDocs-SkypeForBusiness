@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 09/21/2018
+ms.date: 11/26/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
@@ -127,6 +127,7 @@ Watch this short video introducing you to Teams</h3>
                         <h3>Quick starts</h3>
                          <p><a href="http://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf">Download this quick start guide (PDF) to learn the basics</a></p>
                         <p><a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">Follow the articles in this quick start to get up to speed quickly</a></p>
+                        <p><a href="https://teamsdemo.office.com/">Teams interactive demo</a></p>
                     </div>
                 </div>
             </div>
