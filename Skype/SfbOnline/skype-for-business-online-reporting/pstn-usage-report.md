@@ -88,7 +88,9 @@ This is what the report looks like.
      *    **MCOPSTN5** - Domestic Calling Plan (120 min calling plan) 
      *    **MCOPSTN6** - Domestic Calling Plan (240 min calling plan) Note: Limited Availability
      *    **MCOMEETADD** - Audio Conferencing
-     *    **MCOMEETACPEA** - Pay Per Minute Audio Conferencing 
+     *    **MCOMEETACPEA** - Pay Per Minute Audio Conferencing
+> [!NOTE]
+> You may also see "no data" in some fields. "No data" means the field is not applicable to the call type or capability. 
 ***
 ![Number 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
  ***

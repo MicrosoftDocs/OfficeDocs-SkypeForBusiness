@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
-ms.reviewer: vichau, majafry
+ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
@@ -122,9 +122,6 @@ Mobile apps are distributed and updated through the respective mobile platformâ€
 |---------|---------|---------|
 |![Decision Point icon.](media/Get_clients_for_Microsoft_Teams_image4.png)      |Decision Point         |Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?         |
 |![Next Steps icon.](media/Get_clients_for_Microsoft_Teams_image5.png)     |Next Steps         |If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.         |
-
-
-  <span id="_Hlk477176062" class="anchor"></span>  Decision Point   Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?
 
 Client update management
 ------------------------
