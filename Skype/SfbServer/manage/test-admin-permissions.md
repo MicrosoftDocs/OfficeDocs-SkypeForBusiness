@@ -27,7 +27,6 @@ The Test-CsOUPermission cmdlet verifies that the required permissions needed to 
 
 Note that Grant-CsOUPermission can only assign permissions to members of the RTCUniversalUserAdmins group. You can’t use this cmdlet to grant permissions to an arbitrary user or group. If you want a different user or group to have user management permissions, you should add that user (or group) to the RTCUniversalUserAdmins group. 
 
-For more information on OU permissions, see the article [Permissions inheritance Is disabled on computers, users, or InetOrgPerson containers](https://technet.microsoft.com/en-us/library/gg412970(v=ocs.15).aspx).
 
 ## Running the test
 

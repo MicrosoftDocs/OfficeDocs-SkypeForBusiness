@@ -25,9 +25,6 @@ By default, only domain administrators can enable a Skype for Business Server to
  
 The Test-CsSetupPermission cmdlet verifies that the required permissions that are needed to install Skype for Business Server or one of its components are configured on the specified Active Directory container. If the permissions are not assigned, you can then run the Grant-CsSetupPermission cmdlet to give members of the RTCUniversalServerAdmins group the right to install and enable Skype for Business Server.
 
-> [!NOTE]
-> For a detailed list of permissions assigned by Grant-CsSetupPermission, see the blog post [Grant-CsSetupPermission and Grant-CsOUPermission](https://blogs.technet.microsoft.com/jenstr/2011/02/07/grant-cssetuppermission-and-grant-csoupermission/).
-
 ## Running the test
 
 To determine whether setup permissions are assigned for an Active Directory container, call the Test-CsSetupPermission cmdlet. Specify the distinguished name of the container to be checked. For example, this command verifies setup permissions on the container ou=CsServers,dc=litwareinc,dc=com:

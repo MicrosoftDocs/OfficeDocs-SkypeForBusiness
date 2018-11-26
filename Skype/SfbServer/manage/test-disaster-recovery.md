@@ -41,9 +41,9 @@ This data can be restored through the following two processes:
 - RTC database can be restored from the original backup dump device from the production SQL Server using the standard SQL Server restore process, or using a third-party backup/restore utility.
 - User contact data can be restored with the DBIMPEXP.exe utility using the XML file that was created from the production SQL Server export.
 
-After this data is restored, users can effectively connect to the Disaster Recovery Lync Server 2013 pool, and operate as usual. To enable users to connect to the Disaster Recovery Lync Server 2013 pool, a DNS record change will be required.
+After this data is restored, users can effectively connect to the Disaster Recovery pool, and operate as usual. To enable users to connect to the Disaster Recovery pool, a DNS record change will be required.
 
-The production Lync Server 2013 pool will be referenced by clients using the auto-configuration and DNS SRV records of:
+The production Skype for Business pool will be referenced by clients using the auto-configuration and DNS SRV records of:
 
 - SRV: _sip._tls.\<domain> /CNAME: SIP.\<domain>
 - CNAME: SIP.\<domain> /cvc-pool-1.\<domain>
@@ -56,5 +56,3 @@ To facilitate the failover, this CNAME record must be updated to reference the D
 - webconf.\<domain>
 - OCSServices.\<domain>
 
-> [!Important] 
-> For detailed administration and management procedures, see Backing up and restoring Lync Server 2013. <<Is there an equivalent link for this? Will this be evergreened? >>

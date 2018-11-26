@@ -24,13 +24,13 @@ Make sure that you review infrastructure, operating system, software, and admini
 1. Log on as a local administrator (minimum requirement) to the computer where you want to install the administrative tools. If you are logged on as a standard user on the Windows Vista or Windows 7 operating systems, and User Account Control (UAC) is enabled, you will be prompted for the local administrator or a domain equivalent user name and password.
 2. Locate the installation media on your computer, and then double-click \Setup\amd64\Setup.exe.
 3. If you are prompted to install the Microsoft Visual C++ 2008 distributable, click **Yes**.
-4. On the Microsoft Lync Server 2013 Installation Location page, click **OK**. Change this path to another location or drive if you need to have the files installed to another location.
+4. On the Installation Location page, click **OK**. Change this path to another location or drive if you need to have the files installed to another location.
 
     > [!Important]
     > If your organization requires that you locate Internet Information Services (IIS) and all Web Services on a drive other than the system drive, you can change the installation location path for the Skype for Business Server files in the Setup dialog box. If you install the Setup files to this path, including OCSCore.msi, the rest of the Skype for Business Server files will be deployed to this drive too. 
 
 5. On the End User License Agreement page, review the license terms, click **I accept**, and then click **OK**. This step is required before you can continue.
-6. On the Microsoft Lync Server 2013 – Deployment Wizard page, click **Install Administrator Tools**. 
+6. On the Deployment Wizard page, click **Install Administrator Tools**. 
 7. When the installation successfully completes, click **Exit**.
 
 Use the following procedures to open administrative tools to deploy, configure, or troubleshoot your Skype for Business Server topology.
@@ -47,7 +47,7 @@ Use the following procedure to start the Deployment Wizard locally to add or rem
 **To start the Skype for Business Server Deployment Wizard**
 
 1. Log on to the computer where the Skype for Business Server Deployment Wizard is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.
-2. Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Deployment Wizard**.
+2. Click **Start**, click **All Programs**, click **Skype for Business Server**, and then click **Skype for Business Server Deployment Wizard**.
 
 
 ## Topology Builder 
@@ -60,7 +60,7 @@ Use the following procedure to open the Topology Builder to define the servers t
     > [!NOTE]
     > You can define a topology by using an account that is a member of the local Users group, but to read, publish, or enable a topology, which is required to install Skype for Business Server on a server, you must use an account that is a member of the Domain Admins group and the RTCUniversalServerAdmins group, and that has full control permissions (that is, read, write, and modify) on the file share that you are going to use for the archiving file store so that Topology Builder can configure the required discretionary access control list (DACLs), or an account with equivalent user rights.
  
-2. Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.
+2. Start Topology Builder: Click **Start**, click **All Programs**, click **Skype for Business Server**, and then click **Skype for Business Server Topology Builder**.
 
 ## Skype for Business Server Control Panel 
 
@@ -81,7 +81,7 @@ Use one of the following procedures to open the Skype for Business Server Contro
 **To open the Skype for Business Server Control Panel on a computer running Skype for Business Server**
 
 1. From a user account that is a member of the CsAdministrator role or other role that has appropriate user rights and permissions for the task to be performed, log on to a computer on which you have installed Skype for Business Server or, at a minimum, the Skype for Business Server administrative tools. To configure settings, the computer must have a minimum screen resolution of 1024 x 768.
-2. Start Skype for Business Server Control Panel: Click **Start**, click **All Programs**, point to **Administrative Tools**, point to **Microsoft Lync Server 2013**, and then click **Lync Server 2013 Control Panel**.
+2. Start Skype for Business Server Control Panel: Click **Start**, click **All Programs**, point to **Administrative Tools**, point to **Skype for Business Server**, and then click **Skype for Business Server Control Panel**.
 
 ## Skype for Business Server Management Shell 
 
@@ -96,4 +96,4 @@ If you open a Windows PowerShell window rather than the Skype for Business Serve
 
 `Import-Module Lync`
 
-Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.
+Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business Server**, and then click **Skype for Business Server Management Shell**.
