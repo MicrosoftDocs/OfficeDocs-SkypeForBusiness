@@ -77,15 +77,15 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 Create a new policy that doesn't allow scheduling live events, run:
 ```
-New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingpolicy
+New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
 Disable live events scheduling, run:
 ```
-Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingpolicy -AllowBroadcastScheduling $false
+Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
 Then assign users to this policy, run:
 ```
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingpolicy -Verbose
+Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
 **You want to disable live event scheduling for a large number of the users and allow a set of users to schedule them**
 
