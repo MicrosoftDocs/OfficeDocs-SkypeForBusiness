@@ -25,15 +25,15 @@ description: "Learn how to set up an emergency address and phone number for each
 
 # Assign or change an emergency address for a user
 
-When you are setting up Calling Plans in Office 365, you will need to assign a phone number and emergency address to each of your users. The emergency address must be created before you can associate it with a phone number. See [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for more information.
+When you are setting up Calling Plans in Office 365, you will need to assign an emergency address to each phone number or user. In European countries, the emergency address is associated with the phone number when you get it from Office 365 or when you transfer a phone number over to Office 365. In the United States, the emergency address is associated with the phone number when it is assigned to the user. The emergency address can be changed if the user it is assigned to moves to a new location. For more about emergency addresses and locations, see [What are emergency locations, addresses and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
   
-Want to know how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+To learn how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 ## Assign or change an emergency address
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
+2. Go to the **Microsoft Teams & Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation go to **Voice**, then click **Voice users**.
     
@@ -44,7 +44,7 @@ Want to know how to get Calling Plans in Office 365 and how much they cost, see 
     
 5. In the Action pane, under **Emergency location**, click **Change**.
     
-    > [!NOTE]
+    > [!IMPORTANT]
     > You can only change an emergency address that has already been validated. To change an emergency address that hasn't been validated, delete it and create another emergency address. 
   
 6. On the **Assign number** page, click **Change location**.
@@ -54,6 +54,11 @@ Want to know how to get Calling Plans in Office 365 and how much they cost, see 
 8. Select the emergency address from the address drop-down list, and then click **Save**. 
     
 ## Related topics
+## Related topics
+[Add, change, or remove an emergency address for your organization](add-or-remove-an-emergency-address-for-your-organization.md)
+
+[Add, change, or remove an emergency location for your organization](add-change-or-remove-an-emergency-location-for-your-organization.md)
+
 [What is address validation?](what-is-address-validation.md)
 
 [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
