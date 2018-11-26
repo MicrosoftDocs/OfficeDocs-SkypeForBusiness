@@ -177,7 +177,7 @@ When you run the  `Get-CsMeetingMigrationStatus` cmdlet to get a summary view an
 1. Determine which users are affected. Run the following command to get the list of affected users, and the specific error that was reported:
     
    ```
-   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastErrorMessage
+   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastMessage
    ```
 
 2. For each of those user, run the [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) to manually migrate their meetings.
