@@ -90,7 +90,7 @@ Use one of the following procedures to configure unassigned number ranges for th
 3. Use **New-CsUnassignedNumber** to create a new unassigned number range. Use **Set-CsUnassignedNumber** to modify an existing unassigned number range.
     
     > [!TIP]
-    > If you have overlapping ranges and want the ranges to be applied in a specific order, include the Priority parameter. The range with the highest priority will be applied to the call. 
+    > If you have overlapping ranges and want the ranges to be applied in a specific order, include the Priority parameter. The range with the highest priority will be applied to the call. The value 0 represents the highest priority.
   
     At the command line, do one of the following:
     
