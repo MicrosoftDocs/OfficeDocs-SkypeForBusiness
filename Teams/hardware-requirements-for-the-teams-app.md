@@ -28,11 +28,11 @@ appliesto:
 |Hard disk    | 3.0 GB of available disk space        |
 |Display    |   1024 x 768 screen resolution |
 |Graphics hardware |  Minimum of 128 MB graphics memory
-|Operating system  |    Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 in 32-bit and 64-bit.  For the best experience, use the latest version of any operating system.|
+|Operating system  |    Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 in 32-bit and 64-bit. For the best experience, use the latest version of any operating system.|
 |.NET version    |  Requires .NET 4.5 CLR or later       |
 |Video    |  USB 2.0 video camera       |
 |Devices    |   Standard laptop camera, microphone, and speakers    | 
-|Video calls and meetings | For better experience with video calls and online meetings, we recommend using a computer that has a 2.0 GHz processor and 4.0 GB RAM (or higher).
+|Video calls and meetings | For better experience with video calls and online meetings, we recommend using a computer that has a 2.0 GHz processor and 4.0 GB RAM (or higher). The optional blur my background video effect requires a processor with Advanced Vector Extensions 2 (AVX2) support.
 
 ## Hardware requirements for the Teams desktop app on a Mac
 
@@ -45,7 +45,7 @@ appliesto:
 |Operating system  |    Mac OS X 10.11 El Capitan or later     |
 |Video  |    Compatible webcam     |
 |Voice    |  Compatible microphone and speakers, headset with microphone, or equivalent device       |
-|Video calls and meetings | For better experience with video calls and online meetings, we recommend using a computer that has a 2.0 GHz processor and 4.0 GB RAM (or higher).
+|Video calls and meetings | For better experience with video calls and online meetings, we recommend using a computer that has a 2.0 GHz processor and 4.0 GB RAM (or higher). The optional blur my background video effect requires a processor with Advanced Vector Extensions 2 (AVX2) support, supported on most late 2013 Mac devices and later.
 
 ## Hardware requirements for the Teams app on mobile devices
 

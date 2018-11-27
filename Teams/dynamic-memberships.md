@@ -3,7 +3,7 @@ title: Overview of dynamic membership for teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
-ms.date: 10/10/2018
+ms.reviewer: kblevens, phlouie
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -23,12 +23,13 @@ With dynamic membership you can setup teams for certain cohorts of users in your
 - A university can create a team for all faculty within a particular college, including an adjunct faculty that changes frequently.
 - An airline wants to create a team for each flight (like a Tuesday afternoon non-stop from Chicago to Atlanta) and have a frequently changing flight crew automatically assigned or removed as needed.​
 
-Using this feature, a given team's members update automatically based on a specific set of criteria, instead of manually managing membership.​ Doing this requires Azure AD Premium P1 licenses and team membership can be [assigned by a tenant admin](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) to any user's AAD properties provided you have a tenant and an admin account​.
+Using this feature, a given team's members update automatically based on a specific set of criteria, instead of manually managing membership.​ Doing this requires Azure AD Premium P1 licenses and team membership can be [assigned by a tenant admin](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) to any user's AAD properties provided you have a tenant and an admin account​. 
 
-Microsoft Teams may take anywhere from a few minutes to up to 2 hours to reflect dynamic membership changes once they take effect in the Office 365 group for a team.
+Microsoft Teams may take anywhere from a few minutes to up to 2 hours to reflect dynamic membership changes once they take effect in the Office 365 group for a team. 
 
 > [!NOTE]
-> Rules can define Team members, but not team Owners.
+> - Rules can define team members, but not team Owners.
+> - See [Limits and specifications for Microsoft Teams](limits-specifications-teams.md) for current limits on Team and channel sizes.
 
 ## Creating and managing an Office 365 group with dynamic membership
 While logged in as the tenant Admin, follow the instructions in [Create a dynamic group and check status](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). As needed, refer to [Dynamic membership rules for groups in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).

@@ -1,18 +1,18 @@
 ---
 title: Create your champions program for Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to train a team of champions to promote Teams adoption. 
-ms.custom:
-- NewAdminCenter_Update
 appliesto: 
 - Microsoft Teams
 ---
