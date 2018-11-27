@@ -1,18 +1,18 @@
 ---
 title: Define outcomes and success for your Microsoft Teams adoption
-author: LolaJacobsen
-ms.author: lolaj
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to measure the outcomes and success of your broad-scale enablement of Teams.
-ms.custom:
-- NewAdminCenter_Update
 appliesto: 
 - Microsoft Teams
 ---

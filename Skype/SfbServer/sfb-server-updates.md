@@ -22,6 +22,7 @@ Find and manage updates for [Skype for Business Server 2015](#skype-for-business
 For the latest Skype for Business Online and Office 365 updates, see the [Office 365 Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## Skype for Business Server 2015 update history
+[KB 3061064](https://support.microsoft.com/kb/3061064) contains the list of all the Cumulative Updates that has been released. The date indicates the last release date. 
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
