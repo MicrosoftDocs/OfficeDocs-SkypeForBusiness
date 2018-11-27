@@ -26,7 +26,7 @@ When you're setting up for live events, there are several steps that you must ta
 Quick start live events require you to [prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## Step 2: Get and assign licenses
-Ensure you have correct license assignments for [Who can create and schedule live events?](#who-can-create-and-schedule-live-events) and [Who can watch live events?](#who-can-watch-live-events).
+Ensure you have correct license assignments for [who can create and schedule live events](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) and [who can watch live events](plan-for-teams-live-events.md#who-can-watch-live-events).
 
 ## Step 3: Set up live events policies
 Live events policies are used to control who in your organization can hold live events and the features that are available in the events they create. You can use the default policy or create one or more custom live events policies. After you create a custom policy, assign it to a user or groups of users in your organization.
@@ -101,10 +101,10 @@ The following SDN/eCDN solutions are pre-integrated and can be set up to be used
 After you set up the SDN or eCDN solution, you're ready to configure the provider for live events in Teams. 
 
 ## Next steps
-Go to [Confgure live events settings in Teams](configure-teams-live-events.md).
+Go to [Configure live events settings in Teams](configure-teams-live-events.md).
 
 ### Related topics
 - [What are Teams live events?](what-are-teams-live-events.md)
 - [Plan for Teams live events](plan-for-teams-live-events.md)
-- [Confgure live events settings in Teams](configure-teams-live-events.md)
+- [Configure live events settings in Teams](configure-teams-live-events.md)
 

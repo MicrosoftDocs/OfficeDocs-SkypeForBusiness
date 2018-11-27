@@ -1,7 +1,7 @@
 ---
 title: Optimize feedback and reporting for your Microsoft Teams adoption
-author: LolaJacobsen
-ms.author: lolaj
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,8 +11,8 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to obtain user feedback and use service health reporting in your Teams adoption.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto: 
 - Microsoft Teams
 ---
