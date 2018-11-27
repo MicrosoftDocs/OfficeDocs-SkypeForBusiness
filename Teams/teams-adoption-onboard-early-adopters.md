@@ -1,7 +1,7 @@
 ---
 title: Onboard early adopters and gather feedback for Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,8 +11,8 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Choose early adopters for the experiment phase of your Teams adoption, and then gather feedback for your project.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto: 
 - Microsoft Teams
 ---
