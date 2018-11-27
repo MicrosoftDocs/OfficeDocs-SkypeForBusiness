@@ -134,6 +134,7 @@ You will need to consider the following software, networking, and hardware requi
 - PSExec - Required to do remote agent deployment
 
 - .NET 4.5 (included with 2012 R2) - Required for agents and server-side components
+- Download the [Skype for Business Server, Real-Time Statistics Manager (64-bit)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
 
 ### Networking requirements
 
