@@ -264,6 +264,8 @@ The features below are available using the Full client and are not available wit
 - Change greeting
     
 - Group call pickup
+
+- Miss call notification emails are not generated when user is UM disabled and legacy Outlook Client (2013 or earlier) is used
     
 ### Online or Hybrid user account limitations
 <a name="Online-Hybrid"> </a>
