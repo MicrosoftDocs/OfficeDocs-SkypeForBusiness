@@ -22,7 +22,7 @@ This article gives an overview of the requirements for properly identifying the 
 ## Client deployment
 
 Microsoft Teams has clients available for web, desktop (Windows and Mac), and
-mobile (Android, iOS, and Windows Phone). For additional details about how the
+mobile (Android and iOS). For additional details about how the
 desktop (Windows and Mac) and mobile clients are installed, see [Get
 clients for Microsoft
 Teams](https://docs.microsoft.com/microsoftteams/get-clients).

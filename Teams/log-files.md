@@ -36,7 +36,6 @@ The following table outlines the various clients, and their associated logs. Log
 |Mac OSX     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
-|Windows Phone     |-         |-         |-         |
 
 For a complete list of supported operating systems and browsers, see [Get clients for Microsoft Teams](get-clients.md).
 
