@@ -31,7 +31,7 @@ You should only perform these steps if the necessary Skype for Business and Exch
 - [Skype Room Systems v2 deployment checklist](console.md#Checklist)
     
 > [!NOTE]
-> Skype Room Systems v2 will only work in a properly configured Skype for Business environment where the device accounts are set up correctly as described in [Deploy Skype Room Systems v2](room-systems-v2.md). 
+> Skype Room Systems v2 will only work in a properly configured Skype for Business environment where the device accounts are set up correctly as described in [Deploy Skype Room Systems v2](room-systems-v2.md).
   
 ## Prepare the installation media
 <a name="Prep_Media"> </a>
@@ -40,14 +40,13 @@ Installing the Skype Room Systems v2 console app requires a USB storage device w
   
 > [!NOTE]
 > Failure to create your Skype Room Systems v2 installation media according to these instructions will likely result in unexpected behavior. Windows 10 Enterprise Anniversary Update (Version 1607) is no longer supported for Skype Room Systems v2 installation media creation.
-  
+
 > [!NOTE]
-> An existing Skype Room Systems v2 with Windows 10 Enterprise moving to Skype Room Systems v2 update 3 by way of the Windows Store will work, but a new installation should be done as described below. 
+> An existing Skype Room Systems v2 with Windows 10 Enterprise moving to Skype Room Systems v2 update 3 by way of the Windows Store will work, but a new installation should be done as described below.
   
 1. Download the [CreateSrsMedia.ps1 script](https://go.microsoft.com/fwlink/?linkid=867842).
 2. (Optional) Download and place any desired language pack CAB files in the same directory as the script. The script will indicate where you can download language pack files appropriate for the type of media you are creating, if you're unsure where to acquire the language packs from.
 3. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
-
 
 Follow the script's instructions to create a Skype Room Systems v2 USB setup disk. When finished, remove the USB disk from your computer and proceed to [Install Windows 10 and the Skype Room Systems v2 console app](console.md#Reimage).
 
@@ -77,10 +76,9 @@ You now need to apply the setup media you've created. The target device will run
 
 8. The system will shut down once installation is complete.
     
-After the system has shut down, it is safe to remove the USB setup disk. At this point, you can place the target devcie in its dock (if using a dock-based product), attach the peripherals needed for your meeting room, and connect to the network. Refer to the manufacturer instructions.
+After the system has shut down, it is safe to remove the USB setup disk. At this point, you can place the target device in its dock (if using a dock-based product), attach the peripherals needed for your meeting room, and connect to the network. Refer to the manufacturer instructions.
   
- 
-### Selecting a language in Creator's Update
+### Selecting a language 
 
 In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 script in scenarios where implicit language selection does not provide the user with the actual application language they want (e.g., they want the console app to come up in French, but it's coming up in English).
   
@@ -116,8 +114,9 @@ In Creator's Update, you will need to use the ApplyCurrentRegionAndLanguage.ps1 
 11. Start an elevated command prompt.
     
 12. Run the following command: 
-    
+    ```
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
+    ```
     
 13. Restart the system.
     
