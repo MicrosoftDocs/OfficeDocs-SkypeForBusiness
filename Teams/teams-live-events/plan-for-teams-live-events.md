@@ -39,17 +39,20 @@ The user must have:
 - Permissions to create live events in Microsoft Stream (for [external encoder production](#production)).
 
 > [!IMPORTANT]
-> Office 365 guests, federated, and anonymous users can't be invited as producers or presenters in Teams live events. However, guest and federated users can join as anonymous live event attendees. 
+> Office 365 guests, federated, and anonymous users can't be invited as producers or presenters in Teams live events. These users can only watch a live event anonymously. 
  
 ## Who can watch live events?
 
 |**Attendee visibility**           |**Quick start** |**External encoder**  |
 |------------------------------|-------------|------------------|
-|Public (anonymous users)      |  Yes        |  No              |
-|Guest users                   |  No         |  No              |
-|Everyone in federated company |  No         |  No              |
+|Public (anonymous users)      |  Yes<sup>1</sup>        |  No              |
+|Guest users                   |  Yes<sup>1</sup>         |  No              |
+|Everyone in federated company |  Yes<sup>1</sup>         |  No              |
 |Everyone in company           |  Yes        |  Yes             |
 |Specific groups / people      |  Yes        |  Yes             |
+
+<sup>1</sup>Can't be invited as producers or presenters: can only watch live events anonymously.
+
  
 ## Teams live events and Skype Meeting Broadcast
 The following table highlights core capabilities and features offered in live events and how they differ from Skype Meeting Broadcast. 
