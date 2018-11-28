@@ -11,7 +11,7 @@ ms.collection: Teams_ITAdmin_Help
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
+description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android and iOS).
 ms.custom:
 - NewAdminCenter_Update
 appliesto: 
@@ -21,7 +21,7 @@ appliesto:
 Get clients for Microsoft Teams 
 ===========================
 
-Microsoft Teams has clients available for desktop (Windows and Mac), web, and mobile (Android,  iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode.
+Microsoft Teams has clients available for desktop (Windows and Mac), web, and mobile (Android and  iOS). These clients all require an active internet connection and do not support an offline mode.
 
 > [!NOTE]
 > Effective November 29, 2018, you'll no longer be able to use the Microsoft Teams for Windows 10 S (Preview) app, available from the Microsoft Store. We recommend that you use one of the Teams apps described below in this article after November 29.

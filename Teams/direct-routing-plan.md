@@ -218,6 +218,23 @@ The port range of the Media Processors is shown in the following table:
   > [!NOTE]
   > Microsoft  recommends at least two ports per concurrent call on the SBC.
 
+## Media traffic: Codecs
+
+### Leg between SBC and Cloud Media Processor or Microsoft Teams client.
+Applies to both media bypass case and non-bypass cases
+
+The Direct Routing interface on the leg between the Session Border Controller and Cloud Media Processor (without media bypass) or between the Teams client and the SBC (if Media Bypass enabled) can use the following codecs:
+	• Non-Media bypass (SBC to Cloud Media Processor): SILK, G.711, G.722, G,729
+	• Media Bypass (SBC to Teams client):  SILK, G.711, G.722, G,729, OPUS
+
+You can force use of the specific codec on the Session Border Controller by excluding undesirable codecs from the offer.
+
+### Leg between Microsoft Teams Client  and Cloud Media Processor
+Applies to non-media bypass case only. With Media Bypass media flows directly between Teams client and SBC
+
+On the leg between the Cloud Media Processor and Microsoft Teams client either SILK or G.722 used. The codec choice on this leg  based on Microsoft algorithms, which take into consideration multiple parameters. 
+
+
 ## Supported Session Border Controllers (SBCs)
 
 Microsoft only supports certified SBCs to pair with Direct Routing. Because Enterprise Voice is critical for businesses, Microsoft runs intensive tests with the selected SBCs, and works with the SBC vendors to ensure the two systems are compatible. 

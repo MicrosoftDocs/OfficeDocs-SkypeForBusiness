@@ -60,7 +60,9 @@ Consider the following when planning your Cloud Connector Edition deployment:
 
 - You can keep your current PSTN carrier if required.
 
-- If you want to provide dial-in conferencing to users hosted on Cloud Connector, you can purchase PSTN conferencing from Microsoft or from audio conferencing provider (ACP) partners.
+- If you want to provide dial-in conferencing to users hosted on Cloud Connector, you can purchase PSTN conferencing license or pay as you go Audio Conferencing offer from Microsoft.
+
+- The Audio Conferencing license (or pay as you go offer) also required for call escalations. If a Skype for Business user receives a call from an external PSTN user and wants to add one more participant to that call (escalate the call to a conference), the escalation will be performed via Microsoft Audio Conferencing service.
 
 - Cloud Connector 2.0 and later now supports media bypass. Media bypass allows a client to send media directly to the Public Switched Telephone Network (PSTN) next hop—a gateway or Session Border Controller (SBC)—and eliminate the Cloud Connector Edition component from the media path. For more information, see [Plan for media bypass in Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md).
 

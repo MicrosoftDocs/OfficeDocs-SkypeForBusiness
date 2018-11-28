@@ -3,13 +3,14 @@ title: Adopt Microsoft Teams
 description: Use these adoption resources to help you plan and deploy Microsoft Teams in your organization.
 layout: LandingPage
 ms.topic: landing-page
-author: LolaJacobsen
-ms.author: lolaj
+author: karuanag
+ms.author: karuanag
 manager: serdars
 layout: LandingPage
 ms.date: 10/31/2018
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto: 
 - Microsoft Teams
