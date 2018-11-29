@@ -108,7 +108,7 @@ The tables below describe which client will receive a call from the originator (
 
 | <br/><br/>Mode   | Originator<br/><br/> Client| <br/><br/>SfB homed| |  Recipient<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| Islands <br/>Islands <br/>Islands <br/>Islands<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>Skype for Business <br/>Skype for Business <br/>Teams|Online<br/> Online<br/> On-prem<br/> On-prem<br/> Online<br/> On-prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *SfB* <br/> Skype for Business <br/> **NA** <br/>Skype for Business <br/> Skype for Business <br/>Skype for Business <br/>Skype for Business <br/> | *SfB* <br/> Skype for Business <br/> **NA** <br/>Skype for Business <br/> Skype for Business <br/>Skype for Business <br/>Skype for Business <br/> |  
+| Islands <br/>Islands <br/>Islands <br/>Islands<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>Skype for Business <br/>Skype for Business <br/>Teams|Online<br/> Online<br/> On-prem<br/> On-prem<br/> Online<br/> On-prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *SfB* <br/> Skype for Business <br/> **NA** <br/>Skype for Business <br/> Skype for Business <br/>Skype for Business <br/>Skype for Business <br/> |  
 |  | | | | |
 
 **Table 2c: federated new chat or call routing to a TeamsOnly mode recipient**
