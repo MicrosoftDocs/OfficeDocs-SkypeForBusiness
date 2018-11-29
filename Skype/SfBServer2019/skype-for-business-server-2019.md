@@ -108,10 +108,25 @@ description: "Summary: Explore these links to learn how to implement Skype for B
         </div>
         </a>
     </li>
+    <li> 
+        <a href="https://go.microsoft.com/fwlink/?linkid=2005336">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/download-blue.svg" alt="User account" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Download now!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
 </ul>
-
-
-
 
 <!-- 
 
