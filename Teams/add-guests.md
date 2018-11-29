@@ -44,6 +44,6 @@ You can track guest additions in Azure Active Directory or the Office 365 Securi
 
 ## More information
 
-[Authorize guest access in Microsoft Teams](teams-dependencies.md)
-[Turn on or off guest access in Microsoft Teams](set-up-guests.md)
+[Authorize guest access in Microsoft Teams](teams-dependencies.md)</br>
+[Turn on or off guest access in Microsoft Teams](set-up-guests.md)</br>
 [Use PowerShell to control guest access to a team](guest-access-powershell.md)
