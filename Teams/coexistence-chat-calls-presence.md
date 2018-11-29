@@ -77,9 +77,9 @@ In the tables that follow:
 
 | <br/><br/> Mode   | Originator <br/><br/> Client | <br/><br/> SfB&nbsp;homed | |   Recipient <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
-| Islands |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *SfB* <br/> Skype for Business<br/> **Not Possible** <br/>Skype for Business<br/> |
+| Islands |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **Not Possible** <br/>Skype for Business<br/> |
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> On-prem<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
-|TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *SfB* <br/>| 
+|TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *Skype for Business* <br/>| 
 | | | | | |
 
 **Table 1c: in-tenant new chat or call routing to a TeamsOnly mode recipient**
@@ -108,25 +108,25 @@ The tables below describe which client will receive a call from the originator (
 
 | <br/><br/>Mode   | Originator<br/><br/> Client| <br/><br/>SfB homed| | Recipient<br/><br/> Islands |
 |--- |--- |--- |--- |--- |
-| Islands |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *SfB* <br/> Skype for Business <br/> **Not Possible**   <br/> Skype for Business |
+| Islands |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Not Possible**   <br/> Skype for Business |
 | SfB\* |Skype for Business <br/>Skype for Business |Online<br/> On-prem<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
-| TeamsOnly |Teams |Online| &boxv;|Skype for Business  | 
+| TeamsOnly |Teams |Online| &boxv;|*Skype for Business* |
 |  | | | | 
 
 **Table 2b: federated new chat or call routing to to a recipient in an SfB\* mode**
 
 | <br/><br/>Mode   | Originator<br/><br/> Client| <br/><br/>SfB homed| |  Recipient<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| Islands |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> On-prem<br/> On-prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *SfB* <br/> Skype for Business <br/> **Not Possible** <br/>Skype for Business <br/> |  
+| Islands |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> On-prem<br/> On-prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Not Possible** <br/>Skype for Business <br/> |  
 | SfB\* |Skype for Business <br/>Skype for Business  |Online<br/> On-prem<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
-| TeamsOnly | Teams|Online |&boxv; |Skype for Business  |
+| TeamsOnly | Teams|Online |&boxv; |*Skype for Business*  |
 |  | | | | |
 
 **Table 2c: federated new chat or call routing to a TeamsOnly mode recipient**
 
 | <br/><br/>Mode | Originator<br/><br/> Client| <br/><br/>SfB homed| |  Recipient<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| Islands  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>Teams <br/>**Not Possible** <br/>*Teams* |
+| Islands  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> On-prem<br/> On-prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**Not Possible** <br/>*Teams* |
 | SfB\* |Skype for Business <br/>Skype for Business  | Online<br/> On-prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
 | TeamsOnly |Teams |Online |&boxv; |Teams |
 |  | | | | |
