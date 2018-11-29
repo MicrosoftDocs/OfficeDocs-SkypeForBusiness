@@ -108,7 +108,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
         </div>
         </a>
     </li>
-    <li>
+    <li> 
         <a href="https://go.microsoft.com/fwlink/?linkid=2005336">
         <div class="cardSize">
             <div class="cardPadding">
@@ -127,9 +127,6 @@ description: "Summary: Explore these links to learn how to implement Skype for B
         </a>
     </li>
 </ul>
-
-
-
 
 <!-- 
 

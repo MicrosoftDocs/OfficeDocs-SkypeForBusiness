@@ -118,7 +118,7 @@ To validate the installation, perform the following steps:
     
 ### Install the Website
 
-Install the Website on the host machine by running the StatsManWebSite.msi and specifying the following:
+Install the Website on the host machine by running the StatsManWebSite.msi (included with [Skype for Business Server, Real-Time Statistics Manager (64-bit)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)) and specifying the following:
   
 1. Review the License Agreement, and if you agree, select **I accept the terms in the license agreement**, and then click **Next**. 
     
