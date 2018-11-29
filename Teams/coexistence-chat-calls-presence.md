@@ -19,7 +19,7 @@ description: "This document describes the behavior of chat, call routing and pre
 
 Coexistence and interoperability between Skype for Business and Teams clients and users is defined by TeamsUpgrade modes, described in [Migration and interoperability guidance for organizations using Teams together with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
 
-Any given user will always be assigned a TeamsUpgrade mode, either by default or explicitly by the administrator. The default value is *Islands*. Users upgraded to Teams have the mode of *TeamsOnly*.
+Any given user will always be assigned a TeamsUpgrade mode, either by default or explicitly by the administrator. The default value is *Islands*. Users upgraded to Teams have the mode of *TeamsOnly*. *SfBOnly*, *SfBWithTeamsCollab*, and *SfBWithTeamsCollabAndMeetings* are also possible modes.
 
 > [!NOTE]
 > *Legacy* mode has been deprecated; users that were on *Legacy* mode were converted to *Islands* mode.
@@ -57,15 +57,16 @@ Messages sent to TeamsOnly users will always route to Teams. Messages sent to Sf
 
 The tables below show which client in a given mode will receive a call from the originator (three leftmost columns), depending on the originator’s mode, client chosen, and where their Skype for Business client is homed (on-prem or online).
 
-In the tables that follow, **SfB\*** represents any of the following modes: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
+In the tables that follow: 
+- **SfB\*** represents any of the following modes: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 
-*Italic text* highlights an interop conversation.
+- *Italic text* highlights an interop conversation.
 
-**Bolding** represents a situation in which the chat or call is not possible. The originator must use Skype for Business instead in these cases. This is one of the reasons why Microsoft’s prescriptive guidance to on-prem/hybrid customers is to use a mode other than Islands (typically SfBWithTeamsCollab) as the starting point of their upgrade journey to Teams.
+- **Not Possible** represents a situation in which the chat or call is not possible. The originator must use Skype for Business instead in these cases. This is one of the reasons why Microsoft’s prescriptive guidance to on-prem/hybrid customers is to use a mode other than Islands (typically SfBWithTeamsCollab) as the starting point of their upgrade journey to Teams.
 
 **Table 1a: in-tenant new chat or call routing to an islands mode recipient**
 
-| <br/><br/> Mode   | Originator <br/><br/> Client | <br/><br/> SfB&nbsp;homed | | Recipient <br/><br/> Islands  |
+| <br/><br/> Mode | Originator <br/><br/> Client | <br/><br/> SfB&nbsp;homed | | Recipient <br/><br/> Islands  |
 |--- |--- |--- |--- |--- |
 | Islands <br/>Islands <br/>Islands <br/>Islands<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>Skype for Business<br/>Skype for Business<br/>Teams|Online<br/> Online<br/> On-prem<br/> On-prem<br/> Online<br/> On-prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>|Teams <br/> Skype for Business<br/> Teams <br/> Skype for Business<br/>  Skype for Business<br/> Skype for Business<br/> Teams |
 |  | | | | |
@@ -74,7 +75,7 @@ In the tables that follow, **SfB\*** represents any of the following modes: *SfB
 
 | <br/><br/> Mode   | Originator <br/><br/> Client | <br/><br/> SfB&nbsp;homed | |   Recipient <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
-| Islands <br/>Islands <br/>Islands <br/>Islands<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>Skype for Business<br/>Skype for Business<br/>Teams|Online<br/> Online<br/> On-prem<br/> On-prem<br/> Online<br/> On-prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *SfB* <br/> Skype for Business<br/> **NA** <br/>Skype for Business<br/> Skype for Business<br/>Skype for Business<br/>*SfB* <br/> |
+| Islands <br/>Islands <br/>Islands <br/>Islands<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>Skype for Business<br/>Skype for Business<br/>Teams|Online<br/> Online<br/> On-prem<br/> On-prem<br/> Online<br/> On-prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *SfB* <br/> Skype for Business<br/> **Not Possible** <br/>Skype for Business<br/> Skype for Business<br/>Skype for Business<br/>*SfB* <br/> |
 | | | | | |
 
 **Table 1c: in-tenant new chat or call routing to a TeamsOnly mode recipient**
@@ -101,21 +102,21 @@ The tables below describe which client will receive a call from the originator (
 
 | <br/><br/>Mode   | Originator<br/><br/> Client| <br/><br/>SfB homed| | Recipient<br/><br/> Islands |
 |--- |--- |--- |--- |--- |
-| Islands <br/>Islands <br/>Islands <br/>Islands<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>Skype for Business <br/>Skype for Business <br/>Teams|Online<br/> Online<br/> On-prem<br/> On-prem<br/> Online<br/> On-prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *SfB* <br/> Skype for Business <br/> **NA** <br/>Skype for Business <br/> Skype for Business <br/>Skype for Business <br/>Skype for Business <br/> |
+| Islands <br/>Islands <br/>Islands <br/>Islands<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>Skype for Business <br/>Skype for Business <br/>Teams|Online<br/> Online<br/> On-prem<br/> On-prem<br/> Online<br/> On-prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *SfB* <br/> Skype for Business <br/> **Not Possible** <br/>Skype for Business <br/> Skype for Business <br/>Skype for Business <br/>Skype for Business <br/> |
 |  | | | | 
 
 **Table 2b: federated new chat or call routing to to a recipient in an SfB\* mode**
 
 | <br/><br/>Mode   | Originator<br/><br/> Client| <br/><br/>SfB homed| |  Recipient<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| Islands <br/>Islands <br/>Islands <br/>Islands<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>Skype for Business <br/>Skype for Business <br/>Teams|Online<br/> Online<br/> On-prem<br/> On-prem<br/> Online<br/> On-prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *SfB* <br/> Skype for Business <br/> **NA** <br/>Skype for Business <br/> Skype for Business <br/>Skype for Business <br/>Skype for Business <br/> |  
+| Islands <br/>Islands <br/>Islands <br/>Islands<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>Skype for Business <br/>Skype for Business <br/>Teams|Online<br/> Online<br/> On-prem<br/> On-prem<br/> Online<br/> On-prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *SfB* <br/> Skype for Business <br/> **Not Possible** <br/>Skype for Business <br/> Skype for Business <br/>Skype for Business <br/>Skype for Business <br/> |  
 |  | | | | |
 
 **Table 2c: federated new chat or call routing to a TeamsOnly mode recipient**
 
 | <br/><br/>Mode | Originator<br/><br/> Client| <br/><br/>SfB homed| |  Recipient<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| Islands <br/>Islands <br/>Islands <br/>Islands<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>Skype for Business <br/>Skype for Business <br/>Teams|Online<br/> Online<br/> On-prem<br/> On-prem<br/> Online<br/> On-prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| Teams <br/>Teams <br/>**NA** <br/>*Teams* <br/>*Teams* <br/>*Teams* <br/>Teams <br/> |
+| Islands <br/>Islands <br/>Islands <br/>Islands<br/> SfB\*<br/> SfB\* <br/> TeamsOnly |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>Skype for Business <br/>Skype for Business <br/>Teams|Online<br/> Online<br/> On-prem<br/> On-prem<br/> Online<br/> On-prem<br/> Online| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| Teams <br/>Teams <br/>**Not Possible** <br/>*Teams* <br/>*Teams* <br/>*Teams* <br/>Teams <br/> |
 |  | | | | |
 
 ## Chats and calls from pre-existing threads
@@ -166,7 +167,7 @@ The table describes the Publisher’s presence that will be seen by a Watcher, d
 
 **Table 3: in-tenant presence (new thread)**
 
-|Watcher <br/>Client| |<br/>Islands |Publisher <br/>SfB\* |<br/>Teams Only|
+|Watcher <br/><br/>Client| |<br/><br/>Islands |Publisher <br/><br/>SfB\* |<br/>Teams Only|
 |--- |--- |--- |--- |---|
 |Skype for Business <br/> Teams|&boxv;<br/>&boxv;<br/> |Skype for Business <br/>Teams | Skype for Business <br/>Skype for Business | Teams  <br/> Teams |
 | | | | |
@@ -179,7 +180,7 @@ The table below describes the Publisher’s presence that will be seen by a Watc
 
 **Table 4: federated presence (new thread)**
 
-|Watcher <br/> Client | |<br/> Islands  |Publisher <br/> SfB\* |<br/> Teams Only  |
+|Watcher <br/><br/> Client | |<br/><br/> Islands  |Publisher <br/><br/> SfB\* |<br/><br/> Teams Only |
 |--- |--- |--- |--- |---|
 |Skype for Business <br/> Teams|&boxv;<br/>&boxv; |Skype for Business <br/> Skype for Business | Skype for Business <br/> Skype for Business | Teams <br/> Teams |
 | | | | ||
