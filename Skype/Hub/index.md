@@ -52,7 +52,7 @@ description: Skype for Business
                                     </div>
                                 </a>
                             </li><br/>                            <li>
-                                <a href="/SkypeForBusiness/skype-for-business-server-2015">
+                                <a href="/SkypeForBusiness/skype-for-business-server-2019">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
