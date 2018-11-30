@@ -24,7 +24,6 @@
 ## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ## [Plan for governance in Teams](plan-teams-governance.md)
 ## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
-## [Create change management strategy](change-management-strategy.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
@@ -151,9 +150,10 @@
 ## Monitor call quality and QoS
 ### [QoS in Teams](QoS-in-Teams.md)
 ### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Set up Call Analytics](set-up-call-analytics.md)
 ### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
+### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 ## Troubleshoot & support
 ### [Known issues for Teams](Known-issues.md)
@@ -178,7 +178,7 @@
 ## [Overview of security and compliance in Teams](security-compliance-overview.md)
 ## [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
 ## [Identity models and authentication in Teams](identify-models-authentication.md)
-## [Modern authentication](sign-in-teams.md)
+## [Sign in to Teams using modern authentication](sign-in-teams.md)
 ## [Place a Teams user or team on legal hold](legal-hold.md)
 ## [Search the audit log for events in Teams](audit-log-events.md)
 ## [Use Content Search in Teams](content-search.md)
@@ -393,13 +393,12 @@
 #### [Quick start guide - Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)
 #### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
 #### [Set up Calling Plans](set-up-calling-plans.md)
-#### [Add, change or remove an emergency address for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Add, change or remove an emergency location for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Add, change, or remove an emergency address for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Add, change, or remove an emergency location for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Assign or change an emergency address for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Assign, change or remove a phone number for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Assign or change the emergency location for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Assign, change, or remove a phone number for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Calling Plans for Office 365](calling-plans-for-office-365.md)
-#### [Change the emergency address for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Change the emergency location for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 #### [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md)

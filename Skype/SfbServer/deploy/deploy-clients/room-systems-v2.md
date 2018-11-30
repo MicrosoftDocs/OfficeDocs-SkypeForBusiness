@@ -1,7 +1,7 @@
 ---
 title: "Deploy Skype Room Systems v2"
-ms.author: jambirk
-author: jambirk
+ms.author: Turgayo
+author: Turgayo
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -97,7 +97,7 @@ To enable you to manage and report on your Skype Room Systems v2 machine and ser
 Define an on-premises Active Directory or Azure AD group to add all Skype Room Systems v2 service (user) accounts to, and then create usage reports by using the Get-CSUserSession PowerShell cmdlet across your Skype Room Systems v2 deployment. For example, create a group named SkypeRoomSystemsv2-Service-Accounts. 
 
 
-Define one organizational unit in your on-premises Active Directory or Azure AD hierarchy to hold all Skype Room Systems v2 machine accounts (if they’re joined to the domain) and one organizational unit to hold all the Skype Room Systems v2 user accounts. If you do create an organizational unit for the Skype Room Systems v2 machine accounts, consider disabling inheritance to ensure that you apply only the policies you intended to apply to the domain-joined Skype Room Systemsv2. 
+Define one organizational unit in your on-premises Active Directory or Azure AD hierarchy to hold all Skype Room Systems v2 machine accounts (if they’re joined to the domain) and one organizational unit to hold all the Skype Room Systems v2 user accounts. If you do create an organizational unit for the Skype Room Systems v2 machine accounts, consider disabling inheritance to ensure that you apply only the policies you intended to apply to the domain-joined Skype Room Systems v2. 
 
 Create a Group Policy object assigned to the organization unit that contains your Skype Room Systems computer accounts. Use this to: 
 
@@ -125,7 +125,7 @@ Each Skype Room Systems v2 device requires a dedicated and unique resource accou
 
 **Pro Tip** – Make the display names for these accounts descriptive and easy to understand. These are the names that users will see when searching for and adding Skype Room Systems v2 systems to meetings. Some organizations use the convention *Site*-*Room Name*(*Max Room Capacity*)-RS, so for example Curie—a 12-person conference room in London—might have the display name LON-CURIE(12)-RS. 
 
-If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. 
+If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion.
 
 
 |    |     |

@@ -3,13 +3,14 @@ title: Adopt Microsoft Teams
 description: Use these adoption resources to help you plan and deploy Microsoft Teams in your organization.
 layout: LandingPage
 ms.topic: landing-page
-author: LolaJacobsen
-ms.author: lolaj
+author: karuanag
+ms.author: karuanag
 manager: serdars
 layout: LandingPage
 ms.date: 10/31/2018
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto: 
 - Microsoft Teams
@@ -104,6 +105,24 @@ If you're a small business, or if you want to roll out Teams starting with chat,
                     </div>
                     <div class="cardText">
                         <h3>Training & certification</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="Training" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Tools and Downloads</h3>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 ---
 title: Publish apps to the Microsoft Teams Tenant Apps Catalog
 author: ChuckEdmonson
-ms.author: chucked
+ms.author: lolaj
 manager: serdars
 ms.date: 08/02/2018
 ms.topic: article

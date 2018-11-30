@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams adoption phase 3 - Scale
-author: LolaJacobsen
-ms.author: lolaj
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,8 +11,8 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Learn how to support the broad scale enablement of Teams for your organization.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto: 
 - Microsoft Teams
 ---

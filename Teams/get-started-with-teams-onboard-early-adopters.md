@@ -30,7 +30,7 @@ For example, for the "Get to know Teams" team, you might want to start your emai
    ```
    Welcome to Microsoft Teams for <insert_company_name>. Teams is a chat-based workspace that brings together chat, files, people, and tools in one place. 
 
-   We created a team called "Get to know Teams" to get you started. Use it to experiment, ask questions, and discover the possibilites of Teams. 
+   We created a team called "Get to know Teams" to get you started. Use it to experiment, ask questions, and discover the possibilities of Teams. 
 
    To join, click <link to the team>.
    ```
@@ -47,7 +47,7 @@ Jump to: [Teams for Windows](#teams-for-windows) | [Teams for Mac](#teams-for-ma
 The Teams desktop client gives Windows and Mac users the best overall experience. To learn more, see [Get clients for Teams (Desktop client)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) and [Hardware requirements for the Microsoft Teams app](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).
 
 > [!NOTE]
-> As an admin, you can choose the method to distribute the installation files to computers in your organization, such as System Center Configuration Manager (Windows) or Jamf Pro (macOS). To get the
+> As an admin, you can choose the method to distribute the installation files to computers in your organization, such as System Center Configuration Manager (Windows) or Jamf Pro (macOS).
 
 #### Teams for Windows 
 The easiest way to install the Windows desktop client is to:
