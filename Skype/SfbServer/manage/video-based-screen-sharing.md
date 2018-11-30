@@ -118,11 +118,10 @@ There are situations where screen-sharing will transition to RDP, like these:
 - If someone is using Skype for Business on Mac and not is homed on Skype for Business Online or Skype for Business Server 2015 with the July, 2018 cumulative update (or later).
 - If someone starts any Program/Windows Sharing.
 - If someone starts recording the session.
-- If someone invokes Remote Screen Control during the session.
-
-    Be aware that once the session transitions to RDP it will not transition back to VbSS. Again, the transition from VbSS is meant to be seamless, and, with hope, will not be easy to detect in most situations.
-  
+- If someone invokes Remote Screen Control during the session. 
 - Meetings with more than 250 participants (where VbSS is not currently supported).
+
+Be aware that once the session transitions to RDP it will not transition back to VbSS. Again, the transition from VbSS is meant to be seamless, and, with hope, will not be easy to detect in most situations.
     
 > [!NOTE]
 > It's not supported to block, or attempt to block, transition from VbSS to RDP in Skype for Business screen-sharing. 
