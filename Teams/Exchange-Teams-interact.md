@@ -35,8 +35,8 @@ The following table provides information for users with Exchange Online hosted i
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Yes<sup>2</sup>|Yes<sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated vNext**|Yes<sup>2</sup>|Yes<sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes ([allowed list](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Yes<sup>2, 3</sup>|No|Yes|No|No|Yes|Yes|No|No|No|Yes|Yes|
-|**Exchange on-premises** (Sync to Azure AD required)|Yes ([allowed list](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Yes<sup>2, 3</sup>|No|Yes|Yes(Exchange 2016 CU3+)|No|Yes|Yes|No|No|No|No|Yes|
+|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes<sup>2, 3</sup>|No|Yes|No|No|Yes|Yes|No|No|No|Yes|Yes|
+|**Exchange on-premises** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes<sup>2, 3</sup>|No|Yes|Yes(Exchange 2016 CU3+)|No|Yes|Yes|No|No|No|No|Yes|
                                                             
 <sup>1</sup> Exchange 2016 CU3 and above supported  
 <sup>2</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.  

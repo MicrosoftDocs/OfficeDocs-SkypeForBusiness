@@ -116,7 +116,7 @@ If this is a user policy, you must also apply the policy to users that you want 
 ## See Also
 
 
-[Enable or disable federation and public IM connectivit](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 
+[Enable or disable federation and public IM connectivity](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 
 
 [Assign an external user access policy](assign-an-external-user-access-policy.md)
 

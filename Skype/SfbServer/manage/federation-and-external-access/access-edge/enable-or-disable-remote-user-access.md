@@ -47,7 +47,7 @@ To support remote user access, you must enable remote user access. When you enab
 To enable remote users to sign in to your servers running Skype for Business Server, you must also configure at least one external access policy to support remote user access. For details, see [Configure policies to control remote user access in Skype for Business Server](../external-access-policies/configure-policies-to-control-remote-user-access.md).
 
 
-## Enabling or Disabling Remote User Access by Using Windows PowerShell Cmdlets
+## Enabling or disabling remote user access by using Windows PowerShell cmdlets
 
 Remote user access can be managed by using Windows PowerShell and the Set-CsAccessEdgeConfiguration cmdlet. This cmdlet can be run either from the Skype for Business Server 2013 Management Shell or from a remote session of Windows PowerShell. 
 

@@ -38,7 +38,7 @@ At the time you deployed your Edge Servers and enabled federation for your organ
 To enable federated users to collaborate with users in your Skype for Business Server deployment, you must have also configured at least one external access policy to support federated user access. For details, see [Enable or disable federation and public IM connectivity](enable-or-disable-federation-and-public-im-connectivity.md). For details about controlling access for specific federated domains, see [Manage SIP federated domains](../sip-domains/manage-sip-federated-domains-for-your-organization.md) and [Manage SIP federated providers](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
 
 
-## Enabling or Disabling Discovery of Federation Partners by Using Windows PowerShell Cmdlets
+## Enabling or disabling discovery of federation partners by using Windows PowerShell cmdlets
 
 Discovery of federation partners can be managed by using Windows PowerShell and the Set-CsAccessEdgeConfiguration cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. 
 

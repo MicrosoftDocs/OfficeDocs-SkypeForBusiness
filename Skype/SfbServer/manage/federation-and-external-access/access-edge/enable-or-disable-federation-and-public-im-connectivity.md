@@ -58,7 +58,7 @@ If you later want to temporarily or permanently prevent access by users of feder
 To enable federated users to collaborate with users in your Skype for Business Server deployment, you must also configure at least one external access policy to support federated user access. For details, see [Configure policies to control federated user access](../external-access-policies/configure-policies-to-control-federated-user-access.md). To control access for specific federated domains, see [Configure support for allowed external domains](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
 
 
-## Enabling or Disabling Federation and Public IM Connectivity by Using Windows PowerShell Cmdlets
+## Enabling or disabling federation and public IM connectivity by using Windows PowerShell cmdlets
 
 Federation and public IM connectivity can also be managed by using Windows PowerShell and the Set-CsAccessEdgeConfiguration cmdlet. This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell. 
 

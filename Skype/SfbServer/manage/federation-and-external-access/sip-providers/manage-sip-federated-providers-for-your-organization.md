@@ -16,7 +16,6 @@ description: "Learn how to configure support for users of SIP federated provider
 
 # Manage SIP federated providers for your organization in Skype for Business Server
 
-
 To configure support for users of SIP federated providers, you need to do the following:
 
   - Configure one or more external user access policies to support communicating with SIP federated provider contacts
@@ -26,7 +25,6 @@ To configure support for users of SIP federated providers, you need to do the fo
   - Specify which public IM providers you want to support
 
 ## Create or edit public SIP federated providers in Skype for Business Server
-
 
 Public instant messaging (IM) connectivity enables users in your organization to use IM to communicate with users of IM services provided by public providers.
 
