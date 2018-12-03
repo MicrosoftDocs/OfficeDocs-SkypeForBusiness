@@ -3,7 +3,7 @@ title: Deploy Microsoft Teams for Surface Hub
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 09/26/2018
+ms.date: 12/04/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -23,6 +23,9 @@ Deploy Microsoft Teams for Surface Hub
 
 Before you deploy Microsoft Teams for Microsoft Surface Hub, be sure you have met the hardware, operating system, and other requirements. For more information, see the [Microsoft Surface Hub admin guide](https://docs.microsoft.com/surface-hub/).
 
+> [!NOTE]
+> If you are transitioning from Skype for Business Online, you need to confirm that a Microsoft Teams license is assigned to the user.
+
 ## Install Teams for Surface Hub from the Microsoft Store 
 
 These instructions are for installing Teams for Surface Hub from the Microsoft Store. 
@@ -36,7 +39,7 @@ These instructions are for installing Teams for Surface Hub from the Microsoft S
 3. When the installation is complete, restart the Surface Hub. 
 
 > [!NOTE]
-> Do not tap on **Launch** from the Store listing page.
+> Do not tap **Launch** from the Store listing page.
 
 ## Make Teams the default calling and meetings application
  
