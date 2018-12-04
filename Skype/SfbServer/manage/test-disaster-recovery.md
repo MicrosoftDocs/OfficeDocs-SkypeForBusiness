@@ -34,12 +34,7 @@ To back up production data:
 
 The first step in the failover procedure includes a forced move of users from the production pool to the Disaster Recovery pool. This will be a forced move because the production pool won't be available to accept the user relocation.
 
-The Skype for Business Server move user process is effectively a change to an attribute on the user account object in addition to a record update on the RTC SQL database.
-
-This data can be restored through the following two processes: 
-
-- RTC database can be restored from the original backup dump device from the production SQL Server using the standard SQL Server restore process, or using a third-party backup/restore utility.
-- User contact data can be restored with the DBIMPEXP.exe utility using the XML file that was created from the production SQL Server export.
+The Skype for Business Server move user process is effectively a change to an attribute on the user account object in addition to a record update on the RTC SQL database. This data can be restored from the original backup dump device from the production SQL Server using the standard SQL Server restore process, or using a third-party backup/restore utility.
 
 After this data is restored, users can effectively connect to the Disaster Recovery pool, and operate as usual. To enable users to connect to the Disaster Recovery pool, a DNS record change will be required.
 
@@ -54,5 +49,3 @@ To facilitate the failover, this CNAME record must be updated to reference the D
 - Sip.\<domain>
 - AV.\<domain>
 - webconf.\<domain>
-- OCSServices.\<domain>
-

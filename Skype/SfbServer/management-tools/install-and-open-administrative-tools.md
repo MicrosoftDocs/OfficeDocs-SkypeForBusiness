@@ -21,9 +21,9 @@ Make sure that you review infrastructure, operating system, software, and admini
 
 ## To install the administrative tools
 
-1. Log on as a local administrator (minimum requirement) to the computer where you want to install the administrative tools. If you are logged on as a standard user on the Windows Vista or Windows 7 operating systems, and User Account Control (UAC) is enabled, you will be prompted for the local administrator or a domain equivalent user name and password.
+1. Log on as a local administrator (minimum requirement) to the computer where you want to install the administrative tools. If you are logged on as a standard user in Windows and User Account Control (UAC) is enabled, you will be prompted for the local administrator or a domain equivalent user name and password.
 2. Locate the installation media on your computer, and then double-click \Setup\amd64\Setup.exe.
-3. If you are prompted to install the Microsoft Visual C++ 2008 distributable, click **Yes**.
+3. If you are prompted to install the Microsoft Visual C++ distributable, click **Yes**.
 4. On the Installation Location page, click **OK**. Change this path to another location or drive if you need to have the files installed to another location.
 
     > [!Important]
