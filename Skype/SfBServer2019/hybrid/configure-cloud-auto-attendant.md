@@ -69,8 +69,6 @@ Your online implementation will need to have a plan that includes Phone System l
 
 2. Use the procedures in [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) to implement the Cloud Auto Attendant structure, including redirects to users, to nested auto attendants, to call queues, or other valid options.  
 
-**Still unclear: changes to the MoPo or Legacy interfaces that allow either the creation of a purely online AA object vs selecting an onprem endpoint an configuring AA attributes for it.**
-
 An example of a small business implementation is available in [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml).
 
 ## Test the new auto Attendant
