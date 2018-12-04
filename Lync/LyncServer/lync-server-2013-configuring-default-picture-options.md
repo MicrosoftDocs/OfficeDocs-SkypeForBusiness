@@ -32,7 +32,7 @@ If the possibility of displaying pictures even when turned off by the user is a 
 
     Set-CsPrivacyConfiguration -DisplayPublishedPhotoDefault $False
 
-For more information about this cmdlet, see the [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration) in the Lync Server Management Shell documentation.
+For more information about this cmdlet, see the [Set-CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration) in the Lync Server Management Shell documentation.
 
 </div>
 

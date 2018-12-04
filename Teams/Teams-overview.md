@@ -1,12 +1,12 @@
 ---
 title: Overview of Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.date: 11/06/18
+ms.reviewer: LolaJ
 description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
 localization_priority: Normal
 search.appverid: MET150
@@ -17,101 +17,62 @@ appliesto:
 - Microsoft Teams
 ---
 
-Overview of Microsoft Teams
-===========================
+# Welcome to Microsoft Teams
 
-> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=ccf507a4-4ec4-4d61-9fb0-c86b5f1fc2a6&AutoPlayVideo=false] 
+If you're the admin for Microsoft Teams in your organization, you're in the right place. Here you’ll find all the information you need to plan, deploy, and run Teams.  
 
+## Overview of Teams
 
-Microsoft Teams brings together the full breadth and depth of Office 365, to provide a true chat-based hub for teamwork and give customers the opportunity to create a more open, fluid, and digital environment. Microsoft Teams is built on existing Microsoft technologies woven together by Office 365 Groups. 
+If you're new to Teams, check out this short video, [Welcome to Teams](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams). Teams is built on Office 365 groups, Office Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). When you create a team, here's what gets created:
+- A new [Office 365 group](office-365-groups.md)
+- A [SharePoint Online](sharepoint-onedrive-interact.md) site and document library to store team files
+- An [Exchange Online](exchange-teams-interact.md) shared mailbox and calendar
+- A OneNote notebook
+- Ties into other Office 365 apps such as Planner and Power BI
 
-Out of the box, Teams leverages identities stored in Azure Active Directory (Azure AD) and integrates with the other services within Office 365, to create a SharePoint online site and an Exchange Online group mailbox for each team created.
+When you create a team from an existing group, that group's membership, site, mailbox, and notebook are ported to Teams. Don't miss the new [org-wide team](create-an-org-wide-team.md), a special type of team that pulls in every user in your organization and keeps membership up to date with Active Directory as users join and leave the organization. 
 
-Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams. All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and guests can be managed securely within Azure AD. Admins can centrally manage how guests participate within their Office 365 environment and easily view, add, or revoke a guest’s access to the host tenant.
+To customize and extend Teams, add third-party apps through [tabs](built-in-custom-tabs.md), [connectors](office-365-custom-connectors.md), and [bots](add-bots.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Office 365, Teams offers a robust [extensibility story](https://docs.microsoft.com/en-us/microsoftteams/platform) so you can build the teamwork hub you need for your organization. 
 
-Teams provides a persistent chat capability, calling and meetings, easy access to other components of Office 365 as well as a robust extensibility story.  This provides a hub for teamwork that is appropriate for enterprise companies, small organizations and everyone in between.  
+![Teams desktop app and mobile app](media/teams-overview-hub.png)
 
-To extend Teams capabilities, use Connectors, Tabs, and Bots - available as [Apps](https://go.microsoft.com/fwlink/?linkid=854629), to bring external information, content, and intelligent bot interactions to Teams.  
+Teams is the primary client for intelligent communications in Office 365, replacing Skype for Business Online over time. To learn more about Skype for Business features and functionality that we've built into Teams, see the [Skype for Business to Microsoft Teams capabilities roadmap](http://aka.ms/skype2teamsroadmap). To complement persistent chat and messaging capabilities, Teams offers a comprehensive meeting and calling experience, with built-in, fully integrated voice and video. Check out [Teams is now a complete meeting and calling solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) in the Microsoft Teams Blog.
 
-Microsoft Teams infrastructure
-------------------------------
+## Teams admin experience
 
-Teams is built on existing Microsoft technologies, woven together by Office 365 Groups. Powered by the Microsoft cloud, organizations can expect excellent performance and reliability when leveraging Teams as part of their collaboration story.
+We’re rolling out the new Microsoft Teams & Skype for Business admin center. If you don’t see it yet, it’s on its way, giving you a unified experience for managing Teams and Skype for Business. Since March 2018, we’ve been gradually migrating settings to it from the Skype for Business admin center and the Teams experience in the Office 365 admin center. 
 
-Out of the box, a team created in Teams will create an Office 365 Group, a SharePoint Online site (complete with a document library), and an Exchange Online group mailbox, which will be used by Teams to store information such as meeting invites. A team can be created using existing Office 365 Groups, allowing existing group memberships, and contents stored in SharePoint Online and Exchange Online to be ported to Teams.
+During the migration, you’ll be split between two different admin experiences. Don’t worry – we’ll make sure you don’t get lost! After a setting is migrated, you’ll get a notification and will be directed to the new location of the setting in the Microsoft Teams & Skype for Business admin center. To learn more, see [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md). 
 
-To complement the Teams capability as a persistent chat board where informal, real-time conversations take place, Teams also provides a calling and meeting experience built on the next generation cloud-based infrastructure that is also used by Skype and Skype for Business. These technology investments include Azure-based cloud services for media processing and signaling, H.264 video codec, SILK and Opus audio codec, network resiliency, telemetry, and quality diagnostics.
+To stay on top of what’s coming for Teams and all other Office 365 products and services in your organization, be sure to check [Message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) and the [Teams roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). You’ll get announcements about new and updated features, planned changes, and issues to help keep you informed and prepared. 
 
-Office 365 Groups leverage identities stored in Azure Active Directory (Azure AD) and as such, all authentication and authorization capabilities in Azure AD, such as support for multi-factor authentication (MFA), are readily available for use by Teams.
+## Upgrade from Skype for Business to Teams
+If you’re already on Teams, great! Use the resources here to get the most out of Teams as the central hub for teamwork in your organization. 
 
-> [!NOTE]
-> Based on customer feedback, new Office 365 Groups generated as a result of creating a team in Microsoft Teams will no longer show in Outlook by default. For customers that want to continue with the existing behavior of showing these groups in Outlook, an Exchange Online PowerShell cmdlet will be provided which can enable the group for the Outlook experience. Groups created through Outlook and then later enabled for Teams will continue to show in both Outlook and Teams. This update will gradually roll out across Outlook and Teams in the coming months.
+If you’re running Skype for Business and are ready to upgrade to Teams, or if you’re running Skype for Business and Teams side-by-side and are ready to fully move to Teams, we have the tools, tips, and guidance to help make your transition successful. To learn more, see [Skype for Business to Microsoft Teams upgrade](journey-skypeforbusiness-teams.md).
 
+## Teamwork and Office 365
+Every team is different; there’s no one-size-fits-all approach to collaboration. Office 365 is designed to meet the unique needs of every team, empowering people to communicate, collaborate, and achieve more with purpose-built, integrated applications. 
 
-Microsoft Teams and Office 365
-------------------------------
+When deciding which Office 365 apps and services to use, think about the work your organization does and the types of conversations your teams need to have. 
 
-Different groups have various needs, based on their functional role and workstyle. Office 365 is designed for the unique workstyle of every group and includes purpose-built, integrated applications, including:
+- **Teams**, a digital hub where people who work closely together on core projects, including people outside your organization, can actively connect and collaborate in real time to get things done. Have a conversation right where the work is happening, whether coauthoring a document, having a meeting, or working together in other apps and services. Teams is the place to have informal chats, iterate quickly on a project, work with team files, and collaborate on shared deliverables. 
 
--   Outlook for enterprise-grade email, now with groups functionality
+- **Outlook** for collaborating in the familiar environment of email and in a more formal, structured manner or when targeted and direct communication is required. 
 
--   SharePoint for sites and portals, intelligent content services, business process automation and enterprise search
+- **SharePoint** for sites, portals, intelligent content services, business process automation, and enterprise search. SharePoint keeps content at the center of teamwork, making all types of content easily shareable and accessible across teams. Tight integration with Outlook, Yammer, and Teams enables seamless content collaboration across conversation experiences.   
 
--   Yammer for driving company-wide connections
+- **OneDrive for Business** for storing files and sharing them with people that a user invites. Content that a user saves to OneDrive for Business is private until the user shares it with others, making it the best option for storing personal and draft documents that are not intended to be shared or not ready to be shared.
 
--   Skype for Business as the backbone for enterprise voice and video
+- **Yammer** to connect people across the organization. Drive company-wide initiatives, share best practices, and build communities around common topics of interest or areas or practice. Crowdsource ideas to foster open discussions with people across the company.
 
--   And now, Microsoft Teams, the new chat-based workspace in Office 365
+- **Office apps** are all the familiar tools that people know and use regularly, including Word, Excel, PowerPoint, and OneNote. 
 
-Here are common use cases for each application in Office 365. For detailed usage guidance, visit the [FastTrack Productivity Library](https://go.microsoft.com/fwlink/?linkid=854630).
+## Teams known issues
 
-![Microsoft Teams icon.](media/Overview_of_Microsoft_Teams_image1.png)
+See [Known issues for Microsoft Teams](Known-issues.md).
 
--   Leveraged by users and teams who are looking to collaborate in real-time with the same group of people.
+## Teams client release notes
 
--   Helps teams looking to iterate quickly on a project while sharing files and collaborating on shared deliverables.
-
--   Allows users to connect a wide range of tools into their workspace (such as Planner, Power BI, GitHub, etc.).
-
-![Microsoft Outlook icon.](media/Overview_of_Microsoft_Teams_image2.png)
-
--   Leveraged by users who prefer to collaborate in the familiar environment of email and/or a more formal, structured manner.
-
--   Provides specific business processes that require email usage to transmit documents and information inside and outside corporate boundaries.
-
--   Communicates and connects with users who are outside of immediate workgroups or organizations.
-
-![Yammer icon.](media/Overview_of_Microsoft_Teams_image3.png)
-
--   Leveraged to help connect users across the organization to organize around communities of practice and share best practices.
-
--   Improves cross-functional workflows through an open and transparent feed-based platform
-
--   Fosters executive-employee engagement with two-way conversations between leadership and the wider employee base
-
--   Ignites your frontline workforce to share and receive knowledge and expertise
-
-![Skype for Business icon.](media/Overview_of_Microsoft_Teams_image4.png)
-
--   Leveraged for real-time communication and collaboration both internally and externally with customers/partners.
-
--   Provides meetings with audio, video and content with small or large teams (including Town Halls with up to 10,000 participants).
-
--   Offers enterprise telephony functionality.
-
-
-![Microsoft SharePoint icon.](media/Overview_of_Microsoft_Teams_image5.png)
-
--   Leveraged for sites and portals (e.g. company news & announcements, search, and document collaboration).
-
--   Implements business process automation on document libraries and lists of information by integrating Microsoft Flow and PowerApps.
-
--   Full-powered SharePoint team site automatically provisioned for every Microsoft Team for file storage, team news, pages, lists and more.
-
--   See [How SharePoint Online and OneDrive for Business interact with Teams](SharePoint-OneDrive-interact.md)
-
-## [Teams known issues](Known-issues.md)
-
-## [Teams client release notes](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
-
+See [What's new in Microsoft Teams](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
 

@@ -8,10 +8,10 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
-ms.reviewer: vichau, majafry
+ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
+description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android and iOS).
 ms.custom:
 - NewAdminCenter_Update
 appliesto: 
@@ -21,7 +21,10 @@ appliesto:
 Get clients for Microsoft Teams 
 ===========================
 
-Microsoft Teams has clients available for desktop (Windows and Mac), web, and mobile (Android,  iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode.
+Microsoft Teams has clients available for desktop (Windows and Mac), web, and mobile (Android and  iOS). These clients all require an active internet connection and do not support an offline mode.
+
+> [!NOTE]
+> Effective November 29, 2018, you'll no longer be able to use the Microsoft Teams for Windows 10 S (Preview) app, available from the Microsoft Store. We recommend that you use one of the Teams apps described below in this article after November 29.
 
 Desktop client
 --------------
@@ -119,9 +122,6 @@ Mobile apps are distributed and updated through the respective mobile platformâ€
 |---------|---------|---------|
 |![Decision Point icon.](media/Get_clients_for_Microsoft_Teams_image4.png)      |Decision Point         |Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?         |
 |![Next Steps icon.](media/Get_clients_for_Microsoft_Teams_image5.png)     |Next Steps         |If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.         |
-
-
-  <span id="_Hlk477176062" class="anchor"></span>  Decision Point   Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?
 
 Client update management
 ------------------------

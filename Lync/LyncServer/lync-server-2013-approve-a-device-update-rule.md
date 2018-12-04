@@ -82,7 +82,7 @@ Device update rules can also be approved by using Windows PowerShell and the **A
 
 </div>
 
-For details, see the Help topic for the [Approve-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Approve-CsDeviceUpdateRule) cmdlet.
+For details, see the Help topic for the [Approve-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Approve-CsDeviceUpdateRule) cmdlet.
 
 </div>
 

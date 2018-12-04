@@ -40,7 +40,7 @@ Use the procedures in this section to manage trusted applications for Lync Serve
 
 ## Related Sections
 
-[Trusted applications cmdlets in Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)
+[Trusted applications cmdlets in Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
 
 </div>
 

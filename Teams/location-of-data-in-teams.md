@@ -1,5 +1,5 @@
 ---
-title: Locatin of data in Microsoft Teams
+title: Location of data in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars

@@ -55,7 +55,7 @@ You should also be aware that some fidelity/crispness of your shared content has
 If QoS is enabled for the following media ports and VbSS is also enabled, during a conference that includes desktop sharing the AS MCU will use the video port settings shown in bold below for the screen share traffic. 
   
 > [!IMPORTANT]
-> These settings are a special case, and these exact settings must be used when implementing both of these features. This overrides other recommended settings in the [documentation for QoS](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx). Fo application sharing you will also need to specify ASMCUSVC.exe in the QoS GPO in addition to defining these port values. 
+> These settings are a special case, and these exact settings must be used when implementing both of these features. This overrides other recommended settings in the [documentation for QoS](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx). For application sharing you will also need to specify ASMCUSVC.exe in the QoS GPO in addition to defining these port values. 
   
 **Application Server QoS/VbSS required settings**
 
@@ -115,14 +115,13 @@ There are situations where screen-sharing will transition to RDP, like these:
 - If your account is hosted in an environment where the ASMCU doesn't meet the minimum build that supports VbSS.
 - If someone who uses an older version of the Skype for Business client joins your session, for example anyone using any Windows client version that is lower than 16.0.6330.1000, Skype for Business Room System Devices, or Skype for Business Mobile Apps. 
 - If a user is sharing from the Skype for Business Web App.
-- If someone is using Skype for Business on Mac and not is homed on Skype for Business Online.
+- If someone is using Skype for Business on Mac and not is homed on Skype for Business Online or Skype for Business Server 2015 with the July, 2018 cumulative update (or later).
 - If someone starts any Program/Windows Sharing.
 - If someone starts recording the session.
-- If someone invokes Remote Screen Control during the session.
-
-    Be aware that once the session transitions to RDP it will not transition back to VbSS. Again, the transition from VbSS is meant to be seamless, and, with hope, will not be easy to detect in most situations.
-  
+- If someone invokes Remote Screen Control during the session. 
 - Meetings with more than 250 participants (where VbSS is not currently supported).
+
+Be aware that once the session transitions to RDP it will not transition back to VbSS. Again, the transition from VbSS is meant to be seamless, and, with hope, will not be easy to detect in most situations.
     
 > [!NOTE]
 > It's not supported to block, or attempt to block, transition from VbSS to RDP in Skype for Business screen-sharing. 
@@ -145,7 +144,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    For more information on this command, see [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    For more information on this command, see [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - If you need to turn VbSS off completely, you can run this command:
     
@@ -153,7 +152,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    For more information on this command, see [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    For more information on this command, see [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > In a multiparty Skype for Business meeting, all client endpoints will respect the policy setting for the meeting organizer. 
@@ -172,7 +171,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    For more information on this command, see [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    For more information on this command, see [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - If you need to turn VbSS back on after turning it off (it's on by default), you can run this command:
     
@@ -180,7 +179,7 @@ The great thing is, once you've installed the Skype for Business Server 2015 Cum
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    For more information on this command, see [Set-CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    For more information on this command, see [Set-CsMediaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > In a multi-party Skype for Business meeting, all client endpoints will respect the policy setting for the meeting organizer. 

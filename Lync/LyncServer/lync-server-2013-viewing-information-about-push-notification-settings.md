@@ -64,7 +64,7 @@ You can view push notification configuration settings by using Windows PowerShel
 
 </div>
 
-For more information, see the help topic for the [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPushNotificationConfiguration) cmdlet.
+For more information, see the help topic for the [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsPushNotificationConfiguration) cmdlet.
 
 </div>
 

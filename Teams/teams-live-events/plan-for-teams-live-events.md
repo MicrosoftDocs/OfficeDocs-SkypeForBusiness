@@ -6,6 +6,8 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Learn about the factors to consider before you set up live events in Microsoft Teams. 
 appliesto: 
@@ -98,3 +100,9 @@ You can use Teams live events in multiple regions across the world. The followin
 
 ## Next steps
 Go to [Set up for Teams live events](set-up-for-teams-live-events.md).
+
+### Related topics
+- [What are Teams live events?](what-are-teams-live-events.md)
+- [Set up for Teams live events](set-up-for-teams-live-events.md)
+- [Configure live events settings in Teams](configure-teams-live-events.md)
+

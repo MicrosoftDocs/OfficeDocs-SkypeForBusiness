@@ -3,7 +3,7 @@ title: Microsoft Teams Guest Access checklist
 author: romanma
 ms.author: romanma
 manager: serdars
-ms.date: 10/19/18
+ms.date: 11/09/18
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -38,7 +38,7 @@ For more details, see [What the guest experience is like](guest-experience.md) a
 
 ## If your guests are seeing license errors
 
-Guest Access in Microsoft Teams uses Azure Active Directory Business to Business (B2B) and its licensing model. If you’re seeing licensing errors, make sure to read the B2B licensing guidance to understand the licensing requirements your organization has so that your users are able to invite guests to your organization.
+Guest access in Microsoft Teams uses Azure Active Directory Business to Business (B2B) and its licensing model. If you’re seeing licensing errors, make sure to read the B2B licensing guidance to understand the licensing requirements your organization has so that your users are able to invite guests to your organization.
 
 A few things to remember:
 
@@ -57,7 +57,7 @@ A few things to remember:
 
       ![Screenshot shows an example of a AAD Settings toggle. ](media/guest-access-checklist-AADSettings1.png)
 
-    At a minimum to support guests, **Members can invite** must be set to **Yes**. 
+    To support guests, **Members can invite** must be set to **Yes**. 
    
 > [!NOTE] 
 > If you set **Members can invite** to **No** and then enable guest access in Office 365 Groups and Microsoft Teams, admins can control guest invitations to your directory. After guests are in the directory, they can be added to teams by non-admin members who are team owners.

@@ -58,7 +58,7 @@ Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri 
 
 For details about the autodiscover service, see [Autodiscover Service](https://go.microsoft.com/fwlink/p/?LinkId=268542).
   
-After the autodiscover service has been configured, you must then modify the Skype for Business Server OAuth configuration settings; this ensures that that Skype for Business Server knows where to find the autodiscover service. To modify the OAuth configuration settings in Skype for Business Server, run the following command from within the Skype for Business Server Management Shell. When running this command, be sure that you specify the URI to the autodiscover service running on your Exchange Server, and that you use **autodiscover.svc** to point to the service location instead of **autodiscover.xml** (which points to the XML file used by the service):
+After the autodiscover service has been configured, you must then modify the Skype for Business Server OAuth configuration settings; this ensures that Skype for Business Server knows where to find the autodiscover service. To modify the OAuth configuration settings in Skype for Business Server, run the following command from within the Skype for Business Server Management Shell. When running this command, be sure that you specify the URI to the autodiscover service running on your Exchange Server, and that you use **autodiscover.svc** to point to the service location instead of **autodiscover.xml** (which points to the XML file used by the service):
   
 ```
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 

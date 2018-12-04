@@ -115,7 +115,7 @@ Here are the decisions that you must consider:
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Feature/Paramater Name/Scope (Policy parameter names may not be the same)</th>
+    <th>Feature/Parameter Name/Scope (Policy parameter names may not be the same)</th>
     <th>Description</th>
     <th>Introduced</th>
     </tr>
@@ -164,7 +164,7 @@ Here are the decisions that you must consider:
     </tbody>
     </table>
     
-    For a description of the policy settings that you can configure, and how to manage the policies, see [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy) and [Remove-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMobilityPolicy).
+    For a description of the policy settings that you can configure, and how to manage the policies, see [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy), [Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy) and [Remove-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy).
 
   - **Do you want users who are not enabled for Enterprise Voice to be able to use Click to Join to join conferences?**
     

@@ -30,11 +30,11 @@ As users are working on more teams, we see the opportunity to more seamlessly in
 
 ### Is there a firm deadline by which customers need to move from Skype for Business Online to Teams?
 
-We’ve made our roadmap for Teams available so customers can assess the capabilities for Teams relative to their needs and plan their move to Teams. Customers can determine the timing for moving to Teams that best meets their needs. A great way to stay on top of news about the journey from Skype for Business to Teams is the [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)—a downloadable PDF (in English only, at least for now) that gives Microsoft's current expectations about Skype for Business capabilities coming to Teams.
+Customers can determine the timing for moving to Teams that best meets their needs. For customers not quite ready to upgrade, they can still realize the benefits of Teams by adopting it alongside Skype for Business. To learn more, read [Understand Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 ### What is the future of Skype for Business Server?
 
-We recognize that customers are using Skype for Business on-premises and many need to continue to use Skype for Business on-premises for some users or geographies due to their requirements. We’re targeting general availability of Skype for Business Server 2019 by the end of 2018 (dates subject to change).
+We recognize that customers are using Skype for Business on-premises and many need to continue to use Skype for Business on-premises for some users or geographies due to their requirements. Skype for Business Server 2019 was released in October 2018.
 
 ### What will happen to the Skype brand?
 
@@ -92,7 +92,7 @@ A successful upgrade will include validating technical readiness in addition to 
  
 ### My organization is already running Teams alongside Skype for Business. Can I just disable Skype for Business?
 
-No, you'll want to switch users to **Teams only** mode to complete their upgrade to Teams. If your organization is ready to transition to Teams, take time to communicate to users to let them know what’s happening and allow them some time to acclimate to Teams. This will help ensure they have a positive upgrade experience and help alleviate calls to your helpdesk. For sample communication templates, download our [Upgrade Success Kit](https://aka.ms/skypetoteams-UpgradeSuccessKit).
+No, you'll want to switch users to **Teams only** mode to complete their upgrade to Teams. If your organization is ready to transition to Teams, take time to communicate to users to let them know what’s happening and allow them some time to acclimate to Teams. This will help ensure they have a positive upgrade experience and help alleviate calls to your helpdesk. For sample communication templates, download our [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit).
  
 ### Who can I contact if I have questions about the upgrade process?
 

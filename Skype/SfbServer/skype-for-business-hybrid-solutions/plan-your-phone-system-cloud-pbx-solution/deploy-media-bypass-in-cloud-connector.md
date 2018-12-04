@@ -27,7 +27,7 @@ To enable media bypass, you must configure the DNS name of the media bypass web 
   
 A tenant administrator must configure a DNS A record in the internal production Active Directory. If you have a complex multi-site environment, see the example in [Example: media bypass web site DNS records in complex multi-site environments](deploy-media-bypass-in-cloud-connector.md#Example). The DNS record should only resolve for internal network clients; it should not resolve for external network clients.
   
-After configuring DNS, connect to Skype for Business Online by using remote PowerShell with Skype for Business Administrator credentials. For more information, see [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+After configuring DNS, connect to Skype for Business Online by using remote PowerShell with Skype for Business Administrator credentials. For more information, see [Set up your computer for Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
   
 In the PowerShell session, enter the following commands to enable media bypass:
   
@@ -109,7 +109,7 @@ An administrator will also need to remove the web addresses for media bypass fro
 
 Clients will receive the web address of the media bypass web service from an internal DNS server. The name of the web service will be the same across all Cloud Connector appliances and Cloud Connector PSTN sites. In a complex multi-site environment, we recommend using the Windows 2016 DNS Policy for Geo-Location Based Traffic Management, so clients can be redirected to the web service which is local for their network. 
   
-Fore more information about Windows 2016 DNS Policies, see [Use DNS Policy for Geo-Location Based Traffic Management with Primary Servers](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/primary-geo-location).
+Fore more information about Windows 2016 DNS Policies, see [Use DNS Policy for Geo-Location Based Traffic Management with Primary Servers](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).
   
 The following is an example of configuration for a company with several sites using Windows 2016 DNS Policy for Geo-Location Based Traffic Management.
   
