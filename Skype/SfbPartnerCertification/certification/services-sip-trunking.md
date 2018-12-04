@@ -53,7 +53,7 @@ The following table lists the SIP trunking services that are certified for Skype
 |[G12 Communications](http://g12communications.com/) |Lync SIP Trunks|    |
 |[Gamma](http://www.gamma.co.uk/partners/products/voice/sip-trunks/) |SIP Trunking|  |
 |[GlobalConnect](http://www.globalconnect.dk/produkter/telefoni/lync) |GlobalConnect SIP Trunking|         |
-|[Globalgig](https://www.globalgig.com/)| Globalgig SIP Trunking |         |
+|[Globalgig](https://www.globalgig.com/)| Globalgig SIP Trunking |&#x2714;|
 |[IntelePeer](http://www.intelepeer.com/)     |IntelePeer SIP Trunking |&#x2714;|
 |[Internet Solutions](https://www.is.co.za/OurSolutions/Communication/Voice/Pages/default.aspx) |Internet Solutions SIP Trunk |  |
 |[Interoute](http://www.interoute.com/product/interoute-one) |Interoute One| |
