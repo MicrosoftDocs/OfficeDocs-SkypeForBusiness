@@ -67,6 +67,35 @@ When users initiate a call using the Microsoft Teams client for the first time, 
 > [!NOTE]
 > Windows Firewall configuration will be altered even when the prompt is dismissed by selecting “Cancel”. Two inbound rules for teams.exe will be created with Block action for both TCP and UDP protocols.
 
+> [!NOTE]
+> It's currently not possible to apply GPO to the user level via %localappdata% when creating firewall rules using Group Policies with Security Settings\windows Firewall and Advance Security. However, you can use a PowerShell script that leverages the user names from C:\users to create the required firewall rules which will prevent the prompting to create these rules. An example script below:
+
+## Sample script
+
+````powershell
+<#
+.SYNOPSIS
+This is meerly a sample script to help desktop admins create a rule to block the Teams Firewall pop-up upon first launch.
+.Disclaimer
+Sample Code is provided for the purpose of illustration only and is not intended to be used in a production environment. THIS SAMPLE CODE AND ANY RELATED INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE. We grant You a nonexclusive, royalty-free right to use and modify the Sample Code and to reproduce and distribute the object code form of the Sample Code, provided that. You agree: (i) to not use Our name, logo, or trademarks to market Your software product in which the Sample Code is embedded; (ii) to include a valid copyright notice on Your software product in which the Sample Code is embedded; and (iii) to indemnify, hold harmless, and defend Us and Our suppliers from and against any claims or lawsuits, including attorneys’ fees, that arise or result from the use or distribution of the Sample Code.
+
+#>
+$users = Get-Childitem c:\users
+foreach ($user in $users) 
+{
+    $Path = "c:\users\" + $user.Name + "\appdata\local\Microsoft\Teams\Current\Teams.exe"
+    if (Test-Path $Path) 
+	{
+	        $name = "teams.exe " + $user.Name
+	        if (!(Get-NetFirewallRule -DisplayName $name))
+		{
+	            New-NetFirewallRule -DisplayName “teams.exe” -Direction Inbound -Profile Domain -Program $Path -Action Allow
+		}
+	}
+}
+ }
+````
+
 ### Mac
 
 Mac users can install Teams by using a PKG installation file for macOS computers. Administrative access is required to install the Mac client. The macOS client is installed to the /Applications folder.
