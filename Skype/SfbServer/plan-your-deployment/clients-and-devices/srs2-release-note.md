@@ -21,6 +21,7 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 
 | Release | Published to <br>Microsoft Store | 
 | ---     | ---  |
+| 4.0.51.0 | 11/17/2018   | 
 | 4.0.31.0 | 10/16/2018   | 
 | 4.0.27.0 |  10/1/2018    | 
 | 4.0.19.0 |  08/31/2018    |   
@@ -43,6 +44,10 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 
 
 ## Skype Room Systems v2 feature introduction and issue resolution
+
+### 4.0.51.0 (11/17/2018)
+Introduced in this update:
+- Dual display (Front of Room) support for Teams Meetings 
 
 ### 4.0.31.0 (10/16/2018)
 Introduced in this update:
