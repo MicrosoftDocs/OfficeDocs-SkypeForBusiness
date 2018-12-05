@@ -92,7 +92,7 @@ A successful upgrade will include validating technical readiness in addition to 
  
 ### My organization is already running Teams alongside Skype for Business. Can I just disable Skype for Business?
 
-No, you'll want to switch users to **Teams only** mode to complete their upgrade to Teams. If your organization is ready to transition to Teams, take time to communicate to users to let them know what’s happening and allow them some time to acclimate to Teams. This will help ensure they have a positive upgrade experience and help alleviate calls to your helpdesk. For sample communication templates, download our [Upgrade Success Kit](https://aka.ms/skypetoteams-UpgradeSuccessKit).
+No, you'll want to switch users to **Teams only** mode to complete their upgrade to Teams. If your organization is ready to transition to Teams, take time to communicate to users to let them know what’s happening and allow them some time to acclimate to Teams. This will help ensure they have a positive upgrade experience and help alleviate calls to your helpdesk. For sample communication templates, download our [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit).
  
 ### Who can I contact if I have questions about the upgrade process?
 

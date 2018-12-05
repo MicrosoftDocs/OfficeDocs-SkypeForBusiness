@@ -49,7 +49,7 @@ In this coexistence mode, called **Islands**, each of the client applications op
 
 In this coexistence mode, users remain in Skype for Business—not Teams—for chat, meeting and calling capabilities, and they don’t use Teams for teams and channels. This mode is available today; however, in the current implementation Teams modalities are not turned off for the user automatically. This capability is upcoming. In the interim, admins can remove the Teams license for any users who need to stay in Skype for Business as their only communications application.
 
-### Teams Only (this mode started rolling out Summer 2018 and will be completed to all tenants by Fall 2018)
+### Teams Only (this mode started rolling out Summer 2018 and will be completed to all tenants in calendar year 2019)
 
 As soon as your organization is ready for some or all users to use Teams as their only communications and collaboration tool, you can upgrade those users to **Teams Only** mode.
 
