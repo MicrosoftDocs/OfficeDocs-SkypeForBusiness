@@ -62,7 +62,7 @@ When a user clicks the sign-in button in Teams, sign-in is started via the Compa
 
 **User sign-in with credentials**
 
-![Signing in with credentials](media/sign-in-with-credentials.jpg)
+![Signing in with credentials](media/sign-in-with-credentials.png)
 
 **User sign-in via PC/smartphone**
 
@@ -78,11 +78,11 @@ The Teams phone experience is optimized based on the user's selection.
 
 **Personal mode**
 
-![Account in personal mode](media/personal-mode.jpg)
+![Account in personal mode](media/personal-mode.png)
 
 **Shared mode**
 
-![Account in shared mode](media/shared-mode.jpg)
+![Account in shared mode](media/shared-mode.png)
 
 ## Calling experience
 
@@ -90,11 +90,11 @@ The Microsoft Teams user can lift the handset or press the speaker button to lau
 
 **On-screen dial pad**
 
-![The on-screen dial pad](media/on-screen-dial-pad.jpg)
+![The on-screen dial pad](media/on-screen-dial-pad.png)
 
 **Calling screen**
 
-![The calling screen](media/calling-screen.jpg)
+![The calling screen](media/calling-screen.png)
 
 ## Meeting experience
 
@@ -102,11 +102,11 @@ The Microsoft Teams user can navigate to the meetings tab to view their meetings
 
 **Calendar view**
 
-![Meetings in calendar view](media/calendar-view.jpg)
+![Meetings in calendar view](media/calendar-view.png)
 
 **Meeting join view**
 
-![A meeting in join view](media/meeting-join-view.jpg)
+![A meeting in join view](media/meeting-join-view.png)
 
 
 ## Voicemail
@@ -119,7 +119,7 @@ The Microsoft Teams user can access their voicemail when they navigate to the **
 
 The Teams phone user can choose to sign out by selecting the **Sign Out** option from the top left menu.
 
-![Signing out of Teams](media/teams-sign-out.jpg)
+![Signing out of Teams](media/teams-sign-out.png)
 
 ## See also
 
