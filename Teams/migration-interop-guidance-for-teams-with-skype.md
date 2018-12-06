@@ -15,6 +15,9 @@ appliesto:
 ---
 # Migration and interoperability guidance for organizations using Teams together with Skype for Business
 
+> [!Tip] 
+> Watch the following session to learn about [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)
+
 Interop and migration are managed using “coexistence mode” as determined by TeamsUpgradePolicy. Selection of the user’s mode governs both routing of incoming calls and chats and whether user schedules meetings in Teams or Skype for Business.  Soon, in conjunction with the upcoming TeamsAppPermissionsPolicy, mode will also govern in which client the user can initiate chats and calls. 
 
 As previously announced in April 2018, TeamsInteropPolicy is being retired. Its functionality has been consolidated into TeamsUpgradePolicy, and configuring TeamsInteropPolicy is no longer required. It is not honored unless TeamsUpgradePolicy has mode=Legacy.  Now that TeamsUpgradePolicy support is complete, *customers should update their configurations to use a mode other than Legacy*. Granting instances of TeamsUpgradePolicy with mode=Legacy is now blocked by default.
