@@ -43,12 +43,13 @@ The parameters that determine the thread routing method are:
 - Whether the conversation is new, or part of an existing thread
 - Whether the conversation is in-tenant or federated
 - Whether the conversation is possible
-    - In-tenant interoperability requires that the tenant is either pure online or Skype for Business hybrid. Purely on-premise tenants can't have in-tenant interoperability.
-    - If the Skype for Business account of the originator is homed on-premise, that user can't use the Teams client for in-tenant interoperability or for federation. That can only use the Skype for Business client for interoperability and federation.
-    - Teams to Teams communication is always possible in-tenant
+    - *In-tenant* interoperability requires that the tenant is either pure online or Skype for Business hybrid. Purely on-premise tenants can't have in-tenant interoperability.
+    - *Cross-tenant federation* always requires proper Skype for Business federation configuration as well as proper Teams federation  configuration from both tenants. Skype for Business hybrid is not required of either tenant.
+    - If the Skype for Business account of the originator is homed on-premise, that user can't use the Teams client for in-tenant interoperability or for federation. That user can only use the Skype for Business client for interoperability and federation.
+    - Teams to Teams communication is always possible in-tenant.
 
 > [!NOTE]
-> Currently, all federation involving Teams leverages the Skype for Business federation pipeline as well as Teams – Skype for Business interoperability. We are planning native Teams – Teams federation. The present document will be updated upon release of native federation
+> Currently, all federation involving Teams leverages the Skype for Business federation pipeline as well as Teams – Skype for Business interoperability. We are planning native Teams – Teams federation. The present document will be updated upon release of native federation.
 
 # Chat and call routing
 
