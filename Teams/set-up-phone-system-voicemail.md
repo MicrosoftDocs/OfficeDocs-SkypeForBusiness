@@ -3,7 +3,7 @@ title: "Set up Phone System voicemail"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: wasseemh
+ms.reviewer: wasseemh, phans
 ms.topic: article
 ms.assetid: 9c590873-b014-4df3-9e27-1bb97322a79d
 ms.tgt.pltfrm: cloud
@@ -56,6 +56,8 @@ The following information is about configuring Phone System voicemail to work wi
 4. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
 
 5. You can also see [Azure PBX voicemail support for Exchange Server](https://support.microsoft.com/kb/3195158) to learn how to configure delivery of Azure voicemail messages for Phone System users who have a on-premises mailboxes.
+
+6. Please also read and follow the steps outlined in the following document: [Hybrid Configuration wizard](https://docs.microsoft.com/en-us/exchange/hybrid-configuration-wizard)
 
 ## Setting voicemail policies in your organization
 
