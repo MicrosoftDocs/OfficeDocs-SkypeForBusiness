@@ -57,6 +57,8 @@ The following information is about configuring Phone System voicemail to work wi
 
 5. You can also see [Azure PBX voicemail support for Exchange Server](https://support.microsoft.com/kb/3195158) to learn how to configure delivery of Azure voicemail messages for Phone System users who have a on-premises mailboxes.
 
+6. Please also read and follow the steps outlined in the following document: [Hybrid Configuration wizard](https://docs.microsoft.com/en-us/exchange/hybrid-configuration-wizard)
+
 ## Setting voicemail policies in your organization
 
 Voicemail transcription is enabled by default and transcription profanity masking is disabled by default for all organizations and users; however, you can control them by using the [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) and [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) cmdlets.
