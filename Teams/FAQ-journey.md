@@ -18,6 +18,14 @@ appliesto:
 
 # FAQ - Journey from Skype for Business to Microsoft Teams
 
+> [!Tip]
+> Watch the following session to learn about the Upgrade from Skype for Business to Microsoft Teams: 
+> - [Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)
+> - [Plan your upgrade](https://aka.ms/teams-upgrade-plan)
+> - [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Administrator experience](https://aka.ms/teams-upgrade-admin)
+
+
 ## Intelligent Communications vision
 
 ### What is Microsoft’s new vision for Intelligent Communications (aka Unified Communications vision)?
@@ -92,7 +100,7 @@ A successful upgrade will include validating technical readiness in addition to 
  
 ### My organization is already running Teams alongside Skype for Business. Can I just disable Skype for Business?
 
-No, you'll want to switch users to **Teams only** mode to complete their upgrade to Teams. If your organization is ready to transition to Teams, take time to communicate to users to let them know what’s happening and allow them some time to acclimate to Teams. This will help ensure they have a positive upgrade experience and help alleviate calls to your helpdesk. For sample communication templates, download our [Upgrade Success Kit](https://aka.ms/skypetoteams-UpgradeSuccessKit).
+No, you'll want to switch users to **Teams only** mode to complete their upgrade to Teams. If your organization is ready to transition to Teams, take time to communicate to users to let them know what’s happening and allow them some time to acclimate to Teams. This will help ensure they have a positive upgrade experience and help alleviate calls to your helpdesk. For sample communication templates, download our [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit).
  
 ### Who can I contact if I have questions about the upgrade process?
 

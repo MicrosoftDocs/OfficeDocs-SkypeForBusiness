@@ -58,7 +58,6 @@
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
 ### [Install Teams using MSI](msi-deployment.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
-## [Run Teams in a virtual environment](virtual-environment-teams.md)
 ## [Enable Teams in your organization](Office-365-set-up.md)
 ## [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)

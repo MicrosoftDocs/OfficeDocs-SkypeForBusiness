@@ -17,10 +17,15 @@ description: "This article summarizes the requirements for supporting Skype Room
 
 This article summarizes the requirements for supporting Skype Room Systems v2. 
 
-Your deployment will involve account creation as described in [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md) and setting up a meeting console as described in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). You may also need to refer to [Skype for Business add-on licensing](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
+Your deployment will involve account creation as described in [Deploy Skype Room Systems v2](../../deploy/deploy-clients/room-systems-v2.md) and setting up a meeting console as described in [Configure a Skype Room Systems v2 console](../../deploy/deploy-clients/console.md). 
+
+You may also need to refer to:
+
+- [Skype for Business add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+- [License options based on your plan: Skype Room Systems v2](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Skype Room Systems v2 is intended for use with Skype for Business Server 2019, Skype for Business Server 2015, Microsoft Teams, or Skype for Business Online. <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Skype Room Systems v2. 
+> Skype Room Systems v2 is intended for use with Skype for Business Server 2019, Skype for Business Server 2015, Microsoft Teams, or Skype for Business Online. <br><br>Earlier platforms like Lync Server 2013 aren't expected to work with Skype Room Systems v2.
 
 > [!NOTE]
 > If using an on-prem Exchange server, Skype Room Systems v2 requires the use of Exchange Server 2013 SP1 or later.
