@@ -25,11 +25,11 @@ In the Microsoft Teams & Skype for Business Admin Center:
 
 1. Select **Meetings** > **Meeting policies**.
 
-    ![Select Meeting policies](/media/configure-desktop-sharing-image1.png)
+    ![Select Meeting policies](media/configure-desktop-sharing-image1.png)
 
 2. On the **Meeting policies** page, select **New policy**.
 
-    ![Select New policy](/media/configure-desktop-sharing-image2.png)
+    ![Select New policy](media/configure-desktop-sharing-image2.png)
 
 3. Give your policy a unique title and enter a brief description.
 
@@ -39,7 +39,7 @@ In the Microsoft Teams & Skype for Business Admin Center:
    - **Single application** – lets users limit screen sharing to a single active application
    - **Disabled** – Turns off screen sharing.
 
-    ![Choose a screen sharing mode](/media/configure-desktop-sharing-image3.png)
+    ![Choose a screen sharing mode](media/configure-desktop-sharing-image3.png)
 
 5. Turn the following settings on or off:
 
