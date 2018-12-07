@@ -33,7 +33,7 @@ In the Microsoft Teams & Skype for Business Admin Center:
 
 3. Give your policy a unique title and enter a brief description.
 
-4. Under **Content sharing**, select a **Screen sharing mode** from the drop-down list:
+4. Under **Content sharing**, choose a **Screen sharing mode** from the drop-down list:
 
    - **Entire screen** – lets users share their entire desktop.
    - **Single application** – lets users limit screen sharing to a single active application
@@ -49,7 +49,7 @@ In the Microsoft Teams & Skype for Business Admin Center:
     - **Allow whiteboard** – lets users share a whiteboard.
     - **Allow shared notes** – lets users take shared notes.
 
-6. Select **Save**.
+6. Click **Save**.
 
 ## Use PowerShell to configure shared desktop
 
