@@ -81,7 +81,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Connect from a conference room | Available |
 | | Anonymous join | Available |
 | | Cloud recording | On the Government backlog |
-| | Meeting notes | Available |
+| | Meeting notes (wiki) | Available |
 | | Broadcast meetings (invite more than 80 people) | On the Government backlog |
 | | Federated meetings | Available |
 | | Surface Hub support (preview) | Available |
@@ -89,7 +89,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | History | Available |
 | | Voicemail | Available |
 | | VoIP call | Available |
-| | Skype for Business-Teams calling | Available |
+| | Skype for Business - Teams calling | Available |
 | | Calling Plans | Available |
 | | Audio conferencing (by allowing meeting participants to join via PSTN) | Available |
 | | Microsoft Phone System direct routing | Available |
@@ -99,7 +99,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Consultative and safe transfer | Available |
 | | Do not disturb breakthrough | Available |
 | | Distinctive ring | Available |
-| | 1:1 group call escalation with Teams, Skype for Business, and PSTN participants | Available |
+| | 1:1 to group call escalation with Teams, Skype for Business, and PSTN participants | Available |
 | | Forward to group | Available |
 | | Transfer to PSTN call | Available |
 | | Emergency calling - Calling Plans | Available |
@@ -107,7 +107,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | USB HID | Available |
 | | eDiscovery for both calls and meetings | Available |
 | | Organization auto attendant | Available |
-| | Skype consumer-Teams call support | Available |
+| | Skype consumer - Teams call support | Available |
 | Files | Recent | Available |
 | | Microsoft Teams | Available |
 | Search | Messages | Available |
