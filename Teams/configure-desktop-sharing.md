@@ -1,0 +1,67 @@
+---
+title: Configure desktop sharing in Microsoft Teams
+author: LolaJacobsen
+ms.author: Lolaj
+manager: serdars
+ms.reviewer: jastark
+ms.date: 12/07/2018
+ms.topic: article
+ms.service: msteams
+search.appverid: MET150
+description: Admins can configure a meeting policy to let users share their desktops in Teams chats or meetings
+ms.collection: Teams_ITAdmin_Help
+appliesto: 
+- Microsoft Teams
+---
+
+Configure desktop sharing in Microsoft Teams
+============================================
+
+Desktop sharing lets users present a screen or app during a meeting or chat. Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file. You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes. 
+
+To configure screen sharing, you create a new meetings policy, and then assign it to the users you want to manage.
+
+In the Microsoft Teams & Skype for Business Admin Center:
+
+1. Select **Meetings** > **Meeting policies**.
+
+    ![Select Meeting policies](/media/configure-desktop-sharing-image1.png)
+
+2. On the **Meeting policies** page, select **New policy**.
+
+    ![Select New policy](/media/configure-desktop-sharing-image2.png)
+
+3. Give your policy a unique title and enter a brief description.
+
+4. Under **Content sharing**, select a **Screen sharing mode** from the drop-down list:
+
+   - **Entire screen** – lets users share their entire desktop.
+   - **Single application** – lets users limit screen sharing to a single active application
+   - **Disabled** – Turns off screen sharing.
+
+    ![Choose a screen sharing mode](/media/configure-desktop-sharing-image3.png)
+
+5. Turn the following settings on or off:
+
+    - **Allow a participant to give or request control** – lets members of the team give or request control of the presenter’s desktop or application.
+    - **Allow an external participant to give or request control** – lets guests and external (federated) users give or request control of the presenter’s desktop or application.
+    - **Allow PowerPoint sharing** - lets users create meetings that allow the upload and sharing of PowerPoint presentations.
+    - **Allow whiteboard** – lets users share a whiteboard.
+    - **Allow shared notes** – lets users take shared notes.
+
+6. Select **Save**.
+
+## Use PowerShell to configure shared desktop
+
+You can also use the [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) cmdlet to control desktop sharing. Set the following parameters:
+
+- Description
+- ScreenSharingMode
+- AllowParticipantGiveRequestControl
+- AllowExternalParticipantGiveRequestControl
+- AllowPowerPointSharing
+- AllowWhiteboard
+- AllowSharedNotes
+
+[Learn more about using the csTeamsMeetingPolicy cmdlet](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+
