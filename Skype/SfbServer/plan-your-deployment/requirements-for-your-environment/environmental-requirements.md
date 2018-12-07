@@ -20,7 +20,7 @@ description: "Summary: Configure your non-server requirements for Skype for Busi
  
 **Summary:** Configure your non-server requirements for Skype for Business Server 2015. There are a variety of things you'll want configured before doing your deployment, including Active Directory, DNS, Certs and Fileshares.
   
-What is an environmental requirement for Skype for Business Server 2015? Well, we've put everything that's not directly server related into this topic, so you don't have to do as much clicking around. If you're looking for Server Prerequisites, you can check out the [Server requirements for Skype for Business Server 2015](server-requirements.md) doc.[Networking Planning](../../plan-your-deployment/network-requirements/network-requirements.md) is also documented separately. Otherwise, this is what we've got in this article:
+What is an environmental requirement for Skype for Business Server 2015? Well, we've put everything that's not directly server related into this topic, so you don't have to do as much clicking around. If you're looking for Server Prerequisites, you can check out the [Server requirements for Skype for Business Server 2015](server-requirements.md) doc. [Networking Planning](../../plan-your-deployment/network-requirements/network-requirements.md) is also documented separately. Otherwise, this is what we've got in this article:
   
 - [Active Directory](environmental-requirements.md#AD)
   
