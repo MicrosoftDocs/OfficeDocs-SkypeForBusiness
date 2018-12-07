@@ -140,11 +140,6 @@ items:
 
     - Show organizational chart in personal profile.
     - Use Skype for Business for recipients who don’t have Teams.
-    - Allow T-Bot proactive help messages.
-
-    [T-Bot](t-bot.md) is a great adoption resource for your users. It's a fundamental way we expect users to learn more about the product and highly recommend leaving it enabled. 
-
-    To turn on or turn off T-Bot, move the toggle to **Off** or **On**, then select **Save**.
 
     ![Screenshot of the settings in the General section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
 

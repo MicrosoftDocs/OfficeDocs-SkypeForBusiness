@@ -58,7 +58,6 @@
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
 ### [Install Teams using MSI](msi-deployment.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
-## [Run Teams in a virtual environment](virtual-environment-teams.md)
 ## [Enable Teams in your organization](Office-365-set-up.md)
 ## [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)
@@ -247,7 +246,6 @@
 ### [Add bots for private chats and channels in Teams](add-bots.md)
 ### [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
 ### [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
-### [Use T-Bot to help users with Teams](t-bot.md)
 ### [Use activity reports for Teams](teams-activity-reports.md)
 ### [Use inline message translation in Teams](inline-message-translation-teams.md)
 
