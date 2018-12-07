@@ -19,7 +19,7 @@ Configure desktop sharing in Microsoft Teams
 
 Desktop sharing lets users present a screen or app during a meeting or chat. Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file. You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes. You can also configure whether anonymous or external users can request control of the shared screen.
 
-To configure screen sharing, you create a new meetings policy, and then assign it to the users you want to manage.
+To configure screen sharing, you create a new meetings policy and then assign it to the users you want to manage.
 
 In the Microsoft Teams & Skype for Business Admin Center:
 
@@ -36,7 +36,7 @@ In the Microsoft Teams & Skype for Business Admin Center:
 4. Under **Content sharing**, choose a **Screen sharing mode** from the drop-down list:
 
    - **Entire screen** – lets users share their entire desktop.
-   - **Single application** – lets users limit screen sharing to a single active application
+   - **Single application** – lets users limit screen sharing to a single active application.
    - **Disabled** – Turns off screen sharing.
 
     ![Choose a screen sharing mode](media/configure-desktop-sharing-image3.png)
