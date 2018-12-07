@@ -145,8 +145,10 @@ There are currently no options available for IT administrators to configure clie
 
 Sample PowerShell Script
 ----------------------------
-To automate creation of firewall rule to avoid Windows Firewall prompt when users initiate their first call in Microsoft Teams, administrators can run the following script on client computers in the context of an administrator. 
 
+This sample script, which needs to run on client computers in the context of an elevated administrator account, will create a new inbound firewall rule for each user folder found in c:\users. When Teams finds this rule, it will prevent the Teams application from prompting users to create firewall rules when the users make their first call from Teams. 
+
+```
 $users = Get-Childitem c:\users
 foreach ($user in $users) 
 {
@@ -160,4 +162,16 @@ foreach ($user in $users)
 		}
 	}
 }
+<#
+        .ABOUT THIS SCRIPT
+        (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
 
+        Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions. 
+
+        The script will create a new inbound firewall rule for each user folder found in c:\users. 
+
+        Requires PowerShell 3.0
+        
+#>
+
+```
