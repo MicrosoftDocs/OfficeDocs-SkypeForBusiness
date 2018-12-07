@@ -8,7 +8,7 @@ ms.date: 12/07/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Admins can configure a meeting policy to let users share their desktops in Teams chats or meetings
+description: Configure a meeting policy to let users share their desktops in Teams chats or meetings
 ms.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
@@ -17,7 +17,7 @@ appliesto:
 Configure desktop sharing in Microsoft Teams
 ============================================
 
-Desktop sharing lets users present a screen or app during a meeting or chat. Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file. You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes. 
+Desktop sharing lets users present a screen or app during a meeting or chat. Admins can configure screen sharing in Microsoft Teams to let users share an entire screen, an app, or a file. You can let users give or request control, allow PowerPoint sharing, add a whiteboard, and allow shared notes. You can also configure whether anonymous or external users can request control of the shared screen.
 
 To configure screen sharing, you create a new meetings policy, and then assign it to the users you want to manage.
 
@@ -45,7 +45,7 @@ In the Microsoft Teams & Skype for Business Admin Center:
 
     - **Allow a participant to give or request control** – lets members of the team give or request control of the presenter’s desktop or application.
     - **Allow an external participant to give or request control** – lets guests and external (federated) users give or request control of the presenter’s desktop or application.
-    - **Allow PowerPoint sharing** - lets users create meetings that allow the upload and sharing of PowerPoint presentations.
+    - **Allow PowerPoint sharing** - lets users create meetings that allow PowerPoint presentations to be uploaded and shared.
     - **Allow whiteboard** – lets users share a whiteboard.
     - **Allow shared notes** – lets users take shared notes.
 
