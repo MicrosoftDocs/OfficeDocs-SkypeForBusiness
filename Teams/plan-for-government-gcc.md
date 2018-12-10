@@ -69,7 +69,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | Teams | Channel message | Available |
 | | Channel files | Available |
 | | OneNote tab | On the Government backlog |
-| | Tab gallery | On the Government backlog |
+| | App Store | On the Government backlog |
 | | Email a channel | Not available |
 | | Add member | Available |
 | | Guest access | Available |
