@@ -35,7 +35,7 @@ The service plans included in this offer are:
 - Sway
 - Yammer Enterprise
 
-The trial grants a one-year trial subscription to your entire organization. Theis trial makes 500,000 licenses available for assignment. For each license assigned, the trial allocates 2 GB of SharePoint Online storage. 
+The trial grants a one-year trial subscription to your entire organization. The trial makes 500,000 licenses available for assignment. For each license assigned, the trial allocates 2 GB of SharePoint Online storage. 
 
 ## Who is eligible
 
@@ -55,11 +55,11 @@ If your organization is ineligible for the Microsoft Teams Commercial Cloud Tria
 
 ## How users sign up for the trial
 
-Eligible users can sign up for the trial offer by logging into Teams ([teams.microsoft.com](https://teams.microsoft.com)). If eligible, they will see the following screen to start the trial. 
+Eligible users can sign up for the trial offer by logging into Teams ([teams.microsoft.com](https://teams.microsoft.com)). They will see the following screen to start the trial. 
 
 ![Screenshot of the start page for the Teams IW trial.](media/iw-trial-start-screen.png)
 
-All trials within your organization share the same start and end dates, which is the date that first user signed up for the trial. For example, if user A starts the first trial on January 25, 2019 and user B starts a trial on June 3, 2019, both users' trial will expire on January 25, 2020.
+All trials within your organization share the same start and end dates, which is the date the first user signed up for the trial. For example, if user A starts the first trial on January 25, 2019 and user B starts a trial on June 3, 2019, both users' trial will expire on January 25, 2020.
 
 ## <a name="manage-the-trial"></a>Manage the trial
 
@@ -114,7 +114,7 @@ To turn off the trial license:
 
 ### Manage Teams for users who have the trial license
 
-You can manage users who have a trial license just like you manage users who have a regular paid license. For more information, see [Manage user access to Microsoft Teams](user-access.md).
+You can manage users who have a trial license just like you manage users who have a regular paid license. For more information, see [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md).
 
 ### Upgrade users from the trial license
 
