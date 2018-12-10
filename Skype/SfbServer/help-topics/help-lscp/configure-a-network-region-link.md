@@ -15,10 +15,10 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Configure a Network Region Link
- 
+
 What do you want to do? Click the link to the task that you want to perform.
-  
-- [Configuring Network Region Links](http://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
-    
+
+- [Configuring Network Region Links](https://technet.microsoft.com/library/952bc93e-e6aa-4539-85c7-2b15f14eb382.aspx)
+
 For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
 

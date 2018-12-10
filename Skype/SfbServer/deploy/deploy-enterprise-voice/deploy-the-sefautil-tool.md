@@ -6,7 +6,7 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -42,6 +42,10 @@ SEFAUtil requires the local configuration store to be present, as well as a cert
    ```
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
+    > [!NOTE]
+    > Pool FQDN: The FQDN of the server or pool that will host the SEFAUtil application (usually a Skype for Business Front End server or pool).
+    > Pool Registrar FQDN: The FQDN of the Skype for Business Front End server or pool associated with this application pool.
+    > Pool Site: The Site ID of the site on which this pool is homed.
 
 4. Define the SEFAUtil tool as a trusted application. At the command line, run:
     
@@ -54,9 +58,9 @@ SEFAUtil requires the local configuration store to be present, as well as a cert
   
 5. Enable the topology with your changes. At the command line, run:
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
 6. If you haven't already, download the Skype for Business Server version of the SEFAUtil tool from [this location](https://www.microsoft.com/en-us/download/details.aspx?id=52631), and install it on the trusted application pool you created in step 3.
     
@@ -66,9 +70,9 @@ SEFAUtil requires the local configuration store to be present, as well as a cert
     
     b. Display the call forwarding settings of a user. At the command line, run:
     
-  ```
-  SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
-  ```
+   ```
+   SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
+   ```
 
 The call forwarding settings for the user will be displayed.
     

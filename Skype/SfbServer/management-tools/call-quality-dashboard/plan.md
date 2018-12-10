@@ -1,9 +1,8 @@
 ---
-title: "Plan for Call Quality Dashboard for Skype for Business Server 2015"
+title: "Plan for Call Quality Dashboard for Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 4/27/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -13,13 +12,13 @@ ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: "Summary: Learn about what to consider when you plan for the Call Quality Dashboard."
 ---
 
-# Plan for Call Quality Dashboard for Skype for Business Server 2015
+# Plan for Call Quality Dashboard for Skype for Business Server 
  
 **Summary:** Learn about what to consider when you plan for the Call Quality Dashboard.
   
-## Overview of the Skype for Business Server 2015 Call Quality Dashboard
+## Overview of the Skype for Business Server Call Quality Dashboard
 
-The Skype for Business Server 2015 Call Quality Dashboard (CQD) is a reporting layer on top of the Quality of Experience Database in the Monitoring Server in Skype for Business Server 2015 and Lync Server 2013. CQD uses Microsoft SQL Server Analysis Services to provide aggregate usage and call quality information as well as for filtering and pivoting on the dataset. CQD features include:
+The Skype for Business Server Call Quality Dashboard (CQD) is a reporting layer on top of the Quality of Experience Database in the Monitoring Server in Skype for Business Server. CQD uses Microsoft SQL Server Analysis Services to provide aggregate usage and call quality information as well as for filtering and pivoting on the dataset. CQD features include:
   
 - **Archival storage of QoE data via the QoE Archive component of CQD.** The QoE Archive component can store QoE data for a much longer duration than the Monitoring Server can. This allows for trending and reporting for up to seven months of data at a time, with the ability to slide the reporting window as far back as there is data.
     
@@ -77,7 +76,7 @@ The CQD data can be viewed via the CQD Portal and accessed via REST API calls.
   
 ### CQD Portal
 
-The Portal is the fastest way to view the data in the Cube. The Portal comes with several built-in reports that are usable right away. The built-in reports are linked in a structured manner to guide the user to successively smaller and smaller slices of the call data. The built-in reports also highlight the various different ways the data can be shown by demonstrating a combination of charts and tables with different pivots, filters, and measures. Each user that accesses the Portal can have his or her own set of reports that he/she can modify and share. For more information on the usage of the CQD Web Portal, see [Use Call Quality Dashboard for Skype for Business Server 2015](use.md).
+The Portal is the fastest way to view the data in the Cube. The Portal comes with several built-in reports that are usable right away. The built-in reports are linked in a structured manner to guide the user to successively smaller and smaller slices of the call data. The built-in reports also highlight the various different ways the data can be shown by demonstrating a combination of charts and tables with different pivots, filters, and measures. Each user that accesses the Portal can have his or her own set of reports that he/she can modify and share. For more information on the usage of the CQD Web Portal, see [Use Call Quality Dashboard for Skype for Business Server](use.md).
   
 Supported Operating Systems for CQD Portal: Windows 8.1, Windows 8, Windows Server 2012 R2, and Windows Server 2012.
   
@@ -85,7 +84,7 @@ Supported Browsers for CQD Portal: Internet Explorer 11, Internet Explorer 10, a
   
 ### REST APIs
 
-The Cube data can also be accessed via REST API calls. The data retrieved via the REST API calls can be rendered via HTML pages. Users can take advantage of the query speed and the high level schema of CQD while still creating custom reports suited for their business needs. For more information on the API and samples, see [Develop Call Quality Dashboard for Skype for Business Server 2015](develop.md). 
+The Cube data can also be accessed via REST API calls. The data retrieved via the REST API calls can be rendered via HTML pages. Users can take advantage of the query speed and the high level schema of CQD while still creating custom reports suited for their business needs. For more information on the API and samples, see [Develop Call Quality Dashboard for Skype for Business Server](develop.md). 
   
 ## Defining Your organization's requirements for CQD
 
@@ -128,7 +127,7 @@ CQD comes with several components, and it helps to understand the requirements o
 
 All CQD components and dependent components can be installed onto one machine. The single box configuration is the simplest configuration and allows CQD to be self-contained. CQD would just need access to the QoE Metrics database on the Monitoring Server. The CQD Server can be a standalone machine, a virtual machine, or it can even be the Monitoring Server, depending on the available resources of the host machine and the performance requirements. 
   
-During installation, the user performing the installation simply needs to provide the Microsoft SQL Server and Microsoft SQL Server Analysis Services instances that have been previously set up on the machine where the CQD is to be installed. Please refer to [Deploy Call Quality Dashboard for Skype for Business Server 2015](deploy-0.md) for more information.
+During installation, the user performing the installation simply needs to provide the Microsoft SQL Server and Microsoft SQL Server Analysis Services instances that have been previously set up on the machine where the CQD is to be installed. Please refer to [Deploy Call Quality Dashboard for Skype for Business Server](deploy-0.md) for more information.
   
 ### Multiserver configuration
 
@@ -138,7 +137,7 @@ In a multiserver configuration, The QoE Archive, Cube, and Portal can all be on 
     
 - Hosting a "development" Portal separate from the "production" Portal. 
     
- **Hosting CQD Web Portal and CQD Cube on different machines.** Organizations that might have requirements to separate the CQD Portal from the SQL Server installation or that might want to mix and match SQL Server editions for the SQL Server instance and SQL Server Analysis Services instance can choose to install the CQD Portal and CQD Cube on different machines. The QoE Archive component can also be the sole CQD component that is installed if the organization simply wants to have a sustainable method to archive the QoE data without reaching performance limits on the Monitoring Server.
+  **Hosting CQD Web Portal and CQD Cube on different machines.** Organizations that might have requirements to separate the CQD Portal from the SQL Server installation or that might want to mix and match SQL Server editions for the SQL Server instance and SQL Server Analysis Services instance can choose to install the CQD Portal and CQD Cube on different machines. The QoE Archive component can also be the sole CQD component that is installed if the organization simply wants to have a sustainable method to archive the QoE data without reaching performance limits on the Monitoring Server.
   
 ![Single Server CQD](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
@@ -168,9 +167,9 @@ Data processing in CQD is separated into two main stages:
     
 - CQD Cube processing
     
- **QoE Archive processing.** The QoE Archive processing task copies data from the QoE Metrics database on the Monitoring Server to the QoE Archive database. There are two situations where the processing time of the task would have fundamentally different performance characteristics. The first is after the initial installation of CQD. When the task is run for the first time after a fresh installation, the QoE Archive processing task will copy all the data that is in the QoE Metrics database into QoE Archive database. The second is the periodic processing after this initial round. The QoE Archive processing task will run every 15 minutes and process any new QoE records that are in the QoE Metrics database. Generally, the initial processing time is not a concern because it is run only the first time, when CQD is installed. However, if the CQD server is severely under-provisioned, this task can take several hours. Refer to the table below for example initial QoE Archive processing times.
+  **QoE Archive processing.** The QoE Archive processing task copies data from the QoE Metrics database on the Monitoring Server to the QoE Archive database. There are two situations where the processing time of the task would have fundamentally different performance characteristics. The first is after the initial installation of CQD. When the task is run for the first time after a fresh installation, the QoE Archive processing task will copy all the data that is in the QoE Metrics database into QoE Archive database. The second is the periodic processing after this initial round. The QoE Archive processing task will run every 15 minutes and process any new QoE records that are in the QoE Metrics database. Generally, the initial processing time is not a concern because it is run only the first time, when CQD is installed. However, if the CQD server is severely under-provisioned, this task can take several hours. Refer to the table below for example initial QoE Archive processing times.
   
- **CQD Cube processing.** The Cube processing task aggregates the data from the QoE Archive database into the Cube. The initial cube processing time and subsequent cube processing time are determined by the SQL Server Analysis Services edition used for the CQD Cube. If the Standard edition is used, there is no difference between the initial cube processing time and the subsequent cube processing time because each time the Cube data is refreshed, it will always be a full processing of all available data. (This means that the Cube processing time increases as the amount of data in the QoE Archive database increases.) Because the Business Intelligence Edition and Enterprise Edition of SQL Server have partition support, if either edition is used, only the initial run will process all data in the QoE Archive database. In subsequent runs, when the task is triggered every 15 minutes, the task will only process the new records added to the QoE Archive database since the last time the task was run. Once a day, there will also be a full processing on the partition that contains the current month's data.
+  **CQD Cube processing.** The Cube processing task aggregates the data from the QoE Archive database into the Cube. The initial cube processing time and subsequent cube processing time are determined by the SQL Server Analysis Services edition used for the CQD Cube. If the Standard edition is used, there is no difference between the initial cube processing time and the subsequent cube processing time because each time the Cube data is refreshed, it will always be a full processing of all available data. (This means that the Cube processing time increases as the amount of data in the QoE Archive database increases.) Because the Business Intelligence Edition and Enterprise Edition of SQL Server have partition support, if either edition is used, only the initial run will process all data in the QoE Archive database. In subsequent runs, when the task is triggered every 15 minutes, the task will only process the new records added to the QoE Archive database since the last time the task was run. Once a day, there will also be a full processing on the partition that contains the current month's data.
   
 The physical machine characteristics can affect CQD performance as well as the software features that are available from the SQL Server components. The QoE Archive component will be more disk-intensive compared to other components, whereas the Cube component will be more CPU and memory intensive. All of these factors contribute to CQD's total data processing time, which directly affects data freshness and availability. Organizations should make decisions on the hardware and software based on the individual needs of the organization. 
   
@@ -233,6 +232,8 @@ The following operating systems are required for CQD:
 - Windows Server 2012 with IIS 8.0
     
 - Windows Server 2012 R2 with IIS 8.5
+
+- Windows Server 2016 with IIS
     
 The following are the required IIS role services (in hierarchical order):
   
@@ -284,6 +285,8 @@ The following versions of SQL Server are supported:
 - SQL Server 2012
     
 - SQL Server 2014
+
+- SQL Server 2016
     
 Business Intelligence or Enterprise edition is recommended for performance reasons. These editions allow use of multiple partition files that can be processed in parallel, which is beneficial for processing data spanning multiple months or longer. 
   

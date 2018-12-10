@@ -6,7 +6,7 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -52,8 +52,8 @@ Use one of the following procedures to create or modify a queue.
     
    - To change the order in which agents are searched, in the list of agent groups, click a group, and then click the up arrow or down arrow.
     
-    > [!NOTE]
-    > When the server searches for an available agent for the queue, it uses group order. That is, the first group in the list is searched first, followed by the second group in the list, and so on. 
+     > [!NOTE]
+     > When the server searches for an available agent for the queue, it uses group order. That is, the first group in the list is searched first, followed by the second group in the list, and so on. 
   
 8. To specify a maximum period of time for a caller to wait on hold before an agent answers the call, select the **Enable queue time-out** check box, and then do the following:
     
@@ -61,15 +61,15 @@ Use one of the following procedures to create or modify a queue.
     
     b. In **Call Action**, select the action that occurs when a call times out as follows:
     
-     - To disconnect the call after the timeout, click **Disconnect**.
+   - To disconnect the call after the timeout, click **Disconnect**.
     
-     - To forward the call to voice mail, click **Forward to voice mail**, and then in the **SIP address** field, type a voice mail address in the format sip: _\<username\>_@ _\<domainname\>_ (for example, sip:bob@contoso.com).
+   - To forward the call to voice mail, click **Forward to voice mail**, and then in the **SIP address** field, type a voice mail address in the format sip: *\<username\>*@ *\<domainname\>* (for example, sip:bob@contoso.com).
     
-     - To forward the call to another telephone number, click **Forward to telephone number**, and then in the **SIP address** field, type the telephone number in the format sip: _\<number\>_@ _\<domainname\>_ (for example, sip:+14255550121@contoso.com).
+   - To forward the call to another telephone number, click **Forward to telephone number**, and then in the **SIP address** field, type the telephone number in the format sip: *\<number\>*@ *\<domainname\>* (for example, sip:+14255550121@contoso.com).
     
-     - To forward the call to another user, click **Forward to SIP address**, and then in the **SIP address** field, type the URI for the user in the format sip: _\<username\>_@ _\<domainname\>_.
+   - To forward the call to another user, click **Forward to SIP address**, and then in the **SIP address** field, type the URI for the user in the format sip: _\<username\>_@ _\<domainname\>_.
     
-     - To forward the call to another queue, click **Forward to another queue**, and then browse to the queue that you want to use.
+   - To forward the call to another queue, click **Forward to another queue**, and then browse to the queue that you want to use.
     
 9. To specify a maximum number of calls that the queue can hold, select the **Enable queue overflow** check box, and then do the following:
     
@@ -79,15 +79,15 @@ Use one of the following procedures to create or modify a queue.
     
     c. In **Call action**, select the action that occurs when the overflow threshold is met as follows:
     
-     - To disconnect the call after the timeout, click **Disconnect**.
+   - To disconnect the call after the timeout, click **Disconnect**.
     
-     - To forward the call to voice mail, click **Forward to voice mail**, and then in the **SIP address** field, type a voice mail address in the format sip: _\<username\>_@ _\<domainname\>_ (for example, sip:bob@contoso.com).
+   - To forward the call to voice mail, click **Forward to voice mail**, and then in the **SIP address** field, type a voice mail address in the format sip: *\<username\>*@ *\<domainname\>* (for example, sip:bob@contoso.com).
     
-     - To forward the call to another telephone number, click **Forward to telephone number**, and then in the **SIP address** field, type the telephone number in the format sip: _\<number\>_@ _\<domainname\>_ (for example, sip:+14255550121@contoso.com).
+   - To forward the call to another telephone number, click **Forward to telephone number**, and then in the **SIP address** field, type the telephone number in the format sip: *\<number\>*@ *\<domainname\>* (for example, sip:+14255550121@contoso.com).
     
-     - To forward the call to another user, click **Forward to SIP address**, and then in the **SIP address** field, type the URI for the user in the format sip: _\<username\>_@ _\<domainname\>_.
+   - To forward the call to another user, click **Forward to SIP address**, and then in the **SIP address** field, type the URI for the user in the format sip: _\<username\>_@ _\<domainname\>_.
     
-     - To forward the call to another queue, click **Forward to another queue**, and then browse to the queue that you want to use.
+   - To forward the call to another queue, click **Forward to another queue**, and then browse to the queue that you want to use.
     
 10. Click **Commit**.
     
@@ -132,24 +132,24 @@ Use one of the following procedures to create or modify a queue.
 
 5. Create the prompt to be played when the queue overflow threshold is met, and save it in a variable. At the command line, run:
     
-  ```
-  $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
-  ```
+   ```
+   $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
+   ```
 
    For example:
     
-  ```
-  $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
-  ```
+   ```
+   $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
+   ```
 
       > [!NOTE]
       > To use an audio file for the prompt, use the **Import-CsRgsAudioFile** cmdlet. For details, see [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Define the action to be taken when the queue overflow threshold is met, and save it in a variable. At the command line, run:
     
-  ```
-  $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
-  ```
+   ```
+   $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
+   ```
 
     > [!NOTE]
     > For details about possible actions and their syntax, see [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
@@ -189,9 +189,9 @@ Use one of the following procedures to create or modify a queue.
 
 10. Confirm that the queue is created. Run:
     
-   ```
-   Get-CsRgsQueue -Name "Help Desk"
-   ```
+    ```
+    Get-CsRgsQueue -Name "Help Desk"
+    ```
 
 ## See also
 

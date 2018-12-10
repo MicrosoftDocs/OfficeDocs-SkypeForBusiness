@@ -25,9 +25,9 @@ As final verification of your dial-in conferencing configuration, you can search
     
 3. Run the following at the command prompt:
     
-  ```
-  Get-CsDialinConferencingAccessNumber -EmptyRegion
-  ```
+   ```
+   Get-CsDialinConferencingAccessNumber -EmptyRegion
+   ```
 
     This cmdlet returns all of the dial plans that have a dial-in conferencing region that is not used by an access number.
     
@@ -41,9 +41,9 @@ For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.mi
     
 3. Run the following at the command prompt:
     
-  ```
-  Get-CsDialinConferencingAccessNumber -Region NULL
-  ```
+   ```
+   Get-CsDialinConferencingAccessNumber -Region NULL
+   ```
 
     This cmdlet returns all the dial-in conferencing access numbers that are not associated with a region.
     
@@ -65,12 +65,12 @@ To verify that the Dial-in Conferencing Settings webpage and the dial-in access 
     
 3. Run the following at the command prompt:
     
-  ```
-  $credentials = Get-Credential
+   ```
+   $credentials = Get-Credential
    User name:  testuser1@contoso.com
    Password:  ********
-Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
-  ```
+   Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
+   ```
 
     The resulting report shows either Success or Failure, along with specific diagnostic information. The -Verbose flag provides more detailed information about how many access numbers were found and details about them.
     

@@ -3,7 +3,7 @@ title: "Qualified Lync applications"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -11,7 +11,7 @@ ms.collection: Lync
 ms.audience: Admin
 appliesto:
 - Lync
-- Skype for Business 
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -31,7 +31,7 @@ These applications take advantage of the Lync platform to fulfill a variety of b
 
 [C4B](http://c4b.de)
 
-**XPhone from C4B** seamlessly integrates into your Lync infrastructure and provides additional UC features. Enrich your Microsoft Lync experience by integrating all company contacts regardless of whether stored in your Groupware, CRM or ERP-System. XPhone allows you to effortlessly connect numerous databases (for example, ODBC, LDAP, CSV, etc.), applications (such as Outlook, Notes, Microsoft Dynamics CRM/NAV/AX, SAP, Salesforce, and so on) and cloud services (that is, online directory services), granting you real-time access via your Lync client without replicating the original data source. 
+**XPhone from C4B** seamlessly integrates into your Lync infrastructure and provides additional UC features. Enrich your Microsoft Lync experience by integrating all company contacts regardless of whether stored in your Groupware, CRM or ERP-System. XPhone allows you to effortlessly connect numerous databases (for example, ODBC, LDAP, CSV, etc.), applications (such as Outlook, Notes, Microsoft Dynamics CRM/NAV/AX, SAP, Salesforce, and so on) and cloud services (that is, online directory services), granting you real-time access via your Lync client without replicating the original data source.
 
 Free-text search and enhanced search parameters paired with database prioritisation assure high search accuracy. Next to transforming your windows and mobile Lync client into a powerful contact search engine, users benefit from enhanced caller identification based on integrated data sources. Server-sided deployment and administration allow for a swift roll-out without modifications to the Lync client or its operating concept. The rights management can be easily derived from your Active Directory structure or security groups.
 
@@ -43,7 +43,7 @@ Free-text search and enhanced search parameters paired with database prioritisat
 
 [Tango Networks](http://tango-networks.com)
 
-***Tango Networks*** Enterprise Connect solution enables any mobile phone to become an extension of Lync without requiring a software app or client to be installed on the phone. Calls made to or from a mobile appear as Lync mobile calls with the corporate caller ID and can share mobile presence and location information. Extending the Lync features to any mobile phone without requiring any app or client can raise employee productivity and customer satisfaction. 
+***Tango Networks*** Enterprise Connect solution enables any mobile phone to become an extension of Lync without requiring a software app or client to be installed on the phone. Calls made to or from a mobile appear as Lync mobile calls with the corporate caller ID and can share mobile presence and location information. Extending the Lync features to any mobile phone without requiring any app or client can raise employee productivity and customer satisfaction.
 
 Enterprise Connect also offers the following capabilities:
 - Business/personal Identity: Allows the people to switch between identities, supporting BYOD implementations.
@@ -53,7 +53,7 @@ Enterprise Connect also offers the following capabilities:
 
 * * *
 ### Related resources
-[Microsoft Lync](http://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
+[Microsoft Lync](https://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
 
 Microsoft Premier Support for Lync Partners on:
 - [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)

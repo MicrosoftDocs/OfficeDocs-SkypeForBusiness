@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 8c563b81-22c9-4024-9efe-9fe28c7bbc96
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -130,7 +131,7 @@ For more information about how updates work for Office 365 software, see these a
     
 - [Configure update settings for Office 365 ProPlus](https://technet.microsoft.com/en-us/library/dn761708.aspx)
     
- **How often to get feature updates**
+  **How often to get feature updates**
   
 In addition to where you get updates from, you can also control how often you get new features for the Skype for Business client. The two choices are the following:
   

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: cbafd5c3-e499-497b-a0cb-b0940d7afd20
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -24,15 +25,15 @@ description: "This is content that must be published to meet requirements for ac
 # Accessibility Declaration of Conformance for Skype for Business Online in France
 
 > **Date: 2 octobre 2016**
-    
+> 
 > **Nom du produit: Skype Entreprise 2016**
-    
+> 
 > **Description du produit: Produit de communication destiné aux entreprises.**
-    
+> 
 > **Plate-forme: Win32**
-    
+> 
 > **Version du produit: 16.0.7766.2071**
-
+> 
 > Pour obtenir de l’aide concernant le présent rapport ou un autre produit, contactez-nous par e-mail.
     
 ## Section 1: Champ d'application
@@ -65,13 +66,13 @@ Définitions et abréviations: [EN 301 549 ](http://mandate376.standards.eu/stan
   
 [4.2.7 Utilisation avec manipulation ou force limitée ](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=42&amp;functional_statements_submitted=true)
   
-[4.2.8 Utilisation avec une portée limitée(http://mandate376.standards.eu/standard/technical-requirements?functional_statements=44&amp;functional_statements_submitted=true)
+[4.2.8 Utilisation avec une portée limitée(<http://mandate376.standards.eu/standard/technical-requirements?functional_statements=44&amp;functional_statements_submitted=true>)
   
 [4.2.9 Minimiser les déclencheurs de crises photosensibles](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=46&amp;functional_statements_submitted=true)
   
 [4.2.10 Utilisation avec cognition limitée](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=48&amp;functional_statements_submitted=true)
   
-[4.2.11 ]()[Respect de la vie privée](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
+[4.2.11 Respect de la vie privée](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf)
   
 ## Section 5: Exigences génériques
 

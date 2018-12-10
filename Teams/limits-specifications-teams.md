@@ -3,13 +3,14 @@ title: Limits and specifications for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/17/2018
+ms.date: 10/05/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: 
+ms.reviewer: karuanag
 description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
+search.appverid: MET150
 appliesto: 
 - Microsoft Teams
 ---
@@ -24,11 +25,14 @@ Teams and channels
 
 |Feature    | Maximum limit |
 |-----------|---------------|
-|Number of teams a user can create | 250         |
+|Number of teams a user can create | Subject to a 250 object limit&sup1;         |
 |Number of members in a team | 2,500       |
-|Number of teams a global admin can create        | Unlimited   |
+|Number of members in an [org-wide team](create-an-org-wide-team.md) | 2,500       |
+|Number of teams a global admin can create        | 500,000   |
 |Number of teams an Office 365 tenant can have    | 500,000     |
 |Number of channels per team    | 200         |
+
+&sup1;Any directory object in Azure Active Directory counts towards this limit.
 
 Meetings and calls 
 ------------------
@@ -51,13 +55,13 @@ Because Teams runs on a SharePoint Online backend for file sharing, SharePoint l
 
 |Feature                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
-|Storage                 |1 TB per organization plus 2 GB per license purchased  |1 TB per organization plus 2 GB per license purchased  |1 TB per organization plus 2 GB per license purchased   |1 TB per organization plus 2 GB per license purchased |1 TB per organization plus 2 GB per license purchased  |1 TB per organization           |
+|Storage                 |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased  |1 TB per organization plus 10 GB per license purchased   |1 TB per organization plus 10 GB per license purchased |1 TB per organization plus 10 GB per license purchased  |1 TB per organization           |
 |Storage for Teams Files |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |Up to 25 TB per site collection or group |
 |File upload limit       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
 Each Files tab in Teams runs on a SharePoint Online backend, so the storage limits above apply to each Channel within a Team.
 
-For more information, see [SharePoint Online limits](https://support.office.com/en-us/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+For more information, see [SharePoint Online limits](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
 Messaging
 ---------

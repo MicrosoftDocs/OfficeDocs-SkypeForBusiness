@@ -6,8 +6,13 @@ manager: serdars
 ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: msteams
-ms.collection: Adm_Skype4B_Online
+ms.service: 
+- msteams
+- skype-for-business-online
+ms.collection: 
+- Adm_Skype4B_Online 
+- Teams_ITAdmin_Help
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -15,7 +20,7 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
-- me.teamsadmincenter.policies.naming.error
+- ms.teamsadmincenter.policies.naming.error
 description: "See what issues there are with special characters in the names of policies and what you can do to fix it."
 ---
 
@@ -34,7 +39,7 @@ If you have a policy with special characters, you will need to either edit the p
 
 
 **Step 1 - Make a remote connection with PowerShell.**
-[Set up your computer for Windows PowerShell](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) if you haven't yet.
+[Set up your computer for Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) if you haven't yet.
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
@@ -66,7 +71,7 @@ Running this will create a new policy for you but you will need to add the corre
  ```
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-See, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.
+See, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.
 
 **Step 5 - Delete the old policy.**
 
@@ -74,7 +79,7 @@ This will delete the old policy with the special characters.
   ```
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-See, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.
+See, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) for more information on this cmdlet.
 
 If this command succeeds, you're done. If the above command returns an error, it is because the old policy is assigned to users so you need to run to remove all assigned users from the policy:
 

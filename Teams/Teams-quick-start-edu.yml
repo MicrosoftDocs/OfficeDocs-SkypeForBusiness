@@ -8,11 +8,15 @@ metadata:
   displayType: one-column
   ms.author: chucked
   manager: serdars
-  ms.reviewer: 
+  ms.date: 08/30/2018
+  ms.reviewer: ninadara
   ms.service: msteams
   ms.topic: tutorial
-  localization_priority: Priority
-  ms.collection: Strat_MT_TeamsAdmin
+  localization_priority: Normal
+  search.appverid: MET150
+  ms.collection:
+  - Teams_ITAdmin_Help
+  - Teams_ITAdmin_Training
   ms.custom:
   - NewAdminCenter_Update
   appliesto: 
@@ -21,53 +25,34 @@ items:
 - durationInMinutes: 2
   content: |
     
-    Microsoft Teams lets you create collaborative classrooms, connect in professional learning communities, and communicate with school staff and students all from a single experience in Office 365 Education.
+    [Microsoft Teams](https://support.office.com/article/Video-What-is-Microsoft-Teams-b98d533f-118e-4bae-bf44-3df2470c2b12) is a digital hub that brings conversations, meetings, files, and apps together in one place. Because it’s built on Office 365, schools benefit from integration with their familiar Office apps and services. It delivers enterprise-grade security and compliance that is extensible and customizable to fit the needs of every school.
 
+    With Microsoft Teams, your school or institution can create collaborative classrooms, connect in professional learning communities, or communicate with school staff – all from a single experience in Office 365 for Education.
  
-    This guide is for IT admins in education who haven't yet deployed Teams. It will help you understand: 
-    - How to enable Teams for your school
-    - What kind of controls are available to manage Teams within your school
-    - Partner services through references to external documentation 
+    This guide is for IT admins in education, including those who haven't yet deployed Teams. This guide will help you get started with: 
+    - Enabling Teams for your school
+    - Learning what kind of controls are available to manage Teams within your school
+    - Finding partner services through references to external documentation 
 
-    The guide is designed to get you started quickly with configuration recommendations specific to Teams in schools. It's not a one-size-fits-all solution, but it should be a good starting point. Check out our comprehensive Teams documentation, starting with [Overview of Teams](Teams-overview.md). 
+    This guide is designed to get you started quickly with configuration recommendations specific to Teams in schools. It's not a one-size-fits-all solution, but it is a good starting point. 
 
     If you've already deployed Teams (as a pilot or full deployment) and are looking for pointers on how to use Teams, see [Microsoft Teams for Education](https://support.office.com/article/Microsoft-Teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
   
     ## Before you begin
     
-    1. [Check your environment’s readiness for Teams](environment-readiness.md)
-    2. Consider [deploying School Data Sync](https://docs.microsoft.com/en-us/SchoolDataSync) to make it easier for teachers to automatically create Teams.
+    1. [Check your environment’s readiness for Teams](environment-readiness.md).
+    2. [Deploy School Data Sync](https://docs.microsoft.com/SchoolDataSync) to make it easier for teachers to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
     3. Configure the correct ports and protocols for Teams. See [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).
-    4. [Prepare your school's network for Teams](prepare-network.md)
-    5. Teams for Education offers three new types of teams (for a total of four). To understand the differences and use cases of each, see [Choose a team type to collaborate in Teams](https://support.office.com/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67).
-
-    [comment]: <> (TODO Placeholder: Add section about Being a partner, and link to partner strategy doc once uploaded to download center)
-
-- title: The value of Teams in Education
-  durationInMinutes: 4
-  content: |
-
-    ### *“Microsoft Teams has given every student – even the quietest ones – a voice in my class.” —Primary School Teacher*
-
-    If you're new to Teams, take a moment to review the "Introducing classroom experiences in Microsoft Teams" video (2:30 minutes).
-    > [!VIDEO https://www.youtube.com/embed/N7uiMs4dPcg]
-
-    We've heard from educators throughout our journey with Microsoft Education that some of their biggest pain points are centered around efficient class workflows. With Teams for Education, we're integrating all of the features from the commercial product with experiences our education customers love - including assignments management and OneNote Class Notebook - into one digital hub. Now teachers can save time to focus on educating, students can express their voice, and staff and school leaders can collaborate in more efficient ways.
-
-    Time is a valuable commodity for us all, but for educators every minute in the classroom matters and every additional minute they have for teaching is beneficial for all students. Teams brings together files, assignments, and conversations, allowing educators to help stay organized in the classroom, make announcements, deliver assignments, and handle the day-to-day business of the class.
-
-    Not only does Teams allow educators to connect in new ways with students, but now educators can stay connected with each other and share best practices, lesson plans, and pedagogy outside of the classroom. By using custom Professional Learning Community (PLC) and Staff teams, educators and staff can engage in ways that foster collaboration and maximize efficiency. This makes it easier to participate in professional development and executive school-wide initiatives.
+    4. [Prepare your school's network for Teams](prepare-network.md).
+    5. Choose a team type. Teams for Education offers three new types of teams (for a total of four). To understand the differences and use cases of each, see [Choose a team type to collaborate in Teams](https://support.office.com/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67).
 
 - title: Quick start - Teams planning guide
   durationInMinutes: 4
   content: |
 
-    ![Screenshot of the five implementation phases for Teams.](media/quick-start-enable-Teams-Implementation-Phases.png)
-    #### *Figure 1: Implementation phases of Office 365 and Teams*
-
     ## Step 1: Get your people together
 
-    Assemble a group of individuals from staff, teachers and the user community to act as the stakeholder & decision making group for your Teams deployment.  In smaller organizations this may be 2 or 3 people.  It is essential for success to include business/users AND IT professionals together for this journey. 
+    Assemble a group of individuals from staff, teachers, and the educator community to act as the stakeholder & decision-making group for your Teams deployment. 
 
     ## Step 2:  Prioritize your scenarios
 
@@ -78,242 +63,209 @@ items:
 
     ![Screenshot of a sample Microsoft 365 Deployment team.](media/quick-start-enable-Teams-Microsoft365-Deployment-Team.png)
 
-    ## Step 3: Complete technical planning
+    ## Step 3: Conduct pilots and deploy Teams
 
-    Efficient technical planning is the foundation of a great user experience. If your organization has more than 50 seats and is participating in an [eligible plan](https://technet.microsoft.com/library/dn783224.aspx), you can use [FastTrack benefits](https://technet.microsoft.com/library/dn783224.aspx?f=255&MSPPError=-2147217396), available at no additional cost to guide you through planning, deployment and service adoption. Or, you can complete this work yourself by using the rest of this guide.
+    You’ll want to conduct an initial Teams pilot with your educators, both champions and early adopters, for one or more of the scenarios you selected above. A pilot gives you valuable information about how Office 365 and Teams are received in your organization. Select an interested group of users and a prioritized business scenario to get started. 
 
-    ## Step 4: Conduct pilots and deploy Teams
-
-    In most organizations, you’ll want to conduct an initial Teams pilot with your stakeholders, champions, and early adopters for one or more of the scenarios you selected above. A pilot gives you valuable information about how Office 365 and Teams are received in your organization. Select an interested group of users and a prioritized business scenario to get started. Figure 2 shows some example scenarios.
-
-    ![Screenshot of Teams use cases by department.](media/quick-start-enable-Teams-Use-cases-by-department.png)
-    #### *Figure 2: Use case examples for Teams*
-
-    Once your pilots are complete, you’ll have the feedback you need to plan your broad Teams deployment. Large organizations often deploy in phases to manage the onboarding and training work required to implement a quality user experience. Be sure your deployment plan integrates your prioritized scenarios to ensure your users are getting the most from Office 365 and Teams.
-
-
-    ## Step 5: Measure usage, manage satisfaction, and drive adoption
-
-    Deploying software is not the only thing required to drive change in your organization. Empowering collaboration is more about people than technology. To successfully drive adoption of Office 365 and Teams, stay focused on your users’ experience. Here’s a quick checklist of our best practices to get you started. Microsoft partners can also help you design the right adoption plan for your organization.
-
-    1. **Read [Office 365 Adoption Guidance]( https://aka.ms/office365adoptionguide)** for best practices. Use our article on [creating a change management strategy for Microsoft Team](change-management-strategy.md) to document your approach.
-    2. **Study [Office 365 activity reports](teams-activity-reports.md)** to understand usage across your environment. If you aren’t an Office 365 admin for your company, ask your admin to give you Reports Reader permissions so you can access activity reports.
-    3. **Capture feedback from your users** on their experience with Office 365 and Teams. Use a public channel in Teams when your organization has fewer than 2500 individuals. Use a public group in Yammer when your organization is larger than this current membership limit in Teams. 
+    ![Screenshot of Teams user groups.](media/quick-start-example-scenarios.png)
     
-    5. **Nurture your champions and highlight your wins.** Reward employees for embracing these new tools and using them in innovative ways that relate to business outcomes for your company. This, above anything, will ensure continued adoption of Office 365 and Teams.
+    Once your pilots are complete, you’ll have the feedback you need to plan your broad Teams deployment. Be sure your deployment plan integrates your prioritized scenarios to ensure your school is getting the most from Office 365 and Teams.
+
+
+    ## Step 4: Measure usage, manage satisfaction, and drive adoption
+
+    To successfully drive adoption of Office 365 and Teams, stay focused on your educator’s experience. Here’s a quick checklist of our best practices to get you started. 
+
+    1. **Read the [Office 365 Adoption Guidance]( https://aka.ms/office365adoptionguide)** for best practices. Also available to you is our supplemental content for [creating a change management strategy for Microsoft Teams](change-management-strategy.md) to document your approach.
+    2. **Study [Office 365 activity reports](teams-activity-reports.md)** to understand usage across your school. If you aren’t an Office 365 admin, ask your admin to give you Reports Reader permissions so you can access activity reports.
+    3. **Capture feedback from your uducators** on their experience with Office 365 and Teams. Use a channel in Teams when your school has fewer than 2500 individuals. Use a public group in Yammer when your school is larger than this current membership limit in Teams. 
+    4. **Nurture your champions and highlight your wins.** Reward educators for embracing these new tools and using them in innovative ways. This, above anything, ensures continued adoption of Office 365 and Teams.
 
 - title: Turn on or turn off Microsoft Teams licenses
   durationInMinutes: 2
   content: |
 
-    Teams is a cloud based service. Once a user has a valid license, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves - the IT admin doesn't need to deploy these clients. You can manage individual user licenses for Microsoft Teams by using the Office 365 admin center or by using PowerShell. See [Office 365 licensing for Teams](office-365-licensing.md) for information about both methods. This will be valuable to understand if you are interested in piloting Teams before broad enablement. 
+    Teams is a cloud-based service. Once an educator or student has a valid license, they can run the desktop, web, and mobile Teams clients. They can install these clients themselves -- the IT admin doesn't need to deploy these clients. 
+    
+    You can manage individual user licenses for Microsoft Teams by using the Office 365 Admin Center or by using PowerShell. See [Office 365 licensing for Teams](office-365-licensing.md) for information about both methods. This is valuable to understand if you are interested in piloting Teams before broad enablement. 
 
     > [!NOTE]
-    > Before you turn on Teams for your entire institution, make sure you have the proper controls in place. A piloting program will help significantly to ensure the proper users are able to use and give feedback on what types of controls will enhance the usage and management of the product. 
+    > Before you turn on Teams for your school, make sure you have the proper controls in place. A piloting program helps significantly to ensure the proper users are able to use and give feedback on what types of controls enhance the usage and management of the product. 
 
     Below are some sample pilot user groups and the teams that could be of interest. 
 
-    |IT department   |Department pilots   |Faculty pilots   |Student pilots   |
+    |IT department   |Staff pilots   |Educator pilots   |Student pilots   |
     |---|---|---|---|---|
-    |Use Teams internally in IT for project work, collaboration, and issue resolution.   |Select administration departments (such as Finance, Housing, Development) to use Teams for their project work and collaboration.   |Identify faculty champions who are excited about Teams in the classroom and in faculty collaboration.   |Get students excited about how Teams can help them outside of the classroom. Identify student champions that can use Teams within their extracurricular groups.   |
+    |Use Teams internally in IT for project work, collaboration, and issue resolution.   |Select staff departments for their project work and collaboration.   |Identify educators to become champions who are excited about Teams in the classroom and in educator collaboration.   |Get students excited about how Teams can help them outside of the classroom. Identify student champions that can use Teams within their extracurricular groups.   |
     |**Sample teams**   |   |   |   |
     |IT project coordination (e.g., Teams rollout)    |Project coordination   |Class section collaboration & communications (including syllabus, group project work, TA or breakout sessions)   |Professional society, group coordination & collaboration (e.g., Honor Society, Association of Marketing Students)   |
     |IT department-to-faculty communications   |Collaboration workspace, announcements   |Inter-department coordination, communications   |Social, philanthropic group coordination & collaboration (e.g., fraternities, sororities)   |
     |LiveSite issues   |Meetings   |Research project collaboration   |   |
     |Organization collaboration workspace, announcements   |Executive admin groups   |   |   |
 
+    > [!NOTE]
+    > For help and support with Teams licenses or other issues, submit an inquiry at [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support).
+
 
 - title: Configure Teams for your school
   durationInMinutes: 1
   content: |
-    You will need to have [Global Administrator](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) permissions to use the Office 365 admin center to manage Teams for your school.
 
-    1. From the [Office 365 admin center](https://portal.office.com/adminportal/home), sign-in with your Global Administrator credentials and go to **Settings** > **Services & add-ins**.
-    2. On the **Services & add-ins** page, select **Microsoft Teams**.
+    > [!NOTE]
+    > [School Data Sync](https://docs.microsoft.com/SchoolDataSync) makes it easier for teachers to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
+
+    You'll need to have [Global Administrator](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) permissions to use the Office 365 admin center to manage Teams for your school.
+
+    1. From the [Office 365 Admin Center](https://portal.office.com/adminportal/home), sign in with your Global Administrator credentials and select **Admin**.
+         
+         ![Screenshot of the Admin option in the Office 365 Admin Center.](media/o365-admin-option.png)
     
-         ![Screenshot of the options in the Services & add-ins page in the Office 365 admin center.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
+    2. Select **Settings** > **Services & add-ins**.
 
-    3. The Microsoft Teams settings page opens. Below there are two sections. The top portion is controls for all the users in your organization. The second half lets you manage the product per Office License SKU type and for Guests. Some schools may have their faculty and staff on a different type of license from their students. This will allow more granular behavior control for that entire license group. 
+         ![Screenshot of the Services & add-ins option in Settings.](media/o365-settings-services.png)
+        
+    3. Select **Microsoft Teams** from the list.
+    
+         ![Screenshot of the options in the Services & add-ins page in the Office 365 Admin Center.](media/o365-services-select-teams.png)
 
-         ![Screenshot of Microsoft Teams settings section in the Office 365 admin center.](media/Services-and-addins-control-Microsoft-Teams.PNG)
+    4. After the Microsoft Teams settings page opens, the configuration options will come into view. From here, you may manage your licenses.
+
+         ![Screenshot of Microsoft Teams settings section in the Office 365 Admin Center.](media/Services-and-addins-control-Microsoft-Teams.PNG)
 
 - title: Configure tenant-wide settings
   durationInMinutes: 3
   content: |
     ### General
-    The General section lets you configure the following settings for your entire institution across all the license types you may have.
+    The General section allows you to configure the following settings for your entire institution across all the license types you may have.
 
     - Show organizational chart in personal profile.
     - Use Skype for Business for recipients who don’t have Teams.
-    - Allow T-Bot proactive help messages.
-
-    [T-Bot](t-bot.md) is a great adoption resource for your users. It's a fundamental way we expect users to learn more about the product and highly recommend leaving it enabled. 
-
-    To turn on or turn off T-Bot, move the toggle to **Off** or **On**, then choose **Save**.
 
     ![Screenshot of the settings in the General section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
 
     ### Email integration
-    You can enable email integration with channels, as well create a restricted senders list. To turn on or turn off email integration, move the toggle to **Off** or **On**, then choose **Save**. 
+    You can enable email integration with channels, as well as create a restricted senders list. To turn on or turn off email integration, move the toggle to **Off** or **On**, then select **Save**. 
 
-    The **Allow senders list** helps you control the domains you want to allow to have the ability to email the teams within your organization. 
+    The **Allow senders list** helps you to control who can email teams within your organization. 
 
     ![Screenshot of the settings in the Email integration section in the Office 365 admin center.](media/QS-edu-email-integration.png)
 
     ### Apps
     You can enable external apps, new external apps, and sideloading for apps in Teams. To disable or enable the setting, move the toggle to **Off** or **On**, then choose **Save**.
 
-    Enabling external apps provides a drop-down list for you to select the applications you'd like in your institution, which allows teachers to combine their favorite apps to work within the Teams platform. If you select to **Enable new external apps by default**, as publishers submit more apps, the new apps will automatically show up in your list. 
+    Enabling external apps provides a drop-down list for you to select the applications you'd like in your institution, which allows teachers to combine their favorite apps to work within the Teams platform. If you select **Enable new external apps by default**, new apps will automatically show up in your list as they become available. 
 
-    The ability to sideload an app will only be available to non-guest team members. This will be useful if you have any programming courses or are testing any custom learning management systems that could integrate with Teams. To learn more, see [The Microsoft Teams developer platform](https://docs.microsoft.com/microsoftteams/platform/overview).
+    The ability to sideload an app is only available to non-guest team members. This is useful if you have any programming courses or are testing any custom learning management systems that can integrate with Teams. To learn more, see [The Microsoft Teams developer platform](https://docs.microsoft.com/microsoftteams/platform/overview).
 
-    ![Screenshot of the settings in the Apps section in the Office 365 admin center.](media/QS-edu-apps.png)
+    ![Screenshot of the settings in the Apps section in the Office 365 admin center.](media/QS-edu-apps2.png)
 
-    By enabling Assignments, teachers will be able to provide assignments and iterative feedback to students. 
+    By enabling Assignments, educators can provide assignments and iterative feedback to students. 
 
-    Once external apps in Teams is enabled, the teachers can customize apps to make them available for their students through tabs. Tabs let you customize a channel to include content and capabilities your team needs every day. They provide quick access to frequently used documents and cloud services. There are several built-in tabs such as Files.
+    Once external apps in Teams is enabled, educators can customize apps to make them available for their students through tabs. Tabs let you customize a channel to include content and capabilities your team needs every day. They provide quick access to frequently used documents and cloud services. There are several built-in tabs such as Files.
 
     ![Screenshot of how to add tabs for apps to Teams.](media/Add_a_tab_to_Microsoft_Teams_image.png)
 
-    In the Teams client, at the top of the channel, users can add tabs for Word documents, PowerPoint presentations, Excel spreadsheets, OneNote Class Notebooks, Assignments, and more. Over time, more tabs will be added, both from Microsoft and from partners.
+    In the Teams client, users can add tabs for Word documents, PowerPoint, Forms, OneNote Class Notebooks, Assignments, and more. Over time, more tabs will be added, both from Microsoft and from partners.
 
     ### Custom cloud storage
     You can enable various forms of cloud storage within Teams. Currently, Box, Dropbox, Google Drive, and ShareFile are supported. To disable or enable the setting, toggle the switch to **Off** or **On**, and then select **Save**. When these settings are enabled, any member of a team can add a new provider in which documents can be stored to or retrieved from.
 
     ![Screenshot of the settings in the Custom cloud storage section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
-    Teams uses SharePoint as the default file storage provider. For more information, see [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md). To learn how your quota is calculated and how best to manage it, see [Manage site collection storage limits](https://support.office.com/article/Manage-site-collection-storage-limits-77389C2C-8E7E-4B16-AB97-1C7103784B08). If you don’t want to manage each site’s collection, you will also learn how to let the service automatically handle that for you. 
+    Teams uses SharePoint as the default file storage provider. For more information, see [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md). To learn how your quota is calculated and how best to manage it, see [Manage site collection storage limits](https://support.office.com/article/Manage-site-collection-storage-limits-77389C2C-8E7E-4B16-AB97-1C7103784B08). If you don’t want to manage each site’s collection, you'll also learn how to let the service automatically handle that for you. 
 
-- title: Configure settings by user or license type
-  durationInMinutes: 7
-  content: |
-    If you have multiple license types within your organization, you'll see them in in the following drop down. Some examples are **Business and Enterprise** or **Education - Faculty and Staff** or **Education - Student** and **Guest**. The following section will outline how you can manage these groups. The system can only differentiate users based on the licenses you've assigned them. If you only have one license type, the settings here can be treated as tenant-wide settings. 
+    ### Settings by user/license type
+      
+    > [!NOTE]
+    > [School Data Sync](https://docs.microsoft.com/SchoolDataSync) makes it easier for teachers to automatically create Teams. Contact [https://aka.ms/sdssupport](https://aka.ms/sdssupport) for deployment assistance.
 
-    [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
+    You'll need to have [Global Administrator](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) permissions to use the Office 365 admin center to manage Teams for your school.
+
+    1. From the [Office 365 Admin Center](https://portal.office.com/adminportal/home), sign in with your Global Administrator credentials and select **Admin**.
+         
+         ![Screenshot of the Admin option in the Office 365 Admin Center.](media/o365-admin-option.png)
+    
+    2. Select **Settings** > **Services & add-ins**.
+
+         ![Screenshot of the Services & add-ins option in Settings.](media/o365-settings-services.png)
+        
+    3. Select **Microsoft Teams** from the list.
+    
+         ![Screenshot of the options in the Services & add-ins page in the Office 365 Admin Center.](media/o365-services-select-teams.png)
+
+    4. After the Microsoft Teams settings page opens, the configuration options will come into view. From here, you may manage your licenses.
+
+         ![Screenshot of Microsoft Teams settings section in the Office 365 Admin Center.](media/Services-and-addins-control-Microsoft-Teams.PNG)
+         
+    You should only have Education listed in your license types. The dropdown includes Education-Faculty and staff, Education-Student, and Guest. The system can only differentiate users based on the licenses you've assigned them. If you only have one license type, the settings here can be treated as tenant-wide settings.  
 
     ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-dropdown.png)
 
-    To enable a license type to have access to Teams, move the toggle to **On**, then select **Save**. This is just a temporary switch, eventually you'll need to manage user access to Teams through user licenses as you would for all other Office workloads.
+    To enable a license type to have access to Teams, move the toggle to **On**, then select **Save**. This is just a temporary switch; eventually, you'll need to manage user access to Teams through user licenses as you would for all other Office workloads.
     
     ![Screenshot of the settings for Microsoft Teams license picker section in the Office 365 admin center.](media/QS-edu-settings-by-user-license-type-showing-toggle-on.png)
 
-    To turn on [Guest Access](guest-access.md) for your tenant, select the **Guest** license and move the toggle to **On**. You can use Guest Access to enable the Guest Professor Scenario, which permits contributors who are not a part of your organization to participate in your teams. A guest professor should only get added to a team if they'll continue to interact with the class throughout the course lifecycle. If they are only showing up to give one lecture, consider having them join a meeting as an anonymous user instead of being added to the team as a guest. 
-
-    > [!NOTE] 
-    > Only team owners can add guests to the team.
-
-
-    ### Teams and channels
-    A team is designed to bring together a group of people who work closely to get things done. Teams can be dynamic for project-based work (for example, curriculum development or planning school events), as well as for ongoing work, to reflect the internal structure of your institution (for example, schools, departments, and classes). Teams for Education has 3 new team types (Classes, PLCs, Staff Members) for a total of 4 types of teams all together:
-
-    |   	|for Classes   	|for PLCs   	|for Staff Members   	|for Anyone   	|
-    |---	|---	|---	|---	|---	|
-    |Description   	|Teachers and students collaborating on group projects, assignments, and more.   	|Educators collaborating within a professional learning community.   	|Staff leaders and staff members collaborating on school administration and development.   	|Students and school employees collaborating in interest groups and clubs.   	|
-
-    A channel is a subcategory of a team. You might create a channel for an activity or for a topic. Conversations, files, and notes are specific to each channel, and available to all members of the team.
-
-    ![Screenshot of the settings in the Teams and channels section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
-
     > [!NOTE]
-    > You need to use the **Groups** control panel, because all teams are built on top of Office 365 Groups. 
+    > For help and support with tenant-wide settings or other issues, submit an inquiry at [https://edusupport.microsoft.com/support](https://edusupport.microsoft.com/support).
 
-    You can create and manage team owners and members by using the **Groups** control panel in the Office 365 admin center. By default, Office 365 Groups creation is turned on, but can be restricted to specific users or groups (for example, Education - Faculty and Staff) by using PowerShell.
+- title: Configure Teams by user or license type
+  durationInMinutes: 7
+  content: |
+   
+   > [!IMPORTANT]
+   > The new Microsoft Teams & Skype for Business Admin Center is coming soon! Starting in March 2018, we're gradually migrating settings to it from both the current Skype for Business admin center and the Microsoft Teams experience in the Office 365 admin center. If a setting has been migrated, you'll see a notification and then be directed to the setting's location in the new Microsoft Teams & Skype for Business Admin Center. For more information, see [Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center). 
+     
+    As part of the migration to the new Microsoft Teams & Skype for Business Admin Center, how to configure Teams by license type is accomplished via policy. The policy types are accessible via the Admin Center navigation. See below for an example list of Messaging policies.
 
-    To learn how to use PowerShell to control the permissions, and the types of licenses that are required to take advantage of these features, see [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+   ![Screenshot of the Messaging policies page in the Microsoft Teams & Skype for Business Admin Center.](media/teams-messaging-policies-edu.PNG)
+   
+   With policies, features can now be turned on/off at the per-user level. Here’s how policy assignments work:
+      - By default, every new user will get the Global policy (tenant-level settings).
+      - A user can be assigned a pre-canned user policy created by Microsoft if it meets your requirements. These pre-canned policies are not editable by tenant admins. If you want to manage these in the future, create new custom policies and assign the custom policies to users.
 
+       ![Screenshot of the Assigned policies section of the Microsoft Teams & Skype for Business Admin Center.](media/teams-assigned-policies-edu.PNG)
+      - A custom policy can be assigned to any user. To do this, click **+ New policy**, set the features, and click **Save**. This custom policy can be assigned to a user through the **Users** tab or via script.
+        ![Screenshot of the New policy option on the Messaging policies page of the Microsoft Teams & Skype for Business Admin Center.](media/teams-new-messaging-policy-edu.PNG)
+
+        ![Screenshot of the Edit option for assigned policies in the Microsoft Teams & Skype for Business Admin Center.](media/teams-assigned-policy-edit-edu.PNG)
+
+        ![Screenshot of the Edit user policies section in the Microsoft Teams & Skype for Business Admin Center.](media/teams-edit-user-policies-edu.PNG)
+   ### How to enable different policies for faculty and students
+   To have custom settings for faculty and students (for example, chat is enabled for faculty but not for students), there are two methods to create and assign them: 
+      - Use the Powershell module to run a script to create and assign multiple policies. See the Appendix for script examples and documentation. 
+      - In the Admin Center, create a new policy and assign on the **Users** tab. 
     > [!NOTE]
-    > Disabling group creation has implications on other products. These implications are detailed in [Manage who can create Office 365 Groups](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+    > Until a custom policy is assigned to a user, the user will be using the Global policy setting. This means that if Chat is enabled in the Global policy and disabled in the custom Student policy, until the custom policy is assigned, the Student will be able to chat. In this case, it may be easier to set Chat as disabled globally and use custom policies to enable Chat for Faculty users. 
 
-    ### Highlights of team management and creation
-    #### Team management
-    - For more information about how to create Office 365 Groups in the admin center, see [Create an Office 365 group in the admin center](https://support.office.com/article/Create-an-Office-365-group-in-the-admin-center-74a1ef8b-3844-4d08-9980-9f8f7a36000f).
-    - The Team Naming convention feature provided by Groups is in private preview and will be available soon in public preview. To learn more about this feature, see [Office 365 Groups naming policy](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
-    - Prevent Teams from showing up in the Global Address List (GAL). To learn more, see "Hide Office 365 Groups from GAL" in [Manage Office 365 Groups with PowerShell](https://support.office.com/article/Manage-Office-365-Groups-with-PowerShell-aeb669aa-1770-4537-9de2-a82ac11b0540).
-    - Manage Team or Group expiration policies. To learn more, see [Office 365 Group Expiration Policy](https://support.office.com/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
-
-    #### Team creation
-    - __Using School Data Sync__: If you are already using School Data Sync, teams will get automatically created based on your roster details. Teachers and students will automatically be assigned. 
-
-    > [!TIP]
-    > If you are interested in learning more about School Data Sync, see [Overview of School Data Sync](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync). You can sign up for School Data Sync [here](https://sdscrm.microsoftcrmportals.com/signup/).
-
-    - (In Preview) Using PowerShell to create groups. To learn more, see [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams). 
-
-    > [!IMPORTANT]
-    > For Office 365 Education, you can create [four different types of teams](https://support.office.com/article/Choose-a-team-type-to-collaborate-in-Microsoft-Teams-0a971053-d640-4555-9fd7-f785c2b99e67). PowerShell can only create the default type of Team. Once a Team is created, the type of Team can't be changed. 
-
-    ### Calls and meetings
-
-    ![Screenshot of the settings in the Calls and meetings section in the Office 365 admin center.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
-
-    Private meetings enable your users to explicitly select the participants of their meetings opposed to leaving it open to everyone in the Team to join. This will allow them to have smaller meetings that don't disrupt the larger team. 
-
-    Allowing scheduling for channel Meetings will allow users to select a Team and Channel where the meeting will be hosted. This allows anyone interested in the meeting from that Team to join without needing an explicit invite. 
-
-    ![Screenshot of Meeting scheduling UI when private meetings is enabled.](media/Teams-quick-start-edu-Private_Meetings_No_Channel.PNG)
-
-    Ad-hoc channel meetup allows users to start a meetup directly from the chat UI. Anyone who is actively apart of the thread can jump on the call and continue the conversation. 
-
-    ![Screenshot of Compose Box UI when ad-hoc meetings is enabled.](media/Teams-quick-start-edu-Compose_Box_Meet_Now.PNG)
-
-    Meeting options such as "Allow videos in meetings" and "Allow screen sharing in meetings" will enhance the meeting experience by allowing the face to face communication and the ability to share what you see on your screen. When these options are enabled, users will be able to toggle video and screen sharing from within the meeting. 
+    ### Appendix
+    #### How to create and assign a messaging policy
+    1. See if any of the available policies in your tenants suit your requirements by running Get-CsTeamsMessagingPolicy.
+    2. If not, create a new policy by running New-CsTeamsMessagingPolicy -Identity &lt;policy name&gt; -&lt;parameter name&gt; -&lt;parameter value&gt;.
     
-    ![Screenshot of meeting controls.](media/Teams-quick-start-edu-In_Meeting_Controls.PNG)
-    
-    > [!NOTE]
-    > Some schools might want to restrict the amount of network traffic in their institution. For example, you might want to disable video in low bandwidth institutions.
-    
-    Having the ability to escalate from a private 1:1 chat or group chat to an audio or video call is enabled by "Allow private calling." When in a chat, the top right corner will show these options. 
+    For more information, see [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy)
 
-    ![Screenshot of private chat audio video controls.](media/Teams-quick-start-edu-Private_Chat_Audio_Video.PNG)
+    #### Sample script 
 
-
-    ### Messaging
-
-    ![Screenshot of the settings in the Messaging section in the Office 365 admin center.](media/QS-edu-messaging.png)
-
-    As a tenant admin, if your school is not comfortable with "fun" content, such as GIFs, memes, and stickers, you can always disable it for students in the **Messaging** section of the Microsoft Teams settings screen. These options will disappear from below the compose box, but our standard set of emojis will still be available for use. When GIFs are enabled, you can apply a content rating to restrict the type of GIFs that are allowed within Teams in your institution. Content ratings include the following:
-
-    - Strict 
-    - Moderate
-    - Allow all content
-    
-    You can also disable private chat just between students, while allowing Faculty to have the ability of private chats. If you do disable chat, for users who don't have this functionality, they will no longer see Chat along the left side. 
-
-    ![Screenshot of left rail without chat.](media/Teams-quick-start-edu-Left_Rail_Without_Chat.PNG)
-
-    When users who are enabled for chat try to start a conversation with participants who aren't, they'll see a notification in the compose chat window indicating that the "Administrator has disabled chat for user."
-
-    ![Screenshot of unable to start chat with disabled participant.](media/Teams-quick-start-edu-Starting_Chat_With_Person_Not_Enabled_For_Chat.PNG)
-
-    > [!TIP]
-    > If you disable private chat for a set of users, they can't use T-Bot to get help. However, they can find all of the T-Bot content in the [Microsoft Teams help center](https://support.office.com/Teams), so be sure to give this as an adoption resource to users who aren't enabled for private chat. 
-
-    Enabling owners to delete messages is recommended across all license types, as this really helps with channel chat moderations. 
-
-    Additionally, you can enable members to edit and delete their own messages. This is a great feature to ensure typos can be corrected and messaging to the wrong thread or redundant messages can be removed by the sender. 
-
-    > [!NOTE]
-    > If you place a user's mailbox on Legal Hold, all edited and deleted messages will be logged. See [Place a Teams user or team on legal hold](legal-hold.md) for more information.
+    See [PowerShell script sample - Create and assign a messaging policy](https://docs.microsoft.com/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu).
 
 - title: Distribute to clients
   durationInMinutes: 1
   content: |
 
-    Teams has clients available for web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode. To get the latest details on the functionality and methods of distribution of each of these clients, check out our topic to [Get clients for Teams](get-clients.md).
+    Teams has clients available for web, desktop (Windows and Mac), and mobile (Android and iOS). These clients all require an active internet connection and do not support an offline mode. To get the latest details on the functionality and methods of distribution of each of these clients, check out our topic to [Get clients for Teams](get-clients.md).
 
-    The setup file for the Teams client is an executable file that can be downloaded by administrators and end users from the [Teams downloads page](https://teams.microsoft.com/downloads). End users on desktops can install the application if they have the appropriate privileges. IT Admins can also distribute the installer and through their existing client distribution tools.
+    The setup file for the Teams client is an executable file that can be downloaded by admins and end users from the [Teams downloads page](https://teams.microsoft.com/downloads). Educators and students on desktops can install the application if they have the appropriate privileges. IT Admins can also distribute the installer and through their existing client distribution tools.
 
     End users with mobile devices can download the Microsoft Teams app from the mobile platform’s app store. 
 
-    Client OS Minimums:
+    ### Operating system requirements
 
-    |   	|Windows   	|MacOS   	|iOS   	|Android   	|Windows Phone   	|
+    |   	|Windows   	|MacOS   	|iOS   	|Android   	|
     |---	|---	|---	|---	|---	|---	|
-    |   	|7 and later   	|10.10 and later   	|10 or later   	|4.4 and later   	|10.0.10586 and later   	|
+    |   	|7 and later   	|10.10 and later   	|10 or later   	|4.4 and later   	|
 
     
-    Internet browser support: 
+    ### Internet browser support 
     
     [!INCLUDE [browser-support](includes/browser-support.md)]
 

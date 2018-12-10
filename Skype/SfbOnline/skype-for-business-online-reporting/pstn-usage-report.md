@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 74eda791-c41f-4fd9-ae0b-913342e7ab04
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -26,7 +27,7 @@ The new Skype for Business Admin Center **Reports** area shows you calling and a
   
 Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.
   
-This report, along with the other Skype for Business reports, gives you details on activity including calling usage across your organization. These details are very helpful when you investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
+This report, along with the other Skype for Business reports, gives you details on activity including calling usage across your organization. These details are very helpful when you investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
 > You can see all of the Skype for Business reports when you log on as an administrator to the Office 365 admin center. 
@@ -87,7 +88,9 @@ This is what the report looks like.
      *    **MCOPSTN5** - Domestic Calling Plan (120 min calling plan) 
      *    **MCOPSTN6** - Domestic Calling Plan (240 min calling plan) Note: Limited Availability
      *    **MCOMEETADD** - Audio Conferencing
-     *    **MCOMEETACPEA** - Pay Per Minute Audio Conferencing 
+     *    **MCOMEETACPEA** - Pay Per Minute Audio Conferencing
+> [!NOTE]
+> You may also see "no data" in some fields. "No data" means the field is not applicable to the call type or capability. 
 ***
 ![Number 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
  ***

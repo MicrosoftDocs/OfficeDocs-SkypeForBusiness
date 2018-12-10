@@ -15,10 +15,10 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Users: View or Configure External Access Policy
- 
+
 What do you want to do? Click the link to the task that you want to perform.
-  
-- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
-    
- 
+
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+
+
 

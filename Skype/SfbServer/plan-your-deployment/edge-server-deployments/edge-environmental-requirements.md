@@ -5,7 +5,7 @@ author: microsoftheidi
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Hybrid
@@ -123,7 +123,7 @@ Let's look at some additional things to think about while planning.
     - Lync Server 2010
     - Lync Server 2013
     - Microsoft Office O365
-- Skype for Business Sever 2019:
+- Skype for Business Server 2019:
     - Lync Server 2013
     - Skype for Business Server 2015
     - Microsoft Office 365.
@@ -219,23 +219,23 @@ These will be the DNS records you're going to need for a singe Edge Server using
     
   - Node 2
     
-     - Public IPs:
+    - Public IPs:
     
-       - Access Edge: 131.107.155.11 (this is the primary, with default gateway set to your public router, ex: 131.107.155.1)
+      - Access Edge: 131.107.155.11 (this is the primary, with default gateway set to your public router, ex: 131.107.155.1)
     
-       - Web Conferencing Edge: 131.107.155.21 (secondary)
+      - Web Conferencing Edge: 131.107.155.21 (secondary)
     
-       - A/V Edge: 131.107.155.31 (secondary)
+      - A/V Edge: 131.107.155.31 (secondary)
     
       Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
     
   - Private IPs:
     
-      - Access Edge: 10.45.16.11 (this is the primary, with default gateway set to your router, ex: 10.45.16.1)
+    - Access Edge: 10.45.16.11 (this is the primary, with default gateway set to your router, ex: 10.45.16.1)
     
-      - Web Conferencing Edge: 10.45.16.21 (secondary)
+    - Web Conferencing Edge: 10.45.16.21 (secondary)
     
-      - A/V Edge: 10.45.16.31 (secondary)
+    - A/V Edge: 10.45.16.31 (secondary)
     
       Web conferencing and A/V Edge public IP addresses are additional (secondary) IP addresses in the Advanced section of the properties of Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) of the Local Area Connection Properties in Windows Server.
     
@@ -358,9 +358,9 @@ The Source IP address and Destination IP address will contain information for us
 |Access/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Client-to-server SIP traffic for external user access.  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |For federated and public IM connectivity using SIP.  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Any  <br/> |For federated and public IM connectivity using SIP.  <br/> |
-|Web conferencing/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server Web Conferencing Edge service <br/> **Public IP:** Edge Server Web Conferencing Edge service service public IP address <br/> |Web conferencing media.  <br/> |
-|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**Private IP using NAT:** Edge Server A/V Edge service service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |Any  <br/> |This is used for relaying media traffic.  <br/> |
-|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**Private IP using NAT:** Edge Server A/V Edge service service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |Any  <br/> |This is used for relaying media traffic.  <br/> |
+|Web conferencing/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server Web Conferencing Edge service <br/> **Public IP:** Edge Server Web Conferencing Edge service public IP address <br/> |Web conferencing media.  <br/> |
+|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |Any  <br/> |This is used for relaying media traffic.  <br/> |
+|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |Any  <br/> |This is used for relaying media traffic.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |Any  <br/> |3478 outbound is:  <br/> • Used by Skype for Business Server to determine the version of Edge Server it's communicating with.  <br/> • Used for media traffic between Edge Servers.  <br/> • Required for federation with Lync Server 2010.  <br/> • Needed if multiple Edge pools are deployed within your organization.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |STUN/TURN negotiation of candidates over UDP on port 3478.  <br/> |
 |A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |STUN/TURN negotiation of candidates over TCP on port 443.  <br/> |
@@ -377,7 +377,7 @@ The Source IP address and Destination IP address will contain information for us
 |SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Any:  <br/> • Front End Server  <br/> • Front End pool  <br/> • Any Survivable Branch Appliance using this Edge Server  <br/> • Any Survivable Branch Server using this Edge Server  <br/> |Edge Server internal interface  <br/> |Authentication of A/V users from your Front End Server or Front End pool, or your Survivable Branch Appliance or Survivable Branch Server, using your Edge Server.  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Any  <br/> |Edge Server internal interface  <br/> |Preferred path for A/V media transfer between your internal and external users and your Survivable Branch Appliance or Survivable Branch Server.  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |Edge Server internal interface  <br/> |Fallback path for A/V media transfer between your internal and external users and your Survivable Branch Appliance or Survivable Branch Server, if UDP communication doesn't work. TCP is then used for file transfers and desktop sharing.  <br/> |
-|HTTPS  <br/> |TCP  <br/> |4443  <br/> |Any:  <br/> • Front End Server that holds the Central Management store  <br/> • Front End pool that holds the Central Management store  <br/> |Edge Server internal interface  <br/> |Replication of changes from your Central Management store store to your Edge Server.  <br/> |
+|HTTPS  <br/> |TCP  <br/> |4443  <br/> |Any:  <br/> • Front End Server that holds the Central Management store  <br/> • Front End pool that holds the Central Management store  <br/> |Edge Server internal interface  <br/> |Replication of changes from your Central Management store to your Edge Server.  <br/> |
 |MTLS  <br/> |TCP  <br/> |50001  <br/> |Any  <br/> |Edge Server internal interface  <br/> |Centralized Logging Service controller using Skype for Business Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection.  <br/> |
 |MTLS  <br/> |TCP  <br/> |50002  <br/> |Any  <br/> |Edge Server internal interface  <br/> |Centralized Logging Service controller using Skype for Business Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection.  <br/> |
 |MTLS  <br/> |TCP  <br/> |50003  <br/> |Any  <br/> |Edge Server internal interface  <br/> |Centralized Logging Service controller using Skype for Business Server Management Shell and Centralized Logging Service cmdlets, ClsController command line (ClsController.exe) or agent (ClsAgent.exe) commands and log collection.  <br/> |
@@ -423,7 +423,7 @@ The Source IP address and Destination IP address will contain information for us
 |XMPP  <br/>Not Supported in Skype for Businesss Server 2019 |TCP  <br/> |5269  <br/> |XMPP Proxy service (shares an IP address with the Access Edge service)  <br/> |Any  <br/> |The XMPP Proxy service sends traffic from XMPP contacts in defined XMPP federations.  <br/> |
 |Access/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Client-to-server SIP traffic for external user access.  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |For federated and public IM connectivity using SIP.  <br/> |
-|Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Private IP using NAT:** Edge Server Access Edge service service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Any  <br/> |For federated and public IM connectivity using SIP.  <br/> |
+|Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Private IP using NAT:** Edge Server Access Edge service <br/> **Public IP:** Edge Server Access Edge service public IP address <br/> |Any  <br/> |For federated and public IM connectivity using SIP.  <br/> |
 |Web conferencing/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server Web Conferencing Edge service <br/> **Public IP:** Edge Server Web Conferencing Edge service public IP address <br/> |Web conferencing media.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |STUN/TURN negotiation of candidates over UDP on port 3478.  <br/> |
 |A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP using NAT:** Edge Server A/V Edge service <br/> **Public IP:** Edge Server A/V Edge service public IP address <br/> |STUN/TURN negotiation of candidates over TCP on port 443.  <br/> |

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 6310f07f-9d07-4cb1-bd6e-51ef6eb3c335
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -24,9 +25,9 @@ description: "Learn the steps you need to do to submit a port order request when
 
 # Manually submit a custom service request
 
-If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, you need to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+If you have service numbers for dial-in conferencing bridges, auto attendants or other service numbers, toll-free phone numbers or have more than 999 user (subscriber) phone numbers that you need to transfer to Skype for Business, you need to [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
 
-In some countries/regions, you will also need to manually submit a custom service request if you want to get telephone numbers, or release the numbers, or change addresses. To see what is required for each country/region or learn more about number porting, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+In some countries/regions, you will also need to manually submit a custom service request if you want to get telephone numbers, or release the numbers, or change addresses. To see what is required for each country/region or learn more about number porting, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 
 ## If you need to create and submit a service request follow these steps:
@@ -50,13 +51,13 @@ In some countries/regions, you will also need to manually submit a custom servic
     
 5. On the **Identify the issue** page, select and enter in the following:
     
-  - **Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.
+   - **Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.
     
-  - **Symptom:** Enter **Emergency Calling**.
+   - **Symptom:** Enter **Emergency Calling**.
     
-  - **Issue summary:** Enter **Address validation**.
+   - **Issue summary:** Enter **Address validation**.
     
-  - **Issue details:** Enter any details about the address(s) you want to validate such as the:
+   - **Issue details:** Enter any details about the address(s) you want to validate such as the:
     
       - Street number
     
@@ -66,8 +67,8 @@ In some countries/regions, you will also need to manually submit a custom servic
     
       - Country or region
     
-    > [!IMPORTANT]
-    > **Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**
+     > [!IMPORTANT]
+     > **Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**
   
       - Postal or zip code
     
@@ -75,19 +76,19 @@ In some countries/regions, you will also need to manually submit a custom servic
     
 7. On the **Add details** page, select and enter the following:
     
-  - **Is your service unavailable?** Select **No**.
+   - **Is your service unavailable?** Select **No**.
     
-  - **How many users are affected?** Select **Some users**.
+   - **How many users are affected?** Select **Some users**.
     
-  - **Enter an email address of someone affected by this issue** or leave blank.
+   - **Enter an email address of someone affected by this issue** or leave blank.
     
-  - **Select Domain(s) you want to list**
+   - **Select Domain(s) you want to list**
     
-  - **Attach a file** if you have multiple addresses you need validated.
+   - **Attach a file** if you have multiple addresses you need validated.
     
-  - Click **Next**.
+   - Click **Next**.
     
-  - Enter your contact phone number.
+   - Enter your contact phone number.
     
 8. Review the information, and then click **Submit request**.
     
@@ -104,15 +105,15 @@ In some countries/regions, you will also need to manually submit a custom servic
 > If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 ## Related topics
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+[Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

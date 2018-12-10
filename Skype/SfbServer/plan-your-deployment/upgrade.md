@@ -7,7 +7,7 @@ ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -133,13 +133,13 @@ To use this method, you move users to another pool before you start the upgrade.
     
 5. Install new prerequisites required for Skype for Business Server.
     
-6.  On each Front End server, start the In-Place Upgrade.
+6. On each Front End server, start the In-Place Upgrade.
     
 7. When the upgrade is complete, restart all services.
     
-  - For the Front End pool, restart services using the command Start-CsPool.
+   - For the Front End pool, restart services using the command Start-CsPool.
     
-  - For non-Front End servers, use Start-CSWindowsService.
+   - For non-Front End servers, use Start-CSWindowsService.
     
 > [!NOTE]
 >  If you don't want to upgrade your existing Archiving and Monitoring databases, remove the dependency before you upgrade the topology. If you want to create new Archiving and Monitoring databases, during the upgrade, you can create a new SQL store and associate it with the pool. You can find the steps on how to do this in the topic,[Upgrade to Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md). >  In-place upgrade does not support high availability or disaster recovery for Skype for Business Server. To avoid interrupting users' services, use the [Move Users method (no user downtime)](upgrade.md#bkmk_MoveUsersMethod) to upgrade.>  During the upgrade process the xds-replica is placed in the local shared folder on the disk drive with the most free space. If that disk is later removed then you can run into issues such as services not starting.

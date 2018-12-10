@@ -2,6 +2,7 @@
 title: "Prepare your Environment"
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -20,24 +21,24 @@ This section contains an overview of the steps required to prepare your Skype fo
     
 2. Ensure that there is a working network/Internet connection for the device to use. 
     
-  - It must be able to receive an IP address using DHCP (note: Skype Room Systems v2 cannot be configured with a static IP address at the first unit startup)
+   - It must be able to receive an IP address using DHCP (note: Skype Room Systems v2 cannot be configured with a static IP address at the first unit startup)
     
-  - It must have these ports open (in addition to opening the normal ports for Skype for Business media):
+   - It must have these ports open (in addition to opening the normal ports for Skype for Business media):
     
-  - HTTPS: 443
+   - HTTPS: 443
     
-  - HTTP: 80
+   - HTTP: 80
     
-  - If your network runs through a proxy, you'll need the proxy address or script information as well.
+   - If your network runs through a proxy, you'll need the proxy address or script information as well.
     
-    > [!NOTE]
-    > Skype Room Systems v2 does not support HDCP input, which has been observed to cause issues with HDMI ingest functionality (video, audio). Take care to ensure that switches connected to Skype Room Systems v2 have HDCP options turned off. 
+     > [!NOTE]
+     > Skype Room Systems v2 does not support HDCP input, which has been observed to cause issues with HDMI ingest functionality (video, audio). Take care to ensure that switches connected to Skype Room Systems v2 have HDCP options turned off. 
   
 3. In order to improve your experience, Microsoft collects data. To collect data, we need these sites whitelisted:
     
-  - Telemetry client endpoint: https://vortex.data.microsoft.com/
+   - Telemetry client endpoint: https://vortex.data.microsoft.com/
     
-  - Telemetry settings endpoint: https://settings.data.microsoft.com/
+   - Telemetry settings endpoint: https://settings.data.microsoft.com/
     
 ### Create and test a device account
 

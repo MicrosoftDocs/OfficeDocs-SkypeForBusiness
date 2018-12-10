@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 08666236-1894-42ae-8846-e49232bbc460
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -69,9 +70,9 @@ To test your setup, you need a contact on Skype who's not behind your company fi
     
 4. Another way to test whether the problem is your firewall is to go to a wifi location not behind your firewall such as a coffee shop, and use Skype for Business to send a request to your Skype contact to chat. 
     
-  - **If you sent your Skype contact a request and they never received it**, ask them to send you a request to chat. If the problem was establishing a connection between Skype and Skype for Business, that often solves it.
+   - **If you sent your Skype contact a request and they never received it**, ask them to send you a request to chat. If the problem was establishing a connection between Skype and Skype for Business, that often solves it.
     
-  - Now if the message goes through at the coffee shop but not when you're at work, then you know the problem is your firewall. 
+   - Now if the message goes through at the coffee shop but not when you're at work, then you know the problem is your firewall. 
     
 ## What you can and can't do
 
@@ -82,7 +83,7 @@ To test your setup, you need a contact on Skype who's not behind your company fi
 - It's not possible to allow IM connectivity with other IM providers such as Google or Facebook. You can't use Skype for Business to send cell phone text messages.
 
 - It is not possible to record audio or video calls between a Skype Contact and Skype for Business contact.
-    
+    
 ## What features are available when adding Skype contacts?
 
 Skype contacts who signed in with their Microsoft account (formerly Windows Live ID) can get some, but not all, features when they are talking to your Skype for Business users.

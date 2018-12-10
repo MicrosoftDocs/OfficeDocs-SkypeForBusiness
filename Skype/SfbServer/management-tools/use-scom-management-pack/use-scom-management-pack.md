@@ -33,7 +33,7 @@ Identify and  [Configure the Primary Management Server](configure-the-primary.md
   
 ## System Center Operations Manager Root Management Server and Agent Support
 
-The Management Packs can be used with System Center Operations Manager 2007 R2 (64-bit) (Supported for Migration purposes only) or System Center Operations Manager 2012 SP1 &amp; R2 (64-bit). The following table shows the supported configurations for the Management Packs for Skype for Business Server 2015: 
+The Management Packs can be used with System Center Operations Manager 2007 R2 (64-bit) (Supported for Migration purposes only) or System Center Operations Manager 2012 SP1 &amp; R2 (64-bit) or System Center Operations Manager 2016 (64-bit). The following table shows the supported configurations for the Management Packs for Skype for Business Server 2015: 
   
 |**Configuration**|**Supported?**|
 |:-----|:-----|
@@ -132,7 +132,7 @@ Skype for Business Server 2015 Management Packs provide increased coverage for a
 |8  <br/> |MCX Peer-to-Peer Instant Message (mobile)  <br/> |Available in the September 2011 release of Lync Server 2010 to Skype for Business 2015  <br/> |
  
 > [!NOTE]
-> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
+> MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019. All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts. Users with legacy clients using MCX will need to upgrade to a current client.
   
 **Supported Synthetic Transactions for Conferencing and Persistent Chat**
 

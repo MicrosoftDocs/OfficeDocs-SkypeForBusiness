@@ -2,12 +2,13 @@
 title: "Skype for Business compatibility with Office apps"
 ms.author: jambirk
 author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - Strat_SB_Admin
 ms.custom: 

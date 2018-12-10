@@ -24,7 +24,11 @@ Use the following procedures to manage Skype for Business Server security and au
     
 - [Stage AV and OAuth certificates in Skype for Business Server using -Roll in Set-CsCertificate](stage-av-and-oauth-certificates.md)
     
-- [Manage server-to-server authentication (OAuth) and partner applications in Skype for Business Server](server-to-server-and-partner-applications.md)
+- [Assign a server-to-server authentication certificate to Skype for Business Server](assign-a-server-to-server-certificate.md)
+
+- [Configure server-to-server authentication for a Skype for Business Server hybrid environment.](configure-a-hybrid-environment.md)
+
+- [Configure an on-premises partner application for Skype for Business Server](configure-an-on-premises-partner-app.md)
     
 - [Manage Registrar configuration settings in Skype for Business Server](registrar-configuration-settings.md)
     

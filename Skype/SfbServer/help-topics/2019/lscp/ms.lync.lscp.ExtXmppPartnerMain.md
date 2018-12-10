@@ -15,10 +15,11 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # XMPP Federated Partners
- 
-What do you want to do? Click the link to the task that you want to perform.
-  
-- [Manage XMPP Federated Partners for Your Organization](http://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
-    
- 
+
+> [!NOTE]
+> XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019. See [Migrating XMPP federation](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.
+
+See [Manage XMPP Federated Partners for Your Organization](https://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
+
+
 

@@ -1,35 +1,24 @@
 ---
-title: "Plan cloud auto attendant"
+title: "Plan Cloud Auto Attendant"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
+ms.date: 8/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "Overview of using a Cloud PBX Auto Attendant."
+robots: noindex
+description: "Overview of using a Cloud Auto Attendant."
 ---
-<!-- PM Francois Doremieux  -->
-# Plan cloud auto attendant
 
-[!INCLUDE [disclaimer](../disclaimer.md)]
+# Plan Cloud Auto Attendant
 
-## Feature Overview 
-This feature enables the use of the existing Cloud PBX Auto Attendant Service as an intuitively, natively integrated solution for Skype for Business Server. 
+Skype for Business Server 2019 hybrid implementations only use Cloud Voicemail Cloud Auto Attendants and do not integrate with Exchange Online.
 
-An Admin is able to: 
+Using Skype for Business Server 2019 with [Phone System Auto Attendants](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) is not yet available.
 
-* Create a Cloud PBX Auto Attendant.
-* Extract and dump an existing Exchange UM Auto Attendant configuration to serve as background information in creating a new Cloud PBX Auto Attendant. 
-* Define routing of inbound PSTN calls that arrive on a local (on-prem) trunk, gateway/SBC and Mediation Server and must be routed to an instance of the Auto Attendant service in the cloud. 
-* Access reporting and other service information. 
+If you are a current user of Exchange Server 2013 or Exchange Server 2016, you will be able to continue to use them as you implement Skype for Business Server 2019. Exchange UM, including Auto Attendant functionality, is being retired in Exchange 2019.
 
-
-
-
-
-
-
-
+Similar functionality exists in Phone System, and Skype for Business Server 2019 interaction with Phone system is rolling out on a feature-by-feature basis. Please plan accordingly.

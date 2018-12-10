@@ -110,19 +110,23 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "searchScope": ["Skype for Business"],
+      "searchScope": [
+        "Skype for Business"
+      ],
       "breadcrumb_path": "/skypeforbusiness/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "contributors_to_exclude": [
-          "dstrome",
-          "daswifty"
+        "dstrome",
+        "daswifty",
+        "MikePlumleyMSFT"
       ],
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
-      "feedback_product_url": "https://www.skypefeedback.com/" 
+      "feedback_product_url": "https://www.skypefeedback.com/"
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "OfficeDocs-SkypeForBusiness"
+    "dest": "OfficeDocs-SkypeForBusiness",
+    "markdownEngineName": "markdig"
   }
 }

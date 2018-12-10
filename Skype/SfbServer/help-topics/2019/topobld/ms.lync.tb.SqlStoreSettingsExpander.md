@@ -28,9 +28,9 @@ To change the instance of SQL Server that is used by any database other than the
     
 2. In the **Edit Properties** dialog box, do one of the following:
     
-  - To use the default SQL Server instance, select **Default Instance** and then click **OK**.
+   - To use the default SQL Server instance, select **Default Instance** and then click **OK**.
     
-  - To use a named database instance, select **Named Instance**, enter the instance name in the text box, and then click **OK**. You should enter only the instance name (for example, ArchivingInstance), and not the entire SQL Server path.
+   - To use a named database instance, select **Named Instance**, enter the instance name in the text box, and then click **OK**. You should enter only the instance name (for example, ArchivingInstance), and not the entire SQL Server path.
     
 When you are working in the **Edit Properties** dialog box, Topology Builder will not verify that the database instance that you have entered is a valid instance. For example, if you inadvertently typeArchivingInstanec as the instance name and then click **OK**, Topology Builder will accept that invalid instance. Before you can publish this topology, you must correct this mistake: if a SQL Server instance cannot be found, Topology Builder will not create that instance for you.
   

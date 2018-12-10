@@ -6,10 +6,11 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Choose from calling plans and licensing, configure emergency locations and features like voicemail and caller ID, acquire or transfer phone numbers. 
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ---
@@ -51,7 +52,7 @@ allocation of call minutes, or to let users who have a domestic calling plan pla
 
 ## Availability of Calling Plans
 
-Before you plan for the implementation of Calling Plans in Teams, verify that the Calling Plans service is available in your area by reviewing [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Before you plan for the implementation of Calling Plans in Teams, verify that the Calling Plans service is available in your area by reviewing [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 > [!IMPORTANT]
 > Due to legal constraints, for Calling Plans to be available to multinational organizations, the contract for Office 365 subscriptions must be based in a country or region where the Calling Plans service is available, or where the Calling Plans service can be purchased.
@@ -62,6 +63,7 @@ Before you plan for the implementation of Calling Plans in Teams, verify that th
 After confirming that your organization can obtain the Calling Plans service, compile the list of user locations or offices where you’ll be implementing the Calling Plans service, based on the list of available countries and regions.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide which user locations or offices you’ll implement the Calling Plans service in.</li></ul>|
@@ -69,6 +71,7 @@ After confirming that your organization can obtain the Calling Plans service, co
 
 > [!TIP]
 > Below is an example of a Phone System with Calling Plans site enablement list.
+> 
 > | **Office**                     | **Location**   | **Phone System service** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Australia      | Legacy PSTN service |
@@ -97,6 +100,7 @@ To learn more about emergency locations in relation to Calling Plans, review the
 -   [Emergency calling terms and conditions](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the granularity of emergency location information to be collected for user locations or offices in scope for the Calling Plans implementation.</li></ul>|
@@ -104,14 +108,15 @@ To learn more about emergency locations in relation to Calling Plans, review the
 
 > [!TIP]
 > You can use the following template to document the details of phone numbers and emergency location details.
->|User |Emergency location and address |Phone number |
->|-----|-------------------------------|-------------|
->|Emily Braun |1034/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 8901 |
->|Lidia Holloway |1065/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 89112 |
->|Louis Lahr |1023/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 8921 |
->|Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
->|Rachelle Cormier |07N15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
->|Isabell Potvin |07F05E/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
+> 
+> |User |Emergency location and address |Phone number |
+> |-----|-------------------------------|-------------|
+> |Emily Braun |1034/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 8901 |
+> |Lidia Holloway |1065/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 89112 |
+> |Louis Lahr |1023/32 London Bridge Street, London, SE1, United Kingdom |+44 23 4567 8921 |
+> |Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
+> |Rachelle Cormier |07N15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
+> |Isabell Potvin |07F05E/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -121,7 +126,7 @@ Phone System voicemail, powered by Azure Voicemail services, supports voicemail 
 
 By default, Phone System voicemail works with Exchange Online; however it has a minimum supported Exchange on-premises version and deployment model to allow delivery of voicemail messages to user mailboxes in the on-premises Exchange deployment.
 
-Phone System voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization. If your organization decided to keep voicemail transcription enabled, you need to also consider whether voicemail transcription profanity masking need to be enabled. See [Setting voicemail policies in your organization](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) for more details.
+Phone System voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization. If your organization decided to keep voicemail transcription enabled, you need to also consider whether voicemail transcription profanity masking need to be enabled. See [Setting voicemail policies in your organization](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) for more details.
 
 >[!NOTE]
 > A fallback mechanism has been implemented so that Phone System voicemail can resend messages by using SMTP, which means users who have a mailbox on a third-party email system will receive their voicemail messages. This mechanism doesn’t include guaranteed service uptime or other voicemail
@@ -130,6 +135,7 @@ features, such as changing voicemail greeting.
 For more information about voicemail in a Phone System implementation, see [Azure PBX voicemail support for Exchange Server](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans).
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether you’ll enable Phone System voicemail in your Calling Plans implementation.</li><li>If using Exchange on-premises and your existing deployment doesn’t meet your requirements to support Phone System voicemail, choose from the available options (upgrade and setup for Phone System voicemail support, migrate to Exchange Online, or leverage the fallback mechanism described earlier).</li><li>Decide whether you’ll enable or disable voicemail transcription and voicemail transcription profanity masking throughout the organization or for specific users.</li></ul>|
@@ -137,14 +143,15 @@ For more information about voicemail in a Phone System implementation, see [Azur
 
 > [!TIP]
 > Phone System voicemail details for the Phone System with Calling Plans implementation can be documented as the following.
->|User |Exchange mailbox |Enable voicemail? |Voicemail transcription |Voicemail transcription profanity masking |
->|------------------|------------------|-------------------|----------|----------|
->|Emily Braun      |Online      |Yes |Enabled |Enabled |
->|Lidia Holloway   |Online      |Yes |Enabled |Disabled |
->|Louis Lahr       |On-premises |Yes |Enabled |Enabled |
->|Marcel Beauchamp |On-premises |Yes |Disabled |N/A |
->|Rachelle Cormier |Online      |Yes |Disabled |N/A |
->|Isabell Potvin   |On-premises |Yes |Disabled |N/A |
+> 
+> |User |Exchange mailbox |Enable voicemail? |Voicemail transcription |Voicemail transcription profanity masking |
+> |------------------|------------------|-------------------|----------|----------|
+> |Emily Braun      |Online      |Yes |Enabled |Enabled |
+> |Lidia Holloway   |Online      |Yes |Enabled |Disabled |
+> |Louis Lahr       |On-premises |Yes |Enabled |Enabled |
+> |Marcel Beauchamp |On-premises |Yes |Disabled |N/A |
+> |Rachelle Cormier |Online      |Yes |Disabled |N/A |
+> |Isabell Potvin   |On-premises |Yes |Disabled |N/A |
 
 <!--ENDOFSECTION-->
 
@@ -153,6 +160,7 @@ For more information about voicemail in a Phone System implementation, see [Azur
 By default, all outbound calls use the assigned phone number as calling identity (Caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call. In some cases, there are legitimate business requirements to mask the Caller ID to protect the identity of callers by using the office main line number—this is typically a service number serviced by the Auto Attendant configuration—as Caller ID, or to block Caller ID presentation altogether.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether Caller ID manipulation is required for your Calling Plans implementation.</li><li>If applicable, decide the types of Caller ID manipulation (mask with service number or anonymize) to be implemented.</li><li>If applicable, decide which users require Caller ID manipulation and the type of Caller ID manipulation to be assigned to each user.</li></ul>|
@@ -160,14 +168,15 @@ By default, all outbound calls use the assigned phone number as calling identity
 
 > [!TIP]
 > The following is an example of Caller ID masking details documentation.
->|User  |Enable outbound Caller ID masking  |Caller ID masking type  |Allow user override  | Enable inbound Caller ID masking  |
->|---------|---------|---------|---------|---------|
->|Emily Braun|No|N/A|Yes|No|
->|Lidia Holloway|Yes|Service number (OrgAA, +44 20 7946 0000)|No|Yes|
->|Louis Lahr|No|N/A|Yes|No|
->|Marcel Beauchamp|Yes|Service number (OrgAA, TBA)|No|Yes|
->|Rachelle Cormier|Yes|Anonymize|Yes|No|
->|Isabell Potvin|Yes|Service number (OrgAA, TBA)|No|Yes|
+> 
+> |User  |Enable outbound Caller ID masking  |Caller ID masking type  |Allow user override  | Enable inbound Caller ID masking  |
+> |---------|---------|---------|---------|---------|
+> |Emily Braun|No|N/A|Yes|No|
+> |Lidia Holloway|Yes|Service number (OrgAA, +44 20 7946 0000)|No|Yes|
+> |Louis Lahr|No|N/A|Yes|No|
+> |Marcel Beauchamp|Yes|Service number (OrgAA, TBA)|No|Yes|
+> |Rachelle Cormier|Yes|Anonymize|Yes|No|
+> |Isabell Potvin|Yes|Service number (OrgAA, TBA)|No|Yes|
 
 <!--ENDOFSECTION-->
 
@@ -207,6 +216,7 @@ To learn more about Phone System and Calling Plans, review the following article
 -   [Calling Plans](https://products.office.com/skype-for-business/calling-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>If your organization doesn’t have the required Phone System license, decide whether you’ll acquire the Phone System license by stepping up your existing Office 365 subscriptions or by acquiring the Phone System add-on service.</li><li>Decide which users require a Domestic Calling Plan license and which require a Domestic and International Calling Plan license.</li><li>Decide whether you’ll need Communications Credits for your Calling Plans implementation.</li></ul>|
@@ -214,14 +224,15 @@ To learn more about Phone System and Calling Plans, review the following article
 
 > [!TIP]
 > You can use the following example to document the license assignment for Phone System with Calling Plans users.
->|User |Office |Office 365 License |Calling Plan |
->|----|----|----|----|
->|Emily Braun |32 London Bridge Street |Office 365 E5 |International and Domestic Calling Plan |
->|Lidia Holloway |32 London Bridge Street |Office 365 E5 |Domestic Calling Plan |
->|Louis Lahr |32 London Bridge Street |Office 365 E5 |Domestic Calling Plan |
->|Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3, Phone System add-on |Domestic Calling Plan |
->|Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |International and Domestic Calling Plan |
->|Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3, Phone System add-on |Domestic Calling Plan |
+> 
+> |User |Office |Office 365 License |Calling Plan |
+> |----|----|----|----|
+> |Emily Braun |32 London Bridge Street |Office 365 E5 |International and Domestic Calling Plan |
+> |Lidia Holloway |32 London Bridge Street |Office 365 E5 |Domestic Calling Plan |
+> |Louis Lahr |32 London Bridge Street |Office 365 E5 |Domestic Calling Plan |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3, Phone System add-on |Domestic Calling Plan |
+> |Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |International and Domestic Calling Plan |
+> |Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3, Phone System add-on |Domestic Calling Plan |
 
 <!--ENDOFSECTION-->
 
@@ -237,6 +248,7 @@ For your Calling Plans implementation, you can control the use of Communications
 To learn more about Communications Credits, review [What are Communications Credits?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether you need Communications Credits for your Audio Conferencing or Calling Plans implementation.</li></ul>|
@@ -244,23 +256,26 @@ To learn more about Communications Credits, review [What are Communications Cred
 
 > [!TIP]
 > You use the following example to document the Communications Credits assignment list for Calling Plans users.
->|User |Office |Calling Plan |Communications Credits |
->|----|----|----|----|
->|Emily Braun |32 London Bridge Street |International and Domestic Calling Plan |Enabled |
->|Lidia Holloway |32 London Bridge Street |Domestic Calling Plan |Disabled |
->|Louis Lahr |32 London Bridge Street |Domestic Calling Plan |Enabled |
->|Marcel Beauchamp |39 quai du Président Roosevelt |Domestic Calling Plan |Disabled |
->|Rachelle Cormier |39 quai du Président Roosevelt |International and Domestic Calling Plan |Enabled |
->|Isabell Potvin |39 quai du Président Roosevelt |Domestic Calling Plan |Disabled |
+> 
+> |User |Office |Calling Plan |Communications Credits |
+> |----|----|----|----|
+> |Emily Braun |32 London Bridge Street |International and Domestic Calling Plan |Enabled |
+> |Lidia Holloway |32 London Bridge Street |Domestic Calling Plan |Disabled |
+> |Louis Lahr |32 London Bridge Street |Domestic Calling Plan |Enabled |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |Domestic Calling Plan |Disabled |
+> |Rachelle Cormier |39 quai du Président Roosevelt |International and Domestic Calling Plan |Enabled |
+> |Isabell Potvin |39 quai du Président Roosevelt |Domestic Calling Plan |Disabled |
 
 <br>
+
 > [!TIP]
 > Your Communications Credits planning numbers can be documented as in the following example.
->|         |         |
->|---------|---------|
->|Initial amount|$ 1,000|
->|Trigger amount|$ 400|
->|Auto-recharge amount|TBA|
+>
+> |         |         |
+> |---------|---------|
+> |Initial amount|$ 1,000|
+> |Trigger amount|$ 400|
+> |Auto-recharge amount|TBA|
 
 <!--ENDOFSECTION-->
 
@@ -287,6 +302,7 @@ The total count of telephone numbers that you can obtain depend on the type of t
 For more information about the total count of telephone numbers that you can obtain, see [How many phone numbers can you get?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Decide the type of telephone numbers to be acquired from Microsoft.</li></ul>|
@@ -309,6 +325,7 @@ Telephone number porting is a complex topic and requires thorough planning, coor
 -   [Transferring phone numbers common questions](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Decide the type of telephone numbers to be transferred to Microsoft.</li></ul>|
@@ -340,6 +357,7 @@ The effective dial plan assigned to users is the combination of the service dial
 For more information about dial plans, see [What are dial plans?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether your organization requires customized dial plans (business requirements, adoption requirements, and so on).</li><li>If applicable, decide the scope of the tenant dial plan (tenant-global or tenant-user) to support your requirements for customized dial plans.</li><li>If applicable, decide the tenant dial plans that you’ll create to support user locations or offices in scope for the cloud voice implementation.</li><li>If applicable, decide which users require a customized dial plan and the tenant dial plan to be assigned for each user.</li></ul>|
@@ -347,36 +365,39 @@ For more information about dial plans, see [What are dial plans?](https://docs.m
 
 > [!TIP]
 > If it’s applicable to your project, you can use the following template to document the tenant dial plan configurations.
->|Tenant Dial Plan Name<br>_Description_  |Normalization Rules Name<br>_Description_  |Pattern<br>Translation<br>IsInternalExtension  |
->|---------|---------|---------|
->|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, AU Dial Plan_|**AU-NSW-NorthRyde-OER-Internal**<br>_Internal number (x7000 - x7999) for One Epping Road office, North Ryde, NSW, Australia_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_Local number normalization for NSW, Australia_|^([2-9]\d{7})$<br>+612$1<br>False|
->||**AU-TollFree**<br>_Toll Free number normalization for Australia_|^(1[38]\d{4,8})\d*$<br>+61$1<br>False|
->||**AU-Service**<br>_Service number normalization for Australia_|^(000\|1[0125]\d{1,8})$<br>$1<br>False|
->|**SG-Singapore-OMB**<br>_OMB Singapore, SG Dial Plan_|**SG-OMB-Internal**<br>_Internal number (x8000 â€“ x8999) for OMB office, Singapore_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_Toll Free number normalization for Singapore_|^(1?800\d{7})\d*$<br>+65$1<br>False|
->||**SG-Service**<br>_Service number normalization for Singapore_|^(1\d{3,4}\|9\d{2})$<br>$1<br>False|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Internal number (x7000 â€“ x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Toll Free number normalization for France_|^0?(80\d{7})\d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Service number normalization for France_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
+> 
+> |Tenant Dial Plan Name<br>_Description_  |Normalization Rules Name<br>_Description_  |Pattern<br>Translation<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, AU Dial Plan_|**AU-NSW-NorthRyde-OER-Internal**<br>_Internal number (x7000 - x7999) for One Epping Road office, North Ryde, NSW, Australia_|^(7\d{3})$<br>+6125550$1<br>True|
+> ||**AU-NSW-Local**<br>_Local number normalization for NSW, Australia_|^([2-9]\d{7})$<br>+612$1<br>False|
+> ||**AU-TollFree**<br>_Toll Free number normalization for Australia_|^(1[38]\d{4,8})\d*$<br>+61$1<br>False|
+> ||**AU-Service**<br>_Service number normalization for Australia_|^(000\|1[0125]\d{1,8})$<br>$1<br>False|
+> |**SG-Singapore-OMB**<br>_OMB Singapore, SG Dial Plan_|**SG-OMB-Internal**<br>_Internal number (x8000 â€“ x8999) for OMB office, Singapore_|^(8\d{3})$<br>+656888$1<br>True|
+> ||**SG-TollFree**<br>_Toll Free number normalization for Singapore_|^(1?800\d{7})\d*$<br>+65$1<br>False|
+> ||**SG-Service**<br>_Service number normalization for Singapore_|^(1\d{3,4}\|9\d{2})$<br>$1<br>False|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Internal number (x7000 â€“ x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_Toll Free number normalization for France_|^0?(80\d{7})\d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_Service number normalization for France_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
+
 > [!TIP]
 > The example template below can be leveraged to document dial plan assignments to support your project:
->|User  |Office  |Dial Plan Type  |Dial Plan Name  |
->|---------|---------|---------|---------|
->|Adele Vance|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
->|Alex Wilber|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
->|Ben Walters|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
->|Christie Cline|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
->|Debra Berger|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
->|Lee Gu|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
->|Emily Braun|32 London Bridge Street|Service dial plan|N/A|
->|Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
->|Louis Lahr|32 London Bridge Street|Service dial plan|N/A|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
+>
+> |User  |Office  |Dial Plan Type  |Dial Plan Name  |
+> |---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
+> |Ben Walters|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
+> |Christie Cline|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
+> |Debra Berger|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
+> |Lee Gu|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
+> |Emily Braun|32 London Bridge Street|Service dial plan|N/A|
+> |Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
+> |Louis Lahr|32 London Bridge Street|Service dial plan|N/A|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
 
 <!--ENDOFSECTION-->
 

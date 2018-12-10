@@ -14,7 +14,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: "The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in Create a VIS pool in Skype for Business Server."
 ---
 
-# Lync Server 2013 Scope Node
+# Skype for Business Server Scope Node
  
 The steps needed to define a new VIS or Video Gateway in Topology Builder are described online in [Create a VIS pool in Skype for Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   

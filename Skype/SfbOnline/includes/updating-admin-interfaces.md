@@ -1,1 +1,1 @@
-We are frequently updating how you can manage features found in Microsoft Teams so the steps here might be a little different in the Microsoft Teams and Skype for Business admin center.
+We are frequently updating how you can manage features found in Skype for Business Online, so the steps here might be a little different.

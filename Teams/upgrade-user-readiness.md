@@ -1,5 +1,5 @@
 ---
-title: Prepare my user readiness plan before upgrade from Skype for Business to Microsoft Teams - Microsoft Teams
+title: Prepare a user readiness plan before upgrade from Skype for Business to Microsoft Teams - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -8,9 +8,10 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Plan to communicate with, train, and support your users as you pilot, onboard and upgrade to Teams  
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ---
@@ -41,7 +42,7 @@ An optimal user readiness plan incorporates how you’ll communicate with, train
 <table>
 <tbody>
 <tr><th>What communication channels will you leverage?</th><th>What training channels will you leverage?</th><th>What support channels will you use?</th></tr>
-<tr><td><ul><li>Email<br>**Tip:** Use our sample pilot, coexistence, and upgrade emails to customize your email campaign.</li><li>Posters and digital signage</li><li>Launch events</li><li>Department managers</li><li>Champions</li><li>Teams/channels</li><li>Gamification</li></ul></td><td><ul><li>Microsoft-published online articles and videos</li><li>Resources:<ul><li>[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)</li></ul></li><li>In-product assistance (T-Bot)</li><li>In-house training team</li><li>Partner training team</li></ul></td><td><ul><li>In-house helpdesk</li><li>Outsourced support desk</li><li>Self-service (intranet site)</li><li>[Online help and how-to](https://support.office.com/teams)</li><li>Floor-walkers and champions</li><li>Feedback loop (surveys, ratings)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>Tip:</strong> Use our sample pilot, coexistence, and upgrade emails to customize your email campaign.</li><li>Posters and digital signage</li><li>Launch events</li><li>Department managers</li><li>Champions</li><li>Teams/channels</li><li>Gamification</li></ul></td><td><ul><li>Microsoft-published online articles and videos</li><li>Resources:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Switch to Teams from Skype for Business</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Teams Video Training</a></li></ul></li><li>In-product assistance (Help)</li><li>In-house training team</li><li>Partner training team</li></ul></td><td><ul><li>In-house helpdesk</li><li>Outsourced support desk</li><li>Self-service (intranet site)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Online help and how-to</a></li><li>Floor-walkers and champions</li><li>Feedback loop (surveys, ratings)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

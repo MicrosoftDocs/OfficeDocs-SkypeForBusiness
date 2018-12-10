@@ -4,14 +4,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: NMuravlyannikov
 ms.topic: article
+ms.service:  
+- msteams
+- skype-for-business-online
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection: 
+search.appverid: MET150
+ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: "Read this topic to learn how Microsoft Phone System Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Phone System."
 ---
 
 # Plan Direct Routing
+
+> [!Tip]
+> Watch the following session to learn about the benefits of Direct Routing, how to plan for it, and how to deploy it: [Direct Routing in Microsoft Teams](https://aka.ms/teams-direct-routing)
 
 Microsoft Phone System Direct Routing lets you connect a supported, customer-provided Session Border Controller (SBC) to Microsoft Phone System.  With this capability, for example, you can configure on-premises PSTN connectivity with Microsoft Teams client, as shown in the following diagram: 
 
@@ -31,9 +41,9 @@ Microsoft also offers all-in-the-cloud voice solutions, such as Calling Plan.  H
 - Your organization requires connection to third-party analog devices, call centers, and so on. 
 - Your organization has an existing contract with a PSTN carrier.
 
-Direct Routing also supports users who have the additional license for the Microsoft Calling Plan. For more information, see [Calling Plans in Office 365](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) and [Licensing and other requirements](#licensing-and-other-requirements). 
+Direct Routing also supports users who have the additional license for the Microsoft Calling Plan. For more information, see [Calling Plans in Office 365](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) and [Licensing and other requirements](#licensing-and-other-requirements). 
 
-With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by Microsoft Audio Conferencing service, which requires proper licensing.  When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. (Note that dialing out does not route through Direct Routing.) For more information, see [Online Meetings with Teams](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions). 
+With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by Microsoft Audio Conferencing service, which requires proper licensing.  When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. (Note that dialing out does not route through Direct Routing.) For more information, see [Online Meetings with Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
 Planning your deployment of Direct Routing is key to a successful implementation. This article describes infrastructure and licensing requirements and provides information about SBC connectivity: 
 
@@ -56,15 +66,15 @@ The infrastructure requirements for the supported SBCs, domains, and other netwo
 |Telephony trunks connected to the SBC|One or more telephony trunks connected to the SBC. On one end, the SBC connects to the Microsoft Phone System via Direct Routing. The SBC can also connect to third-party telephony entities, such as PBXs, Analog Telephony Adapters, and so on. Any PSTN connectivity option connected to the SBC will work. (Note: For configuration of the PSTN trunks to SBC, please refer to the SBC vendors or trunk providers.)|
 |Office 365 tenant|An Office 365 tenant that you use to home your Microsoft Teams users, and the configuration and connection to the SBC.|
 |User registrar|User must be homed in Office 365.<br/>If your company has an on-premises Skype for Business or Lync environment with hybrid connectivity to Office 365, you cannot enable voice in Teams for a user homed on-premises.<br/><br/>To check the registrar of a user, use the following Skype for Business Online PowerShell cmdlet:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>The output of the cmdlet should show:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domains|One or more domains added to your Office 365 tenants.<br/><br/>**Note:** You cannot use the default domain, *.onmicrosoft.com, that is automatically created for your tenant.<br/><br/>To view the domains, you can use the following Skype for Business Online PowerShell cmdlet:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>For more information about domains and Office 365 tenants, see [Domains FAQ](https://support.office.com/en-us/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|Domains|One or more domains added to your Office 365 tenants.<br/><br/>**Note:** You cannot use the default domain, *.onmicrosoft.com, that is automatically created for your tenant.<br/><br/>To view the domains, you can use the following Skype for Business Online PowerShell cmdlet:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>For more information about domains and Office 365 tenants, see [Domains FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Public IP address for the SBC|A public IP address that can be used to connect to the SBC. Based on the type of SBC, the SBC can use NAT.|
 |Fully Qualified Domain Name (FQDN) for the SBC|A FQDN for the SBC, where the domain portion of the FQDN is one of the registered domains in your Office 365 tenant. For more information, see [SBC domain names](#sbc-domain-names).|
 |Public DNS entry for the SBC |A public DNS entry mapping the SBC FQDN to the public IP Address. |
 |Public trusted certificate for the SBC |A certificate for the SBC to be used for all communication with Direct Routing. For more information, see [Public trusted certificate for the SBC](#public-trusted-certificate-for-the-sbc).|
 |Connection points for Direct Routing |The connection points for Direct Routing are the following three FQDNs:<br/><br/>`sip.pstnhub.microsoft.com` – Global FQDN, must be tried first.<br/>`sip2.pstnhub.microsoft.com` – Secondary FQDN, geographically maps to the second priority region.<br/>`sip3.pstnhub.microsoft.com` – Tertiary FQDN, geographically maps to the third priority region.<br/><br/>For information on configuration requirements, see [SIP Signaling: FQDNs and firewall ports](#sip-signaling-fqdns-and-firewall-ports).|
-|Firewall IP addresses and ports for Direct Routing media |The SBC communicates to the following services in the cloud:<br/><br/>SIP Proxy, which handles the signaling<br/>Media Processor, which handles media -except when Media Bypass is on<br/><br/>These two services have separate IP addresses in Microsoft Cloud, described later in this document.<br/><br/>For more information, see the [Microsoft Teams section](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) in [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+|Firewall IP addresses and ports for Direct Routing media |The SBC communicates to the following services in the cloud:<br/><br/>SIP Proxy, which handles the signaling<br/>Media Processor, which handles media -except when Media Bypass is on<br/><br/>These two services have separate IP addresses in Microsoft Cloud, described later in this document.<br/><br/>For more information, see the [Microsoft Teams section](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) in [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Media Transport Profile|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-Firewall IP addresses and ports for Microsoft Teams media |For more information, see [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+Firewall IP addresses and ports for Microsoft Teams media |For more information, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## Licensing and other requirements 
@@ -89,9 +99,9 @@ Direct Routing also supports users who are licensed for Microsoft Calling Plan. 
 
 Mixing Calling Plan and Direct Routing connectivity for the same user is optional, but could be useful, for example, when the user is assigned a Microsoft Calling Plan but wants to route some calls via SBC. One of the most common scenarios are calls to third-party PBXs.  With third-party PBXs, all calls, except calls to the phones connected to that PBXs, are routed via Microsoft Calling Plan; but calls to the phones connected to third-party PBXs go to the SBC, therefore stay within the enterprise network and not to the PSTN. 
 
-For more information about Phone System licensing, see [Get the most from Office with Office 365](https://products.office.com/en-us/compare-all-microsoft-office-products?tab=2) and [Office 365 Plan Options](https://technet.microsoft.com/en-us/library/office-365-plan-options.aspx). 
+For more information about Phone System licensing, see [Get the most from Office with Office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2) and [Office 365 Plan Options](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
 
-For more information about Phone System licensing, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
+For more information about Phone System licensing, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
 
 ## SBC domain names
 
@@ -102,8 +112,10 @@ The following table shows examples of DNS names registered for the tenant, wheth
 |**DNS name**|**Can be used for SBC FQDN**|**Examples of FQDN names**|
 |:--- |:--- |:--- |
 contoso.com|Yes|**Valid names:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
-|contoso.onmicrosoft.com|No|**Non-valid name:**<br/>sbc1.europe.contoso.com (requires registering domain name europe.contoso.com in “Domains” first)
-|
+|contoso.onmicrosoft.com|No|<br/>Using *.onmicrosoft.com domains is not supported for SBC names
+
+Assume you want to use a new domain name. For example, your tenant has contoso.com as a domain name registered in your tenant, and you want to use sbc1.sip.contoso.com. Before you can pair an SBC with the name sbc1.sip.contoso.com, you must register the domain name sip.contoso.com in "Domains" in your tenant. If you try pairing an SBC with sbc1.sip.contoso.com before registering the domain name, you will get the following error: "Cannot use the "sbc1.sip.contoso.com" domain as it was not configured for this tenant."
+After you add the domain name, you also need to create a user with UPN user@sip.contoso.com and assign a "Teams" license. It might take up to 24 hours to fully provision the domain name after it is added to "Domains" of your tenant, a user with a new name is created, and a license is assigned to the user. 
 
 It is possible that a company might have several SIP address spaces in one tenant. For example, a company might have contoso.com as a SIP address space and fabrikam.com as the second SIP address space. Some users have address user@contoso.com and some users have address user@fabrikam.com. 
 
@@ -123,18 +135,26 @@ An example would be using *.contoso.com in the SAN, which would match the SBC FQ
 
 The certificate needs to be generated by one of the following root certificate authorities:
 
+- AffirmTrust
 - AddTrust External CA Root
 - Baltimore CyberTrust Root
 - Buypass
-- Class 3 Public Primary Certification Authority 
+- Cybertrust
+- Class 3 Public Primary Certification Authority
+- Comodo Secure Root CA
+- Deutsche Telekom 
 - DigiCert Global Root CA 
 - Entrust
 - GlobalSign
 - Go Daddy
+- GeoTrust
 - Verisign, Inc. 
+- Starfield 
 - Symantec Enterprise Mobile Root for Microsoft 
+- SwissSign
 - Thawte Timestamping CA
 - Trustwave
+- TeliaSonera 
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
 
@@ -198,18 +218,31 @@ The port range of the Media Processors is shown in the following table:
   > [!NOTE]
   > Microsoft  recommends at least two ports per concurrent call on the SBC.
 
+## Media traffic: Codecs
+
+### Leg between SBC and Cloud Media Processor or Microsoft Teams client.
+Applies to both media bypass case and non-bypass cases
+
+The Direct Routing interface on the leg between the Session Border Controller and Cloud Media Processor (without media bypass) or between the Teams client and the SBC (if Media Bypass enabled) can use the following codecs:
+- Non-Media bypass (SBC to Cloud Media Processor): SILK, G.711, G.722, G,729
+- Media Bypass (SBC to Teams client):  SILK, G.711, G.722, G,729, OPUS
+
+You can force use of the specific codec on the Session Border Controller by excluding undesirable codecs from the offer.
+
+### Leg between Microsoft Teams Client  and Cloud Media Processor
+Applies to non-media bypass case only. With Media Bypass media flows directly between Teams client and SBC
+
+On the leg between the Cloud Media Processor and Microsoft Teams client either SILK or G.722 used. The codec choice on this leg  based on Microsoft algorithms, which take into consideration multiple parameters. 
+
+
 ## Supported Session Border Controllers (SBCs)
 
-Microsoft only supports the certified SBC to pair with Direct Routing. Because Enterprise Voice is critical for business, Microsoft runs intensive tests with the selected SBCs, and works with the SBC vendors to ensure the two systems are compatible. 
+Microsoft only supports certified SBCs to pair with Direct Routing. Because Enterprise Voice is critical for businesses, Microsoft runs intensive tests with the selected SBCs, and works with the SBC vendors to ensure the two systems are compatible. 
 
-Devices that have been validated are listed as Certified for Teams Direct Routing. The certified devices are guaranteed to work in all scenarios. There is also a joint support process between Microsoft and the SBC vendors established.  
+Devices that have been validated are listed as Certified for Teams Direct Routing. The certified devices are guaranteed to work in all scenarios. 
 
-The following vendors are in the process of being certified:
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- Ribbon (formerly Sonus):
-   - [SBC Edge series](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [SBC Core Series TBD](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
-- ThinkTel: ThinkTel does not sell the SBCs to the enterprises but their SBC is being certified.  
+For more information about supported SBCs, see [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md).
+
  
 ## See also
 

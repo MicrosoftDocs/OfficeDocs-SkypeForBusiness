@@ -3,83 +3,37 @@ title: Manage Microsoft Teams features in your Office 365 organization
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 10/29/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: Learn all the Microsoft Teams features you can turn on or turn off in your Office 365 organization, including tenant-wide settings, email integration, apps, cloud storage, and more.
-localization_priority: Priority
+search.appverid: MET150
+description: Learn how to turn on or off Microsoft Teams apps in your Office 365 organization, including tabs, connectors, bots, or any combination of the three.
+localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---
 
-Manage Microsoft Teams features in your Office 365 organization
-======================================================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+# Manage Microsoft Teams features in your Office 365 organization
 
-Teams has multiple settings that can be turned on or turned off at the Office 365 tenant level. With Teams enabled, any user that is also enabled for Teams will inherit the settings from the tenant level.
+All Teams settings will soon be migrated to the new Microsoft Teams & Skype for Business Admin Center. The only Teams feature that is managed in the Office 365 admin center is Apps. 
 
-Below is the list of features an Office 365 administrator can turn on or turn off in Teams. 
+Unless otherwise noted, the default value for an option is **On**.
 
-Unless otherwise noted, the default value for an option is On.
+## Office 365 tenant-wide settings 
 
-> [!NOTE] 
-> To manage admin settings for Teams, go to the Office 365 admin center and open **Settings** > **Services & add-ins**, then choose **Microsoft Teams**. If you're signed in as an Office 365 admin, this link should take you there: 
+In **Tenant-wide settings**, you can turn on or turn off Apps.
+
+To edit **Tenant-wide settings** for Teams, go to the Microsoft Teams & Skype for Business Admin Center, and select **Legacy portal**. Choose **Settings** > **Services & add-ins** > **Microsoft Teams**. If you're signed in as an Office 365 admin, this link should take you there: 
 >  
 > https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
 
-> [!IMPORTANT]
-> An Office 365 admin can turn off Microsoft Teams at any time in the Office 365 admin center. Be aware that users with active Microsoft Teams licenses will continue to see the Teams app tile even if you turn off Teams. For details about how to remove licenses from users, see [Manage user access to Microsoft Teams](user-access.md). After Teams is disabled, access from the Teams client is blocked, but data available through other clients and services is still available, such as files via SharePoint and OneDrive. All data remains in place unless the teams are explicitly deleted.
+### Apps
 
-Office 365 tenant-wide settings 
----------------------
-
-In **Tenant-wide settings**, you can turn on or turn off options in General, Email integration, Apps, and Custom cloud storage.
-
-To edit **Tenant-wide settings** for Teams, go to the Office 365 admin center. Choose **Settings** > **Services & add-ins** > **Microsoft Teams**.
-
-### General
-
-The General section lets you configure the following settings for your organization:
-
-> ![Screenshot of the General section in Tenant-wide settings.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image1.png)
-
--   **Show organizational chart in personal profile:** When this setting is turned on, it shows the organizational chart icon in the user’s contact card, and when clicked, it displays the detailed organizational chart.
-
-    ![Screenshot of the organizational chart icon in a user's contact card.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image2.png)
-
-    ![Screenshot of an organization chart.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image3.png)
-
--  **Use Skype for Business for recipients who don’t have Teams:** When this setting is turned on, Teams conversations automatically show up in Skype for Business for users that aren't enabled for Teams.  
-
--   **Allow T-bot proactive help messages:** When this setting is turned on, T-bot will initiate a private chat session with users to help them use Teams.
-
-    ![Screenshot of T-Bot section in Teams interface.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image4.png)
-
-Email integration
------------------
-
-Turn on this feature so users can send email to a channel in Teams, using the channel email address. Users can do this for any channel belonging to a team they own. Users can also send emails to any channel in a team that has adding connectors enabled for team members. And, even if a user doesn’t have permission to create a channel email address, if someone who does have permission creates that address, the user can access it from the **More options** menu for that channel.
-
-Configure the following **Email integration** settings for your organization: 
-
-   ![Screenshot of the Email integration section in Tenant-wide settings.](media/QS-edu-email-integration.png)
-
-
--   **Allow users to send emails to channels:** When turned on, mail hooks are enabled, and users can post messages to a channel by sending an email to the email address of Teams channel. 
-
-    To find the email address for a channel, click the **More options** menu for the channel and then select **Get email address**. 
-
--   **Restricted Senders List:** Senders domains can be further restricted to ensure that only allowed SMTP domains can send emails to the Teams channels.
-
-Apps
-----
-
-Apps are tabs, connectors, bots, or any combination of these three, provided by a third-party service. There are Teams admin policies that can be configured in the Office 365 admin center to control which external third-party apps are allowed. These policies let you specify which apps are allowed and disallowed, new external App behavior, and whether side-loading apps is allowed. 
+Apps are tabs, connectors, bots, or any combination of these three, provided by a third-party service. There are Teams admin policies that can be configured in the Office 365 admin center to control which external third-party apps are allowed. These policies let you specify which apps are allowed and disallowed, new external app behavior, and whether side-loading apps is allowed. 
 
 Under **Apps**, you can configure the following settings for your organization: 
 
@@ -91,100 +45,76 @@ Under **Apps**, you can configure the following settings for your organization:
 
 - **Enable new external apps by default**: When this switch is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this switch if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on cool new apps. 
 
-- **Allow sideloading of external apps**: When this switch is turned on, users can install and enable custom bots and tabs. 
+- **Allow sideloading of external apps**: When this switch is turned on, users can install and turn on custom bots and tabs. 
 
 To learn more, read [Admin settings for apps in Teams](admin-settings.md). 
 
+## Teams org-wide settings
 
+You can control organization-wide user settings in the Microsoft Teams & Skype for Business Admin Center. To edit org-wide settings, go to the Microsoft Skype for Business Admin Center, and then select **Org-wide settings**. You can configure the following settings.
 
-Custom cloud storage
---------------------
+### External access
 
-Cloud storage options in Teams currently include Box, Dropbox, Google Drive, and ShareFile. Users can upload and share files from cloud storage services in Teams channels and chats. Turn on the switch for the cloud storage providers that your organization wants to use. 
+**External access** lets your Teams and Skype for Business users communicate with users who are outside of your organization. To configure external access, go to [Let your Teams users chat and communicate with users in another Teams organization](let-your-teams-users-communicate-with-other-people.md).
 
-![Screenshot of the Custom cloud storage section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
+### Guest access
 
-Settings by user/license type
-------------------------
-When you set up Microsoft Teams for your organization initially, you used the the **Settings by user/license type** drop-down menu to select a license type and then turned Teams on for all users of that license type.
+**Guest access** in Microsoft Teams allows teams in your organization to collaborate with people outside your organization by granting them access to teams and channels. Anyone with a business or consumer email account, such as Outlook, Gmail, or others, can participate as a guest in Teams with full access to team chats, meetings, and files. For more information, see [Guest access in Microsoft Teams](guest-access.md).
 
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
+### Teams settings
 
- Some examples of user/license types are **Business & Enterprise** and **Guest**. (If you have an Education SKU license, **Education - Faculty and Staff** or **Education - Student** are available.)![Control for Set user license](media/enable-microsoft-teams-features-in-your-office-365-organization-image13.png)
+In **Teams settings**, you can set up email integration, cloud storage options, Skype for Business interoperability, and devices.
 
-You can you have multiple license types within your organization, for example, both **Business & Enterprise** and **Guest**. Microsoft Teams can only differentiate users based on the licenses you've assigned them. You can turn on or turn off options for these users in **Teams and channels**, **Calls and meetings**, and **Messaging**. If you use only one license type, consider the settings here as tenant-wide settings.
-> [!NOTE]
-> For more details about guest access, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md).
+#### Email integration
 
-Teams and channels
-------------------
+Turn on this feature so users can send email to a channel in Teams, using the channel email address. Users can do this for any channel belonging to a team they own. Users can also send emails to any channel in a team that has adding connectors turned on for team members. To turn on email integration, make sure that **Allow users to send emails to a channel email address** is **On**. 
 
-A team is designed to bring together a group of people who work closely to get things done. Teams can be dynamic for project-based work (for example, launching a product or creating a digital war room). Or, teams can be ongoing, to reflect the internal structure of your organization.
+#### Files
 
-The maximum number of teams that an Office 365 tenant can have is currently 500,000. A global admin can create an unlimited number of teams. A user can create 250 teams. A team owner can add 2500 members to a team.
+Here you can turn on or turn off file sharing and cloud file storage options. 
 
-As an admin, you can manage team owners and members by using the Groups dashboard in the Office 365 admin center. To learn more, click **Use the Groups dashboard in the Office 365 admin center to manage teams** under **Teams and channels**.
+Users can upload and share files from cloud storage services in Teams channels and chats. Cloud storage options in Teams currently include ShareFile, Dropbox, Box, and Google Drive. Turn on the switch for the cloud storage providers that your organization wants to use.
 
-You can control which users in your organization can create teams in Teams. The same creation settings defined by Office 365 groups apply to Teams. For more information about managing Office 365 groups, see [Create Office 365 groups](https://support.office.com/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f) and [Control who can create Office 365 Groups](https://support.office.com/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+#### Organization
 
-> [!NOTE]
-> You can't create teams from the Groups dashboard. Teams must be created by using the Teams desktop client or web app.
+Here you can turn on the **Organization** tab, which shows the detailed organizational chart for the user’s organization. For more information, see [Use the organization tab in Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
 
-By default, every user can create a team or group. Choose **Teams** on the left side in the Teams client (desktop client or web app), then choose **Create and join team** at the bottom of the client, below the team list.
+#### Skype for Business interop
 
-![Screenshot of the User settings by license section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image8.png)
+Use this setting to let Teams users chat with Skype for Business users. For detailed information about interoperability between Teams and Skype for Business, go to [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-Channels are subcategories of teams. Anyone on the team can add a channel and participate in the conversations in a channel. You might create a channel for an activity or for a department. Conversations, files, and wikis are specific to each channel, but all members of the team can see them.
+#### Devices
 
-## Calls and meetings
+These settings control resource account behavior for Surface Hub devices attending Microsoft Teams meetings. Use these settings to configure authentication requirements, require a content PIN, and turn on Surface Hub resource accounts to send messages.
 
-Configure the following **Calls and meetings** settings for your organization:
+- **Require a secondary form of authentication to access meeting content** – Select the level of access that users have when they enter the content PIN.
+- **Set content PIN** – Require users to enter this PIN to prevent unauthorized access to documents. This prevents an unauthorized user from joining upcoming meetings and browsing attachments.
+- **Resource accounts can send messages** – Turn this setting **On** to allow messages to be sent from the Surface Hub resource account.
 
-![Screenshot of the Calls and meetings section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+#### Search
 
-The maximum number of people in a meeting is 80. There can be 20 members in a private chat, including the user who created the chat.
+Microsoft Teams scoped directory search uses Exchange address book policy (APB) to allow organizations to create virtual boundaries that control how users can find and communicate with other users in their organization. You might want to use a scoped directory search in situations like these:
 
--   **Allow scheduling for private meetings**: When turned on, users can schedule private meetings that are not listed in any channel.
+- Your organization has multiple companies within its tenant that you want to keep separate. 
+- Your school wants to limit chats between faculty and students. 
 
--   **Allow ad-hoc channel meetup**: When turned on, users can quickly start a meeting for a channel that has been created for an immediate or specific purpose.
+Switch this setting **On** to turn on scoped directory searches.
 
--   **Allow scheduling for channel meetings**: When turned on, users can schedule a meeting for a channel that all channel members can easily join with a single click.
+### Teams upgrade
 
--   **Allow videos in meetings:** Specifies whether the use of video is allowed in meetings.
+You can use these settings to configure how your users will be upgraded from Skype for Business to Microsoft Teams. 
 
--   **Allow screen sharing in meetings**: Specifies whether screen sharing is allowed in meetings.
+#### Coexistence mode
+You can specify a coexistence mode: **Teams only**, **Islands** (Teams and Skype for Business will coexist), or **Skype for Business only**. The Coexistence mode you choose determines the routing of incoming calls and chats and the app that is used by the user to initiate chats and calls or to schedule meetings. For more information about coexistence modes, go to [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
--   **Allow private calling**: When turned on, users can make private calls.
+#### App preferences
 
-## Messaging 
+Here you can choose the app that users will use to join Skype for Business meetings (Skype for Business or the [Skype Meetings App](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). This setting isn't dependent on the coexistence mode setting.
 
-The Messaging section lets you configure the following settings for your organization:
+## How can I tell which features are available?
 
-![Screenshot of the Messaging section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image10.png)
+See the [Office 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) for information about new Teams features. For more information about new and upcoming features, see the Teams [What's New](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) page and the [Tech Community Microsoft Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531) for Teams. 
 
--   **Enable Giphy so users can add gifs to conversations**: When turned on, users can use animated pictures within the conversations.
+## More information
 
--   **Content Rating**: When animated images are turned on, content rating can be applied to restrict the type of animated images that can be displayed in conversations. Available content rating options are:
-
-    -   No restriction
-    -   Moderate (the default value)
-    -   Strict
-
--   **Enable memes that users can edit and add to conversations**: When turned on, users can use internet memes to make humorous posts.
-
--   **Enable stickers that users can edit and add to conversations**: When turned on, users can post images with editable text to get channel members attention.
-
--   **Allow owners to delete all messages**: When turned on, channel owners can remove all messages in a channel.
-
--   **Allow users to edit their own messages**: When turned on, users can edit their own messages.
-
--   **Allow users to delete their own messages**: When turned on, users can delete their own messages.
-
--   **Allow users to chat privately**: When turned on, users can engage in private chats that are visible only to the people in the chat, instead of everyone on the team.
-
-
-| |  |  |
-|---------|---------|---------|
-|![Decision Point icon.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image11.png)     |Decision Point         |What settings for Microsoft Teams will your organization enable?         |
-|![Next steps icon.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image12.png)     |Next Steps        |Document these decisions in the table in [Assign roles and permissions in Microsoft Teams](assign-roles-permissions.md).         |
-
+For information about which roles can perform admin functions, see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).

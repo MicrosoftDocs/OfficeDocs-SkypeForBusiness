@@ -15,14 +15,14 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # Registrar Security Settings: Create New or Edit Existing
- 
+
 What do you want to do? Click the link to the task that you want to perform.
-  
+
 - [Manage Registrar configuration settings in Skype for Business Server 2015](../../manage/authentication/registrar-configuration-settings.md)
-    
-- [Modify an Existing Registrar](http://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
-    
-- [Delete a Registrar](http://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
-    
+
+- [Modify an Existing Registrar](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+
+- [Delete a Registrar](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
+
 For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).
 

@@ -7,10 +7,11 @@ ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Choose your upgrade path to Microsoft Teams based on your current Skype for Business deployment  
-localization_priority: Priority
+description: Choose your upgrade path to Microsoft Teams based on your current Skype for Business deployment 
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ---
@@ -34,3 +35,6 @@ Choose your upgrade journey based on your current deployment of Skype for Busine
 -   [Upgrade from Skype for Business Online to Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
 -   [Upgrade from Skype for Business hybrid to Teams](https://aka.ms/SkypeToTeams-UpgradeHybrid)
 -   [Upgrade from Skype for Business on-premises to Teams](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
+
+> [!IMPORTANT]
+> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

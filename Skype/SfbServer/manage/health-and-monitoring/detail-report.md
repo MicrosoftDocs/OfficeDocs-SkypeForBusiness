@@ -12,43 +12,44 @@ description: "Summary: Learn about the Conference Detail Report used in Skype fo
 ---
 
 # Conference Detail Report in Skype for Business Server
- 
+
 **Summary:** Learn about the Conference Detail Report used in Skype for Business Server.
-  
+
 The Conference Detail Report provides detailed information about all the users who participated in a conference. For example, you can see such information as the date and time that a user joined the conference, the date and time that the user left the conference, and the user agent of the endpoint that was used to connect that user to the conference. You can also see information the user's role in each conference (for example, Presenter or Attendee). Perhaps most important, you get quickly see which users successfully join and complete the conference, and which users were not able to successfully join and complete the conference.
-  
+
 ## Accessing the Conference Detail Report
 
 The Conference Detail Report can be accessed from the following reports:
-  
-- The [Call Admission Control Report in Skype for Business Server](call-admission-control-report.md) (by clicking the Detail metric for a conference)
-    
-- The [Failure List Report in Skype for Business Server](failure-list-report.md) (by clicking the Conference metric)
-    
-- The [User Activity Report in Skype for Business Server](user-activity-report.md) (by clicking the Conference URI metric)
-    
-From the Conference Detail Report you can access the [Diagnostic Report in Skype for Business Server](diagnostic-report.md) by clicking the Diagnostic Report (Detail) metric.
-  
+
+- The [Call Admission Control Report](call-admission-control-report.md) (by clicking the Detail metric for a conference)
+
+- The [Failure List Report](failure-list-report.md) (by clicking the Conference metric)
+
+- The [User Activity Report](call-diagnostic-reports-per-user.md) (by clicking the Conference URI metric)
+
+From the Conference Detail Report you can access the [Diagnostic Repor](diagnostic-report.md) by clicking the Diagnostic Report (Detail) metric.
+
 ## Filters
 
 None. You cannot filter on the Conference Detail Report.
-  
+
 ## Metrics
 
 The following table lists the information provided in the Conference Information section of the Conference Detail Report.
-  
+
 **Conference Information Metrics**
 
-|**Name**|**Description**|
-|:-----|:-----|
-|**Conference URI** <br/> |URI assigned to the conference. For example:  <br/> sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4  <br/> |
-|**Pool FQDN** <br/> |Fully-qualified domain name of the Registrar pool or Edge Server involved in a session.  <br/> |
-|**Start time** <br/> |Date and time that the conference started.  <br/> |
-|**Organizer** <br/> |SIP address of the user who organized the conference.  <br/> |
-|**End time** <br/> |Date and time that the conference ended.  <br/> |
-   
+
+| **Name**                 | **Description**                                                                                                            |
+|:-------------------------|:---------------------------------------------------------------------------------------------------------------------------|
+| **Conference URI** <br/> | URI assigned to the conference. For example:  <br/> sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4  <br/> |
+| **Pool FQDN** <br/>      | Fully-qualified domain name of the Registrar pool or Edge Server involved in a session.  <br/>                             |
+| **Start time** <br/>     | Date and time that the conference started.  <br/>                                                                          |
+| **Organizer** <br/>      | SIP address of the user who organized the conference.  <br/>                                                               |
+| **End time** <br/>       | Date and time that the conference ended.  <br/>                                                                            |
+
 The following table lists the information provided in the Conference Participation Section of the Conference Detail Report.
-  
+
 **Conference Participation Metrics**
 
 |**Name**|**Description**|
@@ -60,9 +61,9 @@ The following table lists the information provided in the Conference Participati
 |**Leave time** <br/> |Date and time that the participant left the conference.  <br/> |
 |**User agent** <br/> |Identifier for the software used by the participant's endpoint.  <br/> |
 |**Diagnostic reports** <br/> |Provides diagnostic and troubleshooting information. Including SIP response codes, diagnostic headers, conference join times, and diagnostic IDs for failed sessions.  <br/> |
-   
+
 The following table lists the information provided in the Conference Modalities section of the Conference Detail Report.
-  
+
 **Conference Modalities Metrics**
 
 |**Name**|**Description**|
@@ -72,5 +73,5 @@ The following table lists the information provided in the Conference Modalities 
 |**Leave time** <br/> |Date and time that a participant left the conference.  <br/> |
 |**Conferencing server URI** <br/> |URI for the Conferencing server used in the conference.  <br/> |
 |**Diagnostic reports** <br/> |Provides diagnostic and troubleshooting information. Including SIP response codes, diagnostic headers, conference join times, and diagnostic IDs for failed sessions.  <br/> |
-   
+
 

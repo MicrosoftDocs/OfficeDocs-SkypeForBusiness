@@ -12,53 +12,53 @@ description: "Summary: Read this topic to learn how to deploy conferencing in Sk
 ---
 
 # Deploy conferencing in Skype for Business Server
- 
+
 **Summary:** Read this topic to learn how to deploy conferencing in Skype for Business Server.
-  
-There are four types of conferencing available in Skype for Business Server: web conferencing, audio and video (A/V) conferencing, dial-in conferencing, and instant message (IM) conferencing. You can choose to enable all conferencing types, or to use only one type, depending on your needs. 
-  
-When you deploy Skype for Business Server, IM conferencing capabilities are automatically deployed. When you create and publish a new topology by using Topology Builder, you specify whether to deploy web, A/V, and dial-in conferencing, as described in the following checklists: 
-  
+
+There are four types of conferencing available in Skype for Business Server: web conferencing, audio and video (A/V) conferencing, dial-in conferencing, and instant message (IM) conferencing. You can choose to enable all conferencing types, or to use only one type, depending on your needs.
+
+When you deploy Skype for Business Server, IM conferencing capabilities are automatically deployed. When you create and publish a new topology by using Topology Builder, you specify whether to deploy web, A/V, and dial-in conferencing, as described in the following checklists:
+
 - [Deployment checklist for web and audio/video conferencing](deploy-conferencing.md#BKMK_ChecklistWebConferencing)
-    
+
 - [Deployment flowchart and checklist for dial-in conferencing](deploy-conferencing.md#BKMK_DialinConferencing)
-    
+
 Before you deploy conferencing, you should read the following planning topics:
-  
+
 - [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md)
-    
+
 - [Hardware and software requirements for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
-    
+
 - [Plan your conferencing topology for Skype for Business Server](../../plan-your-deployment/conferencing/conferencing-topology.md)
-    
+
 - [Plan for dial-in conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
-    
+
 - [Plan for large meetings in Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md)
-    
+
 ## Deployment checklist for web and audio/video conferencing
 <a name="BKMK_ChecklistWebConferencing"> </a>
 
-The following table provides an overview of the steps required to deploy web and audio/video conferencing into an existing topology. Links to the associated planning and procedural documentation are included. 
-  
+The following table provides an overview of the steps required to deploy web and audio/video conferencing into an existing topology. Links to the associated planning and procedural documentation are included.
+
 |**Phase**|**Steps**|**Roles and group memberships**|**Documentation**|
 |:-----|:-----|:-----|:-----|
 |**Install required hardware and software** <br/> |Conferencing runs on Front End Servers of a Front End pool and Standard Edition servers. See the server and environmental requirements for Front End Servers.  <br/> If you are enabling web conferencing, you will need to ensure that Skype for Business Server can communicate with Office Web Apps Server, which is used to handle sharing and rendering of PowerPoint presentations.  <br/> For web conferencing, you also need to specify a file share to be used as the file store.  <br/> Do you want to enable external users with Skype for Business clients to join conferences? If so, you need to deploy Edge Servers.  <br/> |Domain user who is a member of the local Administrators group  <br/> | [Server requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) <br> [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [Hardware and software requirements for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md) <br/> [Configure integration with Office Web Apps Server in Skype for Business Server](office-web-app-server.md) <br/> [Create a file share in Skype for Business Server](../../deploy/install/create-a-file-share.md) <br/> [Plan for Edge Server deployments in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) <br/> [Deploy Edge Server in Skype for Business Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md) <br/> |
 |**Create the appropriate internal topology to support conferencing** <br/> |You need to run Topology Builder to add conferencing to the topology, and then publish the topology.  <br/> |To define a topology, an account that is a member of the local Users group  <br/> To publish the topology, an account that is a member of the Domain Admins group and RTCUniversalServerAdmins group, and that has full control permissions (read/write/modify) on the file share to be used for the Skype for Business Server file store (so that Topology Builder can configure the required DACLs)  <br/> |[Create and publish new topology in Skype for Business Server](../../deploy/install/create-and-publish-new-topology.md) <br/> |
 |**Configure conferencing policies and configuration settings** <br/> |Use Skype for Business Server Control Panel or Skype for Business Server Management Shell to configure conferencing policies and configuration settings.  <br/> |RTCUniversalServerAdmins group (Windows PowerShell only) or assign users to the CSAdministrator role  <br/> |[Manage conferencing policies in Skype for Business Server](../../manage/conferencing/conferencing-policies.md) <br/> [Manage meeting configuration settings in Skype for Business Server](../../manage/conferencing/meeting-configuration-settings.md) <br/> [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> [New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> [Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |
-   
+
 ## Deployment flowchart and checklist for dial-in conferencing
 <a name="BKMK_DialinConferencing"> </a>
 
  Dial-in conferencing allows users to dial in from the public switched telephone network (PSTN) to join an audio/video conference.
-  
-Some of the components required for dial-in conferencing are also used for Enterprise Voice. For example, if you are deploying Enterprise Voice, you must also deploy a Mediation Server and a PSTN gateway--components that are also required for dial-in conferencing. How you deploy dial-in conferencing, therefore, depends on whether you are also deploying an Enterprise Voice solution. 
-  
+
+Some of the components required for dial-in conferencing are also used for Enterprise Voice. For example, if you are deploying Enterprise Voice, you must also deploy a Mediation Server and a PSTN gateway--components that are also required for dial-in conferencing. How you deploy dial-in conferencing, therefore, depends on whether you are also deploying an Enterprise Voice solution.
+
 The dial-in conferencing flowchart shows the steps you must follow depending on whether you are also deploying an Enterprise Voice solution. The table following the flowchart provides an overview of steps required and recommended for deploying dial-in conferencing. Links to the associated planning and procedural documentation are also included. For more information about planning a complete Enterprise Voice solution, see [Plan your Enterprise Voice solution in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
-  
+
 **Dial-in conferencing flowchart**
 
 ![Deploy dial-in conferencing flow chart](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
-  
+
 **Dial-in conferencing deployment checklist**
 
 |**Phase**|**Steps**|**Roles and group membership**|**Documentation**|
@@ -73,9 +73,9 @@ The dial-in conferencing flowchart shows the steps you must follow depending on 
 |**(Optional) Verify or modify user personal identification number (PIN) requirements** <br/> |Use Skype for Business Server Control Panel or Skype for Business Server Management Shell to view or modify the Conferencing **PIN Policy**. You can specify minimum PIN length, maximum number of logon attempts, PIN expiration, and whether common patterns are allowable.  <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Manage PIN policies for dial-in conferencing in Skype for Business Server](../../manage/conferencing/pin-policies.md) <br/> [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |
 |**(Optional) Modify key mapping of DTMF commands** <br/> |Use the **Set-CsDialinConferencingDtmfConfiguration** cmdlet to modify the keys used for dual-tone multi-frequency (DTMF) commands, which participants can use to control conference settings (such as mute and unmute or lock and unlock). <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Manage key mapping for DTMF commands in Skype for Business Server](../../manage/conferencing/key-mapping-for-dtmf-commands.md) <br/> [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |
 |**(Optional) Modify conference join and leave announcement behavior** <br/> |Use the **Set-CsDialinConferencingConfiguration** to change how announcements work when participants join and leave conferences. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Manage conference join and leave announcements in Skype for Business Server](../../manage/conferencing/join-and-leave-announcements.md) <br/> [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) <br/> |
-|**(Recommended) Configure conference directories** <br/> |Use the **New-CsConferenceDirectory** cmdlet to create one conference directory for every 999 users in the pool. <br/> |RTCUniversalServerAdmins  <br/> |[(Recommended) Create Conference Directories](http://technet.microsoft.com/library/787f4c94-1c96-468a-a74d-e06b7bd4b8a3.aspx) <br/> [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
+|**(Recommended) Configure conference directories** <br/> |Use the **New-CsConferenceDirectory** cmdlet to create one conference directory for every 999 users in the pool. <br/> |RTCUniversalServerAdmins  <br/> |[(Recommended) Create Conference Directories](https://technet.microsoft.com/library/787f4c94-1c96-468a-a74d-e06b7bd4b8a3.aspx) <br/> [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
 |**(Optional) Verify dial-in conferencing settings** <br/> |Use the **Get-CsDialinConferencingAccessNumber** cmdlet to search for dial plans that have a dial-in conferencing region that is not used by any access number and for access numbers that have no region assigned. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> CsHelpDesk  <br/> |[Configure dial-in conferencing in Skype for Business Server](dial-in-conferencing.md) <br/> [Test dial-in conferencing in Skype for Business Server](../../manage/conferencing/tests.md) <br/> [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps) <br/> |
 |**(Optional) Verify dial-in conferencing** <br/> |Use the **Test-CsDialInConferencing** cmdlet to test that the access numbers for the specified pool work correctly. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Test dial-in conferencing in Skype for Business Server](../../manage/conferencing/tests.md) <br/> [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |
 |**(Optional) Welcome users to dial-in conferencing and set the initial PIN** <br/> |Use the **Set-CsPinSendCAWelcomeMail** script to set users' initial PINs and send a welcome email that contains the initial PIN and a link to the Dial-in Conferencing Settings page. <br/> |RTCUniversalServerAdmins  <br/> |[Send welcome email to dial-in users in Skype for Business Server](../../manage/conferencing/welcome-emails.md) <br/> |
-   
+
 

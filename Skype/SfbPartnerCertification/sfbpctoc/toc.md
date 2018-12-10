@@ -1,9 +1,10 @@
-# [Skype for Business certification program](../certification/overview.md)  
+# [Skype for Business and Teams certification program](../certification/overview.md)  
 ## [How to Join](../certification/how-to-join.md)
 ## [Skype and Lync test specifications](../certification/test-spec.md)
 
 ## Phones and Devices
-### [IP Phones](../certification/devices-ip-phones.md)
+### [Skype for Business IP Phones](../certification/devices-ip-phones.md)
+### [Teams IP Phones](../certification/teams-ip-phones.md)
 ### [USB audio and video devices](../certification/devices-usb-devices.md) 
 ### [PCs](../certification/devices-pcs.md)  
 ### [Meeting room devices and solutions](../certification/devices-meeting-rooms.md)  

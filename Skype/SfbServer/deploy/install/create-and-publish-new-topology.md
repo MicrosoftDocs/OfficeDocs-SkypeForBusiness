@@ -7,7 +7,7 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -96,7 +96,7 @@ You can use Skype for Business Server Topology Builder to design, define, config
     
    - Select roles that you need to install, and then set up the hardware to accommodate the selected roles.
     
-    For scenario two, you have an existing deployment, and your infrastructure is ready for new roles, or you need to associate existing roles with a new Front End server.
+     For scenario two, you have an existing deployment, and your infrastructure is ready for new roles, or you need to associate existing roles with a new Front End server.
     
    - In this case, you will select the roles that you intend to deploy or associate with the new Front End server. In either case, you will proceed with the definition of the roles, set up any needed hardware, and proceed with the installation.
     
@@ -112,10 +112,10 @@ You can use Skype for Business Server Topology Builder to design, define, config
     
    - To use SQL Mirroring, select **Enable SQL mirroring**, and select an existing instance, or create a new instance.
 
-    > [!NOTE]
-    > SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.
+     > [!NOTE]
+     > SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.
     
-    For this example, we enter the **SQL Server FQDN**, and configure any relevant high availability settings, and then click **OK**, as shown in the figure.
+     For this example, we enter the **SQL Server FQDN**, and configure any relevant high availability settings, and then click **OK**, as shown in the figure.
     
      ![Create a SQL Server store.](../../media/12822cf9-8608-43c0-94ce-2ca8b3a0ffd5.png)
   
@@ -127,10 +127,10 @@ You can use Skype for Business Server Topology Builder to design, define, config
     
    - To define a new file share, select **Define a new file share**, in the **File Server FQDN** box, enter the FQDN of the existing file server where the file share is to reside, and then enter a name for the file share in the **File Share** box.
     
-    For this example, we will click **Define a new file store**, enter the **file server FQDN** and **file share**, and then click **Next**.
+     For this example, we will click **Define a new file store**, enter the **file server FQDN** and **file share**, and then click **Next**.
     
-    > [!NOTE]
-    > The file share for Skype for Business Server can be collocated but it is not recommended for performance reasons. Note that in this example, the file share has been located on a single dedicated server that will act as the file share. However, other more robust file share systems, such as DFS using Windows Server 2012 R2, are recommended. For details about supported file share systems, see [Requirements for your Skype for Business environment](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). For more information about creating the file share, see [Create a file share in Skype for Business Server](create-a-file-share.md). You can define the file share without the file share having been created. You will need to create the file share in the location you define before you publish the topology. 
+     > [!NOTE]
+     > The file share for Skype for Business Server can be collocated but it is not recommended for performance reasons. Note that in this example, the file share has been located on a single dedicated server that will act as the file share. However, other more robust file share systems, such as DFS using Windows Server 2012 R2, are recommended. For details about supported file share systems, see [Requirements for your Skype for Business environment](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). For more information about creating the file share, see [Create a file share in Skype for Business Server](create-a-file-share.md). You can define the file share without the file share having been created. You will need to create the file share in the location you define before you publish the topology. 
   
 10. On the Specify the Web Services URL page, you must decide if you need to override the internal Web Services pool base URL. The reason for this override has to do with load balancing. Basic SIP traffic can be load balanced through simple DNS load balancing. However, the HTTP/S Web Services network traffic must use a supported Hardware or Software load balancing solution. For supported load balancers, see [Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). In this example, we used DNS load balancing for SIP traffic and a supported software load balancing solution. Because we are dividing the traffic this way, we need to override the internal Web Services pool FQDN. Alternatively, if we had a top line load balancer and sent all traffic through it instead of using DNS load balancing for SIP traffic, we would not need to override the Web Services URL. 
     
@@ -146,7 +146,7 @@ You can use Skype for Business Server Topology Builder to design, define, config
   
     - Optionally, enter the external base URL in **External Base URL**. You would enter the external base URL to differentiate it from your internal domain name. For example, your internal domain is contoso.local, but your external domain name is contoso.com. You would define the URL using the contoso.com domain name since it must be resolvable from public DNS. This is also important in the case of a reverse proxy. The external base URL domain name would be the same as the domain name of the FQDN of the reverse proxy. HTTP access to the Front End pool is required for instant messaging and presence on mobile clients.
     
-     ![Override web services.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
+      ![Override web services.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
 11. If you selected **Conferencing** on the **Select Features** page, you will be asked to select an Office Web Apps server. Click **New** to launch the dialog box.
     

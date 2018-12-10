@@ -8,8 +8,9 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
 description: Learn how to configure an Exchange hybrid organization for use with Microsoft Teams.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---

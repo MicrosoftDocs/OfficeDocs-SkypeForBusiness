@@ -8,6 +8,7 @@ ms.date: 01/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -86,14 +87,15 @@ The following tables list the data that is required for SfBO to operate.
 
 <!--start table here -->
 
-||||
-|:-----|:-----|:-----|
-|**Data**|**Possible** **settings**|
-|Personal Data |Name, Title, Company, Email address, Time zone|
-|Telephone Numbers|Work, Mobile, Home|
-|Calendar Information|Free/Busy, Out-of-town notice, meeting details (to those who have access to your calendar)| 
-|Presence Status|Away, Available, Busy, Do Not Disturb, Offline|
-|||||
+
+|                      |                                                                                            |   |
+|:---------------------|:-------------------------------------------------------------------------------------------|:--|
+| **Data**             | **Possible** **settings**                                                                  |   |
+| Personal Data        | Name, Title, Company, Email address, Time zone                                             |   |
+| Telephone Numbers    | Work, Mobile, Home                                                                         |   |
+| Calendar Information | Free/Busy, Out-of-town notice, meeting details (to those who have access to your calendar) |   |
+| Presence Status      | Away, Available, Busy, Do Not Disturb, Offline                                             |   |
+|                      |                                                                                            |   |
 
 <!-- end of table -->
 
@@ -101,13 +103,14 @@ The following tables list the data that is required for SfBO to operate.
 
 <!--start table here -->
 
-||||
-|:-----|:-----|:-----|
-|**Category** |**Possible settings** |
-|IP Address|Actual address of computer or NATed address|
-|SIP URI|<u>david.campbell@contoso.com</u>|
-|Name|David Campbell (as defined in Active Directory Domain Services)|
-|||||
+
+|              |                                                                 |   |
+|:-------------|:----------------------------------------------------------------|:--|
+| **Category** | **Possible settings**                                           |   |
+| IP Address   | Actual address of computer or NATed address                     |   |
+| SIP URI      | <u>david.campbell@contoso.com</u>                               |   |
+| Name         | David Campbell (as defined in Active Directory Domain Services) |   |
+|              |                                                                 |   |
 
 <!-- end of table -->
 
@@ -212,7 +215,7 @@ A sequence number mechanism is also in place to prevent replay attacks. The serv
 
 ### UDP/TCP 50,000– 59,999
 TCP 50,000 outbound is used for SfBO, including for application and desktop sharing, file transfer. UDP/TCP 50,000-59,999 port ranges are used for media sessions with Microsoft Office Communications Server 2007 partners that require NAT/firewall traversal service from the A/V Edge service. Because the A/V Edge service is the sole process using these ports, the size of the port range does not indicate the potential surface of attack. Good security practice is to always minimize the total number of listening ports by not running unnecessary network services. If a network service is not running, it is not exploitable by a remote attacker and the surface of attack of the host computer is reduced. However, within a single service, reducing the number of ports does not provide the same benefit. The A/V Edge service software is no more exposed to attack with 10,000 ports open as it is with 10. The allocation of ports within this range is done randomly and ports not currently allocated do not listen for packets.
- 
+
 ### External User A/V Traffic Traversal
 Enabling external users and internal users to exchange media requires an Access Edge service to handle the SIP signaling that is necessary to set up and tear down a session. It also requires an A/V Edge service to act as a relay for the transfer of the media. The call sequence is illustrated in the following figure.
 
@@ -230,7 +233,7 @@ Enabling external users and internal users to exchange media requires an Access 
     All the preceding SIP traffic flowed through the Access Edge service.
 
     The client connects to the A/V Conference Server, which validates the token and proxies the request, which contains another authorization token, to the internal A/V Conferencing Server. The A/V Conferencing Server validates the Authorization Token, which it originally issued over the SIP channel, to further ensure that a valid user is joining the conference.
-    
+
 4. Between the client and the AV conferencing server, a media connection is negotiated and setup over SRTP.
 5. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.
 
@@ -259,9 +262,9 @@ A presenter can also promote an attendee to the role of presenter during the mee
 ### Participant Types
 
 Meeting participants are also categorized by location and credentials. You can use both of these characteristics to specify which users can have access to specific meetings. Users can be divided broadly into the following categories:
-1.	**Users that belong to the tenant** &nbsp;&nbsp; These users have a credential in Azure Active Directory for the tenant.<br/>
+1.  **Users that belong to the tenant** &nbsp;&nbsp; These users have a credential in Azure Active Directory for the tenant.<br/>
     a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
-2.	**Users that do not belong to the tenant**&nbsp;&nbsp;These users do not have credentials in Azure Active Directory for the tenant.<br/>a. *Federated Users* - Federated users possess valid credentials with federated partners and are therefore treated as authenticated by SFBO. Federated users can join conferences and be promoted to presenters after they have joined the meeting, but they cannot create conferences in enterprises with which they are federated.<br/>b. *Anonymous Users* - Anonymous users do not have an Active Directory identity and are not federated with the tenant. 
+2.  **Users that do not belong to the tenant**&nbsp;&nbsp;These users do not have credentials in Azure Active Directory for the tenant.<br/>a. *Federated Users* - Federated users possess valid credentials with federated partners and are therefore treated as authenticated by SFBO. Federated users can join conferences and be promoted to presenters after they have joined the meeting, but they cannot create conferences in enterprises with which they are federated.<br/>b. *Anonymous Users* - Anonymous users do not have an Active Directory identity and are not federated with the tenant. 
 
 Customer data shows that many conferences involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a conference. As the following section describes, SfBO limits meeting access to those user types that have been explicitly allowed and requires all user types to present appropriate credentials when entering a meeting.
 

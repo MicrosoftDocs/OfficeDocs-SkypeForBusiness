@@ -1,13 +1,14 @@
 ---
-title: "Desktop client feature comparison for Skype for Business"
+title: "Desktop client feature comparison for Skype for Business Server 2015"
 ms.author: jambirk
 author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -16,13 +17,15 @@ ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: "Summary: Skype for Business Server 2015 or Skype for Business Online administrators can use these tables to understand what features are supported on which clients."
 ---
 
-# Desktop client feature comparison for Skype for Business
+# Desktop client feature comparison for Skype for Business Server 2015
  
 **Summary:** Skype for Business Server 2015 or Skype for Business Online administrators can use these tables to understand what features are supported on which clients.
   
  Before you deploy or upgrade to Skype for Business, check which clients are already in use in your organization. Use the tables below to understand the feature support impact on those clients. This can help you communicate changes to users, pace the roll-out process, and fully understand the benefits of upgrading to the latest client.
   
 Some features available with Skype for Business Server 2015 are not available in Skype for Business Online, see [Online or Hybrid user account limitations](desktop-feature-comparison.md#Online-Hybrid) for specifics. Skype for Business Online Admins may want to refer to [Skype for Business Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) for information on the different plans available to them.
+
+See [Desktop client feature comparison for Skype for Business 2019](../../../SfBServer2019/plan/feature-comparison.md) for client support on Skype for Business Server 2019.
   
 The following tables show the features that are available with each client that works with Skype for Business Server 2015 or Skype for Business Online. You may also want to refer to [Mobile client feature comparison for Skype for Business](mobile-feature-comparison.md) for smart phone and tablet client feature comparisons. The Client Access License or User Subscription License your organization purchases will also have an impact on which features are available to your users. Whether you deploy the Full or Basic client to users depends on the license or plan your organization chooses to buy. See the [Licensing Guide](https://products.office.com/en-us/skype-for-business/it-pros) for more details.
   
@@ -95,6 +98,7 @@ This table covers features related to IM support.
 |Send ink messages  <br/> ||||&#x2714;||||||
 |Receive ink messages  <br/> |&#x2714;||&#x2714;|&#x2714;||||||
 |Set IM messages as high importance  <br/> |&#x2714;||&#x2714;|||||||
+|Transfer files in peer-to-peer IM conversations<br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||&#x2714;|
    
 ## Meetings support
 <a name="BKMK_Conferencing"> </a>
@@ -102,7 +106,8 @@ This table covers features related to IM support.
 This table covers features related to Meetings support.
   
 > [!NOTE]
->  Skype for Business meeting features aren't available in Skype for Business Online Standalone Plan 1.
+>  Skype for Business meeting features aren't available in Skype for Business Online Standalone Plan 1.  Plan 1 is being [retired](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement
+).
 
 In Skype-to-Skype sessions, a Skype for Business Online Plan 1 user can participate in desktop sharing and application sharing if they're invited by a user who has access to sharing features.   
 For details, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx). 
@@ -112,7 +117,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Add computer audio  <br/> |&#x2714;|&#x2714;|&#x2714;(requires plug-in)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Add video  <br/> |&#x2714;|&#x2714;|&#x2714;(requires plug-in)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|||&#x2714;|&#x2714;|
 |View multiparty video (gallery view)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||||||
-|Video-based screen sharing  <br/> |&#x2714;|&#x2714;Only for users homed on Skype for Business Online  <br/> |&#x2714;View-only  <br/> |||||||||
+|Video-based screen sharing  <br/> |&#x2714;|&#x2714;|&#x2714;View-only  <br/> |||||||||
 |Use in-meeting presenter controls  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||||&#x2714;|
 |Access detailed meeting roster  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||&#x2714;|
 |Participate in multiparty IM  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
@@ -121,7 +126,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Add anonymous participants (if enabled)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;||||&#x2714;|
 |Use dial-in audio meetings  <br/> |&#x2714; &#x2777; |&#x2714;|&#x2714; &#x2777; |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714;|&#x2714;|||&#x2714;|
 |Initiate a Meet Now meeting  <br/> |&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;|&#x2714;||||&#x2714;|
-|Add and present Microsoft PowerPoint files  <br/> |&#x2714;| &#x2778; View only, annotations not available  <br/> |&#x2714;|&#x2714;|&#x2714;|Present only  <br/> |&#x2714;|||| &#x2778; View only, annotations not available  <br/> |
+|Add and present Microsoft PowerPoint files  <br/> |&#x2714;| &#x2778; Annotations not available  <br/> |&#x2714;|&#x2714;|&#x2714;|Present only  <br/> |&#x2714;|||| &#x2778; View only, annotations not available  <br/> |
 |Navigate Microsoft PowerPoint files  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||||&#x2714;|
 |Add and edit OneNote meeting notes  <br/> |&#x2714;||Edit only (not add)  <br/> |&#x2714;|&#x2714;|||||||
 |Use a whiteboard  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;|||||
@@ -134,9 +139,8 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Mute Audience  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||||||&#x2714;|
 |Make everyone an attendee  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;||||||&#x2714;|
 |Produce Skype Meeting Broadcast  <br/> |&#x2714;|||||||||||
-|Delegate can schedule a meeting on behalf of delegator  <br/> |&#x2714;|Skype for Business Online only <br/>|&#x2714;|||||||||
+|Delegate can schedule a meeting on behalf of delegator  <br/> |&#x2714;|&#x2714;|&#x2714;|||||||||
 |Synchronize delegates between Skype for Business and Outlook  <br/> |&#x2714;||&#x2714;|||||||||
-|Video Based Screen Sharing  <br/> |&#x2714;| Skype for Business Online only <br/> |&#x2714;||&#x2714;|||||||
 |Set Video Spotlight (lock video)  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Give/Take control of screen sharing  <br/> |&#x2714;||&#x2714;|||||||||
    
@@ -173,7 +177,7 @@ This table covers features related to voice services support.
 |Manage a high volumes of calls  <br/> |||||&#x2714;|&#x2714;||||
 |Call park  <br/> |&#x2714;||&#x2714; &#x2776; |||||||
 |Group call pickup  <br/> |&#x2714;||&#x2714; &#x2776; ||||&#x2714;|||
-|Location-based routing  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
+|Location-based routing  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Manage Response Group/Team call group  <br/> |&#x2714;||&#x2714;|||||||
    
  &#x2776;  This feature isn't available in Skype for Business Online.
@@ -228,7 +232,7 @@ This table covers features related to support for archiving and logging function
 
  | Feature/capability | Skype for Business 2015 or 2016 client | Skype for Business on Mac | Lync 2013 client | Lync Windows Store app | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | **Communicator for Mac 2011** | Lync for Mac 2011 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Archiving of IM conversations in Outlook Conversation History  <br/> |&#x2714; &#x2776; |&#x2714;If server side conversation history is turned on  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|&#x2714;||Saved in Communicator for Mac  <br/> |Saved in Lync for Mac  <br/> |
+|Archiving of IM conversations in Outlook Conversation History  <br/> |&#x2714; &#x2776; |&#x2714;If server side conversation history is enabled <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|&#x2714;||Saved in Communicator for Mac  <br/> |Saved in Lync for Mac  <br/> |
 |Client-side archiving of audio, video, application sharing, desktop sharing, and uploaded content  <br/> |&#x2714; &#x2776; ||&#x2714; &#x2776; ||&#x2714;|||||
 |Client-side archiving of file transfers, shared OneNote pages, and PowerPoint annotations  <br/> (unavailable in Skype for Business Online)  <br/> |&#x2714;||&#x2714;||&#x2714;|||||
 |Access sign-in logs from Skype for Business icon in the task bar  <br/> |&#x2714;||&#x2714;|||||||
@@ -281,3 +285,4 @@ User accounts can exist either Online or On-premises, and that will affect the f
 
 [Plan for clients and devices](clients-and-devices.md)
 
+[Latest updates for versions of Skype for Business that use Windows Installer (MSI)](../../sfb-client-updates.md)

@@ -28,7 +28,7 @@ description: "Summary: Create a Video Interop Server pool in Skype for Business 
     
    - On the next page, for the **Define the computers in this pool** item, enter the **Computer FQDN** of each server in the pool into the text field, and then click **Add**. Repeat this step to add another Video Interop Server to the pool. When you have defined all the computers in the pool, press **Next**.
     
-    If you want to deploy only one Video Interop Server in the pool because you do not require high availability, then select **This pool has one server** and press **Next**.
+     If you want to deploy only one Video Interop Server in the pool because you do not require high availability, then select **This pool has one server** and press **Next**.
     
 3. Select the next hop pool/FE from the drop-down list and press **Next**.
     

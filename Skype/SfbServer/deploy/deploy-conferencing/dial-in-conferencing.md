@@ -132,7 +132,7 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
 
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
     
-2.  Open Skype for Business Server Control Panel.
+2. Open Skype for Business Server Control Panel.
     
 3. In the left navigation bar, click **Conferencing** and then click **Dial-in Access Number**.
     
@@ -142,8 +142,8 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
     
    - Click one of the dial-in access numbers in the list, click **Edit**, and then click **Show details**.
     
-    > [!NOTE]
-    > Using the search field to search for the contents of a column in the list of dial-in access numbers may not yield the results you expect. Instead, sort the list by the column of interest to identify the dial-in access number you want to view or change. 
+     > [!NOTE]
+     > Using the search field to search for the contents of a column in the list of dial-in access numbers may not yield the results you expect. Instead, sort the list by the column of interest to identify the dial-in access number you want to view or change. 
   
 5. In **Display number**, type the phone number that public switched telephone network (PSTN) phone users dial to join a conference. This number is displayed in meeting invitations and on the Dial-in Conferencing Settings webpage.
     
@@ -158,8 +158,8 @@ Before you can create dial-in access numbers, you must first plan your dial-in c
     
    - In the text box, type a unique SIP URI for this dial-in conferencing access number. This SIP URI is displayed in various locations including, but not limited to, call notification messages and previous versions of Lync clients.
     
-    > [!NOTE]
-    > The same SIP URI cannot be reused by another dial-in conferencing access number. The SIP URI cannot be modified after the access number is created. The only way to change the SIP URI is to delete and recreate the access number. 
+     > [!NOTE]
+     > The same SIP URI cannot be reused by another dial-in conferencing access number. The SIP URI cannot be modified after the access number is created. The only way to change the SIP URI is to delete and recreate the access number. 
   
    - In the drop-down list box, click the domain of the Conferencing Attendant application that supports this dial-in access number.
     

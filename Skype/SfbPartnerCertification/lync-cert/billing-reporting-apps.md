@@ -3,7 +3,7 @@ title: "Qualified Lync applications"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -11,7 +11,7 @@ ms.collection: Lync
 ms.audience: Admin
 appliesto:
 - Lync
-- Skype for Business 
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -29,7 +29,7 @@ Billing and enhanced reporting applications enable organizations to monitor, tra
 
  **Ensure UC and VoIP quality of experience and network quality of service.**
 
-[CA](http://www.CA.com) 
+[CA](http://www.CA.com)
 
 CA Unified Communications Monitor is a network-based voice and video monitoring solution that helps organizations ensure UC and VoIP quality of experience and network quality of service. UC and VoIP delivery metrics – such as jitter, latency, and packet loss – along with call quality metrics – such as MOS, provide full insight into UC quality of experience. Customized alerts and thresholds help pinpoint where problems reside and help identify which network paths experience the most severe problems. UC Monitor also helps you to track trends through capacity planning reports that illustrate busy-hour call attempts and the effects of call volume on call performance. UC Monitor integrates with CA Performance Center and many other CA Technologies solutions for a comprehensive view of systems and network performance.
 
@@ -42,7 +42,7 @@ Dell Software MessageStats for Lync
 **Track unified communications usage, analyze trends, and create reports.**
 
 [Dell](http://dell.com)
- 
+
 *Dell MessageStats for Lync* delivers deep insight into unified communications usage by enhancing Lync's built-in reporting capabilities with comprehensive usage reporting and analysis.
 
 Now you can create and subscribe to custom usage reports that monitor Lync Server trends, so you can easily determine appropriate billing and chargebacks for instant messaging, file transfers, audio and visual conferencing, voice over IP (VoIP) and online meeting sessions.
@@ -88,7 +88,7 @@ It builds on ISI Telemanagement Solutions' 30+ year tradition of assisting clien
   **Quickly and precisely analyze unified communications usage.**
 
 [Mind CTI](http://mindcti.com)
- 
+
 ***PhonEX ONE*** web-based call accounting provides telecom traffic tracking and control for world-wide organizations as its architecture supports multiple currencies and languages or geographically dispersed data sources.
 
 A flexible and scalable application as it can be easily adjusted from a single site to monitoring calls traffic in multinational organizations. The automatic import option allows PhonEX ONE to easily accommodate and maintain multiple types of organization structures synchronized with various sources (file, ODBC and LDAP).
@@ -104,7 +104,7 @@ Fraud detection module provides companies the possibility to track and alert any
 
 [Nectar Corp](http://nectarcorp.com)
 
-Nectar's UC Diagnostics (UCD) module delivered via our Unified Communications Management Platform (UCMP) provides comprehensive insight for Lync UC environments. Nectar's UCD delivers real-time, end-to-end call performance of Lync voice, video, collaboration and conferencing sessions, providing fast issue isolation and resolution. Nectar was the first and most complete Lync monitoring solution to have been tested, qualified, and deployed with the Microsoft Lync Software Defined Network (SDN) API. UCD's tight integration with the Lync SDN API enables Nectar to fully leverage its entire product portfolio for real-time media analysis, network path awareness and root-cause analysis. 
+Nectar's UC Diagnostics (UCD) module delivered via our Unified Communications Management Platform (UCMP) provides comprehensive insight for Lync UC environments. Nectar's UCD delivers real-time, end-to-end call performance of Lync voice, video, collaboration and conferencing sessions, providing fast issue isolation and resolution. Nectar was the first and most complete Lync monitoring solution to have been tested, qualified, and deployed with the Microsoft Lync Software Defined Network (SDN) API. UCD's tight integration with the Lync SDN API enables Nectar to fully leverage its entire product portfolio for real-time media analysis, network path awareness and root-cause analysis.
 
 Nectar is able to dramatically reduce problem resolution time by more than 70% when compared to standard network assurance tools with just a few mouse clicks. Nectar also provides network assessment, health and performance monitoring of the entire Lync ecosystem, skills-based alarm management, SLA tracking, along with an Advanced Reporting & Analytics module in a true multi-tenant interface. All of which helps to ensure an optimal and efficient deployment and management of your Lync UC services.
 
@@ -137,7 +137,7 @@ nGenius Voice | Video Manager NetScout enables IT organizations to optimize and 
 
 cvt.com.au
 
- 
+
 Periscope GC for Billing and Enhanced Reporting on Lync recognizes that Lync provides an opportunity to deliver more for our customers. Not only does Lync deliver a rich Unified Communications environment for users, but it coincides with the latest Microsoft technologies in operating system, database and web application development.
 
 Periscope GC takes advantage of these developments to deliver a rich web based user experience providing well established telecoms reporting features such as on-billing, Call Cost Accounting and service provider bill import and extending that further to drive business analytics around the Unified Communications play.
@@ -198,7 +198,7 @@ For Lync 2013
 
 unifysquare.com
 
-  
+
 PowerMon is a proactive 24x365 cloud-based monitoring solution for Lync. The solution monitors end-to-end service availability of Lync workloads via synthetic transactions hosted on the Microsoft Azure network worldwide. PowerMon incorporates industry-leading Unify2 expertise and best practices assisting Fortune 500-class enterprises with their Lync service availability. By instantly alerting of Lync service outages globally, PowerMon helps an organization substantially reduce the time it takes to diagnose and resolve failures, even addressing failures before they are reported from clients, significantly reducing costs associated with Lync downtime.
 
 
@@ -217,7 +217,7 @@ For Lync 2010, 2013
 **Track system-wide usage of voice, video, instant messaging, conferencing, and application sharing.**
 
 unifysquare.com
-  
+
 PowerView is a comprehensive reporting and billing solution for Lync that enables organizations to optimize infrastructure, track return on investment, and implement billing for many scenarios.
 
 PowerView includes a scalable data warehouse that produces rich reports on the operation and management of Lync Server across an entire deployment over an unlimited period of time. Instant Messaging, voice, application sharing, audio and video conferencing, are all tracked and reported.
@@ -226,7 +226,7 @@ Administrators can drill-down through more than 30 prepackaged reports to browse
 
 * * *
 ### Related resources
-[Microsoft Lync](http://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
+[Microsoft Lync](https://lync.microsoft.com/en-us/Pages/unified-communications.aspx)
 
 Microsoft Premier Support for Lync Partners on:
 - [Microsoft Premier](https://www.microsoft.com/microsoftservices/en/us/lync_for_partners.aspx)

@@ -8,9 +8,10 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Prepare IT staff in your organization for deploying and supporting Microsoft Teams. 
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ---
@@ -31,8 +32,6 @@ Your Office 365 tenant admins, technical leads, and support desk are accountable
 Share the following resources with your IT staff members, and confirm that they’re ready to support users before you begin your upgrade to Teams:
 
 -   [Admin training for Microsoft Teams](itadmin-readiness.md)
-
--   [Quick start guides for Microsoft Teams admins](quick-start-guides.md)
  
 -   [Support resources for Microsoft Teams](support-resources.md)
  

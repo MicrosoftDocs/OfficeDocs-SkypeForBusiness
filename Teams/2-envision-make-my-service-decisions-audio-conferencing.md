@@ -6,10 +6,11 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Learn about meetings, licensing and availability, configure conference bridge settings, acquire or transfer phone numbers, choose tenant dial plans. 
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ---
@@ -49,7 +50,7 @@ Meeting participants can join your Teams meetings by dialing in to the toll or t
 
 ## Availability of Audio Conferencing
 
-Before you plan for the implementation of Audio Conferencing in Teams, you need to review the availability of the Audio Conferencing service as detailed in [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Before you plan for the implementation of Audio Conferencing in Teams, you need to review the availability of the Audio Conferencing service as detailed in [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 > [!IMPORTANT]
 > Due to legal constraints, for Audio Conferencing to be available to multinational organizations, the contract for Office 365 subscriptions must be sourced from countries and regions where the Audio Conferencing service is commercially available.
@@ -57,6 +58,7 @@ Before you plan for the implementation of Audio Conferencing in Teams, you need 
 After confirming your organization is eligible to obtain the Audio Conferencing service, compile the list of user locations or offices where you’ll implement the Audio Conferencing service, based on the list of available countries and regions.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide which user locations or offices will implement the Audio Conferencing service.</li></ul>|
@@ -64,13 +66,14 @@ After confirming your organization is eligible to obtain the Audio Conferencing 
 
 > [!TIP]
 > Below is an example of an Audio Conferencing site enablement list template:
->|Office   |Location |PSTN Conference Service  |
->|---------|---------|---------|
->|One Epping Road|Australia|Audio Conferencing|
->|100 Cyberport Road|Hong Kong SAR|Legacy PSTN Conferencing|
->|One Marina Boulevard|Singapore|Audio Conferencing|
->|32 London Bridge Street|United Kingdom|Audio Conferencing|
->|39 quai du Président Roosevelt|France|Audio Conferencing|
+> 
+> |Office   |Location |PSTN Conference Service  |
+> |---------|---------|---------|
+> |One Epping Road|Australia|Audio Conferencing|
+> |100 Cyberport Road|Hong Kong SAR|Legacy PSTN Conferencing|
+> |One Marina Boulevard|Singapore|Audio Conferencing|
+> |32 London Bridge Street|United Kingdom|Audio Conferencing|
+> |39 quai du Président Roosevelt|France|Audio Conferencing|
 
 <!--ENDOFSECTION-->
 
@@ -95,6 +98,7 @@ the initial amount of funds you want to purchase. If your organization chooses t
 You can learn more about Communications Credits [here](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>If your organization hasn’t already purchased the required Audio Conferencing licensing, decide whether you’ll acquire Audio Conferencing licenses by stepping up existing Office 365 subscriptions or by acquiring Audio Conferencing add-on licenses.</li><li>Decide whether Communications Credits are required for your Audio Conferencing implementation. If so, decide the initial amount of funds to be purchased. Where applicable, decide the trigger amount and auto-recharge amount.</li></ul>|
@@ -102,30 +106,33 @@ You can learn more about Communications Credits [here](https://docs.microsoft.co
 
 > [!TIP]
 > You can document the license assignment list for Audio Conferencing users by using the following example.
->|User  |Office  |Office 365 License  |
->|---------|---------|---------|
->|Adele Vance|One Epping Road|Office 365 E5|
->|Alex Wilber|One Epping Road|Office 365 E3, Audio Conferencing add-on|
->|Ben Walters|One Epping Road|Office 365 E3, Audio Conferencing add-on|
->|Christie Cline|One Marina Boulevard|Office 365 E3, Audio Conferencing add-on|
->|Debra Berger|One Marina Boulevard|Office 365 E5|
->|Lee Gu|One Marina Boulevard|Office 365 E5|
->|Emily Braun|32 London Bridge Street|Office 365 E5|
->|Lidia Holloway|32 London Bridge Street|Office 365 E5|
->|Louis Lahr|32 London Bridge Street|Office 365 E5|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, Audio Conferencing add-on|
->|Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5|
->|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Audio Conferencing add-on|
+> 
+> |User  |Office  |Office 365 License  |
+> |---------|---------|---------|
+> |Adele Vance|One Epping Road|Office 365 E5|
+> |Alex Wilber|One Epping Road|Office 365 E3, Audio Conferencing add-on|
+> |Ben Walters|One Epping Road|Office 365 E3, Audio Conferencing add-on|
+> |Christie Cline|One Marina Boulevard|Office 365 E3, Audio Conferencing add-on|
+> |Debra Berger|One Marina Boulevard|Office 365 E5|
+> |Lee Gu|One Marina Boulevard|Office 365 E5|
+> |Emily Braun|32 London Bridge Street|Office 365 E5|
+> |Lidia Holloway|32 London Bridge Street|Office 365 E5|
+> |Louis Lahr|32 London Bridge Street|Office 365 E5|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, Audio Conferencing add-on|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5|
+> |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, Audio Conferencing add-on|
 
 <br>
+
 > [!TIP]
 > Your Communications Credits planning numbers can be documented as the following:
->|         |         |
->|---------|---------|
->|Initial amount|$ 1,000|
->|Trigger amount|$ 400|
->|Auto-recharge amount|TBA|
-
+>
+> |         |         |
+> |---------|---------|
+> |Initial amount|$ 1,000|
+> |Trigger amount|$ 400|
+> |Auto-recharge amount|TBA|
+> 
 <!--ENDOFSECTION-->
 
 ## Conference bridge phone numbers
@@ -146,7 +153,7 @@ The Audio Conferencing service in Office 365 includes:
 If you must transfer existing conference bridge phone numbers to the Audio Conferencing service—assuming they meet country-specific requirements—you can transfer these existing conference bridge phone numbers to Microsoft.
 
 > [!NOTE]
-The complexity of transferring phone numbers to Microsoft varies greatly depending on country or region, carrier, number of circuits involved, and many other contributing factors. Work with your current provider to investigate how long this is likely to take to help ensure that you start the process early enough to meet your timelines.
+> The complexity of transferring phone numbers to Microsoft varies greatly depending on country or region, carrier, number of circuits involved, and many other contributing factors. Work with your current provider to investigate how long this is likely to take to help ensure that you start the process early enough to meet your timelines.
 
 To learn more about conference bridge phone numbers, review the following articles:
 
@@ -159,6 +166,7 @@ To learn more about conference bridge phone numbers, review the following articl
 -   [Transfer phone numbers to Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether your organization needs dedicated conference bridge phone numbers.</li><li>Decide how the dedicated conference bridge phone numbers will be obtained for user locations or offices in-scope for the Audio Conferencing implementation (that is, obtain from Microsoft or transfer existing phone numbers).</li><li>If you choose to obtain them from Microsoft, decide the method to use (form submission or automated) for user locations or offices in-scope for the Audio Conferencing implementation.</li><li>Decide the language preferences to set up for each dedicated conference bridge phone number.</li><li>Decide the tenant default conference bridge phone number.</li></ul>|
@@ -168,12 +176,13 @@ Below is an example of a template you can use to capture conference bridge detai
 
 > [!TIP]
 > Below is an example of a template to capture conference bridge details:
->|Office   |Bridge Number Acquisition and Bridge Type |Bridge Number  |Bridge Language|
->|---------|---------|---------|---------|
->|One Epping Road|Acquire new, dedicated|TBA|English (Australia)|
->|One Marina Boulevard|Acquire new, shared|TBA|English (United States), Chinese (Simplified, PRC)|
->|32 London Bridge Street|Port existing, dedicated|+44 20 7946 0001|English (United Kingdom)|
->|39 quai du Président Roosevelt|Acquire new, dedicated|TBA|French (France), English (United Kingdom)|
+> 
+> |Office   |Bridge Number Acquisition and Bridge Type |Bridge Number  |Bridge Language|
+> |---------|---------|---------|---------|
+> |One Epping Road|Acquire new, dedicated|TBA|English (Australia)|
+> |One Marina Boulevard|Acquire new, shared|TBA|English (United States), Chinese (Simplified, PRC)|
+> |32 London Bridge Street|Port existing, dedicated|+44 20 7946 0001|English (United Kingdom)|
+> |39 quai du Président Roosevelt|Acquire new, dedicated|TBA|French (France), English (United Kingdom)|
 
 <!--ENDOFSECTION-->
 
@@ -209,6 +218,7 @@ You can also apply additional configurations for each user to control the use of
 With these controls, you can decide whether meeting organizers can provide toll-free conference bridge phone numbers for meetings organized by them, and whether participants can dial out from the meetings they organized. The level of dial-out control spans from completely preventing dial out, to only allowing dial out to domestic numbers, to allowing dial out to both domestic and international numbers.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether your organization requires entry and exit notifications, and—if it does—the type of notification to be implemented (tones, phone number, or recorded name).</li><li>Decide the Audio Conferencing PIN length that meets your organizational security requirements.</li><li>Decide whether your organization wants to take control of user communications related to the Audio Conferencing service.</li><li>Decide the conference bridge phone numbers to be assigned to each meeting organizer.</li><li>Decide whether some meeting organizers need to use toll-free conference bridge phone numbers for their meetings.</li><li>Decide whether some meeting organizers need to allow unauthenticated callers to start a meeting.</li><li>Decide whether some meeting organizers need conference dial-out to be controlled.</li></ul>|
@@ -216,31 +226,34 @@ With these controls, you can decide whether meeting organizers can provide toll-
 
 > [!TIP]
 > Your conference bridge settings can be documented as in the following example.
->|         |         |
->|---------|---------|
->|Enable meeting entry and exit notifications|Enabled|
->|Entry/exit announcement type|Tones|
->|Ask callers to record their name before joining the meeting|Disabled|
->|PIN length|5|
->|Automatically send emails to users if their dial-in settings change|Disabled|
+> 
+> |         |         |
+> |---------|---------|
+> |Enable meeting entry and exit notifications|Enabled|
+> |Entry/exit announcement type|Tones|
+> |Ask callers to record their name before joining the meeting|Disabled|
+> |PIN length|5|
+> |Automatically send emails to users if their dial-in settings change|Disabled|
 
 <br>
+
 > [!TIP]
 > You can document the conference bridge settings assignment list for Audio Conferencing users by using the following example.
->|User  |Office  |Default toll number  |Default toll-free number  |Allow toll-free  |Unauthenticated callers bypass lobby  |Conference dial out  |
->|---------|---------|---------|---------|---------|---------|---------|
->|Adele Vance|One Epping Road|TBA|TBA|Yes|Enabled|International and domestic|
->|Alex Wilber|One Epping Road|TBA|TBA|No|Disabled|Not allowed|
->|Ben Walters|One Epping Road|TBA|TBA|No|Disabled|Not allowed|
->|Christie Cline|One Marina Boulevard|TBA|TBA|Yes|Disabled|Domestic|
->|Debra Berger|One Marina Boulevard|TBA|TBA|Yes|Enabled|Domestic|
->|Lee Gu|One Marina Boulevard|TBA|TBA|Yes|Enabled|Domestic|
->|Emily Braun|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Enabled|Not allowed|
->|Lidia Holloway|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Disabled|Not allowed|
->|Louis Lahr|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Disabled|Not allowed|
->|Marcel Beauchamp|39 quai du Président Roosevelt|TBA|TBA|No|Disabled|Domestic|
->|Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|Yes|Enabled|International and domestic|
->|Isabell Potvin|39 quai du Président Roosevelt|TBA|TBA|No|Disabled|Domestic|
+>
+> |User  |Office  |Default toll number  |Default toll-free number  |Allow toll-free  |Unauthenticated callers bypass lobby  |Conference dial out  |
+> |---------|---------|---------|---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|TBA|TBA|Yes|Enabled|International and domestic|
+> |Alex Wilber|One Epping Road|TBA|TBA|No|Disabled|Not allowed|
+> |Ben Walters|One Epping Road|TBA|TBA|No|Disabled|Not allowed|
+> |Christie Cline|One Marina Boulevard|TBA|TBA|Yes|Disabled|Domestic|
+> |Debra Berger|One Marina Boulevard|TBA|TBA|Yes|Enabled|Domestic|
+> |Lee Gu|One Marina Boulevard|TBA|TBA|Yes|Enabled|Domestic|
+> |Emily Braun|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Enabled|Not allowed|
+> |Lidia Holloway|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Disabled|Not allowed|
+> |Louis Lahr|32 London Bridge Street|+44 20 7946 0001|TBA|Yes|Disabled|Not allowed|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|TBA|TBA|No|Disabled|Domestic|
+> |Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|Yes|Enabled|International and domestic|
+> |Isabell Potvin|39 quai du Président Roosevelt|TBA|TBA|No|Disabled|Domestic|
 
 <!--ENDOFSECTION-->
 
@@ -267,6 +280,7 @@ When it comes to service numbers, you need to carefully plan your Audio Conferen
 For more information about the total count of telephone numbers that you can obtain, see [How many phone numbers can you get?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the user locations or offices where new telephone numbers will be acquired from Microsoft.</li><li>Decide the type of telephone numbers to be acquired from Microsoft.</li></ul>|
@@ -289,6 +303,7 @@ Telephone number porting is a complex topic and requires thorough planning, coor
 -   [Transferring phone numbers common questions](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide the user locations or offices where existing telephone numbers will be transferred to Microsoft.</li><li>Decide the type of telephone numbers to be transferred to Microsoft.</li></ul>|
@@ -320,6 +335,7 @@ The effective dial plan assigned to users is the combination of the service dial
 To learn more about dial plans, see [What are dial plans?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Decide whether your organization requires customized dial plans (business requirements, adoption requirements, and so on).</li><li>If applicable, decide the scope of tenant dial plan (tenant-global or tenant-user) to support the requirements for customized dial plans.</li><li>If applicable, decide the tenant dial plans that you’ll create to support user locations or offices in-scope for the cloud voice implementation.</li><li>If applicable, decide which users require a customized dial plan and the tenant dial plan to be assigned for each user.</li></ul>|
@@ -327,36 +343,38 @@ To learn more about dial plans, see [What are dial plans?](https://docs.microsof
 
 > [!TIP]
 > If it’s applicable to your project, you can use the following template to document the tenant dial plan configurations.
->|Tenant Dial Plan Name<br>_Description_  |Normalization Rules Name<br>_Description_  |Pattern<br>Translation<br>IsInternalExtension  |
->|---------|---------|---------|
->|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, AU Dial Plan_|**AU-NSW-NorthRyde-OER-Internal**<br>_Internal number (x7000 - x7999) for One Epping Road office, North Ryde, NSW, Australia_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_Local number normalization for NSW, Australia_|^([2-9]\d{7})$<br>+612$1<br>False|
->||**AU-TollFree**<br>_Toll Free number normalization for Australia_|^(1[38]\d{4,8})\d*$<br>+61$1<br>False|
->||**AU-Service**<br>_Service number normalization for Australia_|^(000\|1[0125]\d{1,8})$<br>$1<br>False|
->|**SG-Singapore-OMB**<br>_OMB Singapore, SG Dial Plan_|**SG-OMB-Internal**<br>_Internal number (x8000 â€“ x8999) for OMB office, Singapore_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_Toll Free number normalization for Singapore_|^(1?800\d{7})\d*$<br>+65$1<br>False|
->||**SG-Service**<br>_Service number normalization for Singapore_|^(1\d{3,4}\|9\d{2})$<br>$1<br>False|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Internal number (x7000 â€“ x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Toll Free number normalization for France_|^0?(80\d{7})\d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Service number normalization for France_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
+> 
+> |Tenant Dial Plan Name<br>_Description_  |Normalization Rules Name<br>_Description_  |Pattern<br>Translation<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, AU Dial Plan_|**AU-NSW-NorthRyde-OER-Internal**<br>_Internal number (x7000 - x7999) for One Epping Road office, North Ryde, NSW, Australia_|^(7\d{3})$<br>+6125550$1<br>True|
+> ||**AU-NSW-Local**<br>_Local number normalization for NSW, Australia_|^([2-9]\d{7})$<br>+612$1<br>False|
+> ||**AU-TollFree**<br>_Toll Free number normalization for Australia_|^(1[38]\d{4,8})\d*$<br>+61$1<br>False|
+> ||**AU-Service**<br>_Service number normalization for Australia_|^(000\|1[0125]\d{1,8})$<br>$1<br>False|
+> |**SG-Singapore-OMB**<br>_OMB Singapore, SG Dial Plan_|**SG-OMB-Internal**<br>_Internal number (x8000 â€“ x8999) for OMB office, Singapore_|^(8\d{3})$<br>+656888$1<br>True|
+> ||**SG-TollFree**<br>_Toll Free number normalization for Singapore_|^(1?800\d{7})\d*$<br>+65$1<br>False|
+> ||**SG-Service**<br>_Service number normalization for Singapore_|^(1\d{3,4}\|9\d{2})$<br>$1<br>False|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Internal number (x7000 â€“ x7999) for 39 quai du Président Roosevelt office, Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_Toll Free number normalization for France_|^0?(80\d{7})\d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_Service number normalization for France_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
 > [!TIP]
 > The example template below can be leveraged to document dial plan assignments to support your project:
->|User  |Office  |Dial Plan Type  |Dial Plan Name  |
->|---------|---------|---------|---------|
->|Adele Vance|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
->|Alex Wilber|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
->|Ben Walters|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
->|Christie Cline|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
->|Debra Berger|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
->|Lee Gu|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
->|Emily Braun|32 London Bridge Street|Service dial plan|N/A|
->|Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
->|Louis Lahr|32 London Bridge Street|Service dial plan|N/A|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
+>
+> |User  |Office  |Dial Plan Type  |Dial Plan Name  |
+> |---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
+> |Ben Walters|One Epping Road|Tenant dial plan|AU-NSW-NorthRyde-OER|
+> |Christie Cline|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
+> |Debra Berger|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
+> |Lee Gu|One Marina Boulevard|Tenant dial plan|SG-Singapore-OMB|
+> |Emily Braun|32 London Bridge Street|Service dial plan|N/A|
+> |Lidia Holloway|32 London Bridge Street|Service dial plan|N/A|
+> |Louis Lahr|32 London Bridge Street|Service dial plan|N/A|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Tenant dial plan|FR-Paris-Issy-30qdPR|
 
 <!--ENDOFSECTION-->
 

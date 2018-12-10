@@ -13,22 +13,23 @@ description: "tblPreference contains the users' client preferences. This is gene
 ---
 
 # tblPreference
- 
+
 tblPreference contains the users' client preferences. This is generally used by clients previous to Lync 2013.
-  
+
 **Columns**
 
-|**Column**|**Type**|**Description**|
-|:-----|:-----|:-----|
-|prefLabel  <br/> |nvarchar (255), not null  <br/> |Label with a format such as: \<user sip uri\>|username.\<preference set\>.  <br/> |
-|prefSeqID  <br/> |int, not null  <br/> |A sequential number (per label) for versioning purposes.  <br/> |
-|prefContent  <br/> |nvarchar (max)  <br/> |Encoded content.  <br/> |
-|lastModifiedBy  <br/> |int, not null  <br/> |ID of the principal that updated the preference.  <br/> |
-   
+
+| **Column**            | **Type**                        | **Description**                                                 |
+|:----------------------|:--------------------------------|:----------------------------------------------------------------|
+| prefLabel  <br/>      | nvarchar (255), not null  <br/> | Label with a format such as: \<user sip uri\>                   |
+| prefSeqID  <br/>      | int, not null  <br/>            | A sequential number (per label) for versioning purposes.  <br/> |
+| prefContent  <br/>    | nvarchar (max)  <br/>           | Encoded content.  <br/>                                         |
+| lastModifiedBy  <br/> | int, not null  <br/>            | ID of the principal that updated the preference.  <br/>         |
+
 **Key**
 
 |**Column**|**Description**|
 |:-----|:-----|
 |\<prefLabel, prefSeqID\>  <br/> |Primary key.  <br/> |
-   
+
 

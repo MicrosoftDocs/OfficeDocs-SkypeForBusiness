@@ -3,7 +3,7 @@ title: "Virtual Desktop Infrastructure for Lync Server 2013"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -11,7 +11,7 @@ ms.collection: Lync
 ms.audience: Admin
 appliesto:
 - Lync
-- Skype for Business 
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -30,9 +30,9 @@ With the release of Lync Server 2013, Microsoft has worked closely with multiple
 
 ### Related resources
 
-[Deploying the Lync VDI Plug-in](https://docs.microsoft.com/en-us/skypeforbusiness/deploy/deploy-clients/deploy-the-lync-vdi-plug-in)
+[Deploying the Lync VDI Plug-in](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/deploy-the-lync-vdi-plug-in)
 
-[Troubleshooting the Lync VDI Plug-in](http://technet.microsoft.com/library/jj204713(v=ocs.15)) <!-- 2013 yet to migrate -->
+[Troubleshooting the Lync VDI Plug-in](https://technet.microsoft.com/library/jj204713(v=ocs.15)) <!-- 2013 yet to migrate -->
 
 ## VDI environments
 The following table lists the VDI partners and their products which have been tested with the Lync 2013 VDI plug-in. 
@@ -71,14 +71,14 @@ The following table lists the VDI partners and their products which have been te
 		<tr>
 			<td rowspan="2" valign="top">Microsoft</td>
 			<td valign="top">Microsoft Remote Desktop Services</td>
-			<td valign="top">Remote Desktop Client*</td>
+            <td valign="top">Remote Desktop Client<em></td>
 			<td valign="top">Remote Desktop Server</td>
 			<td valign="top">RDP</td>
 		</tr>
 		<tr>
 			<td colspan="4" valign="top">
 				<p><a href="https://www.microsoft.com/en-us/itpro/windows">https://www.microsoft.com/en-us/itpro/windows</a></p>
-				<p>* mstsc.exe only.  The Windows 8 App &quot;Remote Desktop&quot; is not supported</p>
+                <p></em> mstsc.exe only.  The Windows 8 App &quot;Remote Desktop&quot; is not supported</p>
 			</td>
 		</tr>
 		<tr>

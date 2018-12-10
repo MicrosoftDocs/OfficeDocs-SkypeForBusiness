@@ -52,7 +52,7 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
    - In the**Summary** box, check any errors that the wizard reports. Then click **Finish** to complete the validation.
     
-    The wizard will probably report several warnings, especially if you are not using shared storage. You are not required to use shared storage. However, if you see any **Error** messages, you must fix those issues before continuing.
+     The wizard will probably report several warnings, especially if you are not using shared storage. You are not required to use shared storage. However, if you see any **Error** messages, you must fix those issues before continuing.
     
 3. Create the Windows Server Failover Cluster (WSFC).
     
@@ -96,7 +96,7 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
    - In the Select Databases page, select the databases that you want to include in the AlwaysOn Availability Group. Then click **Next**.
     
-    Do not include the **ReportServer**, **ReportServerTempDB**, or Persistent Chat databases in the AlwaysOn Availability Group, as these are not supported in this scenario. You can include all other Skype for Business Server databases in the AlwaysOn Availability Group.
+     Do not include the **ReportServer**, **ReportServerTempDB**, or Persistent Chat databases in the AlwaysOn Availability Group, as these are not supported in this scenario. You can include all other Skype for Business Server databases in the AlwaysOn Availability Group.
     
    - In the **Specify Replicas** page, click the **Replicas** tab. Then click the **Add Replicas** button, and connect to the other SQL instances that you joined as nodes of the Windows Server Failover Cluster.
     
@@ -110,7 +110,7 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
    - In the **Select Initial Data Synchronization** page, select Full, and specify a folder that is accessible to the replicas, and that the SQL Server service account used by both replicas has Write permissions for. Then click **Next**.
     
-    This file share will be used temporarily when you initialize the databases. If you are dealing with large databases, we recommend that you manually initialize them in case your network bandwidth cannot accommodate the size of the database backups.
+     This file share will be used temporarily when you initialize the databases. If you are dealing with large databases, we recommend that you manually initialize them in case your network bandwidth cannot accommodate the size of the database backups.
     
    - In the Validation page, verify that all validation checks are successful, then click **Next**.
     
@@ -124,7 +124,7 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
    - Expand Skype for Business Server, expand your topology, and expand **SQL Server Stores**. Right-click the SQL store of the new AlwaysOn Availability Group, and click **Edit Properties**.
     
-    - At the bottom of the page, in the **SQL Server FQDN** box, change the value to the FQDN of the Listener of the AG.
+     - At the bottom of the page, in the **SQL Server FQDN** box, change the value to the FQDN of the Listener of the AG.
     
    - Publish the topology. From the **Action** menu click **Topology** and then **Publish**. Then in the confirmation page click **Next**. Then wait a few minutes for the new topology to replicate.
     
@@ -192,7 +192,7 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
    - In the**Summary** box, check any errors that the wizard reports. Then click **Finish** to complete the validation.
     
-    The wizard will probably report several warnings, especially if you are not using shared storage. You are not required to use shared storage. However, if you see any **Error** messages, you must fix those issues before continuing.
+     The wizard will probably report several warnings, especially if you are not using shared storage. You are not required to use shared storage. However, if you see any **Error** messages, you must fix those issues before continuing.
     
 7. Create the Windows Server Failover Cluster.
     
@@ -244,7 +244,7 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
     - Click the **Endpoints** tab and verify that **Port Number** is set to 5022.
     
-     - Click the **Listener** tab, and select the **Create an availability group listener** option. Under that option, type a name for the listener, and set the **Port** to 1433 (other ports are not supported for this option).
+      - Click the **Listener** tab, and select the **Create an availability group listener** option. Under that option, type a name for the listener, and set the **Port** to 1433 (other ports are not supported for this option).
     
     - Click **Add**, and then in the **IPv4 Address** box, provide your preferred virtual IP address, and then click **OK**.
     
@@ -324,7 +324,7 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
    - In the**Summary** box, check any errors that the wizard reports. Then click **Finish** to complete the validation.
     
-    The wizard will probably report several warnings, especially if you are not using shared storage. You are not required to use shared storage. However, if you see any **Error** messages, you must fix those issues before continuing.
+     The wizard will probably report several warnings, especially if you are not using shared storage. You are not required to use shared storage. However, if you see any **Error** messages, you must fix those issues before continuing.
     
 3. Create the Windows Server Failover Cluster (WSFC).
     
@@ -368,7 +368,7 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
    - In the Select Databases page, select the databases that you want to include in the AG. Then click **Next**.
     
-    Do not include the **ReportServer**, **ReportServerTempDB**, or Persistent Chat databases in the AG, as these are not supported in this scenario. You can include all other Skype for Business Server databases in the AG.
+     Do not include the **ReportServer**, **ReportServerTempDB**, or Persistent Chat databases in the AG, as these are not supported in this scenario. You can include all other Skype for Business Server databases in the AG.
     
    - In the **Specify Replicas** page, click the **Replicas** tab. Then click the **Add Replicas** button, and connect to the other SQL instances that you joined as nodes of the WSFC.
     
@@ -382,9 +382,9 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
    - In the **Select Initial Data Synchronization** page, select Full, and specify a folder that is accessible to the replicas, and that the SQL Server service account used by both replicas has Write permissions for. Then click **Next**.
     
-    This file share will be used temporarily when you initialize the databases. If you are dealing with large databases, we recommend that you manually initialize them in case your network bandwidth cannot accommodate the size of the database backups.
+     This file share will be used temporarily when you initialize the databases. If you are dealing with large databases, we recommend that you manually initialize them in case your network bandwidth cannot accommodate the size of the database backups.
     
-    - In the Validation page, verify that all validation checks are successful, then click **Next**.
+     - In the Validation page, verify that all validation checks are successful, then click **Next**.
     
    - In the **Summary** page, verify all settings and click Finish.
     
@@ -422,8 +422,8 @@ How you deploy an AG depends on whether you are deploying it in a new pool, an e
     
     - Open Skype for Business Server Management Shell and type the following cmdlet to create the SQL logins on this replica:
     
-     ```
-     Install-CsDatabase -Update
-     ```
+      ```
+      Install-CsDatabase -Update
+      ```
 
-     - Repeat the previous two steps (fail over the group to a secondary replica, then use  `Install-CsDatabase -Update`) for each replica in the group.
+      - Repeat the previous two steps (fail over the group to a secondary replica, then use  `Install-CsDatabase -Update`) for each replica in the group.

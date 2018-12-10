@@ -2,6 +2,7 @@
 title: "Skype Room Systems v2 maintenance and operations"
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
@@ -68,7 +69,7 @@ This section covers system settings that Skype Room Systems v2 depends on to fun
 
 |**Setting**|**Allows**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (dword) 1  <br/> |Enables Skype Room Systems v2 to boot up  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (REG_SZ) 1  <br/> |Enables Skype Room Systems v2 to boot up  <br/> |
 |Power Management -\> On AC, turn screen off after 10 minutes  <br/> Power Management -\> On AC, never put system to sleep  <br/> |Enables Skype Room Systems v2 to turn off attached displays and wake up automatically  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Or equivalent means of disabling password expiration on the local account. Failure to do this will eventually cause the Skype account to fail logon complaining about an expired password. Note that this impacts all local accounts on the machine, and thus failure to set this will also cause the administrative account on the box to eventually expire as well.  <br/> |Enables Skype account to always log in  <br/> |
    
@@ -228,9 +229,9 @@ The console is now back in its normal operation mode.The following procedure req
     
 4. Restart the machine when you're finished.
     
- The console restarts into its normal operation mode, running the Skype Room Systems v2 app. You can remove the keyboard, if it was attached to allow you to perform this procedure.
-## Troubleshooting tips
-<a name="TS"> </a>
+   The console restarts into its normal operation mode, running the Skype Room Systems v2 app. You can remove the keyboard, if it was attached to allow you to perform this procedure.
+   ## Troubleshooting tips
+   <a name="TS"> </a>
 
 - Meeting invitations might not appear when sent across domain boundaries (for example, between two companies). In such cases, IT admins should decide whether to allow external users to schedule a meeting.
     

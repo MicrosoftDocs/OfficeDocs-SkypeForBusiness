@@ -16,6 +16,6 @@ description: "For details about the different procedures that you can perform by
 
 # Voice Usage Policy
  
- 
+For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see the Manage articles in [Skype for Business Server 2019](../../../../SfBServer2019/skype-for-business-server-2019.md).
   
 

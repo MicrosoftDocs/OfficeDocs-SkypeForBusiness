@@ -3,7 +3,7 @@ title: "Phones and devices qualified for Microsoft Lync - USB and Video Devices"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -181,14 +181,14 @@ Download the [Lync Video Hardware Comparison Tables](http://Lync%20Video%20Endpo
 	</tr>
 	<tr align="left" valign="top">
 		<td><strong>Lync Conference</strong></td>
-		<td>Yes*</td>
+        <td>Yes<em></td>
 		<td>NA</td>
 		<td>NA</td>
 		<td>NA</td>
 	</tr>
 	<tr align="left" valign="top">
 		<td><strong>HD Video (RTVideo)</strong></td>
-		<td>Yes*</td>
+        <td>Yes</em></td>
 		<td>NA</td>
 		<td>NA</td>
 		<td>NA</td>

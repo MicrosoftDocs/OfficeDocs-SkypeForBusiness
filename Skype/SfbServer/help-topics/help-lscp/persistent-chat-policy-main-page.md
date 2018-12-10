@@ -44,11 +44,11 @@ You can perform the following tasks on the **Persistent Chat Policy** page: enab
     
 5. In **Edit Persistent Chat Policy - Global**, do the following:
     
-  - In **Name**, specify a new name for the global policy, if you do not want to use the default of Global.
+   - In **Name**, specify a new name for the global policy, if you do not want to use the default of Global.
     
-  - In **Description**, provide details about what the user policy is (for example, Global policy for  _centralSiteName_).
+   - In **Description**, provide details about what the user policy is (for example, Global policy for  _centralSiteName_).
     
-  - To control Persistent Chat for all sites and users not specifically controlled through a site policy or user policy, select or clear the **Enable Persistent Chat** check box.
+   - To control Persistent Chat for all sites and users not specifically controlled through a site policy or user policy, select or clear the **Enable Persistent Chat** check box.
     
 6. Click **Commit**.
     
@@ -70,11 +70,11 @@ The configuration in the site policy overrides the global policy, but only for t
     
 6. In **New Persistent Chat Policy**, do the following:
     
-  - In **Name**, specify a name for the new site policy (for example, Redmond).
+   - In **Name**, specify a name for the new site policy (for example, Redmond).
     
-  - In **Description**, provide details about what the site policy is (for example, chat room policy for Redmond).
+   - In **Description**, provide details about what the site policy is (for example, chat room policy for Redmond).
     
-  - To control Persistent Chat for all sites not specifically controlled through a site policy, select or clear the **Enable Persistent Chat** check box.
+   - To control Persistent Chat for all sites not specifically controlled through a site policy, select or clear the **Enable Persistent Chat** check box.
     
 7. Click **Commit**.
     
@@ -94,11 +94,11 @@ The user policy overrides the global policy and site policies, but only for the 
     
 5. In **New Persistent Chat Policy**, do the following:
     
-  - In **Name**, specify a name for the new user policy.
+   - In **Name**, specify a name for the new user policy.
     
-  - In **Description**, provide details about what the user policy is (for example, Persistent Chat policy for specific user).
+   - In **Description**, provide details about what the user policy is (for example, Persistent Chat policy for specific user).
     
-  - To control Persistent Chat for all users who are not specifically controlled through a user policy, select or clear the **Enable Persistent Chat** check box.
+   - To control Persistent Chat for all users who are not specifically controlled through a user policy, select or clear the **Enable Persistent Chat** check box.
     
 6. Click **Commit**.
     

@@ -104,8 +104,8 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 To configure Exchange Unified Messaging (UM) to work with Enterprise Voice, you’ll need to perform the following tasks:
 
 - Configure certificates on the server running Exchange Unified Messaging (UM) services
-> [!NOTE]
-> Add all Client Access and Mailbox servers to all UM SIP URI dial plans. If not, outbound call routing won’t work as expected. 
+  > [!NOTE]
+  > Add all Client Access and Mailbox servers to all UM SIP URI dial plans. If not, outbound call routing won’t work as expected. 
 - Create one or more UM SIP URI dial plans, along with the subscriber access phone numbers, as needed, and then create corresponding L dial plans.
 
 - Use the exchucutil.ps1 script to:
@@ -123,8 +123,8 @@ Before you begin, the documentation in this section assumes that you have deploy
 Also note the following:
 - If Exchange UM is installed in multiple forests, the Exchange Server integration steps must be performed for each UM forest. In addition, each UM forest must be configured to trust the forest in which Skype for Business Server is deployed, and the forest in whichSkype for Business Server is deployed must be configured to trust each UM forest.
 - Integration steps are performed on both the Exchange Server roles where Unified Messaging services are running, and on the server running Skype for Business Server. You should perform the Exchange Server Unified Messaging integration steps before you perform the Lync Server 2013 integration steps.
-> [!NOTE]
-> To see which integration steps are performed on which servers and by which administrator roles, see  [Deployment process overview for integrating on-premises Unified Messaging and Skype for Business](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md). 
+  > [!NOTE]
+  > To see which integration steps are performed on which servers and by which administrator roles, see  [Deployment process overview for integrating on-premises Unified Messaging and Skype for Business](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md). 
 
 The following tools must be available on each server running Exchange UM:
 - Exchange Management Shell
@@ -146,8 +146,8 @@ When you’re integrating Microsoft Skype for Business Server with Exchange Unif
 
 - Creates a UM hunt group for each UM IP gateway. The pilot identifier of each hunt group specifies the UM SIP URI dial plan used by the Skype for Business Server Front End pool or Standard Edition server that’s associated with the UM IP gateway.
 - Grants Skype for Business Server permission to read Active Directory UM container objects such as UM dial plans, auto attendants, UM IP gateways, and UM hunt groups.
-> [!IMPORTANT]
-> Each UM forest must be configured to trust the forest in which Skype for Business Server is deployed, and the forest in which Skype for Business Server 2013 is deployed must be configured to trust each UM forest. If Exchange UM is installed in multiple forests, the Exchange Server integration steps must be performed for each UM forest or you’ll have to specify the Skype for Business Server domain. For example, ExchUcUtil.ps1 –Forest:<lync-domain-controller-fqdn>. 
+  > [!IMPORTANT]
+  > Each UM forest must be configured to trust the forest in which Skype for Business Server is deployed, and the forest in which Skype for Business Server 2013 is deployed must be configured to trust each UM forest. If Exchange UM is installed in multiple forests, the Exchange Server integration steps must be performed for each UM forest or you’ll have to specify the Skype for Business Server domain. For example, ExchUcUtil.ps1 –Forest:<lync-domain-controller-fqdn>. 
 
 ### Use the Shell to run the ExchUcUtil.ps1 script
 
@@ -186,8 +186,8 @@ The Exchange Server must be configured with a server certificate in order to con
 1. On the server running Exchange UM, click **Start**, click **Run**, type **http://\<name of your Issuing CA Server>/certsrv**, and then click **OK**.
 2. Under Select a task, click **Download a CA certificate, certificate chain, or CRL**.
 3. Under **Download a CA Certificate, Certificate Chain, or CRL**, select **Encoding Method to Base 64**, and then click**Download CA certificate**.
-> [!NOTE]
-> You can also specify Distinguished Encoding Rules (DER) encoding at this step. If you select DER encoding, the file type in the next step of this procedure and in step 10 of **To Install the CA certificate** is .p7b rather than .cer. 
+   > [!NOTE]
+   > You can also specify Distinguished Encoding Rules (DER) encoding at this step. If you select DER encoding, the file type in the next step of this procedure and in step 10 of **To Install the CA certificate** is .p7b rather than .cer. 
 4. In the **File Download** dialog box, click **Save**, and then save the file to the hard disk on the server. (The file will have either a .cer or a .p7b file extension, depending on the encoding that you selected in the previous step.)
 
 **To install the CA certificate:**

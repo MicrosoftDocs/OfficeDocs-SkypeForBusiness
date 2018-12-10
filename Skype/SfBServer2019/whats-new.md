@@ -3,7 +3,6 @@ title: "What's new in Skype for Business Server"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/10/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
@@ -16,14 +15,11 @@ description: "Summary: These features are new in Skype for Business Server 2019.
 
 **Summary:** Read this topic to learn about new features in Skype for Business Server 2019.  
 
-[!INCLUDE [disclaimer](disclaimer.md)]
-
 New features in Skype for Business Server 2019 include the following:
   
 - Cloud Voicemail  
 - Call Data Connector
 - Side-by-side migration
-- Migration to Teams
 
 ## Unified messaging services: Cloud Voicemail 
 
@@ -47,14 +43,6 @@ With Call Data Connector, you can perform the following tasks by using a single 
 - Assign helpdesk and administrator roles for Call Analytics, so that you can empower helpdesk workers to view and troubleshoot their areas of responsibility. 
 
 See [Plan Call Data Connector](hybrid/plan-call-data-connector.md) for more information.
-  
-
-
-## Installation and Upgrade: Side-by-side migration
-
-In a side-by-side migration, you deploy a new server running Skype for Business Server 2019 alongside a corresponding server that is running a previous version (Skype for Business Server 2015 or Lync Server 2013), and then transfer operations to the new server. If it becomes necessary to roll back to the previous version, you have only to shift operations back to the original servers. 
-
-For complete details, see [Migration to Skype for Business Server 2019](migration/migration-to-skype-for-business-server-2019.md).
 
 ### See also
 

@@ -26,9 +26,9 @@ Topology Builder provides a way to install databases on a SQL Server store. When
     
 3. Click **Advanced**. In the **Select Database File Location** dialog box, select one of the following options:
     
-  - **Automatically determine database file location**. If you select this option, Topology Builder uses a built-in algorithm to choose the storage location for the database logs and data files.
+   - **Automatically determine database file location**. If you select this option, Topology Builder uses a built-in algorithm to choose the storage location for the database logs and data files.
     
-  - **Use SQL Server instance defaults**. If you select this option, the built-in algorithm is not used to choose the storage locations for the database logs and data files. Instead, log and data files are stored in the locations specified by the SQL Server defaults path (these paths must be configured in advanced by a SQL Server administrator). Data files will be stored in the default SQL Server data file location while log files will be stored in the default SQL Server log file location.
+   - **Use SQL Server instance defaults**. If you select this option, the built-in algorithm is not used to choose the storage locations for the database logs and data files. Instead, log and data files are stored in the locations specified by the SQL Server defaults path (these paths must be configured in advanced by a SQL Server administrator). Data files will be stored in the default SQL Server data file location while log files will be stored in the default SQL Server log file location.
     
 4. Click **OK**.
     

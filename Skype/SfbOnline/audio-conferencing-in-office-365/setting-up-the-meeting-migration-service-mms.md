@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 031f09c0-9d2a-487a-b6db-b5d4bed6d16a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -38,7 +39,7 @@ MMS updates Skype meetings for a user in the following two primary scenarios:
     
 - When an admin makes a change to the user's audio conferencing settings that would require updating the audio conferencing information in that user's meetings.
     
- **Common scenarios where you can't use MMS**
+  **Common scenarios where you can't use MMS**
   
 Here are some common scenarios that may apply to you. These are all supported scenarios for migration. However, MMS won't run in these scenarios and you'll need to use the [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) instead.
   
@@ -84,7 +85,7 @@ MMS will update an existing Skype for Business and Microsoft Teams meetings in t
     
 - When you move the user to a new audio conferencing bridge.
     
-- When a phone number is unassigned from a audio conferencing bridge. This is a complex scenario which requires additional steps. For more information, see [Change the toll or toll free numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+- When a phone number is unassigned from a audio conferencing bridge. This is a complex scenario which requires additional steps. For more information, see [Change the toll or toll free numbers on your Audio Conferencing bridge](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
     
 > [!IMPORTANT]
 > MMS only updates meetings when you're using the Microsoft bridge. If you are using a third-party audio conferencing provider, the users will need to update their meetings manually. In this case, you can use the [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047). 
@@ -101,15 +102,15 @@ When MMS detects that a user's meetings need to be updated, it will do the follo
   
 1. Identify all Skype for Business and Microsoft Teams meetings the user has scheduled in the future
     
-  - Any Skype for Business or Microsoft Teams meetings that occurred prior to when MMS runs are skipped
+   - Any Skype for Business or Microsoft Teams meetings that occurred prior to when MMS runs are skipped
     
-  - Only the meetings where the user is the organizer are updated
+   - Only the meetings where the user is the organizer are updated
     
 2. Replace the online meeting information block in the meeting details
     
 3. Send updates to all meeting recipients on behalf of the meeting organizer
     
- **How long will it take for MMS to run?**
+   **How long will it take for MMS to run?**
   
 The amount of time it take for MMS to migrate meetings varies depending on how many users are impacted, and the total number of Skype for Business or Microsoft Teams meetings each user has on their calendar. At a minimum, it will take 10 minutes to run. While some large migrations can take up to 12 hours, most migrations should complete within 1 hour.
   
@@ -175,17 +176,17 @@ When you run the  `Get-CsMeetingMigrationStatus` cmdlet to get a summary view an
   
 1. Determine which users are affected. Run the following command to get the list of affected users, and the specific error that was reported:
     
-  ```
-  Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastErrorMessage
-  ```
+   ```
+   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastMessage
+   ```
 
 2. For each of those user, run the [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) to manually migrate their meetings.
     
 3. If migration still doesn't work with the Meeting Migration Tool, you have two options:
     
-  - Have the users create new Skype meetings.
+   - Have the users create new Skype meetings.
     
-  - [Contact support](https://go.microsoft.com/fwlink/p/?LinkID=518322).
+   - [Contact support](https://go.microsoft.com/fwlink/p/?LinkID=518322).
     
 ### Enabling and disabling MMS
 <a name="Troubleshooting"> </a>
@@ -267,13 +268,13 @@ If you need to know more, see [Connect to all Office 365 services in a single Wi
     > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
   
 > 
-  ```
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
-  $credential = Get-Credential
-  $session = New-CsOnlineSession -Credential $credential
-  Import-PSSession $session
-  ```
-If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx) or[Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+>   ```
+>   Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+>   $credential = Get-Credential
+>   $session = New-CsOnlineSession -Credential $credential
+>   Import-PSSession $session
+>   ```
+> If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 - When it comes to Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     

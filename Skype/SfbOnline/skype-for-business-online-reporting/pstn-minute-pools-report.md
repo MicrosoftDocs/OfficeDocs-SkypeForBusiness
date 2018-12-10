@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 51c2f7ac-2b72-488d-b1ea-f00e1e88ee7a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -29,7 +30,7 @@ The new Skype for Business Admin Center **Reports** area shows you calling and a
   
 Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) for more reports that are available.
   
-This report, along with the other Skype for Business reports, gives you details on activity across your organization. These details are very helpful when investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
+This report, along with the other Skype for Business reports, gives you details on activity across your organization. These details are very helpful when investigating, planning, and making other business decisions for your organization and for setting up [Communications Credits](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
 > You can see all of the Skype for Business reports when you log on as an administrator to the Office 365 admin center. 
@@ -57,7 +58,7 @@ This is what the report looks like.
 ![Number 1](../images/sfbcallout1.png)<br/>The table shows you a breakdown of minute pools by license (capability) and usage location. 
 *    **Capability** is the license/service plan used for the call. The license/service plans you may see in this report include:
      * MCOPSTN1 - Domestic Calling Plan (3000-minute US/1200-minute EU plans
-     * MCOPSTN2 - International Calling Plan
+     * MCOPSTN2 - Domestic & International Calling Plan from which you will see a domestic pool (3000-minute US/Canada/PR, 1200-minute European countries) and an international pool (600-minutes). Minute cap is reached whenever the domestic -OR- international cap is reached within the calendar month. 
      * MCOPSTN5 - Domestic Calling Plan (120-minute calling plan)
      * MCOPSTN6 - Domestic Calling Plan (240-minute calling plan)
      * MCOMEETADD - Audio Conferencing

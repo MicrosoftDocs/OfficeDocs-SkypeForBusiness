@@ -7,7 +7,7 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -87,14 +87,14 @@ When installing Skype for Business Server 2015 Standard Edition, you'll have SQL
 Skype for Business Server 2015 Enterprise Edition is a little more complicated, but the supported list is below (everything is 64-bit edition, you'll notice, please don't use 32-bit editions):
   
 ||||
-|:-----|:-----|:-----|
-|Microsoft SQL Server 2014 Enterprise (64-bit edition), and you must run with Cumulative Update 6 or later ([download Cumulative Update 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (64-bit edition), and we recommend running with the latest service pack.  <br/> |Microsoft SQL Server 2008 R2 Enterprise (64-bit edition), and we recommend running with the latest service pack.  <br/> |
-|Microsoft SQL Server 2014 Standard (64-bit edition), and you must run with Cumulative Update 6 or later ([download Cumulative Update 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (64-bit edition), and we recommend running with the latest service pack.  <br/> |Microsoft SQL Server 2008 R2 Standard (64-bit edition), and we recommend running with the latest service pack  <br/> |
+|:-----|:-----|:-----|:-----|
+|Microsoft SQL Server 2016 Enterprise (64-bit edition) with Service Pack 1 or later, and you must run with Skype for Business Cumulative Update 7 or later ([download Skype for Business Cumulative Update](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Enterprise (64-bit edition), and you must run with Cumulative Update 6 or later ([download Cumulative Update 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (64-bit edition), and we recommend running with the latest service pack.  <br/> |Microsoft SQL Server 2008 R2 Enterprise (64-bit edition), and we recommend running with the latest service pack.  <br/> |
+|Microsoft SQL Server 2016 Standard (64-bit edition) with Service Pack 1 or later, and you must run with Skype for Business Cumulative Update 7 or later ([download Skype for Business Cumulative Update](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Standard (64-bit edition), and you must run with Cumulative Update 6 or later ([download Cumulative Update 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (64-bit edition), and we recommend running with the latest service pack.  <br/> |Microsoft SQL Server 2008 R2 Standard (64-bit edition), and we recommend running with the latest service pack  <br/> |
    
 If you don't see the SQL Server edition you want to use listed here, you can't use it.
   
 > [!NOTE]
-> You're also going to need to install SQL Server Reporting Services for the Monitoring Server role, but we need you to know this isn't going to be supported with SQL Always on until post-RTM. 
+> You're also going to need to install SQL Server Reporting Services for the Monitoring Server role.
 
 ### Microsoft Exchange storage
 Meeting content files, such as PowerPoint presentations, are archived as attachments. If you want to store Skype for Business archive data with Exchange compliance data, you must use Exchange for your Exchange deployment and ensure that the maximum storage size supports storage of the meeting content files. You must deploy Exchange prior to deploying and enabling archiving using the Microsoft Exchange integration option. 
@@ -128,6 +128,8 @@ You can have the following for failover clustering:
   
 Two-node:
   
+- Microsoft SQL Server 2016 Standard (64-bit edition) with Service Pack 1 or later. We recommend running with the latest service pack.
+
 - Microsoft SQL Server 2014 Standard (64-bit edition), and we recommend running with the latest service pack.
     
 -  Microsoft SQL Server 2012 Standard (64-bit edition), and we recommend running with the latest service pack.
@@ -135,6 +137,8 @@ Two-node:
 - Microsoft SQL Server 2008 R2 Standard (64-bit edition), and we recommend running with the latest service pack.
     
 Sixteen-node:
+
+- Microsoft SQL Server 2016 Enterprise (64-bit edition) with Service Pack 1 or later. We recommend running with the latest service pack.
   
 - Microsoft SQL Server 2014 Enterprise (64-bit edition), and we recommend running with the latest service pack.
     

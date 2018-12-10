@@ -6,7 +6,7 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -78,25 +78,25 @@ Use one of the following procedures to create or modify an agent group.
     
 10. In **Agents**, specify how you want to create your agents list:
     
-   - To use a custom list of agents, click **Define a custom group of agents**, and do one of the following:
+    - To use a custom list of agents, click **Define a custom group of agents**, and do one of the following:
     
-   - To add a user to the agent group, click **Select**, and then in the **Select Agents** search field, type all or part of the name of the user that you want to add to this group, and then click **Find**. In the resulting list of agents, click the user, and then click **OK**.
+    - To add a user to the agent group, click **Select**, and then in the **Select Agents** search field, type all or part of the name of the user that you want to add to this group, and then click **Find**. In the resulting list of agents, click the user, and then click **OK**.
     
-   - To remove a user from the agent group, in the list of agents, click the user you want to remove, and then click **Remove**.
+    - To remove a user from the agent group, in the list of agents, click the user you want to remove, and then click **Remove**.
     
-   - To change the order in which agents are offered calls in groups that use either round robin routing or serial routing, in the list of agents, click a user, and then click the up arrow or down arrow. 
+    - To change the order in which agents are offered calls in groups that use either round robin routing or serial routing, in the list of agents, click a user, and then click the up arrow or down arrow. 
     
-   - To use a Microsoft Exchange Server distribution list as your agent group, click **Use an existing email distribution list**, and then in **Distribution list address**, type the email address of the distribution list (for example, NetworkSupport@contoso.com).
+    - To use a Microsoft Exchange Server distribution list as your agent group, click **Use an existing email distribution list**, and then in **Distribution list address**, type the email address of the distribution list (for example, NetworkSupport@contoso.com).
     
-     If you use an email distribution list, you are subject to the following constraints:
+      If you use an email distribution list, you are subject to the following constraints:
     
-     - You cannot select multiple distribution lists for the agent group. Each group supports only a single distribution list.
+      - You cannot select multiple distribution lists for the agent group. Each group supports only a single distribution list.
     
-     - If the distribution list contains one or more distribution lists, members of the nested distribution lists are not added to the agent list.
+      - If the distribution list contains one or more distribution lists, members of the nested distribution lists are not added to the agent list.
     
-     - If serial or round robin routing is selected, the server offers an incoming call to the appropriate agent according to the routing method and according to the order in which agents are listed in the distribution list.
+      - If serial or round robin routing is selected, the server offers an incoming call to the appropriate agent according to the routing method and according to the order in which agents are listed in the distribution list.
     
-     - If the distribution list contains users for which Lync Server 2010 is enabled but Enterprise Voice is not enabled, they will be added to the agent group as dysfunctional agents. Make sure that all members of the distribution list have Enterprise Voice enabled for their user accounts.
+      - If the distribution list contains users for which Lync Server 2010 is enabled but Enterprise Voice is not enabled, they will be added to the agent group as dysfunctional agents. Make sure that all members of the distribution list have Enterprise Voice enabled for their user accounts.
     
     > [!IMPORTANT]
     > If you use an email distribution list, hidden memberships or hidden lists might become visible to the Response Group administrator or users. 

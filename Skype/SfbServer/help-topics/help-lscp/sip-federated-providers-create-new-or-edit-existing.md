@@ -15,9 +15,9 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # SIP Federated Providers: Create New or Edit Existing
- 
+
 What do you want to do? Click the link to the task that you want to perform.
-  
-- [Manage SIP Federated Providers for Your Organization](http://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
-    
+
+- [Manage SIP Federated Providers for Your Organization](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+
 

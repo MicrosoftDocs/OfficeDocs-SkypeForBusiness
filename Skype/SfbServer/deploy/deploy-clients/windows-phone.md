@@ -41,12 +41,12 @@ Before directing users in your organization to download the app, you'll want to 
     
 5. Tap **Next** and review the notification and phonebook access settings:
     
-  - **Push notifications** Get an alert when you receive a new IM or call. Normally **On** (recommended).
+   - **Push notifications** Get an alert when you receive a new IM or call. Normally **On** (recommended).
     
-    > [!IMPORTANT]
-    > If you turn this setting off, you won't be notified of IMs, calls, or other Skype for Business for Windows Phone alerts unless the app is active. 
+     > [!IMPORTANT]
+     > If you turn this setting off, you won't be notified of IMs, calls, or other Skype for Business for Windows Phone alerts unless the app is active. 
   
-  - **Allow phonebook access** Search for contacts on your mobile phone when you search for contacts in Skype for Business for Windows Phone.
+   - **Allow phonebook access** Search for contacts on your mobile phone when you search for contacts in Skype for Business for Windows Phone.
     
 6. Tap **Next** to start using Skype for Business for Windows Phone.
     

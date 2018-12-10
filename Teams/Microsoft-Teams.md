@@ -16,13 +16,13 @@ ms.topic: hub-page
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <li>
-                                <a href="/MicrosoftTeams/Teams-overview">
+                                <a href="/MicrosoftTeams/get-started-with-teams-landing-page">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-GetStarted-400x140.svg" alt="a pedestrian symbol with an arrow pointing to a computer screen, tablet, and phone" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-GetStarted-400x140.svg" alt="a pedestrian symbol with an arrow pointing to a computer screen, tablet, and phone" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -41,7 +41,7 @@ ms.topic: hub-page
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Journey-400x140.svg" alt="a roadmap with footsteps" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-Journey-400x140.svg" alt="a roadmap with footsteps" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -54,13 +54,13 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="/MicrosoftTeams/change-management-strategy">
+                                <a href="/MicrosoftTeams/adopt-microsoft-teams-landing-page">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-ChangeManagement-400x140.svg" alt="a task list, a wrench and a gear symbol" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -79,12 +79,12 @@ ms.topic: hub-page
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" alt="a user with a phone and clouds" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" alt="a user with a phone and clouds" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Cloud voice</h3>
-                                                    <p>Find the practical guidance you need to get started with Audio Conferencing and Phone System deployment using Teams</p>
+                                                    <p>Deploy Audio Conferencing, Calling Plans, and Phone System in Teams</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -98,12 +98,12 @@ ms.topic: hub-page
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-Security-Compliance-400x140.svg" alt="a shield with a check mark and clouds" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-Security-Compliance-400x140.svg" alt="a shield with a check mark and clouds" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Security &amp; compliance</h3>
-                                                    <p>Teams is built on the Office 365 cloud, which means it features the enterprise-grade security & compliance you need</p>
+                                                    <p>Teams is built on the Office 365 cloud, which means it features the enterprise-grade security &amp; compliance you need</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -117,12 +117,69 @@ ms.topic: hub-page
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Find training &amp; videos</h3>
                                                     <p>Get Teams training - for you and your users</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/microsoftteams/platform/overview">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-Developer-400x140.svg" alt="a settings symbol with a code symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Introduction to Microsoft Teams developer platform</h3>
+                                                    <p>Learn about the Microsoft Teams developer platform and how it enables you to build useful and powerful apps</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-Community-400x140.svg" alt="a users symbol with a globe symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Microsoft Teams tech community</h3>
+                                                    <p>Join the Teams tech community to ask questions &amp; get answers and read the Teams blog</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/powershell/module/teams/?view=teams-ps">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-Powershell-400x140.svg" alt="a PowerShell logo on a book symbol" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>PowerShell cmdlet reference for Teams</h3>
+                                                    <p>Get the PowerShell modules and cmdlets for Teams</p>
                                                 </div>
                                             </div>
                                         </div>

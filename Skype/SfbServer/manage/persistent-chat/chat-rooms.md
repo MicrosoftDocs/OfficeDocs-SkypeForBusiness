@@ -71,7 +71,7 @@ In addition to the above parameters, the **Set-CsPersistentChatRoom** cmdlet let
     
 - Presenters. Lets you assign presenters to an Auditorium chat room. 
     
- For details about syntax, including all parameters, see [Skype for Business Server 2015 Management Shell](../management-shell.md).
+  For details about syntax, including all parameters, see [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 ## Create a new room
 

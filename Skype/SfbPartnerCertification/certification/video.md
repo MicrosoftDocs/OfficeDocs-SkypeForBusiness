@@ -3,7 +3,7 @@ title: "Skype for Business certification program - Video"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -31,6 +31,7 @@ Always check if your Skype for Business version was tested to interoperate with 
 The tables that follow describe the features available for the 3rd party VTC as certified for Skype for Business. Here, we compare the capabilities of the VTC in Skype for Business interop mode to the capabilities of Skype Room Systems (Native Meeting Room Devices).
 
 #### General information
+
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Polycom RealPresence Group Series for Skype for Business|Skype Room Systems (Native Meeting Room Devices)|
 |:---------|:---------|:--------|
 |**Product type**| VTC |Room System|
@@ -42,6 +43,7 @@ The tables that follow describe the features available for the 3rd party VTC as 
 
 
 #### Skype for Business Experience
+
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Polycom RealPresence Group Series for Skype for Business|Skype Room Systems (Native Meeting Room Devices)|
 |:--- |:--- |:---: |
 |Skype for Business UI|Partial \*| &#x2714; |
@@ -61,6 +63,7 @@ The tables that follow describe the features available for the 3rd party VTC as 
 
 
 #### Manageability 
+
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Polycom RealPresence Group Series for Skype for Business|Skype Room Systems (Native Meeting Room Devices)|
 |:--- |:---: |:---: |
 |**OOB Experience** |3rd party |&#x2714; |
@@ -71,6 +74,7 @@ The tables that follow describe the features available for the 3rd party VTC as 
 | | | |
 
 #### Interop with Skype for Business
+
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Polycom RealPresence Group Series for Skype for Business|Skype Room Systems (Native Meeting Room Devices)|
 |:--- |:---: |:---: |
 |**Searchable from Lync or Skype client** |&#x2714; | &#x2714; <br />(with Exchange resource account)|
@@ -81,6 +85,7 @@ The tables that follow describe the features available for the 3rd party VTC as 
 
 
 #### Media quality with Skype for Business
+
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Polycom RealPresence Group Series for Skype for Business|Skype Room Systems (Native Meeting Room Devices)|
 |:--- |:---: |:---: |
 |**VBSS-based content sharing**|\*\*  |&#x2714;  |
@@ -97,6 +102,7 @@ The tables that follow describe the features available for the 3rd party VTC as 
 Desktop sharing using RDP from a device sends content as video over the people channel. Polycom support for VBSS is currently planned for certification.
 
 #### Other feature support with Skype for Business
+
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Polycom RealPresence Group Series for Skype for Business|Skype Room Systems (Native Meeting Room Devices)|
 |:--- |:---: |:---: |
 |**Web proxy support**| | &#x2714;<br>(same as Skype for Business client) |

@@ -3,7 +3,7 @@ title: "Skype for Business Certification Program - Gateways"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -29,8 +29,8 @@ We recommend that you visit the vendor's web site for the latest information reg
 |Vendor  |Product  |Software Version  |
 |:---------|:---------|:---------|
 |[Audiocodes](http://www.audiocodes.com/products/microsoft-skype-for-business-gateway)|   Mediant 1000 |  v7.00A.021.013 |
-|[Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)| SBC 2000 | 4.1.1 Build 376 &Dagger;  |
-|[Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business) |  SBC 1000 | 6.1.0  |
+|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)| SBC 2000 | 4.1.1 Build 376 &Dagger;  |
+|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business) |  SBC 1000 | 6.1.0  |
 |      |         |         |
 
 

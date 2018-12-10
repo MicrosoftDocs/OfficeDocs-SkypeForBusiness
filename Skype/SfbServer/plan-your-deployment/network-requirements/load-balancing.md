@@ -6,7 +6,7 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -68,7 +68,7 @@ Following are the hardware load balancer requirements for Edge Servers running t
     
 - The edge internal interface must be on a different network than the Edge Server external interface and routing between them must be disabled. 
     
-- The external interface of the Edge Server running the A/V Edge Service must use publically routable IP addresses and no NAT or port translation on any of the edge external IP addresses. 
+- The external interface of the Edge Server running the A/V Edge Service must use publicly routable IP addresses and no NAT or port translation on any of the edge external IP addresses. 
     
 - The load balancer must not change the source address of the client.
     

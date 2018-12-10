@@ -7,8 +7,9 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Learn to enhance Office 365 groups with Microsoft Teams by inviting a ditribution list to a team, add mail-enabled security groups, and more.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---
@@ -18,12 +19,13 @@ Enhance Existing Office 365 groups with Microsoft Teams
 
 Microsoft Teams users can enhance an existing Office 365 Group with Microsoft Teams functionality. When looking at enhancing a public Office 365 Group, users can do that if the number of members is equal to or less than 2500.
 
-To do this, users should go through the flow of creating a new team from the Microsoft Teams client. Select **“Yes, add Microsoft Teams functionality”** at the bottom of the screen and then choose the existing group that they want to enhance with Microsoft Teams. Existing group members will be added as members to the team automatically.
-
-
+To do this, users should go through the flow of creating a new team from the Microsoft Teams client. Select **Create a team from an existing Office 365 group** at the bottom of the screen and then choose the existing group that you want to enhance with Microsoft Teams. Existing group members will be added as members to the team automatically.
 
 > [!IMPORTANT]
-> Only Office 365 Group owners have permission to enhance an existing group with Microsoft Teams. 
+> Only Office 365 Group owners have permission to enhance an existing group  with Microsoft Teams, and that group must contain less than 2500 users. Teams that have already been enhanced will not show up in the list.
+>
+>The **Create a team from an existing Office 365 group** option will not be available unless these conditions have been met.
+
 
 Users can also invite a distribution list to a team, and the members of that distribution list will be added to the team. This is a one-time sync, and later changes in group membership in the distribution list will not be replicated to Teams. 
 

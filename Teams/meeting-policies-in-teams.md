@@ -1,5 +1,5 @@
 ---
-title: Meeting polcies in Teams
+title: Meeting policies in Teams
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -7,8 +7,9 @@ ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua 
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin 
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 description: Learn to manage meeting policy settings in Teams.
@@ -35,7 +36,7 @@ Meeting policies are used to control the features that are available to meeting 
    - **Allow transcription** If you turn this on, transcription of the meeting will be available to users.
    - **Allow cloud recording** Turning this on will allow recordings to be saved to the cloud.
    - **Allow IP video** Turning this on will allow IP videos during meetings.
-   - **Media bit rate (KBs)** You can set the bit rate for meetings. The default is 50 MB.
+   - **[Coming soon]** **Media bit rate (KBs)** You can set the bit rate for meetings. The default is 50 MB.
 
 <a name="bkcontentsharing"> </a>
 

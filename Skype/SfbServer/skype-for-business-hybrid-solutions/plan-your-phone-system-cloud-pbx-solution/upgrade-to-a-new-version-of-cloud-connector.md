@@ -7,7 +7,7 @@ ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - Strat_SB_Hybrid
 ms.custom:
@@ -71,27 +71,27 @@ If there is only one appliance in the site you want to upgrade, do the following
     
 4. Start a PowerShell console as administrator and run the following cmdlet to register the current appliance:
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 5. Run the following cmdlet to download the latest version:
     
-  ```
-  Start-CcDownload
-  ```
+   ```
+   Start-CcDownload
+   ```
 
 6. Run the following cmdlet to start the installation: 
     
-  ```
-  Install-CcAppliance -Upgrade
-  ```
+   ```
+   Install-CcAppliance -Upgrade
+   ```
 
 7. Run the following cmdlet to activate the new deployment and turn off the previous version:
     
-  ```
-  Switch-CcVersion
-  ```
+   ```
+   Switch-CcVersion
+   ```
 
 If there is more than one appliance in the site, please follow the preceding steps to upgrade each appliance one by one.
   

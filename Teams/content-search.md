@@ -6,7 +6,9 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: anach
+search.appverid: MET150
 description: Learn about Content Search in Microsoft Teams and how to search against Channel chats from Exchange, file uploads/modifications from SharePoint, and OneNote as well.
 appliesto: 
 - Microsoft Teams
@@ -25,4 +27,4 @@ You can also add query criteria to the **Content Search** to narrow the results 
 
 ![Screenshot of the Query dialog with a keyword search in progress.](media/Use_Content_Search_in_Microsoft_Teams_image2.png)
 
-After adding search conditions should you choose to, you can then export a report or the data to your computer for analysis. For more information on how to use Content Search, review [this](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a?ui=en-US&rs=en-US&ad=US&fromAR=1) link.
+After adding search conditions should you choose to, you can then export a report or the data to your computer for analysis. For more information on how to use Content Search, review [this](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) link.

@@ -6,12 +6,15 @@ manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
-localization_priority: Priority
+appliesto:
+- Skype for Business 
+- Microsoft Teams
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -43,11 +46,11 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 2. At the top of the page, click **Edit**.
 
-3. Click the menu next to **Conference Bridges**, and then click **Edit** in the drop-down list.
+3. Next to **Audio Conferencing**, click **Edit**.
 
-4. In the **Conference bridge provider** pane, under **Restrictions to dial-outs from meetings of this user**, select the dial-out restriction option you want.
+4. Under **Dial-out permission from meetings**, select the dial-out restriction option you want.
 
-5. Click **Apply**. 
+5. Click **Save**. 
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
