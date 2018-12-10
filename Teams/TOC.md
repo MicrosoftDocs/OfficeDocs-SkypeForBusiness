@@ -1,11 +1,34 @@
 
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
+
 ## Set up Teams
+### [Get clients for Teams](get-clients.md)
+### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
+### [Install Teams using MSI](msi-deployment.md)
+### [Turn on Teams in your organization](Office-365-set-up.md)
+### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
+### [Deploy Teams for Surface Hub](teams-surface-hub.md)
+### Licensing
+#### [Office 365 licensing for Teams](office-365-licensing.md)
+#### [Manage user access to Teams](user-access.md)
+#### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
+
 
 ## Manage Teams
+### [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)
+### [Manage Teams features in your organization](enable-features-office-365.md)
+### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
+### [Assign team owners and members in Teams](assign-roles-permissions.md)
+### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
+### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
+### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 
 <!-- ============================================================ -->
+
 
 ## Interoperability with Office 365
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
@@ -36,7 +59,6 @@
 ## [Quick start - Teams planning guide](quick-start-enable-teams.md)
 ## [Check your environment’s readiness for Teams](environment-readiness.md)
 ## [Prepare your organization's network for Teams](prepare-network.md)
-## [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
 ## [Limits and specifications for Teams](limits-specifications-teams.md)
 ## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 ## [Get tools to support a rollout of Teams](rollout-tools.md)
@@ -46,6 +68,7 @@
 <!-- ============================================================ -->
 
 # [Deploy](deploy-teams-landing-page.md)
+## [Overview of a Teams deployment](deployment-overview.md)
 
 ## Chat, teams, & channels
 ### [Overview of teams and channels in Teams](teams-channels-overview.md)
@@ -491,32 +514,7 @@
 ### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
 <!-- ============================================================ -->
 
-<!-- ============================================================ -->
-# Configure and deploy
 
-## [Overview of a Teams deployment](deployment-overview.md)
-## [Manage user access to Teams](user-access.md)
-## [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)
-## [Teams PowerShell overview](teams-powershell-overview.md)
-## [Get clients for Teams](get-clients.md)
-### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
-### [Install Teams using MSI](msi-deployment.md)
-### [Deploy Teams for Surface Hub](teams-surface-hub.md)
-## [Enable Teams in your organization](Office-365-set-up.md)
-## [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
-## [Manage Teams features in your organization](enable-features-office-365.md)
-### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
-### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
-### [Assign team owners and members in Teams](assign-roles-permissions.md)
-
-### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
-## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
-## Licensing
-### [Manage user access to Teams](user-access.md)
-### [Office 365 licensing for Teams](office-365-licensing.md)
-### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 ## Supported devices
 ### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -627,5 +625,6 @@
 <!-- ============================================================ -->
 
 # [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
+## [Teams PowerShell overview](teams-powershell-overview.md)
 
 # [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
