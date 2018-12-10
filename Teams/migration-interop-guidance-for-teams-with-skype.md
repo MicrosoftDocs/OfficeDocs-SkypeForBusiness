@@ -5,7 +5,7 @@ ms.author: MyAdvisor
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: lehewe
+ms.reviewer: bjwhalen
 description: Guidance for managing the transition to Teams from Skype for Business 
 localization_priority: Normal
 search.appverid: MET150
