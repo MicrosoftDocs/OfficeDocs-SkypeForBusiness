@@ -71,7 +71,7 @@ In addition, admins can disable the ability for end users to claim trial apps an
 
 You can turn off a user’s ability to install trial apps and services.
 
-1. From the [Office 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Services & add-ins** > **User owned Apps and Services**.
+1. From the [Microsoft 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Services & add-ins** > **User owned Apps and Services**.
 
     ![Screenshot of the Services & add-ins page in the Office 365 admin center.](media/iw-trial-enable-1.png)
 
