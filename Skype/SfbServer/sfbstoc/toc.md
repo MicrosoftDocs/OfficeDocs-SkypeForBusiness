@@ -257,6 +257,9 @@
 #### [Define additional trunks](../deploy/deploy-enterprise-voice/define-additional-trunks.md)
 #### [Install Mediation Server](../deploy/deploy-enterprise-voice/install-mediation-server.md)
 #### [Configure trunks](../deploy/deploy-enterprise-voice/configure-trunks.md)
+##### [Multiple trunk support](../manage/voice-routing/multiple-trunk-support.md)
+##### [Inter-trunk routing](../manage/voice-routing/inter-trunk-routing.md)
+##### [View trunk configuration information](../manage/voice-routing/view-trunk-configuration-information.md)
 ##### [Configure trunk (with media bypass)](../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 ##### [Configure trunk (without media bypass)](../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 ##### [Trunk configuration settings](../deploy/deploy-enterprise-voice/trunk-configuration-settings.md)
@@ -388,13 +391,14 @@
 #### [Configure HADR for Persistent Chat](../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
 ## [Manage](../manage/manage.md)
 ### [Topology](../manage/topology/topology.md)
-#### [Patch or update Front End Servers](../manage/topology/patch-or-update-front-end-servers.md)
-#### [Add or remove a Front End Server](../manage/topology/add-or-remove-a-front-end-server.md)
+#### [Manage Front End Servers](../manage/topology/manage-front-end-servers.md)
+
 #### [Patch or update a Back End or Standard Edition server](../manage/topology/patch-or-update-a-back-end-or-standard-edition-server.md)
-#### [Add databases](../manage/topology/add-databases.md)
-#### [Patch or update  SQL Server](../manage/topology/patch-or-update-sql-server.md)
+#### [Manage databases](../manage/topology/manage-databases.md)
 #### [Move File Store Data](../manage/topology/move-file-store-data.md)
 #### [Disable TLS 1.0/1.1](../manage/topology/disable-tls-1.0-1.1.md)
+#### [Manage services](../manage/manage-services.md)
+#### [Delegate administrative control](../manage/topology/delegating-administrative-control.md)
 ### [Persistent Chat](../manage/persistent-chat/persistent-chat.md)
 #### [Categories](../manage/persistent-chat/categories.md)
 #### [Chat rooms](../manage/persistent-chat/chat-rooms.md)
@@ -441,7 +445,6 @@
 ###### [Call Admission Control Report](../manage/health-and-monitoring/call-admission-control-report.md)
 ####### [Peer-to-Peer Session Detail Report](../manage/health-and-monitoring/peer-to-peer-session-detail-report.md)
 ##### [Call Diagnostic Reports (per user)](../manage/health-and-monitoring/call-diagnostic-reports-per-user.md)
-###### [User Activity Report](../manage/health-and-monitoring/user-activity-report.md)
 ##### [Call Diagnostic Reports](../manage/health-and-monitoring/call-diagnostic-reports.md)
 ###### [Summary Report](../manage/health-and-monitoring/summary-report.md)
 ####### [Conference Summary Subreport](../manage/health-and-monitoring/conference-summary-subreport.md)
@@ -503,6 +506,49 @@
 ##### [Tests](../manage/conferencing/tests.md)
 #### [Meeting join page](../manage/conferencing/meeting-join-page.md)
 ### [Management Shell](../manage/management-shell.md)
+
+### [Federation and external access](../manage/federation-and-external-access/managing-federation-and-external-access.md)
+#### [Manage external access policy](../manage/federation-and-external-access/external-access-policies/manage-external-access-policy-for-your-organization.md)
+##### [Configure policies to control federated user access](../manage/federation-and-external-access/external-access-policies/configure-policies-to-control-federated-user-access.md)
+##### [Configure policies to control remote user access](../manage/federation-and-external-access/external-access-policies/configure-policies-to-control-remote-user-access.md)
+##### [Configure policies to control public user access](../manage/federation-and-external-access/external-access-policies/configure-policies-to-control-public-user-access.md)
+##### [Assign an external user access policy](../manage/federation-and-external-access/external-access-policies/assign-an-external-user-access-policy.md)
+##### [Delete a site or user policy for external user access](../manage/federation-and-external-access/external-access-policies/delete-a-site-or-user-policy-for-external-user-access.md)
+##### [Reset the global policy for external user access](../manage/federation-and-external-access/external-access-policies/reset-the-global-policy-for-external-user-access.md)
+#### [Manage Access Edge Configuration for your organization](../manage/federation-and-external-access/access-edge/manage-access-edge-configuration-for-your-organization.md)
+##### [Enable or disable federation and public IM connectivity](../manage/federation-and-external-access/access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
+##### [Enable or disable discovery of federation partners](../manage/federation-and-external-access/access-edge/enable-or-disable-discovery-of-federation-partners.md)
+##### [Enable or disable sending an Archiving disclaimer to federated partners](../manage/federation-and-external-access/access-edge/enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
+##### [Enable or disable remote user access](../manage/federation-and-external-access/access-edge/enable-or-disable-remote-user-access.md)
+##### [Enable or disable anonymous user access](../manage/federation-and-external-access/access-edge/enable-or-disable-anonymous-user-access.md)
+##### [Assign conferencing policies to support anonymous user](../manage/federation-and-external-access/access-edge/assign-conferencing-policies-to-support-anonymous-users.md)
+#### [Manage SIP federated domains for your organization](../manage/federation-and-external-access/sip-domains/manage-sip-federated-domains-for-your-organization.md)
+
+#### [Manage SIP federated providers for your organization](../manage/federation-and-external-access/sip-providers/manage-sip-federated-providers-for-your-organization.md)
+
+#### [Configuring federation support for a Skype for Business Online customer](../manage/federation-and-external-access/federation-support/configuring-federation-support.md)
+
+### Network
+#### [Quality of Service (QoS)](../manage/network-management/qos/managing-quality-of-service-qos.md)
+##### [Enabling QoS for devices that are not based on Windows](../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md)
+##### [Configuring port ranges and QoS policy for your Conferencing, Application, and Mediation servers](../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)
+##### [Configuring port ranges and a QoS policy for your Edge Servers](../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md)
+##### [Configuring port ranges and a QoS policy for your clients in Skype for Business Server](../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md)
+
+#### Call admission control
+##### [Enabling call admission control in Skype for Business Server](../manage/network-management/call-admission-control/enabling-call-admission-control.md)
+##### [Managing network bandwidth policy profiles in Skype for Business Server](../manage/network-management/call-admission-control/managing-network-bandwidth-policy-profiles.md)
+##### [Managing network regions in Skype for Business Server](../manage/network-management/call-admission-control/managing-network-regions.md)
+##### [Managing network region routes in Skype for Business Server](../manage/network-management/call-admission-control/managing-network-region-routes.md)
+##### [Managing call admission control for sites in Skype for Business Server](../manage/network-management/call-admission-control/managing-call-admission-control-for-sites.md)
+##### [Enabling and disabling media bypass in Skype for Business Server](../manage/network-management/call-admission-control/enabling-and-disabling-media-bypass.md)
+##### [Linking network regions in Skype for Business Server](../manage/network-management/call-admission-control/linking-network-regions.md)
+##### [Managing network subnets in Skype for Business Server](../manage/network-management/call-admission-control/managing-network-subnets.md)
+
+#### [Network interfaces](../manage/network-management/viewing-network-interface-information.md)
+
+#### [Prevent new connections](../manage/network-management/prevent-new-connections.md)
+
 ### [Authentication](../manage/authentication/authentication.md)
 #### [Use ADAL](../manage/authentication/use-adal.md)
 #### [Stage AV and OAuth certificates](../manage/authentication/stage-av-and-oauth-certificates.md)
@@ -523,7 +569,18 @@
 #### [Two-factor authentication](../manage/authentication/two-factor-authentication.md)
 ##### [Configure two-factor authentication](../manage/authentication/configure-two-factor.md)
 ##### [Use two-factor authentication](../manage/authentication/use-two-factor.md)
+
+### [Enhanced 9-1-1 and the Location service](../manage/enhanced-9-1-1-and-location-service.md)
+
+### [Trusted applications](../manage/trusted-applications.md)
+
+### [Disaster recovery, high availability, and Backup Service](../manage/ha-dr-and-backup-service/managing-da-ha-backup-service.md)
+#### [Configuring and monitoring the Backup Service](../manage/ha-dr-and-backup-service/configuring-and-monitoring-the-backup-service.md)
+#### [Failing over and failing back a pool](../manage/ha-dr-and-backup-service/failing-over-and-failing-back-a-pool.md)
+
+
 ### [Video based Screen Sharing](../manage/video-based-screen-sharing.md)
+
 <!-- ### [Skype Room Systems v2](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 #### [Known issues](../manage/skype-room-systems-v2/known-issues.md)
 #### [OMS](../manage/skype-room-systems-v2/oms.md)
@@ -531,8 +588,12 @@
 #### [Use the recovery tool](../manage/skype-room-systems-v2/recovery-tool.md) -->
 ### [User accounts](../manage/user-accounts/user-accounts.md)
 #### [Customize properties](../manage/user-accounts/customize-properties.md)
-### [Manage services](../manage/manage-services.md)
+### Testing tasks
+#### [Disaster recovery testing](../manage/test-disaster-recovery.md)
+#### [Testing admin permissions](../manage/test-admin-permissions.md)
+#### [Testing admin topology rights](../manage/test-admin-topology-rights.md)
 ## [Management Tools](../management-tools/management-tools.md)
+### [Install and open administrative tools](../management-tools/install-and-open-administrative-tools.md)
 ### [Call Quality Dashboard](../management-tools/call-quality-dashboard/call-quality-dashboard.md)
 #### [Plan](../management-tools/call-quality-dashboard/plan.md)
 #### [Deploy](../management-tools/call-quality-dashboard/deploy-0.md)
