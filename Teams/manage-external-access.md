@@ -20,7 +20,7 @@ Manage external access (federation) in Microsoft Teams
 With Microsoft Teams external access, users from other domains can participate in your chats and channels. You can also allow external users who are still using Skype for Business to participate. External access differs from guest access in that an entire domain is given access permission, not an individual. See the following table for a comparison of external and guest access features.
 
 | Feature | External access users | Guest access users |
-|=========|=======================|====================|
+|---------|-----------------------|--------------------|
 | User can chat with someone in another company | Yes |Yes |
 | User can call someone in another company | Yes | Yes |
 | User can see if someone from another company is available for call or chat | Yes | Yes |
