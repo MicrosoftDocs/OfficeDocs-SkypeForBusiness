@@ -164,7 +164,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                         <h3>Plan & deploy</h3>
                          <p><a href="quick-start-enable-teams.md">Quick start: Teams planning guide</a></p>
                          <p><a href="http://aka.ms/teams-clients">Video: Teams Windows desktop client</a></p>
-                         <p><a href="http://aka.ms/teams-governances">Video: Governance, management and lifecycle in Microsoft Teams</a></p>
+                         <p><a href="http://aka.ms/teams-governance">Video: Governance, management and lifecycle in Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>

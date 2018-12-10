@@ -22,7 +22,7 @@ ms.date: 08/24/2018
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. If you're a business decision maker, admin, IT Pro, or end user, you'll find a class that’s right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors. Looking for <a href="https://docs.microsoft.com/microsoftteams/enduser-training">on-demand end user training</a>?<br><br>Click a tile to register.</p>
+                                    <p>Microsoft is excited to host a series of free, live, online training classes designed to get you up and running with Teams. If you're a business decision maker, admin, IT Pro, or end user, you'll find a class that’s right for you. Join us to see Teams in action, get your questions answered, and interact with our live instructors. For more training opportunities, including on-demand versions of live training, check out our <a href="https://docs.microsoft.com/microsoftteams/enduser-training">on-demand end-user training</a>.<br><br>Click a tile to register.</p>
                                 </div>
                             </li>
                             <li>
@@ -64,6 +64,25 @@ ms.date: 08/24/2018
                                 </a>
                             </li>
                             <li>
+                             <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Teams tips & tricks</h3>
+                                                <p>Understand creative ways to optimize and organize Teams in your day-to-day work. (Audience: End users)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
                             <a href="https://microsoftteams.eventbuilder.com/Upgrade%20101:%20Understanding%20your%20upgrade%20from%20Skype">
                                 <div class="cardSize">
                                     <div class="cardPadding">
@@ -95,25 +114,6 @@ ms.date: 08/24/2018
                                             <div class="cardText">
                                                 <h3>Switch from Skype for Business to Teams: end user guidance</h3>
                                                     <p>Get what you need to quickly start using Teams during your transition from Skype for Business to Teams. (Audience: End users)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Tips & tricks</h3>
-                                                <p>Understand creative ways to optimize and organize Teams in your day-to-day work. (Audience: End users)</p>
                                             </div>
                                         </div>
                                     </div>
