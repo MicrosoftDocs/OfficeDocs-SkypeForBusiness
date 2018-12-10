@@ -1,6 +1,25 @@
 
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
+## Set up Teams
+
+## Manage Teams
+
+<!-- ============================================================ -->
+
+## Interoperability with Office 365
+### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
+### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+### [Office 365 groups and Teams](office-365-groups.md)
+### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
+### [How Exchange and Teams interact](exchange-teams-interact.md)
+#### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
+#### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
+### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
+### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
+<!-- ============================================================ -->
+
 <!-- ============================================================ -->
 # [Get started](get-started-with-teams-landing-page.md)
 ## [Quick start - Teams](get-started-with-teams-quick-start.md)
@@ -29,10 +48,26 @@
 # [Deploy](deploy-teams-landing-page.md)
 
 ## Chat, teams, & channels
+
+### [Guest access](guest-access.md)
+#### [How a guest joins a team](guest-joins.md)
+#### [What the guest experience is like](guest-experience.md)
+#### [Authorize guest access in Teams](teams-dependencies.md)
+#### [Turn on or off guest access to Teams](set-up-guests.md)
+#### [Manage guest access in Teams](manage-guests.md)
+#### [Add a guest to a team](add-guests.md)
+#### [View guest users in a team](view-guests.md)
+#### [Edit guest user information](edit-guests-information.md)
+#### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
+#### [Guest access checklist](guest-access-checklist.md)
+
+
+
 <!-- ============================================================ -->
 
 ## Meetings
-
+### Audio conferencing
+#### [Country and region availability for Calling Plan](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 <!-- ============================================================ -->
 ## Cloud voice
 ### Phone System
@@ -70,6 +105,8 @@
 #### [Assign, change, or remove a phone number for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md)
+#### [Transferring numbers common questions](transferring-phone-numbers-common-questions.md)
+
 ### Call routing
 #### [What are dial plans?](what-are-dial-plans.md)
 #### [Create and manage dial plans](create-and-manage-dial-plans.md)
@@ -79,6 +116,8 @@
 #### [Add, change, or remove an emergency location for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Assign or change an emergency address for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Assign or change the emergency location for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Emergency call labels](emergency-calling-labels.md)
+
 ### Reference
 #### [Country and region availability for Calling Plan](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 ##### [Argentina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
@@ -241,10 +280,28 @@
 ##### [Venezuela](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 ##### [Vietnam](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
 
+### Practical guidance for large enterprises
+#### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
+#### [Cloud voice deployment guidance](cloud-voice-deployment.md)
+##### [Define my success](1-envision-define-my-success-cloud-voice.md)
+##### [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
+##### [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
+##### [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md)
+##### [Evaluate my environment](3-envision-evaluate-my-environment.md)
+##### [Plan my service management](4-envision-plan-my-service-management.md)
+##### [Plan my users' experience](5-envision-plan-my-users-experience.md)
+##### [Document my success plan](6-envision-document-my-success-plan.md)
+##### [Prepare my service](1-onboard-prepare-my-service.md)
+##### [Prepare my users](2-onboard-prepare-my-users.md)
+##### [Deploy my service](3-onboard-deploy-my-service.md)
+##### [Operate my service](1-drive-value-operate-my-service.md)
+##### [Enhance my service](2-drive-value-enhance-my-service.md)
+
 
 <!-- ============================================================ -->
 ## Apps
-
+### Plan
+#### [Teams apps permissions and considerations](app-permissions.md)
 
 <!-- ============================================================ -->
 # [Adopt](adopt-microsoft-teams-landing-page.md) 
@@ -287,20 +344,6 @@
 ### [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
-## [Cloud voice deployment guidance](cloud-voice-deployment.md)
-### [Define my success](1-envision-define-my-success-cloud-voice.md)
-### [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
-### [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
-### [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md)
-### [Evaluate my environment](3-envision-evaluate-my-environment.md)
-### [Plan my service management](4-envision-plan-my-service-management.md)
-### [Plan my users' experience](5-envision-plan-my-users-experience.md)
-### [Document my success plan](6-envision-document-my-success-plan.md)
-### [Prepare my service](1-onboard-prepare-my-service.md)
-### [Prepare my users](2-onboard-prepare-my-users.md)
-### [Deploy my service](3-onboard-deploy-my-service.md)
-### [Operate my service](1-drive-value-operate-my-service.md)
-### [Enhance my service](2-drive-value-enhance-my-service.md)
 ## Licensing
 ### [Manage user access to Teams](user-access.md)
 ### [Office 365 licensing for Teams](office-365-licensing.md)
@@ -349,37 +392,22 @@
 
 <!-- ============================================================ -->
 
-<!-- ============================================================ -->
-# Interoperability with Office 365
-## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-## [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
-## [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
-## [Office 365 groups and Teams](office-365-groups.md)
-## [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
-## [How Exchange and Teams interact](exchange-teams-interact.md)
-### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
-### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
-## [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
-## [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
-<!-- ============================================================ -->
 
-<!-- ============================================================ -->
-# Manage
-## [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-## Monitor call quality and QoS
-### [QoS in Teams](QoS-in-Teams.md)
-### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Set up Call Analytics](set-up-call-analytics.md)
-### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
-### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 ## Troubleshoot & support
 ### [Known issues for Teams](Known-issues.md)
 ### [Support resources for Teams](support-resources.md)
 ### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ### [Use log files in troubleshooting Teams](log-files.md)
 ### [Verify service health for Teams](service-health.md)
+### Monitor call quality and QoS
+#### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
+#### [QoS in Teams](QoS-in-Teams.md)
+#### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+#### [Set up Call Analytics](set-up-call-analytics.md)
+#### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+#### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
+#### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 
 <!-- ============================================================ -->
 
@@ -410,7 +438,7 @@
 ##  [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
 ##  [Calling plans in Office 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ## [Data collection practices](data-collection-practices.md)
-##  [Emergency call labels](emergency-calling-labels.md)
+
 ##  [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 <!-- ============================================================ -->
@@ -426,17 +454,7 @@
 ### [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ### [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
-## [Guest access](guest-access.md)
-### [How a guest joins a team](guest-joins.md)
-### [What the guest experience is like](guest-experience.md)
-### [Authorize guest access in Teams](teams-dependencies.md)
-### [Turn on or off guest access to Teams](set-up-guests.md)
-### [Manage guest access in Teams](manage-guests.md)
-### [Add a guest to a team](add-guests.md)
-### [View guest users in a team](view-guests.md)
-### [Edit guest user information](edit-guests-information.md)
-### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
-### [Guest access checklist](guest-access-checklist.md)
+
 ## Meetings
 ### [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
 ### [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
@@ -462,7 +480,6 @@
 
 ## Apps & services
 ### [Admin settings for apps in Teams](admin-settings.md)
-### [Teams apps permissions and considerations](app-permissions.md)
 ### [Add bots for private chats and channels in Teams](add-bots.md)
 ### [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
 ### [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
@@ -609,7 +626,7 @@
 #### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 ### Calling plans
 #### [Quick start guide - Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)
-#### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
+
 #### [Set up Calling Plans](set-up-calling-plans.md)
 #### [Add, change, or remove an emergency address for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Add, change, or remove an emergency location for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -700,7 +717,7 @@
 
 
 #### [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md)
-#### [Transferring numbers common questions](transferring-phone-numbers-common-questions.md)
+
 #### [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365.md)
 #### [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [What is address validation?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
