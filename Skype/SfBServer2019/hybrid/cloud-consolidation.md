@@ -41,9 +41,6 @@ Consolidation of all users from on-premises into the cloud in a single Office 36
 
 Customers with deployments of Skype for Business in multiple forests must fully migrate all users of a single hybrid Skype for Business forest individually into the Office 365 tenant using Shared SIP Address Space functionality, and then disable hybrid with that on-premises deployment, before moving on to migrate the next on-premises Skype for Business deployment. Prior to being migrated to the cloud, on-premises users remain in a federated state with any users that are not represented in the same user’s on-premises directory.  
 
-> [!Note]
-> As of December 2018, this scenario is supported when moving to Skype for Business Online. If you intend to move online users to TeamsOnly during the migration, calling between TeamsOnly users and any on-premises Skype for Business users is not functional at this time. If you require calling from Teams, look for updates here before moving to TeamsOnly during this migration. Also, be sure to see [Considerations for moving to TeamsOnly mode](#considerations-for-moving-to-teamsonly-mode).
-
 ## Canonical example of cloud consolidation
 
 Consider an organization with two separate federated on-premises deployments of Skype for Business that wants to consolidate them online in Microsoft Teams or Skype for Business Online.
@@ -176,8 +173,6 @@ When you move users from on premises to the cloud in a hybrid environment, you c
     - You can grant tenant-wide policy by using this command:<br>`Grant-CsTeamsUpgradePolicy -PolicyName SfBWithTeamsCollab -Global`
     - Note: Currently, you must do this at a tenant-wide level because policy cannot be assigned to individual users who do not have a SIP address in the online directory. While you have disabled online SIP domains for your pure on-premises deployment(s), users in those domains won’t have SIP addresses in the online directory by design. Hence, the only way to apply policy to those on-premises users is by assigning at the tenant level. In contrast, in the hybrid deployment users will have a SIP address in the online directory so they can be explicitly assigned a policy if it’s desired that they have a different value than the tenant global policy.
 - The Teams client UX does not yet honor the SfB modes of TeamsUpgradePolicy. For example, when in these modes, call and chat initiation in Teams is currently possible, although in the future that won’t be the case. This can cause confusion among users because replies may sometimes land in Teams and sometimes Skype for Business, depending on the circumstances. It is recommended that you separately disable calling and chat via TeamsMessagingPolicy and TeamsCallingPolicy for users who are still on premises.
-- Currently, calls from Teams-only users to users who are homed in Skype for Business on premises do not go through. This issue is actively being investigated. Organizations that rely on calling functionality from Teams should not yet deploy this configuration.
-
 
 ## See also
 
