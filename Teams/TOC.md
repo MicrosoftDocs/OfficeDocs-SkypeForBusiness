@@ -225,7 +225,7 @@
 ### [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 ### [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ### [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
-
+### [Configure desktop sharing in Teams](configure-desktop-sharing.md)
 ### [Teams cloud meeting recording](cloud-recording.md)
 ### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ### [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

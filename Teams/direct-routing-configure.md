@@ -28,8 +28,8 @@ This article describes how to configure Microsoft Phone System Direct Routing. I
 
 We recommend that you confirm that your SBC has already been configured as recommended by your SBC vendor's: 
 
-- AudioCodes deployment documentation 
-- Ribbon Communications deployment documentation
+- [AudioCodes deployment documentation](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Ribbon Communications deployment documentation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 
 You can configure your Microsoft Phone System and enable  users to use Direct Routing, then set up Microsoft Teams as the preferred calling client by completing the following procedures: 
 
@@ -204,7 +204,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 For example, to add a phone number for user “Spencer Low,” you would enter the following: 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser -Identity “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 The phone number used has to be configured as a full E.164 phone number with country code. 
