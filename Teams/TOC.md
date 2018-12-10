@@ -606,17 +606,6 @@
 <!-- ============================================================ -->
 
 
-
-
-
-<!-- ============================================================ -->
-# Features
-## Teams & channels
-
-
-
-
-
 <!-- ============================================================ -->
 # Teams for education
 ## [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
@@ -624,7 +613,8 @@
 ## [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 <!-- ============================================================ -->
 
-# [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
-## [Teams PowerShell overview](teams-powershell-overview.md)
+
+# [Teams PowerShell overview](teams-powershell-overview.md)
+## [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
 
 # [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
