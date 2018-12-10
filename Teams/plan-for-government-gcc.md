@@ -3,7 +3,7 @@ title: Plan for Microsoft 365 Government - GCC deployments - Microsoft Teams
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 12/07/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -74,7 +74,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Add member | Available |
 | | Guest access | Available |
 | Meetings | Schedule meeting | Available |
-| | View meeting | Available |
+| | Join meeting | Available |
 | | VoIP meeting | Available |
 | | Desktop sharing | Available |
 | | Give and take control in sharing | Available |
