@@ -113,7 +113,7 @@ The Microsoft Teams user can navigate to the meetings tab to view their meetings
 
 The Microsoft Teams user can access their voicemail when they navigate to the **Voicemail** tab.
 
-![The Voicemail tab](media/voicemail-tab.jpg)
+![The Voicemail tab](media/voicemail-tab.png)
 
 ## User sign-out
 
