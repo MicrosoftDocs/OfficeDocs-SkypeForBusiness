@@ -43,8 +43,37 @@ You can use the Microsoft Teams & Skype for Business Admin Center to manage exte
 
 1. In the Microsoft Teams & Skype for Business Admin Center, select **Org-wide settings** > **External access**.
 
-     ![Screenshot of Org-wide settings external access](media/manage-external-access.png).
+     ![Screenshot of Org-wide settings external access](media/manage-external-access-1.png).
 
-2. Turn the **External access** switch to **On** or **Off**.
+2. Toggle the **External access** switch to **On** or **Off**.
+
+     ![Screenshot of external access switch turned On](media/manage-external-access-2.png).
 
 3. Click **Save**. 
+
+## Add or block a domain
+
+Follow these steps to add a domain or turn off external access for a domain.
+
+1. In the Microsoft Teams & Skype for Business Admin Center, select **Org-wide settings** > **External access**.
+
+2. Select **Add a domain**. 
+ 
+    ![Screenshot of External access page with add a domain link](media/manage-external-access-3.png).
+
+   The **Add a domain pane** appears.
+
+    ![Screenshot of Add a domain pane](media/manage-external-access-4.png).
+
+
+3. Under **Add a domain**, type the name of the domain; for example, type Contoso.com.
+
+4. Select **Allowed** or **Blocked**. You can change this setting at any time.
+
+2. Select **Done**.
+
+After you add a domain, you will see the domain name and status added to the list of domains on the External access page.
+
+## More information
+
+For information about guest access in Microsoft Teams, see [Manage guest access in Microsoft Teams](manage-guests.md).
