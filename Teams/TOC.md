@@ -67,7 +67,7 @@
 ## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
 <!-- ============================================================ -->
 
-# [Deploy](deploy-teams-landing-page.md)
+# [Deploy & manage](deploy-teams-landing-page.md)
 ## [Overview of a Teams deployment](deployment-overview.md)
 
 ## Chat, teams, & channels
