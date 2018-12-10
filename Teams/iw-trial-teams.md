@@ -67,9 +67,9 @@ Admins can manage the licenses for users who have signed up.
 
 In addition, admins can disable the ability for end users to claim trial apps and services within their organization. Currently, the trial described in this article is the only trial in this category, but it might apply to other similar programs in the future. 
 
-### Manage trial availability
+### Prevent users from installing trial apps and services
 
-You can turn off a  user’s ability to install trial apps and services.
+You can turn off a user’s ability to install trial apps and services.
 
 1. From the [Office 365 admin center](https://portal.office.com/adminportal/home), go to **Settings** > **Services & add-ins** > **User owned Apps and Services**.
 
@@ -80,9 +80,11 @@ You can turn off a  user’s ability to install trial apps and services.
     ![Screenshot of the User owned Apps and Services page in the Office 365 admin center.](media/iw-trial-enable-2.png)
 
 
-### Manage trial eligibility for a user with a license that includes Teams
+### Manage trial availability for a user with a license that includes Teams
 
 A user who is assigned a license that includes Teams is not eligible for the trial. When the Teams service plan is enabled, the user can log in and use Teams. If the service plan is disabled, the user cannot log in and is not presented with the trial option either.
+
+To turn off access to Teams:
 
 1. In the Microsoft 365 admin center, select **Users** > **Active users**.
 
@@ -94,9 +96,11 @@ A user who is assigned a license that includes Teams is not eligible for the tri
 
     ![Screenshot of the Product licenses page in the Office 365 admin center.](media/iw-trial-enable-3.png)
 
-### Manage Teams access for users who already claimed the trial
+### Manage Teams availability for users who already claimed the trial
 
 If a user has claimed a Teams trial license, you can remove it by removing the license or service plan.
+
+To turn off the trial license:
 
 1. In the Microsoft 365 admin center, select **Users** > **Active users**.
 
