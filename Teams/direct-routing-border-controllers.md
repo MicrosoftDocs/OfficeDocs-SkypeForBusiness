@@ -41,7 +41,7 @@ If you have any questions about SBC certification program for Direct Routing ple
 
 |                                                       Vendor                                                        |       Product       | Non-Media Bypass | Media Bypass | Software Version |
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
-| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways) |   Mediant 500 SBC   |     &#10004;     |   Pending    |  7.20A.200.055   |
+| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   Pending    |  7.20A.200.055   |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   Pending    |  7.20A.200.055   |
 |                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   Pending    |  7.20A.200.055   |
 |                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   Pending    |  7.20A.200.055   |
