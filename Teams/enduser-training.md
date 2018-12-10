@@ -137,9 +137,9 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Teams overview</h3>
-                        <p><a href="https://teamsdemo.office.com/">Teams interactive demo</a></p>
+                        <p><a href="https://teamsdemo.office.com/">Teams interactive demo</a></p>  
+                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">On-demand live training: #ThisisTeams - How Teams can work for you</a></p>
                         <p><a href="https://aka.ms/teamsgettingstartedondemand">On-demand live training: Getting Started with Teams</a></p>
-                          <p><a href="https://microsoftteams.eventbuilder.com/event/1772">On-demand live training: #ThisisTeams - How Teams can work for you</a></p>
                     </div>
                 </div>
             </div>
