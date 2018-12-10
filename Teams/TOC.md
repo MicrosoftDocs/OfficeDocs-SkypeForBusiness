@@ -10,7 +10,7 @@
 ### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 ### Licensing
-#### [Office 365 licensing for Teams](office-365-licensing.md)
+### [Office 365 licensing for Teams](office-365-licensing.md)
 #### [Manage user access to Teams](user-access.md)
 #### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -299,7 +299,7 @@
 #### [Emergency call labels](emergency-calling-labels.md)
 
 ### Reference
-#### [Country and region availability for Calling Plan](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+#### [Country and region availability for Calling Plan](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 ##### [Argentina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 ##### [Australia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
 ##### [Austria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
