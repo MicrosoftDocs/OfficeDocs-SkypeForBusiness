@@ -253,7 +253,7 @@
 #### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 #### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 ### Phones, numbers, and devices 
-#### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization.md)
+#### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 #### [Types of phone numbers used for Calling Plan](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 #### [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md)
