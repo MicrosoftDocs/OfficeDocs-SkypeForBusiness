@@ -19,6 +19,8 @@ description: "Summary: Prepare your Skype for Business Server 2015 servers with 
 # Server requirements for Skype for Business Server 2015
  
 **Summary:** Prepare your Skype for Business Server 2015 servers with this topic. Hardware, OS, databases, software, all the system requirements and recommendations are here to help ensure a successful install and deployment of your server farm.
+
+If you're looking for environmental requirements, such as Active Directory, DNS or certificates, you can check out the [Environmental requirements for Skype for Business Server 2015](environmental-requirements.md) doc.
   
 As you might expect, there are some preparations to make before you begin deploying Skype for Business Server 2015. This article will walk you through planning for the following:
   
