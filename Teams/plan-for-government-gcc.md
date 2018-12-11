@@ -69,7 +69,6 @@ To accommodate the requirements of our government cloud customers, there are som
 | Teams | Channel message | Available |
 | | Channel files | Available |
 | | OneNote tab | On the Government backlog |
-| | App Store | On the Government backlog |
 | | Email a channel | Not available |
 | | Add member | Available |
 | | Guest access | Available |
@@ -82,7 +81,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Anonymous join | Available |
 | | Cloud recording | On the Government backlog |
 | | Meeting notes | Available |
-| | Broadcast meetings (invite more than 80 people) | On the Government backlog |
+| | Broadcast meetings | On the Government backlog |
 | | Federated meetings | Available |
 | | Surface Hub support (preview) | Available |
 | Calls | Contacts | Available |
@@ -110,6 +109,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Skype consumer - Teams call support | Available |
 | Files | Recent | Available |
 | | Microsoft Teams | Available |
+| Store | App Store | On the Government backlog |
 | Search | Messages | Available |
 | | People | Available |
 | | Files | Available |
