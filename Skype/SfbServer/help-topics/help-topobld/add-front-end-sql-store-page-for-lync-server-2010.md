@@ -31,12 +31,12 @@ Settings that you can configure:
     
     The **Default instance** is selected initially. If you prefer to define an instance, select **Named instance** and type the name of the instance that you need to create.
     
- **Back**: Goes back to the previous dialog
+  **Back**: Goes back to the previous dialog
   
- **Next**: Commits the changes and moves to the next step dialog
+  **Next**: Commits the changes and moves to the next step dialog
   
- **Cancel**: Discards changes and cancels the configuration
+  **Cancel**: Discards changes and cancels the configuration
   
- **Help**: Displays help information, such as this topic
+  **Help**: Displays help information, such as this topic
   
 

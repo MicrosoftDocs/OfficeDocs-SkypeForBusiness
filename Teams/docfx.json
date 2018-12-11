@@ -33,15 +33,23 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "searchScope": ["Microsoft Teams"],
+      "searchScope": [
+        "Microsoft Teams"
+      ],
       "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
-       "extendBreadcrumb": "true",
-       "feedback_system": "GitHub",
-       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
-       "feedback_product_url": "https://microsoftteams.uservoice.com" 
+      "extendBreadcrumb": "true",
+      "contributors_to_exclude": [
+        "dstrome",
+        "daswifty",
+        "MikePlumleyMSFT"
+      ],
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/OfficeDocs-SkypeForBusiness",
+      "feedback_product_url": "https://microsoftteams.uservoice.com"
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "OfficeDocs-MicrosoftTeams"
+    "dest": "OfficeDocs-MicrosoftTeams",
+    "markdownEngineName": "markdig"
   }
 }

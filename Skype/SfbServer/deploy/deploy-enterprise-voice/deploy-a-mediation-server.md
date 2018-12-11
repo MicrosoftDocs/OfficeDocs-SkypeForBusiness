@@ -7,7 +7,7 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -74,8 +74,8 @@ You can add Mediation Server as a collocated role on a Front End pool, or define
     
    - If you want to deploy multiple Mediation Servers in the pool to provide high availability, then select **Multiple computer pool**.
     
-    > [!NOTE]
-    > You must [deploy](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) to support Mediation Server pools that have multiple Mediation Servers.
+     > [!NOTE]
+     > You must [deploy](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) to support Mediation Server pools that have multiple Mediation Servers.
   
    - If you want to deploy only one Mediation Server in the pool because you do not require high availability, then select **Single computer pool**. Skip the following step.
     

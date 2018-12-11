@@ -6,7 +6,9 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: ritikag
+search.appverid: MET150
 description: Learn how to enable or disable user-level access on a per-user basis.
 ms.custom:
 - NewAdminCenter_Update
@@ -26,7 +28,7 @@ Currently, there are no policy options for turning Teams, or a subset of Teams f
 > [!NOTE]
 >Microsoft recommends that you turn on Teams for all users in a company so that teams can be formed organically for projects and other dynamic initiatives. Even if you are deciding to pilot, it may still be helpful to keep Teams enabled for all users, but only target communications to the pilot group of users.
 
-## Manage directly through the Office 365 admin center
+## Manage Teams through the Office 365 admin center
 
 Teams user-level licenses are managed directly through the Office 365 admin center user management interfaces. An administrator can assign licenses to new users when new user accounts are created, or to users with existing accounts. The administrator must have Office 365 Global Administrator or User Management Administrator privileges to manage Microsoft Teams licenses.
 
@@ -40,9 +42,9 @@ A Teams user license can be disabled at any time. Once the license is disabled, 
 
 ## Manage via PowerShell
 
-Enabling and disabling Teams as a workload license through PowerShell is done just as any other workload. The service plan name is TEAMS1 for Microsoft Teams. (See [Disable access to services with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) for more information.)
+Enabling and disabling Teams as a workload license through PowerShell is done just as any other workload. The service plan name is TEAMS1 for Microsoft Teams. For Government the service plan name is TEAMS_GOV. (See [Disable access to services with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) for more information.)
 
-**Sample:** Below is just a quick sample on how you would disable Teams for everyone in a particular license type. You'll need to do this first, then individually enable it for the users who should have access for piloting purposes.
+**Sample:** The following is just a quick sample on how you would disable Teams for everyone in a particular license type. You'll need to do this first, then individually enable it for the users who should have access for piloting purposes.
 
 To display the subscription types you have within your organization, use the following command:
 
@@ -59,21 +61,8 @@ To disable Teams for all users with an active license for your named plan, run t
 | | | |
 |---------|---------|---------|
 |![Decision Point icon.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Decision Point         |<ul><li>What is your organization’s plan for Teams onboarding across the organization?  (Pilot or Open)</li></ul>         |
-|![Next Steps icon.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Next Steps         |<ul><li>If onboarding via a closed Pilot, decide if you would like to do so via licensing, or targetted communication.</li><li>Depending on decision, take steps to make sure only Pilot users who are allowed to access Teams (if needed).</li><li>Document the guidelines for which users who will (or will not) have access to Teams.</li></ul>         |
+|![Next Steps icon.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Next Steps         |<ul><li>If onboarding via a closed Pilot, decide if you would like to do so via licensing, or targeted communication.</li><li>Depending on decision, take steps to make sure only Pilot users who are allowed to access Teams (if needed).</li><li>Document the guidelines for which users who will (or will not) have access to Teams.</li></ul>         |
 
-## Manage via Office Sku level switch
+## Manage Teams at the Office 365 tenant level
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
-1.  Sign in to the [Office 365 Admin center](https://go.microsoft.com/fwlink/?linkid=854614) with an account that has Global Administrator privileges.
-
-2.  Go to **Settings** > **Services & add-ins**.
-
-    ![Screenshot of the Settings section in the Office 365 admin center with Services & add-ins selected. ](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
-
-3.  On the Services & add-ins page, click **Microsoft Teams**.
-
-    ![Screenshot of the Services & add-ins page with Microsoft Teams selected.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
-
-4.  To turn on Teams for the organization use the license picker and select each license then set the toggle to **On** and then click **Save**.
-
-    ![Screenshot of the Microsoft Teams settings page showing the toggle set to On to enable Microsoft Teams.](media/Services-and-addins-control-Microsoft-Teams.PNG)

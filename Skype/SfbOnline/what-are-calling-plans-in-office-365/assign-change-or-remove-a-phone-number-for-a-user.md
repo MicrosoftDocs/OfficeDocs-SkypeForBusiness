@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
@@ -52,11 +53,11 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
  
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
+2. Go to **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation, click **Voice** > **Voice users**.
    > [!NOTE]
- For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+   > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
  
    
     
@@ -67,7 +68,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 6. On the **Assign number** page in the **Select number to assign** list, select the phone number for the user.
     
     > [!TIP]
-    > If you don't see any phone numbers listed, you need to [Getting phone numbers for your users](getting-phone-numbers-for-your-users.md) first. Or, if you use the **Skype for Business admin center** > **Voice** > **Phone numbers** page, click **Add**, and then click **New user numbers**. 
+    > If you don't see any phone numbers listed, you need to [get phone numbers for your users](getting-phone-numbers-for-your-users.md) first. Or, if you use the **Skype for Business admin center** > **Voice** > **Phone numbers** page, click **Add**, and then click **New user numbers**. 
   
 7. To assign or change the associated emergency address, under **Select validated emergency location**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.
     
@@ -84,7 +85,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
  
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
+2. Go to **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation, click **Voice** > **Voice users**.
     
@@ -108,7 +109,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
  
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to **Office 365 admin center** > **Admin centers** > **Skype for Business**.
+2. Go to **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation, click **Voice** > **Voice users**.
     
@@ -122,11 +123,11 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 ## Related topics
 [What is address validation?](what-is-address-validation.md)
 
-[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

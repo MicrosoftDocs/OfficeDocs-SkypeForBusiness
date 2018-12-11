@@ -8,9 +8,10 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage  
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ---
@@ -19,7 +20,7 @@ appliesto:
 
 This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you’ve completed your upgrade from Skype for Business to Teams.
 
-# Operate my service
+# Operate your service
 
 This article gives an overview of the requirements for successfully operating Teams for your organization after you’ve upgraded. By properly operating your Teams services, you can be sure you’re providing a high-quality, reliable experience for your organization.
 
@@ -54,8 +55,8 @@ upon in the following sections.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of Teams workloads.</li><li>Review the Quality of Experience Review guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your Teams deployment is operating at its peak capabilities.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide how operations will be implemented for Teams.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Review the Operations Guide in full.</li><li>Implement an operations strategy that aligns with your organization’s goals to deliver the quality and reliability of Teams workloads.</li><li>Review the Quality of Experience Review guide.</li><li> Implement an operations strategy to regularly perform Quality of Experience Reviews to make sure your Teams deployment is operating at its peak capabilities.</li></ul></td></tr>
 </table>
 
 
@@ -93,7 +94,7 @@ After an agreement is in place, the corresponding teams should start to
 operationalize their roles.
 
 <table>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td>
 <td><ul><li>Use this document to facilitate the operational role mapping exercise.</li><li>Meet with the respective support teams to assign names to each item in the list of required activities.</li><li>Gain acceptance or sign-off on the assigned roles.</li><li>Ensure that the corresponding teams have the appropriate training, readiness, and resources to complete the activities required of them.</li></ul></td></table>
 
 ### Teams service dependencies
@@ -279,8 +280,7 @@ All features that are released are documented in the [Release Notes for
 Microsoft
 Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de).
 Here you’ll find a list of features that were released for desktop, web, and
-mobile devices. The same set of release notes are also available on the Release
-Notes tab in the [Microsoft Teams T-Bot](t-bot.md).
+mobile devices. The same set of release notes are also available on the **What's new** tab in [Help](get-help-in-microsoft-teams.md).
 
 Become familiar with the resources available, and ensure that you assign applicable owners to monitor for change.
 
@@ -296,17 +296,21 @@ can help you plan for change.
 #### Feature: Cloud Recording (Release date: January 2018)
 
 **General track**
+
 | Change readiness | Status   | Notes/next steps | Owner |
 |----|----|----|-----|
 | Legal review   | Completed     | This feature is a prerequisite to onboarding the training team. | Project team  |
 
 **Technical change management**
-| Change readiness | Status   | Notes/next steps | Owner |
-|----|----|----|-----|
-| IT changes required          | Yes                  | Admin needs to enable recording for identified users only.      | Support team           |
-| Technical readiness complete | Yes                  |                                                                 | Support team  
-         |
+
+|       Change readiness       | Status |                      Notes/next steps                      |    Owner     |
+|------------------------------|--------|------------------------------------------------------------|--------------|
+|     IT changes required      |  Yes   | Admin needs to enable recording for identified users only. | Support team |
+| Technical readiness complete |  Yes   |                                                            | Support team |
+|                              |        |                                                            |              |
+
 **User change management** 
+
 | Change readiness | Status   | Notes/next steps | Owner |
 |----|----|----|-----|
 | User impact                  | Low                  |                                                                 |                        |
@@ -315,6 +319,7 @@ can help you plan for change.
 | Training ready               | Yes                  | Training will leverage existing Microsoft video.                | Training Team          |
 
 **Status track**
+
 | Change readiness | Status   | Notes/next steps | Owner |
 |----|----|----|-----|
 | Release status               | in progress          | Pending review by executive sponsor.               | Change Management Team |
@@ -716,7 +721,7 @@ the nature of the issue.
 | Activity | Description | Cadence | Team assigned |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Endpoint requirements | Ensure that the Teams endpoint continues to meet all the software requirements for Teams listed in [Get clients for Microsoft Teams](get-clients.md). | Monthly | |
-| Endpoint firewalls | Maintain the appropriate exclusions on the endpoint firewall based on the information in [Office 365 URLs and IP address ranges](https://aka.ms/o365ips). Your third-party vendor will have specific guidance for how to maintain the exclusions. Subscribe to the [RSS feed](https://support.office.com/en-us/o365ip/rss) to be notified automatically of changes. | As needed | |
+| Endpoint firewalls | Maintain the appropriate exclusions on the endpoint firewall based on the information in [Office 365 URLs and IP address ranges](https://aka.ms/o365ips). Your third-party vendor will have specific guidance for how to maintain the exclusions. Subscribe to the [RSS feed](https://support.office.com/o365ip/rss) to be notified automatically of changes. | As needed | |
 | Wi-Fi drivers | Test and update Wi-Fi drivers on the PC. Validate the results by using CQD ([Quality of Experience Review Guide](https://aka.ms/qerguide)). | As needed | |
 | Endpoint management | Maintain the catalog of supported endpoints and interface devices (such as headsets). Manage vendor contracts, warranty, distribution, replacement, and repair policies. | Monthly | |
 | Endpoint troubleshooting | Troubleshooting tasks can include verifying connectivity, consulting the known issues list, log gathering, analysis, and escalation to Microsoft Support or third-party vendors. | As needed | |

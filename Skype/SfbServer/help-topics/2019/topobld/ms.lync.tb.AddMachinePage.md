@@ -40,13 +40,13 @@ Each of the new pool servers has different requirements. In the following sectio
     
 - Select **Enable IPv6** to enable IPv6 for this server.
     
- **Director server**
+  **Director server**
   
 - The FQDN of the new server as it is defined in DNS.
     
 - Select **Use all configured IP addresses**, which means that any IP address defined on the computer will be used. Alternatively, you select **Limit service usage to selected IP addresses** and enter a specific IP address on the new server. The IP address entered is the only IP address which will respond for the hosted services.
     
- **Mediation Server**
+  **Mediation Server**
   
 - The FQDN of the new server as it is defined in DNS.
     
@@ -55,13 +55,13 @@ Each of the new pool servers has different requirements. In the following sectio
     > [!NOTE]
     > For the Mediation Server, the IP address entered for the Primary IP address and the PSTN IP address is the same by default. The IP addresses can be defined separately if you are using dedicated network interfaces or separate IP addresses on the same network interface. If you have two network interfaces, one for the local network connection and one for the PSTN connection, you must assign different IP addresses. 
   
- **Audio/Video Conferencing Server**
+  **Audio/Video Conferencing Server**
   
 - The FQDN of the new server as it is defined in DNS.
     
 - Select **Use all configured IP addresses**, which means that any IP address defined on the computer can be used. Alternatively, you can select **Limit service usage to selected IP addresses** and enter a specific address on the new server. The IP address entered is the only IP address which will respond for the hosted services.
     
- **Trusted Application server**
+  **Trusted Application server**
   
 - The FQDN of the new server as it is defined in DNS.
     

@@ -3,7 +3,7 @@ title: "Infrastructure qualified for Lync - IP PBXs and Gateways "
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -11,7 +11,7 @@ ms.collection: Lync
 ms.audience: Admin
 appliesto:
 - Lync
-- Skype for Business 
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -20,11 +20,11 @@ ms.custom:
 description: "Infrastructure qualifications including PSTN gateways and IP PBX products, along with the necessary firmware combinations, that have been independently qualified for  Lync Server."
 ---
 
-# IP PBXs and Gateways 
+# IP PBXs and Gateways
 
 ## Qualified IP PBXs & Gateways
 
-The tables that follow list the PSTN gateways and IP-PBX products along with the necessary firmware combinations that have been independently qualified for use with Lync Server. 
+The tables that follow list the PSTN gateways and IP-PBX products along with the necessary firmware combinations that have been independently qualified for use with Lync Server.
 
 We recommend that you visit the vendor's web site for the latest information regarding protocol, capacity, country support and documentation including a Quick Start Guide, release notes and any known issues.
 
@@ -97,7 +97,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 		</tr>
 		<tr align="left" valign="top">
 			<td colspan="4">
-				<p>Documentation: <a href="http://www.microsoft.com/en-us/download/details.aspx?id=41153">Integrating Lync 2013 and ISR 3845 Configuration Guide v1.0</a></p>
+				<p>Documentation: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=41153">Integrating Lync 2013 and ISR 3845 Configuration Guide v1.0</a></p>
 				<p>Configuration Notes:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>Disable REFER and RTCP support on both Lync Mediation Server and Cisco GW.</li>
@@ -126,7 +126,7 @@ We recommend that you visit the vendor's web site for the latest information reg
 				<p>Known Limitations:</p>
 				<ol style="margin-left:20px;margin-top:-12px;">
 					<li>Call Park on Lync Client fails. Lync Client drops the call as the Gateway responds with &quot;a=sendrecv&quot; to an INVITE from Lync to place the call on hold. This issue is documented under case number CSCuo44538 with Cisco Support.</li>
-					<li>As the Gateway overrides the progress indicator from Lync Sever, PSTN calling party does not hear IVR when the Lync called party is set to simultaneous ring an IVR number with Early Media.</li>
+					<li>As the Gateway overrides the progress indicator from Lync Server, PSTN calling party does not hear IVR when the Lync called party is set to simultaneous ring an IVR number with Early Media.</li>
 					<li>Call Hold and transfer on Analog Endpoints fails with the recommended dial peer configuration on the ISR.</li>
 				</ol>
 			</td>
@@ -605,4 +605,4 @@ We recommend that you visit the vendor's web site for the latest information reg
 </table>
 
 
-For more information on Direct SIP configurations, please see [PSTN Connectivity Components](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/enterprise-voice-solution/pstn-connectivity).
+For more information on Direct SIP configurations, please see [PSTN Connectivity Components](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/enterprise-voice-solution/pstn-connectivity).

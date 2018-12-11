@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 93098bc5-df63-4a1f-8734-0b72a6280a69
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
@@ -33,7 +34,7 @@ There are different types of phone numbers that you can assign to users or other
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Phone numbers**.
     
@@ -44,17 +45,17 @@ There are different types of phone numbers that you can assign to users or other
     
 5. You can use the drop-down list to filter your view by:
     
-  - **All** phone numbers including service phone numbers.
+   - **All** phone numbers including service phone numbers.
     
-  - A phone **number range** that you set.
+   - A phone **number range** that you set.
     
-  - Phone numbers that are **assigned to user**.
+   - Phone numbers that are **assigned to user**.
     
-  - Phone numbers that **assigned to conference** for dial-in conferencing.
+   - Phone numbers that **assigned to conference** for dial-in conferencing.
     
-  - Phone numbers that are **unassigned**.
+   - Phone numbers that are **unassigned**.
     
-  - The **location** of the phone numbers.
+   - The **location** of the phone numbers.
     
 ## To see all of the phone numbers that are assigned to users
 
@@ -65,7 +66,7 @@ When you are setting up users, you might just want to see the list of the phone 
   
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.
     
@@ -74,11 +75,11 @@ When you are setting up users, you might just want to see the list of the phone 
     
 4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
     
-  - **All** phone numbers including service phone numbers.
+   - **All** phone numbers including service phone numbers.
     
-  - **Number assigned** to user.
+   - **Number assigned** to user.
     
-  - **No number assigned** to user.
+   - **No number assigned** to user.
     
 ## To see the phone numbers that are assigned to voice users
 
@@ -89,7 +90,7 @@ When you are setting up users in your organization to make and receive phone cal
   
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.
     
@@ -98,20 +99,19 @@ When you are setting up users in your organization to make and receive phone cal
     
 4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
     
-  - **Active users** and whether a user is Online or on-premises.
+   - **Active users** and whether a user is Online or on-premises.
     
-  - **Pending licenses** and whether a user is Online or on-premises.
+   - **Pending licenses** and whether a user is Online or on-premises.
     
 ## Related topics
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+[Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

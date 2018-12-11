@@ -11,8 +11,11 @@ metadata:
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
-  localization_priority: Priority
-  ms.collection: Strat_MT_TeamsAdmin
+  localization_priority: Normal
+  search.appverid: MET150
+  ms.collection: 
+  - Teams_ITAdmin_JourneyFromSfB
+  - Teams_ITAdmin_Training
   appliesto: 
   - Microsoft Teams
 items:

@@ -26,7 +26,7 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-blue.svg" alt="Tasks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -44,8 +44,7 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="Hybrid" />
-
+                            <img src="https://docs.microsoft.com/office/media/icons/hybrid-blue.svg" alt="Hybrid" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -63,7 +62,7 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/office/media/icons/deploy-blue.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -81,7 +80,7 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/upload-blue.svg" alt="Upgrade" />
+                            <img src="https://docs.microsoft.com/office/media/icons/upload-blue.svg" alt="Upgrade" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -99,7 +98,7 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/process-flow-blue.svg" alt="Architecture" />
+                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-blue.svg" alt="Architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -117,7 +116,7 @@ Skype for Business is a communications and collaboration platform that brings to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/download-blue.svg" alt="Download" />
+                            <img src="https://docs.microsoft.com/office/media/icons/download-blue.svg" alt="Download" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -136,82 +135,84 @@ Skype for Business is a communications and collaboration platform that brings to
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Before you start</h3>
-                        <p>[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)</p>
-                        <p>[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)</p>
-                        <p>[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Before you start</h3>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Requirements for your environment</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Network requirements</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Clients and devices</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Install and manage</h3>
-                        <p>[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)</p>
-                        <p>[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)</p>
-                     </div>
-                </div>
-            </div>
-        </div>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Install and manage</h3>
+                        <p><a href="/SkypeForBusiness/deploy/install/install" data-raw-source="[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)">Install Skype for Business Server</a></p>
+                        <p><a href="/SkypeForBusiness/manage/manage" data-raw-source="[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)">Manage Skype for Business Server</a></p>
+                     </div>
+                </div>
+            </div>
+        </div>
     </li>
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Enterprise Voice</h3>
-                        <p>[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)</p>
-                        <p>[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Enterprise Voice</h3>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">Plan</a></p>
+                        <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">Deploy</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Skype Meeting Broadcast</h3>
-                        <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">What is it?</a></p>
-                        <p>[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Skype Meeting Broadcast</h3>
+                        <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">What is it?</a></p>
+                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Configure your on-premises deployment for Skype Meeting Broadcast</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Hybrid solutions</h3>
-                        <p>[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)</p>
-                        <p>[Plan your Phone System (Cloud PBX) solution ](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)</p>
-                        <p>[Plan for Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)</p>
-               </div>
-                </div>
-            </div>
-        </div> 
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Hybrid solutions</h3>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Plan hybrid connectivity</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution" data-raw-source="[Plan your Phone System (Cloud PBX) solution ](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution)">Plan your Phone System (Cloud PBX) solution </a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition" data-raw-source="[Plan for Cloud Connector Edition](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)">Plan for Cloud Connector Edition</a></p>
+               </div>
+                </div>
+            </div>
+        </div> 
     </li>
     <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Other resources</h3>
-                        <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Skype for Business readiness series</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Other resources</h3>
+                        <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Skype for Business readiness series</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-server-2019">Skype for Business Server 2019 documentation</a></p>
+                        <p><a href="/lyncserver/microsoft-lync-server-2013">Lync Server 2013 documentation</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </li>
 </ul>
 

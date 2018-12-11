@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d935a90d-ea61-433d-a820-b400ed9c1f5d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,7 +16,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
@@ -34,7 +35,7 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
 
 ### ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Using the Skype for Business admin center
 
-1. Go to the **Office 365 admin center** > **Skype for Business**.
+1. Go to the **Teams & Skype for Business Admin Center** > **Legacy portal**.
     
 2. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**.
     

@@ -7,7 +7,7 @@ ms.date: 7/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -51,13 +51,13 @@ Watch the video steps for **Install administrative tools**:
     
     ![Core Components in Apps screen.](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
   
-  - **Skype for Business Server Deployment Wizard** A deployment program that provides a launch pad for installing the various components of Skype for Business Server.
+   - **Skype for Business Server Deployment Wizard** A deployment program that provides a launch pad for installing the various components of Skype for Business Server.
     
-  - **Skype for Business Server Management Shell** A preconfigured PowerShell program that allows for administration of Skype for Business Server.
+   - **Skype for Business Server Management Shell** A preconfigured PowerShell program that allows for administration of Skype for Business Server.
     
-    Once the installation of the Core Components is complete, the Skype for Business Server Deployment Wizard will automatically launch, as shown in the figure. 
+     Once the installation of the Core Components is complete, the Skype for Business Server Deployment Wizard will automatically launch, as shown in the figure. 
     
-    ![Skype for Business Server Deployment Wizard](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
+     ![Skype for Business Server Deployment Wizard](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
 6. In addition to the Core Components, you will also need to install Skype for Business Server Topology Builder and Skype for Business Server Control Panel on at least one server in the environment. Click **Install Administrative Tools** on the Deployment Wizard.
     

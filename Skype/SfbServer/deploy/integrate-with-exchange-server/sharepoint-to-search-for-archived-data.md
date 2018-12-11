@@ -120,7 +120,7 @@ Finally, create a new eDiscovery case and a new eDiscovery set by completing the
     
 4. When the eDiscovery set page appears, click **new item** under **Identity and Preserve: Discovery Sets**.
     
-5. On the New: Discovery Set page, enter the user's email alias in the **Discovery Set Name** box. Enter **eDiscovery Lync\*** in the **Filter** box and then click **Add &amp; Manage Sources**.
+5. On the New: Discovery Set page, enter the user's email alias in the **Discovery Set Name** box. Enter **eDiscovery Lync\\*** in the **Filter** box and then click **Add &amp; Manage Sources**.
     
 6. On the Add &amp; Manage Sources page, enter the user's email alias in the first textbox under **Mailboxes**. Click the check mailbox icon located next to the textbook to verify that SharePoint can connect to the specified mailbox.
     

@@ -1,5 +1,5 @@
 ---
-title: "See a list of users that are enabled for Audio Conferencing"
+title: "See a list of users that are enabled for Audio Conferencing in Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,35 +8,33 @@ ms.topic: article
 ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
-- Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. "
 ---
 
-# See a list of users that are enabled for Audio Conferencing
+# See a list of users that are enabled for Audio Conferencing in Skype for Business Online
 
-After you have enabled Skype for Business or Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who have been enabled. When you look at the list, you will also see for each user in the list the type of audio conferencing provider that they are using, the default dial-in phone number for the user, and if you organization isn't enabled for dynamic conference IDs, the static conference IDs for audio conferencing meetings that they organize.
+> [!NOTE]
+> For information about enabled users in Microsoft Teams, see [See a list of users that are enabled for Audio Conferencing in Microsoft Teams](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
+
+After you have enabled Skype for Business users in your organization for Audio Conferencing, you can view the list of those users who have been enabled. When you look at the list, you will also see for each user in the list the type of audio conferencing provider that they are using, the default dial-in phone number for the user, and if you organization isn't enabled for dynamic conference IDs, the static conference IDs for audio conferencing meetings that they organize.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## Viewing a list of users
 
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
-
-- In the left navigation, click **Users**.
-
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
-    
+   
 - In the left navigation, go to **Audio conferencing** > **Users**.
 
 ## What else should I know?

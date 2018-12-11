@@ -6,6 +6,8 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
+search.appverid: MET150
 description: Learn about Debug, Media, and Desktop logs produced by Microsoft Teams, where they can be found, and how they can help with troubleshooting.
 appliesto: 
 - Microsoft Teams
@@ -34,14 +36,13 @@ The following table outlines the various clients, and their associated logs. Log
 |Mac OSX     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
-|Windows Phone     |-         |-         |-         |
 
 For a complete list of supported operating systems and browsers, see [Get clients for Microsoft Teams](get-clients.md).
 
 Debug logs
 ---------------------------
 
-These are the most common logs and are required for all Microsoft support cases. Debug logs are produced by the Window and Mac desktop clients, as well as browser based clients. The logs are text based and are read from the bottom up. They can be read using any text based editor and new logs are created when logging into the client.
+These are the most common logs and are required for all Microsoft support cases. Debug logs are produced by the Windows and Mac desktop clients, as well as browser based clients. The logs are text based and are read from the bottom up. They can be read using any text based editor and new logs are created when logging into the client.
 
 Debug logs show the following data flows:
 
@@ -55,17 +56,11 @@ The debug logs are produced using the following OS specific methods:
 
 -   Windows:
 
-    1.  Right-click **the Microsoft Teams icon in** your application tray, select **Get Logs**
-
-    2.  Choosing **Get Logs** from the **Help** pull-down menu
-
-    3.  Keyboard shortcut: Ctrl + Alt + Shift + 1
+      Keyboard shortcut: Ctrl + Alt + Shift + 1
 
 -   Mac OSX:
 
-    1.  Choosing **Get Logs** from the **Help** pull-down menu
-
-    2.  Keyboard shortcut: Option + Command + Shift+1
+      Keyboard shortcut: Option + Command + Shift+1
 
 The debug logs are automatically downloaded to the following folders.
 
@@ -91,6 +86,16 @@ Desktop logs
 ---------------------
 
 Desktop logs, also known as bootstrapper logs, contains log data that occurs between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text based and can be read using any text based editor in a top down format.
+
+Windows:
+
+  1.  Right-click **the Microsoft Teams icon in** your application tray, select **Get Logs**
+
+  2.  Choosing **Get Logs** from the **Help** pull-down menu
+
+Mac OsX:
+
+1.  Choosing **Get Logs** from the **Help** pull-down menu
 
 |Client |Location |
 |---------|---------|

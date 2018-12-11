@@ -6,7 +6,7 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - Strat_SB_Hybrid
 ms.custom: 
@@ -139,7 +139,7 @@ If you aren't sure what you need, then before you start following these steps, i
     
    - Enable IPv6 on the external interface
     
-    These are pretty self-explanatory, whether you're using IPv4 or IPv6 addresses, and you're applying those addresses on your Edge Server internally or externally (you'll need to keep this in mind for Step 11). You also have the option of configuring your Edge Server or your Edge pool to use a network address translation (NAT) address for the external IP address. You can do this by choosing **The external IP address of this Edge pool is translated by NAT** check box . Click **Next** when ready.
+     These are pretty self-explanatory, whether you're using IPv4 or IPv6 addresses, and you're applying those addresses on your Edge Server internally or externally (you'll need to keep this in mind for Step 11). You also have the option of configuring your Edge Server or your Edge pool to use a network address translation (NAT) address for the external IP address. You can do this by choosing **The external IP address of this Edge pool is translated by NAT** check box . Click **Next** when ready.
     
 9. On the External FQDNs screen, your choices depend on the selection you made in Step 7 above.
     
@@ -207,10 +207,10 @@ If you aren't sure what you need, then before you start following these steps, i
     
    - Enable IPv6 on the external interface
     
-    These are pretty self-explanatory, whether you're using IPv4 or IPv6 addresses, and you're applying those addresses on your Edge Server internally or externally (you'll need to keep this in mind for Step 11).
+     These are pretty self-explanatory, whether you're using IPv4 or IPv6 addresses, and you're applying those addresses on your Edge Server internally or externally (you'll need to keep this in mind for Step 11).
     
-    > [!NOTE]
-    > Unlike the other two topology options, when using a hardware load balancer, you **MUST NOT** select the option **The external IP address of the Edge Pool is translated by NAT**. This is **not supported**.
+     > [!NOTE]
+     > Unlike the other two topology options, when using a hardware load balancer, you **MUST NOT** select the option **The external IP address of the Edge Pool is translated by NAT**. This is **not supported**.
   
 9. On the External FQDNs screen, your choices depend on the selection you made in Step 7 above.
     

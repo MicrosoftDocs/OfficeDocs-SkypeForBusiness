@@ -7,7 +7,7 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -26,7 +26,7 @@ While this may seem a bit daunting at first, the heavy lifting for planning this
   
 You can also find the information in these tables in diagram form by reviewing the Protocol Workloads poster linked off of the [Technical diagrams for Skype for Business Server 2015](../../technical-diagrams.md) article.
 > [!NOTE]
-> - Skype for Business Online users should refer to [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). 
+> - If you're implementing Skype for Business Online (O365) refer to [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Hybrid environments will need to reference this topic and also the hybrid [Port and protocol requirements](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#port-and-protocol-requirements).
 > - You can have hardware or software firewalls, we don't require specific models or versions. What matters is what ports are whitelisted so the firewall won't impair the functioning of Skype for Business Server.
   
 ## Port and Protocol Details
@@ -42,60 +42,61 @@ The following table lists the ports that need to be open on each internal server
   
 **Required Server Ports (by Server Role)**
 
-|**Server role**|**Service name**|**Port**|**Protocol**|**Notes**|
+|Server role|Service name|Port|Protocol|Notes|
 |:-----|:-----|:-----|:-----|:-----|
-|All Servers  <br/> |SQL Browser  <br/> |1434  <br/> |UDP  <br/> |SQL Browser for the local replicated copy of the the Central Management Store database.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Front-End service  <br/> |5060  <br/> |TCP  <br/> |Optionally used by Standard Edition servers and Front End Servers for static routes to trusted services, such as remote call control servers.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Front-End service  <br/> |5061  <br/> | TCP (TLS) <br/> |Used by Standard Edition servers and Front End pools for all internal SIP communications between servers (MTLS), for SIP communications between Server and Client (TLS) and for SIP communications between Front End Servers and Mediation Servers (MTLS). Also used for communications with a Monitoring Server.  <br/> |
-| Front End Servers <br/> |Skype for Business Server Front-End service  <br/> |444  <br/> | HTTPS <br/> TCP  <br/> |Used for HTTPS communication between the Focus (the Skype for Business Server component that manages conference state) and the individual servers.  <br/> This port is also used for TCP communication between Survivable Branch Appliances and Front End Servers.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Front-End service  <br/> |135  <br/> |DCOM and remote procedure call (RPC)  <br/> |Used for DCOM based operations such as Moving Users, User Replicator Synchronization, and Address Book Synchronization.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server IM Conferencing service  <br/> |5062  <br/> |TCP  <br/> |Used for incoming SIP requests for instant messaging (IM) conferencing.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Web Conferencing service  <br/> |8057  <br/> |TCP (TLS)  <br/> |Used to listen for Persistent Shared Object Model (PSOM) connections from client.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Web Conferencing Compatibility service  <br/> |8058  <br/> |TCP (TLS)  <br/> |Used to listen for Persistent Shared Object Model (PSOM) connections from the Live Meeting client and previous versions of Skype for Business Server.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Audio/Video Conferencing service  <br/> |5063  <br/> |TCP  <br/> |Used for incoming SIP requests for audio/video (A/V) conferencing.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Audio/Video Conferencing service  <br/> |57501-65535  <br/> |TCP/UDP  <br/> |Media port range used for video conferencing.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Web Compatibility service  <br/> |80  <br/> |HTTP  <br/> |Used for communication from Front End Servers to the web farm FQDNs (the URLs used by IIS web components) when HTTPS is not used.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Web Compatibility service  <br/> |443  <br/> |HTTPS  <br/> |Used for communication from Front End Servers to the web farm FQDNs (the URLs used by IIS web components).  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Web Compatibility service  <br/> |8080  <br/> |TCP and HTTP  <br/> |Used by web components for external access.  <br/> |
-|Front End Servers  <br/> |Web server component  <br/> |4443  <br/> |HTTPS  <br/> |HTTPS (from Reverse Proxy) and HTTPS Front End inter-pool communications for Autodiscover sign-in.  <br/> |
-|Front End Servers  <br/> |Web server component  <br/> |8060  <br/> |TCP (MTLS)  <br/> ||
-|Front End Servers  <br/> |Web server component  <br/> |8061  <br/> |TCP (MTLS)  <br/> ||
-|Front End Servers  <br/> |Mobility Services component  <br/> |5086  <br/> |TCP (MTLS)  <br/> |SIP port used by Mobility Services internal processes  <br/> |
-|Front End Servers  <br/> |Mobility Services component  <br/> |5087  <br/> |TCP (MTLS)  <br/> |SIP port used by Mobility Services internal processes  <br/> |
-|Front End Servers  <br/> |Mobility Services component  <br/> |443  <br/> |HTTPS  <br/> ||
-|Front End Servers  <br/> |Skype for Business Server Conferencing Attendant service (dial-in conferencing)  <br/> |5064  <br/> |TCP  <br/> |Used for incoming SIP requests for dial-in conferencing.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Conferencing Attendant service (dial-in conferencing)  <br/> |5072  <br/> |TCP  <br/> |Used for incoming SIP requests for Attendant (dial in conferencing).  <br/> |
-|Front End Servers that also run a Collocated Mediation Server  <br/> |Skype for Business Server Mediation service  <br/> |5070  <br/> |TCP  <br/> |Used by the Mediation Server for incoming requests from the Front End Server to the Mediation Server.  <br/> |
-|Front End Servers that also run a Collocated Mediation Server  <br/> |Skype for Business Server Mediation service  <br/> |5067  <br/> |TCP (TLS)  <br/> |Used for incoming SIP requests from the PSTN gateway to the Mediation Server.  <br/> |
-|Front End Servers that also run a Collocated Mediation Server  <br/> |Skype for Business Server Mediation service  <br/> |5068  <br/> |TCP  <br/> |Used for incoming SIP requests from the PSTN gateway to the Mediation Server.  <br/> |
-|Front End Servers that also run a Collocated Mediation Server  <br/> |Skype for Business Server Mediation service  <br/> |5081  <br/> |TCP  <br/> |Used for outgoing SIP requests from the Mediation Server to the PSTN gateway.  <br/> |
-|Front End Servers that also run a Collocated Mediation Server  <br/> |Skype for Business Server Mediation service  <br/> |5082  <br/> |TCP (TLS)  <br/> |Used for outgoing SIP requests from the Mediation Server to the PSTN gateway.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Application Sharing service  <br/> |5065  <br/> |TCP  <br/> |Used for incoming SIP listening requests for application sharing.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Application Sharing service  <br/> |49152-65535  <br/> |TCP  <br/> |Media port range used for application sharing.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Conferencing Announcement service  <br/> |5073  <br/> |TCP  <br/> |Used for incoming SIP requests for the Skype for Business Server Conferencing Announcement service (that is, for dial-in conferencing).  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Call Park service  <br/> |5075  <br/> |TCP  <br/> |Used for incoming SIP requests for the Call Park application.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Audio Test service  <br/> |5076  <br/> |TCP  <br/> |Used for incoming SIP requests for the Audio Test service.  <br/> |
-|Front End Servers  <br/> |Not applicable  <br/> |5066  <br/> |TCP  <br/> |Used for outbound Enhanced 9-1-1 (E9-1-1) gateway.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Response Group service  <br/> |5071  <br/> |TCP  <br/> |Used for incoming SIP requests for the Response Group application.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Response Group service  <br/> |8404  <br/> |TCP (MTLS)  <br/> |Used for incoming SIP requests for the Response Group application.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Bandwidth Policy Service  <br/> |5080  <br/> |TCP  <br/> |Used for call admission control by the Bandwidth Policy service for A/V Edge TURN traffic.  <br/> |
-|Front End Servers  <br/> |Skype for Business Server Bandwidth Policy Service  <br/> |448  <br/> |TCP  <br/> |Used for call admission control by the Skype for Business Server Bandwidth Policy Service.  <br/> |
-|Front End Servers where the Central Management store resides  <br/> | Skype for Business Server Master Replicator Agent service <br/> |445  <br/> |TCP  <br/> |Used to push configuration data from the Central Management store to servers running Skype for Business Server.  <br/> |
-|All Servers  <br/> |SQL Browser  <br/> |1434  <br/> |UDP  <br/> |SQL Browser for local replicated copy of Central Management store data in local SQL Server instance  <br/> |
-|All internal servers  <br/> |Various  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Media port range used for audio conferencing on all internal servers. Used by all servers that terminate audio: Front End Servers (for Skype for Business Server Conferencing Attendant service, Skype for Business Server Conferencing Announcement service, and Skype for Business Server Audio/Video Conferencing service), and Mediation Server.  <br/> |
-|Office Web Apps Servers  <br/> ||443  <br/> ||Used by Skype for Business Server to connect to Office Web Apps Server.  <br/> |
-|Directors  <br/> |Skype for Business Server Front-End service  <br/> |5060  <br/> |TCP  <br/> |Optionally used for static routes to trusted services, such as remote call control servers.  <br/> |
-|Directors  <br/> |Skype for Business Server Front-End service  <br/> |444  <br/> |HTTPS  <br/> TCP  <br/> |Inter-server communication between Front End and Director. Additionally, client certificate publish (to Front End Servers) or validate if the client certificate has already been published.  <br/> |
-|Directors  <br/> |Skype for Business Server Web Compatibility service  <br/> |80  <br/> |TCP  <br/> |Used for initial communication from Directors to the web farm FQDNs (the URLs used by IIS web components). In normal operation, will switch to HTTPS traffic, using port 443 and protocol type TCP.  <br/> |
-|Directors  <br/> |Skype for Business Server Web Compatibility service  <br/> |443  <br/> |HTTPS  <br/> |Used for communication from Directors to the web farm FQDNs (the URLs used by IIS web components).  <br/> |
-|Directors  <br/> |Skype for Business Server Front-End service  <br/> |5061  <br/> |TCP  <br/> |Used for internal communications between servers and for client connections.  <br/> |
-|Mediation Servers  <br/> |Skype for Business Server Mediation service  <br/> |5070  <br/> |TCP  <br/> |Used by the Mediation Server for incoming requests from the Front End Server.  <br/> |
-|Mediation Servers  <br/> |Skype for Business Server Mediation service  <br/> |5067  <br/> |TCP (TLS)  <br/> |Used for incoming SIP requests from the PSTN gateway.  <br/> |
-|Mediation Servers  <br/> |Skype for Business Server Mediation service  <br/> |5068  <br/> |TCP  <br/> |Used for incoming SIP requests from the PSTN gateway.  <br/> |
-|Mediation Servers  <br/> |Skype for Business Server Mediation service  <br/> |5070  <br/> |TCP (MTLS)  <br/> |Used for SIP requests from the Front End Servers.  <br/> |
-|Persistent Chat Front End Server  <br/> |Persistent Chat SIP  <br/> |5041  <br/> |TCP (MTLS)  <br/> ||
-|Persistent Chat Front End Server  <br/> |Persistent Chat Windows Communication Foundation (WCF)  <br/> |881  <br/> |TCP (TLS) and TCP (MTLS)  <br/> ||
-|Persistent Chat Front End Server  <br/> |Persistent Chat File Transfer Service  <br/> |443  <br/> |TCP (TLS)  <br/> ||
+|All Servers  |SQL Browser  |1434  |UDP  |SQL Browser for the local replicated copy of the Central Management Store database.  |
+|Front End Servers  |Skype for Business Server Front-End service  |5060  |TCP  |Optionally used by Standard Edition servers and Front End Servers for static routes to trusted services, such as remote call control servers.  |
+|Front End Servers  |Skype for Business Server Front-End service  |5061  | TCP (TLS) |Used by Standard Edition servers and Front End pools for all internal SIP communications between servers (MTLS), for SIP communications between Server and Client (TLS) and for SIP communications between Front End Servers and Mediation Servers (MTLS). Also used for communications with a Monitoring Server.  |
+| Front End Servers |Skype for Business Server Front-End service  |444  | HTTPS <br/> TCP  |Used for HTTPS communication between the Focus (the Skype for Business Server component that manages conference state) and the individual servers.  <br/> This port is also used for TCP communication between Survivable Branch Appliances and Front End Servers.  |
+|Front End Servers  |Skype for Business Server Front-End service  |135  |DCOM and remote procedure call (RPC)  |Used for DCOM based operations such as Moving Users, User Replicator Synchronization, and Address Book Synchronization.  |
+|Front End Servers  |Skype for Business Server IM Conferencing service  |5062  |TCP  |Used for incoming SIP requests for instant messaging (IM) conferencing.  |
+|Front End Servers  |Skype for Business Server Web Conferencing service  |8057  |TCP (TLS)  |Used to listen for Persistent Shared Object Model (PSOM) connections from client.  |
+|Front End Servers  |Skype for Business Server Web Conferencing Compatibility service  |8058  |TCP (TLS)  |Used to listen for Persistent Shared Object Model (PSOM) connections from the Live Meeting client and previous versions of Skype for Business Server.  |
+|Front End Servers  |Skype for Business Server Audio/Video Conferencing service  |5063  |TCP  |Used for incoming SIP requests for audio/video (A/V) conferencing.  |
+|Front End Servers  |Skype for Business Server Audio/Video Conferencing service  |57501-65535  |TCP/UDP  |Media port range used for video conferencing.  |
+|Front End Servers  |Skype for Business Server Web Compatibility service  |80  |HTTP  |Used for communication from Front End Servers to the web farm FQDNs (the URLs used by IIS web components) when HTTPS is not used.  |
+|Front End Servers  |Skype for Business Server Web Compatibility service  |443  |HTTPS  |Used for communication from Front End Servers to the web farm FQDNs (the URLs used by IIS web components).  |
+|Front End Servers  |Skype for Business Server Web Compatibility service  |8080  |TCP and HTTP  |Used by web components for external access.  |
+|Front End Servers  |Web server component  |4443  |HTTPS  |HTTPS (from Reverse Proxy) and HTTPS Front End inter-pool communications for Autodiscover sign-in.  |
+|Front End Servers  |Web server component  |8060  |TCP (MTLS)  ||
+|Front End Servers  |Web server component  |8061  |TCP (MTLS)  ||
+|Front End Servers  |Mobility Services component  |5086  |TCP (MTLS)  |SIP port used by Mobility Services internal processes  |
+|Front End Servers  |Mobility Services component  |5087  |TCP (MTLS)  |SIP port used by Mobility Services internal processes  |
+|Front End Servers  |Mobility Services component  |443  |HTTPS  ||
+|Front End Servers  |Skype for Business Server Conferencing Attendant service (dial-in conferencing)  |5064  |TCP  |Used for incoming SIP requests for dial-in conferencing.  |
+|Front End Servers  |Skype for Business Server Conferencing Attendant service (dial-in conferencing)  |5072  |TCP  |Used for incoming SIP requests for Attendant (dial in conferencing).  |
+|Front End Servers that also run a Collocated Mediation Server  |Skype for Business Server Mediation service  |5070  |TCP  |Used by the Mediation Server for incoming requests from the Front End Server to the Mediation Server.  |
+|Front End Servers that also run a Collocated Mediation Server  |Skype for Business Server Mediation service  |5067  |TCP (TLS)  |Used for incoming SIP requests from the PSTN gateway to the Mediation Server.  |
+|Front End Servers that also run a Collocated Mediation Server  |Skype for Business Server Mediation service  |5068  |TCP  |Used for incoming SIP requests from the PSTN gateway to the Mediation Server.  |
+|Front End Servers that also run a Collocated Mediation Server  |Skype for Business Server Mediation service  |5081  |TCP  |Used for outgoing SIP requests from the Mediation Server to the PSTN gateway.  |
+|Front End Servers that also run a Collocated Mediation Server  |Skype for Business Server Mediation service  |5082  |TCP (TLS)  |Used for outgoing SIP requests from the Mediation Server to the PSTN gateway.  |
+|Front End Servers  |Skype for Business Server Application Sharing service  |5065  |TCP  |Used for incoming SIP listening requests for application sharing.  |
+|Front End Servers  |Skype for Business Server Application Sharing service  |49152-65535  |TCP  |Media port range used for application sharing.  |
+|Front End Servers  |Skype for Business Server Conferencing Announcement service  |5073  |TCP  |Used for incoming SIP requests for the Skype for Business Server Conferencing Announcement service (that is, for dial-in conferencing).  |
+|Front End Servers  |Skype for Business Server Call Park service  |5075  |TCP  |Used for incoming SIP requests for the Call Park application.  |
+|Front End Servers  |Skype for Business Server Audio Test service  |5076  |TCP  |Used for incoming SIP requests for the Audio Test service.  |
+|Front End Servers  |Not applicable  |5066  |TCP  |Used for outbound Enhanced 9-1-1 (E9-1-1) gateway.  |
+|Front End Servers  |Skype for Business Server Response Group service  |5071  |TCP  |Used for incoming SIP requests for the Response Group application.  |
+|Front End Servers  |Skype for Business Server Response Group service  |8404  |TCP (MTLS)  |Used for incoming SIP requests for the Response Group application.  |
+|Front End Servers  |Skype for Business Server Bandwidth Policy Service  |5080  |TCP  |Used for call admission control by the Bandwidth Policy service for A/V Edge TURN traffic.  |
+|Front End Servers  |Skype for Business Server File Share server access  |445   |SMB/TCP  | Used to retrieve Address book, meeting content, and other items stored on the File Share server.  |
+|Front End Servers  |Skype for Business Server Bandwidth Policy Service  |448  |TCP  |Used for call admission control by the Skype for Business Server Bandwidth Policy Service.  |
+|Front End Servers where the Central Management store resides  | Skype for Business Server Master Replicator Agent service |445  |TCP  |Used to push configuration data from the Central Management store to servers running Skype for Business Server.  |
+|All Servers  |SQL Browser  |1434  |UDP  |SQL Browser for local replicated copy of Central Management store data in local SQL Server instance  |
+|All internal servers  |Various  |49152-57500  |TCP/UDP  |Media port range used for audio conferencing on all internal servers. Used by all servers that terminate audio: Front End Servers (for Skype for Business Server Conferencing Attendant service, Skype for Business Server Conferencing Announcement service, and Skype for Business Server Audio/Video Conferencing service), and Mediation Server.  |
+|Office Web Apps Servers  ||443  ||Used by Skype for Business Server to connect to Office Web Apps Server.  |
+|Directors  |Skype for Business Server Front-End service  |5060  |TCP  |Optionally used for static routes to trusted services, such as remote call control servers.  |
+|Directors  |Skype for Business Server Front-End service  |444  |HTTPS  <br/> TCP  |Inter-server communication between Front End and Director. Additionally, client certificate publish (to Front End Servers) or validate if the client certificate has already been published.  |
+|Directors  |Skype for Business Server Web Compatibility service  |80  |TCP  |Used for initial communication from Directors to the web farm FQDNs (the URLs used by IIS web components). In normal operation, will switch to HTTPS traffic, using port 443 and protocol type TCP.  |
+|Directors  |Skype for Business Server Web Compatibility service  |443  |HTTPS  |Used for communication from Directors to the web farm FQDNs (the URLs used by IIS web components).  |
+|Directors  |Skype for Business Server Front-End service  |5061  |TCP  |Used for internal communications between servers and for client connections.  |
+|Mediation Servers  |Skype for Business Server Mediation service  |5070  |TCP  |Used by the Mediation Server for incoming requests from the Front End Server.  |
+|Mediation Servers  |Skype for Business Server Mediation service  |5067  |TCP (TLS)  |Used for incoming SIP requests from the PSTN gateway.  |
+|Mediation Servers  |Skype for Business Server Mediation service  |5068  |TCP  |Used for incoming SIP requests from the PSTN gateway.  |
+|Mediation Servers  |Skype for Business Server Mediation service  |5070  |TCP (MTLS)  |Used for SIP requests from the Front End Servers.  |
+|Persistent Chat Front End Server  |Persistent Chat SIP  |5041  |TCP (MTLS)  ||
+|Persistent Chat Front End Server  |Persistent Chat Windows Communication Foundation (WCF)  |881  |TCP (TLS) and TCP (MTLS)  ||
+|Persistent Chat Front End Server  |Persistent Chat File Transfer Service  |443  |TCP (TLS)  ||
    
 > [!NOTE]
 > Some remote call control scenarios require a TCP connection between the Front End Server or Director and the PBX. Although Skype for Business Server no longer uses TCP port 5060, during remote call control deployment you create a trusted server configuration, which associates the RCC Line Server FQDN with the TCP port that the Front End Server or Director will use to connect to the PBX system. For details, see the **CsTrustedApplicationComputer** cmdlet in the Skype for Business Server Management Shell documentation.
@@ -104,64 +105,64 @@ For your pools that use only hardware load balancing (not DNS load balancing), t
   
 **Hardware Load Balancer Ports if Using Only Hardware Load Balancing**
 
-|**Load Balancer**|**Port**|**Protocol**|
+|Load Balancer|Port|Protocol|
 |:-----|:-----|:-----|
-|Front End Server load balancer  <br/> |5061  <br/> |TCP (TLS)  <br/> |
-|Front End Server load balancer  <br/> |444  <br/> |HTTPS  <br/> |
-|Front End Server load balancer  <br/> |135  <br/> |DCOM and remote procedure call (RPC)  <br/> |
-|Front End Server load balancer  <br/> |80  <br/> |HTTP  <br/> |
-|Front End Server load balancer  <br/> |8080  <br/> |TCP - Client and device retrieval of root certificate from Front End Server - clients and devices authenticated by NTLM  <br/> |
-|Front End Server load balancer  <br/> |443  <br/> |HTTPS  <br/> |
-|Front End Server load balancer  <br/> |4443  <br/> |HTTPS (from reverse proxy)  <br/> |
-|Front End Server load balancer  <br/> |5072  <br/> |TCP  <br/> |
-|Front End Server load balancer  <br/> |5073  <br/> |TCP  <br/> |
-|Front End Server load balancer  <br/> |5075  <br/> |TCP  <br/> |
-|Front End Server load balancer  <br/> |5076  <br/> |TCP  <br/> |
-|Front End Server load balancer  <br/> |5071  <br/> |TCP  <br/> |
-|Front End Server load balancer  <br/> |5080  <br/> |TCP  <br/> |
-|Front End Server load balancer  <br/> |448  <br/> |TCP  <br/> |
-|Mediation Server load balancer  <br/> |5070  <br/> |TCP  <br/> |
-|Front End Server load balancer (if the pool also runs Mediation Server)  <br/> |5070  <br/> |TCP  <br/> |
-|Director load balancer  <br/> |443  <br/> |HTTPS  <br/> |
-|Director load balancer  <br/> |444  <br/> |HTTPS  <br/> |
-|Director load balancer  <br/> |5061  <br/> |TCP  <br/> |
-|Director load balancer  <br/> |4443  <br/> |HTTPS (from reverse proxy)  <br/> |
+|Front End Server load balancer  |5061  |TCP (TLS)  |
+|Front End Server load balancer  |444  |HTTPS  |
+|Front End Server load balancer  |135  |DCOM and remote procedure call (RPC)  |
+|Front End Server load balancer  |80  |HTTP  |
+|Front End Server load balancer  |8080  |TCP - Client and device retrieval of root certificate from Front End Server - clients and devices authenticated by NTLM  |
+|Front End Server load balancer  |443  |HTTPS  |
+|Front End Server load balancer  |4443  |HTTPS (from reverse proxy)  |
+|Front End Server load balancer  |5072  |TCP  |
+|Front End Server load balancer  |5073  |TCP  |
+|Front End Server load balancer  |5075  |TCP  |
+|Front End Server load balancer  |5076  |TCP  |
+|Front End Server load balancer  |5071  |TCP  |
+|Front End Server load balancer  |5080  |TCP  |
+|Front End Server load balancer  |448  |TCP  |
+|Mediation Server load balancer  |5070  |TCP  |
+|Front End Server load balancer (if the pool also runs Mediation Server)  |5070  |TCP  |
+|Director load balancer  |443  |HTTPS  |
+|Director load balancer  |444  |HTTPS  |
+|Director load balancer  |5061  |TCP  |
+|Director load balancer  |4443  |HTTPS (from reverse proxy)  |
    
 Your Front End pools and Director pools that use DNS load balancing also must have a hardware load balancer deployed. The following table shows the ports that need to be open on these hardware load balancers.
   
 **Hardware Load Balancer Ports if Using DNS Load Balancing**
 
-|**Load Balancer**|**Port**|**Protocol**|
+|Load Balancer|Port|Protocol|
 |:-----|:-----|:-----|
-|Front End Server load balancer  <br/> |80  <br/> |HTTP  <br/> |
-|Front End Server load balancer  <br/> |443  <br/> |HTTPS  <br/> |
-|Front End Server load balancer  <br/> |8080  <br/> |TCP - Client and device retrieval of root certificate from Front End Server - clients and devices authenticated by NTLM  <br/> |
-|Front End Server load balancer  <br/> |4443  <br/> |HTTPS (from reverse proxy)  <br/> |
-|Director load balancer  <br/> |443  <br/> |HTTPS  <br/> |
-|Director load balancer  <br/> |4443  <br/> |HTTPS (from reverse proxy)  <br/> |
-   
+|Front End Server load balancer  |80  |HTTP  |
+|Front End Server load balancer  |443  |HTTPS  |
+|Front End Server load balancer  |8080  |TCP - Client and device retrieval of root certificate from Front End Server - clients and devices authenticated by NTLM  |
+|Front End Server load balancer  |4443  |HTTPS (from reverse proxy)  |
+|Director load balancer  |443  |HTTPS  |
+|Director load balancer  |4443  |HTTPS (from reverse proxy)  |
+
 **Required Client Ports**
 
-|**Component**|**Port**|**Protocol**|**Notes**|
+|Component|Port|Protocol|Notes|
 |:-----|:-----|:-----|:-----|
-|Clients  <br/> |67/68  <br/> |DHCP  <br/> |Used by Skype for Business Server to find the Registrar FQDN (that is, if DNS SRV fails and manual settings are not configured).  <br/> |
-|Clients  <br/> |443  <br/> |TCP (TLS)  <br/> |Used for client-to-server SIP traffic for external user access.  <br/> |
-|Clients  <br/> |443  <br/> |TCP (PSOM/TLS)  <br/> |Used for external user access to web conferencing sessions.  <br/> |
-|Clients  <br/> |443  <br/> |TCP (STUN/MSTURN)  <br/> |Used for external user access to A/V sessions and media (TCP)  <br/> |
-|Clients  <br/> |3478  <br/> |UDP (STUN/MSTURN)  <br/> |Used for external user access to A/V sessions and media (UDP)  <br/> |
-|Clients  <br/> |5061  <br/> |TCP (MTLS)  <br/> |Used for client-to-server SIP traffic for external user access.  <br/> |
-|Clients  <br/> |6891-6901  <br/> |TCP  <br/> |Used for file transfer between Skype for Business clients and previous clients.  <br/> |
-|Clients  <br/> |1024-65535 \*  <br/> |TCP/UDP  <br/> |Audio port range (minimum of 20 ports required)  <br/> |
-|Clients  <br/> |1024-65535 \*  <br/> |TCP/UDP  <br/> |Video port range (minimum of 20 ports required).  <br/> |
-|Clients  <br/> |1024-65535 \*  <br/> |TCP  <br/> |Peer-to-peer file transfer (for conferencing file transfer, clients use PSOM).  <br/> |
-|Clients  <br/> |1024-65535 \*  <br/> |TCP  <br/> |Application sharing.  <br/> |
-|Aastra 6721ip common area phone  <br/> Aastra 6725ip desk phone  <br/> HP 4110 IP Phone (common area phone)  <br/> HP 4120 IP Phone (desk phone)  <br/> Polycom CX500 IP common area phone  <br/> Polycom CX600 IP desk phone  <br/> Polycom CX700 IP desk phone  <br/> Polycom CX3000 IP conference phone  <br/> |67/68  <br/> |DHCP  <br/> |Used by the listed devices to find the Skype for Business Server certificate, provisioning FQDN, and Registrar FQDN.  <br/> |
+|Clients  |67/68  |DHCP  |Used by Skype for Business Server to find the Registrar FQDN (that is, if DNS SRV fails and manual settings are not configured).  |
+|Clients  |443  |TCP (TLS)  |Used for client-to-server SIP traffic for external user access.  |
+|Clients  |443  |TCP (PSOM/TLS)  |Used for external user access to web conferencing sessions.  |
+|Clients  |443  |TCP (STUN/MSTURN)  |Used for external user access to A/V sessions and media (TCP)  |
+|Clients  |3478  |UDP (STUN/MSTURN)  |Used for external user access to A/V sessions and media (UDP)  |
+|Clients  |5061  |TCP (MTLS)  |Used for client-to-server SIP traffic for external user access.  |
+|Clients  |6891-6901  |TCP  |Used for file transfer between Skype for Business clients and previous clients.  |
+|Clients  |1024-65535 \*  |TCP/UDP  |Audio port range (minimum of 20 ports required)  |
+|Clients  |1024-65535 \*  |TCP/UDP  |Video port range (minimum of 20 ports required).  |
+|Clients  |1024-65535 \*  |TCP  |Peer-to-peer file transfer (for conferencing file transfer, clients use PSOM).  |
+|Clients  |1024-65535 \*  |TCP  |Application sharing.  |
+|Aastra 6721ip common area phone  <br/> Aastra 6725ip desk phone  <br/> HP 4110 IP Phone (common area phone)  <br/> HP 4120 IP Phone (desk phone)  <br/> Polycom CX500 IP common area phone  <br/> Polycom CX600 IP desk phone  <br/> Polycom CX700 IP desk phone  <br/> Polycom CX3000 IP conference phone  |67/68  |DHCP  |Used by the listed devices to find the Skype for Business Server certificate, provisioning FQDN, and Registrar FQDN.  |
    
 \* To configure specific ports for these media types, use the CsConferencingConfiguration cmdlet (ClientMediaPortRangeEnabled, ClientMediaPort, and ClientMediaPortRange parameters).
   
 > [!NOTE]
 > The setup programs for Skype for Business clients automatically create the required operating-system firewall exceptions on the client computer. 
-  
+
 > [!NOTE]
 > The ports that are used for external user access are required for any scenario in which the client must traverse the organization's firewall (for example, any external communications or meetings hosted by other organizations). 
   
@@ -173,22 +174,20 @@ The following table explains the recommended IPsec exception settings.
   
 **Recommended IPsec Exceptions**
 
-|**Rule name**|**Source IP**|**Destination IP**|**Protocol**|**Source port**|**Destination port**|**Authentication Requirement**|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|A/V Edge Server Internal Inbound  <br/> |Any  <br/> |A/V Edge Server Internal  <br/> |UDP and TCP  <br/> |Any  <br/> |Any  <br/> |Do not authenticate  <br/> |
-|A/V Edge Server External Inbound  <br/> |Any  <br/> |A/V Edge Server External  <br/> |UDP and TCP  <br/> |Any  <br/> |Any  <br/> |Do not authenticate  <br/> |
-|A/V Edge Server Internal Outbound  <br/> |A/V Edge Server Internal  <br/> |Any  <br/> |UDP &amp; TCP  <br/> |Any  <br/> |Any  <br/> |Do not authenticate  <br/> |
-|A/V Edge Server External Outbound  <br/> |A/V Edge Server External  <br/> |Any  <br/> |UDP and TCP  <br/> |Any  <br/> |Any  <br/> |Do not authenticate  <br/> |
-|Mediation Server Inbound  <br/> |Any  <br/> |Mediation  <br/> Server(s)  <br/> |UDP and TCP  <br/> |Any  <br/> |Any  <br/> |Do not authenticate  <br/> |
-|Mediation Server Outbound  <br/> |Mediation  <br/> Server(s)  <br/> |Any  <br/> |UDP and TCP  <br/> |Any  <br/> |Any  <br/> |Do not authenticate  <br/> |
-|Conferencing Attendant Inbound  <br/> |Any  <br/> |Front End Server running Conferencing Attendant  <br/> |UDP and TCP  <br/> |Any  <br/> |Any  <br/> |Do not authenticate  <br/> |
-|Conferencing Attendant Outbound  <br/> |Front End Server running Conferencing Attendant  <br/> |Any  <br/> |UDP and TCP  <br/> |Any  <br/> |Any  <br/> |Do not authenticate  <br/> |
-|A/V Conferencing Inbound  <br/> |Any  <br/> |Front End Servers  <br/> |UDP and TCP  <br/> |Any  <br/> |Any  <br/> |Do not authenticate  <br/> |
-|A/V Conferencing Outbound  <br/> |Front End Servers  <br/> |Any  <br/> |UDP and TCP  <br/> |Any  <br/> |Any  <br/> |Do not authenticate  <br/> |
-|Exchange Inbound  <br/> |Any  <br/> |Exchange Unified Messaging  <br/> |UDP and TCP  <br/> |Any  <br/> |Any  <br/> |Do not authenticate  <br/> |
-|Application Sharing Servers Inbound  <br/> |Any  <br/> |Application Sharing Servers  <br/> |TCP  <br/> |Any  <br/> |Any  <br/> |Do not authenticate  <br/> |
-|Application Sharing Server Outbound  <br/> |Application Sharing Servers  <br/> |Any  <br/> |TCP  <br/> |Any  <br/> |Any  <br/> |Do not authenticate  <br/> |
-|Exchange Outbound  <br/> |Exchange Unified Messaging  <br/> |Any  <br/> |UDP and TCP  <br/> |Any  <br/> |Any  <br/> |Do not authenticate  <br/> |
-|Clients  <br/> |Any  <br/> |Any  <br/> |UDP  <br/> |Specified media port range  <br/> |Any  <br/> |Do not authenticate  <br/> |
-   
-
+|Rule name|Source IP|Destination IP|Protocol|Source port|Destination port|Authentication Requirement|
+|:--- |:--- |:--- |:--- |:--- |:--- |:--- |
+|A/V Edge Server Internal Inbound  |Any  |A/V Edge Server Internal  |UDP and TCP  |Any  |Any  |Do not authenticate  |
+|A/V Edge Server External Inbound  |Any  |A/V Edge Server External  |UDP and TCP  |Any  |Any  |Do not authenticate  |
+|A/V Edge Server Internal Outbound  |A/V Edge Server Internal  |Any  |UDP &amp; TCP  |Any  |Any  |Do not authenticate  |
+|A/V Edge Server External Outbound  |A/V Edge Server External  |Any  |UDP and TCP  |Any  |Any  |Do not authenticate  |
+|Mediation Server Inbound  |Any  |Mediation  <br/> Server(s)  |UDP and TCP  |Any  |Any  |Do not authenticate  |
+|Mediation Server Outbound  |Mediation  <br/> Server(s)  |Any  |UDP and TCP  |Any  |Any  |Do not authenticate  |
+|Conferencing Attendant Inbound  |Any  |Front End Server running Conferencing Attendant  |UDP and TCP  |Any  |Any  |Do not authenticate  |
+|Conferencing Attendant Outbound  |Front End Server running Conferencing Attendant  |Any  |UDP and TCP  |Any  |Any  |Do not authenticate  |
+|A/V Conferencing Inbound  |Any  |Front End Servers  |UDP and TCP  |Any  |Any  |Do not authenticate  |
+|A/V Conferencing Outbound  |Front End Servers  |Any  |UDP and TCP  |Any  |Any  |Do not authenticate  |
+|Exchange Inbound  |Any  |Exchange Unified Messaging  |UDP and TCP  |Any  |Any  |Do not authenticate  |
+|Application Sharing Servers Inbound  |Any  |Application Sharing Servers  |TCP  |Any  |Any  |Do not authenticate  |
+|Application Sharing Server Outbound  |Application Sharing Servers  |Any  |TCP  |Any  |Any  |Do not authenticate  |
+|Exchange Outbound  |Exchange Unified Messaging  |Any  |UDP and TCP  |Any  |Any  |Do not authenticate  |
+|Clients  |Any  |Any  |UDP  |Specified media port range  |Any  |Do not authenticate  |

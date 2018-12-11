@@ -195,17 +195,17 @@ Configuring Skype Connectivity can also be done using only PowerShell. To config
 
     What do the less obvious parameters do?
     
-  - ProxyFqdn: location of Skype federation edge (owned/maintained by Microsoft)
+   - ProxyFqdn: location of Skype federation edge (owned/maintained by Microsoft)
     
-  - IconURL: icon used by Lync &amp; Skype for Business client to visually identify Skype contacts
+   - IconURL: icon used by Lync &amp; Skype for Business client to visually identify Skype contacts
     
-  - NameDecorationRoutingDomain and NameDecorationExcludedDomainList: setting these allows users to enter Skype users' MSAs without needing to know about "decorating" non-Microsoft domains with "msn.com". This eliminates the need to type "user(contoso.com)@msn.com" for all domains that are NOT in the ExcludedDomainList. The SfB client will automatically format the MSA if the domain is NOT in the Excluded list. We've added the most common Microsoft Account domains to the excluded list.
+   - NameDecorationRoutingDomain and NameDecorationExcludedDomainList: setting these allows users to enter Skype users' MSAs without needing to know about "decorating" non-Microsoft domains with "msn.com". This eliminates the need to type "user(contoso.com)@msn.com" for all domains that are NOT in the ExcludedDomainList. The SfB client will automatically format the MSA if the domain is NOT in the Excluded list. We've added the most common Microsoft Account domains to the excluded list.
     
-    > [!NOTE]
-    > Public Provider must be removed and added new if changes are made. No in-place changes are allowed. 
+     > [!NOTE]
+     > Public Provider must be removed and added new if changes are made. No in-place changes are allowed. 
   
-    > [!NOTE]
-    > Added in Lync Server 2013 CU5 &amp; Lync desktop client in Office 2013 SP1, the NameDecorationRoutingDomain and NameDecorationExcludedDomainList improve the situation where Lync users adding Skype contacts needed to "decorate" non-Microsoft domains to identify and route them to Skype (the format of: user(contoso.com)@msn.com). These new settings will allow automatic formatting of the address user's enter in the "Add Skype contact" dialog box with the NameDecorationRoutingDomain (which should be set to msn.com) if it does not contain the domains in the NameDecorationExcludedDomainList (we currently can support msn.com, live.com, Hotmail.com, outlook.com). 
+     > [!NOTE]
+     > Added in Lync Server 2013 CU5 &amp; Lync desktop client in Office 2013 SP1, the NameDecorationRoutingDomain and NameDecorationExcludedDomainList improve the situation where Lync users adding Skype contacts needed to "decorate" non-Microsoft domains to identify and route them to Skype (the format of: user(contoso.com)@msn.com). These new settings will allow automatic formatting of the address user's enter in the "Add Skype contact" dialog box with the NameDecorationRoutingDomain (which should be set to msn.com) if it does not contain the domains in the NameDecorationExcludedDomainList (we currently can support msn.com, live.com, Hotmail.com, outlook.com). 
   
 3. From a Skype for Business client users can now search for and add a Skype user.
     

@@ -1,5 +1,5 @@
 ---
-title: "Add or remove an emergency address for your organization"
+title: "Add, change, or remove an emergency address for your organization"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f954c67c-b73c-4473-b6cd-a0fbcd0fd4c9
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,26 +16,26 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: "Learn how to add an emergency address to your Skype for Business account. "
 ---
 
-# Add or remove an emergency address for your organization
+# Add, change, or remove an emergency address for your organization
 
-An emergency address must be associated with a phone number - but when this happens can vary between country/regions. For example, in the United States, you need to associate an emergency address when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency address to the phone number when you are getting the phone numbers from Office 365 or transferring phone numbers from your current service provider.
+An emergency address must be associated with a phone number, but when this happens can vary between country/regions. For example, in the United States, you need to associate an emergency address when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency address to the phone number when you are getting the phone numbers from Office 365 or transferring phone numbers from your current service provider.
   
-No matter which country/region you are in, it's possible to add a location or locations to an emergency address or remove an emergency address. Depending on the number of physical locations in your organization, you can create them for buildings, floors, and offices. See [What are emergency locations, addresses, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md) for some details.
+No matter which country/region you are in, it's possible to add a location or locations to an emergency address or remove an emergency address. Depending on the number of physical locations in your organization, you can create them for buildings, floors, and offices. See [What are emergency locations, addresses, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for some details.
   
 To learn how to get a Calling Plan and how much it costs, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-## To add an emergency address
+## Add an emergency address
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft Teams & Skype for Business Admin Center** > **Legacy portal**.
     
 3. In the left navigation, go to **Voice** > **Emergency locations**, and then click the **Add new address** button.
     
@@ -52,25 +53,40 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
     
 6. After the address is validated, click **Save**.
     
-## To remove an emergency address
+## Change an emergency address
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Microsoft Teams & Skype for Business Admin Center** > **Legacy portal**.
     
-3. In the left navigation, go to **Voice** > **Emergency location**, select the address you want to delete, and in the Action pane click **Delete**.
+3. In the left navigation, go to **Voice** > **Emergency locations**, select the address you want to change, and in the Action pane click **Edit**.
+    
+    > [!IMPORTANT]
+    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+
+4. Make your changes, and then click **Validate**.
+
+5. Click **Save**.
+
+## Remove an emergency address
+
+1. Sign in to Office 365 with your work or school account.
+    
+2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
+    
+3. In the left navigation, go to **Voice** > **Emergency locations**, select the address you want to delete, and in the Action pane click **Delete**.
     
     > [!IMPORTANT]
     > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
     
 ## Related topics
-[What are emergency locations, addresses, and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
+[What are emergency locations, addresses, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
-[Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

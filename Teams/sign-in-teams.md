@@ -1,24 +1,25 @@
 ---
-title: Sign in to Microsoft Teams
+title: Sign in to Microsoft Teams using modern authentication
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/23/2018
+ms.date: 11/15/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: 
-description: Guidance for signing in to Microsoft Teams by using modern authentication.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+description: How to sign in to Microsoft Teams by using modern authentication.
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---
 
-Sign in to Microsoft Teams
+Sign in to Microsoft Teams using modern authentication
 ==========================
 
-Microsoft Teams uses modern authentication to keep the sign-in experience simple and secure.
+Microsoft Teams uses modern authentication to keep the sign-in experience simple and secure. To see how users sign in to Teams, read [Sign in to Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
 ## How modern authentication works
 
@@ -48,5 +49,5 @@ To sign out of Teams, users can click their profile picture at the top of the ap
 
 Modern authentication is available for every organization that uses Teams, so if users are not able to complete the process, there might be something wrong with your domain or your organization's Office 365 Enterprise account. 
 
-For more information, see [Why am I having trouble signing in to Microsoft Teams?](https://support.office.com/en-US/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f).
+For more information, see [Why am I having trouble signing in to Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f).
 

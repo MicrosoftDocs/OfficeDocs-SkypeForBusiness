@@ -21,7 +21,7 @@ You can create conferencing policies by using Skype for Business Server Control 
 
 1. From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.
     
-2.  Open Skype for Business Server Control Panel.
+2. Open Skype for Business Server Control Panel.
     
 3. In the left navigation bar, click **Conferencing**, and then click **Conferencing Policy**.
     
@@ -31,8 +31,8 @@ You can create conferencing policies by using Skype for Business Server Control 
     
    - To create a site-level policy, click **Site policy**. In the **Select a Site** search field, type all or part of the name of the site for which you want to create a policy. In the list of sites, click the site that you want, and then click **OK**.
     
-    > [!NOTE]
-    > The site name becomes the conferencing policy name; it cannot be changed. 
+     > [!NOTE]
+     > The site name becomes the conferencing policy name; it cannot be changed. 
   
 5. In **Description**, type a description for the policy.
     

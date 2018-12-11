@@ -8,9 +8,10 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Scope your upgrade project by refining your vision and goals.  
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ---
@@ -62,13 +63,13 @@ Your vision might only be realized over time, through various phases. The projec
 
 Your goals define the outcome you want and enable you to measure the success of the project. Goals can be defined as _objectives and key results_ (OKRs), and the measures of project success can be defined as _key success indicators_ (KSIs). It’s essential that you get full participation from project stakeholders in defining OKRs and KSIs, to help ensure they feel a sense of ownership and align these measures of success to defined project tasks. Goals should include a mix of technical and user-focused success. 
 
--   **OKRs** contain the objectives you set at the beginning of the project and the key results you measure on a defined cadence (for example, monthly or quarterly). By reviewing your key results, you can ensure your project deliverables are on schedule, or identify and mitigate issues to get your project back on track. OKRs are typically categorized as “achieved” or “not achieved.”
--    **KSIs** measure quality and success of the key results and complement the binary nature of OKRs by detailing good and/or bad results. When defining KSIs, we recommend that you use “specific, measurable, assignable, realistic, time-related” (SMART) criteria:
-    -   Specific: target a specific area for improvement
-    -   Measurable: quantify, or at least suggest an indicator of, progress
-    -   Assignable: specify who will do it
-    -   Realistic: state what results can realistically be achieved, given available resources
-    -   Time-related: specify when the results can be achieved
+- **OKRs** contain the objectives you set at the beginning of the project and the key results you measure on a defined cadence (for example, monthly or quarterly). By reviewing your key results, you can ensure your project deliverables are on schedule, or identify and mitigate issues to get your project back on track. OKRs are typically categorized as “achieved” or “not achieved.”
+- **KSIs** measure quality and success of the key results and complement the binary nature of OKRs by detailing good and/or bad results. When defining KSIs, we recommend that you use “specific, measurable, assignable, realistic, time-related” (SMART) criteria:
+  -   Specific: target a specific area for improvement
+  -   Measurable: quantify, or at least suggest an indicator of, progress
+  -   Assignable: specify who will do it
+  -   Realistic: state what results can realistically be achieved, given available resources
+  -   Time-related: specify when the results can be achieved
 
 The following table shows examples of OKRs and KSIs for the initial phases of a Skype for Business to Teams upgrade project.
 

@@ -3,7 +3,7 @@ title: "Solutions qualified with Lync Online Dedicated"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -11,7 +11,7 @@ ms.collection: Lync
 ms.audience: Admin
 appliesto:
 - Lync
-- Skype for Business 
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -24,10 +24,10 @@ Compatible Devices Program."
 
 
 # Partner qualification processes
- 
+
 ## Infrastructure
-With the launch of Skype for Business, we will no longer qualify solutions for Lync Server. Instead, see the  [infrastructure certified for Skype for Business](../certification/infra.md). 
- 
+With the launch of Skype for Business, we will no longer qualify solutions for Lync Server. Instead, see the  [infrastructure certified for Skype for Business](../certification/infra.md).
+
 ## Lync Services
 E911 service provider and other services vendors interested in qualifying their offering for Lync Server or Exchange Server must meet both technical and marketing requirements. Participation in the program is solely at Microsoft’s discretion. Upon successful completion, the product, service, and firmware combinations tested will be listed on this site.
 
@@ -36,13 +36,13 @@ With the launch of Lync Server, there will no longer be qualifying solutions wit
 ### Technical requirements for qualification
 - Be an IP-PBX, SIP-PSTN gateway, SIP trunking, E911 service provider and survivable branch appliance vendor.  This program is not open to system integrators utilizing 3rd party hardware.
 - For Direct SIP, comply to the Lync Server 2010 SIP-PSTN gateway or IP-PBX specification.
-- For SIP trunking services, comply to the Lync Server 2010 SIP trunking specification.  
+- For SIP trunking services, comply to the Lync Server 2010 SIP trunking specification.
 - For service providers using an Acme Packet SBC, please refer to the document "Microsoft Communications Server "14" SIP Trunking with the Acme Packet Net-Net Session Director", available for [download](https://www.microsoft.com/downloads/details.aspx?FamilyID=3ec8a7cb-488c-4ea3-bba1-c00d59295f9c).
 
 ### Program requirements for qualification
 - Company must have a standard NDA signed with Microsoft.
 - Join Microsoft Connect to obtain specifications and test plans (see below).
-- Join [Microsoft Partner Program](http://partners.microsoft.com/).
+- Join [Microsoft Partner Program](https://partners.microsoft.com/).
 - Become member of [TSANet](http://www.tsanet.org/).
 - Successfully meet technical Qualification Program requirements at [TekVizion](http://microsoftuc.tekvizionlabs.com/) or WIPRO labs for the respective qualification level.
 - Provide Quick Start Guide for configuration steps for Lync Server or Exchange Server.
@@ -54,7 +54,7 @@ If you have any questions on the program please contact the MSUCOIP Administrato
 
 ### Approximate timeline for qualification
 The timeline that follows shows the approximate timeline for the qualification process. The timeline diagram also indicates tasks that can be performed concurrently as well as suggested order of precedence. The times are not guaranteed since scheduling could preempt the flow.
- 
+
 
 ***Partner qualification timeline for Microsoft Partner Program***
 
@@ -69,7 +69,7 @@ To begin the process, vendors should:
 > - Fill out the survey and click Submit. To be approved, you must provide your corporate email address from an enterprise telephony infrastructure vendor.
 
 Upon approval into the program (please allow 4-5 business days), Microsoft will provide access to the technical specifications, documentation on the program requirements and information on how to engage with tekVizion.
- 
+
 ## Lync Video Interoperability Program
 
 The Microsoft Lync Video Interoperability Program tests and qualifies partners’ video solutions to provide interoperability with Microsoft Office Communications Server 2007 R2 and Microsoft Lync Server 2010 and to provide a premium experience for customers. Microsoft Lync provides interoperability with three different types of video solutions:
@@ -78,7 +78,7 @@ The Microsoft Lync Video Interoperability Program tests and qualifies partners�
 - **Gateway (GW)**&nbsp;&nbsp;&nbsp;A gateway allows connection with different network and provides Microsoft Lync access to different protocols to make video calls. Microsoft Lync uses SIP for signaling and H.263 and RTVideo as the video codec. Gateways provide access to other protocols such as H.323, H.261 and H.264. ‘Optimized for’ – IP phones, headsets, conference room systems and other devices that offer a rich and integrated experience giving customers the power to get the most out of their Lync experience and return on investment.
 
 ### ‘Optimized for'
-The *Optimized for Lync Logo* is designed to help partners bring premium communication experiences to the market. 
+The *Optimized for Lync Logo* is designed to help partners bring premium communication experiences to the market.
 
 Lync users can trust the logo as an assurance that the devices have been tested to provide the quality, compatibility, and reliability that ensures the best Lync experience.
 
@@ -111,7 +111,7 @@ The specific details of qualification will be provided from Microsoft to the par
 ### Approximate timeline for qualification
 
 The diagram that follows displays the approximated timeline for the qualification process. The timeline shows tasks that can be performed concurrently as well as suggested order of precedence. The times are not guaranteed since scheduling could preempt the flow.
- 
+
 
 ***Technical qualifications timeline***
 
@@ -119,7 +119,7 @@ The diagram that follows displays the approximated timeline for the qualificatio
 
 ### How to engage
 Currently video qualification tests are performed by Microsoft Lync logo team. To introduce yourself and obtain more specifics, email LyncLogo.
- 
+
 ## Compatible Devices Program
 The Compatible Devices Program currently qualifies devices for Lync 2013 client on Windows-based machines. For non-windows clients Microsoft recommends that you evaluate the USB consumer product lines offered by the device manufacturers that are part of the Compatible Devices Program. IP phones can also be used in non-windows based environments, excluding the PC pairing functionalities.
 **‘Optimized for’**&nbsp;&nbsp;&nbsp;IP phones, headsets, conference room systems and other devices that offer a rich and integrated experience giving customers the power to get the most out of their Lync experience and return on investment.
@@ -167,4 +167,4 @@ Partners meeting these criteria can email lynclogo@microsoft.com for more inform
 ### Video Interoperability
 The Unified Communication Specification for H.264 AVC and SVC Encoder Implementation is published by Microsoft as a result of Microsoft’s participation in the Unified Communications Interoperability Forum (UCIF) H.264/MPEG4 AVC/SVC Task Group. It defines and constrains the H.264 AVC/SVC levels, configurations, and tools used for video communication scenarios. This specification can be used for designing an end-to-end video communication system, or for designing an H.264 AVC/SVC encoder (such as a Webcam) for real-time communication purposes.
 
-Download the [Unified Communication Specification for H.264 AVC and SVC Encoder Implementation](http://download.microsoft.com/download/A/F/B/AFBF8CBE-3A45-472A-93F3-AD8521FBD502/UC_Specification_for_H264_AVC_and_SVC_encoder.pdf).
+Download the [Unified Communication Specification for H.264 AVC and SVC Encoder Implementation](https://download.microsoft.com/download/A/F/B/AFBF8CBE-3A45-472A-93F3-AD8521FBD502/UC_Specification_for_H264_AVC_and_SVC_encoder.pdf).

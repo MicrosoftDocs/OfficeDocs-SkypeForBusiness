@@ -7,7 +7,7 @@ ms.date: 9/25/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -36,15 +36,15 @@ To enable a user for Phone System in Office 365 Voice and voicemail, you'll need
     
 3. Type the following and press Enter:
     
-  ```
-  Import-Module skypeonlineconnector
-  ```
+   ```
+   Import-Module skypeonlineconnector
+   ```
 
 4. Type the following and press Enter:
     
-  ```
-  $cred = Get-Credential
-  ```
+   ```
+   $cred = Get-Credential
+   ```
 
     After you press Enter, you should see the Windows PowerShell Credential dialog box.
     
@@ -52,29 +52,29 @@ To enable a user for Phone System in Office 365 Voice and voicemail, you'll need
     
 6. In the PowerShell window, type the following and press Enter:
     
-  ```
-  $Session = New-CsOnlineSession -Credential $cred -Verbose
-  ```
+   ```
+   $Session = New-CsOnlineSession -Credential $cred -Verbose
+   ```
 
 7. Import the session by typing the following cmdlet:
     
-  ```
-  Import-PSSession $Session -AllowClobber
-  ```
+   ```
+   Import-PSSession $Session -AllowClobber
+   ```
 
     When running PowerShell on a Skype for Business Server, the local Skype for Business cmdlets are already loaded when you open PowerShell. You must specify the -AllowClobber parameter to allow the online cmdlets to overwrite the on-premises cmdlets with the same name.
     
 8. Use the Set-CsUser cmdlet to assign the $EnterpriseVoiceEnabled and $HostedVoiceMail properties to your user as follows:
     
-  ```
-  Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-  ```
+   ```
+   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+   ```
 
     For example:
     
-  ```
-  Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-  ```
+   ```
+   Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+   ```
 
     > [!NOTE]
     > You can also specify a user by their SIP address, User Principal name (UPN), domain name and username (domain\username), and display name in Active Directory ("Bob Kelly"). 

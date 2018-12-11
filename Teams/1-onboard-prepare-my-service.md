@@ -3,13 +3,14 @@ title: Prepare to deploy Microsoft Teams cloud voice service
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Use onboarding checklists to prepare Office 365 for Teams and configure Teams core capabilities, networking, and cloud voice workloads.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ---
@@ -60,12 +61,12 @@ supplementary guide to these checklists.
 
 >[!NOTE]
 >Most of the configuration settings are common between Teams and Skype for
-Business Online. You use Office 365 Skype for Business Administration Center to
+Business Online. You use the Office 365 Admin Center and Teams & Skype for Business Admin Center to
 configure those settings.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Who will be responsible for overseeing the completion of the onboarding checklists?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Download the onboarding checklists.</li><li>Work through the onboarding checklist items step-by-step in accordance with your organization’s deployment plan.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Who will be responsible for overseeing the completion of the onboarding checklists?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Download the onboarding checklists.</li><li>Work through the onboarding checklist items step-by-step in accordance with your organization’s deployment plan.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -225,8 +226,8 @@ sites in scope:**
 -   Direct Routing compliance requirements have been identified and configured.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which Audio Conferencing feature capabilities will be deployed (service decision).</li><li>Identify user functionality requirements for Audio Conferencing.</li><li>Identify service configuration requirements for Audio Conferencing.</li><br><li>Decide whether Direct Routing or Calling Plans will be deployed and configured.<li>Decide which Phone System feature capabilities will be deployed (service decision).</li><li>Identify user functionality requirements for Calling Plans or Direct Routing.</li><li>Identify service configuration requirement for Calling Plans or Direct Routing.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Develop and document your test plan approach.</li><li>Prepare your service environment and users in scope for Audio Conferencing features.</li><li>Prepare your service environment and users in scope for Calling Plans or Direct Routing features.</li><li>Execute test validation for the Audio Conferencing features that you want to enable.</li><li>Execute test validation for the Calling Plans or Direct Routing features that you want to enable.</li><li>For any test failures, confirm that your configuration is correct, review community articles, and—if required—raise a support case.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide which Audio Conferencing feature capabilities will be deployed (service decision).</li><li>Identify user functionality requirements for Audio Conferencing.</li><li>Identify service configuration requirements for Audio Conferencing.</li><br><li>Decide whether Direct Routing or Calling Plans will be deployed and configured.<li>Decide which Phone System feature capabilities will be deployed (service decision).</li><li>Identify user functionality requirements for Calling Plans or Direct Routing.</li><li>Identify service configuration requirement for Calling Plans or Direct Routing.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Develop and document your test plan approach.</li><li>Prepare your service environment and users in scope for Audio Conferencing features.</li><li>Prepare your service environment and users in scope for Calling Plans or Direct Routing features.</li><li>Execute test validation for the Audio Conferencing features that you want to enable.</li><li>Execute test validation for the Calling Plans or Direct Routing features that you want to enable.</li><li>For any test failures, confirm that your configuration is correct, review community articles, and—if required—raise a support case.</li></ul></td></tr>
 </table>
 
 

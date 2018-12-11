@@ -3,7 +3,7 @@ title: "Validated Lync Applications"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 Robots: 
@@ -13,8 +13,7 @@ ms.service: skype-for-business
 ms.collection: Lync
 ms.audience: Admin
 appliesto:
-- Lync
-- Skype for Business 
+- Lync 2013
 localization_priority: Normal
 f1keywords: None
 ms.custom:

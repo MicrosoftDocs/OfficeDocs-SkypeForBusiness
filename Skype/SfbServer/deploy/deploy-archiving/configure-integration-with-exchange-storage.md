@@ -27,9 +27,9 @@ If you use Microsoft Exchange integration for all users in your deployment, you 
     
 4. Click the name of the appropriate global, site, or pool configuration in the list of archiving configurations, click **Edit**, click **Show details**, and then do the following:
     
-  - To enable integration with Exchange storage, select the **Microsoft Exchange integration** check box.
+   - To enable integration with Exchange storage, select the **Microsoft Exchange integration** check box.
     
-  - To disable integration with Exchange storage, clear the **Microsoft Exchange integration** check box.
+   - To disable integration with Exchange storage, clear the **Microsoft Exchange integration** check box.
     
 5. Click **Commit**.
     

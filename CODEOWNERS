@@ -1,4 +1,3 @@
-# This is a comment.
 # Each line is a file pattern followed by one or more owners.
 
 # These owners will be the default owners for everything in
@@ -7,12 +6,16 @@
 # review when someone opens a pull request.
 *       @dstrome
 
-# Order is important. The last matching pattern has the most precedence.
+# Order is important! The last matching pattern has the most precedence.
 # So if a pull request only touches javascript files, only these owners
 # will be requested to review.
 # *.js    @octocat @github/js
 
 # You can also use email addresses if you prefer.
-/Skype/SfbServer/ @CarolynRowe @jambirk @kenwith @MicrosoftHeidi @CrystalThomasMS
-/Skype/SfbOnline/ @tonysmit @lolajacobsen
-/Teams/ @lolajacobsen @tonysmit @chuckedmonson
+/Skype/SfbServer/ @CarolynRowe @jambirk @MicrosoftHeidi @CrystalThomasMS @AndreaBarr
+/Skype/SfBServer2019/ @CarolynRowe @jambirk @MicrosoftHeidi @CrystalThomasMS @AndreaBarr
+/Skype/SfbOnline/ @tonysmit @lolajacobsen @AndreaBarr
+/Skype/SfbPartnerCertification/ @jambirk @AndreaBarr
+/Skype/Hub/ @samanro @AndreaBarr
+/Teams/ @lolajacobsen @tonysmit @chuckedmonson @AndreaBarr
+/Lync/ @CarolynRowe @jambirk @MicrosoftHeidi @AndreaBarr

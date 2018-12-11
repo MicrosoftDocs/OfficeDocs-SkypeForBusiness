@@ -7,10 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_Help
 description: Learn about the different identity models in Microsoft Teams such as Cloud, Synchronized, and Federated. Also learn about multi-factor authentication.
-appliesto: 
+appliesto:
 - Microsoft Teams
 ---
 
@@ -40,12 +41,12 @@ Depending on your organization’s decisions of which identity model to implemen
 
 Refer to [Choosing a sign-in model for Office 365](https://go.microsoft.com/fwlink/?linkid=854626) and [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) guides for additional details.
 
-Multi-Factor Authentication 
+Multi-Factor Authentication
 ----------------------------
 
 Office 365 plans support Multi-Factor Authentication (MFA) that increases the security of user logins to Office 365 services. With MFA for Office 365, users are required to acknowledge a phone call, text message, or an app notification on their smartphone after correctly entering their password. Only after this second authentication factor has been satisfied, can a user sign in.
 
-Multi Factor authentication is supported with any Office 365 plan that that includes Microsoft Teams. The Office 365 subscription plans that include Microsoft Teams are discussed later in the Licensing section below.
+Multi Factor authentication is supported with any Office 365 plan that includes Microsoft Teams. The Office 365 subscription plans that include Microsoft Teams are discussed later in the Licensing section below.
 
 Once the users are enrolled for MFA, the next time a user signs in, they see a message that asks them to set up their second authentication factor. Supported authentication methods are:
 
@@ -53,4 +54,4 @@ Once the users are enrolled for MFA, the next time a user signs in, they see a m
 |Tenant Type  |Available MFA Second Factor options  |Notes  |
 |---------|---------|---------|
 |**Cloud Only**     |MFA for Office 365 <ul><li>Phone Call</li><li>Text Message</li><li>Mobile App Notification</li><li>Mobile App Verification Code</li></ul>        |[Plan for multi-factor authentication for Office 365 Deployments](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**Hybrid setup (Synchronized or Federated Identity model)**     |<ul><li>MFA for Office 365</li><li>Azure MFA module (ADFS integrated)</li><li>Physical or virtual smart card (ADFS integrated)</li></ul>         |Note: Additional MFA solutions are available with [Identity providers that are compatible with Azure AD federation](http://go.microsoft.com/fwlink/p/?LinkId=510953)         |
+|**Hybrid setup (Synchronized or Federated Identity model)**     |<ul><li>MFA for Office 365</li><li>Azure MFA module (ADFS integrated)</li><li>Physical or virtual smart card (ADFS integrated)</li></ul>         |Note: Additional MFA solutions are available with [Identity providers that are compatible with Azure AD federation](https://go.microsoft.com/fwlink/p/?LinkId=510953)         |

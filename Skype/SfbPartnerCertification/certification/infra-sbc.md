@@ -3,7 +3,7 @@ title: "Skype for Business Certification Program - Session Border Controllers"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -123,7 +123,7 @@ Listed here are the session border controllers that are certified for Skype for 
 			<td>ECZ7.5.0 Patch 2 (Build 143)</td>
 		</tr>
 		<tr align="left" valign="top">
-			<td rowspan="11"><a href="https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business">Ribbon</a></td>
+			<td rowspan="11"><a href="https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business">Ribbon Communications</a></td>
 			<td rowspan="2">SBC SWe</td>
 			<td> </td>
 			<td>4.2.4</td>

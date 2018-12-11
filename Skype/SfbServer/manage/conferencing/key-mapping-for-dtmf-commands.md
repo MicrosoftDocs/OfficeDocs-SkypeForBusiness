@@ -29,19 +29,19 @@ When you create new DTMF settings for sites, the site settings take precedence o
     
 3. To view the DTMF settings used for dial-in conferencing, run the following command at the command prompt :
     
-  ```
-  Get-CsDialinConferencingDtmfConfiguration
-  ```
+   ```
+   Get-CsDialinConferencingDtmfConfiguration
+   ```
 
 4. To modify the DTMF settings used for dial-in conferencing, run the following cmdlet and specify the key to be pressed for each option that you want to change:
     
-  ```
-  Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
-[-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
-[-CommandCharacter <* (default) | #>] [-EnableDisableAnnouncementsCommand <default key is 9>]
-[-HelpCommand <default key is 1>] [-LockUnlockConferenceCommand <default key is 7>]
-[-MuteUnmuteCommand <default key is 6>] [-PrivateRollCallCommand <default key is 3>]
-  ```
+   ```
+   Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
+   [-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
+   [-CommandCharacter <* (default) | #>] [-EnableDisableAnnouncementsCommand <default key is 9>]
+   [-HelpCommand <default key is 1>] [-LockUnlockConferenceCommand <default key is 7>]
+   [-MuteUnmuteCommand <default key is 6>] [-PrivateRollCallCommand <default key is 3>]
+   ```
 
 5. (Optional) To create additional sets of DTMF commands for specific sites, use the **New-CsDialinConferencingDtmfConfiguration** cmdlet with a site identity.
     

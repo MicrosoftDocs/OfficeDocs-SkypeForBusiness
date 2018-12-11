@@ -5,8 +5,13 @@ author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
 ms.topic: article
-ms.service: msteams
-ms.collection: Adm_Skype4B_Online
+ms.service: 
+- msteams
+- skype-for-business-online
+ms.collection: 
+- Adm_Skype4B_Online 
+- Teams_ITAdmin_Help
+search.appverid: MET150
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -32,11 +37,11 @@ Version du produit : 1.1.84.22103
 
 Site web : [Microsoft Teams](https://teams.microsoft.com/)
 
-Contact pour plus d'informations : [Microsoft Teams Support](https://support.office.com/en-us/teams)
+Contact pour plus d'informations : [Microsoft Teams Support](https://support.office.com/teams)
 
 Site web en matière d'accessibilité : [Microsoft Accessibility](https://www.microsoft.com/accessibility/)
 
-Service de réponse aux questions d’utilisateurs en situation de handicap : [eDAD](https://support.microsoft.com/en-us/answerdesk/accessibility)
+Service de réponse aux questions d’utilisateurs en situation de handicap : [eDAD](https://support.microsoft.com/answerdesk/accessibility)
 
 Pour obtenir de l'aide sur ce rapport, veuillez [nous envoyer un email](mailto:edad@microsoft.com?subject=Conformance%20Statement).
 
@@ -199,4 +204,4 @@ Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE 
 
 ## Related topics
 
-[Accessibility solutions for Skype for Business Online in France](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)
+[Accessibility solutions for Skype for Business Online in France](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)

@@ -1,45 +1,50 @@
 ---
-title: Assign roles and permissions in Microsoft Teams
+title: Assign team owners and members in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 08/27/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
+search.appverid: MET150
 description: Learn to assign team owner and member roles and permissions in Microsoft Teams including permissions to create teams.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---
 
-Assign roles and permissions in Microsoft Teams
-===============================================
+Assign team owners and members in Microsoft Teams
+=================================================
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Within Microsoft Teams there are two roles: **Owner** and **Member**. By default, a user that creates a new team is granted the Owner status. If a team is created from an existing Office 365 Group, permissions are inherited.
+Within Microsoft Teams there are two user roles: **Owner** and **Member**. By default, a user who creates a new team is granted the Owner status. If a team is created from an existing Office 365 Group, permissions are inherited.
 
-The table below shows the difference in permissions between an owner and a member:
+The table below shows the difference in permissions between an owner and a member.
 
-|  |Team Owner  |Team Member  |
-|---------|---------|---------|
-|**Create team**     |Yes        |No         |
-|**Leave team**     |Yes         |Yes         |
-|**Edit team name/description**      |Yes         |No         |
-|**Delete team**      |Yes         |No         |
-|**Add channel**      |Yes         |Yes*         |
-|**Edit channel name/description**      |Yes         |Yes*         |
-|**Delete channel**      |Yes         |Yes*         |
-|**Add members**      |Yes**         |No         |
-|**Add tabs**      |Yes         |Yes*         |
-|**Add connectors**      |Yes         |Yes*         |
-|**Add bots**      |Yes         |Yes*         |
-\* These items can be turned off by an owner at a team level, in which case members would not have access to that.
 
-\*\*After adding a member to a team, an Owner can also promote a Member to Owner status. It is also possible for an Owner to demote their own status to a Member.
+|                                   | Team Owner | Team Member |
+|-----------------------------------|------------|-------------|
+|          **Create team**          |    Yes<sup>1</sup>     |     No      |
+|          **Leave team**           |    Yes     |     Yes     |
+|  **Edit team name/description**   |    Yes     |     No      |
+|          **Delete team**          |    Yes     |     No      |
+|          **Add channel**          |    Yes     |    Yes<sup>2</sup>|
+| **Edit channel name/description** |    Yes     |    Yes<sup>2</sup>|
+|        **Delete channel**         |    Yes     |    Yes<sup>2</sup>|
+|          **Add members**          |  Yes<sup>3</sup>   |     No      |
+|           **Add tabs**            |    Yes     |    Yes<sup>2</sup>|
+|        **Add connectors**         |    Yes     |    Yes<sup>2</sup>|
+|           **Add bots**            |    Yes     |    Yes<sup>2</sup>|
+
+<sup>1</sup> Team owners can create teams unless they've been restricted from doing so. See "Permissions to create teams" below.
+>
+<sup>2</sup> These items can be turned off by an owner at a team level, in which case members would not have access to them.
+
+<sup>3</sup> After adding a member to a team, an owner can also promote a member to owner status. It is also possible for an owner to demote their own status to a member.
 
 
 
@@ -50,7 +55,7 @@ The table below shows the difference in permissions between an owner and a membe
 Permissions to create teams
 ---------------------------
 
-By default, all users with a mailbox in Exchange Online have permissions to create Office 365 groups and therefore a team within Microsoft Teams. You can have tighter control and restrict the creation of new teams and thus the creation of new Office 365 groups by delegating group creation and management rights to a set of users. For instructions, see [Manage who can create Office 365 Groups](https://support.office.com/en-us/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+By default, all users with a mailbox in Exchange Online have permissions to create Office 365 groups and therefore a team within Microsoft Teams. You can have tighter control and restrict the creation of new teams and thus the creation of new Office 365 groups by delegating group creation and management rights to a set of users. For instructions, see [Manage who can create Office 365 Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 
 ||||

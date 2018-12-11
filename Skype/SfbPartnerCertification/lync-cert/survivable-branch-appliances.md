@@ -3,7 +3,7 @@ title: "Partner qualification for Lync"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -11,7 +11,7 @@ ms.collection: Lync
 ms.audience: Admin
 appliesto:
 - Lync
-- Skype for Business 
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -104,7 +104,7 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 		<td colspan="2" style="line-height:0;font-size:0;display:none;"> </td>
 	</tr>
 	<tr align="left" bgcolor="#F8F8F8" valign="top">
-		<td colspan="2">For more information on this configuration, please see <a href="http://www.microsoft.com/en-us/download/confirmation.aspx?id=28555">Deploying the Survivable Branch Appliance in Lync Server 2010 for Cisco Integrated Services Router / Service Ready Engine.</a></td>
+		<td colspan="2">For more information on this configuration, please see <a href="https://www.microsoft.com/en-us/download/confirmation.aspx?id=28555">Deploying the Survivable Branch Appliance in Lync Server 2010 for Cisco Integrated Services Router / Service Ready Engine.</a></td>
 	</tr>
 	<tr align="left" valign="top">
 		<td><a href="http://www.dialogic.com/Solutions/Unified-Communications/UC-Connectivity/Microsoft-Lync.aspx">Dialogic</a></td>
@@ -136,4 +136,4 @@ Survivable branch appliances (SBAs) listed in the table that follows, along with
 	</tr>
 </table>
 
-For more information on Survivable Branch Appliance configurations with Lync Server, please see <a href="http://technet.microsoft.com/library/gg398477.aspx">Planning for Branch-Site Voice Resiliency</a>.<!-- 2013 content yet to migrate  -->
+For more information on Survivable Branch Appliance configurations with Lync Server, please see <a href="https://technet.microsoft.com/library/gg398477.aspx">Planning for Branch-Site Voice Resiliency</a>.<!-- 2013 content yet to migrate  -->

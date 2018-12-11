@@ -16,7 +16,7 @@ description: "For details about branch-site resiliency, see Planning for Branch-
 ---
 
 # Branch Sites (Planning Tool)
- 
-For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](http://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
-  
+
+For details about branch-site resiliency, see [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
+
 

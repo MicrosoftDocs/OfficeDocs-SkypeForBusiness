@@ -3,7 +3,7 @@ title: "E-911 services for Skype for Business"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -44,5 +44,5 @@ Learn more about E911 services here: <a href="https://technet.microsoft.com/libr
 |      |         |
 
 <br>
-If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
+If you are a vendor seeking to join the certification program, see <a href="how-to-join.md" data-raw-source="[How to Join](how-to-join.md)">How to Join</a> for requirements and available programs.
 

@@ -1,23 +1,22 @@
 ---
-title: "Repository API for Call Quality Dashboard (CQD) in Skype for Business Server 2015"
+title: "Repository API for Call Quality Dashboard (CQD) in Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
-description: "Summary: Learn about the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015."
+description: "Summary: Learn about the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server."
 ---
 
-# Repository API for Call Quality Dashboard (CQD) in Skype for Business Server 2015
+# Repository API for Call Quality Dashboard (CQD) in Skype for Business Server
  
-**Summary:** Learn about the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
+**Summary:** Learn about the Repository API for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server.
   
-The Repository API provides programmatic access for Call Quality Dashboard for Skype for Business Server 2015.
+The Repository API provides programmatic access for Call Quality Dashboard for Skype for Business Server.
   
 ## Repository API for Call Quality Dashboard
 
@@ -41,7 +40,7 @@ Call Quality Dashboard uses Repository API to manage the following information:
     
 - **User Setting** - describes an optional application behavior for the user.
     
- **Cross-Origin Resource Sharing (CORS) Support for Repository API**
+  **Cross-Origin Resource Sharing (CORS) Support for Repository API**
   
 Repository API supports Cross-Origin Resource Sharing (CORS). CORS is an HTTP feature that enables a web application running under one domain to access resources in another domain. Web browsers implement a security restriction known as [Same-Origin Policy](https://www.w3.org/Security/wiki/Same_Origin_Policy) same-origin policy that prevents a web page from calling APIs in a different domain. CORS provides a secure way to allow one domain (the origin domain) to call APIs in another domain. See the [CORS specification](https://www.w3.org/TR/cors/) for details on CORS.
   

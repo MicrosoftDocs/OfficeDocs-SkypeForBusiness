@@ -45,7 +45,7 @@ The Mobility feature for Skype for Business Server is able to support mobile cli
 All this is accomplished through the Unified Communications Web API, or UCWA. UCWA was first introduced in Lync Server 2013, and it's still in use for Skype for Business Server. There's an additional functionality for communicating with Lync 2010 clients, and that's Mobility Service (MCX). These are complimentary services, allowing for Lync Server 2010 and 2013 clients, as well as Skype for Business clients, to access Skype for Business Server deployments successfully.
   
 > [!NOTE]
-> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client. 
+> MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019. All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts. Users with legacy clients using MCX will need to upgrade to a current client.
   
 It's important to note that while all these features are available once Mobility has been implemented, they may work a little differently on some devices. We've got a website that discusses what features work on what devices, at [Mobile client feature comparison for Skype for Business](clients-and-devices/mobile-feature-comparison.md). We also have some great device and OS information at [Plan for clients and devices](clients-and-devices/clients-and-devices.md).
   
@@ -91,7 +91,7 @@ There are four services that comprise Mobility for Skype for Business Server:
     Supports Skype for Business Server functionality, such as IM, presence, and contacts, on mobile devices. The Mobility service is installed on every Front End Server in each pool that's intended to support Skype for Business Server functionality on mobile devices. When you install Skype for Business Server 2015 a new virtual directory (Mcx) is created under both the internal and external websites on your Front End Servers.
     
     > [!NOTE]
-    > MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
+    > MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019. All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts. Users with legacy clients using MCX will need to upgrade to a current client.
   
 - **Autodiscover service**
     
@@ -228,7 +228,7 @@ Push notifications are used for mobile applications that support this functional
   
 ### Do you want all your users accessing all Mobility features, or do you want to specify the users who can access these features instead?
 
-We have a table to help with some of the features that are available to all users, and whether they're set that way or not by default. For a complete list, please review [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+We have a table to help with some of the features that are available to all users, and whether they're set that way or not by default. For a complete list, please review [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
   
 > [!NOTE]
 > The scopes for all these features are Global/Site/User. 

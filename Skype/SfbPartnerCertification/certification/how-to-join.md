@@ -3,7 +3,7 @@ title: "Skype for Business certification program - How to Join"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: v-thehay
+ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: skype
 ms.service: skype-for-business
@@ -11,7 +11,7 @@ ms.collection: Skype
 ms.audience: Admin
 appliesto:
 - Skype
-- Skype for Business 
+- Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -76,7 +76,7 @@ Programs that are not listed below are currently closed.
 		<tr align="left" valign="middle">
 			<td>PCs</td>
 			<td style="text-align:center" valign="top">Not seeking partners</td>
-			<td>[Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems](test-spec.md) </td>
+            <td><a href="test-spec.md" data-raw-source="[Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems](test-spec.md)">Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems</a> </td>
 			<td rowspan="3" style="text-align:center" valign="middle">
 				<p><a href="http://www.asttechlabs.com/">AST</a></p>
 				<p><a href="http://www.pal-acoustics.com/">PAL</a></p>
@@ -85,7 +85,7 @@ Programs that are not listed below are currently closed.
 		<tr align="left" valign="top">
 			<td>USB Audio and Video Devices</td>
 			<td style="text-align:center" valign="middle">Not seeking partners</td>
-			<td>[Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems](test-spec.md)</a></td>
+            <td><a href="test-spec.md" data-raw-source="[Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems](test-spec.md)">Skype and Lync test specifications for USB peripherals, PCs, and Lync room systems</a></a></td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>Meeting Room Devices and Solutions</td>
@@ -96,7 +96,7 @@ Programs that are not listed below are currently closed.
 			<td rowspan="5"><strong>Infrastructure</strong></td>
 			<td>SBC</td>
 			<td style="text-align:center" valign="middle">Not seeking partners</td>
-			<td><a href="http://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">SBC Specs (download)</a></td>
+			<td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">SBC Specs (download)</a></td>
 			<td rowspan="5" style="text-align:center" valign="top">
 				<p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
 				<p><a href="http://www.taas.wipro.com/user/certifications-and-qualifications-testing/unified-communications-open-interoperability-program-lync-server-rfp.aspx">Wipro</a></p>
@@ -105,28 +105,28 @@ Programs that are not listed below are currently closed.
 		<tr align="left" valign="top">
 			<td>Gateway</td>
 			<td style="text-align:center" valign="middle">Not seeking partners</td>
-			<td><a href="http://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">Gateway Specs (download)</a></td>
+			<td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">Gateway Specs (download)</a></td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>SBA</td>
 			<td style="text-align:center" valign="middle">Not seeking partners</td>
-			<td><a href="http://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">SBA Specs (download)</a></td>
+			<td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">SBA Specs (download)</a></td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>Reverse Proxy</td>
 			<td style="text-align:center" valign="middle">Not seeking partners</td>
-			<td><a href="http://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">Reverse Proxy Specs (download)</a></td>
+			<td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">Reverse Proxy Specs (download)</a></td>
 		</tr>
 		<tr align="left" valign="top">
 			<td>Load Balancer</td>
 			<td style="text-align:center" valign="middle">Not seeking partners</td>
-			<td><a href="http://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">Load Balancer Specs (download)</a></td>
+			<td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">Load Balancer Specs (download)</a></td>
 		</tr>
 		<tr align="left" valign="top">
 			<td><strong>Services</strong></td>
 			<td>SIP Trunks</td>
 			<td style="text-align:center">No admission review required:<br />Contact labs for testing</td>
-			<td><a href="http://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">SIP Trunk Specs (download)</a></td>
+			<td><a href="https://download.microsoft.com/download/8/7/5/8752C5DB-C318-4066-AE09-362D7D51D5FE/TDS_SfB_Server_2015_Infrastructure_Interoperability_Program_DOCUMENTS_ALL.zip">SIP Trunk Specs (download)</a></td>
 			<td style="text-align:center" valign="top">
 				<p><a href="http://www.tekvizion.com/premier-tenants/microsoft">Tekvizion</a></p>
 				<p><a href="http://www.taas.wipro.com/user/certifications-and-qualifications-testing/unified-communications-open-interoperability-program-lync-server-rfp.aspx">Wipro</a></p>
@@ -136,7 +136,7 @@ Programs that are not listed below are currently closed.
 			<td rowspan="2"><strong>IT Pro</strong></td>
 			<td>Network Pre-Assessment</td>
 			<td style="text-align:center" valign="middle">Not seeking partners</td>
-			<td rowspan="2">				 
+			<td rowspan="2">
 				<p style="text-align: center">Available on admission to program</p>
 			</td>
 			<td style="text-align:center">N/A</td>

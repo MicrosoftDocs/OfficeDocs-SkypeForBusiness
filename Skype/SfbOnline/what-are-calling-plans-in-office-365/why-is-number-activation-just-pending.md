@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: e51880ae-d09d-46ba-8eaf-7b8b330e37a6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -45,13 +46,13 @@ Address validation is an important part of setting up Calling Plans in Office 36
     
 5. On the **Identify the issue** page, select and enter in the following:
     
-  - **Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.
+   - **Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.
     
-  - **Symptom:** Enter **Emergency Calling**.
+   - **Symptom:** Enter **Emergency Calling**.
     
-  - **Issue summary:** Enter **Address validation**.
+   - **Issue summary:** Enter **Address validation**.
     
-  - **Issue details:** Enter any details about the address(s) you want to validate such as the:
+   - **Issue details:** Enter any details about the address(s) you want to validate such as the:
     
       - Street number
     
@@ -61,8 +62,8 @@ Address validation is an important part of setting up Calling Plans in Office 36
     
       - Country or region
     
-    > [!IMPORTANT]
-    > **Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**
+     > [!IMPORTANT]
+     > **Put the country/region where we offer Calling Plans in Office 365 that you are trying to validate an emergency address in when you are assigning phone number.**
   
       - Postal or zip code
     
@@ -70,19 +71,19 @@ Address validation is an important part of setting up Calling Plans in Office 36
     
 7. On the **Add details** page, select and enter the following:
     
-  - **Is your service unavailable?** Select **No**.
+   - **Is your service unavailable?** Select **No**.
     
-  - **How many users are affected?** Select **Some users**.
+   - **How many users are affected?** Select **Some users**.
     
-  - **Enter an email address of someone affected by this issue** or leave blank.
+   - **Enter an email address of someone affected by this issue** or leave blank.
     
-  - **Select Domain(s) you want to list**
+   - **Select Domain(s) you want to list**
     
-  - **Attach a file** if you have multiple addresses you need validated.
+   - **Attach a file** if you have multiple addresses you need validated.
     
-  - Click **Next**.
+   - Click **Next**.
     
-  - Enter your contact phone number.
+   - Enter your contact phone number.
     
 8. Review the information, and then click **Submit request**.
     
@@ -95,13 +96,12 @@ Address validation is an important part of setting up Calling Plans in Office 36
 
   
 ## Related topics
-[Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
+[Transferring phone numbers common questions](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Different kinds of phone numbers used for Calling Plans](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Emergency calling terms and conditions](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
+[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

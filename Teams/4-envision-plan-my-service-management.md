@@ -6,10 +6,11 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Deliver and maintain a high-quality deployment by planning for operational roles and assigning a quality champion.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ---
@@ -170,13 +171,13 @@ will also directly translate to improvements in video and desktop sharing.
 
 We highly recommend that you nominate the quality champion early on. After being
 nominated, they should start to familiarize themselves with the content in the
-[Quality Experience Review Guide](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+[Quality Experience Review Guide](https://aka.ms/qerguide).
 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide who is accountable for cloud voice operations in your organization.</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Download the Planning for Service Management full guide.</li><li>Download the Quality Experience Review guide.</li><li>Review the Operations Guide in full.</li><li>Provide all guides to every operations team members to review and be familiar with operations requirements.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide who is accountable for cloud voice operations in your organization.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Download the Planning for Service Management full guide.</li><li>Download the Quality Experience Review guide.</li><li>Review the Operations Guide in full.</li><li>Provide all guides to every operations team members to review and be familiar with operations requirements.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

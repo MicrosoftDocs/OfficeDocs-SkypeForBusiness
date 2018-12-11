@@ -5,9 +5,14 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
+ms.service:  
+- msteams
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection: 
+search.appverid: MET150
+ms.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
 description: "Learn how to configure one Session Border Controller (SBC) to serve multiple tenants."
 ---
 
@@ -39,14 +44,14 @@ The following are the technical implementation steps to configure the scenario.
 2. Activate the subdomain name.
 3. Configure the trunk from the carrier to the customer tenant and provision users.
 
-*Please make sure you understand DNS basics and how the domain name is managed in Office 365. Review [Get help with Office 365 domains](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) before proceeding further.*
+*Please make sure you understand DNS basics and how the domain name is managed in Office 365. Review [Get help with Office 365 domains](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) before proceeding further.*
 
 ## Deploy and configure the SBC
 
 For the detailed steps on how to deploy and configure SBCs for an SBC hosting scenario, please refer to the SBC vendor's documentation.
 
 - **AudioCodes:** [Direct Routing Configuration notes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), the configuration of the SBC hosting scenario described in “Connecting AudioCodes SBC to Microsoft Teams Direct Routing Hosting Model Configuration Note.” 
-- **Ribbon:** For SBC hosting scenarios, only the core series is supported. Please refer to the [Ribbon SBC Core Microsoft Teams Configuration Guide](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe).
+- **Ribbon Communications:**  Please refer to the [Ribbon Communications SBC Core Microsoft Teams Configuration Guide](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) for documentation on how to configure Ribbon Core Series SBCs and to this page [Ribbon Best Practice - Configuring Carriers for Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
 > Please pay attention to how to configure the “Contact” header. The Contact header is used to find the customer tenant on the incoming invite message. 
@@ -65,7 +70,7 @@ Subdomains **MUST** match the FQDN name of the trunk that will be configured for
 
 When a call arrives at the Office 365 Direct Routing interface, the interface uses the Contact header to find the tenant where the user should be looked up. Direct Routing does not use phone number lookup on the Invite, as some customers might have non-DID numbers that can overlap in several tenants. Therefore, the FQDN name in the Contact header is required to identify the exact tenant to look up the user by the phone number.
 
-*Please review  [Get help with Office 365 domains](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about creating domain names in Office 365 tenants.*
+*Please review  [Get help with Office 365 domains](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about creating domain names in Office 365 tenants.*
 
 The following diagram summarizes the requirements to base domain, subdomains, and Contact header.
 
@@ -96,7 +101,7 @@ You can only add new domains if you signed in to the Office 365 admin center as 
 
 To validate the role you have, please sign in to the Microsoft 365 admin center (https://portal.office.com), go to **Users** > **Active Users**, and then verify that you have a Global Administrator role. 
 
-For more information about admin roles and how to assign a role in Office 365, see [About Office 365 admin roles](https://support.office.com/en-us/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+For more information about admin roles and how to assign a role in Office 365, see [About Office 365 admin roles](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### Add a base domain to the tenant and verify it
 
@@ -117,9 +122,9 @@ For more information about admin roles and how to assign a role in Office 365, s
 
 ### Activate the domain name
 
-After you have registered a domain name, you need to activate it by adding at least one user and assign a SIP address with the FQDN portion of the SIP address matching the created base domain.
+After you have registered a domain name, you need to activate it by adding at least one E1, E3, or E5 licensed user and assigning a SIP address with the FQDN portion of the SIP address matching the created base domain. 
 
-*Please review [Get help with Office 365 domains](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about adding users in Office 365 tenants.*
+*Please review [Get help with Office 365 domains](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about adding users in Office 365 tenants.*
 
 For example: test@customers.adatum.biz
 
@@ -137,7 +142,7 @@ You can only add new domains if you signed in to the Office 365 admin center as 
 
 To validate the role you have, please sign in to the Microsoft 365 admin center (https://portal.office.com), go to **Users** > **Active Users**, and then verify that you have a Global Administrator role. 
 
-For more information about admin roles and how to assign a role in Office 365, see [About Office 365 admin roles](https://support.office.com/en-us/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+For more information about admin roles and how to assign a role in Office 365, see [About Office 365 admin roles](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### Add a subdomain to the customer tenant and verify it
 1. In the Microsoft 365 admin center, go to **Setup** > **Domains** > **Add domain**.
@@ -158,7 +163,7 @@ For more information about admin roles and how to assign a role in Office 365, s
 
     ![Creating the TXT record in the carrier's DNS hosting provider](media/direct-routing-8-sbc-txt-record.png)
 
-    For more information, refer to [Create DNS records at any DNS hosting provider for Office 365](https://support.office.com/en-us/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166?ui=en-US&rs=en-US&ad=US).
+    For more information, refer to [Create DNS records at any DNS hosting provider for Office 365](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
 7. Go back to the customer's Microsoft 365 admin center and click **Verify**. 
 8. On the next page, select **I’ll add the DNS records myself** and click **Next**.
@@ -181,7 +186,7 @@ For more information about admin roles and how to assign a role in Office 365, s
 
 After you register a domain name, you need to activate it by adding at least one user and assign a SIP address with the FQDN portion of the SIP address matching the created subdomain in the customer tenant.
 
-*Please review [Get help with Office 365 domains](https://support.office.com/en-us/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about adding users in Office 365 tenants.*
+*Please review [Get help with Office 365 domains](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) for more information about adding users in Office 365 tenants.*
 
 For example: test@sbc1.customers.adatum.biz
 

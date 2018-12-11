@@ -1,14 +1,15 @@
 ---
 title: PowerShell Script Sample - Assists with Microsoft Teams Deployment Clean Up
-author: ninadara
-ms.author: ninadara
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 03/21/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 description: Use this PowerShell script to clean up Microsoft Teams on targeted machines or for specific users.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_PracticalGuidance
 ---
 
 PowerShell Script Sample - Microsoft Teams deployment clean up
@@ -38,9 +39,10 @@ try
         # Uninstall app
         $proc = Start-Process -FilePath $TeamsUpdateExePath -ArgumentList "-uninstall -s" -PassThru
         $proc.WaitForExit()
-    }{
-    Write-Host "Deleting Teams directory"
-    Remove-Item –Path $TeamsPath -Recurse
+    }
+    if (Test-Path -Path $TeamsPath) {
+        Write-Host "Deleting Teams directory"
+        Remove-Item –Path $TeamsPath -Recurse
     }
 }
 catch
@@ -48,7 +50,6 @@ catch
     Write-Error -ErrorRecord $_
     exit /b 1
 }
-
 ````
 
 

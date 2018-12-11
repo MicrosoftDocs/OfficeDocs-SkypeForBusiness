@@ -63,13 +63,13 @@ Next, you need to add SIP Federated domains to the allowed domain list. Repeat t
     
 3. For the **Domain name (or FQDN):**, enter the domain, repeating this procedure for each of the following domains:
     
-  - noammeetings.lync.com
+   - noammeetings.lync.com
     
-  - emeameetings.lync.com
+   - emeameetings.lync.com
     
-  - apacmeetings.lync.com
+   - apacmeetings.lync.com
     
-  - resources.lync.com
+   - resources.lync.com
     
 You can also configure the external access for SIP federated domains by running the following cmdlets in the Skype for Business Server Management Shell:
   

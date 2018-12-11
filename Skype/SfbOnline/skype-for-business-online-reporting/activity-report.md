@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 8cbe2eb2-1194-4fd7-b1ee-9f9287c82424
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -78,17 +79,17 @@ The X axis on both charts is the selected date range for this specific report.
 ***
 ![Number 7](../images/sfbcallout7.png)<br/>
 The table shows you a breakdown of all the conferencing activities per user. This shows all users who have Skype for Business assigned to them and their conferencing activities. You can add additional columns to the table.
-*    **Username** is the name of the user.
-*    **Deleted** indicates that the user's license was removed.<br/><br/>
-    > [!NOTE]
-    > Activity for a deleted user will still display in a report as long as he or she was licensed at some time during the selected time period. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
+* **Username** is the name of the user.
+* **Deleted** indicates that the user's license was removed.<br/><br/>
+  > [!NOTE]
+  > Activity for a deleted user will still display in a report as long as he or she was licensed at some time during the selected time period. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
      
-*    **Deleted date** is the date on which the user's license was removed.
-*    **Last activity date (UTC)** is the latest time the user engaged in a peer to peer session, or organized a conference or participated in a conference.
-*    **Peer-to-peer** shows the total number of peer-to-peer conference sessions that the user used.
-*    **Organized conferences** shows the total number of conferences that were organized by that user.
-*    **Participated-in conferences** shows the total number of conferences that this user participated in.
-*    **Product assigned** is the Office 365 products that are assigned to this user.<br/>
+* **Deleted date** is the date on which the user's license was removed.
+* **Last activity date (UTC)** is the latest time the user engaged in a peer to peer session, or organized a conference or participated in a conference.
+* **Peer-to-peer** shows the total number of peer-to-peer conference sessions that the user used.
+* **Organized conferences** shows the total number of conferences that were organized by that user.
+* **Participated-in conferences** shows the total number of conferences that this user participated in.
+* **Product assigned** is the Office 365 products that are assigned to this user.<br/>
 
 If your organization's policies prevent you from viewing reports where user information is identifiable, you can change the privacy setting for all these reports. Check out the **Hide user details in the reports** section in the [Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***

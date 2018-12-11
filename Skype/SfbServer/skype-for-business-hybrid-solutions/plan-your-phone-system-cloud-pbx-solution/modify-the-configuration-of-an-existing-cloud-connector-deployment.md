@@ -7,7 +7,7 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - Strat_SB_Hybrid
 ms.custom:
@@ -26,75 +26,75 @@ If there is only one appliance in the site, when you want to change the configur
   
 1. Run the following cmdlet to uninstall all existing virtual machines on the host server: 
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 2. Run the following cmdlet to unregister the appliance:
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 3. Update the CloudConnector.ini file in the Appliance Directory.
     
 4. Run the following cmdlet to update the configuration: (This step is only applicable for version 2; for previous versions, skip to the next step.)
     
-  ```
+   ```
    Import-CcConfiguration 
-  ```
+   ```
 
 5. Run the following cmdlet to register the appliance again:
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 6. Run the following cmdlet to install Skype for Business Cloud Connector Edition:
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 If there is more than one appliance in the site, you'll need to follow these steps, modify the CloudConnector.ini file, and redeploy the appliances one by one.
   
 1. Run the following cmdlet to uninstall all existing virtual machines on the current appliance: 
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 2. Run the following cmdlet to unregister the appliance:
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 3. Update the CloudConnector.ini file in the Appliance Directory.
     
 4. Run the following cmdlet to update the configuration: (This step is only applicable for version 2; for previous versions, skip to the next step.)
     
-  ```
+   ```
    Import-CcConfiguration 
-  ```
+   ```
 
 5. Run the following cmdlet to register the appliance again:
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 6. Run the following cmdlet on all other appliances in the site to pick up the latest configuration:
     
-  ```
-  Publish-CcAppliance
-  ```
+   ```
+   Publish-CcAppliance
+   ```
 
 7. Run the following cmdlet to redeploy Cloud Connector on the current appliance:
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 ## Modify the configuration of multiple sites
 <a name="BKMK_MultipleSites"> </a>
@@ -110,45 +110,45 @@ If you disabled operating system automatic updates or Bits automatic updates, yo
   
 1. The EnableAutoUpdate property of the site needs to be set to true (the default value). Run the following cmdlet to make sure EnableAutoUpdate is set to true:
     
-  ```
-  Get-CsHybridPSTNSite -Identity <SiteName>
-  ```
+   ```
+   Get-CsHybridPSTNSite -Identity <SiteName>
+   ```
 
 2. Create auto update time window for the tenant.
     
     The time window can be daily, weekly and monthly. All the time windows need a start time and a duration.
     
-  - For a daily time window, only start time and duration are needed. 
+   - For a daily time window, only start time and duration are needed. 
     
-  - For a weekly time window, days of week are needed, which can be a single day or multiple days.
+   - For a weekly time window, days of week are needed, which can be a single day or multiple days.
     
-  - For a monthly time window, there can be two types. The first type is to specify the day of the month, which can be a single day. The second type is to specify the weeks of the month, along with days of the week, which both can be a single item or multiple items.
+   - For a monthly time window, there can be two types. The first type is to specify the day of the month, which can be a single day. The second type is to specify the weeks of the month, along with days of the week, which both can be a single item or multiple items.
     
-  - Each tenant can have 20 time windows defined. The default time window will be created for a new tenant as the default time window for operating system update and Bits update. Run the following cmdlet(s) to set the daily, weekly or monthly time window:
+   - Each tenant can have 20 time windows defined. The default time window will be created for a new tenant as the default time window for operating system update and Bits update. Run the following cmdlet(s) to set the daily, weekly or monthly time window:
     
-  ```
-  New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
+   ```
 
-  - Assign update time windows to the site. 
+   - Assign update time windows to the site. 
     
-    The Bits update time and OS update time windows are configured separately. Both of them can be assigned single or multiple time windows. Each time window can be assigned to different sites and different purpose (Bits update and OS update). Run the following cmdlet to set the time window for the site: 
+     The Bits update time and OS update time windows are configured separately. Both of them can be assigned single or multiple time windows. Each time window can be assigned to different sites and different purpose (Bits update and OS update). Run the following cmdlet to set the time window for the site: 
     
-  ```
-  Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
-  ```
+   ```
+   Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
+   ```
 
 ## Update the dedicated tenant admin credentials
 <a name="BKMK_MultipleSites"> </a>
@@ -173,11 +173,11 @@ To update the locally stored credentials on the Cloud Connector appliance, use t
   
 1. Run the following commands to retrieve the passwords you will need later: 
     
-  - Get-CcCredential -AccountType DomainAdmin -DisplayPassword
+   - Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
-  - Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   - Get-CcCredential -AccountType VMAdmin -DisplayPassword
     
-  - Get-CcCredential -AccountType CceService -DisplayPassword
+   - Get-CcCredential -AccountType CceService -DisplayPassword
     
 2. Change the password of your account on the host server.
     
@@ -221,17 +221,17 @@ For each appliance that belongs to the same PSTN site, you will need to specify 
   
 1. Run the following commands to retrieve the account names and passwords that you will use later:
     
-  ```
-  Get-CcCredential -AccountType TenantAdmin -DisplayPassword
-Get-CcCredential -AccountType TenantAdmin
-Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
-Get-CcCredential -AccountType OMSWorkspace 
-Get-CcCredential -AccountType ExternalCert -DisplayPassword
-Get-CcCredential -AccountType CABackupFile -DisplayPassword
-Get-CcCredential -AccountType CceService -DisplayPassword
-Get-CcCredential -AccountType VMAdmin -DisplayPassword
-Get-CcCredential -AccountType DomainAdmin -DisplayPassword
-  ```
+   ```
+   Get-CcCredential -AccountType TenantAdmin -DisplayPassword
+   Get-CcCredential -AccountType TenantAdmin
+   Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
+   Get-CcCredential -AccountType OMSWorkspace 
+   Get-CcCredential -AccountType ExternalCert -DisplayPassword
+   Get-CcCredential -AccountType CABackupFile -DisplayPassword
+   Get-CcCredential -AccountType CceService -DisplayPassword
+   Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   Get-CcCredential -AccountType DomainAdmin -DisplayPassword
+   ```
 
 2. Run the Enter-CcUpdate cmdlet to drain the appliance and move it into manual maintenance mode.
     
@@ -245,29 +245,29 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 6. By default, VmAdmin and DomainAdmin use the same password as CceService. If the DomainAdmin, VMAdmin, and CceService passwords returned in step 1 are different, you must perform the following steps:
     
-1. Run Set-CcCredential -AccountType DomainAdmin as follows:
+7. Run Set-CcCredential -AccountType DomainAdmin as follows:
     
-  - When prompted for the old account credential, enter the credential you used for the CceService password.
+   - When prompted for the old account credential, enter the credential you used for the CceService password.
     
-  - When prompted for the new account credential, enter the password for the DomainAdmin password returned in step 1.
+   - When prompted for the new account credential, enter the password for the DomainAdmin password returned in step 1.
     
-2. Run Set-CcCredential -AccountType VmAdmin as follows:
+8. Run Set-CcCredential -AccountType VmAdmin as follows:
     
-  - When prompted for the old account credential, enter the credential you used for the CceService password.
+   - When prompted for the old account credential, enter the credential you used for the CceService password.
     
-  - When prompted for the new account credential, enter the password for the VmAdmin password returned in step 1. 
+   - When prompted for the new account credential, enter the password for the VmAdmin password returned in step 1. 
     
-7. Run the Exit-CcUpdate cmdlet to move the appliance out of manual maintenance mode.
+9. Run the Exit-CcUpdate cmdlet to move the appliance out of manual maintenance mode.
     
-8. After you complete these steps on all appliances in the same PSTN site, delete the following files in the site root directory:
+10. After you complete these steps on all appliances in the same PSTN site, delete the following files in the site root directory:
     
-  - CcLockFile
+    - CcLockFile
     
-  - Site_\<Edge External Sip Pool fqdn\>
+    - Site_\<Edge External Sip Pool fqdn\>
     
-  - Tenant_\<Edge External Sip Pool fqdn\>
+    - Tenant_\<Edge External Sip Pool fqdn\>
     
-  - TenantConfigLock_\<Edge External Sip Pool fqdn\>
+    - TenantConfigLock_\<Edge External Sip Pool fqdn\>
     
 ## Add a new SIP domain
 <a name="BKMK_UpdatePassword"> </a>
@@ -282,9 +282,9 @@ To add a new SIP domain (or multiple SIP domains) to your existing Cloud Connect
     
 4. Set the path for the new Edge external certificate as follows:
     
-  ```
-  Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
+   ```
 
 5. 
     
@@ -303,49 +303,49 @@ If you need to change the primary SIP domain in your Cloud Connector deployment,
     
 4. Set the path for the new Edge external certificate as follows:
     
-  ```
-  Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
+   ```
 
 5. 
     
     Remove the tenant registration for each appliance in a site by running the following cmdlet in administrator PowerShell on Cloud Connector:
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 6. 
     
     Remove the site registration for each site by running the following cmdlet in Skype for Business Online PowerShell:
     
-  ```
-  Remove-CsHybridPSTNSite
-  ```
+   ```
+   Remove-CsHybridPSTNSite
+   ```
 
 7. 
     
     Uninstall each appliance by running the following cmdlet in administrator PowerShell on Cloud Connector:
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 8. 
     
      Register each appliance by running the following cmdlet in administrator PowerShell on Cloud Connector:
     
-  ```
-  Register-ccAppliance
-  ```
+   ```
+   Register-ccAppliance
+   ```
 
 9. 
     
      Install each appliance, one by one, by running the following cmdlet in administrator PowerShell on Cloud Connector:
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 ## Replace the external Edge certificate with a new certificate
 <a name="BKMK_UpdatePassword"> </a>
@@ -356,9 +356,9 @@ When you need to replace the external Edge certificate on your Cloud Connector a
     
 2. Run the following command: 
     
-  ```
-  Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
+   ```
 
 3. 
     

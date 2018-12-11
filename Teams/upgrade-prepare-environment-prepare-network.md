@@ -3,14 +3,15 @@ title: Prepare your network for upgrading to Teams - Microsoft Teams
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Use this guidance to prepare your network for Teams deployment and rollout   
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ---
@@ -46,12 +47,12 @@ The steps described below will help you determine whether your deployment might 
 
 ## Bandwidth planning
 
-The first step toward network readiness is ensuring your network has enough bandwidth available for the modalities Teams will provide to users. Planning for sufficient bandwidth is a fairly straightforward task and a very low-barrier start to ensure your users will have a high-quality Teams experience.
+The first step toward network readiness is ensuring your network has enough bandwidth available for the modalities Teams will provide to users. Planning for sufficient bandwidth is a fairly straightforward task and a very low-barrier start to help ensure your users will have a high-quality Teams experience.
 
 You start your bandwidth planning journey for Teams on the [My Advisor website](https://myadvisor.fasttrack.microsoft.com/) by using the Network Planner. The Network Planner provides per-site bandwidth planning for Teams and offers recommendations for optimizing network performance.
 
 > [!IMPORTANT]
->If the required bandwidth is not available, the media stack inside Teams will degrade the quality of the audio/video session to accommodate for that lower amount of available bandwidth, impacting the quality of the call/meeting. The Teams client will attempt to prioritize the quality of audio over the quality of video. It’s therefore extremely important to have the expected bandwidth available.
+> If the required bandwidth isn’t available, the media stack inside Teams degrades the quality of the audio/video session to accommodate that lower amount of available bandwidth, which affects the quality of the call or meeting. The Teams client attempts to prioritize the quality of audio over the quality of video. It’s therefore extremely important to have the expected bandwidth available.
 
 
 |Activity  |Download bandwidth  |Upload bandwidth  |Traffic flow |
@@ -125,7 +126,7 @@ Microsoft Teams connects to Microsoft Online Services and needs internet connect
 
 Opening these ports is essential for a reliable Teams deployment. Blocking these ports is unsupported and will affect media quality.
 
-If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see [Office 365 URLs and IP address ranges](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams). If you choose to restrict the target IP address ranges and domains, you must ensure that you keep the list of ports and ranges up to date because they might change. You can subscribe to [this RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) to be updated when changes occur. It’s also a good practice to test whether all ports are opened by running the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a regular basis. You can find out more about the functionality of this tool in the next section.
+If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). If you choose to restrict the target IP address ranges and domains, you must ensure that you keep the list of ports and ranges up to date because they might change. You can subscribe to [this RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) to be updated when changes occur. It’s also a good practice to test whether all ports are opened by running the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) on a regular basis. You can find out more about the functionality of this tool in the next section.
 
 In the event of a proxy server being deployed, we recommend that you bypass the proxy server for all Teams services. Although using a proxy might work, it’s very likely that quality will be reduced due to media’s being forced to use TCP instead of UDP. For more information about proxy servers and bypassing, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
 
@@ -140,7 +141,7 @@ Ensure that all the client computers running the Teams client can resolve extern
 
 When multiple users and devices access Office 365 by using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address don’t exceed the supported number.
 
-To mitigate this risk, ensure adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will cause internal end users and devices to face issues when connecting to the Office 365 services. For more information, see [NAT support with Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9).
+To mitigate this risk, ensure adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will cause internal end users and devices to face issues when connecting to the Office 365 services. For more information, see [NAT support with Office 365](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365).
 
 ### Intrusion detection and prevention guidance
 
@@ -201,8 +202,8 @@ Quality of service (QoS) can be used to battle impairments by prioritizing and s
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision point</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment. For more information, see [Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness).</li><li>Perform network remediation based on the results of the Network Readiness Assessment for every network segment.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision point</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>You can perform a detailed network assessment to help ensure your network is ready for your Microsoft Teams deployment. For more information, see <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Network Readiness Assessment</a>.</li><li>Perform network remediation based on the results of the Network Readiness Assessment for every network segment.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

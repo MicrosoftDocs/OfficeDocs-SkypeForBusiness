@@ -6,10 +6,11 @@ manager: serdars
 ms.date: 07/09/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Learn about Direct Routing, licensing, and the decisions that need to be made.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ---
@@ -64,6 +65,7 @@ who you are going to enable Calling Plans or Direct Routing for each location yo
 
 > [!TIP]
 > Below is an example of a Direct Routing site enablement list.
+> 
 > | **Office**                     | **Location**   | **Phone System service** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Australia      | Legacy PSTN service |
@@ -82,17 +84,18 @@ the emergency services are provided by your PSTN service provider.
 
 > [!NOTE]
 > With Direct Routing, your users can continue using their own phone numbers, provided by the PSTN service provider.
-
+> 
 > [!TIP]
 > You can use the following template to document the phone numbers details.
->|User |Phone number |
->|-----|-------------|
->|Emily Braun | +44 23 4567 8901 |
->|Lidia Holloway | +44 23 4567 89112 |
->|Louis Lahr | +44 23 4567 8921 |
->|Marcel Beauchamp | TBA |
->|Rachelle Cormier | TBA |
->|Isabell Potvin | TBA |
+> 
+> |User |Phone number |
+> |-----|-------------|
+> |Emily Braun | +44 23 4567 8901 |
+> |Lidia Holloway | +44 23 4567 89112 |
+> |Louis Lahr | +44 23 4567 8921 |
+> |Marcel Beauchamp | TBA |
+> |Rachelle Cormier | TBA |
+> |Isabell Potvin | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -107,7 +110,7 @@ all users in your organization by default. Your business needs might require
 that you disable voicemail transcription for specific users or everyone
 throughout the organization. If your organization decided to keep voicemail
 transcription enabled, you need to also consider whether voicemail transcription
-profanity masking needs to be enabled. See [Setting voicemail policies in your organization](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)
+profanity masking needs to be enabled. See [Setting voicemail policies in your organization](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)
 for more details.
 
 For more information about voicemail in a Phone System implementation, see [Set up Phone System voicemail](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail).
@@ -119,6 +122,7 @@ For more information about voicemail in a Phone System implementation, see [Set 
 
 > [!TIP]
 > Phone System voicemail details for the Calling Plans implementation can be documented as in the following table.
+> 
 > | **User**         | **Exchange mailbox** | **Enable voicemail?** | **Voicemail transcription** | **Voicemail transcription profanity masking** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
 > | Emily Braun      | Online               | Yes                   | Enabled                     | Enabled                                       |
@@ -127,7 +131,7 @@ For more information about voicemail in a Phone System implementation, see [Set 
 > | Marcel Beauchamp | On-premises          | Yes                   | Disabled                    | N/A                                           |
 > | Rachelle Cormier | Online               | Yes                   | Disabled                    | N/A                                           |
 > | Isabell Potvin   | On-premises          | Yes                   | Disabled                    | N/A                                           |
-
+> 
 > [!NOTE]
 > To use Teams and voicemail, your users must have Exchange mailboxes. See [How Exchange and Microsoft Teams interact](https://docs.microsoft.com/microsoftteams/exchange-teams-interact) for more details.
 
@@ -139,13 +143,13 @@ If your organization intends to use Direct Routing, you need to obtain required
 licenses. Users of Direct Routing must have the following licenses assigned in
 Office 365:
 
--   Skype for Business Online (Plan 2)
+
 
 -   Microsoft Phone System
 
 -   Microsoft Teams
 
--   Audio Conferencing (optional)
+-   Audio Conferencing
 
 Audio Conferencing license is required for adding external participants to
 scheduled meetings, either by dialing out to them or by providing the dial-in
@@ -259,6 +263,7 @@ and [Media traffic: Port ranges](https://docs.microsoft.com/microsoftteams/direc
 
 > [!TIP]
 > Use the following template to document the SBC details for your Direct Routing deployment.
+> 
 > | **SBC DNS Name (FQDN)** | **SBC make and model** | **Certificate** | **Location**  | **IP address** | **SIP signaling port** | **NAT?** | **Max concurrent sessions** | **Media bypass enabled?** |
 > |-------------------------|------------------------|-----------------|---------------|----------------|------------------------|----------|-----------------------------|---------------------------|
 > | SBC-Europe.contoso.com | TBD | \*.contoso.com | Amsterdam | TBD | TBD | Yes | TBD | No |
@@ -309,13 +314,14 @@ specific SBCs by using Direct Routing.
 > [!TIP]
 > Use the following template to document the voice policies for your Direct
 > Routing deployment.
+> 
 > | **PSTN usage** | **Voice route** | **Number pattern** | **Priority** | **SBC** | **Description** |
 > |----------------|-----------------|----------------------------|--------------|-----------------------------------|-----------------------------------------------------------------------------------------|
 > | US only | “Redmond 1” | \^\\+1(425\|206)(\\d{7})\$ | 1 | sbc1.contoso.com sbc2.contoso.com | Active route for called numbers +1 425 XXX XX XX or +1 206 XXX XX XX |
 > | US only | “Redmond 2” | \^\\+1(425\|206)(\\d{7})\$ | 2 | sbc3.contoso.com sbc4.contoso.com | Backup route for called numbers +1 425 XXX XX XX or +1 206 XXX XX XX |
 > | US only | "Other +1” | \^\\+1(\\d{10})\$ | 3 | sbc5.contoso.com sbc6.contoso.com | Route for called numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX) |
 > | International | International | \\d+ | 4 | sbc2.contoso.com sbc5.contoso.com | Route for any number pattern |
-
+> 
 > [!IMPORTANT]
 > The PSTN Usages in Voice Routing Policies are applied in order, and if a match
 > is found in the first usage, other usages are never evaluated.

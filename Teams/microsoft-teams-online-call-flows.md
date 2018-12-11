@@ -7,8 +7,9 @@ ms.date: 06/08/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua 
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin 
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_Help 
 appliesto: 
 - Microsoft Teams
 description: Describes how Teams workload utilizes Office 365 flows in various topologies.
@@ -45,7 +46,7 @@ Typically, a customer network has several network perimeters with firewalls and/
 
 ### Connectivity to Office 365
 
-Teams service requires [connectivity to the Internet](https://support.office.com/en-us/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10). Teams endpoints URLs and IP address ranges are listed in [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). (Note: It requires to open connectivity to TCP ports 80 and 443 and UDP ports 3478 through 3481.) Furthermore, Teams service has dependency on Skype for business online service, hence it is required to connect also this service to the Internet.
+Teams service requires [connectivity to the Internet](https://support.office.com/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10). Teams endpoints URLs and IP address ranges are listed in [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). (Note: It requires to open connectivity to TCP ports 80 and 443 and UDP ports 3478 through 3481.) Furthermore, Teams service has dependency on Skype for business online service, hence it is required to connect also this service to the Internet.
 
 Teams media flows connectivity is implemented via standard IETF ICE (Interactive Connectivity Establishment) procedures.
 

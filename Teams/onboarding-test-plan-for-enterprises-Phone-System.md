@@ -8,8 +8,9 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Validate that your organization's expectations are met through testing Phone System in Teams features, functionality, and usability.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ---
@@ -46,7 +47,7 @@ testing phase.
 #### Teams Testing Support Stakeholder Matrix
 
 > [!TIP]
-
+> 
 > Below is an example of a testing support stakeholder template that you can
 > use to document which stakeholders you require to support the testing phase.
 
@@ -73,8 +74,8 @@ testing phase.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which testing support and stakeholder roles you require for testing Phone System with Calling Plans features in your environment.</li><li>Decide which resources you’ll assign for the testing support and stakeholder roles you’ve identified.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the testing support and stakeholder roles required in your Testing Support Stakeholder Matrix.</li><li>Document contact information and location details for each resource you list in the Testing Support Stakeholder Matrix.
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide which testing support and stakeholder roles you require for testing Phone System with Calling Plans features in your environment.</li><li>Decide which resources you’ll assign for the testing support and stakeholder roles you’ve identified.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the testing support and stakeholder roles required in your Testing Support Stakeholder Matrix.</li><li>Document contact information and location details for each resource you list in the Testing Support Stakeholder Matrix.
 </table>
 
 
@@ -141,8 +142,8 @@ interoperability](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbu
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li> Decide which Phone System with Calling Plans category features you’ll deploy in your environment.</li><li>Identify your user Phone System with Calling Plans functionality requirements given your current Skype for Business, Exchange, and SharePoint deployment landscape.</li><li>Decide which Teams interoperability experience you’ll deploy.</li><li>Review the latest Teams public roadmap and decide whether current workload capabilities meet your deployment timeline.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the Phone System with Calling Plans category features required to support your Phone System with Calling Plans deployment.</li><li>Document user Phone System with Calling Plans functionality and interoperability requirements given your current Skype for Business, Exchange, and SharePoint deployment landscape.</li><li>Document whether the latest Teams public roadmap representing Phone System with Calling Plans capabilities meets the business needs and timing requirements of your deployment.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li> Decide which Phone System with Calling Plans category features you’ll deploy in your environment.</li><li>Identify your user Phone System with Calling Plans functionality requirements given your current Skype for Business, Exchange, and SharePoint deployment landscape.</li><li>Decide which Teams interoperability experience you’ll deploy.</li><li>Review the latest Teams public roadmap and decide whether current workload capabilities meet your deployment timeline.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the Phone System with Calling Plans category features required to support your Phone System with Calling Plans deployment.</li><li>Document user Phone System with Calling Plans functionality and interoperability requirements given your current Skype for Business, Exchange, and SharePoint deployment landscape.</li><li>Document whether the latest Teams public roadmap representing Phone System with Calling Plans capabilities meets the business needs and timing requirements of your deployment.</li></ul></td></tr>
 </table>
 
 Define and document your Phone System with Calling Plans test plan
@@ -215,8 +216,8 @@ typically includes:
 | <ul><li>Network Planner bandwidth planning (via MyAdvisor)<li></li>Network connectivity and performance validation (via the Skype for Business network assessment tool)<li></li>Quality of service (QoS) validation<li></li>Remote access split-tunnel validation</li></ul>|<ul><li>PBX features<li></li>PSTN calling (domestic and international)<li></li> Placing and receiving PSTN calls<li></li>Azure Voicemail<li></li>E911<li></li>Tenant Dial Plan<li></li>Tenant Caller ID masking <li></li>Advanced call control features (for example, call forwarding, simultaneous ring)</li></ul> |<ul><li>Licensing assignment</li><li>Subscriber number porting to Office 365</li><li>Phone System with Calling Plans reporting</li><li>Call quality reporting (CQD)</li></ul> |
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the Phone System with Calling Plans testing scope by identifying features to be evaluated by focus area.</li><li>Decide additional goals and objectives for evaluation.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the Phone System with Calling Plans features to be evaluated by focus area.</li><li>Document additional goals and objectives for evaluation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide the Phone System with Calling Plans testing scope by identifying features to be evaluated by focus area.</li><li>Decide additional goals and objectives for evaluation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the Phone System with Calling Plans features to be evaluated by focus area.</li><li>Document additional goals and objectives for evaluation.</li></ul></td></tr>
 </table>
 
 ### Define and document Phone System with Calling Plans test cases
@@ -279,8 +280,8 @@ Phone System with Calling Plans Validation
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which Phone System with Calling Plans administration and user features will be evaluated.</li><li>Decide what test environment is required to support test case execution.</li><li>Decide the steps required for test case evaluation.</li><li>Decide the resources required for proper execution of the test.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the test cases to be evaluated, based on the test case template provided.</li><li>Include the completed template as part of your overall test plan.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide which Phone System with Calling Plans administration and user features will be evaluated.</li><li>Decide what test environment is required to support test case execution.</li><li>Decide the steps required for test case evaluation.</li><li>Decide the resources required for proper execution of the test.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the test cases to be evaluated, based on the test case template provided.</li><li>Include the completed template as part of your overall test plan.</li></ul></td></tr>
 </table>
 
 
@@ -316,8 +317,8 @@ At a high level, these resources typically consist of:
 | Support       | Test administrator Test support lead Test support technician | TBD                  |
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide the resource types (people, technology, and support) that you’ll need to support the testing phase.</li><li>Decide the specific resources required for the resource types you identified.</li><li>Decide whether you should provide further detail to describe the types of resources that you need.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the resource types (people, technology, and support) that you’ll need to support the testing phase.</li><li>Document the specific resources required for the resource types you identified.</li><li>If you decide it’s necessary, document any further detail about the types of resources you need to support the testing phase.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide the resource types (people, technology, and support) that you’ll need to support the testing phase.</li><li>Decide the specific resources required for the resource types you identified.</li><li>Decide whether you should provide further detail to describe the types of resources that you need.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the resource types (people, technology, and support) that you’ll need to support the testing phase.</li><li>Document the specific resources required for the resource types you identified.</li><li>If you decide it’s necessary, document any further detail about the types of resources you need to support the testing phase.</li></ul></td></tr>
 </table>
 
 
@@ -364,8 +365,8 @@ At a high level, this typically consists of:
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide timeline activity, milestone, and tasks that you need to track.</li><li>Decide which resources you’ll need to assign.</li><li>Decide the date you expect to be done.</li><li>Identify the delivery owner.</li><li>Decide how much time it will take to complete the activity, milestone, or task.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document your testing timeline by using the template provided, and include:<ul><li>Timeline activity, milestone, and tasks that need to be tracked.</li><li>Resources that need to be assigned.</li><li>Anticipated completion date.</li><li>Delivery owner.</li><li>Time required to complete the activity, milestone, or task.</li></ul></li><li>Include the completed template as part of your overall test plan.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide timeline activity, milestone, and tasks that you need to track.</li><li>Decide which resources you’ll need to assign.</li><li>Decide the date you expect to be done.</li><li>Identify the delivery owner.</li><li>Decide how much time it will take to complete the activity, milestone, or task.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document your testing timeline by using the template provided, and include:<ul><li>Timeline activity, milestone, and tasks that need to be tracked.</li><li>Resources that need to be assigned.</li><li>Anticipated completion date.</li><li>Delivery owner.</li><li>Time required to complete the activity, milestone, or task.</li></ul></li><li>Include the completed template as part of your overall test plan.</li></ul></td></tr>
 </table>
 
 
@@ -432,8 +433,8 @@ evaluation process.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which defect criteria severity levels you’ll assign to support the testing effort.</li><li>Decide what testing defect reporting criteria you’ll document if issues arise during testing.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the testing defect reporting criteria required in the template provided.</li><li>Include the completed template as part of your overall test plan.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide which defect criteria severity levels you’ll assign to support the testing effort.</li><li>Decide what testing defect reporting criteria you’ll document if issues arise during testing.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the testing defect reporting criteria required in the template provided.</li><li>Include the completed template as part of your overall test plan.</li></ul></td></tr>
 </table>
 
 
@@ -457,8 +458,8 @@ phase.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide on suspension criteria that must be met if issues with testing are identified.</li><li>Decide on exit criteria that must be met to obtain testing acceptance sign-off and support exiting the testing phase after all testing activities are complete.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the testing exit and suspension criteria required in the test and exit templates provided.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide on suspension criteria that must be met if issues with testing are identified.</li><li>Decide on exit criteria that must be met to obtain testing acceptance sign-off and support exiting the testing phase after all testing activities are complete.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the testing exit and suspension criteria required in the test and exit templates provided.</li></ul></td></tr>
 </table>
 
 
@@ -522,8 +523,8 @@ Typically, a defect report and remediation plan includes the following:
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide and agree on the defect priorities to support your test plan.</li><li>Decide the escalation point for each defect area.</li><li>Decide the defect escalation and triage plan to follow, based on priority.</li><li>Decide the defect reporting and triage communication plan for escalation.</li><li>Decide the defect triage review meeting cadence.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the agreed-on defect priorities.</li><li>Document the escalation point for each potential focus area.</li><li>Document the defect escalation and triage plan based on agreed-on criteria.</li><li>Document your defect reporting guidelines.</li><li>Schedule the series of defect triage meetings.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide and agree on the defect priorities to support your test plan.</li><li>Decide the escalation point for each defect area.</li><li>Decide the defect escalation and triage plan to follow, based on priority.</li><li>Decide the defect reporting and triage communication plan for escalation.</li><li>Decide the defect triage review meeting cadence.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the agreed-on defect priorities.</li><li>Document the escalation point for each potential focus area.</li><li>Document the defect escalation and triage plan based on agreed-on criteria.</li><li>Document your defect reporting guidelines.</li><li>Schedule the series of defect triage meetings.</li></ul></td></tr>
 </table>
 
 
@@ -560,8 +561,8 @@ At a high level, these typically include, but aren’t limited to:
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which deliverables are to be created and captured as output from each testing phase. For each deliverable, decide on its:<ul><li>Format</li><li>Owner</li><li>Reviewer</li><li>Approver</li></ul></li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document a test plan deliverable creation and delivery matrix.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Decide which deliverables are to be created and captured as output from each testing phase. For each deliverable, decide on its:<ul><li>Format</li><li>Owner</li><li>Reviewer</li><li>Approver</li></ul></li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document a test plan deliverable creation and delivery matrix.</li></ul></td></tr>
 </table>
 
 
@@ -606,8 +607,8 @@ Teams through the Network Planner, see MyAdvisor: Network Planner.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide which network sites are in scope for deployment of Teams services.</li><li>Decide the personas required for Teams modalities in scope.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Complete the Network Planner (through MyAdvisor) for the list of sites that are in scope.</li><li>Document Network Planner validation results in the test plan results template provided.</li><li>Validate that the ExpressRoute (if applicable), internet, and WAN bandwidth that was calculated for sites in scope aligns to bandwidth values that are currently allocated.</li><li>For sites that don’t have adequate bandwidth, execute escalation and remediation plans to resolve bandwidth issues.</li><li>Establish a network monitoring solution for sites in scope to monitor bandwidth usage and QoS for ExpressRoute (if applicable), internet, and WAN segments.</li><li>Schedule a steering committee meeting to review Network Planner results.</li><li>Present bandwidth planning results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Decision points</td><td><ul><li>Decide which network sites are in scope for deployment of Teams services.</li><li>Decide the personas required for Teams modalities in scope.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Complete the Network Planner (through MyAdvisor) for the list of sites that are in scope.</li><li>Document Network Planner validation results in the test plan results template provided.</li><li>Validate that the ExpressRoute (if applicable), internet, and WAN bandwidth that was calculated for sites in scope aligns to bandwidth values that are currently allocated.</li><li>For sites that don’t have adequate bandwidth, execute escalation and remediation plans to resolve bandwidth issues.</li><li>Establish a network monitoring solution for sites in scope to monitor bandwidth usage and QoS for ExpressRoute (if applicable), internet, and WAN segments.</li><li>Schedule a steering committee meeting to review Network Planner results.</li><li>Present bandwidth planning results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
 </table>
 
 
@@ -624,8 +625,8 @@ Teams](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams).
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide on the QoS configuration to be implemented.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Configure QoS.</li><li>Execute QoS validation as outlined from steps listed via the “validate via GPO” and “validate via Message Analyzer” sections above.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Decision points</td><td><ul><li>Decide on the QoS configuration to be implemented.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Configure QoS.</li><li>Execute QoS validation as outlined from steps listed via the “validate via GPO” and “validate via Message Analyzer” sections above.</li></ul></td></tr>
 </table>
 
 
@@ -650,10 +651,9 @@ final steering committee review.
 <table>
 <tr><th colspan="2">Testing highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testing lowlights  </th></tr>  
-<tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Testing lowlights  </th></tr><br/><tr><td><strong>Issue</strong>: TBD</td><td><strong>Remediation:</strong> TBD</td></tr>
 <tr><th colspan="2">Blockers identified </td></tr>
-<tr><td>**Blocker**: TBD</td><td>**Remediation**: TBD</td></tr>
+<tr><td><strong>Blocker</strong>: TBD</td><td><strong>Remediation</strong>: TBD</td></tr>
 </table>
 
 
@@ -663,8 +663,8 @@ final steering committee review.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate QoS test results to ensure that Teams real-time media traffic is being properly marked and prioritized.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document QoS test results in the test plan result template provided.</li><li>Execute escalation and remediation plans to resolve issues where QoS might not be properly configured or isn’t working as expected to support Teams media traffic.</li></ul></td></tr><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test summary results to the steering committee to identify any areas that require remediation.</li>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Decision points</td><td><ul><li>Evaluate QoS test results to ensure that Teams real-time media traffic is being properly marked and prioritized.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document QoS test results in the test plan result template provided.</li><li>Execute escalation and remediation plans to resolve issues where QoS might not be properly configured or isn’t working as expected to support Teams media traffic.</li></ul></td></tr><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test summary results to the steering committee to identify any areas that require remediation.</li>
 </table>
 
 
@@ -696,8 +696,8 @@ Readiness.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide the split-tunnel configuration to implement.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Implement split-tunnel configuration.</li><li>Test and validate the split-tunnel configuration.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Decision points</td><td><ul><li>Decide the split-tunnel configuration to implement.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Implement split-tunnel configuration.</li><li>Test and validate the split-tunnel configuration.</li></ul></td></tr>
 </table>
 
 
@@ -721,10 +721,9 @@ steering committee review.
 <table>
 <tr><th colspan="2">Testing highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testing lowlights  </th></tr>  
-<tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Testing lowlights  </th></tr><br/><tr><td><strong>Issue</strong>: TBD</td><td><strong>Remediation:</strong> TBD</td></tr>
 <tr><th colspan="2">Blockers identified </td></tr>
-<tr><td>**Blocker**: TBD</td><td>**Remediation**: TBD</td></tr>
+<tr><td><strong>Blocker</strong>: TBD</td><td><strong>Remediation</strong>: TBD</td></tr>
 </table>
 
 
@@ -733,8 +732,8 @@ steering committee review.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate split-tunnel testing results to ensure that Teams real-time traffic is being excluded from the remote access solution.</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document split-tunnel connectivity test results in the test plan result template provided.</li><li>Execute escalation and remediation plans to resolve issues where proper routing might not exist for supporting Teams media within a split-tunnel  configuration.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test summary results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Decision points</td><td><ul><li>Evaluate split-tunnel testing results to ensure that Teams real-time traffic is being excluded from the remote access solution.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document split-tunnel connectivity test results in the test plan result template provided.</li><li>Execute escalation and remediation plans to resolve issues where proper routing might not exist for supporting Teams media within a split-tunnel  configuration.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test summary results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
 </table>
 
 
@@ -763,8 +762,8 @@ Readiness.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide the network assessment and connectivity testing profile for sites in scope.</li><li>Decide network assessment configuration file requirements for sites in scope.</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Configure network assessment configuration file requirements for sites in scope.</li><li>Execute network performance and connectivity validation for sites in scope.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Decision points</td><td><ul><li>Decide the network assessment and connectivity testing profile for sites in scope.</li><li>Decide network assessment configuration file requirements for sites in scope.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Configure network assessment configuration file requirements for sites in scope.</li><li>Execute network performance and connectivity validation for sites in scope.</li></ul></td></tr>
 </table>
 
 
@@ -803,22 +802,22 @@ during the next steering committee review.
 <tr><th colspan="2">Testing highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">Testing lowlights  </th></tr> 
-<tr><td>**Issue**: High latency</td><td>**Remediation:** Investigate packet routing and implement the ideal route.</td></tr>
-<tr><td>**Issue**: Round-trip time isn't double the latency</td><td>**Remediation:** Investigate a possible firewall or router configuration issue. Investigate traffic paths.</td></tr>
-<tr><td>**Issue**: High packet loss </td><td>**Remediation:** Verify through the Network Planner that enough bandwidth has been allocated. </td></tr>
-<tr><td>**Issue**: High jitter </td><td> **Remediation:** Investigate whether the correct differentiated services code point (DSCP) values are being used. </td></tr>
-<tr><td>**Issue**: High packet loss </td><td>**Remediation:** Investigate packet loss. </td></tr>
-<tr><td>**Issue**: High packet reorder </td><td>**Remediation:** Investigate router queueing and bandwidth. </td></tr>
+<tr><td><strong>Issue</strong>: High latency</td><td><strong>Remediation:</strong> Investigate packet routing and implement the ideal route.</td></tr>
+<tr><td><strong>Issue</strong>: Round-trip time isn&#39;t double the latency</td><td><strong>Remediation:</strong> Investigate a possible firewall or router configuration issue. Investigate traffic paths.</td></tr>
+<tr><td><strong>Issue</strong>: High packet loss </td><td><strong>Remediation:</strong> Verify through the Network Planner that enough bandwidth has been allocated. </td></tr>
+<tr><td><strong>Issue</strong>: High jitter </td><td> <strong>Remediation:</strong> Investigate whether the correct differentiated services code point (DSCP) values are being used. </td></tr>
+<tr><td><strong>Issue</strong>: High packet loss </td><td><strong>Remediation:</strong> Investigate packet loss. </td></tr>
+<tr><td><strong>Issue</strong>: High packet reorder </td><td><strong>Remediation:</strong> Investigate router queueing and bandwidth. </td></tr>
 <tr><th colspan="2">Blockers identified </td></tr>
-<tr><td>**Blocker**: TBD</td><td>**Remediation**:  TBD</td></tr>
+<tr><td><strong>Blocker</strong>: TBD</td><td><strong>Remediation</strong>:  TBD</td></tr>
 </table>
 
- 
+
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate network assessment and connectivity testing results to ensure you meet the requirements described in [Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) for both the edge segment and client segments.</li><li>Have you evaluated network capabilities for supporting real-time media for all sites in scope?</li><li> If your network hasn’t been properly assessed, or you know it won’t support real-time media, will you disable video and screen-sharing capabilities to reduce network impact and improve the Teams experience for users?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document network performance and connectivity test results.</li><li>Execute escalation and remediation plans to resolve issues with sites where there’s not enough bandwidth, or network performance and connectivity requirements aren’t being met.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test summary results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Decision points</td><td><ul><li>Evaluate network assessment and connectivity testing results to ensure you meet the requirements described in <a href="https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance" data-raw-source="[Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)">Media quality and network connectivity performance</a> for both the edge segment and client segments.</li><li>Have you evaluated network capabilities for supporting real-time media for all sites in scope?</li><li> If your network hasn’t been properly assessed, or you know it won’t support real-time media, will you disable video and screen-sharing capabilities to reduce network impact and improve the Teams experience for users?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document network performance and connectivity test results.</li><li>Execute escalation and remediation plans to resolve issues with sites where there’s not enough bandwidth, or network performance and connectivity requirements aren’t being met.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test summary results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
 </table>
 
 
@@ -857,8 +856,8 @@ invoice from your current service provider.
 >   differ depending on the country/region where the phone numbers are sourced
 >   from. For the latest list of currently supported countries/regions, see
 >   [Countries and region availability for Audio Conferencing and Calling
->   Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
-
+>   Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+> 
 >   For additional information about transferring phone numbers to Phone System
 >   with Calling Plans—along with potential restrictions—see [Transfer phone
 >   numbers to Office
@@ -940,8 +939,8 @@ Teams client.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide which domestic subscriber numbers you’ll need to port, by country/region.</li><li>Decide which LOA template you’ll use.</li><li>Determine whether your current carrier (losing carrier) allows phone number fragmentation (that is, allows partial-port orders).</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Collect the required information and prepare the LOAs.</li><li>Download and complete the LOA templates you need.</li><li>Submit a subscriber number porting request.</li><li>Execute test validation for ported numbers by assigning them to the Phone System with Calling Plans service for dial-in access and confirm that they work, as outlined in steps 6 and 7 earlier in this section.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Decision points</td><td><ul><li>Decide which domestic subscriber numbers you’ll need to port, by country/region.</li><li>Decide which LOA template you’ll use.</li><li>Determine whether your current carrier (losing carrier) allows phone number fragmentation (that is, allows partial-port orders).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Collect the required information and prepare the LOAs.</li><li>Download and complete the LOA templates you need.</li><li>Submit a subscriber number porting request.</li><li>Execute test validation for ported numbers by assigning them to the Phone System with Calling Plans service for dial-in access and confirm that they work, as outlined in steps 6 and 7 earlier in this section.</li></ul></td></tr>
 </table>
 
 
@@ -964,10 +963,9 @@ summarizes test results to present during the next steering committee review.
 <table>
 <tr><th colspan="2">Testing highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testing lowlights  </th></tr>  
-<tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Testing lowlights  </th></tr><br/><tr><td><strong>Issue</strong>: TBD</td><td><strong>Remediation:</strong> TBD</td></tr>
 <tr><th colspan="2">Blockers identified </td></tr>
-<tr><td>**Blocker**: TBD</td><td>**Remediation**: TBD</td></tr>
+<tr><td><strong>Blocker</strong>: TBD</td><td><strong>Remediation</strong>: TBD</td></tr>
 </table>
 
 
@@ -980,8 +978,8 @@ summarizes test results to present during the next steering committee review.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate whether subscriber numbers submitted for migration were successfully ported to the Phone System with Calling Plans service..</li><li>Evaluate whether you were able to assign the ported service number to the Phone System with Calling Plans service.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document your number porting test results.</li><li>Execute escalation and remediation plans to resolve issues you experienced with the number porting process, if any.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present the test summary results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Decision points</td><td><ul><li>Evaluate whether subscriber numbers submitted for migration were successfully ported to the Phone System with Calling Plans service..</li><li>Evaluate whether you were able to assign the ported service number to the Phone System with Calling Plans service.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document your number porting test results.</li><li>Execute escalation and remediation plans to resolve issues you experienced with the number porting process, if any.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present the test summary results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
 </table>
 
 
@@ -1045,8 +1043,8 @@ unforeseen issues arise.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate high-level test case pass/fail status by site for Phone System with Calling Plans features in scope.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the test case status results for all test cases completed in scope.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test case status results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Decision points</td><td><ul><li>Evaluate high-level test case pass/fail status by site for Phone System with Calling Plans features in scope.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the test case status results for all test cases completed in scope.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test case status results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
 </table>
 
 
@@ -1072,10 +1070,9 @@ Calling Plans services in the Pilot phase.
 <table>
 <tr><th colspan="2">Testing highlights </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testing lowlights  </th></tr>  
-<tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Testing lowlights  </th></tr><br/><tr><td><strong>Issue</strong>: TBD</td><td><strong>Remediation:</strong> TBD</td></tr>
 <tr><th colspan="2">Blockers identified </td></tr>
-<tr><td>**Blocker**: TBD</td><td>**Remediation**: TBD</td></tr>
+<tr><td><strong>Blocker</strong>: TBD</td><td><strong>Remediation</strong>: TBD</td></tr>
 </table>
 
 
@@ -1089,8 +1086,8 @@ Calling Plans services in the Pilot phase.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate high-level test summary results by site for Phone System with Calling Plans features in scope.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document the test case summary report after all test case results have been completed.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test summary results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Decision points</td><td><ul><li>Evaluate high-level test summary results by site for Phone System with Calling Plans features in scope.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document the test case summary report after all test case results have been completed.</li><li>Schedule a steering committee meeting to review test summary results.</li><li>Present test summary results to the steering committee to identify any areas that require remediation.</li></ul></td></tr>
 </table>
 
 
@@ -1128,6 +1125,6 @@ testing stakeholders. At the meeting, address:
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide the testing status summary.</li><li>Identify testing highlights and lowlights.</li><li>Identify lessons learned.</li><li>Decide which remediation actions remain, if any.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Document test summary results to include:<ul><li>Status summary</li><li>Highlights/lowlights</li><li>Lessons learned</li></ul></li><li>Schedule a final steering committee meeting to review test results.</li><li>Present test summary results during a steering committee review to obtain final sign-off for exiting the testing phase.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Decision points</td><td><ul><li>Decide the testing status summary.</li><li>Identify testing highlights and lowlights.</li><li>Identify lessons learned.</li><li>Decide which remediation actions remain, if any.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Document test summary results to include:<ul><li>Status summary</li><li>Highlights/lowlights</li><li>Lessons learned</li></ul></li><li>Schedule a final steering committee meeting to review test results.</li><li>Present test summary results during a steering committee review to obtain final sign-off for exiting the testing phase.</li></ul></td></tr>
 </table>

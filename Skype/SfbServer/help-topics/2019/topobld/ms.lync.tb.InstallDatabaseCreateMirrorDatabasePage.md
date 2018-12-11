@@ -16,12 +16,5 @@ description: "This is preliminary documentation and is subject to change. Blank 
 
 # Install Database Create Mirror Database Page
  
-This is preliminary documentation and is subject to change. Blank topics are included as placeholders.
-  
-If you chose not to install the SQL Server mirror databases during the Publish process, you install them using **Install Database** from a right click on any node in Topology Builder. You select the mirror store to install. Click **Settings** to define any advanced settings.
-  
-## See also
-
-[Install-CsMirrorDatabase](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
-  
-[Install-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps)
+> [!NOTE]
+> SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.

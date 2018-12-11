@@ -3,10 +3,12 @@ title: Add a guest to a team
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: laal
+ms.collection: Teams_ITAdmin_Help
+search.appverid: MET150
+ms.reviewer: sbhatta
 description: Learn the tools available to an admin to add new guest users to an organization, including the Microsoft Teams desktop and web clients and the Azure Active Directory B2B collaboration portal.
 appliesto: 
 - Microsoft Teams
@@ -40,3 +42,8 @@ Guest users you have already added via Azure Active Directory B2B, Office 365 Gr
 
 You can track guest additions in Azure Active Directory or the Office 365 Security &amp; Compliance Center. Adding a guest in Microsoft Teams is audited and logged as an Azure AD group administration activity "Added member to group". For more details, see  [Auditing and reporting a B2B collaboration user](https://go.microsoft.com/fwlink/p/?linkid=858884) and [Search the audit log in the Office 365 Security &amp; Compliance Center](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
+## More information
+
+[Authorize guest access in Microsoft Teams](teams-dependencies.md)</br>
+[Turn on or off guest access in Microsoft Teams](set-up-guests.md)</br>
+[Use PowerShell to control guest access to a team](guest-access-powershell.md)

@@ -49,5 +49,6 @@ Each record represents audio signal metrics for one endpoint. Usually, each call
 |**SendSignalLevelCh2** <br/> |int  <br/> ||Signal level as sent on channel 2.  <br/> This column was introduced in Microsoft Lync Server 2013.  <br/> |
 |**SendNoiseLevelCh1** <br/> |int  <br/> ||Noise level as sent on channel 1.  <br/> This column was introduced in Microsoft Lync Server 2013.  <br/> |
 |**SendNoiseLevelCh2** <br/> |int  <br/> ||Noise level as sent on channel 2.  <br/> This column was introduced in Microsoft Lync Server 2013.  <br/> |
-   
+|**RenderLoopbackSignalLevel** <br/> |int  <br/> ||Level in dBFS of the signal sent to the loudspeaker for playback. Accounts for any gain adjustments made to the received signal. <br/> This column was introduced in Microsoft Lync Server 2013.  <br/> |   
+|**RenderNoiseLevel** <br/> |int  <br/> ||Level in dBFS of the noise content in the signal sent to the loudspeaker for playback <br/> |
 

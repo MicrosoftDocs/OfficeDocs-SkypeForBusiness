@@ -23,17 +23,17 @@ For a dated but exhaustive article on removing servers and server roles, and a s
 ## In this section
 
 > [Update DNS SRV records](update-dns-srv-records.md)
-    
+> 
 > [Move the legacy install Central Management Server to Skype for Business Server 2019](move-the-central-management-server.md)
-    
+> 
 > [Move Conference Directories](move-conference-directories.md)
-    
+> 
 > [Remove the Archiving server association](remove-the-archiving-server-association.md)
-    
+> 
 > [Remove the Monitoring server association](remove-the-monitoring-server-association.md)
-    
+> 
 > [Remove the Enterprise Edition Front End Server or Standard Edition Front End Server](remove-the-front-end-server.md)
-    
+> 
 > [Remove SQL Server instances and databases on the Back End Server](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
     
 

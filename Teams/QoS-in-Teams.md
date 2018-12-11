@@ -8,8 +8,9 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ---
@@ -22,7 +23,7 @@ QoS is a mechanism you use to prioritize certain types of network traffic. Prior
 ![The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.")
 
 _Figure 1. The relationship between an organization’s networks and Office 365 services_
- 
+
 
 In most cases, the interconnect network will be an unmanaged network internet connection. One option available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). We still recommend that you implement QoS on the portions of the network you have control over, namely your on-premises network. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints in your existing deployment. 
 
@@ -34,7 +35,7 @@ This article focuses on how to prioritize Teams real-time communications traffic
 There are multiple ways to prioritize traffic, but the most common is by using differentiated services code point (DSCP) markings. They can be applied (“tagged”) based on port ranges and also via Group Policy objects. We’ll cover both in this article. We recommend that you use tagging based on port ranges because it will work for all devices, not just those joined to the domain.
 
 Controlling the DSCP marking via Group Policy objects ensures that domain-joined computers receive the correct settings and that only an administrator can manage them.
- 
+
 It’s important to understand that QoS only works when implemented on all links that connect caller to callee. If you use QoS on the internal network and a user signs in from a remote location, you can only prioritize within your internal, managed network. Although remote locations can receive a managed connection by implementing a virtual private network (VPN), we  recommend that you avoid running real-time communications traffic over the VPN.
 
 > [!NOTE]
@@ -65,7 +66,7 @@ The guidance for implementing QoS for Teams is based on four scenarios:
 *  **Scenario 2:** You’ve deployed, or are deploying, Teams and are planning to implement QoS via Group Policy Object tagging. This is sometimes used in combination with scenario 1. Although this scenario is entirely valid, it’s important to understand it will only work for domain-joined Windows clients. Any device that isn’t a domain-joined Windows client won’t be enabled for DSCP tagging.
 
 *  **Scenario 3:** You’ve deployed Skype for Business Online, including QoS tagging, and are now deploying Teams. If this is you, Teams will respect the existing configuration and will use the same port ranges and tagging as the Skype for Business client. In most cases, no additional configuration will be needed. 
- 
+
     > [!NOTE]
     > If you're using Application Name QoS tagging via Group Policy, you must add Teams.exe as the application name.
 
@@ -81,7 +82,7 @@ Table 1 shows the DSCP markings required when using Teams with ExpressRoute. The
 
 
 _Table 1. DSCP markings_
-    
+
 | Client source port range |Protocol|Media category|DSCP value|DSCP class|
 |---------|---------|---------|---------|---------|
 | 50,000–50,019|TCP/UDP|Audio|46|Expedited Forwarding (EF)|
@@ -89,14 +90,14 @@ _Table 1. DSCP markings_
 | 50,040–50,059|TCP/UDP|Application/Desktop Sharing|18|Assured Forwarding (AF21)|
 
 Here are some caveats to understand when you use the information in Table 1:
-	
+
 -  If you plan to implement ExpressRoute in the future and haven’t yet implemented QoS, we recommend that you follow the guidance in Table 1 so that DSCP values are the same from sender to receiver. 
 
 -  All clients, including mobile clients and Teams devices, will use these port ranges and will be affected by any DSCP policy you implement that uses these source port ranges. The only clients that will continue to use dynamic ports are the browser-based clients (that is, those clients that let participants join meetings by using their browsers).
 
 -  Although the Mac client does use the same port ranges, the Mac client also uses hard-coded values for audio (EF) and video (AF41). These values are not configurable.
- 
-	
+
+
 ## Source ports used by Teams
 
 In Teams, QoS should be configured based on the source ports used by the different workloads. Neither server-side nor client-side port ranges are currently configurable. 
@@ -123,12 +124,13 @@ There are multiple approaches to setting the proper DSCP markings for traffic cl
 -  **DSCP marking at the endpoint:** This is generally the preferred option, because the endpoint itself provides the proper markings. Currently this can be done by using a Group Policy object, but it can only be used on domain-joined Windows clients. Mobile clients don’t provide a mechanism to mark traffic by using DSCP values. Although you can’t configure non&ndash;domain-joined Windows clients to tag traffic, clients such as Mac OS have hard-coded tags and will always tag traffic as described above.
 
 -  **Port-based DSCP tagging by using access control lists (ACLs) on routers:** This is a very common option encountered in heterogeneous Windows and Mac environments. In this scenario, the network team marks the traffic at the ingress/egress routers (typically located on the WAN) based on the source port ranges defined for each modality. Although this works across platforms, it only marks traffic at the WAN edge—not all the way to the client machine—and therefore incurs management overhead.
-	
+
 -  **A combination of DSCP markings at the endpoint and port-based ACLs on routers:** We recommend this combination, if possible in your environment. Use a Group Policy object to catch the majority of clients, and also use port-based DSCP tagging to ensure that mobile, Mac, and other clients will still get QoS treatment (at least partially).
-	
+
 You can use policy-based QoS within Group Policy to set the DSCP value for the predefined source port range in the Teams client. Use the port ranges specified in Table 3 to create a policy for each workload.
 
 _Table 3. Port ranges by traffic type_
+
 | Client traffic type|Port range start|Port range end|DSCP value|
 |---------|---------|---------|--------|
 | Audio|50000|50019|46|
@@ -147,52 +149,54 @@ The new policies you’ve created won’t take effect until Group Policy has bee
 1. On each computer for which you want to refresh Group Policy, open a command console. Ensure that the command console is set to run as administrator.
 
 2. At the command prompt, enter
-```
+   ```
     gpudate.exe /force
-```
+   ```
 
 ## Verify DSCP markings in the Group Policy object
 
 To verify that the values from the Group Policy object have been set, perform the following steps.
 
-1.  Open a command console. Ensure that the command console is set to run as administrator.
+1. Open a command console. Ensure that the command console is set to run as administrator.
 
-2.  At the command prompt, enter 
-    ```
-    gpresult /R >gp.txt
-    ```
+2. At the command prompt, enter 
+   ```
+   gpresult /R >gp.txt
+   ```
 
-    This will generate a report and send it to a text file named gp.txt. Alternatively, you can enter the following command to produce the same data in a more readable HTML report named gp.html:
-    ```
-    gpresult /H >gp.html
-    ```
- 
+   This will generate a report and send it to a text file named gp.txt. Alternatively, you can enter the following command to produce the same data in a more readable HTML report named gp.html:
+   ```
+   gpresult /H >gp.html
+   ```
+
    ![Screenshot of the console window running the gpresult command.](media/Qos-in-Teams-Image3.png "Screenshot of the console window running the gpresult command.")
 
-3.  In the generated file, look for the heading **Applied Group Policy Objects** and verify that the names of the Group Policy objects created earlier are in the list of applied policies. 
+3. In the generated file, look for the heading **Applied Group Policy Objects** and verify that the names of the Group Policy objects created earlier are in the list of applied policies. 
 
-4.	Open the Registry Editor, and go to:
+4. Open the Registry Editor, and go to:
 
-    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
+   HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
 
-    Verify the values for the registry entries listed in Table 3.
+   Verify the values for the registry entries listed in Table 3.
 
-    _Table 3. Values for Windows registry entries for QoS_
-    
-    | Name | Type | Data|
-    |---------|---------|---------
-    | Application Name|REG_SZ|Teams.exe|
-    | DSCP Value|REG_SZ|46|
-    | Local IP|REG_SZ|*|
-    | Local IP Prefix Length|REG_SZ|*|
-    | Local Port|REG_SZ|50000-50019|
-    | Protocol|REG_SZ|*|
-    | Remote IP|REG_SZ|*|
-    | Remote IP Prefix|REG_SZ|*|
-    | Remote Port|REG_SZ|*|
-    | Throttle Rate|REG_SZ|-1|
-    
-5.  Verify that the value for the Application Name entry is correct for the client you’re using, and verify that both the DSCP Value and Local Port entries reflect the settings in the Group Policy object.
+   _Table 3. Values for Windows registry entries for QoS_
+
+
+   |          Name          |  Type  |    Data     |
+   |------------------------|--------|-------------|
+   |    Application Name    | REG_SZ |  Teams.exe  |
+   |       DSCP Value       | REG_SZ |     46      |
+   |        Local IP        | REG_SZ |     \*      |
+   | Local IP Prefix Length | REG_SZ |     \*      |
+   |       Local Port       | REG_SZ | 50000-50019 |
+   |        Protocol        | REG_SZ |     \*      |
+   |       Remote IP        | REG_SZ |     \*      |
+   |    Remote IP Prefix    | REG_SZ |     \*      |
+   |      Remote Port       | REG_SZ |     \*      |
+   |     Throttle Rate      | REG_SZ |     -1      |
+
+
+5. Verify that the value for the Application Name entry is correct for the client you’re using, and verify that both the DSCP Value and Local Port entries reflect the settings in the Group Policy object.
 
 ## Validate QoS by analyzing Teams traffic on the network
 

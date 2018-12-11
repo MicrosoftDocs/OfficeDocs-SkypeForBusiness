@@ -8,9 +8,10 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Use this guidance to prepare your tenant for Teams deployment and rollout   
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ---
@@ -54,8 +55,8 @@ When you’re onboarding users on a per-site basis, we highly recommended that y
 >Most of the configuration settings are common between Teams and Skype for Business Online. You use the Microsoft Teams & Skype for Business Admin Center to configure those settings.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision point</td><td><ul><li>Who will be responsible for overseeing the completion of the onboarding checklists?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Next steps</td><td><ul><li>Download the onboarding checklists.</li><li>Work through the onboarding checklist items step-by-step in accordance with your organization’s deployment plan.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision point</td><td><ul><li>Who will be responsible for overseeing the completion of the onboarding checklists?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Next steps</td><td><ul><li>Download the onboarding checklists.</li><li>Work through the onboarding checklist items step-by-step in accordance with your organization’s deployment plan.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

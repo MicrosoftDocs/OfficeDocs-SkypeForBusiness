@@ -3,62 +3,61 @@ title: "CQD Development Samples"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: "Summary: Review a tutorial and development samples for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015."
+description: "Summary: Review a tutorial and development samples for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server."
 ---
 
 # CQD Development Samples
- 
-**Summary:** Review a tutorial and development samples for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server 2015.
-  
+
+**Summary:** Review a tutorial and development samples for Call Quality Dashboard. Call Quality Dashboard is a tool for Skype for Business Server.
+
 This article provides a tutorial and samples on development for Call Quality Dashboard (CQD).
-  
+
 ## Call Quality Dashboard (CQD) Development Samples
 
 Tutorial: Building Customized Report Presentation using the CQD Data Service and Repository Service API's.
-  
+
 ### Introduction to CQD
 
 CQD offers quick and easy access to aggregated call quality information for on-premise Skype for Business Server deployments. CQD consists of three components: the QoE Archive database, the Cube, and the Portal. The Portal is the main presentation layer and can be further divided into the following three components:
-  
-1. Data Service, which is accessible for authenticated users through the [Data API for Call Quality Dashboard (CQD) in Skype for Business Server 2015](data-api.md).
-    
-2. Repository Service, which is accessible for authenticated users through the [Repository API for Call Quality Dashboard (CQD) in Skype for Business Server 2015](repository-api.md).
-    
+
+1. Data Service, which is accessible for authenticated users through the [Data API for Call Quality Dashboard (CQD) in Skype for Business Server](data-api.md).
+
+2. Repository Service, which is accessible for authenticated users through the [Repository API for Call Quality Dashboard (CQD) in Skype for Business Server](repository-api.md).
+
 3. Web portal, which is the HTML5 based interface that CQD users see and interact with. This is accessible for authenticated users.
-    
+
 The reports shown on the web portal are grouped into "report sets". The figure shows a report set with two reports. Each report in this dashboard below shows query results on number of good calls, poor calls and poor call percentage for several months, with various filters applied. 
-  
+
 ![CQD Sample Report](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
-  
+
 CQD is created following the Call Quality Methodology (CQM), so the default set of reports is designed to align with the investigation flow introduced by CQM. Users also have the flexibility to edit or create custom reports to meet their needs. However, since there are multiple ways to visualize the data, the visualization provided by CQD may not fully address the needs of every user. In such situations, a user can leverage the Data APIs and Repository APIs to create custom report pages. We will go through a series of examples in this tutorial.
-  
+
 ### How the dashboard consumes the data service
 
 When navigating to the CQD homepage (e.g. http://localhost/cqd), the report set and corresponding reports for an authenticated and authorized user will be retrieved from the Repository Service. A full URL will be constructed from the report-set ID and the year-month (report-set ID is the integer number after '/#/' section in URL, and by default the current year-month is appended at the end of the report-set ID after the slash). The report definitions are stored in JSON format and when retrieved from the Repository Service, will then be used as input to the Data Service. The Data Service generates Multi-Dimension expressions (MDX) queries based on the input and then run these MDX queries against the Cube to retrieve data for each report. 
-  
+
 ### Building customized reports
 
 CQD already has a lot of flexibility in customizing reports, but there could be situations where users may want to aggregate data across multiple reports created in CQD. For example, there could be a need to create a report that shows the poor call percentages of all possible combinations of wired calls in a table (a result like the figure):
-  
+
 ![CQD Table](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
-  
+
 Using the Portal provided by CQD, a user would have to navigate to multiple reports to extract and record the poor call % for each one, which can be laborious if there are many data points that need to be collected. The Data APIs provide users with a programmatic way to accomplish this, by retrieving data from the Data Service (e.g. via AJAX calls). 
-  
+
  **Example 1: Simple report sample**
-  
+
 Let us take a simple example first. If we want to show the Audio Good Stream and the Audio Bad stream count of February 2015 on an HTML page like the figure:
-  
+
 ![CQD Example Report](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
-  
+
 What we need is to send a call to the Data Service with the proper parameters, and show the query results in an HTML table. The following is a sample of the JavaScript code:
-  
+
 ```        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
             var query = {
@@ -86,47 +85,47 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
                 }
                 error: function (error) {
                     alert('Error getting data, check that the data service is running and that the URL is correct.');
-	       }
+           }
             });
         });
 ```
 
 This example can be further deconstructed into three steps:
-  
+
 1. Construct the query (in the example this is defined in the variable 'query'). The query is defined as a JSON object, which includes the following data:
-    
+
    a. Zero or more dimensions. Each dimension is indicated by a DataModelName.
-    
+
    b. Zero or more filters. Each filter has:
-    
-      - DataModelName (the dimension that will have the filter set).
-    
-      - Value (the value that will be compared by the operand).
-    
-      - Operand (comparison type, 0 means "Equal").
-    
-    c. One or more measurements.
-    
+
+   - DataModelName (the dimension that will have the filter set).
+
+   - Value (the value that will be compared by the operand).
+
+   - Operand (comparison type, 0 means "Equal").
+
+     c. One or more measurements.
+
 2. Send the query to Data Service via AJAX call. The following request parameters need to be provided:
-    
+
    a. url (which should be http://[ServerName]/QoEDataService/RunQuery).
-    
+
    b. data (this is the string representation of the JSON object defined in the 'query' variable). Data Service will return the query results as a parameter of the call back function for success.
-    
+
    c. type (for QoEDataService, RunQuery only accepts 'POST' requests).
-    
+
    d. async (a flag indicating whether the AJAX call should be synchronous or asynchronous).
-    
+
    e. contentType (should be "application/json").
-    
+
    f. success (call-back function for when the AJAX call finishes successfully).
-    
+
    g. error (error handling function for when AJAX call fails).
-    
+
 3. Put data into div elements in the HTML (in the example in the code, this is done via the anonymous function call after the AJAX request is completed successfully).
-    
+
 Enclosing the JavaScript code into an HTML page, and the page will show a report like the one shown in the figure. The full html is as follows:
-  
+
 ```
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -163,7 +162,7 @@ Enclosing the JavaScript code into an HTML page, and the page will show a report
                 }
                 error: function (error) {
                     alert('Error getting data, check that the data service is running and that the URL is correct.');
-	       }
+           }
 
             });
         });
@@ -185,19 +184,19 @@ Enclosing the JavaScript code into an HTML page, and the page will show a report
 ```
 
 So far, the report is still very simple. The user can add more measurements, dimensions, or filters to customize the report. For example, if you want to show AppSharing poor call percentage, then a new measurement regarding AppSharing needs to be added. If you want to show all TCP calls v.s. UDP calls, a new dimension regarding transportation type should be added. If you want to show the number of poor calls within a specific building, then a new filter should be added to select the calls to and from that building.
-  
+
  **Example 2: Report definition sample**
-  
+
 It might be difficult for someone to figure out how to write the full list of measurements/dimensions/filters and their corresponding values when constructing a query. In this case, you can go to the Portal, build a report using the report editor, and view the JSON string of the report definition, and then copy the definition into a custom report. 
-  
+
 In this example, we will create a web page like the one shown in the figure where a user can enter the ID of any existing report set (or report) and show the definition of the report set or report on the web page. The user can then plug the JSON string of each report into code similar to the one shown in Example 1 and construct any customized report the user desires. 
-  
+
 ![CQD Example](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
-  
+
 To create the report definition viewer tool, we need to send calls to Repository Service to retrieve the JSON string representations of the definitions of every report-set we want. The Repository API will return report-set definition based on a given report set ID. 
-  
+
 A quick example is as follows, the code contains a block that is a simple example to send a query to the Repository service to get the contents of a repository item based on its identifier. And the next portion of code (processReportSetData method) is sending AJAX calls to get the definition of each report within that report set. Since the ID in the CQD web portal is the ID of a report set, the AJAX call will return a report set item. More detail on the Repository API and specifically, GetItems, can be found in the [Get Items](get-items.md). 
-  
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -217,14 +216,14 @@ A quick example is as follows, the code contains a block that is a simple exampl
         <div id="Report"></div>
     <!-- Third party Libraries -->
     <script src="OpenSourceSoftware/Scripts/jquery-2.1.1.js"></script>
-      
+
     <script>
         var urlRepositoryApi = 'http://localhost/QoERepositoryService/repository/item/';
-        
+
         var loadReportSet = function ()
         {
             var reportSetId = document.getElementById('reportSetId').value;
-            
+
             $.ajax({
                 url: urlRepositoryApi + reportSetId,
                 data: '',
@@ -241,11 +240,11 @@ A quick example is as follows, the code contains a block that is a simple exampl
                 }
             });
         };
-        
+
         var processReportSetData = function (divReportSet, reportSetDef) {
              //show the report set definition like Title, Description, etc
             showReportSetDefinition(divReportSet, reportSetDef);
-            
+
             //for each Report in the Reportset, get the Report definition from the Repository Service
             for (var i = 0; i < reportSetDef.subItemIds.length; i++)
             {
@@ -292,7 +291,7 @@ A quick example is as follows, the code contains a block that is a simple exampl
                 var subItemId = reportData.subItemIds.length > 0 ? reportData.subItemIds[0].toString() : 'none';
                 divReportId.innerHTML = 'ItemId: ' + itemId.toString() + ' (' + Report.Title + ') [subItemId:' + subItemId + ']';
                 divReport.appendChild(divReportId);
-                
+
                 var divReportDef = document.createElement('div');
                 txt = document.createTextNode(JSON.stringify(Report));
                 divReportDef.style.margin = '12px';
@@ -306,29 +305,29 @@ A quick example is as follows, the code contains a block that is a simple exampl
 ```
 
 The above will result in a web page like the one in the figure (without the report definition upon initial visit). Get the report set ID from CQD portal (it is after '/#/' sign in CQD portal URL (E.g. in the first figure the report set ID is 3024), and put this report set ID into the input section of this web page. Press the "load" button and see the full definition (measurements, dimensions, filters lists) of the report set.
-  
+
 In summary, in order to quickly get the full definition of a report/report set. The steps are:
-  
+
 1. Go to the Portal and use the query editor to customize a report (click the "Edit" button above a report to edit, add, remove measurements/dimensions/filters, and then save the report).
-    
+
 2. Get the report set ID from URL (the integer after '/#/' sign in URL).
-    
+
 3. Launch this Report Definition web page created in Example 2, and enter the report set ID and retrieve the full definition of a report set (to use in Data API calls).
-    
- **Example 3: Scorecard sample**
-  
+
+   **Example 3: Scorecard sample**
+
 Time for a more complicated task. What if we want to create a web page like the figure? We need to update Example 1, (with the help of the web page generated in Example 2 to retrieve the full definition of any report) so that we can handle larger amount of data.
-  
+
 In this case, we need to update the measurement and dimension list. The way to figure out how to add/edit a measurement and/or a dimension is to follow the instructions in Example 2, and retrieve the full report definition, including the full measurement and dimension lists. Plug the full report definition into the sample code. 
-  
+
 Here are the detailed steps to get to the scorecard page in the figure from the sample provided in Example 1:
-  
+
 1. Update Measurements in the 'query' variable from  `[Measures].[Audio Good Streams JPDR Count]` and `[Measures].[Audio Poor Streams JPDR Count]` to `[Measures].[AudioPoorJPDRPercentage]`. 
-    
+
 2. Update the filters. The JSON data for Filters in Example 1 has one filter, which is set on the dimension  `[StartDate].[Month]`. Since Filters is a JSON array, additional dimensions can be added to the list of filters. For example, to get the server-client inside wired calls for the "currentMonth", we should have the following filters:
-    
-  ```
-  Filters: [
+
+   ```
+   Filters: [
      { DataModelName: '[StartDate].[Month]', Value: currentMonth, Operand: 0 },
     {
         "DataModelName": "[Scenarios].[ScenarioPair]",
@@ -339,23 +338,22 @@ Here are the detailed steps to get to the scorecard page in the figure from the 
      },
 
      { DataModelName: '[StreamType].[StreamType]', Caption: "Valid", Value: "[False]", Operand: 0, UnionGroup: "" }
-],
+   ],
+   ```
 
-  ```
+   Here the dimension  `[Scenarios].[ScenarioPair]` is set to equal `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. The  `[Scenario.][ScenarioPair]` is a special dimension created to simplify report creation. It has six values corresponding to `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. So instead of using a combination of 6 filters to define a scenario, we only need to use 1 filter. In our example, the value  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` translates to the scenario where: first is server, second is not server, first is inside, second is inside, first connection type is wired, and second connection type is wired, which is the exact definition of "Server-Client-Inside Wired".
 
-  Here the dimension  `[Scenarios].[ScenarioPair]` is set to equal `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. The  `[Scenario.][ScenarioPair]` is a special dimension created to simplify report creation. It has six values corresponding to `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. So instead of using a combination of 6 filters to define a scenario, we only need to use 1 filter. In our example, the value  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` translates to the scenario where: first is server, second is not server, first is inside, second is inside, first connection type is wired, and second connection type is wired, which is the exact definition of "Server-Client-Inside Wired".
-    
 3. Create one filter set per scenario. Each row in the scorecard, in the figure, represents a different scenario, which will be a different filter (while the dimensions and measurements stay the same). 
-    
+
 4. Parse the results from the AJAX calls and place them in the correct position of the table. Since this is mostly HTML and JavaScript manipulation, we will not go into the details here. Instead, the code is provided in Appendix A.
-    
+
     > [!NOTE]
     >  If Cross-Origin Resource Sharing (CORS) is enabled, users may encounter errors like "No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access". To resolve the issue, place the HTML file under the folder where the Portal is installed (by default, it should be `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`. Then access the html through any browser with the URL  `http://<servername>/cqd/<html_file_name>`. (The default URL for local CQD dashboard is  `http://<servername>/cqd.`) 
-  
+
 ### Appendix A
 
 HTML code for Example 3 (Scorecard sample):
-  
+
 ```
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -366,7 +364,7 @@ HTML code for Example 3 (Scorecard sample):
     <meta http-equiv='pragma' content='no-cache'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Scoreboard Sample</title>
-        
+
     <style>
         .row {
             margin-right: -15px;
@@ -692,7 +690,7 @@ HTML code for Example 3 (Scorecard sample):
                     Trend: { EnableTrend: true, SpanCount: numMonthsToShow, TrendDate: currentMonth, Type: 0 }
                 }
             }
-            
+
             ];
 
             //get the overall corpnet data
@@ -706,10 +704,10 @@ HTML code for Example 3 (Scorecard sample):
                     withCredentials: true,
                     contentType: 'application/json;charset=utf-8',
                     success: function (data) {
-                        
+
                         //find the table row corresponding to the name of this query
                         var row = document.getElementById(queries[i].ID);
-                        
+
                         //update the values for each month
                         for (var m = 0; m < data.DataResult.length; m++)
                         {

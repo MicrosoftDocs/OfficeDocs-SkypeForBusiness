@@ -6,7 +6,7 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -31,22 +31,22 @@ A trunk is a logical connection between a Mediation Server and a gateway.
 1. Start Topology Builder: Click **Start**, click **All Programs**, click **Skype for Business Server 2015**, and then click **Skype for Business Server 2015Topology Builder**.
     
 2. Under Skype for Business Server, your site name, **Shared Components**, right-click the **Trunks** node, and then click **New Trunk**.
-    3. In **Define New Trunk**, specify a friendly name to uniquely identify the trunk. You cannot have two trunks with the same name.
+   1. In **Define New Trunk**, specify a friendly name to uniquely identify the trunk. You cannot have two trunks with the same name.
     
-    > [!NOTE]
-    > If you specify Transport Layer Security (TLS) as the transport type, you must specify the FQDN instead of the IP address of the peer of the Mediation Server. 
+      > [!NOTE]
+      > If you specify Transport Layer Security (TLS) as the transport type, you must specify the FQDN instead of the IP address of the peer of the Mediation Server. 
   
-4. Under **Associated PSTN gateway**, select the PSTN gateway peer to associate with this trunk.
+3. Under **Associated PSTN gateway**, select the PSTN gateway peer to associate with this trunk.
     5. Under **Listening Port for PSTN gateway**, type the listening port that the peer (PSTN gateway, IP-PBX, or SBC) will receive SIP messages from the Mediation Server that is to be associated with this trunk. The default peer ports are 5066 for Transmission Control Protocol (TCP) and 5067 for Transport Layer Security (TLS). The default Survivable Branch Appliance ports are 5081 for TCP and 5082 for TLS.
     
-6. Under **SIP Transport Protocol**, click the transport type that the peer uses.
+4. Under **SIP Transport Protocol**, click the transport type that the peer uses.
     
     > [!NOTE]
     > For security reasons, we strongly recommend that you deploy a peer to the Mediation Server that can use TLS. 
   
-7. Under **Associated Mediation Server**, select the Mediation Server pool to associate with the root trunk of this peer
+5. Under **Associated Mediation Server**, select the Mediation Server pool to associate with the root trunk of this peer
     
-8. Under **Associated Mediation Server port**, type the listening port that the Mediation Server will receive SIP messages from the peer.
+6. Under **Associated Mediation Server port**, type the listening port that the Mediation Server will receive SIP messages from the peer.
     
     > [!NOTE]
     > With multiple trunk support in Skype for Business Server, two trunks with different trunk names cannot be configured with the same **Associated Mediation Server port** and **Listening Port for IP/PSTN gateway**
@@ -54,6 +54,6 @@ A trunk is a logical connection between a Mediation Server and a gateway.
     > [!NOTE]
     > With multiple trunk support in Skype for Business Server, multiple SIP signaling ports can be defined on the Mediation Server for communication with multiple peers. When defining a trunk, the **Associated Mediation Server port** number must be within the range of the listening ports for the respective protocol allowed by the Mediation Server. This port range is defined under Skype for Business Server and Mediation Server pools. Right-click the relevant Mediation Server pool, and select **Edit Properties**. Specify the port range in the **Listening ports** field.
   
-9. Click **OK**. 
+7. Click **OK**. 
     
 

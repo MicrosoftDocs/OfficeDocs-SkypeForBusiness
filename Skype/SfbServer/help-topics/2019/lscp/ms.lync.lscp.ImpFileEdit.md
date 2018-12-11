@@ -15,12 +15,12 @@ description: "What do you want to do? Click the link to the task that you want t
 ---
 
 # File Filter: Create New or Edit Existing
- 
+
 What do you want to do? Click the link to the task that you want to perform.
-  
-- [Modify the Default File Transfer Filter](http://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
-    
-- [Create a New File Transfer Filter for a Specific Site](http://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
-    
- 
+
+- [Modify the Default File Transfer Filter](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
+
+- [Create a New File Transfer Filter for a Specific Site](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
+
+
 

@@ -42,35 +42,35 @@ To make either of these changes, you must run Topology Builder, make the changes
     
 7. In **Archiving**, do the following:
     
-  - To change to a different existing SQL Server store, under **Archiving SQL Server store**, in the drop-down list box, do the following:
+   - To change to a different existing SQL Server store, under **Archiving SQL Server store**, in the drop-down list box, do the following:
     
-  - To use an existing SQL Server store, in the drop-down list box, click the name of the SQL Server store that you want to use.
+   - To use an existing SQL Server store, in the drop-down list box, click the name of the SQL Server store that you want to use.
     
-  - To specify a new SQL Server store, click **New**, and then in the **Define New SQL Server store** dialog box, do the following:
+   - To specify a new SQL Server store, click **New**, and then in the **Define New SQL Server store** dialog box, do the following:
     
-    - To use an existing SQL Server store, in the drop-down list box, click the name of the SQL Server store that you want to use.
+     - To use an existing SQL Server store, in the drop-down list box, click the name of the SQL Server store that you want to use.
     
-    - To specify a new SQL Server store, click **New**, and then in the **Define New SQL Server Store** dialog box, do the following:
+     - To specify a new SQL Server store, click **New**, and then in the **Define New SQL Server Store** dialog box, do the following:
     
-      - In **SQL Server FQDN**, specify the FQDN of the server on which you want to create the new SQL Server store.
+       - In **SQL Server FQDN**, specify the FQDN of the server on which you want to create the new SQL Server store.
     
-      - Either click **Default Instance** to use the default instance, or, to specify a different instance, click **Named instance**, and then specify the instance you want to use.
+       - Either click **Default Instance** to use the default instance, or, to specify a different instance, click **Named instance**, and then specify the instance you want to use.
     
-      - If the specified SQL Server instance is in a mirroring relationship, select the **This SQL instance is in mirroring relation** check box, and then, in **Mirror port number**, specify the port number.
+       - If the specified SQL Server instance is in a mirroring relationship, select the **This SQL instance is in mirroring relation** check box, and then, in **Mirror port number**, specify the port number.
     
-  - To add SQL Server store for mirroring or change to a different existing SQL Server store for SQL Server store mirroring, select **Enable SQL Server store mirroring**, and then do the following:
+   - To add SQL Server store for mirroring or change to a different existing SQL Server store for SQL Server store mirroring, select **Enable SQL Server store mirroring**, and then do the following:
     
-    - To use an existing SQL Server store for mirroring, in the **Archiving SQL Server store mirror** drop-down list box, click the name of the SQL Server store that you want to use for mirroring.
+     - To use an existing SQL Server store for mirroring, in the **Archiving SQL Server store mirror** drop-down list box, click the name of the SQL Server store that you want to use for mirroring.
     
-    - To specify a new SQL Server store for mirroring, click **New**, and then in the **Define New SQL Server Store** dialog box, do one of the following:
+     - To specify a new SQL Server store for mirroring, click **New**, and then in the **Define New SQL Server Store** dialog box, do one of the following:
     
-      a. In **SQL Server FQDN**, specify the FQDN of the SQL Server on which you want to create the new SQL Server store.
+       a. In **SQL Server FQDN**, specify the FQDN of the SQL Server on which you want to create the new SQL Server store.
     
-      b. Either click **Default Instance** to use the default instance, or, to specify a different instance, click **Named Instance**, and then specify the instance you want to use.
+       b. Either click **Default Instance** to use the default instance, or, to specify a different instance, click **Named Instance**, and then specify the instance you want to use.
     
-      c. If the specified SQL Server instance is in a mirroring relationship, select the **This SQL instance is in mirroring relation** check box, and then, in **Mirror port number**, specify the port number.
+       c. If the specified SQL Server instance is in a mirroring relationship, select the **This SQL instance is in mirroring relation** check box, and then, in **Mirror port number**, specify the port number.
     
-  - If you enable SQL Server mirroring and want to add or change a SQL Server mirroring witness (a third, separate SQL Server instance that can detect the health of the primary SQL Server server and mirror instances), select the **Use SQL Server mirroring witness to enable automatic failover** check box, and then do one of the following:
+   - If you enable SQL Server mirroring and want to add or change a SQL Server mirroring witness (a third, separate SQL Server instance that can detect the health of the primary SQL Server server and mirror instances), select the **Use SQL Server mirroring witness to enable automatic failover** check box, and then do one of the following:
     
       a. In **SQL Server FQDN**, specify the FQDN of the server on which you want to create the new SQL Server mirroring witness.
     
@@ -78,10 +78,10 @@ To make either of these changes, you must run Topology Builder, make the changes
     
       c. If the specified SQL Server instance is in a mirroring relationship, select the **This SQL instance is in mirroring relation** check box, and then, in **Mirror port number**, specify the port number.
     
-  - To switch to Microsoft Exchange integration to store archiving data and files on Exchange servers (if all users in your deployment are homed on your Exchange servers), delete all information for Archiving databases.
+   - To switch to Microsoft Exchange integration to store archiving data and files on Exchange servers (if all users in your deployment are homed on your Exchange servers), delete all information for Archiving databases.
     
-    > [!IMPORTANT]
-    > If you have any Skype for Business users who are not homed on Exchange servers, do not delete the SQL Server store information. 
+     > [!IMPORTANT]
+     > If you have any Skype for Business users who are not homed on Exchange servers, do not delete the SQL Server store information. 
   
 8. To save the configuration, click **OK**.
     

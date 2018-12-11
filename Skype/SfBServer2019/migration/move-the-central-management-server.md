@@ -30,9 +30,9 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
     
 3. To create the new Central Management store in the Skype for Business Server 2019 SQL Server database, in the Skype for Business Server Management Shell, type:
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
+   ```
 
 4. Confirm that the status of the **Skype for Business Server Front-End** service is **Started**.
     
@@ -51,9 +51,9 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
   
 5. To create the new Central Management store on the Skype for Business Server 2019 Standard Edition Front End Server, in the Skype for Business Server Management Shell, type: 
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
+   ```
 
 6. Confirm that the status of the **Skype for Business Server Front-End** service is **Started**.
     
@@ -65,18 +65,18 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
     
 3. In the Skype for Business Server Management Shell, type: 
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
     > [!CAUTION]
     > If `Enable-CsTopology` is not successful, resolve the problem preventing the command from completing before continuing. If **Enable-CsTopology** is not successful, the move will fail and it may leave your topology in a state where there is no Central Management store. 
   
 4. On the Skype for Business Server 2019 Front End Server or Front End pool, in the Skype for Business Server Management Shell, type: 
     
-  ```
-  Move-CsManagementServer
-  ```
+   ```
+   Move-CsManagementServer
+   ```
 
 5. Skype for Business Server Management Shell displays the servers, file stores, database stores, and the service connection points of the Current State and the Proposed State. Read the information carefully and confirm that this is the intended source and destination. Type **Y** to continue, or **N** to stop the move. 
     
@@ -94,9 +94,9 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
     
 12. To confirm that replication with the new Central Management store is occurring, in the Skype for Business Server Management Shell, type: 
     
-  ```
-  Get-CsManagementStoreReplicationStatus
-  ```
+    ```
+    Get-CsManagementStoreReplicationStatus
+    ```
 
     > [!NOTE]
     > The replication may take some time to update all current replicas. 
@@ -112,15 +112,15 @@ Use the procedures in this section to prepare the Skype for Business Server 2019
   
 3. To remove the Central Management store database files from the legacy install Central Management Server, type:
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
+   ```
 
     For example:
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
+   ```
 
     Where the  _\<FQDN of SQL Server\>_ is either the legacy install Back End Server in an Enterprise Edition deployment or the FQDN of the Standard Edition server. 
     

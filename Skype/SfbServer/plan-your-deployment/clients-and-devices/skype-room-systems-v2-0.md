@@ -2,6 +2,7 @@
 title: "Plan for Skype Room Systems v2"
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
@@ -45,7 +46,7 @@ In addition to the Surface Pro/dock combination, you can also purchase Skype Roo
 
 Typically, the bundles and integrated units include preinstalled software, whereas if you buy supported components individually for the Surface Pro systems, you’ll need to install the software. For instructions, see [this article about installing software on devices](../../deploy/deploy-clients/room-systems-scale.md). 
 
-You can deploy Skype Room Systems v2 with Skype for Business Online, or Skype for Business hybrid or on-premises deployments. Microsoft Teams support is coming very soon.
+You can deploy Skype Room Systems v2 with Skype for Business Online, or Skype for Business hybrid or on-premises deployments.  See [Skype Room Systems v2 Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) for information on the needed licenses.
 
 |    |     |
 |-----------|------------|

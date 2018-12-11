@@ -8,21 +8,28 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Use a proven success framework to help your organization's upgrade journey from Skype for Business to Teams
-localization_priority: Priority
+localization_priority: Normal
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
 ---
 
 # Skype for Business to Microsoft Teams upgrade
 
-
 Supporting Microsoft’s intelligent communications vision, Microsoft Teams is the central hub for teamwork, bringing together chat, meetings, calling, collaboration, app integration, and file storage. As an existing Skype for Business customer, you’re invited to upgrade to Microsoft Teams, to experience this full suite of communication and collaboration capabilities in a single client experience.
 
 Your upgrade journey might take some time, and we’re here to support you every step of the way. Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we’re working hard to bring you the right level of guidance for your organization and encourage you to take the next steps to begin realizing the value Teams can offer your organization.
 
 View this [overview](https://aka.ms/UpgradeOverview) for an introduction to the Skype for Business to Teams upgrade journey, including core concepts, framework, and upgrade paths.
+
+> [!Tip]
+> Watch the following session to learn about the Upgrade from Skype for Business to Microsoft Teams: 
+> - [Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)
+> - [Plan your upgrade](https://aka.ms/teams-upgrade-plan)
+> - [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Administrator experience](https://aka.ms/teams-upgrade-admin)
 
 ## Upgrade journey framework
 
@@ -43,12 +50,12 @@ Select one of the options below or explore both to determine the optimal path fo
 <div class="mx-tableFixed">
 <table>
 <tbody>
-<tr><td><a href="https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-basic"><img src="media/upgrade-to-teams-upgrade-basic-icon.png" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Basic checklist steps you through activities designed to quickly move your entire organization to Teams."></a></td>
+<tr><td><a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-basic"><img src="media/upgrade-to-teams-upgrade-basic-icon.png" alt="Designed for smaller organizations or those with simple deployments of Skype for Business (IM only or IM plus basic meeting functionality), the Upgrade Basic checklist steps you through activities designed to quickly move your entire organization to Teams."></a></td>
 <td>
-<a href="https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-pro"><img src="media/upgrade-to-teams-upgrade-pro-icon.png" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
+<a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-pro"><img src="media/upgrade-to-teams-upgrade-pro-icon.png" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
 </tbody></table>
 </div>
 
 
-> [!Important]
-> If you’re an admin on your Office 365 tenant, you might start seeing upgrade options in your PowerShell cmdlet or Teams Admin Center. Having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For an optimal user experience, confirm that Teams meets your collaboration and communication requirements, validate that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams.
+> [!IMPORTANT]
+> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

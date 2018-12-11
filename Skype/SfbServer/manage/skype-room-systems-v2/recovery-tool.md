@@ -3,6 +3,7 @@ title: "Use the Skype Room Systems v2 recovery tool"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: davgroom
 ms.date: 4/17/2018
 ms.audience: ITPro
 ms.topic: article

@@ -3,14 +3,15 @@ title: Prepare your organization's network for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 02/26/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: arachman
 description: Learn how to prepare and manage your Microsoft Teams network. Information includes network requirements, bandwidth requirements, and additional considerations.
-localization_priority: Priority
-MS.collection: Strat_MT_TeamsAdmin
-appliesto: 
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_Help
+appliesto:
 - Microsoft Teams
 ---
 
@@ -27,10 +28,10 @@ Teams combines three forms of traffic:
 
 This impacts the network on two levels: traffic will flow between the Microsoft Teams clients directly for peer-to-peer scenarios, and traffic will flow between the Office 365 environment and the Microsoft Teams clients for meeting scenarios. To ensure optimal traffic flow, traffic must be allowed to flow both between the internal network segments (for example, between sites over the WAN) as well as between the network sites and Office 365. Not opening the correct ports or actively blocking specific ports will lead to a degraded experience.
 
-> [!IMPORTANT]
-> Currently, meetings are supported on iOS and Android mobile devices, but not on Windows Phone.
+> [!NOTE]
+> Meetings are supported on iOS and Android mobile devices. 
 
-To get an optimal experience with real time media within Microsoft Teams, it is required to meet the networking requirements for Office 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US).
+To get an optimal experience with real time media within Microsoft Teams, it is required to meet the networking requirements for Office 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
 For the two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge), consider the following recommendations.
 
@@ -52,7 +53,10 @@ To test both network segments, you can use the [Network Assessment Tool](https:/
 Bandwidth requirements
 ----------
 
-Bandwidth calculations for Microsoft Teams are complex and to help with this, a calculator has been created. To access the calculator, go to [Network Planner in MyAdvisor](http://aka.ms/bwcalc/).
+Bandwidth calculations for Microsoft Teams are complex and to help with this, a calculator has been created. To access the calculator, go to [Network Planner in MyAdvisor](https://aka.ms/bwcalc/).
+
+> [!NOTE]
+> Teams bandwidth handling improves on Skype for Business Online: for a high quality calling or meeting experience (with audio, video, and sharing), Teams requires only 1.2 Mbps. It can also scale up further for super high quality if there is enough available bandwidth. When a Teams request encounters a low bandwidth condition, Teams can quickly readjust bandwidth usage to adapt to available bandwidth.
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

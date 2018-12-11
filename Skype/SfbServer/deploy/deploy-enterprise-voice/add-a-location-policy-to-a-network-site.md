@@ -6,7 +6,7 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Admin
@@ -39,9 +39,9 @@ For details about working with network sites, see the Lync Server Management She
     
     Assign the **Redmond** tagged Location policy to an existing network site named **Redmond**.
     
-  ```
-  Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
-  ```
+   ```
+   Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
+   ```
 
 ### To assign a location policy to a new network site
 

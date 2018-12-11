@@ -20,15 +20,15 @@ Common Area Phones are IP phones that most often reside in a shared workspace or
     
 2. From the command line, type the following:
     
-  ```
-  Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsCommonAreaPhone -Target pool02.contoso.net
-  ```
+   ```
+   Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsCommonAreaPhone -Target pool02.contoso.net
+   ```
 
 3. To verify that all contact objects have been moved to the Skype for Business Server 2019 pool, from the Skype for Business Server Management Shell type the following:
     
-  ```
-  Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool02.contoso.net"}
-  ```
+   ```
+   Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool02.contoso.net"}
+   ```
 
     Verify that all contact objects are now associated with the Skype for Business Server 2019 pool.
     

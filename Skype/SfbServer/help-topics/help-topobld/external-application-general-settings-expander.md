@@ -21,7 +21,7 @@ To edit the properties for a trusted application server that has already been de
 There are two sections that you can modify:
   
 > General settings
-    
+> 
 > Next hop settings
     
 ## General Settings

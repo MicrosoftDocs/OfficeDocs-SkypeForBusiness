@@ -37,7 +37,7 @@ Enter-CcUpdate
 ## Detailed Description
 <a name="DetailedDescription"> </a>
 
-The Enter-CcUpdate cmdlet will ensure that all running calls on a Cloud Connector appliance will complete, but the appliance will reject any new calls, which are transferred to other production appliances. This cmdlet enables you to update an appliance without affecting end users calls. You must ensure that the remaining production appliances have enough capacity to handle the calls from the appliance that you are preparing to update.
+The Enter-CcUpdate cmdlet will immediately stop all services ending any ongoing calls and the appliance will reject any new calls, which are transferred to other production appliances. You must ensure that the remaining production appliances have enough capacity to handle the calls from the appliance that you are preparing to update.
   
 Maintenance mode is useful if your appliance has automatic update enabled, for example, and Microsoft releases a critical hotfix. Maintenance mode is also useful if you decide to turn off automatic updates, but you perform manual updates on a consistent basis.
   

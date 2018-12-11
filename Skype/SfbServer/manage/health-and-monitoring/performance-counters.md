@@ -22,7 +22,7 @@ The category name for the counters in the UCWA table is **LS:WEB - UCWA**.
 The category name for the counters in the Mcx Mobility Service table is **LS:WEB - Mobile Communication Service**.
 
 > [!NOTE]
-> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
+> MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019. All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts. Users with legacy clients using MCX will need to upgrade to a current client.
   
 ## Performance Counters for UCWA
 
@@ -109,4 +109,4 @@ The category name for the counters in the Mcx Mobility Service table is **LS:WEB
 |Total Successful Outbound Voice Calls  <br/> |The total number of outbound voice calls that were successful  <br/> |
    
 > [!NOTE]
-> MCX support for legacy mobile clients is no longer available in Skype for Business Server 2019. Your users will need to upgrade to a current client.
+> MCX (Mobility Service) support for legacy mobile clients is no longer available in Skype for Business Server 2019. All current Skype for Business mobile clients already use Unified Communications Web API (UCWA) to support instant messaging (IM), presence, and contacts. Users with legacy clients using MCX will need to upgrade to a current client.

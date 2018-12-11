@@ -1,5 +1,5 @@
 ---
-title: "Set the phone numbers included on invites"
+title: "Set the phone numbers included on invites in Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,23 +8,26 @@ ms.topic: article
 ms.assetid: 32954439-d365-4125-872f-b37466ecb035
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: 
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business 
-- Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. "
 ---
 
-# Set the phone numbers included on invites
+# Set the phone numbers included on invites in Skype for Business Online
 
-Audio Conferencing in Office 365 enables users in your organization to create Skype for Business and Microsoft Teams meetings, and then allow users to dial in to those meetings using a phone. In Office 365, you have the option of using a Microsoft audio conferencing bridge or a third-party audio conferencing bridge that is hosted by an approved audio conferencing provider (ACP).
+> [!Note]
+> For information about meeting invite phone numbers in Microsoft Teams, see [Set the phone numbers included on invites in Microsoft Teams](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams).
+
+Audio Conferencing in Office 365 enables users in your organization to create Skype for Business meetings, and then allow users to dial in to those meetings using a phone. In Office 365, you have the option of using a Microsoft audio conferencing bridge or a third-party audio conferencing bridge that is hosted by an approved audio conferencing provider (ACP).
   
 > [!NOTE]
 > There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing. If you are looking to see if there are dial-in phone numbers available in your area or country/region, use the **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add** then **New Service Numbers**. Use the lists for **Country/Region**, **State/Region** and **City** to filter your search.> Also, if you are looking for toll free service numbers, select **Toll-Free** from the **State/Region** list.
@@ -39,24 +42,6 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
   
 ## Set the default dial-in phone number for a meeting organizer
 
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
-
-1. In the left navigation, click **Users**, and then select the user from the list of available users.
-
-    ![Shows selecting users in the Microsoft Teams and Skype for Business Admin Center](../images/teamsselectusers.png)
-
-2. At the top of the page, click **Edit**.
-
-    ![Click Edit in the Microsoft Teams and Skype for Business Admin Center](../images/teamsedituser.png)
-
-3. Next to **Audio Conferencing**, click **Edit**. 
-    
-    ![Click Edit next to Audio conferencing](../images/teamseditaudioconf.png)
-
-4. Use the **Toll number** or **Toll-free number** fields to enter the numbers for the user.
-
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
-
 1. Sign in to Office 365 with your work or school account.
     
 2. Choose **Admin centers** > **Skype for Business**.
@@ -67,11 +52,11 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
   
 4. Choose the users you want to edit:
     
-  - To select a single user, select the user's name.
+   - To select a single user, select the user's name.
     
-  - To select all users on the page, select the box next to **Display name** at the top of the list.
+   - To select all users on the page, select the box next to **Display name** at the top of the list.
     
-  - To select multiple users, select the box next to each user's name.
+   - To select multiple users, select the box next to each user's name.
     
 5. In the right panel, choose **Edit**.
     
@@ -81,29 +66,15 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
     
 7. On the **Properties** page, in the **Provider name** list, choose the provider for the user. Depending on the provider, complete the following boxes.
     
-  - **Microsoft is the provider**: Use the **Default toll number** and **Default toll-free number** lists to select the default numbers for the user.
+   - **Microsoft is the provider**: Use the **Default toll number** and **Default toll-free number** lists to select the default numbers for the user.
     
-    > [!NOTE]
-    > At least one toll-free number must be assigned to your conferencing bridge before it can be set as the default toll-free number of a user. To get a toll-free number, see [Getting service phone numbers for Skype for Business and Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
+     > [!NOTE]
+     > At least one toll-free number must be assigned to your conferencing bridge before it can be set as the default toll-free number of a user. To get a toll-free number, see [Getting service phone numbers for Skype for Business](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
-  - **A third-party is the provider**: Use the **Toll number** and **Toll-free number** fields to enter the numbers for the user.
+   - **A third-party is the provider**: Use the **Toll number** and **Toll-free number** fields to enter the numbers for the user.
 
-
-## Change the audio conferencing phone number for users
-
-![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**
-
-1. In the left navigation, click **Users**, and then select the user from the list of available users.
-
-2. At the top of the page, click **Edit**.
-
-3. Next to **Audio Conferencing**, click **Edit**. 
-    
-4. Use the **Toll number** or **Toll-free number** fields to enter the numbers for the user.
 
 ## Reset audio conferencing phone numbers
-
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**
 
 1. In the **Skype for Business admin center**, choose **Audio conferencing**.
     
@@ -114,7 +85,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
 By default, when you change a user's conferencing settings, an email is sent to the user. To change this, see [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change.md).
   
 > [!IMPORTANT]
-> When you change a user's audio conferencing settings, recurring and future Skype for Business and Microsoft Teams meetings must be updated and sent to attendees. 
+> When you change a user's audio conferencing settings, recurring and future Skype for Business meetings must be updated and sent to attendees. 
   
 ## Want to know how to manage with Windows PowerShell?
 
@@ -154,7 +125,7 @@ By default, when you change a user's conferencing settings, an email is sent to 
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-## Want to learn more about Windows PowerShell?
+  ## Want to learn more about Windows PowerShell?
 - When it comes to Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
     
   - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)

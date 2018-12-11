@@ -15,22 +15,22 @@ description: "Select each feature that you want to enable for the Front End pool
 ---
 
 # Add Front End Features
- 
-Select each feature that you want to enable for the Front End pool. At a minimum, you must deploy instant messaging (IM), which is always enabled and cannot be deselected. You also have the option of deploying other features, such as conferencing, Enterprise Voice, and call admission control (CAC). Some features are dependent on your topology. 
-  
+
+Select each feature that you want to enable for the Front End pool. At a minimum, you must deploy instant messaging (IM), which is always enabled and cannot be deselected. You also have the option of deploying other features, such as conferencing, Enterprise Voice, and call admission control (CAC). Some features are dependent on your topology.
+
 - Conferencing
-    
+
 - Enterprise Voice
-    
+
 - Call Admission Control (CAC)
-    
+
 - Archiving
-    
+
 - Monitoring
-    
+
 > [!NOTE]
-> If you would like to enable CAC in your deployment, you must enable CAC in exactly one pool per central site. We recommend CAC if you are deploying voice features or A/V Conferencing. 
-  
-For details about specifying features for an Enterprise Edition pool, see [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.
-  
+> If you would like to enable CAC in your deployment, you must enable CAC in exactly one pool per central site. We recommend CAC if you are deploying voice features or A/V Conferencing.
+
+For details about specifying features for an Enterprise Edition pool, see [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.
+
 

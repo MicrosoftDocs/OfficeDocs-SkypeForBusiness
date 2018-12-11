@@ -7,6 +7,7 @@ manager: samanro
 layout: LandingPage
 ms.assetid: 
 ms.service: skype-for-business-online-admin
+search.appverid: MET150
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
@@ -24,7 +25,7 @@ Find out what's new in Skype for Business Online.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg" alt="Article" />
+                            <img src="https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg" alt="Article" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -41,7 +42,7 @@ Find out what's new in Skype for Business Online.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-blue.svg" alt="What's new" />
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="What's new" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -58,7 +59,7 @@ Find out what's new in Skype for Business Online.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/connector-blue.svg" alt="Updates" />
+                            <img src="https://docs.microsoft.com/office/media/icons/connector-blue.svg" alt="Updates" />
                         </div>
                     </div>
                     <div class="cardText">

@@ -1,14 +1,15 @@
 ---
 title: Install Microsoft Teams using MSI (with SCCM)
-author: ninadara
-ms.author: ninadara
+author: Lester-Hewett
+ms.author: lehewe
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
 description: Admins can use the Teams MSI (with SCCM) to bulk dpeloy Microsoft Teams to select users or computers.
-MS.collection: Strat_MT_TeamsAdmin
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto: 
 - Microsoft Teams
 ---

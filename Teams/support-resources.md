@@ -3,10 +3,12 @@ title: Support resources for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: lolaj, ninadara
+ms.collection: Teams_ITAdmin_Help
+ms.reviewer: lolaj
+search.appverid: MET150
 description: A list of support resources for Microsoft Teams to help you use it more efficiently and effectively.
 appliesto: 
 - Microsoft Teams
@@ -31,7 +33,7 @@ Support resources for Microsoft Teams
 
 -   [Microsoft Teams Developer Preview](https://go.microsoft.com/fwlink/?linkid=854397)
 
--   [Known Issues](https://support.office.com/article/Known-issues-for-Microsoft-Teams-04b35d1b-bdca-420a-991b-878da5157650)
+-   [Known Issues](https://docs.microsoft.com/microsoftteams/known-issues)
 
 -   [Teams client release notes](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 

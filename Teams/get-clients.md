@@ -7,9 +7,11 @@ ms.date: 07/05/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: vichau, majafry
-localization_priority: Priority
-description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
+ms.collection: Teams_ITAdmin_Help
+ms.reviewer: harij, rafarhi
+localization_priority: Normal
+search.appverid: MET150
+description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android and iOS).
 ms.custom:
 - NewAdminCenter_Update
 appliesto: 
@@ -19,12 +21,18 @@ appliesto:
 Get clients for Microsoft Teams 
 ===========================
 
-Microsoft Teams has clients available for desktop (Windows and Mac), web, and mobile (Android,  iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode.
+Microsoft Teams has clients available for desktop (Windows and Mac), web, and mobile (Android and  iOS). These clients all require an active internet connection and do not support an offline mode.
+
+> [!NOTE]
+> Effective November 29, 2018, you'll no longer be able to use the Microsoft Teams for Windows 10 S (Preview) app, available from the Microsoft Store. We recommend that you use one of the Teams apps described below in this article after November 29.
 
 Desktop client
 --------------
 
-The Microsoft Teams desktop client is a standalone application and currently not part of Office Pro Plus. Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and macOS (10.10+). On Windows, Teams requires .NET framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. 
+> [!Tip]
+> Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it, and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
+
+The Microsoft Teams desktop client is a standalone application and currently not part of Office 365 ProPlus. Teams is available for both Windows (7+), both 32-bit and 64-bit versions, and macOS (10.10+). On Windows, Teams requires .NET Framework 4.5 or later; the Teams installer will offer to install it for you if you don't have it. 
 
 The desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.
 
@@ -42,11 +50,15 @@ The Microsoft Teams installation for Windows provides downloadable installers in
 > [!NOTE]
 > The architecture (32-bit vs. 64-bit) of Microsoft Teams is agnostic to the architecture of Windows and Office that is installed.
 
-The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client is installed in the following locations:
+The Windows client is deployed to the AppData folder located in the user’s profile. Deploying to the user’s local profile allows the client to be installed without requiring elevated rights. The Windows client leverages the following locations:
 
-- %appdata%\\local\\Microsoft\\Teams
+- %LocalAppData%\\Microsoft\\Teams
 
-- %appdata%\\roaming\\Microsoft\\Teams
+- %LocalAppData%\\Microsoft\\TeamsMeetingsAddin
+
+- %AppData%\\Microsoft\\Teams
+
+- %LocalAppData%\\SquirrelTemp
 
 When users initiate a call using the Microsoft Teams client for the first time, they might notice a warning with the Windows firewall settings that asks for users to allow communication. Users might be instructed to ignore this message because the call will work, even when the warning is dismissed.
 
@@ -92,15 +104,13 @@ The web client performs browser version detection upon connecting to [https://te
 Mobile clients
 --------------
 
-The Microsoft Teams mobile apps are available for Android, iOS, and Windows Phones, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile store for Google Play, Apple App Store, and Microsoft Store.
+The Microsoft Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store. The Windows Phone App was retired July 20, 2018 see [here](https://support.microsoft.com/en-us/help/4230833/windows-phone-app-for-microsoft-teams-is-retiring) for more information.
 
 Supported mobile platforms for Microsoft Teams mobile apps are the following:
 
 -   **Android**: 4.4 or later
 
 -   **iOS**: 10.0 or later
-
--   **Windows Phone**: Windows 10 Mobile
 
 > [!NOTE]
 > The mobile version must be available to the public in order for Teams to work as expected.
@@ -112,9 +122,6 @@ Mobile apps are distributed and updated through the respective mobile platform�
 |---------|---------|---------|
 |![Decision Point icon.](media/Get_clients_for_Microsoft_Teams_image4.png)      |Decision Point         |Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?         |
 |![Next Steps icon.](media/Get_clients_for_Microsoft_Teams_image5.png)     |Next Steps         |If your organization restricts software installation, make sure that process is compatible with Microsoft Teams. Note: Admin rights are not required for PC client installation but are required for installation on a Mac.         |
-
-
-  <span id="_Hlk477176062" class="anchor"></span>  Decision Point   Are there any restrictions preventing users from installing the appropriate Microsoft Teams client on their devices?
 
 Client update management
 ------------------------
@@ -132,3 +139,36 @@ Notification settings
 There are currently no options available for IT administrators to configure client-side notification settings. All notification options are set by the user. The figure below outlines the default client settings.
 
 ![Screenshot of Notifications settings.](media/Get_clients_for_Microsoft_Teams_image6.png)
+
+Sample PowerShell Script
+----------------------------
+
+This sample script, which needs to run on client computers in the context of an elevated administrator account, will create a new inbound firewall rule for each user folder found in c:\users. When Teams finds this rule, it will prevent the Teams application from prompting users to create firewall rules when the users make their first call from Teams. 
+
+```
+$users = Get-Childitem c:\users
+foreach ($user in $users) 
+{
+    $Path = "c:\users\" + $user.Name + "\appdata\local\Microsoft\Teams\Current\Teams.exe"
+    if (Test-Path $Path) 
+	{
+	        $name = "teams.exe " + $user.Name
+	        if (!(Get-NetFirewallRule -DisplayName $name))
+		{
+	            New-NetFirewallRule -DisplayName “teams.exe” -Direction Inbound -Profile Domain -Program $Path -Action Allow
+		}
+	}
+}
+<#
+        .ABOUT THIS SCRIPT
+        (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
+
+        Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions. 
+
+        The script will create a new inbound firewall rule for each user folder found in c:\users. 
+
+        Requires PowerShell 3.0
+        
+#>
+
+```

@@ -14,7 +14,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 ---
 
-# Topology Builder Lync Node
+# Topology Builder Skype for Business Server Node
  
 
 

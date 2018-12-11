@@ -15,7 +15,6 @@ description: "Summary: Explore these links to learn how to implement Skype for B
 
 # Skype for Business Server 2019
 
-[!INCLUDE [disclaimer](disclaimer.md)]
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json">
@@ -24,7 +23,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="Plan" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-blue.svg" alt="Plan" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -42,7 +41,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/office/media/icons/hybrid-blue.svg" alt="Chat" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -60,7 +59,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="User account" />
+                            <img src="https://docs.microsoft.com/office/media/icons/deploy-blue.svg" alt="User account" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -80,7 +79,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/upload-blue.svg" alt="Plan" />
+                            <img src="https://docs.microsoft.com/office/media/icons/upload-blue.svg" alt="Plan" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -98,7 +97,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/list-123-blue.svg" alt="Chat" />
+                            <img src="https://docs.microsoft.com/office/media/icons/list-123-blue.svg" alt="Chat" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -109,14 +108,14 @@ description: "Summary: Explore these links to learn how to implement Skype for B
         </div>
         </a>
     </li>
-    <li>
+    <li> 
         <a href="https://go.microsoft.com/fwlink/?linkid=2005336">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/download-blue.svg" alt="User account" />
+                            <img src="https://docs.microsoft.com/office/media/icons/download-blue.svg" alt="User account" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -128,9 +127,6 @@ description: "Summary: Explore these links to learn how to implement Skype for B
         </a>
     </li>
 </ul>
-
-
-
 
 <!-- 
 
@@ -200,9 +196,11 @@ description: "Summary: Explore these links to learn how to implement Skype for B
 -->
 
 ### Featured articles
-| | | |
-|:--- |:--- |:--- |
-|**Before you start** <br>[System requirements](plan/system-requirements.md) <br>[Network requirements](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) |**Install** <br>[Install Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [Migrate to Skype for Business 2019](migration/migration-to-skype-for-business-server-2019.md)|**Enterprise Voice**<br>[Plan](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Deploy](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)|
-|**New features**<br>[What's new](whats-new.md)  |**Hybrid solutions**<br>[Plan hybrid connectivity](hybrid/plan-hybrid-connectivity.md)<br> [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md)<br>[Plan Call Data Connector](hybrid/plan-call-data-connector.md)  |  |
-| | | |
-* * *   
+
+|                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Before you start** <br>[System requirements](plan/system-requirements.md) <br>[Network requirements](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Install** <br>[Install Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [Migrate to Skype for Business 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **Enterprise Voice**<br>[Plan](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Deploy](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
+| **New features**<br>[What's new](whats-new.md)                                                                                                                                         | **Hybrid solutions**<br>[Plan hybrid connectivity](hybrid/plan-hybrid-connectivity.md)<br> [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md)<br>[Plan Call Data Connector](hybrid/plan-call-data-connector.md) |  **Prior releases**<br/>  [Skype for Business Server 2015 documentation](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013 documentation](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
+|                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
+
+* * *

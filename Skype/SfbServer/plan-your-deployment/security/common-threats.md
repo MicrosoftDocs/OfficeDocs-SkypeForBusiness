@@ -43,21 +43,25 @@ The denial-of-service attack occurs when the attacker prevents normal network us
     
 ## Eavesdropping (Sniffing, Snooping)
 
-Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also calledsniffing orsnooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path. 
+Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path. 
   
 The default recommendation and setting for traffic within Skype for Business Server is to use mutual TLS (MTLS) between trusted servers and TLS from client to server. This protective measure would make an attack very difficult or impossible to achieve within the time period in which a given conversation occurs. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
   
 The Traversal Using Relay NAT (TURN) protocol does not mandate the traffic to be encrypted and the information that it is sending is protected by message integrity. Although it is open to eavesdropping, the information it is sending (that is, the IP addresses and port) can be extracted directly by simply looking at the source and destination addresses of the packets. The A/V Edge service ensures that the data is valid by checking the Message Integrity of the message by using the key derived from a few items, including a TURN password, which is never sent in clear text. If Secure Real Time Protocol (SRTP) is used, media traffic is also encrypted.
   
-## Identity Spoofing (IP Address Spoofing)
+## Identity Spoofing (IP Address and Caller Id Spoofing)
 
-Spoofing occurs when the attacker determines and uses an IP address of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the IP address. Within the context of Skype for Business Server, this situation comes into play only if an administrator has done both of the following:
+Identity Spoofing occurs when the attacker determines and uses a phone number of a valid user (caller id) or an IP address of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the phone number (caller id) or the IP address.
+
+Within the context of Skype for Business Server, IP Address Spoofing comes into play only if an administrator has done both of the following:
   
 - Configured connections that support only Transmission Control Protocol (TCP) (which is not recommended, because TCP communications are unencrypted).
     
 - Marked the IP addresses of those connections as trusted hosts.
     
 This is less of a problem for Transport Layer Security (TLS) connections, as TLS authenticates all parties and encrypts all traffic. Using TLS prevents an attacker from performing IP address spoofing on a specific connection (for example, mutual TLS connections). But an attacker could still spoof the address of the DNS server that Skype for Business Server uses. However, because authentication in Skype for Business is performed with certificates, an attacker would not have a valid certificate required to spoof one of the parties in the communication.
+
+On the other hand, Caller Id Spoofing comes into play when you have established a SIP trunk between a provider, PSTN gateway or another PBX system and Skype for Business Server. In these cases, Skype for Business Server does not offer any protection to prevent against caller id spoofing. This means that a Skype for Business user can receive a call from the SIP trunk with a spoofed caller id displaying the phone number or display name (if reverse number lookup applies) of another Skype for Business user. Protection to this should be applied on the provider side, PSTN or PBX gateway.
   
 ## Man-in-the-Middle Attack
 
@@ -96,9 +100,9 @@ The following tables list the data that is exposed over a public network.
    
 **Mandatory Data**
 
-|**Data Disclosed**|**Example Information**|
-|:-----|:-----|
-|IP Address  <br/> |Actual address of computer or NATed address  <br/> |
-|SIP URI  <br/> |jeremylos@litwareinc.com  <br/> |
-   
+
+| **Data Disclosed** | **Example Information**                            |
+|:-------------------|:---------------------------------------------------|
+| IP Address  <br/>  | Actual address of computer or NATed address  <br/> |
+| SIP URI  <br/>     | jeremylos@litwareinc.com  <br/>                    |
 

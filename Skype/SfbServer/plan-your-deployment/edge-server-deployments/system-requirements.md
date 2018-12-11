@@ -5,7 +5,7 @@ author: microsoftheidi
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - IT_Skype16
 - Strat_SB_Hybrid
@@ -94,7 +94,7 @@ Our current reverse proxy recommendations can be found on the [Telephony Infrast
     
 - should be able to publish an internally hosted web site externally by using a fully qualified domain name (FQDN).
     
-- needs to be able to publish all the contents of your hosted web site. By default, you can use the **/\*** directive, which is recognized by most web servers to mean "Publish all content on the web server." You can also modify the directive—for example, **/Uwca/\***, which means "Publish all content under the virtual directory Ucwa."
+- needs to be able to publish all the contents of your hosted web site. By default, you can use the **/\\*** directive, which is recognized by most web servers to mean "Publish all content on the web server." You can also modify the directive—for example, **/Uwca/\\***, which means "Publish all content under the virtual directory Ucwa."
     
 - must require TLS connections with clients that request content from your published website.
     
@@ -151,7 +151,7 @@ For any Edge Server running the A/V Edge service, these are the requirements:
     
 - Your Edge internal interface must be on a different network than your Edge Server external interface, and routing between them must be disabled.
     
-- The external interface of any Edge Server running the A/V Edge service must use publically routable IP addresses and no NAT or port translation on any of the Edge external IP addresses.
+- The external interface of any Edge Server running the A/V Edge service must use publicly routable IP addresses and no NAT or port translation on any of the Edge external IP addresses.
     
 #### HLB requirements
 

@@ -3,6 +3,7 @@ title: "Customize the Mac client experience in Skype for Business"
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: PhillipGarding
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -26,20 +27,20 @@ To set these preferences, get to a terminal prompt on the client's Mac and as ne
 **Client preference keys**
 
 
-|**Key**|**Type**|**Value**|**Description**|
+| Key | Type | Value | Description |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDicoveryURLs  <br/> |Bool  <br/> |0 = manual server configuration  <br/> 1 = automatic server detection (default)  <br/> |Specify how Skype for Business identifies the transport and server to use during sign-in. If you enable this policy setting, you must specify **internalAutoDiscoveryURL** and **externalAutoDiscoveryURL**. <br/> |
-|internalAutoDiscoveryURL  <br/> |String  <br/> |Full autodiscover URL  <br/> |Internal autodiscover URL  <br/> |
-|externalAutoDiscoveryURL  <br/> |String  <br/> |Full autodiscover URL  <br/> |External autodiscover URL  <br/> |
-|httpProxyDomain  <br/> |String  <br/> ||HTTP Proxy Domain  <br/> |
-|httpProxyUserName  <br/> |String  <br/> ||HTTP Proxy Username  <br/> |
-|httpProxyPassword  <br/> |String  <br/> ||HTTP Proxy Password  <br/> |
-|trustedDomainList  <br/> |Array  <br/> ||List of trusted domains for HTTP redirects.  <br/> |
-|autoAcceptTimeout  <br/> |Number  <br/> |300 (default)  <br/> |Auto-Accept timeout for users without Server-side Conversation History.  <br/> |
-|warnWhenUnknownLocationForE911  <br/> |Bool  <br/> |0 = Disabled  <br/> 1 = Enabled  <br/> |Warns the user when dialing an emergency number from an unknown location.  <br/> |
-|sipAddress  <br/> |String  <br/> ||The SIP address (Email) used to sign-in to Skype for Business.  <br/> |
-|userName  <br/> |String  <br/> ||The UPN (UserName) used to sign-in to Skype for Business.  <br/> |
-|userNameInAdvancedOnly  <br/> |Bool  <br/> |0 = display the User Name field on the main sign-in screen and in the Advanced Properties dialog box  <br/> 1 = display the User Name field only in the Advanced Properties dialog box (default)  <br/> |Specify where the User Name field is displayed during sign-in.  <br/> |
+|AutoDetectAutoDiscoveryURLs    |Bool    |0 = manual server configuration  <br/> 1 = automatic server detection (default)    |Specify how Skype for Business identifies the transport and server to use during sign-in. If you enable this policy setting, you must specify **internalAutoDiscoveryURL** and **externalAutoDiscoveryURL**.   |
+|internalAutoDiscoveryURL    |String    |Full autodiscover URL    |Internal autodiscover URL    |
+|externalAutoDiscoveryURL    |String    |Full autodiscover URL    |External autodiscover URL    |
+|httpProxyDomain    |String    ||HTTP Proxy Domain    |
+|httpProxyUserName    |String    ||HTTP Proxy Username    |
+|httpProxyPassword    |String    ||HTTP Proxy Password    |
+|trustedDomainList    |Array    ||List of trusted domains for HTTP redirects.    |
+|autoAcceptTimeout    |Number    |300 (default)    |Auto-Accept timeout for users without Server-side Conversation History.    |
+|warnWhenUnknownLocationForE911    |Bool    |0 = Disabled  <br/> 1 = Enabled    |Warns the user when dialing an emergency number from an unknown location.    |
+|sipAddress    |String    ||The SIP address (Email) used to sign-in to Skype for Business.    |
+|userName    |String    ||The UPN (UserName) used to sign-in to Skype for Business.    |
+|userNameInAdvancedOnly    |Bool    |0 = display the User Name field on the main sign-in screen and in the Advanced Properties dialog box  <br/> 1 = display the User Name field only in the Advanced Properties dialog box (default)    |Specify where the User Name field is displayed during sign-in.    |
    
 ### Usage examples
 
@@ -50,7 +51,6 @@ defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Cont
 To add several domains to the trusted domain list you would use the trustedDomainList key as shown:
   
 defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
-  
   
 ### Sample unedited settings
 
@@ -104,7 +104,4 @@ For reference, here is a sample settings file using default settings only:
     firstRun = 0;
     showEndCallDialog = 1;
 }
-
 ```
-
-

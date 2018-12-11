@@ -10,8 +10,11 @@ metadata:
   manager: serdars
   ms.service: msteams
   ms.topic: tutorial
-  localization_priority: Priority
-  ms.collection: Strat_MT_TeamsAdmin
+  localization_priority: Normal
+  search.appverid: MET150
+  ms.collection: 
+  - Teams_ITAdmin_PracticalGuidance
+  - Teams_ITAdmin_Training
   appliesto:
   - Microsoft Teams
 
@@ -20,7 +23,7 @@ items:
   content: |
         In this training, we introduce calling capabilities in Teams, which are powered by the Phone System feature in Office 365. We’ll explain the technical planning that’s required to implement Phone System, how to configure it, and how to monitor usage and call quality in your implementation.
 
-        This training is for you if you're: 
+        This training is for you if you're:
 
         - An IT pro.
 
@@ -41,14 +44,14 @@ items:
         If you have any questions or feedback about this training, please:
 
         - Post in the comments section at the bottom of the 'next steps' page of this tutorial</a>
-    
+
         To give us product feedback about Teams, such as ideas for new features, please visit [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: What is calling in Teams?
   durationInMinutes: 15
   content: |
     Out of the box, Teams supports the ability for users to make voice over IP (VoIP) calls from Teams client to Teams client.
 
-    In Teams, there are two options to enable users users to make, receive, and transfer calls to and from landlines and mobile phones on the public switched telephone network (PSTN):
+    In Teams, there are two options to enable users to make, receive, and transfer calls to and from landlines and mobile phones on the public switched telephone network (PSTN):
     - With Phone System with Calling Plans Microsoft provides the phone number to your users and all PSTN services
     - With Direct Connect you can connect your existing PSTN connectivity via an SBC (Session Boarder Controller) to Microsoft Teams.
 
@@ -66,11 +69,11 @@ items:
 
     <span style="color:red">**Action**:</span> To understand which features are currently available and the timelines for features that we expect to develop, see the following resources:
 
-    - On the [public roadmap](https://aka.ms/skype2teamsroadmap), review the “Calling 
+    - On the [public roadmap](https://aka.ms/skype2teamsroadmap), review the “Calling
     roadmap” slide for an overview of the expected timelines for feature release dates.
-    - Review [Here’s what you get with Phone System in Office 
-    365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) 
-    for a description of Phone System features. Keep in mind that at this writing, some 
+    - Review [Here’s what you get with Phone System in Office
+    365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+    for a description of Phone System features. Keep in mind that at this writing, some
     of these features might only be available for Skype for Business.
 
     ### Emergency Services calling
@@ -85,19 +88,19 @@ items:
     those who are familiar with the calling feature in Skype for Business Online, we
     want to highlight some important points.
 
-    - **Calling Plans or Direct Routing to connect to the PSTN.**  
+    - **Calling Plans or Direct Routing to connect to the PSTN.**
     The options to connect Teams to the PSTN are a little bit different than in
-    Skype for Business Online: While Calling Plans (formerly known as Cloud PBX 
+    Skype for Business Online: While Calling Plans (formerly known as Cloud PBX
     with PSTN Connectivity), exist for both, the option for connecting your
     existing PBX or SIP Trunk to Teams is called "Direct Routing".
-    Detailed documentation on Direct Routing can be found here: [Phone System Direct Routing](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan)
+    Detailed documentation on Direct Routing can be found here: [Phone System Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
 
-    - **Features are different between Skype for Business and Microsoft Teams.**  
+    - **Features are different between Skype for Business and Microsoft Teams.**
     Note that the calling features in Skype for Business and Microsoft Teams are
     different. Don’t assume that just because one of the clients is capable of
     something, the other client can do it as well.
 
-    - **Calls can be received either in Teams or Skype for Business, but not both.**  
+    - **Calls can be received either in Teams or Skype for Business, but not both.**
     If you configure your users for Phone System with Calling Plans, they can
     initiate calls from either Teams or Skype for Business. However, they can
     only receive calls on one of the applications—to configure which application
@@ -105,7 +108,7 @@ items:
     more about the policy later in this training.
 
     - **Calls can be made either from Skype for Business or Teams, if you’ve
-    configured Phone System in Teams.**  
+    configured Phone System in Teams.**
     Except for the aforementioned configuration of the CsTeamsInteropPolicy, the
     configuration is the same in Skype for Business and Teams. This means that
     if you’ve already configured calling for Skype for Business, your users will
@@ -132,7 +135,7 @@ items:
     - You need to define your business use cases to understand how to best
     configure Phone Systems.
 
-    This means you might have to adjust this practical guidance to meet your 
+    This means you might have to adjust this practical guidance to meet your
     objectives. You’ll be asked to complete the following tasks:
 
     - Define business use cases for Phone System with Calling Plans Document expected, measurable business outcomes, including the following:
@@ -146,20 +149,20 @@ items:
       - The expected, measurable business outcomes if these challenges are
       overcome
 
-    - Identify key stakeholders  
+    - Identify key stakeholders
     Based on your business use cases, create a comprehensive list of
     stakeholders, including roles and descriptions. This helps you identify
     everyone involved in the project.
 
     - Define objectives and key results (OKRs), key success indicators (KSIs), and
-    risks  
+    risks
     Use OKRs and KSIs to set clear goals for measuring the success of the
     project, and review them regularly to measure progress. It’s important that
     the stakeholders are aware of and agree to the OKRs and KSIs to work toward
     a common goal. In addition, you need to identify and document risks to raise
     awareness, and be prepared to mitigate them as needed.
 
-    - Assess your environment and evaluate adoption readiness  
+    - Assess your environment and evaluate adoption readiness
     After you know what you want to achieve and have documented your OKRs and
     KSIs, assess whether your organization is ready to leverage the service and
     whether it can provide all the features your users need.
@@ -173,12 +176,12 @@ items:
     expectations for great quality. Having network quality challenges—especially in
     the beginning of a project like this—might put the whole project at risk.
 
-    - Map operational roles  
+    - Map operational roles
     After the solution is rolled out, you’ll need someone to monitor and drive
     usage and quality. Mapping operational roles upfront helps you to identify
     the people you’ll need.
 
-    - Create a success plan  
+    - Create a success plan
     The success plan gives the project team—which can include FastTrack or a
     deployment partner—enough information to realize the organization’s goals
     with Phone System with Calling Plans. It should contain the following
@@ -272,7 +275,7 @@ items:
 
     <span style="color:red">**Action**:</span> Review [Country and region availability for Audio Conferencing and
     Calling
-    Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+    Plans](https://docs.microsoft.com/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
     for the following information:
 
     -   For the country where your billing address is located, check whether Audio
@@ -321,7 +324,7 @@ items:
 
     -   Review the Calling Plans section in [Country and region availability for
     Audio Conferencing and Calling
-    Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+    Plans](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
     to understand the calling minutes allocation for each Calling Plan add-in
     type.
 
@@ -329,14 +332,14 @@ items:
 
     -   Learn more about licensing for Phone System and Calling Plans from [Country
     and region availability for Audio Conferencing and Calling
-    Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+    Plans](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 
     -   Learn more about the Calling Plan add-ins from [What are Calling Plans in
     Office
-    365?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
+    365?](https://docs.microsoft.com/MicrosoftTeams/what-are-calling-plans-in-office-365)
 
     -   Learn more about Communications Credits from [What are Communications
-    Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)?
+    Credits](https://docs.microsoft.com/MicrosoftTeams/what-are-communications-credits)?
 
     ###Phone numbers and emergency locations
 
@@ -365,24 +368,24 @@ items:
     **Additional information**
 
     -   Review [Different kinds of phone numbers used for Calling
-    Plans](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans)
+    Plans](https://docs.microsoft.com/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)
     to understand about the types of phone numbers supported by Phone System in
     Office 365.
 
     -   Review [Manage phone numbers for your
-    organization](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
+    organization](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
     to learn more about obtaining user numbers for Calling Plans implementation.
 
     -   To learn more about transferring (porting) phone numbers to Microsoft, see
     [Transfer phone numbers to Office
-    365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
+    365](https://docs.microsoft.com/MicrosoftTeams/transfer-phone-numbers-to-office-365).
 
     -   To learn more about emergency address and locations, review [What are
     emergency locations, addresses and call
-    routing?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
+    routing?](https://docs.microsoft.com/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing)
 
     -   [Emergency calling terms and
-    conditions](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
+    conditions](https://docs.microsoft.com/MicrosoftTeams/emergency-calling-terms-and-conditions)
 
     ###Voicemail
 
@@ -481,7 +484,7 @@ items:
     **Additional information**
 
     -   For a readiness session training on dial plans, go to [Tenant Dial
-    Plans](http://aka.ms/sa-tdp). Although this training was created for Skype
+    Plans](https://aka.ms/sa-tdp). Although this training was created for Skype
     for Business, it applies to Teams as well because it’s built on the same
     infrastructure.
 
@@ -503,7 +506,7 @@ items:
     0.  Set up emergency addresses and locations
 
     0.  Assign phone numbers and emergency addresses to users
-    
+
     0.  Optional: Assign Calling Identity settings to users
 
     0.  Optional: Assign Dial Plan settings to users
@@ -571,12 +574,12 @@ items:
 
     Follow the instructions in  [Add or remove an emergency address for your
     organization](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization), to set up emergency addresses and locations. For more information, see
-   
+
 
     ###6. Assign phone numbers and emergency address to users
 
     Follow the instructions in [Assign, change, or remove a phone number for a
-    user](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user), to assign phone numbers and emergency addresses to users. 
+    user](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user), to assign phone numbers and emergency addresses to users.
 
     > [!NOTE]
     > For the assigned phone numbers to show up in Teams, you must update
@@ -591,14 +594,14 @@ items:
     Based on your implementation plan, you might need to configure the Calling
     Identity settings for your users. Follow the instructions in [Set the Caller ID
     for a
-    user](https://support.office.com/article/Set-the-Caller-ID-for-a-user-c7323490-d9b7-421a-aa76-5bd485f80583).
+    user](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user).
 
     ###8. Optional: Assign Dial Plan settings to users
 
     Depending on your organization’s and users’ requirements, you might need to
     assign tenant dial plans to your users. Follow the instructions in [Create and
     manage dial
-    plans](https://support.office.com/article/Create-and-manage-dial-plans-7af17c94-5f8f-4452-ae1d-01f495b4dc94?ui=en-US&rs=en-US&ad=US).
+    plans](https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans).
 
     ###9. Assign the Teams calling interop policy
 
@@ -679,12 +682,12 @@ items:
     experience. Although complete details would exceed the scope of this training,
     we want to point out the most important areas of engagement:
 
-    -   Adoption and change management  
+    -   Adoption and change management
     Users might simply start using the service when you offer it to them. Or
     they might not. Therefore, it’s important to execute proper adoption and
     change management.
 
-    -   Monitoring and driving usage  
+    -   Monitoring and driving usage
     We recommend that one of your KSIs be the number of active users, to help
     you measure how well Teams is being accepted as a phone client.
 
@@ -694,13 +697,13 @@ items:
     calls; therefore, it’s important that you monitor call quality and improve
     it, if necessary. To understand how to report on call quality, visit the
     Call Quality Dashboard training. Although these videos have been built for
-    Skype for Business, they apply to Teams as well: <http://aka.ms/sof-cqd>.
+    Skype for Business, they apply to Teams as well: <https://aka.ms/sof-cqd>.
 
 - title: Next steps
   durationInMinutes: 1
   content: |
 
-    We covered the following key learnings in this training:  
+    We covered the following key learnings in this training:
     -   What is calling in Teams?
 
     -   How to plan for calling in Teams
@@ -717,7 +720,7 @@ items:
 
     Next steps
 
-    1.  Sign-up for [MyAdvisor](http://aka.ms/myadvisor) for personalized deployment
+    1.  Sign-up for [MyAdvisor](https://aka.ms/myadvisor) for personalized deployment
     guidance.
     2.  Start your Phone System deployment for Teams
     3.  Send us feedback:
@@ -729,6 +732,6 @@ items:
         - Follow the [Teams Blog](https://aka.ms/teamsblog).
         - Read the [Teams Roadmap](https://aka.ms/skype2teamsroadmap).
         - Learn about the latest released features in the [Release Notes](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-    5.  Explore [more training and tutorials](http://aka.ms/Teamsacademy).
+    5.  Explore [more training and tutorials](https://aka.ms/Teamsacademy).
 
-    
+

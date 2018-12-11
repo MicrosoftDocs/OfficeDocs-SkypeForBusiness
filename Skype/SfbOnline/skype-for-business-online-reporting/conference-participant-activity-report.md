@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c3c89995-65dd-4715-9e38-bb244c742c6b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -23,7 +24,7 @@ search.appverid: "MET150"
 
 # Conference participant activity report
 
-As an Office 365 admin, the new **Reports** dashboard shows you data on the usage of the Office 365 products within your organization. You can use the **Skype for Business conference participant activity** report to see how many IM, audio/video, application sharing, Web and and dial-in/out conferences are being participated in by users in your organization.
+As an Office 365 admin, the new **Reports** dashboard shows you data on the usage of the Office 365 products within your organization. You can use the **Skype for Business conference participant activity** report to see how many IM, audio/video, application sharing, Web and dial-in/out conferences are being participated in by users in your organization.
 
 Check out the [Reports overview](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) to learn more.
   
