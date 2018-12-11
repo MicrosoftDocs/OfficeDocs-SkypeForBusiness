@@ -8,7 +8,7 @@ ms.service: msteams
 ms.date: 11/06/18
 ms.reviewer: LolaJ
 description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.custom:
 - NewAdminCenter_Update
