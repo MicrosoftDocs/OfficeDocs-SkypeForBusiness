@@ -81,7 +81,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Connect from a conference room | Available |
 | | Anonymous join | Available |
 | | Cloud recording | On the Government backlog |
-| | Meeting notes (wiki) | Available |
+| | Meeting notes | Available |
 | | Broadcast meetings (invite more than 80 people) | On the Government backlog |
 | | Federated meetings | Available |
 | | Surface Hub support (preview) | Available |
