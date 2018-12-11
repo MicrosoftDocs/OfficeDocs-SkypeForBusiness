@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 ms.reviewer: marcl
+localization_priority: Priority
 search.appverid: MET150
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
 appliesto:
