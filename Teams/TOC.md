@@ -44,6 +44,7 @@
 
 # [Deploy: Pick your path to Teams](deploy-teams-landing-page.md)
 ## [Overview of a Teams deployment](deployment-overview.md)
+## [Set up QoS in Teams](QoS-in-Teams.md)
 ## Set up Teams
 ### [Get clients for Teams](get-clients.md)
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
@@ -59,15 +60,24 @@
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 
 
-## Manage Teams
-### [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)
-### [Manage Teams features in your organization](enable-features-office-365.md)
-### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
-### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
-### [Assign team owners and members in Teams](assign-roles-permissions.md)
-### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
-### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
-### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
+# Manage
+## [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)
+## [Manage Teams features in your organization](enable-features-office-365.md)
+## [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+## [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
+## [Assign team owners and members in Teams](assign-roles-permissions.md)
+## [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
+## [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
+## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
+## Monitor call quality
+### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
+### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+### [Set up Call Analytics](set-up-call-analytics.md)
+### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
+### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+
 
 
 
@@ -550,15 +560,6 @@
 ### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ### [Use log files in troubleshooting Teams](log-files.md)
 ### [Verify service health for Teams](service-health.md)
-### Monitor call quality and QoS
-#### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-#### [QoS in Teams](QoS-in-Teams.md)
-#### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-#### [Set up Call Analytics](set-up-call-analytics.md)
-#### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-#### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
-#### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
-#### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 
 <!-- ============================================================ -->
 
