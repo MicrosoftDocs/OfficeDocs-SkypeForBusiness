@@ -213,7 +213,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Users can't create a team  <br/> |Your company may have set a policy restricting who can create Office 365 groups or teams.  <br/> |Check with your IT admin to understand your company's policy for creating groups and teams.  <br/> |3/13/17  <br/> |
 
-## Skype for Business to Teams upgrade
+## Skype for Business to Teams Upgrade
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
