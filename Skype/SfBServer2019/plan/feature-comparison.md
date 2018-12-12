@@ -134,7 +134,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Delegate can schedule a meeting on behalf of delegator |&#x2714;|&#x2714;|&#x2714;|||
 |Synchronize delegates between Skype for Business and Outlook |&#x2714;||&#x2714;||| 
 |Set Video Spotlight (lock video) |&#x2714;||&#x2714;|&#x2714;|&#x2714;| 
-|Give/Take control of screen sharing  |&#x2714;||&#x2714;|||
+|Give/Take control of screen sharing  |&#x2714;||&#x2714;|&#x2714;||
 
  &#x2776;  Participants can't control desktops that are shared by Skype for Business on Mac, Lync for Mac 2011, or Communicator for Mac 2011 users. Skype for Business on Mac, Lync for Mac 2011 and Communicator for Mac 2011 users can't control desktops shared by Windows users. This also won't work for Skype for Business Web App on Max OSX.
 
