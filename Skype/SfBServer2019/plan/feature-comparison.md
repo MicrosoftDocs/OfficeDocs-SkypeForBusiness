@@ -116,7 +116,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Share the desktop (if enabled)  |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; (requires plug-in) |&#x2714;| &#x2714;|
 |Share a program (if enabled) |&#x2714;|View only   |&#x2714;(requires plug-in)  |&#x2714;|&#x2714;|   
 |Add anonymous participants (if enabled) |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Use dial-in audio meetings |&#x2714; &#x2777; |&#x2714;|&#x2714; &#x2777; |&#x2714;|&#x2714; &#x2777; |
+|Use dial-in audio meetings |&#x2714; &#x2777; |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777;|&#x2714; &#x2777; |
 |Initiate a Meet Now meeting|&#x2714;|&#x2714;||&#x2714;|&#x2714;|  
 |Add and present Microsoft PowerPoint files |&#x2714;| &#x2778; Annotations not available   |&#x2714;|&#x2714;|&#x2714;| 
 |Navigate Microsoft PowerPoint files |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
