@@ -505,6 +505,28 @@ Skype Room Systems v2 is supported for both Surface Pro and Surface Pro 4. You n
 > [!NOTE]
 > Repeat the same steps for other Surface Pro models you might have. For more information, see [Manage drivers in System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
 
+### Create Skype Room System Configuration Package
+
+1.  In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create Package**.
+
+2.  Enter the following information to create the package:
+
+    -   Name: **SRS v2 - Configure SRS Setup Package**
+
+    -   Manufacturer: **Microsoft Corporation**
+
+    -   Version: **1.0.0**
+
+    -   Select the **This package contains source files** check box, enter the path to the **SRS v2 - Configure SRS Setup** folder, and then select **Next**.
+
+3.  Select **Do not create a program**, and then select **Next**.
+
+4.  Review the **Confirm the settings** page, and then select **Next**.
+
+5.  Select **Close**.
+
+
+
 ## Distribute Configuration Manager packages
 
 All the packages must be distributed to the servers that have been assigned the distribution point role in the Configuration Manager hierarchy. Follow the instructions below to initiate package distribution.
