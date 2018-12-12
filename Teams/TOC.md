@@ -269,6 +269,7 @@
 #### [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
+
 ## Calling Plan
 ### [Calling Plan for Office 365](calling-plans-for-office-365.md)
 ### [Set up Calling Plan for your organization](set-up-calling-plans.md)
@@ -280,6 +281,7 @@
 ### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 ### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
+
 ## Phones, numbers, and devices 
 ### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ### [Types of phone numbers used for Calling Plan](different-kinds-of-phone-numbers-used-for-calling-plans.md)
@@ -302,6 +304,25 @@
 ### [Assign or change an emergency address for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Assign or change the emergency location for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Emergency call labels](emergency-calling-labels.md)
+
+
+## Practical guidance for large enterprises
+### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
+### [Cloud voice deployment guidance](cloud-voice-deployment.md)
+#### [Define my success](1-envision-define-my-success-cloud-voice.md)
+#### [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
+#### [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
+#### [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md)
+#### [Evaluate my environment](3-envision-evaluate-my-environment.md)
+#### [Plan my service management](4-envision-plan-my-service-management.md)
+#### [Plan my users' experience](5-envision-plan-my-users-experience.md)
+#### [Document my success plan](6-envision-document-my-success-plan.md)
+#### [Prepare my service](1-onboard-prepare-my-service.md)
+#### [Prepare my users](2-onboard-prepare-my-users.md)
+#### [Deploy my service](3-onboard-deploy-my-service.md)
+#### [Operate my service](1-drive-value-operate-my-service.md)
+#### [Enhance my service](2-drive-value-enhance-my-service.md)
+
 
 ## Reference
 ### [Country and region availability for Calling Plan](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -465,24 +486,6 @@
 #### [Venezuela](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 #### [Vietnam](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
 
-## Practical guidance for large enterprises
-### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
-### [Cloud voice deployment guidance](cloud-voice-deployment.md)
-#### [Define my success](1-envision-define-my-success-cloud-voice.md)
-#### [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
-#### [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
-#### [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md)
-#### [Evaluate my environment](3-envision-evaluate-my-environment.md)
-#### [Plan my service management](4-envision-plan-my-service-management.md)
-#### [Plan my users' experience](5-envision-plan-my-users-experience.md)
-#### [Document my success plan](6-envision-document-my-success-plan.md)
-#### [Prepare my service](1-onboard-prepare-my-service.md)
-#### [Prepare my users](2-onboard-prepare-my-users.md)
-#### [Deploy my service](3-onboard-deploy-my-service.md)
-#### [Operate my service](1-drive-value-operate-my-service.md)
-#### [Enhance my service](2-drive-value-enhance-my-service.md)
-
-
 
 <!-- ============================================================ -->
 # Apps
@@ -554,18 +557,17 @@
 <!-- ============================================================ -->
 
 
-## Troubleshoot & support
-### [Known issues for Teams](Known-issues.md)
-### [Support resources for Teams](support-resources.md)
-### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
-### [Use log files in troubleshooting Teams](log-files.md)
-### [Verify service health for Teams](service-health.md)
+# Troubleshoot & support
+## [Known issues for Teams](Known-issues.md)
+## [Support resources for Teams](support-resources.md)
+## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
+## [Use log files in troubleshooting Teams](log-files.md)
+## [Verify service health for Teams](service-health.md)
 
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
-# Security & compliance
-## [Overview of security and compliance in Teams](security-compliance-overview.md)
+# [Security & compliance](security-compliance-overview.md)
 ## [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
 ## [Identity models and authentication in Teams](identify-models-authentication.md)
 ## [Sign in to Teams using modern authentication](sign-in-teams.md)
