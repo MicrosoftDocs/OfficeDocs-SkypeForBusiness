@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Frequently asked questions about the upgrade journey from Skype for Business to Microsoft Teams.
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
