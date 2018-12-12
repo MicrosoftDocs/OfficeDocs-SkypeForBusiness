@@ -239,6 +239,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |SharePoint page tab renders blank screen<br/> |SharePoint Online vanity domains are not currently supported. The user experience is a blank screen when attemting to add a SharePoint page tab. <br/> |No workaround. <br/> |8/20/18  <br/>|
 
+## Skype for Business to Teams upgrade
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+
 ## Teams
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
