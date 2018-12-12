@@ -31,7 +31,7 @@ appliesto:
 - [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
 - [Create your first teams](teams-adoption-your-first-teams.md)
 - [Are you ready for Teams?](teams-adoption-assess-readiness.md)
-- [Meet with stakeholders](teams-adoption-assess-readiness.md#assess-your-stakeholders))
+- [Meet with stakeholders](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [Identify early adopters](teams-adoption-assess-readiness.md#identify-early-adopters)
 
 ## Phase 2 - Experiment
