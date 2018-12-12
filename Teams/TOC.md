@@ -118,6 +118,8 @@
 ### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
 
 
+
+
 ## Audio conferencing
 
 ### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
@@ -506,13 +508,6 @@
 <!-- ============================================================ -->
 
 
-## Supported devices
-### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-
-<!-- ============================================================ -->
-
 
 <!-- ============================================================ -->
 # [Upgrade from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
@@ -588,6 +583,16 @@
 ##  [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 <!-- ============================================================ -->
+
+# Reference
+## Supported devices
+### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
+<!-- ============================================================ -->
+
+
 
 <!-- ============================================================ -->
 # Training
