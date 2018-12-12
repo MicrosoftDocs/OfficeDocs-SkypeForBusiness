@@ -16,7 +16,7 @@
 ##### [Enable the users for Enterprise Voice on premises](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
 ##### [Assign a Voice Routing Policy](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
 ##### [Synchronize users to the cloud and assign licenses](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/synchronize-users-to-the-cloud-and-assign-licenses.md)
-##### [Move on-premises users to Skype for Business Online](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/move-on-premises-users-to-skype-for-business-online.md)
+##### [Move on-premises users to Skype for Business Online](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/move-on-premises-users-to-skype-for-business-online.md) 
 ##### [Enable users for Enterprise Voice online and Phone System Voicemail](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
 #### [Plan Skype for Business Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
 ##### [Plan for Cloud Connector Edition PSTN sites](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)

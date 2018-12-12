@@ -27,7 +27,7 @@ This topic describes the infrastructure and system requirements you'll need to c
 After you have read this topic and are ready to configure hybrid connectivity, see [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md). The configuration topics provide step-by-step guidance for setting up hybrid connectivity between your on-premises deployment and Teams or Skype for Business Online.
 
 
-## About Split domain functionality
+## About Shared SIP Address Space functionality
 <a name="BKMK_Overview"> </a>
 
  With hybrid connectivity set up between an on-premises deployment of Skype for Business Server and Teams or Skype for Business Online, you can have some users homed on-premises and some users homed online.
@@ -39,13 +39,9 @@ This type of configuration relies on shared SIP address space functionality, and
 When shared SIP address space is configured:
 
 - Azure Active Directory Connect is used to synchronize your on-premises directory with Office 365.
-
 - Users who are homed on premises interact with on-premises Skype for Business servers. 
-
 - Users who are homed online may interact with Skype for Business Online or Teams services.
-
 - Users from both environments can communicate with each other. 
-
 - The on-premises Active Directory is authoritative. All users should be created in the on-premises Active Directory first, and then synchronized to Azure AD. Even if you intend for the user to be homed online, you must first create the user in the on-premises environment, and then move the user to online to ensure the user is discoverable by on-premises users. 
 
 Before a user can be moved online, the user must be assigned a Skype for Business Online (Plan 2) license. If the user will be using Teams, the user must also be assigned a Teams license (and the Skype for Business license must remain enabled). If your users want to take advantage of additional online features, such as Audio Conferencing or Phone System, you need to assign them the appropriate license in Office 365.
@@ -57,24 +53,18 @@ Before a user can be moved online, the user must be assigned a Skype for Busines
 To implement hybrid connectivity between your on-premises environment and Office 365 communication services, you need to meet the following infrastructure requirements:
 
 - A single on-premises deployment of Skype for Business Server or Lync Server that is deployed in a supported topology. See [Topology requirements](plan-hybrid-connectivity.md#BKMK_Topology) in this topic.
-
 - A Microsoft Office 365 tenant with Skype for Business Online enabled.
-
     > [!NOTE]
     > You can use only a single tenant for a hybrid configuration with your on-premises deployment.
-
 - Azure Active Directory Connect to synchronize your on-premises directory with Office 365. For more information, see [Azure AD Connect: Accounts and permissions](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
-
 - Skype for Business Server administrative tools.  These are required to move users from on-premises to the cloud. These tools must be installed on a server with access to both on-premises deployment and the internet. 
-
 - Online administrative tools.  You can use either the Teams and Skype for Business Admin Center or Windows PowerShell to manage Teams and Skype for Business Online. To use PowerShell to manage either Teams or Skype for Business Online, download and install the Skype for Business Online Connector. 
-
 - Shared SIP address space must be enabled, and your on-premise deployment must be configured to use Office 365 as a hosting provider. For more information about the steps required to configure hybrid connectivity, see [Configure hybrid connectivity](configure-hybrid-connectivity.md).
 
 After you configure hybrid connectivity, you can move users to Teams or Skype for Business Online. For more information, see [Move users from on-premises to Teams](move-users-from-on-premises-to-teams.md) and [Move users from on premises to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
 
 
-## Topology requirements
+## Server version requirements
 <a name="BKMK_Topology"> </a>
 
 To configure your deployment for hybrid with **Teams or Skype for Business Online**, you need to have one of the following supported topologies:
@@ -101,13 +91,18 @@ The federation Edge Server and next hop server from the federation Edge Server m
  ## Multi-forest support
 <a name="BKMK_MultiForest"> </a>
 
-Users can access Skype for Business functionality in another forest if the following requirements are met:
+Microsoft supports the following types of multi-forest hybrid scenarios:
 
-- Users are properly synchronized into the forest that hosts Skype for Business: In hybrid configurations, this means that users must be synchronized as disabled user objects.
+- **Resource forest topology.** In this kind of topology, there is one forest that hosts Skype for Business Server (the resource forest), and there are one or more additional forests that host account identities, which access the Skype for Business Server in the resource forest. In general, users can access Skype for Business functionality in another forest if the following requirements are met:
+    - Users are properly synchronized into the forest that hosts Skype for Business. In hybrid configurations, this means that users must be synchronized as disabled user objects.
+    - The forest hosting Skype for Business must trust the forest containing the users.
+    For details on resource forest hybrid scenarios, see [Deploy a resource forest topology for hybrid Skype for Business](configure-a-multi-forest-environment-for-hybrid.md).
+- **Multiple deployments of Skype for Business Server in multiple forests.** This configuration can arise as a result of merger and acquisition scenarios, as well as in more complex enterprises.  Consolidation of all users from on premises to the cloud in a single Office 365 tenant can be achieved for any organization with multiple Skype for Business deployments, provided that the following key requirements are met: 
+    - There must be at most one Office 365 tenant involved. Consolidation in scenarios with more than one Office 365 tenant is not supported.
+    - At any given time, only one on-premises Skype for Business forest can be in hybrid mode (shared SIP address space). All other on-premises Skype for Business forests must remain fully on premises (and presumably federated with each other). Note that these other on-premises organizations can sync to AAD if desired with [new functionality to disable online SIP domains](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) available as of December 2018.
 
-- The forest hosting Skype for Business must trust the forest containing the users.
+    Customers with deployments of Skype for Business in multiple forests must fully migrate each Skype for Business forest individually into the Office 365 tenant using split-domain (Shared SIP Address Space) functionality, and then disable hybrid with the on-premises deployment, before moving on to migrate the next on-premises Skype for Business deployment. Furthermore, prior to being migrated to the cloud, on-premises users remain in a federated state with any users that are not represented in the same user’s on-premises directory. For more details, see [Cloud consolidation for Teams and Skype for Business](cloud-consolidation.md).
 
-For details on multi-forest hybrid scenarios, see [Configure a multi-forest environment for hybrid Skype for Business](configure-a-multi-forest-environment-for-hybrid.md).
 
 
 ## Federation requirements
@@ -118,11 +113,8 @@ When configuring hybrid, you must ensure that your on-premises and online enviro
 The following requirements must be met to successfully configure a hybrid deployment:
 
 - Domain matching must be configured the same for your on-premises deployment and your Office 365 tenant. If partner discovery is enabled on the on-premises deployment, then open federation must be configured for your online tenant. If partner discovery is not enabled, then closed federation must be configured for your online tenant.
-
 - The Blocked domains list in the on-premises deployment must exactly match the Blocked domains list for your online tenant.
-
 - The Allowed domains list in the on-premises deployment must exactly match the Allowed domains list for your online tenant.
-
 - Federation must be enabled for the external communications for the online tenant.
 
 
