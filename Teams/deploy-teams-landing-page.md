@@ -63,7 +63,7 @@ For many organizations, [Quick start](get-started-with-teams-quick-start.md) is 
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/microsoft-365/enterprise/teams-workload">
+        <a href="https://docs.microsoft.com/microsoft-365/enterprise/teams-workload">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

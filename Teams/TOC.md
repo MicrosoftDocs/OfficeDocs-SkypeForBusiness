@@ -14,9 +14,7 @@
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
-# Plan - for large enterprises
-
-## [Quick start - Teams planning guide](quick-start-enable-teams.md)
+# (Plan - for large enterprises)(quick-start-enable-teams.md)
 ## [Check your environment’s readiness for Teams](environment-readiness.md)
 ## [Prepare your organization's network for Teams](prepare-network.md)
 ## [Limits and specifications for Teams](limits-specifications-teams.md)
@@ -78,7 +76,64 @@
 ### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 
 
+<!-- ============================================================ -->
+# [Adopt - for large enterprises](adopt-microsoft-teams-landing-page.md) 
 
+## [Get started](teams-adoption-get-started.md)
+## [Phase 1 - Start](teams-adoption-phase1.md)
+### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
+### [Create your first teams](teams-adoption-your-first-teams.md)
+### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
+## [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
+### [Create your champions program](teams-adoption-create-champions-program.md)
+### [Governance quick start](teams-adoption-governance-quick-start.md)
+### [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
+### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
+### [Onboard support](teams-adoption-onboard-support.md)
+## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
+### [Define outcomes and success](teams-adoption-define-outcomes.md)
+### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
+### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
+### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
+<!-- ============================================================ -->
+
+
+
+<!-- ============================================================ -->
+# [Upgrade from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
+## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Upgrade Basic](upgrade-basic.md)
+### [Sample emails and surveys](upgrade-emails-surveys.md)
+## [Upgrade Pro](upgrade-pro.md)
+## [Plan for your upgrade journey](upgrade-plan-journey.md)
+### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
+### [Define your project scope](upgrade-define-project-scope.md)
+### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [Plan for quality](upgrade-plan-for-quality.md)
+## [Prepare your environment for Teams](upgrade-prepare-environment.md)
+### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
+### [Prerequisites](upgrade-plan-journey-prerequisites.md)
+### [Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)
+### [Prepare your network](upgrade-prepare-environment-prepare-network.md)
+### [Prepare your service](upgrade-prepare-environment-prepare-service.md)
+## [Prepare your organization for Teams](upgrade-prepare-organization.md)
+### [Assess organizational change readiness](upgrade-org-change-readiness.md)
+### [Prepare a user readiness plan](upgrade-user-readiness.md)
+## [Conduct a user pilot](pilot-essentials.md)
+## [Perform your upgrade to Teams](upgrade-to-teams.md)
+### [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [Upgrade from Skype for Business hybrid to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
+### [Upgrade from Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+## [Drive value through user adoption](continue-journey.md)
+### [Operate your service](upgrade-operate-my-service.md)
+### [Monitor quality](upgrade-monitor-quality.md)
+### [Enhance your service](upgrade-enhance-my-service.md)
+## [FAQ](FAQ-journey.md)
+
+<!-- ============================================================ -->
+
+# TEAMS FEATURES
 
 # [Chat, teams, & channels](teams-channels-overview.md)
 ## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
@@ -494,74 +549,10 @@
 ## [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
 ## [Use activity reports for Teams](teams-activity-reports.md)
 ## [Use inline message translation in Teams](inline-message-translation-teams.md)
-
-
-<!-- ============================================================ -->
-# [Adopt - for large enterprises](adopt-microsoft-teams-landing-page.md) 
-
-## [Get started](teams-adoption-get-started.md)
-## [Phase 1 - Start](teams-adoption-phase1.md)
-### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
-### [Create your first teams](teams-adoption-your-first-teams.md)
-### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
-## [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
-### [Create your champions program](teams-adoption-create-champions-program.md)
-### [Governance quick start](teams-adoption-governance-quick-start.md)
-### [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
-### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
-### [Onboard support](teams-adoption-onboard-support.md)
-## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
-### [Define outcomes and success](teams-adoption-define-outcomes.md)
-### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
-### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
-### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
 <!-- ============================================================ -->
 
 
 
-<!-- ============================================================ -->
-# [Upgrade from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
-## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Upgrade Basic](upgrade-basic.md)
-### [Sample emails and surveys](upgrade-emails-surveys.md)
-## [Upgrade Pro](upgrade-pro.md)
-## [Plan for your upgrade journey](upgrade-plan-journey.md)
-### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
-### [Define your project scope](upgrade-define-project-scope.md)
-### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Plan for quality](upgrade-plan-for-quality.md)
-## [Prepare your environment for Teams](upgrade-prepare-environment.md)
-### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
-### [Prerequisites](upgrade-plan-journey-prerequisites.md)
-### [Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)
-### [Prepare your network](upgrade-prepare-environment-prepare-network.md)
-### [Prepare your service](upgrade-prepare-environment-prepare-service.md)
-## [Prepare your organization for Teams](upgrade-prepare-organization.md)
-### [Assess organizational change readiness](upgrade-org-change-readiness.md)
-### [Prepare a user readiness plan](upgrade-user-readiness.md)
-## [Conduct a user pilot](pilot-essentials.md)
-## [Perform your upgrade to Teams](upgrade-to-teams.md)
-### [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-### [Upgrade from Skype for Business hybrid to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
-### [Upgrade from Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
-## [Drive value through user adoption](continue-journey.md)
-### [Operate your service](upgrade-operate-my-service.md)
-### [Monitor quality](upgrade-monitor-quality.md)
-### [Enhance your service](upgrade-enhance-my-service.md)
-## [FAQ](FAQ-journey.md)
-
-<!-- ============================================================ -->
-
-
-# Troubleshoot & support
-## [Known issues for Teams](Known-issues.md)
-## [Support resources for Teams](support-resources.md)
-## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
-## [Use log files in troubleshooting Teams](log-files.md)
-## [Verify service health for Teams](service-health.md)
-
-<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # [Security & compliance](security-compliance-overview.md)
@@ -583,6 +574,16 @@
 ##  [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 <!-- ============================================================ -->
+
+# --------------
+
+# Troubleshoot & support
+## [Known issues for Teams](Known-issues.md)
+## [Support resources for Teams](support-resources.md)
+## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
+## [Use log files in troubleshooting Teams](log-files.md)
+## [Verify service health for Teams](service-health.md)
+
 
 # Reference
 ## Supported devices
