@@ -125,18 +125,19 @@ Pick the scenario below that best describes your organization, and you'll find a
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/get-help-in-microsoft-teams">
+        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment?branch=lolaj-TOCoverhaul">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
+                            <img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/deploy-teams-landing-page-practical-guidance.png?branch=lolaj-TOCoverhaul" alt="Enterprise image and Teams logo" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get help</h3>
-                        <p>How to find the assistance you need while you're using Teams</p>
+                        <h3>Practical guidance for large enterprises</h3>
+                        <p>I need a more structured guidance for deploying Teams. Not just articles, but tools and proven methodologies for successful deployment.</p>
+                        <p>Work with Bob & Lester on this - with the upcoming demise of MyAdvisor, where do we send people for practical guidance?</p>
                     </div>
                 </div>
             </div>
