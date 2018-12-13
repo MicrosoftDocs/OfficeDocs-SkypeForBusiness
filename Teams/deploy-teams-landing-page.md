@@ -17,14 +17,10 @@ appliesto:
 ---
 # Deploy Microsoft Teams
 
-When you roll out Teams in your organization, you're rolling out four different workloads: 
 
-- Chat, teams, & channels
-- Meetings and conferencing
-- Voice (Phone System and Calling Plan)
-- Apps
+When you're ready to roll out Teams in your organization, pick the scenario below that best describes your organization. Each scenario lays out a guided path to a successful Teams rollout. With all the paths, you pick which workloads to deploy (or not). 
 
-Pick the scenario below that best describes your organization, and you'll find a guided path to deploying Teams. You can pick and choose which workloads to deploy (or not). For many organizations, [Quick start](get-started-with-teams-quick-start.md) will meet your needs. The larger or more complex your organization's structure is, the more advance planning you'll need to do. 
+For many organizations, [Quick start](get-started-with-teams-quick-start.md) is all you need - it walks you through a basic Teams rollout with chat, teams, and channels. The larger or more complex your organization's structure is, the more advance planning you'll need to do. 
 
 
 <ul class="panelContent cardsF">
@@ -95,8 +91,8 @@ Pick the scenario below that best describes your organization, and you'll find a
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>I'm starting from Skype for Business Server</h3>
-                        <p><a href="https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity">To deploy Teams in a Skype for Business (on premises) environment, you'll need to configure hybrid connectivity between your on-premises environment, Skype for Business Server, and Office 365. </a></p>
+                        <h3>Starting from Skype for Business Server</h3>
+                        <p><a href="https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity">To deploy Teams in a Skype for Business Server environment, you'll need to configure hybrid connectivity between Teams and your on-premises environment. </a></p>
                         <p>Link to another topic - need Carolyn input</p>
                         <p>Link to another topic - need Carolyn input</p>
                     </div>
@@ -117,7 +113,8 @@ Pick the scenario below that best describes your organization, and you'll find a
                     </div>
                     <div class="cardText">
                         <h3>On-premises PSTN solution</h3>
-                        <p>I don't have Skype for Business Server, but I do have an on-premises PSTN solution. <br>Use Phone System Direct Routing to hook up your on-premises PSTN solution with Teams.</p>
+                        <p>I don't have Skype for Business Server, but I do have an on-premises PSTN phone solution. </p>
+                        <p>Use Phone System Direct Routing to hook up your on-premises PSTN solution with Teams.</p>
                     </div>
                 </div>
             </div>
