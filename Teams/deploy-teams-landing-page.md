@@ -92,7 +92,7 @@ For many organizations, [Quick start](get-started-with-teams-quick-start.md) is 
                     </div>
                     <div class="cardText">
                         <h3>Starting from Skype for Business Server</h3>
-                        <p><a href="https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity">To deploy Teams in a Skype for Business Server environment, you'll need to configure hybrid connectivity between Teams and your on-premises environment. </a></p>
+                        <p><a href="https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity">I need to configure hybrid connectivity between Teams and my Skype for Business Server environment.</a></p>
                         <p>Link to another topic - need Carolyn input</p>
                         <p>Link to another topic - need Carolyn input</p>
                     </div>
