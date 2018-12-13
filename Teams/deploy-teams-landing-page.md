@@ -24,7 +24,7 @@ When you roll out Teams in your organization, you're rolling out four different 
 - Voice (Phone System and Calling Plan)
 - Apps
 
-Pick the scenario below that best describes your organization, and you'll find a guided path to deploying Teams. You can pick and choose which workloads to deploy (or not). For many organizations, [Get started](get-started-with-teams-landing-page.md) will meet your needs. The larger or more complex your organization's structure is, the more advance planning you'll need to do. 
+Pick the scenario below that best describes your organization, and you'll find a guided path to deploying Teams. You can pick and choose which workloads to deploy (or not). For many organizations, [Quick start](get-started-with-teams-quick-start.md) will meet your needs. The larger or more complex your organization's structure is, the more advance planning you'll need to do. 
 
 
 <ul class="panelContent cardsF">
@@ -35,12 +35,12 @@ Pick the scenario below that best describes your organization, and you'll find a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-purple.svg" alt="Clock" />
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>Fewer than 50 users</h3>
-                        <p>I only want to roll out chat, teams, and channels. I don't need meetings or phone calling yet.</p>
+                        <p>I want to roll out chat, teams, and channels only. I'm not ready for meetings or phone calling yet.</p>
                     </div>
                 </div>
             </div>
@@ -48,18 +48,18 @@ Pick the scenario below that best describes your organization, and you'll find a
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-2?branch=v-lanac-getstarted-working">
+        <a href="https://review.docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat" />
+                            <img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/deploy-teams-landing-page-journey.png?branch=lolaj-TOCoverhaul" alt="Skype for Business logo, Teams logo" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Create your first teams and channels</h3>
-                        <p>Best practices for setting up your first teams and channels</p>
+                        <h3>Upgrade to Teams</h3>
+                        <p>I'm using Skype for Business Online, and I'm ready to make the move to Teams.</p>
                     </div>
                 </div>
             </div>
@@ -67,18 +67,18 @@ Pick the scenario below that best describes your organization, and you'll find a
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-3?branch=v-lanac-getstarted-working">
+        <a href="https://docs.microsoft.com/microsoftteams/adopt-microsoft-teams-landing-page">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Onboard early adopters</h3>
-                        <p>Get your first users up and running in the new teams you just created</p>
+                        <h3>More than 500 users</h3>
+                        <p>I'm a large enterprise, and I need adoption guidance to make sure my rollout is successful.</p>
                     </div>
                 </div>
             </div>
