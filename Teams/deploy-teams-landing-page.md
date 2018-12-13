@@ -35,7 +35,7 @@ Pick the scenario below that best describes your organization, and you'll find a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="(https://docs.microsoft.com/en-us/office/media/icons/deploy.svg)" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
