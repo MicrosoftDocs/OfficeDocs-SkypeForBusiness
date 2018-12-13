@@ -40,7 +40,7 @@
 
 <!-- ============================================================ -->
 
-# [Deploy: Pick your path to Teams](deploy-teams-landing-page.md)
+# [Deploy - Pick your path to Teams](deploy-teams-landing-page.md)
 ## [Overview of a Teams deployment](deployment-overview.md)
 ## Set up Teams
 ### [Get clients for Teams](get-clients.md)
