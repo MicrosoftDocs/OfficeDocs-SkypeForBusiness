@@ -35,7 +35,7 @@ Pick the scenario below that best describes your organization, and you'll find a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock.svg" alt="Clock" />
+                            <img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/deploy-teams-landing-page-SMB.png?branch=lolaj-TOCoverhaul" alt="User and <50 symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -73,7 +73,7 @@ Pick the scenario below that best describes your organization, and you'll find a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy.svg" alt="Deploy" />
+                            <img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/deploy-teams-landing-page-Enterprise.png?branch=lolaj-TOCoverhaul" alt="User and >500 symbol" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -112,7 +112,7 @@ Pick the scenario below that best describes your organization, and you'll find a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                            <img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/deploy-teams-landing-page-pstn-to-teams.png?branch=lolaj-TOCoverhaul" alt="Training" />
                         </div>
                     </div>
                     <div class="cardText">
