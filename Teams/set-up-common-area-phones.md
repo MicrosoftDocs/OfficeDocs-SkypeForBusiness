@@ -24,11 +24,11 @@ description: "Learn how to set up Common Area Phones for lobbies, reception area
 
 # Set up the Common Area Phone license for Microsoft Teams
 
-A Common Area Phone is a phone that is typically placed in an area like a lobby or another area that is available to a lot of people: for example, a reception area, lobby, or conference room. Common Area Phones are set up as devices rather than users, and can automatically sign into a network. 
+A common area phone is typically placed in an area like a lobby or another area which is available to many people to make a call; for example, a reception area, lobby, or conference phone. Common area phones are set up as devices rather than users, and can automatically sign into a network.
 
-In the steps below, we’ll help you set up an account for Phone System to deploy Common Area Phones for your organization. For a more complete meeting room experience, including audio conferencing, consider purchasing the dedicated Meeting Room license with a meeting room device. 
+In the steps below, we’ll help you set up an account for Phone System to deploy common area phones for your organization. For a more complete meeting room experience, including audio conferencing, consider purchasing the dedicated Meeting Room license with a meeting room device. 
 
-The first things you need to do are purchase a Common Area Phone license and make sure that you have a certified phone. To search for and learn more about certified phones, go to [office.com/teamsdevices](office.com/teamsdevices). 
+The first things you need to do are purchase a Common Area Phone (CAP) license and make sure that you have a certified phone. To search for and learn more about certified phones, go to [office.com/teamsdevices](office.com/teamsdevices). 
 
 ## Step 1 - Buy the licenses
 
