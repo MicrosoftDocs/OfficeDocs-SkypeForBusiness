@@ -44,13 +44,13 @@
 
 # [Deploy: Pick your path to Teams](deploy-teams-landing-page.md)
 ## [Overview of a Teams deployment](deployment-overview.md)
-## [Set up QoS in Teams](QoS-in-Teams.md)
 ## Set up Teams
 ### [Get clients for Teams](get-clients.md)
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
 ### [Install Teams using MSI](msi-deployment.md)
 ### [Turn on Teams in your organization](Office-365-set-up.md)
 ### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
+### [Set up QoS in Teams](QoS-in-Teams.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 ### Licensing
 ### [Office 365 licensing for Teams](office-365-licensing.md)
