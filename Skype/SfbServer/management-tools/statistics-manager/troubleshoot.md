@@ -171,8 +171,5 @@ For more information, see the following:
     
 - [Deploy Statistics Manager for Skype for Business Server](deploy.md)
     
-- [Upgrade Statistics Manager for Skype for Business Server](upgrade.md)
-    
-- [Skype for Business Server Statistics Manager blog](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
-    
+- [Upgrade Statistics Manager for Skype for Business Server](upgrade.md)    
 
