@@ -35,5 +35,5 @@ To get the best experience on Teams, your organization must have deployed Exchan
 -   If your organization does not have SharePoint Online, see [Understand how SharePoint Online and OneDrive for Business interact with Microsoft Teams](SharePoint-OneDrive-interact.md).
 
 - If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before deploying Microsoft Teams.
-
-																			   
+										   
+Organizations that have Skype for Business Server (or Lync Server) on-premises and who are planning to use Teams must configure Azure AD Connect to synchronize their on-premises directory with Office 365.  For more information, see [Configure Azure AD Connect for Teams and Skype for Business](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect).
