@@ -63,7 +63,7 @@ For many organizations, [Quick start](get-started-with-teams-quick-start.md) is 
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/adopt-microsoft-teams-landing-page">
+        <a href="https://docs.microsoft.com/en-us/microsoft-365/enterprise/teams-workload">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -74,7 +74,7 @@ For many organizations, [Quick start](get-started-with-teams-quick-start.md) is 
                     </div>
                     <div class="cardText">
                         <h3>More than 500 users</h3>
-                        <p>I'm a large enterprise, and I need adoption guidance to make sure my rollout is successful.</p>
+                        <p>I'm a large enterprise, and I need soup-to-nuts guidance for deploying Teams.</p>
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@ For many organizations, [Quick start](get-started-with-teams-quick-start.md) is 
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment?branch=lolaj-TOCoverhaul">
+        <a href="https://docs.microsoft.com/microsoftteams/adopt-microsoft-teams-landing-page">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -132,9 +132,8 @@ For many organizations, [Quick start](get-started-with-teams-quick-start.md) is 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Practical guidance for large enterprises</h3>
-                        <p>I need a more structured guidance for deploying Teams. Not just articles, but tools and proven methodologies for successful deployment.</p>
-                        <p>Work with Bob & Lester on this - with the upcoming demise of MyAdvisor, where do we send people for practical guidance?</p>
+                        <h3>Adoption guidance for large enterprises</h3>
+                        <p>I'm a large enterprise, and I need adoption guidance to make sure my Teams rollout is successful.</p>
                     </div>
                 </div>
             </div>
