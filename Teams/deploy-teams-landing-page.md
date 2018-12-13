@@ -1,24 +1,145 @@
-# Plan your Teams deployment
+---
+title: Deploy Microsoft Teams
+description: Pick the best path for deploying Microsoft Teams in your organization.
+layout: LandingPage
+ms.topic: landing-page
+author: lolajacobsen
+ms.author: lolaj
+manager: serdars
+layout: LandingPage
+ms.date: 12/31/2018
+ms.service: msteams
+ms.custom: Deploy
+ms.collection: Teams_ITAdmin_Help
+search.appverid: MET150
+appliesto: 
+- Microsoft Teams
+---
+# Deploy Microsoft Teams
 
-There are four aspects to Teams:
+When you roll out Teams in your organization, you're rolling out four different workloads: 
 
-- Teams and channels
+- Chat, teams, & channels
 - Meetings and conferencing
-- Voice (Phone system)
+- Voice (Phone System and Calling Plan)
 - Apps
 
-Our content is organized into these four buckets. In each bucket, you'll find the planning and deployment guidance specific to that feature. The more complex your organization's structure is, the more advance planning you'll need to do. Take a look at the table below to select the planning and deployment path that's right for you:
+Pick the scenario below that best describes your organization, and you'll find a guided path to deploying Teams. You can pick and choose which workloads to deploy (or not). For most organizations, the first choice - [Get started](get-started-with-teams-landing-page.md) - will meet your needs. The larger or more complex your organization's structure is, the more advance planning you'll need to do. 
 
 
-|Your organization's profile|Recommended path  |
-|---------|---------|
-|![SMB](media/deploy-teams-landing-page-SMB.png)<BR>I've got less than 50 users, and I'm not planning to do phone calling yet. |Just follow our [Quick start](get-started-with-teams-quick-start.md), and you'll be on your way!<BR> <BR>If you want to add voice calling later, Follow this step-by-step guidance (this would link to an easy voice confic tutorial) |
-|![journey](media/deploy-teams-landing-page-journey.png)<BR>I'm currently using Skype for Business Online, and would like to move to Teams. |We have specific step-by-step guidance for you! Go to [Skype for Business to Microsoft Teams upgrade](Journey-SkypeforBusiness-Teams.md)        |
-|![enterprise](media/deploy-teams-landing-page-Enterprise.png)<BR>I'm responsible for more than 500 users, and need help to make sure that my rollout is successful. | <OL><LI>Get your Teams and channels going using our [Quick start](get-started-with-teams-quick-start.md). <LI>Take a look at our [Adoption guidance](adopt-microsoft-teams-landing-page.md). This content helps you prepare your organization.       |
-|![practical guidance](media/deploy-teams-landing-page-practical-guidance.png)<BR>I need more structured method for deploying Teams. I need not just articles, but tools and proven methodologies for successful deployment. |Our practical guidance will help you manage each step of your deployment. <OL><LI>Practical guidance for Teams<LI>Practical guidance for meetings<LI> [Practical guidance for cloud voice](cloud-voice-deployment.md)<LI>Practical guidance for apps        |
-|![server](media/deploy-teams-landing-page-onprem-to-teams.png)<BR>I currently have Skype for Business Server deployed, and I want to roll out Teams.  |<OL><LI>Follow our  [Quick start](get-started-with-teams-quick-start.md) to get a pilot going so you can experience Teams. <LI>For a full-scale rollout, you will need to first configure hybrid connectivity between your on-premises environment and Microsoft 365. We suggest you start with [Plan hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-hybrid-connectivity).<LI>Additional planning guidance links     |
-|![pstn to teams](media/deploy-teams-landing-page-pstn-to-teams.png)<BR>I don't have Skype for Business Server, but I do have an on-premises PSTN solution. How do I integrate that with Teams?|<OL><LI>Follow our  [Quick start](get-started-with-teams-quick-start.md) to get a pilot going so you can experience Teams. <LI>To enable calling features, we recommend that you use Phone System Direct Routing to hook up your on-premises PSTN solution with Teams. Start with the article [Plan Direct Routing](direct-routing-plan.md)|
-
-
-
-
+<ul class="panelContent cardsF">
+    <li>
+        <a href="https://docs.microsoft.com/microsoftteams/get-started-with-teams-landing-page">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/microsoftteams/media/deploy-teams-landing-page-SMB.png" alt="Image of a single user and <50" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Fewer than 50 users</h3>
+                        <p>I only want to roll out chat, teams, and channels. I don't need meetings or phone calling yet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-2?branch=v-lanac-getstarted-working">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create your first teams and channels</h3>
+                        <p>Best practices for setting up your first teams and channels</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-3?branch=v-lanac-getstarted-working">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Onboard early adopters</h3>
+                        <p>Get your first users up and running in the new teams you just created</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-4?branch=v-lanac-getstarted-working">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Best practices" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Monitor usage and feedback</h3>
+                        <p>See how your early adopters are using Teams</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-5?branch=v-lanac-getstarted-working">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Where to go next</h3>
+                        <p>When you're ready to roll out Teams to your entire org, we'll show you how</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/MicrosoftTeams/get-help-in-microsoft-teams">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Get help</h3>
+                        <p>How to find the assistance you need while you're using Teams</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
