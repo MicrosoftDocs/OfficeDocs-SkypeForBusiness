@@ -74,7 +74,7 @@ For many organizations, [Quick start](get-started-with-teams-quick-start.md) is 
                     </div>
                     <div class="cardText">
                         <h3>More than 500 users</h3>
-                        <p>I'm a large enterprise, and I need soup-to-nuts guidance for deploying Teams.</p>
+                        <p>I'm a large enterprise, and I need end-to-end guidance for deploying Teams.</p>
                     </div>
                 </div>
             </div>

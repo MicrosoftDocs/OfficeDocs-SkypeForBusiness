@@ -14,7 +14,7 @@
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
-# (Plan - for large enterprises)(quick-start-enable-teams.md)
+# [Plan - for large enterprises](quick-start-enable-teams.md)
 ## [Check your environment’s readiness for Teams](environment-readiness.md)
 ## [Prepare your organization's network for Teams](prepare-network.md)
 ## [Limits and specifications for Teams](limits-specifications-teams.md)
@@ -133,7 +133,7 @@
 
 <!-- ============================================================ -->
 
-# TEAMS FEATURES
+# **Teams features**
 
 # [Chat, teams, & channels](teams-channels-overview.md)
 ## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
