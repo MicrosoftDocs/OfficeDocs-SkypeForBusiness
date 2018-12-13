@@ -28,7 +28,7 @@ A common area phone is typically placed in an area like a lobby or another area 
 
 In the steps below, we’ll help you set up an account for Phone System to deploy common area phones for your organization. For a more complete meeting room experience, including audio conferencing, consider purchasing the dedicated Meeting Room license with a meeting room device. 
 
-The first things you need to do are purchase a Common Area Phone (CAP) license and make sure that you have a certified phone. To search for and learn more about certified phones, go to [office.com/teamsdevices](office.com/teamsdevices). 
+The first things you need to do are purchase a Common Area Phone (CAP) license and make sure that you have a certified phone. To search for and learn more about certified phones, go to [Microsoft Teams devices](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1). 
 
 ## Step 1 - Buy the licenses
 
