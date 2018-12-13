@@ -133,7 +133,8 @@
 
 <!-- ============================================================ -->
 
-# FEATURES
+#         
+#         
 
 # [Chat, teams, & channels](teams-channels-overview.md)
 ## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
@@ -576,6 +577,7 @@
 <!-- ============================================================ -->
 
 #        
+#         
 
 # Troubleshoot & support
 ## [Known issues for Teams](Known-issues.md)
@@ -585,6 +587,13 @@
 ## [Verify service health for Teams](service-health.md)
 
 
+<!-- ============================================================ -->
+# Training
+## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
+## [Admin training for Teams](itadmin-readiness.md)
+## [End user training for Teams](enduser-training.md)
+<!-- ============================================================ -->
+
 # Reference
 ## Supported devices
 ### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -593,14 +602,8 @@
 
 <!-- ============================================================ -->
 
-
-
-<!-- ============================================================ -->
-# Training
-## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
-## [Admin training for Teams](itadmin-readiness.md)
-## [End user training for Teams](enduser-training.md)
-<!-- ============================================================ -->
+#        
+#         
 
 
 <!-- ============================================================ -->
