@@ -24,7 +24,7 @@ When you roll out Teams in your organization, you're rolling out four different 
 - Voice (Phone System and Calling Plan)
 - Apps
 
-Pick the scenario below that best describes your organization, and you'll find a guided path to deploying Teams. You can pick and choose which workloads to deploy (or not). For most organizations, the first choice - [Get started](get-started-with-teams-landing-page.md) - will meet your needs. The larger or more complex your organization's structure is, the more advance planning you'll need to do. 
+Pick the scenario below that best describes your organization, and you'll find a guided path to deploying Teams. You can pick and choose which workloads to deploy (or not). For many organizations, [Get started](get-started-with-teams-landing-page.md) will meet your needs. The larger or more complex your organization's structure is, the more advance planning you'll need to do. 
 
 
 <ul class="panelContent cardsF">
@@ -35,7 +35,7 @@ Pick the scenario below that best describes your organization, and you'll find a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/microsoftteams/media/deploy-teams-landing-page-SMB.png" alt="Image of a single user and <50" />
+                            <img src="(media/deploy-teams-landing-page-SMB.png)" alt="Image of a single user and <50" />
                         </div>
                     </div>
                     <div class="cardText">
