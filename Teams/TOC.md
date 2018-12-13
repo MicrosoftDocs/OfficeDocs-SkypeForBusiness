@@ -555,6 +555,11 @@
 
 
 
+
+
+#        
+#         
+
 <!-- ============================================================ -->
 # [Security & compliance](security-compliance-overview.md)
 ## [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
@@ -575,10 +580,6 @@
 ##  [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 <!-- ============================================================ -->
-
-#        
-#         
-
 # Troubleshoot & support
 ## [Known issues for Teams](Known-issues.md)
 ## [Support resources for Teams](support-resources.md)
