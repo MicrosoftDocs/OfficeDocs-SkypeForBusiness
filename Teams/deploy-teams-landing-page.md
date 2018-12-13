@@ -35,7 +35,7 @@ Pick the scenario below that best describes your organization, and you'll find a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-purple.svg" alt="Clock" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock.svg" alt="Clock" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,18 +86,19 @@ Pick the scenario below that best describes your organization, and you'll find a
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-4?branch=v-lanac-getstarted-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Best practices" />
+                            <img src="https://review.docs.microsoft.com/en-us/MicrosoftTeams/media/deploy-teams-landing-page-onprem-to-teams.png?branch=lolaj-TOCoverhaul" alt="Skype for Business Server logo and Teams logo" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Monitor usage and feedback</h3>
-                        <p>See how your early adopters are using Teams</p>
+                        <h3>I'm starting from Skype for Business Server</h3>
+                        <p><a href="https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity">To deploy Teams in a Skype for Business (on premises) environment, you'll need to configure hybrid connectivity between your on-premises environment, Skype for Business Server, and Office 365. </a></p>
+                        <p>Link to another topic - need Carolyn input</p>
+                        <p>Link to another topic - need Carolyn input</p>
                     </div>
                 </div>
             </div>
@@ -105,7 +106,7 @@ Pick the scenario below that best describes your organization, and you'll find a
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-5?branch=v-lanac-getstarted-working">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -115,8 +116,8 @@ Pick the scenario below that best describes your organization, and you'll find a
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Where to go next</h3>
-                        <p>When you're ready to roll out Teams to your entire org, we'll show you how</p>
+                        <h3>On-premises PSTN solution</h3>
+                        <p>I don't have Skype for Business Server, but I do have an on-premises PSTN solution. <br>Use Phone System Direct Routing to hook up your on-premises PSTN solution with Teams.</p>
                     </div>
                 </div>
             </div>
