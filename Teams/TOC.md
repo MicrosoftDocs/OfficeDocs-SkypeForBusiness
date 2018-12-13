@@ -60,8 +60,7 @@
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 
 
-# Manage
-## [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)
+# [Manage](using-admin-roles.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)
 ## [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ## [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
@@ -81,8 +80,7 @@
 
 
 
-# Chat, teams, & channels
-## [Overview of teams and channels in Teams](teams-channels-overview.md)
+# [Chat, teams, & channels](teams-channels-overview.md)
 ## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
@@ -488,8 +486,7 @@
 
 
 <!-- ============================================================ -->
-# Apps
-## [Teams apps permissions and considerations](app-permissions.md)
+# [Apps](app-permissions.md)
 ## [Add bots for private chats and channels in Teams](add-bots.md)
 ## [Admin settings for apps in Teams](admin-settings.md)
 ## [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
