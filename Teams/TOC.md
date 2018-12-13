@@ -575,7 +575,7 @@
 
 <!-- ============================================================ -->
 
-# --------------
+#        
 
 # Troubleshoot & support
 ## [Known issues for Teams](Known-issues.md)
