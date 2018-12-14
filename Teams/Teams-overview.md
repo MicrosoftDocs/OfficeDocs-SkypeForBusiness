@@ -20,9 +20,9 @@ appliesto:
 # Welcome to Microsoft Teams
 
 ## Get started
-If you're the admin for Microsoft Teams in your organization, you're in the right place. Here you’ll find all the information you need to plan, deploy, and run Teams. Whether you're a small business or a giant enterprise, the best place to start with Teams is our our [Quick start guide](get-started-with-teams-quick-start.md). It walks you through a small-scale Teams rollout, which is all you need if you're a small business. If you're a large enterprise, it lets you pilot Teams with a small group of early adopters so you can learn about Teams and start planning your org-wide deployment. 
+Whether you're a small business or a giant enterprise, the best place to start with Teams is our our [Quick start guide](get-started-with-teams-quick-start.md). It walks you through a small-scale Teams rollout, which is all you need if you're a small business. If you're a large enterprise, it lets you pilot Teams with a small group of early adopters so you can learn about Teams and start planning your org-wide deployment. 
 
-Teams consists of 4 workloads, which you can roll out as your organization is ready. 
+Teams consists of 4 workloads, which you can roll out as your organization is ready. We've created [guided paths to deploying Teams](get-started-with-teams-resources-for-org-wide-rollout.md) - pick your organization's profile, and we'll walk you through a successful Teams rollout.
 - [Chat, teams, & channels](teams-channels-overview.md)
 - [Meetings and conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)
