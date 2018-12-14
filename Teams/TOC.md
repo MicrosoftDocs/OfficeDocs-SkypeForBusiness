@@ -486,6 +486,9 @@
 #### [What is address validation?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [What are dial plans?](what-are-dial-plans.md)
 #### [Create and manage dial plans](create-and-manage-dial-plans.md)
+#### [Call park and retrieve](call-park-and-retrieve.md)
+#### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
+#### [Shared line appearance](shared-line-appearance.md)
 ### Phone System
 #### [What is Phone System in Office 365?](what-is-phone-system-in-office-365.md)
 #### [Setting up Phone System in your organization](setting-up-your-phone-system.md)
