@@ -1,5 +1,5 @@
 ---
-title: Overview of Microsoft Teams
+title: Welcome to Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -19,7 +19,15 @@ appliesto:
 
 # Welcome to Microsoft Teams
 
-If you're the admin for Microsoft Teams in your organization, you're in the right place. Here you’ll find all the information you need to plan, deploy, and run Teams.  
+## Get started
+If you're the admin for Microsoft Teams in your organization, you're in the right place. Here you’ll find all the information you need to plan, deploy, and run Teams. To get started with Teams, start with our [Quick start guide](get-started-with-teams-quick-start.md), which walks you through a small-scale Teams rollout so you can learn about Teams and start to plan your org-wide deployment. 
+
+Teams consists of 4 workloads, which you can roll out as your organization is ready. 
+- [Chat, teams, & channels](teams-channels-overview.md)
+- [Meetings and conferencing](deploy-meetings-microsoft-teams-landing-page.md)
+- [Cloud voice](cloud-voice-landing-page.md)
+- [Apps](app-permissions.md)
+
 
 ## Overview of Teams
 

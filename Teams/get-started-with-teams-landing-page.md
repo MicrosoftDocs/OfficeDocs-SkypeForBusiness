@@ -107,7 +107,7 @@ appliesto:
                     </div>
                     <div class="cardText">
                         <h3>Where to go next</h3>
-                        <p>When you're ready to roll out Teams to your entire org, we'll show you how</p>
+                        <p>When you're ready to roll out Teams to your entire org, pick a path and we'll walk you through the rollout</p>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/get-help-in-microsoft-teams">
+        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/training-microsoft-teams-landing-page?branch=lolaj-TOCoverhaul3">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -125,8 +125,8 @@ appliesto:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get help</h3>
-                        <p>How to find the assistance you need while you're using Teams</p>
+                        <h3>Training</h3>
+                        <p>Find training for yourself and your users. Or take an instructor-led class.</p>
                     </div>
                 </div>
             </div>
