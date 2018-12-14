@@ -1,5 +1,5 @@
 ---
-title: "Call sharing and group call pickup"
+title: "Call sharing and group call pickup in Microsoft Teams"
 ms.author: lolaj
 author: lolaj
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 description: "Call sharing and group call pickup let users share incoming calls with colleagues so that calls can be captured when the user is unavailable."
 ---
 
-# Call sharing and group call pickup
+# Call sharing and group call pickup in Microsoft Teams
 
 The call sharing and group call pickup features of Microsoft Teams let users share their incoming calls with colleagues so that the colleagues can answer calls that occur while the user is unavailable.
 
@@ -39,7 +39,7 @@ Users must be Enterprise Voice enabled to set up and use call sharing and group 
 
 ## Configure group call pickup
 
-To set up group call pickup, a user first configures a call group and then adds the users they want to share their calls with. Then, they choose a simultaneous ring or call forward setting. For more information, see [Call forwarding and simultaneous ring in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e). For more information about how a user can configure group call pickup, see [Add a delegate](https://support.office.com/article/add-a-delegate-for-calls-in-teams-16307929-a51f-43fc-8323-3b1bf115e5a8?storagetype=live)
+To set up group call pickup, a user first configures a call group and then adds the users they want to share their calls with. Then, they choose a simultaneous ring or call forward setting. For more information, see [Call forwarding and simultaneous ring in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
 
 Call group creation and notification preferences are user-driven features; administrators do not have to configure these features for their users. Call groups cannot be created from security groups or Office 365 groups; they must be created in Teams.
 
@@ -48,3 +48,7 @@ Admins cannot prevent users from creating groups and changing other call pickup 
 ## Limitations
 
 A tenant can contain a maximum of 32,768 call groups. There can be a maximum of 5 users in each call group. 
+
+## More information
+
+[Call forwarding and simultaneous ring in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)

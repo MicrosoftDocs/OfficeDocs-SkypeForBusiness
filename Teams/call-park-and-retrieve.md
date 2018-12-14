@@ -1,5 +1,5 @@
 ---
-title: "Call park and retrieve"
+title: "Call park and retrieve in Microsoft Teams"
 ms.author: lolaj
 author: lolaj
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 description: "Use call park and retrieve to place a call on hold in the Teams service in the cloud."
 ---
 
-# Call park and retrieve
+# Call park and retrieve in Microsoft Teams
 
 Call park and retrieve is a feature that lets a user place a call on hold in the Teams service in the cloud. When a call is parked, the service generates a unique code for call retrieval. The user who parked the call or someone else can then use that code and a supported app or device to retrieve the call. 
 
@@ -53,6 +53,8 @@ Call park and retrieve is currently supported by the following clients and devic
 
 You must be an administrator to configure call park and retrieve, and the feature is disabled by default. You can enable it for users and create user groups using the call park policy. When you apply the same policy to a set of users, they will be able to park and retrieve calls among themselves. To configure call park for users and create call park user groups, follow the procedure below.
 
+For information about how to use the call park and retrieve feature, see [Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
+
 ### Configure call park and retrieve with PowerShell
 
 To create a call park policy, use the following cmdlet:
@@ -73,3 +75,7 @@ If a user attempts to retrieve a call and is unsuccessful, check the following:
 - Grouping – is the user a member of the call park group?
 - Island mode – Call park and retrieve is unavailable in Teams island mode.
 - The call has already been retrieved or terminated.
+
+## More information
+
+[Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
