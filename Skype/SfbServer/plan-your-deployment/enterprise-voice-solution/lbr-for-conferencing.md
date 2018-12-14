@@ -138,9 +138,13 @@ For example, if the "UdcAgent" application has a priority value of "2", the "Def
 
 After you find the correct priority value for the Location-Based Routing for Conferencing application, type the following cmdlet for each Front-End pool or Standard Edition Server that homes users enabled for Location-Based Routing:
 
-New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <https://www.microsoft.com/LCS/LBRoutingFor> example:
+New-CsServerApplication -Identity Service:Registrar:`<Pool FQDN`>/LBRouting -Priority \<Application Priority\> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting> 
 
-New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri https://www.microsoft.com/LCS/LBRoutingAfter using this cmdlet, restart all Front End servers in the pool or the Standard Edition Servers where the Location-Based Routing for Conferencing application has been enabled.
+For example:
+
+New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting 
+
+After using this cmdlet, restart all Front End servers in the pool or the Standard Edition Servers where the Location-Based Routing for Conferencing application has been enabled.
 
 > [!IMPORTANT]
 > Location-Based Routing enforcements to conferences or consultative transfers won't be enforced until all the Front End Servers in the applicable pools or the Standard Edition Servers are restarted. If you set **-Critical** to **$true** in the preceding cmdlets, your Skype for Business Server services will be immediately restarted. If you do not want these services to immediately restart, set **-Critical** to **$false** for now, and then use **Set-CsServerApplication** to change **-Critical** to **$true** later, after the services have been restarted.
