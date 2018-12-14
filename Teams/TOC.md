@@ -4,7 +4,7 @@
 
 
 <!-- ============================================================ -->
-# [Get started](get-started-with-teams-landing-page.md)
+# [Start here](get-started-with-teams-landing-page.md)
 ## [Quick start - Teams](get-started-with-teams-quick-start.md)
 ## [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
 ## [Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
