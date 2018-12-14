@@ -1,5 +1,5 @@
 ---
-title: "Configure a multi-forest environment for hybrid Skype for Business"
+title: "Deploy a resource forest topology"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,28 +9,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
 ms.custom: 
-description: "The following sections provide guidance on how to configure an environment that has multiple forests in a Resource/User forest model to provide Skype for Business functionality in a hybrid scenario."
+description: "The following sections provide guidance on how to configure an environment that has multiple forests in a resource/user forest model to provide Skype for Business functionality in a hybrid scenario."
 ---
 
-# Configure a multi-forest environment for hybrid Skype for Business
+# Deploy a resource forest topology
  
-The following sections provide guidance on how to configure an environment that has multiple forests in a Resource/User forest model to provide Skype for Business functionality in a hybrid scenario. 
+The following sections provide guidance on how to configure an environment that has multiple forests in a resource/user forest model to provide Skype for Business functionality in a hybrid scenario. 
   
 ![Multi-Forest Environment for Hybrid](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
-## Validate the forest topology
+## Topology requirements
 
 Multiple user forests are supported. Keep the following in mind: 
-  
-- For either a single-user forest or multiple-user forest deployment, there must be a single deployment of Skype for Business Server.
     
-- For supported versions of Lync Server and Skype for Business Server in a hybrid configuration, see [Topology requirements](plan-hybrid-connectivity.md#BKMK_Topology) in [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md).
+- For supported versions of Lync Server and Skype for Business Server in a hybrid configuration, see [Server version requirements](plan-hybrid-connectivity.md#server-version-requirements) in [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md).
     
 - Exchange Server can be deployed in one or more forests, which may or may not include the forest containing Skype for Business Server. Make sure you have applied the latest Cumulative Update.
     
 - For details on co-existence with Exchange Server, including support criteria and limitations in various combinations of on-premises and online, see [Feature support](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) in [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
     
-For more information, please refer to [System requirements](../plan/system-requirements.md).
   
 ## User homing considerations
 
@@ -38,7 +35,7 @@ Skype for Business users homed on premises can have Exchange homed on premises o
   
 ## Configure forest trusts
 
-The trusts required are two-way transitive trusts between the resource forest and each of the user forests. If you have multiple user forests, to enable cross-forest authentication it is important that Name Suffix Routing is enabled for each of these forest trusts. For instructions, see [Managing Forest Trusts](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
+In a resource forest topology, the resource forests hosting Skype for Business Server must trust each account forest that contains users' accounts that will access it. If you have multiple user forests, to enable cross-forest authentication it is important that Name Suffix Routing is enabled for each of these forest trusts. For instructions, see [Managing Forest Trusts](https://technet.microsoft.com/en-us/library/cc772440.aspx). If you have Exchange Server deployed in an another forest and it provides functionality for Skype for Business users, the forest hosting Exchange must trust the forest hosting Skype for Business Server. For example, if Exchange were deployed in the account forest, this would effectively mean a two-way trust between account and Skype for Business forests is required in that configuration.
   
 ## Synchronize accounts into the forest hosting Skype for Business
 
@@ -89,9 +86,9 @@ Once deployed, you then have to edit the claims rule to match the Source Anchor 
   
 ## Configure AAD Connect
 
-AAD Connect will be used to merge the accounts between the different forests and between the forests and Office 365. You should deploy AAD Connect in the resource forest. It is required to be able to synchronize multiple forests and Office 365, which is not supported by Dirsync. 
-  
-AAD Connect does not synchronize the accounts between on-premises forests. It uses AD connectors to read objects that are already synchronized across on-premises forests (by FIM or similar products). It then leverages filtering rules to create a single representation of both the matching enabled and disabled object in its metaverse, and then replicates that single, merged object into Office 365. 
+In resource forest topologies, it’s required that user attributes from both the resource forest and any account forests(s) are synchronized into Azure AD. The simplest and recommended way to do this is to have Azure AD Connect synchronize and merge user identities from *all* forests that have enabled user accounts and the forest that contains Skype for Business. For details see, [Configure Azure AD Connect for Skype for Business and Teams](configure-azure-ad-connect.md).
+
+Note that AAD Connect does not provide synchronization on premises between the account and resource forests. That must be separately configured using Microsoft Identity Manager or similar product, as described earlier.
   
 When finished and AAD Connect is merging, if you look at an object in the metaverse, you should see something similar to this: 
   
