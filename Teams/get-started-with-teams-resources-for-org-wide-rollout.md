@@ -19,9 +19,9 @@ appliesto:
 
 Now that you've successfully set up your first teams, onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption. Pick your path:
 
-NOTE: We decided we don't want the landing-page format, but we need to incorporate the organization I did on [this page](ORIGINAL-deploy-teams-landing-page.md) into the table below. I took out the practical guidance section.
+*NOTE: We decided we don't want the landing-page format, but we need to incorporate the organization I did on [this page](ORIGINAL-deploy-teams-landing-page.md) into the table below. I took out the practical guidance section.*
 
-|Your organization's profile|Recommended path  |
+|Your organization's profile|Guided path  |
 |---------|---------|
 |![SMB](media/deploy-teams-landing-page-SMB.png)<BR>I've got less than 50 users, and I'm not planning to do phone calling yet. |Just follow our [Quick start](get-started-with-teams-quick-start.md), and you'll be on your way!<BR> <BR>If you want to add voice calling later, Follow this step-by-step guidance (this would link to an easy voice confic tutorial) |
 |![journey](media/deploy-teams-landing-page-journey.png)<BR>I'm currently using Skype for Business Online, and would like to move to Teams. |We have specific step-by-step guidance for you! Go to [Skype for Business to Microsoft Teams upgrade](Journey-SkypeforBusiness-Teams.md)        |

@@ -10,7 +10,7 @@
 ## [Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
 ## [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
 ## [Where to go next](get-started-with-teams-resources-for-org-wide-rollout.md)
-## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
+
 <!-- ============================================================ -->
 
 # [Chat, teams, & channels](teams-channels-overview.md)
@@ -429,7 +429,8 @@
 ## [Use inline message translation in Teams](inline-message-translation-teams.md)
 <!-- ============================================================ -->
 
-
+#       
+#        
 
 
 <!-- ============================================================ -->
@@ -459,41 +460,7 @@
 
 <!-- ============================================================ -->
 
-# [Deploy - Pick your path to Teams](deploy-teams-landing-page.md)
-## [Overview of a Teams deployment](deployment-overview.md)
-## Set up Teams
-### [Get clients for Teams](get-clients.md)
-### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
-### [Install Teams using MSI](msi-deployment.md)
-### [Turn on Teams in your organization](Office-365-set-up.md)
-### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
-### [Set up QoS in Teams](QoS-in-Teams.md)
-### [Deploy Teams for Surface Hub](teams-surface-hub.md)
-### Licensing
-### [Office 365 licensing for Teams](office-365-licensing.md)
-#### [Manage user access to Teams](user-access.md)
-#### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
-
-
-# [Manage](using-admin-roles.md)
-## [Manage Teams features in your organization](enable-features-office-365.md)
-## [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
-## [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
-## [Assign team owners and members in Teams](assign-roles-permissions.md)
-## [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
-## [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
-## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
-## Monitor call quality
-### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Set up Call Analytics](set-up-call-analytics.md)
-### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
-### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
-
+# [Deploy - for large enterprises](deployment-overview.md)
 
 <!-- ============================================================ -->
 # [Adopt - for large enterprises](adopt-microsoft-teams-landing-page.md) 
@@ -563,31 +530,7 @@
 #         
 
 <!-- ============================================================ -->
-# [Security & compliance](security-compliance-overview.md)
-## [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
-## [Identity models and authentication in Teams](identify-models-authentication.md)
-## [Sign in to Teams using modern authentication](sign-in-teams.md)
-## [Place a Teams user or team on legal hold](legal-hold.md)
-## [Search the audit log for events in Teams](audit-log-events.md)
-## [Use Content Search in Teams](content-search.md)
-## [Retention policies in Teams](retention-policies.md)
-### [Retention policies FAQ](retention-policies-FAQ.md)
-### [Retention policies known issues](retention-policies-known-issues.md)
-## [Location of data in Teams](location-of-data-in-teams.md)
-## [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
-## [Accessibility solutions for Skype for Business Online and Microsoft Teams](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-##  [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
-##  [Calling plans in Office 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
-## [Data collection practices](data-collection-practices.md)
-##  [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
-<!-- ============================================================ -->
-# Troubleshoot & support
-## [Known issues for Teams](Known-issues.md)
-## [Support resources for Teams](support-resources.md)
-## [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
-## [Use log files in troubleshooting Teams](log-files.md)
-## [Verify service health for Teams](service-health.md)
 
 
 <!-- ============================================================ -->
@@ -598,26 +541,75 @@
 <!-- ============================================================ -->
 
 # Reference
+## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
 ## Supported devices
 ### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-<!-- ============================================================ -->
+## Set up Teams
+### [Get clients for Teams](get-clients.md)
+### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
+### [Install Teams using MSI](msi-deployment.md)
+### [Turn on Teams in your organization](Office-365-set-up.md)
+### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
+### [Set up QoS in Teams](QoS-in-Teams.md)
+### [Deploy Teams for Surface Hub](teams-surface-hub.md)
+### Licensing
+### [Office 365 licensing for Teams](office-365-licensing.md)
+#### [Manage user access to Teams](user-access.md)
+#### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 
-#        
-#         
+## [Manage Teams](using-admin-roles.md)
+### [Manage Teams features in your organization](enable-features-office-365.md)
+### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
+### [Assign team owners and members in Teams](assign-roles-permissions.md)
+### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
+### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
+### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
+### Monitor call quality
+#### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
+#### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+#### [Set up Call Analytics](set-up-call-analytics.md)
+#### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+#### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
+#### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+## Teams for education
+### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
+### [Teams resources for Education admins](resources-teams-edu.md)
+### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
+
+## [Teams PowerShell overview](teams-powershell-overview.md)
+### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
+
+## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
+
+## [Security & compliance](security-compliance-overview.md)
+### [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
+### [Identity models and authentication in Teams](identify-models-authentication.md)
+### [Sign in to Teams using modern authentication](sign-in-teams.md)
+### [Place a Teams user or team on legal hold](legal-hold.md)
+### [Search the audit log for events in Teams](audit-log-events.md)
+### [Use Content Search in Teams](content-search.md)
+### [Retention policies in Teams](retention-policies.md)
+#### [Retention policies FAQ](retention-policies-FAQ.md)
+#### [Retention policies known issues](retention-policies-known-issues.md)
+### [Location of data in Teams](location-of-data-in-teams.md)
+### [Accessibility declaration of conformance in France for Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
+### [Accessibility solutions for Skype for Business Online and Microsoft Teams](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+###  [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
+###  [Calling plans in Office 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Data collection practices](data-collection-practices.md)
+###  [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 
-<!-- ============================================================ -->
-# Teams for education
-## [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
-## [Teams resources for Education admins](resources-teams-edu.md)
-## [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
-<!-- ============================================================ -->
-
-
-# [Teams PowerShell overview](teams-powershell-overview.md)
-## [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
-
-# [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
+## Troubleshoot & support
+### [Known issues for Teams](Known-issues.md)
+### [Support resources for Teams](support-resources.md)
+### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
+### [Use log files in troubleshooting Teams](log-files.md)
+### [Verify service health for Teams](service-health.md)
