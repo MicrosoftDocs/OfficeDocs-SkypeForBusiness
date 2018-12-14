@@ -57,11 +57,9 @@ For information about how to use the call park and retrieve feature, see [Park a
 
 ### Configure call park and retrieve with PowerShell
 
-To create a call park policy, use the following cmdlet:
-`New-CsTeamsCallParkPolicy -Identity <string> -AllowCallPark $True`
+Use the [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) PowerShell cmdlet to create a call park policy.
 
-To grant a call park policy, use the following cmdlet:
-`Grant-CsTeamsCallParkPolicy -PolicyName <string> <user email address>`
+Use the [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) PowerShell cmdlet to grant a call park policy.
 
 ## Troubleshooting
 
