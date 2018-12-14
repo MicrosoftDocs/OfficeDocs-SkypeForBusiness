@@ -13,129 +13,6 @@
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
-<!-- ============================================================ -->
-# [Plan - for large enterprises](quick-start-enable-teams.md)
-## [Check your environment’s readiness for Teams](environment-readiness.md)
-## [Prepare your organization's network for Teams](prepare-network.md)
-## [Limits and specifications for Teams](limits-specifications-teams.md)
-## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
-## [Get tools to support a rollout of Teams](rollout-tools.md)
-## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
-## [Plan for governance in Teams](plan-teams-governance.md)
-## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
-
-
-
-## Interoperability with Office 365
-### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
-### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
-### [Office 365 groups and Teams](office-365-groups.md)
-### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
-### [How Exchange and Teams interact](exchange-teams-interact.md)
-#### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
-#### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
-### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
-### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
-
-<!-- ============================================================ -->
-
-# [Deploy - Pick your path to Teams](deploy-teams-landing-page.md)
-## [Overview of a Teams deployment](deployment-overview.md)
-## Set up Teams
-### [Get clients for Teams](get-clients.md)
-### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
-### [Install Teams using MSI](msi-deployment.md)
-### [Turn on Teams in your organization](Office-365-set-up.md)
-### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
-### [Set up QoS in Teams](QoS-in-Teams.md)
-### [Deploy Teams for Surface Hub](teams-surface-hub.md)
-### Licensing
-### [Office 365 licensing for Teams](office-365-licensing.md)
-#### [Manage user access to Teams](user-access.md)
-#### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
-
-
-# [Manage](using-admin-roles.md)
-## [Manage Teams features in your organization](enable-features-office-365.md)
-## [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
-## [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
-## [Assign team owners and members in Teams](assign-roles-permissions.md)
-## [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
-## [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
-## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
-## Monitor call quality
-### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Set up Call Analytics](set-up-call-analytics.md)
-### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
-### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
-
-
-<!-- ============================================================ -->
-# [Adopt - for large enterprises](adopt-microsoft-teams-landing-page.md) 
-
-## [Get started](teams-adoption-get-started.md)
-## [Phase 1 - Start](teams-adoption-phase1.md)
-### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
-### [Create your first teams](teams-adoption-your-first-teams.md)
-### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
-## [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
-### [Create your champions program](teams-adoption-create-champions-program.md)
-### [Governance quick start](teams-adoption-governance-quick-start.md)
-### [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
-### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
-### [Onboard support](teams-adoption-onboard-support.md)
-## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
-### [Define outcomes and success](teams-adoption-define-outcomes.md)
-### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
-### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
-### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
-<!-- ============================================================ -->
-
-
-
-<!-- ============================================================ -->
-# [Upgrade from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
-## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Upgrade Basic](upgrade-basic.md)
-### [Sample emails and surveys](upgrade-emails-surveys.md)
-## [Upgrade Pro](upgrade-pro.md)
-## [Plan for your upgrade journey](upgrade-plan-journey.md)
-### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
-### [Define your project scope](upgrade-define-project-scope.md)
-### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Plan for quality](upgrade-plan-for-quality.md)
-## [Prepare your environment for Teams](upgrade-prepare-environment.md)
-### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
-### [Prerequisites](upgrade-plan-journey-prerequisites.md)
-### [Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)
-### [Prepare your network](upgrade-prepare-environment-prepare-network.md)
-### [Prepare your service](upgrade-prepare-environment-prepare-service.md)
-## [Prepare your organization for Teams](upgrade-prepare-organization.md)
-### [Assess organizational change readiness](upgrade-org-change-readiness.md)
-### [Prepare a user readiness plan](upgrade-user-readiness.md)
-## [Conduct a user pilot](pilot-essentials.md)
-## [Perform your upgrade to Teams](upgrade-to-teams.md)
-### [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-### [Upgrade from Skype for Business hybrid to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
-### [Upgrade from Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
-## [Drive value through user adoption](continue-journey.md)
-### [Operate your service](upgrade-operate-my-service.md)
-### [Monitor quality](upgrade-monitor-quality.md)
-### [Enhance your service](upgrade-enhance-my-service.md)
-## [FAQ](FAQ-journey.md)
-
-<!-- ============================================================ -->
-
-#         
-#         
-
 # [Chat, teams, & channels](teams-channels-overview.md)
 ## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
@@ -158,7 +35,7 @@
 
 <!-- ============================================================ -->
 
-# Meetings
+# [Meetings](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
 ## [Disabling toll-free numbers for specific users](disabling-toll-free-numbers-for-specific-teams-users.md)
@@ -308,7 +185,7 @@
 #### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 
 <!-- ============================================================ -->
-# Cloud voice
+# [Cloud voice](cloud-voice-landing-page.md)
 ## Phone System
 ### [What is Phone System](what-is-phone-system-in-office-365.md)
 ### [Set up Phone System](setting-up-your-phone-system.md)
@@ -552,6 +429,131 @@
 ## [Use inline message translation in Teams](inline-message-translation-teams.md)
 <!-- ============================================================ -->
 
+
+
+
+<!-- ============================================================ -->
+# [Plan - for large enterprises](quick-start-enable-teams.md)
+## [Check your environment’s readiness for Teams](environment-readiness.md)
+## [Prepare your organization's network for Teams](prepare-network.md)
+## [Limits and specifications for Teams](limits-specifications-teams.md)
+## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
+## [Get tools to support a rollout of Teams](rollout-tools.md)
+## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
+## [Plan for governance in Teams](plan-teams-governance.md)
+## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
+
+
+
+## Interoperability with Office 365
+### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
+### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+### [Office 365 groups and Teams](office-365-groups.md)
+### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
+### [How Exchange and Teams interact](exchange-teams-interact.md)
+#### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
+#### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
+### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
+### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
+
+<!-- ============================================================ -->
+
+# [Deploy - Pick your path to Teams](deploy-teams-landing-page.md)
+## [Overview of a Teams deployment](deployment-overview.md)
+## Set up Teams
+### [Get clients for Teams](get-clients.md)
+### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
+### [Install Teams using MSI](msi-deployment.md)
+### [Turn on Teams in your organization](Office-365-set-up.md)
+### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
+### [Set up QoS in Teams](QoS-in-Teams.md)
+### [Deploy Teams for Surface Hub](teams-surface-hub.md)
+### Licensing
+### [Office 365 licensing for Teams](office-365-licensing.md)
+#### [Manage user access to Teams](user-access.md)
+#### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
+
+
+# [Manage](using-admin-roles.md)
+## [Manage Teams features in your organization](enable-features-office-365.md)
+## [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+## [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
+## [Assign team owners and members in Teams](assign-roles-permissions.md)
+## [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
+## [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
+## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
+## Monitor call quality
+### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
+### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+### [Set up Call Analytics](set-up-call-analytics.md)
+### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
+### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+
+
+<!-- ============================================================ -->
+# [Adopt - for large enterprises](adopt-microsoft-teams-landing-page.md) 
+
+## [Get started](teams-adoption-get-started.md)
+## [Phase 1 - Start](teams-adoption-phase1.md)
+### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
+### [Create your first teams](teams-adoption-your-first-teams.md)
+### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
+## [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
+### [Create your champions program](teams-adoption-create-champions-program.md)
+### [Governance quick start](teams-adoption-governance-quick-start.md)
+### [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
+### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
+### [Onboard support](teams-adoption-onboard-support.md)
+## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
+### [Define outcomes and success](teams-adoption-define-outcomes.md)
+### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
+### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
+### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
+<!-- ============================================================ -->
+
+
+
+<!-- ============================================================ -->
+# [Upgrade from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
+## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Upgrade Basic](upgrade-basic.md)
+### [Sample emails and surveys](upgrade-emails-surveys.md)
+## [Upgrade Pro](upgrade-pro.md)
+## [Plan for your upgrade journey](upgrade-plan-journey.md)
+### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
+### [Define your project scope](upgrade-define-project-scope.md)
+### [Understand coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [Plan for quality](upgrade-plan-for-quality.md)
+## [Prepare your environment for Teams](upgrade-prepare-environment.md)
+### [Prepare IT staff for Teams](upgrade-prepare-IT-pros.md)
+### [Prerequisites](upgrade-plan-journey-prerequisites.md)
+### [Evaluate your environment](upgrade-plan-journey-evaluate-environment.md)
+### [Prepare your network](upgrade-prepare-environment-prepare-network.md)
+### [Prepare your service](upgrade-prepare-environment-prepare-service.md)
+## [Prepare your organization for Teams](upgrade-prepare-organization.md)
+### [Assess organizational change readiness](upgrade-org-change-readiness.md)
+### [Prepare a user readiness plan](upgrade-user-readiness.md)
+## [Conduct a user pilot](pilot-essentials.md)
+## [Perform your upgrade to Teams](upgrade-to-teams.md)
+### [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [Upgrade from Skype for Business hybrid to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
+### [Upgrade from Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+## [Drive value through user adoption](continue-journey.md)
+### [Operate your service](upgrade-operate-my-service.md)
+### [Monitor quality](upgrade-monitor-quality.md)
+### [Enhance your service](upgrade-enhance-my-service.md)
+## [FAQ](FAQ-journey.md)
+
+<!-- ============================================================ -->
+
+#         
+#         
 
 
 
