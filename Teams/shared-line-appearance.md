@@ -24,7 +24,7 @@ description: "Shared line appearance lets a user choose a delegate to answer or 
 
 # Shared line appearance in Microsoft Teams
 
-The shared line appearance feature is part of the delegation feature that lets a user choose a delegate to answer or handle calls on their behalf. This feature is helpful if a user has an administrative assistant who regularly handles the user’s calls. In the context of shared line appearance, a manager is someone who authorizes a delegate to make or receive calls on their behalf, and a delegate can make and receive calls on behalf of someone else.
+Shared line appearance is part of the delegation feature that lets a user choose a delegate to answer or handle calls on their behalf. This feature is helpful if a user has an administrative assistant who regularly handles the user’s calls. In the context of shared line appearance, a manager is someone who authorizes a delegate to make or receive calls on their behalf, and a delegate can make and receive calls on behalf of someone else.
 
 > [!IMPORTANT]
 > This feature is only available in Teams Only deployment mode. For more details on Teams deployment modes, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
@@ -41,7 +41,7 @@ Delegation and shared line appearance are user-driven features: there are no adm
 
 ## Shared line appearance feature availability
 
-The shared line appearance feature is currently supported by the following apps and devices.
+Shared line appearance is currently supported by the following apps and devices.
 
 | Capability | Teams Desktop | Teams Mac App | Teams Web App (Edge) |Teams mobile iOS/Android App | Teams IP phone |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
