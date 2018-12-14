@@ -81,7 +81,7 @@ appliesto:
 ---
 
 <h2>Don't miss this key training</h2>
-This is where we can curate items we want to highlight... or not. New training, training to address key scenarios, etc. We should keep it really lightweight - maybe just one row. Or omit it altogether. The "real" meat is on the individual training pages. Don't want to distract people from the top 3 tiles, and we don't want to undermine the 3 subpages.
+This is where we can curate items we want to highlight... or not. New training, training to address key scenarios, etc. We should keep it really lightweight - one row. Or omit it altogether. The "real" meat is on the individual training pages. Don't want to distract people from the top 3 tiles, and we don't want to undermine the 3 subpages. The content below is just placeholder - to show POC.
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
