@@ -473,60 +473,51 @@
 
 
 <!-- ============================================================ -->
-# [Plan - for large enterprises](quick-start-enable-teams.md)
-## [Check your environment’s readiness for Teams](environment-readiness.md)
-## [Prepare your organization's network for Teams](prepare-network.md)
-## [Limits and specifications for Teams](limits-specifications-teams.md)
-## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
-## [Get tools to support a rollout of Teams](rollout-tools.md)
-## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
-## [Plan for governance in Teams](plan-teams-governance.md)
-## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
 
-
-
-## Interoperability with Office 365
-### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
-### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
-### [Office 365 groups and Teams](office-365-groups.md)
-### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
-### [How Exchange and Teams interact](exchange-teams-interact.md)
-#### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
-#### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
-### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
-### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
-
-<!-- ============================================================ -->
-
-# [Deploy - for large enterprises](deployment-overview.md)
+# Guidance for large enterprises
+## [Plan](quick-start-enable-teams.md)
+### [Check your environment’s readiness for Teams](environment-readiness.md)
+### [Prepare your organization's network for Teams](prepare-network.md)
+### [Limits and specifications for Teams](limits-specifications-teams.md)
+### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
+### [Get tools to support a rollout of Teams](rollout-tools.md)
+### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
+### [Plan for governance in Teams](plan-teams-governance.md)
+### [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
+### Interoperability with Office 365
+#### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+#### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
+#### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+#### [Office 365 groups and Teams](office-365-groups.md)
+#### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
+#### [How Exchange and Teams interact](exchange-teams-interact.md)
+##### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
+##### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
+#### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
+#### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
+## [Deploy](deployment-overview.md)
 
 <!-- ============================================================ -->
-# [Adopt - for large enterprises](adopt-microsoft-teams-landing-page.md) 
+## [Adopt](adopt-microsoft-teams-landing-page.md) 
 
-## [Get started](teams-adoption-get-started.md)
-## [Phase 1 - Start](teams-adoption-phase1.md)
-### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
-### [Create your first teams](teams-adoption-your-first-teams.md)
-### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
-## [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
-### [Create your champions program](teams-adoption-create-champions-program.md)
-### [Governance quick start](teams-adoption-governance-quick-start.md)
-### [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
-### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
-### [Onboard support](teams-adoption-onboard-support.md)
-## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
-### [Define outcomes and success](teams-adoption-define-outcomes.md)
-### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
-### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
-### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
+### [Get started](teams-adoption-get-started.md)
+### [Phase 1 - Start](teams-adoption-phase1.md)
+#### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
+#### [Create your first teams](teams-adoption-your-first-teams.md)
+#### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
+### [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
+#### [Create your champions program](teams-adoption-create-champions-program.md)
+#### [Governance quick start](teams-adoption-governance-quick-start.md)
+#### [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
+#### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
+#### [Onboard support](teams-adoption-onboard-support.md)
+### [Phase 3 - Scale](teams-adoption-phase3-enable.md)
+#### [Define outcomes and success](teams-adoption-define-outcomes.md)
+#### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
+#### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
+#### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
 <!-- ============================================================ -->
 
-
-
-<!-- ============================================================ -->
-
-<!-- ============================================================ -->
 
 #        
 #         
