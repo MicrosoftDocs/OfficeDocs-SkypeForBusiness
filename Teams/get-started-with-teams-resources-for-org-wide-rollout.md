@@ -19,6 +19,7 @@ appliesto:
 
 Now that you've successfully set up your first teams, onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption. Pick your path:
 
+NOTE: We decided we don't want the landing-page format, but we need to incorporate the organization I did on [this page](ORIGINAL-deploy-teams-landing-page.md) into the table below. I took out the practical guidance section.
 
 |Your organization's profile|Recommended path  |
 |---------|---------|
