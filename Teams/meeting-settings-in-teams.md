@@ -57,7 +57,7 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
     - **Footer** Enter text that you want to include as a footer. 
 3. Wait an hour or so for the changes to propagate. Then schedule a Teams meeting to see what the meeting invitation looks like.  
 
-## Set how you want to handle real-time media traffic for Teams meetings (coming soon) 
+## Set how you want to handle real-time media traffic for Teams meetings
 If you're using Quality of Service (QoS) to prioritize network traffic, you can enable QoS markers and you can set port ranges for each type of media traffic. 
 
  ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
