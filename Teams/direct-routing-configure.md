@@ -77,8 +77,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > [!NOTE]
   > 1. We highly recommend setting a limit for the SBC, using information that can be found in the SBC documentation. The limit will trigger a notification if SBC is at the capacity level.
   > 2. You can only pair the SBC with FQDN, where the domain portion of the name matches one of the domains registered in your tenant, except \*.onmicrosoft.com. Using \*.omicrosoft.com domain names is not supported for the SBC FQDN names. For example, if you have two domain names:<br/><br/>
-  > **abc**.xyz<br/>**abc**.onmicrosoft.com<br/><br/>
-  > For the SBC name, you can use the name sbc.abc.xyz. If you try to pair the SBC with a name sbc.xyz.abc, the system will not let you, as the domain is not owned by this tenant.
+  > **contoso**.com<br/>**contoso**.onmicrosoft.com<br/><br/>
+  > For the SBC name, you can use the name sbc.contoso.com. If you try to pair the SBC with a name sbc.contoso.abc, the system will not let you, as the domain is not owned by this tenant.
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
