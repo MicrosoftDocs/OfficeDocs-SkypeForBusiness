@@ -163,10 +163,10 @@ To get full details of all migrations within a specific time period, you can use
 Get-CsMeetingMigrationStatus -StartTime "10/1/2016" -EndTime "10/8/2016"
 ```
 
-You also may want to check the status of the migration for a specific user, and you can use the  `UserId` parameter for that. For example, the following command will return the status for the user ashaw@contoso.com:
+You also may want to check the status of the migration for a specific user, and you can use the  `Identity` parameter for that. For example, the following command will return the status for the user ashaw@contoso.com:
   
 ```
-Get-CsMeetingMigrationStatus -UserId "ashaw@contoso.com"
+Get-CsMeetingMigrationStatus -Identity "ashaw@contoso.com"
 ```
 
 ### What do I do if there is an error?
@@ -177,7 +177,7 @@ When you run the  `Get-CsMeetingMigrationStatus` cmdlet to get a summary view an
 1. Determine which users are affected. Run the following command to get the list of affected users, and the specific error that was reported:
     
    ```
-   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastMessage
+   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table Identity,LastMessage
    ```
 
 2. For each of those user, run the [Meeting Migration Tool](https://go.microsoft.com/fwlink/p/?linkid=626047) to manually migrate their meetings.
