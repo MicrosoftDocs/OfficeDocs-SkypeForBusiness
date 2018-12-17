@@ -18,7 +18,8 @@
 #        
 
 
-# [Chat, teams, & channels](teams-channels-overview.md)
+# [Chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page)
+## [Overview of teams and channels](teams-channels-overview.md)
 ## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
@@ -43,7 +44,8 @@
 
 
 
-# [Apps](app-permissions.md)
+# [Apps](deploy-apps-microsoft-teams-landing-page.md)
+## [Apps permissions and considerations](app-permissions.md)
 ## [Add bots for private chats and channels in Teams](add-bots.md)
 ## [Admin settings for apps in Teams](admin-settings.md)
 ## [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)

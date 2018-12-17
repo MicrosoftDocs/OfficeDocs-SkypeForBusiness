@@ -1,13 +1,13 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Microsoft Teams documentation and practical guidance
-description: Microsoft Teams documentation and practical guidance
+title: Microsoft Teams technical documentation
+description: Microsoft Teams technical documentation and practical guidance
 ms.topic: hub-page
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Microsoft Teams documentation and practical guidance</h1>
+        <h1>Microsoft Teams technical documentation</h1>
         <ul class="pivots">
             <li>
                 <a href="#home"></a>

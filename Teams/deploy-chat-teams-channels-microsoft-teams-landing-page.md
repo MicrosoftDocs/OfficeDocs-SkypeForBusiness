@@ -17,17 +17,3 @@ appliesto:
 # Deploy Microsoft Teams chat, teams, and channels
 
 
-Plan
-    Topic
-    Topic
-    Topic
-
-Roll out and manage
-    Topic
-    Topic
-    Topic
-
-Reference
-    Topic
-    Topic
-    Topic
