@@ -19,7 +19,7 @@ Skype for Business Server 2019 hybrid implementations only use Cloud Voicemail a
 
 In Skype for Business Server 2019 you are now able to use the cloud auto attendant feature described in [What are Phone System Auto Attendants](/MicrosoftTeams/what-are-phone-system-auto-attendants.md).
 
-To use Cloud Auto Attendant with Skype for Business Server 2019, you will need to create virtual on-prem users that act as application endpoints and can be assigned phone numbers, then use the online Admin Center to configure the overall Cloud AA experience. Typically you will have multiple Auto Attendants, each of which plays an audio outgoing message to callers, each of which is mapped to one of these virtual on-prem users.
+To use Cloud Auto Attendant with Skype for Business Server 2019, you will need to create on-premises resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Admin Center to configure the overall Cloud AA experience. Typically you will have multiple Auto Attendants, each of which plays an audio outgoing message to callers, each of which is mapped to one of these on-premises resource accounts.
 
 If you have an existing Auto Attendant implemented in Exchange UM, before you switch to Exchange Server 2019 or Exchange online, you will need to manually record the details as described below and then implement a completely new Cloud Auto Attendant system using the Office Online Admin portal.
 
@@ -29,9 +29,9 @@ These steps are necessary whether you are creating a brand new Auto Attendant or
 
 Log in to the front end server and run the following PowerShell cmdlets:
 
-1. Create each Cloud Auto Attendant's on premise counterpart by running the `New-CsHybridApplicationEndpoint` cmdlet as needed (for one or more Auto Attendants), and give each one a name, sip address, and so on.
+1. Create each Cloud Auto Attendant's on-premises resource account  by running the `New-CsHybridApplicationEndpoint` cmdlet as needed (for one or more Auto Attendants), and give each one a name, sip address, and so on.
 
-    For the Main Auto Attendant that will have the Initial Greeting or after-hours greeting, be sure to assign the phone number using the  -LineURI option. This is optional if the auto attendant is a child in the hierarchy. The hierarchy structure will be configured online, on the server we're just creating containers to arrange later.
+    For the Main Auto Attendant that will have the Initial Greeting or after-hours greeting, be sure to assign the phone number using the  -LineURI option. This is optional if the auto attendant is a child in the hierarchy. Remember the hierarchy structure will be configured online, on the server we're just creating containers to arrange later.
 
     ```
     New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
@@ -54,7 +54,7 @@ Log in to the front end server and run the following PowerShell cmdlets:
 
     See [Set-CsHybridApplicationEndpoint](https://docs.microsoft.com/en-us/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) for more details on this command.
 
-2. (Optional) Once these endpoints are created and the required phone numbers are assigned, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of the Auto Attendants. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
+2. (Optional) Once these resource accounts are created and the required phone numbers are assigned, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of the Auto Attendants. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
     ```
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -71,7 +71,7 @@ Your online implementation will need to have a plan that includes Phone System l
 
 An example of a small business implementation is available in [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml).
 
-## Test the new auto Attendant
+## Test the new Auto Attendant
 
 The best way to test the implementation is to call the number configured for an Auto Attendant and choose options to navigate to each of the auto attendants you've just created. You can also quickly place a test call to your Auto Attendant by using the **Test button** in the Admin Center Action pane. If you want to make changes to an Auto Attendant, select the Auto Attendant, and then in the Action pane click **Edit**.
 
