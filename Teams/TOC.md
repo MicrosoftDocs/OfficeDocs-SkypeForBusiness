@@ -501,6 +501,9 @@
 #### [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 #### [Set up Common Area Phones in Microsoft Teams](set-up-common-area-phones.md)
+#### [Call park and retrieve](call-park-and-retrieve.md)
+#### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
+#### [Shared line appearance](shared-line-appearance.md)
 ### Phone System Direct Routing
 #### [Plan Direct Routing](direct-routing-plan.md)
 #### [Configure Direct Routing](direct-routing-configure.md)
