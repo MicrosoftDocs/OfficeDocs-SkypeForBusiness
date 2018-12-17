@@ -305,7 +305,7 @@ In the example below, you can see the result of the running the PowerShell comma
 To create the “Redmond 1” route, enter:
 
   ```
-  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^+1(425|206)
+  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
   (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
   ```
 
@@ -331,7 +331,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 To create the Other +1 route, enter:
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -372,7 +372,7 @@ Name		 	: Redmond 2
 Identity		: Other +1 
 Priority       		: 4
 Description	 	: 
-NumberPattern 		: ^\\+1(\d{10})$
+NumberPattern 		: ^\+1(\d{10})$
 OnlinePstnUsages 	: {US and Canada}	 
 OnlinePstnGatewayList	: {sbc5.contoso.biz, sbc6.contoso.biz}
 Name		 	: Other +1
@@ -439,9 +439,9 @@ The following table  summarizes routing policy “No Restrictions” usage desig
 
 |**PSTN usage**|**Voice route**|**Number pattern**|**Priority**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|US Only|“Redmond 1”|^+1(425\|206)(\d{7})$|1|sbc1<span></span>.contoso.biz<br/>sbc2<span></span>.contoso.biz|Active route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
-|US Only|“Redmond 2”|^+1(425\|206)(\d{7})$|2|sbc3<span></span>.contoso.biz<br/>sbc4<span></span>.contoso.biz|Backup route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
-|US Only|“Other +1”|^+1(\d{10})$|3|sbc5<span></span>.contoso.biz<br/>sbc6<span></span>.contoso.biz|Route for callee numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
+|US Only|“Redmond 1”|^\\+1(425\|206)(\d{7})$|1|sbc1<span></span>.contoso.biz<br/>sbc2<span></span>.contoso.biz|Active route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
+|US Only|“Redmond 2”|^\\+1(425\|206)(\d{7})$|2|sbc3<span></span>.contoso.biz<br/>sbc4<span></span>.contoso.biz|Backup route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
+|US Only|“Other +1”|^\\+1(\d{10})$|3|sbc5<span></span>.contoso.biz<br/>sbc6<span></span>.contoso.biz|Route for callee numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
 |International|International|\d+|4|sbc2<span></span>.contoso.biz<br/>sbc5<span></span>.contoso.biz|Route for any number pattern |
 
 
