@@ -1,6 +1,10 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 
+
+#       
+#        
+
 # [Start here](get-started-with-teams-landing-page.md)
 
 <!-- ============================================================ -->
@@ -12,10 +16,6 @@
 ## [Step 4: Plan your org-wide rollout](get-started-with-teams-resources-for-org-wide-rollout.md)
 
 <!-- ============================================================ -->
-
-
-#       
-#        
 
 
 # [Chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page)
