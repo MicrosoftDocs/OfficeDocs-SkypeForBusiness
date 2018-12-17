@@ -98,7 +98,7 @@
 <!-- ============================================================ -->
 # Upgrade to Teams
 ## Why upgrade?
-## [Upgrade from Skype for Business to Teams](upgrade-about-the-framework.md)
+## [About the framework](upgrade-about-the-framework.md)
 ## [Plan for your upgrade journey](upgrade-plan-journey.md)
 ### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 ### [Define your project scope](upgrade-define-project-scope.md)
