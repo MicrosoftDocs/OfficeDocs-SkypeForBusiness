@@ -1,4 +1,3 @@
-
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 
@@ -52,6 +51,7 @@
 ## [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
 ## [Use activity reports for Teams](teams-activity-reports.md)
 ## [Use inline message translation in Teams](inline-message-translation-teams.md)
+<!-- ============================================================ -->
 
 # [Meetings](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
@@ -76,6 +76,7 @@
 ### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
 
+<!-- ============================================================ -->
 
 
 
@@ -203,6 +204,9 @@
 #### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 
 <!-- ============================================================ -->
+<!-- ============================================================ -->
+
+
 # [Cloud voice](cloud-voice-landing-page.md)
 ## Phone System
 ### [What is Phone System](what-is-phone-system-in-office-365.md)
