@@ -22,7 +22,7 @@ The Auto Attendant used with Exchange Unified Messaging (Exchange Server 2013 or
 
 This inherently means that you will have a hybrid implementation of Skype for Business Server 2019. See [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md) for details.
 
-An Auto Attendant can include a greeting the caller can't interact with (this can be a different message during office hours and outside office hours) and menu choices the users can interact with either with a voice response or by pressing a telephone keypad. The options can connect callers to employees, an Operator, call queues used by entire departments, and other auto attendants that act as sub-menus to a main Auto Attendant. Each Auto Attendant is a distinct virtual user on your Skype for Business Server 2019 system that is linked directly to an Auto Attendant in the Teams and Skype for Business Admin Center. See [What are Phone System auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) for more detail on what Auto Attendants are and what options and features exist for Auto Attendants. 
+An Auto Attendant can include a greeting the caller can't interact with (this can be a different message during office hours and outside office hours) and menu choices the users can interact with either with a voice response or by pressing a telephone keypad. The options can connect callers to employees, an Operator, call queues used by entire departments, and other auto attendants that act as sub-menus to a main Auto Attendant. Each Auto Attendant is represented as a resource account on your Skype for Business Server 2019 system that is linked directly to an Auto Attendant in the Teams and Skype for Business Admin Center. See [What are Phone System auto attendants?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) for more detail on what Auto Attendants are and what options and features exist for Auto Attendants. 
 
 > [!NOTE]
 > You are now able to link multiple inbound phone numbers to a single Cloud Auto Attendant.
@@ -52,7 +52,7 @@ The following requirements assume that you already have Skype for Business Serve
 
 In addition to the requirements above, the below requirements must be configured to connect to the Microsoft Cloud Auto Attendant service:
 
-- Hybrid connectivity. If you already have Skype for Business Server deployed, and you want to enable Cloud Auto Attendant for your on-premises users, you must ensure that you have hybrid connectivity set up between your on-premises and online environments. This is sometimes called a split domain configuration. 
+- Hybrid connectivity. If you already have Skype for Business Server deployed, and you want to enable Cloud Auto Attendant for your on-premises users, you must ensure that you have hybrid connectivity set up between your on-premises and online environments. This is sometimes called a split domain configuration.
 
    For more information, see [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
 
@@ -108,6 +108,9 @@ The tutorial titled [Small business example - Set up an Auto Attendant](/SkypeFo
 
 When you have a solid structure that meets your needs and a script that guides customers efficiently, proceed to [Configure Cloud Auto Attendant](configure-cloud-auto-attendant.md).
 
+> [!CAUTION]
+> As mentioned in [KB4480742](https://support.microsoft.com/en-us/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019), moving Exch UM Auto Attendants created in Server 2015 to servers running Server 2019 is discouraged. For the time being, you'd have to keep them on a Skype for Business Server 2015 pool running in coexistance mode.
+
 ## See Also
 
 [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md)
@@ -124,4 +127,6 @@ Exchange UM: [Automatically answer and route incoming calls](/exchange/voice-mai
 
 [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md)
 
-[Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
+[Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md)
+
+[KB4480742: Calls to Subscriber Access or Auto Attendant fail with fast busy and “500 Server Internal" error after moving contact objects to Skype for Business Server 2019](https://support.microsoft.com/en-us/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)
