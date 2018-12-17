@@ -3,7 +3,7 @@ title: Quality of Service in Microsoft Teams - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
-ms.date: 12/12/2018
+ms.date: 12/17/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
