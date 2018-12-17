@@ -2,14 +2,15 @@
 <!-- ============================================================ -->
 # [Welcome to Teams](teams-overview.md)
 
+# [Start here](get-started-with-teams-landing-page.md)
 
 <!-- ============================================================ -->
-# [Start here](get-started-with-teams-landing-page.md)
-## [Quick start - Teams](get-started-with-teams-quick-start.md)
-## [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
-## [Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
-## [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
-## [Where to go next](get-started-with-teams-resources-for-org-wide-rollout.md)
+
+# [Quick start - Teams](get-started-with-teams-quick-start.md)
+## [Step 1: Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Step 2: Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
+## [Step 3: Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Step 4: Plan your org-wide rollout](get-started-with-teams-resources-for-org-wide-rollout.md)
 
 <!-- ============================================================ -->
 
@@ -39,6 +40,18 @@
 
 
 <!-- ============================================================ -->
+
+
+
+
+# [Apps](app-permissions.md)
+## [Add bots for private chats and channels in Teams](add-bots.md)
+## [Admin settings for apps in Teams](admin-settings.md)
+## [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
+## [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
+## [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
+## [Use activity reports for Teams](teams-activity-reports.md)
+## [Use inline message translation in Teams](inline-message-translation-teams.md)
 
 # [Meetings](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
@@ -424,14 +437,6 @@
 
 
 <!-- ============================================================ -->
-# [Apps](app-permissions.md)
-## [Add bots for private chats and channels in Teams](add-bots.md)
-## [Admin settings for apps in Teams](admin-settings.md)
-## [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
-## [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
-## [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
-## [Use activity reports for Teams](teams-activity-reports.md)
-## [Use inline message translation in Teams](inline-message-translation-teams.md)
 <!-- ============================================================ -->
 
 #       

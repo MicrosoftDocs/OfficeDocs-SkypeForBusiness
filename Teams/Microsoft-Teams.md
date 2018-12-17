@@ -16,7 +16,7 @@ ms.topic: hub-page
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <li>
-                                <a href="/MicrosoftTeams/get-started-with-teams-landing-page">
+                                <a href="/MicrosoftTeams/teams-overview">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -26,8 +26,8 @@ ms.topic: hub-page
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Get started</h3>
-                                                    <p>Find the planning, how-to, and practical guidance you need to get the most out of Teams in your organization</p>
+                                                    <h3>Start here</h3>
+                                                    <p>Whether you're a small business or a giant enterprise, start here to find the right path to rolling out Teams in your organization</p>
                                                 </div>
                                             </div>
                                         </div>

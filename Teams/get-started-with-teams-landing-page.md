@@ -39,7 +39,7 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-channels-overview">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -49,35 +49,16 @@ appliesto:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Create your first teams and channels</h3>
-                        <p>Best practices for setting up your first teams and channels</p>
+                        <h3>Chat, teams, & channels</h3>
+                        <p>Roll out Teams to your organization starting with chat, teams, & channels</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-onboard-early-adopters">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Onboard early adopters</h3>
-                        <p>Get your first users up and running in the new teams you just created</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback">
+        <li>
+        <a href="https://docs.microsoft.com/MicrosoftTeams/app-permissions">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -87,8 +68,8 @@ appliesto:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Monitor usage and feedback</h3>
-                        <p>See how your early adopters are using Teams</p>
+                        <h3>Apps</h3>
+                        <p>Customize Teams for your organization by adding apps</p>
                     </div>
                 </div>
             </div>
@@ -96,7 +77,26 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Meetings & audio conferencing</h3>
+                        <p>Next, roll out meetings and audio conferencing in Teams, including setting up devices and room systems</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -106,8 +106,8 @@ appliesto:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Where to go next</h3>
-                        <p>When you're ready to roll out Teams to your entire org, pick a path and we'll walk you through the rollout</p>
+                        <h3>Cloud voice</h3>
+                        <p>When you're ready, we'll walk you through deploying Phone System, Calling Plan, Phone System Direct Routing, and more</p>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/training-microsoft-teams-landing-page?branch=lolaj-TOCoverhaul3">
+        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/adopt-microsoft-teams-landing-page?branch=lolaj-TOCoverhaul4">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -125,8 +125,8 @@ appliesto:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Training</h3>
-                        <p>Find training for yourself and your users. Or take an instructor-led class.</p>
+                        <h3>Drive adoption and manage Teams</h3>
+                        <p>Help your users adopt Teams and learn how to manage Teams for your organization</p>
                     </div>
                 </div>
             </div>

@@ -1,17 +1,15 @@
 ---
 title: Welcome to Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.date: 11/06/18
 ms.reviewer: LolaJ
-description: Learn about Microsoft Teams, its infrastructure, and using Teams with Office 365.
+description: Find the right path to rolling out Microsoft Teams in your organization. Learn about the Teams infrastructure and using Teams with Office 365.
 localization_priority: Priority
 search.appverid: MET150
-ms.custom:
-- NewAdminCenter_Update
 MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
@@ -20,13 +18,16 @@ appliesto:
 # Welcome to Microsoft Teams
 
 ## Get started
-Whether you're a small business or a giant enterprise, the best place to start with Teams is our our [Quick start guide](get-started-with-teams-quick-start.md). It walks you through a small-scale Teams rollout, which is all you need if you're a small business. If you're a large enterprise, use [Quick start](get-started-with-teams-quick-start.md) to pilot Teams with a small group of early adopters so you can learn about Teams and start planning your org-wide deployment. 
+Whether you're a small business or a giant enterprise, the best place to start for rolling out Teams is our our [Quick start guide](get-started-with-teams-quick-start.md). It walks you through a small-scale Teams rollout, which may be all you need if you're a small business. If you're a large enterprise, use [Quick start](get-started-with-teams-quick-start.md) to pilot Teams with a small group of early adopters so you can learn about Teams and start planning your org-wide deployment. 
+
+
 
 Teams consists of 4 workloads, which you can roll out as your organization is ready. We've created [guided paths to deploying Teams](get-started-with-teams-resources-for-org-wide-rollout.md) - pick your organization's profile, and we'll walk you through a successful Teams rollout of one or more workloads.
 - [Chat, teams, & channels](teams-channels-overview.md)
+- [Apps](app-permissions.md)
 - [Meetings and conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)
-- [Apps](app-permissions.md)
+
 
 
 ## Overview of Teams
