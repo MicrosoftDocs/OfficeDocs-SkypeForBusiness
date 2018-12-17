@@ -119,7 +119,7 @@
 ### Checklist for online upgrade
 ## [Upgrade from Skype for Business hybrid or on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 ### Checklist for hybrid or on-premises upgrade
-## [Drive value through user adoption](continue-journey.md)
+## [Operate, adopt, and optimize](continue-journey.md)
 ### [Operate your service](upgrade-operate-my-service.md)
 ### [Monitor quality](upgrade-monitor-quality.md)
 ### [Enhance your service](upgrade-enhance-my-service.md)
