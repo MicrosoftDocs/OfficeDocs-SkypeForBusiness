@@ -255,7 +255,7 @@ All configured public IP addresses of the Audio/Video Edge Servers in your deplo
 3. Run the following cmdlet to import **subnet.csv**, and then store its contents in the Lync Server management store:
 
    ```
-   import-csv subnet.csv | foreach {New-CsNetworkSubnet $_IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
+   import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 
 ### To associate a subnet with a network site by using Skype for Business Server Control Panel
