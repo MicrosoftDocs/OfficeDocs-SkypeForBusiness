@@ -42,19 +42,6 @@
 <!-- ============================================================ -->
 
 
-
-
-# [Apps](deploy-apps-microsoft-teams-landing-page.md)
-## [Apps permissions and considerations](app-permissions.md)
-## [Add bots for private chats and channels in Teams](add-bots.md)
-## [Admin settings for apps in Teams](admin-settings.md)
-## [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
-## [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
-## [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
-## [Use activity reports for Teams](teams-activity-reports.md)
-## [Use inline message translation in Teams](inline-message-translation-teams.md)
-<!-- ============================================================ -->
-
 # [Meetings](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
@@ -445,6 +432,16 @@
 <!-- ============================================================ -->
 <!-- ============================================================ -->
 
+# [Apps](deploy-apps-microsoft-teams-landing-page.md)
+## [Apps permissions and considerations](app-permissions.md)
+## [Add bots for private chats and channels in Teams](add-bots.md)
+## [Admin settings for apps in Teams](admin-settings.md)
+## [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
+## [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
+## [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
+## [Use activity reports for Teams](teams-activity-reports.md)
+## [Use inline message translation in Teams](inline-message-translation-teams.md)
+<!-- ============================================================ -->
 #       
 #        
 
@@ -487,6 +484,7 @@
 
 
 # [Plan - for large enterprises](quick-start-enable-teams.md)
+## [Overview of a Teams deployment](deployment-overview.md)
 ## [Check your environment’s readiness for Teams](environment-readiness.md)
 ## [Prepare your organization's network for Teams](prepare-network.md)
 ## [Limits and specifications for Teams](limits-specifications-teams.md)
@@ -507,8 +505,6 @@
 ### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
 ### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 
-
-# [Deploy - for large enterprises](deployment-overview.md)
 
 <!-- ============================================================ -->
 # [Adopt - for large enterprises](adopt-microsoft-teams-landing-page.md) 

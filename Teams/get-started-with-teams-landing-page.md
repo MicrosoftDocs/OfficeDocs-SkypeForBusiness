@@ -57,25 +57,6 @@ appliesto:
         </div>
         </a>
     </li>
-        <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/app-permissions">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Best practices" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Apps</h3>
-                        <p>Customize Teams for your organization by adding apps</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
     <li>
         <a href="https://docs.microsoft.com/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page">
         <div class="cardSize">
@@ -108,6 +89,25 @@ appliesto:
                     <div class="cardText">
                         <h3>Cloud voice</h3>
                         <p>When you're ready, we'll walk you through deploying Phone System, Calling Plan, Phone System Direct Routing, and more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+        <li>
+        <a href="https://docs.microsoft.com/MicrosoftTeams/app-permissions">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us//office/media/icons/best-practices-teams.svg" alt="Best practices" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Apps</h3>
+                        <p>Customize Teams for your organization by adding apps</p>
                     </div>
                 </div>
             </div>
