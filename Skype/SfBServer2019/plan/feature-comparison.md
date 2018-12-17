@@ -130,7 +130,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Disable meeting IM |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Mute Audience |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Make everyone an attendee |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
-|Produce Skype Meeting Broadcast |&#x2714;|||||
+|Produce Skype Meeting Broadcast |&#x2714; &#x2779;|||&#x2714; &#x2780;||
 |Delegate can schedule a meeting on behalf of delegator |&#x2714;|&#x2714;|&#x2714;|||
 |Synchronize delegates between Skype for Business and Outlook |&#x2714;||&#x2714;||| 
 |Set Video Spotlight (lock video) |&#x2714;||&#x2714;|&#x2714;|&#x2714;| 
@@ -141,6 +141,10 @@ For details, see the [Skype for Business Online Service Description](https://tec
  &#x2777;  For Skype for Business Online, this feature requires Microsoft PSTN Conferencing, Exchange Unified Messaging, or a third-party audio conferencing provider.
 
  &#x2778;  The Lync for Mac 2011 client cannot view Microsoft Office 2013 PowerPoint presentations when they have been shared in a conference by the Skype for Business Web App.
+
+&#x2779;  For Skype for Business 2016 apps, you must be using Click-to-Run, build 16.0.4227 or later.
+
+&#x2780;  For Skype for Business 2015 apps, you must have the September Update, build 15.0.4747 or later.
 
 ## Voice (Telephony) support
 <a name="BKMK_Telephony"> </a>
