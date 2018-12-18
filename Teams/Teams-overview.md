@@ -28,7 +28,7 @@ Teams consists of 4 workloads, which you can roll out as your organization is re
 - [Meetings and conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)
 
-If you're a large enterprise, if you're coming to Teams from Skype for Business Server, or if you've got an on-premises PSTN solution, check out our [Planning guidance for large enterprises](plan-microsoft-teams-enterprise-deployment). 
+If you're a large enterprise, if you're coming to Teams from Skype for Business Server, or if you've got an on-premises PSTN solution, check out our [Planning guidance for large enterprises](plan-microsoft-teams-enterprise-deployment). Also for large enterprises, don't miss the [Teams Adoption Hub](adopt-microsoft-teams-landing-page.md).
 
 ## Overview of Teams
 
