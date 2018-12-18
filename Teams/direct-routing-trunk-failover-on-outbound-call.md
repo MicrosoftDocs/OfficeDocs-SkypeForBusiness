@@ -1,5 +1,5 @@
 ---
-title: "Trunk failover on outbound call"
+title: "Trunk failover on outbound calls"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
