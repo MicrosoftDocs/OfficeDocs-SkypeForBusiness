@@ -76,8 +76,6 @@ To help demonstrate how your upgrade journey might unfold, we’ve provided a sa
 | **5** | **Conduct your pilot** | Start your pilot, track progress and iterate as needed to optimize your pilot results. | [Conduct your pilot](pilot-essentials.md#5-conduct-your-pilot) |
 | **6** | **Assess learnings and evaluate your go-forward plan** | Gather  user feedback, network stats, and support tickets for analysis against your goals and determine your go-forward plan. | [Assess learnings and evaluate your go-forward plan](pilot-essentials.md#6-assess-learnings-and-evaluate-your-go-forward-plan)
 
-### Deploy: Run Teams in coexistence with Skype for Business
-
 
 | Step |  | Summary | Resource |
 |------|--|---------|----------|
