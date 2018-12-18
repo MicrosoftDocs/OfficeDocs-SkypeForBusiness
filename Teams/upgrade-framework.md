@@ -76,6 +76,7 @@ To help demonstrate how your upgrade journey might unfold, we’ve provided a sa
 | **5** | **Conduct your pilot** | Start your pilot, track progress and iterate as needed to optimize your pilot results. | [Conduct your pilot](pilot-essentials.md#5-conduct-your-pilot) |
 | **6** | **Assess learnings and evaluate your go-forward plan** | Gather  user feedback, network stats, and support tickets for analysis against your goals and determine your go-forward plan. | [Assess learnings and evaluate your go-forward plan](pilot-essentials.md#6-assess-learnings-and-evaluate-your-go-forward-plan)
 
+### Deploy: Run Teams in coexistence with Skype for Business
 
 | Step |  | Summary | Resource |
 |------|--|---------|----------|
@@ -83,7 +84,7 @@ To help demonstrate how your upgrade journey might unfold, we’ve provided a sa
 | **2** | **Enable the appropriate coexistence mode for your users** | Follow steps to set the right coexistence mode(s) for your organization. | [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md) |
 | **3** | **Stay informed about the Teams roadmap** | Monitor the Teams roadmap to identify the right time for your organization to move to Teams. | [Teams roadmap](https://aka.ms/teamsroadmap) |
 | **4** | **Send additional communications and engage Teams champions to drive excitement and adoption of Teams** | Encourage user adoption and maintain excitement for Teams with ongoing communications and champions. | [Microsoft 365 Champions Program](https://aka.ms/O365Champions) |
--
+
 ## Upgrade 
 
 **Make the official move to Teams**. When you upgrade your users, you move them into Teams only  mode. Teams becomes their primary app for chat, meetings, calling, and collaboration, and access to the Skype for Business app is disabled. Although the technical aspects of this phase are quite simple, consider the effect the change might have on user experience and allow time for users to officially transition their activities from Skype for Business to Teams. To reduce users’ having different experiences with different clients, try to limit the end-to-end upgrade window to 45 days or so.
