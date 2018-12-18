@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Frequently asked questions about the upgrade journey from Skype for Business to Microsoft Teams.
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
@@ -17,6 +17,14 @@ appliesto:
 ---
 
 # FAQ - Journey from Skype for Business to Microsoft Teams
+
+> [!Tip]
+> Watch the following session to learn about the Upgrade from Skype for Business to Microsoft Teams: 
+> - [Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)
+> - [Plan your upgrade](https://aka.ms/teams-upgrade-plan)
+> - [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Administrator experience](https://aka.ms/teams-upgrade-admin)
+
 
 ## Intelligent Communications vision
 

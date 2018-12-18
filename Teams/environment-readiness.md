@@ -22,7 +22,7 @@ The transition to the cloud will vary by each organization, and current state ma
 
 Educational institutions are strongly encouraged to [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before deploying Microsoft Teams. School Data Sync uses your school’s SIS roster data to automatically create classes and groups for Microsoft Teams and other applications.
 
-To get the best experience on Teams, your organization must have deployed Exchange Online and SharePoint Online. If you haven't deployed these services, or if you have a different setup, refer to these links for help:
+To get the best experience on Teams, your organization must have deployed Exchange Online and SharePoint Online. You must also ensure that your current environment is ready for Teams.  Refer to these links for help:
 
 -   If your organization has not deployed any Office 365 workloads, see [Getting Started with Office 365 for business.](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)
 
@@ -36,4 +36,4 @@ To get the best experience on Teams, your organization must have deployed Exchan
 
 - If your organization is an educational institution and you use a Student Information System (SIS), [deploy School Data Sync](https://docs.microsoft.com/schooldatasync/) before deploying Microsoft Teams.
 
-																			   
+- If your organization has an existing on-premises Skype for Business Server (or Lync Server) deployment, you must configure Azure AD Connect to synchronize your on-premises directory with Office 365.  For more information, see [Configure Azure AD Connect for Teams and Skype for Business](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect).

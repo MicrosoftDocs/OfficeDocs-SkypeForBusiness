@@ -3,7 +3,7 @@ title: Add bots for private chats and channels in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 12/05/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -51,3 +51,14 @@ Side load your own bot for private chat
 
 
 3.  The app ID will resolve to your **bot name,** and then you can initiate a chat conversation with that bot.
+
+Side load your bot for channels
+-----------------------------------
+
+If you want to share your bot with your colleagues, here's how to add it to channels of different teams:
+
+1. After you have [created an app package for your bot](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-upload), open Teams and browse to the team in which you'll be side-loading the bot.
+2. Select **More** (...) next to the team name.
+3. Select **Manage team** and then select the **Apps** tab.
+4. At the bottom-right of your screen, select **Upload a custom app**.
+5. Browse to the location of your app package, select it, and then click **Open**.

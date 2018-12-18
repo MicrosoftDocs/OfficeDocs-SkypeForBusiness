@@ -28,8 +28,8 @@ This article describes how to configure Microsoft Phone System Direct Routing. I
 
 We recommend that you confirm that your SBC has already been configured as recommended by your SBC vendor's: 
 
-- AudioCodes deployment documentation 
-- Ribbon Communications deployment documentation
+- [AudioCodes deployment documentation](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Ribbon Communications deployment documentation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 
 You can configure your Microsoft Phone System and enable  users to use Direct Routing, then set up Microsoft Teams as the preferred calling client by completing the following procedures: 
 
@@ -77,8 +77,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > [!NOTE]
   > 1. We highly recommend setting a limit for the SBC, using information that can be found in the SBC documentation. The limit will trigger a notification if SBC is at the capacity level.
   > 2. You can only pair the SBC with FQDN, where the domain portion of the name matches one of the domains registered in your tenant, except \*.onmicrosoft.com. Using \*.omicrosoft.com domain names is not supported for the SBC FQDN names. For example, if you have two domain names:<br/><br/>
-  > **abc**.xyz<br/>**abc**.onmicrosoft.com<br/><br/>
-  > For the SBC name, you can use the name sbc.abc.xyz. If you try to pair the SBC with a name sbc.xyz.abc, the system will not let you, as the domain is not owned by this tenant.
+  > **contoso**.com<br/>**contoso**.onmicrosoft.com<br/><br/>
+  > For the SBC name, you can use the name sbc.contoso.com. If you try to pair the SBC with a name sbc.contoso.abc, the system will not let you, as the domain is not owned by this tenant.
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
@@ -204,7 +204,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 For example, to add a phone number for user “Spencer Low,” you would enter the following: 
 
 ```
-Set-CsUser - “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+Set-CsUser -Identity “Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
 ```
 
 The phone number used has to be configured as a full E.164 phone number with country code. 
@@ -305,7 +305,7 @@ In the example below, you can see the result of the running the PowerShell comma
 To create the “Redmond 1” route, enter:
 
   ```
-  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^+1(425|206)
+  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
   (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
   ```
 
@@ -331,7 +331,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 To create the Other +1 route, enter:
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -372,7 +372,7 @@ Name		 	: Redmond 2
 Identity		: Other +1 
 Priority       		: 4
 Description	 	: 
-NumberPattern 		: ^\\+1(\d{10})$
+NumberPattern 		: ^\+1(\d{10})$
 OnlinePstnUsages 	: {US and Canada}	 
 OnlinePstnGatewayList	: {sbc5.contoso.biz, sbc6.contoso.biz}
 Name		 	: Other +1
@@ -439,9 +439,9 @@ The following table  summarizes routing policy “No Restrictions” usage desig
 
 |**PSTN usage**|**Voice route**|**Number pattern**|**Priority**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|US Only|“Redmond 1”|^+1(425\|206)(\d{7})$|1|sbc1<span></span>.contoso.biz<br/>sbc2<span></span>.contoso.biz|Active route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
-|US Only|“Redmond 2”|^+1(425\|206)(\d{7})$|2|sbc3<span></span>.contoso.biz<br/>sbc4<span></span>.contoso.biz|Backup route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
-|US Only|“Other +1”|^+1(\d{10})$|3|sbc5<span></span>.contoso.biz<br/>sbc6<span></span>.contoso.biz|Route for callee numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
+|US Only|“Redmond 1”|^\\+1(425\|206)(\d{7})$|1|sbc1<span></span>.contoso.biz<br/>sbc2<span></span>.contoso.biz|Active route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
+|US Only|“Redmond 2”|^\\+1(425\|206)(\d{7})$|2|sbc3<span></span>.contoso.biz<br/>sbc4<span></span>.contoso.biz|Backup route for callee numbers +1 425 XXX XX XX or +1 206 XXX XX XX|
+|US Only|“Other +1”|^\\+1(\d{10})$|3|sbc5<span></span>.contoso.biz<br/>sbc6<span></span>.contoso.biz|Route for callee numbers +1 XXX XXX XX XX (except +1 425 XXX XX XX or +1 206 XXX XX XX)|
 |International|International|\d+|4|sbc2<span></span>.contoso.biz<br/>sbc5<span></span>.contoso.biz|Route for any number pattern |
 
 
@@ -510,7 +510,7 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
    Then verify the assignment using the command:   
 
    ```
-   Get CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
+   Get-CsOnlineUser “John Woods” | Select OnlineVoiceRoutingPolicy
    ```
    Which returns:
 

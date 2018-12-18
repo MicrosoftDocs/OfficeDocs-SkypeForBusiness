@@ -21,13 +21,13 @@ The Conference Detail Report provides detailed information about all the users w
 
 The Conference Detail Report can be accessed from the following reports:
 
-- The [Call Admission Control Report in Skype for Business Server](call-admission-control-report.md) (by clicking the Detail metric for a conference)
+- The [Call Admission Control Report](call-admission-control-report.md) (by clicking the Detail metric for a conference)
 
-- The [Failure List Report in Skype for Business Server](failure-list-report.md) (by clicking the Conference metric)
+- The [Failure List Report](failure-list-report.md) (by clicking the Conference metric)
 
-- The [User Activity Report in Skype for Business Server](user-activity-report.md) (by clicking the Conference URI metric)
+- The [User Activity Report](call-diagnostic-reports-per-user.md) (by clicking the Conference URI metric)
 
-From the Conference Detail Report you can access the [Diagnostic Report in Skype for Business Server](diagnostic-report.md) by clicking the Diagnostic Report (Detail) metric.
+From the Conference Detail Report you can access the [Diagnostic Repor](diagnostic-report.md) by clicking the Diagnostic Report (Detail) metric.
 
 ## Filters
 
