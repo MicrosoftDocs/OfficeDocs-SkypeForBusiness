@@ -483,7 +483,8 @@
 <!-- ============================================================ -->
 
 
-# [Plan - for large enterprises](quick-start-enable-teams.md)
+# [Plan - for large enterprises](plan-microsoft-teams-enterprise-deployment.md)
+## [Quick start - Teams planning guide](quick-start-enable-teams.md)
 ## [Overview of a Teams deployment](deployment-overview.md)
 ## [Check your environment’s readiness for Teams](environment-readiness.md)
 ## [Prepare your organization's network for Teams](prepare-network.md)

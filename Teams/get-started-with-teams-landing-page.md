@@ -39,7 +39,7 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-channels-overview">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -96,7 +96,7 @@ appliesto:
         </a>
     </li>
         <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/app-permissions">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -115,7 +115,6 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/adopt-microsoft-teams-landing-page?branch=lolaj-TOCoverhaul4">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -125,8 +124,12 @@ appliesto:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Drive adoption and manage Teams</h3>
-                        <p>Help your users adopt Teams and learn how to manage Teams for your organization</p>
+                        <h3>Large enterprise guidance</h3>
+                        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams?branch=lolaj-TOCoverhaul4">
+                        <p>Plan your enterprise-wide Teams deployment</p></a>
+                        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/adopt-microsoft-teams-landing-page?branch=lolaj-TOCoverhaul4">                        
+                        <p>Teams adoption hub: Help your users adopt Teams</p></a>
+                        
                     </div>
                 </div>
             </div>

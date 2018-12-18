@@ -17,17 +17,3 @@ appliesto:
 # Deploy apps in Microsoft Teams
 
 
-Plan
-    Topic
-    Topic
-    Topic
-
-Roll out and manage
-    Topic
-    Topic
-    Topic
-
-Reference
-    Topic
-    Topic
-    Topic

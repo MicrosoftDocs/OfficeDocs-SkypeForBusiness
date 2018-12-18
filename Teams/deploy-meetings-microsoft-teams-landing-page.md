@@ -16,5 +16,5 @@ appliesto:
 # Deploy meetings in Microsoft Teams
 
 
-This is a new topic. It should guide the admin through deploying the Meetings workload. It assumes they've already set up Teams and created their first teams & channels. It assumes people have started to use chat.
+You've completed [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the Meetings workload, including audio conferencing. Here's how:
 
