@@ -96,9 +96,9 @@
 
 
 <!-- ============================================================ -->
-# Upgrade to Teams
-## Why upgrade?
-## [About the framework](upgrade-about-the-framework.md)
+# [Upgrade to Teams](upgrade-introduction.md)
+## [Why upgrade?](why-upgrade.md)
+## [About the upgrade framework](upgrade-framework.md)
 ## [Plan for your upgrade journey](upgrade-plan-journey.md)
 ### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 ### [Define your project scope](upgrade-define-project-scope.md)
