@@ -28,12 +28,11 @@ Teams consists of 4 workloads, which you can roll out as your organization is re
 - [Meetings and conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)
 
-We've created [guided paths to deploying Teams](get-started-with-teams-resources-for-org-wide-rollout.md) - pick your organization's profile, and we'll walk you through a successful Teams rollout of one or more workloads.
-
+If you're a large enterprise, if you're coming to Teams from Skype for Business Server, or if you've got an on-premises PSTN solution, check out our [Planning guidance for large enterprises](plan-microsoft-teams-enterprise-deployment). 
 
 ## Overview of Teams
 
-If you're new to Teams, check out this short video, [Welcome to Teams](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams). Teams is built on Office 365 groups, Office Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). When you create a team, here's what gets created:
+If you're new to Teams, watch this short video, [Welcome to Teams](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams). Teams is built on Office 365 groups, Office Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). When you create a team, here's what gets created:
 - A new [Office 365 group](office-365-groups.md)
 - A [SharePoint Online](sharepoint-onedrive-interact.md) site and document library to store team files
 - An [Exchange Online](exchange-teams-interact.md) shared mailbox and calendar
