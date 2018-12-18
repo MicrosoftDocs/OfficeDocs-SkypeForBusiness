@@ -53,7 +53,7 @@ The [Office 365 US Government service description](https://docs.microsoft.com/en
 
 To accommodate the requirements of our government cloud customers, there are some differences between Microsoft 365 Government - GCC High and Enterprise plans. The features listed in the following table are unavailable.
 
-|                             | Feature                     | GCC            |
+|                             | Feature                     | GCC High       |
 |-----------------------------|-----------------------------|----------------|
 | Base | Login | Available |
 | | Presence | Available |
@@ -70,7 +70,7 @@ To accommodate the requirements of our government cloud customers, there are som
 | | OneNote tab | On the Government backlog |
 | | Email a channel | Not available |
 | | Add member | Available |
-| | Guest access | Available |
+| | Guest access | On the Government backlog |
 | Meetings | Schedule meeting | Available |
 | | Join meeting | Available |
 | | VoIP meeting | Available |
@@ -82,33 +82,33 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Meeting notes | Available |
 | | Broadcast meetings | On the Government backlog |
 | | Federated meetings | Available |
-| | Surface Hub support (preview) | Available |
+| | Surface Hub support | On the Government backlog |
 | Calls | Contacts | Available |
 | | History | Available |
 | | Voicemail | Available |
 | | VoIP call | Available |
 | | Skype for Business - Teams calling | Available |
-| | Calling Plans | Available |
-| | Audio conferencing (by allowing meeting participants to join via PSTN) | Available |
-| | Microsoft Phone System direct routing | Available |
-| | Lobby for PSTN callers | Available |
-| | Call queue | Available |
-| | Boss and delegate support | Available |
-| | Consultative and safe transfer | Available |
-| | Do not disturb breakthrough | Available |
-| | Distinctive ring | Available |
-| | 1:1 to group call escalation with Teams, Skype for Business, and PSTN participants | Available |
-| | Forward to group | Available |
-| | Transfer to PSTN call | Available |
-| | Emergency calling - Calling Plans | Available |
-| | Support for existing certified SIP phones | Available |
+| | Calling Plans | Not Available |
+| | Audio conferencing (by allowing meeting participants to join via PSTN) | On the Government backlog |
+| | Microsoft Phone System direct routing | On the Government backlog |
+| | Lobby for PSTN callers | On the Government backlog |
+| | Call queue | On the Government backlog |
+| | Boss and delegate support | On the Government backlog |
+| | Consultative and safe transfer | On the Government backlog |
+| | Do not disturb breakthrough | On the Government backlog |
+| | Distinctive ring | On the Government backlog |
+| | 1:1 to group call escalation with Teams, Skype for Business, and PSTN participants | On the Government backlog |
+| | Forward to group | On the Government backlog |
+| | Transfer to PSTN call | On the Government backlog |
+| | Emergency calling - Calling Plans | On the Government backlog |
+| | Support for existing certified SIP phones | On the Government backlog |
 | | USB HID | Available |
 | | eDiscovery for both calls and meetings | Available |
-| | Organization auto attendant | Available |
-| | Skype consumer - Teams call support | Available |
+| | Organization auto attendant | On the Government backlog |
+| | Skype consumer - Teams call support | Not available |
 | Files | Recent | Available |
 | | Microsoft Teams | Available |
-| Store | App Store | On the Government backlog |
+| Store | App Store | Not available |
 | Search | Messages | Available |
 | | People | Available |
 | | Files | Available |
@@ -145,24 +145,3 @@ Determine your requirements for governance and how you can meet them. Go to [Pla
 After you’ve been onboarded to Microsoft 365 Government – GCC High, you can follow the standard deployment approach of using [FastTrack](https://fasttrack.microsoft.com/fasttrack-faq) and your chosen partner to onboard the service.
 
 When you’re ready, deploy Teams to [enable collaboration within your organization through teams and channels](teams-overview.md). Be sure to engage with your Adoption and Change Management team or Teams champions.
-
-### MSI command and parameters
-
-When you use the MSI installer to install Teams, you must define the source parameter as **GCCHigh**.
-
-Use a command prompt with elevated privileges to run the following command:
-
-    msiexec /i Teams_windows.msi SOURCE=GCCHigh
-
-**Command description**
-
-| Command part | Notes |
-| ------------ | ----- |
-| msiexec | Command line utility to install, change, or uninstall the MSI |
-| /i | Parameter for install |
-| Teams_windows.msi | The Teams installer MSI file |
-| SOURCE=GCCHigh | Metadata to specify that the deployment environment is GCCHigh | 
-
-> [!NOTE]
-> Teams should not be installed via an .exe file for GCC High. Deployment via .exe is under development.
- 
