@@ -3,7 +3,7 @@ title: Plan for Microsoft 365 Government - GCC High deployments - Microsoft Team
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 12/04/2018
+ms.date: 12/18/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -53,15 +53,71 @@ The [Office 365 US Government service description](https://docs.microsoft.com/en
 
 To accommodate the requirements of our government cloud customers, there are some differences between Microsoft 365 Government - GCC High and Enterprise plans. The features listed in the following table are unavailable.
 
-| Feature                     | Reason            |
-|-----------------------------|-------------------|
-| Call and Meeting Recording  | Recording is dependent on Microsoft Stream, which will be available in US Government plans in the future. |
-| Apps       | Non-compliant apps (such as bots, tabs, and connectors) won’t be available initially, but we’re working to make them available as soon as all their components meet the compliance bar. |
-| Email a channel             | The current feature architecture isn’t supported in government plans. |
-| Unified Presence            | We’re finishing work for our enterprise and GCC customers first for this important feature. It will be available to GCC High customers in the future.|
-| Interop chat between Teams & Skype for Business users | Interop is dependent on Unified Presence Service (UPS) and cannot work until GCC High Teams tenants are enabled for UPS. |
-| Email Notifications         | The current feature architecture isn’t supported in the US Government plans. Work is ongoing to make this feature available to US Government plan customers in the future.|
-
+|                             | Feature                     | GCC            |
+|-----------------------------|-----------------------------|----------------|
+| Base | Login | Available |
+| | Presence | Available |
+| | Unified presence (Skype for Business and Teams unified) | On the Government backlog |
+| Activity | Feed | Available |
+|  | My Activity | Available |
+| Chat | Conversation | Available |
+| | Files | Available |
+| | Org chart | Available |
+| | Activity | Available |
+| | InterOp (1:1 Teams-Skype for Business chat) | On the Government backlog |
+| Teams | Channel message | Available |
+| | Channel files | Available |
+| | OneNote tab | On the Government backlog |
+| | Email a channel | Not available |
+| | Add member | Available |
+| | Guest access | Available |
+| Meetings | Schedule meeting | Available |
+| | Join meeting | Available |
+| | VoIP meeting | Available |
+| | Desktop sharing | Available |
+| | Give and take control in sharing | Available |
+| | Connect from a conference room | Available |
+| | Anonymous join | Available |
+| | Cloud recording | On the Government backlog |
+| | Meeting notes | Available |
+| | Broadcast meetings | On the Government backlog |
+| | Federated meetings | Available |
+| | Surface Hub support (preview) | Available |
+| Calls | Contacts | Available |
+| | History | Available |
+| | Voicemail | Available |
+| | VoIP call | Available |
+| | Skype for Business - Teams calling | Available |
+| | Calling Plans | Available |
+| | Audio conferencing (by allowing meeting participants to join via PSTN) | Available |
+| | Microsoft Phone System direct routing | Available |
+| | Lobby for PSTN callers | Available |
+| | Call queue | Available |
+| | Boss and delegate support | Available |
+| | Consultative and safe transfer | Available |
+| | Do not disturb breakthrough | Available |
+| | Distinctive ring | Available |
+| | 1:1 to group call escalation with Teams, Skype for Business, and PSTN participants | Available |
+| | Forward to group | Available |
+| | Transfer to PSTN call | Available |
+| | Emergency calling - Calling Plans | Available |
+| | Support for existing certified SIP phones | Available |
+| | USB HID | Available |
+| | eDiscovery for both calls and meetings | Available |
+| | Organization auto attendant | Available |
+| | Skype consumer - Teams call support | Available |
+| Files | Recent | Available |
+| | Microsoft Teams | Available |
+| Store | App Store | On the Government backlog |
+| Search | Messages | Available |
+| | People | Available |
+| | Files | Available |
+| | Slash commands | Available |
+| Compliance | Compliance content search | Available |
+| | Retention | Available |
+| | Audit log search | Available |
+| | Legal hold | Available |
+| | eDiscovery | Available |
 
 |    |     |
 |-----------|------------|
@@ -89,10 +145,6 @@ Determine your requirements for governance and how you can meet them. Go to [Pla
 After you’ve been onboarded to Microsoft 365 Government – GCC High, you can follow the standard deployment approach of using [FastTrack](https://fasttrack.microsoft.com/fasttrack-faq) and your chosen partner to onboard the service.
 
 When you’re ready, deploy Teams to [enable collaboration within your organization through teams and channels](teams-overview.md). Be sure to engage with your Adoption and Change Management team or Teams champions.
-
-## Step 7. Desktop client deployment for GCC High
-
-This step describes how to use the Teams MSI installer to complete a mass deployment of Microsoft Teams in a GCC High environment. Follow these guidelines to ensure that the app backend services are mapped to the GCC High cloud.
 
 ### MSI command and parameters
 
