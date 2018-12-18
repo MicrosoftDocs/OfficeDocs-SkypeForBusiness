@@ -507,11 +507,13 @@
 ### Phone System Direct Routing
 #### [Plan Direct Routing](direct-routing-plan.md)
 #### [Configure Direct Routing](direct-routing-configure.md)
-#### [Migrating to Direct Routing](direct-routing-migrating.md)
+#### [Migrate to Direct Routing](direct-routing-migrating.md)
 #### [Monitor and troubleshoot Direct Routing](direct-routing-monitor-and-troubleshoot.md)
 #### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 #### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
+#### Technical reference for Direct Routing
+##### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
