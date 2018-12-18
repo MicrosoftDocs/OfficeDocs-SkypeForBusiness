@@ -36,10 +36,6 @@ Additionally, we've developed guided paths for deploying Teams depending on your
 |
 
 
-
-
-
-
 ## Let us know what you think
 
 :memo:
