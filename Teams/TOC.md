@@ -5,8 +5,6 @@
 #       
 #        
 
-# [Start here](get-started-with-teams-landing-page.md)
-
 <!-- ============================================================ -->
 
 # [Quick start - Teams](get-started-with-teams-quick-start.md)
