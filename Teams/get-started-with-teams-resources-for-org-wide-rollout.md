@@ -19,9 +19,9 @@ appliesto:
 
 Now that you've successfully set up your first teams, onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption. Teams consists of 4 workloads, which you can roll out as your organization is ready. 
 - [Chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Apps](deploy-apps-microsoft-teams-landing-page.md)
 - [Meetings and conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)
+- [Apps](deploy-apps-microsoft-teams-landing-page.md)
 
 Additionally, we've developed guided paths for deploying Teams depending on your organization's profile. Pick your path:
 
