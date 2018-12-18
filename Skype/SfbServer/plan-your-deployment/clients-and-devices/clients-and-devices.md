@@ -29,13 +29,13 @@ Skype for Business Server supports several types of clients, including computer-
 
 ### Skype for Business (2019)
 
-Skype for Business (2019) is the recommended full-featured client for Skype for Business Server 2019. See [What's new in Skype for Business 2016](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) for a description of new features. Client feature support is detailed in the [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md), and user documentation is at [Skype for Business help](https://support.office.com/en-US/Skype-for-business). This client is included when a user installs Office 365.
+Skype for Business (2019) is the recommended full-featured client for Skype for Business Server 2015 and 2019. See [Follow the latest updates in Skype for Business](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) for a description of new features. Client feature support is detailed in the [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md), and user documentation is at [Skype for Business help](https://support.office.com/en-US/Skype-for-business). This client is included when a user installs Office 365.
 
 A free basic client supporting fewer features is also available. Both versions are available for download at [Download Skype for Business across all your devices](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). The differences between Full and Basic clients are described in the [Basic client limitations](desktop-feature-comparison.md#Full-Basic) section.
 
 ### Skype for Business 2016
 
-Skype for Business 2016 is the recommended full-featured client for Skype for Business Server. See [What's new in Skype for Business 2016](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) for a description of new features. Client feature support is detailed in the [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md), and user documentation is at [Skype for Business help](https://support.office.com/en-US/Skype-for-business). This client is included when a user installs Office 365.
+Skype for Business 2016 is a full-featured client for Skype for Business Server 2015 or 2019. See [What's new in Skype for Business 2016](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) for a description of new features. Client feature support is detailed in the [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md), and user documentation is at [Skype for Business help](https://support.office.com/en-US/Skype-for-business). This client is included when a user installs Office 365.
 
 A free basic client supporting fewer features is also available. Both versions are available for download at [Download Skype for Business across all your devices](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). The differences between Full and Basic clients are described in the [Basic client limitations](desktop-feature-comparison.md#Full-Basic) section.
 
@@ -134,7 +134,7 @@ MSI is a more traditional installation method, used on the Skype for Business 20
 
 Skype for Business Server 2019 and Skype for Business Online support the following previously released clients: Skype for Business 2016, Skype for Business 2015, Lync 2013.
 
-Skype for Business Server 2015 support the following previously released clients: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition, and Lync 2010 Attendant. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) and [Client comparison tables for Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+Skype for Business Server 2015 supports the following previously released clients: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition, and Lync 2010 Attendant. For information about these clients when used with other servers, see the [Client comparison tables for Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) and [Client comparison tables for Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
 
 
 ## Client system requirements

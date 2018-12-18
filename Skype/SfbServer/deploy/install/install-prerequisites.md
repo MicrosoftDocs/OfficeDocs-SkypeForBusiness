@@ -26,7 +26,7 @@ Installing prerequisites consists of setting up Windows Server by installing the
   
 ## Setup Windows Server
 
-Skype for Business Server requires the Windows Server operating system and a number of prerequisites before it can be installed. For details on planning for prerequisites, see [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+Skype for Business Server requires the Windows Server operating system and a number of prerequisites before it can be installed. For details on planning for prerequisites, see [Server requirements for Skype for Business Server](../../../SfBServer2019/plan/system-requirements.md). 
   
 > [!TIP]
 > This procedure uses Windows Server 2012 R2. If you are using a different version of Windows Server, the procedure might be slightly different. 
@@ -44,7 +44,7 @@ Watch the video steps for **install prerequisites**:
 
 You can install the required roles and features using Server Manager. 
     
-1. Install the prerequisite software features listed in [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). The required software must be on the server that will run Skype for Business Server.
+1. Install the prerequisite software features listed in [Server requirements for Skype for Business Server](../../../SfBServer2019/plan/system-requirements.md). The required software must be on the server that will run Skype for Business Server.
     
     > [!CAUTION]
     > Windows Server 2012 R2 does not install all of the source files for the required features by default. 
@@ -63,6 +63,6 @@ You can install the required roles and features using Server Manager.
 
 > [!IMPORTANT]
 > The prerequisites for servers performing roles other than front-end server, such as the role of Director, Persistent Chat, or Edge, have their own prerequisites. 
-> For details on the exact prerequisites required by each server type, see [Server requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+> For details on the exact prerequisites required by each server type, see [Server requirements for Skype for Business Server](../../../SfBServer2019/plan/system-requirements.md). 
   
 

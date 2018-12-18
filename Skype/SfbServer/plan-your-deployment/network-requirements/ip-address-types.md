@@ -29,7 +29,7 @@ Using Topology Builder, perform the steps in the following procedure to deploy I
 
 1. Under **Enterprise Edition Front End pools**, right-click the server within a pool, and then select **Edit Properties**. (Alternatively, select the server, and then click **Edit Properties** from the **Action** menu.)
 
-2. In the **Edit Properties** dialog box, select the IP address type that you want to configure. For a dual-stack configuration, select **Enable IPv4** and **Enable IPv6**, as shown in the following figure.
+2. In the **Edit Properties** dialog box, select the IP address type that you want to configure. For a dual-stack configuration, select **Enable IPv4** and **Enable IPv6**.
 
    **Edit Properties dialog box for the Front End Server pool**
 
@@ -44,8 +44,8 @@ Using Topology Builder, perform the steps in the following procedure to deploy I
 
    - **PSTN IP address**. Define a PSTN IP address when a Mediation Server is collocated on the Front End Server. This address must match the format of the selected address type.
 
-     > [!NOTE]
-     > The installation of additional network interface cards (NICs) to support the PSTN IP address configuration on Front End Servers is not supported. For more information about supported NIC configurations for Skype for Business Server, see [Server hardware platforms for Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+> [!NOTE]
+> The installation of additional network interface cards (NICs) to support the PSTN IP address configuration on Front End Servers is not supported. For more information about supported NIC configurations for Skype for Business Server, see [Server hardware platforms for Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
 ## Deploy IP address types on a Mediation Server
 
@@ -69,9 +69,14 @@ Using Topology Builder, perform the steps in the following procedure to deploy I
   - **Primary IP address**. Enter an IP address that the server will use for all communications except public switched telephone network (PSTN). The IP address entered must match the format of the select address type.
 
   - **PSTN IP address**. Define a PSTN IP address when a Mediation Server is collocated on the Front End Server. This address must match the format of the selected address type.
+> [!IMPORTANT]
+> We only support two network cards on *dedicated* Mediation Servers. If the Mediation Sserver role is collocated on the Front End, then dual network cards are not supported. 
 
-    > [!NOTE]
-    > The installation of additional NICs to support the PSTN IP address configuration on stand-alone Mediation Servers is not supported. For more information about supported NIC configurations for Skype for Business Server, see [Server hardware platforms for Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+> [!NOTE]
+> - For more information about supported NIC configurations for Skype for Business Server 2015, see [Hardware for Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
+> - For more information about supported NIC configurations for Skype for Business Server 2019, see [Hardware for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
+
+
 
 ## Deploy IP address types on an Edge Server
 

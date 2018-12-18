@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 09/21/2018
+ms.date: 11/26/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
@@ -131,13 +131,29 @@ Watch this short video introducing you to Teams</h3>
                 </div>
             </div>
         </div>
-    </li><li>
+    </li> <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Teams overview</h3>
+                        <p><a href="https://teamsdemo.office.com/">Teams interactive demo</a></p>  
+                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">On-demand live training: #ThisisTeams - How Teams can work for you</a></p>
+                        <p><a href="https://aka.ms/teamsgettingstartedondemand">On-demand live training: Getting Started with Teams</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+       <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
                         <h3>Switch to Teams from Skype for Business</h3>
                          <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">Article: Switch to Teams from Skype for Business</a></p>
+                         <p><a href="https://aka.ms/upgrade101ondemand">On-demand live training: Upgrade 101: Understanding your upgrade from Skype for Business to Teams</a></p>
+                        <p><a href="https://aka.ms/fromskypetoteamsondemand">On-demand live training: From Skype for Business to Teams</a></p>
                     </div>
                 </div>
             </div>

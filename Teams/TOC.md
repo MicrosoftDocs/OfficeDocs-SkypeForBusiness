@@ -1,11 +1,15 @@
-<!-- ============================================================ -->
-# Get started
 
-## [Overview of Teams](Teams-overview.md)
-## [Tools and workshops: Plan, deliver, and operate Teams](planning-workshop-practical-guide.md)
+<!-- ============================================================ -->
+# [Welcome to Teams](teams-overview.md)
+<!-- ============================================================ -->
+# [Get started](get-started-with-teams-landing-page.md)
+## [Quick start - Teams](get-started-with-teams-quick-start.md)
+## [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
+## [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Where to go next](get-started-with-teams-resources-for-org-wide-rollout.md)
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
-
 
 <!-- ============================================================ -->
 # Plan
@@ -20,10 +24,28 @@
 ## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ## [Plan for governance in Teams](plan-teams-governance.md)
 ## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
-## [Create change management strategy](change-management-strategy.md)
 <!-- ============================================================ -->
 
+<!-- ============================================================ -->
+# [Adopt](adopt-microsoft-teams-landing-page.md) 
 
+## [Get started](teams-adoption-get-started.md)
+## [Phase 1 - Start](teams-adoption-phase1.md)
+### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
+### [Create your first teams](teams-adoption-your-first-teams.md)
+### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
+## [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
+### [Create your champions program](teams-adoption-create-champions-program.md)
+### [Governance quick start](teams-adoption-governance-quick-start.md)
+### [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
+### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
+### [Onboard support](teams-adoption-onboard-support.md)
+## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
+### [Define outcomes and success](teams-adoption-define-outcomes.md)
+### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
+### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
+### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Configure and deploy
@@ -36,7 +58,6 @@
 ### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
 ### [Install Teams using MSI](msi-deployment.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
-## [Run Teams in a virtual environment](virtual-environment-teams.md)
 ## [Enable Teams in your organization](Office-365-set-up.md)
 ## [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
 ## [Manage Teams features in your organization](enable-features-office-365.md)
@@ -111,6 +132,7 @@
 <!-- ============================================================ -->
 # Interoperability with Office 365
 ## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+## [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ## [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 groups and Teams](office-365-groups.md)
 ## [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
@@ -127,9 +149,10 @@
 ## Monitor call quality and QoS
 ### [QoS in Teams](QoS-in-Teams.md)
 ### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Set up Call Analytics](set-up-call-analytics.md)
 ### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
+### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 ## Troubleshoot & support
 ### [Known issues for Teams](Known-issues.md)
@@ -154,7 +177,7 @@
 ## [Overview of security and compliance in Teams](security-compliance-overview.md)
 ## [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
 ## [Identity models and authentication in Teams](identify-models-authentication.md)
-## [Modern authentication](sign-in-teams.md)
+## [Sign in to Teams using modern authentication](sign-in-teams.md)
 ## [Place a Teams user or team on legal hold](legal-hold.md)
 ## [Search the audit log for events in Teams](audit-log-events.md)
 ## [Use Content Search in Teams](content-search.md)
@@ -202,7 +225,7 @@
 ### [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 ### [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ### [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
-
+### [Configure desktop sharing in Teams](configure-desktop-sharing.md)
 ### [Teams cloud meeting recording](cloud-recording.md)
 ### [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ### [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -223,7 +246,6 @@
 ### [Add bots for private chats and channels in Teams](add-bots.md)
 ### [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
 ### [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
-### [Use T-Bot to help users with Teams](t-bot.md)
 ### [Use activity reports for Teams](teams-activity-reports.md)
 ### [Use inline message translation in Teams](inline-message-translation-teams.md)
 
@@ -330,7 +352,7 @@
 #### [Phone number management for the Netherlands](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Phone number management for the U.K.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Phone number management for the U.S.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-### Manage Communication Credits
+### Manage Communications Credits
 #### [What are Communications Credits?](what-are-communications-credits.md)
 #### [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
@@ -369,13 +391,12 @@
 #### [Quick start guide - Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)
 #### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
 #### [Set up Calling Plans](set-up-calling-plans.md)
-#### [Add, change or remove an emergency address for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Add, change or remove an emergency location for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Add, change, or remove an emergency address for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Add, change, or remove an emergency location for your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Assign or change an emergency address for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Assign, change or remove a phone number for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Assign or change the emergency location for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Assign, change, or remove a phone number for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Calling Plans for Office 365](calling-plans-for-office-365.md)
-#### [Change the emergency address for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Change the emergency location for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 #### [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md)
@@ -479,14 +500,20 @@
 #### [Set up Phone System voicemail](set-up-phone-system-voicemail.md)
 #### [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
+#### [Set up Common Area Phones in Microsoft Teams](set-up-common-area-phones.md)
+#### [Call park and retrieve](call-park-and-retrieve.md)
+#### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
+#### [Shared line appearance](shared-line-appearance.md)
 ### Phone System Direct Routing
 #### [Plan Direct Routing](direct-routing-plan.md)
 #### [Configure Direct Routing](direct-routing-configure.md)
-#### [Migrating to Direct Routing](direct-routing-migrating.md)
+#### [Migrate to Direct Routing](direct-routing-migrating.md)
 #### [Monitor and troubleshoot Direct Routing](direct-routing-monitor-and-troubleshoot.md)
 #### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 #### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
+#### Technical reference for Direct Routing
+##### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 

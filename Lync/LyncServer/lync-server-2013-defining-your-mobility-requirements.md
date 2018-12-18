@@ -115,7 +115,7 @@ Here are the decisions that you must consider:
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Feature/Paramater Name/Scope (Policy parameter names may not be the same)</th>
+    <th>Feature/Parameter Name/Scope (Policy parameter names may not be the same)</th>
     <th>Description</th>
     <th>Introduced</th>
     </tr>

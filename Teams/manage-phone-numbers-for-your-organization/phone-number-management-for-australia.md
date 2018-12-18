@@ -26,9 +26,6 @@ description: "Use this table to find information on getting and managing phone n
 ---
 
 # Phone number management for Australia
-> [!IMPORTANT]
-> Australia is only available to preview and early adopters customers. For more information, see [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
-
 In Australia, we have partnered with Telstra for the purchase and provisioning of Calling Plans. Telstra will sell Calling Plans and provide the support for phone number management for both user and service numbers for auto attendants and call queues. However, service numbers and licenses for Audio Conferencing will still be sold and managed by Office 365.
 
 For more information on the [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan).
@@ -40,7 +37,7 @@ For more information, see  [Manage phone numbers for your organization](manage-p
 |**What you want to do?**|**Do these steps and download the correct forms**|
 |:-----|:-----|
 |Get new user phone numbers for Calling Plans in Australia.   <br/> |Please contact [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) for new phone numbers for your users. They will then add those numbers to your organization so you can assign them to your users. <br/>
-|Get new service phone numbers that can be used with Phone System auto attendants and call queues for Australia. <br/> |Please contact [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) for new phone numbers. They will then add those numbers to your organization so you can assign them to your auto attendants and call queues. <br/>|
+|If you are utilizing Telstra Calling for Office 365, you may get new service phone numbers that can be used with Phone System auto attendants and call queues for Australia from Telstra. <br/> |Please contact [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) for new phone numbers. They will then add those numbers to your organization so you can assign them to your auto attendants and call queues. If you are NOT utilizing Telstra Calling, you may contact our Microsoft Number ManagementService desk to obtain service numbers from Microsoft [Please contact us](mailto:ptnapac@microsoft.com). <br/>|
 |Get new service phone numbers for Audio Conferencing in Australia.   <br/> |[Please contact us](mailto:ptnapac@microsoft.com).|
 |You need to get phone numbers transferred to Office 365 for users, auto attendants and call queues.  <br/> |Please contact [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) to transfer phone numbers. They will then add those numbers to your organization.  <br/> |
 |You need to get phone numbers transferred to Office 365 for use with Audio Conferencing.  |[Please contact us](mailto:ptnapac@microsoft.com) |

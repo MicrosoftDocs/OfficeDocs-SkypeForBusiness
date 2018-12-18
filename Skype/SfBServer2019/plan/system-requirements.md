@@ -188,7 +188,7 @@ Skype for Business Server 2019 Enterprise Edition will require full SQL Server, 
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates, and with AlwaysOn availability groups.  <br/> ||
+|Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates.  <br/> ||
  |
    
 If you don't see the SQL Server edition you want to use listed here, you can't use it.
@@ -241,6 +241,8 @@ Although much of the configuration data for servers and services is stored in th
 
 The following Domain Controller operating systems can be used:
   
+- Windows Server 2019
+
 - Windows Server 2016
     
 - Windows Server 2012 R2
@@ -249,6 +251,8 @@ The following Domain Controller operating systems can be used:
     
 The domain functional level of any domain you deploy Skype for Business Server 2019 into, and the forest functional level of any forest you deploy Skype for Business Server 2019 into, must be one of the following:
   
+- Windows Server 2019
+
 - Windows Server 2016
     
 - Windows Server 2012 R2
