@@ -3,7 +3,7 @@ title: About the upgrade framework
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 12/17/2018
+ms.date: 12/18/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -77,6 +77,7 @@ To help demonstrate how your upgrade journey might unfold, we’ve provided a sa
 | **6** | **Assess learnings and evaluate your go-forward plan** | Gather  user feedback, network stats, and support tickets for analysis against your goals and determine your go-forward plan. | [Assess learnings and evaluate your go-forward plan](pilot-essentials.md#6-assess-learnings-and-evaluate-your-go-forward-plan)
 
 ### Deploy: Run Teams in coexistence with Skype for Business
+
 
 | Step |  | Summary | Resource |
 |------|--|---------|----------|
