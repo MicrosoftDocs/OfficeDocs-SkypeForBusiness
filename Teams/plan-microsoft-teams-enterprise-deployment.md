@@ -16,30 +16,30 @@ appliesto:
 ---
 # Plan your enterprise-wide rollout of Microsoft Teams
 
-Decisions that all organizations should consider
-•	Initial Teams to create  
-•	Confirm Ports / Basic network connectivity 
-•	Determine which Teams Clients to deploy 
-•	Decide who needs to use Usage Reporting 
-•	Enable / Disable Guest Access 
-•	Who will be the Teams Admin Team (people)
+## Decisions that all organizations should consider
+- Initial teams to create  
+- Confirm ports: Basic network connectivity 
+- Determine which Teams clients to deploy 
+- Decide who needs to use usage reporting 
+- Turn on guest access 
+- Who will be the Teams Admin Team (people)?
 
-Decisions that larger organizations may need to consider 
-•	Licensing 
-•	Exchange and SharePoint interior considerations 
-•	Limits and Specifications 
-•	O365 URL’s and Ports 
-•	O365 Groups  / Teams 
-•	Naming conventions
-•	Governance (who can create Teams)
-•	Lifecycle Management 
-•	Archiving and Compliance    
-•	GCC Considerations   
-•	External Access (Federation)
-•	Guest Access 
-•	Conditional Access 
-•	RBAC
-•	Team Application Policy 
+## Decisions that larger organizations may need to consider
+- Licensing 
+- Exchange and SharePoint considerations 
+- Limits and specifications 
+- O365 URLs and ports 
+- O365 Groups and Teams 
+- Naming conventions
+- Governance (who can create Teams)
+- Lifecycle management 
+- Archiving and compliance    
+- GCC Considerations   
+- External access (Federation)
+- Guest access 
+- Conditional access 
+- RBAC
+- Team application policy 
 
 
 
