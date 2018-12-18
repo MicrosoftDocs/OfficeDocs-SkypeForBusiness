@@ -18,9 +18,10 @@ appliesto:
 
 Teams consists of 4 workloads, which you can roll out as your organization is ready. 
 - [Chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [Apps](deploy-apps-microsoft-teams-landing-page.md)
 - [Meetings and conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)
-- [Apps](deploy-apps-microsoft-teams-landing-page.md)
+
 
 
 

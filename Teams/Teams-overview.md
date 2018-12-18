@@ -24,9 +24,10 @@ Whether you're a small business or a giant enterprise, the best place to start f
 
 Teams consists of 4 workloads, which you can roll out as your organization is ready. 
 - [Chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [Apps](deploy-apps-microsoft-teams-landing-page.md)
 - [Meetings and conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)
-- [Apps](deploy-apps-microsoft-teams-landing-page.md)
+
 
 If you're a large enterprise, if you're coming to Teams from Skype for Business Server, or if you've got an on-premises PSTN solution, check out our [Planning guidance for large enterprises](plan-microsoft-teams-enterprise-deployment). Also for large enterprises, don't miss the [Teams Adoption Hub](adopt-microsoft-teams-landing-page.md).
 
