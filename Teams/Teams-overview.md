@@ -22,12 +22,13 @@ Whether you're a small business or a giant enterprise, the best place to start f
 
 
 
-Teams consists of 4 workloads, which you can roll out as your organization is ready. We've created [guided paths to deploying Teams](get-started-with-teams-resources-for-org-wide-rollout.md) - pick your organization's profile, and we'll walk you through a successful Teams rollout of one or more workloads.
-- [Chat, teams, & channels](teams-channels-overview.md)
-- [Apps](app-permissions.md)
+Teams consists of 4 workloads, which you can roll out as your organization is ready. 
+- [Chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [Apps](deploy-apps-microsoft-teams-landing-page.md)
 - [Meetings and conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)
 
+We've created [guided paths to deploying Teams](get-started-with-teams-resources-for-org-wide-rollout.md) - pick your organization's profile, and we'll walk you through a successful Teams rollout of one or more workloads.
 
 
 ## Overview of Teams
