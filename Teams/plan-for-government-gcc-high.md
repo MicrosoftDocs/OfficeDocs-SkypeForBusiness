@@ -142,7 +142,7 @@ Determine your requirements for governance and how you can meet them. Go to [Pla
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Determine and document your governance requirements, following the guidelines in [Plan for governance in Teams](plan-teams-governance.md). </li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Decision point |<ul><li>Determine and document your governance requirements, following the guidelines in [Plan for governance in Teams](plan-teams-governance.md). </li></ul>|
 
 ## Step 6. Deploy Teams for collaboration
 
