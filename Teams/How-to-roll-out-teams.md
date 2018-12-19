@@ -23,7 +23,7 @@ Whether you're a small business or a multi-national enterprise, the best place t
 ## Recommended path to Teams
 
 
-Teams consists of 4 workloads, which you can roll out as your organization is ready. You don’t have to wait until you've completed each step before you move to the next (in fact, we recommend that you start adding tabs, apps, bots, & connectors right away to enrich your Teams experience). Some orgs may want to roll out all Teams features at once, while others may prefer a phased approach. 
+We recommend rolling out Teams in stages, workload by workload, as your organization is ready. You don’t have to wait until you've completed each of these steps before you move to the next. Some orgs may want to roll out all Teams features at once, while others may prefer a phased approach. We've developed this step-wise deployment guidance based on working with many organizations - we think it'll work for you too. Give a try, let us know how it works for you.
 1. [Get started](get-started-with-teams-quick-start.md)
 1. [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 1. [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
