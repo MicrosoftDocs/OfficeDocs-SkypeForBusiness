@@ -7,7 +7,7 @@
 
 <!-- ============================================================ -->
 
-# [Quick start - Teams](get-started-with-teams-quick-start.md)
+# [Get started](get-started-with-teams-quick-start.md)
 ## [Step 1: Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md)
 ## [Step 2: Onboard early adopters](get-started-with-teams-onboard-early-adopters.md)
 ## [Step 3: Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
@@ -16,7 +16,7 @@
 <!-- ============================================================ -->
 
 
-# [Chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page)
+# [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page)
 ## [Overview of teams and channels](teams-channels-overview.md)
 ## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
@@ -35,20 +35,18 @@
 ### [Edit guest user information](edit-guests-information.md)
 ### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 ### [Guest access checklist](guest-access-checklist.md)
-
+## [Tabs, apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
+### [Apps permissions and considerations](app-permissions.md)
+### [Add bots for private chats and channels in Teams](add-bots.md)
+### [Admin settings for apps in Teams](admin-settings.md)
+### [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
+### [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
+### [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
+### [Use activity reports for Teams](teams-activity-reports.md)
+### [Use inline message translation in Teams](inline-message-translation-teams.md)
 
 <!-- ============================================================ -->
 
-# [Tabs, apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
-## [Apps permissions and considerations](app-permissions.md)
-## [Add bots for private chats and channels in Teams](add-bots.md)
-## [Admin settings for apps in Teams](admin-settings.md)
-## [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
-## [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
-## [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
-## [Use activity reports for Teams](teams-activity-reports.md)
-## [Use inline message translation in Teams](inline-message-translation-teams.md)
-<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 
@@ -441,6 +439,26 @@
 
 
 <!-- ============================================================ -->
+<!-- ============================================================ -->
+# [Adopt](adopt-microsoft-teams-landing-page.md) 
+
+## [Get started](teams-adoption-get-started.md)
+## [Phase 1 - Start](teams-adoption-phase1.md)
+### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
+### [Create your first teams](teams-adoption-your-first-teams.md)
+### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
+## [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
+### [Create your champions program](teams-adoption-create-champions-program.md)
+### [Governance quick start](teams-adoption-governance-quick-start.md)
+### [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
+### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
+### [Onboard support](teams-adoption-onboard-support.md)
+## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
+### [Define outcomes and success](teams-adoption-define-outcomes.md)
+### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
+### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
+### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
+<!-- ============================================================ -->
 
 #       
 #        
@@ -483,26 +501,7 @@
 <!-- ============================================================ -->
 
 
-<!-- ============================================================ -->
-# [Adopt](adopt-microsoft-teams-landing-page.md) 
 
-## [Get started](teams-adoption-get-started.md)
-## [Phase 1 - Start](teams-adoption-phase1.md)
-### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
-### [Create your first teams](teams-adoption-your-first-teams.md)
-### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
-## [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
-### [Create your champions program](teams-adoption-create-champions-program.md)
-### [Governance quick start](teams-adoption-governance-quick-start.md)
-### [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
-### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
-### [Onboard support](teams-adoption-onboard-support.md)
-## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
-### [Define outcomes and success](teams-adoption-define-outcomes.md)
-### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
-### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
-### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
-<!-- ============================================================ -->
 
 # [Plan - for large enterprises](plan-microsoft-teams-enterprise-deployment.md)
 ## [Quick start - Teams planning guide](quick-start-enable-teams.md)
