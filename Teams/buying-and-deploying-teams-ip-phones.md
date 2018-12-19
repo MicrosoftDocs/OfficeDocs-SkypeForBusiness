@@ -24,12 +24,12 @@ Phones must be on a minimum firmware version listed in the table below to run Mi
 
 |Phone Model|Firmware Version|Release Date|
 |---|---|---|---|
-|Audiocodes C450HD|	TBD	|TBD|
-|Crestron Flex P100/P110	||	Nov 2018
-|Crestron Mercury |||		
-|Polycom Trio	|||	
-|Yealink CP 960	||	Nov 2018
-|Yealink T58/T56 series	|	|Nov 2018|
+|Audiocodes C450HD|	Coming soon	|Coming soon|
+|Crestron Flex P100/P110	|Coming soon|Coming soon
+|Crestron Mercury |2.3875.00056|Dec 2018|		
+|Polycom Trio	|Coming soon|Coming soon|	
+|Yealink CP 960	|73.15.0.11|Dec 2018
+|Yealink T58/T56 series	|58.15.0.11|Dec 2018|
 
 
 The minimum firmware version can be checked on the Teams sign-in page by choosing the **Settings** icon in the top-right corner and then clicking **About**.
