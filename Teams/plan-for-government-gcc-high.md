@@ -51,7 +51,7 @@ The [Office 365 US Government service description](https://docs.microsoft.com/en
 
 ## Step 2. Understand which capabilities are currently unavailable or disabled by default. 
 
-To accommodate the requirements of our government cloud customers, there are some differences between Microsoft 365 Government - GCC High and Enterprise plans. The features listed in the following table are unavailable.
+To accommodate the requirements of our government cloud customers, there are some differences between Microsoft 365 Government - GCC High and Enterprise plans. Refer to the following table to see which features are available.
 
 |                             | Feature                     | GCC High       |
 |-----------------------------|-----------------------------|----------------|
