@@ -150,7 +150,7 @@ The new policies you’ve created won’t take effect until Group Policy has bee
 
 2. At the command prompt, enter
    ```
-    gpudate.exe /force
+    gpupdate.exe /force
    ```
 
 ## Verify DSCP markings in the Group Policy object
@@ -161,7 +161,7 @@ To verify that the values from the Group Policy object have been set, perform th
 
 2. At the command prompt, enter 
    ```
-   gpresult /R >gp.txt
+   gpresult /R > gp.txt
    ```
 
    This will generate a report and send it to a text file named gp.txt. Alternatively, you can enter the following command to produce the same data in a more readable HTML report named gp.html:
