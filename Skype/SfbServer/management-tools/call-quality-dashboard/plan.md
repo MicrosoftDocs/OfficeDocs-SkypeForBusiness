@@ -233,7 +233,7 @@ The following operating systems are required for CQD:
     
 - Windows Server 2012 R2 with IIS 8.5
 
-- Windows Server 2016 with IIS
+- Windows Server 2016 with IIS 10.0 (Skype for Business Server 2019 CQD only)
     
 The following are the required IIS role services (in hierarchical order):
   
