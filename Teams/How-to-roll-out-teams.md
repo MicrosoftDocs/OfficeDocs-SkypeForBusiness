@@ -24,14 +24,13 @@ Whether you're a small business or a multi-national enterprise, the best place t
 
 
 Teams consists of 4 workloads, which you can roll out as your organization is ready. You don’t have to wait until you've completed each step before you move to the next (in fact, we recommend that you start adding tabs, apps, bots, & connectors right away to enrich your Teams experience). Some orgs may want to roll out all Teams features at once, while others may prefer a phased approach. 
-- [Chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Tabs, apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
-- [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
-- [Cloud voice](cloud-voice-landing-page.md)
-
+1. [Get started](get-started-with-teams-quick-start.md)
+1. [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+1. [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
+1. [Cloud voice](cloud-voice-landing-page.md)
+1. [Adoption](adopt-microsoft-teams-landing-page.md): Throughout your Teams rollout, get tools to drive adoption
 ![4 circles, 1 arrow showing Teams deployment pathway](media/how-to-roll-out-teams-image1.png)
 
-For guidance and tools to help you drive adoption and optimize Teams usage, don't miss the [Teams Adoption Hub](adopt-microsoft-teams-landing-page.md).
 
 > [!NOTE]
 > For each workload, we'll call out key planning decisions you need to make as part of your deployment.
