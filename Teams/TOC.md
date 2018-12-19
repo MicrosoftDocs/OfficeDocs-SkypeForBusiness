@@ -24,6 +24,7 @@
 ## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ## [Plan for governance in Teams](plan-teams-governance.md)
 ## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
+## [Plan for Microsoft 365 Government - GCC High deployments](plan-for-government-gcc-high.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
