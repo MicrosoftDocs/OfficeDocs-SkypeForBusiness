@@ -31,6 +31,8 @@ Teams consists of 4 workloads, which you can roll out as your organization is re
 
 ![4 circles, 1 arrow showing deployment pathway](media/how-to-roll-out-teams-image1.png)
 
+For guidance and tools to help you drive adoption and optimize Teams usage, don't miss the [Teams Adoption Hub](adopt-microsoft-teams-landing-page.md).
+
 > [!NOTE]
 > For each workload, we'll call out key planning decisions you need to make as part of your deployment. We've grouped them like this:
 > 
@@ -40,7 +42,6 @@ Teams consists of 4 workloads, which you can roll out as your organization is re
 > Our goal is to give you the information you need while making it easy for you to skip anything that doesn't apply to your organization.
 
 
-For guidance and tools to help you drive adoption and optimize Teams usage, don't miss the [Teams Adoption Hub](adopt-microsoft-teams-landing-page.md).
 
 If you're coming to Teams from Skype for Business (online or on premises), or if you need a hybrid configuration, we've developed guided paths for deploying Teams depending on your organization's profile. Pick your path:
 
