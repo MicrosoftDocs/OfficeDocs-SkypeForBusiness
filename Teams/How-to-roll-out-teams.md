@@ -23,7 +23,7 @@ Whether you're a small business or a giant enterprise, the best place to start f
 ## Pick your path to Teams
 
 
-Teams consists of 4 workloads, which you can roll out as your organization is ready. You don’t have to wait until you've completed each step before you move to the next. Some companies may want to roll out all Teams features at once, while others may prefer a phased approach. 
+Teams consists of 4 workloads, which you can roll out as your organization is ready. You don’t have to wait until you've completed each step before you move to the next (in fact, we recommend that you start adding tabs, apps, bots, and connectors right away to customize your Teams experience). Some companies may want to roll out all Teams features at once, while others may prefer a phased approach. 
 - [Chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [Tabs, apps, bots, connectors](deploy-apps-microsoft-teams-landing-page.md)
 - [Meetings and conferencing](deploy-meetings-microsoft-teams-landing-page.md)
