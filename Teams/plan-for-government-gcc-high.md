@@ -145,6 +145,11 @@ To accommodate the requirements of our government cloud customers, there are som
 
 Determine your requirements for governance and how you can meet them. Go to [Plan for governance in Teams](plan-teams-governance.md) for more information.
 
+|         |         |         |
+|---------|---------|---------|
+|<img src="media/audio_conferencing_image7.png" />|Decision points|<ul><li>Determine and document your governance requirements, following the guidelines in [Plan for governance in Teams](plan-teams-governance.md). </li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Next steps|<ul><li>Deploy Teams.</li></ul>|
+
 ## Step 6. Deploy Teams for collaboration
 
 After you’ve been onboarded to Microsoft 365 Government – GCC High, you can follow the standard deployment approach of using [FastTrack](https://fasttrack.microsoft.com/fasttrack-faq) and your chosen partner to onboard the service.
