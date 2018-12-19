@@ -37,7 +37,7 @@ For guidance and tools to help you drive adoption and optimize Teams usage, don'
 > For each workload, we'll call out key planning decisions you need to make as part of your deployment. We've grouped them like this:
 > 
 > - Decisions that everyone needs to make
-> - Decisions that you may need to consider,depending on your organization's profile & needs
+> - Decisions that you may need to consider, depending on your organization profile & needs
 
 
 
