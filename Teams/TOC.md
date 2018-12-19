@@ -39,7 +39,7 @@
 
 <!-- ============================================================ -->
 
-# [Apps, bots, tabs, connectors](deploy-apps-microsoft-teams-landing-page.md)
+# [Tabs, apps, bots, connectors](deploy-apps-microsoft-teams-landing-page.md)
 ## [Apps permissions and considerations](app-permissions.md)
 ## [Add bots for private chats and channels in Teams](add-bots.md)
 ## [Admin settings for apps in Teams](admin-settings.md)
