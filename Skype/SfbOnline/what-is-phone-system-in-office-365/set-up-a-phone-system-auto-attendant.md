@@ -154,6 +154,9 @@ When you are finished with your selections, click on **Next**.
 
 You can add up to 20 scheduled holidays to each auto attendant.
 
+> [!TIP]
+> You can go the the screen at **Org-wide settings** > **Holidays** to create Holidays, or you can create them as part of creating a new call handler.
+
 ![Setting up Holidays in auto attendant](../images/50a5ce88-7f39-4210-808a-da7ced969854.png)
 
 
