@@ -3,10 +3,10 @@ title: Plan for Microsoft 365 Government - GCC deployments - Microsoft Teams
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 09/14/2018
+ms.date: 12/19/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: lehewe
+ms.reviewer: daro
 description: Guidance for IT pros to drive Office 365 deployments in entities that handle data subject to US government regulation  
 localization_priority: Normal
 search.appverid: MET150
@@ -21,7 +21,7 @@ appliesto:
 This guidance is for IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that’s subject to government regulations and requirements, where the use of Microsoft 365 Government - GCC is appropriate to meet these requirements.
 
 > [!NOTE]
-> If your organization has already met the Microsoft 365 Government - GCC eligibility requirements and applied for and been accepted into the program, you can skip steps 1 through 4 and go directly to step 5 to begin your deployment. 
+> If your organization has already met the Microsoft 365 Government - GCC eligibility requirements and applied for and been accepted into the program, you can skip steps 1 and 2 and go directly to step 3. 
 
 ## Step 1. Determine whether your organization needs Microsoft 365 Government - GCC and meets eligibility requirements. 
 
@@ -41,33 +41,17 @@ The [Office 365 US Government service description](https://technet.microsoft.com
 > [!Tip]
 > You might want to transfer the tables of information in the service description into an Excel workbook and add two columns: **Relevant for my organization Y/N** and **Meets the needs of my organization Y/N**. Then you can review this list with your colleagues to confirm that this service meets your organization’s needs.
 
-
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide whether Microsoft 365 Government - GCC is appropriate for your organization.</li><li>Confirm that your organization meets eligibility requirements.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Understand the capabilities provided by Microsoft 365 Government - GCC.</li></ul>|
 
 > [!Note]
 > Microsoft 365 Government - GCC is only available in the United States. Non–US Government customers can choose from a number of [Office 365 Government plans](https://products.office.com/en/government/compare-office-365-government-plans).
 
-## Step 2. Understand which capabilities are currently unavailable or disabled by default. 
 
-To accommodate the requirements of our government cloud customers, there are some differences between Microsoft 365 Government - GCC and Enterprise plans. The features listed in the following table are unavailable.
+## Step 2. Apply for Microsoft 365 Government - GCC
 
-| Feature                     | Reason            |
-|-----------------------------|-------------------|
-| Call and Meeting Recording  | Recording is dependent on Microsoft Stream, which will be available in US Government plans in the future. |
-| Apps       | Apps (such as bots, tabs, and connectors) won’t be available initially, but we’re working to make them available as soon as all their components meet the FedRAMP Moderate compliance bar. |
-| Email a channel             | The current feature architecture isn’t supported in government plans. |
-| Unified Presence            | We’re finishing work for our enterprise customers first for this important feature. It will be available to government customers in the future. |
-| Interop chat between Teams & SfB users            | Interop is dependent on Unified Presence Service (UPS) and cannot work until GCC Teams Tenants are enabled for UPS. |
-| Email Notifications         | The current feature architecture isn’t supported in the US Government plans. Work is ongoing to make this feature available to US Government plan customers in the future. |
-
-
-|    |     |
-|-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether the Microsoft 365 Government - GCC feature set meets your organization’s needs.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Understand default security settings.</li></ul>|
+Having decided that this service is right for your organization, start the process of [applying for this service here](https://products.office.com/government/eligibility-validation).
 
 ## Step 3. Understand Microsoft 365 Government - GCC default security settings.
 
@@ -75,15 +59,90 @@ We recommend that you take time to carefully review your [admin and security set
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether you’ll modify any of the default Microsoft 365 Government - GCC security settings, resolving to first understand the impacts of any changes you might make.</li></ul> |
+| ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether you’ll modify any of the default Microsoft 365 Government - GCC security settings, resolving to first understand the impact of any changes you might make.</li></ul> |
 
-## Step 4. Apply for Microsoft 365 Government - GCC
+## Step 4. Understand which capabilities are currently unavailable or disabled by default. 
 
-Having decided that this service is right for your organization, start the process of [applying for this service here](https://products.office.com/government/eligibility-validation).
+To accommodate the requirements of our government cloud customers, there are some differences between Microsoft 365 Government - GCC and Enterprise plans. Refer to the following table to see which features are available.
+
+|                             | Feature                     | GCC            |
+|-----------------------------|-----------------------------|----------------|
+| Base | Login | Available |
+| | Presence | Available |
+| | Unified presence (Skype for Business and Teams unified) | On the Government backlog |
+| Activity | Feed | Available |
+|  | My Activity | Available |
+| Chat | Conversation | Available |
+| | Files | Available |
+| | Org chart | Available |
+| | Activity | Available |
+| | InterOp (1:1 Teams-Skype for Business chat) | On the Government backlog |
+| Teams | Channel message | Available |
+| | Channel files | Available |
+| | OneNote tab | On the Government backlog |
+| | Email a channel | Not available |
+| | Add member | Available |
+| | Guest access | Available |
+| Meetings | Schedule meeting | Available |
+| | Join meeting | Available |
+| | VoIP meeting | Available |
+| | Desktop sharing | Available |
+| | Give and take control in sharing | Available |
+| | Connect from a conference room | Available |
+| | Anonymous join | Available |
+| | Cloud recording | On the Government backlog |
+| | Meeting notes | Available |
+| | Broadcast meetings | On the Government backlog |
+| | Federated meetings | Available |
+| | Surface Hub support (preview) | Available |
+| Calls | Contacts | Available |
+| | History | Available |
+| | Voicemail | Available |
+| | VoIP call | Available |
+| | Skype for Business - Teams calling | Available |
+| | Calling Plans | Available |
+| | Audio conferencing (by allowing meeting participants to join via PSTN) | Available |
+| | Microsoft Phone System direct routing | Available |
+| | Lobby for PSTN callers | Available |
+| | Call queue | Available |
+| | Boss and delegate support | Available |
+| | Consultative and safe transfer | Available |
+| | Do not disturb breakthrough | Available |
+| | Distinctive ring | Available |
+| | 1:1 to group call escalation with Teams, Skype for Business, and PSTN participants | Available |
+| | Forward to group | Available |
+| | Transfer to PSTN call | Available |
+| | Emergency calling - Calling Plans | Available |
+| | Support for existing certified SIP phones | Available |
+| | USB HID | Available |
+| | eDiscovery for both calls and meetings | Available |
+| | Organization auto attendant | Available |
+| | Skype consumer - Teams call support | Available |
+| Files | Recent | Available |
+| | Microsoft Teams | Available |
+| Store | App Store | On the Government backlog |
+| Search | Messages | Available |
+| | People | Available |
+| | Files | Available |
+| | Slash commands | Available |
+| Compliance | Compliance content search | Available |
+| | Retention | Available |
+| | Audit log search | Available |
+| | Legal hold | Available |
+| | eDiscovery | Available |
+
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether the Teams feature set meets your organization’s needs.</li></ul> |
 
 ## Step 5. Plan for governance
 
 Determine your requirements for governance and how you can meet them. Go to [Plan for governance in Teams](plan-teams-governance.md) for more information.
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Determine and document your governance requirements, following the guidelines in [Plan for governance in Teams](plan-teams-governance.md).</li></ul> |
 
 ## Step 6. Deploy Teams for collaboration
 

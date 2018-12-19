@@ -24,6 +24,7 @@
 ## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ## [Plan for governance in Teams](plan-teams-governance.md)
 ## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
+## [Plan for Microsoft 365 Government - GCC High deployments](plan-for-government-gcc-high.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
@@ -500,16 +501,20 @@
 #### [Set up Phone System voicemail](set-up-phone-system-voicemail.md)
 #### [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
-### [Phones for Microsoft Teams](phones-for-teams.md)
-### [Buying and deploying Microsoft Teams IP phones](buying-and-deploying-teams-ip-phones.md)
+#### [Set up Common Area Phones in Microsoft Teams](set-up-common-area-phones.md)
+#### [Call park and retrieve](call-park-and-retrieve.md)
+#### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
+#### [Shared line appearance](shared-line-appearance.md)
 ### Phone System Direct Routing
 #### [Plan Direct Routing](direct-routing-plan.md)
 #### [Configure Direct Routing](direct-routing-configure.md)
-#### [Migrating to Direct Routing](direct-routing-migrating.md)
+#### [Migrate to Direct Routing](direct-routing-migrating.md)
 #### [Monitor and troubleshoot Direct Routing](direct-routing-monitor-and-troubleshoot.md)
 #### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 #### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
+#### Technical reference for Direct Routing
+##### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
