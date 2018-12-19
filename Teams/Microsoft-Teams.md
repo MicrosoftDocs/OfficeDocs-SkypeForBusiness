@@ -26,8 +26,8 @@ ms.topic: hub-page
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Start here</h3>
-                                                    <p>Whether you're a small business or a giant enterprise, start here to find the right path to rolling out Teams in your organization</p>
+                                                    <h3>Get started</h3>
+                                                    <p>Get up and running fast with a couple of teams and channels</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -45,65 +45,8 @@ ms.topic: hub-page
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Chat, teams, & channels</h3>
-                                                    <p>Rol lout Teams to your organization starting wtih chat, teams, & channels</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-Journey-400x140.svg" alt="a roadmap with footsteps" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Meetings & audio conferencing</h3>
-                                                    <p>Roll out meetings and audio conferencing, including setting up devices and room systems</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/MicrosoftTeams/journey-skypeforbusiness-teams">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-CloudVoice-400x140.svg" alt="a user with a phone and clouds" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Cloud voice</h3>
-                                                    <p>When you're ready, we'll walk you through deploying Phone System, Calling Plan, Phone System Direct Routing, and more</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-Journey-400x140.svg" alt="a roadmap with footsteps" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Apps</h3>
-                                                    <p>Customize Teams for your organization by adding apps </p>
+                                                    <h3>How to roll out Teams</h3>
+                                                    <p>Whether you're a small business or a multi-national enterprise, start here to find the right path to rolling out Teams</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -140,8 +83,8 @@ ms.topic: hub-page
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Adoption &amp; change management</h3>
-                                                    <p>Get tools to support your Teams rollout and help you create your change management strategy for Teams</p>
+                                                    <h3>Adoption hub</h3>
+                                                    <p>Get tools to support your Teams rollout</p>
                                                 </div>
                                             </div>
                                         </div>

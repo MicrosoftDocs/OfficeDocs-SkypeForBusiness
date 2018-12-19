@@ -36,7 +36,7 @@ We recommend rolling out Teams in stages, workload by workload, as your organiza
 
 
 > [!NOTE]
-> For each workload, we'll call out key planning decisions you need to make as part of your deployment.
+> For each workload, we'll call out decisions you need to make as you plan your deployment.
 > 
 > - Decisions that everyone needs to make
 > - Decisions that you may need to consider, depending on your organization profile & needs
