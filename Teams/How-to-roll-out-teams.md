@@ -40,10 +40,7 @@ For guidance and tools to help you drive adoption and optimize Teams usage, don'
 > - Decisions that you may need to consider, depending on your organization profile & needs
 
 
-
-
 If you're coming to Teams from Skype for Business (online or on premises), or if you need a hybrid configuration, we've developed guided paths for deploying Teams depending on your organization's profile. Pick your path:
-
 
 |Your organization's profile|Guided path  |
 |---------|---------|
