@@ -38,8 +38,7 @@ For guidance and tools to help you drive adoption and optimize Teams usage, don'
 > 
 > - Decisions that everyone needs to make
 > - Decisions that you may need to consider,depending on your organization's profile & needs
-> 
-> Our goal is to give you the information you need while making it easy for you to skip anything that doesn't apply to your organization.
+
 
 
 
