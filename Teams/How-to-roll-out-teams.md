@@ -20,7 +20,7 @@ appliesto:
 ## Start here
 Whether you're a small business or a giant enterprise, the best place to start for rolling out Teams is our [Quick start guide](get-started-with-teams-quick-start.md). It walks you through a small-scale Teams rollout, which may be all you need if you're a small business. If you're a large enterprise, use [Quick start](get-started-with-teams-quick-start.md) to pilot Teams with a small group of early adopters so you can learn about Teams and start planning your org-wide deployment. 
 
-## Pick your path to Teams
+## Recommended path to Teams
 
 
 Teams consists of 4 workloads, which you can roll out as your organization is ready. You don’t have to wait until you've completed each step before you move to the next (in fact, we recommend that you start adding tabs, apps, bots, and connectors right away to customize your Teams experience). Some companies may want to roll out all Teams features at once, while others may prefer a phased approach. 
@@ -34,7 +34,7 @@ Teams consists of 4 workloads, which you can roll out as your organization is re
 For guidance and tools to help you drive adoption and optimize Teams usage, don't miss the [Teams Adoption Hub](adopt-microsoft-teams-landing-page.md).
 
 > [!NOTE]
-> For each workload, we'll call out key planning decisions you need to make as part of your deployment. We've grouped them like this:
+> For each workload, we'll call out key planning decisions you need to make as part of your deployment.
 > 
 > - Decisions that everyone needs to make
 > - Decisions that you may need to consider, depending on your organization profile & needs
