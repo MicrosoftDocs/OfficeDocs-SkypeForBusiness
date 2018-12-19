@@ -5,17 +5,6 @@
 #       
 #        
 
-## [Quick start - Teams planning guide](quick-start-enable-teams.md)
-## [Check your environment’s readiness for Teams](environment-readiness.md)
-## [Prepare your organization's network for Teams](prepare-network.md)
-## [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
-## [Limits and specifications for Teams](limits-specifications-teams.md)
-## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
-## [Get tools to support a rollout of Teams](rollout-tools.md)
-## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
-## [Plan for governance in Teams](plan-teams-governance.md)
-## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
-## [Plan for Microsoft 365 Government - GCC High deployments](plan-for-government-gcc-high.md)
 <!-- ============================================================ -->
 
 # [Get started](get-started-with-teams-quick-start.md)
