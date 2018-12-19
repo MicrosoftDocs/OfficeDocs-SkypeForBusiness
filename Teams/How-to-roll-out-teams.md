@@ -29,6 +29,8 @@ Teams consists of 4 workloads, which you can roll out as your organization is re
 - [Meetings and conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)
 
+![4 circles, 1 arrow showing deployment pathway](media/how-to-roll-out-teams-image1.png)
+
 > [!NOTE]
 > For each workload, we'll call out key planning decisions you need to make as part of your deployment. We've grouped them like this:
 > 
