@@ -39,7 +39,7 @@
 
 <!-- ============================================================ -->
 
-# [Apps](deploy-apps-microsoft-teams-landing-page.md)
+# [Apps, bots, tabs, connectors](deploy-apps-microsoft-teams-landing-page.md)
 ## [Apps permissions and considerations](app-permissions.md)
 ## [Add bots for private chats and channels in Teams](add-bots.md)
 ## [Admin settings for apps in Teams](admin-settings.md)
@@ -483,6 +483,27 @@
 <!-- ============================================================ -->
 
 
+<!-- ============================================================ -->
+# [Adopt](adopt-microsoft-teams-landing-page.md) 
+
+## [Get started](teams-adoption-get-started.md)
+## [Phase 1 - Start](teams-adoption-phase1.md)
+### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
+### [Create your first teams](teams-adoption-your-first-teams.md)
+### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
+## [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
+### [Create your champions program](teams-adoption-create-champions-program.md)
+### [Governance quick start](teams-adoption-governance-quick-start.md)
+### [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
+### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
+### [Onboard support](teams-adoption-onboard-support.md)
+## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
+### [Define outcomes and success](teams-adoption-define-outcomes.md)
+### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
+### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
+### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
+<!-- ============================================================ -->
+
 # [Plan - for large enterprises](plan-microsoft-teams-enterprise-deployment.md)
 ## [Quick start - Teams planning guide](quick-start-enable-teams.md)
 ## [Overview of a Teams deployment](deployment-overview.md)
@@ -506,27 +527,6 @@
 ### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
 ### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 
-
-<!-- ============================================================ -->
-# [Adopt - for large enterprises](adopt-microsoft-teams-landing-page.md) 
-
-## [Get started](teams-adoption-get-started.md)
-## [Phase 1 - Start](teams-adoption-phase1.md)
-### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
-### [Create your first teams](teams-adoption-your-first-teams.md)
-### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
-## [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
-### [Create your champions program](teams-adoption-create-champions-program.md)
-### [Governance quick start](teams-adoption-governance-quick-start.md)
-### [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
-### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
-### [Onboard support](teams-adoption-onboard-support.md)
-## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
-### [Define outcomes and success](teams-adoption-define-outcomes.md)
-### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
-### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
-### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
-<!-- ============================================================ -->
 
 
 #        
