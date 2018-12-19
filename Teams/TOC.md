@@ -39,7 +39,7 @@
 
 <!-- ============================================================ -->
 
-# [Tabs, apps, bots, connectors](deploy-apps-microsoft-teams-landing-page.md)
+# [Tabs, apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
 ## [Apps permissions and considerations](app-permissions.md)
 ## [Add bots for private chats and channels in Teams](add-bots.md)
 ## [Admin settings for apps in Teams](admin-settings.md)
@@ -53,7 +53,7 @@
 <!-- ============================================================ -->
 
 
-# [Meetings](deploy-meetings-microsoft-teams-landing-page.md)
+# [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
 ## [Disabling toll-free numbers for specific users](disabling-toll-free-numbers-for-specific-teams-users.md)
