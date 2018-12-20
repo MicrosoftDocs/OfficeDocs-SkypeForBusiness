@@ -60,6 +60,8 @@ A **Teams only** user can only use the Skype for Business client to join existin
 
 ![Skype for Business client running in a special mode after the user is upgraded as a Teams-only user](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "Skype for Business client running in a special mode after the user is upgraded as a Teams-only user")
 
+###[WE NEED SOMETHING HERE ABOUT SfB client versions that support TeamsUpgrade mode and the various feature limitiations by build.]
+
 ### Skype for Business with Teams Collaboration (this mode is upcoming)
 
 Use this mode to introduce Teams in your environment while you continue to leverage your existing investment in Skype for Business. In this mode, you leave Skype for Business unchanged with chat, calling, and meeting capabilities, and you add Teams collaboration capabilities—teams and channels, access to files in Office 365, and applications. Organizations with starting point of Skype for Business server on premises or hybrid should use this mode instead of Islands mode.
