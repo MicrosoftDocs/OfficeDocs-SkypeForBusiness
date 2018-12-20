@@ -68,7 +68,7 @@ Keep the following limitations in mind:
 
 - You can’t switch back to Teams free after you upgrade.
 - You can’t merge multiple Teams free tenants into a single paid tenant.
-- All users must be in the same domain. (All users will get a sign-in in the format *username@domain.com*.)
+- All users must be in the same domain. (All users will get a sign-in in the format *username*@*domain.com*.)
 - All users must be upgraded: a mix of Teams free and paid subscription users in the same tenant is not supported.
 
 ## How do I upgrade my organization?
