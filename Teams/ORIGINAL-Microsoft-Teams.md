@@ -16,25 +16,6 @@ ms.topic: hub-page
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsC">
                             <li>
-                                <a href="/MicrosoftTeams/teams-overview">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-GetStarted-400x140.svg" alt="a pedestrian symbol with an arrow pointing to a computer screen, tablet, and phone" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Welcome to Teams</h3>
-                                                    <p>Get an overview of Teams and find the technical guidance you need as a Teams admin</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="/MicrosoftTeams/get-started-with-teams-quick-start">
                                     <div class="cardSize">
                                         <div class="cardPadding">
@@ -140,8 +121,8 @@ ms.topic: hub-page
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Teams developer platform</h3>
-                                                    <p>Learn about using the Teams developer platform to build useful and powerful apps</p>
+                                                    <h3>Introduction to Microsoft Teams developer platform</h3>
+                                                    <p>Learn about the Microsoft Teams developer platform and how it enables you to build useful and powerful apps</p>
                                                 </div>
                                             </div>
                                         </div>
