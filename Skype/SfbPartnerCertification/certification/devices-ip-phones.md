@@ -21,7 +21,7 @@ ms.custom:
 description: "Certified for Skype for Business IP phones."
 ---
 
-# Skype for Business IP Phones
+# IP Phones
 Microsoft has tested and certified IP phones for Skype for Business On-Premises and Online services through the Skype for Business Certification Program. The program reflects an evolution from the previous basic interop compatibility ("Compatible with Lync”) to a higher quality bar, including metrics targeting higher reliability. Phone vendors have been actively working to meet this higher bar and have qualified a wide range of phone models against these requirements. 
 In the meantime, Skype for Business Server supports backwards compatibility with all of our Lync qualified IP phones.
 
@@ -63,8 +63,10 @@ Basic functionalities will continue to work on Skype for Business Online certifi
 |Spectralink	|84-Series Wireless Telephones	|4.6.0.0008	|9/10/2013|
 |Spectralink	|7000 Portfolio Handsets	|PCS13Eb	|9/04/2013|
 
-
 ## Additional Resources
+
+Browse all [devices Certified for Teams](http://products.office.com/microsoft-teams/across-devices/devices).
+
 Learn about [Skype for Business certification](overview.md)
 
 Find details of our [qualified IP Phones](../lync-cert/ip-phones.md)
