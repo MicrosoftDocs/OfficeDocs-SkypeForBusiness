@@ -123,61 +123,56 @@ ms.topic: hub-page
                                     </div>
                                 </div>
                             </li>
-            <li class="fullSpan">
-                              <hr>
-                              <br>
-                              <ul class="cardsF panelContent singlePanelContent" style="display:flex!important;">
-                                    <li>
-                                        <div class="cardSize">
-                                            <div class="cardPadding">
-                                                <div class="card">
-                                                    <div class="cardImageOuter">
-                                                        <div class="cardImage">
-                                                            <img src="https://docs.microsoft.com/office/media/icons/developer-blue.svg" alt="Code, developer" data-linktype="external">
-                                                        </div>
-                                                    </div>
-                                                    <div class="cardText">
-                                                        <h3>Develop for Microsoft 365</h3>
-                                                        <p><a href="https://developer.microsoft.com/office" target="_blank" data-linktype="external">Office 365 Dev Center</a></p>
-                                                        <p><a href="https://developer.microsoft.com/windows/enterprise" target="_blank" data-linktype="external">Windows Dev Center</a></p>
-                                                        <p><a href="https://developer.microsoft.com/graph" target="_blank" data-linktype="external">Microsoft Graph</a></p>
-                                                    </div>
-                                                </div>
+<li class="fullSpan">
+                  <hr>
+                  <br>
+                  <ul class="cardsF panelContent singlePanelContent" style="display:flex!important;">
+                        <li>
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage">
+                                                <img src="https://docs.microsoft.com/office/media/icons/developer-blue.svg" alt="Code, developer" data-linktype="external">
                                             </div>
                                         </div>
-                                    </li>
-                                    <li>
-                                        <div class="cardSize">
-                                            <div class="cardPadding">
-                                                <div class="card">
-                                                    <div class="cardImageOuter">
-                                                        <div class="cardImage">
-                                                            <img src="https://docs.microsoft.com/office/media/icons/caret-right-blue.svg" alt="More arrow" data-linktype="external">
-                                                        </div>
-                                                    </div>
-                                                    <div class="cardText">
-                                                        <h3>Other Microsoft 365 products</h3>
-                                                        <p><a href="https://docs.microsoft.com/microsoft-365/business/" target="_blank" data-linktype="external">Microsoft 365 Business</a></p>
-                                                        <p><a href="https://docs.microsoft.com/education/" target="_blank" data-linktype="external">Microsoft 365 Education</a></p>
-                                                    </div>
-                                                </div>
+                                        <div class="cardText">
+                                            <h3>Teams developer platform</h3>
+                                            <p><a href="https://developer.microsoft.com/office" target="_blank" data-linktype="external">Office 365 Dev Center</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage">
+                                                <img src="https://docs.microsoft.com/office/media/icons/caret-right-blue.svg" alt="More arrow" data-linktype="external">
                                             </div>
                                         </div>
-                                    </li> 
-                                    <li>
-                                        <div class="cardSize">
-                                            <div class="cardPadding">
-                                                <div class="card">
-                                                    <div class="cardImageOuter">
-                                                        <div class="cardImage">
-                                                            <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="Chat" data-linktype="external">
-                                                        </div>
-                                                    </div>
-                                                    <div class="cardText">
-                                                        <h3>Need support?</h3>
-                                                        <p><a href="https://azure.microsoft.com/support/options/" target="_blank" data-linktype="external">Azure</a></p>
-                                                        <p><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank" data-linktype="external">Office 365</a></p>
-                                                        <p><a href="http://support.microsoft.com/products/windows" target="_blank" data-linktype="external">Windows 10</a></p>
+                                        <div class="cardText">
+                                            <h3>Teams tech community</h3>
+                                            <p><a href="https://docs.microsoft.com/microsoft-365/business/" target="_blank" data-linktype="external">Microsoft 365 Business</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li> 
+                        <li>
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage">
+                                                <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="Chat" data-linktype="external">
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>PowerShell cmdlet reference for TEams</h3>
+                                            <p><a href="https://azure.microsoft.com/support/options/" target="_blank" data-linktype="external">Azure</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -192,4 +187,3 @@ ms.topic: hub-page
         </ul>
     </div>
 </div>
-
