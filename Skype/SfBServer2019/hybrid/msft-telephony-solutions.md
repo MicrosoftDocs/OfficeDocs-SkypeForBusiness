@@ -19,9 +19,9 @@ Microsoft supports several options as you begin your journey to Teams in the Mic
 
 You should use this article along with the associated technical diagram that provides a visual decision-making path:
 
-- [Microsoft telephony solutions - Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18(en-us).vsdx)
+- [Microsoft telephony solutions - Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx)
 
-- [Microsoft telephony solutions - PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18(en-us).pdf)
+- [Microsoft telephony solutions - PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf)
 
 ## Which solution is right for you?
 
