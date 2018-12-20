@@ -17,7 +17,7 @@ ms.topic: hub-page
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsF">
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/teams-overview">
+                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/teams-overview?branch=lolaj-tocoverhaul4">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -36,7 +36,7 @@ ms.topic: hub-page
                             </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
+                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start?branch=lolaj-tocoverhaul4">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -73,7 +73,7 @@ ms.topic: hub-page
                             </a>
                             </li> 
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams?branch=lolaj-tocoverhaul4">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -92,7 +92,7 @@ ms.topic: hub-page
                             </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/adopt-microsoft-teams-landing-page">
+                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/adopt-microsoft-teams-landing-page?branch=lolaj-tocoverhaul4">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
