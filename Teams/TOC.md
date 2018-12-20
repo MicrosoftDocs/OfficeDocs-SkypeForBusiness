@@ -488,6 +488,9 @@
 #### [What are dial plans?](what-are-dial-plans.md)
 #### [Create and manage dial plans](create-and-manage-dial-plans.md)
 ### Phone System
+#### Phones for Teams
+##### [Phones for Microsoft Teams](phones-for-teams.md)
+##### [Buying and deploying Microsoft Teams IP phones](buying-and-deploying-teams-ip-phones.md)
 #### [What is Phone System in Office 365?](what-is-phone-system-in-office-365.md)
 #### [Setting up Phone System in your organization](setting-up-your-phone-system.md)
 #### [Change the default language for voicemail greetings and emails](change-the-default-language-for-greetings-and-emails.md)
