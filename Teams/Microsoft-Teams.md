@@ -23,7 +23,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/media/logos/logo_office.svg" alt="Office logo" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone.svg" alt="What's new" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -42,7 +42,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/media/logos/logo_MSTeams.svg" alt="Microsoft Teams logo" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started.svg" alt="Get started" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -60,12 +60,12 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/media/logos/logo_office.svg" alt="Office logo" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy.svg" alt="Deploy" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
                                                 <h3>How to roll out Teams</h3>
-                                                <P>Whether you're a small business of a multi-national enterprise, start here to find the right path to rolling out Teams</p>
+                                                <P>Whether you're a small business or a multi-national enterprise, start here to find the right path to rolling out Teams</p>
                                             </div>
                                         </div>
                                     </div>
@@ -79,7 +79,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/media/logos/logo_sharepoint.svg" alt="SharePoint logo" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/migration.svg" alt="Migration" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -98,7 +98,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/media/logos/logo_Exchange.svg" alt="Exchange logo" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/best-practices.svg" alt="Best practices" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -117,7 +117,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/media/logos/logo_Skype_for_Business.svg" alt="Skype for Business logo" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial.svg" alt="Training" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -140,7 +140,7 @@ ms.topic: hub-page
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/office/media/icons/developer-blue.svg" alt="Code, developer" data-linktype="external">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/developer.svg" alt="Developer" data-linktype="external">
                                             </div>
                                         </div>
                                         <div class="cardText">
@@ -159,7 +159,7 @@ ms.topic: hub-page
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/office/media/icons/caret-right-blue.svg" alt="More arrow" data-linktype="external">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people" alt="Community">
                                             </div>
                                         </div>
                                         <div class="cardText">
@@ -178,7 +178,7 @@ ms.topic: hub-page
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="Chat" data-linktype="external">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/settings.svg" alt="Settings">
                                             </div>
                                         </div>
                                         <div class="cardText">
