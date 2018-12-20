@@ -3,7 +3,7 @@ title: Upgrade Microsoft Teams free to Office 365 subscription version
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 12/19/2018
+ms.date: 12/20/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
@@ -56,12 +56,11 @@ For a detailed comparison of Teams free and Teams features, see [Compare Teams p
 
 You can upgrade to the full version of Teams if you meet the following requirements:
 
-- You have an existing Azure Active Directory (AAD) tenant.
-- You’ve purchased Office 365 licenses for your users.
-- You have the Teams service enabled.
+- You are the person who signed up for the existing Teams free subscription.
+- If you are bringing your own domain, it isn’t already associated with Azure Active Directory (via trial or purchased O365 subscription).
 
 > [!NOTE]
-> To upgrade and transfer your data, you have to buy your subscription through the upgrade process in the Teams application. If you purchased Teams without going through the upgrade process, you can’t transfer your data because you will already have a separate tenant.
+> To upgrade and transfer your data, you have to buy your subscription through the upgrade process in the Teams application. If you purchased Office 365 with Teams without going through the upgrade process, you can’t transfer your data because you will already have a separate tenant.
 
 ## Limitations
 
@@ -78,13 +77,11 @@ To upgrade to the full version of Teams, select **Upgrade** in Teams.
 
 ![screenshot showing Upgrade button](media/teams-freemium-upgrade-image1.png)
 
-Enter your email address, and then purchase an Office 365 Business Premium plan. If you would like to purchase Office 365 Business Essentials or an Enterprise edition of Office 365, [contact support](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade).
-
-For complete upgrade instructions, see [Upgrade from Teams free to Teams](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39). 
+Enter the email address that you use to sign in to Teams, and then purchase an Office 365 Business Premium plan. If you would like to purchase Office 365 Business Essentials or an Enterprise edition of Office 365, [contact support](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade).
 
 ## More information
 
 - To find out more about Teams versions and their capabilities, see [Compare Teams plans](https://products.office.com/microsoft-teams/free).
-- For detailed procedures when you upgrade Teams free, see [Upgrade from Teams free to Teams](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
+- For more information about upgrading to the full version of Teams, see [Upgrade from Teams free to Teams](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
 - For additional admin tasks associated with upgrading users, including adding user licenses, changing user names, and assigning temporary passwords, see [For admins upgrading from Teams free to a paid subscription](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52).
 
