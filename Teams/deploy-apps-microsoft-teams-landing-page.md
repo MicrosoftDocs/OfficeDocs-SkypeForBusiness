@@ -21,5 +21,28 @@ Apps let you find content from your favorite services and share it right in Team
 
 We recommend that you roll out apps, bots, & connectors throughout your Teams deployment. 
 
+Sharon, I copied this section from the deploy-chat landing page. Need to figure out what else goes here. (We may want to leave this section in the deploy-chat page, then link over to HERE for additional guidance.)
+### Teams Default Apps 
+
+Teams provides a number of Microsoft provided and 3rd party apps via the Teams
+Store to engage your users and provide additional productivity capabilities and
+integration of commonly used business services into Teams. The default
+configuration is that the these apps are enabled for users to explore and use,
+for example users can make use of the Planner app to build and manage team tasks
+in a very effective manner. The out of the box configuration enables the teams
+default apps as well as external apps that have been submitted via the [Teams
+Store approval
+process.](https://docs.microsoft.com/en-us/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)
+
+For more information see the [Admin settings for apps in Microsoft
+Teams.](https://docs.microsoft.com/en-us/microsoftteams/admin-settings)
+
+| <img src="media/audio_conferencing_image7.png" /> | Will you change the default teams apps settings? |
+|------------------------------------------|--------------------------------------------------|
+
+
+
+
+
 
 

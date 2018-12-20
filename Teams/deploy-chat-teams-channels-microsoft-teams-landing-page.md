@@ -1,5 +1,5 @@
 ---
-title: Deploy chat, teams, & channels in Microsoft Teams
+title: Deploy chat, teams, channels, & apps in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,7 +13,7 @@ MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 ---
-# Deploy chat, teams, & channels in Microsoft Teams
+# Deploy chat, teams, channels, & apps in Microsoft Teams
 
 
 Teams has been designed to provide a great out-of-the-box collaboration

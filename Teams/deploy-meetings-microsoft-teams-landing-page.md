@@ -16,7 +16,7 @@ appliesto:
 # Deploy meetings in Microsoft Teams
 
 
-You've completed [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the Meetings workload, including audio conferencing. Here's how:
+You've completed [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the Meetings workload, including audio conferencing. Here's how:
 
 ## Meetings service decisions
 

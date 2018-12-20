@@ -18,15 +18,14 @@ appliesto:
 # How to roll out Microsoft Teams
 
 ## Start here
-Whether you're a small business or a multi-national enterprise, the best place to start for rolling out Teams is [Get started](get-started-with-teams-quick-start.md). It walks you through a small-scale Teams rollout, which may be all you need if you're a small business. If you're a larger organization, use [Get started](get-started-with-teams-quick-start.md) to pilot Teams with a small group of early adopters so you can learn about Teams and start planning your org-wide deployment. 
+Whether you're a small business or a multi-national enterprise, the place to start for rolling out Teams is [Get started](get-started-with-teams-quick-start.md). It walks you through a small-scale Teams rollout, which may be all you need if you're a small business. If you're a larger organization, use [Get started](get-started-with-teams-quick-start.md) to pilot Teams with a small group of early adopters so you can learn about Teams and start planning your org-wide deployment. 
 
 ## Recommended path to Teams
 
 
-We recommend rolling out Teams in stages, workload by workload, as your organization is ready. You don’t have to wait until you've completed each of these steps before you move to the next. Some orgs may want to roll out all Teams features at once, while others may prefer a phased approach. 
+We recommend rolling out Teams in stages, workload by workload, as your organization is ready. **You don’t have to wait until you've completed one step before you move to the next.** Some orgs may want to roll out all Teams features at once, while others may prefer a phased approach. 
 1. [Get started](get-started-with-teams-quick-start.md)
-1. [Chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-1. [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page)
+1. [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 1. [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 1. [Cloud voice](cloud-voice-landing-page.md)
 
@@ -34,12 +33,6 @@ We recommend rolling out Teams in stages, workload by workload, as your organiza
 
 ![5 circles, 1 arrow showing Teams deployment pathway](media/how-to-roll-out-teams-image1.png)
 
-
-> [!NOTE]
-> For each workload, we'll call out decisions you need to make as you plan your deployment.
-> 
-> - Decisions that everyone needs to make
-> - Decisions that you may need to consider, depending on your organization profile & needs
 
 ## Upgrade from Skype for Business, on-premises, & hybrid deployments
 

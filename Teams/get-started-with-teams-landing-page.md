@@ -49,8 +49,8 @@ appliesto:
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Chat, teams, & channels</h3>
-                        <p>Roll out Teams to your organization starting with chat, teams, & channels</p>
+                        <h3>Chat, teams, channels, & apps</h3>
+                        <p>Roll out Teams to your organization starting with chat, teams, channels, & apps</p>
                     </div>
                 </div>
             </div>

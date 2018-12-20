@@ -17,7 +17,7 @@ appliesto:
 # Plan your enterprise-wide rollout of Microsoft Teams
 
 Teams consists of 4 workloads, which you can roll out as your organization is ready. 
-- [Chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [Tabs, apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
 - [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)

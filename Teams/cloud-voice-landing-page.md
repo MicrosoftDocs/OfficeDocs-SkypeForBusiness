@@ -15,7 +15,7 @@ appliesto:
 
 # Cloud voice in Teams
 
-You've completed [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add cloud voice workloads. 
+You've completed [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add cloud voice workloads. 
 
 ## Voice service decisions
 

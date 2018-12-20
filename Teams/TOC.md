@@ -16,13 +16,23 @@
 <!-- ============================================================ -->
 
 
-# [Chat, teams, & channels](deploy-chat-teams-channels-microsoft-teams-landing-page)
+# [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page)
 ## [Overview of teams and channels](teams-channels-overview.md)
 ## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
+
+## [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
+### [Apps permissions and considerations](app-permissions.md)
+### [Add bots for private chats and channels in Teams](add-bots.md)
+### [Admin settings for apps in Teams](admin-settings.md)
+### [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
+### [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
+### [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
+### [Use activity reports for Teams](teams-activity-reports.md)
+### [Use inline message translation in Teams](inline-message-translation-teams.md)
 
 ## [Guest access](guest-access.md)
 ### [How a guest joins a team](guest-joins.md)
@@ -36,17 +46,6 @@
 ### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 ### [Guest access checklist](guest-access-checklist.md)
 
-<!-- ============================================================ -->
-
-# [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
-## [Apps permissions and considerations](app-permissions.md)
-## [Add bots for private chats and channels in Teams](add-bots.md)
-## [Admin settings for apps in Teams](admin-settings.md)
-## [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
-## [Use built-in and custom tabs in Teams](built-in-custom-tabs.md)
-## [Use Office 365 and custom connectors in Teams](office-365-custom-connectors.md)
-## [Use activity reports for Teams](teams-activity-reports.md)
-## [Use inline message translation in Teams](inline-message-translation-teams.md)
 
 
 <!-- ============================================================ -->
@@ -79,7 +78,7 @@
 
 
 
-## Audio conferencing
+## [Audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
 
 ### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Audio Conferencing in Office 365](audio-conferencing-in-office-365.md)

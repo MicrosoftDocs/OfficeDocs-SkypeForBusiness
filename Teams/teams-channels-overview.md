@@ -14,7 +14,7 @@ appliesto:
 - Microsoft Teams
 ---
 > [!NOTE]
-> Review the following information to understand chat, teams, & channels in Teams. Then, go to [Deploy chat, teams, & channels in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) to walk through a list of decisions important to your Teams rollout.
+> Review the following information to understand chat, teams, channels, & apps in Teams. Then, go to [Deploy chat, teams, channels, & apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) to walk through a list of decisions important to your Teams rollout.
 
 Overview of teams and channels in Microsoft Teams
 =================================================
