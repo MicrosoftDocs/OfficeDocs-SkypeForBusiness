@@ -55,7 +55,7 @@ ms.topic: hub-page
                             </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams"><div class="cardSize">
+                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams?branch=lolaj-tocoverhaul4"><div class="cardSize">
                                 <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
@@ -111,7 +111,7 @@ ms.topic: hub-page
                             </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page">
+                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page?branch=lolaj-tocoverhaul4">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
