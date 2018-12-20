@@ -8,6 +8,7 @@ ms.topic: hub-page
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft Teams technical documentation</h1>
+        <P> </p>
         <ul class="pivots">
             <li>
                 <a href="#home"></a>
@@ -137,8 +138,9 @@ ms.topic: hub-page
                                             </div>
                                         </div>
                                         <div class="cardText">
+                                            <a href="https://docs.microsoft.com/microsoftteams/platform/overview" target="_blank" data-linktype="external">
                                             <h3>Teams developer platform</h3>
-                                            <p><a href="https://developer.microsoft.com/office" target="_blank" data-linktype="external">Office 365 Dev Center</a></p>
+                                            <p>Learn about the Microsoft Teams developer platform and how it enables you to build useful and powerful apps</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -154,8 +156,9 @@ ms.topic: hub-page
                                             </div>
                                         </div>
                                         <div class="cardText">
+                                            <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams" target="_blank" data-linktype="external">
                                             <h3>Teams tech community</h3>
-                                            <p><a href="https://docs.microsoft.com/microsoft-365/business/" target="_blank" data-linktype="external">Microsoft 365 Business</a></p>
+                                            <p>Join the Teams tech community to ask questions &amp; get answers and read the Teams blog</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -171,8 +174,9 @@ ms.topic: hub-page
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>PowerShell cmdlet reference for TEams</h3>
-                                            <p><a href="https://azure.microsoft.com/support/options/" target="_blank" data-linktype="external">Azure</a></p>
+                                            <a href="https://docs.microsoft.com/powershell/module/teams/?view=teams-ps">
+                                            <h3>PowerShell cmdlet reference for Teams</h3>
+                                            <p>Get the PowerShell modules and cmdlets for Teams</a></p>
                                                     </div>
                                                 </div>
                                             </div>
