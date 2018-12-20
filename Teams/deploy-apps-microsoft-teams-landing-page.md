@@ -21,7 +21,7 @@ Apps let you find content from your favorite services and share it right in Team
 
 We recommend that you roll out apps, bots, & connectors throughout your Teams deployment. 
 
-Sharon, I copied this section from the deploy-chat landing page. Need to figure out what else goes here. (We may want to leave this section in the deploy-chat page, then link over to HERE for additional guidance.)
+Sharon, I copied this section from the deploy-chat landing page. Need to figure out what else goes here. (We may want to leave this section in the deploy-chat page, then link over to HERE for additional guidance.) Need to figure out how much is "just enable it" vs. what is "ongoing management & configuration." Based on the articles in this Apps TOC node, you may be able to come up with a first stab at the list.
 ### Teams Default Apps 
 
 Teams provides a number of Microsoft provided and 3rd party apps via the Teams
