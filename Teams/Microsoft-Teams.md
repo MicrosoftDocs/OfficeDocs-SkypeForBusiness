@@ -17,6 +17,7 @@ ms.topic: hub-page
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsF">
                             <li>
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/teams-overview">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -26,15 +27,16 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="https://docs.microsoft.com/MicrosoftTeams/teams-overview">
                                                 <h3>Welcome to Teams</h3>
-                                                <P>Get an overview of Teams and find the technical guidance you need as a Teams admin or IT pro</a></p>
+                                                <P>Get an overview of Teams and find the technical guidance you need as a Teams admin or IT pro</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </a>
                             </li>
                             <li>
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -44,17 +46,17 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
                                                 <h3>Get started</h3>
-                                                <P>Use our Quick start guide to get up and running fast with a couple of teams and channels</a></p>
+                                                <P>Use our Quick start guide to get up and running fast with a couple of teams and channels</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </a>
                             </li>
                             <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams"><div class="cardSize">
+                                <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
@@ -62,15 +64,16 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="https://docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams">
                                                 <h3>How to roll out Teams</h3>
-                                                <P>Whether you're a small business of a multi-national enterprise, start here to find the right path to rolling out Teams</p></a>
+                                                <P>Whether you're a small business of a multi-national enterprise, start here to find the right path to rolling out Teams</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </a>
                             </li> 
                             <li>
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -80,15 +83,16 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
                                                 <h3>Journey from Skype for Business to Teams</h3>
-                                                <P>Find guidance and tools to explore your optimal path to Teams</a></p>
+                                                <P>Find guidance and tools to explore your optimal path to Teams</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </a>
                             </li>
                             <li>
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/adopt-microsoft-teams-landing-page">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -98,15 +102,16 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="https://docs.microsoft.com/MicrosoftTeams/adopt-microsoft-teams-landing-page">
                                                 <h3>Adoption hub</h3>
-                                                <P>Get tools to support your Teams rollout</a></p>
+                                                <P>Get tools to support your Teams rollout</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </a>
                             </li>
                             <li>
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -116,19 +121,20 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <a href="https://docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page">
                                                 <h3>Find training & videos</h3>
-                                                <P>Get Teams training - for you and your users</a></p>
+                                                <P>Get Teams training - for you and your users</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </a>
                             </li>
 <li class="fullSpan">
                   <hr>
                   <br>
                   <ul class="cardsF panelContent singlePanelContent" style="display:flex!important;">
                         <li>
+                            <a href="https://docs.microsoft.com/microsoftteams/platform/overview">        
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
@@ -138,15 +144,16 @@ ms.topic: hub-page
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <a href="https://docs.microsoft.com/microsoftteams/platform/overview" target="_blank" data-linktype="external">
                                             <h3>Teams developer platform</h3>
-                                            <p>Learn about the Microsoft Teams developer platform and how it enables you to build useful and powerful apps</a></p>
+                                            <p>Learn about the Microsoft Teams developer platform and how it enables you to build useful and powerful apps</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            </a>
                         </li>
                         <li>
+                            <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams" target="_blank" data-linktype="external">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
@@ -156,15 +163,16 @@ ms.topic: hub-page
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams" target="_blank" data-linktype="external">
                                             <h3>Teams tech community</h3>
-                                            <p>Join the Teams tech community to ask questions &amp; get answers and read the Teams blog</a></p>
+                                            <p>Join the Teams tech community to ask questions &amp; get answers and read the Teams blog</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            </a>
                         </li> 
                         <li>
+                            <a href="https://docs.microsoft.com/powershell/module/teams/?view=teams-ps">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
@@ -174,13 +182,13 @@ ms.topic: hub-page
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <a href="https://docs.microsoft.com/powershell/module/teams/?view=teams-ps">
                                             <h3>PowerShell cmdlet reference for Teams</h3>
-                                            <p>Get the PowerShell modules and cmdlets for Teams</a></p>
+                                            <p>Get the PowerShell modules and cmdlets for Teams</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        </a>
                                     </li>
                               </ul>
                             </li>
