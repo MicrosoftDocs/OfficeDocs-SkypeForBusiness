@@ -47,7 +47,6 @@ A high-level set of features supported in Teams certified IP phones is available
 |Exchange Calendar Integration |Yes|Yes|
 |Contact Picture Integration  |Yes|Yes|
 |Corporate Directory Access | Yes|Yes|
-|Visual Voicemail |Yes |No|
 |**Meetings**|   ||
 |One-click Join for Meetings  | Yes  |Yes |
 |Join Skype for Business meetings | Yes  | Yes|
