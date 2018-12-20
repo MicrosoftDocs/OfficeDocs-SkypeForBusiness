@@ -17,6 +17,12 @@ description: "Describes Microsoft telephony solutions."
 
 Microsoft supports several options as you begin your journey to Teams in the Microsoft cloud. This article helps you decide which Microsoft telephony solution (Phone System in the cloud or Enterprise Voice on-premises) is right for users in your organization, and how to connect to the Public Switched Telephone Network (PSTN). 
 
+You should use this article along with the associated technical diagram that provides a visual decision-making path:
+
+- [Microsoft telephony solutions - Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/microsoft-ttelephony-solutions(en-us).vsd?raw=true)
+
+- [Microsoft telephony solutions - PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/microsoft-ttelephony-solutions(en-us).pdf?raw=true)
+
 ## Which solution is right for you?
 
 You can choose an all-in-the-cloud solution, a connect-your-own-carrier solution, or a mix between all-in-the-cloud and third-party carriers.  The solution you choose depends on your current and future needs, such as:
