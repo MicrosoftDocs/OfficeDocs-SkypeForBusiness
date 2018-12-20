@@ -60,7 +60,7 @@ You can upgrade to the full version of Teams if you meet the following requireme
 - If you are bringing your own domain, it isn’t already associated with Azure Active Directory (via trial or purchased O365 subscription).
 
 > [!NOTE]
-> To upgrade and transfer your data, you have to buy your subscription through the upgrade process in the Teams application. If you purchase Office 365 with Teams without going through the upgrade process, you can’t transfer your data because you will already have a separate tenant.
+> To upgrade and transfer your data, you have to buy your subscription through the upgrade process in the Teams application. If you purchased Office 365 with Teams without going through the upgrade process, you can’t transfer your data because you will already have a separate tenant.
 
 ## Limitations
 
