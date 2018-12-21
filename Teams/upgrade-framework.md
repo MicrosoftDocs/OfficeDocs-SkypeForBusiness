@@ -47,11 +47,11 @@ To help demonstrate how your upgrade journey might unfold, we’ve provided a sa
 | Step |  | Summary | Resource |
 |------|--|---------|----------|
 | **1** | **Define your stakeholders** | Assign project team members accountable for driving upgrade success. | [Enlist your stakeholders](upgrade-enlist-stakeholders.md) |
-| **2** | **Define your project vision and scope** | Design your “big picture” vision and current project scope to create a blueprint for your upgrade journey. | [Project vision](upgrade-define-project-scope.md#project-vision) </br> </br>[Project scope](upgrade-define-project-scope.md#project-scope) |
+| **2** | **Define your project vision and scope** | Design your “big picture” vision and current project scope to create a blueprint for your upgrade journey. | [Project vision](upgrade-define-project-scope.md#project-vision) <br> <br>[Project scope](upgrade-define-project-scope.md#project-scope) |
 | **3** | **Define your project goals** | Set targeted goals that enable you to measure progress as well as project success. | [Project goals](upgrade-define-project-scope.md#project-goals) |
 | **4** | **Identify risks and mitigation plans** | Establish a mitigation plan to ensure you can quickly get your project back on track should issues arise. | [Risks and mitigation](upgrade-define-project-scope.md#risks-and-mitigation) |
-| **5** | **Define your timeline** | Set a timeline and key milestones to help your project stay on time and on budget. | [Timeline](upgrade-define-project-scope.md#timeline) </br></br> [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
-| **6** | **Define the appropriate Skype for Business and Teams upgrade and coexistence strategy** | Map your journey to ensure the best path from Skype for Business to Teams for your organization. | [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md) </br></br> [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
+| **5** | **Define your timeline** | Set a timeline and key milestones to help your project stay on time and on budget. | [Timeline](upgrade-define-project-scope.md#timeline) <br><br> [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
+| **6** | **Define the appropriate Skype for Business and Teams upgrade and coexistence strategy** | Map your journey to ensure the best path from Skype for Business to Teams for your organization. | [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
 
 
 ### Prepare: Evaluate your organization’s readiness for Teams
