@@ -85,17 +85,18 @@ This is the most common scenario where MMS helps create a smoother transition fo
 In either case, if the user has been assigned an Audio Conferencing license before being moved to the cloud, the meetings will be created with dial-in coordinates. If you move a user from on-premises to the cloud and you intend for that user to use Audio Conferencing, we recommend that you first assign the audio conference before you move the user so that only 1 meeting migration is triggered.
 
 > [!NOTE]
-> Currently the ability to migrate meetings directly to Teams via the `MoveToTeams` switch is only available in TAP. If you are not a TAP customer and the `MoveToTeams` switch is specified, the user will be moved to TeamsOnly mode, but the meetings will be moved to Skype for Business Online. Even though the user is in TeamsOnly mode, they can still join any Skype for Business meeting.
+> Currently the ability to migrate meetings directly to Teams via the MoveToTeams switch is only available in TAP. If you are not a TAP customer and the MoveToTeams switch is specified, the user will be moved to TeamsOnly mode, but the meetings will be moved to Skype for Business Online. Even though the user is in TeamsOnly mode, they can still join any Skype for Business meeting.
 
 ### Updating meetings when a user's audio conferencing settings change
 
 In the following cases, MMS will update existing Skype for Business and Microsoft Teams meetings to add, remove, or modify dial-in coordinates:
 
-- When you assign or remove an Audio Conferencing license.
-- When you enable or disable audio conferencing.
+- When you assign or remove a Microsoft Audio Conferencing service license of a user who isn't enabled for the integration of Skype for Business with third-party audio conferencing providers.
+- When you change the audio conferencing provider of a user who has a Microsoft’s Audio Conferencing service license assigned from any other provider to Microsoft.
+- When you enable or disable audio conferencing for a user.
 - When you change or reset the conference ID for a user configured to use public meetings.
-- When you move the user to a new audio conferencing bridge
-- When a phone number from a audio conferencing bridge is unassigned. This is a complex scenario which requires additional steps. For more information, see [Change the phone numbers on your audio conferencing bridge](https://docs.microsoft.com/en-us/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
+- When you move the user to a new audio conferencing bridge.
+- When a phone number from a audio conferencing bridge is unassigned. This is a complex scenario that requires additional steps. For more information, see [Change the phone numbers on your audio conferencing bridge](https://docs.microsoft.com/en-us/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
 
 Not all changes to a user's audio conferencing settings trigger MMS. Specifically, the following two changes won't result in MMS updating meetings:
 
