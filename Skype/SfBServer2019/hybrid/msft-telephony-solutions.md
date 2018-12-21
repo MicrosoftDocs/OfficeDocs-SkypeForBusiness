@@ -17,7 +17,7 @@ description: "Describes Microsoft telephony solutions."
 
 Microsoft supports several options as you begin your journey to Teams in the Microsoft cloud. This article helps you decide which Microsoft telephony solution (Phone System in the cloud or Enterprise Voice on-premises) is right for users in your organization, and how your organization can connect to the Public Switched Telephone Network (PSTN). 
 
-You should use this article along with the associated technical diagram that provides a visual aid for making the right decision for your organization:
+You should use this article along with the associated technical diagram, which provides a visual aid for making the right decision for your organization:
 
 - [Microsoft telephony solutions - Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx)
 
@@ -34,13 +34,13 @@ Phone System works with Teams or Skype for Business Online clients and certified
 
 ### Enterprise Voice (Skype for Business Server)
 
-Enterprise Voice is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the on-premises Skype for Business Server. This option can only be connected to the Public Switched Telephone Network using your own telephony carrier. 
+Enterprise Voice is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the on-premises Skype for Business Server. This option can only be connected to the Public Switched Telephone Network by using your own telephony carrier. 
 
 ## Connection to the Public Switched Telephone Network (PSTN) options
 
 You can choose to connect to the Public Switched Telephone Network (PSTN) by:
 
-- Using the Microsoft Calling Plan in Office 365 
+- Using Microsoft Calling Plan in Office 365 
 - Connecting your own telephony carrier
 
 ### Calling Plan (Office 365)
@@ -51,11 +51,11 @@ This option connects Microsoft’s Office 365 Phone System to the Public Switche
 
 This option connects either Phone System in Office 365 or Enterprise Voice system in Skype for Business on-premises to your telephony network. This option requires a supported Session Border Controller (SBC). In some cases, this option might require additional Microsoft software deployed on-premises.
 
-## Choose your solution
+## Which solution is right for your organization?
 
 You can choose an all-in-the-cloud solution, a connect-your-own-carrier solution, or a mix between all-in-the-cloud and third-party carriers:
 
-- Phone System with Calling Plan
+- Phone System with Calling Plan (all in the cloud)
 
 - Phone System with own carrier via Direct Routing
 
@@ -81,8 +81,13 @@ Consider the following questions to determine the best solution for your organiz
 - Does your current legacy PBX offer unique features that are critical to your business?
 - Do any or all of your users require features not currently offered in Phone System?
 
-### Phone System with Calling Plan
-<a name="BKMK_Phone-System-with-Calling-Plan"> 
+Note the following:
+
+- All four options can co-exist with each other in case you need to design a solution for complex environment or managing multi-step migration.
+- Phone System with own carrier via Skype for Business Server OR Cloud Connector Edition can only be deployed with either Skype for Business Server OR Cloud Connector. Co-existence of Skype for Business Server and Cloud Connector is not supported in a single company.
+
+## Phone System with Calling Plan
+
 
 Phone System with Calling Plan is an all-in-the-cloud option for Teams or Skype for Business Online users as shown in the following diagram:
 
@@ -101,7 +106,8 @@ Phone System with Calling Plan is an all-in-the-cloud option for Teams or Skype 
 | Requires contract with third-party carrier      | No   |
 | Requires deploying and maintaining Skype for Business Server or Cloud Connector Edition | No |
 
-* For more information about the countries wehre Calling Plan is available, see aka.ms/callingplans.
+\* For more information about the countries where Calling Plan is available, see [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/en-us/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+
 
 If you answer yes to the following questions, then this is the right solution for you:
 
@@ -111,10 +117,9 @@ If you answer yes to the following questions, then this is the right solution fo
 - You do not want to manage Session Border Controllers on your own.
 - Teams and/or Skype for Business Online has all the features that your organization requires.
 
-### Phone System with own carrier via Direct Routing
-<a name="BKMK_Phone-System-with-own-carrier-via-Direct-Routing"> 
+## Phone System with own carrier via Direct Routing
 
-With this option, you can use Microsoft Phone System with virtually any telephony carrier. This option works for Teams users.
+This option provides Microsoft Phone System in the cloud with virtually any telephony carrier for Teams users.
 
 ![Phone System with your carrier via Direct Routing](../../sfbserver2019/media/msft-telephony-solutions-2.png)
 
@@ -131,7 +136,7 @@ With this option, you can use Microsoft Phone System with virtually any telephon
 | Requires contract with third-party carrier*      | Yes   |
 | Requires deploying and maintaining Skype for Business Server or Cloud Connector Edition | No |
 
-* *Unless deployed as an option to provide connection to 3rd party PBX, analog devices, or other telephony equipment for users who are on Phone System with Calling Plans.
+\* Unless deployed as an option to provide connection to 3rd party PBX, analog devices, or other telephony equipment for users who are on Phone System with Calling Plans.
 
 If you answer yes to the following questions, then this is the right solution for you:
 
@@ -139,13 +144,12 @@ If you answer yes to the following questions, then this is the right solution fo
 - You need to retain your current PSTN carrier.
 - You want to mix routing, some calls are going via Calling Plans, some via your carrier
 - You need to interoperate with 3rd party PBXs and/or equipment such us overhead pagers, analog devices
-- Teams has all the features that your organiztion requires.
+- Teams has all the features that your organization requires.
 
 
-### Phone System with own carrier via Skype for Business Server OR Cloud Connector Edition
-<a name="BKMK_Phone-System-with-own-carrier-via-Skype-for-Business-Server-OR-Cloud-Connector"> 
+## Phone System with own carrier via Skype for Business Server OR Cloud Connector Edition
 
-This option provides Phone System in the cloud with connectivity to an on-premises telephony network for Skype for Business Online users.
+This option provides Microsoft Phone System in the cloud with connectivity to an on-premises telephony network for Skype for Business Online users.
 
 ![Phone System with your carrier via Skype for Business Server OR Cloud Connector Edition](../../sfbserver2019/media/msft-telephony-solutions-3.png)
 
@@ -170,15 +174,13 @@ If you answer yes to the following questions, then this is the right solution fo
 - PSTN Calling Plan is not available in your region.
 - You need to retain your current PSTN carrier.
 
-Recommendation:  
 
-When business conditions change-- for example, you no longer need to retain your PSTN carrier--consider moving to Microsoft Teams using options 1 or 2 to:
+Recommendation:  When business conditions change--for example, you no longer need to retain your PSTN carrier--consider moving to Microsoft Teams using options 1 or 2 to:
 - Minimize maintenance costs
 - Have access to the latest features released by Microsoft
  
 
-### Enterprise Voice in Skype for Business Server with own carrier
-<a name="BKMK_Enterprise-Voice-in-Skype-for-Business-Server-with-own-carrier"> 
+## Enterprise Voice in Skype for Business Server with own carrier
 
 This option provides Enterprise Voice on-premises with connectivity to an on-premises telephony network for Skype for Business on-premises users.
 
@@ -196,6 +198,12 @@ This option provides Enterprise Voice on-premises with connectivity to an on-pre
 | Requires deploying and maintaining a supported Session Border Controller (SBC) | Yes |
 | Requires contract with third-party carrier      | Yes   |
 | Requires deploying and maintaining Skype for Business Server | Yes |
+
+Recommendation:  When business conditions change--for example, you no longer need to retain your PSTN carrier--consider moving to Microsoft Teams using options 1 or 2 to:
+- Minimize maintenance costs
+- Have access to the latest features released by Microsoft
+
+
 
 
 
