@@ -3,7 +3,7 @@ title: Assess organizational change readiness before upgrade from Skype for Busi
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 12/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -27,11 +27,10 @@ This article is part of the User Readiness stage of your upgrade journey, an act
 
 # Assess organizational change readiness
 
-After you’ve secured your project team and defined your vision, scope, and goals, the next step on your upgrade journey is to ensure that your organization and users are ready for Teams—an activity that you complete in parallel with ensuring your technical readiness. To realize value from Teams, users must actually use it. Simply enabling Teams doesn’t guarantee that you achieve your goal.  Users have different use cases and varying learning styles, and they adapt to new technology at different speeds. The good news is that managing change isn’t all that complicated, but it does take a focused effort. The guided discussions below are designed to help you understand your user base so that you can prepare the right level of education to facilitate and accelerate user adoption. There are three ways you should look at your user base:
+After you’ve secured your project team and defined your vision, scope, and goals, the next step on your upgrade journey is to ensure that your organization and users are ready for Teams—an activity that you complete in parallel with ensuring your technical readiness. To realize value from Teams, users must actually use it. Simply enabling Teams doesn’t guarantee that you achieve your goal.  Users have different use cases and varying learning styles, and they adapt to new technology at different speeds. The good news is that managing change isn’t all that complicated, but it does take a focused effort. The guided discussions below are designed to help you understand your user base so that you can prepare the right level of education to facilitate and accelerate user adoption. There are two ways you should look at your user base:
 
--   **Organizational change readiness**: Understanding how quickly (or not) users typically react to change. This information will help inform the amount of awareness, training, and value-selling you might need to do to drive user adoption.
--   **Use cases**: Evaluating how the new technology will improve user productivity. This information will make the change relevant for users based on how they work.
--   **Personas**: Assessing which individuals or groups  might require personalized attention. This information will enable you to target training and awareness for those who expect or need more focused attention (for example, executives).
+- **Organizational change readiness**: Understanding how quickly (or not) users typically react to change. This information will help inform the amount of awareness, training, and value-selling you might need to do to drive user adoption.
+- **Teamwork scenarios**: Understanding how users work will enable you to map Teams to their work activities, accelerating adoption and facilitating the shift away from Skype for Business. 
 
 > [!Note]
 > You can adapt the assessment activities given below to any change initiative in your organization. Simply address the questions based on the scope of your project. In the following discussions, “new solution” can apply to audio calling, audio conferencing, or your upgrade from Skype for Business to Teams.
@@ -84,69 +83,66 @@ Use the following conversation starters to conduct an organizational readiness a
 > [!Tip]
 > Not everyone learns the same way. For those who are self-motivated, point to Microsoft’s online videos and training articles. If 20 percent or more are team players, enlist your training team or a partner to deliver live, interactive training (in person or online). Typically, you’ll find executives or targeted roles in the hand-holding category. This is a critical group who would benefit from personalized, short training sessions. Enlist your champions to help deliver training to these users, for an optimal experience.
 
-## Use cases
+## Assessing teamwork scenarios
 
-Articulating specific use cases in your awareness and training plan makes users feel that you truly understand the way they work. There are universal use cases (scenarios that apply to everyone in your organization regardless of role) in addition to targeted use cases based on user profiles. For each, it’s important to identify the challenges of the current process and explain how the new technology can optimize the user experience. Then, use that information in your communication plan to help showcase the value of the new technology and generate a desire in users to give it a try.
+Microsoft Teams expands the capabilities of Skype for Business, offering a comprehensive communication and collaboration solution. As you design your plan for upgrading users from Skype for Business to Teams, consider how you can use the power of teamwork collaboration to both excite users and facilitate their transition from Skype for Business to Teams.  
 
-### Activity
+At its core, teamwork is how people work together to get things done. It’s about aligning the right people with the relevant tools in a way that works for them. Teams brings people, conversations, files, and projects together into one workspace, creating a true hub for teamwork in your organization.
+  
+Understanding how user work and how they come together can help users visualize how they can use Teams, facilitating the shift away from Skype for Business. There are two core ways to think about teamwork scenarios: people-centric and project-centric.
+ 
+- **Project-centric teamwork** centers on a specific project or initiative (for example, planning a product launch event). From scope planning to budget management to marketing efforts, project-centric teamwork helps align project workstreams, keeping everyone informed. 
+- **People-centric teamwork** revolves around people with similar responsibilities or attributes who might work on the same team (for example, the sales team, road warriors) or across teams (for example, peer champions). From chatting with a colleague to get an answer to a question to participating in a team meeting, people-centric activities include information sharing and rapport building.
 
- Document five to seven universal and targeted use cases for your organization. Here are some conversation starters to review with your project team, followed by examples you can customize for your organization.
+To get the most out of Teams, build a teamwork strategy that includes both scenarios, helping users understand how Teams can work for them.  
+ 
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>What relatable teamwork scenarios will you employ to help accelerate user adoption of Teams and facilitate your upgrade from Skype for Business?</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Use the samples below to help craft your own teamwork scenarios. Document them in the [Upgrade Workbook](https://aka.ms/upgradesuccesskit).</li><li>For additional scenarios and examples, go to the [Productivity Library](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
 
--   What is the use case/scenario?
+### Examples
 
--   What are core characteristics that define this scenario today? What apps are being used?
+**Project-centric teamwork: Product launch event** (for example: your organization is getting ready to launch a new product to the market and is planning a broad promotional event to drive awareness, generate leads, and encourage sales).
 
--   What are the challenges faced today with this use case?
+| Consideration | Notes |
+|---------------|-------|
+| Core attributes |<ul><li>Cross-team stakeholders with various project workstreams</li><li>Frequent targeted meetings</li><li>Lots of pieces/people coming together (budget, schedules, presentations, registration, and so on)</li></ul> |
+| Teamwork challenges today |<ul><li>Workstreams are working in silos with limited visibility into overall project status or cross-team efforts:<br><ul><li>Disconnected conversations and lack of “who’s doing what” </li><li>Information tracked in various places with no cross-team visibility</li></ul><li>Lost productivity time when bringing a new member on board or catching up from missing a meeting</li></ul>|
+| Teamwork requirements |<ul><li>Quick access to project schedule and task assignment</li><li>Open conversation channel to keep everyone in-the-know</li><li>Central location for current presentation files and other resources</li><li>Ability to bring new project team members up-to-speed quickly</li><li>Way to encourage and support one another to keep momentum</li></ul>|
+| Teamwork in Teams |<ul><li>Team/channels to organize project content and threaded conversations </li><li>SharePoint for hosting PPT files<sup>1</sup></li><li>Planner/Trello for assigning individual project tasks and due dates<sup>1</sup></li><li>Teams for online meetings</li><li>Teams mobile app for connecting on the go</li></ul> | 
+<sup>1</sup> Supporting app integration or alignment in Teams.
 
--   How can Teams optimize the user experience?
+**People-centric teamwork: Sales team** (for example: your regionally-dispersed sales team needs to stay connected from the road, remain aligned on the pipeline, and understand key offers and initiatives that can help drive toward annual quota targets)
 
--   Which would be the best use cases to highlight in your communications?
+ Consideration | Notes |
+|---------------|-------|
+| Core attributes | <ul><li>Work remotely (on the road, hotels, customer sites)</li><li>Relationship-focused – core external</li></ul> |
+| Teamwork challenges today |<ul><li>Repeated conversations with multiple field reps (chat, calls, meetings, etc) – can’t get everyone together at once</li><li>Missed opportunities to learn from sales “wins” – word of mouth sharing only</li><li>Continually shuffling between applications:<ul><li>Sales Pipeline in Excel</li><li>Trending in Power BI</li><li>Sales collateral in email</li><li>Customer demo resources on SharePoint</li><li>1:1 chats and point-in-time meetings</li><li>Sales community outreach in Yammer</li></ul></ul> |
+| Teamwork requirements |<ul><li>Quick access to sales collateral</li><li>Reach an expert quickly</li><li>Fast turn-around for questions and approvals </li><li>Sales meetings, pipeline reviews</li><li>Sales training resources</li><li>Customer database management</li></ul> |
+| Teamwork in Teams |<ul><li>Teams/channels by region or customer designed to focus content and conversations</li><li>SharePoint for collateral/resources<sup>1</sup></li><li>XLS/Power BI for pipeline and databases<sup>1</sup></li><li>Teams for online meetings</li><li>Teams mobile app for connecting on the go</li><li>Teams app integration with CRM system<sup>1</sup></li><li>Yammer for broad-reach SME insights and information sharing*<sup>1</sup></li></ul>|
 
-The following table shows examples of universal use cases for teamwork and collaboration.
+<sup>1</sup> Supporting app integration or alignment in Teams.
 
-<table>
-<tbody>
-<tr><th width="10%"><strong>Use case</strong></th><th width="30%"><strong>Characteristics</strong></th><th width="30%"><strong>Challenges</strong></th><th width="30%"><strong>With Teams</strong></th></tr>
-<tr><td><strong>Personal productivity</strong></td><td><ul><li>Daily “to do” list</li><li>Dependency on others to get your job done</li></ul></td><td><ul><li>Emails and attachments get lost</li><li>Calls go to voicemail</li><li>Colleagues are offline</li><li>Outdated local copies accumulate on the desktop</li></ul></td><td><ul><li>Send online and offline messages, alleviating having to track people down</li><li>Persistent conversations with file attachments reduce the need to search multiple places or manage multiple versions</li></ul></td></tr>
-<tr><td><strong>Meetings</strong></td><td><ul><li>Conference calls or online meetings</li><li>Internal and/or external attendees</li><li>In-office/remote participants</li></ul></td><td><ul><li>Little to no context provided before meetings </li><li>Remote participants feel left behind</li><li>Lack of visual connection</li><li>Challenging to catch up if you missed the meeting</li><li>Post-meeting momentum is lost</li></ul></td><td><ul><li>Build momentum before the meeting with conversation and content sharing</li><li>Join across devices</li><li>Connect with video and app sharing, ensuring alignment</li><li>Record meetings for absent attendees</li><li>Capture notes, actions (&#64;mentions) for accountability and easy follow-up</li></ul> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>All within one interface!</em></td></tr>
-<tr><td><strong>Group projects</strong></td><td><ul><li>Project work with many stakeholders</li><li>Information and document sharing</li><li>Using multiple apps</li></ul> </td><td><ul><li>Hallway conversations cause disconnect with the larger group</li><li>Frustration about doc location and versioning</li><li>Confusion about accountability</li></ul> </td><td><ul><li>Hold all conversations in team/channel, driving transparency</li><li>Link to relevant docs; pin critical ones to ensure visibility</li><li>Streamline doc versioning</li><li>Access Office and third-party apps, making a true hub for teamwork</li></ul> </td></tr>
-</tbody>
-</table>
+### Tips for Identifying a ‘good fit’ for your teamwork strategy
 
+It could be easy to get carried away forming a teamwork strategy for every user, every team, and every project. Not every project or team requires a fully defined teamwork strategy. Here are some best practices for getting started:
 
+- Consider cross-team projects that are just starting out or are upcoming.
+    - Event planning – coordination from multiple teams (budget, logistics, presentations, and so on)
+    - Pilot new product - share information, gather feedback in a controlled environment
 
-The following table shows an example of a targeted use case.
+- Identify user personas and core work groups, connecting the various ways they interact with one another into Teams
 
-| &nbsp;   | **Marketing use case: Working on new product launch campaign**      |
-|-----------------|------------------------------------------------------------|
-| **Characteristics** | <ul><li>Cross-team stakeholder status meetings</li><li>Campaign, creative material, and messaging reviews with field, legal, and PR teams</li><li>Project tracking to meet launch deadline</li></ul>                                                                                |
-| **Challenges**      | <ul><li>Emailing creative materials results in multiple versions</li><li>Hallway conversations cause disconnect with the larger group</li><li>Tracking project notes in OneNote, status reports in Word, and conversations in IM and email&mdash;too many tools to balance and keep aligned</li></ul>                                                                       |
-| **With Teams**      | <ul><li>Persistent conversations with file attachments reduce the need to search multiple places or manage multiple versions</li><li>Having one location for conversations, files, project notes, and status reports enables stakeholders to quickly get—and stay—up to speed</li><li>Pin project notes and status report to tabs for easy access</li><li>&#64;mention team members to get a response or feedback, alleviating the need to track them down or wait until they’re back online</li></ul> |
+    - Sales teams/regions – road warriors, easy access resources, quick turn-around responses
+    - HR – standardized processes across all divisions, consistent approach for hiring
+    - Firstline workers – connection to their peers/management, access to procedures, NEO
 
+- Keep these considerations in mind:
 
-> [!Tip]
-> Need help getting started? Visit the productivity library: https://aka.ms/productivitylibrary.
-
-## Personas
-
-By doing people-level analysis, you gain understanding of your user personas and use cases. Taking time to understand who your users are and how they work, you‘ll help ensure they have what they need to be successful as they implement the change. This can include targeted messaging, training, or even devices such as headsets and webcams. For example, an executive might expect one-on-one training while a traveling field rep might benefit from a training video they can watch at their leisure. In addition, your people-level analysis can help identify who can move to Teams today versus who might be best served by waiting until later.
-
-Begin by segmenting your user base into persona/cohort groups (for example, executives, “road warriors,” collaborative workers, or retail). For manageability, keep your list to no more than eight groups.
-
-### Activity
-
-Identify targeted user profiles that require specific technical or user readiness assistance. See below for a sample persona assessment for an Executive profile.
-
-<table>
-<tr><th colspan="2">Persona/Profile: Executive</th></tr>
-<tr><td>What core characteristics define this persona (that is, who are they, what do they do)</td><td><ul><li>Voice/brand of the organization internally and externally</li><li>Relationship-focused</li><li>Fast-paced, dynamic schedules</li><li>Use mobile devices to stay connected</li><li>Rely on delegates as their “eyes and ears”</li><li>Spend most of their day in meetings or on the phone</li></ul></td></tr>
-<tr><td>What are common use cases for this persona?<br><ital>Apply the universal use cases above to this persona, then elaborate on specific scenarios.</ital></td><td><ul><li>Personal productivity<ul><li>Customer and rapport-building calls</li></ul></li><li>Meetings<ul><li>C-level/stakeholder reviews</li><li>One-to-many: All-hands</li></ul></li><li>Project collaboration</li></ul></td></tr>
-<tr><td>What functionality is required?</td><td><ul><li>Delegate synchronization</li><li>Contact management (internal and external)</li><li>Audio calling (PC and PSTN)</li><li>Video calling</li><li>Multiple device support</li><li>Application sharing</li></ul></td></tr>
-<tr><td>What devices will they need?</td><td><ul><li>Desk phone, “puck” speakerphone, webcam, desktop client, mobile client</li></ul></td></tr>
-<tr><td>What is the value for this persona to use Teams?</td><td><ul><li>Teams mobile app delivers high-quality experience when traveling: take Teams on the go</li><li>Streamlined document repository offers quick access to status reports and conversations, saving time and frustration</li></ul></td></tr>
-<tr><td>What training will they require?</td><td><ul><li>White glove</li><li>Short session: 15-minute hands-on</li></ul></td></tr>
-<tr><td>Rollout timing</td><td><ul><li>Enlist a segment of users for the pilot</li><li>Include in the initial phase of the broad rollout</li><li>Include in the secondary phase of the broad rollout after solid results are proven</li></ul></td></tr></table>
-
-
+    - Start small. Save bigger, more complex projects for after you’ve vetted the teamwork model.
+    - Focus on new projects. Avoid changing an existing project that’s well underway as this may disrupt workflow.
+    - Consider timing. Rolling out a new teamwork strategy to sales at the end of your fiscal year may not be ideal.
+    - Iterate. No need to reinvent the wheel. When you find a teamwork structure that works, repeat it with other workgroups and projects. Define a template team and set guidelines to help users quickly assimilate into Teams and provide consistency.
 
 Use the information you’ve gathered above to inform your [user readiness plan](https://aka.ms/UserReadinessPlan).

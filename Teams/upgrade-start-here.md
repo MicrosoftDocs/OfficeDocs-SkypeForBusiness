@@ -1,9 +1,9 @@
 ---
-title: Why upgrade to Microsoft Teams?
+title: Start here
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 12/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -16,7 +16,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Why upgrade to Microsoft Teams?
+# Start here
+
+## Why upgrade to Microsoft Teams?
 
 Microsoft Teams offers a central hub for teamwork. Extending the capabilities of Skype for Business, Teams brings together chat, meetings, calling, collaboration, app integration, and file storage into a single interface, streamlining the way users get things done which, in turn, can help drive user satisfaction and accelerate business outcomes. As an existing Skype for Business customer, we invite you to upgrade to Microsoft Teams, to experience this full suite of communication and collaboration capabilities in a single client experience. 
 
