@@ -211,6 +211,8 @@ This option provides Enterprise Voice on-premises with connectivity to an on-pre
 | Requires contract with third-party carrier      | Yes   |
 | Requires deploying and maintaining Skype for Business Server | Yes |
 
+For more information, see [Plan for Enterprise Voice in Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
+
 Recommendation:  When business conditions change--for example, you no longer need to retain your PSTN carrier--consider moving to Microsoft Teams using options 1 or 2 to:
 - Minimize maintenance costs
 - Have access to the latest features released by Microsoft
