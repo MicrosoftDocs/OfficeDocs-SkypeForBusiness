@@ -25,7 +25,7 @@ description: "Meeting Migration Service (MMS) is a service that runs in the back
 
 # Using the Meeting Migration Service (MMS)
 
-Meeting Migration Service (MMS) is service that updates a user’s existing meetings in the following scenarios:
+The Meeting Migration Service (MMS) is service that updates a user’s existing meetings in the following scenarios:
 
 - When a user is migrated from on-premises to the cloud (whether to Skype for Business Online or to TeamsOnly).
 
@@ -42,7 +42,7 @@ By default, MMS is automatically triggered in each of these cases, although admi
 
 - The user’s mailbox is hosted in Exchange on-premises.
 
-- The user is configured to use a third-party audio conferencing provider. Note that Audio Conferencing Provider [ACP] is scheduled for end of life on April 1, 2019 as previously announced.
+- The user is configured to use a third-party audio conferencing provider. Note that audio conferencing provider [ACP] support is scheduled for end of life on April 1, 2019, as [previously announced](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).
 
 - The user is being migrated from the cloud to Skype for Business Server on-premises.
 
