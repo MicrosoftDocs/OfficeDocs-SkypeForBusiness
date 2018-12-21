@@ -18,7 +18,7 @@ appliesto:
 
 # Microsoft Teams analytics and reporting
 
-A new analytics and reporting experience for Microsoft Teams is available in the Microsoft Teams & Skype for Business Admin Center. You can run different reports to give you insights into how users in your organization are using Teams. For example, you can see how many users communicate through channel and chat messages and the kinds of devices they use to connect to Teams. Your organization can use the information from the reports to better understand usage patterns, help make business decisions, and inform training and communication efforts.
+A new analytics and reporting experience for Microsoft Teams is available in the Microsoft Teams & Skype for Business Admin Center. You can run different reports to get insights into how users in your organization are using Teams. For example, you can see how many users communicate through channel and chat messages and the kinds of devices they use to connect to Teams. Your organization can use the information from the reports to better understand usage patterns, help make business decisions, and inform training and communication efforts.
 
 ## How to access the reports
 

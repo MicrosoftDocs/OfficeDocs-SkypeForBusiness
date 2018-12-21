@@ -518,9 +518,9 @@
 ##### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
 ## [Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md)
-### [Microsoft Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
-### [Microsoft Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
-### [Microsoft Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
+### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
+### [Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
+### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
 <!-- ============================================================ -->
 
 
