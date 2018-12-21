@@ -239,8 +239,6 @@
 #### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 #### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
 
-
-
 ## Apps & services
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Teams apps permissions and considerations](app-permissions.md)
@@ -519,6 +517,10 @@
 #### Technical reference for Direct Routing
 ##### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
+## [Teams analytics and reporting](teams-reporting-reference.md)
+### [Microsoft Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
+### [Microsoft Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
+### [Microsoft Teams user activity report](teams-analytics-and-reports/user-activity-report.md)
 <!-- ============================================================ -->
 
 
