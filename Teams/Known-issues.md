@@ -220,9 +220,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 ## Tabs
 
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
-|Website tab leading to customer confusion  <br/> |Website tabs are not equivalent to your browser. A number of sites, especially those requiring authentication or using popups, will not work when pinned as a website tab.  <br/> |We are working on improving the UI to make it clearer for customers.  <br/> |5/2/18  <br/> |
+c
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -242,7 +240,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|SharePoint page tab renders blank screen<br/> |SharePoint Online vanity domains are not currently supported. The user experience is a blank screen when attemting to add a SharePoint page tab. <br/> |No workaround. <br/> |8/20/18  <br/>|
+|SharePoint page tab renders blank screen <br/> |SharePoint Online vanity domains are not currently supported. The user experience is a blank screen when attemting to add a SharePoint page tab. <br/> |No workaround. <br/> |8/20/18  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Legacy OneNote Tab  <br/> |Legacy OneNote tabs created during the public preview of Microsoft Teams cannot be renamed or deleted.  <br/> |No workaround. <br/> |11/8/2017  <br/> |
 
 ## Teams
 
