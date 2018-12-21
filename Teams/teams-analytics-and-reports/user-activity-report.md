@@ -22,7 +22,7 @@ The Teams user activity report gives you insight into the types of activities th
 
 ![Screen shot of the Teams user activity report in the Microsoft Teams & Skype for Business Admin Center](../media/user-activity-report.png "Screen shot of the Teams user activity report in the Microsoft Teams & Skype for Business Admin Center")
 
-##View the report##
+## View the report
 
 1. Go to the Microsoft Teams & Skype for Business Admin Center, in the left navigation, click **Analytics & reports**, and then under **Report**, select **Teams user activity**. 
 2. Under **Date range**, select a range, and then click **Run report**. 
