@@ -33,7 +33,7 @@ In all types of businesses, having a phone number allows users to make and get v
 
 Before you get started, it's a good idea to download the phone manufacturer's administration guides and phone user manuals.
   
-- For Polycom phones, see the [Polycom Deployment Guide]((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
+- For Polycom phones, see the [Polycom Deployment Guide](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
     
 - For Yealink phones, see [Yealink Skype for Business HD SIP Phones Solution](http://www.yealink.com/products_top_2.html).
     
