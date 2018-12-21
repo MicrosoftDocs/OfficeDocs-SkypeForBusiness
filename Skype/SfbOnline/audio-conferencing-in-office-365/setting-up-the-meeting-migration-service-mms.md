@@ -49,11 +49,8 @@ In these situations, end users can use the [Meeting Migration Tool](https://www.
 When MMS is triggered for a given user, a migration request for that user is placed in a queue. To avoid any race conditions, the queued request is deliberately not processed until at least 90 minutes have gone by. Once MMS processes the request, it performs the following tasks:
 
 1. It searches that user’s mailbox for all existing meetings organized by that user and scheduled in the future.
-
 2. Based on the information found in the user’s mailbox, it either updates or schedules new meetings in either Teams or Skype for Business Online for that user, depending on the exact scenario.
-
 3. In the email message, it replaces the online meeting block in the meeting details.
-
 4. It sends the updated version of that meeting to all meeting recipients on behalf of the meeting organizer. Meeting invitees will receive a meeting update with updated meeting coordinates in their email. 
 
     ![The meeting block that gets updated by MMS](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
