@@ -82,6 +82,9 @@ It may be wisest to do a Get- for these values, and to screenshot or record thei
 > [!IMPORTANT]
 > If you're using Lync Web Access (LWA) and must use Forms-based Access (FBA) for external access, reconfigure LWA so that clients can access it with Anonymous Access to support these scenarios. Likewise, if you use Dial-in Pin, FBA will be blocked for external users only. If they need to change their pin, they will need to login to their corporation to do so, internally.
 
+Run bootstrapper.exe to get the changed configuration applied: 
+"C:\Program Files\Skype for Business Server 2015\Deployment\Bootstrapper.exe"
+
 ## Links 
 - For more PowerShell information:
     -  [Get-CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/get-csauthconfig?view=skype-ps)
