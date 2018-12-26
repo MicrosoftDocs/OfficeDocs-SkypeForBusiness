@@ -1,9 +1,9 @@
 ---
-title: Start here
+title: Start your upgrade journey here
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 12/21/2018
+ms.date: 12/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -16,7 +16,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Start here
+# Start your upgrade journey here
 
 ## Why upgrade to Microsoft Teams?
 

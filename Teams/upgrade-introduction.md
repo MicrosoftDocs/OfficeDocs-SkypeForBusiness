@@ -3,7 +3,7 @@ title: Upgrade to Teams - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 12/18/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen

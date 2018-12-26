@@ -3,7 +3,7 @@ title: Understand coexistence and interoperability of Skype for Business and Mic
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.date: 12/21/2018
+ms.date: 12/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -46,10 +46,8 @@ By default, users can run Teams alongside Skype for Business as two separate sol
 In this coexistence mode, called **Islands**, each of the client applications operates as a separate island (and there is no “bridge” between the islands). Skype for Business talks to Skype for Business, and Teams talks to Teams. Users run both clients and can communicate natively in the client from which the communication was initiated. As such, there’s no need for interoperability in **Islands** mode, and no interoperability is available. 
  
 > [!Tip]
-> To unlock net new value with Teams for users as quickly as possible, the recommended upgrade path is to start with **Islands** mode, drive full adoption saturation for Teams across the organization, and only then move users to **Teams Only** mode. 
-> 
-> In this upgrade path we strongly recommend that you don’t move any users into **Teams Only** mode until every user of Skype for Business is also actively using Teams, and you are ready to fully upgrade your organization. This avoids the risk of users experiencing failed chats and/or calls. 
-
+> To unlock net new value with Teams for users as quickly as possible, the recommended upgrade path is to start with **Islands** mode, drive full adoption saturation for Teams across the organization, and only then move users to **Teams Only** mode. <br><br>
+> In this upgrade path we strongly recommend that you don’t move any users into **Teams Only** mode until every user of Skype for Business is also actively using Teams, and you are ready to fully upgrade your organization. This avoids the risk of users experiencing failed chats and/or calls. <br><br>
 > Please see [Prepare your organization](https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-prepare-organization) for detailed guidance and resources to help with driving user adoption of Teams across desktop and mobile devices, which is a critical success factor for this upgrade path.   
  
 Organizations that want to manage their upgrade at the workload level across chat, calling, and/or meetings, or expect an extended coexistence period and need interoperability between Skype for Business and Teams, will benefit by using the upcoming **Skype for Business with Teams Collaboration** and/or **Skype for Business with Teams Collaboration and Meetings** modes as a starting point rather than **Islands**, and then progressing to **Teams Only** mode.
