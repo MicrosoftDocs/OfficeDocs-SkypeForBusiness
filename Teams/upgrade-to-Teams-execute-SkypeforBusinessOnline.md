@@ -68,7 +68,7 @@ To create your user cohorts (Add link to user selection page)
  
 ### Step 2: Set the user mode to Islands 
 
-1. In the Microsoft Teams & Skype for Business Admin Center, select **Users** and select a user cohort.
+1. In the Microsoft Teams & Skype for Business Admin Center, select **Users**, and then select a user cohort.
 2. Next to **Teams upgrade**, select **Edit**.
 3. In the **Teams Upgrade** pane, under **Coexistence mode**, select **Islands** from the drop-down list. 
 
@@ -76,13 +76,13 @@ To create your user cohorts (Add link to user selection page)
 
 1. In the Microsoft Teams & Skype for Business Admin Center, select **Users**, and select a user cohort.
 2. Next to **Teams upgrade**, select **Edit**.
-3. In the **Teams Upgrade** pane, under Coexistence mode, change **Notify the Skype for Business user** switch to **On**.
+3. In the **Teams Upgrade** pane, under **Coexistence mode**, change **Notify the Skype for Business user** switch to **On**.
 
 ### Step 4: Set the user mode to Teams Only 
 
 When you are ready to upgrade the users to use Teams as their only application, set the Coexistence mode for the user to Teams Only.  
 
-1. In the Microsoft Teams & Skype for Business Admin Center, select **Users**.
+1. In the Microsoft Teams & Skype for Business Admin Center, select **Users**, and then select a user cohort.
 2. Next to **Teams upgrade**, select **Edit**.
 3. In the **Teams Upgrade** pane, under **Coexistence mode**, select **Teams Only** from the drop-down list. 
 
