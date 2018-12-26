@@ -20,7 +20,7 @@ appliesto:
 
 Congratulations on your pending upgrade from Skype for Business to Microsoft Teams. Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we want to ensure you have everything you need to navigate a successful journey to Teams.  
 
-[Get started with your Microsoft Teams upgrade](teams-start-here.md).
+[Get started with your Microsoft Teams upgrade](upgrade-start-here.md).
 
 
 > [!IMPORTANT]
