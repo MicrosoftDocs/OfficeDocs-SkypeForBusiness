@@ -48,9 +48,8 @@ In this coexistence mode, called **Islands**, each of the client applications 
 > [!Tip]
 > To unlock net new value with Teams for users as quickly as possible, the recommended upgrade path is to start with **Islands** mode, drive full adoption saturation for Teams across the organization, and only then move users to **Teams Only** mode. <br><br>
 > In this upgrade path we strongly recommend that you don’t move any users into **Teams Only** mode until every user of Skype for Business is also actively using Teams, and you are ready to fully upgrade your organization. This avoids the risk of users experiencing failed chats and/or calls. <br><br>
-> Please see [Prepare your organization](https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-prepare-organization) for detailed guidance and resources to help with driving user adoption of Teams across desktop and mobile devices, which is a critical success factor for this upgrade path.   
- 
-Organizations that want to manage their upgrade at the workload level across chat, calling, and/or meetings, or expect an extended coexistence period and need interoperability between Skype for Business and Teams, will benefit by using the upcoming **Skype for Business with Teams Collaboration** and/or **Skype for Business with Teams Collaboration and Meetings** modes as a starting point rather than **Islands**, and then progressing to **Teams Only** mode.
+> Please see [Prepare your organization](https://docs.microsoft.com/en-us/MicrosoftTeams/upgrade-prepare-organization) for detailed guidance and resources to help with driving user adoption of Teams across desktop and mobile devices, which is a critical success factor for this upgrade path. <br><br>
+> Organizations that want to manage their upgrade at the workload level across chat, calling, and/or meetings, or expect an extended coexistence period and need interoperability between Skype for Business and Teams, will benefit by using the upcoming **Skype for Business with Teams Collaboration** and/or **Skype for Business with Teams Collaboration and Meetings** modes as a starting point rather than **Islands**, and then progressing to **Teams Only** mode.
  
 ### Skype for Business only
 
