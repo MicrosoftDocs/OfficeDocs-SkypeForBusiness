@@ -109,7 +109,7 @@ Q. Do guests have the same capabilities as team members?
 A. No. For more information about what a guest can and cannot do, go to Guest capabilities in Teams.
 
 Q. How many guests can I invite?
-A. You can add up to 5 guests per licensed user.
+A. No limitation.
 
 Q. Do guests have access to OneDrive for Business?
 A. No.
