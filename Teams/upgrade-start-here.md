@@ -1,5 +1,5 @@
 ---
-title: Get started with your Microsoft Teams upgrade
+title: Getting started with your Microsoft Teams upgrade
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -16,7 +16,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Get started with your Microsoft Teams upgrade
+# Getting started with your Microsoft Teams upgrade
 
 ## Why upgrade to Microsoft Teams?
 
