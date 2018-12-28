@@ -3,7 +3,7 @@ title: Assess organizational change readiness before upgrade from Skype for Busi
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 12/21/2018
+ms.date: 12/28/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -115,7 +115,7 @@ To get the most out of Teams, build a teamwork strategy that includes both scena
 
 **People-centric teamwork: Sales team** (for example: your regionally-dispersed sales team needs to stay connected from the road, remain aligned on the pipeline, and understand key offers and initiatives that can help drive toward annual quota targets)
 
- Consideration | Notes |
+| Consideration | Notes |
 |---------------|-------|
 | Core attributes | <ul><li>Work remotely (on the road, hotels, customer sites)</li><li>Relationship-focused – core external</li></ul> |
 | Teamwork challenges today |<ul><li>Repeated conversations with multiple field reps (chat, calls, meetings, etc) – can’t get everyone together at once</li><li>Missed opportunities to learn from sales “wins” – word of mouth sharing only</li><li>Continually shuffling between applications:<ul><li>Sales Pipeline in Excel</li><li>Trending in Power BI</li><li>Sales collateral in email</li><li>Customer demo resources on SharePoint</li><li>1:1 chats and point-in-time meetings</li><li>Sales community outreach in Yammer</li></ul></ul> |
