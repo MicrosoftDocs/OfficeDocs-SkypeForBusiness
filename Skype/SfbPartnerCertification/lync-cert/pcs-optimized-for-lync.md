@@ -29,7 +29,3 @@ All of these form factors are tested to deliver:
 - Microphone and speaker placement that is optimized to allow users to hold a conference call without the need for a USB peripheral.
 - Rich, crisp video, at a variety of resolutions, and with a wide field of view, so that video conferencing is easier and more useful.
 *Monitors require an embedded camera and an embedded speakerphone both passing Lync Logo specs (including USB HID support). The display is not tested.
-
-## Just want to search for tested hardware?
-
-To find additional product information, pictures, and comparisons of tested audio, video, conferencing, and other products, see the [partner solutions catalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog).
