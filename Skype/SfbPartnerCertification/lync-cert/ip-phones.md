@@ -71,8 +71,3 @@ Contact the vendors for more information about these products.
 
 ## IP phones tested features comparison
 View the [IP phones tested features comparison workbook](http://partnersolutions.skypeforbusiness.com/solutionscatalog/Export?categoryid=1) to compare core and extended features across all IP Phones qualified for Lync.
-
-
-## Just want to search for tested hardware?
-
-To find additional product information, pictures, and comparisons of tested audio, video, conferencing, and other products, see the [partner solutions catalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog).
