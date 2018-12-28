@@ -111,6 +111,8 @@ To get the most out of Teams, build a teamwork strategy that includes both scena
 | Teamwork challenges today |<ul><li>Workstreams are working in silos with limited visibility into overall project status or cross-team efforts:<br><ul><li>Disconnected conversations and lack of “who’s doing what” </li><li>Information tracked in various places with no cross-team visibility</li></ul><li>Lost productivity time when bringing a new member on board or catching up from missing a meeting</li></ul>|
 | Teamwork requirements |<ul><li>Quick access to project schedule and task assignment</li><li>Open conversation channel to keep everyone in-the-know</li><li>Central location for current presentation files and other resources</li><li>Ability to bring new project team members up-to-speed quickly</li><li>Way to encourage and support one another to keep momentum</li></ul>|
 | Teamwork in Teams |<ul><li>Team/channels to organize project content and threaded conversations </li><li>SharePoint for hosting PPT files<sup>1</sup></li><li>Planner/Trello for assigning individual project tasks and due dates<sup>1</sup></li><li>Teams for online meetings</li><li>Teams mobile app for connecting on the go</li></ul> | 
+|||
+
 <sup>1</sup> Supporting app integration or alignment in Teams.
 
 **People-centric teamwork: Sales team** (for example: your regionally-dispersed sales team needs to stay connected from the road, remain aligned on the pipeline, and understand key offers and initiatives that can help drive toward annual quota targets)
@@ -121,6 +123,7 @@ To get the most out of Teams, build a teamwork strategy that includes both scena
 | Teamwork challenges today |<ul><li>Repeated conversations with multiple field reps (chat, calls, meetings, etc) – can’t get everyone together at once</li><li>Missed opportunities to learn from sales “wins” – word of mouth sharing only</li><li>Continually shuffling between applications:<ul><li>Sales Pipeline in Excel</li><li>Trending in Power BI</li><li>Sales collateral in email</li><li>Customer demo resources on SharePoint</li><li>1:1 chats and point-in-time meetings</li><li>Sales community outreach in Yammer</li></ul></ul> |
 | Teamwork requirements |<ul><li>Quick access to sales collateral</li><li>Reach an expert quickly</li><li>Fast turn-around for questions and approvals </li><li>Sales meetings, pipeline reviews</li><li>Sales training resources</li><li>Customer database management</li></ul> |
 | Teamwork in Teams |<ul><li>Teams/channels by region or customer designed to focus content and conversations</li><li>SharePoint for collateral/resources<sup>1</sup></li><li>XLS/Power BI for pipeline and databases<sup>1</sup></li><li>Teams for online meetings</li><li>Teams mobile app for connecting on the go</li><li>Teams app integration with CRM system<sup>1</sup></li><li>Yammer for broad-reach SME insights and information sharing*<sup>1</sup></li></ul>|
+|||
 
 <sup>1</sup> Supporting app integration or alignment in Teams.
 
