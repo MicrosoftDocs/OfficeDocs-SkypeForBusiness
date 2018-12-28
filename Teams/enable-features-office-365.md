@@ -51,7 +51,7 @@ To learn more, read [Admin settings for apps in Teams](admin-settings.md).
 
 ## Teams org-wide settings
 
-You can control organization-wide user settings in the Microsoft Teams & Skype for Business Admin Center. To edit org-wide settings, go to the Microsoft Skype for Business Admin Center, and then select **Org-wide settings**. You can configure the following settings.
+You can control organization-wide user settings in the Microsoft Teams & Skype for Business Admin Center. To edit org-wide settings, go to the Microsoft Teams & Skype for Business Admin Center, and then select **Org-wide settings**. You can configure the following settings.
 
 ### External access
 
