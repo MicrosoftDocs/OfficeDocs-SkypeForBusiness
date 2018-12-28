@@ -358,6 +358,7 @@ To learn more about dial plans, see [What are dial plans?](https://docs.microsof
 > ||**FR-Service**<br>_Service number normalization for France_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
+
 > [!TIP]
 > The example template below can be leveraged to document dial plan assignments to support your project:
 >
