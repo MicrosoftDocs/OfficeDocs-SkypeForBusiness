@@ -22,7 +22,7 @@ A new analytics and reporting experience for Microsoft Teams is available in the
 
 ## How to access the reports
 
-To access the reports, you must be a global admin in Office 365, Teams service admin, or reports reader. [<--PLEASE CONFIRM]  Go to the Microsoft Teams & Skype for Business Admin Center, in the left navigation, select **Analytics & reports**, and then under **Report**, choose the report you want to run.
+To access the reports, you must be a global admin in Office 365, Teams service admin, or Skype for Business admin.  Go to the Microsoft Teams & Skype for Business Admin Center, in the left navigation, select **Analytics & reports**, and then under **Report**, choose the report you want to run.
 
 > [!NOTE]
 > The reports in the Microsoft Teams & Skype for Business Admin Center are separate from the activity reports for Teams that are part of the Office 365 reports in the Office 365 admin center. For more information about the activity reports in the Office 365 admin center, see [Use activity reports for Microsoft Teams].(../teams-activity-reports.md)
@@ -35,6 +35,6 @@ We're continually improving the Teams reporting experience and adding features a
 
 |Report  |What's measured? |
 |---------|---------|
+|[Teams usage report](teams-usage-report.md)  |  Active users<br/>Active users in teams and channels<br/>Active channels<br/>Messages<br/>Privacy setting of  teams<br/>Guests in a team   |
 |[Teams user activity report](user-activity-report.md)  | Users who participate in 1:1 calls<br/>Users who communicate through channel messages<br/>Users who communicate through private chat messages    |
 |[Teams device usage report](device-usage-report.md)   |  Windows users<br/>Mac users<br/>iOS users<br/>Android phone users     |
-|[Teams usage report](teams-usage-report.md)  |  Active users<br/>Active users in teams and channels<br/>Active channels<br/>Messages    |
