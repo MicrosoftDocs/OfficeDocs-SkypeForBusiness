@@ -39,4 +39,8 @@ The Teams device usage report in the Microsoft Teams & Skype for Business Admin 
 |**4**   |The table gives you a breakdown of device usage by user. <ul><li>**Display name** is the display name of the user. You can click the display name to go to the user's setting page in the Microsoft Teams & Skype for Business Admin Center. </li><li>**Windows** is selected if the user was active in the Teams desktop client on a Windows-based computer.</li><li>**Mac** is selected if the user was active in the Teams desktop client on a macOS computer. </li> <li>**iOS** is selected if the user was active on the Teams mobile client for iOS.</li><li>**Android phone** is selected if the user was active on the Teams mobile client for Android. <li>**Last activity** is the last date (UTC) that the user participated in a Teams activity.</li> </ul> To see the information that you want in the table, make sure to add the columns to the table. |
 |**5**   |Select **Edit columns** to add or remove columns in the table. |
 |**6**   |Select **˙˙˙**, and then **Print chart** to print the chart. |
-### Related topics
+
+## Related topics
+- [Teams analytics and reporting](teams-reporting-reference.md)
+- [Teams usage report](teams-usage-report.md)
+- [Teams user activity report](user-activity-report.md)

@@ -41,4 +41,7 @@ The Teams user activity report gives you insight into the types of activities th
 |**6**   |Select **Edit columns** to add or remove columns in the table. |
 |**7**   |Select **˙˙˙**, and then **Print chart** to print the chart. |
 
-### Related topics
+## Related topics
+- [Teams analytics and reporting](teams-reporting-reference.md)
+- [Teams usage report](teams-usage-report.md)
+- [Teams device usage report](device-usage-report.md)

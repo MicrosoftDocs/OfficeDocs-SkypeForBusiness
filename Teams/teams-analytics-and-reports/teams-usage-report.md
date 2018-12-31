@@ -40,4 +40,7 @@ The Teams usage report in the Microsoft Teams & Skype for Business Admin Center 
 |**6**   |Select **Edit columns** to add or remove columns in the table. 
 |**7**   |Select **˙˙˙**, and then **Print chart** to print the chart. |
 
-### Related topics
+## Related topics
+- [Teams analytics and reporting](teams-reporting-reference.md)
+- [Teams user activity report](user-activity-report.md)
+- [Teams device usage report](device-usage-report.md)

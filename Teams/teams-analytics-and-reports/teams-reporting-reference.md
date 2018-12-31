@@ -31,10 +31,10 @@ To access the reports, you must be a global admin in Office 365, Teams service a
 
 Here's a list of the Teams reports available in the Microsoft Teams & Skype for Business Admin Center and an overview of the information that's available in each report.
 
-We're continually improving the Teams reporting experience and adding features and functionality. Over time, we'll be building additional capabilities into the reports and adding new reports.
+We're continually improving the Teams reporting experience and adding features and functionality. Over time, we'll be building additional capabilities into the reports and adding new reports in the Microsoft Teams & Skype for Business Admin Center.
 
 |Report  |What's measured? |
 |---------|---------|
 |[Teams usage report](teams-usage-report.md)  |  Active users<br/>Active users in teams and channels<br/>Active channels<br/>Messages<br/>Privacy setting of  teams<br/>Guests in a team   |
-|[Teams user activity report](user-activity-report.md)  | Users who participate in 1:1 calls<br/>Users who communicate through channel messages<br/>Users who communicate through private chat messages    |
+|[Teams user activity report](user-activity-report.md)  |  1:1 calls a user particpated in<br/>Messages a user posted in a team chat<br/>Messages a user posted in a private chat<br/>Last activity date of a user     |
 |[Teams device usage report](device-usage-report.md)   |  Windows users<br/>Mac users<br/>iOS users<br/>Android phone users     |
