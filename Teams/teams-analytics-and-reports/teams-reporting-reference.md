@@ -40,4 +40,4 @@ We're continually improving the Teams reporting experience and adding features a
 |[Teams device usage report](device-usage-report.md)   |  Windows users<br/>Mac users<br/>iOS users<br/>Android phone users     |
 
 > [!NOTE]
-> The Teams reports show data for active users and active teams. For example, if a user in your organization isn't active in Teams during the date range that you specified for a report, data for that user isn't included in the report.
+> The Teams reports show data for active users and active teams. For example, if a user in your organization isn't active in Teams during the date range that you specified for a report, data for that user isn't included in that report.
