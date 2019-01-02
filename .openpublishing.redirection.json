@@ -1,6 +1,11 @@
 { 
   "redirections": [ 
     {
+      "source_path": "Teams/msi-sccm-deployment.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/msi-deployment",
+      "redirect_document_id": true 
+      },
+    {
     "source_path": "Teams/Tbot.md",
     "redirect_url": "https://docs.microsoft.com/microsoftteams/get-help-in-microsoft-teams",
     "redirect_document_id": true 
