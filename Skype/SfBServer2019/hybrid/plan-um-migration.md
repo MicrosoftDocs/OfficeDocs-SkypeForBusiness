@@ -46,7 +46,7 @@ We support the following scenarios that will enable you to migrate users both to
 - Exchange 2013/Exchange 2016 and Skype for Business Server 2015 to Exchange 2019 and Skype for Business Server 2019
 - Skype for Business Server 2015 to Skype for Business Server 2019 with Exchange 2013/Exchange 2016
 
-The following scenarios require that no PBX or SBC configurations exist as part of your current deployment and assume that you have UM configured on your on-premises Exchange servers. Each of these solutions also assumes that you've decided to configure a hybrid deployment between your on-premises Skype for Business servers and Office 365. For more information about Skype for Business hybrid deployments, see [Skype for Business hybrid solutions](hybrid-solutions.md).
+The following scenarios require that no PBX or SBC configurations exist as part of your current deployment and assume that you have UM configured on your on-premises Exchange servers. Each of these solutions also assumes that you've decided to configure a hybrid deployment between your on-premises Skype for Business servers and Office 365. For more information about Skype for Business hybrid deployments, see [Plan hybrid connectivity](plan-hybrid-connectivity.md).
 
 ### Exchange 2013/Exchange 2016 and Skype for Business 2015 to Exchange 2019 and Skype for Business 2019
 

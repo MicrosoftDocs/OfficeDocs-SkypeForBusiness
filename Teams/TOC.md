@@ -88,7 +88,9 @@
 ### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
+### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
 ## Supported devices
+### [Manage your devices in Teams](device-management.md)
 ### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -488,6 +490,9 @@
 #### [What are dial plans?](what-are-dial-plans.md)
 #### [Create and manage dial plans](create-and-manage-dial-plans.md)
 ### Phone System
+#### Phones for Teams
+##### [Phones for Microsoft Teams](phones-for-teams.md)
+##### [Buying and deploying Microsoft Teams IP phones](buying-and-deploying-teams-ip-phones.md)
 #### [What is Phone System in Office 365?](what-is-phone-system-in-office-365.md)
 #### [Setting up Phone System in your organization](setting-up-your-phone-system.md)
 #### [Change the default language for voicemail greetings and emails](change-the-default-language-for-greetings-and-emails.md)
