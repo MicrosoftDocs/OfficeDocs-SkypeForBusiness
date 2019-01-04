@@ -9,7 +9,7 @@ ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 ms.reviewer: crowe
 search.appverid: MET150
-description: Landing page to deploying Cloud voice in Teams
+description: Landing page to deploying cloud voice in Teams
 appliesto: 
 - Microsoft Teams
 ---
@@ -17,7 +17,7 @@ appliesto:
 # Cloud voice in Teams
 
 
-You've completed the [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add cloud voice workloads. 
+You've completed the [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice workloads. 
 
 Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether you need to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups starting with the core set of [changes you are more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, again based on your organization's needs.
 
