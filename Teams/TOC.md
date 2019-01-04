@@ -380,6 +380,28 @@
 ### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
+
+
+<!-- ============================================================ -->
+# [Adopt](adopt-microsoft-teams-landing-page.md) 
+
+## [Get started](teams-adoption-get-started.md)
+## [Phase 1 - Start](teams-adoption-phase1.md)
+### [Understand teams and channels](teams-adoption-understand-teams-and-channels.md)
+### [Create your first teams](teams-adoption-your-first-teams.md)
+### [How ready is your organization for Teams?](teams-adoption-assess-readiness.md)
+## [Phase 2 - Experiment](teams-adoption-phase2-experiment.md)
+### [Create your champions program](teams-adoption-create-champions-program.md)
+### [Governance quick start](teams-adoption-governance-quick-start.md)
+### [Define usage scenarios](teams-adoption-define-usage-scenarios.md)
+### [Onboard early adopters and gather feedback](teams-adoption-onboard-early-adopters.md)
+### [Onboard support](teams-adoption-onboard-support.md)
+## [Phase 3 - Scale](teams-adoption-phase3-enable.md)
+### [Define outcomes and success](teams-adoption-define-outcomes.md)
+### [Optimize feedback and reporting](teams-adoption-optimize-feedback-and-reporting.md)
+### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
+### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
+<!-- ============================================================ -->
 #       
 #        
 
@@ -414,9 +436,6 @@
 ### [Enhance your service](upgrade-enhance-my-service.md)
 ## [FAQ](FAQ-journey.md)
 
-#       
-#        
-
 
 <!-- ============================================================ -->
 
@@ -448,8 +467,6 @@
 
 
 
-#        
-#         
 
 <!-- ============================================================ -->
 # [Training](training-microsoft-teams-landing-page.md)
@@ -457,9 +474,6 @@
 ## [Admin training for Teams](itadmin-readiness.md)
 ## [End user training for Teams](enduser-training.md)
 <!-- ============================================================ -->
-
-#        
-#         
 
 # Reference
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
