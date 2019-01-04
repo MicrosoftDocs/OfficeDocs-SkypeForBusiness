@@ -609,7 +609,7 @@
 
 
 
-# [Plan - for large enterprises](plan-microsoft-teams-enterprise-deployment.md)
+# [Plan - for large organizations](plan-microsoft-teams-enterprise-deployment.md)
 ## [Quick start - Teams planning guide](quick-start-enable-teams.md)
 ## [Overview of a Teams deployment](deployment-overview.md)
 ## [Check your environment’s readiness for Teams](environment-readiness.md)
