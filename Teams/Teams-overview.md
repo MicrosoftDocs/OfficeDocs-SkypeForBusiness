@@ -33,7 +33,6 @@ To customize and extend Teams, add third-party apps through [tabs](built-in-cust
 
 ![Teams desktop app and mobile app](media/teams-overview-hub.png)
 
-Teams is the primary client for intelligent communications in Office 365, replacing Skype for Business Online over time. To learn more about Skype for Business features and functionality that we've built into Teams, see the [Skype for Business to Microsoft Teams capabilities roadmap](http://aka.ms/skype2teamsroadmap). To complement persistent chat and messaging capabilities, Teams offers a comprehensive meeting and calling experience, with built-in, fully integrated voice and video. Check out [Teams is now a complete meeting and calling solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) in the Microsoft Teams Blog.
 
 ## Teams admin experience
 
@@ -44,7 +43,7 @@ During the migration, you’ll be split between two different admin experiences.
 To stay on top of what’s coming for Teams and all other Office 365 products and services in your organization, be sure to check [Message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) and the [Teams roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). You’ll get announcements about new and updated features, planned changes, and issues to help keep you informed and prepared. 
 
 ## Upgrade from Skype for Business to Teams
-If you’re already on Teams, great! Use the resources here to get the most out of Teams as the central hub for teamwork in your organization. 
+Teams is the primary client for intelligent communications in Office 365, eventually replacing Skype for Business Online. To learn more about Skype for Business features and functionality that we've built into Teams, see the [Skype for Business to Microsoft Teams capabilities roadmap](http://aka.ms/skype2teamsroadmap). To complement persistent chat and messaging capabilities, Teams offers a comprehensive meeting and calling experience, with built-in, fully integrated voice and video. Check out [Teams is now a complete meeting and calling solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) in the Microsoft Teams Blog.
 
 If you’re running Skype for Business and are ready to upgrade to Teams, or if you’re running Skype for Business and Teams side-by-side and are ready to fully move to Teams, we have the tools, tips, and guidance to help make your transition successful. To learn more, see [Skype for Business to Microsoft Teams upgrade](journey-skypeforbusiness-teams.md).
 
