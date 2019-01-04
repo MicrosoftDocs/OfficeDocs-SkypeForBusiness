@@ -661,7 +661,7 @@
 ### [Turn on Teams in your organization](Office-365-set-up.md)
 ### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
-### Licensing
+## Licensing
 ### [Office 365 licensing for Teams](office-365-licensing.md)
 #### [Manage user access to Teams](user-access.md)
 #### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -685,7 +685,7 @@
 #### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
 #### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
-## Teams for education
+## Teams for Education
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
