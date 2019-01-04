@@ -17,11 +17,11 @@ appliesto:
 # Deploy apps, bots, & connectors in Microsoft Teams
 
 
-Apps let you find content from your favorite services and share it right in Teams. They help you do things like pin services at the top of a channel, chat with bots, or share and assign tasks. To learn more, read [Overview of apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
+Apps let you find content from your favorite services and share it right in Teams. They help you do things such as pin services at the top of a channel, chat with bots, or share and assign tasks. To learn more, read [Overview of apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
 We recommend that you roll out apps, bots, & connectors throughout your Teams deployment. 
 
-Sharon, I copied this section from the deploy-chat landing page. Need to figure out what else goes here. (We may want to leave this section in the deploy-chat page, then link over to HERE for additional guidance.) Need to figure out how much is "just enable it" vs. what is "ongoing management & configuration." Based on the articles in this Apps TOC node, you may be able to come up with a first stab at the list.
+<!-- Sharon, I copied this section from the deploy-chat landing page. Need to figure out what else goes here. (We may want to leave this section in the deploy-chat page, then link over to HERE for additional guidance.) Need to figure out how much is "just enable it" vs. what is "ongoing management & configuration." Based on the articles in this Apps TOC node, you may be able to come up with a first stab at the list. -->
 ### Teams Default Apps 
 
 Teams provides a number of Microsoft provided and 3rd party apps via the Teams
