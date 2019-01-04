@@ -660,7 +660,6 @@
 ### [Install Teams using MSI](msi-deployment.md)
 ### [Turn on Teams in your organization](Office-365-set-up.md)
 ### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
-### [Set up QoS in Teams](QoS-in-Teams.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 ### Licensing
 ### [Office 365 licensing for Teams](office-365-licensing.md)
@@ -679,6 +678,7 @@
 ### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 ### Monitor call quality
 #### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
+#### [Set up QoS in Teams](QoS-in-Teams.md)
 #### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 #### [Set up Call Analytics](set-up-call-analytics.md)
 #### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
