@@ -17,13 +17,12 @@ appliesto:
 # Plan your organization-wide rollout of Microsoft Teams
 
 > [!NOTE]
-> If you're a smaller organization, or if you don't have a complex environment, you may not need to do  in-depth planning for your Teams deployment. For a straightforward deployment, use our [Get started](get-started-with-teams-landing-page.md) guidance instead.
+> If you're a smaller organization, or if you don't have a complex environment, you may not need to do  in-depth planning for your Teams deployment. For a straightforward Teams deployment, use our [Get started](get-started-with-teams-landing-page.md) guidance instead.
 
-This planning section helps you with all-up planning for your Teams deployment. This includes checking and preparing your organization's network, planing for Office 365 groups, lifecycle management, and governance. You'll also find links to tools to support your Teams rollout.
+This planning section helps you with all-up planning for your Teams deployment. This includes checking and preparing your organization's network, planning for Office 365 groups, lifecycle management, and governance. You'll also find links to tools to support your Teams rollout.
 
-Once you've reviewed this material, proceed to the planning guidance for each Teams workload:
+Once you've reviewed this material, proceed to the planning and deployment guidance for each Teams workload:
 
 - [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Tabs, apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
 - [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)
