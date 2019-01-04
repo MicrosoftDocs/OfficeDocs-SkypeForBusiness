@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Create an org-wide team in Microsoft Teams
+# Manage firstline workers in Teams
 
 Org-wide teams provide an automatic way for everyone in a small to medium-sized organization to be a part of a single team for collaboration. 
  
