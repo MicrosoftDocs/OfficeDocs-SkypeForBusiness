@@ -23,6 +23,7 @@
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
+## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 
 ## [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
 ### [Apps permissions and considerations](app-permissions.md)
@@ -30,33 +31,8 @@
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
-## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
-## [Cloud voice deployment guidance](cloud-voice-deployment.md)
-### [Define my success](1-envision-define-my-success-cloud-voice.md)
-### [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
-### [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
-### [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md)
-### [Evaluate my environment](3-envision-evaluate-my-environment.md)
-### [Plan my service management](4-envision-plan-my-service-management.md)
-### [Plan my users' experience](5-envision-plan-my-users-experience.md)
-### [Document my success plan](6-envision-document-my-success-plan.md)
-### [Prepare my service](1-onboard-prepare-my-service.md)
-### [Prepare my users](2-onboard-prepare-my-users.md)
-### [Deploy my service](3-onboard-deploy-my-service.md)
-### [Operate my service](1-drive-value-operate-my-service.md)
-### [Enhance my service](2-drive-value-enhance-my-service.md)
-## Licensing
-### [Manage user access to Teams](user-access.md)
-### [Office 365 licensing for Teams](office-365-licensing.md)
-### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
-### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
-## Supported devices
-### [Manage your devices in Teams](device-management.md)
-### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
+
 
 ## [Guest access](guest-access.md)
 ### [How a guest joins a team](guest-joins.md)
@@ -88,20 +64,6 @@
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-## [Cloud Video Interop](cloud-video-interop.md)
-### [Set up Cloud Video Interop](cloud-video-interop-for-teams-set-up.md)
-
-## Live events
-### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
-### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
-### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
-### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
-
-<!-- ============================================================ -->
-
-
-
 ## [Audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
 
 ### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
@@ -131,6 +93,18 @@
 ### [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 ### [Audio Conferencing Complimentary Dial Out Period](complimentary-dial-out-period.md)
 
+
+## [Cloud Video Interop](cloud-video-interop.md)
+### [Set up Cloud Video Interop](cloud-video-interop-for-teams-set-up.md)
+
+## Live events
+### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
+### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
+### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
+### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
+
+<!-- ============================================================ -->
 
 ### Reference
 #### [Audio Conferencing supported languages](audio-conferencing-supported-languages.md)
@@ -281,7 +255,7 @@
 ### [Emergency call labels](emergency-calling-labels.md)
 
 
-## Practical guidance for large enterprises
+## Practical guidance for large organizations
 ### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
 ### [Cloud voice deployment guidance](cloud-voice-deployment.md)
 #### [Define my success](1-envision-define-my-success-cloud-voice.md)
@@ -649,7 +623,9 @@
 
 # Reference
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
+
 ## Supported devices
+### [Manage your devices in Teams](device-management.md)
 ### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -662,11 +638,12 @@
 ### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
 ### [Deploy Teams for Surface Hub](teams-surface-hub.md)
 ## Licensing
+### [Manage user access to Teams](user-access.md)
 ### [Office 365 licensing for Teams](office-365-licensing.md)
-#### [Manage user access to Teams](user-access.md)
-#### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
+### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
 
 ## [Manage Teams](using-admin-roles.md)
 ### [Manage Teams features in your organization](enable-features-office-365.md)
