@@ -1,5 +1,5 @@
 ---
-title: Cloud voice in Teams
+title: Cloud voice in Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,18 +14,18 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Cloud voice in Teams
+# Cloud voice in Microsoft Teams
 
 
 You've completed the [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice workloads. 
 
-Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether you need to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups starting with the core set of [changes you are more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, again based on your organization's needs.
+This article helps you decide whether you need to change any of the default cloud voice settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups starting with the core set of [changes you are more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
 We recommend that all organizations work through the core decisions and then, if your organization has additional requirements, review the following material.
 
-### More information
+### Learn more about cloud voice
 
-The following articles provide more information about deploying and using cloud voice features in Microsoft Teams:
+The following articles provide more information about deploying and using cloud voice features in Teams:
 
 - [Cloud voice deployment](cloud-voice-deployment.md)
 - [Audio Conferencing in Office 365](audio-conferencing-in-office-365.md)
@@ -48,6 +48,11 @@ Audio Conferencing licenses are available as part of an Office 365 E5 subscripti
 |Ask yourself|Action |
 |------------|-------|
 |&nbsp;&nbsp;&bull;&nbsp; Which user locations or offices will implement the Audio Conferencing service? <br>&nbsp;&nbsp;&bull;&nbsp; Do I have the required licenses in place? | To see what cloud features are included in each Office 365 plan, see the [License options based on your plan](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan) articles. <br>For more information about Teams add-on licensing, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).|
+|||
+
+|Ask yourself|Action |
+|------------|-------|
+|<ul><li>Which user locations or offices will implement the Audio Conferencing service?</li><li>Do I have the required licenses in place?</li></ul> |<ul><li>To see what cloud features are included in each Office 365 plan, see the [License options based on your plan](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan) articles.</li><li>For more information about Teams add-on licensing, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).</li></ul>|
 |||
 
 ### Audio conferencing bridge phone numbers
