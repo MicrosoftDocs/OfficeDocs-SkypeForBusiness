@@ -19,27 +19,31 @@ appliesto:
 
 # Manage Microsoft Teams features in your Office 365 organization
 
-All Teams settings will soon be migrated to the new Microsoft Teams & Skype for Business Admin Center. The only Teams feature that's managed in the Office 365 admin center is Apps. 
+All Teams settings will soon be migrated to the new Microsoft Teams & Skype for Business Admin Center. The only Teams feature that's managed in the Microsoft 365 admin center is Apps. 
 
 Unless otherwise noted, the default value for an option is **On**.
 
-## Office 365 tenant-wide settings 
+## Tenant-wide settings 
 
-In **Tenant-wide settings** in the Office 365 admin center, you can turn on or turn off apps for Teams.
+You can enable or disable apps for Teams in **Tenant-wide settings** in the Microsoft 365 admin center. 
 
-To edit **Tenant-wide settings** for Teams, go to the Office 365 admin center, choose **Settings** > **Services & add-ins** > **Microsoft Teams**. If you're signed in as an Office 365 admin, this link should take you there: 
+To edit **Tenant-wide settings** for Teams, go to the Microsoft 365 admin center, choose **Settings** > **Services & add-ins** > **Microsoft Teams**. If you're signed in as an Office 365 admin, this link should take you there: 
 >  
 > https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
 
 ### Apps
 
-Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, and also known as default apps) or by a third-party (also known as external apps). You can enable and disable default apps and configure settings to control external apps. These settings include specifying which external apps are allowed and disallowed, new external app behavior, and whether side-loading external apps is allowed. 
+Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, and also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps. These settings let you specify which external apps are allowed and disallowed, new external app behavior, and whether side-loading external apps is allowed. 
 
-Under **Apps**, you can configure the following settings for your organization: 
+You can configure the following settings for your organization: 
 
-![Screenshot of the Apps section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
+## Default apps
 
-- 
+
+## External apps
+
+![Screenshot of the External Apps section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
+
 - **Allow external apps in Microsoft Teams**: When this switch is turned on, users can add tabs and bots that are available to the Office 365 tenant. 
  
     ![Screenshot of the Allow external apps control in the Apps section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
