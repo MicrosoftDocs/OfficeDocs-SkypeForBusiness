@@ -79,6 +79,10 @@ To upgrade to the full version of Teams, select **Upgrade** in Teams.
 
 Enter the email address that you use to sign in to Teams, and then purchase an Office 365 Business Premium plan. If you would like to purchase Office 365 Business Essentials or an Enterprise edition of Office 365, [contact support](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade).
 
+## What's next?
+
+After your upgrade is complete, see [Get started with Microsoft Teams](get-started-with-teams-landing-page.md) for deployment and first steps, and [Adopt Microsoft Teams](adopt-microsoft-teams-landing-page.md) for a phased approach to Teams adoption across your organization.
+
 ## More information
 
 - To find out more about Teams versions and their capabilities, see [Compare Teams plans](https://products.office.com/microsoft-teams/free).
