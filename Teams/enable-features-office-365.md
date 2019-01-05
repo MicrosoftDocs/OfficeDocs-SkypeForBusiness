@@ -35,10 +35,9 @@ To edit **Tenant-wide settings** for Teams, go to the Microsoft 365 admin center
 
 Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, and also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps. These settings let you specify which external apps are allowed and disallowed, new external app behavior, and whether side-loading external apps is allowed. 
 
-You can configure the following settings for your organization: 
-
 ## Default apps
 
+These apps are provided by Teams. To enable an app, select the check box. To disable an app, clear the check box. 
 
 ## External apps
 
