@@ -55,7 +55,7 @@ The USB certification program ensures that USB peripherals such as headsets, spe
 
 All of these specifications apply equally for Lync 2013 as they do for Skype for Business, hence all USB peripherals that are qualified for Lync 2013 are also certified for Skype for Business.
 
-[Shop room systems](https://products.office.com/en-us/microsoft-teams/across-devices/devices/product?deviceid=3027ddc8-4915-4a0f-9233-95e1126141ee)
+[View room systems](https://products.office.com/en-us/microsoft-teams/across-devices/devices/product?deviceid=3027ddc8-4915-4a0f-9233-95e1126141ee)
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
