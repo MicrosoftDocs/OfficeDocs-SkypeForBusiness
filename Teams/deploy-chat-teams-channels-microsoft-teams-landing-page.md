@@ -33,7 +33,7 @@ possible Teams experience. Review the following information and make any require
 
 |Ask yourself|Action |
 |------------|-------|
-Is my organization ready for Teams deployment?|To determine readiness, see: <br>&nbsp;&nbsp;&bull;&nbsp; [Check your environment's readiness for Microsoft Teams](environment-readiness)<br>&nbsp;&nbsp;&bull;&nbsp;  [Prepare your organization's network for Microsoft Teams](prepare-network.md)<br>&nbsp;&nbsp;&bull;&nbsp; [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)<br>&nbsp;&nbsp;&bull;&nbsp; [Plan for Office 365 Groups when creating teams in Microsoft Teams](plan-office-365-groups.md)|
+Is my organization ready for Teams deployment?|To determine readiness, see: <ul><li> [Check your environment's readiness for Microsoft Teams](environment-readiness)</li><li>[Prepare your organization's network for Microsoft Teams](prepare-network.md)</li><li>[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Office 365 Groups when creating teams in Microsoft Teams](plan-office-365-groups.md)|
 |||
 
 ## Core deployment decisions
@@ -55,7 +55,7 @@ Messaging policies control what chat and channel messaging features are availabl
 
 |Ask yourself|Action |
 |------------|-------|
-|&nbsp;&nbsp;&bull;&nbsp;Will I customize the global messaging policy?<br>&nbsp;&nbsp;&bull;&nbsp; Do I require multiple messaging policies?<br>&nbsp;&nbsp;&bull;&nbsp;How will I determine which groups of users get which messaging policy?| To change or add a policy, see [What are Messaging policies in Teams?](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams)<br>To create and assign a messaging policy in PowerShell, see [PowerShell script sample - Create and assign a messaging policy](https://docs.microsoft.com/microsoftteams/scripts/powershell-script-teams-messaging-policy-edu).|
+|<ul><li>Will I customize the global messaging policy?</li><li>Do I require multiple messaging policies?</li><li>How will I determine which groups of users get which messaging policy?</li></ul>|<ul><li> To change or add a policy, see [What are Messaging policies in Teams?](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams)</li><li>To create and assign a messaging policy in PowerShell, see [PowerShell script sample - Create and assign a messaging policy](https://docs.microsoft.com/microsoftteams/scripts/powershell-script-teams-messaging-policy-edu).</li></ul>|
 |||
 
 ### External access
@@ -64,7 +64,7 @@ External access (formerly known as federation) lets your Teams and Skype for Bus
 
 |Ask yourself|Action |
 |------------|-------|
-| &nbsp;&nbsp;&bull;&nbsp;Will I enable external access for my organization?<br>&nbsp;&nbsp;&bull;&nbsp; If enabled, will I limit which domains my organization can communicate with? | To enable external access, see  [Let your Teams users chat and communicate with users in another Teams organization](https://docs.microsoft.com/MicrosoftTeams/let-your-teams-users-communicate-with-other-people).|
+|<ul><li>Will I enable external access for my organization?</li><li>If enabled, will I limit which domains my organization can communicate with?</li></ul> |To enable external access, see  [Let your Teams users chat and communicate with users in another Teams organization](https://docs.microsoft.com/MicrosoftTeams/let-your-teams-users-communicate-with-other-people).|
 |||
 
 ### Guest access
@@ -73,13 +73,12 @@ Guest access in Teams lets people outside your organization access teams and cha
 
 |Ask yourself|Action |
 |------------|-------|
-|&nbsp;&nbsp;&bull;&nbsp; Will I enable guest access for my organization? <br>&nbsp;&nbsp;&bull;&nbsp; If enabled, will I customize the features available to guests in my organization?|To enable guest access, see [Turn on or off guest access in Teams](set-up-guests.md).<br>To customize the guest access features available, see [Authorize guest access in Teams](teams-dependencies.md).|
+|<ul><li>Will I enable guest access for my organization?</li><li>If enabled, will I customize the features available to guests in my organization?</li></ul>|<ul><li>To enable guest access, see [Turn on or off guest access in Teams](set-up-guests.md).</li><li>To customize the guest access features available, see [Authorize guest access in Teams](teams-dependencies.md).</li></ul>|
 |||
 
 ### Teams settings
 
-Teams settings let you set up your teams for features such as email integration, cloud storage options, and device set up. When you make changes to the settings
-here, they will be applied to all the teams in your organization. For more information, see [Teams settings](enable-features-office-365.md#teams-settings). <<Need default settings>>
+Teams settings let you set up your teams for features such as email integration, cloud storage options, and device set up. When you make changes to the settings here, they will be applied to all the teams in your organization. For more information, see [Teams settings](enable-features-office-365.md#teams-settings). <<Need default settings>>
 
 |Ask yourself|Action |
 |------------|-------|
@@ -94,7 +93,7 @@ Teams supports a number of clients from web to desktop to mobile, and the defaul
 
 |Ask yourself|Action |
 |------------|-------|
-|&nbsp;&nbsp;&bull;&nbsp; Will I customize Teams client availability for my organization?<br>&nbsp;&nbsp;&bull;&nbsp; Will I customize Teams client settings for my organization?| |
+|<ul><li>Will I customize Teams client availability for my organization?</li><li>Will I customize Teams client settings for my organization?</li></ul>| |
 |||
 
 ### Teams usage reporting
@@ -136,7 +135,7 @@ For the full Microsoft Teams experience, every user should be enabled for Exchan
 
 |Ask yourself|Action |
 |------------|-------|
-| Will I be able to deploy the Teams features that I require with the current Exchange and SharePoint deployments? |For more information about Exchange and SharePoint interop with Teams, see: <br>&nbsp;&nbsp;&bull;&nbsp; [How Exchange and Microsoft Teams interact](exchange-teams-interact.md) <br>&nbsp;&nbsp;&bull;&nbsp; [How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md)|
+| Will I be able to deploy the Teams features that I require with the current Exchange and SharePoint deployments? |For more information about Exchange and SharePoint interop with Teams, see:<ul><li> [How Exchange and Microsoft Teams interact](exchange-teams-interact.md)</li><li>[How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md)|
 |||
 
 ### Teams limits and specifications 
@@ -164,7 +163,7 @@ Your organization might require that you implement controls on how teams are nam
 
 | Ask yourself | Action |
 |--------------|--------|
-|&nbsp;&nbsp;&bull;&nbsp; Will I need to implement controls on how teams are named? <br>&nbsp;&nbsp;&bull;&nbsp; Will I need to implement controls on who can create teams?<br>&nbsp;&nbsp;&bull;&nbsp; Will I need to configure team expiration and retention?| To plan and implement governance controls, see: <br>&nbsp;&nbsp;&bull;&nbsp; [Plan for governance in Teams](https://docs.microsoft.com/en-us/microsoftteams/plan-teams-governance)<br>&nbsp;&nbsp;&bull;&nbsp; [Enforce a naming policy for Office 365 groups in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)<br>&nbsp;&nbsp;&bull;&nbsp; [Set up Office 365 groups expiration](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)|
+|<ul><li>Will I need to implement controls on how teams are named?</li><li>Will I need to implement controls on who can create teams?</li><li>Will I need to configure team expiration and retention?| To plan and implement governance controls, see:<ul><li> [Plan for governance in Teams](https://docs.microsoft.com/en-us/microsoftteams/plan-teams-governance)</li><li>[Enforce a naming policy for Office 365 groups in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)</li><li>[Set up Office 365 groups expiration](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)</li></ul>|
 |||
 
 ### Teams application policy (side rail control)
@@ -173,7 +172,7 @@ The Teams application policy lets you pre-configure sets of pinned Teams applica
 
 | Ask yourself | Action |
 |--------------|--------|
-|&nbsp;&nbsp;&bull;&nbsp; Should I create pre-configured sets of pinned Teams applications? <br>&nbsp;&nbsp;&bull;&nbsp; How will I decide which groups receive these app groupings? | To learn more about admin settings in Teams, see:<br>&nbsp;&nbsp;&bull;&nbsp; [Admin settings for apps in Microsoft Teams](admin-settings.md)<br>&nbsp;&nbsp;&bull;&nbsp; [Microsoft Teams apps permissions and considerations](app-permissions.md)|
+|<ul><li>Should I create pre-configured sets of pinned Teams applications?</li><li>How will I decide which groups receive these app groupings?</li></ul> | To learn more about admin settings in Teams, see:<ul><li>[Admin settings for apps in Microsoft Teams](admin-settings.md)</li><li>[Microsoft Teams apps permissions and considerations](app-permissions.md)</li></ul>|
 |||
 
 ### Archiving and compliance 
@@ -182,7 +181,7 @@ Your organization might require that you implement controls on how teams are arc
 
 | Ask yourself | Action |
 |--------------|--------|
-|&nbsp;&nbsp;&bull;&nbsp; Will I need to configure team retention?<br> &nbsp;&nbsp;&bull;&nbsp; Will I need to configure team archiving?<br> &nbsp;&nbsp;&bull;&nbsp; Will I need to configure additional compliance settings?| To set up retention policies, see [Set up Teams retention policies](retention-policies.md).<br>To archive or restore a team, see [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).<br>For more information about security and compliance, see [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md). |
+|<ul><li>Will I need to configure team retention?</li><li>Will I need to configure team archiving?</li><li>Will I need to configure additional compliance settings?</li></ul>|<ul><li> To set up retention policies, see [Set up Teams retention policies](retention-policies.md).</li><li>To archive or restore a team, see [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).</li><li>For more information about security and compliance, see [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md). |
 |||
 
 ### Conditional access 
@@ -191,7 +190,7 @@ Microsoft Teams relies heavily on Exchange Online, SharePoint Online, and Skype 
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I need to configure conditional access for Teams? |To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams)<br>To set up multifactor authentication (MFA) for Teams, see:<br>&nbsp;&nbsp;&bull;&nbsp;[Quickstart: Require MFA for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/app-based-mfa) <br>&nbsp;&nbsp;&bull;&nbsp;[Azure Active Directory conditional access settings reference](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/technical-reference)|
+| Will I need to configure conditional access for Teams? |<ul><li>To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams).</li><li>To set up multifactor authentication (MFA) for Teams, see:<ul><li>[Quickstart: Require MFA for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory conditional access settings reference](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 
@@ -201,7 +200,7 @@ IT Pros working in education can take advantage of Teams for Education, which co
 
 | Ask yourself | Action |
 |--------------|--------|
-|&nbsp;&nbsp;&bull;&nbsp; Will I use EDU-specific Teams templates?<br>&nbsp;&nbsp;&bull;&nbsp; Will I deploy scoped search?<br>&nbsp;&nbsp;&bull;&nbsp; Will I integrate Teams with the School Data Sync service to provision user accounts? | To learn more about Teams EDU, see [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md).<br>To set up Teams EDU, see [Quickstart - Microsoft Teams for Education admins](teams-quick-start-edu.md).|
+|<ul><li>Will I use EDU-specific Teams templates?</li><li>Will I deploy scoped search?</li><li>Will I integrate Teams with the School Data Sync service to provision user accounts?</li></ul> |<ul><li> To learn more about Teams EDU, see [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md).</li><li>To set up Teams EDU, see [Quickstart - Microsoft Teams for Education admins](teams-quick-start-edu.md).|
 |||
 
 ### Government - GCC considerations

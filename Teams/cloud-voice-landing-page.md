@@ -3,7 +3,7 @@ title: Cloud voice in Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/04/2019
+ms.date: 01/07/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -47,11 +47,6 @@ Audio Conferencing licenses are available as part of an Office 365 E5 subscripti
 
 |Ask yourself|Action |
 |------------|-------|
-|&nbsp;&nbsp;&bull;&nbsp; Which user locations or offices will implement the Audio Conferencing service? <br>&nbsp;&nbsp;&bull;&nbsp; Do I have the required licenses in place? | To see what cloud features are included in each Office 365 plan, see the [License options based on your plan](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan) articles. <br>For more information about Teams add-on licensing, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).|
-|||
-
-|Ask yourself|Action |
-|------------|-------|
 |<ul><li>Which user locations or offices will implement the Audio Conferencing service?</li><li>Do I have the required licenses in place?</li></ul> |<ul><li>To see what cloud features are included in each Office 365 plan, see the [License options based on your plan](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan) articles.</li><li>For more information about Teams add-on licensing, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).</li></ul>|
 |||
 
@@ -63,7 +58,7 @@ For more information, see [Set up Audio Conferencing](https://docs.microsoft.com
 
 |Ask yourself|Action |
 |------------|-------|
-| &nbsp;&nbsp;&bull;&nbsp; Who in my organization needs a dedicated audio conferencing bridge phone number? <br> &nbsp;&nbsp;&bull;&nbsp; Will I obtain audio conferencing bridge phone numbers from Microsoft or will I transfer existing phone numbers?<br> &nbsp;&nbsp;&bull;&nbsp; Which number will be the tenant default conference bridge number?| To configure dedicated conferencing bridge phone numbers, see [How do you get dedicated phone numbers?](https://docs.microsoft.com/en-us/MicrosoftTeams/audio-conferencing-in-office-365#how-do-you-get-dedicated-phone-numbers) <br> To obtain conferencing bridge phone numbers from Microsoft, see [Assign Microsoft as the audio conferencing provider](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).<br> To transfer existing phone numbers, see [Transfer phone numbers to Office 365](https://docs.microsoft.com/microsoftteams/transfer-phone-numbers-to-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).<br> To set up a default conferencing bridge phone number, see step 2 in [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#step-2---change-the-default-phone-number-of-your-conference-bridge-optional).|
+| <ul><li>Who in my organization needs a dedicated audio conferencing bridge phone number? </li><li>Will I obtain audio conferencing bridge phone numbers from Microsoft or will I transfer existing phone numbers?</li><li> Which number will be the tenant default conference bridge number?</li></ul>|<ul><li> To configure dedicated conferencing bridge phone numbers, see [How do you get dedicated phone numbers?](https://docs.microsoft.com/en-us/MicrosoftTeams/audio-conferencing-in-office-365#how-do-you-get-dedicated-phone-numbers) </li><li> To obtain conferencing bridge phone numbers from Microsoft, see [Assign Microsoft as the audio conferencing provider](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).</li><li> To transfer existing phone numbers, see [Transfer phone numbers to Office 365](https://docs.microsoft.com/microsoftteams/transfer-phone-numbers-to-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).</li><li> To set up a default conferencing bridge phone number, see step 2 in [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#step-2---change-the-default-phone-number-of-your-conference-bridge-optional).</li></ul>|
 |||
 
 ### Communications Credits 
@@ -72,7 +67,7 @@ To provide toll-free conference bridge phone numbers and to support conferencing
 
 |Ask yourself|Action |
 |------------|-------|
-&nbsp;&nbsp;&bull;&nbsp; Are Communications Credits required for my Audio Conferencing implementation? <br> &nbsp;&nbsp;&bull;&nbsp; If they are required, how much should I purchase?<br> &nbsp;&nbsp;&bull;&nbsp; Do I want to configure an auto-recharge amount? | To find out if you need to set up Communications Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).<br> To determine the Communications Credits amount, see [Recommended funding amounts](what-are-communications-credits.md#recommended-funding-amounts). <br>To configure an auto-recharge amount, see [Set up Communications Credits for your organization](what-are-communications-credits.md#recommended-funding-amounts). |
+<ul><li>Are Communications Credits required for my Audio Conferencing implementation?</li><li>If they are required, how much should I purchase?</li><li>Do I want to configure an auto-recharge amount?</li></ul> |<ul><li> To find out if you need to set up Communications Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).</li><li>To determine the Communications Credits amount, see [Recommended funding amounts](what-are-communications-credits.md#recommended-funding-amounts).</li><li>To configure an auto-recharge amount, see [Set up Communications Credits for your organization](what-are-communications-credits.md#recommended-funding-amounts).</li></ul> |
 |||
 
 ## Phone System with Calling Plans
@@ -83,7 +78,7 @@ There are two types of Calling Plans available: Domestic Calling Plans and Domes
 
 |Ask yourself|Action |
 |------------|-------|
-|&nbsp;&nbsp;&bull;&nbsp;Are Calling Plans available in my area?<br> &nbsp;&nbsp;&bull;&nbsp;Which user locations will have the Calling Plans service? <br>&nbsp;&nbsp;&bull;&nbsp; Do my users have Calling Plans licenses?<br>&nbsp;&nbsp;&bull;&nbsp; Do my users each have a direct inward dial (DID) phone number?| To find out if Calling Plans are available in your area, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br>To buy and assign licenses, see [Step 2: Buy and assign licenses](set-up-calling-plans.md#step-2-buy-and-assign-licenses).<br>To get phone numbers, see [Step 3: Get phone numbers](set-up-calling-plans.md#step-3-get-phone-numbers). |
+|<ul><li>Are Calling Plans available in my area?</li><li>Which user locations will have the Calling Plans service? </li><li>Do my users have Calling Plans licenses?</li><li>Do my users each have a direct inward dial (DID) phone number?</li></ul>|<ul><li> To find out if Calling Plans are available in your area, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</li><li>To buy and assign licenses, see [Step 2: Buy and assign licenses](set-up-calling-plans.md#step-2-buy-and-assign-licenses).</li><li>To get phone numbers, see [Step 3: Get phone numbers](set-up-calling-plans.md#step-3-get-phone-numbers). </li></ul>|
 |||
 
 ### Phone numbers and emergency locations
@@ -100,7 +95,7 @@ For Teams users to be able to place and receive PSTN calls, they need to be enab
 
 |Ask yourself|Action |
 |------------|-------|
-|&nbsp;&nbsp;&bull;&nbsp; In which user locations or offices will I implement Phone System? <br>&nbsp;&nbsp;&bull;&nbsp; For which users will I enable Calling Plans or Direct Routing? <br>&nbsp;&nbsp;&bull;&nbsp; Do I have the required licenses for Direct Routing?|For more information about Phone System, see [What is Phone System in Office 365](what-is-phone-system-in-office-365.md).<br>For more information about Direct Routing, see [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md).|
+<ul><li>In which user locations or offices will I implement Phone System? </li><li>For which users will I enable Calling Plans or Direct Routing? </li><li>Do I have the required licenses for Direct Routing?</li></ul>|<ul><li>For more information about Phone System, see [What is Phone System in Office 365](what-is-phone-system-in-office-365.md).</li><li>For more information about Direct Routing, see [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md).</li></ul|
 |||
 
 ### SBC considerations
@@ -118,7 +113,7 @@ You'll need to configure Phone System to route the calls to the specific SBCs fo
 
 |Ask yourself|Action |
 |------------|-------|
-|&nbsp;&nbsp;&bull;&nbsp; What voice routing policies, PSTN usage, and voice routes do I need to create?<br>&nbsp;&nbsp;&bull;&nbsp;  Which users will be assigned to the voice routing policy that I define? | For voice routing policy information, see [Configure Voice Routing](direct-routing-configure.md#configure-voice-routing). |
+|<ul><li>What voice routing policies, PSTN usage, and voice routes do I need to create?</li><li>Which users will be assigned to the voice routing policy that I define?</li></ul> | For voice routing policy information, see [Configure Voice Routing](direct-routing-configure.md#configure-voice-routing).</li></ul> |
 |||
 
 ### Calling and interop policies
@@ -140,7 +135,7 @@ Phone System voicemail, powered by Azure Voicemail services, supports voicemail 
 
 |Ask yourself|Action |
 |------------|-------|
-|&nbsp;&nbsp;&bull;&nbsp; Do I want to enable Phone System voicemail in my Calling Plans implementation?<br> &nbsp;&nbsp;&bull;&nbsp;Do I want to enable voicemail transcription for some or all of my users?|For voicemail setup procedures, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).<br> To turn off voicemail transcription, see [Setting voicemail policies in your organization](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).|
+|<ul><li>Do I want to enable Phone System voicemail in my Calling Plans implementation?</li><li>Do I want to enable voicemail transcription for some or all of my users?</li></ul>|<ul><li>For voicemail setup procedures, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).</li><li>To turn off voicemail transcription, see [Setting voicemail policies in your organization](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 
 ### Calling identity
@@ -158,7 +153,7 @@ Microsoft has two types of telephone numbers available: *subscriber* (user) numb
 
 |Ask yourself|Action |
 |------------|-------|
-|&nbsp;&nbsp;&bull;&nbsp; Which user locations need new phone numbers from Microsoft?<br> &nbsp;&nbsp;&bull;&nbsp; Which type of telephone number (subscriber or service) do I need?| For information about getting phone numbers, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) and [Getting phone numbers for your users](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).<br>To help you pick the type of phone number you need, see [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md).|
+|<ul><li>Which user locations need new phone numbers from Microsoft?</li><li>Which type of telephone number (subscriber or service) do I need?</li></ul>|<ul><li> For information about getting phone numbers, see [Manage phone numbers for your organization](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) and [Getting phone numbers for your users](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).</li><li>To help you pick the type of phone number you need, see [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md).</li></ul>|
 |||
 
 ## Dial plans
@@ -169,7 +164,7 @@ For more information about dial plans, see [What are dial plans?](https://docs.m
 
 |Ask yourself|Action |
 |------------|-------|
-&nbsp;&nbsp;&bull;&nbsp; Does my organization need a customized dial plan?<br> &nbsp;&nbsp;&bull;&nbsp; Which users require a customized dial plan, and which tenant dial plan should be assigned to each user?|To help determine if you need a custom dial plan, see [Planning for tenant dial plans](what-are-dial-plans.md#planning-for-tenant-dial-plans)<br> To add users to a customized dial plan in PowerShell, see [Create and manage dial plans](create-and-manage-dial-plans.md). |
+<ul><li>Does my organization need a customized dial plan?</li><li>Which users require a customized dial plan, and which tenant dial plan should be assigned to each user?</li></ul>|<ul><li>To help determine if you need a custom dial plan, see [Planning for tenant dial plans](what-are-dial-plans.md#planning-for-tenant-dial-plans)</li><li>To add users to a customized dial plan in PowerShell, see [Create and manage dial plans](create-and-manage-dial-plans.md).</ul></li> |
 |||
 
 
