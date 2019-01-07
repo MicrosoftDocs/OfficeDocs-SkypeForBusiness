@@ -25,7 +25,7 @@ Unless otherwise noted, the default value for an option is **On**.
 
 ## Tenant-wide settings 
 
-You can enable or disable apps for Teams in **Tenant-wide settings** in the Microsoft 365 admin center. 
+You can turn off or turn on apps for Teams in **Tenant-wide settings** in the Microsoft 365 admin center. 
 
 To edit **Tenant-wide settings** for Teams, go to the Microsoft 365 admin center, choose **Settings** > **Services & add-ins** > **Microsoft Teams**. If you're signed in as an Office 365 admin, this link should take you there: 
 >  
@@ -37,7 +37,7 @@ Apps are tabs, connectors, bots, or any combination of these three, provided by 
 
 ## Default apps
 
-These apps are provided by Teams. To enable an app, select the check box for that app. To disable an app, clear the check box. 
+These apps are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
 
 ![Screen shot of the Default Apps section.](media/teams-tenant-wide-settings-default-apps.png "Screen shot of the Default Apps section")
 
