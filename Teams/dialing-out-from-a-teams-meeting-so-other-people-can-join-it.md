@@ -27,7 +27,7 @@ description: "Learn what you need and how meeting organizers can call out to oth
 
 As the meeting organizer, you can dial out using the Teams app to let other people join the same meeting using their phones.
 
-When you dial out to someone, we recommend that you do so using their full phone numbers (including the country/region code).
+When you dial out to someone, we recommend that you do so using their full phone numbers (including the country/region code - E.164 format).
   
   Please note that:
 
