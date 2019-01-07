@@ -43,7 +43,7 @@ These apps are provided by Teams. To turn on an app, select the check box for th
 
 #### External apps
 
-You can configure the following settings for external apps.
+These apps are provided by third parties. You can configure the following settings for external apps.
 
 ![Screenshot of the External Apps section.](media/teams-tenant-wide-settings-external-apps-settings.png "Screen shot of the External Apps section, showing settings that you can turn on and off")
 
