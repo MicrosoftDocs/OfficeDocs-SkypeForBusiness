@@ -1,5 +1,5 @@
 ---
-title: FAQ - Upgrade Journey from Skype for Business to Microsoft Teams - Microsoft Teams
+title: FAQ - Upgrading from Skype for Business to Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -16,14 +16,14 @@ appliesto:
 - Microsoft Teams
 ---
 
-# FAQ - Journey from Skype for Business to Microsoft Teams
+# FAQ - Upgrading from Skype for Business to Microsoft Teams
 
 > [!Tip]
 > Watch the following videos for guidance on planning a successful upgrade from Skype for Business to Microsoft Teams: 
-> - [Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)
-> - [Plan your upgrade](https://aka.ms/teams-upgrade-plan)
-> - [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)
-> - [Administrator experience](https://aka.ms/teams-upgrade-admin)
+> - [Introduction to Upgrade](https://aka.ms/teams-upgrade-intro) (33 minutes)
+> - [Plan your upgrade](https://aka.ms/teams-upgrade-plan) (30 minutes)
+> - [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop) (53 minutes)
+> - [Administrator experience](https://aka.ms/teams-upgrade-admin) (24 minutes)
 
 
 ## Intelligent Communications vision
@@ -62,7 +62,7 @@ We’re bringing the key set of Skype for Business capabilities in Office 365 in
 
 Our vision for bringing together Intelligent Communications and collaboration is focused on Teams. We plan to continue to support the Skype for Business service and client in Office 365. We plan to continue to support the Skype for Business clients to access on-premises server and online services. There is no end-of-support date at this time.
 
-Starting October 1, 2018, new Office 365 customers with fewer than 500 seats will be onboarded to Teams and will not have access to Skype for Business Online. Tenants already using Skype for Business Online will be able to continue doing so (including provisioning new users) until they complete their transition to Teams. To learn more please read [Microsoft Teams now the primary client for meetings and calling in Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
+Starting October 1, 2018, new Office 365 customers with fewer than 500 seats will be onboarded to Teams and will not have access to Skype for Business Online. Tenants already using Skype for Business Online will be able to continue doing so (including provisioning new users) until they complete their transition to Teams. To learn more please read [Microsoft Teams is now the primary client for meetings and calling in Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
 
 ### What do you recommend for customers who are currently in the process of deploying—or planning to deploy—Skype for Business in Office 365?
 
@@ -155,7 +155,7 @@ Additional information on Teams availability for the US Government Cloud Communi
 
 ### What is the plan for Microsoft’s online voice capabilities?
 
-We’ve added our currently available [Phone System](https://products.office.com/microsoft-teams/voice=calling) (formerly known as Cloud PBX) and calling capabilities to Teams. In addition, there are some features that were formerly only available in Skype for Business Server that are now available in Microsoft Teams. Additional information can be found [here](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Additional-Voice-Features-for-the-New-Year/ba-p/295062).
+We’ve added our currently available [Phone System](https://products.office.com/microsoft-teams/voice-calling) (formerly known as Cloud PBX) and calling capabilities to Teams. In addition, there are some features that were formerly only available in Skype for Business Server that are now available in Microsoft Teams. Additional information can be found [here](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Additional-Voice-Features-for-the-New-Year/ba-p/295062).
 
 ### What is the guidance for customers already deployed on Phone System (Cloud PBX) in Skype for Business Online?
 
@@ -184,7 +184,7 @@ There are no plans to support third-party audio conferencing providers (ACP) in 
 
 ### What’s the plan for video interoperability support for Teams meetings?
 
-[Meeting room devices](https://products.office.com/microsoft-teams/across-devices]) are critical to our vision for the modern workplace. [Cloud video interoperability services](cloud-video-interop.md) to support Teams meetings with existing VTC systems are available through our partners Pexip, Polycom, and Blue Jeans.
+[Meeting room devices](https://products.office.com/microsoft-teams/across-devices) are critical to our vision for the modern workplace. [Cloud video interoperability services](cloud-video-interop.md) to support Teams meetings with existing VTC systems are available through our partners Pexip, Polycom, and Blue Jeans.
 
 ### Will the latest generation of Skype Room Systems v2 support meetings in Teams?
 
@@ -198,7 +198,7 @@ Skype Room Systems v1 (also known as Lync Room Systems) will have an upgrade ava
 
 ### What’s planned for new management experiences?
 
-Microsoft has launched the [Microsoft Teams and Skype for Business Admin Center](https://admin.teams.microsoft.com/) for IT pros within the Office 365 Admin Center. Like the Skype for Business Admin Console, this new portal will be a single place to administer our new experiences. The initial release of the portal, targeted for the first quarter of 2018, is designed to support administration through an enterprise-ready policy model for Teams-only customers, replacing the existing administration interface for Teams. With this portal, we’ll be able to create custom presence, chat, app, meeting, and voice policies and assign those policies to Teams users.
+Microsoft has launched the [Microsoft Teams & Skype for Business Admin Center](https://admin.teams.microsoft.com/) for IT pros within the Office 365 Admin Center. Like the Skype for Business Admin Console, this new portal will be a single place to administer our new experiences. The initial release of the portal, targeted for the first quarter of 2018, is designed to support administration through an enterprise-ready policy model for Teams-only customers, replacing the existing administration interface for Teams. With this portal, we’ll be able to create custom presence, chat, app, meeting, and voice policies and assign those policies to Teams users.
 
 ## Device compatibility
 
