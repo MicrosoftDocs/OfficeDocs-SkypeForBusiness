@@ -43,15 +43,17 @@ These apps are provided by Teams. To enable an app, select the check box for tha
 
 ## External apps
 
+You can configure the following settings for external apps.
+
 ![Screenshot of the External Apps section.](media/teams-tenant-wide-settings-external-apps-settings.png "Screen shot of the External Apps section, showing settings that you can turn on and off")
 
 - **Allow external apps in Microsoft Teams**: When this setting is turned on, users can add external apps that are available to your organization. 
 
 - **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
 
-- **Allow sideloading of external apps**: To turn on some external apps and turn off others , turn off this setting, and then turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted persmission can sideload apps to Teams. 
+- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
 
-To learn more, read [Admin settings for apps in Teams](admin-settings.md). 
+To learn more, see [Admin settings for apps in Teams](admin-settings.md). 
 
 ## Teams org-wide settings
 

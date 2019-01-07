@@ -23,7 +23,7 @@ Admin settings for apps in Microsoft Teams
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, and also known as default apps) or by a third-party (also known as external apps). You can  configure settings in the Microsoft 365 admin center to control which external third-party apps are allowed. These settings let you specify which external apps are allowed and disallowed, new external app behavior, and whether side-loading apps is allowed.
+Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, and also known as default apps) or by a third-party (also known as external apps). You can  configure settings in the Microsoft 365 admin center to control external apps. These settings let you specify which external apps are allowed and disallowed, new external app behavior, and whether side-loading apps is allowed.
 
 > [!NOTE]
 > To manage admin settings for apps in Teams, go to the Office 365 admin center and open **Settings** > **Services & add-ins**, then choose **Microsoft Teams**. If you're signed in as an Office 365 admin, this link should take you there:
