@@ -3,7 +3,7 @@ title: Deploy chat, teams, channels, and apps in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/04/2019
+ms.date: 01/07/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -163,7 +163,7 @@ Your organization might require that you implement controls on how teams are nam
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Will I need to implement controls on how teams are named?</li><li>Will I need to implement controls on who can create teams?</li><li>Will I need to configure team expiration and retention?| To plan and implement governance controls, see:<ul><li> [Plan for governance in Teams](https://docs.microsoft.com/en-us/microsoftteams/plan-teams-governance)</li><li>[Enforce a naming policy for Office 365 groups in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)</li><li>[Set up Office 365 groups expiration](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)</li></ul>|
+|<ul><li>Will I need to implement controls on how teams are named?</li><li>Will I need to implement controls on who can create teams?</li><li>Will I need to configure team expiration and retention?</li></ul>| To plan and implement governance controls, see:<ul><li> [Plan for governance in Teams](https://docs.microsoft.com/en-us/microsoftteams/plan-teams-governance)</li><li>[Enforce a naming policy for Office 365 groups in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)</li><li>[Set up Office 365 groups expiration](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)</li></ul>|
 |||
 
 ### Teams application policy (side rail control)
@@ -181,7 +181,7 @@ Your organization might require that you implement controls on how teams are arc
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Will I need to configure team retention?</li><li>Will I need to configure team archiving?</li><li>Will I need to configure additional compliance settings?</li></ul>|<ul><li> To set up retention policies, see [Set up Teams retention policies](retention-policies.md).</li><li>To archive or restore a team, see [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).</li><li>For more information about security and compliance, see [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md). |
+|<ul><li>Will I need to configure team retention?</li><li>Will I need to configure team archiving?</li><li>Will I need to configure additional compliance settings?</li></ul>|<ul><li> To set up retention policies, see [Set up Teams retention policies](retention-policies.md).</li><li>To archive or restore a team, see [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).</li><li>For more information about security and compliance, see [Overview of security and compliance in Microsoft Teams](security-compliance-overview.md).</li></ul> |
 |||
 
 ### Conditional access 
@@ -190,7 +190,7 @@ Microsoft Teams relies heavily on Exchange Online, SharePoint Online, and Skype 
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I need to configure conditional access for Teams? |<ul><li>To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams).</li><li>To set up multifactor authentication (MFA) for Teams, see:<ul><li>[Quickstart: Require MFA for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory conditional access settings reference](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|Will I need to configure conditional access for Teams?|<ul><li>To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams).</li><li>To set up multifactor authentication (MFA) for Teams, see:<ul><li>[Quickstart: Require MFA for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory conditional access settings reference](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 
