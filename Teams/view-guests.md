@@ -1,7 +1,7 @@
 ---
 title: View guest users in a team
-author: LolaJacobsen
-ms.author: rramesan
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/2018
 ms.topic: article
