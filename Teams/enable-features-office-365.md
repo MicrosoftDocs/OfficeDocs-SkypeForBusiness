@@ -37,7 +37,7 @@ Apps are tabs, connectors, bots, or any combination of these three, provided by 
 
 #### Default apps
 
-These apps are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
+These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
 
 ![Screen shot of the Default Apps section.](media/teams-tenant-wide-settings-default-apps.png "Screen shot of the Default Apps section")
 
