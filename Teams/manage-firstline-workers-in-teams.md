@@ -15,11 +15,24 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Manage firstline workers in Teams
+# Manage firstline workers in Microsoft Teams
 
-Org-wide teams provide an automatic way for everyone in a small to medium-sized organization to be a part of a single team for collaboration. 
- 
-With org-wide teams, global administrators can easily create a public team that pulls in every user in the organization and keeps the membership up to date with Active Directory as users join and leave the organization. Only global admins can create org-wide teams and currently an org-wide team is limited to organizations with no more than 2,500 users. If these requirements are met, global admins will see **Org-wide** as an option under **Privacy** when creating a team. 
+> [!IMPORTANT]
+> Effective October 1, 2019, Microsoft StaffHub will be retired. We're building StaffHub capabilities, including schedule and task management, into Microsoft Teams. Additional capabilities for firstline workers will roll out to Teams over time. To learn more, see [Microsoft StaffHub to be retired](https://support.office.com/article/microsoft-staffhub-to-be-retired-30ca17f3-5502-4bc9-bb0a-bed04bb362f0).  
+
+## Overview of Shifts
+The Shifts app in Teams is designed to connect firstline workers to their company. It's built mobile first for fast and effective time management and communication for teams. 
+- Fast schedule creation and coordination 
+- Communicate in the moment to keep everyone in the know, and connect the company to their firstline workers in Teams 
+- Give your team quick access to information they need right in Office 365 
+- Get the enterprise-level security and compliance features you expect from Office 365
+
+ Shifts is built for the mobile needs of firstline workers on top of Office 365. Being part of Office 365 means Shifts comes with built-in integrations to Azure Active Directory, Microsoft Teams, and Office 365 Groups. This allows you to maximize your Office 365 investments, while providing a simple and secure user experience across tools. 
+
+Shifts lets workers and their managers use their mobile devices to manage schedules and keep in touch. 
+
+- Managers create, update, and manage shift schedules for the team. They can also send messages to one person ("there's a spill on the floor") or the entire team ("the regional GM is arriving in 20 minutes"). They can send policy documents, news bulletins, or videos. 
+- Employees view their upcoming shifts at a glance, can see who else is scheduled for the day, and can request to swap a shift.
 
 ![Screen shot of the Org-wide option to create an org-wide team](media/create-org-wide-team.png "Screen shot of the Org-wide option to create an org-wide team")
 
