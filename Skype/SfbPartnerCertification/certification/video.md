@@ -140,6 +140,4 @@ Desktop sharing using RDP from a device sends content as video over the people c
   2. Features supported for Online differ from those supported for On-premise. Video interop for O365 is focused on meeting join, and does not require VTCs to be authenticated or in any way registered to the service, as long as the meeting organizer is licensed for the service. For this reason, point-to-point calling and presence status for VTCs is not supported for online video interop.
   3. Pexip support for VBSS is currently in tech preview state.
 
-Browse the [tools certified for Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/it-pro).
-
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
