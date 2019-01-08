@@ -119,7 +119,7 @@ If your organization has a custom domain, this procedure is a possible fix for t
 
   - **Name**: sip
 
-  - **Value/Destination**: sipdir.online.microsoft.com
+  - **Value/Destination**: sipdir.online.lync.com
 
 For details, see the Microsoft Knowledge Base article 2566790, [Troubleshooting Skype for Business Online DNS configuration issues in Office 365](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
 
