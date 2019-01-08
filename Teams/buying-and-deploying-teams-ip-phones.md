@@ -22,7 +22,7 @@ For customers who require desk phones and conference room phones to make and rec
 
 Phones must be on a minimum firmware version listed in the table below to run Microsoft Teams natively.
 
-|Phone Model|Firmware Version|Release Date|
+|Phone Model|Firmware Version|Release Date |
 |---|---|---|---|
 |Audiocodes C450HD|	Coming soon	|Coming soon|
 |Crestron Flex P100-T/P110-T	|Coming soon|Coming soon
