@@ -17,11 +17,11 @@ appliesto:
 
 # Deploy Meetings in Microsoft Teams
 
-You've completed [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including audio conferencing. Here's how.
+You've completed [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including au[audio conferencing](deploy-audio-conferencing-teams-landing-page.md). Here's how.
 
 ## Meetings service decisions
 
-Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether you need to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups starting with the core set of [changes you are more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, again based on your organization's needs.
+Teams is designed to provide a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether you need to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups starting with the core set of [changes you are more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, again based on your organization's needs.
 
 ## Meetings prerequisites 
 
@@ -47,7 +47,7 @@ You can use the [Network Testing Companion](https://www.powershellgallery.com/pa
 
 These are the settings that most organizations want to change (if the Teams default settings don't work for the organization).
 
-### Teams administrators | 
+### Teams administrators
 
 Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators. 
 
@@ -98,7 +98,7 @@ See [the live events articles](https://docs.microsoft.com/en-US/microsoftteams/t
 |<ul><li>Will I customize the initial live events policies? </li><li>Do I require multiple policies?</li><li>How will I determine which groups of users get which policy applied?</li></ul>| <need links>|
 |||
 
-### Meeting room and personal devices | 
+### Meeting room and personal devices
 
 Meetings bring together content, chat, sharing, audio, and video. When taking part in meetings, your users will benefit from using devices such as room systems, phones, headsets, and cameras that have been designed to give a great experience with Microsoft Teams. 
 
