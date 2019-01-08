@@ -1,7 +1,7 @@
 ---
 title: What the guest experience is like
-author: LaithAlShamri
-ms.author: laal
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/18
 ms.topic: article
