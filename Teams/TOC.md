@@ -476,7 +476,6 @@
 <!-- ============================================================ -->
 
 # Reference
-## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
 
 ## Supported devices
 ### [Manage your devices in Teams](device-management.md)
@@ -551,3 +550,5 @@
 ### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ### [Use log files in troubleshooting Teams](log-files.md)
 ### [Verify service health for Teams](service-health.md)
+
+## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
