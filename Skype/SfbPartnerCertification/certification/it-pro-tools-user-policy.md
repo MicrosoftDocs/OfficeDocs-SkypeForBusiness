@@ -32,8 +32,6 @@ User and Policy Provisioning tools certification validates the ability of the to
 |  |  |  |  |
 
 
-Browse the [tools certified for Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/it-pro).
-
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
 
