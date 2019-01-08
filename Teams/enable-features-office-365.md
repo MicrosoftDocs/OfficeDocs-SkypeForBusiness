@@ -28,8 +28,8 @@ Unless otherwise noted, the default value for an option is **On**.
 You can turn off or turn on apps for Teams in **Tenant-wide settings** in the Microsoft 365 admin center. 
 
 To edit **Tenant-wide settings** for Teams, go to the Microsoft 365 admin center, choose **Settings** > **Services & add-ins** > **Microsoft Teams**. If you're signed in as an Office 365 admin, this link should take you there: 
->  
-> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
+
+https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
 
 ### Apps
 
