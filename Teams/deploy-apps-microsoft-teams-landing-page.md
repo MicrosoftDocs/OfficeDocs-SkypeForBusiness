@@ -16,9 +16,12 @@ appliesto:
 ---
 # Deploy apps, bots, and connectors in Microsoft Teams
 
-Apps let you find content from your favorite services and share it right in Teams. They help you do things like pin services at the top of a channel, chat with bots, or share and assign tasks. To learn more, read [Overview of apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
+Apps let you find content from your favorite services and share it right in Teams. They help you do things such as pin services at the top of a channel, chat with bots, or share and assign tasks. To learn more, read [Overview of apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
-We recommend that you roll out apps, bots, and connectors throughout your Teams deployment. 
+> [!TIP]
+> We recommend that you roll out apps, bots, & connectors throughout your Teams deployment.
+
+
 
 ## Apps deployment decisions
 
