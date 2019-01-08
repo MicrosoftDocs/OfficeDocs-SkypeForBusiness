@@ -159,7 +159,7 @@ ms.topic: hub-page
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people-teams.svg" alt="Community">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Community">
                                             </div>
                                         </div>
                                         <div class="cardText">
