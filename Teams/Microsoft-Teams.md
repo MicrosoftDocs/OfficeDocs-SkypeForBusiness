@@ -42,7 +42,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started.svg" alt="Get started" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -60,7 +60,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy.svg" alt="Deploy" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-teams.svg" alt="Deploy" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -79,7 +79,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/migration.svg" alt="Migration" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -98,7 +98,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/best-practices.svg" alt="Best practices" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/best-practices-teams.svg" alt="Best practices" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -117,7 +117,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial.svg" alt="Training" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Training" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -140,7 +140,7 @@ ms.topic: hub-page
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/developer.svg" alt="Developer" data-linktype="external">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/developer-teams.svg" alt="Developer" data-linktype="external">
                                             </div>
                                         </div>
                                         <div class="cardText">
@@ -159,7 +159,7 @@ ms.topic: hub-page
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Community">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people-teams.svg" alt="Community">
                                             </div>
                                         </div>
                                         <div class="cardText">
@@ -178,7 +178,7 @@ ms.topic: hub-page
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/settings.svg" alt="Settings">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/settings-teams.svg" alt="Settings">
                                             </div>
                                         </div>
                                         <div class="cardText">
