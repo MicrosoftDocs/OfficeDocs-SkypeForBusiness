@@ -40,5 +40,3 @@ Microsoft tests and qualifies video teleconference systems (VTCs), multipoint co
 
 Always check if your Lync version was tested to interoperate with the video systems.
 Just want to search for tested hardware?
-
-To find additional product information, pictures, and comparisons of tested audio, video, conferencing, and other products, see the [partner solutions catalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog).
