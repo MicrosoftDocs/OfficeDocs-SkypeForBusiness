@@ -28,4 +28,4 @@ All of these form factors are tested to deliver:
 - High-definition audio so that workers never have to worry about call quality.
 - Microphone and speaker placement that is optimized to allow users to hold a conference call without the need for a USB peripheral.
 - Rich, crisp video, at a variety of resolutions, and with a wide field of view, so that video conferencing is easier and more useful.
-*Monitors require an embedded camera and an embedded speakerphone both passing Lync Logo specs (including USB HID support). The display is not tested.
+*Monitors require an embedded camera and an embedded speakerphone both passing Lync Logo specs (including USB HID support). The display is not tested.*
