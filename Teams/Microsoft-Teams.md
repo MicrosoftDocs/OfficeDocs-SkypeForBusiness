@@ -23,7 +23,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone.svg" alt="What's new" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="What's new" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
