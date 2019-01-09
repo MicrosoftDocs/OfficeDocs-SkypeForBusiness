@@ -128,7 +128,7 @@ items:
   durationInMinutes: 4
   content: |
 
-    ###Licensing
+    ### Licensing
     Although you can hold meetings without having any additional licenses—all you
     need is a license for Microsoft Teams—some scenarios do require additional
     licensing.
@@ -140,7 +140,7 @@ items:
     For more information, see [Office 365 licensing for Microsoft
     Teams](https://docs.microsoft.com/microsoftteams/office-365-licensing).
 
-    ###Bandwidth and media flow
+    ### Bandwidth and media flow
     In Teams, there are two ways to initiate real-time communication:
     -   A user can call another user directly
     -   A user can create a meeting (ad hoc or scheduled)
@@ -161,7 +161,7 @@ items:
     For more information, see [Prepare your organization's network for Microsoft
     Teams](https://docs.microsoft.com/microsoftteams/prepare-network).
 
-    ###Exchange dependencies
+    ### Exchange dependencies
 
     For customers using Exchange Server on-premises, there might be (depending on the
     version of Exchange Server) some limitations when it comes to creating and
@@ -190,7 +190,7 @@ items:
     don’t describe how to perform every action, we recommend some scenarios to try
     out.
 
-    ###Requirements
+    ### Requirements
     -   An Office 365 tenant with appropriate licenses to use Teams
         -   We strongly recommend that you use a dedicated test tenant.
         -   If you don’t have a test tenant, you can sign up for a trial tenant at
@@ -203,7 +203,7 @@ items:
        -   This can be two PCs, but you can also use the client on your mobile
            phone.
 
-    ###Suggested scenarios to test
+    ### Suggested scenarios to test
     -   Schedule different meeting types from within the Teams client: Channel
         meetings, ad-hoc meetings, private meetings.
     -   Schedule meetings by using the [Outlook add-in](https://docs.microsoft.com/MicrosoftTeams/Teams-add-in-for-Outlook).

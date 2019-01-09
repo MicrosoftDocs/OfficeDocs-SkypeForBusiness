@@ -3,7 +3,7 @@ title: Overview of a Microsoft Teams deployment
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -56,3 +56,11 @@ This setup would look like this in Microsoft Teams:
 
 
 To track these decision points, download the technical planning questionnaire in [Quick start: Successfully enabling Microsoft Teams](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).
+
+## How Microsoft deployed Teams
+
+To see how Microsoft deployed and is using Microsoft Teams for collaboration, see:
+
+- [Deploying Microsoft Teams streamlines collaboration and improves teamwork](https://www.microsoft.com/itshowcase/Article/Content/1013/Deploying-Microsoft-Teams-streamlines-collaboration-and-improves-teamwork)
+- [Microsoft Teams increases collaboration in the modern workplace at Microsoft](https://www.microsoft.com/itshowcase/Article/Content/1012/Microsoft-Teams-increases-collaboration-in-the-modern-workplace-at-Microsoft)
+

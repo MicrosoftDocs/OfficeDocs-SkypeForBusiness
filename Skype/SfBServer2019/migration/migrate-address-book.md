@@ -14,15 +14,10 @@ description: "In general, the Address Book is migrated along with the rest of yo
 
 In general, the Address Book is migrated along with the rest of your topology. However, you might need to perform some post-migration steps if you customized the following in your legacy environment: 
 
-- Set the **PartitionbyOU** WMI property to group Address Book entries by organizational unit (OU). 
-
 - Customized the Address Book normalization rules.
 
 - Changed the default value for the **UseNormalizationRules** parameter to False. 
 
-  **Grouped Address Book Entries**
-
-If you set the **PartitionbyOU** WMI property to True to create address books for each OU, you need to set the **msRTCSIP-GroupingId** Active Directory attribute on users and contacts if you want to continue grouping address book entries. You might want to group address book entries to limit the scope of Address Book searches. To use the **msRTCSIP-GroupingId** attribute, write a script to populate the attribute, assigning the same value for all of the users that you want to group together. For example, assign a single value for all the users in an OU. 
 
  **Address Book Normalization Rules**
 

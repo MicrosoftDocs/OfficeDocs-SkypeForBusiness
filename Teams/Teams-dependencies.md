@@ -1,6 +1,6 @@
 ---
 title: Authorize guest access in Microsoft Teams
-author: lolaj
+author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/18

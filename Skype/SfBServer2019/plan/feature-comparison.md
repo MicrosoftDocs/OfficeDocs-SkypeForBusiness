@@ -116,7 +116,7 @@ For details, see the [Skype for Business Online Service Description](https://tec
 |Share the desktop (if enabled)  |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; (requires plug-in) |&#x2714;| &#x2714;|
 |Share a program (if enabled) |&#x2714;|View only   |&#x2714;(requires plug-in)  |&#x2714;|&#x2714;|   
 |Add anonymous participants (if enabled) |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Use dial-in audio meetings |&#x2714; &#x2777; |&#x2714;|&#x2714; &#x2777; |&#x2714;|&#x2714; &#x2777; |
+|Use dial-in audio meetings  &#x2777;|&#x2714; |&#x2714;|&#x2714;  |&#x2714;|&#x2714;  |
 |Initiate a Meet Now meeting|&#x2714;|&#x2714;||&#x2714;|&#x2714;|  
 |Add and present Microsoft PowerPoint files |&#x2714;| &#x2778; Annotations not available   |&#x2714;|&#x2714;|&#x2714;| 
 |Navigate Microsoft PowerPoint files |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
@@ -141,6 +141,10 @@ For details, see the [Skype for Business Online Service Description](https://tec
  &#x2777;  For Skype for Business Online, this feature requires Microsoft PSTN Conferencing, Exchange Unified Messaging, or a third-party audio conferencing provider.
 
  &#x2778;  The Lync for Mac 2011 client cannot view Microsoft Office 2013 PowerPoint presentations when they have been shared in a conference by the Skype for Business Web App.
+
+&#x2779;  For Skype for Business 2016 apps, you must be using Click-to-Run, build 16.0.4227 or later.
+
+&#x2780;  For Skype for Business 2015 apps, you must have the September Update, build 15.0.4747 or later.
 
 ## Voice (Telephony) support
 <a name="BKMK_Telephony"> </a>
