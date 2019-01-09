@@ -39,7 +39,6 @@ By default, MMS is automatically triggered in each of these cases, although admi
 **Limitations**: The meeting migration service can't be used if any of the following apply:
 
 - The user’s mailbox is hosted in Exchange on-premises.
-- The user is configured to use a third-party audio conferencing provider. Note that audio conferencing provider [ACP] support is scheduled for end of life on April 1, 2019, as [previously announced](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).
 - The user is being migrated from the cloud to Skype for Business Server on-premises.
 
 In these situations, end users can use the [Meeting Migration Tool](https://www.microsoft.com/en-us/download/details.aspx?id=51659) to migrate their own meetings instead.
@@ -91,8 +90,8 @@ In either case, if the user has been assigned an Audio Conferencing license befo
 
 In the following cases, MMS will update existing Skype for Business and Microsoft Teams meetings to add, remove, or modify dial-in coordinates:
 
-- When you assign or remove a Microsoft Audio Conferencing service license of a user who isn't enabled for the integration of Skype for Business with third-party audio conferencing providers.
-- When you change the audio conferencing provider of a user who has a Microsoft’s Audio Conferencing service license assigned from any other provider to Microsoft.
+- When you assign or remove a Microsoft Audio Conferencing service license to a user, and that user is not enabled for a third-party audio conferencing provider.
+- When you change the audio conferencing provider of a user from any other provider to Microsoft, provided the user is assigned a Microsoft Audio Conferencing license. For more information, see [Assign Microsoft as the audio conferencing provider](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider). Also note that support for third party audio conferencing providers [ACP] is scheduled for end of life on April 1, 2019, as [previously announced](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers).
 - When you enable or disable audio conferencing for a user.
 - When you change or reset the conference ID for a user configured to use public meetings.
 - When you move the user to a new audio conferencing bridge.
@@ -103,8 +102,6 @@ Not all changes to a user's audio conferencing settings trigger MMS. Specificall
 - When you change the SIP address for the meeting organizer (either their SIP user name or their SIP domain)
 - When you change your organization's meeting URL using the `Update-CsTenantMeetingUrl` command.
 
-> [!NOTE]
-> MMS is not triggered if the user is enabled for a third-party ACP. ACP is scheduled for end of life on April 1, 2019 as [previously announced](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers). If you want MMS to migrate a user’s meeting, first disable ACP for the user.
 
 ### Updating meetings when assigning TeamsUpgradePolicy
 
@@ -118,6 +115,23 @@ Also note the following:
 - Meeting migration is only invoked when you grant `TeamsUpgradePolicy` for a specific user. If you grant `TeamsUpgradePolicy` with `mode=TeamsOnly` or `mode=SfBWithTeamsCollabAndMeetings` on a tenant-wide basis, meeting migration is not invoked.
 - A user can only be granted TeamsOnly mode if the user is homed online. Users that are homed on-premises must be moved using `Move-CsUser` as previously described.
 - Granting a mode other than TeamsOnly or SfBWithTeamsCollabAndMeetings does not convert existing Teams meetings to Skype for Business meetings.
+
+### Trigger Meeting Migration manually via PowerShell
+
+In addition to automatic meeting migrations, admins can manually trigger meeting migration for a user by running the cmdlet `Start-CsExMeetingMigration`. This cmdlet queues a migration request for the specified user. The new `TargetMeetingType` parameter (which is currently limited to participants in the Technology Adoption Program) allows you to specify how to migrate the meetings: 
+
+- Using `TargetMeetingType Current` specifies that Skype for Business meetings remain Skype for Business meetings and Teams meetings remain Teams meetings. However audio conferencing coordinates might be changed, and any on-premises Skype for Business meetings would be migrated to Skype for Business Online.
+- Using `TargetMeetingType Teams` specifies that any existing meeting must be migrated to Teams, regardless of whether the meeting is hosted in Skype for Business online or on-premises, and regardless of whether any audio conferencing updates are required. 
+
+The example below shows how to initiate meeting migration for user ashaw@contoso.com so that all meetings are migrated to Teams:
+
+```
+Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
+```
+
+> [!NOTE]
+> The Start-CsExMeetingMigration cmdlet is available to all customers, but the new TargetMeetingTypeParameter is currently only functional for TAP customers. 
+
 
 ## Managing MMS
 
@@ -163,18 +177,7 @@ If you see any migrations that have failed, take action to resolve these issues 
     - Have the users create new Skype meetings.
     - [Contact support](https://go.microsoft.com/fwlink/p/?LinkID=518322).
 
-### Trigger Meeting Migration manually for a user
 
-In addition to automatic meeting migrations, admins can manually trigger meeting migration for a user by running the cmdlet `Start-CsExMeetingMigration`. This cmdlet queues a migration request for the specified user. The `TargetMeetingType` parameter allows you to specify how to migrate the meetings: 
-
-- Using `TargetMeetingType Current` specifies that Skype for Business meetings remain Skype for Business meetings and Teams meetings remain Teams meetings. However audio conferencing coordinates might be changed, and any on-premises Skype for Business meetings would be migrated to Skype for Business Online.
-- Using `TargetMeetingType Teams` specifies that any existing meeting must be migrated to Teams, regardless of whether the meeting is hosted in Skype for Business online or on-premises, and regardless of whether any audio conferencing updates are required. 
-
-The example below shows how to initiate meeting migration for user ashaw@contoso.com so that all meetings are migrated to Teams:
-
-```
-Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
-```
 ### Enabling and disabling MMS
 
 MMS is enabled by default for all organizations, but it can be disabled as follows:
