@@ -78,7 +78,7 @@ The CQD data can be viewed via the CQD Portal and accessed via REST API calls.
 
 The Portal is the fastest way to view the data in the Cube. The Portal comes with several built-in reports that are usable right away. The built-in reports are linked in a structured manner to guide the user to successively smaller and smaller slices of the call data. The built-in reports also highlight the various different ways the data can be shown by demonstrating a combination of charts and tables with different pivots, filters, and measures. Each user that accesses the Portal can have his or her own set of reports that he/she can modify and share. For more information on the usage of the CQD Web Portal, see [Use Call Quality Dashboard for Skype for Business Server](use.md).
   
-Supported Operating Systems for CQD Portal: Windows 8.1, Windows 8, Windows Server 2012 R2, and Windows Server 2012.
+Supported Operating Systems for CQD Portal: Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 , and Windows Server 2016 (Skype for Business Server 2019 CQD only).
   
 Supported Browsers for CQD Portal: Internet Explorer 11, Internet Explorer 10, and Internet Explorer 9.
   
