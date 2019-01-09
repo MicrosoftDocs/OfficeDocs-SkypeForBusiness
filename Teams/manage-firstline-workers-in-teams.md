@@ -28,7 +28,7 @@ The Shifts app in Teams keeps firstline workers connected and in sync. It's buil
 
 ## Availability of Shifts
 
-Shifts is available in all Office 365 subscriptions that includes Teams, with a couple of exceptions. The exceptions are US Government Cloud Community (GCC) and Teams free. Shifts isn't available in Office 365 US Government or Teams free offerings.
+Shifts is available in all Office 365 plans that include Teams, with a few exceptions. The exceptions are US Government Cloud Community (GCC) and Teams free. Shifts isn't available in Office 365 US Government or Teams free offerings.
 
 To learn more about licensing for Teams, see [Office 365 licensing for Teams](Office-365-licensing.md).
 
@@ -36,24 +36,23 @@ To learn more about licensing for Teams, see [Office 365 licensing for Teams](Of
 
 ### Enable or disable Shifts in your organization
 
-The Shifts app is enabled by default for all Teams users in your organization. You can turn off or turn on the app in the Microsoft 365 admin center.
+Shifts is enabled by default for all Teams users in your organization. You can turn off or turn on the app in the Microsoft 365 admin center.
 
 1. Sign in to the Microsoft 365 admin center with your Office 365 admin account.
 2. Go to **Settings** > **Services & add-ins** > **Microsoft Teams**. 
 3. Under **Tenant-wide settings**, select **Apps**, and then under **Default Apps**, clear or select the **Shifts** check box to turn off or turn on the app. 
 
-    ![Screen shot of the Default Apps section](media/teams-enable-disable-shifts.png "Screen shot of the Default Apps section in the Microsoft 365 admin center, showing the list of apps, including the Shifts app")
+    ![Screen shot of the Default Apps section](media/firstline-worker-enable-disable-shifts.png "Screen shot of the Default Apps section in the Microsoft 365 admin center, showing the list of apps, including the Shifts app")
 
-### Assign a FirstLineWorker app setup policy
+### Use the FirstLineWorker app setup policy to pin Shifts to Teams
 
-2. Assigning the Firstline worker admin set-up policy will pin the Shifts app to the navigation bar in Microsoft Teams. The Firstline worker buil-in app setup policy pins the Activity, Shifts, Chat and Calling apps to the app bar and all remaining enabled apps will be in the More apps for Web/Desktop client and app bar in Teams mobile client. 
+App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar in Teams for quick and easy access by users. 
+ 
+Teams includes a built-in FirstLineWorker app setup policy. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. You can edit the policy and assign it to firstline workers in your organization.
 
-To lean more, go to [Manage app setup policies in Teams](teams-app-setup-policies.md)
+![Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams & Skype for Business Admin Center](media/firstline-worker-app-setup-policy.png "Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams & Skype for Business Admin Center")
 
-## Security & Compliance
-
-### Where is Shifts data stored? 
-Shifts data is currently stored in Azure in datacenters in North America and Western Europe. For more information about where data is stored, see Where is my data? 
+To learn more about working with app setup policies, go to [Manage app setup policies in Teams](teams-app-setup-policies.md)
 
 ## Related topics
 - [Shifts Help](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
