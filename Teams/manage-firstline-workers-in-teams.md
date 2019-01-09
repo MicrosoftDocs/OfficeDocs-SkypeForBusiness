@@ -46,7 +46,7 @@ Shifts is enabled by default for all Teams users in your organization. You can t
 
 ### Use the FirstLineWorker app setup policy to pin Shifts to Teams
 
-App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar in Teams for quick and easy access by users. 
+App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar in Teams where users can quickly and easily access them. 
  
 Teams includes a built-in FirstLineWorker app setup policy. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. You can edit the policy and assign it to firstline workers in your organization.
 
@@ -60,7 +60,7 @@ Teams includes a built-in FirstLineWorker app setup policy. By default, the poli
 
 #### Assign the FirstLineWorker app setup policy to users in a group
 
-You can assign the FirstLineWorker app setup policy to users in a group, such as a security group, by y connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
+You can assign the FirstLineWorker app setup policy to users in a group, such as a security group, by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
 
 In this example, we assign the FirstLineWorker app setup policy to all users in the Contoso Firstline Team group.
 
