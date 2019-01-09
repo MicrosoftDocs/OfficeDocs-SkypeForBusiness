@@ -52,6 +52,35 @@ Teams includes a built-in FirstLineWorker app setup policy. By default, the poli
 
 ![Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams & Skype for Business Admin Center](media/firstline-worker-app-setup-policy.png "Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams & Skype for Business Admin Center")
 
+#### Assign the FirstLineWorker policy to individual users
+
+1. In the left navigation of the Microsoft Teams & Skype for Business Admin Center, go to **Users**, and then click the user.
+2. Next to **Assigned policies**, choose **Edit**.
+3. Under **Teams App Setup policy**, select **FirstLineWorker**, and then choose **Save**.
+
+#### Assign the FirstLineWorker app setup policy to users in a group
+
+You can assign the FirstLineWorker app setup policy to users in a group, such as a security group, by y connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
+
+In this example, we assign the FirstLineWorker app setup policy to all users in the Contoso Firstline Team group.
+
+> [!NOTE]
+> Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+
+Get the GroupObjectId of the particular group.
+```
+$group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
+```
+Get the members of the specified group.
+```
+$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
+```
+Assign all users in the group to the FirstLineWorker app setup policy.
+```
+$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstLineWorkder" -Identity $_.EmailAddress}
+``` 
+Depending on the number of members in the group, this command may take several minutes to execute.
+
 To learn more about working with app setup policies, go to [Manage app setup policies in Teams](teams-app-setup-policies.md)
 
 ## Related topics
