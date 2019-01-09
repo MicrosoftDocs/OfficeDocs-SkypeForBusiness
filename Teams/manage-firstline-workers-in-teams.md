@@ -52,7 +52,7 @@ App setup policies let you customize Teams to highlight the apps that are most i
  
 Teams includes a built-in FirstLineWorker app setup policy. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. You can edit the policy to add and arrange apps or keep the settings as is, and assign it to firstline workers in your organization.
 
-To view and edit the policy, in the left navigation of the Microsoft Teams & Skype for Business Admin Center, go to **Teams app** > **App setup policies**.
+To view and edit the FirstLineWorker policy, in the left navigation of the Microsoft Teams & Skype for Business Admin Center, go to **Teams app** > **App setup policies**.
 
 ![Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams & Skype for Business Admin Center](media/firstline-worker-app-setup-policy.png "Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams & Skype for Business Admin Center")
 
