@@ -1,5 +1,5 @@
 ---
-title: Manage firstline workers in your organization
+title: Manage Shifts for firstline workers in your organization
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
