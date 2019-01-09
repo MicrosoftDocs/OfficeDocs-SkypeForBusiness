@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Manage firstline workers in Microsoft Teams
+# Manage Shifts for firstline workers in Microsoft Teams
 
 > [!IMPORTANT]
 > Effective October 1, 2019, Microsoft StaffHub will be retired. We're building StaffHub capabilities, including schedule and task management, into Microsoft Teams. Additional capabilities for firstline workers will roll out to Teams over time. To learn more, see [Microsoft StaffHub to be retired](https://support.office.com/article/microsoft-staffhub-to-be-retired-30ca17f3-5502-4bc9-bb0a-bed04bb362f0).  
