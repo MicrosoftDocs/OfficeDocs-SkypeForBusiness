@@ -3,7 +3,7 @@ title: Microsoft Teams device usage report
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/17/2018
+ms.date: 01/11/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,7 +18,7 @@ appliesto:
 
 # Microsoft Teams device usage report
 
-The Teams device usage report in the Microsoft Teams & Skype for Business Admin Center provides you with information about how users connect to Teams. You can use the report to see the devices that are used across your organization, including how many use Teams when on-the-go.  
+The Teams device usage report in the Microsoft Teams & Skype for Business Admin Center provides you with information about how users connect to Teams. You can use the report to see the devices that are used across your organization, including how many use Teams from their mobile devices when on-the-go.  
 
 ![Screen shot of the Teams device usage report in the Microsoft Teams & Skype for Business Admin Center](../media/device-usage-report.png "Screen shot of the Teams device usage report in the Microsoft Teams & Skype for Business Admin Center")
 

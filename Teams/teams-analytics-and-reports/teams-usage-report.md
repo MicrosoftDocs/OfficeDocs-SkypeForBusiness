@@ -3,7 +3,7 @@ title: Microsoft Teams usage report
 author: LanaChin    
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/17/2018
+ms.date: 01/11/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
