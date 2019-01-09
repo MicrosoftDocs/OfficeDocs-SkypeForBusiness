@@ -22,7 +22,7 @@ If you are an administrator on your Office 365 tenant, you will now see the opti
 
 Upgrading to Teams Only mode offers users the full benefits of Microsoft Teams, the hub for teamwork in Office 365, via a single client experience. Additionally, users in Teams Only mode will receive all calls and chats in Teams, regardless of whether the sender is using Skype for Business or Teams, and benefit from interop and federation support.
 
-While thousands of customers have successfully upgraded to Microsoft Teams, there are considerations that may influence your organization’s upgrade timeline and user experience along the way. In particular, having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For the best user experience, confirm that Teams meets your collaboration and communication requirements, make sure that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams. If you are just starting your upgrade planning be sure to review our full upgrade guidance and planning resources. Start here. 
+While thousands of customers have successfully upgraded to Microsoft Teams, there are considerations that may influence your organization’s upgrade timeline and user experience along the way. In particular, having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For the best user experience, confirm that Teams meets your collaboration and communication requirements, make sure that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams. If you are just starting your upgrade planning be sure to review our full upgrade guidance and planning resources. [Start here](upgrade-introduction.md). 
 
 **Coexistence considerations**: The following experiences do not preclude upgrading users, but administrators should be aware of them.
 
@@ -50,4 +50,5 @@ For more detailed information about coexistence please refer to [Understand Micr
 | User’s primary device is VDI-based. | |
 |||
 
-**Remember**: The move to Teams is more than a technical migration. A successful upgrade assesses both technical readiness and end-user readiness. Review our Skype for Business to Teams [upgrade guidance](upgrade-framework.md) for more information on planning an implementing your upgrade to Teams.  
+> [!IMPORTANT]
+> **Remember**: The move to Teams is more than a technical migration. A successful upgrade assesses both technical readiness and end-user readiness. Review our Skype for Business to Teams [upgrade guidance](upgrade-framework.md) for more information on planning an implementing your upgrade to Teams.  
