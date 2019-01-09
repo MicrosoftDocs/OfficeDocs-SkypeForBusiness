@@ -17,7 +17,7 @@ appliesto:
 ---
 # Adopt Microsoft Teams
 
-If you're a small business, or if you want to roll out Teams starting with chat, teams & channels, and meetings, use our prescriptive quick start guidance, which is designed to get you up and running fast. If you're a large organization with a hybrid or on-premises Skype for Business configuration, or if you want to roll out voice features (such as Office 365 calling plans or phone system), you can start with our Quick start guidance, but you'll need the additional guidance below, under **Deeper adoption guidance**.
+If you're a small business, or if you want to roll out Teams starting with chat, teams & channels, and meetings, use our prescriptive [Get started guidance](get-started-with-teams-landing-page.md), which is designed to get you up and running quickly. If you're a large organization with a hybrid or on-premises Skype for Business configuration, or if you want to roll out voice features (such as Office 365 calling plans or phone system), you can start with our Get started guidance, but you'll need the additional guidance below, under **Deeper adoption guidance**.
 
 <ul class="panelContent cardsFTitle">
     <li>

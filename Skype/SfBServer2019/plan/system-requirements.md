@@ -188,7 +188,7 @@ Skype for Business Server 2019 Enterprise Edition will require full SQL Server, 
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates, and with AlwaysOn availability groups.  <br/> ||
+|Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates.  <br/> ||
  |
    
 If you don't see the SQL Server edition you want to use listed here, you can't use it.

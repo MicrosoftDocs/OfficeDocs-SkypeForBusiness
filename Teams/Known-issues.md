@@ -158,7 +158,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent String for MS Teams within the EWSAllowList: `*skypespaces*`, including asterisks. The full command is: `set-organizationconfig -ewsallowlist *skypespaces*`<br/> For more info: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
+|Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent Strings for MS Teams within the EWSAllowList: `*skypespaces*` and `*microsoftninja*`, including asterisks. The following command can be used: `Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> For more info: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -200,8 +200,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|User Profile Photos  <br/> | Currently Teams does not have a mechanism to prevent users from changing photos. The BTS team has met with the development team who has filed the following for consideration: Feature 108874: IT Policy to disable Profile Photo uploading   <br/> | If you have customers who would like the ability to prevent Profile Photo uploading in Teams, please have them add their vote and business case to comments here: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
- <br/> |3/1/17 <br/> |
+|User Profile Photos  <br/> | Currently Teams does not have a mechanism to prevent users from changing photos. The BTS team has met with the development team who has filed the following for consideration: Feature 108874: IT Policy to disable Profile Photo uploading   <br/> | If you have customers who would like the ability to prevent Profile Photo uploading in Teams, please have them add their vote and business case to comments here: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |3/1/17 <br/> |
 
 ## Provisioning
 
@@ -212,6 +211,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
 |Users can't create a team  <br/> |Your company may have set a policy restricting who can create Office 365 groups or teams.  <br/> |Check with your IT admin to understand your company's policy for creating groups and teams.  <br/> |3/13/17  <br/> |
+
+## Skype for Business to Teams Upgrade
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
 
 ## Tabs
 
