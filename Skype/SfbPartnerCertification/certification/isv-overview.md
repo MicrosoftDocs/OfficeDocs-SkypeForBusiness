@@ -85,7 +85,7 @@ If you are a vendor seeking to join the certification program, see [How to Join]
 |Luware AG	|LUCS Lean Unified Customer Services	|Contact Center|
 |Nice Systems LTD	|Trading Recording	|Recording|
 |WORKSTREAMPEOPLE BV	|Anywhere365 Reception Attendant	|Attendant Console|
-|Verba	|Collaboration Compliance and Quality |Management Platform	|Compliance|
+|Verba	|Collaboration Compliance and Quality |Management Platform, Compliance|
 |Nice Systems LTD	|Engage Platform	|Recording|
 |Enghouse Interactive	|Trio Enterprise Attendant Console & Contact Center	|Attendant Console, Contact Center|
 |CC4	|Attendant Console & Contact Center	|Attendant Console, Contact Center|
