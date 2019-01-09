@@ -30,7 +30,7 @@ It's important to know that Shifts currently doesn't support guest users. This m
 
 ## Availability of Shifts
 
-Shifts is available in all Office 365 plans that include Teams, with a couple of exceptions. The exceptions are US Government Cloud Community (GCC) and Teams free. Shifts isn't available in Office 365 US Government or Teams free offerings.
+Shifts is available in all Office 365 subscriptions that include Teams, with a couple of exceptions. The exceptions are US Government Cloud Community (GCC) and Teams free. Shifts isn't available in Office 365 US Government or Teams free offerings.
 
 To learn more about licensing for Teams, see [Office 365 licensing for Teams](Office-365-licensing.md).
 
@@ -48,9 +48,11 @@ Shifts is enabled by default for all Teams users in your organization. You can t
 
 ### Use the FirstLineWorker app setup policy to pin Shifts to Teams
 
-App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar - the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients - where users can quickly and easily access them. 
+App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them. 
  
 Teams includes a built-in FirstLineWorker app setup policy. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. You can edit the policy to add and arrange apps or keep the settings as is, and assign it to firstline workers in your organization.
+
+To view and edit the policy, in the left navigation of the Microsoft Teams & Skype for Business Admin Center, go to **Teams app** > **App setup policies**.
 
 ![Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams & Skype for Business Admin Center](media/firstline-worker-app-setup-policy.png "Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams & Skype for Business Admin Center")
 
