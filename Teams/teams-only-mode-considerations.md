@@ -22,7 +22,10 @@ If you are an administrator on your Office 365 tenant, you will now see the opti
 
 Upgrading to Teams Only mode offers users the full benefits of Microsoft Teams, the hub for teamwork in Office 365, via a single client experience. Additionally, users in Teams Only mode will receive all calls and chats in Teams, regardless of whether the sender is using Skype for Business or Teams, and benefit from interop and federation support.
 
-While thousands of customers have successfully upgraded to Microsoft Teams, there are considerations that may influence your organization’s upgrade timeline and user experience along the way. In particular, having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For the best user experience, confirm that Teams meets your collaboration and communication requirements, make sure that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams. If you are just starting your upgrade planning be sure to review our full upgrade guidance and planning resources. [Start here](upgrade-introduction.md). 
+While thousands of customers have successfully upgraded to Microsoft Teams, there are considerations that may influence your organization’s upgrade timeline and user experience along the way. In particular, having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For the best user experience, confirm that Teams meets your collaboration and communication requirements, make sure that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams. 
+
+> [!IMPORTANT]
+> If you are just starting your upgrade planning, be sure to review our full upgrade guidance and planning resources. [Start here](upgrade-introduction.md). 
 
 **Coexistence considerations**: The following experiences do not preclude upgrading users, but administrators should be aware of them.
 
@@ -46,7 +49,6 @@ For more detailed information about coexistence please refer to [Understand Micr
 |User’s primary work device is a Mac, and user needs to see colleagues' availability in Outlook. | Outlook presence in Teams is not yet fully supported for Mac devices. |
 | User is regularly conducting meetings with customers or external partners in different international regions. | External attendees whose tenant resides in a different geo-location don’t see IM chat while in a **federated** meeting. Participants can still join the meeting as anonymous users. |
 | User is conducting Skype for Business Broadcast meetings. |  While Teams live events (replacing Skype Broadcast) is already in public preview, this user may need to stay on Skype for Business until general availability of Teams live events.
-| User uses Skype for Business Audio Conferencing in India and/or Hong Kong. | |
 | User’s primary device is VDI-based. | |
 |||
 
