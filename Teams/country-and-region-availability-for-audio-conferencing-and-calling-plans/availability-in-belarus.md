@@ -40,7 +40,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 |:-----|:-----|
 |Is Audio Conferencing available for purchase?  <br/> |No  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> |No  <br/> |
-|Dial-out capability using the Call Me feature  <br/> |Available  <br/> |
+|Dial-out capability using the Call Me feature  <br/> |Available with Communications Credits pay per minute  <br/> |
    
 ## Phone System
 
