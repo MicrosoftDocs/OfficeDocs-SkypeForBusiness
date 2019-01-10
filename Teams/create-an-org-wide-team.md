@@ -2,6 +2,7 @@
 title: Create an org-wide team in Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
+ms.reviewer: phlouie
 manager: serdars
 ms.date: 09/27/2018
 ms.topic: article
@@ -18,12 +19,12 @@ appliesto:
 
 Org-wide teams provide an automatic way for everyone in a small to medium-sized organization to be a part of a single team for collaboration. 
  
-With org-wide teams, global administrators can easily create a public team that pulls in every user in the organization and keeps the membership up to date with Active Directory as users join and leave the organization. Only global admins can create org-wide teams and currently an org-wide team is limited to organizations with no more than 1,000 users. If these requirements are met, admins will see **Org-wide** as an option under **Privacy** when creating a team.
+With org-wide teams, global administrators can easily create a public team that pulls in every user in the organization and keeps the membership up to date with Active Directory as users join and leave the organization. Only global admins can create org-wide teams and currently an org-wide team is limited to organizations with no more than 2,500 users. If these requirements are met, global admins will see **Org-wide** as an option under **Privacy** when creating a team. 
 
 ![Screen shot of the Org-wide option to create an org-wide team](media/create-org-wide-team.png "Screen shot of the Org-wide option to create an org-wide team")
 
 > [!NOTE]
-> If you don't see the **Org-wide** option when creating a team and you're a global admin, the feature might still be rolling out or your organization might have more than the current size limit of 1,000 members. We're looking to increase this limit in future.
+> If you don't see the **Org-wide** option when creating a team and you're a global admin, the feature might still be rolling out or your organization might have more than the current size limit of 2,500 members. We're looking to increase this limit in future.
 
 When an org-wide team is created, all global admins are added as team owners and all active users are added as team members. Users who are disabled for Teams, guest users, and most rooms aren't added to the team. As your organization's directory is updated to include new active users or if users no longer work at your company and their Teams license is disabled, changes are automatically synced and the users are added or removed from the team. Team members can't leave an org-wide team. As a team owner, you can manually add or remove users if needed.
 
@@ -42,3 +43,11 @@ Reduce channel noise by having only team owners post to the General channel. Go 
 
 ### Remove accounts that might not belong
 Even though members can’t leave an org-wide team, as a team owner, you can manage the team roster by removing accounts that don’t belong. Make sure you use Teams to remove users from your org-wide team.  If you use another way to remove a user, such as the Microsoft 365 admin center or from a group in Outlook, the user might be added back to the org-wide team. 
+
+## FAQ
+
+### Is there a way to create an org-wide team other than using the Teams client? 
+
+Global admins can only create an org-wide team by using the Teams client. If your organization limits creating teams to using PowerShell, the recommended workaround is to add your global admins to the security group of users who can create a team. For more information, see [Manage who can create Office 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups). 
+
+If this isn't an option, you can create a public team using PowerShell and add a global admin as the team owner. Then, have the global admin click **˙˙˙ More options** next to the team name, click **Edit team**, and then change the privacy to **Org-wide - Everyone in your organization will be automatically added**. Note that only team owners can access the **Edit team** option and only global admins can see the **Org-wide** option.

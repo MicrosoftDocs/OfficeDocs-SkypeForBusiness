@@ -17,6 +17,9 @@ appliesto:
 
 # Microsoft Education governance FAQ for admins
 
+> [!Tip]
+> Watch the following session to learn about more about management in Microsoft Teams: [Governance, management and lifecycle in Microsoft Teams](https://aka.ms/teams-governance)
+
 ## How do I control team creation? I'm worried students are going to create inappropriate teams.
 
 To avoid inappropriate or misleading names, or just to provide more structure for how teams are named, you can use the Office 365 Groups naming policy (currently in preview):

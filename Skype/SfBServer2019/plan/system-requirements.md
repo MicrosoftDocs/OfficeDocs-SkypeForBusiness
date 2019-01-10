@@ -188,7 +188,7 @@ Skype for Business Server 2019 Enterprise Edition will require full SQL Server, 
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016/2017 Enterprise (64-bit edition), and you must run with the latest updates, and with AlwaysOn availability groups.  <br/> ||
+|Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates.  <br/> ||
  |
    
 If you don't see the SQL Server edition you want to use listed here, you can't use it.
@@ -206,11 +206,11 @@ You can have the following for failover clustering:
   
 Two-node:
   
-- Microsoft SQL Server 2016/2017 Standard (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2016 Standard (64-bit edition), and we recommend running with the latest service pack.
     
 Sixteen-node:
   
-- Microsoft SQL Server 2016/2017 Enterprise (64-bit edition), and we recommend running with the latest service pack.
+- Microsoft SQL Server 2016 Enterprise (64-bit edition), and we recommend running with the latest service pack.
     
 We'll have an article, Configure SQL Server clustering for Skype for Business Server 2019, that will have the steps for getting clustering ready.
  
@@ -241,6 +241,8 @@ Although much of the configuration data for servers and services is stored in th
 
 The following Domain Controller operating systems can be used:
   
+- Windows Server 2019
+
 - Windows Server 2016
     
 - Windows Server 2012 R2
@@ -249,6 +251,8 @@ The following Domain Controller operating systems can be used:
     
 The domain functional level of any domain you deploy Skype for Business Server 2019 into, and the forest functional level of any forest you deploy Skype for Business Server 2019 into, must be one of the following:
   
+- Windows Server 2019
+
 - Windows Server 2016
     
 - Windows Server 2012 R2
@@ -342,7 +346,7 @@ In this topology, there are one or more user forests, and Skype for Business Ser
   
 With this scenario, there are multiple forests on-premises, with a resource forest topology. There is a full trust relationship between the Active Directory forests. The Azure Active Directory Connect tool is used to synchronize accounts between the on-premises user forests and Office 365.
   
- The organization also has Office 365, and uses [Azure Active Directory Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect) to synchronize their on-premises accounts with Office 365. Users who are enabled for Skype for Business are enabled via Office 365 and Skype for Business Online. Skype for Business Server is not deployed on-premises.
+ The organization also has Office 365, and uses [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) to synchronize their on-premises accounts with Office 365. Users who are enabled for Skype for Business are enabled via Office 365 and Skype for Business Online. Skype for Business Server is not deployed on-premises.
   
 Single sign-on authentication is provided by an Active Directory Federation Services farm located in the user forest.
   

@@ -8,6 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 ms.reviewer: marcl
+localization_priority: Priority
 search.appverid: MET150
 description: Current list of known issues for the Microsoft Teams client app and admin experience.
 appliesto:
@@ -26,7 +27,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|EAF policy in the Enhanced Mitigation Experience Toolkit (EMET) can incorrectly identify Chromium sandbox optimizations as threats. <br/> |There is an issue with Chromium sandbox in which the Export Address Table Access Filtering (EAF) policy in the Enhanced Mitigation Experience Toolkit (EMET) can incorrectly identify Chromium sandbox optimizations as threats. This prevents the tabs in Teams web view from rendering correctly. <br/> | Turn off EAF for Chrome. You can read more about the issue [EMET mitigations guidelines](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) <br/> |10/11/18 <br/> |
+|EAF policy in the Enhanced Mitigation Experience Toolkit (EMET) can incorrectly identify Chromium sandbox optimizations as threats. <br/> |There is an issue with Chromium sandbox in which the Export Address Table Access Filtering (EAF) policy in the Enhanced Mitigation Experience Toolkit (EMET) and in Windows Defender Advanced Threat Protection (ATP) can incorrectly identify Chromium sandbox optimizations as threats. This causes Teams to not work properly.  <br/> | To work around this issue turn off EAF for Teams. You can read more about the issue [EMET mitigations guidelines](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) For more information about Windows Defender ATP and EAF policy, see [Customize exploit protection](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |10/11/18 <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -34,7 +35,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Admin management of tenant-wide Connectors is no longer available  <br/> |When trying to add a connector in both client and online version we get the error: An unexpected error occurred. Please try again. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Disable with Teams settings. See support article https://msdn.microsoft.com/microsoft-teams/connectors  <br/> |6/21/17  <br/> |
+|Admin management of tenant-wide Connectors is no longer available  <br/> |When trying to add a connector in both client and online version we get the error: An unexpected error occurred. Please try again. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Disable with Teams settings. See this support article: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |6/21/17  <br/> |
 
 ## Apps
 
@@ -157,7 +158,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent String for MS Teams within the EWSAllowList: `*skypespaces*`, including asterisks. The full command is: `set-organizationconfig -ewsallowlist *skypespaces*`<br/> For more info: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
+|Users can't access Meetings/Connectors but have Exchange Online mailboxes. <br/> |Customer actively blocks EWS from services within Exchange Online but needs to have MS Teams compliant within EWS policies. <br/> |To make MS Teams compliant, you must add the following User Agent Strings for MS Teams within the EWSAllowList: `*skypespaces*` and `*microsoftninja*`, including asterisks. The following command can be used: `Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> For more info: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |5/30/17  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -199,8 +200,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|User Profile Photos  <br/> | Currently Teams does not have a mechanism to prevent users from changing photos. The BTS team has met with the development team who has filed the following for consideration: Feature 108874: IT Policy to disable Profile Photo uploading   <br/> | If you have customers who would like the ability to prevent Profile Photo uploading in Teams, please have them add their vote and business case to comments here: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
- <br/> |3/1/17 <br/> |
+|User Profile Photos  <br/> | Currently Teams does not have a mechanism to prevent users from changing photos. The BTS team has met with the development team who has filed the following for consideration: Feature 108874: IT Policy to disable Profile Photo uploading   <br/> | If you have customers who would like the ability to prevent Profile Photo uploading in Teams, please have them add their vote and business case to comments here: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |3/1/17 <br/> |
 
 ## Provisioning
 
@@ -212,11 +212,12 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |:-----|:-----|:-----|:-----|
 |Users can't create a team  <br/> |Your company may have set a policy restricting who can create Office 365 groups or teams.  <br/> |Check with your IT admin to understand your company's policy for creating groups and teams.  <br/> |3/13/17  <br/> |
 
-## Tabs
+## Skype for Business to Teams Upgrade
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Website tab leading to customer confusion  <br/> |Website tabs are not equivalent to your browser. A number of sites, especially those requiring authentication or using popups, will not work when pinned as a website tab.  <br/> |We are working on improving the UI to make it clearer for customers.  <br/> |5/2/18  <br/> |
+
+## Tabs
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -236,7 +237,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|SharePoint page tab renders blank screen<br/> |SharePoint Online vanity domains are not currently supported. The user experience is a blank screen when attemting to add a SharePoint page tab. <br/> |No workaround. <br/> |8/20/18  <br/>|
+|SharePoint page tab renders blank screen <br/> |SharePoint Online vanity domains are not currently supported. The user experience is a blank screen when attemting to add a SharePoint page tab. <br/> |No workaround. <br/> |8/20/18  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Legacy OneNote Tab  <br/> |Legacy OneNote tabs created during the public preview of Microsoft Teams cannot be renamed or deleted.  <br/> |No workaround. <br/> |11/8/2017  <br/> |
 
 ## Teams
 

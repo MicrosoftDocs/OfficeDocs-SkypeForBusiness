@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 09/21/2018
+ms.date: 11/26/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
@@ -27,7 +27,7 @@ Use these training resources to help users in your organization get the most out
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -46,7 +46,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -63,7 +63,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -81,7 +81,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -99,7 +99,7 @@ Watch this short video introducing you to Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -131,13 +131,29 @@ Watch this short video introducing you to Teams</h3>
                 </div>
             </div>
         </div>
-    </li><li>
+    </li> <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Teams overview</h3>
+                        <p><a href="https://teamsdemo.office.com/">Teams interactive demo</a></p>  
+                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">On-demand live training: #ThisisTeams - How Teams can work for you</a></p>
+                        <p><a href="https://aka.ms/teamsgettingstartedondemand">On-demand live training: Getting Started with Teams</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+       <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
                         <h3>Switch to Teams from Skype for Business</h3>
                          <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">Article: Switch to Teams from Skype for Business</a></p>
+                         <p><a href="https://aka.ms/upgrade101ondemand">On-demand live training: Upgrade 101: Understanding your upgrade from Skype for Business to Teams</a></p>
+                        <p><a href="https://aka.ms/fromskypetoteamsondemand">On-demand live training: From Skype for Business to Teams</a></p>
                     </div>
                 </div>
             </div>

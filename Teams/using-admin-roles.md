@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 09/19/2018
 ms.topic: article
 ms.service: msteams
-description: Learn to use the different adminstrative roles to manage Teams.
+ms.reviewer: islubin
+description: Learn to use the different administrative roles to manage Teams.
 appliesto: 
 - Microsoft Teams
 ---
@@ -24,21 +25,21 @@ There are four Teams admin roles available: Teams service administrator, Teams c
 | Role | Can do these tasks | Can access the following tools |
 |----- | ------------------ | ------------------------------ |
 | Teams Service Administrator | Manage the Microsoft Teams service, and manage and create Office 365 Groups | Everything in the Microsoft Teams & Skype for Business Admin Center and associated PowerShell controls, including:<br><br> Manage meetings, including meeting policies, configurations, and conference bridges<sup>1,3</sup><br><br> Manage voice, including calling policies and phone number inventory and assignment<sup>1</sup><br><br> Manage messaging, including messaging policies<sup>1,3</sup><br><br> Manage all org-wide settings, including federation, teams upgrade, and teams client settings<sup>1,3</sup><br><br> Manage the teams in the organization and their associated settings, including membership (group management supported via PowerShell, team management in the admin portal rolling out) <sup>23</sup><br><br> View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset<sup>3</sup> |
-| Teams Communications Administrator | Manage calling and meetings features within the Microsoft Teams service | Manage meetings, including meeting policies, configurations, and conference bridges<sup>1,3</sup><br><br> Manage voice, including calling policies and phone number inventory and assignment<sup>1</sup><br><br> View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset<sup>1,3</sup> |
-| Teams Communications Support Engineer | Troubleshoot communications issues within Teams by using **advanced** tools. | Access to user profile page for troubleshooting calls in Call Analytics. Can view full call record information.<sup>3</sup> |
+| Teams Communications Administrator | Manage calling and meetings features within the Microsoft Teams service | Manage meetings, including meeting policies, configurations, and conference bridges<sup>1,3</sup><br><br> Manage voice, including calling policies and phone number inventory and assignment<sup>1</sup><br><br> View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset<sup>3</sup> |
+| Teams Communications Support Engineer | Troubleshoot communications issues within Teams by using **advanced** tools. | View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset<sup>3</sup> |
 | Teams Communications Support Specialist | Troubleshoot communications issues within Teams by using **basic** tools.| Access to user profile page for troubleshooting calls in Call Analytics. Can only view user information for the specific user being searched for.<sup>3</sup>
 
-<sup>1</sup> [PowerShell - Skype for Business module](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
+<sup>1</sup> [PowerShell - Skype for Business module](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell - Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
-<sup>3</sup> [Microsoft Teams and Skype for Business Admin Center](https://docs.microsoft.com/en-us/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<sup>3</sup> [Microsoft Teams and Skype for Business Admin Center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
 <!-- <sup>4</sup> Azure Active Directory Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
-For more information about the admin tools available for managing Microsoft Teams, see [Managing Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/manage-teams-skypeforbusiness-admin-center).
+For more information about the admin tools available for managing Microsoft Teams, see [Managing Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
 
 ## Assign users to each role
 
-You can assign users to these roles in Azure Active Directory. To learn how to assign administrative roles to a user in Azure Active Directory, see [Assign a user to administrator roles in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
+You can assign users to these roles in Azure Active Directory. To learn how to assign administrative roles to a user in Azure Active Directory, see [Assign a user to administrator roles in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
 ## Cmdlets available for each role
 
@@ -54,6 +55,6 @@ Most of the PowerShell tools for these admin roles live in the Skype for Busines
 ### Related topics
 
 - [Microsoft Teams PowerShell Overview](teams-powershell-overview.md)
-- [Microsoft Teams PowerShell](https://docs.microsoft.com/en-us/powershell/module/teams/?view=teams-ps)
-- [Assign team owners and members in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/assign-roles-permissions)
+- [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+- [Assign team owners and members in Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
 

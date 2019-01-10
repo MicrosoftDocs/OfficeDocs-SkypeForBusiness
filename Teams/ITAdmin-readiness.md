@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 09/21/2018
+ms.date: 11/07/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
@@ -27,7 +27,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -45,7 +45,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
+                            <img src="https://docs.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -63,7 +63,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users people" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -81,7 +81,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -99,7 +99,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="success" />
+                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="success" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -125,7 +125,11 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardText">
                         <h3>Journey from Skype for Business to Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Journey from Skype for Business to Teams</a></p>
+                         <p><a href="https://aka.ms/teams-upgrade-intro">Video: Introduction to Upgrade</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-plan">Video: Plan your upgrade</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-coexistence-interop">Video: Coexistence and Interoperability</a></p>
+                        <p><a href="https://aka.ms/teams-upgrade-admin">Video: Administrator experience</a></p>
+                        <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Journey from Skype for Business to Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -160,6 +164,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                         <h3>Plan & deploy</h3>
                          <p><a href="quick-start-enable-teams.md">Quick start: Teams planning guide</a></p>
                          <p><a href="http://aka.ms/teams-clients">Video: Teams Windows desktop client</a></p>
+                         <p><a href="http://aka.ms/teams-governance">Video: Governance, management and lifecycle in Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -208,6 +213,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                     <div class="cardText">
                         <h3>Meetings</h3>
                         <p><a href="tutorial-meetings-in-teams.yml">Tutorial: Meetings in Teams</a></p>
+                        <p><a href="https://aka.ms/teams-meetings-intro">Video: Introduction to Meetings in Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -245,7 +251,8 @@ Use these tutorials, videos, and other training resources to learn about Teams a
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Calling Plans</h3>
+                        <h3>Phone System</h3>
+                         <p><a href="https://aka.ms/teams-phone-system">Video: Introduction to Phone System in Microsoft Teams</a></p>
                          <p><a href="configuring-teams-calling-quickstartguide.md">Quick start: Configuring Calling Plans in Teams</a></p>
                          <p><a href="tutorial-calling-in-teams.yml">Tutorial: Understand calling in Teams</a></p>
                     </div>
@@ -258,7 +265,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardText">
                         <h3>Direct Routing</h3>
-                        <p><a href="https://www.youtube.com/watch?v=dVkc5Bs926Q">Video: Direct Routing for Teams - Preview</a></p>
+                        <p><a href="https://aka.ms/teams-direct-routing">Video: Direct Routing in Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>

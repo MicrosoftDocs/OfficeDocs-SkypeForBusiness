@@ -32,9 +32,9 @@ For details, see [Hosted Exchange Contact object management in Lync Server 2013]
 
 For details about configuring contact objects, see the Lync Server Management Shell documentation for the following cmdlets:
 
-  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
+  - [New-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/New-CsExUmContact)
 
-  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
+  - [Set-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Set-CsExUmContact)
 
 <div class=" ">
 

@@ -142,7 +142,7 @@ To return detailed information about all the voice normalization rules, run this
 ## See Also
 
 
-[Test-CsVoiceNormalizationRule](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsVoiceNormalizationRule)  
+[Test-CsVoiceNormalizationRule](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceNormalizationRule)  
   
 
 </div>

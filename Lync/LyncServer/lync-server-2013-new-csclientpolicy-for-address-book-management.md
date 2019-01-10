@@ -49,7 +49,7 @@ For example:
 ## See Also
 
 
-[New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy)  
+[New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)  
   
 
 </div>

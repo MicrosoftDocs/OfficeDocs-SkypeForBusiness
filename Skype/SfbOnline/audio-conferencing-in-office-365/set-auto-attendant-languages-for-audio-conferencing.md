@@ -32,7 +32,7 @@ The Audio Conferencing auto attendant for Skype for Business can greet audio cal
 Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select. 
   
 > [!NOTE]
->  You can configure the languages on domestic audio access phone numbers only.
+>  You can only change the languages of audio conferencing numbers that are of the Dedicated category. The languages of Shared audio conferencing number can't be changed.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -41,9 +41,9 @@ Choose one primary language and up to four secondary languages. The primary lang
 
 You must be an [Office 365 global admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) or [Skype for Business admin](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform this step.
     
-1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**, and then click **Microsoft bridge**.
+1. In the **Skype for Business admin center**, in the left navigation, go to **Legacy portal**. Once in the legacy portal, select **Audio conferencing**, and then click **Microsoft bridge**.
     
-2. Select the audio conferencing phone number from the list, and in the Action pane, click **Set languages**. 
+2. Select the audio conferencing phone number from the list, and in the Action pane, click **Set languages**. It is only possible to change the languages of Dedicated audio conferencing numbers.  
     
 3. On the **Set languages** page, click the **Primary language** list to view the complete list of available languages. If you need to, click each of the **Secondary languages** lists to select secondary language.
     

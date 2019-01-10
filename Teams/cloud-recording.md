@@ -6,6 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
+ms.reviewer: sonua
 search.appverid: MET150
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
 MS.collection: Teams_ITAdmin_PracticalGuidance
@@ -26,7 +27,7 @@ Related: [Teams meeting recording end user documentation](https://aka.ms/recordm
 
 For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled for the tenant. In addition, the following prerequisites are required for both the meeting organizer and the person who is initiating the recording:
 
-- User has an Office 365 Enterprise E1, E3, or E5 license
+- User has an Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium or Business Essentials
 - User needs to be licensed for Microsoft Stream
 - User has Microsoft Stream upload video permissions
 - User has consented to the company guidelines, if set up by the admin
@@ -41,7 +42,7 @@ This section explains how you can set up and plan for recording Teams meetings.
 
 ### Enable Microsoft Stream for users in the organization
 
-Microsoft Stream is available as part of eligible Office 365 subscriptions or as a standalone service.  See the [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.  Note that Microsoft Stream is not included in Business Essentials or Business Premium plans.
+Microsoft Stream is available as part of eligible Office 365 subscriptions or as a standalone service.  See the [Stream licensing overview](https://docs.microsoft.com/stream/license-overview) for more details.  Microsoft Stream is now included in Microsoft 365 Business, Office 365 Business Premium, and Office 365 Business Essentials.
 
 Learn more about how you can [assign licenses to users in Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Microsoft Stream. Ensure that Microsoft Stream is not blocked for the users, as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
 

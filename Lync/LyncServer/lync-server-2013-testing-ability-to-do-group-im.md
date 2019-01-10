@@ -57,7 +57,7 @@ _**Topic Last Modified:** 2014-06-05_
 
 The Test-CsGroupIM cmdlet verifies that users in your organization can conduct group instant messaging sessions. When you run Test-CsGroupIM, the cmdlet attempts to sign in a pair of test users to Lync Server. If successful, Test-CsGroupIM creates a new conference using the first test user, then invites the second user to join the conference. After an exchange of messages, both users are then disconnected from the system. Note that all of this happens without any user interaction, and without affecting any actual users. For example, suppose that the test account sip:kenmyer@litwareinc.com corresponds to a real user who has a real Lync Server account. In that case, the test will be conducted without any disruption to the real Ken Myer. For example, even when the Ken Myer test account logs off from the system, Ken Myer the person will remain logged on. Likewise, the real Ken Myer won't receive an invitation to join the conference. That invitation will be sent to, and accepted by, the test account.
 
-For more information, see the Help documentation for the [Test-CsGroupIM](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsGroupIM) cmdlet.
+For more information, see the Help documentation for the [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) cmdlet.
 
 </div>
 
@@ -75,7 +75,7 @@ To run this check using actual user accounts, you must create two Lync Server Ma
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsGroupIm -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-For more information, see the Help documentation for the [Test-CsGroupIM](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsGroupIM) cmdlet.
+For more information, see the Help documentation for the [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) cmdlet.
 
 </div>
 

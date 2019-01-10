@@ -99,7 +99,7 @@ However, the following user account information does not move to the new server:
 
   - Meeting content, for example PowerPoint presentations, whiteboard content, and poll data
 
-To move the content that has been shared in meetings, use the MoveMeetingContent parameter of the Move-CsUser cmdlet. For details about using this cmdlet, see [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser) in the Lync Server 2013 cmdlets documentation.
+To move the content that has been shared in meetings, use the MoveMeetingContent parameter of the Move-CsUser cmdlet. For details about using this cmdlet, see [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) in the Lync Server 2013 cmdlets documentation.
 
 </div>
 

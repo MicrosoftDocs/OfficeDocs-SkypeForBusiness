@@ -18,12 +18,18 @@ appliesto:
 
 # Skype for Business to Microsoft Teams upgrade
 
-
 Supporting Microsoft’s intelligent communications vision, Microsoft Teams is the central hub for teamwork, bringing together chat, meetings, calling, collaboration, app integration, and file storage. As an existing Skype for Business customer, you’re invited to upgrade to Microsoft Teams, to experience this full suite of communication and collaboration capabilities in a single client experience.
 
 Your upgrade journey might take some time, and we’re here to support you every step of the way. Whether you’re just getting started with Teams, already using Teams alongside Skype for Business, or ready to upgrade, we’re working hard to bring you the right level of guidance for your organization and encourage you to take the next steps to begin realizing the value Teams can offer your organization.
 
 View this [overview](https://aka.ms/UpgradeOverview) for an introduction to the Skype for Business to Teams upgrade journey, including core concepts, framework, and upgrade paths.
+
+> [!Tip]
+> Watch the following session to learn about the Upgrade from Skype for Business to Microsoft Teams: 
+> - [Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)
+> - [Plan your upgrade](https://aka.ms/teams-upgrade-plan)
+> - [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Administrator experience](https://aka.ms/teams-upgrade-admin)
 
 ## Upgrade journey framework
 

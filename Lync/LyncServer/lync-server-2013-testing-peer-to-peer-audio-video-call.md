@@ -59,7 +59,7 @@ Test-CsP2PAV is used to determine whether a pair of test users can participate i
 
 Test-CsP2PAV does not actually conduct an A/V call. Multimedia information is not exchanged between the test users. Instead, the cmdlet merely verifies that the appropriate connections can be made and that the two users can conduct such a call.
 
-For more information, see the Help documentation for the [Test-CsP2PAV](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsP2PAV) cmdlet.
+For more information, see the Help documentation for the [Test-CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) cmdlet.
 
 </div>
 

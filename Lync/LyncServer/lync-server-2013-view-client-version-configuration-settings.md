@@ -75,7 +75,7 @@ You can view client version configuration settings by using the **Get-CsClientVe
 
 </div>
 
-For details, see the Help topic for the [Get-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionConfiguration) cmdlet.
+For details, see the Help topic for the [Get-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) cmdlet.
 
 </div>
 

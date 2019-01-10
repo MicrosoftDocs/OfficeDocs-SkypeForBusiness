@@ -51,7 +51,7 @@ items:
   content: |
     Out of the box, Teams supports the ability for users to make voice over IP (VoIP) calls from Teams client to Teams client.
 
-    In Teams, there are two options to enable users users to make, receive, and transfer calls to and from landlines and mobile phones on the public switched telephone network (PSTN):
+    In Teams, there are two options to enable users to make, receive, and transfer calls to and from landlines and mobile phones on the public switched telephone network (PSTN):
     - With Phone System with Calling Plans Microsoft provides the phone number to your users and all PSTN services
     - With Direct Connect you can connect your existing PSTN connectivity via an SBC (Session Boarder Controller) to Microsoft Teams.
 

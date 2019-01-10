@@ -1,25 +1,24 @@
 ---
-title: "Upgrade Statistics Manager for Skype for Business Server 2015"
+title: "Upgrade Statistics Manager for Skype for Business Server"
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/10/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: "Summary: Read this topic to learn how to upgrade Statistics Manager for Skype for Business Server 2015."
+description: "Summary: Read this topic to learn how to upgrade Statistics Manager for Skype for Business Server."
 ---
 
-# Upgrade Statistics Manager for Skype for Business Server 2015
+# Upgrade Statistics Manager for Skype for Business Server
  
-**Summary:** Read this topic to learn how to upgrade Statistics Manager for Skype for Business Server 2015.
+**Summary:** Read this topic to learn how to upgrade Statistics Manager for Skype for Business Server.
   
 This topic describes how to upgrade an existing installation of Statistics Manager for Skype for Business Server—a powerful tool that allows you to view Skype for Business Server health and performance data in real time. You can poll performance data across hundreds of servers every few seconds, and view the results instantly on the Statistics Manager Website. 
   
-For more information about Statistics Manager and the new features in Release 1.1, see [Plan for Statistics Manager for Skype for Business Server 2015](plan.md) and [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md). For information about known issues fixed in Release 1.1, see [Known issues fixed in release 1.1](upgrade.md#BKMK_Fixed).
+For more information about Statistics Manager and the new features in Release 2.0, see [Plan for Statistics Manager for Skype for Business Server](plan.md) and [Deploy Statistics Manager for Skype for Business Server](deploy.md).
   
 There are two methods for upgrading:
   
@@ -95,35 +94,15 @@ If for some reason, the automated upgrade fails, you can always perform a manual
     >  Keep Redis installed so that the data in the cache will then be maintained through the upgrade process.
   
 2. Install the new versions of the components, including the values you saved above when prompted for them. For more information about installing components, see [Deploy Statistics Manager](deploy.md#BKMK_Deploy)
-    
-## Known issues fixed in release 1.1
-<a name="BKMK_Fixed"> </a>
 
-The following known issues have been fixed in release 1.1:
-  
-- UI/Server/Agent - Numerous significant reliability and performance improvements
-    
-- UI - Main filter control now sorts correctly with different cases (was leading people to think certain servers weren't in the system when they were)
-    
-- Server - Server components will now install on non-English servers.
-    
-- Server/Agent - In some cases, agent and server components would not install with .NET errors due to a specific version of .NET 4.0. This has been resolved.
-    
-- Agent - Extended event logging added for the StatsMan Agent. The agent will no longer crash when installed on a server not in the topology, this will now be logged in the event log, along with many other possible error conditions.
-    
-- UI - Web clients using the Chrome browser would see multiple login prompts when using a client computer not joined to the same workgroup or domain as the Statistics Manager Web server. Now only a single login should be required per session.
     
 ## For more information
 <a name="BKMK_Fixed"> </a>
 
 For more information, see the following:
   
-- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
+- [Plan for Statistics Manager for Skype for Business Server](plan.md)
     
-- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
+- [Deploy Statistics Manager for Skype for Business Server](deploy.md)
     
-- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
-    
-- [Skype for Business Server Statistics Manager blog](https://blogs.technet.microsoft.com/skypestatsman/)
-    
-
+- [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md)
