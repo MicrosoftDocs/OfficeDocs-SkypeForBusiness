@@ -21,8 +21,6 @@ To get started quickly on Teams, we recommend you create two or three teams and 
 
 Use Teams to quickly pull together a team with people inside and outside your organization, chat with others to drive fast and inclusive conversations, securely share and coauthor documents, and iterate on projects. Customize Teams by adding fingertip access to shared notes, webpages, and apps. Use meetings and calling to collaborate in real time from wherever users are. Teams will simplify your access to Office 365 services and  third-party apps to be the new center of gravity for your collaboration and communication needs. 
 
-Check out the [Teams Adoption Guide](https://aka.ms/teamstoolkit).
-
 ![Get started with Teams](media/get-started-microsoft-teams.png "Screen shot showing the Teams desktop client and mobile client user interface" ) 
 
 Here's how to roll out your first set of teams and channels so your early adopters can start chatting, sharing files, and collaborating.
@@ -40,3 +38,5 @@ Make sure you’ve got Teams licenses for everybody. Check out [Compare Teams pl
 
 ## Next steps
 Go to [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md).
+
+Check out the [Teams Adoption Guide](https://aka.ms/teamstoolkit).
