@@ -1,6 +1,5 @@
 ---
-title: Manage Shifts for firstline workers in your organization
-author: LanaChin
+title: Manage Shifts for firstline workers in Microsoft Teams
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -8,7 +7,7 @@ ms.date: 1/10/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Learn how to set up and manage Shifts in Teams for firstline workers in your organization.
+description: Learn how to set up and manage the Shifts app in Teams for firstline workers in your organization.
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
