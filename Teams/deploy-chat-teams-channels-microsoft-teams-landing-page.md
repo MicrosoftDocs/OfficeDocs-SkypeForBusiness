@@ -200,7 +200,7 @@ IT Pros working in education can take advantage of Teams for Education, which co
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Will I use EDU-specific Teams templates?</li><li>Will I deploy scoped search?</li><li>Will I integrate Teams with the School Data Sync service to provision user accounts?</li></ul> |<ul><li> To learn more about Teams EDU, see [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md).</li><li>To set up Teams EDU, see [Quickstart - Microsoft Teams for Education admins](teams-quick-start-edu.md).|
+|<ul><li>Will I use EDU-specific Teams templates?</li><li>Will I deploy scoped search?</li><li>Will I integrate Teams with the School Data Sync service to provision user accounts?</li></ul> |<ul><li> To learn more about Teams EDU, see [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md).</li><li>To set up Teams EDU, see [Quickstart - Microsoft Teams for Education admins](teams-quick-start-edu.yml).|
 |||
 
 ### Government - GCC considerations
