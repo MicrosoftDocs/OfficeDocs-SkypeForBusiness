@@ -3,7 +3,7 @@ title: Get started with Teams templates
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/17/2018
+ms.date: 01/10/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -26,8 +26,8 @@ In this article, we'll explain the properties that can be defined in templates, 
  
 This article is for you if you're:
 
-•	Responsible for planning, deploying, and managing multiple teams across your organization
-•	A developer wanting to programmatically create a team with predefined channels and apps 
+- Responsible for planning, deploying, and managing multiple teams across your organization<br>
+- A developer wanting to programmatically create a team with predefined channels and apps 
 
 ## Team template capabilities
 
@@ -37,7 +37,7 @@ Most properties in a team are included and supported by templates. But there are
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Base template type | Team membership |
 | Team name | Team picture |
-| Team description | Channel settings (for example, auto-favorite and privacy) |
+| Team description | Channel settings |
 | Team visibility (public or private) | Connectors |
 | Team settings (for example, member, guest, @ mentions) | Files and content |
 | Auto-favorite channel | |
@@ -57,11 +57,11 @@ By default the base template is set to **Standard** which doesn't contain any ad
 
 | Base template type | baseTemplateId | Base template proprietary apps and special properties |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json) | No additional apps and properties |
-| Healthcare - care coordination | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-CC.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-CC.json#) | Apps:<br/> - Patients app (pinned to the **General** tab)<br/> <br/>Channels: <br/> - Announcements<br/> - Diabetes<br/> - Cardiovascular<br/> - Registered nurses |
-| Healthcare - process huddle | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-PH.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-PH.json#) | Channels:<br/> - Avoidable deaths<br/> - Mortality review <br/> - Preventing falls <br/> - Sepsis plans |
-| Education - Class team<sup>1</sup> | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-CT.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-CT.json#) | Apps:<br/> - OneNote Class Notebook (pinned to the **General** tab) <br/> - Assignments app (pinned to the **General** tab) <br/><br/> Team properties <br/> - Team visibility set to **HiddenMembership** (cannot be overridden) |
-| Education - Staff team<sup>1</sup> | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-ST.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-ST.json#) | Apps<br/> - OneNote Staff Notebook (pinned to the **General** tab) |
+| Standard | [https://graph.microsoft.com/beta/teamsTemplates/standard](https://graph.microsoft.com/beta/teamsTemplates/standard) | No additional apps and properties |
+| Education - Class team<sup>1</sup> | [https://graph.microsoft.com/beta/teamsTemplates/educationClass](https://graph.microsoft.com/beta/teamsTemplates/educationClass) | Apps:<br/> - OneNote Class Notebook (pinned to the **General** tab) <br/> - Assignments app (pinned to the **General** tab) <br/><br/> Team properties <br/> - Team visibility set to **HiddenMembership** (cannot be overridden) |
+| Education - Staff team<sup>1</sup> | [https://graph.microsoft.com/beta/teamsTemplates/educationStaff](https://graph.microsoft.com/beta/teamsTemplates/educationStaff) | Apps<br/> - OneNote Staff Notebook (pinned to the **General** tab) |
+|Education - PLC team |[https://graph.microsoft.com/beta/teamsTemplates/educationProfessionalLearningCommunity](https://graph.microsoft.com/beta/teamsTemplates/educationProfessionalLearningCommunity) | Apps - OneNote PLC Notebook (pinned to the **General** tab)|
+|||
 
 <sup>1</sup> Publication in late October, 2018
 
@@ -79,15 +79,13 @@ You can start using a template to create a team by installing [Microsoft Graph](
 **Request to create a team with the standard base template**
 
 ~~~
-POST   /teams
+POST /teams
 Authorization: Bearer <TOKEN>
 Content-Type: application/json
 {
-    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
-    "schemaVersion": "1.0",
-    
-    "teamDisplayName": "My Sample Team",
-    "teamDescription": "My Sample Team’s Description",
+  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/standard",
+  "displayName": "Sample Team",
+  "description": "Sample Team’s Description"
 }
 
 ~~~
@@ -95,23 +93,21 @@ Content-Type: application/json
 **Request to create a team with an extra channel and disallow members from deleting channels**
 
 ~~~
-POST   /teams
+POST /teams
 Authorization: Bearer <TOKEN>
 Content-Type: application/json
 {
-    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
-    "schemaVersion": "1.0",
-    
-    "teamDisplayName": "My Sample Team",
-    "teamDescription": "My Sample Team’s Description",
-    "channels": [
-        {
-            "displayName": "Interns",
-            "autoFavorite": false
-        }
-    ],
+  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/standard",
+  "displayName": "My Sample Team",
+  "description": "My Sample Team’s Description",
+  "channels": [
+    {
+        "displayName": "Random",
+        "isFavoriteByDefault": true
+    }
+              ],
     "memberSettings": {
-        "allowDeleteChannels": false,
+        "allowDeleteChannels": false
     }
 }
 
@@ -120,93 +116,85 @@ Content-Type: application/json
 **Request to create a team with all supported properties**
 
 ~~~
-POST   /teams
+POST /teams
 Authorization: Bearer <TOKEN>
 Content-Type: application/json
 {
-    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
-    "schemaVersion": "1.0",
- 
-    "teamType": "Healthcare_CareCoordination",
+    "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
     "visibility": "Private",
-    "teamDisplayName": "My Care Team",
-    "teamDescription": "My Care Team’s description",
- 
+    "displayName": "Sample Engineering Team",
+    "description": "This is a sample engineering team, used to showcase the range of properties supported by this API",
     "channels": [
         {
-            "displayName": "General  ",
-            "autoFavorite": true,
+            "displayName": "Announcements 📢",
+            "isFavoriteByDefault": true,
+            "description": "This is a sample announcements channel that is favorited by default. Use this channel to make important team, product, and service announcements."
+        },
+        {
+            "displayName": "Training 🏋️",
+            "isFavoriteByDefault": true,
+            "description": "This is a sample training channel, that is favorited by default, and contains an example of pinned website and YouTube tabs.",
             "tabs": [
-                   {
-                       "appId": "0d820ecd-def2-4297-adad-78056cde7c78",
-                       "tabDisplayName": "Intranet”
-                   }
-               ]
+                {
+                    "teamsApp@odata.bind":
+"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                   "name": "A Pinned Website",
+                    "configuration": {
+                        "contentUrl": "https://docs.microsoft.com/en-us/microsoftteams/microsoft-teams"
+                    }
+                },
+                {
+                    "teamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.youtube')",
+                    "name": "A Pinned YouTube Video",
+                    "configuration": {
+                        "contentUrl": "https://tabs.teams.microsoft.com/Youtube/Home/YoutubeTab?videoId=X8krAMdGvCQ",
+                        "websiteUrl": "https://www.youtube.com/watch?v=X8krAMdGvCQ"
+                    }
+                }
+            ]
         },
         {
-            "displayName": "Announcements",
-            "autoFavorite": true
+"displayName": "Planning 📅 ",
+            "description": "This is a sample of a channel that is not favorited by default, these channels will appear in the more channels overflow menu.",
+            "isFavoriteByDefault": false
         },
         {
-            "displayName": "Diabetes",
-            "autoFavorite": true
-        },
-        {
-            "displayName": "Cardiovascular",
-            "autoFavorite": true
-        },
-        {
-            "displayName": "Registered Nurses",
-            "autoFavorite": true
+            "displayName": "Issues and Feedback 🐞",
+            "description": "This is a sample of a channel that is not favorited by default, these channels will appear in the more channels overflow menu."
         }
     ],
- 
-     "memberSettings": {
+    "memberSettings": {
         "allowCreateUpdateChannels": true,
         "allowDeleteChannels": true,
         "allowAddRemoveApps": true,
         "allowCreateUpdateRemoveTabs": true,
         "allowCreateUpdateRemoveConnectors": true
-      },
- 
-      "guestSettings": {
+    },
+    "guestSettings": {
         "allowCreateUpdateChannels": false,
         "allowDeleteChannels": false
-      },
- 
-      "messagingSettings": {
+    },
+    "funSettings": {
+        "allowGiphy": true,
+        "giphyContentRating": "Moderate",
+        "allowStickersAndMemes": true,
+        "allowCustomMemes": true
+    },
+    "messagingSettings": {
         "allowUserEditMessages": true,
         "allowUserDeleteMessages": true,
         "allowOwnerDeleteMessages": true,
         "allowTeamMentions": true,
         "allowChannelMentions": true
-      },
- 
-      "funSettings": {
-        "allowGiphy": true,
-        "giphyContentRating": "moderate",
-        "allowStickersAndMemes": true,
-        "allowCustomMemes": true
-      }
- 
- 
-    "installedApplications": [
-      {
-        "id": "0d820ecd-def2-4297-adad-78056cde7c78"
-      }
+    },
+    "installedApps": [
+        {
+            "teamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.vsts')"
+        },
+        {
+            "teamsApp@odata.bind": "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('1542629c-01b3-4a6d-8f76-1938b779e48d')"
+        }
     ]
-}
-~~~
-
-#### Response
-
-~~~
-HTTP/1.1 202 Accepted
-Content-Type: application/json
-Location: /workflow/status/c953c202-7b44-4a63-aa33-364fcb2d65aa
-{
-    "workflowId": "c953c202-7b44-4a63-aa33-364fcb2d65aa",
-    "statusUri": "https://<apihostandpath>/workflow/status/c953c202-7b44-4a63-aa33-364fcb2d65aa"
 }
 ~~~
 
