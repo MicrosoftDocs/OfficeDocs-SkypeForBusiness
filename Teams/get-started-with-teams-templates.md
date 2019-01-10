@@ -57,10 +57,10 @@ By default the base template is set to **Standard** which doesn't contain any ad
 
 | Base template type | baseTemplateId | Base template proprietary apps and special properties |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | [https://graph.microsoft.com/beta/teams<br>Templates/standard](https://graph.microsoft.com/beta/teamsTemplates/standard) | No additional apps and properties |
-| Education - <br>Class team<sup>1</sup> | [https://graph.microsoft.com/beta/teams<br>Templates/educationClass](https://graph.microsoft.com/beta/teamsTemplates/educationClass) | Apps:<ul><li>OneNote Class Notebook (pinned to the **General** tab) </li><li>Assignments app (pinned to the **General** tab)</li></ul> Team properties:<ul><li>Team visibility set to **HiddenMembership** (cannot be overridden)</li></ul> |
-| Education -<br>Staff team<sup>1</sup> | [https://graph.microsoft.com/beta/teams<br>Templates/educationStaff](https://graph.microsoft.com/beta/teamsTemplates/educationStaff) | Apps:<ul><li>OneNote Staff Notebook (pinned to the **General** tab)</li></ul> |
-|Education -<br>PLC team |[https://graph.microsoft.com/beta/teams<br>Templates/educationProfessionalLearningCommunity](https://graph.microsoft.com/beta/teamsTemplates/educationProfessionalLearningCommunity) | Apps:<ul><li>OneNote PLC Notebook (pinned to the **General** tab)</ul></li>|
+| Standard | [https://graph.microsoft.com/beta/teamsTemplates/standard](https://graph.microsoft.com/beta/teamsTemplates/standard) | No additional apps and properties |
+| Education - <br>Class team<sup>1</sup> | [https://graph.microsoft.com/beta/teamsTemplates/educationClass](https://graph.microsoft.com/beta/teamsTemplates/educationClass) | Apps:<ul><li>OneNote Class Notebook (pinned to the **General** tab) </li><li>Assignments app (pinned to the **General** tab)</li></ul> Team properties:<ul><li>Team visibility set to **HiddenMembership** (cannot be overridden)</li></ul> |
+| Education -<br>Staff team<sup>1</sup> | [https://graph.microsoft.com/beta/teamsTemplates/educationStaff](https://graph.microsoft.com/beta/teamsTemplates/educationStaff) | Apps:<ul><li>OneNote Staff Notebook (pinned to the **General** tab)</li></ul> |
+|Education -<br>PLC team |[https://graph.microsoft.com/beta/teamsTemplates/educationProfessionalLearningCommunity](https://graph.microsoft.com/beta/teamsTemplates/educationProfessionalLearningCommunity) | Apps:<ul><li>OneNote PLC Notebook (pinned to the **General** tab)</ul></li>|
 |||
 
 <sup>1</sup> Publication in late October, 2018
