@@ -23,20 +23,22 @@ For your first set of teams, we recommend you review reports twice a week to und
 
 For example, usage reports show that most users are only using the Teams web client. This may indicate that users aren't sure how to install other clients. Posting step-by-step installation instructions in a channel may help drive usage of a wider range of clients. Or, usage reports show that users are primarily using Teams for private chats. In this example, you may want to review your team scenarios because users are chatting outside the initial teams and channels that were set up. 
 
-Here's two ways to get reports to view Teams usage. 
+Here's three ways to get reports to view Teams usage. 
 
 ### Teams analytics & reporting in the Microsoft Teams & Skype for Business Admin Center
 
+Teams reports in the Microsoft Teams & Skype for Business Admin Center give you insights into how Teams is used in your organization, including Teams usage, user activity, and device usage. 
+
 To view these reports, you must be a global admin in Office 365, Teams service admin, or Skype for Business admin. Go to the Microsoft Teams & Skype for Business Admin Center, in the left navigation, select **Analytics & reports**, and then under **Report**, choose the report you want to run.
 
-- **Teams usage report**:
+- **Teams usage report**: This report gives you an overview of usage activity in Teams, including the total active users and channels, and the number of active users and channels, guests, and messages in each team. 
 
     ![Teams usage report](media/teams-reports-teams-usage.png "Screen shot of the Teams usage report in the Microsoft Teams & Skype for Business Admin Center")     
-- **Teams user activity report**:
+- **Teams user activity report**: This report gives you insight into the types of activities users perform in Teams. You can see how many people communicate through 1:1 calls, channel messages, and private chat messages. 
 
     ![Teams user activity report](media/teams-reports-user-activity.png "Screen shot of the Teams user activity report in the Microsoft Teams & Skype for Business Admin Center") 
 `
-- **Teams device usage report**:
+- **Teams device usage report**: This report shows you how users connect to Teams. Use this report to see the devices that are used across your organization. 
 
     ![Teams device usage report](media/teams-reports-device-usage.png "Screen shot of the Teams device usage report in the Microsoft Teams & Skype for Business Admin Center")
 
