@@ -29,7 +29,7 @@ The Teams user activity report gives you insight into the types of activities th
 
 ## Interpret the report
 
-![Screenshot of the Teams user activity report in the Microsoft Teams & Skype for Business Admin Center with numbered callouts](../media/teams-reports-user-activity.png "Screenshot of the Teams user activity report in the Microsoft Teams & Skype for Business Admin Center with numbered callouts")
+![Screenshot of the Teams user activity report in the Microsoft Teams & Skype for Business Admin Center with numbered callouts](../media/teams-reports-user-activity=with-callouts.png "Screenshot of the Teams user activity report in the Microsoft Teams & Skype for Business Admin Center with numbered callouts")
 
 |Callout |Description  |
 |--------|-------------|
