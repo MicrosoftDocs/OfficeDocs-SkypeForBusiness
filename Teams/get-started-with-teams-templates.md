@@ -57,10 +57,10 @@ By default the base template is set to **Standard** which doesn't contain any ad
 
 | Base template type | baseTemplateId | Base template proprietary apps and special properties |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | [https://graph.microsoft.com/beta/teamsTemplates/standard](https://graph.microsoft.com/beta/teamsTemplates/standard) | No additional apps and properties |
-| Education - Class team<sup>1</sup> | [https://graph.microsoft.com/beta/teamsTemplates/educationClass](https://graph.microsoft.com/beta/teamsTemplates/educationClass) | Apps:<br/> - OneNote Class Notebook (pinned to the **General** tab) <br/> - Assignments app (pinned to the **General** tab) <br/><br/> Team properties <br/> - Team visibility set to **HiddenMembership** (cannot be overridden) |
-| Education - Staff team<sup>1</sup> | [https://graph.microsoft.com/beta/teamsTemplates/educationStaff](https://graph.microsoft.com/beta/teamsTemplates/educationStaff) | Apps<br/> - OneNote Staff Notebook (pinned to the **General** tab) |
-|Education - PLC team |[https://graph.microsoft.com/beta/teamsTemplates/educationProfessionalLearningCommunity](https://graph.microsoft.com/beta/teamsTemplates/educationProfessionalLearningCommunity) | Apps - OneNote PLC Notebook (pinned to the **General** tab)|
+| Standard | [https://graph.microsoft.com/beta/teams<br>Templates/standard](https://graph.microsoft.com/beta/teamsTemplates/standard) | No additional apps and properties |
+| Education - <br>Class team<sup>1</sup> | [https://graph.microsoft.com/beta/teams<br>Templates/educationClass](https://graph.microsoft.com/beta/teamsTemplates/educationClass) | Apps:<ul><li>OneNote Class Notebook (pinned to the **General** tab) </li><li>Assignments app (pinned to the **General** tab)</li></ul> Team properties:<ul><li>Team visibility set to **HiddenMembership** (cannot be overridden)</li></ul> |
+| Education -<br>Staff team<sup>1</sup> | [https://graph.microsoft.com/beta/teams<br>Templates/educationStaff](https://graph.microsoft.com/beta/teamsTemplates/educationStaff) | Apps:<ul><li>OneNote Staff Notebook (pinned to the **General** tab)</li></ul> |
+|Education -<br>PLC team |[https://graph.microsoft.com/beta/teams<br>Templates/educationProfessionalLearningCommunity](https://graph.microsoft.com/beta/teamsTemplates/educationProfessionalLearningCommunity) | Apps:<ul><li>OneNote PLC Notebook (pinned to the **General** tab)</ul></li>|
 |||
 
 <sup>1</sup> Publication in late October, 2018
@@ -70,7 +70,7 @@ By default the base template is set to **Standard** which doesn't contain any ad
 
 ## Examples 
 
-You can start using a template to create a team by installing [Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview).
+You can start using a template to create a team by using the [Microsoft Graph API](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 ### Create a team from a template
 
@@ -228,6 +228,6 @@ Content-Type: application/json
 
 ## Related topics
 
-- [Create team](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/team_put_teams) (in preview)
+- [Create team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (in preview)
 - [New-Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Admin training for Microsoft Teams](itadmin-readiness.md)
