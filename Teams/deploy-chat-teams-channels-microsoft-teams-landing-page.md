@@ -209,5 +209,5 @@ The use of Microsoft 365 Government - GCC is appropriate to meet the requirement
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I need to deploy Teams in a Microsoft 365 Government – GCC environment? | For deployment considerations, see [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md.|
+| Will I need to deploy Teams in a Microsoft 365 Government – GCC environment? | For deployment considerations, see [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md).|
 |||
