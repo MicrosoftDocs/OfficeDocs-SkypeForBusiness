@@ -50,7 +50,7 @@ Shifts is enabled by default for all Teams users in your organization. You can t
 
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them. 
  
-Teams includes a built-in FirstLineWorker app setup policy. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. Assign the policy to firstline workers in your organization.
+Teams includes a built-in FirstLineWorker app setup policy that you can assign to firstline workers in your organization. By default, the policy includes the Activity, Shifts, Chat, and Calling apps. 
 
 To view the FirstLineWorker policy, in the left navigation of the Microsoft Teams & Skype for Business Admin Center, go to **Teams app** > **App setup policies**.
 
