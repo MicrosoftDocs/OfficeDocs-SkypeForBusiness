@@ -110,48 +110,11 @@ Check back frequently - we'll keep updating this list so you'll always know abou
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Architecture</h3>
-                        <p><a href="http://aka.ms/teams-foundations">Video: Foundations - Core components of Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Plan & deploy</h3>
-                         <p><a href="quick-start-enable-teams.md">Quick start: Teams planning guide</a></p>
-                         <p><a href="http://aka.ms/teams-clients">Video: Teams Windows desktop client</a></p>
-                         <p><a href="http://aka.ms/teams-governances">Video: Governance, management and lifecycle in Microsoft Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li> <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Teams for Education</h3>
-                        <p><a href="teams-quick-start-edu.yml">Quick start: Teams for Education admins</a></p>
+                        <h3>Adoption specialist certification</h3>
+                        <p><a href="http://aka.ms/AdoptionCert">In early January 2019, we released a <a href="https://aka.ms/AdoptionCertAnnouncement">Microsoft Service Adoption Specialist Certification course</a>, designed to teach you what you need to know to successfully drive the adoption of Microsoft services in your company. This course uses Teams as the example service. </a></p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
-<li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Teams & channels</h3>
-                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Video: Get your team up and running</a></p>
-                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Video: Go-to guide for team owners</a></p>
-                         <p><a href="create-an-org-wide-team.md">Article: Create an org-wide team in Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
+  
