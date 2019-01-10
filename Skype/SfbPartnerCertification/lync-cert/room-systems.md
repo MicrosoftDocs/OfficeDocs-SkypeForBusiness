@@ -99,7 +99,3 @@ Lync Room Systems are designed to extend the Lync meeting experience to the conf
 		</tr>
 	</tbody>
 </table>
-
-
-## Just want to search for tested hardware?
-To find additional product information, pictures, and comparisons of tested audio, video, conferencing, and other products, see the [partner solutions catalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog).

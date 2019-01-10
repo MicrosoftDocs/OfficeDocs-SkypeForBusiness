@@ -41,18 +41,18 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 5. In the **Select a Service** search field, type all or part of the name of the **ApplicationServer** service that hosts the workflow that you want to create or change. In the resulting list of services, click the service that you want, and then click **OK**.
 
     > [!NOTE]
-    > The Response Group Configuration Tool opens. You can also open the Response Group Configuration Tool directly from a web browser by typing the following URL: https:// _\<webPoolFqdn\>_/RgsConfig.
+    > The Response Group Configuration Tool opens. You can also open the Response Group Configuration Tool directly from a web browser by typing the following URL: https://\<webPoolFqdn\>/RgsConfig.
 
 6. Do one of the following:
 
-   - Under **Create a New Workflow**, next to **Hunt Group, click Create**.
+   - Under **Create a New Workflow**, next to **Hunt Group**, click **Create**.
 
    - Under **Manage an Existing Workflow**, locate the workflow you want to change, and then under **Action**, click **Edit**.
 
 7. If you are ready for users to start calling the workflow, select **Activate the workflow**.
 
     > [!NOTE]
-    >  If you are to creating a managed workflow, you need to select **Activate the workflow**. After you save the active, managed workflow, you can then modify and deactivate it.
+    >  If you are creating a managed workflow, you need to select **Activate the workflow**. After you save the active, managed workflow, you can then modify and deactivate it.
 
 8. To allow federated users to call the group, select the **Enable for federation** check box. You must also have an external access policy that applies to the Response Group application configured for federation.
 
@@ -60,7 +60,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
     > The global external access policy applies to the Response Group application. You can configure the global policy for response group federation by using Skype for Business Server Control Panel or by using the **Set-CsExternalAccessPolicy** cmdlet to set the EnableOutsideAccess parameter to True. Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy. Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization. For details about how policies apply to users, see [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). For details about the federation setting, see [Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
 
     > [!NOTE]
-    > Users who are hosted in Skype for Business Online can't place calls to response groups that are hosted in an on-premise deployment. This is true in both hybrid deployments and in cases where an on-premise deployment is federated with a Skype for Business Online deployment.
+    > Users who are hosted in Skype for Business Online can't place calls to response groups that are hosted in an on-premises deployment. This is true in both hybrid deployments and in cases where an on-premises deployment is federated with a Skype for Business Online deployment.
 
 9. To hide the identity of agents during calls, select the **Enable agent anonymity** check box.
 
@@ -125,7 +125,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 
 20. If you are creating a custom schedule for this workflow, click the check boxes for the days of the week that the response group is available.
 
-21. If you are creating a custom schedule, type the **Open** and **Close** hours for each day of the week that the response group available.
+21. If you are creating a custom schedule, type the **Open** and **Close** hours for each day of the week that the response group is available.
 
     > [!NOTE]
     > The **Open** and **Close** hours must be in 24-hour time notation. For example, if your office works a 9-to-5 work day and closes at noon for lunch, the business hours are specified as **Open** 9:00, **Close** 12:00, **Open** 13:00, and **Close** 17:00.
@@ -146,11 +146,11 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 
     - To disconnect the call, click **Disconnect Call**.
 
-    - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  *\<username\>*@ *\<domainName\>* (for example, bob@contoso.com).
+    - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  *\<username\>*@*\<domainName\>* (for example, bob@contoso.com).
 
-    - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainName\>_.
+    - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@_\<domainName\>_.
 
-    - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  *\<number\>*@ *\<domainName\>* (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
+    - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  *\<number\>*@*\<domainName\>* (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
 
 24. Under **Step 5 Specify Your Holidays**, click the check boxes for one or more sets of holidays that define the days when the response group is closed for business.
 
@@ -173,11 +173,11 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 
     - To disconnect the call, click **Disconnect Call**.
 
-    - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  *\<username\>*@ *\<domainName\>* (for example, bob@contoso.com).
+    - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  *\<username\>*@*\<domainName\>* (for example, bob@contoso.com).
 
-    - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainName\>_.
+    - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@_\<domainName\>_.
 
-    - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  *\<number\>*@ *\<domainName\>* (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
+    - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  *\<number\>*@*\<domainName\>* (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
 
 27. Under **Step 6 Configure a Queue**, in **Select the queue that will receive the calls**, select the queue that you want to hold callers until an agent becomes available.
 
@@ -228,7 +228,7 @@ A workflow also defines settings such as a welcome message, music on hold, busin
    ```
 
     > [!NOTE]
-    > For hunt group workflows, the default action must direct the call to a queue. This is parameter is required for active workflows. It is not required for inactive workflows.
+    > For hunt group workflows, the default action must direct the call to a queue. This parameter is required for active workflows. It is not required for inactive workflows.
 
     For example:
 
@@ -243,13 +243,13 @@ A workflow also defines settings such as a welcome message, music on hold, busin
 8. Retrieve the service name for the Lync Server Response Group service and assign it to a variable. At the command, run:
 
    ```
-   $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}).ServiceId;
+   $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 9. Create or modify the workflow. To create a workflow, use **New-CsRgsWorkflow**. To modify a workflow, use **Set-CsRgsWorkflow**. At the command line, type:
 
    ```
-   $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-MangersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
+   $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
    ```
 
     For example:
@@ -275,7 +275,7 @@ The Response Group application offers speech recognition and text-to-speech capa
 Interactive workflows support up to two levels of questions, with each question having up to four possible answers. The IVR asks the caller a question, and depending on the caller's response, routes the caller to a queue or asks a second question. The second question can also have four possible answers. Depending on the answer to the second-level question, the caller is routed to the appropriate queue.
 
 > [!NOTE]
-> When you design call flows by using Skype for Business Server Management Shell, you can define any number levels of IVR questions and any number of answers. However, for caller usability, we recommend that you not use more than three levels of questions, with not more than five answers each. In addition, if you design a call flow that has more than two levels of questions with more than four answers each, you cannot edit the call flow by using Skype for Business Server Control Panel.
+> When you design call flows by using Skype for Business Server Management Shell, you can define any number of levels of IVR questions and any number of answers. However, for caller usability, we recommend that you not use more than three levels of questions, with not more than five answers each. In addition, if you design a call flow that has more than two levels of questions with more than four answers each, you cannot edit the call flow by using Skype for Business Server Control Panel.
 
 The IVR questions and the caller's responses are provided to the responding agent who accepts the call.
 
@@ -374,7 +374,7 @@ The following list describes some best practices for designing your IVR:
 5. In the **Select a Service** search field, type all or part of the name of the **ApplicationServer** service that hosts the workflow that you want to create or modify. In the resulting list of services, click the service that you want, and then click **OK**.
 
     > [!NOTE]
-    > The Response Group Configuration Tool opens. You can also open the Response Group Configuration Tool directly from a web browser by typing the following URL: https:// _\<webPoolFqdn\>_/RgsConfig.
+    > The Response Group Configuration Tool opens. You can also open the Response Group Configuration Tool directly from a web browser by typing the following URL: https://\<webPoolFqdn\>/RgsConfig.
 
 6. Do one of the following:
 
@@ -385,7 +385,7 @@ The following list describes some best practices for designing your IVR:
 7. If you are not ready for users to start calling the workflow, clear the **Activate the workflow** check box.
 
     > [!NOTE]
-    >  If you are to creating a managed workflow, you need to select **Activate the workflow**. After you save the active, managed workflow, you can then modify and deactivate it.
+    >  If you are creating a managed workflow, you need to select **Activate the workflow**. After you save the active, managed workflow, you can then modify and deactivate it.
 
 8. To allow federated users to call the group, select the **Enable for federation** check box. You must also have an external access policy that applies to the Response Group application configured for federation.
 
@@ -393,7 +393,7 @@ The following list describes some best practices for designing your IVR:
     > The global external access policy applies to the Response Group application. You can configure the global policy for response group federation by using Skype for Business Server Control Panel or by using the **Set-CsExternalAccessPolicy** cmdlet to set the EnableOutsideAccess parameter to True. Keep in mind that global policy settings apply to all users unless they are assigned a site or user policy. Therefore, before changing this setting for response groups, make sure that the federation setting meets the requirements of your organization. For details about how policies apply to users, see [Manage External Access Policy for Your Organization](https://technet.microsoft.com/library/5571811e-34c8-443a-b94c-1ab5d4275581.aspx). For details about the federation setting, see **Set-CsExternalAccessPolicy** in documentation..
 
     > [!NOTE]
-    > Users who are hosted in Skype for Business Online can't place calls to response groups that are hosted in an on-premise deployment. This is true in both hybrid deployments and in cases where an on-premise deployment is federated with a Skype for Business Online deployment.
+    > Users who are hosted in Skype for Business Online can't place calls to response groups that are hosted in an on-premises deployment. This is true in both hybrid deployments and in cases where an on-premises deployment is federated with a Skype for Business Online deployment.
 
 9. To hide the identity of agents during calls, select the **Enable agent anonymity** check box.
 
@@ -405,7 +405,7 @@ The following list describes some best practices for designing your IVR:
 11. In **Display name**, type the name that you want to display for the workflow (for example, Sales IVR Response Group).
 
     > [!NOTE]
-    > Do not include the "\<" or "\>" characters in the display name. Do not use the following display names because they are reserved: RGS Presence Watcher or Announcement Service.
+    > Do not include the "\<" or "\>" characters in the display name. Do not use the following display names because they are reserved: **RGS Presence Watcher** or **Announcement Service**.
 
 12. In **Telephone number**, type the line URI for the response group (for example, +14255550165).
 
@@ -415,9 +415,9 @@ The following list describes some best practices for designing your IVR:
 
 15. In **Workflow Type**, select **Managed** if this workflow will be managed by a Response Group Manager. Do the following to assign Response Group Managers to the workflow:
 
-    a. Type the SIP URI of a manager for this workflow, and click **Add**..
+    a. Type the SIP URI of a manager for this workflow, and click **Add**.
 
-    b. Type the SIP URI of additional managers to add to the workflow, and click **Add**..
+    b. Type the SIP URI of additional managers to add to the workflow, and click **Add**.
 
     > [!IMPORTANT]
     > Every user who is designated as a manager of a response group must be assigned the CsResponseGroupManager role. If users are not assigned this role, they cannot manage response groups.
@@ -446,13 +446,13 @@ The following list describes some best practices for designing your IVR:
     - To use a predefined schedule of business hours, click **Use a preset schedule**, and then select the schedule you want to use from the drop-down list.
 
       > [!NOTE]
-      > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the **New-CSRgsHoursOfBusiness** cmdlet. For details, see [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md). When you select a preset schedule, **Day**, **Open**, and **Close** are automatically filled with the days and hours that the response group is available.
+      > You must have defined at least one preset schedule previously to be able to select this option. You define preset schedules by using the **New-CsRgsHoursOfBusiness** cmdlet. For details, see [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md). When you select a preset schedule, **Day**, **Open**, and **Close** are automatically filled with the days and hours that the response group is available.
 
     - To use a custom schedule that applies only to this workflow, click **Use a custom schedule**.
 
 20. If you are creating a custom schedule for this workflow, click the check boxes for the days of the week that the response group is available.
 
-21. If you are creating a custom schedule, type the **Open** and **Close** hours when the response group available.
+21. If you are creating a custom schedule, type the **Open** and **Close** hours when the response group will be available.
 
      > [!NOTE]
      > The **Open** and **Close** hours must be in 24-hour time notation. For example, if your office works a 9-to-5 work day and closes at noon for lunch, the business hours are specified as **Open** 9:00, **Close** 12:00, **Open** 13:00, and **Close** 17:00.
@@ -473,11 +473,11 @@ The following list describes some best practices for designing your IVR:
 
     - To disconnect the call, click **Disconnect Call**.
 
-    - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  *\<username\>*@ *\<domainname\>* (for example, bob@contoso.com).
+    - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  *\<username\>*@*\<domainname\>* (for example, bob@contoso.com).
 
-    - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainname\>_.
+    - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@_\<domainname\>_.
 
-    - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  *\<number\>*@ *\<domainname\>* (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
+    - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  *\<number\>*@*\<domainname\>* (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
 
 24. Under **Step 5 Specify Your Holidays**, click the check boxes for one or more sets of holidays that define the days when the response group is closed for business.
 
@@ -500,11 +500,11 @@ The following list describes some best practices for designing your IVR:
 
     - To disconnect the call, click **Disconnect Call**.
 
-    - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  *\<username\>*@ *\<domainname\>* (for example, bob@contoso.com).
+    - To forward the call to voice mail, click **Forward to voice mail**, and then type the voice mail address. The format for the voice mail address is  *\<username\>*@*\<domainname\>* (for example, bob@contoso.com).
 
-    - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@ _\<domainname\>_.
+    - To forward the call to another user, click **Forward to SIP URI**, and then type a user address. The format for the user address is  _\<username\>_@_\<domainname\>_.
 
-    - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  *\<number\>*@ *\<domainname\>* (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
+    - To forward the call to another telephone number, click **Forward to telephone number**, and then type the telephone number. The format for the telephone number is  *\<number\>*@*\<domainname\>* (for example, +14255550121@contoso.com). The domain name is used to route the caller to the correct destination.
 
 27. Under **Step 6 Configure Music on Hold**, choose what you want callers to listen to while waiting for an agent by doing one of the following:
 
@@ -561,7 +561,7 @@ The following list describes some best practices for designing your IVR:
 3. Retrieve the service name for the Response Group service and assign it to a variable. At the command line, run:
 
    ```
-   $serviceId="service:"+(Get-CSService | ?{$_.Applications -like "*RGS*"}) .ServiceId;
+   $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 4. An interactive workflow requires two or more queues and two or more agent groups. First, create the agent groups. Run:
@@ -634,7 +634,7 @@ The following list describes some best practices for designing your IVR:
     ```
 
      > [!NOTE]
-     > All users who have been designated as manager of a response group must be assigned th CsResponseGroupManager role. If users are not assigned this role, they cannot manage response groups.
+     > All users who have been designated as manager of a response group must be assigned the CsResponseGroupManager role. If users are not assigned this role, they cannot manage response groups.
 
 ## See also
 

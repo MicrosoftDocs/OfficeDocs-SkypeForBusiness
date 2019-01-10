@@ -24,6 +24,7 @@
 ## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
 ## [Plan for governance in Teams](plan-teams-governance.md)
 ## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
+## [Plan for Microsoft 365 Government - GCC High deployments](plan-for-government-gcc-high.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
@@ -87,7 +88,9 @@
 ### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
+### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
 ## Supported devices
+### [Manage your devices in Teams](device-management.md)
 ### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -96,11 +99,9 @@
 
 
 <!-- ============================================================ -->
-# [Upgrade from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
-## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Upgrade Basic](upgrade-basic.md)
-### [Sample emails and surveys](upgrade-emails-surveys.md)
-## [Upgrade Pro](upgrade-pro.md)
+# [Upgrade to Teams](upgrade-introduction.md)
+## [Get started](upgrade-start-here.md)
+## [About the upgrade framework](upgrade-framework.md)
 ## [Plan for your upgrade journey](upgrade-plan-journey.md)
 ### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 ### [Define your project scope](upgrade-define-project-scope.md)
@@ -117,22 +118,22 @@
 ### [Assess organizational change readiness](upgrade-org-change-readiness.md)
 ### [Prepare a user readiness plan](upgrade-user-readiness.md)
 ## [Conduct a user pilot](pilot-essentials.md)
-## [Perform your upgrade to Teams](upgrade-to-teams.md)
-### [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-### [Upgrade from Skype for Business hybrid to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
-### [Upgrade from Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
-## [Drive value through user adoption](continue-journey.md)
+## [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+## [Upgrade from Skype for Business hybrid or on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+## [Operate, adopt, and optimize](continue-journey.md)
 ### [Operate your service](upgrade-operate-my-service.md)
 ### [Monitor quality](upgrade-monitor-quality.md)
 ### [Enhance your service](upgrade-enhance-my-service.md)
+## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
-
+## Additional information
+### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Interoperability with Office 365
-## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-## [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
+
 ## [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 groups and Teams](office-365-groups.md)
 ## [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
@@ -487,6 +488,9 @@
 #### [What are dial plans?](what-are-dial-plans.md)
 #### [Create and manage dial plans](create-and-manage-dial-plans.md)
 ### Phone System
+#### Phones for Teams
+##### [Phones for Microsoft Teams](phones-for-teams.md)
+##### [Buying and deploying Microsoft Teams IP phones](buying-and-deploying-teams-ip-phones.md)
 #### [What is Phone System in Office 365?](what-is-phone-system-in-office-365.md)
 #### [Setting up Phone System in your organization](setting-up-your-phone-system.md)
 #### [Change the default language for voicemail greetings and emails](change-the-default-language-for-greetings-and-emails.md)
@@ -500,14 +504,20 @@
 #### [Set up Phone System voicemail](set-up-phone-system-voicemail.md)
 #### [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
+#### [Set up Common Area Phones in Microsoft Teams](set-up-common-area-phones.md)
+#### [Call park and retrieve](call-park-and-retrieve.md)
+#### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
+#### [Shared line appearance](shared-line-appearance.md)
 ### Phone System Direct Routing
 #### [Plan Direct Routing](direct-routing-plan.md)
 #### [Configure Direct Routing](direct-routing-configure.md)
-#### [Migrating to Direct Routing](direct-routing-migrating.md)
+#### [Migrate to Direct Routing](direct-routing-migrating.md)
 #### [Monitor and troubleshoot Direct Routing](direct-routing-monitor-and-troubleshoot.md)
 #### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 #### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
+#### Technical reference for Direct Routing
+##### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 

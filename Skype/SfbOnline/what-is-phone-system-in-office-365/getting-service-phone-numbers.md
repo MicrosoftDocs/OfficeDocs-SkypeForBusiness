@@ -45,7 +45,7 @@ You have two ways of getting service numbers so you can use them with Skype for 
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Office 365 admin center** > **Skype for Business**.
+2. Go to the **Admin center** > **Teams and Skype** > **Skype Legacy Admin**.
     
 3. In the left navigation go to **Voice** > **Phone numbers** > **Add new number**, and then click **New service numbers**.
     

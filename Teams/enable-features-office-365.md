@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Learn how to turn on or off Microsoft Teams apps in your Office 365 organization, including tabs, connectors, bots, or any combination of the three.
-localization_priority: Normal
+localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Teams_ITAdmin_Help
@@ -51,7 +51,7 @@ To learn more, read [Admin settings for apps in Teams](admin-settings.md).
 
 ## Teams org-wide settings
 
-You can control organization-wide user settings in the Microsoft Teams & Skype for Business Admin Center. To edit org-wide settings, go to the Microsoft Skype for Business Admin Center, and then select **Org-wide settings**. You can configure the following settings.
+You can control organization-wide user settings in the Microsoft Teams & Skype for Business Admin Center. To edit org-wide settings, go to the Microsoft Teams & Skype for Business Admin Center, and then select **Org-wide settings**. You can configure the following settings.
 
 ### External access
 
