@@ -46,5 +46,3 @@ To learn about in-depth management of the network infrastructure for Lync Server
 Updated version of Delivering Lync 2013 Real-Time Communications over Wi-Fi is included in this version.
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
-
-View the [partner solutions catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/) to see products certified for Skype for Business.
