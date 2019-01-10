@@ -29,7 +29,7 @@ The Teams device usage report in the Microsoft Teams & Skype for Business Admin 
 
 ## Interpret the report
 
-![Screen shot of the Teams device usage report in the Microsoft Teams & Skype for Business Admin Center](../teams-reports-device-usage-with-callouts.png "Screen shot of the Teams device usage report in the Microsoft Teams & Skype for Business Admin Center")
+![Screen shot of the Teams device usage report in the Microsoft Teams & Skype for Business Admin Center](../media/teams-reports-device-usage-with-callouts.png "Screen shot of the Teams device usage report in the Microsoft Teams & Skype for Business Admin Center")
 
 |Callout |Description  |
 |--------|-------------|
