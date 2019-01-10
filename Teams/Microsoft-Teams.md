@@ -35,7 +35,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="/MicrosoftTeams/journey-skypeforbusiness-teams">
+                                <a href="/MicrosoftTeams/upgrade-introduction">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
