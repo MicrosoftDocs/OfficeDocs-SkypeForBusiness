@@ -20,15 +20,15 @@ ms.custom:
 description: "Unfortunately, there are certain user licenses that are blocked when user go to https://broadcast.skype.com and want to use Skype Meeting Broadcast. If a user sees this message, they have one of the blocked licenses assigned to them. If you still want them to use it, assign them another Office 365 license."
 ---
 
-# Blocked user licenses for Skype Meeting Broadcast
+# Blocked user licenses for hosting Skype Meeting Broadcast
 
-Unfortunately, there are certain user licenses that are blocked when users go to https://broadcast.skype.com and want to use Skype Meeting Broadcast. If a user sees this message, they have one of the blocked licenses assigned to them. If you still want them to use it, assign them another Office 365 license.
+Unfortunately, there are certain user licenses that are blocked when users go to https://broadcast.skype.com and want to host a Skype Meeting Broadcast. If a user sees this message, they have one of the blocked licenses assigned to them. If you still want them to use it, assign them another Office 365 license.
   
  *"Your company policy doesn't allow you to use Skype Meeting Broadcast. Check with your system admin to make sure the service is enabled and that you have the correct license."* 
   
-## Blocked user licenses
+## Blocked user licenses 
 
-Skype Meeting Broadcast will be blocked if any of the following user licenses are assigned to a user.
+Hosting Skype Meeting Broadcast events will be blocked if any of the following user licenses are assigned to a user. Attendees who are streaming broadcast events do not require any user licenses.
   
 - Office 365 Education Fac/Staff
     
