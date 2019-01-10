@@ -20,7 +20,7 @@ appliesto:
 
 # Get started with Teams templates 
 
-Team templates are pre-built definitions of a team's structure designed around a business need or project. You can use team templates to quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Team templates provide a predefined team structure that can help you easily create consistent teams across your organization. 
+Teams templates are pre-built definitions of a team's structure designed around a business need or project. You can use Teams templates to quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Teams templates provide a predefined team structure that can help you easily create consistent teams across your organization. 
 
 In this article, we'll explain the properties that can be defined in templates, what base template types are, and how you can use a few sample requests to create a team from a template.
  
@@ -29,7 +29,7 @@ This article is for you if you're:
 - Responsible for planning, deploying, and managing multiple teams across your organization<br>
 - A developer wanting to programmatically create a team with predefined channels and apps 
 
-## Team template capabilities
+## Teams template capabilities
 
 Most properties in a team are included and supported by templates. But there are a few properties and features that are not currently supported. The following table provides a quick summary of what's included and what's not included in Teams templates.
 
