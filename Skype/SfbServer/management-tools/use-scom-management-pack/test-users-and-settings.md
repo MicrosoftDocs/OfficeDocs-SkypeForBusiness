@@ -28,12 +28,11 @@ After configuring the computer that will act as a watcher node, you must:
 
 Test accounts do not need to represent actual people, but they must be valid Active Directory accounts. In addition, these accounts must be enabled for Skype for Business Server, they must have valid SIP addresses, and they should be enabled for Enterprise Voice (to use the Test-CsPstnPeerToPeerCall synthetic transaction). 
   
-If you are using the TrustedServer authentication method, all you need to do is to make sure that these accounts exist and configure them as noted. You should assign at least three test users for each pool that you want to test. If you are using the Negotiate authentication method, you must also use the Set-CsTestUserCredential cmdlet and the Skype for Business Server Management Shell to enable these test accounts to work with the synthetic transactions. Do this by running a command similar to the following (these commands assume that the three Active Directory user accounts have been created and that these accounts are enabled for Skype for Business Server):
+If you are using the TrustedServer authentication method, all you need to do is to make sure that these accounts exist and configure them as noted. You should assign at least two test users for each pool that you want to test. If you are using the Negotiate authentication method, you must also use the Set-CsTestUserCredential cmdlet and the Skype for Business Server Management Shell to enable these test accounts to work with the synthetic transactions. Do this by running a command similar to the following (these commands assume that the two Active Directory user accounts have been created and that these accounts are enabled for Skype for Business Server):
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
-Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 ```
 
 You must include not only the SIP address, but also the user name and password. If you do not include the password, the Set-CsTestUserCredential cmdlet will prompt you to enter that information. The user name can be specified by using the domain name\user name format shown in the preceding code block.
@@ -43,7 +42,6 @@ To verify that the test user credentials were created, run these commands from t
 ```
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
-Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
 ```
 
 Information similar to this will be returned for each user:
@@ -57,15 +55,15 @@ Information similar to this will be returned for each user:
 After the test users have been created, you can create a watcher node by using a command similar to this:
   
 ```
-New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
+New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
-This command creates a new watcher node that uses the default settings and runs the default set of synthetic transactions. The new watcher node also uses the test users watcher1@litwareinc.com, watcher2@litwareinc.com, and watcher3@litwareinc.com. If the watcher node uses TrustedServer authentication, the three test accounts can be any valid user accounts enabled for Active Directory and Skype for Business Server. If the watcher node uses the Negotiate authentication method, these user accounts must also be enabled for the watcher node by using the Set-CsTestUserCredential cmdlet.
+This command creates a new watcher node that uses the default settings and runs the default set of synthetic transactions. The new watcher node also uses the test users watcher1@litwareinc.com, and watcher2@litwareinc.com. If the watcher node uses TrustedServer authentication, the two test accounts can be any valid user accounts enabled for Active Directory and Skype for Business Server. If the watcher node uses the Negotiate authentication method, these user accounts must also be enabled for the watcher node by using the Set-CsTestUserCredential cmdlet.
   
 To validate that automatic discovery of target pool to sign-in is configured correctly rather than targeting a pool directly use these steps instead:
   
 ```
-New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
+New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
 ### Configuring Extended Tests
@@ -73,16 +71,16 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 If you want to enable the PSTN test, which verifies connectivity with the public switched telephone network, you need to do some additional configuration when setting up the watcher node. First, you must associate your test users with the PSTN test type by running a command similar to this from the Skype for Business Server Management Shell:
   
 ```
-$pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
+$pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com" -Name "Contoso Provider Test" -TestType PSTN
 ```
 
 > [!NOTE]
 > The results of this command must be stored in a variable. In this example, the variable is named $pstnTest. 
   
-Next, you can use the **New-CsWatcherNodeConfiguration** cmdlet to associate the test type (stored in the variable $pstnTest) to a Skype for Business Server pool. For example, the following command creates a new watcher node configuration for the pool atl-cs-001.litwareinc.com, adding the three test users created previously, and adding the PSTN test type:
+Next, you can use the **New-CsWatcherNodeConfiguration** cmdlet to associate the test type (stored in the variable $pstnTest) to a Skype for Business Server pool. For example, the following command creates a new watcher node configuration for the pool atl-cs-001.litwareinc.com, adding the two test users created previously, and adding the PSTN test type:
   
 ```
-New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
+New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 ```
 
 The preceding command will fail if you have not installed the Skype for Business Server core files and the RTCLocal database on the watcher node computer. 
@@ -197,7 +195,13 @@ Get-CsWatcherNodeConfiguration
 
 You will get back information similar to this:
   
-Identity : atl-cs-001.litwareinc.com TestUsers : {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com ...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...} TargetFqdn : atl-cs-001.litwareinc.com PortNumber : 5061To verify that the watcher node has been configured correctly, type the following command from the Skype for Business Server Management Shell:
+Identity : atl-cs-001.litwareinc.com <br/>
+TestUsers : {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com ...}<br/>
+ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...}<br/>
+TargetFqdn : atl-cs-001.litwareinc.com<br/>
+PortNumber : 5061<br/>
+
+To verify that the watcher node has been configured correctly, type the following command from the Skype for Business Server Management Shell:
   
 ```
 Test-CsWatcherNodeConfiguration
@@ -205,15 +209,15 @@ Test-CsWatcherNodeConfiguration
 
 This command will test each watcher node in your deployment and confirm whether the following actions are completed:
   
-- The required Registrar role is installed
+- The required Registrar role is installed.
     
-- The required registry key is created (completed when you ran the Set-CsWatcherNodeConfiguration cmdlet)
+- The required registry key is created (completed when you ran the Set-CsWatcherNodeConfiguration cmdlet).
     
-- Your servers are running the correct version of Skype for Business Server
+- Your servers are running the correct version of Skype for Business Server.
     
-- Your ports are configured correctly
+- Your ports are configured correctly.
     
-- Your assigned test users have the required credentials
+- Your assigned test users have the required credentials.
     
 ## Managing Watcher Nodes
 <a name="testuser"> </a>
@@ -375,15 +379,15 @@ If it is desirable to run synthetic transactions more frequently, the number of 
   
 To change the frequency at which synthetic transactions run, follow these steps:
   
-1. Open System Center Operations Manager. Click Authoring section. Click Rules section (under Authoring)
+1. Open System Center Operations Manager. Click Authoring section. Click Rules section (under Authoring).
     
-2. In the Rules section, find the rule with the name "Main Synthetic Transaction Runner Performance Collection Rule"
+2. In the Rules section, find the rule with the name "Main Synthetic Transaction Runner Performance Collection Rule".
     
-3. Right click the rule, and select Overrides, select Override the Rule, and then select "For All objects of class: Pool Watcher"
+3. Right click the rule, and select Overrides, select Override the Rule, and then select "For All objects of class: Pool Watcher".
     
 4. In the Override Properties window, select Parameter Name "Frequency", and set the Override Value to the desired one.
     
-5. In the same window, select the Management pack to which this override needs to be applied
+5. In the same window, select the Management pack to which this override needs to be applied.
     
 ## Using Rich Logging for Synthetic Transactions
 <a name="special_synthetictrans"> </a>
@@ -398,7 +402,7 @@ For this reason, synthetic transactions provide rich logging. With rich logging,
     
 - The action that was performed (for example, creating, joining, or leaving a conference; signing on to Skype for Business Server; sending an instant message).
     
-- Informational, verbose, warning, or error messages generated when the activity ran
+- Informational, verbose, warning, or error messages generated when the activity ran.
     
 - SIP registration messages.
     
@@ -415,11 +419,13 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
 ```
 
 > [!NOTE]
-> : Do not preface the variable name with the $ character. Use a variable name such as RegistrationTest (not $RegistrationTest). 
+> Do not preface the variable name with the $ character. Use a variable name such as RegistrationTest (not $RegistrationTest). 
   
 When you run this command, you will see output similar to this:
   
-Target Fqdn : atl-cs-001.litwareinc.com Result : Failure Latency : 00:00:00 Error Message : This machine does not have any assigned certificates. Diagnosis :You can access much more detailed information for this failure than just the error message shown here. To access this information in HTML format, use a command similar to this one to save the information stored in the variable RegistrationTest to an HTML file:
+Target Fqdn : atl-cs-001.litwareinc.com Result : Failure Latency : 00:00:00 Error Message : This machine does not have any assigned certificates. Diagnosis :You can access much more detailed information for this failure than just the error message shown here.
+
+To access this information in HTML format, use a command similar to this one to save the information stored in the variable RegistrationTest to an HTML file:
   
 ```
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html

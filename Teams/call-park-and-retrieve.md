@@ -3,7 +3,7 @@ title: "Call park and retrieve in Microsoft Teams"
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 12/17/2018
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -60,6 +60,11 @@ For information about how to use the call park and retrieve feature, see [Park a
 Use the [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) PowerShell cmdlet to create a call park policy.
 
 Use the [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) PowerShell cmdlet to grant a call park policy.
+
+You can change the default setting by using [Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps) as follows:
+
+`Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
+
 
 ## Troubleshooting
 
