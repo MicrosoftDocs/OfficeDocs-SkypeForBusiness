@@ -99,11 +99,9 @@
 
 
 <!-- ============================================================ -->
-# [Upgrade from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
-## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-## [Upgrade Basic](upgrade-basic.md)
-### [Sample emails and surveys](upgrade-emails-surveys.md)
-## [Upgrade Pro](upgrade-pro.md)
+# [Upgrade to Teams](upgrade-introduction.md)
+## [Get started](upgrade-start-here.md)
+## [About the upgrade framework](upgrade-framework.md)
 ## [Plan for your upgrade journey](upgrade-plan-journey.md)
 ### [Enlist your project stakeholders](upgrade-enlist-stakeholders.md)
 ### [Define your project scope](upgrade-define-project-scope.md)
@@ -120,22 +118,22 @@
 ### [Assess organizational change readiness](upgrade-org-change-readiness.md)
 ### [Prepare a user readiness plan](upgrade-user-readiness.md)
 ## [Conduct a user pilot](pilot-essentials.md)
-## [Perform your upgrade to Teams](upgrade-to-teams.md)
-### [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-### [Upgrade from Skype for Business hybrid to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
-### [Upgrade from Skype for Business on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
-## [Drive value through user adoption](continue-journey.md)
+## [Upgrade from Skype for Business Online to Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+## [Upgrade from Skype for Business hybrid or on-premises to Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+## [Operate, adopt, and optimize](continue-journey.md)
 ### [Operate your service](upgrade-operate-my-service.md)
 ### [Monitor quality](upgrade-monitor-quality.md)
 ### [Enhance your service](upgrade-enhance-my-service.md)
+## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
-
+## Additional information
+### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Interoperability with Office 365
-## [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-## [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
+
 ## [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 ## [Office 365 groups and Teams](office-365-groups.md)
 ## [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
