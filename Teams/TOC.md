@@ -530,7 +530,7 @@
 <!-- ============================================================ -->
 
 # Teams for firstline workers
-## [Manage Shifts for firstline workers in Teams](manage-firstline-workers-in-teams.md)
+## [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 # [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
 
 # [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)

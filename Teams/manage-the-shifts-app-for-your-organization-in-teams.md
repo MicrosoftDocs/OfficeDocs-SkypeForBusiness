@@ -55,7 +55,7 @@ To view the FirstLineWorker policy, in the left navigation of the Microsoft Team
 
 ![Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams & Skype for Business Admin Center](media/firstline-worker-app-setup-policy.png "Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams & Skype for Business Admin Center")
 
-To learn more about working with app setup policies, go to [Manage app setup policies in Teams](teams-app-setup-policies.md)
+To learn more about working with app setup policies, go to [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 #### Assign the FirstLineWorker policy to individual users
 
