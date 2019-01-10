@@ -25,7 +25,22 @@ For example, usage reports show that most users are only using the Teams web cli
 
 Here's two ways to get reports to view Teams usage. 
 
-### Teams activity reports 
+### Teams analytics & reporting in the Microsoft Teams & Skype for Business Admin Center
+
+To view these reports, you must be a global admin in Office 365, Teams service admin, or Skype for Business admin. Go to the Microsoft Teams & Skype for Business Admin Center, in the left navigation, select **Analytics & reports**, and then under **Report**, choose the report you want to run.
+
+- **Teams usage report**:
+
+    ![Teams usage report](media/teams-reports-teams-usage.png "Screen shot of the Teams usage report in the Microsoft Teams & Skype for Business Admin Center")     
+- **Teams user activity report**:
+
+    ![Teams user activity report](media/teams-reports-user-activity.png "Screen shot of the Teams user activity report in the Microsoft Teams & Skype for Business Admin Center") 
+`
+- **Teams device usage report**:
+
+    ![Teams device usage report](media/teams-reports-device-usage.png "Screen shot of the Teams device usage report in the Microsoft Teams & Skype for Business Admin Center")
+
+### Teams activity reports in the Office 365 admin center
 Teams activity reports in the Office 365 admin center give you insights into user activity and device usage. 
 
 To view these reports, you must be a global admin in Office 365, Teams service admin, or reports reader. Go to the Office 365 admin center, click **Reports** > **Usage**. Under **Select a report**, click **Microsoft Teams**. From here, choose the report you want to view.
