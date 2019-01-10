@@ -36,11 +36,16 @@ If you use Back End Server high availability on a Front End pool that is paired 
 
 Skype for Business Server supports mirroring with the following database software:
   
+- SQL Server 2016, both Enterprise Edition and Standard Edition
+
 - SQL Server 2014, both Enterprise Edition and Standard Edition
     
 - SQL Server 2012 SP2 and CU2, both Enterprise Edition and Standard Edition
     
 - SQL Server 2008 R2 SP2, both Enterprise Edition and Standard Edition
+
+> [!NOTE]
+> SQL Server 2016 is the only version supported by Skype for Business Server 2019.
     
 Asynchronous database mirroring is not supported for Back End Server high availability in Skype for Business Server. In the rest of this document, database mirroring means synchronous database mirroring, unless otherwise explicitly stated. 
   
@@ -103,13 +108,18 @@ For steps for deploying AlwaysOn Availability Groups, see [Deploy an AlwaysOn Av
 
 Skype for Business Server supports SQL Server failover clustering with the following database software:
   
+- SQL Server 2016, both Enterprise Edition and Standard Edition
+
 - SQL Server 2014, both Enterprise Edition and Standard Edition
     
 - SQL Server 2012 SP2 and CU2, both Enterprise Edition and Standard Edition
     
 - SQL Server 2008 R2 SP2, both Enterprise Edition and Standard Edition
+
+> [!NOTE]
+> SQL Server 2016 is the only version supported by Skype for Business Server 2019.
     
-To use SQL failover clustering, you should first set up and configure the SQL Server cluster before deploying your Front End pool. For best practices and setup instructions for failover clustering in SQL Server 2012, see [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx). For failover clustering in SQL Server 2008, see [https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
+To use SQL failover clustering, you should first set up and configure the SQL Server cluster before deploying your Front End pool. For best practices and setup instructions for failover clustering in SQL Server 2014 and 2016, see [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx). For failover clustering in SQL Server 2008, see [https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx).
   
 When you install SQL Server, you should install SQL Server Management Studio to manage the locations for database and log file locations. SQL Server Management Studio is installed as an optional component when you install SQL Server.
   

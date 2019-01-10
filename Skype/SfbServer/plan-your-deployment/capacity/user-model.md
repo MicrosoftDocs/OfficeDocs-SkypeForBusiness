@@ -28,9 +28,9 @@ We've done our performance testing on the hardware described in the table below.
 |**Hardware component**|**Recommended**|
 |:-----|:-----|
 |CPU  <br/> |64-bit dual processor, hex-core, 2.26 gigahertz (GHz) or higher.  <br/> Intel Itanium processors are not supported for Skype for Business Server server roles.  <br/> |
-|Memory  <br/> |32 gigabytes (GB).  <br/> &bull;&nbsp;&nbsp; 8 or more 10,000-RPM hard disk drives with at least 72 GB free disk space.  <br/> Two of the disks should use RAID 1, and six should use RAID 10.  <br/> - OR -  <br/> &bull;&nbsp;&nbsp; Solid state drives (SSDs) which provide performance similar to 8 10,000-RPM mechanical disk drives.  <br/> |
-|Disk  <br/> ||
-|Network  <br/> |&bull;&nbsp;&nbsp; 1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address).  <br/> |
+|Memory  <br/> |32 gigabytes (GB).  <br/> |
+|Disk  <br/> |8 or more 10,000-RPM hard disk drives with at least 72 GB free disk space. Two of the disks should use RAID 1, and six should use RAID 10.  <br/> - OR - <br/>Solid state drives (SSDs) that provide performance similar to 8 10,000-RPM mechanical disk drives. <br/> |
+|Network  <br/> |1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address).  <br/> |
 
 ## Summary of Results
 
