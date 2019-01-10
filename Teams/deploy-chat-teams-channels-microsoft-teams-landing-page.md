@@ -33,7 +33,7 @@ possible Teams experience. Review the following information and make any require
 
 |Ask yourself|Action |
 |------------|-------|
-Is my organization ready for Teams deployment?|To determine readiness, see: <ul><li> [Check your environment's readiness for Microsoft Teams](environment-readiness)</li><li>[Prepare your organization's network for Microsoft Teams](prepare-network.md)</li><li>[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Office 365 Groups when creating teams in Microsoft Teams](plan-office-365-groups.md)|
+Is my organization ready for Teams deployment?|To determine readiness, see: <ul><li> e[Check your environment's readiness for Microsoft Teams](environment-readiness.md)</li><li>[Prepare your organization's network for Microsoft Teams](prepare-network.md)</li><li>[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Office 365 Groups when creating teams in Microsoft Teams](plan-office-365-groups.md)|
 |||
 
 ## Core deployment decisions
@@ -144,7 +144,7 @@ When planning an enterprise deployment of Teams, you should take into account an
 
 |Ask yourself|Action |
 |------------|-------|
-| Are there any limits that I am likely to hit with my deployment? | For limit details, see [Limits and specifications for Microsoft Teams](limit-specifications-teams.md). |
+| Are there any limits that I am likely to hit with my deployment? | For limit details, see [Limits and specifications for Microsoft Teams](limits-specifications-teams.md). |
 |||
 
 ### Office 365 URLs and ports

@@ -16,7 +16,7 @@
 <!-- ============================================================ -->
 
 
-# [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page)
+# [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Overview of teams and channels](teams-channels-overview.md)
 ## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
