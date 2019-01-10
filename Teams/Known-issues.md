@@ -200,8 +200,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|User Profile Photos  <br/> | Currently Teams does not have a mechanism to prevent users from changing photos. The BTS team has met with the development team who has filed the following for consideration: Feature 108874: IT Policy to disable Profile Photo uploading   <br/> | If you have customers who would like the ability to prevent Profile Photo uploading in Teams, please have them add their vote and business case to comments here: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
- <br/> |3/1/17 <br/> |
+|User Profile Photos  <br/> | Currently Teams does not have a mechanism to prevent users from changing photos. The BTS team has met with the development team who has filed the following for consideration: Feature 108874: IT Policy to disable Profile Photo uploading   <br/> | If you have customers who would like the ability to prevent Profile Photo uploading in Teams, please have them add their vote and business case to comments here: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |3/1/17 <br/> |
 
 ## Provisioning
 
@@ -222,10 +221,6 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Website tab leading to customer confusion  <br/> |Website tabs are not equivalent to your browser. A number of sites, especially those requiring authentication or using popups, will not work when pinned as a website tab.  <br/> |We are working on improving the UI to make it clearer for customers.  <br/> |5/2/18  <br/> |
-
-|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
-|:-----|:-----|:-----|:-----|
 |Tabs not working since Conditional Access was enabled <br/> |Some tabs may not load anymore in the Desktop Client since Conditional Access was enabled on the tenant. The tabs load when using the Web Client. Some tabs that might be affected are: PowerBI, Forms, VSTS, PowerApps, and SharePoint List.  <br/> |To see affected tabs you must use Teams in Edge, IE, or Chrome with the Windows 10 Accounts extension installed. Some tabs still depend on web authentication, which doesn't work in the Desktop Client when CA is enabled. We are working with partners to enable these scenarios; so far we have enabled Planner, OneNote, and Stream. <br/> |4/5/18  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
@@ -242,7 +237,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|SharePoint page tab renders blank screen<br/> |SharePoint Online vanity domains are not currently supported. The user experience is a blank screen when attemting to add a SharePoint page tab. <br/> |No workaround. <br/> |8/20/18  <br/>|
+|SharePoint page tab renders blank screen <br/> |SharePoint Online vanity domains are not currently supported. The user experience is a blank screen when attemting to add a SharePoint page tab. <br/> |No workaround. <br/> |8/20/18  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|Legacy OneNote Tab  <br/> |Legacy OneNote tabs created during the public preview of Microsoft Teams cannot be renamed or deleted.  <br/> |No workaround. <br/> |11/8/2017  <br/> |
 
 ## Teams
 
