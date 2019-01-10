@@ -1,5 +1,5 @@
 ---
-title: Manage Shifts for firstline workers in Microsoft Teams
+title: Manage the Shifts app for your organization in Microsoft Teams
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -14,7 +14,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Manage Shifts for firstline workers in Microsoft Teams
+# Manage the Shifts app for your organization in Microsoft Teams
 
 > [!IMPORTANT]
 > Effective October 1, 2019, Microsoft StaffHub will be retired. We're building StaffHub capabilities, including schedule and task management, into Microsoft Teams. Additional capabilities for firstline workers will roll out to Teams over time. To learn more, see [Microsoft StaffHub to be retired](https://support.office.com/article/microsoft-staffhub-to-be-retired-30ca17f3-5502-4bc9-bb0a-bed04bb362f0).  
@@ -55,7 +55,7 @@ To view the FirstLineWorker policy, in the left navigation of the Microsoft Team
 
 ![Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams & Skype for Business Admin Center](media/firstline-worker-app-setup-policy.png "Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams & Skype for Business Admin Center")
 
-To learn more about working with app setup policies, go to [Manage app setup policies in Teams](https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-app-setup-policies?branch=v-lanac-app-setup-policy-working)
+To learn more about working with app setup policies, go to [Manage app setup policies in Teams](teams-app-setup-policies.md)
 
 #### Assign the FirstLineWorker policy to individual users
 
@@ -85,7 +85,6 @@ Assign all users in the group to the FirstLineWorker app setup policy.
 $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstLineWorkder" -Identity $_.EmailAddress}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
-
 
 ## Related topics
 - [Shifts Help for firstline workers and managers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
