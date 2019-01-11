@@ -380,6 +380,10 @@
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 ### [Deploying desk phones](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
+## [Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md)
+### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
+### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
+### [Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
 <!-- ============================================================ -->
 
 
