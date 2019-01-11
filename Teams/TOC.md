@@ -24,25 +24,9 @@
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
-## [Check your environment’s readiness for Teams](environment-readiness.md)
-## [Prepare your organization's network for Teams](prepare-network.md)
-## [Limits and specifications for Teams](limits-specifications-teams.md)
-## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
-## [Get tools to support a rollout of Teams](rollout-tools.md)
-## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
-## [Plan for governance in Teams](plan-teams-governance.md)
 
-## Interoperability with Office 365
-### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
-### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
-### [Office 365 groups and Teams](office-365-groups.md)
-### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
-### [How Exchange and Teams interact](exchange-teams-interact.md)
-#### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
-#### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
-### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
-### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
+
+
 
 ## [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
 ### [Apps permissions and considerations](app-permissions.md)
@@ -69,14 +53,27 @@
 
 
 ## Reference
-### [Manage Teams](using-admin-roles.md)
-#### [Manage Teams features in your organization](enable-features-office-365.md)
-#### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
-#### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
-#### [Assign team owners and members in Teams](assign-roles-permissions.md)
-#### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
-#### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
-#### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
+### Get ready to roll out Teams
+#### [Check your environment’s readiness for Teams](environment-readiness.md)
+#### [Prepare your organization's network for Teams](prepare-network.md)
+#### [Limits and specifications for Teams](limits-specifications-teams.md)
+#### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
+#### [Get tools to support a rollout of Teams](rollout-tools.md)
+#### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
+#### [Plan for governance in Teams](plan-teams-governance.md)
+
+
+### Interoperability with Office 365
+#### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+#### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
+#### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+#### [Office 365 groups and Teams](office-365-groups.md)
+#### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
+#### [How Exchange and Teams interact](exchange-teams-interact.md)
+##### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
+##### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
+#### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
+#### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
 
 ### Install Teams
 #### [Get clients for Teams](get-clients.md)
@@ -94,11 +91,14 @@
 #### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 #### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
 
-
-
-
-
-
+### [Manage Teams](using-admin-roles.md)
+#### [Manage Teams features in your organization](enable-features-office-365.md)
+#### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+#### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
+#### [Assign team owners and members in Teams](assign-roles-permissions.md)
+#### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
+#### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
+#### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 
 
 <!-- ============================================================ -->
