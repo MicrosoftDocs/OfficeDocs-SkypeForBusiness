@@ -56,7 +56,7 @@ Bots are automated programs that respond to queries or give updates and notifica
 
 | Ask yourself | Action |
 |--------------|--------|
-|Do I want to allow custom bots in my Office 365 tenant?|For more information, see [Add bots for private chats and channels in Microsoft Teams](add-bots.md).|
+|Do I want to allow custom bots in my Office 365 tenant?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](add-bots.md). For information about enabling or disabling custom bots, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 |||
 
 #### Built-in and custom tabs
