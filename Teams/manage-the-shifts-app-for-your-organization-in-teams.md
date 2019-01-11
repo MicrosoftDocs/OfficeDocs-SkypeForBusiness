@@ -47,7 +47,7 @@ Shifts is enabled by default for all Teams users in your organization. You can t
 
 ### Use the FirstLineWorker app setup policy to pin Shifts to Teams
 
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them. 
  
