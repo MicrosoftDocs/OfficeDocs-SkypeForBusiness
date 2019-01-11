@@ -90,7 +90,6 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Desktop sharing | Available |
 | | Give and take control in sharing | Available |
 | | Connect from a conference room | Available |
-| | Anonymous join | Available |
 | | Cloud recording | On the Government backlog |
 | | Meeting notes | Available |
 | | Broadcast meetings | On the Government backlog |
