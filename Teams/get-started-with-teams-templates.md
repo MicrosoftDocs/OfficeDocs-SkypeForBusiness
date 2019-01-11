@@ -3,7 +3,7 @@ title: Get started with Teams templates
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/12/2018
+ms.date: 01/10/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -20,24 +20,24 @@ appliesto:
 
 # Get started with Teams templates 
 
-Team templates are pre-built definitions of a team's structure designed around a business need or project. You can use team templates to quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Team templates provide a predefined team structure that can help you easily create consistent teams across your organization. 
+Teams templates are pre-built definitions of a team's structure designed around a business need or project. You can use Teams templates to quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Teams templates provide a predefined team structure that can help you easily create consistent teams across your organization. 
 
 In this article, we'll explain the properties that can be defined in templates, what base template types are, and how you can use a few sample requests to create a team from a template.
  
 This article is for you if you're:
 
-•	Responsible for planning, deploying, and managing multiple teams across your organization
-•	A developer looking to create a team with predefined channels and apps programmatically
+- Responsible for planning, deploying, and managing multiple teams across your organization<br>
+- A developer wanting to programmatically create a team with predefined channels and apps 
 
-## Team template capabilities
+## Teams template capabilities
 
-Most properties in a team are included and supported by templates. However, there are a few properties and features that are currently not supported. The following table provides a quick summary of what's included and what's not included in Teams templates.
+Most properties in a team are included and supported by templates. But there are a few properties and features that are not currently supported. The following table provides a quick summary of what's included and what's not included in Teams templates.
 
 | **Team properties supported by Teams templates** | **Team properties not yet supported by Teams templates** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Base template type | Team membership |
 | Team name | Team picture |
-| Team description | Channel settings (for example, auto-favorite and privacy) |
+| Team description | Channel settings |
 | Team visibility (public or private) | Connectors |
 | Team settings (for example, member, guest, @ mentions) | Files and content |
 | Auto-favorite channel | |
@@ -49,19 +49,19 @@ Most properties in a team are included and supported by templates. However, ther
 
 ## What are base template types?
 
-Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the store and team properties not yet supported individually in Teams templates.
+Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the store and team properties that are not yet supported individually in Teams templates.
 
-Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. However, some base template types contain properties that can't be overridden. 
+Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. But some base template types contain properties that can't be overridden. 
 
 By default the base template is set to **Standard** which doesn't contain any additional proprietary apps or special properties. Below is the current list of base templates types available.
 
 | Base template type | baseTemplateId | Base template proprietary apps and special properties |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json) | No additional apps and properties |
-| Healthcare - care coordination | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-CC.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-CC.json#) | Apps:<br/> - Patients app (pinned to the **General** tab)<br/> <br/>Channels: <br/> - Announcements<br/> - Diabetes<br/> - Cardiovascular<br/> - Registered nurses |
-| Healthcare - process huddle | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-PH.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Healthcare-PH.json#) | Channels:<br/> - Avoidable deaths<br/> - Mortality review <br/> - Preventing falls <br/> - Sepsis plans |
-| Education - Class team<sup>1</sup> | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-CT.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-CT.json#) | Apps:<br/> - OneNote Class Notebook (pinned to the **General** tab) <br/> - Assignments app (pinned to the **General** tab) <br/><br/> Team properties <br/> - Team visibility set to **HiddenMembership** (cannot be overridden) |
-| Education - Staff team<sup>1</sup> | [https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-ST.json#](https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Education-ST.json#) | Apps<br/> - OneNote Staff Notebook (pinned to the **General** tab) |
+| Standard | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`standard` | No additional apps and properties |
+| Education - <br>Class team<sup>1</sup> | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | Apps:<ul><li>OneNote Class Notebook (pinned to the **General** tab) </li><li>Assignments app (pinned to the **General** tab)</li></ul> Team properties:<ul><li>Team visibility set to **HiddenMembership** (cannot be overridden)</li></ul> |
+| Education -<br>Staff team<sup>1</sup> | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | Apps:<ul><li>OneNote Staff Notebook (pinned to the **General** tab)</li></ul> |
+|Education -<br>PLC team |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Apps:<ul><li>OneNote PLC Notebook (pinned to the **General** tab)</ul></li>|
+|||
 
 <sup>1</sup> Publication in late October, 2018
 
@@ -70,7 +70,7 @@ By default the base template is set to **Standard** which doesn't contain any ad
 
 ## Examples 
 
-You can start creating a team via template by installing [Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/overview).
+You can start using a template to create a team by using the [Microsoft Graph API](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 ### Create a team from a template
 
@@ -79,15 +79,13 @@ You can start creating a team via template by installing [Microsoft Graph](https
 **Request to create a team with the standard base template**
 
 ~~~
-POST   /teams
+POST /teams
 Authorization: Bearer <TOKEN>
 Content-Type: application/json
 {
-    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
-    "schemaVersion": "1.0",
-    
-    "teamDisplayName": "My Sample Team",
-    "teamDescription": "My Sample Team’s Description",
+  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/standard",
+  "displayName": "Sample Team",
+  "description": "Sample Team’s Description"
 }
 
 ~~~
@@ -95,23 +93,21 @@ Content-Type: application/json
 **Request to create a team with an extra channel and disallow members from deleting channels**
 
 ~~~
-POST   /teams
+POST /teams
 Authorization: Bearer <TOKEN>
 Content-Type: application/json
 {
-    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
-    "schemaVersion": "1.0",
-    
-    "teamDisplayName": "My Sample Team",
-    "teamDescription": "My Sample Team’s Description",
-    "channels": [
-        {
-            "displayName": "Interns",
-            "autoFavorite": false
-        }
-    ],
+  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/standard",
+  "displayName": "My Sample Team",
+  "description": "My Sample Team’s Description",
+  "channels": [
+    {
+        "displayName": "Random",
+        "isFavoriteByDefault": true
+    }
+              ],
     "memberSettings": {
-        "allowDeleteChannels": false,
+        "allowDeleteChannels": false
     }
 }
 
@@ -120,93 +116,94 @@ Content-Type: application/json
 **Request to create a team with all supported properties**
 
 ~~~
-POST   /teams
+POST /teams
 Authorization: Bearer <TOKEN>
 Content-Type: application/json
 {
-    "baseTemplateId": "https://teams.microsoft.com/templates/schemas/1.0/TeamTemplate.Standard.json",
-    "schemaVersion": "1.0",
- 
-    "teamType": "Healthcare_CareCoordination",
+    "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
     "visibility": "Private",
-    "teamDisplayName": "My Care Team",
-    "teamDescription": "My Care Team’s description",
- 
+    "displayName": "Sample Engineering Team",
+    "description": "This is a sample engineering team, used to showcase the range of properties 
+supported by this API",
     "channels": [
         {
-            "displayName": "General  ",
-            "autoFavorite": true,
+            "displayName": "Announcements 📢",
+            "isFavoriteByDefault": true,
+            "description": "This is a sample announcements channel that is favorited by default. Use this 
+channel to make important team, product, and service announcements."
+        },
+        {
+            "displayName": "Training 🏋️",
+            "isFavoriteByDefault": true,
+            "description": "This is a sample training channel that is favorited by default and contains an 
+example of pinned website and YouTube tabs.",
             "tabs": [
-                   {
-                       "appId": "0d820ecd-def2-4297-adad-78056cde7c78",
-                       "tabDisplayName": "Intranet”
-                   }
-               ]
+                {
+                    "teamsApp@odata.bind":
+"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.web')",
+                   "name": "A Pinned Website",
+                    "configuration": {
+                        "contentUrl": "https://docs.microsoft.com/en-us/microsoftteams/microsoft-teams"
+                    }
+                },
+                {
+                    "teamsApp@odata.bind": 
+"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.youtube')",
+                    "name": "A Pinned YouTube Video",
+                    "configuration": {
+                        "contentUrl": "https://tabs.teams.microsoft.com/Youtube/Home/YoutubeTab?
+videoId=X8krAMdGvCQ",
+                        "websiteUrl": "https://www.youtube.com/watch?v=X8krAMdGvCQ"
+                    }
+                }
+            ]
         },
         {
-            "displayName": "Announcements",
-            "autoFavorite": true
+"displayName": "Planning 📅 ",
+            "description": "This is a sample of a channel that is not favorited by default, these channels 
+will appear in the more channels overflow menu.",
+            "isFavoriteByDefault": false
         },
         {
-            "displayName": "Diabetes",
-            "autoFavorite": true
-        },
-        {
-            "displayName": "Cardiovascular",
-            "autoFavorite": true
-        },
-        {
-            "displayName": "Registered Nurses",
-            "autoFavorite": true
+            "displayName": "Issues and Feedback 🐞",
+            "description": "This is a sample of a channel that is not favorited by default, these channels 
+will appear in the more channels overflow menu."
         }
     ],
- 
-     "memberSettings": {
+    "memberSettings": {
         "allowCreateUpdateChannels": true,
         "allowDeleteChannels": true,
         "allowAddRemoveApps": true,
         "allowCreateUpdateRemoveTabs": true,
         "allowCreateUpdateRemoveConnectors": true
-      },
- 
-      "guestSettings": {
+    },
+    "guestSettings": {
         "allowCreateUpdateChannels": false,
         "allowDeleteChannels": false
-      },
- 
-      "messagingSettings": {
+    },
+    "funSettings": {
+        "allowGiphy": true,
+        "giphyContentRating": "Moderate",
+        "allowStickersAndMemes": true,
+        "allowCustomMemes": true
+    },
+    "messagingSettings": {
         "allowUserEditMessages": true,
         "allowUserDeleteMessages": true,
         "allowOwnerDeleteMessages": true,
         "allowTeamMentions": true,
         "allowChannelMentions": true
-      },
- 
-      "funSettings": {
-        "allowGiphy": true,
-        "giphyContentRating": "moderate",
-        "allowStickersAndMemes": true,
-        "allowCustomMemes": true
-      }
- 
- 
-    "installedApplications": [
-      {
-        "id": "0d820ecd-def2-4297-adad-78056cde7c78"
-      }
+    },
+    "installedApps": [
+        {
+            "teamsApp@odata.bind": 
+"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('com.microsoft.teamspace.tab.vsts')"
+        },
+        {
+            "teamsApp@odata.bind": 
+"https://graph.microsoft.com/v1.0/appCatalogs/teamsApps('1542629c-01b3-4a6d-8f76-1938b779e48d')"
+        }
     ]
-}
-~~~
-
-#### Response
-
-~~~
-HTTP/1.1 202 Accepted
-Content-Type: application/json
-Location: /workflow/status/c953c202-7b44-4a63-aa33-364fcb2d65aa
-{
-    "workflowId": "c953c202-7b44-4a63-aa33-364fcb2d65aa",
-    "statusUri": "https://<apihostandpath>/workflow/status/c953c202-7b44-4a63-aa33-364fcb2d65aa"
 }
 ~~~
 
@@ -231,6 +228,6 @@ Content-Type: application/json
 
 ## Related topics
 
-- [Create team](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/team_put_teams) (in preview)
+- [Create team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (in preview)
 - [New-Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Admin training for Microsoft Teams](itadmin-readiness.md)
