@@ -41,3 +41,5 @@ Make sure you’ve got Teams licenses for everybody. Check out [Compare Teams pl
 
 ## Next steps
 Go to [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md).
+
+Check out the [Teams Adoption Guide](https://aka.ms/teamstoolkit).
