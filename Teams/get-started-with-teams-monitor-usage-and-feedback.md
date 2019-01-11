@@ -21,7 +21,7 @@ It's important to know how users are using Teams and what their experience is wi
 ## Monitor usage
 For your first set of teams, we recommend you review reports twice a week to understand emerging trends. 
 
-For example, usage reports show that most users are only using the Teams web client. This may indicate that users aren't sure how to install other clients. Posting step-by-step installation instructions in a channel may help drive usage of a wider range of clients. Or, usage reports show that users are primarily using Teams for private chats. In this example, you may want to review your team scenarios because users are chatting outside the initial teams and channels that were set up. 
+For example, usage reports show that not many users are using the Teams mobile clients. This may indicate that users aren't sure how to install the clients. Posting step-by-step installation instructions in a channel may help drive usage of a wider range of clients. Or, usage reports show that users are primarily using Teams for private chats. In this example, you may want to review your team scenarios because users are chatting outside the initial teams and channels that were set up. 
 
 Here's how to get reports to view Teams usage. 
 
