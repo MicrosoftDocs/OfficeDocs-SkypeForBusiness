@@ -38,7 +38,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Is Audio Conferencing available for purchase?  <br/> |No  <br/> |
+|Is Audio Conferencing available for purchase?  <br/> |Yes  <br/> |
 |Are phone numbers automatically assigned for Audio Conferencing?  <br/> |Yes, for: <br/><ul><li>Manama</ul>If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Dial-out capability using the Call Me feature  <br/> |Requires communication credits  <br/> |
    
@@ -73,7 +73,7 @@ Here are the Office 365 services for Skype for Business and Microsoft Teams avai
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Are Communications Credits available?  <br/> |Yes  <br/> |
+|Are Communications Credits available?  <br/> |No  <br/> |
    
 If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   

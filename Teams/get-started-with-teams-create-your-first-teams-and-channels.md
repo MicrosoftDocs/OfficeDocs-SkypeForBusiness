@@ -36,7 +36,7 @@ Here's a suggested structure for the team.
 | ------------ | -------------------- | -------------------- |
 | General | All teams start with a General channel. Use this channel to make announcements as you start getting to know Teams. |  |
 | Say hi | Introduce yourself to the team and share what you want to get from Teams. |  |
-| How do I ? | A channel to ask how-to questions.</br>Step 1 – install the desktop and mobile clients.</br>Step 2 – jump into Teams.| Pinned tab that links to the [Teams help center](https://support.office.com/teams)</br>Pinned tab that links to [Teams training videos](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</br>Pinned tab that links to [Teams desktop and mobile client download links](https://teams.microsoft.com/downloads) |
+| How do I | A channel to ask how-to questions.</br>Step 1 – install the desktop and mobile clients.</br>Step 2 – jump into Teams.| Pinned tab that links to the [Teams help center](https://support.office.com/teams)</br>Pinned tab that links to [Teams training videos](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</br>Pinned tab that links to [Teams desktop and mobile client download links](https://teams.microsoft.com/downloads) |
 | Feedback | Share your thoughts on your Teams experiences. | Pinned tab with Polly Poll|
 | Ideas for future teams | Share your thoughts on where Teams can drive additional value in your organization. What could these teams be called? Who would be members? ||
 | Support | If something isn't working as expected, use this channel to get help. ||

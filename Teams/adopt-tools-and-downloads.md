@@ -139,3 +139,6 @@ Use the tools below to support each phase of your service adoption plan.
 
 ### Office 365 champions program
 The Office 365 champions program is a free program that helps people who want to get more from Microsoft Teams and other Office 365 services. We combine our online community in the [Microsoft Technical Community](https://aka.ms/DriveAdoption) with monthly community calls that highlight all the components of driving adoption from governance to best practices to new features. Join our community at https://aka.ms/O365Champions and get access to early release, hear from other customers and learn from Microsoft experts.  
+
+### Teams Adoption Guide
+Check out this online guide that will help you roll out Teams in your company. It includes many downloadable tools, templates, and other resources to help you along your Teams adoption journey.
