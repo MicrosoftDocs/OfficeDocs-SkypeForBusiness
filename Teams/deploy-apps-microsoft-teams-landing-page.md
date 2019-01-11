@@ -7,7 +7,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 layout: LandingPage
-ms.date: 01/08/2019
+ms.date: 01/11/2019
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150

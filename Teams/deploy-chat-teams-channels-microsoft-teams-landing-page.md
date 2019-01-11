@@ -3,7 +3,7 @@ title: Deploy chat, teams, channels, and apps in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -33,7 +33,7 @@ possible Teams experience. Review the following information and make any require
 
 |Ask yourself|Action |
 |------------|-------|
-Is my organization ready for Teams deployment?|To determine readiness, see: <ul><li> e[Check your environment's readiness for Microsoft Teams](environment-readiness.md)</li><li>[Prepare your organization's network for Microsoft Teams](prepare-network.md)</li><li>[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Office 365 Groups when creating teams in Microsoft Teams](plan-office-365-groups.md)|
+Is my organization ready for Teams deployment?|To determine readiness, see: <ul><li> [Check your environment's readiness for Microsoft Teams](environment-readiness.md)</li><li>[Prepare your organization's network for Microsoft Teams](prepare-network.md)</li><li>[Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)</li><li>[Plan for Office 365 Groups when creating teams in Microsoft Teams](plan-office-365-groups.md)|
 |||
 
 ## Core deployment decisions
@@ -46,7 +46,7 @@ Teams provides a set of custom administrator roles for managing different aspect
 
 |Ask yourself|Action |
 |------------|-------|
-| Who will be assigned the Teams Service Administrator role? | To assign the Teams Service Admin role, see [Assign administrator and non-administrator roles to users with Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
+| Who will be assigned the Teams Service Administrator role? | <ul><li>For more information about Teams roles, see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).</li><li> To assign the Teams Service Admin role, see [Assign administrator and non-administrator roles to users with Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).</li></ul>|
 |||
 
 ### Messaging policies
