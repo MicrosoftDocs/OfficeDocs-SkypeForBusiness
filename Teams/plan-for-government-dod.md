@@ -3,7 +3,7 @@ title: Plan for Microsoft 365 Government - DoD deployments - Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/03/2019
+ms.date: 01/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
