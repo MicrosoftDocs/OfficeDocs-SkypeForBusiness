@@ -21,8 +21,6 @@ Apps let you find content from your favorite services and share it right in Team
 > [!TIP]
 > We recommend that you roll out apps, bots, & connectors throughout your Teams deployment.
 
-
-
 ## Apps deployment decisions
 
 Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether you need to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups starting with the core set of [changes you are more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, again based on your organization's needs.
@@ -34,13 +32,13 @@ These are the settings that most organizations want to change (if the Teams defa
 #### App availability settings 
 
 Teams provides a number of Microsoft-provided and third-party apps to engage your users and provide additional productivity capabilities and integration of commonly used business services into Teams. These apps are available in the Teams Store. The default configuration is that the these apps are enabled for users to explore and use. For example, users can use the Planner app to build and manage team tasks in a very effective manner. The out-of-the-box configuration enables the Teams default apps as well as external apps that have been submitted via the [Teams Store approval
-process.](https://docs.microsoft.com/en-us/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)
+process.](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)
 
 By default, all Microsoft-provided and external apps are available, but you can configure Teams so that external apps are not enabled.
 
 | Ask yourself | Action |
 |--------------|--------|
-|Will you change the default teams apps settings? | For more information about configuring the availability of external apps, see [Admin settings for apps in Microsoft Teams.](https://docs.microsoft.com/en-us/microsoftteams/admin-settings).|
+|Will you change the default teams apps settings? | For more information about configuring the availability of external apps, see [Admin settings for apps in Microsoft Teams](https://docs.microsoft.com/microsoftteams/admin-settings).|
 |||
 
 #### App permissions and other considerations
@@ -49,7 +47,7 @@ Apps are consented to by users and managed by IT from a policy perspective. Howe
 
 | Ask yourself | Action |
 |--------------|--------|
-|Do I want to allow access to this app within my organization? | For more information, see [Microsoft Teams apps permissions and considerations](app-permissions.md) for a list of things you should consider when allowing access to an app, bot, tab, or connector.|
+|Do I want to allow access to this app within my organization? | See [Microsoft Teams apps permissions and considerations](app-permissions.md) for a list of things you should consider when allowing access to an app, bot, tab, or connector.|
 |||
 
 #### Bots for private chats and channels
@@ -89,7 +87,7 @@ You can use activity reports to see how users in your organization are using Mic
 
 | Ask yourself | Action |
 |--------------|--------|
-| Who needs to see the activity reports, and do they have the correct role to view them? | If the user doesn't have an admin role, [assign the Reports reader role](teams-activity-reports.md#reports-reader-role). |
+| Who needs to see the activity reports, and do they have the correct role to view them? | If the user doesn't have an admin role, [assign the Reports reader role](teams-activity-reports.md#reports-reader-role). Also see [Roles and permissions](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory. |
 |||
 
 #### Inline message translation
