@@ -87,7 +87,7 @@ You can use activity reports to see how users in your organization are using Mic
 
 | Ask yourself | Action |
 |--------------|--------|
-| Who needs to see the activity reports, and do they have the correct role to view them? | If the user doesn't have an admin role, [assign the Reports reader role](teams-activity-reports.md#reports-reader-role). Also see [Roles and permissions](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory. |
+| Who needs to see the activity reports, and do they have the correct role to view them? |<ul><li>If the user doesn't have an admin role, [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 |||
 
 #### Inline message translation

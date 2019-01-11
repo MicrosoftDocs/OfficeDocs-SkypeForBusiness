@@ -23,7 +23,7 @@ Teams provides a great out-of-the-box collaboration experience for your organiza
 Before you deploy Teams across your organization, take time to review and confirm that your environment is ready to provide users with the best
 possible Teams experience. Review the following information and make any required changes to your environment.
 
-- To get the best experience on Teams, your organization must have deployed [Exchange Online and SharePoint Online](#exchange-and-sharepoint-interoperability), and you must have a verified domain for O365 (such as *contoso.com*).
+- To get the best experience on Teams, your organization must have deployed [Exchange Online and SharePoint Online](#exchange-and-sharepoint-interoperability), and you must have a verified domain for O365 (for example, *contoso.com*).
 
 - To scale chat, teams, and channels across your organization, make sure that all user locations have internet access to connect to the Office 365 Services. At a minimum you should make sure that the following common ports are open to the internet from your users’ locations:
 
@@ -55,12 +55,12 @@ Messaging policies control what chat and channel messaging features are availabl
 
 |Ask yourself|Action |
 |------------|-------|
-|<ul><li>Will I customize the global messaging policy?</li><li>Do I require multiple messaging policies?</li><li>How will I determine which groups of users get which messaging policy?</li></ul>|<ul><li> To change or add a policy, see [What are Messaging policies in Teams?](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams)</li><li>To create and assign a messaging policy in PowerShell, see [PowerShell script sample - Create and assign a messaging policy](https://docs.microsoft.com/microsoftteams/scripts/powershell-script-teams-messaging-policy-edu).</li></ul>|
+|<ul><li>Will I customize the global messaging policy?</li><li>Do I require multiple messaging policies?</li><li>How will I determine which groups of users get which messaging policy?</li></ul>|<ul><li>For information about using the Microsoft Teams & Skype for Business Admin Center to change the global messaging policy or add a new policy, see [What are Messaging policies in Teams?](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams)</li><li>To create and assign a messaging policy in PowerShell, see [PowerShell script sample - Create and assign a messaging policy](https://docs.microsoft.com/microsoftteams/scripts/powershell-script-teams-messaging-policy-edu).</li><li>For information about the CsTeamsMessagingPolicy cmdlets, see [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)</li></ul>|
 |||
 
 ### External access
 
-External access (formerly known as federation) lets your Teams and Skype for Business users communicate with users who are outside of your organization. By turning this on and adding domains to the allowed list, your users can communicate with other users in other domains and organizations. External access is not configured by default.
+External access (formerly known as federation) lets your Teams and Skype for Business users communicate with users who are outside of your organization. By turning this on and adding domains to the allowed list, your users can communicate with other users in other domains and organizations. External access differs from guest access in that an entire domain is given access permission, not an individual. External access is not configured by default.
 
 |Ask yourself|Action |
 |------------|-------|
@@ -78,13 +78,14 @@ Guest access in Teams lets people outside your organization access teams and cha
 
 ### Teams settings
 
-Teams settings let you set up your teams for features such as email integration, cloud storage options, and device set up. When you make changes to the settings here, they will be applied to all the teams in your organization. For more information, see [Teams settings](enable-features-office-365.md#teams-settings). <<Need default settings>>
+Teams settings let you set up your teams for features such as email integration, cloud storage options, organization tab, meeting room device setup. and search scope. When you make changes to the settings here, they will be applied to all the teams in your organization. For more information, see [Teams settings](enable-features-office-365.md#teams-settings).
 
 |Ask yourself|Action |
 |------------|-------|
-|Will I customize Teams settings for my organization? | To customize Teams settings, see [Teams settings](enable-features-office-365.md#teams-settings).|
+|Will I customize Teams settings for my organization? | For more information about Teams settings and how to customize them, see [Teams settings](enable-features-office-365.md#teams-settings).|
 |||
 
+<!---
 ### Teams clients
 
 Teams supports a number of clients from web to desktop to mobile, and the default configuration lets users choose whichever client they want to. For more information, see [Get clients for Teams](get-clients.md).
@@ -95,6 +96,7 @@ Teams supports a number of clients from web to desktop to mobile, and the defaul
 |------------|-------|
 |<ul><li>Will I customize Teams client availability for my organization?</li><li>Will I customize Teams client settings for my organization?</li></ul>| |
 |||
+--->
 
 ### Teams usage reporting
 
@@ -102,17 +104,17 @@ The Global Admin in Office 365, Teams Service Admin, and Reports Readers roles c
 
 |Ask yourself|Action |
 |------------|-------|
-| Will I grant the Reports Reader role to my adoption team members so they can track usage? | To assign the Reports Reader role, see [Administrator role permissions in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles).|
+| Who needs to see the Teams usage reports, and do they have the correct role to view them? |<ul><li>If the user isn't an admin, [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory. |
 |||
 
 ### Teams default apps 
 
-Teams provides a number of Microsoft-provided and third-party apps via the Teams Store to engage your users and provide additional productivity capabilities and integration of commonly used business services into Teams. The default configuration is that the these apps are enabled for users to explore and use; for example, users can use the Planner app to build and manage team tasks. The out-of-the-box configuration enables the teams default apps and external apps that have been submitted via the [Teams Store approval process.](https://docs.microsoft.com/en-us/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process),
+Teams provides a number of Microsoft-provided and third-party apps via the Teams Store to engage your users and provide additional productivity capabilities and integration of commonly used business services into Teams. The default configuration is that the these apps are enabled for users to explore and use. For example, users can use the Planner app to build and manage team tasks. The out-of-the-box configuration enables the teams default apps and external apps that have been submitted via the [Teams Store approval process.](https://docs.microsoft.com/en-us/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process),
 
 
 |Ask yourself|Action |
 |------------|-------|
-| Will I change the default teams apps? | To change the defaults, see [Admin settings for apps in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/admin-settings).|
+| Do I want to turn on some apps and turn off others? | To control which apps are turned on or off, see [Admin settings for apps in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/admin-settings).|
 |||
 
 
@@ -149,7 +151,7 @@ When planning an enterprise deployment of Teams, you should take into account an
 
 ### Office 365 URLs and ports
 
-Organisations that maintain fine grained control of their internet traffic should go to the [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) for a detailed and up-to-date list of the URLs, IP addresses, ports, and protocols that must be correctly configured for Teams. Microsoft is continuously improving the Office 365 service and adding new functionality, which means the required ports, URLs, and IP addresses may change over time. We recommend that you subscribe via RSS to receive notifications when this information is updated or changed.
+Organizations that maintain fine grained control of their internet traffic should see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) for a detailed and up-to-date list of the URLs, IP addresses, ports, and protocols that must be correctly configured for Teams. Microsoft is continuously improving the Office 365 service and adding new functionality, which means the required ports, URLs, and IP addresses may change over time. We recommend that you subscribe via RSS to receive notifications when this information is updated or changed.
 
 |Ask yourself|Action |
 |------------|-------|
@@ -163,7 +165,7 @@ Your organization might require that you implement controls on how teams are nam
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Will I need to implement controls on how teams are named?</li><li>Will I need to implement controls on who can create teams?</li><li>Will I need to configure team expiration and retention?</li></ul>| To plan and implement governance controls, see:<ul><li> [Plan for governance in Teams](https://docs.microsoft.com/en-us/microsoftteams/plan-teams-governance)</li><li>[Enforce a naming policy for Office 365 groups in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)</li><li>[Set up Office 365 groups expiration](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)</li></ul>|
+|<ul><li>Will I need to implement controls on who can create teams?</li><li>Will I need to implement controls on how teams are named?</li></ul>| To plan and implement governance controls, see:<ul><li> [Plan for governance in Teams](https://docs.microsoft.com/en-us/microsoftteams/plan-teams-governance)</li><li>[Enforce a naming policy for Office 365 groups in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)</li></ul>|
 |||
 
 ### Teams application policy (side rail control)
