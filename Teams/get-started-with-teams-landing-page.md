@@ -114,26 +114,4 @@ appliesto:
         </div>
         </a>
     </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Large enterprise guidance</h3>
-                        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams?branch=lolaj-TOCoverhaul4">
-                        <p>Plan your enterprise-wide Teams deployment</p></a>
-                        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/adopt-microsoft-teams-landing-page?branch=lolaj-TOCoverhaul4">                        
-                        <p>Teams adoption hub: Help your users adopt Teams</p></a>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
 </ul>

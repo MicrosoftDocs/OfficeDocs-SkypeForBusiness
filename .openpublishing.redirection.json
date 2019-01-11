@@ -1069,6 +1069,16 @@
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md", 
       "redirect_url": "https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user", 
       "redirect_document_id": true 
+    },
+    {      
+      "source_path": "Teams/quick-start-enable-teams.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page", 
+      "redirect_document_id": true 
+    },
+    {      
+      "source_path": "Teams/Deployment-overview.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page", 
+      "redirect_document_id": true 
     }
   
   ] 

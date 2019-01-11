@@ -31,7 +31,7 @@ A great way to make sure you’re always getting the most out of your services i
 
 Additionally, because organizations grow and change, you should take time to revisit and update your business use cases at regular intervals to make sure the service is configured to meet your organization’s current needs.  Ensure you’re getting real-world feedback from your users and internal champions by establishing feedback channels in your organization. These can be informal conversations, regular meetings, or done through a Teams channel or Yammer community. 
 
-When you do see opportunities to enhance your service, take the time to do it right. Revisit our [implementation phases](quick-start-enable-teams.md) and apply the same guidance end to end. When making small, incremental changes, it’s unlikely that you’ll need to complete all activities and tasks in full, but you should be sure to evaluate each activity and task along the way to give yourself the best chance at a successful outcome.
+When you do see opportunities to enhance your service, take the time to do it right. Revisit [Deploy chat, teams, channels, and apps in Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) and apply the same guidance end to end. When making small, incremental changes, it’s unlikely that you’ll need to complete all activities and tasks in full, but you should be sure to evaluate each activity and task along the way to give yourself the best chance at a successful outcome.
 
 
 <table>
