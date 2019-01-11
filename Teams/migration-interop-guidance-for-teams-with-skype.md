@@ -84,7 +84,7 @@ TeamsUpgradePolicy exposes two key properties: Mode and NotifySfbUsers.
 
 |Parameter|Type|Allowed values</br>(default in italics)|Description|
 |---|---|---|---|
-|Mode|Enum|*Islands*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>Legacy|Indicates the mode the client should run in. If mode=Legacy, components consuming this policy will revert to honoring TeamsInteropPolicy. TeamsUpgradePolicy is now fully supported and customers should update their configurations use modes other than Legacy.|
+|Mode|Enum|*Islands*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings</br>Legacy|Indicates the mode the client should run in. If mode=Legacy, components consuming this policy will revert to honoring TeamsInteropPolicy. TeamsUpgradePolicy is now fully supported and customers should update their configurations use modes other than Legacy.|
 |NotifySfbUsers|Bool|*False* or true|Indicates whether to show a banner in the Skype for Business client informing the user that Teams will soon replace Skype for Business. This cannot be true if Mode=TeamsOnly.|
 |||||
 
