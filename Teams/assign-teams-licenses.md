@@ -170,7 +170,7 @@ foreach ($user in $users)
 
 ##  Communications Credits
 
-Here's what you need to know before assigning Communication Credits licenses.
+Here's what you need to know before assigning Communications Credits licenses.
 
 - **Enterprise E5 customers**: Even if your users are assigned Enterprise E5 licenses, we still recommend that you assign them Communications Credits licenses.
 
