@@ -529,6 +529,8 @@
 ## [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 <!-- ============================================================ -->
 
+# Teams for firstline workers
+## [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 # [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
 
 # [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
