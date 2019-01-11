@@ -67,7 +67,7 @@ Teams offers compatible Skype for Business functionality—such as IM (chat) and
 
 -   [Overview of Teams](Teams-overview.md)
 -   [Learn about teams and channels](teams-channels-overview.md)
--   [Complete technical planning](quick-start-enable-teams.md#step-3-complete-technical-planning)
+-   [Complete your technical planning](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 -   [Manage Skype Room Systems](https://aka.ms/srsdocs)
 
 [Return to top](#about-upgrade-basic)

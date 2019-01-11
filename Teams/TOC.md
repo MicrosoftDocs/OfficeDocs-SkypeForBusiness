@@ -25,6 +25,9 @@
 ## [Presence](presence-admins.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 
+
+
+
 ## [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
 ### [Apps permissions and considerations](app-permissions.md)
 ### [Add bots for private chats and channels in Teams](add-bots.md)
@@ -48,6 +51,54 @@
 ### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 ### [Guest access checklist](guest-access-checklist.md)
 
+
+## Reference
+### Get ready to roll out Teams
+#### [Check your environment’s readiness for Teams](environment-readiness.md)
+#### [Prepare your organization's network for Teams](prepare-network.md)
+#### [Limits and specifications for Teams](limits-specifications-teams.md)
+#### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
+#### [Get tools to support a rollout of Teams](rollout-tools.md)
+#### [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
+#### [Plan for governance in Teams](plan-teams-governance.md)
+
+
+### Interoperability with Office 365
+#### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
+#### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
+#### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+#### [Office 365 groups and Teams](office-365-groups.md)
+#### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
+#### [How Exchange and Teams interact](exchange-teams-interact.md)
+##### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
+##### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
+#### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
+#### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
+
+### Install Teams
+#### [Get clients for Teams](get-clients.md)
+#### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
+#### [Install Teams using MSI](msi-deployment.md)
+#### [Turn on Teams in your organization](Office-365-set-up.md)
+#### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
+#### [Deploy Teams for Surface Hub](teams-surface-hub.md)
+
+### Licensing
+#### [Manage user access to Teams](user-access.md)
+#### [Office 365 licensing for Teams](office-365-licensing.md)
+#### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
+#### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
+
+### [Manage Teams](using-admin-roles.md)
+#### [Manage Teams features in your organization](enable-features-office-365.md)
+#### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+#### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
+#### [Assign team owners and members in Teams](assign-roles-permissions.md)
+#### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
+#### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
+#### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 
 
 <!-- ============================================================ -->
@@ -444,37 +495,9 @@
 
 
 <!-- ============================================================ -->
+#       
+#        
 
-
-
-
-# [Plan - for large organizations](plan-microsoft-teams-enterprise-deployment.md)
-## [Quick start - Teams planning guide](quick-start-enable-teams.md)
-## [Overview of a Teams deployment](deployment-overview.md)
-## [Check your environment’s readiness for Teams](environment-readiness.md)
-## [Prepare your organization's network for Teams](prepare-network.md)
-## [Limits and specifications for Teams](limits-specifications-teams.md)
-## [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
-## [Get tools to support a rollout of Teams](rollout-tools.md)
-## [Plan for lifecycle management in Teams](plan-teams-lifecycle.md)
-## [Plan for governance in Teams](plan-teams-governance.md)
-## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
-## Interoperability with Office 365
-### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
-### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
-### [Office 365 groups and Teams](office-365-groups.md)
-### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
-### [How Exchange and Teams interact](exchange-teams-interact.md)
-#### [Configure an Exchange hybrid organization for use with Teams](exchange-hybrid-organization.md)
-#### [Add the Teams SMTP domain as an accepted domain in Exchange Online](smtp-accepted-domain.md)
-### [How SharePoint Online and OneDrive for Business interact with Teams](sharepoint-onedrive-interact.md)
-### [Teams experience in an Office 365 Multi-Geo-enabled tenancy](teams-experience-o365odb-spo-multi-geo.md)
-
-
-
-
-<!-- ============================================================ -->
 # [Training](training-microsoft-teams-landing-page.md)
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
 ## [Admin training for Teams](itadmin-readiness.md)
@@ -489,47 +512,15 @@
 ### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-## Set up Teams
-### [Get clients for Teams](get-clients.md)
-### [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)
-### [Install Teams using MSI](msi-deployment.md)
-### [Turn on Teams in your organization](Office-365-set-up.md)
-### [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md)
-### [Deploy Teams for Surface Hub](teams-surface-hub.md)
-## Licensing
-### [Manage user access to Teams](user-access.md)
-### [Office 365 licensing for Teams](office-365-licensing.md)
-### [Assign Skype for Business and Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Skype for Business and Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
-### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
-
-## [Manage Teams](using-admin-roles.md)
-### [Manage Teams features in your organization](enable-features-office-365.md)
-### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
-### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
-### [Assign team owners and members in Teams](assign-roles-permissions.md)
-### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
-### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
-### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
-### Monitor call quality
-#### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-#### [Set up QoS in Teams](QoS-in-Teams.md)
-#### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-#### [Set up Call Analytics](set-up-call-analytics.md)
-#### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-#### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
-#### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
-#### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
-## Teams for Education
-### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
-### [Teams resources for Education admins](resources-teams-edu.md)
-### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
-
-## [Teams PowerShell overview](teams-powershell-overview.md)
-### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
-
-## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
+## Monitor call quality
+### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
+### [Set up QoS in Teams](QoS-in-Teams.md)
+### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+### [Set up Call Analytics](set-up-call-analytics.md)
+### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
+### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 
 ## [Security & compliance](security-compliance-overview.md)
 ### [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
@@ -547,7 +538,7 @@
 ###  [Calling plans in Office 365 - Code of practice in the U.K.](code-of-practice-for-the-united-kingdom-u-k.md)
 ###  [Calling plans in Office 365 - Complaint handling of code for the U.K.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Data collection practices](data-collection-practices.md)
-###  [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
+### [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 
 ## Troubleshoot & support
@@ -556,5 +547,19 @@
 ### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ### [Use log files in troubleshooting Teams](log-files.md)
 ### [Verify service health for Teams](service-health.md)
+
+## Teams for Education
+### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
+### [Teams resources for Education admins](resources-teams-edu.md)
+### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
+
+## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
+
+## [Teams PowerShell overview](teams-powershell-overview.md)
+### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
+
+## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
+
+
 
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
