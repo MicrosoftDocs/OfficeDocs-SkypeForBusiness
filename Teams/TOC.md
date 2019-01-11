@@ -16,7 +16,7 @@
 <!-- ============================================================ -->
 
 
-# [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page)
+# [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Overview of teams and channels](teams-channels-overview.md)
 ## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
@@ -28,6 +28,8 @@
 ## [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
 ### [Apps permissions and considerations](app-permissions.md)
 ### [Add bots for private chats and channels in Teams](add-bots.md)
+### [Use built-in and custom tabs](built-in-custom-tabs.md)
+### [Use Office 365 and custom connectors](Office-365-custom-connectors.md)
 ### [Admin settings for apps in Teams](admin-settings.md)
 ### [Publish apps to the Teams Tenant Apps Catalog](tenant-apps-catalog-teams.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
@@ -378,6 +380,10 @@
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 ### [Deploying desk phones](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
+## [Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md)
+### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
+### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
+### [Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
 <!-- ============================================================ -->
 
 
