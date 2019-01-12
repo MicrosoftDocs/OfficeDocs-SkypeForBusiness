@@ -90,12 +90,11 @@ Teams settings let you set up your teams for features such as email integration,
 
 Teams supports a number of clients from web to desktop to mobile, and the default configuration lets users choose whichever client they want to. For more information, see [Get clients for Teams](get-clients.md).
 
-
 |Ask yourself|Action |
 |------------|-------|
-|<ul><li>Will I customize Teams client availability for my organization?</li><li>Will I customize Teams client settings for my organization?</li></ul>|<ul><li>[Check out Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)</li><li>Learn how to [Install Teams using MSI](msi-deployment.md)</li></ul> |
+|<ul><li>Will I customize Teams client availability for my organization?</li><li>Will I customize Teams client settings for my organization?</li></ul>|<ul><li>Check out [Hardware requirements for the Teams app](hardware-requirements-for-the-teams-app.md)</li><li>Learn how to [Install Teams using MSI](msi-deployment.md)</li></ul> |
 |||
---->
+
 
 ### Teams usage reporting
 
@@ -108,7 +107,7 @@ The Global Admin in Office 365, Teams Service Admin, and Reports Readers roles c
 
 ### Teams default apps 
 
-Teams provides a number of Microsoft-provided and third-party apps via the Teams Store to engage your users and provide additional productivity capabilities and integration of commonly used business services into Teams. The default configuration is that the these apps are enabled for users to explore and use. For example, users can use the Planner app to build and manage team tasks. The out-of-the-box configuration enables the teams default apps and external apps that have been submitted via the [Teams Store approval process.](https://docs.microsoft.com/en-us/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process),
+Teams provides a number of first-party (Microsoft-provided) and third-party apps via the Teams Store to engage your users and provide additional productivity capabilities and integration of commonly used business services into Teams. The default configuration is that the these apps are enabled for users to explore and use. For example, users can use the Planner app to build and manage team tasks. The out-of-the-box configuration enables the teams default apps and external apps that have been submitted via the [Teams Store approval process.](https://docs.microsoft.com/en-us/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process),
 
 
 |Ask yourself|Action |
