@@ -512,15 +512,6 @@
 ### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-## Monitor call quality
-### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
-### [Set up QoS in Teams](QoS-in-Teams.md)
-### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Set up Call Analytics](set-up-call-analytics.md)
-### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
-### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 
 ## [Security & compliance](security-compliance-overview.md)
 ### [Conduct an eDiscovery investigation of content in Teams](ediscovery-investigation.md)
@@ -547,6 +538,18 @@
 ### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ### [Use log files in troubleshooting Teams](log-files.md)
 ### [Verify service health for Teams](service-health.md)
+
+### Monitor call quality
+#### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
+#### [Set up QoS in Teams](QoS-in-Teams.md)
+#### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+#### [Set up Call Analytics](set-up-call-analytics.md)
+#### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+#### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
+#### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
+
+
 
 ## Teams for Education
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
