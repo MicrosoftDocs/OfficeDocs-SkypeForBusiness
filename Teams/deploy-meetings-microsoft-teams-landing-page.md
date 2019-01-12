@@ -1,7 +1,6 @@
 ---
 title: Deploy Meetings in Microsoft Teams
 description: Use these deployment resources to help you roll out meetings in Microsoft Teams.
-layout: LandingPage
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
