@@ -2,11 +2,10 @@
 title: Deploy apps, bots, and connectors in Microsoft Teams
 description: Use these deployment resources to help you deploy apps in Microsoft.
 layout: LandingPage
-ms.topic: landing-page
+ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-layout: LandingPage
 ms.date: 01/11/2019
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -60,7 +59,7 @@ Bots are automated programs that respond to queries or give updates and notifica
 
 #### Built-in and custom tabs
 
-Owners and team members can add tabs to a channel, private chat, and group chat to help integrate their cloud services. Add tabs to help users access and manage the data they need or interact with the most. In channels, the Conversations and Files tabs are automatically created by default. In every private chat, the Conversations, Files, Organization, and Activity tabs are automatically created by default. In addition to these built-in tabs, you can design and add custom tabs. To learn about turning Teams apps on or off for your organization, read [Admin settings for apps in Teams](admin-settings.md).
+Owners and team members can add tabs to a channel, private chat, and group chat to help integrate their cloud services. Add tabs to help users access and manage the data they need or use the most. In channels, the Conversations and Files tabs are created by default. In every private chat, the Conversations, Files, Organization, and Activity tabs are created by default. In addition to these built-in tabs, you can design and add custom tabs. To learn about turning Teams apps on or off for your organization, read [Admin settings for apps in Teams](admin-settings.md).
 
 | Ask yourself | Action |
 |--------------|--------|
@@ -69,7 +68,7 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 
 #### Office 365 and custom connectors
 
-Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Microsoft Teams users can receive updates from popular services such as Twitter, Trello, Wunderlist, GitHub, and Visual Studio Team Services (VSTS) in their Teams chats.
+Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Teams users can receive updates from popular services such as Twitter, Trello, Wunderlist, GitHub, and Visual Studio Team Services (VSTS) in their Teams chats.
 
 | Ask yourself | Action |
 |--------------|--------|

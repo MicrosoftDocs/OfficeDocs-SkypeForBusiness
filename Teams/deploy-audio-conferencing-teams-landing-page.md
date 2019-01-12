@@ -1,7 +1,6 @@
 ---
 title: Deploy Audio Conferencing in Microsoft Teams
 description: Use these deployment resources to help you roll out audio conferencing in Microsoft Teams.
-layout: LandingPage
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
