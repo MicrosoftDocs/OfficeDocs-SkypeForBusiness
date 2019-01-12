@@ -328,7 +328,8 @@ You should also consider the following user-related issues when planning for a h
 
 - **Instant Messaging and Presence** User contact lists, groups, and access control lists (ACLs) are migrated with the user account.
 
-- **Conferencing data, meeting content, and scheduled meetings** This content is not migrated with the user account. Users must reschedule meetings after their accounts are migrated to Skype for Business Online.
+- **Conferencing data, meeting content, and scheduled meetings** This content is not migrated with the user account. Users must reschedule meetings after their accounts are migrated to Skype for Business Online (the Meeting Migration Service does this automatically if migrating from a Skype for Business server to Skype for Business Online or Teams).
+
 
 ## User policies and features
 <a name="BKMK_UserPolicies"> </a>
