@@ -57,7 +57,7 @@ Teams provides a set of custom administrator roles that can be used to manage Te
 
 ### Meetings settings 
 
-Meetings settings are used to control whether anonymous users can join Teams meetings, set up meeting invitations, and if you want to enable Quality of Service (QoS), set the ports for real-time traffic. These settings will be used for all of the Teams meetings that users schedule in your organization. 
+Meetings settings are used to control whether anonymous users can join Teams meetings, set up meeting invitations, and if you want to turn on Quality of Service (QoS), set the ports for real-time traffic. These settings will be used for all of the Teams meetings that users schedule in your organization. 
 
 | Ask yourself | Action |
 |--------------|--------|
@@ -140,7 +140,7 @@ See [Teams cloud meeting recording](https://docs.microsoft.com/en-gb/MicrosoftTe
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I enable the meeting transcription service?|<need link>|
+| Will I turn on the meeting transcription service?|<need link>|
 |||
 
 ### Conference room systems rollout
@@ -156,7 +156,7 @@ The [Plan Skype Room Systems v2](https://docs.microsoft.com/skypeforbusiness/pla
 
 ### Cloud video interop
 
-Cloud video interop enables third-party meeting room devices to join Microsoft Teams meetings. 
+Cloud video interop makes it possible for third-party meeting room devices to join Teams meetings. 
 
 Video teleconferencing with content collaboration helps you make the most out of meetings. However, meeting room systems and devices are expensive to upgrade. Cloud video interop for Microsoft Teams works with third-party systems and delivers a native meeting experience for all participants – in meeting rooms or inside Teams clients. 
 
