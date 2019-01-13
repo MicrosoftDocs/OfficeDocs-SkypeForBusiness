@@ -103,7 +103,7 @@ The following table details the features supported under various combinations of
 |Server Side Conversation History  <br/> |Y  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
 
 > [!NOTE]
-> There is a Cloud Voicemail service which is supported for Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015, and Skype for Business Server 2013.
+> There is a Cloud Voicemail service which is supported for Skype for Business Online and Skype for Business Server 2019.
 > 
 
 ## See also
