@@ -16,7 +16,7 @@ appliesto:
 ---
 
 # Welcome to Microsoft Teams
-If you're the admin for Microsoft Teams in your organization, you're in the right place. Here you’ll find all the information you need to plan, deploy, and run Teams. If you're ready do find you path to Teams, start with [How to roll out Teams](How-to-roll-out-teams.md).
+If you're the admin for Microsoft Teams in your organization, you're in the right place. Here you’ll find all the information you need to plan, deploy, and run Teams. When you're ready to get going with Teams, start with [How to roll out Teams](How-to-roll-out-teams.md).
 
 ## Overview of Teams
 
