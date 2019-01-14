@@ -3,7 +3,7 @@ title: Manage external access (federation) in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 12/10/2018
+ms.date: 01/14/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -31,7 +31,7 @@ With Microsoft Teams external access, users from other domains can participate i
 | Additional users can be added to a chat with an external user | No | N/A |
 | User is identified as an external party | Yes | Yes |
 | Presence is displayed | Yes | Yes |
-| Out of office message is shown | | |
+| Out of office message is shown | No | Yes |
 | Individual user can be blocked | No | Yes |
 | @mentions are supported | No | Yes |
 
