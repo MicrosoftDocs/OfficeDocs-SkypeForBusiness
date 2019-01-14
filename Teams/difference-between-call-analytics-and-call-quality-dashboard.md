@@ -49,6 +49,8 @@ If you want non-admins, such as helpdesk agents from an external vendor, to use 
     
 - **Helpdesk agents with Communications Support Engineer (Tier 2) permissions**: Agents see all available data in Call Analytics and troubleshoot both calls and meetings. They have full access to call logs and customer information.
 
+For more information about the Communications Support Specialist and Communications Support Engineer roles, see [Use Microsoft Teams admin roles to manage teams](using-admin-roles.md).
+
 > [!IMPORTANT]
 > Helpdesk agent permissions and network topology upload are available in the Microsoft Teams & Skype for Business Admin Center. Communications Support Specialists (Tier 1) and Communications Support Engineers (Tier 2) can use this portal to access Call Analytics and the Call Quality Dashboard.
     
