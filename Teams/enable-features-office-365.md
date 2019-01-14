@@ -19,35 +19,41 @@ appliesto:
 
 # Manage Microsoft Teams features in your Office 365 organization
 
-All Teams settings will soon be migrated to the new Microsoft Teams & Skype for Business Admin Center. The only Teams feature that is managed in the Office 365 admin center is Apps. 
+All Teams settings will soon be migrated to the new Microsoft Teams & Skype for Business Admin Center. The only Teams feature that's managed in the Microsoft 365 admin center is Apps. 
 
 Unless otherwise noted, the default value for an option is **On**.
 
-## Office 365 tenant-wide settings 
+## Tenant-wide settings 
 
-In **Tenant-wide settings**, you can turn on or turn off Apps.
+You can turn off or turn on apps for Teams in **Tenant-wide settings** in the Microsoft 365 admin center. 
 
-To edit **Tenant-wide settings** for Teams, go to the Microsoft Teams & Skype for Business Admin Center, and select **Legacy portal**. Choose **Settings** > **Services & add-ins** > **Microsoft Teams**. If you're signed in as an Office 365 admin, this link should take you there: 
->  
-> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
+To edit **Tenant-wide settings** for Teams, go to the Microsoft 365 admin center, choose **Settings** > **Services & add-ins** > **Microsoft Teams**. If you're signed in as an Office 365 admin, this link should take you there: 
+
+https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
 
 ### Apps
 
-Apps are tabs, connectors, bots, or any combination of these three, provided by a third-party service. There are Teams admin policies that can be configured in the Office 365 admin center to control which external third-party apps are allowed. These policies let you specify which apps are allowed and disallowed, new external app behavior, and whether side-loading apps is allowed. 
+Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps.  
 
-Under **Apps**, you can configure the following settings for your organization: 
+#### Default apps
 
-![Screenshot of the Apps section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.png)
+These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
 
-- **Allow external apps in Microsoft Teams**: When this switch is turned on, users can add tabs and bots that are available to the Office 365 tenant. 
- 
-    ![Screenshot of the Allow external apps control in the Apps section.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image6.2.png)
+![Screen shot of the Default Apps section.](media/teams-tenant-wide-settings-default-apps.png "Screen shot of the Default Apps section")
 
-- **Enable new external apps by default**: When this switch is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this switch if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on cool new apps. 
+#### External apps
 
-- **Allow sideloading of external apps**: When this switch is turned on, users can install and turn on custom bots and tabs. 
+These apps are provided by third parties. You can configure the following settings for external apps.
 
-To learn more, read [Admin settings for apps in Teams](admin-settings.md). 
+![Screenshot of the External Apps section.](media/teams-tenant-wide-settings-external-apps-settings.png "Screen shot of the External Apps section, showing settings that you can turn on and off")
+
+- **Allow external apps in Microsoft Teams**: When this setting is turned on, users can add external apps that are available to your organization. 
+
+- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
+
+- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
+
+To learn more, see [Admin settings for apps in Teams](admin-settings.md). 
 
 ## Teams org-wide settings
 
@@ -78,10 +84,6 @@ Users can upload and share files from cloud storage services in Teams channels a
 #### Organization
 
 Here you can turn on the **Organization** tab, which shows the detailed organizational chart for the user’s organization. For more information, see [Use the organization tab in Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
-
-#### Skype for Business interop
-
-Use this setting to let Teams users chat with Skype for Business users. For detailed information about interoperability between Teams and Skype for Business, go to [Understand Microsoft Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### Devices
 

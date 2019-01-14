@@ -33,8 +33,10 @@ For a Teams user’s meetings to be recorded, Microsoft Stream must be enabled f
 - User has consented to the company guidelines, if set up by the admin
 - User has sufficient storage in Microsoft Stream for recordings to be saved
 - User has TeamsMeetingPolicy-AllowCloudRecording setting set to true
-- User has TeamsMeetingPolicy-AllowTranscription setting set to true, so user can choose whether to automatically transcribe the recordings
 - User is not an anonymous, Guest, or federated user in the meeting
+
+> [!NOTE]
+> Additionally, to allow the person initiating the recording to choose whether to automatically transcribe the recording, the user's TeamsMeetingPolicy -AllowTranscription setting must be set to true
 
 ## Set up Teams cloud meeting recording for users in your organization
 
@@ -85,7 +87,7 @@ When users record their Teams meetings, they can confirm whether a transcript sh
 
 Use the setting AllowTranscription in TeamsMeetingPolicy in Teams PowerShell to control whether a recording initiator gets a choice to transcribe the meeting recording. You can learn more about managing TeamsMeetingPolicy with Office 365 PowerShell [here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
-Unless you have assigned a custom policy to the users, they get Global policy, which has disabled enabled by default.
+Unless you have assigned a custom policy to the users, they get Global policy, which has AllowTranscription disabled by default.
 
 For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
 
