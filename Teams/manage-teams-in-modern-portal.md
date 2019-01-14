@@ -44,14 +44,12 @@ Management tools for teams are under the **Teams** node in the Microsoft Teams &
 ![Teams overview grid](media/manage-teams-in-modern-portal-image1.png)  
 
 The grid displays the following properties:
-
 - **Team name**
 - **Channels** - a count of all channels in the team, including the default General channel.
 - **Users** - a count of total users, including owners, guests, and members from your tenant.
 - **Owners** - a count of owners for this team.
 - **Guests** - a count of Azure Active Directory B2B guest users who are members of this team.
 - **Privacy** - the AccessType of the backing Office 365 group.
-
 ### Search
 
 Search currently supports the string "Begins with" and searches the **Team name** field.
@@ -85,6 +83,28 @@ You can change the following elements of a team:
 
 
 The changes that you make to a team are logged. If you are modifying group settings (changing the name, description, photo, privacy, classification, or team members), these changes will be attributed to you through the audit pipeline. If you are performing actions against Teams-specific settings, your changes will be tracked and attributed to you in the general channel of the team.
+
+## Troubleshooting
+
+**Issue: Teams missing from the Team Overview Grid**
+
+When you enter the Microsoft Teams & Skype for Business Admin Center, under the **Teams** option some of your teams are missing from the listing in the Teams Overview Grid.
+
+**Cause**: This issue occurs when the team was incorrectly (or not yet) profiled by the system which can lead to a missing property for it to be recognized.
+
+**Resolution: Manually set the property to the correct value via MS Graph**
+
+Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
+
+1. Access [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
+
+2. Sign in to Graph Explorer on the left-hand side menu
+
+3. Change the query line to: PATCH > v1.0 > https://graph.microsoft.com/v1.0/groups/{groupid}
+
+4. Add the following value on the request body: {"resourceProvisioningOptions": ["Team"]}
+
+5. Confirm the team appears correctly back on the Microsoft Teams & Skype for Business Admin Center - Team Overview
 
 
 ## Learn more
