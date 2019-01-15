@@ -17,13 +17,7 @@ appliesto:
 Manage external access (federation) in Microsoft Teams
 ======================================================
 
-With Microsoft Teams external access, users from other domains can participate in your chats and channels. You can also allow external users who are still using Skype for Business to participate. External access differs from guest access in that an entire domain is given access permission, not an individual. 
-
-Guest access, once granted, allows a guest full access to a team (including chat and channels), and only admins can add a guest. Also, as a guest, you need to switch to the tenant in which the chat is taking place to participate in a chat with people in that tenant. If you are not in the right tenant, the chat is not accessible.
-
-With external access, the external chat participant has no other access to the team other than being part of a chat conversation. Federated chats happen in the user's home tenant, so the user can have multiple federated chats with multiple people from different organizations without having to switch tenants. 
-
-See the following table for a comparison of external and guest access features.
+With Microsoft Teams external access, users from other domains can participate in your chats and channels. You can also allow external users who are still using Skype for Business to participate. External access differs from guest access in that an entire domain is given access permission, not an individual. See the following table for a comparison of external and guest access features.
 
 | Feature | External access users | Guest access users |
 |---------|-----------------------|--------------------|
@@ -41,7 +35,11 @@ See the following table for a comparison of external and guest access features.
 | Individual user can be blocked | No | Yes |
 | @mentions are supported | No | Yes |
 
-<sup>1</sup> Only by email of Session Initiation Protocol (SIP) address.
+<sup>1</sup> Only by email or Session Initiation Protocol (SIP) address.
+
+Guest access, once granted, allows a guest full access to a team (including chat and channels), and only admins can add a guest. Also, as a guest, you need to switch to the tenant in which the chat is taking place to participate in a chat with people in that tenant. If you are not in the right tenant, the chat is not accessible.
+
+With external access, the external chat participant has no other access to the team other than being part of a conversation. Federated chats happen in the user's home tenant, so the external user can have multiple federated chats with multiple people from different organizations without having to switch tenants.
 
 ## Turn on or turn off external access
 
