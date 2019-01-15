@@ -85,6 +85,20 @@ After you create your Audio Conferencing bridge, you need to set the toll and/or
 | Which conference bridge numbers will I assign to each user who leads meetings? | To assign a dial-in phone number to a user, see [Step 7: Assign dial-in phone numbers for users who lead meetings](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings). |
 |||
 
+### Communications Credits
+
+To provide toll-free conference bridge phone numbers and to support conferencing dial-out to international phone numbers, you must set up Communications Credits for your organization. To learn more about Communications Credits, see [What are Communications Credits?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+
+|Ask yourself|Action |
+|------------|-------|
+|<ul><li>Are Communications Credits required for my Audio Conferencing implementation?</li><li>If they are required, how much should I purchase?</li><li>Do I want to configure an auto-recharge amount?</li></ul> |<ul><li> To find out if you need to set up Communications Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).</li><li>To determine the Communications Credits amount, see [Recommended funding amounts](what-are-communications-credits.md#recommended-funding-amounts).</li><li>To configure an auto-recharge amount, see [Set up Communications Credits for your organization](what-are-communications-credits.md#recommended-funding-amounts).</li></ul> |
+|||
+
+
+
+
+
+
 ## Additional deployment decisions
 
 You may want to change these settings, based on your organization's needs and configuration.
@@ -121,3 +135,13 @@ The [Operate my service](https://docs.microsoft.com/MicrosoftTeams/1-drive-value
 | Who in my organization will be responsible for managing the meetings service? | <need a link here> |
 |||
 
+### Dial plans
+
+A dial plan in the Phone System feature of Office 365 is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing.
+
+For more information about dial plans, see What are dial plans?
+
+|Ask yourself|Action |
+|------------|-------|
+|<ul><li>Does my organization need a customized dial plan?</li><li>Which users require a customized dial plan, and which tenant dial plan should be assigned to each user?</li></ul>|<ul><li>To help determine if you need a custom dial plan, see [Planning for tenant dial plans](what-are-dial-plans.md#planning-for-tenant-dial-plans)</li><li>To add users to a customized dial plan in PowerShell, see [Create and manage dial plans](create-and-manage-dial-plans.md).</ul></li> |
+|||
