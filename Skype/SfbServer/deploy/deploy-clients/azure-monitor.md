@@ -28,13 +28,13 @@ By following this guide, you can use a dashboard like the following example to g
 At a high level, you need to perform the following tasks:
 
 
-1.  [Validate Log Analytics configuration](Deploy-Azure-Monitor.md#validate_LogAnalytics)
-2.  [Configure test devices for Log Analytics management setup](Deploy-Azure-Monitor.md#configure_test_devices)
+1.  [Validate Log Analytics configuration](azure-monitor.md#validate_LogAnalytics)
+2.  [Configure test devices for Log Analytics management setup](azure-monitor.md#configure_test_devices)
 3.  [Map custom fields](Deploy-Azure-Monitor.md#Custom_fields)
-4.  [Define the Skype Room Systems v2 views in Log Analytics](Deploy-Azure-Monitor.md#Define_Views)
-5.  [Define alerts](Deploy-Azure-Monitor.md#Alerts)
-6.  [Configure all devices for Monitoring](Deploy-Azure-Monitor.md#configure_all_devices)
-7.  [Configure additional Azure Monitor solutions](Deploy-Azure-Monitor.md#Solutions)
+4.  [Define the Skype Room Systems v2 views in Log Analytics](azure-monitor.md#Define_Views)
+5.  [Define alerts](azure-monitor.md#Alerts)
+6.  [Configure all devices for Monitoring](azure-monitor.md#configure_all_devices)
+7.  [Configure additional Azure Monitor solutions](azure-monitor.md#Solutions)
 
 > [!IMPORTANT]
 > Although with minimal configuration, Azure Monitor Log Analytics can monitor a computer running a Windows operating system, there are still some Skype Room Systems v2–specific steps that you need to take before you start deploying agents to all Skype Room Systems devices.
@@ -377,7 +377,7 @@ Configure an alert rule that checks for Skype Room Systems v2 devices that have 
 
 7. Configure action groups:
     1.  Select **Create New**
-    2.  Provide suitable ames for the *Action group name* and *Short Name* fields.
+    2.  Provide suitable names for the *Action group name* and *Short Name* fields.
     3.  Specify a unique *Action Name* and select **Email/SMS/Push/Voice**, and then select **Edit details**.
     4.  Select the Email checkbox and provide the email address of the person or group that will recieve the alerts.
     5.  You may also provide your phone number to get notified with SMS, a voice call or both.
@@ -503,6 +503,6 @@ Azure Monitor provides built-in management solutions through its [solution galle
 
 ## See also
 
-[Plan Skype Room Systems v2 management with Azure Monitor](../../plan-your-deployment/clients-and-devices/Plan-Azure-Monitor.md)
+[Plan Skype Room Systems v2 management with Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md)
 
-[Manage Skype Room Systems v2 devices with Azure Monitor](../../manage/skype-room-systems-v2/Manage-Azure-Monitor.md)
+[Manage Skype Room Systems v2 devices with Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md)
