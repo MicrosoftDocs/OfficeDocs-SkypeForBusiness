@@ -21,7 +21,7 @@ Teams provides a great out-of-the-box collaboration experience for your organiza
 > [!TIP]
 > We recommend that you roll out [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) throughout your Teams deployment.
 
-## Deployment prerequisites 
+## Chat deployment prerequisites 
 
 Before you deploy Teams across your organization, take time to confirm that your environment is ready for Teams. Review the following information and make any required changes to your environment.
 
