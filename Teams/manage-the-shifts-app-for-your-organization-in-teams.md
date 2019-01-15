@@ -31,7 +31,11 @@ It's important to know that Shifts currently doesn't support guest users. This m
 
 Shifts is available in all Office 365 subscriptions that include Teams, with a couple of exceptions. The exceptions are US Government Cloud Community (GCC) and Teams free. Shifts isn't available in Office 365 US Government or Teams free offerings.
 
-To learn more about licensing for Teams, see [Office 365 licensing for Teams](Office-365-licensing.md).
+To learn more about licensing for Teams, including a list of subscriptions that includes Teams, see [Office 365 licensing for Teams](Office-365-licensing.md).
+
+## Location of Shifts data
+
+Shifts data is currently stored in Azure in data centers in North America and Western Europe. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
 
 ## Set up Shifts
 
