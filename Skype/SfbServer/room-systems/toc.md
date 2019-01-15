@@ -17,8 +17,7 @@
 ### [With Exchange on premises (Hybrid)](../deploy/deploy-clients/with-exchange-on-premises.md)
 ### [Configure a console](../deploy/deploy-clients/console.md)
 ### [By using System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
-### [Management with Azure Monitor](../deploy/deploy-clients//Deploy-Azure Monitor.md)
-
+### [Management with Azure Monitor](../deploy/deploy-clients/Deploy-Azure-Monitor.md)
 ## Manage
 ### [Management overview](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 ### [Maintenance and operations](../manage/skype-room-systems-v2/room-systems-v2-operations.md)

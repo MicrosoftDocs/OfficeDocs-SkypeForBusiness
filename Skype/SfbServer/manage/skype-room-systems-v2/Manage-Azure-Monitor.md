@@ -17,7 +17,7 @@ description: "This article discusses how to manage Skype Room Systems v2 devices
 
 This article discusses how to manage Skype Room Systems v2 devices in an integrated, end-to-end manner using Azure Monitor.
 
-You can configure Azure Monitor to provide basic telemetry that will help you manage Skype meeting room devices (see [Plan Skype Room Systems v2 management with Azure Monitor](../../plan-your-deployment/clients-and-devices/Manage-Azure-Monitor.md) and [Deploy Skype Room Systems v2 management with Azure Monitor](../../deploy/deploy-clients/Deploy-Azure-Monitor.md) for details). As your management solution matures, you can use additional data and management capabilities to create a more detailed view of device performance.
+You can configure Azure Monitor to provide basic telemetry that will help you manage Skype meeting room devices (see [Plan Skype Room Systems v2 management with Azure Monitor](../../plan-your-deployment/clients-and-devices/Plan-Azure-Monitor.md) and [Deploy Skype Room Systems v2 management with Azure Monitor](../../deploy/deploy-clients/Deploy-Azure-Monitor.md) for details). As your management solution matures, you can use additional data and management capabilities to create a more detailed view of device performance.
 
 ## Understand the log entries
 
