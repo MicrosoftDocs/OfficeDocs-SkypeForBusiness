@@ -75,27 +75,21 @@ See the [Meetings in Microsoft Team tutorial](https://docs.microsoft.com/en-US/M
 |<ul><li>Will I customize the initial meeting policies?</li><li>Do I require multiple meeting policies?</li><li>How will I determine which groups of users get which meetings policy applied?</li></ul>| <need links>|
 |||
 
-### Conference bridges
+### Audio Conferencing
 
-Conference bridges let people dial into meetings using a phone. You can use the default settings for a conference bridge or change the phone numbers (toll and toll-free) and other settings, such as the PIN or the languages that are used. 
+Audio Conferencing provides organizations with additional entry points to any meeting (ad hoc or scheduled) by allowing meeting participants to join via public switched telephone network (PSTN) by dialing in using a traditional landline, private branch exchange (PBX), or mobile phones. 
 
-See [Audio Conferencing in Office 365](https://docs.microsoft.com/en-US/microsoftteams/audio-conferencing-in-office-365?WT.mc_id=TeamsAdminCenterCSH) for more information.
+Before you plan your implementation of Audio Conferencing in Teams, review the availability of the Audio Conferencing service; see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-| Ask yourself | Action |
-|--------------|--------|
-|<ul><li>Will I add new bridge numbers?</li><li>Will I modify the bridge settings?</li></ul>|<need links> |
+Audio Conferencing licenses are available as part of an Office 365 E5 subscription or as an add-on service for an Office 365 E1 or Office 365 E3 subscription.
+
+|Ask yourself|Action |
+|------------|-------|
+|<ul><li>Which user locations or offices will implement the Audio Conferencing service?</li><li>Do I have the required licenses in place?</li></ul> |<ul><li>To see what cloud features are included in each Office 365 plan, see the [License options based on your plan](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan) articles.</li><li>For more information about Teams add-on licensing, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).</li></ul>|
 |||
 
-### Live events policies
 
-Teams live events policies are used to manage event settings for groups of users. You can use the default policy or create additional policies that can be assigned to users who hold live events within your organization. 
 
-See [the live events articles](https://docs.microsoft.com/en-US/microsoftteams/teams-live-events/what-are-teams-live-events?WT.mc_id=TeamsAdminCenterCSH) for more information about planning for, setting up, and configuring Teams live events.
-
-| Ask yourself | Action |
-|--------------|--------|
-|<ul><li>Will I customize the initial live events policies? </li><li>Do I require multiple policies?</li><li>How will I determine which groups of users get which policy applied?</li></ul>| <need links>|
-|||
 
 ### Meeting room and personal devices
 
@@ -163,6 +157,17 @@ Video teleconferencing with content collaboration helps you make the most out of
 | Ask yourself | Action |
 |--------------|--------|
 | Will I use a cloud video interop solution as part of my room systems deployment? | See [Cloud Video Interop for Microsoft Teams](https://docs.microsoft.com/en-gb/MicrosoftTeams/cloud-video-interop) for more information.|
+|||
+
+### Live events policies
+
+Teams live events policies are used to manage event settings for groups of users. You can use the default policy or create additional policies that can be assigned to users who hold live events within your organization. 
+
+See [the live events articles](https://docs.microsoft.com/en-US/microsoftteams/teams-live-events/what-are-teams-live-events?WT.mc_id=TeamsAdminCenterCSH) for more information about planning for, setting up, and configuring Teams live events.
+
+| Ask yourself | Action |
+|--------------|--------|
+|<ul><li>Will I customize the initial live events policies? </li><li>Do I require multiple policies?</li><li>How will I determine which groups of users get which policy applied?</li></ul>| <need links>|
 |||
 
 ### Personal device rollout
