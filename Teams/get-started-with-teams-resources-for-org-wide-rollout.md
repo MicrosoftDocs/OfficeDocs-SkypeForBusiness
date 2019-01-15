@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
 description: Know where to go to find in-depth deployment and adoptions resources for Microsoft Teams.
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto: 

@@ -8,6 +8,7 @@ manager: serdars
 ms.date: 01/07/2019
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
+localization_priority: Priority
 search.appverid: MET150
 appliesto: 
 - Microsoft Teams

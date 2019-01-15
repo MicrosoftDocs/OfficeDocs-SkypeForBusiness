@@ -10,6 +10,7 @@ layout: LandingPage
 ms.date: 11/06/2018
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
+localization_priority: Normal
 search.appverid: MET150
 appliesto: 
 - Microsoft Teams

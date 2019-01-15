@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: Step-by-step guidance to rolling out chat, teams, channels, and apps in Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
