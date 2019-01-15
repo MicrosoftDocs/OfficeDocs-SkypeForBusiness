@@ -112,7 +112,7 @@ See [Intelligent Communications for devices](https://products.office.com/en-gb/m
 
 You can use activity reports to see how users in your organization are using Microsoft Teams. For example, if some don’t use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. 
 
-See [Use activity reports for Microsoft Teams(https://docs.microsoft.com/en-gb/MicrosoftTeams/teams-activity-reports) for more information.
+See [Use activity reports for Teams](https://docs.microsoft.com/en-gb/MicrosoftTeams/teams-activity-reports) for more information.
 
 | Ask yourself | Action |
 |--------------|--------|
