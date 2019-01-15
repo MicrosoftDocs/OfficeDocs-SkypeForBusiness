@@ -4,7 +4,6 @@ ms.author: jambirk
 author: jambirk
 ms.reviewer: Turgayo
 manager: serdars
-ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
