@@ -30,7 +30,7 @@ At a high level, you need to perform the following tasks:
 
 1.  [Validate Log Analytics configuration](azure-monitor.md#validate_LogAnalytics)
 2.  [Configure test devices for Log Analytics management setup](azure-monitor.md#configure_test_devices)
-3.  [Map custom fields](Deploy-Azure-Monitor.md#Custom_fields)
+3.  [Map custom fields](azure-monitor.md#Custom_fields)
 4.  [Define the Skype Room Systems v2 views in Log Analytics](azure-monitor.md#Define_Views)
 5.  [Define alerts](azure-monitor.md#Alerts)
 6.  [Configure all devices for Monitoring](azure-monitor.md#configure_all_devices)
