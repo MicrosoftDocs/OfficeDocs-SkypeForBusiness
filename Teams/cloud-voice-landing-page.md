@@ -44,7 +44,6 @@ Phone System is Microsoft's technology for enabling call control and Private Bra
 
 Phone System allows you to replace your existing Private Branch Exchange (PBX) system with a set of features directly delivered from Office 365 and tightly integrated into the company’s cloud productivity experience.
 
-For more information, see [Phone System in Office 365](what-is-phone-system-in-office-365.md).
 
 |Ask yourself|Action |
 |------------|-------|
@@ -65,14 +64,14 @@ With Calling Plans, Microsoft facilitates connectivity to the Public Switched Te
 There are two types of Calling Plans available:
 
 - Domestic Calling Plans 
-- Domestic and International Calling Plans. 
+- Domestic and International Calling Plans
 
 |Ask yourself|Action |
 |------------|-------|
 |<ul><li>Are Calling Plans available in my area?</li><li>Which user locations will have the Calling Plans service? </li><li>Do my users have Calling Plans licenses?</li><li>Do my users each have a direct inward dial (DID) phone number?</li></ul>|<ul><li> To find out if Calling Plans are available in your area, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</li><li>To buy and assign licenses, see [Step 2: Buy and assign licenses](set-up-calling-plans.md#step-2-buy-and-assign-licenses).</li><li>To get phone numbers, see [Step 3: Get phone numbers](set-up-calling-plans.md#step-3-get-phone-numbers). </li></ul>|
 |||
 
-WHAT ABOUT QUESTIONS ABOUT WHICH TYPE OF PLAN?  DO I NEED INTERNATIONAL CALLING, ETC.?
+**WHAT ABOUT QUESTIONS ABOUT WHICH TYPE OF PLAN?  DO I NEED INTERNATIONAL CALLING, ETC.?**
 
 For more information, see [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
 
