@@ -6,7 +6,7 @@
 ### [Prepare your environment](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [Requirements](../plan-your-deployment/clients-and-devices/requirements.md)
 ### [Online Licensing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
-### [Plan management with Azure Monitor](../plan-your-deployment/clients-and-devices/Plan-Azure-monitor.md)
+### [Plan management with Azure Monitor](../plan-your-deployment/clients-and-devices/azure-monitor.md)
 
 ## Deploy
 ### [Deployment overview](../deploy/deploy-clients/room-systems-v2.md)
@@ -17,12 +17,12 @@
 ### [With Exchange on premises (Hybrid)](../deploy/deploy-clients/with-exchange-on-premises.md)
 ### [Configure a console](../deploy/deploy-clients/console.md)
 ### [By using System Center Configuration Manager](../deploy/deploy-clients/room-systems-scale.md)
-### [Management with Azure Monitor](../deploy/deploy-clients/Deploy-Azure-Monitor.md)
+### [Management with Azure Monitor](../deploy/deploy-clients/azure-monitor.md)
 ## Manage
 ### [Management overview](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 ### [Maintenance and operations](../manage/skype-room-systems-v2/room-systems-v2-operations.md)
 ### [Known issues](../manage/skype-room-systems-v2/known-issues.md)
-### [Devices with Azure Monitor](../manage/skype-room-systems-v2/Manage-Azure-Monitor.md)
+### [Devices with Azure Monitor](../manage/skype-room-systems-v2/azure-monitor.md)
 ### [Settings with an XML file](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [Use the recovery tool](../manage/skype-room-systems-v2/recovery-tool.md)
 # Lync Room System (SRS v1)
