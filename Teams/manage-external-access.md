@@ -3,7 +3,7 @@ title: Manage external access (federation) in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/14/2019
+ms.date: 01/15/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -19,7 +19,7 @@ Manage external access (federation) in Microsoft Teams
 
 With Microsoft Teams external access, users from other domains can participate in your chats and channels. You can also allow external users who are still using Skype for Business to participate. External access differs from guest access in that an entire domain is given access permission, not an individual. 
 
-Guest access, once granted, allows a guest full access to a team (including chat and channels), and only admins can add a guest. Also, as a guest, you need to switch to the tenant in which the chat is taking place to conduct chats with people in that tenant, if you are not in the right tenant, the chats is not accessible.
+Guest access, once granted, allows a guest full access to a team (including chat and channels), and only admins can add a guest. Also, as a guest, you need to switch to the tenant in which the chat is taking place to participate in a chat with people in that tenant. If you are not in the right tenant, the chat is not accessible.
 
 With external access, the external chat participant has no other access to the team other than being part of a chat conversation. Federated chats happen in the user's home tenant, so the user can have multiple federated chats with multiple people from different organizations without having to switch tenants. 
 
