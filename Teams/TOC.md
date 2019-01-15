@@ -52,6 +52,21 @@
 ### [Guest access checklist](guest-access-checklist.md)
 
 
+## [Manage Teams](using-admin-roles.md)
+### [Manage Teams features in your organization](enable-features-office-365.md)
+### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
+### [Assign team owners and members in Teams](assign-roles-permissions.md)
+### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
+### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
+### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
+
+### [Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md)
+#### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
+#### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
+#### [Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
+
+
 ## Reference
 ### Get ready to roll out Teams
 #### [Check your environment’s readiness for Teams](environment-readiness.md)
@@ -91,14 +106,6 @@
 #### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 #### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
 
-### [Manage Teams](using-admin-roles.md)
-#### [Manage Teams features in your organization](enable-features-office-365.md)
-#### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
-#### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
-#### [Assign team owners and members in Teams](assign-roles-permissions.md)
-#### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
-#### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
-#### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 
 
 <!-- ============================================================ -->
@@ -431,10 +438,6 @@
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 ### [Deploying desk phones](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
-## [Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md)
-### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
-### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
-### [Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
 <!-- ============================================================ -->
 
 
