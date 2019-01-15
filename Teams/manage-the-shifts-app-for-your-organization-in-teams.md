@@ -35,7 +35,7 @@ To learn more about licensing for Teams, including a list of subscriptions that 
 
 ## Location of Shifts data
 
-Shifts data is currently stored in Azure in data centers in North America and Western Europe. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
+Shifts data is currently stored in Azure in data centers in North America, Western Europe,and Asia Pacific. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
 
 ## Set up Shifts
 
