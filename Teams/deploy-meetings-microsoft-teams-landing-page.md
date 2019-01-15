@@ -1,5 +1,5 @@
 ---
-title: Deploy meetings and conferencing in Microsoft Teams
+title: Meetings & conferencing in Microsoft Teams
 description: Use these deployment resources to help you roll out meetings in Microsoft Teams.
 ms.topic: article
 author: LolaJacobsen
@@ -14,7 +14,7 @@ appliesto:
 ---
 
 
-# Deploy meetings and conferencing in Microsoft Teams
+# Meetings & conferencing in Microsoft Teams
 
 You've completed [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including [audio conferencing](deploy-audio-conferencing-teams-landing-page.md). Here's how.
 

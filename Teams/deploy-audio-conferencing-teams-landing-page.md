@@ -1,5 +1,5 @@
 ---
-title: Deploy Audio Conferencing in Microsoft Teams
+title: Audio Conferencing in Microsoft Teams
 description: Use these deployment resources to help you roll out audio conferencing in Microsoft Teams.
 ms.topic: article
 author: LolaJacobsen
@@ -12,7 +12,7 @@ search.appverid: MET150
 appliesto: 
 - Microsoft Teams
 ---
-# Deploy Audio Conferencing in Microsoft Teams
+# Audio Conferencing in Microsoft Teams
 
 You've completed [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the Audio Conferencing workload. Here's how.
 
