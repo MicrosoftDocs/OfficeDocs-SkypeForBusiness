@@ -89,8 +89,6 @@ Audio Conferencing licenses are available as part of an Office 365 E5 subscripti
 |||
 
 
-
-
 ### Meeting room and personal devices
 
 Meetings bring together content, chat, sharing, audio, and video. When taking part in meetings, your users will benefit from using devices such as room systems, phones, headsets, and cameras that have been designed to give a great experience with Microsoft Teams. 
@@ -137,6 +135,16 @@ See [Teams cloud meeting recording](https://docs.microsoft.com/en-gb/MicrosoftTe
 | Will I turn on the meeting transcription service?|<need link>|
 |||
 
+
+### Live events policies
+
+Teams live events policies are used to manage event settings for groups of users. You can use the default policy or create additional policies that can be assigned to users who hold live events within your organization. 
+
+| Ask yourself | Action |
+|--------------|--------|
+|<ul><li>Will my organization use Teams live events?</li></ul>| See [the live events articles](https://docs.microsoft.com/en-US/microsoftteams/teams-live-events/what-are-teams-live-events?WT.mc_id=TeamsAdminCenterCSH) for more information about planning for, setting up, and configuring Teams live events.|
+|||
+
 ### Conference room systems rollout
 
 Organizations with many conference rooms may want to consider a structured approach to inventorying their rooms, identifying the appropriate devices, and then rolling them out. 
@@ -159,16 +167,6 @@ Video teleconferencing with content collaboration helps you make the most out of
 | Will I use a cloud video interop solution as part of my room systems deployment? | See [Cloud Video Interop for Microsoft Teams](https://docs.microsoft.com/en-gb/MicrosoftTeams/cloud-video-interop) for more information.|
 |||
 
-### Live events policies
-
-Teams live events policies are used to manage event settings for groups of users. You can use the default policy or create additional policies that can be assigned to users who hold live events within your organization. 
-
-See [the live events articles](https://docs.microsoft.com/en-US/microsoftteams/teams-live-events/what-are-teams-live-events?WT.mc_id=TeamsAdminCenterCSH) for more information about planning for, setting up, and configuring Teams live events.
-
-| Ask yourself | Action |
-|--------------|--------|
-|<ul><li>Will I customize the initial live events policies? </li><li>Do I require multiple policies?</li><li>How will I determine which groups of users get which policy applied?</li></ul>| <need links>|
-|||
 
 ### Personal device rollout
 
