@@ -16,8 +16,9 @@ appliesto:
 
 # Cloud voice in Microsoft Teams
 
-
 You've completed the [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice workloads. 
+
+Cloud voice provides Private Branch Exchange (PBX) capabilities, and options for connecting to the Public Switched Telephone Network (PSTN).
 
 This article helps you decide whether you need to change any of the default cloud voice settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups starting with the core set of [changes you are more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
@@ -30,9 +31,7 @@ The following articles provide more information about deploying and using cloud 
 - [Phone System in Office 365](what-is-phone-system-in-office-365.md)
 - [Quick start guide - Configuring Calling Plans in Microsoft Teams](configuring-teams-calling-quickstartguide.md)
 - [Cloud voice deployment](cloud-voice-deployment.md)
-- [Audio Conferencing in Office 365](audio-conferencing-in-office-365.md)
-- [Tutorial: Audio conferencing in Microsoft Teams](tutorial-audio-conferencing.yml)
-
+- [Microsoft telephony solutions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 
 ## Core deployment decisions
@@ -43,13 +42,18 @@ These are the settings that most organizations want to change (if the Teams defa
 
 Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Office 365 cloud. With Phone System, users can make business-related calls from their computers and mobile devices.
 
-Phone System allows you to replace your existing PBX system with a set of features directly delivered from Office 365 and tightly integrated into the company’s cloud productivity experience.
+Phone System allows you to replace your existing Private Branch Exchange (PBX) system with a set of features directly delivered from Office 365 and tightly integrated into the company’s cloud productivity experience.
 
 For more information, see [Phone System in Office 365](what-is-phone-system-in-office-365.md).
 
+|Ask yourself|Action |
+|------------|-------|
+|<ul><li>In which user locations or offices will I implement Phone System? </li></ul>|<ul><li>For more information about Phone System, see [What is Phone System in Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
+|||
+
 ## Connection to the Public Switched Telephone Network (PSTN)
 
-To connect Phone System to the Public Switched Telephone Network (PSTN) so that users can make phone calls around the world, you can use one of the following choices:
+To connect Phone System to the Public Switched Telephone Network (PSTN) so that users can make phone calls around the world, you can use one of the following:
 
 - Phone System with Calling Plans - to use Microsoft as your telephony carrier
 - Phone System with Direct Routing -  to connect to your own telephony carrier
@@ -58,12 +62,17 @@ To connect Phone System to the Public Switched Telephone Network (PSTN) so that 
 
 With Calling Plans, Microsoft facilitates connectivity to the Public Switched Telephone Network (PSTN). To use Microsoft as your telephony carrier, you need to obtain Calling Plan licenses and assign them to your Phone System users. 
 
-There are two types of Calling Plans available: Domestic Calling Plans and Domestic and International Calling Plans. 
+There are two types of Calling Plans available:
+
+- Domestic Calling Plans 
+- Domestic and International Calling Plans. 
 
 |Ask yourself|Action |
 |------------|-------|
 |<ul><li>Are Calling Plans available in my area?</li><li>Which user locations will have the Calling Plans service? </li><li>Do my users have Calling Plans licenses?</li><li>Do my users each have a direct inward dial (DID) phone number?</li></ul>|<ul><li> To find out if Calling Plans are available in your area, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</li><li>To buy and assign licenses, see [Step 2: Buy and assign licenses](set-up-calling-plans.md#step-2-buy-and-assign-licenses).</li><li>To get phone numbers, see [Step 3: Get phone numbers](set-up-calling-plans.md#step-3-get-phone-numbers). </li></ul>|
 |||
+
+WHAT ABOUT QUESTIONS ABOUT WHICH TYPE OF PLAN?  DO I NEED INTERNATIONAL CALLING, ETC.?
 
 For more information, see [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
 
@@ -78,16 +87,16 @@ For more information, see [Make my service decisions - Phone System with Calling
 
 ### Phone System with Direct Routing
 
- With Direct Routing, you can use Phone System with virutally any telephony carrier.
+ With Direct Routing, you can use Phone System with virtually any telephony carrier.
 
 |Ask yourself|Action |
 |------------|-------|
-|<ul><li>In which user locations or offices will I implement Phone System? </li><li>For which users will I enable Calling Plans or Direct Routing? </li><li>Do I have the required licenses for Direct Routing?</li></ul>|<ul><li>For more information about Phone System, see [What is Phone System in Office 365](what-is-phone-system-in-office-365.md).</li><li>For more information about Direct Routing, see [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md).</li></ul>|
+|<ul><li>For which users will I enable Calling Plans or Direct Routing? </li><li>Do I have the required licenses for Direct Routing?</li></ul>|<ul><li>For more information about Direct Routing, see [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md) and [Plan for Direct Routing](direct-routing-plan.md).</li></ul>|
 |||
 
 #### Session Border Controller (SBC) considerations
 
-With Direct Routing, you connect your own Session Border Controller (SBC) directly to Phone System without any additional on-premises software.  For a list of certified SBCs, see [Supported Session Border Controllers](direct-routing-plan.md#supported-session-border-controllers-sbcs).
+With Direct Routing, you connect your own Session Border Controller (SBC) directly to Phone System.  For a list of certified SBCs, see [Supported Session Border Controllers](direct-routing-plan.md#supported-session-border-controllers-sbcs).
 
 |Ask yourself|Action |
 |------------|-------|
@@ -114,7 +123,12 @@ Direct Routing is only supported with Microsoft Teams. To place or receive PSTN 
 
 ## Additional deployment decisions
 
-You may want to change these settings, based on your organization's needs and configuration.
+You may want to change settings for the following, based on your organization's needs and configuration:
+
+- Voicemail
+- Calling identity
+- Phone numbers from Microsoft
+- Dial plans
 
 ### Voicemail
 
