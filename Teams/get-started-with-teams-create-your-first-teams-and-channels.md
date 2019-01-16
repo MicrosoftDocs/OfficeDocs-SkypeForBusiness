@@ -28,7 +28,7 @@ To learn more, see [Overview of teams and channels in Teams](teams-channels-over
  We suggest you start with a “Get to know Teams” team where your early adopters can play around, ask questions, and discover the capabilities of Teams. This team can be essential to your success as you begin to experiment with Teams. 
 
 ### "Get to know Teams" team
-Your project team can use the “Getting to know Teams” team to ensure they're set up with Teams clients, have some great initial conversations, and explore what Teams can do. You may already have a group of people in your organization who enjoy getting early access to new capabilities. This can be one of their initial teams when you bring them on board, and will help you to immediately start getting feedback.
+Your project team can use the “Getting to know Teams” team to ensure they're set up with Teams clients, have some initial conversations, and explore what Teams can do. You may already have a group of people in your organization who enjoy getting early access to new capabilities. This can be one of their initial teams when you bring them on board and will help you get early feedback.
 
 Here's a suggested structure for the team.
 
@@ -53,21 +53,21 @@ To get started, we recommend you create private teams and add another owner to m
 
 On the left side of Teams, click **Teams**, and then at the bottom of the teams list, click **Join or create a team**. On the **Create a team** tile, click **Create team**.
 
-From here, name your team, add a description, and set the privacy. After you've done that, invite people to join the team. You can add individual users, groups, and even entire contact groups (formerly known as "distribution lists"). 
+Once you've created the team, invite people to join it. You can add individual users, groups, and even entire contact groups (formerly known as "distribution lists"). 
 
 ![Create a team](media/get-started-with-teams-create-team.png "Screen shot of an example Get to know Teams team, showing the team name and description") 
 
 ### Add a team owner
-Find the team that you created, click **More options ˙˙˙** > **Manage team**. Then go to the **Members** tab. Find the user or users you want to designate as team owner, and then under **Role**, click **Owner**.
+Find the team that you created, click **More options ˙˙˙** > **Manage team**. Then go to the **Members** tab. Find the people you want to designate as team owners. Under **Role**, click **Owner**.
 
 ### Create a channel in a team
 Find the team that you created, click **More options ˙˙˙** > **Add channel**. You can also click **Manage team** and add a channel in the **Channels** tab. 
 
 ![Add a channel to a team](media/get-started-with-teams-add-channel.png "Screen shot of the Add channel option, Manage team option, and other options that are available when you click More options on a team") 
 
-Give the channel a descriptive name to make it easier for users to understand what the conversation in the channel is there to achieve. 
+Give the channel a descriptive name to make it easier for users to understand the purpose of the channel. 
 
-As a team owner, you can automatically favorite channels for the whole team, making the channels more visible for everyone on the team. You can also pin tabs to the channel to add tools like OneNote or links to webpages and other content to make it easy for users to find what they need and share their thoughts.  
+As a team owner, you can automatically favorite channels for the whole team, making the channels more visible for everyone on the team. You can also pin tabs to the channel to add tools, such as OneNote, links to webpages, and other content to make it easy for users to find what they need and share their thoughts.  
 
 Here's an example of the "How do I" channel in the "Get to know Teams" team, showing pinned tabs that link to Teams webpages &ndash; Teams video training, Teams help center, and Teams download links. 
 
