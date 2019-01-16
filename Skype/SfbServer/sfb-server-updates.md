@@ -26,7 +26,7 @@ For the latest Skype for Business Online and Office 365 updates, see the [Office
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
-|Updates for Skype for Business Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064) |July 2018  |
+|Updates for Skype for Business Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064) |January 2019  |
 |Cumulative update for Skype for Business Server, Enterprise Web App | [KB 4018462](https://support.microsoft.com/kb/4018462) |May 2017 |
 |Cumulative update for Skype for Business Server, Bandwidth Policy Service | [KB 4012658](https://support.microsoft.com/kb/4012658) |May 2017 |
 |Cumulative update for Skype for Business Server, Unified Communications Managed API 5.0 Runtime | [KB 4012657](https://support.microsoft.com/kb/4012657) |May 2017 |
