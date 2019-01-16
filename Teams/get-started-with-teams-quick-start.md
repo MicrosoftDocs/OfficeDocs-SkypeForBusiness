@@ -31,9 +31,9 @@ Here's how to roll out your first set of teams and channels so your early adopte
 - Step 3: [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md)
 - Step 4: [Get resources to plan your organization-wide rollout](get-started-with-teams-resources-for-org-wide-rollout.md)
 
-If you're a large organization, have a hybrid or on-premises Skype for Business configuration, have strict regulatory or compliance requirements, or if you want to roll out meetings or voice features (such as calling plans or phone system), see our [in-depth resources](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) to plan for these more complex features. We recommend you still begin with this section to build your skills and plan Teams with Teams. Start small by rolling out Teams with chat, teams, and channels and build from there &ndash; these initial experiences can help spread the word about Teams, generating excitement throughout the organization for your next launch phase. 
+If you're a large organization, have a hybrid or on-premises Skype for Business configuration, have strict regulatory or compliance requirements, or if you want to roll out meetings or voice features (such as calling plans or phone system), start by reading [How to roll out Teams](how-to-roll-out-teams.md). We recommend you still begin with this **Get started** section to build your skills and start planning your org-wide deployment. "Plan Teams with Teams." Start small by rolling out Teams with chat, teams, channels, & apps and build from there. These initial experiences will help you spread the word about Teams, generating excitement throughout the organization for your next launch phase. 
 
-If you're a small business, Quick start could be all you need to do to fully roll out Teams in your organization. 
+If you're a small business, you may be able to use this Quick start guidance to fully roll out Teams in your organization. Small businesses might not need to do a phased Teams deployment.
 
 ## Before you get started
 

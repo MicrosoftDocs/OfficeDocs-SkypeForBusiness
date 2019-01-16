@@ -31,7 +31,7 @@ We recommend rolling out Teams in stages, workload by workload, as your organiza
 
 [Adoption hub](adopt-microsoft-teams-landing-page.md): Throughout your Teams rollout, use these resources to drive adoption.
 
-![5 circles, 1 arrow showing Teams deployment pathway](media/how-to-roll-out-teams-image1.png)
+![Diagram illustrating Teams deployment pathways](media/how-to-roll-out-teams-image1.png)
 
 
 ## Upgrade from Skype for Business, on-premises, & hybrid deployments
