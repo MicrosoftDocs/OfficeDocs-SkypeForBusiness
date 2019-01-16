@@ -38,7 +38,6 @@
 ## [Video](../certification/video.md)   
 
 ##  [ISV](../certification/isv-overview.md)
-### [Certified Devices](https://partnersolutions.skypeforbusiness.com/solutionscatalog)
 
 ## [Lync Partner Qualification](../lync-cert/partner-qualification.md)
 
@@ -76,5 +75,3 @@
 
 ### [Video](../lync-cert/video-solutions-qualified.md)
 #### [Meeting room devices and solutions](../lync-cert/meeting-room-devices.md)   
-
-### [Certified Devices](https://partnersolutions.skypeforbusiness.com/solutionscatalog)

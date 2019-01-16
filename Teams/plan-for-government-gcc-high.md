@@ -25,7 +25,7 @@ This guidance is for IT pros who are driving deployments of Office 365 in US fed
 
 ## Step 1. Determine whether your organization needs Microsoft 365 Government - GCC High and meets eligibility requirements. 
 
-The Microsoft 365 Government - GCC  High   environment provides compliance with US government requirements for cloud services. In addition to enjoying the features and capabilities of Office 365, organizations benefit from the following features that are unique to Microsoft 365 Government – GCC High:
+The Microsoft 365 Government - GCC  High environment provides compliance with US government requirements for cloud services. In addition to enjoying the features and capabilities of Office 365, organizations benefit from the following features that are unique to Microsoft 365 Government – GCC High:
 
 - Your organization’s customer content is logically segregated from customer content in the commercial Office 365 services from Microsoft.
 - Your organization’s customer content is stored within the United States.

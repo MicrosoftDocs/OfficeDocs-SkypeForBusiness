@@ -22,14 +22,14 @@ For customers who require desk phones and conference room phones to make and rec
 
 Phones must be on a minimum firmware version listed in the table below to run Microsoft Teams natively.
 
-|Phone Model|Firmware Version|Release Date|
+|Phone Model|Firmware Version|Release Date |
 |---|---|---|---|
 |Audiocodes C450HD|	Coming soon	|Coming soon|
 |Crestron Flex P100-T/P110-T	|Coming soon|Coming soon
 |Crestron M100|2.3875.00068|Dec 2018|		
 |Polycom Trio	|Coming soon|Coming soon|	
-|Yealink CP 960	|73.15.0.11|Dec 2018
-|Yealink T58/T56 series	|58.15.0.11|Dec 2018|
+|Yealink CP 960	|73.15.0.20|Dec 2018
+|Yealink T58/T56 series	|58.15.0.20|Dec 2018|
 
 
 The minimum firmware version can be checked on the Teams sign-in page by choosing the **Settings** icon in the top-right corner and then clicking **About**.
