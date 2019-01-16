@@ -18,7 +18,7 @@ appliesto:
 Limits and specifications for Microsoft Teams
 =============================================
 
-This article describes some of the limits, specifications, and other requirements that apply to Microsoft Teams. 
+This article describes some of the limits, specifications, and other requirements that apply to Teams. 
 
 Teams and channels 
 ------------------
