@@ -10,7 +10,7 @@
 ### [Server updates](../sfb-server-updates.md)
 
 ## Skype for Business hybrid solutions
-### [Microsoft Telephony solutions](../../SFBServer2019/hybrid/msft-telephony-solutions.md?toc=/SfbServer/sfbstoc/toc.json&bc=/SfbServer/breadcrumb/toc.json)
+### [Microsoft Telephony solutions](../../SFBServer2019/hybrid/msft-telephony-solutions.md)
 #### [Plan Phone System with on-premises PSTN connectivity](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
 #### [Plan Skype for Business Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
 ##### [Plan for Cloud Connector Edition PSTN sites](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)
