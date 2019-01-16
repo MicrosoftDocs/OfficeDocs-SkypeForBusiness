@@ -65,7 +65,7 @@
 ###### [Update-CcCACertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-cccacertificate.md)
 ###### [Update-CcServerCertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-ccservercertificate.md)
 ##### [Troubleshoot your Cloud Connector deployment](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment.md)
-### [Plan hybrid connectivity](../../../../SFBServer2019/hybrid/plan-hybrid-connectivity.md)
+### [Plan hybrid connectivity](../../SFBServer2019/hybrid/plan-hybrid-connectivity.md)
 ### [Deploy hybrid connectivity](../../SFBServer2019/hybrid/configure-hybrid-connectivity.md)
 #### [Configure federation with Skype for Business Online](../../SFBServer2019/hybrid/configure-federation-with-skype-for-business-online.md)
 #### [Move users between on-premises and cloud](../../SFBServer2019/hybrid/move-users-between-on-premises-and-cloud.md)
