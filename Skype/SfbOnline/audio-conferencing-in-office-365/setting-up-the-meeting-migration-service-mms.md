@@ -29,7 +29,9 @@ The Meeting Migration Service (MMS) is service that updates a user’s existing 
 
 - When a user is migrated from on-premises to the cloud (whether to Skype for Business Online or to TeamsOnly).
 - When an admin makes a change to the user’s audio conferencing settings 
-- When a user is upgraded to TeamsOnly mode (Technology Adoption Program [TAP] customers only)
+- When an online user is upgraded to Teams only, or when a user's mode in TeamsUpgradePolicy is set to SfBwithTeamsCollabAndMeetings (TAP customers only)
+- When you use PowerShell 
+
 
 By default, MMS is automatically triggered in each of these cases, although admins can disable it at the tenant level. In addition, admins can use a PowerShell cmdlet to manually trigger meeting migration for a given user.
 
@@ -71,7 +73,7 @@ This section describes what happens when MMS is triggered in each of the followi
 
 - When a user is migrated from on-premises to the cloud
 - When an admin makes a change to the user’s audio conferencing settings 
-- When a user is upgraded to TeamsOnly mode (TAP customers only)
+- When the user's mode in TeamsUpgradePolicy is set to either TeamsOnly or SfBWithTeamsCollabAndMeetings (TAP customers only)
 - When you use PowerShell 
 
 ### Updating meetings when you move an on-premises user to the cloud
@@ -106,7 +108,7 @@ Not all changes to a user's audio conferencing settings trigger MMS. Specificall
 ### Updating meetings when assigning TeamsUpgradePolicy
 
 > [!NOTE]
-> This section describes upcoming functionality that will first be made available to TAP customers.
+> This section describes functionality that is currently only available to TAP customers.
 
 By default, meeting migration will be automatically triggered when a user is granted an instance of `TeamsUpgradePolicy` with `mode=TeamsOnly` or `mode= SfBWithTeamsCollabAndMeetings`. If you do not want to migrate meetings when granting either of these modes, then specify `MigrateMeetingsToTeams $false` in `Grant-CsTeamsUpgradePolicy`.
 
