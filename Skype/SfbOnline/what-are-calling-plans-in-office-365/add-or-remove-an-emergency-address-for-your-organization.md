@@ -83,11 +83,11 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
 
 **Number in “Failed” state.**
 
-After acquiring a number from the Office365 portal, the status changed from **“Provisioning”** to **“Failed”**.
+After acquiring a number from the Office 365 portal, the status changed from **“Provisioning”** to **“Failed”**.
 
-This issue often occurs when a number is added from the portal, using an Emergency Address pointing to a location which is not matching the phone’s area code.
+This issue often occurs when a number is added from the portal, using an emergency address pointing to a location which is not matching the phone’s area code.
 
-To obtain more information about the number(s) which was not activated properly, run the following Powershell :
+To obtain more information about the number(s) which wasn't activated properly, run the following Powershell :
  
 > [!SYNTAX]
 > Get-CsOnlineTelephoneNumber | Where-Object {$_.ActivationState -cnotcontains “Activated”} | fl *
@@ -96,7 +96,7 @@ The result, aside other information like region, id and ActivationState, should 
 
 **Example**, for a Madrid number, the CityCode returned will be "EMEA-ES-ALL-M_MA".
 
-If indeed a wrong Emergency Address has been used, make sure you have created a new Emergency Address corresponding to the number’s area code and assign it to the number.
+If indeed a wrong emergency address has been used, make sure you have created a new emergency address corresponding to the number’s area code and assign it to the number.
 
 1. Sign in to Office 365 with your work or school account.
     
@@ -105,7 +105,7 @@ If indeed a wrong Emergency Address has been used, make sure you have created a 
 3. In the left navigation, go to **Voice** > **Phone Numbers**, and then double-click on the number in **“Failed”** State and from the right hand site menu, select the **new Emergency Address**.
 
 
-Please note that after changing the Emergency Address, the number’s status will change to **“Assignment Pending”** and it can take up to 24 hours for successfully activating.
+Please note that after changing the emergency address, the number’s status will change to **“Assignment Pending”** and it can take up to 24 hours for successfully activating.
 
 ## Related topics
 [What are emergency locations, addresses, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
