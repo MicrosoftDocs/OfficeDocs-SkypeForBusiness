@@ -207,7 +207,7 @@ The peripherals certification program ensures that USB peripherals such as heads
 
 ## Administrator Experience
 - No provisioning required
-- Firmware and fixes remote <br/>All devices support firmware update to allow new features and performance improvements
+- Firmware and fixes  <br/>All devices support firmware update to allow new features and performance improvements
 
 All of these specifications apply equally for Lync 2013 and Skype for Business or Teams, hence all USB peripherals that are qualified for Lync 2013 are also certified for Skype for Business or Teams.
 
