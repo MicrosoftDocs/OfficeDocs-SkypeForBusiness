@@ -2,6 +2,7 @@
 
 ## [What's new](../whats-new.md)
 ## [What's deprecated](../deprecated.md)
+## [Microsoft telephony solutions](../hybrid/msft-telephony-solutions.md)
 
 ## [Skype for Business downloads and updates](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Client updates](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -9,13 +10,28 @@
 
 ## Hybrid solutions for Teams and Skype for Business
 ### [Plan hybrid connectivity](../hybrid/plan-hybrid-connectivity.md)
+
 ### [Configure hybrid connectivity](../hybrid/configure-hybrid-connectivity.md)
 #### [Configure Azure AD Connect for hybrid environments](../hybrid/configure-azure-ad-connect.md)
 #### [Configure Skype for Business hybrid](../hybrid/configure-federation-with-skype-for-business-online.md)
-#### [Configure a multi-forest environment](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
-### [Move users from on-premises to Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
-### [Move users from on-premises to Teams](../hybrid/move-users-from-on-premises-to-teams.md)
-### [Integrate with Exchange and SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+
+### [Move users between on-premises and cloud](../hybrid/move-users-between-on-premises-and-cloud.md)
+#### [Move users from on-premises to Teams](../hybrid/move-users-from-on-premises-to-teams.md)
+#### [Move users from on premises to Skype for Business Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
+#### [Move users from the cloud to on premises](../hybrid/move-users-from-the-cloud-to-on-premises.md)
+#### [Manage meeting migration](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+
+### [Disable hybrid to complete migration to the cloud](../hybrid/cloud-consolidation-disabling-hybrid.md)
+
+### [Deploy a resource forest topology](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
+
+### [Cloud consolidation for Teams and Skype for Business](../hybrid/cloud-consolidation.md)
+#### [Update the edge certificate](../hybrid/cloud-consolidation-edge-certificates.md)
+
+#### [Update AAD Connect to include more than one forest](../hybrid/cloud-consolidation-aad-connect.md)
+
+### [Integration with Exchange and SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/hybrid/hybrid/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/breadcrumb/toc.json)
+
 
 ## Plan
 ### [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -299,7 +315,7 @@
 #### [Run Best Practices Analyzer](../migration/run-best-practices-analyzer.md)
 #### [Back up systems and data](../migration/back-up-systems-and-data.md)
 #### [Configure clients for migration](../migration/configure-clients-for-migration.md)
-#### [Verify legacy environment you are migration from](../migration/verify-environment.md)
+#### [Verify legacy environment you are migrating from](../migration/verify-environment.md)
 ### [Phase 3: Deploy pilot pool](../migration/phase-3-deploy-pilot-pool.md)
 #### [Prepare Active Directory for pilot pool](../migration/prepare-active-directory.md)
 #### [Download topology from existing deployment](../migration/download-topology-from-existing-deployment.md)
@@ -353,11 +369,10 @@
 
 ## Manage
 ### [Topology](../../SfbServer/manage/topology/topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [Patch or update Front End Servers](../../SfbServer/manage/topology/patch-or-update-front-end-servers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [Add or remove a Front End Server](../../SfbServer/manage/topology/add-or-remove-a-front-end-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [Manage Front End Servers](../../SfbServer/manage/topology/manage-front-end-servers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+
 #### [Patch or update a Back End or Standard Edition server](../../SfbServer/manage/topology/patch-or-update-a-back-end-or-standard-edition-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [Add databases](../../SfbServer/manage/topology/add-databases.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [Patch or update  SQL Server](../../SfbServer/manage/topology/patch-or-update-sql-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [Manage databases](../../SfbServer/manage/topology/manage-databases.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Move File Store Data](../../SfbServer/manage/topology/move-file-store-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Disable TLS 1.0/1.1](../../SfbServer/manage/topology/disable-tls-1.0-1.1.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Health and monitoring](../../SfbServer/manage/health-and-monitoring/health-and-monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -397,7 +412,6 @@
 ###### [Call Admission Control Report](../../SfbServer/manage/health-and-monitoring/call-admission-control-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ####### [Peer-to-Peer Session Detail Report](../../SfbServer/manage/health-and-monitoring/peer-to-peer-session-detail-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Call Diagnostic Reports (per user)](../../SfbServer/manage/health-and-monitoring/call-diagnostic-reports-per-user.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-###### [User Activity Report](../../SfbServer/manage/health-and-monitoring/user-activity-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Call Diagnostic Reports](../../SfbServer/manage/health-and-monitoring/call-diagnostic-reports.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [Summary Report](../../SfbServer/manage/health-and-monitoring/summary-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ####### [Conference Summary Subreport](../../SfbServer/manage/health-and-monitoring/conference-summary-subreport.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)

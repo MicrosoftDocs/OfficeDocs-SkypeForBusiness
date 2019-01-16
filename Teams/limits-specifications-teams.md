@@ -40,7 +40,7 @@ Meetings and calls
 |Feature     | Maximum limit |
 |------------|---------------|
 |Number of people in a meeting  | 250    |
-|Number of people in a private chat  | 20    |
+|Number of people in a private chat  | 50    |
 
 Storage
 -------

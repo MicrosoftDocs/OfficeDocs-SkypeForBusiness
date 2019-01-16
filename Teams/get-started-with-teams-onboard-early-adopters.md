@@ -30,7 +30,7 @@ For example, for the "Get to know Teams" team, you might want to start your emai
    ```
    Welcome to Microsoft Teams for <insert_company_name>. Teams is a chat-based workspace that brings together chat, files, people, and tools in one place. 
 
-   We created a team called "Get to know Teams" to get you started. Use it to experiment, ask questions, and discover the possibilites of Teams. 
+   We created a team called "Get to know Teams" to get you started. Use it to experiment, ask questions, and discover the possibilities of Teams. 
 
    To join, click <link to the team>.
    ```

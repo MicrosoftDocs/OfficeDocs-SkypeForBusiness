@@ -19,7 +19,7 @@ Skype for Business Server uses TLS and MTLS to encrypt instant messages. All ser
 > [!NOTE]
 > A security advisory regarding SSL 3.0 was published in 2014. Disabling SSL 3.0 in Skype for Business Server 2015 is a supported option. To learn more about the security advisory, see [Disabling SSL 3.0 in Lync Server 2013 and Skype for Business Server 2015](https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/).<br/>
 **Security note:** To ensure the strongest cryptographic protocol is used, Skype for Business Server 2015 will offer TLS encryption protocols in the following order to clients: **TLS 1.2 , TLS 1.1, TLS 1.0**. TLS is a critical aspect of Skype for Business Server 2015 and thus it is required in order to maintain a supported environment.<br/>
-**Security note:** To ensure the strongest cryptographic protocol is used, Skype for Business Server 2019 will offer TLS encryption protocols in the following order to clients: **TLS 2.0, TLS 1.2**. TLS is a critical aspect of Skype for Business Server 2019 and thus it is required in order to maintain a supported environment. 
+**Security note:** To ensure the strongest cryptographic protocol is used, Skype for Business Server 2019 will offer TLS encryption protocols in the following order to clients: **TLS 1.3, TLS 1.2**. TLS is a critical aspect of Skype for Business Server 2019 and thus it is required in order to maintain a supported environment. 
   
 The following table summarizes the protocol requirements for each type of traffic. 
   
@@ -40,7 +40,7 @@ The following table summarizes the protocol requirements for each type of traffi
 Media traffic is encrypted using Secure RTP (SRTP), a profile of Real-Time Transport Protocol (RTP) that provides confidentiality, authentication, and replay attack protection to RTP traffic. In addition, media flowing in both directions between the Mediation Server and its internal next hop is also encrypted using SRTP. Media flowing in both directions between the Mediation Server and a media gateway is optionally encrypted and recommended. The Mediation Server can support encryption to the media gateway, but the gateway must support MTLS and storage of a certificate.
   
 > [!NOTE]
-> If you are implementing a hybrid environment, you must also modify the Skype for Business Server encryption level. By default, the encryption level is Required. You must change this setting to Supported by using the Skype for Business Server Management Shell. For more information about setting up hybrid, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) or [Skype for Business Server 2019 hybrid solutions](../../../SfBServer2019/hybrid/hybrid-solutions.md) in the Deployment documentation.
+> For more information about setting up hybrid, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md).
   
 ## FIPS
 

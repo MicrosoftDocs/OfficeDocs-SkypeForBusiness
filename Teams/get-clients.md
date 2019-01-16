@@ -11,7 +11,7 @@ ms.collection: Teams_ITAdmin_Help
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
-description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android, iOS, and Windows Phone).
+description: Learn how to use the various clients available for Microsoft Teams which include web, desktop (Windows and Mac), and mobile (Android and iOS).
 ms.custom:
 - NewAdminCenter_Update
 appliesto: 
@@ -21,7 +21,7 @@ appliesto:
 Get clients for Microsoft Teams 
 ===========================
 
-Microsoft Teams has clients available for desktop (Windows and Mac), web, and mobile (Android,  iOS, and Windows Phone). These clients all require an active internet connection and do not support an offline mode.
+Microsoft Teams has clients available for desktop (Windows and Mac), web, and mobile (Android and  iOS). These clients all require an active internet connection and do not support an offline mode.
 
 > [!NOTE]
 > Effective November 29, 2018, you'll no longer be able to use the Microsoft Teams for Windows 10 S (Preview) app, available from the Microsoft Store. We recommend that you use one of the Teams apps described below in this article after November 29.
@@ -139,3 +139,36 @@ Notification settings
 There are currently no options available for IT administrators to configure client-side notification settings. All notification options are set by the user. The figure below outlines the default client settings.
 
 ![Screenshot of Notifications settings.](media/Get_clients_for_Microsoft_Teams_image6.png)
+
+Sample PowerShell Script
+----------------------------
+
+This sample script, which needs to run on client computers in the context of an elevated administrator account, will create a new inbound firewall rule for each user folder found in c:\users. When Teams finds this rule, it will prevent the Teams application from prompting users to create firewall rules when the users make their first call from Teams. 
+
+```
+$users = Get-Childitem c:\users
+foreach ($user in $users) 
+{
+    $Path = "c:\users\" + $user.Name + "\appdata\local\Microsoft\Teams\Current\Teams.exe"
+    if (Test-Path $Path) 
+	{
+	        $name = "teams.exe " + $user.Name
+	        if (!(Get-NetFirewallRule -DisplayName $name))
+		{
+	            New-NetFirewallRule -DisplayName “teams.exe” -Direction Inbound -Profile Domain -Program $Path -Action Allow
+		}
+	}
+}
+<#
+        .ABOUT THIS SCRIPT
+        (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
+
+        Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions. 
+
+        The script will create a new inbound firewall rule for each user folder found in c:\users. 
+
+        Requires PowerShell 3.0
+        
+#>
+
+```

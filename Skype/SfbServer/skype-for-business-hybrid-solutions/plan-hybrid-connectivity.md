@@ -324,11 +324,12 @@ When you synchronize user accounts between your on-premises deployment and onlin
 
 You should also consider the following user-related issues when planning for a hybrid deployment.
 
-- **User contacts** The limit for contacts for Lync Online users is 250. Any contacts beyond that number will be removed from the user's contact list when the account is moved to Lync Online.
+- **User contacts** The limit for contacts for Skype for Business Online users is 250. Any contacts beyond that number will be removed from the user's contact list when the account is moved to Skype for Business Online.
 
 - **Instant Messaging and Presence** User contact lists, groups, and access control lists (ACLs) are migrated with the user account.
 
-- **Conferencing data, meeting content, and scheduled meetings** This content is not migrated with the user account. Users must reschedule meetings after their accounts are migrated to Lync Online.
+- **Conferencing data, meeting content, and scheduled meetings** This content is not migrated with the user account. Users must reschedule meetings after their accounts are migrated to Skype for Business Online. The Meeting Migration Service will do this automatically when migrating from a Skype for Business server to Skype for Business Online or Teams, see [Using the Meeting Migration Service](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+
 
 ## User policies and features
 <a name="BKMK_UserPolicies"> </a>

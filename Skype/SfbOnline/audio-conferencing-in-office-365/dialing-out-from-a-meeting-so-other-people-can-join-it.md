@@ -33,6 +33,8 @@ As the meeting organizer, you can dial out using the Skype for Business app to l
     
 - You as the meeting organizer have been enabled for audio conferencing.
 
+In order to add other participants via dial-out to the meetings of your organization, at least one authenticated user from the same organization as the organizer (your organization) is required to be present in the meeting in order to allow adding other participants via dial-out. 
+
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 

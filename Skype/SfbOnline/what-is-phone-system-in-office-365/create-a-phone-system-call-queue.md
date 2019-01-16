@@ -3,7 +3,7 @@ title: "Create a Phone System call queue"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: phans, wasseemh
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -151,7 +151,7 @@ In the **Microsoft Teams & Skype for Business Admin Center**, click ![sfb-logo-3
 ![Set up call queues.](../images/skype-for-business-add-agents-to-call-queue.png)
   
 ***
-![Number 1](../images/sfbcallout1.png)<br/><br/>Call agents (50 maximum) can be:
+![Number 1](../images/sfbcallout1.png)<br/><br/>Call agents (200 maximum) can be:
 * An Online user with a **Phone System** license and enabled for Enterprise Voice or with a Calling Plan. <br/><br/> **Note:**  To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
 * Online users with a **Phone System** license and a Calling Plan that are added to an Office 365 Group, a mail-enabled Distribution List, or a Security Group. It might take up to 30 minutes for a new agent added for a distribution list or a security group to start receiving calls from a call queue. A newly created distribution list or security group might take up to 48 hours to become available to be used with call queues. Newly created Office 365 Groups are available almost immediately. <br/> 
 
