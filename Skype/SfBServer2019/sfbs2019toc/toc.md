@@ -315,7 +315,7 @@
 #### [Run Best Practices Analyzer](../migration/run-best-practices-analyzer.md)
 #### [Back up systems and data](../migration/back-up-systems-and-data.md)
 #### [Configure clients for migration](../migration/configure-clients-for-migration.md)
-#### [Verify legacy environment you are migration from](../migration/verify-environment.md)
+#### [Verify legacy environment you are migrating from](../migration/verify-environment.md)
 ### [Phase 3: Deploy pilot pool](../migration/phase-3-deploy-pilot-pool.md)
 #### [Prepare Active Directory for pilot pool](../migration/prepare-active-directory.md)
 #### [Download topology from existing deployment](../migration/download-topology-from-existing-deployment.md)
