@@ -3,7 +3,7 @@ title: FAQ - Upgrading from Skype for Business to Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 01/07/2019
+ms.date: 01/16/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
