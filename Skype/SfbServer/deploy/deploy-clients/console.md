@@ -1,4 +1,4 @@
----
+﻿---
 title: "Configure a Skype Room Systems v2 console"
 ms.author: jambirk
 author: jambirk
@@ -36,22 +36,20 @@ You should only perform these steps if the necessary Skype for Business and Exch
 ## Prepare the installation media
 <a name="Prep_Media"> </a>
 
-Installing the Skype Room Systems v2 console app requires a USB storage device with at least 32GB of memory formatted as a FAT32 disk. There should be no other files on the device, any existing files on the USB storage will be lost.
+Installing the Skype Room Systems v2 console app requires a USB storage device with at least 32GB of capacity. There should be no other files on the device; any existing files on the USB storage will be lost.
   
 > [!NOTE]
-> Failure to create your Skype Room Systems v2 installation media according to these instructions will likely result in unexpected behavior. Windows 10 Enterprise Anniversary Update (Version 1607) is no longer supported for Skype Room Systems v2 installation media creation.
+> Failure to create your Skype Room Systems v2 installation media according to these instructions will likely result in unexpected behavior.
 
 > [!NOTE]
-> An existing Skype Room Systems v2 with Windows 10 Enterprise moving to Skype Room Systems v2 update 3 by way of the Windows Store will work, but a new installation should be done as described below.
+> The process below is for creating installation media to image new Skype Room System v2 devices. Existing devices, by default, update automatically from Windows Update and the Windows Store.
   
 1. Download the [CreateSrsMedia.ps1 script](https://go.microsoft.com/fwlink/?linkid=867842).
-2. (Optional) Download and place any desired language pack CAB files in the same directory as the script. The script will indicate where you can download language pack files appropriate for the type of media you are creating, if you're unsure where to acquire the language packs from.
-3. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
+2. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
+3. Follow the script's instructions to create a Skype Room Systems v2 USB setup disk.
 
-Follow the script's instructions to create a Skype Room Systems v2 USB setup disk. When finished, remove the USB disk from your computer and proceed to [Install Windows 10 and the Skype Room Systems v2 console app](console.md#Reimage).
+When finished, remove the USB disk from your computer and proceed to [Install Windows 10 and the Skype Room Systems v2 console app](console.md#Reimage).
 
-> [!TIP]
-> You might have noticed that we no longer call out specific versions of the drivers, Skype Room Systems v2 client, or Windows 10 Enterprise. This is deliberate, we want the script to match and verify compatibility for all installers. The script will automatically find and get what it needs for a supported configuration.  
     
 ## Install Windows 10 and the Skype Room Systems v2 console app
 <a name="Reimage"> </a>
