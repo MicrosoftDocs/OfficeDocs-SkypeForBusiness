@@ -163,7 +163,7 @@ The peripherals certification program ensures that USB peripherals such as heads
 |Jabra|	SUPREME UC MS	|4/1/2012|
 |Plantronics|	Blackwire C310-M	|3/1/2012|
 |Plantronics|	Blackwire C320-M	|3/1/2012|
-|Jabra|	VOICE 150 MS Mono or Duo	|10/1/2011|  f
+|Jabra|	VOICE 150 MS Mono or Duo	|10/1/2011|
 |Jabra|	VOICE 550 MS Mono or Duo	|10/1/2011|
 |Jabra|	BIZ 2400 Mono or Duo	|8/1/2011|
 |Jabra|	PRO 9450 Mono or Duo	|8/1/2011|
