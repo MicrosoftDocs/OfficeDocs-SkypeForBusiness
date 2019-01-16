@@ -44,12 +44,14 @@ Management tools for teams are under the **Teams** node in the Microsoft Teams &
 ![Teams overview grid](media/manage-teams-in-modern-portal-image1.png)  
 
 The grid displays the following properties:
+
 - **Team name**
 - **Channels** - a count of all channels in the team, including the default General channel.
 - **Users** - a count of total users, including owners, guests, and members from your tenant.
 - **Owners** - a count of owners for this team.
 - **Guests** - a count of Azure Active Directory B2B guest users who are members of this team.
 - **Privacy** - the AccessType of the backing Office 365 group.
+
 ### Search
 
 Search currently supports the string "Begins with" and searches the **Team name** field.
