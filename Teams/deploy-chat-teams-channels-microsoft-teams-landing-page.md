@@ -107,7 +107,7 @@ The Global Admin in Office 365, Teams Service Admin, and Reports Readers roles c
 
 ### Teams default apps 
 
-Teams provides a number of first-party (Microsoft-provided) and third-party apps in the Teams Store to engage your users, give them additional productivity capabilities, and surface commonly used business services directly in Teams. The default configuration is that the these apps are enabled for users to explore and use. For example, users can use the Planner app to build and manage team tasks. By default, Teams default apps and external apps that have been submitted via the [Teams Store approval process](https://docs.microsoft.com/en-us/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process) are turned on.
+Teams provides a number of first-party (Microsoft-provided) and third-party apps in the Teams Store to engage your users, give them additional productivity capabilities, and surface commonly used business services directly in Teams. The default configuration is that the these apps are enabled for users to explore and use. For example, users can use the Planner app to build and manage team tasks. By default, Teams default apps and external apps that have been submitted through the [Teams Store approval process](https://docs.microsoft.com/en-us/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process) are turned on.
 
 
 |Ask yourself|Action |
@@ -144,7 +144,7 @@ When planning an enterprise deployment of Teams, you should take into account an
 
 |Ask yourself|Action |
 |------------|-------|
-| Are there any limits that I am likely to hit with my deployment? | To learn more, read [Limits and specifications for Teams](limits-specifications-teams.md). |
+| What limits am I likely to hit with my Teams rollout? | To learn more, read [Limits and specifications for Teams](limits-specifications-teams.md). |
 |||
 
 ### Office 365 URLs and ports
@@ -166,13 +166,13 @@ Your organization might require that you implement controls on how teams are nam
 |<ul><li>Will I need to implement controls on who can create teams?</li><li>Will I need to implement controls on how teams are named?</li></ul>| To plan and implement governance controls, see:<ul><li> [Plan for governance in Teams](plan-teams-governance.md)</li><li>[Enforce a naming policy for Office 365 groups in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)</li></ul>|
 |||
 
-### Teams application policy (side rail control)
+### Teams application policy (side-rail control)
 
-A pinned app shows up in the side rail in Teams. You can use Teams application policies to pre-configure sets of pinned Teams applications for groups of users to provide a more personal and targeted experience. By default, the **Allow external apps in Microsoft Teams** setting is turned on.
+A pinned app shows up in the side rail in Teams. By creating Teams application policies, you can preconfigure sets of pinned Teams apps to personalize Teams for select groups of users. By default, the **Allow external apps in Microsoft Teams** setting is turned on.
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Should I create pre-configured sets of pinned Teams applications?</li><li>How will I decide which groups receive these app groupings?</li></ul> | To learn more about admin settings in Teams, see:<ul><li>[Admin settings for apps in Teams](admin-settings.md)</li><li>[Teams apps permissions and considerations](app-permissions.md)</li></ul>|
+|<ul><li>Should I create preconfigured sets of pinned Teams applications?</li><li>How will I decide which groups receive these app groupings?</li></ul> | To learn more about admin settings in Teams, see:<ul><li>[Admin settings for apps in Teams](admin-settings.md)</li><li>[Teams apps permissions and considerations](app-permissions.md)</li></ul>|
 |||
 
 ### Archiving and compliance 
@@ -186,7 +186,7 @@ Your organization might require that you implement controls on how teams are arc
 
 ### Conditional access 
 
-Teams relies heavily on Exchange Online, SharePoint Online, and Skype for Business Online for core productivity scenarios, such as meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Teams when a user signs in directly to Teams, on any client. Conditional access policies that are set for the Teams cloud app control aspects such as whether users can access Teams services from certain networks.
+Teams relies heavily on Exchange Online, SharePoint Online, and Skype for Business Online for core productivity scenarios, including meetings, calendars, interop chats, and file sharing. Conditional access policies that are set for these cloud apps apply to Teams when a user signs in directly to Teams, on any client. Conditional access policies that are set for the Teams cloud app control aspects such as whether users can access Teams services from certain networks.
 
 | Ask yourself | Action |
 |--------------|--------|
@@ -205,7 +205,7 @@ IT pros working in education can take advantage of Teams for Education, which co
 
 ### Government - GCC considerations
 
-The use of Microsoft 365 for Government - GCC (Government certificate of competency) is appropriate to meet the requirements of IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that’s subject to government regulations and requirements.
+The use of Microsoft 365 for Government - GCC (government certificate of competency) is appropriate to meet the requirements of IT pros who are driving deployments of Office 365 in US federal, state, local, tribal, or territorial government entities or other entities that handle data that’s subject to government regulations and requirements.
 
 | Ask yourself | Action |
 |--------------|--------|
