@@ -19,7 +19,7 @@ You've completed [Quick start](get-started-with-teams-quick-start.md). You've ro
 
 ## Audio Conferencing deployment decisions
 
-Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether you need to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups starting with the core set of [changes you are more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, again based on your organization's needs.
+Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
 Calling in (dialing in) to meetings is very useful for users who are on the road and can't attend a meeting using the Skype for Business or Microsoft Teams app on their laptops or mobile devices. 
 
