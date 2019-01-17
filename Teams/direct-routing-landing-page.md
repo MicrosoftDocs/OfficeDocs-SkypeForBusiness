@@ -3,7 +3,7 @@ title:  Phone System Direct Routing
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/07/2019
+ms.date: 01/16/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -18,32 +18,31 @@ appliesto:
 
 You've completed the [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice workloads, and you've decided to use your own telephony carrier for PSTN connectivity by using Phone System Direct Routing. With Direct Routing, you can use Phone System with virtually any telephony carrier.
 
-This article describes [core deployment considerations](#core deployment considerations) for Direct Routing as well as [additional considerations](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
+This article describes core deployment decisions for Direct Routing as well as additional considerations you may want to configure, based on your organization's needs.
 
 ## Learn more about Direct Routing
 
-The following articles provide more information about deploying and using Phone System Direct Routing in Teams:
+The following articles provide more information about deploying and using Phone System Direct Routing:
 
 - [Plan Direct Routing](direct-routing-plan.md)
 - [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 - [Configure Direct Routing](direct-routing-configure.md)
-- [Migrate to Direct Routing](direct-routing-migrate.md)
 - [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 
 
 ## Core deployment decisions
 
-These are the decisions to consider for Direct Routing. that most organizations want to change (if the Teams default settings don't work for the organization).
+These are the core decisions to consider for Direct Routing. 
 
 
 |Ask yourself|Action |
 |------------|-------|
-|<ul><li>For which users will I enable Direct Routing? </li><li>Do I have the required licenses for Direct Routing?</li></ul>|<ul><li>For more information about Direct Routing, see [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md) and [Plan for Direct Routing](direct-routing-plan.md).</li></ul>|
+|<ul><li>For which users will I enable Direct Routing? </li><li>Do I have the required licenses for Direct Routing?</li></ul>|<ul><li>For more information about Direct Routing, see [Plan for Direct Routing](direct-routing-plan.md).</li></ul>|
 |||
 
 ### Session Border Controller (SBC) considerations
 
-With Direct Routing, you connect your own Session Border Controller (SBC) directly to Phone System.  For a list of certified SBCs, see [Supported Session Border Controllers](direct-routing-plan.md#supported-session-border-controllers-sbcs).
+With Direct Routing, you connect your own Session Border Controller (SBC) directly to Phone System.  For a list of certified SBCs, see [Supported Session Border Controllers](direct-routing-border-controllers).
 
 |Ask yourself|Action |
 |------------|-------|
@@ -65,7 +64,7 @@ Direct Routing is only supported with Microsoft Teams. To place or receive PSTN 
 
 |Ask yourself|Action |
 |------------|-------|
-|How will I set Teams as the preferred client for calls? |For more information, see [Calling and interop policies](2-envision-make-my-service-decisions-direct-routing.md#calling-and-interop-policies). |
+|How will I set Teams as the preferred client for calls? |For more information, see [Set Microsoft Teams as the preferred calling client for users](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).|
 |||
 
 ## Additional deployment considerations
@@ -74,6 +73,6 @@ You may want to change settings for the following, based on your organization's 
 
 | Ask yourself| Action |
 | :------------|-------:|
-| Do you have an existing Skype for Business Server deployment with hybrid connectivity configured? |  To understand how user accounts in a hybrid environment are provisioned and managed, see [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment).| 
+| Do you have an existing Skype for Business Server deployment with hybrid connectivity configured? |  To understand how user accounts in a hybrid environment are provisioned and managed, see [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md).| 
 | Are you migrating to Direct Routing from Calling Plan or from a Skype for Business on-premises environment? | To understand more about migrating to Direct Routing from an existing environment, see [Migrating to Direct Routing](direct-routing-migrating.md) |
 |||
