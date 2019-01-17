@@ -1069,7 +1069,12 @@
       "source_path": "Skype/SfbOnline/what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md", 
       "redirect_url": "https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user", 
       "redirect_document_id": true 
-    }
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md", 
+      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/msft-telephony-solutions", 
+      "redirect_document_id": true 
+    },
   
   ] 
 }
