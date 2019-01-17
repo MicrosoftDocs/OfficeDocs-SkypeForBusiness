@@ -52,73 +52,15 @@ Phone System allows you to replace your existing Private Branch Exchange (PBX) s
 
 ## Connection to the Public Switched Telephone Network (PSTN)
 
-To connect Phone System to the Public Switched Telephone Network (PSTN) so that users can make phone calls around the world, you can use one of the following:
+To connect Phone System to the Public Switched Telephone Network (PSTN) so that users can make phone calls around the world, you have options based on your business need.  Ask yourself the following:
 
-- Phone System with Calling Plans - to use Microsoft as your telephony carrier
-- Phone System with Direct Routing -  to connect to your own telephony carrier
-
-### Phone System with Calling Plans
-
-With Calling Plans, Microsoft facilitates connectivity to the Public Switched Telephone Network (PSTN). To use Microsoft as your telephony carrier, you need to obtain Calling Plan licenses and assign them to your Phone System users. 
-
-There are two types of Calling Plans available:
-
-- Domestic Calling Plans 
-- Domestic and International Calling Plans
 
 |Ask yourself|Action |
-|------------|-------|
-|<ul><li>Are Calling Plans available in my area?</li><li>Which user locations will have the Calling Plans service? </li><li>Do my users have Calling Plans licenses?</li><li>Do my users each have a direct inward dial (DID) phone number?</li></ul>|<ul><li> To find out if Calling Plans are available in your area, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</li><li>To buy and assign licenses, see [Step 2: Buy and assign licenses](set-up-calling-plans.md#step-2-buy-and-assign-licenses).</li><li>To get phone numbers, see [Step 3: Get phone numbers](set-up-calling-plans.md#step-3-get-phone-numbers). </li></ul>|
+| :------------|-------:|
+| Do I want to use Microsoft Calling Plan as my telephony carrier? | For more information, see [Phone System with Calling Plans](calling-plan-landing-page.md).|
+| Do I need to use my own telephony carrier? | For more information, see [Phone System with Direct Routing](direct-routing-landing-page.md).
 |||
 
-**WHAT ABOUT QUESTIONS ABOUT WHICH TYPE OF PLAN?  DO I NEED INTERNATIONAL CALLING, ETC.?**
-
-For more information, see [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
-
-
-#### Phone numbers and emergency locations
-
- With Calling Plans in Office 365, every user in your organization needs to have a unique direct inward dial (DID) phone number and a corresponding validated emergency address. You can also specify an emergency location within the emergency address (for example, an office number or floor number). 
-
-|Ask yourself|Action |
-|------------|-------|
-|How detailed do I want the emergency address and location information to be? |For more information, see [What are emergency locations, addresses, and call routing?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
-
-### Phone System with Direct Routing
-
- With Direct Routing, you can use Phone System with virtually any telephony carrier.
-
-|Ask yourself|Action |
-|------------|-------|
-|<ul><li>For which users will I enable Calling Plans or Direct Routing? </li><li>Do I have the required licenses for Direct Routing?</li></ul>|<ul><li>For more information about Direct Routing, see [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md) and [Plan for Direct Routing](direct-routing-plan.md).</li></ul>|
-|||
-
-#### Session Border Controller (SBC) considerations
-
-With Direct Routing, you connect your own Session Border Controller (SBC) directly to Phone System.  For a list of certified SBCs, see [Supported Session Border Controllers](direct-routing-plan.md#supported-session-border-controllers-sbcs).
-
-|Ask yourself|Action |
-|------------|-------|
-| Where and how will I deploy SBCs? | For more information, see [Deploy and configure the SBC](direct-routing-sbc-multiple-tenants.md#deploy-and-configure-the-sbc).|
-|||
-
-#### Voice routing considerations
-
-With Direct Routing, you'll need to configure Phone System to route the calls to the specific SBCs.
-
-|Ask yourself|Action |
-|------------|-------|
-|<ul><li>What voice routing policies, PSTN usage, and voice routes do I need to create?</li><li>Which users will be assigned to the voice routing policy that I define?</li></ul> | For voice routing policy information, see [Configure Voice Routing](direct-routing-configure.md#configure-voice-routing).</li></ul> |
-|||
-
-#### Calling and interop policies
-
-Direct Routing is only supported with Microsoft Teams. To place or receive PSTN calls through Direct Routing, you need to configure the necessary policies to ensure incoming calls are received in Teams. You can configure users to set Teams as their preferred client for calls by either configuring the user for Teams Only mode or configuring Teams as the preferred calling client by assigning the TeamsCallingPolicy and the TeamsInteropPolicy.
-
-|Ask yourself|Action |
-|------------|-------|
-|How will I set Teams as the preferred client for calls? |For more information, see [Calling and interop policies](2-envision-make-my-service-decisions-direct-routing.md#calling-and-interop-policies). |
-|||
 
 ## Additional deployment decisions
 
