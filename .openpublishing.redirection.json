@@ -1071,10 +1071,14 @@
       "redirect_document_id": true 
     },
     {
-      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md", 
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions.md", 
       "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/msft-telephony-solutions", 
       "redirect_document_id": true 
     },
-  
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md", 
+      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/msft-telephony-solutions", 
+      "redirect_document_id": false 
+    },
   ] 
 }
