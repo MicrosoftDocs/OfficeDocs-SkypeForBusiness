@@ -91,7 +91,7 @@ The following table shows examples of OKRs and KSIs for the initial phases of a 
 
 
 > [!TIP]
-> To help ensure your project stays on track, consider defining smaller, short-term milestones in addition to bigger, long-term goals. This can include metrics that you’ll capture as part of your user pilot. When considering your timeline, use the [Skype to Teams roadmap](https://aka.ms/O365Roadmap) if you’re waiting for features that aren’t yet available in Teams.
+> To help ensure your project stays on track, consider defining smaller, short-term milestones in addition to bigger, long-term goals. This can include metrics that you’ll capture as part of your user pilot. When considering your timeline, use the [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap) if you’re waiting for features that aren’t yet available in Teams.
 
 ## Risks and mitigation
 

@@ -66,7 +66,7 @@ Starting October 1, 2018, new Office 365 customers with fewer than 500 seats wil
 
 ### What do you recommend for customers who are currently in the process of deploying—or planning to deploy—Skype for Business in Office 365?
 
-Customers should evaluate the [Skype to Teams roadmap](https://aka.ms/O365Roadmap) to determine whether capabilities will meet business needs and timing requirements. If so, they should adjust their strategy to deploy Teams only. Planning and infrastructure investments such as network assessments will accrue to Teams deployment. We encourage all new Office 365 customers to start using Teams, independently of or in parallel with Skype for Business.
+Customers should evaluate the [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap) to determine whether capabilities will meet business needs and timing requirements. If so, they should adjust their strategy to deploy Teams only. Planning and infrastructure investments such as network assessments will accrue to Teams deployment. We encourage all new Office 365 customers to start using Teams, independently of or in parallel with Skype for Business.
 
 ### What support are you offering customers who want to move to Teams, especially those who have made significant investments in Skype for Business Online?
 
@@ -132,7 +132,7 @@ Yes. The upgrade notification will simply alert users that Skype for Business wi
 
 ### How can customers learn when Skype for Business capabilities will be available in Teams?
 
-The Skype to Teams–specific roadmap is available at [https://aka.ms/O365Roadmap](https://aka.ms/O365Roadmap). Moving forward, we’re making information about upcoming Teams features available on the [Office 365 Roadmap](https://go.microsoft.com/fwlink/?linkid=859057).
+See the [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap). 
 
 ### Which APIs and SDKs will be made available for Teams?
 
