@@ -35,6 +35,7 @@ To customize and extend Teams, add third-party apps through [apps, bots, & conne
 
 ![Teams desktop app and mobile app](media/teams-overview-hub.png)
 
+Teams is the primary client for intelligent communications in Office 365, eventually replacing Skype for Business Online. To learn more about the new features coming to Teams, see the [Microsoft 365 Roadmap](http://aka.ms/O365Roadmap). To complement persistent chat and messaging capabilities, Teams offers a comprehensive meeting and calling experience, with built-in, fully integrated voice and video. Check out [Teams is now a complete meeting and calling solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) in the Microsoft Teams Blog.
 
 ## Managing Teams
 
