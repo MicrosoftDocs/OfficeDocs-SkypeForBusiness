@@ -311,7 +311,6 @@
 ### [Phase 2: Prepare for migration](../migration/phase-2-prepare-for-migration.md)
 #### [Apply updates to legacy installation](../migration/apply-updates.md)
 #### [Configure DNS records for pilot pool deployment](../migration/configure-dns-records-for-pilot-pool-deployment.md)
-#### [Run Best Practices Analyzer](../migration/run-best-practices-analyzer.md)
 #### [Back up systems and data](../migration/back-up-systems-and-data.md)
 #### [Configure clients for migration](../migration/configure-clients-for-migration.md)
 #### [Verify legacy environment you are migrating from](../migration/verify-environment.md)
