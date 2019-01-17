@@ -1,5 +1,5 @@
 ---
-title: Information barriers in Microsoft Teams
+title: Information barriers in Microsoft Teams (coming soon)
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
