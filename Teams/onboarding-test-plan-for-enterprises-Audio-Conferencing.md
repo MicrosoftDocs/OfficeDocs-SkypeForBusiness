@@ -100,7 +100,7 @@ roadmap to determine:
 > [!TIP]
 > The latest Teams roadmap for identifying Audio Conferencing features in
 > scope for your deployment can be found at
-> <https://aka.ms/skype2teamsroadmap>.
+> <https://aka.ms/O365Roadmap>.
 
 Now that the Audio Conferencing persona and features have been defined, the next
 criteria for evaluation will be the interoperability experience with Teams. For
