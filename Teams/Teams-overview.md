@@ -36,7 +36,7 @@ To customize and extend Teams, add third-party apps through [tabs](built-in-cust
 
 ![Teams desktop app and mobile app](media/teams-overview-hub.png)
 
-Teams is the primary client for intelligent communications in Office 365, replacing Skype for Business Online over time. To learn more about Skype for Business features and functionality that we've built into Teams, see the [Skype for Business to Microsoft Teams capabilities roadmap](http://aka.ms/skype2teamsroadmap). To complement persistent chat and messaging capabilities, Teams offers a comprehensive meeting and calling experience, with built-in, fully integrated voice and video. Check out [Teams is now a complete meeting and calling solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) in the Microsoft Teams Blog.
+Teams is the primary client for intelligent communications in Office 365, eventually replacing Skype for Business Online. To learn more about the new features coming to Teams, see the [Microsoft 365 Roadmap](http://aka.ms/O365Roadmap). To complement persistent chat and messaging capabilities, Teams offers a comprehensive meeting and calling experience, with built-in, fully integrated voice and video. Check out [Teams is now a complete meeting and calling solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) in the Microsoft Teams Blog.
 
 ## Teams admin experience
 

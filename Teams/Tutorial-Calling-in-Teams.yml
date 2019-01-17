@@ -61,7 +61,7 @@ items:
     ### Calling features in Teams
     Calling in Teams supports basic Phone System features, such as call answering and initiating (by name and number) with integrated dial pad, call holding and retrieving, call forwarding and simultaneous ringing, call history, voicemail, and emergency calling.
 
-    More advanced features will be added over time. For more information, see [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap).
+    More advanced features will be added over time. For more information, see [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap).
 
     Calling in Teams is powered by Phone System (formerly known as Cloud PBX), the same service in Office 365 that enables PSTN calling capabilities in Skype for Business Online.
 
@@ -69,7 +69,7 @@ items:
 
     <span style="color:red">**Action**:</span> To understand which features are currently available and the timelines for features that we expect to develop, see the following resources:
 
-    - On the [public roadmap](https://aka.ms/skype2teamsroadmap), review the “Calling
+    - On the [public roadmap](https://aka.ms/O365Roadmap), review the “Calling
     roadmap” slide for an overview of the expected timelines for feature release dates.
     - Review [Here’s what you get with Phone System in Office
     365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
@@ -730,7 +730,7 @@ items:
         [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
     4.  Stay up to date:
         - Follow the [Teams Blog](https://aka.ms/teamsblog).
-        - Read the [Teams Roadmap](https://aka.ms/skype2teamsroadmap).
+        - Read the [Teams Roadmap](https://aka.ms/O365Roadmap).
         - Learn about the latest released features in the [Release Notes](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
     5.  Explore [more training and tutorials](https://aka.ms/Teamsacademy).
 
