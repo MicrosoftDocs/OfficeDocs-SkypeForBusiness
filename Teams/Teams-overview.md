@@ -18,7 +18,7 @@ appliesto:
 # Welcome to Microsoft Teams
 If you're the admin for Microsoft Teams in your organization, you're in the right place. When you're ready to get going with Teams, start with [How to roll out Teams](How-to-roll-out-teams.md).
 
-If you're new to Teams and want to learn more about it, read on!
+If you're new to Teams and want to learn more, read on.
 
 ## Overview of Teams
 
