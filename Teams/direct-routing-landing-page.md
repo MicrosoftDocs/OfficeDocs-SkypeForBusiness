@@ -42,7 +42,7 @@ These are the core decisions to consider for Direct Routing.
 
 ### Session Border Controller (SBC) considerations
 
-With Direct Routing, you connect your own Session Border Controller (SBC) directly to Phone System.  For a list of certified SBCs, see [Supported Session Border Controllers](direct-routing-border-controllers).
+With Direct Routing, you connect your own Session Border Controller (SBC) directly to Phone System.  For a list of certified SBCs, see [Supported Session Border Controllers](direct-routing-border-controllers.md).
 
 |Ask yourself|Action |
 |------------|-------|
