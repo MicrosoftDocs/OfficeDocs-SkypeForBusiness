@@ -45,7 +45,7 @@ To realize maximum benefit and business outcomes with Teams, users must actually
 
 The lifecycle of any given technology has shifted to a dynamic growth cycle. This means that the Teams and Microsoft 365 roadmaps will continue to unfold, with new functionality lighting up on a regular cadence. Establishing a change cycle within your organization will ensure you’re ready to manage continual collaboration improvements and realize maximum value. This can include:
 
--   Monitor the Teams [roadmap](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams).
+-   Monitor new developments on the [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=Microsoft%20Teams).
 -   Implement a change planning form (as illustrated below) to prepare and implement new functionality. Be sure to include both technical and user readiness activities.
 
 ![Example form showing expected release dates and notes about new functionality, listed with next steps and owners](media/upgrade-change-plan-form.png "Example form showing expected release dates and notes about new functionality, listed with next steps and owners")
