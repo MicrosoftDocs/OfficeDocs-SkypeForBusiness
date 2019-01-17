@@ -279,10 +279,11 @@
 #### [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 
-## Calling Plan
+## [Calling Plan](calling-plan-landing-page.md)
 ### [Calling Plan for Office 365](calling-plans-for-office-365.md)
 ### [Set up Calling Plan for your organization](set-up-calling-plans.md)
-## Phone System Direct Routing
+
+## [Phone System Direct Routing](direct-routing-landing-page.md)
 ### [Plan Direct Routing](direct-routing-plan.md)
 ### [Configure Direct Routing](direct-routing-configure.md)
 ### [Migrate to Direct Routing](direct-routing-migrating.md)
