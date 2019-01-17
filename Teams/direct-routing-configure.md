@@ -26,12 +26,12 @@ If you have not already done so, read [Plan Direct Routing](direct-routing-plan.
 
 This article describes how to configure Microsoft Phone System Direct Routing. It details how to pair a supported Session Border Controller (SBC) to Direct Routing and how to configure Microsoft Teams users to use Direct Routing to connect to the Public Switched Telephone Network (PSTN). To complete the steps explained in this article, administrators need some familiarity with PowerShell cmdlets. For more information about using PowerShell, see [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
 
-We recommend that you confirm that your SBC has already been configured as recommended by your SBC vendor's: 
+We recommend that you confirm that your SBC has already been configured as recommended by your SBC vendor: 
 
-- [AudioCodes deployment documentation](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
-- [Ribbon Communications deployment documentation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [AudioCodes deployment documentation](https://www.audiocodes.com/library/technical-documents?productFamilyGroup=1637&docTypeGroup=Configuration+Notes)
+- [Ribbon Communications deployment documentation](https://support.sonus.net/display/ALLDOC/Design+and+Deployment+Guides)
 
-You can configure your Microsoft Phone System and enable  users to use Direct Routing, then set up Microsoft Teams as the preferred calling client by completing the following procedures: 
+You can configure your Microsoft Phone System and enable users to use Direct Routing, then set up Microsoft Teams as the preferred calling client by completing the following procedures: 
 
 - [Pair the SBC with a Microsoft Phone System and validate the pairing](#pair-the-sbc-to-direct-routing-service-of-phone-system)
 - [Enable users for Direct Routing Service](#enable-users-for-direct-routing-service)
