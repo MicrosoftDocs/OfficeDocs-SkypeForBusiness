@@ -132,7 +132,7 @@ Yes. The upgrade notification will simply alert users that Skype for Business wi
 
 ### How can customers learn when Skype for Business capabilities will be available in Teams?
 
-The Skype to Teams–specific roadmap is available at [https://aka.ms/skype2teamsroadmap](https://aka.ms/skype2teamsroadmap). Moving forward, we’re making information about upcoming Teams features available on the [Office 365 Roadmap](https://go.microsoft.com/fwlink/?linkid=859057).
+The Skype to Teams–specific roadmap is available at [https://aka.ms/skype2teamsroadmap](https://aka.ms/skype2teamsroadmap). Moving forward, we’re making information about upcoming Teams features available on the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
 
 ### Which APIs and SDKs will be made available for Teams?
 
