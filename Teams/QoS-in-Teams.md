@@ -34,8 +34,6 @@ When you prioritize the traffic for real-time communications such as calls or sh
 
 ![The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.](media/Qos-in-Teams-Image1.png) 
 
-In most cases, the interconnect network will be an unmanaged network internet connection. 
-
 One option available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). We still recommend that you implement QoS on your on-premises network. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints. 
 
 In most cases, the network connecting your enterprise to the cloud will be an unmanaged network internet connection where you won't be able to reliably set QoS. One option available to allow truly end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). We still recommend that you implement QoS on the portions of the end-to-end network you have control over, namely your on-premises network. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints in your existing deployment.
@@ -263,7 +261,7 @@ To verify that the values from the Group Policy object have been set, perform th
    ```
    gpresult /H >gp.html
    ```
-
+ ![Screenshot of the console window running the gpresult command.](media/Qos-in-Teams-Image3.png "Screenshot of the console window running the gpresult command.")
 
 3. In the generated file, look for the heading **Applied Group Policy Objects** and verify that the names of the Group Policy objects created earlier are in the list of applied policies. 
 
