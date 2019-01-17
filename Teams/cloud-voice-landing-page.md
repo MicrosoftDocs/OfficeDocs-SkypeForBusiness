@@ -76,8 +76,9 @@ You may want to change settings for the following, based on your organization's 
 Phone System voicemail, powered by Azure Voicemail services, supports voicemail deposits to Exchange mailboxes only and doesn’t support third-party email systems. Phone System voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization.
 
 |Ask yourself|Action |
-|------------|-------|
-|<ul><li>Do I want to enable Phone System voicemail in my Calling Plans implementation?</li><li>Do I want to enable voicemail transcription for some or all of my users?</li></ul>|<ul><li>For voicemail setup procedures, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).</li><li>To turn off voicemail transcription, see [Setting voicemail policies in your organization](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
+|:------------|:-------|
+| Do I want to enable Phone System voicemail in my Calling Plans implementation? | For voicemail setup procedures, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
+| Do I want to enable voicemail transcription for some or all of my users? | To turn off voicemail transcription, see [Setting voicemail policies in your organization](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 
 ### Calling identity

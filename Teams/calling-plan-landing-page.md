@@ -48,18 +48,12 @@ There are two types of Calling Plans available:
 
 ### Phone numbers and emergency locations
 
- With Calling Plans in Office 365, every user in your organization needs to have a unique direct inward dial (DID) phone number and a corresponding validated emergency address. You can also specify an emergency location within the emergency address (for example, an office number or floor number). 
+With Calling Plans in Office 365, every user in your organization needs to have a unique direct inward dial (DID) phone number and a corresponding validated emergency address. You can also specify an emergency location within the emergency address (for example, an office number or floor number). 
 
 |Ask yourself|Action |
 |------------|-------|
 |How detailed do I want the emergency address and location information to be? |For more information, see [What are emergency locations, addresses, and call routing?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
 
-
-
-|Ask yourself|Action |
-|------------|-------|
-|<ul><li>Do I want to enable Phone System voicemail in my Calling Plans implementation?</li><li>Do I want to enable voicemail transcription for some or all of my users?</li></ul>|<ul><li>For voicemail setup procedures, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).</li><li>To turn off voicemail transcription, see [Setting voicemail policies in your organization](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
-|||
 
 ### Calling identity
 
