@@ -106,7 +106,9 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 
 4. Add the following value on the request body: {"resourceProvisioningOptions": ["Team"]}
 
-5. Confirm the team appears correctly back on the Microsoft Teams & Skype for Business Admin Center - Team Overview
+5. Run the Query on the Top-Right.
+
+6. Confirm the team appears correctly back on the Microsoft Teams & Skype for Business Admin Center - Team Overview
 
 
 ## Learn more
