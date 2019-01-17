@@ -16,7 +16,7 @@ appliesto:
 ---
 
 # Welcome to Microsoft Teams
-If you're the admin for Microsoft Teams in your organization, you're in the right place. Here you’ll find all the information you need to plan, deploy, and run Teams. When you're ready to get going with Teams, start with [How to roll out Teams](How-to-roll-out-teams.md).
+If you're the admin for Microsoft Teams in your organization, you're in the right place. When you're ready to get going with Teams, start with [How to roll out Teams](How-to-roll-out-teams.md).
 
 ## Overview of Teams
 
@@ -29,7 +29,7 @@ If you're new to Teams, watch this short video, [Welcome to Teams](https://suppo
 
 When you create a team from an existing group, that group's membership, site, mailbox, and notebook are ported to Teams. Don't miss the new [org-wide team](create-an-org-wide-team.md), a special type of team that pulls in every user in your organization and keeps membership up to date with Active Directory as users join and leave the organization. 
 
-To customize and extend Teams, add third-party apps through [tabs](built-in-custom-tabs.md), [connectors](office-365-custom-connectors.md), and [bots](add-bots.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Office 365, Teams offers a robust [extensibility story](https://docs.microsoft.com/en-us/microsoftteams/platform) so you can build the teamwork hub you need for your organization. 
+To customize and extend Teams, add third-party apps through [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Office 365, Teams offers a robust [extensibility story](https://docs.microsoft.com/en-us/microsoftteams/platform) so you can build the teamwork hub you need for your organization. 
 
 ![Teams desktop app and mobile app](media/teams-overview-hub.png)
 
