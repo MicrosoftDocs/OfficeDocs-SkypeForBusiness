@@ -18,6 +18,8 @@ appliesto:
 # Welcome to Microsoft Teams
 If you're the admin for Microsoft Teams in your organization, you're in the right place. When you're ready to get going with Teams, start with [How to roll out Teams](How-to-roll-out-teams.md).
 
+If you're new to Teams and want to learn more about managing teams, read on!
+
 ## Overview of Teams
 
 If you're new to Teams, watch this short video, [Welcome to Teams](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams). Teams is built on Office 365 groups, Office Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). When you create a team, here's what gets created:
