@@ -3,7 +3,7 @@ title: "Call sharing and group call pickup in Microsoft Teams"
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 01/16/19
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -39,7 +39,7 @@ Users must be Enterprise Voice enabled to set up and use call sharing and group 
 
 ## Configure group call pickup
 
-To set up group call pickup, a user first configures a call group and then adds the users they want to share their calls with. Then, they choose a simultaneous ring or call forward setting. For more information, see [Call forwarding and simultaneous ring in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
+To set up group call pickup, a user first configures a call group (this is not the same as a security group or an Office 365 group), and then adds the users they want to share their calls with. Then, they choose a simultaneous ring or call forward setting. For more information and step-by-step procedures, see [Call forwarding and simultaneous ring in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
 
 Call group creation and notification preferences are user-driven features; administrators do not have to configure these features for their users. Call groups cannot be created from security groups or Office 365 groups; they must be created in Teams.
 
