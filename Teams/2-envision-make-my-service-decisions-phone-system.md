@@ -24,7 +24,7 @@ To plan for the technical implementation of Phone System with Calling Plans, you
 With Microsoft Teams, your users can place and receive phone calls to or from the public switched telephone network (PSTN). Your users can use their own dedicated phone numbers for placing and receiving domestic and international phone calls from Teams client applications, with advanced features that include voicemail.
 
 > [!NOTE]
-> The latest Teams roadmap for identifying Teams Phone System with Calling Plan features in scope for your deployment can be found at <https://aka.ms/skype2teamsroadmap>.
+> The latest Teams roadmap for identifying Teams Phone System with Calling Plan features in scope for your deployment can be found at <https://aka.ms/O365Roadmap>.
 
 ## Phone System in Teams
 
