@@ -33,9 +33,6 @@ The following articles provide more information about deploying and using Micros
 
 ## Core deployment decisions
 
-These are the settings that most organizations want to change (if the Teams default settings don't work for the organization).
-
-
 To use Microsoft as your telephony carrier, you need to obtain Calling Plan licenses and assign them to your Phone System users. 
 
 There are two types of Calling Plans available:

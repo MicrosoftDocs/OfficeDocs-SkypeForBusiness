@@ -51,7 +51,7 @@ With Direct Routing, you connect your own Session Border Controller (SBC) direct
 
 ### Voice routing considerations
 
-With Direct Routing, you'll need to configure Phone System to route the calls to the specific SBCs.
+You'll need to configure Phone System to route the calls to the specific SBCs.
 
 |Ask yourself|Action |
 |------------|-------|
@@ -69,7 +69,7 @@ Direct Routing is only supported with Microsoft Teams. To place or receive PSTN 
 
 ## Additional deployment considerations
 
-You may want to change settings for the following, based on your organization's needs and configuration:
+You may want to consider the following, based on your organization's needs and configuration:
 
 | Ask yourself| Action |
 | :------------|-------:|
