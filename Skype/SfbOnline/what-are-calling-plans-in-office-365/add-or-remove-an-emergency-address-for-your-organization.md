@@ -78,7 +78,35 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
     
     > [!IMPORTANT]
     > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+
+## Troubleshooting
+
+**Number in “Failed” state.**
+
+After acquiring a number from the Office 365 portal, the status changed from **“Provisioning”** to **“Failed”**.
+
+This issue often occurs when a number is added from the portal, using an emergency address pointing to a location which is not matching the phone’s area code.
+
+To obtain more information about the number(s) which wasn't activated properly, run the following Powershell :
+ 
+> [!SYNTAX]
+> Get-CsOnlineTelephoneNumber | Where-Object {$_.ActivationState -cnotcontains “Activated”} | fl *
+
+The result, aside other information like region, id and ActivationState, should also contain the CityCode.
+
+**Example**, for a Madrid number, the CityCode returned will be "EMEA-ES-ALL-M_MA".
+
+If indeed a wrong emergency address has been used, make sure you have created a new emergency address corresponding to the number’s area code and assign it to the number.
+
+1. Sign in to Office 365 with your work or school account.
     
+2. Go to the **Microsoft Teams & Skype for Business Admin Center** > **Legacy portal**.
+    
+3. In the left navigation, go to **Voice** > **Phone Numbers**, and then double-click on the number in **“Failed”** State and from the right hand site menu, select the **new Emergency Address**.
+
+
+Please note that after changing the emergency address, the number’s status will change to **“Assignment Pending”** and it can take up to 24 hours for successfully activating.
+
 ## Related topics
 [What are emergency locations, addresses, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
