@@ -61,7 +61,7 @@ When the information  barrier policy admin makes changes to the policy or a poli
 
 ## More information
 
-For more information about the information barriers admin role and to set or remove information barrier policies, see <link to SCC doc>.
+For more information about the information barriers admin role and to set or remove information barrier policies, see [Information barriers](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/information-barriers.md).
 
 For more information about the Security and Compliance Center PowerShell cmdlets that control information barrier policies, see:
 
