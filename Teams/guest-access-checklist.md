@@ -78,7 +78,7 @@ For detailed instructions about configuring these settings, see [Manage guest ac
 
 ## □ Step 3: Enable guest access at the tenant level
 
-At a minimum, you must turn on Microsoft Teams for all users of the license type **Guest**. 
+At a minimum, you must turn on Guest access for Microsoft Teams under the **Microsoft Teams & Skype for Business Admin Center**. 
 
 1. In the Teams & Skype for Business Admin Center, select **Org-Wide settings** > **Guest access**.
 2. Set the **Allow guest access in Microsoft Teams** switch to **On**.

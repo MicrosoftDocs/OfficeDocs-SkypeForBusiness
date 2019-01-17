@@ -1,5 +1,5 @@
 ---
-title: Quality of Service in Microsoft Teams - Microsoft Teams
+title: Implement Quality of Service in Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Quality of Service (QoS) in Microsoft Teams
+# Implement Quality of Service (QoS) in Microsoft Teams
 
 This article will help you prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
 
@@ -28,15 +28,15 @@ When you prioritize the traffic for real-time communications such as calls or sh
 
 For QoS to be truly effective, consistent QoS settings need to be applied from end to end in your organization (user PCs, network switches, and routers to the cloud), because any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen shares.
 
-![The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.](media/Qos-in-Teams-Image1.png "The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.")
+QoS is a mechanism you can use to prioritize certain types of network traffic that are sensitive to network delays over other traffic that is less sensitive. A simple analogy is that QoS creates virtual "carpool lanes" in your data network, so some types of data never or rarely encounter delays.
 
-_Figure 1. The relationship between an organization’s networks and Office 365 services_
+When you prioritize the traffic for real-time communications such as calls or shared meetings in Teams you can more reliably deliver a business-grade user experience. When you don't implement QoS, shared screens in meetings can freeze, video can pixellate and color shift, and voice calls can become choppy and difficult or impossible to understand. For QoS to be truly effective, consistent QoS settings need to be applied from end to end in your organization (user PCs, network switches, and routers to the cloud), because any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen shares.
 
-
-In most cases, the interconnect network will be an unmanaged network internet connection. 
+![The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.](media/Qos-in-Teams-Image1.png) 
 
 One option available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). We still recommend that you implement QoS on your on-premises network. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints. 
 
+In most cases, the network connecting your enterprise to the cloud will be an unmanaged network internet connection where you won't be able to reliably set QoS. One option available to allow truly end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). We still recommend that you implement QoS on the portions of the end-to-end network you have control over, namely your on-premises network. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints in your existing deployment.
 
 ## Prioritize Teams network traffic for QoS 
 
@@ -65,7 +65,7 @@ When network traffic enters a router, the traffic is placed into a queue. If the
 
 _Figure 2. Examples of QoS queues_
 
-After these pieces are in place, it’s possible to deliver predictable QoS because the underlying managed network now understands how to classify, mark, and prioritize traffic. From the Teams perspective, the most important configuration step is the classification and marking of packets, but for end-to-end QoS to be successful you also need to carefully align the application’s configuration with the underlying network configuration.
+After these pieces are in place, it’s possible to deliver predictable QoS because the network now understands how to classify, mark, and prioritize traffic. From the Teams perspective, the most important configuration step is the classification and marking of packets, but for end-to-end QoS to be successful you also need to carefully align the application’s configuration with the underlying network configuration.
 
 ## Teams QoS scenarios
 
@@ -261,8 +261,7 @@ To verify that the values from the Group Policy object have been set, perform th
    ```
    gpresult /H >gp.html
    ```
-
-   ![Screenshot of the console window running the gpresult command.](media/Qos-in-Teams-Image3.png "Screenshot of the console window running the gpresult command.")
+ ![Screenshot of the console window running the gpresult command.](media/Qos-in-Teams-Image3.png "Screenshot of the console window running the gpresult command.")
 
 3. In the generated file, look for the heading **Applied Group Policy Objects** and verify that the names of the Group Policy objects created earlier are in the list of applied policies. 
 
