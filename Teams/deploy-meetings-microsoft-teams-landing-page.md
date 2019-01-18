@@ -17,7 +17,7 @@ appliesto:
 
 # Meetings & conferencing in Microsoft Teams
 
-You've completed [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including [audio conferencing](deploy-audio-conferencing-teams-landing-page.md). Here's how.
+You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including [audio conferencing](deploy-audio-conferencing-teams-landing-page.md). Here's how.
 
 ## Meetings & conferencing deployment decisions
 
@@ -76,17 +76,9 @@ Meeting policies are used to control what features are available to users when t
 
 ### Audio Conferencing
 
-Audio Conferencing provides organizations with additional entry points to any meeting (ad hoc or scheduled) by allowing meeting participants to join via public switched telephone network (PSTN) by dialing in using a traditional landline, private branch exchange (PBX), or mobile phones. 
+Audio Conferencing provides organizations with additional entry points to any meeting (ad hoc or scheduled) by allowing meeting participants to join via public switched telephone network (PSTN) by dialing in using a traditional land line, private branch exchange (PBX), or mobile phone. 
 
-Before you plan your implementation of Audio Conferencing in Teams, review the availability of the Audio Conferencing service; see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-
-Audio Conferencing licenses are available as part of an Office 365 E5 subscription or as an add-on service for an Office 365 E1 or Office 365 E3 subscription.
-
-|Ask yourself|Action |
-|------------|-------|
-|<ul><li>Which user locations or offices will implement the Audio Conferencing service?</li><li>Do I have the required licenses in place?</li></ul> |<ul><li>To see what cloud features are included in each Office 365 plan, see the [License options based on your plan](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan) articles.</li><li>For more information about Teams add-on licensing, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).</li></ul>|
-|||
-
+When you're ready to roll out Audio Conferencing, use the separate [Audio Conferencing rollout](deploy-audio-conferencing-teams-landing-page.md) guidance.
 
 ### Meeting room and personal devices
 

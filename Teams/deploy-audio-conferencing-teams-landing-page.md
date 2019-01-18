@@ -1,6 +1,6 @@
 ---
 title: Audio Conferencing in Microsoft Teams
-description: Use these deployment resources to help you roll out audio conferencing in Microsoft Teams.
+description: Use these deployment resources to help you roll out audio conferencing as part of the meetings workload in Microsoft Teams.
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
@@ -15,23 +15,22 @@ appliesto:
 ---
 # Audio Conferencing in Microsoft Teams
 
-You've completed [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the Audio Conferencing workload. Here's how.
+Audio Conferencing is a key component of the Teams meetings workload. Be sure you've reviewed [Meetings rollout](deploy-meetings-microsoft-teams-landing-page.md) as part of rolling out Audio Conferencing in your organization.
 
 ## Audio Conferencing deployment decisions
 
-Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
+This article helps you decide whether to change any of the default Audio Conferencing settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
-Calling in (dialing in) to meetings is very useful for users who are on the road and can't attend a meeting using the Skype for Business or Microsoft Teams app on their laptops or mobile devices. 
+You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or any other setup. Dialing in (calling in) to meetings is very useful for users who are on the road and can't attend a meeting using the Skype for Business or Teams app on their laptops or mobile devices. 
 
-You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
 
 ## Audio Conferencing prerequisites 
 
-Before you can deploy audio conferencing for Teams, you need to consider the following.
+Before you can deploy Audio Conferencing for Teams, consider the following.
 
 |Ask yourself|Action |
 |------------|-------|
-|<ul><li> Is Audio Conferencing available for my country/region?</li><li>Do my users have the proper licensing for Teams Audio Conferencing?</li><li>Do I need to purchase Communications Credits for the users who are assigned Audio Conferencing licenses?</li></ul> |<ul><li> To find out if Audio Conferencing is available for your country/region, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)</li><li>To get and assign licenses, see [Try or purchase Audio Conferencing in Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) and [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc). </li><li>To assign Communications Credits, see [What are Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)</li></ul> |
+|<ul><li> Is Audio Conferencing available for my country/region?</li><li>Do my users have the proper licensing for Teams Audio Conferencing?</li><li>Do I need to purchase Communications Credits for the users who are assigned Audio Conferencing licenses?</li></ul> |<ul><li> To find out if Audio Conferencing is available for your country/region, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)</li><li>Audio Conferencing licenses are available as part of an Office 365 E5 subscription or as an add-on service for an Office 365 E1 or Office 365 E3 subscription. To get and assign licenses, see [Try or purchase Audio Conferencing in Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) and [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc). To learn more, read [Skype for Business and Teams add-on licensing](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). To see what cloud features are included in each Office 365 plan, see the [License options based on your plan](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan) articles.  </li><li>To learn more, read [What are Communications Credits](what-are-communications-credits.md), then check out the [Communications Credits](#communications-credits) section below.</li></ul> |
 |||
 
 ## Core deployment decisions
