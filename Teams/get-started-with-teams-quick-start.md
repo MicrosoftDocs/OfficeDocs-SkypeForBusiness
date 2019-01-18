@@ -1,5 +1,5 @@
 ---
-title: Quick start -  Microsoft Teams
+title: Get started with Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Quick start - Microsoft Teams
+# Get started with Microsoft Teams
 
 To get started quickly on Teams, we recommend you create two or three teams and channels for a select group of early adopters. By first rolling out Teams on a small scale, you'll learn Teams by using Teams and gain valuable insights to inform how you deploy Teams across your whole organization. If you're a small business, this Quick start guide is all you need to roll out Teams to your whole organization.
 

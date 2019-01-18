@@ -62,18 +62,16 @@ Meetings settings are used to control whether anonymous users can join Teams mee
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Will I customize the initial meeting settings?</li><li>Will I implement QoS?</li></ul> |<ul><li> See the [Meetings in Microsoft Team tutorial](https://docs.microsoft.com/en-US/MicrosoftTeams/tutorial-meetings-in-teams?WT.mc_id=TeamsAdminCenterCSH) for more information about meetings settings.</li><li>See [Quality of Service in Microsoft Teams](qos-in-teams.md) for information about QoS concepts. scenarios, and implementation.</li></ul>|
+|<ul><li>Will I customize the initial meeting settings?</li><li>Will I implement QoS?</li></ul> |<ul><li> See the [Meetings in Microsoft Teams tutorial](https://docs.microsoft.com/en-US/MicrosoftTeams/tutorial-meetings-in-teams?WT.mc_id=TeamsAdminCenterCSH) for more information about meetings settings.</li><li>See [Quality of Service in Microsoft Teams](qos-in-teams.md) for information about QoS concepts. scenarios, and implementation.</li></ul>|
 |||
 
 ### Meeting policies
 
-Meeting policies are used to control what features are available to users when they join Microsoft Teams meetings. You can use the default policy or create one or more custom meeting policies for people that host meetings in your organization. 
-
-See the [Meetings in Microsoft Team tutorial](https://docs.microsoft.com/en-US/MicrosoftTeams/tutorial-meetings-in-teams?WT.mc_id=TeamsAdminCenterCSH) for more information.
+Meeting policies are used to control what features are available to users when they join Teams meetings. You can use the default policy or create one or more custom meeting policies for people that host meetings in your organization. To learn more, see the [Meetings in Microsoft Team tutorial](tutorial-meetings-in-teams.yml).
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Will I customize the initial meeting policies?</li><li>Do I require multiple meeting policies?</li><li>How will I determine which groups of users get which meetings policy applied?</li></ul>| <need links>|
+|<ul><li>Will I customize the initial meeting policies?</li><li>Do I require multiple meeting policies?</li><li>How will I determine which groups of users get which meetings policy applied?</li></ul>|To learn about meeting policies in Teams, read [Manage meeting policies in Teams](meeting-policies-in-teams.md).|
 |||
 
 ### Audio Conferencing
