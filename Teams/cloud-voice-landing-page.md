@@ -29,7 +29,8 @@ We recommend that all organizations work through the core decisions and then, if
 The following articles provide more information about deploying and using cloud voice features in Teams:
 
 - [Phone System in Office 365](what-is-phone-system-in-office-365.md)
-- [Quick start guide - Configuring Calling Plans in Microsoft Teams](configuring-teams-calling-quickstartguide.md)
+- [Phone System with Calling Plan](calling-plan-landing-page.md)
+- [Phone System Direct Routing](direct-routing-landing-page.md)
 - [Cloud voice deployment](cloud-voice-deployment.md)
 - [Microsoft telephony solutions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
@@ -46,8 +47,8 @@ Phone System allows you to replace your existing Private Branch Exchange (PBX) s
 
 
 |Ask yourself|Action |
-|------------|-------|
-|<ul><li>In which user locations or offices will I implement Phone System? </li></ul>|<ul><li>For more information about Phone System, see [What is Phone System in Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
+|:------------|:-------|
+|In which user locations or offices will I implement Phone System? |For more information about Phone System, see [What is Phone System in Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
 |||
 
 ## Connection to the Public Switched Telephone Network (PSTN)
@@ -56,7 +57,7 @@ To connect Phone System to the Public Switched Telephone Network (PSTN) so that 
 
 
 |Ask yourself|Action |
-| :------------|-------:|
+| :------------|:-------|
 | Do I want to use Microsoft Calling Plan as my telephony carrier? | For more information, see [Phone System with Calling Plans](calling-plan-landing-page.md).|
 | Do I need to use my own telephony carrier? | For more information, see [Phone System with Direct Routing](direct-routing-landing-page.md).
 |||
@@ -77,7 +78,7 @@ Phone System voicemail, powered by Azure Voicemail services, supports voicemail 
 
 |Ask yourself|Action |
 |:------------|:-------|
-| Do I want to enable Phone System voicemail in my Calling Plans implementation? | For voicemail setup procedures, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
+| Do I want to enable Phone System voicemail? | For voicemail setup procedures, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
 | Do I want to enable voicemail transcription for some or all of my users? | To turn off voicemail transcription, see [Setting voicemail policies in your organization](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 
@@ -86,7 +87,7 @@ Phone System voicemail, powered by Azure Voicemail services, supports voicemail 
 By default, all outbound calls use the assigned phone number as calling identity (caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call.
 
 |Ask yourself|Action |
-|------------|-------|
+|:------------|:-------|
 |Do I want to mask or disable caller ID? | To change or block the caller ID, see [Set the caller ID for a user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
 |||
 
@@ -95,8 +96,9 @@ By default, all outbound calls use the assigned phone number as calling identity
 Microsoft has two types of telephone numbers available: *subscriber* (user) numbers, which can be assigned to users in your organization, and *service* numbers, available as toll and toll-free service numbers, which have higher concurrent call capacity than subscriber numbers and can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues.
 
 |Ask yourself|Action |
-|------------|-------|
-|<ul><li>Which user locations need new phone numbers from Microsoft?</li><li>Which type of telephone number (subscriber or service) do I need?</li></ul>|<ul><li> For information about getting phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) and [Getting phone numbers for your users](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).</li><li>To help you pick the type of phone number you need, see [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md).</li></ul>|
+| :------------|:-------|
+| Which user locations need new phone numbers from Microsoft? | For information about getting phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) and [Getting phone numbers for your users](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). 
+| Which type of telephone number (subscriber or service) do I need? | To help you pick the type of phone number you need, see [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md).</li></ul>|
 |||
 
 ### Dial plans
@@ -106,6 +108,7 @@ A dial plan in the Phone System feature of Office 365 is a set of normalization 
 For more information about dial plans, see [What are dial plans?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 |Ask yourself|Action |
-|------------|-------|
-|<ul><li>Does my organization need a customized dial plan?</li><li>Which users require a customized dial plan, and which tenant dial plan should be assigned to each user?</li></ul>|<ul><li>To help determine if you need a custom dial plan, see [Planning for tenant dial plans](what-are-dial-plans.md#planning-for-tenant-dial-plans)</li><li>To add users to a customized dial plan in PowerShell, see [Create and manage dial plans](create-and-manage-dial-plans.md).</ul></li> |
+|:------------|:-------|
+| Does my organization need a customized dial plan? | To help determine if you need a custom dial plan, see [Planning for tenant dial plans](what-are-dial-plans.md#planning-for-tenant-dial-plans)|
+Which users require a customized dial plan, and which tenant dial plan should be assigned to each user? | To add users to a customized dial plan in PowerShell, see [Create and manage dial plans](create-and-manage-dial-plans.md). |
 |||
