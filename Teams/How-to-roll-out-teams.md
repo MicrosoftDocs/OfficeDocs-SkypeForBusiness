@@ -23,19 +23,19 @@ Whether you're a small business or a multi-national enterprise, the place to sta
 ## Recommended path to Teams
 
 
-We recommend rolling out Teams in stages, workload by workload, as your organization is ready. **You don’t have to wait until you've completed one step before you move to the next.** Some orgs may want to roll out all Teams features at once, while others may prefer a phased approach. 
+We recommend rolling out Teams in stages, workload by workload, as your organization is ready. **You don’t have to wait until you've completed one step before you move to the next.** Some orgs may want to roll out all Teams features at once, while others may prefer a phased approach. Here are the Teams workloads, in the order we recommend rolling them out:
 
 - [Get started](get-started-with-teams-quick-start.md)
 - [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud voice](cloud-voice-landing-page.md)
 
-[Adoption hub](adopt-microsoft-teams-landing-page.md): Throughout your Teams rollout, use these resources to drive adoption.
+[Adoption hub](adopt-microsoft-teams-landing-page.md): Throughout your Teams rollout, be sure to take advantage of these resources to help drive Teams adoption.
 
 ![Diagram illustrating Teams deployment pathways](media/how-to-roll-out-teams-image1.png)
 
 
-## Upgrade from Skype for Business, on-premises, & hybrid deployments
+## Upgrade from Skype for Business, on-premises, or hybrid deployments
 
 If you're coming to Teams from Skype for Business (online or on premises), or if you need a hybrid configuration, you still want to follow the step-wise guidance above, but you need to do some extra planning for these configurations. 
 

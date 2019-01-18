@@ -18,6 +18,7 @@ appliesto:
 # Create your first teams and channels in Microsoft Teams
 
 Setting up and using your first set of teams and channels builds your experience with Teams and identifies champions who can help drive Teams adoption across your organization. 
+If you haven't installed Teams yet, check out [Get Teams clients](get-clients.md) and si[Sign in to Teams using modern authentication](sign-in-teams.md).
 
 ## Suggestions for your first teams and channels
 
