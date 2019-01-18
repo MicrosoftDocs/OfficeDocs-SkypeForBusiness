@@ -37,8 +37,9 @@ These are the core decisions to consider for Direct Routing.
 
 
 |Ask yourself|Action |
-|------------|-------|
-|<ul><li>For which users will I enable Direct Routing? </li><li>Do I have the required licenses for Direct Routing?</li></ul>|<ul><li>For more information about Direct Routing, see [Plan for Direct Routing](direct-routing-plan.md).</li></ul>|
+| :------------|:-------|
+|For which users will I enable Direct Routing? | For more information, see [Enable users for Direct Routing Service](direct-routing-configure.md#enable-users-for-direct-routing-service). |
+Do I have the required licenses for Direct Routing? | For more information, see [Licensing and other requirements](direct-routing-plan#licensing-and-other-requirements).
 |||
 
 ### Session Border Controller (SBC) considerations
@@ -46,7 +47,7 @@ These are the core decisions to consider for Direct Routing.
 With Direct Routing, you connect your own Session Border Controller (SBC) directly to Phone System.  For a list of certified SBCs, see [Supported Session Border Controllers](direct-routing-border-controllers.md).
 
 |Ask yourself|Action |
-|------------|-------|
+|:------------|:-------|
 | Where and how will I deploy SBCs? | For more information, see [Deploy and configure the SBC](direct-routing-sbc-multiple-tenants.md#deploy-and-configure-the-sbc).|
 |||
 
@@ -55,8 +56,9 @@ With Direct Routing, you connect your own Session Border Controller (SBC) direct
 You'll need to configure Phone System to route the calls to the specific SBCs.
 
 |Ask yourself|Action |
-|------------|-------|
-|<ul><li>What voice routing policies, PSTN usage, and voice routes do I need to create?</li><li>Which users will be assigned to the voice routing policy that I define?</li></ul> | For voice routing policy information, see [Configure Voice Routing](direct-routing-configure.md#configure-voice-routing).</li></ul> |
+|:------------|:-------|
+| What voice routing policies, PSTN usage, and voice routes do I need to create? | For voice routing  information, see [Configure Voice Routing](direct-routing-configure.md#configure-voice-routing).
+| Which users will be assigned to the voice routing policy that I define? | See the examples in [Configure Voice Routing](direct-routing-configure.md#configure-voice-routing). |
 |||
 
 ### Calling and interop policies
@@ -64,8 +66,8 @@ You'll need to configure Phone System to route the calls to the specific SBCs.
 Direct Routing is only supported with Microsoft Teams. To place or receive PSTN calls through Direct Routing, you need to configure the necessary policies to ensure incoming calls are received in Teams. You can configure users to set Teams as their preferred client for calls by either configuring the user for Teams Only mode or configuring Teams as the preferred calling client by assigning the TeamsCallingPolicy and the TeamsInteropPolicy.
 
 |Ask yourself|Action |
-|------------|-------|
-|How will I set Teams as the preferred client for calls? |For more information, see [Set Microsoft Teams as the preferred calling client for users](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).|
+|:------------|:-------|
+|How will I set Teams as the preferred client for calls? | For more information, see [Set Microsoft Teams as the preferred calling client for users](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).|
 |||
 
 ## Additional deployment considerations
@@ -73,7 +75,7 @@ Direct Routing is only supported with Microsoft Teams. To place or receive PSTN 
 You may want to consider the following, based on your organization's needs and configuration:
 
 | Ask yourself| Action |
-| :------------|-------:|
+| :------------|:-------|
 | Do you have an existing Skype for Business Server deployment with hybrid connectivity configured? |  To understand how user accounts in a hybrid environment are provisioned and managed, see [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md).| 
-| Are you migrating to Direct Routing from Calling Plan or from a Skype for Business on-premises environment? | To understand more about migrating to Direct Routing from an existing environment, see [Migrating to Direct Routing](direct-routing-migrating.md) |
+| Are you migrating to Direct Routing from Calling Plan or from a Skype for Business on-premises environment? | To understand more about migrating to Direct Routing from an existing environment, see [Migrating to Direct Routing](direct-routing-migrating.md). |
 |||
