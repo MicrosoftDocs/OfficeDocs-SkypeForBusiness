@@ -53,7 +53,7 @@ Teams provides a set of custom administrator roles that can be used to manage Te
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Who will be assigned the Teams Communications Administrator role?</li><li>Who will be assigned the Teams Communications Support Engineer role?</li><li>Who will be assigned the Teams Communications Support Specialist role?</li></ul> |<ul><li> To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/using-admin-roles).</li><li> To assign admin roles, see [Assign administrator and non-administrator roles to users with Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).</li></ul> |
+|<ul><li>Who will be assigned the Teams Communications Administrator role?</li><li>Who will be assigned the Teams Communications Support Engineer role?</li><li>Who will be assigned the Teams Communications Support Specialist role?</li></ul> |<ul><li> To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).</li><li> To assign admin roles, see [Assign administrator and non-administrator roles to users with Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).</li></ul> |
 |||
 
 ### Meetings settings 
@@ -93,13 +93,13 @@ See [Intelligent Communications for devices](https://products.office.com/en-gb/m
 
 ### Reporting
 
-You can use activity reports to see how users in your organization are using Microsoft Teams. For example, if some don’t use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. 
+Use activity reports to see how users in your organization are using Teams. For example, if some don’t use Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts. 
 
-See [Use activity reports for Teams](https://docs.microsoft.com/MicrosoftTeams/teams-activity-reports) for more information.
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Who will be responsible for reporting?</li><li>Who will be responsible for monitoring usage? </li></ul>|<Need links> |
+|Who will be responsible for reporting?|See [Use activity reports for Teams](teams-activity-reports.md) for more information.  |
+|Who will be responsible for monitoring usage?|To learn more, read [Monitor usage and feedback in Teams](get-started-with-teams-monitor-usage-and-feedback.md).|
 |||
 
 ## Additional deployment decisions
@@ -119,11 +119,11 @@ Bandwidth planning lets organizations estimate the bandwidth that will be requir
 
 Users can record their meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved in Microsoft Stream, so users can share it securely across their organization. To find the recording for a meeting, go to the meeting conversation.
 
-To learn more, see [Teams cloud meeting recording](cloud-recording).
+To learn more, see [Teams cloud meeting recording](cloud-recording.md).
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I turn on the meeting transcription service?|<need link>|
+| Will I turn on the meeting transcription service?|See [Turn on or turn off recording transcription](cloud-recording.md#turn-on-or-turn-off-recording-transcription)|
 |||
 
 
@@ -179,11 +179,11 @@ Teams gives you two ways to monitor and troubleshoot call quality problems: [Cal
 
 ### Operating your meetings service
 
-It’s important that you understand the overall health of the Microsoft Teams service so that you can proactively alert others in your organization of any event that affects the service. The [Operate my service](https://docs.microsoft.com/en-gb/MicrosoftTeams/1-drive-value-operate-my-service) articles provide in-depth guidance for service operations.
+It’s important that you understand the overall health of the Teams service so that you can proactively alert others in your organization of any event that affects the service. The [Operate my service](1-drive-value-operate-my-service.md) articles provide in-depth guidance for service operations.
 
 |Ask yourself|Action |
 |------------|-------|
-|Who in my organization will be responsible for managing the meetings service? | <need link>|
+|Who in my organization will be responsible for managing the meetings service? | Make sure this person has the Teams admin permissions they need in order to manage your meetings service. To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)|
 |||
 
 
