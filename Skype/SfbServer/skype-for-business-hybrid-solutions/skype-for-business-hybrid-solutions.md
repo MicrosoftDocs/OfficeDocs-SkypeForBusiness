@@ -1,5 +1,5 @@
 ---
-title: Skype for Business hybrid solutions phone system integration
+title: Skype for Business 2015 hybrid solutions | Phone System Hybrid integration
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,8 +16,8 @@ description: "Find information on planning a Skype for Business hybrid deploymen
 ---
 
 # Skype for Business hybrid solutions
- 
-Find information on planning a Skype for Business hybrid deployment. 
+
+Find information on planning a Skype for Business hybrid deployment.
   
 This topic introduces you to several hybrid configurations to help you determine which configuration is best for your business. You can then read more about the configuration you're interested in by following the links in this topic. This topic contains the following sections:
   
@@ -58,6 +58,7 @@ The following diagram shows how you can add Skype for Business Online into your 
 For more information, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](plan-hybrid-connectivity.md) and [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
   
 ## Take advantage of Phone System in Office 365 (Cloud PBX)
+
 <a name="BKMK_CloudPBX"> </a>
 
  Phone System in Office 365 (Cloud PBX) is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Office 365 cloud with Skype for Business Online. Phone System in Office 365 allows you to replace your existing PBX system with a set of features delivered from Office 365 and tightly integrated into Microsoft's cloud productivity experience.
@@ -67,10 +68,11 @@ In addition to two Phone System in Office 365 hybrid offerings, Microsoft offers
 There are two Phone System in Office 365 hybrid offerings:
   
 - [Phone System in Office 365 with on-premises connectivity provided by your Skype for Business Server deployment](skype-for-business-hybrid-solutions.md#BKMK_Server)
-    
+
 - [Phone System in Office 365 with on-premises connectivity provided by Skype for Business Server Cloud Connector Edition](skype-for-business-hybrid-solutions.md#BKMK_CCE)
-    
+
 ### Phone System in Office 365 with on-premises connectivity provided by your Skype for Business Server deployment
+
 <a name="BKMK_Server"> </a>
 
 This configuration consists of a Skype for Business Server on-premises deployment modified for hybrid PSTN. Users in your organization who are homed in the cloud can receive PBX services from the Microsoft cloud, but PSTN connectivity is provided through Enterprise Voice on your on-premises Skype for Business Server deployment.
@@ -98,6 +100,7 @@ This configuration is best if:
 - Your PBX does not offer unique features that you need to retain.
 - Calling Plan, the Office 365 PSTN calling service, is not available in your region.
 - You do not have an existing Lync or Skype for Business Server deployment.
+
 For more information, see [Plan for Skype for Business Cloud Connector Edition](plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md).
   
 ## Integrate with Exchange and SharePoint
@@ -153,7 +156,7 @@ In addition to the architectural tasks you perform for your on-premises environm
 - Ensure network capacity and availability.
 - Acquire third-party SSL certificates to provide enterprise-security for Office 365 service offerings.
 - Decide if you want to connect to Office 365 with Internet Protocol version 6 (IPv6).
-- Determine how much feature integration with on-premises and online versions of Skype for Business, Exchange, and SharePoint is desired. 
+- Determine how much feature integration with on-premises and online versions of Skype for Business, Exchange, and SharePoint is desired.
 - Determine which proxy server device will be used for requests from Office 365.
 
 You will also need to perform the follow IT Pro tasks to implement your Skype for Business hybrid environment:

@@ -1,9 +1,8 @@
 ---
-title: "Plan hybrid connectivity between Skype for Business Server and Skype for Business Online"
+title: Plan hybrid connectivity | Skype for Business Server 2015 and Online
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 1/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -60,6 +59,7 @@ After you have read this topic and are ready to deploy, see [Deploy hybrid conne
 (For information about configuring your Lync Server 2013 or Lync Server 2010 deployment for hybrid, see [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
 
 ## Overview
+
 <a name="BKMK_Overview"> </a>
 
 Hybrid solutions enable you to move your users to the cloud based on your schedule and business need. This topic focuses on hybrid connectivity between an on-premises deployment of Skype for Business Server and Skype for Business Online. This connectivity allows you to have some users homed on-premises and some users homed online.
@@ -117,6 +117,7 @@ For more information about setting up a hybrid voice solution with your Skype fo
 You can also configure hybrid deployments for integration with on-premises Exchange and SharePoint, or with Microsoft Office 365 applications, including Exchange Online and SharePoint Online. You can also configure a hybrid voice solution that does not require a full Skype for Business Server deployment by using Cloud Connector Edition. For more information about all Skype for Business hybrid solutions and planning your move to the cloud, see [Skype for Business hybrid solutions](skype-for-business-hybrid-solutions.md).
 
 ## Infrastructure requirements
+
 <a name="BKMK_Infrastructure"> </a>
 
 To implement and deploy hybrid connectivity between Skype for Business Server and Skype for Business Online, you must configure the following in your environment:
@@ -142,6 +143,7 @@ To implement and deploy hybrid connectivity between Skype for Business Server an
 - Enabled shared Session Initiation Protocol (SIP) address space. A SIP address is a unique identifier for each user on a network, similar to a phone number or an email address. Before you try to move users from on-premises to Skype for Business Online, you'll need to configure your Office 365 tenant to share the Shared Session Initiation Protocol (SIP) address space with your on-premises deployment. For more information, see [Configure federation with Skype for Business Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md).
 
 ## Multi-forest support
+
 <a name="BKMK_MultiForest"> </a>
 
 Users can access Skype for Business functionality in another forest if the following requirements are met:
@@ -153,6 +155,7 @@ Users can access Skype for Business functionality in another forest if the follo
 For details on multi-forest hybrid scenarios, see [Configure a multi-forest environment for hybrid Skype for Business](deploy-hybrid-connectivity/configure-a-multi-forest-environment-for-hybrid.md).
 
 ## Exchange co-existence
+
 <a name="BKMK_Exchange"> </a>
 
 To support co-existence with Exchange, keep the following in mind:
@@ -168,16 +171,19 @@ To support co-existence with Exchange, keep the following in mind:
 For details on co-existence with Exchange Server, including support criteria and limitations in various combinations of on-premises and online, see [Feature support](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) in [Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
 
 ## Administrator credentials
+
 <a name="BKMK_Credentials"> </a>
 
 When you are asked to provide your administrator credentials, use the username and password for the administrator account for your Office 365 tenant. You will also use these credentials when you configure Azure Active Directory for federation, directory synchronization, single sign-on, and moving users to Skype for Business Online.
 
 ## Skype for Business Online PowerShell
+
 <a name="BKMK_PowerShell"> </a>
 
 Administrators now have the ability to use Windows PowerShell to manage Skype for Business Online and their Skype for Business Online user accounts. To do this, you must first download and install the Skype for Business Online Connector Module from the Microsoft Download Center. For more information on downloading, installing, and using the Skype for Business Online Connector Module, and for detailed information on using Windows PowerShell to manage Skype for Business Online, see [Using Windows PowerShell to manage Skype for Business Online](https://technet.microsoft.com/library/dn362831.aspx).
 
 ## Skype for Business client support
+
 <a name="BKMK_ClientSupport"> </a>
 
 There are some differences in the features supported in clients, as well as the features available in on-premises and online environments. The following clients are supported with Skype for Business Online in a hybrid deployment:
@@ -209,6 +215,7 @@ Before you decide where you want to home users in your organization, you should 
 - [Mobile client feature comparison for Skype for Business](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
 
 ## Topology requirements
+
 <a name="BKMK_Topology"> </a>
 
 To configure your deployment for hybrid with Skype for Business Online, you need to have one of the following supported topologies:
@@ -250,6 +257,7 @@ To configure your deployment for hybrid with Skype for Business Online, you need
   - The Edge Pool associated with SIP federation for the site
 
 ## Federation Allowed/Blocked Lists requirements
+
 <a name="BKMK_Federation"> </a>
 
 The Allowed domains list includes domains that have a partner Edge fully qualified domain name (FQDN) configured. These are sometimes referred to as allowed partner servers ordirect federation partners. You should be familiar with the difference between Open Federation and Closed Federation, referred to as partner discovery andallowed partner domain list, respectively, in on-premises deployments.
@@ -265,6 +273,7 @@ The following requirements must be met to successfully configure a hybrid deploy
 - Federation must be enabled for the external communications for the online tenant, which is configured by using the Skype for Business Online Control Panel.
 
 ## DNS settings
+
 <a name="BKMK_DNS"> </a>
 
 When creating DNS records for hybrid deployments, all Skype for Business external DNS records should point to the on-premises infrastructure. For details on required DNS records, please refer to [DNS requirements for Skype for Business Server 2015](../plan-your-deployment/network-requirements/dns.md).
@@ -281,6 +290,7 @@ Depending on how DNS is configured in your organization, you may need to add the
 [!NOTE] _sipfederationtls._tcp.\<sipdomain.com\> SRV record resolution from the Edge Server is required for hybrid configuration. If the Edge Server cannot resolve these records, the on-premises users will not be able to see the presence or communicate with online users.
 
 ## Firewall considerations
+
 <a name="BKMK_Firewall"> </a>
 
 Computers on your network must be able to perform standard Internet DNS lookups. If these computers can reach standard Internet sites, your network meets this requirement.
@@ -290,12 +300,12 @@ Depending on the location of your Microsoft Online Services data center, you mus
 For more information, see [Office 365 URLs and IP address ranges](https://go.microsoft.com/fwlink/p/?LinkId=252942).
 
 ## Port and protocol requirements
+
 <a name="BKMK_Ports"> </a>
 
 In addition to the port requirements for internal communication, you must also configure the following ports to enable hybrid connectivity:
 
-
-|**Protocol**|**TCP or UDP**|**Source IP**|**Destination IP**|**Source Port**|**Destination Port**|**Notes**|
+|Protocol|TCP or UDP|Source IP|Destination IP|Source Port|Destination Port|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |Access Edge  <br/> |Office 365  <br/> |Any  <br/> |5061  <br/> |Signaling  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |Access Edge  <br/> |Any  <br/> |5061  <br/> |Signaling  <br/> |
@@ -307,6 +317,7 @@ In addition to the port requirements for internal communication, you must also c
 For more information about port and firewall planning for Edge Server, see [Edge Server environmental requirements in Skype for Business Server 2015](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). See also [Port and protocol requirements for servers](../plan-your-deployment/network-requirements/ports-and-protocols.md) and the [Protocol workloads diagram](https://go.microsoft.com/fwlink/p/?LinkId=550989).
 
 ## User accounts and data
+
 <a name="BKMK_UserAccounts"> </a>
 
 In a hybrid deployment, any user that you want to home online must first be created in the on-premises deployment, so that the user account is created in Active Directory Domain Services. You can then move the user to Skype for Business Online, which will move the user's contact list.
@@ -330,8 +341,8 @@ You should also consider the following user-related issues when planning for a h
 
 - **Conferencing data, meeting content, and scheduled meetings** This content is not migrated with the user account. Users must reschedule meetings after their accounts are migrated to Skype for Business Online. The Meeting Migration Service will do this automatically when migrating from a Skype for Business server to Skype for Business Online or Teams, see [Using the Meeting Migration Service](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
-
 ## User policies and features
+
 <a name="BKMK_UserPolicies"> </a>
 
 - In a hybrid environment, users can be enabled for Instant Messaging and conferencing (meetings) either on premises or online, but not both simultaneously.
@@ -339,5 +350,3 @@ You should also consider the following user-related issues when planning for a h
 - **Client support** Some users may require a new client version when they are moved to Skype for Business Online. For Office Communications Server 2007 R2, users must be moved to a Skype for Business Server or Lync Server 2013 pool prior to migration to Skype for Business Online.
 
 - **On-premises policies and configuration (non-user)** Online and on-premises policies require separate configuration. You cannot set global policies that apply to both.
-
-
