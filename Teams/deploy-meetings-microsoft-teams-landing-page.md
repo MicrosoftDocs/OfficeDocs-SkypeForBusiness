@@ -78,7 +78,7 @@ Meeting policies are used to control what features are available to users when t
 
 Audio Conferencing provides organizations with additional entry points to any meeting (ad hoc or scheduled) by allowing meeting participants to join via public switched telephone network (PSTN) by dialing in using a traditional land line, private branch exchange (PBX), or mobile phone. 
 
-When you're ready to roll out Audio Conferencing, use the separate [Audio Conferencing rollout](deploy-audio-conferencing-teams-landing-page.md) guidance.
+When you're ready to roll out Audio Conferencing, see the in-depth [Audio Conferencing rollout](deploy-audio-conferencing-teams-landing-page.md) guidance.
 
 ### Meeting room and personal devices
 
@@ -115,11 +115,11 @@ Bandwidth planning lets organizations estimate the bandwidth that will be requir
 | Will I undertake bandwidth planning prior to and during my rollout of Meetings? |See [Network Readiness](https://docs.microsoft.com/en-gb/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) for more information and links to tools to make the planning process simpler.|
 |||
 
-### Meeting recording and archiving | 
+### Meeting recording and archiving
 
-Users can record their meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved in Microsoft Stream, so users can share it securely across their organization. 
+Users can record their meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved in Microsoft Stream, so users can share it securely across their organization. To find the recording for a meeting, go to the meeting conversation.
 
-See [Teams cloud meeting recording](https://docs.microsoft.com/en-gb/MicrosoftTeams/cloud-recording) for more information 
+To learn more, see [Teams cloud meeting recording](cloud-recording).
 
 | Ask yourself | Action |
 |--------------|--------|
@@ -133,44 +133,44 @@ Teams live events policies are used to manage event settings for groups of users
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Will my organization use Teams live events?</li></ul>| See [the live events articles](https://docs.microsoft.com/en-US/microsoftteams/teams-live-events/what-are-teams-live-events?WT.mc_id=TeamsAdminCenterCSH) for more information about planning for, setting up, and configuring Teams live events.|
+|<ul><li>Will my organization use Teams live events?</li></ul>| See the [live events articles](teams-live-events/what-are-teams-live-events.md) for more information about planning for, setting up, and configuring Teams live events.|
 |||
 
 ### Conference room systems rollout
 
 Organizations with many conference rooms may want to consider a structured approach to inventorying their rooms, identifying the appropriate devices, and then rolling them out. 
 
-The [Plan Skype Room Systems v2](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0) articles introduce these concepts and provide more information.
+
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I plan my room systems deployment?|<need link>|
+| What do I need to do to roll out conference room systems?|Check out the [Plan Skype Room Systems v2](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0) articles.|
 |||
 
 ### Cloud video interop
 
 Cloud video interop makes it possible for third-party meeting room devices to join Teams meetings. 
 
-Video teleconferencing with content collaboration helps you make the most out of meetings. However, meeting room systems and devices are expensive to upgrade. Cloud video interop for Microsoft Teams works with third-party systems and delivers a native meeting experience for all participants – in meeting rooms or inside Teams clients. 
+Video teleconferencing with content collaboration helps you make the most out of meetings. However, meeting room systems and devices are expensive to upgrade. Cloud video interop for Teams works with third-party systems and delivers a native meeting experience for all participants – in meeting rooms or inside Teams clients. 
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I use a cloud video interop solution as part of my room systems deployment? | See [Cloud Video Interop for Microsoft Teams](https://docs.microsoft.com/en-gb/MicrosoftTeams/cloud-video-interop) for more information.|
+| Will I use a cloud video interop solution as part of my room systems deployment? | See [Cloud Video Interop for Teams](cloud-video-interop.md) for more information.|
 |||
 
 
 ### Personal device rollout
 
-When planning a larger rollout of personal devices to support meetings or voice deployments, you might want to consider using a repeatable site-by-site rollout process that delivers repeatable quality. The [Site enablement playbook for Microsoft Teams](https://docs.microsoft.com/en-gb/MicrosoftTeams/3-onboard-deploy-my-service#site-enablement-playbook-for-microsoft-teams-voice-workloads) provides a good foundation that you can use for your own deployments. The guide is focused on voice, but the general principles of device delivery, account readiness, adoption, and training apply to a large meeting deployment.
+When planning a larger rollout of personal devices to support meetings or voice deployments, consider using a repeatable site-by-site rollout process that delivers repeatable quality.
 
 | Ask yourself | Action |
 |--------------|--------|
-|Will I use a site-by-site approach to deploy meetings? | <need link> |
+|Will I use a site-by-site approach to deploy meetings? |  The [Site enablement playbook for Teams](3-onboard-deploy-my-service.md#site-enablement-playbook-for-microsoft-teams-voice-workloads) provides a good foundation that you can use for your own deployments. The guide is focused on voice, but the general principles of device delivery, account readiness, adoption, and training apply to a large meeting deployment. |
 |||
 
 ### Meeting quality and troubleshooting
 
-Microsoft Teams gives you two ways to monitor and troubleshoot call quality problems: Call Analytics and Call Quality Dashboard. Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user. Where Call Analytics is designed to help admins and helpdesk agents troubleshoot call quality problems with specific calls, the Call Quality Dashboard is designed to help admins and network engineers optimize a network. Call Quality Dashboard shifts focus from specific users and instead looks at aggregate information for an entire Teams organization. | See [Call Analytics and Call Quality Dashboard](https://docs.microsoft.com/en-gb/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) for more information.
+Teams gives you two ways to monitor and troubleshoot call quality problems: [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md). Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user. Call Analytics is designed to help admins and helpdesk agents troubleshoot call quality problems with specific calls, whereas the Call Quality Dashboard is designed to help admins and network engineers optimize a network. Call Quality Dashboard shifts focus from specific users and instead looks at aggregate information for an entire Teams organization. 
 
 |Ask yourself|Action |
 |------------|-------|
