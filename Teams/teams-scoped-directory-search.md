@@ -34,7 +34,7 @@ Scenarios that benefit from scoped directory searches are similar to address boo
 You can learn more about how address book policies can be used [here](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-scenarios?view=exchserver-2019).
 
 > [!IMPORTANT]
-> Address book policies provide only a virtual separation of users from directory perspective. Users can still initiate communications with others by providing complete email addresses. 
+> Address book policies provide only a virtual separation of users from directory perspective. Users can still initiate communications with others by providing complete email addresses. It is also important to note that any user data that had already been cached, prior to the enforcement of new or updated address book policies, will remain available to users for up to 30 days.
 
 ## Enable scoped directory search
 

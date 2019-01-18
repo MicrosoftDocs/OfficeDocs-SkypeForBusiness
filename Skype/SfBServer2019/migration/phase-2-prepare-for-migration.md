@@ -21,8 +21,6 @@ Before you begin your migration to Skype for Business Server 2019, follow the st
     
 - [Configure DNS records for pilot pool deployment](configure-dns-records-for-pilot-pool-deployment.md)
     
-- [Run Best Practices Analyzer](run-best-practices-analyzer.md)
-    
 - [Back up systems and data](back-up-systems-and-data.md)
     
 - [Configure clients for migration](configure-clients-for-migration.md)

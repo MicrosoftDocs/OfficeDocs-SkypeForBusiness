@@ -35,15 +35,15 @@ Your organization might require that you implement strict controls on how teams 
 
 > [!TIP]
 > Use the following table to capture your organization’s requirements.
-> 
-> |Capability |Details |Azure AD Premium <br> license required |Decision |
-> |---------|---------|---------|---------|
-> |Team naming policy | Use Prefix-Suffix–based, Custom Blocked Words. |P1 |TBD |
-> |Team classification |Assign classifications to teams. |P1 |TBD |
-> |Team guest access |Allow or prevent guests from being added to teams. |No |TBD |
-> |Team creation |Limit team creation to administrators. |No |TBD|
-> |Team creation |Limit team creation to security group members. |P1 |TBD|
-> 
+
+|Capability |Details |Azure AD Premium <br> license required |Decision |
+|---------|---------|---------|---------|
+|Team naming policy | Use Prefix-Suffix–based, Custom Blocked Words. |P1 |TBD |
+|Team classification |Assign classifications to teams. |P1 |TBD |
+|Team guest access |Allow or prevent guests from being added to teams. |No |TBD |
+|Team creation |Limit team creation to administrators. |No |TBD|
+|Team creation |Limit team creation to security group members. |P1 |TBD|
+
 > [!NOTE]
 > To help you plan ahead, [learn more about setting these policies and what licenses they require](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
@@ -64,7 +64,7 @@ After you’ve determined your requirements, you can implement them by using Azu
 
 ## Group and team expiration, retention, and archiving
 
-Your organization might have additional requirements for setting policies for expiration, retention, and archiving teams and teams data. You can configure group expiration policies to automatically manage the lifecycle of the group and retention policies to preserve or delete information as needed, and you can archive teams (set them to read-only mode) to preserve a point-in-time view of a team that’s no longer active.
+Your organization might have additional requirements for setting policies for expiration, retention, and archiving teams and teams data (channel messages and channel files). You can configure group expiration policies to automatically manage the lifecycle of the group and retention policies to preserve or delete information as needed, and you can archive teams (set them to read-only mode) to preserve a point-in-time view of a team that’s no longer active.
 
 |           |            |
 |-----------|------------|
@@ -73,13 +73,13 @@ Your organization might have additional requirements for setting policies for ex
 
 > [!TIP]
 > Use the following table to capture your organization’s requirements.
-> 
-> |Capability |Details |Azure AD Premium <br>license required |Decision |
-> |---------|---------|---------|---------|
-> |Expiration policy |Manage the lifecycle of Office 365 groups by setting an expiration policy. |P1 |TBD|
-> |Retention policy |Retain or delete data (Teams channel messages and channel files) for a specific time period by setting retention policies for Teams in the Security & compliance center. **Note**: Using this feature requires licensing of Office 365 Enterprise E3 or above. |No |TBD |
-> |Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |No |TBD |
-> 
+
+|Capability |Details |Azure AD Premium license required |Decision |
+|---------|---------|---------|---------|
+|Expiration policy |Manage the lifecycle of Office 365 groups by setting an expiration policy. |P1 |TBD|
+|Retention policy |Retain or delete data for a specific time period by setting retention policies for Teams in the Security & compliance center. **Note**: Using this feature requires licensing of Office 365 Enterprise E3 or above. |No |TBD |
+|Archive and restore |Archive a team when it’s no longer active but you want to keep it around for reference or to reactivate in the future. |No |TBD |
+
 > [!Note]
 > Group expiration is an Azure AD Premium feature. For this feature to be available, your tenant must have a subscription to Azure AD Premium and licenses for the administrator who configures the settings and the members of the affected groups.
 
