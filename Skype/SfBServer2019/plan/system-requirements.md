@@ -188,9 +188,10 @@ Skype for Business Server 2019 Enterprise Edition will require full SQL Server, 
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates.  <br/> ||
+|Microsoft SQL Server 2016 (64-bit edition), and you must run with the latest updates.  <br/> |
+Microsoft SQL Server 2017 (64-bit edition), and you must run with the latest updates.|
  |
-   
+
 If you don't see the SQL Server edition you want to use listed here, you can't use it.
   
 > [!NOTE]
@@ -207,13 +208,13 @@ You can have the following for failover clustering:
 Two-node:
   
 - Microsoft SQL Server 2016 Standard (64-bit edition), and we recommend running with the latest service pack.
-    
+- Microsoft SQL Server 2017 Standard (64-bit edition), and we recommend running with the latest service pack.
+
 Sixteen-node:
   
 - Microsoft SQL Server 2016 Enterprise (64-bit edition), and we recommend running with the latest service pack.
-    
-We'll have an article, Configure SQL Server clustering for Skype for Business Server 2019, that will have the steps for getting clustering ready.
- 
+- Microsoft SQL Server 2017 Enterprise (64-bit edition), and we recommend running with the latest service pack.
+
 SQL Always On is supported, and you can read more about it in [Back End Server high availability in Skype for Business Server 2019](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
   
 
