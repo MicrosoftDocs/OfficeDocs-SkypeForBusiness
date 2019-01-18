@@ -47,6 +47,10 @@ Do my users have Calling Plans licenses? | To buy and assign licenses, see [Step
 Do my users each have a direct inward dial (DID) phone number? | To get phone numbers, see [Step 3: Get phone numbers](set-up-calling-plans.md#step-3-get-phone-numbers). |
 |||
 
+### Transfer phone numbers to Office 365
+
+It's easy to transfer your phone numbers from your current service provider to Teams. After you port your phone numbers to Teams, Microsoft will become your service provider and will bill you for those phone numbers. For more information, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
+
 
 ### Phone numbers and emergency locations
 
@@ -65,5 +69,9 @@ By default, all outbound calls use the assigned phone number as calling identity
 |:------------|:-------|
 |Do I want to mask or disable caller ID? | To change or block the caller ID, see [Set the caller ID for a user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
 |||
+
+### Supported devices
+
+For more information about supported devices, see [Manage your devices in Microsoft Teams](device-management.md), [IP Phones](devices-ip-phones.md), and [USB audio and video devices](devices-usb-devices.md).
 
 

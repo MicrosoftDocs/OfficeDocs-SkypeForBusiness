@@ -41,9 +41,7 @@ These are the settings that most organizations want to change (if the Teams defa
 
 ## Phone System (Office 365)
 
-Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Office 365 cloud. With Phone System, users can make business-related calls from their computers and mobile devices.
-
-Phone System allows you to replace your existing Private Branch Exchange (PBX) system with a set of features directly delivered from Office 365 and tightly integrated into the company’s cloud productivity experience.
+Phone System is Microsoft's technology for enabling call control and Private Branch Exchange (PBX) capabilities in the Office 365 cloud. Phone System allows you to replace your existing Private Branch Exchange (PBX) system with a set of features directly delivered from Office 365 and tightly integrated into the company’s cloud productivity experience.
 
 
 |Ask yourself|Action |
@@ -71,6 +69,8 @@ You may want to change settings for the following, based on your organization's 
 - Calling identity
 - Phone numbers from Microsoft
 - Dial plans
+- Call queues
+- Auto attendants
 
 ### Voicemail
 
@@ -98,7 +98,8 @@ Microsoft has two types of telephone numbers available: *subscriber* (user) numb
 |Ask yourself|Action |
 | :------------|:-------|
 | Which user locations need new phone numbers from Microsoft? | For information about getting phone numbers, see [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) and [Getting phone numbers for your users](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). 
-| Which type of telephone number (subscriber or service) do I need? | To help you pick the type of phone number you need, see [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md).</li></ul>|
+| Which type of telephone number (subscriber or service) do I need? | To help you pick the type of phone number you need, see [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md).
+How do I port existing phone numbers to Office 365?|For more information, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
 |||
 
 ### Dial plans
@@ -112,3 +113,17 @@ For more information about dial plans, see [What are dial plans?](https://docs.m
 | Does my organization need a customized dial plan? | To help determine if you need a custom dial plan, see [Planning for tenant dial plans](what-are-dial-plans.md#planning-for-tenant-dial-plans)|
 Which users require a customized dial plan, and which tenant dial plan should be assigned to each user? | To add users to a customized dial plan in PowerShell, see [Create and manage dial plans](create-and-manage-dial-plans.md). |
 |||
+
+### Call queues
+
+Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization. 
+
+For more information, see [Create a Phone System call queue](create-a-phone-system-call-queue) and [Step 7: If you want to set up a Phone System call queue](setting-up-your-phone-system.md#step-7:-if-you-want-to-set-up-a-phone-system-call-queue).
+
+### Auto attendants
+
+Phone System auto attendants can be used to create a menu system for your organization that lets external and internal callers move through a menu system to locate and place or transfer calls to company users or departments in your organization.
+
+For more information, see [What are Phone System auto attendants](what-are-phone-system-auto-attendants.md).
+
+
