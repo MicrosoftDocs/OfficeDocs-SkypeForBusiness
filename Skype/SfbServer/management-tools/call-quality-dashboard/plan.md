@@ -157,7 +157,7 @@ CQD, including all its components and dependent components, can be deployed on a
 |||
 |:-----|:-----|
 |Supported Operating Systems  <br/> |Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2  <br/> |
-|Supported SQL Server  <br/> |SQL Server 2008 R2, SQL Server 2012, SQL Server 2014  <br/> |
+|Supported SQL Server  <br/> |SQL Server 2012, SQL Server 2014, SQL Server 2016  <br/> |
    
 CQD utilizes Microsoft SQL Server, Microsoft SQL Server Analysis Services, and Microsoft Internet Information Services so CQD's minimum hardware and software requirements are basically the same as those dependent components. However, based on the organization's requirements around data freshness (which will depend in part on the volume of QoE data the organization generates) and deployment cost, additional deployment considerations should be made.
   
@@ -280,13 +280,13 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 The following versions of SQL Server are supported:
   
-- SQL Server 2008 R2
-    
 - SQL Server 2012
     
 - SQL Server 2014
 
 - SQL Server 2016
+
+- SQL Server 2017
     
 Business Intelligence or Enterprise edition is recommended for performance reasons. These editions allow use of multiple partition files that can be processed in parallel, which is beneficial for processing data spanning multiple months or longer. 
   
