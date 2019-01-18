@@ -1079,7 +1079,11 @@
       "source_path": "Teams/Deployment-overview.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page", 
       "redirect_document_id": true 
+    },
+    {      
+      "source_path": "Teams/get-started-with-teams-landing-page.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/get-started-wtih-teams-quick-start", 
+      "redirect_document_id": true 
     }
-  
   ] 
 }
