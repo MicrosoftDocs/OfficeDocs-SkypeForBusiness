@@ -176,6 +176,11 @@ Run this to find all users who have been granted the RedmondDialPlan tenant dial
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
+Run this to delete policyname for all users who have HostingProvider sipfed.online.lync.com.
+```
+Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
+```
+
 Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial plan for your organization. You need to first save the on-premises dial plan to an .xml file, and then use it to create the new tenant dial plan.
   
 Run this to save the on-premises dial plan to the .xml file.

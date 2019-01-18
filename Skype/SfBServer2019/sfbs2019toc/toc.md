@@ -2,6 +2,7 @@
 
 ## [What's new](../whats-new.md)
 ## [What's deprecated](../deprecated.md)
+## [Microsoft telephony solutions](../hybrid/msft-telephony-solutions.md)
 
 ## [Skype for Business downloads and updates](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Client updates](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -150,7 +151,6 @@
 ##### [Encryption](../../SfbServer/plan-your-deployment/security/encryption.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Management tools](../../SfbServer/plan-your-deployment/security/management-tools.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Addressing threats](../../SfbServer/plan-your-deployment/security/addressing-threats.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-##### [Best practices](../../SfbServer/plan-your-deployment/security/best-practices.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Capacity](../../SfbServer/plan-your-deployment/capacity/capacity.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [User model](../plan/user-model-2019.md)
 ##### [Estimating voice traffic](../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -311,10 +311,9 @@
 ### [Phase 2: Prepare for migration](../migration/phase-2-prepare-for-migration.md)
 #### [Apply updates to legacy installation](../migration/apply-updates.md)
 #### [Configure DNS records for pilot pool deployment](../migration/configure-dns-records-for-pilot-pool-deployment.md)
-#### [Run Best Practices Analyzer](../migration/run-best-practices-analyzer.md)
 #### [Back up systems and data](../migration/back-up-systems-and-data.md)
 #### [Configure clients for migration](../migration/configure-clients-for-migration.md)
-#### [Verify legacy environment you are migration from](../migration/verify-environment.md)
+#### [Verify legacy environment you are migrating from](../migration/verify-environment.md)
 ### [Phase 3: Deploy pilot pool](../migration/phase-3-deploy-pilot-pool.md)
 #### [Prepare Active Directory for pilot pool](../migration/prepare-active-directory.md)
 #### [Download topology from existing deployment](../migration/download-topology-from-existing-deployment.md)

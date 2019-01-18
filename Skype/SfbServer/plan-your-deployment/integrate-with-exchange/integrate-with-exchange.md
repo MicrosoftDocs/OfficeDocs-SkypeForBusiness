@@ -99,9 +99,13 @@ The following table details the features supported under various combinations of
 |Missed Conversations history and Call Logs are written to user's exchange mailbox  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
 |Archiving Content (IM and Meeting) in Exchange  <br/> |Y (need Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
 |Search archived content  <br/> |Y (need Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Exchange UM Voice Mail  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|Exchange UM Voice Mail  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |N  <br/> |
 |Server Side Conversation History  <br/> |Y  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
-   
+
+> [!NOTE]
+> There is a Cloud Voicemail service which is supported for Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015, and Lync Server 2013.
+> 
+
 ## See also
 <a name="feature_support"> </a>
 
