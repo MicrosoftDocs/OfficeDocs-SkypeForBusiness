@@ -1,9 +1,8 @@
 ---
-title: Sample emails and surveys for the Upgrade Basic checklist - Microsoft Teams
+title: Microsoft Teams Transition emails and surveys | Basic Upgrade 
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -39,6 +38,7 @@ Microsoft has indicated that Teams now has key capabilities that meet our commun
 
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
+
 [Return to step 1](upgrade-basic.md#step-1)
 
 <a name="step-4-email"></a>
@@ -62,8 +62,8 @@ Our official transition to Teams is set for <<X date>>, but your journey starts 
 
 CALL TO ACTION: Get started with Teams today
 
--   View this [Introducing Microsoft Teams video](https://teamsdemo.office.com/)
--   Follow these [Quick Start](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) steps to send your first chat in Teams
+- View this [Introducing Microsoft Teams video](https://teamsdemo.office.com/)
+- Follow these [Quick Start](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) steps to send your first chat in Teams
 
 If you have questions or need help, please reach out to <<insert company support information>>.
 ````
@@ -86,9 +86,9 @@ We’re just <<X weeks/days>> away from the transition to Microsoft Teams and wa
 
 CALL TO ACTION: Make your next online meeting a Teams meeting
 
--   Follow [these steps](https://support.office.com/article/get-your-team-together-for-better-meetings-71e3858c-7e5f-4ad7-bb67-c77d80237e96) to host your first Teams meeting.
--   Begin rescheduling recurring Skype for Business meetings in Teams.
--   Make every new online meeting a Teams meeting.
+- Follow [these steps](https://support.office.com/article/get-your-team-together-for-better-meetings-71e3858c-7e5f-4ad7-bb67-c77d80237e96) to host your first Teams meeting.
+- Begin rescheduling recurring Skype for Business meetings in Teams.
+- Make every new online meeting a Teams meeting.
 
 What will happen to my Skype for Business meetings after we move to Teams?
 
@@ -116,16 +116,16 @@ Body of email:
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
 
--   Offers familiar Skype for Business chat and meeting features to maintain a consistent feel.
--   Simplifies communication with a centralized contact list and persistent chat tracking for quick access to your conversations.
--   Saves time by providing a single location for your project notes, Office documents, team members, conversations AND meetings.
--   Alleviates the frustration of trying to find that lost email attachment, by storing and accessing files in one place
--   Makes communication more fun and personal with customizable memes and Giphys.
+- Offers familiar Skype for Business chat and meeting features to maintain a consistent feel.
+- Simplifies communication with a centralized contact list and persistent chat tracking for quick access to your conversations.
+- Saves time by providing a single location for your project notes, Office documents, team members, conversations AND meetings.
+- Alleviates the frustration of trying to find that lost email attachment, by storing and accessing files in one place
+- Makes communication more fun and personal with customizable memes and Giphys.
 
 CALL TO ACTION: If you need assistance getting started in Teams:
 
--   View this Introducing Microsoft Teams video: https://teamsdemo.office.com/
--   Visit the Office 365 Training Center, or simply ask T-Bot.
+- View this Introducing Microsoft Teams video: https://teamsdemo.office.com/
+- Visit the Office 365 Training Center, or simply ask T-Bot.
 
 Should you have questions about Teams, contact <<insert alias or contact info>>.
 
@@ -139,7 +139,6 @@ Regards,
 <a name="step-9-email"></a>
 
 ### Check-in email, for step 9
-
 
 Subject line:
 
@@ -176,8 +175,8 @@ Now that you’re up and running with Microsoft Teams, learn what else Teams can
 
 CALL TO ACTION: Give teams and channels a try
 
--   Learn about [teams and channels](https://support.office.com/article/learn-about-teams-and-channels-5e4fd702-85f5-48d7-ae14-98821a1f90d3).
--   [Create a team](https://support.office.com/article/video-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46) for a current project or initiative.
+- Learn about [teams and channels](https://support.office.com/article/learn-about-teams-and-channels-5e4fd702-85f5-48d7-ae14-98821a1f90d3).
+- [Create a team](https://support.office.com/article/video-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46) for a current project or initiative.
 
 Tip: The best use of the Teams workspace comes when the right people join the right team. Work with your manager or colleagues to optimize the use of teams and channels.
 
@@ -194,32 +193,30 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Indicate how skilled you are at performing the following activities in Teams and if there are one or more activities that you’d like to learn more about.
 
-|  &nbsp;  | Very skilled | Somewhat skilled | Not skilled at all | Want to learn more | N/A | Unsure/not familiar |   |   |   |    |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|------------------|--------------------|--------------------|-----|---------------------|---|---|---|----|
-| Use Teams for IM/chatting with others                                                                                                                     |              |                  |                    |                    |     |                     |   |   |   |    |
-| Use Teams for online meetings                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
-| Use Teams for collaboration (teams and channels)                                                                                                          |              |                  |                    |                    |     |                     |   |   |   |    |
-| Use Teams on my mobile device                                                                                                                             |              |                  |                    |                    |     |                     |   |   |   |    |
+| &nbsp; | Very skilled | Somewhat skilled | Not skilled at all | Want to learn more | N/A | Unsure/not familiar | | | | |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Use Teams for IM/chatting with others | | | | | | | | | | |
+| Use Teams for online meetings | | | | | | | | | | |
+| Use Teams for collaboration (teams and channels) | | | | | | | | | | |
+| Use Teams on my mobile device | | | | | | | | | | |
 
-
-| **What, if anything, is preventing you from using Microsoft Teams?**   | **Select all that apply** |
-|--------|-------|
-| I’ve never heard about it    | &#9744; |
-| I don’t have it installed on my computer   |  &#9744;  |
-| I don't understand how it would benefit me or the people I work with   |  &#9744;  |
-| I haven't had time to evaluate it for my needs   |  &#9744;  |
-| I already use other applications that meet my needs for communication and collaboration   |  &#9744;  |
-| I would need training before using it   |  &#9744;  |
-| I’ve tried to use it, but had technical issues or a bad experience    |  &#9744;   |
-| Our support desk couldn't help me with my questions   | &#9744;   |
-| Nothing, I currently use it    |  &#9744;  |
-| Other (please specify)     | &#9744;   |
-
+| **What, if anything, is preventing you from using Microsoft Teams?** | **Select all that apply** |
+|---|---|
+| I’ve never heard about it | &#9744; |
+| I don’t have it installed on my computer | &#9744; |
+| I don't understand how it would benefit me or the people I work with | &#9744; |
+| I haven't had time to evaluate it for my needs | &#9744; |
+| I already use other applications that meet my needs for communication and collaboration | &#9744; |
+| I would need training before using it | &#9744; |
+| I’ve tried to use it, but had technical issues or a bad experience | &#9744; |
+| Our support desk couldn't help me with my questions | &#9744; |
+| Nothing, I currently use it | &#9744; |
+| Other (please specify) | &#9744; |
 
 **How likely are you to recommend Microsoft Teams to a friend/colleague? (0=Not at all likely...10=Extremely likely)**
 
-| 0      | 1            | 2                | 3                  | 4                  | 5   | 6                   | 7 | 8 | 9 | 10 |
-| ------| -----  | ---------|-------|-----|-------|------|------|------|------|------|
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
 [Return to step 9](upgrade-basic.md#step-9)

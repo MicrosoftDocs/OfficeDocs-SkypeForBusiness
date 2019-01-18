@@ -1,9 +1,8 @@
 ---
-title: Upgrade from a Skype for Business on-premises deployment to Teams - Microsoft Teams
+title: Upgrade Skype for Business on-premises to Microsoft Teams | Deploy | Lync
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -20,14 +19,13 @@ appliesto:
 
 This article is part of Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you’ve completed the following activities:
 
--   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
--   [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
--   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
--   [Prepared your environment](https://aka.ms/SkypeToTeams-TechnicalReadiness)
--   [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
--   [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
-
+- [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
+- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Prepared your environment](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
 
 # Upgrade from a Skype for Business on-premises deployment to Teams
 
@@ -44,7 +42,7 @@ For more information, see [Deploy hybrid connectivity between Skype for Business
 
 ## Step 2: Move users to Skype for Business Online
 
-After you’ve completed your hybrid setup, move users to Skype for Business Online. 
+After you’ve completed your hybrid setup, move users to Skype for Business Online.
 
 For more information, see [Move users from on premises to Skype for Business Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
 
