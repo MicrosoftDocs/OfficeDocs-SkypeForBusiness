@@ -1,13 +1,12 @@
 ---
-title: Plan for service management and quality - Microsoft Teams
+title: Plan service management and quality; Technical Readiness
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Use this guidance to learn about the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment.  
+description: Use this guidance to learn about the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -20,25 +19,26 @@ appliesto:
 
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
--   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
--   [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
--   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
+- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
+
 # Plan for quality
 
 If you’re deploying audio, video, or meetings, you can take some additional steps to optimize your environment for that functionality. This content will provide an overview of the requirements that are necessary to deliver and maintain a high-quality Microsoft Teams deployment. You can help ensure a successful deployment by planning for service management and quality, before your first pilot or production deployment.
 
 The guidance is organized into the following sections:
 
--   First is an overview of user experience and the key components that underpin quality. This highlights the areas to focus on prior to onboarding to Microsoft Teams.
+- First is an overview of user experience and the key components that underpin quality. This highlights the areas to focus on prior to onboarding to Microsoft Teams.
 
--   Second, guidance is given for planning a support model to manage Microsoft Teams prior to the first user pilot or production deployment. This section describes the tasks that need to be performed on a regular basis to maintain a high-quality Teams deployment. In addition, this section introduces you to further guidance which you can use to start understanding and operationalizing these tasks.
+- Second, guidance is given for planning a support model to manage Microsoft Teams prior to the first user pilot or production deployment. This section describes the tasks that need to be performed on a regular basis to maintain a high-quality Teams deployment. In addition, this section introduces you to further guidance which you can use to start understanding and operationalizing these tasks.
 
--   Third, specific guidance helps with planning your network and endpoints in your organization to support Microsoft Teams.
+- Third, specific guidance helps with planning your network and endpoints in your organization to support Microsoft Teams.
 
--   Lastly, next steps are summarized with references to related content.
+- Lastly, next steps are summarized with references to related content.
 
 ## Key technical components that affect user experience
 
@@ -62,13 +62,13 @@ An organization or supporting partner should start planning for three key compon
 
 Service management can be divided into two distinct categories of responsibility:
 
--   **Microsoft responsibility**. Microsoft is responsible for the infrastructure components that the Office 365 service comprises. Microsoft is accountable to customers to ensure that any of their users connecting to Teams is provided with a reliable and high-quality experience.
+- **Microsoft responsibility**. Microsoft is responsible for the infrastructure components that the Office 365 service comprises. Microsoft is accountable to customers to ensure that any of their users connecting to Teams is provided with a reliable and high-quality experience.
 
--   **Customer responsibility**. You and your organization are responsible for managing various aspects of the Office 365 service, on-premises network, and user endpoints. For example, as new IP addresses are added to Office 365, you must update the appropriate firewalls to allow communication to the new endpoints to avoid user disruption.
+- **Customer responsibility**. You and your organization are responsible for managing various aspects of the Office 365 service, on-premises network, and user endpoints. For example, as new IP addresses are added to Office 365, you must update the appropriate firewalls to allow communication to the new endpoints to avoid user disruption.
 
 For detailed guidance for service management planning, see [Plan for service management](#plan-for-service-management).
 
-#### Network 
+#### Network
 
 In most organizations, networks were initially designed to provide access to data and applications that resided in their datacenters. Cloud-based applications like Office 365 require changes to these networks to support the new access and data flows that Teams requires. Before you can enable users for Teams in your organization, you must evaluate and optimize your current network. This is critically important when leveraging cloud voice capabilities.
 
@@ -96,7 +96,7 @@ Service management encompasses all the activities and processes involved in mana
 
 ![Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on service management.](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagram illustrating the three components of quality, and how service management overlaps all three components. With a focus on service management.")
 
-### Introduction to the Operations Guide 
+### Introduction to the Operations Guide
 
 **What**, **Who**, and **How** are three important questions that need to be answered when it comes to service management.
 
@@ -128,17 +128,17 @@ The Quality Experience Review Guide has a set of activities that assess and prov
 
 By continually assessing and remediating the areas described in this document, you can reduce their potential to negatively affect user experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
 
--   Incomplete firewall or proxy configuration
+- Incomplete firewall or proxy configuration
 
--   Poor Wi-Fi coverage
+- Poor Wi-Fi coverage
 
--   Insufficient bandwidth
+- Insufficient bandwidth
 
--   VPN
+- VPN
 
--   Use of unoptimized or built-in audio devices
+- Use of unoptimized or built-in audio devices
 
--   Problematic subnets or network devices
+- Problematic subnets or network devices
 
 The guidance provided in the Quality Experience Review Guide focuses on using Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area described, with a focus on audio to maximize adoption and impact. Any optimizations made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
 
@@ -146,7 +146,7 @@ We highly recommend that you nominate the Quality Champion early on. After being
 
 The Quality Experience Review Guide can be found [here](https://aka.ms/qerguide).
 
-## Plan for network quality 
+## Plan for network quality
 
 Planning for network quality will be the focus for the following section.
 
@@ -245,13 +245,13 @@ Like VPN, Wi-Fi networks are not necessarily designed or configured to support r
 
 There are several factors that come into play for optimizing a Wi-Fi network.
 
--   Implementing QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic is getting prioritized accordingly over the Wi-Fi networks.
+- Implementing QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic is getting prioritized accordingly over the Wi-Fi networks.
 
--   Planning and optimizing the W-Fi bands and access point placement. The 2.4 GHz range may provide an adequate experience depending on access point placement, but access points are often affected by other consumer devices that operate in that range. The 5 GHz range is better suited to real-time media due to their dense range but requires more access points to get sufficient coverage. Endpoints also need to support that range and be configured to leverage those bands accordingly.
+- Planning and optimizing the W-Fi bands and access point placement. The 2.4 GHz range may provide an adequate experience depending on access point placement, but access points are often affected by other consumer devices that operate in that range. The 5 GHz range is better suited to real-time media due to their dense range but requires more access points to get sufficient coverage. Endpoints also need to support that range and be configured to leverage those bands accordingly.
 
--   If dual band Wi-Fi networks are deployed, consider implementing band steering. Band steering is a technique implemented by Wi-Fi vendors to influence dual-band clients to use the 5Ghz range.
+- If dual band Wi-Fi networks are deployed, consider implementing band steering. Band steering is a technique implemented by Wi-Fi vendors to influence dual-band clients to use the 5Ghz range.
 
--   Channel Overlap – When access points of the same channel are too close together they can cause signal overlap and unintentionally compete, resulting in a bad experience for the user. Ensure that access point that are next to each other are on channels than do not overlap.
+- Channel Overlap – When access points of the same channel are too close together they can cause signal overlap and unintentionally compete, resulting in a bad experience for the user. Ensure that access point that are next to each other are on channels than do not overlap.
 
 Each wireless vendor has its own recommendations for deploying its wireless solution. We recommend that you consult your vendor for specific guidance.
 
@@ -335,7 +335,7 @@ An organization doesn’t have any control or access to a policy setting to mana
 This table includes a summary of planning activities with links to related content.
 
 | Area | Details | References |
-|-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---|---|---|
 | Plan for service management | Conduct an operational role mapping exercise <br/> Signoff from accountable teams <br/> Role readiness | [Operations Guide](1-drive-value-operate-my-service.md) |
 | | Nominate Quality Champion(s) <br/> Quality Champion readiness| [Learn CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Quality Experience Review Guide](https://aka.ms/qerguide) |
 | | Install Quality Experience Review templates <br/> Upload a building file | [QERLite templates](https://aka.ms/qertemplates) <br/> [Upload Building Information](turning-on-and-using-call-quality-dashboard.md)|
@@ -343,7 +343,7 @@ This table includes a summary of planning activities with links to related conte
 | | Implement QoS | [Quality of Service in Microsoft Teams](qos-in-teams.md) |
 | | Bypass proxy servers | [Proxy Guidance](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | Implement split-tunnel VPN | [VPN Split Tunnel Guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
-| | Optimize Wi-Fi networks for real-time media  | Consult third-party vendors |
+| | Optimize Wi-Fi networks for real-time media | Consult third-party vendors |
 | | Implement local internet egress | [Local Internet Egress](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
 | | Implement network connectivity <br/> Validate network connectivity | [Office 365 URLs and IP addresses](https://aka.ms/o365ips) |
 | | | [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) |

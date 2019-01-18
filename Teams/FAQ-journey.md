@@ -1,9 +1,8 @@
 ---
-title: FAQ - Upgrading from Skype for Business to Microsoft Teams
+title: Microsoft Teams FAQ; Meetings, Conferencing, Calling Capabilities
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 01/16/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -19,12 +18,11 @@ appliesto:
 # FAQ - Upgrading from Skype for Business to Microsoft Teams
 
 > [!Tip]
-> Watch the following videos for guidance on planning a successful upgrade from Skype for Business to Microsoft Teams: 
+> Watch the following videos for guidance on planning a successful upgrade from Skype for Business to Microsoft Teams:
 > - [Introduction to Upgrade](https://aka.ms/teams-upgrade-intro) (33 minutes)
 > - [Plan your upgrade](https://aka.ms/teams-upgrade-plan) (30 minutes)
 > - [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop) (53 minutes)
 > - [Administrator experience](https://aka.ms/teams-upgrade-admin) (24 minutes)
-
 
 ## Intelligent Communications vision
 
@@ -87,31 +85,31 @@ In effort to support smaller customers that may not have dedicated IT resources,
 ### How long will it take to upgrade my organization to Teams?
 
 Your organization's journey from Skype for Business to Teams can be defined by you. To assist in your planning and execution, you can choose from two core upgrade paths, Upgrade Basic and Upgrade Pro. Upgrade Basic is for smaller organizations or those with low Skype for Business adoption or core workloads such as IM, and is designed to upgrade your entire organization to Teams at once. Upgrade Pro is for organizations with expanded functionality who’d benefit from a more phased upgrade approach. [Review both paths](https://aka.ms/skypetoteams-home) to determine the optimal approach for your organization.
- 
+
 ### Why don’t I see a “Teams Only” mode in the Microsoft Teams & Skype for Business Admin Center?
 
 We’ll be enabling this mode over the coming weeks. Further, you’ll see additional coexistence modes lighting up, enabling your organization to manage the Skype for Business to Teams journey that’s right for your organization. Learn more about the [coexistence and upgrade modes](https://aka.ms/skypetoteams-coexist) that are available or will be available soon.
- 
+
 ### What does it mean to have Teams “be ready” for my organization?
 
 As an existing Skype for Business customer, you’ll know Teams is ready when it meets the Skype for Business functionality that’s currently enabled and active in your organization. Aligning your upgrade with the availability of relevant functionality will help ease your users’ transition from Skype for Business to Teams. In addition to understanding when Teams might be ready for your organization, you also want to plan for your organization’s readiness for Teams, from [validating technical readiness](https://aka.ms/skypetoteams-technicalreadiness) to [implementing a user readiness and acceptance strategy](https://aka.ms/skypetoteams-userreadiness).
- 
+
 ### What should I do to prepare for my upgrade?
 
 A successful upgrade will include validating technical readiness in addition to user acceptance readiness. Even if you determine your organization isn’t quite ready to upgrade to Teams, you can begin the planning process today. Further, you can start realizing the value of Teams by enabling Teams alongside Skype for Business. Get started on your [Skype to Teams journey](https://aka.ms/skypetoteams-home) today.
- 
+
 ### My organization is already running Teams alongside Skype for Business. Can I just disable Skype for Business?
 
 No, you'll want to switch users to **Teams Only** mode to complete the upgrade to Teams. If your organization is ready to upgrade to Teams, take time to communicate to users to let them know what’s happening and allow them to acclimate to Teams. This will help ensure they have a positive upgrade experience and help alleviate calls to your helpdesk. For sample communication templates, download our [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit).
- 
+
 ### Who can I contact if I have questions about the upgrade process?
 
 For questions related to your upgrade, reach out to your current points of contact, which might include your assigned Microsoft account team, partner, or FastTrack. Alternatively, you can open a help ticket from within your [Microsoft Teams & Skype for Business Admin Center](https://admin.teams.microsoft.com/).
- 
+
 ### Do I upgrade all users on my tenant together, or can I opt to upgrade select users at a time?
 
 You have the flexibility to upgrade users as Teams meets your needs, whether it’s individuals, groups of users, or your entire organization. To help understand the optimal approach for your organization, review the various [coexistence and upgrade modes](https://aka.ms/skypetoteams-coexist) that you can enable.
- 
+
 ### What happens after my users are upgraded?
 
 After your users are upgraded to Teams (**Teams only** mode):
@@ -132,7 +130,7 @@ Yes. The upgrade notification will simply alert users that Skype for Business wi
 
 ### How can customers learn when Skype for Business capabilities will be available in Teams?
 
-See the [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap). 
+See the [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap).
 
 ### Which APIs and SDKs will be made available for Teams?
 
@@ -150,7 +148,6 @@ Teams is available in all Office 365 for Education suite licensing: Education, E
 
 Additional information on Teams availability for the US Government Cloud Community (GCC) can be found [here](plan-for-government-gcc.md).
 
-
 ## Calling capabilities
 
 ### What is the plan for Microsoft’s online voice capabilities?
@@ -164,7 +161,6 @@ Customers should evaluate the [Teams roadmap](https://aka.ms/O365Roadmap) to det
 ### When will hybrid customers be able to move to Teams?
 
 We’ve simplified how customers connect trunks or third-party telephony systems to Office 365, based on customer feedback. For calling, customers interested in bringing their own telephone service to Teams can now do so with the general availability of [Direct Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359). Direct Routing and Calling Plans are the two choices for dial tone in Microsoft Teams.
-
 
 ## Messaging capabilities
 

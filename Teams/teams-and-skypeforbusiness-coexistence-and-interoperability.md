@@ -1,13 +1,12 @@
 ---
-title: Understand coexistence and interoperability of Skype for Business and Microsoft Teams
+title: Microsoft Teams; Upgrade, Island Mode, Interop Policy, Teams Only 
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Details of Skype for Business and Microsoft Teams coexistence options and interoperability between Skype for Business and Teams.  
+description: Details of Skype for Business and Microsoft Teams coexistence options and interoperability between Skype for Business and Teams. 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -20,8 +19,8 @@ appliesto:
 
 This article is part of the Project Definition stage of your upgrade journey, an activity you complete after you create a sponsorship coalition and project team and define the scope, goals, and vision for your project. Before proceeding, confirm that you’ve completed the following activities:
 
--   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+- [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
+- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
 
 # Understand Microsoft Teams and Skype for Business coexistence and interoperability
 
@@ -37,7 +36,7 @@ In addition to collaboration capabilities, Teams delivers chat, calling, and mee
 We recommend that you review the coexistence modes discussed below to help determine which path is right for your organization.
 
 > [!Important]
-> Introducing new technology or making changes to your existing, familiar Skype for Business environment, while delivering great new business benefits, can be disruptive for users. Take time to assess user readiness and implement a communication and training plan before you implement any of the changes outlined in this article. In addition, we strongly encourage you to pilot your plan with a selected group of users before implementing it across your organization. 
+> Introducing new technology or making changes to your existing, familiar Skype for Business environment, while delivering great new business benefits, can be disruptive for users. Take time to assess user readiness and implement a communication and training plan before you implement any of the changes outlined in this article. In addition, we strongly encourage you to pilot your plan with a selected group of users before implementing it across your organization.
 
 ### Islands mode
 
@@ -46,7 +45,7 @@ By default, users can run Teams alongside Skype for Business as two separate sol
 In this coexistence mode, called **Islands**, each of the client applications operates as a separate island. Skype for Business talks to Skype for Business, and Teams talks to Teams. Users run both clients and can communicate natively in the client from which the communication was initiated. As such, there’s no need for interoperability in **Islands** mode.
 
 > [!Tip]
-> Skype for Business Online customers recommended path is to start with the default **Islands** mode, drive adoption saturation in the organization and then move to **Teams Only** mode rapidly. On premises and hybrid customers may benefit from deploying the upcoming **Skype for Business with Teams collaboration** mode as a starting point rather than Islands, and progress from there to **Teams Only** mode when the organization is ready to adopt Teams. 
+> Skype for Business Online customers recommended path is to start with the default **Islands** mode, drive adoption saturation in the organization and then move to **Teams Only** mode rapidly. On premises and hybrid customers may benefit from deploying the upcoming **Skype for Business with Teams collaboration** mode as a starting point rather than Islands, and progress from there to **Teams Only** mode when the organization is ready to adopt Teams.
 
 ### Skype for Business only
 
@@ -77,32 +76,32 @@ Along with using Teams for teams and channels–based conversations in this mode
 
 For more details about coexistence modes, prerequisites, and management, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://aka.ms/SkypeToTeams-Interop) and [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence).
 
-
-|         |         |         |
-|---------|---------|---------|
+| | | |
+|---|---|---|
 |<img src="media/audio_conferencing_image7.png" />|Decision point|<ul><li>Which coexistence mode(s) best fit your organization’s and users’ needs?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Next step|<ul><li>Choose the best approach for your upgrade journey.</li></ul>|
-
 
 ## Interoperability of Teams and Skype for Business
 
 Interoperability is the ability for Teams and Skype for Business users in the same organization to communicate across Teams and Skype for Business.
 
-
 ### Native interop and interop escalation
 
 There are two types of interop experiences: native and interop escalation.
 
--   A _native interop_ experience occurs in the client that the user is currently using. One user will be in the Skype for Business client, the other in Teams. A native interop experience won’t take them to another client to communicate, the users will be able to conduct their conversation in the client they’re currently using. The native interop experiences are one-to-one chat and calling.
--   An _interop escalation_ experience means that as part of helping users perform an advanced action (such as sharing their desktop), the service can facilitate the creation of a meeting and continue the experience in that meeting. The meeting is created on the platform of the initiator of the action. The user or users who aren’t on that platform receive meeting join coordinates and join the meeting (after switching clients).
+- A _native interop_ experience occurs in the client that the user is currently using. One user will be in the Skype for Business client, the other in Teams. A native interop experience won’t take them to another client to communicate, the users will be able to conduct their conversation in the client they’re currently using. The native interop experiences are one-to-one chat and calling.
+- An _interop escalation_ experience means that as part of helping users perform an advanced action (such as sharing their desktop), the service can facilitate the creation of a meeting and continue the experience in that meeting. The meeting is created on the platform of the initiator of the action. The user or users who aren’t on that platform receive meeting join coordinates and join the meeting (after switching clients).
 
 ### Native interop experiences
 
 Depending on the coexistence modes assigned to users (as described above), the following native interop experiences are available:
 
--   Skype for Business users can chat one-on-one with Teams users, and vice versa. An interop chat needs to go through an interop gateway that’s part of Teams cloud services (and therefore only exists online). Interop chats are plain text: rich text and emoticons aren’t supported. Users in Teams are notified that the conversation is an interop conversation; a similar notification for Skype for Business users will be provided soon.
+- Skype for Business users can chat one-on-one with Teams users, and vice versa. An interop chat needs to go through an interop gateway that’s part of Teams cloud services (and therefore only exists online). Interop chats are plain text: rich text and emoticons aren’t supported. Users in Teams are notified that the conversation is an interop conversation; a similar notification for Skype for Business users will be provided soon.
+
 ![Interop chat experience from Teams](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")
--   Skype for Business users can make one-on-one voice and video calls to Teams users, and vice versa.
+
+- Skype for Business users can make one-on-one voice and video calls to Teams users, and vice versa.
+
 ![Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")
 
 > [!Important]
@@ -110,18 +109,17 @@ Depending on the coexistence modes assigned to users (as described above), the f
 
 These interop experiences are available to and between users who have the one of the following coexistence modes assigned: **Skype for Business with Teams Collaboration**, **Skype for Business with Teams Collaboration and meetings**, **Skype for Business Only**, or **Teams Only**. There is no interoperability to users in Islands mode.
 
-
 ### Native interop experience limitations
 
 Some features aren’t available for the interop chat and interop calling experience between Teams and Skype for Business:
 
--   Markdown, rich text, and the full emoticon set aren’t supported either from Teams or Skype for Business. Other native features of the compose box in Teams chats aren’t supported.
--   Screen sharing (desktop or app sharing) between Teams and Skype for Business isn’t supported.
--   Group chats (multiple-party conversations) in Teams can only include participants who are using Teams.
--   Multiple-party IM conversations (group chats) in Skype for Business can only include participants who are using Skype for Business.
--   Escalating an ongoing peer-to-peer voice or video call to a multiple-party call involving both Teams and Skype for Business users isn’t supported.
--   File transfer for two-party chats, or file attachment in group chats, from Teams to Skype for Business—and vice versa—aren’t supported.
--   There is no interoperability with Skype for Business Persistent Chat.
+- Markdown, rich text, and the full emoticon set aren’t supported either from Teams or Skype for Business. Other native features of the compose box in Teams chats aren’t supported.
+- Screen sharing (desktop or app sharing) between Teams and Skype for Business isn’t supported.
+- Group chats (multiple-party conversations) in Teams can only include participants who are using Teams.
+- Multiple-party IM conversations (group chats) in Skype for Business can only include participants who are using Skype for Business.
+- Escalating an ongoing peer-to-peer voice or video call to a multiple-party call involving both Teams and Skype for Business users isn’t supported.
+- File transfer for two-party chats, or file attachment in group chats, from Teams to Skype for Business—and vice versa—aren’t supported.
+- There is no interoperability with Skype for Business Persistent Chat.
 
 For all these limitations (except for Persistent Chat), one possible workaround is for one user to start a meeting and invite the other user to join it. This workaround is the basis for interop escalation.
 

@@ -1,13 +1,12 @@
 ---
-title: Quality of Experience Review Guide - Microsoft Teams
+title: Quality of User Experience in Microsoft Teams; QoS, Call Quality 
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Tasks and activities required for monitoring quality and usage of Microsoft Teams  
+description: Tasks and activities required for monitoring quality and usage of Microsoft Teams 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -28,17 +27,17 @@ The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes a set
 
 By continually assessing and remediating the areas described in the guide, you can reduce their potential to negatively affect user experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
 
--   Incomplete firewall or proxy configuration
+- Incomplete firewall or proxy configuration
 
--   Poor Wi-Fi coverage
+- Poor Wi-Fi coverage
 
--   Insufficient bandwidth
+- Insufficient bandwidth
 
--   VPN
+- VPN
 
--   Use of unoptimized or built-in audio devices
+- Use of unoptimized or built-in audio devices
 
--   Problematic subnets or network devices
+- Problematic subnets or network devices
 
 The guidance provided in the Quality of Experience Review Guide focuses on using Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area described, with a focus on audio to maximize adoption and impact. Any optimizations made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
 
