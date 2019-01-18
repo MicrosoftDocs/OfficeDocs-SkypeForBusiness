@@ -35,11 +35,11 @@ Before you can deploy Audio Conferencing for Teams, consider the following.
 
 ## Core deployment decisions
 
-After you meet the Audio Conferencing prerequisites, you can complete the following tasks to configure Audio Conferencing for your users.
+After you meet the [Audio Conferencing prerequisites](#audio-conferencing-prerequisites), complete the following tasks to configure Audio Conferencing for your users.
 
 ### Teams administrators
 
-Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. The roles provide various capabilities to administrators. To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles).
+Teams provides a set of custom administrator roles that can be used to manage Teams for your organization. Admin roles provide specific capabilities to administrators. To learn about Teams administrator roles relevant to Audio Conferencing, see [Use Microsoft Teams admin roles to manage Teams](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles).
 
 |Ask yourself|Action |
 |------------|-------|
