@@ -77,25 +77,6 @@ To minimize the real-time communications traffic in the large-meeting pool, Micr
     
 - Home the user accounts of the staff responsible for scheduling large meetings on a large-meeting pool
     
-### Create dedicated moderators
-
-With several hundred to a thousand users in a meeting, it is a good practice to have a dedicated person moderate the online session of a large meeting. This dedicated person can be a delegate of the meeting organizer or a member of the organization's large-meeting support staff. It is important to add the dedicated meeting moderator as a presenter at the time that the meeting is scheduled, although it is possible to promote an online meeting attendee to the presenter role while the meeting is in progress.
-  
-The meeting moderator can use all presenter functionalities of Skype for Business clients to manage the large meeting. These functionalities include:
-  
-- Monitoring the lobby and admitting or rejecting users in the lobby
-    
-- Removing any users from the meeting who should not be in the meeting
-    
-- Changing meeting access types
-    
-- Changing participant roles
-    
-- Inviting additional participants during the meeting using drag and drop functionality, phone dial out, or email
-    
-- Muting and unmuting the audience or individual users
-    
-- Managing meeting content, including uploading content, deleting content, and switching active content
     
 ### Maintain a separate calendar
 
