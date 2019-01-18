@@ -40,11 +40,6 @@ Existing Crestron RL2 (also referred to as Crestron RL200) customers can acquire
 ### SMART Room Systems upgrade 
 For SMART LRS customers, apart from Crestron hardware trade-in program, Microsoft and SMART are also working on providing a solution to upgrade to Skype Room System v2. This upgrade will be provided by SMART Technologies Inc. Please see more about this [here](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
 
-<!--  
-For later 
-### Do-It-Yourself
-A Do-It-Yourself option is also available for customers with upgrade to Windows 10 and Skype Room Systems v2 software. Windows 10 Enterprise Licenses are available through [approved resellers](https://www.microsoft.com/en-us/Licensing/how-to-buy/how-to-buy.aspx) and Skype Room System V2 software will be available through this guide. 
- 
   
 To use this option however, customers must additionaly buy a [Logitech Screen Share](https://www.logitech.com/en-us/product/screen-share) adapter. Microsoft will provide instructions on how to use this adapter with Skype Room System v2 software. 
 
@@ -53,14 +48,6 @@ Look for upgrade instructions on this page shortly.
   
 ### Summary of upgrade options
 This table lists summary of all available options for existing LRS devices:
-<!--  For later 
-| Upgrade Option | SMART Room Systems | Crestron RL2 | Polycom CX8000 | Crestron RL |
-|:--- |:--- |:--- |:--- |:--- |
-|**Crestron hardware </br>Trade-in program**|Available|Available|Available|Available|
-|**Crestron RL3**|Not Available|Available|Not Available|Not Available|
-|**Do-It-Yourself**|Available|Not Available|Not Available|Not Available|
-| | | | | |
--->
 
 ## What should you do?
 We recommend you plan to update Lync Room System devices to Skype Room Systems v2 before TLS 1.0/1.1 deprecation using upgrade options mentioned above. Additionally, you may also consider replacing existing devices with new devices certified for SRS v2. See [Room devices](https://aka.ms/roomdevices) for details and also take a look at [Skype Room Systems v2 requirements](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
@@ -69,4 +56,4 @@ We recommend you plan to update Lync Room System devices to Skype Room Systems v
 > Touch and whiteboard functionality is not yet supported in Skype Room System v2. Touch and whiteboard support is in the backlog for Skype Room System v2 and will be added in H1 CY2019.
 
 > [!NOTE]
-> Skype Room System V2 software currently does not support TLS 1.2 protocol. TLS 1.2 support is being worked on and will be completed before TLS 1.0/1.1 deprecation. Customers upgradging to SRS v2 will not see any impact of TLS 1.0/1.1 deprecation on Room devices running latest version of SRS v2 app. Skype for Business on premise customers should not disable TLS 1.0/1.1 until Skype Room System V2 annouces support for TLS 1.2. 
+> Skype Room System V2 software supports TLS 1.2 protocol since December 14, 2018 with app version 4.0.64.0. For on premise customers, enabling communciation over TLS 1.2 for Skype Room System V2 requires Skype for Business Server 2015 Cummulative Update 9 (CU9) or Skype for Buisness Server 2019 Cummulative Update 1 (CU1). The change should be agnostic to Skype for Business Online customers as client changes are forward and backward compliant. 
