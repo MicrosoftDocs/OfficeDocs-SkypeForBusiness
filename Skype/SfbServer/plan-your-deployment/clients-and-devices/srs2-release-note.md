@@ -50,6 +50,7 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 Introduced in this update:
 - Display content on both Front of Room (FoR) displays on dual screen room systems
 - Theming and Front of Room user interface improvements
+- TLS 1.2 client side support. For on premise customers, enabling communciation over TLS 1.2 for Skype Room System V2 requires Skype for Business Server 2015 Cummulative Update 9 (CU9) or Skype for Buisness Server 2019 Cummulative Update 1 (CU1).
 
 ### 4.0.51.0 (11/17/2018)
 Introduced in this update:
