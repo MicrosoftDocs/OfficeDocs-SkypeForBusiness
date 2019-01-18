@@ -1,5 +1,5 @@
 ---
-title: Calling Plan in Microsoft Teams
+title: Calling Plans in Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,10 +14,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Phone System with Calling Plan 
+# Phone System with Calling Plans 
 
 You've completed the [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice workloads, and you've decided to use Microsoft Phone System with Calling Plan to connect to the Public Switched Telephone Network (PSTN). 
-
 
 This article describes core deployment decisions for Calling Plans as well as additional considerations you may want to configure, based on your organization's needs.
 
@@ -42,7 +41,10 @@ There are two types of Calling Plans available:
 
 |Ask yourself|Action |
 |------------|-------|
-|<ul><li>Are Calling Plans available in my area?</li><li>Which user locations will have the Calling Plans service? </li><li>Do my users need international calling?</li><li>Do my users have Calling Plans licenses?</li><li>Do my users each have a direct inward dial (DID) phone number?</li></ul>|<ul><li> To find out if Calling Plans are available in your area, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</li><li>To buy and assign licenses, see [Step 2: Buy and assign licenses](set-up-calling-plans.md#step-2-buy-and-assign-licenses).</li><li>To get phone numbers, see [Step 3: Get phone numbers](set-up-calling-plans.md#step-3-get-phone-numbers). </li></ul>|
+|Are Calling Plans available in my area? Which user locations will have Calling Plan service? | For more information, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). | 
+Do my users need international calling? | For more information, see [Calling Plans for Office 365](calling-plans-for-office-365.md). |
+Do my users have Calling Plans licenses? | To buy and assign licenses, see [Step 2: Buy and assign licenses](set-up-calling-plans.md#step-2-buy-and-assign-licenses). |
+Do my users each have a direct inward dial (DID) phone number? | To get phone numbers, see [Step 3: Get phone numbers](set-up-calling-plans.md#step-3-get-phone-numbers). |
 |||
 
 
@@ -51,8 +53,8 @@ There are two types of Calling Plans available:
 With Calling Plans in Office 365, every user in your organization needs to have a unique direct inward dial (DID) phone number and a corresponding validated emergency address. You can also specify an emergency location within the emergency address (for example, an office number or floor number). 
 
 |Ask yourself|Action |
-|------------|-------|
-|How detailed do I want the emergency address and location information to be? |For more information, see [What are emergency locations, addresses, and call routing?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
+|:------------|:-------|
+|How detailed do I want the emergency address and location information to be? |For more information, see [What are emergency locations, addresses, and call routing?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
 
 
 ### Calling identity
@@ -60,7 +62,7 @@ With Calling Plans in Office 365, every user in your organization needs to have 
 By default, all outbound calls use the assigned phone number as calling identity (caller ID). The recipient of the call can quickly identify the caller and decide whether to accept or reject the call.
 
 |Ask yourself|Action |
-|------------|-------|
+|:------------|:-------|
 |Do I want to mask or disable caller ID? | To change or block the caller ID, see [Set the caller ID for a user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
 |||
 
