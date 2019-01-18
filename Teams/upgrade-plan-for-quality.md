@@ -1,5 +1,5 @@
 ---
-title: Plan service management and quality; Technical Readiness
+title: Plan service management and quality | Technical Readiness
 author: turgayo
 ms.author: turgayo
 manager: serdars

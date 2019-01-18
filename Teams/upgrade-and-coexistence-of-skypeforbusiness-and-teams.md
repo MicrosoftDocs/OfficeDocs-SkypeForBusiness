@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams upgrade from Skype for Business; Modes, Coexistence 
+title: Microsoft Teams upgrade from Skype for Business | Modes, Coexistence 
 author: lsomi
 ms.author: lsomi
 manager: serdars

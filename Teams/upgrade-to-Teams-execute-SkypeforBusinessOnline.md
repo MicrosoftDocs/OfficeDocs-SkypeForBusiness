@@ -1,5 +1,5 @@
 ---
-title: Upgrade from Skype for Business Online to Microsoft Teams; Deploy
+title: Upgrade Skype for Business Online to Microsoft Teams | Deploy
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars

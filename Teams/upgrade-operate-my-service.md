@@ -1,5 +1,5 @@
 ---
-title: Operations for Microsoft Teams; Service Management, Quality
+title: Operations for Microsoft Teams| Service Management | Quality
 author: turgayo
 ms.author: turgayo
 manager: serdars

@@ -1,5 +1,5 @@
 ---
-title: Upgrade Pro for Microsoft Teams; Roadmap
+title: Upgrade Pro for Microsoft Teams | Roadmap
 author: dearbeen
 ms.author: dearbeen
 manager: serdars

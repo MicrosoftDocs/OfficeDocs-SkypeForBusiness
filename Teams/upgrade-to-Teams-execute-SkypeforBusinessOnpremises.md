@@ -1,5 +1,5 @@
 ---
-title: Upgrade from Skype for Business on-premises to Microsoft Teams; Deploy
+title: Upgrade Skype for Business on-premises to Microsoft Teams | Deploy | Lync
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars

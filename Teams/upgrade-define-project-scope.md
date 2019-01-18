@@ -1,5 +1,5 @@
 ---
-title: Project Scope Skype for Business to Microsoft Teams Adoption; Upgrade 
+title: Project Scope Skype for Business to Microsoft Teams Adoption | Upgrade 
 author: dearbeen
 ms.author: dearbeen
 manager: serdars

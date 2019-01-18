@@ -1,5 +1,5 @@
 ---
-title: Prepare for Microsoft Teams upgrade; Onboarding/Rollout Checklist
+title: Prepare for Microsoft Teams upgrade|  Onboarding Rollout Checklist
 author: turgayo
 ms.author: turgayo
 manager: serdars

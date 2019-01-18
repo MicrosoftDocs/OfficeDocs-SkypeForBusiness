@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Enhance Service requirements
+title: Microsoft Teams requirements | Enhance Service
 author: dearbeen
 ms.author: dearbeen
 manager: serdars

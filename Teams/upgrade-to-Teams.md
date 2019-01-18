@@ -1,5 +1,5 @@
 ---
-title: Upgrade to Microsoft Teams; Skype to Teams Roadmap
+title: Upgrade to Microsoft Teams | Skype for Business Teams Roadmap
 author: dearbeen
 ms.author: dearbeen
 manager: serdars

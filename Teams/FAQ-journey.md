@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams FAQ; Meetings, Conferencing, Calling Capabilities
+title: Microsoft Teams FAQ | Meetings, Conferencing, Calling Capabilities
 author: dearbeen
 ms.author: dearbeen
 manager: serdars

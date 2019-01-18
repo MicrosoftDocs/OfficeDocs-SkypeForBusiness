@@ -1,5 +1,5 @@
 ---
-title: Quality of User Experience in Microsoft Teams; QoS, Call Quality 
+title: Quality of User Experience | Microsoft Teams | QoS | Call Quality 
 author: turgayo
 ms.author: turgayo
 manager: serdars

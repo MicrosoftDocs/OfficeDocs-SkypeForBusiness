@@ -1,5 +1,6 @@
 ---
-title: Microsoft Teams Prerequisites and Dependencies for Adoption or Upgrade author: turgayo
+title: Microsoft Teams Prerequisites | Dependencies Adoption Upgrade 
+author: turgayo
 ms.author: turgayo
 manager: serdars
 ms.topic: article

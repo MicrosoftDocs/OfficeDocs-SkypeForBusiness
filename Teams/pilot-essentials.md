@@ -1,5 +1,5 @@
 ---
-title: Pilot Microsoft Teams with Skype for Business; Deploy, Adopt, Implement 
+title: Pilot Microsoft Teams with Skype for Business | Deploy, Adopt Implement 
 author: dearbeen
 ms.author: dearbeen
 manager: serdars

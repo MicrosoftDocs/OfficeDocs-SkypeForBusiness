@@ -1,5 +1,5 @@
 ---
-title: Enlist stakeholders for Skype for Business to Teams upgrade planning
+title: Enlist stakeholders | Skype for Business to Teams upgrade planning
 author: dearbeen
 ms.author: dearbeen
 manager: serdars

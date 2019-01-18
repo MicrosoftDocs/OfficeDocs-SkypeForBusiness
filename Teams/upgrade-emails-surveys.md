@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Transition emails and surveys; Basic Upgrade 
+title: Microsoft Teams Transition emails and surveys | Basic Upgrade 
 author: dearbeen
 ms.author: dearbeen
 manager: serdars

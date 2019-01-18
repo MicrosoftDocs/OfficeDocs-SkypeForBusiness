@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams; Upgrade, Island Mode, Interop Policy, Teams Only 
+title: Microsoft Teams | Upgrade, Islands Mode, Interop Policy,  Only 
 author: lsomi
 ms.author: lsomi
 manager: serdars

@@ -1,5 +1,5 @@
 ---
-title: IT support/Admin issues; training for Microsoft Teams 
+title: Training for Microsoft Teams | IT support Admin issues 
 author: dearbeen
 ms.author: dearbeen
 manager: serdars

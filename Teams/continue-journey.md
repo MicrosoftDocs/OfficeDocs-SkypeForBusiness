@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams User Adoption Plan Best Practices
+title: Microsoft Teams User Adoption Plan | Best Practices
 author: dearbeen
 ms.author: dearbeen
 manager: serdars

@@ -1,5 +1,5 @@
 ---
-title: Plan a Skype for Business to Microsoft Teams upgrade; Adoption Framework
+title: Plan Skype for Business to Microsoft Teams upgrade | Adoption Framework
 author: dearbeen
 ms.author: dearbeen
 manager: serdars

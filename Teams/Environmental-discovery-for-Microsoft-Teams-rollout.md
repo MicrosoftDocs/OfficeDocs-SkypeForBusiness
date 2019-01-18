@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams; Evaluate Environment, Adoption, Discovery
+title: Microsoft Teams |  Evaluate Environment | Adoption, Discovery
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
