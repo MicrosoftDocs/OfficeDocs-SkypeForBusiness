@@ -113,10 +113,7 @@
 
 # [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
-## [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
-## [Disabling toll-free numbers for specific users](disabling-toll-free-numbers-for-specific-teams-users.md)
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
-## [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 ## [Configure desktop sharing in Teams](configure-desktop-sharing.md)
@@ -133,7 +130,8 @@
 ### [Audio Conferencing pay-per-minute](audio-conferencing-pay-per-minute.md)
 ### [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
 ### [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
-### [Emails that are automatically sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md)
+### [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
+### [Disabling toll-free numbers for specific users](disabling-toll-free-numbers-for-specific-teams-users.md)### [Emails that are automatically sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md)
 ### [Enable or disable sending emails when Audio Conferencing settings change](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 ### [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ### [Manage the Audio Conferencing settings for a user](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
@@ -259,7 +257,6 @@
 ##### [Vietnam](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
 #### [Videos - Audio Conferencing in Teams](audio-conferencing-videos.md)
 
-<!-- ============================================================ -->
 <!-- ============================================================ -->
 
 

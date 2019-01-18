@@ -168,7 +168,7 @@ When planning a larger rollout of personal devices to support meetings or voice 
 |Will I use a site-by-site approach to deploy meetings? |  The [Site enablement playbook for Teams](3-onboard-deploy-my-service.md#site-enablement-playbook-for-microsoft-teams-voice-workloads) provides a good foundation that you can use for your own deployments. The guide is focused on voice, but the general principles of device delivery, account readiness, adoption, and training apply to a large meeting deployment. |
 |||
 
-### Meeting quality and troubleshooting
+### Troubleshoot meeting and call quality 
 
 Teams gives you two ways to monitor and troubleshoot call quality problems: [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md). Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user. Call Analytics is designed to help admins and helpdesk agents troubleshoot call quality problems with specific calls, whereas the Call Quality Dashboard is designed to help admins and network engineers optimize a network. Call Quality Dashboard shifts focus from specific users and instead looks at aggregate information for an entire Teams organization. 
 
@@ -177,7 +177,7 @@ Teams gives you two ways to monitor and troubleshoot call quality problems: [Cal
 | Who will be responsible for monitoring and troubleshooting call quality issues? | See [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md) for information about permission levels required to troubleshoot call quality issues.|
 |||
 
-### Operating your meetings service
+### Operate your meetings service
 
 It’s important that you understand the overall health of the Teams service so that you can proactively alert others in your organization of any event that affects the service. The [Operate my service](1-drive-value-operate-my-service.md) articles provide in-depth guidance for service operations.
 

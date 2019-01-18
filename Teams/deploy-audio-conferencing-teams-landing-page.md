@@ -50,11 +50,11 @@ Teams provides a set of custom administrator roles that can be used to manage Te
 
 Conferencing bridges let people dial into meetings using a phone. You can use the default settings for a conferencing bridge or change the phone numbers (toll and toll-free) and other settings, such as the PIN or the languages that are used.
 
-See [Audio Conferencing in Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365?WT.mc_id=TeamsAdminCenterCSH) for more information.
+See [Audio Conferencing in Office 365](audio-conferencing-in-office-365) for learn more.
 
 |Ask yourself|Action |
 |------------|-------|
-|<ul><li> Do I need to add new bridge numbers? </li><li>Will I need to modify the bridge settings?</li></ul>|<ul><li> To add new numbers, see [Getting service phone numbers](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).</li><li>To modify the bridge settings, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
+|<ul><li> Do I need to add new conferencing bridge numbers? </li><li>Will I need to modify the bridge settings?</li></ul>|<ul><li> To add new numbers, see [Getting service phone numbers](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).</li><li>To modify the bridge settings, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)</li><li>To learn about porting phone numbers, read [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
 |||
 
 
@@ -69,11 +69,11 @@ Teams Audio Conferencing lets you set up default and alternate languages for a c
 
 ### Conferencing bridge settings 
 
-After setting up your conference bridge and default and alternate languages, you should verify that the default settings such as entry/exit notifications and PIN length are the ones you want to use. If they're not, you can change them. 
+After setting up your conferencing bridge, including default and alternate languages, you should verify that the default settings such as entry/exit notifications and PIN length are the ones you want to use. If they're not, you can change them. 
 
 |Ask yourself|Action |
 |------------|-------|
-| <ul><li>Will attendees hear a notification when a user joins or exits a meeting?</li><li> What is the required length of the PIN that a meeting organizser uses to start the meeting? | To change these settings, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).|
+| <ul><li>Will attendees hear a notification when a user joins or exits a meeting?</li><li> What is the required length of the PIN that a meeting organizer uses to start the meeting? | To change these settings, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).|
 |||
 
 ### Dial-in phone number settings for users who lead meetings
@@ -87,15 +87,12 @@ After you create your Audio Conferencing bridge, you need to set the toll and/or
 
 ### Communications Credits
 
-To provide toll-free conference bridge phone numbers and to support conferencing dial-out to international phone numbers, you must set up Communications Credits for your organization. To learn more about Communications Credits, see [What are Communications Credits?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+To provide toll-free conference bridge phone numbers and to support conferencing dial-out to international phone numbers, you must set up Communications Credits for your organization. To learn more about Communications Credits, see [What are Communications Credits?](what-are-communications-credits.md).
 
 |Ask yourself|Action |
 |------------|-------|
 |<ul><li>Are Communications Credits required for my Audio Conferencing implementation?</li><li>If they are required, how much should I purchase?</li><li>Do I want to configure an auto-recharge amount?</li></ul> |<ul><li> To find out if you need to set up Communications Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).</li><li>To determine the Communications Credits amount, see [Recommended funding amounts](what-are-communications-credits.md#recommended-funding-amounts).</li><li>To configure an auto-recharge amount, see [Set up Communications Credits for your organization](what-are-communications-credits.md#recommended-funding-amounts).</li></ul> |
 |||
-
-
-
 
 
 
@@ -112,36 +109,24 @@ As an administrator, you can use outbound call controls to restrict the type of 
 | Will I limit the type of outbound calls that are allowed? | To restrict outbound calls, see [Outbound calling restriction policies for Audio Conferencing and user PSTN calls](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
 |||
 
-### Call and meeting quality 
 
-Microsoft Teams gives you two ways to monitor and troubleshoot call quality problems: Call Analytics and Call Quality Dashboard. Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user. Where Call Analytics is designed to help admins and helpdesk agents troubleshoot call quality problems with specific calls, the Call Quality Dashboard is designed to help admins and network engineers optimize a network. Call Quality Dashboard shifts focus from specific users and instead looks at aggregate information for an entire Teams organization.
+### Dial plans
 
-See [Call Analytics and Call Quality Dashboard](https://docs.microsoft.com/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard)
-for more information.
+A dial plan, as part of Phone System in Office 365, is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing.
+
+For more information about dial plans, see [What are dial plans?](what-are-dial-plans.md)
+
+|Ask yourself|Action |
+|------------|-------|
+|<ul><li>Does my organization need a customized dial plan?</li><li>Which users require a customized dial plan, and which tenant dial plan should be assigned to each user?</li></ul>|<ul><li>To help determine if you need a custom dial plan, see [Planning for tenant dial plans](what-are-dial-plans.md#planning-for-tenant-dial-plans)</li><li>To add users to a customized dial plan in PowerShell, see [Create and manage dial plans](create-and-manage-dial-plans.md).</ul></li> |
+|||
+
+### Troubleshoot meeting and call quality 
+
+Teams gives you two ways to monitor and troubleshoot call quality problems: [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md). Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user. Call Analytics is designed to help admins and helpdesk agents troubleshoot call quality problems with specific calls, whereas the Call Quality Dashboard is designed to help admins and network engineers optimize a network. Call Quality Dashboard shifts focus from specific users and instead looks at aggregate information for an entire Teams organization. 
 
 |Ask yourself|Action |
 |------------|-------|
 | Who will be responsible for monitoring and troubleshooting call quality issues? | See [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md) for information about permission levels required to troubleshoot call quality issues.|
 |||
 
-### Operating your meetings service 
-
-It’s important that you understand the overall health of the Microsoft Teams service so that you can proactively alert others in your organization of any event that affects the service.
-
-The [Operate my service](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) articles provide in-depth guidance for service operations.
-
-|Ask yourself|Action |
-|------------|-------|
-| Who in my organization will be responsible for managing the meetings service? | <need a link here> |
-|||
-
-### Dial plans
-
-A dial plan in the Phone System feature of Office 365 is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing.
-
-For more information about dial plans, see What are dial plans?
-
-|Ask yourself|Action |
-|------------|-------|
-|<ul><li>Does my organization need a customized dial plan?</li><li>Which users require a customized dial plan, and which tenant dial plan should be assigned to each user?</li></ul>|<ul><li>To help determine if you need a custom dial plan, see [Planning for tenant dial plans](what-are-dial-plans.md#planning-for-tenant-dial-plans)</li><li>To add users to a customized dial plan in PowerShell, see [Create and manage dial plans](create-and-manage-dial-plans.md).</ul></li> |
-|||
