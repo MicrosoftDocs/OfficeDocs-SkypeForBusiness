@@ -25,9 +25,9 @@ This article describes core deployment decisions for Direct Routing as well as a
 
 The following articles provide more information about deploying and using Phone System Direct Routing:
 
-- [Plan Direct Routing](direct-routing-plan.md)
-- [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
+- [Plan Direct Routing](direct-routing-plan.md) 
 - [Configure Direct Routing](direct-routing-configure.md)
+- [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 - [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 
 
