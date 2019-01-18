@@ -217,6 +217,24 @@ To save time by automating this process, you can use the [Set-CsOnlineDialInConf
     > [!NOTE]
     > The location that is used above needs to match the contact information of user(s) that is set in the Office 365 admin center.
 
+## Troubleshooting
+
+**Unassign button is greyed-out**
+
+You want to Unassign a number but the button is greyed-out and if while hoovering over it, you are redirected to contact Support with the following message _"Default or shared numbers can´t be unassigned from the bridge. To unassign dedicated toll numbers, please contact support._".
+
+To obtain more information about the bridge(s), run the following Powershell :
+```
+Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
+```
+
+The result, aside other information like Identity, Name and Region, should also contain the DefaultServiceNumber.
+
+**Example**, to unassign, the DefaultServiceNumber "8005551234"
+```
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
+```
+
 ## About Windows PowerShell
 
 With Windows PowerShell you can manage users and what they are or are not allowed to do. Windows PowerShell  can help you manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, especially when you've got multiple tasks to do. To get started with Windows PowerShell, see these topics:

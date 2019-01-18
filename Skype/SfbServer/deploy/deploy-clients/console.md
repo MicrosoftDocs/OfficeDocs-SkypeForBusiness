@@ -48,6 +48,16 @@ Installing the Skype Room Systems v2 console app requires a USB storage device w
 2. Run the CreateSrsMedia.ps1 script from an elevated prompt on a Windows 10 machine.
 3. Follow the script's instructions to create a Skype Room Systems v2 USB setup disk.
 
+> [!CAUTION]
+> The name of the folder that you run the media creation script from can not contain a space. If there is a space in to folder name, the script will fail.
+
+The CreateSrsMedia.ps1 script automates the following tasks:
+
+1. Download the latest MSI installer for Skype Room Systems v2.
+2. Determine the build of Windows that the user must supply. The most recently released versions may or may not be tested and supported for use with Skype Room System v2 devices.
+3. Download necessary supporting components.
+4. Assemble the needed components on the installation media.
+
 When finished, remove the USB disk from your computer and proceed to [Install Windows 10 and the Skype Room Systems v2 console app](console.md#Reimage).
 
     
@@ -66,11 +76,11 @@ You now need to apply the setup media you've created. The target device will run
 
 5. Boot to the USB setup disk. Refer to the manufacturer instructions. If your target device is a Surface Pro, use the following steps to boot to the USB setup disk:
 
-    1. Press and continue to hold the volume down (-) button.
+    a. Press and continue to hold the volume down (-) button.
 
-    2. Press and release the power button.
+    b. Press and release the power button.
 
-    3. Once Windows setup is booted, release the volume down (-) button.
+    c. Once Windows setup is booted, release the volume down (-) button.
 
 8. The system will shut down once installation is complete.
     
