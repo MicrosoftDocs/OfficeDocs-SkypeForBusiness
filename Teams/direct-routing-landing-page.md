@@ -39,7 +39,7 @@ These are the core decisions to consider for Direct Routing.
 |Ask yourself|Action |
 | :------------|:-------|
 |For which users will I enable Direct Routing? | For more information, see [Enable users for Direct Routing Service](direct-routing-configure.md#enable-users-for-direct-routing-service). |
-Do I have the required licenses for Direct Routing? | For more information, see [Licensing and other requirements](direct-routing-plan#licensing-and-other-requirements).
+Do I have the required licenses for Direct Routing? | For more information, see [Licensing and other requirements](direct-routing-plan.md#licensing-and-other-requirements).
 |||
 
 ### Session Border Controller (SBC) considerations
