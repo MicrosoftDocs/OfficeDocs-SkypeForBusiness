@@ -75,9 +75,7 @@ To learn how to assign administrative roles in Azure Active Directory, see [View
 <a name="BKMK_UploadFiles"> </a>
 
 You can add building, site, and tenant information to Call Analytics by uploading a .csv or .tsv file. With all this information, Call Analytics can map IP addresses to physical locations. You or helpdesk agents might find this information useful to help spot trends in call problems. For example, why are many users in the same building having similar call quality issues? 
-  
-![Screenshot shows the Sites page with values for Number of sites and Number of subnets, and the Select file button to import site data by uploading a .tsv or a .csv file.](media/b2f3a5cb-32b5-4f60-a9af-0691aa6ff1e8.png)
-  
+
 If you're a Teams and Skype for Business admin, you can use an existing data file from the Teams & Skype for Business Call Quality Dashboard. First, you download the file from Call Quality Dashboard, and then you upload it to Call Analytics. 
 
 To download an existing data file, go to the **Microsoft Teams & Skype for Business Admin Center** > **Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want.
