@@ -53,7 +53,9 @@ Teams provides a set of custom administrator roles that can be used to manage Te
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Who will be assigned the Teams Communications Administrator role?</li><li>Who will be assigned the Teams Communications Support Engineer role?</li><li>Who will be assigned the Teams Communications Support Specialist role?</li></ul> |<ul><li> To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).</li><li> To assign admin roles, see [Assign administrator and non-administrator roles to users with Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).</li></ul> |
+|Who will be assigned the Teams Communications Administrator role?|To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).|
+|Who will be assigned the Teams Communications Support Engineer role?|To assign admin roles, see [Assign administrator and non-administrator roles to users with Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
+|Who will be assigned the Teams Communications Support Specialist role?||
 |||
 
 ### Meetings settings 
