@@ -31,7 +31,7 @@ Before you can roll out Audio Conferencing for Teams, consider the following:
 |Ask yourself|Action |
 |------------|-------|
 |Is Audio Conferencing available for my country/region?|To find out if Audio Conferencing is available for your country/region, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|Do my users have the proper licensing for Teams Audio Conferencing?|Audio Conferencing licenses are available as part of an Office 365 E5 subscription or as an add-on service for an Office 365 E1 or Office 365 E3 subscription. To get and assign licenses, see [Try or purchase Audio Conferencing in Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) and [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc). To learn more, read [Skype for Business and Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). To see what cloud features are included in each Office 365 plan, see the [License options based on your plan](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md) articles.|
+|Do my users have the proper licensing for Teams Audio Conferencing?|Audio Conferencing licenses are available as part of an Office 365 E5 subscription or as an add-on service for an Office 365 E1 or Office 365 E3 subscription. To get and assign licenses, see [Try or purchase Audio Conferencing in Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) and [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc). To learn more, read [Skype for Business and Teams add-on licensing](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). To see what cloud features are included in each Office 365 plan, see the [License options based on your plan](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) articles.|
 |Do I need to purchase Communications Credits for the users who are assigned Audio Conferencing licenses?|To learn more, read [What are Communications Credits](what-are-communications-credits.md), then check out the [Communications Credits](#communications-credits) section below.|
 |||
 
@@ -60,7 +60,7 @@ See [Audio Conferencing in Office 365](audio-conferencing-in-office-365) for lea
 
 |Ask yourself|Action |
 |------------|-------|
-|Do I need to add new conferencing bridge numbers?| To add new numbers, see [Getting service phone numbers](../SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md).|
+|Do I need to add new conferencing bridge numbers?| To add new numbers, see [Getting service phone numbers](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
 |Will I need to modify the bridge settings?|To modify the bridge settings, see [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).|
 |Do I need to port numbers to use with audio conferencing?|To learn about porting phone numbers, read [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).|
 |||
@@ -72,7 +72,7 @@ Teams Audio Conferencing lets you set up default and alternate languages for a c
 
 |Ask yourself|Action |
 |------------|-------|
-| Which languages should I choose for auto attendant greetings? | To choose languages, see [Set auto attendant languages for Audio Conferencing](../SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md).|
+| Which languages should I choose for auto attendant greetings? | To choose languages, see [Set auto attendant languages for Audio Conferencing](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
 |||
 
 ### Conferencing bridge settings 
@@ -91,7 +91,7 @@ After you create your Audio Conferencing bridge, you need to set the toll and/or
 
 |Ask yourself|Action |
 |------------|-------|
-| Which conference bridge numbers will I assign to each user who leads meetings? | To assign a dial-in phone number to a user, see [Step 7: Assign dial-in phone numbers for users who lead meetings](../skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing.md#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings). |
+| Which conference bridge numbers will I assign to each user who leads meetings? | To assign a dial-in phone number to a user, see [Step 7: Assign dial-in phone numbers for users who lead meetings](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
 |||
 
 ### Communications Credits
@@ -100,7 +100,9 @@ To provide toll-free conference bridge phone numbers and to support conferencing
 
 |Ask yourself|Action |
 |------------|-------|
-|<ul><li>Are Communications Credits required for my Audio Conferencing implementation?</li><li>If they are required, how much should I purchase?</li><li>Do I want to configure an auto-recharge amount?</li></ul> |<ul><li> To find out if you need to set up Communications Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).</li><li>To determine the Communications Credits amount, see [Recommended funding amounts](what-are-communications-credits.md#recommended-funding-amounts).</li><li>To configure an auto-recharge amount, see [Set up Communications Credits for your organization](what-are-communications-credits.md#recommended-funding-amounts).</li></ul> |
+|Are Communications Credits required for my Audio Conferencing implementation? |To find out if you need to set up Communications Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).|
+|If they're required, how much should I purchase?|To determine the Communications Credits amount, see [Recommended funding amounts](what-are-communications-credits.md#recommended-funding-amounts).|
+|Do I want to configure an auto-recharge amount?|To configure an auto-recharge amount, see [Set up Communications Credits for your organization](what-are-communications-credits.md#recommended-funding-amounts).|
 |||
 
 
@@ -127,7 +129,8 @@ For more information about dial plans, see [What are dial plans?](what-are-dial-
 
 |Ask yourself|Action |
 |------------|-------|
-|<ul><li>Does my organization need a customized dial plan?</li><li>Which users require a customized dial plan, and which tenant dial plan should be assigned to each user?</li></ul>|<ul><li>To help determine if you need a custom dial plan, see [Planning for tenant dial plans](what-are-dial-plans.md#planning-for-tenant-dial-plans)</li><li>To add users to a customized dial plan in PowerShell, see [Create and manage dial plans](create-and-manage-dial-plans.md).</ul></li> |
+|Does my organization need a customized dial plan?>|To help determine if you need a custom dial plan, see [Planning for tenant dial plans](what-are-dial-plans.md#planning-for-tenant-dial-plans). |
+|>Which users require a customized dial plan, and which tenant dial plan should be assigned to each user?|To add users to a customized dial plan using PowerShell, see [Create and manage dial plans](create-and-manage-dial-plans.md).|
 |||
 
 ### Troubleshoot meeting and call quality 

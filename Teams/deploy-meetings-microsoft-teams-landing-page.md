@@ -90,7 +90,7 @@ For an optimal meeting experience in Teams, consider using Teams devices such as
 | Ask yourself | Action |
 |--------------|--------|
 |Will I purchase personal devices for my users? |Read [Manage your devices in Teams](device-management.md). |
-|Will I purchase and deploy room system devices for my conference rooms?|Read [Meeting room devices and solutions](../skypeforbusiness/certification/devices-meeting-rooms.md).|
+|Will I purchase and deploy room system devices for my conference rooms?|Read [Meeting room devices and solutions](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
 |||
 
 ### Reporting
@@ -146,7 +146,7 @@ Organizations with many conference rooms may want to consider a structured appro
 
 | Ask yourself | Action |
 |--------------|--------|
-| What do I need to do to roll out conference room systems?|Check out the [Plan Skype Room Systems v2](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0) articles.|
+| What do I need to do to roll out conference room systems?|Check out the [Plan Skype Room Systems v2](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) articles.|
 |||
 
 ### Cloud video interop
