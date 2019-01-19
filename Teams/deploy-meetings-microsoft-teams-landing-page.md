@@ -65,7 +65,7 @@ Meetings settings are used to control whether anonymous users can join Teams mee
 | Ask yourself | Action |
 |--------------|--------|
 |Will I customize the initial meeting settings? |See the [Meetings in Teams tutorial](tutorial-meetings-in-teams.yml) to learn more about meetings settings.|
-|>Will I implement QoS?|See [Quality of Service in Microsoft Teams](qos-in-teams.md) for information about QoS concepts. scenarios, and implementation.|
+|Will I implement QoS?|See [Quality of Service in Microsoft Teams](qos-in-teams.md) for information about QoS concepts. scenarios, and implementation.|
 |||
 
 ### Meeting policies
@@ -74,7 +74,7 @@ Meeting policies are used to control what features are available to users when t
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Will I customize the initial meeting policies?</li><li>Do I require multiple meeting policies?</li><li>How will I determine which groups of users get which meetings policy applied?</li></ul>|<br>To learn about meeting policies in Teams, read [Manage meeting policies in Teams](meeting-policies-in-teams.md).|
+|<ul><li>Will I customize the initial meeting policies?</li><li>Do I require multiple meeting policies?</li><li>How will I determine which groups of users get which meetings policy applied?</li></ul>|<br>Read [Manage meeting policies in Teams](meeting-policies-in-teams.md).|
 |||
 
 ### Audio Conferencing
@@ -85,13 +85,12 @@ When you're ready to roll out Audio Conferencing, see the in-depth [Audio Confer
 
 ### Meeting room and personal devices
 
-Meetings bring together content, chat, sharing, audio, and video. When taking part in meetings, your users will benefit from using devices such as room systems, phones, headsets, and cameras that have been designed to give a great experience with Microsoft Teams. 
-
-See [Intelligent Communications for devices](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1) for more information about the types of personal and room devices available.
+For an optimal meeting experience in Teams, consider using Teams devices such as room systems, phones, headsets, and cameras. To learn more, see [Teams devices for intelligent communications](https://products.office.com/microsoft-teams/across-devices).
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Will I purchase and deploy personal devices for my users? </li><li>Will I purchase and deploy room system devices for my conference rooms?</li></ul> | <need links> |
+|Will I purchase personal devices for my users? |Read [Manage your devices in Teams](device-management.md) |
+|Will I purchase and deploy room system devices for my conference rooms?|Read [Meeting room devices and solutions](../Skype/SfbPartnerCertification/certification/devices-meeting-rooms.md?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)|
 |||
 
 ### Reporting
