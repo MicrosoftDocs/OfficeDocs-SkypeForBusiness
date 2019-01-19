@@ -18,17 +18,23 @@ appliesto:
 
 You've completed [Quick start](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice workloads, and you've decided to use your own telephony carrier for PSTN connectivity by using Phone System Direct Routing. With Direct Routing, you can use Phone System with virtually any telephony carrier.
 
-This article describes core deployment decisions for Direct Routing as well as additional considerations you may want to configure, based on your organization's needs.
+This article describes core deployment decisions for Direct Routing as well as additional considerations you may want to configure, based on your organization's needs.  You should also read [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md) for more information about Microsoft's cloud voice offerings.
 
 
 ## Learn more about Direct Routing
 
-The following articles provide more information about deploying and using Phone System Direct Routing:
+The following articles provide more information about deploying and using Phone System Direct Routing. You should read all of these articles to understand how to plan and configure Direct Routing:
 
 - [Plan Direct Routing](direct-routing-plan.md) 
 - [Configure Direct Routing](direct-routing-configure.md)
 - [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
-- [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
+- [Monitor and troubleshoot Direct Routing](direct-routing-troubleshoot.md)
+
+In addition, you might want to read the following articles depending you your requirements:
+
+-  [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
+-  [Migrate to Direct Routing](direct-routing-migrating.md)
+-  [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
 
 
 ## Core deployment decisions
@@ -48,7 +54,8 @@ With Direct Routing, you connect your own Session Border Controller (SBC) direct
 
 |Ask yourself|Action |
 |:------------|:-------|
-| Where and how will I deploy SBCs? | For more information, see [Deploy and configure the SBC](direct-routing-sbc-multiple-tenants.md#deploy-and-configure-the-sbc).|
+| Where and how will I deploy SBCs? | For more information, see [Configure Direct Routing](direct-routing-configure.md) | 
+Do I have multiple tenants? | For more information, see [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md).|
 |||
 
 ### Voice routing considerations
