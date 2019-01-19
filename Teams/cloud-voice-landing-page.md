@@ -118,7 +118,7 @@ Which users require a customized dial plan, and which tenant dial plan should be
 
 Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization. 
 
-For more information, see [Create a Phone System call queue](create-a-phone-system-call-queue.md) and [Setting up your Phone System](setting-up-your-phone-system.md).
+For more information, see [Create a Phone System call queue](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) and [Setting up your Phone System](setting-up-your-phone-system.md).
 
 ### Auto attendants
 
