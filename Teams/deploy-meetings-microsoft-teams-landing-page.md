@@ -64,7 +64,8 @@ Meetings settings are used to control whether anonymous users can join Teams mee
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Will I customize the initial meeting settings?</li><li>Will I implement QoS?</li></ul> |<ul><li> See the [Meetings in Microsoft Teams tutorial](https://docs.microsoft.com/en-US/MicrosoftTeams/tutorial-meetings-in-teams?WT.mc_id=TeamsAdminCenterCSH) for more information about meetings settings.</li><li>See [Quality of Service in Microsoft Teams](qos-in-teams.md) for information about QoS concepts. scenarios, and implementation.</li></ul>|
+|Will I customize the initial meeting settings? |See the [Meetings in Teams tutorial](tutorial-meetings-in-teams.yml) to learn more about meetings settings.|
+|>Will I implement QoS?|See [Quality of Service in Microsoft Teams](qos-in-teams.md) for information about QoS concepts. scenarios, and implementation.|
 |||
 
 ### Meeting policies
@@ -73,7 +74,7 @@ Meeting policies are used to control what features are available to users when t
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Will I customize the initial meeting policies?</li><li>Do I require multiple meeting policies?</li><li>How will I determine which groups of users get which meetings policy applied?</li></ul>|To learn about meeting policies in Teams, read [Manage meeting policies in Teams](meeting-policies-in-teams.md).|
+|<ul><li>Will I customize the initial meeting policies?</li><li>Do I require multiple meeting policies?</li><li>How will I determine which groups of users get which meetings policy applied?</li></ul>|<br>To learn about meeting policies in Teams, read [Manage meeting policies in Teams](meeting-policies-in-teams.md).|
 |||
 
 ### Audio Conferencing
