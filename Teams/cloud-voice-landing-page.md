@@ -126,4 +126,13 @@ Phone System auto attendants can be used to create a menu system for your organi
 
 For more information, see [What are Phone System auto attendants](what-are-phone-system-auto-attendants.md).
 
+### Devices
+
+For more information about supported devices, see the following:
+
+- [Manage your devices in Microsoft Teams](device-management.md)
+- [IP Phones](devices-ip-phones.md)
+- [USB audio and video devices](devices-usb-devices.md)
+- [Intelligent communications for devices](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+
 
