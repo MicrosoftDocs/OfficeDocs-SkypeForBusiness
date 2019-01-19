@@ -28,7 +28,7 @@ The following articles provide more information about deploying and using Phone 
 - [Plan Direct Routing](direct-routing-plan.md) 
 - [Configure Direct Routing](direct-routing-configure.md)
 - [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
-- [Monitor and troubleshoot Direct Routing](direct-routing-troubleshoot.md)
+- [Monitor and troubleshoot Direct Routing](direct-routing-monitor-and-troubleshoot.md)
 
 In addition, you might want to read the following articles depending you your requirements:
 
