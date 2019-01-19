@@ -114,7 +114,7 @@ Bandwidth planning lets organizations estimate the bandwidth that will be requir
 
 | Ask yourself | Action |
 |--------------|--------|
-| Do I need to do bandwidth planning prior to and during my Meetings rollout? |See [Network Readiness](3-envision-evaluate-my-environment#network-readiness) for more information and links to tools to make the planning process simpler.|
+| Do I need to do bandwidth planning prior to and during my Meetings rollout? |See [Network Readiness](3-envision-evaluate-my-environment#network-readiness) for more information and links to tools to simplify your planning process.|
 |||
 
 ### Meeting recording and archiving
@@ -135,7 +135,7 @@ Teams live events policies are used to manage event settings for groups of users
 
 | Ask yourself | Action |
 |--------------|--------|
-|<ul><li>Will my organization use Teams live events?</li></ul>| See the [live events articles](teams-live-events/what-are-teams-live-events.md) for more information about planning for, setting up, and configuring Teams live events.|
+|Will my organization use Teams live events?| See the [live events articles](teams-live-events/what-are-teams-live-events.md) for more information about planning for, setting up, and configuring Teams live events.|
 |||
 
 ### Conference room systems rollout
@@ -157,7 +157,7 @@ Video teleconferencing with content collaboration helps you make the most out of
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I use a cloud video interop solution as part of my room systems deployment? | See [Cloud Video Interop for Teams](cloud-video-interop.md) for more information.|
+| Will I use a cloud video interop solution as part of my room systems deployment? | Read [Cloud Video Interop for Teams](cloud-video-interop.md).|
 |||
 
 
@@ -167,7 +167,7 @@ When planning a larger rollout of personal devices to support meetings or voice 
 
 | Ask yourself | Action |
 |--------------|--------|
-|Will I use a site-by-site approach to deploy meetings? |  The [Site enablement playbook for Teams](3-onboard-deploy-my-service.md#site-enablement-playbook-for-microsoft-teams-voice-workloads) provides a good foundation that you can use for your own deployments. The guide is focused on voice, but the general principles of device delivery, account readiness, adoption, and training apply to a large meeting deployment. |
+|Will I use a site-by-site approach to roll out Meetings? |  The [Site enablement playbook for Teams](3-onboard-deploy-my-service.md#site-enablement-playbook-for-microsoft-teams-voice-workloads) provides a good foundation that you can use for your own deployments. The guide is focused on voice, but the general principles of device delivery, account readiness, adoption, and training apply to a large meeting deployment. |
 |||
 
 ### Troubleshoot meeting and call quality 
@@ -176,7 +176,7 @@ Teams gives you two ways to monitor and troubleshoot call quality problems: [Cal
 
 |Ask yourself|Action |
 |------------|-------|
-| Who will be responsible for monitoring and troubleshooting call quality issues? | See [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md) for information about permission levels required to troubleshoot call quality issues.|
+| Who will be responsible for monitoring and troubleshooting call quality issues? | Read [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md) for information about permission levels required to troubleshoot call quality issues.|
 |||
 
 ### Operate your meetings service
@@ -185,7 +185,7 @@ It’s important that you understand the overall health of the Teams service so 
 
 |Ask yourself|Action |
 |------------|-------|
-|Who in my organization will be responsible for managing the meetings service? | Make sure this person has the Teams admin permissions they need in order to manage your meetings service. To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md)|
+|Who in my organization will be responsible for managing the meetings service? | Make sure this person has the Teams admin permissions they need in order to manage your meetings service. To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).|
 |||
 
 
