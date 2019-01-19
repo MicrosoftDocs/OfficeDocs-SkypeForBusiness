@@ -135,7 +135,7 @@ Teams live events policies are used to manage event settings for groups of users
 
 | Ask yourself | Action |
 |--------------|--------|
-|Will my organization use Teams live events?| See the [live events articles](teams-live-events/what-are-teams-live-events.md) for more information about planning for, setting up, and configuring Teams live events.|
+| Will my organization use Teams live events?| See the [live events articles](teams-live-events/what-are-teams-live-events.md) for more information about planning for, setting up, and configuring Teams live events.|
 |||
 
 ### Conference room systems rollout

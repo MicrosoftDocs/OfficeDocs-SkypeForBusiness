@@ -35,7 +35,6 @@ Before you can roll out Audio Conferencing for Teams, consider the following:
 |Do I need to purchase Communications Credits for the users who are assigned Audio Conferencing licenses?|To learn more, read [What are Communications Credits](what-are-communications-credits.md), then check out the [Communications Credits](#communications-credits) section below.|
 |||
 
-[sfb link](../Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
 ## Core deployment decisions
 
