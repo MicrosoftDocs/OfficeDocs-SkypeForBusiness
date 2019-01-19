@@ -57,10 +57,10 @@
 ### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
-### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
-
+### [Use inline message translation](inline-message-translation-teams.md)
+### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
 ### [Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
@@ -120,6 +120,7 @@
 ## [Teams cloud meeting recording](cloud-recording.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Manage meeting policies in Teams](meeting-policies-in-teams.md)
 
 ## [Audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
 

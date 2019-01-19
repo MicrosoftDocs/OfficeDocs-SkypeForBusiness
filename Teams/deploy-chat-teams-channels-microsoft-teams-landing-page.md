@@ -107,13 +107,9 @@ The Global Admin in Office 365, Teams Service Admin, and Reports Readers roles c
 
 ### Teams default apps 
 
-Teams provides a number of first-party (Microsoft-provided) and third-party apps in the Teams Store to engage your users, give them additional productivity capabilities, and surface commonly used business services directly in Teams. The default configuration is that the these apps are enabled for users to explore and use. For example, users can use the Planner app to build and manage team tasks. By default, Teams default apps and external apps that have been submitted through the [Teams Store approval process](https://docs.microsoft.com/en-us/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process) are turned on.
+Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. Apps are turned on by default in Teams. 
 
-
-|Ask yourself|Action |
-|------------|-------|
-| Do I want to turn on some apps and turn off others? | To control which apps are turned on or off, see [Admin settings for apps in Teams](https://docs.microsoft.com/en-us/microsoftteams/admin-settings).|
-|||
+To learn more about rolling out and managing apps in Teams, see our in-depth [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) guidance.
 
 
 ## Additional deployment decisions
@@ -155,6 +151,17 @@ Organizations that maintain fine-grained control of their internet traffic shoul
 |------------|-------|
 | Do I require internet access rules to enable users to use Teams, or is it sufficient to open the minimum required ports? | To learn more, see [Office 365 URLs and IP address ranges](office-365-urls-ip-address-ranges.md).|
 |||
+
+
+### Inline message translation
+
+Inline message translation lets users automatically translate Teams messages into the language specified by their personal language settings for Office 365. The inline message translation feature is turned off by default.
+
+| Ask yourself | Action |
+|--------------|--------|
+| Would the translation feature help my users? | To turn on inline message translation, see [Use inline message translation in Teams](inline-message-translation-teams.md).|
+|||
+
 
 ### Governance (naming conventions, who can create teams)
 

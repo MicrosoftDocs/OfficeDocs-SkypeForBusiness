@@ -88,14 +88,5 @@ You can use activity reports to see how users in your organization are using Tea
 | Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 |||
 
-### Inline message translation
-
-Inline message translation lets users automatically translate Teams messages into the language specified by their personal language settings for Office 365. The inline message translation feature is turned off by default.
-
-| Ask yourself | Action |
-|--------------|--------|
-| Would the translation feature help my users? | To turn on inline message translation, see [Use inline message translation in Teams](inline-message-translation-teams.md).|
-|||
-
 
 
