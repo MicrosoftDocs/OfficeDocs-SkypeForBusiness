@@ -58,9 +58,9 @@ Messaging policies control which chat and channel messaging features are availab
 
 |Ask yourself|Action |
 |------------|-------|
-|Will I customize the global messaging policy?<|For information about using the Microsoft Teams & Skype for Business Admin Center to change the global messaging policy or add a new policy, see [What are Messaging policies in Teams?](messaging-policies-in-teams.md).|
+|Will I customize the global messaging policy?|For information about using the Microsoft Teams & Skype for Business Admin Center to change the global messaging policy or add a new policy, see [What are Messaging policies in Teams?](messaging-policies-in-teams.md).|
 |Do I require multiple messaging policies?|To create and assign a messaging policy in PowerShell, see [PowerShell script sample - Create and assign a messaging policy](scripts/powershell-script-teams-messaging-policy-edu.md).|
-|>How will I determine which groups of users get which messaging policy?|To learn about the CsTeamsMessagingPolicy cmdlets, see [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).|
+|How will I determine which groups of users get which messaging policy?|To learn about the CsTeamsMessagingPolicy cmdlets, see [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).|
 ||| 
 
 ### External access
@@ -78,7 +78,7 @@ Guest access in Teams lets individuals outside your organization access teams an
 
 |Ask yourself|Action |
 |------------|-------|
-|Will I turn on guest access for my organization?|<To turn on guest access, see [Turn on or off guest access in Teams](set-up-guests.md).|
+|Will I turn on guest access for my organization?|To turn on guest access, see [Turn on or off guest access in Teams](set-up-guests.md).|
 |If enabled, will I customize the features available to guests in my organization?|To customize guest access feature availability, see [Authorize guest access in Teams](teams-dependencies.md).|
 |||
 
@@ -198,7 +198,7 @@ Your organization might require that you implement controls on how teams are arc
 |--------------|--------|
 |Will I need to configure team retention?|To set up retention policies, see [Set up Teams retention policies](retention-policies.md).|
 |Will I need to configure team archiving?|To archive or restore a team, see [Archive or restore a team](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).|
-|>Will I need to configure additional compliance settings?|For more information about security and compliance, see [Overview of security and compliance in Teams](security-compliance-overview.md).|
+|Will I need to configure additional compliance settings?|For more information about security and compliance, see [Overview of security and compliance in Teams](security-compliance-overview.md).|
 |||
 
 ### Conditional access 
@@ -207,7 +207,7 @@ Teams relies heavily on Exchange Online, SharePoint Online, and Skype for Busine
 
 | Ask yourself | Action |
 |--------------|--------|
-|<br>Will I need to configure conditional access for Teams?|<ul><li>To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams).</li><li>To set up multi-factor authentication (MFA) for Teams, see:<ul><li>[Quickstart: Require MFA for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory conditional access settings reference](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>Will I need to configure conditional access for Teams?|<ul><li>To understand how access policies work, see [How do conditional access policies work for Teams?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams)</li><li>To set up multi-factor authentication (MFA) for Teams, see:<ul><li>[Quickstart: Require MFA for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory conditional access settings reference](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 
