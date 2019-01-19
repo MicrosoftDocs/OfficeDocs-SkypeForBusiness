@@ -89,8 +89,8 @@ For an optimal meeting experience in Teams, consider using Teams devices such as
 
 | Ask yourself | Action |
 |--------------|--------|
-|Will I purchase personal devices for my users? |Read [Manage your devices in Teams](device-management.md) |
-|Will I purchase and deploy room system devices for my conference rooms?|Read [Meeting room devices and solutions](../Skype/SfbPartnerCertification/certification/devices-meeting-rooms.md?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)|
+|Will I purchase personal devices for my users? |Read [Manage your devices in Teams](device-management.md). |
+|Will I purchase and deploy room system devices for my conference rooms?|Read [Meeting room devices and solutions](../skypeforbusiness/certification/devices-meeting-rooms.md?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
 |||
 
 ### Reporting
@@ -100,8 +100,8 @@ Use activity reports to see how users in your organization are using Teams. For 
 
 | Ask yourself | Action |
 |--------------|--------|
-|Who will be responsible for reporting?|See [Use activity reports for Teams](teams-activity-reports.md) for more information.  |
-|Who will be responsible for monitoring usage?|To learn more, read [Monitor usage and feedback in Teams](get-started-with-teams-monitor-usage-and-feedback.md).|
+|Who will be responsible for reporting?|Read [Use activity reports for Teams](teams-activity-reports.md).  |
+|Who will be responsible for monitoring usage?|Read [Monitor usage and feedback in Teams](get-started-with-teams-monitor-usage-and-feedback.md).|
 |||
 
 ## Additional deployment decisions
@@ -114,7 +114,7 @@ Bandwidth planning lets organizations estimate the bandwidth that will be requir
 
 | Ask yourself | Action |
 |--------------|--------|
-| Will I undertake bandwidth planning prior to and during my rollout of Meetings? |See [Network Readiness](https://docs.microsoft.com/en-gb/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) for more information and links to tools to make the planning process simpler.|
+| Do I need to do bandwidth planning prior to and during my Meetings rollout? |See [Network Readiness](3-envision-evaluate-my-environment#network-readiness) for more information and links to tools to make the planning process simpler.|
 |||
 
 ### Meeting recording and archiving
