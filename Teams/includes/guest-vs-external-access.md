@@ -1,5 +1,3 @@
-### Guest access vs. external access
-
 Guest access and external access (federation) are different:
  
 - Guest access gives access permissions to an individual. External access gives access permission to an entire domain.

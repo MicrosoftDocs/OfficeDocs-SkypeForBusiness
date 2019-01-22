@@ -31,4 +31,6 @@ You can also use PowerShell to allow or block a guest user based on their domain
   
 If you want to block guests in teams and still allow guests to access SharePoint sites, you can use Azure Active Directory Powershell cmdlets to disable the AllowGuestAccessToGroups parameter on the Company object, assuming external sharing is turned on for SharePoint sites.   
 
+## Guest access vs. external access
+
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
