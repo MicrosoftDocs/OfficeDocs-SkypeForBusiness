@@ -35,6 +35,17 @@ Basic functionalities will continue to work on Skype for Business Online certifi
 ## Desk Phones
 |Manufacturer | Model| Version| Qualification Date|
 |:--- |:--- |:--- |:--- |
+|Polycom	|VVX 201 Business Media Phone	|5.9.0.9373 |1/22/2019|
+|Polycom	|VVX 300 and 310	|5.9.0.9373 |1/22/2019|
+|Polycom	|VVX 301 and 311	|5.9.0.9373 |1/22/2019|
+|Polycom	|VVX 400	|5.9.0.9373 	|1/22/2019|
+|Polycom	|VVX 401	|5.9.0.9373 	|1/22/2019|
+|Polycom	|VVX 410	|5.9.0.9373 	|1/22/2019|
+|Polycom	|VVX 411	|5.9.0.9373 	|1/22/2019|
+|Polycom	|VVX 500	|5.9.0.9373 	|1/22/2019|
+|Polycom	|VVX 501	|5.9.0.9373 	|1/22/2019|
+|Polycom	|VVX 600	|5.9.0.9373 	|1/22/2019|
+|Polycom	|VVX 601	|5.9.0.9373 	|1/22/2019|
 |AudioCodes	|445HD IP Phone	|3.1.2.89	|12/21/2018|
 |Yealink	|T46S Skype for Business edition	|66.9.0.23	|4/21/2018|
 |Yealink	|T48S Skype for Business edition	|66.9.0.23	|4/21/2018|
