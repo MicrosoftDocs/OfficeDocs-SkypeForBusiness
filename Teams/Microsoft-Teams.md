@@ -35,6 +35,24 @@ ms.topic: hub-page
                                 </div>
                             </a>
                             </li>
+                           <li>
+                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams?branch=lolaj-tocoverhaul4"><div class="cardSize">
+                                <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-teams.svg" alt="Deploy" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>How to roll out Teams</h3>
+                                                <P>Whether you're a small business or a multi-national enterprise, start here to find the right path to rolling out Teams</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            </li> 
                             <li>
                                 <a href="https://review.docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start?branch=lolaj-tocoverhaul4">
                                 <div class="cardSize">
@@ -54,24 +72,6 @@ ms.topic: hub-page
                                 </div>
                             </a>
                             </li>
-                            <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams?branch=lolaj-tocoverhaul4"><div class="cardSize">
-                                <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-teams.svg" alt="Deploy" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>How to roll out Teams</h3>
-                                                <P>Whether you're a small business or a multi-national enterprise, start here to find the right path to rolling out Teams</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            </li> 
                             <li>
                                 <a href="https://review.docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams?branch=lolaj-tocoverhaul4">
                                 <div class="cardSize">

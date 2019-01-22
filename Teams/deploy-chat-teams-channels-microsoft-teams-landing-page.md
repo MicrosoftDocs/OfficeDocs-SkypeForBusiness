@@ -177,7 +177,7 @@ Your organization might require that you implement controls on how teams are nam
 | Ask yourself | Action |
 |--------------|--------|
 |Will I need to implement controls on who can create teams?| Read [Plan for governance in Teams](plan-teams-governance.md).|
-|Will I need to implement controls on how teams are named?|Read [Enforce a naming policy for Office 365 groups in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)|
+|Will I need to implement controls on how teams are named?|Read [Enforce a naming policy for Office 365 groups in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).|
 |||
 
 ### Teams application policy (side-rail control)
