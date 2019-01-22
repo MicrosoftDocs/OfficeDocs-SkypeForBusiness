@@ -1,9 +1,8 @@
 ---
-title: Skype for Business to Microsoft Teams upgrade
+title: Upgrade Skype for Business to Microsoft Teams 
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -25,7 +24,7 @@ Your upgrade journey might take some time, and we’re here to support you every
 View this [overview](https://aka.ms/UpgradeOverview) for an introduction to the Skype for Business to Teams upgrade journey, including core concepts, framework, and upgrade paths.
 
 > [!Tip]
-> Watch the following session to learn about the Upgrade from Skype for Business to Microsoft Teams: 
+> Watch the following session to learn about the Upgrade from Skype for Business to Microsoft Teams:
 > - [Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)
 > - [Plan your upgrade](https://aka.ms/teams-upgrade-plan)
 > - [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)
@@ -46,7 +45,6 @@ We understand that customers don’t come one-size-fits-all. For added flexibili
 
 Select one of the options below or explore both to determine the optimal path for you. More information will be coming online over time, so check back as your organization continues its journey to Teams. To help us better understand your upgrade path and what additional guidance might be helpful, take a moment to <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">share your feedback</a>.
 
-
 <div class="mx-tableFixed">
 <table>
 <tbody>
@@ -55,7 +53,6 @@ Select one of the options below or explore both to determine the optimal path fo
 <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-pro"><img src="media/upgrade-to-teams-upgrade-pro-icon.png" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
 </tbody></table>
 </div>
-
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
