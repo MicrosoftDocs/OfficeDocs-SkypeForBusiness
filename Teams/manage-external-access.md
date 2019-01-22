@@ -3,7 +3,7 @@ title: Manage external access (federation) in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/15/2019
+ms.date: 01/22/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -65,7 +65,7 @@ Follow these steps to add a domain or turn off external access for a domain.
  
     ![Screenshot of External access page with add a domain link](media/manage-external-access-3.png).
 
-   The **Add a domain pane** appears.
+   The **Add a domain** pane appears.
 
     ![Screenshot of Add a domain pane](media/manage-external-access-4.png).
 
