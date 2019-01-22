@@ -34,7 +34,7 @@ If you are an [Office 365 global administrator](https://support.office.com/artic
   
 - **The languages that are available to you are determined by the location of your organization**. For example, if your organization is located in the United States, you can set the default language to English or Spanish. If your organization is located in Canada, you can choose between English and French. For a list of supported languages, see [Languages for voicemail greetings and messages from Skype for Business](languages-for-voicemail-greetings-and-messages.md).
     
-- **There's no way to change the system language for only one person in your organization.** You can only change the greeting language for everyone on your organization.
+- **There's no way to change the system language for only one person in your organization.** You can only change the greeting language for everyone in your organization.
     
     > [!NOTE]
     > Users can change their own greeting language through their settings after they sign in. 
@@ -45,7 +45,7 @@ If you are an [Office 365 global administrator](https://support.office.com/artic
     
 ## Change the system language for everyone in your organization
 
-1. Sign in with your [Office 365 global administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) account at[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Sign in with your [Office 365 global administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) account at [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
 2. In the Office 365 admin center, choose **Settings** > **Organization profile**. 
     
@@ -71,7 +71,7 @@ If you are an [Office 365 global administrator](https://support.office.com/artic
 
 - [Change your display language and time zone in Office 365 for Business](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
-- [Add a language or set language preferences in Office 2010 and later](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d))
+- [Add a language or set language preferences in Office 2010 and later](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
     
 - [Enable or change a keyboard layout language](https://support.office.com/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
