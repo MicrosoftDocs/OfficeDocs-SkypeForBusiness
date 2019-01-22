@@ -1,5 +1,5 @@
 ---
-title: "Plan Call Data Connector"
+title: Plan Call Data Connector | Call Quality Dashboard Monitoring Hybrid Analytics
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,6 +14,7 @@ description: "Overview of using Skype for Business Online telemetry tools to mon
 # Plan Call Data Connector
 
 ## Overview
+
 This topic describes benefits, planning considerations, and requirements for implementing Skype for Business Server Call Data Connector. For more information on configuring Call Data Connector, see [Configure Call Data Connector](configure-call-data-connector.md).
 
 > [!NOTE]
@@ -27,7 +28,7 @@ With Call Data Connector, you can perform the following tasks by using a single 
 
 - View and troubleshoot problems across your network.
 
-- Assign helpdesk and administrator roles for Call Analytics, so that you can empower helpdesk workers to view and troubleshoot their areas of responsibility. 
+- Assign helpdesk and administrator roles for Call Analytics, so that you can empower helpdesk workers to view and troubleshoot their areas of responsibility.
 
 With Call Data Connector, the Skype for Business Server pushes call data to the cloud service so that you can leverage the Skype for Business Online Call Analytics (CA) and Call Quality Dashboard (CQD) tools, as shown in the following diagram:
 
@@ -47,24 +48,23 @@ Of course, you might want to keep some call quality data on premises. This might
 
 ![SfB Cloud Voicemail](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-
 ## Requirements
 
 The following requirements assume that you already have Skype for Business Server deployed in a supported topology.  For more information about deploying Skype for Business Server and supported topologies, see [Topology Basics](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). To configure Call Data Connector, you must:
 
-- Enable Hybrid connectivity. If you already have Skype for Business Server deployed and you want to enable Call Data Connector, you must ensure that you have hybrid connectivity set up between your on-premises and online environments. This is sometimes called a split domain configuration. 
+- Enable Hybrid connectivity. If you already have Skype for Business Server deployed and you want to enable Call Data Connector, you must ensure that you have hybrid connectivity set up between your on-premises and online environments. This is sometimes called a split domain configuration.
 
    For more information, see [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
 
--  Authenticate to your Office 365 tenant and ensure that you have the following roles enabled:
+- Authenticate to your Office 365 tenant and ensure that you have the following roles enabled:
 
-   - Skype for Business Server Administrator 
-   - Office 365 Global Administrator 
+  - Skype for Business Server Administrator
+  - Office 365 Global Administrator
 
 - If you have not already done so, turn on Call Quality Dashboard as described in [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
- 
-- Enable the front end pool for Monitoring, with local LCSCdr and QoEMetrics databases. Without this, Call Data Connector won't have metrics data to work with. 
- 
+
+- Enable the front end pool for Monitoring, with local LCSCdr and QoEMetrics databases. Without this, Call Data Connector won't have metrics data to work with.
+
 > [!IMPORTANT]
 > Call Data Connector will not function if Monitoring is not enabled on the front end pool.
 

@@ -1,5 +1,5 @@
 ---
-title: "Move users from on-premises to Teams"
+title: Move users from Skype for Business Server 2019 to Teams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars--
@@ -17,7 +17,7 @@ description: "Summary: Learn how to migrate user settings and move users to Team
 When a user is moved from on premises to Teams Only, the user’s Skype for Business home is moved from on premises to online and the user is assigned TeamsUpgradePolicy with mode=TeamsOnly.  After a user is moved from on-premises to TeamsOnly mode:
 
 - All incoming calls and chats from other users (whether sent from Skype for Business or Teams), will land in the user’s Teams client.
-- The user will be able to interoperate with other users who use Skype for Business (whether online or on premises). 
+- The user will be able to interoperate with other users who use Skype for Business (whether online or on premises).
 - The user will be able to communicate with users in federated organizations.
 - New meetings scheduled by that user are Teams meetings.
 - User can still join any Skype for Business meetings.
@@ -31,8 +31,8 @@ Before moving any users, be sure to review the [prerequisites](move-users-betwee
 There are two methods to move a user from on premises to Teams:
 
 - If you are using a version earlier than Skype for Business Server 2015 CU8, the move requires two steps (which can be scripted to be done together as a single step, if desired):
-    - [Move the user from Skype for Business Server (on premises) to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
-    - Once the user is homed in Skype for Business Online, assign the user TeamsUpgradePolicy with mode= TeamsOnly. To grant TeamsOnly mode, run the following cmdlet from a Skype for Business Online PowerShell window:
+  - [Move the user from Skype for Business Server (on premises) to Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md).
+  - Once the user is homed in Skype for Business Online, assign the user TeamsUpgradePolicy with mode= TeamsOnly. To grant TeamsOnly mode, run the following cmdlet from a Skype for Business Online PowerShell window:
         `Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams`
 - If you have admin tools from Skype for Business Server 2015 CU8 or later, you can use the method above, or you can do this move in one step as described below. In addition, you can optionally provide a notification within the Skype for Business client prior to moving them to Teams Only as well as optionally have the Teams client silently downloaded by the Skype for Business client.
 
@@ -64,13 +64,13 @@ The following cmdlet sequence can be used to move a user to TeamsOnly, and assum
 
 ### Move to Teams using Skype for Business Server Control Panel
 
-1.	Open the Skype for Business Server Control Panel app.
-2.	In the left navigation, choose **Users**.
-3.	Use **Find** to locate the user(s) you would like to move to Teams.
-4.	Select the user(s), and then, from the **Action** dropdown above the list, choose **Move selected users to Teams**.
-5.	In the wizard, click **Next**.
-6.	If prompted, sign in to Office 365, with an account that ends in .onmicrosoft.com and has sufficient permissions.
-7.	Click **Next**, and then **Next** one more time to move the user.
+1. Open the Skype for Business Server Control Panel app.
+2. In the left navigation, choose **Users**.
+3. Use **Find** to locate the user(s) you would like to move to Teams.
+4. Select the user(s), and then, from the **Action** dropdown above the list, choose **Move selected users to Teams**.
+5. In the wizard, click **Next**.
+6. If prompted, sign in to Office 365, with an account that ends in .onmicrosoft.com and has sufficient permissions.
+7. Click **Next**, and then **Next** one more time to move the user.
 8. Note that status messages regarding success or failure are provided at the top of the main Control Panel app, not in the wizard.
 
 ## Notify your Skype for Business on-premises users of the upcoming move to Teams
@@ -82,7 +82,7 @@ The on-premises admin tools in Skype for Business Server 2015 with CU8, as well 
 To notify on-premises users that they will soon be upgraded to Teams, create a new instance of TeamsUpgradePolicy with NotifySfBUsers=true. Then assign that policy to the users who you want to notify, either by assigning the policy directly to the user or by setting the policy at the site, pool, or global level. The following cmdlets create and grant a user-level policy:
 
 ```
-New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true 
+New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true
 Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNotifications
 ```
 
@@ -91,7 +91,6 @@ Automatic download of Teams via the Skype for Business Win32 client is controlle
 `New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”`
 
 By default, the value of DownloadTeams is True; however, it is *only* honored if NotifySfbUser = True for a given user.
-
 
 ## See also
 
