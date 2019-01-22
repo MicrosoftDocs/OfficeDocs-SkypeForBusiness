@@ -21,8 +21,6 @@ Teams Guest Access checklist
 
 Use this checklist to help you enable and configure the Guest Access feature in Microsoft Teams according to the preferences of your organization.
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
-
 ## Understand the limitations for guests
 
 The guest experience has limitations by design. Make sure you understand the guest experience so you don't try to fix something that isn't a problem. For example, here's a list of some of the functionality that isn't available to a guest in Microsoft Teams:
@@ -37,6 +35,8 @@ The guest experience has limitations by design. Make sure you understand the gue
 - Upload files to a person-to-person chat
 
 For more details, see [What the guest experience is like](guest-experience.md) and [Guest access in Office 365 groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## If your guests are seeing license errors
 
