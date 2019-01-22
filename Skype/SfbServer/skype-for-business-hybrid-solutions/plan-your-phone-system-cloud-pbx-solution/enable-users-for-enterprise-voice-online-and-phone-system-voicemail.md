@@ -26,7 +26,7 @@ The final step in deploying Phone System in Office 365 with on-premises PSTN con
   
 ## Enable Phone System in Office 365 voice services
 
-To enable a user for Phone System in Office 365 Voice and voicemail, you'll need to perform some initial steps, like checking to see of the Skype for Business Online Connector is deployed on your servers and enable your users for hosted voicemail.
+To enable a user for Phone System in Office 365 Voice and voicemail, you'll need to perform some initial steps, like checking to see if the Skype for Business Online Connector is deployed on your servers and enable your users for hosted voicemail.
   
 ### To enable your users for Phone System in Office 365 voice and voicemail
 

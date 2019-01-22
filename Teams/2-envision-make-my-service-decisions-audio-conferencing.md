@@ -30,7 +30,7 @@ As part of defining required Audio Conferencing features in Microsoft Teams, one
 -   Confirmation that Audio Conferencing features in Teams described in the latest public roadmap meet your user, functionality, and scope requirements, within the timeline of your deployment.
 
 > [!NOTE]
-> The latest Teams roadmap for identifying Teams Audio Conferencing features in scope for your deployment can be found at <https://aka.ms/skype2teamsroadmap>.
+> The latest Teams roadmap for identifying Teams Audio Conferencing features in scope for your deployment can be found at <https://aka.ms/O365Roadmap>.
 
 ## Meetings in Teams
 
@@ -39,7 +39,7 @@ Teams gives your users the capability to schedule and join online meetings by us
 Meetings can be scheduled as private meetings (only invited parties can join) or channel meetings (open for all users having access to the channel), and your users can also start impromptu meetings within channels.
 
 > [!NOTE]
-> To learn more about the features of meetings in Teams, see the [Skype for Business to Microsoft Teams Capabilities Roadmap] https://aka.ms/skype2teamsroadmap).
+> To learn more about the features of meetings in Teams, see the [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap).
 
 Meeting participants can join your Teams meetings by dialing in to the toll or toll-free dial-in conference bridge phone numbers via landlines or mobile phones. In addition, users can let the Audio Conferencing service initiate the “call me” feature so they can participate in a meeting by having the conference bridge call their phones (useful when the data connection isn’t reliable), or let meeting organizers invite meeting participants by dialing out to their phones.
 
