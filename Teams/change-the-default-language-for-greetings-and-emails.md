@@ -34,7 +34,7 @@ If you are an [Office 365 global administrator](https://support.office.com/artic
   
 - **The languages that are available to you are determined by the location of your organization**. For example, if your organization is located in the United States, you can set the default language to English or Spanish. If your organization is located in Canada, you can choose between English and French. For a list of supported languages, see [Languages for voicemail greetings and messages from Skype for Business](languages-for-voicemail-greetings-and-messages.md).
     
-- **There's no way to change the system language for only one person in your organization.** You can only change the greeting language for everyone on your organization.
+- **There's no way to change the system language for only one person in your organization.** You can only change the greeting language for everyone in your organization.
     
     > [!NOTE]
     > Users can change their own greeting language through their settings after they sign in. 
