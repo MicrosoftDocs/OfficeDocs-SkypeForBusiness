@@ -44,6 +44,9 @@ The permissions level assigned to you determines what type of information you ha
     
 - **Teams communications support engineer**: You see all available data in Call Analytics and can help troubleshoot problems with both calls and meetings. You don't have access to the rest of the Teams & Skype for Business Admin Center.
     
+> [!NOTE]
+> The communications support specialist role is equivalent to tier 1 support and the communications support engineer role is equivalent to tier 2 support.
+
 For more information about Teams admin roles, see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md). For a detailed comparison of the Teams communications support specialist and Teams communications support engineer roles, see [Set up Call Analytics](set-up-call-analytics.md#set-call-analytics-permissions) 
   
 See your Teams and Skype for Business admin if you need help with permissions.
