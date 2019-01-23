@@ -270,9 +270,11 @@
 ### [What is Phone System](what-is-phone-system-in-office-365.md)
 ### [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
 ### [Set up Phone System](setting-up-your-phone-system.md)
+### [Set up common area phones](set-up-common-area-phones.md)
 ### Voice mail
 #### [Set up Phone System voicemail](set-up-phone-system-voicemail.md)
 #### [Change the default language for voice mail](change-the-default-language-for-greetings-and-emails.md)
+#### [Languages for voicemail greetings and messages](languages-for-voicemail-greetings-and-messages.md)
 ### Caller ID
 #### [How can caller ID be used in your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set the Caller ID for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -283,6 +285,7 @@
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
+### [Shared line appearance](shared-line-appearance.md)
 
 ## [Calling Plan](calling-plan-landing-page.md)
 ### [Calling Plan for Office 365](calling-plans-for-office-365.md)
@@ -441,6 +444,8 @@
 #### [Phone number management for the Netherlands](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Phone number management for the U.K.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Phone number management for the U.S.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
+### [Toll-free dialing limitations and restrictions](toll-free-dialing-limitations-and-restrictions.md)
+
 ### Manage Communications Credits
 #### [What are Communications Credits?](what-are-communications-credits.md)
 #### [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
@@ -521,6 +526,7 @@
 ## Supported devices
 ### [Manage your devices in Teams](device-management.md)
 ### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Phones for Teams](phones-for-teams.md)
 ### [Buying and deploying Microsoft Teams IP Phones](buying-and-deploying-teams-ip-phones.md)
 ### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
