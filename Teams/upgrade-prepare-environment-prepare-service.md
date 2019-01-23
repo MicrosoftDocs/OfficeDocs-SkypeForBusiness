@@ -1,13 +1,12 @@
 ---
-title: Prepare your service for upgrading to Teams - Microsoft Teams
+title: Prepare for Microsoft Teams upgrade|  Onboarding Rollout Checklist
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Use this guidance to prepare your tenant for Teams deployment and rollout   
+description: Use this guidance to prepare your tenant for Teams deployment and rollout 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -20,10 +19,10 @@ appliesto:
 
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
--   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
--   [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
--   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
+- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # Prepare your service for upgrading to Teams
 
@@ -33,17 +32,17 @@ This article gives an overview of the requirements for preparing your organizati
 
 The following checklists walk you through the steps for deploying Microsoft Teams in your organization:
 
--  [Prepare Office 365 for Teams](onboarding-checklist-enable-office-365.md)
+- [Prepare Office 365 for Teams](onboarding-checklist-enable-office-365.md)
 
--  [Configure Teams core capabilities](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
+- [Configure Teams core capabilities](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
--  [Configure networking](onboarding-checklist-configure-networking.md)
+- [Configure networking](onboarding-checklist-configure-networking.md)
 
--  [Configure cloud voice workloads in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [Configure cloud voice workloads in Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 
--  [Configure Direct Routing in Teams](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [Configure Direct Routing in Teams](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
 
-The tasks and activities in these checklists are the core “to-do” items that apply to every deployment of collaboration and voice capabilities with Teams. You can customize the checklists to include the activities and tasks that are specific to your own Teams journey. 
+The tasks and activities in these checklists are the core “to-do” items that apply to every deployment of collaboration and voice capabilities with Teams. You can customize the checklists to include the activities and tasks that are specific to your own Teams journey.
 
 Use the provided checklists to track the status of each individual activity and task, and to be sure you haven’t skipped any critical steps. Each activity includes a detailed description of required actions and references to additional information that you can use to complete that activity.
 
