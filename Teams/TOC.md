@@ -559,7 +559,9 @@
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 
-## [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md)
+## [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
+### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
+### [Plan for Microsoft 365 Government - DoD](plan-for-government-dod.md)
 
 ## [Teams PowerShell overview](teams-powershell-overview.md)
 ### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
