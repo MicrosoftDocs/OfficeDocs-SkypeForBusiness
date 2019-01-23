@@ -268,6 +268,7 @@
 # [Cloud voice](cloud-voice-landing-page.md)
 ## Phone System
 ### [What is Phone System](what-is-phone-system-in-office-365.md)
+### [Here's what you get with Phone System](here-s-what-you-get-with-phone-system.md)
 ### [Set up Phone System](setting-up-your-phone-system.md)
 ### Voice mail
 #### [Set up Phone System voicemail](set-up-phone-system-voicemail.md)
@@ -280,10 +281,13 @@
 #### [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
+### [Call park and retrieve](call-park-and-retrieve.md)
+### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
 
 ## [Calling Plan](calling-plan-landing-page.md)
 ### [Calling Plan for Office 365](calling-plans-for-office-365.md)
 ### [Set up Calling Plan for your organization](set-up-calling-plans.md)
+### [Quick start guide: Configuring Calling Plans](configuring-teams-calling-quickstartguide.md)
 
 ## [Phone System Direct Routing](direct-routing-landing-page.md)
 ### [Plan Direct Routing](direct-routing-plan.md)
@@ -293,8 +297,10 @@
 ### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 ### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
+### Technical reference for Direct Routing
+#### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-calls.md)
 
-## Phones, numbers, and devices 
+## Phones and phone numbers
 ### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ### [Types of phone numbers used for Calling Plan](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 ### [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -515,6 +521,7 @@
 ## Supported devices
 ### [Manage your devices in Teams](device-management.md)
 ### [IP phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Buying and deploying Microsoft Teams IP Phones](buying-and-deploying-teams-ip-phones.md)
 ### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
