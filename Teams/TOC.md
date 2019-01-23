@@ -115,6 +115,8 @@
 
 # [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
+## [Manage meetings settings](meeting-settings-in-teams.md)
+## [What are Messaging policies?](messaging-policies-in-teams.md)
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -122,7 +124,7 @@
 ## [Teams cloud meeting recording](cloud-recording.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Manage meeting policies in Teams](meeting-policies-in-teams.md)
+
 
 ## [Audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
 
@@ -546,6 +548,7 @@
 ### Monitor call quality
 #### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 #### [Set up QoS in Teams](QoS-in-Teams.md)
+#### [Implement QoS and monitor call quality](monitor-call-quality-qos.md)
 #### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 #### [Set up Call Analytics](set-up-call-analytics.md)
 #### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
@@ -559,6 +562,9 @@
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
+
+## Teams for firstline workers
+### [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
