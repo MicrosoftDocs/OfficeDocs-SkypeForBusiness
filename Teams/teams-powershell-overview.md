@@ -17,7 +17,11 @@ Microsoft Teams has a rich set of tools for IT admins to manage the product thro
 
 ## Which modules do you need to use?
 
-The PowerShell controls for managing Microsoft Teams are in two different PowerShell modules: the [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (public preview) and the [Skype for Business PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366). The Teams PowerShell module contains all of the cmdlets you need to create and manage the teams themselves, while the Skype for Business PowerShell module contains the controls for managing policies, configurations, and other Teams tools. The reference documents for PowerShell controls will tell you which module contains the cmdlet you're investigating. (Eventually, the two modules will be combined.)
+The PowerShell controls for managing Teams are in two different PowerShell modules: 
+- [Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (public preview): The Teams Powershell module contains all the cmdlets you need to create and manage teams.  
+- [Skype for Business PowerShell module](https://www.microsoft.com/en-us/download/details.aspx?id=39366): The Skype for Business PowerShell module contains the cmdlets to manage policies, configurations, and other Teams tools. 
+
+The reference documentation for the PowerShell controls will tell you which module contains the cmdlet you're investigating. (Eventually, the two modules will be combined.)
 
 ## What can each admin role do?
 
