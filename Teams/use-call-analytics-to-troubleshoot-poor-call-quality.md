@@ -23,7 +23,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Skype for Business calls and meetings."
+description: "Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Microsoft Teams and Skype for Business calls and meetings."
 ---
 
 # Use Call Analytics to troubleshoot poor call quality
