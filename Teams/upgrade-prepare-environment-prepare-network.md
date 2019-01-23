@@ -1,13 +1,12 @@
 ---
-title: Prepare your network for upgrading to Teams - Microsoft Teams
+title: Prepare your network for Microsoft Teams|  Port Firewall Requirements
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Use this guidance to prepare your network for Teams deployment and rollout   
+description: Use this guidance to prepare your network for Teams deployment and rollout 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -20,10 +19,10 @@ appliesto:
 
 This article is part of the Technical Readiness stage of your upgrade journey, an activity you complete in parallel with the User Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
--   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
--   [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
--   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
+- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # Prepare your network for upgrading to Teams
 
@@ -35,11 +34,11 @@ If you’re deploying audio, video, or meetings, you can take some additional st
 
 Before we look at the steps to be taken, it’s important to understand what can affect the performance of Teams and thereby user happiness and satisfaction. Three major risk areas can affect how users perceive network quality:
 
--   Insufficient bandwidth available
+- Insufficient bandwidth available
 
--   Firewall and proxy blockers
+- Firewall and proxy blockers
 
--   Network impairments such as jitter and packet loss
+- Network impairments such as jitter and packet loss
 
 The steps described below will help you determine whether your deployment might be affected by any of these factors and will help you move toward a resolution. Failing to prepare your network will likely lead to dissatisfied users and costly, ad-hoc fixes. By preparing your network—and your organization—for Teams, you can dramatically increase your chance of success.
 
@@ -54,16 +53,15 @@ You start your bandwidth planning journey for Teams on the [My Advisor website](
 > [!IMPORTANT]
 > If the required bandwidth isn’t available, the media stack inside Teams degrades the quality of the audio/video session to accommodate that lower amount of available bandwidth, which affects the quality of the call or meeting. The Teams client attempts to prioritize the quality of audio over the quality of video. It’s therefore extremely important to have the expected bandwidth available.
 
-
-|Activity  |Download bandwidth  |Upload bandwidth  |Traffic flow |
-|---------|---------|---------|---------|
-|**Peer-to-peer audio call**     |0.1 Mbps         |0.1 Mbps        |Client <> Client         |
-|**Peer-to-peer video call (full screen)**     |4 Mbps         |4 Mbps         |Client <> Client          |
-|**Peer-to-peer desktop sharing (1920&#215;1080 resolution)**     |4 Mbps         |4 Mbps         |Client <> Client          |
-|**Two-participant meeting**     |4 Mbps         |4 Mbps         |Client <> Office 365         |
-|**Three-participant meeting**     |8 Mbps         |6.5 Mbps         |Client <> Office 365           |
-|**Four-participant meeting**     |5.5 Mbps         |4 Mbps         |Client <> Office 365           |
-|**Five or more–participant meeting**     |6 Mbps         |1.5 Mbps         |Client <> Office 365           |
+|Activity |Download bandwidth |Upload bandwidth |Traffic flow |
+|---|---|---|---|
+|**Peer-to-peer audio call** |0.1 Mbps |0.1 Mbps |Client <> Client |
+|**Peer-to-peer video call (full screen)** |4 Mbps |4 Mbps |Client <> Client |
+|**Peer-to-peer desktop sharing (1920&#215;1080 resolution)** |4 Mbps |4 Mbps |Client <> Client |
+|**Two-participant meeting** |4 Mbps |4 Mbps |Client <> Office 365 |
+|**Three-participant meeting** |8 Mbps |6.5 Mbps |Client <> Office 365 |
+|**Four-participant meeting** |5.5 Mbps |4 Mbps |Client <> Office 365 |
+|**Five or more–participant meeting** |6 Mbps |1.5 Mbps |Client <> Office 365 |
 
 ### Local internet egress
 
@@ -73,26 +71,23 @@ Back-hauling traffic across the WAN increases latency and has a negative impact 
 
 Optimizing the network path to Microsoft’s global network will improve performance and ultimately provide the best experience for users. For more detail, see the blog post [Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
-
 To get an optimal experience using real-time media within Microsoft Teams, you must meet the networking requirements for Office 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
 The two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge) must meet the following requirements:
 
-
-|**Value**  |**Client to Microsoft Edge**  |**Customer Edge to Microsoft Edge**  |
-|---------|---------|---------|
-|**Latency (one way)**     |< 50 ms          |< 30 ms          |
-|**Latency (round-trip time, or RTT)** |< 100 ms         |< 60 ms         |
-|**Burst packet loss**    |<10% during any 200-ms interval         |<1% during any 200-ms interval         |
-|**Packet loss**     |<1% during any 15-sec interval          |<0.1% during any 15-sec interval         |
-|**Packet inter-arrival jitter**    |<30 ms during any 15-sec interval         |<15 ms during any 15-sec interval         |
-|**Packet reorder**    |<0.05% out-of-order packets         |<0.01% out-of-order packets         |
+|**Value** |**Client to Microsoft Edge** |**Customer Edge to Microsoft Edge** |
+|---|---|---|
+|**Latency (one way)** |< 50 ms |< 30 ms |
+|**Latency (round-trip time, or RTT)** |< 100 ms |< 60 ms |
+|**Burst packet loss** |<10% during any 200-ms interval |<1% during any 200-ms interval |
+|**Packet loss** |<1% during any 15-sec interval |<0.1% during any 15-sec interval |
+|**Packet inter-arrival jitter** |<30 ms during any 15-sec interval |<15 ms during any 15-sec interval |
+|**Packet reorder** |<0.05% out-of-order packets |<0.01% out-of-order packets |
 
 To test both network segments, you can use the [Network Assessment Tool](https://go.microsoft.com/fwlink/?linkid=855799). This tool can be deployed on both the client PC directly and on a PC connected to the Customer Network Edge. The tool includes limited documentation, but a deeper documentation around the usage of the tool can be found here: [Network Readiness Assessment](https://go.microsoft.com/fwlink/?linkid=855800). By running this Network Readiness Assessment, you can validate your network’s readiness to run real-time media applications, such as Microsoft Teams.
 
 > [!NOTE]
 > This is the same Network Readiness Assessment that we recommend be run by customers who are looking to successfully deploy Skype for Business.
-
 
 ### VPN
 
@@ -108,13 +103,13 @@ Like VPN, Wi-Fi networks aren’t necessarily designed or configured to support 
 
 There are several factors that come into play for optimizing a Wi-Fi network:
 
--   Implementing QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic is getting prioritized accordingly over the Wi-Fi networks.
+- Implementing QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic is getting prioritized accordingly over the Wi-Fi networks.
 
--   Planning and optimizing the Wi-Fi bands and access point placement. The 2.4 GHz range might provide an adequate experience depending on access point placement, but access points are often affected by other consumer devices that operate in that range. The 5 GHz range is better suited to real-time media due to their dense range but requires more access points to get sufficient coverage. Endpoints also need to support that range and be configured to leverage those bands accordingly.
+- Planning and optimizing the Wi-Fi bands and access point placement. The 2.4 GHz range might provide an adequate experience depending on access point placement, but access points are often affected by other consumer devices that operate in that range. The 5 GHz range is better suited to real-time media due to their dense range but requires more access points to get sufficient coverage. Endpoints also need to support that range and be configured to leverage those bands accordingly.
 
--   If dual-band Wi-Fi networks are deployed, consider implementing band steering. _Band steering_ is a technique implemented by Wi-Fi vendors to influence dual-band clients to use the 5 GHz range.
+- If dual-band Wi-Fi networks are deployed, consider implementing band steering. _Band steering_ is a technique implemented by Wi-Fi vendors to influence dual-band clients to use the 5 GHz range.
 
--   When access points of the same channel are too close together they can cause signal overlap and unintentionally compete, resulting in a bad experience for the user. Ensure that access points that are next to each other are on channels that don’t overlap.
+- When access points of the same channel are too close together they can cause signal overlap and unintentionally compete, resulting in a bad experience for the user. Ensure that access points that are next to each other are on channels that don’t overlap.
 
 Each wireless vendor has its own recommendations for deploying its wireless solution. We recommend that you consult your vendor for specific guidance.
 
@@ -133,6 +128,7 @@ In the event of a proxy server being deployed, we recommend that you bypass the 
 <!--ENDOFSECTION-->
 
 ## Additional network considerations
+
 ### External name resolution
 
 Ensure that all the client computers running the Teams client can resolve external DNS queries to discover the services provided by Office 365.
@@ -167,17 +163,17 @@ We recommend that you run the connectivity checks on a regular basis to ensure t
 
 To increase user satisfaction, you should limit any impairments on your network. The most common network impairments are delay (latency), packet loss, and jitter:
 
--   **Latency:** This is the time it takes to get an IP packet from point A to point B on the network. This network propagation delay is essentially tied to physical distance between the two points and the speed of light, including additional overhead taken by the various routers in between. Latency is measured as one-way or round-trip time.
+- **Latency:** This is the time it takes to get an IP packet from point A to point B on the network. This network propagation delay is essentially tied to physical distance between the two points and the speed of light, including additional overhead taken by the various routers in between. Latency is measured as one-way or round-trip time.
 
--   **Packet loss**: This is often defined as a percentage of packets that are lost in a given window of time. Packet loss directly affects audio quality—from small, individual lost packets having almost no impact to back-to-back burst losses that cause audio to cut out completely.
+- **Packet loss**: This is often defined as a percentage of packets that are lost in a given window of time. Packet loss directly affects audio quality—from small, individual lost packets having almost no impact to back-to-back burst losses that cause audio to cut out completely.
 
--   **Inter-packet arrival jitter, or simply jitter:** This is the average change in delay between successive packets. Most modern VoIP software, including Skype for Business, can adapt to some levels of jitter through buffering. It's only when the jitter exceeds the buffering that a participant will notice the effects of jitter.
+- **Inter-packet arrival jitter, or simply jitter:** This is the average change in delay between successive packets. Most modern VoIP software, including Skype for Business, can adapt to some levels of jitter through buffering. It's only when the jitter exceeds the buffering that a participant will notice the effects of jitter.
 
 The maximum values for these impairments are described in [Media quality and network connectivity performance](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance). When testing for these impairments, we distinguish between two separate segments:
 
--   The *edge segment* is the segment in which your router lives. This is the closest logical network segment connected to the internet at each of your locations. In most cases, this is the connection point of the router, or possibly a perimeter network (also known as *DMZ*, *demilitarized zone*, and *screened subnet*). No further traffic that affects devices other than the router should occur between this segment and the internet.
+- The *edge segment* is the segment in which your router lives. This is the closest logical network segment connected to the internet at each of your locations. In most cases, this is the connection point of the router, or possibly a perimeter network (also known as *DMZ*, *demilitarized zone*, and *screened subnet*). No further traffic that affects devices other than the router should occur between this segment and the internet.
 
--   The *client segment* is the logical network segment in which your clients reside.
+- The *client segment* is the logical network segment in which your clients reside.
 
 You should test both segments by using the Network Assessment Tool. To test the segment, navigate to the directory and enter **networkassessmenttool.exe** at the command prompt. The results are written to a file named Results.tsv, and you can compare them to the [requirements](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) for each segment.
 
@@ -187,19 +183,18 @@ Note that both segments must meet the requirements for a high-quality deployment
 
 ## Network remediation
 
-If the results of bandwidth planning, port testing, or network requirements testing show that your current network needs remediation before you deploy Teams, you can accomplish this in several ways: 
+If the results of bandwidth planning, port testing, or network requirements testing show that your current network needs remediation before you deploy Teams, you can accomplish this in several ways:
 
--   For insufficient bandwidth, upgrade connections so that traffic to Office 365 can flow unhindered.
+- For insufficient bandwidth, upgrade connections so that traffic to Office 365 can flow unhindered.
 
--   For blocked ports, change firewall rules and retest the ports.
+- For blocked ports, change firewall rules and retest the ports.
 
--   For network impairments, always perform a root-cause analysis.
+- For network impairments, always perform a root-cause analysis.
 
 Quality of service (QoS) can be used to battle impairments by prioritizing and separating traffic. Some organizations choose to deploy QoS to overcome bandwidth issues or restrict the amount of traffic flowing. This won’t improve quality and will lead to new problems. A root-cause analysis should always be performed when network impairments exceed requirements. QoS can be a solution. For more information, see [Quality of Service in Microsoft Teams](qos-in-teams.md).
 
 >[!NOTE]
 >Many networks evolve over time due to upgrades, expansion, or other business requirements. Ensure that you have operational processes in place to maintain these areas as part of your service management planning.
-
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision point</td><td><ul><li>Who will be responsible for completing proper network assessments across all network segments and organization locations?</li></ul></td></tr>
@@ -212,10 +207,10 @@ Quality of service (QoS) can be used to battle impairments by prioritizing and s
 
 These are the main takeaways from this guidance. You must:
 
--   Open TCP ports 80 and 443 outgoing from clients that will use Teams.
+- Open TCP ports 80 and 443 outgoing from clients that will use Teams.
 
--   Open UDP ports 3478 through 3481 outgoing from clients that will use Teams.
+- Open UDP ports 3478 through 3481 outgoing from clients that will use Teams.
 
--   Ensure that you have sufficient bandwidth for deploying Teams by completing the [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
+- Ensure that you have sufficient bandwidth for deploying Teams by completing the [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
 
--   Run the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) and ensure that you meet the requirements described in [Media quality and network connectivity performance](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) from both the edge segment and the client segment.
+- Run the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) and ensure that you meet the requirements described in [Media quality and network connectivity performance](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) from both the edge segment and the client segment.

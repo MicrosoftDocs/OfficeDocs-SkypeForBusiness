@@ -1,9 +1,8 @@
 ---
-title: Upgrade Basic checklist - Microsoft Teams
+title: Upgrade checklist| Skype Business to Teams Upgrade | Basic Steps
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -17,7 +16,8 @@ appliesto:
 ---
 
 <a name="about-upgrade-basic"></a>
-# Upgrade Basic 
+
+# Upgrade Basic
 
 Designed for smaller organizations or those using Skype for Business Online for IM (chat) and meetings only, the Upgrade Basic checklist is an accelerated action plan that includes core, recommended activities and associated resources for implementing a successful move from Skype for Business to Teams.
 
@@ -25,10 +25,10 @@ These ten easy steps provide everything you need for a successful upgrade. They�
 
 What happens to Skype for Business after the upgrade? After your users are upgraded to Teams (**Teams Only** mode):
 
--   Their Skype for Business client is disabled, and all chat and calls go to Teams. Note that this will not uninstall the client on their desktops.
--   Any Skype for Business meetings that were scheduled before the upgrade work as designed, but all new meetings are scheduled in Teams.
--   If users try to sign in to Skype for Business, they get a notification from their client that they’ve been upgraded to Teams.
--   Users need to manually uninstall the Skype for Business client on their mobile devices.
+- Their Skype for Business client is disabled, and all chat and calls go to Teams. Note that this will not uninstall the client on their desktops.
+- Any Skype for Business meetings that were scheduled before the upgrade work as designed, but all new meetings are scheduled in Teams.
+- If users try to sign in to Skype for Business, they get a notification from their client that they’ve been upgraded to Teams.
+- Users need to manually uninstall the Skype for Business client on their mobile devices.
 
 See our [FAQ](https://aka.ms/SkypeToTeams-FAQ) for additional questions about your upgrade.
 
@@ -46,8 +46,8 @@ Senior leaders are accountable for company success; be sure to keep them in the 
 
 **Resources:**
 
--   [Sample email: stakeholder communication](upgrade-emails-surveys.md#step-1-email)
- 
+- [Sample email: stakeholder communication](upgrade-emails-surveys.md#step-1-email)
+
 [Return to top](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
@@ -65,10 +65,10 @@ Teams offers compatible Skype for Business functionality—such as IM (chat) and
 
 **Resources:**
 
--   [Overview of Teams](Teams-overview.md)
--   [Learn about teams and channels](teams-channels-overview.md)
--   [Complete technical planning](quick-start-enable-teams.md#step-3-complete-technical-planning)
--   [Manage Skype Room Systems](https://aka.ms/srsdocs)
+- [Overview of Teams](Teams-overview.md)
+- [Learn about teams and channels](teams-channels-overview.md)
+- [Complete technical planning](quick-start-enable-teams.md#step-3-complete-technical-planning)
+- [Manage Skype Room Systems](https://aka.ms/srsdocs)
 
 [Return to top](#about-upgrade-basic)
 
@@ -84,7 +84,7 @@ Users who are deeply adopted on Skype for Business might need a little more time
 
 **Resources:**
 
--   [See usage data in activity reports in Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [See usage data in activity reports in Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 [Return to top](#about-upgrade-basic)
 
@@ -103,8 +103,8 @@ Providing ample notice to your users will give them time to get familiar with Te
 
 **Resources:**
 
--   [Manage Teams features in your organization](enable-features-office-365.md)
--   [Sample email: announcement to users about Skype for Business](upgrade-emails-surveys.md#step-4-email)
+- [Manage Teams features in your organization](enable-features-office-365.md)
+- [Sample email: announcement to users about Skype for Business](upgrade-emails-surveys.md#step-4-email)
 
 [Return to top](#about-upgrade-basic)
 
@@ -113,13 +113,14 @@ Providing ample notice to your users will give them time to get familiar with Te
 <a name="step-5"></a>
 
 ## Step 5. Activate the user upgrade notification
+
 *(About one week before the upgrade)*
 
 Maintain upgrade momentum by enabling the user upgrade notification via the admin portal, providing a visual alert in the Skype for Business client that users are being upgraded from Skype for Business to Teams.
 
 **Resources:**
 
--   [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+- [Setting your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 
 [Return to top](#about-upgrade-basic)
 
@@ -128,13 +129,14 @@ Maintain upgrade momentum by enabling the user upgrade notification via the admi
 <a name="step-6"></a>
 
 ## Step 6. Remind your users that they’ll be upgrading from Skype for Business to Teams
+
 *(About five days before the upgrade)*
 
 Users are busy with their daily responsibilities. Reminding them of the pending upgrade will help ensure they remember to take the steps they need to prepare for Teams. This is the perfect time to remind users about available training and how to get started with Teams.
 
 **Resources:**
 
--   [Sample email: remind users to get started with Teams](upgrade-emails-surveys.md#step-6-email)
+- [Sample email: remind users to get started with Teams](upgrade-emails-surveys.md#step-6-email)
 
 [Return to top](#about-upgrade-basic)
 
@@ -152,8 +154,8 @@ We recommend that after everyone has been upgraded, you send an email welcoming 
 
 **Resources:**
 
--   [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
--   [Sample email: welcome users to Teams](upgrade-emails-surveys.md#step-7-email)
+- [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
+- [Sample email: welcome users to Teams](upgrade-emails-surveys.md#step-7-email)
 
 [Return to top](#about-upgrade-basic)
 
@@ -169,7 +171,7 @@ Adjusting to a new technology can take some time. Check usage to verify that use
 
 **Resources:**
 
--   [See usage data](https://portal.office.com/AdminPortal/Home#/reportsUsage)
+- [See usage data](https://portal.office.com/AdminPortal/Home#/reportsUsage)
 
 [Return to top](#about-upgrade-basic)
 
@@ -185,7 +187,7 @@ Employee satisfaction can influence productivity, retention, and—ultimately—
 
 **Resources:**
 
--   [Sample email: check in with users](upgrade-emails-surveys.md#step-9-email), plus [user surveys](upgrade-emails-surveys.md#step-9-surveys)
+- [Sample email: check in with users](upgrade-emails-surveys.md#step-9-email), plus [user surveys](upgrade-emails-surveys.md#step-9-surveys)
 
 [Return to top](#about-upgrade-basic)
 
@@ -193,14 +195,14 @@ Employee satisfaction can influence productivity, retention, and—ultimately—
 
 <a name="step-10"></a>
 
-## Step 10. Maximize your ROI with Teams 
+## Step 10. Maximize your ROI with Teams
+
 *(Ongoing)*
-    
+
 After users are comfortable with IM (chat) and meetings in Teams, encourage them to extend their use case by using Teams collaboration and app integration, truly optimizing their new solution and maximizing a return on your investment.
 
 **Resources:**
 
--   [Sample email: encourage users to explore Teams further](upgrade-emails-surveys.md#step-10-email)
+- [Sample email: encourage users to explore Teams further](upgrade-emails-surveys.md#step-10-email)
 
 [Return to top](#about-upgrade-basic)
-

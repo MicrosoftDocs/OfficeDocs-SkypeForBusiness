@@ -1,13 +1,12 @@
 ---
-title: Prepare a user readiness plan before upgrade from Skype for Business to Microsoft Teams - Microsoft Teams
+title: Prepare a user readiness plan; upgrade from Skype for Business to Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Plan to communicate with, train, and support your users as you pilot, onboard and upgrade to Teams  
+description: Plan to communicate with, train, and support your users as you pilot, onboard and upgrade to Teams 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -20,10 +19,10 @@ appliesto:
 
 This article is part of the User Readiness stage of your upgrade journey, an activity you complete in parallel with the Technical Readiness stage. Before proceeding, confirm that you’ve completed these activities from previous stages:
 
--   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
--   [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
--   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
+- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # Prepare a user readiness plan
 
@@ -32,11 +31,10 @@ An optimal user readiness plan incorporates how you’ll communicate with, train
 > [!Tip]
 > Download the [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) for template user readiness materials, such as communications and user surveys, in addition to a sample upgrade project plan and pilot test plan.
 
-|    |     |
-|-----------|------------|
+| | |
+|---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>How can you create a readiness plan to facilitate and accelerate user adoption of the new solution?</li><li>Do you have the right awareness, training, and support resources that align with your users’ ability to deal with change and the user personas you’ve defined?</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Use the list below to generate ideas for your readiness plan. Select the most relevant activities—or add your own—to design a readiness plan optimized for your organization. Remember to use a combination of broad-reach (for your whole organization) and targeted (for laggards or specific personas) campaigns for maximum results.</li></ul>|
-
 
 <div class="mx-tableFixed">
 <table>
@@ -48,6 +46,3 @@ An optimal user readiness plan incorporates how you’ll communicate with, train
 </div>
 
 After you’ve created your user readiness plan and associated resources, and your technical readiness is in place, proceed to [pilot Teams in your organization](https://aka.ms/SkypeToTeams-Pilot).
-
-
-
