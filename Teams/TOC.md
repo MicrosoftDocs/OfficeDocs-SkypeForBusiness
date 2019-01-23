@@ -548,6 +548,7 @@
 ### Monitor call quality
 #### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 #### [Set up QoS in Teams](QoS-in-Teams.md)
+#### [Implement QoS and monitor call quality](monitor-call-quality-qos.md)
 #### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 #### [Set up Call Analytics](set-up-call-analytics.md)
 #### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
