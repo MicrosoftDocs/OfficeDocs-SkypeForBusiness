@@ -301,7 +301,7 @@
 ### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 ### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 ### Technical reference for Direct Routing
-#### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-calls.md)
+#### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 
 ## Phones and phone numbers
 ### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
