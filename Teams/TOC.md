@@ -115,6 +115,8 @@
 
 # [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
+## [Manage meetings settings](meeting-settings-in-teams.md)
+## [What are Messaging policies?](messaging-policies-in-teams.md)
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -122,7 +124,7 @@
 ## [Teams cloud meeting recording](cloud-recording.md)
 ## [Use the Teams Meeting add-in in Outlook](teams-add-in-for-outlook.md)
 ## [Setting up the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Manage meeting policies in Teams](meeting-policies-in-teams.md)
+
 
 ## [Audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
 
