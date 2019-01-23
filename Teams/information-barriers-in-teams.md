@@ -55,9 +55,13 @@ Information barrier policies are checked when the following Teams events take pl
 
 ## What happens to existing chat threads when a policy is changed?
 
-If there is an existing chat or other communication between users, and a new policy is set or an existing policy is modified, existing communications are evaluated to make sure that they aren’t “poisoned” (no longer allowed). If a communication is poisoned, further communication is blocked, and the user’s contribution is deleted from existing threads.
+If there is an existing chat or other communication between users, and a new policy is set or an existing policy is modified, existing communications are evaluated to make sure that they aren’t “poisoned” (no longer allowed). 
 
-When the information  barrier policy admin makes changes to the policy or a policy change kicks into effect because of a user’s job changing or a similar reason, a search needs to be performed on the members to ensure the members in the Team are not violating any policies. Any members who have been removed from the group are removed from the team.  
+- **1:1 chat** - If a communication is poisoned, further communication is blocked, and the chat conversation is deleted.
+- **Group chat** - If a communication is poisoned, further communication is blocked, and the user’s contributions are deleted from existing threads.
+- **Team** - Any members who have been removed from the group are removed from the team. If a communication is poisoned, further communication is blocked, and the user’s contributions are deleted from existing threads.  
+- 
+When the information  barrier policy admin makes changes to the policy or a policy change kicks into effect because of a user’s job changing or a similar reason, a search needs to be performed on the members to ensure the members in the Team are not violating any policies. 
 
 ## More information
 
