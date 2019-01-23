@@ -191,7 +191,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                     <div class="cardText">
                         <h3>Networking & Call Quality</h3>
                          <p><a href="https://aka.ms/teams-quality">Video: Call Quality Overview</a></p>
-                         <p><a href="https://aka.ms/network-planning">Video: Network Planning</a></p>
+                         <p><a href="https://aka.ms/teams-networking">Video: Network Planning</a></p>
                     </div>
                 </div>
             </div>
