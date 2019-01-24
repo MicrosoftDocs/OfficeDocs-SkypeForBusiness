@@ -161,7 +161,10 @@ When a P2P call is escalated to a PSTN conference, the Skype for Business Online
     
     Use the default SIP domain of Cloud Connector (the first SIP domain in the .ini file) as the user domain.
     
-    Please note that license assignment is only required for the user propagation into the Skype for Business online directory. Assign an Office 365 licenses (such as E5) to the account you create, allow up to one hour for the changes to propagate, then remove the license from this account.
+    Please note that license assignment is only required for the user propagation into the Skype for Business online directory. Assign an Office 365 licenses (such as E5) to the account you create, allow up to one hour for the changes to propagate,verify the user accounts has been provisioned correctly to the Skype for Business online directory by running following cmdlet, then remove the license from this account.
+    ```
+   Gets-CsOnlineUser -Identity <UserPrincipalName>
+   ```
     
 2. Start a tenant Azure AD remote PowerShell session using your global or user admin credentials, and then run the following cmdlet to set the department for the Azure AD user account configured in step 1 to "HybridMediationServer":
 

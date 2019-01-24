@@ -104,7 +104,7 @@ public roadmap to determine:
 > [!TIP]
 > The latest Teams roadmap for identifying Phone System with Calling Plans
 > features in scope for your deployment can be found at
-> <https://aka.ms/skype2teamsroadmap>.
+> <https://aka.ms/O365Roadmap>.
 
 Now that the Phone System with Calling Plans persona and features have been
 defined, the next criteria for evaluation will be the interoperability
