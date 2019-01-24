@@ -190,9 +190,6 @@ It’s important that you understand the overall health of the Teams service so 
 
 
 ## Next steps
-- [Audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
-- [Cloud voice](cloud-voice-landing-page.md)
+- [Roll out cloud voice](cloud-voice-landing-page.md)
 - We recommend that you roll out [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) throughout your Teams deployment.
-- Use our [Adoption guidance](adopt-microsoft-teams-landing-page.md) throughout your Teams deployment to help your users get up and running fast.
-
-
+- [Drive adoption](adopt-microsoft-teams-landing-page.md)

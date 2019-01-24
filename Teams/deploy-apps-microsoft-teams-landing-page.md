@@ -90,10 +90,7 @@ You can use activity reports to see how users in your organization are using Tea
 
 
 ## Next steps
-- [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
-- [Audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
-- [Cloud voice](cloud-voice-landing-page.md)
-- Use our [Adoption guidance](adopt-microsoft-teams-landing-page.md) throughout your Teams deployment to help your users get up and running fast.
-
-
-
+- [Roll out meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
+- [Roll out cloud voice](cloud-voice-landing-page.md)
+- We recommend that you roll out [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) throughout your Teams deployment.
+- [Drive adoption](adopt-microsoft-teams-landing-page.md)
