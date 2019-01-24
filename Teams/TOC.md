@@ -619,6 +619,7 @@
 ### [Troubleshoot connectivity issues with the Teams client](connectivity-issues.md)
 ### [Use log files in troubleshooting Teams](log-files.md)
 ### [Verify service health for Teams](service-health.md)
+### [Special character restrictions in Teams policies](special-character-restrictions-in-policy-names.md)
 
 ### Monitor call quality
 #### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)

@@ -129,8 +129,8 @@ For more information about dial plans, see [What are dial plans?](what-are-dial-
 
 |Ask yourself|Action |
 |------------|-------|
-|Does my organization need a customized dial plan?>|To help determine if you need a custom dial plan, see [Planning for tenant dial plans](what-are-dial-plans.md#planning-for-tenant-dial-plans). |
-|>Which users require a customized dial plan, and which tenant dial plan should be assigned to each user?|To add users to a customized dial plan using PowerShell, see [Create and manage dial plans](create-and-manage-dial-plans.md).|
+|Does my organization need a customized dial plan?|To help determine if you need a custom dial plan, see [Planning for tenant dial plans](what-are-dial-plans.md#planning-for-tenant-dial-plans). |
+|Which users require a customized dial plan, and which tenant dial plan should be assigned to each user?|To add users to a customized dial plan using PowerShell, see [Create and manage dial plans](create-and-manage-dial-plans.md).|
 |||
 
 ### Troubleshoot meeting and call quality 
