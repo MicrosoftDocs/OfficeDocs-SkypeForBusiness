@@ -38,49 +38,48 @@ Basic functionalities will continue to work on Skype for Business Online certifi
 
 ## Desk Phones
 
-|Manufacturer | Model| Version| Qualification Date|
+| |Manufacturer | Model| Version| Qualification Date|
 |:--- |:--- |:--- |:--- |
-| AudioCodes | 405HD IP Phone | 3.0.1.89 |6/14/2017|
-| AudioCodes | 420HD IP Phone | UC420HD_2.0.1.44.9 |10/1/2013
-| AudioCodes | 430HD IP Phone | UC430HD_2.0.3.19 |7/2/2014|
-| AudioCodes | 440HD IP Phone | 3.0.1.89 |5/23/2017|
-| AudioCodes | 445HD IP Phone | 3.1.2.89 |12/21/2018|
-| AudioCodes | 450HD IP Phone | 3.0.4.120 |1/12/2018|
-| Polycom | VVX 201 Business Media Phone |5.9.0.9373 |1/22/2019|
-| Polycom | VVX 201 Business Media Phone | 5.3.0.12074 |8/16/2017|
-| Polycom | VVX 300 and 310 |5.9.0.9373 |1/22/2019|
-| Polycom | VVX 300 and 310 | 5.3.0.12074 |8/16/2017|
-| Polycom | VVX 301 and 311 |5.9.0.9373 |1/22/2019|
-| Polycom | VVX 301 and 311 | 5.3.0.12074 |8/16/2017|
-| Polycom | VVX 400 | 5.9.0.9373  |1/22/2019|
-| Polycom | VVX 400 | 5.3.0.12074|8/16/2017|
-| Polycom | VVX 401 | 5.9.0.9373  |1/22/2019|
-| Polycom | VVX 401 | 5.3.0.12074|8/16/2017|
-| Polycom | VVX 410 | 5.9.0.9373  |1/22/2019|
-| Polycom | VVX 410 | 5.3.0.12074 |8/16/2017|
-| Polycom | VVX 411 | 5.9.0.9373  |1/22/2019|
-| Polycom | VVX 411 | 5.3.0.12074 |8/16/2017|
-| Polycom | VVX 500 | 5.9.0.9373  |1/22/2019|
-| Polycom | VVX 500 | 5.3.0.12074 |8/16/2017|
-| Polycom | VVX 501 | 5.9.0.9373  |1/22/2019|
-| Polycom | VVX 501 | 5.3.0.12074 |8/16/2017|
-| Polycom | VVX 600 | 5.9.0.9373  |1/22/2019|
-| Polycom | VVX 600 | 5.3.0.12074 |8/16/2017|
-| Polycom | VVX 601 | 5.9.0.9373  |1/22/2019|
-| Polycom | VVX 601 | 5.6.0.17325 |8/16/2017|
-| Spectralink | 7000 Portfolio Handsets | PCS13Eb |9/4/2013|
-| Spectralink | 84-Series Wireless Telephones | 4.6.0.0008 |9/10/2013|
-| Yealink | T40P Skype for Business Edition | 54.8.0.13 |4/29/2016|
-| Yealink | T41P Skype for Business Edition | x.8.1.62 |7/4/2017|
-| Yealink | T41S Skype for Business edition | 66.9.0.23 |11/30/2017|
-| Yealink | T42G Skype for Business Edition | x.8.1.62 |7/4/2017|
-| Yealink | T42S Skype for Business edition | 66.9.0.23 |11/30/2017|
-| Yealink | T46G Skype for Business Edition | 28.8.1.52 |2/11/2017|
-| Yealink | T46S Skype for Business edition | 66.9.0.23 |4/21/2018|
-| Yealink | T48G Skype for Business Edition | 35.8.1.52 |2/11/2017|
-| Yealink | T48S Skype for Business edition | 66.9.0.23 |4/21/2018|
+| Polycom | VVX 201 Business Media Phone|5.9.0.9373 |1/22/2019|
+| Polycom | VVX 300 and 310|5.9.0.9373 |1/22/2019|
+| Polycom| VVX 301 and 311|5.9.0.9373 |1/22/2019|
+| Polycom| VVX 400|5.9.0.9373 |1/22/2019|
+| Polycom| VVX 401|5.9.0.9373 |1/22/2019|
+| Polycom| VVX 410|5.9.0.9373 |1/22/2019|
+| Polycom| VVX 411|5.9.0.9373 |1/22/2019|
+| Polycom| VVX 500|5.9.0.9373 |1/22/2019|
+| Polycom| VVX 501|5.9.0.9373 |1/22/2019|
+| Polycom| VVX 600|5.9.0.9373 |1/22/2019|
+| Polycom| VVX 601|5.9.0.9373 |1/22/2019|
+| AudioCodes|445HD IP Phone |3.1.2.89 |12/21/2018|
+| Yealink |T46S Skype for Business edition |66.9.0.23 |4/21/2018|
+| Yealink |T48S Skype for Business edition |66.9.0.23 |4/21/2018|
+| AudioCodes |450HD IP Phone |3.0.4.120 |1/12/2018|
+| Yealink |T41S Skype for Business edition |66.9.0.23 |11/30/2017|
+| Yealink |T42S Skype for Business edition |66.9.0.23 |11/30/2017|
+| Polycom |VVX 201 Business Media Phone |5.3.0.12074 |8/16/2017|
+| Polycom |VVX 300 and 310 |5.3.0.12074 |8/16/2017|
+| Polycom |VVX 301 and 311 |5.3.0.12074 |8/16/2017|
+| Polycom |VVX 400 |5.3.0.12074 |8/16/2017|
+| Polycom |VVX 401 |5.3.0.12074 |8/16/2017|
+| Polycom |VVX 410 |5.3.0.12074 |8/16/2017|
+| Polycom |VVX 411 |5.3.0.12074 |8/16/2017|
+| Polycom |VVX 500 |5.3.0.12074 |8/16/2017|
+| Polycom |VVX 501 |5.3.0.12074 |8/16/2017|
+| Polycom |VVX 600 |5.3.0.12074 |8/16/2017|
+| Polycom |VVX 601 |5.6.0.17325 |8/16/2017|
+| Yealink |T41P Skype for Business Edition |x.8.1.62 |7/04/2017|
+| Yealink |T42G Skype for Business Edition |x.8.1.62 |7/04/2017|
+| AudioCodes |405HD IP Phone |3.0.1.89 |6/14/2017|
+| AudioCodes |440HD IP Phone |3.0.1.89 |5/23/2017|
+| Yealink |T46G Skype for Business Edition |28.8.1.52 |2/11/2017|
+| Yealink |T48G Skype for Business Edition |35.8.1.52 |2/11/2017|
+| Yealink |T40P Skype for Business Edition |54.8.0.13 |4/29/2016|
+| AudioCodes |430HD IP Phone |UC430HD_2.0.3.19 |7/02/2014|
+| AudioCodes |420HD IP Phone |UC420HD_2.0.1.44.9 |10/01/2013|
+| Spectralink |84-Series Wireless Telephones |4.6.0.0008 |9/10/2013|
+| Spectralink |7000 Portfolio Handsets |PCS13Eb |9/04/2013|
 | | | | |
-
 
 ## Additional Resources
 
