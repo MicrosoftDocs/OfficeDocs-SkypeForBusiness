@@ -3,7 +3,7 @@ title: Chat, teams, channels, & apps in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150

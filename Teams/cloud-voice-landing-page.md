@@ -3,7 +3,7 @@ title: Cloud voice in Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/07/2019
+ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
