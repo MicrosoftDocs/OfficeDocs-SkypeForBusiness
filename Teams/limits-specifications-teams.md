@@ -42,6 +42,9 @@ Meetings and calls
 |Number of people in a meeting  | 250    |
 |Number of people in a private chat  | 50    |
 
+> [!IMPORTANT]
+> Kiosk workers will not have the ability to schedule Teams Meetings, as by default, AllowChannelMeetingScheduling and AllowPrivateMeetingScheduling are not included with inband provisioning in respect to the TeamsMeetingPolicy. This only applies to Kiosk workers. 
+
 Storage
 -------
 
