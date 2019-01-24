@@ -512,7 +512,7 @@
 #### [What are Communications Credits?](what-are-communications-credits.md)
 #### [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md)
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
-### [Deploying desk phones](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 ### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
@@ -591,6 +591,7 @@
 ### [Phones for Teams](phones-for-teams.md)
 ### [USB audio and video devices](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Meeting room devices and solutions](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Deploying desk phones](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## [Security & compliance](security-compliance-overview.md)
