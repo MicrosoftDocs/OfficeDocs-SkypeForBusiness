@@ -327,23 +327,6 @@
 ### [Emergency call labels](emergency-calling-labels.md)
 
 
-## Practical guidance for large organizations
-### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
-### [Cloud voice guidance](cloud-voice-landing-page.md)
-#### [Define my success](1-envision-define-my-success-cloud-voice.md)
-#### [Make my service decisions - Phone System with Calling Plans](calling-plan-landing-page.md)
-#### [Make my service decisions - Phone System Direct Routing](direct-routing-landing-page.md)
-#### [Evaluate my environment](3-envision-evaluate-my-environment.md)
-#### [Plan my service management](4-envision-plan-my-service-management.md)
-#### [Plan my users' experience](5-envision-plan-my-users-experience.md)
-#### [Document my success plan](6-envision-document-my-success-plan.md)
-#### [Prepare my service](1-onboard-prepare-my-service.md)
-#### [Prepare my users](2-onboard-prepare-my-users.md)
-#### [Deploy my service](3-onboard-deploy-my-service.md)
-#### [Operate my service](1-drive-value-operate-my-service.md)
-#### [Enhance my service](2-drive-value-enhance-my-service.md)
-
-
 ## Reference
 ### [Country and region availability for Calling Plan](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Argentina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
@@ -514,6 +497,22 @@
 #### [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
 
 ### [Microsoft Teams Online Call Flows](microsoft-teams-online-call-flows.md)
+
+## Practical guidance for large organizations
+### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
+### [Cloud voice guidance](cloud-voice-landing-page.md)
+#### [Define my success](1-envision-define-my-success-cloud-voice.md)
+#### [Make my service decisions - Phone System with Calling Plans](calling-plan-landing-page.md)
+#### [Make my service decisions - Phone System Direct Routing](direct-routing-landing-page.md)
+#### [Evaluate my environment](3-envision-evaluate-my-environment.md)
+#### [Plan my service management](4-envision-plan-my-service-management.md)
+#### [Plan my users' experience](5-envision-plan-my-users-experience.md)
+#### [Document my success plan](6-envision-document-my-success-plan.md)
+#### [Prepare my service](1-onboard-prepare-my-service.md)
+#### [Prepare my users](2-onboard-prepare-my-users.md)
+#### [Deploy my service](3-onboard-deploy-my-service.md)
+#### [Operate my service](1-drive-value-operate-my-service.md)
+#### [Enhance my service](2-drive-value-enhance-my-service.md)
 <!-- ============================================================ -->
 
 
