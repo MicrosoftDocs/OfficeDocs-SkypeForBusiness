@@ -114,7 +114,7 @@ Bandwidth planning lets organizations estimate the bandwidth that will be requir
 
 | Ask yourself | Action |
 |--------------|--------|
-| Do I need to do bandwidth planning prior to and during my Meetings rollout? |See [Network Readiness](3-envision-evaluate-my-environment#network-readiness.md) for more information and links to tools to simplify your planning process.|
+| Do I need to do bandwidth planning prior to and during my Meetings rollout? |See [Network Readiness](3-envision-evaluate-my-environment.md#network-readiness) for more information and links to tools to simplify your planning process.|
 |||
 
 ### Meeting recording and archiving
