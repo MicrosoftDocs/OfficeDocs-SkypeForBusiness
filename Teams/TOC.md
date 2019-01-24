@@ -303,7 +303,7 @@
 ### Technical reference for Direct Routing
 #### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 
-## Phones and phone numbers
+## Phone numbers
 ### [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ### [Types of phone numbers used for Calling Plan](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 ### [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -329,11 +329,10 @@
 
 ## Practical guidance for large organizations
 ### [Tutorial: Calling in Teams](Tutorial-calling-in-teams.yml)
-### [Cloud voice deployment guidance](cloud-voice-deployment.md)
+### [Cloud voice guidance](cloud-voice-landing-page.md)
 #### [Define my success](1-envision-define-my-success-cloud-voice.md)
-#### [Make my service decisions - Audio Conferencing](2-envision-make-my-service-decisions-audio-conferencing.md)
-#### [Make my service decisions - Phone System with Calling Plans](2-envision-make-my-service-decisions-phone-system.md)
-#### [Make my service decisions - Phone System Direct Routing](2-envision-make-my-service-decisions-direct-routing.md)
+#### [Make my service decisions - Phone System with Calling Plans](calling-plan-landing-page.md)
+#### [Make my service decisions - Phone System Direct Routing](direct-routing-landing-page.md)
 #### [Evaluate my environment](3-envision-evaluate-my-environment.md)
 #### [Plan my service management](4-envision-plan-my-service-management.md)
 #### [Plan my users' experience](5-envision-plan-my-users-experience.md)
