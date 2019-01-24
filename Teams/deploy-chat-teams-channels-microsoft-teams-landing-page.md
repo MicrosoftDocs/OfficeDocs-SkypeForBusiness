@@ -230,3 +230,10 @@ The use of Microsoft 365 for Government - GCC (government certificate of compete
 |--------------|--------|
 | Will I need to deploy Teams in a Microsoft 365 Government – GCC environment? | For deployment considerations, see [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md).|
 |||
+
+## Next steps
+- [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
+- [Audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
+- [Cloud voice](cloud-voice-landing-page.md)
+- We recommend that you roll out [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) throughout your Teams deployment.
+- Use our [Adoption guidance](adopt-microsoft-teams-landing-page.md) throughout your Teams deployment to help your users get up and running fast.

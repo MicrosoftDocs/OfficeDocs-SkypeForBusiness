@@ -17,11 +17,11 @@ appliesto:
 
 # Meetings & conferencing in Microsoft Teams
 
-You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including [audio conferencing](deploy-audio-conferencing-teams-landing-page.md). Here's how.
+You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including [audio conferencing](deploy-audio-conferencing-teams-landing-page.md), video, and sharing. Here's how. 
 
 ## Meetings & conferencing deployment decisions
 
-Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
+Teams provides a great out-of-the-box experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
 ## Meetings & conferencing prerequisites 
 
@@ -188,5 +188,11 @@ It’s important that you understand the overall health of the Teams service so 
 |Who in my organization will be responsible for managing the meetings service? | Make sure this person has the Teams admin permissions they need in order to manage your meetings service. To learn more about Teams administrator roles see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).|
 |||
 
+
+## Next steps
+- [Audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
+- [Cloud voice](cloud-voice-landing-page.md)
+- We recommend that you roll out [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) throughout your Teams deployment.
+- Use our [Adoption guidance](adopt-microsoft-teams-landing-page.md) throughout your Teams deployment to help your users get up and running fast.
 
 
