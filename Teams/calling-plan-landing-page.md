@@ -23,7 +23,7 @@ This article describes core deployment decisions for Calling Plans as well as ad
 
 ## Learn more about Calling Plans
 
-The following articles provide more information about deploying and using Microsoft Caling Plans:
+The following articles provide more information about deploying and using Microsoft Calling Plans:
 
 - [Phone System in Office 365](what-is-phone-system-in-office-365.md)
 - [Calling Plans for Office 365](calling-plans-for-office-365.md)
