@@ -56,7 +56,7 @@ Teams provides a set of custom administrator roles that can be used to manage Te
 
 Conferencing bridges let people dial into meetings using a phone. You can use the default settings for a conferencing bridge or change the phone numbers (toll and toll-free) and other settings, such as the PIN or the languages that are used.
 
-See [Audio Conferencing in Office 365](audio-conferencing-in-office-365) for learn more.
+See [Audio Conferencing in Office 365](audio-conferencing-in-office-365.md) to learn more.
 
 |Ask yourself|Action |
 |------------|-------|
