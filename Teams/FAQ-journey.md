@@ -132,6 +132,7 @@ Yes. The upgrade notification will simply alert users that Skype for Business wi
 
 See the [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap).
 
+
 ### Which APIs and SDKs will be made available for Teams?
 
 Please visit the [Microsoft Teams developer platform](https://docs.microsoft.com/microsoftteams/platform/) for information about available APIs and SDKs.

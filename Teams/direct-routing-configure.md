@@ -52,7 +52,7 @@ You can use a PowerShell session connected to the tenant to pair the SBC to the 
 After you establish a remote PowerShell session, please validate that you can see the commands to manage the SBC. To validate the commands, type or copy/paste in the following in the PowerShell session and press Enter: 
 
 ```
-gcm *onlinePSTNGateway*
+Get-Command *onlinePSTNGateway*
 ```
 
 Your command will return the four functions shown here that will let you manage the SBC. 
