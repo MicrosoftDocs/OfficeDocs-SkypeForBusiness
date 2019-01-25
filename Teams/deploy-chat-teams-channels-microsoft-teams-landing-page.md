@@ -159,16 +159,6 @@ Organizations that maintain fine-grained control of their internet traffic shoul
 |||
 
 
-### Inline message translation
-
-Inline message translation lets users automatically translate Teams messages into the language specified by their personal language settings for Office 365. The inline message translation feature is turned off by default.
-
-| Ask yourself | Action |
-|--------------|--------|
-| Would the translation feature help my users? | To turn on inline message translation, see [Use inline message translation in Teams](inline-message-translation-teams.md).|
-|||
-
-
 ### Governance (naming conventions, who can create teams)
 
 Your organization might require that you implement controls on how teams are named and classified, who can create teams, and team expiration, retention, and archiving. This is called governance. You can use Azure Active Directory (Azure AD) to configure each of these areas.
