@@ -81,8 +81,6 @@
 
 
 ### Interoperability with Office 365
-#### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
-#### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 #### [Set your coexistence and upgrade settings](setting-your-coexistence-and-upgrade-settings.md)
 #### [Office 365 groups and Teams](office-365-groups.md)
 #### [Enhance existing Office 365 groups with Teams](enhance-office-365-groups.md)
