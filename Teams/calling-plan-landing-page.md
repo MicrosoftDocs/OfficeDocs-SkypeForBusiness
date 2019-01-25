@@ -3,7 +3,7 @@ title: Calling Plans in Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/16/2019
+ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -23,7 +23,7 @@ This article describes core deployment decisions for Calling Plans as well as ad
 
 ## Learn more about Calling Plans
 
-The following articles provide more information about deploying and using Microsoft Caling Plans:
+The following articles provide more information about deploying and using Microsoft Calling Plans:
 
 - [Phone System in Office 365](what-is-phone-system-in-office-365.md)
 - [Calling Plans for Office 365](calling-plans-for-office-365.md)

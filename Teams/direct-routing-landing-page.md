@@ -3,7 +3,7 @@ title:  Phone System Direct Routing
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 01/16/2019
+ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -20,8 +20,10 @@ You've completed [Quick start](get-started-with-teams-quick-start.md). You've ro
 
 This article describes core deployment decisions for Direct Routing as well as additional considerations you may want to configure, based on your organization's needs.  You should also read [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md) for more information about Microsoft's cloud voice offerings.
 
-
 ## Learn more about Direct Routing
+
+> [!Tip]
+> Watch the following session to learn more about Direct Routing: [Direct Routing in Microsoft Teams](https://aka.ms/teams-direct-routing)
 
 The following articles provide more information about configuring and using Phone System Direct Routing. Configuring Direct Routing requires understanding of PSTN routing design. You should read all of these articles to understand how to plan and configure Direct Routing:
 

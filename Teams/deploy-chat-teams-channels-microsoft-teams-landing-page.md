@@ -3,7 +3,7 @@ title: Chat, teams, channels, & apps in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -19,7 +19,7 @@ appliesto:
 Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
 > [!TIP]
-> We recommend that you roll out [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) throughout your Teams deployment.
+> We recommend that you include our featured apps - such as Planner - in your initial Teams rollout. Add other [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
 
 ## Chat deployment prerequisites 
 
@@ -230,3 +230,10 @@ The use of Microsoft 365 for Government - GCC (government certificate of compete
 |--------------|--------|
 | Will I need to deploy Teams in a Microsoft 365 Government – GCC environment? | For deployment considerations, see [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md).|
 |||
+
+## Next steps
+- [Drive adoption](adopt-microsoft-teams-landing-page.md) of chat, teams, channels, & apps.
+- Include featured apps - such as Planner - in your initial Teams rollout. Add other [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
+- [Roll out meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
+- [Roll out cloud voice](cloud-voice-landing-page.md)
+

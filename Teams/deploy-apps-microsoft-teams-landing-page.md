@@ -5,7 +5,7 @@ ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 01/28/2019
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 localization_priority: Priority
@@ -17,8 +17,9 @@ appliesto:
 
 Apps let you find content from your favorite services and share it right in Teams. They help you do things such as pin services at the top of a channel, chat with bots, or share and assign tasks. To learn more, read [Overview of apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
-> [!TIP]
-> We recommend that you roll out apps, bots, & connectors throughout your Teams deployment.
+We recommend that you include our featured apps - such as Planner - in your initial Teams rollout. Add other apps, bots, & connectors as you drive Teams adoption.
+
+
 
 ## Apps deployment decisions
 
@@ -88,5 +89,10 @@ You can use activity reports to see how users in your organization are using Tea
 | <br>Who needs to see the activity reports, and do they have the correct permissions to view them? |<ul><li>If you don't want to assign an admin role to a user, you can [assign the Reports reader role](teams-activity-reports.md#reports-reader-role).</li><li>See [Roles and permissions](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) and [View and assign roles](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal) for information about assigning admin roles in Azure Active Directory.</li></ul> |
 |||
 
+
+## Next steps
+- [Drive adoption](adopt-microsoft-teams-landing-page.md) of featured apps, such as Planner.
+- [Roll out meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
+- [Roll out cloud voice](cloud-voice-landing-page.md)
 
 

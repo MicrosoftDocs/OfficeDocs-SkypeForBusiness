@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.date: 11/06/18
+ms.date: 1/28/2019
 ms.reviewer: LolaJ
 description: Find the right path to rolling out Microsoft Teams in your organization. 
 localization_priority: Priority
@@ -35,15 +35,17 @@ We recommend rolling out Teams in stages, workload by workload, as your organiza
 ![Diagram illustrating Teams deployment pathways](media/how-to-roll-out-teams-image1.png)
 
 
-## Upgrade from Skype for Business, on-premises, or hybrid deployments
+## If you're starting from Skype for Business, on-premises, or hybrid deployments
 
-If you're coming to Teams from Skype for Business (online or on premises), or if you need a hybrid configuration, you still want to follow the step-wise guidance above, but you need to do some extra planning for these configurations. 
+If you're coming to Teams from Skype for Business (online or on premises), or if you need a hybrid configuration, you still want to follow the [recommended path](#recommended-path-to-teams) above for rolling out Teams, but first you need to do some extra planning. Start by reviewing the guidance in the table below that applies to your organization's profile.
 
-|  |Your organization's profile|Guided path  |
+
+
+|  |Your organization's profile|Guidance  |
 |---------|---------|---------|
-|<IMG src="https://docs.microsoft.com/en-us/office/media/icons/migration-blue.svg" alt="Migration" height="50" width="50">|I'm currently using Skype for Business Online, and I'm ready to move to Teams. |Go to [Upgrade from Skype for Business to Microsoft Teams](Journey-SkypeforBusiness-Teams.md).        |
-|<IMG SRC="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="Hybrid" height="50" width="50">|My organization is running Skype for Business Server, and I want to roll out Teams. |For a full-scale Teams rollout, first you need to configure hybrid connectivity between your on-premises environment and Microsoft 365. Start by reading [Plan hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity).     |
-|<IMG src="https://docs.microsoft.com/en-us/office/media/icons/on-premises.svg" alt="On premises" height="50" width="50">|I don't have Skype for Business Server, but I do have an on-premises PSTN solution. How do I integrate that with Teams?|We recommend that you use Phone System Direct Routing to hook up your on-premises PSTN solution with Teams. To get started, read [Plan Direct Routing](direct-routing-plan.md).|
+|<IMG src="https://docs.microsoft.com/en-us/office/media/icons/migration-blue.svg" alt="Migration" height="50" width="50">|I'm currently using Skype for Business Online, and I'm ready to move to Teams. |Go to [Upgrade to Teams](Journey-SkypeforBusiness-Teams.md).        |
+|<IMG SRC="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="Hybrid" height="50" width="50">|My organization is running Skype for Business Server, and I want to roll out Teams. |For a full-scale Teams rollout, first you need to configure hybrid connectivity between your on-premises environment and Microsoft 365. Start by reading [Plan hybrid connectivity between Skype for Business Server and Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>You should also review [Upgrade to Teams](Journey-SkypeforBusiness-Teams.md).    |
+|<IMG src="https://docs.microsoft.com/en-us/office/media/icons/on-premises.svg" alt="On premises" height="50" width="50">|I don't have Skype for Business Server, but I do have an on-premises PSTN solution. I want to roll out Teams, but I want to keep my on-premises PSTN solution. |Roll out Teams following  the [recommended path](#recommended-path-to-teams) above.<br><br>Then read [Plan Direct Routing](direct-routing-plan.md) to learn about using Phone System Direct Routing to hook up your on-premises PSTN solution with Teams.|
 |
 
 

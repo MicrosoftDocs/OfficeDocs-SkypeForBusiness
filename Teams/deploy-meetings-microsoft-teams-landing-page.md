@@ -5,7 +5,7 @@ ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/07/2019
+ms.date: 01/28/2019
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 localization_priority: Priority
@@ -17,11 +17,14 @@ appliesto:
 
 # Meetings & conferencing in Microsoft Teams
 
-You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including [audio conferencing](deploy-audio-conferencing-teams-landing-page.md). Here's how.
+You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Now you're ready to add the meetings workload, including [audio conferencing](deploy-audio-conferencing-teams-landing-page.md), video, and sharing. Here's how. 
+
+> [!Tip]
+> Watch the following session to learn more about Meetings: [Introduction to Meetings in Microsoft Teams for IT Pros](https://aka.ms/teams-meetings-intro)
 
 ## Meetings & conferencing deployment decisions
 
-Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
+Teams provides a great out-of-the-box experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
 ## Meetings & conferencing prerequisites 
 
@@ -114,7 +117,7 @@ Bandwidth planning lets organizations estimate the bandwidth that will be requir
 
 | Ask yourself | Action |
 |--------------|--------|
-| Do I need to do bandwidth planning prior to and during my Meetings rollout? |See [Network Readiness](3-envision-evaluate-my-environment#network-readiness.md) for more information and links to tools to simplify your planning process.|
+| Do I need to do bandwidth planning prior to and during my Meetings rollout? |See [Network Readiness](3-envision-evaluate-my-environment.md#network-readiness) for more information and links to tools to simplify your planning process.|
 |||
 
 ### Meeting recording and archiving
@@ -189,4 +192,8 @@ It’s important that you understand the overall health of the Teams service so 
 |||
 
 
-
+## Next steps
+- [Drive adoption](adopt-microsoft-teams-landing-page.md) of meetings & conferencing throughout your organization.
+- [Add audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
+- [Roll out cloud voice](cloud-voice-landing-page.md)
+- Include featured apps - such as Planner - in your initial Teams rollout. Add other [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.

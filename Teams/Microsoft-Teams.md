@@ -83,7 +83,7 @@ ms.topic: hub-page
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Journey from Skype for Business to Teams</h3>
+                                                <h3>Upgrade from Skype for Business to Teams</h3>
                                                 <P>Find guidance and tools to explore your optimal path to Teams</p>
                                             </div>
                                         </div>

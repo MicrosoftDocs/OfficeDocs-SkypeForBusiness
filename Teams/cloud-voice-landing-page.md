@@ -3,7 +3,7 @@ title: Cloud voice in Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/07/2019
+ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -23,6 +23,9 @@ Cloud voice provides Private Branch Exchange (PBX) capabilities, and options for
 This article helps you decide whether you need to change any of the default cloud voice settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you are more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
 
 We recommend that all organizations work through the core decisions and then, if your organization has additional requirements, review the following material.
+
+> [!Tip]
+> Watch the following session to learn more about Phone System: [Introduction to Phone System in Microsoft Teams](https://aka.ms/teams-phone-system)
 
 ## Learn more about cloud voice
 

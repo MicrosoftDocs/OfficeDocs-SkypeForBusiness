@@ -5,7 +5,7 @@ ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/07/2019
+ms.date: 01/28/2019
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 localization_priority: Priority
@@ -15,7 +15,7 @@ appliesto:
 ---
 # Audio Conferencing in Microsoft Teams
 
-Audio Conferencing is a key component of the Teams meetings workload. Be sure you've reviewed [Meetings rollout](deploy-meetings-microsoft-teams-landing-page.md) as part of rolling out Audio Conferencing in your organization.
+Audio Conferencing is the ability to join a Teams meeting from a regular phone and dial out from a meeting to a phone number. Be sure you've reviewed [Meetings rollout](deploy-meetings-microsoft-teams-landing-page.md) as part of rolling out Audio Conferencing in your organization.
 
 ## Audio Conferencing deployment decisions
 
@@ -142,3 +142,8 @@ Teams gives you two ways to monitor and troubleshoot call quality problems: [Cal
 | Who will be responsible for monitoring and troubleshooting call quality issues? | See [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md) for information about permission levels required to troubleshoot call quality issues.|
 |||
 
+
+## Next steps
+- [Drive adoption](adopt-microsoft-teams-landing-page.md) of audio conferencing in your organization.
+- [Roll out cloud voice](cloud-voice-landing-page.md)
+- Include featured apps - such as Planner - in your initial Teams rollout. Add other [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.

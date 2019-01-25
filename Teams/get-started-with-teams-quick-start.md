@@ -1,9 +1,9 @@
 ---
 title: Get started with Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+author: LolaJacobsen
+ms.author: lolaj
 manager: serdars
-ms.date: 11/06/2018
+ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
@@ -20,7 +20,7 @@ appliesto:
 To get started quickly on Teams, we recommend you create two or three teams and channels for a select group of early adopters. By first rolling out Teams on a small scale, you'll learn Teams by using Teams and gain valuable insights to inform how you deploy Teams across your whole organization. If you're a small business, this Quick start guide is all you need to roll out Teams to your whole organization.
 
 
-Teams lets you quickly pull together a team with people inside and outside your organization, chat with others to drive fast and inclusive conversations, securely share and coauthor documents, and iterate on projects. Customize Teams by adding fingertip access to shared notes, webpages, and apps. Use meetings and calling to collaborate in real time from wherever users are. Teams will simplify your access to Office 365 services and  third-party apps to be the new center of gravity for your collaboration and communication needs. 
+Teams lets you quickly pull together a team with people inside and outside your organization, chat with others to drive fast and inclusive conversations, securely share and coauthor documents, and iterate on projects. Customize Teams by adding fingertip access to shared notes, webpages, and apps. Use meetings and calling to collaborate in real time from wherever users are. Teams will simplify your access to Office 365 services and  third-party apps to be the new center of gravity for your collaboration and communication needs. Encourage your early adopters to install both the desktop and mobile applications for the best experience and most accurate feedback.
 
 ![Get started with Teams](media/get-started-microsoft-teams.png "Screen shot showing the Teams desktop client and mobile client user interface" ) 
 
@@ -42,4 +42,4 @@ Make sure you’ve got Teams licenses for everybody. Check out [Compare Teams pl
 ## Next steps
 Go to [Create your first teams and channels](get-started-with-teams-create-your-first-teams-and-channels.md).
 
-Check out the [Teams Adoption Guide](https://aka.ms/teamstoolkit).
+Learn more with our interactive [Teams Adoption Guide](https://aka.ms/teamstoolkit).
