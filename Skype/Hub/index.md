@@ -33,7 +33,7 @@ description: Skype for Business
                                     </div>
                                 </a>
                             </li>
-                            <li> 
+                            <li>
                                 <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity">
                                     <div class="cardSize">
                                         <div class="cardPadding">
