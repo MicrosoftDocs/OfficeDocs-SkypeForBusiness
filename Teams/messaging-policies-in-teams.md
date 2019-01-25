@@ -32,6 +32,8 @@ The available settings for the policy are described below:
 - **Users can delete sent messages** Use this setting to let users delete messages that they send in chat.
 - **Users can edit sent messages** Use this setting to let users edit the messages that they send in chat.
 - **Read receipts** Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled.
+<a name="bkchat"> </a>
+
 - **Chat**  Turn this setting on if you want users in your organization to be able to use the Teams app to chat with other people.
 - **Use Giphys in conversations**  If you turn this on, users can include Giphys in chat conversations with other people. Giphy is an online database and search engine that allows users to search for and share animated GIF files. Each Giphy is assigned a content rating.
 - **Giphy content rating** 
