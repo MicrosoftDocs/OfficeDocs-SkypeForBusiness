@@ -18,7 +18,7 @@ appliesto:
 
 Cloud Video Interop (CVI) is a Microsoft Qualified third-party solution that enables third-party meeting rooms (telepresence) and personal video devices (VTCs) to join Microsoft Teams meetings.
  
-With Microsoft Teams, you get rich online content collaboration in meetings that include audio, video, and content sharing. This can be enjoyed through not only the desktop and web client, but also through many of our partner devices that integrate natively with Microsoft Teams. However, many customers have already invested in video teleconferencing and personal video communication devices, which can be expensive to upgrade. Cloud Video Interop provides an easy solution, allowing you to keep using your existing solutions until you are ready for an upgrade.
+With Microsoft Teams, you get rich online content collaboration in meetings that include audio, video, and content sharing. This can be enjoyed through the desktop and web client, as well as through many partner devices that integrate natively with Microsoft Teams. However, many customers have already invested in video teleconferencing and personal video communication devices, which can be expensive to upgrade. Cloud Video Interop provides an easy solution, allowing you to keep using your existing solutions until you are ready to upgrade.
 
 With Cloud Video Interop, Microsoft Teams delivers a native meeting experience for all participants – in meeting rooms or inside of Teams clients.
 
@@ -28,8 +28,8 @@ Cloud Video Interop provides an intermediate service while you transition to a f
 
 Cloud Video Interop is intended for customers who meet the following criteria:
 
-- Have a large deployment of Meeting Room Devices and Personal Video Devices deployment (50+ devices) that are not qualified for direct integration with Microsoft Teams
-- Are supported  by our Cloud Video Interop partner(s)
+- Have a large deployment of meeting room devices and personal video devices deployment (50+ devices) that are not qualified for direct integration with Microsoft Teams
+- Are supported by one of our Cloud Video Interop partners
 - Want to retain the value of their investment in their current meeting room devices and personal video devices during the migration to Microsoft Teams
 
 While Cloud Video Interop provides a great intermediate solution, we encourage our customers to look into our native Teams Meeting solutions, such as Room Systems, for the long term. 
@@ -37,9 +37,6 @@ While Cloud Video Interop provides a great intermediate solution, we encourage o
 ### Partners Certified for Microsoft Teams
 
 The following partners have video interop solutions for Microsoft Teams. Your company may choose to work with any combination of these partners within your enterprise. 
-
-![Teams Cloud Video Interop partner solution](media/teams-cloud-video-interop-partner-solution.png)
-
 
 |Partner|Partner solution|
 |----|---|
@@ -49,9 +46,11 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 
 ### Cloud Video Interop overview
 
-Cloud Video Interop is a third-party service that is offered by our partners to provide interoperability between existing Video Conferencing and Personal Video Device solutions and Microsoft Teams. It is deployed in Microsoft Azure and maintained and supported by our partners.
+Cloud Video Interop is a third-party service that is offered by our partners to provide interoperability between existing video conferencing and personal video device solutions and Microsoft Teams. It is deployed in Microsoft Azure and maintained and supported by our partners.
      
 The following diagram shows the high-level architecture of our partner solutions.
+
+![Teams Cloud Video Interop partner solution](media/teams-cloud-video-interop-partner-solution.png)
 
 
 ## Deploy Cloud Video Interop
@@ -66,19 +65,19 @@ During the plan phase, you should identify the devices that you will not replace
 
 It’s also important to understand that you will need a license for each user who will schedule meetings in which you want a Cloud Video Interop-enabled device to join. Note that exact licensing requirements can be obtained from the Cloud Video Interop partner. Ensure that this is clear before you start your deployment.
 
-## Configure
+### Configure
 
 The partner that you have chosen for your CVI deployment will provide you with a full deployment document that consists of all the steps needed to deploy successfully within your organization. This will include firewall ports and IP ranges, configuration changes for you devices, and other settings that need to change.
 
-## Provision  
+### Provision  
 
 During the provision phase, you will assign licenses to the appropriate users according to the partner configuration guide. You will also need to go through the Azure Consent process if applicable to your situation. 
 
-## Schedule
+### Schedule
 
 After a user is enabled for Cloud Video Interop, any meeting scheduled using either the Teams Meeting Add-in for Outlook or the Teams Client will have the appropriate additional information automatically added into the Teams meeting so that Cloud Video Interop-compatible devices can join these meetings.
 
-## Join
+### Join
 
 Depending on the partner solution, there are several ways to join a Cloud Video Interop-enabled meeting. Exact meeting join scenarios will be provided by your Cloud Video Interop partner. We’ve listed some examples below:
 
@@ -94,14 +93,14 @@ Depending on the partner solution, there are several ways to join a Cloud Video 
 
 After Cloud Video Interop is deployed, you can manage the devices using the Call Quality Dashboard to obtain statistics and usage data.
 
-## Call Quality Dashboard
+### Call Quality Dashboard
 <needs input here!!> 
 
-## Troubleshooting Cloud Video Interop
+### Troubleshooting Cloud Video Interop
 
 Cloud Video Interop is a partner-provided service. If you are experiencing issues, the first step is to connect a device that has the Teams Client installed and connect it to the same segment as the Cloud Video Interop device that is causing problems. 
 
-If Teams functions correctly on this segment, and you have also followed all the networking and configuration guidelines the partner has provided you, you will need to contact the partner for further troubleshooting. 
+If Teams functions correctly on this segment, and you have also followed all the networking and configuration guidelines the partner has provided, you will need to contact the partner for further troubleshooting. 
 
 ## Powershell for Cloud Video Interop
 
