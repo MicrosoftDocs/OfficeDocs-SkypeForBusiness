@@ -35,7 +35,7 @@ We recommend rolling out Teams in stages, workload by workload, as your organiza
 ![Diagram illustrating Teams deployment pathways](media/how-to-roll-out-teams-image1.png)
 
 
-## Upgrade from Skype for Business, on-premises, or hybrid deployments
+## If you're starting from Skype for Business, on-premises, or hybrid deployments
 
 If you're coming to Teams from Skype for Business (online or on premises), or if you need a hybrid configuration, you still want to follow the step-wise guidance above, but you need to do some extra planning for these configurations. 
 
