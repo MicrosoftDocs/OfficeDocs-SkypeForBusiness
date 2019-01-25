@@ -24,15 +24,15 @@ With Cloud Video Interop, Microsoft Teams delivers a native meeting experience f
 
 ### Is Cloud Video Interop for me?
 
-Cloud Video Interop provides an intermediate service while you transition to a full Microsoft Teams solution. The service provided should be part of your migration part.
+Cloud Video Interop provides an intermediate service while you transition to a full native Microsoft Teams Solution, using Teams endpoints. The service provided should be part of your migration path.
 
 Cloud Video Interop is intended for customers who meet the following criteria:
 
 - Have a large deployment of meeting room devices and personal video devices deployment (50+ devices) that are not qualified for direct integration with Microsoft Teams
 - Are supported by one of our Cloud Video Interop partners
-- Want to retain the value of their investment in their current meeting room devices and personal video devices during the migration to Microsoft Teams
+- Want to retain the value of their investment in their current meeting room devices and personal video devices during the migration to a native Microsoft Teams solution
 
-While Cloud Video Interop provides a great intermediate solution, we encourage our customers to look into our native Teams Meeting solutions, such as Room Systems, for the long term. 
+While Cloud Video Interop provides a great intermediate solution, we encourage our customers to look into our native Teams Meeting solutions, such as Teams Room Systems, for the long term. 
 
 ### Partners Certified for Microsoft Teams
 
@@ -46,7 +46,9 @@ The following partners have video interop solutions for Microsoft Teams. Your co
 
 ### Cloud Video Interop overview
 
-Cloud Video Interop is a third-party service that is offered by our partners to provide interoperability between existing video conferencing and personal video device solutions and Microsoft Teams. It is deployed in Microsoft Azure and maintained and supported by our partners.
+Cloud Video Interop is a third-party service that is offered by our partners to provide interoperability between existing video conferencing and personal video device solutions on premises, and Microsoft Teams.
+
+The solutions offered by our partners consist of components that can be deployed either fully cloud based or partially/fully on premises. 
      
 The following diagram shows the high-level architecture of our partner solutions.
 
@@ -67,11 +69,11 @@ It’s also important to understand that you will need a license for each user w
 
 ### Configure
 
-The partner that you have chosen for your CVI deployment will provide you with a full deployment document that consists of all the steps needed to deploy successfully within your organization. This will include firewall ports and IP ranges, configuration changes for you devices, and other settings that need to change.
+The partner that you have chosen for your CVI deployment will provide you with a full deployment document that consists of all the steps needed to deploy successfully within your organization. This will include firewall ports and IP ranges, configuration changes for your devices, and other settings that need to change.
 
 ### Provision  
 
-During the provision phase, you will assign licenses to the appropriate users according to the partner configuration guide. You will also need to go through the Azure Consent process if applicable to your situation. 
+During the provision phase, you will assign licenses to the appropriate users according to the partner configuration guide. You will also need to go through the Azure Consent process to provide the partner access to your Teams environment. More information on the Azure Consent process can be found here: https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
 
 ### Schedule
 
@@ -91,10 +93,9 @@ Depending on the partner solution, there are several ways to join a Cloud Video 
 
 ## Manage Cloud Video Interop
 
-After Cloud Video Interop is deployed, you can manage the devices using the Call Quality Dashboard to obtain statistics and usage data.
+After Cloud Video Interop is deployed, you can manage the devices using the solutions provided by our partners. Each partner will provide you with an administrative interface that will include both license and device management. 
 
-### Call Quality Dashboard
-<needs input here!!> 
+Reporting is also available directly from the partner administrative interface. For more information on reporting capabilities, contact the partner of your choice. 
 
 ### Troubleshooting Cloud Video Interop
 
@@ -102,9 +103,9 @@ Cloud Video Interop is a partner-provided service. If you are experiencing issue
 
 If Teams functions correctly on this segment, and you have also followed all the networking and configuration guidelines the partner has provided, you will need to contact the partner for further troubleshooting. 
 
-## Powershell for Cloud Video Interop
+## PowerShell for Cloud Video Interop
 
-The following Powershell Cmdlets are available for you to (partially) automate the Cloud Video Interop deployment.
+The following PowerShell cmdlets are available for you to (partially) automate the Cloud Video Interop deployment.
 
 - **Get-CsTeamsVideoInteropServicepolicy**: Microsoft provides pre-constructed policies for each of our supported partners that allow you to designate which partner(s) to use for Cloud Video Interop.<br>This cmdlet allows you to identify the pre-constructed policies that you can use in your organization. You can assign this policy to one or more of your users by leveraging the Grant-CsTeamsVideoInteropServicePolicy cmdlet.
 - **Grant-CsTeamsVideoInteropServicePolicy**: This cmdlet allows you to assign a pre-constructed policy for use in your organization or assign the policy to specific users.
