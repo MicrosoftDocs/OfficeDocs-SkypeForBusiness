@@ -52,6 +52,9 @@ Basic functionalities will continue to work on Skype for Business Online certifi
 | Polycom| VVX 600|5.9.0.9373 |1/22/2019|
 | Polycom| VVX 601|5.9.0.9373 |1/22/2019|
 | AudioCodes|445HD IP Phone |3.1.2.89 |12/21/2018|
+|Polycom |VVX 250 |5.8.0.12848 |8/27/2018|
+|Polycom |VVX 350 |5.8.0.12848 |8/27/2018|
+|Polycom |VVX 450 |5.8.0.12848 |8/27/2018|
 | Yealink |T46S Skype for Business edition |66.9.0.23 |4/21/2018|
 | Yealink |T48S Skype for Business edition |66.9.0.23 |4/21/2018|
 | AudioCodes |450HD IP Phone |3.0.4.120 |1/12/2018|
