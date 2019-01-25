@@ -90,6 +90,9 @@ This is what the report looks like.
      *    **MCOMEETADD** - Audio Conferencing
      *    **MCOMEETACPEA** - Pay Per Minute Audio Conferencing
 > [!NOTE]
+> If you would like to run a report to include only pay per minute calls that are not included in your calling or conferencing subscription, filter the report with capability "MCOPSTNPP". Doing so will provide an itemization of all pay per minute calls.  For pay per minute audio conferencing, filter by "MCOMEETACPEA" instead of "MCOPSTNPP".  
+***
+> [!NOTE]
 > You may also see "no data" in some fields. "No data" means the field is not applicable to the call type or capability. 
 ***
 ![Number 2](../images/sfbcallout2.png)<br/>Click to drag a column to **To group by a particular column, drag and drop the column header here** if you want to create a view that groups all of the data in one or more columns.
