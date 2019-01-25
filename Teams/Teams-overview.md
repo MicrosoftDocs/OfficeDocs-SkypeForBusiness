@@ -22,7 +22,7 @@ If you're new to Teams and want to learn more, read on.
 
 ## Overview of Teams
 
-If you're new to Teams, watch this short video, [Welcome to Teams](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams). Teams is built on Office 365 groups, Office Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). When you create a team, here's what gets created:
+If you're new to Teams, watch this short video, [Welcome to Teams](https://youtu.be/s3aQV3T0D6c). Teams is built on Office 365 groups, Office Graph, and the same enterprise-level security, compliance, and manageability as the rest of Office 365. Teams leverages identities stored in Azure Active Directory (Azure AD). When you create a team, here's what gets created:
 - A new [Office 365 group](office-365-groups.md)
 - A [SharePoint Online](sharepoint-onedrive-interact.md) site and document library to store team files
 - An [Exchange Online](exchange-teams-interact.md) shared mailbox and calendar
