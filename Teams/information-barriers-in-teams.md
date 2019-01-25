@@ -3,7 +3,7 @@ title: Information barriers in Microsoft Teams (coming soon)
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/23/2019
+ms.date: 01/25/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -17,6 +17,10 @@ appliesto:
 # Information barriers in Microsoft Teams
 
 Information barriers are policies that an admin can configure to prevent individuals or groups from communicating with each other. This is useful if, for example, one department is handling information that shouldn’t be shared with other departments or a group needs to be prevented from communicating with any outside contacts.
+
+
+> [!NOTE]
+> Information barrier groups cannot be created across tenants.
 
 ## Background
 
@@ -45,7 +49,6 @@ Information barrier policies are managed with the following Security & Complianc
 
 > [!IMPORTANT]
 > Before you set up or define policies, **you must enable scoped directory search in Microsoft Teams**. Wait at least 24 hours after enabling scoped directory search before you set up or define policies for information barriers.
-
 
 ## Information barriers administrator role
 
