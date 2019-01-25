@@ -167,7 +167,7 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
 |Navigate a list of your meetings  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Join a meeting even if you don't have a Skype for Business account  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |View more information about meeting participants  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Start an unscheduled group conversation with multiple participants directly from your client or device  <br/> |&#x2714;|&#x2714;|&#x2714;||
+|Start an unscheduled group conversation with multiple participants (Meet Now) directly from your client or device  <br/> |&#x2714;|&#x2714;|&#x2714;||
    
  &#x2776;  For Office 365 users, this feature requires Enterprise Voice, which is part of the E5 license.
   
