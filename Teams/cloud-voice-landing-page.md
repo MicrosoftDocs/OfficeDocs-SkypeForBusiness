@@ -130,8 +130,6 @@ Phone System call queues include greetings that are used when someone calls in t
 
 Phone System auto attendants can be used to create a menu system for your organization that lets external and internal callers move through a menu system to locate and place or transfer calls to company users or departments in your organization.
 
-For more information, see [What are Phone System auto attendants](what-are-phone-system-auto-attendants.md).
-
 |Ask yourself|Action |
 |:------------|:-------|
 | Does my organization need auto attendants? | For more information, see [What are Phone System auto attendants](what-are-phone-system-auto-attendants.md) and [Set up a Phone System auto attendant](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
