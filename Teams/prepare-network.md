@@ -18,6 +18,10 @@ appliesto:
 Prepare your organization's network for Microsoft Teams
 =================================================
 
+> [!Tip]
+> Watch the following session to learn how to Teams leverages your network and how to best plan for optimal network connectivity: [Teams Network Planning](https://aka.ms/teams-networking)
+
+
 Teams combines three forms of traffic:
 
 -   Data traffic between the Office 365 online environment and the Teams client (signaling, presence, chat, file upload and download, OneNote synchronization).

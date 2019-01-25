@@ -1,13 +1,12 @@
 ---
-title: Upgrade from a Skype for Business hybrid deployment to Teams - Microsoft Teams
+title: Upgrade Skype for Business hybrid deployment to Microsoft Teams | PSTN
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Considerations for upgrading to Teams from a Skype for Business hybrid deployment.  
+description: Considerations for upgrading to Teams from a Skype for Business hybrid deployment. 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -20,13 +19,13 @@ appliesto:
 
 This article is part of Deployment and Implementation stage of your upgrade journey. Before proceeding, confirm that you’ve completed the following activities:
 
--   [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
--   [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
--   [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
--   [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
--   [Prepared your environment](https://aka.ms/SkypeToTeams-TechnicalReadiness)
--   [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
--   [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
+- [Enlisted your project stakeholders](upgrade-enlist-stakeholders.md)
+- [Defined your project scope](https://aka.ms/SkypetoTeams-Scope)
+- [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Prepared your environment](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Prepared your organization](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Conducted a pilot](https://aka.ms/SkypeToTeams-Pilot)
 
 # Upgrade from a Skype for Business hybrid deployment to Teams
 

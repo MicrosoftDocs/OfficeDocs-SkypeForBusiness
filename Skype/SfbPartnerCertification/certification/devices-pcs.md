@@ -372,7 +372,5 @@ All of these form factors are tested to deliver:
 > [!NOTE]
 > Monitors require an embedded camera and embedded speakerphone, both passing Lync Logo specs (including USB HID support). The display is not tested.
 
-[View PC's and devices certified for Skype for Business.](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
-
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 

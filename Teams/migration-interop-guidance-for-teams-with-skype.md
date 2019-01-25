@@ -18,9 +18,8 @@ appliesto:
 > [!Tip] 
 > Watch the following session to learn about [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)
 
-Interop and migration are managed using “coexistence mode” as determined by TeamsUpgradePolicy. Selection of the user’s mode governs both routing of incoming calls and chats and whether user schedules meetings in Teams or Skype for Business.  Soon, in conjunction with the upcoming TeamsAppPermissionsPolicy, mode will also govern in which client the user can initiate chats and calls. 
+As an organization with Skype for Business starts to adopt Teams, administrators can manage the user experience in their organization using the concept of coexistence "mode" which is a property of TeamsUpgradePolicy. Using mode, administrators manage interop and migration as they manage the transition from Skype for Business to Teams.  A user's mode determines in which client incoming chats and calls land as well as in what service (Teams or Skype for Business) new meetings are scheduled in. In the future, mode will also be used to define Teams client behavior in terms of what functionality will be available. 
 
-TeamsInteropPolicy has been retired. Its functionality has been consolidated into TeamsUpgradePolicy, and configuring TeamsInteropPolicy is no longer required and in general is not warranted. TeamsInteropPolicy was not honored unless TeamsUpgradePolicy has mode=Legacy, but that mode is has been retired.  Now that TeamsUpgradePolicy support is complete, *customers must update their configurations to use a mode other than Legacy*. Granting instances of TeamsUpgradePolicy with mode=Legacy is now blocked.  Microsoft is in the process of removing all instances of TeamsInteropPolicy and any instances of TeamsUpgradePolicy with mode=Legacy.
 
 ## Fundamental concepts
 
@@ -33,16 +32,19 @@ TeamsInteropPolicy has been retired. Its functionality has been consolidated int
     - Users already using Skype for Business/Lync on-premises use their existing on-premises account.
     - Users for whom we cannot detect an existing Skype for Business account will have a Skype for Business Online account automatically provisioned when the Teams user is created. No Skype for Business license is required.
 
-4.  If you have an on-premises deployment of either Skype for Business or Lync, and you want those users to be Teams users, you must at a minimum ensure that Azure AD Connect is syncing the msRTCSIP-DeploymentLocator attribute into AAD, so that Teams/Skype for Business Online properly detects your on-premises environment. Furthermore, to move any users to Teams-only mode (i.e., upgrade a user), *you must configure Skype for Business hybrid mode*. For more details, see [Configure Azure AD Connect for Skype for Business and Teams](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect).
+4.  If you have an on-premises deployment of either Skype for Business or Lync, and you want those users to be Teams users, you must at a minimum ensure that Azure AD Connect is syncing the msRTCSIP-DeploymentLocator attribute into AAD, so that Teams/Skype for Business Online properly detects your on-premises environment. Furthermore, to move any users to Teams-only mode (i.e., upgrade a user), *you must first configure Skype for Business hybrid mode*. For more details, see [Configure Azure AD Connect for Skype for Business and Teams](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 
 5.  Interop between Teams and Skype for Business users is only possible *if the Teams user is homed online in Skype for Business*. The recipient Skype for Business user can be homed either on-premises (and requires configuring Skype for Business Hybrid) or online. Users who are homed in Skype for Business on-premises can use Teams in Islands mode (defined later in this doc), but they cannot use Teams to interop or federate with other users who are using Skype for Business.  
 
-6.  To upgrade a user to Teams (i.e., grant them TeamsUpgradePolicy with Mode=TeamsOnly), the user must be homed online in Skype for Business. This is required to ensure interop, federation, and full administration of the Teams user. To upgrade users who are homed on-premises, use `Move-CsUser` from the on-premises admin tools to first move the user to Skype for Business Online. For details see [Move users between on-premises and cloud](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud). In summary, there are 2 options:
+6.	Upgrade and interop behavior are determined based on Coexistence mode of a user, which is managed by TeamsUpgradePolicy. TeamsInteropPolicy is no longer honored and granting mode=Legacy is no longer allowed. 
 
-    - If you have Skype for Business Server 2019 or CU8 for Skype for Business Server 2015, specify the `-MoveToTeams` switch in `Move-CsUser` to move the user directly to Teams.
-    - Otherwise, after `Move-CsUser` completes, assign TeamsOnly mode to that user using either PowerShell or the Teams Admin Center. 
+7.  Upgrading a user to the TeamsOnly mode ensures that all incoming chats and calls will always land in the user's Teams client, regardless of what client it orignated from. These users will also schedule all new meetings in Teams. To be in TeamsOnly mode, a user must be homed online in Skype for Business. This is required to ensure interop, federation, and full administration of the Teams user.To upgrade a user to TeamsOnly:
+    A. If the user is homed in Skype for Business online (or never had any Skype account), grant them TeamsUpgradePolicy with Mode=TeamsOnly using the "UpgradeToTeams" instance using PowerShell, or use the Teams Admin Center to select the TeamsOnly mode.
+    B. If the user is homed on-premises, use `Move-CsUser` from the on-premises admin tools to first move the user to Skype for Business Online. There are 2 options when moving users from on-premises:  
+      - If you have Skype for Business Server 2019 or CU8 for Skype for Business Server 2015, you can specify the `-MoveToTeams` switch in `Move-CsUser` to move the user directly to Teams. This option will also migrate the user's meetings to Teams (although for now, meeting migration is only functional for TAP customers). 
+       - Otherwise, after `Move-CsUser` completes, assign TeamsOnly mode to that user using either PowerShell or the Teams Admin Center.  
+     For details see [Move users between on-premises and cloud](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  For more details on meeting migration, see [Using the Meeting Migration Service (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
-7.	The core policy for managing upgrade and interop is TeamsUpgradePolicy. TeamsInteropPolicy is no longer honored except when using TeamsUpgradePolicy mode=Legacy, and customers using mode=Legacy must update their configuration of TeamsUpgradePolicy to use a different mode.  Granting mode=Legacy is no longer allowed. 
 
 8.	To use Teams Phone System features with Teams, users must be in TeamsOnly mode (i.e., homed in Skype for Business Online and upgraded to Teams), and they must either be configured for Microsoft Phone System [Direct Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (which allows you to use Phone System with your own SIP trunks and SBC) or have an Office 365 Calling Plan.   
 
@@ -55,9 +57,9 @@ Interop and migration are managed based on “coexistence mode” using TeamsUpg
 
 - *Incoming routing*: In which client (Teams or Skype for Business) do incoming chats and calls land? 
 - *Meeting scheduling*: Which service is used for scheduling new meetings and ensuring that the proper add-in is present in Outlook. Note that TeamsUpgradePolicy does not govern meeting join. Users can always *join* any meeting, whether it be a Skype for Business meeting or a Teams meeting.
-- *Client experience*: What functionality is available in Teams and/or Skype for Business client? This is implemented for TeamsOnly mode. Support for other modes is dependent on the upcoming TeamsAppPermissionsPolicy. When this new policy is in place, TeamsUpgradePolicy will have a dependency on it to ensure that Teams is configured properly for the desired mode.
+- *Client experience*: What functionality is available in Teams and/or Skype for Business client? This is implemented for TeamsOnly mode. Support for other modes is planned for the future. 
 
-The planned modes are listed below. SfBWithTeamsCollab and SfBWithTeamsCollabAndMeetings will allow mixed usage of both clients, but with no overlapping functionality. Islands mode allows usage of both clients, but with overlapping functionality. For example, in Islands mode, a user could initiate a chat in either Skype for Business or Teams, but in SfBWithTeamsCollab, they can only chat in Skype for Business (although they can participate in Teams channel conversations). Note that not all modes are yet fully available.  
+The modes are listed below. SfBWithTeamsCollab and SfBWithTeamsCollabAndMeetings will allow mixed usage of both clients, but with no overlapping functionality. Islands mode allows usage of both clients, but with overlapping functionality. For example, in Islands mode, a user could initiate a chat in either Skype for Business or Teams, but in SfBWithTeamsCollab, they can only chat in Skype for Business (although they can participate in Teams channel conversations). Note that the Client expeirence for the SfB modes is not yet fully functional.  
 </br>
 </br>
 
@@ -74,7 +76,7 @@ The planned modes are listed below. SfBWithTeamsCollab and SfBWithTeamsCollabAnd
 
 <sup>1</sup> For details on PSTN calling, see table at the end of this document.
 
-<sup>2</sup> SfBWithTeamsCollab and SfBWithTeamsCollabAndMeetings are not yet exposed in the admin user experience because they currently behave no differently than SfBOnly mode. Once the client experience is delivered, these modes will be available. 
+<sup>2</sup> SfBWithTeamsCollab and SfBWithTeamsCollabAndMeetings are not yet exposed in the admin user experience because they currently behave no differently than SfBOnly mode, except for controlling the Outlook Add-ins. Once the client experience is delivered, these modes will be available in the Admin Portal. 
 
 ## TeamsUpgradePolicy: managing migration and co-existence
 
@@ -84,7 +86,7 @@ TeamsUpgradePolicy exposes two key properties: Mode and NotifySfbUsers.
 
 |Parameter|Type|Allowed values</br>(default in italics)|Description|
 |---|---|---|---|
-|Mode|Enum|*Islands*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings</br>Legacy|Indicates the mode the client should run in. If mode=Legacy, components consuming this policy will revert to honoring TeamsInteropPolicy. TeamsUpgradePolicy is now fully supported and customers should update their configurations use modes other than Legacy.|
+|Mode|Enum|*Islands*</br>TeamsOnly</br>SfBOnly</br>SfBWithTeamsCollab</br>SfBWithTeamsCollabAndMeetings|Indicates the mode the client should run in.|
 |NotifySfbUsers|Bool|*False* or true|Indicates whether to show a banner in the Skype for Business client informing the user that Teams will soon replace Skype for Business. This cannot be true if Mode=TeamsOnly.|
 |||||
 
@@ -92,33 +94,25 @@ Teams provides all relevant instances of TeamsUpgradePolicy via built-in, read-o
 </br>
 </br>
 
-|Identity|Mode|NotifySfbUsers|Comments|
-|---|---|---|---|
-|Islands|Islands|False||
-|IslandsWithNotify|Islands|True||
-|SfBOnly|SfBOnly|False|For now, this mode is effectively the same as setting preferred client=SfB. We expect in the future this will restrict Teams functionality.|
-|SfBOnlyWithNotify|SfBOnly|True|For now, this mode is effectively the same as setting preferred client=SfB. We expect in the future this will restrict Teams functionality.|
-|SfBWithTeamsCollab|SfBWithTeamsCollab|False|This mode exists at the PowerShell layer but is not yet exposed in the admin user experience. From a routing perspective, this is the same as SfBOnly mode. When TeamsAppPolicy is available, this will only allow Channels in Teams app.|
-|SfBWithTeamsCollabWithNotify|SfBWithTeamsCollab|True|This mode exists at the PowerShell layer but is not yet exposed in the admin user experience. From a routing perspective, this is the same as SfBOnly mode. When TeamsAppPolicy is available, this will only allow Channels in Teams app.|
-|SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|False|This mode exists at the PowerShell layer but is not yet exposed in the admin user experience. From a routing perspective, this is the same as SfBOnly mode. When TeamsAppPolicy is available, this will  allow Channels and meeting scheduling in Teams.|
-|SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|True|This mode exists at the PowerShell layer but is not yet exposed in the admin user experience. From a routing perspective, this is the same as SfBOnly mode. When TeamsAppPolicy is available, this will allow Channels and meeting scheduling in Teams.|
-|UpgradeToTeams|TeamsOnly|False|Use this mode to upgrade users to Teams and to prevent chat, calling, and meeting scheduling in Skype for Business.|
-|Global|Islands|False|The is the default policy.|
-|||||
+|Identity|Mode|NotifySfbUsers|
+|---|---|---|
+|Islands|Islands|False|
+|IslandsWithNotify|Islands|True|
+|SfBOnly|SfBOnly|False|
+|SfBOnlyWithNotify|SfBOnly|True|
+|SfBWithTeamsCollab|SfBWithTeamsCollab|False|
+|SfBWithTeamsCollabWithNotify|SfBWithTeamsCollab|True|
+|SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|False|
+|SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|True|
+|UpgradeToTeams|TeamsOnly|False|
+|Global</br>*Default*|Islands|False|
+||||
 
 These policy instances can be granted either to individual users or on a tenant-wide basis. For example:
 - To upgrade a user ($SipAddress) to Teams, grant the “UpgradeToTeams” instance:</br>
 `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress`
 - To upgrade the entire tenant, omit the identity parameter from the grant command:</br>
 `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`
-
-
-
-## TeamsInteropPolicy and Legacy Mode being retired 
-
-As described previously, TeamsInteropPolicy has been replaced by TeamsUpgradePolicy. All components that previously honored TeamsInteropPolicy have been updated to honor TeamsUpgradePolicy instead. 
-
-Microsoft previously introduced the “Legacy” mode in TeamsUpgradePolicy to facilitate the transition from TeamsInteropPolicy to TeamsUpgradePolicy. In Legacy mode, routing components that understood TeamsUpgradePolicy would revert back to TeamsInteropPolicy. Routing now fully supports TeamsUpgradePolicy and there is no further need to use Legacy mode. *Customers using Legacy mode must update their configuration of TeamsUpgradePolicy to use one of the other modes.* 
 
 
 ## Federation Considerations
@@ -131,16 +125,53 @@ TeamsUpgradePolicy governs routing for incoming federated chats and calls. Feder
 - Chats and calls initiated from SfB always land in SfB.
 
 
-## Completing the transition to mode management
+## The intended client user experience in Teams when using SfB modes
 
-Later this year, Microsoft plans to introduce a new policy type, TeamsAppPermissionsPolicy, to control what portions of Teams client are enabled (such as IM, Meetings, Chat, Channels). When the new policy to enable/disable workloads in Teams becomes available, TeamsUpgradePolicy will be updated so that when an admin attempts to grant an instance of TeamsUpgradePolicy to a user, it will first check to ensure that TeamsAppPolicy is properly configured for the desired mode. If not, the grant will fail with an error explaining how the other policy must first be set. 
+When users are in any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings), *calling and chat functionality in the Teams app is intended to be disabled*, but currently it is not yet disabled. Similarly, when users are in the SfBOnly or SfBWithTeamsCollab modes, *meeting scheduling in Teams is intended to be disabled*, but it currently is not. A solution to automatically provide this experience is planned.
 
-Until TeamsAppPermissionsPolicy becomes available, TeamsUpgradePolicy essentially governs routing of calls and chats, as well as meeting scheduling (as exposed through Outlook add-ins). Because client behavior of Teams is not yet in place, not all modes are enabled in Modern Portal. From a routing perspective, the SfBOnly, SfBWithTeamsCollab, and SfBWithTeamsCollabAndMeetings modes are identical. 
+Until this solution is delivered, administrators can enforce the intended client experience of the TeamsUpgradePolicy mode by manually configuring the values of TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy. Furthermore, when using `Grant-CsTeamsUpgradePolicy` in PowerShell, the cmdlet will automatically check the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determmine if these settings are compatible with the specified mode. If any are not configured properly, the grant will succeed but a warning will be provided indicating which settings are not configured properly. The administrator should subsequently update the indicated policies to deliver a compatible end user experience in Teams. If the administrator decides to take no action as a result of the warning, users may still have access to chat, calling, and/or meeting scheduling capabilities in Teams depending on the values of TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy, which may result in a confusing end user experience.
+
+### Expected values of workload policy settings per mode
+The table shows the policy settings that are checked when TeamsUpgradeMode is granted. In the future, the intent is for SfBOnly mode to also disable channels in Teams; however, there is currently no setting that allows the channels feature in Teams to be disabled.
 
 
+|**Modality (App)**|**Policy.Setting**|
+|---|---|
+|Chat|TeamsMessagingPolicy.AllowUserChat|
+|Calling|TeamsCallingPolicy.AllowPrivateCalling|
+|Meeting scheduling|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
+|||
 
-## Action required for organizations that are using Mode=Legacy and/or TeamsInteropPolicy
-Customers using mode=Legacy in TeamsUpgradePolicy (policy instance = NoUpgrade or policy instance = NotifyForTeams) must update their configuration to use a policy with a mode other than legacy.  In addition, customers using TeamsInteropPolicy should remove any assignments of this policy since it is no longer used by the system, except when in Legacy mode, which is being retired.  Note that is it is no longer possible to grant Legacy mode. 
+The below show shows, for a given mode, the expected values of these settings:
+
+|Mode|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
+|---|---|---|---|---|
+|TeamsOnly or Islands|Enabled|Enabled|Enabled|Enabled|
+|SfBWithTeamsCollabAndMeetings|Disabled|Disabled|Enabled|Enabled|
+|SfBWithTeamsCollab or SfBOnly|Disabled|Disabled|Disabled|Disabled|
+||||||
+
+
+If any other combination of these settings is detected during Grant-CsTeamsUpgradePolicy, the grant will succeed, but a warning will be shown indicating the specific settings that do not conform the expected behavior. Temporarily, the administrator should enable/disable the workload via the core workload policy.  Once  automatic enforcement based on TeamsUpgradePolicy is implemented, the PowerShell warnings will be updated to inform the administrator that the client experience will automatically apply. In that case, the values of TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy remain unchanged – but the intended client experience will be enforced according to TeamsUpgradePolicy.
+
+Below is an example of what the PowerShell warning could look like:
+
+
+`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
+WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
+PS C:\Users\janedoe>`
+
+
+Prior to delivery of the automatic enforcement of client behavior described above, each of the SfB modes behave essentially the same. The SfBOnly, SfBWithTeamsCollab, and SfBWithTeamsCollabAndMeetings modes are all identical in how they route incoming calls and chats. The only difference, for now, is in whether the Outlook Addins for Teams and Skype for Business are enabled. Until the differentiated client experiece is delivered, only 1 of the SfB modes is enabled in the Admin Portal. But all modes are available in PowerShell.
+
+
+## TeamsInteropPolicy and Legacy Mode being retired 
+
+TeamsInteropPolicy has been replaced by TeamsUpgradePolicy. All components that previously honored TeamsInteropPolicy have been updated to honor TeamsUpgradePolicy instead.  Microsoft had previously introduced the “Legacy” mode in TeamsUpgradePolicy to facilitate the transition from TeamsInteropPolicy to TeamsUpgradePolicy. In Legacy mode, routing components that understood TeamsUpgradePolicy would revert back to TeamsInteropPolicy. Routing now fully supports TeamsUpgradePolicy and Legacy mode is no longer supported. *Customers using Legacy mode must update their configuration of TeamsUpgradePolicy to use one of the other modes.* 
+
+
+### Action required for organizations that are using Mode=Legacy and/or TeamsInteropPolicy
+Customers using mode=Legacy in TeamsUpgradePolicy (policy instance = NoUpgrade or policy instance = NotifyForTeams) must update their configuration to use a policy with a mode other than legacy.  In addition, customers using TeamsInteropPolicy should remove any assignments of this policy since it is no longer used by the system.  Note that is it is no longer possible to grant Legacy mode. 
 
 Required Actions:
  - Customers using TeamsInteropPolicy with users that are *not* in Legacy mode: the policy has no effect and it's recommend you remove any user level assignments and just use the global policy with default values.
@@ -155,13 +186,13 @@ Required Actions:
 </br>
 </br>
 
-|Mode|Explanation|
+|Mode|Explanation (includeding planned client experience)|
 |---|---|
-|**Islands**</br>(default)|A single user runs both Skype for Business and Teams side-by-side. This user:</br><ul><li>Can initiate chats and VOIP calls in either Skype for Business or Teams client. Note: Users with Skype for Business homed on-premises cannot initiate from Teams to reach another Skype for Business user.<li>Receives chats & VOIP calls initiated in Skype for Business by another user in their Skype for Business client.<li>Receives chats & VOIP calls initiated in Teams by another user in their Teams client if they are in the *same tenant*.<li>Receives chats & VOIP calls initiated in Teams by another user in their Skype for Business client if they are in a  *federated tenant*. <li>Has PSTN functionality as noted below:<ul><li>If the user is homed in Skype for Business on-premises, PSTN calls are initiated and received in Skype for Business.<li>If the user is homed online, the user has Phone System, in which case the user:<ul><li>Initiates and receives PSTN calls in Teams if the user is configured for Direct Routing<li>Initiates and receives PSTN calls in Skype for Business if the user has an MS Calling Plan or connects to the PSTN network via either Skype for Business Cloud Connector Edition or an on-premises deployment of Skype for Business Server (hybrid voice)</ul></ul><li>Can schedule meetings in Teams or Skype for Business (and will see both plug-ins by default).<li>Can join any Skype for Business or Teams meeting; the meeting will open in the respective client.</ul>|
-|**SfBOnly**|A single user runs only Skype for Business. This user:</br><ul><li>Can initiate chats and calls from Skype for Business only.<li>Receives any chat/call in their Skype for Business client, regardless of where initiated, unless the initiator is a Teams user with Skype for Business homed on-premises.*<li>Can schedule only Skype for Business meetings, but can join Skype for Business or Teams meetings.</br>\**Using Islands mode with on-premises users is not recommended in combination with other users in SfBOnly mode. If a Teams user with Skype for Business homed on-premises initiates a call or chat to an SfBOnly user, the SfBOnly user is not reachable and receives a missed chat/call email.*|
-|**SfBWithTeamsCollab**|A single user runs both Skype for Business and Teams side-by-side. This user:</br><ul><li>Has the functionality of a user in SfBOnly mode.<li>Has Teams enabled only for group collaboration (Channels); chat/calling/meeting scheduling are disabled.</ul>|
-|**SfBWithTeamsCollab</br>AndMeetings**|A single user runs both Skype for Business and Teams side-by-side. This user:<ul><li>Has the chat and calling functionality of user in SfBOnly mode.<li>Has Teams enabled for group collaboration (channels - includes channel conversations); chat and calling are disabled.<li>Can schedule only Teams meetings, but can join Skype for Business or Teams meetings.</ul>|
-|**TeamsOnly**</br>(requires SfB Online home)|A single user runs only Teams. This user:<ul><li>Receives any chats and calls in their Teams client, regardless of where initiated.<li>Can initiate chats and calls from Teams only.<li>Can schedule meetings in Teams only, but can join Skype for Business or Teams meetings.<li>Can continue to use Skype for Business IP phones.</ul> |
+|**Islands**</br>(default)|A user runs both Skype for Business and Teams side-by-side. This user:</br><ul><li>Can initiate chats and VOIP calls in either Skype for Business or Teams client. Note: Users with Skype for Business homed on-premises cannot initiate from Teams to reach another Skype for Business user.<li>Receives chats & VOIP calls initiated in Skype for Business by another user in their Skype for Business client.<li>Receives chats & VOIP calls initiated in Teams by another user in their Teams client if they are in the *same tenant*.<li>Receives chats & VOIP calls initiated in Teams by another user in their Skype for Business client if they are in a  *federated tenant*. <li>Has PSTN functionality as noted below:<ul><li>If the user is homed in Skype for Business on-premises, PSTN calls are initiated and received in Skype for Business.<li>If the user is homed online, the user has Phone System, in which case the user:<ul><li>Initiates and receives PSTN calls in Teams if the user is configured for Direct Routing<li>Initiates and receives PSTN calls in Skype for Business if the user has an MS Calling Plan or connects to the PSTN network via either Skype for Business Cloud Connector Edition or an on-premises deployment of Skype for Business Server (hybrid voice)</ul></ul><li>Can schedule meetings in Teams or Skype for Business (and will see both plug-ins by default).<li>Can join any Skype for Business or Teams meeting; the meeting will open in the respective client.</ul>|
+|**SfBOnly**|A user runs only Skype for Business. This user:</br><ul><li>Can initiate chats and calls from Skype for Business only.<li>Receives any chat/call in their Skype for Business client, regardless of where initiated, unless the initiator is a Teams user with Skype for Business homed on-premises.*<li>Can schedule only Skype for Business meetings, but can join Skype for Business or Teams meetings.</br>\**Using Islands mode with on-premises users is not recommended in combination with other users in SfBOnly mode. If a Teams user with Skype for Business homed on-premises initiates a call or chat to an SfBOnly user, the SfBOnly user is not reachable and receives a missed chat/call email.*|
+|**SfBWithTeamsCollab**|A user runs both Skype for Business and Teams side-by-side. This user:</br><ul><li>Has the functionality of a user in SfBOnly mode.<li>Has Teams enabled only for group collaboration (Channels); chat/calling/meeting scheduling are disabled.</ul>|
+|**SfBWithTeamsCollab</br>AndMeetings**|A user runs both Skype for Business and Teams side-by-side. This user:<ul><li>Has the chat and calling functionality of user in SfBOnly mode.<li>Has Teams enabled for group collaboration (channels - includes channel conversations); chat and calling are disabled.<li>Can schedule only Teams meetings, but can join Skype for Business or Teams meetings.</ul>|
+|**TeamsOnly**</br>(requires SfB Online home)|A user runs only Teams. This user:<ul><li>Receives any chats and calls in their Teams client, regardless of where initiated.<li>Can initiate chats and calls from Teams only.<li>Can schedule meetings in Teams only, but can join Skype for Business or Teams meetings.<li>Can continue to use Skype for Business IP phones.</ul> |
 |||
 
 
@@ -172,12 +203,6 @@ Required Actions:
 [Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 
 [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
-
-[Get-CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsinteroppolicy?view=skype-ps)
-
-[Grant-CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsinteroppolicy?view=skype-ps)
-
-[Remove-CsTeamsInteropPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsinteroppolicy?view=skype-ps)
 
 [Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradeconfiguration?view=skype-ps)
 
