@@ -232,7 +232,8 @@ The use of Microsoft 365 for Government - GCC (government certificate of compete
 |||
 
 ## Next steps
+- [Drive adoption](adopt-microsoft-teams-landing-page.md) of chat, teams, channels, & apps.
+- Include featured apps - such as Planner - in your initial Teams rollout. Add other [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
 - [Roll out meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 - [Roll out cloud voice](cloud-voice-landing-page.md)
-- We recommend that you roll out [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) throughout your Teams deployment.
-- [Drive adoption](adopt-microsoft-teams-landing-page.md)
+

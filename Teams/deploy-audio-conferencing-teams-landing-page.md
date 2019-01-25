@@ -144,6 +144,6 @@ Teams gives you two ways to monitor and troubleshoot call quality problems: [Cal
 
 
 ## Next steps
+- [Drive adoption](adopt-microsoft-teams-landing-page.md) of audio conferencing in your organization.
 - [Roll out cloud voice](cloud-voice-landing-page.md)
-- We recommend that you roll out [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) throughout your Teams deployment.
-- [Drive adoption](adopt-microsoft-teams-landing-page.md)
+- Include featured apps - such as Planner - in your initial Teams rollout. Add other [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md) as you drive Teams adoption.
