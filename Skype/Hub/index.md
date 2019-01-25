@@ -33,8 +33,8 @@ description: Skype for Business
                                     </div>
                                 </a>
                             </li>
-                            <li>
-                                <a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions">
+                            <li> 
+                                <a href="SkypeForBusiness//SfBServer2019/hybrid/plan-hybrid-connectivity">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
