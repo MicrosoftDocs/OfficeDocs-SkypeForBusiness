@@ -29,13 +29,12 @@ If you're new to Teams, watch this short video, [Welcome to Teams](https://suppo
 - A OneNote notebook
 - Ties into other Office 365 apps such as Planner and Power BI
 
-When you create a team from an existing group, that group's membership, site, mailbox, and notebook are ported to Teams. Don't miss the new [org-wide team](create-an-org-wide-team.md), a special type of team that pulls in every user in your organization and keeps membership up to date with Active Directory as users join and leave the organization. 
+When you create a team from an existing group, that group's membership, site, mailbox, and notebook are surfaced in Teams. Don't miss the new [org-wide team](create-an-org-wide-team.md), a special type of team that pulls in every user in your organization and keeps membership up to date with Active Directory as users join and leave the organization. 
 
-To customize and extend Teams, add third-party apps through [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Office 365, Teams offers a robust [extensibility story](https://docs.microsoft.com/en-us/microsoftteams/platform) so you can build the teamwork hub you need for your organization. 
+To customize and extend Teams, add third-party apps through [apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md). With Teams, you can include people from outside your organization by [adding them as a guest](guest-access.md) to a team or channel. As part of Office 365, Teams offers a robust [development platform](https://docs.microsoft.com/en-us/microsoftteams/platform) so you can build the teamwork hub you need for your organization. 
 
 ![Teams desktop app and mobile app](media/teams-overview-hub.png)
 
-Teams is the primary client for intelligent communications in Office 365, eventually replacing Skype for Business Online. To learn more about the new features coming to Teams, see the [Microsoft 365 Roadmap](http://aka.ms/O365Roadmap). To complement persistent chat and messaging capabilities, Teams offers a comprehensive meeting and calling experience, with built-in, fully integrated voice and video. Check out [Teams is now a complete meeting and calling solution](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) in the Microsoft Teams Blog.
 
 ## Managing Teams
 
@@ -56,7 +55,7 @@ Every team is different; there’s no one-size-fits-all approach to collaboratio
 
 When deciding which Office 365 apps and services to use, think about the work your organization does and the types of conversations your teams need to have. 
 
-- **Teams**, a digital hub where people who work closely together on core projects, including people outside your organization, can actively connect and collaborate in real time to get things done. Have a conversation right where the work is happening, whether coauthoring a document, having a meeting, or working together in other apps and services. Teams is the place to have informal chats, iterate quickly on a project, work with team files, and collaborate on shared deliverables. 
+- **Teams**, as the hub for teamwork, is where people - including people outside your organization - can actively connect and collaborate in real time to get things done. Have a conversation right where the work is happening, whether coauthoring a document, having a meeting, or working together in other apps and services. Teams is the place to have informal chats, iterate quickly on a project, work with team files, and collaborate on shared deliverables. 
 
 - **Outlook** for collaborating in the familiar environment of email and in a more formal, structured manner or when targeted and direct communication is required. 
 
