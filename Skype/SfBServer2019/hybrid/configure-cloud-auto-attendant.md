@@ -3,7 +3,7 @@ title: "Configure Cloud Auto Attendants"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/1/2018
+ms.reviewer: wasseemh
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -25,7 +25,7 @@ If you have an existing Auto Attendant implemented in Exchange UM, before you sw
 
 ## Server configuration steps
 
-These steps are necessary whether you are creating a brand new Auto Attendant or rebuilding an Auto Attendant originally created in Exchange UM. 
+These steps are necessary whether you are creating a brand new Auto Attendant or rebuilding an Auto Attendant originally created in Exchange UM.
 
 Log in to the front end server and run the following PowerShell cmdlets:
 
@@ -73,7 +73,7 @@ An example of a small business implementation is available in [Small business ex
 
 ## Test the new Auto Attendant
 
-The best way to test the implementation is to call the number configured for an Auto Attendant and choose options to navigate to each of the auto attendants you've just created. You can also quickly place a test call to your Auto Attendant by using the **Test button** in the Admin Center Action pane. If you want to make changes to an Auto Attendant, select the Auto Attendant, and then in the Action pane click **Edit**.
+The best way to test the implementation is to call the number configured for an Auto Attendant and choose options to navigate to each of the auto attendants you've just created. You can also quickly place a test call to your Auto Attendant by using the **Test button** in the Microsoft Teams admin center Action pane. If you want to make changes to an Auto Attendant, select the Auto Attendant, and then in the Action pane click **Edit**.
 
 ## Manually moving an Exchange UM Auto Attendant to Cloud Auto Attendant
 
@@ -84,20 +84,26 @@ The best way to test the implementation is to call the number configured for an 
     ```
 
 2. For each listed Auto Attendant, note its place in the structure, settings, and get copies of associated sound or text-to-speech file (the guid in the output will be the name of a folder where the files are stored). You can get these details by running the command:
+
     ```
     Get-UMAutoAttendant -Identity MyUMAutoAttendant
     ```
+
     See [Get-UMAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) for more details on this command. A complete list of Auto Attendant options you might need to capture is at [UMAutoAttendant members](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx) but the most important options to note down are:
     - Business hours
     - Non-business hours
     - Language
     - Holiday schedule
 
-3. Create new onprem endpoints as described above in [Server configuration steps](#server-configuration-steps). <br/> Assign the main auto Attendant a temporary number for testing purposes
+3. Create new on-premises endpoints as described above in [Server configuration steps](#server-configuration-steps).
+  Assign the main auto Attendant a temporary number for testing purposes
 
-4. Configure a Cloud Auto Attendant system that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps). <br/> You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the Auto Attendant and user hierarchies in your old Exchange UM Auto Attendant.
+4. Configure a Cloud Auto Attendant system that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps).  
+  You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the Auto Attendant and user hierarchies in your old Exchange UM Auto Attendant.
 5. Test the Cloud Auto Attendant system.
-6. Reassign the phone number linked to the Exchange UM Auto Attendant to the Cloud Auto Attendant. <br/> At this point, if you have already migrated UM Voicemail, you should be in a position to migrate to Exchange Server 2019.
+6. Reassign the phone number linked to the Exchange UM Auto Attendant to the Cloud Auto Attendant.
+
+At this point, if you have already migrated UM Voicemail, you should be in a position to migrate to Exchange Server 2019.
 
 ## See Also
 
@@ -110,3 +116,7 @@ The best way to test the implementation is to call the number configured for an 
 [Plan Cloud Voicemail service](plan-cloud-voicemail.md)
 
 [Configure Cloud Voicemail service](configure-cloud-voicemail.md)
+
+[New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
+
+[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
