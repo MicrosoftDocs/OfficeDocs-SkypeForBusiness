@@ -53,7 +53,7 @@ Base template types are special templates that Microsoft created for specific in
 
 Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. But some base template types contain properties that can't be overridden. 
 
-By default the base template is set to **Standard** which doesn't contain any additional proprietary apps or special properties. Below is the current list of base templates types available.
+By default the base template is set to **Standard** which doesn't contain any additional proprietary apps or special properties. Below is the current list of base template types available.
 
 | Base template type | baseTemplateId | Properties that come with this base template |
 | ------------------ | -------------- | ----------------------------------------------------- |
