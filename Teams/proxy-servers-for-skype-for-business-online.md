@@ -18,7 +18,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "This article will help you with guidance about using a proxy server with Teams or Skype for Business."
+description: "This article provides information about using a proxy server with Teams or Skype for Business."
 ---
 
 # Proxy Servers for Teams or Skype for Business Online
@@ -43,7 +43,7 @@ Microsoft also strongly recommends:
     
 - Allowing UDP traffic
     
-- Following the other recommendations in our Networking guidelines:
+- Following the other recommendations in our networking guidelines:
     
   - [Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
     
