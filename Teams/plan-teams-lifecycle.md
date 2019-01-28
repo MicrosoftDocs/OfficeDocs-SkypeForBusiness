@@ -135,8 +135,10 @@ Teams can originate from a variety of methods, including:
 
 Use these links to get more information about organizing your teams:
 
--   [Best practices for organizing teams in Microsoft Teams](best-practices-organizing.md)
--   [Overview of a Microsoft Teams deployment](deployment-overview.md)
+-   [Best practices for organizing teams in Teams](best-practices-organizing.md)
+-   [Deploy chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+-   [Deploy meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
+-   [Deploy cloud voice](cloud-voice-landing-page.md)
 
 
 |    |     |
