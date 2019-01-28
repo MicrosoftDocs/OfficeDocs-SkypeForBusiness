@@ -15,7 +15,7 @@ ms.custom:
 appliesto: 
 - Microsoft Teams
 - Skype for Business 
-- f1keywords:
+f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 ---
 
@@ -33,17 +33,17 @@ In Microsoft Teams, an admin can use a resource account to:
 
 For implementations that are hybrid with Skype for Business Server:
 
-[Plan Cloud Auto Attendant](../Skype/SfBServer2019/hybrid/plan-cloud-auto-attendant.md)
+[Plan Cloud Auto Attendant](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant.md)
 
-[Configure Cloud Auto Attendants](../Skype/SfBServer2019/hybrid/configure-cloud-auto-attendant.md)
+[Configure Cloud Auto Attendants](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant.md)
 
 For implementations in Teams or Skype for Business Online:
 
 [What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
 
-[Set up a Phone System auto attendant](../Skype/SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+[Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
-[Create a Phone System call queue](../Skype/SfbOnline/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
+[Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 
 [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
