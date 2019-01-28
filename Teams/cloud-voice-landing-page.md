@@ -24,8 +24,7 @@ This article helps you decide whether you need to change any of the default clou
 
 We recommend that all organizations work through the core decisions and then, if your organization has additional requirements, review the following material.
 
-> [!Tip]
-> Watch the following session to learn more about Phone System: [Introduction to Phone System in Microsoft Teams](https://aka.ms/teams-phone-system)
+
 
 ## Learn more about cloud voice
 
@@ -36,6 +35,7 @@ The following articles provide more information about deploying and using cloud 
 - [Phone System Direct Routing](direct-routing-landing-page.md)
 - [Cloud voice deployment](cloud-voice-deployment.md)
 - [Microsoft telephony solutions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- Watch the following session to learn more about Phone System: [Introduction to Phone System in Microsoft Teams](https://aka.ms/teams-phone-system)
 
 
 ## Core deployment decisions
