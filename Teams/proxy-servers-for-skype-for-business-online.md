@@ -1,5 +1,5 @@
 ---
-title: "Proxy Servers for Teams or Skype for Business Online"
+title: "Proxy servers for Teams or Skype for Business Online"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,13 @@ ms.custom:
 description: "This article provides information about using a proxy server with Teams or Skype for Business."
 ---
 
-# Proxy Servers for Teams or Skype for Business Online
+# Proxy servers for Teams or Skype for Business Online
 
 This article will help you with guidance about using a proxy server with Teams or Skype for Business.
   
 ## Not using a proxy server is recommended
 
-When it comes to Teams or Skype for Business traffic over proxies, Microsoft recommends bypassing proxies. Proxies don't make Skype for Business more secure because its traffic is already encrypted.
+When it comes to Teams or Skype for Business traffic over proxies, Microsoft recommends bypassing proxies. Proxies don't make Teams or Skype for Business more secure because its traffic is already encrypted.
   
 And having a proxy can cause issues. Performance-related problems can be introduced to the environment through latency and packet loss. Issues such as these will result in a negative experience in such Teams or Skype for Business scenarios as audio and video, where real-time streams are essential.
   
