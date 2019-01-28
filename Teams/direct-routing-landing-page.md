@@ -22,8 +22,6 @@ This article describes core deployment decisions for Direct Routing as well as a
 
 ## Learn more about Direct Routing
 
-> [!Tip]
-> Watch the following session to learn more about Direct Routing: [Direct Routing in Microsoft Teams](https://aka.ms/teams-direct-routing)
 
 The following articles provide more information about configuring and using Phone System Direct Routing. Configuring Direct Routing requires understanding of PSTN routing design. You should read all of these articles to understand how to plan and configure Direct Routing:
 
@@ -32,12 +30,12 @@ The following articles provide more information about configuring and using Phon
 - [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
 - [Monitor and troubleshoot Direct Routing](direct-routing-monitor-and-troubleshoot.md)
 
-In addition, you might want to read the following articles depending onOK your requirements:
+In addition, you might want to read the following articles depending on your requirements:
 
 -  [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 -  [Migrate to Direct Routing](direct-routing-migrating.md)
 -  [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
-
+- Watch the following session to learn more about Direct Routing: [Direct Routing in Microsoft Teams](https://aka.ms/teams-direct-routing)
 
 ## Core deployment decisions
 
