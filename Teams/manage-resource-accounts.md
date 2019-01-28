@@ -28,6 +28,42 @@ In Microsoft Teams, an admin can use a resource account to:
 - Assign a domain to a Call Queue
 - Check Licenses
 
+## Create a resource account in Powershell
+
+ Create a Call Queue's resource account  by running the `New-CsOnlineApplicationInstance` cmdlet as needed (for one or more Call Queues), and give each one a name, sip address, and so on.
+
+Configuring a phone number for a Call Queue is required only if you want to connect callers directly to a Queue without using one or more Auto Attendants.
+
+```
+New-CsOnlineApplicationInstance -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
+```
+
+So for a call queue you intend to route a caller to after making an auto attendant selection, you can omit the phone number as shown:
+
+```
+New-CsOnlineApplicationInstance -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+```
+
+See [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) for more details on this command.
+
+> [!NOTE]
+> You can also use the `Set-CsOnlineApplicationInstance` command to a assign a phone number (with the -LineURI option) to the Call Queue after its initial creation.
+
+```
+Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName AANode1 -LineURI tel:+14255550100
+```
+
+See [Set-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlineapplicationinstance?view=skype-ps) for more details on this command.
+
+Hybrid implementations will use [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) to have a resource account that is homed on premises.
+
+Once resource accounts are created, you can either wait for AD to sync between online and on premises, or force a sync and proceed to configuration of Auto Attendants or Call Queues. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
+
+    ```
+    Start-ADSyncSyncCycle -PolicyType Delta
+    ```
+    See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
+
 ## Related Information
 
 For implementations that are hybrid with Skype for Business Server:
