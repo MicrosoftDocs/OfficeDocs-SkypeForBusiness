@@ -247,8 +247,8 @@ able to adapt more quickly and welcome the change.
 ### Monitoring for change
 
 The first step in change management is monitoring the changes that are planned
-for Teams. The best source for monitoring these changes is the [Office 365
-Roadmap](https://products.office.com/business/office-365-roadmap), which
+for Teams. The best source for monitoring these changes is the [Microsoft 365
+Roadmap](https://www.microsoft.com/microsoft-365/roadmap), which
 lists features that are currently in development, being rolled out to customers,
 or have fully launched. You can search for Teams-specific features by using the
 filter provided, or you can download the roadmap to an Excel file for further

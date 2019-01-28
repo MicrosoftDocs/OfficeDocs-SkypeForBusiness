@@ -196,8 +196,7 @@ items:
       - Operational plan
 
     **Additional information:** For more details about this practical guidance and templates you can use in your
-    planning, see [Practical Guidance for Phone System with Calling Plans in
-    Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans).
+    planning, see [Phone System with Calling Plans](calling-plan-landing-page.md).
 
 - title: Envision
   durationInMinutes: 15
@@ -712,8 +711,7 @@ items:
 
     To learn more, see:
 
-    -   [Practical Guidance for Phone System with Calling Plans in Microsoft
-    Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
+    -   [Phone System with Calling Plans](calling-plan-landing-page.md)
 
     -   [Quick start guide: Configuring Calling Plans in Microsoft
     Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)

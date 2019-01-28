@@ -81,7 +81,7 @@ Enter the email address that you use to sign in to Teams, and then purchase an O
 
 ## What's next?
 
-After your upgrade is complete, see [Get started with Microsoft Teams](get-started-with-teams-landing-page.md) for first steps and [Adopt Microsoft Teams](adopt-microsoft-teams-landing-page.md) for a phased approach to Teams adoption across your organization.
+After your upgrade is complete, see [Get started with Microsoft Teams](get-started-with-teams-quick-start.md) for first steps and [Adopt Microsoft Teams](adopt-microsoft-teams-landing-page.md) for a phased approach to Teams adoption across your organization.
 
 ## More information
 
