@@ -17,7 +17,7 @@ ms.topic: hub-page
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsF">
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/teams-overview?branch=lolaj-tocoverhaul4">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/teams-overview">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -36,7 +36,7 @@ ms.topic: hub-page
                             </a>
                             </li>
                            <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams?branch=lolaj-tocoverhaul4"><div class="cardSize">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams"><div class="cardSize">
                                 <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
@@ -54,7 +54,7 @@ ms.topic: hub-page
                             </a>
                             </li> 
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start?branch=lolaj-tocoverhaul4">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -73,7 +73,7 @@ ms.topic: hub-page
                             </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams?branch=lolaj-tocoverhaul4">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -92,7 +92,7 @@ ms.topic: hub-page
                             </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/adopt-microsoft-teams-landing-page?branch=lolaj-tocoverhaul4">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/adopt-microsoft-teams-landing-page">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -111,7 +111,7 @@ ms.topic: hub-page
                             </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page?branch=lolaj-tocoverhaul4">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
