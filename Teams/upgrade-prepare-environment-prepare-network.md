@@ -24,6 +24,9 @@ This article is part of the Technical Readiness stage of your upgrade journey, a
 - [Understood coexistence and interoperability of Skype for Business and Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Chosen your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
+> [!Tip]
+> Watch the following session to learn how to Teams leverages your network and how to best plan for optimal network connectivity: [Teams Network Planning](https://aka.ms/teams-networking)
+
 # Prepare your network for upgrading to Teams
 
 If you’re deploying audio, video, or meetings, you can take some additional steps to optimize your network for that functionality. Teams uses audio and video technology (codecs) that can adapt to—and therefore perform better under—most network conditions. To ensure optimal and consistent performance, you should prepare your network for Teams.

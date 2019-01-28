@@ -17,6 +17,9 @@ description: Describes how Teams workload utilizes Office 365 flows in various t
 
 # Microsoft Teams Online Call Flows
 
+> [!Tip]
+> Watch the following session to learn how to Teams leverages your network and how to best plan for optimal network connectivity: [Teams Network Planning](https://aka.ms/teams-networking)
+
 ## Overview
 This document describes how Teams workload utilizes Office 365 flows in various topologies. In addition, it specifies unique Teams flows that are used for peer to peer media communication. The document enumerates these flows and describes their purpose and their origin/termination networks. For example, flow X is used by Office 365 client on premises to communicate with Office 365 service in the cloud, originated from the Customer Network and terminated by an endpoint in Office 365 cloud, and flow Y is used by Office 365 client on premises to communicate with a service on the Internet, that Office 365 has dependency on, originated from the Customer Network, and is terminated by an endpoint on the Internet.
 

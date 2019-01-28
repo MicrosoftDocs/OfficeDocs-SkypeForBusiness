@@ -18,7 +18,7 @@ appliesto:
 Limits and specifications for Microsoft Teams
 =============================================
 
-This article describes some of the limits, specifications, and other requirements that apply to Microsoft Teams. 
+This article describes some of the limits, specifications, and other requirements that apply to Teams. 
 
 Teams and channels 
 ------------------
@@ -73,7 +73,7 @@ Microsoft Teams chat function works on a Microsoft Exchange backend, so you can 
 |Feature  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |---------|---------|---------|---------|---------|
 |Message size limit &dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|File attachments limit &Dagger;  |20     |20     |20     |20    |
+|File attachments limit &Dagger;  |10     |10     |10     |10    |
 |Inline images limit &Dagger; |50   |50   |50   |50   |
 
 &dagger; If the message exceeds this limit, a preview message is generated and the user is asked to view/download the original email from the link provided.

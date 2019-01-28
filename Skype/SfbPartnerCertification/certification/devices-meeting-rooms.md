@@ -42,7 +42,7 @@ You can find detailed Lync specifications here: [Phones and devices qualified fo
 
 You can visit http://aka.ms/SRSDocs for full details on Meeting Room devices.
 
-Room Devices certified for Teams are listed at [products.office.com](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=05e18567-570e-4556-80f9-8ac6df5c0c82).
+View [room devices certified for Microsoft Teams](https://products.office.com/en-us/microsoft-teams/across-devices/devices).
 
 ## USB based audio/video end points designed for conference rooms
 The USB certification program ensures that USB peripherals such as headsets, speakerphones, webcams, and monitors offer rich audio or video quality. These all support plug & play features with Lync, Skype for Business, or Teams clients and  provide a great experience for end-users and administrators. 
@@ -59,8 +59,6 @@ The USB certification program ensures that USB peripherals such as headsets, spe
 - Full outline of [Lync test specifications and tools](test-spec.md)
 
 All of these specifications apply equally for Lync 2013 and Skype for Business, hence all USB peripherals that are qualified for Lync 2013 are also certified for Skype for Business.
-
-[View room systems](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?categoryid=05e18567-570e-4556-80f9-8ac6df5c0c82)
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
