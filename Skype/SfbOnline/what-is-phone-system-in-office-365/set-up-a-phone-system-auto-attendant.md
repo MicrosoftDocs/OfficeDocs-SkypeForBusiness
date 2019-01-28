@@ -45,30 +45,38 @@ If you want to learn more about auto attendants, see [What are Phone System auto
 
 ### Create a resource account in Powershell
 
- Create a resource account for your Auto Attendant by running the `New-CsOnlineApplicationInstance` cmdlet as needed (for one or more Call Queues), and give each one a name, sip address, and so on.
+Create a resource account for your Auto Attendant by running the `New-CsOnlineApplicationInstance` cmdlet as needed (for one or more Call Queues), and give each one a name, sip address, and so on.
 
-    Configuring a phone number is required only  to connect callers to an a Main  Auto Attendant, subsequent nested Auto Attendants won't require phone numbers.
+Configuring a phone number is required only  to connect callers to an a Main  Auto Attendant, subsequent nested Auto Attendants won't require phone numbers.
 
-    ```
-    New-CsOnlineApplicationInstance -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
-    ```
+```
+New-CsOnlineApplicationInstance -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
+```
 
-    So for a call queue you intend to route a caller to after making an auto attendant selection, you can omit the phone number as shown:
+So for a call queue you intend to route a caller to after making an auto attendant selection, you can omit the phone number as shown:
 
-    ```
-    New-CsOnlineApplicationInstance -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
-    ```
+```
+New-CsOnlineApplicationInstance -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+```
 
-    See [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) for more details on this command.
+See [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) for more details on this command.
 
-    > [!NOTE]
-    > You can also use the `Set-CsOnlineApplicationInstance` command to a assign a phone number (with the -LineURI option) to the Call Queue after its initial creation.
+> [!NOTE]
+> You can also use the `Set-CsOnlineApplicationInstance` command to a assign a phone number (with the -LineURI option) to the Call Queue after its initial creation.
 
-    ```
-    Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName AANode1 -LineURI tel:+14255550100
-    ```
+```
+Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName AANode1 -LineURI tel:+14255550100
+```
 
-    See [Set-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlineapplicationinstance?view=skype-ps) for more details on this command.
+See [Set-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlineapplicationinstance?view=skype-ps) for more details on this command.
+
+Once these resource accounts are created, you can either wait for AD to sync between online and on premise, or force a sync and proceed to configuration of the Auto Attendants. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
+
+```
+Start-ADSyncSyncCycle -PolicyType Delta
+```
+
+See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
 
 ### Using the Microsoft Teams admin center
 

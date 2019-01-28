@@ -128,6 +128,15 @@ Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3
 
 See [Set-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlineapplicationinstance?view=skype-ps) for more details on this command.
 
+Once these resource accounts are created, you can either wait for AD to sync between online and on premise, or force a sync and proceed to configuration of the Call Queue. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
+
+```
+Start-ADSyncSyncCycle -PolicyType Delta
+```
+
+See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
+
+
 ### Using the Microsoft Teams admin center
 
 In the **Microsoft Teams admin center**, **Voice** >  **Call queues**, then click **+ Add new**:

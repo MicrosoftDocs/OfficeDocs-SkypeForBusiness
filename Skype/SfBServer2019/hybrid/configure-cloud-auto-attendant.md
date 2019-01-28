@@ -59,6 +59,7 @@ Log in to the front end server and run the following PowerShell cmdlets:
     ```
     Start-ADSyncSyncCycle -PolicyType Delta
     ```
+
     See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
 
 ## Online configuration steps
