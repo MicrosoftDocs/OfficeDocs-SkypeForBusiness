@@ -85,4 +85,4 @@ Use the following table to find the tools for testing USB peripherals, PCs, and 
 
 If you are a vendor seeking to join the certification program, see [How to Join](how-to-join.md) for requirements and available programs.
 
-View the [partner solutions catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog/) to see products certified for Skype for Business.
+View the [Microsoft Teams devices store](https://products.office.com/en-us/microsoft-teams/across-devices/devices) to see products certified for Skype for Business.

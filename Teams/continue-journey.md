@@ -47,4 +47,5 @@ The lifecycle of any given technology has shifted to a dynamic growth cycle. Thi
 - Monitor the Teams [roadmap](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams).
 - Implement a change planning form (as illustrated below) to prepare and implement new functionality. Be sure to include both technical and user readiness activities.
 
+
 ![Example form showing expected release dates and notes about new functionality, listed with next steps and owners](media/upgrade-change-plan-form.png "Example form showing expected release dates and notes about new functionality, listed with next steps and owners")

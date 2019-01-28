@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
 description: Learn about the reporting options available to see how users are using Microsoft Teams and gather feedback on user experiences. 
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto: 
