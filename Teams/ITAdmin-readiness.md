@@ -165,7 +165,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                 <div class="card">
                     <div class="cardText">
                         <h3>Plan & deploy</h3>
-                         <p><a href="quick-start-enable-teams.md">Quick start: Teams planning guide</a></p>
+                         <p><a href="deploy-chat-teams-channels-microsoft-teams-landing-page.md">Deploy chat, teams, channels, and apps in Microsoft Teams</a></p>
                          <p><a href="http://aka.ms/teams-clients">Video: Teams Windows desktop client</a></p>
                          <p><a href="http://aka.ms/teams-governance">Video: Governance, management and lifecycle in Microsoft Teams</a></p>
                     </div>

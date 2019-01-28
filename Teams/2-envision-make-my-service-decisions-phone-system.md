@@ -132,7 +132,7 @@ Phone System voicemail includes voicemail transcription, which is enabled for al
 > A fallback mechanism has been implemented so that Phone System voicemail can resend messages by using SMTP, which means users who have a mailbox on a third-party email system will receive their voicemail messages. This mechanism doesn’t include guaranteed service uptime or other voicemail
 features, such as changing voicemail greeting.
 
-For more information about voicemail in a Phone System implementation, see [Azure PBX voicemail support for Exchange Server](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans).
+For more information about voicemail in a Phone System implementation, see [Phone System with Calling Plans](calling-plan-landing-page.md).
 
 <br>
 
