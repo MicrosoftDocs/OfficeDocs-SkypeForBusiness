@@ -428,3 +428,32 @@ If you need to install anti-virus software on the Cloud Connector host machine, 
 - %ProgramFiles%\WindowsPowerShell\Modules\CloudConnector
     
 - The process Microsoft.Rtc.CCE.ManagementService.exe.
+
+## Remove Cloud Connector Edition
+If you migrate all users to Cloud and you want to remove Cloud Connector Edition you need to make sure that you have  ported all CCE users to Business Voice (**Voice policy set to Business Voice**), and also if you want that all the inbound and outbound calls should not go through CCE anymore, please follow below steps:
+ 
+1.	Remove each of the appliances:
+
+a. Run the following cmdlet to uninstall all existing virtual machines on the host server: 
+```
+Uninstall-CcAppliance
+```
+b. Run the following cmdlet to unregister the appliance on the host server:
+```
+Unregister-CcAppliance	
+```
+2.	Remove each of the sites:
+-	Run the following cmdlet to remove sites on Tenant Remote PowerShell:
+```
+Remove-CsHybridPstnSite -Identity <SiteId>
+```
+3.	Remove each of the tenant update time windows:
+-	Run the following cmdlet to remove time windows on Tenant Remote PowerShell:
+```
+Remove-CsTenantUpdateTimeWindow -Identity <Id>
+```
+4.	Clean up other properties in tenant hybrid configuration:
+-	Run the following cmdlet on Tenant Remote PowerShell:
+```
+Set-CsTenantHybridConfiguration -HybridConfigServiceExternalUrl $null -HybridConfigServiceInternalUrl $null -PeerDestination $null
+
