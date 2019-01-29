@@ -34,7 +34,7 @@ description: Skype for Business
                                 </a>
                             </li>
                             <li>
-                                <a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions">
+                                <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

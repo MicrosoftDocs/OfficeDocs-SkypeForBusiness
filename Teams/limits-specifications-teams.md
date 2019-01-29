@@ -18,7 +18,7 @@ appliesto:
 Limits and specifications for Microsoft Teams
 =============================================
 
-This article describes some of the limits, specifications, and other requirements that apply to Microsoft Teams. 
+This article describes some of the limits, specifications, and other requirements that apply to Teams. 
 
 Teams and channels 
 ------------------
@@ -41,9 +41,6 @@ Meetings and calls
 |------------|---------------|
 |Number of people in a meeting  | 250    |
 |Number of people in a private chat  | 50    |
-
-> [!IMPORTANT]
-> Kiosk workers will not have the ability to schedule Teams Meetings, as by default, AllowChannelMeetingScheduling and AllowPrivateMeetingScheduling are not included with inband provisioning in respect to the TeamsMeetingPolicy. This only applies to Kiosk workers. 
 
 Storage
 -------
