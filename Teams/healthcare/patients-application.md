@@ -15,18 +15,22 @@ appliesto:
 ms.reviewer: 
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage.
 ---
-# Patients Application
 
-- Connects to FHIR server
+# Introduction
+
+The Patients Application is Microsoft Teams’ first-party care collaboration solution for healthcare professionals. Using the Patients Application, users can curate and review lists of patients for scenarios ranging from rounds and interdisciplinary team meetings to general patient monitoring.
+
+The Microsoft Teams Patients Application connects to FHIR (Fast Healthcare Interoperability Resources) conforming EHR (Electronic Health Records) servers directly, and can connect to non-conforming EHR servers through a secondary integration server often facilitated by Microsoft Interop Partners.
+
+> [!NOTE]
+> Only team owners can initiate the EHR connection process. More information regarding the technical aspects of the application can be found HERE
+
+The Patients Application does the following
+
+- Connects to a  Fast Healthcare Interoperability Resources (FHIR) server
 - For Team Owners
-- Integrates with your EHR using the FHIR protocol
+- Integrates with your EHR using the [FHIR protocol](http://hl7.org/fhir/R4/index.html)
 - If any resources are missing in Patients this means the data is missing, not an issue with the Patients Application
-
-## Introduction
-
-Welcome to the Patients Application, Microsoft Teams’ first party care collaboration solution for healthcare professionals. Using the Patients Application, users can curate and review lists of patients for scenarios ranging from rounds and interdisciplinary team meetings to general patient monitoring.
-
-The Patients Application connects to FHIR conforming EHRs directly, and can connect to non-conforming EHRs through a secondary FHIR integration server. Note that only team owners can initiate the EHR connection process. More information regarding the technical aspects of the application can be found HERE
 
 ### Opening the Patients Application
 

@@ -15,7 +15,7 @@ ms.reviewer:
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage.
 ---
 
-# Healthcare templates
+# Healthcare templates 
 
 Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps. For healthcare organizations, templates can be especially powerful, as they provide structure for users to become oriented with how to best leverage Teams effectively. Templates also allow administrators to deploy consistent teams across their organizations. We currently offer three first party healthcare templates that you can leverage for a variety of situations.
 
