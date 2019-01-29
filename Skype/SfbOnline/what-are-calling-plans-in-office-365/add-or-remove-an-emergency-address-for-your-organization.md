@@ -49,7 +49,7 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
     > [!IMPORTANT]
     > Validating a street or civic address involves making sure that it is legitimate and correctly formatted. It is possible that a partially correct emergency address, such as if you mistyped the name of the city, may still pass validation. Even though it's misspelled and passed validation, the combination of the misspelled name of city along with the other correct parts of the address are enough information to route the call to the appropriate emergency dispatch center. 
     
-    > NOTE: It is important to understand that in order to successfully activate a phone number in Office3 65 in Belgium, France, Germany, Ireland, Netherlands and Spain, the address setup in the Emergency Location which will be used to acquire the number, must match the phone number’s area code. However, this is not the case for in Canada, UK and US.
+    > NOTE: In Belgium, France, Germany, Ireland, Netherlands, and Spain it is important to understand that in order to successfully activate a phone number in Office 365 the address setup in the Emergency Location, which will be used to acquire the number, must match the phone number’s area code.
   
     If the address can't be validated, you can send a manual validation request by clicking **Send a validation request** if you are trying to validate a U.S. address, or click **Open a service request to get help with address validation** if you are outside the United States.
     
