@@ -1,5 +1,5 @@
 ---
-title: Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center
+title: Manage Teams during the transition to the new Microsoft Teams admin center
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: 
 search.appverid: MET150
-description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Office 365 admin center to the new Microsoft Teams & Skype for Business Admin Center.
+description: Understand how to manage tenant-wide and user settings for Teams during the transition from the Teams experience in the Office 365 admin center to the new Microsoft Teams admin center.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update

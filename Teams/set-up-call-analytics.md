@@ -34,7 +34,7 @@ As a Teams or Skype for Business Online admin, you can use Call Analytics to tro
     
 - Add building, site, and tenant information to Call Analytics by uploading a .tsv or .csv data file.
     
-**Call Analytics is now available in the Microsoft Teams and Skype for Business Admin Center.** To see all the call information and data for a user, use the **Call History** tab. You can do this by looking on the user's profile page by doing one of the following:
+**Call Analytics is now available in the Microsoft Teams admin center**. To see all the call information and data for a user, use the **Call History** tab. You can do this by looking on the user's profile page by doing one of the following:
 
 - Search for the user from the dashboard.
   
