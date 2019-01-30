@@ -22,7 +22,7 @@ description: "Managing resource accounts in Microsoft Teams"
 
 A Resource Account is also known as a disabled user object in Azure Active Directory, and can be used to represent resources in general. In Exchange it might be used to represent conference rooms, for example, and allow them to have a phone number. A resource account can be homed in Microsoft 365 or on premises using Skype for Business server, and these accounts are created using Powershell commands.
 
-In Microsoft Teams, an admin uses a resource account to assign a phone number to a Call Queue or Auto Attendant.
+In Microsoft Teams, an admin uses a resource account to assign a phone number to a call queue or auto attendant.
 
 ## Prerequisites to assign a phone number to a Resource account
 
@@ -46,7 +46,7 @@ To assign a phone number to a resource account, you will need to get or transfer
 
 ## Create a resource account in Powershell
 
- You would create a resource account by running the appropriate Powershell cmdlet as needed (for one or more resource accounts), and give each one a name, sip address, and so on. There is currently no option for creating a resource account in the Microsoft Teams admin center, but you can edit phone numbers and change the Call Queue or Auto Attendant assignments.
+ You would create a resource account by running the appropriate Powershell cmdlet as needed (for one or more resource accounts), and give each one a name, sip address, and so on. There is currently no option for creating a resource account in the Microsoft Teams admin center, but you can edit phone numbers and change the call queue or auto attendant assignments.
 
 Depending on whether your phone number is located on line or on premises, you would need to connect to the appropriate Powershell prompt with Admin privileges.
 
@@ -59,7 +59,7 @@ The following is an online environment example:
 New-CsOnlineApplicationInstance -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
 ```
 
-Configuring a phone number for a resource account is required only if you want to connect callers directly to a Call Queue without using one or more Auto Attendants. In a larger Auto Attendant system, a phone number for the resource account of the main Auto Attendant is required but optional for any nested auto attendants or Call Queues reached through an Auto Attendant.
+Configuring a phone number for a resource account is required only if you want to connect callers directly to a call queue without using one or more auto attendants. In a larger auto attendant system, a phone number for the resource account of the main auto attendant is required but optional for any nested auto attendants or call queues reached through an auto attendant.
 
 So for a call queue you intend to route a caller to after making an auto attendant selection, you can omit the phone number from the assigned resource account as shown:
 
@@ -80,7 +80,7 @@ Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3
 
 See [Set-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlineapplicationinstance?view=skype-ps) for more details on this command.
 
-Once resource accounts are created, you can either wait for AD to sync between online and on premises, or force a sync and proceed to configuration of Auto Attendants or Call Queues. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
+Once resource accounts are created, you can either wait for AD to sync between online and on premises, or force a sync and proceed to configuration of auto attendants or call queues. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
 ``` Powershell
 Start-ADSyncSyncCycle -PolicyType Delta
@@ -93,7 +93,7 @@ See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-direct
 To manage Resource account settings in Microsoft Teams admin center, navigate to **Org-wide settings**  > **Resource accounts**, select the resource account you need to change settings for, and then click on the **Edit** button. in the **Edit resource account** screen, you will be able to change the:
 
 - **Display name** for the account
-- Call Queue or Auto Attendant that uses the account
+- Call queue or auto attendant that uses the account
 - Phone number assigned to the account
 
 When finished, click on **Save**.
@@ -102,9 +102,9 @@ When finished, click on **Save**.
 
 For implementations that are hybrid with Skype for Business Server:
 
-[Plan Cloud Auto Attendant](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant.md)
+[Plan Cloud auto attendant](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant.md)
 
-[Configure Cloud Auto Attendants](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant.md)
+[Configure Cloud auto attendants](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant.md)
 
 For implementations in Teams or Skype for Business Online:
 
@@ -112,7 +112,7 @@ For implementations in Teams or Skype for Business Online:
 
 [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
-[Small business example - Set up an Auto Attendant](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+[Small business example - Set up an auto attendant](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
 [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 
