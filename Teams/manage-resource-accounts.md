@@ -36,8 +36,8 @@ To get started it's important to remember a few things:
 - To learn more about Office 365 Calling Plans, see [What are Calling Plans in Office 365?](/microsoftteams/what-are-calling-plans-in-office-365) and [Calling Plans for Office 365](/microsoftteams/calling-plans-for-office-365).
 - You can only assign toll and toll-free service phone numbers that you got in the **Microsoft Teams admin center** or transferred from another service provider to a resource account. To get and use toll-free service numbers, you need to set up Communications Credits.
 
-    > [!NOTE]
-    > User (subscriber) phone numbers can't be assigned to a resource account - only service toll or toll-free phone numbers can be used.
+> [!NOTE]
+> User (subscriber) phone numbers can't be assigned to a resource account - only service toll or toll-free phone numbers can be used.
 
 To assign a phone number to a resource account, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
   
@@ -82,10 +82,11 @@ See [Set-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/modu
 
 Once resource accounts are created, you can either wait for AD to sync between online and on premises, or force a sync and proceed to configuration of Auto Attendants or Call Queues. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
-    ```
-    Start-ADSyncSyncCycle -PolicyType Delta
-    ```
-    See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
+``` Powershell
+Start-ADSyncSyncCycle -PolicyType Delta
+```
+
+See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
 
 ## Manage Resource account settings in Microsoft Teams admin center
 
