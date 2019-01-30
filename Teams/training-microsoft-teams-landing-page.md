@@ -111,7 +111,7 @@ Check back frequently - we'll keep updating this list so you'll always know abou
                 <div class="card">
                     <div class="cardText">
                         <h3>Adoption specialist certification</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">In early January 2019, we released a Microsoft Service Adoption Specialist Certification course, featuring Teams, is designed to teach you how to successfully drive the adoption of Microsoft services in your company.</a></p>
+                        <p><a href="http://aka.ms/AdoptionCert">In early January 2019, we released a Microsoft Service Adoption Specialist Certification course, featuring Teams. It'll teach you how to drive adoption of Microsoft services in your org.</a></p>
                     </div>
                 </div>
             </div>
