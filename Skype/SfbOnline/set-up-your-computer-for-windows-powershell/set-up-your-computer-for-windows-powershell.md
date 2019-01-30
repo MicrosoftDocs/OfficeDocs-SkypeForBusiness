@@ -22,7 +22,9 @@ description: "Find out requirements for remote management of Skype for Business 
 # Set up your computer for Windows PowerShell
 
 Remote management of Skype for Business Online by using Microsoft PowerShell is supported only on 64-bit computers running one of the following operating systems:
-  
+
+- Windows Server 2016
+
 - Windows 10
     
 - Windows 8.1
