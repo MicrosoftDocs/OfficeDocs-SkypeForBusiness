@@ -64,7 +64,7 @@ Log in to the front end server and run the following PowerShell cmdlets:
 
 Your online implementation will need to have a plan that includes Phone System licenses as described at [Office 365 Enterprise E1, E3, and E4](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
 
-1. Assign Phone System licenses to the on-premise resource account as described in  [Assign Skype for Business and Microsoft Teams licenses](skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+1. Assign Phone System licenses to the on-premise resource account as described in  [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
 2. Use the procedures in [Create a Phone System call queue](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md) to implement the Cloud call queue settings.  
 

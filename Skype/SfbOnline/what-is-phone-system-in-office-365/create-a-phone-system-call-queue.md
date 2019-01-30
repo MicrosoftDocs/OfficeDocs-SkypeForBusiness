@@ -123,7 +123,7 @@ In the **Microsoft Teams admin center**, **Voice** >  **Call queues**, then clic
 
 **Add Accounts** Select a resource account that has been associated with a service toll or toll-free phone number for the call queue. This is optional.
 
-If there aren't any listed, you need to get service numbers and assign them to a Resource account before you can create this call queue, as described earlier. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md) You'll need to create a resource account as described in [Manage resource accounts in Teams](../../../Teams/manage-resource-accounts.md) if you want your call queue to have an associated phone number.
+If there aren't any listed, you need to get service numbers and assign them to a Resource account before you can create this call queue, as described earlier. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md) You'll need to create a resource account as described in [Manage resource accounts in Teams](/MicrosoftTeams/manage-resource-accounts.md) if you want your call queue to have an associated phone number.
 
 > [!NOTE]
 > If you want or need to assign a **Domain** you would do so by assigning it to the resource account for the call queue.
