@@ -24,19 +24,34 @@ A Resource Account is also known as a disabled user object in Azure Active Direc
 
 In Microsoft Teams, an admin uses a resource account to assign a phone number to a Call Queue or Auto Attendant.
 
-## Prerequisites
+## Prerequisites to assign a phone number to a Resource account
 
+To get started it's important to remember a few things:
+  
+- Your organization must have (at a minimum) an Enterprise E3 plus **Phone System** license or an Enterprise E5 license. The number of **Phone System** user licenses that are assigned affects the number of service numbers that are available to be used for resource accounts assigned to call queues or auto attendants. The number of resource accounts you can have is dependent on the number of **Phone System** and **Audio Conferencing** licenses that are assigned in your organization. To learn more about licensing, go [here](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+
+    > [!NOTE]
+    > To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+  
+- To learn more about Office 365 Calling Plans, see [What are Calling Plans in Office 365?](/microsoftteams/what-are-calling-plans-in-office-365) and [Calling Plans for Office 365](/microsoftteams/calling-plans-for-office-365).
+- You can only assign toll and toll-free service phone numbers that you got in the **Microsoft Teams admin center** or transferred from another service provider to a resource account. To get and use toll-free service numbers, you need to set up Communications Credits.
+
+    > [!NOTE]
+    > User (subscriber) phone numbers can't be assigned to a resource account - only service toll or toll-free phone numbers can be used.
+
+To assign a phone number to a resource account, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
+  
+> [!NOTE]
+> If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) instead to see how to do it from the outside of the United States.
 
 ## Create a resource account in Powershell
 
- Create a resource account  by running the `New-CsOnlineApplicationInstance` cmdlet as needed (for one or more resource accounts), and give each one a name, sip address, and so on. There is currently no option for creating a resource account in the Microsoft Teams admin center, but you can edit phone numbers and change the Call Queue or Auto Attendant assignments.
-
-Configuring a phone number for a resource account is required only if you want to connect callers directly to a Call Queue without using one or more Auto Attendants. In a larger Auto Attendant system, a phone number for the main Auto Attendant is required but optional for any nested auto attendants or Call Queues called by an Auto Attendant
-
+ Create a resource account by running the `New-CsOnlineApplicationInstance` cmdlet as needed (for one or more resource accounts), and give each one a name, sip address, and so on. There is currently no option for creating a resource account in the Microsoft Teams admin center, but you can edit phone numbers and change the Call Queue or Auto Attendant assignments.
 
 ``` Powershell
 New-CsOnlineApplicationInstance -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
 ```
+Configuring a phone number for a resource account is required only if you want to connect callers directly to a Call Queue without using one or more Auto Attendants. In a larger Auto Attendant system, a phone number for the resource account of the main Auto Attendant is required but optional for any nested auto attendants or Call Queues reached through an Auto Attendant.
 
 So for a call queue you intend to route a caller to after making an auto attendant selection, you can omit the phone number as shown:
 
