@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: some-scs-name         # Delete if this topic isn't in a SCS, or enter the tag for SCS. 
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: 
