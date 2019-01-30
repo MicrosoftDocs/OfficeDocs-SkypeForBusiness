@@ -213,7 +213,7 @@ items:
   content: |
    
    > [!IMPORTANT]
-   > The new Microsoft Teams admin center is here! Starting in March 2018, we're gradually migrating settings to it from both the current Skype for Business admin center and the Microsoft Teams experience in the Office 365 admin center. If a setting has been migrated, you'll see a notification and then be directed to the setting's location in the new Microsoft Teams admin center. For more information, see [Manage Teams during the transition to the new Microsoft Teams and Skype for Business Admin Center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center). 
+   > The new Microsoft Teams admin center is here! Starting in March 2018, we're gradually migrating settings to it from both the current Skype for Business admin center and the Microsoft Teams experience in the Office 365 admin center. If a setting has been migrated, you'll see a notification and then be directed to the setting's location in the new Microsoft Teams admin center. For more information, see [Manage Teams during the transition to the new Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center). 
      
     As part of the migration to the new Microsoft Teams admin center, how to configure Teams by license type is accomplished via policy. The policy types are accessible via the Admin Center navigation. See below for an example list of Messaging policies.
 
