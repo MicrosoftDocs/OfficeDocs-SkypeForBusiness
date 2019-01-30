@@ -1,5 +1,5 @@
 ---
-title: Manage teams in the Microsoft Teams & Skype for Business Admin Center
+title: Manage teams in the Microsoft Teams admin center
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: islubin 
-description: Learn how to view or update your teams in the Microsoft Teams & Skype for Business Admin Center.
+description: Learn how to view or update your teams in the Microsoft Teams admin center.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -18,25 +18,25 @@ appliesto:
 - 
 ---
 
-Manage teams in the Microsoft Teams & Skype for Business Admin Center
+Manage teams in the Microsoft Teams admin center
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## Overview
 
-As an IT admin, you may need to view or update the teams that your organization has set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams & Skype for Business Admin Center. For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:
+As an IT admin, you may need to view or update the teams that your organization has set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:
 
 - Global Administrator
 - Teams Service Administrator
 
 You should also make sure that your account has been assigned a non-trial Teams license for management. As part of a known issue, you should make sure that your account has only **one** admin role assigned.  You can learn more about admin roles in Microsoft Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
-This article provides an overview of the management tools for teams in the Microsoft Teams & Skype for Business Admin Center.
+This article provides an overview of the management tools for teams in the Microsoft Teams admin center.
 
 ## Teams overview grid
 
-Management tools for teams are under the **Teams** node in the Microsoft Teams & Skype for Business Admin Center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
+Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
 > [!NOTE]
 > We are in the process of backfilling previously created Teams to ensure that they will show up in this view.
@@ -90,7 +90,7 @@ The changes that you make to a team are logged. If you are modifying group setti
 
 **Issue: Teams missing from the Team Overview Grid**
 
-When you enter the Microsoft Teams & Skype for Business Admin Center, under the **Teams** option some of your teams are missing from the listing in the Teams Overview Grid.
+When you enter the Microsoft Teams admin center, under the **Teams** option some of your teams are missing from the listing in the Teams Overview Grid.
 
 **Cause**: This issue occurs when the team was incorrectly (or not yet) profiled by the system which can lead to a missing property for it to be recognized.
 
@@ -108,7 +108,7 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 
 5. Run the Query on the Top-Right.
 
-6. Confirm the team appears correctly back on the Microsoft Teams & Skype for Business Admin Center - Team Overview
+6. Confirm the team appears correctly back on the Microsoft Teams admin center - Team Overview
 
 
 ## Learn more

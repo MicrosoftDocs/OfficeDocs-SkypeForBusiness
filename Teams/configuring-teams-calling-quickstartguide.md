@@ -43,7 +43,7 @@ To enable the **Dial Pad** tab in Teams and allow your users to make and receive
 > You can also use Direct Routing to allow your users to mand and receive PSTN calls. To learn how to set up Direct Routing, read [Configure Direct Routing](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
 
 ## Teams interop policy configuration
-To enable Teams to begin receiving calls, you'll need to update Teams upgrade policy and Teams interop policy, using [Microsoft Teams & Skype for Business Admin Center](https://aka.ms/teamsadmincenter) or using a remote Windows PowerShell session with the Skype for Business [`*-CsTeamsUpgradePolicy` and `*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype) cmdlets, to redirect calls to Teams.
+To enable Teams to begin receiving calls, you'll need to update Teams upgrade policy and Teams interop policy, using [Microsoft Teams admin center](https://aka.ms/teamsadmincenter) or using a remote Windows PowerShell session with the Skype for Business [`*-CsTeamsUpgradePolicy` and `*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype) cmdlets, to redirect calls to Teams.
 
 For more information about Teams upgrade policy and Teams interop policy, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
 
@@ -85,7 +85,7 @@ If you choose to continue to use the legacy Teams upgrade policy, use the follow
     CallingDefaultClient       : Teams
     ChatDefaultClient          : Teams
 
-If you choose to use the updated Teams upgrade policy, you need to assign TeamsOnly mode to your users.
+If you choose to use the updated Teams upgrade policy, you need to assign Teams Only mode to your users.
 
 The behaviors of the policy above are the following:
 * **For existing Skype for Business customers**, this policy is designed to redirect incoming calls to Teams. This includes both VoIP (from Teams and Skype for Business) and PSTN calls. 
@@ -99,7 +99,7 @@ When using the legacy Teams upgrade policy, apply the Teams interop policy as de
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-If you choose to use TeamsOnly mode, you can change the user's coexistence mode to TeamsOnly via Microsoft Teams & Skype for Business Admin Center, or via Skype for Business remote Windows PowerShell session to redirect calls to Teams:
+If you choose to use Teams Only mode, you can change the user's coexistence mode to Teams Only via the Microsoft Teams acmin center or via a Skype for Business remote Windows PowerShell session to redirect calls to Teams:
 
     Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com

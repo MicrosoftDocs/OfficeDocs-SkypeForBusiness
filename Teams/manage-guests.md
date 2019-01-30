@@ -21,7 +21,7 @@ Manage guest access in Microsoft Teams
 
 After the **Guest** user/license type is turned on, you can configure settings for guests via the controls described in [Manage Microsoft Teams features in your Office 365 organization](enable-features-office-365.md) and [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md).     
     
-IT admins can add guests at the tenant level, set and manage guest user policies and permissions, and pull reports on guest user activity. These controls are available through the Microsoft Teams & Skype for Business Admin Center. Guest user content and activities are under the same compliance and auditing protection as the rest of Office 365.
+IT admins can add guests at the tenant level, set and manage guest user policies and permissions, and pull reports on guest user activity. These controls are available through the Microsoft Teams admin center. Guest user content and activities are under the same compliance and auditing protection as the rest of Office 365.
 
 Team owners can invite new guests and add existing directory guest users to their teams. Team owners can identify guest users via **Teams** > **Manage teams**, and set channel-related capabilities for guests via **Org-wide settings** > **Guest access**, including allowing guests to create, update, and delete channels, as shown in the following screenshot.
 
