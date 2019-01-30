@@ -59,7 +59,7 @@ To get started using call queues, it's important to remember a few things:
 - To learn more about Office 365 Calling Plans, see [What are Calling Plans in Office 365?](/microsoftteams/what-are-calling-plans-in-office-365) and [Calling Plans for Office 365](/microsoftteams/calling-plans-for-office-365).
 
     > [!NOTE]
-    > Users hosted on-premises using Lync Server 2010 aren't supported as a Call Queue Agents.
+    > Users hosted on-premises using Lync Server 2010 aren't supported as a call queue Agents.
   
 - You can only assign toll and toll-free service phone numbers that you got in the **Microsoft Teams admin center** or transferred from another service provider to Phone System call queues. To get and use toll-free service numbers, you need to set up Communications Credits.
 
@@ -97,44 +97,9 @@ Before you can create and set up your call queues, you will need to get or trans
 > [!NOTE]
 > If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) instead to see how to do it from the outside of the United States.
 
-If you are also setting up Auto Attendants, you may only need to assign a phone number to the main auto attendant, and then have it direct callers to your Call Queue. If that's the case, the Call Queue will need to be created before you can create an option in the Auto Attendant that selects the Call Queue.
+If you are also setting up auto attendants, you may only need to assign a phone number to the main auto attendant, and then have it direct callers to your call queue. If that's the case, the call queue will need to be created before you can create an option in the auto attendant that selects the call queue.
   
-## Step 3 - Create a new Call Queue
-
-### Create a resource account in Powershell
-
- Create a Call Queue's resource account  by running the `New-CsOnlineApplicationInstance` cmdlet as needed (for one or more Call Queues), and give each one a name, sip address, and so on.
-
-Configuring a phone number for a Call Queue is required only if you want to connect callers directly to a Queue without using one or more Auto Attendants.
-
-```
-New-CsOnlineApplicationInstance -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
-```
-
-So for a call queue you intend to route a caller to after making an auto attendant selection, you can omit the phone number as shown:
-
-```
-New-CsOnlineApplicationInstance -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
-```
-
-See [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) for more details on this command.
-
-> [!NOTE]
-> You can also use the `Set-CsOnlineApplicationInstance` command to a assign a phone number (with the -LineURI option) to the Call Queue after its initial creation.
-
-```
-Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName AANode1 -LineURI tel:+14255550100
-```
-
-See [Set-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlineapplicationinstance?view=skype-ps) for more details on this command.
-
-Once these resource accounts are created, you can either wait for AD to sync between online and on premise, or force a sync and proceed to configuration of the Call Queue. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
-
-```
-Start-ADSyncSyncCycle -PolicyType Delta
-```
-
-See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
+## Step 3 - Create a new call queue
 
 
 ### Using the Microsoft Teams admin center
@@ -156,12 +121,12 @@ In the **Microsoft Teams admin center**, **Voice** >  **Call queues**, then clic
 
 ![Number 2](../images/sfbcallout2.png)
 
-**Add Accounts** Select a Resource Account that has been associated with a service toll or toll-free phone number for the call queue. This is optional.
+**Add Accounts** Select a resource account that has been associated with a service toll or toll-free phone number for the call queue. This is optional.
 
-If there aren't any listed, you need to get service numbers and assign them to a Resource account before you can create this call queue, as described earlier. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md)
+If there aren't any listed, you need to get service numbers and assign them to a Resource account before you can create this call queue, as described earlier. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md) You'll need to create a resource account as described in [Manage resource accounts in Teams](../../../Teams/manage-resource-accounts.md) if you want your call queue to have an associated phone number.
 
 > [!NOTE]
-> If you want or need to assign a **Domain** you would do so by assigning it to the resource account for the Call Queue.
+> If you want or need to assign a **Domain** you would do so by assigning it to the resource account for the call queue.
 
 ### Set the greeting and music played while on hold
 
@@ -174,8 +139,6 @@ If there aren't any listed, you need to get service numbers and assign them to a
 **Greeting** is optional. This is the greeting that is played for people who call in to the call queue number.
 
 You can upload an audio file (.wav, .mp3, or .wma formats).
-
-
 
 ![Number 2](../images/sfbcallout2.png)
 
@@ -280,7 +243,7 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 
 **Call Timeout: maximum wait time** You can also decide how much time a call can be on hold in the queue before it times out and needs to be redirected or disconnected. Where it will be redirected is based on how you set the **When a call times out** setting. You can set a time from 0 to 45 minutes.
 
-The timeout value can be set in seconds, at 15-second intervals. This allows you to manipulate the call flow with finer granularity. For example, you could specify that any calls that are not answered by an agent within 30 seconds go to a Directory Search Auto Attendant.
+The timeout value can be set in seconds, at 15-second intervals. This allows you to manipulate the call flow with finer granularity. For example, you could specify that any calls that are not answered by an agent within 30 seconds go to a Directory Search auto attendant.
 
 ![Number 4](../images/sfbcallout4.png)
 

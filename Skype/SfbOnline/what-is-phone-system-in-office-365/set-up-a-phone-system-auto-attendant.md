@@ -31,7 +31,7 @@ If you want to learn more about auto attendants, see [What are Phone System auto
 
 ## Step 1 - Getting started
 
-- Before you can create and set up your auto attendants, if the Auto Attendant will have a phone number (and many second-level prompts or nested Auto Attendants will no require a phone number) you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service numbers, they will show up on the **Microsoft Teams admin center** > **Voice** > **Phone numbers** page. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md), or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365). **User (subscriber)** numbers can't be assigned to auto attendants. If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers; go [here](/microsoftteams/manage-phone-numbers-for-your-organization) instead.
+- Before you can create and set up your auto attendants, if the auto attendant will have a phone number (and many second-level prompts or nested auto attendants will no require a phone number) you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service numbers, they will show up on the **Microsoft Teams admin center** > **Voice** > **Phone numbers** page. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md), or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365). **User (subscriber)** numbers can't be assigned to auto attendants. If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers; go [here](/microsoftteams/manage-phone-numbers-for-your-organization) instead.
 
     > [!CAUTION]
     > To get and use toll-free phone numbers, you need to set up Communications Credits. To do this see [What are Communications Credits?](/microsoftteams/what-are-communications-credits) and [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).
@@ -42,41 +42,6 @@ If you want to learn more about auto attendants, see [What are Phone System auto
     > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans in Office 365 to them. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). You can also use Windows PowerShell. For example, run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## Step 2 - Create a new auto attendant
-
-### Create a resource account in Powershell
-
-Create a resource account for your Auto Attendant by running the `New-CsOnlineApplicationInstance` cmdlet as needed (for one or more Call Queues), and give each one a name, sip address, and so on.
-
-Configuring a phone number is required only  to connect callers to an a Main  Auto Attendant, subsequent nested Auto Attendants won't require phone numbers.
-
-```
-New-CsOnlineApplicationInstance -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
-```
-
-So for a call queue you intend to route a caller to after making an auto attendant selection, you can omit the phone number as shown:
-
-```
-New-CsOnlineApplicationInstance -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
-```
-
-See [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) for more details on this command.
-
-> [!NOTE]
-> You can also use the `Set-CsOnlineApplicationInstance` command to a assign a phone number (with the -LineURI option) to the Call Queue after its initial creation.
-
-```
-Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName AANode1 -LineURI tel:+14255550100
-```
-
-See [Set-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlineapplicationinstance?view=skype-ps) for more details on this command.
-
-Once these resource accounts are created, you can either wait for AD to sync between online and on premise, or force a sync and proceed to configuration of the Auto Attendants. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
-
-```
-Start-ADSyncSyncCycle -PolicyType Delta
-```
-
-See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
 
 ### Using the Microsoft Teams admin center
 
@@ -97,6 +62,8 @@ In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**
 ![Number 2](../images/sfbcallout2.png)
 
 **Resource account** Click this button to select one or more resource accounts to connect to your new auto attendant. A resource account can have a phone number associated to the account, but it might not. A top-level auto attendant would almost certainly would have an assigned phone number, but a secondary auto attendant (used as a level 2 menu that the first level auto attendant connects to) might easily not have a phone number.
+
+You'll need to create a resource account as described in [Manage resource accounts in Teams](/microsoftTeams/manage-resource-accounts.md) if you want your auto attendant to have an associated phone number.
 
 * * *
 
@@ -127,7 +94,7 @@ You can set one of the following as Operator:
      > [!Note]
      > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 isn't supported.
 
-- A **Call Queue** that you have set up.
+- A **call queue** that you have set up.
 - You can set it up so the person calling will be sent to voicemail. To do this, select **Person in your company** and set this person's calls to be forwarded directly to voicemail.
 
 * * *
@@ -199,8 +166,6 @@ You can select what happens to calls that arrive during business hours. You can 
 
    You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants. To send the call to a nested auto attendant, select **Person in company** and assign a resource account, either one that already has an associated auto attendant or one that you will associate to an auto attendant once you are done creating this auto attendant.
 
-<!--   * A **Call Queue** Using a Call Queue allows the call to be transferred to an existing Call Queue that you have set up. -->
-
 - **Play menu options** can also be used to let you set up a prompt you want played.
 
 * * *
@@ -239,7 +204,7 @@ To set up your menu options, after you select the dial key(s), you will need to:
 
         > [!Note]
         > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
-<!--    - **Call Queue** Using a call queue option allows the call to be transferred to an existing call queue that you have set up. -->
+<!--    - **call queue** Using a call queue option allows the call to be transferred to an existing call queue that you have set up. -->
 
 * * *
 
@@ -302,7 +267,7 @@ Holiday names may consist of up to 64 characters and must be unique for the same
     > [!Note]
     > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported.
 
-  - A **Call Queue** to transfer the call to an existing Call Queue that you have set up.
+  - A **call queue** to transfer the call to an existing call queue that you have set up.
   - Another **Auto attendant**, to create a second level of menu options containing a submenu. These are called nested auto attendants.
 
     > [!Note]
