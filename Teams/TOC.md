@@ -621,7 +621,7 @@
 ### [Verify service health for Teams](service-health.md)
 ### [Special character restrictions in Teams policies](special-character-restrictions-in-policy-names.md)
 
-### Monitor call quality
+### [Monitor call quality](monitor-call-quality-qos.md)
 #### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 #### [Set up QoS in Teams](QoS-in-Teams.md)
 #### [Implement QoS and monitor call quality](monitor-call-quality-qos.md)
