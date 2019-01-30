@@ -9,7 +9,7 @@
 ### [Client updates](../sfb-client-updates.md)
 ### [Server updates](../sfb-server-updates.md)
 
-## [Microsoft Telephony solutions](../../SFBServer2019/hybrid/msft-telephony-solutions.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+## [Microsoft telephony solutions](../../SFBServer2019/hybrid/msft-telephony-solutions.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 
 ### [Plan Phone System with on-premises PSTN connectivity](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
