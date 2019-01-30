@@ -46,31 +46,39 @@ To assign a phone number to a resource account, you will need to get or transfer
 
 ## Create a resource account in Powershell
 
- Create a resource account by running the `New-CsOnlineApplicationInstance` cmdlet as needed (for one or more resource accounts), and give each one a name, sip address, and so on. There is currently no option for creating a resource account in the Microsoft Teams admin center, but you can edit phone numbers and change the Call Queue or Auto Attendant assignments.
+ You would create a resource account by running the appropriate Powershell cmdlet as needed (for one or more resource accounts), and give each one a name, sip address, and so on. There is currently no option for creating a resource account in the Microsoft Teams admin center, but you can edit phone numbers and change the Call Queue or Auto Attendant assignments.
+
+Depending on whether your phone number is located on line or on premises, you would need to connect to the appropriate Powershell prompt with Admin priveleges. 
+
+- Hybrid implementations will use [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) to have a resource account that is homed on premises.  
+- Online only implementations will use [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) to have a resource account that is homed online.
+
+The following is an online environment example:
 
 ``` Powershell
 New-CsOnlineApplicationInstance -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
 ```
+
 Configuring a phone number for a resource account is required only if you want to connect callers directly to a Call Queue without using one or more Auto Attendants. In a larger Auto Attendant system, a phone number for the resource account of the main Auto Attendant is required but optional for any nested auto attendants or Call Queues reached through an Auto Attendant.
 
-So for a call queue you intend to route a caller to after making an auto attendant selection, you can omit the phone number as shown:
+So for a call queue you intend to route a caller to after making an auto attendant selection, you can omit the phone number from the assigned resource account as shown:
 
 ``` Powershell
 New-CsOnlineApplicationInstance -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
 ```
 
+If needed, you can always add the phone number later.
+
 See [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) for more details on this command.
 
 > [!NOTE]
-> You can also use the `Set-CsOnlineApplicationInstance` command to a assign a phone number (with the -LineURI option) to the Call Queue after its initial creation.
+> You can also use the `Set-CsOnlineApplicationInstance` command to a assign a phone number (with the -LineURI option) to the resource account after its initial creation.
 
 ``` Powershell
 Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName AANode1 -LineURI tel:+14255550100
 ```
 
 See [Set-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlineapplicationinstance?view=skype-ps) for more details on this command.
-
-Hybrid implementations will use [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) to have a resource account that is homed on premises.
 
 Once resource accounts are created, you can either wait for AD to sync between online and on premises, or force a sync and proceed to configuration of Auto Attendants or Call Queues. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
