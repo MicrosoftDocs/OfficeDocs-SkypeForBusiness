@@ -31,13 +31,13 @@ See the following table for a comparison of external and guest access features.
 |---------|-----------------------|--------------------|
 | User can chat with someone in another company | Yes |Yes |
 | User can call someone in another company | Yes | Yes |
-| User can see if someone from another company is available for call or chat | Yes | Yes |
-| User can search for users across external tenants | Yes\* | No |
+| User can see if someone from another company is available for call or chat | Yes | Yes<sup>1</sup> |
+| User can search for users across external tenants | Yes<sup>2</sup> | No |
 | User can share files | No | Yes |
 | User can access Teams resources | No | Yes |
 | User can be added to a group chat | No | Yes |
 | User can be added to a meeting | Yes | Yes |
-| Additional users can be added to a chat with an external user | No | N/A |
+| Additional users can be added to a chat with an external user | No<sup>3</sup> | N/A |
 | User is identified as an external party | Yes | Yes |
 | Presence is displayed | Yes | Yes |
 | Out of office message is shown | No | Yes |
@@ -45,7 +45,9 @@ See the following table for a comparison of external and guest access features.
 | @mentions are supported | No | Yes |
 ||||
 
-\* Only by email or Session Initiation Protocol (SIP) address.
+<sup>1</sup> Provided that the user has been added as a guest.<br>
+<sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
+<sup>3</sup> External (federated) chat is 1:1 only.
 
 ## Turn on or turn off external access
 
