@@ -567,12 +567,13 @@
 ### [Operate your service](upgrade-operate-my-service.md)
 ### [Monitor quality](upgrade-monitor-quality.md)
 ### [Enhance your service](upgrade-enhance-my-service.md)
-### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
+
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
 ## Additional information
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
+### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
 <!-- ============================================================ -->
 #       
 #        
