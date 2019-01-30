@@ -48,7 +48,7 @@ To assign a phone number to a resource account, you will need to get or transfer
 
  You would create a resource account by running the appropriate Powershell cmdlet as needed (for one or more resource accounts), and give each one a name, sip address, and so on. There is currently no option for creating a resource account in the Microsoft Teams admin center, but you can edit phone numbers and change the Call Queue or Auto Attendant assignments.
 
-Depending on whether your phone number is located on line or on premises, you would need to connect to the appropriate Powershell prompt with Admin priveleges. 
+Depending on whether your phone number is located on line or on premises, you would need to connect to the appropriate Powershell prompt with Admin privileges.
 
 - Hybrid implementations will use [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) to have a resource account that is homed on premises.  
 - Online only implementations will use [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) to have a resource account that is homed online.
