@@ -75,7 +75,6 @@
 ## Hybrid solutions for Teams and Skype for Business
 ### [Plan hybrid connectivity](../../SFBServer2019/hybrid/plan-hybrid-connectivity.md)
 
-(../../SFBServer2019/hybrid/msft-telephony-solutions.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 ### [Configure hybrid connectivity](../../SFBServer2019/hybrid/configure-hybrid-connectivity.md)
 #### [Configure Azure AD Connect for hybrid environments](../../SFBServer2019/hybrid/configure-azure-ad-connect.md)
