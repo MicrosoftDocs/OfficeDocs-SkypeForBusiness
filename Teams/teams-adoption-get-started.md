@@ -26,7 +26,7 @@ By driving adoption of Microsoft Teams, you can deliver an excellent user experi
 
 Before getting started, make sure that:
 
-- [Teams is enabled](quick-start-enable-teams.md) and licenses are assigned in your environment. At a minimum licenses should be assigned to your core team and to the early adopters who will participate in this initial project phase.
+- [Teams is installed](get-clients.md) and [licenses are assigned](office-365-licensing.md) in your environment. At a minimum licenses should be assigned to your core team and to the early adopters who will participate in this initial project phase.
 
 - You've downloaded the desktop and mobile applications. 
 

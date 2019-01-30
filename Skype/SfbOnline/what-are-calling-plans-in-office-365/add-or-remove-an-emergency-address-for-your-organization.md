@@ -48,6 +48,8 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
     
     > [!IMPORTANT]
     > Validating a street or civic address involves making sure that it is legitimate and correctly formatted. It is possible that a partially correct emergency address, such as if you mistyped the name of the city, may still pass validation. Even though it's misspelled and passed validation, the combination of the misspelled name of city along with the other correct parts of the address are enough information to route the call to the appropriate emergency dispatch center. 
+    
+    > NOTE: In Belgium, France, Germany, Ireland, Netherlands, and Spain it is important to understand that in order to successfully activate a phone number in Office 365 the address setup in the Emergency Location, which will be used to acquire the number, must match the phone number’s area code.
   
     If the address can't be validated, you can send a manual validation request by clicking **Send a validation request** if you are trying to validate a U.S. address, or click **Open a service request to get help with address validation** if you are outside the United States.
     
@@ -78,7 +80,35 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
     
     > [!IMPORTANT]
     > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+
+## Troubleshooting
+
+**Number in “Failed” state.**
+
+After acquiring a number from the Office 365 portal, the status changed from **“Provisioning”** to **“Failed”**.
+
+This issue often occurs when a number is added from the portal, using an emergency address pointing to a location which is not matching the phone’s area code.
+
+To obtain more information about the number(s) which wasn't activated properly, run the following Powershell :
+ 
+> [!SYNTAX]
+> Get-CsOnlineTelephoneNumber | Where-Object {$_.ActivationState -cnotcontains “Activated”} | fl *
+
+The result, aside other information like region, id and ActivationState, should also contain the CityCode.
+
+**Example**, for a Madrid number, the CityCode returned will be "EMEA-ES-ALL-M_MA".
+
+If indeed a wrong emergency address has been used, make sure you have created a new emergency address corresponding to the number’s area code and assign it to the number.
+
+1. Sign in to Office 365 with your work or school account.
     
+2. Go to the **Microsoft Teams & Skype for Business Admin Center** > **Legacy portal**.
+    
+3. In the left navigation, go to **Voice** > **Phone Numbers**, and then double-click on the number in **“Failed”** State and from the right hand site menu, select the **new Emergency Address**.
+
+
+Please note that after changing the emergency address, the number’s status will change to **“Assignment Pending”** and it can take up to 24 hours for successfully activating.
+
 ## Related topics
 [What are emergency locations, addresses, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 

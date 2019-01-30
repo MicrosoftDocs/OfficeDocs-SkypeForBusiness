@@ -83,12 +83,8 @@ Define Phone System with Calling Plans feature requirements
 ------------------------------------------------------------
 
 As part of defining Phone System with Calling Plans feature requirements for
-users in scope, one of the first steps that you should have completed during the
-Envision phase was the [Persona
-Analysis](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#assess-environment-and-evaluate-adoption-readiness),
-where you defined your Phone System with Calling Plans persona and scenarios.
-With this baseline identified, the next step is to evaluate the latest Teams
-public roadmap to determine:
+users in scope, see [Phone System with Calling Plans](calling-plan-landing-page.md).
+Next, evaluate the latest Teams public roadmap to determine:
 
 -   Which Phone System with Calling Plans features you’ll deploy for users in
     scope.
@@ -104,7 +100,7 @@ public roadmap to determine:
 > [!TIP]
 > The latest Teams roadmap for identifying Phone System with Calling Plans
 > features in scope for your deployment can be found at
-> <https://aka.ms/skype2teamsroadmap>.
+> <https://aka.ms/O365Roadmap>.
 
 Now that the Phone System with Calling Plans persona and features have been
 defined, the next criteria for evaluation will be the interoperability

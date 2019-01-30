@@ -18,7 +18,7 @@ appliesto:
 Limits and specifications for Microsoft Teams
 =============================================
 
-This article describes some of the limits, specifications, and other requirements that apply to Microsoft Teams. 
+This article describes some of the limits, specifications, and other requirements that apply to Teams. 
 
 Teams and channels 
 ------------------
@@ -28,9 +28,9 @@ Teams and channels
 |Number of teams a user can create | Subject to a 250 object limit&sup1;         |
 |Number of members in a team | 2,500       |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 2,500       |
-|Number of teams a global admin can create        | 500,000   |
+|Number of teams a global admin can create        |  500,000   |
 |Number of teams an Office 365 tenant can have    | 500,000     |
-|Number of channels per team    | 200         |
+|Number of channels per team    | 200 (includes deleted channels)         |
 
 &sup1;Any directory object in Azure Active Directory counts towards this limit.
 
@@ -73,7 +73,7 @@ Microsoft Teams chat function works on a Microsoft Exchange backend, so you can 
 |Feature  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |---------|---------|---------|---------|---------|
 |Message size limit &dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|File attachments limit &Dagger;  |20     |20     |20     |20    |
+|File attachments limit &Dagger;  |10     |10     |10     |10    |
 |Inline images limit &Dagger; |50   |50   |50   |50   |
 
 &dagger; If the message exceeds this limit, a preview message is generated and the user is asked to view/download the original email from the link provided.

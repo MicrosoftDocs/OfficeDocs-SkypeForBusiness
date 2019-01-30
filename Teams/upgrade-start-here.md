@@ -3,7 +3,7 @@ title: Getting started with your Microsoft Teams upgrade
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 01/14/2019
+ms.date: 01/30/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -29,6 +29,8 @@ Microsoft encourages customers to upgrade to Teams as quickly as feasible to opt
 ## How is Microsoft helping customers with their upgrade to Teams? 
 
 Microsoft is committed to your success and is providing robust guidance built around a proven, end-to-end upgrade success framework designed to help you plan and execute the upgrade to Teams. Our guidance is designed for every stage of the upgrade journey, whether you are just getting started with planning, already running Teams alongside Skype for Business, or ready to upgrade to Teams.
+
+To help facilitate your upgrade planning and implementation, Microsoft is hosting complimentary online training, designed to quickly familiarize yourself with our upgrade framework, share insights into preparing your users for the upgrade and orient you to the various coexistence options your organization can take on your journey to Teams. Join us for an upgrade planning overview session: [https://aka.ms/Upgrade101](https://aka.ms/upgrade101).
  
 ## Why do I need upgrade guidance? Can’t I just delete/decommission Skype for Business? 
 
@@ -42,3 +44,10 @@ Start your journey by familiarizing yourself with our upgrade success framework 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+
+> [!Tip]
+> Watch the following session to learn about the Upgrade from Skype for Business to Microsoft Teams:
+> - [Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)
+> - [Plan your upgrade](https://aka.ms/teams-upgrade-plan)
+> - [Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Administrator experience](https://aka.ms/teams-upgrade-admin)
