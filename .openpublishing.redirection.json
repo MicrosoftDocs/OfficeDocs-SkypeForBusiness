@@ -1145,7 +1145,6 @@
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
       "redirect_document_id": true 
     },
-  ] 
     {      
       "source_path": "Teams/quick-start-enable-teams.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page", 
@@ -1171,5 +1170,5 @@
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/calling-plan-landing-page", 
       "redirect_document_id": true 
     }
-    ] 
+  ] 
 }
