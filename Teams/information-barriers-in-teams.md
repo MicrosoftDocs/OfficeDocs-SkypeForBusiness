@@ -3,7 +3,7 @@ title: Information barriers in Microsoft Teams (coming soon)
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/25/2019
+ms.date: 01/30/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -18,13 +18,12 @@ appliesto:
 
 Information barriers are policies that an admin can configure to prevent individuals or groups from communicating with each other. This is useful if, for example, one department is handling information that shouldn’t be shared with other departments or a group needs to be prevented from communicating with any outside contacts.
 
-
 > [!NOTE]
 > Information barrier groups cannot be created across tenants.
 
 ## Background
 
-The primary driver for Information Barriers comes from the financial services industry.  The Financial Industry Regulatory Authority ([FINRA]( http://www.finra.org/)) reviews information barriers and conflicts of interest within member firms and provides guidance as to how to manage such conflicts (FINRA 2241, [Debt Research Regulatory Notice 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).  
+The primary driver for Information Barriers comes from the financial services industry. The Financial Industry Regulatory Authority ([FINRA]( http://www.finra.org/)) reviews information barriers and conflicts of interest within member firms and provides guidance as to how to manage such conflicts (FINRA 2241, [Debt Research Regulatory Notice 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).  
 
 ## When should I use information barriers?
 
@@ -37,22 +36,14 @@ The Information Barrier Policy Evaluation Service determines whether a communica
 
 ## Managing information barrier policies
 
-Information barrier policies are managed with the following Security & Compliance Center (SCC) PowerShell cmdlets:
-
-- **[New-InformationBarrierPolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/InfoBarrier-chrisda/exchange/exchange-ps/exchange/policy-and-compliance/New-InformationBarrierPolicy.md)** - Use the New-InformationBarrierPolicy cmdlet to create a new information barrier policy. 
-- **[Test-InformationBarrierPolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/InfoBarrier-chrisda/exchange/exchange-ps/exchange/policy-and-compliance/Test-InformationBarrierPolicy.md)** - Use the Test-InformationBarrierPolicy cmdlet to test a new or modified information barrier policy.
-- **[Start-InformationBarrierPoliciesApplication](https://github.com/MicrosoftDocs/office-docs-powershell/blob/InfoBarrier-chrisda/exchange/exchange-ps/exchange/policy-and-compliance/Start-InformationBarrierPoliciesApplication.md)** - Use the Start-InformationBarrierPoliciesApplication cmdlet to activate information barrier policies.
-- **[Stop-InformationBarrierPoliciesApplication](https://github.com/MicrosoftDocs/office-docs-powershell/blob/InfoBarrier-chrisda/exchange/exchange-ps/exchange/policy-and-compliance/Stop-InformationBarrierPoliciesApplication.md)** - Use the StopInformationBarrierPoliciesApplication cmdlet to deactivate information barrier policies.
-- **[Get-InformationBarrierPolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/InfoBarrier-chrisda/exchange/exchange-ps/exchange/policy-and-compliance/Get-InformationBarrierPolicy.md)** - Use the Get-InformationBarrierPolicy cmdlet to view information barrier policies.
-- **[Set-informationBarrierPolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/InfoBarrier-chrisda/exchange/exchange-ps/exchange/policy-and-compliance/Set-InformationBarrierPolicy.md)** - Use the Set-InformationBarrierPolicy cmdlet to modify information barrier policies.
-- **[Remove-InformationBarrierPolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/InfoBarrier-chrisda/exchange/exchange-ps/exchange/policy-and-compliance/Remove-InformationBarrierPolicy.md)** – Use the Remove-InformationBarrierPolicy cmdlet to delete information barrier policies.
+Information barrier policies are managed with Security & Compliance Center (SCC) PowerShell cmdlets. For more information about using these cmdlets, see [Information barriers (coming soon to Microsoft Teams!)](https://docs.microsoft.com/Office365/SecurityCompliance/information-barriers)
 
 > [!IMPORTANT]
 > Before you set up or define policies, **you must enable scoped directory search in Microsoft Teams**. Wait at least 24 hours after enabling scoped directory search before you set up or define policies for information barriers.
 
 ## Information barriers administrator role
 
-The information barriers administrator role is responsible for managing information barrier policies. For more information about this role, see [Information barriers (coming soon to Microsoft Teams!)](https://review.docs.microsoft.com/en-us/Office365/SecurityCompliance/information-barriers?branch=infobarriers-working).
+The information barriers administrator role is responsible for managing information barrier policies. For more information about this role, see [Information barriers (coming soon to Microsoft Teams!)](https://docs.microsoft.com/Office365/SecurityCompliance/information-barriers).
 
 ## When are information barrier policies checked?
 
@@ -76,14 +67,5 @@ If there is an existing chat or other communication between users, and a new pol
 
 ## More information
 
-For more information about the information barriers admin role and to set or remove information barrier policies, see [Information barriers](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/information-barriers.md).
+For more information about the information barriers admin role and to set or remove information barrier policies, see [Information barriers (coming soon to Microsoft Teams!)](https://docs.microsoft.com/Office365/SecurityCompliance/information-barriers).
 
-For more information about the Security and Compliance Center PowerShell cmdlets that control information barrier policies, see:
-
-- [New-InformationBarrierPolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/InfoBarrier-chrisda/exchange/exchange-ps/exchange/policy-and-compliance/New-InformationBarrierPolicy.md) 
-- [Test-InformationBarrierPolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/InfoBarrier-chrisda/exchange/exchange-ps/exchange/policy-and-compliance/Test-InformationBarrierPolicy.md)
-- [Start-InformationBarrierPoliciesApplication](https://github.com/MicrosoftDocs/office-docs-powershell/blob/InfoBarrier-chrisda/exchange/exchange-ps/exchange/policy-and-compliance/Start-InformationBarrierPoliciesApplication.md)
-- [Stop-InformationBarrierPoliciesApplication](https://github.com/MicrosoftDocs/office-docs-powershell/blob/InfoBarrier-chrisda/exchange/exchange-ps/exchange/policy-and-compliance/Stop-InformationBarrierPoliciesApplication.md)
-- [Get-InformationBarrierPolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/InfoBarrier-chrisda/exchange/exchange-ps/exchange/policy-and-compliance/Get-InformationBarrierPolicy.md)
-- [Set-informationBarrierPolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/InfoBarrier-chrisda/exchange/exchange-ps/exchange/policy-and-compliance/Set-InformationBarrierPolicy.md)
-- [Remove-InformationBarrierPolicy](https://github.com/MicrosoftDocs/office-docs-powershell/blob/InfoBarrier-chrisda/exchange/exchange-ps/exchange/policy-and-compliance/Remove-InformationBarrierPolicy.md)
