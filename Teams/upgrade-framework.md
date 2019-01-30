@@ -118,5 +118,5 @@ To help demonstrate how your upgrade journey might unfold, we’ve provided a sa
 > Our Upgrade content is continually evolving. Be sure to check back for the latest guidance, and read the [Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> If you’re an admin on your Office 365 tenant, you might start seeing upgrade options in your PowerShell cmdlet or Teams & Skype for Business Admin Center. Having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For an optimal user experience, confirm that Teams meets your collaboration and communication requirements, validate that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams.
+> If you’re an admin on your Office 365 tenant, you might start seeing upgrade options in your PowerShell cmdlet or Microsoft Teams admin center. Having the option to upgrade doesn’t necessarily mean your organization is ready for this change. For an optimal user experience, confirm that Teams meets your collaboration and communication requirements, validate that your network is ready to support Teams, and implement your user readiness plan before upgrading users to Teams.
  

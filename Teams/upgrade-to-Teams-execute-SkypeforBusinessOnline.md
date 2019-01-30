@@ -36,7 +36,7 @@ Follow the guidance in this article if you have wholly deployed Skype for Busine
 
 ## Assign the coexistence and upgrade mode
 
-You can upgrade your users by Teams by assigning the TeamsOnly mode of TeamsUpgradePolicy, which can be performed by using the Microsoft Teams & Skype for Business Admin Center or a Skype for Business remote Windows Powershell session.
+You can upgrade your users by Teams by assigning the TeamsOnly mode of TeamsUpgradePolicy, which can be performed by using the Microsoft Teams admin center or a Skype for Business remote Windows Powershell session.
 
 For more information, see [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) and [TeamsUpgradePolicy: managing migration and coexistence](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
@@ -46,12 +46,12 @@ Follow these steps to upgrade all of your users to Teams at one time.
 
 ### Step 1: Notify the users of the change
 
-1. In the Microsoft Teams & Skype for Business Admin Center, select **Org-wide settings** > **Teams upgrade**.
+1. In the Microsoft Teams admin center, select **Org-wide settings** > **Teams upgrade**.
 2. Under **Coexistence mode**, change the **Notify Skype for Business users that an upgrade to Teams is available** switch to **On**.
 
 ### Step 2: Set the coexistence mode for the users
 
-1. In the Microsoft Teams & Skype for Business Admin Center, select **Org-wide settings**.
+1. In the Microsoft Teams admin center, select **Org-wide settings**.
 2. Select **Teams Only** mode from the **Coexistence mode** drop-down list.
 
 ## Upgrade users in stages
@@ -66,13 +66,13 @@ To create your user cohorts (Add link to user selection page)
 
 ### Step 2: Set the user mode to Islands
 
-1. In the Microsoft Teams & Skype for Business Admin Center, select **Users**, and then select a user cohort.
+1. In the Microsoft Teams admin center, select **Users**, and then select a user cohort.
 2. Next to **Teams upgrade**, select **Edit**.
 3. In the **Teams Upgrade** pane, under **Coexistence mode**, select **Islands** from the drop-down list.
 
 ### Step 3: Set notification for the user (optional)
 
-1. In the Microsoft Teams & Skype for Business Admin Center, select **Users**, and select a user cohort.
+1. In the Microsoft Teams admin center, select **Users**, and select a user cohort.
 2. Next to **Teams upgrade**, select **Edit**.
 3. In the **Teams Upgrade** pane, under **Coexistence mode**, change **Notify the Skype for Business user** switch to **On**.
 
@@ -80,7 +80,7 @@ To create your user cohorts (Add link to user selection page)
 
 When you are ready to upgrade the users to use Teams as their only application, set the Coexistence mode for the user to Teams Only.
 
-1. In the Microsoft Teams & Skype for Business Admin Center, select **Users**, and then select a user cohort.
+1. In the Microsoft Teams admin center, select **Users**, and then select a user cohort.
 2. Next to **Teams upgrade**, select **Edit**.
 3. In the **Teams Upgrade** pane, under **Coexistence mode**, select **Teams Only** from the drop-down list.
 
