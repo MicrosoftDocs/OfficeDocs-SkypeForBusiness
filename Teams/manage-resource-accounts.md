@@ -81,12 +81,13 @@ Once resource accounts are created, you can either wait for AD to sync between o
 
 ## Manage Resource account settings in Microsoft Teams admin center
 
-To manage Resource account settings in Microsoft Teams admin center, navigate to Org-wide settings  > Resource accounts, select the resource account you need to change settings for, and then click on the Edit button. in the Edit resource account screen, you will be able to change the: 
+To manage Resource account settings in Microsoft Teams admin center, navigate to **Org-wide settings**  > **Resource accounts**, select the resource account you need to change settings for, and then click on the **Edit** button. in the **Edit resource account** screen, you will be able to change the:
 
 - **Display name* for the account
-- Call Queue or Auto Attendant the account is assigned to 
+- Call Queue or Auto Attendant the account is assigned to
 - Phone number assigned to the account (if any)
 
+When finished, click on **Save**.
 
 ## Related Information
 
