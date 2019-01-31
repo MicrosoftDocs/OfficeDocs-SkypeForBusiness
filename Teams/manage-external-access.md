@@ -45,7 +45,7 @@ See the following table for a comparison of external and guest access features.
 | @mentions are supported | No | Yes |
 ||||
 
-<sup>1</sup> Provided that the user has been added as a guest.<br>
+<sup>1</sup> Provided that the user has been added as a guest and is signed in as a guest to the guest tenant.<br>
 <sup>2</sup> Only by email or Session Initiation Protocol (SIP) address.<br>
 <sup>3</sup> External (federated) chat is 1:1 only.
 
