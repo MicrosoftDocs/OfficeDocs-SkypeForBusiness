@@ -32,13 +32,13 @@ Log in to the front end server and run the following PowerShell cmdlets:
 
     Configuring a phone number for a call queue is required only if you want to connect callers directly to a queue without using an auto attendant.
 
-    ```
+    ``` Powershell
     New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
     ```
 
     So for a call queue you intend to route a caller to after making an auto attendant selection, you can omit the phone number as shown:
 
-    ```
+    ``` Powershell
     New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
@@ -47,7 +47,7 @@ Log in to the front end server and run the following PowerShell cmdlets:
     > [!NOTE]
     > You can also use the `Set-CsHybridApplicationEndpoint` command to a assign a phone number (with the -LineURI option) to the call queue after its initial creation.
 
-    ```
+    ``` Powershell
     Set-CsHybridApplicationEndpoint -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName AANode1 -LineURI tel:+14255550100
     ```
 
@@ -55,7 +55,7 @@ Log in to the front end server and run the following PowerShell cmdlets:
 
 2. (Optional) Once these resource accounts are created and the required phone numbers are assigned, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of the call queues. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
-    ```
+    ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
     ```
     See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
@@ -78,13 +78,13 @@ The best way to test the implementation is to call the number configured for a c
 
 1. Get a list of all call queues by running the following command on the Exchange 2013 or 2016 system while logged in as admin:
 
-    ```
+    ``` Powershell
     Get-UMAutoAttendant | Format-List
     ```
 
 2. For each listed call queue, note its place in the structure, settings, and get copies of associated sound or text-to-speech file (the guid in the output will be the name of a folder where the files are stored). You can get these details by running the command:
 
-    ```
+    ``` Powershell
     Get-UMAutoAttendant -Identity MyUMAutoAttendant
     ```
     See [Get-UMAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) for more details on this command. A complete list of call queue options you might need to capture is at [UMAutoAttendant members](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx) but the most important options to note down are:
@@ -94,10 +94,10 @@ The best way to test the implementation is to call the number configured for a c
     - Language
     - Holiday schedule
 
-3. Create new on-premises endpoints as described above in [Server configuration steps](#server-configuration-steps). 
+3. Create new on-premises endpoints as described above in [Server configuration steps](#server-configuration-steps).
    Assign the  call queue a temporary number for testing purposes.
 
-4. Configure a Cloud call queue that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps). <br/> 
+4. Configure a Cloud call queue that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps). <br/>
   You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the Auto Attendant and user or call queue hierarchies in your old Exchange UM system.
 5. Test the Cloud call queue.
 6. Reassign the phone number linked to the Exchange UM call queue to the Cloud call queue. <br/> At this point, if you have already migrated UM Voicemail, you should be in a position to migrate to Exchange Server 2019.

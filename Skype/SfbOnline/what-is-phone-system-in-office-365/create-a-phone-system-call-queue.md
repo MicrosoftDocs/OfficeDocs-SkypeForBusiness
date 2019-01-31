@@ -101,7 +101,6 @@ If you are also setting up auto attendants, you may only need to assign a phone 
   
 ## Step 3 - Create a new call queue
 
-
 ### Using the Microsoft Teams admin center
 
 In the **Microsoft Teams admin center**, **Voice** >  **Call queues**, then click **+ Add new**:
@@ -149,7 +148,6 @@ You can upload an audio file (.wav, .mp3, or .wma formats).
 ### Select the call answering options
 
 ![Shows the call distribution method options](../images/5d249515-d532-4af2-90da-011404028b89.png)
-  
 
 ![Number 1](../images/sfbcallout1.png)
 
@@ -266,13 +264,13 @@ You can protect a user's identity by changing their caller ID for the outbound c
 
 To do this, run:
 
-```
+``` Powershell
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
 Then apply the policy to the user using the **Grant-CallingLineIdentity** cmdlet. To do this, run:
   
-```
+``` Powershell
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
