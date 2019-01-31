@@ -34,6 +34,9 @@ Teams and channels
 
 &sup1;Any directory object in Azure Active Directory counts towards this limit.
 
+> [!NOTE]
+> Channels don't support special characters like ~ # % & * {} + / \ : < > ? | ' " in the channel name.  
+
 Meetings and calls 
 ------------------
 
