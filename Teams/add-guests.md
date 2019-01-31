@@ -3,7 +3,7 @@ title: Add a guest to a team
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 11/26/2018
+ms.date: 01/31/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,7 +12,7 @@ ms.reviewer: sbhatta
 description: Learn the tools available to an admin to add new guest users to an organization, including the Microsoft Teams desktop and web clients and the Azure Active Directory B2B collaboration portal.
 appliesto: 
 - Microsoft Teams
-- 
+
 ---
 
 Add a guest to a team
