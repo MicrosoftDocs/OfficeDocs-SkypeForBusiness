@@ -38,7 +38,7 @@ Skype for Business is a communications and collaboration platform that brings to
         </a>
     </li>
     <li>
-        <a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions">
+        <a href="/SkypeForBusiness/hybrid/plan-hybrid-connectivity">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
