@@ -25,23 +25,23 @@ We currently offer two first party healthcare templates that you can leverage fo
 
 ## Ward template
 
-The ward template is meant for communication and collaboration within a ward, pod, or department. The template can be used to facilitate patient management, as well as the operational needs of a ward. For example, ward announcements can be posted in the ‘Announcements’ channel and shifts can be managed in ‘Scheduling and Patient Census’. If you’re looking to streamline your ward operations, then this template is for you.
+The ward template is meant for communication and collaboration within a ward, pod, or department. The template can be used to facilitate patient management, as well as the operational needs of a ward. For example, ward announcements can be posted in the *Announcements* channel and shifts can be managed in *Scheduling and Patient Census*. If you’re looking to streamline your ward operations, then this template is for you.
 
 |Base Template Type |baseTemplateId |Baseline Template channels|
 |:--- |:---|:---|
-|Healthcare- Ward | https://graph.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Announcements* <br> Huddles* <br>Rounds*<br>Staffing* <br>Training* |
+|Healthcare- Ward | https://graph.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Announcements\* <br> Huddles\* <br>Rounds\*<br>Staffing\* <br>Training\* |
 |     | |         |
 
 \* Auto-favorited 
 
 ## Hospital template
 
-The hospital template is meant for communication and collaboration between multiple wards, pods, and departments within a hospital. Included in this template are several operational channels including ‘Announcements,’ ‘Custodial,’ and ‘Pharmacy,’ but we also provide a script below which extends the template with a variety of additional department or specialty-centric channels that you can add to, delete from, or edit to your liking. For example, if you have an ‘Endocrinology’ department, but don’t need a channel for ‘Ophthalmology,’ then the script can be adapted to include an ‘Endocrinology’ channel and remove the ‘Ophthalmology’ channel. We recommend that these specialty or ward-modeled channels not be auto-favorited to avoid notification saturation. Users generally favorite any channels that they find relevant.
+The hospital template is meant for communication and collaboration between multiple wards, pods, and departments within a hospital. Included in this template are several operational channels including *Announcements*, *Custodial*, and *Pharmacy*, but we also provide a script below which extends the template with a variety of additional department or specialty-centric channels that you can add to, delete from, or edit to your liking. For example, if you have an *Endocrinology* department, but don’t need a channel for *Ophthalmology*, then the script can be adapted to include an *Endocrinology* channel and remove the *Ophthalmology* channel. We recommend that these specialty or ward-modeled channels not be auto-favorited to avoid notification saturation. Users generally favorite any channels that they find relevant.
 
 |Base Template Type |baseTemplateId |Baseline Template channels|
 |:--- |:---|:---|
-|Healthcare- Hospital | https://graph.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Announcements* <br> Compliance* <br>Custodial<br>Human Resources <br>Patient Safety and Quality Improvement* <br> Pharmacy |
-|     | |         |
+|Healthcare- Hospital | https://graph.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Announcements\* <br> Compliance\* <br>Custodial<br>Human Resources <br>Patient Safety and Quality Improvement\* <br> Pharmacy |
+| | |  |
 
 \* Auto-favorited 
 
