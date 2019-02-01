@@ -1,5 +1,5 @@
 ---
-title: Get started with retail Teams templates
+title: Get started with Retail Teams templates
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -35,7 +35,7 @@ The Store template is one of the Retail Teams templates. The Store template is i
 
 | Base template type | baseTemplateId | Base template properties |
 | ------------------ | -------------- |--------------------------|
-| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates`/<br>`retailStore`| Channels <ul><li>Shifts handoff\*</li><li>Learning\*</li></ul><br>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Cannot create/update/delete channels </li><li>Cannot add/remove apps </li><li>Cannot create/update/remove tabs</li><li>Cannot create/update/remove connectors</li><ul>|
+| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore`| Channels <ul><li>Shifts handoff\*</li><li>Learning\*</li></ul><br>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Cannot create/update/delete channels </li><li>Cannot add/remove apps </li><li>Cannot create/update/remove tabs</li><li>Cannot create/update/remove connectors</li><ul>|
 ||||
 \*Auto-favorited channels
 
