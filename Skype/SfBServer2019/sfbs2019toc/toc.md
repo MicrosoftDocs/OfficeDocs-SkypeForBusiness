@@ -30,7 +30,7 @@
 
 #### [Update AAD Connect to include more than one forest](../hybrid/cloud-consolidation-aad-connect.md)
 
-### [Integration with Exchange and SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/hybrid/hybrid/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/breadcrumb/toc.json)
+### [Integration with Exchange and SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 
 ## Plan
