@@ -154,7 +154,7 @@ Microsoft has identified various customer deployments that are consuming feature
 | AA | Service Features | Mailbox for AA callers to leave a message    |  | CY19   | Y    |
 | AA | Service Features | Multiple PSTN number assignment to an AA|  | Y | Y    |
 | AA | Tenant-Admin Features | Web portal administration   |  | Y | N    |
-| AA | Tenant-Admin Features | Powershell cmdlets  |  | Y | Y    |
+| AA | Tenant-Admin Features | PowerShell cmdlets  |  | Y | Y    |
 | Fax| Service Features | Fax integration|  | N | Y    |
 
 
@@ -167,7 +167,7 @@ When testing voicemail functionality after your users have been migrated, make s
 - Validate with sample users that the configured personalized greetings are played to callers.   
 - If your organization has a legal or compliance requirement to disable transcription for users, make sure it is disabled post migration.  
 - If you have previously configured Exchange VM policies and rules, make sure they are effective.
-- Familiarize yourself with the Cloud Voicemail service Powershell cmdlets for changing user settings.  
+- Familiarize yourself with the Cloud Voicemail service PowerShell cmdlets for changing user settings.  
 
 
 ### User experience impact
