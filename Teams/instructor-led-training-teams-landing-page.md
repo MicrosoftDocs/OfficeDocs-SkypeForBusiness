@@ -157,7 +157,7 @@ ms.collection: Teams_ITAdmin_Training
                                 </div>
                             </a>
                         </li>
-                        <li>
+                        <li> 
                             <a href="https://microsoftteams.eventbuilder.com/FLW3">
                                 <div class="cardSize">
                                     <div class="cardPadding">
