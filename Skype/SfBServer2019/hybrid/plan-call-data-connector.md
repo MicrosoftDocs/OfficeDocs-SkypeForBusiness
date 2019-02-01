@@ -63,7 +63,7 @@ The following requirements assume that you already have Skype for Business Serve
 
 - If you have not already done so, turn on Call Quality Dashboard as described in [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 
-- Enable the front end pool for Monitoring, with local LCSCdr and QoEMetrics databases. Without this, Call Data Connector won't have metrics data to work with.
+- Enable the front end pool for Monitoring, with local LcsCDR and QoEMetrics databases. Without this, Call Data Connector won't have metrics data to work with.
 
 > [!IMPORTANT]
 > Call Data Connector will not function if Monitoring is not enabled on the front end pool.
