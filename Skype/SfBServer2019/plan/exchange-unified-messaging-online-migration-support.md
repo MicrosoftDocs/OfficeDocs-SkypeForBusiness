@@ -15,7 +15,7 @@ description: "Microsoft is retiring the Exchange Unified Messaging Online (ExchU
 
 # Exchange Unified Messaging Online migration support
 
-In reference to the announcement on February 1, 2019 [insert a link to the blog], Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity.
+In reference to the announcement on February 1, 2019 [insert a link to the blog], Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity. 
  
 ExchUMO is deployed by customers for voicemail, Auto Attendant, and/or fax integration services. Microsoft plans to help these customers migrate to its cloud-based services that support thousands of customers already on Skype for Business Online and Microsoft Teams. 
 
