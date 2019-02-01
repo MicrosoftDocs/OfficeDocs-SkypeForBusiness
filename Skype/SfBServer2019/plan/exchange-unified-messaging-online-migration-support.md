@@ -47,7 +47,7 @@ Microsoft has identified various customer deployments that are consuming feature
 
 ## Migration steps
 
-1.	**Get informed**   
+1.	**Get informed**
  
     Familiarize yourself with the [Blog announcement] and this article to plan a smooth migration for your users. See [Check Skype for Business voicemail and options](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) for details on the Cloud Voicemail capabilities.  
  
@@ -56,7 +56,7 @@ Microsoft has identified various customer deployments that are consuming feature
 
     If you do not have a Skype for Business hybrid topology established, you need to do that to enable a smooth migration of your voicemail users. See [Configure Skype for Business hybrid](../hybrid/configure-federation-with-skype-for-business-online.md) for more details. 
 
-    > [!Note] 
+    > [!Note]
     > You do not need to migrate your users to online for the voicemail service migration. However, for on-premises users to leverage the cloud-based voicemail service, a hybrid topology is must be established.
 
 3. **Plan your Auto Attendant migration**
@@ -67,14 +67,14 @@ Microsoft has identified various customer deployments that are consuming feature
 
     Voicemail migration is Microsoft driven; Admins are not required to do anything, given that the pre-requisite hybrid topology is established. Microsoft will perform the required validation and testing to make sure users’ voicemail migration is not disrupted; however, admins are encouraged to perform testing and validation on their side.  See [Suggested test plan and post-migration validation for admins](#suggested-test-plan-and-post-migration-validation-for-admins) for a recommended test plan. 
 
-    > [Note] 
+    > [Note]
     > Lync Server 2010 is not supported. If you are in a 2010 server deployment, you should plan a server upgrade or consider migrating your users to Microsoft Teams or Skype for Business Online.  
 
 5. **Monitor the Admin Notification Center**
 
     Watch for a notification in the Admin Notification Center with further details and timeline regarding your users' voicemail migration. Notifications will be sent at least 30 days before your migration period. 
 
-    > [Note] 
+    > [Note]
     > If you received a notification with your users’ migration timeline and would like to postpone your migration for a business-critical reason, you can do so by contacting Microsoft Support. Note that you cannot postpone your migration beyond the retirement date, February 2020. For customers who may have more questions, please contact your account team or Microsoft Support. Customers already using Office 365 can submit a support case through the Office 365 Admin portal. 
 
 6. **Consider opting in starting from May 2019**
