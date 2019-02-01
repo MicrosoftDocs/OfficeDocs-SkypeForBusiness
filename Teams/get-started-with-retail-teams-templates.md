@@ -34,7 +34,7 @@ To learn more about team templates in general, please refer to [Get started with
 The Store template is one of the Retail Teams templates. The Store template is ideal for creating a team to represent an individual retail store location. Using the Store template, you can create a team for each retail store location in your organization.
 
 | Base template type | baseTemplateId | Base template properties |
-| ------------------ | -------------- |--------------------------|
+| ------------------ | -------------- | ------------------------ |
 | Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore`| Channels <ul><li>Shifts handoff\*</li><li>Learning\*</li></ul><br>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Cannot create/update/delete channels </li><li>Cannot add/remove apps </li><li>Cannot create/update/remove tabs</li><li>Cannot create/update/remove connectors</li><ul>|
 ||||
 \*Auto-favorited channels
@@ -50,7 +50,7 @@ Recommended ways to customize the Store template for your organization:
 The Manager Collaboration template is another one of the Retail Teams templates. The Manager Collaboration template is ideal for creating a team for a set of managers to collaborate across stores/regions/etc. For example, if your organization has regions, you might create a Manager Collaboration team for the California Region and include all the store managers in that region, as well as the regional manager for that region.
 
 | Base template type | baseTemplateId | Base template properties |
-| ------------------ | -------------- |--------------------------|
+| ------------------ | -------------- | ------------------------ |
 | Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration`| Channels <ul><li>Operations\*</li><li>Learning\*</li></ul><br>Team properties <ul><li>Team visibility set to Private</li></ul> <br>Member permissions <ul><li>Can create/update/delete channels </li><li>Can add/remove apps </li><li>Can create/update/remove tabs</li><li>Can create/update/remove connectors</li><ul>|
 ||||
 \*Auto-favorited channels
