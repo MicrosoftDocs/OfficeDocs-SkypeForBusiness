@@ -96,7 +96,7 @@
 
 #### [Update AAD Connect to include more than one forest](../../SFBServer2019/hybrid/cloud-consolidation-aad-connect.md)
 
-### [Integration with Exchange and SharePoint](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+### [Integration with Exchange and SharePoint](../skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md)
 
 
 
