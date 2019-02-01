@@ -25,7 +25,7 @@ We currently offer two first party healthcare templates that you can leverage fo
 
 ## Ward template
 
-The ward template is meant for communication and collaboration within a ward, pod, or department. The template can be used to facilitate patient management, as well as the operational needs of a ward. For example, ward announcements can be posted in the *Announcements* channel and shifts can be managed in *Scheduling and Patient Census*. If you’re looking to streamline your ward operations, then this template is for you.
+The ward template is meant for communication and collaboration within a ward, pod, or department. The template can be used to facilitate patient management, as well as the operational needs of a ward. For example, ward announcements can be posted in the *Announcements* channel and shifts can be managed in *Staffing*. If you’re looking to streamline your ward operations, then this template is for you.
 
 |Base Template Type |baseTemplateId |Baseline Template channels|
 |:--- |:---|:---|
