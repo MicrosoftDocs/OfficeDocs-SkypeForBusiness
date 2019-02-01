@@ -19,34 +19,14 @@ What the guest experience is like
 =================================
 
 When a guest is invited to join a team, they receive a welcome email message that includes some information about the team and what to expect now that they're a member. The guest must redeem the invitation in the email message before they can access the team and its channels.
-  
-    
-    
-
-  
-    
     
 ![Example of a welcome email message sent by a team owner in Microsoft Teams to a guest user. The message includes text that can be customized by the team owner and brief descriptions of Teams features like chat, calls, and meetings.](media/guest-experience-image1.png)
-  
-    
     
 All team members see a message in the channel thread announcing that the team owner has added a guest and providing the guest's name. Everyone on the team can identify easily who is a guest. As shown in the following screenshot of a sample team, a banner indicates "This team has guests" and a "GUEST" label appears next to each guest's name.
-  
-    
-    
-
-  
-    
     
 ![Screenshot shows a portion of the Marketing channel for Northwind Traders, with the notification in the top banner stating "This team has guests" and users who are guests identified with the word "GUEST" next to their name.](media/guest-experience-image2.png)
-  
-    
-    
-The following table compares the Microsoft Teams functionality available for an organization's team members to the functionality available for a guest user on the team.
-  
-    
-    
 
+The following table compares the Microsoft Teams functionality available for an organization's team members to the functionality available for a guest user on the team.
 
 |**Capability in Teams**|**Teams user in the organization**|**Guest user**|
 |:-----|:-----|:-----|
@@ -98,15 +78,17 @@ The following table shows the calling and meeting features available to guests.
 
 <sup>1</sup> This feature will be available soon.
 
-
-
 > [!NOTE]
 > Office 365 admins control the features available to guests. 
-  
+ 
+## Guest access vs. external access (federation)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+ 
 ## Frequently asked questions
   
 Q. Do guests have the same capabilities as team members?<br>
-A. No. For more information about what a guest can and cannot do, go to Guest capabilities in Teams.
+A. No. For more information about what a guest can and cannot do, go to [Guest capabilities in Teams](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
 
 Q. How many guests can I invite?<br>
 A. You can add up to 5 guests per licensed user.
