@@ -29,7 +29,8 @@ Customers who are consuming any of the following features from Exchange Unified 
 2.	Auto Attendant service 
 3.	Fax integration 
 
-> [!Note] Customers who are using any of the Exchange Unified Messaging Server versions are not affected. 
+> [!Note]
+> Customers who are using any of the Exchange Unified Messaging Server versions are not affected. 
 
 Learn more about the User and Admin Experience impact in [User experience impact](#user-experience-impact).
 
@@ -41,7 +42,7 @@ Microsoft has identified various customer deployments that are consuming feature
 |Customer group |Timeline  |Details  |
 |---------|---------|---------|
 |Customers who are ready to migrate<br><br>Features to migrate:<br><ul><li>Voicemail</ul>   |   February – April 2019  |Examples:<ul><li>	Customers with simple voicemail deployment and usage<li>Customers that have all requirements established for Microsoft to execute the migration<ul>|
-|Customers with pre-requisites<br><br>Features to migrate:<br><ul><li>Voicemail<li>Auto Attendant</ul> |  April – December 2019 |Examples: <br><ul><li>Hybrid configuration is not established/completed<li>Hybrid PSTN numbers are not set up</ul>|
+|Customers with prerequisites<br><br>Features to migrate:<br><ul><li>Voicemail<li>Auto Attendant</ul> |  April – December 2019 |Examples: <br><ul><li>Hybrid configuration is not established/completed<li>Hybrid PSTN numbers are not set up</ul>|
 |Customers who require admin involvement & customer investment<br><br>Features to migrate:<ul><li>voicemail<li>Auto Attendant<li>Fax integration</ul>| By February 2020  | Examples: <br><ul><li>ExchUMO service is consumed by 3rd party PBX<li>Customers with PSTN Subscriber Access requirements<li>Customers on SFB 2010 (not-supported)<li>Fax integration</ul> |
 
 ## Migration steps
@@ -55,7 +56,8 @@ Microsoft has identified various customer deployments that are consuming feature
 
     If you do not have a Skype for Business hybrid topology established, you need to do that to enable a smooth migration of your voicemail users. See [Configure Skype for Business hybrid](../hybrid/configure-federation-with-skype-for-business-online.md) for more details. 
 
-    > [!Note] You do not need to migrate your users to online for the voicemail service migration. However, for on-premises users to leverage the cloud-based voicemail service, a hybrid topology is must be established.
+    > [!Note] 
+    > You do not need to migrate your users to online for the voicemail service migration. However, for on-premises users to leverage the cloud-based voicemail service, a hybrid topology is must be established.
 
 3. **Plan your Auto Attendant migration**
     
@@ -65,13 +67,15 @@ Microsoft has identified various customer deployments that are consuming feature
 
     Voicemail migration is Microsoft driven; Admins are not required to do anything, given that the pre-requisite hybrid topology is established. Microsoft will perform the required validation and testing to make sure users’ voicemail migration is not disrupted; however, admins are encouraged to perform testing and validation on their side.  See [Suggested test plan and post-migration validation for admins](#suggested-test-plan-and-post-migration-validation-for-admins) for a recommended test plan. 
 
-    > [Note] Lync Server 2010 is not supported. If you are in a 2010 server deployment, you should plan a server upgrade or consider migrating your users to Microsoft Teams or Skype for Business Online.  
+    > [Note] 
+    > Lync Server 2010 is not supported. If you are in a 2010 server deployment, you should plan a server upgrade or consider migrating your users to Microsoft Teams or Skype for Business Online.  
 
 5. **Monitor the Admin Notification Center**
 
     Watch for a notification in the Admin Notification Center with further details and timeline regarding your users' voicemail migration. Notifications will be sent at least 30 days before your migration period. 
 
-    > [Note] If you received a notification with your users’ migration timeline and would like to postpone your migration for a business-critical reason, you can do so by contacting Microsoft Support. Note that you cannot postpone your migration beyond the retirement date, February 2020. For customers who may have more questions, please contact your account team or Microsoft Support. Customers already using Office 365 can submit a support case through the Office 365 Admin portal. 
+    > [Note] 
+    > If you received a notification with your users’ migration timeline and would like to postpone your migration for a business-critical reason, you can do so by contacting Microsoft Support. Note that you cannot postpone your migration beyond the retirement date, February 2020. For customers who may have more questions, please contact your account team or Microsoft Support. Customers already using Office 365 can submit a support case through the Office 365 Admin portal. 
 
 6. **Consider opting in starting from May 2019**
 
@@ -184,7 +188,7 @@ The following is an end user voicemail migration experience overview.
 
 #### User management and provisioning in CVM 
 
-Skype for Business new users will be automatically provisioned for voicemail in CVM service when created. No additional admin work or license is required to provision new users for voicemail. See [Set up Phone System voicemail](../../../Teams/set-up-phone-system-voicemail.md) to learn about managing the policies for existing and new users.
+Skype for Business new users will be automatically provisioned for voicemail in CVM service when created. No additional admin work or license is required to provision new users for voicemail. See [Set up Phone System voicemail](/microsoftteams/set-up-phone-system-voicemail) to learn about managing the policies for existing and new users.
 
 #### Admin Auto Attendant management experience 
 
