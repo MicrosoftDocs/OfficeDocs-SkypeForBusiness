@@ -304,7 +304,7 @@ items:
     in Windows or have a professional voice-over artist use your scripts to record .wav files.
     
     As mentioned earlier, your implementation could easily involve Call Queues, which could be used in place of the lawyer, paralegal, and billing 
-    Auto Attendants below. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Phone System call queue](create-a-phone-system-call-queue.md)
+    Auto Attendants below. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
     for more about Call Queues. If you choose to do this, you'll need to create a valid Call Queue before creating an Auto Attendant menu that refers to the Call Queue.
 
     Your account must have Admin priveleges: in the **Microsoft Teams and Skype for Business Admin Center**, click **Legacy Portal** then select **Call routing** > **Auto attendants**, then click **Add new**.
