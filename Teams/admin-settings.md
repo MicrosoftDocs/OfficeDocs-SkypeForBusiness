@@ -8,14 +8,13 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ritikag 
-description: Learn to allow and enable apps in Microsoft Teams including side-loading of external apps.
+description: "Learn to allow and enable apps in Microsoft Teams including side-loading of external apps."
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
-- 
 ---
 
 Admin settings for apps in Microsoft Teams
