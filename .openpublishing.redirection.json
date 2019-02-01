@@ -58,7 +58,7 @@
     {
       "source_path": "Skype/SfbServer/help-topics/2019/lscp/ms.lync.lscp.SetupHybrid.md", 
       "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity", 
-      "redirect_document_id": false 
+      "redirect_document_id": true 
     },
     {
       "source_path": "Skype/SfbServer/help-topics/2019/lscp/ms.lync.lscp.ClientComparison.md", 
@@ -1113,7 +1113,7 @@
     {
       "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md", 
       "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
-      "redirect_document_id": true 
+      "redirect_document_id": false 
     },
     {
       "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md", 
