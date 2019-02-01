@@ -19,7 +19,7 @@ In reference to the announcement on February 1, 2019 [insert a link to the blog]
  
 ExchUMO is deployed by customers for voicemail, Auto Attendant, and/or fax integration services. Microsoft plans to help these customers migrate to its cloud-based services that support thousands of customers already on Skype for Business Online and Microsoft Teams. 
 
-Voicemail is primarily a Microsoft-driven migration; admin involvement and/or investment might be required for a subset of customers. Auto-Attendant is an admin-driven migration; you will need to re-create the existing ExchUMO Auto Attendant trees in the Azure-based Auto Attendant cloud service. Customers who are consuming any of the ExchUMO features with a third-party PBX will not be migrated to Skype cloud services because they do not support third-party PBX systems. A retirement plan for third-party support was announced last year, and customers in this deployment model can migrate their users to one of Microsoft’s Unified Communications platforms/services or acquire a third-party voicemail and/or auto attendant solution for these users. Fax integration is not supported in the Azure-based services; customers will need to migrate to a third-party solution. 
+Voicemail is primarily a Microsoft-driven migration; admin involvement and/or investment might be required for a subset of customers. Auto Attendant is an admin-driven migration; you will need to re-create the existing ExchUMO Auto Attendant trees in the Azure-based Auto Attendant cloud service. Customers who are consuming any of the ExchUMO features with a third-party PBX will not be migrated to Skype cloud services because they do not support third-party PBX systems. A retirement plan for third-party support was announced last year, and customers in this deployment model can migrate their users to one of Microsoft’s Unified Communications platforms/services or acquire a third-party voicemail and/or auto attendant solution for these users. Fax integration is not supported in the Azure-based services; customers will need to migrate to a third-party solution. 
 
 ### Who is affected?
 
@@ -32,7 +32,7 @@ Customers who are consuming any of the following features from Exchange Unified 
 > [!Note]
 > Customers who are using any of the Exchange Unified Messaging Server versions are not affected. 
 
-Learn more about the User and Admin Experience impact in [User experience impact](#user-experience-impact).
+Learn more about the user and admin experience impact in [User experience impact](#user-experience-impact).
 
 ## Migration plan overview
 
@@ -67,14 +67,14 @@ Microsoft has identified various customer deployments that are consuming feature
 
     Voicemail migration is Microsoft driven; Admins are not required to do anything, given that the pre-requisite hybrid topology is established. Microsoft will perform the required validation and testing to make sure users’ voicemail migration is not disrupted; however, admins are encouraged to perform testing and validation on their side.  See [Suggested test plan and post-migration validation for admins](#suggested-test-plan-and-post-migration-validation-for-admins) for a recommended test plan. 
 
-    > [Note]
+    > [!Note]
     > Lync Server 2010 is not supported. If you are in a 2010 server deployment, you should plan a server upgrade or consider migrating your users to Microsoft Teams or Skype for Business Online.  
 
 5. **Monitor the Admin Notification Center**
 
     Watch for a notification in the Admin Notification Center with further details and timeline regarding your users' voicemail migration. Notifications will be sent at least 30 days before your migration period. 
 
-    > [Note]
+    > [!Note]
     > If you received a notification with your users’ migration timeline and would like to postpone your migration for a business-critical reason, you can do so by contacting Microsoft Support. Note that you cannot postpone your migration beyond the retirement date, February 2020. For customers who may have more questions, please contact your account team or Microsoft Support. Customers already using Office 365 can submit a support case through the Office 365 Admin portal. 
 
 6. **Consider opting in starting from May 2019**
