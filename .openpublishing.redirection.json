@@ -1070,6 +1070,81 @@
       "redirect_url": "https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user", 
       "redirect_document_id": true 
     },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions.md", 
+      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/msft-telephony-solutions?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md", 
+      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/msft-telephony-solutions?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": false 
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md", 
+      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/configure-hybrid-connectivity?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md", 
+      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/configure-hybrid-connectivity?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": false 
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md", 
+      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/configure-hybrid-connectivity?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": false 
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/synchronize-users-to-the-cloud-and-assign-licenses.md", 
+      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/configure-hybrid-connectivity?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": false 
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/move-on-premises-users-to-skype-for-business-online.md", 
+      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/configure-hybrid-connectivity?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": false 
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md", 
+      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/configure-hybrid-connectivity?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": false 
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md", 
+      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md", 
+      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/configure-hybrid-connectivity?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": false 
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-federation-for-an-audio-conferencing-provider.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": false 
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": true 
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-skype-for-business-online-to-on-premises.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": false 
+    },
+    {
+      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-a-multi-forest-environment-for-hybrid.md", 
+      "redirect_url": "https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
+      "redirect_document_id": true 
+    },
     {      
       "source_path": "Teams/quick-start-enable-teams.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page", 
@@ -1095,5 +1170,5 @@
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/calling-plan-landing-page", 
       "redirect_document_id": true 
     }
-    ] 
+  ] 
 }
