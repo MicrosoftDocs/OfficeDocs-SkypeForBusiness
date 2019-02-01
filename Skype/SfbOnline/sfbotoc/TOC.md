@@ -220,7 +220,7 @@
 ### [What are dial plans?](/microsoftteams/what-are-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Phone System in Office 365](/microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Create a Phone System call queue](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
+### [Create a Phone System call queue](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Getting phones for Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Deploying Skype for Business Online phones](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 #### [Setting up Common Area Phones (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
@@ -230,10 +230,9 @@
 #### [Change the default language for voicemail greetings and emails in your organization](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Languages for voicemail greetings and messages](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Set up Phone System voicemail - Admin help](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Set up a Phone System auto attendant](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [Setting up Phone System in your organization](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [What are Phone System auto attendants?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Set up a Phone System auto attendant](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+#### [Set up a Phone System auto attendant](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Small business example - Set up an auto attendant](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
 
 
