@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Get started with retail Teams templates 
+# Get started with Retail Teams templates 
 
 Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
