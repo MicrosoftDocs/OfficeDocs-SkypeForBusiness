@@ -9,10 +9,9 @@ ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 ms.reviewer: mikedav
-description: Learn how to assign licenses for features like Audio Conferencing, Phone System, and Calling plans.
+description: "Learn how to assign licenses for features like Audio Conferencing, Phone System, and Calling plans."
 appliesto: 
 - Microsoft Teams
-- 
 ---
 
 # Assign Microsoft Teams licenses
