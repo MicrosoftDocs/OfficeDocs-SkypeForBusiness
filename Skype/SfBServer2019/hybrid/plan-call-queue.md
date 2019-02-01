@@ -29,7 +29,7 @@ In addition, Phone System call queues can provide:
 - Music while callers are waiting on hold
 - Customized settings for call queue maximum size, timeout, and call handling options
 
-Each call queue is assigned a resource account on your Skype for Business Server 2019 system that is linked directly to a call queue in the Microsoft Teams admin center. See [Create a Phone System call queue](../../SfbOnline/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md) for more detail on what call queues are and what options and features exist for call queues.
+Each call queue is assigned a resource account on your Skype for Business Server 2019 system that is linked directly to a call queue in the Microsoft Teams admin center. See [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md) for more detail on what call queues are and what options and features exist for call queues.
 
 > [!NOTE]
 > You are now able to link multiple inbound phone numbers to a single Cloud call queue.

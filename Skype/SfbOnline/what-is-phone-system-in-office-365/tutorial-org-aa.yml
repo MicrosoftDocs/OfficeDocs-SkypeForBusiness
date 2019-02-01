@@ -39,7 +39,7 @@ items:
     We assume you've already done the following: 
     - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system.md) with a [Calling Plan](/MicrosoftTeams/what-are-calling-plans-in-office-365) 
     to provide phone numbers to your users.
-    - [Set up Phone System voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) 
+    - [Set up Phone System voicemail](/MicrosoftTeams/set-up-phone-system-voicemail.md) 
     - Reviewed [What are Phone System Auto Attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md) to get a 
     better understanding of the Phone System features that can interact with an Auto Attendant.
 
@@ -170,7 +170,7 @@ items:
     - There are usually 3-4 options per menu in this example. While Phone System supports menus with up to 9 options, most users 
     won't be able to keep track of more than 5 options without getting confused and needing to repeat the menu, which wastes their time and annoys them. 
     - The lawyer, paralegals, and billing menus can arguably be replaced with Call Queues. The main reason we've used an Auto Attendant is to keep our 
-    implementation focused on Auto Attendants. Actual implementations would probably use Call Queues.  See [Create a Phone System call queue](create-a-phone-system-call-queue.md)
+    implementation focused on Auto Attendants. Actual implementations would probably use Call Queues.  See [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
     for more about Call Queues. 
     - Eventually, every employee gets matched with an Auto Attendant option in this design. This might not be what you choose to do, you may want a 
     much simpler system with fewer options. If that simplicity is important, you can plan to enable the **Dial by Name** option and remove one or more 
@@ -464,7 +464,7 @@ items:
     |Edit Menu options	| Select **1** for *Investigator*<br/> Transfer to: Person in your company: Boris Averyanov <br/> Select **2** for *Records*<br/> Transfer to: Person in your company: Franco Piccio  |
     |  |   |
 
-    See the step-by-step implementation details for Phone System Auto Attendants at [Creating an Auto Attendant](set-up-a-phone-system-auto-attendant.md) for more detail on the options available in these screens. 
+    See the step-by-step implementation details for Phone System Auto Attendants at [Creating an Auto Attendant](/MicrosoftTeams/set-up-a-phone-system-auto-attendant.md) for more detail on the options available in these screens. 
 
 
     ### Editing and testing Auto Attendants

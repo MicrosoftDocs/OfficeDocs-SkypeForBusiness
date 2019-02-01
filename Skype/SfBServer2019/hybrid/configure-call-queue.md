@@ -16,7 +16,7 @@ description: "Overview of using a Cloud call queue with Skype for Business Serve
 
 Skype for Business Server 2019 hybrid implementations only use Cloud services provided by Phone System and do not integrate with Exchange Online.
 
-In Skype for Business Server 2019 you are now able to use the Cloud call queues described in [Create a Phone System call queue](../../SfbOnline/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md).
+In Skype for Business Server 2019 you are now able to use the Cloud call queues described in [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md).
 
 To use Cloud call queues with Skype for Business Server 2019, you will need to create on-premises resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Admin Center to configure the call queue. Typically you will have multiple call queues, each of which plays an audio outgoing message to callers, each of which is mapped to one of these on-premises resource accounts, and each of which routes call to available agents.
 
@@ -104,7 +104,7 @@ The best way to test the implementation is to call the number configured for a c
 
 ## See Also
 
-[Create a Phone System call queue](../../SfbOnline/what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
+[Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
 
 [What are Phone System auto attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)
 

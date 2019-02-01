@@ -68,7 +68,7 @@ Your online implementation will need to have a plan that includes Phone System l
 
 1. Assign Phone System licenses to the on-premise hybrid endpoints (auto attendant placeholders) as described in  [Assign Skype for Business and Microsoft Teams licenses](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
 
-2. Use the procedures in [Set up a Phone System auto attendant](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) to implement the Cloud Auto Attendant structure, including redirects to users, to nested auto attendants, to call queues, or other valid options.  
+2. Use the procedures in [Set up a Phone System auto attendant](/MicrosoftTeams/set-up-a-phone-system-auto-attendant.md) to implement the Cloud Auto Attendant structure, including redirects to users, to nested auto attendants, to call queues, or other valid options.  
 
 An example of a small business implementation is available in [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml).
 
