@@ -59,7 +59,7 @@ To get started using call queues, it's important to remember a few things:
     > [!NOTE]
     > To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See  [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- To learn more about Office 365 Calling Plans, see [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365) and [Calling Plans for Office 365](calling-plans-for-office-365).
+- To learn more about Office 365 Calling Plans, see [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md).
 
     > [!NOTE]
     > Users hosted on-premises using Lync Server 2010 aren't supported as a call queue Agents.
@@ -95,10 +95,10 @@ To get started using call queues, it's important to remember a few things:
 
 ## Step 2 - Getting or transferring toll or toll-free service phone numbers
 
-Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365).
+Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md) or if you want to transfer an existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
-> If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization) instead to see how to do it from the outside of the United States.
+> If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
 
 If you are also setting up auto attendants, you may only need to assign a phone number to the main auto attendant, and then have it direct callers to your call queue. If that's the case, the call queue will need to be created before you can create an option in the auto attendant that selects the call queue.
   
@@ -125,7 +125,7 @@ In the **Microsoft Teams admin center**, **Voice** >  **Call queues**, then clic
 
 **Add Accounts** Select a resource account that has been associated with a service toll or toll-free phone number for the call queue. This is optional.
 
-If there aren't any listed, you need to get service numbers and assign them to a Resource account before you can create this call queue, as described earlier. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md) You'll need to create a resource account as described in [Manage resource accounts in Teams](manage-resource-accounts.md) if you want your call queue to have an associated phone number.
+If there aren't any listed, you need to get service numbers and assign them to a Resource account before you can create this call queue, as described earlier. To get your service numbers, see [Getting service phone numbers](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md). You'll need to create a resource account as described in [Manage resource accounts in Teams](manage-resource-accounts.md) if you want your call queue to have an associated phone number.
 
 > [!NOTE]
 > If you want or need to assign a **Domain** you would do so by assigning it to the resource account for the call queue.
@@ -232,7 +232,7 @@ The default setting is 30 seconds, but it can be set for up to 3 minutes.
 
   - **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail.
 
-  To learn about licensing required for voicemail, see [Set up Phone System voicemail](set-up-phone-system-voicemail).
+  To learn about licensing required for voicemail, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
 
     > [!Note]
     > Users hosted on-premises using Lync Server 2010 aren't supported.
@@ -254,7 +254,7 @@ The timeout value can be set in seconds, at 15-second intervals. This allows you
 - **Redirect this call to** When you choose this, you will have these options:
   - **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail.
 
-  To learn about licensing required for voicemail, see [Set up Phone System voicemail](set-up-phone-system-voicemail).
+  To learn about licensing required for voicemail, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
 
     > [!Note]
     > Users hosted on-premises using Lync Server 2010 aren't supported.
@@ -277,7 +277,7 @@ Then apply the policy to the user using the **Grant-CallingLineIdentity** cmdlet
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-You can get more information on how to make changes to caller ID settings in your organization [here](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
+You can get more information on how to make changes to caller ID settings in your organization in the article [How can caller ID be used in your organization](/skypeforbusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
   
 ## Want to know more?
 
@@ -311,10 +311,10 @@ Here are the cmdlets that you need to manage a call queue.
 
 ## Related topics
 
-[Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system)
+[Here's what you get with Phone System in Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Getting service phone numbers](/Skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
