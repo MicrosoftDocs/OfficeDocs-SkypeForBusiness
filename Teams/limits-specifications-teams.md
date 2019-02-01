@@ -3,11 +3,11 @@ title: Limits and specifications for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/05/2018
+ms.date: 01/31/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: karuanag
-description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
+description: "Learn about the limits, specifications, and other requirements that apply to Microsoft Teams."
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
@@ -33,6 +33,9 @@ Teams and channels
 |Number of channels per team    | 200 (includes deleted channels)         |
 
 &sup1;Any directory object in Azure Active Directory counts towards this limit.
+
+> [!NOTE]
+> Channels don't support special characters like ~ # % & * {} + / \ : < > ? | ' " in the channel name.  
 
 Meetings and calls 
 ------------------
