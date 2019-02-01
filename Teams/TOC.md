@@ -53,6 +53,7 @@
 ### [Use PowerShell to control guest access to a team](guest-access-PowerShell.md)
 ### [Guest access checklist](guest-access-checklist.md)
 
+## [External access (federation)](manage-external-access.md)
 
 ## [Manage Teams](using-admin-roles.md)
 ### [Manage Teams features in your organization](enable-features-office-365.md)
