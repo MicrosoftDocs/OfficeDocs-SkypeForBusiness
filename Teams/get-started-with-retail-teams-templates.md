@@ -21,7 +21,7 @@ appliesto:
 
 Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
-Retail Teams templates have pre-built definitions of team structures designed around retailer needs. You can use Retail Teams templates to quickly create the types of teams that work well for retailers and deploy them across your organization. You can also extend the Retail Teams templates to create teams that accommodate for your specific organizational needs.
+Retail Teams templates have pre-built definitions of team structures designed around retailer needs. You can use Retail Teams templates to quickly create the types of teams that work well for retailers and deploy them across your organization. You can also extend the Retail Teams templates to create teams that are tailored to your specific organizational needs.
 
 In this article, we will introduce each of the Retail Teams templates and how we recommend using them.
 
