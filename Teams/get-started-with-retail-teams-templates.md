@@ -42,7 +42,7 @@ Recommended ways to customize the Store template for your organization:
 
 - If your organization has departments within each store, add a channel for each department. This will facilitate communication and collaboration within the department.
 
-- If your organization has any internal websites (for example, a SharePoint site), consider pinning them as tabs in the relevant team channel. Rrefer to the documentation [here](get-started-with-teams-templates.md) for instructions.
+- If your organization has any internal websites (for example, a SharePoint site), consider pinning them as tabs in the relevant team channel. Refer to the documentation [here](get-started-with-teams-templates.md) for instructions.
 
 ## Manager Collaboration template
 
