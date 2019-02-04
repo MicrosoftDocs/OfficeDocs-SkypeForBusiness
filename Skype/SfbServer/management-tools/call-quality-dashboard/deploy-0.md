@@ -311,12 +311,12 @@ Examples
 INSERT INTO
 [dbo].[CqdBuildingOwnershipType]
 ([OwnershipTypeId],
-[OwnershipTypeDesc],
+[OwnershipTypeDesc]
 )
 
 VALUES
 (1,
-'Contoso Owned',
+'Contoso Owned'
 )
 ```
 
