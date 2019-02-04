@@ -167,7 +167,7 @@ You can add up to 20 scheduled holidays to each auto attendant.
     > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported.<br/><br/>
 
   * A **Call Queue** to transfer the call to an existing Call Queue that you have set up.
-  * Another **Auto attendant**, to create a second level of menu options containing a submenu. These are called nested auto attendants. <br/><br/>
+  * Another **Auto attendant**. <br/><br/>
 
     > [!Note]
     > By default, all calls arriving during a holiday period are set to disconnect after the greeting (if any), so you must specify a redirect if a different behavior is desired.
