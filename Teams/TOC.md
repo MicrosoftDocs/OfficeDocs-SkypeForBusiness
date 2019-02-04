@@ -21,6 +21,7 @@
 ## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
+## [What are Messaging policies?](messaging-policies-in-teams.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
@@ -115,7 +116,6 @@
 # [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Manage meetings settings](meeting-settings-in-teams.md)
-## [What are Messaging policies?](messaging-policies-in-teams.md)
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -302,6 +302,11 @@
 ### [User accounts in a hybrid environment with PSTN connectivity](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Configure a Session Border Controller for multiple tenants](direct-routing-sbc-multiple-tenants.md)
 ### [List of Session Border Controllers certified for Direct Routing](direct-routing-border-controllers.md)
+### Location-Based Routing
+#### [Location-Based Routing terminology](location-based-routing-terminology.md)
+#### [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
+#### [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
+#### [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
 ### Technical reference for Direct Routing
 #### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -641,6 +646,7 @@
 
 ## Teams for firstline workers
 ### [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 ## [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
