@@ -78,6 +78,9 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Activity | Available |
 | | InterOp (1:1 Teams-Skype for Business chat) | On the Government backlog |
 | Teams | Channel message | Available |
+|---|---|---|
+| | Planner | On the Government backlog |
+| | Forms | On the Government backlog |
 | | Channel files | Available |
 | | OneNote tab | On the Government backlog |
 | | Email a channel | Not available |
