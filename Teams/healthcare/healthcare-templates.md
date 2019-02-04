@@ -29,7 +29,7 @@ The ward template is meant for communication and collaboration within a ward, po
 
 |Base Template Type |baseTemplateId |Baseline Template channels|
 |:--- |:---|:---|
-|Healthcare - Ward | https://<span></span>graph<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Announcements\* <br> Huddles\* <br>Rounds\*<br>Staffing\* <br>Training\* |
+|Healthcare - Ward | https://<span></span>graph<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Announcements\* <br> Call Lights\* <br> Fun Stuff\* <br> Huddles\* <br>Rounds\* <br>Training\* |
 |     | |         |
 
 \* Auto-favorited 
@@ -40,7 +40,7 @@ The hospital template is meant for communication and collaboration between multi
 
 |Base Template Type |baseTemplateId |Baseline Template channels|
 |:--- |:---|:---|
-|Healthcare - Hospital | https://<span></span>graph<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Announcements\* <br> Compliance\* <br>Custodial<br>Human Resources <br>Patient Safety and Quality Improvement\* <br> Pharmacy |
+|Healthcare - Hospital | https://<span></span>graph<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Announcements\* <br> Compliance\* <br> Fun Stuff\* <br>Custodial<br>Finance<br>Human Resources <br>Laboratory<br> Pharmacy |
 | | |  |
 
 \* Auto-favorited 
