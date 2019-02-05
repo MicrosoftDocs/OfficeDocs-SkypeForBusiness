@@ -9,7 +9,6 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
 localization_priority: Normal
-robots: NOINDEX, NOFOLLOW
 search.appverid: MET150
 description: Learn how to use Teams templates to create a team with predefined channels.
 ms.custom:
@@ -76,3 +75,5 @@ By default the base template is set to **Standard** which doesn't contain any ad
 - [Create team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (in preview)
 - [New-Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Admin training for Microsoft Teams](itadmin-readiness.md)
+- [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
+- [Get started with Healthcare Teams templates](healthcare/healthcare-templates.md)
