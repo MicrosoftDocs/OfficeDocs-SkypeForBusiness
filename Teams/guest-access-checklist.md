@@ -3,7 +3,7 @@ title: Microsoft Teams Guest Access checklist
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 11/09/18
+ms.date: 01/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -35,6 +35,10 @@ The guest experience has limitations by design. Make sure you understand the gue
 - Upload files to a person-to-person chat
 
 For more details, see [What the guest experience is like](guest-experience.md) and [Guest access in Office 365 groups](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+
+### Guest access vs. external access (federation)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## If your guests are seeing license errors
 

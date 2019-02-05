@@ -32,6 +32,10 @@ You can use the Azure Active Directory portal to manage guests and their access 
 > [!NOTE]
 > Microsoft Teams always honors Azure Active Directory external settings to allow or prevent guest user additions to the tenant. For more details, see [Authorize guest access in Microsoft Teams](Teams-dependencies.md).
   
+## Guest access vs. external access (federation)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
 ## Review guest access periodically
 
 In Teams, you can add 5 guests for each licensed user. Because of this limitation, or because you want to keep your tenant up to date, you should review guest access periodically to identify users who have access that they don't need anymore. You can use Azure Active Directory (Azure AD) to create an access review for group members or users assigned to an application. Creating recurring access reviews can save you time. If you need to routinely review users who have access to an application or are members of a group, you can define the frequency of those reviews. 

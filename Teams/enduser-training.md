@@ -17,7 +17,7 @@ appliesto:
 ---
 # End user training for Microsoft Teams
 
-Use these training resources to help users in your organization get the most out of Teams. 
+Use these training resources to help users in your organization get the most out of Teams.
 
 <ul class="panelContent cardsFTitle">
     <li>
