@@ -23,7 +23,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: "Learn what Phone System (Cloud PBX) auto attendants are and how to use them. "
+description: "Learn what Phone System (Cloud PBX) auto attendants are and how to use them."
 ---
 
 # What are Phone System auto attendants?

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "Overview of using a Cloud call queue with Skype for Business Server 2019."
+description: "Overview of using a Cloud PBX call queue with Skype for Business Server 2019."
 ---
 
 # Configure Cloud call queues

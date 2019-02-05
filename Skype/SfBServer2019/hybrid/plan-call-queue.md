@@ -1,5 +1,5 @@
 ---
-title: "Plan a Cloud call queue"
+title: "Plan a Cloud PBX call queue"
 ms.author: jambirk
 author: jambirk
 manager: serdars 
@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "Overview of using a Cloud auto attendant with Skype for Business Server 2019."
+description: "Overview of using a Cloud PBX auto attendant with Skype for Business Server 2019."
 ---
 
 # Plan Cloud call queues

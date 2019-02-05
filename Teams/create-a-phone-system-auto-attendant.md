@@ -20,7 +20,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: "Learn how to set up and test Phone System (Cloud PBX) auto attendants for efficient call handling for your organization. "
+description: "Learn how to set up and test Phone System (Cloud PBX) auto attendants for efficient call handling for your organization."
 ---
 
 # Set up a Phone System auto attendant

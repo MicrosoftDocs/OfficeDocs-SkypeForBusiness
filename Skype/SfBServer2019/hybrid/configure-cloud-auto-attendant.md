@@ -1,5 +1,5 @@
 ---
-title: "Configure Cloud Auto Attendants"
+title: "Configure Cloud PBX Auto Attendants"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
-description: "Instructions for implementing a Cloud Auto Attendant." 
+description: "Instructions for implementing a Cloud PBX Auto Attendant." 
 ---
 
 # Configure Cloud Auto Attendants

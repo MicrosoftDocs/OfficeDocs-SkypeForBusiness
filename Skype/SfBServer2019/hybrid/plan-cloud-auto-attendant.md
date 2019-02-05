@@ -1,5 +1,5 @@
 ---
-title: "Plan a Cloud auto attendant"
+title: "Plan a Cloud PBX auto attendant"
 ms.author: jambirk
 author: jambirk
 manager: serdars 
