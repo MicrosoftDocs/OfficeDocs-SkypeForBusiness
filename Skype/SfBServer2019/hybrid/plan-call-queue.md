@@ -52,7 +52,7 @@ In addition to the requirements above, the below requirements must be configured
 
 - If you have an on-premises only deployment (that is, only Exchange Server 2019 and Skype for Business Server 2019 on-premises servers) but you want to take advantage of Cloud auto attendant, you need the ON-PREM license.
 
-- Create on premise endpoints for each call queue, including assigning phone numbers and licenses. Note that you now have the ability to assign licenses used by online services like Phone System to on-premise phone numbers.
+- Create an on-premises [resource account](/MicrosoftTeams/manage-resource-accounts.md) for each call queue, including assigning phone numbers and licenses. Note that you now have the ability to assign licenses used by online services like Phone System to on-premise phone numbers.
 - Implement a new Cloud call queue service with Skype for Business Online and Phone System. See [Configure Cloud call queues](configure-call-queue.md) for implementation details.
 
 ## Migration and interoperability
@@ -122,3 +122,5 @@ Exchange UM: [Automatically answer and route incoming calls](/exchange/voice-mai
 [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md)
 
 [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md)
+
+[Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts.md)

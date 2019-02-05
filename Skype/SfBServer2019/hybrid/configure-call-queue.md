@@ -28,7 +28,7 @@ These steps are necessary whether you are creating a brand new call queue or reb
 
 Log in to the front end server and run the following PowerShell cmdlets:
 
-1. Create a Cloud call queue's on-premises resource account by running the `New-CsHybridApplicationEndpoint` cmdlet as needed (for one or more call queues), and give each one a name, sip address, and so on.
+1. Create a Cloud call queue's on-premises [resource account](/MicrosoftTeams/manage-resource-accounts.md) by running the `New-CsHybridApplicationEndpoint` cmdlet as needed (for one or more call queues), and give each one a name, sip address, and so on.
 
     Configuring a phone number for a call queue is required only if you want to connect callers directly to a queue without using an auto attendant.
 

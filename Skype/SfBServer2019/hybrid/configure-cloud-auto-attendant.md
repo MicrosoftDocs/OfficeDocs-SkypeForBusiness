@@ -29,7 +29,7 @@ These steps are necessary whether you are creating a brand new Auto Attendant or
 
 Log in to the front end server and run the following PowerShell cmdlets:
 
-1. Create each Cloud Auto Attendant's on-premises resource account  by running the `New-CsHybridApplicationEndpoint` cmdlet as needed (for one or more Auto Attendants), and give each one a name, sip address, and so on.
+1. Create each Cloud Auto Attendant's on-premises [resource account](/MicrosoftTeams/manage-resource-accounts.md) by running the `New-CsHybridApplicationEndpoint` cmdlet as needed (for one or more Auto Attendants), and give each one a name, sip address, and so on. Each auto attendant node requires a resource account.
 
     For the Main Auto Attendant that will have the Initial Greeting or after-hours greeting, be sure to assign the phone number using the  -LineURI option. This is optional if the auto attendant is a child in the hierarchy. Remember the hierarchy structure will be configured online, on the server we're just creating containers to arrange later.
 

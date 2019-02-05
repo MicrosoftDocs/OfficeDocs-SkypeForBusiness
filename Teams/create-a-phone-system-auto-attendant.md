@@ -46,6 +46,9 @@ If you want to learn more about auto attendants, see [What are Phone System auto
 
 ## Step 2 - Create a new auto attendant
 
+> [!IMPORTANT]
+> Every call queue is required to have an associated [resource account](manage-resource-accounts.md). You must create the resource account first, then you can associate it to the auto attendant.
+
 ### Using the Microsoft Teams admin center
 
 In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**, then click **+ New**:
@@ -66,7 +69,6 @@ In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**
 
 **Resource account** Click this button to select one or more resource accounts to connect to your new auto attendant. A resource account can have a phone number associated to the account, but it might not. A top-level auto attendant would almost certainly would have an assigned phone number, but a secondary auto attendant (used as a level 2 menu that the first level auto attendant connects to) might easily not have a phone number.
 
-You'll need to create a resource account as described in [Manage resource accounts in Teams](/microsoftTeams/manage-resource-accounts.md) if you want your auto attendant to have an associated phone number.
 
 * * *
 

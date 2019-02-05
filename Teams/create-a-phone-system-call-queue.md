@@ -34,7 +34,7 @@ Phone System call queues can provide:
 - Redirecting of calls to call agents in mail-enabled distribution lists and security groups.
 - Making settings for call queue maximum size, timeout, and call handling options.
 
-When someone calls in to a phone number that is associated  with a call queue via a resource account, they will hear a greeting first (if any is set up), and then they will be put in the queue and wait for the next available call agent. The person calling in will hear music while they are on hold waiting, and the calls will be offered to the call agents in   *First In, First Out* (FIFO) order.
+When someone calls in to a phone number that is associated  with a call queue via a [resource account](manage-resource-accounts.md), they will hear a greeting first (if any is set up), and then they will be put in the queue and wait for the next available call agent. The person calling in will hear music while they are on hold waiting, and the calls will be offered to the call agents in *First In, First Out* (FIFO) order.
   
 All calls waiting in the queue will be distributed using an attendant routing mode or serial routing mode:
   
@@ -100,15 +100,18 @@ Before you can create and set up your call queues, you will need to get or trans
 > [!NOTE]
 > If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
 
-If you are also setting up auto attendants, you may only need to assign a phone number to the main auto attendant, and then have it direct callers to your call queue. If that's the case, the call queue will need to be created before you can create an option in the auto attendant that selects the call queue.
+If you are also setting up auto attendants, you may only need to assign a phone number to the main auto attendant's resource account, and then have it direct callers to your call queue. If that's the case, the call queue will need to be created before you can create an option in the auto attendant that selects the call queue.
   
 ## Step 3 - Create a new call queue
+
+> [!IMPORTANT]
+> Every call queue is required to have an associated [resource account](manage-resource-accounts.md). You must create the resource account first, then you can associate it to the call queue.
 
 ### Using the Microsoft Teams admin center
 
 In the **Microsoft Teams admin center**, **Voice** >  **Call queues**, then click **+ Add new**:
 
-### Set the call queue display name and resource account (if any)
+### Set the call queue display name and resource account 
 
 ![Setting up a call queue.](media/37ecc300-a108-4294-8463-fce570dfce72.png)
 
