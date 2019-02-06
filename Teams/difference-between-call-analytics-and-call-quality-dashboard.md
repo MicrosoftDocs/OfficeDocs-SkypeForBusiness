@@ -80,6 +80,8 @@ For more information about CQD, see [Turning on and using Call Quality Dashboard
   
 ## Related topics
 
+[Video:	Call Quality Overview](https://aka.ms/teams-quality)
+
 [Set up Call Analytics](set-up-call-analytics.md)
 
 [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
