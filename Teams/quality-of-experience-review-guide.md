@@ -459,11 +459,11 @@ You can access CQD one of three ways:
 
 -   Go to <https://cqd.lync.com>.
 
--   Go to **Microsoft Teams & Skype for Business Admin Center** and select the link to CQD, as shown in the following illustration.
+-   Go to **Microsoft Teams admin center** and select the link to CQD, as shown in the following illustration.
 
 ![In the left nav pane, the link to Call quality dashboard is selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
 
-_Figure 7 – Accessing CQD through the Microsoft Teams & Skype for Business Admin Center_
+_Figure 7 – Accessing CQD through the Microsoft Teams admin center_
 
 -   Go to the legacy **Skype for Business admin center** > **tools**, and select the link to CQD, as shown in the following illustration.
 

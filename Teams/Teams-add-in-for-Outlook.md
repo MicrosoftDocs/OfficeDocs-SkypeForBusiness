@@ -46,9 +46,9 @@ To learn more about how to configure authentication, see [Identity models and au
 
 ## Enable private meetings
 
-Allow scheduling for private meetings must be enabled in the Teams & Skype for Business Admin Center for the plug-in to get deployed. In the admin center, go to **Meetings** > **Meeting Policies**, and in the **General** section, toggle **Allow scheduling private meetings** to On.)
+Allow scheduling for private meetings must be enabled in the Microsoft Teams admin center for the plug-in to get deployed. In the admin center, go to **Meetings** > **Meeting Policies**, and in the **General** section, toggle **Allow scheduling private meetings** to On.)
 
-![Screenshot of the settings in the Teams & Skype for Business Admin Center.](media/teams-add-in-for-outlook-image1.png)
+![Screenshot of the settings in the Microsoft Teams admin center.](media/teams-add-in-for-outlook-image1.png)
 
 The Teams client installs the correct add-in by determining if users need the 32-bit or 64-bit version.
 

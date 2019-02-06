@@ -35,9 +35,9 @@ You can turn on the inline message translation feature by using the Messaging Po
 1. Turn on the policy by using the [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) cmdlet.
 2. The policy takes a few minutes to apply. Users might need to sign out and sign back in to Teams.
 
-## Enable by using the Microsoft Teams & Skype for Business Admin Center
+## Enable by using the Microsoft Teams admin center
 
-In the **Microsoft Teams & Skype for Business Admin Center**, select **Messaging Policies** from the left-hand bar, then either create a new policy or edit an existing policy, and set the **Allow users to translate messages** option to **On**.
+In the **Microsoft Teams admin center**, select **Messaging Policies** from the left-hand bar, then either create a new policy or edit an existing policy, and set the **Allow users to translate messages** option to **On**.
 
 > [!NOTE]
 >Translation is done by the service and delivered to the client with no effect on the content captured in the compliance records. To learn more about translation, see [What is Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).
