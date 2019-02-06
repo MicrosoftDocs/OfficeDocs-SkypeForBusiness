@@ -13,7 +13,7 @@ appliesto:
 
 # Teams PowerShell Overview
 
-Microsoft Teams has a rich set of tools for IT admins to manage the product through the Microsoft Teams & Skype for Business Admin Center, PowerShell controls, and Graph APIs. This guide explains how we structure our PowerShell cmdlets for IT admins to use, and provides pointers to further documentation. Note that different Teams admin roles have access to different cmdlets. For more information, see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).
+Microsoft Teams has a rich set of tools for IT admins to manage the product through the Microsoft Teams admin center, PowerShell controls, and Graph APIs. This guide explains how we structure our PowerShell cmdlets for IT admins to use, and provides pointers to further documentation. Note that different Teams admin roles have access to different cmdlets. For more information, see [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md).
 
 ## Which modules do you need to use?
 

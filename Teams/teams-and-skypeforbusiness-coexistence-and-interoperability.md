@@ -127,3 +127,7 @@ For all these limitations (except for Persistent Chat), one possible workaround 
 > What starts as a simple chat (IM) might quickly escalate to a call or an ad-hoc meeting. We understand that these scenarios are critical to the usability and user experience, and we’re continually evolving interop experiences between Skype for Business and Teams users. Check back for the most up-to-date information.
 
 After you review this article, see [Choose your upgrade journey](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [Migration and interoperability guidance](https://aka.ms/SkypeToTeams-Interop), [Coexistence with Skype for Business](coexistence-chat-calls-presence.md), and [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence) for implementation details.
+
+## Related Links
+
+[Video: Manage Coexistence and Interoperability between SfB and Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

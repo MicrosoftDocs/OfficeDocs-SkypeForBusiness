@@ -328,6 +328,8 @@ Repeat the verification for each workload that has been marked by the GPO.
 
 ## More information
 
+[Video: Network Planning](https://aka.ms/teams-networking)
+
 [Prepare your organization's network for Microsoft Teams](prepare-network.md)
 
-[ExpressRout QoS requirements](https://docs.microsoft.com/azure/expressroute/expressroute-qos)
+[ExpressRoute QoS requirements](https://docs.microsoft.com/azure/expressroute/expressroute-qos)
