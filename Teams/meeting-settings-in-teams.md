@@ -19,19 +19,20 @@ description: Learn how to manage settings for Teams meetings that users schedule
 
 # Manage meeting settings in Microsoft Teams
 
-As an admin, you use Teams meetings settings to control whether anonymous users can join Teams meetings, customize meeting invitations, and if you want to enable Quality of Service (QoS), set ports for real-time traffic. These settings apply to all Teams meetings that users schedule in your organization. You manage these settings from **Meetings** > **Meeting settings** in the Microsoft Teams & Skype for Business Admin Center. 
+As an admin, you use Teams meetings settings to control whether anonymous users can join Teams meetings, customize meeting invitations, and if you want to enable Quality of Service (QoS), set ports for real-time traffic. These settings apply to all Teams meetings that users schedule in your organization. You manage these settings from **Meetings** > **Meeting settings** in the Microsoft Teams admin center. 
 
 ## Allow anonymous users to join meetings
 
 With anonymous join, anyone can join the meeting as an anonymous user by clicking the link in the meeting invitation. 
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business Admin Center
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 1. In the left navigation, go to **Meetings** > **Meeting settings**. 
 2. Under **Participants**, turn on **Anonymous users can join a meeting**. 
 
-    ![meeting-settings-participants.png](media/meeting-settings-participants.png "Screen shot of participants settings for Teams meetings in the Microsoft Teams & Skype for Business Admin Center")
+    ![meeting-settings-participants.png](media/meeting-settings-participants.png "Screen shot of participants settings for Teams meetings in the Microsoft Teams admin center")
 
 If you don't want anonymous users to join meetings scheduled by users in your organization, turn off this setting. 
+
 ## Customize meeting invitations
 
 You can customize Teams meeting invitations to meet your organization's needs. You can add your organization's logo and include helpful information, such as links to your support website and legal disclaimer, and a text-only footer. 
@@ -44,7 +45,7 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 
 ### Customize your meeting invitations
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business Admin Center
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
 2. Under **Email invitation**, do the following: 
@@ -60,12 +61,12 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 ## Set how you want to handle real-time media traffic for Teams meetings
 If you're using Quality of Service (QoS) to prioritize network traffic, you can enable QoS markers and you can set port ranges for each type of media traffic. 
 
- ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
+ ![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Meetings** > **Meeting settings**. 
 2. Under **Network**, do the following:
 
-    ![meeting-settings-network.png](media/meeting-settings-network.png "Screen shot of the network settings for Teams meetings in the Microsoft Teams & Skype for Business Admin Center")
+    ![meeting-settings-network.png](media/meeting-settings-network.png "Screen shot of the network settings for Teams meetings in the Microsoft Teams admin center")
 
     - To enable QoS markers, turn on **Insert Quality of Service (QoS) markers for real-time media traffic**.
     - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. 

@@ -29,7 +29,7 @@ description: "Learn about Call Analytics and Call Quality Dashboard and when to 
 
 Microsoft Teams and Skype for Business give you two ways to monitor and troubleshoot call-quality problems: Call Analytics and Call Quality Dashboard. This article describes both and tells you when to use each one.
   
-**Call Analytics is now available in the Microsoft Teams and Skype for Business Admin Center.** To see all of the call information and data for a user, use the **Call History** tab. You can do this by looking on the user's profile page by either searching for the user from the dashboard or finding the user from **Users** in the left navigation.
+**Call Analytics is now available in the Microsoft Teams admin center.** To see all of the call information and data for a user, use the **Call History** tab. You can do this by looking on the user's profile page by either searching for the user from the dashboard or finding the user from **Users** in the left navigation.
 
 > [!IMPORTANT]
 > Helpdesk agent permissions and network topology upload will be available in the new admin portal in the coming months. In the meantime, you can continue to use  https://adminportal.services.skypeforbusiness.com for Tier 1 and Tier 2 helpdesk access.
@@ -38,7 +38,7 @@ Microsoft Teams and Skype for Business give you two ways to monitor and troubles
 
 Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user in a Microsoft Teams or Skype for Business account. If you're an Office 365 admin, you can use Call Analytics to troubleshoot call quality and connection problems in Microsoft Teams and Skype for Business.
 
-To see this information for a user in the Microsoft Teams & Skype for Business Admin Center, click the **Call History** tab for that user in the user detail page, showing all the calls and meetings that user has participated in for the last 30 days.
+To see this information for a user in the Microsoft Teams admin center, click the **Call History** tab for that user in the user detail page, showing all the calls and meetings that user has participated in for the last 30 days.
 
 ![Call analytics user data.](media/call-analytics-user-data.png)
 
@@ -46,7 +46,7 @@ To get additional information about a given session including detailed media and
 
 ![Call analytics user session data.](media/call-analytics-user-data-session.png)
 
-If you want non-admins, such as helpdesk agents from an external vendor, to use Call Analytics, you can assign permissions so that they can use Call Analytics, but they can't access the rest of the Microsoft Teams & Skype for Business Admin Center: 
+If you want non-admins, such as helpdesk agents from an external vendor, to use Call Analytics, you can assign permissions so that they can use Call Analytics, but they can't access the rest of the Microsoft Teams admin center: 
   
 - **Helpdesk agents with communications support specialist permissions**: Agents see a limited set of data and personally identifiable information (PII) in Call Analytics. They can troubleshoot calls, but they will hand off problems with meetings to a communications support engineer.
     
@@ -58,7 +58,7 @@ If you want non-admins, such as helpdesk agents from an external vendor, to use 
 For more information about the communications support specialist and communications support engineer roles, see [Use Microsoft Teams admin roles to manage teams](using-admin-roles.md).
 
 > [!IMPORTANT]
-> Helpdesk agent permissions and network topology upload are available in the Microsoft Teams & Skype for Business Admin Center. Communications Support Specialists and Communications Support Engineers can use this portal to access Call Analytics and the Call Quality Dashboard.
+> Helpdesk agent permissions and network topology upload are available in the Microsoft Teams admin center. Communications Support Specialists and Communications Support Engineers can use this portal to access Call Analytics and the Call Quality Dashboard.
     
 For details about setting up Call Analytics, see [Set up Skype for Business Call Analytics](set-up-call-analytics.md). For more information about how Helpdesk agents can work with Call Analytics, see [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md).
   

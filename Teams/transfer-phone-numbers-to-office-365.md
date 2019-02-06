@@ -48,7 +48,7 @@ Before you start transferring phone numbers, we recommend that you review the in
  
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
+2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
 3. In the left navigation go to **Voice** > **Port orders** > click **Add**.
     

@@ -30,11 +30,11 @@ description: "Set up and use Call Analytics to identify and troubleshoot Skype f
 
 As a Teams or Skype for Business Online admin, you can use Call Analytics to troubleshoot Skype for Business and Microsoft Teams call quality and connection problems. You may find it useful to set up the following capabilities in Call Analytics:
   
-- Set permissions that let other personnel, such as helpdesk agents, use Call Analytics, but prevent them from accessing the rest of the Microsoft Teams & Skype for Business Admin Center. 
+- Set permissions that let other personnel, such as helpdesk agents, use Call Analytics, but prevent them from accessing the rest of the Microsoft Teams admin center. 
     
 - Add building, site, and tenant information to Call Analytics by uploading a .tsv or .csv data file.
     
-**Call Analytics is now available in the Microsoft Teams and Skype for Business Admin Center.** To see all the call information and data for a user, use the **Call History** tab. You can do this by looking on the user's profile page by doing one of the following:
+**Call Analytics is now available in the Microsoft Teams admin center**. To see all the call information and data for a user, use the **Call History** tab. You can do this by looking on the user's profile page by doing one of the following:
 
 - Search for the user from the dashboard.
   
@@ -47,7 +47,7 @@ As a Teams or Skype for Business Online admin, you can use Call Analytics to tro
 ## Set Call Analytics permissions
 <a name="BKMK_SetCAPerms"></a>
 
-As the admin, you get full access to all the features of Call Analytics. In addition, you can assign Azure Active Directory roles to support staff. Assign the Teams communications support specialist role to users who should have a limited view of Call Analytics. Assign the Teams communications support engineer role to users who need access to the full functionality of Call Analytics. Both permission levels prevent access to the rest of the Microsoft Teams & Skype for Business Admin Center.
+As the admin, you get full access to all the features of Call Analytics. In addition, you can assign Azure Active Directory roles to support staff. Assign the Teams communications support specialist role to users who should have a limited view of Call Analytics. Assign the Teams communications support engineer role to users who need access to the full functionality of Call Analytics. Both permission levels prevent access to the rest of the Microsoft Teams admin center.
 
 > [!NOTE]
 > The communications support specialist role is equivalent to tier 1 support and the communications support engineer role is equivalent to tier 2 support.
@@ -81,9 +81,9 @@ You can add building, site, and tenant information to Call Analytics by uploadin
 
 If you're a Teams and Skype for Business admin, you can use an existing data file from the Teams & Skype for Business Call Quality Dashboard. First, you download the file from Call Quality Dashboard, and then you upload it to Call Analytics. 
 
-- To download an existing data file, go to **Microsoft Teams & Skype for Business Admin Center** > **Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want.
+- To download an existing data file, go to **Microsoft Teams admin center** > **Call Quality Dashboard** > **Upload now**. In the **My uploads** list, click **Download** next to the file you want.
 
-- To upload the new file, go to **Microsoft Teams & Skype for Business Admin Center** > **Locations**, and then select **Upload location data** or **Replace location data**.
+- To upload the new file, go to **Microsoft Teams admin center** > **Locations**, and then select **Upload location data** or **Replace location data**.
   
 If you're creating the .tsv or .csv file from scratch, see [Tenant data file format and Building data file structure](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
   
