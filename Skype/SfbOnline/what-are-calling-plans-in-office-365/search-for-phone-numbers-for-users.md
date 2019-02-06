@@ -39,7 +39,7 @@ If you need some help with getting phone numbers, you can see [Manage phone numb
   
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
+2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
 3. In the left navigation go to **Voice** > **Phone numbers**, and then click **Add new number** > **New user numbers**.
   

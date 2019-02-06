@@ -18,7 +18,7 @@ appliesto:
 
 # Teams Only mode considerations
 
-If you are an administrator on your Office 365 tenant, you will now see the option to upgrade to Teams Only mode in the Microsoft Teams & Skype for Business Admin Center.  With this functionality you can upgrade either individual users, or alternatively, the entire tenant.  
+If you are an administrator on your Office 365 tenant, you will now see the option to upgrade to Teams Only mode in the Microsoft Teams admin center. With this functionality you can upgrade either individual users, or alternatively, the entire tenant.  
 
 Upgrading to Teams Only mode offers users the full benefits of Microsoft Teams, the hub for teamwork in Office 365, via a single client experience. Additionally, users in Teams Only mode will receive all calls and chats in Teams, regardless of whether the sender is using Skype for Business or Teams, and benefit from interop and federation support.
 
