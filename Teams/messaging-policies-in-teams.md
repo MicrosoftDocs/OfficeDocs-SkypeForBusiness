@@ -47,9 +47,10 @@ The available settings for the policy are described below:
 - **Allow URL previews** Use this setting to turn automatic URL previewing on or off in messages.
 - **Allow users to translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Office 365.
 
+::: zone-end
+
 If you have created a custom Messaging policy, it will only be active for a user if that policy is assigned to a user.  To assign a custom policy to a user in the Teams Admin Center, click **Users** in the left navigation, select the user you want to assign the policy to, and then choose **Edit** under **Assigned Policies**.
 
-::: zone-end
 
 ### Related topics
 [Meeting policies in Teams](meeting-policies-in-teams.md)
