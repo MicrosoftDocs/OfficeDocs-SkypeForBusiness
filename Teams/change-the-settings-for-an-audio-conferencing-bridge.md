@@ -38,7 +38,7 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
+## ![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams admin center
 
 1. In the left navigation, go to **Meetings** > **Conference bridges**. 
 

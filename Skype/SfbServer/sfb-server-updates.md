@@ -1,11 +1,10 @@
 ---
 title: "Skype for Business Server updates"
 ms.author: jambirk
-author: jambirk
+author: ariantor
 manager: serdars
-ms.date: 07/13/2018
 ms.audience: ITPro
-ms.reviewer: ariantor, arianr
+ms.reviewer: arianr
 ms.topic: reference
 ms.prod: skypeforbusiness-server-itpro
 localization_priority: Normal

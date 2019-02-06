@@ -62,10 +62,10 @@ The following diagram describes the high-level architecture of a Teams partner s
 
 ## Key business considerations
 
-**Microsoft Teams alongside 3P video infrastructure**
+**Microsoft Teams alongside third party video infrastructure**
 
-- Do you have a large deployment of 3P video devices?
-- Do you have a 3P call controller in your organization?
+- Do you have a large deployment of third party video devices?
+- Do you have a third party call controller in your organization?
 - Do you plan on keeping your current call controller alongside Microsoft Teams?
 - Do you want to run your own video infra or hosted? 
 - Do you plan on deploying Teams Room Systems? When?
