@@ -16,9 +16,6 @@ appliesto:
 
 # Teams cloud meeting recording
 
-> [!Note]
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
-
 In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved to [Microsoft Stream](https://docs.microsoft.com/stream/), so users can share it securely across their organization.
 
 Related: [Teams meeting recording end user documentation](https://aka.ms/recordmeeting)
@@ -56,7 +53,7 @@ By default, everyone in the company can create content in Stream, once Stream is
 
 If a Microsoft Stream administrator has [set up company guideline policy](https://docs.microsoft.com/stream/company-policy-and-consent) and requires employees to accept this policy before saving content, users must do so before recording in Microsoft Teams. Before you roll out the recording feature in the organization, make sure users have consented to the policy.
 
-### Enable/disable cloud recording for users
+### Turn on or turn off cloud recording
 
 Use the setting AllowCloudRecording in TeamsMeetingPolicy in Teams PowerShell to control whether a user’s meetings are allowed to be recorded or not. You can learn more about managing TeamsMeetingPolicy with Office 365 PowerShell [here](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
@@ -81,7 +78,7 @@ To change value of AllowCloudRecording in Global policy, use the following cmdle
 |      I want recording to be disabled for the majority of the users but selectively enable specific users who are allowed to record       | <ol><li>Confirm Global CsTeamsMeetingPolicy has AllowCloudRecording = False<li>Majority of the users have been granted the Global CsTeamsMeetingPolicy OR one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = False<li>All other users have been granted one of the CsTeamsMeetingPolicy policies with AllowCloudRecording = True <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
-### Enable/disable recording transcription for users
+### Turn on or turn off recording transcription
 
 When users record their Teams meetings, they can confirm whether a transcript should automatically be generated after the meeting is recorded. If admins have disabled transcription capability for the meeting organizer and the recording initiator, the recording initiator will not get a choice to transcribe the meeting recordings.
 

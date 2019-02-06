@@ -40,29 +40,17 @@ to your own Teams journey.
 
 >[!NOTE]
 >This guidance focuses solely on Calling Plans, Audio Conferencing, and Direct Routing. If you’re new to Teams, review [Overview of Microsoft Teams](teams-overview.md). For general
-guidance for planning your Teams deployment, see the [Microsoft Teams Planning Guide](quick-start-enable-teams.md).
+guidance for planning your Teams deployment, start with [Deploy chat, teams, channels, and apps in Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
 
-Use the provided checklists to track the status of each individual activity and
-task, and to be sure you haven’t skipped any critical steps. Each activity
-includes a detailed description of required actions and references to additional
-information that you can use to complete that activity.
+Use the provided checklists to track the status of each individual activity and task, and to be sure you haven’t skipped any critical steps. Each activity includes a detailed description of required actions and references to additional information that you can use to complete that activity.
 
-Although we recommend that you follow the checklists in order, the exact
-sequence will depend on the scope of your deployment and the configuration and
-complexity of your environment. They’re organized to support either a
-“greenfield” Teams deployment (one with no previous Skype for Business Online
-presence) or migrating from Skype for Business Online to Teams. If you’re
-migrating from Skype for Business Online, you might have already completed some
-of these activities and can ignore them now.
+Although we recommend that you follow the checklists in order, the exact sequence will depend on the scope of your deployment and the configuration and complexity of your environment. They’re organized to support either a “greenfield” Teams deployment (one with no previous Skype for Business Online presence) or migrating from Skype for Business Online to Teams. If you’re migrating from Skype for Business Online, you might have already completed some of these activities and can ignore them now.
 
-When you’re onboarding users on a per-site basis, we highly recommended that you
-use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) as a
-supplementary guide to these checklists.
+When you’re onboarding users on a per-site basis, we highly recommended that you use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) as a supplementary guide to these checklists.
 
 >[!NOTE]
 >Most of the configuration settings are common between Teams and Skype for
-Business Online. You use the Office 365 Admin Center and Teams & Skype for Business Admin Center to
-configure those settings.
+Business Online. You use the Office 365 Admin Center and Microsoft Teams admin center to configure those settings.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Decision points</td><td><ul><li>Who will be responsible for overseeing the completion of the onboarding checklists?</li></ul></td></tr>
@@ -73,11 +61,9 @@ configure those settings.
 
 ## Continue onboarding
 
-After you complete these checklists, you’ll have successfully added voice
-capabilities to your Teams deployment.
+After you complete these checklists, you’ll have successfully added voice capabilities to your Teams deployment.
 
-As the next step, use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) to help you onboard your users on each site, and help ensure that you plan
-and execute important site-specific activities.
+As the next step, use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) to help you onboard your users on each site, and help ensure that you plan and execute important site-specific activities.
 
 -   Ready Site by Site Rollout Plan
 
@@ -89,24 +75,13 @@ and execute important site-specific activities.
 
 ## Test cloud voice workloads in Teams
 
-After you’ve defined and documented your Teams cloud voice business success and
-technical implementation plans as part of the Envision phase and undertaken the
-configuration you want in the admin center, the next step is to validate that
-your organization’s expectations and requirements are met through feature,
-functionality, and usability. You should perform this validation step before you
-deploy a pilot or final deployment in your production environment.
+After you’ve defined and documented your Teams cloud voice business success and technical implementation plans as part of the Envision phase and undertaken the configuration you want in the admin center, the next step is to validate that your organization’s expectations and requirements are met through feature, functionality, and usability. You should perform this validation step before you deploy a pilot or final deployment in your production environment.
 
-You can leverage the business success plan you defined during the Envision phase
-to serve as the basis for determining the activities, expectations,
-feature/functionality test cases, and overall scope to be evaluated during the
-testing phase.
+You can leverage the business success plan you defined during the Envision phase to serve as the basis for determining the activities, expectations, feature/functionality test cases, and overall scope to be evaluated during the testing phase.
 
 ## Define your testing approach
 
-In its simplest form, your testing approach is based on your reviewing the
-feature capabilities of the Audio Conferencing, Calling Plans, or Direct Routing service and developing a test plan to verify that your
-functionality requirements are met for users in scope. The following is an
-example test plan for the Onboard phase of an audio conferencing implementation.
+In its simplest form, your testing approach is based on your reviewing the feature capabilities of the Audio Conferencing, Calling Plans, or Direct Routing service and developing a test plan to verify that your functionality requirements are met for users in scope. The following is an example test plan for the Onboard phase of an audio conferencing implementation.
 
 
 | Audio Conferencing feature to test | Results summary | Additional notes |
@@ -132,8 +107,7 @@ of user guidance available at [Teams Meetings and calls](https://support.office.
 
 ## Set up cloud voice workloads for Teams
 
-Now that you’ve defined your testing approach, the next step is configuring your
-service environment and users in scope for Teams cloud voice features.
+Now that you’ve defined your testing approach, the next step is configuring your service environment and users in scope for Teams cloud voice features.
 
 For additional information, see:
 
@@ -141,7 +115,7 @@ For additional information, see:
 
 - [Set up Audio Conferencing for Skype for Business and Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
 
-- [Technical Planning for Phone System with Calling Plans](phone-system-with-calling-plans.md#technical-planning-for-phone-system-with-calling-plans)
+- [Technical Planning for Phone System with Calling Plans](calling-plan-landing-page.md)
 
 - [Set up Calling Plans for Skype for Business and Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
@@ -152,62 +126,43 @@ For additional information, see:
 ### Execute the test plan
 
 [//]: # (Edit okay? "User" seemed a bit ambiguous to me.)
-After the user environment and the service have been configured,
-the last step of testing includes test plan execution with focus on feature and
-functionality validation. 
+After the user environment and the service have been configured, the last step of testing includes test plan execution with focus on feature and functionality validation. 
 
 **Audio Conferencing testing prerequisites and assumptions for users and sites in scope:**
 
--   Business use case definition for the Audio Conferencing service has
-    been completed.
+-   Business use case definition for the Audio Conferencing service has been completed.
 
--   Licensing required for Audio Conferencing is available and has been
-    assigned.
+-   Licensing required for Audio Conferencing is available and has been assigned.
 
 -   The list of organizational sites and user groups have been identified.
 
--   The list of dedicated and shared audio conferencing dial in numbers with
-    language preference have been identified and configured.
+-   The list of dedicated and shared audio conferencing dial in numbers with language preference have been identified and configured.
 
--   [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
-    (if required) have been set up for your organization.
+-   [Communications Credits](what-are-communications-credits.md) (if required) have been set up for your organization.
 
--   Audio Conferencing conference bridge settings have been identified and
-    configured (PIN length, entry/exit notifications, enablement notification
-    preference).
+-   Audio Conferencing conference bridge settings have been identified and configured (PIN length, entry/exit notifications, enablement notification preference).
 
--   Tenant conferencing policies and dial plan settings that support Audio
-    Conferencing dial-out scenarios have been identified, configured, and
-    applied.
+-   Tenant conferencing policies and dial plan settings that support Audio Conferencing dial-out scenarios have been identified, configured, and applied.
 
--   Audio Conferencing compliance requirements have been identified and
-    configured.
+-   Audio Conferencing compliance requirements have been identified and configured.
 
-**Calling Plans testing prerequisites and assumptions for users and
-sites in scope:**
+**Calling Plans testing prerequisites and assumptions for users and sites in scope:**
 
--   Business use case definition for the Calling Plans
-    service has been completed.
+-   Business use case definition for the Calling Plans service has been completed.
 
--   Licensing required for Calling Plans is available and
-    has been assigned.
+-   Licensing required for Calling Plans is available and has been assigned.
 
 -   The list of organizational sites and user groups have been identified.
 
--   Phone numbers to be assigned to users have been acquired or ported to
-    Microsoft and are available in the tenant portal.
+-   Phone numbers to be assigned to users have been acquired or ported to Microsoft and are available in the tenant portal.
 
--   [Communications
-    Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
-    (if required) have been set up for your organization.
+-   [Communications Credits](what-are-communications-credits.md) (if required) have been set up for your organization.
 
 -   Tenant user policies and dial plan settings that support Calling Plans scenarios have been identified, configured, and applied.
 
--   Calling Plans compliance requirements have been
-    identified and configured.
+-   Calling Plans compliance requirements have been identified and configured.
 
-**Direct Routing testing prerequisites and assumptions for users and
-sites in scope:**
+**Direct Routing testing prerequisites and assumptions for users and sites in scope:**
 
 -   Business use case definition for the Direct Routing service has been completed.
 

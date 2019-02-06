@@ -40,7 +40,7 @@ When toll-free numbers are disabled for a given organizer:
 
 ## Disabling toll-free numbers for specific users 
 
-From the **Microsoft Teams & Skype for Business Admin Center**:
+From the **Microsoft Teams admin center**:
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 

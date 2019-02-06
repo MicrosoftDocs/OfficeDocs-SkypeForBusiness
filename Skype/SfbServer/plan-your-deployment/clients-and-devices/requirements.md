@@ -42,11 +42,10 @@ Skype Room Systems v2 can scale to different room sizes through accessories depe
 
 |Tablet|Processor|RAM|Disk|
 |:-----|:-----|:-----|:-----|
-|Surface Pro (2017)  |Core i5  |8GB  |256GB  |
-|Surface Pro (2017)  |Core i5  |8GB  |128GB  |
-|Surface Pro (2017)  |Core i5  |4GB  |128GB  |
-|Surface Pro 4       |Core i5  |8GB  |256GB  |
-|Surface Pro 4       |Core i5  |4GB  |128GB  |
+|Surface Pro 6  |Core i5 (8350U)  |16GB or 8GB  | 128GB or more  |
+|Surface Pro 6  |Core i7 (8650U) |16GB or 8GB  |128GB or more  |
+|Surface Pro (2017)  |Core i5  |8GB or 4GB  |128GB or more  |
+|Surface Pro 4       |Core i5  |8GB or 4GB  |128GB or more  |
 
 > [!NOTE]
 > Core M3 processors are not supported.
@@ -111,7 +110,7 @@ The following tables provide recommendations for peripherals based on room size:
 
 **Skype Room Systems v2 Certified Audio Peripherals**
 
-|**Room Type**|**Number of People**|**Recommended maximum distance from microphone to person speaking**|**Device by maximum room size**|**Comments**|
+|Room Type|Number of People|Recommended maximum distance from microphone to person speaking|Device by maximum room size|Comments|
 |:-----|:-----|:-----|:-----|:-----|
 |**Focus** <br/> 10' x 9'  <br/> |2-4  <br/> |1.5m  <br/> |Logitech Connect  <br/> |The Logitech Connect devices include a camera so it must be positioned at the front of the room (not center of table) to capture local meeting attendees.  <br/> |
 |**Small** <br/> 16' x 16'  <br/> |4-6  <br/> |2.0m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |Playback volume may be limited for larger rooms.  <br/> |
@@ -138,7 +137,6 @@ To build your own Skype Room Systems v2 image, follow the instructions in [Confi
 > IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
 
 In addition, you will probably want a copy of [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), often used to provision Skype Room Systems v2 accounts.
-
 
 ## See also
 

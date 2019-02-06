@@ -138,6 +138,44 @@ ms.collection: Teams_ITAdmin_Training
                                 </div>
                             </a>
                         </li>
+                        <li>
+                            <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image8.svg" alt="successful meeting" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Optimizing Teams Meetings</h3>
+                                                <p>Learn how you can leverage Teams for your pre, during, and post meetings experience. (Audience: End users)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="https://microsoftteams.eventbuilder.com/FLW3">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image9.svg" alt="mobile user" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Firstline Workers with Teams</h3>
+                                                <p>Learn about the newly released firstline worker capabilities in Teams. (Audience: End users)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
                     </ul>
                 </li>
             </ul>

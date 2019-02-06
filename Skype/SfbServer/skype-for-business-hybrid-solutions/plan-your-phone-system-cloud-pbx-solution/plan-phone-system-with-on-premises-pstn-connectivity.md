@@ -23,7 +23,7 @@ description: "Learn about the planning considerations for Phone System in Office
 
 Learn about the planning considerations for Phone System in Office 365 (Cloud PBX) with on-premises PSTN connectivity.
 
-This content is relevant if you already have Skype for Business Server or Lync Server 2013 deployed on-premises. For other scenarios, see [Plan your Phone System in Office 365 (Cloud PBX) solution](plan-your-phone-system-cloud-pbx-solution.md).
+This content is relevant if you already have Skype for Business Server or Lync Server 2013 deployed on-premises. For other scenarios, see [Microsoft telephony solutions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
  Phone System in Office 365 with on-premises PSTN connectivity enables you to leverage Phone System (Cloud PBX) capabilities for your users. This can help with the following scenarios:
 
@@ -100,12 +100,12 @@ In addition you must ensure the following:
     > [!NOTE]
     > The version of AAD Connect you use must be version 1.0.9125.0 or later. If you are using an earlier version of AAD Connect tools or DirSync, please upgrade to the supported version. You can upgrade your current installation and maintain any custom rules you have defined in your environment. 
 
-- **Configure your hybrid deployment** Whether all your Skype for Business users are currently homed either online or on-premises, or if you currently have a mix, you must complete the steps to configure a hybrid deployment of Skype for Business Server or Lync Server 2013, as outlined in [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). For more background information on hybrid deployments, see [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). 
+- **Configure your hybrid deployment** Whether all your Skype for Business users are currently homed either online or on-premises, or if you currently have a mix, you must complete the steps to configure a hybrid deployment of Skype for Business Server or Lync Server 2013, as outlined in [Deploy hybrid connectivity between Skype for Business Server and Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). For more background information on hybrid deployments, see [Plan hybrid connectivity between Skype for Business Server and Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). 
 
-    If you are using Lync Server 2013, see [ Lync Server 2013 hybrid](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
+    If you are using Lync Server 2013, see [Lync Server 2013 hybrid](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 
 - **(Recommended) Active Directory Federation Services (AD FS)** We recommend deploying AD FS to support Single Sign-on. For more information, see [ Active Directory Federation Services (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
 
-For information about deploying Phone System in Office 365, see [Enable users for Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](enable-users-for-phone-system.md).
+For information about deploying Phone System in Office 365, see [Setting up Phone System in your organization](https://docs.microsoft.com/en-us/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 
