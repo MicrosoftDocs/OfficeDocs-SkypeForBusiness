@@ -5,7 +5,7 @@ author: jambirk
 ms.reviewer: Michael.Wang
 manager: serdars
 ms.audience: ITPro
-ms.reviewer: mwa
+ms.reviewer: qingy
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Normal

@@ -307,7 +307,7 @@ items:
     Auto Attendants below. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
     for more about Call Queues. If you choose to do this, you'll need to create a valid Call Queue before creating an Auto Attendant menu that refers to the Call Queue.
 
-    Your account must have Admin priveleges: in the **Microsoft Teams and Skype for Business Admin Center**, click **Legacy Portal** then select **Call routing** > **Auto attendants**, then click **Add new**.
+    Your account must have Admin priveleges: in the **Microsoft Teams admin center**, click **Legacy Portal** then select **Call routing** > **Auto attendants**, then click **Add new**.
     The following tables show values to enter in the user interface screens. Each table represents a user interface screen.
     
     Create the following Auto Attendants in the following order and set their general information, then once the main and nested Auto Attendants are all created, edit them to set the 
