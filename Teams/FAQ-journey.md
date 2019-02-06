@@ -86,7 +86,7 @@ In effort to support smaller customers that may not have dedicated IT resources,
 
 Your organization's journey from Skype for Business to Teams can be defined by you. To assist in your planning and execution, you can choose from two core upgrade paths, Upgrade Basic and Upgrade Pro. Upgrade Basic is for smaller organizations or those with low Skype for Business adoption or core workloads such as IM, and is designed to upgrade your entire organization to Teams at once. Upgrade Pro is for organizations with expanded functionality who’d benefit from a more phased upgrade approach. [Review both paths](https://aka.ms/skypetoteams-home) to determine the optimal approach for your organization.
 
-### Why don’t I see a “Teams Only” mode in the Microsoft Teams & Skype for Business Admin Center?
+### Why don’t I see a “Teams Only” mode in the Microsoft Teams admin center?
 
 We’ll be enabling this mode over the coming weeks. Further, you’ll see additional coexistence modes lighting up, enabling your organization to manage the Skype for Business to Teams journey that’s right for your organization. Learn more about the [coexistence and upgrade modes](https://aka.ms/skypetoteams-coexist) that are available or will be available soon.
 
@@ -104,7 +104,7 @@ No, you'll want to switch users to **Teams Only** mode to complete the upgrade t
 
 ### Who can I contact if I have questions about the upgrade process?
 
-For questions related to your upgrade, reach out to your current points of contact, which might include your assigned Microsoft account team, partner, or FastTrack. Alternatively, you can open a help ticket from within your [Microsoft Teams & Skype for Business Admin Center](https://admin.teams.microsoft.com/).
+For questions related to your upgrade, reach out to your current points of contact, which might include your assigned Microsoft account team, partner, or FastTrack. Alternatively, you can open a help ticket from within your [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 
 ### Do I upgrade all users on my tenant together, or can I opt to upgrade select users at a time?
 
@@ -195,7 +195,7 @@ Skype Room Systems v1 (also known as Lync Room Systems) will have an upgrade ava
 
 ### What’s planned for new management experiences?
 
-Microsoft has launched the [Microsoft Teams & Skype for Business Admin Center](https://admin.teams.microsoft.com/) for IT pros within the Office 365 Admin Center. Like the Skype for Business Admin Console, this new portal will be a single place to administer our new experiences. The initial release of the portal, targeted for the first quarter of 2018, is designed to support administration through an enterprise-ready policy model for Teams-only customers, replacing the existing administration interface for Teams. With this portal, we’ll be able to create custom presence, chat, app, meeting, and voice policies and assign those policies to Teams users.
+Microsoft has launched the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) for IT pros within the Office 365 Admin Center. Like the Skype for Business Admin Console, this new portal will be a single place to administer our new experiences. The initial release of the portal, targeted for the first quarter of 2018, is designed to support administration through an enterprise-ready policy model for Teams-only customers, replacing the existing administration interface for Teams. With this portal, we’ll be able to create custom presence, chat, app, meeting, and voice policies and assign those policies to Teams users.
 
 ## Device compatibility
 

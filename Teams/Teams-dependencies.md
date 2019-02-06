@@ -70,7 +70,7 @@ Azure AD licensing allows you to add up to 5 guests per license. For more inform
 
 In Teams, you can control whether the guest experience is enabled or disabled for your organization. The setting is disabled by default and applies at the tenant level for Teams only.
 
-You can manage Teams guest access settings from the Microsoft Teams & Skype for Business Admin Center. For more information, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md). 
+You can manage Teams guest access settings from the Microsoft Teams admin center. For more information, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md). 
 
 
 ## Control guest access in Office 365 Groups
