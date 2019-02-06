@@ -23,6 +23,7 @@
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [What are Messaging policies?](messaging-policies-in-teams.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
+## [Get started with Microsoft Teams Healthcare templates](healthcare/healthcare-templates.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
@@ -57,8 +58,8 @@
 
 ## [Manage Teams](using-admin-roles.md)
 ### [Manage Teams features in your organization](enable-features-office-365.md)
-### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
-### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
+### [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
+### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
@@ -646,6 +647,7 @@
 
 ## Teams for firstline workers
 ### [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 ## [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)

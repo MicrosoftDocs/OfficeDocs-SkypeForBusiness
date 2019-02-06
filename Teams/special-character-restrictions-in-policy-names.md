@@ -26,17 +26,15 @@ description: "See what issues there are with special characters in the names of 
 
 # What are the special character restrictions in Teams policies?
 
-**You can't create or edit policies (for messaging, meetings, etc.) that have a special character in the name in the Microsoft Teams and Skype for Business Admin Center.** 
+**You can't create or edit policies (for messaging, meetings, etc.) that have a special character in the name in the Microsoft Teams admin center**. 
 
-If a policy name contains special characters, you will be limited in managing these policies in the Microsoft Teams and Skype for Business Admin Center. **As such, we strongly recommend that policy names don't include special characters**. 
+If a policy name contains special characters, you will be limited in managing these policies in the Microsoft Teams admin center. **As such, we strongly recommend that policy names don't include special characters**. 
 
-Policy names that have been created using PowerShell for meetings and messaging in Teams can have special characters such as @,#,$. However, if you are wanting to make changes to the policy in the Microsoft Teams and Skype for Business Admin Center,you won't be able to. 
+Policy names that have been created using PowerShell for meetings and messaging in Teams can have special characters such as @,#,$. However, if you are wanting to make changes to the policy in the Microsoft Teams admin center,you won't be able to. 
 
-If you have a policy with special characters, you will need to either edit the policy using Windows PowerShell (forever) or create a new policy in the Microsoft Teams and Skype for Business Admin Center with the same settings as the old policy and assign it to the same group of users.
+If you have a policy with special characters, you will need to either edit the policy using Windows PowerShell (forever) or create a new policy in the Microsoft Teams admin center with the same settings as the old policy and assign it to the same group of users.
 
 ## To remove special characters
-
-
 
 **Step 1 - Make a remote connection with PowerShell.**
 [Set up your computer for Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) if you haven't yet.
@@ -60,7 +58,7 @@ If you have a policy with special characters, you will need to either edit the p
 
 **Step 3 - Create a new policy.**
 
-You can either create the new policy with the same setting using the Microsoft Teams and Skype for Business Admin Center or PowerShell.
+You can either create the new policy with the same setting by using the Microsoft Teams admin center or PowerShell.
 
 Running this will create a new policy for you but you will need to add the correct settings by seeing [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) and then running it:
 
@@ -105,4 +103,4 @@ Windows PowerShell is all about managing users and what users are allowed or not
     > [!NOTE]
     > The Windows PowerShell module for Skype for Business Online enables you to create a remote Windows PowerShell session that connects to Skype for Business Online and Microsoft Teams. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-### Related topics
+

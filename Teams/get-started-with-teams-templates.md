@@ -9,7 +9,6 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
 localization_priority: Normal
-robots: NOINDEX, NOFOLLOW
 search.appverid: MET150
 description: Learn how to use Teams templates to create a team with predefined channels.
 ms.custom:
@@ -63,8 +62,8 @@ By default the base template is set to **Standard** which doesn't contain any ad
 |Education -<br>PLC team |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Apps:<ul><li>OneNote PLC Notebook (pinned to the **General** tab)</ul></li>|
 | Retail -<br>Store | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Channels:<ul><li>Shift handoff</li><li>Learning</li></ul>Team properties<ul><li>Team visibility set to Public</li></ul>Member permissions<ul><li>Prevent members from creating, updating, or removing channels</li><li>Prevent members from adding or removing apps</li><li>Prevent members from creating, updating, or removing connectors</li></ul> |
 | Retail -<br>Manager collaboration | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Channels:<ul><li>Shift handoff</li><li>Learning</li></ul>Team properties:<ul><li>Team visibility set to Private</li></ul>Member permissions:<ul><li>Prevent members from creating, updating, or removing channels</li><li>Prevent members from adding or removing apps</li><li>Prevent members from creating, updating, or removing connectors</li></ul>|
-| Healthcare -<br>Ward Wide |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |Channels: <ul><li>Announcements\*</li><li>Call lights</li><li>Fun stuff\*</li><li>Huddles\*<li>Scheduling and patient census\*</li><li>Training and certification </li><li>Rounds\*</li></ul>\*Auto-favorited channels |
-|Healthcare -<br>Hospital Wide | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |Channels:<ul><li>Announcements\*</li><li>Compliance\*</li><li>Custodial</li><li>Finance</li><li>Fun stuff\*</li><li>Human Resources</li><li>Laboratory</li><li>Patient safety and quality improvement\*</li><li>Pharmacy</li></ul>\*Auto-favorited channel|
+| Healthcare -<br>Ward |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWard` |Channels: <ul><li>Announcements\*</li><li>Huddles\*</li><li>Rounds</li><li>Staffing\*</li><li>Training\*</li></ul>\*Auto-favorited channels |
+|Healthcare -<br>Hospital | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospital` |Channels:<ul><li>Announcements\*</li><li>Compliance\*</li><li>Custodial</li><li>Human Resources</li></li><li>Pharmacy</li></ul>\*Auto-favorited channel|
 |||
 
 > [!NOTE]
@@ -76,3 +75,5 @@ By default the base template is set to **Standard** which doesn't contain any ad
 - [Create team](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (in preview)
 - [New-Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Admin training for Microsoft Teams](itadmin-readiness.md)
+- [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
+- [Get started with Healthcare Teams templates](healthcare/healthcare-templates.md)
