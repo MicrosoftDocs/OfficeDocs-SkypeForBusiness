@@ -26,7 +26,7 @@ Policies can be easily managed in the Teams Admin Center (http://admin.teams.mic
 
 ![Messaging Policies in Teams](media/messaging-policies.png)
 
-::: zone target="docs"
+::: zone target="chromeless"
 
 The available settings for the policy are described below: 
 
