@@ -82,7 +82,7 @@ Microsoft has identified various customer deployments that are consuming feature
 
     You can opt in for an early Voicemail service migration by May 2019 (if you have not received a migration notification), to align your migration with a license annuity or admin staff vacations, or to avoid business-critical periods. Details on the opt-in process will be updated in this article before May 2019.  
 
-## Alppendix
+## Appendix
 
 ### ExchUMO and Azure cloud-based services feature matrix 
 
