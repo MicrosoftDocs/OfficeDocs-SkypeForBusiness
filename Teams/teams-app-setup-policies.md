@@ -29,7 +29,7 @@ Apps are pinned to the app bar. This is the bar on the side of the Teams desktop
 |---------|---------|
 |![app-setup-policies-desktop-app-bar.png](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![app-setup-policies-mobile-app-bar.png](media/app-setup-policies-mobile-app-bar.png)      |
 
-You manage app setup policies in the Microsoft Teams & Skype for Business Admin Center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
+You manage app setup policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
 
 You can edit the settings in the global policy to include the apps that you want. If you want to customize Teams for different groups of users in your organization, create and assign one or more custom policies.
 
@@ -40,9 +40,9 @@ You can edit the settings in the global policy to include the apps that you want
 
 ## Create a custom app setup policy
 
-You can use the Microsoft Teams & Skype for Business Admin Center or Windows PowerShell to create a custom policy.
+You can use the Microsoft Teams admin center or Windows PowerShell to create a custom policy.
 
-1. In the left navigation of the Microsoft Teams & Skype for Business Admin Center, go to **Teams app** > **App setup policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App setup policies**.
 2. Select **New policy**.
 3. Enter a descriptive name for the policy, and then click **Add apps**.
 
@@ -58,20 +58,20 @@ You can use the Microsoft Teams & Skype for Business Admin Center or Windows Pow
 
 ## Edit an app setup policy
 
-You can use the Microsoft Teams & Skype for Business Admin Center or Windows PowerShell to edit a policy, including the global (Org-wide default) policy and custom policies that you create. 
+You can use the Microsoft Teams admin center or Windows PowerShell to edit a policy, including the global (Org-wide default) policy and custom policies that you create. 
 
-1. In the left navigation of the Microsoft Teams & Skype for Business Admin Center, go to **Teams app** > **App setup policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App setup policies**.
 2. Select the policy you want to edit. 
 3. From here, make the changes that you want. You can add, remove, and change the order of apps.
 4. Click **Save**. 
 
 ## Assign a custom app setup policy to users
 
-You can use the Microsoft Teams & Skype for Business Admin Center to assign a custom policy to individual users or Windows PowerShell to assign a custom policy to groups of users, such as a security group or distribution group.
+You can use the Microsoft Teams admin center to assign a custom policy to individual users or Windows PowerShell to assign a custom policy to groups of users, such as a security group or distribution group.
 
 ### Assign a custom app setup policy to individual users
 
-1. In the left navigation of the Microsoft Teams & Skype for Business Admin Center, go to **Users**, and then click       the user.
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click       the user.
 2. Next to **Assigned policies**, choose **Edit**.
 3. Under **Teams App Setup policy**, select the app setup policy you want to assign, and then choose **Save**.
 
@@ -104,7 +104,7 @@ Depending on the number of members in the group, this command may take several m
 
 ### Working with app setup policies
 
-#### What built-in app setup policies are included in the Microsoft Teams & Skype for Business Admin Center?
+#### What built-in app setup policies are included in the Microsoft Teams admin center?
 
 - **Global (Org-wide default)**: This default policy applies to all users in your organization unless you assign another policy. Edit the global policy to pin apps that are most important for your users. 
 - **FirstLineWorker**: This policy is for firstline workers. You can assign it to firstline workers in your organization. It's important to know that like custom policies that you create, you have to assign the policy to users for the settings to be active. For more information, see [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users).
