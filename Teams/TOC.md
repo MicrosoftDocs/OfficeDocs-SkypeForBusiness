@@ -128,13 +128,27 @@
 
 ## [Audio conferencing](deploy-audio-conferencing-teams-landing-page.md)
 
-### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
 ### [Audio Conferencing in Office 365](audio-conferencing-in-office-365.md)
-### [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Audio Conferencing common questions](audio-conferencing-common-questions.md)
+### [Tutorial: Audio Conferencing in Teams](Tutorial-Audio-Conferencing.yml)
+### [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+### [Set up Audio conferencing for Skype for Business and Microsoft Teams](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json))
+
+###[Manage your audio conferencing bridge]
+
+#### [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+
+
+
+#### [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+
+#### [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
+
+
+### [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+
 ### [Audio Conferencing pay-per-minute](audio-conferencing-pay-per-minute.md)
-### [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
-### [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+
 ### [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
 ### [Disabling toll-free numbers for specific users](disabling-toll-free-numbers-for-specific-teams-users.md)
 ### [Emails that are automatically sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md)
@@ -149,11 +163,11 @@
 ### [See a list of users that are enabled for Audio Conferencing](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
 ### [View and reset a conference ID assigned to a user](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
 ### [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
-### [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+
 ### [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md)
 ### [Set the PIN length for Audio Conferencing meetings](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
 ### [Start an Audio Conference over the phone without a PIN](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
-### [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+
 ### [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 ### [Audio Conferencing Complimentary Dial Out Period](complimentary-dial-out-period.md)
 
