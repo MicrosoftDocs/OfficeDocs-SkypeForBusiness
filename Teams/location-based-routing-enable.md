@@ -17,7 +17,7 @@ appliesto:
 
 # Enable Location-Based Routing for Direct Routing
 
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 Before you follow the steps in this article, make sure you've read [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) and completed the steps in [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md).
 

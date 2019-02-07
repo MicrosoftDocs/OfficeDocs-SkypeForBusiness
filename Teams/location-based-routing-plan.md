@@ -17,7 +17,7 @@ appliesto:
 
 # Plan Location-Based Routing for Direct Routing
 
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 ## Overview of Location-Based Routing
 
