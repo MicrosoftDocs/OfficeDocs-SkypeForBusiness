@@ -19,7 +19,7 @@ appliesto:
 
 # Manage Microsoft Teams features in your Office 365 organization
 
-All Teams settings will soon be migrated to the new Microsoft Teams & Skype for Business Admin Center. The only Teams feature that's managed in the Microsoft 365 admin center is Apps. 
+All Teams settings will soon be migrated to the new Microsoft Teams admin center. The only Teams feature that's managed in the Microsoft 365 admin center is Apps. 
 
 Unless otherwise noted, the default value for an option is **On**.
 
@@ -57,7 +57,7 @@ To learn more, see [Admin settings for apps in Teams](admin-settings.md).
 
 ## Teams org-wide settings
 
-You can control organization-wide user settings in the Microsoft Teams & Skype for Business Admin Center. To edit org-wide settings, go to the Microsoft Teams & Skype for Business Admin Center, and then select **Org-wide settings**. You can configure the following settings.
+You can control organization-wide user settings in the Microsoft Teams admin center. To edit org-wide settings, go to the Microsoft Teams admin center, and then select **Org-wide settings**. You can configure the following settings.
 
 ### External access
 

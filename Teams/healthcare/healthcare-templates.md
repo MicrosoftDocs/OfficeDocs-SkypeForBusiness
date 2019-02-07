@@ -29,7 +29,7 @@ The ward template is meant for communication and collaboration within a ward, po
 
 |Base Template Type |baseTemplateId |Baseline Template channels|
 |:--- |:---|:---|
-|Healthcare - Ward | https://<span></span>graph<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Announcements\* <br> Call Lights\* <br> Fun Stuff\* <br> Huddles\* <br>Rounds\* <br>Training\* |
+|Healthcare - Ward | https://<span></span>graph<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Announcements\* <br> Huddles\* <br> Rounds\* <br> Staffing\* <br> Training\* |
 |     | |         |
 
 \* Auto-favorited 
@@ -40,7 +40,7 @@ The hospital template is meant for communication and collaboration between multi
 
 |Base Template Type |baseTemplateId |Baseline Template channels|
 |:--- |:---|:---|
-|Healthcare - Hospital | https://<span></span>graph<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Announcements\* <br> Compliance\* <br> Fun Stuff\* <br>Custodial<br>Finance<br>Human Resources <br>Laboratory<br> Pharmacy |
+|Healthcare - Hospital | https://<span></span>graph<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | Announcements\* <br> Compliance\* <br> Custodial <br> Human Resources <br> Pharmacy |
 | | |  |
 
 \* Auto-favorited 
@@ -53,7 +53,7 @@ To use these templates, simply change the ‘template@odata.bind’ property in 
 
 ``` Powershell
 { 
-          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospitalWide",
+          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospital",
           "DisplayName": "Contoso Hospital",
           "Description": "Team for all staff in Contoso Hospital",
           "Channels": [
