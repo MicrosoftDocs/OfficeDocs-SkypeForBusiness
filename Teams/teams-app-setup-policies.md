@@ -4,7 +4,7 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.date: 1/10/2019
-ms.reviewer: chhavib
+ms.reviewer: larryjin
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,7 +21,7 @@ description: Learn about app setup policies in Microsoft Teams and how to use th
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
-As an admin, you can use app setup policies to customize Microsoft Teams to highlight the apps that are most important for your users. You choose the apps to pin and set the order that they appear. App setup policies let you showcase your line-of-business apps and other apps that users in your organization need.
+As an admin, you can use app setup policies to customize Microsoft Teams to highlight the apps that are most important for your users. You choose the apps to pin and set the order that they appear. App setup policies let you showcase apps that users in your organization need, including ones built by third parties or by developers in your organization. You can also use app setup policies to manage how built-in features appear.
 
 Apps are pinned to the app bar. This is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android). 
 
@@ -140,9 +140,13 @@ To view all apps that are pinned for a user, users may have to do the following 
 
 #### What do I need to know about the Teams mobile experience?
 
-The Teams mobile clients (iOS and Android) don't support pinning personal tabs or bots. Depending on the apps set in the policy, apps pinned to the Teams desktop client might not be pinned to the Teams mobile clients. 
+The Teams mobile clients (iOS and Android) don't currently support personal apps. Depending on the apps set in the policy, apps pinned to the Teams desktop client might not appear in the Teams mobile clients. Personal bots will still appear in Chat on mobile clients. 
 
 With the Teams mobile clients, users will see core Teams apps such as Activity, Chat, Teams, and Calendar, and you can pin some first-party apps from Microsoft, such as Shifts and Planner.
+
+#### Can users change the order of apps pinned through a policy?
+
+Currently, users can change the order of their pinned apps on Teams mobile clients but not on the Teams desktop or web clients. 
 
 ### Custom Teams apps
 
