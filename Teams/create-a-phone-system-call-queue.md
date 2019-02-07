@@ -126,7 +126,7 @@ In the **Microsoft Teams admin center**, **Voice** >  **Call queues**, then clic
 
 ![Number 2](media/sfbcallout2.png)
 
-**Add Accounts** Select a resource account that has been associated with a service toll or toll-free phone number for the call queue. This is optional.
+**Add Accounts** Select a resource account. The resource account may or may not be associated with a service toll or toll-free phone number for the call queue, but eacj call queue requires an associated resource account.
 
 If there aren't any listed, you need to get service numbers and assign them to a Resource account before you can create this call queue, as described earlier. To get your service numbers, see [Getting service phone numbers](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md). You'll need to create a resource account as described in [Manage resource accounts in Teams](manage-resource-accounts.md) if you want your call queue to have an associated phone number.
 
@@ -175,14 +175,14 @@ You can select up to 200 call agents, individually or as part of mailing lists o
 
 ![Number 2](media/sfbcallout2.png)
 
-**Routing method** You can choose either **Attendant**,  **Serial**, or **Round Robin** for your call queue distribution method. All new and existing call queues will have attendant routing selected by default. To use serial routing, you must explicitly choose the **Serial** routing option in UI and cmdlets.
+**Routing method** You can choose either **Attendant**,  **Serial**, or **Round Robin** for your call queue distribution method. All new and existing call queues will have attendant routing selected by default. When attendant routing is used, the first call in the queue will ring all of the call agents at the same time. The first call agent to pick up the call gets the call.
 
-When serial routing is chosen and the call queue is saved, the calls from the queue will ring your agents one by one, starting from the beginning of the agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent on the list and will try all agents one by one until it is picked up or times out waiting in the queue.
+To use serial routing, you must explicitly choose the **Serial** routing option in UI and cmdlets.  When serial routing is chosen and the call queue is saved, the calls from the queue will ring your agents one by one, starting from the beginning of the agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent on the list and will try all agents one by one until it is picked up or times out waiting in the queue.
 
 > [!NOTE]
 > Serial routing will skip agents who are **Offline**, have set their presence to **Do not Disturb**, or have **opted out** of getting calls from this queue.
 
-When round robin is selected as a routing method, calls are distributed in even numbers among the call agents. This may be very desirable in an inbound sales environment to assure equal opportunity among all the call agents.
+When **Round Robin** is selected as a routing method, calls are distributed in even numbers among the call agents. This may be very desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
 ### Select an agent opt out option
 

@@ -67,7 +67,7 @@ In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**
 
 ![Number 2](media/sfbcallout2.png)
 
-**Resource account** Click this button to select one or more resource accounts to connect to your new auto attendant. A resource account can have a phone number associated to the account, but it might not. A top-level auto attendant would almost certainly would have an assigned phone number, but a secondary auto attendant (used as a level 2 menu that the first level auto attendant connects to) might easily not have a phone number.
+**Resource account** Click this button to select one or more resource accounts to connect to your new auto attendant. All auto attendants are required to have an associated resource account. A resource account can have a phone number associated to the account, but it might not. A top-level auto attendant would almost certainly would have a resource account with an assigned phone number, but a secondary auto attendant (used as a level 2 menu that the first level auto attendant connects to) might easily not have a phone number assigned to its resource account.
 
 
 * * *
