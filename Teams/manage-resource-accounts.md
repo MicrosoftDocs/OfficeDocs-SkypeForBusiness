@@ -18,7 +18,7 @@ f1keywords:
 description: "Managing resource accounts in Microsoft Teams"
 ---
 
-# Manage resource accounts in Teams
+# Manage resource accounts in Teams 
 
 A Resource Account is also known as a disabled user object in Azure Active Directory, and can be used to represent resources in general. In Exchange it might be used to represent conference rooms, for example, and allow them to have a phone number. A resource account can be homed in Microsoft 365 or on premises using Skype for Business server, and these accounts are created using Powershell commands.
 
