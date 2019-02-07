@@ -29,7 +29,7 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
 
 ## Enable Location-Based Routing for users
 
-1. Use the ``Set-CsOnlinPstnUsages`` cmdlet to set PSTN usages. For multiple usages, separate each usage with a comma.
+1. Use the ``Set-CsOnlinePstnUsages`` cmdlet to set PSTN usages. For multiple usages, separate each usage with a comma.
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 
