@@ -13,7 +13,7 @@ ms.collection:
 description: "Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article summarizes what affected customers should know and do to plan for their business continuity."
 ---
 
-# Exchange Unified Messaging Online migration support
+# Exchange Unified Messaging Online migration support 
 
 In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-support-for-unified-messaging-in-exchange-online/) on February 8, 2019, Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity. 
  
