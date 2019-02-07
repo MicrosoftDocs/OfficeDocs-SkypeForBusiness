@@ -1,0 +1,154 @@
+---
+title: Manage app setup policies in Microsoft Teams
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.date: 1/10/2019
+ms.reviewer: chhavib
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+ms.audience: Admin
+appliesto: 
+- Microsoft Teams
+localization_priority: Normal
+search.appverid: MET150
+f1keywords: ms.teamsadmincenter.apppolicies.setup
+description: Learn about app setup policies in Microsoft Teams and how to use them to pin apps to customize Teams for users in your organization. 
+---
+
+# Manage app setup policies in Microsoft Teams
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
+
+As an admin, you can use app setup policies to customize Microsoft Teams to highlight the apps that are most important for your users. You choose the apps to pin and set the order that they appear. App setup policies let you showcase your line-of-business apps and other apps that users in your organization need.
+
+Apps are pinned to the app bar. This is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android). 
+
+|Teams desktop client  |Teams mobile client |
+|---------|---------|
+|![app-setup-policies-desktop-app-bar.png](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![app-setup-policies-mobile-app-bar.png](media/app-setup-policies-mobile-app-bar.png)      |
+
+You manage app setup policies in the Microsoft Teams & Skype for Business Admin Center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
+
+You can edit the settings in the global policy to include the apps that you want. If you want to customize Teams for different groups of users in your organization, create and assign one or more custom policies.
+
+![app-setup-policies.png](media/app-setup-policies.png)
+
+> [!NOTE]
+> If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user.
+
+## Create a custom app setup policy
+
+You can use the Microsoft Teams & Skype for Business Admin Center or Windows PowerShell to create a custom policy.
+
+1. In the left navigation of the Microsoft Teams & Skype for Business Admin Center, go to **Teams app** > **App setup policies**.
+2. Select **New policy**.
+3. Enter a descriptive name for the policy, and then click **Add apps**.
+
+    ![app-setup-policies-new-policy.png](media/app-setup-policies-new-policy.png)
+
+4. In the **Add pinned apps** pane, search for the apps you want to add, and then click **Add**.  To see a list of all    apps, select **Teams app store**. When you've chosen your list of apps, click **Add**.
+
+     ![app-setup-policies-add-apps.png](media/app-setup-policies-add-apps.png)
+
+5. Arrange the apps in the order that you want them to appear in Teams, and then click **Save**.
+
+    ![app-setup-policies-new-policy-setup.png](media/app-setup-policies-new-policy-setup.png)
+
+## Edit an app setup policy
+
+You can use the Microsoft Teams & Skype for Business Admin Center or Windows PowerShell to edit a policy, including the global (Org-wide default) policy and custom policies that you create. 
+
+1. In the left navigation of the Microsoft Teams & Skype for Business Admin Center, go to **Teams app** > **App setup policies**.
+2. Select the policy you want to edit. 
+3. From here, make the changes that you want. You can add, remove, and change the order of apps.
+4. Click **Save**. 
+
+## Assign a custom app setup policy to users
+
+You can use the Microsoft Teams & Skype for Business Admin Center to assign a custom policy to individual users or Windows PowerShell to assign a custom policy to groups of users, such as a security group or distribution group.
+
+### Assign a custom app setup policy to individual users
+
+1. In the left navigation of the Microsoft Teams & Skype for Business Admin Center, go to **Users**, and then click       the user.
+2. Next to **Assigned policies**, choose **Edit**.
+3. Under **Teams App Setup policy**, select the app setup policy you want to assign, and then choose **Save**.
+
+    ![app-setup-policies-assign-policy.png](media/app-setup-policies-assign-policy.png)
+
+### Assign a custom app setup policy to users in a group
+
+You may want to assign a custom app setup policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
+
+In this example, we assign a custom app setup policy called HR App Setup Policy to all users in the Contoso Pharmaceuticals HR Project group.  
+
+> [!NOTE]
+> Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+
+Get the GroupObjectId of the particular group.
+```
+$group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
+```
+Get the members of the specified group.
+```
+$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
+```
+Assign all users in the group to a particular app setup policy. In this example, it's HR App Setup Policy.
+```
+$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.EmailAddress}
+``` 
+Depending on the number of members in the group, this command may take several minutes to execute.
+
+## FAQ
+
+### Working with app setup policies
+
+#### What built-in app setup policies are included in the Microsoft Teams & Skype for Business Admin Center?
+
+- **Global (Org-wide default)**: This default policy applies to all users in your organization unless you assign another policy. Edit the global policy to pin apps that are most important for your users. 
+- **FirstLineWorker**: This policy is for firstline workers. You can assign it to firstline workers in your organization. It's important to know that like custom policies that you create, you have to assign the policy to users for the settings to be active. For more information, see [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users).
+
+#### Why can't I find an app in the Add pinned apps pane?
+
+Not all apps can be pinned to Teams through an app setup policy. Some apps may not support this functionality. To find apps that can be pinned, search for the app in the **Add pinned apps** pane. Tabs that have a personal scope (static tabs) and bots can be pinned to the Teams desktop client and these apps are available in the **Add pinned apps** pane.
+
+Keep in mind that the Teams app store lists all Teams apps whereas the **Add pinned apps** pane includes only apps that can be pinned to Teams through a policy. 
+
+#### I'm a Teams for Education admin. What do I need to know about app setup policies in Teams for Education?
+
+The Calling app isn't available in Teams for Education. When you create a new custom app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users won't see the Calls app in Teams. 
+
+#### How many apps can be added to a policy?
+
+A minimum of two apps must be pinned to the Teams mobile clients (iOS and Android). If a policy has less than two apps, the mobile clients won't reflect the policy settings and instead will continue to use the existing configuration.
+
+#### How long does it take for policy changes to take effect?
+
+After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
+
+### User experience
+
+#### How can users see all their pinned apps in Teams?
+
+To view all apps that are pinned for a user, users may have to do the following depending on the number of installed apps and the size of their Teams client window.
+
+|Teams desktop client |Teams mobile client |
+|---------|---------|
+|In the app bar on the side of Teams, click **... More apps**.| In the app bar near the bottom of Teams, swipe up.|
+|![app-setup-policies-desktop-more-apps.png](media/app-setup-policies-desktop-more-apps.png)<br>   |![app-setup-policies-mobile-more-apps.png](media/app-setup-policies-mobile-more-apps.png)  
+
+#### What do I need to know about the Teams mobile experience?
+
+The Teams mobile clients (iOS and Android) don't support pinning personal tabs or bots. Depending on the apps set in the policy, apps pinned to the Teams desktop client might not be pinned to the Teams mobile clients. 
+
+With the Teams mobile clients, users will see core Teams apps such as Activity, Chat, Teams, and Calendar, and you can pin some first-party apps from Microsoft, such as Shifts and Planner.
+
+### Custom Teams apps
+
+#### My organization built a custom Teams app and published it through AppSource but the app icon isn't displayed as expected when the app is pinned to the app bar in Teams. How do I fix it? 
+
+Make sure that you follow the logo guidelines before you submit the app. To learn more, see [Checklist for Seller Dashboard submission](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
+
+ ## Related topics
+- [Publish an app to the Tenant Apps Catalog from the Teams client](tenant-apps-catalog-teams.md)
