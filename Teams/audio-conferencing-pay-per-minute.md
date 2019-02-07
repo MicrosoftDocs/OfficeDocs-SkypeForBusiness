@@ -23,7 +23,7 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
-description: "In addition to the standard Audio Conferencing per-user license, Volume and Licensing organizations can also choose a pay-per-minute offer to enable Audio Conferencing capabilities for their organizations."
+description: "In addition to the standard Audio Conferencing per-user license, organizations using Microsoft Volume Licensing can also choose a pay-per-minute offer to enable Audio Conferencing capabilities for their organizations."
 ---
 
 # Audio Conferencing pay-per-minute
