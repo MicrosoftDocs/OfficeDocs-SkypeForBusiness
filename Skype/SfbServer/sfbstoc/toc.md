@@ -71,7 +71,7 @@
 
 -->
 
-## [Hybrid solutions for Teams and Skype for Business](../../hybrid/sfbhybrid/plan-hybrid-connectivity.md)
+## [Hybrid solutions for Teams and Skype for Business](../../sfbhybrid/hybrid/plan-hybrid-connectivity.md)
 
 <!--
 ## Hybrid solutions for Teams and Skype for Business
