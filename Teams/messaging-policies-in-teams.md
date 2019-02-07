@@ -50,8 +50,7 @@ The available settings for the policy are described below:
 
 ::: zone target="docs"
 If you have created a custom Messaging policy, it will only be active for a user if that policy is assigned to a user.  To assign a custom policy to a user in the Teams Admin Center, click **Users** in the left navigation, select the user you want to assign the policy to, and then choose **Edit** under **Assigned Policies**.
-
+::: zone-end
 
 ### Related topics
 [Meeting policies in Teams](meeting-policies-in-teams.md)
-::: zone-end
