@@ -103,8 +103,6 @@
 -->
 
 
-
-
 ## [Plan your deployment](../plan-your-deployment/plan-your-deployment.md)
 ### [Topology Basics](../plan-your-deployment/topology-basics/topology-basics.md)
 #### [Reference topologies](../plan-your-deployment/topology-basics/reference-topologies.md)
