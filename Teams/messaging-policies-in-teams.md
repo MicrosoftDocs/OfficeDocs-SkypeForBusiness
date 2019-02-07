@@ -27,7 +27,6 @@ Policies can be easily managed in the Teams Admin Center (http://admin.teams.mic
 ![Messaging Policies in Teams](media/messaging-policies.png)
 ::: zone-end
 
-::: zone target="chromeless"
 The available settings for the policy are described below: 
 
 - **Owners can delete sent messages**  Use this setting to let owners delete messages that users send in chat.
@@ -46,7 +45,6 @@ The available settings for the policy are described below:
 - **Use Stickers in conversations** If you turn this on, users can include Stickers in chat conversations with other people.
 - **Allow URL previews** Use this setting to turn automatic URL previewing on or off in messages.
 - **Allow users to translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Office 365.
-::: zone-end
 
 ::: zone target="docs"
 If you have created a custom Messaging policy, it will only be active for a user if that policy is assigned to a user.  To assign a custom policy to a user in the Teams Admin Center, click **Users** in the left navigation, select the user you want to assign the policy to, and then choose **Edit** under **Assigned Policies**.
