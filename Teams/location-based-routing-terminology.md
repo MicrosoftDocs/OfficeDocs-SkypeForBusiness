@@ -15,7 +15,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Location-Based Routing terminology 
+# Location-Based Routing terminology
+
+> [!INCLUDE [Preview customer token](../includes/preview-feature.md)] 
 
 Here are some terms and concepts that are used throughout the Location-Based Routing documentation. It's a good idea to be familiar with these terms and concepts before you get deeper into the documentation.
 

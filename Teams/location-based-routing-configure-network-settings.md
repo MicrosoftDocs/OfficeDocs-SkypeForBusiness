@@ -15,7 +15,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Configure network settings for Location-Based Routing 
+# Configure network settings for Location-Based Routing
+
+> [!INCLUDE [Preview customer token](../includes/preview-feature.md)] 
 
 If you haven't already done so, read [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) to review other steps you'll need to take before you deploy network settings for Location-Based Routing.
 

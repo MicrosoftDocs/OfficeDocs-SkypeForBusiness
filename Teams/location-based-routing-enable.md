@@ -17,6 +17,8 @@ appliesto:
 
 # Enable Location-Based Routing for Direct Routing
 
+> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
+
 Before you follow the steps in this article, make sure you've read [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) and completed the steps in [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md).
 
 This article describes how to enable Location-Based Routing for Direct Routing. After you deploy Phone System Direct Routing and set up network regions, sites, and subnets, you're ready to enable Location-Based Routing. To complete the steps in this article, you'll need some familiarity with PowerShell cmdlets. To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).
