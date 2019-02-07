@@ -19,7 +19,7 @@ description: "Learn about Messaging policies and how they can be used to control
 ---
 
 # What are Messaging policies in Teams?
-
+::: zone target="docs"
 Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams. You can use the default policy that is created or create one or more custom messaging policies for people in your organization. After you create a policy, you will assign it a user or groups of users in your organization.
 
 Policies can be easily managed in the Teams Admin Center (http://admin.teams.microsoft.com) by logging in with administrator credentials and clicking **Messaging Policies** in the left navigation. To edit the existing default policy for your organization, select the **Global (Org-wide default)** row and click **Edit**. To create a new messaging policy, click **New policy**.
@@ -54,3 +54,4 @@ If you have created a custom Messaging policy, it will only be active for a user
 
 ### Related topics
 [Meeting policies in Teams](meeting-policies-in-teams.md)
+:: zone-end
