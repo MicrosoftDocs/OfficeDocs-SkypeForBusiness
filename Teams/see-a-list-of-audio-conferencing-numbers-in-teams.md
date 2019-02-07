@@ -40,7 +40,7 @@ You can see [Set the phone numbers included on invites](set-the-phone-numbers-in
 
 ## To view your audio conferencing phone numbers
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, go to **Meetings** > **Conference bridges**. 
 2. View the phone numbers that are available for audio conferencing.

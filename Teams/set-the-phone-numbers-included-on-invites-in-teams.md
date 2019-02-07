@@ -44,15 +44,15 @@ Once the user is enabled for the Audio Conferencing service, the default toll an
 
 ## Set or change the default audio conferencing phone number for a meeting organizer or user
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams and Skype for Business Admin Center
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
-    ![Shows selecting users in the Microsoft Teams and Skype for Business Admin Center](media/teamsselectusers.png)
+    ![Shows selecting users in the Microsoft Teams admin center](media/teamsselectusers.png)
 
 2. At the top of the page, click **Edit**.
 
-    ![Click Edit in the Microsoft Teams and Skype for Business Admin Center](media/teamsedituser.png)
+    ![Click Edit in the Microsoft Teams admin center](media/teamsedituser.png)
 
 3. Next to **Audio Conferencing**, click **Edit**. 
     

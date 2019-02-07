@@ -38,9 +38,9 @@ To customize and extend Teams, add third-party apps through [apps, bots, & conne
 
 ## Managing Teams
 
-As the admin, you'll manage Teams through the Microsoft Teams & Skype for Business admin center. To learn more:
-- [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
-- [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
+As the admin, you'll manage Teams through the Microsoft Teams admin center. To learn more:
+- [Manage Teams in the Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
+- [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-in-modern-portal.md)
 
 
 To stay on top of what’s coming for Teams and all other Office 365 products and services in your organization, be sure to check [Message center](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) and the [Teams roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). You’ll get announcements about new and updated features, planned changes, and issues to help keep you informed and prepared. 

@@ -44,9 +44,9 @@ If you want to learn more about auto attendants, see [What are Phone System auto
   
 ## Step 2 - Create a new auto attendant
 
- **Using the Microsoft Teams & Skype for Business Admin Center**
+ **Using the Microsoft Teams admin center**
 
-In the **Microsoft Teams & Skype for Business Admin Center**, click ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Legacy Portal** >  **Call routing** > **Auto attendants**, then click **+ Add new**:
+In the **Microsoft Teams admin center**, click ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Legacy Portal** >  **Call routing** > **Auto attendants**, then click **+ Add new**:
 
 ### Edit general info page
 

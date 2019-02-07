@@ -31,7 +31,7 @@ After you have enabled Microsoft Teams users in your organization for Audio Conf
   
 ## Viewing a list of users
 
-- In the Microsoft Teams & Skype for Business Admin Center, in the left navigation, click **Users**.
+- In the Microsoft Teams admin center, in the left navigation, click **Users**.
 
 
 ## What else should I know?

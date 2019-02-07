@@ -1,7 +1,7 @@
 ---
 title: Implement QoS and Monitor Call Analytics in Microsoft Teams
 author: jambirk
-ms.author: MyAdvisor
+ms.author: jambirk
 manager: Serdars
 ms.topic: article
 ms.service: msteams
@@ -32,7 +32,7 @@ Call Quality Dashboard (CQD) is designed to help admins and network engineers op
 
 ## Related Topics
 
-[Implement QoS for Microsoft Teams](monitor-call-quality-qos.md)
+[Video:	Call Quality Overview](https://aka.ms/teams-quality)
 
 [Set up Call Analytics](set-up-call-analytics.md)
 

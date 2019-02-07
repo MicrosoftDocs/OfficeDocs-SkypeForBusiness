@@ -42,11 +42,11 @@ You can learn more about how address book policies can be used [here](https://do
 
 2.  Sign in to the Microsoft 365 admin center, select **Admin centers**, and then select **Teams & Skype**.
  
-3.	In the Microsoft Teams & Skype for Business admin center, select **Org-wide settings** > **Teams settings**.
+3.	In the Microsoft Teams admin center, select **Org-wide settings** > **Teams settings**.
 
 4.	Under **Search**, next to **Scope directory search in Teams using an Exchange address book policy (APB)**, turn the toggle **On**. 
 
-    ![Scoped directory search in Teams & Skype for Business admin center](media/teams-scoped-directory-search-image1.png)
+    ![Scoped directory search in Microsoft Teams admin center](media/teams-scoped-directory-search-image1.png)
 
 > [!NOTE]
 > Hybrid configurations (Teams with Exchange on-premises) do not support scoped search mode. 
