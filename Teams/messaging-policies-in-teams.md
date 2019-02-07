@@ -29,6 +29,8 @@ Policies can be easily managed in the Teams Admin Center (http://admin.teams.mic
 
 ::: zone-end
 
+::: zone target="chromeless"
+
 The available settings for the policy are described below: 
 
 - **Owners can delete sent messages**  Use this setting to let owners delete messages that users send in chat.
@@ -47,6 +49,8 @@ The available settings for the policy are described below:
 - **Use Stickers in conversations** If you turn this on, users can include Stickers in chat conversations with other people.
 - **Allow URL previews** Use this setting to turn automatic URL previewing on or off in messages.
 - **Allow users to translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Office 365.
+
+::: zone-end
 
 ::: zone target="docs"
 
