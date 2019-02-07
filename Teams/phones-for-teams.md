@@ -21,12 +21,11 @@ description: "This article covers the list of phones that are certified for Micr
 Microsoft Teams supports a portfolio of desk phones for users who require a traditional phone experience. This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams. To get the latest and up-to-date information on Teams certified devices, go to [Teams Marketplace](http://office.com/teamsdevices).
 
 ## Teams certified IP phones
-To deliver a high-quality and reliable Microsoft Teams experience on phones, we are partnering and actively working with Yealink, Crestron, Polycom, and Audiocodes to develop and certify a wide portfolio of desk phones and conference room audio devices.
+To deliver a high-quality and reliable Microsoft Teams experience on phones, we are partnering and actively working with Yealink, Crestron, Polycom, and Audiocodes to develop and certify a wide portfolio of desk phones and conference room audio devices. See [IP Phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) for current supported devices.
 
 ## Microsoft Teams phones feature set
 
 A high-level set of features supported in Teams certified IP phones is available in the following table.
-
 
 |Features |Desk Phone (Personal Mode) |Conference Room Phone (Shared Mode)|
 |---------|---------|---------|
@@ -120,6 +119,26 @@ The Teams phone user can choose to sign out by selecting the **Sign Out** option
 
 ![Signing out of Teams](media/teams-sign-out.png)
 
+# Finding the Firmware version on a mobile device
+
+The minimum firmware version can be checked on the Teams sign-in page by choosing the **Settings** icon in the top-right corner and then clicking **About**.
+
+**Teams sign-in page**
+
+![The Teams sign-in page](media/teams-sign-in-page.jpg)
+
+**Settings page**
+
+![The Teams Settings page](media/teams-settings-page.jpg)
+
+## Required Licenses
+
+Microsoft Teams licenses can be purchased as part of their [Office 365 subscriptions](Office-365-licensing.md). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/en-us/microsoft-teams/voice-calling).
+
+For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+
 ## See also
 
-[Buying and deploying Microsoft Teams IP phones](buying-and-deploying-teams-ip-phones.md)
+[Teams Marketplace](http://office.com/teamsdevices)
+
+[IP Phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
