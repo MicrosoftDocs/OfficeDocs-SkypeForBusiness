@@ -135,32 +135,24 @@
 ### [Audio Conferencing Complimentary Dial Out Period](complimentary-dial-out-period.md)
 
 
-### [Set up Audio conferencing for Skype for Business and Microsoft Teams](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json))
-
-### Manage your audio conferencing bridge
-
-
-
-#### [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
-#### [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
-#### [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
-
+### [Set up Audio conferencing for Skype for Business and Microsoft Teams](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ### [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-
+### Manage your audio conferencing bridge
+#### [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+#### [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
+#### [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+#### [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
 
 ### [Manage the Audio Conferencing settings for your organization](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
-
-
 #### [Audio Conferencing pay-per-minute](audio-conferencing-pay-per-minute.md)
-
 
 
 ### [Manage the Audio Conferencing settings for users](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 #### [See a list of users that are enabled for Audio Conferencing](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
-#### [See a list of Audio Conferencing numbers](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+
 #### [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md)
 #### [Reset the Audio Conferencing PIN for a user](reset-the-audio-conferencing-pin-in-teams.md)
@@ -174,7 +166,7 @@
 ### Manage meetings settings for audio conferencing
 
 #### [Dialing out from a meeting so other people can join it](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
-### [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+#### [Turn on or off entry and exit announcements for meetings](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 #### [Set the PIN length for Audio Conferencing meetings](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)
 #### [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md)
 #### [Start an Audio Conference over the phone without a PIN](start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md)
