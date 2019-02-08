@@ -78,7 +78,9 @@ Use these tutorials, videos, and other training resources to learn about Teams a
 
     
 </ul>
+
 ---
+
 <h2>Skills Enablement</h2>
 Skills Enablement modules consist of a PowerPoint presentation and one or multiple videos each. They are centered about a particular IT Pro topic. Use the content for:
 
@@ -96,6 +98,7 @@ Skills Enablement modules consist of a PowerPoint presentation and one or multip
 | Meetings introduction | [Video](http://aka.ms/teams-meetings) | [Deck](http://aka.ms/teams-meetings-deck) |
 | Phone System introduction | [Video](http://aka.ms/teams-phone-system) | [Deck](http://aka.ms/teams-phone-system-deck) |
 | Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](htt://aka.ms/teams-upgrade-deck)|
+
 ---
 
 <h2>Other training</h2>
