@@ -9,7 +9,7 @@ ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 search.appverid: MET150
-description: Training videos, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
+description: Training videos, PowerPoint decks, tutorials, and other resources for admins on how to plan, deploy, and run Microsoft Teams.
 ms.topic: landing-page
 appliesto: 
 - Microsoft Teams
@@ -39,24 +39,6 @@ Use these tutorials, videos, and other training resources to learn about Teams a
         </a>
     </li>
    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/tutorial-journey-skypeforbusiness-to-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Take a tutorial on the upgrade journey from Skype for Business to Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-   <li>
         <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
         <div class="cardSize">
             <div class="cardPadding">
@@ -68,24 +50,6 @@ Use these tutorials, videos, and other training resources to learn about Teams a
                     </div>
                     <div class="cardText">
                         <h3>Get training for your users</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
- <li>
-        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Check out the Teams channel on YouTube</h3>
                     </div>
                 </div>
             </div>
@@ -142,10 +106,6 @@ Skills Enablement modules consist of a PowerPoint presentation and one or multip
                 <div class="card">
                     <div class="cardText">
                         <h3>Journey from Skype for Business to Teams</h3>
-                         <p><a href="https://aka.ms/teams-upgrade-intro">Video: Introduction to Upgrade</a></p>
-                        <p><a href="https://aka.ms/teams-upgrade-plan">Video: Plan your upgrade</a></p>
-                        <p><a href="https://aka.ms/teams-upgrade-coexistence-interop">Video: Coexistence and Interoperability</a></p>
-                        <p><a href="https://aka.ms/teams-upgrade-admin">Video: Administrator experience</a></p>
                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Journey from Skype for Business to Teams</a></p>
                     </div>
                 </div>
@@ -170,21 +130,8 @@ Skills Enablement modules consist of a PowerPoint presentation and one or multip
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Architecture</h3>
-                        <p><a href="http://aka.ms/teams-foundations">Video: Foundations - Core components of Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
                         <h3>Plan & deploy</h3>
                          <p><a href="deploy-chat-teams-channels-microsoft-teams-landing-page.md">Deploy chat, teams, channels, and apps in Microsoft Teams</a></p>
-                         <p><a href="http://aka.ms/teams-clients">Video: Teams Windows desktop client</a></p>
-                         <p><a href="http://aka.ms/teams-governance">Video: Governance, management and lifecycle in Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -206,18 +153,6 @@ Skills Enablement modules consist of a PowerPoint presentation and one or multip
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Networking & Call Quality</h3>
-                         <p><a href="https://aka.ms/teams-quality">Video: Call Quality Overview</a></p>
-                         <p><a href="https://aka.ms/teams-networking">Video: Network Planning</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
                         <h3>Security & compliance</h3>
                        <p><a href="https://www.youtube.com/watch?v=OF65_p_07cE">Video: Understanding e-Discovery in Teams</a></p>
                     </div>
@@ -232,7 +167,6 @@ Skills Enablement modules consist of a PowerPoint presentation and one or multip
                     <div class="cardText">
                         <h3>Meetings</h3>
                         <p><a href="tutorial-meetings-in-teams.yml">Tutorial: Meetings in Teams</a></p>
-                        <p><a href="https://aka.ms/teams-meetings-intro">Video: Introduction to Meetings in Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -258,9 +192,6 @@ Skills Enablement modules consist of a PowerPoint presentation and one or multip
                     <div class="cardText">
                         <h3>Audio Conferencing</h3>
                          <p><a href="tutorial-audio-conferencing.yml">Tutorial: Audio Conferencing in Teams</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=AGPvaW4Vg0o">Video: Introduction to Audio Conferencing</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=AWbuvcWcYIc">Video: Plan for Audio Conferencing</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=5k0C21KAsns">Video: Number porting for Audio Conferencing</a></p>
                     </div>
                 </div>
             </div>
@@ -271,20 +202,8 @@ Skills Enablement modules consist of a PowerPoint presentation and one or multip
                 <div class="card">
                     <div class="cardText">
                         <h3>Phone System</h3>
-                         <p><a href="https://aka.ms/teams-phone-system">Video: Introduction to Phone System in Microsoft Teams</a></p>
                          <p><a href="configuring-teams-calling-quickstartguide.md">Quick start: Configuring Calling Plans in Teams</a></p>
                          <p><a href="tutorial-calling-in-teams.yml">Tutorial: Understand calling in Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Direct Routing</h3>
-                        <p><a href="https://aka.ms/teams-direct-routing">Video: Direct Routing in Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>
