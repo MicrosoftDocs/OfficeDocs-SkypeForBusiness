@@ -77,10 +77,8 @@ Use these tutorials, videos, and other training resources to learn about Teams a
 </ul>
 
 
----
-
-<h2>Skills Enablement</h2>
-Skills Enablement modules consist of a PowerPoint presentation and one or multiple videos each. They are centered about a particular IT Pro topic. Use the content for:
+<h2>IT Pro trainings</h2>
+Each of the IT Pro trainings below consist of a PowerPoint presentation and one or multiple videos each. They are centered about a particular IT Pro topic. Use the content for:
 
 - Watch the video to educate yourself
 - Use the PowerPoint to train others
@@ -98,119 +96,20 @@ Skills Enablement modules consist of a PowerPoint presentation and one or multip
 | Direct Routing | [Video](http://aka.ms/teams-direct-routing) | [Deck](http://aka.ms/teams-direct-routing-deck) |
 | Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](htt://aka.ms/teams-upgrade-deck)|
 
----
+<h2>EdX courses</h2>
 
-<h2>Other training</h2>
-<ul class="panelContent cardsW">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Journey from Skype for Business to Teams</h3>
-                        <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Journey from Skype for Business to Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Teamwork</h3>
-                         <p><a href="https://aka.ms/edx-cld267x-about">Course: Enabling Teamwork with Microsoft Teams</a></p>
-                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Video: Get your team up and running</a></p>
-                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Video: Go-to guide for team owners</a></p>
-                         <p><a href="create-an-org-wide-team.md">Article: Create an org-wide team in Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Plan & deploy</h3>
-                         <p><a href="deploy-chat-teams-channels-microsoft-teams-landing-page.md">Deploy chat, teams, channels, and apps in Microsoft Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li> <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Teams for Education</h3>
-                        <p><a href="teams-quick-start-edu.yml">Quick start: Teams for Education admins</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-<li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Security & compliance</h3>
-                       <p><a href="https://www.youtube.com/watch?v=OF65_p_07cE">Video: Understanding e-Discovery in Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-        <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Meetings</h3>
-                        <p><a href="tutorial-meetings-in-teams.yml">Tutorial: Meetings in Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Apps & tools</h3>
-                        <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Video: Add tools with tabs</a></p>
-                        <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Video: Use the command box</a></p>
-                        <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">Video: Command bar overview</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-<li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Audio Conferencing</h3>
-                         <p><a href="tutorial-audio-conferencing.yml">Tutorial: Audio Conferencing in Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Phone System</h3>
-                         <p><a href="configuring-teams-calling-quickstartguide.md">Quick start: Configuring Calling Plans in Teams</a></p>
-                         <p><a href="tutorial-calling-in-teams.yml">Tutorial: Understand calling in Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-      </ul>
+- [Enabling Teamwork with Microsoft Teams](https://aka.ms/edx-cld267x-about)
+- [Microsoft Service Adoption Specialist](https://aka.ms/AdoptionCert)
 
 
+<h2>Tutorials</h2>
+
+- [Tutorial: Journey from Skype for Business to Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
+- [Tutorial: Meetings in Teams](tutorial-meetings-in-teams.yml)
+- [Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)
+- [Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)
+
+<h2>Quick Start guides</h2>
+
+- [Teams for Education admins](teams-quick-start-edu.yml)
+- [Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)
