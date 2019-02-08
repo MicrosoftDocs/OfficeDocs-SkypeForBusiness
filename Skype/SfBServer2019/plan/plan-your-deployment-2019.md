@@ -3,7 +3,7 @@ title: "Plan for your Skype for Business Server 2019 deployment"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/05/2018
+ms.date: 2/8/2019
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
