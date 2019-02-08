@@ -38,25 +38,7 @@ Use these tutorials, videos, and other training resources to learn about Teams a
         </div>
         </a>
     </li>
-   <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Get training for your users</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
- <li>
+    <li>
         <a href="https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos">
         <div class="cardSize">
             <div class="cardPadding">
@@ -74,10 +56,26 @@ Use these tutorials, videos, and other training resources to learn about Teams a
         </div>
         </a>
     </li>
+    <li>
+        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Get training for your users</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
 </ul>
 
-    
-</ul>
 
 ---
 
