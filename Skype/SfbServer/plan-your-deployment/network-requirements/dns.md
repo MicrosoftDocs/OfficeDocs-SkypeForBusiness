@@ -118,7 +118,7 @@ Split brain DNS is a DNS configuration where you have two DNS zones with the sam
 ## Hybrid considerations
 <a name="BK_Hybrid"> </a>
 
-If you plan to have some users homed online and some homed on premises, refer to the Hybrid connectivity planning article [Skype for Business server 2019](../../../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md). You will need to configure DNS as normal for Skype for Business Server 2015 and also add additional DNS records.
+If you plan to have some users homed online and some homed on premises, refer to the Hybrid connectivity planning article [Skype for Business server 2019](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md). You will need to configure DNS as normal for Skype for Business Server 2015 and also add additional DNS records.
 
 You should also refer to "Office 365 URLs and IP address ranges" at [https://aka.ms/o365ips](https://aka.ms/o365ips) to confirm that your users will have access to the online resources they will need.
 
