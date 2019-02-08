@@ -17,7 +17,7 @@ appliesto:
 # Admin training for Microsoft Teams
 
 
-Use these tutorials, videos, and other training resources to learn about Teams and drive usage in your organization. Check back here often for new content. 
+Use the training resources to educate yourself about Teams, teach others or run workshops. Check back here often for new content. 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -78,11 +78,6 @@ Use these tutorials, videos, and other training resources to learn about Teams a
 
 
 <h2>IT Pro trainings</h2>
-Each of the IT Pro trainings below consist of a PowerPoint presentation and one or multiple videos each. They are centered about a particular IT Pro topic. Use the content for:
-
-- Watch the video to educate yourself
-- Use the PowerPoint to train others
-- Use the PowerPoints to run workshops
 
 | Module | Video | PowerPoint deck |
 | ------------ | -------------------- | -------------------- |
