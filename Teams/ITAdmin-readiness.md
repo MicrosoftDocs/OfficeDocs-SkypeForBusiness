@@ -106,5 +106,5 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <h2>Quick Start guides</h2>
 
-- [Teams for Education admins](teams-quick-start-edu.yml)
+- [Quick start: Teams for Education admins](teams-quick-start-edu.yml)
 - [Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)
