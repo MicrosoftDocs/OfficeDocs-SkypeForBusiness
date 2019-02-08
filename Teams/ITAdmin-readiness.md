@@ -77,7 +77,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 </ul>
 
 
-<h2>IT Pro trainings</h2>
+<h2>Videos with PowerPoints</h2>
 
 | Module | Video | PowerPoint deck |
 | ------------ | -------------------- | -------------------- |
