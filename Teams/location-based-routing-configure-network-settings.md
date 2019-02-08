@@ -15,7 +15,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Configure network settings for Location-Based Routing 
+# Configure network settings for Location-Based Routing
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
 If you haven't already done so, read [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) to review other steps you'll need to take before you deploy network settings for Location-Based Routing.
 
@@ -54,7 +56,7 @@ The following table shows the network sites defined in this example.
 
 ## Define network subnets
 
-Use the ``New-Cs-TenantNetworkSubnet`` cmdlet to define network subnets and associate them to network sites. Each internal subnet can only be associated with one site. 
+Use the ``New-CsTenantNetworkSubnet`` cmdlet to define network subnets and associate them to network sites. Each internal subnet can only be associated with one site. 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
@@ -84,7 +86,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 ## Define external subnets
-Use the ``New-Cs-TenantTrustedIPAddress`` cmdlet to define external subnets and assign them to the tenant. You can define an unlimited number of subnets for a tenant. 
+Use the ``New-CsTenantTrustedIPAddress`` cmdlet to define external subnets and assign them to the tenant. You can define an unlimited number of subnets for a tenant. 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <Subnet IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
