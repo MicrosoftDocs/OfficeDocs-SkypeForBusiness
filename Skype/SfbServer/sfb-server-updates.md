@@ -20,11 +20,17 @@ Find and manage updates for [Skype for Business Server 2015](#skype-for-business
 For the latest Skype for Business Online and Office 365 updates, see the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## Skype for Business Server 2015 update history
-[KB 3061064](https://support.microsoft.com/kb/3061064) contains the list of all the Cumulative Updates that has been released. The date indicates the last release date. 
+
+[KB 3061064](https://support.microsoft.com/kb/3061064) contains the list of all the Cumulative Updates that has been released. The date indicates the last release date.
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
 |Updates for Skype for Business Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064) |January 2019  |
+|Cumulative update for Skype for Business Server 2015, Front End Server and Edge Server|[KB 4464355](https://support.microsoft.com/kb/4464355)|January 2019|
+|Cumulative update for Skype for Business Server 2015, Front End Server and Edge Server|[KB 4340904](https://support.microsoft.com/kb/4340904)|July 2018|
+|Cumulative update for Skype for Business Server 2015, Front End Server and Edge Server|[KB 4086059](https://support.microsoft.com/kb/4086059)|March 2018 |
+|Cumulative update for Skype for Business Server 2015, Front End Server and Edge Server|[KB 4074701](https://support.microsoft.com/kb/4074701)|January 2018|
+|Cumulative update for Skype for Business Server 2015, Front End Server and Edge Server|[KB 4036312](https://support.microsoft.com/kb/4036312)|Dec 2017|
 |Cumulative update for Skype for Business Server, Enterprise Web App | [KB 4018462](https://support.microsoft.com/kb/4018462) |May 2017 |
 |Cumulative update for Skype for Business Server, Bandwidth Policy Service | [KB 4012658](https://support.microsoft.com/kb/4012658) |May 2017 |
 |Cumulative update for Skype for Business Server, Unified Communications Managed API 5.0 Runtime | [KB 4012657](https://support.microsoft.com/kb/4012657) |May 2017 |
