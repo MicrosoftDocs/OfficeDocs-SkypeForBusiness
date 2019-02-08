@@ -17,6 +17,8 @@ appliesto:
 
 # Plan Location-Based Routing for Direct Routing
 
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
+
 ## Overview of Location-Based Routing
 
 In some countries and regions, it's illegal to bypass the Public Switched Telephone Network (PSTN) provider to decrease long-distance calling costs. This article describes how to use Location-Based Routing to restrict toll bypass for Microsoft Teams users based on their geographic location. This article applies only to Phone System Direct Routing.
