@@ -84,7 +84,7 @@ When finished, click on **Save**.
 
 For implementations that are hybrid with Skype for Business Server:
 
-[Plan Cloud auto attendant](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant.md)
+[Plan Cloud auto attendant](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
 
 [Configure Cloud auto attendants](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant.md)
 
