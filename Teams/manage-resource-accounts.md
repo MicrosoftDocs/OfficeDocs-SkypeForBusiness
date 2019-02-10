@@ -90,7 +90,7 @@ For implementations that are hybrid with Skype for Business Server:
 
 For implementations in Teams or Skype for Business Online:
 
-[What are Phone System auto attendants?](what-are-phone-system-auto-attendants.md)
+[What are Phone System auto attendants?](what-are-phone-system-auto-attendants)
 
 [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
