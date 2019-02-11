@@ -4,7 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 layout: LandingPage
-ms.date: 7/10/2018
+ms.date: 2/11/2019
 ms.audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
