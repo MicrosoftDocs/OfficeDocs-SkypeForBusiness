@@ -67,9 +67,8 @@ The Teams device usage report provides you with information about how your users
 ### Interpret the Microsoft Teams device usage report
 
 You can get a view into Teams device usage by looking at the **Users** and **Distribution** charts.
-<br>
-ADD SCREEN SHOT OF device usage report with numbered callouts
-<br>
+
+![Screen shot of the Teams device usage report in the Office 365 admin center with numbered callouts.](media/teams-device-usage-report-with-callouts.png)
 
 |Callout |Description  |
 |--------|-------------|
