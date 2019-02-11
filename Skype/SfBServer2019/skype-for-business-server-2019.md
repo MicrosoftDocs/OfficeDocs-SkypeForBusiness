@@ -186,7 +186,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardText">
                         <h3>Hybrid solutions</h3>
-                        <p>[Plan hybrid connectivity](../sfbhybrid/hybrid/plan-hybrid-connectivity.md)<br> [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md)<br>[Plan Call Data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md)</p>
+                        <p>[Plan hybrid connectivity](../sfbhybrid/hybrid/plan-hybrid-connectivity.md)<br> [Plan Cloud Voicemail service](../sfbhybrid/hybrid/plan-cloud-voicemail.md)<br>[Plan Call Data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md)</p>
                     </div>
                 </div>
             </div>
