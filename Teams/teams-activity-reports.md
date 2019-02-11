@@ -58,7 +58,6 @@ You can get a view into Teams user activity by looking at the **Activity** and *
 |**8**   |Click or tap **Columns** to add or remove columns in the table. |
 |**9**   |Click or tap **Export** to export report data to an Excel .csv file. This exports data of all users and enables you to do simple sorting and filtering for further analysis. If you have less than 2,000 users, you can sort and filter within the table in the report itself. If you have more than 2,000 users, you will have to export the data to filter and sort the report. 
 
-
 ### Microsoft Teams device usage report
 
 The Teams device usage report provides you with information about how your users connect to Teams, including mobile apps. The report helps you understand which devices are popular in your organization and how many users work on the go.
