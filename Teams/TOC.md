@@ -69,7 +69,7 @@
 #### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
 #### [Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
-### [Teams activity report in the Office 365 admin center](teams-activity-reports.md)
+### [Teams activity reports in the Office 365 admin center](teams-activity-reports.md)
 
 
 ## Reference
