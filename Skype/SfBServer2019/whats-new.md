@@ -30,7 +30,7 @@ Cloud Voicemail enables all your Skype for Business 2019 users&#x2014;whether th
 - Access to voicemail in their Exchange mailbox by using the Skype for Business Online, Teams, or Outlook clients
 - Ability to use the web-based portal to manage their voicemail options
 
-See [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md) and [Plan for Skype for Business Server and Exchange Server migration](hybrid/plan-um-migration.md) for more information.
+See [Plan Cloud Voicemail service](../sfbhybrid/hybrid/plan-cloud-voicemail.md) and [Plan for Skype for Business Server and Exchange Server migration](../sfbhybrid/hybrid/plan-um-migration.md) for more information.
   
 ## Call monitoring: Call Data Connector
 
@@ -42,7 +42,7 @@ With Call Data Connector, you can perform the following tasks by using a single 
 - View and troubleshoot problems across your network
 - Assign helpdesk and administrator roles for Call Analytics, so that you can empower helpdesk workers to view and troubleshoot their areas of responsibility.
 
-See [Plan Call Data Connector](hybrid/plan-call-data-connector.md) for more information.
+See [Plan Call Data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md) for more information.
 
 ### See also
 
