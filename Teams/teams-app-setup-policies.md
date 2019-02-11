@@ -3,7 +3,7 @@ title: Manage app setup policies in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 1/10/2019
+ms.date: 2/11/2019
 ms.reviewer: larryjin
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -45,9 +45,6 @@ You can use the Microsoft Teams admin center or Windows PowerShell to create a c
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App setup policies**.
 2. Select **New policy**.
 3. Enter a descriptive name for the policy, and then click **Add apps**.
-
-    ![app-setup-policies-new-policy.png](media/app-setup-policies-new-policy.png)
-
 4. In the **Add pinned apps** pane, search for the apps you want to add, and then click **Add**.  To see a list of all    apps, select **Teams app store**. When you've chosen your list of apps, click **Add**.
 
      ![app-setup-policies-add-apps.png](media/app-setup-policies-add-apps.png)
@@ -142,7 +139,7 @@ To view all apps that are pinned for a user, users may have to do the following 
 
 The Teams mobile clients (iOS and Android) don't currently support personal apps. Depending on the apps set in the policy, apps pinned to the Teams desktop client might not appear in the Teams mobile clients. Personal bots will still appear in Chat on mobile clients. 
 
-With the Teams mobile clients, users will see core Teams apps such as Activity, Chat, Teams, and Calendar, and you can pin some first-party apps from Microsoft, such as Shifts and Planner.
+With the Teams mobile clients, users will see core Teams apps such as Activity, Chat, and Teams, and you can pin some first-party apps from Microsoft, such as Shifts and Planner.
 
 #### Can users change the order of apps pinned through a policy?
 
