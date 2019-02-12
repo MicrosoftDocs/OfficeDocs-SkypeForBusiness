@@ -206,7 +206,7 @@ The configuration required to bypass the proxy server varies among vendors, but 
 
 Some proxy server vendors provide an automated process for ensuring the configuration is up to date. If your vendor doesn’t provide this automatic process, you can download an updated PAC file from <https://aka.ms/o365proxies>.
 
-[Proxy Servers for Skype for Business Online and Teams](proxy-servers-for-skype-for-business-online.md)
+[Proxy Servers for Teams or Skype for Business Online and Teams](proxy-servers-for-skype-for-business-online.md)
 
 #### Firewalls
 
