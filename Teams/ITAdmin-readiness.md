@@ -31,7 +31,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started to roll out Teams</h3>
+                        <h3>Use our Quick start guide to get up and running fast with a couple of teams and channels</h3>
                     </div>
                 </div>
             </div>
