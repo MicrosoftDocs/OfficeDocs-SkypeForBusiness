@@ -77,7 +77,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 </ul>
 
 
-<h2>Technical trainings</h2>
+<h2>Technical training</h2>
 
 | Module | Video | PowerPoint deck |
 | ------------ | -------------------- | -------------------- |
@@ -91,7 +91,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Direct Routing | [Video](http://aka.ms/teams-direct-routing) | [Deck](http://aka.ms/teams-direct-routing-deck) |
 | Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](htt://aka.ms/teams-upgrade-deck)|
 
-<h2>Quick Start guides</h2>
+<h2>Quick start guides</h2>
 
 - [Quick start: Teams for Education admins](teams-quick-start-edu.yml)
 - [Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)
