@@ -61,6 +61,9 @@ We recommend that you take time to carefully review your [admin and security set
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Decide whether you’ll modify any of the default Microsoft 365 Government - GCC security settings, resolving to first understand the impact of any changes you might make.</li></ul> |
 
+> [!Note]
+> Once other workloads are fully available in the GCC cloud then they will become available in Teams. 
+
 ## Step 4. Understand which capabilities are currently unavailable or disabled by default. 
 
 To accommodate the requirements of our government cloud customers, there are some differences between Microsoft 365 Government - GCC and Enterprise plans. Refer to the following table to see which features are available.
