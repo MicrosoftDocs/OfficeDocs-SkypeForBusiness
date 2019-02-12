@@ -201,7 +201,9 @@ Create a trunk in the customer domain using the New-CSonlinePSTNGateway command.
 
 For example:
 
-*New-CSOnlinePSTNGateway – FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068*
+```
+New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
+```
 
 Provision users with the phone numbers and configure voice routing.
 
