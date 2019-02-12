@@ -99,9 +99,9 @@ Before you can create and set up your call queues, you will need to get or trans
   
 ## Step 3 - Create a new Call Queue
 
- **Using the Microsoft Teams & Skype for Business Admin Center**
+ **Using the Microsoft Teams admin center**
 
-In the **Microsoft Teams & Skype for Business Admin Center**, click ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Legacy Portal** >  **Call routing** > **Call queues**, then click **+ Add new**:
+In the **Microsoft Teams admin center**, click ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Legacy Portal** >  **Call routing** > **Call queues**, then click **+ Add new**:
   
 ### Set the call queue display name, phone number and domain (if any)
 

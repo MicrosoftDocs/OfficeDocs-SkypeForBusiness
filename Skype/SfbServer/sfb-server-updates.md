@@ -1,11 +1,10 @@
 ---
 title: "Skype for Business Server updates"
 ms.author: jambirk
-author: jambirk
+author: ariantor
 manager: serdars
-ms.date: 07/13/2018
 ms.audience: ITPro
-ms.reviewer: ariantor, arianr
+ms.reviewer: arianr
 ms.topic: reference
 ms.prod: skypeforbusiness-server-itpro
 localization_priority: Normal
@@ -21,83 +20,60 @@ Find and manage updates for [Skype for Business Server 2015](#skype-for-business
 For the latest Skype for Business Online and Office 365 updates, see the [Microsoft 365 Roadmap](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## Skype for Business Server 2015 update history
-[KB 3061064](https://support.microsoft.com/kb/3061064) contains the list of all the Cumulative Updates that has been released. The date indicates the last release date. 
+
+[KB 3061064](https://support.microsoft.com/kb/3061064) contains all Cumulative Updates that have been released. 
 
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
-|Updates for Skype for Business Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064) |January 2019  |
-|Cumulative update for Skype for Business Server, Enterprise Web App | [KB 4018462](https://support.microsoft.com/kb/4018462) |May 2017 |
-|Cumulative update for Skype for Business Server, Bandwidth Policy Service | [KB 4012658](https://support.microsoft.com/kb/4012658) |May 2017 |
-|Cumulative update for Skype for Business Server, Unified Communications Managed API 5.0 Runtime | [KB 4012657](https://support.microsoft.com/kb/4012657) |May 2017 |
-|Cumulative update for Skype for Business Server, Conferencing Announcement | [KB 4012656](https://support.microsoft.com/kb/4012656) |May 2017 |
-|Cumulative update for Skype for Business Server 2015, Response Group Service |[KB 4012655](https://support.microsoft.com/kb/4012655) |May 2017 |
-|Cumulative update for Skype for Business Server 2015, Conferencing Server |[KB 4012654](https://support.microsoft.com/kb/4012654) |May 2017 |
-|Cumulative update for Skype for Business Server 2015, Persistent Chat Server |[KB 4012653](https://support.microsoft.com/kb/4012653) |May 2017 |
-|Cumulative update for Skype for Business Server 2015, Web Components Server |[KB 4012622](https://support.microsoft.com/kb/4012622) |May 2017 |
-|Cumulative update for Skype for Business Server 2015, Front End server and Edge server |[KB 4012621](https://support.microsoft.com/kb/4012621) |May 2017 |
-|Cumulative update for Skype for Business Server 2015, core components |[KB 4012620](https://support.microsoft.com/kb/4012620) |May 2017 |
-|Cumulative update for Skype for Business Server 2015 and Unified Communications Managed API 5.0 Runtime |[KB 3199095](https://support.microsoft.com/kb/3199095) |November 2016 |
-|Cumulative update for Skype for Business Server 2015, Frontend server and Edge server |[KB 3199093](https://support.microsoft.com/kb/3199093) |November 2016 |
-|Cumulative update for Skype for Business Server 2015, Web Components Server |[KB 3199094](https://support.microsoft.com/kb/3199094) |November 2016 |
-|Cumulative update for Skype for Business Server 2015, Persistent Chat Server |[KB 3199097](https://support.microsoft.com/kb/3199097) |November 2016 |
-|Cumulative update for Skype for Business Server 2015, core components |[KB 3199088](https://support.microsoft.com/kb/3199088) |November 2016 |
-|Cumulative update for Skype for Business Server 2015, Conferencing Server |[KB 3199092](https://support.microsoft.com/kb/3199092) |November 2016 |
-|Cumulative update for Skype for Business Server 2015, Mediation Server |[KB 3199096](https://support.microsoft.com/kb/3199096) |November 2016 |
-|Cumulative update for Skype for Business Server 2015, Video Interop Server |[KB 3149235](https://support.microsoft.com/kb/3149235) |June 2016 |
-|Cumulative update for Skype for Business Server 2015, Mediation Server |[KB 3149234](https://support.microsoft.com/kb/3149234) |June 2016 |
-|Cumulative update for Skype for Business Server 2015, Conferencing Server |[KB 3149233](https://support.microsoft.com/kb/3149233) |June 2016 |
-|Cumulative update for Skype for Business Server 2015 and Unified Communications Managed API 5.0 Runtime |[KB 3149232](https://support.microsoft.com/kb/3149232) |June 2016 |
-|Cumulative update for Skype for Business Server 2015, performance counters |[KB 3149231](https://support.microsoft.com/kb/3149231) |June 2016 |
-|Cumulative update for Skype for Business Server 2015, Response Group Service |[KB 3149229](https://support.microsoft.com/kb/3149229) |June 2016 |
-|Cumulative update for Skype for Business Server 2015, Web Components Server |[KB 3149228](https://support.microsoft.com/kb/3149228) |June 2016 |
-|Cumulative update for Skype for Business Server 2015, Front End server and Edge server |[KB 3149227](https://support.microsoft.com/kb/3149227) |June 2016 |
-|Cumulative update for Skype for Business Server 2015, core components |[KB 3149226](https://support.microsoft.com/kb/3149226) |June 2016 |
-|Cumulative update for Skype for Business Server 2015, Busy Options |[KB 3137160](https://support.microsoft.com/kb/3137160) |June 2016 |
-|Cumulative update for Skype for Business Server 2015, performance counters |[KB 3134266](https://support.microsoft.com/kb/3134266) |March 2016 |
-|Cumulative update for Skype for Business Server 2015, Response Group Service |[KB 3134265](https://support.microsoft.com/kb/3134265) |March 2016 |
-|Cumulative update for Skype for Business Server 2015, Conferencing Attendant |[KB 3134264](https://support.microsoft.com/kb/3134264) |March 2016 |
-|Cumulative update for Skype for Business Server 2015, Web Components Server |[KB 3134262](https://support.microsoft.com/kb/3134262) |March 2016 |
-|Cumulative update for Skype for Business Server 2015, Front End server and Edge server |[KB 3134260](https://support.microsoft.com/kb/3134260) |March 2016 |
-|Cumulative update for Skype for Business Server 2015, core components |[KB 3134259](https://support.microsoft.com/kb/3134259) |March 2016 |
-|Cumulative update for Skype for Business Server 2015, Conferencing Server |[KB 3097708](https://support.microsoft.com/kb/3097708) |November 2015 |
-|Cumulative update for Skype for Business Server 2015, core components |[KB 3097644](https://support.microsoft.com/kb/3097644) |November 2015 |
-|Cumulative update for Skype for Business Server 2015, Web Components Server |[KB 3097642](https://support.microsoft.com/kb/3097642) |November 2015 |
-|Cumulative update for Skype for Business Server 2015 and Unified Communications Managed API 5.0 Runtime |[KB 3097649](https://support.microsoft.com/kb/3097649) |November 2015 |
-|Cumulative update for Skype for Business Server 2015, performance counters |[KB 3097648](https://support.microsoft.com/kb/3097648) |November 2015 |
-|Cumulative update for Skype for Business Server 2015, Enterprise Web App |[KB 3097647](https://support.microsoft.com/kb/3097647) |November 2015 |
-|Cumulative update for Skype for Business Server 2015, Conferencing Attendant |[KB 3097646](https://support.microsoft.com/kb/3097646) |November 2015 |
-|Cumulative update for Skype for Business Server 2015, Response Group Service |[KB 3097643](https://support.microsoft.com/kb/3097643) |November 2015 |
-|Cumulative update for Skype for Business Server 2015, Front End server and Edge server |[KB 3097645](https://support.microsoft.com/kb/3097645) |November 2015 |
-|Cumulative update for Skype for Business Server 2015, Group Call Pickup |[KB 3124205](https://support.microsoft.com/kb/3124205) |November 2015 |
+|Cumulative update 8 for Skype for Business Server 2015, Front End Server and Edge Server|[KB 4464355](https://support.microsoft.com/kb/4464355)|January 2019|
+|Cumulative update 7 for Skype for Business Server 2015, Front End server and Edge server |[KB 4340904](https://support.microsoft.com/kb/3134260) |July 2018 |
+|Cumulative update 6 Hotfix 2 for Skype for Business Server 2015, Front End server and Edge server |[KB 4086059](https://support.microsoft.com/kb/4086059) |March 2018 |
+|Cumulative update 6 Hotfix 1 for Skype for Business Server 2015, Front End server and Edge server |[KB 4074701](https://support.microsoft.com/kb/4074701)|January 2018 |
+|Cumulative update 6 for Skype for Business Server 2015, Front End server and Edge server|[KB 4036312](https://support.microsoft.com/kb/4036312) |December 2017 |
+|Cumulative update 5 for Skype for Business Server 2015, Front End server and Edge server  |[KB 4012621](https://support.microsoft.com/kb/4012621) |May 2017 |
+|Cumulative update 4 Hotfix 1 for Skype for Business Server 2015, Front End server and Edge server |[KB 3207506](https://support.microsoft.com/kb/3207506) |February 2017 |
+|Cumulative update 4 for Skype for Business Server 2015, Front End server and Edge server |[KB 3199093](https://support.microsoft.com/kb/3199093) |November 2017 |
+|Cumulative update 3 for Skype for Business Server 2015, Front End server and Edge server |[KB 3149227](https://support.microsoft.com/kb/3149227) |June 2016 |
+|Cumulative update 2 for Skype for Business Server 2015, Front End server and Edge server |[KB 3134260](https://support.microsoft.com/kb/3134260) |March 2016 |
+|Cumulative update 1 for Skype for Business Server 2015, Front End server and Edge server |[KB 3097645](https://support.microsoft.com/kb/3097645) |November 2015 |
+|Cumulative update for Skype for Business Server 2015, core components |[KB 3098601](https://support.microsoft.com/kb/3098601) |September 2015 |
+|Cumulative update for Skype for Business Server 2015, Front End server and Edge server|[KB 3061059](https://support.microsoft.com/kb/3061059) |June 2015 |
+||||
 
 * * *
 
 ## Lync Server 2013 update history
 
+[KB 2809243](http://support.microsoft.com/kb/2809243) contains all Cumulative Updates that have been released.
+
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
-|Lync Server 2013 Cumulative Update 9  |[KB 2809243](https://www.microsoft.com/en-us/download/details.aspx?id=36820) |July 2017 |
-|Lync Server 2013 Cumulative Update 8 Hotfix 4 |[KB 2809243](https://www.microsoft.com/en-us/download/details.aspx?id=36820) |July 2017 |
-|Lync Server 2013 Cumulative Update 8 Hotfix 1 |[KB 2809243](https://www.microsoft.com/en-us/download/details.aspx?id=36820) |July 2017 |
-|Cumulative update 5.0.8308.965 for Lync Server 2013, Front End Server and Edge Server |[KB 3175334](https://support.microsoft.com/kb/3175334)|August 2016 |
-|Cumulative update 5.0.8308.965 for Lync Server 2013, Conferencing Attendant |[KB 3175335](https://support.microsoft.com/kb/3175335)|August 2016 |
-|Cumulative update 5.0.8308.965 for Lync Server 2013, Response Group service |[KB 3175338](https://support.microsoft.com/kb/3175338)|August 2016 |
-|Cumulative update 5.0.8308.965 for Lync Server 2013, Unified Communications Managed API 5.0 Runtime |[KB 3175339](https://support.microsoft.com/en-us/help/3175339)|August 2016 |
-|Cumulative update 5.0.8308.956 for Lync Server 2013, Shared Line Appearance |[KB 3148257](https://support.microsoft.com/kb/3148257)|April 2016 |
-|Cumulative update 5.0.8308.956 for the Lync Server 2013, Mediation Server |[KB 3140586](https://support.microsoft.com/kb/3140586)|April 2016 |
-|Cumulative update 5.0.8308.956 for the Lync Server 2013, Response Group service |[KB 3140585](https://support.microsoft.com/kb/3140585)|April 2016 |
-|Cumulative update 5.0.8308.956 for Lync Server 2013, Conferencing Server |[KB 3140584](https://support.microsoft.com/kb/3140584)|April 2016 |
-|Cumulative update 5.0.8308.956 for Lync Server 2013, Front End Server and Edge Server |[KB 3140582](https://support.microsoft.com/kb/3140582)|April 2016 |
-|Cumulative update 5.0.8308.956 for Lync Server 2013, Core Components |[KB 3140581](https://support.microsoft.com/kb/3140581)|April 2016 |
-|Cumulative update 5.0.8308.945 for Lync Server 2013, Web Components Server |[KB 3126638](https://support.microsoft.com/kb/3126638)|January 2016 |
-|Cumulative update 5.0.8308.945 for Lync Server 2013, Core Components |[KB 3126637](https://support.microsoft.com/kb/3126637)|January 2016 |
-|Cumulative update 5.0.8308.941 for Lync Server 2013, Front End Server and Edge Server |[KB 3120728](https://support.microsoft.com/kb/3120728)|December 2015 |
-|Cumulative update 5.0.8308.933 for Lync Server 2013, Conferencing Server |[KB 3082047](https://support.microsoft.com/kb/3082047)|September 2015 |
-|Cumulative update 5.0.8308.933 for Lync Server 2013, Response Group service |[KB 3081743](https://support.microsoft.com/kb/3081743)|September 2015 |
-|Cumulative update 5.0.8308.933 for Lync Server 2013, Front End Server and Edge Server |[KB 3081740](https://support.microsoft.com/kb/3081740)|September 2015 |
-|Cumulative update 5.0.8308.933 for Lync Server 2013, Core Components |[KB 3081739](https://support.microsoft.com/kb/3081739)|September 2015 |
-|Cumulative update 5.0.8308.927 for Lync Server 2013, Core Components |[KB 3080356](https://support.microsoft.com/kb/3080356)|September 2015 |
-|Updates for Lync Server 2013 |[KB 2809243](https://support.microsoft.com/en-us/help/2809243)|July 2018 |
+|Lync Server 2013 Cumulative Update 10 Hotfix 1 |[KB 4458772](http://support.microsoft.com/kb/4458772)|January 2019|
+|Lync Server 2013 Cumulative Update 10 |[KB 4295703](http://support.microsoft.com/kb/4295703)|July 2018 |
+|Lync Server 2013 Cumulative Update 9  |[KB 4019183](hhttp://support.microsoft.com/kb/4019183) |July 2017 |
+|Lync Server 2013 Cumulative Update 8 Hotfix 4 |[KB 4014154](http://support.microsoft.com/kb/4014154) |March 2017 |
+|Lync Server 2013 Cumulative Update 8 Hotfix 3 |[KB 3210166](http://support.microsoft.com/kb/3210166) |January 2017 |
+|Lync Server 2013 Cumulative Update 8 Hotfix 2 |[KB 3212869](http://support.microsoft.com/kb/3212869) |December 2016 |
+|Lync Server 2013 Cumulative Update 8 Hotfix 1 |[KB 3200079](http://support.microsoft.com/kb/3200079) |November 2016 |
+|Lync Server 2013 Cumulative Update 8 |[KB 3175336](https://support.microsoft.com/kb/3175336)|August 2016 |
+|Lync Server 2013 Cumulative update 7  |[KB 3140581](https://support.microsoft.com/kb/3140581)|April 2016 |
+|Lync Server 2013 Cumulative Update 6 Hotfix 2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|January 2016 |
+|Lync Server 2013 Cumulative Update 6 Hotfix 1 |[KB 3121213](http://support.microsoft.com/kb/3121213)|December 2015 |
+|Lync Server 2013 Cumulative Update 6 |[KB 3081739](https://support.microsoft.com/kb/3081739)|September 2015 |
+|Lync Server 2013 Cumulative Update 5 Hotfix 10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|July 2015 |
+|Lync Server 2013 Cumulative Update 5 Hotfix 9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|May 2015 |
+|Lync Server 2013 Cumulative Update 5 Hotfix 8  |[KB 3031065](https://support.microsoft.com/kb/3031065)|February 2015 |
+|Lync Server 2013 Cumulative Update 5 Hotfix 7.1|[KB 3027553](https://support.microsoft.com/kb/3140582)|December 2014 |
+|Lync Server 2013 Cumulative Update 5 Hotfix 7 |[KB 3018232](https://support.microsoft.com/kb/3018232)|December 2014 |
+|Lync Server 2013 Cumulative Update 5 Hotfix 6 |[KB 3010028](https://support.microsoft.com/kb/3010028)|November 2014  |
+|Lync Server 2013 Cumulative Update 5 Hotfix 5|[KB 3003358](https://support.microsoft.com/kb/3003358)|October 2014 |
+| Lync Server 2013 Cumulative Update 5 Hotfix 2 |[KB 2987511](https://support.microsoft.com/kb/3120728)|Sept 2014 |
+| Lync Server 2013 Cumulative Update 5 |[KB 2937305](https://support.microsoft.com/kb/2937305)|August  2014 |
+|Lync Server 2013 Cumulative Update 4 |[KB 2905040](https://support.microsoft.com/kb/2905040)|January 2014 |
+|Lync Server 2013 Cumulative Update 3 |[KB 881682](https://support.microsoft.com/kb/881682)|October 2013 |
+|Lync Server 2013 Cumulative Update 2 |[KB 2835432](https://support.microsoft.com/kb/2835432)|July 2013 |
+|Lync Server 2013 Cumulative Update 1 |[KB 2781550](https://support.microsoft.com/kb/2781550)|February 2013 |
+||||
 
 ### Lync Server 2013 Dev tools
 
@@ -151,9 +127,28 @@ Package Name/Link|Release Date|
 
 ## Lync Server 2010 update history
 
+[KB 2493736](http://support.microsoft.com/kb/2493736) contains all Cumulative Updates that have been released.
+
 |Package Name|KB Number|Release Date|
 |:--- |:--- |:--- |
-|Lync Server 2010 |[KB 2493736](https://support.microsoft.com/kb/2493736) |February 2015 |
+|Lync Server 2010 Cumulative Update 18|[KB 2493736](https://support.microsoft.com/kb/2493736) |January 2019|
+|Lync Server 2010 Cumulative Update 17|[KB 3148801](https://support.microsoft.com/kb/3148801) |April 2016 |
+|Lync Server 2010 Cumulative Update 16|[KB 3057803](https://support.microsoft.com/kb/3057803) |May 2015 |
+|Lync Server 2010 Cumulative Update 15 |[KB 3030726](https://support.microsoft.com/kb/3030726) |February 2015|
+|Lync Server 2010 Cumulative Update 13|[KB 2982385](http://support.microsoft.com/kb/2982385) </br> [KB 2982388](http://support.microsoft.com/kb/2982388)|September 2014|
+|Lync Server 2010 Cumulative Update 12 |[KB 2957044](https://support.microsoft.com/kb/2957044) |April 2014 |
+|Lync Server 2010 Cumulative Update 11 |[KB 2909888](https://support.microsoft.com/kb/2909888) |January 2014|
+|Lync Server 2010 Cumulative Update 10 |[KB 2889610](https://support.microsoft.com/kb/2889610) |October 2013|
+|Lync Server 2010 Cumulative Update 9 |[KB 2860700](https://support.microsoft.com/kb/2860700) |July 2013|
+|Lync Server 2010 Cumulative Update 8 |[KB 2791381](https://support.microsoft.com/kb/2791381) |July 2013|
+|Lync Server 2010 Cumulative Update 7 |[KB 2737915](https://support.microsoft.com/kb/2737915) |October 2012|
+|Lync Server 2010 Cumulative Update 6 |[KB 2701585](https://support.microsoft.com/kb/2701585) |June 2012|
+|Lync Server 2010 Cumulative Update 5 |[KB 2670352](https://support.microsoft.com/kb/2670352) |February 2012|
+|Lync Server 2010 Cumulative Update 4 |[KB 2514980](https://support.microsoft.com/kb/2514980) |November 2011|
+|Lync Server 2010 Cumulative Update 3|[KB 2571546](https://support.microsoft.com/kb/2571546) |July 2011|
+|Lync Server 2010 Cumulative Update 2|[KB 2500442](https://support.microsoft.com/kb/2500442) |April 2011|
+|Lync Server 2010 Cumulative Update 1|[KB 2467775](https://support.microsoft.com/kb/2467775) |January 2011|
+||||
 
 ### Group Chat 2010 updates
 

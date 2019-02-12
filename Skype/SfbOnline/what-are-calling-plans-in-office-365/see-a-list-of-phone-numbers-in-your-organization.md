@@ -34,7 +34,7 @@ There are different types of phone numbers that you can assign to users or other
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
+2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Phone numbers**.
     
@@ -66,7 +66,7 @@ When you are setting up users, you might just want to see the list of the phone 
   
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
+2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.
     
@@ -90,7 +90,7 @@ When you are setting up users in your organization to make and receive phone cal
   
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
+2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
 3. In the **Skype for Business admin center**, in the left navigation, go to **Voice** > **Voice users**.
     

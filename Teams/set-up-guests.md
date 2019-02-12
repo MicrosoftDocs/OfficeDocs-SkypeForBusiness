@@ -30,9 +30,9 @@ The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hou
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## Configure guest access in the Teams & Skype for Business admin center
+## Configure guest access in the Microsoft Teams admin center
 
-1.	Sign in to the Teams & Skype for Business admin center.
+1.	Sign in to the Microsoft Teams admin center.
 
 2.	Select **Org-wide settings** > **Guest access**.
 

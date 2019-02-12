@@ -35,7 +35,7 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
 
 ### ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) Using the Skype for Business admin center
 
-1. Go to the **Teams & Skype for Business Admin Center** > **Legacy portal**.
+1. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
 2. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**.
     
