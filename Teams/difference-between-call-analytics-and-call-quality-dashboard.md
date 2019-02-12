@@ -71,7 +71,7 @@ Where CA is designed to help admins and helpdesk agents troubleshoot call qualit
   
 Maybe Amos's poor call quality is due to a network issue that's also affecting many other users. Amos's individual call experience isn't visible in CQD, but the overall quality of calls made using Microsoft Teams or Skype for Business is captured. With the CQD, overall patterns may become apparent, allowing network engineers to make informed assessments of call quality. CQD provides reports of call quality metrics that give you insights into overall call quality, server-client streams, client-client streams, and voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
   
-![Screenshot of Call Quality Dashboard in the Skype for Business Admin Center. Tabs shown are Overall Call Quality, Server - Client, Client - Client, and View Quality SLA.](media/6eaccf99-8ee8-4f99-bdf2-ba1c72471cb9.png)
+![Screenshot of Call Quality Dashboard. Tabs shown are Overall Call Quality, Server - Client, Client - Client, and Voice Quality SLA.](media/6eaccf99-8ee8-4f99-bdf2-ba1c72471cb9.png)
   
 If you want non-admins, such as helpdesk agents, to use Call Quality Dashboard, you can assign those users the **Reports Reader** role. Users with the following roles can access Call Quality Dashboard:
 
