@@ -72,7 +72,7 @@ You might need to coordinate these activities across several teams. We provide a
 | Site readiness             | Facilities / AV team / IT Project Team |             | [Site readiness](../../deploy/deploy-clients/room-systems-v2.md#site-readiness)                      |
 | Service readiness          | IT Project Team                        |             | [Service readiness](../../deploy/deploy-clients/room-systems-v2.md#service-readiness)                      |
 | Configuration              | IT Project Team                        |             | [Configuration and deployment](../../deploy/deploy-clients/room-systems-v2.md#configuration-and-deployment)                      |
-| Deployment                 | Facilities / AV team / IT Project Team |             | [Deployment checklist](../../deploy/deploy-clients/console.md#skype-room-systems-v2-deployment-checklist)                      |
+| Deployment                 | Facilities / AV team / IT Project Team |             | [Deployment checklist](../../deploy/deploy-clients/console.md#microsoft-teams-rooms-deployment-checklist)                      |
 | Adoption                   | Facilities / AV team / IT Project Team |             | [Adoption](#plan-for-adoption-and-change-management)                      |
 | Maintenance and operations | AV team / IT Project Team              |             | [Management overview](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)                      |
 

@@ -101,7 +101,7 @@ Define one organizational unit in your on-premises Active Directory or Azure AD 
 
 Create a Group Policy object assigned to the organization unit that contains your Skype Room Systems computer accounts. Use this to: 
 
--   [Set power and local account settings](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#configuring-group-policy-for-skype-room-systems-v2).
+-   [Set power and local account settings](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#configuring-group-policy-for-microsoft-teams-rooms).
 -   Enable Windows Update.
 -   Enable PowerShell remoting. You can configure a start-up script to run a  simple script: Enable-PSRemoting -Force
 
@@ -193,7 +193,7 @@ You can use [remote PowerShell](../../manage/skype-room-systems-v2/room-systems-
 
 ### Testing
 
-After the Microsoft Teams Rooms system has been deployed, you should test it. Check that the capabilities listed in [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device. We highly recommend that the deployment team verify that the Microsoft Teams Rooms is logging to Microsoft Operations Management Suite (if used). It’s also important that you make a number of test calls and meetings to check quality. For more information, see this [useful deployment checklist](console.md#skype-room-systems-v2-deployment-checklist). 
+After the Microsoft Teams Rooms system has been deployed, you should test it. Check that the capabilities listed in [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) are working on the deployed device. We highly recommend that the deployment team verify that the Microsoft Teams Rooms is logging to Microsoft Operations Management Suite (if used). It’s also important that you make a number of test calls and meetings to check quality. For more information, see this [useful deployment checklist](console.md#microsoft-teams-rooms-deployment-checklist).
 
 We recommend that as part of the general Skype for Business rollout, you configure building files for Call Quality Dashboard (CQD), monitor quality trends, and engage in the Quality of Experience Review process. For more information, see the [Quality of Experience Review Guide](https://aka.ms/qerguide). 
 

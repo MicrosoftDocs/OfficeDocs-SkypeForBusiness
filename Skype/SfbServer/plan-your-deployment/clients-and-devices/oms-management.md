@@ -41,7 +41,7 @@ You should familiarize yourself as necessary on how to use the OMS View Designer
 
 1. Once subscribed to OMS, create custom fields (as described in [Map custom fields](../../deploy/deploy-clients/with-oms.md#Custom_fields)) needed to parse the information that will be sent from Microsoft Teams Rooms consoles. This includes understanding the JSON schema documented in [Understand the log entries](../../manage/skype-room-systems-v2/oms.md#understand-the-log-entries).
     
-2. Develop a Microsoft Teams Rooms management view in OMS. You can either [Create a Microsoft Teams Rooms dashboard by using the import method](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-by-using-the-import-method) ) or [Create a Microsoft Teams Rooms dashboard manually](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-manually).
+2. Develop a Microsoft Teams Rooms management view in OMS. You can either [Create a Microsoft Teams Rooms dashboard by using the import method](../../deploy/deploy-clients/with-oms.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method) or [Create a Microsoft Teams Rooms dashboard manually](../../deploy/deploy-clients/with-oms.md#create-a-microsoft-teams-rooms-dashboard-manually).
     
 ## Individual Microsoft Teams Rooms Console requirements
 
