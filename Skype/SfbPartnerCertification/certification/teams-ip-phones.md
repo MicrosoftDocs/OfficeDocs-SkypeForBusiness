@@ -39,7 +39,7 @@ In addition to offering customers a range of Skype for Business certified IP pho
 - The Teams certified IP phone is enrolled into Intune during the sign-in process.
 - Firmware and application updates are deployed and managed via the Microsoft Device Management solution.
 
-If you are a vendor seeking to join the certification program, see How to Join for requirements and available programs.
+If you are a vendor seeking to join the certification program, see [How to Join](https://docs.microsoft.com/en-us/skypeforbusiness/certification/how-to-join) for requirements and available programs.
 
 ## Additional resources
 Learn about [Skype for Business and Microsoft Teams certification programs](https://docs.microsoft.com/SkypeForBusiness/certification/overview).
