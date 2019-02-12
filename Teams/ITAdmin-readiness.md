@@ -21,7 +21,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -31,7 +31,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started with Teams</h3>
+                        <h3>Get started to roll out Teams</h3>
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 </ul>
 
 
-<h2>Videos with PowerPoints</h2>
+<h2>Technical trainings</h2>
 
 | Module | Video | PowerPoint deck |
 | ------------ | -------------------- | -------------------- |
@@ -91,11 +91,10 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | Direct Routing | [Video](http://aka.ms/teams-direct-routing) | [Deck](http://aka.ms/teams-direct-routing-deck) |
 | Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](htt://aka.ms/teams-upgrade-deck)|
 
-<h2>EdX courses</h2>
+<h2>Quick Start guides</h2>
 
-- [Enabling Teamwork with Microsoft Teams](https://aka.ms/edx-cld267x-about)
-- [Microsoft Service Adoption Specialist](https://aka.ms/AdoptionCert)
-
+- [Quick start: Teams for Education admins](teams-quick-start-edu.yml)
+- [Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)
 
 <h2>Tutorials</h2>
 
@@ -104,7 +103,7 @@ Use the training resources to educate yourself about Teams, teach others or run 
 - [Tutorial: Audio Conferencing in Teams](tutorial-audio-conferencing.yml)
 - [Tutorial: Understand calling in Teams](tutorial-calling-in-teams.yml)
 
-<h2>Quick Start guides</h2>
+<h2>Courses</h2>
 
-- [Quick start: Teams for Education admins](teams-quick-start-edu.yml)
-- [Quick start: Configuring Calling Plans in Teams](configuring-teams-calling-quickstartguide.md)
+- [Enabling Teamwork with Microsoft Teams](https://aka.ms/edx-cld267x-about)
+- [Microsoft Service Adoption Specialist](https://aka.ms/AdoptionCert)
