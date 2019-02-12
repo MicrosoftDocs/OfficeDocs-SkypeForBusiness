@@ -23,7 +23,7 @@ description: "This article provides information about using a proxy server with 
 
 # Proxy servers for Teams or Skype for Business Online
 
-This article will help you with guidance about using a proxy server with Teams or Skype for Business.
+This article provides guidance about using a proxy server with Teams or Skype for Business.
   
 ## Not using a proxy server is recommended
 
