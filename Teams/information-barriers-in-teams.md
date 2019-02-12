@@ -57,30 +57,13 @@ Information barrier policies are checked when the following Teams events take pl
 
 ## What happens to existing chat threads when a policy is changed?
 
-When the information  barrier policy admin makes changes to the policy or a policy change kicks into effect because of a user’s job changing or a similar reason, a search needs to be performed on the members to ensure the members in the Team are not violating any policies. Teams will be adding these capabilities soon to make the process completely dynamic and policy driven.
-<!--
+When the information  barrier policy admin makes changes to the policy or a policy change kicks into effect because of a user’s job changing or a similar reason, a search needs to be performed on the members to ensure that the members in the Team are not violating any policies. 
+
 If there is an existing chat or other communication between users, and a new policy is set or an existing policy is changed, existing communications are evaluated to make sure that they aren’t “poisoned” (no longer allowed): 
 
 - **1:1 chat** - If communication between the two users is no longer allowed (if a policy blocking communication is applied to one or both users), further communication is blocked and the chat conversation will become read-only.
 - **Group chat** - If communication from one user to the group is no longer allowed (for example, if a user changes jobs), the user along with the other users who violate the policy will be removed from group chat and further communication with the group will be blocked. The user can still see old conversations (which will be read-only), but will not be able to see or participate in any new conversations with the group. If the new or changed policy preventing communication is applied to more than one user, the users who are affected by the policy will be removed from group chat. They can still see old conversations. 
 - **Team** - Any users who have been removed from the group are removed from the team and will not be able to see or participate in existing or new conversations.
--->
-
-## Ready to get started?
-
-Regardless of where you are in your compliance journey, there’s plenty of compliance solutions to explore and implement in Microsoft 365. To learn more about information barriers, see [Information barriers in Teams]() and start implementing information barrier policies with [Configure information barrier policies for your organization]().
-
-## Frequently asked questions
-
-**Q**: What licenses are required to use information barriers?
-**A**: All users in the tenant must have one of the below, If you don't have an existing Enterprise E5 plan and want to try Information Barriers, you can sign up for a trial of Office 365 Enterprise E5.
-- Microsoft 365 Enterprise E5
-- Office 365 Enterprise E5 
-- Advanced Compliance add-on 
-- Information Protection & Compliance
-
-**Q**: When will these updates be available for my organization?
-**A**: We have started rolling out the new information barriers updates to Teams today and most customers should have access to the new features over the next several weeks.
 
 ## More information
 
