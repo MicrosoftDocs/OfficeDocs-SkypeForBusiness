@@ -73,6 +73,17 @@ Maybe Amos's poor call quality is due to a network issue that's also affecting m
   
 ![Screenshot of Call Quality Dashboard in the Skype for Business Admin Center. Tabs shown are Overall Call Quality, Server - Client, Client - Client, and View Quality SLA.](media/6eaccf99-8ee8-4f99-bdf2-ba1c72471cb9.png)
   
+If you want non-admins, such as helpdesk agents, to use Call Quality Dashboard, you can assign those users the **Reports Reader** role. Users with the following roles can access Call Quality Dashboard:
+
+ - Global administrator
+ - Skype for Business admin
+ - Reports reader
+
+> [!NOTE]
+> The Reports reader role cannot modify files on CQD's Tenant Data Upload page nor activate CQD for a tenant.
+
+For more information about these roles, see [About Office 365 admin roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
+
 For more information about CQD, see [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](turning-on-and-using-call-quality-dashboard.md) and [Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 ## Related topics
