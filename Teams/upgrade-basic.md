@@ -148,7 +148,7 @@ Users are busy with their daily responsibilities. Reminding them of the pending 
 
 *(Upgrade Day)*
 
-Today is the day your organization officially upgrades to Teams as your communication and collaboration solution. In the Teams & Skype for Business Admin Center, activate the upgrade switch by setting the coexistence mode to **Teams Only**. (In the admin center, go to **Org-wide Settings** > **Teams Upgrade**.) Users will receive a notification in their Skype for Business client that they’ve been upgraded to Teams.
+Today is the day your organization officially upgrades to Teams as your communication and collaboration solution. In the Microsoft Teams admin center, activate the upgrade switch by setting the coexistence mode to **Teams Only**. (In the admin center, go to **Org-wide Settings** > **Teams Upgrade**.) Users will receive a notification in their Skype for Business client that they’ve been upgraded to Teams.
 
 We recommend that after everyone has been upgraded, you send an email welcoming them to Teams.
 

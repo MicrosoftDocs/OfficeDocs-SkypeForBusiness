@@ -217,3 +217,7 @@ These are the main takeaways from this guidance. You must:
 - Ensure that you have sufficient bandwidth for deploying Teams by completing the [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
 
 - Run the [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) and ensure that you meet the requirements described in [Media quality and network connectivity performance](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) from both the edge segment and the client segment.
+
+## Related Topics
+
+[Video: Network Planning](https://aka.ms/teams-networking)

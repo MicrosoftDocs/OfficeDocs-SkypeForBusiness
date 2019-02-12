@@ -32,17 +32,17 @@ Call Analytics helps you troubleshoot call or connection problems with Microsoft
   
 ## Call Analytics permissions
 
-As the admin, you get full access to all the features of Call Analytics. In addition, you can assign Azure Active Directory roles to support staff. Assign the Teams communications support specialist role to users who should have a limited view of Call Analytics. Assign the Teams communications support engineer role to users who need access to the full functionality of Call Analytics. Both permission levels prevent access to the rest of the Microsoft Teams & Skype for Business Admin Center.
+As the admin, you get full access to all the features of Call Analytics. In addition, you can assign Azure Active Directory roles to support staff. Assign the Teams communications support specialist role to users who should have a limited view of Call Analytics. Assign the Teams communications support engineer role to users who need access to the full functionality of Call Analytics. Both permission levels prevent access to the rest of the Microsoft Teams admin center.
 
 Communications support specialists handle basic call-quality problems. They don't investigate issues with meetings. Instead, they collect related information and then escalate to a communications support engineer. Communications support engineers see information in detailed call logs that's hidden from communications support specialists. The following table gives an overview of information available to communications support specialists and communications support engineers when they use Call Analytics.
 
 The permissions level assigned to you determines what type of information you have access to in Call Analytics:
   
-- **Teams service administrator or Teams communications administrator**: You have access to all the information in Call Analytics and in the Teams & Skype for Business Admin Center.
+- **Teams service administrator or Teams communications administrator**: You have access to all the information in Call Analytics and in the Microsoft Teams admin center.
     
-- **Teams communications support specialist**: You see a limited set of data in Call Analytics. You can troubleshoot calls, but you'll hand off problems with meetings to a Teams communications support engineer. You don't have access to the rest of the Teams & Skype for Business Admin Center.
+- **Teams communications support specialist**: You see a limited set of data in Call Analytics. You can troubleshoot calls, but you'll hand off problems with meetings to a Teams communications support engineer. You don't have access to the rest of the Microsoft Teams admin center.
     
-- **Teams communications support engineer**: You see all available data in Call Analytics and can help troubleshoot problems with both calls and meetings. You don't have access to the rest of the Teams & Skype for Business Admin Center.
+- **Teams communications support engineer**: You see all available data in Call Analytics and can help troubleshoot problems with both calls and meetings. You don't have access to the rest of the Microsoft Teams admin center.
     
 > [!NOTE]
 > The communications support specialist role is equivalent to tier 1 support and the communications support engineer role is equivalent to tier 2 support.
@@ -61,7 +61,7 @@ See your Teams and Skype for Business admin if you need help with permissions.
     
 4. On the **Dashboard**, in **User Search**, start typing either the name or sip address of the user whose calls you want to troubleshoot or select **View users** to see a list of users.
     
-    ![Screenshot of the User Search box of Call Analytics in the Teams & Skype for Business Admin Center.](media/use-call-analytics-to-troubleshoot-image-1.png)
+    ![Screenshot of the User Search box of Call Analytics in the Microsoft Teams admin center.](media/use-call-analytics-to-troubleshoot-image-1.png)
   
 5. Select the user from the list.
 

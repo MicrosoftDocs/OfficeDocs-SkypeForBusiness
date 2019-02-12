@@ -29,7 +29,7 @@ This article applies to environments in which you have all of the following:
 - Users who are enabled to make and receive Public Switched Telephone Network (PSTN) calls to and from the client
 
  
-If you have a different environment (such as Skype for Business Cloud Connector Edition), hybrid is not configured, or your users will not be enabled for PSTN calls, the supportability matrix will be different.  
+If you have a different environment (such as Skype for Business Cloud Connector Edition), hybrid is not configured, or your users are not enabled for PSTN calls, the supportability matrix will be different.  
 
 ## About the combinations and the supportability statement  
 
@@ -38,12 +38,12 @@ A Skype for Business hybrid environment with PSTN connectivity provides flexib
 
 **Definitions:**   
 - **Enterprise Voice:** Option to provide access to PSTN for users with on-premises Skype for Business user account. On-premises Skype for Business Mediation server provides interconnectivity to PSTN.  
-- **Hybrid Voice Connectivity:** Option to provide access to PSTN for with online Skype for Business account. On-premises Skype for Business Mediation server provides interconnectivity to PSTN. 
+- **Hybrid Voice Connectivity:** Option to provide access to PSTN for users with Skype for Business Online account. On-premises Skype for Business Mediation server provides interconnectivity to PSTN. 
 - **Direct routing:** Option to provide access to PSTN for users with online Skype for Business account, Microsoft Teams license, using Microsoft Teams client. The SBC is connected to the SIP Proxy in Office 365 without need for any on-premises software from Microsoft.
 
   
 **The environment supports the following combinations:**
-- **Scenario 1:** User account in Skype for Business on premises and will use the Skype for Business client with Enterprise Voice
+- **Scenario 1:** User account in Skype for Business on-premises and will use the Skype for Business client with Enterprise Voice
 - **Scenario 2:** User account in Skype for business online and will use the Skype for Business client with Hybrid Voice Connectivity
 - **Scenario 3:** User account in Skype for Business online with Microsoft Teams license and will use Teams client
  
