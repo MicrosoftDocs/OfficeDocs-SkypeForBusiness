@@ -68,7 +68,7 @@ If there is an existing chat or other communication between users, and a new pol
 
 ## Ready to get started?
 
-Regardless of where you are in your compliance journey, there’s plenty of compliance solutions to explore and implement in Microsoft 365. To learn more about information barriers, see information barriers in Teams and start implementing information barrier policies with Configure information barrier policies for your organization.
+Regardless of where you are in your compliance journey, there’s plenty of compliance solutions to explore and implement in Microsoft 365. To learn more about information barriers, see [Information barriers in Teams]() and start implementing information barrier policies with [Configure information barrier policies for your organization]().
 
 ## Frequently asked questions
 
