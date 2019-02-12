@@ -90,7 +90,7 @@ If you want non-admins, such as helpdesk agents, to use Call Quality Dashboard, 
 > [!NOTE]
 > The Reports reader role cannot modify files on CQD's Tenant Data Upload page nor activate CQD for a tenant.
 
-For more information about these roles, see [About Office 365 admin roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles).
+For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 
 For more information about CQD, see [Turning on and using Call Quality Dashboard for Microsoft Teams and Skype for Business Online](turning-on-and-using-call-quality-dashboard.md) and [Dimensions and measures available in Call Quality Dashboard for Microsoft Teams and Skype for Business Online](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
