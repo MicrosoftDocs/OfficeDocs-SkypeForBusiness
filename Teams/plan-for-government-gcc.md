@@ -132,7 +132,9 @@ To accommodate the requirements of our government cloud customers, there are som
 | | eDiscovery | Available |
 
 > [!Note]
+
 > Once other workloads are fully available in the GCC cloud, then they will become available in Teams when all additional  integration work is completed.
+
 
 |    |     |
 |-----------|------------|
