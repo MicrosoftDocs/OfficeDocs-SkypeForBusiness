@@ -78,7 +78,7 @@ With the help of CQD's Location-Enhanced Reports, aggregate call quality and rel
 ![Screenshot of Call Quality Dashboard's Location-Enhanced Reports. Tabs shown are Overview, Buildings - Wired, Buildings - WiFi, and Mobile (LTE). A filter is being applied to view the streams within a specific building.](media/call-quality-dashboard-location-enhanced-reports-building-selection.png)
 
 > [!NOTE]
-> To enable building-specific views in CQD, an admin must [upload building information](turning-on-and-using-call-quality-dashboard#BKMKBuildingInformationUpload) on CQD's Tenant Data Upload page.
+> To enable building-specific views in CQD, an admin must [upload building information](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) on CQD's Tenant Data Upload page.
 
   
 If you want non-admins, such as helpdesk agents, to use Call Quality Dashboard, you can assign those users the **Reports Reader** role. Users with the following roles can access Call Quality Dashboard:
