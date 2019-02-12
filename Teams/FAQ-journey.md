@@ -183,7 +183,7 @@ There are no plans to support third-party audio conferencing providers (ACP) in 
 
 [Meeting room devices](https://products.office.com/microsoft-teams/across-devices) are critical to our vision for the modern workplace. [Cloud video interoperability services](cloud-video-interop.md) to support Teams meetings with existing VTC systems are available through our partners Pexip, Polycom, and Blue Jeans.
 
-### Will the latest generation of Skype Room Systems v2 support meetings in Teams?
+### Will the latest generation of Microsoft Teams Rooms support meetings in Teams?
 
 We continue supporting the momentum of Skype Room Systems. A Skype Room Systems update is available to join Teams meetings, in addition to the ability for users to identify nearby Skype Room Systems with proximity detection. Dual screens and panoramic devices are planned for later releases.
 

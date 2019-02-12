@@ -1,6 +1,6 @@
-# [Skype Room Systems v2](index.md)
+# [Microsoft Teams Rooms](index.md)
 ## Plan
-### [Overview of Skype Room Systems v2 planning](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+### [Overview of Microsoft Teams Rooms planning](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ### [Version support](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
 ### [Release notes](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [Prepare your environment](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)

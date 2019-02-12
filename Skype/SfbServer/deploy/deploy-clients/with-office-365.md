@@ -1,5 +1,5 @@
 ---
-title: "Deploy Skype Room Systems v2 with Office 365"
+title: "Deploy Microsoft Teams Rooms with Office 365"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,18 +12,18 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom:
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: "Read this topic for information on how to deploy Skype Room Systems v2 with Office 365."
+description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Office 365."
 ---
 
-# Deploy Skype Room Systems v2 with Office 365
+# Deploy Microsoft Teams Rooms with Office 365
 
-Read this topic for information on how to deploy Skype Room Systems v2 with Office 365, where Skype for Business and Exchange are both online. 
+Read this topic for information on how to deploy Microsoft Teams Rooms with Office 365, where Skype for Business and Exchange are both online. 
 
-The easiest way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts. If you prefer, you can follow the steps below to configure accounts your Skype Room Systems v2 device will use.
+The easiest way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Microsoft Teams Rooms user accounts. If you prefer, you can follow the steps below to configure accounts your Microsoft Teams Rooms device will use.
 
-## Deploy Skype Room Systems v2 with Office 365
+## Deploy Microsoft Teams Rooms with Office 365
 
-Before you deploy Skype Room Systems v2 with Office 365, be sure you have met the requirements. For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
+Before you deploy Microsoft Teams Rooms with Office 365, be sure you have met the requirements. For more information, see [Microsoft Teams Rooms requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
 
 To enable Skype for Business, you must have the following:
 
@@ -33,7 +33,7 @@ To enable Skype for Business, you must have the following:
 
 - Your tenant users must have Exchange mailboxes.
 
-- Your Skype Room Systems v2 account does require at a minumum a Skype for Business Online (Plan 2) license, but it does not require an Exchange Online license. See [Skype Room Systems v2 Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) for details.
+- Your Microsoft Teams Rooms account does require at a minumum a Skype for Business Online (Plan 2) license, but it does not require an Exchange Online license. See [Microsoft Teams Rooms Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) for details.
 
 For details on Skype for Business Online Plans, see the [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
 
@@ -50,7 +50,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    Import-PSSession $sess
    ```
 
-2. After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate to Skype Room Systems v2.
+2. After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate to Microsoft Teams Rooms.
 
    If you are changing an existing resource mailbox:
 
@@ -107,7 +107,7 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
    Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```
 
-7. Next, you need to enable the device account with Skype for Business. Be sure your environment meets the requirements defined in [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
+7. Next, you need to enable the device account with Skype for Business. Be sure your environment meets the requirements defined in [Microsoft Teams Rooms requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
 
    Start a remote Windows PowerShell session as follows (be sure to install Skype for Business Online PowerShell components):
 
@@ -117,7 +117,7 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
    Import-PSSession $cssess -AllowClobber
    ```
 
-   Next, enable your Skype Room Systems v2 account for Skype for Business Server by running the following cmdlet:
+   Next, enable your Microsoft Teams Rooms account for Skype for Business Server by running the following cmdlet:
 
    ```
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
@@ -132,7 +132,7 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
     > [!NOTE]
     > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation. 
 
-After you've completed the preceding steps to enable your Skype Room Systems v2 account in Skype for Business Online, you need to assign a license to Skype Room Systems v2 device. Using the Office 365 administrative portal, assign either a Skype for Business Online (Plan 2) or a Skype for Business Online (Plan 3) license to the device.
+After you've completed the preceding steps to enable your Microsoft Teams Rooms account in Skype for Business Online, you need to assign a license to Microsoft Teams Rooms device. Using the Office 365 administrative portal, assign either a Skype for Business Online (Plan 2) or a Skype for Business Online (Plan 3) license to the device.
 
 ### Assign a license to your account
 
@@ -140,11 +140,11 @@ After you've completed the preceding steps to enable your Skype Room Systems v2 
 
 2. Click **Users and Groups** and then click **Add users, reset passwords, and more**.
 
-3. Select the Skype Room Systems v2 account, and then click or tap the pen icon, which means edit.
+3. Select the Microsoft Teams Rooms account, and then click or tap the pen icon, which means edit.
 
 4. Click on the **Licenses** option.
 
-5. In the **Assign licenses** section, you need to select Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3), depending on your licensing and what you've decided in terms of needing Enterprise Voice. You'll have to use a Plan 3 license if you want to use Cloud PBX on Skype Room Systems v2. Minimally you will need CloudPBX for voice connectivity. Then configure hybrid voice or PSTN calling based on the PSTN connectivity method. See [Skype Room Systems v2 licenses](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) for more details.
+5. In the **Assign licenses** section, you need to select Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3), depending on your licensing and what you've decided in terms of needing Enterprise Voice. You'll have to use a Plan 3 license if you want to use Cloud PBX on Microsoft Teams Rooms. Minimally you will need CloudPBX for voice connectivity. Then configure hybrid voice or PSTN calling based on the PSTN connectivity method. See [Microsoft Teams Rooms licenses](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) for more details.
 
 6. Click **Save** to complete the task.
 
@@ -182,14 +182,14 @@ For validation, you should be able to use any Skype for Business client to sign 
 
 ## See also
 
-[Configure accounts for Skype Room Systems v2](room-systems-v2-configure-accounts.md)
+[Configure accounts for Microsoft Teams Rooms](room-systems-v2-configure-accounts.md)
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Microsoft Teams Rooms](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
-[Deploy Skype Room Systems v2](room-systems-v2.md)
+[Deploy Microsoft Teams Rooms](room-systems-v2.md)
 
-[Configure a Skype Room Systems v2 console](console.md)
+[Configure a Microsoft Teams Rooms console](console.md)
 
-[Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Manage Microsoft Teams Rooms](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
-[Skype Room Systems v2 Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[Microsoft Teams Rooms Licensing](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)

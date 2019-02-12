@@ -237,7 +237,7 @@ When you open https://localhost/lrs, you will be able to see the sign in page, b
 
 Make sure that the LRSApp user account is SIP-enabled, and is part of the LRSPowerUserAdminsGroup security group.
 
-#### Does the SRS v1 administrative web portal work with Skype Room Systems v2?
+#### Does the SRS v1 administrative web portal work with Microsoft Teams Rooms?
 
 No.
 
