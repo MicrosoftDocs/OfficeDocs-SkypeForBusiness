@@ -67,6 +67,8 @@ However, from an experience perspective, mode can more simply be described as de
 - *Availability of collaboration functionality in Teams client*. Is Teams & Channels and Files functionality available while users still have Skype for Business?
 
 The modes are listed below.
+</br>
+</br>
 |Mode|Calling and Chat |Meeting Scheduling<sup>1</sup>|Teams & Channels|Use Case|
 |---|---|---|---|---|
 |**TeamsOnly**</br>*Requires home in Skype for Business Online*|Teams|Teams|Yes|The final state of being upgraded. Also the default for new tenants with <500 seats.|
