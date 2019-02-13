@@ -75,8 +75,8 @@ The modes are listed below.
 |**TeamsOnly**</br>*Requires home in Skype for Business Online*|Teams|Teams|Yes|The final state of being upgraded. Also the default for new tenants with <500 seats.|
 |Islands|Either|Either|Yes|Default configuration. Allows a single user to evaluate both client side by side. Chats and calls can land in either client, so users must always run both clients.|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Teams|Yes|"Meetings First". Primarily for on-premise organizations to benefit from Teams meeting functionality, if they are not yet ready to mode calling to the cloud.|
-|SfBWithTeamsCollab<sup>3</sup>|Skype for Business|Skype for Business|Yes|Alternate starting point for complex organizations that need tighter administrative control|
-|SfBOnly|Skype for Business|Skype for Business|No<sup>2</sup>|Specialized Scenario for organizations with strict requirements around data control. Teams is used only to join meetings scheduled by others.|
+|SfBWithTeamsCollab<sup>2</sup>|Skype for Business|Skype for Business|Yes|Alternate starting point for complex organizations that need tighter administrative control|
+|SfBOnly|Skype for Business|Skype for Business|No<sup>3</sup>|Specialized Scenario for organizations with strict requirements around data control. Teams is used only to join meetings scheduled by others.|
 ||||||
 
 </br>
@@ -89,6 +89,7 @@ The modes are listed below.
 <sup>2</sup> SfBWithTeamsCollab and SfBWithTeamsCollabAndMeetings are currently available in PowerShell only.  Once the completed client experience is delivered, these modes will be available in the Admin Portal. 
 
 <sup>3</sup> Currently, Teams does not have the ability to disable the Teams and Channels functionality so this remains enabled for now.
+
 
 
 ## TeamsUpgradePolicy: managing migration and co-existence
