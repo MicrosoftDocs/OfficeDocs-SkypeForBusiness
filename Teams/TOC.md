@@ -58,8 +58,8 @@
 
 ## [Manage Teams](using-admin-roles.md)
 ### [Manage Teams features in your organization](enable-features-office-365.md)
-### [Manage Teams during the transition to the new Microsoft Teams & Skype for Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
-### [Manage Teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md)
+### [Manage Teams during the transition to the new Microsoft Teams admin center](manage-teams-skypeforbusiness-admin-center.md)
+### [Manage Teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md)
 ### [Assign team owners and members in Teams](assign-roles-permissions.md)
 ### [Configure the Skype Meetings App to work with Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
@@ -76,6 +76,7 @@
 ### Get ready to roll out Teams
 #### [Check your environment’s readiness for Teams](environment-readiness.md)
 #### [Prepare your organization's network for Teams](prepare-network.md)
+#### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
 #### [Limits and specifications for Teams](limits-specifications-teams.md)
 #### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 #### [Get tools to support a rollout of Teams](rollout-tools.md)
@@ -574,11 +575,13 @@
 ### [Operate your service](upgrade-operate-my-service.md)
 ### [Monitor quality](upgrade-monitor-quality.md)
 ### [Enhance your service](upgrade-enhance-my-service.md)
+
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
 ## Additional information
 ### [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
+### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 <!-- ============================================================ -->
 #       
 #        

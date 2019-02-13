@@ -459,11 +459,11 @@ You can access CQD one of three ways:
 
 -   Go to <https://cqd.lync.com>.
 
--   Go to **Microsoft Teams & Skype for Business Admin Center** and select the link to CQD, as shown in the following illustration.
+-   Go to **Microsoft Teams admin center** and select the link to CQD, as shown in the following illustration.
 
 ![In the left nav pane, the link to Call quality dashboard is selected.](media/qerguide-image-mopo.png "In the left nav pane, the link to Call quality dashboard is selected.")
 
-_Figure 7 – Accessing CQD through the Microsoft Teams & Skype for Business Admin Center_
+_Figure 7 – Accessing CQD through the Microsoft Teams admin center_
 
 -   Go to the legacy **Skype for Business admin center** > **tools**, and select the link to CQD, as shown in the following illustration.
 
@@ -1168,13 +1168,13 @@ _Figure 29 – HTTP Proxy Usage by Building and Subnet_
 
 ##### Remediation
 
-We [recommend](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online) that you always bypass proxies for Skype for Business and Teams, especially media traffic. Proxies don't make Skype for Business more secure, because its traffic is already encrypted. Performance-related problems can be introduced to the environment through latency and packet loss. Issues such as these will result in a negative experience with audio, video and screen sharing, where real-time streams are essential.
+We [recommend](proxy-servers-for-skype-for-business-online.md) that you always bypass proxies for Skype for Business and Teams, especially media traffic. Proxies don't make Skype for Business more secure, because its traffic is already encrypted. Performance-related problems can be introduced to the environment through latency and packet loss. Issues such as these will result in a negative experience with audio, video and screen sharing, where real-time streams are essential.
 
 The most common cause of HTTP usage is missing exception rules in proxies. By using the building or subnet provided, you can quickly determine which proxy needs to be configured for media bypass.
 
 Verify that the required [Office 365 FQDNs](https://aka.ms/o365ips) are whitelisted in your proxy.
 
-For more information about using proxies with Skype for Business Online and Teams, see [this article](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online).
+For more information about using proxies with Skype for Business Online and Teams, see [this article](proxy-servers-for-skype-for-business-online.md).
 
 ## Endpoint investigations
 

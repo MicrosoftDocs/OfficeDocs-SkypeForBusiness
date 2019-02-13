@@ -21,7 +21,7 @@ Desktop sharing lets users present a screen or app during a meeting or chat. Adm
 
 To configure screen sharing, you create a new meetings policy and then assign it to the users you want to manage.
 
-In the Microsoft Teams & Skype for Business Admin Center:
+**In the Microsoft Teams admin center**
 
 1. Select **Meetings** > **Meeting policies**.
 

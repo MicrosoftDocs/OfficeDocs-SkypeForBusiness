@@ -7,7 +7,7 @@ ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Admins can use the Microsoft Teams & Skype for Business Admin Center to configure the Skype Meetings App to work with Teams
+description: Admins can use the Microsoft Teams admin center to configure the Skype Meetings App to work with Teams
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto: 
 - Microsoft Teams
@@ -16,11 +16,11 @@ appliesto:
 Configure the Skype Meetings App to work with Teams
 ===================================================
 
-After a user is upgraded to Microsoft Teams, admins can use the Microsoft Teams & Skype for Business Admin Center to specify the preferred app that users will use to join Skype for Business meetings.
+After a user is upgraded to Microsoft Teams, admins can use the Microsoft Teams admin center to specify the preferred app that users will use to join Skype for Business meetings.
 
 To specify the Skype for Meetings App as the preferred app:
 
-1. Sign in to the Microsoft Teams & Skype for Business Admin Center.
+1. Sign in to the Microsoft Teams admin center.
 2. In the left pane, under **Org-wide settings**, select **Teams upgrade**.
 3. On the Teams upgrade page, under **App preferences**, select **Skype Meetings App**  from the **Preferred app for users to join Skype for Business meetings** drop-down list.
 
