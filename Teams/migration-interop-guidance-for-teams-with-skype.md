@@ -83,8 +83,11 @@ The modes are listed below.
 </br>
 
 **Notes:**
+
 <sup>1</sup> The ability to join an existing meeting (whether scheduled in Teams or in Skype for Business) is not governed by mode. By default, users can always join any meeting they have been invited to.
+
 <sup>2</sup> SfBWithTeamsCollab and SfBWithTeamsCollabAndMeetings are currently available in PowerShell only.  Once the completed client experience is delivered, these modes will be available in the Admin Portal. 
+
 <sup>3</sup> Currently, Teams does not have the ability to disable the Teams and Channels functionality so this remains enabled for now.
 
 
