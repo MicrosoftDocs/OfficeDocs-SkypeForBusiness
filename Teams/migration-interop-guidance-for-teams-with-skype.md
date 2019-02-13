@@ -59,11 +59,12 @@ From a technical perspective, a user’s mode governs several  aspects of the us
 - *Meeting scheduling*: Which service is used for scheduling new meetings and ensuring that the proper add-in is present in Outlook. Note that TeamsUpgradePolicy does not govern meeting join. Users can always *join* any meeting, whether it be a Skype for Business meeting or a Teams meeting.
 - *Client experience*: What functionality is available in Teams and/or Skype for Business client? Can users initiate calls and chats in Teams, Skype for Business or both? Is Teams & Channels experience available?  As described later in this article, this final aspect of mode is now starting to be delivered.
 
+For more details on routing and presence behavior based on mode, see [Coexistence with Skype for Business](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence).
 
-However, from an experience perspective, mode can more simplfy be described as defining the experience for:
+However, from an experience perspective, mode can more simply be described as defining the experience for:
 - *Chat and Calling*: Which client does a user use?
 - *Meeting Scheduling*: Do users schedule new meetings as Teams or Skype for Business meetings?
-- *Availability of Teams & Channels in Teams client*. Is new collaboration functionality of Teams available while users still have Skype for Business?
+- *Availability of collaboration functionality in Teams client*. Is Teams & Channels and Files functionality available while users still have Skype for Business?
 
 The modes are listed below.
 |Mode|Calling and Chat |Meeting Scheduling<sup>1</sup>|Teams & Channels|Use Case|
@@ -122,53 +123,28 @@ These policy instances can be granted either to individual users or on a tenant-
 
 ## Federation Considerations
 
-Federation from Teams to another user using Skype for Business requires the Teams user be homed online in Skype for Business. Eventually, Teams users homed in Skype for Business on-premises will be able to federate with other Teams users.
+Federation from Teams to another user using Skype for Business requires the Teams user be homed online in Skype for Business. Eventually, Teams users homed in Skype for Business on-premises will be able to federate with Teams only users.
 
 TeamsUpgradePolicy governs routing for incoming federated chats and calls. Federated routing behavior is the same as for same-tenant scenarios, *except in Islands mode*.  When recipients are in Islands mode: 
 - Chats and calls initiated from Teams land in SfB if the recipient is in a *federated tenant*.
 - Chats and calls initiated from Teams land in Teams if the recipient is in the *same tenant*.
 - Chats and calls initiated from SfB always land in Skype for Business.
 
+For more details, see [Coexistence with Skype for Business](https://docs.microsoft.com/en-us/MicrosoftTeams/coexistence-chat-calls-presence).
 
 ## The intended client user experience in Teams when using SfB modes
 When a user is in any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings), all incoming chats and calls are routed to the user’s Skype for Business client. To avoid end user confusion and ensure proper routing, calling and chat functionality in the Teams client is *intended to be disabled when a user is in any of the Skype for Business modes*. Similarly, meeting scheduling in Teams is *intended to be explicitly disabled when users are in the SfBOnly or SfBWithTeamsCollab modes*, and explicitly enabled when a user is in the SfBWithTeamsCollabAndMeetings mode. 
 
+### Automatic conformance of Teams client based on mode (planned) 
 The functionality to automatically disable chat and calling functionality, as well as enable/disable meeting scheduling based on mode is  now starting to rollout to TAP customers but is not yet broadly available. For details on the new functionality, see [Teams client experience and conformance to coexistence modes](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes).
 
-Until this solution for automatic conformance to modes is delivered, administrators can enforce the intended client experience of the TeamsUpgradePolicy mode by manually configuring the values of TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy. In addition, when using `Grant-CsTeamsUpgradePolicy` in PowerShell, the cmdlet will automatically check the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determmine if these settings are compatible with the specified mode. If any are not configured properly, the grant will succeed but a warning will be provided indicating which settings are not configured properly. The administrator should subsequently update the indicated policies to deliver a compatible end user experience in Teams. If the administrator decides to take no action as a result of the warning, users may still have access to chat, calling, and/or meeting scheduling capabilities in Teams depending on the values of TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy, which may result in a confusing end user experience.
+### Manual configuration of workload policy settings, prior to automatic conformance
+Until this solution for automatic conformance to modes is delivered, administrators can enforce the intended client experience of the TeamsUpgradePolicy mode by manually configuring the values of TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy. In addition, when using `Grant-CsTeamsUpgradePolicy` in PowerShell, the cmdlet checks the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determmine if these settings are compatible with the specified mode. If any are not configured properly, the grant will succeed but a warning will be provided indicating which settings are not configured properly. The administrator should subsequently update the indicated policies to deliver a compatible end user experience in Teams. If the administrator decides to take no action as a result of the warning, users may still have access to chat, calling, and/or meeting scheduling capabilities in Teams depending on the values of TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy, which may result in a confusing end user experience.
 
-### Expected values of workload policy settings per mode
-The table shows the policy settings that are checked when TeamsUpgradeMode is granted. In the future, the intent is for SfBOnly mode to also disable channels in Teams; however, there is currently no setting that allows the channels feature in Teams to be disabled.
-
-
-|**Modality (App)**|**Policy.Setting**|
-|---|---|
-|Chat|TeamsMessagingPolicy.AllowUserChat|
-|Calling|TeamsCallingPolicy.AllowPrivateCalling|
-|Meeting scheduling|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
-|||
-
-The below shows, for a given mode, the expected values of these settings:
-
-|Mode|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
-|---|---|---|---|---|
-|TeamsOnly or Islands|Enabled|Enabled|Enabled|Enabled|
-|SfBWithTeamsCollabAndMeetings|Disabled|Disabled|Enabled|Enabled|
-|SfBWithTeamsCollab or SfBOnly|Disabled|Disabled|Disabled|Disabled|
-||||||
+For details on which policy settings are checked when TeamsUpgadePolicy is granted , see [Teams client experience and conformance to coexistence modes](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes).
 
 
-If any other combination of these settings is detected during Grant-CsTeamsUpgradePolicy, the grant will succeed, but a warning will be shown indicating the specific settings that do not conform the expected behavior. Temporarily, the administrator should enable/disable the workload via the core workload policy.  Once automatic enforcement based on TeamsUpgradePolicy is implemented, the PowerShell warnings will be updated to inform the administrator that the client experience will automatically apply. In that case, the values of TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy remain unchanged – but the intended client experience will be enforced according to TeamsUpgradePolicy.
-
-Below is an example of what the PowerShell warning could look like:
-
-
-`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
-WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
-PS C:\Users\janedoe>`
-
-
-Prior to delivery of the automatic enforcement of client behavior described above, each of the SfB modes behave essentially the same. The SfBOnly, SfBWithTeamsCollab, and SfBWithTeamsCollabAndMeetings modes are all identical in how they route incoming calls and chats. The only difference, for now, is in whether the Outlook Addins for Teams and Skype for Business are enabled. Until the differentiated client experiece is delivered, only 1 of the SfB modes is enabled in the Admin Portal. But all modes are available in PowerShell.
+**NOTE:** Prior to delivery of the automatic enforcement of client behavior described above, each of the SfB modes behave essentially the same. The SfBOnly, SfBWithTeamsCollab, and SfBWithTeamsCollabAndMeetings modes are all identical in how they route incoming calls and chats. The only difference, for now, is in whether the Outlook Addins for Teams and Skype for Business are enabled. Until the differentiated client experiece is delivered, only 1 of the SfB modes is enabled in the Admin Portal. But all modes are available in PowerShell.
 
 
 ## TeamsInteropPolicy and Legacy Mode has been retired 
