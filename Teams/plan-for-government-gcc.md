@@ -69,14 +69,14 @@ To accommodate the requirements of our government cloud customers, there are som
 |-----------------------------|-----------------------------|----------------|
 | Base | Login | Available |
 | | Presence | Available |
-| | Unified presence (Skype for Business and Teams unified) | On the Government backlog |
+| | Unified presence (Skype for Business and Teams unified) | Available |
 | Activity | Feed | Available |
 |  | My Activity | Available |
 | Chat | Conversation | Available |
 | | Files | Available |
 | | Org chart | Available |
 | | Activity | Available |
-| | InterOp (1:1 Teams-Skype for Business chat) | On the Government backlog |
+| | InterOp (1:1 Teams-Skype for Business chat) | Available |
 | Teams | Channel message | Available |
 | | Channel files | Available |
 | | OneNote tab | On the Government backlog |
@@ -130,6 +130,10 @@ To accommodate the requirements of our government cloud customers, there are som
 | | Audit log search | Available |
 | | Legal hold | Available |
 | | eDiscovery | Available |
+
+> [!Note]
+
+> Once other workloads are fully available in the GCC cloud, then they will become available in Teams when all additional  integration work is completed.
 
 
 |    |     |

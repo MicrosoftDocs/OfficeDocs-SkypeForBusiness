@@ -76,6 +76,7 @@
 ### Get ready to roll out Teams
 #### [Check your environment’s readiness for Teams](environment-readiness.md)
 #### [Prepare your organization's network for Teams](prepare-network.md)
+#### [Proxy servers for Teams or Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
 #### [Limits and specifications for Teams](limits-specifications-teams.md)
 #### [Plan for Office 365 Groups when creating teams in Teams](plan-office-365-groups.md)
 #### [Get tools to support a rollout of Teams](rollout-tools.md)
@@ -598,6 +599,7 @@
 ### [Operate your service](upgrade-operate-my-service.md)
 ### [Monitor quality](upgrade-monitor-quality.md)
 ### [Enhance your service](upgrade-enhance-my-service.md)
+
 ## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
 ## Additional information
