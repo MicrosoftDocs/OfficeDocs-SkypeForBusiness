@@ -1169,6 +1169,11 @@
       "source_path": "Teams/what-are-calling-plans-in-office-365.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/calling-plan-landing-page", 
       "redirect_document_id": true 
+    },
+    {      
+      "source_path": "Skype/SfbOnline/optimizing-your-network/proxy-servers-for-skype-for-business-online.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/proxy-servers-for-skype-for-business-online", 
+      "redirect_document_id": true 
     }
   ] 
 }
