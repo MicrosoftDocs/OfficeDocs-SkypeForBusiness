@@ -23,11 +23,11 @@ appliesto:
 > This page describes important upcoming changes in the behavior of Teams client when users are in any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
 
 
-The purpose of co-existence modes is to provide a simple, predictable experience for end users as organizations transition from Skype for Business to Teams.  For an organization moving to Teams, the TeamsOnly mode is the final destination for each user, though not all users need to be assigned TeamsOnly (or any mode) at the same time.  Prior to users reaching TeamsOnly mode, organizations can use any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) to ensure predictable communication between users who are TeamsOnly and those who aren’t yet. 
+The purpose of co-existence modes is to provide a simple, predictable experience for end users as organizations transition from Skype for Business to Teams.  For an organization moving to Teams, the TeamsOnly mode is the final destination for each user, though not all users need to be assigned TeamsOnly (or any other mode) at the same time.  Prior to users reaching TeamsOnly mode, organizations can use any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) to ensure predictable communication between users who are TeamsOnly and those who aren’t yet. 
 
-When a user is in any of the Skype for Business modes, all incoming chats and calls are routed to the user’s Skype for Business client. To avoid end user confusion and ensure proper routing, the calling and chat functionality in the Teams client is intended to be disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is intended to be explicitly disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and explicitly enabled when a user is in the SfBWithTeamsCollabAndMeetings mode.  The functionality to automatically disable chat and calling functionality, as well as enable/disable meeting scheduling based on mode is now starting to rollout to TAP customers.  
+When a user is in any of the Skype for Business modes, all incoming chats and calls are routed to the user’s Skype for Business client. To avoid end user confusion and ensure proper routing, calling and chat functionality in the Teams client is intended to be disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is intended to be explicitly disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and explicitly enabled when a user is in the SfBWithTeamsCollabAndMeetings mode.  The functionality to automatically disable chat and calling functionality, as well as enable/disable meeting scheduling based on mode is now starting to rollout to TAP customers.  
 
-Prior to this functionality, Microsoft’s guidance was to ensure the proper user experience by setting the corresponding settings in Messaging, Calling and Meeting policies. However, there was no formal enforcement of this, and since users by default had full access to all functionality in the Teams client,  some users may have retained access to some or all of these  experiences in the Teams client, regardless of their mode.  As a result, as this functionality rolls out, some users may see a change in their experience in the Teams client as the user experience begins to conform to their mode.  The table below shows the new behavior:
+Prior to this functionality, Microsoft’s guidance was to ensure the proper user experience by setting the corresponding settings in Messaging, Calling and Meeting policies. However, there was no formal enforcement of this, and since users by default had full access to all functionality in the Teams client, some users may have retained access to some or all of these  experiences in the Teams client, regardless of their mode.  As a result, as this functionality rolls out, some users may see a change in their experience in the Teams client as the user experience begins to conform to their mode.  The table below shows the new behavior:
 
 
 |User's effective mode|Experience in Teams client|
@@ -39,10 +39,11 @@ Prior to this functionality, Microsoft’s guidance was to ensure the proper use
 
 **Notes:**
 <sup>1</sup> Meeting chat is still available.
-<sup>2</sup> For now, SfBwithTeamsCollab and SfBOnly behave the same, but these will eventually be differentiated.
+<sup>2</sup> For now, SfBwithTeamsCollab and SfBOnly behave the same, but the intent is for SfBOnly mode to also disable Channels and Files functionality in Teams; however, there is currently no setting that allows this functionality in Teams to be disabled.
 
 
-**How organizations can prepare for automatic UX conformance to modes**
+## How organizations can prepare for automatic UX conformance to modes
+
 Prior to this change rolling out, organizations can achieve the desired experience in the Teams client using additional policies as described in this section. This ensures the rollout is seamless for end users. Note that once the change rolls out, setting these policies will NOT be required.  Alternatively, organizations that do not wish for users to have reduced functionality in the Teams client can shift their users to Islands mode or TeamsOnly mode, however that will impact routing as well.
 
 To manually configure the end user experience, administrators use the following policies and settings:
@@ -65,5 +66,7 @@ Administrators should set each of these settings to the following values for a g
 |SfBWithTeamsCollab or SfBOnly|Disabled|Disabled|Disabled|Disabled|
 ||||||
 
-Note that once automatic conformance of the user experience based on mode is available, it is not necessary to set these policies. The value of TeamsUpgradePolicy mode will take precedence over the values of these specific settings. Automatic conformance is achieved based on how the policy infrastructure resolves the effective policy setting for users. In case of conflict, the behavior based on mode will win over the values of AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling and AllowChannelMeetingScheduling.
+Prior to the rollout of automatic conformance of the user experience based on modes, the `Grant-csTeamsUpgradePolicy` cmdlet checks  the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determmine if these settings are compatible with the specified mode. If any are not configured properly, the grant will succeed but a warning will be provided in PowerShell indicating which settings are not configured properly.
+
+Note that once automatic conformance of the user experience based on mode is available, it is not necessary to set these policies and the PowerShell warnings will be removed. The value of TeamsUpgradePolicy mode will take precedence over the values of these specific settings. Automatic conformance is achieved based on how the policy infrastructure resolves the effective policy setting for users. In case of conflict, the behavior based on mode will win over the values of AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling and AllowChannelMeetingScheduling.
 
