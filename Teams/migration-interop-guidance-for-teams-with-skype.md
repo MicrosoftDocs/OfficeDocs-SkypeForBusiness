@@ -69,14 +69,16 @@ However, from an experience perspective, mode can more simply be described as de
 The modes are listed below.
 </br>
 </br>
-|Mode|Calling and Chat |Meeting Scheduling<sup>1</sup>|Teams & Channels|Use Case|
+
+|Mode|Calling and Chat|Meeting Scheduling<sup>1</sup>|Teams & Channels|Use Case|
 |---|---|---|---|---|
 |**TeamsOnly**</br>*Requires home in Skype for Business Online*|Teams|Teams|Yes|The final state of being upgraded. Also the default for new tenants with <500 seats.|
 |Islands|Either|Either|Yes|Default configuration. Allows a single user to evaluate both client side by side. Chats and calls can land in either client, so users must always run both clients.|
-|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Teams|Yes|"Meetings First". Primarily for on-premise organizations to benefit from Teams meeting functionality, if they are not yet ready to mode calling to the cloud. |
-|SfBWithTeamsCollab<sup>3</sup>|Skype for Business|Skype for Business |Yes|Alternate starting point for complex organizations that need tighter administrative control|
+|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Teams|Yes|"Meetings First". Primarily for on-premise organizations to benefit from Teams meeting functionality, if they are not yet ready to mode calling to the cloud.|
+|SfBWithTeamsCollab<sup>3</sup>|Skype for Business|Skype for Business|Yes|Alternate starting point for complex organizations that need tighter administrative control|
 |SfBOnly|Skype for Business|Skype for Business|No<sup>2</sup>|Specialized Scenario for organizations with strict requirements around data control. Teams is used only to join meetings scheduled by others.|
 ||||||
+
 </br>
 </br>
 
