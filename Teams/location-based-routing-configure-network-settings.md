@@ -88,7 +88,7 @@ Identity, Mask, SiteID
 ## Define external subnets
 Use the ``New-CsTenantTrustedIPAddress`` cmdlet to define external subnets and assign them to the tenant. You can define an unlimited number of subnets for a tenant. 
 ```
-New-CsTenantTrustedIPAddress -IPAddress <External> -MaskBits <Subnet bitmask> -Description <description> 
+New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 For example:
 ```
