@@ -25,7 +25,7 @@ description: "Learn about add-on licenses, what features you'll get with each li
 
 Add-on licenses are licenses for specific Microsoft Teams features. Some businesses want the flexibility of purchasing only specific features at a competitive price. To add a feature, buy one add-on license for each user who will use it.
 
-Microsoft Teams licensing is designed to give you the maximum amount of flexibility. For example, after using basic Teams features for a while, you can buy add-on licenses when you're ready to use more features, such as Audio Conferencing, or the Phone System in Office 365.
+Microsoft Teams licensing is designed to give you the maximum amount of flexibility. For example, after using basic Teams features for a while, you can buy add-on licenses when you're ready to use more features, such as Audio Conferencing or the Phone System in Office 365.
 
 ## How does add-on licensing affect cost?
 
@@ -46,7 +46,7 @@ Depending on which plan you already have, you can buy add-on licenses for the fo
 |**Feature** <br/> |**Description** <br/> |
 |**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Teams meeting, instead of using their computer. Use the Audio Conferencing feature for this situation.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> If you are looking for how much it costs, see [Pricing for Audio Conferencing](https://products.office.com/microsoft-teams/online-meeting-solutions).  <br/> |
 |**Toll free numbers for dial-in access to your conferences, and the ability to dial out from a conference to add someone by calling any telephone number in the world** <br/> |If you add Audio Conferencing, we recommend that you [Set up Communications Credits](../set-up-communications-credits-for-your-organization.md). <br/> |
-|**Phone System** <br/> |A PBX is a telephone system in a business. Phone System in Office 365 is a hosted telephone service. It gives you both traditional and innovative PBX capabilities, but without the complicated and expensive equipment. [Here's what you get with Phone System in Office 365](/here-s-what-you-get-with-phone-system.md).  <br/> If you are looking for how much it costs, see [Phone System](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
+|**Phone System** <br/> |A PBX is a telephone system in a business. Phone System in Office 365 is a hosted telephone service. It gives you both traditional and innovative PBX capabilities, but without the complicated and expensive equipment. [Here's what you get with Phone System in Office 365](../here-s-what-you-get-with-phone-system.md).  <br/> If you are looking for how much it costs, see [Phone System](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
 |**Calling Plans** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](../calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> If you are looking for how much it costs, see [Calling Plan Pricing](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
 |**Skype Room Systems v2** <br/> |This isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Skype Room Systems v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
 
@@ -89,12 +89,12 @@ For extensive documentation on planning your deployment, including Phone System 
 --->
 ## Related topics
 
-- [Set up Teams](/microsoft-teams.md)
+- [Set up Teams](../microsoft-teams.md)
     
-- [Set up Phone System voicemail - Admin help](/set-up-phone-system-voicemail.md)
+- [Set up Phone System voicemail - Admin help](../set-up-phone-system-voicemail.md)
     
 - [Set up Calling Plans](/set-up-calling-plans.md) and [Calling Plans for Office 365](/MicrosoftTeams/calling-plans-for-office-365)
     
-- [Add funds and manage Communications Credits](/add-funds-and-manage-communications-credits.md)
+- [Add funds and manage Communications Credits](../add-funds-and-manage-communications-credits.md)
     
 - [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
