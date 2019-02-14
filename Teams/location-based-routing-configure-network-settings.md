@@ -37,10 +37,10 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 ## Define network sites
 
-Use the ``New-CsTenantNetworkSitePowerShell`` PowerShell cmdlet to define network sites. 
+Use the ``New-CsTenantNetworkSite`` PowerShell cmdlet to define network sites. 
 
 ```
-New-CsTenantNetworkSite -NetworkRegionID <region ID>  
+New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 In this example, we create two new network sites, Delhi and Hyderabad, in the India region. 
 ```
@@ -88,11 +88,11 @@ Identity, Mask, SiteID
 ## Define external subnets
 Use the ``New-CsTenantTrustedIPAddress`` cmdlet to define external subnets and assign them to the tenant. You can define an unlimited number of subnets for a tenant. 
 ```
-New-CsTenantTrustedIPAddress -IPAddress <Subnet IP address> -MaskBits <Subnet bitmask> -Description <description> 
+New-CsTenantTrustedIPAddress -IPAddress <External> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 For example:
 ```
-New-CsTenantTrustedIPAddress -IPAddress 192.168.0.1 -MaskBits 30 -Description "Contoso address"  
+New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description "Contoso address"  
 ```
 
 ## Next steps
