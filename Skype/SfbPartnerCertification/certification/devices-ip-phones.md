@@ -28,7 +28,7 @@ In the meantime, Skype for Business supports backwards compatibility with all of
 
 Basic functionalities will continue to work on Skype for Business certified devices when a user switches to Microsoft Teams. However, in order to be Teams certified, phone vendors would need to meet the new requirements for Teams certification.
 
-## Conference Phones
+## Conference phones
 
 |Manufacturer | Model| Version| Qualification Date|
 |:--- |:--- |:--- |:--- |
@@ -36,7 +36,7 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | Polycom| RealPresence Trio 8800| 5.5.4.2255| 3/09/2017|
 ||||
 
-## Skype for Business and Lync desk phones
+## Desk phones
 
 |Manufacturer | Model| Version| Qualification Date|
 |:--- |:--- |:--- |:--- |
