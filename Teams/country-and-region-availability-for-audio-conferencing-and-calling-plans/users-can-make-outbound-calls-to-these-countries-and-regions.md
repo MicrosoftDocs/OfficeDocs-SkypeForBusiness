@@ -1,7 +1,7 @@
 ---
 title: Users can make outbound calls to these countries and regions
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark
 ms.topic: article
