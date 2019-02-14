@@ -3,7 +3,7 @@ title: "Phones and Devices for Teams"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: dougand
+ms.reviewer: dvank, kponnus
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
@@ -28,20 +28,32 @@ In addition to offering customers a range of Skype for Business certified IP pho
 - Calendar integration and one-touch meeting join
 - Deployed and managed via the Microsoft Device Management Solution with Intune integration
 
-### Features for end-users
-- The Teams certified IP phone will be an independent Teams client running natively on the IP phone and would bring the rich Teams user experience to a desk phone.
-- In addition to having the ability to make/receive calls, the touch screen phone user interface allows users to navigate to call history, voicemail and meeting screens.
-- Users can see the presence of contacts in their call history, other meeting participants etc.
-- Voicemail transcription is available in the voicemail tab.
+## Currently certified IP Phones
 
-### Administrator experience
-- The tenant administrator can deploy and manage Teams certified phones in their tenant via the Microsoft Device Management Portal.
-- The Teams certified IP phone is enrolled into Intune during the sign-in process.
-- Firmware and application updates are deployed and managed via the Microsoft Device Management solution.
+The following phones are Certified for Microsoft Teams: 
 
-If you are a vendor seeking to join the certification program, see How to Join for requirements and available programs.
+|Phone Model|Firmware Version|Release Date |
+|:---|:---|:---|:---|
+|Crestron M100|2.3875.00068|Dec 2018|
+|Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |Jan 2019|
+|Yealink CP 960 |73.15.0.20|Dec 2018|
+|Yealink T58 & T56 series |58.15.0.20|Dec 2018|
+||||
+
+See [Microsoft Teams phones feature set](/MicrosoftTeams/phones-for-teams.md#microsoft-teams-phones-feature-set) for information on features supported by these devices.
+
+See [Finding the Firmware version on a mobile device](/MicrosoftTeams/phones-for-teams.md#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device. 
+
+Microsoft Teams licenses can be purchased as part of their [Office 365 subscriptions](Office-365-licensing.md). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/en-us/microsoft-teams/voice-calling).
+
+For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+
+* * *
+
+<!-- If you are a vendor seeking to join the certification program, see How to Join for requirements and available programs.  -->
 
 ## Additional resources
+
 Learn about [Skype for Business and Microsoft Teams certification programs](https://docs.microsoft.com/SkypeForBusiness/certification/overview).
 
 [Explore Microsoft Teams phones and certified devices.](https://products.office.com/en-us/microsoft-teams/across-devices/devices)

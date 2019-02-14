@@ -20,8 +20,9 @@ description: "This article covers the list of phones that are certified for Micr
 
 Microsoft Teams supports a portfolio of desk phones for users who require a traditional phone experience. This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams. To get the latest and up-to-date information on Teams certified devices, go to [Teams Marketplace](http://office.com/teamsdevices).
 
-## Teams certified IP phones
-To deliver a high-quality and reliable Microsoft Teams experience on phones, we are partnering and actively working with Yealink, Crestron, Polycom, and Audiocodes to develop and certify a wide portfolio of desk phones and conference room audio devices. See [IP Phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) for current supported devices.
+## Teams certified IP phones 
+
+To deliver a high-quality and reliable Microsoft Teams experience on phones, we are partnering and actively working with Yealink, Crestron, Polycom, and Audiocodes to develop and certify a wide portfolio of desk phones and conference room audio devices. See [Currently certified IP Phones](/SfbPartnerCertification/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) for current supported devices.
 
 ## Microsoft Teams phones feature set
 
@@ -119,7 +120,7 @@ The Teams phone user can choose to sign out by selecting the **Sign Out** option
 
 ![Signing out of Teams](media/teams-sign-out.png)
 
-# Finding the Firmware version on a mobile device
+## Finding the Firmware version on a mobile device
 
 The minimum firmware version can be checked on the Teams sign-in page by choosing the **Settings** icon in the top-right corner and then clicking **About**.
 
