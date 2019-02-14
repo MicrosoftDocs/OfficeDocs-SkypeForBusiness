@@ -1,7 +1,7 @@
 ---
 title: "Here's what you get with Phone System in Office 365"
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 msreviewer: jastarck, makolomi
 ms.topic: article

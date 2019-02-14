@@ -1,7 +1,7 @@
 ---
 title: "Add, change, or remove an emergency address for your organization"
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article

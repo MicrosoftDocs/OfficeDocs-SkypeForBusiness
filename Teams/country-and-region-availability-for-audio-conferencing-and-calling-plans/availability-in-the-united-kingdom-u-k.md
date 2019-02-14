@@ -1,7 +1,7 @@
 ---
 title: "Availability in the United Kingdom (U.K.)"
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
