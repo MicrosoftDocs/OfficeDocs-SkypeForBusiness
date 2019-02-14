@@ -1168,13 +1168,13 @@ _Figure 29 – HTTP Proxy Usage by Building and Subnet_
 
 ##### Remediation
 
-We [recommend](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online) that you always bypass proxies for Skype for Business and Teams, especially media traffic. Proxies don't make Skype for Business more secure, because its traffic is already encrypted. Performance-related problems can be introduced to the environment through latency and packet loss. Issues such as these will result in a negative experience with audio, video and screen sharing, where real-time streams are essential.
+We [recommend](proxy-servers-for-skype-for-business-online.md) that you always bypass proxies for Skype for Business and Teams, especially media traffic. Proxies don't make Skype for Business more secure, because its traffic is already encrypted. Performance-related problems can be introduced to the environment through latency and packet loss. Issues such as these will result in a negative experience with audio, video and screen sharing, where real-time streams are essential.
 
 The most common cause of HTTP usage is missing exception rules in proxies. By using the building or subnet provided, you can quickly determine which proxy needs to be configured for media bypass.
 
 Verify that the required [Office 365 FQDNs](https://aka.ms/o365ips) are whitelisted in your proxy.
 
-For more information about using proxies with Skype for Business Online and Teams, see [this article](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online).
+For more information about using proxies with Skype for Business Online and Teams, see [this article](proxy-servers-for-skype-for-business-online.md).
 
 ## Endpoint investigations
 

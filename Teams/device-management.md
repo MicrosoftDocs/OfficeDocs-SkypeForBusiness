@@ -16,7 +16,8 @@ appliesto:
 
 # Manage your devices in Microsoft Teams
 
- As an admin, you manage all devices used with Teams in your organization from the Microsoft Teams admin center. You can view and manage the device inventory for your organization and do tasks such as update, restart, and monitor diagnostics for devices. You can also create and assign configuration profiles to a device or groups of devices. 
+::: zone target="docs"
+As an admin, you manage all devices used with Teams in your organization from the Microsoft Teams & Skype for Business admin center. You can view and manage the device inventory for your organization and do tasks such as update, restart, and monitor diagnostics for devices. You can also create and assign configuration profiles to a device or groups of devices. 
 
 ## What devices can you manage?
 Devices must be certified for Teams and enrolled in Teams. A device is automatically enrolled the first time a user signs in to Teams on the device. For a list of certified devices that can be managed, see [Conference phones](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) and [Desk phones](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).
@@ -30,6 +31,8 @@ Devices must be certified for Teams and enrolled in Teams. A device is automatic
 
 1. In the left navigation, go to **Devices** > **Manage Devices**.
 2. Select **All devices**.  
+
+::: zone-end
 
  From here, you can view and manage all devices enrolled in Teams in your organization. Information that you'll see for each device includes device name, manufacturer, model, user, status, action, last seen, and history. You can customize the view to show the information that fits your needs.
 
@@ -49,18 +52,28 @@ Use configuration profiles to manage settings and features for Teams devices in 
 
 ### Create a configuration profile
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+::: zone target="docs"
+
+![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
 
 1. In the left navigation, go to **Devices** > **Manage Devices**.
+
+::: zone-end
+
 2. Select **Configuration profiles**, and then select **New configuration profile**.
 3. Enter a name for the profile and if you want, add a friendly description.
 4. Specify the settings you want for the profile, and then click **Save**.
 
 ### Assign a configuration profile
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
+::: zone target="docs"
+
+![teams-logo-30x30.png](media/teams-logo-30x30.png) Using the Microsoft Teams & Skype for Business admin center
 
 1. In the left navigation, go to **Devices** > **Manage Devices**.
+
+::: zone-end
+
 2. Select **Configuration profile**, and then under **Assigned to** in the profile you want to assign, click the link.  
 3. In the **Assign devices to a configuration profile** pane, search for and select the devices you want to assign.
 4. Click **Save**.

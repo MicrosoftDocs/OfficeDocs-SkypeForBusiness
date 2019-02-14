@@ -26,13 +26,13 @@ Teams and channels
 |Feature    | Maximum limit |
 |-----------|---------------|
 |Number of teams a user can create | Subject to a 250 object limit&sup1;         |
-|Number of members in a team | 2,500       |
+|Number of members in a team | 5,000       |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 2,500       |
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams an Office 365 tenant can have    | 500,000     |
 |Number of channels per team    | 200 (includes deleted channels)         |
 
-&sup1;Any directory object in Azure Active Directory counts towards this limit.
+&sup1;Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
 
 > [!NOTE]
 > Channels don't support special characters like ~ # % & * {} + / \ : < > ? | ' " in the channel name.  

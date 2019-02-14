@@ -10,7 +10,7 @@ ms.service: skype-for-business
 ms.collection: Skype
 ms.audience: Admin
 appliesto:
-- Skype
+- Microsoft Teams
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
