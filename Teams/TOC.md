@@ -65,11 +65,11 @@
 ### [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
 ### [Use inline message translation](inline-message-translation-teams.md)
 ### [Use Microsoft Teams scoped directory search](teams-scoped-directory-search.md)
-### [Teams analytics and reporting](teams-analytics-and-reports/teams-reporting-reference.md)
+### [Teams analytics and reporting in the Microsoft Teams admin center](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams usage report](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams user activity report](teams-analytics-and-reports/user-activity-report.md) 
 #### [Teams device usage report](teams-analytics-and-reports/device-usage-report.md)
-#### [Use activity reports for Teams](teams-activity-reports.md)
+### [Teams activity reports in the Microsoft 365 admin center](teams-activity-reports.md)
 
 
 ## Reference
