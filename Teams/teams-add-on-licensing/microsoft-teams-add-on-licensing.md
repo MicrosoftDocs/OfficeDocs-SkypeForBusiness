@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Teams add-on licensing"
-ms.date: 02/13/2019
+ms.date: 02/14/2019
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -75,14 +75,14 @@ Depending on the add-ons you want, we recommend [comparing whether it's more cos
 
 See your plan under "License options based on your plan" for more details about which licenses to buy and how to see prices and purchase add-on licenses.
 
-## How do I use my existing Calling Plans with Skype for Business?
+## How do I use my existing Calling Plans with Teams?
 <a name="bkmk_existing"></a>
-
+<!---
 If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
-
+--->
 If you are using on-premises PSTN connectivity for hybrid users, you  *only*  assign **Phone System** licenses to your users. **DO NOT** also assign a Calling Plan.
 
-For extensive documentation on planning your deployment, including Phone System with on-premises PSTN connectivity, see [Plan your Phone System in Office 365 (Cloud PBX) solution](https://technet.microsoft.com/en-us/library/mt612869.aspx).
+For extensive documentation on planning your deployment, including Phone System with on-premises PSTN connectivity, see [Microsoft telephony solutions](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/msft-telephony-solutions).
 
 <!---
 [!INCLUDE [LinkedIn Learning Info](../../../common/office/linkedin-learning-info.md)]
@@ -93,8 +93,9 @@ For extensive documentation on planning your deployment, including Phone System 
     
 - [Set up Phone System voicemail - Admin help](../set-up-phone-system-voicemail.md)
     
-- [Set up Calling Plans](/set-up-calling-plans.md) and [Calling Plans for Office 365](/MicrosoftTeams/calling-plans-for-office-365)
+- [Set up Calling Plans](../set-up-calling-plans.md) and [Calling Plans for Office 365](../calling-plans-for-office-365.md)
     
 - [Add funds and manage Communications Credits](../add-funds-and-manage-communications-credits.md)
-    
+<!---    
 - [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
+--->
