@@ -44,7 +44,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
 1. Install the **Microsoft Online Services Sign-In Assistant for IT Professionals RTW**. Don't have the module installed? See [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkId=625123) to download it.
 
-2. Install the **Windows Azure Active Directory Module.** Don't have the module installed? See [Manage Azure AD using Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628) for download instructions and cmdlet syntax.
+2. Install the **Windows Azure Active Directory Module.** Don't have the module installed? See [Azure Active Directory cmdlets](https://go.microsoft.com/fwlink/p/?LinkId=320628) for download instructions and cmdlet syntax.
 
 3. Once you get the modules installed, use the Windows PowerShell command prompt and the following syntax to assign the licenses to your users:
 
@@ -108,7 +108,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
 - **Third-party audio conferencing provider**: If someone is already set up to use a third-party audio conferencing provider, when you assign them an **Audio Conferencing** license, they will be changed to use Microsoft as the audio conferencing provider. You can change them back to the third-party provider.
 
-- Next steps: After you assign **Audio Conferencing** licenses, you need to assign an audio conferencing provider. See [Assign Microsoft as the audio conferencing provider](../../skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
+- Next steps: After you assign **Audio Conferencing** licenses, you need to assign an audio conferencing provider. See [Assign Microsoft as the audio conferencing provider](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 ### How to assign an Audio Conferencing license to one user
 
@@ -118,7 +118,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
 1. Download and install [Microsoft Online Services Sign-In Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/?LinkId=625123).
 
-2. Download and install the **Windows Azure Active Directory Module.** See [Manage Azure AD using Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=320628) for download instructions and cmdlet syntax.
+2. Download and install the **Windows Azure Active Directory Module.** See [Azure Active Directory cmdlets](https://go.microsoft.com/fwlink/p/?LinkId=320628) for download instructions and cmdlet syntax.
 
     Once you get the modules installed, use the Windows PowerShell command prompt and the following syntax to assign the licenses to your users.
 
