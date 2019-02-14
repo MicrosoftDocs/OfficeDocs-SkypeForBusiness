@@ -61,7 +61,7 @@ The add-on licensing options available to you depends on your Office 365 or Skyp
 - [Office 365 Enterprise E1, E3, and E4](office-365-enterprise-e1-e3-e4.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (without Audio Conferencing)](office-365-enterprise-e5-without-audio-conferencing.md)
-- [Skype Room Systems v2](../../../skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Skype Room Systems v2](../../../skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 - [GOV, EDU, and non-profit organizations](gov-edu-and-nonprofit-organizations.md)
 
 For a detailed list of features and comparisons for each Skype for Business plan, see the [Skype for Business Online Service Description](https://go.microsoft.com/fwlink/?LinkId=730729).
