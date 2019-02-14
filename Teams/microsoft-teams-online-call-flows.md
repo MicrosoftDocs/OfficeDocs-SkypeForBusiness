@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Online Call Flows
-author: tonysmit
-ms.author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.date: 06/08/2018
 ms.topic: article

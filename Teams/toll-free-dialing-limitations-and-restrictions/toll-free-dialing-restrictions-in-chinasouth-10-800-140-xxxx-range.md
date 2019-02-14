@@ -1,7 +1,7 @@
 ---
 title: "Toll-free dialing restrictions in China - South (10 800 140 XXXX range)"
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
