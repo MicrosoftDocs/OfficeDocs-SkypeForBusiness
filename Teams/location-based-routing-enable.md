@@ -60,7 +60,7 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
     
     ||Voice routing policy 1|Voice routing policy 2|
     |---------|---------|---------|
-    |Voice policy ID   |Delhi voice routing policy   |Hyderabad voice routing policy    |
+    |Online voice policy ID   |Delhi online voice routing policy   |Hyderabad online voice routing policy    |
     |Online PSTN usages  |Long Distance  |Long Distance, Local, Internal  |
 
     For more information, see [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
@@ -84,8 +84,8 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
 
     ||Site 1 (Delhi)  |Site 2 (Hyderabad)  |
     |---------|---------|---------|
+|Site name    |Site 1 (Delhi)    |Site 2 (Hyderabad)   
     |EnableLocationBasedRouting    |True    |True    |
-    |Voice routing policy    | Delhi voice routing policy       |Hyderabad voice routing policy    |
     |Subnets     |Subnet 1 (Delhi)     |Subnet 2 (Hyderabad)     |
 
 ## Enable Location-Based Routing for gateways
