@@ -83,9 +83,9 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
 If you are using on-premises PSTN connectivity for hybrid users, you  *only*  assign **Phone System** licenses to your users. **DO NOT** also assign a Calling Plan.
 
 For extensive documentation on planning your deployment, including Phone System with on-premises PSTN connectivity, see [Microsoft telephony solutions](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/msft-telephony-solutions).
-
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
-
+<!---
+[!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
+--->
 ## Related topics
 
 - [Set up Teams](../microsoft-teams.md)
