@@ -69,7 +69,7 @@ By using Phone System, your Skype for Business users will get the following feat
 
 Set up Phone System in the way that best suits your business:
   
-- You can use the Phone System add-on with your company's existing phone lines, or the service for inbound and outbound calls.
+- You can use the Phone System add-on with your company's existing phone lines, or the [Phone System with Calling Plans](calling-plan-landing-page.md) service for inbound and outbound calls.
     
 - You can get new phone numbers from Office 365, or transfer existing phone numbers to Skype for Business. 
     
