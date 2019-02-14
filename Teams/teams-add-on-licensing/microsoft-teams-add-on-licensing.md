@@ -48,21 +48,21 @@ Depending on which plan you already have, you can buy add-on licenses for the fo
 |**Toll free numbers for dial-in access to your conferences, and the ability to dial out from a conference to add someone by calling any telephone number in the world** <br/> |If you add Audio Conferencing, we recommend that you [Set up Communications Credits](../set-up-communications-credits-for-your-organization.md). <br/> |
 |**Phone System** <br/> |A PBX is a telephone system in a business. Phone System in Office 365 is a hosted telephone service. It gives you both traditional and innovative PBX capabilities, but without the complicated and expensive equipment. [Here's what you get with Phone System in Office 365](../here-s-what-you-get-with-phone-system.md).  <br/> If you are looking for how much it costs, see [Phone System](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
 |**Calling Plans** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](../calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> If you are looking for how much it costs, see [Calling Plan Pricing](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
-|**Skype Room Systems v2** <br/> |This isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Skype Room Systems v2](../../sfbonline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
+|**Skype Room Systems v2** <br/> |This isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Skype Room Systems v2](../../skype/sfbonline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).  <br/> |
 
 Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-## License options based on your plan <to here>
+## License options based on your plan 
 
 The add-on licensing options available to you depends on your Office 365 or Skype for Business plan. See the following topics for information, features, and options that are specific to your plan.
 
-- [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
-- [Office 365 Premium, Office 365 ProPlus, or Skype for Business Online Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
-- [Office 365 Enterprise E1, E3, and E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
-- [Office 365 Enterprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
-- [Office 365 Enterprise E5 (without Audio Conferencing)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
-- [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
-- [GOV, EDU, and non-profit organizations](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
+- [Office 365 Business Premium](office-365-business-premium-plan.md)
+- [Office 365 Premium, Office 365 ProPlus, or Skype for Business Online Plan 2](office-365-premium-pro-plus-or-business-online-plan.md)
+- [Office 365 Enterprise E1, E3, and E4](office-365-enterprise-e1-e3-e4.md)
+- [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
+- [Office 365 Enterprise E5 (without Audio Conferencing)](office-365-enterprise-e5-without-audio-conferencing.md)
+- [Skype Room Systems v2](../../skype/sfbonline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+- [GOV, EDU, and non-profit organizations](gov-edu-and-nonprofit-organizations.md)
 
 For a detailed list of features and comparisons for each Skype for Business plan, see the [Skype for Business Online Service Description](https://go.microsoft.com/fwlink/?LinkId=730729).
 
@@ -84,17 +84,17 @@ If you are using on-premises PSTN connectivity for hybrid users, you  *only*  as
 
 For extensive documentation on planning your deployment, including Phone System with on-premises PSTN connectivity, see [Plan your Phone System in Office 365 (Cloud PBX) solution](https://technet.microsoft.com/en-us/library/mt612869.aspx).
 
-
-[!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
-
+<!---
+[!INCLUDE [LinkedIn Learning Info](../../../common/office/linkedin-learning-info.md)]
+--->
 ## Related topics
 
-- [Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+- [Set up Teams](/microsoft-teams.md)
     
-- [Set up Phone System voicemail - Admin help](/microsoftteams/set-up-phone-system-voicemail)
+- [Set up Phone System voicemail - Admin help](/set-up-phone-system-voicemail.md)
     
-- [Set up Calling Plans](/microsoftteams/set-up-calling-plans) and [Calling Plans for Office 365](/MicrosoftTeams/calling-plans-for-office-365)
+- [Set up Calling Plans](/set-up-calling-plans.md) and [Calling Plans for Office 365](/MicrosoftTeams/calling-plans-for-office-365)
     
-- [Add funds and manage Communications Credits](/microsoftteams/add-funds-and-manage-communications-credits)
+- [Add funds and manage Communications Credits](/add-funds-and-manage-communications-credits.md)
     
 - [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
