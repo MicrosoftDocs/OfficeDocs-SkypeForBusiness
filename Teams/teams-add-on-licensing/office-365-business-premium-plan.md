@@ -44,7 +44,7 @@ If you have [Office 365 Business Premium](https://products.office.com/en-us/busi
 
 2. Buy the **Phone System** add-on.
     
-3. Buy a [Calling Plan for Office 365](/MicrosoftTeams/calling-plans-for-office-365): you can only buy this after you buy the **Phone System** add-on.
+3. Buy a [Calling Plan for Office 365](/calling-plans-for-office-365.md): you can only buy this after you buy the **Phone System** add-on.
     
     This second option is ideal for businesses with several people who make and receive external phone calls.
 
