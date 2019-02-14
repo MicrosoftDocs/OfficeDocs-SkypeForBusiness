@@ -75,7 +75,7 @@ Set up Phone System in the way that best suits your business:
     
 See these articles to plan and set up the Phone System in your business:
 
-- [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365.md)
+- [Phone System with Calling Plans](calling-plan-landing-page.md)
 
 - [Set up Calling Plans](set-up-calling-plans.md): This article has step-by-step instructions to get set up with your phone numbers or to transfer your existing phone numbers to Skype for Business.
     
