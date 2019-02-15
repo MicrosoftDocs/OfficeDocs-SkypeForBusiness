@@ -1,5 +1,5 @@
 ---
-title: Manage meeting settings in Microsoft Teams
+title: Manage meeting settings
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,7 +12,8 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.meetingsettings.overview
+f1keywords: 
+- ms.teamsadmincenter.meetingsettings.overview
 MS.collection: Teams_ITAdmin_Help
 description: Learn how to manage settings for Teams meetings that users schedule in your organization. 
 ---

@@ -1,5 +1,5 @@
 ---
-title: "What are Messaging policies in Teams?"
+title: Manage messaging policies
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
