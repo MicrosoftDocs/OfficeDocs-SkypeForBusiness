@@ -55,7 +55,7 @@ Microsoft has identified various customer deployments that are consuming feature
 
 2.	**Establish a Skype for Business hybrid topology**
 
-    If you do not have a Skype for Business hybrid topology established, you need to do that to enable a smooth migration of your voicemail users. See [Configure Skype for Business hybrid](../hybrid/configure-federation-with-skype-for-business-online.md) for more details. 
+    If you do not have a Skype for Business hybrid topology established, you need to do that to enable a smooth migration of your voicemail users. See [Configure Skype for Business hybrid](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) for more details. 
 
     > [!Note]
     > You do not need to migrate your users to online for the voicemail service migration. However, for on-premises users to leverage the cloud-based voicemail service, a hybrid topology is must be established.

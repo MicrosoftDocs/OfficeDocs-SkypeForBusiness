@@ -92,7 +92,7 @@ When it comes to the information protection capabilities, Office 365 subscriptio
 |        In-Place eDiscovery        |               -                |              -              |            -             |             Yes             |           Yes            |
 |        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           Yes            |
 |            Legal Hold             |               -                |              -              |            -             |             Yes             |           Yes            |
-|     Compliance Content Search     |               -                |              -              |            -             |             Yes             |           Yes            |
+|     Compliance Content Search     |               -                |             Yes             |           Yes            |             Yes             |           Yes            |
 |      Auditing and Reporting       |              Yes               |             Yes             |           Yes            |             Yes             |           Yes            |
 |       Conditional Access\*        |              Yes               |             Yes             |           Yes            |             Yes             |           Yes            |
 
