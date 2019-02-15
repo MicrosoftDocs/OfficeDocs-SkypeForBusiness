@@ -28,8 +28,11 @@ Using this feature, a given team's members update automatically based on a speci
 Microsoft Teams may take anywhere from a few minutes to up to 2 hours to reflect dynamic membership changes once they take effect in the Office 365 group for a team. 
 
 > [!NOTE]
-> - Rules can define team members, but not team Owners.
+> - Rules can define who is a team member, but not who is a team Owner.
 > - See [Limits and specifications for Microsoft Teams](limits-specifications-teams.md) for current limits on Team and channel sizes.
+> - Owners will not be able to add or remove users as members of the team, since members are defined by dynamic group rules.
+> -	Members will not be able to leave teams backed by dynamic groups.
+
 
 ## Creating and managing an Office 365 group with dynamic membership
 While logged in as the tenant Admin, follow the instructions in [Create a dynamic group and check status](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). As needed, refer to [Dynamic membership rules for groups in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
