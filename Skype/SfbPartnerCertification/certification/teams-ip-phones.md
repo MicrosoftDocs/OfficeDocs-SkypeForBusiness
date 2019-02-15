@@ -50,7 +50,8 @@ For more information about getting Teams, check out [How do I get access to Micr
 
 * * *
 
-<!-- If you are a vendor seeking to join the certification program, see How to Join for requirements and available programs.  -->
+If you are a vendor seeking to join the certification program, see [How to Join](https://docs.microsoft.com/en-us/skypeforbusiness/certification/how-to-join) for requirements and available programs.
+
 
 ## Additional resources
 
