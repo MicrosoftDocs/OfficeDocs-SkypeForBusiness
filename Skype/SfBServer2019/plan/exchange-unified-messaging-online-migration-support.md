@@ -15,7 +15,7 @@ description: "Microsoft is retiring the Exchange Unified Messaging Online (ExchU
 
 # Exchange Unified Messaging Online migration support  
 
-In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-support-for-unified-messaging-in-exchange-online/) on February 8, 2019, Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity. 
+In reference to the [announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) on February 8, 2019, Microsoft is retiring the Exchange Unified Messaging Online (ExchUMO) service by February 2020. This article offers a summary of what affected customers should know and do to plan for their business continuity. 
  
 ExchUMO is deployed by customers for voicemail, Auto Attendant, and/or fax integration services. Microsoft plans to help these customers migrate to its cloud-based services that support thousands of customers already on Skype for Business Online and Microsoft Teams. 
 
@@ -50,12 +50,12 @@ Microsoft has identified various customer deployments that are consuming feature
 
 1.	**Get informed**
  
-    Familiarize yourself with the [blog announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-support-for-unified-messaging-in-exchange-online/) and this article to plan a smooth migration for your users. See [Check Skype for Business voicemail and options](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) for details on the Cloud Voicemail capabilities.  
+    Familiarize yourself with the [blog announcement](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) and this article to plan a smooth migration for your users. See [Check Skype for Business voicemail and options](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) for details on the Cloud Voicemail capabilities.  
  
 
 2.	**Establish a Skype for Business hybrid topology**
 
-    If you do not have a Skype for Business hybrid topology established, you need to do that to enable a smooth migration of your voicemail users. See [Configure Skype for Business hybrid](../hybrid/configure-federation-with-skype-for-business-online.md) for more details. 
+    If you do not have a Skype for Business hybrid topology established, you need to do that to enable a smooth migration of your voicemail users. See [Configure Skype for Business hybrid](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) for more details. 
 
     > [!Note]
     > You do not need to migrate your users to online for the voicemail service migration. However, for on-premises users to leverage the cloud-based voicemail service, a hybrid topology is must be established.

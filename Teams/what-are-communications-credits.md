@@ -1,7 +1,7 @@
 ---
 title: "What are Communications Credits?"
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article
