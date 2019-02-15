@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 02/08/2019
+ms.date: 02/15/2019
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
