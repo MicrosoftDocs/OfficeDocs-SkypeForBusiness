@@ -1,7 +1,7 @@
 ---
 title: "Toll-free dialing restrictions in Denmark"
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article

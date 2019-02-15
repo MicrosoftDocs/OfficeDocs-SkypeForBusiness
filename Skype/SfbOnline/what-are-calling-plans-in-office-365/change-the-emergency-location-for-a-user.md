@@ -1,7 +1,7 @@
 ---
 title: "Assign or change the emergency location for a user"
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
