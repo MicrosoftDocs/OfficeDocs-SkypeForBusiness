@@ -35,7 +35,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
         </a>
     </li>
     <li>
-        <a href="hybrid/plan-hybrid-connectivity.md">
+        <a href="../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
