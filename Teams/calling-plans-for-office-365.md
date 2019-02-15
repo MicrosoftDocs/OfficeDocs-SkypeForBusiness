@@ -1,7 +1,7 @@
 ---
 title: "Calling Plans for Office 365"
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article

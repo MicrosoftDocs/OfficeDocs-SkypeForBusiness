@@ -1,7 +1,7 @@
 ---
 title: "Availability in Austria"
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
