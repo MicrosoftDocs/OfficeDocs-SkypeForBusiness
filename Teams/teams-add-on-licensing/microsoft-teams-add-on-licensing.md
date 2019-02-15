@@ -47,18 +47,18 @@ Depending on which plan you already have, you can buy add-on licenses for the fo
 |**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Teams meeting, instead of using their computer. Use the Audio Conferencing feature for this situation.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). <br/> If you are looking for how much it costs, see [Pricing for Audio Conferencing](https://products.office.com/microsoft-teams/online-meeting-solutions).  <br/> |
 |**Toll free numbers for dial-in access to your conferences, and the ability to dial out from a conference to add someone by calling any telephone number in the world** <br/> |If you add Audio Conferencing, we recommend that you [Set up Communications Credits](../set-up-communications-credits-for-your-organization.md). <br/> |
 |**Phone System** <br/> |A PBX is a telephone system in a business. Phone System in Office 365 is a hosted telephone service. It gives you both traditional and innovative PBX capabilities, but without the complicated and expensive equipment. [Here's what you get with Phone System in Office 365](../here-s-what-you-get-with-phone-system.md).  <br/> If you are looking for how much it costs, see [Phone System](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
-|**Calling Plans** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](../calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> If you are looking for how much it costs, see [Calling Plan Pricing](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
+|**Calling Plans** <br/> |Calls to other Teams users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](../calling-plans-for-office-365.md). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> If you are looking for how much it costs, see [Calling Plan Pricing](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
 |**Skype Room Systems v2** <br/> |This isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Skype Room Systems v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
 
 Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ## License options based on your plan 
 
-The add-on licensing options available to you depends on your Office 365 or Skype for Business plan. See the following topics for information, features, and options that are specific to your plan.
+The add-on licensing options available to you depends on your Office 365 plan. See the following topics for information, features, and options that are specific to your plan.
 
 - [Office 365 Business Premium](office-365-business-premium-plan.md)
-- [Office 365 Premium, Office 365 ProPlus, or Skype for Business Online Plan 2](office-365-premium-pro-plus-or-business-online-plan.md)
-- [Office 365 Enterprise E1, E3, and E4](office-365-enterprise-e1-e3-e4.md)
+- [Office 365 Premium, Office 365 ProPlus](office-365-premium-pro-plus-or-business-online-plan.md)
+- [Office 365 Enterprise E1 or E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (without Audio Conferencing)](office-365-enterprise-e5-without-audio-conferencing.md)
 - [Skype Room Systems v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
@@ -82,7 +82,7 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
 --->
 If you are using on-premises PSTN connectivity for hybrid users, you  *only*  assign **Phone System** licenses to your users. **DO NOT** also assign a Calling Plan.
 
-For extensive documentation on planning your deployment, including Phone System with on-premises PSTN connectivity, see [Microsoft telephony solutions](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/msft-telephony-solutions).
+For extensive documentation on planning your deployment, including Phone System with on-premises PSTN connectivity, see [Microsoft telephony solutions](https://docs.microsoft.com/skypeforbusiness/hybrid/msft-telephony-solutions).
 <!---
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 --->
