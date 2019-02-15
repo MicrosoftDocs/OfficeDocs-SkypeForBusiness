@@ -20,7 +20,7 @@ description: "Summary: Review this topic while planning to integrate Skype for B
  If you want to integrate Exchange Unified Messaging (UM) with Skype for Business Server, you must perform the tasks outlined in this topic. Also be sure that you review the planning and deployment best practices described in [Plan for Exchange Unified Messaging integration in Skype for Business](unified-messaging.md). This topic assumes that you have deployed Skype for Business Server with a collocated Mediation Server and that you have enabled users for Skype for Business Server, but you may not have performed all deployment and configuration steps to enable Enterprise Voice, as described in [Deploy Enterprise Voice in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) in the Deployment documentation.
  
 > [!NOTE]
-> Exchange Unified Messaging as previously known is no longer available in Skype for Business Server 2019, which uses Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) for more information.
+> Exchange Unified Messaging as previously known is no longer available in Skype for Business Server 2019, which uses Phone System to record voicemail messages and then leave the recording in a user's Exchange mailbox. See [Plan Cloud Voicemail service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) for more information.
  
 ## Unified Messaging Integration Process
 
