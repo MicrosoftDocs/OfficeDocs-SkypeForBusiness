@@ -3,7 +3,7 @@ title: "Configure Cloud Auto Attendant"
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 8/31/2018
+ms.date: 2/11/2019
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -15,7 +15,7 @@ description: "Instructions for implementing a cloud-based Auto Attendant for you
 
 # Configure Cloud Auto Attendant
 
-Skype for Business Server 2019 hybrid implementations only use Cloud Voicemail and Cloud Auto Attendants and do not integrate with Exchange Online.
+Skype for Business Server 2019 hybrid implementations use only Cloud Voicemail and Cloud Auto Attendants and do not integrate with Exchange Online.
 
 Using Skype for Business Server 2019 with [Phone System Auto Attendants](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) is not yet available.
 
