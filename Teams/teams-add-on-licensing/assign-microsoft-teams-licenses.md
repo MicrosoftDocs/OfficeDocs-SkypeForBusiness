@@ -50,7 +50,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
    This example assigns an **Enterprise E3 license** along with a **Phone System** and a **Domestic Calling Plan** license.
 
-   For the list of product names  and SKUs, see [Phone System and Calling Plan product names or SKUs used for scripting](assign-skype-for-business-and-microsoft-teams-licenses.md#sku1), after the example).
+   For the list of product names  and SKUs, see [Phone System and Calling Plans product names or SKUs used for scripting](#phone-system-and-calling-plans-product-names-or-skus-used-for-scripting), after the example).
 
    ```
    #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
@@ -86,8 +86,8 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOPSTN1 " -ErrorAction SilentlyContinue
     }
    ```
- ### Phone System and Calling Plans product names or SKUs used for scripting
-<a name="sku1"> </a>
+ 
+### Phone System and Calling Plans product names or SKUs used for scripting
 
 |**Product name**|**SKU part name**|
 |:-----|:-----|
@@ -122,7 +122,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
     Once you get the modules installed, use the Windows PowerShell command prompt and the following syntax to assign the licenses to your users.
 
-    For the list of product names and SKUs, see [Audio Conferencing product names or SKUs used for scripting](assign-skype-for-business-and-microsoft-teams-licenses.md#sku), after the example.
+    For the list of product names and SKUs, see [Audio Conferencing product names or SKUs used for scripting](#audio-conferencing-product-names-or-skus-used-for-scripting), after the example.
 
     This example assigns an Enterprise E3 license along with an Audio Conferencing license.
 
@@ -162,7 +162,6 @@ foreach ($user in $users)
 ```
 
 ### Audio Conferencing product names or SKUs used for scripting
-<a name="sku"> </a>
 
 |**Product name**|**SKU part name**|
 |:-----|:-----|
