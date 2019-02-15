@@ -1,7 +1,7 @@
 ---
 title: "Availability in Trinidad and Tobago"
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
