@@ -50,7 +50,7 @@ If you have [Office 365 Business Premium](https://products.office.com/en/busines
 
 2. Go to **Billing** > **Purchase services** > **Add-on subscriptions**.
 
-You'll see the prices and option to buy Audio Conferencing.
+   You'll see the prices and option to buy Audio Conferencing.
 
 **To get Communications Credits**
 
@@ -58,7 +58,7 @@ You'll see the prices and option to buy Audio Conferencing.
 
 2. Go to **Billing** > **Purchase services** > **Add-on subscriptions**.
 
-    You’ll see the option to buy Communications Credits.
+   You’ll see the option to buy Communications Credits.
 
 3. To add funds to Communications Credits, go to **Billing** > **Subscriptions** > **Communications Credits**.
 

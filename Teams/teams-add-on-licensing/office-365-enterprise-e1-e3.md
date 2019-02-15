@@ -27,7 +27,7 @@ If you have already purchased the [Office 365 Enterprise E1](https://products.of
 |:------------------|:--------------------------|
 |Audio Conferencing <br/> <br/> |Buy the **Audio Conferencing add-on**. <br/>Buy 1 Audio Conferencing license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses.<br/> Once you buy the license, Microsoft will be your audio conferencing provider. |
 |Toll-free numbers for dial-in access to your meetings, and the ability to dial out from a meeting to add someone by calling any telephone number in the world<br/> | Buy [Communications Credits](../add-funds-and-manage-communications-credits.md).|
-|Phone System <br/> |<ol><li>Buy the Office 365 Phone System add-on. </li><li>Buy a [Calling Plan](../calling-plans-for-office-365.md) from Office 365.</li></ul>Or, use the [telephone service from your existing provider](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
+|Phone System <br/> |<ol><li>Buy the Office 365 Phone System add-on. </li><li>Buy a [Calling Plan](../calling-plans-for-office-365.md) for Office 365.</li></ul>Or, use the [telephone service from your existing provider](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |Phone System voicemail<br/> |For E1 plans, buy Exchange Online Plan 2. <br/>Or, switch to an Office Suite that comes with Exchange Online Plan 2, such as Office 365 E3. |
 |Calling Plans<br/> |<ol><li>Buy the Phone System add-on.</li><li>Buy a [Calling Plan](../calling-plans-for-office-365.md): you can only buy this after you buy the **Phone System** add-on.</li></ol> <br/> |
    
@@ -36,7 +36,9 @@ If you have already purchased the [Office 365 Enterprise E1](https://products.of
 <a name="bkmk_buypremium"> </a>
 
 1. Sign in to the Microsoft 365 admin center.
+
 2. Go to **Billing** > **Purchase services** > **Add-on subscriptions**
+
 3. You'll see the Phone System add-on. Select **Buy now**. 
 
 After you buy a Phone System license, you'll see the price and option to buy a Calling Plan.
