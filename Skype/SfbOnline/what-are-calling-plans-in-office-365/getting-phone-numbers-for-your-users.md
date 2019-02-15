@@ -1,7 +1,7 @@
 ---
 title: "Getting phone numbers for your users"
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -46,7 +46,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
   
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
+2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
 3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![Add button](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
     
@@ -85,7 +85,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
+2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
 3. In the left navigation, go to **Voice** > **Phone numbers**. The phone numbers you have for your organization are listed under **Number**.
     

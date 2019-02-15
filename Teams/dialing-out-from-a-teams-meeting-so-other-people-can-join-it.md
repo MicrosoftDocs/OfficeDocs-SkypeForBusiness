@@ -50,7 +50,7 @@ Dial-out is only available to some countries/regions. For complete list, see [Co
 
 ## Allow users to dial in
 
-If you are looking for instructions on how to let your users dial in to a Teams meeting, please see [Phone numbers for Audio Conferencing in Microsoft Teams](/Teams/phone-numbers-for-audio-conferencing-in-teams.md).
+If you are looking for instructions on how to let your users dial in to a Teams meeting, please see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).
 
 ## Want to know more about audio conferencing?
 

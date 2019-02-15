@@ -46,9 +46,9 @@ To learn more about how to configure authentication, see [Identity models and au
 
 ## Enable private meetings
 
-Allow scheduling for private meetings must be enabled in the Teams & Skype for Business Admin Center for the plug-in to get deployed. In the admin center, go to **Meetings** > **Meeting Policies**, and in the **General** section, toggle **Allow scheduling private meetings** to On.)
+Allow scheduling for private meetings must be enabled in the Microsoft Teams admin center for the plug-in to get deployed. In the admin center, go to **Meetings** > **Meeting Policies**, and in the **General** section, toggle **Allow scheduling private meetings** to On.)
 
-![Screenshot of the settings in the Teams & Skype for Business Admin Center.](media/teams-add-in-for-outlook-image1.png)
+![Screenshot of the settings in the Microsoft Teams admin center.](media/teams-add-in-for-outlook-image1.png)
 
 The Teams client installs the correct add-in by determining if users need the 32-bit or 64-bit version.
 
@@ -60,7 +60,6 @@ The Teams client installs the correct add-in by determining if users need the 32
 The Teams Meeting add-in is still building functionality, so be aware of the following:
 - Some online meeting features, such as recording, polling, and whiteboarding are not yet available.
 - Meeting options are currently not available.
-- Currently, you can only invite people from within your company, as it is not yet possible for external users to join meetings.
 - The add-in is for scheduled meetings with specific participants, not for meetings in a channel. Channel meetings must be scheduled from within Teams. Currently, the Teams Meeting add-in in Outlook is only available for Windows users, but support for Mac is coming.
 - The add-in will not work if an Authentication Proxy is in the network path of user's PC and Teams Services.
 - The add-in is being rolled out incrementally and might not be available for your organization yet.

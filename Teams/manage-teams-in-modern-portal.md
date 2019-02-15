@@ -1,5 +1,5 @@
 ---
-title: Manage teams in the Microsoft Teams & Skype for Business Admin Center
+title: Manage teams in the Microsoft Teams admin center
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,35 +8,34 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: islubin 
-description: Learn how to view or update your teams in the Microsoft Teams & Skype for Business Admin Center.
+description: "Learn how to view or update your teams in the Microsoft Teams admin center."
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin 
 appliesto: 
 - Microsoft Teams
-- 
 ---
 
-Manage teams in the Microsoft Teams & Skype for Business Admin Center
+Manage teams in the Microsoft Teams admin center
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## Overview
 
-As an IT admin, you may need to view or update the teams that your organization has set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams & Skype for Business Admin Center. For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:
+As an IT admin, you may need to view or update the teams that your organization has set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams. You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center. For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:
 
 - Global Administrator
 - Teams Service Administrator
 
 You should also make sure that your account has been assigned a non-trial Teams license for management. As part of a known issue, you should make sure that your account has only **one** admin role assigned.  You can learn more about admin roles in Microsoft Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
-This article provides an overview of the management tools for teams in the Microsoft Teams & Skype for Business Admin Center.
+This article provides an overview of the management tools for teams in the Microsoft Teams admin center.
 
 ## Teams overview grid
 
-Management tools for teams are under the **Teams** node in the Microsoft Teams & Skype for Business Admin Center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
+Management tools for teams are under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
 > [!NOTE]
 > We are in the process of backfilling previously created Teams to ensure that they will show up in this view.
@@ -85,6 +84,30 @@ You can change the following elements of a team:
 
 
 The changes that you make to a team are logged. If you are modifying group settings (changing the name, description, photo, privacy, classification, or team members), these changes will be attributed to you through the audit pipeline. If you are performing actions against Teams-specific settings, your changes will be tracked and attributed to you in the general channel of the team.
+
+## Troubleshooting
+
+**Issue: Teams missing from the Team Overview Grid**
+
+When you enter the Microsoft Teams admin center, under the **Teams** option some of your teams are missing from the listing in the Teams Overview Grid.
+
+**Cause**: This issue occurs when the team was incorrectly (or not yet) profiled by the system which can lead to a missing property for it to be recognized.
+
+**Resolution: Manually set the property to the correct value via MS Graph**
+
+Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.
+
+1. Access [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
+
+2. Sign in to Graph Explorer on the left-hand side menu
+
+3. Change the query line to: PATCH > v1.0 > https://graph.microsoft.com/v1.0/groups/{groupid}
+
+4. Add the following value on the request body: {"resourceProvisioningOptions": ["Team"]}
+
+5. Run the Query on the Top-Right.
+
+6. Confirm the team appears correctly back on the Microsoft Teams admin center - Team Overview
 
 
 ## Learn more

@@ -1,7 +1,7 @@
 ---
 title: "Different kinds of phone numbers used for Calling Plans"
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article

@@ -173,7 +173,7 @@ In order to know what behavior to expect, you'll need to understand that Presenc
     * From Skype for Business, any other user will see the Islands user’s Skype for Business presence (both in-tenant and federated); this is aligned with the routing tables above
 
 > [!NOTE]
-> This is a recent change from the previous implementation (called Unified Presence) which showed a combined, aggregated presence of the target’s Teams and Skype for Business clients. That previous approach turned out to be confusing to users as it would frequently result in displaying in accurate presence,  i.e. a user not being reachable even though their presence showed them online.
+> This is a recent change from the previous implementation (called Unified Presence) which showed a combined, aggregated presence of the target’s Teams and Skype for Business clients. That previous approach turned out to be confusing to users as it would frequently result in displaying inaccurate presence,  i.e. a user not being reachable even though their presence showed them online.
 
 ## In-tenant presence
 
@@ -208,3 +208,7 @@ The table below describes the Publisher’s presence that will be seen by a Watc
 In order to align presence and reachability in pre-existing threads, the target’s presence exposed in that thread needs to be aligned with the routing of the thread, assuming routing is possible.
 
 In particular, if a recipient you previously had a persistent interop conversation thread with was upgraded to Teams, that thread will no longer reflect accurate presence and will no longer be routable. You should start a new thread.
+
+## Related Links
+
+[Video: Manage Coexistence and Interoperability between SfB and Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

@@ -1,14 +1,13 @@
 ---
-title: "Users can make outbound calls to these countries and regions"
-ms.author: tonysmit
-author: tonysmit
+title: Users can make outbound calls to these countries and regions
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark
 ms.topic: article
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service: 
-- skype-for-business-online
 - msteams
 ms.collection: 
 - Adm_Skype4B_Online 

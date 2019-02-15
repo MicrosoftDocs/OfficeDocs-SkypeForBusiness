@@ -1,7 +1,7 @@
 ---
 title: "Assign or change the emergency location for a user"
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -33,7 +33,7 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
+2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
 3. In the left navigation go to **Voice** > **Voice users**.
     

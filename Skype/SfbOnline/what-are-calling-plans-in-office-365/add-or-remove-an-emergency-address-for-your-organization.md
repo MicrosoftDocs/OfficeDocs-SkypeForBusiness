@@ -1,7 +1,7 @@
 ---
 title: "Add, change, or remove an emergency address for your organization"
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -35,7 +35,7 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams & Skype for Business Admin Center** > **Legacy portal**.
+2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
 3. In the left navigation, go to **Voice** > **Emergency locations**, and then click the **Add new address** button.
     
@@ -48,6 +48,8 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
     
     > [!IMPORTANT]
     > Validating a street or civic address involves making sure that it is legitimate and correctly formatted. It is possible that a partially correct emergency address, such as if you mistyped the name of the city, may still pass validation. Even though it's misspelled and passed validation, the combination of the misspelled name of city along with the other correct parts of the address are enough information to route the call to the appropriate emergency dispatch center. 
+    
+    > NOTE: In Belgium, France, Germany, Ireland, Netherlands, and Spain it is important to understand that in order to successfully activate a phone number in Office 365 the address setup in the Emergency Location, which will be used to acquire the number, must match the phone number’s area code.
   
     If the address can't be validated, you can send a manual validation request by clicking **Send a validation request** if you are trying to validate a U.S. address, or click **Open a service request to get help with address validation** if you are outside the United States.
     
@@ -57,7 +59,7 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams & Skype for Business Admin Center** > **Legacy portal**.
+2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
 3. In the left navigation, go to **Voice** > **Emergency locations**, select the address you want to change, and in the Action pane click **Edit**.
     
@@ -72,7 +74,7 @@ To learn how to get a Calling Plan and how much it costs, see [Skype for Busines
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.
+2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
 3. In the left navigation, go to **Voice** > **Emergency locations**, select the address you want to delete, and in the Action pane click **Delete**.
     
@@ -100,7 +102,7 @@ If indeed a wrong emergency address has been used, make sure you have created a 
 
 1. Sign in to Office 365 with your work or school account.
     
-2. Go to the **Microsoft Teams & Skype for Business Admin Center** > **Legacy portal**.
+2. Go to the **Microsoft Teams admin center** > **Legacy portal**.
     
 3. In the left navigation, go to **Voice** > **Phone Numbers**, and then double-click on the number in **“Failed”** State and from the right hand site menu, select the **new Emergency Address**.
 

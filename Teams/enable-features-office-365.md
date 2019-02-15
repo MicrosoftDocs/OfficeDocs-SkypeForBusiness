@@ -19,7 +19,7 @@ appliesto:
 
 # Manage Microsoft Teams features in your Office 365 organization
 
-All Teams settings will soon be migrated to the new Microsoft Teams & Skype for Business Admin Center. The only Teams feature that's managed in the Microsoft 365 admin center is Apps. 
+All Teams settings will soon be migrated to the new Microsoft Teams admin center. The only Teams feature that's managed in the Microsoft 365 admin center is Apps. 
 
 Unless otherwise noted, the default value for an option is **On**.
 
@@ -57,7 +57,7 @@ To learn more, see [Admin settings for apps in Teams](admin-settings.md).
 
 ## Teams org-wide settings
 
-You can control organization-wide user settings in the Microsoft Teams & Skype for Business Admin Center. To edit org-wide settings, go to the Microsoft Teams & Skype for Business Admin Center, and then select **Org-wide settings**. You can configure the following settings.
+You can control organization-wide user settings in the Microsoft Teams admin center. To edit org-wide settings, go to the Microsoft Teams admin center, and then select **Org-wide settings**. You can configure the following settings.
 
 ### External access
 
@@ -115,7 +115,7 @@ Here you can choose the app that users will use to join Skype for Business meeti
 
 ## How can I tell which features are available?
 
-See the [Office 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) for information about new Teams features. For more information about new and upcoming features, see the Teams [What's New](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) page and the [Tech Community Microsoft Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531) for Teams. 
+See the [Microsoft 365 Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) for information about new Teams features. For more information about new and upcoming features, see the Teams [What's New](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) page and the [Tech Community Microsoft Teams blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531) for Teams. 
 
 ## More information
 

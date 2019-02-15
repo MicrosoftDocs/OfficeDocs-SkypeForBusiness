@@ -91,9 +91,9 @@ Teams admin roles determine what capabilities each admin role holder has. These 
 </tbody>
 <tfoot>
 <tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell—Skype for Business module</a> or <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams & Skype for Business Admin Center</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell—Microsoft Teams module</a> or <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams & Skype for Business Admin Center</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams & Skype for Business Admin Center</a> only</td>
+">PowerShell—Skype for Business module</a> or <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a></td></tr>
+<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell—Microsoft Teams module</a> or <a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a></td></tr>
+<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams admin center</a> only</td>
 </tr>
 </tfoot>
 </table>
@@ -111,7 +111,7 @@ Generally speaking, a team has a purpose that’s aligned with a project or acco
 
 Each team has a beginning, when the team is created and the channels are set up; a middle, when the team is used and collaboration occurs to match the rhythm of the workflow; and—sometimes—an end, when the team has completed its purpose and reached the end of its useful life. 
 
-For more information, see [Manage teams in the Microsoft Teams & Skype for Business Admin Center](manage-teams-in-modern-portal.md).
+For more information, see [Manage teams in the Microsoft Teams admin center](manage-teams-in-modern-portal.md).
 
 ### Stage 1: Beginning
 
@@ -135,8 +135,10 @@ Teams can originate from a variety of methods, including:
 
 Use these links to get more information about organizing your teams:
 
--   [Best practices for organizing teams in Microsoft Teams](best-practices-organizing.md)
--   [Overview of a Microsoft Teams deployment](deployment-overview.md)
+-   [Best practices for organizing teams in Teams](best-practices-organizing.md)
+-   [Deploy chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+-   [Deploy meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
+-   [Deploy cloud voice](cloud-voice-landing-page.md)
 
 
 |    |     |

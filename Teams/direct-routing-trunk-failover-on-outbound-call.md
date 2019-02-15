@@ -44,11 +44,11 @@ By default, the call will be completed at this moment.
 ![Shows SBC unable to reach PSTN due to network issue](media/direct-routing-failover-response-codes1.png)
 
 But there is one more SBC in the route which potentially can deliver the call.
-If you configure the parameter Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -ReinviteResponceCode "408", the second SBC will be tried-- SBC2.contoso.com in the following diagram:
+If you configure the parameter `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`, the second SBC will be tried-- SBC2.contoso.com in the following diagram:
 
 ![Shows routing to second SBC](media/direct-routing-failover-response-codes2.png)
 
-Setting the parameter -FailoverResponceCodes and specifying the codes helps you fine tune your routing and avoid potential issues when an SBC cannot make a call due to network or other issues.
+Setting the parameter -FailoverResponseCodes and specifying the codes helps you fine tune your routing and avoid potential issues when an SBC cannot make a call due to network or other issues.
 
 Default values:  408, 503, 504
 

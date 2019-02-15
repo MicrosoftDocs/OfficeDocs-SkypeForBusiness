@@ -1,7 +1,7 @@
 ---
 title: "Phone number management for Australia"
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -39,10 +39,10 @@ For more information, see  [Manage phone numbers for your organization](manage-p
 |Get new user phone numbers for Calling Plans in Australia.   <br/> |Please contact [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) for new phone numbers for your users. They will then add those numbers to your organization so you can assign them to your users. <br/>
 |If you are utilizing Telstra Calling for Office 365, you may get new service phone numbers that can be used with Phone System auto attendants and call queues for Australia from Telstra. <br/> |Please contact [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) for new phone numbers. They will then add those numbers to your organization so you can assign them to your auto attendants and call queues. If you are NOT utilizing Telstra Calling, you may contact our Microsoft Number ManagementService desk to obtain service numbers from Microsoft [Please contact us](mailto:ptnapac@microsoft.com). <br/>|
 |Get new service phone numbers for Audio Conferencing in Australia.   <br/> |[Please contact us](mailto:ptnapac@microsoft.com).|
-|You need to get phone numbers transferred to Office 365 for users, auto attendants and call queues.  <br/> |Please contact [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) to transfer phone numbers. They will then add those numbers to your organization.  <br/> |
-|You need to get phone numbers transferred to Office 365 for use with Audio Conferencing.  |[Please contact us](mailto:ptnapac@microsoft.com) |
+|Get phone numbers transferred to Office 365 for users, auto attendants and call queues.  <br/> |Please contact [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) to transfer phone numbers. They will then add those numbers to your organization.  <br/> |
+|Get phone numbers transferred to Office 365 for use with Audio Conferencing.  |[Please contact us](mailto:ptnapac@microsoft.com) |
 |Change emergency addressing assigned to users that have a Call Plan phone number. |Please contact [Telstra Calling for Office 365](https://aka.ms/TelstraVoicePlan) to make emergency address changes. They can update this information for you.|
-|You need to change a user number to a service number. |This type service isn't supported in Australia.
+|Change a user number to a service number. |This type service isn't supported in Australia.
 
 ## Related topics
 

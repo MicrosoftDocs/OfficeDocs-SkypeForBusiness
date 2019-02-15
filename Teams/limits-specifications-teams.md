@@ -3,11 +3,11 @@ title: Limits and specifications for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/05/2018
+ms.date: 01/31/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: karuanag
-description: Learn about the limits, specifications, and other requirements that apply to Microsoft Teams.
+description: "Learn about the limits, specifications, and other requirements that apply to Microsoft Teams."
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
@@ -18,7 +18,7 @@ appliesto:
 Limits and specifications for Microsoft Teams
 =============================================
 
-This article describes some of the limits, specifications, and other requirements that apply to Microsoft Teams. 
+This article describes some of the limits, specifications, and other requirements that apply to Teams. 
 
 Teams and channels 
 ------------------
@@ -26,13 +26,16 @@ Teams and channels
 |Feature    | Maximum limit |
 |-----------|---------------|
 |Number of teams a user can create | Subject to a 250 object limit&sup1;         |
-|Number of members in a team | 2,500       |
+|Number of members in a team | 5,000       |
 |Number of members in an [org-wide team](create-an-org-wide-team.md) | 2,500       |
 |Number of teams a global admin can create        |  500,000   |
 |Number of teams an Office 365 tenant can have    | 500,000     |
 |Number of channels per team    | 200 (includes deleted channels)         |
 
-&sup1;Any directory object in Azure Active Directory counts towards this limit.
+&sup1;Any directory object in Azure Active Directory counts towards this limit. Global admins are exempt from this limit, as are apps calling Microsoft Graph using [application permissions](https://docs.microsoft.com/graph/permissions-reference).
+
+> [!NOTE]
+> Channels don't support special characters like ~ # % & * {} + / \ : < > ? | ' " in the channel name.  
 
 Meetings and calls 
 ------------------
@@ -41,9 +44,6 @@ Meetings and calls
 |------------|---------------|
 |Number of people in a meeting  | 250    |
 |Number of people in a private chat  | 50    |
-
-> [!IMPORTANT]
-> Kiosk workers will not have the ability to schedule Teams Meetings, as by default, AllowChannelMeetingScheduling and AllowPrivateMeetingScheduling are not included with inband provisioning in respect to the TeamsMeetingPolicy. This only applies to Kiosk workers. 
 
 Storage
 -------
