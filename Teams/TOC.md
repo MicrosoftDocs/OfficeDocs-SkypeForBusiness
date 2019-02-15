@@ -21,7 +21,7 @@
 ## [Assign team owners and members in Microsoft Teams](assign-roles-permissions.md)
 ## [Best practices for organizing teams in Teams](best-practices-organizing.md)
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
-## [What are Messaging policies?](messaging-policies-in-teams.md)
+## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
 ## [Get started with Microsoft Teams Healthcare templates](healthcare/healthcare-templates.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
@@ -117,6 +117,7 @@
 
 # [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
+## [Manage meeting policies](meeting-policies-in-teams.md)]
 ## [Manage meetings settings](meeting-settings-in-teams.md)
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
