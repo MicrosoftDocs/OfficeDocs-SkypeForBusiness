@@ -80,15 +80,18 @@ With the help of CQD's Location-Enhanced Reports, aggregate call quality and rel
 > [!NOTE]
 > To enable building-specific views in CQD, an admin must [upload building information](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) on CQD's Tenant Data Upload page.
 
-  
-If you want non-admins, such as helpdesk agents, to use Call Quality Dashboard, you can assign those users the **Reports Reader** role. Users with the following roles can access Call Quality Dashboard:
+If you want non-admins, such as helpdesk agents, to use Call Quality Dashboard, you can assign those users the **Teams Communications Support Engineer**, **Teams Communications Support Specialist**, or **Reports Reader** role. Users with the following roles can access Call Quality Dashboard:
 
- - Global administrator
- - Skype for Business admin
- - Reports reader
+- Global Administrator
+- Skype for Business Administrator
+- Teams Service Administrator
+- Teams Communications Administrator
+- Teams Communications Support Engineer
+- Teams Communications Support Specialist
+- Reports Reader
 
 > [!NOTE]
-> The Reports reader role cannot modify files on CQD's Tenant Data Upload page nor activate CQD for a tenant.
+> The Teams Communications Support Engineer, Teams Communications Support Specialist, and Reports Reader roles cannot modify files on CQD's Tenant Data Upload page nor activate CQD for a tenant.
 
 For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 
