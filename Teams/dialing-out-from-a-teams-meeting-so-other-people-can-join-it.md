@@ -54,6 +54,6 @@ If you are looking for instructions on how to let your users dial in to a Teams 
 
 ## Want to know more about audio conferencing?
 
-[Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md)
+[Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
