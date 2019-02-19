@@ -356,7 +356,7 @@ For more details, see [Set Microsoft Teams as the preferred calling client for u
 > When a user is configured for Teams-only mode, this user can no longer sign in
 > to Skype for Business.
 
-To have your users see the Calls tab in the Teams client, you need to enable private calling at an organizational level for the tenant. See [Enable Calling for Microsoft Teams](direct-routing-configure.md#enable-calling-for-microsoft-teams) for more details on how to enable private calls.
+To have your users see the Calls tab in the Teams client, you need to enable private calling at an organizational level for the tenant. See [Enable Calling for Microsoft Teams](direct-routing-configure.md) for more details on how to enable private calls.
 
 
 <!--ENDOFSECTION-->
