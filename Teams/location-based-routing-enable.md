@@ -60,7 +60,7 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
     
     ||Voice routing policy 1|Voice routing policy 2|
     |---------|---------|---------|
-    |Voice policy ID   |Delhi voice routing policy   |Hyderabad voice routing policy    |
+    |Online voice policy ID   |Delhi online voice routing policy   |Hyderabad online voice routing policy    |
     |Online PSTN usages  |Long Distance  |Long Distance, Local, Internal  |
 
     For more information, see [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
@@ -71,21 +71,21 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
 ## Enable Location-Based Routing for network sites
 1.  Use the ``Set-CsTenantNetworkSite`` cmdlet to enable Location-Based Routing and associate voice routing policies to your network sites that need to enforce routing restrictions.
     ```
-    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false> -OnlineVoiceRoutingPolicy <voice routing policy ID> 
+    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
     In this example, we enable Location-Based Routing for the Delhi site and the Hyderabad site. 
 
     ```
-    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "DelhiVoiceRoutingPolicy" 
-    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "HyderabadVoiceRoutingPolicy" 
+    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
+    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
     The following table shows the sites enabled for Location-Based Routing in this example.
 
     ||Site 1 (Delhi)  |Site 2 (Hyderabad)  |
     |---------|---------|---------|
+|Site name    |Site 1 (Delhi)    |Site 2 (Hyderabad)   
     |EnableLocationBasedRouting    |True    |True    |
-    |Voice routing policy    | Delhi voice routing policy       |Hyderabad voice routing policy    |
     |Subnets     |Subnet 1 (Delhi)     |Subnet 2 (Hyderabad)     |
 
 ## Enable Location-Based Routing for gateways
@@ -98,7 +98,7 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
 
     In this example, we create one gateway configuration for each gateway. 
     ```
-    New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
+    New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
     For more information, see [Configure Direct Routing](direct-routing-configure.md).
     
@@ -137,22 +137,22 @@ This article describes how to enable Location-Based Routing for Direct Routing. 
     |---------|---------|---------|
     |PstnGateway:Gateway 1 DEL-GW    |    True     |   Site 1 (Delhi)      |
     |PstnGateway:Gateway 2 HYD-GW     |   True      |      Site 2 (Hyderabad)   |
-    |PstnGateway:Gateway 3 DEL-PBX    |    True     |     Site 1 (Delhi)    |
-    |PstnGateway:Gateway 4 HYD-PBX    |    True     |    Site 2 (Hyderabad)     |
+    |PstnGateway:Gateway 3 DEL-PBX    |    False     |     Site 1 (Delhi)    |
+    |PstnGateway:Gateway 4 HYD-PBX    |    False     |    Site 2 (Hyderabad)     |
 
 ## Enable Location-Based Routing for calling policies
 
 To enforce Location-Based Routing for specific users, set up the users' voice policy to prevent PTSN toll bypass. 
 
-Use the ``Grant-TeamsCallingPolicy`` cmdlet to enable Location-Based routing by preventing PSTN toll bypass.
+Use the ``Grant-CsTeamsCallingPolicy`` cmdlet to enable Location-Based routing by preventing PSTN toll bypass.
 
 ```
-Grant-TeamsCallingPolicy -PolicyName <policy name> -id <user id> 
+Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
 In this example, we prevent PSTN toll bypass to User1's calling policies. 
 
 ```
-Grant-TeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
+Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
 ### Related topics

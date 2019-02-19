@@ -4,7 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 layout: LandingPage
-ms.date: 7/10/2018
+ms.date: 2/11/2019
 ms.audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
@@ -35,7 +35,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
         </a>
     </li>
     <li>
-        <a href="hybrid/plan-hybrid-connectivity.md">
+        <a href="../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -186,7 +186,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
                 <div class="card">
                     <div class="cardText">
                         <h3>Hybrid solutions</h3>
-                        <p>[Plan hybrid connectivity](hybrid/plan-hybrid-connectivity.md)<br> [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md)<br>[Plan Call Data Connector](hybrid/plan-call-data-connector.md)</p>
+                        <p>[Plan hybrid connectivity](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)<br> [Plan Cloud Voicemail service](../sfbhybrid/hybrid/plan-cloud-voicemail.md)<br>[Plan Call Data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md)</p>
                     </div>
                 </div>
             </div>
@@ -200,7 +200,7 @@ description: "Summary: Explore these links to learn how to implement Skype for B
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Before you start** <br>[System requirements](plan/system-requirements.md) <br>[Network requirements](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **Install** <br>[Install Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [Migrate to Skype for Business 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **Enterprise Voice**<br>[Plan](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[Deploy](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
-| **New features**<br>[What's new](whats-new.md)                                                                                                                                         | **Hybrid solutions**<br>[Plan hybrid connectivity](hybrid/plan-hybrid-connectivity.md)<br> [Plan Cloud Voicemail service](hybrid/plan-cloud-voicemail.md)<br>[Plan Call Data Connector](hybrid/plan-call-data-connector.md) |  **Prior releases**<br/>  [Skype for Business Server 2015 documentation](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013 documentation](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
+| **New features**<br>[What's new](whats-new.md)                                                                                                                                         | **Hybrid solutions**<br>[Plan hybrid connectivity](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **Prior releases**<br/>  [Skype for Business Server 2015 documentation](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013 documentation](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 
 * * *

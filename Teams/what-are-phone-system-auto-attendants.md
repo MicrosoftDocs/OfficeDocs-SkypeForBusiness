@@ -1,7 +1,7 @@
 ---
 title: "What are Phone System auto attendants?"
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
 ms.date: 9/1/2018
