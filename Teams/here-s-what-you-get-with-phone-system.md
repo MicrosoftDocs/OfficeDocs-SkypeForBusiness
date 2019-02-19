@@ -1,7 +1,7 @@
 ---
 title: "Here's what you get with Phone System in Office 365"
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 msreviewer: jastarck, makolomi
 ms.topic: article
@@ -69,12 +69,14 @@ By using Phone System, your Skype for Business users will get the following feat
 
 Set up Phone System in the way that best suits your business:
   
-- You can use the Phone System add-on with your company's existing phone lines, or the [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365.md) service for inbound and outbound calls.
+- You can use the Phone System add-on with your company's existing phone lines, or the [Phone System with Calling Plans](calling-plan-landing-page.md) service for inbound and outbound calls.
     
 - You can get new phone numbers from Office 365, or transfer existing phone numbers to Skype for Business. 
     
 See these articles to plan and set up the Phone System in your business:
-  
+
+- [Phone System with Calling Plans](calling-plan-landing-page.md)
+
 - [Set up Calling Plans](set-up-calling-plans.md): This article has step-by-step instructions to get set up with your phone numbers or to transfer your existing phone numbers to Skype for Business.
     
 - [Plan your Phone System in Office 365 (Cloud PBX) solution](https://go.microsoft.com/fwlink/?LinkId=708645): This  article lays out all of your deployment options. It also has information about planning an entirely cloud-only solution. 
@@ -84,7 +86,8 @@ See these articles to plan and set up the Phone System in your business:
 - [Set up Phone System voicemail - Admin help](set-up-phone-system-voicemail.md)
     
 - [Discover Skype for Business](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Help the people in your company learn how to use Skype for Business features. 
-    
+
+
 ## Availability
 <a name="bkmk_setup"> </a>
 
