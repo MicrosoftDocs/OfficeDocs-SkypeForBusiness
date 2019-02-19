@@ -20,7 +20,7 @@ description: Learn how to manage settings for Teams meetings that users schedule
 
 # Manage meeting settings in Microsoft Teams
 
-As an admin, you use Teams meetings settings to control whether anonymous users can join Teams meetings, customize meeting invitations, and if you want to enable Quality of Service (QoS), set ports for real-time traffic. These settings apply to all Teams meetings that users schedule in your organization. You manage these settings from **Meetings** > **Meeting settings** in the Microsoft Teams admin center. 
+As an admin, you use Teams meetings settings to control whether anonymous users can join Teams meetings, customize meeting invitations, and if you want to enable Quality of Service (QoS), set port ranges for real-time traffic. These settings apply to all Teams meetings that users schedule in your organization. You manage these settings from **Meetings** > **Meeting settings** in the Microsoft Teams admin center. 
 
 ## Allow anonymous users to join meetings
 
@@ -60,7 +60,8 @@ You can customize Teams meeting invitations to meet your organization's needs. Y
 3. Wait an hour or so for the changes to propagate. Then schedule a Teams meeting to see what the meeting invitation looks like.  
 
 ## Set how you want to handle real-time media traffic for Teams meetings
-If you're using Quality of Service (QoS) to prioritize network traffic, you can enable QoS markers and you can set port ranges for each type of media traffic. 
+
+If you're using Quality of Service [(QoS)](qos-in-teams.md) to prioritize network traffic, you can enable QoS markers and you can set port ranges for each type of media traffic. 
 
  ![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**
 
@@ -69,11 +70,24 @@ If you're using Quality of Service (QoS) to prioritize network traffic, you can 
 
     ![meeting-settings-network.png](media/meeting-settings-network.png "Screen shot of the network settings for Teams meetings in the Microsoft Teams admin center")
 
-    - To enable QoS markers, turn on **Insert Quality of Service (QoS) markers for real-time media traffic**.
-    - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. 
+    - To allow DSCP markings to be used for QoS, turn on **Insert Quality of Service (QoS) markers for real-time media traffic**. You only have the option of using markers or not, you cannot select markers for each traffic type. See [Select a QoS implementation method](QoS-in-Teams.md#select-a-qos-implementation-method) for more on DSCP markers.
+    - To specify port ranges, next to **Select a port range for each type of real-time media traffic**, select  **Specify port ranges**, and then enter the starting and ending ports for audio, video, and screen sharing. Selecting this option is required to implement QoS.
     
-        If you select **Automatically use any available ports**, available ports between 1024 and 65535 are used. 
+        If you select **Automatically use any available ports**, available ports between 1024 and 65535 are used. Use this option only when not implementing QoS.
 
- ### Related topics
-- [Quality of Service (QoS) in Teams](qos-in-teams.md)
+ If you are unsure what port ranges to use in your environment, the following settings are a good starting point. To learn more, read [Implement Quality of Service (QoS) in Microsoft Teams](QoS-in-Teams.md). These are the required DSCP markings and the suggested corresponding media port ranges used by both Teams and ExpressRoute.
 
+_Port ranges and DSCP markings_
+
+Media traffic type| Client source port range \* |Protocol|DSCP value|DSCP class|
+|:---             |:---                         |:---    |:---      |:---      |
+|Audio            | 50,000–50,019               |TCP/UDP |46        |Expedited Forwarding (EF)|
+|Video            | 50,020–50,039               |TCP/UDP |34        |Assured Forwarding (AF41)|
+|Application/Screen Sharing| 50,040–50,059      |TCP/UDP |18        |Assured Forwarding (AF21)|
+| | | | |
+
+\* The port ranges you assign can not overlap and must be adjacent to each other.
+
+Setting port ranges for different traffic types is only one step in handling real time media, see [Quality of Service (QoS) in Teams](qos-in-teams.md) for much more detail. If you enable or change settings in Teams Admin Center, you will need to [apply matching settings to all user devices][Set client device port ranges and markings](QoS-in-Teams-clients.md) and internal network devices to fully implement the changes to QoS in Teams. 
+
+After QoS has been in use for a while, you'll have usage information on the demand for each of these three workloads, and you can choose what changes to make based on your specific needs. [Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md) will be helpful with that.

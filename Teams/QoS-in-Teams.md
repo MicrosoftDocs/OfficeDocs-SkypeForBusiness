@@ -17,284 +17,155 @@ appliesto:
 
 # Implement Quality of Service (QoS) in Microsoft Teams
 
-This article will help you prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
+This article will help you prepare your organization's network for Quality of Service (QoS) in Microsoft Teams. If you are supporting a large group of users and they are experiencing any of the problems mentioned below, you probably need to implement QoS. A small business with few users may not need QoS, but even there it should be helpful.
 
-You can use QoS to prioritize network traffic that is sensitive to network delays over traffic that is less sensitive. A simple analogy is that QoS creates virtual “carpool lanes” in your data network so some types of data never or rarely encounter delays.
-When you prioritize the traffic for real-time communications such as calls or shared meetings in Teams you can more reliably deliver a business-grade user experience. Without some form of QoS, you might see the following quality issues in voice and video:
+QoS is a way to allow real-time network traffic (like voice or video streams) that is sensitive to network delays to "cut in line" in front of traffic that is less sensitive (like downloading a new app, where an extra second to download isn't a big deal). QoS identifies and marks all packets in real-time streams (using Windows Group Policy Objects and a routing feature called Port-based Access Control Lists, more about those is below) which then helps your network to give voice, video, and screen share streams a dedicated portion of network bandwidth.
 
-- Jitter – media packets arriving at different rates.
-- Packet loss – packets dropped, which can result in missing words or syllables.
-- Delayed round trip time (RTT) – media packets taking a long time to reach their destinations.
+Without some form of QoS, you might see the following quality issues in voice and video:
 
-For QoS to be truly effective, consistent QoS settings need to be applied from end to end in your organization (user PCs, network switches, and routers to the cloud), because any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen shares.
+- Jitter – media packets arriving at different rates, which can result in missing words or syllables in calls.
+- Packet loss – packets dropped, which can also result in lower voice quality and hard to understand speech.
+- Delayed round trip time (RTT) – media packets taking a long time to reach their destinations, which results in noticeable delays between two parties in a conversation, causing people to talk over each other.
 
-QoS is a mechanism you can use to prioritize certain types of network traffic that are sensitive to network delays over other traffic that is less sensitive. A simple analogy is that QoS creates virtual "carpool lanes" in your data network, so some types of data never or rarely encounter delays.
+The least complex way to address these issues is to increase the size of the data connections, both internally and out to the internet. Since that is often cost-prohibitive, QoS provides a way to more effectively manage the resources you have instead of adding new resources. To fully address quality issues you would use QoS across the implementation, then add connectivity only where absolutely necessary. 
 
-When you prioritize the traffic for real-time communications such as calls or shared meetings in Teams you can more reliably deliver a business-grade user experience. When you don't implement QoS, shared screens in meetings can freeze, video can pixellate and color shift, and voice calls can become choppy and difficult or impossible to understand. For QoS to be truly effective, consistent QoS settings need to be applied from end to end in your organization (user PCs, network switches, and routers to the cloud), because any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen shares.
+For QoS to be effective, you will have to apply consistent QoS settings end to end in your organization (This includes all user PCs, network switches, and routers to the internet), because any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen shares.
+
+_Figure 1. The relationship between an organization's networks and Office 365 services_
 
 ![The relationship between an organization's networks and Office 365 services: on-premises network and devices connect with an interconnect network, which in turn connects with Office 365 Cloud Voice and Audio Conferencing services.](media/Qos-in-Teams-Image1.png) 
 
-One option available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). We still recommend that you implement QoS on your on-premises network. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints. 
+In most cases, the network connecting your enterprise to the cloud will be an unmanaged network where you won't be able to reliably set QoS options. One choice available to address end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), but we still recommend that you implement QoS on your on-premises network. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints. 
 
-In most cases, the network connecting your enterprise to the cloud will be an unmanaged network internet connection where you won't be able to reliably set QoS. One option available to allow truly end-to-end QoS is [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). We still recommend that you implement QoS on the portions of the end-to-end network you have control over, namely your on-premises network. This will increase the quality of real-time communication workloads throughout your deployment and alleviate chokepoints in your existing deployment.
 
-## Prioritize Teams network traffic for QoS 
+## Verify your network is ready 
 
-This article focuses on how to prioritize Teams real-time communications traffic—namely, voice and video. You can also prioritize other types of traffic, based on your needs.
+If you are considering a QoS implementation, you should already have determined your bandwidth requirements and other [network requirements](prepare-network.md). Bandwidth calculations for Microsoft Teams are complex and to help with this, a calculator has been created. To access the calculator, go to [Network Planner](https://aka.ms/bwcalc/) in MyAdvisor.
+  
+  Traffic congestion across a network will greatly impact media quality. A lack of bandwidth leads to performance degradation and a poor user experience. As Teams adoption and usage grows, use reporting,  [Call Analytics, and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md) to identify problems and then make adjustments using QoS and selective bandwidth additions. 
 
-There are several ways to prioritize traffic, but the most common is by using differentiated services code point (DSCP) markings. They can be applied (“tagged”) based on port ranges or via Group Policy objects. We’ll cover both in this article. We recommend that you use tagging based on port ranges because it will work for all devices, not just those joined to the domain.
+### VPN considerations
 
-Controlling the DSCP marking via Group Policy objects ensures that domain-joined computers receive the correct settings and that only an administrator can manage them.
-
-It’s important to understand that QoS only works when implemented on all links that connect caller to another. If you use QoS on the internal network and a user signs in from a remote location, you can only prioritize within your internal, managed network. Although remote locations can receive a managed connection by implementing a virtual private network (VPN), we  recommend that you avoid running real-time communications traffic over the VPN.
+QoS only works as expected when implemented on all links between callers. If you use QoS on an internal network and a user signs in from a remote location, you can only prioritize within your internal, managed network. Although remote locations can receive a managed connection by implementing a virtual private network (VPN),  a VPN inherently adds packet overhead and creates delays in real-time traffic. We  recommend that you avoid running real-time communications traffic over a VPN.
 
 > [!NOTE]
-> We recommend that you implement split tunneling for VPN-connected remote users to maximize the quality of the user experience. Download the document [Deploy-Guidance-VPN Split Tunnel](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9 ) from MyAdvisor for more information.
+> VPN-connected remote users should implement split tunneling to maximize the quality of the user experience. The document [Deploy-Guidance-VPN Split Tunnel](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9 ) is available from MyAdvisor and has more information.
 
 In a global organization with managed links that span continents, we strongly recommend QoS because bandwidth for those links is limited in comparison to the LAN.
 
-## QoS queues
+## Introduction to QoS queues
 
 To provide QoS, network devices must have a way to classify traffic and must be able to distinguish voice or video from other network traffic. 
 
-Differentiated services (DiffServ) uses the type of services (ToS) field in the header of an IPv4/IPv6 packet to set priority for network devices. The six most significant bits of the DiffServ field are the differentiated services code point, or DSCP. Using this, traffic can be classified as a particular type (for example, voice), and then marked (101110, or 46 in decimal for voice traffic), so that when network devices process these markings, the traffic can be prioritized accordingly (expedited forwarding, in this example).
+When network traffic enters a router, the traffic is placed into a queue. If a QoS policy isn't configured, there is only one queue, and all data is treated as first-in, first-out with the same priority. That means voice traffic (which is very sensitive to delays) might get stuck behind traffic where a delay of a few extra milliseconds wouldn't be a problem. 
 
-When network traffic enters a router, the traffic is placed into a queue. If there is no QoS in place, there is only one queue, and data is treated as first-in, first-out. That means voice traffic (which is very sensitive to delays) might get stuck behind traffic from online streaming services. When you implement QoS, you can define multiple queues by using different congestion management features (such as Cisco’s priority queuing and class-based weighted fair queue [CBWFQ]) and congestion avoidance features (such as weighted random early detection [WRED]).
-
-![Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.](media/Qos-in-Teams-Image2.png "Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.")
+When you implement QoS, you define multiple queues using one of several congestion management features (such as Cisco’s priority queuing and Class-Based Weighted Fair Queueing [CBWFQ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)) and congestion avoidance features (such as weighted random early detection [WRED](https://en.wikipedia.org/wiki/Weighted_random_early_detection)).
 
 _Figure 2. Examples of QoS queues_
 
-After these pieces are in place, it’s possible to deliver predictable QoS because the network now understands how to classify, mark, and prioritize traffic. From the Teams perspective, the most important configuration step is the classification and marking of packets, but for end-to-end QoS to be successful you also need to carefully align the application’s configuration with the underlying network configuration.
+![Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.](media/Qos-in-Teams-Image2.png "Total available bandwidth is divided among multiple queues—audio, video, and other traffic—that have been assigned different priorities.")
 
-## Teams QoS scenarios
+A simple analogy is that QoS creates virtual “carpool lanes” in your data network so some types of data never or rarely encounter a delay. Once you create those lanes, you can adjust their relative size and much more effectively manage the connection bandwidth you have, while still delivering business-grade experiences for your organization's users.
 
-The guidance for implementing QoS for Teams is based on four scenarios:
+## Select a QoS implementation method
 
-*  **Scenario 1:** You’ve deployed or are deploying Teams and plan to implement QoS via port-based tagging. Port-based tagging is the most reliable method because it works universally on all platforms and is the easiest to implement.  
+You could implement QoS via port-based tagging, using access control lists (ACLs) on your network's routers. Port-based tagging is the most reliable method because it works in mixed Windows and Mac environments and is the easiest to implement. Mobile clients don’t provide a mechanism to mark traffic by using DSCP values, so they will require this method.  
 
-*  **Scenario 2:** You’ve deployed or are deploying Teams and plan to implement QoS via Group Policy object tagging. This is sometimes used in combination with scenario 1. Although this scenario is entirely valid, it will only work for domain-joined Windows clients. Any device that isn’t a domain-joined Windows client won’t be enabled for DSCP tagging.
+Using this method, your network's router examines an incoming packet, and if the packet arrived using a certain port or range of ports, it identifies it as a certain media type and puts it in the queue for that type, adding a predetermined [DSCP](https://tools.ietf.org/html/rfc2474) mark to the IP Packet header so other devices can recognize its traffic type and give it priority in their queue.
 
-*  **Scenario 3:** You’ve deployed Skype for Business Online, including QoS tagging, and are now deploying Teams. If this is you, Teams will respect the existing configuration and will use the same port ranges and tagging as the Skype for Business client. In most cases, no additional configuration will be needed. 
+Although this works across platforms, it only marks traffic at the WAN edge (not all the way to the client machine) and creates management overhead. You should refer to the documentation provided by the router manufacturer for instructions on implementing this method. 
 
-    > [!NOTE]
-    > If you're using Application Name QoS tagging via Group Policy, you must add Teams.exe as the application name.
+* * * 
 
-*  **Scenario 4:** You’ve deployed or are deploying Teams and want to implement QoS via port-based tagging by using a custom port range.
+You could also implement QoS implemented by using a Group Policy Object (GPO) to direct client devices to insert a  [DSCP](https://tools.ietf.org/html/rfc2474) marker in IP packet headers identifying it as particular type of traffic(for example, voice). Routers and other network devices can be configured to recognize this and put the traffic in a seperate, higher-priority queue. 
 
-## Implement QoS
+Although this scenario is entirely valid, it will only work for domain-joined Windows clients. Any device that isn’t a domain-joined Windows client won’t be enabled for DSCP tagging. Clients such as Mac OS have hard-coded tags and will always tag traffic.
+
+On the plus side, controlling the DSCP marking via GPO ensures that all domain-joined computers receive the same settings and that only an administrator can manage them. Clients that can use GPO will be tagged on the originating device, and then configured network devices can recognize the real-time stream by the DSCP code and give it an appropriate priority. 
+ 
+* * *
+
+We recommend a combination of DSCP markings at the endpoint and port-based ACLs on routers, if possible. Using a Group Policy object to catch the majority of clients, and also using port-based DSCP tagging will ensure that mobile, Mac, and other clients will still get QoS treatment (at least partially).
+
+DSCP markings can be likened to postage stamps that indicate to postal workers how urgent the delivery is and how best to sort it for speedy delivery. Once you've configured your network to give priority to real-time media streams, lost packets and late packets should diminish greatly. 
+
+Once all devices in the network are using the same classifications, markings, and priorities, it’s possible to reduce or eliminate delays, dropped packets, and jitter by changing the size of the port ranges assigned to the queues used for each traffic type. From the Teams perspective, the most important configuration step is the classification and marking of packets, but for end-to-end QoS to be successful you also need to carefully align the application’s configuration with the underlying network configuration. Once QoS is fully implemented, ongoing management is a question of adjusting the port ranges assigned to each traffic type based on your organization's needs and actual usage.
+
+## Choose initial port ranges for each media type 
+
+The DSCP value tells a correspondingly configured network what priority to give a packet or stream, whether the DSCP mark is assigned by clients or the network itself based on ACL settings. Each media workload gets its own unique DSCP value (other services might allow workloads to share a DSCP marking, Teams does not) and a defined and separate port range used for each media type. Other environments might have an existing QoS strategy in place, which will help you determine the priority of network workloads. 
+
+The relative size of the port ranges for different real-time streaming workloads sets the proportion of the total available bandwidth dedicated to that workload. To return to our earlier postal analogy: a letter with an "Air Mail" stamp might get taken within an hour to the nearest airport, while a small package marked "Bulk Mail" mark can wait for a day before traveling over land on a series of trucks.
+
+The following table shows the required DSCP markings for Teams with ExpressRoute, and the associated ports for workload queues. These ranges might serve as a good starting point for customers who are unsure what to use in their own environments. To learn more, read [ExpressRoute QoS requirements](https://docs.microsoft.com/azure/expressroute/expressroute-qos). 
+
+_Recommended initial port ranges_
+
+Media traffic type| Client source port range |Protocol|DSCP value|DSCP class|
+|:--- |:--- |:--- |:--- |:--- |
+|Audio| 50,000–50,019|TCP/UDP|46|Expedited Forwarding (EF)|
+|Video| 50,020–50,039|TCP/UDP|34|Assured Forwarding (AF41)|
+|Application/Screen Sharing| 50,040–50,059|TCP/UDP|18|Assured Forwarding (AF21)|
+||||||
+
+Be aware of the following when you use these settings:
+
+-  If you plan to implement ExpressRoute in the future and haven’t yet implemented QoS, we recommend that you follow the guidance so that DSCP values are the same from sender to receiver. 
+-  All clients, including mobile clients and Teams devices, will use these port ranges and will be affected by any DSCP policy you implement that uses these source port ranges. The only clients that will continue to use dynamic ports are the browser-based clients (that is, those clients that let participants join meetings by using their browsers).
+-  Although the Mac client uses the same port ranges, it also uses hard-coded values for audio (EF) and video (AF41). These values are not configurable. 
+- If you later need to adjust the port ranges to improve user experience, the port ranges can not overlap and should be adjacent to each other.
+
+## Migrate QoS to Teams 
+
+If you’ve previously deployed Skype for Business Online, including QoS tagging and port ranges, and are now deploying Teams, Teams will respect the existing configuration and will use the same port ranges and tagging as the Skype for Business client. In most cases, no additional configuration will be needed. 
+
+> [!NOTE]
+> If you're using Application Name QoS tagging via Group Policy, you must add Teams.exe as the application name.
+
+## QoS implementation steps
 
 At a very high level, implementing QoS requires these steps:
 
-1. Determine your route and bandwidth requirements.
+1. [Verify your network is ready](#verify-your-network-is-ready) 
+2. [Select a QoS implementation method](#select-a-qos-implementation-method)
+3. [Choose initial port ranges for each media type](#choose-initial-port-ranges-for-each-media-type)
 
-2. Use DSCP markings and port ranges to classify traffic.
+4. Implement QoS settings: 
+   1. On Clients using a GPO to [set client device port ranges and markings](QoS-in-Teams-clients.md)
+   2. On routers (see the manufacturer documentation) or other network devices. This may include port-based ACLs or simply defining the QoS queues and DSCP markings, or all of these. 
+   
+      We recommend implementing these QoS policies using the client source ports and a source and destination IP address of “any.” This will catch both incoming and outgoing media traffic on the internal network.  
 
-3. Configure the policy-based QoS settings within a Group Policy object.
-
-4. Verify the port ranges in the Group Policy object.
-
-5. Validate QoS by analyzing Teams traffic on the network.
+   4. On [Teams Admin Center](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
+ 5. [Validate the QoS implementation](#validate-the-qos-implementation) by analyzing Teams traffic on the network.
 
 As you prepare to implement QoS, keep the following guidelines in mind:
 
 - The shortest path to Office 365 is best.
-
 - Closing ports will only lead to quality degradation.
-
 - Any obstacles in-between, such as proxies, are not recommended.
-
 - Limit the number of hops:
-
     - Client to network edge – 3 to 5 hops.
     - ISP to Microsoft network edge – 3 hops
     - Microsoft network edge to final destination – irrelevant 
 
 For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
 
-## Determine bandwidth requirements
 
-Before you configure QoS for Microsoft Teams, it’s important to prepare your network for Microsoft Teams and determine your bandwidth requirements. Providing QoS in your network requires the reservation of a defined amount of bandwidth on each link for real-time traffic. (If that bandwidth isn’t required for real-time traffic at any time, it can be used for other traffic.)
+## Managing source ports in the Teams admin center
 
-Traffic congestion across a network will greatly impact media quality. A lack of bandwidth leads to performance degradation and a poor user experience, so consider bandwidth planning as a starting point for Teams deployment. As Teams adoption and usage grows, use reporting to make necessary adjustments. 
-
-The Network Planner available on FastTrack is helpful when you are determining bandwidth requirements.
-
-### Requirements for a connection from your network to Microsoft network edge
-
-For the best media quality, the network performance targets or thresholds shown in Table 1 are required for a connection from your organization’s network to the Microsoft network edge.
-
-> [!IMPORTANT]
-> Connectivity between a Teams client on your company network to Office 365 services must meet the following network performance requirements.
-
-_Table 1. Network performance metrics - client to Office 365 services_
-
-| Metric | Target |
-|--------|--------|
-| Latency (one way) | < 50 milliseconds |
-| Latency (round trip time (RTT) | < 100 milliseconds |
-| Burst packet loss | < 10% during any 200 millisecond interval |
-| Packet loss | < 1% during any 15 second interval |
-| Packet inter-arrival jitter | < 30 milliseconds during any 15 second interval |
-| Packet reorder | < 0.05% out of order packets |
-
-The latency metric target assumes your company site or sites and the Microsoft edges are on the same continent.
-
-Your company site to the Microsoft network edge connection includes first hop network access, which can be WiFi or another wireless technology.
-
-The network performance target assumes proper bandwidth and/or QoS planning. In other words, the requirements apply directly to Teams real-time media traffic when the network connection is under a peak load.
-
-### Requirements for a connection from your network edge to Microsoft network edge
-
-Table 2 shows the network performance targets or thresholds that are required for the connection between your network edge and the Microsoft network edge. This excludes your organization’s internal network or WAN, and is intended as a guide when you test network traffic that is sent over the internet or through an ExpressRoute partner network.
-
-> [!IMPORTANT]
-> Connectivity between your company's network edge to the Microsoft network edges must meet the following network performance requirements.
-
-_Table 2. Network performance metrics - edge to edge_
-
-| Metric | Target |
-|--------|--------|
-| Latency (one way) | < 30 milliseconds |
-| Latency (round trip time (RTT) | < 60 milliseconds |
-| Burst packet loss | < 1% during any 200 millisecond interval |
-| Packet loss | < 0.1% during any 15 second interval |
-| Packet inter-arrival jitter | < 15 milliseconds during any 15 second interval |
-| Packet reorder | < 0.01% out of order packets |
+In Teams, QoS source ports used by the different workloads should be actively managed, and adjusted as necessary. Referring to the table in [Port ranges and DSCP markings](#port-ranges-and-dscp-markings), the port ranges are adjustable, but the DSCP markings are not configurable. Once you have implemented these settings, you may find that more or fewer ports are needed for a given media type. [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md) should be used in making a decision to adjust port ranges after Teams has been implemented, and periodically as needs change.
 
 
-## Recommended DSCP markings
-
-When you're ready to configure QoS, your first step is to classify the traffic flows (such as audio and video) by assigning DSCP values to the unique, non-overlapping port ranges. The DSCP value assigned here will determine the priority of the traffic going through the network, based on network configuration. Each workload gets its own DSCP value, though not necessarily a unique value—you might want to set the same value for voice and video workloads, giving them the same priority in the network.  
-
-The DSCP value to use depends on how you want to prioritize the workload. For example, business requirements might dictate that you give application sharing the same priority as video (and therefore mark it with the same DSCP value as video). Other environments might have an existing QoS strategy in place, which will help you determine the priority of network workloads. 
-
-Table 3 shows the DSCP markings required for Teams with ExpressRoute. These markings might serve as a good starting point for customers who are unsure what to use in their own environments. To learn more, read [ExpressRoute QoS requirements](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
-
-_Table 3. DSCP markings_
-
-| Client source port range |Protocol|Media category|DSCP value|DSCP class|
-|---------|---------|---------|---------|---------|
-| 50,000–50,019|TCP/UDP|Audio|46|Expedited Forwarding (EF)|
-| 50,020–50,039|TCP/UDP|Video|34|Assured Forwarding (AF41)|
-| 50,040–50,059|TCP/UDP|Application/Desktop Sharing|18|Assured Forwarding (AF21)|
-
-Be aware of the following when you use the information in Table 3:
-
--  If you plan to implement ExpressRoute in the future and haven’t yet implemented QoS, we recommend that you follow the guidance in Table 3 so that DSCP values are the same from sender to receiver. 
-
--  All clients, including mobile clients and Teams devices, will use these port ranges and will be affected by any DSCP policy you implement that uses these source port ranges. The only clients that will continue to use dynamic ports are the browser-based clients (that is, those clients that let participants join meetings by using their browsers).
-
--  Although the Mac client uses the same port ranges, it also uses hard-coded values for audio (EF) and video (AF41). These values are not configurable.
-
-
-## Source ports used by Teams
-
-In Teams, QoS should be configured based on the source ports used by the different workloads. Currently, neither server-side nor client-side port ranges are configurable. 
-
-The client source port ranges listed in Table 3 also apply to Teams and use their associated QoS DSCP markings.
-
-The recommended method of implementing these QoS policies is to use the client source ports with a source and destination IP address of “any.” This will catch both incoming and outgoing media traffic on the internal network. 
 
 > [!NOTE]
-> If you've already configured QoS based on source port ranges for Skype for Business Online, the same configuration will apply to Teams and no further changes will be required. If you’ve deployed Skype for Business Server on-premises, you’ll need to re-examine your QoS policies and adjust them if necessary.
+> If you've already configured QoS based on source port ranges and DSCP markings for Skype for Business Online, the same configuration will apply to Teams and no further client or network changes to the mapping will be required, though you may have to [set the ranges used in Teams Admin Center](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) to match what was configured for Skype for Business Online.
 
-## Set DSCP markings
+If you’ve previously deployed Skype for Business Server on-premises, you may need to re-examine your QoS policies and adjust them as needed to match port range settings you've verified provide a quality user experience for Teams.
 
-There are multiple approaches to setting the proper DSCP markings for traffic classification:
+## Validate the QoS implementation 
 
--  **DSCP marking at the endpoint:** This is generally the preferred option, because the endpoint itself provides the proper markings. Currently this can be done by using a Group Policy object, but it can only be used on domain-joined Windows clients. Mobile clients don’t provide a mechanism to mark traffic by using DSCP values. Although you can’t configure non&ndash;domain-joined Windows clients to tag traffic, clients such as Mac OS have hard-coded tags and will always tag traffic as described above.
-
--  **Port-based DSCP tagging by using access control lists (ACLs) on routers:** This is a very common option encountered in heterogeneous Windows and Mac environments. In this scenario, the network team marks the traffic at the ingress/egress routers (typically located on the WAN) based on the source port ranges defined for each modality. Although this works across platforms, it only marks traffic at the WAN edge—not all the way to the client machine—and therefore incurs management overhead.
-
--  **A combination of DSCP markings at the endpoint and port-based ACLs on routers:** We recommend this combination, if possible in your environment. Use a Group Policy object to catch the majority of clients, and also use port-based DSCP tagging to ensure that mobile, Mac, and other clients will still get QoS treatment (at least partially).
-
-You can use policy-based QoS within Group Policy to set the DSCP value for the predefined source port range in the Teams client. Use the port ranges specified in Table 3 to create a policy for each workload.
-
-After you’ve identified the port ranges, the next step is to configure the policy-based QoS settings within a Group Policy object. You can find more information about these steps in [Configuring port ranges and a Quality of Service policy for your clients on Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10).
-
-To create a QoS audio policy for Windows 10 computers, first log on to a computer on which Group Policy Management has been installed. Open Group Policy Management (click Start, point to Administrative Tools, and then click Group Policy Management), and then complete the following steps:
-
-1. In Group Policy Management, locate the container where the new policy should be created. For example, if all your client computers are located in an OU named **Clients**, the new policy should be created in the Client OU.
-
-2. Right-click the appropriate container, and then click **Create a GPO in this domain, and Link it here**.
-
-3. In the **New GPO** dialog box, type a name for the new Group Policy object in the **Name** box, and then click **OK**.
-
-4. Right-click the newly created policy, and then click **Edit**.
-
-5. In the Group Policy Management Editor, expand **Computer Configuration**, expand **Windows Settings**, right-click **Policy-based QoS**, and then click **Create new policy**.
-
-6. In the **Policy-based QoS** dialog box, on the opening page, type a name for the new policy in the **Name** box. Select **Specify DSCP Value** and set the value to **46**. Leave **Specify Outbound Throttle Rate** unselected, and then click **Next**.
-
-7. On the next page, select **Only applications with this executable name** and enter the name **Teams.exe**, and then click **Next**. This setting instructs the policy to only prioritize matching traffic from the Teams client.
-
-8. On the third page, make sure that both **Any source IP address** and **Any destination IP address** are selected, and then click **Next**. These two settings ensure that packets will be managed regardless of which computer (IP address) sent the packets and which computer (IP address) will receive the packets.
-
-9. On page four, select **TCP and UDP** from the **Select the protocol this QoS policy applies to** drop-down list. TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two networking protocols most commonly used.
-
-10. Under the heading **Specify the source port number**, select **From this source port or range**. In the accompanying text box, type the port range reserved for audio transmissions. For example, if you reserved ports 50000 through ports 50019 for audio traffic, enter the port range using this format: **50000:50019**. Click **Finish**.
-
-11. Repeat steps 5-10 to create policies for Video and Application/Desktop Sharing, substituting the appropriate values in steps 6 and 10.
-
-The new policies you’ve created won’t take effect until Group Policy has been refreshed on your client computers. Although Group Policy periodically refreshes on its own, you can force an immediate refresh.
-
-### Force Group Policy refresh
-
-1. On each computer for which you want to refresh Group Policy, open a command console. Ensure that the command console is set to run as administrator.
-
-2. At the command prompt, enter
-   ```
-    gpupdate.exe /force
-   ```
-
-## Verify DSCP markings in the Group Policy object
-
-To verify that the values from the Group Policy object have been set, perform the following steps.
-
-1. Open a command console. Ensure that the command console is set to run as administrator.
-
-2. At the command prompt, enter 
-   ```
-   gpresult /R > gp.txt
-   ```
-
-   This will generate a report and send it to a text file named gp.txt. Alternatively, you can enter the following command to produce the same data in a more readable HTML report named gp.html:
-   ```
-   gpresult /H >gp.html
-   ```
- ![Screenshot of the console window running the gpresult command.](media/Qos-in-Teams-Image3.png "Screenshot of the console window running the gpresult command.")
-
-3. In the generated file, look for the heading **Applied Group Policy Objects** and verify that the names of the Group Policy objects created earlier are in the list of applied policies. 
-
-4. Open the Registry Editor, and go to:
-
-   HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
-
-   Verify the values for the registry entries listed in Table 4.
-
-   _Table 4. Values for Windows registry entries for QoS_
-
-
-   |          Name          |  Type  |    Data     |
-   |------------------------|--------|-------------|
-   |    Application Name    | REG_SZ |  Teams.exe  |
-   |       DSCP Value       | REG_SZ |     46      |
-   |        Local IP        | REG_SZ |     \*      |
-   | Local IP Prefix Length | REG_SZ |     \*      |
-   |       Local Port       | REG_SZ | 50000-50019 |
-   |        Protocol        | REG_SZ |     \*      |
-   |       Remote IP        | REG_SZ |     \*      |
-   |    Remote IP Prefix    | REG_SZ |     \*      |
-   |      Remote Port       | REG_SZ |     \*      |
-   |     Throttle Rate      | REG_SZ |     -1      |
-
-
-5. Verify that the value for the Application Name entry is correct for the client you’re using, and verify that both the DSCP Value and Local Port entries reflect the settings in the Group Policy object.
-
-## Validate QoS by analyzing Teams traffic on the network
-
-For QoS to be effective, the DSCP value set by the Group Policy object needs to be present at both ends of a call. By looking at the traffic generated by the Teams client, you can verify that the DSCP value isn’t changed or stripped out when the Teams workload traffic traverses moves through the network.
+For QoS to be effective, the DSCP value set by the Group Policy object needs to be present at both ends of a call. By analyzing the traffic generated by the Teams client, you can verify that the DSCP value isn’t changed or stripped out when the Teams workload traffic traverses moves through the network.
 
 Preferably, you capture traffic at the network egress point. You can use port mirroring on a switch or router to help with this.
 
