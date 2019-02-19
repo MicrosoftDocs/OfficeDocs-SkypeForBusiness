@@ -40,11 +40,11 @@ The following phones are Certified for Microsoft Teams:
 |Yealink T58 & T56 series |58.15.0.20|Dec 2018|
 ||||
 
-See [Microsoft Teams phones feature set](/MicrosoftTeams/phones-for-teams.md#microsoft-teams-phones-feature-set) for information on features supported by these devices.
+See [Microsoft Teams phones feature set](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices. 
 
-See [Finding the Firmware version on a mobile device](/MicrosoftTeams/phones-for-teams.md#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device. 
+See [Finding the Firmware version on a mobile device](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) to determine the device firmware version on your mobile device. 
 
-Microsoft Teams licenses can be purchased as part of their [Office 365 subscriptions](Office-365-licensing.md). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/en-us/microsoft-teams/voice-calling).
+Microsoft Teams licenses can be purchased as part of their [Office 365 subscriptions](Office-365-licensing.md). To learn more about the required licenses for using Microsoft Teams on phones, see available [phone system licenses](https://products.office.com/microsoft-teams/voice-calling).
 
 For more information about getting Teams, check out [How do I get access to Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
