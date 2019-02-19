@@ -41,7 +41,7 @@ To do so, **you need to assign an Audio Conferencing or Phone System license** t
   
 - Assign an **Audio Conferencing** license to your users. See [Assign Microsoft Teams licenses](assign-teams-licenses.md).
     
-    After you assign this license, you will need to set up audio conferencing. For step-by-step instructions, see [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams).
+    After you assign this license, you will need to set up audio conferencing. For step-by-step instructions, see [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
 - Assign **Phone System** and a domestic or domestic and international Calling Plan license to your users. See [Assign Microsoft Teams licenses](assign-teams-licenses.md).
     
