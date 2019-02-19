@@ -53,11 +53,17 @@ This guide is also intended to be used by the designated quality champion(s). Fo
 
 ## Prerequisites
 
-Before using this guide, make sure you have the proper tenant [roles](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) assigned so that you can access CQD.
+Before using this guide, make sure you have the proper tenant [roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) assigned so that you can access CQD.
 
--   **Office 365 Global Administrator role:** Accesses all administrative features in the Office 365 suite of services in your plan, including Skype for Business.
+-   **Office 365 Global Administrator role** 
 
--   **Skype for Business Administrator role:** Configures Skype for Business for your organization and is able to view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the Office 365 admin center. This role is required even if you deploy only Teams.
+-   **Skype for Business Administrator role** 
+
+-   **Teams Service Administrator role** 
+
+-   **Teams Communications Support Engineer role** 
+
+-   **Teams Communications Support Specialist role** 
 
 Alternatively, you can assign the following role to an Office 365 user account to allow access to reporting features only.
 
@@ -91,7 +97,7 @@ The actual measurement in CQD varies by workload, but for the purposes of the Qu
 > CQD provides the “Poor Due To…” measurements to better understand what condition caused the stream to be classified as poor.
 
 
-_Table 1 - Poor service metrics_
+_Table 1 - Audio poor quality metrics_
 
 | Metric average     | Description     | User experience |
 |-------------|-----------------|-----------------|
@@ -135,7 +141,7 @@ _Table 2 - Core target health assessment metrics_
 <tr><td rowspan="5"><strong>Conferencing</strong></td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>Wired internal</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
 <tr><td>Wi-Fi 5 GHz internal</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
-<tr><td>Wi-Fi 2.4 GHz internal</td><td>4.0%</td><td>0.5%</td><td>2.0%</td></tr>
+<tr><td>Wi-Fi 2.4 GHz internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>Overall</td><td>2.0%</td><td>0.5%</td><td>3.0%</td></tr>
 <tr><td rowspan="4"><strong>P2P</strong></td><td>Internal</td><td>2.0%</td><td>0.5%</td><td>2.0%</td></tr>
 <tr><td>Wired/Wi-Fi 5 GHz internal</td><td>1.0%</td><td>0.5%</td><td>1.0%</td></tr>
