@@ -110,10 +110,10 @@ all users in your organization by default. Your business needs might require
 that you disable voicemail transcription for specific users or everyone
 throughout the organization. If your organization decided to keep voicemail
 transcription enabled, you need to also consider whether voicemail transcription
-profanity masking needs to be enabled. See [Setting voicemail policies in your organization](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail)
+profanity masking needs to be enabled. See [Setting voicemail policies in your organization](set-up-phone-system-voicemail.md)
 for more details.
 
-For more information about voicemail in a Phone System implementation, see [Set up Phone System voicemail](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail).
+For more information about voicemail in a Phone System implementation, see [Set up Phone System voicemail](set-up-phone-system-voicemail.md).
 
 |         |         |         |
 |---------|---------|---------|
@@ -133,7 +133,7 @@ For more information about voicemail in a Phone System implementation, see [Set 
 > | Isabell Potvin   | On-premises          | Yes                   | Disabled                    | N/A                                           |
 > 
 > [!NOTE]
-> To use Teams and voicemail, your users must have Exchange mailboxes. See [How Exchange and Microsoft Teams interact](https://docs.microsoft.com/microsoftteams/exchange-teams-interact) for more details.
+> To use Teams and voicemail, your users must have Exchange mailboxes. See [How Exchange and Microsoft Teams interact](exchange-teams-interact.md) for more details.
 
 <!--ENDOFSECTION-->
 
@@ -142,8 +142,6 @@ For more information about voicemail in a Phone System implementation, see [Set 
 If your organization intends to use Direct Routing, you need to obtain required
 licenses. Users of Direct Routing must have the following licenses assigned in
 Office 365:
-
-
 
 -   Microsoft Phone System
 
@@ -160,7 +158,7 @@ that include Audio Conferencing.
 
 
 > [!NOTE]
-> To provide toll-free conference bridge phone numbers and to support conferencing dial-out to international phone numbers, you should set up [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) for your organization.
+> To provide toll-free conference bridge phone numbers and to support conferencing dial-out to international phone numbers, you should set up [Communications Credits](what-are-communications-credits.md) for your organization.
 
 Audio Conferencing and Phone System can be licensed separately as add-on
 services for existing customers who have Office 365 E3 or E1 subscription plans;
@@ -168,7 +166,7 @@ they’re already included as part of the Office 365 E5 subscription plan.
 
 > [!TIP]
 > You can also use Direct Routing for the users who are enabled for Calling Plans
-when routing their calls to third-party PBXs. For more details, see [Licensing and other requirements of Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan#licensing-and-other-requirements).
+when routing their calls to third-party PBXs. For more details, see [Licensing and other requirements of Direct Routing](direct-routing-plan.md#licensing-and-other-requirements).
 
 
 |         |         |         |
@@ -204,7 +202,7 @@ FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6
 
 You need to use certified and supported session border controllers (SBCs) that
 need to be paired to the Direct Routing service to provide PSTN connectivity for
-your users. For a list of certified SBCs, see [Supported Session Border Controllers](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs).
+your users. For a list of certified SBCs, see [Supported Session Border Controllers](direct-routing-plan.md#supported-session-border-controllers-sbcs).
 
 Depending on your environment, number of locations, and voice routing
 requirements, you might need to deploy multiple SBCs to support your user base.
@@ -229,7 +227,7 @@ SBC DNS name in the subject, subject alternate name, or common name fields.
 > The use of wildcard certificates with SBCs is also supported.
 
 For more information and a list of supported certification authorities, see
-[Public trusted certificate for the SBC](https://docs.microsoft.com/microsoftteams/direct-routing-plan#public-trusted-certificate-for-the-sbc).
+[Public trusted certificate for the SBC](direct-routing-plan.md#public-trusted-certificate-for-the-sbc).
 
 
 ### SBC IP addresses and ports
@@ -246,8 +244,8 @@ You need to define specific port numbers on each SBC for SIP signaling and
 media, and configure your firewalls to allow bidirectional traffic to these
 ports and their associated IP addresses.
 
-For more details, see [SIP Signaling: FQDNs and firewall ports](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sip-signaling-fqdns-and-firewall-ports)
-and [Media traffic: Port ranges](https://docs.microsoft.com/microsoftteams/direct-routing-plan#media-traffic-port-ranges).
+For more details, see [SIP Signaling: FQDNs and firewall ports](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports)
+and [Media traffic: Port ranges](direct-routing-plan.md#media-traffic-port-ranges).
 
 
 > [!NOTE]
@@ -346,7 +344,7 @@ one of the following two methods:
 -   Configure Teams as the preferred calling client by assigning the
     TeamsCallingPolicy and the TeamsInteropPolicy.
 
-For more details, see [Set Microsoft Teams as the preferred calling client for the users](https://docs.microsoft.com/microsoftteams/direct-routing-configure#set-microsoft-teams-as-the-preferred-calling-client-for-the-users).
+For more details, see [Set Microsoft Teams as the preferred calling client for the users](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-the-users).
 
 
 |         |         |         |
@@ -358,7 +356,7 @@ For more details, see [Set Microsoft Teams as the preferred calling client for t
 > When a user is configured for Teams-only mode, this user can no longer sign in
 > to Skype for Business.
 
-To have your users see the Calls tab in the Teams client, you need to enable private calling at an organizational level for the tenant. See [Enable Calling for Microsoft Teams](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-calling-for-microsoft-teams) for more details on how to enable private calls.
+To have your users see the Calls tab in the Teams client, you need to enable private calling at an organizational level for the tenant. See [Enable Calling for Microsoft Teams](direct-routing-configure.md#enable-calling-for-microsoft-teams) for more details on how to enable private calls.
 
 
 <!--ENDOFSECTION-->
