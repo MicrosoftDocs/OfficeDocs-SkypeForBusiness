@@ -704,7 +704,7 @@ the nature of the issue.
     Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to
     perform a connectivity test to validate that the media ports have been
     opened correctly for cloud voice capabilities. Detailed steps on how to run
-    the connectivity tests are provided in the [network readiness](3-envision-evaluate-my-environment.md#network-readiness.md)
+    the connectivity tests are provided in the [network readiness](3-envision-evaluate-my-environment.md#network-readiness)
     guidance.
 
 3.  **Check the known issues list:** Consult the [list of known issues for
