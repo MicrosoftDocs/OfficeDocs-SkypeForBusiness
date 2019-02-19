@@ -39,7 +39,7 @@ By default, there are four types of email that will be sent to your users who ar
 
      ![Skype for Business Verify License](media/audio-conferencing-user-enabled.png)
 
-    You can find out more about licensing by seeing [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+    You can find out more about licensing by seeing [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 - **The conference ID or default conference phone number of a user changes.**
 
