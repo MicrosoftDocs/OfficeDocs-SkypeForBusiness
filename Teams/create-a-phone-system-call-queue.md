@@ -157,7 +157,7 @@ You can upload an audio file (.wav, .mp3, or .wma formats).
 
 ![Number 1](media/sfbcallout1.png)
 
-You can select up to 200 call agents, individually or as part of mailing lists or groups. Individual call agents must be either:
+You can select up to 200 call agents belonging to specified mailing lists or groups. Call agents must be either:
 
 - An Online user with a **Phone System** license and enabled for Enterprise Voice or with a Calling Plan.
 
@@ -177,12 +177,11 @@ You can select up to 200 call agents, individually or as part of mailing lists o
 
 **Routing method** You can choose either **Attendant**,  **Serial**, or **Round Robin** for your call queue distribution method. All new and existing call queues will have attendant routing selected by default. When attendant routing is used, the first call in the queue will ring all of the call agents at the same time. The first call agent to pick up the call gets the call.
 
-To use serial routing, you must explicitly choose the **Serial** routing option in UI and cmdlets.  When serial routing is chosen and the call queue is saved, the calls from the queue will ring your agents one by one, starting from the beginning of the agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent on the list and will try all agents one by one until it is picked up or times out waiting in the queue.
-
-> [!NOTE]
-> Serial routing will skip agents who are **Offline**, have set their presence to **Do not Disturb**, or have **opted out** of getting calls from this queue.
-
-When **Round Robin** is selected as a routing method, calls are distributed in even numbers among the call agents. This may be very desirable in an inbound sales environment to assure equal opportunity among all the call agents.
+- **Attendant routing** causes the first call in the queue to ring all call agents at the same time. The first call agent to pick up the call gets the call.
+- **Serial routing** causes incoming calls to ring call agents one by one, starting from the beginning of the call agent list. If an agent dismisses or does not pick up a call, the call will ring the next agent on the list and will try all agents one by one until it is picked up or times out waiting in the queue.
+  > [!NOTE]
+  > Serial routing will skip agents who are **Offline**, have set their presence to **Do not Disturb**, or have **opted out** of getting calls from this queue.
+- **Round robin** balances routing of incoming calls so that each call agent will get the same number of calls from the queue. This may be very desirable in an inbound sales environment to assure equal opportunity among all the call agents.
 
 ### Select an agent opt out option
 
@@ -208,7 +207,7 @@ To access the opt-out option, agents can do the following:
 ![Number 2](media/sfbcallout2.png)
 **Agent Alert setting**
 
-This defines, in seconds, the ???
+This defines the duration of an agent being notified of a call before the Serial or Round Robin routing methods move to the next agent.
 
 The default setting is 30 seconds, but it can be set for up to 3 minutes.
 
