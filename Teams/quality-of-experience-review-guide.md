@@ -1,7 +1,7 @@
 ---
 title: Quality of Experience Review Guide for Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: rowille
 manager: serdars
 ms.date: 09/05/2018
 ms.topic: article
