@@ -211,9 +211,9 @@ You can set up Communications Credits for your organizations to enable users to 
 
 To learn more about Phone System and Calling Plans, review the following articles:
 
--   [Phone System](https://products.office.com/skype-for-business/phone-system)
+-   [Phone System](https://products.office.com/en-us/skype-for-business/phone-system)
 
--   [Calling Plans](https://products.office.com/skype-for-business/calling-plans)
+-   [Calling Plans](https://products.office.com/en-us/skype-for-business/calling-plans)
 
 <br>
 
