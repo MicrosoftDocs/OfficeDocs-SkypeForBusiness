@@ -86,7 +86,7 @@ After you have the hardware in place, you'll need to the install operating syste
 |Windows Server 2016 <br/> ||
 ||
    
-Anything other than the operating systems listed here won't work properly; that includes Server Core option, which is not Supported, please don't try it for installs of Skype for Business Server 2019.
+Anything other than the operating systems listed here won't work properly; please don't try it for installs of Skype for Business Server 2019. For example, Server Core option is not listed, and is thus not Supported
 
 > [!NOTE]
 > 
