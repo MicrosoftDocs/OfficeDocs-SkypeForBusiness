@@ -222,7 +222,7 @@ programmatically. Use this API to create your own monitoring tool, or connect
 your existing monitoring tools to Office 365 service communications, potentially
 simplifying how you monitor your environment. For more information, see [Office
 365 for Enterprise
-developers](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+developers](https://developer.microsoft.com/office).
 
 ### Daily/weekly/monthly/as-needed tasks
 
