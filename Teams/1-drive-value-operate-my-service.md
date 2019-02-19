@@ -617,7 +617,7 @@ the Quality of Experience Review Guide and associated training materials.
 
 [Learn CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
-[Upload Building information](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
+[Upload Building information](turning-on-and-using-call-quality-dashboard.md#upload-building-information)
 
 [Quality of Experience Review Guide](https://aka.ms/qerguide)
 
@@ -704,7 +704,7 @@ the nature of the issue.
     Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to
     perform a connectivity test to validate that the media ports have been
     opened correctly for cloud voice capabilities. Detailed steps on how to run
-    the connectivity tests are provided in the [network readiness](3-envision-evaluate-my-environment.md#network-readiness)
+    the connectivity tests are provided in the [network readiness](3-envision-evaluate-my-environment.md#network-readiness.md)
     guidance.
 
 3.  **Check the known issues list:** Consult the [list of known issues for
@@ -793,27 +793,27 @@ user](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-offi
 organization](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
 [Create and manage dial
-plans](https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans)
+plans](create-and-manage-dial-plans.md)
 
 #### Common tasks for Audio Conferencing
 
 [Change the settings for an Audio Conferencing
-bridge](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge)
+bridge](change-the-settings-for-an-audio-conferencing-bridge.md)
 
 [Change the phone numbers on your Audio Conferencing
-bridge](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge)
+bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
 [Manage the Audio Conferencing settings for a
-user](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
+user](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-[Reset the Audio Conferencing PIN](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin)
+[Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin-in-teams.md)
 
 ### License management
 
 As your organization grows or contracts, it’s important that you plan licensing
 for current and future needs. There is a base Teams license, in addition to
 licensing for cloud voice capabilities ([Phone
-System](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system)
+System](here-s-what-you-get-with-phone-system.md)
 and [Audio
 Conferencing](https://products.office.com/skype-for-business/audio-conferencing)).
 
@@ -822,13 +822,13 @@ Plan](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-offi
 licenses. Calling Plan licensing enables you to make and receive domestic and/or
 international phone calls. These plans are usage-based and have minute pools
 associated with them. Provisioning [Communications
-Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
+Credits](what-are-communications-credits.md)
 will ensure you never run out of service.
 
 Audio Conferencing allows for tolled dial-in conferencing and domestic dial-out
 conferencing services. Toll-free dial-in conferencing or non-domestic dial-out
 scenarios might cause you to incur additional charges for which [Communications
-Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
+Credits](what-are-communications-credits.md)
 are required.
 
 Communications Credits can supplement both Calling Plan and Audio Conferencing
@@ -849,7 +849,7 @@ Microsoft’s number inventory. Both methods are described in [Getting phone num
 
 There is a limit to the number of telephone numbers you can provision from
 Microsoft’s number inventory. The limits are determined by a number of factors
-detailed in [How many phone numbers can you get?](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get).
+detailed in [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md).
 The limits depend on the type of numbers—toll-free service numbers, toll service
 numbers, and subscriber (user) numbers. Each has its own limits and must be
 managed independently. If you’re nearing the limit (or you’ve reached the
