@@ -2,6 +2,7 @@
 title: "Allow users to contact external Skype for Business users"
 ms.author: tonysmit
 author: tonysmit
+ms.reviewer: 
 manager: serdars
 ms.topic: article
 ms.assetid: b414873a-0059-4cd5-aea1-e5d0857dbc94
