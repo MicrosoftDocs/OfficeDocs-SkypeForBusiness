@@ -124,7 +124,7 @@
 
 # [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Meetings in Teams](Tutorial-Meetings-in-Teams.yml)
-## [Manage meeting policies](meeting-policies-in-teams.md)]
+## [Manage meeting policies](meeting-policies-in-teams.md)
 ## [Manage meetings settings](meeting-settings-in-teams.md)
 ## [Emails sent to users when their settings change](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Enable users to record their name when they join a meeting](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
