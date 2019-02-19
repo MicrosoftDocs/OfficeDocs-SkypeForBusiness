@@ -112,7 +112,7 @@
 ###### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
 ###### [Office 365 Enterprise E1 and E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
 ###### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-###### [Office 365 Enterprise E5 without Audio Conferencint](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
+###### [Office 365 Enterprise E5 without Audio Conferencing](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
 ###### [GOV, EDU, and nonprofit organizations](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 #### [Manage the Teams Commercial Trial offer](iw-trial-teams.md)
 #### [Upgrade Teams free to Office 365 subscription version](upgrade-freemium.md)
