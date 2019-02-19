@@ -3,7 +3,7 @@ title: "Call sharing and group call pickup in Microsoft Teams"
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 01/16/19
+ms.date: 02/19/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -43,7 +43,7 @@ To set up group call pickup, a user first configures a call group (this is not t
 
 Call group creation and notification preferences are user-driven features; administrators do not have to configure these features for their users. Call groups cannot be created from security groups or Office 365 groups; they must be created in Teams.
 
-Admins cannot prevent users from creating groups and changing other call pickup setting. The functionality is not blocked.
+Admins should enable call groups via the **TeamsCallingPolicy AllowCallGroups** setting for a user. Admins can only control whether this user can configure call groups. Once the bit is set to true, admins cannot prevent the user from configuring and adding the call group users of their choice.
 
 ## Limitations
 
