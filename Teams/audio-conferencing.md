@@ -262,20 +262,20 @@ After confirming your organization’s eligibility for obtaining the Audio Confe
 
 ## Licensing for Audio Conferencing
 
-[Audio Conferencing license](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) is available as part of Office 365 E5 subscription plans, or as an add-on to Office 365 E1 or Office 365 E3 subscription plans.
+[Audio Conferencing license](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) is available as part of Office 365 E5 subscription plans, or as an add-on to Office 365 E1 or Office 365 E3 subscription plans.
 
 > [!NOTE]
 > PSTN or dial-in conferencing in Teams does not support 3<sup>rd</sup>-party Audio Conferencing Providers (ACPs).
 > <br>If you already use Skype for Business Online PSTN Conferencing today, you can immediately take advantage of Audio Conferencing in Teams.
 
-To provide toll-free conference bridge phone numbers and to support conferencing dial-out to International phone numbers, you need to setup [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) for your organization.
+To provide toll-free conference bridge phone numbers and to support conferencing dial-out to International phone numbers, you need to setup [Communications Credits](what-are-communications-credits.md) for your organization.
 
 > [!IMPORTANT]
 > Some countries are serviced by toll-free conference bridge phone numbers only, and in this case the use of Communications Credits is a mandatory requirement to support dial in for such countries.
 
-The first consideration to make when implementing Communications Credits is to decide the initial amount of funds to be purchased. Recommended funding amounts can be referenced from [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) article.
+The first consideration to make when implementing Communications Credits is to decide the initial amount of funds to be purchased. Recommended funding amounts can be referenced from [Communications Credits](what-are-communications-credits.md) article.
 
-If your organization choose to use auto-recharge, a recommendation on the trigger (lowest amount of funds) is also included in the [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) article. Auto-recharge amount needs to be determined by the actual usage. Communications Credits usage should be monitored over time and recharge amount needs to be adjusted as required.
+If your organization choose to use auto-recharge, a recommendation on the trigger (lowest amount of funds) is also included in the [Communications Credits](what-are-communications-credits.md) article. Auto-recharge amount needs to be determined by the actual usage. Communications Credits usage should be monitored over time and recharge amount needs to be adjusted as required.
 
 <br>
 
@@ -321,7 +321,7 @@ The Audio Conferencing service in Office 365 includes:
 -   Support for multiple languages for the conference bridge (primary and secondary)
 -   A default phone number for the tenant.
 
-Full description of the included capabilities can be referenced from [Set up Audio Conferencing for Skype for Business and Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) and [Phone numbers for Audio Conferencing](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
+Full description of the included capabilities can be referenced from [Set up Audio Conferencing for Skype for Business and Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) and [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md).
 
 > [!NOTE]
 > Dedicated conference bridge phone numbers are counted towards the limit of phone numbers that can be acquired per tenant, based on the number of applicable licenses as described in [Getting service phone numbers for Skype for Business and Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). Toll-free conference bridge phone numbers require Communications Credits.
@@ -331,7 +331,7 @@ If there are existing conference bridge phone numbers that must be transferred t
 > [!NOTE]
 > Complexity of transferring phone numbers to Microsoft varies greatly based on the countries or regions, carriers, the number of circuits involved, and many other contributing factors. To plan for phone number porting, check out the [Number Porting Guide](https://go.microsoft.com/fwlink/?linkid=859011).
 
-Additional details on transferring phone numbers to Audio Conferencing service can be found in [Transfer phone numbers to Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
+Additional details on transferring phone numbers to Audio Conferencing service can be found in [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
 
 <br>
 
@@ -429,7 +429,7 @@ Within the Phone System feature of Office 365, there are two types of dial plans
     -   **Tenant-user dial plan**—the dial plan applies only to specific users.
 
 > [!NOTE]
-> Check out the [What are dial plans?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) documentation for further details and examples.
+> Check out the [What are dial plans?](what-are-dial-plans.md) documentation for further details and examples.
 
 The effective dial plan assigned to users is the combination of service dial plan (based on user’s Office 365 usage location) and tenant dial plan (can be either tenant-global dial plan or tenant-user dial plan).
 

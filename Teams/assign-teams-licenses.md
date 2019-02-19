@@ -19,7 +19,7 @@ appliesto:
 You can assign licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. This article explains how to add these licenses in bulk and for an individual user. 
 
 > [!IMPORTANT]
-> See [Microsoft Teams add-on licensing](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) for information about what licenses you need to buy and how to buy them, depending on your Office 365 plan, so users get Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your business.
+> See [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for information about what licenses you need to buy and how to buy them, depending on your Office 365 plan, so users get Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your business.
 
 ## Phone System and Calling Plans: Tips and scripts for assigning licenses
 
