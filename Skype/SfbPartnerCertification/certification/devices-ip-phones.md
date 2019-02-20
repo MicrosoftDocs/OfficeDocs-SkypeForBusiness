@@ -75,7 +75,7 @@ Basic functionalities will continue to work on Skype for Business certified devi
 
 ## Additional Resources
 
-Browse all [devices Certified for Teams](http://products.office.com/microsoft-teams/across-devices/devices).
+Browse all [devices Certified for Teams](https://products.office.com/en-us/microsoft-teams/across-devices/devices).
 
 Learn about [Skype for Business certification](overview.md)
 
