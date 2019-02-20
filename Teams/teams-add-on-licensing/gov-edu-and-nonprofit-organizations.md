@@ -24,7 +24,6 @@ Most Teams features are available to US Government, education, and nonprofit org
 
 |**Teams feature**|**Available to GOV (GCC)**|**Available to GOV (non-GCC)**|**Available to EDU**|**Available to non-profit organizations**|
 |:-----|:-----|:-----|:-----|:-----|
-|Live events  <br/> |No  <br/> |No  <br/> |No  <br/> |Yes  <br/> |
 |Audio Conferencing  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Office 365 Phone System  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Office 365 Calling Plan  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |

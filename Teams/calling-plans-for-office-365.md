@@ -85,8 +85,6 @@ Here are more articles that explain how to set up your Calling Plans:
     
 - [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Plan for Skype for Business Cloud Connector Edition](https://technet.microsoft.com/library/Mt605227.aspx): This article explains how to set up Office 365 Phone System with your own PSTN connectivity.
-    
 - [Plan your Phone System in Office 365 (Cloud PBX) solution](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
    
@@ -99,8 +97,4 @@ Here are more articles that explain how to set up your Calling Plans:
 - [Set up Calling Plans](set-up-calling-plans.md)
     
 - [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
-    
-- [Configure the Cloud Connector](https://technet.microsoft.com/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
-  
-  
  
