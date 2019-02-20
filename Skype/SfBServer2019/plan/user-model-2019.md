@@ -167,11 +167,7 @@ Microsoft used the hardware in the following table for the database server for M
 |:-----|:-----|
 |CPU  <br/> |Intel Xeon E5-2673 v3 dual processor, 6-core, 2.4 gigahertz (GHz) or higher.  <br/> |
 |Memory  <br/> |48 GB  <br/> |
-|Disk  <br/> |
-EITHER: 
-• 4 or more 10000 RPM hard disk drives with at least 72 GB free disk space (the disks should be in a 2x RAID 1 configuration). 
-OR 
-• Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000 RPM mechanical disk drives.   <br/> |
+|Disk  <br/> | EITHER:<br/> • 4 or more 10000 RPM hard disk drives with at least 72 GB free disk space (the disks should be in a 2x RAID 1 configuration). <br/>OR <br/>• Solid state drives (SSDs) able to provide the same free space and similar performance to 4 10000 RPM mechanical disk drives.   <br/> |
 |Network  <br/> | 1 dual-port network adapter, 1 Gbps or higher (2 recommended, which requires teaming with a single MAC address and single IP address).  <br/> |
 
 **Recommended Disk configurations**
