@@ -142,4 +142,4 @@ For more information about getting Teams, check out [How do I get access to Micr
 
 [Teams Marketplace](http://office.com/teamsdevices)
 
-[IP Phones](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[IP Phones certified for Microsoft Teams](/skypeforbusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
