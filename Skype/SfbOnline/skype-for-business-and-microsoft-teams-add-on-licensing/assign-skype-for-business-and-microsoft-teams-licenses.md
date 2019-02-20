@@ -1,5 +1,5 @@
 ---
-title: "Assign Skype for Business and Microsoft Teams licenses"
+title: "Assign Skype for Business licenses"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,7 +15,6 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -23,12 +22,12 @@ ms.custom:
 description: "Learn how to assign Skype for Business licenses for Phone System, Audio Conferencing, Calling Plans, and Communications Credits. "
 ---
 
-# Assign Skype for Business and Microsoft Teams licenses
+# Assign Skype for Business licenses
 
 This article gives you tips about assigning licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. It also provides scripts for assigning licenses in bulk.
 
 > [!IMPORTANT]
-> See [Skype for Business and Microsoft Teams add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md) for information about what licenses you need to buy and **how to buy** them - depending on your Office 365 plan - so users get Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your business.
+> See [Skype for Business add-on licensing](skype-for-business-and-microsoft-teams-add-on-licensing.md) for information about what licenses you need to buy and **how to buy** them - depending on your Office 365 plan - so users get Audio Conferencing, toll-free numbers, and the ability to call phone numbers outside your business.
 
 
 ## Phone System and Calling Plans: Tips and scripts for assigning licenses

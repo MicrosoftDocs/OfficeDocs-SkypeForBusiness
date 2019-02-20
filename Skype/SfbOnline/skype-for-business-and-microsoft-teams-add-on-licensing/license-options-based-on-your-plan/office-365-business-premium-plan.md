@@ -14,7 +14,6 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -25,7 +24,7 @@ description: "Learn about add-on licenses, features, and how to buy for Office 3
 
 # Office 365 Business Premium
 
-If you have [Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium), you can use Skype for Business to make calls to other people in your business who are on your subscription. For example, if your business has 10 people, you can call and IM each other using Skype for Business.
+If you have [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), you can use Skype for Business to make calls to other people in your business who are on your subscription. For example, if your business has 10 people, you can call and IM each other using Skype for Business.
 
  **To make and receive calls from people external to your business, you have two options**:
 
