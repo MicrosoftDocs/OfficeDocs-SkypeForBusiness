@@ -18,7 +18,7 @@ appliesto:
 
 ## Get Started
 
-As your users start using Teams for making calls and holding meetings, they may experience a caller's voice breaking up or chopping in and out of a call or meeting. Shared video may freeze or pixellate, or fail altogether. This is due to the IP packets that represent voice and video traffic encountering network congestion and arriving out of sequence or not at all. There are ways to identify these problemswhen they surface and prevent their return primarily Quality of Service (QoS).
+As your users start using Teams for making calls and holding meetings, they may experience a caller's voice breaking up or chopping in and out of a call or meeting. Shared video may freeze or pixelate, or fail altogether. This is due to the IP packets that represent voice and video traffic encountering network congestion and arriving out of sequence or not at all. There are ways to identify these problems when they surface and prevent their return, primarily Quality of Service (QoS).
 
 **Quality of Service (QoS)** is a way to allow real-time network traffic (like voice or video streams) that is sensitive to network delays to "cut in line" in front of traffic that is less sensitive (like downloading a new app, where an extra second to download isn't a big deal). QoS identifies and marks all packets in real-time streams using Windows Group Policy Objects and a routing feature called Port-based Access Control Lists, which then helps your network to give voice, video, and screen share streams their own dedicated portions of network bandwidth.
 
@@ -36,13 +36,13 @@ Ideally you would implement QoS on your internal network while setting up Teams,
 
 [Implement Quality of Service (QoS) in Microsoft Teams](QoS-in-Teams.md)
 
-[Video:	Call Quality Overview](https://aka.ms/teams-quality)
+[Video: Call Quality Overview](https://aka.ms/teams-quality)
 
 [Set up Call Analytics](set-up-call-analytics.md)
 
 [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Turning on and using Call Quality Dashboard ](turning-on-and-using-call-quality-dashboard.md)
+[Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
 
 [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

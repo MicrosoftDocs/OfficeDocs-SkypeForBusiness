@@ -26,8 +26,7 @@ Media traffic type| Client source port range |Protocol|DSCP value|DSCP class|
 |Audio| 50,000–50,019|TCP/UDP|46|Expedited Forwarding (EF)|
 |Video| 50,020–50,039|TCP/UDP|34|Assured Forwarding (AF41)|
 |Application/Screen Sharing| 50,040–50,059|TCP/UDP|18|Assured Forwarding (AF21)|
-| | | | | 
-
+| | | | |
 
 Wherever possible, configure policy-based QoS settings within a Group Policy object. The following steps are very similar to  [Configuring port ranges and a Quality of Service policy for your clients on Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), which has some additional details that may not be necessary.
 
@@ -57,12 +56,11 @@ To create a QoS audio policy for domian-joined Windows 10 computers, first log o
 
 The new policies you’ve created won’t take effect until Group Policy has been refreshed on your client computers. Although Group Policy periodically refreshes on its own, you can force an immediate refresh by following these steps:
 
-
 1. On each computer for which you want to refresh Group Policy, open a command console. Ensure that the command console is set to run as administrator.
 
 2. At the command prompt, enter
 
-   ```
+   ``` powershell
     gpupdate.exe /force
    ```
 
@@ -72,21 +70,21 @@ To verify that the values from the Group Policy object have been set, perform th
 
 1. Open a command console. Ensure that the command console is set to run as administrator.
 
-2. At the command prompt, enter 
+2. At the command prompt, enter:
 
-   ```
+   ``` powershell
    gpresult /R > gp.txt
    ```
 
    This will generate a report and send it to a text file named gp.txt. Alternatively, you can enter the following command to produce the same data in a more readable HTML report named gp.html:
 
-   ```
+   ``` powershell
    gpresult /H >gp.html
    ```
 
    ![Screenshot of the console window running the gpresult command.](media/Qos-in-Teams-Image3.png "Screenshot of the console window running the gpresult command.")
 
-3. In the generated file, look for the heading **Applied Group Policy Objects** and verify that the names of the Group Policy objects created earlier are in the list of applied policies. 
+3. In the generated file, look for the heading **Applied Group Policy Objects** and verify that the names of the Group Policy objects created earlier are in the list of applied policies.
 
 4. Open the Registry Editor, and go to:
 
@@ -95,7 +93,6 @@ To verify that the values from the Group Policy object have been set, perform th
    Verify the values for the registry entries listed in Table 4.
 
    _Table 4. Values for Windows registry entries for QoS_
-
 
    |          Name          |  Type  |    Data     |
    |         :---:          |:---:   |    :---:    |
@@ -109,6 +106,5 @@ To verify that the values from the Group Policy object have been set, perform th
    |    Remote IP Prefix    | REG_SZ |     \*      |
    |      Remote Port       | REG_SZ |     \*      |
    |     Throttle Rate      | REG_SZ |     -1      |
-
 
 5. Verify that the value for the Application Name entry is correct for the client you’re using, and verify that both the DSCP Value and Local Port entries reflect the settings in the Group Policy object.
