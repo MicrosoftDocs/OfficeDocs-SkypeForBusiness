@@ -298,7 +298,7 @@ After you've gotten the certificate, you'll need to go ahead and assign it to th
 - Audio/Video Authentication service (don't confuse this with the A/V Edge service, as that doesn't use a certificate to encrypt audio and video streams)
     
 > [!IMPORTANT]
-> All Edge Servers need to have the exact same certificate with the same private key for the Media Relay Authentication service. 
+> All Edge Servers (if they belong to the same pool of Edge Servers) need to have the exact same certificate with the same private key for the Media Relay Authentication service. 
   
 ### Internal Certificates
 

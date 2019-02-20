@@ -45,7 +45,7 @@ The first things you need to do are purchase a Common Area Phone (CAP) license a
 > [!NOTE]
 > You don't need a Phone System license. It's included with the Common Area Phone license.
 
-For more information on licenses, see [Skype for Business and Microsoft Teams add-on licensing](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+For more information on licenses, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ## Step 2 - Create a new user account for the phone and assign the licenses
 

@@ -1,7 +1,7 @@
 ---
 title: "Country and region availability for Audio Conferencing and Calling Plans"
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: Meeting policies in Teams
+title: Manage meeting policies
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -12,6 +12,8 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
+f1keywords: 
+- ms.teamsadmincenter.meetingpolicies.overview
 description: Learn to manage meeting policy settings in Teams.
 ---
 

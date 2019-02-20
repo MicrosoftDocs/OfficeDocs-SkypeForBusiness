@@ -3,7 +3,7 @@ title: "Shared line appearance in Microsoft Teams"
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 02/19/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -38,6 +38,8 @@ Both managers and delegates need to be enterprise voice enabled. The shared line
 ## Configuring delegation and shared line appearance
 
 Delegation and shared line appearance are user-driven features: there are no admin settings to configure. For information about how to use the feature, see [Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
+
+The tenant admin should enable delegation via the **TeamsCallingPolicy AllowDelegation** setting for this feature to work.
 
 ## Shared line appearance feature availability
 
