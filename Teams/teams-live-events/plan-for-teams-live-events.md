@@ -31,7 +31,7 @@ It's important to know that an Office 365 license is required to participate in 
 - **For Quick start production**  The user must be assigned a Microsoft Teams license.
 - **For External encoder production** The user must be assigned a Microsoft Stream license.
 
-For more information on licensing, see [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+For more information on licensing, see [Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 The user must have:
 - Private meeting scheduling in Teams enabled (*The TeamsMeetingPolicy -AllowPrivateMeetingScheduling parameter = True*).

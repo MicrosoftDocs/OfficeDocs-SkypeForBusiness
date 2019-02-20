@@ -1,8 +1,8 @@
 ---
 title: "Country and region availability for Audio Conferencing and Calling Plans"
 ms.date: 05/23/2018
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: article
@@ -127,7 +127,7 @@ You can select a country or region to see what cloud voice features are availabl
 
 ***
 
-After you look to see if one of the Skype for Business or Microsoft Teams services are available, you can see [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) to help you buy licenses and assign them to your users.
+After you look to see if one of the Skype for Business or Microsoft Teams services are available, you can see [Skype for Business and Microsoft Teams add-on licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) to help you buy licenses and assign them to your users.
 
 > [!NOTE]
 > 
@@ -172,7 +172,7 @@ Use the drop-down list at the top of the page to search for a country or region 
 ### Calling Plans
 Along with Phone System, a Calling Plans let users make and receive phone calls. You first need to get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are two types of Calling Plans available: **Domestic** and **Domestic and International**. See [What are Calling Plans?](../what-are-calling-plans-in-office-365.md) for more details.
 
-You can also see [Phone System and Calling Plans licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) for licensing information.
+You can also see [Phone System and Calling Plans licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for licensing information.
 
 > [!NOTE]
 > The country/region is based on the location of the user's license in the **Office 365 admin center** > **Active Users** and **not** the billing address listed under the **Organization Profile** in the **Office 365 admin center**. 
