@@ -66,7 +66,7 @@ Administrators should set each of these settings to the following values for a g
 |SfBWithTeamsCollab or SfBOnly|Disabled|Disabled|Disabled|Disabled|
 ||||||
 
-Prior to the rollout of automatic conformance of the user experience based on modes, the `Grant-csTeamsUpgradePolicy` cmdlet checks the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determine if these settings are compatible with the specified mode. If any are not configured properly, the grant will succeed but a warning will be provided in PowerShell indicating which specific settings are not configured properly. Below is an example of what the PowerShell warning could look like:
+Prior to the rollout of automatic conformance of the user experience based on modes, the `Grant-CsTeamsUpgradePolicy` cmdlet checks the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determine if these settings are compatible with the specified mode. If any are not configured properly, the grant will succeed but a warning will be provided in PowerShell indicating which specific settings are not configured properly. Below is an example of what the PowerShell warning could look like:
 
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
