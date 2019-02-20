@@ -37,9 +37,9 @@ By default, there are four types of email that will be sent to your users who ar
 
     Here is an example of this email:
 
-     ![Skype for Business Verify License](media/audio-conferencing-user-enabled.png)
+     ![Skype for Business Verify License](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    You can find out more about licensing by seeing [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    To find out more about licensing, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 - **The conference ID or default conference phone number of a user changes.**
 
