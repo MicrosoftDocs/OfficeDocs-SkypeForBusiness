@@ -53,7 +53,7 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 - Run the following: 
     
   ```
-  Set-CsOnlineDialInConferencingTenantSetting -AllowPSTNOnlyMeetingsByDefault $true | $false
+  Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true | $false
   ```
 
 ## What else should you know?
