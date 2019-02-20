@@ -81,7 +81,7 @@ See these articles to plan and set up the Phone System in your business:
     
 - [Plan your Phone System in Office 365 (Cloud PBX) solution](https://go.microsoft.com/fwlink/?LinkId=708645): This  article lays out all of your deployment options. It also has information about planning an entirely cloud-only solution. 
     
-- [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing): Learn which licenses you need to buy to get the Phone System in Office 365.
+- [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Learn which licenses you need to buy to get the Phone System in Office 365.
     
 - [Set up Phone System voicemail - Admin help](set-up-phone-system-voicemail.md)
     

@@ -998,7 +998,7 @@ the testing prerequisites listed below are in place.
     identified and configured.
 
 -   [Communications
-    Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
+    Credits](what-are-communications-credits.md)
     (if required) have been set up for your organization to provide access to
     toll-free conference bridge phone numbers and support conferencing
     international dial-out scenarios.
