@@ -39,15 +39,15 @@ Call Analytics and CQD run in parallel and can be used independently or together
 > Helpdesk agent permissions and network topology upload will be available in the new admin portal in the coming months. In the meantime, you can continue to use  https://adminportal.services.skypeforbusiness.com for Tier 1 and Tier 2 helpdesk access.
   
 
-Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user in a Microsoft Teams or Skype for Business account. Why did user Amos Marble have a poor call this afternoon? Using Call Analytics, an Office 365 admin or trained helpdesk agent can investigate the device, network, connectivity, and other factors related to Amos's call to troubleshoot call quality and connection problems in Microsoft Teams and Skype for Business.
+Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user in a Microsoft Teams or Skype for Business account. Why did this user have a poor call this afternoon? Using Call Analytics, an Office 365 admin or trained helpdesk agent can investigate the device, network, connectivity, and other factors related to his call to troubleshoot call quality and connection problems in Microsoft Teams and Skype for Business.
 
 To see this information for a user in the Microsoft Teams admin center, click the **Call History** tab for that user in the user detail page, showing all the calls and meetings that user has participated in for the last 30 days.
 
-![Call analytics user data.](media/call-analytics-user-data.png)
+![Call analytics user data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 To get additional information about a given session including detailed media and networking statistics, click on a session to see the details.
 
-![Call analytics user session data.](media/call-analytics-user-data-session.png)
+![Call analytics user session data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
 If you want non-admins, such as helpdesk agents from an external vendor, to use Call Analytics, you can assign permissions so that they can use Call Analytics, but they can't access the rest of the Microsoft Teams admin center: 
   
@@ -69,11 +69,11 @@ For details about setting up Call Analytics, see [Set up Skype for Business Call
   
 Where CA is designed to help admins and helpdesk agents troubleshoot call quality problems with specific calls, the Call Quality Dashboard (CQD) is designed to help Microsoft Teams admins, Skype for Business admins, and network engineers optimize a network. CQD shifts focus from specific users and instead looks at aggregate information for an entire Microsoft Teams or Skype for Business organization. For more details, see [Features of the Call Quality Dashboard for Skype for Business Online](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
   
-Maybe Amos's poor call quality is due to a network issue that's also affecting many other users. Amos's individual call experience isn't visible in CQD, but the overall quality of calls made using Microsoft Teams or Skype for Business is captured. With the CQD, overall patterns may become apparent, allowing network engineers to make informed assessments of call quality. CQD provides reports of call quality metrics that give you insights into overall call quality, server-client streams, client-client streams, and voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
+Maybe the user's poor call quality is due to a network issue that's also affecting many other users. The individual call experience isn't visible in CQD, but the overall quality of calls made using Microsoft Teams or Skype for Business is captured. With the CQD, overall patterns may become apparent, allowing network engineers to make informed assessments of call quality. CQD provides reports of call quality metrics that give you insights into overall call quality, server-client streams, client-client streams, and voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
   
-![Screenshot of Call Quality Dashboard. Tabs shown are Overall Call Quality, Server - Client, Client - Client, and Voice Quality SLA.](media/6eaccf99-8ee8-4f99-bdf2-ba1c72471cb9.png)
+![Screenshot of Call Quality Dashboard. Tabs shown are Overall Call Quality, Server - Client, Client - Client, and Voice Quality SLA.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-With the help of CQD's Location-Enhanced Reports, aggregate call quality and reliability within Amos's building can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users.
+With the help of CQD's Location-Enhanced Reports, aggregate call quality and reliability within the user's building can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users.
 
 ![Screenshot of Call Quality Dashboard's Location-Enhanced Reports. Tabs shown are Overview, Buildings - Wired, Buildings - WiFi, and Mobile (LTE). A filter is being applied to view the streams within a specific building.](media/call-quality-dashboard-location-enhanced-reports-building-selection.png)
 
