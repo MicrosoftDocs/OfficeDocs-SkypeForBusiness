@@ -84,20 +84,20 @@ After confirming that your organization can obtain the Calling Plans service, co
 
 ## Phone numbers and emergency locations
 
-With Calling Plans in Office 365, every user in your organization needs to have a unique direct inward dialing (DID) phone number and a corresponding validated emergency address. Review [Manage cloud voice telephone numbers](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system#manage-cloud-voice-telephone-numbers) to plan the phone number acquisition for your Calling Plans implementation.
+With Calling Plans in Office 365, every user in your organization needs to have a unique direct inward dialing (DID) phone number and a corresponding validated emergency address. Review [Manage cloud voice telephone numbers](2-envision-make-my-service-decisions-phone-system.md#manage-cloud-voice-telephone-numbers) to plan the phone number acquisition for your Calling Plans implementation.
 
 When you’re configuring phone numbers for Calling Plans, you must assign an emergency address to each telephone number before you assign the number to a user. This is required to support emergency calling. The emergency address must be validated to ensure that it’s in the correct format to be used by emergency response services.
 
 > [!IMPORTANT]
-> Emergency Services calling operates differently in the Calling Plans service than in traditional telephone services. It’s important that you understand these differences and communicate them to all users. See [Emergency Calling Terms and Conditions](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) for more details.
+> Emergency Services calling operates differently in the Calling Plans service than in traditional telephone services. It’s important that you understand these differences and communicate them to all users. See [Emergency Calling Terms and Conditions](emergency-calling-terms-and-conditions.md) for more details.
 
 In addition to supplying a validated emergency address, you can define emergency locations and associate them with the validated emergency address to give a more exact location within an address. An emergency location is typically a building number, floor, building wing, or office number where the user is located.
 
 To learn more about emergency locations in relation to Calling Plans, review the following articles:
 
--   [What are emergency locations, addresses and call routing?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
+-   [What are emergency locations, addresses and call routing?](what-are-emergency-locations-addresses-and-call-routing.md)
 
--   [Emergency calling terms and conditions](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
+-   [Emergency calling terms and conditions](emergency-calling-terms-and-conditions.md)
 
 <br>
 
@@ -126,7 +126,7 @@ Phone System voicemail, powered by Azure Voicemail services, supports voicemail 
 
 By default, Phone System voicemail works with Exchange Online; however it has a minimum supported Exchange on-premises version and deployment model to allow delivery of voicemail messages to user mailboxes in the on-premises Exchange deployment.
 
-Phone System voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization. If your organization decided to keep voicemail transcription enabled, you need to also consider whether voicemail transcription profanity masking need to be enabled. See [Setting voicemail policies in your organization](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) for more details.
+Phone System voicemail includes voicemail transcription, which is enabled for all users in your organization by default. Your business needs might require that you disable voicemail transcription for specific users or everyone throughout the organization. If your organization decided to keep voicemail transcription enabled, you need to also consider whether voicemail transcription profanity masking need to be enabled. See [Setting voicemail policies in your organization](set-up-phone-system-voicemail.md) for more details.
 
 >[!NOTE]
 > A fallback mechanism has been implemented so that Phone System voicemail can resend messages by using SMTP, which means users who have a mailbox on a third-party email system will receive their voicemail messages. This mechanism doesn’t include guaranteed service uptime or other voicemail
@@ -211,9 +211,9 @@ You can set up Communications Credits for your organizations to enable users to 
 
 To learn more about Phone System and Calling Plans, review the following articles:
 
--   [Phone System](https://products.office.com/skype-for-business/phone-system)
+-   [Phone System](https://products.office.com/en-us/skype-for-business/phone-system)
 
--   [Calling Plans](https://products.office.com/skype-for-business/calling-plans)
+-   [Calling Plans](https://products.office.com/en-us/skype-for-business/calling-plans)
 
 <br>
 
@@ -245,7 +245,7 @@ The first consideration to make when implementing Communications Credits is to d
 
 For your Calling Plans implementation, you can control the use of Communications Credits on a per-user basis, which helps you ensure that you’ve assigned these credits in alignment with your business needs.
 
-To learn more about Communications Credits, review [What are Communications Credits?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+To learn more about Communications Credits, review [What are Communications Credits?](what-are-communications-credits.md).
 
 <br>
 
@@ -295,11 +295,11 @@ The two types of telephone numbers in Microsoft cloud voice solutions are:
 
 -   Service numbers, available as toll and toll-free service numbers, which have higher concurrent call capacity than subscriber numbers and can be assigned to services such as Audio Conferencing, Auto Attendants, or Call Queues.
 
-For more information about the types of telephone numbers, see [Different kinds of phone numbers used for Calling Plans](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans).
+For more information about the types of telephone numbers, see [Different kinds of phone numbers used for Calling Plans](different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
 The total count of telephone numbers that you can obtain depend on the type of telephone number and the number of licenses you’ve bought and assigned to your users.
 
-For more information about the total count of telephone numbers that you can obtain, see [How many phone numbers can you get?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
+For more information about the total count of telephone numbers that you can obtain, see [How many phone numbers can you get?](how-many-phone-numbers-can-you-get.md)
 
 <br>
 
@@ -320,9 +320,9 @@ As an alternative (if partial port is supported), you can submit multiple port r
 
 Telephone number porting is a complex topic and requires thorough planning, coordination, and adequately managing your stakeholders’ expectations. To learn more, see the following articles:
 
--   [Transferring phone numbers to Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
+-   [Transferring phone numbers to Office 365](transfer-phone-numbers-to-office-365.md)
 
--   [Transferring phone numbers common questions](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [Transferring phone numbers common questions](transferring-phone-numbers-common-questions.md)
 
 <br>
 
@@ -354,7 +354,7 @@ The effective dial plan assigned to users is the combination of the service dial
 > [!IMPORTANT]
 > There can be a maximum of 25 normalization rules in each tenant dial plan; therefore, it’s important to avoid duplicating normalization rules that are already available as part of the service dial plan.
 
-For more information about dial plans, see [What are dial plans?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
+For more information about dial plans, see [What are dial plans?](what-are-dial-plans.md)
 
 <br>
 

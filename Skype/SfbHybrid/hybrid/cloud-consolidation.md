@@ -1,7 +1,7 @@
 ---
 title: "Cloud Consolidation for Teams and Skype for Business"
 ms.author: crowe
-author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 ms.topic: article
