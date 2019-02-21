@@ -71,7 +71,7 @@ The following table identifies the sections of the Teams experience that have be
 <br><br>
 <sup>2</sup> Sideloading is split as follows:
 
-- Allow a user to sideload apps which can be managed at a user level in TeamsAppSetupPolicy.
+- Allow a user to sideload apps which can be managed at a user level in [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
 - Allow users in a tenant to interact with custom apps which can be managed at a tenant level in org-wide app settings.
  
 <sup>3</sup> Default apps and external apps can be enabled and disabled at the user level through TeamsAppPermissionPolicy. Additionally, apps can be blocked at the tenant level in org-wide app settings which overrides any user and tenant-level settings. 
