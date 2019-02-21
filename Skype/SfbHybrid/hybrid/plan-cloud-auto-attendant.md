@@ -12,11 +12,7 @@ ms.collection:
 description: "Overview of using a Cloud auto attendant with Skype for Business Server 2019."
 ---
 
-# Plan Cloud auto attendant
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
-## Overview
+# Plan Cloud auto attendants
 
 The auto attendant used with Exchange Unified Messaging (Exchange Server 2013 or Exchange Server 2016) is no longer available in Exchange Server 2019 or Exchange Online. If your implementation of Skype for Business Server 2019 integrates with either of these Exchange versions, you'll need to use the online Cloud Voice features associated with Phone System. See [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md) for information about moving Exchange UM services homed on Exchange server 2013 and 2016 to the cloud.
 
@@ -29,7 +25,7 @@ An auto attendant can include a greeting the caller can't interact with (this ca
 
 An incoming call to a Cloud auto attendant can take one of several paths, as shown here:
 
-![Diagram for auto attendants](../media/AA-plan-concept.png)
+![Diagram for auto attendants](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype for Business Server 2019
 2. Via a [Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers.md) and [Direct Routing](/MicrosoftTeams/direct-routing-plan.md)

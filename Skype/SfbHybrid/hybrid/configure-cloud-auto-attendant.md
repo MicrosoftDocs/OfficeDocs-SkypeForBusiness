@@ -14,7 +14,6 @@ description: "Instructions for implementing a Cloud PBX Auto Attendant."
 
 # Configure Cloud Auto Attendants
 
-[!INCLUDE [disclaimer](../disclaimer.md)]
 Skype for Business Server 2019 hybrid implementations only use Cloud Voicemail and Cloud Auto Attendants and do not integrate with Exchange Online.
 
 In Skype for Business Server 2019 you are now able to use the cloud auto attendant feature described in [What are Phone System Auto Attendants](/MicrosoftTeams/what-are-phone-system-auto-attendants.md).
