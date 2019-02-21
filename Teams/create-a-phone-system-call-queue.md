@@ -111,7 +111,7 @@ If you are also setting up auto attendants, you may only need to assign a phone 
 
 In the **Microsoft Teams admin center**, **Voice** >  **Call queues**, then click **+ Add new**:
 
-### Set the call queue display name and resource account 
+### Set the call queue display name and resource account
 
 ![Setting up a call queue.](media/37ecc300-a108-4294-8463-fce570dfce72.png)
 
@@ -126,7 +126,7 @@ In the **Microsoft Teams admin center**, **Voice** >  **Call queues**, then clic
 
 ![Number 2](media/sfbcallout2.png)
 
-**Add Accounts** Select a resource account. The resource account may or may not be associated with a service toll or toll-free phone number for the call queue, but eacj call queue requires an associated resource account.
+**Add Accounts** Select a resource account. The resource account may or may not be associated with a service toll or toll-free phone number for the call queue, but each call queue requires an associated resource account.
 
 If there aren't any listed, you need to get service numbers and assign them to a Resource account before you can create this call queue, as described earlier. To get your service numbers, see [Getting service phone numbers](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md). You'll need to create a resource account as described in [Manage resource accounts in Teams](manage-resource-accounts.md) if you want your call queue to have an associated phone number.
 
@@ -276,9 +276,7 @@ New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service
 Then apply the policy to the user using the **Grant-CallingLineIdentity** cmdlet. To do this, run:
   
 ``` Powershell
-
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
-
 ```
 
 You can get more information on how to make changes to caller ID settings in your organization in the article [How can caller ID be used in your organization](/skypeforbusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).

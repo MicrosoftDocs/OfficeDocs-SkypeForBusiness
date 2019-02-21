@@ -59,7 +59,7 @@ To get started using auto attendants, it's important to remember that:
     > User (subscriber) phone numbers can't be assigned to auto attendants - only service toll or toll-free phone numbers can be used.
 - An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
 - A complete auto attendant system will usually involve multiple auto attendants and may only require a single assigned phone number for the top-level or entry auto attendant. Other auto attendants or call queues in the complete system will only need a phone number if you want to provide multiple points of entry into the system.
-- It is possible to apply more than one phone number to an auto attendant by associating more than one phone mumber to the auto attendant's resource account.
+- It is possible to apply more than one phone number to an auto attendant by associating more than one phone number to the auto attendant's resource account.
   
 ## Feature overview
 

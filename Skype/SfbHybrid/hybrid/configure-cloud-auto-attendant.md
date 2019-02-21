@@ -32,13 +32,13 @@ Log in to the front end server and run the following PowerShell cmdlets:
 
     For the Main Auto Attendant that will have the Initial Greeting or after-hours greeting, be sure to assign the phone number using the  -LineURI option. This is optional if the auto attendant is a child in the hierarchy. Remember the hierarchy structure will be configured online, on the server we're just creating containers to arrange later.
 
-    ```
+    ``` Powershell
     New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com" -LineURI tel:+14255550100
     ```
 
     or for a child auto attendant you can omit the phone number as shown:
 
-    ```
+    ``` Powershell
     New-CsHybridApplicationEndpoint -DisplayName AANode1 -SipAddress sip:aanode1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
@@ -47,7 +47,7 @@ Log in to the front end server and run the following PowerShell cmdlets:
     > [!NOTE]
     > You can also use the `Set-CsHybridApplicationEndpoint` command to a assign a phone number (with the -LineURI option) to the Auto Attendant node that will serve as the initial greeting. This is optional if the auto attendant is a child in the hierarchy. You could do this step later if desired, or reset the phone number at a later time.
 
-    ```
+    ``` Powershell
     Set-CsHybridApplicationEndpoint -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName AANode1 -LineURI tel:+14255550100
     ```
 
@@ -55,7 +55,7 @@ Log in to the front end server and run the following PowerShell cmdlets:
 
 2. (Optional) Once these resource accounts are created and the required phone numbers are assigned, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of the Auto Attendants. To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):
 
-    ```
+    ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
     ```
 
@@ -79,13 +79,13 @@ The best way to test the implementation is to call the number configured for an 
 
 1. Get a list of all Auto Attendants by running the following command on the Exchange 2013 or 2016 system while logged in as admin:
 
-    ```
+    ``` Powershell
     Get-UMAutoAttendant | Format-List
     ```
 
 2. For each listed Auto Attendant, note its place in the structure, settings, and get copies of associated sound or text-to-speech file (the guid in the output will be the name of a folder where the files are stored). You can get these details by running the command:
 
-    ```
+    ``` Powershell
     Get-UMAutoAttendant -Identity MyUMAutoAttendant
     ```
 

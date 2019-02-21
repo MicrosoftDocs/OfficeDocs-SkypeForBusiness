@@ -69,7 +69,6 @@ In the **Microsoft Teams admin center**, click   **Voice** > **Auto attendants**
 
 **Resource account** Click this button to select one or more resource accounts to connect to your new auto attendant. All auto attendants are required to have an associated resource account. A resource account can have a phone number associated to the account, but it might not. A top-level auto attendant would almost certainly would have a resource account with an assigned phone number, but a secondary auto attendant (used as a level 2 menu that the first level auto attendant connects to) might easily not have a phone number assigned to its resource account.
 
-
 * * *
 
 ![Number 3](media/sfbcallout3.png)
@@ -169,7 +168,7 @@ You can select what happens to calls that arrive during business hours. You can 
 
    - Another **Auto attendant**
 
-   You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants. To send the call to a nested auto attendant, select **Person in company** and assign a resource account, either one that already has an associated auto attendant or one that you will associate to an auto attendant once you are done creating this auto attendant.
+   You can use an existing auto attendant to create a second level of menu options containing a sub-menu. These are called nested auto attendants. To send the call to a nested auto attendant, select **Person in company** and assign a resource account, either one that already has an associated auto attendant or one that you will associate to an auto attendant once you are done creating this auto attendant.
 
 - **Play menu options** can also be used to let you set up a prompt you want played.
 
@@ -205,10 +204,11 @@ To set up your menu options, after you select the dial key(s), you will need to:
     > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported.
     - Another **Auto attendant**
 
-       You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants. To send the call to a nested auto attendant, select **Person in company** and assign a resource account, either one that already has an associated auto attendant or one that you will associate to an auto attendant once you are done creating this auto attendant.
+       You can use an existing auto attendant to create a second level of menu options containing a sub-menu. These are called nested auto attendants. To send the call to a nested auto attendant, select **Person in company** and assign a resource account, either one that already has an associated auto attendant or one that you will associate to an auto attendant once you are done creating this auto attendant.
 
         > [!Note]
         > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
+
 <!--    - **call queue** Using a call queue option allows the call to be transferred to an existing call queue that you have set up. -->
 
 * * *
@@ -273,7 +273,7 @@ Holiday names may consist of up to 64 characters and must be unique for the same
     > **Person in your company** can be an Online user or a user hosted on-premises using Skype for Business Server 2015 or Lync Server 2013. Lync Server 2010 is not supported.
 
   - A **call queue** to transfer the call to an existing call queue that you have set up.
-  - Another **Auto attendant**, to create a second level of menu options containing a submenu. These are called nested auto attendants.
+  - Another **Auto attendant**, to create a second level of menu options containing a sub-menu. These are called nested auto attendants.
 
     > [!Note]
     > By default, all calls arriving during a holiday period are set to disconnect after the greeting (if any), so you must specify a redirect if a different behavior is desired.

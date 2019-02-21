@@ -53,7 +53,7 @@ In addition to the requirements above, the below requirements must be configured
    For more information, see [Plan hybrid connectivity between Skype for Business Server and Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Office 365](configure-hybrid-connectivity.md).
 
 - For phone numbers that you assign to your auto attendant, you will need an [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) license.
-- If you have an on-premises only deployment (that is, only Exchange Server 2019 and Skype for Business Server 2019 on-premises servers) but you want to take advantage of Cloud auto attendant, you need the ON-PREM license.
+- If you have an on-premises only deployment (that is, only Exchange Server 2019 and Skype for Business Server 2019 on-premises servers) but you want to take advantage of Cloud auto attendant, you need the appropriate license.
 - Create an on-premises [resource account](/MicrosoftTeams/manage-resource-accounts.md) for each auto attendant, including assigning phone numbers and licenses. Note that you now have the ability to assign licenses used by online services like Phone System to on-premise phone numbers.
 - Implement a new Cloud auto attendant service with Skype for Business Online and Phone System. See [Configure cloud auto attendant](configure-cloud-auto-attendant.md) for implementation details.
 
@@ -65,7 +65,6 @@ If you are planning to deploy Skype for Business Server 2019 and/or Exchange Ser
 - Skype for Business Server 2019 no longer integrates with Exchange Online UM
 
 Version interoperability and supported topologies for Cloud auto attendants are listed in the following table. For the preview release, Cloud auto attendants only work with Skype for Business Server 2019 and Exchange Server 2019 or Exchange Online.
-
 
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online |
 |:---    |:---|:---|:---|:--- |
@@ -79,7 +78,7 @@ Microsoft recommends the following migration paths:
 
 - If you are upgrading to Skype for Business Server 2019, you can use Exchange UM in Exchange Server 2013 or 2016, but you must upgrade to Cloud auto attendant if you are using Exchange Server 2019.
 
-- If you are upgrading to Exchange Server 2019, and you are using previous versions of Exchange Server UM for Skype for Business Server voice messaging, Microsoft recommends that you upgrade to Skype for Business Server 2019 before the mailbox upgrade.  Otherwise, voice messaging capabilities will be lost. 
+- If you are upgrading to Exchange Server 2019, and you are using previous versions of Exchange Server UM for Skype for Business Server voice messaging, Microsoft recommends that you upgrade to Skype for Business Server 2019 before the mailbox upgrade.  Otherwise, voice messaging capabilities will be lost.
 
 For more information about planning your migration, see [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md).
 
@@ -92,7 +91,7 @@ Currently we don't support automated migration to the Cloud of a UM auto attenda
 3. Create on premise endpoints for each auto attendant node, including assigning a test phone numbers and licenses to the objects. Note that you now have the ability to assign on-premise phone numbers licenses used by online services like Phone System.
 4. Implement a new Cloud auto attendant service with Skype for Business Online and Phone System. See [Configure cloud auto attendant](configure-cloud-auto-attendant.md) for implementation details. As you do this, upload the text-to-speech scripts or recorded messages associated with each UM auto attendant node.
 5. Test the functionality of the Cloud auto attendant.
-6. Reassign the phone number assigned to the old Exchange UM auto attendant to the newly created main Cloud auto attendant. 
+6. Reassign the phone number assigned to the old Exchange UM auto attendant to the newly created main Cloud auto attendant.
 
 See [Manually moving an Exchange UM auto attendant to Cloud auto attendant](configure-cloud-auto-attendant.md#manually-moving-an-exchange-um-auto-attendant-to-cloud-auto-attendant) for details on these steps.
 
@@ -103,7 +102,7 @@ The tutorial titled [Small business example - Set up an auto attendant](/SkypeFo
 When you have a solid structure that meets your needs and a script that guides customers efficiently, proceed to [Configure Cloud auto attendant](configure-cloud-auto-attendant.md).
 
 > [!CAUTION]
-> As mentioned in [KB4480742](https://support.microsoft.com/en-us/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019), moving Exch UM auto attendants created in Server 2015 to servers running Server 2019 is discouraged. For the time being, you'd have to keep them on a Skype for Business Server 2015 pool running in coexistance mode.
+> As mentioned in [KB4480742](https://support.microsoft.com/en-us/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019), moving Exchange UM auto attendants created in Server 2015 to servers running Server 2019 is discouraged. For the time being, you'd have to keep them on a Skype for Business Server 2015 pool running in coexistance mode.
 
 ## See Also
 

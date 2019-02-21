@@ -58,6 +58,7 @@ Log in to the front end server and run the following PowerShell cmdlets:
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
     ```
+
     See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
 
 ## Online configuration steps
@@ -87,6 +88,7 @@ The best way to test the implementation is to call the number configured for a c
     ``` Powershell
     Get-UMAutoAttendant -Identity MyUMAutoAttendant
     ```
+
     See [Get-UMAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) for more details on this command. A complete list of call queue options you might need to capture is at [UMAutoAttendant members](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx) but the most important options to note down are:
 
     - Business hours
@@ -97,10 +99,13 @@ The best way to test the implementation is to call the number configured for a c
 3. Create new on-premises endpoints as described above in [Server configuration steps](#server-configuration-steps).
    Assign the  call queue a temporary number for testing purposes.
 
-4. Configure a Cloud call queue that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps). <br/>
-  You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the Auto Attendant and user or call queue hierarchies in your old Exchange UM system.
+4. Configure a Cloud call queue that uses these endpoints as described above in [Online configuration steps](#online-configuration-steps).
+
+   You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the Auto Attendant and user or call queue hierarchies in your old Exchange UM system.
 5. Test the Cloud call queue.
-6. Reassign the phone number linked to the Exchange UM call queue to the Cloud call queue. <br/> At this point, if you have already migrated UM Voicemail, you should be in a position to migrate to Exchange Server 2019.
+6. Reassign the phone number linked to the Exchange UM call queue to the Cloud call queue.  
+
+   At this point, if you have already migrated UM Voicemail, you should be in a position to migrate to Exchange Server 2019.
 
 ## See Also
 
