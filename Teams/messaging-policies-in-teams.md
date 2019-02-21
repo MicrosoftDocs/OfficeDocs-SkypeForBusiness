@@ -26,13 +26,13 @@ Policies can be easily managed in the Microsoft Teams admin center (http://admin
 
 ![Messaging policies in Teams](media/messaging-policies-image1.png)
 
-To edit the existing default policy for your organization, click the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, click **New policy** and select your settings. Choose **Save** when you are done.
+To edit the existing default Messaging policy for your organization, click the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, click **New policy** and select your settings. Choose **Save** when you are done.
 
 ![Messaging policy settings in Teams](media/messaging-policies-image2.png)
 
 <!--- Add zone marker here--->
 
-Use the following settings to change the global Messaging policy or to create a new custom policy:
+Use the following settings to change the global Messaging policy or create a new custom policy:
 
 - **Owners can delete sent messages**  Use this setting to let owners delete messages that users sent in chat.
 - **Users can delete sent messages** Use this setting to let users delete messages that they sent in chat.
