@@ -43,7 +43,7 @@ Call Analytics shows detailed information about the devices, networks, and conne
 
 To see this information for a user in the Microsoft Teams admin center, click the **Call History** tab for that user in the user detail page, showing all the calls and meetings that user has participated in for the last 30 days.
 
-![Call analytics user data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
+![Call analytics user data.](media/call-analytics-user-data.png)
 
 To get additional information about a given session including detailed media and networking statistics, click on a session to see the details.
 
