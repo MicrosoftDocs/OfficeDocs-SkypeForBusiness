@@ -47,6 +47,11 @@ The following table identifies the sections of the Teams experience that have be
 |Settings by user/license type     |Turn Microsoft Teams on or off for all users          |Deprecated<sup>1</sup>        |         |
 |Teams and channels     |         |Redirects to Azure Active Directory Group Management (same as current experience).              |User         |
 |Teams and channels     |         |Redirects to AAD Group Management (same as current experience).             |User          |
+|Apps|Enable new external apps by default|Org-wide app settings|Tenant|
+|Apps|Allow external apps|Org-wide app settings|Tenant|
+|Apps|Allow sideloading of external apps<sup>2</sup>|TeamsAppSetupPolicy|User|
+|Apps|Default apps<sup>3</sup>|TeamsAppPermissionPolicy|User|
+|Apps|External apps<sup>3</sup>|TeamsAppPermissionPolicy|User|
 |Calls and Meetings     |Allow scheduling for private meetings         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |User          |
 |Calls and Meetings     |Allow Ad-hoc channel meetup         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |User          |
 |Calls and Meetings     |Allow scheduling for channel meetings         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |User          |
@@ -62,7 +67,13 @@ The following table identifies the sections of the Teams experience that have be
 |Messaging     |Allow users to delete their own messages         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
 |Messaging     |Allows users to chat privately         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |User         |
 
-<sup>1</sup> Deprecated for Guest. Enabling/disabling Guest can now be managed in the Microsoft Teams admin center. Enabling/disabling Teams for Business Enterprise, Edu Student, and Edu Faculty will be deprecated soon. This should be managed by assigning licenses in the Office 365 admin center. See [Manage user access to Microsoft Teams](user-access.md).
+<sup>1</sup> Deprecated for Guest. Enabling/disabling Guest can now be managed in the Microsoft Teams admin center. Enabling/disabling Teams for Business Enterprise, Edu Student, and Edu Faculty will be deprecated soon. This should be managed by assigning licenses in the Office 365 admin center. See [Manage user access to Microsoft Teams](user-access.md).<br>
+<sup>2</sup> Sideloading is split as follows:
+
+- Allow a user to sideload apps which can be managed at a user level in TeamsAppSetupPolicy.
+- Allow a users in a tenant to interact with custom apps which can be managed at a tenant level in org-wide app settings.
+ 
+<sup>3</sup> Default apps and external apps can be enabled and disabled at the user level through TeamsAppPermissionPolicy. Additionally, apps can be blocked at the tenant level in org-wide app settings which overrides any user and tenant-level settings. 
 
 > [!NOTE]
 > You’ll continue to use the Groups dashboard in the Office 365 admin center for configuration related to Teams and channels. Settings for Apps will remain in the Teams area of the Office 365 admin center and will be migrated later. 
