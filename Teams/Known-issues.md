@@ -3,7 +3,7 @@ title: Known issues for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 8/21/2018
+ms.date: 2/19/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -267,7 +267,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Team member maximum of 2500  <br/> |Each Microsoft Team can have a maximum of 2500 members per team.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
+|Team member maximum of 5000  <br/> |Each Microsoft Team can have a maximum of 5000 members per team.  <br/> |No workaround.  <br/> |2/6/2019  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|

@@ -79,7 +79,7 @@ After confirming your organization is eligible to obtain the Audio Conferencing 
 
 ## Licensing for Audio Conferencing
 
-An [Audio Conferencing license](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) is available as part of Office 365 E5 subscription plans, or as an add-on service to Office 365 E1 or Office 365 E3 subscription plans.
+An [Audio Conferencing license](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) is available as part of Office 365 E5 subscription plans, or as an add-on service to Office 365 E1 or Office 365 E3 subscription plans.
 
 > [!NOTE]
 > PSTN or dial-in conferencing in Teams doesn’t support third-party audio conferencing providers (ACPs).
@@ -87,7 +87,7 @@ An [Audio Conferencing license](https://docs.microsoft.com/SkypeForBusiness/skyp
 immediately take advantage of Audio Conferencing in Teams.
 
 To provide toll-free conference bridge phone numbers and to support conferencing
-dial-out to international phone numbers, you must set up [Communications Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) for your organization.
+dial-out to international phone numbers, you must set up [Communications Credits](what-are-communications-credits.md) for your organization.
 
 > [!IMPORTANT]
 > Some countries are serviced by toll-free conference bridge phone numbers only. To support dial-in in these countries, you must use Communications Credits.
@@ -95,7 +95,7 @@ dial-out to international phone numbers, you must set up [Communications Credits
 The first consideration when implementing Communications Credits is to decide
 the initial amount of funds you want to purchase. If your organization chooses to use auto-recharge, you need to decide the trigger amount (lowest amount of funds) and the auto-recharge amount. Your actual usage will determine the auto-recharge amount. You should monitor your Communications Credits usage over time and adjust the recharge amount as necessary.
 
-You can learn more about Communications Credits [here](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+You can learn more about Communications Credits [here](what-are-communications-credits.md).
 
 <br>
 
