@@ -10,6 +10,7 @@ description: Guidance for managing the transition to Teams from Skype for Busine
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
+f1keywords: ms.teamsadmincenter.teamsupgrade.overview
 appliesto:
 - Microsoft Teams
 ---

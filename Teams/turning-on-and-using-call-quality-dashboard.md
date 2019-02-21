@@ -21,6 +21,7 @@ appliesto:
 localization_priority: Normal
 f1keywords: 
 - ms.lync.lac.ToolsCallQualityDashboard
+- ms.teamsadmincenter.directrouting.cqd
 ms.custom:
 - Reporting
 description: "See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. "

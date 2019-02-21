@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 ms.reviwer: sbhatta
 search.appverid: MET150
+f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticle
 description: Learn how an admin can view information about guest users in Microsoft Teams.
 appliesto: 
 - Microsoft Teams

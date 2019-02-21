@@ -19,7 +19,7 @@ appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
 ---

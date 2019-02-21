@@ -20,7 +20,7 @@ appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: "Learn what Phone System (Cloud PBX) auto attendants are and how to use them. "

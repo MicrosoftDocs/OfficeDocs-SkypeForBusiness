@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
+f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
 appliesto: 
 - Microsoft Teams
 - Skype for Business Online

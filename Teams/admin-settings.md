@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Teams_ITAdmin_Help
+f1keywords: ms.teamsadmincenter.apppolicies.adminsettings
 appliesto: 
 - Microsoft Teams
 ---

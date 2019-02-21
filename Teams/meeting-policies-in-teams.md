@@ -14,6 +14,10 @@ appliesto:
 - Microsoft Teams
 f1keywords: 
 - ms.teamsadmincenter.meetingpolicies.overview
+- ms.teamsadmincenter.meetingpolicies.audioandvideo
+- ms.teamsadmincenter.meetingpolicies.contentsharing
+- ms.teamsadmincenter.meetingpolicies.general
+- ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Learn to manage meeting policy settings in Teams.
 ---
 

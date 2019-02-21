@@ -10,6 +10,7 @@ description: Learn how to properly configure Office 365 URLs and IP address rang
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
+f1keywords: ms.teamsadmincenter.meetingsettings.network.ports
 appliesto: 
 - Microsoft Teams
 ---

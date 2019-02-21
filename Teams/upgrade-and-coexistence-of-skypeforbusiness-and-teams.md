@@ -11,6 +11,9 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
+f1keywords:
+- ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
+- ms.teamsadmincenter.upgradeoverride.learnmore
 appliesto:
 - Microsoft Teams
 ---
