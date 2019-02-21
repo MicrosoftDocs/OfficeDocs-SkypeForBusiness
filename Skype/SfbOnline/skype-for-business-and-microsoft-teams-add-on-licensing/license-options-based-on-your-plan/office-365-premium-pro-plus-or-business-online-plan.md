@@ -1,5 +1,5 @@
 ---
-title: "Office 365 ProPlus, or Skype for Business Online Standalone Plan 2"
+title: "Office 365 ProPlus or Skype for Business Online Standalone Plan 2"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,7 +14,6 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -23,9 +22,9 @@ ms.custom:
 description: "Learn about add-on licenses, features, and how to buy for Office 365 ProPlus, or Skype for Business Online Standalone Plan 2."
 ---
 
-# Office 365 ProPlus, or Skype for Business Online Standalone Plan 2
+# Office 365 ProPlus or Skype for Business Online Standalone Plan 2
 
-If you have already purchased the [Office 365 ProPlus](https://products.office.com/en-us/business/office-365-proplus-business-software), or [Skype for Business Online Standalone Plan 2](https://products.office.com/en-us/skype-for-business/online) plan, here are the add-on licenses you need to buy to get more Skype for Business features.
+If you have already purchased [Office 365 ProPlus](https://products.office.com/en/business/office-365-proplus-business-software) or [Skype for Business Online Standalone Plan 2](https://products.office.com/skype-for-business/online), here are the add-on licenses you need to buy to get more Skype for Business features.
 
 > [!IMPORTANT]
 > Although Audio Conferencing, Phone System and Calling Plans can be purchased with Skype for Business Online Plan 2 to enable voice calling features, we recommend that you evaluate an Enterprise E5 plan to see if it is more cost effective.

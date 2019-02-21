@@ -14,7 +14,6 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -25,7 +24,7 @@ description: "Learn about add-on licenses, features, and how to buy for Office 3
 
 # Office 365 Enterprise E5 (without Audio Conferencing)
 
-If you have already purchased the Office 365 Enterprise E5 (without Audio Conferencing) plan, here are the Skype for Business and Microsoft Teams add-on licenses you need to buy to get more features.
+If you have already purchased the Office 365 Enterprise E5 (without Audio Conferencing) plan, here are the Skype for Business add-on licenses you need to buy to get more features.
 
 |||
 |:-----|:-----|

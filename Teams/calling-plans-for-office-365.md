@@ -1,7 +1,7 @@
 ---
 title: "Calling Plans for Office 365"
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article
@@ -34,7 +34,7 @@ description: "Learn about Calling Plan (PSTN Calling plan) for Skype for busines
 
 Calls to other Skype for Business and Microsoft Teams users are free, but if you want your users to be able to call regular phones, and you don't already have a service provider to make voice calls, you need to buy a Calling Plan. [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365.md)
   
-Here are the Calling Plans option:
+Here are the Calling Plans options:
   
 - **Domestic Calling Plan**: Licensed users can call out to numbers located in the country/region where they are assigned in Office 365.
     
@@ -55,19 +55,19 @@ For detailed information about usage limits and terms of use, see [Audio Confere
     ![When you buy your Cloud PBX licenses, you'll see an option to buy a voice calling plan.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see "License options based on your plan" in [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+    > Depending on your plan, you may need to buy more add-ons before you can buy Phone System licenses. To learn more, see "License options based on your plan" in [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. After you buy Phone System licenses, you can buy the Calling Plan by signing in to the **Office 365 admin center**, choose **Billing** > **Purchase services** > **Add-on subscriptions**, and then clicking **Buy now**. You'll see the Calling Plans there.
     
     ![After you buy a Cloud PBX license, you can buy voice calling plans.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-You can buy and assign different Calling Plans to different users, depending on the needs of your organization. After you select the Calling Plan you need, proceed to checkout. You assign a plan to each user in the Office 365 admin center. To learn how, see [Assign Skype for Business and Microsoft Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+You can buy and assign different Calling Plans to different users, depending on the needs of your organization. After you select the Calling Plan you need, proceed to checkout. You assign a plan to each user in the Office 365 admin center. To learn how, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
   
 ## Do you have a service provider that provides on-premises PSTN connectivity for hybrid users?
 
 If so, you don't need to buy a Calling Plan. Office 365 Enterprise E5 includes the **Phone System** add-on, so you can proceed to checkout.
   
-Then, assign the Enterprise E5 or **Phone System** add-on licenses to users in the Office 365 admin center. To learn how, see [Assign Skype for Business and Microsoft Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+Then, assign the Enterprise E5 or **Phone System** add-on licenses to users in the Office 365 admin center. To learn how, see [Assign Microsoft Teams licenses](assign-teams-licenses.md).
   
 ## Pricing information
 
@@ -83,9 +83,7 @@ Here are more articles that explain how to set up your Calling Plans:
   
 - [Set up Calling Plans](set-up-calling-plans.md)
     
-- [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-    
-- [Plan for Skype for Business Cloud Connector Edition](https://technet.microsoft.com/library/Mt605227.aspx): This article explains how to set up Office 365 Phone System with your own PSTN connectivity.
+- [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
 - [Plan your Phone System in Office 365 (Cloud PBX) solution](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
@@ -99,8 +97,4 @@ Here are more articles that explain how to set up your Calling Plans:
 - [Set up Calling Plans](set-up-calling-plans.md)
     
 - [Add funds and manage Communications Credits](add-funds-and-manage-communications-credits.md)
-    
-- [Configure the Cloud Connector](https://technet.microsoft.com/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
-  
-  
  

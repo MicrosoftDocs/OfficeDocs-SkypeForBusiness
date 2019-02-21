@@ -24,6 +24,24 @@
           "**/*.md",
           "**/**.yml"
         ],
+        "src": "SfbHybrid",
+        "dest": ".",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/**.yml"
+        ],
         "src": "SfbOnline",
         "dest": ".",
         "exclude": [

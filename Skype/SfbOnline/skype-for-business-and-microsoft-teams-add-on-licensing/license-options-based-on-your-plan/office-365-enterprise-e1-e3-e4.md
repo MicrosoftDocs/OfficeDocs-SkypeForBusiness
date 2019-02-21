@@ -14,7 +14,6 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -25,7 +24,7 @@ description: "Learn about add-on licenses, features, and how to buy for Office 3
 
 # Office 365 Enterprise E1, E3, and E4
 
-If you have already purchased the [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software), or E4 plan, here are the add-on licenses you need to buy to get more Skype for Business and Microsoft Teams features.
+If you have already purchased the [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software), or E4 plan, here are the add-on licenses you need to buy to get more Skype for Business features.
 
 |||
 |:-----|:-----|
@@ -62,9 +61,9 @@ The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio
 ## Why don't I see the option to buy add-ons?
 <a name="bkmk_how"> </a>
 
-In a few situations, you won't see the option to buy Skype for Business and Microsoft Teams add-ons in the Office 365 admin center.
+In a few situations, you won't see the option to buy Skype for Business add-ons in the Office 365 admin center.
 
-- **You purchased Office 365 Business Premium through GoDaddy**. In this case, you can't buy Skype for Business and Microsoft Teams add-ons. You need to switch to the E3 plan (which GoDaddy doesn't sell), and then you can buy them. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **You purchased Office 365 Business Premium through GoDaddy**. In this case, you can't buy Skype for Business add-ons. You need to switch to the E3 plan (which GoDaddy doesn't sell), and then you can buy them. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

@@ -1001,7 +1001,7 @@ begins, verify that the testing prerequisites listed below are in place.
     identified.
 
 -   [Communications
-    Credits](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
+    Credits](what-are-communications-credits.md)
     (if required) have been set up for your organization.
 
 -   Phone System with Calling Plans settings have been identified and
