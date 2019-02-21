@@ -32,7 +32,7 @@ To edit the existing default policy for your organization, click the **Global (O
 
 <!--- Add zone marker here--->
 
-The available settings for the messaging policy are described below:
+Use the following settings to change the global Messaging policy or create a custom policy:
 
 - **Owners can delete sent messages**  Use this setting to let owners delete messages that users sent in chat.
 - **Users can delete sent messages** Use this setting to let users delete messages that they sent in chat.
