@@ -30,16 +30,16 @@ By default, there are four types of email that will be sent to your users who ar
 
 - **An Audio Conferencing license is assigned to them or when you are changing the audio conferencing provider to Microsoft.**
 
-     This email includes the conference ID, the default conference phone number for the meetings, the audio conferencing PIN for the user, and the instructions and link to use the Skype for Business Online Meeting Update Tool that is used to update existing meetings for the user. See [Assign Skype for Business and Microsoft Teams licenses](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) or [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
+     This email includes the conference ID, the default conference phone number for the meetings, the audio conferencing PIN for the user, and the instructions and link to use the Skype for Business Online Meeting Update Tool that is used to update existing meetings for the user. See [Assign Microsoft Teams licenses](assign-teams-licenses.md) or [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
     > [!NOTE]
     > If your organization has been enabled for dynamic conference IDs, all of a user's meetings that they schedule will have unique conference IDs. You can set up [Audio Conferencing dynamic IDs in your organization](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user). 
 
     Here is an example of this email:
 
-     ![Skype for Business Verify License](media/audio-conferencing-user-enabled.png)
+     ![Skype for Business Verify License](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    You can find out more about licensing by seeing [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+    To find out more about licensing, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 - **The conference ID or default conference phone number of a user changes.**
 
@@ -47,7 +47,7 @@ By default, there are four types of email that will be sent to your users who ar
 
     Here is an example of this email:
 
-     ![Dial-in conferencing info has changed.](media/audio-conferencing-info-change.png)
+     ![Dial-in conferencing info has changed.](media/teams-emails-sent-to-users-when-settings-change-image2.png)
 
 - **The audio conferencing PIN of a user is reset.**
 
@@ -55,7 +55,7 @@ By default, there are four types of email that will be sent to your users who ar
     
      Here is an example of this email:
     
-     ![Dial-in conferencing PIN changed.](media/audio-conferencing-pin-has-changed.png)
+     ![Dial-in conferencing PIN changed.](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
 - **A user's license is removed or when audio conferencing provider changes from Microsoft to other provider or None.**
 
@@ -65,7 +65,7 @@ By default, there are four types of email that will be sent to your users who ar
 
     Here is an example of this email:
 
-     ![Dial-in conferencing is turned off.](media/audio-conferencing-turned-off.png)
+     ![Dial-in conferencing is turned off.](media/teams-emails-sent-to-users-when-settings-change-image4.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
