@@ -1,6 +1,6 @@
 ---
-title: "Skype for Business and Microsoft Teams add-on licensing"
-ms.date: 05/23/2018
+title: "Skype for Business add-on licensing"
+ms.date: 02/15/2019
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,7 +16,6 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
@@ -25,13 +24,13 @@ ms.custom:
 description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
 ---
 
-# Skype for Business and Microsoft Teams add-on licensing
+# Skype for Business add-on licensing
 
 ## What are add-on licenses?
 
-Add-on licenses are licenses for specific Skype for Business and Microsoft Teams features. Some businesses want the flexibility of purchasing only specific features at a competitive price. To add a feature, buy one add-on license for each user who will use it.
+Add-on licenses are licenses for specific Skype for Business features. Some businesses want the flexibility of purchasing only specific features at a competitive price. To add a feature, buy one add-on license for each user who will use it.
 
-Skype for Business and Microsoft Teams licensing is designed to give you the maximum amount of flexibility. For example, after using basic Skype for Business features for a while, you can buy add-on licenses when you're ready to use more features, such as Audio Conferencing, or the Phone System in Office 365.
+Skype for Business licensing is designed to give you the maximum amount of flexibility. For example, after using basic Skype for Business features for a while, you can buy add-on licenses when you're ready to use more features, such as Audio Conferencing, or the Phone System in Office 365.
 
 ## How does add-on licensing affect cost?
 
@@ -47,12 +46,12 @@ For more cost information, see [How to see prices and buy add-on licenses](skype
 
 ## What features can I get with add-on licenses?
 
-Depending on which plan you already have, you can buy add-on licenses for the following Skype for Business and Microsoft Teams features:
+Depending on which plan you already have, you can buy add-on licenses for the following Skype for Business features:
 
 |||
 |:-----|:-----|
 |**Feature** <br/> |**Description** <br/> |
-|**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Skype for Business or Microsoft Teams meeting, instead of using their computer. Use the Audio Conferencing feature for this situation.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> If you are looking for how much it costs, see [Requirements for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
+|**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Skype for Business meeting, instead of using their computer. Use the Audio Conferencing feature for this situation.  <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> If you are looking for how much it costs, see [Requirements for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
 |**Toll free numbers for dial-in access to your conferences, and the ability to dial out from a conference to add someone by calling any telephone number in the world** <br/> |If you add Audio Conferencing, we recommend that you [Set up Communications Credits](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
 |**Phone System** <br/> |A PBX is a telephone system in a business. Phone System in Office 365 is a hosted telephone service. It gives you both traditional and innovative PBX capabilities, but without the complicated and expensive equipment. [Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> If you are looking for how much it costs, see [Requirements for Phone System](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
 |**Calling Plans** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> If you are looking for how much it costs, see [Requirements for Calling Plans](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |

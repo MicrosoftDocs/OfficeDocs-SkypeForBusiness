@@ -99,15 +99,15 @@ Replace **{groupid}** in the Query for the actual GroupId in question, which you
 
 1. Access [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
 
-2. Sign in to Graph Explorer on the left-hand side menu
+2. Sign in to Graph Explorer on the left menu
 
 3. Change the query line to: PATCH > v1.0 > https://graph.microsoft.com/v1.0/groups/{groupid}
 
 4. Add the following value on the request body: {"resourceProvisioningOptions": ["Team"]}
 
-5. Run the Query on the Top-Right.
+5. Run the query on the top-right.
 
-6. Confirm the team appears correctly back on the Microsoft Teams admin center - Team Overview
+6. Confirm the team appears correctly in the Microsoft Teams admin center - Team Overview
 
 
 ## Learn more
