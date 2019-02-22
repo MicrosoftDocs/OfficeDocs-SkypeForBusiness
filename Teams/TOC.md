@@ -317,6 +317,7 @@
 ### Auto attendants and call queues 
 #### [What are Phone System auto attendants](what-are-phone-system-auto-attendants.md)
 #### [Set up a Phone System auto attendant](create-a-phone-system-auto-attendant.md)
+#### [Small business example - Set up an auto attendant](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Manage resource accounts in Microsoft Teams](manage-resource-accounts.md)
 #### [Create a Phone System call queue](create-a-phone-system-call-queue.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
