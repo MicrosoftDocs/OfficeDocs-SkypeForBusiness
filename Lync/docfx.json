@@ -77,6 +77,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/LyncServer/breadcrumb/toc.json",
       "extendBreadcrumb": true,
+      "ms.suite": "office",
       "searchScope": [
         "Lync Server"
       ],
