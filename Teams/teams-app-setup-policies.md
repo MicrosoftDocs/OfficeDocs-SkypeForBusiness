@@ -139,7 +139,7 @@ To view all apps that are pinned for a user, users may have to do the following 
 
 The Teams mobile clients (iOS and Android) don't currently support personal apps. Depending on the apps set in the policy, apps pinned to the Teams desktop client might not appear in the Teams mobile clients. Personal bots will still appear in Chat on mobile clients. 
 
-With the Teams mobile clients, users will see core Teams apps such as Activity, Chat, and Teams, and you can pin some first-party apps from Microsoft, such as Shifts and Planner.
+With the Teams mobile clients, users will see core Teams apps such as Activity, Chat, and Teams, and you can pin some first-party apps from Microsoft, such as Shifts.
 
 #### Can users change the order of apps pinned through a policy?
 
