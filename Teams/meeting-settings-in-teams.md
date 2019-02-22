@@ -1,7 +1,7 @@
 ---
 title: Manage meeting settings
 author: lanachin
-ms.author: v-lanac
+ms.author: v-lanac  
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
