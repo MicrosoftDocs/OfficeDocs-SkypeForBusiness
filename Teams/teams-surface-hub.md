@@ -21,7 +21,10 @@ appliesto:
 Deploy Microsoft Teams for Surface Hub
 ======================================
 
-Before you deploy Microsoft Teams for Microsoft Surface Hub, be sure you have met the hardware, operating system, and other requirements. For more information, see the [Microsoft Surface Hub admin guide](https://docs.microsoft.com/surface-hub/).
+Before you install Teams for Surface Hub, be sure to do the following:
+
+ □ Make sure hardware, operating system, and other requirements are met. For more information, see the [Microsoft Surface Hub admin guide](https://docs.microsoft.com/surface-hub/).<br>
+ □ Assign a Teams license to the Hub device account.
 
 > [!NOTE]
 > If you are transitioning from Skype for Business Online, you need to confirm that a Microsoft Teams license is assigned to the user.
