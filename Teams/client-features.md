@@ -38,7 +38,7 @@ The following table provides a comparison of features between the available Team
 | |Upload file|●|●|●|●|●|   |||
 | |Rename group chats|●|●|●|●|●|●|||
 | |Add members to group chats & share history|●|●|●|●|●| |||
-| |Edit messages|●|●|●|●|●| |||●
+| |Edit messages|●|●|●|●|●| |||
 | |Share to Teams app| | | |●|●| |||
 | |Record and share voice messages|● play only|● play only| ● play only|●|●|   |||
 | |Message translation|●|●|●|   |   | |||
