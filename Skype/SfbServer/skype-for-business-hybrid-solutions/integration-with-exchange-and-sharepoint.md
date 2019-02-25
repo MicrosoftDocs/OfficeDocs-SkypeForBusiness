@@ -101,7 +101,7 @@ The following tables list the features supported in a hybrid deployment when int
 |Missed Conversations history and Call Logs are written to user's exchange mailbox  <br/> ||
 |Contact List (via Unified Contact Store)  <br/> |Lync Server 2013 or Skype for Business client required  <br/> |
 |High-resolution Contact Photo in Lync 2013, Skype for Business client, and Lync Web App  <br/> ||
-|Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on premises. For more information, see [Skype for Business hybrid solutions](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Meeting delegation  <br/> |Supported only when both users are homed online in the same forest, or both are homed on-premises. For more information, see [Skype for Business hybrid solutions](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Archiving Content (IM and Meeting) in Exchange  <br/> ||
 |Search archived content  <br/> ||
 |Voicemail  <br/> ||

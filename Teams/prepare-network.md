@@ -15,8 +15,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-Prepare your organization's network for Microsoft Teams
-=================================================
+# Prepare your organization's network for Microsoft Teams
 
 > [!Tip]
 > Watch the following session to learn how to Teams leverages your network and how to best plan for optimal network connectivity: [Teams Network Planning](https://aka.ms/teams-networking)
@@ -41,23 +40,29 @@ For the two defining network segments (Client to Microsoft Edge and Customer Edg
 
 
 |Value  |Client to Microsoft Edge  |Customer Edge to Microsoft Edge  |
-|---------|---------|---------|
-|**Latency (one way)**     |< 50ms          |< 30ms          |
-|**Latency (RTT or Round-trip Time)** |< 100ms         |< 60ms         |
+|:--- |:--- |:--- |
+|**Latency (one way)** \*  |< 50ms          |< 30ms         |
+|**Latency (RTT or Round-trip Time)** \* |< 100ms   |< 60ms |
 |**Burst packet loss**    |<10% during any 200ms interval         |<1% during any 200ms interval         |
 |**Packet loss**     |<1% during any 15s interval          |<0.1% during any 15s interval         |
 |**Packet inter-arrival Jitter**    |<30ms during any 15s interval         |<15ms during any 15s interval         |
 |**Packet reorder**    |<0.05% out-of-order packets         |<0.01% out-of-order packets         |
+
+\* The latency metric targets assume your company site or sites and the Microsoft edges are on the same continent.
+
+Your company site connection to the Microsoft network edge includes first hop network access, which can be WiFi or another wireless technology.
+
+The network performance targets assume proper bandwidth and/or [QoS planning](QoS-in-Teams.md). In other words, the requirements apply directly to Teams real-time media traffic when the network connection is under a peak load.
 
 To test both network segments, you can use the [Network Assessment Tool](https://go.microsoft.com/fwlink/?linkid=855799). This tool can be deployed on both the client PC directly and on a PC connected to the Customer Network Edge. The tool includes limited documentation, but a deeper documentation around the usage of the tool can be found here: [Network Readiness Assessment](https://go.microsoft.com/fwlink/?linkid=855800). By running this Network Readiness Assessment, you can validate your network’s readiness to run real-time media applications, such as Microsoft Teams.
 
 > [!NOTE]
 > This is the same Network Readiness Assessment that is recommended to be run for customers who are looking to successfully deploy Skype for Business.
 
-Bandwidth requirements
-----------
 
-Bandwidth calculations for Microsoft Teams are complex and to help with this, a calculator has been created. To access the calculator, go to [Network Planner in MyAdvisor](https://aka.ms/bwcalc/).
+## Bandwidth requirements
+
+Bandwidth calculations for Microsoft Teams are complex and to help with this, a calculator has been created. To access the calculator, go to [Network Planner](https://aka.ms/bwcalc/)  in MyAdvisor.
 
 > [!NOTE]
 > Teams bandwidth handling improves on Skype for Business Online: for a high quality calling or meeting experience (with audio, video, and sharing), Teams requires only 1.2 Mbps. It can also scale up further for super high quality if there is enough available bandwidth. When a Teams request encounters a low bandwidth condition, Teams can quickly readjust bandwidth usage to adapt to available bandwidth.
@@ -83,11 +88,11 @@ The content you will find below can be used as supplemental background informati
 Additional network considerations
 ---------------
 
-#### **External Name Resolution**
+#### External Name Resolution
 
-Ensure that all the client computers running Teams client can resolve external DNS queries to discover the services provided by Office 365.
+Ensure that all the client computers running Teams client can resolve external DNS queries to discover the services provided by Office 365, and that your firewalls are not preventing access. For information about configuring firewall ports, go to [Office 365 URLs and IP ranges](office-365-urls-ip-address-ranges.md).
 
-#### **NAT Pool Size**
+#### NAT Pool Size
 
 When multiple users/devices access Office 365 using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number.
 
