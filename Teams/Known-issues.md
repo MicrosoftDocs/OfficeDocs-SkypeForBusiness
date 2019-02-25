@@ -3,7 +3,7 @@ title: Known issues for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 2/19/2019
+ms.date: 2/25/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -38,6 +38,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 |Admin management of tenant-wide Connectors is no longer available  <br/> |When trying to add a connector in both client and online version we get the error: An unexpected error occurred. Please try again. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Disable with Teams settings. See this support article: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |6/21/17  <br/> |
 
 ## Apps
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
+|[Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) may not work when using the "Website" tab in the desktop app<br/> |If a website, such as an intranet portal, has conditional access policies (such as browser or IP address restrictions) then that website may not render as a tab inside of Teams in the desktop app <br/> |Use Teams in a browser instead of using the desktop app.  <br/> |7/1/18  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
