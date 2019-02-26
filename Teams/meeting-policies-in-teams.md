@@ -24,9 +24,11 @@ Meeting policies are used to control the features that are available to meeting 
 ## Here are the settings you can change to fit your organization
 <a name="bkgeneral"> </a>
 
+### New meeting policy name and description
+   - **New meeting policy** Change this to the name of the policy that will appear on the Meeting policies page. The name can't contain special characters or be longer than 64 characters.
+   - **Description** You can add a friendly description for your policy you create. This will be helpful if you want to assign a policy to a group of users.
+
 ### General
-   - **Name** This is the name of the policy that will appear on the Meeting policies page. It can't contain special chararcters or be long than 64 characters.
-   - **Description** You can put in a friendly description for your policy you create. This will be helpful if you want to assign a policy to a group of users.
    - **Allow Meet Now** Turning this on will allow the Meet Now feature to be available to users that join meetings.
    - **Allow the Outlook add-in** Turning this on will let users assigned to the policy have the Outlook add-in available when they schedule meetings.
    - **Allow Channel meeting scheduling** Turning this on will allow Channel Meeting scheduling.
