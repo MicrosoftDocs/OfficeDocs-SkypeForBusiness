@@ -20,7 +20,7 @@ Effective October 1, 2019, Microsoft StaffHub will be retired. We're building St
 
 These changes are part of our continued efforts to empower every employee with Microsoft 365. With capabilities for firstline workers now in Teams, every employee in your organization will be able to use Teams to streamline their workday, collaborate with coworkers, and access information and expertise to help them do their best work.
 
-# Frequently asked questions
+## Frequently asked questions
 
 - **When will Microsoft StaffHub be retired?**<br> 
 Starting April 1, 2019, Microsoft StaffHub will no longer be available for new tenants and all other points of access. Current users will still be able to use the service until October 1, 2019, however no additional features will be made available.
