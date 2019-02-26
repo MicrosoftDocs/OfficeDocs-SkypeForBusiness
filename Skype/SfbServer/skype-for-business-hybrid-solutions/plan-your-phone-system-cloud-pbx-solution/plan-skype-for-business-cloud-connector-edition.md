@@ -23,7 +23,7 @@ description: "Find information on Skype for Business Cloud Connector Edition, a 
 
 Find information on Skype for Business Cloud Connector Edition, a set of packaged Virtual Machines (VMs) that implement on-premises PSTN connectivity with Phone System in Office 365 (Cloud PBX).
 
-Cloud Connector Edition might be the right solution for your organization if you do not already have an existing Lync Server or Skype for Business Server deployment. If you're still investigating which Phone System in Office 365 solution is right for your business, see [Microsoft telephony solutions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
+Cloud Connector Edition might be the right solution for your organization if you do not already have an existing Lync Server or Skype for Business Server deployment. If you're still investigating which Phone System in Office 365 solution is right for your business, see [Plan your Phone System in Office 365 (Cloud PBX) solution](plan-your-phone-system-cloud-pbx-solution.md).
 
 This document describes Cloud Connector Edition requirements and supported topologies, and helps you plan your Cloud Connector Edition deployment. Be sure to read this topic before you configure your Cloud Connector environment. When you are ready to deploy and configure Cloud Connector Edition, see [Configure and manage Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -700,7 +700,7 @@ Cloud Connector 2.1 and later supports monitoring Cloud Connector using Operatio
 
 For more information, see the following:
 
-- [Microsoft telephony solutions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Plan your Phone System in Office 365 (Cloud PBX) solution](plan-your-phone-system-cloud-pbx-solution.md)
 
 - [Configure and manage Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 
