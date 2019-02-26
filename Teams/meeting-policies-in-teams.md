@@ -3,7 +3,7 @@ title: Manage meeting policies
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 02/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua 
@@ -19,12 +19,12 @@ description: Learn to manage meeting policy settings in Teams.
 
 # Manage meeting policies in Teams
 
-Meeting policies are used to control the features that are available to meeting participants for meeting that are scheduled by users in your organization. After you create a policy and make your changes, you can then assign uses to the policy. 
+Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. After you create a policy and make your changes, you can then assign users to the policy. 
 
 ## Here are the settings you can change to fit your organization
 <a name="bkgeneral"> </a>
 
-## General
+### General
    - **Name** This is the name of the policy that will appear on the Meeting policies page. It can't contain special chararcters or be long than 64 characters.
    - **Description** You can put in a friendly description for your policy you create. This will be helpful if you want to assign a policy to a group of users.
    - **Allow Meet Now** Turning this on will allow the Meet Now feature to be available to users that join meetings.
@@ -34,7 +34,7 @@ Meeting policies are used to control the features that are available to meeting 
 
 <a name="bkaudioandvideo"> </a>
 
-## Audio & video
+### Audio & video
    - **Allow transcription** If you turn this on, transcription of the meeting will be available to users.
    - **Allow cloud recording** Turning this on will allow recordings to be saved to the cloud.
    - **Allow IP video** Turning this on will allow IP videos during meetings.
@@ -42,7 +42,7 @@ Meeting policies are used to control the features that are available to meeting 
 
 <a name="bkcontentsharing"> </a>
 
-## Content sharing
+### Content sharing
    - **Screen sharing mode** You can select the screen sharing mode. This will be the size of the screen that will be used during a meeting that a user assigned with the policy can use.
    - **Allow a participant to give or request control** This allows all participants in a meeting to give and request control of screen sharing.
    - **Allow an external participant to give or request control** This allows an external (someone not part of your organziation) participant to give and request control of a meeting when the screen is being shared.
@@ -52,9 +52,8 @@ Meeting policies are used to control the features that are available to meeting 
 
 <a name="bkparticipantsandguests"> </a>
 
-## Participants & guests
-   - **Allow anonymous users to dial-out** If you want meeting participants to dial-out to add someone else, you can turn this on. If you turn it off, none of the meeting participants can dial out from the meeting.
-   - **Allow anonymous users to start meetings** If this setting is off, then only someone that has been authenticated to the meeting with a Teams app can start the meeting. If it's on, then anyone can start the meeting.
-   - **Automatically admit users** If you turn this off, then meeting participants will be left in the lobby until someone starts the meeting. If it's on, meeting participants will be allowed to automatically join the meeting.
+### Participants & guests
+   - **Allow anonymous users to start meetings** If this setting is off, then only someone who has been authenticated to the meeting with a Teams app can start the meeting. If it's on, then anyone can start the meeting.
+   - **Automatically admit users** If you turn this off, then meeting participants will be left in the lobby until someone starts the meeting. If it's on, meeting participants will be allowed to join the meeting automatically.
 
 
