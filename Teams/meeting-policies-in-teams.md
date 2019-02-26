@@ -26,7 +26,7 @@ Meeting policies are used to control the features that are available to meeting 
 
 ### New meeting policy name and description
    - **New meeting policy** Change this to the name of the policy that will appear on the Meeting policies page. The name can't contain special characters or be longer than 64 characters.
-   - **Description** You can add a friendly description for your policy you create. This will be helpful if you want to assign a policy to a group of users.
+   - **Description** You can add a friendly description for the policy you create. This will be helpful if you want to assign a policy to a group of users.
 
 ### General
    - **Allow Meet Now** Turning this on will allow the Meet Now feature to be available to users that join meetings.
