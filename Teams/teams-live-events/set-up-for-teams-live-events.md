@@ -35,6 +35,7 @@ Live events policies are used to control who in your organization can hold live 
 > Users in your organization will get the global policy unless you create and assign a custom policy. By default in the global policy, live event scheduling is enabled for Teams users, transcription is turned off, everyone in the organization can join live events, and the recording setting is set to always record. 
 
 ### Create or edit a live events policy
+<a name="bkcreatepolicy"> </a>
 
 **![teams-logo-30x30.png](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center**
 
