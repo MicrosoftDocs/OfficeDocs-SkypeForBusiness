@@ -682,6 +682,7 @@
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 
 ## Teams for firstline workers
+### [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md)
 ### [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
