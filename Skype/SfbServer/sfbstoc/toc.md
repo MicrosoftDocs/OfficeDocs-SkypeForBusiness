@@ -8,9 +8,8 @@
 ## [Skype for Business downloads and updates](../software-updates.md)
 ### [Client updates](../sfb-client-updates.md)
 ### [Server updates](../sfb-server-updates.md)
-<!--
-## [Microsoft telephony solutions](../../SFBServer2019/hybrid/msft-telephony-solutions.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
+## [Microsoft telephony solutions](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
 ### [Plan Phone System with on-premises PSTN connectivity](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
 
@@ -69,7 +68,6 @@
 ##### [Update-CcServerCertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-ccservercertificate.md)
 #### [Troubleshoot your Cloud Connector deployment](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment.md)
 
--->
 
 ## [Hybrid solutions for Teams and Skype for Business](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
