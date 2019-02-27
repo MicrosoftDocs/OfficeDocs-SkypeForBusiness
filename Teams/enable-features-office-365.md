@@ -31,7 +31,7 @@ To edit **Tenant-wide settings** for Teams, go to the Microsoft 365 admin center
 
 https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
 
-### Apps
+### Apps (we should update this section and link of to the app migration and other relevant docs)
 
 Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps.  
 
