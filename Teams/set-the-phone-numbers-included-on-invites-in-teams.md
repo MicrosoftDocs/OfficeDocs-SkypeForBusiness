@@ -48,15 +48,15 @@ Once the user is enabled for the Audio Conferencing service, the default toll an
 
 1. In the left navigation, click **Users**, and then select the user from the list of available users.
 
-    ![Shows selecting users in the Microsoft Teams admin center](media/teamsselectusers.png)
+    ![Shows selecting users in the Microsoft Teams admin center](media/teams-set-phone-numbers-on-invites-image1.png)
 
 2. At the top of the page, click **Edit**.
 
-    ![Click Edit in the Microsoft Teams admin center](media/teamsedituser.png)
+    ![Click Edit in the Microsoft Teams admin center](media/teams-set-phone-numbers-on-invites-image2.png)
 
 3. Next to **Audio Conferencing**, click **Edit**. 
     
-    ![Click Edit next to Audio conferencing](media/teamseditaudioconf.png)
+    ![Click Edit next to Audio conferencing](media/teams-set-phone-numbers-on-invites-image3.png)
 
 4. Use the **Toll number** or **Toll-free number** fields to enter the numbers for the user.
 
