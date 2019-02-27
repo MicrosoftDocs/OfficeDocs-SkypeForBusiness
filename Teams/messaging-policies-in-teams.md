@@ -31,7 +31,6 @@ To edit the existing default Messaging policy for your organization, click the *
 
 ![Messaging policy settings in Teams](media/messaging-policies-image2.png)
 ::: zone-end  
-
 ::: zone target="chromeless"
 Use the following settings to change the global Messaging policy or create a new custom policy:
 
