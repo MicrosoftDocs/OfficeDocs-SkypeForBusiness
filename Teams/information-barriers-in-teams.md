@@ -20,6 +20,7 @@ Information barriers are policies that an admin can configure to prevent individ
 
 > [!NOTE]
 > Information barrier groups cannot be created across tenants.
+> Adding users by bots is not supported for version 1.
 
 ## Background
 
