@@ -26,6 +26,8 @@ As an admin, you can use app permission policies to control what apps are availa
 
 Users can't interact with disabled apps or their capabilities, such bots, tabs, and messaging extensions. In a shared context, such as a team or group chat, bots can still send messages to all participants of that context.
 
+ADD SCREEN SHOT OF DISABLED APP ON WEB/DESKTOP/MOBILE
+
 ## Manage org-wide app settings
 
 Use org-wide app settings to control which apps are available across your organization. Org-wide app settings govern the behavior for all users and override any specific user’s policy. Org-wide app settings take effect immediately and you can use them to control malicious or problematic apps.
