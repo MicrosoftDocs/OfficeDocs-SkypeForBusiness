@@ -22,9 +22,9 @@ description: Learn about app permission policies in Microsoft Teams and how to u
 
 As an admin, you can use app permission policies to control what apps are available to Microsoft Teams users in your organization. By assigning these policies, either org-wide or to individual users, you can limit access to apps built by Microsoft, third-parties, or your organization.
 
-Users can't interact with disabled apps or their capabilities, such bots, tabs, and messaging extensions. In a shared context, such as a team or group chat, bots can still send messages to all participants of that context. 
-
 ![Screen shot of app permission policy](media/app-permission-policies.png)
+
+Users can't interact with disabled apps or their capabilities, such bots, tabs, and messaging extensions. In a shared context, such as a team or group chat, bots can still send messages to all participants of that context.
 
 ## Manage org-wide app settings
 
