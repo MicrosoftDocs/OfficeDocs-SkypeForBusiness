@@ -16,18 +16,20 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Learn to manage meeting policy settings in Teams.
 ---
-
 # Manage meeting policies in Teams
 
-Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. After you create a policy and make your changes, you can then assign users to the policy. 
+::: zone target="docs"
+Meeting policies are used to control the features that are available to meeting participants for meeting that are scheduled by users in your organization. After you create a policy and make your changes, you can then assign uses to the policy. 
 
 ## Here are the settings you can change to fit your organization
 <a name="bkgeneral"> </a>
 
-### New meeting policy name and description
-   - **New meeting policy** Change this to the name of the policy that will appear on the Meeting policies page. The name can't contain special characters or be longer than 64 characters.
-   - **Description** You can add a friendly description for the policy you create. This will be helpful if you want to assign a policy to a group of users.
+## New meeting policy name and description
+   - **Name** This is the name of the policy that will appear on the Meeting policies page. It can't contain special chararcters or be long than 64 characters.
+   - **Description** You can put in a friendly description for your policy you create. This will be helpful if you want to assign a policy to a group of users.### New meeting policy name and description
+::: zone-end 
 
+::: zone target="chromeless"
 ### General
    - **Allow Meet Now** Turning this on will allow the Meet Now feature to be available to users that join meetings.
    - **Allow the Outlook add-in** Turning this on will let users assigned to the policy have the Outlook add-in available when they schedule meetings.
@@ -58,4 +60,8 @@ Meeting policies are used to control the features that are available to meeting 
    - **Allow anonymous users to start meetings** If this setting is off, then only someone who has been authenticated to the meeting with a Teams app can start the meeting. If it's on, then anyone can start the meeting.
    - **Automatically admit users** If you turn this off, then meeting participants will be left in the lobby until someone starts the meeting. If it's on, meeting participants will be allowed to join the meeting automatically.
 
+[Full article](meeting-policies-in-teams.md)
+::: zone-end
 
+### Related topics
+[Messaging policies in Teams](messaging-policies-in-teams.md)
