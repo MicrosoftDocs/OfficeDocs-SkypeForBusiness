@@ -19,7 +19,7 @@ appliesto:
 Information barriers are policies that an admin can configure to prevent individuals or groups from communicating with each other. This is useful if, for example, one department is handling information that shouldn’t be shared with other departments or a group needs to be prevented from communicating with any outside contacts.
 
 > [!NOTE]
-> Information barrier groups cannot be created across tenants.
+> Information barrier groups cannot be created across tenants.<br>
 > Adding users by bots is not supported for version 1.
 
 ## Background
