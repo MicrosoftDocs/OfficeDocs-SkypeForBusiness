@@ -63,11 +63,7 @@ If you want to control the apps that are available for different groups of users
     1. Search for the apps that you want to allow, and then click **Add**. The search results are filtered to the app publisher (**Microsoft apps**, **Third-party apps**, or **Tenant apps**).
     1. When you've chosen the list of apps, click **Allow**
 
-6. If you selected **Block specific apps and allow all others**, add the apps that you want to block:
-
-    1. Select **Block apps**.
-    1. Search for the apps that you want to block, and then click **Add**. The search results are filtered to the app publisher (**Microsoft apps**, **Third-party apps**, or **Tenant apps**).
-    1. When you've chosen the list of apps, click **Block**
+6. Similarly, if you selected **Block specific apps and allow all others**, search for and add the apps that you want to block.
 7. Click **Save**.
 
 ## Edit an app permission policy
