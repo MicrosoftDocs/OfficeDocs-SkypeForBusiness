@@ -1,4 +1,4 @@
----
+﻿---
 title: Manage app permission policies in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
@@ -21,11 +21,13 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
-As an admin, you can use app permission policies to control what apps are available to Microsoft Teams users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. When you block an app, users are unable to install it from the Teams App store. 
+As an admin, you can use app permission policies to control what apps are available to Microsoft Teams users in your organization. By assigning these policies, either org-wide or to individual users, you can limit access to apps built by Microsoft, third-parties, or your organization.
 
-You manage app permission policies in the Microsoft Teams admin center. You can use the global policy (Org-wide default) or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy.
+You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. When you block an app, users are unable to install it from the Teams app store. You can enable a policy to apply org-wide or to individual users.
 
-You can edit the settings in the global policy to block or allow the apps that you want. If you want to control the apps that are available for different groups of users in your organization, create and assign one or more custom policies.
+Users can't interact with disabled apps or their capabilities, such bots, tabs, and messaging extensions. In a shared context, such as a team or group chat, bots can still send messages to all participants of that context. 
+
+You manage app permission policies in the Microsoft Teams admin center. You can use the global policy (Org-wide default) or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy. You can edit the settings in the global policy to block or allow the apps that you want. 
 
 ![app-setup-policies.png](media/app-setup-policies.png)
 
@@ -34,21 +36,45 @@ You can edit the settings in the global policy to block or allow the apps that y
 
 ## Manage org-wide app settings
 
-Org-wide app settings
+Use org-wide app settings to control which apps are available across your organization. Org-wide app settings govern the behavior for all users and override any specific user’s policy. Org-wide app settings take effect immediately and you can use them to control malicious or problematic apps.
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App permission policies**.
+2. Select **Org-wide settings**.
+3. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
+
+- **Allow third-party apps in Teams**: This controls whether users can use third-party apps.
+- **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if third-party apps are allowed. 
+- **Allow interaction with custom apps**: This controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* customer apps. To lean more about sideloading policy, see **LINK TO SIDELOADING POLICY ARTICLE**.
+
+4. Under **Blocked apps**, search for and add the apps that you want to block across your organization. You can choose apps from the tenant app catalog or the Teams app store.
+5. Click **Save** for org-wide app settings to take effect. 
 
 ## Create a custom app permission policy
 
-You can use the Microsoft Teams admin center or Windows PowerShell to create a custom policy.
+If you want to control the apps that are available for different groups of users in your organization, create and assign one or more custom policies. You can also create an assign separate custom policies based on whether apps are published by Microsoft, third-parties, or your organization. It's important to know that after you create a custom policy, you can't change it if third-party apps are disabled in org-wide settings. 
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App permission policies**.
 2. Select **New policy**.
 3. Enter a descriptive name for the policy.
-4. Specify the apps that you want to make available for users.
-    a. Under **Microsoft apps**, **Third-party apps**, and **Tenant apps**, choose one of the following:
+4. Under **Microsoft apps**, **Third-party apps**, and **Tenant apps**, select one of the following settings:
+
 - **Allow all apps**
 - **Allow specific apps and block all others**
 - **Block specific apps and allow all others**
 - **Block all apps**
+
+5. If you selected **Allow specific apps and block others**, add the apps that you want to allow:
+
+    1. Select **Allow apps**.
+    1. Search for the apps that you want to allow, and then click **Add**. The search results are filtered to the app publisher (**Microsoft apps**, **Third-party apps**, or **Tenant apps**).
+    1. When you've chosen the list of apps, click **Allow**
+
+6. If you selected **Block specific apps and allow all others**, add the apps that you want to block:
+
+    1. Select **Block apps**.
+    1. Search for the apps that you want to block, and then click **Add**. The search results are filtered to the relevant category (**Microsoft apps**, **Third-party apps**, or **Tenant apps**).
+    1. When you've chosen the list of apps, click **Block**
+7. Click **Save**.
 
 ## Edit an app permission policy
 
@@ -56,26 +82,26 @@ You can use the Microsoft Teams admin center or Windows PowerShell to edit a pol
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App permission policies**.
 2. Select the policy you want to edit. 
-3. From here, make the changes that you want. 
+3. From here, make the changes that you want. You can manage settings based on the app publisher and add and remove apps based on the allow/block setting.
 4. Click **Save**. 
 
 ## Assign a custom app permission policy to users
 
-You can use the Microsoft Teams admin center to assign a custom policy to individual users or Windows PowerShell to assign a custom policy to groups of users, such as a security group or distribution group.
+You can use the Microsoft Teams admin center to assign a custom policy to individual users or the Skype for Business PowerShell module to assign a custom policy to multiple users, such as all users in a security group or distribution group.
 
 ### Assign a custom app setup policy to individual users
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click       the user.
 2. Next to **Assigned policies**, choose **Edit**.
-3. Under **Teams App Setup policy**, select the app setup policy you want to assign, and then choose **Save**.
+3. Under **Teams App Permission policy**, select the app permission policy you want to assign, and then choose **Save**.
 
     ![app-setup-policies-assign-policy.png](media/app-setup-policies-assign-policy.png)
 
 ### Assign a custom app permission policy to users in a group
 
-You may want to assign a custom app setup policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
+You may want to assign a custom app permission policy to multiple users that you’ve already identified. For example, you may want to assign a policy to all users in a security group. You can do this by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
 
-In this example, we assign a custom app setup policy called HR App Setup Policy to all users in the Contoso Pharmaceuticals HR Project group.  
+In this example, we assign a custom app permission policy called HR App Permission Policy to all users in the Contoso Pharmaceuticals HR Project group.  
 
 > [!NOTE]
 > Make sure you first connect to the Azure Active Directory PowerShell for Graph module and Skype for Business PowerShell module by following the steps in [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
@@ -88,9 +114,9 @@ Get the members of the specified group.
 ```
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-Assign all users in the group to a particular app setup policy. In this example, it's HR App Setup Policy.
+Assign all users in the group to a particular app permission policy. In this example, it's HR App Permission Policy.
 ```
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.EmailAddress}
 ``` 
 Depending on the number of members in the group, this command may take several minutes to execute.
 
@@ -98,55 +124,36 @@ Depending on the number of members in the group, this command may take several m
 
 ### Working with app permission policies
 
-#### What built-in app setup policies are included in the Microsoft Teams admin center?
+Yes, you can use app permission policy to control the rollout and distribution of custom (LOB) apps.
 
-- **Global (Org-wide default)**: This default policy applies to all users in your organization unless you assign another policy. Edit the global policy to pin apps that are most important for your users.
-- **FirstLineWorker**: This policy is for firstline workers. You can assign it to firstline workers in your organization. It's important to know that like custom policies that you create, you have to assign the policy to users for the settings to be active. For more information, go to the [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users) section of this article.
+#### How do app permission policies relate to pinned apps and app setup policies?
 
-#### Why can't I find an app in the Add pinned apps pane?
+You can use app setup policies together with app permission policies. Pre-pinned apps are selected from the set of enabled apps for a user. Additionally, if a user has an app permission policy that blocks an app pinned in their app setup policy, that app won't appear in Teams. 
 
-Not all apps can be pinned to Teams through an app setup policy. Some apps may not support this functionality. To find apps that can be pinned, search for the app in the **Add pinned apps** pane. Tabs that have a personal scope (static tabs) and bots can be pinned to the Teams desktop client and these apps are available in the **Add pinned apps** pane.
+#### Can I used app permission policies to restrict sideloading?
 
-Keep in mind that the Teams app store lists all Teams apps whereas the **Add pinned apps** pane includes only apps that can be pinned to Teams through a policy. 
-
-#### I'm a Teams for Education admin. What do I need to know about app setup policies in Teams for Education?
-
-The Calling app isn't available in Teams for Education. When you create a new custom app setup policy, the Calling app is displayed in the list of apps. However, the app isn't pinned to Teams clients and Teams for Education users won't see the Calls app in Teams. 
-
-#### How many apps can be added to a policy?
-
-A minimum of two apps must be pinned to the Teams mobile clients (iOS and Android). If a policy has less than two apps, the mobile clients won't reflect the policy settings and instead will continue to use the existing configuration.
+This article provides information about how you can restrict uploading and use of custom apps through a  sideloading policy.
 
 #### How long does it take for policy changes to take effect?
 
-After you edit the global policy or assign a policy, it can take up to 24 hours for changes to take effect.
+After you edit the global policy or assign a policy to users, it can take up to 24 hours for changes to take effect. Org-wide app settings take effect immediately.
+
+#### Does disabling apps apply to Teams mobile clients?
+
+Yes, all Teams clients enforce disabled app behavior.
 
 ### User experience
 
-#### How can users see all their pinned apps in Teams?
+#### What does a user experience when an app is disabled?
 
-To view all apps that are pinned for a user, users may have to do the following depending on the number of installed apps and the size of their Teams client window.
+All interactions with that app are disabled and Teams clients indicate it in the interface. For example, the following interactions are disabled:
 
-|Teams desktop client |Teams mobile client |
-|---------|---------|
-|In the app bar on the side of Teams, click **... More apps**.| In the app bar near the bottom of Teams, swipe up.|
-|![app-setup-policies-desktop-more-apps.png](media/app-setup-policies-desktop-more-apps.png)<br>   |![app-setup-policies-mobile-more-apps.png](media/app-setup-policies-mobile-more-apps.png)  
-
-#### What do I need to know about the Teams mobile experience?
-
-The Teams mobile clients (iOS and Android) currently don't support personal apps with static tabs. Depending on the apps set in the policy, apps pinned to the Teams desktop client might not appear in the Teams mobile clients. Personal bots will still appear in Chat on mobile clients.
-
-With the Teams mobile clients, users will see core Teams apps such as Activity, Chat, and Teams, and you can pin some first-party apps from Microsoft, such as Shifts.
-
-#### Can users change the order of apps pinned through a policy?
-
-Currently, users can change the order of their pinned apps on Teams mobile clients but not on the Teams desktop or web clients. 
-
-### Custom Teams apps
-
-#### My organization built a custom Teams app and published it through AppSource but the app icon isn't displayed as expected when the app is pinned to the app bar in Teams. How do I fix it? 
-
-Make sure that you follow the logo guidelines before you submit the app. To learn more, see [Checklist for Seller Dashboard submission](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
+- Adding the app personally or to a chat or team
+- Sending messages to the app’s bot
+- Performing button actions that send information back to the app, such as actionable messages  
+- Viewing the app’s tab
+- Setting up connectors to receive notifications
+- Using the app’s messaging extension
 
  ## Related topics
-- 
+- [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md)
