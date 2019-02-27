@@ -42,7 +42,7 @@ You can edit the settings in the global policy to include the apps that you want
 
 You can use the Microsoft Teams admin center or Windows PowerShell to create a custom policy.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App setup policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **App setup policies**.
 2. Select **New policy**.
 3. Enter a descriptive name for the policy, and then click **Add apps**.
 4. In the **Add pinned apps** pane, search for the apps you want to add, and then click **Add**.  To see a list of all    apps, select **Teams app store**. When you've chosen your list of apps, click **Add**.
@@ -57,7 +57,7 @@ You can use the Microsoft Teams admin center or Windows PowerShell to create a c
 
 You can use the Microsoft Teams admin center or Windows PowerShell to edit a policy, including the global (Org-wide default) policy and custom policies that you create. 
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App setup policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **App setup policies**.
 2. Select the policy you want to edit. 
 3. From here, make the changes that you want. You can add, remove, and change the order of apps.
 4. Click **Save**. 
@@ -103,7 +103,7 @@ Depending on the number of members in the group, this command may take several m
 
 #### What built-in app setup policies are included in the Microsoft Teams admin center?
 
-- **Global (Org-wide default)**: This default policy applies to all users in your organization unless you assign another policy. Edit the global policy to pin apps that are most important for your users. 
+- **Global (Org-wide default)**: This default policy applies to all users in your organization unless you assign another policy. Edit the global policy to pin apps that are most important for your users.
 - **FirstLineWorker**: This policy is for firstline workers. You can assign it to firstline workers in your organization. It's important to know that like custom policies that you create, you have to assign the policy to users for the settings to be active. For more information, go to the [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users) section of this article.
 
 #### Why can't I find an app in the Add pinned apps pane?
@@ -137,9 +137,9 @@ To view all apps that are pinned for a user, users may have to do the following 
 
 #### What do I need to know about the Teams mobile experience?
 
-The Teams mobile clients (iOS and Android) don't currently support personal apps. Depending on the apps set in the policy, apps pinned to the Teams desktop client might not appear in the Teams mobile clients. Personal bots will still appear in Chat on mobile clients. 
+The Teams mobile clients (iOS and Android) currently don't support personal apps with static tabs. Depending on the apps set in the policy, apps pinned to the Teams desktop client might not appear in the Teams mobile clients. Personal bots will still appear in Chat on mobile clients.
 
-With the Teams mobile clients, users will see core Teams apps such as Activity, Chat, and Teams, and you can pin some first-party apps from Microsoft, such as Shifts and Planner.
+With the Teams mobile clients, users will see core Teams apps such as Activity, Chat, and Teams, and you can pin some first-party apps from Microsoft, such as Shifts.
 
 #### Can users change the order of apps pinned through a policy?
 
@@ -147,7 +147,7 @@ Currently, users can change the order of their pinned apps on Teams mobile clien
 
 ### Custom Teams apps
 
-#### My organization built a custom Teams app and published it through AppSource but the app icon isn't displayed as expected when the app is pinned to the app bar in Teams. How do I fix it? 
+#### My organization built a custom Teams app and published it, either to AppSource or the Tenant app catalog, but the app icon isn't displayed as expected when the app is pinned to the app bar in Teams. How do I fix it? 
 
 Make sure that you follow the logo guidelines before you submit the app. To learn more, see [Checklist for Seller Dashboard submission](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
 
