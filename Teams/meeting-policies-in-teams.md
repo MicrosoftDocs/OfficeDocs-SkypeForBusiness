@@ -19,10 +19,10 @@ description: Learn to manage meeting policy settings in Teams.
 # Manage meeting policies in Teams
 ::: zone target="docs"
 Meeting policies are used to control the features that are available to meeting participants for meeting that are scheduled by users in your organization. After you create a policy and make your changes, you can then assign uses to the policy. 
-::: zone-end 
 
 ## Here are the settings you can change to fit your organization
 <a name="bkgeneral"> </a>
+::: zone-end 
 
 ::: zone target="chromeless"
 ## General
