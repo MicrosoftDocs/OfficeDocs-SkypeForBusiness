@@ -14,7 +14,6 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn about app permission policies in Microsoft Teams and how to use them to control what apps are available for users in your organization. 
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Manage app permission policies in Microsoft Teams
@@ -27,25 +26,21 @@ Users can't interact with disabled apps or their capabilities, such bots, tabs, 
 
 ![Screen shot of app permission policy](media/app-permission-policies.png)
 
-> [!NOTE]
-> If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies to the user.
-
 ## Manage org-wide app settings
 
 Use org-wide app settings to control which apps are available across your organization. Org-wide app settings govern the behavior for all users and override any specific user’s policy. Org-wide app settings take effect immediately and you can use them to control malicious or problematic apps.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App permission policies**.
-2. Select **Org-wide settings**.
-3. Under **Org-wide settings**, specify the app settings that you want.
+2. Select **Org-wide settings**. You can then configure the settings you want in the panel. 
 ![Screen shot of org-wide app settings](media/app-permission-policies-org-wide-settings.png)
-    1. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
+3. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
 - **Allow third-party apps in Teams**: This controls whether users can use third-party apps.
 - **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if third-party apps are allowed. 
-- **Allow interaction with custom apps**: This controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* customer apps. To lean more about sideloading policy, see **LINK TO SIDELOADING POLICY ARTICLE**.
+- **Allow interaction with custom apps**: This controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* customer apps. To learn more about sideloading policy, see **LINK TO SIDELOADING POLICY ARTICLE**.
 
-    1. Under **Blocked apps**, search for and add the apps that you want to block across your organization. You can choose apps from the tenant app catalog or the Teams app store.
-4. Click **Save** for org-wide app settings to take effect. 
+4. Under **Blocked apps**, search for and add the apps that you want to block across your organization. You can choose apps from the tenant app catalog or the Teams app store.
+5. Click **Save** for org-wide app settings to take effect. 
 
 ## Create a custom app permission policy
 
@@ -133,7 +128,7 @@ You can use app setup policies together with app permission policies. Pre-pinned
 
 #### Can I used app permission policies to restrict sideloading?
 
-This article provides information about how you can restrict uploading and use of custom apps through a  sideloading policy.
+To learn more about how to restrict uploading and use of custom apps through a sideloading policy, see LINK TO SIDELOADING POLICY ARTICLE.
 
 #### How long does it take for policy changes to take effect?
 
