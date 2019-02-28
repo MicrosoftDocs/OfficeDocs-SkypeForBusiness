@@ -1,7 +1,7 @@
 ---
 title: "Disable hybrid to complete migration to the cloud"
 ms.author: crowe
-author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 ms.topic: article

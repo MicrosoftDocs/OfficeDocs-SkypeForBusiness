@@ -1,7 +1,7 @@
 ---
 title: "Update the edge certificate"
 ms.author: crowe
-author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 ms.topic: article

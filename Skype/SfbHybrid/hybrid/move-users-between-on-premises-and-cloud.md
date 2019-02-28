@@ -3,6 +3,7 @@ title: "Move users between on-premises and cloud"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.reviewer: bjwhalen
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro

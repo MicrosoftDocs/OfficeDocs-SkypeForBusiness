@@ -3,6 +3,7 @@ title: Plan hybrid connect | Skype for Business Server 2019 Office 365 integrati
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.reviewer: bjwhalen
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
