@@ -14,7 +14,6 @@ ms.collection:
 - Adm_Skype4B_Online 
 - Teams_ITAdmin_Help 
 search.appverid: MET150
-search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
