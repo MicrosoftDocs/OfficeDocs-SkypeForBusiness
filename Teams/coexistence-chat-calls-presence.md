@@ -6,7 +6,6 @@ manager: Serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: francoid
-description: Prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
