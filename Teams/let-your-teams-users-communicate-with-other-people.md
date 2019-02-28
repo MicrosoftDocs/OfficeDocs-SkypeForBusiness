@@ -28,6 +28,9 @@ Use the steps in this article when:
 
 This will allow users to find, call, and send you instant messages, as well as set up meetings with you. If you want external users to have access to teams and channels, guest access might be a better way to go. Follow the steps in this article and make sure to [turn on guest access](set-up-guests.md) so that users can communicate.
 
+> [!IMPORTANT]
+> In order to currently federate within the Microsoft Teams client to an external user outside of your organization who's not currently a Guest of your AAD/Tenant, you must be correctly setup for hybrid and moved to Skype for Business Online. As of 2/25/2019, Teams doesn't yet support native federation without the user of the SIP profile being homed in Skype for Business Online. For more on setting up your account for Hybrid and then moved to Teams, please see [Upgrade Skype for Business Hybrid Deployment to Teams](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
+
 ## Let your Teams users chat and communicate with users in another Teams organization
 
 Follow these steps.
