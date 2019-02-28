@@ -37,7 +37,7 @@ The Information Barrier Policy Evaluation Service determines whether a communica
 
 ## Managing information barrier policies
 
-Information barrier policies are managed with Security & Compliance Center (SCC) PowerShell cmdlets. For more information about using these cmdlets, see [Information barriers (coming soon to Microsoft Teams!)](https://docs.microsoft.com/Office365/SecurityCompliance/information-barriers)
+Information barrier policies are managed with Security & Compliance Center (SCC) PowerShell cmdlets. For more information about using these cmdlets, see [Information barriers (coming soon!)](https://docs.microsoft.com/Office365/SecurityCompliance/information-barriers)
 
 > [!IMPORTANT]
 > Before you set up or define policies, **you must enable scoped directory search in Microsoft Teams**. Wait at least 24 hours after enabling scoped directory search before you set up or define policies for information barriers.
@@ -68,5 +68,5 @@ If there is an existing chat or other communication between users, and a new pol
 
 ## More information
 
-For more information about the information barriers admin role and to set or remove information barrier policies, see [Information barriers (coming soon to Microsoft Teams!)](https://docs.microsoft.com/Office365/SecurityCompliance/information-barriers).
+For more information about the information barriers admin role and to set or remove information barrier policies, see [Information barriers (coming soon!)](https://docs.microsoft.com/Office365/SecurityCompliance/information-barriers).
 
