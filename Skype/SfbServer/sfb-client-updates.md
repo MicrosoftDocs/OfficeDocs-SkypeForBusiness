@@ -230,12 +230,12 @@ Package Name|Release Date|
 |[Lync Phone Edition for Polycom CX500, Polycom CX600 and Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | April 2017 |
 |[Lync Phone Edition for Polycom CX700 and LG-Nortel IP Phone 8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | December 2015 |
 
-### Lync Basic 2013 Trial Software
+### Lync Basic 2013 Software
 
 Package Name|Release Date|
 |:--- |:--- |:--- |
-|[Lync Basic 2013 Trial (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35451) | October 2012 |
-|[Lync Basic 2013 Trial (64-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35450) | October 2012 |
+|[Lync Basic 2013 (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35451) | October 2012 |
+|[Lync Basic 2013 (64-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=35450) | October 2012 |
 
 * * *
 
