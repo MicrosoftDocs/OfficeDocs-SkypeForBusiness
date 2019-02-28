@@ -4,10 +4,13 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection:
+ms.collection: 
+- hybrid 
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online
 ms.custom:
 description: "Learn how to move users from Skype for Business Online to on premises."
 ---

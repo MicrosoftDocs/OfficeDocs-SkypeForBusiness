@@ -8,6 +8,9 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
+- hybrid 
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online
 description: "Instructions for configuring Azure AD Connect in a hybrid environment."
 
 ---

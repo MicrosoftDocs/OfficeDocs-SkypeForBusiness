@@ -4,10 +4,13 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection:
+ms.collection: 
+- hybrid 
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online
 ms.custom: 
 description: "The following sections provide guidance on how to configure an environment that has multiple forests in a resource/user forest model to provide Skype for Business functionality in a hybrid scenario."
 ---

@@ -5,14 +5,13 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 ms.topic: article
-ms.service: 
-- skype-for-business-online
-- msteams
+ms.prod: skype-for-business-itpro
 search.appverid: MET150
-ms.collection:  
+ms.collection: 
+- hybrid 
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-ms.audience: Admin
+ms.audience: ITPro
 appliesto:
 - Skype for Business 
 - Microsoft Teams
