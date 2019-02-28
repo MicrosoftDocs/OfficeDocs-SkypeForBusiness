@@ -12,7 +12,8 @@ ms.service:
 - msteams
 ms.collection: 
 - Adm_Skype4B_Online 
-- Teams_ITAdmin_Help 
+- Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:

@@ -9,7 +9,9 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+ms.collection:  
+- Teams_ITAdmin_Help
+- M365-voice
 appliesto: Microsoft Teams
 description: "Microsoft partners with selected SBC vendors to certify their SBCs work with Direct Routing."
 ---

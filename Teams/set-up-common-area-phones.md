@@ -10,8 +10,10 @@ ms.tgt.pltfrm: cloud
 ms.service: 
 - msteams
 search.appverid: MET150
-ms.collection:
+ms.collection: 
 - Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
