@@ -56,9 +56,11 @@ Information barrier policies are checked when the following Teams events take pl
 - **A screen is shared between two or more users** - Any time a screen is shared between two or more users, the screen share must be evaluated to make sure that it doesn’t violate the information barrier policies of other users. If an information barrier policy is violated, the screen share won’t be allowed, and an error message will appear.
 - **A user places a phone call (VOIP) in Teams** - Any time a voice call is initiated by a user to another user or group of users, the call is evaluated to make sure that it doesn’t violate the information barrier policies of oher team members. If there is any violation, the voice call is blocked.
 
+Information barrier policies prevent lookups and discovery. This means that if you attempt to communicate with someone you should not be communicating with, you will not find that user in the people picker.
+
 ## What happens to existing chat threads when a policy is changed?
 
-When the information  barrier policy admin makes changes to the policy or a policy change kicks into effect because of a user’s job changing or a similar reason, a search needs to be performed on the members to ensure that the members in the Team are not violating any policies. 
+When the information  barrier policy admin makes changes to the policy or a policy change kicks into effect because of a user’s job changing or a similar reason, the system automatically searches the members to ensure that members of the Team are not violating any policies. 
 
 If there is an existing chat or other communication between users, and a new policy is set or an existing policy is changed, existing communications are evaluated to make sure that they aren’t “poisoned” (no longer allowed): 
 
