@@ -192,7 +192,6 @@
 
 
 ## [Cloud Video Interop](cloud-video-interop.md)
-### [Set up Cloud Video Interop](cloud-video-interop-for-teams-set-up.md)
 
 ## Live events
 ### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
