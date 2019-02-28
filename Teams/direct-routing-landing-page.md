@@ -10,8 +10,7 @@ ms.collection: Teams_ITAdmin_Help
 ms.reviewer: crowe
 search.appverid: MET150
 description: Landing page for Direct Routing
-appliesto: 
-- Microsoft Teams
+appliesto: Microsoft Teams
 ---
 
 # Phone System Direct Routing
