@@ -221,6 +221,10 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
+|Website tab leading to customer confusion  <br/> |Website tabs are not equivalent to your browser. A number of sites, especially those requiring authentication or using popups, will not work when pinned as a website tab.  <br/> |We are working on improving the UI to make it clearer for customers.  <br/> |5/2/18  <br/>|
+
+|**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
+|:-----|:-----|:-----|:-----|
 |Tabs not working since Conditional Access was enabled <br/> |Some tabs may not load anymore in the Desktop Client since Conditional Access was enabled on the tenant. The tabs load when using the Web Client. Some tabs that might be affected are: PowerBI, Forms, VSTS, PowerApps, and SharePoint List.  <br/> |To see affected tabs you must use Teams in Edge, IE, or Chrome with the Windows 10 Accounts extension installed. Some tabs still depend on web authentication, which doesn't work in the Desktop Client when CA is enabled. We are working with partners to enable these scenarios; so far we have enabled Planner, OneNote, and Stream. <br/> |4/5/18  <br/>|
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
