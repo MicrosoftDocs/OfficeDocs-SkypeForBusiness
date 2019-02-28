@@ -20,17 +20,21 @@ description: Learn about app permission policies in Microsoft Teams and how to u
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
-As an admin, you can use app permission policies to control what apps are available to Microsoft Teams users in your organization. By assigning these policies, either org-wide or to individual users, you can limit access to apps built by Microsoft, third-parties, or your organization.
+As an admin, you can use app permission policies to control what apps are available to Microsoft Teams users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. When you block an app, users are unable to install it from the Teams app store.
+
+You manage app permission policies in the Microsoft Teams admin center. You can apply settings org-wide, use the global (Org-wide default) policy, and create and assign custom policies to individual users or users in a group.  
 
 ![Screen shot of app permission policy](media/app-permission-policies.png)
 
-Users can't interact with disabled apps or their capabilities, such bots, tabs, and messaging extensions. In a shared context, such as a team or group chat, bots can still send messages to all participants of that context.
+> [!NOTE]
+> Users in your organization will automatically get the global policy unless you create and assign a custom policy. Org-wide app settings override the global policy and any custom polices that you create and assign to users.
 
-ADD SCREEN SHOT OF DISABLED APP ON WEB/DESKTOP/MOBILE
+Say, for example, you want to block all third-party apps and allow specific apps from Microsoft for the HR team in your organization. You would create a custom policy named HR App Permission Policy, set it to block and allow the apps that you want, and then assign it to users on the HR team.
+
 
 ## Manage org-wide app settings
 
-Use org-wide app settings to control which apps are available across your organization. Org-wide app settings govern the behavior for all users and override any specific user’s policy. Org-wide app settings take effect immediately and you can use them to control malicious or problematic apps.
+Use org-wide app settings to control which apps are available across your organization. Org-wide app settings govern the behavior for all users and override any other app permission policies assigned to users. Org-wide app settings take effect immediately and you can use them to control malicious or problematic apps.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App permission policies**.
 2. Select **Org-wide settings**. You can then configure the settings you want in the panel. 
@@ -42,11 +46,11 @@ Use org-wide app settings to control which apps are available across your organi
 - **Allow interaction with custom apps**: This controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* customer apps. To learn more about sideloading policy, see **LINK TO SIDELOADING POLICY ARTICLE**.
 
 4. Under **Blocked apps**, search for and add the apps that you want to block across your organization. You can choose apps from the tenant app catalog or the Teams app store.
-5. Click **Save** for org-wide app settings to take effect. 
+5. Click **Save** for org-wide app settings to take effect.
 
 ## Create a custom app permission policy
 
-If you want to control the apps that are available for different groups of users in your organization, create and assign one or more custom policies. You can also create and assign separate custom policies based on whether apps are published by Microsoft, third-parties, or your organization. It's important to know that after you create a custom policy, you can't change it if third-party apps are disabled in org-wide settings. 
+If you want to control the apps that are available for different groups of users in your organization, create and assign one or more custom policies. You can create and assign separate custom policies based on whether apps are published by Microsoft, third-parties, or your organization. It's important to know that after you create a custom policy, you can't change it if third-party apps are disabled in org-wide settings. 
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App permission policies**.
 2. Select **New policy**.
@@ -116,13 +120,13 @@ Depending on the number of members in the group, this command may take several m
 
 ### Working with app permission policies
 
-#### Can I limit line of business (LOB) apps?
+#### Can I control line of business (LOB) apps?
 
 Yes, you can use app permission policies to control the rollout and distribution of custom (LOB) apps.
 
 #### How do app permission policies relate to pinned apps and app setup policies?
 
-You can use app setup policies together with app permission policies. Pre-pinned apps are selected from the set of enabled apps for a user. Additionally, if a user has an app permission policy that blocks an app pinned through their app setup policy, that app won't appear in Teams. 
+You can use app setup policies together with app permission policies. Pre-pinned apps are selected from the set of enabled apps for a user. Additionally, if a user has an app permission policy that blocks an app in their app setup policy, that app won't appear in Teams.
 
 #### Can I used app permission policies to restrict sideloading?
 
@@ -132,22 +136,28 @@ To learn more about how to restrict uploading and use of custom apps through a s
 
 After you edit the global policy or assign a policy to users, it can take up to 24 hours for changes to take effect. Org-wide app settings take effect immediately.
 
-#### Does disabling apps apply to Teams mobile clients?
+#### Does blocking an app apply to Teams mobile clients?
 
-Yes, all Teams clients enforce disabled app behavior.
+Yes, when you block an app, that app is blocked across all Teams clients.  
 
 ### User experience
 
-#### What does a user experience when an app is disabled?
+#### What does a user experience when an app is blocked?
 
-All interactions with that app are disabled and Teams clients indicate it in the interface. For example, the following interactions are disabled:
+Users can't interact with a blocked app or its capabilities, such bots, tabs, and messaging extensions. In a shared context, such as a team or group chat, bots can still send messages to all participants of that context.
 
-- Adding the app personally or to a chat or team
-- Sending messages to the app’s bot
-- Performing button actions that send information back to the app, such as actionable messages  
-- Viewing the app’s tab
-- Setting up connectors to receive notifications
-- Using the app’s messaging extension
+Users can see that the app is blocked in Teams. 
+
+ADD SCREEN SHOT OF BLOCKED APP ON WEB/DESKTOP/MOBILE
+
+For example, users can't do any of the following: 
+
+- Add the app personally or to a chat or team
+- Send messages to the app’s bot
+- Perform button actions that send information back to the app, such as actionable messages  
+- View the app’s tab
+- Set up connectors to receive notifications
+- Use the app’s messaging extension
 
  ## Related topics
 - [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md)
