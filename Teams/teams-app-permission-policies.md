@@ -42,7 +42,7 @@ Use org-wide app settings to control which apps are available across your organi
 3. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
 - **Allow third-party apps in Teams**: This controls whether users can use third-party apps.
-- **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if third-party apps are allowed. 
+- **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps. 
 - **Allow interaction with custom apps**: This controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* customer apps. To learn more about sideloading policy, see **LINK TO SIDELOADING POLICY ARTICLE**.
 
 4. Under **Blocked apps**, search for and add the apps that you want to block across your organization. You can choose apps from the tenant app catalog or the Teams app store.
@@ -146,11 +146,11 @@ Yes, when you block an app, that app is blocked across all Teams clients.
 
 Users can't interact with a blocked app or its capabilities, such bots, tabs, and messaging extensions. In a shared context, such as a team or group chat, bots can still send messages to all participants of that context.
 
-Users can see that the app is blocked in Teams. 
+Teams indicates to the user when an app is blocked. 
 
 ADD SCREEN SHOT OF BLOCKED APP ON WEB/DESKTOP/MOBILE
 
-For example, users can't do any of the following: 
+For example, when an app is blocked, users can't do any of the following: 
 
 - Add the app personally or to a chat or team
 - Send messages to the app’s bot
