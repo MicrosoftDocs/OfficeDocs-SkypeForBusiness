@@ -22,6 +22,8 @@ Information barriers are policies that an admin can configure to prevent individ
 > - Information barrier groups cannot be created across tenants.
 > - Using bots to add users is not supported for version 1.
 
+Information barrier policies also prevent lookups and discovery. This means that if you attempt to communicate with someone you should not be communicating with, you will not find that user in the people picker.
+
 ## Background
 
 The primary driver for Information Barriers comes from the financial services industry. The Financial Industry Regulatory Authority ([FINRA]( http://www.finra.org/)) reviews information barriers and conflicts of interest within member firms and provides guidance as to how to manage such conflicts (FINRA 2241, [Debt Research Regulatory Notice 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).  
@@ -55,8 +57,6 @@ Information barrier policies are checked when the following Teams events take pl
 - **A user is invited to join a meeting** - When a user is invited to join a meeting, the user's policy is evaluated against the policies of other team members, and if there’s a violation, the user will not be allowed to join the meeting and will see an error message.
 - **A screen is shared between two or more users** - Any time a screen is shared between two or more users, the screen share must be evaluated to make sure that it doesn’t violate the information barrier policies of other users. If an information barrier policy is violated, the screen share won’t be allowed, and an error message will appear.
 - **A user places a phone call (VOIP) in Teams** - Any time a voice call is initiated by a user to another user or group of users, the call is evaluated to make sure that it doesn’t violate the information barrier policies of oher team members. If there is any violation, the voice call is blocked.
-
-Information barrier policies also prevent lookups and discovery. This means that if you attempt to communicate with someone you should not be communicating with, you will not find that user in the people picker.
 
 ## What happens to existing chat threads when a policy is changed?
 
