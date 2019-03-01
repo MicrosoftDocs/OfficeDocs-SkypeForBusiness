@@ -1,5 +1,5 @@
 ---
-title: "Get started with Microsoft Teams Healthcare templates"
+title: "Get started with Teams templates for Healthcare"
 author: jambirk
 ms.author: jambirk 
 manager: serdars
@@ -12,7 +12,7 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: 
-description: Get started with Microsoft Teams Healthcare templates
+description: Get started with Teams templates for Healthcare
 ---
 
 # Get started with Microsoft Teams Healthcare templates
@@ -32,7 +32,7 @@ The ward template is meant for communication and collaboration within a ward, po
 |Healthcare - Ward | https://<span></span>graph<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Announcements\* <br> Huddles\* <br> Rounds\* <br> Staffing\* <br> Training\* |
 |     | |         |
 
-\* Auto-favorited 
+\* Auto-favorited
 
 ## Hospital template
 
