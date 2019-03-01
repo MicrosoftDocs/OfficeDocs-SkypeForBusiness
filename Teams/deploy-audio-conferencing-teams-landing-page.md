@@ -7,7 +7,10 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/28/2019
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:  
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 localization_priority: Priority
 search.appverid: MET150
 appliesto: 
