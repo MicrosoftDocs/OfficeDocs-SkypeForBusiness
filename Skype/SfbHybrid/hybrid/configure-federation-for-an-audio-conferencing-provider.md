@@ -4,10 +4,13 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection:
+ms.collection: 
+- Hybrid 
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online
 ms.custom:
 description: "Summary: Learn how to configure federation for an audio conferencing provider in Skype for Business Online."
 ---
