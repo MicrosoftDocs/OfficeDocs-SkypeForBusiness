@@ -12,6 +12,7 @@ ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
+ms.collection: M365-voice 
 localization_priority: Normal
 description: "This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams."
 ---
