@@ -2,12 +2,16 @@
 title: Move users from Skype for Business Server 2019 to Teams
 ms.author: crowe
 author: CarolynRowe
-manager: serdars--
+manager: serdars
+ms.reviewer: bjwhalen
 ms.audience: ITPro
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection:
+ms.collection: 
+- Hybrid 
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online
 ms.custom: 
 description: "Summary: Learn how to migrate user settings and move users to Teams."
 ---

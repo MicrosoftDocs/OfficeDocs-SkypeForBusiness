@@ -3,11 +3,15 @@ title: "Move users between on-premises and cloud"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.reviewer: bjwhalen
 ms.audience: ITPro
-ms.topic: get-started-article
+ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection:
+ms.collection: 
+- Hybrid 
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online
 ms.custom:
 description: "Summary: In an on-premises deployment of Skype for Business Server that is enabled for hybrid, you can move users between the on-premises environment and the cloud (whether to Microsoft Teams or to Skype for Business Online).."
 ---
