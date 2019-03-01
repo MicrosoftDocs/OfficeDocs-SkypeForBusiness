@@ -16,3 +16,4 @@ description: Patient care coordination using Microsoft Teams
 ---
 
 # Patient care coordination using Microsoft Teams
+
