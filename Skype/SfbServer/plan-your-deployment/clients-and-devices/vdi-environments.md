@@ -1,8 +1,7 @@
 ---
 title: "Plan for Skype for Business in VDI environments"
+author: jambirk
 ms.author: jambirk
-author: jambirk
-author: jambirk
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018

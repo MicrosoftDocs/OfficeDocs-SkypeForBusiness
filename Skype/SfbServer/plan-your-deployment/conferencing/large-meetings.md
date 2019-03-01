@@ -96,6 +96,7 @@ The meeting moderator can use all presenter functionalities of Skype for Busines
 - Muting and unmuting the audience or individual users
     
 - Managing meeting content, including uploading content, deleting content, and switching active content
+
     
 ### Maintain a separate calendar
 
@@ -181,6 +182,8 @@ Create a new conferencing policy specifically for large meetings, and then assig
     
 > [!NOTE]
 > Support for large meetings in Skype for Business Server requires that the **AllowLargeMeetings** setting be set to true. When this setting is set to true, the Skype for Business experience will be optimized for extra-large meetings when users join the meeting. Specifically, in a large meeting, Skype for Business will not show the initial or update of the full meeting participant list, which is a performance bottleneck for both the client and Skype for Business Server. Instead, Skype for Business will only show information about the user and the list of presenters of the meeting. Skype for Business will still show the total number of participants available in the large meetings.
+
+
   
 Except for the **Maximum meeting size** setting, all the other conferencing policy settings specified here are required in order to disable conferencing capabilities that are not necessary in large meetings.
   
