@@ -23,7 +23,7 @@
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
-## [Get started with Teams templates for Healthcare](healthcare/healthcare-templates.md)
+## [Teams templates for Healthcare](healthcare/healthcare-templates.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)

@@ -1,5 +1,5 @@
 ---
-title: "Get started with Teams templates for Healthcare"
+title: "Get started with Teams templates for Healthcare organizations"
 author: jambirk
 ms.author: jambirk 
 manager: serdars
@@ -12,10 +12,10 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: 
-description: Get started with Teams templates for Healthcare
+description: Get started with Teams templates for Healthcare organizations
 ---
 
-# Get started with Microsoft Teams Healthcare templates
+# Get started with Teams templates for Healthcare organizations
 
 Microsoft Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
