@@ -7,8 +7,7 @@ ms.date: 12/13/2018
 ms.reviewer: kponnus
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: 
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help

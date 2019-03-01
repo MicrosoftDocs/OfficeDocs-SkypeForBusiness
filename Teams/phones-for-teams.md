@@ -5,9 +5,7 @@ author: jambirk
 manager: serdars
 ms.reviewer: kponnus
 ms.topic: article
-ms.service: 
-- skype-for-business
-- msteams
+ms.service: msteams
 ms.audience: Admin
 ms.collection:  
 - Teams_ITAdmin_Help

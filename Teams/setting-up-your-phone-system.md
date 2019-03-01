@@ -6,9 +6,7 @@ manager: serdars
 ms.reviewer: makolomi
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: 
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help
