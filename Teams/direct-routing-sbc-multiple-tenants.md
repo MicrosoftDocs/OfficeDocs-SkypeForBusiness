@@ -5,14 +5,13 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.service:  
-- msteams
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:  
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: "Learn how to configure one Session Border Controller (SBC) to serve multiple tenants."
 ---
 

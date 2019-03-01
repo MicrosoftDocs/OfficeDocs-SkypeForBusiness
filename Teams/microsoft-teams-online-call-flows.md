@@ -9,7 +9,10 @@ ms.service: msteams
 ms.reviewer: sonua 
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help 
+ms.collection:  
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto: 
 - Microsoft Teams
 description: Describes how Teams workload utilizes Office 365 flows in various topologies.
