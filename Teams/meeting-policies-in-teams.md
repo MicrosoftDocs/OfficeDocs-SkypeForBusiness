@@ -25,7 +25,7 @@ By default, a policy named Global (org-wide default) is created. All users in yo
 
 ## Change or create a meeting policy
 
-To change or create a meeting policy, go to **Microsoft Teams admin center** > **Meetings** > **Meeting policies**. Select a policy from the list, or select **New policy**. Choose your settings, and then click **Save**.
+To change or create a meeting policy, go to **Microsoft Teams admin center** > **Meetings** > **Meeting policies**. Select a policy from the list, or select **New policy**. Choose your settings, and then select **Save**.
 
 For example, say you have a bunch of users and you want to limit the amount of bandwidth that their meeting would require. You would create a new custom policy named "Limited bandwidth" and disable the following settings:
 
@@ -40,26 +40,26 @@ Under **Content sharing**:
 
 Then assign the policy to the users.
 
-## Assign a meeting policy to a user
-
 > [!NOTE] 
-> A user can be assigned only one meeting policy at one time. 
+> A user can be assigned only one meeting policy at a time. 
+
+## Assign a meeting policy to a user
 
 To assign a policy, go to **Microsoft Teams admin center** > **Users**. 
  
-If you are applying the policy to one user, click the user's display name. Next to **Assigned policies**, click **Edit**. Then, in the **Edit user policies** pane, under **Meeting policy**, select the meeting policy from the drop-down list, and click **Save**. You can also edit settings from the list of users. To do this, select the user by clicking to the left of the user's display name. Click **Edit settings**. Then, on the **Edit settings** pane, under **Meeting policy**, select the policy from the drop-down list and then click **Save**. 
+If you are applying the policy to one user, select the user's display name. Next to **Assigned policies**, select **Edit**. Then, in the **Edit user policies** pane, under **Meeting policy**, select the meeting policy from the drop-down list, and select **Save**. You can also edit settings from the list of users. To do this, select the user by clicking to the left of the user's display name. Select **Edit settings**. Then, on the **Edit settings** pane, under **Meeting policy**, select the policy from the drop-down list and then select **Save**. 
  
-If you are applying a policy to more than one user, select each of the users by clicking to the left of the user name, and then click **Edit settings**. On the **Edit Settings** pane, under **Meeting policy**, select the policy from the drop-down list and then click **Save**.
+If you are applying a policy to more than one user, select each of the users by clicking to the left of the user name, and then click **Edit settings**. On the **Edit Settings** pane, under **Meeting policy**, select the policy from the drop-down list and then select **Save**.
  
-You can also do this by going to **Microsoft Teams admin center** > **Meetings** >  **Meeting policies**. Select the policy and then click **Manage users**. In the **Manage users** pane, search for the user by display or user name. Select the name and click **Add**. When you are finished adding users, click **Save**.
+You can also do this by going to **Microsoft Teams admin center** > **Meetings** >  **Meeting policies**. Select the policy and then select **Manage users**. In the **Manage users** pane, search for the user by display or user name. Select the name and select **Add**. When you are finished adding users, select **Save**.
 
 > [!NOTE] 
-> You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users, and then you delete the original policy.
+> You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users, and then you can delete the original policy.
  
  
 ## User policy settings
 
-When you select an existing policy on the **Meeting policies** page or click **New policy** to add a new policy, you can configure the following settings.
+When you select an existing policy on the **Meeting policies** page or select **New policy** to add a new policy, you can configure the following settings.
 
 ### New meeting policy name and description
    - **Name** This is the name of the policy that will appear on the **Meeting policies** page. It can't contain special characters or be longer than 64 characters. Note that you can't change an existing policy's name.
