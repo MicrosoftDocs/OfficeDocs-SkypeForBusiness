@@ -12,6 +12,7 @@ search.appverid: MET150
 ms.collection:  
 - Teams_ITAdmin_Help
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams

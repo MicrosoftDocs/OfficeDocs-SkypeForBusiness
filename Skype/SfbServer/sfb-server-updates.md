@@ -1,7 +1,7 @@
 ---
 title: "Skype for Business Server updates"
-ms.author: jambirk
 author: ariantor
+ms.author: jambirk
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: arianr

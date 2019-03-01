@@ -10,7 +10,10 @@ ms.service: msteams
 search.appverid: MET150
 description: Learn how to create and set up network regions, sites, and subnets for Location-Based Routing for Direct Routing.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:  
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto: 
 - Microsoft Teams
 ---
