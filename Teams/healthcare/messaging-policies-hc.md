@@ -23,7 +23,7 @@ You can use the default policy that is created or create one or more custom mess
 
 Policies can be easily managed in the [Microsoft Teams admin center](http://admin.teams.microsoft.com) by logging in with administrator credentials and choosing **Messaging Policies** in the left navigation pane.
 
-[Messaging policies in Teams](../media/messaging-policies-image1.png)
+![Messaging policies in Teams](../media/messaging-policies-image1.png)
 
 To edit the existing default Messaging policy for your organization, click the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, click **New policy** and select your settings. Choose **Save** when you are done.
 
@@ -42,7 +42,7 @@ The following settings are of special value to Healthcare applications, and shou
 
 When the Priority Messaging and Read Receipts settings are both enabled, if a user sends a message and requests it, they will be notified when the recipient reads the message.
 
-[Full Messaging Policies article](messaging-policies-in-teams.md)
+[Full Messaging Policies article](../messaging-policies-in-teams.md)
 
 ## Read receipts
 
