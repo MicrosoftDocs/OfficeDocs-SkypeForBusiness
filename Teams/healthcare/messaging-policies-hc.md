@@ -33,16 +33,21 @@ The following settings are of special value to Healthcare applications, and shou
 
 - **Read receipts** Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled.
 
-- **Priority Notifications** Use this setting to allow users to set a priority for chat messages sent to other users. This can help the message recipient quickly see what needs immediate attention and what is "nice-to-know."
+- **Priority Messaging** Use this setting to allow users to set a priority for chat messages sent to other users. This can help the message recipient quickly see what needs immediate attention and what is "nice-to-know."
 
-When the Priority Notifications and Read Receipts settings are both enabled, if a user sends a message and requests it, they will be notified when the recipient reads the message.
+  An admin can enable or disable the ability for  users assigned this policy to send priority messages. The default setting is disabled. There is no control to disable receiving of priority messages.
+
+  > [!NOTE]
+  > Setting is not yet in screen shot.
+
+When the Priority Messaging and Read Receipts settings are both enabled, if a user sends a message and requests it, they will be notified when the recipient reads the message.
 
 [Full Messaging Policies article](messaging-policies-in-teams.md)
-
-## Priority Notifications
-
-Priority Notifications are an important feature in Healthcare organizations because 
 
 ## Read receipts
 
 Having message read receipts are an important feature in Healthcare organizations because 
+
+## Priority Messaging
+
+Priority Messaging helps hospital staff alert one other when a critical incident requires their attention. Unlike regular “important” messages, priority messaging repeatedly notifies users for a period of 20 minutes or until messages are picked up and read by the recipient. The key goal of the feature is to maximize the likelihood that the message is picked up and acted upon in a timely manner.
