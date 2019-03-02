@@ -46,7 +46,7 @@ When the Priority Messaging and Read Receipts settings are both enabled, if a us
 
 ## Read receipts
 
-Having message read receipts are an important feature in Healthcare organizations because 
+Having message read receipts are an important feature in Healthcare organizations since it lets users sending urgent messages know their message was read. 
 
 ## Priority Messaging
 
