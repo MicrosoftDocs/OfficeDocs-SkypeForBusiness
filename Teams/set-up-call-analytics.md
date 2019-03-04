@@ -22,7 +22,6 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-ms.assetid: 
 description: "Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems."
 ---
 
