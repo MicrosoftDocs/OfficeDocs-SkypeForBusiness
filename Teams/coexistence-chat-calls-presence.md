@@ -8,7 +8,9 @@ ms.service: msteams
 ms.reviewer: francoid
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 appliesto:
 - Microsoft Teams
 description: "This document describes the behavior of chat, call routing and presence between users of Teams and Skype for Business, both in-tenant and federated, based on assigned TeamsUpgrade modes. It includes routing optimizations,  presence behavior, as well as the change of default TeamsUpgrade mode from *Legacy* to *Islands* and the impending retirement of *Legacy*."
