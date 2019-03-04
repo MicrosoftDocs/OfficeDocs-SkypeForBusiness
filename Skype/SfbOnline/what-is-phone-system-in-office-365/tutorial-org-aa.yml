@@ -20,6 +20,7 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection: 
+  - M365-voice
   - Adm_Skype4B_Online
   - Teams_ITadmin_Training
   ms.custom:
