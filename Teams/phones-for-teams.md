@@ -7,6 +7,9 @@ ms.reviewer: kponnus
 ms.topic: article
 ms.service: msteams
 ms.audience: Admin
+appliesto:
+- Skype for Business 
+- Microsoft Teams
 ms.collection:  
 - Teams_ITAdmin_Help
 - Strat_SB_PSTN
