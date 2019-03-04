@@ -16,6 +16,8 @@ appliesto:
 
 # Microsoft Teams for firstline workers
 
+### placeholder
+
 Placeholder for text
 
 <ul class="panelContent cardsFTitle">
@@ -84,7 +86,7 @@ Placeholder for text
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Shifts help for managers and firstline workers</h3>
+                        <h3>Shifts Help for managers and firstline workers</h3>
                     </div>
                 </div>
             </div>
