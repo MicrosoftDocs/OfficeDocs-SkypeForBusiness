@@ -21,7 +21,6 @@ f1keywords:
 ms.custom:
 - Reporting
 description: "Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. "
-search.appverid: "MET150"
 ---
 
 # Peer-to-peer activity report
