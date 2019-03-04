@@ -3,7 +3,7 @@ title: "Call Analytics and Call Quality Dashboard"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
@@ -33,11 +33,7 @@ Call Analytics and CQD run in parallel and can be used independently or together
 
 ## What's Call Analytics, and when should I use it?
 
-**Call Analytics is now available in the Microsoft Teams admin center.** To see all of the call information and data for a user, use the **Call History** tab. You can do this by looking on the user's profile page by either searching for the user from the dashboard or finding the user from **Users** in the left navigation.
-
-> [!IMPORTANT]
-> Helpdesk agent permissions and network topology upload will be available in the new admin portal in the coming months. In the meantime, you can continue to use  https://adminportal.services.skypeforbusiness.com for Tier 1 and Tier 2 helpdesk access.
-  
+**Call Analytics is now available in the [Microsoft Teams admin center](https://admin.teams.microsoft.com).** To see all of the call information and data for a user, use the **Call History** tab. You can do this by looking on the user's profile page by either searching for the user from the dashboard or finding the user from **Users** in the left navigation.
 
 Call Analytics shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user in a Microsoft Teams or Skype for Business account. Why did this user have a poor call this afternoon? Using Call Analytics, an Office 365 admin or trained helpdesk agent can investigate the device, network, connectivity, and other factors related to his call to troubleshoot call quality and connection problems in Microsoft Teams and Skype for Business.
 
@@ -56,7 +52,7 @@ If you want non-admins, such as helpdesk agents from an external vendor, to use 
 - **Helpdesk agents with communications support engineer permissions**: Agents see all available data in Call Analytics and troubleshoot both calls and meetings. They have full access to call logs and customer information.
 
 > [!NOTE]
-> The communications support specialist role is equivalent to tier 1 support and the communications support engineer role is equivalent to tier 2 support.
+> The communications support specialist role is equivalent to tier 1 support role from the preview portal and the communications support engineer role is equivalent to tier 2 support role from the preview portal.
 
 For more information about the communications support specialist and communications support engineer roles, see [Use Microsoft Teams admin roles to manage teams](using-admin-roles.md).
 
@@ -80,15 +76,18 @@ With the help of CQD's Location-Enhanced Reports, aggregate call quality and rel
 > [!NOTE]
 > To enable building-specific views in CQD, an admin must [upload building information](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) on CQD's Tenant Data Upload page.
 
-  
-If you want non-admins, such as helpdesk agents, to use Call Quality Dashboard, you can assign those users the **Reports Reader** role. Users with the following roles can access Call Quality Dashboard:
+If you want non-admins, such as helpdesk agents, to use Call Quality Dashboard, you can assign those users the **Teams Communications Support Engineer**, **Teams Communications Support Specialist**, or **Reports Reader** role. Users with the following roles can access Call Quality Dashboard:
 
- - Global administrator
- - Skype for Business admin
- - Reports reader
+- Global Administrator
+- Skype for Business Administrator
+- Teams Service Administrator
+- Teams Communications Administrator
+- Teams Communications Support Engineer
+- Teams Communications Support Specialist
+- Reports Reader
 
 > [!NOTE]
-> The Reports reader role cannot modify files on CQD's Tenant Data Upload page nor activate CQD for a tenant.
+> The Teams Communications Support Engineer, Teams Communications Support Specialist, and Reports Reader roles cannot modify files on CQD's Tenant Data Upload page nor activate CQD for a tenant.
 
 For more information about these roles, see [About Office 365 admin roles](/office365/admin/add-users/about-admin-roles).
 

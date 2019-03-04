@@ -23,7 +23,7 @@
 ## [Create an org-wide team in Teams](create-an-org-wide-team.md)
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
-## [Get started with Microsoft Teams Healthcare templates](healthcare/healthcare-templates.md)
+## [Teams templates for Healthcare](healthcare/healthcare-templates.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
@@ -192,7 +192,6 @@
 
 
 ## [Cloud Video Interop](cloud-video-interop.md)
-### [Set up Cloud Video Interop](cloud-video-interop-for-teams-set-up.md)
 
 ## Live events
 ### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
@@ -314,10 +313,12 @@
 ### Caller ID
 #### [How can caller ID be used in your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Set the Caller ID for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### Auto attendants and call queues
+### Auto attendants and call queues 
 #### [What are Phone System auto attendants](what-are-phone-system-auto-attendants.md)
-#### [Set up a Phone System auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Set up a Phone System auto attendant](create-a-phone-system-auto-attendant.md)
+#### [Small business example - Set up an auto attendant](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Manage resource accounts in Microsoft Teams](manage-resource-accounts.md)
+#### [Create a Phone System call queue](create-a-phone-system-call-queue.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
 ### [Call park and retrieve](call-park-and-retrieve.md)
 ### [Call sharing and group call pickup](call-sharing-and-group-call-pickup.md)
@@ -664,7 +665,7 @@
 ### [Monitor call quality](monitor-call-quality-qos.md)
 #### [Quality of Experience Review Guide](quality-of-experience-review-guide.md)
 #### [Set up QoS in Teams](QoS-in-Teams.md)
-#### [Implement QoS and monitor call quality](monitor-call-quality-qos.md)
+##### [Set QoS on Windows clients](QoS-in-Teams-clients.md)
 #### [Call Analytics and Call Quality Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
 #### [Set up Call Analytics](set-up-call-analytics.md)
 #### [Use Call Analytics to troubleshoot poor call quality](use-call-analytics-to-troubleshoot-poor-call-quality.md)
@@ -680,6 +681,7 @@
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 
 ## Teams for firstline workers
+### [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md)
 ### [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 

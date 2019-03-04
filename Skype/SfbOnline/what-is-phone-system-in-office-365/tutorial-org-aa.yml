@@ -39,7 +39,7 @@ items:
     We assume you've already done the following: 
     - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system.md) with a [Calling Plan](/MicrosoftTeams/what-are-calling-plans-in-office-365) 
     to provide phone numbers to your users.
-    - [Set up Phone System voicemail](/MicrosoftTeams/set-up-phone-system-voicemail) 
+    - [Set up Phone System voicemail](/MicrosoftTeams/set-up-phone-system-voicemail.md) 
     - Reviewed [What are Phone System Auto Attendants?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md) to get a 
     better understanding of the Phone System features that can interact with an Auto Attendant.
 
@@ -170,7 +170,7 @@ items:
     - There are usually 3-4 options per menu in this example. While Phone System supports menus with up to 9 options, most users 
     won't be able to keep track of more than 5 options without getting confused and needing to repeat the menu, which wastes their time and annoys them. 
     - The lawyer, paralegals, and billing menus can arguably be replaced with Call Queues. The main reason we've used an Auto Attendant is to keep our 
-    implementation focused on Auto Attendants. Actual implementations would probably use Call Queues.  See [Create a Phone System call queue](create-a-phone-system-call-queue.md)
+    implementation focused on Auto Attendants. Actual implementations would probably use Call Queues.  See [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
     for more about Call Queues. 
     - Eventually, every employee gets matched with an Auto Attendant option in this design. This might not be what you choose to do, you may want a 
     much simpler system with fewer options. If that simplicity is important, you can plan to enable the **Dial by Name** option and remove one or more 
@@ -304,7 +304,7 @@ items:
     in Windows or have a professional voice-over artist use your scripts to record .wav files.
     
     As mentioned earlier, your implementation could easily involve Call Queues, which could be used in place of the lawyer, paralegal, and billing 
-    Auto Attendants below. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Phone System call queue](create-a-phone-system-call-queue.md)
+    Auto Attendants below. A Call Queue would transfer the call to any of the available lawyers, paralegals, or billing clerks. See [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
     for more about Call Queues. If you choose to do this, you'll need to create a valid Call Queue before creating an Auto Attendant menu that refers to the Call Queue.
 
     Your account must have Admin priveleges: in the **Microsoft Teams admin center**, click **Legacy Portal** then select **Call routing** > **Auto attendants**, then click **Add new**.
@@ -425,7 +425,7 @@ items:
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| None  |
     | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/>  <br/> Callers will hear: Copy/paste Script 6 above  |
-    | ![Number 5](../images/sfbcallout5.png) Edit Menu options	|**1:** Enter the Name of the option: lawyers  <br/>Send to: nested Auto Attendant **Lawyers** <br/>**2:** Enter the Name of the option: OfficeManager <br/>Send to: Person in your company: Valeria Pisani <br/>**3:** Enter the Name of the option: Paralegals Send to: nested Auto Attendant **paralegals** <br/>**4:** Enter the Name of the option: OtherOptions Send to: nested Auto Attendant **StillMoreOptions**  |
+    | ![Number 5](../images/sfbcallout5.png) Edit Menu options	|Select **1** for lawyers  <br/>Transfer to: Auto Attendant **Lawyers** <br/>Select **2** Enter the Name of the option: OfficeManager <br/>Send to: Person in your company: Valeria Pisani <br/>**3:** Enter the Name of the option: Paralegals Send to: nested Auto Attendant **paralegals** <br/>**4:** Enter the Name of the option: OtherOptions Send to: nested Auto Attendant **StillMoreOptions**  |
     |  |   |
 
     **Nested Auto Attendant: Lawyers (nested under More Options)**
@@ -436,7 +436,7 @@ items:
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| None  |
     | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> <br/>Callers will hear: Copy/paste Script 7 above |
-    | ![Number 5](../images/sfbcallout5.png) Edit Menu options |	**1:** Enter the Name of the option: Olga <br/>Send to: Person in your company: Olga Gerasimova <br/>**2:** Enter the Name of the option: Manuela <br/>Send to: Person in your company: Manuela Carstens <br/>**3:** Enter the Name of the option: Andrey <br/>Send to: Person in your company: Andrey Alexeeva  |
+    | ![Number 5](../images/sfbcallout5.png) Edit Menu options |	Select **1** for *Olga* <br/>Transfer to: Person in your company: Olga Gerasimova <br/>Select**2** for *Manuela* <br/>Send to: Person in your company: Manuela Carstens <br/>Select **3** for *Andrey* <br/>Transfer to: Person in your company: Andrey Alexeeva  |
     |  | *This Auto Attendant could be replaced with a Call Queue*  |
     |  |   |
 
@@ -448,7 +448,7 @@ items:
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| None |
     | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Copy/Paste Script 8 above  | 
-    | ![Number 5](../images/sfbcallout5.png) Edit Menu options	|**1:** Enter the Name of the option: Lena <br/> Send to: Person in your company: Lena Ehrle <br/>**2:** Enter the Name of the option: Svetlana <br/>Send to: Person in your company: Svetlana Uvarova <br/>**3:** Enter the Name of the option: Sofia <br/>Send to: Person in your company: Sofia Krause <br/>**4:** Enter the Name of the option: Mariya<br/>Send to: Person in your company: Mariya Artemyeva <br/>**5:** Enter the Name of the option: Dariya <br/>Send to: Person in your company: Dariya Polyakova <br/>**6:** Enter the Name of the option: Milana<br/>Send to: Person in your company: Milana Nikolaeva|
+    | ![Number 5](../images/sfbcallout5.png) Edit Menu options	| Select **1** for *Lena* <br/> Transfer to: Person in your company: Lena Ehrle <br/> Select **2** for *Svetlana* <br/>Transfer to: Person in your company: Svetlana Uvarova <br/> Select **3** for *Sofia* <br/>Transfer to: Person in your company: Sofia Krause <br/> Select **4** for *Mariya*<br/>Transfer to: Person in your company: Mariya Artemyeva <br/> Select **5** for *Dariya*<br/>Transfer to: Person in your company: Dariya Polyakova <br/> Select **6** for *Milana*<br/>Transfer to: Person in your company: Milana Nikolaeva|
     |  | *This Auto Attendant could be replaced with a Call Queue*  |
     |  |   |
 
@@ -460,10 +460,11 @@ items:
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	|None  |
     | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	|Play menu options prompt, menu prompt: Create a custom prompt <br/> Callers will hear: Copy/Paste Script 9 above  |
-    | ![Number 5](../images/sfbcallout5.png) Edit Menu options	|**1:** Enter the Name of the option: Investigator<br/> Send to: Person in your company: Boris Averyanov <br/>**2:** Enter the Name of the option: Records<br/> Send to: Person in your company: Franco Piccio  |
+    | ![Number 5](../images/sfbcallout5.png) 
+    |Edit Menu options	| Select **1** for *Investigator*<br/> Transfer to: Person in your company: Boris Averyanov <br/> Select **2** for *Records*<br/> Transfer to: Person in your company: Franco Piccio  |
     |  |   |
 
-    See the step-by-step implementation details for Phone System Auto Attendants at [Creating an Auto Attendant](set-up-a-phone-system-auto-attendant.md) for more detail on the options available in these screens. 
+    See the step-by-step implementation details for Phone System Auto Attendants at [Creating an Auto Attendant](/MicrosoftTeams/set-up-a-phone-system-auto-attendant.md) for more detail on the options available in these screens. 
 
 
     ### Editing and testing Auto Attendants

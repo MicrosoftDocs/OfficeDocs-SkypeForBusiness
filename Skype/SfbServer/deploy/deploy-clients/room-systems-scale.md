@@ -1,11 +1,11 @@
 ---
 title: "Deploy Skype Room Systems by using System Center Configuration Manager"
+author: jambirk
 ms.author: jambirk
-author: Turgayo
+ms.reviewer: Turgayo
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
-ms.reviewer: Turgayo
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
