@@ -6,7 +6,6 @@ ms.topic: landing-page
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-layout: LandingPage
 ms.date: 01/28/2019
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
