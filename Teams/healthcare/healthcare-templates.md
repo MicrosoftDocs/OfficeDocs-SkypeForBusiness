@@ -8,7 +8,9 @@ ms.topic: article
 ms.service: msteams 
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration 
 appliesto:
 - Microsoft Teams
 ms.reviewer: 

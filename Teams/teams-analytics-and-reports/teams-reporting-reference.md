@@ -36,7 +36,7 @@ We're continually improving the Teams reporting experience and adding features a
 |Report  |What's measured? |
 |---------|---------|
 |[Teams usage report](teams-usage-report.md)  |  Active users<br/>Active users in teams and channels<br/>Active channels<br/>Messages<br/>Privacy setting of  teams<br/>Guests in a team   |
-|[Teams user activity report](user-activity-report.md)  |  1:1 calls a user particpated in<br/>Messages a user posted in a team chat<br/>Messages a user posted in a private chat<br/>Last activity date of a user     |
+|[Teams user activity report](user-activity-report.md)  |  1:1 calls a user participated in<br/>Messages a user posted in a team chat<br/>Messages a user posted in a private chat<br/>Last activity date of a user     |
 |[Teams device usage report](device-usage-report.md)   |  Windows users<br/>Mac users<br/>iOS users<br/>Android phone users     |
 
 > [!NOTE]
