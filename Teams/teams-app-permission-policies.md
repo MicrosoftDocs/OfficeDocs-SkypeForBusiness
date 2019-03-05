@@ -14,6 +14,7 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn about app permission policies in Microsoft Teams and how to use them to control what apps are available for users in your organization. 
+ROBOTS: NOINDEX, NOFOLLOW 
 ---
 
 # Manage app permission policies in Microsoft Teams
@@ -43,7 +44,7 @@ Use org-wide app settings to control which apps are available across your organi
 
 - **Allow third-party apps in Teams**: This controls whether users can use third-party apps.
 - **Allow any new third-party apps published to the store by default**: This controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps. 
-- **Allow interaction with custom apps**: This controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* customer apps. To learn more about sideloading policy, see **LINK TO SIDELOADING POLICY ARTICLE**.
+- **Allow interaction with custom apps**: This controls whether users can interact with custom (sideloaded) apps. Keep in mind that this is different from allowing users to *upload* customer apps. 
 
 4. Under **Blocked apps**, search for and add the apps that you want to block across your organization. You can choose apps from the tenant app catalog or the Teams app store.
 5. Click **Save** for org-wide app settings to take effect.
@@ -128,10 +129,6 @@ Yes, you can use app permission policies to control the rollout and distribution
 
 You can use app setup policies together with app permission policies. Pre-pinned apps are selected from the set of enabled apps for a user. Additionally, if a user has an app permission policy that blocks an app in their app setup policy, that app won't appear in Teams.
 
-#### Can I used app permission policies to restrict sideloading?
-
-To learn more about how to restrict uploading and use of custom apps through a sideloading policy, see LINK TO SIDELOADING POLICY ARTICLE.
-
 #### How long does it take for policy changes to take effect?
 
 After you edit the global policy or assign a policy to users, it can take up to 24 hours for changes to take effect. Org-wide app settings take effect immediately.
@@ -144,13 +141,9 @@ Yes, when you block an app, that app is blocked across all Teams clients.
 
 #### What does a user experience when an app is blocked?
 
-Users can't interact with a blocked app or its capabilities, such bots, tabs, and messaging extensions. In a shared context, such as a team or group chat, bots can still send messages to all participants of that context.
+Users can't interact with a blocked app or its capabilities, such bots, tabs, and messaging extensions. In a shared context, such as a team or group chat, bots can still send messages to all participants of that context. Teams indicates to the user when an app is blocked. 
 
-Teams indicates to the user when an app is blocked. 
-
-ADD SCREEN SHOT OF BLOCKED APP ON WEB/DESKTOP/MOBILE
-
-For example, when an app is blocked, users can't do any of the following: 
+For example, when an app is blocked, users can't do any of the following:
 
 - Add the app personally or to a chat or team
 - Send messages to the app’s bot
