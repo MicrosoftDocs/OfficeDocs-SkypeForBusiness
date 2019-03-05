@@ -29,7 +29,7 @@ Before you deploy Skype Room Systems v2 with Skype for Business Server, be sure 
   
 Before you begin to deploy Skype Room Systems v2, be sure you have the right permissions to run the associated cmdlets.
   
-1. Start a remote Windows PowerShell session from a PC and connect to Exchange. 
+1. Start a remote Windows PowerShell session from a PC and connect to Exchange.
     
    ```
    Set-ExecutionPolicy Unrestricted
