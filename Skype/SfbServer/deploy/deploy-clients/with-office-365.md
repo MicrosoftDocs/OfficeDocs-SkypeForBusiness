@@ -21,7 +21,7 @@ Read this topic for information on how to deploy Skype Room Systems v2 with Offi
 
 The easiest way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts. If you prefer, you can follow the steps below to configure accounts your Skype Room Systems v2 device will use.
 
-## Deploy Skype Room Systems v2 with Office 365
+## Requirements
 
 Before you deploy Skype Room Systems v2 with Office 365, be sure you have met the requirements. For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
 
@@ -29,7 +29,7 @@ To enable Skype for Business, you must have the following:
 
 - Skype for Business Online (Plan 2, or an Enterprise-based plan) or higher in your Office 365 plan. The plan needs to allow dial-in conferencing capabilities.
 
-- If you need dial-in capabilities from a meeting, you will need an audio conferencing and Phone System license.  If you need dial-out capabilities from a meeting, you will need a domestic or domestic and international Calling Plan. 
+- If you need dial-in capabilities from a meeting, you will need an audio conferencing and Phone System license.  If you need dial-out capabilities from a meeting, you will need a domestic or domestic and international Calling Plan.
 
 - Your tenant users must have Exchange mailboxes.
 
@@ -45,7 +45,7 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
    Set-ExecutionPolicy Unrestricted
    $org='contoso.com'
    $cred=Get-Credential $admin@$org
-   $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential 
+   $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential
    $cred -Authentication Basic -AllowRedirection
    Import-PSSession $sess
    ```
@@ -61,7 +61,7 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
   If you're creating a new resource mailbox:
 
    ``` Powershell
-   New-Mailbox -MicrosoftOnlineServicesID PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 
+   New-Mailbox -MicrosoftOnlineServicesID PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01
 -Name "Project-Rigel-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword
  (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
@@ -81,7 +81,7 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
    Connect-AzureAD -Credential $cred
    ```
 
-5. If you do not want the password to expire, run the Set-AzureADUserPassword  cmdlet with the PasswordNeverExpires option as follows: 
+5. If you do not want the password to expire, run the Set-AzureADUserPassword  cmdlet with the PasswordNeverExpires option as follows:
 
    ``` Powershell
    Set-AzureADUserPassword -UserPrincipalName $acctUpn -EnforceChangePasswordPolicy $false
@@ -130,22 +130,17 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
     ```
 
     > [!NOTE]
-    > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation. 
+    > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation.
 
 After you've completed the preceding steps to enable your Skype Room Systems v2 account in Skype for Business Online, you need to assign a license to Skype Room Systems v2 device. Using the Office 365 administrative portal, assign either a Skype for Business Online (Plan 2) or a Skype for Business Online (Plan 3) license to the device.
 
 ### Assign a license to your account
 
 1. Login as a tenant administrator, open the Office 365 Administrative Portal, and click on the Admin app.
-
 2. Click **Users and Groups** and then click **Add users, reset passwords, and more**.
-
 3. Select the Skype Room Systems v2 account, and then click or tap the pen icon, which means edit.
-
 4. Click on the **Licenses** option.
-
 5. In the **Assign licenses** section, you need to select Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3), depending on your licensing and what you've decided in terms of needing Enterprise Voice. You'll have to use a Plan 3 license if you want to use Cloud PBX on Skype Room Systems v2. Minimally you will need CloudPBX for voice connectivity. Then configure hybrid voice or PSTN calling based on the PSTN connectivity method. See [Skype Room Systems v2 licenses](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) for more details.
-
 6. Click **Save** to complete the task.
 
 ## Sample: Room account setup in Exchange Online and Skype for Business Online

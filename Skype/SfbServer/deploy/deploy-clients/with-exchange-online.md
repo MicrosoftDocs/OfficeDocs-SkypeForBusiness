@@ -15,19 +15,19 @@ ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: "Read this topic for information on how to deploy Skype Room Systems v2 with Exchange Online."
 ---
 
-# Deploy Skype Room Systems v2 with Exchange Online 
+# Deploy Skype Room Systems v2 with Exchange Online
 
 Read this topic for information on how to deploy Skype Room Systems v2 with Exchange Online and Skype for Business Server on-premises.
   
-If your organization has a mix of services, with some hosted on premises and some hosted online, then your configuration will depend on where each service is hosted. This topic covers hybrid deployments for Skype Room Systems v2 with Exchange hosted online. Because there are so many different variations in this type of deployment, it's not possible to provide detailed instructions for all of them. The following process will work for many configurations. If the process isn't right for your setup, we recommend that you use Windows PowerShell to achieve the same end result as documented here, and for other deployment options. 
+If your organization has a mix of services, with some hosted on premises and some hosted online, then your configuration will depend on where each service is hosted. This topic covers hybrid deployments for Skype Room Systems v2 with Exchange hosted online. Because there are so many different variations in this type of deployment, it's not possible to provide detailed instructions for all of them. The following process will work for many configurations. If the process isn't right for your setup, we recommend that you use Windows PowerShell to achieve the same end result as documented here, and for other deployment options.
 
 The easiest way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts. If you prefer, you can follow the steps below to configure accounts your Skype Room Systems v2 device will use.
 
-## Deploy Skype Room Systems v2 with Exchange Online
+## Requirements
 
 Before you deploy Skype Room Systems v2 with Exchange Online, be sure you have met the requirements. For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
-To deploy Skype Room Systems v2 with Exchange Online, follow the steps below. Be sure you have the right permissions to run the associated cmdlets. 
+To deploy Skype Room Systems v2 with Exchange Online, follow the steps below. Be sure you have the right permissions to run the associated cmdlets.
   
 ### Create an account and set Exchange properties
 
@@ -72,7 +72,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 1. In **Active Directory Users and Computers AD** tool, right-click on the folder or Organizational Unit that your Skype Room Systems v2 accounts will be created in, click **New**, and then click **User**.
 2. Type the display name from the previous cmdlet into the **Full name** box, and the alias into the **User logon name** box. Click **Next**.
 3. Type the password for this account. You'll need to retype it for verification. Make sure the **Password never expires** checkbox is the only option selected.
-    
+
     > [!NOTE]
     > Selecting **Password never expires** is a requirement for Skype for Business Server on Skype Room Systems v2. Your domain rules may prohibit passwords that don't expire. If so, you'll need to create an exception for each Skype Room Systems v2 user account.
   
@@ -84,6 +84,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 1. The user account needs to have a valid Office 365 license to ensure that Exchange and Skype for Business Server will work. If you have the license, you need to assign a usage location to your user account—this determines what license SKUs are available for your account.
 2. Next, use  Get-AzureADSubscribedSku to retrieve a list of available SKUs for your Office 365 tenant.
 3. Once you list out the SKUs, you can add a license using the Set-AzureADUserLicense cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).
+
    ``` Powershell
    Set-AzureADUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
    Get-AzureADSubscribedSku

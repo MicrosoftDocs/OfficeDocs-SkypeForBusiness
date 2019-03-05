@@ -23,6 +23,8 @@ If you have a single-forest, on-premises deployment with Exchange 2013 SP1 or la
 
 The easiest way to set up user accounts is to configure them using remote Windows PowerShell. Microsoft provides [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), a script that will help create new user accounts, or validate existing resource accounts you have in order to help you turn them into compatible Skype Room Systems v2 user accounts. If you prefer, you can follow the steps below to configure accounts your Skype Room Systems v2 device will use.
 
+## Requirements
+
 Before you deploy Skype Room Systems v2 with Skype for Business Server, be sure you have met the requirements. For more information, see [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
 Before you begin to deploy Skype Room Systems v2, be sure you have the right permissions to run the associated cmdlets.
