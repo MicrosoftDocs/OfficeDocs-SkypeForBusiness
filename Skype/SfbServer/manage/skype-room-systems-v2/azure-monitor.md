@@ -9,6 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
+ms.collection: M365-voice
 description: "This article discusses how to manage Microsoft Teams Rooms devices in an integrated, end-to-end manner using Azure Monitor."
 ---
 

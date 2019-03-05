@@ -11,6 +11,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Admin
+- M365-voice
 ms.custom:
 ms.assetid: 
 description: "Read this topic to learn about configuring accounts for Microsoft Teams Rooms in Exchange and Skype for Business."

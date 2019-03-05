@@ -10,6 +10,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Admin
+- M365-voice
 ms.custom:
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: "Read this article to learn about deploying Microsoft Teams Rooms."

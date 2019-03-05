@@ -9,6 +9,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+ms.collection: M365-voice
 ms.assetid: 
 description: "Manage Windows Updates for Microsoft Teams Rooms"
 ---

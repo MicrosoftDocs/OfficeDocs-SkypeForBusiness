@@ -10,6 +10,7 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
+- M365-voice
 ms.custom:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: "This article discusses how to deploy management of Microsoft Teams Rooms devices in an integrated, end-to-end manner using Microsoft Operations Management Suite."

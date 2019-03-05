@@ -9,6 +9,7 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
+ms.collection: M365-voice
 description: "Read these topics to learn how to provision Exchange and Skype accounts for Skype Room System."
 ---
 

@@ -10,6 +10,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
+ms.collection: M365-voice
 description: "Management overview for Microsoft Teams Rooms."
 ---
 

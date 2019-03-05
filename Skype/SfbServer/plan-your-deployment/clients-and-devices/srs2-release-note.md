@@ -9,6 +9,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+ms.collection: M365-voice
 description: "This article discusses cumulative improvements in Microsoft Teams Rooms."
 ---
 

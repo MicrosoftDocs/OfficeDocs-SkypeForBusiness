@@ -12,6 +12,7 @@ localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
+- M365-voice
 ms.custom:
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: "Summary: Review of the supported clients and apps for Skype for Business."

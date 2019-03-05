@@ -8,6 +8,7 @@ ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+ms.collection: M365-voice
 localization_priority: Normal
 description: "Read this topic to learn about management of Microsoft Teams Rooms, the next generation of Skype Room Systems."
 ---

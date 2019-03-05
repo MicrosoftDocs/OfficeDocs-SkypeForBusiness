@@ -10,12 +10,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
 - Strat_SB_Admin
+- M365-voice
 ms.custom:
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: "Read this topic for information on how to deploy Microsoft Teams Rooms with Exchange Online."
 ---
 
-# Deploy Microsoft Teams Rooms with Exchange Online 
+# Deploy Microsoft Teams Rooms with Exchange Online
  
 Read this topic for information on how to deploy Microsoft Teams Rooms with Exchange Online and Skype for Business Server on-premises.
   

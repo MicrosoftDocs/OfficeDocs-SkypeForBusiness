@@ -7,7 +7,9 @@ ms.reviewer: dougand
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: skype-for-business
-ms.collection: Lync
+ms.collection: 
+- Lync
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Lync

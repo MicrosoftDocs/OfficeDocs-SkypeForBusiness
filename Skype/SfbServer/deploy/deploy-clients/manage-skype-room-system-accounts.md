@@ -9,6 +9,7 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
+ms.collection: M365-voice
 description: "Read this topic to learn how to manage Skype Room System accounts."
 ---
 
