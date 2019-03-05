@@ -19,7 +19,6 @@ f1keywords:
 ms.custom:
 - Reporting
 description: "Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. "
-search.appverid: "MET150"
 ---
 
 # Conference participant activity report

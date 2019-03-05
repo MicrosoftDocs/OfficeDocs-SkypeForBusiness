@@ -18,7 +18,6 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: "This report, along with other Skype for Business reports, gives you details on activity, including PSTN usage across your organization. "
-search.appverid: "MET150"
 ---
 
 # Users blocked report

@@ -28,21 +28,29 @@ Before you deploy Skype Room Systems v2 with Exchange on premises, be sure you h
 If you are deploying Skype Room Systems v2 with Exchange on premises, you will be using Active Directory administrative tools to add an email address for your on-premises domain account. This account will be synced to Office 365. You will need to:
   
 - Create an account and synchronize the account with Active Directory.
+
 - Enable the remote mailbox and set properties.
+
 - Assign an Office 365 license.
+
 - Enable the device account with Skype for Business Server. To enable the device account your environment will need to meet the following prerequisites:
 
   - You'll need to have Skype for Business Online (Plan 2) or higher in your Office 365 plan. The plan needs to support conferencing capability.
-  - If you need Enterprise Voice (PSTN telephony) using telephony service providers for Skype Room Systems v2 you need Skype for Business Online (Plan 3).
-  - Your tenant users must have Exchange mailboxes.
-  - Your Skype Room Systems v2 account does require a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license, but it does not require an Exchange Online license.
+  
+  - - If you need Enterprise Voice (PSTN telephony) using telephony service providers for Skype Room Systems v2 you need Skype for Business Online (Plan 3).
+  
+  - - Your tenant users must have Exchange mailboxes.
+  
+  - - Your Skype Room Systems v2 account does require a Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3) license, but it does not require an Exchange Online license.
 
 - Assign a Skype for Business Server license to your Skype Room Systems v2 account.
 
 ### Create an account and synchronize with Active Directory
 
 1. In the **Active Directory Users and Computers AD** tool, right-click on the folder or Organizational Unit that your Skype Room Systems v2 accounts will be created in, click **New**, and then click **User**.
+
 2. Type the display name from the previous cmdlet into the **Full name** box, and the alias into the **User logon name** box. Click **Next**.
+
 3. Type the password for this account. You'll need to retype it for verification. Make sure the **Password never expires** checkbox is the only option selected.
 
     > [!NOTE]
@@ -52,49 +60,59 @@ If you are deploying Skype Room Systems v2 with Exchange on premises, you will b
 
 ### Enable the remote mailbox and set properties
 
-1. Enable the remote mailbox by opening your on-premises Exchange management shell with administrator permissions and run the following command:
+1. [Open the Exchange Management Shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) or [connect to your Exchange server using remote PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
+
+2. In Exchange PowerShell, crate a mailbox for the account (mailbox-enable the account)by running the following command:
 
    ``` Powershell
-   Enable-Mailbox 'PROJECTRIGEL01@contoso.com' -Room
+   Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
-2. Start a remote Windows PowerShell session and connect to Microsoft Exchange. From your Office 365 tenant, run the following commands:
+   For detailed syntax and parameter information, see [Enable-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox).
 
-   ``` Powershell
-   $org='contoso.com'
-   $cred=Get-Credential $admin@$org
-   $sess = New-PSSession -ConfigurationName Microsoft.Exchange -Credential $cred -AllowRedirection -Authentication Basic -ConnectionUri "https://<ExchangeServerFQDN>/PowerShell"
-   Import-PSSession $sess
+3. In Exchange PowerShell, configure the following settings on the room mailbox to improve the meeting experience:
+
+   - AutomateProcessing: AutoAccept (Meeting organizers receive the room reservation decision directly without human intervention: free = accept; busy = decline.)
+
+   - AddOrganizerToSubject: $false (The meeting organizer is not added to the subject of the meeting request.)
+
+   - DeleteComments: $false (Keep any text in the message body of incoming meeting requests.)
+
+   - DeleteSubject: $false (Keep the subject of incoming meeting requests.)
+
+   - RemovePrivateProperty: $false (Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.)
+
+   - AddAdditionalResponse: $true (The text specified by the AdditionalResponse parameter is added to meeting requests.)
+
+   - AdditionalResponse: "This is a Skype Meeting room!" (The additional text to add to the meeting request.)
+
+   This example configures these settings on the room mailbox named Project-Rigel-01.
+
+   ``` PowerShell
+   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-3. To improve the meeting experience, you'll need to set the Exchange properties on the device account as follows:
-
-   ``` Powershell
-   Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false
-   -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse 'This is a Skype Meeting room!'
-   ``` Powershell
-    For more information about which properties you need to set, see Exchange properties.
-
-4. You will need to connect to Azure AD to apply some account settings. You can run this command to connect:
-
-   ``` Powershell
-   Connect-AzureAD -Credential $cred
-   ```
+   For detailed syntax and parameter information, see [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
 ### Assign an Office 365 license
 
-1. The device account needs to have a valid Office 365 license to ensure that Exchange and Skype for Business Server will work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account.
-2. Next, use Get-AzureADSubscribedSku to retrieve a list of available SKUs for your Office 365 tenant.
-3. Once you list out the SKUs, you can add a license using the Set-AzureADUserLicense cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).
+1. Connect to Azure Active Directory PowerShell. For instructions, see [Connect with the Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+
+2. The device account needs to have a valid Office 365 license, or Exchange and Skype for Business will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use Get-AzureADSubscribedSku to retrieve a list of available SKUs for your Office 365 tenant as follows:
 
    ``` Powershell
-   Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
+   Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
+   ```
 
+   Next, you can add a license using the Set-AzureADUserLicense cmdlet. In this case, $strLicense is the SKU code that you see (for example, contoso:STANDARDPACK).
+
+   ``` Powershell
+   Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-AzureADSubscribedSku
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-
    ```
+
+   For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 ### Enable the device account with Skype for Business
 
