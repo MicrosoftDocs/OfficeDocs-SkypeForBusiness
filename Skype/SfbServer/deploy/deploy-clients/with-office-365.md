@@ -39,58 +39,87 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
 
 ### Add a device account
 
-1. Start a [remote Windows PowerShell session](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell) on a PC and [connect to Exchange](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps#).  Be sure you have the right permissions set to run the associated cmdlets. The following are some examples of cmdlets that can be used and modified in your environment.
+1. Connect to Exchange Online PowerShell. For instructions, see [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
 
-   ``` Powershell
-   Set-ExecutionPolicy Unrestricted
-   $org='contoso.com'
-   $cred=Get-Credential $admin@$org
-   $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential
-   $cred -Authentication Basic -AllowRedirection
-   Import-PSSession $sess
+2. In Exchange Online PowerShell, create a new room mailbox or modify an existing room mailbox. By default, room mailboxes don't have associated accounts, so you'll need to add an account when you create or modify a room mailbox that allows it to authenticate with Skype Room Systems v2.
+
+   - To create a new room mailbox, use the following syntax:
+
+     ``` PowerShell
+     New-Mailbox -Name "<Unique Name>" -Alias <Alias> -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID <Account> -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     ```
+
+     This example creates a new room mailbox with the following settings:
+
+     - Name: Project-Rigel-01
+
+     - Alias: ProjectRigel01
+
+     - Account: ProjectRigel01@contoso.onmicrosoft.com
+
+     - Account password: P@$$W0rd5959
+
+     ``` PowerShell
+     New-Mailbox -Name "Project-Rigel-01" -Alias ProjectRigel01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID ProjectRigel01@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+     ```
+
+   - To modify an existing room mailbox, use the following syntax:
+
+     ``` PowerShell
+     Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     ```
+
+     This example enables the account for the existing room mailbox that has the alias value ProjectRigel02, and sets the password to 9898P@$$W0rd. Note that the account will be ProjectRigel02@contoso.onmicrosoft.com because of the existing alias value.
+
+     ``` PowerShell
+     Set-Mailbox -Identity ProjectRigel02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
+     ```
+
+   For detailed syntax and parameter information, see [New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) and [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox).
+
+
+3. In Exchange Online PowerShell, configure the following settings on the room mailbox to improve the meeting experience:
+
+   - AutomateProcessing: AutoAccept (Meeting organizers receive the room reservation decision directly without human intervention: free = accept; busy = decline.)
+
+   - AddOrganizerToSubject: $false (The meeting organizer is not added to the subject of the meeting request.)
+
+   - DeleteComments: $false (Keep any text in the message body of incoming meeting requests.)
+
+   - DeleteSubject: $false (Keep the subject of incoming meeting requests.)
+
+   - RemovePrivateProperty: $false (Ensures the private flag that was sent by the meeting organizer in the original meeting request remains as specified.)
+
+   - AddAdditionalResponse: $true (The text specified by the AdditionalResponse parameter is added to meeting requests.)
+
+   - AdditionalResponse: "This is a Skype Meeting room!" (The additional text to add to the meeting request.)
+
+   This example configures these settings on the room mailbox named Project-Rigel-01.
+
+   ``` PowerShell
+   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-2. After establishing a session, you'll either create a new mailbox and enable it as a RoomMailboxAccount, or change the settings for an existing room mailbox. This will allow the account to authenticate to Skype Room Systems v2.
+   For detailed syntax and parameter information, see [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-   If you are changing an existing resource mailbox:
+4. Connect to Azure Active Directory PowerShell. For instructions, see [Connect with the Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
-``` Powershell
-Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-```
+5. If you do not want the password to expire, use the following syntax in Azure Active Directory PowerShell:
 
-  If you're creating a new resource mailbox:
-
-   ``` Powershell
-   New-Mailbox -MicrosoftOnlineServicesID PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01
--Name "Project-Rigel-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword
- (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ``` PowerShell
+   Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```
 
-3. Various Exchange properties must be set on the device account to improve the meeting experience. You can see which properties need to be set in the Exchange properties section.
+   This example sets the password for the account ProjectRigel01@contoso.onmicrosoft.com to never expire.
 
-   ``` Powershell
-   Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false
-   -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
-
+   ``` PowerShell
+   Set-AzureADUserPassword -UserPrincipalName ProjectRigel01@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
    ```
 
-4. You will need to connect to Azure Active Directory to apply some account settings. To connect to Azure AD, run the following cmdlet:
+   You can also set a phone number for the account by running the following command:
 
-   ``` Powershell
-   Connect-AzureAD -Credential $cred
-   ```
-
-5. If you do not want the password to expire, run the Set-AzureADUserPassword  cmdlet with the PasswordNeverExpires option as follows:
-
-   ``` Powershell
-   Set-AzureADUserPassword -UserPrincipalName $acctUpn -EnforceChangePasswordPolicy $false
-   ```
-
-   You can also set a phone number for the room as follows:
-
-   ``` Powershell
-   Set-AzureADUser -UserPrincipalName <upn> -TelephoneNumber <phone number>
+   ``` PowerShell
+   Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```
 
 6. The device account needs to have a valid Office 365 license, or Exchange and Skype for Business will not work. If you have the license, you need to assign a usage location to your device account—this determines what license SKUs are available for your account. You can use Get-AzureADSubscribedSku to retrieve a list of available SKUs for your Office 365 tenant as follows:
@@ -106,6 +135,8 @@ Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMail
    Get-AzureADSubscribedSku
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```
+
+   For detailed instructions, see [Assign licenses to user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 7. Next, you need to enable the device account with Skype for Business. Be sure your environment meets the requirements defined in [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
 
@@ -137,34 +168,40 @@ After you've completed the preceding steps to enable your Skype Room Systems v2 
 ### Assign a license to your account
 
 1. Login as a tenant administrator, open the Office 365 Administrative Portal, and click on the Admin app.
+
 2. Click **Users and Groups** and then click **Add users, reset passwords, and more**.
+
 3. Select the Skype Room Systems v2 account, and then click or tap the pen icon, which means edit.
+
 4. Click on the **Licenses** option.
+
 5. In the **Assign licenses** section, you need to select Skype for Business Online (Plan 2) or Skype for Business Online (Plan 3), depending on your licensing and what you've decided in terms of needing Enterprise Voice. You'll have to use a Plan 3 license if you want to use Cloud PBX on Skype Room Systems v2. Minimally you will need CloudPBX for voice connectivity. Then configure hybrid voice or PSTN calling based on the PSTN connectivity method. See [Skype Room Systems v2 licenses](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) for more details.
+
 6. Click **Save** to complete the task.
 
 ## Sample: Room account setup in Exchange Online and Skype for Business Online
 
+Exchange Online PowerShell commands:
+
 ``` Powershell
-New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.com
- -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true
- -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)
+New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
 
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept
--AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
-$false -DeleteSubject $false -RemovePrivateProperty $false
-
-Set-CalendarProcessing -Identity rigel1 -AddAdditionalResponse $true
+Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept-AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
 -AdditionalResponse "This is a Rigel room!"
+```
 
+Azure Active Directory PowerShell commands:
 
-
+``` PowerShell
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
-
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
 Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
+```
 
+Skype for Business PowerShell command:
+
+``` PowerShell
 Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sippooldm21a05.infra.lync.com
 -SipAddressType EmailAddress
 ```
