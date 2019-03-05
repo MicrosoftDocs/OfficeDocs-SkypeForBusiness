@@ -132,7 +132,7 @@ The stereo version of the G.722 codec is used by systems that are based on the L
 |**Video codec**|**Resolution and aspect ratio**|**Maximum video payload bit rate (Kbps)**|**Minimum video payload bit rate (Kbps)**|
 |:-----|:-----|:-----|:-----|
 |H.264  <br/> |320x180 (16:9)  <br/> 212x160 (4:3)  <br/> |250  <br/> |15  <br/> |
-|H.264/RTVideo  <br/> |424x240 (16:9))  <br/> 320x240 (4:3  <br/> |350  <br/> |100  <br/> |
+|H.264/RTVideo  <br/> |424x240 (16:9)  <br/> 320x240 (4:3)  <br/> |350  <br/> |100  <br/> |
 |H.264  <br/> |480x270 (16:9)  <br/> 424x320 (4:3)  <br/> |450  <br/> |200  <br/> |
 |H.264/RTVideo  <br/> |640x360 (16:9)  <br/> 640x480 (4:3)  <br/> |800  <br/> |300  <br/> |
 |H.264  <br/> |848x480 (16:9)  <br/> |1500  <br/> |400  <br/> |
