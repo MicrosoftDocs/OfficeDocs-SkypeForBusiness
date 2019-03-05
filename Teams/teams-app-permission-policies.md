@@ -3,7 +3,7 @@ title: Manage app permission policies in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 3/01/2019
+ms.date: 3/05/2019
 ms.reviewer: larryjin
 ms.topic: article
 ms.tgt.pltfrm: cloud
