@@ -90,7 +90,7 @@ You can use the Microsoft Teams admin center to assign a custom policy to indivi
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click       the user.
 2. Next to **Assigned policies**, choose **Edit**.
-3. Under **Teams App Permission policy**, select the app permission policy you want to assign, and then choose **Save**.
+3. Under **App permission policy**, select the app permission policy you want to assign, and then choose **Save**.
 
     ![app-setup-permission-assign-policy.png](media/app-permission-policies-assign-policy.png)
 
