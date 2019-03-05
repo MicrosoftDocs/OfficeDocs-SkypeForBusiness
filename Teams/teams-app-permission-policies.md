@@ -68,7 +68,7 @@ If you want to control the apps that are available for different groups of users
 
     1. Select **Allow apps**.
     1. Search for the apps that you want to allow, and then click **Add**. The search results are filtered to the app publisher (**Microsoft apps**, **Third-party apps**, or **Tenant apps**).
-    1. When you've chosen the list of apps, click **Allow**
+    1. When you've chosen the list of apps, click **Allow**.
 
 6. Similarly, if you selected **Block specific apps and allow all others**, search for and add the apps that you want to block.
 7. Click **Save**.
@@ -78,9 +78,9 @@ If you want to control the apps that are available for different groups of users
 You can use the Microsoft Teams admin center or Windows PowerShell to edit a policy, including the global (Org-wide default) policy and custom policies that you create. 
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App permission policies**.
-2. Select the policy you want to edit. 
+2. Select the policy you want to edit.
 3. From here, make the changes that you want. You can manage settings based on the app publisher and add and remove apps based on the allow/block setting.
-4. Click **Save**. 
+4. Click **Save**.
 
 ## Assign a custom app permission policy to users
 
