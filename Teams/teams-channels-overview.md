@@ -85,7 +85,7 @@ Microsoft Teams is great at breaking down organizational silos and promoting cro
 
 It is possible to create Teams that align to the organizational structure.  This is best used for leaders who want to drive morale, have team specfic reviews, clarify employee onboarding processes, discuss workforce plans and increase visibility across a diverse workforce.  
 
-![Diagram of a hierarchy of how teams and channels are organized in Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
+![Diagram of a hierarchy of how teams and channels are organized in Microsoft Teams.](media/overview-of-teams-and-channels-image1.png)
 
 ## Org-wide teams
 

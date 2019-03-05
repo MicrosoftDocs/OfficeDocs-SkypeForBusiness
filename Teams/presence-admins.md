@@ -10,7 +10,9 @@ ms.reviewer: rakayala
 description: Information Admins need to understand about Presence in Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration 
 appliesto:
 - Microsoft Teams
 ---

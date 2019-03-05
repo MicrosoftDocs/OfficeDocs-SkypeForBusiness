@@ -101,7 +101,7 @@ For deployments that **will use** cookie-based affinity:
 If you are deploying mobile devices, your hardware load balancer must be able to load balance individual request within a TCP session (in effect, you must be able to load balance an individual request based on the target IP address).
   
 > [!CAUTION]
-> F5 hardware load balancers have a feature called OneConnect that ensures each request within a TCP connection is individually load balanced. If you are deploying mobile devices, ensure your hardware load balancer vendor supports the same functionality. The latest Apple iOS mobile apps require Transport Layer Security (TLS) version 1.2. F5 provides specific settings for this. 
+> If you are deploying mobile devices, your hardware load balancer must be able to individually load balance each request within a TCP connection. The latest Apple iOS mobile apps require Transport Layer Security (TLS) version 1.2.  
   
 > [!CAUTION]
 > For details on third party hardware load balancers, see [Infrastructure for Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  

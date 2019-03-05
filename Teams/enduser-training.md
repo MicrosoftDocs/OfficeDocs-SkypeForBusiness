@@ -11,7 +11,6 @@ ms.collection: Teams_ITAdmin_Training
 ms.reviewer: lolaj
 search.appverid: MET150
 description: Training videos, tutorials, and other resources for users in your organization to learn and use Teams.
-ms.topic: landing-page
 appliesto: 
 - Microsoft Teams
 ---
