@@ -16,7 +16,7 @@ appliesto:
 
 # Microsoft Teams for firstline workers
 
-Microsoft Teams gives firstline workers and managers in your organization the tools they need to communicate and collaborate effectively on the go. Here you'll find the guidance you need to set up and manage firstline worker capabilities such as Shifts, the schedule management tool, in Teams.
+Microsoft Teams gives firstline workers and managers in your organization the tools they need to communicate and collaborate effectively on the go. Here you'll find the admin guidance you need to set up and manage firstline worker capabilities such as Shifts, the schedule management tool, in Teams.
 
 ### Move from StaffHub to Shifts in Teams
 
@@ -110,7 +110,7 @@ Microsoft Teams gives firstline workers and managers in your organization the to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-teams.svg" alt="deploy" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-teams.svg" alt="flag" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -128,7 +128,7 @@ Microsoft Teams gives firstline workers and managers in your organization the to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough.svg" alt="walkthrough" />
                         </div>
                     </div>
                     <div class="cardText">
