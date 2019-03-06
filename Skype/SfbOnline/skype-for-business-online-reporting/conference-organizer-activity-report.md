@@ -19,7 +19,6 @@ f1keywords:
 ms.custom:
 - Reporting
 description: "Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. "
-search.appverid: "MET150"
 ---
 
 # Conference organizer activity report
