@@ -27,18 +27,16 @@ Policies can be easily managed in the [Microsoft Teams admin center](http://admi
 
 To edit the existing default Messaging policy for your organization, click the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, click **New policy** and select your settings. Choose **Save** when you are done.
 
-![Messaging policy settings in Teams](../media/messaging-policies-image2.png)
+![Healthcare messaging policy settings](../media/hc-message-policy.png)
 
 The following settings are of special value to Healthcare applications, and should be considered when designing a custom policy used in the Healthcare field:
 
 - **Read receipts** Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled.
 
-- **Priority Messaging** Use this setting to allow users to set a priority for chat messages sent to other users. This can help the message recipient quickly see what needs immediate attention and what is "nice-to-know."
+- **Users can send priority notifications** Use this setting to allow users to send priority chat messages to other users. This feature helps hospital staff alert one other when a critical incident requires their attention. Unlike regular “important” messages, priority notifications repeatedly notify users for a period of 20 minutes or until messages are picked up and read by the recipient, maximizing the likelihood that the message is picked up and acted upon in a timely manner.
 
-  An admin can enable or disable the ability for  users assigned this policy to send priority messages. The default setting is disabled. There is no control to disable receiving of priority messages.
+  An admin can enable or disable the ability for users assigned this policy to send priority notifications. The default setting is disabled. the recipient of the priority message might not have the same messaging policy, and will not have an option to disable receiving priority messages.
 
-  > [!NOTE]
-  > Setting is not yet in screen shot.
 
 When the Priority Messaging and Read Receipts settings are both enabled, if a user sends a message and requests it, they will be notified when the recipient reads the message.
 
