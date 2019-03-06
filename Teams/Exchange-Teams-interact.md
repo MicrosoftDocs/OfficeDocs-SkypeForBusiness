@@ -34,8 +34,8 @@ The following table provides information for users with Exchange Online hosted i
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 |**Exchange Online Dedicated vNext**|Yes <sup>2</sup>|Yes <sup>2</sup>|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
-|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes <sup>2,3</sup>|Yes <sup>4|Yes|No|No|Yes|Yes|No|No|No|Yes|Yes|
-|**Exchange on-premises** (Sync to Azure AD required)|Yes <sup>2</sup>| Yes <sup>2,3</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|No|Yes|Yes|No|No <sup>5|No|No|Yes|
+|**Exchange Online Dedicated – Legacy** (Sync to Azure AD required)|Yes <sup>2</sup>|Yes <sup>2,3</sup>|Yes <sup>4|Yes|No|No|Yes|Yes|No|Yes <sup>5|Yes|Yes|Yes|
+|**Exchange on-premises** (Sync to Azure AD required)|Yes <sup>2</sup>| Yes <sup>2,3</sup> |Yes <sup>4|Yes|Yes (Exchange 2016 CU3+)|Yes (Exchange 2016 CU3+)|Yes|Yes|No|Yes <sup>5|Yes|Yes|Yes|
 
 <sup>1</sup> Exchange 2016 CU3 and above supported  
 <sup>2</sup> eDiscovery and Legal Hold for compliance on channel messages is supported for all hosting options.  
@@ -59,7 +59,7 @@ Additional information:
 
 -   In Microsoft Teams, security and compliance features like eDiscovery, Content Search, archiving, and legal hold work best in Exchange Online and SharePoint Online environments. For channel conversations, messages are journaled to the group mailbox in Exchange Online, where they're available for eDiscovery. If SharePoint Online and OneDrive for Business (using work or school account) are enabled across the organization and for users, these compliance features are available for all files within Teams as well.
 
--   For Exchange on-premises, you must to configure OAuth as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
+-   For Exchange on-premises, you must configure the new Exchange OAuth authentication protocol as described in [Configure OAuth authentication between Exchange and Exchange Online organizations](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
 
 > [!NOTE]
 > Currently, if your organization has compliance requirements to ensure all meeting discussions are discoverable, you should disable private meetings if the organizer has an Exchange on-premises mailbox.
