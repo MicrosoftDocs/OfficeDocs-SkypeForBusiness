@@ -18,7 +18,6 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: "The new Office 365 Reports dashboard shows you the activity overview across the Office 365 products in your organization. It enables you to drill in to individual product level reports to give you more granular insight about the activities within each product."
-search.appverid: "MET150"
 ---
 
 # Session details report

@@ -10,6 +10,8 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
 - Hybrid 
+- M365-voice
+- M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: "Planning considerations for implementing hybrid connectivity between Skype for Business Server and Skype for Business Online or Teams."
