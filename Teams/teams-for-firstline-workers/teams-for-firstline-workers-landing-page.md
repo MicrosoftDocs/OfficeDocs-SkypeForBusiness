@@ -16,13 +16,13 @@ appliesto:
 
 # Microsoft Teams for firstline workers
 
-### placeholder
+Microsoft Teams gives firstline workers and managers in your organization the tools they need to communicate and collaborate effectively on the go. Here you'll find the guidance you need to set up and manage firstline worker capabilities such as Shifts, the schedule management tool, in Teams.
 
-Placeholder for text
+### Move from StaffHub to Shifts in Teams
 
 <ul class="panelContent cardsFTitle">
  <li>
-        <a href="https://docs.microsoft.com/en-us/microsoftteams/microsoft-staffhub-to-be-retired">
+        <a href="https://docs.microsoft.com/microsoftteams/microsoft-staffhub-to-be-retired">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -57,6 +57,11 @@ Placeholder for text
         </div>
         </a>
     </li>
+</ul>
+
+### Set up and manage Shifts 
+
+<ul class="panelContent cardsFTitle">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/manage-the-shifts-app-for-your-organization-in-teams">
         <div class="cardSize">
@@ -68,7 +73,7 @@ Placeholder for text
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Set up and manage Shifts in your organization</h3>
+                        <h3>Manage Shifts in your organization</h3>
                     </div>
                 </div>
             </div>
@@ -95,8 +100,7 @@ Placeholder for text
     </li>
 </ul>
 
-
-### placeholder
+### Teams for firstline workers in healthcare settings
 
 placeholder for text
 
