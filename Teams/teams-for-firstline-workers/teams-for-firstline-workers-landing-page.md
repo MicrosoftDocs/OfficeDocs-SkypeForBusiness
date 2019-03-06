@@ -128,7 +128,7 @@ Microsoft Teams gives firstline workers and managers in your organization the to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
                         </div>
                     </div>
                     <div class="cardText">
