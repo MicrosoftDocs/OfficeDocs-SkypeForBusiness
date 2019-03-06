@@ -39,6 +39,11 @@ For details on Skype for Business Online Plans, see the [Skype for Business Onli
 
 ### Add a device account
 
+https://docs.microsoft.com/en-us/powershell/module/msonline/?view=azureadps-1.0
+
+https://docs.microsoft.com/en-us/powershell/module/Azuread/?view=azureadps-2.0 
+
+
 1. Connect to Exchange Online PowerShell. For instructions, see [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
 
 2. In Exchange Online PowerShell, create a new room mailbox or modify an existing room mailbox. By default, room mailboxes don't have associated accounts, so you'll need to add an account when you create or modify a room mailbox that allows it to authenticate with Skype Room Systems v2.
