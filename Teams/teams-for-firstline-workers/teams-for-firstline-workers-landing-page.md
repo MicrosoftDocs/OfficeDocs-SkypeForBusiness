@@ -28,7 +28,7 @@ Placeholder for text
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -46,7 +46,7 @@ Placeholder for text
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration.svg" alt="Migration" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -64,7 +64,7 @@ Placeholder for text
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning.svg" alt="Checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-teams.svg" alt="deploy" />
                         </div>
                     </div>
                     <div class="cardText">
