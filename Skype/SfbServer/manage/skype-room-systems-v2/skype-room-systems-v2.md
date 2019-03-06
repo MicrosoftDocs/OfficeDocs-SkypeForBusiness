@@ -62,7 +62,7 @@ When you upload your building information to CQD you can investigate call qualit
 
 We recommend that you review and follow the [Quality of Experience Review Guide](https://aka.ms/qerguide) to identify quality and reliability trends, and create an action plan to resolve them. 
 
-## Updating the Microsoft Teams Rooms OS and Skype Room Systems application 
+## Updating the Microsoft Teams Rooms OS and Microsoft Teams Rooms application
 
 We recommend that you update the Microsoft Teams Rooms OS and Microsoft Teams Rooms application to benefit from product updates and improvements. For detailed guidance, see [Manage Microsoft Teams Rooms](room-systems-v2-operations.md#software-updates). 
 

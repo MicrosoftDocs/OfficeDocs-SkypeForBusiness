@@ -129,7 +129,7 @@ The following tables provide recommendations for peripherals based on room size:
  > [!NOTE]
  > Front of room display resolution should be set to no greater than 1920x1080p.
 
-## Required Software Downloads
+## Required software downloads
 
 To build your own Microsoft Teams Rooms image, follow the instructions in [Configure a Microsoft Teams Rooms console](../../deploy/deploy-clients/console.md). Those instructions will guide you through downloading all necessary software for the installation process. 
 

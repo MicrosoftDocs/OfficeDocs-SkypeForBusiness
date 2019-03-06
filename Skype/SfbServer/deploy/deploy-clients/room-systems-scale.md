@@ -1,5 +1,5 @@
 ---
-title: "Deploy Skype Room Systems by using System Center Configuration Manager"
+title: "Deploy Microsoft Teams Rooms by using System Center Configuration Manager"
 author: jambirk
 ms.author: jambirk
 ms.reviewer: Turgayo
@@ -505,7 +505,7 @@ Microsoft Teams Rooms is supported for both Surface Pro and Surface Pro 4. You n
 > [!NOTE]
 > Repeat the same steps for other Surface Pro models you might have. For more information, see [Manage drivers in System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
 
-### Create Skype Room System Configuration Package
+### Create Microsoft Teams Rooms Configuration Package
 
 1.  In the Configuration Manager console, go to **Software Library** \> **Application Management** \> **Packages**, and then select **Create Package**.
 
@@ -674,7 +674,7 @@ You can download and easily import a sample task sequence and customize it to me
    > It is very important that **Purpose** is set to **Available**. Make sure that
    the **Purpose** is **NOT** set to **Required**. Also make sure that you select **Only Media and PXE** in the **Make available to the following**.
    >
-   > Setting these values to something else might cause all computers to get the Skype Room Systems deployment image when booted.
+   > Setting these values to something else might cause all computers to get the Microsoft Teams Rooms deployment image when booted.
 7. Do not specify any schedule and select **Next**.
 
 8. Do not change anything within the **User Experience** section and select

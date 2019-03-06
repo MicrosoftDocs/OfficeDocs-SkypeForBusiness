@@ -200,7 +200,7 @@ Microsoft Teams Rooms management with OMS](oms-management.md))
 
 [Microsoft Teams Rooms help](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Prepare your Skype for Business Environment](srs-v2-prep.md)
+[Prepare your environment](srs-v2-prep.md)
 
 [Support for Microsoft Teams Rooms current branch versions](srs2-lifecycle-support.md)
 

@@ -38,7 +38,7 @@ At a high level, you need to perform the following tasks:
 7.  [Configure additional Azure Monitor solutions](azure-monitor.md#Solutions)
 
 > [!IMPORTANT]
-> Although with minimal configuration, Azure Monitor Log Analytics can monitor a computer running a Windows operating system, there are still some Microsoft Teams Rooms–specific steps that you need to take before you start deploying agents to all Skype Room Systems devices.
+> Although with minimal configuration, Azure Monitor Log Analytics can monitor a computer running a Windows operating system, there are still some Microsoft Teams Rooms–specific steps that you need to take before you start deploying agents to all Microsoft Teams Rooms devices.
 > Therefore, we highly recommend you perform all configuration steps in the right order for a controlled setup and configuration. The quality of the end result very much depends on the quality of the initial configuration.
 
 ## Validate Log Analytics configuration
@@ -73,7 +73,7 @@ You need to prepare Log Analytics to be able to monitor Microsoft Teams Rooms–
 
 Deploy the Microsoft Monitoring agent to the test devices by using the instructions provided in [Connect Windows computers to the Log Analytics service in Azure](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows). This article provides detailed information about the steps for deploying Microsoft Monitoring Agent for Windows, instructions for obtaining the Log Analytics ***Workspace ID*** and the ***primary key*** to get Microsoft Teams Rooms devices connected to your Azure Monitor deployment, and steps to verify agent connectivity to Log Analytics instance.
 
-### Generate sample Skype Room Systems events
+### Generate sample Microsoft Teams Rooms events
 
 After the Microsoft Monitoring agent is deployed onto the test devices, verify that the required event log data is collected by Azure Monitor.
 

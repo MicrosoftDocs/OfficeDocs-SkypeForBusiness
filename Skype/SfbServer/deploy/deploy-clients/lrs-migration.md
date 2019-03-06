@@ -44,7 +44,7 @@ Existing Crestron RL2 (also referred to as Crestron RL200) customers can acquire
 
 ### SMART Room Systems upgrade
 
-For SMART LRS customers, apart from Crestron hardware trade-in program, SMART is also working on providing a solution to upgrade to Skype Room System v2. This upgrade will be provided by SMART Technologies Inc. to customer under product support. Please see more about this [here](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
+For SMART LRS customers, apart from Crestron hardware trade-in program, SMART is also working on providing a solution to upgrade to Microsoft Teams Rooms. This upgrade will be provided by SMART Technologies Inc. to customer under product support. Please see more about this [here](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
 
 
 ## What should you do?

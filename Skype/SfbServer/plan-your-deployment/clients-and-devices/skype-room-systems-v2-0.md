@@ -14,7 +14,7 @@ ms.collection: M365-voice
 description: "This article explains the relevant planning considerations for deploying Microsoft Teams Rooms, the next generation of Skype Room Systems."
 ---
 
-# Plan Microsoft Teams Rooms 
+# Plan Microsoft Teams Rooms
 
 This article introduces an end-to-end approach to planning, delivering, and operating Microsoft Teams Rooms as part of your overall meeting and conference room strategy.
 
@@ -22,11 +22,11 @@ You’ll find planning information below covering the recommended approach and k
 
 ## Overview of Microsoft Teams Rooms
 
-Microsoft Teams Rooms provides a complete Skype for Business meeting experience that brings HD video, audio, and content sharing to meetings of all sizes, from small huddle areas to large conference rooms.
+Microsoft Teams Rooms provides a complete meeting experience that brings HD video, audio, and content sharing to meetings of all sizes, from small huddle areas to large conference rooms.
 
 ![A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Microsoft Teams Rooms setup.](../../media/room-systems-image1.png "A console, microphone, and large screen mounted on a conference room wall illustrate the elements of an example Microsoft Teams Rooms setup.")
 
-[Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) is a great resource to find out more about Microsoft Teams Rooms and how it can add value as part of your Skype for Business deployment. In addition, we recommend watching this [overview video](https://youtu.be/tNey5KZVCl0). 
+[Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) is a great resource to find out more about Microsoft Teams Rooms and how it can add value as part of your  deployment. In addition, we recommend watching this [overview video](https://youtu.be/tNey5KZVCl0). 
 
 
 ## Microsoft Teams Rooms components 
@@ -151,7 +151,7 @@ Consider which helpdesk queue you’ll route Microsoft Teams Rooms֪–related c
 
 |    |     |
 |-----------|------------|
-| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage Microsoft Teams Rooms.</li><li>Decide which helpdesk queue to route Skype Room Systems–related calls to.</li></ul>|
+| ![](../../media/audio_conferencing_image7.png) <br/>Decision points|<ul><li>Decide who will manage Microsoft Teams Rooms.</li><li>Decide which helpdesk queue to route Microsoft Teams Rooms–related calls to.</li></ul>|
 | ![](../../media/audio_conferencing_image9.png)<br/>Next steps|<ul><li>Prepare to host accounts. </li></ul>|
 
 
