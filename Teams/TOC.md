@@ -343,6 +343,12 @@
 #### [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
 #### [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 #### [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
+
+### Media bypass for Direct Routing
+#### [Plan for media byass with Direct Routing](direct-routing-plan-media-bypass.md)
+#### [Configure bypass with Direct Routing](direct-routing-configure-media-bypass.md)
+
+
 ### Technical reference for Direct Routing
 #### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 
