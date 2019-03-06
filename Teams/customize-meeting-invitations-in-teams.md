@@ -3,7 +3,7 @@ title: Customize meeting invitations in Microsoft Teams
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 03/05/2019
+ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua 
@@ -40,7 +40,7 @@ As an admin, you can ensure that all Microsoft Teams meeting invitations include
     - **Help URL** – If your organization has a support website that you want people to go to if they have problems, enter the URL here.
     - **Footer** – Enter a text-only footnote that is appropriate for your users.
 5.	Select **Save**.
-6.	Wait an hour or so for the changes to get populated across all Office 365 services. Then go to Outlook and schedule a Skype meeting to see what your changes look like
+6.	Wait an hour or so for the changes to get populated across all Office 365 services. Then go to Outlook and schedule a Skype meeting to see what your changes look like.
 
 ## Related topics
 
