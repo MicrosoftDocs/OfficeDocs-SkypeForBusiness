@@ -31,7 +31,7 @@ To edit the existing default Messaging policy for your organization, click the *
 
 The following settings are of special value to Healthcare applications, and should be considered when designing a custom policy used in the Healthcare field:
 
-- **Read receipts** Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled.
+- **Read receipts** Read receipts allows the sender of a chat message to know when their message was read by the recipient. Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled for everyone.
 
 - **Users can send priority notifications** Use this setting to allow users to send priority chat messages to other users. This feature helps hospital staff alert one other when a critical incident requires their attention. Unlike regular “important” messages, priority notifications repeatedly notify users for a period of 20 minutes or until messages are picked up and read by the recipient, maximizing the likelihood that the message is picked up and acted upon in a timely manner.
 
