@@ -139,7 +139,7 @@ After domain joining, you can use Group Policy or the Local Computer Management 
   
 ## Local accounts
 
-### Skype Room Systems Local User Account
+### Microsoft Teams Rooms Local User Account
 
 The Device Account does not typically use a password. It is possible to give it a password, but there are consequences, including a possibility that users might get locked out of the console application when that password expires. Consequently, the administrator should take are to ensure that the password is not allowed to expire.
   

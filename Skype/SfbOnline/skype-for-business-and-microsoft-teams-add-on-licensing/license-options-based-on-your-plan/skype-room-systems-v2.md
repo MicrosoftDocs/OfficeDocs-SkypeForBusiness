@@ -33,7 +33,7 @@ The following table lists the features that are available in [Microsoft Teams Ro
   
 |||||
 |:-----|:-----|:-----|:-----|
-|**Skype Room System scenario** <br/> |**You currently have Office 365 Premium, Office 365 ProPlus0, or Skype for Business Standalone Plan 2.** <br/> **Here's what you need to buy:** <br/> |**You currently have an Enterprise-based plan.** <br/> **Here's what you need to buy:** <br/> |**You have Skype for Business Server 2015 (on-premises or hybrid).** <br/> **Here's what you need to buy:** <br/> |
+|**Microsoft Teams Rooms scenario** <br/> |**You currently have Office 365 Premium, Office 365 ProPlus0, or Skype for Business Standalone Plan 2.** <br/> **Here's what you need to buy:** <br/> |**You currently have an Enterprise-based plan.** <br/> **Here's what you need to buy:** <br/> |**You have Skype for Business Server 2015 (on-premises or hybrid).** <br/> **Here's what you need to buy:** <br/> |
 |Join a scheduled meeting.  <br/> |Skype for Business Standalone Plan 1  <br/> |E1, 3, 4, or 5  <br/> |Skype for Business Server Standard CAL  <br/> |
 |Initiate an ad-hoc meeting.  <br/> |Skype for Business Standalone Plan 2  <br/> |E1, 3, 4, or 5  <br/> |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL  <br/> |
 |Initiate an ad-hoc meeting and dial out from a meeting to phone numbers.  <br/> |Skype for Business Standalone Plan 2 with Audio Conferencing  <br/> **Note:** Communications Credits are optional.           |E1 or E3 with Audio Conferencing  <br/> OR  <br/> E5  <br/> |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL  <br/> |
