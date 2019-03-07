@@ -10,7 +10,9 @@ ms.reviewer: rowille
 description: Learn about how to plan for implementing governance capabilities in Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 ---

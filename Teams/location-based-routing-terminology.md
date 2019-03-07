@@ -12,7 +12,7 @@ description: Learn terminology and concepts associated with Location-Based Routi
 localization_priority: Normal
 ms.collection:  
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 appliesto: 
 - Microsoft Teams

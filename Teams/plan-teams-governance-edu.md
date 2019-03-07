@@ -10,7 +10,9 @@ ms.reviewer: rowille
 description: Answers to frequently asked questions from administrators of Microsoft Education groups who use Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
