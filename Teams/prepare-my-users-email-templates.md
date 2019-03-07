@@ -10,7 +10,9 @@ ms.reviewer: rowille
 description: Use templates to send emails to users as you implement cloud voice capabilities in Teams or Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 ---

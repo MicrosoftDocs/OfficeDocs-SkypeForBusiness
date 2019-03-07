@@ -9,7 +9,9 @@ ms.service: msteams
 description: Learn about best practices for organizing teams in Microsoft Teams to meet your organization's needs.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---

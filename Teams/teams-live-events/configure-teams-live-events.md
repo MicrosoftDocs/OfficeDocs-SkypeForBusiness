@@ -9,7 +9,9 @@ ms.service: msteams
 ms.reviewer: sonua
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Learn how to manage settings for Teams live events that are held in your organization. 
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto: 

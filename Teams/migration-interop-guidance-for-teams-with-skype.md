@@ -9,7 +9,9 @@ ms.reviewer: bjwhalen
 description: Guidance for managing the transition to Teams from Skype for Business 
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 ---

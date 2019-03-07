@@ -6,7 +6,9 @@ manager: serdars
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Get a brief overview of how a guest is invited to join a team in Microsoft Teams.
