@@ -12,7 +12,9 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn more about structuring teams and channels in Microsoft Teams. 
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection: 
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---

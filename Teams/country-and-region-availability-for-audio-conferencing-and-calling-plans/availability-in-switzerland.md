@@ -9,7 +9,7 @@ ms.assetid: bbaf568d-363f-45e7-acd2-82e5ebb7fa21
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection: 
-- Adm_Skype4B_Online 
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150

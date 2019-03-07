@@ -9,7 +9,9 @@ ms.service: msteams
 description: Find tools to support your rollout of Microsoft Teams, including  email templates, Getting Started Guides, Customer Success Kit, and more.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---
