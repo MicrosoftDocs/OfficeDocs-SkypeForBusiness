@@ -12,7 +12,9 @@ description: Learn how to turn on or off Microsoft Teams apps in your Office 365
 localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---

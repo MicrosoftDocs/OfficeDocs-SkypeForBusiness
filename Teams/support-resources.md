@@ -6,7 +6,9 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
 description: A list of support resources for Microsoft Teams to help you use it more efficiently and effectively.

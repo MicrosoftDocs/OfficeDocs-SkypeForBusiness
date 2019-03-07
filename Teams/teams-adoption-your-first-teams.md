@@ -12,7 +12,9 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn how to drive Teams adoption by using the product.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection: 
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---
