@@ -8,7 +8,9 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection: 
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150

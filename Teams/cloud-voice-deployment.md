@@ -10,7 +10,9 @@ search.appverid: MET150
 ms.reviewer: MyAdvisor
 description: Practical guidance for deploying cloud voice features in Microsoft Teams.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---

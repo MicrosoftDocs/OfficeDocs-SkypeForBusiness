@@ -6,7 +6,9 @@ manager: serdars
 ms.date: 10/18/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 search.appverid: MET150
 ms.reviewer: lehewe
 description: Learn what data and permissions apps are requesting from your organization.

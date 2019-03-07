@@ -6,7 +6,9 @@ manager: serdars
 ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 description: Learn how to use built-in and custom tabs to include features like conversations, files, maps, and more.

@@ -12,7 +12,7 @@ appliesto:
 - Microsoft Teams
 ms.collection:  
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 localization_priority: Normal
 description: "This article covers the list of phones that are certified for Microsoft Teams and the features supported in the phones certified for Microsoft Teams."

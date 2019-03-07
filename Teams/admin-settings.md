@@ -12,7 +12,9 @@ description: "Learn to allow and enable apps in Microsoft Teams including side-l
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---

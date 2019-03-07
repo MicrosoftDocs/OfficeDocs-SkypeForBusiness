@@ -6,7 +6,9 @@ manager: serdars
 ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviwer: sbhatta
 search.appverid: MET150
 description: Learn how an admin can view information about guest users in Microsoft Teams.

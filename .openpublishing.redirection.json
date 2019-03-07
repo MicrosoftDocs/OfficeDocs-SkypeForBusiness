@@ -1173,6 +1173,11 @@
     {      
       "source_path": "Skype/SfbOnline/optimizing-your-network/proxy-servers-for-skype-for-business-online.md", 
       "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/proxy-servers-for-skype-for-business-online", 
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Teams/assignments-in-teams.md", 
+      "redirect_url": "https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu", 
       "redirect_document_id": true 
     }
     ] 

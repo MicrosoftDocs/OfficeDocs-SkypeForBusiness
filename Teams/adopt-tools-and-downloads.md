@@ -9,7 +9,9 @@ layout: LandingPage
 ms.date: 11/20/2018
 ms.service: msteams
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection: 
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 search.appverid: MET150
 appliesto: 
 - Microsoft Teams

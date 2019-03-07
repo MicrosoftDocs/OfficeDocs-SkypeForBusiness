@@ -6,7 +6,9 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: Learn about Content Search in Microsoft Teams and how to search against Channel chats from Exchange, file uploads/modifications from SharePoint, and OneNote as well.
