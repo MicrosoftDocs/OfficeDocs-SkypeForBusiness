@@ -12,7 +12,7 @@ ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: "Configuring OAuth authentication between Exchange on premises and Skype for Business Online enables the Skype for Business and Exchange Integration features described in Feature support."
 ---
-
+Link to https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help and break out specific SfB Online to Exchange steps in this artilce. 
 # Configure OAuth between Skype for Business Online and Exchange on premises
 
 Configuring OAuth authentication between Exchange on premises and Skype for Business Online enables the Skype for Business and Exchange Integration features described in [Feature support](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support).
