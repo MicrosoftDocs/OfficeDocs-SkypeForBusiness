@@ -117,7 +117,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-teams.svg" alt="Best practices" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="tasks" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
