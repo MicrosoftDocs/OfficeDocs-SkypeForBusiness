@@ -10,7 +10,9 @@ ms.reviewer: lolaj
 description: Get started with Microsoft Teams by rolling out your first teams and channels so you can build your experience with Teams before you deploy widely across your organization.  
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---

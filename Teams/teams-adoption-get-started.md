@@ -12,7 +12,9 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn about the the startup, experiment, and enable phases of Microsoft Teams adoption.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection: 
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---

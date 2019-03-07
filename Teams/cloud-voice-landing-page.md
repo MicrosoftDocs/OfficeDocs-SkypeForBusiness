@@ -8,8 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:  
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150

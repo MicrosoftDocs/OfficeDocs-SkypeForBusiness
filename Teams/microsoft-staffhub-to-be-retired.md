@@ -9,7 +9,9 @@ ms.service: msteams
 search.appverid: MET150
 description: 
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto: 
 - Office for business, Microsoft Teams
 ---
