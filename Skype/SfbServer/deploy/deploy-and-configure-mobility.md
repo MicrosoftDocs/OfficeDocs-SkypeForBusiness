@@ -459,7 +459,7 @@ To review the command procedures further, you can check out [Test-CsUcwaConferen
 ## Configure for push notifications
 <a name="ConfigPush"> </a>
 
-Push notifications, in the form of badges, icons, or alerts, can be sent to a mobile device even when the Skype or Lync app is inactive. But what are pusn notifications? They are event alerts, like a new or missed IM invitation, or for a received voicemail. The Skype for Business Server Mobility service sends these notifications to the cloud-based Skype for Business Server Push Notification Service, which then sends the notifications to the Microsoft Push Notification Service (MSNS) for Windows Phone users.
+Push notifications, in the form of badges, icons, or alerts, can be sent to a mobile device even when the Skype or Lync app is inactive. But what are push notifications? They are event alerts, like a new or missed IM invitation, or for a received voicemail. The Skype for Business Server Mobility service sends these notifications to the cloud-based Skype for Business Server Push Notification Service, which then sends the notifications to the Microsoft Push Notification Service (MSNS) for Windows Phone users.
   
 This functionality is unchanged from Lync Server 2013, but if you have a Skype for Business Server, you'll want to do the following:
   
