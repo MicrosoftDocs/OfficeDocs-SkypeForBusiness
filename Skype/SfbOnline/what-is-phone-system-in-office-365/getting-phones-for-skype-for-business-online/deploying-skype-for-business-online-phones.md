@@ -210,7 +210,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
 3. The server setting for BToE is set to **Enabled** and **Auto mode** by default. To change those settings, see [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx).
     
 > [!NOTE]
-> BToE isn't currently supported on Mac and VDI platforms. 
+> BToE isn't currently supported on Mac platform and VDI platform support is being implemented, for more information, it is recommended to check the phone manufacturer's website. 
   
 ## Related topics
 [Getting service phone numbers for Skype for Business and Microsoft Teams](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
