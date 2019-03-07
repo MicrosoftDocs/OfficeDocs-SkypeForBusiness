@@ -61,7 +61,7 @@ If the user has direct access to the public IP address of the SBC, the call flow
 
 The following diagram shows call flow when media bypass is enabled, the client is internal, and the client can reach the public IP address of the SBC (direct media): 
 
-- The arrows and numeric values of the paths are in accordance with Microsoft Teams Online Call Flows document.
+- The arrows and numeric values of the paths are in accordance with the Microsoft Teams Online Call Flows document.
 
 - The SIP signaling always takes paths 4 and 4’ (depending on the direction of the traffic). Media stays local and takes path 5b.
 
@@ -76,13 +76,13 @@ For example, assume the user is external, and the tenant administrator decided n
 
 - Teams Transport Relays are used.
 
-- For media bypass, Mirosoft uses a version of Transport Relays that requires opening ports 50 000 to 59 999 between the Teams Transport Relays and the SBC (in the future we plan to move to the version which requires only 3478 and 3479 ports).
+- For media bypass, Microsoft uses a version of Transport Relays that requires opening ports 50 000 to 59 999 between the Teams Transport Relays and the SBC (in the future we plan to move to the version which requires only 3478 and 3479 ports).
 
 - For media optimization purposes, Microsoft recommends opening the public IP address of the SBC only to Teams Transport Relays. For clients outside of the corporate network, Microsoft recommends using Transport Relays instead of reaching the public IP address of the SBC directly.
 
-The following diagram shows call flow when media bypass is enabled, the client is external, and the client cannot reach the public IP address of the Session Border Controller (Media is relayed by Teams Transport Relay).
+The following diagram shows call flow when media bypass is enabled, the client is external, and the client cannot reach the public IP address of the Session Border Controller (media is relayed by Teams Transport Relay).
 
-- The arrows and numeric values of the paths are in accordance with Microsoft Teams Online Call Flows document.
+- The arrows and numeric values of the paths are in accordance with the Microsoft Teams Online Call Flows document.
 
 - Media is relayed via paths 3, 3', 4 and 4'
 
@@ -94,7 +94,7 @@ The following diagram shows call flow when media bypass is enabled, the client i
 > [!NOTE]
 > This is not a recommended configuration because it does not take advantage of Teams Transport Relays. Instead, you should consider the previous scenario where the user does not have access to the public IP address of the SBC. 
 
-The following diagram shows call flow when media bypass enabled, the client is external, and the client can reach the public IP address of the SBC (direct media).
+The following diagram shows call flow when media bypass is enabled, the client is external, and the client can reach the public IP address of the SBC (direct media).
 
 - The arrows and numeric values of the paths are in accordance with the Microsoft Teams Online Call Flows document.
 
@@ -105,7 +105,7 @@ The following diagram shows call flow when media bypass enabled, the client is e
 
 ## Use of Media Processors and Transport Relays
 
-There are two components in the Microsoft Cloud that can be in the path of media traffic: Media Processors and Rransport Relays. 
+There are two components in the Microsoft Cloud that can be in the path of media traffic: Media Processors and Transport Relays. 
 
 - The Media Processor is a public facing component that handles media in non-bypass cases and handles media for voice applications.
 
@@ -115,8 +115,7 @@ There are two components in the Microsoft Cloud that can be in the path of media
 
    Transport Relays might or might not be in the path for bypassed calls--originating from or destined to end users--depending on where the user is and how the network is configured .
 
-The following diagram shows two call flows – one with media bypass enabled and the second with media bypass disabled. Note the diagram only illustrates traffic originating from or destined to end users.  
-
+The following diagram shows two call flows – one with media bypass enabled and the second with media bypass disabled. Note the diagram only illustrates traffic originating from--or destined to--end users.  
 - The Media Controller is a microservice in Azure that assigns Media Processors and creates Session Description Protocol (SDP) offers.
 
 - The SIP Proxy is a component that translates HTTP REST signaling used in Teams to SIP.    
@@ -192,7 +191,7 @@ SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Defined on the SBC |
 
 Media traffic flows between the SBC and Teams client if direct connectivity is available or via Teams Transport Relays if the client cannot reach the SBC using the public IP address.
 
-### Requirements for direct media traffic (between Teams Client and a SBC) 
+### Requirements for direct media traffic (between the Teams client and the SBC) 
 
 The client must have access to the specified ports (see table) on the public IP address of the SBC. 
 
@@ -204,7 +203,7 @@ UDP/SRTP | Client | SBC | 50 000 – 50 019  | Defined on the SBC |
 | UDP/SRTP | SBC | Client | Defined on the SBC | 50 000 – 50 019  |
 
 
-Note: If you have a network device that translates the clients source ports please make sure that translated ports are opened between the network equipment and the SBC. 
+Note: If you have a network device that translates the client's source ports, please make sure that translated ports are opened between the network equipment and the SBC. 
 
 ### Requirements for using Transport Relays
 
@@ -245,7 +244,7 @@ UDP/SRTP | Media Processor | SBC | 49 152 – 53 247    | Defined on the SBC |
 
 ## Considerations if you have Skype for Business phones in your network  
 
-If you have any Skype for Business end points in your network that are using Direct Routing--for example, a Teams user can have a 3PIP phone which is based on Skype for Business client--the media bypass on the trunk that serves these users must be turned off.
+If you have any Skype for Business end points in your network that are using Direct Routing--for example, a Teams user can have a 3PIP phone that is based on Skype for Business client--the media bypass on the trunk that serves these users must be turned off.
 
 You can create a separate trunk for these users and assign it an Online Voice Routing policy.
 
