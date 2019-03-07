@@ -10,7 +10,9 @@ ms.reviewer: rowille
 description: Validate that your organization's expectations are met through testing Phone System in Teams features, functionality, and usability.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 ---

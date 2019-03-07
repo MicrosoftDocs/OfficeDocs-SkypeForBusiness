@@ -7,7 +7,9 @@ author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Training
+ms.collection:  
+- Teams_ITAdmin_Training
+- M365-collaboration
 ---
 <div id="main" class="v2">
     <div class="container">

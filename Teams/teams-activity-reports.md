@@ -10,7 +10,9 @@ ms.service: msteams
 ms.reviewer: chenle
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Learn how to use activity reports to see how users in your organization are using Microsoft Teams.
 appliesto: 
 - Microsoft Teams

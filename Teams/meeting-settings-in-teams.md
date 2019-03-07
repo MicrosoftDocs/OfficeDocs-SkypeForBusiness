@@ -14,7 +14,9 @@ localization_priority: Normal
 search.appverid: MET150
 f1keywords: 
 - ms.teamsadmincenter.meetingsettings.overview
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Learn how to manage settings for Teams meetings that users schedule in your organization. 
 ---
 

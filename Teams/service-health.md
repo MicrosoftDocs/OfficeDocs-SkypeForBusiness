@@ -6,7 +6,9 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 search.appverid: MET150
 description: It's a good practice to verify that the Teams service is healthy as well as other Office 365 components such as Exchange, SharePoint, and OneDrive for Business.
 appliesto: 
