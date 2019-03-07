@@ -1,5 +1,5 @@
 ---
-title: "Get started with Messaging Policies for Healthcare organizations"
+title: "Get started with Secure Messaging for Healthcare organizations"
 author: jambirk
 ms.author: jambirk 
 manager: serdars
@@ -12,10 +12,10 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: 
-description: Get started with Messaging Policies for Healthcare organizations
+description: Get started with Secure Messaging for Healthcare organizations
 ---
 
-# Get started with Secure Messaging policies for Healthcare organizations
+# Get started with Secure Messaging for Healthcare organizations
 
 Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams, and are part of the overall deployment of Secure Messaging for Healthcare organizations like Hospitals, clinics, or doctor's offices. 
 
