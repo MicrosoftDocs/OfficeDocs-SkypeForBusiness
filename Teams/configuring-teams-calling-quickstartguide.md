@@ -13,6 +13,7 @@ localization_priority: Normal
 MS.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - Teams_ITAdmin_Training
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---

@@ -7,7 +7,9 @@ ms.date: 10/10/2018
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 ms.reviewer: karuanag
 search.appverid: MET150
 description: Discover all the ways to get help in Microsoft Teams.

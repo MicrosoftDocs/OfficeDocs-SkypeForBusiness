@@ -6,7 +6,9 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Learn how to enable or disable user-level access on a per-user basis.
