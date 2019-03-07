@@ -69,7 +69,7 @@ Microsoft Teams gives firstline workers and managers in your organization the to
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-teams.svg" alt="deploy" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" />
                         </div>
                     </div>
                     <div class="cardText">
