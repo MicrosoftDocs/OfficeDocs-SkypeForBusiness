@@ -125,7 +125,7 @@ The following diagram shows two call flows – one with media bypass enabled and
 
 The table below summarizes the difference between Media Processors and Transport Relays.
 
-|Text here | Media Processors | Transport Relays|
+|    | Media Processors | Transport Relays|
 | :--------------|:---------------|:------------|
 In media path for non-bypassed calls for end users | Always | Never | 
 In media path for bypassed calls for end users | Never | If client cannot reach the SBC on the public IP address | 
@@ -254,7 +254,7 @@ High-level configuration steps:
 
 - Create two separate trunks with different FQDNs: one enabled for media bypass; the other not. 
 
-  Both trunks point to the same SBC. The ports for TLS SIP signaling must be different. Thep ports for media must be the same.
+  Both trunks point to the same SBC. The ports for TLS SIP signaling must be different. The ports for media must be the same.
 
 - Assign the correct trunk depending on the type of the user in the Online Voice Routing policy.
 
@@ -265,7 +265,7 @@ The example below illustrates this logic.
 Users with Teams clients and 3PIP phones | 20 | sbc1.contoso.com:5061 | false | 
 Users with only Teams end points (including new phones certified for Teams) | 980 | sbc2.contoso.com:5060 | true
 
-Both trunks can point to the same SBC with the same public IP address. The TLS signaling ports on the SBC must be different, as shown in the following diagram. Note you will need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contos.com**) or have a wildcard certificate.
+Both trunks can point to the same SBC with the same public IP address. The TLS signaling ports on the SBC must be different, as shown in the following diagram. Note you will need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.
 
 
 ![Shows Both trunks can point to the same SBC with the same public IP)](media/direct-routing-media-bypass-7.png)

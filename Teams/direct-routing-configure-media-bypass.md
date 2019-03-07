@@ -38,7 +38,7 @@ You can switch all users at once or you can implement a phased approached (recom
 
 - **Phased approach. (Recommended)**.  Create a new trunk for the same SBC (with a different port), test it, and change the online voice routing policy for the users to point to the new trunk. 
 
-  This is the recommended approach because it allows for a smoother transition and uninterrupted user experience. This approach requires configuration of the SBC, a new FQDN name, and configuration of the firewall. Note you will need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contos.com**) or have a wildcard certificate.
+  This is the recommended approach because it allows for a smoother transition and uninterrupted user experience. This approach requires configuration of the SBC, a new FQDN name, and configuration of the firewall. Note you will need to make sure that your certificate supports both trunks. In SAN, you need to have two names (**sbc1.contoso.com** and **sbc2.contoso.com**) or have a wildcard certificate.
 
 ![Migrate from non-bypassed trunks to bypass-enabled trunks)](media/direct-routing-media-bypass-8.png)
 
