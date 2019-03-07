@@ -13,7 +13,9 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom:
 - Devices
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---
