@@ -140,3 +140,44 @@ Microsoft Teams gives firstline workers and managers in your organization the to
         </a>
     </li>
 </ul>
+
+### Teams for firstline workers in Retail settings
+
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="https://docs.microsoft.com/microsoftteams/manage-the-shifts-app-for-your-organization-in-teams">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-teams.svg" alt="flag" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>placeholder</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>placeholder</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
