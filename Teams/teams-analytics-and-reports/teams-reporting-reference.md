@@ -10,6 +10,7 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
+f1keywords: ms.teamsadmincenter.analyticsandreports.overview
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
