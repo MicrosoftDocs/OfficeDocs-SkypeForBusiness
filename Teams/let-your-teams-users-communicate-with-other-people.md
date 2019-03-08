@@ -15,6 +15,7 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
+f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: "See how to configure Teams to let users communicate with users in another organization."
 ---
 
