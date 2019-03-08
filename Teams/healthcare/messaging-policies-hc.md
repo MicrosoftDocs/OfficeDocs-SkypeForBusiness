@@ -33,13 +33,12 @@ The following settings are of special value to Healthcare applications, and shou
 
 - **Read receipts** Read receipts allows the sender of a chat message to know when their message was read by the recipient. Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled for everyone. Message read receipts are important in Healthcare organizations because they remove uncertainly about whether a message was read. 
 
-  For Healthcare applications, choose either **User controlled** or **Enabled for everyone**. 
+  For Healthcare applications, choose either **User controlled** or **Enabled for everyone**.
   
 - **Users can send priority notifications** Use this setting to allow users to send priority chat messages to other users. This feature helps hospital staff alert one another when a critical incident requires their attention. Unlike regular “important” messages, priority notifications repeatedly notify users for a period of 20 minutes or until messages are picked up and read by the recipient, maximizing the likelihood that the message is picked up and acted upon in a timely manner.
 
-  An admin can enable or disable the ability for users assigned this policy to send priority notifications. The default setting is disabled. The recipient of the priority message might not have the same messaging policy, and will not have an option to disable receiving priority messages. For Healthcare applications, we recommend enabling the feature for at least some groups, but which
+  An admin can enable or disable the ability for users assigned this policy to send priority notifications. The default setting is disabled. The recipient of the priority message might not have the same messaging policy, and will not have an option to disable receiving priority messages. For Healthcare applications, we recommend enabling the feature for at least some groups, but you'll need to determine which ones.
 
 ## More information
 
 [Full Messaging Policies article](../messaging-policies-in-teams.md)
-
