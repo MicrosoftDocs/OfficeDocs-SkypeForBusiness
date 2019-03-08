@@ -691,7 +691,7 @@
 #### [HealthCare](teams-for-firstline-workers/healthcare/firstline-healthcare.md)
 #### [Patient coordination](teams-for-firstline-workers/healthcare/patient-care-coord.md)
 #### [Managing the Patients app](teams-for-firstline-workers/healthcare/patients-application.md)
-#### [Secure messaging}(teams-for-firstline-workers/healthcare/secure-messaging.md)
+#### [Secure messaging](teams-for-firstline-workers/healthcare/secure-messaging.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 ## [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
