@@ -16,7 +16,7 @@ appliesto:
 
 # Microsoft Teams for firstline workers
 
-Microsoft Teams gives firstline workers and managers in your organization the tools they need to communicate and collaborate effectively on the go. Here you'll find the admin guidance you need to set up and manage firstline worker capabilities such as Shifts, the schedule management tool, in Teams.
+Microsoft Teams gives firstline workers and managers in your organization the tools they need to communicate and collaborate effectively and do their best work. Here you'll find the admin guidance you need to set up and manage firstline worker capabilities such as Shifts, the schedule management tool, in Teams.
 
 ### Move from StaffHub to Shifts in Teams
 

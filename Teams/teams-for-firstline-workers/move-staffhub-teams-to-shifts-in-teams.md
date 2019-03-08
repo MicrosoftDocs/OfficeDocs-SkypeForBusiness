@@ -17,31 +17,82 @@ appliesto:
 # Move your Microsoft StaffHub teams to Shifts in Microsoft Teams
 
 > [!IMPORTANT]
-> Effective October 1, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities, including schedule and task management, into Microsoft Teams. Additional capabilities for firstline workers will roll out over time. StaffHub will stop functioning for all users on October 1, 2019. Users who try to open it will be shown a message directing them to download Teams.  
+> Effective October 1, 2019, Microsoft StaffHub will be retired. We’re building StaffHub capabilities, including schedule and task management, into Microsoft Teams. Additional capabilities for firstline workers will roll out over time. StaffHub will stop functioning for all users on October 1, 2019 and users who try to open it will be shown a message directing them to download Teams.  
 
-With the Shifts app in Microsoft Teams, managers in your organization can create and manage schedules and team members can view their upcoming shifts, set availability, request to swap or offer a shift, and request time off, all from their mobile devices.  
+With the Shifts app in Microsoft Teams, firstline managers in your organization can create and manage schedules and firstline workers can view their upcoming shifts, set availability, request to swap or offer a shift, and request time off, all from their mobile devices.  
 
-This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the guidance you need to help make your transition to Teams successful.
+This article walks you through how to move your organization’s StaffHub teams and schedule data to Shifts in Teams. Whether you’re a small business with one or two StaffHub teams or a large enterprise with hundreds of StaffHub teams, here you’ll find the admin guidance you need to help make your transition to Teams successful.
+
+## What you need to know about the move to Teams
+
+When you move a StaffHub team to Shifts in Teams, here's what happens:
+
+- Every StaffHub team needs an Office 365 Group. If a StaffHub team doesn't have an Office 365 Group, an Office 365 Group is automatically created for you to support the move to Teams. The team name in Teams uses the Office 365 Group name, so you'll see a different name when you switch over to Teams.
+- The following is moved to Teams:
+    - Team membership
+    - Team schedule
+    - Schedule data
+    - Chat data from the last 90 days
+    - Files from the last 90 days
+
+After you move a StaffHub team to Shifts in Teams, members of that team won't be able access their schedule in StaffHub. They will be redirected to Shifts in Teams.
+
+### Features
+
+Here's a list of StaffHub features, showing those that are replaced by an equivalent experience in Teams and those that are deprecated. Features that aren't available in Teams may be available at a later time. 
+
+|StaffHub feature |Teams experience |
+|---------|---------|
+|Files    | The **Files** tab in the General channel of the team        |
+|Tasks    |         |
+|Messages     | Chats        |
+|Flow     | Graph API        |
+|Kronos integration     | Kronos bot, channels, and tabs       |
+|Corporate announcements  |         |
+|Custom fields   |         |
+|Home page    |         |
+|Phone numbers of team members     | Displayed if the StaffHub phone number matches the phone number in Azure AD        |
+|StaffHub PowerShell cmdlets   | [Teams PowerShell cmdlets](../teams-powershell-overview.md)      |
+|Conditional access policies    |         |
+|Organizational shared employee resources | Channels and tabs       |
+|Non-provisioned team members|         |
+|Native StaffHub reports and Microsoft 365 admin center reports    | [Teams reporting in the Microsoft Teams admin center](../teams-analytics-and-reports/teams-reporting-reference.md)<br>[Teams activity reports in the Microsoft 365 admin center](../teams-activity-reports.md)      | 
+|SMS and and email invitations to join teams and install the app    | Email invitations for Office 365 accounts in Azure AD        |
+|In-app support   | [Teams feedback portal on UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)      |
+
 
 ## Prepare
 
+Here are the steps to take to prepare for the move to Shifts in Teams.
+
 ### Assign Teams licenses
 
-StaffHub users in your organization must have a Teams license, which enables them on Teams. Shifts is available in all Office 365 subscriptions that include Teams with the exceptions of US Government Cloud Community (GCC) and Teams free.
+Teams is enabled by assigning Teams licenses to users. Firstline workers and managers in your organization must have a Teams license, which gives them access to Teams. Shifts is available in all Office 365 subscriptions that include Teams with the exceptions of US Government Cloud Community (GCC) and Teams free.
 
 You manage Teams licenses in the Microsoft 365 admin center. To learn more, see [Office 365 licensing for Teams](../Office-365-licensing.md) and [Manage user access to Teams](../user-access.md).
 
 > [!NOTE]
-> If your organization uses Skype for Business and you’re not ready to move all your users to Teams, you can have firstline workers run Teams alongside Skype for Business. In this coexistence mode, called *Islands*, each client app operates as a separate solution. To learn more, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+> If your organization uses Skype for Business and you’re not ready to move all your users to Teams, you can enable Teams for your firstline workers and managers who can then run Teams alongside Skype for Business. In this coexistence mode, called *Islands*, each client app operates as a separate solution. To learn more, see [Understand Teams and Skype for Business coexistence and interoperability](../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 ### Provision accounts for StaffHub users who don't have an identity in Azure AD
 
-StaffHub users must have an identity in Azure Active Directory (Azure AD). If StaffHub users don't already have an identity in Azure AD, provision an account for them.  
+Each firstline worker and manager must have an identity in Azure Active Directory (Azure AD). If they don't already have an identity in Azure AD, provision an Office 365 account for them. Here's how.
 
-### Pilot
+#### Firstline managers and team owners
 
-## Move your StaffHub teams
+#### Admins
 
+
+## Run a pilot with one or two StaffHub teams
+
+
+## Move your organization's StaffHub teams
+
+### Get Teams clients
+
+Teams has clients for desktop (Windows and Mac), web, and mobile (iOS and Android). To learn more, go to [Get clients for Teams](../get-clients.md)
+
+## Monitor Teams usage
 
 ## Related topics
 - [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md)
