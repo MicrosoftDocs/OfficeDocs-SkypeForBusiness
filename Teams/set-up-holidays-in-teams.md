@@ -33,23 +33,37 @@ For more information about auto attendants, see [What are Phone System auto atte
 ## Create a holiday
 
 1. In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.
+
 2. Select **New holiday**.
+
 3. Enter a name for the holiday.
+
 4. Select **Add new date**.
+
 5. Under **Start time**, select the calendar icon and choose the date when you’d like the holiday to begin.
+
 6. Use the drop-down list to select a start time for the holiday.
+
 7. Under **End time**, select the calendar icon and choose the date when you’d like the holiday to end. If the holiday is one day only, this should be the same date as the one you chose under **Start time**.
+
 8. Use the drop-down list to select an end time for the holiday.
+
 9. Select **Save**.
 
 ## Change a holdiay
 
 1. In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.
+
 2. Select the holiday from the list.
+
 3. Under **Start time**, select the calendar icon and choose the date when you’d like the holiday to begin.
+
 4. Use the drop-down list to select a start time for the holiday.
+
 5. Under **End time**, select the calendar icon and choose the date when you’d like the holiday to end. 
+
 6. Use the drop-down list to select an end time for the holiday.
+
 7. Select **Save**.
 
 ## Connect a holiday to an auto attendant
