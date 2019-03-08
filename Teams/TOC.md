@@ -691,7 +691,16 @@
 #### [HealthCare](teams-for-firstline-workers/healthcare/firstline-healthcare.md)
 #### [Patient coordination](teams-for-firstline-workers/healthcare/patient-care-coord.md)
 #### [Managing the Patients app](teams-for-firstline-workers/healthcare/patients-application.md)
-#### [Secure messaging](teams-for-firstline-workers/healthcare/secure-messaging.md)
+#### [Get started with Secure Messaging for Healthcare organizations](healthcare/messaging-policies-hc.md)
+#### [AMION API integration with Teams](healthcare/amion-api.md)
+#### [Auditing read receipts for admins](healthcare/audit-receipts.md)
+#### [Set a delegate status](healthcare/hc-delegates.md)
+#### [Message Escalations](healthcare/hc-escalations.md)
+#### [Team-scoped roles](healthcare/hc-roles.md)
+#### [Tasks](healthcare/hc-tasks.md)
+#### [Shifts Graph API enabled for SIs/ISVs/Admins](healthcare/shifts-api.md)
+#### [User sideloaded health team templates](healthcare/sideloaded-templates.md)
+
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 ## [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
