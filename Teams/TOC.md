@@ -681,7 +681,7 @@
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 
-## [Teams for firstline workers](teams-for-firstline-workers/shifts/teams-for-firstline-workers-landing-page.md)
+## [Teams for firstline workers](teams-for-firstline-workers/teams-for-firstline-workers-landing-page.md)
 ### Shifts
 #### [Microsoft StaffHub to be retired](teams-for-firstline-workers/shifts/microsoft-staffhub-to-be-retired.md)
 #### [Move your Microsoft StaffHub teams to Shifts in Teams](teams-for-firstline-workers/shifts/move-staffhub-teams-to-shifts-in-teams.md)
