@@ -681,10 +681,17 @@
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 
-## [Teams for firstline workers](teams-for-firstline-workers/teams-for-firstline-workers-landing-page.md)
-### [Microsoft StaffHub to be retired](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
-### [Move your Microsoft StaffHub teams to Shifts in Teams](teams-for-firstline-workers/move-staffhub-teams-to-shifts-in-teams.md)
+## [Teams for firstline workers](teams-for-firstline-workers/shifts/teams-for-firstline-workers-landing-page.md)
+### [Shifts]
+### [Microsoft StaffHub to be retired](teams-for-firstline-workers/shifts/microsoft-staffhub-to-be-retired.md)
+### [Move your Microsoft StaffHub teams to Shifts in Teams](teams-for-firstline-workers/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [HealthCare]
+#### (teams-for-firstline-workers/healthcare/ehr-integration.md)
+#### (teams-for-firstline-workers/healthcare/firstline-healthcare.md)
+#### (teams-for-firstline-workers/healthcare/patient-care-coord.md)
+#### (teams-for-firstline-workers/healthcare/patients-application.md)
+#### (teams-for-firstline-workers/healthcare/secure-messaging.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 ## [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
