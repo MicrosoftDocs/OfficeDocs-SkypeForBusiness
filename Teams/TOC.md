@@ -683,6 +683,7 @@
 
 ## [Teams for firstline workers](teams-for-firstline-workers/teams-for-firstline-workers-landing-page.md)
 ### [Microsoft StaffHub to be retired](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
+### [Move your Microsoft StaffHub teams to Shifts in Teams](teams-for-firstline-workers/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
