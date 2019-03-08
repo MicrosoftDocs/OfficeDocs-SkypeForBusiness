@@ -682,11 +682,11 @@
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 
 ## [Teams for firstline workers](teams-for-firstline-workers/shifts/teams-for-firstline-workers-landing-page.md)
-### [Shifts]
+### Shifts
 ### [Microsoft StaffHub to be retired](teams-for-firstline-workers/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Move your Microsoft StaffHub teams to Shifts in Teams](teams-for-firstline-workers/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
-### [HealthCare]
+### HealthCare
 #### (teams-for-firstline-workers/healthcare/ehr-integration.md)
 #### (teams-for-firstline-workers/healthcare/firstline-healthcare.md)
 #### (teams-for-firstline-workers/healthcare/patient-care-coord.md)
