@@ -10,7 +10,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
