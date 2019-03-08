@@ -9,7 +9,7 @@ ms.service:
 - msteams
 - skype-for-business-online
 ms.collection: 
-- Adm_Skype4B_Online 
+- M365-collaboration
 - Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:

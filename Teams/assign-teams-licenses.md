@@ -6,7 +6,9 @@ manager: serdars
 ms.date: 12/14/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 search.appverid: MET150
 ms.reviewer: mikedav
 description: "Learn how to assign licenses for features like Audio Conferencing, Phone System, and Calling plans."
