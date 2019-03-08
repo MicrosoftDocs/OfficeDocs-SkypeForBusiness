@@ -40,7 +40,7 @@ Microsoft Teams gives firstline workers and managers in your organization the to
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-quick-start-checklist">
+        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-for-firstline-workers/move-staffhub-teams-to-shifts-in-teams?branch=FLW-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
