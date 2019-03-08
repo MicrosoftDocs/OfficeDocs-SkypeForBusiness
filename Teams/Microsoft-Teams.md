@@ -4,6 +4,11 @@ hide_bc: true
 title: Microsoft Teams technical documentation
 description: Microsoft Teams technical documentation
 ms.topic: hub-page
+f1keywords: 
+- ms.teamsadmincenter.apppolicies.overview
+- ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
+- ms.teamsadmincenter.dashboard.widget.upgrade.complete
+- ms.teamsadmincenter.orgwidesettings.holidays.overview
 ---
 <div id="main" class="v2">
     <div class="container">

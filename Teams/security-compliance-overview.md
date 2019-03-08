@@ -148,4 +148,4 @@ Privacy in Teams
 
 As a customer of Office 365, you own and control your data. Microsoft does not use your data for anything other than providing you with the service that you have subscribed to. As a service provider, we do not scan your email, documents, or teams for advertising or for purposes that are not service-related. Microsoft doesn’t have access to uploaded content. Like OneDrive for Business and SharePoint Online, customer data stays within the tenant.
 
-Check out more about our trust and security related information at the [Office 365 Trust Center](https://go.microsoft.com/fwlink/?linkid=855779). Teams follows the same guidance and principles as the Office 365 Trust Center.
+Check out more about our trust and security related information at the [Microsoft Trust Center](https://microsoft.com/trustcenter). Teams follows the same guidance and principles as the Microsoft Trust Center.

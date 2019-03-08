@@ -9,6 +9,9 @@ ms.service: msteams
 search.appverid: MET150
 description: Learn about the different teams, channels, and apps available to a wide variety of requirements such as finance, event planning, sales, and more.
 localization_priority: Normal
+f1keywords: 
+- ms.teamsadmincenter.teamschannel.overview
+- ms.teamsadmincenter.teamssettings.overview
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration

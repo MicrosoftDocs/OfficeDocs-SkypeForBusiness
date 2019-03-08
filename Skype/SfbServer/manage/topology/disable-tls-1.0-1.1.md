@@ -39,7 +39,11 @@ Microsoft has produced a white paper on TLS available [here](https://cloudblogs.
 - In-place Upgraded Skype for Business Server 2015, with CU6 HF2 and higher on 
     - Windows Server 2008 R2, 2012 (with KB [3140245](https://support.microsoft.com/en-us/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) or superseding update), or 2012 R2
 - Exchange Connectivity and Outlook Web App with Exchange Server 2010 SP3 RU19 or higher, guidance [here](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)
- 
+- Survivable Branch Appliance (SBA) with Skype for Business Server 2015 CU6 HF2 or higher (confirm with your vendor that they packaged the appropiate updates and have been made available for your appliance)
+- Survivable Branch Server (SBS) with Skype for Business Server 2015 CU6 HF2 or higher
+- Lync Server 2013 **Edge Role Only**, this is because Edge role does not have a dependency on Windows Fabric 1.0.
+
+
 ### Fully tested and supported clients
 
 - Lync 2013 (Skype for Business) Desktop Client, MSI and C2R, including Basic [15.0.5023.1000 and higher](https://support.microsoft.com/en-us/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
@@ -69,6 +73,7 @@ Microsoft has produced a white paper on TLS available [here](https://cloudblogs.
 Except where noted, the following products are not in scope for TLS 1.0/1.1 disable support and will not function in an environment where TLS 1.0 and 1.1 have been disabled.  What this means: if you still utilize out-of-scope servers or clients, you must update or remove these if you need to disable TLS 1.0/1.1 anywhere in your Skype for Business Server on-premises deployment.
 
 - Lync Server 2013
+- Lync Server 2010
 - Windows Server 2008 and lower
 - Lync for Mac 2011
 - Lync 2013 for Mobile - iOS, iPad, Android or Windows Phone
@@ -76,6 +81,8 @@ Except where noted, the following products are not in scope for TLS 1.0/1.1 disa
 - All Lync 2010 clients
 - Lync Phone Edition - updated guidance [here](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/ba-p/120035).
 - 2013 based Survivable Branch Appliance (SBA) or Survivable Branch Server (SBS)
+- Cloud Connector Edition (CCE)
+- Skype for Business for Windows Phone
 
 ### Exceptions
 

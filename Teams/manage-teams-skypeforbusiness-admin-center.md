@@ -3,7 +3,7 @@ title: Manage Teams during the transition to the new Microsoft Teams admin cente
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/05/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
@@ -12,6 +12,7 @@ description: Understand how to manage tenant-wide and user settings for Teams du
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
+f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
