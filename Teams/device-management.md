@@ -7,7 +7,9 @@ ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kelsawi
-f1keywords: ms.teamsadmincenter.devicemanagement.overview
+f1keywords: 
+- ms.teamsadmincenter.devicemanagement.overview
+- ms.teamsadmincenter.managedevices.overview
 description: Learn how to manage devices used with Teams in your organization. 
 localization_priority: Normal
 appliesto: 

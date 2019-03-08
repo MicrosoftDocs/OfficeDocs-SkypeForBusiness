@@ -11,6 +11,14 @@ description: Get started updating Skype for Business to Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
+f1keywords: 
+- ms.teamsadmincenter.dashboard.helparticle.journeyskypeforbusinessteams
+- ms.teamsadmincenter.dashboard.widget.upgrade.opt-in
+- ms.teamsadmincenter.dashboard.widget.upgrade.planning
+- ms.teamsadmincenter.dashboard.widget.upgrade.pause
+- ms.teamsadmincenter.dashboard.widget.upgrade.rolledback
+- ms.teamsadmincenter.users.teamsupgradestatuscolumn
+- ms.teamsadmincenter.users.teamsupgradepage
 MS.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
