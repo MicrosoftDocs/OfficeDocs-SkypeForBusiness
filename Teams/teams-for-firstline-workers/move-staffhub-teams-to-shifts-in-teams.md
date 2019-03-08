@@ -25,21 +25,24 @@ This article walks you through how to move your organization’s StaffHub teams 
 
 ## What you need to know about the move to Teams
 
+### When to move to Teams
+
+### What is moved to Teams
+
 When you move a StaffHub team to Shifts in Teams, here's what happens:
 
 - Every StaffHub team needs an Office 365 Group. If a StaffHub team doesn't have an Office 365 Group, an Office 365 Group is automatically created for you to support the move to Teams. The team name in Teams uses the Office 365 Group name, so you'll see a different name when you switch over to Teams.
 - The following is moved to Teams:
     - Team membership
     - Team schedule
-    - Schedule data
     - Chat data from the last 90 days
     - Files from the last 90 days
 
-After you move a StaffHub team to Shifts in Teams, members of that team won't be able access their schedule in StaffHub. They will be redirected to Shifts in Teams.
+After you move a StaffHub team to Teams, members of that team will no longer be able access their schedule in StaffHub. They will be redirected to Shifts in Teams.
 
 ### Features
 
-Here's a list of StaffHub features, showing those that are replaced by an equivalent experience in Teams and those that are deprecated. Features that aren't available in Teams may be available at a later time. 
+Here's a list of StaffHub features, showing those that are replaced by an equivalent experience in Teams and those that are deprecated. Capabilities that aren't available in Teams may be available at a later time.
 
 |StaffHub feature |Teams experience |
 |---------|---------|
@@ -60,10 +63,9 @@ Here's a list of StaffHub features, showing those that are replaced by an equiva
 |SMS and and email invitations to join teams and install the app    | Email invitations for Office 365 accounts in Azure AD        |
 |In-app support   | [Teams feedback portal on UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)      |
 
-
 ## Prepare
 
-Here are the steps to take to prepare for the move to Shifts in Teams.
+Here are the steps to take to prepare for the move to Teams.
 
 ### Assign Teams licenses
 
@@ -88,9 +90,11 @@ Each firstline worker and manager must have an identity in Azure Active Director
 
 ## Move your organization's StaffHub teams
 
+When you're ready to 
+
 ### Get Teams clients
 
-Teams has clients for desktop (Windows and Mac), web, and mobile (iOS and Android). To learn more, go to [Get clients for Teams](../get-clients.md)
+Teams has clients for desktop (Windows and Mac), web, and mobile (iOS and Android). To learn more, go to [Get clients for Teams](../get-clients.md).
 
 ## Monitor Teams usage
 
