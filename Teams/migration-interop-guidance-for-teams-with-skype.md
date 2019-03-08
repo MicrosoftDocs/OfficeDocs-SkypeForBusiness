@@ -9,8 +9,10 @@ ms.reviewer: bjwhalen
 description: Guidance for managing the transition to Teams from Skype for Business 
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
 f1keywords: ms.teamsadmincenter.teamsupgrade.overview
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
@@ -31,7 +33,7 @@ As an organization with Skype for Business starts to adopt Teams, administrators
 3.  All Teams users have an underlying Skype for Business account that is “homed” either online or on-premises:
     - Users already using Skype for Business Online use their existing online account.
     - Users already using Skype for Business/Lync on-premises use their existing on-premises account.
-    - Users for whom we cannot detect an existing Skype for Business account will have a Skype for Business Online account automatically provisioned when the Teams user is created. No Skype for Business license is required.
+    - Users for whom we cannot detect an existing Skype for Business account will have a Skype for Business Online account automatically provisioned when the Teams user is created.
 
 4.  If you have an on-premises deployment of either Skype for Business or Lync, and you want those users to be Teams users, you must at a minimum ensure that Azure AD Connect is syncing the msRTCSIP-DeploymentLocator attribute into AAD, so that Teams/Skype for Business Online properly detects your on-premises environment. Furthermore, to move any users to Teams-only mode (i.e., upgrade a user), *you must first configure Skype for Business hybrid mode*. For more details, see [Configure Azure AD Connect for Skype for Business and Teams](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 

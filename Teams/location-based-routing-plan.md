@@ -10,7 +10,10 @@ ms.reviewer: roykuntz
 search.appverid: MET150
 description: Learn how to plan Location-Based Routing for Direct Routing.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:  
+- Teams_ITAdmin_Help
+- M365-collaboration
+- M365-voice
 appliesto: 
 - Microsoft Teams
 ---

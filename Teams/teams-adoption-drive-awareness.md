@@ -12,7 +12,9 @@ localization_priority: Normal
 search.appverid: MET150
 description: Learn how to increase awareness and implement a training program for Microsoft Teams adoption.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection: 
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---

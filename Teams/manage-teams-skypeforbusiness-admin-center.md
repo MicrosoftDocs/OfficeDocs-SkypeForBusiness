@@ -12,8 +12,10 @@ description: Understand how to manage tenant-wide and user settings for Teams du
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 - Skype for Business Online

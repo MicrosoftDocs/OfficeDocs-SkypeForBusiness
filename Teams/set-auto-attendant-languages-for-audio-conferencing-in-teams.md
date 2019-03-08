@@ -9,9 +9,10 @@ ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: 
+ms.collection:  
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams

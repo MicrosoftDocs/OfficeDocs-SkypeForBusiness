@@ -10,7 +10,9 @@ ms.reviewer: lolaj
 description: Learn how to create your first set of teams and channels in Microsoft Teams. 
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---

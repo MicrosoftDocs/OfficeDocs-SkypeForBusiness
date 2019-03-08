@@ -12,7 +12,7 @@ ms.service:
 - msteams
 ms.collection: 
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online 
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,7 +22,6 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-ms.assetid: 
 description: "Set up and use Call Analytics to identify and troubleshoot Skype for Business and Microsoft Teams call quality problems."
 ---
 

@@ -10,8 +10,10 @@ ms.reviewer: rowille
 description: Prepare your organization's network for Quality of Service (QoS) in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
 f1keywords: ms.teamsadmincenter.meetingsettings.qos
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 ---

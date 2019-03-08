@@ -10,7 +10,9 @@ ms.reviewer: rowille
 description: Implement Quality of Service (QoS) for  Microsoft Teams clients.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance 
+- M365-voice 
 appliesto:
 - Microsoft Teams
 ---

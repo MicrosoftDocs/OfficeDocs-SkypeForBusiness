@@ -10,7 +10,10 @@ ms.service: msteams
 search.appverid: MET150
 description: Learn terminology and concepts associated with Location-Based Routing for Direct Routing.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:  
+- Teams_ITAdmin_Help
+- M365-collaboration
+- M365-voice
 appliesto: 
 - Microsoft Teams
 ---

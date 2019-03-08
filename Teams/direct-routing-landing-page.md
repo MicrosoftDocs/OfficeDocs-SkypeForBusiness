@@ -6,13 +6,14 @@ manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:  
+- Teams_ITAdmin_Help
+- M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 F1keywords: ms.teamsadmincenter.directrouting.overview
 description: Landing page for Direct Routing
-appliesto: 
-- Microsoft Teams
+appliesto: Microsoft Teams
 ---
 
 # Phone System Direct Routing

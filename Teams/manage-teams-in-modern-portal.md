@@ -12,7 +12,9 @@ description: "Learn how to view or update your teams in the Microsoft Teams admi
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin 
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration 
 appliesto: 
 - Microsoft Teams
 ---
