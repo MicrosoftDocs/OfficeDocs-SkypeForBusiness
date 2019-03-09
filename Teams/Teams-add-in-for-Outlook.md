@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 10/02/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
