@@ -9,6 +9,7 @@ ms.service: msteams
 description: Learn how to properly configure Office 365 URLs and IP address ranges, bypass the forward proxy where available for connections with Microsoft Teams service, and the requirements for networking and security policies.
 localization_priority: Normal
 search.appverid: MET150
+f1keywords: ms.teamsadmincenter.meetingsettings.network.ports
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration

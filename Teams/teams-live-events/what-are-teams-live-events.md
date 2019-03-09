@@ -11,6 +11,7 @@ MS.collection:
 ms.reviewer: tonysmit
 search.appverid: MET150
 description: Learn how live events enable users to broadcast video and content to large online audiences in Microsoft Teams, Yammer, and Microsoft Stream.  
+f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto: 
 - Microsoft Teams
 ---
