@@ -1,6 +1,16 @@
 { 
   "redirections": [ 
     {
+      "source_path": "Teams/manage-the-shifts-app-for-your-organization-in-teams.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams",
+      "redirect_document_id": true 
+      },
+      {
+      "source_path": "Teams/microsoft-staffhub-to-be-retired.md",
+      "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-for-firstline-workers/microsoft-staffhub-to-be-retired",
+      "redirect_document_id": true 
+      },
+    {
       "source_path": "Teams/msi-sccm-deployment.md",
       "redirect_url": "https://docs.microsoft.com/microsoftteams/msi-deployment",
       "redirect_document_id": true 
