@@ -7,9 +7,7 @@ ms.reviewer: mikedav, roykuntz
 ms.topic: article
 ms.assetid: 2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b
 ms.tgt.pltfrm: cloud
-ms.service: 
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help

@@ -7,9 +7,7 @@ ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
-ms.service:  
-- skype-for-business-online
-- msteams
+ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
