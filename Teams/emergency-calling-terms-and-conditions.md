@@ -10,8 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:  
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 search.appverid: MET150
 ms.audience: Admin

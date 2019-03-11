@@ -5,14 +5,12 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
-ms.topic: article
+ms.topic: reference
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin

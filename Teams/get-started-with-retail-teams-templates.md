@@ -8,6 +8,9 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
+ms.collection: 
+- M365-collaboration
+- Teams_ITAdmin_Help
 localization_priority: Normal
 search.appverid: MET150
 description: "Learn how to use Teams templates to create team structures designed for retailer needs."
