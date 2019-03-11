@@ -1,5 +1,5 @@
 ---
-title: Expanding Microsoft Teams across your organization
+title: Expand Microsoft Teams across your organization
 description: Use these resources to get the most out of Teams across your organization.
 layout: LandingPage
 ms.topic: landing-page
@@ -26,7 +26,7 @@ Teams gives firstline workers and managers in your organization the tools they n
 
 <ul class="panelContent cardsFTitle">
  <li>
-        <a href="https://docs.microsoft.com/microsoftteams/microsoft-staffhub-to-be-retired">
+        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/shifts/microsoft-staffhub-to-be-retired?branch=FLW-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -44,7 +44,7 @@ Teams gives firstline workers and managers in your organization the tools they n
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-for-firstline-workers/move-staffhub-teams-to-shifts-in-teams?branch=FLW-working">
+        <a href="https://review.docs.microsoft.com/MicrosoftTeams/shifts/teams-for-firstline-workers/move-staffhub-teams-to-shifts-in-teams?branch=FLW-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -67,7 +67,7 @@ Teams gives firstline workers and managers in your organization the tools they n
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/manage-the-shifts-app-for-your-organization-in-teams">
+        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/shifts/manage-the-shifts-app-for-your-organization-in-teams?branch=FLW-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -85,7 +85,7 @@ Teams gives firstline workers and managers in your organization the tools they n
         </a>
     </li>
     <li>
-        <a href="https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b">
+        <a href="https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -144,7 +144,7 @@ Teams gives firstline workers and managers in your organization the tools they n
         </a>
     </li>
 <li>
-        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-for-firstline-workers/healthcare/patient-care-coord?branch=flw-working">
+        <a href="https://review.docs.microsoft.com/MicrosoftTeams/teams-for-firstline-workers/healthcare/patient-care-coord?branch=flw-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -242,7 +242,7 @@ Teams gives firstline workers and managers in your organization the tools they n
         </a>
     </li>
     <li>
-        <a href="https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b">
+        <a href="https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
