@@ -104,7 +104,7 @@ Teams gives firstline workers and managers in your organization the tools they n
     </li>
 </ul>
 
-### Teams for Healthcare 
+## Teams for Healthcare 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -220,7 +220,7 @@ Teams gives firstline workers and managers in your organization the tools they n
         </a>
     </li>
 
-### Teams for Retail 
+## Teams for Retail 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -230,7 +230,7 @@ Teams gives firstline workers and managers in your organization the tools they n
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-list-plannning-teams.svg" alt="tasks" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -248,7 +248,7 @@ Teams gives firstline workers and managers in your organization the tools they n
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/best-practices-teams.svg" alt="best practices" />
                         </div>
                     </div>
                     <div class="cardText">
