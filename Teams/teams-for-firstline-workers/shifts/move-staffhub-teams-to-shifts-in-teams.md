@@ -71,7 +71,7 @@ Here are the steps to take to prepare for the move to Teams.
 
 Teams is enabled by assigning Teams licenses to users. Firstline workers and managers in your organization must have a Teams license, which gives them access to Teams. Shifts is available in all Office 365 subscriptions that include Teams with the exceptions of US Government Cloud Community (GCC) and Teams free.
 
-You manage Teams licenses in the Microsoft 365 admin center. To learn more, see [Office 365 licensing for Teams](../Office-365-licensing.md) and [Manage user access to Teams](../../user-access.md).
+You manage Teams licenses in the Microsoft 365 admin center. To learn more, see [Office 365 licensing for Teams](../../Office-365-licensing.md) and [Manage user access to Teams](../../user-access.md).
 
 > [!NOTE]
 > If your organization uses Skype for Business and you’re not ready to move all your users to Teams, you can enable Teams for your firstline workers and managers who can then run Teams alongside Skype for Business. In this coexistence mode, called *Islands*, each client app operates as a separate solution. To learn more, see [Understand Teams and Skype for Business coexistence and interoperability](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
