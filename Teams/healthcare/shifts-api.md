@@ -11,7 +11,7 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.reviewer: annie colonna
+ms.reviewer: acolonna
 description: Shifts Graph API enabled for SIs/ISVs/Admins
 ---
 

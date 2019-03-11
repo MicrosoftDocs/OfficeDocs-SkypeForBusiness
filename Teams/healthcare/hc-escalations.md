@@ -11,7 +11,7 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.reviewer: vani soff
+ms.reviewer: vanido
 description: User escalation of priority messages to text messages and robocall or forwarding of priority notification to another user 
 ---
 

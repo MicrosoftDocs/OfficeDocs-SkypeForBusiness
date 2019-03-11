@@ -11,7 +11,7 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.reviewer: vani soff, michael lam
+ms.reviewer: vanido, mikelam
 description: Team-scoped roles that people can fall into (i.e. @Doctors will ping all individuals belonging to the tag)
 ---
 
