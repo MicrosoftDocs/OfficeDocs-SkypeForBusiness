@@ -26,7 +26,7 @@ You can use the Microsoft Teams Holidays feature to schedule specific dates and 
 
 You can link the holidays to auto attendants that you create within your organization. Auto attendants let callers navigate a menu system to get to the right department or get to information that they need. When you configure holiday call settings for an auto attendant, you can select the holiday from a list, add a greeting, and specify what to do with the call when it’s answered by the auto attendant during the holiday.
 
-A good example is creating a holiday for Christmas for when many of your employees aren’t at work. After you create the holiday and set times, then you would add the holiday to your main auto attendant with this holiday so when people call in, they will hear an audio message you created. Something like, “We are closed for Christmas from December 22nd through December 27th. Please leave us a voice message so we can return your call when we are back in the office.”
+A good example is creating a holiday for Christmas for when many of your employees aren’t at work. After you create the holiday and set times, then you would add the holiday to your main auto attendant so when people call in, they will hear an audio message you created. Something like, “We are closed for Christmas from December 22nd through December 27th. Please leave us a voice message so we can return your call when we are back in the office.”
 
 For more information about auto attendants, see [What are Phone System auto attendants](what-are-phone-system-auto-attendants.md)?  
 
