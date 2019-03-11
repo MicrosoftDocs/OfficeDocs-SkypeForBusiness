@@ -8,9 +8,7 @@ ms.date: 03/08/2019
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
-ms.service: 
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration

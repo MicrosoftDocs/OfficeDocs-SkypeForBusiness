@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 MS.collection: 
