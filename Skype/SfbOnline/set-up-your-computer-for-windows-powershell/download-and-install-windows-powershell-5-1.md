@@ -1,5 +1,5 @@
 ---
-title: "Download and install Windows PowerShell 3.0"
+title: "Download and install Windows PowerShell 5.1"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
