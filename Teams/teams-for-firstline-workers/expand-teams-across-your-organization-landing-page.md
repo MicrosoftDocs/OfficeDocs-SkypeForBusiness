@@ -1,5 +1,5 @@
 ---
-title: Expand Microsoft Teams across your organization
+title: Expanding Microsoft Teams across your organization
 description: Use these resources to get the most out of Teams across your organization.
 layout: LandingPage
 ms.topic: landing-page
@@ -220,7 +220,8 @@ Teams gives firstline workers and managers in your organization the tools they n
         </a>
     </li>
 </ul>
-## Teams for Retail 
+
+## Teams for Retail
 
 <ul class="panelContent cardsFTitle">
     <li>
