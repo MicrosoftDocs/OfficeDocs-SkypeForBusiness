@@ -5,7 +5,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 MS.collection: 
