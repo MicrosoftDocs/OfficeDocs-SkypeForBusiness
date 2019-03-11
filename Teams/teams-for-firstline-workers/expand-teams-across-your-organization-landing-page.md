@@ -219,7 +219,7 @@ Teams gives firstline workers and managers in your organization the tools they n
         </div>
         </a>
     </li>
-
+</ul>
 ## Teams for Retail 
 
 <ul class="panelContent cardsFTitle">
@@ -230,7 +230,7 @@ Teams gives firstline workers and managers in your organization the tools they n
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough"/>
                         </div>
                     </div>
                     <div class="cardText">
