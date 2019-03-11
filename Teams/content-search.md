@@ -29,3 +29,6 @@ You can also add query criteria to the **Content Search** to narrow the results 
 
 > [!TIP]
 > After adding search conditions, you can export a report or the data to your computer for analysis.
+
+## Related topics
+[eDiscovery cases in the Office 365 Security & Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
