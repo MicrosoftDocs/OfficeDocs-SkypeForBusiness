@@ -28,20 +28,19 @@ Microsoft Teams Rooms provides a complete meeting experience that brings HD vide
 
 [Microsoft Teams Rooms help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) is a great resource to find out more about Microsoft Teams Rooms and how it can add value as part of your  deployment. In addition, we recommend watching this [overview video](https://youtu.be/tNey5KZVCl0). 
 
-
-## Microsoft Teams Rooms components 
+## Microsoft Teams Rooms components
 
 Microsoft Teams Rooms includes the following key components to deliver a great user experience:
 
--   Touchscreen control panel
--   Compute
--   Microsoft Teams Rooms application
--   Dock/extender
--   Peripheral devices (camera, microphone, speaker)
--   External screens (maximum of two)
--   HDMI input
+- Touchscreen control panel
+- Compute
+- Microsoft Teams Rooms application
+- Dock/extender
+- Peripheral devices (camera, microphone, speaker)
+- External screens (maximum of two)
+- HDMI input
 
-You can procure these components as preinstalled bundles from a number of vendors, or you can purchase the supported components individually by following the [requirements documented in this article](requirements.md). 
+You can procure these components as preinstalled bundles from a number of vendors, or you can purchase the supported components individually by following the [requirements documented in this article](requirements.md).
 
 In addition to the Surface Pro/dock combination, you can also purchase Microsoft Teams Rooms with the touchscreen control panel, compute, dock, and key peripheral devices integrated. 
 
@@ -93,7 +92,7 @@ As part of your discovery, it’s key to consider room acoustics and layout. For
 
 _Sample meeting/conference room inventory_
 
-| **Site**  | **Room name** | **Room type** | **Number of people**  | **In scope?** | **Current room capabilities**       | **Future room capabilities**                             |
+| Site  | Room name | Room type | Number of people  | In scope? | Current room capabilities       | Future room capabilities     |
 |-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
 | London HQ | Curie         | Medium        | 6&ndash;12                  | Yes          | Speakerphone                        | 1 screen, audio and video plus presentation<br>PSTN Access |
 | Sydney HQ | Hill          | Large         | 12&ndash;16                 | Yes          | Legacy AV unit, 1 screen and camera | 2 screens, audio and video plus presentation<br>PSTN Access |

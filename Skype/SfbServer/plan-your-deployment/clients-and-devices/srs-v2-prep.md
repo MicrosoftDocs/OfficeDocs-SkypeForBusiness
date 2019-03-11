@@ -50,15 +50,12 @@ A  *device account*  is an account that the Microsoft Teams Rooms client uses to
 In order to function properly, the Microsoft Teams Rooms device must have access to a wired network that meets these requirements:
   
 - Access to your Active Directory or Azure Active Directory (Azure AD) instance, as well as your Microsoft Exchange and Skype for Business servers.
-    
 - Access to a server that can provide an IP address using DHCP. Microsoft Teams Rooms cannot be configured with a static IP address.
-    
 - Access to HTTP ports 80 and 443.
-    
 - TCP and UDP ports configured as described in [Port and protocol requirements for servers](../network-requirements/ports-and-protocols.md) for on premise Skype for Business implementations, or [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) for Skype for Business online implementations.
-    
+
 > [!IMPORTANT]
-> Be sure to use a wired 1 Gbps network connection to assure you will have the needed bandwidth. 
+> Be sure to use a wired 1 Gbps network connection to assure you will have the needed bandwidth.
   
 ### Certificates
 
@@ -67,26 +64,21 @@ Your Microsoft Teams Rooms device uses certificates for Exchange Web Services, S
 You will install certificates the same way you would for any other Windows client. 
   
 > [!NOTE]
-> Certificates may be required in order to have Microsoft Teams Rooms use Skype for Business Server. 
+> Certificates may be required in order to have Microsoft Teams Rooms use Skype for Business Server.
   
 ### Proxy
 
 Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS. Access the Windows OS in the following manner:
   
 1. In the Microsoft Teams Rooms UI, click on the Settings gear icon where you'll be prompted for the local Administrator password on the device (the default password is **sfb**).
-    
 2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is domain joined choose **Other User,** then use .\admin as the user name).
-    
 3. In the **Search Windows** box bottom left type in regedit (either long press the screen or right click and choose **Run as administrator**).
-    
 4. Click on the HKEY_USERS folder (you'll see a list of machine user SIDs) ensure the root folder HKEY_USERS is selected.
-    
+
     You'll be prompted for a Key Name for your newly loaded Hive; type in Skype (you should now see the registry settings for the Skype User).
-    
+
 5. Click on File and then choose **Load Hive.**
-    
 6. Browse the to the **C:\Users\Skype** folder and type in the File name box NTUSER.dat and press the open button
-    
 7. Open the Skype key and browse to HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings then ensure these settings are entered: 
     
     [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
@@ -98,18 +90,16 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
     "ProxyServer"="xx.xx.xx.xx:8080"
     
     If ProxyServer doesn't exist you may have to add this key as a string, change the xx.xx.xx.xx:8080 to the ip/host and port of your Proxy server.
-    
+
 8. Once you are finished making your changes highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (you'll be prompted for confirmation - select **Yes** ).
-    
 9. You can now close the registry editor and type logoff into the Windows search box.
-    
 10. Back at the sign-in screen, choose the **Skype** user. If all the previous steps were successful, the Microsoft Teams Rooms device will sign-in successfully.
-    
+
 To use this application, you must be able to connect to the endpoints described below. To see the IP addresses, expand the IP address section below the table describing the traffic flow.
   
 **Firewall Proxy Host Name/Port Examples**
 
-|**Purpose**|**Source or Credentials**|**Source Port**|**Destination**|**CDN**|**ExpressRoute for Office 365**|**Destination IP**|**Destination Port**|
+|Purpose|Source or Credentials|Source Port|Destination|CDN|ExpressRoute for Office 365|Destination IP|Destination Port|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Authentication and identity  <br/> |See [Office 365 authentication and identity](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
 |Portal and shared  <br/> |See [Office 365 portal and shared](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||

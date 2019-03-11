@@ -136,7 +136,7 @@ To build your own Microsoft Teams Rooms image, follow the instructions in [Confi
 > [!NOTE]
 > IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
 
-In addition, you will probably want a copy of [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), often used to provision Microsoft Teams Rooms accounts.
+In addition, you will probably want a copy of [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), which you can use to provision Microsoft Teams Rooms accounts.
 
 ## See also
 

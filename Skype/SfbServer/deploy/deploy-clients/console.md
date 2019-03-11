@@ -17,21 +17,17 @@ description: "This article describes how to set up the Microsoft Teams Rooms con
 ---
 
 # Configure a Microsoft Teams Rooms console
- 
+
 This article describes how to set up the Microsoft Teams Rooms console and its peripherals.
   
 You should only perform these steps if the necessary Skype for Business and Exchange accounts have already been created and tested as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md). You will need the hardware and software described in [Microsoft Teams Rooms requirements](../../plan-your-deployment/clients-and-devices/requirements.md). This topic contains the following sections:
   
 - [Prepare the installation media](console.md#Prep_Media)
-    
 - [Install a private CA certificate on the console](console.md#Certs)
-    
 - [Install Windows 10 and the Microsoft Teams Rooms console app](console.md#Reimage)
-   
 - [Initial set up of the console](console.md#Initial)
-    
 - [Microsoft Teams Rooms deployment checklist](console.md#Checklist)
-    
+
 > [!NOTE]
 > Microsoft Teams Rooms will only work in a properly configured Skype for Business environment where the device accounts are set up correctly as described in [Deploy Microsoft Teams Rooms](room-systems-v2.md).
   
@@ -59,6 +55,8 @@ The CreateSrsMedia.ps1 script automates the following tasks:
 2. Determine the build of Windows that the user must supply. The most recently released versions may or may not be tested and supported for use with Microsoft Teams Rooms devices.
 3. Download necessary supporting components.
 4. Assemble the needed components on the installation media.
+
+A specific version of Windows 10 is required, and this version is only available to volume licensing customers.  You can get a copy from the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/).
 
 When finished, remove the USB disk from your computer and proceed to [Install Windows 10 and the Microsoft Teams Rooms console app](console.md#Reimage).
 
