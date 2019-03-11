@@ -23,7 +23,7 @@ ms.custom:
 description: "Learn about features available in Microsoft Teams Rooms. "
 ---
 
-# Microsoft Teams Rooms
+# Microsoft Teams Rooms licenses
 <a name="bkmk_srs"> </a>
 
 The following table lists the licensing-dependant features that are available in [Microsoft Teams Rooms](http://aka.ms/SRSDocs) and what licenses you need to buy to get them.
