@@ -19,7 +19,7 @@ appliesto:
 # Manage the Shifts app for your organization in Microsoft Teams
 
 > [!IMPORTANT]
-> Effective October 1, 2019, Microsoft StaffHub will be retired. We're building StaffHub capabilities, including schedule and task management, into Microsoft Teams. Additional capabilities for firstline workers will roll out to Teams over time. To learn more, see [Microsoft StaffHub to be retired](https://support.office.com/article/microsoft-staffhub-to-be-retired-30ca17f3-5502-4bc9-bb0a-bed04bb362f0).  
+> Effective October 1, 2019, Microsoft StaffHub will be retired. We're building StaffHub capabilities, including schedule and task management, into Microsoft Teams. Additional capabilities for firstline workers will roll out to Teams over time. To learn more, see [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md).  
 
 ## Overview of Shifts
 The Shifts app in Microsoft Teams keeps firstline workers connected and in sync. It's built mobile first for fast and effective time management and communication for teams. Shifts lets firstline workers and their managers use their mobile devices to manage schedules and keep in touch. 
@@ -33,7 +33,7 @@ It's important to know that Shifts currently doesn't support guest users. This m
 
 Shifts is available in all Office 365 subscriptions that include Teams, with a couple of exceptions. The exceptions are US Government Cloud Community (GCC) and Teams free. Shifts isn't available in Office 365 US Government or Teams free offerings.
 
-To learn more about licensing for Teams, including a list of Office 365 subscriptions that includes Teams, see [Office 365 licensing for Teams](Office-365-licensing.md).
+To learn more about licensing for Teams, including a list of Office 365 subscriptions that includes Teams, see [Office 365 licensing for Teams](../Office-365-licensing.md).
 
 ## Location of Shifts data
 
@@ -49,11 +49,11 @@ Shifts is enabled by default for all Teams users in your organization. You can t
 2. Go to **Settings** > **Services & add-ins** > **Microsoft Teams**. 
 3. Under **Tenant-wide settings**, select **Apps**, and then under **Default Apps**, clear or select the **Shifts** check box to turn off or turn on the app. 
 
-    ![Screen shot of the Default Apps section](media/firstline-worker-enable-disable-shifts.png "Screen shot of the Default Apps section in the Microsoft 365 admin center, showing the list of apps, including the Shifts app")
+    ![Screen shot of the Default Apps section](../media/firstline-worker-enable-disable-shifts.png "Screen shot of the Default Apps section in the Microsoft 365 admin center, showing the list of apps, including the Shifts app")
 
 ### Use the FirstLineWorker app setup policy to pin Shifts to Teams
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
+> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 App setup policies let you customize Teams to highlight the apps that are most important for users in your organization. The apps set in a policy are pinned to the app bar&mdash;the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients&mdash;where users can quickly and easily access them. 
  
@@ -61,7 +61,7 @@ Teams includes a built-in FirstLineWorker app setup policy that you can assign t
 
 To view the FirstLineWorker policy, in the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App setup policies**.
 
-![Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams admin center](media/firstline-worker-app-setup-policy.png "Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams admin center")
+![Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams admin center](../media/firstline-worker-app-setup-policy.png "Screen shot of the FirstLineWorker app setup policy in the Microsoft Teams admin center")
 
 #### Assign the FirstLineWorker policy to individual users
 
@@ -71,7 +71,7 @@ To view the FirstLineWorker policy, in the left navigation of the Microsoft Team
 
 #### Assign the FirstLineWorker app setup policy to users in a group
 
-You can assign the FirstLineWorker app setup policy to users in a group, such as a security group, by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](teams-powershell-overview.md).
+You can assign the FirstLineWorker app setup policy to users in a group, such as a security group, by connecting to the Azure Active Directory PowerShell for Graph module and the Skype for Business PowerShell module. For more information about using PowerShell to manage Teams, see [Teams PowerShell Overview](../teams-powershell-overview.md).
 
 In this example, we assign the FirstLineWorker app setup policy to all users in the Contoso Firstline Team group.
 

@@ -674,8 +674,6 @@
 #### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 
-
-
 ## Teams for Education
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Teams resources for Education admins](resources-teams-edu.md)
@@ -711,7 +709,4 @@
 ### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
-
-
-
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
