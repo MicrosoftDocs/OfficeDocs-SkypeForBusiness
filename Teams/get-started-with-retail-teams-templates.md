@@ -31,7 +31,7 @@ To learn more about team templates in general, please refer to [Get started with
 
 ## Store template
 
-The Store template is one of the Retail Teams templates. The Store template is ideal for creating a team to represent an individual retail store location. Using the Store template, you can create a team for each retail store location in your organization.
+The Store template is ideal for creating a team to represent an individual retail store location. Using the Store template, you can create a team for each retail store location in your organization.
 
 | Base template type | baseTemplateId | Properties that come with this base template |
 | ------------------ | -------------- | ----------------------------------------------------- |
