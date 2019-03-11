@@ -14,6 +14,7 @@ search.appverid: MET150
 description: Turn on or turn off the guest access feature in Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update
+f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto: 
 - Microsoft Teams
 ---

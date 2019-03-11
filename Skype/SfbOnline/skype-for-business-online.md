@@ -13,6 +13,7 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
+f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
 ---
 # Skype for Business Online Admin
 
