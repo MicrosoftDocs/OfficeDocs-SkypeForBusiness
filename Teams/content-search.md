@@ -21,6 +21,9 @@ Use Content Search in Microsoft Teams
 
 Content Search provides an ad-hoc way to query Microsoft Teams information spanning Exchange, SharePoint Online, and OneDrive for Business.
 
+To learn more, read [Content Search in Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+
+
 In the example below, we created a new **Content Search**. Then, we selected the Manufacturing Specs mailbox and Manufacturing Specs SharePoint site. This allows us to search against Channel chats from Exchange, File uploads/modifications from SharePoint Online, and OneNote changes as well.
 
 ![Screenshot of the New search dialog.](media/Use_Content_Search_in_Microsoft_Teams_image1.png)
@@ -29,4 +32,5 @@ You can also add query criteria to the **Content Search** to narrow the results 
 
 ![Screenshot of the Query dialog with a keyword search in progress.](media/Use_Content_Search_in_Microsoft_Teams_image2.png)
 
-After adding search conditions should you choose to, you can then export a report or the data to your computer for analysis. For more information on how to use Content Search, review [this](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) link.
+> [!TIP]
+> After adding search conditions, you can export a report or the data to your computer for analysis.
