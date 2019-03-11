@@ -7,6 +7,9 @@ ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kelsawi
+ms.collection: 
+- M365-collaboration
+- Teams_ITAdmin_Help
 f1keywords: 
 - ms.teamsadmincenter.devicemanagement.overview
 - ms.teamsadmincenter.managedevices.overview
