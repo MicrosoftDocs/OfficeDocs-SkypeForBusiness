@@ -55,11 +55,11 @@ Here's a list of StaffHub features, showing those that are replaced by an equiva
 |Custom fields   |         |
 |Home page    |         |
 |Phone numbers of team members     | Displayed if the StaffHub phone number matches the phone number in Azure AD        |
-|StaffHub PowerShell cmdlets   | [Teams PowerShell cmdlets](../teams-powershell-overview.md)      |
+|StaffHub PowerShell cmdlets   | [Teams PowerShell cmdlets](../../teams-powershell-overview.md)      |
 |Conditional access policies    |         |
 |Organizational shared employee resources | Channels and tabs       |
 |Non-provisioned team members|         |
-|Native StaffHub reports and Microsoft 365 admin center reports    | [Teams reporting in the Microsoft Teams admin center](../teams-analytics-and-reports/teams-reporting-reference.md)<br>[Teams activity reports in the Microsoft 365 admin center](../teams-activity-reports.md)      | 
+|Native StaffHub reports and Microsoft 365 admin center reports    | [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md)<br>[Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md)      | 
 |SMS and and email invitations to join teams and install the app    | Email invitations for Office 365 accounts in Azure AD        |
 |In-app support   | [Teams feedback portal on UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)      |
 
@@ -71,10 +71,10 @@ Here are the steps to take to prepare for the move to Teams.
 
 Teams is enabled by assigning Teams licenses to users. Firstline workers and managers in your organization must have a Teams license, which gives them access to Teams. Shifts is available in all Office 365 subscriptions that include Teams with the exceptions of US Government Cloud Community (GCC) and Teams free.
 
-You manage Teams licenses in the Microsoft 365 admin center. To learn more, see [Office 365 licensing for Teams](../Office-365-licensing.md) and [Manage user access to Teams](../user-access.md).
+You manage Teams licenses in the Microsoft 365 admin center. To learn more, see [Office 365 licensing for Teams](../Office-365-licensing.md) and [Manage user access to Teams](../../user-access.md).
 
 > [!NOTE]
-> If your organization uses Skype for Business and you’re not ready to move all your users to Teams, you can enable Teams for your firstline workers and managers who can then run Teams alongside Skype for Business. In this coexistence mode, called *Islands*, each client app operates as a separate solution. To learn more, see [Understand Teams and Skype for Business coexistence and interoperability](../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+> If your organization uses Skype for Business and you’re not ready to move all your users to Teams, you can enable Teams for your firstline workers and managers who can then run Teams alongside Skype for Business. In this coexistence mode, called *Islands*, each client app operates as a separate solution. To learn more, see [Understand Teams and Skype for Business coexistence and interoperability](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 ### Provision accounts for StaffHub users who don't have an identity in Azure AD
 
@@ -94,10 +94,10 @@ When you're ready to
 
 ### Get Teams clients
 
-Teams has clients for desktop (Windows and Mac), web, and mobile (iOS and Android). To learn more, go to [Get clients for Teams](../get-clients.md).
+Teams has clients for desktop (Windows and Mac), web, and mobile (iOS and Android). To learn more, go to [Get clients for Teams](../../get-clients.md).
 
 ## Monitor Teams usage
 
 ## Related topics
 - [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md)
-- [Manage the Shifts app for your organization in Microsoft Teams](../manage-the-shifts-app-for-your-organization-in-teams.md)
+- [Manage the Shifts app for your organization in Microsoft Teams](manage-the-shifts-app-for-your-organization-in-teams.md)

@@ -39,7 +39,7 @@ IT administrators of tenants with active Microsoft StaffHub users will be notifi
 - **Will Microsoft Teams offer all of the functionality currently offered in Microsoft StaffHub?**<br>  
 Yes, starting in November 2018, Microsoft Teams will offer a Shifts feature, which enables managers to create, update, and manage schedules, and lets employees post their availability, swap shifts, and request time off. In addition, the Home view in the Teams mobile app will display the employee’s schedule and important company announcements. 
 
-    To learn more, admins can go to [Manage the Shifts app for your organization in Teams](../manage-the-shifts-app-for-your-organization-in-teams.md). For end-user help on how to use Shifts in Teams, check out [Shifts Help for firstline workers and managers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b). 
+    To learn more, admins can go to [Manage the Shifts app for your organization in Teams](../../manage-the-shifts-app-for-your-organization-in-teams.md). For end-user help on how to use Shifts in Teams, check out [Shifts Help for firstline workers and managers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b). 
 
     See the [roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=) for full details on additional features to be released in Teams.
 
