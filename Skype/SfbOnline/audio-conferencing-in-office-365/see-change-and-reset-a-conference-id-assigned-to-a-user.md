@@ -85,7 +85,7 @@ You can reset a conference ID for a user if, for example, they forget it.
 You can reset the conference ID for a user by using the Windows PowerShell. To do this, run:
 
   ```
-  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ResetConferenceID 8271964
+  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble" -ResetConferenceID
   ```
 
 ## What else should you know?
