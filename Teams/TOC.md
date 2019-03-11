@@ -580,8 +580,7 @@
 ### [Drive awareness and implement training](teams-adoption-drive-awareness.md)
 ### [Schedule service health reviews](teams-adoption-schedule-service-health-reviews.md)
 <!-- ============================================================ -->
-#       
-#        
+
 
 <!-- ============================================================ -->
 # [Upgrade to Teams](upgrade-introduction.md)
@@ -617,8 +616,34 @@
 ### [Coexistence with Skype for Business](coexistence-chat-calls-presence.md)
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 <!-- ============================================================ -->
-#       
-#        
+
+# [Expanding Teams across your organization](teams-across-your-organization-landing-page.md)
+## Shifts for Teams
+### [Microsoft StaffHub to be retired](teams-for-firstline-workers/shifts/microsoft-staffhub-to-be-retired.md)
+### [Move your Microsoft StaffHub teams to Shifts in Teams](teams-for-firstline-workers/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+## Teams for Healthcare
+### [EHR integration](teams-for-firstline-workers/healthcare/ehr-integration.md)
+### [HealthCare](teams-for-firstline-workers/healthcare/firstline-healthcare.md)
+### [Patient coordination](teams-for-firstline-workers/healthcare/patient-care-coord.md)
+### [Managing the Patients app](teams-for-firstline-workers/healthcare/patients-application.md)
+### [Get started with Secure Messaging for Healthcare organizations](healthcare/messaging-policies-hc.md)
+### [AMION API integration with Teams](healthcare/amion-api.md)
+### [Auditing read receipts for admins](healthcare/audit-receipts.md)
+### [Set a delegate status](healthcare/hc-delegates.md)
+### [Message Escalations](healthcare/hc-escalations.md)
+### [Team-scoped roles](healthcare/hc-roles.md)
+### [Tasks](healthcare/hc-tasks.md)
+### [Shifts Graph API enabled for SIs/ISVs/Admins](healthcare/shifts-api.md)
+### [User sideloaded health team templates](healthcare/sideloaded-templates.md)
+
+## Teams for Education
+### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
+### [Teams resources for Education admins](resources-teams-edu.md)
+### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
+
+## Teams for Retail
+### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 # [Training](training-microsoft-teams-landing-page.md)
 ## [Instructor-led training for Teams](instructor-led-training-teams-landing-page.md)
@@ -673,33 +698,6 @@
 #### [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md)
 #### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
-
-## Teams for Education
-### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
-### [Teams resources for Education admins](resources-teams-edu.md)
-### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
-
-## [Teams for firstline workers](teams-for-firstline-workers/teams-for-firstline-workers-landing-page.md)
-### Shifts
-#### [Microsoft StaffHub to be retired](teams-for-firstline-workers/shifts/microsoft-staffhub-to-be-retired.md)
-#### [Move your Microsoft StaffHub teams to Shifts in Teams](teams-for-firstline-workers/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-#### [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
-### HealthCare
-#### [EHR integration](teams-for-firstline-workers/healthcare/ehr-integration.md)
-#### [HealthCare](teams-for-firstline-workers/healthcare/firstline-healthcare.md)
-#### [Patient coordination](teams-for-firstline-workers/healthcare/patient-care-coord.md)
-#### [Managing the Patients app](teams-for-firstline-workers/healthcare/patients-application.md)
-#### [Get started with Secure Messaging for Healthcare organizations](healthcare/messaging-policies-hc.md)
-#### [AMION API integration with Teams](healthcare/amion-api.md)
-#### [Auditing read receipts for admins](healthcare/audit-receipts.md)
-#### [Set a delegate status](healthcare/hc-delegates.md)
-#### [Message Escalations](healthcare/hc-escalations.md)
-#### [Team-scoped roles](healthcare/hc-roles.md)
-#### [Tasks](healthcare/hc-tasks.md)
-#### [Shifts Graph API enabled for SIs/ISVs/Admins](healthcare/shifts-api.md)
-#### [User sideloaded health team templates](healthcare/sideloaded-templates.md)
-
-### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 ## [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)

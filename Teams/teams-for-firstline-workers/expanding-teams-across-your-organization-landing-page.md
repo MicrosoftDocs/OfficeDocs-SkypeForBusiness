@@ -1,6 +1,6 @@
 ---
-title: Microsoft Teams for firstline workers
-description: Use these resources to help you plan and deploy Shifts in Microsoft Teams for firstline workers in your organization.
+title: Expanding Microsoft Teams across your organization
+description: Use these resources to get the most out of Teams across your organization.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -14,9 +14,13 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Microsoft Teams for firstline workers
+# Expanding Microsoft Teams across your organization
 
-Microsoft Teams gives firstline workers and managers in your organization the tools they need to communicate and collaborate effectively and do their best work. Here you'll find the admin guidance you need to set up and manage firstline worker capabilities such as Shifts, the schedule management tool, in Teams.
+placeholder for text
+
+## Shifts for Teams
+
+Teams gives firstline workers and managers in your organization the tools they need to communicate and collaborate effectively and do their best work. Here you'll find the admin guidance you need to set up and manage Shifts, the schedule management tool, in Teams.
 
 ### Move from StaffHub to Shifts in Teams
 
@@ -100,11 +104,11 @@ Microsoft Teams gives firstline workers and managers in your organization the to
     </li>
 </ul>
 
-### Teams for firstline workers in Healthcare organizations
+### Teams for Healthcare 
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/manage-the-shifts-app-for-your-organization-in-teams">
+        <a href="https://review.docs.microsoft.com/MicrosoftTeams/teams-for-firstline-workers/healthcare/ehr-integration?branch=flw-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -114,7 +118,7 @@ Microsoft Teams gives firstline workers and managers in your organization the to
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>placeholder</h3>
+                        <h3>Get started with Teams Healthcare templates for Electronic Health Record (EHR) integration</h3>
                     </div>
                 </div>
             </div>
@@ -122,17 +126,35 @@ Microsoft Teams gives firstline workers and managers in your organization the to
         </a>
     </li>
     <li>
-        <a href="https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b">
+        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/healthcare/messaging-policies-hc?branch=flw-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="success" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>placeholder</h3>
+                        <h3>Get started with Secure Messaging for Healthcare organizations</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+<li>
+        <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-for-firstline-workers/healthcare/patient-care-coord?branch=flw-working">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="people" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Learn about patient care coordination using Teams</h3>
                     </div>
                 </div>
             </div>
@@ -141,21 +163,78 @@ Microsoft Teams gives firstline workers and managers in your organization the to
     </li>
 </ul>
 
-### Teams for firstline workers in Retail settings
+## Teams for Education 
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/manage-the-shifts-app-for-your-organization-in-teams">
+        <a href="https://docs.microsoft.com/microsoftteams/teams-quick-start-edu">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-teams.svg" alt="flag" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="clock" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>placeholder</h3>
+                        <h3>Quick start - Teams for Education admins</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/microsoftteams/resources-teams-edu">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="toolbox" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Resources for Teams for Education admins</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li><li>
+        <a href="https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="tutorial" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Governance FAQ for Teams for Education admins</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+
+### Teams for Retail 
+
+<ul class="panelContent cardsFTitle">
+    <li>
+        <a href="https://docs.microsoft.com/microsoftteams/get-started-with-retail-teams-templates">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-list-plannning-teams.svg" alt="tasks" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Get started with Retail Teams templates</h3>
                     </div>
                 </div>
             </div>
