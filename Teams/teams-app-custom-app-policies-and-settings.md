@@ -69,23 +69,23 @@ You can edit the settings in the global app setup policy to include the apps tha
 
 Admins and team owners can determine whether a team allows for custom apps to be added to it. This setting, **Allow members to upload custom apps**, combined with a user's custom app policy controls who can add custom apps to a particular team.
  
-If this setting is turned off: 
+If this setting is turned off:
 
-- Team owners can add custom apps, if their custom app policy allows it. 
-- Team members who aren't team owners can't add custom apps to the team. 
+- Team owners can add custom apps, if their custom app policy allows it.
+- Team members who aren't team owners can't add custom apps to the team.
 
-If this setting is turned on: 
+If this setting is turned on:
 
-- Team owners can add custom apps, if their custom app policy allows for it. 
+- Team owners can add custom apps, if their custom app policy allows for it.
 - Team members who aren't team owners can add custom apps, if their custom app policy allows for it.
 
 #### Configure the team custom app setting
 
-1. In Teams, go to the team, click **More options ˙˙˙** > **Manage team**..
-2. Click **Settings**, and then expand **Member permissions**. 
+1. In Teams, go to the team, click **More options ˙˙˙** > **Manage team**.
+2. Click **Settings**, and then expand **Member permissions**.
 3. Select or clear the **Allow members to upload custom apps** check box.
 
-    ![Team custom app setting](media/teams-custom-app-policy-and-settings-org-wide.png)
+    ![team custom app setting](media/teams-custom-app-policy-and-settings-team.png)
 
 ### Org-wide custom app setting
 
@@ -96,6 +96,8 @@ The org-wide custom app setting, **Allow interaction with custom apps**, applies
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Permission policies**.
 2. Click **Org-wide app settings**.
 3. Under **Custom apps**, turn on or turn off **Allow interaction with custom apps**.
+
+    ![Org-wide custom app setting](media/teams-custom-app-policy-and-settings-org-wide.png)
 
 ## How the custom app policies and settings work together
 
