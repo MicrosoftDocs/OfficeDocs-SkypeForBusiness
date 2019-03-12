@@ -4,7 +4,7 @@ author: jambirk
 ms.author: jambirk
 manager: serdars
 ms.reviewer: kblevens, phlouie
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 description: Learn about Dynamic team membership based on AAD.
