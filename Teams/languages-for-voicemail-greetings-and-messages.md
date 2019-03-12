@@ -53,7 +53,7 @@ To change the language that Skype for Business uses for system voicemail greetin
 |Greek <br/> |Greece  <br/> |el-GR  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Hungarian <br/> |Hungary  <br/> |hu-HU  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Indonesian <br/> |Indonesia  <br/> |id-ID  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
-|Italian  <br/> |Italy  <br/> |id-ID  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
+|Italian  <br/> |Italy  <br/> |it-IT  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Japanese  <br/> |Japan  <br/> |ja-JP  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Korean  <br/> |Korean  <br/> |ko-KR  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Norwegian (Bokmal)  <br/> |Norway  <br/> |nb-NO  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
