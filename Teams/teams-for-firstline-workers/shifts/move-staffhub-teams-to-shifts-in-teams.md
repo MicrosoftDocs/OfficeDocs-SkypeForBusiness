@@ -40,29 +40,6 @@ When you move a StaffHub team to Shifts in Teams, here's what happens:
 
 After you move a StaffHub team to Teams, members of that team will no longer be able access their schedule in StaffHub. They will be redirected to Shifts in Teams.
 
-### Features
-
-Here's a list of StaffHub features, showing those that are replaced by an equivalent experience in Teams and those that are deprecated. Capabilities that aren't available in Teams may be available at a later time.
-
-|StaffHub feature |Teams experience |
-|---------|---------|
-|Files    | The **Files** tab in the General channel of the team        |
-|Tasks    |         |
-|Messages     | Chats        |
-|Flow     | Graph API        |
-|Kronos integration     | Kronos bot, channels, and tabs       |
-|Corporate announcements  |         |
-|Custom fields   |         |
-|Home page    |         |
-|Phone numbers of team members     | Displayed if the StaffHub phone number matches the phone number in Azure AD        |
-|StaffHub PowerShell cmdlets   | [Teams PowerShell cmdlets](../../teams-powershell-overview.md)      |
-|Conditional access policies    |         |
-|Organizational shared employee resources | Channels and tabs       |
-|Non-provisioned team members|         |
-|Native StaffHub reports and Microsoft 365 admin center reports    | [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md)<br>[Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md)      | 
-|SMS and and email invitations to join teams and install the app    | Email invitations for Office 365 accounts in Azure AD        |
-|In-app support   | [Teams feedback portal on UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)      |
-
 ## Prepare
 
 Here are the steps to take to prepare for the move to Teams.
