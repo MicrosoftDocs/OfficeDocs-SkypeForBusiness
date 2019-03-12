@@ -39,7 +39,7 @@ To learn more about admin settings for apps, see the following video:
 
 ## Allow external apps in Teams
 
-By default, **Allow external apps in Microsoft Teams** is turned on, with all apps selected.  If you turn off this setting, all external third-party apps are disabled. 
+By default, **Allow external apps in Microsoft Teams** is turned on, with all apps selected. If you turn off this setting, all external third-party apps are disabled. 
 
 ## Enable new external apps by default
 
