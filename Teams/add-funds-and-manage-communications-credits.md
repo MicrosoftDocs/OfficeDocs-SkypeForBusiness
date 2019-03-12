@@ -33,7 +33,7 @@ description: "Learn how to pay for Communication credits (PSTN Consumption) for 
 
 # Add funds and manage Communications Credits
 
-Communications Credits are a convenient way to pay for Phone System and Calling Plans in Office 365. It helps ensure that you and your users are never caught without being able to:
+Communications Credits are a convenient way to pay for Phone System and Calling Plans in Office 365. Communication Credits helps ensure that you and your users are never caught without being able to:
   
 - Dial in to Audio Conferencing meetings using toll-free dial-in phone numbers.
     
