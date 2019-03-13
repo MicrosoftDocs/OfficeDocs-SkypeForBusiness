@@ -47,7 +47,15 @@ To learn more, go to [Manage app setup policies in Microsoft Teams](teams-app-se
 
 To learn more, go to [Manage custom app policies and settings in Microsoft Teams](teams-custom-app-policies-and-settings.md)
 
+
+**Feedback from Bugra, for mobile:**<br>
+
+This may need two call-outs:
+   - Not all apps will surface on mobile (even if you hand pick and enable them)
+   - Sideloading is not currently supported on mobile
+
 -----------
+OLD CONTENT
 ## Allow external apps in Teams
 
 By default, **Allow external apps in Microsoft Teams** is turned on, with all apps selected. If you turn off this setting, all external third-party apps are disabled. 
