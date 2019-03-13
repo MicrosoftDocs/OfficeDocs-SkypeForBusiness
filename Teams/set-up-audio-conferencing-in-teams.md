@@ -41,7 +41,7 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
  
 ## Step 2: Get and assign licenses
  
-1. For Audio Conferencing, you need a license for each user who will set up dial-in meetings. To learn which licenses you need to buy for Audio Conferencing and how much they will cost, see [Skype for Business add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+1. For Audio Conferencing, you need a license for each user who will set up dial-in meetings. To learn which licenses you need to buy for Audio Conferencing and how much they will cost, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
     >[!NOTE] 
     > Audio Conferencing is included in Office 365 Enterprise E5 licenses and as an add-on.
