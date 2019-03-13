@@ -17,12 +17,11 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Learn about app setup policies in Microsoft Teams and how to use them to pin apps to customize Teams for users in your organization. 
-ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: 
+- ms.teamsadmincenter.apppolicies.setup
 ---
 
 # Manage app setup policies in Microsoft Teams
-
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 As an admin, you can use app setup policies to customize Microsoft Teams to highlight the apps that are most important for your users. You choose the apps to pin and set the order that they appear. App setup policies let you showcase apps that users in your organization need, including ones built by third parties or by developers in your organization. You can also use app setup policies to manage how built-in features appear.
 
@@ -45,10 +44,10 @@ You can edit the settings in the global policy to include the apps that you want
 
 You can use the Microsoft Teams admin center to create a custom policy.
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **App setup policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Select **New policy**.
 3. Enter a descriptive name for the policy, and then click **Add apps**.
-4. In the **Add pinned apps** pane, search for the apps you want to add, and then click **Add**.  To see a list of all    apps, select **Teams app store**. When you've chosen your list of apps, click **Add**.
+4. In the **Add pinned apps** pane, search for the apps you want to add, and then click **Add**.  To see a list of all apps, select **Teams app store**. When you've chosen your list of apps, click **Add**.
 
      ![app-setup-policies-add-apps.png](media/app-setup-policies-add-apps.png)
 
@@ -58,20 +57,20 @@ You can use the Microsoft Teams admin center to create a custom policy.
 
 ## Edit an app setup policy
 
-You can use the Microsoft Teams admin center or Windows PowerShell to edit a policy, including the global (Org-wide default) policy and custom policies that you create. 
+You can use the Microsoft Teams admin center to edit a policy, including the global (Org-wide default) policy and custom policies that you create.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **App setup policies**.
 2. Select the policy you want to edit. 
 3. From here, make the changes that you want. You can add, remove, and change the order of apps.
-4. Click **Save**. 
+4. Click **Save**.
 
 ## Assign a custom app setup policy to users
 
-You can use the Microsoft Teams admin center to assign a custom policy to individual users or Windows PowerShell to assign a custom policy to groups of users, such as a security group or distribution group.
+You can use the Microsoft Teams admin center to assign a custom policy to individual users or the Skype for Business PowerShell module  to assign a custom policy to groups of users, such as a security group or distribution group.
 
 ### Assign a custom app setup policy to individual users
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click       the user.
+1. In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click  the user.
 2. Next to **Assigned policies**, choose **Edit**.
 3. Under **Teams App Setup policy**, select the app setup policy you want to assign, and then choose **Save**.
 
@@ -156,3 +155,5 @@ Make sure that you follow the logo guidelines before you submit the app. To lear
 
  ## Related topics
 - [Publish an app to the Tenant Apps Catalog from the Teams client](tenant-apps-catalog-teams.md)
+- [Manage app permission policies in Teams](teams-app-permission-policies.md)
+- [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
