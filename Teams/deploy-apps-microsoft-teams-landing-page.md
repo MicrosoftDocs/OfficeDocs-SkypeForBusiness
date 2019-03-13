@@ -37,7 +37,7 @@ By default, all Microsoft-provided and external apps are available, and you can 
 
 | Ask yourself | Action |
 |--------------|--------|
-|Will you change the default Teams apps settings? | For more information about configuring the availability of external apps, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
+|Will you change the default Teams apps settings? | For more information about configuring the availability of apps, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 |||
 
 ### App permissions and other considerations
@@ -46,7 +46,7 @@ Apps are consented to by users and managed by the admin or IT pro through polici
 
 | Ask yourself | Action |
 |--------------|--------|
-|<br>Which apps do I want to allow access to? Which ones do I not want to allow access to?  | <ul><li>See [Microsoft Teams apps permissions and considerations](app-permissions.md) for a list of things you should consider when allowing access to an app, bot, tab, or connector.</li><li>See [Publish apps in the Teams tenant apps catalog](tenant-apps-catalog-teams.md) for information about making an app available to users in your organization.</li></ul>|
+|<br>Which apps do I want to allow access to? Which ones do I not want to allow access to?  | <ul><li>See [Microsoft Teams apps permissions and considerations](app-permissions.md) for a list of things you should consider when allowing access to an app, bot, tab, or connector.</li><li>See [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md) for how to block and allow apps in your organization.</li><li>See [Publish apps in the Teams tenant apps catalog](tenant-apps-catalog-teams.md) for information about making an app available to users in your organization.</li></ul>|
 |||
 
 ### Bots for private chats and channels
