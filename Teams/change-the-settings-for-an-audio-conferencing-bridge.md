@@ -131,4 +131,4 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
 
 [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
-[Set up Audio Conferencing for Skype for Business Online](skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[Set up Audio Conferencing for Skype for Business Online](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
