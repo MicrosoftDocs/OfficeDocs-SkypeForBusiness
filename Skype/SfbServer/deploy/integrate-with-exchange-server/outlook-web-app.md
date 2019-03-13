@@ -73,12 +73,14 @@ To verify replication updates, on a server internal in your Skype for Business S
 ```
 Get-CsManagementStoreReplicationStatus
 ```
+Check if UpToDate value is showing TRUE for all Replicas.
 
 To confirm that the changes were applied, on the Edge Server, run the following cmdlet:
 
 ```
 Get-CsHostingProvider -LocalStore
 ```
+Double check if the information shown matches the changes committed in the previous steps.
 
 ## See also
 
