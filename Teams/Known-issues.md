@@ -173,7 +173,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Attendee maximum for meetings  <br/> |Each Microsoft Teams meeting can have up to 80 attendees.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
+|Attendee maximum for meetings  <br/> |Each Microsoft Teams meeting can have up to 250 attendees.  <br/> |Create live events in teams which can host 10000 users.  <br/> |3/13/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
