@@ -27,7 +27,7 @@ Admin settings for apps in Microsoft Teams
 
 Apps are tabs, connectors, bots, or any combination of these three, provided by Microsoft, built by a third-party, or by developers in your organization.
 
-You manage apps for your organization in **Teams apps** in the Microsoft Teams admin center. You can set policies to control what apps are available to Teams users in your organization, customize Teams by pinning apps that are most important for your users, and specify whether users can upload custom apps (also known as sideloading) and to what teams. These policies and settings give you granular control over how apps are used based on the needs of your organization.
+You manage apps for your organization in **Teams apps** in the Microsoft Teams admin center. You can set policies to control what apps are available to Teams users in your organization, customize Teams by pinning apps that are most important for your users, and specify whether users can upload custom apps (also known as sideloading). These policies and settings give you granular control over how apps are used based on the needs of your organization.
 
 ## App permissions policies
 
@@ -43,7 +43,7 @@ To learn more, go to [Manage app setup policies in Microsoft Teams](teams-app-se
 
 ## Custom apps policies and settings
 
- Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team (also known as sideloading). You can use custom app policies and settings to control who in your organization can upload custom apps and the teams that allow it. 
+ Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team. You can use custom app policies and settings together with app setup policies to control who in your organization can upload custom apps and the teams that allow it. 
 
 To learn more, go to [Manage custom app policies and settings in Microsoft Teams](teams-custom-app-policies-and-settings.md)
 
