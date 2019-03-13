@@ -4,7 +4,7 @@ author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
 ms.date: 10/18/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_PracticalGuidance

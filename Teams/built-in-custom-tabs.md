@@ -27,7 +27,7 @@ Owners and team members can add tabs to a channel, private chat, and group chat 
 
 ## Work with tabs
 
-- With every new channel, two tabs are provisioned by default, Conversations and Files. 
+- With every new channel, two tabs are provisioned by default: Conversations and Files. 
 
     ![Screenshot of the Conversation section of the Marketing team.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
 - With every private chat, four tabs are provisioned by default, Conversations, Files, Organization, and Activity.

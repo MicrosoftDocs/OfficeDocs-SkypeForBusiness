@@ -4,7 +4,7 @@ ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: siunies, williamlooney, gageames
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
