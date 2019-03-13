@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150

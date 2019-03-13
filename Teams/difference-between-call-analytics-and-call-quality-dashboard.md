@@ -4,12 +4,10 @@ ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney, gageames
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
-ms.service:  
-- skype-for-business-online
-- msteams
+ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -39,7 +37,7 @@ Call Analytics shows detailed information about the devices, networks, and conne
 
 To see this information for a user in the Microsoft Teams admin center, click the **Call History** tab for that user in the user detail page, showing all the calls and meetings that user has participated in for the last 30 days.
 
-![Call analytics user data.](media/call-analytics-user-data.png)
+![Call analytics user data.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 To get additional information about a given session including detailed media and networking statistics, click on a session to see the details.
 
@@ -71,7 +69,7 @@ Maybe the user's poor call quality is due to a network issue that's also affecti
 
 With the help of CQD's Location-Enhanced Reports, aggregate call quality and reliability within the user's building can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users.
 
-![Screenshot of Call Quality Dashboard's Location-Enhanced Reports. Tabs shown are Overview, Buildings - Wired, Buildings - WiFi, and Mobile (LTE). A filter is being applied to view the streams within a specific building.](media/call-quality-dashboard-location-enhanced-reports-building-selection.png)
+![Screenshot of Call Quality Dashboard's Location-Enhanced Reports. Tabs shown are Overview, Buildings - Wired, Buildings - WiFi, and Mobile (LTE). A filter is being applied to view the streams within a specific building.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
 > To enable building-specific views in CQD, an admin must [upload building information](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) on CQD's Tenant Data Upload page.

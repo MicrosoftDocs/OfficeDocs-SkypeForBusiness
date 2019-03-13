@@ -9,6 +9,9 @@ ms.assetid:
 ms.service: msteams
 ms.tgt_pltfrm: na
 ms.devlang: na
+ms.collection: 
+- M365-collaboration
+- Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: dearbeen
 ---

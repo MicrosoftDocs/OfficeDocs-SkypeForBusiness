@@ -680,16 +680,14 @@
 #### [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Stream Classification in Call Quality Dashboard](stream-classification-in-call-quality-dashboard.md)
 
-
-
 ## Teams for Education
 ### [Quick start - Teams for Education admins](teams-quick-start-edu.yml)
 ### [Teams resources for Education admins](resources-teams-edu.md)
 ### [Microsoft Education governance FAQ for admins](plan-teams-governance-edu.md)
 
 ## Teams for firstline workers
-### [Microsoft StaffHub to be retired](microsoft-staffhub-to-be-retired.md)
-### [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Microsoft StaffHub to be retired](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
+### [Manage the Shifts app for your organization in Teams](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
 
 ## [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
@@ -700,7 +698,4 @@
 ### [PowerShell cmdlet reference for Teams](https://docs.microsoft.com/powershell/module/teams)
 
 ## [Developer documentation for Teams](https://docs.microsoft.com/microsoftteams/platform)
-
-
-
 ## [Get help in Microsoft Teams](get-help-in-microsoft-teams.md)
