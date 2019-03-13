@@ -41,7 +41,7 @@ Before you can roll out Audio Conferencing for Teams, consider the following:
 
 ## Core deployment decisions
 
-After you meet the [Audio Conferencing prerequisites](#audio-conferencing-prerequisites), complete the following tasks to configure Audio Conferencing for your users.
+After you meet the Audio Conferencing prerequisites, complete the following tasks to configure Audio Conferencing for your users.
 
 
 ### Teams administrators
@@ -105,7 +105,7 @@ To provide toll-free conference bridge phone numbers and to support conferencing
 |------------|-------|
 |Are Communications Credits required for my Audio Conferencing implementation? |To find out if you need to set up Communications Credits, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).|
 |If they're required, how much should I purchase?|To determine the Communications Credits amount, see [Recommended funding amounts](what-are-communications-credits.md#recommended-funding-amounts).|
-|Do I want to configure an auto-recharge amount?|To configure an auto-recharge amount, see [Set up Communications Credits for your organization](what-are-communications-credits.md#recommended-funding-amounts).|
+|Do I want to configure an auto-recharge amount?|To configure an auto-recharge amount, see [Set up Communications Credits for your organization](set-up-communications-credits-for-your-organization.md).|
 |||
 
 
