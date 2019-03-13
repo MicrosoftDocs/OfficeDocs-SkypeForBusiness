@@ -99,7 +99,7 @@ The org-wide custom app setting, **Allow interaction with custom apps**, applies
 
     ![Org-wide custom app setting](media/teams-custom-app-policy-and-settings-org-wide.png)
 
-## How the custom app policies and settings work together
+## How custom app policies and settings work together
 
 This table summarizes the custom app policy and settings, how they work together, and their combined effect on controlling who in your organization can upload custom apps to Teams.
 
@@ -115,8 +115,8 @@ Say, for example, you want to only allow team owners to upload custom apps to a 
 | Off    | On        | Off        |Interaction with all custom apps is blocked for your organization. Custom apps can't be uploaded by anyone. You can use Windows PowerShell to delete custom apps.         |
 | Off    | On      | On       |Interaction with all custom apps is blocked for your organization. Custom apps can't be uploaded by anyone. You can use PowerShell to remove the custom app.         |
 | On    | Off       | Off         |  If the user is a team owner, they can upload custom apps to the team. If the user isn't a team owner, they can't upload custom apps to the team.        |
-| True     | Off       | On         | The user can't upload custom apps to the team.       |
-| True     | On        | Off        | The user can upload custom apps to the team, regardless of whether the user is a team owner.        |
+| On     | Off       | On         | The user can't upload custom apps to the team.       |
+| On    | On        | Off        | The user can upload custom apps to the team, regardless of whether the user is a team owner.        |
 
  ## Related topics
 - [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md)
