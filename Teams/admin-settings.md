@@ -41,7 +41,7 @@ App setup policies let you customize the app experience for your users. You choo
 
 To learn more, go to [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md)
 
-## Custom apps policies and settings
+## Custom app policies and settings
 
  Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team. You can use custom app policies and settings together with app setup policies to control who in your organization can upload custom apps and the teams that allow it.
 
