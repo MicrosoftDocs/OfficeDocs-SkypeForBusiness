@@ -115,7 +115,7 @@ For additional information, see:
 
 - [Technical Planning for Audio Conferencing](audio-conferencing.md#technical-planning-for-audio-conferencing)
 
-- [Set up Audio Conferencing for Skype for Business and Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+- [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 - [Technical Planning for Phone System with Calling Plans](calling-plan-landing-page.md)
 

@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Learn about meetings, licensing and availability, configure conference bridge settings, acquire or transfer phone numbers, choose tenant dial plans. 
+description: Learn about meetings, licensing and availability, configuring conference bridge settings, acquiring or transfering phone numbers, and choosing tenant dial plans. 
 localization_priority: Normal
 MS.collection: 
 - Teams_ITAdmin_PracticalGuidance
@@ -159,7 +159,7 @@ If you must transfer existing conference bridge phone numbers to the Audio Confe
 
 To learn more about conference bridge phone numbers, review the following articles:
 
--   [Set up Audio Conferencing for Skype for Business and Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+-   [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 -   [Phone numbers for Audio Conferencing](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 

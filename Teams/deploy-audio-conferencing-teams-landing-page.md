@@ -94,7 +94,7 @@ After you create your Audio Conferencing bridge, you need to set the toll and/or
 
 |Ask yourself|Action |
 |------------|-------|
-| Which conference bridge numbers will I assign to each user who leads meetings? | To assign a dial-in phone number to a user, see [Step 7: Assign dial-in phone numbers for users who lead meetings](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
+| Which conference bridge numbers will I assign to each user who leads meetings? | To assign a dial-in phone number to a user, see [Step 7: Assign dial-in phone numbers for users who lead meetings](set-up-audio-conferencing-in-teams.md#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings). |
 |||
 
 ### Communications Credits
