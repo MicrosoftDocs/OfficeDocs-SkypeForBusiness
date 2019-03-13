@@ -3,7 +3,7 @@ title: Coexistence with Skype for Business
 author: jambirk
 ms.author: francoid
 manager: Serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: francoid
 localization_priority: Normal
