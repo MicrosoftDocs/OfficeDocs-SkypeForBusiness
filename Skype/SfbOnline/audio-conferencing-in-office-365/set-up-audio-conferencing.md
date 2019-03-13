@@ -21,7 +21,7 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
-description: "Learn how to set up dial-in or Audio Conferencing for the people in your business who need to join conference calls using a phone. "
+description: "Learn how to set up dial-in or Audio Conferencing for the people in your business who need to use a phone to join conference calls. "
 ---
 
 # Set up Audio Conferencing for Skype for Business
@@ -38,56 +38,63 @@ For frequently asked questions about Audio Conferencing, see [Audio Conferencing
 ## Step 1: Find out if Audio Conferencing is available in your country/region
 <a name="__top"> </a>
 
-
 Go to [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) and select your country or region to get availability information about Audio Conferencing, as well as information about Phone System, Calling Plans, toll and toll-free numbers, and Communications Credits. 
  
 ## Step 2: Get and assign licenses
  
 1. For Audio Conferencing, you need a license for each user who will set up dial-in meetings. To learn which licenses you need to buy for Audio Conferencing and how much they will cost, see [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+
+    >[!NOTE] 
+    > Audio Conferencing is included in Office 365 Enterprise E5 licenses and as an add-on.
         
 2. After you buy the Audio Conferencing licenses, you will ned to assign them to those people in your organization who are going to schedule or lead meetings. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
     
 3. We also recommend that you assign Communications Credits licenses (they don’t cost anything) to the same people you assigned licenses to in the previous step. To learn how to set up Communications Credits, see [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization).
     
 > [!NOTE]
-> You can also set up pay-per-minute Audio Conferencing. Go [here](/microsoftteams/audio-conferencing-pay-per-minute) to find out more about how to use them.
+> You can also set up [pay-per-minute Audio Conferencing](/microsoftteams/audio-conferencing-pay-per-minute).
 
 ## Step 3: Get service numbers for your conferencing bridges
 <a name="__top"> </a>
 
 For Audio Conferencing, you can’t use phone numbers for users; you will need to get service numbers. You can get either toll or toll-free service numbers for your conferencing bridges. There are three ways to get toll and toll-free service numbers: 
   
-- **Use the Skype for Business admin center.** For some countries/regions, you can get service numbers for your conferencing bridges using the Skype for Business admin center, see [Getting service phone numbers](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+- **Use the Skype for Business admin center**. For some countries/regions, you can get service numbers for your conferencing bridges using the Skype for Business admin center, see [Getting service phone numbers](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
     
-- **Port your existing service numbers.** To port or transfer existing numbers from your current service provider or phone carrier to Office 365. You can see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
+- **Port your existing service numbers**. To port or transfer existing numbers from your current service provider or phone carrier to Office 365. You can see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
   
-- **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new service numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information. 
+- **Use a request form for new numbers**. Sometimes (depending on your country/region) you won't be able to get your new service numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information. 
     
 ## Step 4: Assign a service number to the conferencing bridge
 <a name="__top"> </a>
 
-Once you get your toll and/or toll-free phone numbers for your conferencing bridge, you need to assign the numbers so they can be used on meeting invites.  
+Once you get your toll and/or toll-free phone numbers for your conferencing bridge, you need to assign the numbers so they can be used on meeting invitations.  
 
 To assign a new phone number to your audio conferencing bridge:
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
 
- Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Voice** > **Phone numbers**, select the phone number, and click **Assign**.
+ 1. Go to the **Microsoft 365 admin center** > **Admin centers** > **Teams** > **Legacy portal**.
+ 2. Select **Voice** > **Phone numbers**.
+ 3. Select the phone number, and click **Assign**.
 
 For more details, see [Change the phone numbers on your audio conferencing bridge](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
 
 ## Step 5: Set the default and alternate languages for a conferencing bridge
 <a name="__top"> </a>
 
-Next, you want to [Set auto attendant languages for Audio Conferencing](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) that the conferencing auto attendant uses to greet a caller when they dial in to a phone number for Audio Conferencing. 
+Next, you want to [Set auto attendant languages for Audio Conferencing](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) that the conferencing auto attendant uses to greet callers when they dial in to a phone number for Audio Conferencing. 
 
 ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
-From the Dashboard, go to **Meetings** > **Conference bridges**, select the conferencing bridge phone number, click **Edit**, and then choose the default language.
+1. From the Dashboard, go to **Meetings** > **Conference bridges**.
+2. Select the conferencing bridge phone number, click **Edit**, and then choose the default language.
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**:
 
-Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Audio conferencing** > **Microsoft bridge**,  select the conferencing bridge phone number, and then click **Set languages**.
+1. Go to the **Office 365 admin center** > **Admin centers** > **Teams** > **Legacy portal**.
+2. Select **Audio conferencing** > **Microsoft bridge**. 
+3. Select the conferencing bridge phone number, select **Set languages**, and then choose the default language.
 
 ## Step 6: Set your conferencing bridge settings
 <a name="__top"> </a>
@@ -96,25 +103,35 @@ After setting up your conferencing bridge, verify that the default settings such
 
 ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
-From the Dashboard, go to **Meetings** > **Conference bridges** > **Bridge settings**. This will open the **Bridge settings** pane. For more details, see [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
+1. From the Dashboard, go to **Meetings** > **Conference bridges**.
+2. Select **Bridge settings**. This will open the **Bridge settings** pane. 
+
+For more details, see [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
 
-Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Audio conferencing** > **Microsoft bridge settings**. This will open the **Microsoft bridge settings** page. For more details, see [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
+1. Go to the **Microsoft 365 admin center** > **Admin centers** > **Teams** > **Legacy portal**.
+2. Select **Audio conferencing** > **Microsoft bridge settings**. This will open the **Microsoft bridge settings** page. 
+
+For more details, see [Change the settings for an Audio Conferencing bridge](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
 
 ## Step 7: Assign dial-in phone numbers for users who lead meetings
 
 After you have created an Audio Conferencing bridge, you need to set the toll and toll-free numbers for your users.
 
-You will need to do this for all of the people in your organization who lead or schedule meetings. To do this:
+You will need to do this for all of the people in your organization who lead or schedule meetings. 
 
 ![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
-From the Dashboard, click **Users**, select the user from the list, click **Edit**, click **Edit** next to **Audio Conferencing**, and then in the **Audio Conferencing** pane, choose a number in the **Toll number** and **Toll-free** number lists.
+1. From the Dashboard, click **Users**, select the user from the list, and select **Edit**.
+2. Select **Edit** next to **Audio Conferencing**, and then in the **Audio Conferencing** pane, choose a number in the **Toll number** and **Toll-free** number lists.
 
 ![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center:**
 
-Go to the **Office 365 admin center** > **Skype for Business** > **Audio conferencing** > **Users**, and then select the user from the list and click **Edit**. If you need more details, see [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
+1. Go to the **Microsoft 365 admin center** > **Teams** > **Legacy portal**.
+2. Select **Audio conferencing** > **Users**, and then select the user from the list and click **Edit**. 
+
+If you need more details, see [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
 
 
 ## Step 8: Set up meeting invitations (optional)
