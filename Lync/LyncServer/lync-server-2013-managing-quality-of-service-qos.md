@@ -1,6 +1,9 @@
 ﻿---
 title: 'Lync Server 2013: Managing Quality of Service (QoS)'
 TOCTitle: Managing Quality of Service (QoS)
+author: kenwith
+ms.author: kenwith
+ms.manager: serdars
 ms:assetid: ab1051c3-8380-4d72-86df-37a61b1e4a41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg405409(v=OCS.15)
 ms:contentKeyID: 48185049
@@ -62,7 +65,7 @@ Lync Server 2013 offers full support for Quality of Service: that means that org
 
 
 > [!NOTE]  
-> If you are using Microsoft Windows Server 2012 or Windows Server 2012 R2 you might be interested in the new set of Windows PowerShell cmdlets available for managing Quality of Service on that platform. For more information, see Network Quality of Service Cmdlets in Windows PowerShell at <A href="http://go.microsoft.com/fwlink/p/?linkid=285379">https://docs.microsoft.com/powershell/module/netqos/?view=winserver2012-ps>.
+> If you are using Microsoft Windows Server 2012 or Windows Server 2012 R2 you might be interested in the new set of Windows PowerShell cmdlets available for managing Quality of Service on that platform. For more information, see Network Quality of Service Cmdlets in Windows PowerShell at [https://docs.microsoft.com/powershell/module/netqos/?view=winserver2012-ps](https://docs.microsoft.com/powershell/module/netqos/?view=winserver2012-ps).
 
 
 
