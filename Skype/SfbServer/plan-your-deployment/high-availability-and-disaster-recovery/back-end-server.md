@@ -97,7 +97,23 @@ If both the principal and the mirror Back End Servers fail, or if one of those s
 AlwaysOn Availability Groups and AlwaysOn Failover Cluster Instances are supported only on SQL Server 2014 Enterprise Edition and SQL Server 2012 Enterprise Edition. Skype for Business Server supports AlwaysOn Availability Groups only as active/passive, not active/active. 
   
 To use AlwaysOn Availability Groups or AlwaysOn Failover Cluster Instances, you first use SQL Server to set up and configure the high availability solution. You can then use Topology Builder to associate it with a Front End pool.
-  
+
+- SQL Server 2017 Enterprise Edition
+
+- SQL Server 2016 Enterprise Edition
+
+- SQL Server 2017 Standard Edition with limitations&sup1;
+
+- SQL Server 2016 Standard Edition with limitations&sup1;
+
+- SQL server 2014 Enterprise Edition
+
+- SQL server 2012 Enterprise Edition
+
+> &sup1;SQL 2016 and 2017 Standard Edition limitation:
+
+> Always On availability groups is not supported, you can only choose Always On failover cluster instances.
+
 > [!IMPORTANT]
 > Instance names for multiple AlwaysOn Availability Group instances must be the same. 
   
