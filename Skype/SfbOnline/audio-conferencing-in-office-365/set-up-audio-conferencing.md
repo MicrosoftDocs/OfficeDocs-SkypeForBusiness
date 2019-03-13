@@ -1,5 +1,5 @@
 ---
-title: "Set up Audio Conferencing for Skype for Business and Microsoft Teams"
+title: "Set up Audio Conferencing for Skype for Business"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,19 +15,18 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business 
-- Microsoft Teams
 localization_priority: Normal
 f1keywords:
 - O365P_DialInConfDesc
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
-description: "Learn how to set up dial-in or audio conferencing for the people in your business who need to join conference calls using a phone. "
+description: "Learn how to set up dial-in or Audio Conferencing for the people in your business who need to join conference calls using a phone. "
 ---
 
-# Set up Audio Conferencing for Skype for Business and Microsoft Teams
+# Set up Audio Conferencing for Skype for Business
 
-Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business and Microsoft Teams include the audio conferencing feature for just this situation! People can call in to Skype for Business or Microsoft Teams meetings using a phone, instead of using the Skype for Business or Microsoft Teams app on a mobile device or PC. 
+Sometimes people in your organization will need to use a phone to call in to a meeting. Skype for Business includes the audio conferencing feature for just this situation! People can call in to Skype for Business meetings using a phone, instead of using the Skype for Business app on a mobile device or PC. 
   
 You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
   
@@ -44,7 +43,7 @@ Go to [Country and region availability for Audio Conferencing and Calling Plans]
  
 ## Step 2: Get and assign licenses
  
-1. For Audio Conferencing, you need a license for each user who will set up dial-in meetings. To learn which licenses you need to buy for Audio Conferencing and how much they will cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+1. For Audio Conferencing, you need a license for each user who will set up dial-in meetings. To learn which licenses you need to buy for Audio Conferencing and how much they will cost, see [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
         
 2. After you buy the Audio Conferencing licenses, you will ned to assign them to those people in your organization who are going to schedule or lead meetings. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
     
