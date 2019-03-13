@@ -82,7 +82,7 @@ For more details, see [Change the phone numbers on your audio conferencing bridg
 ## Step 5: Set the default and alternate languages for a conferencing bridge
 <a name="__top"> </a>
 
-Next, you want to [Set auto attendant languages for Audio Conferencing in Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing.md) that the conferencing auto attendant uses to greet callers when they dial in to a phone number for Audio Conferencing. 
+Next, you want to [Set auto attendant languages for Audio Conferencing in Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) that the conferencing auto attendant uses to greet callers when they dial in to a phone number for Audio Conferencing. 
 
 ![teams-logo-30x30.png](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**:
 
