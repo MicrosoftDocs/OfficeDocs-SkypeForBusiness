@@ -112,4 +112,5 @@ Some client versions don't support OAuth. You can check your version of Office c
     
 - Office Client 16.0.[6000-6224].\*
     
-
+> [!NOTE]
+> Hybrid Modern Authentication is also available with Skype For Business on-premises, if you want to know more, please visit [How to configure Skype for Business on-premises to use Hybrid Modern Authentication](https://docs.microsoft.com/en-us/office365/enterprise/configure-skype-for-business-for-hybrid-modern-authentication)
