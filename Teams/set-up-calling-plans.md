@@ -24,6 +24,7 @@ ms.custom:
 description: "Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. "
 ---
 # Set up Calling Plans
+
 Calls to other Skype for Business users are free, but if you want your users to be able to call phones outside of your business, get a Domestic Calling Plan or an International Calling Plan in Office 365. It's easy to set this up for your business. 
 
 ## Step 1: Find out if Calling Plans are available in your country/region
