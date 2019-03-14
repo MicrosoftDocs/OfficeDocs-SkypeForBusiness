@@ -1,5 +1,5 @@
 ---
-title: "Migrating to Direct Routing"
+title: "Migrate to Direct Routing"
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,7 +15,7 @@ appliesto: Microsoft Teams
 description: "Learn what is needed to migrate to Direct Routing from a Skype for Business Online and Teams configuration perspective."
 ---
 
-# Migrating to Direct Routing
+# Migrate to Direct Routing
 
 This article describes what is needed to migrate to Direct Routing from a Skype for Business Online and Microsoft Teams configuration perspective. This article covers migrating from the following: 
  

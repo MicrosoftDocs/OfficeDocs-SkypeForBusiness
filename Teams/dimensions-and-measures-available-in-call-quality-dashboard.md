@@ -4,15 +4,12 @@ ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: siunies, williamlooney, gageames
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
-ms.service:  
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:  
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online 
 search.appverid: MET150
 ms.audience: Admin
 appliesto:

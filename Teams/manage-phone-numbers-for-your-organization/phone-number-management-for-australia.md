@@ -4,13 +4,11 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin

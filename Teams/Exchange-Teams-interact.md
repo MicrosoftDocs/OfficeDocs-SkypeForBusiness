@@ -3,7 +3,7 @@ title: How Exchange and Microsoft Teams interact
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: crowe
 description: Learn what functionality exists between Microsoft Teams and the various Exchange setups such as creating and joining teams, creating channels, and more.

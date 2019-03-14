@@ -4,10 +4,8 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.topic: article
-ms.service: 
-- msteams
-- skype-for-business-online
+ms.topic: reference
+ms.service: msteams
 ms.collection: 
 - M365-collaboration
 - Teams_ITAdmin_Help

@@ -4,7 +4,7 @@ author: jambirk
 ms.author: jambirk 
 manager: serdars
 audience: ITPro
-ms.topic: article 
+ms.topic: conceptual 
 ms.service: msteams 
 search.appverid: MET150
 localization_priority: Normal

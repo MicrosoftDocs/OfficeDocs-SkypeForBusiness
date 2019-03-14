@@ -4,7 +4,7 @@ author: dearbeen
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/31/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille

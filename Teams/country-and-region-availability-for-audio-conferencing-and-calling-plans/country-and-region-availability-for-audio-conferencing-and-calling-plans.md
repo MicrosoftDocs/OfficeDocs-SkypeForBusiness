@@ -5,14 +5,12 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
-ms.topic: article
+ms.topic: reference
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -122,7 +120,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**If you are looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-02012019)-(en-us).xlsx?raw=true)**.
+**If you are looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-03132019)-(en-us).xlsx?raw=true)**.
 
 ***
 

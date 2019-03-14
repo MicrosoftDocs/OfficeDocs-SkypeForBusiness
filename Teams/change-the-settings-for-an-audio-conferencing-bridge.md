@@ -18,7 +18,7 @@ appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: "Get the steps you need to change settings for a conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business or Microsoft Teams apps. "
@@ -129,4 +129,6 @@ The conferencing bridge answers a call and prompts the caller with voice prompts
   
 ## Related topics
 
-[Set up Audio Conferencing](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
+
+[Set up Audio Conferencing for Skype for Business Online](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

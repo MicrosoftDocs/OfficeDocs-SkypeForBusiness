@@ -1,5 +1,5 @@
 ---
-title: Manage messaging policies
+title: Manage messaging policies in Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,9 +7,7 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-MS.collection: 
-- Teams_ITAdmin_Help
-- M365-collaboration
+ms.collection: Teams_ITAdmin_Help
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,27 +18,48 @@ f1keywords:
 description: "Learn about Messaging policies and how they can be used to control chat messaging in Teams."
 ---
 
-# What are Messaging policies in Teams?  
+# Manage messaging policies in Teams
 
-::: zone target="docs"
-Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams. You can use the default policy that is created or create one or more custom messaging policies for people in your organization. After you create a policy, you will assign it a user or groups of users in your organization.
+<!--- Add zone marker here--->
 
-Policies can be easily managed in the Microsoft Teams admin center (http://admin.teams.microsoft.com) by logging in with administrator credentials and choosing **Messaging Policies** in the left navigation pane. 
+Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams. You can use the default policy that is created automatically or create one or more custom messaging policies for people in your organization. After you create a policy, you can assign it to a user or group of users in your organization.
 
-![Messaging policies in Teams](media/messaging-policies-image1.png)
+By default, a policy named Global (org-wide default) is created. All users in your organization will be assigned this messaging policy by default. You can either make changes to this policy or create one or more custom policies and assign users to them. When you create a custom policy, you can allow or prevent certain features from being available to your users and then assign it to one or more users who will need the settings applied to them. 
 
-To edit the existing default Messaging policy for your organization, click the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, click **New policy** and select your settings. Choose **Save** when you are done.
+## Change or create a messaging policy
 
-![Messaging policy settings in Teams](media/messaging-policies-image2.png)
-::: zone-end  
-::: zone target="chromeless"
-Use the following settings to change the global Messaging policy or create a new custom policy:
+You can easily manage messaging policies in the Microsoft Teams admin center (http://admin.teams.microsoft.com) by signing in with administrator credentials and choosing **Messaging policies** in the left navigation pane. To edit the existing default messaging policy for your organization, select the **Global (Org-wide default)** row, and then make your changes. To create a new custom messaging policy, select **New policy**, give the new policy a name, and then select your settings. Choose **Save** when you are done.
+
+For example, say you want to make sure that sent messages aren't deleted or altered. You would create a new custom policy named "Retain sent messages" and turn off the following settings:
+
+- Owners can delete sent messages
+- Users can delete sent messages
+- Users can edit sent messages
+
+Then assign the policy to the users.
+
+> [!NOTE] 
+> A user can only be assigned one messaging policy at a time.
+ 
+## Assign a messaging policy to a user
+
+If you create a custom messaging policy, it will only be active for a user if the policy is assigned to the user. To assign a custom policy to a user, go to the Microsoft Teams admin center, choose **Users** in the left navigation, and select the user you want to assign the policy to. On the user's page, choose **Edit** next to **Assigned policies**. Then, in the **Edit user policies** pane, under **Messaging policy**, select the messaging policy from the drop-down list, and select **Save**. You can also edit settings from the list of users. To do this, select the user by clicking to the left of the user's display name. Select **Edit settings**. Then, on the **Edit settings** pane, under **Messaging policy**, select the policy from the drop-down list and then select **Save**.
+
+If you are applying a policy to more than one user, select each of the users by clicking to the left of the user name, and then select **Edit settings**. On the **Edit Settings** pane, under **Messaging policy**, select the policy from the drop-down list and then select **Save**.
+
+> [!NOTE]
+> You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users, and then you can delete the original policy.
+
+<!--- End zone marker here--->
+
+## Messaging policy settings
+
+Use the following settings to change the global messaging policy or create a new custom policy:
 
 - **Owners can delete sent messages**  Use this setting to let owners delete messages that users sent in chat.
 - **Users can delete sent messages** Use this setting to let users delete messages that they sent in chat.
 - **Users can edit sent messages** Use this setting to let users edit the messages that they sent in chat.
 - **Read receipts** Use this setting to specify whether read receipts are user controlled, enabled for everyone, or disabled.
-
 <a name="bkchat"> </a>
 
 - **Chat**  Turn this setting on if you want users in your organization to be able to use the Teams app to chat with other people.
@@ -52,17 +71,12 @@ Use the following settings to change the global Messaging policy or create a new
 - **Use Memes in conversations** If you turn this on, users can include Memes in chat conversations with other people. 
 - **Use Stickers in conversations** If you turn this on, users can include Stickers in chat conversations with other people.
 - **Allow URL previews** Use this setting to turn automatic URL previewing on or off in messages.
-- **Allow users to translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Office 365. 
-
-[Full article](messaging-policies-in-teams.md)
-::: zone-end
-
-::: zone target="docs"
-If you have created a custom Messaging policy, it will only be active for a user if that policy is assigned to a user. To assign a custom policy to a user in the Microsoft Teams admin center, choose **Users** in the left navigation, and select the user you want to assign the policy to. On the user's page, choose **Edit** next to **Assigned Policies**.
-::: zone-end
+- **Allow users to translate messages** Turn this setting on to let users automatically translate Teams messages into the language specified by their personal language settings for Office 365.
+- **Users can send priority notifications** If you turn this on, users can indicate message priority.
+- **Voice message creation** 
+    - **Allowed in chats and channels** This means that users can leave voice messages in both chats and channels.
+    - **Allowed in chats only** This means that users can leave voice messages in chats, but not in channels.
+    - **Disabled** This means that users cannot create voice messages in chats or channels.  
 
 ### Related topics
 [Meeting policies in Teams](meeting-policies-in-teams.md)
-
-
-
