@@ -103,7 +103,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 |Phone System  <br/> |MCOEV  <br/> |
 |International Calling Plan  <br/> |MCOPSTN2  <br/> |
 |Domestic Calling Plan  <br/> |MCOPSTN1  <br/> |
-|Communications Credits  <br/> |MCOPSTNPP  <br/> |
+|Communications Credits  <br/> |MCOPSTNC  <br/> |
 
 ## Audio Conferencing: Tips and scripts for assigning licenses
 
