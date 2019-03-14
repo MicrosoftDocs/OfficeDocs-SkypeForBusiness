@@ -7,9 +7,7 @@ ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 553fa13c-92d2-4d5c-a3d5-41a073cb047c
 ms.tgt.pltfrm: cloud
-ms.service: 
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -21,6 +19,7 @@ appliesto:
 localization_priority: Normal
 f1keywords: 
 - ms.lync.lac.ToolsCallQualityDashboard
+- ms.teamsadmincenter.directrouting.cqd
 ms.custom:
 - Reporting
 description: "See how to turn on and use the Skype for Business Online Call Quality Dashboard and get summary reports of quality of calls. "

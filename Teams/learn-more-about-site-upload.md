@@ -15,6 +15,7 @@ MS.collection:
 description: Learn how to upload to a site.
 ms.custom:
 - NewAdminCenter_Update
+f1keywords: ms.teamsadmincenter.locations.overview
 appliesto: 
 - Microsoft Teams
 ---

@@ -7,9 +7,7 @@ ms.reviewer: mikedav, wlooney
 ms.topic: article
 ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd 
 ms.tgt.pltfrm: cloud
-ms.service: 
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -46,7 +44,7 @@ As a Teams or Skype for Business Online admin, you can use Call Analytics to tro
 ## Set Call Analytics permissions
 <a name="BKMK_SetCAPerms"></a>
 
-As the admin, you get full access to all the features of Call Analytics. In addition, you can assign Azure Active Directory roles to support staff. Assign the Teams communications support specialist role to users who should have a limited view of Call Analytics. Assign the Teams communications support engineer role to users who need access to the full functionality of Call Analytics. Both permission levels prevent access to the rest of the Microsoft Teams admin center.
+As the admin, you have full access to all the features of Call Analytics. In addition, you can assign Azure Active Directory roles to support staff. Assign the Teams communications support specialist role to users who should have a limited view of Call Analytics. Assign the Teams communications support engineer role to users who need access to the full functionality of Call Analytics. Both permission levels prevent access to the rest of the Microsoft Teams admin center.
 
 > [!NOTE]
 > The communications support specialist role is equivalent to tier 1 support and the communications support engineer role is equivalent to tier 2 support.

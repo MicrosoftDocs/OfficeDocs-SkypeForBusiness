@@ -10,6 +10,7 @@ description: Use a proven success framework to help your organization's upgrade 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
+F1keywords: ms.teamsadmincenter.dashboard.widget.upgrade.opt-in
 MS.collection: 
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
