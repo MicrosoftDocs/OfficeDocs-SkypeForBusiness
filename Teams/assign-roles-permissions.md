@@ -51,7 +51,7 @@ The table below shows the difference in permissions between an owner and a membe
 
 <sup>4</sup> Team members can add other members to a public team.
 
-<sup>4</sup> While a team member cannot directly add members to a private team, they can request someone to be added to a team they're already a member of. When a member requests someone to add to a team, team owners receive an alert that they have a pending request that they can accept or deny.
+<sup>5</sup> While a team member can't directly add members to a private team, they can request someone to be added to a team they're already a member of. When a member requests someone to be added to a team, team owners receive an alert that they have a pending request that they can accept or deny.
 
 
 
