@@ -46,6 +46,8 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | AudioCodes |440HD IP Phone|3.0.1.89 |5/23/2017|
 | AudioCodes |430HD IP Phone|UC430HD_2.0.3.19 |7/02/2014|
 | AudioCodes |420HD IP Phone|UC420HD_2.0.1.44.9 |10/01/2013|
+| Crestron |Flex UC-P100-S|55.66.91.11 |03/14/2019|
+| Crestron |Flex UC-P110-S|55.66.91.11 |03/14/2019|
 | Polycom |VVX 201 Business Media Phone|5.9.0.9373 |1/22/2019|
 | Polycom |VVX 300/310 Business Media Phone|5.9.0.9373 |1/22/2019|
 | Polycom |VVX 301/311 Business Media Phone|5.9.0.9373 |1/22/2019|
