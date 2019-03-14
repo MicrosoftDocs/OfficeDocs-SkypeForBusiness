@@ -148,7 +148,7 @@
 ### [Audio Conferencing Complimentary Dial Out Period](complimentary-dial-out-period.md)
 
 
-### [Set up Audio conferencing for Skype for Business and Microsoft Teams](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Set up Audio conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 ### [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
@@ -346,6 +346,12 @@
 #### [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md)
 #### [Configure network settings for Location-Based Routing](location-based-routing-configure-network-settings.md)
 #### [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
+
+### Media bypass for Direct Routing
+#### [Plan for media byass with Direct Routing](direct-routing-plan-media-bypass.md)
+#### [Configure media bypass with Direct Routing](direct-routing-configure-media-bypass.md)
+
+
 ### Technical reference for Direct Routing
 #### [Trunk failover on outbound calls](direct-routing-trunk-failover-on-outbound-call.md)
 
