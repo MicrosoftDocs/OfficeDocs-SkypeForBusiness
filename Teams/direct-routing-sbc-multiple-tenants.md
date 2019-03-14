@@ -204,6 +204,14 @@ For example:
 New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
 ```
 
+When creating the trunk, you may receive the following error message:
+
+```
+Can not use the "sbc1.customers.adatum.biz" domain as it was not configured for this tenant.
+```
+
+Please allow some time for domain registration and activation to replicate and try again.
+
 Provision users with the phone numbers and configure voice routing.
 
 For more information on the New-CSOnlinePSTNGateway, provisioning users, and configuring voice routing, please refer to [Configure Direct Routing](direct-routing-configure.md).
