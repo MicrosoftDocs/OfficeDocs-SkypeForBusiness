@@ -77,7 +77,7 @@ Follow these stesps to assign a new phone number to your audio conferencing brid
  2. Select **Voice** > **Phone numbers**.
  3. Select the phone number, and click **Assign**.
 
-For more details, see [Change the phone numbers on your audio conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+For more details, see [Change the phone numbers on your Audio Conferencing bridge](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
 ## Step 5: Set the default and alternate languages for a conferencing bridge
 <a name="__top"> </a>
