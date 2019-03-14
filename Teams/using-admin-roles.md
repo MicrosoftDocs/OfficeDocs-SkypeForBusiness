@@ -6,6 +6,9 @@ manager: serdars
 ms.date: 09/19/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: 
+- M365-collaboration
+- Teams_ITAdmin_Help
 ms.reviewer: islubin
 description: Learn to use the different administrative roles to manage Teams.
 appliesto: 
@@ -24,7 +27,7 @@ There are four Teams admin roles available: Teams service administrator, Teams c
 
 | Role | Can do these tasks | Can access the following tools |
 |----- | ------------------ | ------------------------------ |
-| Teams Service Administrator | Manage the Microsoft Teams service, and manage and create Office 365 Groups | Everything in the Microsoft Teams admin center and associated PowerShell controls, including:<br><br> Manage meetings, including meeting policies, configurations, and conference bridges<sup>1,3</sup><br><br> Manage voice, including calling policies and phone number inventory and assignment<sup>1</sup><br><br> Manage messaging, including messaging policies<sup>1,3</sup><br><br> Manage all org-wide settings, including federation, teams upgrade, and teams client settings<sup>1,3</sup><br><br> Manage the teams in the organization and their associated settings, including membership (group management supported via PowerShell, team management in the admin portal rolling out) <sup>23</sup><br><br> View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset<sup>3</sup> |
+| Teams Service Administrator | Manage the Microsoft Teams service, and manage and create Office 365 Groups | Everything in the Microsoft Teams admin center and associated PowerShell controls, including:<br><br> Manage meetings, including meeting policies, configurations, and conference bridges<sup>1,3</sup><br><br> Manage voice, including calling policies and phone number inventory and assignment<sup>1</sup><br><br> Manage messaging, including messaging policies<sup>1,3</sup><br><br> Manage all org-wide settings, including federation, teams upgrade, and teams client settings<sup>1,3</sup><br><br> Manage the teams in the organization and their associated settings, including membership (group management supported via PowerShell, team management in the admin portal rolling out) <sup>23</sup><br><br> View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset<sup>3</sup> <br><br> Access, monitor and troubleshoot tenant's call quality and reliability using data expose in Call Quality Dashboard (CQD). Create new reports, update and remove reports as needed. Upload and update CQD building data |
 | Teams Communications Administrator | Manage calling and meetings features within the Microsoft Teams service | Manage meetings, including meeting policies, configurations, and conference bridges<sup>1,3</sup><br><br> Manage voice, including calling policies and phone number inventory and assignment<sup>1</sup><br><br> View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset<sup>3</sup> |
 | Teams Communications Support Engineer | Troubleshoot communications issues within Teams by using **advanced** tools. | View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset<sup>3</sup> |
 | Teams Communications Support Specialist | Troubleshoot communications issues within Teams by using **basic** tools.| Access to user profile page for troubleshooting calls in Call Analytics. Can only view user information for the specific user being searched for.<sup>3</sup>

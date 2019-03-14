@@ -7,12 +7,15 @@ ms.date: 09/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
+f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: "See how to configure Teams to let users communicate with users in another organization."
 ---
 

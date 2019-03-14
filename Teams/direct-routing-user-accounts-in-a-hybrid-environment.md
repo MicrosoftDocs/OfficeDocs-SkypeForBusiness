@@ -4,16 +4,14 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
-ms.topic: article
-ms.service:  
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.topic: conceptual
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:  
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: "Learn about different combinations of user creation and which combinations are supported or unsupported."
 ---
 
@@ -63,4 +61,4 @@ A Skype for Business hybrid environment with PSTN connectivity provides flexib
 
 ### Supportability statement for the hybrid environment with PSTN
 
-For all users, the user object **must** be created in the on-premises AD and synchronized to the Azure AD using the Azure AD Connect tool. Enabling users for Teams/Skype for Business **is not supported** if the user object is created directly in the Azure AD in a hybrid configuration. For new users, such as a new hire, who will be enabled directly for Teams, the user must be enabled for Skype for Business using on premises Skype for Business management tools. Creating users in online Skype for Business or Teams without first enabling them in on-premises pool with Enterprise Voice **is not supported**. Please see [this article](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) for more details on how to enable users for Skype for Business in hybrid configuration.
+For all users, the user object **must** be created in the on-premises AD and synchronized to the Azure AD using the Azure AD Connect tool. Enabling users for Teams/Skype for Business **is not supported** if the user object is created directly in the Azure AD in a hybrid configuration. For new users, such as a new hire, who will be enabled directly for Teams, the user must be enabled for Skype for Business using on premises Skype for Business management tools. Creating users in online Skype for Business or Teams without first enabling them in on-premises pool with Enterprise Voice **is not supported**. For more information on this, look into [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).

@@ -7,9 +7,12 @@ ms.date: 01/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: phlouie
 localization_priority: Normal
 search.appverid: MET150
+ms.collection: 
+- M365-collaboration
+- Teams_ITAdmin_Help
 description: Learn how to use Teams templates to create a team with predefined channels.
 ms.custom:
 - NewAdminCenter_Update

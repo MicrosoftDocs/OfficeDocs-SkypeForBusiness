@@ -4,13 +4,15 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Use onboarding checklists to prepare Office 365 for Teams and configure Teams core capabilities, networking, and cloud voice workloads.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 ---
@@ -113,7 +115,7 @@ For additional information, see:
 
 - [Technical Planning for Audio Conferencing](audio-conferencing.md#technical-planning-for-audio-conferencing)
 
-- [Set up Audio Conferencing for Skype for Business and Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+- [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 - [Technical Planning for Phone System with Calling Plans](calling-plan-landing-page.md)
 

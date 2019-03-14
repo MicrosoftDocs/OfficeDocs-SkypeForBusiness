@@ -5,14 +5,13 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.service:  
-- msteams
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:  
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: "Learn how to configure one Session Border Controller (SBC) to serve multiple tenants."
 ---
 
@@ -204,6 +203,14 @@ For example:
 ```
 New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
 ```
+
+When creating the trunk, you may receive the following error message:
+
+```
+Can not use the "sbc1.customers.adatum.biz" domain as it was not configured for this tenant.
+```
+
+Please allow some time for domain registration and activation to replicate and try again.
 
 Provision users with the phone numbers and configure voice routing.
 

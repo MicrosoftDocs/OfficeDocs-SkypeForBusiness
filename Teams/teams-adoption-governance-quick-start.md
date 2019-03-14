@@ -12,7 +12,9 @@ localization_priority: Normal
 search.appverid: MET150
 description: Make key decisions for phase 2 of your adoption plan 
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection: 
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---

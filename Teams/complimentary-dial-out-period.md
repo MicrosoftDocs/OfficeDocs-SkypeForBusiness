@@ -4,15 +4,14 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, OscarR
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
-ms.service: 
-- skype-for-business-online
-- msteams
-ms.collection:  
+ms.service: msteams
+MS.collection: 
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online 
+- M365-collaboration
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:

@@ -4,15 +4,13 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.topic: article
+ms.topic: reference
 ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
 ms.tgt.pltfrm: cloud
-ms.service: 
-- skype-for-business-online
-- msteams
-ms.collection:  
+ms.service: msteams
+MS.collection: 
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online 
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -40,7 +38,7 @@ While some usage data is collected automatically, other data can only be collect
 
 ## Census data
 
-Census data is acquired solely to provide, support, and improve Skype for Business. Microsoft Teams and Skype for Business Online. It includes environmental information such as device and operating system versions, and regional and language settings. It also includes counters for sign-in attempts and failures. Here are some specific examples of the census data that's collected:
+Census data is acquired solely to provide, support, and improve Skype for Business. Microsoft Teams, and Skype for Business Online. It includes environmental information such as device and operating system versions, and regional and language settings. It also includes counters for sign-in attempts and failures. Here are some specific examples of the census data that's collected:
 
 |**Data type**|**Example**|**Notes**|
 |:-----|:-----|:-----|

@@ -6,7 +6,9 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: lucarras 
 search.appverid: MET150
 description: Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel.

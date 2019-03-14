@@ -10,7 +10,12 @@ description: Details of Skype for Business and Microsoft Teams coexistence optio
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+f1keywords:
+- ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
+- ms.teamsadmincenter.upgradeoverride.learnmore
+MS.collection: 
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 ---

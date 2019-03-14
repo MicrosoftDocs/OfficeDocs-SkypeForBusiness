@@ -3,13 +3,15 @@ title: Set up for live events in Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Learn the steps to set up live for events in Teams, including preparing your network, assigning licenses, using policies to enable live event features and scheduling for users, and setting up a third-party distribution provider.
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto: 

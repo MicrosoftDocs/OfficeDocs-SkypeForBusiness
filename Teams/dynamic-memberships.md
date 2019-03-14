@@ -4,12 +4,14 @@ author: jambirk
 ms.author: jambirk
 manager: serdars
 ms.reviewer: kblevens, phlouie
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 description: Learn about Dynamic team membership based on AAD.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration 
 appliesto: 
 - Microsoft Teams
 ---

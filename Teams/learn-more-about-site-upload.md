@@ -9,10 +9,13 @@ ms.service: msteams
 ms.reviewer: 
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Learn how to upload to a site.
 ms.custom:
 - NewAdminCenter_Update
+f1keywords: ms.teamsadmincenter.locations.overview
 appliesto: 
 - Microsoft Teams
 ---

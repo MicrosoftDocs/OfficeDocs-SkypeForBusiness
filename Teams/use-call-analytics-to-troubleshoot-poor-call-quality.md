@@ -4,23 +4,23 @@ ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
-ms.date: 01/22/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
-ms.service: 
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection: 
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online 
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business 
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1keywords: 
+- ms.teamsadmincenter.directrouting.callanalytics
+- ms.teamsadmincenter.users.activity.audioqualitycolumn
 ms.custom:
 - Reporting
 description: "Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Microsoft Teams and Skype for Business calls and meetings."
@@ -55,21 +55,19 @@ See your Teams and Skype for Business admin if you need help with permissions.
 
 1. Sign in with your Teams communications support or Teams admin credentials.
 
-2. Go to the Office 365 admin center and sign in using your work or school account. Then in your web browser go to *https://adminportal.services.skypeforbusiness.com*.
-
-3. Select **Admin centers** > **Teams & Skype**. 
+2. In your web browser go to *https://admin.teams.microsoft.com*.
     
-4. On the **Dashboard**, in **User Search**, start typing either the name or sip address of the user whose calls you want to troubleshoot or select **View users** to see a list of users.
+3. On the **Dashboard**, in **User Search**, start typing either the name or sip address of the user whose calls you want to troubleshoot or select **View users** to see a list of users.
     
     ![Screenshot of the User Search box of Call Analytics in the Microsoft Teams admin center.](media/use-call-analytics-to-troubleshoot-image-1.png)
   
-5. Select the user from the list.
+4. Select the user from the list.
 
-6. Select **Call history**, and then select the call or meeting that you want to troubleshoot.
+5. Select **Call history**, and then select the call or meeting that you want to troubleshoot.
     
     ![Screenshot shows the call history page for a user.](media/use-call-analytics-to-troubleshoot-image-2.png)
   
-7. Select the **Advanced** tab, and then look for yellow and red items which indicate poor call quality or connection problems.
+6. Select the **Advanced** tab, and then look for yellow and red items which indicate poor call quality or connection problems.
     
     In the session details for each call or meeting, minor issues appear in yellow. (For example, in the following screenshot, the values are in yellow for Average jitter, Max jitter, and Average packet loss rate.) If something is yellow, it's outside of normal range, and it may be contributing to the problem, but it's unlikely to be the main cause of the problem. If something is red, it's a significant problem, and it's likely the main cause of the poor call quality for this session. 
     

@@ -1,21 +1,23 @@
 ---
-title: "Get started with Microsoft Teams Healthcare templates"
+title: "Get started with Teams templates for Healthcare organizations"
 author: jambirk
 ms.author: jambirk 
 manager: serdars
 audience: ITPro
-ms.topic: article 
+ms.topic: conceptual 
 ms.service: msteams 
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection: 
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration 
 appliesto:
 - Microsoft Teams
 ms.reviewer: 
-description: Get started with Microsoft Teams Healthcare templates
+description: Get started with Teams templates for Healthcare organizations
 ---
 
-# Get started with Microsoft Teams Healthcare templates
+# Get started with Teams templates for Healthcare organizations
 
 Microsoft Teams templates allow you to quickly and easily create teams by providing a predefined template of settings, channels, and pre-installed apps.
 
@@ -32,7 +34,7 @@ The ward template is meant for communication and collaboration within a ward, po
 |Healthcare - Ward | https://<span></span>graph<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Announcements\* <br> Huddles\* <br> Rounds\* <br> Staffing\* <br> Training\* |
 |     | |         |
 
-\* Auto-favorited 
+\* Auto-favorited
 
 ## Hospital template
 

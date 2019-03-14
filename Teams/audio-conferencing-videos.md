@@ -4,13 +4,16 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 03/12/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: MyAdvisor
 description: Videos introducing Audio Conferencing in Microsoft Teams to the IT admin.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+ms.collection:  
+- Teams_ITAdmin_Help
+- M365-collaboration
+- M365-voice
 appliesto: 
 - Microsoft Teams
 ---

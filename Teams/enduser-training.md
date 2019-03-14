@@ -7,11 +7,14 @@ layout: LandingPage
 ms.date: 11/26/2018
 ms.topic: landing-page
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Training
+ms.collection: 
+- Teams_ITAdmin_Training
+- M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
 description: Training videos, tutorials, and other resources for users in your organization to learn and use Teams.
 ms.topic: landing-page
+f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 appliesto: 
 - Microsoft Teams
 ---

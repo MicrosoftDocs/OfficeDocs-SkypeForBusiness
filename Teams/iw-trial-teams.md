@@ -9,9 +9,11 @@ audience: Admin
 ms.reviewer: annikaelias
 ms.service: msteams
 search.appverid: MET150
-localization_priority : Normal
+localization_priority : Priority
 description: Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams.
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---
@@ -111,6 +113,9 @@ To turn off the trial license:
 4. In the **Product licenses** pane, switch the toggle to **Off**.
 
     ![Screenshot of the Teams trial license setting on the Product licenses pane](media/iW-trial-enable-4.png)
+    
+>[!Note]
+>The Microsoft Teams Trial toggle switch will appear once the first user signed up for the trial in the organization.
 
 ### Manage Teams for users who have the trial license
 

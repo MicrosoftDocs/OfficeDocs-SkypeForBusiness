@@ -4,24 +4,25 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.date: 01/28/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:  
+- Teams_ITAdmin_Help
+- M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
+F1keywords: ms.teamsadmincenter.directrouting.overview
 description: Landing page for Direct Routing
-appliesto: 
-- Microsoft Teams
+appliesto: Microsoft Teams
 ---
 
 # Phone System Direct Routing
 
 You've completed [Get started](get-started-with-teams-quick-start.md). You've rolled out Teams with [chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) across your organization. Maybe you've deployed [Meetings & conferencing](deploy-meetings-microsoft-teams-landing-page.md). Now you're ready to add cloud voice workloads, and you've decided to use your own telephony carrier for Public Switched Telephone Network (PSTN) connectivity by using Phone System Direct Routing. With Direct Routing, you can use Phone System with virtually any telephony carrier.
 
-This article describes core deployment decisions for Direct Routing as well as additional considerations you may want to configure, based on your organization's needs.  You should also read [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md) for more information about Microsoft's cloud voice offerings.
+This article describes core deployment decisions for Direct Routing as well as additional considerations you may want to think about, based on your organization's needs. You should also read [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md) for more information about Microsoft's cloud voice offerings.
 
 ## Learn more about Direct Routing
-
 
 The following articles provide more information about configuring and using Phone System Direct Routing. Configuring Direct Routing requires understanding of PSTN routing design. You should read all of these articles to understand how to plan and configure Direct Routing:
 
@@ -40,7 +41,6 @@ In addition, you might want to read the following articles depending on your req
 ## Core deployment decisions
 
 These are the core decisions to consider for Direct Routing. 
-
 
 |Ask yourself|Action |
 | :------------|:-------|

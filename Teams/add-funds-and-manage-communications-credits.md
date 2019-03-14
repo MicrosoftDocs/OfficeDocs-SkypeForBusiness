@@ -7,14 +7,11 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
-ms.service: 
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Skype for Business 
@@ -36,7 +33,7 @@ description: "Learn how to pay for Communication credits (PSTN Consumption) for 
 
 # Add funds and manage Communications Credits
 
-Communications Credits are a convenient way to pay for Phone System and Calling Plans in Office 365. It helps ensure that you and your users are never caught without being able to:
+Communications Credits are a convenient way to pay for Phone System and Calling Plans in Office 365. Communication Credits helps ensure that you and your users are never caught without being able to:
   
 - Dial in to Audio Conferencing meetings using toll-free dial-in phone numbers.
     
@@ -76,7 +73,7 @@ You can see the plans and pricing by visiting one of the following links:
     
 You can also see information by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.
   
-To see a table with the license or licenses you will need for each feature, see [teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+To see a table with the license or licenses you will need for each feature, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## Related topics
 

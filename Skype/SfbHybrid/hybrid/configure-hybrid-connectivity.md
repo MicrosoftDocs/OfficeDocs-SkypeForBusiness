@@ -3,11 +3,17 @@ title: Configure hybrid connectivity | Deploy Skype for Business Server 2019 con
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
+ms.reviewer: bjwhalen
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: 
+- Hybrid 
+- M365-voice
+- M365-collaboration
+- Teams_ITAdmin_Help
+- Adm_Skype4B_Online
 description: "Instructions for implementing  hybrid connectivity between Skype for Business Server and Skype for Business Online."
 
 ---

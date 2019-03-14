@@ -3,13 +3,15 @@ title: Cloud Video Interop for Microsoft Teams
 author: lolaj
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: srividhc
 description: Cloud Video Interop enables third-party meeting room devices to join Microsoft Teams meetings. 
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---

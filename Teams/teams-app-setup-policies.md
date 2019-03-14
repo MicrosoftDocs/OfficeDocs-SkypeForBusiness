@@ -9,6 +9,9 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.audience: Admin
+ms.collection: 
+- M365-collaboration
+- Teams_ITAdmin_Help
 appliesto: 
 - Microsoft Teams
 localization_priority: Normal
@@ -40,7 +43,7 @@ You can edit the settings in the global policy to include the apps that you want
 
 ## Create a custom app setup policy
 
-You can use the Microsoft Teams admin center or Windows PowerShell to create a custom policy.
+You can use the Microsoft Teams admin center to create a custom policy.
 
 1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **App setup policies**.
 2. Select **New policy**.

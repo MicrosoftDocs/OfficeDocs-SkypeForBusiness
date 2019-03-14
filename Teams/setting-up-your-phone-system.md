@@ -6,14 +6,11 @@ manager: serdars
 ms.reviewer: makolomi
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: 
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
-ms.collection:
+ms.collection: 
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -203,7 +200,7 @@ For frequently asked questions about Audio Conferencing, see [Audio Conferencing
       > [!NOTE]
       > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-**For more information about Audio Conferencing, see [Set up Audio Conferencing](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing).**
+**For more information about Audio Conferencing, see [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md).**
 
 ## Step 7: If you want to set up a Phone System call queue
 

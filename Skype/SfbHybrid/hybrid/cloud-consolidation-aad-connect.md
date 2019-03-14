@@ -1,18 +1,19 @@
 ---
 title: "Update AAD Connect to include more than one forest"
 ms.author: crowe
-author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 ms.topic: article
-ms.service: 
-- skype-for-business-online
-- msteams
+ms.prod: skype-for-business-itpro
 search.appverid: MET150
-ms.collection:  
+ms.collection: 
+- Hybrid 
+- M365-voice
+- M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-ms.audience: Admin
+ms.audience: ITPro
 appliesto:
 - Skype for Business 
 - Microsoft Teams

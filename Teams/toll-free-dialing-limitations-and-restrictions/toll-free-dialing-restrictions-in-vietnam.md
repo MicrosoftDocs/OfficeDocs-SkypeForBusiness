@@ -4,15 +4,14 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 02ee8759-b828-4f8a-8bc2-15b9d1b80fe2
 ms.tgt.pltfrm: cloud
-ms.service: 
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection: 
-- Adm_Skype4B_Online 
+- M365-collaboration
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -40,7 +39,7 @@ description: "This will help you find out how to dial toll free numbers in each 
 | Island/territory not covered  <br/>              | Not applicable  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | Wired/fixed line availability  <br/>             | Partial. See comments.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | Mobile network availability  <br/>               | Partial. See comments.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
-| Comments, restrictions, and access issues  <br/> | The 120 XX XXX number format will work from Vietnam Telecom International (VTI) and VNPT (Vietnam Post and Telecommunications) fixed and mobile networks. <br/>   <br/>**Note:** Mobifone &amp; Vinaphone are part of VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). As per the Vietnam Ministry of Telecommunications, the maximum allowable call duration is 2 hours. |
+| Comments, restrictions, and access issues  <br/> | The 120 XX XXX number format will work from Vietnam Telecom International (VTI) and VNPT (Vietnam Post and Telecommunications) fixed and mobile networks. <br/> <br/>The 120 XX XXX number format cannot be called from Mobifone's mobile network. <br/> <br/>**Note:** Mobifone &amp; Vinaphone are part of VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). As per the Vietnam Ministry of Telecommunications, the maximum allowable call duration is 2 hours. |
    
 ## Related topics
 

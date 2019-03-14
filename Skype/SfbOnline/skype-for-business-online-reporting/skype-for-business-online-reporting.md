@@ -18,7 +18,6 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: "Use this reference guide to learn about Skype for Business Online reporting and what info is available. "
-search.appverid: "MET150"
 ---
 
 # Skype for Business Online reporting

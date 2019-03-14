@@ -13,6 +13,7 @@ localization_priority: Normal
 MS.collection: 
 - Teams_ITAdmin_PracticalGuidance
 - Teams_ITAdmin_Training
+- M365-collaboration
 appliesto: 
 - Microsoft Teams
 ---
@@ -42,67 +43,28 @@ To enable the **Dial Pad** tab in Teams and allow your users to make and receive
 > [!NOTE]
 > You can also use Direct Routing to allow your users to mand and receive PSTN calls. To learn how to set up Direct Routing, read [Configure Direct Routing](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
 
-## Teams interop policy configuration
-To enable Teams to begin receiving calls, you'll need to update Teams upgrade policy and Teams interop policy, using [Microsoft Teams admin center](https://aka.ms/teamsadmincenter) or using a remote Windows PowerShell session with the Skype for Business [`*-CsTeamsUpgradePolicy` and `*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype) cmdlets, to redirect calls to Teams.
+## Using TeamsUpgradePolicy to control where calls land
+To control whether incoming calls (and chats) land in Teams or Skype for Business, administrators use TeamsUpgradePolicy, using either [Microsoft Teams admin center](https://aka.ms/teamsadmincenter) or using a remote Windows PowerShell session with the [Skype for Business](https://docs.microsoft.com/powershell/module/skype) cmdlets.
 
-For more information about Teams upgrade policy and Teams interop policy, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
 
-> [!TIP]
-> To find the PowerShell cmdlets you need, type "CsTeamsUpgradePolicy" or "CsTeamsInteropPolicy" in the **Filter** box in the [Skype for Business PowerShell cmdlet documentation](https://docs.microsoft.com/powershell/module/skype).
+The default configuration of TeamsUpgradePolicy is Islands mode, which is designed to ensure that existing business workflows are not interrupted during a Teams deployment. By default, VoIP, PSTN, and federated calls to your users will continue to be routed to Skype for Business until you update the policy to enable inbound calling to Teams.  When recipients are in islands mode:
 
-### Default Teams upgrade and interop policies
-Teams has a default policy configuration designed to ensure that existing business workflows are not interrupted during a Teams deployment. By default, VoIP, PSTN, and federated calls to your users will continue to be routed to Skype for Business until you update the policy to enable inbound calling to Teams. This ensures that there are no unintended interruptions in voice services as you start to pilot and deploy Teams.
+ - Incoming VOIP calls that originated in Skype for Business always land in the recipient's Skype for Business client.
+ - Incoming VOIP calls that originated in Teams land in Teams, *if the sender and receiver are in the same tenant*.
+ - Incoming federated VOIP (regardless of which client originates) and PSTN calls always land in the recipient's Skype for Business client.
+ 
+To ensure that incoming VOIP and PSTN calls always land in a user's Teams client, update the user's coexistence mode to be TeamsOnly (which means, assign them the "UpgradeToTeams" instance of TeamsUpgradePolicy.  For more information on coexistence modes and TeamsUpgradePolicy, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-Teams upgrade policy by default is kept at legacy mode that will honor Teams interop policy to determine where chats and calls are to be routed--Teams or Skype for Business.
+**NOTES**
+ - Skype for Business IP phones will receive calls, even if the user is in TeamsOnly mode.  
+ - Users that have been provisioned with Phone System and Calling Plans licenses for use with Skype for Business Online (e.g. they have been assigned a value of OnlineVoiceRoutingPolicy) , will have the Calls tab enabled in Teams and can place outbound PSTN calls from Teams without administrators having to take any administrative action.
 
-> [!NOTE]
-> The behaviors of Teams upgrade policy and Teams interop policy will soon change as described in [Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-Teams interop policy has the following default configuration:
+### How to configure users to receive all incoming VOIP and PSTN calls in Teams
+To ensure users receive all incoming VOIP and PSTN calls in Teams, set the user's coexistence mode to TeamsOnly in the Microsoft Teams admin center, or use Skype for Business remote Windows PowerShell session to update TeamsUpgradePolicy as follows:
 
-    Identity                   : Global
-    AllowEndUserClientOverride : False
-    CallingDefaultClient       : Default
-    ChatDefaultClient          : Default
+    Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
 
-The behaviors of the default configuration are the following:
-* **For existing Skype for Business customers**, this policy is designed to ensure that Skype for Business calls are directed to Skype for Business, and Teams calls are directed to Teams. PSTN and federated calls will be directed to Skype for Business when this policy is in effect.
-* **For customers without Skype for Business**, when in effect, in addition to calls among Teams users, only outbound PSTN calling will be available in Teams. You will need to alter the Teams interop policy assigned to your users to receive PSTN calls in Teams.
-
-> [!NOTE]
-> Users that have been provisioned with Phone System and Calling Plans licenses for use with Skype for Business Online, and configured with the default global Teams interop policy, will have the Calls tab enabled in Teams and can place outbound PSTN calls from Teams without administrators having to take any administrative action.
-
-## Configuring Teams to receive inbound PSTN calls
-To receive inbound PSTN calls in Teams, you will need to configure Teams as the default calling application by applying Teams upgrade policy with the corresponding Teams interop policy that sets `CallingDefaultClient` parameter to Teams.
-
-> [!IMPORTANT]
-> We recommend that you apply this configuration to an initial set of users to explore these exciting new calling capabilities in Teams prior to making wider or organization-level changes.
-
-If you choose to continue to use the legacy Teams upgrade policy, use the following preconfigured Teams interop policy to route inbound PSTN calling to Teams:
-
-    Identity                   : Tag:DisallowOverrideCallingTeamsChatTeams
-    AllowEndUserClientOverride : False
-    CallingDefaultClient       : Teams
-    ChatDefaultClient          : Teams
-
-If you choose to use the updated Teams upgrade policy, you need to assign Teams Only mode to your users.
-
-The behaviors of the policy above are the following:
-* **For existing Skype for Business customers**, this policy is designed to redirect incoming calls to Teams. This includes both VoIP (from Teams and Skype for Business) and PSTN calls. 
-* **For customers without Skype for Business**, when in effect, PSTN calls will be received in Teams.
-
-> [!WARNING]
-> Currently, changing `CallingDefaultClient` to Teams will also affect calls to Skype for Business IP phones. Incoming calls will not be received on the phones and will only ring Teams clients. Please consult the [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap) for information about support for existing certified SIP phones.
-
-### How to configure users to receive PSTN calls in Teams
-When using the legacy Teams upgrade policy, apply the Teams interop policy as described above via Skype for Business remote Windows PowerShell session to redirect calls to Teams:
-
-    Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
-
-If you choose to use Teams Only mode, you can change the user's coexistence mode to Teams Only via the Microsoft Teams acmin center or via a Skype for Business remote Windows PowerShell session to redirect calls to Teams:
-
-    Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
-    Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
 ## See also
 [Set up Calling Plans](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
@@ -113,4 +75,3 @@ If you choose to use Teams Only mode, you can change the user's coexistence mode
 
 [Skype for Business PowerShell cmdlet reference](https://docs.microsoft.com/powershell/module/skype)
 
-[Teams PowerShell cmdlet reference](https://docs.microsoft.com/powershell/module/teams)

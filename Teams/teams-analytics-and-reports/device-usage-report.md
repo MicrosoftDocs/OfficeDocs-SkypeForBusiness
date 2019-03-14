@@ -3,14 +3,16 @@ title: Microsoft Teams device usage report
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 03/08/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection: 
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Learn how to use the Teams device usage report in the Microsoft Teams admin center to see how users in your organization connect to Teams.
 appliesto: 
 - Microsoft Teams
