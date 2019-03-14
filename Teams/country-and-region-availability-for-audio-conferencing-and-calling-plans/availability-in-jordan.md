@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: b273afb4-94ef-4075-a24c-445c58ede933
 ms.tgt.pltfrm: cloud
 ms.service: msteams

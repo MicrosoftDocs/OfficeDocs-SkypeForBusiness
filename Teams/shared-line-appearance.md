@@ -7,8 +7,7 @@ ms.date: 02/19/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: 
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help

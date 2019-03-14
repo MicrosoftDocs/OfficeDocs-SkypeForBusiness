@@ -3,7 +3,7 @@ title: Microsoft Teams User Adoption Plan | Best Practices
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 search.appverid: MET150
