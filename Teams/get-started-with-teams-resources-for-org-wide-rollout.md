@@ -19,7 +19,7 @@ appliesto:
 
 # Choose a path to your organization-wide rollout of Microsoft Teams
 
-Now that you've successfully set up your first teams, onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption. Start with the first workload, [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
+Now that you've successfully set up your first teams and onboarded an initial group of users while driving usage, it's time to look at your go-forward plan to deploy Teams across the rest of your organization while driving adoption. Start with the first workload, [Chat, teams, channels, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
 
 For help picking your path to rolling out Teams, read [How to roll out Teams](How-to-roll-out-teams.md).
 
