@@ -4,7 +4,7 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 10/20/17
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_Help

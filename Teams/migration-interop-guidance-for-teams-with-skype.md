@@ -3,7 +3,7 @@ title: Migration and interoperability guidance for organizations using Teams tog
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 description: Guidance for managing the transition to Teams from Skype for Business 
