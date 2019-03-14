@@ -321,7 +321,7 @@ The Audio Conferencing service in Office 365 includes:
 -   Support for multiple languages for the conference bridge (primary and secondary)
 -   A default phone number for the tenant.
 
-Full description of the included capabilities can be referenced from [Set up Audio Conferencing for Skype for Business and Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) and [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md).
+For a full description of the included capabilities, see [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md) and [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md).
 
 > [!NOTE]
 > Dedicated conference bridge phone numbers are counted towards the limit of phone numbers that can be acquired per tenant, based on the number of applicable licenses as described in [Getting service phone numbers for Skype for Business and Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). Toll-free conference bridge phone numbers require Communications Credits.
@@ -548,4 +548,4 @@ Drive Value
 <br>
 ## See also
 
-[Set up Audio Conferencing for Skype for Business and Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
