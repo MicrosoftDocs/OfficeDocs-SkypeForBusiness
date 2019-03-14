@@ -346,7 +346,7 @@
 
 ### Media bypass for Direct Routing
 #### [Plan for media byass with Direct Routing](direct-routing-plan-media-bypass.md)
-#### [Configure bypass with Direct Routing](direct-routing-configure-media-bypass.md)
+#### [Configure media bypass with Direct Routing](direct-routing-configure-media-bypass.md)
 
 
 ### Technical reference for Direct Routing
