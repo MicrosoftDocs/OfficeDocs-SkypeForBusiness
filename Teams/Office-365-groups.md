@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 08/29/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 description: Learn about how Office 365 groups and group memberships work with Microsoft Teams.
 localization_priority: Normal
