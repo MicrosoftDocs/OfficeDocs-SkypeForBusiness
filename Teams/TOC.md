@@ -145,7 +145,7 @@
 ### [Audio Conferencing Complimentary Dial Out Period](complimentary-dial-out-period.md)
 
 
-### [Set up Audio conferencing for Skype for Business and Microsoft Teams](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Set up Audio conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 ### [Assign Microsoft as the audio conferencing provider](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
