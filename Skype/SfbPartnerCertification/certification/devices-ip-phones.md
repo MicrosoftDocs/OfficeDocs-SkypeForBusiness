@@ -62,6 +62,7 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | Polycom |VVX 250 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
 | Polycom |VVX 350 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
 | Polycom |VVX 450 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
+| Yealink |T55 Skype for Business edition |55.9.0.9 |3/12/2019|
 | Yealink |T46S Skype for Business edition |66.9.0.23 |4/21/2018|
 | Yealink |T48S Skype for Business edition |66.9.0.23 |4/21/2018|
 | Yealink |T41S Skype for Business edition |66.9.0.23 |11/30/2017|
