@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 06/08/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sonua 
 localization_priority: Normal

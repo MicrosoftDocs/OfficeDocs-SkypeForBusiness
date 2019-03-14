@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 2/25/2019
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_Help
