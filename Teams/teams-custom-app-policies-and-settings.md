@@ -58,10 +58,9 @@ You can edit the settings in the global app setup policy to include the apps tha
 
 #### Set a user custom app policy
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **App setup policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Setup policies**.
 2. Select **New policy**.
-3. Turn on or turn off **User can upload custom apps**. <br>
-    -- add screen shot --
+3. Turn on or turn off **User can upload custom apps**.
 4. Choose any other settings that you want to for the policy.
 5. Click **Save**.
 
