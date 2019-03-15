@@ -3,7 +3,7 @@ title: Project Scope Skype for Business to Microsoft Teams Adoption | Upgrade
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Scope your upgrade project by refining your vision and goals. 
