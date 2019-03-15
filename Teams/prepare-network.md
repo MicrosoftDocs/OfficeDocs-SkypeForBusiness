@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: arachman
 description: Learn how to prepare and manage your Microsoft Teams network. Information includes network requirements, bandwidth requirements, and additional considerations.
@@ -36,7 +36,7 @@ This impacts the network on two levels: traffic will flow between the Microsoft 
 > [!NOTE]
 > Meetings are supported on iOS and Android mobile devices. 
 
-To get an optimal experience with real time media within Microsoft Teams, it is required to meet the networking requirements for Office 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+To get an optimal experience with real time media within Microsoft Teams, your network must meet the networking requirements for Office 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
 For the two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge), consider the following recommendations.
 

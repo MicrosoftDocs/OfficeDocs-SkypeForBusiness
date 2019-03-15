@@ -4,7 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.reviewer: kponnus
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.audience: Admin
 appliesto:
