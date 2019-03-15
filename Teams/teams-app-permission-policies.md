@@ -3,8 +3,8 @@ title: Manage app permission policies in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 3/05/2019
-ms.reviewer: larryjin
+ms.date: 3/15/2019
+ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,6 +22,8 @@ f1keywords:
 ---
 
 # Manage app permission policies in Microsoft Teams
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 As an admin, you can use app permission policies to control what apps are available to Microsoft Teams users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. When you block an app, users are unable to install it from the Teams app store.
 
