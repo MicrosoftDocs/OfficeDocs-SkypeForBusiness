@@ -39,20 +39,20 @@ If you have any questions about SBC certification program for Direct Routing ple
 
 |                                                       Vendor                                                        |       Product       | Non-Media Bypass | Media Bypass | Software Version |
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
-| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   Pending    |  7.20A.200.055   |
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   Pending    |  7.20A.200.055   |
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   Pending    |  7.20A.200.055   |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   Pending    |  7.20A.200.055   |
-|                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   Pending    |  7.20A.200.055   |
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   Pending    |  7.20A.200.055   |
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   Pending    |       V6.2       |
-|                                                                                                                     |      SBC 5210       |     &#10004;     |   Pending    |       V6.2       |
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   Pending    |       V6.2       |
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   Pending    |       V6.2       |
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   Pending    |       V6.2       |
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   Pending    |      V7.0.2      |
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   Pending    |      V7.0.2      |
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |   Pending    |      V7.0.4      |
+| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20A.250.003   |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20A.250.003   |
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20A.250.003   |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20A.250.003   |
+|                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   &#10004;     |  7.20A.250.003   |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20A.250.003  |
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V6.2       |
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V6.2       |
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V6.2       |
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V6.2       |
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V6.2       |
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v8.0.1     |
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v8.0.1    |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pending    |       V1.4       |
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |   Pending  |   ECZ8.1m1p6  |
 |                                                                                                                    |    AP 3900           |    &#10004;     |   Pending  |   ECZ8.1m1p6  | 
@@ -60,4 +60,4 @@ If you have any questions about SBC certification program for Direct Routing ple
 |                                                                                                                    |      AP 6300         |    &#10004;   |   Pending    |     ECZ8.1m1p6  |
 |                                                                                                                   |      AP 6350           |    &#10004;   |   Pending    |     ECZ8.1m1p6  |                                             
 |                                                                                                                    |      VME           |    &#10004;    |   Pending    |     ECZ8.1m1p6   |
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   Pending    |      v3.16.2      |
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |
