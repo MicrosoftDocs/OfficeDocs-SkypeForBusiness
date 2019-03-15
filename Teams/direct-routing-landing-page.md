@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.date: 01/28/2019
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 ms.collection:  
 - Teams_ITAdmin_Help
