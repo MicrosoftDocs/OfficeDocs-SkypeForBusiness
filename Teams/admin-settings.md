@@ -39,7 +39,7 @@ For example, you can use app permission policies to:
 - Gradually roll out new third-party or custom built apps to specific users.
 - Simplify the user experience, especially when you start rolling out Teams across your organization.
 
-To learn more, go to [Manage app permission policies in Teams](teams-app-permission-policies.md)
+To learn more, go to [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
 ## App setup policies
 
@@ -49,10 +49,10 @@ Here's some examples of how you can use app setup policies:
 - Drive awareness and adoption of core apps. For example, pin a custom recruiting and talent management app for users on your HR team.
 - Selectively pin core Teams features, such as Chat, Teams, and Calling. Doing so can help ensure users are engaged in specific activities within Teams.
 
-To learn more, check out [Manage app setup policies in Teams](teams-app-setup-policies.md)
+To learn more, check out [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
 ## Custom app policies and settings
 
 Teams allows developers in your organization to build, test, and deploy custom apps to other users. Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team or in the personal context. You can use app setup policies to control who in your organization can upload custom apps. You can also set org-wide settings to control whether users can interact with specific custom  apps.
 
-To learn more, go to [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
+To learn more, go to [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
