@@ -348,7 +348,7 @@
 #### [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
 
 ### Media bypass for Direct Routing
-#### [Plan for media byass with Direct Routing](direct-routing-plan-media-bypass.md)
+#### [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md)
 #### [Configure media bypass with Direct Routing](direct-routing-configure-media-bypass.md)
 
 
