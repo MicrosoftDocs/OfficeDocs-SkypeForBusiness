@@ -41,7 +41,7 @@ Check back here for additional information on how to successfully transition fro
 
 #### Will Teams offer all the functionality currently offered in StaffHub?
 
-Yes, starting November 2018, Teams will offer a Shifts feature, which enables managers to create, update, and manage schedules, and lets employees post their availability, swap shifts, and request time off. Additionally, the Home view in the Teams mobile app will display the employee’s schedule and important company announcements. 
+Yes, starting November 2018, Teams will offer a Shifts feature, which enables managers to create, update,and manage schedules, and lets employees post their availability, swap shifts, and request time off. Additionally, the Home view in the Teams mobile app will display the employee’s schedule and important company announcements. 
 
 To learn more, admins can go to [Manage the Shifts app for your organization in Teams](../../manage-the-shifts-app-for-your-organization-in-teams.md). For end-user help on how to use Shifts in Teams, check out [Shifts Help for firstline workers and managers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b). 
 
@@ -77,9 +77,9 @@ Shifts is available on the Teams web client, Teams desktop client, and Teams mob
 If you're already on a plan that include Shifts, you can start using Shifts today as part of Teams. Getting started is easy. Firstline managers can sign in to Teams by using their Office 365 work account. From there, they can go to the Shifts app, either pinned to the app bar on the left side of Teams or by clicking **...** in the app bar to show more added apps. In Shifts, firstline managers can create and manage schedules for the teams that they are owner of and can invite firstline workers to download the app.  
 
 #### Where can I learn more about Shifts?
-For product information, go to [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software). 
+For product information, go to [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software).
 
-For admin guidance, go to **FOLLOWUP**.
+For admin guidance, see [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 
 #### My organization is currently using StaffHub. What do I need to know to move firstline workers to Shifts in Teams?
 
@@ -107,7 +107,7 @@ For firstline workers, there are differences in what can be done in the desktop 
 
 Shifts works on all the browsers that Teams supports which includes the latest versions of Microsoft Edge, Internet Explorer, Google Chrome, and Mozilla Firefox. For more information,see [Get clients for Teams](../../get-clients.md)
  
-#### What languages is Shifts available in?
+#### What languages does Shifts support?
 
 Shifts is available in the following languages: Chinese-Simplified, English (U.S.), Spanish,Russian, Japanese, French, Brazilian-Portuguese, German, Korean, Italian, Chinese-Traditional, Dutch, Turkish, Swedish, Danish, and Norwegian. We plan to add support for additional languages in the future.  
 
@@ -161,20 +161,21 @@ We won't be supporting tasks migration. Teams has its own task management app th
  
 #### Can I export shift schedules in Shifts?-FOLLOWUP
   
-You can export shift schedule information to a .csv file from the Shifts desktop and web app. Customers can import this information into their own systems and tools. [To be Confirmed]  
+You can export shift schedule information to a .csv file from the Shifts desktop and web app. You can import this information into your organization's systems and tools. [To be Confirmed]  
  
-#### Will the shift schedule import be supported in Shifts?  
+#### Will the shift schedule import be supported in Shifts? 
+ 
 Shift schedule information can be exported to a XXX file/format by customers from their own systems and tools which they can import into the Shifts web/desktop app. [To be Updated]   
  
 #### Where is Shifts data stored? 
 
-Teams Shifts data is stored in Azure in datacenters in North America and Western Europe. Sharepoint content leverages Office 365 Groups and is follows the same storage and support provided there. [To be Confirmed]   
+Shifts data is stored in Azure in data centers in North America and Western Europe. Sharepoint content leverages Office 365 Groups and is follows the same storage and support provided there. [To be Confirmed]
  
 #### Will the time clock export/download be supported in Shifts? 
 
 Yes this will be available through the Shifts web app. 
  
-### Is there any integration between Microsoft Teams Shifts and the Outlook calendar? Can I export a schedule to a calendar? 
+#### Is there any integration between Microsoft Teams Shifts and the Outlook calendar? Can I export a schedule to a calendar? 
  
 Firstline workers can see their entire work schedule at a glance within the Teams Shifts app. We will be supporting native integration with Outlook calendar as part of our roadmap. In meantime, Customers can use Flow to set up integration with Teams Shifts and Outlook and Google calendars. [To be Confirmed]   
  
