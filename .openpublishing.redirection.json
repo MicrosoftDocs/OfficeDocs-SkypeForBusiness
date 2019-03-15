@@ -1091,11 +1091,6 @@
       "redirect_document_id": false 
     },
     {
-      "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md", 
-      "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/configure-hybrid-connectivity/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
-      "redirect_document_id": true 
-    },
-    {
       "source_path": "Skype/SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md", 
       "redirect_url": "https://docs.microsoft.com/skypeforbusiness/hybrid/configure-hybrid-connectivity/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json", 
       "redirect_document_id": false 

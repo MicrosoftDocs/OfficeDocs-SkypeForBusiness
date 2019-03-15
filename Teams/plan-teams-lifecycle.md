@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 09/26/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 description: Learn about how to plan for implementing lifecycle management capabilities in Teams.
