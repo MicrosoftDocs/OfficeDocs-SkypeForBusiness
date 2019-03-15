@@ -51,7 +51,6 @@ See the [roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=) for 
 
 Teams that were created with Microsoft StaffHub can only be viewed and managed in StaffHub. When we release support to migrate your StaffHub team to Shifts in Teams,you'll be able to view StaffHub schedules in Shifts.
 
-*****
 #### Which plans are Shifts available in?
 
 Shifts is currently available as part of Teams in the following plans without any additional cost:
@@ -147,10 +146,11 @@ StaffHub chat is powered by the same chat service that powers Teams. The last 90
 
 The file sharing capability, the ability for a firstline  manager to distribute files to firstline workers, is powered on the back end by SharePoint Online. When a team is created, an Office 365 Group is automatically provisioned for that team in the background.
  
-#### How will files be migrated from StaffHub to Teams?-FOLLOWUP 
+#### What will happen to the StaffHub Files feature??-FOLLOWUP 
 
-Need to move files from root to general channl efolder in Teams team  
-Can we get Teams to accept another folder which can be displayed on the “Files” tab for the Team 
+Starting **placeholder for date**, any file you upload to StaffHub will also be copied to the General channel of the team in Teams. 
+
+For files that were uploaded before **placeholder date**, you can move them to Teams. Here's how.
  
 #### How will tasks be migrated from StaffHub to Teams?-FOLLOWUP
 
@@ -159,45 +159,56 @@ We won't be supporting tasks migration. Teams has its own task management app th
 -  Is there a way to export task data? 
 -  Can we import the Tasks into teams? 
  
-#### Will the shift schedule export be supported in Microsoft Teams Shift?  
-Shift schedule information can be exported to a .csv file from within the Shifts web/desktop app. Customers can import this information into their own systems and tools. [To be Confirmed]  
+#### Can I export shift schedules in Shifts?-FOLLOWUP
+  
+You can export shift schedule information to a .csv file from the Shifts desktop and web app. Customers can import this information into their own systems and tools. [To be Confirmed]  
  
-Will the shift schedule import be supported in Microsoft Teams Shift?  
+#### Will the shift schedule import be supported in Shifts?  
 Shift schedule information can be exported to a XXX file/format by customers from their own systems and tools which they can import into the Shifts web/desktop app. [To be Updated]   
  
-Where will Microsoft Teams Shifts data be stored? 
+#### Where is Shifts data stored? 
+
 Teams Shifts data is stored in Azure in datacenters in North America and Western Europe. Sharepoint content leverages Office 365 Groups and is follows the same storage and support provided there. [To be Confirmed]   
  
-Will the Time clock export/download be supported in Microsoft Teams Shift? 
-Yes this will be available through our Shifts web app. 
+#### Will the time clock export/download be supported in Shifts? 
+
+Yes this will be available through the Shifts web app. 
  
-Is there any integration between Microsoft Teams Shifts and the Outlook calendar? Can I export a schedule to a calendar?  
+### Is there any integration between Microsoft Teams Shifts and the Outlook calendar? Can I export a schedule to a calendar? 
+ 
 Firstline workers can see their entire work schedule at a glance within the Teams Shifts app. We will be supporting native integration with Outlook calendar as part of our roadmap. In meantime, Customers can use Flow to set up integration with Teams Shifts and Outlook and Google calendars. [To be Confirmed]   
  
-What kind of IT admin controls will companies have to manage whether or their employees can use Microsoft Teams Shifts?    
+#### What kind of IT admin controls will companies have to manage whether or their employees can use Microsoft Teams Shifts?  
+  
 IT admins can turn Teams Shifts on or off at the tenant level (i.e. turn off/on for all users). IT admins in Teams Modern Portal will also have a pre-canned FLW app policy configured with Activity, Shifts, Chats, Calls and Tasks. IT admins can assign the pre-canned app policy to their FirstLine Workers or managers which will pin these apps in the Microsoft Teams Navigation bar for their quick access. 
  
-Can Teams Shift be managed via Intune MAM?  
+#### Can Teams Shift be managed via Intune MAM?
+  
 XXX can/cannot be managed with Intune MAM. If this is something you are interested in, please send request through UserVoice…..[To be Confirmed]   
   
-Where can I provide feedback?  
+#### Where can I provide feedback?
+  
 Within the mobile app, if you tap on the “hamburger” icon in the upper left of the screen, it will have under Settings, Send Feedback or Report an issue. Similarly from Web/Desktop app, in the bottom left corner under Help, there areoptions to Share an idea or Report an issue.  
  
-Will there be customer facing reports to see Teams Shifts app engagement in the Tenant? 
+#### Will there be customer facing reports to see Teams Shifts app engagement in the Tenant? 
+
 You can access Shifts app usage as part of the Microsoft Teams app reporting through the Office admin portal. 
  
-Will my conditional access policies for StaffHub apply to the Shifts app in Microsoft Teams? 
+#### Will my conditional access policies for StaffHub apply to Shifts in Teams? 
+
 Once Shifts app is available in Microsoft Teams you can only apply conditional access policies at the Microsoft Teams app level. The existing conditional access policy you have created for StaffHub will not apply to the Shifts app in Microsoft Teams. 
  
-How do I migrate my corporate resources from the StaffHub admin page? 
+#### How do I migrate my corporate resources from the StaffHub admin page? 
  
-How do I migrate my team custom fields from StaffHub to Teams? 
+#### How do I migrate my team custom fields from StaffHub to Teams? 
+
 You will need to export your custom fields for your StaffHub teams. After you’ve exported this data you will be able to import team custom fields into Microsoft Teams. 
  
-How can I recover my schedule if I accidentally delete a Team? 
+#### How can I recover my schedule if I accidentally delete a team? 
+
 We will need to add functionality to recover schedule data when a team is recovered after deletion 
     
-#### Features
+#### Features (to be incorporated into FAQs)
 
 Here's a list of StaffHub features, showing those that are replaced by an equivalent experience in Teams and those that are deprecated. Capabilities that aren't available in Teams may be available at a later time.
 
