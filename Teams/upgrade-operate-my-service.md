@@ -3,7 +3,7 @@ title: Operations for Microsoft Teams| Service Management | Quality
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Tasks and activities required for Teams service management, including monitoring service health, and assessing and ensuring network quality and usage 

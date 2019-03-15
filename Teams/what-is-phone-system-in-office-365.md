@@ -3,7 +3,7 @@ title: "What is Phone System in Office 365?"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150

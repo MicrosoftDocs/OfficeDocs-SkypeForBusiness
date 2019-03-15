@@ -3,7 +3,7 @@ title: Skype for Business to Microsoft Teams| Upgrade User Change Readiness
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Ensure your organization and users are ready for Microsoft Teams
