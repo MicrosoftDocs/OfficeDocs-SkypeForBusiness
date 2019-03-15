@@ -3,7 +3,7 @@ title: Quality of User Experience | Microsoft Teams | QoS | Call Quality
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Tasks and activities required for monitoring quality and usage of Microsoft Teams 
