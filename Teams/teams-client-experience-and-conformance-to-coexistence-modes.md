@@ -3,7 +3,7 @@ title: Teams client experience and conformance to coexistence modes
 author: dearbeen
 ms.author: bjwhalen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 description: Teams client experience and comformance to coexistence modes
