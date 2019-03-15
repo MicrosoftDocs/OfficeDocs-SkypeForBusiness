@@ -22,6 +22,7 @@ ms.custom:
 - Phone System
 description: "Learn how to set up and test Phone System (Cloud PBX) auto attendants for efficient call handling for your organization."
 ---
+[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 # Set up a Phone System auto attendant
 
