@@ -31,13 +31,13 @@ These are the apps settings that most organizations want to change (if the Teams
 
 ### App availability settings 
 
-Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. By default, all apps, including external apps that you've submitted via the [Teams Store approval process](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), are turned on for all users. For example, users can use the Planner app to build and manage team tasks in Teams.
+Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. By default, all apps, including custom apps that you've submitted via the [Teams Store approval process](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), are turned on for all users. For example, users can use the Planner app to build and manage team tasks in Teams.
 
-By default, all Microsoft-provided and external apps are available, and you can turn individual apps on or off. There's a global setting that lets you turn all external apps on or off for your entire organization.
+By default, all Microsoft-provided and custom apps are available, and you can turn individual apps on or off. There's an org-wide setting that lets you turn all custom apps on or off for your entire organization.
 
 | Ask yourself | Action |
 |--------------|--------|
-|Will you change the default Teams apps settings? | For more information about configuring the availability of apps, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
+|Will you change the default Teams apps settings? | For more information about policies and settings that you can use to manage apps in your organization, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 |||
 
 ### App permissions and other considerations
@@ -46,7 +46,7 @@ Apps are consented to by users and managed by the admin or IT pro through polici
 
 | Ask yourself | Action |
 |--------------|--------|
-|<br>Which apps do I want to allow access to? Which ones do I not want to allow access to?  | <ul><li>See [Microsoft Teams apps permissions and considerations](app-permissions.md) for a list of things you should consider when allowing access to an app, bot, tab, or connector.</li><li>See [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md) for how to block and allow apps in your organization.</li><li>See [Publish apps in the Teams tenant apps catalog](tenant-apps-catalog-teams.md) for information about making an app available to users in your organization.</li></ul>|
+|<br>Which apps do I want to allow access to? Which ones do I not want to allow access to?  | <ul><li>See [Microsoft Teams apps permissions and considerations](app-permissions.md) for a list of things you should consider when allowing access to an app, bot, tab, or connector.</li><li>See [Publish apps in the Teams tenant apps catalog](tenant-apps-catalog-teams.md) for information about making an app available to users in your organization.</li></ul>|
 |||
 
 ### Bots for private chats and channels
