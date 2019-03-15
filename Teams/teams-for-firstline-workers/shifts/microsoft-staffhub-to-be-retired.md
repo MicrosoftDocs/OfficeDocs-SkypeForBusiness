@@ -143,8 +143,6 @@ Flipping flag on StaffHub team to allow viewing this data on the Teams team..[To
 
 StaffHub chat is powered by the same chat service that powers Teams. The last 90 days of chat data is retained and available in Teams, starting  April 1, 2019.  
  
-@Sanchit Gupta Could you fill in the details about how Team chat will manifest in Microsoft Teams chat? 
- 
 #### What powers the file sharing capability in Teams? Where are files stored?
 
 The file sharing capability, the ability for a firstline  manager to distribute files to firstline workers, is powered on the back end by SharePoint Online. When a team is created, an Office 365 Group is automatically provisioned for that team in the background.
@@ -156,12 +154,12 @@ Can we get Teams to accept another folder which can be displayed on the “Files
  
 #### How will tasks be migrated from StaffHub to Teams?-FOLLOWUP
 
-We will not be supporting Tasks migration. Teams has its own task management app which we encourage you to use moving forward. 
+We won't be supporting tasks migration. Teams has its own task management app that we encourage you to use moving forward.
  
-#### Is there a way to export task data? 
-Can we import the Tasks into Teams? 
+-  Is there a way to export task data? 
+-  Can we import the Tasks into teams? 
  
-Will the shift schedule export be supported in Microsoft Teams Shift?  
+#### Will the shift schedule export be supported in Microsoft Teams Shift?  
 Shift schedule information can be exported to a .csv file from within the Shifts web/desktop app. Customers can import this information into their own systems and tools. [To be Confirmed]  
  
 Will the shift schedule import be supported in Microsoft Teams Shift?  
@@ -197,50 +195,7 @@ How do I migrate my team custom fields from StaffHub to Teams?
 You will need to export your custom fields for your StaffHub teams. After you’ve exported this data you will be able to import team custom fields into Microsoft Teams. 
  
 How can I recover my schedule if I accidentally delete a Team? 
-[Aby] TBD: We will need to add functionality to recover schedule data when a team is recovered after deletion 
- 
-Extensibility EXTENSIBILITY & 3RD PARTIES FAQs 
- 
-Is there an API? Is there an SDK available to integrate into existing systems, such as HR, payroll or Workforce Management systems?  
-We have Graph API. These APIs will provide access to teams, members and shifts data, and can be used to integrate with HR, payroll or workforce management systems. 
- 
-Does StaffHub integrate with other workforce management or scheduling systems?  
-We are investing in 3rd party integration and making it easy to connect to popular line of business applications. To start, we will support connections to Kronos, a leading provider of workforce management and human capital management cloud solutions. Initially, this integration will enable managers to import individual and team schedule information from Kronos directly into StaffHub. In addition to importing data into Microsoft StaffHub, users will have the ability to write schedule data back to Kronos, gain clock in/out functionality and manage accruals for employees. These capabilities will be in private preview with a small group of Office 365 and Kronos customers. Stay tuned for more information and timing.  
- 
-Are the APIs in Microsoft Graph? 
-Not at this point in time, but we will make the APIs available in MS Graph in the future. 
- 
-[Aby] Will there be a Flow connector? 
-Need to decide if we’ll be releasing one 
- 
-[Aby] Will there be powershell commandlets 
-Eventually 
- 
-Can anyone use the Flow templates you’ve created? 
-While anyone can use the pre-defined StaffHub flow templates, several of them are currently only optimized for the team manager and will not work well for employees. We are working on improvements that will come soon. Additionally, users will also need the correct licensing to create a Microsoft Flow and/or PowerApps. Users on Office 365 F1 have consumption rights only.   
- 
-[Aby] Flow won’t work for Teams. We need to decide if we’re doing a Flow connector for Teams 
- 
-How do I get code samples for your APIs? Is there a GitHub repository? 
-Code samples are currently restricted to customers in our private preview. We are looking into the best options to share out these samples. 
- 
-[Aby]: We will be releasing them in a private preview 
- 
-What is the roadmap for your APIs? 
-We do not have anything to announce at this point, but feedback from the private preview will greatly influence our future investments. 
- 
-You announced an integration with Dynamics 365. What happened with that? 
-Our Dynamics 365 integration is still in the implementation phase. We do not have any timeline to announce at this time. 
-[Aby] Don’t have this anymore 
- 
-Are the Microsoft StaffHub APIs free? 
-Yes, the Microsoft StaffHub APIs are free. 
- 
-When are these features available? 
-The APIs and Kronos integration are available right now in a private preview. Admin support for the APIs will come in later this calendar year. Connections between Microsoft Flow and StaffHub are available now in production on https://flow.microsoft.com.  
- 
-Will I need to recreate my conditional access policies for StaffHub? 
-Once Shifts app is available in Microsoft Teams you can only apply conditional access policies at the Microsoft Teams app level.  
+We will need to add functionality to recover schedule data when a team is recovered after deletion 
     
 #### Features
 
