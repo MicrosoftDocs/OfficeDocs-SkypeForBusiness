@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/25/2019
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: phlouie
 localization_priority: Normal

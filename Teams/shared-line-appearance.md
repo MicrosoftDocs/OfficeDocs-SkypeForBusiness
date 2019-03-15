@@ -5,7 +5,7 @@ author: lolaj
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
