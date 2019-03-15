@@ -37,7 +37,7 @@ Three components determine whether a user can upload a custom app to a team, giv
 - [Team custom app setting](#team-custom-app-setting)
 - [Org-wide custom app setting](#org-wide-custom-app-setting)
 
-These settings don't affect on the ability to block third-party apps.  
+These settings don't affect the ability to block third-party apps.  
 
 ### User custom app policy
 
