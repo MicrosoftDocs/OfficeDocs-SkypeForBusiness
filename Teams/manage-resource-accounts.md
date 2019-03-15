@@ -1,5 +1,5 @@
 ---
-title: "Managing resource accounts in Teams"
+title: "Manage resource accounts in Teams"
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
-description: "Managing resource accounts in Microsoft Teams"
+description: "Learn about managing resource accounts in Microsoft Teams"
 ---
 
 # Manage resource accounts in Microsoft Teams
