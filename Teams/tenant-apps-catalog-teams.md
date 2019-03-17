@@ -66,7 +66,7 @@ The app will be revised to version 2.0. You also delete the app for your entire 
 
 ## Use the Office 365 admin portal to manage the Tenant Apps Catalog
 
-If you have apps that need bug fixes, you can temporarily disable apps through the Office 365 admin portal. In addition to previous settings, there is now a section dedicated to your company's apps. You can choose which apps you want to enable or disable.
+If you have apps that need bug fixes, you can temporarily disable apps through the Office 365 admin portal, select **Settings** > **Services & add-ins** > **Microsoft Teams**. In addition to previous settings, there is now a section dedicated to your company's apps. You can choose which apps you want to enable or disable.
 
 ![Screenshot of the Teams App Store showing the app catalog.](media/private-app-store-teams-image05.png)
 
