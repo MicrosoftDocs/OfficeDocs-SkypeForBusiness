@@ -64,10 +64,17 @@ To test both network segments, you can use the [Network Assessment Tool](https:/
 
 ## Bandwidth requirements
 
-Bandwidth calculations for Microsoft Teams are complex and to help with this, a calculator has been created. To access the calculator, go to [Network Planner](https://aka.ms/bwcalc/)  in MyAdvisor.
+This article describes a concise version of how bandwidth is utilized by Microsoft Teams real time audio, video, and desktop sharing modalities in various use cases. Teams is always conservative on bandwidth utilization and can deliver HD video quality in under 1.2Mb.  The actual bandwidth consumption in each audio/video call or meeting will vary, based on several factors, such as video layout, video resolution, and video frames per second. When more bandwidth is available quality and usage will increase to deliver the best experience.
 
-> [!NOTE]
-> Teams bandwidth handling improves on Skype for Business Online: for a high quality calling or meeting experience (with audio, video, and sharing), Teams requires only 1.2 Mbps. It can also scale up further for super high quality if there is enough available bandwidth. When a Teams request encounters a low bandwidth condition, Teams can quickly readjust bandwidth usage to adapt to available bandwidth.
+|Bandwidth(up/down) |Scenarios |
+|---|---|
+|30 kbps |Peer-to-peer audio calling |
+|130 kbps |Peer-to-peer audio calling and screen sharing |
+|500 kbps |Peer-to-peer quality video calling 360p at 30fps |
+|1.2 Mbps |Peer-to-peer HD quality video calling with resolution of HD 720p at 30fps |
+|1.5 Mbps |Peer-to-peer HD quality video calling with resolution of HD 1080p at 30fps |
+|500kbps/1Mbps |Group Video calling |
+|1Mps/2Mbps |HD Group video calling (540p videos on 1080p screen) |
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
