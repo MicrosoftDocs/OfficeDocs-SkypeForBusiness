@@ -25,7 +25,7 @@ Manage user access to Microsoft Teams
 
 At the user level, access to Microsoft Teams can be enabled or disabled on a per-user basis by assigning or removing the Microsoft Teams product license.
 
-Currently, there are no policy options for turning Teams, or a subset of Teams features, on or off at an individual user level outside of licensing.
+Messaging policies within Microsoft Teams Admin Center can be used to control what chat and channel messaging features are available to users in Teams.You can use the default policy that is created or create one or more custom messaging policies for people in your organization. 
 
 > [!NOTE]
 >Microsoft recommends that you turn on Teams for all users in a company so that teams can be formed organically for projects and other dynamic initiatives. Even if you are deciding to pilot, it may still be helpful to keep Teams enabled for all users, but only target communications to the pilot group of users.
