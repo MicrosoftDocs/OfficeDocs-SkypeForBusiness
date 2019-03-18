@@ -24,7 +24,7 @@ Manage the Microsoft Teams Commercial Cloud Trial offer
 Microsoft Teams is a great collaborative tool for your organization. It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365. The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins can switch this feature on or off for users in their organization.
 
 > [!IMPORTANT]
-> The Microsoft Teams Commercial Cloud Trial has been updated to include additional service plans for increased Teams functionality, and the trial is now owned and controlled by your organization's billing admin. This makes it easier to manage and makes it consistent with all other Microsoft 365 offers. Any existing Teams Commercial Cloud Trial users will be migrated to the new plan.
+> The Microsoft Teams Commercial Cloud Trial has been updated to include additional service plans for increased Teams functionality and is now owned and controlled by your organization's billing admin. This makes the trial easier to manage and makes it consistent with all other Microsoft 365 offers. Existing Teams Commercial Cloud Trial users will be migrated to the new plan.
 
 ## What's in the offer
 
@@ -47,7 +47,7 @@ The trial grants a one-year trial subscription to your entire organization. The 
 
 ## Who is eligible
 
-Users must be enabled to sign up for apps and trials (in the Office 365 admin center). For more information, see [Manage the trial](#manage-the-trial) later in this article. 
+Users must be enabled to sign up for apps and trials (in the Office 365 admin center). For more information, see [Manage the trial](#manage-the-trial), later in this article. 
 
 Users who do not have an Office 365 license that includes Teams can initiate the Microsoft Teams Commercial Cloud Trial offer. For example, if a user has Office 365 Business (which doesn't include Teams), they are eligible for the trial.
 
@@ -63,7 +63,7 @@ If your organization is ineligible for the Microsoft Teams Commercial Cloud Tria
 
 ## How users sign up for the trial
 
-Eligible users can sign up for the trial offer by logging into Teams ([teams.microsoft.com](https://teams.microsoft.com)). They will see the following screen to start the trial. 
+Eligible users can sign up for the trial offer by signing in to Teams ([teams.microsoft.com](https://teams.microsoft.com)). They will see the following screen to start the trial. 
 
 ![Screenshot of the start page for the Teams IW trial.](media/iw-trial-start-screen.png)
 
