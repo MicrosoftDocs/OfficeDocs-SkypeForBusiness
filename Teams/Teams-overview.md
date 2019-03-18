@@ -3,7 +3,7 @@ title: Welcome to Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.date: 01/28/2019
 ms.reviewer: LolaJ

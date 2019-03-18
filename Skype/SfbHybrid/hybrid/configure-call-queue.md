@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection: 
 description: "Overview of using a Cloud PBX call queue with Skype for Business Server 2019."
 ---
+[!INCLUDE [updating-admin-interfaces](../../SfbOnline/includes/updating-admin-interfaces.md)]
 
 # Configure Cloud call queues
 
