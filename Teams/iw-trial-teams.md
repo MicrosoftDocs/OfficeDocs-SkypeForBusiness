@@ -3,14 +3,14 @@ title: Manage the Microsoft Teams Commercial Cloud Trial offer
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 12/10/2018
+ms.date: 03/18/2019
 ms.topic: reference
 audience: Admin
 ms.reviewer: annikaelias
 ms.service: msteams
 search.appverid: MET150
 localization_priority : Priority
-description: Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams.
+description: "Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams."
 MS.collection: 
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -23,19 +23,25 @@ Manage the Microsoft Teams Commercial Cloud Trial offer
 
 Microsoft Teams is a great collaborative tool for your organization. It empowers people and teams to discuss, innovate, and share ideas using the power of Office 365. The Microsoft Teams Commercial Cloud Trial offers existing Office 365 users in your organization who are not licensed for Microsoft Teams to initiate a 1-year trial of the product. Admins can switch this feature on or off for users in their organization.
 
+> [!IMPORTANT]
+> The Microsoft Teams Commercial Cloud Trial has been updated to include additional service plans for increased Teams functionality, and the trial is now owned and controlled by your organization's billing admin. This makes it easier to manage and makes it consistent with all other Microsoft 365 offers. Any existing Teams Commercial Cloud Trial users will be migrated to the new plan.
+
 ## What's in the offer
 
 The service plans included in this offer are:
 
 - Exchange Foundation
 - Flow for Office 365 Plan 1
+- Forms
 - Microsoft Planner
 - Microsoft Teams (Teams1, Teams IW)
 - Office Online
 - PowerApps for Office 365 Plan 1
 - SharePoint Online Kiosk
+- Stream
 - Sway
-- Yammer Enterprise
+- To-Do
+- Yammer Enterprise 
 
 The trial grants a one-year trial subscription to your entire organization. The trial makes 500,000 licenses available for assignment. For each license assigned, the trial allocates 2 GB of SharePoint Online storage. 
 
@@ -65,7 +71,7 @@ All trials within your organization share the same start and end dates, which is
 
 ## <a name="manage-the-trial"></a>Manage the trial
 
-Admins can manage the licenses for users who have signed up. 
+Trial licenses are assigned the same way any other subscription acquired by an admin is assigned. For more information, see [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). 
 
 In addition, admins can disable the ability for end users to claim trial apps and services within their organization. Currently, the trial described in this article is the only trial in this category, but it might apply to other similar programs in the future. 
 
@@ -84,7 +90,7 @@ You can turn off a user’s ability to install trial apps and services.
 
 ### Manage trial availability for a user with a license that includes Teams
 
-A user who is assigned a license that includes Teams is not eligible for the trial. When the Teams service plan is enabled, the user can log in and use Teams. If the service plan is disabled, the user cannot log in and is not presented with the trial option either.
+A user who is assigned a license that includes Teams is not eligible for the trial. When the Teams service plan is enabled, the user can sign in and use Teams. If the service plan is disabled, the user cannot sign in and is not presented with the trial option either.
 
 To turn off access to Teams:
 
@@ -115,7 +121,7 @@ To turn off the trial license:
     ![Screenshot of the Teams trial license setting on the Product licenses pane](media/iW-trial-enable-4.png)
     
 >[!Note]
->The Microsoft Teams Trial toggle switch will appear once the first user signed up for the trial in the organization.
+>The Microsoft Teams Trial toggle switch will appear after the first user in the organization signs up for the trial.
 
 ### Manage Teams for users who have the trial license
 
