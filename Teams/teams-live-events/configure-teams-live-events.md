@@ -19,7 +19,6 @@ appliesto:
 ---
 
 # Configure live event settings in Microsoft Teams
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Use Teams live events settings to configure settings for live events that are held in your organization. You can set up a support URL and configure a third-party video distribution provider. These settings apply to all live events that are created in your organization. 
 
