@@ -20,8 +20,6 @@ appliesto:
 
 # Set up for live events in Microsoft Teams
 
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
-
 When you're setting up for live events, there are several steps that you must take:
 
 ## Step 1: Set up your network for live events in Microsoft Teams
