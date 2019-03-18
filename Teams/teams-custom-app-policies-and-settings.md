@@ -3,7 +3,7 @@ title: Manage custom app policies and settings in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/15/2019
+ms.date: 03/18/2019
 ms.reviewer: akino
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -121,5 +121,6 @@ Say, for example, you want to allow only team owners to upload custom apps to sp
 | On    | On        | On        | The user can upload custom apps to the team, regardless of whether the user is a team owner. The user can upload custom apps in the personal context.       |
 
  ## Related topics
+- [Admin settings for apps in Teams](admin-settings.md)
 - [Manage app setup policies in Microsoft Teams](teams-app-setup-policies.md)
 - [Manage app permission policies in Microsoft Teams](teams-app-permission-policies.md)

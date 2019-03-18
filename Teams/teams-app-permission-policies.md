@@ -3,7 +3,7 @@ title: Manage app permission policies in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 3/15/2019
+ms.date: 3/18/2019
 ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -56,7 +56,7 @@ Use org-wide app settings to control which apps are available across your organi
 
 If you want to control the apps that are available for different groups of users in your organization, create and assign one or more custom policies. You can create and assign separate custom policies based on whether apps are published by Microsoft, third-parties, or your organization. It's important to know that after you create a custom policy, you can't change it if third-party apps are disabled in org-wide settings. 
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App permission policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **Permission policies**.
 2. Select **New policy**.
     ![Screen shot of new app permission policy](media/app-permission-policies-new-policy.png)
 3. Enter a descriptive name for the policy.
@@ -80,7 +80,7 @@ If you want to control the apps that are available for different groups of users
 
 You can use the Microsoft Teams admin center to edit a policy, including the global (Org-wide default) policy and custom policies that you create. 
 
-1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **App permission policies**.
+1. In the left navigation of the Microsoft Teams admin center, go to **Teams app** > **Permission policies**.
 2. Select the policy you want to edit.
 3. From here, make the changes that you want. You can manage settings based on the app publisher and add and remove apps based on the allow/block setting.
 4. Click **Save**.
@@ -163,5 +163,6 @@ For example, when an app is blocked, users can't do any of the following:
 - Use the app’s messaging extension
 
  ## Related topics
+- [Admin settings for apps in Teams](admin-settings.md)
 - [Manage app setup policies in Teams](teams-app-setup-policies.md)
 - [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)

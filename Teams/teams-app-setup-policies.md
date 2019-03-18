@@ -3,7 +3,7 @@ title: Manage app setup policies in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 3/15/2019
+ms.date: 3/18/2019
 ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -159,6 +159,7 @@ Currently, users can change the order of their pinned apps on Teams mobile clien
 Make sure that you follow the logo guidelines before you submit the app. To learn more, see [Checklist for Seller Dashboard submission](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
 
  ## Related topics
-- [Publish an app to the Tenant Apps Catalog from the Teams client](tenant-apps-catalog-teams.md)
+- [Admin settings for apps in Teams](admin-settings.md)
 - [Manage app permission policies in Teams](teams-app-permission-policies.md)
 - [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
+- [Publish an app to the Tenant Apps Catalog from the Teams client](tenant-apps-catalog-teams.md)
