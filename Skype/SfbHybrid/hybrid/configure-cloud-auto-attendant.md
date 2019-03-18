@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection: 
 description: "Instructions for implementing a Cloud PBX Auto Attendant." 
 ---
+[!INCLUDE [updating-admin-interfaces](../../SfbOnline/includes/updating-admin-interfaces.md)]
 
 # Configure Cloud Auto Attendants
 
