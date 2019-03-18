@@ -38,7 +38,7 @@ The Store template is ideal for creating a team to represent an individual retai
 
 | Base template type | baseTemplateId | Properties that come with this base template |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore`| Channels <ul><li>Shifts handoff\*</li><li>Learning\*</li></ul>\*Auto-favorited channels<br><br>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Cannot create/update/delete channels </li><li>Cannot add/remove apps </li><li>Cannot create/update/remove tabs</li><li>Cannot create/update/remove connectors</li><ul>|
+| Retail - <br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Channels <ul><li>Shifts handoff\*</li><li>Learning\*</li></ul>\*Auto-favorited channels<br><br>Team properties <ul><li>Team visibility set to Public</li></ul> <br>Member permissions <ul><li>Cannot create/update/delete channels </li><li>Cannot add/remove apps </li><li>Cannot create/update/remove tabs</li><li>Cannot create/update/remove connectors</li><ul>|
 ||||
 
 Recommended ways to customize the Store template for your organization:
@@ -53,7 +53,7 @@ The Manager Collaboration template is another one of the Teams templates designe
 
 | Base template type | baseTemplateId | Properties that come with this base template |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Retail - <br>Store | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration`| Channels <ul><li>Operations\*</li><li>Learning\*</li></ul>\*Auto-favorited channels<br><br>Team properties <ul><li>Team visibility set to Private</li></ul> <br>Member permissions <ul><li>Can create/update/delete channels </li><li>Can add/remove apps </li><li>Can create/update/remove tabs</li><li>Can create/update/remove connectors</li><ul>|
+| Retail - <br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Channels <ul><li>Operations\*</li><li>Learning\*</li></ul>\*Auto-favorited channels<br><br>Team properties <ul><li>Team visibility set to Private</li></ul> <br>Member permissions <ul><li>Can create/update/delete channels </li><li>Can add/remove apps </li><li>Can create/update/remove tabs</li><li>Can create/update/remove connectors</li><ul>|
 ||||
 
 Recommended ways to customize the Manager Collaboration template for your organization:
