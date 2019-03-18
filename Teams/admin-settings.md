@@ -3,7 +3,7 @@ title: Admin settings for apps in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 03/18/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -29,7 +29,7 @@ Apps provide out-of-the-box tools for your organization to get more out of Teams
 
 You manage apps for your organization in **Teams apps** in the Microsoft Teams admin center. You can set policies to control what apps are available to Teams users in your organization, customize Teams by pinning apps that are most important for your users, and specify whether users can upload custom apps (also known as sideloading). These policies and settings give you granular control over what apps are available, how they appear in Teams, and who can use them based on the needs of your organization.
 
-## App permissions policies
+## App permission policies
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
