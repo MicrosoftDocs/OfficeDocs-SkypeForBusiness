@@ -40,7 +40,7 @@ To find out which version of Lync desktop client you are using, open the **About
 
 ## Lync client updates
 
-One of the most common checks that to do when troubleshooting Lync client issues is determining whether you are running the latest version of the Lync client and if all patches are installed. A majority of the Lync client issues that get reported are resolved by upgrading to the latest release or update of the product. Thus, we highly recommended that you install the latest version of the Lync client, along with the latest updates, before you contact Microsoft Product Support. This [article](https://docs.microsoft.com/en-au/SkypeForBusiness/sfb-client-updates#lync-2013-client-updates) will help you identify the correct release version number.
+One of the most common checks that to do when troubleshooting Lync client issues is determining whether you are running the latest version of the Lync client and if all patches are installed. A majority of the Lync client issues that get reported are resolved by upgrading to the latest release or update of the product. Thus, we highly recommended that you install the latest version of the Lync client, along with the latest updates, before you contact Microsoft Product Support. This [article](https://docs.microsoft.com/SkypeForBusiness/sfb-client-updates#lync-2013-client-updates) will help you identify the correct release version number.
 
 Each update for Lync client has its own version number. You can determine the version number associated with an update by looking at the related KB article, linked to in the following table.
 
@@ -50,7 +50,7 @@ Each update for Lync client has its own version number. You can determine the ve
 
 ## Lync Server Updates
 
-For information about updates for Lync Server 2013, see [Updates for Lync Server 2013](https://support.microsoft.com/en-us/help/2809243/updates-for-lync-server-2013) on the Microsoft support web.
+For information about updates for Lync Server 2013, see [Updates for Lync Server 2013](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013) on the Microsoft support web.
 
 </div>
 
