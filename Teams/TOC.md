@@ -24,6 +24,7 @@
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
 ## [Teams templates for Healthcare](healthcare/healthcare-templates.md)
+## [Teams templates for retail](get-started-with-retail-teams-templates.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
@@ -345,7 +346,7 @@
 #### [Enable Location-Based Routing for Direct Routing](location-based-routing-enable.md)
 
 ### Media bypass for Direct Routing
-#### [Plan for media byass with Direct Routing](direct-routing-plan-media-bypass.md)
+#### [Plan for media bypass with Direct Routing](direct-routing-plan-media-bypass.md)
 #### [Configure media bypass with Direct Routing](direct-routing-configure-media-bypass.md)
 
 
@@ -688,7 +689,7 @@
 ## Teams for firstline workers
 ### [Microsoft StaffHub to be retired](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
 ### [Manage the Shifts app for your organization in Teams](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
+### [Get started with Teams templates for retail](get-started-with-retail-teams-templates.md)
 
 ## [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)

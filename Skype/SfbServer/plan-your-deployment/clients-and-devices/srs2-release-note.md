@@ -21,6 +21,7 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 
 | Release | Published to <br>Microsoft Store | 
 | ---     | ---  |
+| 4.0.78.0 | 03/14/2019   |
 | 4.0.76.0 | 03/04/2019   |
 | 4.0.64.0 | 12/14/2018   |
 | 4.0.51.0 | 11/17/2018   | 
@@ -48,6 +49,11 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 ## Skype Room Systems v2 feature introduction and issue resolution
 
 
+### 4.0.78.0 (03/14/2018)
+Introduced in this update:
+- Fix for "hang at app start up" bug that impacted devices on legacy Windows 10 RS2 build.  
+
+
 ### 4.0.76.0 (03/04/2019)
 Introduced in this update:
 - DTMF keypad for Microsoft Teams meetings. To make Microsoft Teams your default calling client, admins must set IsTeamsDefaultClient to true
@@ -55,6 +61,7 @@ Introduced in this update:
 - Improvements to Lobby notifications with addition of Front of Room notification
 - Front of Room display removes casting icon when Bluetooth beacon is not enabled on Room system device
 - Fix for volume control issue in Teams meetings
+
 
 ### 4.0.64.0 (12/14/2018)
 Introduced in this update:
