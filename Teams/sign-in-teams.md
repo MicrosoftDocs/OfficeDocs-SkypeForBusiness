@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 11/15/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: 
@@ -44,7 +44,6 @@ When users start Teams, their computer won't be able to pull their credentials f
 If users are working on a domain-joined computer (for example, if their tenant has enabled Kerberos), they cannot switch user accounts once they've completed modern authentication. If users are not working on a domain-joined computer, they can switch accounts.
 
 ## Signing out of Microsoft Teams after completing modern authentication
-
 To sign out of Teams, users can click their profile picture at the top of the app, and then select **Sign out**. They can also right-click the app icon in their taskbar, and then select **Log out**. Once they've sign out of Teams, they need to enter their credentials again to launch the app.
 
 ## Troubleshooting modern authentication
