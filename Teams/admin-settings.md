@@ -3,12 +3,12 @@ title: Admin settings for apps in Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 03/18/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: ritikag 
-description: "Learn to allow and enable apps in Microsoft Teams including side-loading of external apps."
+ms.reviewer: ritikag, lajin 
+description: Learn about the  policies and settings you can use to manage apps for your organization in Microsoft Teams. 
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -25,42 +25,40 @@ Admin settings for apps in Microsoft Teams
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, and also known as default apps) or by a third-party (also known as external apps). In the Microsoft 365 admin center, you can enable and disable default apps and configure settings to control external apps. These settings let you specify which external apps are allowed and disallowed, new external app behavior, and whether side-loading apps is allowed.
+Apps provide out-of-the-box tools for your organization to get more out of Teams. These apps combine the functionality of tabs, messaging extensions, connectors, and bots provided by Microsoft, built by a third-party, or by developers in your organization.
 
- To manage admin settings for apps in Teams, go to the Microsoft 365 admin center and choose **Settings** > **Services & add-ins** > **Microsoft Teams**. If you're signed in as an Office 365 admin, this link should take you there:
+You manage apps for your organization in **Teams apps** in the Microsoft Teams admin center. You can set policies to control what apps are available to Teams users in your organization, customize Teams by pinning apps that are most important for your users, and specify whether users can upload custom apps (also known as sideloading). These policies and settings give you granular control over what apps are available, how they appear in Teams, and who can use them based on the needs of your organization.
 
-https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
+## App permission policies
 
-To learn more about admin settings for apps, see the following video: 
- 
-|  |  |
-|---------|---------|
-| Managing the App Experience in Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-## Allow external apps in Teams
+With app permission policies, you can block or allow apps, either org-wide or for specific users.  When you block an app, all interactions with that app are disabled and the app doesn't appear in Teams for users.
 
-By default, **Allow external apps in Microsoft Teams** is turned on, with all apps selected. If you turn off this setting, all external third-party apps are disabled. 
+For example, you can use app permission policies to:
 
-## Enable new external apps by default
+- Disable an app that poses a permission or data loss risk to your organization.
+- Gradually roll out new third-party or custom built apps to specific users.
+- Simplify the user experience, especially when you start rolling out Teams across your organization.
 
-#### :trophy: Best practice: Manage external apps individually 
- 
-To turn on some apps (and turn off others), turn off **Allow sideloading of external apps**. Then turn off any apps you don't want your users to use. Optional: Turn off **Enable new external apps by default** (if you want to control new apps). 
+To learn more, go to [Manage app permission policies in Teams](teams-app-permission-policies.md).
 
-> [!NOTE]
-> Default apps, such as those built by Microsoft, are not affected by the **Enable new external apps by default** setting. New apps are enabled by default when released by Microsoft.
+## App setup policies
 
-When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. To open the Teams app catalog, click **Store** at the bottom of Teams, then click **Apps**. If you want to control which apps are available, turn off this setting. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on cool new apps. 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Sideloading is how you add an app to Teams by uploading a zip file directly to a team. Sideloading lets you test an app as it's being developed. It also lets you build an app for internal use only and share it with your team without submitting it to the Teams app catalog in the Office Store. 
+App setup policies let you customize the app experience for your users. You choose the apps that you want to pin to the app bar in the Teams clients and the order in which they appear, on web, desktop, and mobile clients.
 
-Only team owners, or members who are granted permissions, can sideload apps into Teams.  
+Here's some examples of how you can use app setup policies:
+- Drive awareness and adoption of core apps. For example, pin a custom recruiting and talent management app for users on your HR team.
+- Selectively pin core Teams features, such as Chat, Teams, and Calling. Doing so can help ensure users are engaged in specific activities within Teams.
 
-![Screen shot of the expanded External Apps section.](media/teams-tenant-wide-settings-external-apps.png "Screen shot of the expanded External Apps section showing external apps")
+To learn more, check out [Manage app setup policies in Teams](teams-app-setup-policies.md).
 
-## Creating and uploading app packages 
+## Custom app policies and settings
 
-To learn more about apps, see [Develop apps for Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview). 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
+Teams allows developers in your organization to build, test, and deploy custom apps to other users. Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team or in the personal context. You can use app setup policies to control who in your organization can upload custom apps. You can also set org-wide settings to control whether users can interact with specific custom  apps.
 
-
+To learn more, go to [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).
