@@ -18,7 +18,6 @@ appliesto:
 ---
 
 # Use PowerShell to set live events policies in Microsoft Teams
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 You can use the following Windows PowerShell cmdlets to set and assign policy settings for live events in Teams: 
 - [Get-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
