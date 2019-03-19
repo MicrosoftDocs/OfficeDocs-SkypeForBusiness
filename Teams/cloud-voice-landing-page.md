@@ -34,7 +34,7 @@ We recommend that all organizations work through the core decisions and then, if
 The following articles provide more information about deploying and using cloud voice features in Teams:
 
 - [Phone System in Office 365](what-is-phone-system-in-office-365.md)
-- [Phone System with Calling Plan](calling-plan-landing-page.md)
+- [Phone System with Calling Plans](calling-plan-landing-page.md)
 - [Phone System Direct Routing](direct-routing-landing-page.md)
 - [Cloud voice deployment](cloud-voice-deployment.md)
 - [Microsoft telephony solutions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
