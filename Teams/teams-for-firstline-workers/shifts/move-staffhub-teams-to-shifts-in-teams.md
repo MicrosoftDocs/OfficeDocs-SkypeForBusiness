@@ -1,5 +1,6 @@
 ---
 title: Move your StaffHub teams to Shifts in Microsoft Teams
+author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
