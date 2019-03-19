@@ -39,7 +39,7 @@ Microsoft also offers all-in-the-cloud voice solutions, such as Calling Plan.  H
 - Your organization requires connection to third-party analog devices, call centers, and so on. 
 - Your organization has an existing contract with a PSTN carrier.
 
-Direct Routing also supports users who have the additional license for the Microsoft Calling Plan. For more information, see [Calling Plans in Office 365](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) and [Licensing and other requirements](#licensing-and-other-requirements). 
+Direct Routing also supports users who have the additional license for the Microsoft Calling Plan. For more information, see [Phone System and Calling Plans](calling-plan-landing-page.md). 
 
 With Direct Routing, when users participate in a scheduled conference, the dial-in number is provided by Microsoft Audio Conferencing service, which requires proper licensing.  When dialing out, the Microsoft Audio Conferencing service places the call using online calling capabilities, which requires proper licensing. (Note that dialing out does not route through Direct Routing.) For more information, see [Online Meetings with Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  

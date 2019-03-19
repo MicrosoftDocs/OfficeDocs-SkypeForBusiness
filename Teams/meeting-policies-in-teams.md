@@ -100,8 +100,8 @@ When you select an existing policy on the **Meeting policies** page or select **
 <a name="bkparticipantsandguests"> </a>
 
 ### Participants & guests
-   - **Allow anonymous users to start meetings** If this setting is off, then only someone who has been authenticated to the meeting with a Teams app can start the meeting. If it's on, then anyone can start the meeting.
-   - **Automatically admit users** If you turn this off, then meeting participants will be left in the lobby until someone starts the meeting. If it's on, meeting participants will be allowed to join the meeting automatically.
+   - **Allow people that dial in to start a meeting** You can turn on or off if you want to let people that haven't been authenticated because they've dialed in using their phone to start a meeting.
+   - **Automatically admit people** Determines what types of participants will automatically be added to meetings organized by this user. Set this to "Everyone in organization" if you would like meetings to place every external user in the lobby but allow all users in the company to join the meeting immediately. Set this to "Everyone" if you'd like to admit anonymous users by default. Set this to "Everyone in your organization and federated organizations" if you would like meetings to allow federated users to join like your company's users, but place all other external users in a lobby.
 
 [Full article](meeting-policies-in-teams.md)
 
