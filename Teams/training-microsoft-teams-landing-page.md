@@ -6,7 +6,7 @@ ms.topic: landing-page
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 03/19/2019
 ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_Help
@@ -124,7 +124,7 @@ Check back frequently - we'll keep updating this list so you'll always know abou
                 <div class="card">
                     <div class="cardText">
                         <h3>Introduction to teamwork in Microsoft 365</h3>
-                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Part of the [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals) learning path. Learn about the Microsoft 365 tools that facilitate teamwork for all workers, no matter where they are located or how they connect to your organization’s resources. </a></p>
+                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Learn about the Microsoft 365 tools that facilitate teamwork for all workers, no matter where they are located or how they connect to your organization’s resources. </a></p>
                     </div>
                 </div>
             </div>
