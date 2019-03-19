@@ -40,7 +40,7 @@ There are four Teams admin roles available: Teams service administrator, Teams c
 -->
 For more information about the admin tools available for managing Microsoft Teams, see [Managing Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
 
-For more information about limits, specifications, and other requirements that apply to Microsoft Teams, see [Limits and specifications for Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/limits-specifications-teams).
+For more information about limits, specifications, and other requirements that apply to Teams, see [Limits and specifications for Microsoft Teams](limits-specifications-teams.md).
 
 ## Assign users to each role
 
