@@ -627,7 +627,7 @@
 ### [Teams client experience and conformance to coexistence modes](teams-client-experience-and-conformance-to-coexistence-modes.md)
 <!-- ============================================================ -->
 
-# [Expand Teams across your organization](teams-for-firstline-workers/expand-teams-across-your-organization-hub-page.md)
+# [Expand Teams across your organization](teams-for-firstline-workers/expand-teams-across-your-organization-landing-page.md)
 ## [Shifts for Teams](teams-for-firstline-workers/shifts-landing-page.md) 
 ### [Microsoft StaffHub to be retired](teams-for-firstline-workers/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Move your Microsoft StaffHub teams to Shifts in Teams](teams-for-firstline-workers/shifts/move-staffhub-teams-to-shifts-in-teams.md)
