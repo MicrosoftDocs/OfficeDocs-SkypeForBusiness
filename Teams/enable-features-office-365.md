@@ -35,21 +35,7 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### Apps
 
-Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps.  
-
-**Tabs**: Tabs in Microsoft Teams allow you to display rich interactive web content. You can build a Microsoft Teams tab from scratch or adapt your existing web-app experience.
-
-There are two types of tabs in Teams:
-
-- **Static tabs**: support an individual user. For example, if your service is a notetaking app, add a tab that holds a user's personal notes. That way, a user can refer to his or her own notes without having to share them with the entire team.
-- **Configurable tabs**: A configurable tab becomes part of a channel and provides a single kind of information to a team. Configurable tabs have a configuration page in addition to a content page.
-
-
-**Bots**: Build and connect intelligent bots to interact with Microsoft Teams users naturally through chat. Or provide a simple commands-based bot, to be used as your "command-line" interface for your broader Teams app experience. You can make a notification-only bot, which can push information relevant to your users directly to them in a channel or direct message. You can even bring your existing Bot Framework–based bot and add Teams-specific support to make your experience shine. A bot appears just like any other team member you interact with in a conversation except that it has a hexagonal avatar icon and is always online.
-
-
-**Connectors**: Office 365 Connectors are a great way to push your app's rich content into Microsoft Teams. Any user can connect a team to services like Trello, GitHub, Bing News, or Twitter and get notified of the team's activity in that service. From tracking a team's progress in Trello to following important hashtags in Twitter, Office 365 Connectors help your team to stay in sync and get more done.You can even add actions to your content, turning them into actionable messages, so that users can complete tasks directly in the channel. 
-
+Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps. To learn about rolling out apps, bots, connectors, and tabs in Teams, read (Apps, bots, & connectors)[deploy-apps-microsoft-teams-landing-page.md].
 
 #### Default apps
 
