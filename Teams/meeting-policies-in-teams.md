@@ -3,7 +3,7 @@ title: Manage meeting policies
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 03/01/2019
+ms.date: 03/19/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua 
@@ -49,16 +49,20 @@ Then assign the policy to the users.
 > [!NOTE] 
 > A user can be assigned only one meeting policy at a time. 
 
-## Assign a meeting policy to a user
+## Assign a meeting policy to users
 
-To assign a policy, go to **Microsoft Teams admin center** > **Users**. 
+If you are applying the policy to one user, select **Users** on the left navigation pane, and then click the user's display name. Next to **Assigned policies**, select **Edit**. Then, in the **Edit user policies** pane, under **Meeting policy**, select the meeting policy from the drop-down list, and then select **Save**. You can also assign policies from the list of users. To do this, select the user by clicking to the left of the user's display name. Select **Edit settings**. Then, on the **Edit settings** pane, under **Meeting policy**, select the policy from the drop-down list, and then select **Save**. 
  
-If you are applying the policy to one user, select the user's display name. Next to **Assigned policies**, select **Edit**. Then, in the **Edit user policies** pane, under **Meeting policy**, select the meeting policy from the drop-down list, and select **Save**. You can also edit settings from the list of users. To do this, select the user by clicking to the left of the user's display name. Select **Edit settings**. Then, on the **Edit settings** pane, under **Meeting policy**, select the policy from the drop-down list and then select **Save**. 
+If you are applying a policy to more than one user, select **Users** on the left navigation pane, and then select each user by clicking to the left of the user name, and then click **Edit settings**. On the **Edit Settings** pane, under **Meeting policy**, select the policy from the drop-down list, and then select **Save**.
  
-If you are applying a policy to more than one user, select each of the users by clicking to the left of the user name, and then click **Edit settings**. On the **Edit Settings** pane, under **Meeting policy**, select the policy from the drop-down list and then select **Save**.
- 
-You can also do this by going to **Microsoft Teams admin center** > **Meetings** >  **Meeting policies**. Select the policy and then select **Manage users**. In the **Manage users** pane, search for the user by display or user name. Select the name and select **Add**. When you are finished adding users, select **Save**.
+You can also assign policies to one or more users as follows:
 
+1. Go to **Microsoft Teams admin center** > **Meetings** > **Meeting policies**.
+2. Select the policy by clicking to the left of the policy name.
+3. Select **Manage users**.
+4. In the **Manage users** pane, search for the user by display or user name, select the name, and then select **Add**.
+5. When you are finished adding users, select **Save**.
+ 
 > [!NOTE] 
 > You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users, and then you can delete the original policy.
  
