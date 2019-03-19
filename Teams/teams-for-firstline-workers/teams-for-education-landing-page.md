@@ -25,7 +25,7 @@ placeholder
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="clock" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="arrow" />
                         </div>
                     </div>
                     <div class="cardText">

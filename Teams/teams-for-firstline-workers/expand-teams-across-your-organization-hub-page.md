@@ -41,7 +41,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/health-blue.svg" alt="Health" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/health-teams.svg" alt="Health" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -79,7 +79,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/small-business-teams.svg" alt="business" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
