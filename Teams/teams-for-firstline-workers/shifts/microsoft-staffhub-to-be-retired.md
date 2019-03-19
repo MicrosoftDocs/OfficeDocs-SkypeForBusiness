@@ -102,7 +102,7 @@ For admin guidance, see [Manage the Shifts app for your organization in Teams](m
 
 For end-user help, go to [Shifts Help for firstline workers and managers](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b).
 
-### About Teams
+### Switch from StaffHub to Shifts in Teams
 
 #### What if I don’t have Teams enabled in my organization?
 
@@ -119,8 +119,6 @@ Yes, each firstline worker and manager using Teams and Shifts within Teams must 
 #### What powers the file sharing capability in Teams? Where are files stored?
 
 The file sharing capability, the ability for a firstline manager to distribute files to firstline workers, is powered on the back end by SharePoint Online. When a team is created, an Office 365 Group is automatically provisioned for that team in the background.
-
-### Switch from StaffHub to Teams
 
 #### Why can't firstline workers in my organization access their StaffHub team from Shifts in Teams?
 
@@ -163,17 +161,20 @@ Flipping flag on StaffHub team to allow viewing this data on the Teams team..[To
  
 #### How are StaffHub chats migrated to Teams?-FOLLOWUP
 
-StaffHub chat is powered by the same chat service that powers Teams. The last 90 days of chat data is retained and available in Teams, starting  April 1, 2019.  
+StaffHub chat is powered by the same chat service that powers Teams. The last 90 days of chat data in StaffHub is retained and is available in Teams, starting April 1, 2019.  
  
-#### What will happen to the StaffHub Files feature??-FOLLOWUP 
+#### What will happen to the Files feature in StaffHub?-FOLLOWUP 
 
-Starting **placeholder for date**, any file you upload to StaffHub will also be copied to the General channel of the team in Teams. 
+Starting **placeholder for date**, any file that users upload to StaffHub is copied to the **Files** tab in the General channel of the team in Teams. 
 
 For files that were uploaded before **placeholder date**, you can move them to Teams. Here's how.
+
+1. placholder
+2. placeholder
  
 #### How will tasks be migrated from StaffHub to Teams?-FOLLOWUP
 
-We won't be supporting tasks migration. Teams has its own task management app that we encourage you to use moving forward.
+Tasks migration isn't supported. Teams has its own task management app that we encourage you to use moving forward.
  
 -  Is there a way to export task data? 
 -  Can we import the Tasks into teams? 
@@ -182,11 +183,11 @@ We won't be supporting tasks migration. Teams has its own task management app th
   
 You can export shift schedule information to a .csv file from the Shifts desktop and web app. You can import this information into your organization's systems and tools. [To be Confirmed]  
  
-#### Will the shift schedule import be supported in Shifts? 
+#### Will the shift schedule import be supported in Shifts?-FOLLOWUP
  
-Shift schedule information can be exported to a XXX file/format by customers from their own systems and tools which they can import into the Shifts web/desktop app. [To be Updated]   
+You can export shift schedule information to a XXX file/format from your own systems and tools and then import it to the Shifts desktop and web app. [To be Updated]   
  
-#### Will the time clock export/download be supported in Shifts? 
+#### Is time clock export/download supported in Shifts? 
 
 Yes, this is available through the Shifts web app. 
  
@@ -194,13 +195,13 @@ Yes, this is available through the Shifts web app.
  
 Firstline workers can see their entire work schedule at a glance in Shifts. We'll be supporting native integration with Outlook calendar as part of our roadmap. In the meantime, use Flow to set up integration with Shifts in Teams and Outlook and Google calendars. [To be confirmed]
  
-#### What admin controls are available to manage whether employees can use Shifts?  
+#### What admin controls are available to manage whether users in my organization can use Shifts?  
   
 Admins can turn on or turn off Shifts org-wide for all users in the organization. In the Microsoft Team admin center, admins can also use the FirstlineWorker app setup policy to customize Teams for firstline workers and managers. The policy is configured with the Activity, Shifts, Chats, Calling, and Tasks apps. Assigning the policy pins these apps to the app bar in Teams for quick and easy access by users.
 
 #### Can Shifts be managed by using Intune Mobile Application Management (MAM)?-FOLLOWUP
   
-XXX can/cannot be managed with Intune MAM. If this is something you are interested in, send us a request through the [Teams feedback portal on UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform) [To be Confirmed] 
+XXX can/can't be managed with Intune MAM. If this is something you are interested in, send us a request through the [Teams feedback portal on UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform) [To be Confirmed] 
   
 #### Where can I provide feedback?
   
@@ -208,19 +209,19 @@ In the mobile app, tap on the “hamburger” icon in the upper left of the scre
  
 #### Is reporting available to view Shifts usage across my organization?
 
-You can view Shifts usage through Teams reporting. For more information, check out [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md)
+You can view Shifts usage through Teams reports. For more information, check out [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md)
  
 #### Will my conditional access policies for StaffHub apply to Shifts in Teams? 
 
-Once Shifts app is available in Microsoft Teams you can only apply conditional access policies at the Microsoft Teams app level. The existing conditional access policy you have created for StaffHub will not apply to the Shifts app in Microsoft Teams. 
+You can only apply conditional access policies in Teams at the Teams app level. For more information, see [Overview of security and compliance in Teams](../../security-compliance-overview.md)The existing conditional access policy you created in StaffHub won't apply to Shifts in Teams. 
  
-#### How do I migrate my corporate resources from the StaffHub admin page? 
+#### How do I migrate my corporate resources from the StaffHub admin page?-FOLLOWUP
  
 #### How do I migrate my team custom fields from StaffHub to Teams? 
 
-You will need to export your custom fields for your StaffHub teams. After you’ve exported this data you will be able to import team custom fields into Microsoft Teams. 
+You have to export your custom fields for your StaffHub teams. After you export the data, import the custom fields to Teams. 
  
-#### How can I recover my schedule if I accidentally delete a team? 
+#### How can I recover my schedule if I accidentally deleted a team?-FOLLOWUP
 
 We will need to add functionality to recover schedule data when a team is recovered after deletion 
     
