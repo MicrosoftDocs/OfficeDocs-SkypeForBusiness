@@ -35,7 +35,7 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### Apps
 
-Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps.  
+Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps. To learn about rolling out apps, bots, connectors, and tabs in Teams, read (Apps, bots, & connectors)[deploy-apps-microsoft-teams-landing-page.md].
 
 #### Default apps
 
