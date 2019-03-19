@@ -36,11 +36,15 @@ The following settings are of special value to Healthcare applications, and shou
   For Healthcare applications, choose either **User controlled** or **Enabled for everyone**. Be aware that when using the **Enabled for everyone** setting, the only way to set receipts for the whole  tenant is either to have only one messaging policy for the whole tenant (the default policy named "Global (Org-wide Default)") or to have all messaging policies in the tenant use the same settings for receipts.
 
   > [!NOTE]
-  > Read receipts are used in a large group chat (with over 100 users, for example), the receipt messages can overwhelm the actual messages, and lead to chat user frustration. This is something you will need to make users aware of.
+  > When read receipts are used in a large group chat (with over 100 users, for example), the receipt messages can overwhelm the actual messages, and lead to chat user frustration. This is something you will need to make users aware of.
+
+  *Usage example:* Jakob Roth, a high risk patient, is admitted to the hospital.  Sofia Krause is a nurse working as part of the inter-disciplinary team (IDT) of medical workers, including different specialists, is assigned as the primary care coordinator in charge of this patient.  Sofia starts a group chat with a set of doctors and other nurses who will be working with the patient to coordinate care and start an emergency triage.  The nurses and doctors communicate and collaborate over the patient's care plan throughout the care coordination process.  Important and urgent messages are sent through 1:1 and group chat conversations. Sofia uses the read receipts functionality to determine if messages sent requesting support are delivered and read by the targeted physicians or nurses.
 
 - ![number two](../media/sfbcallout2.png) **Users can send priority notifications** Use this setting to allow users to send priority chat messages to other users. This feature helps hospital staff alert one another when a critical incident requires their attention. Unlike regular “important” messages, priority notifications repeatedly notify users for a period of 20 minutes or until messages are picked up and read by the recipient, maximizing the likelihood that the message is picked up and acted upon in a timely manner.
 
   An admin can enable or disable the ability for users assigned this policy to send priority notifications. The default setting is disabled. The recipient of the priority message might not have the same messaging policy, and will not have an option to disable receiving priority messages. For Healthcare applications, we recommend enabling the feature for at least some groups, but you'll need to determine which ones.
+
+  *Usage Example:* Sofia Krause is readmitting a high-risk patient, Jakob Roth. Manuela Carstens, a physician within this health network is the primary care doctor for this patient.  Sofia sends a message to this Manuela marking it as 'High Priority' and needing immediate help with triage of Jakob.  Manuela's phone receives the message but Manuela didn't feel the phone vibration and does not reply. Teams re-notifies Manuela and will continue to persistently re-notify until she reads the message. If read receipts are also enabled, Sofia can be aware that the message was read by Manuela.
 
 ## Related topics
 

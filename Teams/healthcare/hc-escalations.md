@@ -18,17 +18,16 @@ description: User escalation of priority messages to text messages and robocall 
 # Message Escalations (may 19)
 
 
-## FeatureName overview
+## Message Escalation overview
 
-Short overview of what the new feature is. 
+Message escalation is the next level to apply when Priority Notifications haven't gotten a prompt response. 
 
-- What is the new or updated experience?
+*Usage example, without message escalation:* Jakob Roth is admitted with a small infection on his arm. Lena Ehrle, the ER doctor, admits Jakob and calls Franco Piccio, the doctor who runs the ward Jacob will be transferred to when possible. Lena leaves Franco a priority notification voice message expressing concern about the infection but doesn't get a response. Two hours later, Franco still hasn't responded and the infection had spread to Jakob's entire arm and the situation is much worse. Fortunately, Jakob recovers. The incident leads to implementing new features.
 
-- Does this feature replace an existing feature/experience? If yes, what is the transition plan?
+*Usage example, without message escalation:* A week later, Jakob Roth is readmitted, this time with a deep cut on his foot. Again Lena admits him and contacts Franco to transfer Jakob into the proper ward. Again, Franco doesn't respond to the text message, but after 10 minutes Lena chooses to escalate by sending an SMS text message and a robocall to Franco.  
 
-- Does this feature has dependency on other features? If yes, list/explain the dependencies.
+Jakob is pretty accident prone, we certainly hope his insurance is good.
 
-- List the key deployment scenarios - why would people use this feature? 
 
 ## [OPTIONAL] Planning for feature
 
