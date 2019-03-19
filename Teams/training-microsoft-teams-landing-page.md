@@ -118,4 +118,15 @@ Check back frequently - we'll keep updating this list so you'll always know abou
             </div>
         </div>
     </li>
-  
+      </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Introduction to teamwork in Microsoft 365</h3>
+                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Part of the [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals) learning path. Learn about the Microsoft 365 tools that facilitate teamwork for all workers, no matter where they are located or how they connect to your organization’s resources. </a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
