@@ -40,7 +40,6 @@ The service plans included in this offer are:
 - SharePoint Online Kiosk
 - Stream
 - Sway
-- To-Do
 - Yammer Enterprise 
 
 The trial grants a one-year trial subscription to your entire organization. The trial makes 500,000 licenses available for assignment. For each license assigned, the trial allocates 2 GB of SharePoint Online storage. 
