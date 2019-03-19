@@ -16,6 +16,8 @@ appliesto:
 
 # Teams for Retail
 
+placeholder
+
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/get-started-with-retail-teams-templates">
