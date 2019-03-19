@@ -17,16 +17,15 @@ description: (may 19) A user can explicitly set a delegate status and pick/assig
 
 # Set a delegate status
 
-A user can explicitly set a delegate status and pick/assign another user as the delegate. The person who has been assigned as a delegate is notified that they have been nominated to be a delegate. When a chat conversation or compose mode is initiated with the target user who has a delegate assigned,  banner shows the sender clearly that messages should be sent to the assigned delegate instead. 
+A user can explicitly set a delegate status and pick/assign another user as the delegate. The person who has been assigned as a delegate is notified that they have been nominated to be a delegate. When a chat conversation or compose mode is initiated with the target user who has a delegate assigned,  banner shows the sender clearly that messages should be sent to the assigned delegate instead.
 
 This is a user-initiated process in the client, and Admin involvement is limited to enabling the feature in the O365/Teams tenant. Presumably allowing auto-forward this will be another setting in the Messaging policy screen.
 
 ## Delegation overview
 
-*Usage example without setting delegates:*  Dr. Franco Piccio is on-call at the radiology department. He receives an urgent personal call and has to step away for the next couple of hours. He asks one of his peers in the radiology department, Dr Lena Ehrle to cover for him while he is gone. He informally hands over his pager to Dr Ehrle, who is listening for urgent messages and pings on the pager and responds to them on behalf of Dr. Piccio in addition to her current responsibilities. Others on the team may not realize the informal delegation happened, and confusion ensues with a patient's care.
+*Usage example without setting delegates:*  Dr. Franco Piccio is on-call at the radiology department. He receives an urgent personal call and has to step away for the next couple of hours. He asks one of his peers in the radiology department, Dr. Lena Ehrle, to cover for him while he is gone. He informally hands over his pager to Dr. Ehrle, who is listening for urgent messages and pings on the pager and responds to them on behalf of Dr. Piccio in addition to her current responsibilities. Others on the team may not realize the informal delegation happened, and confusion ensues with a patient's care.
 
-*Usage example with setting delegates:* Dr. Franco Piccio is on-call at the radiology department. He receives an urgent personal call and has to step away for the next couple of hours. He asks one of his peers in the radiology department, Dr Lena Ehrle to cover for him while he is gone. He changes his status in Teams to do not disturb and sets Dr Ehrle as a delegate, enabling auto-forward of messages. Others on the team realize the delegation happened as they're attempting to contact Dr Piccio, and little to no confusion ensues with a patient's care.
-
+*Usage example with setting delegates:* Dr. Franco Piccio is on-call at the radiology department. He receives an urgent personal call and has to step away for the next couple of hours. He asks one of his peers in the radiology department, Dr. Lena Ehrle to cover for him while he is gone. He changes his status in Teams to do not disturb and sets Dr. Ehrle as a delegate, enabling auto-forward of messages. Others on the team realize the delegation happened as they're attempting to contact Dr. Piccio, and little to no confusion ensues with a patient's care.
 
 ## [OPTIONAL] Planning for feature
 
