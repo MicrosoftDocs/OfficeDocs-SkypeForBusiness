@@ -69,7 +69,7 @@ This section covers system settings that Skype Room Systems v2 depends on to fun
 
 |**Setting**|**Allows**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (REG_SZ) 1  <br/> |Enables Skype Room Systems v2 to boot up  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Enables Skype Room Systems v2 to boot up  <br/> |
 |Power Management -\> On AC, turn screen off after 10 minutes  <br/> Power Management -\> On AC, never put system to sleep  <br/> |Enables Skype Room Systems v2 to turn off attached displays and wake up automatically  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Or equivalent means of disabling password expiration on the local account. Failure to do this will eventually cause the Skype account to fail logon complaining about an expired password. Note that this impacts all local accounts on the machine, and thus failure to set this will also cause the administrative account on the box to eventually expire as well.  <br/> |Enables Skype account to always log in  <br/> |
    
