@@ -59,6 +59,7 @@ Basic functionalities will continue to work on Skype for Business certified devi
 | Polycom |VVX 501 Business Media Phone|5.9.0.9373 |1/22/2019|
 | Polycom |VVX 600 Business Media Phone|5.9.0.9373 |1/22/2019|
 | Polycom |VVX 601 Business Media Phone|5.9.0.9373 |1/22/2019|
+| Polycom |Trio Series 8800/8500 IP Phone| 5.5.2.11338 |10/9/2018|
 | Polycom |VVX 250 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
 | Polycom |VVX 350 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
 | Polycom |VVX 450 Business IP Phone (On-prem only)|5.8.0.12848 |8/27/2018|
