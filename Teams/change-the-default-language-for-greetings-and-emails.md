@@ -58,7 +58,7 @@ If you are an [Office 365 global administrator](https://support.office.com/artic
     
 ## Related articles for the admin
 
-- [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365.md)
+- [Phone System and Calling Plans](calling-plan-landing-page.md)
     
 - [Set up Calling Plans](set-up-calling-plans.md)
     

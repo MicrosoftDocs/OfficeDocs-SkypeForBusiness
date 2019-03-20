@@ -24,6 +24,7 @@
 ## [Manage messaging policies](messaging-policies-in-teams.md)
 ## [Get started with Teams templates](get-started-with-teams-templates.md)
 ## [Teams templates for Healthcare](healthcare/healthcare-templates.md)
+## [Teams templates for retail](get-started-with-retail-teams-templates.md)
 ## [Overview of dynamic membership for teams](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
 ## [Communicate with Teams users in other organizations](let-your-teams-users-communicate-with-other-people.md)
@@ -34,6 +35,9 @@
 ## [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
 ### [Apps permissions and considerations](app-permissions.md)
 ### [Admin settings for apps in Teams](admin-settings.md)
+### [Manage app permission policies in Teams](teams-app-permission-policies.md)
+### [Manage app setup policies in Teams](teams-app-setup-policies.md)
+### [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 ### [Add bots for private chats and channels in Teams](add-bots.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Office 365 and custom connectors](Office-365-custom-connectors.md)
@@ -688,7 +692,7 @@
 ## Teams for firstline workers
 ### [Microsoft StaffHub to be retired](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
 ### [Manage the Shifts app for your organization in Teams](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Get started with Retail Teams templates](get-started-with-retail-teams-templates.md)
+### [Get started with Teams templates for retail](get-started-with-retail-teams-templates.md)
 
 ## [Plan for Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plan for Microsoft 365 Government - GCC High](plan-for-government-gcc-high.md)
