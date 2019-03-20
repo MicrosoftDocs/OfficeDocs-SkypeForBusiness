@@ -42,5 +42,5 @@ Electronic health information records Integration using [FHIR](https://www.hl7.o
 
 Microsoft Teams integrates with Firstline Worker, allowing shift staffing and more features, See the following articles:
 
--[Get started with Microsoft Teams Firstline Worker in Healthcare settings](../teams-for-firstline-workers/firstline-healthcare.md)
+- [Get started with Microsoft Teams Firstline Worker in Healthcare settings](../teams-for-firstline-workers/firstline-healthcare.md)
 - [Microsoft Teams for firstline workers](../teams-for-firstline-workers/teams-for-firstline-workers.md)
