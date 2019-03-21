@@ -1,12 +1,13 @@
 ---
-title: Install Microsoft Teams using MSI via SCCM
-author: Lester-Hewett
-ms.author: lehewe
+title: Teams in Virtualized Desktop Infrastructure
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
+ms.date: 03/25/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: 
-description: Admins can use the Teams MSI to bulk deploy Microsoft Teams to select users or computers.
+description: Learn how to run Microsoft Teams in a Virtualized Desktop Infrastructure (VDI) environment.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: 
@@ -16,8 +17,44 @@ appliesto:
 - Microsoft Teams
 ---
 
-Install Microsoft Teams using MSI
-=================================
+# Teams in Virtualized Desktop Infrastructure
+
+This article describes the requirements and limitations for using Microsoft Teams in a virtualized environment.
+
+## What is VDI?
+
+Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center. This enables a fully personalized desktop experience to users with a fully secured and compliant centralized source. 
+ 
+Currently, Teams in a virtualized environment is available with support for collaboration and chat functionality with a dedicated persistent virtualized machine (VM). To ensure an optimal user experience, follow the guidance in this article. 
+
+## Teams requirements
+
+### Set policy to turn off calling and meeting features in Teams
+
+For steps on how to set policy, see the Appendix. 
+
+You can choose to run Teams fully in VDI using either the Teams desktop app or web app web. We recommend that you set the policies described in the Appendix to turn off calling and meeting features in Teams. Setting these policies avoids compromising the user experience.  
+
+It can take some time (a few hours) for the policy changes to propagate. If you don’t see changes for a given account immediately, try again in a few hours.
+
+### Virtualization provider requirements
+
+### Virtual Machine requirements
+
+### Virtual machine operating system requirements
+
+## Team on VDI installation guidance
+
+## Known issues and limitations
+
+## Appendix
+
+
+
+
+
+
+
 
 > [!Tip]
 > Watch the following session to learn about the benefits of the Windows Desktop Client, how to plan for it and how to deploy it: [Teams Windows Desktop Client](https://aka.ms/teams-clients)
