@@ -163,10 +163,10 @@ For files that were uploaded before **placeholder date**, you can move them to T
 
 Tasks migration isn't supported and tasks won't be moved to Teams. Teams has its own task management app that we encourage you to use moving forward.
 
-#### Can I use predefined StaffHub flow templates with Teams?-FOLLOWUP
+#### Can I use StaffHub flow templates with Teams?-FOLLOWUP
 
 Flow connector? 
-You can use Graph API. Graph APIs provide access to teams, members and shifts data, and can be used to integrate with HR, payroll or workforce management systems.
+You can use Graph API with Teams. Graph APIs provide access to teams, members and shifts data, and can be used to integrate with HR, payroll or workforce management systems.
 
 #### Is there Kronos integration in Teams?
 
