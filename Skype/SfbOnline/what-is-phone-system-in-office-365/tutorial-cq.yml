@@ -68,7 +68,7 @@ items:
 
     ### How is their existing system set up, and what changes if any do they want to make? 
     They have an auto attendant system for the company office, and there is an option in the system that routes to ordering, but it only connects one or two calls a day. 
-    They have a 1-800 number for placing orders and advertise it heavily. 
+    They have a 1-800 number for placing orders and advertise it heavily. Their legacy call queue service provides a single Auto attendant node in front of the call queue.
 
 
 
@@ -88,22 +88,25 @@ items:
   durationInMinutes: 2
   content: |
     ##	General guidelines
-    Before we look at our specific example, let’s look briefly at some more general design guidelines and basics.  
+    Before we look at our specific example, let’s look briefly at some more general design guidelines and basics. 
+    
+    A Phone system call queue has a limited number of options. The main decisions to make for the queue are: 
+    
+        - whether to assign a number directly to the queue, or to have callers connect to an auto attendant first. Callers are unlikely to realize the difference.
+        - Whether to have an initial greeting
+        - what hold music to use
+        - how to distribute the calls among the available agents
 
     #### Do:
-    1.	It's a good idea to have alternate initial greetings for calls taken outside business hours, or on holidays or weekends.
-    2.	Put your most frequently used options as early as possible in the first set of menu options. If possible, reserve zero in the first menu for a 
-    transfer to a live Operator, and mention it first in the scripts. 
-    3.	Have the menu repeat at least once if nothing is selected, and if there still isn't a selection, transfer the call to a live Operator rather than having 
-    the call disconnect. By default, Phone System will replay the menu three times, then if an Operator is configured the call will transfer to the Operator or 
-    if no Operator is configured the system will hang up. Given that, it's important to configure an Operator for your Auto Attendant system.
-    4.	Use multilingual prompts, but put the secondary language or languages at the end of the first set of options. You’ll need to create a separate 
-    set of nested Attendants for the secondary language.
-    5.	Take a few extra minutes to flow chart the options you want to create, and make sure you aren't creating opportunities for users to go around in 
-    circles in the option menus. It should ideally be possible to get connected to a person or their voicemail in three menus or less.
+    1.	keep the number of calls in queue and call wait time for callers as short as possible.
+    2.  Have alternate initial greetings for calls taken outside business hours, or on holidays or weekends when agents won't be available. This 
+    will involve putting a single auto attendant in front of the call queue.
+    3.  Make the call queue as easy to find as possible when your ordering number connects to an auto attendant first.
+    4.  Know your customers and provide hold music that will match their interests, or at least not clash badly with their tastes.
+ 
     
     #### Don't:
-    1.	Create a nested Auto Attendant with more than 5 choices. If you do, you'll likely confuse your callers and force them to repeat the menu.
+    1.	pitch other products or upsell while callers are waiting on hold.  
     2.	Use reserved menu option numbers or keys as menu options.
 
     > [!Important]
