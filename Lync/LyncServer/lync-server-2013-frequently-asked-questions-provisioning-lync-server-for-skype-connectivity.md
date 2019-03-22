@@ -30,7 +30,7 @@ Beginning in April 2019, we will stop the collection and retention of contact in
  
 Once this change goes live, we will no longer be able to provide email updates on pending provisioning changes. PIC provisioning changes typically complete within 24-48 hours after being entered. If you are still experiencing Skype Federation issues 48 hours after submitting a provisioning request, please engage Microsoft Technical Support to investigate further.
 
-> [!NOTE]
+> [!IMPORTANT]
 > As part of this change, all previously entered contact information will be purged from our system by the end of April, 2019.
 
 
