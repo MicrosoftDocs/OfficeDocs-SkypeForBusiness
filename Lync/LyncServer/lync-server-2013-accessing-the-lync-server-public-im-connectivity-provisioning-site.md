@@ -47,15 +47,14 @@ The provisioning process for Lync-Skype connectivity has changed, as compared to
 </tbody>
 </table>
 
-
-### To initiate the provisioning process for Lync-Skype connectivity
-
 Beginning in April 2019, we will stop the collection and retention of contact information for customers who are provisioned for Skype Federation via the pic.lync.com website. This change is being made to ensure that the pic.lync.com provisioning system adheres to Microsoft privacy policies. 
 
 Once this change goes live, we will no longer be able to provide email updates on pending provisioning changes. PIC provisioning changes typically complete within 24-48 hours after being entered. If you are still experiencing Skype Federation issues 48 hours after submitting a provisioning request, please engage Microsoft Technical Support to investigate further.
 
 > [!IMPORTANT]
 > As part of this change, all previously entered contact information will be purged from our system by the end of April, 2019.
+
+### To initiate the provisioning process for Lync-Skype connectivity:
 
 <table>
 <colgroup>
