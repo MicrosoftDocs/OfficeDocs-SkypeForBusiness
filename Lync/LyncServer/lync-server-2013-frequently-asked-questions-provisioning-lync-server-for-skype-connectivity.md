@@ -26,11 +26,11 @@ mtps_version: v=OCS.15
 
 _**Topic Last Modified:** 2019-03-22_
 
+Beginning in April 2019, we will stop the collection and retention of contact information for customers who are provisioned for Skype Federation via the pic.lync.com website. This change is being made to ensure that the pic.lync.com provisioning system adheres to Microsoft privacy policies. 
+ 
+Once this change goes live, we will no longer be able to provide email updates on pending provisioning changes. PIC provisioning changes typically complete within 24-48hrs after being entered. If you are still experiencing Skype Federation issues 48 hours after submitting a provisioning request, please engage Microsoft Technical Support to investigate further.
+
 > [!NOTE]
-> Beginning in April 2019, we will stop the collection and retention of contact information for customers who are provisioned for Skype Federation via the pic.lync.com website. This change is being made to ensure that the pic.lync.com provisioning system adheres to Microsoft privacy policies. 
-> 
-> Once this change goes live, we will no longer be able to provide email updates on pending provisioning changes. PIC provisioning changes typically complete within 24-48hrs after being entered. If you are still experiencing Skype Federation issues 48 hours after submitting a provisioning request, please engage Microsoft Technical Support to investigate further.
->
 > As part of this change, all previously entered contact information will be purged from our system by the end of April, 2019.
 
 
