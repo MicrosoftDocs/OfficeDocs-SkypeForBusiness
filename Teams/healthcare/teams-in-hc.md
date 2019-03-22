@@ -19,6 +19,9 @@ description: Get started with Teams for Healthcare organizations
 
 Microsoft Teams offers features useful for hospitals and other Healthcare organizations.
 
+https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Integrate-electronic-health-records-into-Microsoft-Teams-care/ba-p/334042  
+has a lot of information that should be shoveled into this article.
+
 ## Care Coordination
 
 New templates were developed to apply to a Hospital setting, and more are expected soon. This makes it easier to create Teams that Healthcare workers use to coordinate care for patients in various departments or wards. See [Get started with Teams templates for Healthcare organizations](healthcare-templates.md).
