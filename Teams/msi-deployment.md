@@ -38,7 +38,7 @@ We recommend that you deploy the package to the computer, so all new users of th
 ### PC installation
 
 > [!Note] 
-> See [VDI installation](#vdi-installation) for guidance on how to deploy Teams to a virtual desktop infrastructure (VDI) environment.
+> See [VDI installation](#vdi-installation) for guidance on how to deploy Teams to a Virtual DesktopInfrastructure (VDI) environment.
 
 The Teams MSI will place an installer in Program Files. Whenever a user signs into a new Windows User Profile, the installer will be launched and a copy of the Teams app will be installed in that user's appdata folder. If a user already has the Teams app installed in the appdata folder, the MSI installer will skip the process for that user.
 
@@ -55,7 +55,7 @@ Do not use the MSI to deploy updates, because the client will auto update when i
 
 ### VDI installation
 
-Here's the process and tools to deploy the Teams desktop app. For complete guidance, see [Teams in Virtualized Desktop Infrastructure](teams-in-vdi.md). 
+Here's the process to deploy the Teams desktop app. For complete guidance, see [Teams in Virtualized Desktop Infrastructure](teams-in-vdi.md). 
 
 1. Download the Teams MSI package using one of the following links depending on the environment. We recommend the 64-bit version for a VDI VM with a 64-bit operating system.
 

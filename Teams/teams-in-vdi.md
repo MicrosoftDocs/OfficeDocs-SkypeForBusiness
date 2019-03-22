@@ -177,7 +177,7 @@ The supported operating systems for VM are:
 
 ## Install Teams on VDI
 
-Here's how to deploy the Teams desktop app. 
+Here's the process and tools to deploy the Teams desktop app. 
 
 1. Download the Teams MSI package using one of the following links depending on the environment. We recommend the 64-bit version for a VDI VM with a 64-bit operating system.
 
@@ -217,3 +217,7 @@ The following are known issues and limitations for Teams on VDI.
 - **User experience**: The Teams user experience in a VDI environment may be different from a non-VDI environment. The differences may be because of policy settings and/or feature support in the environment.
 
 For Teams known issues that aren't related to VDI, see [Known issues for Microsoft Teams](Known-issues.md).
+
+## Related topics
+
+- [Install Microsoft Teams using MSI](msi-deployment.md)
