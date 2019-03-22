@@ -59,7 +59,7 @@ You can use Microsoft Teams on these mobile platforms:
 
 ## Hardware requirements for the Teams app in a Virtual Desktop Infrastructure (VDI) environment
 
-See [Teams for Virtualized Desktop Infrastructure](teams-for-vdi.md) for hardware requirements for running Teams in a virtualized environment. 
+See [Teams for Virtualized Desktop Infrastructure](teams-for-vdi.md) for requirements for running Teams in a virtualized environment. 
 
 ### Related topics
 - [Get Teams apps](get-clients.md)
