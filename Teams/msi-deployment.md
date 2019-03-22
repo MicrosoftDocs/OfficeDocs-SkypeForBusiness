@@ -55,7 +55,7 @@ Do not use the MSI to deploy updates, because the client will auto update when i
 
 ### VDI installation
 
-Here's the process to deploy the Teams desktop app. For complete guidance, see [Teams in Virtualized Desktop Infrastructure](teams-in-vdi.md). 
+Here's the process to deploy the Teams desktop app. For complete guidance, see [Teams for Virtualized Desktop Infrastructure](teams-for-vdi.md). 
 
 1. Download the Teams MSI package using one of the following links depending on the environment. We recommend the 64-bit version for a VDI VM with a 64-bit operating system.
 

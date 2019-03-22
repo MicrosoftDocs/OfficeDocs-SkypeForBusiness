@@ -1,5 +1,5 @@
 ---
-title: Teams in Virtualized Desktop Infrastructure
+title: Teams for Virtualized Desktop Infrastructure
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Teams in Virtualized Desktop Infrastructure
+# Teams for Virtualized Desktop Infrastructure
 
 This article describes the requirements and limitations for using Microsoft Teams in a virtualized environment.
 
