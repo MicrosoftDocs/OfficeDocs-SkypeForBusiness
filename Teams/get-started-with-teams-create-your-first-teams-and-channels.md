@@ -64,7 +64,7 @@ Once you've created the team, invite people to join it. You can add individual u
 Find the team that you created, click **More options ˙˙˙** > **Manage team**. Then go to the **Members** tab. Find the people you want to designate as team owners. Under **Role**, click **Owner**.
 
 ### Create a channel in a team
-Find the team that you created, click **More options ˙˙˙** > **Add channel**. You can also click **Manage team** and add a channel in the **Channels** tab. 
+Find the team that you created, click **More options ...** > **Add channel**. You can also click **Manage team** and add a channel in the **Channels** tab. 
 
 ![Add a channel to a team](media/get-started-with-teams-add-channel.png "Screen shot of the Add channel option, Manage team option, and other options that are available when you click More options on a team") 
 
