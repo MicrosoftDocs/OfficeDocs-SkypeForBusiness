@@ -49,7 +49,7 @@ items:
     - [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system.md) with a [Calling Plan](/MicrosoftTeams/calling-plan-landing-page) 
     to provide phone numbers to your users.
     - [Set up Phone System voicemail](/MicrosoftTeams/set-up-phone-system-voicemail.md) 
-    - Reviewed  [What are auto attendants and call queues?](../../../Teams/answer-auto-attendant-and-call-queue-calls.md) to get a 
+    - Reviewed  [What are auto attendants and call queues?](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls.md) to get a 
     better understanding of the Phone System features that can interact with a call queue.
 
 
@@ -70,7 +70,7 @@ items:
     They have an auto attendant system for the company office, and there is an option in the system that routes to ordering, but it only connects one or two calls a day. 
     They have a 1-800 number for placing orders and advertise it heavily. 
 
-    
+
 
     ### Will the call center be active 24 hours a day, or have business hours?
     The queue needs to be active from 11am to 11:30 pm, seven days a week. 
@@ -79,17 +79,10 @@ items:
     They already know that the call rate outside of their business hours is 
 
     ### How are the agents compensated?
-    The agents are paid on an hourly basis, and their performance is tracked in the ordering system.
+    The agents are paid on an hourly basis, and their performance is tracked in the ordering system. 
 
     ### What is the usual size of the call queue in the existing call center?
     Depending on the hour, it can vary from 5 to 30.
-
-
-
-    
-
-
-
 
 - title: The design
   durationInMinutes: 2
