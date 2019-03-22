@@ -93,7 +93,7 @@ Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that us
 |Policy Name |Description|Recommended Value                   |
 |-------------------|-----------------|-----------------------|
 |AllowPrivateMeetingScheduling  | Determines whether a user is allowed to schedule private meetings.| Set to False to prohibit the user from being able to schedule private meetings.  |
-|AllowChannelMeetingScheduling  | Determines whether a user is allowed to schedule channel meetings. | Set to False to prohibit the user from being able to schedule channelmeetings.                       |
+|AllowChannelMeetingScheduling  | Determines whether a user is allowed to schedule channel meetings. | Set to False to prohibit the user from being able to schedule channel meetings.                       |
 |AllowMeetNow |Determines whether a user is allowed to create or start ad-hoc meetings.              |  Set this to False to prohibit the user from being able to start ad-hoc meetings.                     |
 |ScreenSharingMode | Determines the mode in which a user is allowed to share their screen in calls or meetings. | Set to Disabled to prohibit the user from sharing their screens                          |
 |AllowIPVideo |Determines whether video is enabled in a user's meetings or calls.                  |    Set to False to prohibit the user from sharing their video                                         |
@@ -160,7 +160,7 @@ The Teams app has been validated on leading virtualization solution providers. W
 
 ### Virtual Machine requirements
 
-With the diverse workloads and user needs in a virtualized environment, here's the minimum recommended VM configuration.
+With the diverse workloads and user needs in a virtualized environment, the following is the minimum recommended VM configuration.
 
 |Parameter  |Measure  |
 |---------|---------|
@@ -168,7 +168,7 @@ With the diverse workloads and user needs in a virtualized environment, here's t
 |RAM     |  4 GB      |
 |Storage     | 8 GB       |
 
-### Virtual machine operating system requirements
+### Virtual Machine operating system requirements
 
 The supported operating systems for VM are:
 
@@ -177,7 +177,7 @@ The supported operating systems for VM are:
 
 ## Install Teams on VDI
 
-Use the following process to deploy the Teams desktop app. 
+Here's how to deploy the Teams desktop app. 
 
 1. Download the Teams MSI package using one of the following links depending on the environment. We recommend the 64-bit version for a VDI VM with a 64-bit operating system.
 
@@ -200,32 +200,20 @@ Use the following process to deploy the Teams desktop app.
 
 ## Known issues and limitations
 
-The following are known issues and limitations for Teams on VDI. 
+The following are known issues and limitations for Teams on VDI.
+
+- **Shared session host type deployments**: Shared session host type deployments (for example, shared non-persistent VM configuration) aren't in scope.
+- **Calling and meeting**:
+
+    - Calling and meeting scenarios aren't optimized for VDI. These scenarios will perform poorly. We recommend using user-level policies as described in the [Set policies to turn off calling and meeting functionality in Teams](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams) section.  
+    - Applying the policies described in this article impacts the ability to use calling and meeting functionality, which depending on other policies, may affect other users in your organization. If users in your organization use non-VDI clients, you can choose to not apply the policies.  
+
+- **Joining calls and meetings created by other users**: Although the policies restrict users from creating meetings, they can still join meetings if another user dials out to them from the meeting. In these meetings, the user's ability to share video, use whiteboard and other features depend on whether you disabled those features using TeamsMeetingPolicy.  
+- **Cached content**: If the virtual environment in which Teams is running isn't persistent (and data is cleaned up at the end of each user session), users may notice performance degradation due to content refresh, regardless of whether the user accessed the same content in a previous session.
+- **Client updates**: Teams on VDI isn't automatically updated like the way that non-VDI Teams clients are.  You must update the VM image by installing a new MSI as described in  they do so by installing a new MSI as described in the [Install Teams on VDI](#install-teams-on-vdi) section. You don't have to uninstall the current version to update to a newer version.
+- **User experience**: The Teams user experience in a VDI environment may be different from a non-VDI environment. The differences may be because of policy settings and/or feature support in the environment.
+- **Cached content**: If the virtual environment in which Teams is running isn't persistent (and data is cleaned up at the end of each user session), users may notice performance degradation due to content refresh, regardless of whether the user accessed the same content in a previous session.
+- **Client updates**: Teams on VDI isn't automatically updated the way that non-VDI Teams clients are.  You must update the VM image by installing a new MSI as described in they do so by installing a new MSI as described in the [Install Teams on VDI](#install-teams-on-vdi) section. You don't have to uninstall the current version to update to a newer version.
+- **User experience**: The Teams user experience in a VDI environment may be different from a non-VDI environment. The differences may be because of policy settings and/or feature support in the environment.
 
 For Teams known issues that aren't related to VDI, see [Known issues for Microsoft Teams](Known-issues.md).
-
-### Shared session host type deployments
-
-Shared session host type deployments (for example, shared non-persistent VM configuration) aren't in scope.
-
-### Calling and meeting
-
-Calling and meeting scenarios aren't optimized for VDI. These scenarios will perform poorly. We recommend using user-level policies (as outlined in Appendix A) to turn off calling and meeting functionality in TEams.  
-
-Applying the policies described in this article impacts the ability to use calling and meeting functionality, which depending on other policies, may affect other users in your organization. If users in your organization use non-VDI clients, you can choose to not apply the policies.  
-
-### Joining calls and meetings created by other users
-
-Although the policies restrict users from creating meetings, they can still join meetings if another user dials out to them from the meeting. In these meetings, the user's ability to share video, use whiteboard and other features depend on whether you disabled those features using TeamsMeetingPolicy.  
-
-### Cached content
-
-If the virtual environment in which Teams is running isn't persistent (and data is cleaned up at the end of each user session), users may notice performance degradation due to content refresh, regardless of whether the user accessed the same content in a previous session.
-
-### Client updates
-
-Teams on VDI isn't automatically updated like the way that non-VDI Teams clients are.  You must update the VM image by installing a new MSI as described in  they do so by installing a new MSI as described in [Install Teams on VDI](#install-teams-on-vdi). You don't have to uninstall the current version to update to a newer version. 
-
-### User experience 
-
-The Teams user experience in a VDI environment may be different from a non-VDI environment. The differences may be because of policy settings and/or feature support in the environment.
