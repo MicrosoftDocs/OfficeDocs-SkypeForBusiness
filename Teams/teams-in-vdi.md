@@ -200,6 +200,8 @@ Use the following process to deploy the Teams desktop app.
 
 ## Known issues and limitations
 
+The following are known issues and limitations for Teams on VDI. For more information about Teams known issues (that aren't related to VDI), see [Known issues for Microsoft Teams](Known-issues.md).
+
 ### Shared session host type deployments
 
 Shared session host type deployments (for example, shared non-persistent VM configuration) aren't in scope.
