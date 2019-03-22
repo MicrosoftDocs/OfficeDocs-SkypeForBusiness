@@ -55,6 +55,16 @@ You must be an administrator to configure call park and retrieve, and the featur
 
 For information about how to use the call park and retrieve feature, see [Park a call in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
 
+### Assign a call park policy
+
+Follow these steps to assign a call park policy to one or more users:
+
+1. Go to **Microsoft Teams admin center** > **Voice** > **Call park policies**.
+2. Select the policy by clicking to the left of the policy name.
+3. Select **Manage users**.
+4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
+5. When you are finished adding users, select **Save**.
+ 
 ### Configure call park and retrieve with PowerShell
 
 Use the [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) PowerShell cmdlet to create a call park policy.
