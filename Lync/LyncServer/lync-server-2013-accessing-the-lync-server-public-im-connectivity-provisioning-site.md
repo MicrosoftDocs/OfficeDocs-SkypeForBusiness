@@ -24,7 +24,7 @@ mtps_version: v=OCS.15
 
 <span> </span>
 
-_**Topic Last Modified:** 2017-03-09_
+_**Topic Last Modified:** 2019-03-22_
 
 The provisioning process for Lync-Skype connectivity has changed, as compared to previous PIC provisioning methods. This provisioning process can take up to thirty days to complete. We recommend that you start this process first, prior to completing the remaining steps in this document. After the Lync-Skype provisioning process is completed for your account, the account is activated and your eligible users are enabled for public IM connectivity.
 
