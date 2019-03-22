@@ -36,11 +36,12 @@ In addition to offering customers a range of Skype for Business certified IP pho
 The following phones are Certified for Microsoft Teams:
 
 |Phone Model|Firmware Version|Release Date |
-|:---|:---|:---|:---|
-|Crestron M100|2.3875.00068|Dec 2018|
-|Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |Jan 2019|
-|Yealink CP 960 |73.15.0.20|Dec 2018|
-|Yealink T58 & T56 series |58.15.0.20|Dec 2018|
+|:---|:---|:---|
+|Audiocodes C450HD | C450HD_TEAMS_0.225 | March 2019|
+|Crestron M100|2.3875.00068|December 2018|
+|Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |January 2019|
+|Yealink CP 960 |73.15.0.20|December 2018|
+|Yealink T58 & T56 series |58.15.0.20|December 2018|
 ||||
 
 See [Microsoft Teams phones feature set](/MicrosoftTeams/phones-for-teams#microsoft-teams-phones-feature-set) for information on features supported by these devices.
