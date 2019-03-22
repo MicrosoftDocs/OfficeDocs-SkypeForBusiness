@@ -3,7 +3,7 @@ title: Create your first teams and channels in Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/06/2018
+ms.date: 03/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
