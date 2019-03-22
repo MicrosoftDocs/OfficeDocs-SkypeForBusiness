@@ -42,7 +42,7 @@ It can take some time (a few hours) for the policy changes to propagate. If you 
 
 #### Calling
 
-Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to use calling and calling options in private and group chats. Here's the policy settings and recommended values
+Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to use calling and calling options in private and group chats. Here's a list of policy settings and recommended values.
 
 |Policy name  |Description |Recommended value  |
 |---------|---------|---------|
@@ -88,7 +88,7 @@ For more information about Teams calling policies, see [Set-CsTeamsCallingPolicy
 
 #### Meeting
 
-Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that users can create, the features that they can access while in a meeting, and the meeting features that are available to anonymous and external users. 
+Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that users can create, the features that they can access while in a meeting, and the meeting features that are available to anonymous and external users. Here's the list of policy settings and recommended values. 
 
 |Policy Name |Description|Recommended Value                   |
 |-------------------|-----------------|-----------------------|
