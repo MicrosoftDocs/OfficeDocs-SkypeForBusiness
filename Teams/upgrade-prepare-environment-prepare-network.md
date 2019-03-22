@@ -51,7 +51,7 @@ The steps described below will help you determine whether your deployment might 
 
 ## Bandwidth planning
 
-Microsoft Teams gives you the best audio, video and content sharing experience regardless of your network conditions. With variable codecs, media can be negotiated in limited bandwidth environments with minimal impact. But where bandwidth is not a concern, experiences can be optimized for quality, including up to 1080p video resolution, up to 30fps for video and content, and high-fidelity audio.
+Microsoft Teams gives you the best audio, video and content sharing experience regardless of your network conditions. With variable codecs, media can be negotiated in limited bandwidth environments with minimal impact. But where bandwidth is not a concern, experiences can be optimized for quality, including up to 1080p video resolution, up to 15fps for video and content, and high-fidelity audio.
 
 This article describes a concise version of how bandwidth is utilized by Teams real time audio, video, and desktop sharing modalities in various use cases. Teams is always conservative on bandwidth utilization and can deliver HD video quality in under 1.2Mb.  The actual bandwidth consumption in each audio/video call or meeting will vary, based on several factors, such as video layout, video resolution, and video frames per second. When more bandwidth is available quality and usage will increase to deliver the best experience.
 
