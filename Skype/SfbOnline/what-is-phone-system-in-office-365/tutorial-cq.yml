@@ -73,10 +73,10 @@ items:
 
 
     ### Will the call center be active 24 hours a day, or have business hours?
-    The queue needs to be active from 11am to 11:30 pm, seven days a week. 
+    The queue needs to be in use from 11am to 11:30 pm, seven days a week. 
     
     ## Do they want distinct initial greetings for business hours, after-hours, weekends, holidays, and so on.
-    They already know that the call rate outside of their business hours is 
+    They already know that the call rate outside of their business hours is very low. greetings are optional.
 
     ### How are the agents compensated?
     The agents are paid on an hourly basis, and their performance is tracked in the ordering system. 
@@ -93,21 +93,20 @@ items:
     A Phone system call queue has a limited number of options. The main decisions to make for the queue are: 
     
         - whether to assign a number directly to the queue, or to have callers connect to an auto attendant first. Callers are unlikely to realize the difference.
-        - Whether to have an initial greeting
+        - Whether to have an initial greeting (if you do connect initially to an auto attendant, it's probably not needed)
         - what hold music to use
         - how to distribute the calls among the available agents
 
     #### Do:
-    1.	keep the number of calls in queue and call wait time for callers as short as possible.
-    2.  Have alternate initial greetings for calls taken outside business hours, or on holidays or weekends when agents won't be available. This 
-    will involve putting a single auto attendant in front of the call queue.
+    1.	Keep the number of calls in queue and call wait time for callers as short as possible.
+    2.  Have alternate initial greetings for calls taken outside business hours, or on holidays or weekends when agents won't be available. This will involve putting a single auto attendant in front of the call queue.
     3.  Make the call queue as easy to find as possible when your ordering number connects to an auto attendant first.
     4.  Know your customers and provide hold music that will match their interests, or at least not clash badly with their tastes.
  
     
     #### Don't:
-    1.	pitch other products or upsell while callers are waiting on hold.  
-    2.	Use reserved menu option numbers or keys as menu options.
+    1.	Pitch other products or upsell while callers are waiting on hold.  
+    2.	Make callers wait to talk to an agent.
 
     > [!Important]
     > The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing \* will correspond with 
@@ -115,54 +114,20 @@ items:
   
 
     ## Do a design mockup 
+    For implementations centered on a call queue like our example, we'll either have a phone number assigned directly to a call queue, or have the phone number assigned to an auto attendant
 
-    To do the initial design, you'll need a flexible and easy way to work out hierachies and structures of users and Auto Attendants. Here’s an exercise you 
-    can do on any blank wall or whiteboard, using several colors of pen and some sticky notes or index cards and tape:
-    1.	For each person with a voicemail account in the business, write their name and phone number on a sticky note or 3x 5 index card. You may need 
-    several notes for the employee who will be the Operator. If you have several colors of note available, it might help to distinguish users and Auto Attendants at a glance.
-    2.	Mark one note as the Main Auto Attendant, which will include a business hours initial greeting, an after hours greeting, and a main menu. 
-    You'll probably also want  an Auto Attendant to represent the hours and location recording (if you’re choosing to use one), 
-    and additional Auto Attendants as needed to cover the needs of your callers. If possible, use a different color of note to represent Auto Attendants.
-    3.	Place the main Auto Attendant note on your board space, if any of the top options go directly to a single employee put their note to the right of the note representing the attendant. 
-    4.	It’s unlikely all the options will fit on a the Main Auto Attendant menu, so think about which additional attendants might be needed and how they might nest under the main attendant.  
-    5.	If you have an option that leads to a call queue, create a note using a third color, place it below and to the right of the Attendant that connects to the Call Queue.
-    Place notes representing the users in the queue to the right of the note representing the queue, or over the top of it (whichever is clearer to you).
+    For a more complex initial design,  refer to the Auto Attendants tutorial.
 
-    Here’s a diagram representing one way to implement our example:
-
-    ![Diagram of Lawyer office AA](../images/AA-LawyerOfficeExample.png)
-
-    The example in the diagram takes into account the reasons the office's customers call, and the do and don't recommendations. Even in a small 
-    office, the complexity of an Auto Attendant can grow quickly.   You might notice the following things about the design chosen here:
     
-    - The most common reason for calling was to schedule appointments, so it was listed first. The other reasons to call are given as options in 
-    descending order of their use.
-    - There are usually 3-4 options per menu in this example. While Phone System supports menus with up to 9 options, most users 
-    won't be able to keep track of more than 5 options without getting confused and needing to repeat the menu, which wastes their time and annoys them. 
-    - The lawyer, paralegals, and billing menus can arguably be replaced with Call Queues. The main reason we've used an Auto Attendant is to keep our 
-    implementation focused on Auto Attendants. Actual implementations would probably use Call Queues.  See [Create a Phone System call queue](/MicrosoftTeams/create-a-phone-system-call-queue.md)
-    for more about Call Queues. 
-    - Eventually, every employee gets matched with an Auto Attendant option in this design. This might not be what you choose to do, you may want a 
-    much simpler system with fewer options. If that simplicity is important, you can plan to enable the **Dial by Name** option and remove one or more 
-    of the nested Auto Attendants that mention specific employees by name.
-    - The example assumes that after hours, callers will get a message letting them know the business is closed, then only leaves them the option to leave a message to the operator. 
-    You could decide instead to send after-hours calls to the normal menu tree, if you'd prefer. 
-
-    This slightly simpler example shows the use of Call Queues and slightly longer menus, therefore needing fewer Auto Attendants:
-
-    ![Diagram of Lawyer office AA](../images/AA-LawyerOffice-CallQueues.png)
-
-    In this example, we can assume we've enabled the **Dial by Name** option and it's expected that callers either know the name of the person or they're okay with 
-    talking to anyone in that job category. Since this is an optional variation, the later stages will assume we're implementing the first diagram. 
 
     If you have Visio, you could use that to visualize your design. The Visio file containing the diagrams above is available for 
-    [download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/images/AA-LawyerOfficeExample.vsdx?raw=true). 
+    [download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/images/CQ-Pizza-CallCenter.vsdx?raw=true). 
 
-- title: Writing the scripts 
+- title: Writing the script 
   durationInMinutes: 3
   content: |
-    ### Writing better Auto Attendant scripts 
-    Your auto-attendant script can make or break the impression left on your customers or callers. 
+    ### Writing better  scripts 
+    Your auto-attendant or call queue outgoing message script can make or break the impression left on your customers or callers. 
     Plan it carefully, write it out, and consider having it professionally recorded. The goal is to connect the caller to a live person as efficiently as possible.
     Think about some of these guidelines when writing the script dialog:
 
@@ -191,7 +156,7 @@ items:
     you. If you do include it, put it somewhere it brings the Auto Attendant experience to a close, like when transferring to an individual's desk line or voicemail. 
     If you’ve had a slogan or tag line for a long time that many of your customers know, it might or might not be worth including. The "golden rule" here is to connect the caller to a person as efficiently as possible.
 
-    ### Sample Auto Attendant scripts
+    ### Sample greeting scripts
 
     > [!Important]
     > The keys \* (Repeat) and \# (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing \* will correspond with 
@@ -199,74 +164,23 @@ items:
 
     These scripts reflect the design we chose earlier, and the suggested guidelines for writing Auto Attendant scripts. 
 
-    #### Script 1: company greeting
-    Thanks for calling VanArsdel, Ltd. At any time you can press zero to transfer to the Operator, press star to repeat the menu, or press pound to return to the previous menu.
+    #### Auto Attendant Script 1: business hours greeting
+    Thanks for calling Contoso Pizza. Please stay on the line and the next available agent will take your order.
     
-    (Optional, if Dial by Name will be enabled) If you know the name of the person you're calling, say their name at any time and you'll be transferred to them.
-
-    #### Script 2: after-hours greeting
-    Thanks for calling VanArsdel, Ltd.  We’re closed at this time, press zero and leave a message with our Operator. We’ll call you back when we return to the office. 
-
-    #### Script 3: main menu
-    For scheduling, press 1.
-    For billing questions, press 2.
-    For hours and location, press 3.
-    For more options, press 4.
-
-    *Available options not mentioned: zero, \*, and \#.*
-
-    #### Script 4: billing
-    To speak to Jakob Roth, press 1.
-    To speak to Laura Heinrich, press 2.
-
-    *Available options not mentioned: zero, \*, and \#.*
-
-     This script could be omitted if you redesigned using Call Queues.
-
-    #### Script 5: hours and Location
-    We are open for business from 8:30am to 5:30 pm, Tuesday through Saturday. Our address is 1234 Green Street near Central avenue, Planktown Pennsylvania, 
-    directly across from City Hall.
-
-    Available options not mentioned: zero, *, and #.
-
-    #### Script 6: more menu options
-    To speak to one of the lawyers, press 1.
-    To speak to the office manager, press 2. 
-    To speak to one of the paralegals, press 3.
-    For other options, press 4.
-
-    *Available options not mentioned: zero, \*, and \#.*
-
-    #### Script 7: lawyer menu
-    To speak to Olga Gerasimova, press 1.
-    To speak to for Manuela Carstens, press 2.
-    To speak to for Andrey Alexeeva, press 3.
-
-    *Available options not mentioned: zero, \*, and \#.* 
-
-    This script could be omitted if you redesigned using Call Queues.
-
-    ####	Script 8: paralegal menu
-    To speak to Lena Ehrle, press 1.
-    To speak to Svetlana Uvarova, press 2.
-    To speak to Sofia Krause, press 3. 
-    To speak to Mariya Artemyeva, press 4.
-    To speak to Dariya Polyakova, press 5.
-    To speak to Milana Nikolaeva, press 6.
-
-    *Available options not mentioned: zero, \*, and \#.*
-
-     This script could be omitted if you redesigned using Call Queues.
-
-    ####	Script 9: additional menu options
-    To speak to our investigator, press 1.
-    To request a copy of your records, press 2.
-
-    *Available options not mentioned: zero, \*, and \#.*
+    #### Auto Attendant Script 2: after-hours greeting
+    Thanks for calling Contoso Pizza.   We’re closed at this time, please call back between 11am and 11:30pm to order fresh piping hot pizza! 
 
 
 
-- title: Implementing Auto Attendants
+
+    #### Script 3: call queue greeting
+    Thanks for calling Contoso Pizza. If you're calling between 11am and 11:30pm please stay on the line and the next available agent will take your order. Outside those hourswe are closed, please call back when we are open.
+
+   
+
+
+
+- title: Implementing a call queue (with or without Auto Attendants)
   durationInMinutes: 7
   content: |
 
@@ -292,7 +206,7 @@ items:
     
 
 
-    ### Main Auto Attendant
+    ### Ordering Auto Attendant (Optional)
 
     ![New Auto Attendant page 1.](../images/edacec94-9384-4a87-be0a-5c49a151287e.png)
 
@@ -300,18 +214,16 @@ items:
 
     |   Option   | Setting      |
     |:---  |:---   |
-    | ![Number 1](../images/sfbcallout1.png) Name  |   VanArsdel, Ltd.   | 	
+    | ![Number 1](../images/sfbcallout1.png) Name  |   Contoso Pizza   | 	
     | ![Number 2](../images/sfbcallout2.png) Phone Number	|555-0170  |
     | ![Number 3](../images/sfbcallout3.png) Time Zone	| (UTC-04:00) Eastern Daylight Time (US & Canada) |
     | ![Number 4](../images/sfbcallout4.png) Language	| English (United States)  |
     | ![Number 5](../images/sfbcallout5.png) Speech Recognition	| Enabled |
-    | ![Number 6](../images/sfbcallout6.png) Operator	| Person in your company: Julie Wolfe |
     |  |  | 
      
-    Only the main menu, named *VanArsdel, Ltd.* needs an assigned Phone Number or a Company Greeting.  
+    Only the main menu, named *Contoso Pizza* needs an assigned Phone Number or a Company Greeting.  
     
-    Enabling **Speech recognition**  will enable voice commands for a given menu. 
-    It will also enable callers to say "Operator" and get transferred directly to the Operator.
+
 
     ![New Auto Attendant Hours of operation.](../images/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
@@ -320,10 +232,9 @@ items:
     |   Option   | Setting      |
     |:--- | :--- |
     | ![Number 1](../images/sfbcallout1.png) 24/7-Custom| Custom  |
-    | ![Number 2](../images/sfbcallout2.png) Selection|  8:30am to 5:30pm, Monday-Friday  |
+    | ![Number 2](../images/sfbcallout2.png) Selection|  11:00am to 11:30pm, Monday-Sunday  |
     
     The default for this screen is 24/7. 
-       
 
     ![Business hours call handling.](../images/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
 
@@ -332,7 +243,7 @@ items:
     |   Option   | Setting      |
     |:---  |:---  |
     | ![Number 1](../images/sfbcallout1.png) Company greeting	| Create a custom greeting > Callers will hear: Copy/paste Script 1 above  |
-    | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	| Play menu options prompt, menu prompt: Create a custom prompt <br/>Callers will hear: Script 3 above |
+    | ![Number 3](../images/sfbcallout3.png) What happens to the calls after the greeting?	| Redirect call  to  |
     | ![Number 4](../images/sfbcallout4.png) Dial By Name  | Enabled   |
     | ![Number 5](../images/sfbcallout5.png) Edit Menu options	|**1:** Enter the Name of the option: Scheduling <br/>Send to: Person in your company: **Julie Wolfe** <br/>**2:** Enter the Name of the option: Billing <br/>Send to: nested Auto Attendant **Billing** <br/>**3:** Enter the name of the option: Hours <br/>Send to: nested Auto Attendant **Hours&Location** |
     |  |   |
