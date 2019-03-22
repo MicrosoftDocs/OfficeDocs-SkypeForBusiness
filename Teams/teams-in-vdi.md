@@ -49,7 +49,7 @@ Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to
 |AllowCalling    |Controls interop calling capabilities. Turning this on allows Skype for Business users to have one-on-one calls with Teams users and vice versa.         |Set to False to prevent calls from Skype for Business users landing in Teams.          |
 |AllowPrivateCalling     | Controls whether the Calling app is available in the left side of the Teams client and whether users see Calling and Video call options in private chat         |Set to False to remove the Calling app from the left side of Teams and to remove the Calling and Video call options in private chat.          |
 
-##### Create and assign a meeting policy
+#### Create and assign a calling policy
 
 1. Start a Windows PowerShell session as an administrator.
 2. Connect to the Skype Online Connector.
@@ -108,7 +108,7 @@ Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that us
 | AllowSharedNotes | Determines whether users are allowed to take shared notes. | Set to False to prohibit users from taking shared notes |
 |MediaBitRateKB |Determines the media bit rate for audio/video/app sharing transmissions in meetings  | Suggested value is 5000 (5 MB). You can change it based on your organization’s needs.| 
 
-##### Create and assign a meeting policy
+#### Create and assign a meeting policy
 
 1. Start a Windows PowerShell session as an administrator.
 2. Connect to the Skype Online Connector.
