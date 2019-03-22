@@ -29,7 +29,7 @@ Currently, Teams in a virtualized environment is available with support for coll
 
 ## Teams requirements
 
-### Create and assign policies to turn off calling and meeting functionality in Teams
+### Set policies to turn off calling and meeting functionality in Teams
 
 The Teams calling and meeting experience isn't optimized for a VDI environment. We recommend you set user-level policies to turn off calling and meeting functionality in Teams.
 
@@ -40,16 +40,16 @@ It can take some time (a few hours) for the policy changes to propagate. If you 
 > [!NOTE]
 > When Teams calling and meeting are optimized for use in virtual desktop environments, you can revert these policies and allow users to use Teams as they normally would. 
 
-### Calling
+#### Calling
 
-Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to use calling and calling options in private and group chats.
+Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to use calling and calling options in private and group chats. Here's the policy settings and recommended values
 
 |Policy name  |Description |Recommended value  |
 |---------|---------|---------|
 |AllowCalling    |Controls interop calling capabilities. Turning this on allows Skype for Business users to have one-on-one calls with Teams users and vice versa.         |Set to False to prevent calls from Skype for Business users landing in Teams.          |
 |AllowPrivateCalling     | Controls whether the Calling app is available in the left side of the Teams client and whether users see Calling and Video call options in private chat         |Set to False to remove the Calling app from the left side of Teams and to remove the Calling and Video call options in private chat.          |
 
-#### Create and assign a calling policy
+##### Create and assign a meeting policy
 
 1. Start a Windows PowerShell session as an administrator.
 2. Connect to the Skype Online Connector.
@@ -86,7 +86,7 @@ Use the **CSTeamsCallingPolicy** cmdlets to control whether users are allowed to
 
 For more information about Teams calling policies, see [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy). 
 
-### Meeting
+#### Meeting
 
 Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that users can create, the features that they can access while in a meeting, and the meeting features that are available to anonymous and external users. 
 
@@ -106,8 +106,9 @@ Use the **CsTeamsMeetingPolicy** cmdlets to control the type of meetings that us
 |AllowWhiteboard | Determines whether whiteboard is allowed in a user’s meetings. |   Set to False to prohibit whiteboard in a meeting |
 | AllowTranscription |Determines whether real-time and/or post-meeting captions and transcriptions are allowed in a user's meetings.|    Set to False to prohibit transcription  and captions in a meeting  |  
 | AllowSharedNotes | Determines whether users are allowed to take shared notes. | Set to False to prohibit users from taking shared notes |
-|MediaBitRateKB |Determines the media bit rate for audio/video/app sharing transmissions in meetings  | Suggested value is 5000 (5 MB). You can change it based on your organization’s needs                                |
-### Create and assign a meeting policy
+|MediaBitRateKB |Determines the media bit rate for audio/video/app sharing transmissions in meetings  | Suggested value is 5000 (5 MB). You can change it based on your organization’s needs.| 
+
+##### Create and assign a meeting policy
 
 1. Start a Windows PowerShell session as an administrator.
 2. Connect to the Skype Online Connector.
