@@ -18,7 +18,7 @@ appliesto:
 
 <ul class="panelContent cardsFTitle">
  <li>
-        <a href="https://review.docs.microsoft.com/en-us/microsoftteams/teams-for-firstline-workers/shifts-landing-page?branch=FLW-working">
+        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/shifts-landing-page?branch=FLW-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -36,7 +36,7 @@ appliesto:
         </a>
     </li>
     <li>
-        <a href="https://review.docs.microsoft.com/en-us/microsoftteams/teams-for-firstline-workers/teams-for-healthcare-landing-page?branch=FLW-working">
+        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/teams-for-healthcare-landing-page?branch=FLW-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -54,7 +54,7 @@ appliesto:
         </a>
     </li>
 <li>
-        <a href="https://review.docs.microsoft.com/en-us/microsoftteams/teams-for-firstline-workers/teams-for-education-landing-page?branch=FLW-working">
+        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/teams-for-education-landing-page?branch=FLW-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -72,7 +72,7 @@ appliesto:
         </a>
     </li>
 <li>
-        <a href="https://review.docs.microsoft.com/en-us/microsoftteams/teams-for-firstline-workers/teams-for-retail-landing-page?branch=FLW-working">
+        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/teams-for-retail-landing-page?branch=FLW-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -83,6 +83,24 @@ appliesto:
                     </div>
                     <div class="cardText">
                         <h3>Teams for Retail</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+<li>
+        <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/teams-for-government-landing-page?branch=FLW-working">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="blocks" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Teams for Government</h3>
                     </div>
                 </div>
             </div>
