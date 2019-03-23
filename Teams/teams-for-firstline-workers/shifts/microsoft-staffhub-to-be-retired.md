@@ -43,7 +43,7 @@ See the [roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=) for 
 
 #### What do I need to do to prepare for this change?
 
-Admins of tenants with active Microsoft StaffHub users will be notified in the Office 365 Message Center on the actions they'll need to take to transition to the Shifts app in Teams. For guidance on how to move from StaffHub to Shifts in Teams, including tools to help with the move, go to [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md)
+Admins of tenants with active Microsoft StaffHub users will be notified in the Office 365 Message Center on the actions they'll need to take to transition to the Shifts app in Teams. For guidance on how to move from StaffHub to Shifts in Teams, including tools to help with the move, go to [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
 Your users will be informed about the app’s retirement through in-app notifications, but you may want to communicate the change to them as well, and update any internal documentation that refers to StaffHub.
 
@@ -143,6 +143,8 @@ The user's schedule is moved to Shifts, however, the user won't be a member of t
 #### What happens to StaffHub team schedules?
 
 When you move a StaffHub team to Shifts, the team's schedule data is moved. After the move, users can view their schedules in Shifts. 
+
+#### How do I invite users to Teams?
  
 #### What happens to StaffHub messages?-FOLLOWUP
 
@@ -154,7 +156,7 @@ Starting **placeholder for date**, any file that users upload to StaffHub is cop
 
 For files that were uploaded before **placeholder date**, you can move them to Teams. Here's how.
 
-1. placholder
+1. placeholder
 2. placeholder
  
 #### What happens to the tasks feature in StaffHub?-FOLLOWUP
@@ -214,15 +216,15 @@ You manage Teams through the Microsoft Teams PowerShell module and the Skype for
 
 #### Can Shifts be managed by using Intune Mobile Application Management (MAM)?-FOLLOWUP
   
-XYZ can/can't be managed with Intune MAM. If this is something you're interested in, send us a request through the [Teams feedback portal on UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform) [To be Confirmed] 
-  
-#### Is reporting available to view Shifts usage across my organization?
-
-You can view Shifts usage through Teams reports. To learn more, check out [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md)
+XYZ can/can't be managed with Intune MAM. If this is something you're interested in, send us a request through the [Teams feedback portal on UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
  
 #### Will my conditional access policies for StaffHub apply to Shifts in Teams?-FOLLOWUP
 
 You can only apply conditional access policies in Teams at the Teams app level. For more information, see [Overview of security and compliance in Teams](../../security-compliance-overview.md). Existing conditional access policies you created in StaffHub won't apply to Shifts in Teams.
+
+#### Is reporting available to view Shifts usage across my organization?
+
+You can view Shifts usage through Teams reports. To learn more, check out [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
 
 #### Where can I provide feedback?
   
