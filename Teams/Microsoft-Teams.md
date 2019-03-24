@@ -178,7 +178,7 @@ f1keywords:
                             </a>
                         </li> 
                         <li>
-                            <a href="https://docs.microsoft.com/powershell/module/teams/?view=teams-ps">
+                            <a href="https://docs.microsoft.com/en-us/microsoftteams/teams-powershell-overview">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
