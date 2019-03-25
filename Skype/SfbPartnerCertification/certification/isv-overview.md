@@ -71,7 +71,7 @@ If you are a vendor seeking to join the certification program, see [How to Join]
 |Bressner Technology, |GmbH	|FonComfort Lite	||
 |Bridge Communications	|Operator Console	|Attendant Console|
 |BTS |CommsWare Operator Console |Attendant Console|		
-|BTS |CommsWare Contact Centre | Contact Center|		
+|BTS |CommsWare Contact Centre |Contact Center|		
 |C4B Com for Business	|XPhone Essentials - Microsoft Lync Client |Add-Ons|	
 |C4B Com for Business	|XPhone Essentials Virtual Directory	|Add-Ons|
 |CC4	|Attendant Console & Contact Center	|Attendant Console, Contact Center|
