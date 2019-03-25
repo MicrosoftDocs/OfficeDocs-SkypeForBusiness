@@ -27,7 +27,7 @@ These changes are part of our continued efforts to empower every employee with M
 
 #### When will StaffHub be retired?
 
-Starting April 1, 2019, Microsoft StaffHub will no longer be available for new tenants and all other points of access. Current users will still be able to use the service until October 1, 2019, however no additional features will be made available.
+Starting the middle of April 2019, Microsoft StaffHub will no longer be available for new tenants and existing tenants will no longer be able to access StaffHub from the Office 365 app launcher. Current users will still be able to use the service until October 1, 2019, however no additional features will be made available.
 
 #### What will happen once StaffHub is retired?
 
@@ -35,21 +35,19 @@ Microsoft StaffHub will stop working for all users on October 1, 2019. Anyone wh
 
 Between April 2019 and October 2019, StaffHub users will receive in-app notifications encouraging them to use Teams.
 
-#### Will Teams offer all the functionality currently offered in StaffHub?-FOLLOWUP
+#### Will Teams offer all the functionality currently offered in StaffHub?
 
-Teams offers the Shifts app, which enables managers to create, update,and manage schedules, and lets employees post their availability, swap shifts, and request time off. The Home view in the Teams mobile app displays the employee’s schedule and important company announcements. Additional capabilities for firstline workers will be available in Teams over time.  
+StaffHub's core and most used features are available in Shifts in Teams, which enables managers to create, update,and manage schedules, and lets employees clock-in and out, post their availability, swap or offer shifts, and request open shifts or time off.
 
 See the [roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=) for full details on additional features to be released in Teams.
 
 #### What do I need to do to prepare for this change?
 
-Admins of tenants with active Microsoft StaffHub users will be notified in the Office 365 Message Center on the actions they'll need to take to transition to the Shifts app in Teams. For guidance on how to move from StaffHub to Shifts in Teams, including tools to help with the move, go to [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
-
-Your users will be informed about the app’s retirement through in-app notifications, but you may want to communicate the change to them as well, and update any internal documentation that refers to StaffHub.
+For guidance on how to prepare for transition from StaffHub to Shifts in Teams, go to  [Prepare to move your StaffHub teams to Shifts](move-staffhub-teams-to-shifts-in-teams.md#prepare).
 
 #### Why can't users in my organization access their StaffHub team from Shifts in Teams?
 
-Teams that were created with Microsoft StaffHub can only be viewed and managed in StaffHub. When you move your StaffHub teams to Teams, users will be able to view their schedules in Shifts.
+Teams that were created with Microsoft StaffHub can only be viewed and managed in StaffHub. After a StaffHub team is moved to Teams, users will be able to view their schedules in Shifts.
 
 ### About Shifts
 
@@ -70,7 +68,7 @@ For more information, check out [Availability of Shifts](manage-the-shifts-app-f
 
 #### How do I get Shifts?
 
-If you're already on a plan that includes Shifts, you can start using Shifts today as part of Teams. Getting started is easy. Firstline managers can sign in to Teams by using their Office 365 work account. From there, they can go to the Shifts app, either pinned to the app bar on the left side of Teams or by clicking **...** in the app bar. In Shifts, firstline managers can create and manage schedules for the teams that they are owner of and can invite firstline workers to download the app.
+If you're already on a plan that includes Shifts, you can start using Shifts today as part of Teams. Getting started is easy. Firstline managers and workers can sign in to Teams by using their Office 365 work account. From there, they can go to the Shifts app, either pinned to the app bar on the left side of Teams or by clicking **...** in the app bar. In Shifts, firstline managers can create and manage schedules for the teams that they are owner of.
 
 #### Which devices or platforms is Shifts available on?
 
@@ -80,7 +78,7 @@ Shifts is available on the Teams web client, Teams desktop client, and Teams mob
 
 For firstLine managers, the desktop and web app is optimized to create teams, add members, build and publish schedules, and share content with the team. Managers generally use the mobile app to approve requests, send quick messages to the team, call a firstline worker and collaborate on the go. 
 
-For firstline workers, there are some differences in what can be done in the desktop and web app versus the mobile apps. We're working on feature parity.
+For firstline workers, the mobile app is optimized to view their schedule, see who they're working with on a day, clock in and out, set availability, request time off, swap or offer shifts and open shifts. There are differences in what can be done in the desktop and web app versus the mobile apps. We're working on feature parity.
 
 #### Are there differences between the Shifts iOS app and the Android app?
 
@@ -96,7 +94,9 @@ Shifts is available in the following languages: Chinese-Simplified, English (U.S
 
 #### Where is Shifts data stored?
 
-See [Location of Shifts data](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
+Shifts data is stored in Azure in data centers in North America and Western Europe. SharePoint content leverages Office 365 Groups and follows the same storage and support.
+
+For more information, see [Location of Shifts data](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
 
 #### Where can I learn more about Shifts?
 
@@ -108,13 +108,13 @@ For end-user help, go to [Shifts Help for firstline workers and managers](https:
 
 ### Switch from StaffHub to Shifts in Teams
 
-#### How do I move my organization's StaffHub users and teams to Teams?
+#### How do I move my organization's StaffHub teams to Teams?
 
 For guidance on how to make the transition from StaffHub to Teams, see [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
 #### What if I don’t have Teams enabled in my organization?
 
-If you don't have Teams enabled in your organization, assign Teams licenses to users in your organization to enable them on Teams. For more information, see [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
+If you don't have Teams enabled in your organization, assign Teams licenses to users in your organization to enable them on Teams. For more information, see [Manage user access to Teams](../../user-access.md) and [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
 #### What if I currently have Skype for Business enabled in my organization but not Teams?
 
@@ -122,7 +122,7 @@ Teams supports coexistence with Skype for Business. For more information, see [U
 
 #### Does each user need to have an Office 365 account or Azure Active Directory (Azure AD) account?
 
-Yes, each firstline worker and manager using Teams and Shifts within Teams must have an Office 365 account (Azure AD) and must be assigned a valid license. To learn more, see [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
+Yes, each firstline worker and manager using Teams and Shifts within Teams must have an Office 365 account (Azure AD) and must be assigned a valid license. 
  
 #### In StaffHub, I could add a special prefix to all Office 365 Groups that were created by StaffHub teams. Can I do the same in Teams?
 
@@ -134,11 +134,12 @@ It’s possible the name of a team will be different. Team names in Teams use th
 
 #### What happens to team membership when a StaffHub team is moved to Teams?
 
-Team membership is maintained when a StaffHub team is moved to Teams. Phone numbers of team members are displayed in Teams if the phone number in StaffHub matches the phone number in Azure AD.
+Team membership is maintained when a StaffHub team is moved to Teams. Phone numbers of team members will not be displayed in Shifts but if the StaffHub phone number matches the phone number in Azure AD it will be stored in Azure AD for that user account.
  
-#### What happens to StaffHub team members who aren't provisioned?
+#### What happens to StaffHub team members who aren't provisioned or are in an inactive status in StaffHub?
 
-The user's schedule is moved to Shifts, however, the user won't be a member of the team or an Office 365 Group.
+The user's schedule will be moved to Shifts, however, the user won't be a member of the team or an Office 365 Group. For inactive accounts in StaffHub which are not linked to an Azure AD user account, a manager can ensure the user is added as a member of the team by adding a valid O365 email address on the team members page of StaffHub so that they are linked to the correct Azure AD account in their organization.
+An alternative is administrators can run the Add-StaffHubMember and Remove-StaffHubUser cmdlets to remove a non-provisioned account from a StaffHub team and add them back onto the team with their UPN.
 
 #### What happens to StaffHub team schedules?
 
@@ -146,9 +147,11 @@ When you move a StaffHub team to Shifts, the team's schedule data is moved. Afte
 
 #### How do I invite users to Teams?
  
-#### What happens to StaffHub messages?-FOLLOWUP
+#### What happens to chats in StaffHub?-FOLLOWUP
 
-StaffHub messages is powered by the same chat service that powers Teams. Starting **placeholder for date**, the last 90 days of chat data in StaffHub is retained and will be available in Teams.  
+To help transition users, we plan to migrate data chat history in StaffHub to Teams. The amount of chat history that will be available in Teams will depend on how soon you configure your organization for the transition. We recommend taking action no later than June 30, 2019 to provide enough time to transition 90 days of data by October 1, 2019. 
+
+Ensure that Teams and Office 365 Group creation are enabled in the Microsoft 365 admin center before the transition begins, as these setting selections are essential to us being able to move your StaffHub chat data into Teams. Failure to turn these services on by June 30, 2019, will result in a later migration date or less chat data being copied over.
  
 #### What happens to the Files feature in StaffHub?-FOLLOWUP 
 
@@ -159,14 +162,15 @@ For files that were uploaded before **placeholder date**, you can move them to T
 1. placeholder
 2. placeholder
  
-#### What happens to the tasks feature in StaffHub?-FOLLOWUP
+#### What happens to the tasks feature in StaffHub?
 
 Tasks migration isn't supported and tasks won't be moved to Teams. Teams has its own task management app that we encourage you to use moving forward.
 
-#### Can I use StaffHub flow templates with Teams?-FOLLOWUP
+#### Can I use StaffHub flow templates with Teams?
 
-Flow connector? 
-You can use Graph API with Teams. Graph APIs provide access to teams, members and shifts data, and can be used to integrate with HR, payroll or workforce management systems.
+The existing StaffHub flow templates won't work with Shifts in Microsoft Teams. 
+
+You can use the Microsoft Graph API with Teams. Microsoft Graph APIs provide access to teams, members and shifts data, and can be used to integrate with HR, payroll or workforce management systems. To learn more, see [Use the Microsoft Graph API to work with Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview)
 
 #### Is there Kronos integration in Teams?
 
@@ -176,9 +180,11 @@ Teams supports connections to Kronos through the Kronos bot, which can be added 
 
 #### What happens to corporate announcements in StaffHub?-FOLLOWUP
  
-#### How do I move my team custom fields from StaffHub to Teams?-FOLLOWUP
+#### How do I move my team custom fields from StaffHub to Teams?
 
-Export custom fields from your StaffHub teams to a XYZ file, and then import them to Teams.
+There are no current plans to support custom fields in Teams. 
+
+Be sure to check the [roadmap](https://www.microsoft.com/en-ca/microsoft-365/roadmap?rtc=1) to stay on top of upcoming features in Teams.
 
 #### Is time clock export and download supported in Shifts? 
 
@@ -190,13 +196,17 @@ You can export shift schedule information to a .csv file from the Shifts desktop
  
 #### Can I import shift schedules to Shifts?-FOLLOWUP
  
-You can export shift schedule information to a XYZ file/format from your organization's systems and tools and then import it to the Shifts desktop and web apps. 
+You can export shift schedule information to a XYZ file/format from your organization's systems and tools and then import it to the Shifts desktop and web app. 
 
-#### How can I recover a schedule if I accidentally deleted a team?-FOLLOWUP
+#### How can I recover a schedule if I accidentally deleted a team?
+
+Deletion of a schedule is linked to deletion of a team. If you recover a team, the schedule isn't recovered.
 
 #### What powers the file sharing capability in Teams? Where are files stored?
 
-The file sharing capability, the ability for a firstline manager to distribute files to firstline workers,is powered on the back end by SharePoint Online. When a team is created, an Office 365 Group is automatically provisioned for that team in the background.
+The file sharing capability, the ability for a firstline manager to distribute files to firstline workers, is powered on the back end by SharePoint Online. When a team is created, an Office 365 Group is automatically provisioned for that team in the background.
+
+To learn more, see [How SharePoint Online and OneDrive for Business interact with Teams](../../SharePoint-OneDrive-interact.md)
  
 #### Is there integration between Shifts and the Outlook calendar? Can I export a schedule to a calendar?-FOLLOWUP 
  
@@ -212,11 +222,13 @@ You can turn on or turn off Shifts org-wide for all users in your organization. 
 
 #### What PowerShell controls are available for Teams?
 
-You manage Teams through the Microsoft Teams PowerShell module and the Skype for Business PowerShell module. For more information, see [Teams PowerShell Overview](../../teams-powershell-overview.md).
+You manage Teams through the Microsoft Teams PowerShell module and the Skype for Business PowerShell module. For more information, see [Teams PowerShell Overview](../../teams-powershell-overview.md). At this time, there are no specific PowerShell cmdlets available to manage Shifts.  
 
 #### Can Shifts be managed by using Intune Mobile Application Management (MAM)?-FOLLOWUP
   
-XYZ can/can't be managed with Intune MAM. If this is something you're interested in, send us a request through the [Teams feedback portal on UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
+Because Shifts is an app in Teams, you can't manage it with Intune MAM but you can manage Teams with Intune. For more information, see [Overview of security and compliance in Teams](../../security-compliance-overview.md). 
+
+If this is something you're interested in, send us a request through the [Teams feedback portal on UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
  
 #### Will my conditional access policies for StaffHub apply to Shifts in Teams?-FOLLOWUP
 
@@ -224,8 +236,8 @@ You can only apply conditional access policies in Teams at the Teams app level. 
 
 #### Is reporting available to view Shifts usage across my organization?
 
-You can view Shifts usage through Teams reports. To learn more, check out [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
+Because Shifts is an app in Teams, you can view usage through Teams reports. For more information, check out [Teams reporting in the Microsoft Teams admin center](../../teams-analytics-and-reports/teams-reporting-reference.md) and [Teams activity reports in the Microsoft 365 admin center](../../teams-activity-reports.md).
 
 #### Where can I provide feedback?
   
-In the mobile app, tap the icon in the upper left of the screen, go to **Settings** > **Send feedback** or **Report an issue**. Similarly, in the desktop and web app, in the lower left of the screen, go **Help** > **Share an idea** or **Report an issue**.
+In the mobile app, tap the "hamburger" icon in the upper left of the screen, go to **Settings** > **Send feedback** or **Report an issue**. Similarly, in the desktop and web app, in the lower left of the screen, go **Help** > **Share an idea** or **Report an issue**.
