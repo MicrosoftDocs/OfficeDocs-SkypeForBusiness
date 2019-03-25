@@ -76,7 +76,7 @@ Shifts is available on the Teams web client, Teams desktop client, and Teams mob
  
 #### Are there differences between the Shifts desktop and web app and the mobile (iOS and Android) apps?
 
-For firstLine managers, the desktop and web app is optimized to create teams, add members, build and publish schedules, and share content with the team. Managers generally use the mobile app to approve requests, send quick messages to the team, call a firstline worker, and collaborate on the go. 
+For firstLine managers, the desktop and web apps are optimized to create teams, add members, build and publish schedules, and share content with the team. Managers generally use the mobile app to approve requests, send quick messages to the team, call a firstline worker, and collaborate on the go. 
 
 For firstline workers, the mobile app is optimized to view their schedule, see who they're working with on a day, clock in and out, set availability, request time off, swap or offer shifts and open shifts. There are differences in what users can do in the desktop and web apps versus the mobile apps. We're working on feature parity.
 
@@ -179,13 +179,13 @@ Teams supports connections to Kronos through the Kronos bot, which can be added 
  
 #### How do I move my team custom fields from StaffHub to Teams?
 
-There are no current plans to support custom fields in Teams. 
+There are no current plans to support custom fields in Teams.
 
 Be sure to check the [roadmap](https://www.microsoft.com/en-ca/microsoft-365/roadmap?rtc=1) to stay on top of upcoming features in Teams.
 
 #### Is time clock export and download supported in Shifts? 
 
-Yes, this is available through the Shifts web app. 
+Yes, this is available through the Shifts web app.
  
 #### Can I export shift schedules from Shifts?
   
@@ -193,7 +193,7 @@ You can export shift schedule information to an Excel file from the Shifts deskt
  
 #### Can I import shift schedules to Shifts?-FOLLOWUP
  
-You can export shift schedule information to a XYZ file/format from your organization's systems and tools and then import to the Shifts desktop and web apps. 
+You can export shift schedule information to a XYZ file/format from your organization's systems and tools and then import to the Shifts desktop and web apps.
 
 #### How can I recover a schedule if I accidentally deleted a team?
 
@@ -237,4 +237,4 @@ Because Shifts is an app in Teams, you can view usage through Teams reports. For
 
 #### Where can I provide feedback?
   
-In the mobile app, tap the **More** icon in the upper left of the screen, go to **Settings** > **Send feedback** or **Report an issue**. Similarly, in the desktop and web app, in the lower left of the screen, go **Help** > **Share an idea** or **Report an issue**.
+In the mobile app, tap the **More** icon in the upper left of the screen, go to **Settings** > **Send feedback** or **Report an issue**. Similarly, in the desktop and web apps, in the lower left of the screen, go **Help** > **Share an idea** or **Report an issue**.
