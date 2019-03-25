@@ -78,7 +78,7 @@ To learn more about these settings and how you can use them, go [How can caller 
    > You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.
    > 
    > ```
-   > Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+   > Import-Module -Name SkypeOnlineConnector
    > ```
    > 
    > ```
