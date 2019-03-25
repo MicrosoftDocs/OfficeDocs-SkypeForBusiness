@@ -116,9 +116,9 @@ Ensure that each user is covered with a Teams license from a qualified plan. For
 
 For detailed guidance on how to make the transition from StaffHub to Teams, see [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
-#### What if I don’t have Teams enabled in my organization?
+#### How do I enable Teams in my organization?-FOLLOWUP
 
-If you don't have Teams enabled in your organization, assign Teams licenses to users in your organization to enable them on Teams. For more information, see [Manage user access to Teams](../../user-access.md) and [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
+By default, Teams is enabled for all organizations. You assign Teams licenses to users to control individual access to Teams. For more information, see [Enable Teams in your organization](../../Office-365-set-up.md) and [Manage user access to Teams](../../user-access.md).
 
 #### What if I currently have Skype for Business enabled in my organization but not Teams?
 
