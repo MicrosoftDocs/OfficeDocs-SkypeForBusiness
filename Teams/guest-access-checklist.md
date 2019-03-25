@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Guest Access checklist
+title: Microsoft Teams guest access checklist
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
@@ -7,7 +7,7 @@ ms.date: 03/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
-description: Use this checklist to help set up guest access in Microsoft Teams Guest Access.
+description: Use this checklist to help set up guest access in Microsoft Teams guest access.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: 
@@ -18,10 +18,10 @@ appliesto:
 ---
 
 
-Teams Guest Access checklist
+Teams guest access checklist
 ==========================================
 
-Use this checklist to help you enable and configure the Guest Access feature in Microsoft Teams according to the preferences of your organization.
+Use this checklist to help you enable and configure the guest access feature in Microsoft Teams according to the preferences of your organization.
 
 ## Understand the limitations for guests
 
