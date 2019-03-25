@@ -47,7 +47,7 @@ As an organization with Skype for Business starts to adopt Teams, administrators
 
 8.	To use Teams Phone System features with Teams, users must be in TeamsOnly mode (i.e., homed in Skype for Business Online and upgraded to Teams), and they must either be configured for Microsoft Phone System [Direct Routing](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (which allows you to use Phone System with your own SIP trunks and SBC) or have an Office 365 Calling Plan.   
 
-9.  Scheduling Teams meetings with Audio Conferencing (dial-in or dial-out via PSTN) is currently available only for users who are homed in Skype for Business Online. Support for Teams users with an on-premises Skype for Business account is in TAP.
+9.  Scheduling Teams meetings with Audio Conferencing (dial-in or dial-out via PSTN) is now available regardless of whether the user is homed in Skype for Business Online or Skype for Business on-premises. 
 
 
 ## Coexistence modes
