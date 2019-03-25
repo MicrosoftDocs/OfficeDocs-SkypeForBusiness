@@ -12,7 +12,7 @@ description:
 localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto: 
-- Office for business, Microsoft Teams
+- Microsoft Teams
 ---
 
 # Microsoft StaffHub to be retired
@@ -43,7 +43,7 @@ See the [roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1) for det
 
 #### What do I need to do to prepare for this change?
 
-To learn how to prepare for the transition from StaffHub to Shifts in Teams, go to  [Prepare to move your StaffHub teams to Shifts](move-staffhub-teams-to-shifts-in-teams.md#prepare).
+To learn how to prepare for the transition from StaffHub to Shifts in Teams, go to [Prepare to move your StaffHub teams to Shifts](move-staffhub-teams-to-shifts-in-teams.md#prepare).
 
 #### Why can't users in my organization access their StaffHub team from Shifts in Teams?
 
@@ -108,6 +108,10 @@ For end-user help, go to [Shifts Help for firstline workers and managers](https:
 
 ### Switch from StaffHub to Shifts in Teams
 
+#### What do I need to know to moving about StaffHub users to Shifts in Teams?
+
+Ensure that each user is covered with a Teams license from a qualified plan. For more information, see [Which plans are Shifts available in?](#which-plans-is-shifts-available-in) and [Move your StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
+
 #### How do I move my organization's StaffHub teams to Teams?
 
 For detailed guidance on how to make the transition from StaffHub to Teams, see [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
@@ -118,7 +122,7 @@ If you don't have Teams enabled in your organization, assign Teams licenses to u
 
 #### What if I currently have Skype for Business enabled in my organization but not Teams?
 
-Teams supports coexistence with Skype for Business. For more information, see [Understand Microsoft Teams and Skype for Business coexistence and interoperability](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) and [Migration and interoperability guidance for organizations using Teams together with Skype for Business](../../migration-interop-guidance-for-teams-with-skype.md).
+Teams supports coexistence with Skype for Business. For more information, see [Understand Teams and Skype for Business coexistence and interoperability](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) and [Migration and interoperability guidance for organizations using Teams together with Skype for Business](../../migration-interop-guidance-for-teams-with-skype.md).
 
 #### Does each user need to have an Office 365 account or Azure Active Directory (Azure AD) account?
 
@@ -141,8 +145,6 @@ Team membership is maintained when a StaffHub team is moved to Teams. Phone numb
 The user's schedule will be moved to Shifts, however, the user won't be a member of the team or an Office 365 Group. For inactive accounts that aren't linked to an Azure AD user account, a manager can ensure the user is added as a member of the team by adding a valid Office 365 email address on the StaffHub team members page so that the user is linked to the correct Azure AD account in their organization.
 
 Another option is for admins to run the **Add-StaffHubMember** and **Remove-StaffHubUser** cmdlets to remove a non-provisioned account from a StaffHub team and add the user back to the team with their UPN.
-
-#### How do I invite users to Teams?-FOLLOWUP
  
 #### What happens to chats in StaffHub?
 
@@ -174,6 +176,9 @@ You can use the Microsoft Graph API with Teams. Microsoft Graph APIs provide acc
 Teams supports connections to Kronos through the Kronos bot, which can be added to chats and channels.
 
 #### How do I move my corporate resources from the StaffHub admin page?-FOLLOWUP
+
+Lana - do you know if Teams template allows admins to create tabs in Teams to point to specific URLS or install default apps?
+Lisa - looks like templates can be used to install apps and pin tabs. See https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-templates, which lists base template types. 
 
 #### What happens to corporate announcements in StaffHub?-FOLLOWUP
  

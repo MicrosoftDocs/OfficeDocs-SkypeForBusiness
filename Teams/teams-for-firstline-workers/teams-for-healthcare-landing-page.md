@@ -16,7 +16,7 @@ appliesto:
 
 # Teams for Healthcare
 
-Teams gives care teams and healthcare professionals a secure way to communicate, coordinate patient care, and improve operational efficiencies. Here you'll find the admin resources you need to manage Teams features for healthcare teams in your organization.
+Teams gives care teams and healthcare professionals a secure way to communicate, coordinate patient care, and improve operational efficiencies. Here you'll find the admin resources you need to manage Teams for healthcare teams in your organization.
 
 <ul class="panelContent cardsFTitle">
     <li>
