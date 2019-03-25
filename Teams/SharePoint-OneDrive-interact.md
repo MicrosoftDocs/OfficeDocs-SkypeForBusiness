@@ -58,4 +58,5 @@ More information
 
 For more information about how SharePoint works with Teams, see [SharePoint and Teams: better together](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 
+To learn more about the guest experience in Teams, read [What the guest experience is like](guest-experience.md).
 

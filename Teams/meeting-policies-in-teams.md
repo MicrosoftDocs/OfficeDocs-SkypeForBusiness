@@ -3,7 +3,7 @@ title: Manage meeting policies
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 03/01/2019
+ms.date: 03/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua 
@@ -27,7 +27,7 @@ description: Learn to manage meeting policy settings in Teams.
 ::: zone target="docs"
 Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. After you create a policy and make your changes, you can then assign uses to the policy. 
 
-By default, a policy named Global (org-wide default) is created. All users in your organization will be assigned this meeting policy by default. You can either make changes to this policy or create one or more custom policies and assign users to them. When you create a custom policy, you can allow or prevent certain features from being available to your users and then assign it to one or more users who will have the settings applied to them. 
+By default, a policy named Global (org-wide default) is created. All users in your organization will be assigned this meeting policy by default. You can either make changes to this policy or create one or more custom policies and assign users to them. When you create a custom policy, you can allow or prevent certain features from being available to your users, and then assign it to one or more users who will have the settings applied to them. 
 
 ## Change or create a meeting policy
 
@@ -49,16 +49,20 @@ Then assign the policy to the users.
 > [!NOTE] 
 > A user can be assigned only one meeting policy at a time. 
 
-## Assign a meeting policy to a user
+## Assign a meeting policy to users
 
-To assign a policy, go to **Microsoft Teams admin center** > **Users**. 
+If you are applying the policy to one user, select **Users** on the left navigation pane, and then click the user's display name. On the user's page, next to **Assigned policies**, select **Edit**. Then, in the **Edit user policies** pane, under **Meeting policy**, select the meeting policy from the drop-down list, and then select **Save**. You can also assign policies from the list of users. To do this, select the user by clicking to the left of the user's display name. Select **Edit settings**. Then, on the **Edit settings** pane, under **Meeting policy**, select the policy from the drop-down list, and then select **Save**. 
  
-If you are applying the policy to one user, select the user's display name. Next to **Assigned policies**, select **Edit**. Then, in the **Edit user policies** pane, under **Meeting policy**, select the meeting policy from the drop-down list, and select **Save**. You can also edit settings from the list of users. To do this, select the user by clicking to the left of the user's display name. Select **Edit settings**. Then, on the **Edit settings** pane, under **Meeting policy**, select the policy from the drop-down list and then select **Save**. 
+If you are applying a policy to more than one user, select **Users** on the left navigation pane, and then select each user by clicking to the left of the user name, and then click **Edit settings**. On the **Edit Settings** pane, under **Meeting policy**, select the policy from the drop-down list, and then select **Save**.
  
-If you are applying a policy to more than one user, select each of the users by clicking to the left of the user name, and then click **Edit settings**. On the **Edit Settings** pane, under **Meeting policy**, select the policy from the drop-down list and then select **Save**.
- 
-You can also do this by going to **Microsoft Teams admin center** > **Meetings** >  **Meeting policies**. Select the policy and then select **Manage users**. In the **Manage users** pane, search for the user by display or user name. Select the name and select **Add**. When you are finished adding users, select **Save**.
+You can also assign a meeting policy to one or more users as follows:
 
+1. Go to **Microsoft Teams admin center** > **Meetings** > **Meeting policies**.
+2. Select the policy by clicking to the left of the policy name.
+3. Select **Manage users**.
+4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
+5. When you are finished adding users, select **Save**.
+ 
 > [!NOTE] 
 > You can't delete a policy if users are assigned to it. You must first assign a different policy to all affected users, and then you can delete the original policy.
  
@@ -100,8 +104,8 @@ When you select an existing policy on the **Meeting policies** page or select **
 <a name="bkparticipantsandguests"> </a>
 
 ### Participants & guests
-   - **Allow anonymous users to start meetings** If this setting is off, then only someone who has been authenticated to the meeting with a Teams app can start the meeting. If it's on, then anyone can start the meeting.
-   - **Automatically admit users** If you turn this off, then meeting participants will be left in the lobby until someone starts the meeting. If it's on, meeting participants will be allowed to join the meeting automatically.
+   - **Allow people that dial in to start a meeting** You can turn on or off if you want to let people that haven't been authenticated because they've dialed in using their phone to start a meeting.
+   - **Automatically admit people** Determines what types of participants will automatically be added to meetings organized by this user. Set this to "Everyone in organization" if you would like meetings to place every external user in the lobby but allow all users in the company to join the meeting immediately. Set this to "Everyone" if you'd like to admit anonymous users by default. Set this to "Everyone in your organization and federated organizations" if you would like meetings to allow federated users to join like your company's users, but place all other external users in a lobby.
 
 [Full article](meeting-policies-in-teams.md)
 

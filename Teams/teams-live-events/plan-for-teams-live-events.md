@@ -17,7 +17,6 @@ appliesto:
 ---
 
 # Plan for live events in Microsoft Teams
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 When you are planning Teams live events to hold large meetings in your organization, there are several factors that you need to consider before starting to set it all up. 
 
@@ -25,8 +24,8 @@ When you are planning Teams live events to hold large meetings in your organizat
 The following prerequisites are required for the user to schedule a Teams live event.
 
 Here are the licenses that must be assigned:  
-- An Office 365 Enterprise E3 or E5 license or an Office 365 A3 or A5 license. 
-- A Microsoft Teams, Skype for Business, and Microsoft Stream license.
+- An Office 365 Enterprise E1, E3 or E5 license or an Office 365 A3 or A5 license. 
+- A Microsoft Teams and Microsoft Stream license.
 
 It's important to know that an Office 365 license is required to participate in a live event as an authenticated user but this depends on the production method used:
 
@@ -37,6 +36,8 @@ For more information on licensing, see [Microsoft Teams add-on licensing](../tea
 
 The user must have:
 - Private meeting scheduling in Teams enabled (*The TeamsMeetingPolicy -AllowPrivateMeetingScheduling parameter = True*).
+- Video sharing enabled in Teams meetings (*The TeamsMeetingPolicy -AllowIPVideo parameter = True*).
+- Screen sharing enabled in Teams meetings (*The TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*).
 - Live event scheduling in Teams enabled (*The TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling parameter = True*).
 - Permissions to create live events in Microsoft Stream (for [external encoder production](#production)).
 
@@ -59,7 +60,7 @@ The user must have:
 ## Teams live events and Skype Meeting Broadcast
 The following table highlights core capabilities and features offered in live events and how they differ from Skype Meeting Broadcast. 
 
-|**Capability**   |**Skype Meeting Broadcast** |**Teams live events (Quick start)** |**Teams live events (External encoder)** |
+|**Capability**   |**Skype Meeting Broadcast** |**Events produced in Microsoft Teams** |**Events produced in external app or device** |
 |---------|---------|---------|---------|
 |Maximum audience size |10,000 attendees |10,000 attendees* |10,000 attendees* |
 |Maximum duration of live event |4 hours |4 hours |4 hours |
@@ -70,8 +71,9 @@ The following table highlights core capabilities and features offered in live ev
 |Producer client on Mac |X  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Attendee count in Producer UI |X  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Allows multiple presenters |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
-Invite a presenter during the meeting |&#x2714; (Skype for Business) |X |N/A |
+|Invite a presenter during the meeting |&#x2714; (Skype for Business) |X |N/A |
 |Presenter join on Web and Mobile |&#x2714; (Skype for Business)  |X |N/A |
+|Federated & Guest presenters/attendees |&#x2714; (Skype for Business)  | (coming soon) |N/A |
 |Presenter – PSTN access |X |&#x2714; (Teams) |N/A |
 |Present a screen |X |&#x2714; (Teams) |N/A |
 |Present a PowerPoint (PPT Sharing) |&#x2714; |X (mitigated via screen sharing) |N/A |
@@ -100,7 +102,7 @@ You can use Teams live events in multiple regions across the world. The followin
 - Go Local Canada
 
 **Exclusions and considerations**
-- **Go Locals:** United Kingdom, India, and other Microsoft Teams Go Locals are not currently supported.
+- **Go Locals:** United Kingdom, India, Australia, Japan and other Microsoft Teams Go Locals are not currently supported.
 - **China:** Event team members and attendees will not be able to use Teams live events because Azure CDN is not accessible in China. A workaround is to use a company VPN connection, which gets the client connected to CDN via the customer's corporate network.
 
 ## Next steps

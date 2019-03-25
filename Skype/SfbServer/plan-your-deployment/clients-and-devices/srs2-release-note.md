@@ -48,9 +48,11 @@ This article discusses cumulative improvements in Skype Room Systems v2.
 
 ## Skype Room Systems v2 feature introduction and issue resolution
 
+
 ### 4.0.78.0 (03/14/2018)
 Introduced in this update:
 - Fix for "hang at app start up" bug that impacted devices on legacy Windows 10 RS2 build.  
+
 
 ### 4.0.76.0 (03/04/2019)
 Introduced in this update:

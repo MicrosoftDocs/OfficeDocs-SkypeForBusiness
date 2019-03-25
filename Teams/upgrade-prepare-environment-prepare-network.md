@@ -51,22 +51,21 @@ The steps described below will help you determine whether your deployment might 
 
 ## Bandwidth planning
 
-The first step toward network readiness is ensuring your network has enough bandwidth available for the modalities Teams will provide to users. Planning for sufficient bandwidth is a fairly straightforward task and a very low-barrier start to help ensure your users will have a high-quality Teams experience.
 
-You start your bandwidth planning journey for Teams on the [My Advisor website](https://myadvisor.fasttrack.microsoft.com/) by using the Network Planner. The Network Planner provides per-site bandwidth planning for Teams and offers recommendations for optimizing network performance.
+Microsoft Teams gives you the best audio, video and content sharing experience regardless of your network conditions. With variable codecs, media can be negotiated in limited bandwidth environments with minimal impact. But where bandwidth is not a concern, experiences can be optimized for quality, including up to 1080p video resolution, up to 30fps for video and 15fps for content, and high-fidelity audio.
 
-> [!IMPORTANT]
-> If the required bandwidth isn’t available, the media stack inside Teams degrades the quality of the audio/video session to accommodate that lower amount of available bandwidth, which affects the quality of the call or meeting. The Teams client attempts to prioritize the quality of audio over the quality of video. It’s therefore extremely important to have the expected bandwidth available.
 
-|Activity |Download bandwidth |Upload bandwidth |Traffic flow |
-|---|---|---|---|
-|**Peer-to-peer audio call** |0.1 Mbps |0.1 Mbps |Client <> Client |
-|**Peer-to-peer video call (full screen)** |4 Mbps |4 Mbps |Client <> Client |
-|**Peer-to-peer desktop sharing (1920&#215;1080 resolution)** |4 Mbps |4 Mbps |Client <> Client |
-|**Two-participant meeting** |4 Mbps |4 Mbps |Client <> Office 365 |
-|**Three-participant meeting** |8 Mbps |6.5 Mbps |Client <> Office 365 |
-|**Four-participant meeting** |5.5 Mbps |4 Mbps |Client <> Office 365 |
-|**Five or more–participant meeting** |6 Mbps |1.5 Mbps |Client <> Office 365 |
+This article describes a concise version of how bandwidth is utilized by Teams real time audio, video, and desktop sharing modalities in various use cases. Teams is always conservative on bandwidth utilization and can deliver HD video quality in under 1.2Mbps.  The actual bandwidth consumption in each audio/video call or meeting will vary, based on several factors, such as video layout, video resolution, and video frames per second. When more bandwidth is available quality and usage will increase to deliver the best experience.
+
+|Bandwidth(up/down) |Scenarios |
+|---|---|
+|30 kbps |Peer-to-peer audio calling |
+|130 kbps |Peer-to-peer audio calling and screen sharing |
+|500 kbps |Peer-to-peer quality video calling 360p at 30fps |
+|1.2 Mbps |Peer-to-peer HD quality video calling with resolution of HD 720p at 30fps |
+|1.5 Mbps |Peer-to-peer HD quality video calling with resolution of HD 1080p at 30fps |
+|500kbps/1Mbps |Group Video calling |
+|1Mbps/2Mbps |HD Group video calling (540p videos on 1080p screen) |
 
 ### Local internet egress
 
@@ -154,11 +153,11 @@ After you’ve completed your planning and network preparation—including upgra
 
 You can download the [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to test whether your network is ready for Teams. The tool offers dual functionality: it can test whether all the correct ports have been opened, and it can test for network impairments.
 
-After you download and install the tool, you can find it in C:\\Program Files\\Microsoft Skype for Business Network Assessment Tool. A detailed guide for how to use the tool, Usage.docx, is included in that directory.
+After you download and install the tool, you can find it in C:\Program Files (x86)\Microsoft Skype for Business Network Assessment Tool. A detailed guide for how to use the tool, Usage.docx, is included in that directory.
 
 ### Test for opened ports
 
-Open a Command prompt window and navigate to the Network Assessment Tool directory by entering **cd C:\\Program Files\\Microsoft Skype for Business Network Assessment Tool**. At the command prompt, start the test for opened ports by entering **networkassessmenttool.exe /connectivitycheck**
+Open a Command prompt window and navigate to the Network Assessment Tool directory by entering **cd C:\Program Files (x86)\Microsoft Skype for Business Network Assessment Tool**. At the command prompt, start the test for opened ports by entering **networkassessmenttool.exe /connectivitycheck**
 
 After running the checks, the tool will either display the message “Verifications Completed Successfully” or report on the ports that were blocked. It also generates a file named Connectivity_results.txt, which contains the output from the tool and stores it in the %userprofile%\\appdata\\local\\microsoft skype for business network assessment tool\\ directory.
 

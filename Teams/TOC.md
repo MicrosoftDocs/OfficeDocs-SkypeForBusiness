@@ -35,6 +35,9 @@
 ## [Apps, bots, & connectors](deploy-apps-microsoft-teams-landing-page.md)
 ### [Apps permissions and considerations](app-permissions.md)
 ### [Admin settings for apps in Teams](admin-settings.md)
+### [Manage app permission policies in Teams](teams-app-permission-policies.md)
+### [Manage app setup policies in Teams](teams-app-setup-policies.md)
+### [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md)
 ### [Add bots for private chats and channels in Teams](add-bots.md)
 ### [Use built-in and custom tabs](built-in-custom-tabs.md)
 ### [Use Office 365 and custom connectors](Office-365-custom-connectors.md)
@@ -318,7 +321,7 @@
 ### Auto attendants and call queues 
 #### [What are Phone System auto attendants](what-are-phone-system-auto-attendants.md)
 #### [Set up a Phone System auto attendant](create-a-phone-system-auto-attendant.md)
-#### [Small business example - Set up an auto attendant](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Manage resource accounts in Microsoft Teams](manage-resource-accounts.md)
 #### [Create a Phone System call queue](create-a-phone-system-call-queue.md)
 #### [Answer auto attendant and call queue calls directly from Teams](answer-auto-attendant-and-call-queue-calls.md)
