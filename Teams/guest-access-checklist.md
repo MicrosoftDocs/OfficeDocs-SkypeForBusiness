@@ -7,7 +7,7 @@ ms.date: 03/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
-description: Use this checklist to help set up guest access in Microsoft Teams guest access.
+description: Use this checklist to help set up guest access in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: 
@@ -97,7 +97,7 @@ At a minimum, you must turn on Guest access for Microsoft Teams under the **Micr
 For detailed instructions, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md).
 
 
-## □  Step 4: Configure Sharing in Office 365 
+## □  Step 4: Configure sharing in Office 365 
 
 Make sure that users can add guests. Here's how:
 
@@ -107,11 +107,11 @@ Make sure that users can add guests. Here's how:
 
 2. In **Sharing**, select **Edit**.
 
-     ![Screenshot shows an example of a Sharing Settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+     ![Screenshot shows an example of a sharing settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
  
 3. Set **Let users add new guests to this organization** to **On**, and then click **Save**.
 
-     ![Screenshot shows an example of a Sharing Settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+     ![Screenshot shows an example of a sharing Settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
  
 > [!NOTE]
 > This setting is equivalent to the **Members can invite** setting in  **User settings** > **External users**  in Azure AD.  
