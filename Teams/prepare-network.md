@@ -61,7 +61,7 @@ To test both network segments, you can use the [Network Assessment Tool](https:/
 
 ## Bandwidth requirements
 
-[!INCLUDE [Bandwidth requirements](include/bandwidth-requirements.md)]
+[!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
