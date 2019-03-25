@@ -3,7 +3,7 @@ title: Microsoft Teams Guest Access checklist
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 01/22/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -89,7 +89,7 @@ At a minimum, you must turn on Guest access for Microsoft Teams under the **Micr
 1. In the Teams admin center, select **Org-Wide settings** > **Guest access**.
 2. Set the **Allow guest access in Microsoft Teams** switch to **On**.
 
-    ![Screenshot shows an example of a Teams Settings toggle](media/set-up-guests-image1.png)
+    ![Screenshot shows an example of a Teams Settings toggle](media/guest-access-checklist-set-up-guests-image1.png)
 
 3. On this same page, configure any other guest settings that you require.
 4. Click **Save**.
