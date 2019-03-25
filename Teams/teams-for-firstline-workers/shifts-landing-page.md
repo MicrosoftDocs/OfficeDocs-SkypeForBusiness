@@ -1,6 +1,6 @@
 ---
 title: Shifts for Teams
-description: Use these resources to get the most out of Teams across your organization.
+description: Get the admin guidance you need to set up and manage Shifts, the schedule management tool, in Teams. 
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin

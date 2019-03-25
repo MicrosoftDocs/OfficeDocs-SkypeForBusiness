@@ -20,13 +20,30 @@ Teams gives care teams and healthcare professionals in your organization a secur
 
 <ul class="panelContent cardsFTitle">
     <li>
+        <a href="https://review.docs.microsoft.com/en-us/microsoftteams/healthcare/healthcare-templates?branch=FLW-working">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Get started with Teams Healthcare templates for Healthcare organizations</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li><li>
         <a href="https://review.docs.microsoft.com/MicrosoftTeams/teams-for-firstline-workers/healthcare/ehr-integration?branch=flw-working">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-teams.svg" alt="flag" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -44,7 +61,7 @@ Teams gives care teams and healthcare professionals in your organization a secur
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="success" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="chat" />
                         </div>
                     </div>
                     <div class="cardText">

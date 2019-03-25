@@ -1,6 +1,6 @@
 ---
 title: Teams for Government
-description: Use these resources to get the most out of Teams across your organization.
+description: Learn how to plan and deploy Teams in Microsoft 365 Government environments. 
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -16,7 +16,7 @@ appliesto:
 
 # Teams for Government
 
-placeholder
+Use these resources to plan and deploy Teams in Microsoft 365 Government environments.
 
 <ul class="panelContent cardsFTitle">
     <li>

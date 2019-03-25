@@ -14,8 +14,9 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Expanding Microsoft Teams across your organization
+# Expand Microsoft Teams across your organization
 
+<br>
 <ul class="panelContent cardsFTitle">
  <li>
         <a href="https://review.docs.microsoft.com/microsoftteams/teams-for-firstline-workers/shifts-landing-page?branch=FLW-working">
