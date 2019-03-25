@@ -1,6 +1,6 @@
 ---
 title: Teams for Healthcare
-description: Use these resources to get the most out of Teams across your organization.
+description: Use these resources to get the most out of Teams in your healthcare organization.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -16,7 +16,7 @@ appliesto:
 
 # Teams for Healthcare
 
-placeholder
+Teams gives care teams and healthcare professionals in your organization a secure way to communicate, coordinate patient care, and improve operational efficiencies. Here you'll find the admin resources you need to manage Teams features for healthcare teams in your organization.
 
 <ul class="panelContent cardsFTitle">
     <li>
