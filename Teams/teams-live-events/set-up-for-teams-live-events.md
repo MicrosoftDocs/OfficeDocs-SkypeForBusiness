@@ -20,8 +20,6 @@ appliesto:
 
 # Set up for live events in Microsoft Teams
 
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
-
 When you're setting up for live events, there are several steps that you must take:
 
 ## Step 1: Set up your network for live events in Microsoft Teams
@@ -71,6 +69,17 @@ If you created a custom live events policy, assign it to users for the policy to
 1. In the left navigation, go to **Users**, and then select the user.
 2. Next to **Assigned policies**, choose **Edit**. 
 3. Select the live events policy you want to assign, and then choose **Save**. 
+
+You can also assign a live events policy to one or more users as follows:
+
+![teams-logo-30x30.png](../media/teams-logo-30x30.png) Using the Microsoft Teams admin center
+
+1. Go to **Meetings** > **Live events policies**.
+2. Select the policy by clicking to the left of the policy name.
+3. Select **Manage users**.
+4. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
+5. When you are finished adding users, select **Save**.
+ 
 
 ### Enable users to schedule external encoder events
 

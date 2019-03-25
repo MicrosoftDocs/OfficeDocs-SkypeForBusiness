@@ -4,8 +4,11 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/06/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
+ms.collection: 
+- M365-collaboration
+- Teams_ITAdmin_Help
 description: Learn to use the PowerShell controls for managing Microsoft Teams.
 appliesto: 
 - Microsoft Teams

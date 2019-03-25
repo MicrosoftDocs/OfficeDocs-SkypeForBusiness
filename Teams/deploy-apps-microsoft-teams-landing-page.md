@@ -21,8 +21,6 @@ Apps let you find content from your favorite services and share it right in Team
 
 We recommend that you include our featured apps - such as Planner - in your initial Teams rollout. Add other apps, bots, & connectors as you drive Teams adoption.
 
-
-
 ## Apps deployment decisions
 
 Teams provides a great out-of-the-box collaboration experience for your organization, and most organizations find that the default settings work for them. This article helps you decide whether to change any of the default settings, based on your organization's profile and business requirements, then it walks you through each change. We've split the settings into two groups, starting with the core set of [changes you're more likely to make](#core-deployment-decisions). The second group includes the [additional settings](#additional-deployment-decisions) you may want to configure, based on your organization's needs.
@@ -33,13 +31,13 @@ These are the apps settings that most organizations want to change (if the Teams
 
 ### App availability settings 
 
-Teams provides a number of first-party (Microsoft provided) and third-party apps to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. By default, all apps, including external apps that you've submitted via the [Teams Store approval process](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), are turned on for all users. For example, users can use the Planner app to build and manage team tasks in Teams.
+Teams provides a number of apps published by Microsoft and by third parties to engage users, support productivity, and integrate commonly used business services into Teams. Get apps from the Teams Store. By default, all apps, including custom apps that you've submitted via the [Teams Store approval process](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), are turned on for all users. For example, users can use the Planner app to build and manage team tasks in Teams.
 
-By default, all Microsoft-provided and external apps are available, and you can turn individual apps on or off. There's a global setting that lets you turn all external apps on or off for your entire organization.
+By default, all Microsoft-provided and custom apps are available, and you can turn individual apps on or off. There's an org-wide setting that lets you turn all custom apps on or off for your entire organization.
 
 | Ask yourself | Action |
 |--------------|--------|
-|Will you change the default Teams apps settings? | For more information about configuring the availability of external apps, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
+|Will you change the default Teams apps settings? | For more information about policies and settings that you can use to manage apps in your organization, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 |||
 
 ### App permissions and other considerations

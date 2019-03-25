@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: 
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -60,7 +58,7 @@ If you are an [Office 365 global administrator](https://support.office.com/artic
     
 ## Related articles for the admin
 
-- [What are Calling Plans in Office 365?](what-are-calling-plans-in-office-365.md)
+- [Phone System and Calling Plans](calling-plan-landing-page.md)
     
 - [Set up Calling Plans](set-up-calling-plans.md)
     

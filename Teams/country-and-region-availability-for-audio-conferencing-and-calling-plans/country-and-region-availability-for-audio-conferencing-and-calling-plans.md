@@ -1,18 +1,16 @@
 ---
 title: "Country and region availability for Audio Conferencing and Calling Plans"
-ms.date: 05/23/2018
+ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
-ms.topic: article
+ms.topic: reference
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: 
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -122,7 +120,7 @@ You can select a country or region to see what cloud voice features are availabl
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**If you are looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-02012019)-(en-us).xlsx?raw=true)**.
+**If you are looking for a spreadsheet with all countries and regions, download and save the [Cloud voice feature country/region availability spreadsheet](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-03132019)-(en-us).xlsx?raw=true)**.
 
 ***
 
@@ -154,12 +152,12 @@ In Audio Conferencing there is a feature named "*Call Me*" and it can be used to
 > [!CAUTION]
 > Dialing out to toll-free or free phone numbers may not be possible, because some toll-free numbers only function from within a certain country or area within a country. For example, if you dial out from the United States to a toll-free number in Brazil, the call may not be successful because the call didn't originate from within Brazil or from a specific region within Brazil. The ability to dial out to toll-free numbers varies widely depending on the restrictions of the toll-free number dialed. Unfortunately, within Office 365, we can't control this behavior, and as a result, your experience may vary depending on the toll-free number dialed and the restrictions of the toll-free number. 
   
-Dialing out from a meeting to another country/region in the world that is not listed below is available using [Office 365 Communication Credits](../what-are-communications-credits.md). For those users, you will need to [set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
+Dialing out from a meeting to another country/region in the world that is not listed below is available using [Office 365 Communication Credits](../what-are-communications-credits.md). For those users, you will need to [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).
   
 ### Phone System
 With Phone System, you can create auto attendants and call queues (with a toll or toll-free number) to answer incoming calls for your organization, and when you add a Calling Plan for users they can use Skype for Business to take care of basic call-control tasks, such as placing and receiving calls, transferring calls, and muting and unmuting calls. **Phone System** users can click a name in their address book and Skype for Business will place a call to that person. To place and receive calls, **Phone System** users can use their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Skype for Business.
 
-In addition to getting phone numbers for individual users from Office 365, it's also possible to search and acquire toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants and call queues. These are called service numbers. See [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) to get phone numbers. But for your users, after you assign a Calling Plan to them, you can assign a user phone number so they can make and receive phone calls. To find those phone numbers, go to [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). You can also see [Assign, change, or remove a phone number for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user). 
+> The availability of toll phone numbers from some of these locations might vary at any given time depending on inventory levels. In addition to getting phone numbers for individual users from Office 365, it's also possible to search and acquire toll or toll-free phone numbers for services such as Audio Conferencing (for conference bridges), auto attendants and call queues. These are called service numbers. See [Getting service phone numbers](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) to get phone numbers. But for your users, after you assign a Calling Plan to them, you can assign a user phone number so they can make and receive phone calls. To find those phone numbers, go to [Getting phone numbers for your users](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). You can also see [Assign, change, or remove a phone number for a user](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user). 
 
 [Pricing for Phone System](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -169,7 +167,7 @@ In addition to getting phone numbers for individual users from Office 365, it's 
 Use the drop-down list at the top of the page to search for a country or region and what services are available.
 
 ### Calling Plans
-Along with Phone System, a Calling Plans let users make and receive phone calls. You first need to get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are two types of Calling Plans available: **Domestic** and **Domestic and International**. See [What are Calling Plans?](../what-are-calling-plans-in-office-365.md) for more details.
+Along with Phone System, a Calling Plans let users make and receive phone calls. You first need to get a user (subscriber) phone number (not a service number) to assign to the user, and then assign a Calling Plan. There are two types of Calling Plans available: **Domestic** and **Domestic and International**. See [Phone System and Calling Plans](../calling-plan-landing-page.md) for more details.
 
 You can also see [Phone System and Calling Plans licensing](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) for licensing information.
 

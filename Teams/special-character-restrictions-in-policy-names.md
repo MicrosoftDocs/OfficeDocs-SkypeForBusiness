@@ -6,9 +6,7 @@ manager: serdars
 ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: 
-- msteams
-- skype-for-business-online
+ms.service: msteams
 ms.collection: 
 - M365-collaboration
 - Teams_ITAdmin_Help

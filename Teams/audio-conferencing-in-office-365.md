@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -88,7 +88,7 @@ Dedicated audio conferencing phone numbers are service numbers that you can get 
 - **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information.
 
 ## How do you set it up?
-After you have decided to set up Audio Conferencing for your users, see [Set up Audio Conferencing for Skype for Business and Microsoft Teams](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) for steps you can follow to do so.
+After you have decided to set up Audio Conferencing for your users, see [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md) or [Set up Audio Conferencing for Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) for steps you can follow to do so.
 
 ## Related topics
 

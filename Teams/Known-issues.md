@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 2/25/2019
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: msteams
 MS.collection: 
 - Teams_ITAdmin_Help
@@ -173,7 +173,7 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Attendee maximum for meetings  <br/> |Each Microsoft Teams meeting can have up to 80 attendees.  <br/> |No workaround.  <br/> |3/13/17  <br/> |
+|Attendee maximum for meetings  <br/> |Each Microsoft Teams meeting can have up to 250 attendees.  <br/> |Create live events in teams which can host 10000 users.  <br/> |3/13/17  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
@@ -247,11 +247,11 @@ This article lists the known issues for Microsoft Teams, by feature area.
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|SharePoint page tab renders blank screen <br/> |SharePoint Online vanity domains are not currently supported. The user experience is a blank screen when attemting to add a SharePoint page tab. <br/> |No workaround. <br/> |8/20/18  <br/>|
+|Legacy OneNote Tab  <br/> |Legacy OneNote tabs created during the public preview of Microsoft Teams cannot be renamed or deleted.  <br/> |No workaround. <br/> |11/8/2017  <br/> |
 
 |**Issue title**|**Behavior / Symptom**|**Known workaround**|**Discovery date**|
 |:-----|:-----|:-----|:-----|
-|Legacy OneNote Tab  <br/> |Legacy OneNote tabs created during the public preview of Microsoft Teams cannot be renamed or deleted.  <br/> |No workaround. <br/> |11/8/2017  <br/> |
+|Search function in SharePoint list tab  <br/> |Attempting to open a file from the search function of the SharePoint list tab will trigger a "You'll need a new app to open this about" prompt and the file will not be opened. <br/> |Open directly from list instead of search bar. <br/> |2/11/2019  <br/> |
 
 ## Teams
 

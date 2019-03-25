@@ -30,11 +30,8 @@ Lync Server 2013 supports connectivity with Skype. This connectivity enables you
 
 <div>
 
-
 > [!IMPORTANT]  
 > If Lync Server is already configured to connect with Windows Messenger by using Public Instant Messaging Connectivity (PIC), your deployment is already configured for Lync-Skype connectivity. The only change you may want to consider is to rename your existing Messenger PIC entry as Skype. For details, see Configure the Skype PIC provider setting for Lync later in this guide.
-
-
 
 </div>
 

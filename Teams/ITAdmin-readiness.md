@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 02/15/2019
+ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 ms.collection:  
@@ -84,10 +84,11 @@ Use the training resources to educate yourself about Teams, teach others or run 
 | ------------ | -------------------- | -------------------- |
 | Foundations - Core Components | [Video](https://aka.ms/teams-foundations) | [Deck](https://aka.ms/teams-foundations-deck) |
 | Windows Desktop Client | [Video](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
-| Governance, management and Lifecylce | [Video](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
+| Governance, management and Lifecycle | [Video](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
 | Network Planning | [Video](https://aka.ms/teams-networking) | [Deck](https://aka.ms/teams-networking-deck) |
 | Call Quality Overview | [Video](https://aka.ms/teams-quality) | [Deck](https://aka.ms/teams-quality-deck) |
 | Meetings introduction | [Video](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
+| Live Events | [Video](https://aka.ms/teams-live-events-session) | [Deck](https://aka.ms/teams-live-events-deck) |
 | Phone System introduction | [Video](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
 | Direct Routing | [Video](https://aka.ms/teams-direct-routing) | [Deck](https://aka.ms/teams-direct-routing-deck) |
 | Upgrade from Skype for Business to Teams | [Video 1: Introduction to Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Plan your upgrade](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Coexistence and Interoperability](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Administrator experience](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|

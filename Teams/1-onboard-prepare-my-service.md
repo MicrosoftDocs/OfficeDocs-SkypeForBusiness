@@ -3,8 +3,8 @@ title: Prepare to deploy Microsoft Teams cloud voice service
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 09/11/2018
-ms.topic: article
+ms.date: 03/18/2019
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -115,7 +115,7 @@ For additional information, see:
 
 - [Technical Planning for Audio Conferencing](audio-conferencing.md#technical-planning-for-audio-conferencing)
 
-- [Set up Audio Conferencing for Skype for Business and Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+- [Set up Audio Conferencing for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 - [Technical Planning for Phone System with Calling Plans](calling-plan-landing-page.md)
 

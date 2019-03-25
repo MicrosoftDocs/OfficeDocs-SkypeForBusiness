@@ -5,7 +5,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 MS.collection: 
@@ -33,7 +33,7 @@ Microsoft Teams licensing is designed to give you the maximum amount of flexibil
 
 For most businesses, buying a bundle of software in an Enterprise plan will result in lower overall cost. Typically, when you buy several add-on licenses individually instead of as part of a plan, you may end up with higher combined cost.
 
-For more cost information, see [How to see prices and buy add-on licenses](microsoft-teams-add-on-licensing.md#bkmk_how) or one of the following:
+For more cost information, see one of the following:
 
 - [Pricing for Audio Conferencing](https://products.office.com/microsoft-teams/online-meeting-solutions)
 

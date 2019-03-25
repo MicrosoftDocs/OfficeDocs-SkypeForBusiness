@@ -4,12 +4,12 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 ms.date: 12/10/2018
-ms.topic: article
+ms.topic: reference
 audience: Admin
 ms.reviewer: annikaelias
 ms.service: msteams
 search.appverid: MET150
-localization_priority : Normal
+localization_priority : Priority
 description: Office 365 users who are not licensed for Microsoft Teams can initiate a 1-year trial of Teams.
 MS.collection: 
 - Teams_ITAdmin_Help

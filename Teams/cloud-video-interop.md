@@ -3,7 +3,7 @@ title: Cloud Video Interop for Microsoft Teams
 author: lolaj
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: srividhc

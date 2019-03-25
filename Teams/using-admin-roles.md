@@ -6,6 +6,9 @@ manager: serdars
 ms.date: 09/19/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: 
+- M365-collaboration
+- Teams_ITAdmin_Help
 ms.reviewer: islubin
 description: Learn to use the different administrative roles to manage Teams.
 appliesto: 
@@ -36,6 +39,8 @@ There are four Teams admin roles available: Teams service administrator, Teams c
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
 For more information about the admin tools available for managing Microsoft Teams, see [Managing Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
+
+For more information about limits, specifications, and other requirements that apply to Teams, see [Limits and specifications for Microsoft Teams](limits-specifications-teams.md).
 
 ## Assign users to each role
 

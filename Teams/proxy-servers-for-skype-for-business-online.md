@@ -4,10 +4,10 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: jastark
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7acaf2c2-35fa-490f-84cd-822e446e0fc7
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection: M365-collaboration
 ms.audience: Admin

@@ -56,7 +56,7 @@ To get started using call queues, it's important to remember a few things:
     > [!NOTE]
     > To redirect calls to people in your organization who are Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). To enable them for Enterprise Voice, you can use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- To learn more about Office 365 Calling Plans, see [What are Calling Plans in Office 365?](/microsoftteams/what-are-calling-plans-in-office-365) and [Calling Plans for Office 365](/microsoftteams/calling-plans-for-office-365).
+- To learn more about Office 365 Calling Plans, see [Phone System and Calling Plans](/microsoftteams/calling-plan-landing-page) and [Calling Plans for Office 365](/microsoftteams/calling-plans-for-office-365).
 
     > [!NOTE]
     > Users hosted on-premises using Lync Server 2010 aren't supported as a Call Queue Agents. 
