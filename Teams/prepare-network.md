@@ -3,7 +3,7 @@ title: Prepare your organization's network for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 08/21/2018
+ms.date: 03/25/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: arachman
@@ -18,9 +18,6 @@ appliesto:
 ---
 
 # Prepare your organization's network for Microsoft Teams
-
-> [!Tip]
-> Watch the following session to learn how to Teams leverages your network and how to best plan for optimal network connectivity: [Teams Network Planning](https://aka.ms/teams-networking)
 
 
 Teams combines three forms of traffic:
@@ -64,7 +61,9 @@ To test both network segments, you can use the [Network Assessment Tool](https:/
 
 ## Bandwidth requirements
 
-This article describes a concise version of how bandwidth is utilized by Microsoft Teams real time audio, video, and desktop sharing modalities in various use cases. Teams is always conservative on bandwidth utilization and can deliver HD video quality in under 1.2Mb.  The actual bandwidth consumption in each audio/video call or meeting will vary, based on several factors, such as video layout, video resolution, and video frames per second. When more bandwidth is available quality and usage will increase to deliver the best experience.
+
+This article describes a concise version of how bandwidth is utilized by Microsoft Teams real time audio, video, and desktop sharing modalities in various use cases. Teams is always conservative on bandwidth utilization and can deliver HD video quality in under 1.2Mbps.  The actual bandwidth consumption in each audio/video call or meeting will vary, based on several factors, such as video layout, video resolution, and video frames per second. When more bandwidth is available quality and usage will increase to deliver the best experience.
+
 
 |Bandwidth(up/down) |Scenarios |
 |---|---|
@@ -74,7 +73,7 @@ This article describes a concise version of how bandwidth is utilized by Microso
 |1.2 Mbps |Peer-to-peer HD quality video calling with resolution of HD 720p at 30fps |
 |1.5 Mbps |Peer-to-peer HD quality video calling with resolution of HD 1080p at 30fps |
 |500kbps/1Mbps |Group Video calling |
-|1Mps/2Mbps |HD Group video calling (540p videos on 1080p screen) |
+|1Mbps/2Mbps |HD Group video calling (540p videos on 1080p screen) |
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
