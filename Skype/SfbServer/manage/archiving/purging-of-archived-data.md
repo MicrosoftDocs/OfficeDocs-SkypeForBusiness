@@ -1,5 +1,6 @@
 ---
 title: "Manage purging of archived data in Skype for Business Server"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

@@ -1,5 +1,6 @@
-﻿---
+---
 title: 'Enabling QoS for devices that are not based on Windows'
+ms.reviewer: 
 ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
 ms:contentKeyID: 48183661

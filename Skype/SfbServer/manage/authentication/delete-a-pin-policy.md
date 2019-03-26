@@ -1,5 +1,6 @@
 ---
 title: "Delete a PIN policy in Skype for Business Server"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
