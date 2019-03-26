@@ -1,5 +1,6 @@
 ---
 title: "Download and install Windows PowerShell 5.1"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

@@ -1,5 +1,6 @@
 ---
 title: "Set up your computer for Windows PowerShell"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

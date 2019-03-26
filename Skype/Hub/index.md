@@ -2,6 +2,9 @@
 layout: HubPage
 hide_bc: true
 title: Skype for Business
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 description: Skype for Business
 ---
 <div id="main" class="v2">

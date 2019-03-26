@@ -1,5 +1,6 @@
 ---
 title: "Configure client bootstrapping policies"
+ms.reviewer: 
 ms.author: chucked
 author: chuckedmonson
 manager: serdars

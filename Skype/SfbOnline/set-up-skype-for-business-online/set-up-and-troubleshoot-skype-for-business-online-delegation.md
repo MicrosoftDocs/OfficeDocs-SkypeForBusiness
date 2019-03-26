@@ -1,5 +1,6 @@
 ---
 title: "Set up and troubleshoot Skype for Business Online delegation"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
