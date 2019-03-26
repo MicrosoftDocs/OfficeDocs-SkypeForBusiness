@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Enable Group Call Pickup for users'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Enable Group Call Pickup for users
 ms:assetid: 20ec5f41-6ba2-4156-82ed-b91d05b62a6d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945620(v=OCS.15)

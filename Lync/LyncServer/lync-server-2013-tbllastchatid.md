@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: tblLastChatId'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: tblLastChatId
 ms:assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558616(v=OCS.15)

@@ -1,5 +1,8 @@
 ---
 title: Prerequisites
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Prerequisites
 ms:assetid: 48016bea-be3b-4ba5-8df8-d8ad4d9243d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945592(v=OCS.15)

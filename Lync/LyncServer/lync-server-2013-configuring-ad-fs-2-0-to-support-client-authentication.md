@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring AD FS 2.0 to support client authentication'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring AD FS 2.0 to support client authentication
 ms:assetid: 4d93d400-ccaa-4da8-a71b-d05d7ba79d93
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308565(v=OCS.15)

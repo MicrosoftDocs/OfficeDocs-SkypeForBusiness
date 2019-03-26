@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 wildcard certificate support
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Wildcard certificate support
 ms:assetid: 0bae2aa8-b6dc-46f5-a3be-3fe7581809d4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202161(v=OCS.15)

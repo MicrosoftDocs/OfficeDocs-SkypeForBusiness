@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: SyndicatorsTenantMap table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: SyndicatorsTenantMap table
 ms:assetid: a99fe6ea-e529-4ea7-acc4-914ab8ce5468
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205169(v=OCS.15)

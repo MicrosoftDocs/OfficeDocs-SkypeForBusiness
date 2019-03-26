@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Requirements to publish a topology'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Requirements to publish a topology
 ms:assetid: 841cdf5d-d884-414d-ab50-3bb681b622ed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195733(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Delete a Call Park orbit range'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Delete a Call Park orbit range
 ms:assetid: 85e9f916-062d-450d-ac0a-aeaefc0f7cdc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182546(v=OCS.15)

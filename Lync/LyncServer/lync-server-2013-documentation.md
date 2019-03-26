@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Documentation'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Documentation
 ms:assetid: 5a69c0a2-0986-49c3-809c-89bc175a34ad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720335(v=OCS.15)

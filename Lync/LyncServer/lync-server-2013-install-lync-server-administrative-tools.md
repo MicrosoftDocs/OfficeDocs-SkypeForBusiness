@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Install Lync Server administrative tools'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Install Lync Server administrative tools
 ms:assetid: 842b85e4-2eeb-464f-b1c1-ceb8cc04f8d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398665(v=OCS.15)

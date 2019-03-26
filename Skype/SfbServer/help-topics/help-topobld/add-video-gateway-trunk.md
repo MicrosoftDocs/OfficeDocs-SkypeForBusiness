@@ -1,5 +1,6 @@
 ---
 title: "Add Video Gateway Trunk"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

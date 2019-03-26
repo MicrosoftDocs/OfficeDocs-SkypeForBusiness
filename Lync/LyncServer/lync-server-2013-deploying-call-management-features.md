@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploying call management features'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploying call management features
 ms:assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204706(v=OCS.15)

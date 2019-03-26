@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Choosing an E9-1-1 service provider'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Choosing an E9-1-1 service provider
 ms:assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398389(v=OCS.15)

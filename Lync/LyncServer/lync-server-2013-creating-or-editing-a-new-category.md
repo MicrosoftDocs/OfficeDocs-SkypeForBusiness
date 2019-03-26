@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Creating or editing a new category'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Creating or editing a new category
 ms:assetid: 895fa77f-3b79-47d3-836a-392e3781f13e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215879(v=OCS.15)

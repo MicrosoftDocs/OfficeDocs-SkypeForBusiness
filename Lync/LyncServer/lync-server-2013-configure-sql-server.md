@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure SQL Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure SQL Server
 ms:assetid: 84504918-cb4f-4b2f-be17-a70770b69025
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398669(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Installing SQL Server Reporting Services'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Installing SQL Server Reporting Services
 ms:assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204957(v=OCS.15)

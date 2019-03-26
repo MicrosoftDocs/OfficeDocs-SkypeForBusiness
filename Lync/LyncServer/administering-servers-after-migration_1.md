@@ -1,5 +1,8 @@
-﻿---
+---
 title: Administering servers after migration
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Administering servers after migration
 ms:assetid: 99c388d7-f6a9-4113-a140-b9be167f2049
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205106(v=OCS.15)

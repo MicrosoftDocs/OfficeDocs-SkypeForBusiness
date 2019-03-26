@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Certificate requirements for mobility'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Certificate requirements for mobility
 ms:assetid: bb0e97af-cf60-4271-a0ab-654429d884ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690044(v=OCS.15)

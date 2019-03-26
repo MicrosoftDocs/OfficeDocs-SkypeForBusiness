@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Using a stretched Persistent Chat Server pool for disaster recovery'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Using a stretched Persistent Chat Server pool for disaster recovery
 ms:assetid: 74c5287e-d70d-490a-9adc-ab419917ddd9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205007(v=OCS.15)

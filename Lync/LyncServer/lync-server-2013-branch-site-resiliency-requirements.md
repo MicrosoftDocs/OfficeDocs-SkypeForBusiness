@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Branch-site resiliency requirements'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Branch-site resiliency requirements
 ms:assetid: a570922c-52bd-42d7-bd64-226578b3d110
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412772(v=OCS.15)

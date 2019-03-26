@@ -1,5 +1,6 @@
 ---
 title: "Install Local Configuration Store (Invoke)"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

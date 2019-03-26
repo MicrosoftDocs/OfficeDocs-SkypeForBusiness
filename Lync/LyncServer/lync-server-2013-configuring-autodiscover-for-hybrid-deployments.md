@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring Autodiscover for hybrid deployments'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring Autodiscover for hybrid deployments
 ms:assetid: ca605e62-181c-42ca-80a1-e37e610f8277
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945653(v=OCS.15)

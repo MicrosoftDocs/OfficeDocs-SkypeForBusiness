@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Schema reference'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Schema reference
 ms:assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398370(v=OCS.15)

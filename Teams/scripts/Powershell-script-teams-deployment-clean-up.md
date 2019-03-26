@@ -1,5 +1,6 @@
 ---
 title: PowerShell Script Sample - Assists with Microsoft Teams Deployment Clean Up
+ms.reviewer: 
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars

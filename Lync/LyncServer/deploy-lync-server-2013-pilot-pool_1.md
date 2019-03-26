@@ -1,5 +1,8 @@
-﻿---
+---
 title: Deploy Lync Server 2013 pilot pool
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploy Lync Server 2013 pilot pool
 ms:assetid: 19c27053-8b21-401f-ad91-75c2dd355e91
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204718(v=OCS.15)

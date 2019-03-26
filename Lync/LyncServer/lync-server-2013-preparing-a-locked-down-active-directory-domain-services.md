@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Preparing a locked-down Active Directory Domain Services'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Preparing a locked-down Active Directory Domain Services
 ms:assetid: 68bde963-3fa3-4102-88d6-ac931c1dd2d7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398492(v=OCS.15)

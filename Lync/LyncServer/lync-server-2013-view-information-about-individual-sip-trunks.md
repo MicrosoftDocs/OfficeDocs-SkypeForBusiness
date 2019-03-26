@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: View information about individual SIP trunks'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: View information about individual SIP trunks
 ms:assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721847(v=OCS.15)

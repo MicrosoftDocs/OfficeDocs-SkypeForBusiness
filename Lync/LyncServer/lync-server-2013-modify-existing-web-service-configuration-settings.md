@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Modify existing Web Service configuration settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Modify existing Web Service configuration settings
 ms:assetid: bd9c7aa5-d31c-4fab-b31d-8baae26b1296
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182580(v=OCS.15)

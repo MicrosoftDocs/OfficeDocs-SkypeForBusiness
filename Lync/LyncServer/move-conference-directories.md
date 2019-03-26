@@ -1,5 +1,8 @@
-﻿---
+---
 title: Move conference directories
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Move conference directories
 ms:assetid: 71a28308-1f3b-4717-b535-2f4bfe3499a1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204994(v=OCS.15)

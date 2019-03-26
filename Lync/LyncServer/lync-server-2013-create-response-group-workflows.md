@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create Response Group workflows'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create Response Group workflows
 ms:assetid: 41272258-728d-42bd-b4d4-2a499734c720
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425918(v=OCS.15)

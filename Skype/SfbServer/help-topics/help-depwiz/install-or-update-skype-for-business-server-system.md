@@ -1,5 +1,6 @@
 ---
 title: "Install or Update Skype for Business Server System"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

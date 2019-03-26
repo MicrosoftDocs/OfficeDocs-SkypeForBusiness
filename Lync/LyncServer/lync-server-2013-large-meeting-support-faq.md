@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Large meeting support FAQ'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Lync Server large meeting support FAQ
 ms:assetid: 34b4fb6a-e35c-47e8-8ab1-f8331741fed2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204804(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Set up Skype for Business Online"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

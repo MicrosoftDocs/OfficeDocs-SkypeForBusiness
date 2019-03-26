@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Issues with the environment test'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Issues with the environment test
 ms:assetid: ff1fe0d3-35b2-41ef-87e7-6a61e9e1d2ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205421(v=OCS.15)

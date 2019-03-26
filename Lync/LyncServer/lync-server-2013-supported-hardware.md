@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Supported hardware'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Supported hardware
 ms:assetid: 5f9c085d-205e-4235-9061-9ad875283cb0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398423(v=OCS.15)

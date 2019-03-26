@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Restore a Device Update rule'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Restore a Device Update rule
 ms:assetid: ac490baf-c7a0-48d9-8fd0-ba5729489341
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994061(v=OCS.15)

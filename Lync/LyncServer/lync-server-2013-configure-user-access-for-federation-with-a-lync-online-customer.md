@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Configure user access for federation with a Lync Online customer'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure user access for federation with a Lync Online customer
 ms:assetid: 72cb1153-73b6-4da2-b5c3-de6e7aa642a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202177(v=OCS.15)

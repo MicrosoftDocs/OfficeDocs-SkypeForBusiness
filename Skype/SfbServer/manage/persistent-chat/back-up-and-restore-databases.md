@@ -1,5 +1,6 @@
 ---
 title: "Back up and restore Persistent Chat databases in Skype for Business Server 2015"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

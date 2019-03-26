@@ -1,5 +1,8 @@
 ---
 title: Setup
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Setup
 ms:assetid: aa06eb2e-b99b-4ba4-bbff-fbf15b1c81f1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945603(v=OCS.15)

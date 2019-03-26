@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: System usage reports'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: System usage reports
 ms:assetid: 187d316d-2456-417e-b636-05527a18ef06
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558618(v=OCS.15)

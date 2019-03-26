@@ -1,5 +1,6 @@
 ---
 title: Hardware requirements for the Microsoft Teams app
+ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars

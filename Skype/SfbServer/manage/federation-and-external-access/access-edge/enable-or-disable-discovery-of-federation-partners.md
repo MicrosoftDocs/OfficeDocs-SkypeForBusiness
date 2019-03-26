@@ -1,5 +1,6 @@
-﻿---
+---
 title: 'Enable or disable discovery of federation partners'
+ms.reviewer: 
 ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182550(v=OCS.15)
 ms:contentKeyID: 48184857

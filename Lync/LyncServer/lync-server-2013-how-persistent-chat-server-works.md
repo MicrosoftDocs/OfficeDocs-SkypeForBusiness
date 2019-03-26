@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: How Persistent Chat Server works'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: How Persistent Chat Server works
 ms:assetid: 3d04e9a1-3f0c-458e-bcbe-d27c8c464276
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ683096(v=OCS.15)

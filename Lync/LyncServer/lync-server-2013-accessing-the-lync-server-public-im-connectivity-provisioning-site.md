@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Accessing the Lync Server public IM connectivity provisioning site'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Accessing the Lync Server public IM connectivity provisioning site
 ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440174(v=OCS.15)

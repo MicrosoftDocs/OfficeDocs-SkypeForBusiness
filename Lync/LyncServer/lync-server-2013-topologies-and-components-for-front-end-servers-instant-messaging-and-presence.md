@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Topologies and components for Front End Servers, instant messaging, and presence'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Topologies and components for Front End Servers, instant messaging, and presence
 ms:assetid: f08ce7a1-d14e-4a54-9771-a82c870658bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412996(v=OCS.15)

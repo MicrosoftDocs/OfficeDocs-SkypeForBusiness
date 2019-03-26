@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: View dial-in conferencing access numbers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: View dial-in conferencing access numbers
 ms:assetid: 41a7dfb4-0c89-4650-b61b-0e1bf875c62b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688037(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Advanced Enterprise Voice cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Advanced Enterprise Voice cmdlets
 ms:assetid: 247179fb-1c66-4edb-8401-1c1aad189062
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415637(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Using the Lync Server 2010 management packs in a coexistence scenario'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Using the Lync Server 2010 management packs in a coexistence scenario
 ms:assetid: 8b792503-bd88-47fe-9d97-b071e8d429a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205078(v=OCS.15)

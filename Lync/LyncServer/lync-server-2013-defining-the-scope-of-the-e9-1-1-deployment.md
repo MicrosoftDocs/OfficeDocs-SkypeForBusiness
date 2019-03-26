@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Defining the scope of the E9-1-1 deployment'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Defining the scope of the E9-1-1 deployment
 ms:assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425775(v=OCS.15)

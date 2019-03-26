@@ -1,5 +1,8 @@
-﻿---
+---
 title: Test Persistent Chat Server with a synthetic transaction
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Test Persistent Chat Server with a synthetic transaction
 ms:assetid: 414e43f3-0074-4ecf-a232-398de972cb24
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204837(v=OCS.15)

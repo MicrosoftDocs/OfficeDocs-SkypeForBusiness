@@ -1,5 +1,6 @@
 ---
 title: "Admins Configure Skype for Business settings for individual users"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring the use of high-resolution photos'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring the use of high-resolution photos in Lync Server 2013
 ms:assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688150(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 deployment checklist for A/V conferencing
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deployment checklist for A/V conferencing
 ms:assetid: 6d47426f-6559-407b-9ac1-2453f0b7a2a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619183(v=OCS.15)

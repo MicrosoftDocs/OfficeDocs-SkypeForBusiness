@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: View Device Update configuration settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: View Device Update configuration settings
 ms:assetid: aa6a70a9-bd77-4606-b797-ea6a3bab9cf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994059(v=OCS.15)

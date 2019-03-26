@@ -1,5 +1,6 @@
 ---
 title: "Add VIS Machine"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

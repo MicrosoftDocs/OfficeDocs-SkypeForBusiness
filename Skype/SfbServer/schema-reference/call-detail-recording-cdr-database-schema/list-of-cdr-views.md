@@ -1,5 +1,6 @@
 ---
 title: "List of CDR views"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

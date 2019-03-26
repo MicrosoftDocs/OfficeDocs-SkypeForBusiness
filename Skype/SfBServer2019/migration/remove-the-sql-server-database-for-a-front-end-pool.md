@@ -1,5 +1,6 @@
 ---
 title: "Remove the SQL Server database for a Front End pool"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

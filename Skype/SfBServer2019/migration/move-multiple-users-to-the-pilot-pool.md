@@ -1,5 +1,6 @@
 ---
 title: "Move multiple users to the pilot pool"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

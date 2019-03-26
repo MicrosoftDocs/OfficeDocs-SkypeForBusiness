@@ -1,5 +1,6 @@
 ---
 title: "Upgrade to Skype for Business Server 2015" 
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

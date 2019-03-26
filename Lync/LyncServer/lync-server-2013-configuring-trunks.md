@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring trunks'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring trunks
 ms:assetid: 0c339511-a185-484e-94f0-dbe918b7e48a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398170(v=OCS.15)

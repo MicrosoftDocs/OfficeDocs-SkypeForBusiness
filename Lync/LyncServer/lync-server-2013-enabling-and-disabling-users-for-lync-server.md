@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Enabling and disabling users for Lync Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Enabling and disabling users for Lync Server 2013
 ms:assetid: 796ac454-58a9-41ac-80c2-3723a127d214
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688099(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Testing PSTN peer to peer call'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Testing PSTN peer to peer call
 ms:assetid: 7e128eef-9ada-49b4-940f-97d7d13f1e4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690131(v=OCS.15)

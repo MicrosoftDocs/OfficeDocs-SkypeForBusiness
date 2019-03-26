@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Voice routes'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Voice routes
 ms:assetid: a2ddf327-2ec4-407b-af0f-276f2b13eefd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412757(v=OCS.15)

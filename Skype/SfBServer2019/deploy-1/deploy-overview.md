@@ -1,5 +1,6 @@
 ---
 title: "Deploy Skype for Business Server 2019"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

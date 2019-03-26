@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Choosing a topology'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Choosing a topology
 ms:assetid: 23f2aeb6-fed9-4349-8fba-dcbf18ee4b04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425716(v=OCS.15)

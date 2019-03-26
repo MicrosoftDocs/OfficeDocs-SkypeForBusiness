@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Location Trend Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Location Trend Report
 ms:assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204941(v=OCS.15)

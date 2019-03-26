@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: New IPv6 features'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: New IPv6 features
 ms:assetid: fafe1ba6-5a58-4e74-bbf7-856ccc73490b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205409(v=OCS.15)

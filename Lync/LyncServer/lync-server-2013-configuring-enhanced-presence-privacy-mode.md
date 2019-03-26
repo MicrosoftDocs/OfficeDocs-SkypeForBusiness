@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring enhanced presence privacy mode'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring enhanced presence privacy mode
 ms:assetid: e7a6b873-486d-4dfb-a967-c48f61f237f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399028(v=OCS.15)

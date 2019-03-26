@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deployment process for the Announcement application'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deployment process for the Announcement application
 ms:assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398545(v=OCS.15)

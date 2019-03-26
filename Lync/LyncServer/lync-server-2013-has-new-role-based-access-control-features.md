@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 has new role based access control features
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: New role based access control (RBAC) features
 ms:assetid: 22b4ac42-f234-4b86-bb0c-f20d476205fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398297(v=OCS.15)

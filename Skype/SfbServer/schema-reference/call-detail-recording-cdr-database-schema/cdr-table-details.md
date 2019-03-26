@@ -1,5 +1,6 @@
 ---
 title: "CDR table details in Skype for Business Server 2015"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

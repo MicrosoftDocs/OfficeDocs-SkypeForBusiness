@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploying Lync Server 2013 Standard Edition into an existing Lync Server 2013 Enterprise
 ms:assetid: 05ea128d-6c94-49b3-b28b-477367196425
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398112(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: New Group Call Pickup feature'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: New Group Call Pickup feature
 ms:assetid: 59ec90d6-0ec6-4635-91f9-78a6dd02b93c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945630(v=OCS.15)

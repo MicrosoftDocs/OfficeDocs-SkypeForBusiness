@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 web conferencing overview
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Web conferencing overview
 ms:assetid: 40616dc4-f705-4890-85bf-79f76a033a9b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425913(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 dial-in conferencing requirements
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Dial-in conferencing requirements
 ms:assetid: 9aff949e-3dac-481a-be46-a180c72e8066
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398802(v=OCS.15)

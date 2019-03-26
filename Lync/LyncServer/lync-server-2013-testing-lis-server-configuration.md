@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Testing LIS server configuration'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Testing LIS server configuration
 ms:assetid: 6b06e7ab-522f-41a2-878b-e89cd4e3c6da
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690129(v=OCS.15)

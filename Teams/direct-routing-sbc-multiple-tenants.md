@@ -1,5 +1,6 @@
 ---
 title: "Configure a Session Border Controller for multiple tenants"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

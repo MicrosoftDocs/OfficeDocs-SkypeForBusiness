@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Setting up public instant messaging connectivity'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Setting up public instant messaging connectivity
 ms:assetid: 816dea2a-96fa-4a36-b6c2-a9402675868b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205041(v=OCS.15)

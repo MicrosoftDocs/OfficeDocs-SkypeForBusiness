@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: VideoStreamDetail view'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: VideoStreamDetail view
 ms:assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721928(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: ConferenceMessageCount view'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: ConferenceMessageCount view
 ms:assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688129(v=OCS.15)
