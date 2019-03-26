@@ -1,5 +1,6 @@
 ---
 title: "Skype for Business Server 2015 Resource Kit Tools Documentation"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

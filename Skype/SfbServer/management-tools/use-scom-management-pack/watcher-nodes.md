@@ -1,5 +1,6 @@
 ---
 title: "Install and configure watcher nodes"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars
