@@ -148,13 +148,13 @@ Another option is for admins to run the **Add-StaffHubMember** and **Remove-Staf
  
 #### What happens to chats in StaffHub?
 
-To help transition users, we plan to migrate data chat history in StaffHub to Teams. The amount of chat history that will be available in Teams depends on how soon you configure your organization for the transition. We recommend taking action no later than June 30, 2019 to provide enough time to transition 90 days of data by October 1, 2019. 
+To help transition users, we plan to migrate data chat history in StaffHub to Teams. The amount of chat history that will be available in Teams depends on how soon you configure your organization for the transition. We recommend taking action no later than June 30, 2019 to provide enough time to transition 90 days of data by October 1, 2019.
 
 Ensure that Office 365 Group creation is enabled in the Microsoft 365 admin center before the transition begins, as this is essential to us being able to move your StaffHub chat data into Teams. Failure to turn on this service by June 30, 2019, will result in a later migration date or less chat data being copied over.
  
-#### What happens to the Files feature in StaffHub?-FOLLOWUP 
+#### What happens to the Files feature in StaffHub?-FOLLOWUP
 
-Starting **placeholder for date**, any file that users upload to StaffHub is copied to the **Files** tab in the General channel of the team in Teams. 
+Starting **placeholder for date**, any file that users upload to StaffHub is copied to the **Files** tab in the General channel of the team in Teams.
 
 For files that were uploaded before **placeholder date**, you can move them to Teams. Here's how.
 
@@ -178,7 +178,7 @@ Teams supports connections to Kronos through the Kronos bot, which can be added 
 #### How do I move my corporate resources from the StaffHub admin page?-FOLLOWUP
 
 Lana - do you know if Teams template allows admins to create tabs in Teams to point to specific URLS or install default apps?
-Lisa - looks like templates can be used to install apps and pin tabs. See https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-templates, which lists base template types. 
+Lisa - looks like templates can be used to install apps and pin tabs. See https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-templates, which lists base template types.
 
 #### What happens to corporate announcements in StaffHub?-FOLLOWUP
  
@@ -188,7 +188,7 @@ There are no current plans to support custom fields in Teams.
 
 Be sure to check the [roadmap](https://www.microsoft.com/en-ca/microsoft-365/roadmap?rtc=1) to stay on top of upcoming features in Teams.
 
-#### Is time clock export and download supported in Shifts? 
+#### Is time clock export and download supported in Shifts?
 
 Yes, this is available through the Shifts web app.
  
@@ -208,11 +208,11 @@ Deleting a schedule is linked to deleting a team. If you recover a team, the sch
 
 The file sharing capability, the ability for a firstline manager to distribute files to firstline workers, is powered on the back end by SharePoint Online. When a team is created, an Office 365 Group is automatically provisioned for that team in the background.
 
-To learn more, see [How SharePoint Online and OneDrive for Business interact with Teams](../../SharePoint-OneDrive-interact.md)
+To learn more, see [How SharePoint Online and OneDrive for Business interact with Teams](../../SharePoint-OneDrive-interact.md).
  
 #### Is there integration between Shifts and the Outlook calendar? Can I export a schedule to a calendar?
  
-Firstline workers can see their entire work schedule at a glance in Shifts. We'll be supporting native integration with Outlook calendar as part of our roadmap. In the meantime, use Microsoft Flow to set up integration with Shifts in Teams and Outlook and Google calendars. 
+Firstline workers can see their entire work schedule at a glance in Shifts. We'll be supporting native integration with Outlook calendar as part of our roadmap. In the meantime, use Microsoft Flow to set up integration with Shifts in Teams and Outlook and Google calendars.
 
 #### Do I need to train users on how to use Shifts if they're already familiar with StaffHub?
 
