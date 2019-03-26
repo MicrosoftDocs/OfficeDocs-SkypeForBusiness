@@ -1,5 +1,8 @@
-﻿---
+---
 title: Enable Exchange 2013 Outlook Web App and IM integration
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Enable Exchange 2013 Outlook Web App and IM integration
 ms:assetid: 44d08cf0-b17d-46e1-a4f0-fcc2fe96a958
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204857(v=OCS.15)

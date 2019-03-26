@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create a user policy for Persistent Chat'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create a user policy for Persistent Chat
 ms:assetid: aa3774af-d442-4206-8a68-2fbb9102e9d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205170(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuration requirements for reverse proxy'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuration requirements for reverse proxy
 ms:assetid: c37d688a-28e4-4822-80cc-6add59c71052
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945651(v=OCS.15)

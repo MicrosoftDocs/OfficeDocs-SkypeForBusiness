@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Installing the Lync Server 2013 core files and the RTCLocal database'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Installing the Lync Server 2013 core files and the RTCLocal database
 ms:assetid: 206f0c1d-40f7-45b6-aa62-88aaef6cf7f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204734(v=OCS.15)

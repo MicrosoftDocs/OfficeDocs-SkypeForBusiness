@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Scenarios for Location-Based Routing'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Scenarios for Location-Based Routing
 ms:assetid: a5e9355a-a64b-46fe-a1ff-25550b46cc35
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994064(v=OCS.15)

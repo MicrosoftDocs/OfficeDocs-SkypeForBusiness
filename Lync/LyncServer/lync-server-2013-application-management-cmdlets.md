@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Application management cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Application management cmdlets
 ms:assetid: 3b06d974-bda8-4ea6-b8fb-4d9e60265868
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415646(v=OCS.15)

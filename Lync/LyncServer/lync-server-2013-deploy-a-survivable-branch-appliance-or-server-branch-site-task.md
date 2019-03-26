@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Deploy a Survivable Branch Appliance or Server - branch site task'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploy a Survivable Branch Appliance or Server - branch site task
 ms:assetid: 7989ba29-0419-46dd-892c-4ad3238afd56
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398599(v=OCS.15)

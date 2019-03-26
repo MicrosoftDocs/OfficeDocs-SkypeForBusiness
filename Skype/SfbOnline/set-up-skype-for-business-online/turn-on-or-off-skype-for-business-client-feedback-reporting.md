@@ -1,5 +1,6 @@
 ---
 title: "Turn on or off Skype for Business client feedback reporting"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

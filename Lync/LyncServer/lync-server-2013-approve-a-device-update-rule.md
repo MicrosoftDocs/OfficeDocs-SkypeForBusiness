@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Approve a Device Update rule'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Approve a Device Update rule
 ms:assetid: 9dbb1c9a-be0f-4e13-9234-05501ab43ac5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994053(v=OCS.15)

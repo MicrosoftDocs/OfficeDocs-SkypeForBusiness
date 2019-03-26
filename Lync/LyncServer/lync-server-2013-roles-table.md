@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Roles table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Roles table
 ms:assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399043(v=OCS.15)

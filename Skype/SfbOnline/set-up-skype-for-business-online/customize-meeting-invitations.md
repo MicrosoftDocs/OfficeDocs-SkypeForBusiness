@@ -1,5 +1,6 @@
 ---
 title: "Customize meeting invitations"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

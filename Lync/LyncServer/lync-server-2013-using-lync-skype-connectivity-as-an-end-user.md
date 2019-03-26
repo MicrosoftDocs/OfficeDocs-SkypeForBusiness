@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Using Lync-Skype connectivity as an end user'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Using Lync-Skype connectivity as an end user
 ms:assetid: ad22f731-118c-4349-8790-b1a72941cbdd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440175(v=OCS.15)

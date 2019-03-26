@@ -1,5 +1,6 @@
 ---
 title: "Add Persistent Chat Compliance SQL Server Store"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

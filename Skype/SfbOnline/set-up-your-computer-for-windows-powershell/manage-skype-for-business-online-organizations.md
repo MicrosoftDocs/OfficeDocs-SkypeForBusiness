@@ -1,5 +1,6 @@
 ---
 title: "Manage Skype for Business Online organizations"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

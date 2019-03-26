@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Dial-in conferencing cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Dial-in conferencing cmdlets
 ms:assetid: 0718f82a-91c4-466f-8443-a85002deaa48
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415630(v=OCS.15)

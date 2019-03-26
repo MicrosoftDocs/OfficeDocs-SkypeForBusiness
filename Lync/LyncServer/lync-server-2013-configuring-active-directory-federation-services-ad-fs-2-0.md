@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring Active Directory Federation Services (AD FS 2.0)'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring Active Directory Federation Services (AD FS 2.0)
 ms:assetid: 0ba8657f-55b8-41b3-960c-fdc5eeee6978
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308561(v=OCS.15)

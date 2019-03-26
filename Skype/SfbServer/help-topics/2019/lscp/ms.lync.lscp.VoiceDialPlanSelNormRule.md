@@ -1,5 +1,6 @@
 ---
 title: "Select Normalization Rules"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

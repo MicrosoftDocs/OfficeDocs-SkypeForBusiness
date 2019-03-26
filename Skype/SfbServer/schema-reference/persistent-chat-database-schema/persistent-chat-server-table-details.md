@@ -1,5 +1,6 @@
 ---
 title: "Persistent Chat Server table details"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

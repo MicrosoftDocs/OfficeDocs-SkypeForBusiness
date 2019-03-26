@@ -1,5 +1,8 @@
-﻿---
+---
 title: Decommissioning servers and pools
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Decommissioning servers and pools
 ms:assetid: 83bb222c-03f8-46ec-a54d-f80d00dfced2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205053(v=OCS.15)

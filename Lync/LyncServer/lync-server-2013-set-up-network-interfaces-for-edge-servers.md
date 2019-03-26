@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Set up network interfaces for Edge Servers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Set up network interfaces for Edge Servers
 ms:assetid: b0aecdf6-4ae2-46f6-b9b6-948bfc3df11e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412847(v=OCS.15)

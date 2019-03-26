@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Setting up reverse proxy servers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Setting up reverse proxy servers
 ms:assetid: 00bc138a-243f-4389-bfa5-9c62fcc95132
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398069(v=OCS.15)

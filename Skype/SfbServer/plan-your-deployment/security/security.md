@@ -1,5 +1,6 @@
 ---
 title: "Plan for security in Skype For Business Server"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

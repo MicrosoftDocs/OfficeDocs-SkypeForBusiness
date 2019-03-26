@@ -1,5 +1,6 @@
 ---
 title: Apps, bots, & connectors in Microsoft Teams
+ms.reviewer: 
 description: Use these deployment resources to help you deploy apps in Microsoft.
 ms.topic: article
 author: LolaJacobsen

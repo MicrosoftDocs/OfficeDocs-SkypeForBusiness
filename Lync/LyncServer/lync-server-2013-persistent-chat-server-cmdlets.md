@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Persistent Chat Server cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Persistent Chat Server cmdlets
 ms:assetid: 5aa59edb-db57-406f-9fbd-54bf1a55d31b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204920(v=OCS.15)

@@ -1,5 +1,6 @@
-﻿---
+---
 title: 'Managing disaster recovery, high availability, and Backup Service'
+ms.reviewer: 
 author: heidip
 manager: serdars
 ms.audience: ITPro

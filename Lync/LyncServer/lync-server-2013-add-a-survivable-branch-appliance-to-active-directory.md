@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Add a Survivable Branch Appliance to Active Directory'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Add a Survivable Branch Appliance to Active Directory
 ms:assetid: 3e63507c-d60b-40ec-8bbe-586b1d707c3e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425906(v=OCS.15)

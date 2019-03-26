@@ -1,5 +1,6 @@
 ---
 title: "Translation Rule Type a Regular Expression"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

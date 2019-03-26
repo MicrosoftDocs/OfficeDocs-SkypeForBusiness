@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync 2013: Updates for client and server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Updates for Lync
 ms:assetid: c4341430-7c0b-4119-aa08-91791e95d8c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn798863(v=OCS.15)

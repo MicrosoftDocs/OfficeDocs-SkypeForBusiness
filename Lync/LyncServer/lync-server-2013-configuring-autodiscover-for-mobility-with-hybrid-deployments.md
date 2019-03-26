@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Configuring Autodiscover for mobility with hybrid deployments'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring Autodiscover for mobility with hybrid deployments
 ms:assetid: f838af79-d8b4-4122-b81c-7889573d143e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215885(v=OCS.15)

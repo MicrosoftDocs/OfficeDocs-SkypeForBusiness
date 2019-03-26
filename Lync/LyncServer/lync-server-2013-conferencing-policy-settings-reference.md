@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Conferencing policy settings reference'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Conferencing policy settings reference
 ms:assetid: ec8125f7-ef78-4a2b-8db0-4dd3cf5a4065
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429724(v=OCS.15)

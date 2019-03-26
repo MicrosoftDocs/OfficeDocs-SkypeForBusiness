@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: DNS requirements for Persistent Chat Servers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: DNS requirements for Persistent Chat Servers
 ms:assetid: f7531374-d7ed-4b63-ae81-02294cb4496a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205391(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: User Registration Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: User Registration Report
 ms:assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558614(v=OCS.15)

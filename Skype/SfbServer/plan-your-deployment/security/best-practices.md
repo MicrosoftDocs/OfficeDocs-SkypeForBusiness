@@ -1,5 +1,6 @@
 ---
 title: "Best practices for your core infrastructure in Skype for Business Server"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

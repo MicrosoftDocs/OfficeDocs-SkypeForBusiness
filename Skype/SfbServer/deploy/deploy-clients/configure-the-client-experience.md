@@ -1,5 +1,6 @@
 ---
 title: "Configure the client experience with Skype for Business 2015"
+ms.reviewer: 
 ms.author: chucked
 author: chuckedmonson
 manager: serdars

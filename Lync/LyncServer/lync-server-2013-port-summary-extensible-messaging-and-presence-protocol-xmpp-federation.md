@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Port summary -  Extensible messaging and presence protocol (XMPP) federation'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Port summary -  Extensible messaging and presence protocol (XMPP) federation
 ms:assetid: 62e98fab-7add-4983-a3fa-dbe74e1c3849
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618371(v=OCS.15)

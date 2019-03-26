@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: ConferenceUris table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: ConferenceUris table
 ms:assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412854(v=OCS.15)

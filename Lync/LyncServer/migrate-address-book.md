@@ -1,5 +1,8 @@
-﻿---
+---
 title: Migrate Address Book
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Migrate Address Book
 ms:assetid: ac7f0f39-4c6d-4702-8e25-93a73e3d800f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205160(v=OCS.15)

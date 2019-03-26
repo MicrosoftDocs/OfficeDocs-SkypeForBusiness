@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Peer-to-Peer IM Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Peer-to-Peer IM Report
 ms:assetid: 19ec0145-2398-437b-8989-f780c179b798
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558620(v=OCS.15)

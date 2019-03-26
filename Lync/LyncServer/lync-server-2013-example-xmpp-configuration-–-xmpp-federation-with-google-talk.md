@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Example XMPP configuration – XMPP federation with Google Talk'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Example XMPP configuration – XMPP federation with Google Talk
 ms:assetid: 360a2f7b-015b-4e93-ac67-0f609c21f1a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204807(v=OCS.15)

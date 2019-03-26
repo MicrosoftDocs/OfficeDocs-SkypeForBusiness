@@ -1,5 +1,8 @@
-﻿---
+---
 title: Migrating multiple sites and pools
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Migrating multiple sites and pools
 ms:assetid: a6d726d2-564d-4b39-a97c-5656a673292a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205165(v=OCS.15)

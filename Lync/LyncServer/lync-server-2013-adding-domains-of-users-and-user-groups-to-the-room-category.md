@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Adding domains of users and user groups to the room category'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Adding domains of users and user groups to the room category
 ms:assetid: ee03f2cf-1c84-41c4-b524-d0729be33b8c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215884(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deleting network subnets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deleting network subnets
 ms:assetid: c1850f38-40a3-48c9-b6f1-f181c5e63b6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721873(v=OCS.15)

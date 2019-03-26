@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: IP Phone Inventory Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: IP Phone Inventory Report
 ms:assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615027(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing meetings and conferences'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing meetings and conferences
 ms:assetid: 8d292e37-bf86-4762-8c28-ff6402505215
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182548(v=OCS.15)

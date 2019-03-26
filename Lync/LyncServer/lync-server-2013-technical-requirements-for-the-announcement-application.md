@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Technical requirements for the Announcement application'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Technical requirements for the Announcement application
 ms:assetid: fbd8c204-3765-4b22-a0c9-a781b5126366
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205413(v=OCS.15)

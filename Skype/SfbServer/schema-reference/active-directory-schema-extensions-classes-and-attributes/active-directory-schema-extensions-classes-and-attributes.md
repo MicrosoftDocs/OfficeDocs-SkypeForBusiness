@@ -1,5 +1,6 @@
 ---
 title: "Active Directory schema extensions, classes, and attributes"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

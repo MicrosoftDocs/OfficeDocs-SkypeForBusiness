@@ -1,5 +1,6 @@
 ---
 title: "Port and protocol requirements for servers"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

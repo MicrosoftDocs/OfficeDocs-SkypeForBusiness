@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 E9-1-1 support
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: E9-1-1 support
 ms:assetid: 1505daa5-ce84-4153-ae7f-8f70b324c43f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398220(v=OCS.15)

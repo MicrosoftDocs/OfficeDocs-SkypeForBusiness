@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Hardware setup'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Hardware setup
 ms:assetid: 37a9f295-cde3-4beb-9a6a-2580082798ab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425852(v=OCS.15)

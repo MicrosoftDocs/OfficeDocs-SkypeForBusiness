@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Data collection'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Data collection
 ms:assetid: e40b03e5-455d-4bbc-831a-c61b1380db53
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399008(v=OCS.15)

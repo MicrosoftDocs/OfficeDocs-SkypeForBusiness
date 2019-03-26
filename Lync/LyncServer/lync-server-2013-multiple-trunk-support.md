@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Multiple trunk support'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Multiple trunk support
 ms:assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205127(v=OCS.15)

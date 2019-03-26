@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Installing Lync Server 2013 Monitoring Reports'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Installing Lync Server 2013 Monitoring Reports
 ms:assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204989(v=OCS.15)

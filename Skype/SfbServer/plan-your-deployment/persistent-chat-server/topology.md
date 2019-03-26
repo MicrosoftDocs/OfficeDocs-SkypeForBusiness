@@ -1,5 +1,6 @@
 ---
 title: "Plan Persistent Chat Server topology"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

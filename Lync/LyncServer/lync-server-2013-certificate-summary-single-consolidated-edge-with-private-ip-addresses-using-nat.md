@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Certificate summary - Single consolidated edge with private IP addresses using NAT'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Certificate summary - Single consolidated edge with private IP addresses using NAT
 ms:assetid: 6de6680e-5f47-48e6-8e06-4994d710ea6d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398519(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: User Activity Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: User Activity Report
 ms:assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558638(v=OCS.15)

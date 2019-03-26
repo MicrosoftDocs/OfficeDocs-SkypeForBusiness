@@ -1,5 +1,8 @@
-﻿---
+---
 title: Verify federation and remote access for external users
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Verify federation and remote access for external users
 ms:assetid: a383fefb-c428-4462-93fd-15ba540fa867
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688163(v=OCS.15)

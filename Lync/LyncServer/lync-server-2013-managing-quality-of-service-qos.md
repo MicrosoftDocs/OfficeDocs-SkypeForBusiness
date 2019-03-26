@@ -1,5 +1,6 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing Quality of Service (QoS)'
+ms.reviewer: 
 TOCTitle: Managing Quality of Service (QoS)
 author: kenwith
 ms.author: kenwith

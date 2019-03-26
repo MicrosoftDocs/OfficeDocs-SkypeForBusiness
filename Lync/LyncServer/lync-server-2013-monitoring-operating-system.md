@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Monitoring operating system'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Monitoring operating system
 ms:assetid: 72406d3e-54c8-4796-8d6d-2144a5b6f030
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720918(v=OCS.15)

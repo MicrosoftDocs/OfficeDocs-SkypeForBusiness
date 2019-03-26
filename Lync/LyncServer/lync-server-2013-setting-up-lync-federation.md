@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Setting up Lync federation'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Setting up Lync federation
 ms:assetid: 374ddc43-26f9-499d-be68-a5158adfa49c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204800(v=OCS.15)

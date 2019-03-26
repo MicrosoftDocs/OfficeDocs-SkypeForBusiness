@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: DNS requirements for automatic client sign-in'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: DNS requirements for automatic client sign-in
 ms:assetid: 3bcd4bb3-a022-4ffa-b005-1a95ad2b1796
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425884(v=OCS.15)

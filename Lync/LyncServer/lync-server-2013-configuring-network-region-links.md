@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring network region links'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring network region links
 ms:assetid: 952bc93e-e6aa-4539-85c7-2b15f14eb382
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182551(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Add Edge Server Options for Lync Server 2010"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

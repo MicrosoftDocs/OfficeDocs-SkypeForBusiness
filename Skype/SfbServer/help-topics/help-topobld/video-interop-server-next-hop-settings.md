@@ -1,5 +1,6 @@
 ---
 title: "Video Interop Server Next Hop Settings"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

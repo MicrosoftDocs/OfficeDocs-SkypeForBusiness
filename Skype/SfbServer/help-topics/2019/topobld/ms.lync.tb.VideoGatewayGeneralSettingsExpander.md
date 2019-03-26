@@ -1,5 +1,6 @@
 ---
 title: "Video Gateway General Settings"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Port summary - Single consolidated edge with private IP addresses using NAT'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Port summary - Single consolidated edge with private IP addresses using NAT
 ms:assetid: 3c1a389f-5f42-4719-a05b-e0b84aa3eb9e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425891(v=OCS.15)

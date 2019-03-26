@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Check Lync Server 2013 server certificates'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Check server certificates
 ms:assetid: 7b0474e8-0efe-47f0-84eb-a1ba575dabfd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725210(v=OCS.15)

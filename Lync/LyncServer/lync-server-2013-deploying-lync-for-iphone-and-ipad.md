@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploying Lync for iPhone and iPad'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploying Lync for iPhone and iPad
 ms:assetid: becd732f-4515-48bb-bdce-e7d09ac85621
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690994(v=OCS.15)
