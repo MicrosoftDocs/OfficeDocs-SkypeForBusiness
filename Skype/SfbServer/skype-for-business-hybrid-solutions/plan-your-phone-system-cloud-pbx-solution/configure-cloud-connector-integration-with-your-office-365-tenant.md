@@ -1,5 +1,6 @@
 ---
 title: "Configure Cloud Connector integration with your Office 365 tenant"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
