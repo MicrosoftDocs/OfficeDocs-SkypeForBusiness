@@ -1,5 +1,6 @@
 ---
 title: "Add Edge Machine External IPv4"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

@@ -1,5 +1,6 @@
 ---
 title: "Edit Office Web Apps Server Settings"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

@@ -1,5 +1,6 @@
 ---
 title: "Video Interop Server - Scope the Node"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

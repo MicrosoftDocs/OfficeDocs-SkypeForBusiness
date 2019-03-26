@@ -1,5 +1,6 @@
 ---
 title: "Legacy Merge Edge Type"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars
