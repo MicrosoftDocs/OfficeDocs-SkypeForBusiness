@@ -15,7 +15,8 @@ appliesto:
 ---
 
 # Teams for Education
-placeholder 
+
+With Teams, your school or institution can create collaborative classrooms, connect in professional learning communities, and communicate with school staff. Use the admin resources here to help you successfuly deploy, adopt, and manage Teams in your institution.  
 
 <ul class="panelContent cardsFTitle">
     <li>

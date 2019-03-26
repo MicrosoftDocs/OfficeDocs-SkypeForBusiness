@@ -116,7 +116,7 @@ Ensure that each user is covered with a Teams license from a qualified plan. For
 
 For detailed guidance on how to make the transition from StaffHub to Teams, see [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
-#### How do I enable Teams in my organization?-FOLLOWUP
+#### How do I enable Teams in my organization?
 
 By default, Teams is enabled for all organizations. You assign Teams licenses to users to control individual access to Teams. For more information, see [Enable Teams in your organization](../../Office-365-set-up.md) and [Manage user access to Teams](../../user-access.md).
 
@@ -242,4 +242,4 @@ Because Shifts is an app in Teams, you can view usage through Teams reports. For
 
 #### Where can I provide feedback?
   
-In the mobile app, tap the **More** icon in the upper left of the screen, go to **Settings** > **Send feedback** or **Report an issue**. Similarly, in the desktop and web apps, in the lower left of the screen, go **Help** > **Share an idea** or **Report an issue**.
+In the mobile app, tap **More** in the upper left of the screen, go to **Settings** > **Send feedback** or **Report an issue**. Similarly, in the desktop and web apps, in the lower left of the screen, go **Help** > **Share an idea** or **Report an issue**.

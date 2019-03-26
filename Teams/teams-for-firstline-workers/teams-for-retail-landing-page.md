@@ -16,7 +16,7 @@ appliesto:
 
 # Teams for Retail
 
-placeholder
+Use the admin resources here to manage and get the most of of Teams for your retail stores and workforce.
 
 <ul class="panelContent cardsFTitle">
     <li>
