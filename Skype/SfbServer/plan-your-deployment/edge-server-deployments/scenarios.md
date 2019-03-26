@@ -1,5 +1,6 @@
 ---
 title: "Edge Server scenarios in Skype for Business Server"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
