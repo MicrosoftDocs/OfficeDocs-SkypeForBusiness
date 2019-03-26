@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Technical requirements for Persistent Chat Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Technical requirements for Persistent Chat Server
 ms:assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398495(v=OCS.15)

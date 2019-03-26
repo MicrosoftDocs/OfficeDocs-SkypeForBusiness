@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure a trunk without media bypass'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure a trunk without media bypass
 ms:assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425831(v=OCS.15)

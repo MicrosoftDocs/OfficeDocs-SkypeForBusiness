@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure certificates for servers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure certificates for servers
 ms:assetid: e12e59b5-a146-4859-86ec-cabfc198c7b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398995(v=OCS.15)

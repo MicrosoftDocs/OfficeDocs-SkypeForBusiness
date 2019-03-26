@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Phase 7: Complete post-migration tasks'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: 'Phase 7: Complete post-migration tasks'
 ms:assetid: 709ef27e-78eb-4b63-a62d-348711687b1c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204998(v=OCS.15)

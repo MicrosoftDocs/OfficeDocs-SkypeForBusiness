@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create a voice policy and configure PSTN usage records'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create a voice policy and configure PSTN usage records
 ms:assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399027(v=OCS.15)

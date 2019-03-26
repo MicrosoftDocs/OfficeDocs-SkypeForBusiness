@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Publish the topology'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Publish the topology
 ms:assetid: 3b5a744b-b3a8-4538-a55e-e2e4f72dff47
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425880(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Application table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Application table
 ms:assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425808(v=OCS.15)

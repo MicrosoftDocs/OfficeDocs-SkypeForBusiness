@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Testing watcher node configuration'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Testing watcher node configuration
 ms:assetid: f9ecd85c-0ae9-4906-b786-6b002b5a77c6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn751537(v=OCS.15)

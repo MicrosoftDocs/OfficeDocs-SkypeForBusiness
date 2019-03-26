@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Port summary - Scaled consolidated edge, DNS load balancing with public IP addresses'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Port summary - Scaled consolidated edge, DNS load balancing with public IP addresses
 ms:assetid: f7cbd0f1-841d-4116-8d17-e9d991daa4a8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205394(v=OCS.15)

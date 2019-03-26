@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Defining your requirements for emergency calls'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Defining your requirements for emergency calls
 ms:assetid: 5c12b517-9be6-41d0-83e2-11c78793620c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398404(v=OCS.15)

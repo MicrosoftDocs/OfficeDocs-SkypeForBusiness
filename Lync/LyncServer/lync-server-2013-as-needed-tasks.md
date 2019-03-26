@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: As-needed tasks'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: As-needed tasks
 ms:assetid: b66bc6fe-f138-4cf4-ba7f-aee9a3e0497e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn722431(v=OCS.15)

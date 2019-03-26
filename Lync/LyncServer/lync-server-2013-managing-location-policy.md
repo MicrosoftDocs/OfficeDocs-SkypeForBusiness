@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing location policy'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing location policy
 ms:assetid: 59742679-7e3d-4f1d-8992-a4720b7a123a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688069(v=OCS.15)

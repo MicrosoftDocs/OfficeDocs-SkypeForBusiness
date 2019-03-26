@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deployment overview'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deployment overview
 ms:assetid: da67555e-f410-4c37-9996-d511f37da8d1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205305(v=OCS.15)

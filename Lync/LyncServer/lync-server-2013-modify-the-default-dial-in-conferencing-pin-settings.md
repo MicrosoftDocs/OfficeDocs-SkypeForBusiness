@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Modify the default dial-in conferencing PIN settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Modify the default dial-in conferencing PIN settings
 ms:assetid: 2d110e94-ad29-4755-b17f-d8c2da9b78a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425780(v=OCS.15)

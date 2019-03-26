@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Overview of Best Practices Analyzer'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Overview of Best Practices Analyzer
 ms:assetid: c5fcaa05-eb1c-4092-90ad-177b127e795b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591349(v=OCS.15)

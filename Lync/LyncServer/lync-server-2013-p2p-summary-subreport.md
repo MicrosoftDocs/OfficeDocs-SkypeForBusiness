@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: P2P Summary Subreport'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: P2P Summary Subreport
 ms:assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205416(v=OCS.15)

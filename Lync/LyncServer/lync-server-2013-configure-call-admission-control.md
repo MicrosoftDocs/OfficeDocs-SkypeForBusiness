@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure call admission control'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure call admission control
 ms:assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398870(v=OCS.15)

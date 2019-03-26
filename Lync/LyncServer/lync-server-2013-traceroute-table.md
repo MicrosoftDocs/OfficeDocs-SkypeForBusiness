@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: TraceRoute table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: TraceRoute table
 ms:assetid: b9493cef-6ece-4f13-bf68-dbf132aab4f4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205205(v=OCS.15)

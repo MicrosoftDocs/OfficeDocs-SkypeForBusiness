@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 reference topology for small organizations
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Reference topology for small organizations
 ms:assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398095(v=OCS.15)

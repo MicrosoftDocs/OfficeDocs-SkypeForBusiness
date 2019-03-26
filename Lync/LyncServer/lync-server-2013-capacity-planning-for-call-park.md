@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Capacity planning for Call Park'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Capacity planning for Call Park
 ms:assetid: 75520310-760a-4b1b-bcc1-4d724d13f87a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416493(v=OCS.15)

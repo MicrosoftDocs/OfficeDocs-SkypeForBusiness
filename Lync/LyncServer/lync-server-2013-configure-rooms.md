@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure rooms'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure rooms
 ms:assetid: 8956bd2c-c863-4704-bc65-5c0d83556258
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205067(v=OCS.15)

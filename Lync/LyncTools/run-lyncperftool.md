@@ -1,5 +1,8 @@
 ---
 title: Run LyncPerfTool
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Run LyncPerfTool
 ms:assetid: f2fd1940-d744-47b5-b299-04a914039182
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945612(v=OCS.15)

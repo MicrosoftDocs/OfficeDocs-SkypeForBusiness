@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Desktop client comparison tables'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Desktop client comparison tables
 ms:assetid: 34e24103-aec7-4471-a155-933b6fb83c95
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425836(v=OCS.15)

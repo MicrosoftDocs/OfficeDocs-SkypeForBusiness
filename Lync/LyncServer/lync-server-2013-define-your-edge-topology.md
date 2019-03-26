@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Define your edge topology'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Define your edge topology
 ms:assetid: 787b23f1-8fa0-4c37-abf2-c516c5dd66f0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398591(v=OCS.15)

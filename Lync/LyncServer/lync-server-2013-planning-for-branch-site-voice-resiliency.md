@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Planning for branch-site voice resiliency'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Planning for branch-site voice resiliency
 ms:assetid: 67713f57-3ded-4127-ac37-57d8099bf384
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398477(v=OCS.15)

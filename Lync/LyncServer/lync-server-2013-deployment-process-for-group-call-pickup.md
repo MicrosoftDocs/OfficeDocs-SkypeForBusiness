@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deployment process for Group Call Pickup'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deployment process for Group Call Pickup
 ms:assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945615(v=OCS.15)

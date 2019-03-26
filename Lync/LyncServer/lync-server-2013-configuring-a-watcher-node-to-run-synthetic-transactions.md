@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring a watcher node to run synthetic transactions'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring a watcher node to run synthetic transactions
 ms:assetid: cedda508-8881-4079-88d5-49798f342ddf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205314(v=OCS.15)

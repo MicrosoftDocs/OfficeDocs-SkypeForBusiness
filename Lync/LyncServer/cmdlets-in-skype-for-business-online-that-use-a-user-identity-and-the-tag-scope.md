@@ -1,5 +1,8 @@
-﻿---
+---
 title: Cmdlets in Skype for Business Online that use a user identity and the tag scope
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Cmdlets that use a user identity and the tag scope
 ms:assetid: 344a21b0-5301-4e77-853a-970bb1c11e1d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362781(v=OCS.15)

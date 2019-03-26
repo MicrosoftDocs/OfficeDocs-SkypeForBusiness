@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Client version rules'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Client version rules
 ms:assetid: 8ed9d704-7bdd-41b3-89c6-daca8aa640b4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898481(v=OCS.15)

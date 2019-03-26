@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Run informal voice routing tests'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Run informal voice routing tests
 ms:assetid: ea0e6059-bf04-4b03-b6d3-8f5534b731e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399049(v=OCS.15)

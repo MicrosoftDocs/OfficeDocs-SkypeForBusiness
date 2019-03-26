@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deleting network region links'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deleting network region links
 ms:assetid: 839273cd-d23f-4b38-84e6-d2dc972f49cd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688114(v=OCS.15)

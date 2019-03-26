@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create network region links'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create network region links
 ms:assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413047(v=OCS.15)

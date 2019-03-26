@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Hardening and protecting databases'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Hardening and protecting the databases of Lync Server 2013
 ms:assetid: 6953e721-3511-4235-b848-51bab093dc89
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518330(v=OCS.15)

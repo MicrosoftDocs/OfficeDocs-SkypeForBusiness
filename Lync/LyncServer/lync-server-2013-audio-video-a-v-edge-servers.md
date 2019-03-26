@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Audio/Video (A/V) Edge Servers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Audio/Video (A/V) Edge Servers
 ms:assetid: b0cc538b-77eb-47fb-be82-5ab0631c6219
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721852(v=OCS.15)

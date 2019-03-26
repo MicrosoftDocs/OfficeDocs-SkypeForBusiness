@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Lync Server administrative tools'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Lync Server administrative tools
 ms:assetid: 9b006f93-4f3d-461d-89b8-e80a34fdb3c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195756(v=OCS.15)

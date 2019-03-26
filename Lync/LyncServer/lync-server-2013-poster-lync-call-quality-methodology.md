@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Poster: Lync Call Quality Methodology'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: 'Poster: Lync Call Quality Methodology'
 ms:assetid: a069f4e5-4f80-4f0f-8657-2e07276b6b41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593600(v=OCS.15)

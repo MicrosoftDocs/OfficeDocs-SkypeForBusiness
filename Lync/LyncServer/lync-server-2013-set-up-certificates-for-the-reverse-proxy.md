@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Set up certificates for the reverse proxy'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Set up certificates for the reverse proxy
 ms:assetid: c03a08ec-a67b-4f11-b0d7-6677461beaaa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412938(v=OCS.15)

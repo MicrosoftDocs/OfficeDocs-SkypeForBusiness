@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Overview of IP address types'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Overview of IP address types for Lync Server
 ms:assetid: ee9a695f-5cf5-441e-94fb-6adeca50e8d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205363(v=OCS.15)

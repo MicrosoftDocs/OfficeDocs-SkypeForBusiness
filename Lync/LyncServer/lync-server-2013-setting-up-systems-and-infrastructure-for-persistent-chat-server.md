@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Setting up systems and infrastructure for Persistent Chat Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Setting up systems and infrastructure for Persistent Chat Server
 ms:assetid: d433d056-988d-40f1-9521-5f3e7316756f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205290(v=OCS.15)

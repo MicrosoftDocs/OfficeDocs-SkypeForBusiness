@@ -1,5 +1,8 @@
-﻿---
+---
 title: Remove a Front End Server from a pool
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Remove a Front End Server from a pool
 ms:assetid: 767225c9-7c0b-4d54-a407-d77134ba2abe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688095(v=OCS.15)

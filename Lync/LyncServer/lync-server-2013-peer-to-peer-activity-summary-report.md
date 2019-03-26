@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Peer-to-Peer Activity Summary Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Peer-to-Peer Activity Summary Report
 ms:assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615041(v=OCS.15)

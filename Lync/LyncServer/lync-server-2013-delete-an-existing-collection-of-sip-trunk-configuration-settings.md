@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Delete an existing collection of SIP trunk configuration settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Delete an existing collection of SIP trunk configuration settings
 ms:assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688024(v=OCS.15)

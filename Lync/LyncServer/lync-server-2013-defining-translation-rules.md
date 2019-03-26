@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Defining translation rules'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Defining translation rules
 ms:assetid: 4f6b975a-77e6-474c-9171-b139d84138c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398322(v=OCS.15)

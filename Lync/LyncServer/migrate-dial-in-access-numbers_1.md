@@ -1,5 +1,8 @@
-﻿---
+---
 title: Migrate dial-in access numbers
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Migrate dial-in access numbers
 ms:assetid: 568a94b7-a697-4ab2-9008-dc9ecc1c87c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204898(v=OCS.15)

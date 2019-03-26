@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Mcus table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Mcus table
 ms:assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425742(v=OCS.15)

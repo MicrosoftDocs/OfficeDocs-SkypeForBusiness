@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Modify a voice route'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Modify a voice route
 ms:assetid: afc562cc-8807-489b-8850-dbbe1c1ab9f5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412838(v=OCS.15)
