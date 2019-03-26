@@ -27,7 +27,7 @@ If you haven't already done so, read [Plan Location-Based Routing for Direct Rou
 This article describes how to configure network settings for Location-Based Routing. After you deploy Phone System Direct Routing in your organization, the next steps are to create and set up network regions, network sites, and network subnets. To complete the steps in this article, you'll need some familiarity with PowerShell cmdlets. To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).
 
 ## Define network regions
- A network region interconnects various parts of a network across multiple geographic areas. Use the [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) PowerShell cmdlet to define network regions. Note that the RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions and the CentralSite &lt;site ID&gt; parameter is optional. 
+ A network region interconnects various parts of a network across multiple geographic areas. Use the [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) cmdlet to define network regions. Note that the RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions and the CentralSite &lt;site ID&gt; parameter is optional. 
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
