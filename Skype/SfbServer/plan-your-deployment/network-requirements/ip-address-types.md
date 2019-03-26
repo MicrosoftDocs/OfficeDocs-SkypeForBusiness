@@ -1,5 +1,6 @@
 ---
 title: "Configure IP address types in Skype for Business"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

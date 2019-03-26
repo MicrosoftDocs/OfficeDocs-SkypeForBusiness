@@ -1,5 +1,8 @@
 ---
 title: Configure federation routes and media traffic
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: ed6cb922-7863-453a-adce-2ce0ba761d74
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721925(v=OCS.15)

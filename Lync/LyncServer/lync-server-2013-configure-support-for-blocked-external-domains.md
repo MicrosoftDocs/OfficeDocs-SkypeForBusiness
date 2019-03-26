@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure support for blocked external domains'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure support for blocked external domains
 ms:assetid: 49103138-e1ab-42bf-91aa-57cf23bbf260
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619176(v=OCS.15)

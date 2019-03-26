@@ -1,5 +1,6 @@
 ---
 title: "Create Skype for Business Server Control Panel Administrators"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deployment process for Call Park'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deployment process for Call Park
 ms:assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398283(v=OCS.15)

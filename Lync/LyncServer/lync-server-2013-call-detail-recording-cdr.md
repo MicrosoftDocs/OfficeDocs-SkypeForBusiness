@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Call detail recording (CDR)'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Call detail recording (CDR)
 ms:assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688079(v=OCS.15)

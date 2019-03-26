@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Web conferencing requirements'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Web conferencing requirements
 ms:assetid: 125f847c-58ab-450f-ae43-41219fd38477
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619171(v=OCS.15)

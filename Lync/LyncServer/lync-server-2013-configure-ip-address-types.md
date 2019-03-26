@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure IP address types'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure IP address types
 ms:assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204710(v=OCS.15)

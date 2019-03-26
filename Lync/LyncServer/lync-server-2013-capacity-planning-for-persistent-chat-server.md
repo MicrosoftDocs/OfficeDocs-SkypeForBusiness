@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Capacity planning for Persistent Chat Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Capacity planning for Persistent Chat Server
 ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615006(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Test SIP trunk configuration settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Test SIP trunk configuration settings
 ms:assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721880(v=OCS.15)

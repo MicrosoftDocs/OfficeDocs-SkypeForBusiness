@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Endpoint table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Endpoint table
 ms:assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398327(v=OCS.15)

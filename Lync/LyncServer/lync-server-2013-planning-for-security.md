@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Planning for security'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Planning for security
 ms:assetid: 17eeba87-cafa-4e9b-852d-c017a7d10d59
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn342827(v=OCS.15)

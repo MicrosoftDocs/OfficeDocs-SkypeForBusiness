@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Server and tools operating system support'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Server and tools operating system support
 ms:assetid: b65a0956-f90d-48d0-ac61-558e67339084
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412883(v=OCS.15)

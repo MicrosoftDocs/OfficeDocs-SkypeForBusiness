@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create location policies'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create location policies
 ms:assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413006(v=OCS.15)

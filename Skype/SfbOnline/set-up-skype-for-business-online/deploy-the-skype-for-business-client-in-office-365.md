@@ -1,5 +1,6 @@
 ---
 title: "Deploy the Skype for Business client in Office 365"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

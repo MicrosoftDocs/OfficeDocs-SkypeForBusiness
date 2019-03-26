@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Certificate requirements for internal servers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Certificate requirements for internal servers
 ms:assetid: 0444cdbd-538c-43b1-b9a1-9d7d6cf818d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398094(v=OCS.15)

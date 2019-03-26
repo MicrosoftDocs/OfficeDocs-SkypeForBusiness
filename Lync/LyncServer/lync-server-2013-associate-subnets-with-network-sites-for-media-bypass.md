@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Associate subnets with network sites for media bypass'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Associate subnets with network sites for media bypass
 ms:assetid: 5bc632b7-1446-470f-b332-48ea0ca4d1fd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398401(v=OCS.15)

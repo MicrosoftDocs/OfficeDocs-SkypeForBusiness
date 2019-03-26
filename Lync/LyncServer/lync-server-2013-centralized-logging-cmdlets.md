@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Centralized Logging cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Centralized Logging cmdlets
 ms:assetid: 8ba5bcae-8b99-489c-9355-6e77d4ad9100
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205064(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Testing ability to connect to a federated domain'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Testing ability to connect to a federated domain
 ms:assetid: d8ccfade-ef54-47a4-9f87-36213a635ce5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743840(v=OCS.15)

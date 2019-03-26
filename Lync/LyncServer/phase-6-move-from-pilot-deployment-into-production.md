@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Phase 6: Move from pilot deployment into production'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: 'Phase 6: Move from pilot deployment into production'
 ms:assetid: f06425f8-0971-4dd6-9c3c-d400b4a95155
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721932(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Failure Distribution Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Failure Distribution Report
 ms:assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558635(v=OCS.15)

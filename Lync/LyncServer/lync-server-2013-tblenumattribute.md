@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: tblEnumAttribute'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: tblEnumAttribute
 ms:assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558617(v=OCS.15)

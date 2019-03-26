@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Planning for external user access'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Planning for external user access
 ms:assetid: ea098933-eff5-461e-aba3-e7f128784dc2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399048(v=OCS.15)

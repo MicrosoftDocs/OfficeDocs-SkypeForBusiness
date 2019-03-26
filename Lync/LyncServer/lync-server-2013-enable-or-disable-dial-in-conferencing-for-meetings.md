@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Enable or disable dial-in conferencing for meetings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Enable or disable dial-in conferencing for meetings
 ms:assetid: 418dcf2d-c8d6-4b2c-b1ab-8723c7ef53e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688036(v=OCS.15)

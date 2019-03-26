@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: New video features'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: New video features
 ms:assetid: c5d7ef57-cda7-456e-b263-c78179991b79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205246(v=OCS.15)

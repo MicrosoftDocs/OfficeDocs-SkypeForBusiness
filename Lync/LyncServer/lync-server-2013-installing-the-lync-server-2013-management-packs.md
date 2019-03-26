@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Installing the Lync Server 2013 management packs'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: nstalling the Lync Server 2013 management packs
 ms:assetid: b800d4ab-fdc8-4c72-a76a-b78932779fe3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205202(v=OCS.15)

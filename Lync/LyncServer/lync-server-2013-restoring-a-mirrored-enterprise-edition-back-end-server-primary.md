@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Restoring a mirrored Enterprise Edition Back End Server - primary'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Restoring a mirrored Enterprise Edition Back End Server - primary
 ms:assetid: bc555b46-70c5-4eee-ae91-e195df238293
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945648(v=OCS.15)

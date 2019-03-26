@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Creating an Archiving configuration to manage Archiving for specific sites or pools'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Creating an Archiving configuration to manage Archiving for specific sites or pools
 ms:assetid: c5c864a6-96c7-4bbb-ab7c-61eb1744246c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205251(v=OCS.15)

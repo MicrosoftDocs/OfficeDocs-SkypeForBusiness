@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: New disaster recovery and high availability features'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: New disaster recovery and high availability features
 ms:assetid: 4fa7cd0f-784b-4d3f-b839-432c2ecaf7c1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204892(v=OCS.15)

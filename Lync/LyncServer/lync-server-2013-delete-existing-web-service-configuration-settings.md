@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Delete existing Web Service configuration settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Delete existing Web Service configuration settings
 ms:assetid: c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182582(v=OCS.15)

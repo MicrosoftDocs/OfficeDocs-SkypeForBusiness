@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipalAffiliations'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: tblPrincipalAffiliations
 ms:assetid: 45fd8484-5837-44d2-85bb-45c83546607c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558642(v=OCS.15)

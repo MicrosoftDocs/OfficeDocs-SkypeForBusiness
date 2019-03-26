@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure a new trusted application server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure a new trusted application server
 ms:assetid: a7233db7-fac3-43ff-972e-3bc29a56adb3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg617964(v=OCS.15)

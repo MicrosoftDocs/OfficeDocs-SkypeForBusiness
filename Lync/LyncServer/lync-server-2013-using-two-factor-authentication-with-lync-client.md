@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Using two-factor authentication with Lync client'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Using two-factor authentication with Lync client
 ms:assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn338071(v=OCS.15)

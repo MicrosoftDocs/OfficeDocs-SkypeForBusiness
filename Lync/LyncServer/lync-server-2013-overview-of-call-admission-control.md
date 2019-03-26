@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Overview of call admission control'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Overview of call admission control
 ms:assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398529(v=OCS.15)

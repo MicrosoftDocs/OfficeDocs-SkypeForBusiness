@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing locations for ELIN gateways'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing locations for ELIN gateways
 ms:assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205288(v=OCS.15)

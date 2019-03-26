@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 reference topology for large organizations with multiple data centers
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Reference topology for large organizations with multiple data centers
 ms:assetid: 9a6aeae6-629b-49e6-9804-7ef369d7c3dc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398797(v=OCS.15)

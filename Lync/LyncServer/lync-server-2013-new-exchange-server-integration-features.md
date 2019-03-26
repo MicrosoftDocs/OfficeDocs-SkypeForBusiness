@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: New Exchange Server integration features'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: New Exchange Server integration features
 ms:assetid: cad9cbfa-f213-42af-9c8b-9baf1a5bf6bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205269(v=OCS.15)

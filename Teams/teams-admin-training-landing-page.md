@@ -1,5 +1,6 @@
 ---
 title: Admin training for Microsoft Teams
+ms.reviewer: 
 description: Get the training you need to manage Microsoft Teams in your organization
 author: dearbeen
 manager: serdars

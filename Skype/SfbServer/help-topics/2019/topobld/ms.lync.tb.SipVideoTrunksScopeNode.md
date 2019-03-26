@@ -1,5 +1,6 @@
 ---
 title: "SIP Video Trunks Scope Node"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

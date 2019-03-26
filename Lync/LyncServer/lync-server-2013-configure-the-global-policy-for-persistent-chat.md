@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure the global policy for Persistent Chat'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure the global policy for Persistent Chat
 ms:assetid: 6176eb5c-19de-4c07-bcc0-2e38f8965966
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204951(v=OCS.15)

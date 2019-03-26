@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Creating or modifying bandwidth policy profiles'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Creating or modifying bandwidth policy profiles
 ms:assetid: 08a2e18f-9b0d-4a2f-aa14-13bbf79ec745
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520945(v=OCS.15)

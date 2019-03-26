@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure policies to control XMPP federated user access'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure policies to control XMPP federated user access
 ms:assetid: 0fe0ff75-e52a-4e3e-923a-64f6412ac4e4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552446(v=OCS.15)

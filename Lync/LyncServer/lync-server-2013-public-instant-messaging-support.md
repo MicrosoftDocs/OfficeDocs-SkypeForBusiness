@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Public instant messaging support'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Public instant messaging support
 ms:assetid: 1f45163b-52c6-4a78-b9c8-dfe3abe4e5eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204732(v=OCS.15)

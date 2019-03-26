@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: UserAgent table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: UserAgent table
 ms:assetid: d6bda1c0-b053-457a-9ffa-2ae859788775
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398939(v=OCS.15)

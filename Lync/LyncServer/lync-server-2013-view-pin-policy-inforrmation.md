@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: View PIN policy inforrmation'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: View PIN policy inforrmation
 ms:assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687985(v=OCS.15)

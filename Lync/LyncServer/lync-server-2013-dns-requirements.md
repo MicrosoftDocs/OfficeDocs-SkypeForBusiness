@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: DNS requirements'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: DNS requirements
 ms:assetid: 2af3de7b-5a6a-4f0f-b4a7-d19bd6e6c599
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204758(v=OCS.15)

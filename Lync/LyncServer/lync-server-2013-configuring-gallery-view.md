@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring Gallery View'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring Gallery View
 ms:assetid: 4a609178-47d8-4682-ac8d-29f882801924
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204871(v=OCS.15)

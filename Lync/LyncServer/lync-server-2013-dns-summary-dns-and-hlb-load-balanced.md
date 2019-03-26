@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: DNS summary - DNS and HLB load balanced'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: DNS summary - DNS and HLB load balanced
 ms:assetid: d2132695-1956-4190-a98e-cd7255cbded6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205273(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Add Edge Machine Internal IP 2010"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

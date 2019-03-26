@@ -1,5 +1,6 @@
 ---
 title: "Planning to turn off Legacy authentication methods internally and externally to your network"
+ms.reviewer: 
 ms.author: tracyp
 author: MSFTTracyP
 manager: serdars

@@ -1,5 +1,6 @@
 ---
 title: "(Optional) Verify Response Group deployment in Skype for Business"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

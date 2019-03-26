@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: check physical environment'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Performing physical environmental checks
 ms:assetid: 153aee5e-3adf-4dbf-bf41-53e4fba51fb0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720558(v=OCS.15)

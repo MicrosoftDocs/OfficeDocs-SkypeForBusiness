@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Viewing information about push notification settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Viewing information about push notification settings
 ms:assetid: be5c6b01-4294-4d17-9772-fed40201e8a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721868(v=OCS.15)

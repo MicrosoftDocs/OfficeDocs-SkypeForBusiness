@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipal'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: tblPrincipal
 ms:assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558667(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Advanced Edge Server DNS planning for Skype for Business Server"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro

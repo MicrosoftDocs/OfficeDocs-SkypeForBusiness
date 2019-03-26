@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 initial planning decisions
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Initial planning decisions
 ms:assetid: cbaa5cb3-2b00-4b9f-952d-986a0c9f160b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398855(v=OCS.15)

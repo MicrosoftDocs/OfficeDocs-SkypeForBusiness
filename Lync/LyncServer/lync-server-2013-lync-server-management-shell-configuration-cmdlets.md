@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Lync Server Management Shell configuration cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Lync Server Management Shell configuration cmdlets
 ms:assetid: fffc154b-24ef-457d-9b70-2b7b700f503a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415684(v=OCS.15)

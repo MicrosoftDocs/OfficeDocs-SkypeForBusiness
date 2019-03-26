@@ -1,5 +1,6 @@
 ---
 title: "Plan for remote call control in Skype for Business"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Overview of Group Call Pickup'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Overview of Group Call Pickup
 ms:assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945623(v=OCS.15)

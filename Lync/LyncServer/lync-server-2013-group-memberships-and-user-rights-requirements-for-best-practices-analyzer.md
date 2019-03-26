@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Group memberships and user rights requirements for Best Practices Analyzer'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Group memberships and user rights requirements for Best Practices Analyzer
 ms:assetid: f812e343-8f75-454e-b7a8-1b404e32071a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591354(v=OCS.15)

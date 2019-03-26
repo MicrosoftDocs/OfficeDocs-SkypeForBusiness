@@ -1,5 +1,6 @@
 ---
 title: "UCWA events in Skype for Business Server"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

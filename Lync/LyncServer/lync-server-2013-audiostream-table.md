@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: AudioStream table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: AudioStream table
 ms:assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425961(v=OCS.15)

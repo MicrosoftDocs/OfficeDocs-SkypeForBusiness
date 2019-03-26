@@ -1,5 +1,6 @@
 ---
 title: "Configure Skype for Business hybrid"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

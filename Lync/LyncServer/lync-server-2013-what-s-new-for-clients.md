@@ -1,5 +1,8 @@
-﻿---
+---
 title: "Lync Server 2013: What's new for clients"
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: What's new for clients
 ms:assetid: 5c144677-4d58-4fc3-8445-74b76c9fcf07
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204933(v=OCS.15)
