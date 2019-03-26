@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Phase 4: Merge topologies'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: 'Phase 4: Merge topologies'
 ms:assetid: 81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205044(v=OCS.15)

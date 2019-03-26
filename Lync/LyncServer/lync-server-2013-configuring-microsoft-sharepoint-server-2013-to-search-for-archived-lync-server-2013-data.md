@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring Microsoft SharePoint Server 2013 to search for archived Lync Server 2013 data'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring SharePoint Server 2013 to search for archived Lync Server 2013 data
 ms:assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687978(v=OCS.15)

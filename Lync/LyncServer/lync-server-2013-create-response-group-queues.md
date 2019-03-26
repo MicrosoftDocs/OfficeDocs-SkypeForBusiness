@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create Response Group queues'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create Response Group queues
 ms:assetid: 49cb86c7-2cfd-4a53-8408-d407475174ed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520991(v=OCS.15)

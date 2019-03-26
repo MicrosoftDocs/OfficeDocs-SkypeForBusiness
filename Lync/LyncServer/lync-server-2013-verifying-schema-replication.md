@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Verifying schema replication'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Verifying schema replication
 ms:assetid: ad01a7cf-aa79-4648-ba5a-a7a09172db36
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412822(v=OCS.15)

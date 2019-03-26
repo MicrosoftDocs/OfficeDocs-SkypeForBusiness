@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Removing Lync for iPhone and iPad'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Removing Lync for iPhone and iPad
 ms:assetid: 4e0a9b6f-2331-4a39-aebc-c501f5219292
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690979(v=OCS.15)

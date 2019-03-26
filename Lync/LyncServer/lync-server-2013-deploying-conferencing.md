@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploying conferencing'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploying conferencing
 ms:assetid: 8ef31d46-a1e6-43d2-b1ad-80f159cc5eed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619184(v=OCS.15)

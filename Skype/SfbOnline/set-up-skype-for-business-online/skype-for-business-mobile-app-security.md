@@ -1,5 +1,6 @@
 ---
 title: "Skype for Business mobile app security"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: New trunk feature'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: New trunk feature
 ms:assetid: 9b398bc8-2760-4218-b1a4-89b9694b1171
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688152(v=OCS.15)

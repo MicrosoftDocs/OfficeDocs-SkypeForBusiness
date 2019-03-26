@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create bandwidth policy profiles'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create bandwidth policy profiles
 ms:assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412785(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Running large meetings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Running large meetings
 ms:assetid: dda611aa-c256-4175-b062-5fa64297de64
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205323(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: tblEnumValue'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: tblEnumValue
 ms:assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615025(v=OCS.15)

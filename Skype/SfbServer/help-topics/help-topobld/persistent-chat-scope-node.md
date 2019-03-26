@@ -1,5 +1,6 @@
 ---
 title: "Persistent Chat Scope Node"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

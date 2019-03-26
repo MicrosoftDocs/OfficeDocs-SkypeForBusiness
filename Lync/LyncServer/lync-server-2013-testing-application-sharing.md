@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Testing application sharing'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Testing application sharing
 ms:assetid: 8d21db9b-10d1-4b43-b057-0deb1df1c205
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727310(v=OCS.15)

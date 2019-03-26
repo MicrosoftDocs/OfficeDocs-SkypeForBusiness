@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploying Lync Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploying Lync Server 2013
 ms:assetid: b76795a4-4e71-4c70-a5c0-d1197fa8028c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412892(v=OCS.15)

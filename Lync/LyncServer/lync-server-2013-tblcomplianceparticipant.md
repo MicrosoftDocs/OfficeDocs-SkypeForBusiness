@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: tblComplianceParticipant'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: tblComplianceParticipant
 ms:assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558655(v=OCS.15)

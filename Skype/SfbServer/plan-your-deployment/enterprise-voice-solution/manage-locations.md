@@ -1,5 +1,6 @@
 ---
 title: "Manage locations for SIP trunk service providers in Skype for Business Server"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

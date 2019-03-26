@@ -1,5 +1,6 @@
 ---
 title: "Test - Skype for Business Server Site Scope Node"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

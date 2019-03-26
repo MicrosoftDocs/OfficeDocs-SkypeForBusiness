@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure federation for an audio conferencing provider'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure federation for an audio conferencing provider
 ms:assetid: 08dedcce-0d3f-45da-8282-cf2634a41665
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn510996(v=OCS.15)

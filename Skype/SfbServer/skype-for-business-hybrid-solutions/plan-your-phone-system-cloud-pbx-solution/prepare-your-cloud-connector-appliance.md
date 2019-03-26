@@ -1,5 +1,6 @@
 ---
 title: "Prepare your Cloud Connector appliance"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Preparing for and installing Best Practices Analyzer'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Preparing for and installing Best Practices Analyzer
 ms:assetid: 550613dd-dc08-482e-9980-a3fe187cd162
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591347(v=OCS.15)

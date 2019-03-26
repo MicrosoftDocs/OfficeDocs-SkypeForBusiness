@@ -1,5 +1,6 @@
 ---
 title: "Define the IP Address of the IP or PSTN Gateway"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

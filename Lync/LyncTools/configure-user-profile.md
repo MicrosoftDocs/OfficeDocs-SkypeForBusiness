@@ -1,5 +1,8 @@
 ---
 title: Configure User Profile
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure User Profile
 ms:assetid: 52713245-e502-4539-a238-66ff1aca26b1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945594(v=OCS.15)

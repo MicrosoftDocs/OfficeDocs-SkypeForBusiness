@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Restoring a Standard Edition server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Restoring a Standard Edition server
 ms:assetid: d1845663-3138-4fd6-b3e7-337e294d40d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202190(v=OCS.15)

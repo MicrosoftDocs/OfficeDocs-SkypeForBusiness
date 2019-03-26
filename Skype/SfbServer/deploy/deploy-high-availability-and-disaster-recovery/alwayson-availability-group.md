@@ -1,5 +1,6 @@
 ---
 title: "Deploy an Always On Availability Group on a Back End Server in Skype for Business Server"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

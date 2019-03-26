@@ -1,5 +1,6 @@
 ---
 title: "Add Front End Sql Store Page for Lync Server 2010"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

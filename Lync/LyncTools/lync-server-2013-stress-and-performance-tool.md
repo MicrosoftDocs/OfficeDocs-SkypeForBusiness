@@ -1,5 +1,8 @@
 ---
 title: Lync Server 2013 Stress and Performance Tool
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Lync Server 2013 Stress and Performance Tool
 ms:assetid: dc03db19-d104-402e-9951-240681b3fb69
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945609(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Delete an existing collection of meeting configuration settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Delete an existing collection of meeting configuration settings
 ms:assetid: 92ff8a91-05c5-4047-a533-5dff12f22299
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688136(v=OCS.15)

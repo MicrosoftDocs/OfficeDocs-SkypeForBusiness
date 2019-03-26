@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: View meeting configuration settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: View meeting configuration settings
 ms:assetid: d03a4684-9d8b-4728-917d-5b5c91511e2c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721894(v=OCS.15)

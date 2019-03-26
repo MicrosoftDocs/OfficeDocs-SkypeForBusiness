@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Delete an existing client version policy'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Delete an existing client version policy
 ms:assetid: b88aaa25-97ff-4eb6-bd34-b97332cd6890
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923064(v=OCS.15)

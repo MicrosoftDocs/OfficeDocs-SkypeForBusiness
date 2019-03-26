@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure media bypass'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure media bypass
 ms:assetid: f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413028(v=OCS.15)

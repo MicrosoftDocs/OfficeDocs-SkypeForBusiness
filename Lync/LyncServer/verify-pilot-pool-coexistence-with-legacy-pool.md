@@ -1,5 +1,8 @@
-﻿---
+---
 title: Verify pilot pool coexistence with legacy pool
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Verify pilot pool coexistence with legacy pool
 ms:assetid: fe7e14bb-c7eb-4719-b154-009e99360520
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205420(v=OCS.15)

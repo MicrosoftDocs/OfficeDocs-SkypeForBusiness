@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Restoring an Enterprise Edition member server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Restoring an Enterprise Edition member server
 ms:assetid: d960b19c-2104-4719-b736-0d940f254d42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202191(v=OCS.15)

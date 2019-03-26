@@ -1,5 +1,6 @@
 ---
 title: "Video Skype for Business Online external communications"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

@@ -1,5 +1,6 @@
 ---
 title: Best practices for organizing teams in Microsoft Teams
+ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars

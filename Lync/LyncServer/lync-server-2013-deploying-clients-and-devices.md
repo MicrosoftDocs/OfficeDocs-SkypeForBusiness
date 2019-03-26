@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploying clients and devices'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploying clients and devices
 ms:assetid: fa2e6bb4-6c95-478d-8ee0-fc1b2cc14ee3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205404(v=OCS.15)

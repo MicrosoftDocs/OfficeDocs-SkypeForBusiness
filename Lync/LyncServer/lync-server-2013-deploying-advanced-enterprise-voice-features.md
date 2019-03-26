@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploying advanced Enterprise Voice features'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploying advanced Enterprise Voice features
 ms:assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425753(v=OCS.15)

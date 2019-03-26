@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: File sharing high availability'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: File sharing high availability
 ms:assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205203(v=OCS.15)

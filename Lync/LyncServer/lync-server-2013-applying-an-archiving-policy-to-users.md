@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Applying an Archiving policy to users'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Applying an Archiving policy to users
 ms:assetid: 624a7d3e-389d-403a-97e5-f7bb17023ef3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521004(v=OCS.15)

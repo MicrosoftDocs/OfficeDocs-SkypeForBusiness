@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Tenants table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Tenants table
 ms:assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412950(v=OCS.15)

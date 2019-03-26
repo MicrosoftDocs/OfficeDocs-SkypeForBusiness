@@ -1,5 +1,6 @@
 ---
 title: "Plan for Edge Server deployments in Skype for Business Server"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

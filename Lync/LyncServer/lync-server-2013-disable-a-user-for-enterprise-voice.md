@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Disable a user for Enterprise Voice'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Disable a user for Enterprise Voice
 ms:assetid: 462002d8-21df-4d77-bf7f-4d059d6a4bb2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688043(v=OCS.15)

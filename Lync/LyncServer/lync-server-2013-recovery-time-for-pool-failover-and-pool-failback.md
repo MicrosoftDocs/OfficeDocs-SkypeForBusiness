@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 recovery time for pool failover and pool failback
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Recovery time for pool failover and pool failback
 ms:assetid: 902c658f-8442-4d0d-b3ad-bf795ecd550d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205079(v=OCS.15)

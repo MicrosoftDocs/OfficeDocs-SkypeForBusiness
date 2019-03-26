@@ -1,5 +1,6 @@
 ---
 title: "Configure the Video Interop Server in Skype for Business Server"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

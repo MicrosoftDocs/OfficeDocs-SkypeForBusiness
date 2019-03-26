@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring clients for use with Office Web Apps Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring clients for use with Office Web Apps Server
 ms:assetid: e5eaead7-0b32-42fb-97eb-ca203af59a9d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205339(v=OCS.15)

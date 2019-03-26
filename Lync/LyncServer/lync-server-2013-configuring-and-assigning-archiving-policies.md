@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring and assigning Archiving policies'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring and assigning Archiving policies
 ms:assetid: acd18ea8-c7f1-4178-871a-cd3b75bdaa8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205175(v=OCS.15)

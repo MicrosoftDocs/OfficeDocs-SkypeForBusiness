@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Setting up Kerberos authentication'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Setting up Kerberos authentication
 ms:assetid: dd8009ef-6265-4cc0-b2c7-e474cd1f4b09
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398976(v=OCS.15)

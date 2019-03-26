@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure an SNMP application'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure an SNMP application
 ms:assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412972(v=OCS.15)

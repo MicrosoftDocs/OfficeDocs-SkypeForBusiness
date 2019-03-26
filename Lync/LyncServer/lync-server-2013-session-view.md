@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Session view'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Session view
 ms:assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688048(v=OCS.15)

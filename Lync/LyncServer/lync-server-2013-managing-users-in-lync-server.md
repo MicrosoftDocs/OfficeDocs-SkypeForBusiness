@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing users in Lync Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing users in Lync Server 2013
 ms:assetid: 16b2d276-f0ea-4be6-ac61-673be6f37cad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ649974(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: (Optional) Verify Call Park deployment'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: (Optional) Verify Call Park deployment
 ms:assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413076(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Hosted Exchange UM routing'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Hosted Exchange UM routing
 ms:assetid: 6c90dc8b-6aef-4ce8-b483-37c7b5a553c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398512(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Manage trusted applications"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

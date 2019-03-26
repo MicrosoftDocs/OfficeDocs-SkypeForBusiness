@@ -1,5 +1,6 @@
 ---
 title: "Plan for instant messaging and presence in Skype for Business Server"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

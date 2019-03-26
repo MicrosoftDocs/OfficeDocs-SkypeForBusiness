@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Assign a per-user hosted voice mail policy'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Assign a per-user hosted voice mail policy
 ms:assetid: d44c71a0-4407-4ab4-b7e0-d671dde3425f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398919(v=OCS.15)

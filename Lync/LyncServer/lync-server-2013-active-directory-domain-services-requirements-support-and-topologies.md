@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Active Directory Domain Services requirements, support, and topologies'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Active Directory Domain Services requirements, support, and topologies
 ms:assetid: 95bd160f-bcea-4014-a050-8a3cd2f699c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398760(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Adding a custom link to Lync error messages'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Adding a custom link to Lync error messages
 ms:assetid: de756088-fcc3-4e47-bde8-4fa4cc852fd1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398979(v=OCS.15)

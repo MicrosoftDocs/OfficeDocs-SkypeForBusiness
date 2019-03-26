@@ -1,5 +1,6 @@
 ---
 title: "Create a new collection of trunk configuration settings in Skype for Business Server"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 Central Management store failover
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Central Management store failover
 ms:assetid: f464d715-68a4-462c-9584-00f41ab10db0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205376(v=OCS.15)

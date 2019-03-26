@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Defining your requirements for Enterprise Voice'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Defining your organization's requirements for Enterprise Voice
 ms:assetid: 3310f78e-c658-4557-95fa-159ce3c22953
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425826(v=OCS.15)

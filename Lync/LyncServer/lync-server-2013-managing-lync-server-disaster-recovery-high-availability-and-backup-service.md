@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Managing Lync Server disaster recovery, high availability, and Backup Service'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing Lync Server disaster recovery, high availability, and Backup Service
 ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721939(v=OCS.15)

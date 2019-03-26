@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Failing over and failing back Persistent Chat Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Failing over and failing back Persistent Chat Server
 ms:assetid: bc9a791f-d15c-48c8-8682-1a8ad19d8c75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205214(v=OCS.15)

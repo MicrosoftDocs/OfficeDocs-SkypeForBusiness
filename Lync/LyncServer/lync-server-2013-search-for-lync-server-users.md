@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Search for Lync Server users'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Search for Lync Server users
 ms:assetid: 3b9f6f55-d7a9-46ae-8e10-f221ba0d3bb5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429701(v=OCS.15)
