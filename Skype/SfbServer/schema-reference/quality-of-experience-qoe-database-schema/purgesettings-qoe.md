@@ -1,5 +1,6 @@
 ---
 title: "PurgeSettings table (QoE)"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

@@ -1,5 +1,6 @@
 ---
 title: "Quality of Experience (QoE) database schema"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
