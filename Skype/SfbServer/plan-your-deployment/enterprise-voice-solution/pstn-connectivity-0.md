@@ -1,5 +1,6 @@
 ---
 title: "Plan for PSTN connectivity in Skype for Business Server"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

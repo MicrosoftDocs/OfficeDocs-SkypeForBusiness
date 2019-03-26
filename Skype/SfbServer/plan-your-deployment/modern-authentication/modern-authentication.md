@@ -1,5 +1,6 @@
 ---
 title: "Plan for Modern Authentication in Skype for Business"
+ms.reviewer: 
 ms.author: tracyp
 author: MSFTTracyP
 ms.audience: ITPro

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Define a Survivable Branch Appliance or Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Define a Survivable Branch Appliance or Server
 ms:assetid: 1f49cfbe-30b3-4600-af15-47cb2f58d18a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398280(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Announcement configuration prerequisites and roles'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Announcement configuration prerequisites and roles
 ms:assetid: 82f2dfe9-4c5e-4d65-96a1-96495d506ea4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398658(v=OCS.15)

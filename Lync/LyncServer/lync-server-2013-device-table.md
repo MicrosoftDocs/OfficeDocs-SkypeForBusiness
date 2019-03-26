@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Device table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Device table
 ms:assetid: d5a4f777-bc12-4ce8-bc0d-867d5e22b436
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398930(v=OCS.15)

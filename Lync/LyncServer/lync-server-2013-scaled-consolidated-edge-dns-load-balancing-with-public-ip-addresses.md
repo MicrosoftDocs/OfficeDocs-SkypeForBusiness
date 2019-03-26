@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Scaled consolidated edge, DNS load balancing with public IP addresses'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Scaled consolidated edge, DNS load balancing with public IP addresses
 ms:assetid: 2b854f6d-3d3f-4961-a5f8-a03f47740df0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204761(v=OCS.15)

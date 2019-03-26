@@ -1,5 +1,6 @@
 ---
 title: "Plan to integrate Skype for Business and Exchange"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Validate Domain Name System settings for load balancing'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Validate Domain Name System settings for load balancing
 ms:assetid: 92858e1c-91a5-4303-9bb4-b182e7f9c78b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720920(v=OCS.15)

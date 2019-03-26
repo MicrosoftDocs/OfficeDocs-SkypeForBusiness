@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Technical requirements for Group Call Pickup'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Technical requirements for Group Call Pickup
 ms:assetid: acbabe3d-359a-4936-b7bf-320312101d5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945643(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Setting up support for large meetings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Setting up support for large meetings
 ms:assetid: 8e22d34b-b395-408d-9d48-8f2a3abe9513
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205074(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Planning for mobility'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Planning for mobility
 ms:assetid: 12000359-09b5-48f0-986d-fab3a1487f9c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh689981(v=OCS.15)

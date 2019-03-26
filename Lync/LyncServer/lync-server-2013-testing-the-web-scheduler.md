@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Testing the Web scheduler'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Testing the Web scheduler
 ms:assetid: 58e34058-1afa-42e3-9096-c4ea1954c237
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727304(v=OCS.15)

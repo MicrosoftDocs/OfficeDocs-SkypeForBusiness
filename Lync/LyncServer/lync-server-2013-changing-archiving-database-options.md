@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Changing Archiving database options'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Changing Archiving database options
 ms:assetid: 3775f09d-65b0-48bc-8a4d-d97bd0c3423c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204814(v=OCS.15)

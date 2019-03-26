@@ -1,5 +1,6 @@
 ---
 title: "Install Persistent Chat components in Skype for Business Server 2015"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

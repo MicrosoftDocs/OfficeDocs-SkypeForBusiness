@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Using the Lync Room System Administrative Web Portal'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Using the Lync Room System Administrative Web Portal
 ms:assetid: c387b2a3-3e42-4642-af72-88126ed2820f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743660(v=OCS.15)

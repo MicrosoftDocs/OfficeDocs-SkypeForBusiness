@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deployment process for mobility'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deployment process for mobility
 ms:assetid: 5a1cebda-c14b-4ff4-9c36-f7caa868160f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690023(v=OCS.15)

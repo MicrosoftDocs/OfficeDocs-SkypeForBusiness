@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Preparing for installation of servers in the perimeter network'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Preparing for installation of servers in the perimeter network
 ms:assetid: 5e6c457a-f964-4ef7-a709-97abda9c673a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398416(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Scaled Director pool - hardware load balancer'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Scaled Director pool - hardware load balancer
 ms:assetid: cf34759a-b384-479c-855f-ea5e80a234b6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205316(v=OCS.15)

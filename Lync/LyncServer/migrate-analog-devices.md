@@ -1,5 +1,8 @@
-﻿---
+---
 title: Migrate analog devices
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Migrate analog devices
 ms:assetid: ad072916-87ed-4d44-8289-aab87da86250
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721846(v=OCS.15)

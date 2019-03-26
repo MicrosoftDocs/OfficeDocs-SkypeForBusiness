@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Certificate summary - DNS and HLB load balanced'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Certificate summary - DNS and HLB load balanced
 ms:assetid: 8318a1a4-b423-47b7-95e6-9541adfad391
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205047(v=OCS.15)

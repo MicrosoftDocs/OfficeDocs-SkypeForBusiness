@@ -1,5 +1,6 @@
 ---
 title: "Deploy multiple sites in Cloud Connector"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Granting permissions'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Granting permissions
 ms:assetid: d1c9ea66-bd07-480e-99a0-011108f97e42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398901(v=OCS.15)

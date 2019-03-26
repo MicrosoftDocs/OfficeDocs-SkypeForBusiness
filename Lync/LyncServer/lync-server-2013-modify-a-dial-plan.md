@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Modify a dial plan'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Modify a dial plan
 ms:assetid: a91f02df-cf60-40cf-82fe-e0342c118b91
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412797(v=OCS.15)

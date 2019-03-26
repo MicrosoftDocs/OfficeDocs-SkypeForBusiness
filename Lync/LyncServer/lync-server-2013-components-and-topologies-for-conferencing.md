@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 components and topologies for conferencing
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Components and topologies for conferencing
 ms:assetid: eb83052a-3360-4ba1-a6a0-6ee419942809
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399061(v=OCS.15)

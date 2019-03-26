@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: tblScopePrincipal'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: tblScopePrincipal
 ms:assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558639(v=OCS.15)

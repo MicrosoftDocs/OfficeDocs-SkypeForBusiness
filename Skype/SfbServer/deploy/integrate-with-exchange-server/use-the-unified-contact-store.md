@@ -1,5 +1,6 @@
 ---
 title: "Configure Skype for Business Server to use the unified contact store"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

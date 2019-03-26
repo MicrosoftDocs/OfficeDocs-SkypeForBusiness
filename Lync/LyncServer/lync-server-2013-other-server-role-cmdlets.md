@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Other server role cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Other server role cmdlets
 ms:assetid: 92c455b5-f351-4413-bf18-25eb860d1d86
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415664(v=OCS.15)

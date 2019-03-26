@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: DNS requirements for Standard Edition servers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: DNS requirements for Standard Edition servers
 ms:assetid: 3d6bbe65-e7ce-491b-a0bd-d2f7197f240d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425900(v=OCS.15)

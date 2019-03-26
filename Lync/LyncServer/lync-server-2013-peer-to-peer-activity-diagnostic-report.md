@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Peer-to-Peer Activity Diagnostic Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Peer-to-Peer Activity Diagnostic Report
 ms:assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558602(v=OCS.15)

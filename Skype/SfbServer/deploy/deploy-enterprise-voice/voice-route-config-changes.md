@@ -1,5 +1,6 @@
 ---
 title: "Publish pending changes to the voice routing configuration in Skype for Business"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

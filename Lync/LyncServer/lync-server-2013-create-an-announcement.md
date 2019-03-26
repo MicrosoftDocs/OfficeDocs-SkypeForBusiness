@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create an announcement'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create an announcement
 ms:assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412783(v=OCS.15)

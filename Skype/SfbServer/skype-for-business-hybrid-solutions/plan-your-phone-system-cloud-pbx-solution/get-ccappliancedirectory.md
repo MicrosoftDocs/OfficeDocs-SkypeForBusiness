@@ -1,5 +1,6 @@
 ---
 title: "Get-CcApplianceDirectory"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

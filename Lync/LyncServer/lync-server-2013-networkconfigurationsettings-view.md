@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: NetworkConfigurationSettings view'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: NetworkConfigurationSettings view
 ms:assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688003(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Configuring on-premises Lync Server integration with Exchange Online'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring on-premises Lync Server integration with Exchange Online
 ms:assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh533880(v=OCS.15)

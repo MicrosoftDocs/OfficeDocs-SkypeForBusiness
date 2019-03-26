@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Front End pool pairing data security'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Front End pool pairing data security
 ms:assetid: edb852b8-ea86-4948-b756-60fe6ee876d2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721930(v=OCS.15)

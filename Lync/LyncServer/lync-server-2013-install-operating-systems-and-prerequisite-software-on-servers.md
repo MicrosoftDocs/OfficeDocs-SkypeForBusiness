@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Install operating systems and prerequisite software on servers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Install operating systems and prerequisite software on servers
 ms:assetid: 055991e0-5aeb-43fc-a7ba-d4b02316d73b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398103(v=OCS.15)

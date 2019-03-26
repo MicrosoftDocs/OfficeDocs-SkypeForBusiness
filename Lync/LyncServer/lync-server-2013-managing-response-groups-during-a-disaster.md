@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing response groups during a disaster'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing response groups during a disaster
 ms:assetid: 9f14e677-7be8-4f08-88ba-444ec2148ce8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688154(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: New Response Group application features'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: New Response Group application features
 ms:assetid: 569544b4-fa97-429b-97e6-568afab6c19b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398373(v=OCS.15)

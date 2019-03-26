@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Building an edge and Director topology'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Building an edge and Director topology
 ms:assetid: 11e5759e-d69f-4c39-8994-f467c279c558
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398202(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Manually purge the call detail recording and Quality of Experience databases in Skype for Business Server"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

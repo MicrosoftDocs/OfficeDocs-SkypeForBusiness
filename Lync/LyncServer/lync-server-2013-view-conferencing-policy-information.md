@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: View conferencing policy information'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: View conferencing policy information
 ms:assetid: e99fdc4d-926a-4e36-ac99-ab5035568847
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721918(v=OCS.15)

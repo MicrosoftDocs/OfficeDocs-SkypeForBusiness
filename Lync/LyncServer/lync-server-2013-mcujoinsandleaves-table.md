@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: McuJoinsAndLeaves table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: McuJoinsAndLeaves table
 ms:assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398316(v=OCS.15)

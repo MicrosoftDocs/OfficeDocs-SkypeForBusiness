@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Enabling a user to manage categories, chat rooms, and user rights and permissions'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Enabling a user to manage categories, chat rooms, and user rights and permissions
 ms:assetid: 6c551be3-bc74-4d0e-9008-ddfabd86e940
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215876(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: Migrating Group Chat servers
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Migrating Group Chat servers
 ms:assetid: 34bc98f4-919d-4b6f-be82-55bf766a48d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688020(v=OCS.15)

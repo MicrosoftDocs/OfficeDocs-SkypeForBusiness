@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Running schema preparation'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Running schema preparation
 ms:assetid: 9d02bdb1-ff29-417a-bcce-b068b31207d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412729(v=OCS.15)

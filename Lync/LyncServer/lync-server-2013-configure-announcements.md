@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure announcements'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure announcements
 ms:assetid: e9194a06-7708-458d-8c7c-1e80a74baea5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721917(v=OCS.15)

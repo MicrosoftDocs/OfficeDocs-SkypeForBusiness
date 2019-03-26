@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Operations'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Operations
 ms:assetid: 528db561-0efe-4e55-8547-9f3836993f2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398344(v=OCS.15)

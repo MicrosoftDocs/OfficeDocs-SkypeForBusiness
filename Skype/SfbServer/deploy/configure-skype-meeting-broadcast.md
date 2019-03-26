@@ -1,5 +1,6 @@
 ---
 title: "Configure your on-premises deployment for Skype Meeting Broadcast"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

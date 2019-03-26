@@ -1,5 +1,6 @@
 ---
 title: "Configure an on-premises partner application for Skype for Business Server"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

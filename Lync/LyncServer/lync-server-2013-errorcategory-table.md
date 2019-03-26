@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: ErrorCategory table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: ErrorCategory table
 ms:assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204675(v=OCS.15)

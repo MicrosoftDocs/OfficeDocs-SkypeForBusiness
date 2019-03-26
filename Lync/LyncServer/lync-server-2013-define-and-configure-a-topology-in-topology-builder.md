@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Define and configure a topology in Topology Builder'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Define and configure a topology in Topology Builder
 ms:assetid: 99231ff5-1c21-432b-ad65-8675fcd484f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398788(v=OCS.15)

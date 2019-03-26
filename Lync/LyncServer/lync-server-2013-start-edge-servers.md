@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Start Edge Servers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Start Edge Servers
 ms:assetid: fe62b18f-2189-4112-ba90-b1c590cf84d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413083(v=OCS.15)

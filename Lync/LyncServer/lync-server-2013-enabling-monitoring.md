@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Enabling monitoring'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Enabling monitoring
 ms:assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687994(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Configuring the Lync Server computer to participate in System Center discovery'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring the Lync Server computer to participate in System Center discovery
 ms:assetid: 2f9c9cb0-3120-4571-9cd2-657c2123fe21
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204776(v=OCS.15)

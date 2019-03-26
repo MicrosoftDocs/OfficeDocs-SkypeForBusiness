@@ -1,5 +1,8 @@
-﻿---
+---
 title: The Skype for Business Online cmdlets
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: The Skype for Business Online cmdlets
 ms:assetid: 71f38305-fd8b-4013-83e1-cb742e3174c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362817(v=OCS.15)

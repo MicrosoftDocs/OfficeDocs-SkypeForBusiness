@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Routing E9-1-1 calls by using a SIP trunk'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Routing E9-1-1 calls by using a SIP trunk
 ms:assetid: 157753c3-fe74-4e2c-81da-ee06911d4cc2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204701(v=OCS.15)

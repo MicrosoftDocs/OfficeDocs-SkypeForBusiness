@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Planning and deploying video'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Planning and deploying video
 ms:assetid: dadfb7f3-dfd6-4847-b137-17dacafd7368
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205307(v=OCS.15)

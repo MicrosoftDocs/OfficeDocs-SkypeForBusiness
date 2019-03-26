@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Certificate requirements for Persistent Chat server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Certificate requirements for Persistent Chat server
 ms:assetid: eff58baf-b918-4dfa-b01d-e1aec436b4fd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412990(v=OCS.15)

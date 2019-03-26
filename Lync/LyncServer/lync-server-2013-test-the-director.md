@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Test the Director'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Test the Director
 ms:assetid: 9627a7e2-28cc-429c-b79b-7c7a27573bb7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398767(v=OCS.15)

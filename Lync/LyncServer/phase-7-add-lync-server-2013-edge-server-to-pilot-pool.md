@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Phase 7: Add Lync Server 2013 Edge Server to pilot pool'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: 'Phase 7: Add Lync Server 2013 Edge Server to pilot pool'
 ms:assetid: 7dbace6e-0a52-4530-8456-380a9f251f47
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205030(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: VideoClientEvent table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: VideoClientEvent table
 ms:assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399039(v=OCS.15)

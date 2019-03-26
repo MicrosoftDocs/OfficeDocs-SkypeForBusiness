@@ -1,5 +1,6 @@
 ---
 title: Manage the Shifts app for your organization in Microsoft Teams
+author: kenwith
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars

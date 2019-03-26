@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Install the files for Mediation Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Install the files for Mediation Server
 ms:assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412998(v=OCS.15)
