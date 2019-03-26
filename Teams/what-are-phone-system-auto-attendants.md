@@ -21,7 +21,7 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
-description: "Learn what Phone System (Cloud PBX) auto attendants are and how to use them."
+description: "Learn what Phone System auto attendants are and how to use them."
 ---
 
 # What are Phone System auto attendants?
@@ -38,6 +38,9 @@ A Phone System auto attendant has the following features:
 - It can provide custom corporate menus. You can customize these menus to have more than one level.
 - It provides directory search that enables people who call in to search the organization's directory for a name.
 - It enables someone who calls in to reach or leave a message for a person in your organization.
+- It supports multiple languages for prompts, text-to-speech, and speech recognition.
+- It supports specifying holidays and business hours.
+- It supports transferring call to  an operator, other users, call queues, and auto attendants.
 
 > [!NOTE]
 > This article applies to both Microsoft Teams and Skype for Business Online.
@@ -46,7 +49,7 @@ A Phone System auto attendant has the following features:
 
 To get started using auto attendants, it's important to remember that:
   
-- Your organization must have (at a minimum) an Enterprise E3 plus **Phone System** license or an Enterprise E5 license. The number of **Phone System** user licenses that are assigned impacts the number of service numbers that are available to be used for auto attendants. The number of auto attendants you can have is dependent on the number **Phone System** and **Audio Conferencing** licenses that are assigned in your organization. To learn more about licensing, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- You need to assign a Phone System license to a resource account that will be associated with your auto attendant. To learn more about licensing, see [Microsoft Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
     > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -57,7 +60,7 @@ To get started using auto attendants, it's important to remember that:
     > User (subscriber) phone numbers can't be assigned to auto attendants - only service toll or toll-free phone numbers can be used.
 - An auto attendant is required to have an associated resource account. See [Manage resource accounts in Teams](manage-resource-accounts.md) for details on resource accounts.
 - A complete auto attendant system will usually involve multiple auto attendants and may only require a single assigned phone number for the top-level or entry auto attendant. Other auto attendants or call queues in the complete system will only need a phone number if you want to provide multiple points of entry into the system.
-- It is possible to apply more than one phone number to an auto attendant by associating more than one phone number to the auto attendant's resource account.
+- It is possible to apply more than one phone number to an auto attendant by associating more than one resource account to an auto attendant.
   
 ## Feature overview
 
@@ -71,17 +74,17 @@ There is no limit on the Active Directory size for which Dial by Name is support
   
 |Input type|Search format|Maximum number of users in an organization|
 |:-----|:-----|:-----|
-|DTMF (keypad entry) |Partial  <br/> FirstName + LastName  <br/> LastName + FirstName |No hard limit  |
-|Speech (voice input) |FirstName  <br/> LastName  <br/> FirstName + LastName  <br/> LastName + FirstName  |80,000 users |
+|DTMF (keypad entry) |Partial  <br/> FirstName + LastName  <br/> LastName + FirstName |No limit  |
+|Speech (voice input) |FirstName  <br/> LastName  <br/> FirstName + LastName  <br/> LastName + FirstName  | 80,000 users |
 
 > [!NOTE]
-> If you are using Dial by Name with speech recognition, but your organization's Active Directory is bigger than 80,000 users and you haven't limited the scope of Dial by Name using Dial Scope feature, Dial by Name will still work for your callers using a phone keypad, and voice inputs will be available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular auto attendant.
+> If you are using Dial by Name with speech recognition, but your organization's Active Directory is larger than 80,000 users and you haven't limited the scope of Dial by Name using Dial Scope feature, Dial by Name will still work for your callers using a phone keypad, and voice inputs will be available for all other scenarios. You can use the Dial Scope feature to narrow down the names that are reachable by changing the scope of Dial by Name for a particular auto attendant.
   
 ### Dial by Name - Keypad (DTMF) entry
 
-People calling in can use Dial by Name to reach users by specifying either the full or partial name of the person they are trying to reach. The good thing is that there are various formats that can be used when the name is entered.
+People calling in can use Dial by Name to reach users by specifying either the full or partial name of the person they are trying to reach. There are various formats that can be used when the name is entered.
 
-When searching your organization's directory, people can use the '0' (zero) key to indicate a space between the first name and last or last name and first. When they are entering the name, they will be asked to terminate their keypad entry with the # (pound) key. For example, "After you enter the name of the person you are trying to reach, press #." If there are multiple names that are found, the person calling will be given a list of names to select from.
+When searching your organization's directory, people can use the '0' (zero) key to indicate a space between the first name and last or last name and first. When they are entering the name, they will be asked to terminate their keypad entry with the # key. For example, "After you enter the name of the person you are trying to reach, press #." If there are multiple names that are found, the person calling will be given a list of names to select from.
   
 People can search for names in your organization using the following search formats on their phone keypad:
   
@@ -99,9 +102,9 @@ There are several special characters that are used when searching for people usi
   
 |Special phone keypad character|What it means|
 |:-----|:-----|
-|# (pound key) |End character when entering a name. |
-|0 (zero) |Space between names. |
-|* (star key)  |Repeat the list of matching names. |
+|#   |End character when entering a name. |
+|0   |Space between names. |
+|*    |Repeat the list of matching names. |
 
 ### Dial by Name - Name recognition with speech
 
@@ -121,7 +124,7 @@ People calling in can say names in the following formats:
 |LastName |Full |Marble |Press or say 1 for Amos Marble  <br/> Press or say 2 for Ben Marble |
 
 > [!NOTE]
-> It might take up to 36 hours for a new user to have their name listed in the directory for Dial by Name with speech recognition.
+> It might take up to 36 hours for a new user to have their name listed in the directory for Dial by Name with speech recognition due to Active Directory replication lag.
   
 ### Language support
 
@@ -153,7 +156,7 @@ Speech recognition for auto attendants is available in the following languages:
 
 The following voice commands are available in the fourteen (14﻿) languages supported for speech recognition:
   
-|Voice command|Meaning|
+|Voice command| Corresponds to |
 |:-----|:-----|
 |Yes |Yes - corresponds to pressing 1 for Yes. |
 |No |No - corresponds to pressing 2 for No. |
@@ -173,19 +176,13 @@ The following voice commands are available in the fourteen (14﻿) languages sup
 
 ### Using the operator option
 
-Using the operator for an auto attendant is an optional setting that provides the person calling with an option to speak to a live person.
+Using the operator for an auto attendant is an optional setting that provides the caller with an option to speak to a human operator.
   
-Key 0 and the voice command "Operator" (in all the languages supported for speech recognition) are assigned to operator by default.
+Key 0 and the voice command "Operator"  direct the call to the designated operator by default. This is the case for all languages supported for speech recognition. You can also use **Menu Options** to set a custom value for the Operator.
   
-> [!NOTE]
-> You can set the button that is pushed for the **Operator** to a different key by using **Menu Options**.
+The operator can be set to:
   
-You can set the following as the operator:
-  
-- A Microsoft Teams user who has a **Phone System** license that is Enterprise Voice-enabled or has Calling Plans assigned to them. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person's calls to be automatically forwarded directly to voicemail.
-
-    > [!NOTE]
-    > Users hosted on-premises using Lync Server 2010 can't be used as an Operator.
+- A Microsoft Teams user or a Skype for Business on premise user that is Enterprise Voice-enabled.
   
 - Another auto attendant that's set up for your organization.
 - Any existing call queue that's set up in your organization. To see more about call queues, see [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
@@ -200,8 +197,6 @@ Each auto attendant has call-handling options that can be set:
 - You can also:
   - Redirect the call to a Microsoft Teams user who has a **Phone System** license that is Enterprise Voice-enabled or has Calling Plans assigned to them. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person's calls to be automatically forwarded directly to voicemail.
 
-    > [!NOTE]
-    > Users hosted on-premises using Lync Server 2010 aren't supported.
   
   - Redirect the call to a call queue. To see more about call queues, see [Create a Phone System call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
@@ -218,38 +213,19 @@ Keys 0 through 9 can be assigned to **Menu Options** in an auto attendant using 
 - A call queue.
 - Another auto attendant. Multi-level menus can be set up by pointing a **Menu Option** in one auto attendant to another auto attendant with its own set of Menu Options, which is called a "nested" auto attendant.
 - A Microsoft Teams user who has a **Phone System** license that is Enterprise Voice-enabled or has Calling Plans assigned to them. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person's calls to be automatically forwarded directly to voicemail.
-
-    > [!NOTE]
-    > Users hosted on-premises using Lync Server 2010 can't be used in **Menu Options**.
   
 The name of every menu option becomes a speech-recognition keyword if speech recognition has been enabled. For example, callers can say "One" to select the menu option mapped to key 1, or they can simply say "Sales" to select the same menu option named "Sales."
   
 To set up an auto attendant and the menu options, go [Set up a Phone System auto attendant](create-a-phone-system-auto-attendant.md).
   
-### Getting service numbers for an auto attendant
+### Assigning phone numbers for an auto attendant
 
-Before you can create and set up your auto attendants, you will need to get or transfer your existing toll or toll-free service numbers. Once you get the toll or toll-free service phone numbers, they will show up in the **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) or, if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
+You can assign a Microsoft calling plan service number or a direct routing hybrid number to your auto attendant. See [Plan Direct Routing](direct-routing-plan.md) for details.
+
+To assign a service number, you will need to get or transfer your existing toll or toll-free service numbers. Once you get the toll or toll-free service phone numbers, they will show up in the <!-- validate nav path --> **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) or, if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
-> If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it.
-  
-## Changing the user's Caller ID to be a call queue's phone number
-
-You can protect a user's identity by changing their caller ID for the outbound calls to a call queue instead by creating a policy using the **New-CallingLineIdentity** cmdlet.
-  
-To do this, run:
-  
-``` Powershell
-New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
-```
-
-Then apply the policy to the user using the **Grant-CallingLineIdentity** cmdlet. To do this, run:
-  
-``` Powershell
-Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
-```
-
-You can get more information on how to make changes to caller ID settings in your organization [How can caller ID be used in your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
+> If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers. Go [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it.
   
 ## Related topics
 
