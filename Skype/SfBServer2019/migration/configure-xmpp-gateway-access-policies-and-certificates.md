@@ -1,5 +1,6 @@
 ---
 title: "Configure XMPP gateway access policies and certificates"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Components and topologies for on-premises Unified Messaging'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Components and topologies for on-premises Unified Messaging
 ms:assetid: 22fc87cf-a7e5-4c8c-bb9b-101e5380cdcf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425711(v=OCS.15)

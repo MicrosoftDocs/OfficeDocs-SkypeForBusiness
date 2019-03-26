@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing user PINs'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing user PINs
 ms:assetid: 806a813c-bdd4-49eb-9923-0dbb03968d8a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688107(v=OCS.15)

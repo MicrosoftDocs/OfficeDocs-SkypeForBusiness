@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Check trunk configuration against a phone number'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Check trunk configuration against a phone number
 ms:assetid: 0800d7a3-fc35-482b-a9a4-203d890bfa45
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725206(v=OCS.15)

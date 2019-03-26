@@ -1,5 +1,6 @@
 ---
 title: "View trunk configuration information in Skype for Business Server"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

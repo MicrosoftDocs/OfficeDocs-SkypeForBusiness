@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Planning for announcements'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Planning for announcements
 ms:assetid: eb9f5420-0222-4fe0-81a7-9d249e56cd84
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399062(v=OCS.15)

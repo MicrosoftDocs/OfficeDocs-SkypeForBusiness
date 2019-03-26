@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Application endpoints cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Application endpoints cmdlets
 ms:assetid: 940e7d52-1fd0-4f7e-a116-ac5501477fb0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415665(v=OCS.15)

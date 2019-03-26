@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Monitoring and health configuration'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Monitoring and health configuration
 ms:assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520950(v=OCS.15)

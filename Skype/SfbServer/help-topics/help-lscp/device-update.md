@@ -1,5 +1,6 @@
 ---
 title: "Device Update"
+ms.reviewer: 
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Security framework for Lync Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Security framework for Lync Server 2013
 ms:assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481316(v=OCS.15)

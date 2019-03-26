@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Conference Summary Subreport'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Conference Summary Subreport
 ms:assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204779(v=OCS.15)

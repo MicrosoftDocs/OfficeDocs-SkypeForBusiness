@@ -1,5 +1,6 @@
 ---
 title: "Skype for Business Server 2015 Planning Tool"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

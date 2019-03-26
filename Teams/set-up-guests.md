@@ -92,7 +92,6 @@ The guest settings are set in Azure Active Directory. It takes 2 hours to 24 hou
     AllowShareFile                   : True
     AllowOrganizationTab             : True
     AllowSkypeBusinessInterop        : True
-    AllowTBotProactiveMessaging      : False
     ContentPin                       : RequiredOutsideScheduleMeeting
     AllowResourceAccountSendMessage  : True
     ResourceAccountContentAccess     : NoAccess

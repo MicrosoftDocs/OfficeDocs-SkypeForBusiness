@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 supported server collocation
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Supported server collocation
 ms:assetid: 3be990a1-5485-4b83-b73f-947ac97821f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425885(v=OCS.15)

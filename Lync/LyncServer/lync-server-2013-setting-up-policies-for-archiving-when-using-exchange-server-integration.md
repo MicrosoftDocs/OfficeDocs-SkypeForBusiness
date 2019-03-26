@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Setting up policies for Archiving when using Exchange Server integration'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Setting up policies for Archiving when using Exchange Server integration
 ms:assetid: 8b9b2bad-a4b3-42e1-85a7-04022e9442ad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205063(v=OCS.15)

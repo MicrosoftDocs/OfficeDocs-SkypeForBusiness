@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: PSTN connectivity cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: PSTN connectivity cmdlets
 ms:assetid: b19ba43c-3987-410d-a704-aba0a4fb0498
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415670(v=OCS.15)

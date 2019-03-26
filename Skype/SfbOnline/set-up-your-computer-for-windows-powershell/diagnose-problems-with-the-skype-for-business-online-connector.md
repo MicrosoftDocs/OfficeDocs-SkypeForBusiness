@@ -1,5 +1,6 @@
 ---
 title: "Diagnose connection problems with the Skype for Business Online Connector"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

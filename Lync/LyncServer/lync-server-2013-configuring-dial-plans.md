@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring dial plans'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring dial plans
 ms:assetid: d4a4d803-f1a8-4ed9-907e-5f532a0f6c6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398922(v=OCS.15)

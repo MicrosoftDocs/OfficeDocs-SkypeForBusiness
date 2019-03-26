@@ -1,5 +1,6 @@
 ---
 title: "Manage Skype for Business Server 2019 using SCOM Management pack"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

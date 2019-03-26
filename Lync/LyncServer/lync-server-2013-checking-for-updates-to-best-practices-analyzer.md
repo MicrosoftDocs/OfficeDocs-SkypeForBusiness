@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Checking for updates to Best Practices Analyzer'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Checking for updates to Best Practices Analyzer
 ms:assetid: 06f1da8b-99a7-4871-911e-bfb7542baced
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204645(v=OCS.15)

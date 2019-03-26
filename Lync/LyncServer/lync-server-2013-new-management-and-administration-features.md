@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: New management and administration features'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: New management and administration features
 ms:assetid: 72f7b719-32b0-4736-ba8e-c54bcebf42e5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398546(v=OCS.15)

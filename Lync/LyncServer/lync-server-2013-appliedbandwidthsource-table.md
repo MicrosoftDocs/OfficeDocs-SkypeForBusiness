@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: AppliedBandwidthSource table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: AppliedBandwidthSource table
 ms:assetid: 24fb3caf-19b3-4c0a-90d7-ca5d53de32ad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425725(v=OCS.15)

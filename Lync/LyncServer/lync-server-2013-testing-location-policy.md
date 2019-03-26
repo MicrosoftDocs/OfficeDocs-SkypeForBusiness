@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Testing location policy'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Testing location policy
 ms:assetid: 23d06fd3-31ee-4480-ba1e-d179a55b8b14
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690127(v=OCS.15)

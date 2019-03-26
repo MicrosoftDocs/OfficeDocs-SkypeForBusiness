@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Assign a per-user client version policy'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Assign a per-user client version policy
 ms:assetid: f7e8ba2f-62dc-4e7d-8b63-682986f10240
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182607(v=OCS.15)

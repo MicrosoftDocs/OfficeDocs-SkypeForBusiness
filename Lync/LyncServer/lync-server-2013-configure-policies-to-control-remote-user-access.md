@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure policies to control remote user access'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure policies to control remote user access
 ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398725(v=OCS.15)

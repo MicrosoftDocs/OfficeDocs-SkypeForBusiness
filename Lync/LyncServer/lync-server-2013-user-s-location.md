@@ -1,5 +1,8 @@
-﻿---
+---
 title: "Lync Server 2013: User's location"
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: User's location
 ms:assetid: ce57941d-086b-448e-8ada-c7d636a2a1c9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994073(v=OCS.15)

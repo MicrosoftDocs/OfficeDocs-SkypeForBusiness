@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Migration and coexistence cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Migration and coexistence cmdlets
 ms:assetid: ff1a56e0-e883-473d-92fe-ca77ea4eb63b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415682(v=OCS.15)

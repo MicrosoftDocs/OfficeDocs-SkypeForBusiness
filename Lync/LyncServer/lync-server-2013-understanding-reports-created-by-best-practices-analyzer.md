@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Understanding reports created by Best Practices Analyzer'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Understanding reports created by Best Practices Analyzer
 ms:assetid: 1386dd6c-7f3e-4da9-905b-cef1468bf14a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591344(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: tblComplianceState'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: tblComplianceState
 ms:assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615045(v=OCS.15)

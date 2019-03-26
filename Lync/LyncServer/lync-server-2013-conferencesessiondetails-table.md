@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: ConferenceSessionDetails table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: ConferenceSessionDetails table
 ms:assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412741(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Publishing the updated topology to add Archiving databases'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Publishing the updated topology to add Archiving databases
 ms:assetid: 454c68df-2ef5-4b5f-a44c-4eee02635d45
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204860(v=OCS.15)

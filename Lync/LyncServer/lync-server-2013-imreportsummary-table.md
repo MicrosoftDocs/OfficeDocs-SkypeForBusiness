@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: IMReportSummary table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: IMReportSummary table
 ms:assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204753(v=OCS.15)

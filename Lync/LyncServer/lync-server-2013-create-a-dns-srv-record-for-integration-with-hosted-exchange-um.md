@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Create a DNS SRV record for integration with hosted Exchange UM'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create a DNS SRV record for integration with hosted Exchange UM
 ms:assetid: 8ea590ae-58ea-4ca5-9853-e0708b3ea760
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh500728(v=OCS.15)

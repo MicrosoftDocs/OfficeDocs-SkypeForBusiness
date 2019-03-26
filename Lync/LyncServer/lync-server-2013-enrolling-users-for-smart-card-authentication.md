@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Enrolling users for smart card authentication'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Enrolling users for smart card authentication
 ms:assetid: a6445a83-a94b-423f-ba2a-12b5f84c5d75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308570(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create or modify a collection of CDR configuration settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create or modify a collection of CDR configuration settings
 ms:assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721878(v=OCS.15)

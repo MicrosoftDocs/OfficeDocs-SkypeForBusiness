@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Reviewing the Administrator Reports'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Reviewing the Administrator Reports
 ms:assetid: 1dee56a9-a033-4201-9765-e3469bd7d3e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558622(v=OCS.15)

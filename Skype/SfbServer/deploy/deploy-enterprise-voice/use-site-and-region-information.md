@@ -1,5 +1,6 @@
 ---
 title: "Configure media bypass global settings in Skype for Business Server to use site and region information"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

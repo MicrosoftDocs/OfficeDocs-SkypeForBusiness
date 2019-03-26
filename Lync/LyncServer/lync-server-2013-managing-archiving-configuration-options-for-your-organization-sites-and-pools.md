@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing Archiving configuration options for your organization, sites, and pools'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing Archiving configuration options for your organization, sites, and pools
 ms:assetid: 377a6f80-5f2b-4bc1-b507-e930a461fb1d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204802(v=OCS.15)

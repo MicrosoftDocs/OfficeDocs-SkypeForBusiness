@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: PayloadDescription table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: PayloadDescription table
 ms:assetid: c49d61c0-305a-4770-a5d2-5d9f05decc6d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412971(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Verify normalization rules for Call Park'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Verify normalization rules for Call Park
 ms:assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398981(v=OCS.15)

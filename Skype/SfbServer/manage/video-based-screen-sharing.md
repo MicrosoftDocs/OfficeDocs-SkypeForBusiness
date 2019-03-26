@@ -1,5 +1,6 @@
 ---
 title: "Video based Screen Sharing for Skype for Business Server"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/20/2018

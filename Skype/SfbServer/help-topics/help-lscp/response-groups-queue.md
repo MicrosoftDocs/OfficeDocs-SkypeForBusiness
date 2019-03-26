@@ -1,5 +1,6 @@
 ---
 title: "Response Groups Queue"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

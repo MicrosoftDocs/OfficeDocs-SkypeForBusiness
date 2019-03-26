@@ -1,5 +1,6 @@
 ---
 title: "Configure the meeting join page in Skype for Business Server"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

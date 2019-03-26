@@ -1,5 +1,6 @@
 ---
 title: "Changes made by Grant-CsOUPermission in Skype for Business Server"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

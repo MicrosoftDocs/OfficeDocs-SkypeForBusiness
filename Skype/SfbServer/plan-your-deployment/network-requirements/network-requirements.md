@@ -1,5 +1,6 @@
 ---
 title: "Plan network requirements for Skype for Business"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

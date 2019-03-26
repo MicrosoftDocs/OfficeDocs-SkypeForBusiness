@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring Mobility Service for high performance'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring Mobility Service for high performance
 ms:assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690042(v=OCS.15)

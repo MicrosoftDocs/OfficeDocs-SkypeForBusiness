@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing call management features'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing call management features
 ms:assetid: c1261140-7a17-4bb2-9823-aa2cf307067c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721872(v=OCS.15)

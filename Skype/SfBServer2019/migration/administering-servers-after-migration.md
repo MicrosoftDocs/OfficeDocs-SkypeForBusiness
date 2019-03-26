@@ -1,5 +1,6 @@
 ---
 title: "Administering servers after migration"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

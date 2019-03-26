@@ -1,5 +1,8 @@
-﻿---
+---
 title: Migrating Archiving and Monitoring servers
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Migrating Archiving and Monitoring servers
 ms:assetid: 77831579-df45-4697-b8c5-207b74a07a40
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205015(v=OCS.15)

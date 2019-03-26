@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploy Shared Line Appearance'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploy Shared Line Appearance
 ms:assetid: 6666dfef-9ecf-4834-af6a-2d5da227dfa3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Mt712152(v=OCS.15)

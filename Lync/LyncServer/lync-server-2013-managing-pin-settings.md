@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing PIN settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing PIN settings
 ms:assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721898(v=OCS.15)

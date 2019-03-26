@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring Windows 8 for Virtual Smart Cards'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring Windows 8 for Virtual Smart Cards
 ms:assetid: 4916c167-4ee3-4f3e-b65c-33e588595112
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308564(v=OCS.15)

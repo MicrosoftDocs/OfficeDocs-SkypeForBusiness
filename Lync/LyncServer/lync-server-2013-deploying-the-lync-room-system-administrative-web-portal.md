@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploying the Lync Room System Administrative Web Portal'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploying the Lync Room System Administrative Web Portal
 ms:assetid: ecba5b36-632e-40b9-9c2e-ab825baf7a46
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn436324(v=OCS.15)

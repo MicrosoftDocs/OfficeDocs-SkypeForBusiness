@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Setting up Front End Servers and Front End pools'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Setting up Front End Servers and Front End pools
 ms:assetid: c88526f9-69e2-47dd-b3d7-056139d74fb2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398827(v=OCS.15)

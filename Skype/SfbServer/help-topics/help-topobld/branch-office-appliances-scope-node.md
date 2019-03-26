@@ -1,5 +1,6 @@
 ---
 title: "Branch Office Appliances Scope Node"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring supported client versions'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring supported client versions
 ms:assetid: aebf7b48-9aa2-4a06-adc5-0c9d11b6358d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412832(v=OCS.15)

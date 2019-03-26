@@ -1,5 +1,6 @@
 ---
 title: "Deployment process for Response Group in Skype for Business"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

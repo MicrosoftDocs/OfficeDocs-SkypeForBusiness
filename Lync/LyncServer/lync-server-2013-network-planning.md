@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 network planning
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Network planning for Lync Server
 ms:assetid: cb4383e3-118a-40f2-92eb-d723c5b037c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721883(v=OCS.15)

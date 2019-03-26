@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Delegate setup permissions'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Delegate setup permissions
 ms:assetid: 9dca1683-4c69-4534-8ebe-6bd635cbae49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412735(v=OCS.15)

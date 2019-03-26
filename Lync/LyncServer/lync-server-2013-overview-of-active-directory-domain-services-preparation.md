@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Overview of Active Directory Domain Services preparation'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Overview of Active Directory Domain Services preparation
 ms:assetid: cdd2a652-6a0d-4728-9950-3fcaa7a80066
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398869(v=OCS.15)

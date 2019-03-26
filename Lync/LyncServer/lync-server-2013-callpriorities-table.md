@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: CallPriorities table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: CallPriorities table
 ms:assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398093(v=OCS.15)

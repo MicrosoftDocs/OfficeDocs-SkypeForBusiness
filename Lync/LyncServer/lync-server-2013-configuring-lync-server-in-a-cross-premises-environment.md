@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring Lync Server in a cross-premises environment'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring Microsoft Lync Server 2013 in a cross-premises environment
 ms:assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204990(v=OCS.15)

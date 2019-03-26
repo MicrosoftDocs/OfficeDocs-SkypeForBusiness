@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create or modify a conferencing device Contact object'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create or modify a conferencing device Contact object
 ms:assetid: 62ed64be-379c-417d-9453-511881cf5604
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994035(v=OCS.15)
