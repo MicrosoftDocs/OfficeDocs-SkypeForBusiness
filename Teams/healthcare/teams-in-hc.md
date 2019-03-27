@@ -53,10 +53,10 @@ Electronic health information records integration using [FHIR](https://www.hl7.o
 The care coordination solution in Microsoft Teams involves a first party tab app that integrates with electronic health record (EHR) systems via an FHIR interface to bring medical information from record systems into Microsoft Teams. This helps clinical workers access crucial patient information and communicate among themselves to optimize patient care. One of the key challenges to achieving coordinated care is the lack of interoperability between electronic systems in healthcare. Enabling interoperability through an industry backed standard like FHIR enables clinicians to have the best information available at the point of care when making diagnosis and treatment decisions.
 
 The health records solution depends on partnerships with leading healthcare Independent Software Vendors (ISVs) that can connect Teams to a Healthcare provider's EHR systems based on industry-wide data standards. Microsoft has working partnerships with the following healthcare partners to establish electronic health record integration: 
-- [Datica](https://datica.com/compliant-managed-integration/) (through their CMI offering)
-- [Infor Cloverleaf](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html)  (through the Infor FHIR Bridge)
-- [Redox](https://www.redoxengine.com/fhir/) (through the R^FHIR server)
-- [Dapasoft](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/) (through Corolar on FHIR)
+- [Datica](https://datica.com/compliant-managed-integration/) (CMI offering)
+- [Infor Cloverleaf](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html)  (Info FHIR Bridge)
+- [Redox](https://www.redoxengine.com/fhir/) (R^FHIR server)
+- [Dapasoft](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/) (Corolar on FHIR)
 
 The **HL7 Fast Healthcare Interoperability Resources (FHIR) standard** is rapidly gaining support in the healthcare community as the next generation standards framework for interoperability. HL7 FHIR is rapidly gaining support in the healthcare community as the next generation standards framework for interoperability, and it’s clear why. FHIR is an extensible and modern standard based on a web-based APIs including HTTPS and RESTful protocols.
 
@@ -81,7 +81,11 @@ The data Teams pulls from EHR systems is not stored at REST. Also, there are 11 
 
 ## Firstline Worker integration
 
-Microsoft Teams integrates with Firstline Worker, which can be used to coordinate shift staffing and more features. See the following articles:
+Microsoft Teams integrates with Firstline Worker, which can be used to coordinate shift staffing features and more.
 
-- [Get started with Microsoft Teams Firstline Worker in Healthcare settings](../teams-for-firstline-workers/firstline-healthcare.md)
-- [Microsoft Teams for firstline workers](../teams-for-firstline-workers/teams-for-firstline-workers.md)
+ See the following articles:
+
+- [Get started with Microsoft Teams Firstline Worker in Healthcare settings](../teams-for-firstline-workers/healthcare/firstline-healthcare.md)
+- [Manage the Shifts app for your organization in Microsoft Teams](../teams-for-firstline-workers/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+
+
