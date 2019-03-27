@@ -27,17 +27,19 @@ These changes are part of our continued efforts to empower every employee with M
 
 #### When will StaffHub be retired?
 
-Starting the middle of April 2019, Microsoft StaffHub will no longer be available for new tenants and existing tenants will no longer be able to access StaffHub from the Office 365 app launcher. Current users will still be able to use the service until October 1, 2019, however no additional features will be made available.
+Starting the middle of April 2019, Microsoft StaffHub will no longer be available for new tenants. Current users will still be able to use the service until October 1, 2019, however no additional features will be made available.
 
 #### What will happen once StaffHub is retired?
 
-Microsoft StaffHub will stop working for all users on October 1, 2019. Anyone who tries to open the app will be shown a message directing them to download Teams. If the user has an active license that includes Teams, their data and core functionality from StaffHub will be available to them upon their transition to Teams.
+Microsoft StaffHub will stop working for all users on October 1, 2019. Anyone who tries to open the app will be shown a message directing them to download Teams. If the user has an active license that includes Teams and the organization has taken the appropriate steps to enable Teams, their data and core functionality from StaffHub will be available to them upon their transition to Teams.
 
 Between April 2019 and October 2019, StaffHub users will receive in-app notifications encouraging them to use Teams.
 
 #### Will Teams offer all the functionality currently offered in StaffHub?
 
-StaffHub's core and most used features are available in Shifts in Teams, which enables managers to create, update, and manage schedules, and lets team members clock in and out, post their availability, swap or offer shifts, and request open shifts or time off.
+StaffHub's core and most-used features are available in Shifts in Teams, which enables managers to create, update, and manage schedules, and lets team members clock in and out, post their availability, swap or offer shifts, and request open shifts or time off.
+
+Organizations now benefit from a feature-rich communication and collaboration experience in Teams and a single platform that can connect all levels of the organization.
 
 See the [roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1) for details on upcoming features to be released in Teams.
 
@@ -47,7 +49,7 @@ To learn how to prepare for the transition from StaffHub to Shifts in Teams, go 
 
 #### Why can't users in my organization access their StaffHub team from Shifts in Teams?
 
-Teams that were created with StaffHub can only be viewed and managed in StaffHub. After a StaffHub team is moved to Teams, users will be able to view their schedules in Shifts.
+Teams that were created with StaffHub can only be viewed and managed in StaffHub. After a StaffHub team is moved to Teams, users will be able to view their schedules in Shifts. We encourage you to communicate this change early and familiarize existing users with Teams.
 
 ### About Shifts
 
@@ -138,7 +140,9 @@ It’s possible the name of a team will be different. Team names in Teams use th
 
 #### What happens to team membership when a StaffHub team is moved to Teams?
 
-Team membership is maintained when a StaffHub team is moved to Teams. Phone numbers of team members won't be displayed in Shifts. If the StaffHub phone number matches the phone number in Azure AD it will be stored in Azure AD for that user account.
+Team membership is maintained when a StaffHub team is moved to Teams. Phone numbers of team members won't be displayed in Shifts. If the StaffHub phone number matches the phone number in Azure AD it will be stored in Azure AD for that user account. 
+
+We encourage you to review your existing team rosters on StaffHub and where possible align phone numbers to relevant Azure AD identities.
  
 #### What happens to StaffHub team members who aren't provisioned or whose status is inactive?
 
@@ -167,24 +171,26 @@ For files that were uploaded before **placeholder date**, you can move them to T
  
 #### What happens to the tasks feature in StaffHub?
 
-Tasks migration isn't supported and tasks won't be moved to Teams. We're committed to delivering a superior user experience and bringing the unique capabilities of StaffHub to Teams.
+Tasks migration is not supported and tasks will not be moved to Teams. We're committed to delivering a superior user experience and bringing the unique capabilities of StaffHub to Teams. As such, we're exploring additional tools and experiences in Teams to help organizations create, assign, and manage activities.
 
 #### Can I use StaffHub flow templates with Teams?
 
 Existing StaffHub flow templates won't work with Shifts in Teams. 
 
-You can use the Microsoft Graph API with Teams. Microsoft Graph APIs provide access to teams, members and shifts data, and can be used to integrate with HR, payroll, or workforce management systems. To learn more, see [Use the Microsoft Graph API to work with Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview)
+You can use the Microsoft Graph API with Teams. Microsoft Graph APIs provide access to teams, members and shifts data, and can be used to integrate with human resources, payroll, or workforce management systems. To learn more, see [Use the Microsoft Graph API to work with Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview).
 
 #### Is there Kronos integration in Teams?
 
-Teams supports connections to Kronos through the Kronos bot, which can be added to chats and channels.
+Teams supports connections to Kronos through the Kronos bot, which can be added to chats and channels. To learn more, see [Add bots for private chats and channels in Teams](../../add-bots.md) and [Add an app to Teams](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
 
-#### How do I move my corporate resources from the StaffHub admin page?-FOLLOWUP
+#### How do I move my corporate resources from the StaffHub admin page?
 
 Lana - do you know if Teams template allows admins to create tabs in Teams to point to specific URLS or install default apps?
 Lisa - looks like templates can be used to install apps and pin tabs. See https://docs.microsoft.com/en-us/MicrosoftTeams/get-started-with-teams-templates, which lists base template types.
 
-#### What happens to corporate announcements in StaffHub?-FOLLOWUP
+#### What happens to corporate announcements in StaffHub?
+
+At this time, corporate announcements are not supported in Teams. We recommend using a simple chat bot or setting up a dedicated channel in Teams to communicate important announcements and resources to all team members.
  
 #### How do I move my team custom fields from StaffHub to Teams?
 
@@ -192,7 +198,9 @@ There are no current plans to support custom fields in Teams.
 
 Be sure to check the [roadmap](https://www.microsoft.com/en-ca/microsoft-365/roadmap?rtc=1) to stay on top of upcoming features in Teams.
 
-#### Is time clock export and download supported in Shifts?-FOLLOWUP
+#### Is time clock export and download supported in Shifts?
+
+At this time, time clock export and download are not supported in Teams.
  
 #### Can I export shift schedules from Shifts?
   
@@ -222,7 +230,7 @@ No additional training is required. They can use Shifts in a similar way to how 
  
 #### What admin controls are available to manage whether users in my organization can use Shifts?  
   
-You can turn on or turn off Shifts org-wide for all users in your organization. In the Microsoft Teams admin center, you can also use the FirstlineWorker app setup policy to customize Teams for your Firstline Workforce. The policy is configured with the Activity, Shifts, Chat, and Calling apps. Assigning the policy pins these apps to the app bar in Teams for quick and easy access by users. To learn more, see [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
+You can turn on or turn off Shifts org-wide for all users in your organization. In the Microsoft Teams admin center, you can also use the Firstline Worker app setup policy to customize Teams for your Firstline Workforce. The policy is configured with the Activity, Shifts, Chat, and Calling apps. Assigning the policy pins these apps to the app bar in Teams for quick and easy access by users. To learn more, see [Manage the Shifts app for your organization in Teams](manage-the-shifts-app-for-your-organization-in-teams.md).
 
 #### What PowerShell controls are available for Teams?
 
@@ -236,7 +244,11 @@ If this is something you're interested in, send us a request through the [Teams 
  
 #### Will my conditional access policies for StaffHub apply to Shifts in Teams?
 
-You can only apply conditional access policies in Teams at the Teams app level. For more information, see [Overview of security and compliance in Teams](../../security-compliance-overview.md). Existing conditional access policies you created in StaffHub won't apply to Shifts in Teams.
+You can only apply conditional access policies in Teams at the Teams app level.  Existing conditional access policies you created in StaffHub won't apply to Shifts in Teams. We encourage you to review the conditional access setup guidelines. To learn more, see [Overview of security and compliance in Teams](../../security-compliance-overview.md).
+
+#### What will happen with the StaffHub API which is currently in private preview?
+
+If you have built any integrations with the StaffHub APIs, these APIs will be deprecated. We  released Microsoft Graph APIs to support integrations with your human resources, payroll, or workforce management solutions. To learn more, see [Use the Microsoft Graph API to work with Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview).
 
 #### Is reporting available to view Shifts usage across my organization?
 
