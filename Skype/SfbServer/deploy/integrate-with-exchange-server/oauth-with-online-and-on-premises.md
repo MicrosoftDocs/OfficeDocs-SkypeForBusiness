@@ -1,5 +1,6 @@
 ---
 title: "Configure OAuth between Skype for Business Online and Exchange on premises"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

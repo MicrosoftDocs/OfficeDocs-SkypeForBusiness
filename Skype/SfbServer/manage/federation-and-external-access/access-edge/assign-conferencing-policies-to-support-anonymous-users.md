@@ -1,5 +1,6 @@
-﻿---
+---
 title: 'Assign conferencing policies to support anonymous users'
+ms.reviewer: 
 ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521007(v=OCS.15)
 ms:contentKeyID: 48184333

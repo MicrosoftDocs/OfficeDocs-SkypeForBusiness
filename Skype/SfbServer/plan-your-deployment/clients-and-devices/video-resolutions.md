@@ -1,5 +1,6 @@
 ---
 title: "Skype for Business client video resolutions"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

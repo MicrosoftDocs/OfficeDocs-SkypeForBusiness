@@ -178,8 +178,7 @@ Introduced in this update:
 ### 2.0.2.0 (03/15/2017)
 Introduced in this update: 
 - In-app user selection of meeting room audio and video USB devices
-- Integrated room console status reporting for customers using Microsoft Operations Management Suite (see [Plan 
-Skype Room Systems v2 management with OMS](oms-management.md)) 
+- Integrated room console status reporting for customers using Microsoft Operations Management Suite, now Azure Monitor  
 
 ### Release to Market  (12/7/2016)
 **Feature(s):** 

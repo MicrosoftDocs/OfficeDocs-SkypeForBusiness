@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: View information about Device Update rules'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: View information about Device Update rules
 ms:assetid: d6677ca4-024b-4816-8511-8d7630788107
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994077(v=OCS.15)

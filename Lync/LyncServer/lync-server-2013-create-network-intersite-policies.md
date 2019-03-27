@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create network intersite policies'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create network intersite policies
 ms:assetid: b0714aae-55dc-4587-b718-34a03f596b22
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412844(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Viewing status of global settings for a forest'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: View status of global settings for a forest
 ms:assetid: 2ab0f2f1-9908-4e6f-aff3-d6b3cc474b6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747889(v=OCS.15)

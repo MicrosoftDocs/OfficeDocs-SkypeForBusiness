@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Hosted Exchange user management'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Hosted Exchange user management
 ms:assetid: e8723af5-0604-4d7d-bad2-463a9832efb4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399037(v=OCS.15)

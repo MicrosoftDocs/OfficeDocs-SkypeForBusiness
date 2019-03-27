@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 user experience during pool failure
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: User experience during pool failure
 ms:assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205184(v=OCS.15)

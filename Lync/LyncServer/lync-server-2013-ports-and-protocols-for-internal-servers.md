@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Ports and protocols for internal servers'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Ports and protocols for internal servers
 ms:assetid: c94063f1-e802-4a61-be90-022fc185335e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398833(v=OCS.15)

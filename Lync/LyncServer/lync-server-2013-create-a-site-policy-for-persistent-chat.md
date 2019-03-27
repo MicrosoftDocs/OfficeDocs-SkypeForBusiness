@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create a site policy for Persistent Chat'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create a site policy for Persistent Chat
 ms:assetid: 1327ff5c-b859-4010-a240-e0b2b084b5bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204693(v=OCS.15)

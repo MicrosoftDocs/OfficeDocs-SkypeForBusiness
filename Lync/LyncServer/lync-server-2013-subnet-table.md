@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Subnet table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Subnet table
 ms:assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398582(v=OCS.15)

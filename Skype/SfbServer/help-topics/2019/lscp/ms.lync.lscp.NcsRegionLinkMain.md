@@ -1,5 +1,6 @@
 ---
 title: "Configure a Network Region Link"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

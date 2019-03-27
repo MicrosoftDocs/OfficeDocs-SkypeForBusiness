@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: (Optional) Welcome users to dial-in conferencing'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: (Optional) Welcome users to dial-in conferencing
 ms:assetid: caa4fd61-f506-4c09-bb5b-1aa260d7a720
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398846(v=OCS.15)

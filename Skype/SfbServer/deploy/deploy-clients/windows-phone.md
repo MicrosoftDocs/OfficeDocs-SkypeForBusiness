@@ -1,5 +1,6 @@
 ---
 title: "Install and test Skype for Business for Windows Phone"
+ms.reviewer: 
 ms.author: chucked
 author: chuckedmonson
 manager: serdars

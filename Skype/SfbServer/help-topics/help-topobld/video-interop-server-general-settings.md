@@ -1,5 +1,6 @@
 ---
 title: "Video Interop Server General Settings"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

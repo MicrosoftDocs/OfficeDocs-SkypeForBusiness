@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Client system requirements'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Client system requirements
 ms:assetid: 38f3a465-dac1-4381-bc59-270a4ef07ced
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425865(v=OCS.15)

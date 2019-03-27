@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: New unified contact store feature'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: New unified contact store feature
 ms:assetid: 6003405d-08f6-4cfc-afda-3d9f6ebc91a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204947(v=OCS.15)

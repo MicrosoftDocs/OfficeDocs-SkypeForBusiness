@@ -1,5 +1,6 @@
 ---
 title: "Install the Planning Tool in Skype for Business Server 2015"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

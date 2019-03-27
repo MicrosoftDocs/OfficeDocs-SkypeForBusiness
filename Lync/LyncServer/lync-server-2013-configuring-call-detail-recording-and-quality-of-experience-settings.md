@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Configuring call detail recording and Quality of Experience settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring call detail recording and Quality of Experience settings
 ms:assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204621(v=OCS.15)

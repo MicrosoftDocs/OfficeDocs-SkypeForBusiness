@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Overview of Location-Based Routing'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Overview of Location-Based Routing
 ms:assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994032(v=OCS.15)

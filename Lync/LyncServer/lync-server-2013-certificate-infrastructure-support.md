@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 certificate infrastructure support
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Certificate infrastructure support
 ms:assetid: 47aa5c95-eb60-4d4b-81d5-7fdaef1a1145
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425950(v=OCS.15)

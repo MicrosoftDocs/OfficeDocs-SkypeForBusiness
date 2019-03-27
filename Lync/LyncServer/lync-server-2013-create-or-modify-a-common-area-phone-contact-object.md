@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create or modify a common area phone Contact object'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create or modify a common area phone Contact object
 ms:assetid: eec33ad1-e4f2-49b2-91d6-d5a9d2e1714b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994083(v=OCS.15)

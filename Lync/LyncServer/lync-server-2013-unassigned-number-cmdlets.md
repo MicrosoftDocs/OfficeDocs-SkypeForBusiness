@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Unassigned number cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Unassigned number cmdlets
 ms:assetid: 4956dddb-199b-47f4-813f-ef3c461aaf2e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415649(v=OCS.15)

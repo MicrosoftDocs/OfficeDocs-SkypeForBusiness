@@ -1,5 +1,6 @@
 ---
 title: 'Preventing new connections'
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

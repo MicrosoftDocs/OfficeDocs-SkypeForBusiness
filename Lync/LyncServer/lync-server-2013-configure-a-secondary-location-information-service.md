@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure a secondary Location Information service'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure a secondary Location Information service
 ms:assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398138(v=OCS.15)

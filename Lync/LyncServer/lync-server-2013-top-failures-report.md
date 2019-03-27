@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Top Failures Report'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Top Failures Report
 ms:assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558640(v=OCS.15)

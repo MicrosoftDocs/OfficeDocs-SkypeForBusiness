@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploying a Survivable Branch Appliance or Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploying a Survivable Branch Appliance or Server
 ms:assetid: cb780c14-dc5f-41ba-8092-f20ae905bd16
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398849(v=OCS.15)

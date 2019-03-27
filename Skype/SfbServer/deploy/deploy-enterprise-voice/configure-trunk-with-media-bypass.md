@@ -1,5 +1,6 @@
 ---
 title: "Configure a trunk with media bypass in Skype for Business Server"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

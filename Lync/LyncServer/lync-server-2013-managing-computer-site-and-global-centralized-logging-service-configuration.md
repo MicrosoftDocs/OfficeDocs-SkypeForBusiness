@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Managing computer, site and global Centralized Logging Service configuration'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing computer, site and global Centralized Logging Service configuration
 ms:assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688138(v=OCS.15)

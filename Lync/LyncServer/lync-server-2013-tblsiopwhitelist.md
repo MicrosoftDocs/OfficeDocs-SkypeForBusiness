@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: tblSiopWhiteList'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: tblSiopWhiteList
 ms:assetid: 05fc1df4-32eb-4d46-9d1c-e0b607091142
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558607(v=OCS.15)

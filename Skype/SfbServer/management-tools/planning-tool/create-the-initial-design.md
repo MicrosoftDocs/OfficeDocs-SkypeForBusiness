@@ -1,5 +1,6 @@
 ---
 title: "Create the initial topology design for Skype for Business Server 2015"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

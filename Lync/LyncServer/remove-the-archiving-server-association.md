@@ -1,5 +1,8 @@
-﻿---
+---
 title: Remove the Archiving server association
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Remove the Archiving server association
 ms:assetid: dabac157-71ee-4afe-b0b6-4a083d165ffb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721903(v=OCS.15)

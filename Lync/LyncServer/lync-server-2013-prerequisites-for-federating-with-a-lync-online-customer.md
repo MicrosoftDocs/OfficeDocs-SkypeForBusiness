@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Prerequisites for federating with a Lync Online customer'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Prerequisites for federating with a Lync Online customer
 ms:assetid: f57d8f8a-2b1e-4186-a74f-1d7c6872bfdc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202196(v=OCS.15)

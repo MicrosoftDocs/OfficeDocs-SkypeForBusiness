@@ -1,5 +1,6 @@
 ---
 title: "Configure CUCM for Interoperation with Skype for Business Server"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

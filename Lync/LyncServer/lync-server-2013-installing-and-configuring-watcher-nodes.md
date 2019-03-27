@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Installing and configuring watcher nodes'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Installing and configuring watcher nodes
 ms:assetid: 61f6deea-e3ef-4468-9be8-a65705815ebb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204943(v=OCS.15)

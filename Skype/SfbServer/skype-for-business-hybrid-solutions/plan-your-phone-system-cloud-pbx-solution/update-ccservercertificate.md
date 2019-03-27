@@ -1,5 +1,6 @@
 ---
 title: "Update-CcServerCertificate"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

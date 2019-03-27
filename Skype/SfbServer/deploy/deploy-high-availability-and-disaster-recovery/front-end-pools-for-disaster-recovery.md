@@ -1,5 +1,6 @@
 ---
 title: "Deploy paired Front End pools for disaster recovery in Skype for Business Server"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

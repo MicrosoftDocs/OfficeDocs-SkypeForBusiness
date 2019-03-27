@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring voice mail escape'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring voice mail escape
 ms:assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688157(v=OCS.15)

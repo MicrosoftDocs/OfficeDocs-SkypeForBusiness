@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: SQL Server data and log file placement'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: SQL Server data and log file placement
 ms:assetid: 67aa525b-8aa3-474f-827e-8e1d4697f30f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398479(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Configuring an on-premises partner application for Lync Server 2013'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring an on-premises partner application for Lync Server 2013
 ms:assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204975(v=OCS.15)

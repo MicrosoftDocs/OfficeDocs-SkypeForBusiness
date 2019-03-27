@@ -1,5 +1,6 @@
 ---
 title: "Verify pilot pool coexistence with legacy pool"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

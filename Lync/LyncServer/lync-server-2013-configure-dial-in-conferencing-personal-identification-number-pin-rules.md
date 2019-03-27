@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Configure dial-in conferencing personal identification number (PIN) rules'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure dial-in conferencing personal identification number (PIN) rules
 ms:assetid: 27b79fb1-e2dc-4f71-bc82-b6eb61be2b16
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520967(v=OCS.15)

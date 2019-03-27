@@ -1,5 +1,6 @@
 ---
 title: "Deploy the SEFAUtil tool in Skype for Business"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

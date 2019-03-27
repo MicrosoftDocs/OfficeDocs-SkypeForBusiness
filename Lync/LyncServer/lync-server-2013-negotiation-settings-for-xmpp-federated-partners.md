@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Negotiation settings for XMPP federated partners'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Negotiation settings for XMPP federated partners
 ms:assetid: ef773942-ef92-4f71-85a1-738dfebdfa00
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552456(v=OCS.15)

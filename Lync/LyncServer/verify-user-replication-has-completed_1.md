@@ -1,5 +1,8 @@
-﻿---
+---
 title: Verify user replication has completed
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Verify user replication has completed
 ms:assetid: 199dc9de-b555-468f-a42a-9e92ea6c9053
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204712(v=OCS.15)

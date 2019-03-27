@@ -1,5 +1,6 @@
 ---
 title: Microsoft Teams Training
+ms.reviewer: 
 description: Use these end user, admin, and instructor-led training resources to help you get the most out of Microsoft Teams in your organization.
 layout: LandingPage
 ms.topic: landing-page

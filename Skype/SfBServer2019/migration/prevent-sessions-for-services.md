@@ -1,5 +1,6 @@
 ---
 title: "Prevent sessions for services"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

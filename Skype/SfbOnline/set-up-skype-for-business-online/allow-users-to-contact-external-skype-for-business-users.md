@@ -1,5 +1,6 @@
 ---
 title: "Allow users to contact external Skype for Business users"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

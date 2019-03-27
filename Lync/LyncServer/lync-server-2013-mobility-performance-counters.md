@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Mobility performance counters'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Mobility performance counters
 ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690046(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Install Lync Server 2013 prerequisite software'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Install Lync Server 2013 prerequisite software
 ms:assetid: 4a3a6a5c-1dc5-4dab-9201-a0df04ba9bfb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204856(v=OCS.15)
