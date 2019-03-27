@@ -53,7 +53,7 @@ Teams that were created with StaffHub can only be viewed and managed in StaffHub
 
 #### What is Shifts?
 
-The Shifts app in Teams is a schedule management tool that keeps managers and employees connected and in sync. Managers create, update, and manage shift schedules for teams, and employees can view their schedules, see who else is scheduled for the day, request to swap or offer a shift, and request time off, all from their mobile devices.  
+The Shifts app in Teams is a schedule management tool that keeps Firstline Workers connected and in sync. Managers create, update, and manage shift schedules for teams, and employees can view their schedules, see who else is scheduled for the day, request to swap or offer a shift, and request time off, all from their mobile devices.  
 
 #### Which plans is Shifts available in?
 
@@ -74,7 +74,7 @@ If you're already on a plan that includes Shifts, you can start using Shifts tod
 
 Shifts is available on the Teams web client, Teams desktop client, and Teams mobile clients (iOS and Android).
  
-#### Are there differences between the Shifts desktop and web app and the mobile (iOS and Android) apps?
+#### Are there differences between the Shifts desktop and web apps and the mobile (iOS and Android) apps?
 
 For managers, the desktop and web apps are optimized to create teams, add members, build and publish schedules, and share content with the team. Managers generally use the mobile app to approve requests, send quick messages to the team, call an employee, and collaborate on the go. 
 
@@ -110,7 +110,7 @@ For end-user help, go to [Shifts Help for Firstline Workers](https://support.off
 
 #### What licenses do I need to move StaffHub users to Shifts in Teams?
 
-Each user must have a Microsoft 365 or Office 365 license from an[eligible plan](#which-plans-is-shifts-available-in) and must be assigned a Teams license. For more information, see [Move your StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
+Each user must have an active Microsoft 365 or Office 365 license from an [eligible plan](#which-plans-is-shifts-available-in) and must be assigned a Teams license. For more information, see [Move your StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
 #### How do I move my organization's StaffHub teams to Teams?
 
