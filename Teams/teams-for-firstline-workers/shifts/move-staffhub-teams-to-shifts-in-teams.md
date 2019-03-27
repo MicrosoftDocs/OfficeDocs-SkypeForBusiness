@@ -35,7 +35,7 @@ When you move a StaffHub team to Shifts in Teams, here's what happens:
 - Every StaffHub team needs an Office 365 Group. If a StaffHub team doesn't have an Office 365 Group, an Office 365 Group is automatically created for you to support the move to Teams. The team name in Teams uses the Office 365 Group name, so you'll see a different name when you switch over to Teams.
 - The following is moved to Teams:
     - Team membership
-    - Team schedule
+    - Team schedule and time clock data
     - Chat data from the last 90 days
     - Files from the last 90 days
 
@@ -58,18 +58,87 @@ You manage Teams licenses in the Microsoft 365 admin center. To learn more, see 
 
 Each firstline worker and manager must have an identity in Azure Active Directory (Azure AD). If they don't already have an identity in Azure AD, provision an Office 365 account for them. Here's how.
 
+- StaffHub team owners/managers can convert a dummy/inactive accounts and link them with a provisioned account in StaffHub by going to the team settings page and updating the e-mail address to a valid UPN.
+- Administrators can run the Add-StaffHubMember and Remove-StaffHubUser cmdlets to remove a non-provisioned account from a StaffHub team and add them back with their UPN.
+
 #### Firstline managers and team owners
 
 #### Admins
+Before you start you'll need to install and connect to the StaffHub PowerShell modules. Instructions on installing the StaffHub module can be found here: https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha 
 
+Here you will find all of the Microsoft StaffHub PowerShell help topics. The reference documentation can be found here: https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps
 
-## Run a pilot with one or two StaffHub teams
+#### How to move a StaffHub team
+When moving a StaffHub team the request will check all of the pre-requisites listed above. The following list provides a list of reasons why a move request would fail.
+- Logged in user is not a global admin
+- Microsoft Teams is disabled in the tenant
+- Office 365 Groups creation is disabled in the tenant
+- The StaffHub teamId is not valid or has no members
+- There are members on the StaffHub that are not linked to an Azure Active Directory account
 
+##### Move a StaffHub team in your organization
 
-## Move your organization's StaffHub teams
+```
+Move-StaffHubTeam -Identity <String>
+```
 
-When you're ready to 
+After you submit the request you will get the following sample response
+```
+    jobId   teamId                                      teamAlreadyInMicrosofteams  
+    -----   ------                                      ------------          
+        1   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   True
+```
+To check the status of your move job you can use this commandlet
+```
+Get-TeamMigrationJobStatus <Int32>
+```
+The following is an example response
+```
+    jobId   status       teamId                                     isO365GroupCreated  Error
+    -----   ------       ------                                     ------------------  -----    
+        1   InProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  True                None
+```
 
+##### Move your organization's StaffHub teams
+To move more than one team from StaffHub to Microsoft teams, below is an example of how you can use the Move-StaffHubTeam commandlet to move more than one team at a time.
+
+Move all the StaffHub teams in your organization of teams.
+
+##### Get a list of all of your StaffHub teams in your organization
+
+```
+$StaffHubTeams = Get-StaffHubTeamsForTenant 
+```
+
+Submit the request to move all teams. 
+```
+$StaffHubTeams | foreach {Move-StaffHubTeam -Identity {$_.Id}}
+```
+
+After you submit the request you will get the following sample response
+```
+    jobId   teamId                                      teamAlreadyInMicrosofteams  
+    -----   ------                                      ------------          
+        1   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   True
+        2   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   False
+```
+To move a list of teams from your organization you'll want to create a comma-delimited file and save a list of the Ids of the teams you want to move.
+
+For example:
+
+Id
+TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f
+TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000
+TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000
+TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000
+
+After you save the file, you can reference the file to move more than one team. Here is an example
+
+```
+Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -Identity {$_.Id}}
+```
+
+### 
 ### Get Teams clients
 
 Teams has clients for desktop (Windows and Mac), web, and mobile (iOS and Android). To learn more, go to [Get clients for Teams](../../get-clients.md).
