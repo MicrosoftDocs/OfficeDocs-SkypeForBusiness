@@ -187,26 +187,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-## [Cloud Video Interop](cloud-video-interop.md)
-
-## Live events
-### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
-### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
-### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
-### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
-
-<!-- ============================================================ -->
-
 ### Reference
 #### [Audio Conferencing supported languages](audio-conferencing-supported-languages.md)
 
@@ -303,6 +283,26 @@
 
 
 <!-- ============================================================ -->
+
+
+
+
+
+
+
+
+
+## [Cloud Video Interop](cloud-video-interop.md)
+
+## Live events
+### [What are Teams live events?](teams-live-events/what-are-teams-live-events.md)
+### [Plan for Teams live events](teams-live-events/plan-for-teams-live-events.md)
+### [Set up for Teams live events](teams-live-events/set-up-for-teams-live-events.md)
+### [Use PowerShell to set Teams live events policies](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+### [Configure Teams live events settings](teams-live-events/configure-teams-live-events.md)
+
+<!-- ============================================================ -->
+
 
 
 # [Cloud voice](cloud-voice-landing-page.md)
