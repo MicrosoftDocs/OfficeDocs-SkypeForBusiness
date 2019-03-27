@@ -215,7 +215,7 @@ The port range of the Teams Transport Relays is shown in the following table:
 | Traffic | From | To | Source port | Destination port|
 | :-------- | :-------- |:-----------|:--------|:---------|
 UDP/SRTP | Transport Relay | SBC | 50 000 -59 999    | Defined on the SBC |
-| UDP/SRTP | SBC | Transport Relay | Defined on the SBC | 50 000 – 59 9999, 3478, 3479     |
+| UDP/SRTP | SBC | Transport Relay | Defined on the SBC | 50 000 – 59 999, 3478, 3479     |
 
 
 Note: Microsoft recommends at least two ports per concurrent call on the SBC. Because Microsoft has two versions of Transport Relays, the following are required:

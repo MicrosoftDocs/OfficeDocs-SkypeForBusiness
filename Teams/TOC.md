@@ -312,8 +312,8 @@
 ### [Set up Phone System](setting-up-your-phone-system.md)
 ### [Set up common area phones](set-up-common-area-phones.md)
 ### Voice mail
-#### [Set up Phone System voicemail](set-up-phone-system-voicemail.md)
-#### [Change the default language for voice mail](change-the-default-language-for-greetings-and-emails.md)
+#### [Set up Cloud Voicemail](set-up-phone-system-voicemail.md)
+#### [Change the default language for voicemail](change-the-default-language-for-greetings-and-emails.md)
 #### [Languages for voicemail greetings and messages](languages-for-voicemail-greetings-and-messages.md)
 ### Caller ID
 #### [How can caller ID be used in your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
