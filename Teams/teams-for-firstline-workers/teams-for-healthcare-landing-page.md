@@ -36,23 +36,6 @@ Teams gives care teams and healthcare professionals a secure way to communicate,
             </div>
         </div>
         </a>
-    </li><li>
-        <a href="https://review.docs.microsoft.com/MicrosoftTeams/teams-for-firstline-workers/healthcare/ehr-integration?branch=flw-working">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Get started with Teams Healthcare templates for Electronic Health Record (EHR) integration</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
     </li>
     <li>
         <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/healthcare/messaging-policies-hc?branch=flw-working">
@@ -66,24 +49,6 @@ Teams gives care teams and healthcare professionals a secure way to communicate,
                     </div>
                     <div class="cardText">
                         <h3>Get started with Secure Messaging for Healthcare organizations</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<li>
-        <a href="https://review.docs.microsoft.com/MicrosoftTeams/teams-for-firstline-workers/healthcare/patient-care-coord?branch=flw-working">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="people" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Learn about patient care coordination using Teams</h3>
                     </div>
                 </div>
             </div>
