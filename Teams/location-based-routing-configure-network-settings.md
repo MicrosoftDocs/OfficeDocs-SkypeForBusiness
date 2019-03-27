@@ -22,12 +22,12 @@ appliesto:
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
-If you haven't already done so, read [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) to review other steps you'll need to take before you deploy network settings for Location-Based Routing.
+If you haven't already done so, read [Plan Location-Based Routing for Direct Routing](location-based-routing-plan.md) to review other steps you'll need to take before you configure network settings for Location-Based Routing.
 
 This article describes how to configure network settings for Location-Based Routing. After you deploy Phone System Direct Routing in your organization, the next steps are to create and set up network regions, network sites, and network subnets. To complete the steps in this article, you'll need some familiarity with PowerShell cmdlets. To learn more, see [Teams PowerShell Overview](teams-powershell-overview.md).
 
 ## Define network regions
- A network region interconnects various parts of a network across multiple geographic areas. Use the ``New-CsTenantNetworkRegion`` PowerShell cmdlet to define network regions. Note that the ``RegionID`` parameter is a logical name that represents the geography of the region and has no dependencies or restrictions and the ``CentralSite <site ID>`` parameter is optional. 
+ A network region interconnects various parts of a network across multiple geographic areas. Use the [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) cmdlet to define network regions. Note that the RegionID parameter is a logical name that represents the geography of the region and has no dependencies or restrictions and the CentralSite &lt;site ID&gt; parameter is optional. 
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -40,7 +40,7 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 ## Define network sites
 
-Use the ``New-CsTenantNetworkSite`` PowerShell cmdlet to define network sites. 
+Use the [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) cmdlet to define network sites. 
 
 ```
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
@@ -59,7 +59,7 @@ The following table shows the network sites defined in this example.
 
 ## Define network subnets
 
-Use the ``New-CsTenantNetworkSubnet`` cmdlet to define network subnets and associate them to network sites. Each internal subnet can only be associated with one site. 
+Use the [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) cmdlet to define network subnets and associate them to network sites. Each internal subnet can only be associated with one site. 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
@@ -89,7 +89,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 ## Define external subnets
-Use the ``New-CsTenantTrustedIPAddress`` cmdlet to define external subnets and assign them to the tenant. You can define an unlimited number of subnets for a tenant. 
+Use the [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) cmdlet to define external subnets and assign them to the tenant. You can define an unlimited number of subnets for a tenant. 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
