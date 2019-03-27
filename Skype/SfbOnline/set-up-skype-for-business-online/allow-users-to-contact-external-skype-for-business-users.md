@@ -52,10 +52,10 @@ You must have [admin permissions](https://support.office.com/en-us/article/da585
     
 2. In the Office 365 admin center, go to **Admin Centers** > **Teams**.
     
-    ![Choose the Teams Admin.](../images/TeamsAdminsize80.png)
+    ![Choose the Teams Admin.](../images/MSTeamsAdmin.png)
   
 3. In the **Teams center**, choose **Skype** > **Legacy Portal** 
- ![Choose the SfB Legacy Portal.](../images/Skypelegacyportal40.png)
+ ![Choose the SfB Legacy Portal.](../images/SFBlegacy-size65.png)
  
 4. In the **Skype for Business admin center** , choose **Organization** > **External communications**.
 
