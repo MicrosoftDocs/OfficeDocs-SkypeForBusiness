@@ -67,5 +67,9 @@ To learn how to get Calling Plans in Office 365 and how much they cost, see [Sky
 
 [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
+## Got feedback? 
+Skype for Business UserVoice is your place to suggest the features you’d like to see us add to Skype for Business. While we can’t guarantee any specific features or timelines, we will respond to every suggestion that gets at least 500 votes.
+Go to the Skype for Business UserVoice.
+
   
  
