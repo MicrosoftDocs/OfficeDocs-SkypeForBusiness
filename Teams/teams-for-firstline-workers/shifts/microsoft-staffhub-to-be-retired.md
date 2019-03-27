@@ -64,7 +64,7 @@ Shifts is available as part of Teams in the following plans without any addition
 - Office 365 for Education
 - Microsoft 365 F1, E1, E3, E5
 
-For more information, check out [Availability of Shifts](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts).
+For more information, see [Availability of Shifts](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts).
 
 #### How do I get Shifts? 
 
@@ -142,13 +142,13 @@ Team membership is maintained when a StaffHub team is moved to Teams. Phone numb
  
 #### What happens to StaffHub team members who aren't provisioned or whose status is inactive?
 
-The user's schedule will be moved to Shifts, however, the user won't be a member of the team or an Office 365 Group. 
+The user's schedule will be moved to Shifts, however, the user won't be a member of the team or an Office 365 Group.
 
 For inactive accounts that aren't linked to an Azure AD user account, a manager can ensure the user is added as a member of the team by adding a valid Office 365 email address on the StaffHub team members page so that the user is linked to the correct Azure AD account in their organization.
 
-We recommend that you ensure all users in your organization are covered with an appropriate license to minimize disruption and access to services.
-
 Another option is for admins to run the **Add-StaffHubMember** and **Remove-StaffHubUser** cmdlets to remove a non-provisioned account from a StaffHub team and add the user back to the team with their UPN.
+
+We recommend that you ensure all users in your organization are covered with an appropriate license to minimize disruption and access to services.
  
 #### What happens to chats in StaffHub?
 
@@ -165,7 +165,7 @@ For files that were uploaded before **placeholder date**, you can move them to T
 1. placeholder
 2. placeholder
  
-#### What happens to the tasks feature in StaffHub?-FOLLOWUP
+#### What happens to the tasks feature in StaffHub?
 
 Tasks migration isn't supported and tasks won't be moved to Teams. We're committed to delivering a superior user experience and bringing the unique capabilities of StaffHub to Teams.
 
