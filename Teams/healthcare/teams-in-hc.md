@@ -81,7 +81,9 @@ The data Teams pulls from EHR systems is not stored at REST. Also, there are 11 
 
 ## Firstline Worker integration
 
-Microsoft Teams integrates with Firstline Worker, which can be used to coordinate shift staffing and more features. See the following articles:
+Microsoft Teams integrates with Firstline Worker, which can be used to coordinate shift staffing and more features. 
+
+<!-- See the following articles:
 
 - [Get started with Microsoft Teams Firstline Worker in Healthcare settings](../teams-for-firstline-workers/firstline-healthcare.md)
-- [Microsoft Teams for firstline workers](../teams-for-firstline-workers/teams-for-firstline-workers.md)
+- [Microsoft Teams for firstline workers](../teams-for-firstline-workers/teams-for-firstline-workers.md)  -->
