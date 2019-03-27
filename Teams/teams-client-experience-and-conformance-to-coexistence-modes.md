@@ -22,7 +22,7 @@ appliesto:
 # Teams client experience and conformance to coexistence modes
 
 > [!NOTE]
-> This page describes important upcoming changes in the behavior of Teams client when users are in any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
+> This page describes important, recently released changes in the behavior of Teams client when users are in any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
 
 
 The purpose of co-existence modes is to provide a simple, predictable experience for end users as organizations transition from Skype for Business to Teams.  For an organization moving to Teams, the TeamsOnly mode is the final destination for each user, though not all users need to be assigned TeamsOnly (or any other mode) at the same time.  Prior to users reaching TeamsOnly mode, organizations can use any of the Skype for Business modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) to ensure predictable communication between users who are TeamsOnly and those who aren’t yet. 
@@ -52,7 +52,7 @@ The following screenshots illustrate the difference between TeamsOnly or Islands
 
 
 ## Impact of Mode on other policy settings
-As described above, a user's coexistence mode impact's what functionality is available in the user's Teams client. This means that the value of mode can take precedence over the value of other policy setting, depending on the mode. Specifically,  coexistence mode impacts whether the following policy settings are honored:
+As described above, a user's coexistence mode impact's what functionality is available in the user's Teams client. This means that the value of mode can take precedence over the value of other policy settings, depending on the mode. Specifically,  coexistence mode impacts whether the following policy settings are honored:
 
 |**Modality (App)**|**Policy.Setting**|
 |---|---|
@@ -61,7 +61,7 @@ As described above, a user's coexistence mode impact's what functionality is ava
 |Meeting scheduling|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 
-Administrators need not explicitly set these policy settings when using co-existence mode, but it's important to understand that these settings effectively behave as follows, for a given mode:
+Administrators need *not* explicitly set these policy settings when using co-existence mode, but it's important to understand that these settings effectively behave as follows for a given mode. 
 
 |Mode|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
 |---|---|---|---|---|
@@ -70,8 +70,7 @@ Administrators need not explicitly set these policy settings when using co-exist
 |SfBWithTeamsCollab or SfBOnly|Disabled|Disabled|Disabled|Disabled|
 ||||||
 
-In the near future, the `Grant-CsTeamsUpgradePolicy` cmdlet will check the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determine if these settings will be superceded by TeamsUpgradePolicy, and if so, an informational message is provided in PowerShell.  Note that is no longer necessary to set these other policy settings.
-Below is an example of what the PowerShell warning  looks like:
+In the near future, the `Grant-CsTeamsUpgradePolicy` cmdlet will check the configuration of the corresponding settings in TeamsMessagingPolicy, TeamsCallingPolicy, and TeamsMeetingPolicy to determine if those settings will be superceded by TeamsUpgradePolicy and if so, an informational message is provided in PowerShell.  As noted above,  is no longer necessary to set these other policy settings. Below is an example of what the PowerShell warning  looks like:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
@@ -79,7 +78,9 @@ Below is an example of what the PowerShell warning  looks like:
 
 
 
+# Related topics
 
+[Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 
 
