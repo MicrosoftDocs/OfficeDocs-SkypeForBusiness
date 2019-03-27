@@ -1,5 +1,6 @@
 ---
 title: "Configure integration with Office Web Apps Server in Skype for Business Server"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

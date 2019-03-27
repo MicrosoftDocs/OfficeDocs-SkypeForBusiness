@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Dialog table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Dialog table
 ms:assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398313(v=OCS.15)

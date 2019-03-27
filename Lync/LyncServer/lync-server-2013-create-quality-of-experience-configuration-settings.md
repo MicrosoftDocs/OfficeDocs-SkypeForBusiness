@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create Quality of Experience configuration settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create Quality of Experience configuration settings
 ms:assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521006(v=OCS.15)

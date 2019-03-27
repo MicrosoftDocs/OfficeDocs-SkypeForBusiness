@@ -1,5 +1,8 @@
-﻿---
+---
 title: Configure DNS records for pilot pool deployment
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure DNS records for pilot pool deployment
 ms:assetid: 5c7a6e10-e1e9-4479-9bf9-d4a3e2e09ff0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688072(v=OCS.15)

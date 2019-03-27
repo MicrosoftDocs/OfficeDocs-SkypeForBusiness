@@ -1,5 +1,6 @@
 ---
 title: "Configure the Primary Management Server"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

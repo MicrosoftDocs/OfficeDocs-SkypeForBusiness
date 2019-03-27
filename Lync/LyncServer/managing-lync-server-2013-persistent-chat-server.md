@@ -1,5 +1,8 @@
-﻿---
+---
 title: Managing Lync Server 2013, Persistent Chat Server
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Managing Lync Server 2013, Persistent Chat Server
 ms:assetid: 82befdc6-5d32-45f1-bfd7-aaedffed1ab8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398657(v=OCS.15)

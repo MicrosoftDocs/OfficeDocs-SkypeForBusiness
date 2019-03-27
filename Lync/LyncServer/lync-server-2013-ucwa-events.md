@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: UCWA events'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: UCWA events
 ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945621(v=OCS.15)

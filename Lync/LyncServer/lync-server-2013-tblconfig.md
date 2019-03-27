@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: tblConfig'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: tblConfig
 ms:assetid: 7445e7db-c574-46fa-b964-8640d77047a8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558663(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Create or modify a collection of Device Update configuration settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create or modify a collection of Device Update configuration settings
 ms:assetid: 3e8ce95f-a8c8-417c-b1f7-0f759a567aff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994029(v=OCS.15)

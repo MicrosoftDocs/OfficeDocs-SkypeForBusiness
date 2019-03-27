@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create or modify a queue'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create or modify a queue
 ms:assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205207(v=OCS.15)

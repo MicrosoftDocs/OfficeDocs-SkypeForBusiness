@@ -1,5 +1,6 @@
 ---
 title: "Registration view"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

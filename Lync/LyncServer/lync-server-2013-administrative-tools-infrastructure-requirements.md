@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Administrative tools infrastructure requirements'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Administrative tools infrastructure requirements
 ms:assetid: aa039d01-e721-455f-94c4-076a3aac38bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195766(v=OCS.15)

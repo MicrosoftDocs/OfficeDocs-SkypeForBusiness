@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Operations checklists'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Operations checklists
 ms:assetid: 263cf20b-bf2f-4a47-951c-6c5fbd0a9445
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn745896(v=OCS.15)

@@ -1,5 +1,6 @@
-﻿---
+---
 title: 'Lync Server 2013: Managing federation and external access to Skype for Business Server'
+ms.reviewer: 
 ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
 ms:contentKeyID: 48183665

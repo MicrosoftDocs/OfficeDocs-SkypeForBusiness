@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Testing Lync Phone Edition login'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Testing Lync Phone Edition login
 ms:assetid: 1ccde6bf-9a2d-4fcf-b81f-1bc9fee2cfbb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690128(v=OCS.15)

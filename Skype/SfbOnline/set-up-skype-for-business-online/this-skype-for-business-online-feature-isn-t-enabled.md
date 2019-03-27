@@ -1,5 +1,6 @@
 ---
 title: "This Skype for Business Online feature isn't enabled"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

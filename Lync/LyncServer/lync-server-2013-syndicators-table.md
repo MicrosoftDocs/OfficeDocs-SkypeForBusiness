@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Syndicators table'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Syndicators table
 ms:assetid: 98739cb8-829e-4baf-90f4-597cb894521e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205102(v=OCS.15)

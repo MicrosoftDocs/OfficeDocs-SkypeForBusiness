@@ -1,5 +1,6 @@
 ---
 title: "Configure partner applications in Skype for Business Server 2015 and Exchange Server"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

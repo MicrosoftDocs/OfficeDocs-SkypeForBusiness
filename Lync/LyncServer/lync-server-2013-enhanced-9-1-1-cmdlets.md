@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Enhanced 9-1-1 cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Enhanced 9-1-1 cmdlets
 ms:assetid: e560c688-7b34-4bd7-8104-24f390644105
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415678(v=OCS.15)

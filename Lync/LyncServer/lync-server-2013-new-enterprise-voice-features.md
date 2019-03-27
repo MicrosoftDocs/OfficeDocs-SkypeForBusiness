@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: New Enterprise Voice features'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: New Enterprise Voice features
 ms:assetid: db0ad7b9-e469-4c29-89d9-52fed018ef08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398964(v=OCS.15)

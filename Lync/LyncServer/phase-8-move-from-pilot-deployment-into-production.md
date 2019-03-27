@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Phase 8: Move from pilot deployment into production'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: 'Phase 8: Move from pilot deployment into production'
 ms:assetid: 00b22ecf-0e28-4bde-8f75-2e82c5e2e718
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687954(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Topologies for IP phones'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Topologies for IP phones
 ms:assetid: 26ebffcf-43ff-4e70-847d-0fbc90e94e57
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425740(v=OCS.15)

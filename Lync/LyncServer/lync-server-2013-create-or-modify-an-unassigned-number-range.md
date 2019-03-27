@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Create or modify an unassigned number range'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Create or modify an unassigned number range
 ms:assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412748(v=OCS.15)

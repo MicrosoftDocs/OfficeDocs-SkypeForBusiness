@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring default picture options'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring default picture options
 ms:assetid: b1c986f0-6400-447a-9e36-78c1c3a4f793
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn205074(v=OCS.15)

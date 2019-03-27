@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 network bandwidth requirements for media traffic
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Network bandwidth requirements for media traffic
 ms:assetid: 83e83b16-0f0e-4d87-901a-0faa4618cdc2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688118(v=OCS.15)

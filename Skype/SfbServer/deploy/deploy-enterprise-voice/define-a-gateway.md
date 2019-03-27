@@ -1,5 +1,6 @@
 ---
 title: "Define a gateway in Topology Builder in Skype for Business Server"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

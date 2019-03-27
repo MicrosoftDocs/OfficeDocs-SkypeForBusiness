@@ -1,5 +1,6 @@
 ---
 title: "Publish Topology Reset Pool Page"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

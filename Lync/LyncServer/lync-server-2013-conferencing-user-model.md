@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 conferencing user model
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: The conferencing user model
 ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205199(v=OCS.15)

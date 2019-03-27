@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Associating a monitoring store with a Front End pool'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Associating a monitoring store with a Front End pool
 ms:assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205271(v=OCS.15)

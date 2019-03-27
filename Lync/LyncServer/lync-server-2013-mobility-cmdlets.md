@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Mobility cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Mobility cmdlets
 ms:assetid: 42a30a34-d66b-4c91-b596-a6fc7666e600
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690019(v=OCS.15)

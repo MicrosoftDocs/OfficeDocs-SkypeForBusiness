@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Media configuration cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Media configuration cmdlets
 ms:assetid: 3b0802a4-3ce5-4ffd-89bb-292a2e86ff0e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415647(v=OCS.15)

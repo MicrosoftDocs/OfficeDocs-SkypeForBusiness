@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Make sure dial plans have assigned regions'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Make sure dial plans have assigned regions
 ms:assetid: 3da3a907-0dbf-4440-b12f-370f94dd4c17
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425903(v=OCS.15)

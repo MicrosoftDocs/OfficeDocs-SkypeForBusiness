@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Port summary - Single Director'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Port summary - Single Director
 ms:assetid: 079c1414-723f-4499-b7d4-a0d7121c1626
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204648(v=OCS.15)

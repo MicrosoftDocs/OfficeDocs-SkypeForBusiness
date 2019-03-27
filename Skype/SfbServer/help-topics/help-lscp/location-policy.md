@@ -1,5 +1,6 @@
 ---
 title: "Location Policy"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

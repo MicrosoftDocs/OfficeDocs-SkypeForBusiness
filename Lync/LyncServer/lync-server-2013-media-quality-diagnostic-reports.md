@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Media Quality Diagnostic Reports'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Media Quality Diagnostic Reports
 ms:assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615044(v=OCS.15)

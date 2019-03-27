@@ -1,5 +1,8 @@
-﻿---
+---
 title: Cmdlets in Skype for Business Online that use a conferencing provider identity
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Cmdlets that use a conferencing provider identity
 ms:assetid: be5621b6-ec11-4b12-83ec-075af269ca6a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362841(v=OCS.15)

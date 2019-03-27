@@ -1,5 +1,6 @@
 ---
 title: "Define Computers in Persistent Chat Pool"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

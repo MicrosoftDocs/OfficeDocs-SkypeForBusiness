@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: View a list of trusted applications'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: View a list of trusted applications
 ms:assetid: f09300b3-67cf-4e70-a51a-23d62479b913
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182604(v=OCS.15)

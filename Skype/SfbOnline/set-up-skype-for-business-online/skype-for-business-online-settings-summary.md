@@ -1,5 +1,6 @@
 ---
 title: "Skype for Business Online settings summary"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

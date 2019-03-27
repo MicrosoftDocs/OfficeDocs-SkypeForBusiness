@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: View user PIN information'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: View user PIN information
 ms:assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688067(v=OCS.15)

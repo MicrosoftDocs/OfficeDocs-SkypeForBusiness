@@ -1,5 +1,8 @@
 ---
 title: Configuring the Various Policies
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring the Various Policies
 ms:assetid: e3b3cbda-7c17-470b-acb0-82fdcc473184
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945610(v=OCS.15)

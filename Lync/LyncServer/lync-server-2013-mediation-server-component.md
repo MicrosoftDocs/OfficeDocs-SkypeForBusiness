@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Mediation Server component'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Mediation Server component
 ms:assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398399(v=OCS.15)

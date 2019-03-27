@@ -1,5 +1,6 @@
 ---
 title: "Turn on or off Offline Messages for admins"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

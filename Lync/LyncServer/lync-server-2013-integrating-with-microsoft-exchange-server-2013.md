@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Integrating with Microsoft Exchange Server 2013'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Integrating Lync Server 2013 and Exchange Server 2013
 ms:assetid: 795dc1c6-524f-4012-8b66-103b55198044
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688098(v=OCS.15)

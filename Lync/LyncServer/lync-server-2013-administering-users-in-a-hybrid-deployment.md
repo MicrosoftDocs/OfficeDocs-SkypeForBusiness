@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Administering users in a hybrid deployment'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Administering users in a hybrid deployment
 ms:assetid: 6924ed7b-30a9-4be7-b952-90655625f2c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204967(v=OCS.15)

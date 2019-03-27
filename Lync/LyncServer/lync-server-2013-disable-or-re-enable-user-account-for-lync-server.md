@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Disable or re-enable user account for Lync Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Disable or re-enable user account for Lync Server
 ms:assetid: 12497d00-f665-4a97-be68-854c5a8be4fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429696(v=OCS.15)

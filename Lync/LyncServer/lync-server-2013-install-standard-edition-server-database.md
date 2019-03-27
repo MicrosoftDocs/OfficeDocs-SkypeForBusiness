@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Install Standard Edition server database'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Install Standard Edition server database
 ms:assetid: 0bd3a804-aad6-48cb-981b-54725af032db
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398167(v=OCS.15)
