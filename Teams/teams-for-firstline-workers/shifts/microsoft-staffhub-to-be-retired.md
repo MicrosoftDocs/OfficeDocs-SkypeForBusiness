@@ -37,7 +37,7 @@ Between April 2019 and October 2019, StaffHub users will receive in-app notifica
 
 #### Will Teams offer all the functionality currently offered in StaffHub?
 
-StaffHub's core and most used features are available in Shifts in Teams, which enables managers to create, update, and manage schedules, and lets employees clock in and out, post their availability, swap or offer shifts, and request open shifts or time off.
+StaffHub's core and most used features are available in Shifts in Teams, which enables managers to create, update, and manage schedules, and lets team members clock in and out, post their availability, swap or offer shifts, and request open shifts or time off.
 
 See the [roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1) for details on upcoming features to be released in Teams.
 
@@ -53,7 +53,7 @@ Teams that were created with StaffHub can only be viewed and managed in StaffHub
 
 #### What is Shifts?
 
-The Shifts app in Teams is a schedule management tool that keeps Firstline Workers connected and in sync. Managers create, update, and manage shift schedules for teams, and employees can view their schedules, see who else is scheduled for the day, request to swap or offer a shift, and request time off, all from their mobile devices.  
+The Shifts app in Teams is a schedule management tool that keeps Firstline Workers connected and in sync. Managers create, update, and manage shift schedules for teams, and team members can view their schedules, see who else is scheduled for the day, request to swap or offer a shift, and request time off, all from their mobile devices.  
 
 #### Which plans is Shifts available in?
 
@@ -76,9 +76,9 @@ Shifts is available on the Teams web client, Teams desktop client, and Teams mob
  
 #### Are there differences between the Shifts desktop and web apps and the mobile (iOS and Android) apps?
 
-For managers, the desktop and web apps are optimized to create teams, add members, build and publish schedules, and share content with the team. Managers generally use the mobile app to approve requests, send quick messages to the team, call an employee, and collaborate on the go. 
+For managers, the desktop and web apps are optimized to create teams, add members, build and publish schedules, and share content with the team. Managers generally use the mobile app to approve requests, send quick messages to the team, call a team member, and collaborate on the go. 
 
-For employees, the mobile app is optimized to view their schedule, see who they're working with on a day, clock in and out, set availability, request time off, swap or offer shifts and open shifts. There are differences in what users can do in the desktop and web apps versus the mobile apps. We're working on feature parity.
+For team members, the mobile app is optimized to view their schedule, see who they're working with on a day, clock in and out, set availability, request time off, swap or offer shifts and open shifts. There are differences in what users can do in the desktop and web apps versus the mobile apps. We're working on feature parity.
 
 #### Are there differences between the Shifts iOS app and the Android app?
 
@@ -126,7 +126,7 @@ Teams supports coexistence with Skype for Business. For more information, see [U
 
 #### Does each user need to have an Office 365 account or Azure Active Directory (Azure AD) account?
 
-Yes, each manager and employee using Teams and Shifts within Teams must have an Office 365 account (Azure AD) and must be assigned a valid license.
+Yes, each manager and team member using Teams and Shifts within Teams must have an Office 365 account (Azure AD) and must be assigned a valid license.
  
 #### In StaffHub, I could add a special prefix to all Office 365 Groups that were created by StaffHub teams. Can I do the same in Teams?
 
@@ -208,7 +208,7 @@ Deleting a schedule is linked to deleting a team. If you recover a team, the sch
 
 #### What powers the file sharing capability in Teams? Where are files stored?
 
-The file sharing capability, the ability for a manager to distribute files to employees, is powered on the back end by SharePoint Online. When a team is created, an Office 365 Group is automatically provisioned for that team in the background.
+The file sharing capability, the ability for a manager to distribute files to team members, is powered on the back end by SharePoint Online. When a team is created, an Office 365 Group is automatically provisioned for that team in the background.
 
 To learn more, see [How SharePoint Online and OneDrive for Business interact with Teams](../../SharePoint-OneDrive-interact.md).
  
