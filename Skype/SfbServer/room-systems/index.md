@@ -1,5 +1,6 @@
 ---
 title: "Microsoft Teams Rooms"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

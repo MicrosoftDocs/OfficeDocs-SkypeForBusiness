@@ -1,5 +1,6 @@
 ---
 title: "Add Edge Server External IPv4"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

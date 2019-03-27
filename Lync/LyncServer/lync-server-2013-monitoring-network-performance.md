@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Monitoring network performance'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Monitoring network performance
 ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720923(v=OCS.15)

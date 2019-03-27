@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Installing Persistent Chat Server'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Installing Persistent Chat Server
 ms:assetid: 58a17327-5896-4f03-8009-cad28f2ea36f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204918(v=OCS.15)

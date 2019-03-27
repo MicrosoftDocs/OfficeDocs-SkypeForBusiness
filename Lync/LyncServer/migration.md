@@ -1,5 +1,8 @@
-﻿---
+---
 title: Migration
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Migration
 ms:assetid: 27b8010d-0554-4031-bedf-5f63b3606dbe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425746(v=OCS.15)

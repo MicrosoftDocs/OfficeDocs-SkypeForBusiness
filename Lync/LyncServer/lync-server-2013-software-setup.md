@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Software setup'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Software setup
 ms:assetid: 13175527-6587-4e9c-b13c-c4b676cc83ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204692(v=OCS.15)

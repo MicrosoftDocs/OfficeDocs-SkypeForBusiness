@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 sites
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Sites
 ms:assetid: 022cb6dd-37e2-4882-a53e-5ddfdbc6f53a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398076(v=OCS.15)

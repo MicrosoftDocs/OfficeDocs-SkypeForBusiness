@@ -1,5 +1,6 @@
 ---
 title: View guest users in a team
+ms.reviewer: 
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
@@ -24,8 +25,8 @@ Anyone in a team can see all members of a team, including guests, via **Manage t
 To identify guest users:
 
 1.	Sign in to the Microsoft 365 admin center.
-2.	Select **Admin centers** > **Teams & Skype**.
-3.	In the Microsoft Teams & Skype Admin Center, select **Users**. You will see **guest** appended to the display name of any guest users.
+2.	Select **Admin centers** > **Teams**.
+3.	In the Microsoft Teams admin center, select **Users**. You will see **guest** appended to the display name of any guest users.
   
 You can also identify guest users from within a team that you own.  
 

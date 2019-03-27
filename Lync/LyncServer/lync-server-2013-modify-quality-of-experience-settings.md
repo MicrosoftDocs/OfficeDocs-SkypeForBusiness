@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Modify Quality of Experience settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Modify Quality of Experience settings
 ms:assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182563(v=OCS.15)

@@ -78,7 +78,7 @@ There are four general principles that help you understand call flows for Micros
 3.	Media traffic for peer-to-peer calls take the most direct route that is available, assuming that the call doesn't mandate an MP in the cloud (see #2 above). The preferred route is direct to the remote peer (client), but if that route isn't available, then one or more Transport Relays will relay traffic. It is recommended that media traffic shall not transverse servers such as packet shapers, VPN servers, etc., since this will impact the media quality.
 4.	Signaling traffic always goes to the closest server to the user. 
 
-To learn more about the details on the media path that is chosen, see https://www.youtube.com/watch?v=aD5mUg2ZzLQ.
+To learn more about the details on the media path that is chosen, see https://www.youtube.com/watch?v=1tmHMIlAQdo
 
 ## Call Flows in Various Topologies
 ### Teams Online ("pure") Topology

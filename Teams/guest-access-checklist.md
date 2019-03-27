@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams Guest Access checklist
+title: Microsoft Teams guest access checklist
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 01/22/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
-description: Use this checklist to help set up guest access in Microsoft Teams Guest Access.
+description: Use this checklist to help set up guest access in Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: 
@@ -18,10 +18,10 @@ appliesto:
 ---
 
 
-Teams Guest Access checklist
+Teams guest access checklist
 ==========================================
 
-Use this checklist to help you enable and configure the Guest Access feature in Microsoft Teams according to the preferences of your organization.
+Use this checklist to help you enable and configure the guest access feature in Microsoft Teams according to the preferences of your organization.
 
 ## Understand the limitations for guests
 
@@ -61,7 +61,7 @@ A few things to remember:
 4. Under **External users**, click **Manage External collaboration settings**.
 5. On the **External collaboration settings** page make sure **Members can invite** is set to **Yes**.
 
-      ![Screenshot shows an example of a AAD Settings toggle. ](media/guest-access-checklist-AADSettings1.png)
+      ![Screenshot shows an example of an AAD settings toggle. ](media/guest-access-checklist-AADSettings1.png)
 
     To support guests, **Members can invite** must be set to **Yes**. 
    
@@ -89,7 +89,7 @@ At a minimum, you must turn on Guest access for Microsoft Teams under the **Micr
 1. In the Teams admin center, select **Org-Wide settings** > **Guest access**.
 2. Set the **Allow guest access in Microsoft Teams** switch to **On**.
 
-    ![Screenshot shows an example of a Teams Settings toggle](media/set-up-guests-image1.png)
+    ![Screenshot shows an example of a Teams settings toggle](media/guest-access-checklist-set-up-guests-image1.png)
 
 3. On this same page, configure any other guest settings that you require.
 4. Click **Save**.
@@ -97,21 +97,21 @@ At a minimum, you must turn on Guest access for Microsoft Teams under the **Micr
 For detailed instructions, see [Turn on or off guest access to Microsoft Teams](set-up-guests.md).
 
 
-## □  Step 4: Configure Sharing in Office 365 
+## □  Step 4: Configure sharing in Office 365 
 
 Make sure that users can add guests. Here's how:
 
 1. In the Microsoft 365 admin center, go to **Settings** > **Security & privacy**.
 
-     ![Screenshot shows an example of a Services settings](media/guest-access-checklist-Office365Admin_Services_addins.png)
+     ![Screenshot shows an example of services settings](media/guest-access-checklist-Office365Admin_Services_addins.png)
 
 2. In **Sharing**, select **Edit**.
 
-     ![Screenshot shows an example of a Sharing Settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+     ![Screenshot shows an example of a sharing settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
  
 3. Set **Let users add new guests to this organization** to **On**, and then click **Save**.
 
-     ![Screenshot shows an example of a Sharing Settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+     ![Screenshot shows an example of a sharing settings toggle](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
  
 > [!NOTE]
 > This setting is equivalent to the **Members can invite** setting in  **User settings** > **External users**  in Azure AD.  
@@ -124,14 +124,14 @@ Make sure that users can add guests. Here's how:
 3. In the SharePoint admin center, select **Sharing**.
 4. Make sure the option for **Don’t allow sharing outside your organization** is *not* selected.
  
-     ![Screenshot shows an example of a Sparepoint Online Settings toggle.](media/guest-access-checklist-SPOSettings1.png)
+     ![Screenshot shows an example of a SparePoint Online settings toggle.](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## □ Step 6: Enable specific settings for channels 
 
 In the Teams application, at the individual team level, configure guest permissions so that guests can create, update, and delete channels. In addition to admins,  team owners can configure this setting.
 
-![Screenshot shows an example of a Team/Channel Settings toggle](media/guest-access-checklist-TeamsSettings2.png)
+![Screenshot shows an example of a team/channel settings toggle](media/guest-access-checklist-TeamsSettings2.png)
 
 For more information, including how-to videos, see [Guest access in Microsoft Teams](guest-access.md).
 

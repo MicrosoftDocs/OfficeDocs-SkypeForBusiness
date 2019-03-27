@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Planning for SIP, XMPP federation, and public instant messaging'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Planning for SIP, XMPP federation, and public instant messaging
 ms:assetid: 3b234d92-b9ff-4b1d-910e-084c6f17e751
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204825(v=OCS.15)

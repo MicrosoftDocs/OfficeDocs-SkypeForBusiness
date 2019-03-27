@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Planning for response groups'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Planning for response groups
 ms:assetid: 7c10ce08-0068-4b22-8ecc-33e94811c900
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398617(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Configuring policies for the Skype for Business Server 2015 Stress and Performance Tool"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 ms.date: 11/11/2015

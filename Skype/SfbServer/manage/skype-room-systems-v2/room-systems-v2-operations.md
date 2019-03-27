@@ -19,7 +19,7 @@ Read this topic to learn about management of Microsoft Teams Rooms, the next gen
   
 Microsoft Teams Rooms is Microsoft's latest conferencing solution designed to transform your meeting room into a rich, collaborative Skype for Business experience. Users will enjoy its familiar Skype for Business interface and IT administrators will appreciate an easily deployed and managed Windows 10 Skype Meeting app. Microsoft Teams Rooms is designed to leverage existing equipment like LCD panels for ease of installation to bring Skype for Business into your meeting room.
   
-With additional configuration, remote management is possible using Microsoft Operations Management Suite (OMS) as described in [Plan Microsoft Teams Rooms management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), [Deploy Microsoft Teams Rooms management with OMS](../../deploy/deploy-clients/with-oms.md), and [Manage Microsoft Teams Rooms devices with OMS](oms.md). You may also [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md), which includes applying a Custom display theme. 
+With additional configuration, remote management is possible using Microsoft Azure Monitor as described in [Plan Microsoft Teams Rooms management with Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [Deploy Microsoft Teams Rooms management with Azure Monitor](../../deploy/deploy-clients/azure-monitor.md), [Manage Microsoft Teams Rooms devices with Azure Monitor](azure-monitor.md). You may also [Manage Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md), which includes applying a Custom display theme. 
   
 ## Collecting logs on Microsoft Teams Rooms
 <a name="Logs"> </a>
@@ -70,7 +70,7 @@ This section covers system settings that Microsoft Teams Rooms depends on to fun
 
 |**Setting**|**Allows**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (REG_SZ) 1  <br/> |Enables Microsoft Teams Rooms to boot up  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Enables Microsoft Teams Rooms to boot up  <br/> |
 |Power Management -\> On AC, turn screen off after 10 minutes  <br/> Power Management -\> On AC, never put system to sleep  <br/> |Enables Microsoft Teams Rooms to turn off attached displays and wake up automatically  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Or equivalent means of disabling password expiration on the local account. Failure to do this will eventually cause the Skype account to fail logon complaining about an expired password. Note that this impacts all local accounts on the machine, and thus failure to set this will also cause the administrative account on the box to eventually expire as well.  <br/> |Enables Skype account to always log in  <br/> |
    

@@ -74,12 +74,13 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
 2. Tap on **Settings** followed by tapping on the **Go to Windows** button and then tapping on the **go to Admin Sign In** button and then clicking the **Administrator** button (if the computer is domain joined choose **Other User,** then use .\admin as the user name).
 3. In the **Search Windows** box bottom left type in regedit (either long press the screen or right click and choose **Run as administrator**).
 4. Click on the HKEY_USERS folder (you'll see a list of machine user SIDs) ensure the root folder HKEY_USERS is selected.
-
-    You'll be prompted for a Key Name for your newly loaded Hive; type in Skype (you should now see the registry settings for the Skype User).
-
+       
 5. Click on File and then choose **Load Hive.**
 6. Browse the to the **C:\Users\Skype** folder and type in the File name box NTUSER.dat and press the open button
-7. Open the Skype key and browse to HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings then ensure these settings are entered: 
+
+7. You'll be prompted for a Key Name for your newly loaded Hive; type in Skype (you should now see the registry settings for the Skype User).
+ 
+8. Open the Skype key and browse to HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings then ensure these settings are entered: 
     
     [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
     
@@ -90,11 +91,13 @@ Microsoft Teams Rooms is designed to inherit Proxy settings from the Windows OS.
     "ProxyServer"="xx.xx.xx.xx:8080"
     
     If ProxyServer doesn't exist you may have to add this key as a string, change the xx.xx.xx.xx:8080 to the ip/host and port of your Proxy server.
-
-8. Once you are finished making your changes highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (you'll be prompted for confirmation - select **Yes** ).
-9. You can now close the registry editor and type logoff into the Windows search box.
-10. Back at the sign-in screen, choose the **Skype** user. If all the previous steps were successful, the Microsoft Teams Rooms device will sign-in successfully.
-
+    
+9. Once you are finished making your changes highlight the Skype User key (root folder for Skype) and choose unload Hive from the Registry file menu (you'll be prompted for confirmation - select **Yes** ).
+    
+10. You can now close the registry editor and type logoff into the Windows search box.
+    
+11. Back at the sign-in screen, choose the **Skype** user. If all the previous steps were successful, the Microsoft Teams Rooms device will sign-in successfully.
+    
 To use this application, you must be able to connect to the endpoints described below. To see the IP addresses, expand the IP address section below the table describing the traffic flow.
   
 **Firewall Proxy Host Name/Port Examples**

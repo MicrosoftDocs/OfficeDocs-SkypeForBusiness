@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Branch-site resiliency features'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Branch-site resiliency features
 ms:assetid: 8e3feda5-9a38-4e3c-b808-af29f19c5eb9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398715(v=OCS.15)

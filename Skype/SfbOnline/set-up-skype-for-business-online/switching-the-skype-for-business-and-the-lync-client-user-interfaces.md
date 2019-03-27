@@ -1,5 +1,6 @@
 ---
 title: "Switching between the Skype for Business and the Lync client user interfaces"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

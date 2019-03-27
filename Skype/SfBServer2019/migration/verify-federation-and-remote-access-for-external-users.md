@@ -1,5 +1,6 @@
 ---
 title: "Verify federation and remote access for external users"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

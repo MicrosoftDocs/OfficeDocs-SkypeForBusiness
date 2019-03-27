@@ -1,5 +1,6 @@
 ---
 title: "Plan for Location-Based Routing in Skype for Business"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

@@ -46,6 +46,8 @@ If you want to learn more about auto attendants, see [What are Phone System auto
 
 ## Step 2 - Create a new auto attendant
 
+[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
+
 > [!IMPORTANT]
 > Every call queue is required to have an associated [resource account](manage-resource-accounts.md). You must create the resource account first, then you can associate it to the auto attendant.
 

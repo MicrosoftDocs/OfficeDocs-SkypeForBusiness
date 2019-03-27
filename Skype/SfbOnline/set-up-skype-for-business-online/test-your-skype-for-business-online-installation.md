@@ -1,5 +1,6 @@
 ---
 title: "Test your Skype for Business Online installation"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

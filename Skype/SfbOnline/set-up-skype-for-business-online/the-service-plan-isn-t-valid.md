@@ -1,5 +1,6 @@
 ---
 title: "The user's Skype for Business Online service plan isn't valid"
+ms.reviewer: 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars

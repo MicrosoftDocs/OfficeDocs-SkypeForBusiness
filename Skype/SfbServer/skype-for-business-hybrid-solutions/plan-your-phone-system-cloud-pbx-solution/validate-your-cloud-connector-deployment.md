@@ -1,5 +1,6 @@
 ---
 title: "Validate your Cloud Connector deployment"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

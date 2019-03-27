@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Web conferencing cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Web conferencing cmdlets
 ms:assetid: dac4d934-1500-4799-be4d-82809d4e7eb3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415675(v=OCS.15)

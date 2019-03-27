@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Technical requirements for mobility'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Technical requirements for mobility
 ms:assetid: 831be681-4de0-4e42-b04f-8879ca4dcd23
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690030(v=OCS.15)

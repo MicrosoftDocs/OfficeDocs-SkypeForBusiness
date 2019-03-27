@@ -1,5 +1,6 @@
 ---
 title: "Create a file share in Skype for Business Server"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -55,4 +56,15 @@ Watch the video steps for **create a file share**:
     
      ![Sharing tab for sharing a folder.](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
   
+> [!NOTE]
+>If the file store is hosted on a DFS share, the following warning will be received:
 
+Warning: Unable to access share permissions for "\\<domain>\<share>".
+
+>This is expected if you are not an administrator on the file server, or if this is a Distributed File System (DFS) share. If the share permissions have already been configured, this warning can be ignored. If it is a new share, refer to the documentation for details on manually configuring share permissions.
+
+>Due to the inability to access the share permissions on a DFS share, Skype for Business Server will not be able to explicitly set groups on the file share. To ensure Skype for Business Server components can access the file share with the appropriate permissions, ensure the following RTC groups are added with Change level share permissions in addition to the local Administrators with Full Control share permissions.
+
+RTCHSUniversalServices
+RTCComponentUniversalServices
+RTCUniversalServerAdmins

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Populate the location database'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Populate the location database
 ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413069(v=OCS.15)

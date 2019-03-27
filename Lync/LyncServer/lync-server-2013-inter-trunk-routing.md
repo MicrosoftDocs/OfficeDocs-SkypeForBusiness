@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Inter-trunk routing'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Inter-trunk routing
 ms:assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721940(v=OCS.15)

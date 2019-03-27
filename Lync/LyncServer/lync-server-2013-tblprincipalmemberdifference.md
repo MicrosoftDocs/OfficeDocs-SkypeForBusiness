@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipalMemberDifference'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: tblPrincipalMemberDifference
 ms:assetid: 0b94f555-6888-4fe0-a048-4660a2513276
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558612(v=OCS.15)

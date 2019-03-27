@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Setting up site policies for Archiving'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Setting up site policies for Archiving
 ms:assetid: dc2ea206-8b9c-44dd-a479-efb217593c89
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205325(v=OCS.15)

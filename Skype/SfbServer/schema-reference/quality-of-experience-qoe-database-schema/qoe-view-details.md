@@ -1,5 +1,6 @@
 ---
 title: "QoE view details"
+ms.reviewer: 
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars

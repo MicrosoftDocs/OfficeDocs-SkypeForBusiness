@@ -1,5 +1,6 @@
 ---
 title: "Prepare Current Domain"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

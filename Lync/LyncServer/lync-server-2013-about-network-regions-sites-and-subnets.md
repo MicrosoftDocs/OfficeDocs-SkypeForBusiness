@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: About network regions, sites, and subnets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: About network regions, sites, and subnets
 ms:assetid: 6662123a-d011-408c-a290-92b2a8589943
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398467(v=OCS.15)

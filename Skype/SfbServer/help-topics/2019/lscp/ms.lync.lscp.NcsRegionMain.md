@@ -1,5 +1,6 @@
 ---
 title: "Configure a Network Region"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

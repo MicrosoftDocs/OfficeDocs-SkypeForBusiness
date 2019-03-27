@@ -822,7 +822,7 @@ and [Audio
 Conferencing](https://products.office.com/skype-for-business/audio-conferencing)).
 
 For Teams, Phone System licenses require associated [Calling
-Plan](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
+Plans](calling-plan-landing-page.md)
 licenses. Calling Plan licensing enables you to make and receive domestic and/or
 international phone calls. These plans are usage-based and have minute pools
 associated with them. Provisioning [Communications

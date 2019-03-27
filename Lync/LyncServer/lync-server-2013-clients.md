@@ -1,5 +1,8 @@
-﻿---
+---
 title: Lync Server 2013 clients
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Clients for Lync Server
 ms:assetid: e143ce9b-3624-4066-942d-6c86ad99be91
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398996(v=OCS.15)

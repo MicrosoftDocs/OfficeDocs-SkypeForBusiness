@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Lync Server Management Shell'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Lync Server Management Shell
 ms:assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398474(v=OCS.15)

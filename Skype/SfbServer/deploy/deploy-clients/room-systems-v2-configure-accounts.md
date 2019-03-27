@@ -53,7 +53,7 @@ You can think of a device account as the resource account that people recognize 
   
 If you already have a resource mailbox account set up for the meeting space where you're installing Microsoft Teams Rooms, you can change that resource account into a device account. Once that's done, all you need to do is add the device account to a Microsoft Teams Rooms device. See device account setup examples provided below.
   
-With additional configuration, remote management is possible using Microsoft Operations Management Suite (OMS) as described in [Plan Microsoft Teams Rooms management with OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), [Deploy Microsoft Teams Rooms management with OMS](with-oms.md), and [Manage Microsoft Teams Rooms devices with OMS](../../manage/skype-room-systems-v2/oms.md). 
+With additional configuration, remote management is possible using Microsoft Azure Monitor as described in [Plan Microsoft Teams Rooms management with Azure Monitor](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [Deploy Microsoft Teams Rooms management with Azure Monitor](azure-monitor.md),  and [Manage Microsoft Teams Rooms devices with Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md). 
   
 ## Basic configuration
 

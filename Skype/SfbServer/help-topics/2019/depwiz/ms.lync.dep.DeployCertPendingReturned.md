@@ -1,5 +1,6 @@
 ---
 title: "Pending Certificate (Returned)"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Using the Monitoring Dashboard'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Using the Monitoring Dashboard
 ms:assetid: e00e5783-116f-481f-ad17-3af847d6769a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721905(v=OCS.15)

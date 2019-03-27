@@ -1,5 +1,6 @@
 ---
 title: Office 365 Groups and Microsoft Teams
+ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -29,7 +30,7 @@ An Office 365 administrator can define an Office 365 Group, add members, and ben
 How Office 365 Groups work
 --------------------------
 
-When you create a team, on the backend, you’re creating an Office 365 Group and the associated SharePoint document library and OneNote notebook, along with ties into other Office 365 cloud applications. If the person creating the team is an owner of an existing Office 365 Public or Private Group, they can add Teams functionality to the group if it has less than 2500 people and has never been added to Teams. This creates one default **General** channel in which chat messages, documents, OneNote, and other objects reside. Viewing the document library for the channel will reveal the **General** folder representing the channel in the team. More importantly, if you create your own folder structure within a document library **it does not propagate** to Teams as a channel; for now, it only flows from Teams into SharePoint.
+When you create a team, on the backend, you’re creating an Office 365 Group and the associated SharePoint document library and OneNote notebook, along with ties into other Office 365 cloud applications. If the person creating the team is an owner of an existing Office 365 Public or Private Group, they can add Teams functionality to the group if it has less than 5000 people and has never been added to Teams. This creates one default **General** channel in which chat messages, documents, OneNote, and other objects reside. Viewing the document library for the channel will reveal the **General** folder representing the channel in the team. More importantly, if you create your own folder structure within a document library **it does not propagate** to Teams as a channel; for now, it only flows from Teams into SharePoint.
 
 > [!NOTE]
 > Based on customer feedback, new Office 365 Groups generated as a result of creating a team in Microsoft Teams will no longer show in Outlook by default. For customers that want to continue with the existing behavior of showing these groups in Outlook, an Exchange Online PowerShell cmdlet will be provided which can enable the group for the Outlook experience. Groups created through Outlook and then later enabled for Teams will continue to show in both Outlook and Teams. This update will gradually roll out across Outlook and Teams in the coming months.

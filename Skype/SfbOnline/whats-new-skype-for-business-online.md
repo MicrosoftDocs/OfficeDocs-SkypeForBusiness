@@ -1,5 +1,6 @@
 ---
 title: What's new in Skype for Business Online.
+ms.reviewer: 
 description: Add a short description
 services: skype-for-business-online-admin
 author: samanro

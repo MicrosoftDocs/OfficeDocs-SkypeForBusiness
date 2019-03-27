@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -29,7 +29,7 @@ Make sure that you understand the business projects (scenarios) that will be in 
 
 ![Core scenarios](media/teams-adoption-modernizing-core-scenarios.png)
 
-Additional scenarios for consider are:
+Additional scenarios to consider are:
 
 - Employee engagement and communication
 - Bring campaigns to market faster

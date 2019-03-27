@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Authenticated user permissions are removed'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Authenticated user permissions are removed
 ms:assetid: 5fcd70a5-813a-4076-9bb6-5b0d47505038
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398425(v=OCS.15)

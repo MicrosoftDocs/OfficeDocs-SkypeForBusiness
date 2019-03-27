@@ -1,5 +1,8 @@
-﻿---
+---
 title: Remove the Monitoring server association
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Remove the Monitoring server association
 ms:assetid: c45b22ae-fc06-484a-a05b-735bd1bb7448
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721877(v=OCS.15)

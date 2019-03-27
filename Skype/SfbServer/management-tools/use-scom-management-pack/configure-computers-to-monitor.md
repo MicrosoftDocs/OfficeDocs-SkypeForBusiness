@@ -1,5 +1,6 @@
 ---
 title: "Configure the Skype for Business Server computers that will be monitored"
+ms.reviewer: 
 ms.author: jambirk
 author: jambirk
 manager: serdars

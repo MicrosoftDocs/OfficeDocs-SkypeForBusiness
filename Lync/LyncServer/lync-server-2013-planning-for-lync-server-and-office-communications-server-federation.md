@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Planning for Lync Server and Office Communications Server federation'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Planning for Lync Server and Office Communications Server federation
 ms:assetid: c9eaf06b-054f-41a4-ad0c-499400d6c4c7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205335(v=OCS.15)

@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Deploying external user access'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Deploying external user access
 ms:assetid: d40c9574-c16b-4fe6-b848-21ae0b7e4f0e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398918(v=OCS.15)

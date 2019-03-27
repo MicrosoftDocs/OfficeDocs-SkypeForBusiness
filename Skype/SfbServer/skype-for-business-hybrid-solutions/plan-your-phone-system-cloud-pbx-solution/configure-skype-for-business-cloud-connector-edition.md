@@ -1,5 +1,6 @@
 ---
 title: "Configure and manage Skype for Business Cloud Connector Edition"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

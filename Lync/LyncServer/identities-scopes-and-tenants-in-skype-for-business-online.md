@@ -1,5 +1,8 @@
-﻿---
+---
 title: Identities, scopes, and tenants in Skype for Business Online
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Identities, scopes, and tenants
 ms:assetid: 7cfa194a-2d01-4370-9b48-ee13ff597fa5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362819(v=OCS.15)

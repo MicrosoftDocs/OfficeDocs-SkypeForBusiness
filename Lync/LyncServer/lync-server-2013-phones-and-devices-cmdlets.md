@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Phones and devices cmdlets'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Phones and devices cmdlets
 ms:assetid: 6ebeba4b-43ce-4a31-9060-50d249b7564c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415657(v=OCS.15)

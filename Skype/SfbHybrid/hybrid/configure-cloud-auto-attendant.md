@@ -12,7 +12,7 @@ ms.collection:
 description: "Instructions for implementing a Cloud PBX Auto Attendant." 
 ---
 
-# Configure Cloud Auto Attendants
+# Configure Cloud Auto Attendants 
 
 Skype for Business Server 2019 hybrid implementations only use Cloud Voicemail and Cloud Auto Attendants and do not integrate with Exchange Online.
 
@@ -62,6 +62,8 @@ Log in to the front end server and run the following PowerShell cmdlets:
     See [Start-ADSyncSyncCycle](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.
 
 ## Online configuration steps
+
+[!INCLUDE [updating-admin-interfaces](../../SfbOnline/includes/updating-admin-interfaces.md)]
 
 Your online implementation will need to have a plan that includes Phone System licenses as described at [Office 365 Enterprise E1, E3, and E4](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4) or [Office 365 Enterprise E5](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing).
 

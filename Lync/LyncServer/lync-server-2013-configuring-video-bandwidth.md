@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configuring video bandwidth'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configuring video bandwidth in Lync Server
 ms:assetid: 446bed91-b26f-4ab2-b2f5-36e6810b405b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204842(v=OCS.15)

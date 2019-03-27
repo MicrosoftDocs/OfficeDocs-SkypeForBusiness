@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Prevent new connections to Lync Server for server maintenance'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Prevent new connections to Lync Server for server maintenance
 ms:assetid: 22b27adf-a590-43bd-9306-a5789ae108d7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520964(v=OCS.15)

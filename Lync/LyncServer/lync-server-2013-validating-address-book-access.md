@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Validating address book access'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Validating address book access
 ms:assetid: 630682c6-9262-46c5-9af1-6193db70374b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720916(v=OCS.15)

@@ -1,5 +1,6 @@
 ---
 title: "Antivirus scanning exclusions for Skype for Business Server"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

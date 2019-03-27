@@ -1,5 +1,6 @@
 ---
 title: "Admin training for Skype for Business Online"
+ms.reviewer: 
 author: thomasbinder
 ms.author: thomasbinder
 manager: lehewe

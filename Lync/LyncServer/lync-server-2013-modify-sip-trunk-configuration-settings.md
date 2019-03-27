@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Modify SIP trunk configuration settings'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Modify SIP trunk configuration settings
 ms:assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688104(v=OCS.15)

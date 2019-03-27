@@ -1,5 +1,6 @@
 ---
 title: Create a change management strategy for Microsoft Teams
+ms.reviewer: 
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars

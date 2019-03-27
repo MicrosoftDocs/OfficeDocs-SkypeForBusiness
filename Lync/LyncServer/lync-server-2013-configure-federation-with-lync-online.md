@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Configure federation with Lync Online'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Configure federation with Lync Online
 ms:assetid: a10bd1d5-c003-46db-9f57-7d55d3fa08da
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205126(v=OCS.15)

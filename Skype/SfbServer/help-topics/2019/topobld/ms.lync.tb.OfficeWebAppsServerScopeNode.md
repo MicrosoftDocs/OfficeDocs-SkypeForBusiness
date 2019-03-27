@@ -1,5 +1,6 @@
 ---
 title: "Office Web Apps Server Scope Node Expander"
+ms.reviewer: 
 ms.author: heidip
 author: microsoftheidi
 manager: serdars

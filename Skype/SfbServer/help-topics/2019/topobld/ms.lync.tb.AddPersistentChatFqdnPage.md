@@ -1,5 +1,6 @@
 ---
 title: "Define Persistent Chat FQDN"
+ms.reviewer: 
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

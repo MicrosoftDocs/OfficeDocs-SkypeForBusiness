@@ -1,5 +1,6 @@
 ---
 title: "Before you begin the migration"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

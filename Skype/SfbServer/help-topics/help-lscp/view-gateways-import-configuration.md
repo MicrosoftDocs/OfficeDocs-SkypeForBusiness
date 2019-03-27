@@ -1,5 +1,6 @@
 ---
 title: "View Gateways (Import Configuration)"
+ms.reviewer: 
 ms.author: kenwith
 author: kenwith
 manager: serdars

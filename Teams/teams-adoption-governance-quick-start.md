@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal

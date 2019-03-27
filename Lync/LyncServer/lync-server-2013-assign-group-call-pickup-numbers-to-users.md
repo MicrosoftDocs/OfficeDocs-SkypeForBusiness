@@ -1,5 +1,8 @@
-﻿---
+---
 title: 'Lync Server 2013: Assign Group Call Pickup numbers to users'
+ms.reviewer: 
+ms.author: kenwith
+author: kenwith
 TOCTitle: Assign Group Call Pickup numbers to users
 ms:assetid: b8e79275-8e7e-4799-b908-f34f61df22f0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945647(v=OCS.15)
