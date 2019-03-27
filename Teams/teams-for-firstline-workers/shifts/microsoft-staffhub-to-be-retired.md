@@ -108,7 +108,7 @@ For end-user help, go to [Shifts Help for Firstline Workers](https://support.off
 
 ### Switch from StaffHub to Shifts in Teams
 
-#### What licenses do I need to move StaffHub users to Shifts in Teams?
+#### What licenses do I need for Teams?
 
 Each user must have an active Microsoft 365 or Office 365 license from an [eligible plan](#which-plans-is-shifts-available-in) and must be assigned a Teams license. For more information, see [Move your StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
